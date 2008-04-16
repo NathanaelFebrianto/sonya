@@ -1,0 +1,7 @@
+
+
+Q1. java.lang.IllegalArgumentException: argument type mismatch
+
+	Answer --> I just had to delete the ajax4jsf lib in web-inf/lib, because the same classes are in richfaces.
+
+	Source --> http://forum.java.sun.com/thread.jspa?threadID=5264691&messageID=10103535 
