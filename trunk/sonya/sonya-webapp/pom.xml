@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.sonya</groupId>
+		<artifactId>sonya</artifactId>
+		<version>1.0.0</version>
+	</parent>
+
+	<artifactId>sonya-webapp</artifactId>
+	<packaging>war</packaging>	
+	<name>sonya-webapp</name>
+
+	<build>
+		<plugins>
+            <plugin>
+                <groupId>org.mortbay.jetty</groupId>
+                <artifactId>maven-jetty-plugin</artifactId>
+                <version>6.0.0</version>
+                <configuration>
+                    <contextPath>/</contextPath>
+                    <scanIntervalSeconds>3</scanIntervalSeconds>
+                    <scanTargetPatterns>
+			            <scanTargetPattern>
+			                <directory>src/main/webapp/WEB-INF</directory>
+			                <excludes>
+			                    <exclude>**/*.jsp</exclude>
+			                    <exclude>**/*.html</exclude>
+			                    <exclude>**/*.xhtml</exclude>
+			                </excludes>
+			                <includes>
+			                    <include>**/*.xml</include>
+			                    <include>**/*.properties</include>
+			                </includes>
+			            </scanTargetPattern>
+                    </scanTargetPatterns>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.apache.myfaces.core</groupId>
+                        <artifactId>myfaces-impl</artifactId>
+                        <version>1.1.5</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>log4j</groupId>
+                        <artifactId>log4j</artifactId>
+                        <version>1.2.13</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+            <plugin>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.0.2</version>
+                <configuration>
+                    <dependentWarExcludes>
+                        **/hibernate.cfg.xml,**/sql-map-config.xml,**/web.xml,WEB-INF/classes/META-INF/**
+                    </dependentWarExcludes>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>native2ascii-maven-plugin</artifactId>
+                <version>1.0-alpha-1</version>
+                <configuration>
+                    <dest>target/classes</dest>
+                    <src>src/main/resources</src>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>native2ascii-utf8</id>
+                        <goals>
+                            <goal>native2ascii</goal>
+                        </goals>
+                        <configuration>
+                            <encoding>UTF8</encoding>
+                            <includes>
+                                ApplicationResources_no.properties,
+                                ApplicationResources_tr.properties,
+                                ApplicationResources_zh*.properties
+                            </includes>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>native2ascii-8859_1</id>
+                        <goals>
+                            <goal>native2ascii</goal>
+                        </goals>
+                        <configuration>
+                            <encoding>8859_1</encoding>
+                            <includes>
+                                ApplicationResources_de.properties,
+                                ApplicationResources_fr.properties,
+                                ApplicationResources_nl.properties,
+                                ApplicationResources_pt*.properties
+                            </includes>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+			<plugin>
+				<artifactId>maven-antrun-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>copy-selenium</id>
+						<phase>process-resources</phase>
+						<configuration>
+							<tasks>
+								<copy todir="./target/${webapp.name}-${sonya.version}/WEB-INF/context">
+									<fileset dir="../sonya-basic/src/main/webapp/WEB-INF/context"/>
+									<fileset dir="../sonya-sample/src/main/webapp/WEB-INF/context"/>
+								</copy>
+								<copy todir="./target/${webapp.name}-${sonya.version}/WEB-INF/faces-config">
+									<fileset dir="../sonya-basic/src/main/webapp/WEB-INF/faces-config"/>
+									<fileset dir="../sonya-sample/src/main/webapp/WEB-INF/faces-config"/>
+								</copy>
+							</tasks>
+						</configuration>
+						<goals>
+							<goal>run</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+        </plugins>
+	</build>
+	
+	<dependencies>
+        <dependency>
+            <groupId>org.sonya</groupId>
+            <artifactId>sonya-sample</artifactId>
+            <version>${sonya.version}</version>
+        </dependency>
+	</dependencies>
+	
+</project>
