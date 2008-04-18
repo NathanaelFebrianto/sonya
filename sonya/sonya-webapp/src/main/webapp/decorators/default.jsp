@@ -7,6 +7,11 @@
         <%@ include file="/common/meta.jsp" %>
         <title><decorator:title/> | <fmt:message key="webapp.name"/></title>
 
+        <!--  
+        <link rel="stylesheet" type="text/css" media="all" href="<c:url value='/styles/${appConfig["csstheme"]}/theme.css'/>" />
+        <link rel="stylesheet" type="text/css" media="all" href="<c:url value='/styles/myfaces.css'/>" />
+        <link rel="stylesheet" type="text/css" media="print" href="<c:url value='/styles/${appConfig["csstheme"]}/print.css'/>" />
+		-->
         <script type="text/javascript" src="<c:url value='/scripts/prototype.js'/>"></script>
         <script type="text/javascript" src="<c:url value='/scripts/scriptaculous.js'/>"></script>
         <script type="text/javascript" src="<c:url value='/scripts/global.js'/>"></script>
@@ -15,11 +20,11 @@
 <body<decorator:getProperty property="body.id" writeEntireProperty="true"/><decorator:getProperty property="body.class" writeEntireProperty="true"/>>
 
     <div id="page">
-        <div id="header" class="clearfix">
-            <jsp:include page="/common/header.jsp"/>
+        <div id="header">
+            <jsp:include page="/common/header.jsp"/>            
         </div>
 
-        <div id="content" class="clearfix">
+        <div id="content">
             <div id="main">
                 <%@ include file="/common/messages.jsp" %>
                 <h1><decorator:getProperty property="meta.heading"/></h1>
