@@ -1,0 +1,54 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:a4j="http://richfaces.org/a4j"
+    xmlns:rich="http://richfaces.org/rich">
+
+    <style>
+    .pic {
+        margin-bottom: -4px;
+        margin-right: 2px;
+     }
+    </style>
+    
+    <h:form>
+
+        <rich:toolBar style=" height : 12px;">
+
+            <rich:dropDownMenu>
+                <f:facet name="label"> 
+                    <h:panelGroup>
+                        <h:outputText value="Customer"/>
+                    </h:panelGroup>
+                </f:facet>
+                <rich:menuItem submitMode="ajax" value="List"
+                    action="#{ddmenu.doList}">
+                </rich:menuItem>
+                <rich:menuItem submitMode="ajax" value="New"
+                    action="#{ddmenu.doNew}" />
+                <rich:menuSeparator id="menuSeparator11" />
+                <rich:menuItem submitMode="ajax" value="Exit"
+                    action="#{ddmenu.doExit}" />
+            </rich:dropDownMenu>
+
+            <rich:dropDownMenu>
+                <f:facet name="label"> 
+                    <h:panelGroup>
+                        <h:outputText value="Segmentation"/>
+                    </h:panelGroup>
+                </f:facet>
+                <rich:menuItem submitMode="ajax" value="List"
+                    action="#{ddmenu.doList}">
+                </rich:menuItem>
+                <rich:menuItem submitMode="ajax" value="New"
+                    action="#{ddmenu.doNew}" />
+                <rich:menuSeparator id="menuSeparator21" />
+                <rich:menuItem submitMode="ajax" value="Exit"
+                    action="#{ddmenu.doExit}" />
+            </rich:dropDownMenu>
+
+        </rich:toolBar>
+    </h:form>
+
+</ui:composition>
