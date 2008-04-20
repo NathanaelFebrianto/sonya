@@ -5,13 +5,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
     <head>
         <%@ include file="/common/meta.jsp" %>
-        <title><decorator:title/> | <fmt:message key="webapp.name"/></title>
+        <title><fmt:message key="webapp.name"/></title>
 
-        <!--  
         <link rel="stylesheet" type="text/css" media="all" href="<c:url value='/styles/${appConfig["csstheme"]}/theme.css'/>" />
-        <link rel="stylesheet" type="text/css" media="all" href="<c:url value='/styles/myfaces.css'/>" />
         <link rel="stylesheet" type="text/css" media="print" href="<c:url value='/styles/${appConfig["csstheme"]}/print.css'/>" />
-		-->
+
         <script type="text/javascript" src="<c:url value='/scripts/prototype.js'/>"></script>
         <script type="text/javascript" src="<c:url value='/scripts/scriptaculous.js'/>"></script>
         <script type="text/javascript" src="<c:url value='/scripts/global.js'/>"></script>
@@ -30,19 +28,9 @@
                 <h1><decorator:getProperty property="meta.heading"/></h1>
                 <decorator:body/>
             </div>
-
-            <div id="sub">
-            </div>
-
-            <div id="nav">
-                <div class="wrapper">
-                    <h2 class="accessibility">Navigation</h2>
-                </div>
-                <hr/>
-            </div><!-- end nav -->            
         </div>
 
-        <div id="footer" class="clearfix">
+        <div id="footer">
             <jsp:include page="/common/footer.jsp"/>
         </div>
     </div>
