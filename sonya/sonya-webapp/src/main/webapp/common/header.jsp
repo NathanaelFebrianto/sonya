@@ -7,7 +7,7 @@
 	<c:if test="${pageContext.request.locale.language != 'ko'}">
 		<a href="<c:url value='/?locale=ko'/>">Korean</a>	
 	</c:if>
-	| <a href=#><fmt:message key="login"/></a>
+	| <a href=#><fmt:message key="signin"/></a>
 </div>
 
 <div class="left">
