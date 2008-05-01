@@ -2,60 +2,107 @@
 <!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN"
     "http://ibatis.apache.org/dtd/sql-map-2.dtd">
 
-<sqlMap namespace="PersonSQL">
-    <typeAlias alias="person" type="org.sonya.sample.model.Person"/>
+<sqlMap namespace="user">
+    <typeAlias alias="user" type="org.sonya.user.model.User"/>
 
-    <parameterMap id="addParam" class="person">
-        <parameter property="firstName" jdbcType="VARCHAR" javaType="java.lang.String"/>
-        <parameter property="lastName" jdbcType="VARCHAR" javaType="java.lang.String"/>
-    </parameterMap>
-
-    <parameterMap id="updateParam" class="person">
-        <parameter property="id" jdbcType="INTEGER" javaType="java.lang.Long"/>
-        <parameter property="firstName" jdbcType="VARCHAR" javaType="java.lang.String"/>
-        <parameter property="lastName" jdbcType="VARCHAR" javaType="java.lang.String"/>
-    </parameterMap>
-
-    <resultMap id="personResult" class="person">
+    <resultMap id="userResult" class="user">
         <result property="id" column="id"/>
+        <result property="sid" column="sid"/>
+        <result property="username" column="username"/>
+        <result property="password" column="password"/>
+        <result property="roleId" column="role_id"/>        
         <result property="firstName" column="first_name"/>
-        <result property="lastName" column="last_name"/>
+        <result property="lastName" column="last_name"/>        
+        <result property="passwordHintQuestion" column="password_hint_q"/>
+        <result property="passwordHintAnswer" column="password_hint_a"/>
+        <result property="company" column="company"/>
+        <result property="department" column="department"/>
+        <result property="jobLevel" column="job_level"/>
+        <result property="postalCode" column="postal_code"/>
+        <result property="address" column="address"/>
+        <result property="addressDetail" column="address_detail"/>
+        <result property="email" column="email"/>
+        <result property="phoneNo" column="phone_no"/>
+        <result property="mobileNo" column="mobile_no"/>
+        <result property="website" column="website"/>
+        <result property="use" column="use_yn"/>
+        <result property="terminate" column="terminate_yn"/>
+        <result property="terminateDate" column="terminate_date"/>
+        <result property="insertDate" column="insert_date"/>
+        <result property="updateDate" column="update_date"/>
+        <result property="deleteDate" column="delete_date"/>
     </resultMap>
 
-    <select id="getPersons" resultMap="personResult">
+    <insert id="addUser" parameterClass="user">
     <![CDATA[
-        select * from person
+        INSERT INTO
+        t_user (sid, username, password, role_id, first_name, last_name, 
+	        password_hint_q, password_hint_a, company_name, department, job_level,
+	        postal_code, address, address_detail, email, phone_no, mobile_no, 
+	        website, use_yn, terminate_yn, terminate_date, 
+	        insert_date, update_date, delete_date)
+        VALUES (#sid#, #username#, #password#, #roleId#, #firstName#, #lastName#, 
+	        #passwordHintQuestion#, #passwordHintAnswer#, #companyName#, #department#, #jobLevel#,
+	        #postalCode#, #address#, #addressDetail#, #email#, #phoneNo#, #mobileNo#, 
+	        #website#, #use#, #terminate#, #terminateDate#, 
+	        #insertDate#, #updateDate#, #deleteDate#)
     ]]>
-    </select>
-
-    <select id="getPerson" resultMap="personResult">
-    <![CDATA[
-        select * from person where id = #value#
-    ]]>
-    </select>
-
-    <insert id="addPerson" parameterMap="addParam">
-        <![CDATA[
-            insert into person (first_name,last_name) values ( ?,? )
-        ]]>
-        <selectKey resultClass="java.lang.Long" keyProperty="id" type="post">
-            SELECT LAST_INSERT_ID() AS id
+        <selectKey resultClass="java.lang.String" keyProperty="id" type="post">
+            SELECT last_insert_id();
         </selectKey>
-    </insert>
+    </insert>    
 
-    <update id="updatePerson" parameterMap="updateParam">
+    <update id="updateUser" parameterClass="user">
     <![CDATA[
-        update person set first_name = ?, last_name = ? where id = ?
+        UPDATE t_user SET
+            sid = #sid#,
+            username = #username#,
+            password = #password#,
+            role_id = #roleId#,
+            first_name = #firstName#,
+            last_name = #lastName#,
+            password_hint_q = #passwordHintQuestion#, 
+            password_hint_a = #passwordHintAnswer#,
+            company = #company#,
+            department = #department#,
+            job_level = #jobLevel#,
+            postal_code = #postalCode#,
+            address = #address#,
+            address_detail = #addressDetail#,
+            email = #email#,
+            phone_no = #phoneNo#,
+            mobile_no = #mobileNo#,
+            website = #website#,
+            use_yn = #use#,
+            terminate_yn = #terminate#,
+            terminate_date = #terminateDate#,
+            update_date = #updateDate#,
+            delete_date = #deleteDate#,
+        WHERE id = #id#
     ]]>
     </update>
-
-    <delete id="deletePerson">
+    
+    <select id="getUser" resultMap="userResult">
     <![CDATA[
-        delete from person where id = #value#
+        SELECT * FROM t_user WHERE id=#id#
+    ]]>
+    </select>
+    
+    <select id="getUserByUsername" resultMap="userResult">
+    <![CDATA[
+        SELECT * FROM t_user WHERE username=#username#
+    ]]>
+    </select>
+    
+    <select id="getUsers" resultMap="userResult">
+    <![CDATA[
+        SELECT * FROM t_user ORDER BY UPPER(username)
+    ]]>
+    </select>
+
+    <delete id="deleteUser" parameterClass="java.lang.String">
+    <![CDATA[
+        DELETE FROM t_user WHERE id = #id#
     ]]>
     </delete>
-    
-    <select id="findByLastName" resultMap="personResult">
-    	select * from person where last_name = #value#
-	</select>
 </sqlMap>

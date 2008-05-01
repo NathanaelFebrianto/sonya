@@ -105,13 +105,17 @@
 						<phase>process-resources</phase>
 						<configuration>
 							<tasks>
+								<!-- Add new context xml path here -->
 								<copy todir="./target/${webapp.name}-${sonya.version}/WEB-INF/context">
 									<fileset dir="../sonya-basic/src/main/webapp/WEB-INF/context"/>
 									<fileset dir="../sonya-sample/src/main/webapp/WEB-INF/context"/>
+									<fileset dir="../sonya-user/src/main/webapp/WEB-INF/context"/>
 								</copy>
+								<!-- Add new faces config xml path here -->
 								<copy todir="./target/${webapp.name}-${sonya.version}/WEB-INF/faces-config">
 									<fileset dir="../sonya-basic/src/main/webapp/WEB-INF/faces-config"/>
 									<fileset dir="../sonya-sample/src/main/webapp/WEB-INF/faces-config"/>
+									<fileset dir="../sonya-user/src/main/webapp/WEB-INF/faces-config"/>
 								</copy>
 							</tasks>
 						</configuration>
@@ -128,6 +132,11 @@
         <dependency>
             <groupId>org.sonya</groupId>
             <artifactId>sonya-sample</artifactId>
+            <version>${sonya.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.sonya</groupId>
+            <artifactId>sonya-user</artifactId>
             <version>${sonya.version}</version>
         </dependency>
 	</dependencies>

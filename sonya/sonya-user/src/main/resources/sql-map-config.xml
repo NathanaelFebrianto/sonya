@@ -7,6 +7,5 @@
         maxRequests="32" maxSessions="10"/>
 
     <!-- Identify all SQL Map XML files to be loaded by this SQL map. Relative to classpath -->
-    <sqlMap resource="sqlmaps/PersonSQL.xml"/>
-    <!-- You can safely delete this file if you're using Hibernate or JPA. -->
+    <sqlMap resource="sqlmaps/user.xml"/>
 </sqlMapConfig>
