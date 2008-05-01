@@ -15,6 +15,7 @@
 	<modules>
 		<module>sonya-basic</module>
 		<module>sonya-sample</module>
+		<module>sonya-user</module>
 		<module>sonya-webapp</module>
 	</modules>
 

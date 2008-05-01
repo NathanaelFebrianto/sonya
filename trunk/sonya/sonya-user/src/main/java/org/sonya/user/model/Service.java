@@ -1,7 +1,3 @@
-/*
- * Copyright Sonya, 2008. All Rights Reserved.
- */
-
 package org.sonya.user.model;
 
 import java.io.Serializable;
@@ -11,15 +7,15 @@ import org.sonya.model.BaseObject;
 /**
  * This class represents service object
  * 
- * @author YoungGue Bae(Louie)
+ * @author YoungGue Bae (Louie)
  */
 public class Service extends BaseObject implements Serializable {
 	private static final long serialVersionUID = 7604119003041240515L;
 	private String sid;
 	private String serviceType;
 	private String serviceName;
+	private String adminUserId;
 	private String password;
-	private String defaultUserId;
 	private boolean use;
 	private boolean expire;
 	private boolean terminate;
@@ -39,12 +35,12 @@ public class Service extends BaseObject implements Serializable {
 		return serviceName;
 	}
 
-	public String getPassword() {
-		return password;
+	public String getAdminUserId() {
+		return adminUserId;
 	}
 
-	public String getDefaultUserId() {
-		return defaultUserId;
+	public String getPassword() {
+		return password;
 	}
 
 	public boolean isUse() {
@@ -83,12 +79,12 @@ public class Service extends BaseObject implements Serializable {
 		this.serviceName = serviceName;
 	}
 
-	public void setPassword(String password) {
-		this.password = password;
+	public void setAdminUserId(String adminUserId) {
+		this.adminUserId = adminUserId;
 	}
 
-	public void setDefaultUserId(String defaultUserId) {
-		this.defaultUserId = defaultUserId;
+	public void setPassword(String password) {
+		this.password = password;
 	}
 
 	public void setUse(boolean use) {

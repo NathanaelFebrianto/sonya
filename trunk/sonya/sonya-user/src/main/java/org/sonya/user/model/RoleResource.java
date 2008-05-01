@@ -1,7 +1,3 @@
-/*
- * Copyright Sonya, 2008. All Rights Reserved.
- */
-
 package org.sonya.user.model;
 
 import java.io.Serializable;
@@ -11,7 +7,7 @@ import org.sonya.model.BaseObject;
 /**
  *This class is used to represent available role resources.
  *  
- * @author YoungGue Bae(Louie)
+ * @author YoungGue Bae (Louie)
  */
 public class RoleResource extends BaseObject implements Serializable {
 	private static final long serialVersionUID = 1600068515732799430L;
