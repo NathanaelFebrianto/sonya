@@ -11,6 +11,7 @@ import org.sonya.model.BaseObject;
  */
 public class Service extends BaseObject implements Serializable {
 	private static final long serialVersionUID = 7604119003041240515L;
+	
 	private String sid;
 	private String serviceType;
 	private String serviceName;

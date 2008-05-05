@@ -2,15 +2,39 @@
 <beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
 
+    <!-- SqlMap setup for iBATIS Database Layer -->
+    <bean id="sqlMapClient-user" class="org.springframework.orm.ibatis.SqlMapClientFactoryBean">
+        <property name="configLocation">
+            <value>classpath:/sql-map-config-user.xml</value>
+        </property>
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
     <!-- Add DAOs here -->
     <bean id="userDao" class="org.sonya.user.dao.ibatis.UserDaoiBatis">
         <property name="dataSource" ref="dataSource"/>
-        <property name="sqlMapClient" ref="sqlMapClient"/>
+        <property name="sqlMapClient" ref="sqlMapClient-user"/>
     </bean>
     
-    <!-- Add Managers here -->
+    <!-- Add Managers here -->    
+    <!--  
+    <bean id="lookupManager" class="org.appfuse.service.impl.LookupManagerImpl">
+        <property name="lookupDao" ref="lookupDao"/>
+    </bean>
+
+    <bean id="userManager" class="org.appfuse.service.impl.UserManagerImpl">
+        <property name="userDao" ref="userDao"/>
+        <property name="authenticationProvider" ref="daoAuthenticationProvider"/>
+    </bean>
+
+    <bean id="roleManager" class="org.appfuse.service.impl.RoleManagerImpl">
+        <property name="roleDao" ref="roleDao"/>
+    </bean>
+	-->	
 	<bean id="userManager" class="org.sonya.user.service.impl.UserManagerImpl">
 	    <constructor-arg ref="userDao"/>
-	</bean>    
+	</bean>
+	
+	  
     
 </beans>

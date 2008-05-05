@@ -14,6 +14,8 @@
                 /scripts/**=#NONE#
                 /styles/**=#NONE#
                 /**=httpSessionContextIntegrationFilter,authenticationProcessingFilter,securityContextHolderAwareRequestFilter,rememberMeProcessingFilter,anonymousProcessingFilter,exceptionTranslationFilter,filterInvocationInterceptor
+                /common/**/*=httpSessionContextIntegrationFilter,anonymousProcessingFilter
+                /user/**/*=httpSessionContextIntegrationFilter,anonymousProcessingFilter
             </value>
             <!-- Put channelProcessingFilter before securityContextHolderAwareRequestFilter to turn on SSL switching -->
             <!-- It's off by default b/c Canoo WebTest doesn't support SSL out-of-the-box -->
@@ -74,6 +76,8 @@
                 /signup.html*=ROLE_ANONYMOUS,ROLE_ADMIN,ROLE_USER
                 /a4j.res/*.html*=ROLE_ANONYMOUS,ROLE_ADMIN,ROLE_USER <!-- APF-737, OK to remove if not using JSF -->
                 /**/*.html*=ROLE_ADMIN,ROLE_USER
+                /common/**/*=ROLE_ANONYMOUS
+                /user/**/*=ROLE_ANONYMOUS
             </value>
         </property>
     </bean>
@@ -125,7 +129,7 @@
 
     <!-- Apply method-level interceptor to userManager bean -->
     <aop:config>
-        <aop:advisor id="managerSecurity" advice-ref="methodSecurityInterceptor" pointcut="execution(* org.appfuse.service.UserManager.*(..))"/>
+        <aop:advisor id="managerSecurity" advice-ref="methodSecurityInterceptor" pointcut="execution(* org.sonya.user.service.UserManager.*(..))"/>
     </aop:config>
 
     <bean id="methodSecurityInterceptor" class="org.acegisecurity.intercept.method.aopalliance.MethodSecurityInterceptor">
@@ -133,8 +137,8 @@
         <property name="accessDecisionManager" ref="accessDecisionManager"/>
         <property name="objectDefinitionSource">
              <value>
-                 org.appfuse.service.UserManager.getUsers=ROLE_ADMIN
-                 org.appfuse.service.UserManager.removeUser=ROLE_ADMIN
+                 org.sonya.user.service.UserManager.getUsers=ROLE_ADMIN
+                 org.sonya.user.service.UserManager.removeUser=ROLE_ADMIN
              </value>
         </property>
     </bean>

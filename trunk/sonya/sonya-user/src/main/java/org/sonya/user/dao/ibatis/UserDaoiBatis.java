@@ -3,17 +3,20 @@ package org.sonya.user.dao.ibatis;
 import java.util.List;
 
 import org.acegisecurity.userdetails.UserDetails;
+import org.acegisecurity.userdetails.UserDetailsService;
 import org.acegisecurity.userdetails.UsernameNotFoundException;
 import org.sonya.dao.ibatis.GenericDaoiBatis;
+import org.sonya.sample.model.Person;
 import org.sonya.user.dao.UserDao;
 import org.sonya.user.model.User;
+import org.springframework.orm.ObjectRetrievalFailureException;
 
 /**
  * User Data Access Object for iBatis.
  * 
  * @author YoungGue Bae (Louie)
  */
-public class UserDaoiBatis extends GenericDaoiBatis<User, String> implements UserDao {
+public class UserDaoiBatis extends GenericDaoiBatis<User, String> implements UserDao, UserDetailsService {
 
 	/**
      * Constructor that sets the entity to User.class.
@@ -25,19 +28,44 @@ public class UserDaoiBatis extends GenericDaoiBatis<User, String> implements Use
     /**
      * {@inheritDoc}
      */
-     public List<User> getUsers() {
-    	 return null;
+    @SuppressWarnings("unchecked")
+    public List<User> getUsers() {
+        List users = (List<User>)getSqlMapClientTemplate().queryForList("getUsers", null);
+
+        return users;
     }
     
     /**
-     * Saves a user's information.
-     * 
-     * @param user the object to be saved
-     * @return the user object
+     * Get user by id.
+     *
+     * @param userId the user's id
+     * @return a populated user object
      */
-    public User saveUser(User user) {
-    	log.debug("user's id: " + user.getId());
-    	return user;
+    @SuppressWarnings("unchecked")
+    @Override
+    public User get(String userId) {
+        User user = (User)getSqlMapClientTemplate().queryForObject("getUser", userId);
+
+        if (user == null) {
+            logger.warn("uh oh, user not found...");
+            throw new ObjectRetrievalFailureException(User.class, userId);
+        }
+
+        return user;
+    }
+    
+    /**
+     * {@inheritDoc}
+     */
+    public User saveUser(final User user) {
+        //iBatisDaoUtils.prepareObjectForSaveOrUpdate(user);
+
+        if (user.getId() == null) {
+        	String id = (String)getSqlMapClientTemplate().insert("addUser", user);
+            user.setId(id);
+        }
+
+        return user;
     }
     
     /**
@@ -52,15 +80,33 @@ public class UserDaoiBatis extends GenericDaoiBatis<User, String> implements Use
         return this.saveUser(user);
     }
 
-    /** 
+    /**
      * {@inheritDoc}
-    */
+     */
+    @Override
+    public void remove(String userId) {
+        getSqlMapClientTemplate().update("deleteUser", userId);
+    }
+    
+    /**
+     * {@inheritDoc}
+     */
+    @SuppressWarnings("unchecked")
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        List users = null;
-        if (users == null || users.isEmpty()) {
-            throw new UsernameNotFoundException("user '" + username + "' not found...");
-        } else {
-            return (UserDetails) users.get(0);
-        }
+         User user = (User)getSqlMapClientTemplate().queryForObject("getUserByUsername", username);
+
+         if (user == null) {
+             logger.warn("uh oh, user not found...");
+             throw new UsernameNotFoundException("user '" + username + "' not found...");
+         }
+         
+         return user;
+     }
+
+    /**
+     * {@inheritDoc}
+     */
+    public String getUserPassword(String username) {
+        return (String)getSqlMapClientTemplate().queryForObject("getUserPassword", username);
     }
 }

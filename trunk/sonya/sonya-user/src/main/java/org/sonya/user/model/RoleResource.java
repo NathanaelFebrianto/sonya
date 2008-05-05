@@ -11,6 +11,7 @@ import org.sonya.model.BaseObject;
  */
 public class RoleResource extends BaseObject implements Serializable {
 	private static final long serialVersionUID = 1600068515732799430L;
+	
 	private String sid;
 	private String roleId;
 	private String menuId;

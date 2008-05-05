@@ -6,7 +6,7 @@
 <f:loadBundle var="text" basename="#{userBean.bundleName}"/>
 <body id="user">
 <t:dataTable id="users" var="user" style="margin-top: 10px"
-    value="#{userBean.persons}" rows="25" styleClass="scrollerTable table"
+    value="#{userBean.users}" rows="25" styleClass="scrollerTable table"
     headerClass="standardTable_Header" rowClasses="standardTable_Row1,standardTable_Row2"
     columnClasses="standardTable_Column,standardTable_Column,standardTable_Column,standardTable_Column,standardTable_ColumnCentered">
 
@@ -21,7 +21,7 @@
     <t:column>
         <f:facet name="header">
             <t:commandSortHeader columnName="firstName" arrow="true">
-                <h:outputText value="#{text['user.firstName']}" />
+                <h:outputText value="#{text['user.first.name']}" />
             </t:commandSortHeader>
         </f:facet>
         <h:outputText value="#{user.firstName}" escape="true"/>
@@ -30,7 +30,7 @@
     <t:column>
         <f:facet name="header">
             <t:commandSortHeader columnName="lastName" arrow="true">
-                <h:outputText value="#{text['user.lastName']}" />
+                <h:outputText value="#{text['user.last.name']}" />
             </t:commandSortHeader>
         </f:facet>
         <h:outputText value="#{user.lastName}" escape="true"/>
