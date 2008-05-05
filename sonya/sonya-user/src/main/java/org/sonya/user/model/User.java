@@ -1,16 +1,24 @@
 package org.sonya.user.model;
 
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
+import org.acegisecurity.GrantedAuthority;
+import org.acegisecurity.userdetails.UserDetails;
 import org.sonya.model.BaseObject;
+import org.sonya.model.LabelValue;
 
 /**
  * This class represents the basic "user" object that allows for authentication.
  *
  * @author YoungGue Bae (Louie)
  */
-public class User extends BaseObject implements Serializable {
+public class User extends BaseObject implements Serializable, UserDetails {
 	private static final long serialVersionUID = 619543912512248365L;
+	
 	private String id;
 	private String sid;
 	private String username;
@@ -35,7 +43,12 @@ public class User extends BaseObject implements Serializable {
 	private String terminateDate;
 	private String insertDate;
 	private String updateDate;
-	private String deleteDate;	
+	private String deleteDate;
+	
+	private boolean enabled;
+    private boolean accountExpired;
+    private boolean accountLocked;
+    private boolean credentialsExpired;
 	
 	public String getId() {
 		return id;
@@ -137,6 +150,52 @@ public class User extends BaseObject implements Serializable {
 		return deleteDate;
 	}
 
+    /**
+     * @see org.acegisecurity.userdetails.UserDetails#getAuthorities()
+     * @return GrantedAuthority[] an array of roles.
+     */
+    public GrantedAuthority[] getAuthorities() {
+        //return roles.toArray(new GrantedAuthority[0]);
+        return null;
+    }
+
+    public boolean isEnabled() {
+        return enabled;
+    }
+
+    public boolean isAccountExpired() {
+        return accountExpired;
+    }
+    
+    /**
+     * @see org.acegisecurity.userdetails.UserDetails#isAccountNonExpired()
+     */
+    public boolean isAccountNonExpired() {
+        return !isAccountExpired();
+    }
+
+    public boolean isAccountLocked() {
+        return accountLocked;
+    }
+    
+    /**
+     * @see org.acegisecurity.userdetails.UserDetails#isAccountNonLocked()
+     */
+    public boolean isAccountNonLocked() {
+        return !isAccountLocked();
+    }
+
+    public boolean isCredentialsExpired() {
+        return credentialsExpired;
+    }
+    
+    /**
+     * @see org.acegisecurity.userdetails.UserDetails#isCredentialsNonExpired()
+     */
+    public boolean isCredentialsNonExpired() {
+        return !credentialsExpired;
+    }
+	
 	public void setId(String id) {
 		this.id = id;
 	}
@@ -236,6 +295,22 @@ public class User extends BaseObject implements Serializable {
 	public void setDeleteDate(String deleteDate) {
 		this.deleteDate = deleteDate;
 	}
+	
+    public void setEnabled(boolean enabled) {
+        this.enabled = enabled;
+    }
+
+    public void setAccountExpired(boolean accountExpired) {
+        this.accountExpired = accountExpired;
+    }
+    
+    public void setAccountLocked(boolean accountLocked) {
+        this.accountLocked = accountLocked;
+    }
+
+    public void setCredentialsExpired(boolean credentialsExpired) {
+        this.credentialsExpired = credentialsExpired;
+    }
 
 	@Override
 	public boolean equals(Object o) {

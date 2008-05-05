@@ -39,12 +39,8 @@
     <logger name="org.apache.commons.validator.ValidatorResources">
         <level value="ERROR"/>
     </logger>
-
-    <logger name="org.appfuse">
-        <level value="INFO"/>
-    </logger>
     
-    <logger name="com.sonya">
+    <logger name="org.sonya">
         <level value="DEBUG"/>
     </logger>
 

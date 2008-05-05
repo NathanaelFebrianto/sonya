@@ -10,8 +10,8 @@
     <!-- AOP: Configuration and Aspects                                      -->
     <!-- =================================================================== -->
     <aop:config>
-        <!--  
         <aop:advisor id="userManagerTx" advice-ref="userManagerTxAdvice" pointcut="execution(* *..service.UserManager.*(..))" order="0"/>        
+        <!-- 
         <aop:advisor id="userManagerSecurity" advice-ref="userSecurityAdvice" pointcut="execution(* *..service.UserManager.saveUser(..))" order="1"/>
         -->
         <aop:advisor id="managerTx" advice-ref="txAdvice" pointcut="execution(* *..service.*Manager.*(..))" order="2"/>
@@ -40,14 +40,14 @@
         </tx:attributes>
     </tx:advice>
 
-    <!--  
     <tx:advice id="userManagerTxAdvice">
         <tx:attributes>
             <tx:method name="save*" rollback-for="UserExistsException"/>
         </tx:attributes>
     </tx:advice>
     
-    <bean id="userSecurityAdvice" class="org.appfuse.service.UserSecurityAdvice"/>
+    <!--  
+    <bean id="userSecurityAdvice" class="org.sonya.user.service.UserSecurityAdvice"/>
     -->
     
     <!-- =================================================================== -->
@@ -93,36 +93,21 @@
     <!-- in UserManagerImpl. Overridden in security.xml.                     -->
     <!-- =================================================================== -->
     <!-- =================================================================== -->
-    <!--  
     <bean id="daoAuthenticationProvider" class="org.acegisecurity.providers.dao.DaoAuthenticationProvider">
          <property name="userDetailsService" ref="userDao"/>
          <property name="passwordEncoder" ref="passwordEncoder"/>
     </bean>
-    -->
 
     <bean id="passwordEncoder" class="org.acegisecurity.providers.encoding.ShaPasswordEncoder"/>
 
     <!-- =================================================================== -->
     <!-- Managers: For accessing DAOs                                        -->
     <!-- =================================================================== -->
+    <!-- Commented by Louie.
     <bean id="manager" class="org.sonya.service.impl.UniversalManagerImpl">
         <property name="dao" ref="universalDao"/>
     </bean>
-    
-    <!--  
-    <bean id="lookupManager" class="org.appfuse.service.impl.LookupManagerImpl">
-        <property name="lookupDao" ref="lookupDao"/>
-    </bean>
-
-    <bean id="userManager" class="org.appfuse.service.impl.UserManagerImpl">
-        <property name="userDao" ref="userDao"/>
-        <property name="authenticationProvider" ref="daoAuthenticationProvider"/>
-    </bean>
-
-    <bean id="roleManager" class="org.appfuse.service.impl.RoleManagerImpl">
-        <property name="roleDao" ref="roleDao"/>
-    </bean>
-	-->
+    -->
     
     <!-- Add new Managers here -->
     <bean id="applicationResourcesInitializer" class="org.sonya.webapp.action.ApplicationResourcesInitializer" />

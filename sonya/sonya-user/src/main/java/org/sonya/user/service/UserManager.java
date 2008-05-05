@@ -15,14 +15,6 @@ import org.sonya.user.model.User;
  */
 public interface UserManager extends GenericManager<User, String> {
 
-	/**
-     * Retrieves a user by userId.  An exception is thrown if user not found
-     *
-     * @param userId the identifier for the user
-     * @return User
-     */
-    User getUser(String userId);
-
     /**
      * Retrieves a list of users, filtering with parameters on a user object.
      * 
@@ -30,6 +22,14 @@ public interface UserManager extends GenericManager<User, String> {
      * @return List
      */
     List getUsers(User user);
+    
+	/**
+     * Retrieves a user by userId.  An exception is thrown if user not found
+     *
+     * @param userId the identifier for the user
+     * @return User
+     */
+    User getUser(String userId);
 
     /**
      * Finds a user by their username.

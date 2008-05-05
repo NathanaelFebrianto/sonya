@@ -11,9 +11,10 @@ import org.sonya.model.BaseObject;
  */
 public class Menu extends BaseObject implements Serializable {
 	private static final long serialVersionUID = -5098863812599029214L;
+	
 	private String sid;
-	private String menuId;
-	private String menuName;
+	private String id;
+	private String name;
 	private String parentMenuId;
 	private String depth;
 
@@ -21,12 +22,12 @@ public class Menu extends BaseObject implements Serializable {
 		return sid;
 	}
 
-	public String getMenuId() {
-		return menuId;
+	public String getId() {
+		return id;
 	}
 
-	public String getMenuName() {
-		return menuName;
+	public String getName() {
+		return name;
 	}
 
 	public String getParentMenuId() {
@@ -41,12 +42,12 @@ public class Menu extends BaseObject implements Serializable {
 		this.sid = sid;
 	}
 
-	public void setMenuId(String menuId) {
-		this.menuId = menuId;
+	public void setId(String id) {
+		this.id = id;
 	}
 
-	public void setMenuName(String menuName) {
-		this.menuName = menuName;
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	public void setParentMenuId(String parentMenuId) {

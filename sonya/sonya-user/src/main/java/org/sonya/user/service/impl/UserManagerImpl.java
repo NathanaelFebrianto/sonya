@@ -17,7 +17,7 @@ import org.springframework.beans.factory.annotation.Required;
  * @author YoungGue Bae (Louie)
  */
 public class UserManagerImpl extends GenericManagerImpl<User, String> implements UserManager {
-    private UserDao dao;
+    private UserDao userDao;
     private DaoAuthenticationProvider authenticationProvider;
 
     /**
@@ -25,19 +25,19 @@ public class UserManagerImpl extends GenericManagerImpl<User, String> implements
      */
     public UserManagerImpl(UserDao userDao) {
         super(userDao);
-        this.dao = dao;
+        this.userDao = userDao;
     }    
-    
+
     /**
      * Set the Dao for communication with the data layer.
      * 
      * @param dao the UserDao that communicates with the database
      */
     @Required
-    public void setUserDao(UserDao dao) {
-        this.dao = dao;
+    public void setUserDao(UserDao userDao) {
+        this.userDao = userDao;
     }
-
+    
     /**
      * Set the DaoAuthenticationProvider object that will provide both the
      * PasswordEncoder and the SaltSource which will be used for password
@@ -53,18 +53,17 @@ public class UserManagerImpl extends GenericManagerImpl<User, String> implements
     /**
      * {@inheritDoc}
      */
-    public User getUser(String userId) {
-        return dao.get(userId);
+    public List<User> getUsers(User user) {
+    	return userDao.getUsers();
     }
     
     /**
      * {@inheritDoc}
      */
-    public List<User> getUsers(User user) {
-        return dao.getUsers();
+    public User getUser(String userId) {
+        return userDao.get(userId);
     }
-
-
+    
     /**
      * {@inheritDoc}
      * 
@@ -73,7 +72,7 @@ public class UserManagerImpl extends GenericManagerImpl<User, String> implements
      * @throws UsernameNotFoundException thrown when username not found
      */
     public User getUserByUsername(String username) throws UsernameNotFoundException {
-        return (User) dao.loadUserByUsername(username);
+        return (User)userDao.loadUserByUsername(username);
     }
     
     /**
@@ -88,6 +87,6 @@ public class UserManagerImpl extends GenericManagerImpl<User, String> implements
      */
     public void removeUser(String userId) {
         log.debug("removing user: " + userId);
-        dao.remove(userId);
+        userDao.remove(userId);
     }
 }

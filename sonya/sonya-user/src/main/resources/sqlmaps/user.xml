@@ -33,28 +33,52 @@
         <result property="deleteDate" column="delete_date"/>
     </resultMap>
 
+    <select id="getUsers" resultMap="userResult">
+    <![CDATA[
+        select * from t_user order by upper(username)
+    ]]>
+    </select>
+    
+    <select id="getUser" resultMap="userResult">
+    <![CDATA[
+        select * from t_user where id=#id#
+    ]]>
+    </select>
+
+    <select id="getUserByUsername" resultMap="userResult">
+    <![CDATA[
+        select * from t_user where username=#username#
+    ]]>
+    </select>
+    
+	<select id="getUserPassword" resultClass="java.lang.String">
+    <![CDATA[
+        select password from t_user where username=#username#
+    ]]>
+    </select>
+    
     <insert id="addUser" parameterClass="user">
     <![CDATA[
-        INSERT INTO
+        insert into
         t_user (sid, username, password, role_id, first_name, last_name, 
 	        password_hint_q, password_hint_a, company_name, department, job_level,
 	        postal_code, address, address_detail, email, phone_no, mobile_no, 
 	        website, use_yn, terminate_yn, terminate_date, 
 	        insert_date, update_date, delete_date)
-        VALUES (#sid#, #username#, #password#, #roleId#, #firstName#, #lastName#, 
-	        #passwordHintQuestion#, #passwordHintAnswer#, #companyName#, #department#, #jobLevel#,
+        values (#sid#, #username#, #password#, #roleId#, #firstName#, #lastName#, 
+	        #passwordHintQuestion#, #passwordHintAnswer#, #company#, #department#, #jobLevel#,
 	        #postalCode#, #address#, #addressDetail#, #email#, #phoneNo#, #mobileNo#, 
 	        #website#, #use#, #terminate#, #terminateDate#, 
 	        #insertDate#, #updateDate#, #deleteDate#)
     ]]>
         <selectKey resultClass="java.lang.String" keyProperty="id" type="post">
-            SELECT last_insert_id();
+            select last_insert_id();
         </selectKey>
     </insert>    
 
     <update id="updateUser" parameterClass="user">
     <![CDATA[
-        UPDATE t_user SET
+        update t_user set
             sid = #sid#,
             username = #username#,
             password = #password#,
@@ -78,31 +102,13 @@
             terminate_date = #terminateDate#,
             update_date = #updateDate#,
             delete_date = #deleteDate#,
-        WHERE id = #id#
+        where id = #id#
     ]]>
     </update>
     
-    <select id="getUser" resultMap="userResult">
-    <![CDATA[
-        SELECT * FROM t_user WHERE id=#id#
-    ]]>
-    </select>
-    
-    <select id="getUserByUsername" resultMap="userResult">
-    <![CDATA[
-        SELECT * FROM t_user WHERE username=#username#
-    ]]>
-    </select>
-    
-    <select id="getUsers" resultMap="userResult">
-    <![CDATA[
-        SELECT * FROM t_user ORDER BY UPPER(username)
-    ]]>
-    </select>
-
     <delete id="deleteUser" parameterClass="java.lang.String">
     <![CDATA[
-        DELETE FROM t_user WHERE id = #id#
+        delete from t_user where id = #id#
     ]]>
     </delete>
 </sqlMap>

@@ -12,6 +12,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.PrintWriter;
+import java.io.RandomAccessFile;
 import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.jar.JarFile;
@@ -47,16 +48,46 @@ public class ApplicationResourcesInitializer {
         ByteArrayInputStream bis = null;
         while(en.hasMoreElements()) {
             key = (String)en.nextElement();
-            log.debug("Writing resources locale : " + key);
+            log.debug("Writing resources locale: ApplicationResources_" + key + ".properties");
             bos = (ByteArrayOutputStream)localeMap.get(key);
             bis = new ByteArrayInputStream(bos.toByteArray());
-            fos = new FileOutputStream(new File(classesPath, "ApplicationResources_" + key + ".properties"));
-            int buf = 0;
-            while ( (buf = bis.read()) != -1) {
-                fos.write(buf);
+            
+            FilenameFilter fnFilter = new FilenameFilter () {
+                public boolean accept(File dir, String name) {
+                    return StringUtils.contains(name, "ApplicationResources");
+                }
+            };
+            
+            File[] appResources = classesPath.listFiles(fnFilter);
+            
+            boolean exist = false;
+            for (int i = 0; i < appResources.length; i++) {
+            	if (appResources[i].getName().equals("ApplicationResources_" + key + ".properties")) {
+            		RandomAccessFile raf = new RandomAccessFile(appResources[i], "rw");
+                    raf.seek(raf.length());
+                    
+                    raf.write(new String("\n").getBytes());                    
+                    int buf = 0;
+                    while ( (buf = bis.read()) != -1) {
+                    	raf.write(buf);
+                    }
+                    raf.close();
+                    exist = true;
+            	}
             }
-            fos.flush();
-            fos.close();
+            
+            if (!exist) {
+            	fos = new FileOutputStream(new File(classesPath, "ApplicationResources_" + key + ".properties"));
+                
+            	fos.write(new String("\n").getBytes());
+            	int buf = 0;
+                while ( (buf = bis.read()) != -1) {
+                    fos.write(buf);
+                }
+                fos.flush();
+                fos.close();
+            }            
+
             bos.reset();
             bis.reset();
         }
@@ -64,7 +95,7 @@ public class ApplicationResourcesInitializer {
     }
 
     private void readResources(Hashtable localeMap, File libPath) throws IOException {
-        log.debug("Loading resource files from module...");
+        log.debug("Loading resource files from sonya jars...");
         FilenameFilter fnFilter = new FilenameFilter () {
             public boolean accept(File dir, String name) {
                 return StringUtils.contains(name, "sonya-");
@@ -76,7 +107,7 @@ public class ApplicationResourcesInitializer {
         String filename = null;
         String locale = null;
         ByteArrayOutputStream bos = null;
-        int resourcesCount = 0;
+
         for (int i = 0; i < moduleList.length; i++) {
             JarFile jarFile = new JarFile(moduleList[i]);
             Enumeration en = jarFile.entries();
@@ -100,11 +131,10 @@ public class ApplicationResourcesInitializer {
                         localeMap.put(locale, bos);
                     }
                     is.close();
-                    resourcesCount++;
                 }
             }
         }
-        log.debug("Loading complete : " + resourcesCount);
+        log.debug("Complete reading");
     }
     
     private void wirteToMemory(InputStream src, OutputStream dest, String moduleName) throws IOException {
@@ -113,6 +143,7 @@ public class ApplicationResourcesInitializer {
         
         PrintWriter pw = new PrintWriter(dest);
         String buf = null;
+
         pw.println(COMMENT);
         pw.println(COMMENT + " " + moduleName);
         pw.println(COMMENT);

@@ -12,31 +12,31 @@ import org.sonya.model.BaseObject;
 public class Role extends BaseObject implements Serializable {
 	private static final long serialVersionUID = -4260559184726325943L;
 	private String sid;
-	private String roleId;
-	private String roleName;
+	private String id;
+	private String name;
 	
 	public String getSid() {
 		return sid;
 	}
 
-	public String getRoleId() {
-		return roleId;
+	public String getId() {
+		return id;
 	}
 
-	public String getRoleName() {
-		return roleName;
+	public String getName() {
+		return name;
 	}
 
 	public void setSid(String sid) {
 		this.sid = sid;
 	}
 
-	public void setRoleId(String roleId) {
-		this.roleId = roleId;
+	public void setId(String id) {
+		this.id = id;
 	}
 
-	public void setRoleName(String roleName) {
-		this.roleName = roleName;
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	@Override

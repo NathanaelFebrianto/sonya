@@ -42,7 +42,8 @@
         <param-name>javax.faces.CONFIG_FILES</param-name>
         <param-value>
         	/WEB-INF/faces-config/faces-config.xml,
-        	/WEB-INF/faces-config/faces-config-sample.xml
+        	/WEB-INF/faces-config/faces-config-sample.xml,
+        	/WEB-INF/faces-config/faces-config-user.xml
         </param-value>
     </context-param>  
     <context-param>
