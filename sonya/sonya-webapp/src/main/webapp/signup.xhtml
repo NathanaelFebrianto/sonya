@@ -7,7 +7,6 @@
 <f:loadBundle var="text" basename="#{signupForm.bundleName}"/>
 <head>
     <title>#{text['signup.title']}</title>
-    <meta name="heading" content="#{text['signup.heading']}"/>
 </head>
 <body id="signup">
 
@@ -18,6 +17,7 @@
 <h:panelGrid columns="3">
     <h:panelGroup styleClass="info">
         <h:outputText value="#{text['signup.message']}"/>
+        <s:selectDate for="form:birthday"></s:selectDate>
     </h:panelGroup>
     <h:outputText/><h:outputText/>
 
@@ -50,10 +50,10 @@
     </h:panelGroup>
     <h:outputText/><h:outputText/>
 
-    <h:outputLabel for="passwordHint" value="#{text['user.passwordHint']}" styleClass="desc"/>
-    <t:message for="passwordHint" styleClass="fieldError"/>
-    <h:inputText value="#{signupForm.user.passwordHint}" id="passwordHint" required="true" styleClass="text large">
-        <v:commonsValidator type="required" arg="#{text['user.passwordHint']}"/>
+    <h:outputLabel for="passwordHintQuestion" value="#{text['passwordHintQuestion']}" styleClass="desc"/>
+    <t:message for="passwordHintQuestion" styleClass="fieldError"/>
+    <h:inputText value="#{signupForm.user.passwordHintQuestion}" id="passwordHintQuestion" required="true" styleClass="text large">
+        <v:commonsValidator type="required" arg="#{text['user.passwordHintQuestion']}"/>
     </h:inputText>
 
     <h:panelGroup>
@@ -88,9 +88,9 @@
                 </h:inputText>
             </t:htmlTag>
             <t:htmlTag value="div">
-                <h:outputLabel for="phoneNumber" value="#{text['user.phoneNumber']}" styleClass="desc"/>
-                <t:message for="phoneNumber" styleClass="fieldError"/>
-                <h:inputText value="#{signupForm.user.phoneNumber}" id="phoneNumber" styleClass="text medium">
+                <h:outputLabel for="phoneNo" value="#{text['user.phoneNo']}" styleClass="desc"/>
+                <t:message for="phoneNo" styleClass="fieldError"/>
+                <h:inputText value="#{signupForm.user.phoneNo}" id="phoneNo" styleClass="text medium">
                     <t:validateRegExpr pattern="^\(?(\d{3})\)?[-| ]?(\d{3})[-| ]?(\d{4})$"/>
                 </h:inputText>
             </t:htmlTag>
@@ -105,42 +105,20 @@
     </h:inputText>
 
     <h:panelGroup>
-        <t:htmlTag value="label" styleClass="desc"><h:outputText value="#{text['user.address.address']}"/></t:htmlTag>
+        <t:htmlTag value="label" styleClass="desc"><h:outputText value="#{text['user.address']}"/></t:htmlTag>
         <t:htmlTag value="div" styleClass="group">
             <t:htmlTag value="div">
-                <h:inputText value="#{signupForm.user.address.address}" id="address" styleClass="text large"/>
+                <h:inputText value="#{signupForm.user.address}" id="address" styleClass="text large"/>
                 <t:message for="address" styleClass="fieldError"/>
-                <t:htmlTag value="p"><h:outputLabel for="address" value="#{text['user.address.address']}"/></t:htmlTag>
+                <t:htmlTag value="p"><h:outputLabel for="address" value="#{text['user.address']}"/></t:htmlTag>
             </t:htmlTag>
             <t:htmlTag value="div" styleClass="left">
-                <h:inputText value="#{signupForm.user.address.city}" id="city" required="true" styleClass="text medium">
-                    <v:commonsValidator type="required" arg="#{text['user.address.city']}"/>
-                </h:inputText>
-                <t:message for="city" styleClass="fieldError"/>
-                <t:htmlTag value="p"><h:outputLabel for="city" value="#{text['user.address.city']}"/></t:htmlTag>
-            </t:htmlTag>
-            <t:htmlTag value="div">
-                <h:inputText value="#{signupForm.user.address.province}" id="province" required="true" styleClass="text state">
-                    <v:commonsValidator type="required" arg="#{text['user.address.province']}"/>
-                </h:inputText>
-                <t:message for="province" styleClass="fieldError"/>
-                <t:htmlTag value="p"><h:outputLabel for="province" value="#{text['user.address.province']}"/></t:htmlTag>
-            </t:htmlTag>
-            <t:htmlTag value="div" styleClass="left">
-                <h:inputText value="#{signupForm.user.address.postalCode}" id="postalCode" required="true" styleClass="text medium">
-                    <v:commonsValidator type="required" arg="#{text['user.address.postalCode']}"/>
+                <h:inputText value="#{signupForm.user.postalCode}" id="postalCode" required="true" styleClass="text medium">
+                    <v:commonsValidator type="required" arg="#{text['user.postalCode']}"/>
                     <t:validateRegExpr pattern="^\d{5}\d*$"/>
                 </h:inputText>
                 <t:message for="postalCode" styleClass="fieldError"/>
-                <t:htmlTag value="p"><h:outputLabel for="postalCode" value="#{text['user.address.postalCode']}"/></t:htmlTag>
-            </t:htmlTag>
-            <t:htmlTag value="div">
-                <h:selectOneMenu value="#{signupForm.country}" id="country" required="true" styleClass="select">
-                    <f:selectItems value="#{signupForm.countries}"/>
-                    <v:commonsValidator type="required" arg="#{text['user.address.country']}"/>
-                </h:selectOneMenu>
-                <t:message for="country" styleClass="fieldError"/>
-                <t:htmlTag value="p"><h:outputLabel for="country" value="#{text['user.address.country']}"/></t:htmlTag>
+                <t:htmlTag value="p"><h:outputLabel for="postalCode" value="#{text['user.postalCode']}"/></t:htmlTag>
             </t:htmlTag>
         </t:htmlTag>
     </h:panelGroup>
