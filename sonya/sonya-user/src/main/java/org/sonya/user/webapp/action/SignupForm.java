@@ -1,17 +1,18 @@
-package org.appfuse.webapp.action;
+package org.sonya.user.webapp.action;
+
+import java.io.Serializable;
+
+import javax.servlet.http.HttpServletResponse;
 
 import org.acegisecurity.AccessDeniedException;
 import org.acegisecurity.context.SecurityContextHolder;
 import org.acegisecurity.providers.UsernamePasswordAuthenticationToken;
-import org.appfuse.Constants;
-import org.appfuse.model.User;
-import org.appfuse.service.RoleManager;
-import org.appfuse.service.UserExistsException;
-import org.appfuse.webapp.util.RequestUtil;
+import org.sonya.Constants;
+import org.sonya.user.model.User;
+import org.sonya.user.service.UserExistsException;
+import org.sonya.user.service.UserManager;
+import org.sonya.webapp.action.BasePage;
 import org.springframework.mail.MailException;
-
-import javax.servlet.http.HttpServletResponse;
-import java.io.Serializable;
 
 /**
  * JSF Page class to handle signing up a new user.
@@ -21,7 +22,7 @@ import java.io.Serializable;
 public class SignupForm extends BasePage implements Serializable {
     private static final long serialVersionUID = 3524937486662786265L;
     private User user = new User();
-    private RoleManager roleManager;
+    private UserManager userManager;
 
     public User getUser() {
         return user;
@@ -31,15 +32,12 @@ public class SignupForm extends BasePage implements Serializable {
         this.user = user;
     }
 
-    public void setRoleManager(RoleManager roleManager) {
-        this.roleManager = roleManager;
+    public void setUserManager(UserManager userManager) {
+        this.userManager = userManager;
     }
 
     public String save() throws Exception {
         user.setEnabled(true);
-
-        // Set the default user role on this new user
-        user.addRole(roleManager.getRole(Constants.USER_ROLE));
 
         try {
             user = userManager.saveUser(user);
@@ -65,27 +63,6 @@ public class SignupForm extends BasePage implements Serializable {
         auth.setDetails(user);
         SecurityContextHolder.getContext().setAuthentication(auth);
 
-        // Send an account information e-mail
-        message.setSubject(getText("signup.email.subject"));
-
-        try {
-            sendUserMessage(user, getText("signup.email.message"),
-                    RequestUtil.getAppURL(getRequest()));
-        } catch (MailException me) {
-            addError(me.getCause().getLocalizedMessage());
-            return null;
-        }
-
         return "mainMenu";
-    }
-
-    public String getCountry() {
-        return getUser().getAddress().getCountry();
-    }
-
-    // for some reason, the country drop-down won't do 
-    // getUser().getAddress().setCountry(value)
-    public void setCountry(String country) {
-        getUser().getAddress().setCountry(country);
     }
 }
