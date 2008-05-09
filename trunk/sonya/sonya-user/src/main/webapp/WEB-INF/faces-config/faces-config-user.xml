@@ -3,6 +3,15 @@
         "http://java.sun.com/dtd/web-facesconfig_1_1.dtd">
 
 <faces-config>
+	<!-- Add additional rules here -->
+	<navigation-rule>
+        <from-view-id>/signup.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>cancel</from-outcome>
+            <to-view-id>/login.jsp</to-view-id>
+            <redirect/>
+        </navigation-case>
+    </navigation-rule>
     
     <!-- Add beans here -->
 	<managed-bean>
@@ -14,5 +23,15 @@
 	        <value>#{userManager}</value>
 	    </managed-property>
 	</managed-bean>
+
+    <managed-bean>
+        <managed-bean-name>signupForm</managed-bean-name>
+        <managed-bean-class>org.sonya.user.webapp.action.SignupForm</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+        <managed-property>
+            <property-name>userManager</property-name>
+            <value>#{userManager}</value>
+        </managed-property>
+    </managed-bean>
 
 </faces-config>

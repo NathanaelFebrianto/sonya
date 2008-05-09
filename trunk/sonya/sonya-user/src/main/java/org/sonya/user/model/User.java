@@ -23,6 +23,7 @@ public class User extends BaseObject implements Serializable, UserDetails {
 	private String sid;
 	private String username;
 	private String password;
+	private String confirmPassword;
 	private String roleId;
 	private String firstName;
 	private String lastName;	
@@ -65,6 +66,10 @@ public class User extends BaseObject implements Serializable, UserDetails {
 	public String getPassword() {
 		return password;
 	}
+	
+	public String getConfirmPassword() {
+        return confirmPassword;
+    }
 
 	public String getRoleId() {
 		return roleId;
@@ -211,6 +216,10 @@ public class User extends BaseObject implements Serializable, UserDetails {
 	public void setPassword(String password) {
 		this.password = password;
 	}
+	
+	public void setConfirmPassword(String confirmPassword) {
+        this.confirmPassword = confirmPassword;
+    }
 
 	public void setRoleId(String roleId) {
 		this.roleId = roleId;

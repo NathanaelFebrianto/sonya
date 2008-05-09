@@ -1,2 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<PROCESS model-entity="JSFProcess"/>
+<PROCESS model-entity="JSFProcess">
+ <PROCESS-ITEM NAME="rules:#signup.xhtml" PATH="/signup.xhtml"
+  SHAPE="32,17,0,0" model-entity="JSFProcessGroup">
+  <PROCESS-ITEM ID="rules:#signup.xhtml:0" NAME="item"
+   PATH="/signup.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="cancel::#login.jsp" NAME="output"
+    PATH="/login.jsp" TARGET="rules:#login.jsp" TITLE="cancel" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
+ </PROCESS-ITEM>
+ <PROCESS-ITEM NAME="rules:#login.jsp" PATH="/login.jsp"
+  SHAPE="240,33,0,0" model-entity="JSFProcessGroup"/>
+</PROCESS>
