@@ -30,6 +30,11 @@ public class Constants {
     public static final String CONFIG = "appConfig";
 
     /**
+     * The request scope attribute for indicating a newly-registered user
+     */
+    public static final String REGISTERED = "registered";
+    
+    /**
      * Session scope attribute that holds the locale set by the user. By setting this key
      * to the same one that Struts uses, we get synchronization in Struts w/o having
      * to do extra work or have two session-level variables.
