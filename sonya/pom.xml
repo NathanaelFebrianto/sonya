@@ -69,6 +69,11 @@
             <url>http://download.java.net/maven/1/</url>
             <layout>legacy</layout>
         </repository>
+        <repository>
+            <id>appfuse</id>
+            <url>http://static.appfuse.org/repository</url>
+        </repository>
+        
     </repositories>
     
     <dependencies>
@@ -342,7 +347,7 @@
             <artifactId>jsf-facelets</artifactId>
             <version>${facelets.version}</version>
         </dependency>
-        <dependency>
+        <dependency><!-- It comes from appfuse repository. -->
             <groupId>com.corejsf</groupId>
             <artifactId>corejsf-validator</artifactId>
             <version>${corejsf.validator.version}</version>
