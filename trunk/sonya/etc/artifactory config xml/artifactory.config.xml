@@ -65,6 +65,13 @@
 			<handleSnapshots>true</handleSnapshots>
 			<url>http://static.appfuse.org/repository</url>
 		</remoteRepository>
+		<remoteRepository>
+			<key>jboss</key>
+			<description>jboss</description>
+			<handleReleases>true</handleReleases>
+			<handleSnapshots>false</handleSnapshots>
+			<url>http://repository.jboss.com/maven2</url>
+		</remoteRepository>
 	</remoteRepositories>
 
 </config>
