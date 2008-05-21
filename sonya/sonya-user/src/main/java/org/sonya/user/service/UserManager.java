@@ -11,7 +11,7 @@ import org.sonya.user.model.User;
  * Business Service Interface to handle communication between web and
  * persistence layer.
  *
- * @author YoungGue Bae (Louie)
+ * @author YoungGue Bae
  */
 public interface UserManager extends GenericManager<User, String> {
 

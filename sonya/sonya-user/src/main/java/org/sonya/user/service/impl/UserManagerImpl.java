@@ -14,7 +14,7 @@ import org.springframework.beans.factory.annotation.Required;
 /**
  * Implementation of UserManager interface.
  *
- * @author YoungGue Bae (Louie)
+ * @author YoungGue Bae
  */
 public class UserManagerImpl extends GenericManagerImpl<User, String> implements UserManager {
     private UserDao userDao;
