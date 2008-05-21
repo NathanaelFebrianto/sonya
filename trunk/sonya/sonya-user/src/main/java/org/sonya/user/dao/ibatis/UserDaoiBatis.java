@@ -14,7 +14,7 @@ import org.springframework.orm.ObjectRetrievalFailureException;
 /**
  * User Data Access Object for iBatis.
  * 
- * @author YoungGue Bae (Louie)
+ * @author YoungGue Bae
  */
 public class UserDaoiBatis extends GenericDaoiBatis<User, String> implements UserDao, UserDetailsService {
 

@@ -14,7 +14,7 @@ import org.sonya.model.LabelValue;
 /**
  * This class represents the basic "user" object that allows for authentication.
  *
- * @author YoungGue Bae (Louie)
+ * @author YoungGue Bae
  */
 public class User extends BaseObject implements Serializable, UserDetails {
 	private static final long serialVersionUID = 619543912512248365L;
@@ -27,8 +27,8 @@ public class User extends BaseObject implements Serializable, UserDetails {
 	private String roleId;
 	private String firstName;
 	private String lastName;	
-	private String passwordHintQuestion;
-	private String passwordHintAnswer;
+	private String country;
+	private String timeZone;
 	private String company;
 	private String department;
 	private String jobLevel;
@@ -83,12 +83,12 @@ public class User extends BaseObject implements Serializable, UserDetails {
 		return lastName;
 	}
 
-	public String getPasswordHintQuestion() {
-		return passwordHintQuestion;
+	public String getCountry() {
+		return country;
 	}
 
-	public String getPasswordHintAnswer() {
-		return passwordHintAnswer;
+	public String getTimeZone() {
+		return timeZone;
 	}
 
 	public String getCompany() {
@@ -233,12 +233,12 @@ public class User extends BaseObject implements Serializable, UserDetails {
 		this.lastName = lastName;
 	}
 
-	public void setPasswordHintQuestion(String passwordHintQuestion) {
-		this.passwordHintQuestion = passwordHintQuestion;
+	public void setCountry(String country) {
+		this.country = country;
 	}
 
-	public void setPasswordHintAnswer(String passwordHintAnswer) {
-		this.passwordHintAnswer = passwordHintAnswer;
+	public void setTimeZone(String timeZone) {
+		this.timeZone = timeZone;
 	}
 
 	public void setCompany(String company) {

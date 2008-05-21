@@ -7,7 +7,7 @@ import org.sonya.model.BaseObject;
 /**
  * This class represents service object
  * 
- * @author YoungGue Bae (Louie)
+ * @author YoungGue Bae
  */
 public class Service extends BaseObject implements Serializable {
 	private static final long serialVersionUID = 7604119003041240515L;

@@ -13,8 +13,8 @@
         <result property="roleId" column="role_id"/>        
         <result property="firstName" column="first_name"/>
         <result property="lastName" column="last_name"/>        
-        <result property="passwordHintQuestion" column="password_hint_q"/>
-        <result property="passwordHintAnswer" column="password_hint_a"/>
+        <result property="country" column="country"/>
+        <result property="timeZone" column="time_zone"/>
         <result property="company" column="company"/>
         <result property="department" column="department"/>
         <result property="jobLevel" column="job_level"/>
@@ -61,12 +61,12 @@
     <![CDATA[
         insert into
         t_user (sid, username, password, role_id, first_name, last_name, 
-	        password_hint_q, password_hint_a, company_name, department, job_level,
+	        country, time_zone, company_name, department, job_level,
 	        postal_code, address, address_detail, email, phone_no, mobile_no, 
 	        website, use_yn, terminate_yn, terminate_date, 
 	        insert_date, update_date, delete_date)
         values (#sid#, #username#, #password#, #roleId#, #firstName#, #lastName#, 
-	        #passwordHintQuestion#, #passwordHintAnswer#, #company#, #department#, #jobLevel#,
+	        #country#, #timeZone#, #company#, #department#, #jobLevel#,
 	        #postalCode#, #address#, #addressDetail#, #email#, #phoneNo#, #mobileNo#, 
 	        #website#, #use#, #terminate#, #terminateDate#, 
 	        #insertDate#, #updateDate#, #deleteDate#)
@@ -85,8 +85,8 @@
             role_id = #roleId#,
             first_name = #firstName#,
             last_name = #lastName#,
-            password_hint_q = #passwordHintQuestion#, 
-            password_hint_a = #passwordHintAnswer#,
+            country = #country#, 
+            time_zone = #timeZone#,
             company = #company#,
             department = #department#,
             job_level = #jobLevel#,

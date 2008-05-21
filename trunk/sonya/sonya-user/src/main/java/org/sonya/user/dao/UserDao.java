@@ -12,7 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 /**
  * User Data Access Object(GenericDao) interface.
  * 
- * @author YoungGue Bae (Louie)
+ * @author YoungGue Bae
  */
 public interface UserDao extends GenericDao<User, String> {
 
