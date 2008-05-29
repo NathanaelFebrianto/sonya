@@ -24,14 +24,4 @@
 	    </managed-property>
 	</managed-bean>
 
-    <managed-bean>
-        <managed-bean-name>signupForm</managed-bean-name>
-        <managed-bean-class>org.sonya.user.webapp.action.SignupForm</managed-bean-class>
-        <managed-bean-scope>request</managed-bean-scope>
-        <managed-property>
-            <property-name>userManager</property-name>
-            <value>#{userManager}</value>
-        </managed-property>
-    </managed-bean>
-
 </faces-config>
