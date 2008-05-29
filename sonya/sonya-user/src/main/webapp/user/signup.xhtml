@@ -1,0 +1,67 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:c="http://java.sun.com/jstl/core"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:t="http://myfaces.apache.org/tomahawk"
+	xmlns:v="http://corejsf.com/validator">
+
+<f:view>
+	<f:loadBundle var="text" basename="#{signupForm.bundleName}" />
+	<head>
+	<title>#{text['user.signup.title']}</title>
+	</head>
+	<body id="signup">
+
+	<div class="separator"></div>
+
+	<h:form id="signupForm" onsubmit="return validateSignupForm(this)">
+
+		<h:panelGrid columns="3" border="1">
+			<h:outputLabel for="sid" styleClass="desc"
+				value="#{text['user.sid']}" />
+			<t:message for="sid" styleClass="fieldError" />
+			<h:inputText value="#{userBean.user.sid}" id="sid" required="true"
+				styleClass="text large">
+				<v:commonsValidator type="required" arg="#{text['user.sid']}" />
+			</h:inputText>
+
+			<h:outputLabel for="username" styleClass="desc"
+				value="#{text['user.username']}" />
+			<t:message for="username" styleClass="fieldError" />
+			<h:inputText value="#{userBean.user.username}" id="username"
+				required="true" styleClass="text large">
+				<v:commonsValidator type="required" arg="#{text['user.username']}" />
+			</h:inputText>
+
+			<h:outputLabel for="password" value="#{text['user.password']}"
+				styleClass="desc" />
+			<t:message for="password" styleClass="fieldError" />
+			<h:inputSecret value="#{userBean.user.password}" id="password"
+				redisplay="true" required="true" styleClass="text medium">
+				<v:commonsValidator type="required" arg="#{text['user.password']}" />
+			</h:inputSecret>
+
+			<h:outputLabel for="confirmPassword"
+				value="#{text['user.confirm.password']}" styleClass="desc" />
+			<t:message for="confirmPassword" styleClass="fieldError" />
+			<h:inputSecret value="#{userBean.user.confirmPassword}"
+				id="confirmPassword" redisplay="true" required="true"
+				styleClass="text medium">
+				<v:commonsValidator type="required"
+					arg="#{text['user.confirm.password']}" />
+				<t:validateEqual for="password" />
+			</h:inputSecret>
+
+		</h:panelGrid>
+
+	</h:form>
+
+	<v:validatorScript functionName="validateSignupForm" />
+
+	<script type="text/javascript">
+    Form.focusFirstElement($('signupForm'));
+</script>
+	</body>
+</f:view>
+</html>
