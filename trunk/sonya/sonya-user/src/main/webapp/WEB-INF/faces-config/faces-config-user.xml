@@ -16,7 +16,7 @@
     <!-- Add beans here -->
 	<managed-bean>
 	    <managed-bean-name>userBean</managed-bean-name>
-	    <managed-bean-class>org.sonya.user.webapp.action.UserBean</managed-bean-class>
+	    <managed-bean-class>com.sonya.user.webapp.action.UserBean</managed-bean-class>
 	    <managed-bean-scope>request</managed-bean-scope>
 	    <managed-property>
 	        <property-name>userManager</property-name>

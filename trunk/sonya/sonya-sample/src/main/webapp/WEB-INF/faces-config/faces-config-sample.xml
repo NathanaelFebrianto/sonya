@@ -7,7 +7,7 @@
     <!-- Add additional beans here -->
 	<managed-bean>
 	    <managed-bean-name>personList</managed-bean-name>
-	    <managed-bean-class>org.sonya.sample.webapp.action.PersonList</managed-bean-class>
+	    <managed-bean-class>com.sonya.sample.webapp.action.PersonList</managed-bean-class>
 	    <managed-bean-scope>request</managed-bean-scope>
 	    <managed-property>
 	        <property-name>personManager</property-name>
@@ -17,7 +17,7 @@
 	
 	<managed-bean>
 	    <managed-bean-name>personForm</managed-bean-name>
-	    <managed-bean-class>org.sonya.sample.webapp.action.PersonForm</managed-bean-class>
+	    <managed-bean-class>com.sonya.sample.webapp.action.PersonForm</managed-bean-class>
 	    <managed-bean-scope>request</managed-bean-scope>
 	    <managed-property>
 	        <property-name>id</property-name>

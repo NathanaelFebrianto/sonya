@@ -20,7 +20,7 @@
 
     <!-- Generic Dao - can be used when doing standard CRUD -->
     <!-- Commented by Louie.
-    <bean id="universalDao" class="org.sonya.dao.ibatis.UniversalDaoiBatis">
+    <bean id="universalDao" class="com.sonya.dao.ibatis.UniversalDaoiBatis">
         <property name="dataSource" ref="dataSource"/>
         <property name="sqlMapClient" ref="sqlMapClient"/>
     </bean>
@@ -34,8 +34,8 @@
         domain object if you need more than simple CRUD to occur.
         (finders, bulk update/delete, etc.) eg... 'fooDao'
 
-    <bean id="fooDao" class="org.sonya.dao.ibatis.GenericDaoiBatis">
-        <constructor-arg value="org.sonya.model.Foo"/>
+    <bean id="fooDao" class="com.sonya.dao.ibatis.GenericDaoiBatis">
+        <constructor-arg value="com.sonya.model.Foo"/>
         <property name="dataSource" ref="dataSource"/>
         <property name="sqlMapClient" ref="sqlMapClient"/>
     </bean>
