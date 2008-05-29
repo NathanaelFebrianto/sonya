@@ -117,6 +117,10 @@
 									<fileset dir="../sonya-sample/src/main/webapp/WEB-INF/faces-config"/>
 									<fileset dir="../sonya-user/src/main/webapp/WEB-INF/faces-config"/>
 								</copy>
+								<!-- Add new web page path here -->
+								<copy todir="./target/${webapp.name}-${sonya.version}">
+									<fileset dir="../sonya-user/src/main/webapp/user"/>
+								</copy>
 							</tasks>
 						</configuration>
 						<goals>
