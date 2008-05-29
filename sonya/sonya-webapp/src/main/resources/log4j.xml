@@ -40,7 +40,7 @@
         <level value="ERROR"/>
     </logger>
     
-    <logger name="org.sonya">
+    <logger name="com.sonya">
         <level value="DEBUG"/>
     </logger>
 

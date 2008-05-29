@@ -47,9 +47,9 @@ public class ApplicationResourcesInitializer {
         String key = null;
         ByteArrayInputStream bis = null;
         while(en.hasMoreElements()) {
-            key = (String)en.nextElement();
+            key = (String) en.nextElement();
             log.debug("Writing resources locale: ApplicationResources_" + key + ".properties");
-            bos = (ByteArrayOutputStream)localeMap.get(key);
+            bos = (ByteArrayOutputStream) localeMap.get(key);
             bis = new ByteArrayInputStream(bos.toByteArray());
             
             FilenameFilter fnFilter = new FilenameFilter () {
@@ -112,7 +112,7 @@ public class ApplicationResourcesInitializer {
             JarFile jarFile = new JarFile(moduleList[i]);
             Enumeration en = jarFile.entries();
             while(en.hasMoreElements()) {
-                ZipEntry entry = (ZipEntry)en.nextElement();
+                ZipEntry entry = (ZipEntry) en.nextElement();
                 filename = entry.getName();
                 if (filename.startsWith(resourcesPrefix) && StringUtils.contains(filename, resourcesSurffix)) {
                     log.debug("Reading " + filename + " from " + moduleList[i].getName());
@@ -123,7 +123,7 @@ public class ApplicationResourcesInitializer {
                         locale = defaultLocale;
                     InputStream is = jarFile.getInputStream(entry);
                     if (localeMap.containsKey(locale)) {
-                        bos = (ByteArrayOutputStream)localeMap.get(locale);
+                        bos = (ByteArrayOutputStream) localeMap.get(locale);
                         wirteToMemory(is, bos, moduleList[i].getName());
                     } else {
                         bos = new ByteArrayOutputStream();

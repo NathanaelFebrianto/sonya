@@ -47,7 +47,7 @@
     </tx:advice>
     
     <!--  
-    <bean id="userSecurityAdvice" class="org.sonya.user.service.UserSecurityAdvice"/>
+    <bean id="userSecurityAdvice" class="com.sonya.user.service.UserSecurityAdvice"/>
     -->
     
     <!-- =================================================================== -->
@@ -103,8 +103,8 @@
     <!-- =================================================================== -->
     <!-- Managers: For accessing DAOs                                        -->
     <!-- =================================================================== -->
-    <!-- Commented by Louie.
-    <bean id="manager" class="org.sonya.service.impl.UniversalManagerImpl">
+    <!-- Commented by Louie, 05/29/2008.
+    <bean id="manager" class="com.sonya.service.impl.UniversalManagerImpl">
         <property name="dao" ref="universalDao"/>
     </bean>
     -->

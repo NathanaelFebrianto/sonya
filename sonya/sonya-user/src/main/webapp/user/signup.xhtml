@@ -4,12 +4,15 @@
 	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:ui="http://java.sun.com/jsf/facelets"
 	xmlns:t="http://myfaces.apache.org/tomahawk"
-	xmlns:v="http://corejsf.com/validator">
+	xmlns:v="http://corejsf.com/validator"
+	xmlns:a4j="http://richfaces.org/a4j"
+    xmlns:rich="http://richfaces.org/rich">
 
 <f:view>
 	<f:loadBundle var="text" basename="#{userBean.bundleName}" />
 	<head>
-	<title>#{text['user.signup.title']}</title>
+		<title>#{text['user.signup.title']}</title>
+		<meta name="heading" content="#{text['user.signup.title']}" />
 	</head>
 	<body id="signup">
 
@@ -17,7 +20,7 @@
 
 	<h:form id="signupForm" onsubmit="return validateSignupForm(this)">
 
-		<h:panelGrid columns="3" border="1">
+		<h:panelGrid columns="3">
 			<h:outputLabel for="sid" styleClass="desc"
 				value="#{text['user.sid']}" />
 			<t:message for="sid" styleClass="fieldError" />
@@ -29,10 +32,15 @@
 			<h:outputLabel for="username" styleClass="desc"
 				value="#{text['user.username']}" />
 			<t:message for="username" styleClass="fieldError" />
-			<h:inputText value="#{userBean.user.username}" id="username"
-				required="true" styleClass="text large">
-				<v:commonsValidator type="required" arg="#{text['user.username']}" />
-			</h:inputText>
+			<h:panelGroup>
+				<h:inputText value="#{userBean.user.username}" id="username"
+					required="true" styleClass="text large">
+					<v:commonsValidator type="required" arg="#{text['user.username']}" />
+				</h:inputText>
+				<h:commandButton value="#{text['user.username.verify']}"
+					action="#{userBean.verifyUsername}" id="verifyUsername"
+					styleClass="button" />
+			</h:panelGroup>
 
 			<h:outputLabel for="password" value="#{text['user.password']}"
 				styleClass="desc" />
@@ -52,6 +60,31 @@
 					arg="#{text['user.confirm.password']}" />
 				<t:validateEqual for="password" />
 			</h:inputSecret>
+			
+			<h:outputLabel for="lastName" styleClass="desc"
+				value="#{text['user.last.name']}" />
+			<t:message for="lastName" styleClass="fieldError" />
+			<h:inputText value="#{userBean.user.lastName}" id="lastName" required="true"
+				styleClass="text large">
+				<v:commonsValidator type="required" arg="#{text['user.last.name']}" />
+			</h:inputText>
+			
+			<h:outputLabel for="firstName" styleClass="desc"
+				value="#{text['user.first.name']}" />
+			<t:message for="firstName" styleClass="fieldError" />
+			<h:inputText value="#{userBean.user.firstName}" id="firstName" required="true"
+				styleClass="text large">
+				<v:commonsValidator type="required" arg="#{text['user.first.name']}" />
+			</h:inputText>
+
+			<h:outputLabel for="country" styleClass="desc" 
+				value="#{text['user.country']}" />			
+			<t:message for="country" styleClass="fieldError" />
+			<h:selectOneMenu value="#{userBean.user.country}" id="country"
+				required="true" styleClass="select">
+				<f:selectItems value="#{userBean.countries}" />
+				<v:commonsValidator type="required" arg="#{text['user.country']}" />
+			</h:selectOneMenu>
 
 		</h:panelGrid>
 
@@ -60,8 +93,8 @@
 	<v:validatorScript functionName="validateSignupForm" />
 
 	<script type="text/javascript">
-    Form.focusFirstElement($('signupForm'));
-</script>
+    	Form.focusFirstElement($('signupForm'));
+	</script>
 	</body>
 </f:view>
 </html>

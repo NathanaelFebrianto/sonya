@@ -77,7 +77,7 @@ public class UserManagerImpl extends GenericManagerImpl<User, String> implements
      * @throws UsernameNotFoundException thrown when username not found
      */
     public User getUserByUsername(String username) throws UsernameNotFoundException {
-        return (User)userDao.loadUserByUsername(username);
+        return (User) userDao.loadUserByUsername(username);
     }
     
     /**

@@ -15,7 +15,6 @@
                 /styles/**=#NONE#
                 /**=httpSessionContextIntegrationFilter,authenticationProcessingFilter,securityContextHolderAwareRequestFilter,rememberMeProcessingFilter,anonymousProcessingFilter,exceptionTranslationFilter,filterInvocationInterceptor
                 /common/**/*=httpSessionContextIntegrationFilter,anonymousProcessingFilter
-                /user/**/*=httpSessionContextIntegrationFilter,anonymousProcessingFilter
             </value>
             <!-- Put channelProcessingFilter before securityContextHolderAwareRequestFilter to turn on SSL switching -->
             <!-- It's off by default b/c Canoo WebTest doesn't support SSL out-of-the-box -->
@@ -72,12 +71,13 @@
             <value>
                 PATTERN_TYPE_APACHE_ANT
                 /admin/*=ROLE_ADMIN
+                /sample/*=ROLE_ANONYMOUS
+                /rest/*=ROLE_ANONYMOUS
                 /passwordHint.html*=ROLE_ANONYMOUS,ROLE_ADMIN,ROLE_USER
                 /signup.html*=ROLE_ANONYMOUS,ROLE_ADMIN,ROLE_USER
                 /a4j.res/*.html*=ROLE_ANONYMOUS,ROLE_ADMIN,ROLE_USER <!-- APF-737, OK to remove if not using JSF -->
                 /**/*.html*=ROLE_ADMIN,ROLE_USER
                 /common/**/*=ROLE_ANONYMOUS
-                /user/**/*=ROLE_ANONYMOUS
             </value>
         </property>
     </bean>
@@ -129,7 +129,7 @@
 
     <!-- Apply method-level interceptor to userManager bean -->
     <aop:config>
-        <aop:advisor id="managerSecurity" advice-ref="methodSecurityInterceptor" pointcut="execution(* org.sonya.user.service.UserManager.*(..))"/>
+        <aop:advisor id="managerSecurity" advice-ref="methodSecurityInterceptor" pointcut="execution(* com.sonya.user.service.UserManager.*(..))"/>
     </aop:config>
 
     <bean id="methodSecurityInterceptor" class="org.acegisecurity.intercept.method.aopalliance.MethodSecurityInterceptor">
@@ -137,8 +137,10 @@
         <property name="accessDecisionManager" ref="accessDecisionManager"/>
         <property name="objectDefinitionSource">
              <value>
+                 <!-- Commented by Louie, 05/29/2008.
                  com.sonya.user.service.UserManager.getUsers=ROLE_ADMIN
                  com.sonya.user.service.UserManager.removeUser=ROLE_ADMIN
+                 -->
              </value>
         </property>
     </bean>

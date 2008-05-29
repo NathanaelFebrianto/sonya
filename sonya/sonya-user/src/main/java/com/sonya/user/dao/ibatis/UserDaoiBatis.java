@@ -30,7 +30,7 @@ public class UserDaoiBatis extends GenericDaoiBatis<User, String> implements Use
      */
     @SuppressWarnings("unchecked")
     public List<User> getUsers() {
-        List users = (List<User>)getSqlMapClientTemplate().queryForList("getUsers", null);
+        List users = (List<User>) getSqlMapClientTemplate().queryForList("getUsers", null);
 
         return users;
     }
@@ -44,7 +44,7 @@ public class UserDaoiBatis extends GenericDaoiBatis<User, String> implements Use
     @SuppressWarnings("unchecked")
     @Override
     public User get(String userId) {
-        User user = (User)getSqlMapClientTemplate().queryForObject("getUser", userId);
+        User user = (User) getSqlMapClientTemplate().queryForObject("getUser", userId);
 
         if (user == null) {
             logger.warn("uh oh, user not found...");
@@ -61,7 +61,7 @@ public class UserDaoiBatis extends GenericDaoiBatis<User, String> implements Use
         //iBatisDaoUtils.prepareObjectForSaveOrUpdate(user);
 
         if (user.getId() == null) {
-        	String id = (String)getSqlMapClientTemplate().insert("addUser", user);
+        	String id = (String) getSqlMapClientTemplate().insert("addUser", user);
             user.setId(id);
         }
 
@@ -93,7 +93,7 @@ public class UserDaoiBatis extends GenericDaoiBatis<User, String> implements Use
      */
     @SuppressWarnings("unchecked")
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-         User user = (User)getSqlMapClientTemplate().queryForObject("getUserByUsername", username);
+         User user = (User) getSqlMapClientTemplate().queryForObject("getUserByUsername", username);
 
          if (user == null) {
              logger.warn("uh oh, user not found...");
@@ -107,6 +107,6 @@ public class UserDaoiBatis extends GenericDaoiBatis<User, String> implements Use
      * {@inheritDoc}
      */
     public String getUserPassword(String username) {
-        return (String)getSqlMapClientTemplate().queryForObject("getUserPassword", username);
+        return (String) getSqlMapClientTemplate().queryForObject("getUserPassword", username);
     }
 }
