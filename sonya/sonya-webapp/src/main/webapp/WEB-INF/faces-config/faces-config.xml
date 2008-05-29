@@ -42,12 +42,14 @@
             <renderer-type>javax.faces.Label</renderer-type>
             <renderer-class>org.sonya.webapp.jsf.LabelRenderer</renderer-class>
         </renderer>
+        <!--  
         <renderer>
             <description>Replacement renderer for h:panelGrid that uses lists instead of tables</description>
             <component-family>javax.faces.Panel</component-family>
             <renderer-type>javax.faces.Grid</renderer-type>
             <renderer-class>org.sonya.webapp.jsf.PanelGridRenderer</renderer-class>
         </renderer>
+        -->
     </render-kit>
 
     <validator>
