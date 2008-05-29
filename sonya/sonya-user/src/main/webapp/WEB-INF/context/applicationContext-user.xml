@@ -18,25 +18,12 @@
 	</bean>
 
 	<!-- Add Managers here -->
-	<!--  
-	<bean id="lookupManager" class="org.appfuse.service.impl.LookupManagerImpl">
-		
-	</bean>
-		
-	<bean id="userManager" class="org.appfuse.service.impl.UserManagerImpl">
-		<property name="userDao" ref="userDao"/>
-		<property name="authenticationProvider" ref="daoAuthenticationProvider"/>
-	</bean>
-	
-	<bean id="roleManager" class="org.appfuse.service.impl.RoleManagerImpl">
-		<property name="roleDao" ref="roleDao"/>
-	</bean>
-	-->
 	<bean id="userManager" class="org.sonya.user.service.impl.UserManagerImpl">
 		<constructor-arg ref="userDao"/>
+		<property name="authenticationProvider" ref="daoAuthenticationProvider"/>
 	</bean>
 
-	<bean id="helloWorldResource" scope="prototype" class="org.sonya.user.service.resources.HelloWorldResource">
+	<bean id="userResource" scope="prototype" class="org.sonya.user.service.resources.UserResource">
 		<property name="userManager" ref="userManager"/>
 	</bean>
 
