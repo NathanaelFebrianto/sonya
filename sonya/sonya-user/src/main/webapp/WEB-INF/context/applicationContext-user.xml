@@ -12,18 +12,18 @@
 	</bean>
 
 	<!-- Add DAOs here -->
-	<bean id="userDao" class="org.sonya.user.dao.ibatis.UserDaoiBatis">
+	<bean id="userDao" class="com.sonya.user.dao.ibatis.UserDaoiBatis">
 		<property name="dataSource" ref="dataSource" />
 		<property name="sqlMapClient" ref="sqlMapClient-user" />
 	</bean>
 
 	<!-- Add Managers here -->
-	<bean id="userManager" class="org.sonya.user.service.impl.UserManagerImpl">
+	<bean id="userManager" class="com.sonya.user.service.impl.UserManagerImpl">
 		<constructor-arg ref="userDao"/>
 		<property name="authenticationProvider" ref="daoAuthenticationProvider"/>
 	</bean>
 
-	<bean id="userResource" scope="prototype" class="org.sonya.user.service.resources.UserResource">
+	<bean id="userResource" scope="prototype" class="com.sonya.user.service.resources.UserResource">
 		<property name="userManager" ref="userManager"/>
 	</bean>
 

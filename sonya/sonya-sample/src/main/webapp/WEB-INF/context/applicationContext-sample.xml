@@ -11,13 +11,13 @@
     </bean>
 
     <!-- Add new DAOs here -->
-    <bean id="personDao" class="org.sonya.sample.dao.ibatis.PersonDaoiBatis">
+    <bean id="personDao" class="com.sonya.sample.dao.ibatis.PersonDaoiBatis">
         <property name="dataSource" ref="dataSource"/>
         <property name="sqlMapClient" ref="sqlMapClient-sample"/>
     </bean>
     
     <!-- Add new Managers here -->
-	<bean id="personManager" class="org.sonya.sample.service.impl.PersonManagerImpl">
+	<bean id="personManager" class="com.sonya.sample.service.impl.PersonManagerImpl">
 	    <constructor-arg ref="personDao"/>
 	</bean>    
     

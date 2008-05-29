@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.sonya</groupId>
+	<groupId>com.sonya</groupId>
 	<artifactId>sonya</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0.0</version>
 	<name>Sonya Application</name>
-	<url>http://www.sonya.org</url>
+	<url>http://www.sonya.com</url>
 
 	<prerequisites>
 		<maven>2.0.6</maven>
