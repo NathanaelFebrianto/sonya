@@ -38,7 +38,7 @@ public class BasePage {
         return FacesContext.getCurrentInstance();
     }
 
-    /**
+    /*
     public void setUserManager(UserManager userManager) {
         this.userManager = userManager;
     }
@@ -55,7 +55,8 @@ public class BasePage {
     }
 
     public String getBundleName() {
-        return getFacesContext().getApplication().getMessageBundle();
+    	//return getFacesContext().getApplication().getMessageBundle() + "_" + getRequest().getLocale();
+    	return getFacesContext().getApplication().getMessageBundle();
     }
 
     public ResourceBundle getBundle() {
