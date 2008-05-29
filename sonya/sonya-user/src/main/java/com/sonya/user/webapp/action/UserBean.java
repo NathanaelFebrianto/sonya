@@ -1,4 +1,4 @@
-package org.sonya.user.webapp.action;
+package com.sonya.user.webapp.action;
 
 import java.io.Serializable;
 
@@ -7,11 +7,12 @@ import javax.servlet.http.HttpServletResponse;
 import org.acegisecurity.AccessDeniedException;
 import org.acegisecurity.context.SecurityContextHolder;
 import org.acegisecurity.providers.UsernamePasswordAuthenticationToken;
-import org.sonya.Constants;
-import org.sonya.user.model.User;
-import org.sonya.user.service.UserExistsException;
-import org.sonya.user.service.UserManager;
-import org.sonya.webapp.action.BasePage;
+
+import com.sonya.Constants;
+import com.sonya.user.model.User;
+import com.sonya.user.service.UserExistsException;
+import com.sonya.user.service.UserManager;
+import com.sonya.webapp.action.BasePage;
 
 /**
  * JSF Page class to handle user.
