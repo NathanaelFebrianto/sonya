@@ -3,7 +3,7 @@
     "http://ibatis.apache.org/dtd/sql-map-2.dtd">
 
 <sqlMap namespace="user">
-    <typeAlias alias="user" type="org.sonya.user.model.User"/>
+    <typeAlias alias="user" type="com.sonya.user.model.User"/>
 
     <resultMap id="userResult" class="user">
         <result property="id" column="id"/>
