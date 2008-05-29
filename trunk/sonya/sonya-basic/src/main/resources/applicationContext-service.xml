@@ -53,7 +53,7 @@
     <!-- =================================================================== -->
     <!-- Mail: Sender and Velocity configuration                             -->
     <!-- =================================================================== -->
-    <bean id="mailEngine" class="org.sonya.service.MailEngine">
+    <bean id="mailEngine" class="com.sonya.service.MailEngine">
         <property name="mailSender" ref="mailSender"/>
         <property name="velocityEngine" ref="velocityEngine"/>
         <property name="from" value="${mail.default.from}"/>
@@ -110,5 +110,5 @@
     -->
     
     <!-- Add new Managers here -->
-    <bean id="applicationResourcesInitializer" class="org.sonya.webapp.action.ApplicationResourcesInitializer" />
+    <bean id="applicationResourcesInitializer" class="com.sonya.webapp.action.ApplicationResourcesInitializer" />
 </beans>

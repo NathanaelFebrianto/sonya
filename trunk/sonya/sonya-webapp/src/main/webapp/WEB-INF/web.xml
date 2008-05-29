@@ -129,13 +129,13 @@
 	<filter>
 		<filter-name>localeFilter</filter-name>
 		<filter-class>
-			org.sonya.webapp.filter.LocaleFilter
+			com.sonya.webapp.filter.LocaleFilter
 		</filter-class>
 	</filter>
 	<filter>
 		<filter-name>messageFilter</filter-name>
 		<filter-class>
-			org.sonya.webapp.filter.MessageFilter
+			com.sonya.webapp.filter.MessageFilter
 		</filter-class>
 	</filter>
 	<filter>
@@ -148,16 +148,22 @@
 			<param-value>log4j</param-value>
 		</init-param>
 	</filter>
+
 	<!--  
-		<filter>
+	<filter>
 		<filter-name>securityFilter</filter-name>
-		<filter-class>org.acegisecurity.util.FilterToBeanProxy</filter-class>
+		<filter-class>
+			org.acegisecurity.util.FilterToBeanProxy
+		</filter-class>
 		<init-param>
-		<param-name>targetClass</param-name>
-		<param-value>org.acegisecurity.util.FilterChainProxy</param-value>
+			<param-name>targetClass</param-name>
+			<param-value>
+				org.acegisecurity.util.FilterChainProxy
+			</param-value>
 		</init-param>
-		</filter>
+	</filter>
 	-->
+
 	<filter>
 		<filter-name>sitemesh</filter-name>
 		<filter-class>
@@ -169,12 +175,14 @@
 		<filter-name>encodingFilter</filter-name>
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
+
 	<!--  
-		<filter-mapping>
+	<filter-mapping>
 		<filter-name>securityFilter</filter-name>
 		<url-pattern>/*</url-pattern>
-		</filter-mapping>
+	</filter-mapping>
 	-->
+
 	<filter-mapping>
 		<filter-name>extensionsFilter</filter-name>
 		<servlet-name>faces</servlet-name>
@@ -276,12 +284,12 @@
 	</listener>
 	<listener>
 		<listener-class>
-			org.sonya.webapp.listener.StartupListener
+			com.sonya.webapp.listener.StartupListener
 		</listener-class>
 	</listener>
 	<!--  
 		<listener>
-		<listener-class>org.sonya.webapp.listener.UserCounterListener</listener-class>
+		<listener-class>com.sonya.webapp.listener.UserCounterListener</listener-class>
 		</listener>
 	-->
 
@@ -309,18 +317,19 @@
 		</servlet-class>
 	</servlet>
 
-	<!-- Servlet Adapter for RESTful Web Services -->
+	<!-- //For RESTful Web Services -->
 	<servlet>
 		<servlet-name>rest</servlet-name>
 		<servlet-class>
 			<!-- com.sun.ws.rest.impl.container.servlet.ServletAdaptor -->
-			org.sonya.service.RestSpringServlet
+			com.sonya.service.RestSpringServlet
 		</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>rest</servlet-name>
 		<url-pattern>/rest/*</url-pattern>
 	</servlet-mapping>
+	<!-- For RESTful Web Services// -->
 
 	<servlet-mapping>
 		<servlet-name>faces</servlet-name>

@@ -3,7 +3,7 @@
     "http://ibatis.apache.org/dtd/sql-map-2.dtd">
 
 <sqlMap namespace="PersonSQL">
-    <typeAlias alias="person" type="org.sonya.sample.model.Person"/>
+    <typeAlias alias="person" type="com.sonya.sample.model.Person"/>
 
     <parameterMap id="addParam" class="person">
         <parameter property="firstName" jdbcType="VARCHAR" javaType="java.lang.String"/>

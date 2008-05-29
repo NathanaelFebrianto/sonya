@@ -137,8 +137,8 @@
         <property name="accessDecisionManager" ref="accessDecisionManager"/>
         <property name="objectDefinitionSource">
              <value>
-                 org.sonya.user.service.UserManager.getUsers=ROLE_ADMIN
-                 org.sonya.user.service.UserManager.removeUser=ROLE_ADMIN
+                 com.sonya.user.service.UserManager.getUsers=ROLE_ADMIN
+                 com.sonya.user.service.UserManager.removeUser=ROLE_ADMIN
              </value>
         </property>
     </bean>
