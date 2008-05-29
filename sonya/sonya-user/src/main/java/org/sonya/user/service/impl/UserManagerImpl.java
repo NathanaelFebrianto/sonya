@@ -2,7 +2,10 @@ package org.sonya.user.service.impl;
 
 import java.util.List;
 
+import javax.persistence.EntityExistsException;
+
 import org.acegisecurity.providers.dao.DaoAuthenticationProvider;
+import org.acegisecurity.providers.encoding.PasswordEncoder;
 import org.acegisecurity.userdetails.UsernameNotFoundException;
 import org.sonya.service.impl.GenericManagerImpl;
 import org.sonya.user.dao.UserDao;
@@ -10,6 +13,7 @@ import org.sonya.user.model.User;
 import org.sonya.user.service.UserExistsException;
 import org.sonya.user.service.UserManager;
 import org.springframework.beans.factory.annotation.Required;
+import org.springframework.dao.DataIntegrityViolationException;
 
 /**
  * Implementation of UserManager interface.
@@ -79,7 +83,46 @@ public class UserManagerImpl extends GenericManagerImpl<User, String> implements
      * {@inheritDoc}
      */
     public User saveUser(User user) throws UserExistsException {
-    	return null;
+        // get and prepare password management-related artifacts
+        boolean passwordChanged = false;
+        if (authenticationProvider != null) {
+            PasswordEncoder passwordEncoder = authenticationProvider.getPasswordEncoder();
+
+            if (passwordEncoder != null) {
+                // check whether we have to encrypt (or re-encrypt) the password
+                // existing user, check password in DB
+                String currentPassword = userDao.getUserPassword(user.getUsername());
+                if (currentPassword == null) {
+                    passwordChanged = true;
+                } else {
+                    if (!currentPassword.equals(user.getPassword())) {
+                        passwordChanged = true;
+                    }
+                }
+
+                // if password was changed (or new user), encrypt it
+                if (passwordChanged) {
+                    user.setPassword(passwordEncoder.encodePassword(user.getPassword(), null));
+                }
+            } else {
+                log.warn("PasswordEncoder not set on AuthenticationProvider, skipping password encryption...");
+            }
+        } else {
+            log.warn("AuthenticationProvider not set, skipping password encryption...");
+
+        }
+        
+        try {
+            return userDao.saveUser(user);
+        } catch (DataIntegrityViolationException e) {
+            e.printStackTrace();
+            log.warn(e.getMessage());
+            throw new UserExistsException("User '" + user.getUsername() + "' already exists!");
+        } catch (EntityExistsException e) { // needed for JPA
+            e.printStackTrace();
+            log.warn(e.getMessage());
+            throw new UserExistsException("User '" + user.getUsername() + "' already exists!");
+        }
     }
 
     /**

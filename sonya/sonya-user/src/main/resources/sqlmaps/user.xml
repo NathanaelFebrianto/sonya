@@ -22,9 +22,10 @@
         <result property="address" column="address"/>
         <result property="addressDetail" column="address_detail"/>
         <result property="email" column="email"/>
-        <result property="phoneNo" column="phone_no"/>
-        <result property="mobileNo" column="mobile_no"/>
+        <result property="phoneNumber" column="phone_no"/>
+        <result property="mobileNumber" column="mobile_no"/>
         <result property="website" column="website"/>
+        <result property="enabled" column="enabled"/>
         <result property="use" column="use_yn"/>
         <result property="terminate" column="terminate_yn"/>
         <result property="terminateDate" column="terminate_date"/>
@@ -63,12 +64,12 @@
         t_user (sid, username, password, role_id, first_name, last_name, 
 	        country, time_zone, company_name, department, job_level,
 	        postal_code, address, address_detail, email, phone_no, mobile_no, 
-	        website, use_yn, terminate_yn, terminate_date, 
+	        website, enabled, use_yn, terminate_yn, terminate_date, 
 	        insert_date, update_date, delete_date)
         values (#sid#, #username#, #password#, #roleId#, #firstName#, #lastName#, 
 	        #country#, #timeZone#, #company#, #department#, #jobLevel#,
-	        #postalCode#, #address#, #addressDetail#, #email#, #phoneNo#, #mobileNo#, 
-	        #website#, #use#, #terminate#, #terminateDate#, 
+	        #postalCode#, #address#, #addressDetail#, #email#, #phoneNumber#, #mobileNumber#, 
+	        #website#, #enabled#, #use#, #terminate#, #terminateDate#, 
 	        #insertDate#, #updateDate#, #deleteDate#)
     ]]>
         <selectKey resultClass="java.lang.String" keyProperty="id" type="post">
@@ -94,9 +95,10 @@
             address = #address#,
             address_detail = #addressDetail#,
             email = #email#,
-            phone_no = #phoneNo#,
-            mobile_no = #mobileNo#,
+            phone_no = #phoneNumber#,
+            mobile_no = #mobileNumber#,
             website = #website#,
+            enabled = #enabled#,
             use_yn = #use#,
             terminate_yn = #terminate#,
             terminate_date = #terminateDate#,

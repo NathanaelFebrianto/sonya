@@ -36,8 +36,8 @@ public class User extends BaseObject implements Serializable, UserDetails {
 	private String address;
 	private String addressDetail;
 	private String email;
-	private String phoneNo;
-	private String mobileNo;
+	private String phoneNumber;
+	private String mobileNumber;
 	private String website;
 	private boolean use;
 	private boolean terminate;
@@ -119,12 +119,12 @@ public class User extends BaseObject implements Serializable, UserDetails {
 		return email;
 	}
 
-	public String getPhoneNo() {
-		return phoneNo;
+	public String getPhoneNumber() {
+		return phoneNumber;
 	}
 
-	public String getMobileNo() {
-		return mobileNo;
+	public String getMobileNumber() {
+		return mobileNumber;
 	}
 
 	public String getWebsite() {
@@ -269,12 +269,12 @@ public class User extends BaseObject implements Serializable, UserDetails {
 		this.email = email;
 	}
 
-	public void setPhoneNo(String phoneNo) {
-		this.phoneNo = phoneNo;
+	public void setPhoneNumber(String phoneNumber) {
+		this.phoneNumber = phoneNumber;
 	}
 
-	public void setMobileNo(String mobileNo) {
-		this.mobileNo = mobileNo;
+	public void setMobileNumber(String mobileNumber) {
+		this.mobileNumber = mobileNumber;
 	}
 
 	public void setWebsite(String website) {
