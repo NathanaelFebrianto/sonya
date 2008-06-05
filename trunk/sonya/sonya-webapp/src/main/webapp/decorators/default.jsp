@@ -25,7 +25,7 @@
         <div id="content">
             <div id="main">
                 <%@ include file="/common/messages.jsp" %>
-                <h1><decorator:getProperty property="meta.heading"/></h1>
+                <h2><decorator:getProperty property="meta.heading"/></h2>
                 <decorator:body/>
             </div>
         </div>

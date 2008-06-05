@@ -41,8 +41,28 @@ a:visited {
 }
 
 a:hover {
-    color: #cc0000;
+    color: #1465b7;
+    text-decoration: underline;
+}
+
+/* header */
+.header {
+    color: #ffffff;
+}
+
+.header a:link {
+    color: #ffffff;
     text-decoration: none;
+}
+
+.header a:visited {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.header a:hover {
+    color: #ffffff;
+    text-decoration: underline;
 }
 
 /* headings */
