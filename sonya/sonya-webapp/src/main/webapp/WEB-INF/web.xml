@@ -39,7 +39,7 @@
 			classpath*:/applicationContext*.xml
 			/WEB-INF/context/applicationContext*.xml
 			/WEB-INF/xfire-servlet.xml
-			/WEB-INF/security.xml
+			<!-- /WEB-INF/security.xml -->
 		</param-value>
 	</context-param>
 	<context-param>
@@ -56,7 +56,7 @@
 	</context-param>
 	<context-param>
 		<param-name>javax.faces.STATE_SAVING_METHOD</param-name>
-		<param-value>client</param-value>
+		<param-value>server</param-value>
 	</context-param>
 	<context-param>
 		<param-name>javax.faces.DEFAULT_SUFFIX</param-name>
@@ -149,6 +149,7 @@
 		</init-param>
 	</filter>
 
+	<!--  
 	<filter>
 		<filter-name>securityFilter</filter-name>
 		<filter-class>
@@ -161,6 +162,7 @@
 			</param-value>
 		</init-param>
 	</filter>
+	-->
 
 	<filter>
 		<filter-name>sitemesh</filter-name>
@@ -174,10 +176,13 @@
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
 
+	<!-- 06/01/2008, Louie: commented because of richfaces not rendering until fixing the bug -->
+	<!--  
 	<filter-mapping>
 		<filter-name>securityFilter</filter-name>
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
+	-->
 
 	<filter-mapping>
 		<filter-name>extensionsFilter</filter-name>

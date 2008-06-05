@@ -25,7 +25,7 @@
 				value="#{text['user.sid']}" />
 			<t:message for="sid" styleClass="fieldError" />
 			<h:inputText value="#{userBean.user.sid}" id="sid" required="true"
-				styleClass="text large">
+				styleClass="text medium">
 				<v:commonsValidator type="required" arg="#{text['user.sid']}" />
 			</h:inputText>
 
@@ -34,11 +34,11 @@
 			<t:message for="username" styleClass="fieldError" />
 			<h:panelGroup>
 				<h:inputText value="#{userBean.user.username}" id="username"
-					required="true" styleClass="text large">
+					required="true" styleClass="text medium">
 					<v:commonsValidator type="required" arg="#{text['user.username']}" />
 				</h:inputText>
-				<h:commandButton value="#{text['user.username.verify']}"
-					action="#{userBean.verifyUsername}" id="verifyUsername"
+				<h:commandButton value="#{text['user.username.check']}"
+					action="#{userBean.checkUsername}" id="checkUsername"
 					styleClass="button" />
 			</h:panelGroup>
 
@@ -65,7 +65,7 @@
 				value="#{text['user.last.name']}" />
 			<t:message for="lastName" styleClass="fieldError" />
 			<h:inputText value="#{userBean.user.lastName}" id="lastName" required="true"
-				styleClass="text large">
+				styleClass="text medium">
 				<v:commonsValidator type="required" arg="#{text['user.last.name']}" />
 			</h:inputText>
 			
@@ -73,7 +73,7 @@
 				value="#{text['user.first.name']}" />
 			<t:message for="firstName" styleClass="fieldError" />
 			<h:inputText value="#{userBean.user.firstName}" id="firstName" required="true"
-				styleClass="text large">
+				styleClass="text medium">
 				<v:commonsValidator type="required" arg="#{text['user.first.name']}" />
 			</h:inputText>
 

@@ -1,0 +1,39 @@
+
+/* ----- FIELDS AND LABELS ----- */
+label.desc { 
+}
+
+input.text, input.number, input.url, input.email, input.password, input.file,
+textarea.textarea, select.select{
+	/*
+	color: #666666;
+	background-color: #EEEEEE;
+	border: 1px solid #AFAFAF;
+	padding:1 0 0 5;
+	*/
+}
+
+/* ----- SIZES ----- */
+form .small{
+    width: 70px;
+}
+
+form .medium{
+    width: 170px;
+}
+
+form .large, form textarea.textarea{
+    width: 349px;
+}
+
+form textarea.small{
+    height: 5.5em;
+}
+
+form textarea.medium{
+    height: 10em;
+}
+
+form textarea.large{
+    height: 20em;
+}
