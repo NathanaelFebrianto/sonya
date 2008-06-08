@@ -23,15 +23,14 @@
 		<h:panelGrid columns="3">
 			<h:outputLabel for="sid" styleClass="desc"
 				value="#{text['user.sid']}" />
-			<t:message for="sid" styleClass="fieldError" />
 			<h:inputText value="#{userBean.user.sid}" id="sid" required="true"
 				styleClass="text medium">
 				<v:commonsValidator type="required" arg="#{text['user.sid']}" />
 			</h:inputText>
+			<t:message for="sid" styleClass="fieldError" />
 
 			<h:outputLabel for="username" styleClass="desc"
 				value="#{text['user.username']}" />
-			<t:message for="username" styleClass="fieldError" />
 			<h:panelGroup>
 				<h:inputText value="#{userBean.user.username}" id="username"
 					required="true" styleClass="text medium">
@@ -41,18 +40,18 @@
 					action="#{userBean.checkUsername}" id="checkUsername"
 					styleClass="button" />
 			</h:panelGroup>
+			<t:message for="username" styleClass="fieldError" />
 
 			<h:outputLabel for="password" value="#{text['user.password']}"
 				styleClass="desc" />
-			<t:message for="password" styleClass="fieldError" />
 			<h:inputSecret value="#{userBean.user.password}" id="password"
 				redisplay="true" required="true" styleClass="text medium">
 				<v:commonsValidator type="required" arg="#{text['user.password']}" />
 			</h:inputSecret>
+			<t:message for="password" styleClass="fieldError" />
 
 			<h:outputLabel for="confirmPassword"
-				value="#{text['user.confirm.password']}" styleClass="desc" />
-			<t:message for="confirmPassword" styleClass="fieldError" />
+				value="#{text['user.confirm.password']}" styleClass="desc" />			
 			<h:inputSecret value="#{userBean.user.confirmPassword}"
 				id="confirmPassword" redisplay="true" required="true"
 				styleClass="text medium">
@@ -60,31 +59,42 @@
 					arg="#{text['user.confirm.password']}" />
 				<t:validateEqual for="password" />
 			</h:inputSecret>
+			<t:message for="confirmPassword" styleClass="fieldError" />
 			
 			<h:outputLabel for="lastName" styleClass="desc"
-				value="#{text['user.last.name']}" />
-			<t:message for="lastName" styleClass="fieldError" />
+				value="#{text['user.last.name']}" />			
 			<h:inputText value="#{userBean.user.lastName}" id="lastName" required="true"
 				styleClass="text medium">
 				<v:commonsValidator type="required" arg="#{text['user.last.name']}" />
 			</h:inputText>
+			<t:message for="lastName" styleClass="fieldError" />
 			
 			<h:outputLabel for="firstName" styleClass="desc"
-				value="#{text['user.first.name']}" />
-			<t:message for="firstName" styleClass="fieldError" />
+				value="#{text['user.first.name']}" />			
 			<h:inputText value="#{userBean.user.firstName}" id="firstName" required="true"
 				styleClass="text medium">
 				<v:commonsValidator type="required" arg="#{text['user.first.name']}" />
 			</h:inputText>
+			<t:message for="firstName" styleClass="fieldError" />
 
 			<h:outputLabel for="country" styleClass="desc" 
 				value="#{text['user.country']}" />			
-			<t:message for="country" styleClass="fieldError" />
 			<h:selectOneMenu value="#{userBean.user.country}" id="country"
 				required="true" styleClass="select">
 				<f:selectItems value="#{userBean.countries}" />
 				<v:commonsValidator type="required" arg="#{text['user.country']}" />
 			</h:selectOneMenu>
+			<t:message for="country" styleClass="fieldError" />
+
+			<h:panelGroup styleClass="buttonBar bottom">
+				<h:commandButton value="#{text['button.register']}"
+					action="#{userBean.save}" id="save" styleClass="button" />
+				<h:commandButton value="#{text['button.cancel']}" action="cancel"
+					immediate="true" id="cancel" styleClass="button"
+					onclick="bCancel=true" />
+			</h:panelGroup>
+			<h:outputText />
+			<h:outputText />
 
 		</h:panelGrid>
 

@@ -47,7 +47,7 @@ public class UserBean extends BasePage implements Serializable {
             getResponse().sendError(HttpServletResponse.SC_FORBIDDEN);
             return null; 
         } catch (UserExistsException e) {
-            addMessage("errors.existing.user", new Object[]{user.getUsername(), user.getEmail()});
+            addMessage("user.errors.existing.user", new Object[]{user.getUsername(), user.getEmail()});
 
             // redisplay the unencrypted passwords
             user.setPassword(user.getConfirmPassword());
@@ -58,10 +58,12 @@ public class UserBean extends BasePage implements Serializable {
         getSession().setAttribute(Constants.REGISTERED, Boolean.TRUE);
 
         // log user in automatically
+        /*
         UsernamePasswordAuthenticationToken auth = new UsernamePasswordAuthenticationToken(
                 user.getUsername(), user.getConfirmPassword(), user.getAuthorities());
         auth.setDetails(user);
         SecurityContextHolder.getContext().setAuthentication(auth);
+        */
 
         return "mainMenu";
     }

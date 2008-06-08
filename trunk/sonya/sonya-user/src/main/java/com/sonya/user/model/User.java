@@ -27,7 +27,7 @@ public class User extends BaseObject implements Serializable, UserDetails {
 	private String timeZone;
 	private String company;
 	private String department;
-	private String jobLevel;
+	private String jobPosition;
 	private String postalCode;
 	private String address;
 	private String addressDetail;
@@ -95,8 +95,8 @@ public class User extends BaseObject implements Serializable, UserDetails {
 		return department;
 	}
 
-	public String getJobLevel() {
-		return jobLevel;
+	public String getJobPosition() {
+		return jobPosition;
 	}
 
 	public String getPostalCode() {
@@ -245,8 +245,8 @@ public class User extends BaseObject implements Serializable, UserDetails {
 		this.department = department;
 	}
 
-	public void setJobLevel(String jobLevel) {
-		this.jobLevel = jobLevel;
+	public void setJobPosition(String jobPosition) {
+		this.jobPosition = jobPosition;
 	}
 
 	public void setPostalCode(String postalCode) {
