@@ -37,3 +37,14 @@ form textarea.medium{
 form textarea.large{
     height: 20em;
 }
+
+/* ----- Buttons ----- */
+input.button, button {
+    width: 6em;
+    padding: 2px 2px 0 0; /* fix for IE */
+}
+
+/* revert to normal for Firefox */
+li>input.button, li>button, input.button>input.button, button>button {
+    padding: 2px;
+}

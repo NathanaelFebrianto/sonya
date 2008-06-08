@@ -17,7 +17,7 @@
         <result property="timeZone" column="time_zone"/>
         <result property="company" column="company"/>
         <result property="department" column="department"/>
-        <result property="jobLevel" column="job_level"/>
+        <result property="jobPosition" column="job_position"/>
         <result property="postalCode" column="postal_code"/>
         <result property="address" column="address"/>
         <result property="addressDetail" column="address_detail"/>
@@ -62,12 +62,12 @@
     <![CDATA[
         insert into
         t_user (sid, username, password, role_id, first_name, last_name, 
-	        country, time_zone, company_name, department, job_level,
+	        country, time_zone, company, department, job_position,
 	        postal_code, address, address_detail, email, phone_no, mobile_no, 
 	        website, enabled, use_yn, terminate_yn, terminate_date, 
 	        insert_date, update_date, delete_date)
         values (#sid#, #username#, #password#, #roleId#, #firstName#, #lastName#, 
-	        #country#, #timeZone#, #company#, #department#, #jobLevel#,
+	        #country#, #timeZone#, #company#, #department#, #jobPosition#,
 	        #postalCode#, #address#, #addressDetail#, #email#, #phoneNumber#, #mobileNumber#, 
 	        #website#, #enabled#, #use#, #terminate#, #terminateDate#, 
 	        #insertDate#, #updateDate#, #deleteDate#)
@@ -90,7 +90,7 @@
             time_zone = #timeZone#,
             company = #company#,
             department = #department#,
-            job_level = #jobLevel#,
+            job_position = #jobPosition#,
             postal_code = #postalCode#,
             address = #address#,
             address_detail = #addressDetail#,
