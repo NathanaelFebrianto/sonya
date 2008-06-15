@@ -1,21 +1,20 @@
 <%@ include file="/common/taglibs.jsp"%>
 
-<div class="top">
-<c:if test="${pageContext.request.locale.language != 'en'}">
-	<span class="header"><a href="<c:url value='/?locale=en'/>">English</a></span>
-</c:if>
-<c:if test="${pageContext.request.locale.language != 'ko'}">
-	<span class="header"><a href="<c:url value='/?locale=ko'/>">Korean</a></span>
-</c:if> <span class="header">|</span> <span class="header"><a href="<c:url value='/login.jsp'/>">
-	<fmt:message key="signin" /></a></span>
+<div id="logo">
+	<h1><a href="<fmt:message key="company.url"/>"><fmt:message key="webapp.name" /></a></h1>
+	<h2><a href="<fmt:message key="company.url"/>">Open Source Project by Louie</a></h2>
 </div>
-
-<div class="branding">
-<a href="<fmt:message key="company.url"/>">
-<img src="<c:url value="/images/logo.png"/>" alt="<fmt:message key="webapp.name"/>" /> </a></div>
-
-<div class="center">
-<h1><span class="header"><fmt:message key="webapp.name" /></span></h1>
+<div id="menu">
+	<ul>
+		<li class="first"><a href="#" accesskey="1" title="">Home</a></li>
+		<li><a href="#" accesskey="2" title="">Services</a></li>
+		<li><a href="#" accesskey="3" title="">About</a></li>
+		<c:if test="${pageContext.request.locale.language != 'en'}">
+			<li><a href="<c:url value='/?locale=en'/>">English</a></li>
+		</c:if>
+		<c:if test="${pageContext.request.locale.language != 'ko'}">
+			<li><a href="<c:url value='/?locale=ko'/>">Korean</a></li>
+		</c:if>
+		<li><a href="<c:url value='/login.jsp'/>">Sign in</a></li>			
+	</ul>
 </div>
-
-

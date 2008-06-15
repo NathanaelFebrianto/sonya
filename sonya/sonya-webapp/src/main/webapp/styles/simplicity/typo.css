@@ -1,139 +1,43 @@
-/* typography */
-
 /*
-	color pallete:
-        #444        - dark gray (text)
-        #3e9ade - medium blue (title)
-        #b4c24b - lime (header 1)
-        #ebf5fc - light cyan (hover text, footer)
-        #d7e9f5    - medium cyan (tab)
-        #1465b7 - dark blue (tab text, hyperlink)
-        #ccc         - medium gray (line)
-        #f7f7f7 - light gray (form background)
-        #f90        - orange (required *)
+Typography
 */
 
 body {
-    text-align: left;
-    font-family: arial, verdana, helvetica, sans-serif;
-    font-size: 83%;
-    color: black;
+	margin: 30px 0;
+	padding: 0;
+	font: normal small "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #999999;
 }
 
-div {
-    
-}
-
-img {
-    border: 0;
-}
-
-/* links */
-a,a:link
-    a:active {
-    color: #1465b7;
-    text-decoration: none;
-}
-
-a:visited {
-    color: #1465b7;
-    background-color: transparent;
-}
-
-a:hover {
-    color: #1465b7;
-    text-decoration: underline;
-}
-
-/* header */
-.header {
-    color: #ffffff;
-}
-
-.header a:link {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.header a:visited {
-    color: #ffffff;
-    background-color: transparent;
-}
-
-.header a:hover {
-    color: #ffffff;
-    text-decoration: underline;
-}
-
-/* headings */
-h1, h2, h3, h4, h5, h6 {
-    font-family: arial, helvetica, sans-serif;
-    font-weight: normal;
-}
-
-h1 {
-    font-size: 2.2em;
-    margin: 0 0 0.5em 0;
-    padding: 0;
-    color: black;
+h1, h2, h3 {
+	text-transform: uppercase;
+	color: #666666;
 }
 
 h2 {
-    font-size: 1.4em;
-    margin: 0 0 0.5em 0;
-    padding: 0;
-    color: black;
+	font-size: 1.2em;
 }
 
 h3 {
-    font-size: 1.3em;
-    margin: 0 0 0.5em 0;
-    padding: 0;
-    color: black;
+	margin: 0;
+	font-size: .875em;
 }
 
-h4 {
-    font-size: 1.2em;
-    margin: 0 0 0.25em 0;
-    padding: 0;
-    color: black;
+p, blockquote, ul, ol {
+	margin-top: 0;
+	line-height: 180%;
+	text-align: justify;
 }
 
-h5 {
-    font-size: 1.1em;
-    margin: 0 0 0.25em 0;
-    padding: 0;
-    color: black;
+a {
+	color: #A5B80D;
 }
 
-h6 {
-    font-size: 1em;
-    margin: 0 0 0.25em 0;
-    padding: 0;
-    color: black;
+a:hover {
+	text-decoration: none;
+	color: #FF6000;
 }
 
-/* text */
-strong,b {
-    font-weight: bold;
-}
-
-em,i {
-    font-style: italic;
-}
-
-/* lists */
-
-/* table */
-
-
-/* etc */
-hr {
-    display: none;
-}
-
-div.hr {
-    height: 1px;
-    margin: 1.5em 10px;
-    border-bottom: 1px dotted black;
+img {
+	border: none;
 }
