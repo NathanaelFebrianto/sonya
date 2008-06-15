@@ -23,11 +23,9 @@
         </div>
 
         <div id="content">
-            <div id="main">
-                <%@ include file="/common/messages.jsp" %>
-                <h2><decorator:getProperty property="meta.heading"/></h2>
-                <decorator:body/>
-            </div>
+			<%@ include file="/common/messages.jsp" %>
+			<h2><decorator:getProperty property="meta.heading"/></h2>
+			<decorator:body/>
         </div>
 
         <div id="footer">
