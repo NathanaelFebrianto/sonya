@@ -1,14 +1,14 @@
-<%@ taglib uri="http://richfaces.org/rich" prefix="rich"%>
 <%@ include file="/common/taglibs.jsp"%>
 
 <head>
     <title><fmt:message key="user.login.title"/></title>
 </head>
-<body id="login"/>
+<body id="login" />
 
 <form method="post" id="loginForm" action="<c:url value='/j_security_check'/>"
     onsubmit="saveUsername(this);return validateForm(this)">
 <fieldset style="padding-bottom: 0">
+<legend><fmt:message key="signin"/></legend>
 <ul>
 <c:if test="${param.error != null}">
     <div class="error">
@@ -18,19 +18,20 @@
         <%@include file="/common/messages.jsp" %>
     </div>
 </c:if>
-    <div>
-		<label for="j_username" class="desc">
-            <fmt:message key="user.username"/> <span class="req">*</span>
-        </label>
-        <input type="text" class="text medium" name="j_username" id="j_username" tabindex="1" />
-    </div>
 
-    <div>
-        <label for="j_password" class="desc">
-            <fmt:message key="user.password"/> <span class="req">*</span>
-        </label>
-        <input type="password" class="text medium" name="j_password" id="j_password" tabindex="2" />
-    </div>
+<div>
+	<label for="j_username" class="desc">
+          <fmt:message key="user.username"/>: <br />
+    </label>
+    <input type="text" class="text medium" name="j_username" id="j_username" tabindex="1" /></p>
+</div>
+
+<div>
+    <label for="j_password" class="desc">
+        <fmt:message key="user.password"/>: <br />
+    </label>
+    <input type="password" class="text medium" name="j_password" id="j_password" tabindex="2" /></p>
+</div>
 
 <c:if test="${appConfig['rememberMeEnabled']}">
     <div>
@@ -51,6 +52,3 @@
 </form>
 
 <%@ include file="/scripts/login.js"%>
-<!--  
-<p><fmt:message key="user.login.password.hint"/></p>
--->
