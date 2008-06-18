@@ -3,14 +3,17 @@
 label.desc { 
 }
 
+input, textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #000000;
+}
+
 input.text, input.number, input.url, input.email, input.password, input.file,
 textarea.textarea, select.select{
-	/*
-	color: #666666;
-	background-color: #EEEEEE;
-	border: 1px solid #AFAFAF;
-	padding:1 0 0 5;
-	*/
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: 1em;
 }
 
 /* ----- SIZES ----- */
@@ -47,4 +50,43 @@ input.button, button {
 /* revert to normal for Firefox */
 li>input.button, li>button, input.button>input.button, button>button {
     padding: 2px;
+}
+
+/* ----- ERRORS ----- */
+form li.error{
+    background-color: #FFDFDF;
+    margin: 3px 0 !important;
+}
+
+input.error, textarea.error{
+    background: #FFCA7A;
+}
+
+p.error, li.error label.desc{
+    color: red !important;
+}
+
+p.error{
+    font-size: 9px !important;
+    margin: 1px 0;
+}
+
+/* ----- REQUIRED ----- */
+.req {
+    font-size: 1em !important;
+    color: #f90;
+    font-weight: bold;
+}
+
+/* ----- Fieldsets ----- */
+fieldset {
+    margin: 0 0 5px 0;
+    padding: 10px 10px 5px 10px;
+    color: #444;
+    border: 1px solid #ccc;
+}
+
+legend{
+    font-weight: bold;
+    color: #444;
 }

@@ -28,7 +28,7 @@
 	</div>
 
 	<div class="col-two">
-		<div id="sponsor">
+		<div id="sidebar">
 			<a href="#"><img src="images/img03.jpg" alt="" width="160" height="600" /></a>
 		</div>
 	</div>

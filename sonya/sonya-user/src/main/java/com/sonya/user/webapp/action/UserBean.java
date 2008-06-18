@@ -58,13 +58,11 @@ public class UserBean extends BasePage implements Serializable {
         getSession().setAttribute(Constants.REGISTERED, Boolean.TRUE);
 
         // log user in automatically
-        /*
         UsernamePasswordAuthenticationToken auth = new UsernamePasswordAuthenticationToken(
                 user.getUsername(), user.getConfirmPassword(), user.getAuthorities());
         auth.setDetails(user);
         SecurityContextHolder.getContext().setAuthentication(auth);
-        */
 
-        return "mainMenu";
+        return "success";
     }
 }

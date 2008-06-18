@@ -5,8 +5,9 @@ Typography
 body {
 	margin: 30px 0;
 	padding: 0;
-	font: normal small "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font: normal small "Trebuchet MS", Arial, Dotum, µ¸¿ò, Helvetica, sans-serif;
 	color: #999999;
+	/* color: #333333; */
 }
 
 h1, h2, h3 {
