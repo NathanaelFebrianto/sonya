@@ -2,6 +2,10 @@ package com.sonya.user.model;
 
 import java.io.Serializable;
 
+import javax.persistence.Transient;
+
+import org.acegisecurity.GrantedAuthority;
+
 import com.sonya.model.BaseObject;
 
 /**
@@ -9,11 +13,12 @@ import com.sonya.model.BaseObject;
  * 
  * @author YoungGue Bae
  */
-public class Role extends BaseObject implements Serializable {
+public class Role extends BaseObject implements Serializable, GrantedAuthority {
 	private static final long serialVersionUID = -4260559184726325943L;
 	private String sid;
 	private String id;
 	private String name;
+	private String description;
 	
 	public String getSid() {
 		return sid;
@@ -26,6 +31,19 @@ public class Role extends BaseObject implements Serializable {
 	public String getName() {
 		return name;
 	}
+	
+	public String getDescription() {
+		return description;
+	}
+	
+    /**
+     * @see org.acegisecurity.GrantedAuthority#getAuthority()
+     * @return the name property (getAuthority required by Acegi's GrantedAuthority interface)
+     */
+    @Transient
+    public String getAuthority() {
+        return getName();
+    }
 
 	public void setSid(String sid) {
 		this.sid = sid;
@@ -37,6 +55,10 @@ public class Role extends BaseObject implements Serializable {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+	
+	public void setDescription(String description) {
+		this.description = description;
 	}
 
 	@Override

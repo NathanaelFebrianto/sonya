@@ -71,8 +71,8 @@
             <value>
                 PATTERN_TYPE_APACHE_ANT
                 /admin/*=ROLE_ADMIN
-                /rest/*=ROLE_ANONYMOUS
-                /common/**/*=ROLE_ANONYMOUS
+                /rest/*=ROLE_ANONYMOUS,ROLE_ADMIN,ROLE_USER
+                /common/**/*=ROLE_ANONYMOUS,ROLE_ADMIN,ROLE_USER
                 /passwordHint.html*=ROLE_ANONYMOUS,ROLE_ADMIN,ROLE_USER
                 /signup.html*=ROLE_ANONYMOUS,ROLE_ADMIN,ROLE_USER
                 /a4j.res/*.html*=ROLE_ANONYMOUS,ROLE_ADMIN,ROLE_USER <!-- APF-737, OK to remove if not using JSF -->

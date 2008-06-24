@@ -15,6 +15,6 @@
 		<c:if test="${pageContext.request.locale.language != 'ko'}">
 			<li><a href="<c:url value='/?locale=ko'/>">Korean</a></li>
 		</c:if>
-		<li><a href="<c:url value='/login.jsp'/>">Sign in</a></li>			
+		<li><div id="session"><a href="<c:url value='/login.jsp'/>">Sign in</a></div></li>			
 	</ul>
 </div>

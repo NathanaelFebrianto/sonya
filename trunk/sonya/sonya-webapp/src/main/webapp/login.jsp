@@ -40,7 +40,7 @@
     </div>
 </c:if>
     <div>
-        <input type="submit" class="button" name="login" value="<fmt:message key='button.login'/>" tabindex="4" />
+        <input type="submit" class="button" name="login" value="<fmt:message key='button.login'/>" tabindex="4" onclick="signup();" />
         <p>
             <fmt:message key="user.login.signup">
                 <fmt:param><c:url value="/signup.html"/></fmt:param>
@@ -52,3 +52,9 @@
 </form>
 
 <%@ include file="/scripts/login.js"%>
+<script>
+	function signup() {
+		var d = $('session');
+		d.innerHTML = '<a href="/logout.jsp">Sign out</a>';
+	}
+</script>
