@@ -1,6 +1,8 @@
 package com.sonya.user.model;
 
 import java.io.Serializable;
+import java.util.HashSet;
+import java.util.Set;
 
 import org.acegisecurity.GrantedAuthority;
 import org.acegisecurity.userdetails.UserDetails;
@@ -20,7 +22,6 @@ public class User extends BaseObject implements Serializable, UserDetails {
 	private String username;
 	private String password;
 	private String confirmPassword;
-	private String roleId;
 	private String firstName;
 	private String lastName;	
 	private String country;
@@ -46,6 +47,8 @@ public class User extends BaseObject implements Serializable, UserDetails {
     private boolean accountExpired;
     private boolean accountLocked;
     private boolean credentialsExpired;
+    
+    private Set<Role> roles = new HashSet<Role>();
 	
 	public String getId() {
 		return id;
@@ -66,10 +69,6 @@ public class User extends BaseObject implements Serializable, UserDetails {
 	public String getConfirmPassword() {
         return confirmPassword;
     }
-
-	public String getRoleId() {
-		return roleId;
-	}
 
 	public String getFirstName() {
 		return firstName;
@@ -151,13 +150,24 @@ public class User extends BaseObject implements Serializable, UserDetails {
 		return deleteDate;
 	}
 
+    public Set<Role> getRoles() {
+        return roles;
+    }
+    
+    /**
+     * Adds a role for the user
+     * @param role the fully instantiated role
+     */
+    public void addRole(Role role) {
+        getRoles().add(role);
+    }
+	
     /**
      * @see org.acegisecurity.userdetails.UserDetails#getAuthorities()
      * @return GrantedAuthority[] an array of roles.
      */
     public GrantedAuthority[] getAuthorities() {
-        //return roles.toArray(new GrantedAuthority[0]);
-        return null;
+        return roles.toArray(new GrantedAuthority[0]);
     }
 
     public boolean isEnabled() {
@@ -216,10 +226,6 @@ public class User extends BaseObject implements Serializable, UserDetails {
 	public void setConfirmPassword(String confirmPassword) {
         this.confirmPassword = confirmPassword;
     }
-
-	public void setRoleId(String roleId) {
-		this.roleId = roleId;
-	}
 
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
@@ -301,6 +307,10 @@ public class User extends BaseObject implements Serializable, UserDetails {
 		this.deleteDate = deleteDate;
 	}
 	
+    public void setRoles(Set<Role> roles) {
+        this.roles = roles;
+    }
+	
     public void setEnabled(boolean enabled) {
         this.enabled = enabled;
     }
@@ -316,7 +326,7 @@ public class User extends BaseObject implements Serializable, UserDetails {
     public void setCredentialsExpired(boolean credentialsExpired) {
         this.credentialsExpired = credentialsExpired;
     }
-
+    
 	@Override
 	public boolean equals(Object o) {
 		// TODO Auto-generated method stub

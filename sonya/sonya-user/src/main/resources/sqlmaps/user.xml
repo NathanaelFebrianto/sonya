@@ -4,13 +4,13 @@
 
 <sqlMap namespace="user">
     <typeAlias alias="user" type="com.sonya.user.model.User"/>
+    <typeAlias alias="role" type="com.sonya.user.model.Role"/>
 
     <resultMap id="userResult" class="user">
         <result property="id" column="id"/>
         <result property="sid" column="sid"/>
         <result property="username" column="username"/>
-        <result property="password" column="password"/>
-        <result property="roleId" column="role_id"/>        
+        <result property="password" column="password"/>   
         <result property="firstName" column="first_name"/>
         <result property="lastName" column="last_name"/>        
         <result property="country" column="country"/>
@@ -33,6 +33,13 @@
         <result property="updateDate" column="update_date"/>
         <result property="deleteDate" column="delete_date"/>
     </resultMap>
+    
+    <resultMap id="roleResult" class="role">
+        <result property="sid" column="sid"/>
+        <result property="id" column="role_id"/>
+        <result property="name" column="role_name"/>
+        <result property="description" column="role_description"/>
+    </resultMap>
 
     <select id="getUsers" resultMap="userResult">
     <![CDATA[
@@ -43,6 +50,13 @@
     <select id="getUser" resultMap="userResult">
     <![CDATA[
         select * from t_user where id=#id#
+    ]]>
+    </select>
+    
+    <select id="getUserRoles" resultMap="roleResult">
+    <![CDATA[
+        select ur.sid, r.role_id, r.role_name, r.role_description from t_role r, t_user_role ur
+        where (ur.role_id = r.role_id) and ur.user_id=#id#
     ]]>
     </select>
 
@@ -61,12 +75,12 @@
     <insert id="addUser" parameterClass="user">
     <![CDATA[
         insert into
-        t_user (sid, username, password, role_id, first_name, last_name, 
+        t_user (sid, username, password, first_name, last_name, 
 	        country, time_zone, company, department, job_position,
 	        postal_code, address, address_detail, email, phone_no, mobile_no, 
 	        website, enabled, use_yn, terminate_yn, terminate_date, 
 	        insert_date, update_date, delete_date)
-        values (#sid#, #username#, #password#, #roleId#, #firstName#, #lastName#, 
+        values (#sid#, #username#, #password#, #firstName#, #lastName#, 
 	        #country#, #timeZone#, #company#, #department#, #jobPosition#,
 	        #postalCode#, #address#, #addressDetail#, #email#, #phoneNumber#, #mobileNumber#, 
 	        #website#, #enabled#, #use#, #terminate#, #terminateDate#, 
@@ -75,7 +89,13 @@
         <selectKey resultClass="java.lang.String" keyProperty="id" type="post">
             select last_insert_id();
         </selectKey>
-    </insert>    
+    </insert>  
+    
+    <insert id="addUserRole" parameterClass="map">
+    <![CDATA[
+        insert into t_user_role (sid, user_id, role_id) values (#sid#, #userId#, #roleId#)
+    ]]>
+    </insert>  
 
     <update id="updateUser" parameterClass="user">
     <![CDATA[
@@ -83,7 +103,6 @@
             sid = #sid#,
             username = #username#,
             password = #password#,
-            role_id = #roleId#,
             first_name = #firstName#,
             last_name = #lastName#,
             country = #country#, 
@@ -113,4 +132,11 @@
         delete from t_user where id = #id#
     ]]>
     </delete>
+    
+    <delete id="deleteUserRoles" parameterClass="java.lang.Long">
+    <![CDATA[
+        delete from t_user_role where user_id = #id#
+    ]]>
+    </delete>
+    
 </sqlMap>

@@ -1,6 +1,9 @@
 package com.sonya.user.dao.ibatis;
 
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 
 import org.acegisecurity.userdetails.UserDetails;
 import org.acegisecurity.userdetails.UserDetailsService;
@@ -9,6 +12,7 @@ import org.springframework.orm.ObjectRetrievalFailureException;
 
 import com.sonya.dao.ibatis.GenericDaoiBatis;
 import com.sonya.user.dao.UserDao;
+import com.sonya.user.model.Role;
 import com.sonya.user.model.User;
 
 /**
@@ -23,16 +27,6 @@ public class UserDaoiBatis extends GenericDaoiBatis<User, String> implements Use
      */
     public UserDaoiBatis() {
         super(User.class);
-    }
-
-    /**
-     * {@inheritDoc}
-     */
-    @SuppressWarnings("unchecked")
-    public List<User> getUsers() {
-        List users = (List<User>) getSqlMapClientTemplate().queryForList("getUsers", null);
-
-        return users;
     }
     
     /**
@@ -49,9 +43,54 @@ public class UserDaoiBatis extends GenericDaoiBatis<User, String> implements Use
         if (user == null) {
             logger.warn("uh oh, user not found...");
             throw new ObjectRetrievalFailureException(User.class, userId);
+        } else {
+            List roles = getSqlMapClientTemplate().queryForList("getUserRoles", user);
+            user.setRoles(new HashSet<Role>(roles));
         }
 
         return user;
+    }
+    
+    /**
+     * {@inheritDoc}
+     */
+    @SuppressWarnings("unchecked")
+    public List<User> getUsers() {
+        List users = getSqlMapClientTemplate().queryForList("getUsers", null);
+
+        // get the roles for each user
+        for (int i = 0; i < users.size(); i++) {
+            User user = (User) users.get(i);
+
+            List roles =  getSqlMapClientTemplate().queryForList("getUserRoles", user);
+            user.setRoles(new HashSet<Role>(roles));
+            users.set(i, user);
+        }
+
+        return users;
+    }
+
+    /**
+     * Convenience method to delete roles
+     * @param userId the id of the user to delete
+     */
+    private void deleteUserRoles(final String userId) {
+        getSqlMapClientTemplate().update("deleteUserRoles", userId);
+    }
+
+    private void addUserRoles(final User user) {
+        if (user.getRoles() != null) {
+            for (Role role : user.getRoles()) {
+                Map<String, String> newRole = new HashMap<String, String>();
+                newRole.put("userId", user.getId());
+                newRole.put("roleId", role.getId());
+
+                List userRoles = getSqlMapClientTemplate().queryForList("getUserRoles", user);
+                if (userRoles.isEmpty()) {
+                    getSqlMapClientTemplate().update("addUserRole", newRole);
+                }
+            }
+        }
     }
     
     /**
@@ -61,10 +100,14 @@ public class UserDaoiBatis extends GenericDaoiBatis<User, String> implements Use
         //iBatisDaoUtils.prepareObjectForSaveOrUpdate(user);
 
         if (user.getId() == null) {
-        	String id = (String) getSqlMapClientTemplate().insert("addUser", user);
+            String id = (String) getSqlMapClientTemplate().insert("addUser", user);
             user.setId(id);
+            addUserRoles(user);
+        } else {
+            getSqlMapClientTemplate().update("updateUser", user);
+            deleteUserRoles(user.getId());
+            addUserRoles(user);
         }
-
         return user;
     }
     
@@ -94,10 +137,17 @@ public class UserDaoiBatis extends GenericDaoiBatis<User, String> implements Use
     @SuppressWarnings("unchecked")
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
          User user = (User) getSqlMapClientTemplate().queryForObject("getUserByUsername", username);
-
+         
          if (user == null) {
              logger.warn("uh oh, user not found...");
              throw new UsernameNotFoundException("user '" + username + "' not found...");
+         } else {
+        	 try {
+             List roles = getSqlMapClientTemplate().queryForList("getUserRoles", user);
+             user.setRoles(new HashSet<Role>(roles));
+        	 } catch (Exception e) {
+        		 logger.error(e);
+        	 }
          }
          
          return user;
