@@ -4,7 +4,7 @@ package com.sonya;
  * Constant values used throughout the application.
  * 
  *
- * @author <a href="mailto:matt@raibledesigns.com">Matt Raible</a>
+ * @author YoungGue Bae
  */
 public class Constants {
     //~ Static fields/initializers =============================================

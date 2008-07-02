@@ -54,7 +54,7 @@
 <%@ include file="/scripts/login.js"%>
 <script>
 	function signup() {
-		var d = $('session');
+		var d = $('user');
 		d.innerHTML = '<a href="/logout.jsp">Sign out</a>';
 	}
 </script>
