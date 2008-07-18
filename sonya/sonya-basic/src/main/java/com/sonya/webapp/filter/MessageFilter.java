@@ -14,9 +14,7 @@ import javax.servlet.http.HttpServletRequest;
  * Filter to remove messages form the session and put them in the request
  * - to solve the redirect after post issue.
  * 
- * <p><a href="MessageFilter.java.html"><i>View Source</i></a></p>
- *
- * @author  Matt Raible
+ * @author  YoungGue Bae
  */
 public class MessageFilter implements Filter {
     public void doFilter(ServletRequest req, ServletResponse res,

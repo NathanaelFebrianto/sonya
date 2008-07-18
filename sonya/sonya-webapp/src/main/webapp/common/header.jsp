@@ -2,9 +2,9 @@
 <%@ page import="com.sonya.user.model.User"%>
 
 <%
-	String username = (String)request.getAttribute("j_username");
-	System.out.println(username);
-
+	//User user = (User) session.getAttribute("currentUser");
+	//System.out.println("username == " + user.getUsername());
+	
 %>
 <div id="logo">
 	<h1><a href="<fmt:message key="company.url"/>"><fmt:message key="webapp.name" /></a></h1>

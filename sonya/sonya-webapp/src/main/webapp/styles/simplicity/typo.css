@@ -6,13 +6,15 @@ body {
 	margin: 30px 0;
 	padding: 0;
 	font: normal small "Trebuchet MS", Arial, Dotum, µ¸¿ò, Helvetica, sans-serif;
-	color: #999999;
+	color: black;
+	/* color: #999999; */
 	/* color: #333333; */
 }
 
 h1, h2, h3 {
 	text-transform: uppercase;
-	color: #666666;
+	color: black;
+	/* color: #666666; */
 }
 
 h2 {
