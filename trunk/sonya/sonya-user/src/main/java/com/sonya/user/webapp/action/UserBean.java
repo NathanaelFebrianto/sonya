@@ -12,14 +12,14 @@ import com.sonya.Constants;
 import com.sonya.user.model.User;
 import com.sonya.user.service.UserExistsException;
 import com.sonya.user.service.UserManager;
-import com.sonya.webapp.action.BasePage;
+import com.sonya.webapp.action.BaseBean;
 
 /**
  * JSF Page class to handle user.
  *
  * @author YoungGue Bae
  */
-public class UserBean extends BasePage implements Serializable {
+public class UserBean extends BaseBean implements Serializable {
 	private static final long serialVersionUID = 3524937486662786265L;
 	private User user = new User();
     private UserManager userManager;

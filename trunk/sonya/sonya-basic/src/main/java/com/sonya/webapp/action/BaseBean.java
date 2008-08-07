@@ -22,8 +22,9 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
 import com.sonya.Constants;
+import com.sonya.user.model.User;
 
-public class BasePage {
+public class BaseBean {
     protected final Log log = LogFactory.getLog(getClass());
     //protected UserManager userManager;
     //protected MailEngine mailEngine;
@@ -263,5 +264,17 @@ public class BasePage {
         }
         Collections.sort(list, comparator);
         return list;
+    }    
+
+    /**
+     * Gets the current user session that login.
+     *
+     * @return the user's session
+     */
+    public User getUserSession() {
+    	if (getSession().getAttribute("loginUser") == null)
+    		return null;
+    	return (User) getSession().getAttribute("loginUser");
     }
+    
 }

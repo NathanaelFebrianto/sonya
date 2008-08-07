@@ -77,6 +77,10 @@ public class User extends BaseObject implements Serializable, UserDetails {
 	public String getLastName() {
 		return lastName;
 	}
+	
+	public String getFullName() {
+		return lastName + " " + firstName;
+	}
 
 	public String getCountry() {
 		return country;
@@ -338,10 +342,5 @@ public class User extends BaseObject implements Serializable, UserDetails {
 		// TODO Auto-generated method stub
 		return 0;
 	}
-	
-	@Override
-	public String toString() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+
 }

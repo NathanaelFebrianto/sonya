@@ -137,7 +137,7 @@ public class UserDaoiBatis extends GenericDaoiBatis<User, String> implements Use
     @SuppressWarnings("unchecked")
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
          User user = (User) getSqlMapClientTemplate().queryForObject("getUserByUsername", username);
-         
+
          if (user == null) {
              logger.warn("uh oh, user not found...");
              throw new UsernameNotFoundException("user '" + username + "' not found...");
