@@ -73,9 +73,4 @@ public class Role extends BaseObject implements Serializable, GrantedAuthority {
 		return 0;
 	}
 	
-	@Override
-	public String toString() {
-		// TODO Auto-generated method stub
-		return null;
-	}
 }

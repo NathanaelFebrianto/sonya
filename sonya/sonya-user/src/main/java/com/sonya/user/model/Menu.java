@@ -70,9 +70,4 @@ public class Menu extends BaseObject implements Serializable {
 		return 0;
 	}
 	
-	@Override
-	public String toString() {
-		// TODO Auto-generated method stub
-		return null;
-	}
 }

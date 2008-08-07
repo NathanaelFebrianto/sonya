@@ -30,8 +30,8 @@
     </component>
 
     <managed-bean>
-        <managed-bean-name>basePage</managed-bean-name>
-        <managed-bean-class>com.sonya.webapp.action.BasePage</managed-bean-class>
+        <managed-bean-name>baseBean</managed-bean-name>
+        <managed-bean-class>com.sonya.webapp.action.BaseBean</managed-bean-class>
         <managed-bean-scope>request</managed-bean-scope>
     </managed-bean>
 

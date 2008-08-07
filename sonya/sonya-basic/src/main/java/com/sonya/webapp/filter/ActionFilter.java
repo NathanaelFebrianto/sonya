@@ -48,23 +48,18 @@ public class ActionFilter implements Filter {
         
         String username = request.getRemoteUser();
         
-        User user = (User) session.getAttribute("loginUser");
-        
-        log.debug("actionFilter, username: " + username);
-        log.debug("actionFilter, user-before: " + user);
-        
+        User user = (User) session.getAttribute("loginUser");        
+  
         if (username != null && user == null) { 
             ApplicationContext ctx =
                 WebApplicationContextUtils.getRequiredWebApplicationContext(config.getServletContext());
             
             UserManager userManager = (UserManager) ctx.getBean("userManager");
-            //user = userManager.getUserByUsername(username);
-            user = userManager.getUser("1");
-            
-            log.debug("actionFilter, user-after: " + user);            
+            user = userManager.getUserByUsername(username);  
             
             if (user != null) {
             	session.setAttribute("loginUser", user);
+            	log.debug("loginUser == " + user.getUsername());            	
             }            
         }
         

@@ -4,9 +4,9 @@ import java.io.Serializable;
 import java.util.List;
 
 import com.sonya.service.GenericManager;
-import com.sonya.webapp.action.BasePage;
+import com.sonya.webapp.action.BaseBean;
 
-public class PersonList extends BasePage implements Serializable {
+public class PersonList extends BaseBean implements Serializable {
     private GenericManager personManager;
 
     public void setPersonManager(GenericManager manager) {

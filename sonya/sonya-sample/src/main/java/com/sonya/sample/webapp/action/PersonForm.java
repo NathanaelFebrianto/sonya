@@ -4,9 +4,9 @@ import java.io.Serializable;
 
 import com.sonya.sample.model.Person;
 import com.sonya.service.GenericManager;
-import com.sonya.webapp.action.BasePage;
+import com.sonya.webapp.action.BaseBean;
 
-public class PersonForm extends BasePage implements Serializable {
+public class PersonForm extends BaseBean implements Serializable {
     private GenericManager<Person, Long> personManager;
     private Person person = new Person();
     private Long id;
