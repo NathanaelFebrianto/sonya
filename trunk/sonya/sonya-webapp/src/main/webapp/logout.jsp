@@ -13,4 +13,14 @@ terminate.setMaxAge(0);
 response.addCookie(terminate);
 %>
 
-<c:redirect url="/"/>
+<!--  
+<c:redirect url="/index.jsp"/>
+-->
+
+ 
+<c:if test="${request.locale.language == 'en'}">
+	<c:redirect url="/index.jsp?locale=en"/>
+</c:if>
+<c:if test="${request.locale.language == 'ko'}">
+	<c:redirect url="/index.jsp?locale=ko"/>
+</c:if>

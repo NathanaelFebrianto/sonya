@@ -9,39 +9,35 @@
     xmlns:rich="http://richfaces.org/rich">
 
 <f:view id="header">
-
-<script>
-	alert('${baseBean.userSession}');
-</script>
-
+	<f:loadBundle var="text" basename="#{baseBean.bundleName}" />
 	<div id="logo">
 		<h1><a href="#{text['company.url']}">#{text['webapp.name']}</a></h1>
 		<h2><a href="#{text['company.url']}">Open Source Project by Louie</a></h2>
 	</div>
-	<div id="menu">
-		<ul>
-			<li class="first"><a href="#" accesskey="1" title="">Home</a></li>
-			<li><a href="#" accesskey="2" title="">Services</a></li>
-			<li><a href="#" accesskey="3" title="">About</a></li>
-			<c:if test="${request.locale.language != 'en'}">
-				<li><a href="/?locale=en">English</a></li>
-			</c:if>
-			<c:if test="${request.locale.language != 'ko'}">
-				<li><a href="/?locale=ko">Korean</a></li>
-			</c:if>
-			<li>
-				<div id="session">
-				<c:choose>
-					<c:when test='${baseBean.userSession == null}'>
-						<a href="/login.jsp">Sign in</a>
-					</c:when>
-					<c:otherwise>
-						<a href="/logout.jsp">Sign out [<h:outputLabel value="#{baseBean.userSession.fullName}" />]</a>						
-					</c:otherwise>
-				</c:choose>
-				</div>
-			</li>
-		</ul>
+	<div id="navigation">
+		<div class="user">
+			<c:choose>
+				<c:when test='${baseBean.userSession == null}'>
+					<p><a href="/login.jsp">#{text['signin']}</a></p>
+				</c:when>
+				<c:otherwise>					
+					<p><a href="#"><h:outputLabel value="#{baseBean.userSession.fullName}" /></a> | <a href="/logout.jsp">#{text['signout']}</a></p>
+				</c:otherwise>
+			</c:choose>			
+		</div>
+		<div class="menu">
+			<ul>
+				<li class="first"><a href="#" accesskey="1" title="">#{text['home']}</a></li>
+				<li><a href="#" accesskey="2" title="">#{text['services']}</a></li>
+				<li><a href="#" accesskey="3" title="">#{text['help']}</a></li>
+				<c:if test="${request.locale.language != 'en'}">
+					<li><a href="/?locale=en">#{text['english']}</a></li>
+				</c:if>
+				<c:if test="${request.locale.language != 'ko'}">
+					<li><a href="/?locale=ko">#{text['korean']}</a></li>
+				</c:if>
+			</ul>
+		</div>
 	</div>
 
 </f:view>

@@ -46,9 +46,14 @@ public class ActionFilter implements Filter {
         HttpServletResponse response = (HttpServletResponse) resp;
         HttpSession session = request.getSession(true);
         
+        // check user's session and create session
         String username = request.getRemoteUser();
+        if (username != null)
+        	log.debug("loginUser == " + username);
         
-        User user = (User) session.getAttribute("loginUser");        
+        User user = (User) session.getAttribute("loginUser");
+        if (user != null)
+        	log.debug("userSession == " + user);
   
         if (username != null && user == null) { 
             ApplicationContext ctx =
@@ -59,7 +64,7 @@ public class ActionFilter implements Filter {
             
             if (user != null) {
             	session.setAttribute("loginUser", user);
-            	log.debug("loginUser == " + user.getUsername());            	
+            	log.debug("User session created for '" + user.getUsername() + "'");            	
             }            
         }
         

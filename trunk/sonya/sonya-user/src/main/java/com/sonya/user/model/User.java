@@ -79,7 +79,7 @@ public class User extends BaseObject implements Serializable, UserDetails {
 	}
 	
 	public String getFullName() {
-		return lastName + " " + firstName;
+		return lastName + firstName;
 	}
 
 	public String getCountry() {
