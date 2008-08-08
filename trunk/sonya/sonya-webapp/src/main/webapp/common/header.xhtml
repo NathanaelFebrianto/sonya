@@ -10,31 +10,32 @@
 
 <f:view id="header">
 	<f:loadBundle var="text" basename="#{baseBean.bundleName}" />
+	
 	<div id="logo">
-		<h1><a href="#{text['company.url']}">#{text['webapp.name']}</a></h1>
-		<h2><a href="#{text['company.url']}">Open Source Project by Louie</a></h2>
+		<h1><h:outputLink value="#{text['company.url']}">#{text['webapp.name']}</h:outputLink></h1>
+		<h2><h:outputLink value="#{text['company.url']}">Open Source Project by Louie</h:outputLink></h2>
 	</div>
 	<div id="navigation">
 		<div class="user">
 			<c:choose>
 				<c:when test='${baseBean.userSession == null}'>
-					<p><a href="/login.jsp">#{text['signin']}</a></p>
+					<p><h:outputLink value="/login.jsp">#{text['signin']}</h:outputLink></p>
 				</c:when>
 				<c:otherwise>					
-					<p><a href="#"><h:outputLabel value="#{baseBean.userSession.fullName}" /></a> | <a href="/logout.jsp">#{text['signout']}</a></p>
+					<p><h:outputLink value="#"><h:outputLabel value="#{baseBean.userSession.fullName}" /></h:outputLink> | <h:outputLink value="/logout.jsp">#{text['signout']}</h:outputLink></p>
 				</c:otherwise>
 			</c:choose>			
 		</div>
 		<div class="menu">
 			<ul>
 				<li class="first"><a href="#" accesskey="1" title="">#{text['home']}</a></li>
-				<li><a href="#" accesskey="2" title="">#{text['services']}</a></li>
-				<li><a href="#" accesskey="3" title="">#{text['help']}</a></li>
+				<li><h:outputLink value="#" accesskey="2" title="">#{text['services']}</h:outputLink></li>
+				<li><h:outputLink value="#" accesskey="3" title="">#{text['help']}</h:outputLink></li>
 				<c:if test="${request.locale.language != 'en'}">
-					<li><a href="/?locale=en">#{text['english']}</a></li>
+					<li><h:outputLink value="?locale=en">#{text['english']}</h:outputLink></li>
 				</c:if>
 				<c:if test="${request.locale.language != 'ko'}">
-					<li><a href="/?locale=ko">#{text['korean']}</a></li>
+					<li><h:outputLink value="?locale=ko">#{text['korean']}</h:outputLink></li>
 				</c:if>
 			</ul>
 		</div>
