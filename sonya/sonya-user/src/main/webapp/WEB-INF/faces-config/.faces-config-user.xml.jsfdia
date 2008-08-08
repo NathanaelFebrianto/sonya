@@ -7,7 +7,14 @@
    <PROCESS-ITEM-OUTPUT ID="cancel::#login.jsp" NAME="output"
     PATH="/login.jsp" TARGET="rules:#login.jsp" TITLE="cancel" model-entity="JSFProcessItemOutput"/>
   </PROCESS-ITEM>
+  <PROCESS-ITEM ID="rules:#signup.xhtml:1" NAME="item1"
+   PATH="/signup.xhtml" model-entity="JSFProcessItem">
+   <PROCESS-ITEM-OUTPUT ID="success::#index.jsp" NAME="output"
+    PATH="/index.jsp" TARGET="rules:#index.jsp" TITLE="success" model-entity="JSFProcessItemOutput"/>
+  </PROCESS-ITEM>
  </PROCESS-ITEM>
  <PROCESS-ITEM NAME="rules:#login.jsp" PATH="/login.jsp"
   SHAPE="240,33,0,0" model-entity="JSFProcessGroup"/>
+ <PROCESS-ITEM NAME="rules:#index.jsp" PATH="/index.jsp"
+  SHAPE="256,177,0,0" model-entity="JSFProcessGroup"/>
 </PROCESS>
