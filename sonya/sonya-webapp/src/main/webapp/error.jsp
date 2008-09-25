@@ -14,7 +14,7 @@
 <body id="error">
     <div id="page">
         <div id="header">
-            <jsp:include page="/common/header.jsp"/>            
+            <jsp:include page="/common/header.html"/>            
         </div>
         <div id="content" class="clearfix">
 			<h1><fmt:message key="errorPage.heading"/></h1>
