@@ -1,4 +1,4 @@
-WRAP INAME=..\source\function\fn_cdd_exclude_pattern.fnc TO 
+WRAP INAME=..\source\function\fn_cdd_exclude_pattern.fnc
 
 WRAP INAME=..\source\function\fn_cdd_filter_phone_no.fnc
 
