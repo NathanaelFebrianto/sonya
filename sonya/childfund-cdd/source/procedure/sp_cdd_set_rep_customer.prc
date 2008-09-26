@@ -58,7 +58,7 @@ CURSOR cur IS
         superm_reg_dd,
         superm_upd_dd
     FROM dw_cdd_customer_matching        
-    WHERE (src_system = p_src_system AND src_table = p_src_table AND simularity = 1)
+    WHERE (src_system = p_src_system AND src_table = p_src_table AND simularity = 1 AND NVL(manual_del_yn, 'N') <> 'Y')
         AND (src_cust_id = p_src_cust_id OR superm_cust_id = p_src_cust_id
         OR src_cust_id IN (
             SELECT src_cust_id FROM dw_cdd_customer_matching 
