@@ -119,7 +119,6 @@ BEGIN
     END IF;
     
     IF (p_src_system IS NULL OR NOT(p_src_system = 'FMS' OR p_src_system = 'HOMEPAGE')) THEN
-        DBMS_OUTPUT.PUT_LINE('p_src_system='||p_src_system);    
         RAISE user_define_error4;
     END IF;
     
