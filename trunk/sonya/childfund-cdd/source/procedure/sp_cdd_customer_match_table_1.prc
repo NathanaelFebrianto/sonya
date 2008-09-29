@@ -47,8 +47,11 @@ CURSOR cur IS
         address_2 as addr1,         -- 快祈荐飞瘤林家_林家
         addressdtl_2 as addr2       -- 快祈荐飞瘤林家_惑技林家        
     FROM superm
-    WHERE fstoper_dt >= p_base_dt OR lastupdate_dt >= TO_DATE(p_base_dt);
-    --rownum < 1001;
+    WHERE 
+        --fstoper_dt >= p_base_dt OR lastupdate_dt >= p_base_dt;
+        --rownum < 101;
+        --fstoper_dt <= '19911231' OR TRIM(fstoper_dt) IS NULL;
+        fstoper_dt >= '20080101';
 
 
 BEGIN
