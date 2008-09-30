@@ -60,27 +60,28 @@ v_set_rep_cust_need_yn VARCHAR2(1);
 
 CURSOR cur IS
     SELECT
-        cust_id AS superm_cust_id,          -- 후원자번호
-        supertype_dv AS superm_cust_tp,     -- 고객구분
-        supername AS superm_cust_nm,        -- 고객명
-        rr_id AS superm_jumin_no,           -- 주민등록번호
-        br_id AS superm_biz_reg_no,         -- 사업자등록번호
-        NULL AS superm_cmpy_reg_no,         -- 법인등록번호
-        fr_id AS superm_for_reg_no,         -- 외국인등록번호
-        NULL AS superm_passport_no,         -- 여권번호
-        supermophnum AS superm_mobile_no,   -- 휴대폰번호
-        superemail AS superm_email,         -- 이메일
-        superzipcdde_2 AS superm_zipcode,   -- 우편수령지주소_우편번호
-        address_2 AS superm_addr1,          -- 우편수령지주소_주소
-        addressdtl_2 AS superm_addr2,       -- 우편수령지주소_상세주소
-        superstate_dv AS superm_cust_stat,  -- 후원고객상태구분
-        supstrt_dt AS superm_fund_start_dd, -- 후원시작일자
-        supend_dt AS superm_fund_end_dd,    -- 후원종료일자
-        fstoper_dt AS superm_reg_dd,        -- 최초등록일자
-        lastupdate_dt AS superm_upd_dd      -- 최종수정일자                            
+        cust_id AS superm_cust_id           -- 후원자번호
+        ,supertype_dv AS superm_cust_tp     -- 고객구분
+        ,supername AS superm_cust_nm        -- 고객명
+        ,rr_id AS superm_jumin_no           -- 주민등록번호
+        ,br_id AS superm_biz_reg_no         -- 사업자등록번호
+        ,NULL AS superm_cmpy_reg_no         -- 법인등록번호
+        ,fr_id AS superm_for_reg_no         -- 외국인등록번호
+        ,NULL AS superm_passport_no         -- 여권번호
+        ,supermophnum AS superm_mobile_no   -- 휴대폰번호
+        ,superemail AS superm_email         -- 이메일
+        ,superzipcdde_2 AS superm_zipcode   -- 우편수령지주소_우편번호
+        ,address_2 AS superm_addr1          -- 우편수령지주소_주소
+        ,addressdtl_2 AS superm_addr2       -- 우편수령지주소_상세주소
+        ,superstate_dv AS superm_cust_stat  -- 후원고객상태구분
+        ,supstrt_dt AS superm_fund_start_dd -- 후원시작일자
+        ,supend_dt AS superm_fund_end_dd    -- 후원종료일자
+        ,fstoper_dt AS superm_reg_dd        -- 최초등록일자
+        ,lastupdate_dt AS superm_upd_dd     -- 최종수정일자                            
     FROM superm@FMS
     WHERE
-        TRIM(supername) = TRIM(p_src_cust_nm)
+        --TRIM(supername) = TRIM(p_src_cust_nm) 
+        supername = p_src_cust_nm   -- 속도개선을 위해 TRIM 함수 사용안함.
         AND (cust_id = p_src_superm_cust_id
         OR rr_id = fn_cdd_exclude_pattern('JUMIN_NO', p_src_jumin_no)
         OR br_id = fn_cdd_exclude_pattern('BIZ_REG_NO', p_src_biz_reg_no)
@@ -92,7 +93,7 @@ CURSOR cur IS
         
         /*
         TRIM(supername) = fn_cdd_exclude_pattern('CUST_NM', p_src_cust_nm)
-        OR cust_id = p_superm_cust_id
+        AND (cust_id = p_superm_cust_id
         OR TRIM(rr_id) = fn_cdd_exclude_pattern('JUMIN_NO', p_src_jumin_no)
         OR TRIM(br_id) = fn_cdd_exclude_pattern('BIZ_REG_NO', p_src_biz_reg_no)
         OR TRIM(fr_id) = fn_cdd_exclude_pattern('FOR_REG_NO', p_src_for_reg_no)
@@ -101,7 +102,7 @@ CURSOR cur IS
         OR TRIM(superzipcdde_2)||''||TRIM(address_2)||''||TRIM(addressdtl_2)
            = fn_cdd_exclude_pattern('ZIPCODE', p_src_zipcode)||''
              ||fn_cdd_exclude_pattern('ADDR1', p_src_addr1)||''
-             ||fn_cdd_exclude_pattern('ADDR2', p_src_addr2);
+             ||fn_cdd_exclude_pattern('ADDR2', p_src_addr2));
         */
 BEGIN
 
@@ -152,44 +153,44 @@ BEGIN
             END IF;
                 /* call sub-routine procedure */
             sp_cdd_match_customer_by_rule(
-                p_caller_system,        -- 호출시스템
-                p_caller,               -- 호출자
-                p_min_simularity,       -- 최소 유사도
-                p_src_system,           -- 원천고객: 원천시스템
-                p_src_table,            -- 원천고객: 원천테이블명
-                p_src_cust_id,          -- 원천고객: 원천고객ID
-                p_src_cust_tp,          -- 원천고객: 원천고객구분
-                p_src_cust_nm,          -- 원천고객: 고객명
-                p_src_superm_cust_id,   -- 원천고객: 후원자번호
-                p_src_jumin_no,         -- 원천고객: 주민등록번호
-                p_src_biz_reg_no,       -- 원천고객: 사업자등록번호
-                p_src_cmpy_reg_no,      -- 원천고객: 법인등록번호
-                p_src_for_reg_no,       -- 원천고객: 외국인등록번호
-                p_src_passport_no,      -- 원천고객: 여권번호
-                p_src_mobile_no,        -- 원천고객: 휴대폰번호
-                p_src_email,            -- 원천고객: 이메일
-                p_src_zipcode,          -- 원천고객: 우편수령지주소_우편번호
-                p_src_addr1,            -- 원천고객: 우편수령지주소_주소
-                p_src_addr2,            -- 원천고객: 우편수령지주소_상세주소
-                srclist.superm_cust_id,         -- 비교대상 유사후원자: 후원자번호
-                srclist.superm_cust_tp,         -- 비교대상 유사후원자: 고객구분
-                srclist.superm_cust_nm,         -- 비교대상 유사후원자: 고객명
-                srclist.superm_jumin_no,        -- 비교대상 유사후원자: 주민등록번호
-                srclist.superm_biz_reg_no,      -- 비교대상 유사후원자: 사업자등록번호
-                srclist.superm_cmpy_reg_no,     -- 비교대상 유사후원자: 법인등록번호
-                srclist.superm_for_reg_no,      -- 비교대상 유사후원자: 외국인등록번호
-                srclist.superm_passport_no,     -- 비교대상 유사후원자: 여권번호
-                srclist.superm_mobile_no,       -- 비교대상 유사후원자: 휴대폰번호
-                srclist.superm_email,           -- 비교대상 유사후원자: 이메일
-                srclist.superm_zipcode,         -- 비교대상 유사후원자: 우편수령지주소_우편번호
-                srclist.superm_addr1,           -- 비교대상 유사후원자: 우편수령지주소_주소
-                srclist.superm_addr2,           -- 비교대상 유사후원자: 우편수령지주소_상세주소
-                srclist.superm_cust_stat,       -- 비교대상 유사후원자: 후원고객상태구분
-                srclist.superm_fund_start_dd,   -- 비교대상 유사후원자: 후원시작일자
-                srclist.superm_fund_end_dd,     -- 비교대상 유사후원자: 후원종료일자
-                srclist.superm_reg_dd,          -- 비교대상 유사후원자: 최초등록일자
-                srclist.superm_upd_dd,          -- 비교대상 유사후원자: 최종수정일자 
-                v_dupl_superm_cust_yn           -- 정확하게 일치하는(simularity=1) 후원자 존재유무
+                p_caller_system         -- 호출시스템
+                ,p_caller               -- 호출자
+                ,p_min_simularity       -- 최소 유사도
+                ,p_src_system           -- 원천고객: 원천시스템
+                ,p_src_table            -- 원천고객: 원천테이블명
+                ,p_src_cust_id          -- 원천고객: 원천고객ID
+                ,p_src_cust_tp          -- 원천고객: 원천고객구분
+                ,p_src_cust_nm          -- 원천고객: 고객명
+                ,p_src_superm_cust_id   -- 원천고객: 후원자번호
+                ,p_src_jumin_no         -- 원천고객: 주민등록번호
+                ,p_src_biz_reg_no       -- 원천고객: 사업자등록번호
+                ,p_src_cmpy_reg_no      -- 원천고객: 법인등록번호
+                ,p_src_for_reg_no       -- 원천고객: 외국인등록번호
+                ,p_src_passport_no      -- 원천고객: 여권번호
+                ,p_src_mobile_no        -- 원천고객: 휴대폰번호
+                ,p_src_email            -- 원천고객: 이메일
+                ,p_src_zipcode          -- 원천고객: 우편수령지주소_우편번호
+                ,p_src_addr1            -- 원천고객: 우편수령지주소_주소
+                ,p_src_addr2            -- 원천고객: 우편수령지주소_상세주소
+                ,srclist.superm_cust_id         -- 비교대상 유사후원자: 후원자번호
+                ,srclist.superm_cust_tp         -- 비교대상 유사후원자: 고객구분
+                ,srclist.superm_cust_nm         -- 비교대상 유사후원자: 고객명
+                ,srclist.superm_jumin_no        -- 비교대상 유사후원자: 주민등록번호
+                ,srclist.superm_biz_reg_no      -- 비교대상 유사후원자: 사업자등록번호
+                ,srclist.superm_cmpy_reg_no     -- 비교대상 유사후원자: 법인등록번호
+                ,srclist.superm_for_reg_no      -- 비교대상 유사후원자: 외국인등록번호
+                ,srclist.superm_passport_no     -- 비교대상 유사후원자: 여권번호
+                ,srclist.superm_mobile_no       -- 비교대상 유사후원자: 휴대폰번호
+                ,srclist.superm_email           -- 비교대상 유사후원자: 이메일
+                ,srclist.superm_zipcode         -- 비교대상 유사후원자: 우편수령지주소_우편번호
+                ,srclist.superm_addr1           -- 비교대상 유사후원자: 우편수령지주소_주소
+                ,srclist.superm_addr2           -- 비교대상 유사후원자: 우편수령지주소_상세주소
+                ,srclist.superm_cust_stat       -- 비교대상 유사후원자: 후원고객상태구분
+                ,srclist.superm_fund_start_dd   -- 비교대상 유사후원자: 후원시작일자
+                ,srclist.superm_fund_end_dd     -- 비교대상 유사후원자: 후원종료일자
+                ,srclist.superm_reg_dd          -- 비교대상 유사후원자: 최초등록일자
+                ,srclist.superm_upd_dd          -- 비교대상 유사후원자: 최종수정일자 
+                ,v_dupl_superm_cust_yn          -- 정확하게 일치하는(simularity=1) 후원자 존재유무
             );
             
             /* 유사 후원자중에서 하나라도 유사도가 "1"인 후원자가 존재하는 경우 */
@@ -210,22 +211,22 @@ BEGIN
 
                 
                 INSERT INTO dw_etl_job_error (
-                    job_no,
-                    job_id,
-                    seq,
-                    job_nm,
-                    job_exe_dt,
-                    src_data,
-                    error_log
+                    job_no
+                    ,job_id
+                    ,seq
+                    ,job_nm
+                    ,job_exe_dt
+                    ,src_data
+                    ,error_log
                     )    
                 VALUES (
-                    v_job_start_dm, 
-                    'sp_cdd_match_customer['||p_src_system||'|'||p_src_table||'|'||p_src_cust_id||'|'||srclist.superm_cust_id||']', 
-                    v_error_cnt,
-                    '매칭되는 유사 후원자리스트 생성',
-                    TO_CHAR(SYSDATE,'yyyyMMdd'),
-                    'SUPERM_CUST_ID = '||srclist.superm_cust_id,
-                    v_error_msg
+                    v_job_start_dm 
+                    ,'sp_cdd_match_customer['||p_src_system||'|'||p_src_table||'|'||p_src_cust_id||'|'||srclist.superm_cust_id||']'
+                    ,v_error_cnt
+                    ,'매칭되는 유사 후원자리스트 생성'
+                    ,TO_CHAR(SYSDATE,'yyyyMMdd')
+                    ,'SUPERM_CUST_ID = '||srclist.superm_cust_id
+                    ,v_error_msg
                     );
                 COMMIT;                
                 
@@ -281,30 +282,30 @@ EXCEPTION
 
 		
         INSERT INTO dw_etl_job_hist (
-			job_no,
-			job_id,
-			job_nm,
-			job_strt_dm,
-			job_end_dm,
-			tot_src_cnt,
-			succ_cnt,
-			error_cnt,
-			job_stat,
-			job_log,
-			executor
+			job_no
+			,job_id
+			,job_nm
+			,job_strt_dm
+			,job_end_dm
+			,tot_src_cnt
+			,succ_cnt
+			,error_cnt
+			,job_stat
+			,job_log
+			,executor
 			)	
 		VALUES (
-			v_job_start_dm, 
-			'sp_cdd_match_customer['||p_src_system||'|'||p_src_table||'|'||p_src_cust_id||']', 
-			'매칭되는 유사 후원자리스트 생성',
-			v_job_start_dm,
-			TO_CHAR(SYSDATE,'yyyyMMddHH24miSS'),
-			v_total_cnt,
-			v_success_cnt,
-			v_error_cnt,
-			'FAILED',
-			v_error_msg,
-			'배영규'
+			v_job_start_dm
+			,'sp_cdd_match_customer['||p_src_system||'|'||p_src_table||'|'||p_src_cust_id||']' 
+			,'매칭되는 유사 후원자리스트 생성'
+			,v_job_start_dm
+			,TO_CHAR(SYSDATE,'yyyyMMddHH24miSS')
+			,v_total_cnt
+			,v_success_cnt
+			,v_error_cnt
+			,'FAILED'
+			,v_error_msg
+			,'배영규'
 			);
 		COMMIT;
         

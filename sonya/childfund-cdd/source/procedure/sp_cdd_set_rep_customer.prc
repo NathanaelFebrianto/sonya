@@ -38,25 +38,25 @@ v_skip_yn VARCHAR2(1);
 
 CURSOR cur IS
     SELECT
-        src_cust_id,
-        superm_cust_id,
-        superm_cust_tp,
-        fix_yn,
-        rep_superm_cust_yn,
-        superm_cust_nm_yn,      -- 5점
-        superm_jumin_no_yn,     -- 10점
-        superm_biz_reg_no_yn,   -- 10점
-        superm_cmpy_reg_no_yn,  -- 10점
-        superm_for_reg_no_yn,   -- 10점
-        superm_passport_no_yn,  -- 10점
-        superm_mobile_no_yn,    -- 8점
-        superm_email_yn,        -- 8점
-        superm_addr_yn,         -- 9점    
-        superm_cust_stat,       -- 신규(1) or 활동(2) -> 10점
-        superm_fund_start_dd,   -- not null -> 2점
-        superm_fund_end_dd,     -- null -> 2점
-        superm_reg_dd,
-        superm_upd_dd
+        src_cust_id
+        ,superm_cust_id
+        ,superm_cust_tp
+        ,fix_yn
+        ,rep_superm_cust_yn
+        ,superm_cust_nm_yn      -- 5점
+        ,superm_jumin_no_yn     -- 10점
+        ,superm_biz_reg_no_yn   -- 10점
+        ,superm_cmpy_reg_no_yn  -- 10점
+        ,superm_for_reg_no_yn   -- 10점
+        ,superm_passport_no_yn  -- 10점
+        ,superm_mobile_no_yn    -- 8점
+        ,superm_email_yn        -- 8점
+        ,superm_addr_yn         -- 9점    
+        ,superm_cust_stat       -- 신규(1) or 활동(2) -> 10점
+        ,superm_fund_start_dd   -- not null -> 2점
+        ,superm_fund_end_dd     -- null -> 2점
+        ,superm_reg_dd
+        ,superm_upd_dd
     FROM dw_cdd_customer_matching        
     WHERE (src_system = p_src_system AND src_table = p_src_table AND simularity = 1 AND NVL(manual_del_yn, 'N') <> 'Y')
         AND (src_cust_id = p_src_cust_id OR superm_cust_id = p_src_cust_id

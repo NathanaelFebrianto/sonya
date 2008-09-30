@@ -30,25 +30,26 @@ v_job_start_dm VARCHAR2(14);
 
 CURSOR cur IS
     SELECT 
-        'FMS' as src_system,        -- 원천시스템
-        'SUPERM' as src_table,      -- 원천고객테이블명
-        cust_id as src_cust_id,     -- 원천고객ID
-        supertype_dv as src_cust_tp,-- 원천고객구분
-        supername as cust_nm,       -- 고객명
-        cust_id as superm_cust_id,  -- 후원자번호
-        rr_id as jumin_no,          -- 주민등록번호
-        br_id as biz_reg_no,        -- 사업자등록번호
-        null as cmpy_reg_no,        -- 법인등록번호
-        fr_id as for_reg_no,        -- 외국인등록번호
-        null as passport_no,        -- 여권번호
-        supermophnum as mobile_no,  -- 휴대폰번호
-        superemail as email,        -- 이메일
-        superzipcdde_2 as zipcode,  -- 우편수령지주소_우편번호
-        address_2 as addr1,         -- 우편수령지주소_주소
-        addressdtl_2 as addr2       -- 우편수령지주소_상세주소        
-    FROM superm@FMS
-    WHERE 
-        fstoper_dt >= p_base_dt OR lastupdate_dt >= p_base_dt;
+        'FMS' AS src_system         -- 원천시스템
+        ,'SUPERM' AS src_table      -- 원천고객테이블명
+        ,cust_id AS src_cust_id     -- 원천고객ID
+        ,NVL(supertype_dv, SUBSTR(cust_id,5,1)) AS src_cust_tp  -- 원천고객구분
+        ,supername AS cust_nm       -- 고객명
+        ,cust_id AS superm_cust_id  -- 후원자번호
+        ,rr_id AS jumin_no          -- 주민등록번호
+        ,br_id AS biz_reg_no        -- 사업자등록번호
+        ,NULL AS cmpy_reg_no        -- 법인등록번호
+        ,fr_id AS for_reg_no        -- 외국인등록번호
+        ,NULL AS passport_no        -- 여권번호
+        ,supermophnum AS mobile_no  -- 휴대폰번호
+        ,superemail AS email        -- 이메일
+        ,superzipcdde_2 AS zipcode  -- 우편수령지주소_우편번호
+        ,address_2 AS addr1         -- 우편수령지주소_주소
+        ,addressdtl_2 AS addr2      -- 우편수령지주소_상세주소        
+    FROM superm@FMS;
+    --WHERE 
+        --rownum < 10001;
+        --fstoper_dt >= p_base_dt OR lastupdate_dt >= p_base_dt;
 
 
 BEGIN
@@ -63,25 +64,25 @@ BEGIN
         BEGIN
             /* call sub-routine procedure */
             sp_cdd_match_customer(
-                'BATCH',                -- 호출시스템
-                '배영규',               -- 호출자
-                0,                      -- 최소 유사도
-                srclist.src_system,     -- 원천시스템
-                srclist.src_table,      -- 원천테이블명
-                srclist.src_cust_id,    -- 원천고객ID
-                srclist.src_cust_tp,    -- 원천고객구분
-                srclist.cust_nm,        -- 고객명
-                srclist.superm_cust_id, -- 후원자번호
-                srclist.jumin_no,       -- 주민등록번호
-                srclist.biz_reg_no,     -- 사업자등록번호
-                srclist.cmpy_reg_no,    -- 법인등록번호
-                srclist.for_reg_no,     -- 외국인등록번호
-                srclist.passport_no,    -- 여권번호
-                srclist.mobile_no,      -- 휴대폰번호
-                srclist.email,          -- 이메일
-                srclist.zipcode,        -- 우편수령지주소_우편번호
-                srclist.addr1,          -- 우편수령지주소_주소
-                srclist.addr2          -- 우편수령지주소_상세주소     
+                'BATCH'                 -- 호출시스템
+                ,'배영규'               -- 호출자
+                ,0                      -- 최소 유사도
+                ,srclist.src_system     -- 원천시스템
+                ,srclist.src_table      -- 원천테이블명
+                ,srclist.src_cust_id    -- 원천고객ID
+                ,srclist.src_cust_tp    -- 원천고객구분
+                ,srclist.cust_nm        -- 고객명
+                ,srclist.superm_cust_id -- 후원자번호
+                ,srclist.jumin_no       -- 주민등록번호
+                ,srclist.biz_reg_no     -- 사업자등록번호
+                ,srclist.cmpy_reg_no    -- 법인등록번호
+                ,srclist.for_reg_no     -- 외국인등록번호
+                ,srclist.passport_no    -- 여권번호
+                ,srclist.mobile_no      -- 휴대폰번호
+                ,srclist.email          -- 이메일
+                ,srclist.zipcode        -- 우편수령지주소_우편번호
+                ,srclist.addr1          -- 우편수령지주소_주소
+                ,srclist.addr2          -- 우편수령지주소_상세주소     
             );
             
             v_success_cnt := v_success_cnt + 1;
@@ -90,70 +91,134 @@ BEGIN
         
         END;
             
-        v_total_cnt := v_total_cnt + 1;    
+        v_total_cnt := v_total_cnt + 1; 
+        
+        IF (v_total_cnt = 1) THEN
+            INSERT INTO dw_etl_job_hist (
+                job_no
+                ,job_id
+                ,job_nm
+                ,job_strt_dm
+                --,job_end_dm
+                --,tot_src_cnt
+                ,succ_cnt
+                ,error_cnt
+                ,job_stat
+                ,job_log
+                ,executor
+                )	
+            VALUES (
+                v_job_start_dm 
+                ,'sp_cdd_customer_match_table_1' 
+                ,'고객매칭테이블생성 Batch적재-SUPERM'
+                ,v_job_start_dm
+                --,TO_CHAR(SYSDATE,'yyyyMMddHH24miSS')
+                --,v_total_cnt
+                ,v_success_cnt
+                ,v_error_cnt
+                ,'START'
+                ,''
+                ,'배영규'
+                );
+            
+            COMMIT;
+        
+        ELSIF (v_total_cnt > 1) THEN
+            UPDATE dw_etl_job_hist SET
+                succ_cnt = v_success_cnt
+                ,job_stat = 'WORKING'
+            WHERE        
+                job_no = v_job_start_dm AND job_id = 'sp_cdd_customer_match_table_1';
+            
+            COMMIT;
+        END IF;
         
     END LOOP;
 
+    /*
     INSERT INTO dw_etl_job_hist (
-        job_no,
-        job_id,
-        job_nm,
-        job_strt_dm,
-        job_end_dm,
-        tot_src_cnt,
-        succ_cnt,
-        error_cnt,
-        job_stat,
-        job_log,
-        executor
+        job_no
+        ,job_id
+        ,job_nm
+        ,job_strt_dm
+        ,job_end_dm
+        ,tot_src_cnt
+        ,succ_cnt
+        ,error_cnt
+        ,job_stat
+        ,job_log
+        ,executor
 		)	
 	VALUES (
-		v_job_start_dm, 
-		'sp_cdd_customer_match_table_1', 
-		'고객매칭테이블생성 Batch적재-SUPERM',
-		v_job_start_dm,
-		TO_CHAR(SYSDATE,'yyyyMMddHH24miSS'),
-		v_total_cnt,
-		v_success_cnt,
-		v_error_cnt,
-		'COMPLETED',
-		'',
-		'배영규'
+		v_job_start_dm 
+		,'sp_cdd_customer_match_table_1' 
+		,'고객매칭테이블생성 Batch적재-SUPERM'
+		,v_job_start_dm
+		,TO_CHAR(SYSDATE,'yyyyMMddHH24miSS')
+		,v_total_cnt
+		,v_success_cnt
+		,v_error_cnt
+		,'COMPLETED'
+		,''
+		,'배영규'
 		);
+    */    
+
+    UPDATE dw_etl_job_hist SET
+        job_end_dm = TO_CHAR(SYSDATE,'yyyyMMddHH24miSS')
+        ,tot_src_cnt = v_total_cnt
+        ,succ_cnt = v_success_cnt
+        ,job_stat = 'COMPLETED'
+    WHERE        
+        job_no = v_job_start_dm AND job_id = 'sp_cdd_customer_match_table_1';
+    
 	COMMIT;
+    
 
 EXCEPTION
 	WHEN OTHERS THEN
 		DBMS_OUTPUT.PUT_LINE(SQLERRM||'ERROR');	
 		
 		v_error_msg := SQLERRM;
-
-		INSERT INTO dw_etl_job_hist (
-			job_no,
-			job_id,
-			job_nm,
-			job_strt_dm,
-			job_end_dm,
-			tot_src_cnt,
-			succ_cnt,
-			error_cnt,
-			job_stat,
-			job_log,
-			executor
-			)	
-		VALUES (
-			v_job_start_dm, 
-			'sp_cdd_customer_match_table_1', 
-			'고객매칭테이블생성 Batch적재-SUPERM',
-			v_job_start_dm,
-			TO_CHAR(SYSDATE,'yyyyMMddHH24miSS'),
-			v_total_cnt,
-			v_success_cnt,
-			v_error_cnt,
-			'FAILED',
-			v_error_msg,
-			'배영규'
-			);
+        
+        IF (v_total_cnt < 1) THEN
+            INSERT INTO dw_etl_job_hist (
+                job_no
+                ,job_id
+                ,job_nm
+                ,job_strt_dm
+                ,job_end_dm
+                ,tot_src_cnt
+                ,succ_cnt
+                ,error_cnt
+                ,job_stat
+                ,job_log
+                ,executor
+                )	
+            VALUES (
+                v_job_start_dm 
+                ,'sp_cdd_customer_match_table_1' 
+                ,'고객매칭테이블생성 Batch적재-SUPERM'
+                ,v_job_start_dm
+                ,TO_CHAR(SYSDATE,'yyyyMMddHH24miSS')
+                ,v_total_cnt
+                ,v_success_cnt
+                ,v_error_cnt
+                ,'FAILED'
+                ,v_error_msg
+                ,'배영규'
+                );
+        ELSE
+            UPDATE dw_etl_job_hist SET
+                job_end_dm = TO_CHAR(SYSDATE,'yyyyMMddHH24miSS')
+                ,tot_src_cnt = v_total_cnt
+                ,succ_cnt = v_success_cnt
+                ,job_stat = 'FAILED'
+                ,job_log = v_error_msg
+            WHERE        
+                job_no = v_job_start_dm AND job_id = 'sp_cdd_customer_match_table_1';
+        END IF;
+        
 		COMMIT;
 		
 END sp_cdd_customer_match_table_1;

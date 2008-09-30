@@ -83,7 +83,24 @@ BEGIN
         src_table = p_src_table AND
         src_cust_id = p_src_cust_id AND
         superm_cust_id = p_superm_cust_id;
-
+    
+    IF (p_src_system = 'FMS' AND p_src_table = 'SUPERM') THEN
+    UPDATE dw_cdd_customer_matching SET
+        fix_yn = 'Y'
+        ,manual_yn = 'Y'
+        --,manual_del_yn = p_manual_del_yn
+        ,manual_del_yn = 'Y'
+        --,remark = p_remark
+        --,manual_reg_user_id = p_manual_user_id
+        ,manual_upd_user_id = p_manual_user_id
+        ,manual_upd_dt = TO_CHAR(SYSDATE, 'yyyymmddhh24miss')
+        ,manual_del_dt = TO_CHAR(SYSDATE, 'yyyymmddhh24miss')
+    WHERE src_system = p_src_system AND
+        src_table = p_src_table AND
+        src_cust_id = p_superm_cust_id AND
+        superm_cust_id = p_src_cust_id;
+    END IF;
+    
     COMMIT;        
 
 EXCEPTION

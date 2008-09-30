@@ -134,20 +134,20 @@ y_matching_pattern VARCHAR2(50);
 CURSOR cur IS
     /* Rule 추출 */
     SELECT 
-        rule_id,
-        cust_tp,
-        priority,
-        simularity,
-        cust_nm_yn,
-        superm_cust_id_yn,
-        jumin_no_yn,
-        biz_reg_no_yn,
-        cmpy_reg_no_yn,
-        for_reg_no_yn,
-        passport_no_yn,
-        mobile_no_yn,
-        email_yn,
-        addr_yn      
+        rule_id
+        ,cust_tp
+        ,priority
+        ,simularity
+        ,cust_nm_yn
+        ,superm_cust_id_yn
+        ,jumin_no_yn
+        ,biz_reg_no_yn
+        ,cmpy_reg_no_yn
+        ,for_reg_no_yn
+        ,passport_no_yn
+        ,mobile_no_yn
+        ,email_yn
+        ,addr_yn      
     FROM dw_cdd_duplicate_check_rule
     WHERE cust_tp = p_src_cust_tp AND simularity >= NVL(p_min_simularity, 0)
     ORDER BY priority ASC;   
@@ -338,90 +338,90 @@ BEGIN
             
                 IF (v_matching_table_exist_cnt = 0) THEN
                     INSERT INTO dw_cdd_customer_matching (
-                        src_system,
-                        src_table,
-                        src_cust_id,
-                        superm_cust_id,
-                        src_cust_tp,
-                        superm_cust_tp,
-                        rule_id,
-                        rule_priority,
-                        simularity,
-                        superm_cust_nm_yn,
-                        superm_jumin_no_yn,
-                        superm_biz_reg_no_yn,
-                        superm_cmpy_reg_no_yn,
-                        superm_for_reg_no_yn,
-                        superm_passport_no_yn,
-                        superm_mobile_no_yn,
-                        superm_email_yn,
-                        superm_addr_yn,
-                        superm_cust_stat,
-                        superm_fund_start_dd,
-                        superm_fund_end_dd,
-                        superm_reg_dd,
-                        superm_upd_dd,
-                        auto_yn,
-                        auto_caller_system,
-                        auto_caller,
-                        auto_reg_dt,
-                        auto_upd_dt
+                        src_system
+                        ,src_table
+                        ,src_cust_id
+                        ,superm_cust_id
+                        ,src_cust_tp
+                        ,superm_cust_tp
+                        ,rule_id
+                        ,rule_priority
+                        ,simularity
+                        ,superm_cust_nm_yn
+                        ,superm_jumin_no_yn
+                        ,superm_biz_reg_no_yn
+                        ,superm_cmpy_reg_no_yn
+                        ,superm_for_reg_no_yn
+                        ,superm_passport_no_yn
+                        ,superm_mobile_no_yn
+                        ,superm_email_yn
+                        ,superm_addr_yn
+                        ,superm_cust_stat
+                        ,superm_fund_start_dd
+                        ,superm_fund_end_dd
+                        ,superm_reg_dd
+                        ,superm_upd_dd
+                        ,auto_yn
+                        ,auto_caller_system
+                        ,auto_caller
+                        ,auto_reg_dt
+                        ,auto_upd_dt
                      )
                      VAlUES (
-                        p_src_system,
-                        p_src_table,
-                        p_src_cust_id,
-                        p_superm_cust_id,
-                        p_src_cust_tp,
-                        p_superm_cust_tp,
-                        srclist.rule_id,
-                        srclist.priority,
-                        srclist.simularity,
-                        v_superm_cust_nm_yn,
-                        v_superm_jumin_no_yn,
-                        v_superm_biz_reg_no_yn,
-                        v_superm_cmpy_reg_no_yn,
-                        v_superm_for_reg_no_yn,
-                        v_superm_passport_no_yn,
-                        v_superm_mobile_no_yn,
-                        v_superm_email_yn,
-                        v_superm_addr_yn,
-                        p_superm_cust_stat,
-                        p_superm_fund_start_dd,
-                        p_superm_fund_end_dd,
-                        p_superm_reg_dd,
-                        p_superm_upd_dd,                        
-                        'Y',
-                        p_caller_system,
-                        p_caller,
-                        TO_CHAR(SYSDATE, 'yyyymmddhh24miss'),
-                        TO_CHAR(SYSDATE, 'yyyymmddhh24miss')
+                        p_src_system
+                        ,p_src_table
+                        ,p_src_cust_id
+                        ,p_superm_cust_id
+                        ,p_src_cust_tp
+                        ,p_superm_cust_tp
+                        ,srclist.rule_id
+                        ,srclist.priority
+                        ,srclist.simularity
+                        ,v_superm_cust_nm_yn
+                        ,v_superm_jumin_no_yn
+                        ,v_superm_biz_reg_no_yn
+                        ,v_superm_cmpy_reg_no_yn
+                        ,v_superm_for_reg_no_yn
+                        ,v_superm_passport_no_yn
+                        ,v_superm_mobile_no_yn
+                        ,v_superm_email_yn
+                        ,v_superm_addr_yn
+                        ,p_superm_cust_stat
+                        ,p_superm_fund_start_dd
+                        ,p_superm_fund_end_dd
+                        ,p_superm_reg_dd
+                        ,p_superm_upd_dd                        
+                        ,'Y'
+                        ,p_caller_system
+                        ,p_caller
+                        ,TO_CHAR(SYSDATE, 'yyyymmddhh24miss')
+                        ,TO_CHAR(SYSDATE, 'yyyymmddhh24miss')
                      );
                 ELSE
                     UPDATE dw_cdd_customer_matching SET 
-                        src_cust_tp = p_src_cust_tp,
-                        superm_cust_tp = p_superm_cust_tp,
-                        rule_id = srclist.rule_id,
-                        rule_priority = srclist.priority,
-                        simularity = srclist.simularity, 
-                        superm_cust_nm_yn = v_superm_cust_nm_yn,
-                        superm_jumin_no_yn = v_superm_jumin_no_yn,
-                        superm_biz_reg_no_yn = v_superm_biz_reg_no_yn,
-                        superm_cmpy_reg_no_yn = v_superm_cmpy_reg_no_yn,
-                        superm_for_reg_no_yn = v_superm_for_reg_no_yn,
-                        superm_passport_no_yn = v_superm_passport_no_yn,
-                        superm_mobile_no_yn = v_superm_mobile_no_yn,
-                        superm_email_yn = v_superm_email_yn,
-                        superm_addr_yn = v_superm_addr_yn,
-                        superm_cust_stat = p_superm_cust_stat,
-                        superm_fund_start_dd = p_superm_fund_start_dd,
-                        superm_fund_end_dd = p_superm_fund_end_dd,
-                        superm_reg_dd = p_superm_reg_dd,
-                        superm_upd_dd = p_superm_upd_dd,
-                        auto_yn = 'Y',
-                        auto_caller_system = p_caller_system,
-                        auto_caller = p_caller,
-                        auto_upd_dt = TO_CHAR(SYSDATE, 'yyyymmddhh24miss')                   
+                        src_cust_tp = p_src_cust_tp
+                        ,superm_cust_tp = p_superm_cust_tp
+                        ,rule_id = srclist.rule_id
+                        ,rule_priority = srclist.priority
+                        ,simularity = srclist.simularity 
+                        ,superm_cust_nm_yn = v_superm_cust_nm_yn
+                        ,superm_jumin_no_yn = v_superm_jumin_no_yn
+                        ,superm_biz_reg_no_yn = v_superm_biz_reg_no_yn
+                        ,superm_cmpy_reg_no_yn = v_superm_cmpy_reg_no_yn
+                        ,superm_for_reg_no_yn = v_superm_for_reg_no_yn
+                        ,superm_passport_no_yn = v_superm_passport_no_yn
+                        ,superm_mobile_no_yn = v_superm_mobile_no_yn
+                        ,superm_email_yn = v_superm_email_yn
+                        ,superm_addr_yn = v_superm_addr_yn
+                        ,superm_cust_stat = p_superm_cust_stat
+                        ,superm_fund_start_dd = p_superm_fund_start_dd
+                        ,superm_fund_end_dd = p_superm_fund_end_dd
+                        ,superm_reg_dd = p_superm_reg_dd
+                        ,superm_upd_dd = p_superm_upd_dd
+                        ,auto_yn = 'Y'
+                        ,auto_caller_system = p_caller_system
+                        ,auto_caller = p_caller
+                        ,auto_upd_dt = TO_CHAR(SYSDATE, 'yyyymmddhh24miss')                   
                      WHERE src_system = p_src_system AND
                            src_table = p_src_table AND
                            src_cust_id = p_src_cust_id AND
@@ -450,22 +450,22 @@ BEGIN
 
                 
                 INSERT INTO dw_etl_job_error (
-                    job_no,
-                    job_id,
-                    seq,
-                    job_nm,
-                    job_exe_dt,
-                    src_data,
-                    error_log
+                    job_no
+                    ,job_id
+                    ,seq
+                    ,job_nm
+                    ,job_exe_dt
+                    ,src_data
+                    ,error_log
                     )    
                 VALUES (
-                    v_job_start_dm, 
-                    'sp_cdd_match_customer_by_rule['||p_src_system||'|'||p_src_table||'|'||p_src_cust_id||'|'||p_superm_cust_id||'|'||srclist.rule_id||']', 
-                    v_error_cnt,
-                    'Rule에 따라 매칭되는 유사고객리스트 생성',
-                    TO_CHAR(SYSDATE,'yyyyMMdd'),
-                    'Rule ID = '||srclist.rule_id,
-                    v_error_msg
+                    v_job_start_dm 
+                    ,'sp_cdd_match_customer_by_rule['||p_src_system||'|'||p_src_table||'|'||p_src_cust_id||'|'||p_superm_cust_id||'|'||srclist.rule_id||']' 
+                    ,v_error_cnt
+                    ,'Rule에 따라 매칭되는 유사고객리스트 생성'
+                    ,TO_CHAR(SYSDATE,'yyyyMMdd')
+                    ,'Rule ID = '||srclist.rule_id
+                    ,v_error_msg
                     );
                 COMMIT;                
                 
@@ -483,36 +483,6 @@ EXCEPTION
 		DBMS_OUTPUT.PUT_LINE(SQLERRM||'ERROR');	
 		
 		v_error_msg := SQLERRM;
-
-        /*
-        INSERT INTO dw_etl_job_hist (
-			job_no,
-			job_id,
-			job_nm,
-			job_strt_dm,
-			job_end_dm,
-			tot_src_cnt,
-			succ_cnt,
-			error_cnt,
-			job_stat,
-			job_log,
-			executor
-			)	
-		VALUES (
-			v_job_start_dm, 
-			'sp_cdd_match_customer_by_rule['||p_src_system||'|'||p_src_table||'|'||p_src_cust_id||'|'||p_superm_cust_id||']',
-			'Rule에 따라 매칭되는 유사고객리스트 생성',
-			v_job_start_dm,
-			TO_CHAR(SYSDATE,'yyyyMMddHH24miSS'),
-			v_total_cnt,
-			v_success_cnt,
-			v_error_cnt,
-			'FAILED',
-			v_error_msg,
-			'ubigent'
-			);
-		COMMIT;
-        */
         
         RAISE;
 
