@@ -4,7 +4,7 @@ CREATE OR REPLACE PROCEDURE sp_cdd_match_customer
     p_caller IN VARCHAR2,               -- 필수: 호출자(예. 홈페이지회원ID, 홈페이지관리자ID, CMA사용자ID, ETL인 경우 "ubigent") 
     p_min_simularity IN NUMBER,         -- 옵션: 최소 유사도(예. 디폴트 = 0) 
     p_src_system IN VARCHAR2,           -- 필수: 원천시스템(예. FMS, HOMEPAGE) 
-    p_src_table IN VARCHAR2,            -- 필수: 원천고객테이블명(예. SUPERM, ACCOUNTM, TH_MEMBER_MASTER) 
+    p_src_table IN VARCHAR2,            -- 필수: 원천고객테이블명(예. SUPERM, ACCOUNTM, TH_MEMBER_MASTER, TEMP-SUPERM, TEMP-ACCOUNTM) 
     p_src_cust_id IN VARCHAR2,          -- 필수: 원천고객ID
     p_src_cust_tp IN VARCHAR2,          -- 필수: 원천고객구분(1:개인, 2:법인, 3:단체, 4:외국인) 
     p_src_cust_nm IN VARCHAR2,          -- 옵션: 고객명 
@@ -122,7 +122,7 @@ BEGIN
         RAISE user_define_error4;
     END IF;
     
-    IF (p_src_table IS NULL OR NOT(p_src_table = 'SUPERM' OR p_src_table = 'ACCOUNTM' OR p_src_table = 'TH_MEMBER_MASTER')) THEN
+    IF (p_src_table IS NULL OR NOT(p_src_table = 'SUPERM' OR p_src_table = 'ACCOUNTM' OR p_src_table = 'TH_MEMBER_MASTER' OR p_src_table = 'TEMP_SUPERM' OR p_src_table = 'TEMP_ACCOUNTM')) THEN
         RAISE user_define_error5;
     END IF;
     
@@ -266,7 +266,7 @@ EXCEPTION
            RAISE_APPLICATION_ERROR(-20004, '4번째 인자인 원천시스템(p_src_system)은 필수항목이며, 허용되는 값은 "FMS", "HOMEPAGE"만 허용됩니다.');
 
     WHEN user_define_error5 THEN
-           RAISE_APPLICATION_ERROR(-20005, '5번째 인자인 원천고객테이블명(p_src_table)은 필수항목이며, 허용되는 값은 "SUPERM", "ACCOUNTM", "TH_MEMBER_MASTER"만 허용됩니다.');
+           RAISE_APPLICATION_ERROR(-20005, '5번째 인자인 원천고객테이블명(p_src_table)은 필수항목이며, 허용되는 값은 "SUPERM", "ACCOUNTM", "TH_MEMBER_MASTER", "TEMP-SUPERM", "TEMP-ACCOUNTM"만 허용됩니다.');
 
     WHEN user_define_error6 THEN
            RAISE_APPLICATION_ERROR(-20006, '6번째 인자인 원천고객ID(p_src_cust_id)는 필수항목입니다.');

@@ -1,7 +1,7 @@
 CREATE OR REPLACE FUNCTION fn_cdd_get_rep_customer
 (
     p_src_system IN VARCHAR2,           -- 원천시스템(예. FMS, HOMEPAGE) 
-    p_src_table IN VARCHAR2,            -- 원천고객테이블명(예. SUPERM, ACCOUNTM, TH_MEMBER_MASTER) 
+    p_src_table IN VARCHAR2,            -- 원천고객테이블명(예. SUPERM, ACCOUNTM, TH_MEMBER_MASTER, TEMP-SUPERM, TEMP-ACCOUNTM) 
     p_src_cust_id IN VARCHAR2           -- 원천고객ID 
 )
 RETURN VARCHAR2
@@ -38,7 +38,7 @@ BEGIN
                 SELECT src_cust_id FROM dw_cdd_customer_matching 
                 WHERE superm_cust_id = p_src_cust_id));
     
-    ELSIF (p_src_system = 'FMS' AND p_src_table = 'ACCOUNTM') THEN
+    ELSIF (p_src_system = 'FMS' AND (p_src_table = 'ACCOUNTM' OR p_src_table = 'TEMP_SUPERM' OR p_src_table = 'TEMP_ACCOUNTM')) THEN
         SELECT superm_cust_id into v_superm_cust_id FROM dw_cdd_customer_matching
             WHERE src_system = p_src_system AND src_table = p_src_table AND src_cust_id = p_src_cust_id AND rep_superm_cust_yn = 'Y' AND simularity = 1 AND NVL(manual_del_yn, 'N') <> 'Y';
     
@@ -55,7 +55,7 @@ BEGIN
 
     EXCEPTION
         WHEN user_define_error THEN
-           RAISE_APPLICATION_ERROR(-20101, '원천시스템명과 원천테이블명이 적합하지 않습니다. 다시 확인하시기 바랍니다. [p_src_system = '||p_src_system||'] or [p_src_table = '||p_src_table||'] 원천시스템(p_src_system)은 "FMS", "HOMEPAGE"만 허용되며, 원천고객테이블명(p_src_table)은 "SUPERM", "ACCOUNTM", "TH_MEMBER_MASTER"만 허용됩니다.');
+           RAISE_APPLICATION_ERROR(-20101, '원천시스템명과 원천테이블명이 적합하지 않습니다. 다시 확인하시기 바랍니다. [p_src_system = '||p_src_system||'] or [p_src_table = '||p_src_table||'] 원천시스템(p_src_system)은 "FMS", "HOMEPAGE"만 허용되며, 원천고객테이블명(p_src_table)은 "SUPERM", "ACCOUNTM", "TH_MEMBER_MASTER", "TEMP-SUPERM", "TEMP-ACCOUNTM"만 허용됩니다.');
         WHEN NO_DATA_FOUND THEN
             RETURN NULL;
         WHEN OTHERS THEN

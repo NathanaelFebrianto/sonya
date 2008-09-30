@@ -1,7 +1,7 @@
 CREATE OR REPLACE PROCEDURE sp_cdd_set_rep_customer
 (
     p_src_system IN VARCHAR2,           -- 원천시스템(예. FMS, HOMEPAGE) 
-    p_src_table IN VARCHAR2,            -- 원천고객테이블명(예. SUPERM, ACCOUNTM, TH_MEMBER_MASTER) 
+    p_src_table IN VARCHAR2,            -- 원천고객테이블명(예. TEMP, SUPERM, ACCOUNTM, TH_MEMBER_MASTER, TEMP-SUPERM, TEMP-ACCOUNTM) 
     p_src_cust_id IN VARCHAR2           -- 원천고객ID 
 )
 IS

@@ -43,11 +43,11 @@ CURSOR cur IS
         zipcode AS zipcode,         -- 快祈荐飞瘤林家_快祈锅龋
         address AS addr1,           -- 快祈荐飞瘤林家_林家
         addressdtl AS addr2         -- 快祈荐飞瘤林家_惑技林家        
-    FROM accountm@FMS
-    WHERE 
+    FROM accountm@FMS;
+    --WHERE 
         --fstoper_dt <= '19911231' OR TRIM(fstoper_dt) IS NULL;
         --fstoper_dt BETWEEN '19920101' AND '19951231'
-        fstoper_dt >= '20080901';
+        --fstoper_dt >= '20080901';
 
 
 BEGIN
