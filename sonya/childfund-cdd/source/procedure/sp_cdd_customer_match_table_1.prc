@@ -5,7 +5,7 @@ CREATE OR REPLACE PROCEDURE sp_cdd_customer_match_table_1
 IS
 /******************************************************************************
    NAME:       sp_cdd_customer_match_table_1
-   PURPOSE:    SUPERM -> DW_CDD_CUSTOMER_MATCHING 테이블로 변경적재
+   PURPOSE:    SUPERM -> DW_CDD_CUSTOMER_MATCHING 테이블로 적재
 
    REVISIONS:
    Ver        Date        Author           Description
@@ -110,7 +110,7 @@ BEGIN
 	VALUES (
 		v_job_start_dm, 
 		'sp_cdd_customer_match_table_1', 
-		'변경적재-고객매칭테이블생성-SUPERM',
+		'고객매칭테이블생성 Batch적재-SUPERM',
 		v_job_start_dm,
 		TO_CHAR(SYSDATE,'yyyyMMddHH24miSS'),
 		v_total_cnt,
@@ -144,7 +144,7 @@ EXCEPTION
 		VALUES (
 			v_job_start_dm, 
 			'sp_cdd_customer_match_table_1', 
-			'변경적재-고객매칭테이블생성-SUPERM',
+			'고객매칭테이블생성 Batch적재-SUPERM',
 			v_job_start_dm,
 			TO_CHAR(SYSDATE,'yyyyMMddHH24miSS'),
 			v_total_cnt,
