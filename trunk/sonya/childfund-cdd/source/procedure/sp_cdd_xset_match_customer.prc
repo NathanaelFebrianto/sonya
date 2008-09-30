@@ -75,19 +75,35 @@ BEGIN
     v_job_start_dm := TO_CHAR(SYSDATE, 'yyyymmddhh24miss');
     
     UPDATE dw_cdd_customer_matching SET
-        simularity = p_simularity,
-        fix_yn = p_fix_yn,
-        rep_superm_cust_yn = p_rep_superm_cust_yn,
-        remark = p_remark,
-        manual_yn = 'Y',
-        manual_reg_user_id = p_manual_user_id,
-        manual_upd_user_id = p_manual_user_id,
-        manual_reg_dt = TO_CHAR(SYSDATE, 'yyyymmddhh24miss'),
-        manual_upd_dt = TO_CHAR(SYSDATE, 'yyyymmddhh24miss')
+        simularity = p_simularity
+        ,fix_yn = p_fix_yn
+        ,rep_superm_cust_yn = p_rep_superm_cust_yn
+        ,remark = p_remark
+        ,manual_yn = 'Y'
+        ,manual_reg_user_id = p_manual_user_id
+        ,manual_upd_user_id = p_manual_user_id
+        ,manual_reg_dt = TO_CHAR(SYSDATE, 'yyyymmddhh24miss')
+        ,manual_upd_dt = TO_CHAR(SYSDATE, 'yyyymmddhh24miss')
     WHERE src_system = p_src_system AND
         src_table = p_src_table AND
         src_cust_id = p_src_cust_id AND
         superm_cust_id = p_superm_cust_id;
+    
+    IF (p_src_system = 'FMS' AND p_src_table = 'SUPERM') THEN
+        UPDATE dw_cdd_customer_matching SET
+            simularity = p_simularity
+            ,fix_yn = p_fix_yn
+            --,remark = p_remark
+            ,manual_yn = 'Y'
+            --,manual_reg_user_id = p_manual_user_id
+            ,manual_upd_user_id = p_manual_user_id
+            --,manual_reg_dt = TO_CHAR(SYSDATE, 'yyyymmddhh24miss')
+            ,manual_upd_dt = TO_CHAR(SYSDATE, 'yyyymmddhh24miss')
+        WHERE src_system = p_src_system AND
+            src_table = p_src_table AND
+            src_cust_id = p_superm_cust_id AND
+            superm_cust_id = p_src_cust_id;
+    END IF;      
 
     COMMIT;        
 
