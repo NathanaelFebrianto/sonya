@@ -81,14 +81,14 @@ CURSOR cur IS
     FROM superm@FMS
     WHERE
         TRIM(supername) = TRIM(p_src_cust_nm)
-        OR cust_id = p_src_superm_cust_id
+        AND (cust_id = p_src_superm_cust_id
         OR rr_id = fn_cdd_exclude_pattern('JUMIN_NO', p_src_jumin_no)
         OR br_id = fn_cdd_exclude_pattern('BIZ_REG_NO', p_src_biz_reg_no)
         OR fr_id = fn_cdd_exclude_pattern('FOR_REG_NO', p_src_for_reg_no)
         OR fn_cdd_filter_phone_no(supermophnum) = fn_cdd_exclude_pattern('MOBILE_NO', fn_cdd_filter_phone_no(p_src_mobile_no))
         OR TRIM(superemail) = TRIM(p_src_email)
         OR TRIM(superzipcdde_2)||''||TRIM(address_2)||''||TRIM(addressdtl_2)
-           = TRIM(p_src_zipcode)||''||TRIM(p_src_addr1)||''||TRIM(p_src_addr2);
+           = TRIM(p_src_zipcode)||''||TRIM(p_src_addr1)||''||TRIM(p_src_addr2));
         
         /*
         TRIM(supername) = fn_cdd_exclude_pattern('CUST_NM', p_src_cust_nm)
