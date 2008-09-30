@@ -78,7 +78,7 @@ CURSOR cur IS
         supend_dt AS superm_fund_end_dd,    -- 후원종료일자
         fstoper_dt AS superm_reg_dd,        -- 최초등록일자
         lastupdate_dt AS superm_upd_dd      -- 최종수정일자                            
-    FROM superm
+    FROM superm@FMS
     WHERE
         TRIM(supername) = TRIM(p_src_cust_nm)
         OR cust_id = p_src_superm_cust_id
