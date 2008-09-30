@@ -4,7 +4,7 @@ CREATE OR REPLACE PROCEDURE sp_cdd_match_customer_by_rule
     p_caller IN VARCHAR2,               -- 호출자(예. 홈페이지회원ID, 홈페이지관리자ID, CMA사용자ID, ETL인 경우 "ubigent") 
     p_min_simularity IN NUMBER,         -- 최소 유사도 
     p_src_system IN VARCHAR2,           -- 원천고객: 원천시스템(예. FMS, HOMEPAGE) 
-    p_src_table IN VARCHAR2,            -- 원천고객: 원천고객테이블명(예. SUPERM, ACCOUNTM, TH_MEMBER_MASTER) 
+    p_src_table IN VARCHAR2,            -- 원천고객: 원천고객테이블명(예. TEMP, SUPERM, ACCOUNTM, TH_MEMBER_MASTER, TEMP-SUPERM, TEMP-ACCOUNTM) 
     p_src_cust_id IN VARCHAR2,          -- 원천고객: 원천고객ID
     p_src_cust_tp IN VARCHAR2,          -- 원천고객: 원천고객구분
     p_src_cust_nm IN VARCHAR2,          -- 원천고객: 고객명
