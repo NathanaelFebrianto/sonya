@@ -1,8 +1,11 @@
-CREATE OR REPLACE PROCEDURE sf_cdd_customer_match_table_3
+CREATE OR REPLACE PROCEDURE sp_cdd_customer_match_table_2
+(
+    p_base_dt IN VARCHAR2    -- 기준일자
+) 
 IS
 /******************************************************************************
-   NAME:       sf_cdd_customer_match_table_3 
-   PURPOSE:    TH_MEMBER_MASTER -> DW_CDD_CUSTOMER_MATCHING 테이블로 초기적재
+   NAME:       sp_cdd_customer_match_table_2 
+   PURPOSE:    ACCOUNTM-> DW_CDD_CUSTOMER_MATCHING 테이블로 적재
 
    REVISIONS:
    Ver        Date        Author           Description
@@ -12,7 +15,7 @@ IS
    NOTES:
 
    Automatically available Auto Replace Keywords:
-      Object Name:     sf_cdd_customer_match_table_3 
+      Object Name:     sf_cdd_customer_match_table_2 
       Sysdate:         2008-09-09
       Date and Time:   2008-09-09, 오후 9:37:23, and 2008-09-09 오후 9:37:23
       Username:         (set in TOAD Options, Procedure Editor)
@@ -43,11 +46,9 @@ CURSOR cur IS
         zipcode AS zipcode,         -- 우편수령지주소_우편번호
         address AS addr1,           -- 우편수령지주소_주소
         addressdtl AS addr2         -- 우편수령지주소_상세주소        
-    FROM accountm@FMS;
-    --WHERE 
-        --fstoper_dt <= '19911231' OR TRIM(fstoper_dt) IS NULL;
-        --fstoper_dt BETWEEN '19920101' AND '19951231'
-        --fstoper_dt >= '20080901';
+    FROM accountm@FMS
+    WHERE 
+        fstoper_dt >= p_base_dt OR lastupdate_dt >= p_base_dt;
 
 
 BEGIN
@@ -108,8 +109,8 @@ BEGIN
 		)	
 	VALUES (
 		v_job_start_dm, 
-		'sf_cdd_customer_match_table_3', 
-		'초기적재-고객매칭테이블생성-SUPERM',
+		'sp_cdd_customer_match_table_2', 
+		'고객매칭테이블생성 Batch적재-ACCOUNTM',
 		v_job_start_dm,
 		TO_CHAR(SYSDATE,'yyyyMMddHH24miSS'),
 		v_total_cnt,
@@ -142,8 +143,8 @@ EXCEPTION
 			)	
 		VALUES (
 			v_job_start_dm, 
-			'sf_cdd_customer_match_table_3', 
-			'초기적재-고객매칭테이블생성-SUPERM',
+			'sp_cdd_customer_match_table_2', 
+			'고객매칭테이블생성 Batch적재-ACCOUNTM',
 			v_job_start_dm,
 			TO_CHAR(SYSDATE,'yyyyMMddHH24miSS'),
 			v_total_cnt,
@@ -155,7 +156,7 @@ EXCEPTION
 			);
 		COMMIT;
 		
-END sf_cdd_customer_match_table_3;
+END sp_cdd_customer_match_table_2;
 
 
 /
