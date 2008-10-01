@@ -46,10 +46,10 @@ CURSOR cur IS
         ,zipcode AS zipcode         -- 快祈荐飞瘤林家_快祈锅龋
         ,address AS addr1           -- 快祈荐飞瘤林家_林家
         ,addressdtl AS addr2        -- 快祈荐飞瘤林家_惑技林家        
-    FROM accountm@FMS;
+    FROM accountm@FMS
     --WHERE 
         --fstoper_dt >= p_base_dt OR lastupdate_dt >= p_base_dt;
-
+    ;
 
 BEGIN
 
