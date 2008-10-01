@@ -33,7 +33,14 @@ CURSOR cur IS
         'FMS' AS src_system         -- 원천시스템
         ,'SUPERM' AS src_table      -- 원천고객테이블명
         ,cust_id AS src_cust_id     -- 원천고객ID
-        ,NVL(supertype_dv, SUBSTR(cust_id,5,1)) AS src_cust_tp  -- 원천고객구분
+        ,CASE                       -- 원천고객구분
+         WHEN (supertype_dv = '1' OR supertype_dv = '2' OR supertype_dv = '3' OR supertype_dv = '4') THEN
+            supertype_dv
+         WHEN ((supertype_dv IS NULL) AND (SUBSTR(cust_id,5,1) = '1' OR SUBSTR(cust_id,5,1) = '2' OR SUBSTR(cust_id,5,1) = '3' OR SUBSTR(cust_id,5,1) = '4')) THEN
+            SUBSTR(cust_id,5,1)
+         ELSE
+            '1'
+         END AS src_cust_tp
         ,supername AS cust_nm       -- 고객명
         ,cust_id AS superm_cust_id  -- 후원자번호
         ,rr_id AS jumin_no          -- 주민등록번호
@@ -46,10 +53,15 @@ CURSOR cur IS
         ,superzipcdde_2 AS zipcode  -- 우편수령지주소_우편번호
         ,address_2 AS addr1         -- 우편수령지주소_주소
         ,addressdtl_2 AS addr2      -- 우편수령지주소_상세주소        
-    FROM superm@FMS;
+    FROM superm@FMS
     --WHERE 
-        --rownum < 10001;
-        --fstoper_dt >= p_base_dt OR lastupdate_dt >= p_base_dt;
+        --fstoper_dt >= p_base_dt OR lastupdate_dt >= p_base    
+    /*
+    -- 에러가 발생한 rownum부터 실행하고자 하는 경우
+    FROM (SELECT ROWNUM rowno, a.* FROM superm@FMS a)
+        WHERE rowno > 383500
+    */
+    ; 
 
 
 BEGIN
