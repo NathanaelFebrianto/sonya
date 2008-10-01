@@ -81,7 +81,7 @@ CURSOR cur IS
     FROM superm@FMS
     WHERE
         --TRIM(supername) = TRIM(p_src_cust_nm) 
-        supername = p_src_cust_nm   -- 속도개선을 위해 TRIM 함수 사용안함.
+        supername = TRIM(p_src_cust_nm)   -- 속도개선을 위해 supername컬럼에는 TRIM 함수 사용안함.
         AND (cust_id = p_src_superm_cust_id
         OR rr_id = fn_cdd_exclude_pattern('JUMIN_NO', p_src_jumin_no)
         OR br_id = fn_cdd_exclude_pattern('BIZ_REG_NO', p_src_biz_reg_no)
