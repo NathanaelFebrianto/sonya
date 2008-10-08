@@ -23,8 +23,4 @@
 		<property name="authenticationProvider" ref="daoAuthenticationProvider"/>
 	</bean>
 
-	<bean id="userResource" scope="prototype" class="com.sonya.user.service.resources.UserResource">
-		<property name="userManager" ref="userManager"/>
-	</bean>
-
 </beans>
