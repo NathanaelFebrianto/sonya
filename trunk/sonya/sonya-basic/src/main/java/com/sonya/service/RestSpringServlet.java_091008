@@ -6,10 +6,11 @@ import java.lang.reflect.InvocationTargetException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;
 
-import com.sun.ws.rest.api.core.ResourceConfig;
-import com.sun.ws.rest.spi.container.WebApplication;
-import com.sun.ws.rest.spi.container.servlet.ServletContainer;
-import com.sun.ws.rest.spi.service.ComponentProvider;
+import com.sun.jersey.api.core.ResourceConfig;
+import com.sun.jersey.spi.container.WebApplication;
+import com.sun.jersey.spi.container.servlet.ServletContainer;
+import com.sun.jersey.spi.service.ComponentProvider;
+import com.sun.jersey.spi.service.ComponentProvider$Scope;
 
 /**
  * This class integrates with Spring and Jersey for the instantiation of root
@@ -21,7 +22,7 @@ public class RestSpringServlet extends ServletContainer {
 	private static class SpringComponentProvider implements ComponentProvider {
 		private ApplicationContext springContext;
 
-		SpringComponentProvider(ApplicationContext springContext) {
+		SpringComponentProvider(ApplicationContext springContext, Class c) {
 			this.springContext = springContext;
 		}
 
