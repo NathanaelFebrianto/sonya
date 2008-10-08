@@ -81,14 +81,16 @@ BEGIN
     FOR srclist IN cur LOOP
         
         v_score := 0;
-        
+
         BEGIN
-        
+
             IF (srclist.rep_superm_cust_yn = 'Y') THEN
                 v_skip_yn := 'Y';
                 EXIT;
             END IF;
             
+            DBMS_OUTPUT.PUT_LINE('LOOP == '||v_total_cnt);
+
             IF (srclist.superm_cust_nm_yn = 'Y') THEN
                 v_score := v_score + 5;
             END IF;

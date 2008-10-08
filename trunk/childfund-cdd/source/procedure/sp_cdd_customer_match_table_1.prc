@@ -58,8 +58,8 @@ CURSOR cur IS
         --fstoper_dt >= p_base_dt OR lastupdate_dt >= p_base    
     /*
     -- 에러가 발생한 rownum부터 실행하고자 하는 경우
-    FROM (SELECT ROWNUM rowno, a.* FROM superm@FMS a)
-        WHERE rowno > 383500
+    FROM (SELECT ROWNUM rowno, a.* FROM superm@FMS a) 
+        WHERE rowno > 383500 
     */
     ; 
 

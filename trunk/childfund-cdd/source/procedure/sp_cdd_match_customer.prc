@@ -195,8 +195,12 @@ BEGIN
             
             /* 유사 후원자중에서 하나라도 유사도가 "1"인 후원자가 존재하는 경우 */
             IF (v_dupl_superm_cust_yn = 'Y') THEN
-                v_set_rep_cust_need_yn := v_dupl_superm_cust_yn;
+                IF (fn_cdd_get_rep_customer(p_src_system, p_src_table, p_src_cust_id) IS NULL) THEN
+                    v_set_rep_cust_need_yn := 'Y';
+                END IF;
             END IF;
+            
+            
             
             v_success_cnt := v_success_cnt + 1;
             

@@ -47,8 +47,15 @@ CURSOR cur IS
         ,address AS addr1                   -- 우편수령지주소_주소
         ,address_dtl AS addr2               -- 우편수령지주소_상세주소        
     FROM temp_hmp_old_member
-    --WHERE 
-        --fstoper_dt >= p_base_dt OR lastupdate_dt >= p_base_dt;
+    WHERE 
+        id IS NOT NULL
+        --AND fstoper_dt >= p_base_dt OR lastupdate_dt >= p_base_dt;
+
+    /*
+    -- 에러가 발생한 rownum부터 실행하고자 하는 경우
+    FROM (SELECT ROWNUM rowno, a.* FROM temp_hmp_old_member a) 
+        WHERE rowno > 383500 
+    */
     ;
 
 BEGIN

@@ -37,6 +37,8 @@ user_define_error4 EXCEPTION;
 user_define_error5 EXCEPTION;
 user_define_error6 EXCEPTION;
 user_define_error7 EXCEPTION;
+user_define_error8 EXCEPTION;
+user_define_error9 EXCEPTION;
 
 v_error_msg VARCHAR2(1000);
 v_job_start_dm VARCHAR2(14);
@@ -70,6 +72,14 @@ BEGIN
     
     IF (p_manual_user_id IS NULL) THEN
         RAISE user_define_error7;
+    END IF;
+
+    IF (NOT(p_rep_superm_cust_yn IS NULL OR p_rep_superm_cust_yn = 'Y')) THEN
+        RAISE user_define_error8;
+    END IF;
+    
+    IF (fn_cdd_get_rep_customer(p_src_system, p_src_table, p_src_cust_id) IS NOT NULL AND p_rep_superm_cust_yn = 'Y') THEN
+        RAISE user_define_error9;
     END IF;
 
     v_job_start_dm := TO_CHAR(SYSDATE, 'yyyymmddhh24miss');
@@ -128,6 +138,12 @@ EXCEPTION
 
     WHEN user_define_error7 THEN
            RAISE_APPLICATION_ERROR(-20207, '9번째 인자인 수작업 사용자ID(p_manual_user_id)는 필수항목입니다.');
+
+    WHEN user_define_error8 THEN
+           RAISE_APPLICATION_ERROR(-20208, '7번째 인자인 대표후원자유무(p_rep_superm_cust_yn)는 NULL 또는 "Y"만 허용됩니다.');
+
+    WHEN user_define_error9 THEN
+           RAISE_APPLICATION_ERROR(-20209, '대표후원자가 이미 존재하므로, 대표후원자유무를 "Y"로 설정할 수 없습니다.');
 
 	WHEN OTHERS THEN
 		DBMS_OUTPUT.PUT_LINE(SQLERRM||'ERROR');	
