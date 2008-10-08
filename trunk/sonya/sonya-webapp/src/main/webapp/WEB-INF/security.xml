@@ -71,7 +71,7 @@
             <value>
                 PATTERN_TYPE_APACHE_ANT
                 /admin/*=ROLE_ADMIN
-                /rest/*=ROLE_ANONYMOUS,ROLE_ADMIN,ROLE_USER
+                <!-- /rest/*=ROLE_ANONYMOUS,ROLE_ADMIN,ROLE_USER -->
                 /common/**/*=ROLE_ANONYMOUS,ROLE_ADMIN,ROLE_USER
                 /passwordHint.html*=ROLE_ANONYMOUS,ROLE_ADMIN,ROLE_USER
                 /signup.html*=ROLE_ANONYMOUS,ROLE_ADMIN,ROLE_USER

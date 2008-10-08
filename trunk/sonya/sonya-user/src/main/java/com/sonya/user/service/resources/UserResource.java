@@ -8,6 +8,9 @@ import javax.ws.rs.ProduceMime;
 
 import com.sonya.user.model.User;
 import com.sonya.user.service.UserManager;
+import com.sun.jersey.api.spring.Autowire;
+import com.sun.jersey.spi.inject.Inject;
+import com.sun.jersey.spi.resource.Singleton;
 
 /**
  * The Java class will be hosted at the URI path "/user".
@@ -15,18 +18,20 @@ import com.sonya.user.service.UserManager;
  * @author YoungGue Bae
  */
 @Path("/user")
+@Singleton
+@Autowire
 public class UserResource {
-    private UserManager userManager;	
+	@Inject
+	private UserManager userManager;	
     
-    public void setUserManager(UserManager userManager) {
-    	this.userManager = userManager;
-    }
-    
-	// The Java method will process HTTP GET requests
     @GET 
-    // The Java method will produce content identified by the MIME Media
-    // type "text/plain"
     @ProduceMime("text/html")
+    /**
+     * The Java method will process HTTP GET requests
+     * The Java method will produce content identified by the MIME Media
+     * type "text/plain"
+     * @return the html of user list
+     */
     public String getClichedMessage() {
         // return some cliched textual content
     	List users = userManager.getUsers(null);
