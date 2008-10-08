@@ -31,7 +31,7 @@ v_superm_cust_id VARCHAR2(11);
 BEGIN
     
     IF (p_src_system = 'FMS' AND p_src_table = 'SUPERM') THEN
-        SELECT superm_cust_id into v_superm_cust_id FROM dw_cdd_customer_matching
+        SELECT MAX(superm_cust_id) into v_superm_cust_id FROM dw_cdd_customer_matching
         WHERE (src_system = p_src_system AND src_table = p_src_table AND rep_superm_cust_yn = 'Y' AND simularity = 1 AND NVL(manual_del_yn, 'N') <> 'Y')
             AND (src_cust_id = p_src_cust_id OR superm_cust_id = p_src_cust_id
             OR src_cust_id IN (

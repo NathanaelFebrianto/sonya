@@ -49,6 +49,11 @@ CURSOR cur IS
     FROM accountm@FMS
     --WHERE 
         --fstoper_dt >= p_base_dt OR lastupdate_dt >= p_base_dt;
+    /*
+    -- 에러가 발생한 rownum부터 실행하고자 하는 경우
+    FROM (SELECT ROWNUM rowno, a.* FROM accountm@FMS a) 
+        WHERE rowno > 383500 
+    */
     ;
 
 BEGIN
