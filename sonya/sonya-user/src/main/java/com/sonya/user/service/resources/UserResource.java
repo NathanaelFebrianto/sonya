@@ -26,12 +26,6 @@ public class UserResource {
     
     @GET 
     @ProduceMime("text/html")
-    /**
-     * The Java method will process HTTP GET requests
-     * The Java method will produce content identified by the MIME Media
-     * type "text/plain"
-     * @return the html of user list
-     */
     public String getClichedMessage() {
         // return some cliched textual content
     	List users = userManager.getUsers(null);
