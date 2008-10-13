@@ -458,7 +458,7 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- For RichFaces: They should be installed manually. -->
+		<!-- For RichFaces --> 
 		<dependency>
 			<groupId>org.richfaces.framework</groupId>
 			<artifactId>richfaces-api</artifactId>
@@ -468,14 +468,14 @@
 			<groupId>org.richfaces.framework</groupId>
 			<artifactId>richfaces-impl</artifactId>
 			<version>${richfaces.version}</version>
-		</dependency>
+		</dependency>		
 		<dependency>
 			<groupId>org.richfaces.ui</groupId>
 			<artifactId>richfaces-ui</artifactId>
 			<version>${richfaces.version}</version>
-		</dependency>
+		</dependency> 
 
-		<!-- For Jersey(RESTful): They should be installed automatically. -->
+		<!-- For Jersey(RESTful) -->
 		<!--  
 		<dependency>
 			<groupId>com.sun.jersey</groupId>
@@ -487,7 +487,7 @@
 			<groupId>com.sun.jersey</groupId>
 			<artifactId>jersey-spring</artifactId>
 			<version>${jersey.version}</version>
-		</dependency>			
+		</dependency>
 	</dependencies>
 
 	<properties>
@@ -520,7 +520,7 @@
 		<ibatis.version>2.3.0</ibatis.version>
 		<javamail.version>1.4</javamail.version>
 		<jdbc.version>5.0.5</jdbc.version>
-		<jersey.version>0.8-ea-SNAPSHOT</jersey.version>
+		<jersey.version>1.0-ea-SNAPSHOT</jersey.version>
 		<jmock.version>1.1.0</jmock.version>
 		<jpa.version>1.0</jpa.version>
 		<jsp.version>2.1</jsp.version>
@@ -530,11 +530,11 @@
 		<myfaces.tomahawk.version>1.1.6</myfaces.tomahawk.version>
 		<myfaces.version>1.2.2</myfaces.version>
 		<oscache.version>2.3</oscache.version>
-		<richfaces.version>3.2.0.GA</richfaces.version>
+		<richfaces.version>3.2.2.GA</richfaces.version>
 		<servlet.version>2.4</servlet.version>
 		<shale.version>1.0.4</shale.version>
 		<sitemesh.version>2.2.1</sitemesh.version>
-		<spring.version>2.5</spring.version>
+		<spring.version>2.5.5</spring.version>
 		<urlrewrite.version>3.0.4</urlrewrite.version>
 		<velocity.version>1.4</velocity.version>
 		<wiser.version>1.2</wiser.version>

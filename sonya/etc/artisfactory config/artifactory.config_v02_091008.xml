@@ -56,10 +56,10 @@
 			<description>java.net</description>
 			<handleReleases>true</handleReleases>
 			<handleSnapshots>true</handleSnapshots>
-    		<type>maven1</type> <!-- To proxy Maven 1 repositories, simply add the <type>maven1</type> element to a remote repository definition (the default is type is maven2, and does not need to be explicitly specified). -->
-			<!--url>http://download.java.net/maven/1</url>
-		</remoteRepository-->
-		
+    		<type>maven1</type>
+			<url>http://download.java.net/maven/1</url>
+		</remoteRepository>
+		-->
 		<remoteRepository>
 			<key>java.net.maven2</key>
 			<description>java.net</description>
@@ -67,8 +67,7 @@
 			<handleSnapshots>true</handleSnapshots>
     		<type>maven2</type>
 			<url>http://download.java.net/maven/2</url>
-		</remoteRepository>
-		
+		</remoteRepository>		
 		<remoteRepository>
 			<key>appfuse</key>
 			<description>appfuse</description>

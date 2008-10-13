@@ -4,7 +4,7 @@ import java.util.List;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
-import javax.ws.rs.ProduceMime;
+import javax.ws.rs.Produces;
 
 import com.sonya.user.model.User;
 import com.sonya.user.service.UserManager;
@@ -25,7 +25,7 @@ public class UserResource {
 	private UserManager userManager;	
     
     @GET 
-    @ProduceMime("text/html")
+    @Produces("text/html")
     public String getClichedMessage() {
         // return some cliched textual content
     	List users = userManager.getUsers(null);
