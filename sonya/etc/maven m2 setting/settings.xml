@@ -39,6 +39,7 @@
 					</releases>
 				</repository>
 			</repositories>
+			<!--  
 			<pluginRepositories>
 				<pluginRepository>
 					<id>central</id>
@@ -59,6 +60,7 @@
 					</releases>
 				</pluginRepository>
 			</pluginRepositories>
+			-->
 		</profile>
 	</profiles>
 </settings>
