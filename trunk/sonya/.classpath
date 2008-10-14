@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.5.0_15"/>
 	<classpathentry kind="con" path="org.maven.ide.eclipse.MAVEN2_CLASSPATH_CONTAINER"/>
+	<classpathentry kind="src" output="sonya-basic/target/classes" path="sonya-basic/src/main/java"/>
+	<classpathentry excluding="**/*.java" kind="src" output="sonya-basic/target/classes" path="sonya-basic/src/main/resources"/>
+	<classpathentry excluding="**/*.java" including="**/*.xml" kind="src" output="sonya-basic/target/test-classes" path="sonya-basic/src/main/webapp"/>
+	<classpathentry kind="src" output="sonya-basic/target/test-classes" path="sonya-basic/src/test/java"/>
+	<classpathentry excluding="**/*.java" kind="src" output="sonya-basic/target/test-classes" path="sonya-basic/src/test/resources"/>
+	<classpathentry kind="src" output="sonya-sample/target/classes" path="sonya-sample/src/main/java"/>
+	<classpathentry excluding="**/*.java" kind="src" output="sonya-sample/target/classes" path="sonya-sample/src/main/resources"/>
+	<classpathentry excluding="**/*.java" including="**/*.xml" kind="src" output="sonya-sample/target/test-classes" path="sonya-sample/src/main/webapp"/>
+	<classpathentry kind="src" output="sonya-sample/target/test-classes" path="sonya-sample/src/test/java"/>
+	<classpathentry excluding="**/*.java" kind="src" output="sonya-sample/target/test-classes" path="sonya-sample/src/test/resources"/>
+	<classpathentry kind="src" output="sonya-user/target/classes" path="sonya-user/src/main/java"/>
+	<classpathentry excluding="**/*.java" kind="src" output="sonya-user/target/classes" path="sonya-user/src/main/resources"/>
+	<classpathentry excluding="**/*.java" including="**/*.xml" kind="src" output="sonya-user/target/test-classes" path="sonya-user/src/main/webapp"/>
+	<classpathentry kind="src" output="sonya-user/target/test-classes" path="sonya-user/src/test/java"/>
+	<classpathentry excluding="**/*.java" kind="src" output="sonya-user/target/test-classes" path="sonya-user/src/test/resources"/>
 	<classpathentry kind="output" path="target/classes"/>
-
-	<!-- sonya-basic -->
-	<classpathentry kind="src" path="sonya-basic/src/main/java" output="sonya-basic/target/classes"/>
-	<classpathentry kind="src" path="sonya-basic/src/main/resources" excluding="**/*.java" output="sonya-basic/target/classes"/>
-	<classpathentry kind="src" path="sonya-basic/src/main/webapp" output="sonya-basic/target/test-classes" including="**/*.xml" excluding="**/*.java"/>
-	<classpathentry kind="src" path="sonya-basic/src/test/java" output="sonya-basic/target/test-classes"/>
-	<classpathentry kind="src" path="sonya-basic/src/test/resources" output="sonya-basic/target/test-classes" excluding="**/*.java"/>
-	
-	<!-- sonya-sample -->
-	<classpathentry kind="src" path="sonya-sample/src/main/java" output="sonya-sample/target/classes"/>
-	<classpathentry kind="src" path="sonya-sample/src/main/resources" excluding="**/*.java" output="sonya-sample/target/classes"/>
-	<classpathentry kind="src" path="sonya-sample/src/main/webapp" output="sonya-sample/target/test-classes" including="**/*.xml" excluding="**/*.java"/>
-	<classpathentry kind="src" path="sonya-sample/src/test/java" output="sonya-sample/target/test-classes"/>
-	<classpathentry kind="src" path="sonya-sample/src/test/resources" output="sonya-sample/target/test-classes" excluding="**/*.java"/>
-
-	<!-- sonya-user -->
-	<classpathentry kind="src" path="sonya-user/src/main/java" output="sonya-user/target/classes"/>
-	<classpathentry kind="src" path="sonya-user/src/main/resources" excluding="**/*.java" output="sonya-user/target/classes"/>
-	<classpathentry kind="src" path="sonya-user/src/main/webapp" output="sonya-user/target/test-classes" including="**/*.xml" excluding="**/*.java"/>
-	<classpathentry kind="src" path="sonya-user/src/test/java" output="sonya-user/target/test-classes"/>
-	<classpathentry kind="src" path="sonya-user/src/test/resources" output="sonya-user/target/test-classes" excluding="**/*.java"/>
 </classpath>
