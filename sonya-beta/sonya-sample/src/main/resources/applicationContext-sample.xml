@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd">
+
+    <!-- SqlMap setup for iBATIS Database Layer -->
+    <bean id="sqlMapClient-sample" class="org.springframework.orm.ibatis.SqlMapClientFactoryBean">
+        <property name="configLocation">
+            <value>classpath:/sql-map-config-sample.xml</value>
+        </property>
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!-- Add new DAOs here -->
+    <bean id="personDao" class="com.sonya.sample.dao.ibatis.PersonDaoiBatis">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="sqlMapClient" ref="sqlMapClient-sample"/>
+    </bean>
+    
+    <!-- Add new Managers here -->
+	<bean id="personManager" class="com.sonya.sample.service.impl.PersonManagerImpl">
+	    <constructor-arg ref="personDao"/>
+	</bean>    
+    
+</beans>
