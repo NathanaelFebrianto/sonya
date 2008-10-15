@@ -73,6 +73,7 @@
     
     <properties>
 	<!-- Dependency versions -->
+        <sonya.version>1.0-SNAPSHOT</sonya.version>
         <commons.lang.version>2.3</commons.lang.version>
         <ibatis.version>2.3.0</ibatis.version>
         <jpa.version>1.0</jpa.version>
