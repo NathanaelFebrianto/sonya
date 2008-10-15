@@ -62,7 +62,7 @@ CURSOR cur IS
         AND (src_cust_id = p_src_cust_id OR superm_cust_id = p_src_cust_id
         OR src_cust_id IN (
             SELECT src_cust_id FROM dw_cdd_customer_matching 
-            WHERE superm_cust_id = p_src_cust_id));
+            WHERE src_system = p_src_system AND src_table = p_src_table AND simularity = 1 AND NVL(manual_del_yn, 'N') <> 'Y' AND superm_cust_id = p_src_cust_id));
 
            
 BEGIN
