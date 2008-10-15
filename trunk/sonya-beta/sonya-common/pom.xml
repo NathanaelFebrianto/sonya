@@ -19,6 +19,17 @@
             </plugin>
         </plugins>
     </build>
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>http://repo1.maven.org/maven2</url>
+        </repository>
+        <repository>
+            <id>java.net.maven2</id>
+            <url>http://download.java.net/maven/2/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -32,10 +43,60 @@
             <version>${commons.lang.version}</version>
         </dependency>
         <dependency>
+            <groupId>commons-dbcp</groupId>
+            <artifactId>commons-dbcp</artifactId>
+            <version>${commons.dbcp.version}</version>
+        </dependency>
+        <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aspects</artifactId>
             <version>${spring.version}</version>
         </dependency>
+
+        <!--
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-beanutils</groupId>
+            <artifactId>commons-beanutils</artifactId>
+            <version>${commons.beanutils.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.xfire</groupId>
+            <artifactId>xfire-spring</artifactId>
+            <version>${xfire.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring-remoting</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>${servlet.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <version>${jstl.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>taglibs</groupId>
+            <artifactId>standard</artifactId>
+            <version>${jstl.version}</version>
+        </dependency>
+        -->
+
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aop</artifactId>
@@ -69,14 +130,28 @@
             <artifactId>ibatis-sqlmap</artifactId>
             <version>${ibatis.version}</version>
         </dependency>
+       <!-- For Jersey(RESTful) -->
+        <dependency>
+            <groupId>com.sun.jersey</groupId>
+            <artifactId>jersey-spring</artifactId>
+            <version>${jersey.version}</version>
+        </dependency>
     </dependencies>
-    
     <properties>
-	<!-- Dependency versions -->
-        <sonya.version>1.0-SNAPSHOT</sonya.version>
+    <!-- Dependency versions -->
+        <sonya.version>1.0-SNAPSHOT</sonya.version>        
+        <commons.dbcp.version>1.2.2</commons.dbcp.version>
         <commons.lang.version>2.3</commons.lang.version>
         <ibatis.version>2.3.0</ibatis.version>
-        <jpa.version>1.0</jpa.version>
-        <spring.version>2.5.5</spring.version> 
+        <jersey.version>1.0-ea-SNAPSHOT</jersey.version>
+        <jpa.version>1.0</jpa.version> 
+        <spring.version>2.5.5</spring.version>
+        <!--
+        <commons.beanutils.version>1.7.0</commons.beanutils.version>
+        <jstl.version>1.1.2</jstl.version>
+        <log4j.version>1.2.13</log4j.version>
+        <servlet.version>2.4</servlet.version>
+        <xfire.version>1.2.6</xfire.version>
+        -->
     </properties>
 </project>
