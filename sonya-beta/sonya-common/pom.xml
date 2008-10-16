@@ -48,6 +48,11 @@
             <version>${commons.dbcp.version}</version>
         </dependency>
         <dependency>
+            <groupId>${jdbc.groupId}</groupId>
+            <artifactId>${jdbc.artifactId}</artifactId>
+            <version>${jdbc.version}</version>
+        </dependency>
+        <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aspects</artifactId>
             <version>${spring.version}</version>
@@ -96,7 +101,6 @@
             <version>${jstl.version}</version>
         </dependency>
         -->
-
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aop</artifactId>
@@ -138,14 +142,20 @@
         </dependency>
     </dependencies>
     <properties>
-    <!-- Dependency versions -->
-        <sonya.version>1.0-SNAPSHOT</sonya.version>        
+        <!-- Database settings -->
+        <jdbc.groupId>mysql</jdbc.groupId>
+        <jdbc.artifactId>mysql-connector-java</jdbc.artifactId>
+        
+        <!-- Dependency versions -->
+        <sonya.version>1.0-SNAPSHOT</sonya.version>
         <commons.dbcp.version>1.2.2</commons.dbcp.version>
         <commons.lang.version>2.3</commons.lang.version>
         <ibatis.version>2.3.0</ibatis.version>
+        <jdbc.version>5.0.5</jdbc.version>
         <jersey.version>1.0-ea-SNAPSHOT</jersey.version>
-        <jpa.version>1.0</jpa.version> 
+        <jpa.version>1.0</jpa.version>
         <spring.version>2.5.5</spring.version>
+        
         <!--
         <commons.beanutils.version>1.7.0</commons.beanutils.version>
         <jstl.version>1.1.2</jstl.version>
