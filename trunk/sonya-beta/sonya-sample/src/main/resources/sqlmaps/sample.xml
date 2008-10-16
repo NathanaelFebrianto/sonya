@@ -57,5 +57,5 @@
     
     <select id="findByLastName" resultMap="personResult">
     	select * from person where last_name = #value#
-	</select>
+    </select>
 </sqlMap>

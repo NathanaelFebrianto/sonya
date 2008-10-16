@@ -17,8 +17,7 @@
     </bean>
     
     <!-- Add new Managers here -->
-	<bean id="personManager" class="com.sonya.sample.service.impl.PersonManagerImpl">
-	    <constructor-arg ref="personDao"/>
-	</bean>    
-    
+    <bean id="personManager" class="com.sonya.sample.service.impl.PersonManagerImpl">
+        <constructor-arg ref="personDao"/>
+    </bean>
 </beans>
