@@ -3,10 +3,8 @@
     "http://ibatis.apache.org/dtd/sql-map-config-2.dtd">
 
 <sqlMapConfig>
-    <settings enhancementEnabled="true" maxTransactions="20"
-        maxRequests="32" maxSessions="10"/>
+    <settings enhancementEnabled="true" maxTransactions="20" maxRequests="32" maxSessions="10"/>
 
     <!-- Identify all SQL Map XML files to be loaded by this SQL map. Relative to classpath -->
     <sqlMap resource="sqlmaps/sample.xml"/>
-    <!-- You can safely delete this file if you're using Hibernate or JPA. -->
 </sqlMapConfig>
