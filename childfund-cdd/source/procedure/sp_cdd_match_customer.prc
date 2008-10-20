@@ -7,7 +7,7 @@ CREATE OR REPLACE PROCEDURE sp_cdd_match_customer
     p_src_table IN VARCHAR2,            -- 필수: 원천고객테이블명(예. SUPERM, ACCOUNTM, TH_MEMBER_MASTER, TEMP-SUPERM, TEMP-ACCOUNTM) 
     p_src_cust_id IN VARCHAR2,          -- 필수: 원천고객ID
     p_src_cust_tp IN VARCHAR2,          -- 필수: 원천고객구분(1:개인, 2:법인, 3:단체, 4:외국인) 
-    p_src_cust_nm IN VARCHAR2,          -- 옵션: 고객명 
+    p_src_cust_nm IN VARCHAR2,          -- 필수: 고객명 
     p_src_superm_cust_id IN VARCHAR2,   -- 옵션: 후원자번호
     p_src_jumin_no IN VARCHAR2,         -- 옵션: 주민등록번호
     p_src_biz_reg_no IN VARCHAR2,       -- 옵션: 사업자등록번호
@@ -47,6 +47,7 @@ user_define_error4 EXCEPTION;
 user_define_error5 EXCEPTION;
 user_define_error6 EXCEPTION;
 user_define_error7 EXCEPTION;
+user_define_error8 EXCEPTION;
 
 v_error_msg VARCHAR2(1000);
 v_total_cnt NUMBER;
@@ -134,6 +135,10 @@ BEGIN
     IF (p_src_cust_tp IS NULL OR NOT(p_src_cust_tp = '1' OR p_src_cust_tp = '2' OR p_src_cust_tp = '3' OR p_src_cust_tp = '4')) THEN
         RAISE user_define_error7;
     END IF;
+    
+    IF (p_src_cust_nm IS NULL) THEN
+        RAISE user_define_error8;
+    END IF
 
         
     v_total_cnt := 0;
@@ -279,6 +284,9 @@ EXCEPTION
     WHEN user_define_error7 THEN
            RAISE_APPLICATION_ERROR(-20007, '7번째 인자인 원천고객구분(p_src_cust_tp)은 필수항목이며, 허용되는 값은 "1"-개인, "2"-법인, "3"-단체, "4"-외국인만 허용됩니다.');
                 
+    WHEN user_define_error8 THEN
+           RAISE_APPLICATION_ERROR(-20008, '8번째 인자인 원천고객명(p_src_cust_nm)은 필수항목입니다.');
+    
     WHEN OTHERS THEN
 		DBMS_OUTPUT.PUT_LINE(SQLERRM||'ERROR');	
 		
