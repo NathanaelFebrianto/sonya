@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+
+<!DOCTYPE faces-config PUBLIC
+  "-//Sun Microsystems, Inc.//DTD JavaServer Faces Config 1.1//EN"
+  "http://java.sun.com/dtd/web-facesconfig_1_1.dtd">
+
+<!-- =========== FULL CONFIGURATION FILE ================================== -->
+<faces-config>
+    <application>
+        <variable-resolver>org.springframework.web.jsf.DelegatingVariableResolver</variable-resolver>
+        <locale-config>
+            <default-locale>ko</default-locale>
+            <supported-locale>ko</supported-locale>
+            <supported-locale>en</supported-locale>
+        </locale-config>        
+    </application>
+    <managed-bean>
+        <managed-bean-name>sample$Page1</managed-bean-name>
+        <managed-bean-class>com.sonya.webapp.sample.Page1</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>sample$Page2</managed-bean-name>
+        <managed-bean-class>com.sonya.webapp.sample.Page2</managed-bean-class>
+        <managed-bean-scope>request</managed-bean-scope>
+    </managed-bean>
+</faces-config>

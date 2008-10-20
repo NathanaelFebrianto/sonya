@@ -41,54 +41,31 @@
             <artifactId>myfaces-impl</artifactId>
             <version>${myfaces.version}</version>
         </dependency>
-        <dependency>
+         <dependency>
             <groupId>javax.faces</groupId>
             <artifactId>jsf-api</artifactId>
-            <version>${jsf.api.version}</version>
+            <version>${jsf.version}</version>
         </dependency>
-        <!-- This jsf-impl.jar should be not included! -->
         <dependency>
             <groupId>javax.faces</groupId>
             <artifactId>jsf-impl</artifactId>
-            <version>${jsf.impl.version}</version>
+            <version>${jsf.version}</version>
         </dependency>
         <dependency>
             <groupId>commons-digester</groupId>
             <artifactId>commons-digester</artifactId>
-            <version>${digester.version}</version>
+            <version>1.5</version>
         </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>jstl</artifactId>
-            <version>${jstl.version}</version>
+            <version>1.1.2</version>
         </dependency>
         <dependency>
             <groupId>taglibs</groupId>
             <artifactId>standard</artifactId>
-            <version>${jstl.version}</version>
+            <version>1.1.2</version>
         </dependency>
-        <dependency>
-            <groupId>com.sun.woodstock</groupId>
-            <artifactId>webui-jsf</artifactId>
-            <version>${woodstock.webui.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sun.woodstock</groupId>
-            <artifactId>webui-jsf-suntheme</artifactId>
-            <version>${woodstock.webui.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sun.woodstock.dependlibs</groupId>
-            <artifactId>dataprovider</artifactId>
-            <version>${woodstock.dataprovider.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.sun.woodstock.dependlibs</groupId>
-            <artifactId>jhall</artifactId>
-            <version>${woodstock.jhall.version}</version>
-        </dependency>
-        
-        <!-- From NetBeans -->
         <dependency>
             <groupId>unknown.binary</groupId>
             <artifactId>rowset-1.0.1</artifactId>
@@ -106,7 +83,17 @@
         </dependency>
         <dependency>
             <groupId>unknown.binary</groupId>
+            <artifactId>dataprovider</artifactId>
+            <version>SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>unknown.binary</groupId>
             <artifactId>sqlx</artifactId>
+            <version>SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>unknown.binary</groupId>
+            <artifactId>webui</artifactId>
             <version>SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -116,17 +103,7 @@
         </dependency>
         <dependency>
             <groupId>unknown.binary</groupId>
-            <artifactId>json-2</artifactId>
-            <version>SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>unknown.binary</groupId>
-            <artifactId>jsf-extensions-common-0.1</artifactId>
-            <version>SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>unknown.binary</groupId>
-            <artifactId>jsf-extensions-dynamic-faces-0.1</artifactId>
+            <artifactId>defaulttheme</artifactId>
             <version>SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -137,24 +114,6 @@
     </dependencies>
     <build>
         <finalName>sonya-webapp</finalName>
-        <plugins>
-            <plugin>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>2.0.2</version>
-                <configuration>
-                    <source>1.5</source>
-                    <target>1.5</target>
-                    <encoding>UTF-8</encoding>
-                </configuration>
-            </plugin>
-            <plugin>
-                <artifactId>maven-resources-plugin</artifactId>
-                <version>2.2</version>
-                <configuration>
-                    <encoding>UTF-8</encoding>
-                </configuration>
-            </plugin>
-        </plugins>
     </build>
     <repositories>
         <repository>
@@ -175,16 +134,11 @@
     <properties>
         <!-- Dependency versions -->
         <sonya.version>1.0-SNAPSHOT</sonya.version>
-        <digester.version>1.5</digester.version>
         <facelets.version>1.1.11</facelets.version>
-        <jsf.api.version>1.2_02</jsf.api.version>
-        <jsf.impl.version>1.2-b19</jsf.impl.version>
-        <jstl.version>1.1.2</jstl.version>
+        <jsf.version>1.1_02</jsf.version>
         <junit.version>3.8.2</junit.version>
         <myfaces.version>1.2.4</myfaces.version>
-        <woodstock.webui.version>4.3.0.7</woodstock.webui.version>
-        <woodstock.dataprovider.version>1.0</woodstock.dataprovider.version>
-        <woodstock.jhall.version>2.0</woodstock.jhall.version>
+        
         <netbeans.hint.deploy.server>Tomcat60</netbeans.hint.deploy.server>
     </properties>
 </project>
