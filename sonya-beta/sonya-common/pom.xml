@@ -34,7 +34,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>3.8.1</version>
+            <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -53,54 +53,22 @@
             <version>${jdbc.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-aspects</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-
-        <!--
-        <dependency>
-            <groupId>log4j</groupId>
-            <artifactId>log4j</artifactId>
-            <version>${log4j.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>commons-beanutils</groupId>
-            <artifactId>commons-beanutils</artifactId>
-            <version>${commons.beanutils.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.codehaus.xfire</groupId>
-            <artifactId>xfire-spring</artifactId>
-            <version>${xfire.version}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.springframework</groupId>
-                    <artifactId>spring</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.springframework</groupId>
-                    <artifactId>spring-remoting</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
-        <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
             <version>${servlet.version}</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>jstl</artifactId>
-            <version>${jstl.version}</version>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>jsp-api</artifactId>
+            <version>${jsp.version}</version><!-- Special case for JSF only -->
+            <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>taglibs</groupId>
-            <artifactId>standard</artifactId>
-            <version>${jstl.version}</version>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-aspects</artifactId>
+            <version>${spring.version}</version>
         </dependency>
-        -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aop</artifactId>
@@ -144,8 +112,7 @@
     <properties>
         <!-- Database settings -->
         <jdbc.groupId>mysql</jdbc.groupId>
-        <jdbc.artifactId>mysql-connector-java</jdbc.artifactId>
-        
+        <jdbc.artifactId>mysql-connector-java</jdbc.artifactId>        
         <!-- Dependency versions -->
         <sonya.version>1.0-SNAPSHOT</sonya.version>
         <commons.dbcp.version>1.2.2</commons.dbcp.version>
@@ -154,14 +121,9 @@
         <jdbc.version>5.0.5</jdbc.version>
         <jersey.version>1.0-ea-SNAPSHOT</jersey.version>
         <jpa.version>1.0</jpa.version>
+        <jsp.version>2.1</jsp.version>
+        <junit.version>3.8.2</junit.version>
+        <servlet.version>2.5</servlet.version>
         <spring.version>2.5.5</spring.version>
-        
-        <!--
-        <commons.beanutils.version>1.7.0</commons.beanutils.version>
-        <jstl.version>1.1.2</jstl.version>
-        <log4j.version>1.2.13</log4j.version>
-        <servlet.version>2.4</servlet.version>
-        <xfire.version>1.2.6</xfire.version>
-        -->
     </properties>
 </project>
