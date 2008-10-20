@@ -1,21 +1,16 @@
 /*
  * Page1.java
  *
- * Created on 2008. 10. 16, ¿ÀÈÄ 6:08:38
+ * Created on 2008. 10. 20, ì˜¤ì „ 11:31:45
  */
- 
 package com.sonya.webapp.sample;
 
 import com.sonya.sample.service.PersonManager;
 import com.sun.data.provider.TableDataProvider;
 import com.sun.data.provider.impl.ObjectListDataProvider;
 import com.sun.rave.web.ui.appbase.AbstractPageBean;
-import com.sun.rave.web.ui.component.StaticText;
-import com.sun.rave.web.ui.component.Table;
-import com.sun.rave.web.ui.model.DefaultTableDataProvider;
-import com.sun.rave.web.ui.model.MultipleSelectOptionsList;
+import com.sun.webui.jsf.model.DefaultTableDataProvider;
 import java.util.List;
-import java.util.Map;
 import javax.faces.FacesException;
 
 /**
@@ -28,8 +23,14 @@ import javax.faces.FacesException;
  * @author louie
  */
 public class Page1 extends AbstractPageBean {
-    // <editor-fold defaultstate="collapsed" desc="Managed Component Definition">
 
+    private PersonManager personManager;
+
+    public void setPersonManager(PersonManager personManager) {
+        this.personManager = personManager;
+    }
+
+    // <editor-fold defaultstate="collapsed" desc="Managed Component Definition">
     /**
      * <p>Automatically managed component initialization.  <strong>WARNING:</strong>
      * This method is automatically generated, so any user-specified code inserted
@@ -48,27 +49,6 @@ public class Page1 extends AbstractPageBean {
     }
 
     // </editor-fold>
-
-    private PersonManager personManager;
-    private StaticText staticText1 = new StaticText();
-
-    public StaticText getStaticText1() {
-        return staticText1;
-    }
-
-    public void setStaticText1(StaticText st) {
-        this.staticText1 = st;
-    }
-    private Table table2 = new Table();
-
-    public Table getTable2() {
-        return table2;
-    }
-
-    public void setTable2(Table t) {
-        this.table2 = t;
-    }
-    
     /**
      * <p>Construct a new Page bean instance.</p>
      */
@@ -87,13 +67,14 @@ public class Page1 extends AbstractPageBean {
      * values submitted with this request.  Instead, they represent the
      * property values that were saved for this view when it was rendered.</p>
      */
+    @Override
     public void init() {
         // Perform initializations inherited from our superclass
         super.init();
         // Perform application initialization that must complete
         // *before* managed components are initialized
         // TODO - add your own initialiation code here
-        
+
         // <editor-fold defaultstate="collapsed" desc="Managed Component Initialization">
         // Initialize automatically managed components
         // *Note* - this logic should NOT be modified
@@ -101,13 +82,13 @@ public class Page1 extends AbstractPageBean {
             _init();
         } catch (Exception e) {
             log("Page1 Initialization Failure", e);
-            throw e instanceof FacesException ? (FacesException) e: new FacesException(e);
+            throw e instanceof FacesException ? (FacesException) e : new FacesException(e);
         }
-        
-        // </editor-fold>
-        // Perform application initialization that must complete
-        // *after* managed components are initialized
-        // TODO - add your own initialization code here
+
+    // </editor-fold>
+    // Perform application initialization that must complete
+    // *after* managed components are initialized
+    // TODO - add your own initialization code here
     }
 
     /**
@@ -117,6 +98,7 @@ public class Page1 extends AbstractPageBean {
      * is processing a form submit.  Customize this method to allocate
      * resources that will be required in your event handlers.</p>
      */
+    @Override
     public void preprocess() {
     }
 
@@ -128,6 +110,7 @@ public class Page1 extends AbstractPageBean {
      * this method to allocate resources that will be required for rendering
      * this page.</p>
      */
+    @Override
     public void prerender() {
     }
 
@@ -139,19 +122,15 @@ public class Page1 extends AbstractPageBean {
      * <code>preprocess()</code>, or <code>prerender()</code> methods (or
      * acquired during execution of an event handler).</p>
      */
+    @Override
     public void destroy() {
     }
-            
-    public void setPersonManager(PersonManager personManager) {
-        this.personManager = personManager;
-    }
-    
+
     public TableDataProvider getPersonList() {
         List personList = personManager.findByLastName("Bae");
         ObjectListDataProvider dataProvider = new ObjectListDataProvider(personList);
-               
+
         return dataProvider;
     }
-    
 }
 
