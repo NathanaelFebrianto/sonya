@@ -66,7 +66,7 @@ BEGIN
         RAISE user_define_error5;
     END IF;
 
-    IF (p_fix_yn IS NULL OR NOT(p_fix_yn = 'Y' OR p_fix_yn = 'N')) THEN
+    IF (NOT(p_fix_yn IS NULL OR p_fix_yn = 'Y' OR p_fix_yn = 'N')) THEN
         RAISE user_define_error6;
     END IF;
     
@@ -134,7 +134,7 @@ EXCEPTION
            RAISE_APPLICATION_ERROR(-20205, '5번째 인자인 유사도(p_simularity)는 최대 1을 넘길 수 없습니다.');
 
     WHEN user_define_error6 THEN
-           RAISE_APPLICATION_ERROR(-20205, '6번째 인자인 고정유무(p_fix_yn)는 필수항목이며, "Y" 또는 "N"만 허용됩니다.');
+           RAISE_APPLICATION_ERROR(-20205, '6번째 인자인 고정유무(p_fix_yn)는 필수항목이며, "NULL" 또는 "Y" 또는 "N"만 허용됩니다.');
 
     WHEN user_define_error7 THEN
            RAISE_APPLICATION_ERROR(-20207, '9번째 인자인 수작업 사용자ID(p_manual_user_id)는 필수항목입니다.');
