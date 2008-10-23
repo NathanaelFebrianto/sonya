@@ -163,7 +163,8 @@ BEGIN
     
     IF (TRIM(v_rep_superm_cust_id) IS NOT NULL AND v_skip_yn = 'N') THEN
         UPDATE dw_cdd_customer_matching SET
-            rep_superm_cust_yn = 'Y'
+            rep_superm_cust_yn = 'Y',
+            fix_yn ='Y'
         WHERE src_system = p_src_system AND
             src_table = p_src_table AND
             src_cust_id = v_src_cust_id AND

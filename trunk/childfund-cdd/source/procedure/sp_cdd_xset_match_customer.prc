@@ -74,7 +74,7 @@ BEGIN
         RAISE user_define_error7;
     END IF;
 
-    IF (NOT(p_rep_superm_cust_yn IS NULL OR p_rep_superm_cust_yn = 'Y')) THEN
+    IF (NOT(p_rep_superm_cust_yn IS NULL OR p_rep_superm_cust_yn = 'Y' OR p_rep_superm_cust_yn = 'N')) THEN
         RAISE user_define_error8;
     END IF;
     
