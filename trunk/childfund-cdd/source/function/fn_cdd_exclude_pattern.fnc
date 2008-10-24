@@ -30,7 +30,6 @@ v_cnt NUMBER(5);
 
 BEGIN
     v_input_text := TRIM(p_text);
-    v_input_text := p_text;
     v_exclude_text := '|*|*|*|';
     v_cnt := 0;
     
