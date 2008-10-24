@@ -1,4 +1,4 @@
-CREATE OR REPLACE PROCEDURE sp_cdd_match_customer
+CREATE OR REPLACE PROCEDURE MART.sp_cdd_match_customer
 (
     p_caller_system IN VARCHAR2,        -- 필수: 호출시스템(예. BATCH, HOMEPAGE-FRONT, HOMEPAGE-ADMIN, CMA, ETL) 
     p_caller IN VARCHAR2,               -- 필수: 호출자(예. 홈페이지회원ID, 홈페이지관리자ID, CMA사용자ID, ETL인 경우 "ubigent") 
@@ -81,8 +81,8 @@ CURSOR cur IS
         ,lastupdate_dt AS superm_upd_dd     -- 최종수정일자                            
     FROM superm@FMS
     WHERE
-        --TRIM(supername) = TRIM(p_src_cust_nm) 
-        supername = TRIM(p_src_cust_nm)   -- 속도개선을 위해 supername컬럼에는 TRIM 함수 사용안함.
+        TRIM(supername) = TRIM(p_src_cust_nm) 
+        --supername = TRIM(p_src_cust_nm)   -- 속도개선을 위해 supername컬럼에는 TRIM 함수 사용안함.
         AND (cust_id = p_src_superm_cust_id
         OR rr_id = fn_cdd_exclude_pattern('JUMIN_NO', p_src_jumin_no)
         OR br_id = fn_cdd_exclude_pattern('BIZ_REG_NO', p_src_biz_reg_no)
@@ -138,7 +138,7 @@ BEGIN
     
     IF (p_src_cust_nm IS NULL) THEN
         RAISE user_define_error8;
-    END IF
+    END IF;
 
         
     v_total_cnt := 0;
@@ -257,7 +257,7 @@ BEGIN
         sp_cdd_set_rep_customer(p_src_system, p_src_table, p_src_cust_id);
     END IF;
     
-    --DBMS_OUTPUT.PUT_LINE('v_set_rep_cust_need_yn = '||p_src_cust_id||','||v_set_rep_cust_need_yn);	
+    --DBMS_OUTPUT.PUT_LINE('v_set_rep_cust_need_yn = '||p_src_cust_id||','||v_set_rep_cust_need_yn);    
     
     
 
@@ -288,43 +288,41 @@ EXCEPTION
            RAISE_APPLICATION_ERROR(-20008, '8번째 인자인 원천고객명(p_src_cust_nm)은 필수항목입니다.');
     
     WHEN OTHERS THEN
-		DBMS_OUTPUT.PUT_LINE(SQLERRM||'ERROR');	
-		
-		v_error_msg := SQLERRM;
+        DBMS_OUTPUT.PUT_LINE(SQLERRM||'ERROR');    
+        
+        v_error_msg := SQLERRM;
 
-		
+        
         INSERT INTO dw_etl_job_hist (
-			job_no
-			,job_id
-			,job_nm
-			,job_strt_dm
-			,job_end_dm
-			,tot_src_cnt
-			,succ_cnt
-			,error_cnt
-			,job_stat
-			,job_log
-			,executor
-			)	
-		VALUES (
-			v_job_start_dm
-			,'sp_cdd_match_customer['||p_src_system||'|'||p_src_table||'|'||p_src_cust_id||']' 
-			,'매칭되는 유사 후원자리스트 생성'
-			,v_job_start_dm
-			,TO_CHAR(SYSDATE,'yyyyMMddHH24miSS')
-			,v_total_cnt
-			,v_success_cnt
-			,v_error_cnt
-			,'FAILED'
-			,v_error_msg
-			,'배영규'
-			);
-		COMMIT;
+            job_no
+            ,job_id
+            ,job_nm
+            ,job_strt_dm
+            ,job_end_dm
+            ,tot_src_cnt
+            ,succ_cnt
+            ,error_cnt
+            ,job_stat
+            ,job_log
+            ,executor
+            )    
+        VALUES (
+            v_job_start_dm
+            ,'sp_cdd_match_customer['||p_src_system||'|'||p_src_table||'|'||p_src_cust_id||']' 
+            ,'매칭되는 유사 후원자리스트 생성'
+            ,v_job_start_dm
+            ,TO_CHAR(SYSDATE,'yyyyMMddHH24miSS')
+            ,v_total_cnt
+            ,v_success_cnt
+            ,v_error_cnt
+            ,'FAILED'
+            ,v_error_msg
+            ,'배영규'
+            );
+        COMMIT;
         
         
         RAISE;
-		
+        
 END sp_cdd_match_customer;
-
-
 /
