@@ -18,7 +18,7 @@ public class TwitterAPITest {
 	 * @param args
 	 */
 	public static final void main(String[] args) {
-		Twitter twitter = new Twitter("louiezzang@hotmail.com", "bae7214");
+		Twitter twitter = new Twitter("louiezzang@hotmail.com", "xxxx");
 
 		try {
 			List<User> followers = twitter.getFollowersStatuses();
