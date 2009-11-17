@@ -23,6 +23,12 @@
 			<id>twitter4j</id>
 			<url>http://yusuke.homeip.net/twitter4j/</url>
 		</repository>
+		<!--  
+		<repository>
+			<id>ibiblio</id>
+			<url>http://mirrors.ibiblio.org/pub/mirrors/maven2/</url>
+		</repository>
+		-->
 	</repositories>
 
 	<dependencies>
@@ -36,6 +42,56 @@
 			<groupId>net.homeip.yusuke</groupId>
 			<artifactId>twitter4j</artifactId>
 			<version>[2.0,)</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.jung</groupId>
+			<artifactId>jung-api</artifactId>
+			<version>2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.jung</groupId>
+			<artifactId>jung-graph-impl</artifactId>
+			<version>2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.jung</groupId>
+			<artifactId>jung-algorithms</artifactId>
+			<version>2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.jung</groupId>
+			<artifactId>jung-io</artifactId>
+			<version>2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.jung</groupId>
+			<artifactId>jung-visualization</artifactId>
+			<version>2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.jung</groupId>
+			<artifactId>jung-samples</artifactId>
+			<version>2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.jung</groupId>
+			<artifactId>jung-jai</artifactId>
+			<version>2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.jung</groupId>
+			<artifactId>jung-jai-samples</artifactId>
+			<version>2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.jung</groupId>
+			<artifactId>jung-3d</artifactId>
+			<version>2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>net.sf.jung</groupId>
+			<artifactId>jung-3d-demos</artifactId>
+			<version>2.0</version>
 		</dependency>
 	</dependencies>
 </project>
