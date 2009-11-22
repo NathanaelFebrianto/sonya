@@ -27,7 +27,7 @@ public class TwitterSocialGraph {
 		
 		for (int i = 0; i < fids.length; i++) {
 			User fuser = twitter.showUser(String.valueOf(fids[i]));
-			System.out.println("friend == " + fuser.getScreenName() + ", " + fuser.getName());
+			System.out.println("friend[" + i + "] == " + fuser.getScreenName() + ", " + fuser.getName());
 		}
 	}
 
