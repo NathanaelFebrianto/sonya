@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.firebird</groupId>
+	<artifactId>firebird-twitter</artifactId>
+	<packaging>jar</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>firebird-twitter</name>
+	<url>http://maven.apache.org</url>
+
+	<repositories>
+		<repository>
+			<id>central</id>
+			<url>http://repo1.maven.org/maven2</url>
+		</repository>
+		<repository>
+			<id>java.net.maven2</id>
+			<url>http://download.java.net/maven/2/
+			</url>
+			<layout>default</layout>
+		</repository>
+		<repository>
+			<id>twitter4j</id>
+			<url>http://yusuke.homeip.net/twitter4j/
+			</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>net.homeip.yusuke</groupId>
+			<artifactId>twitter4j</artifactId>
+			<version>[2.0,)</version>
+		</dependency>
+	</dependencies>
+</project>
