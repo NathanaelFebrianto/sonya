@@ -7,14 +7,14 @@ import junit.framework.TestSuite;
 /**
  * Unit test for simple App.
  */
-public class TwitterSocialGraphTest extends TestCase
+public class TwitterDataCollectorTest extends TestCase
 {
     /**
      * Create the test case
      *
      * @param testName name of the test case
      */
-    public TwitterSocialGraphTest(String testName) {
+    public TwitterDataCollectorTest(String testName) {
         super(testName);
     }
 
@@ -22,7 +22,7 @@ public class TwitterSocialGraphTest extends TestCase
      * @return the suite of tests being tested
      */
     public static Test suite() {
-        return new TestSuite(TwitterSocialGraphTest.class);
+        return new TestSuite(TwitterDataCollectorTest.class);
     }
 
     /**
@@ -30,8 +30,14 @@ public class TwitterSocialGraphTest extends TestCase
      */
     public void testApp() {
         try {
-        	TwitterSocialGraph tsg = new TwitterSocialGraph();
-        	tsg.createDirctedGraph("louiezzang");
+        	TwitterDataCollector collector = new TwitterDataCollector();
+        	collector.setLimitLevel(2);
+        	//collector.setLimitPeople(5000);
+        	collector.setLimitDegree(100);
+        	collector.setCollectFollowingRelationship(true);
+        	collector.setCollectFollowerRelationship(true);
+        	
+        	collector.collectSocialNetwork("louiezzang");
         } catch (Exception ex) {
         	ex.printStackTrace();
         }
