@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-
+2.dtd">
+<sqlMap namespace="Person">
+	<select id="getPerson" resultClass="org.firebird.io.model.Person">
+		SELECT PER_ID as id,
+		PER_FIRST_NAME as firstName,
+		PER_LAST_NAME as lastName,
+		PER_BIRTH_DATE as birthDate,
+		PER_WEIGHT_KG as weightInKilograms,
+		PER_HEIGHT_M as heightInMeters
+		FROM PERSON
+		WHERE PER_ID = #value#
+	</select>
+</sqlMap>
