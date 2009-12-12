@@ -1,0 +1,2 @@
+hive --service hiveserver
+hive 명령어 같이 실행하면 에러 생김.
