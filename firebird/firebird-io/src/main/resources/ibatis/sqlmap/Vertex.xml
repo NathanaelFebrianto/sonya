@@ -16,4 +16,59 @@
 		FROM vertex
 		WHERE vertex_id = #{id}
 	</select>
+	
+	<insert id="insertVertex" parameterType="org.firebird.io.model.Vertex">
+		INSERT INTO vertex (
+			website_id
+			, vertex_id
+			, vertex_name
+			, image_file
+			, in_degree
+			, out_degree
+			, following
+			, followers
+			, user_no
+			, user_id
+			, user_name
+			, user_url
+			, blog_entry_count
+			, last_blog_entry_id
+			, last_blog_entry 
+			, last_blog_entry_type
+			, last_blog_entry_create_date 
+			, last_blog_entry_reply_to
+			, last_blog_entry_dm_to 
+			, last_blog_entry_refer_from
+			, create_date
+			, last_update_date
+			, col_create_date
+			, col_last_update_date			 
+		)
+		VALUES (
+			#{websiteId}
+			, #{id}
+			, #{name}
+			, #{imageFile}
+			, #{inDegree}
+			, #{outDegree}
+			, #{following}
+			, #{followers}
+			, #{userNo}
+			, #{userId}
+			, #{userName}
+			, #{userUrl}
+			, #{blogEntryCount}
+			, #{lastBlogEntryId}
+			, #{lastBlogEntry}
+			, #{lastBlogEntryType}
+			, #{lastBlogEntryCreateDate} 
+			, #{lastBlogEntryReplyTo}
+			, #{lastBlogEntryDmTo} 
+			, #{lastBlogEntryReferFrom}
+			, #{createDate}
+			, #{lastUpdateDate}
+			, #{colCreateDate}
+			, #{colLastUpdateDate}
+		)
+	</insert>
 </mapper>

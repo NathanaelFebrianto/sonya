@@ -1,4 +1,4 @@
-package org.firebird.dao.ibatis;
+package org.firebird.dao;
 
 import java.io.Reader;
 
@@ -9,15 +9,15 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 public class FirebirdSqlSession {
 
-	private static final SqlSession session;
+	private static final SqlSessionFactory sqlSessionFactory;
 
 	static {
 		try {
 			String resource = "ibatis/Configuration.xml";
 			Reader reader = Resources.getResourceAsReader(resource);
-			SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder()
+			sqlSessionFactory = new SqlSessionFactoryBuilder()
 					.build(reader);
-			session = sqlSessionFactory.openSession();
+			SqlSession session = sqlSessionFactory.openSession();
 		} catch (Exception e) {
 			e.printStackTrace();
 			throw new RuntimeException(
@@ -25,7 +25,7 @@ public class FirebirdSqlSession {
 		}
 	}
 
-	public static SqlSession getSqlSession() {
-		return session;
+	public static SqlSessionFactory getSqlSessionFactory() {
+		return sqlSessionFactory;
 	}
 }
