@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN" 
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<mapper namespace="ibatis.sqlmap.Vertex">
+
+	<resultMap id="vertexResultMap" type="org.firebird.io.model.Vertex">
+		<id property="id" column="vetex_id" />
+		<result property="websiteId" column="website_id" />
+		<result property="name" column="vertex_name" />
+	</resultMap>
+
+	<select id="selectVertex" parameterType="int" resultMap="vertexResultMap">
+		SELECT
+		*
+		FROM vertex
+		WHERE vertex_id = #{id}
+	</select>
+</mapper>
