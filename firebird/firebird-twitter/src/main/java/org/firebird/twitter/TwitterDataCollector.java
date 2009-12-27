@@ -3,7 +3,6 @@ package org.firebird.twitter;
 import java.util.HashMap;
 import java.util.List;
 
-import twitter4j.Status;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
 import twitter4j.User;
@@ -152,7 +151,7 @@ public class TwitterDataCollector {
 		String key = String.valueOf(user1.getId()) + "->" + String.valueOf(user2.getId());
 		
 		if (!edges.containsKey(key)) {
-			edges.put(key, "");			
+			edges.put(key, "following");			
 			System.out.println(user1.getScreenName() + " -> " + user2.getScreenName());
 		}		
 	}
