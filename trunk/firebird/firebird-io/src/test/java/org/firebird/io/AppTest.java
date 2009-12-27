@@ -4,8 +4,8 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-import org.apache.ibatis.session.SqlSession;
-import org.firebird.io.ibatis.FirebirdSqlSession;
+import org.firebird.io.dao.ibatis.VertexDaoiBatis;
+import org.firebird.io.model.Vertex;
 
 /**
  * Unit test for simple App.
@@ -33,6 +33,8 @@ public class AppTest extends TestCase {
 	 */
 	public void testApp() {
 		assertTrue(true);
-		SqlSession sqlSession = FirebirdSqlSession.getSqlSession();
+		
+		VertexDaoiBatis vertexDao = new VertexDaoiBatis();
+		vertexDao.insertVertex(new Vertex());
 	}
 }
