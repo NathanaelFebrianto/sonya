@@ -33,5 +33,7 @@ PUBLIC "-//ibatis.apache.org//DTD Config 3.0//EN"
 
 	<mappers>
 		<mapper resource="ibatis/sqlmap/Vertex.xml" />
+		<mapper resource="ibatis/sqlmap/Edge.xml" />
+		<mapper resource="ibatis/sqlmap/UserBlogEntry.xml" />
 	</mappers>
 </configuration>

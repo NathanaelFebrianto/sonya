@@ -15,12 +15,14 @@ import java.util.Date;
 public class Edge implements Serializable {	
 	private static final long serialVersionUID = -1346539592439752207L;
 	private int websiteId;
-	private int vertex1;
-	private int vertex2;
+	private String vertex1;
+	private String vertex2;
+	private int vertexNo1;
+	private int vertexNo2;
 	private String color;
 	private int width;
 	private int opacity;
-	private boolean isDirected;
+	private boolean directed;
 	private String relationship;
 	private long closeness;
 	private int replyCount;
@@ -37,11 +39,17 @@ public class Edge implements Serializable {
 	public int getWebsiteId() {
 		return websiteId;
 	}
-	public int getVertex1() {
+	public String getVertex1() {
 		return vertex1;
 	}
-	public int getVertex2() {
+	public String getVertex2() {
 		return vertex2;
+	}
+	public int getVertexNo1() {
+		return vertexNo1;
+	}
+	public int getVertexNo2() {
+		return vertexNo2;
 	}
 	public String getColor() {
 		return color;
@@ -52,8 +60,8 @@ public class Edge implements Serializable {
 	public int getOpacity() {
 		return opacity;
 	}
-	public boolean isDirected() {
-		return isDirected;
+	public boolean getDirected() {
+		return directed;
 	}
 	public String getRelationship() {
 		return relationship;
@@ -94,11 +102,17 @@ public class Edge implements Serializable {
 	public void setWebsiteId(int websiteId) {
 		this.websiteId = websiteId;
 	}
-	public void setVertex1(int vertex1) {
+	public void setVertex1(String vertex1) {
 		this.vertex1 = vertex1;
 	}
-	public void setVertex2(int vertex2) {
+	public void setVertex2(String vertex2) {
 		this.vertex2 = vertex2;
+	}
+	public void setVertexNo1(int vertexNo1) {
+		this.vertexNo1 = vertexNo1;
+	}
+	public void setVertexNo2(int vertexNo2) {
+		this.vertexNo2 = vertexNo2;
 	}
 	public void setColor(String color) {
 		this.color = color;
@@ -109,8 +123,8 @@ public class Edge implements Serializable {
 	public void setOpacity(int opacity) {
 		this.opacity = opacity;
 	}
-	public void setDirected(boolean isDirected) {
-		this.isDirected = isDirected;
+	public void setDirected(boolean directed) {
+		this.directed = directed;
 	}
 	public void setRelationship(String relationship) {
 		this.relationship = relationship;
@@ -148,5 +162,5 @@ public class Edge implements Serializable {
 	public void setColLastUpdateDate(Date colLastUpdateDate) {
 		this.colLastUpdateDate = colLastUpdateDate;
 	}
-
+	
 }
