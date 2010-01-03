@@ -1,8 +1,10 @@
 /*
-Copyright (c) 2009-2010, Young-Gue Bae
-All rights reserved.
-*/
+ * Copyright (c) 2009-2010, Young-Gue Bae
+ * All rights reserved.
+ */
 package org.firebird.io.service.impl;
+
+import java.util.List;
 
 import org.firebird.io.dao.VertexDao;
 import org.firebird.io.model.Vertex;
@@ -28,6 +30,16 @@ public class VertexManagerImpl extends GenericManagerImpl implements VertexManag
         this.vertexDao = vertexDao;
     }
 
+    /**
+     * Gets the vertex list.
+     *
+     * @param websiteId the websiteId
+     * @return List<Vertex> the vertex list
+     */
+	public List<Vertex> getVertices(int websiteId) {
+		return vertexDao.selectVertices(websiteId);
+	}
+    
     /**
      * Adds a vertex.
      *

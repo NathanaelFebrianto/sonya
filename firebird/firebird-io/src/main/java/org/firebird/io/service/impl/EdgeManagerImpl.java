@@ -1,8 +1,10 @@
 /*
-Copyright (c) 2009-2010, Young-Gue Bae
-All rights reserved.
-*/
+ * Copyright (c) 2009-2010, Young-Gue Bae
+ * All rights reserved.
+ */
 package org.firebird.io.service.impl;
+
+import java.util.List;
 
 import org.firebird.io.dao.EdgeDao;
 import org.firebird.io.model.Edge;
@@ -28,6 +30,16 @@ public class EdgeManagerImpl extends GenericManagerImpl implements EdgeManager {
         this.edgeDao = edgeDao;
     }
 
+    /**
+     * Gets the egde list.
+     *
+     * @param websiteId the websiteId
+     * @return List<Edge> the edge list
+     */
+	public List<Edge> getEdges(int websiteId) {
+		return edgeDao.selectEdges(websiteId);
+	}
+    
     /**
      * Adds a edge.
      *
