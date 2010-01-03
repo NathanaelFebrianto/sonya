@@ -34,7 +34,7 @@ public class AppTest extends TestCase {
 	public void testApp() {
 		assertTrue(true);
 		
-		VertexDaoiBatis vertexDao = new VertexDaoiBatis();
-		vertexDao.insertVertex(new Vertex());
+		//VertexDaoiBatis vertexDao = new VertexDaoiBatis();
+		//vertexDao.insertVertex(new Vertex());
 	}
 }

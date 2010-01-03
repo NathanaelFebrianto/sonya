@@ -14,4 +14,9 @@
         <level value="DEBUG"/>
     </logger>
 
+    <root>
+        <level value="WARN"/>
+        <appender-ref ref="CONSOLE"/>
+    </root>
+
 </log4j:configuration>

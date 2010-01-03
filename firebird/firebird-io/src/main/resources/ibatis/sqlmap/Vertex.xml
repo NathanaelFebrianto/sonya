@@ -16,7 +16,13 @@
 		FROM vertex
 		WHERE vertex_id = #{id}
 	</select>
-	
+
+	<delete id="deleteVertex" parameterType="org.firebird.io.model.Vertex">
+		DELETE FROM vertex
+		WHERE website_id = #{websiteId,javaType=int,jdbcType=NUMERIC}
+			AND vertex_id = #{id,javaType=int,jdbcType=NUMERIC};
+	</delete>
+		
 	<insert id="insertVertex" parameterType="org.firebird.io.model.Vertex">
 		INSERT INTO vertex (
 			website_id
@@ -45,30 +51,30 @@
 			, col_last_update_date			 
 		)
 		VALUES (
-			#{websiteId}
-			, #{id}
-			, #{name}
-			, #{imageFile}
-			, #{inDegree}
-			, #{outDegree}
-			, #{following}
-			, #{followers}
-			, #{userNo}
-			, #{userId}
-			, #{userName}
-			, #{userUrl}
-			, #{blogEntryCount}
-			, #{lastBlogEntryId}
-			, #{lastBlogEntry}
-			, #{lastBlogEntryType}
-			, #{lastBlogEntryCreateDate} 
-			, #{lastBlogEntryReplyTo}
-			, #{lastBlogEntryDmTo} 
-			, #{lastBlogEntryReferFrom}
-			, #{createDate}
-			, #{lastUpdateDate}
-			, #{colCreateDate}
-			, #{colLastUpdateDate}
+			#{websiteId,javaType=int,jdbcType=NUMERIC}
+			, #{id,javaType=int,jdbcType=NUMERIC}
+			, #{name,jdbcType=VARCHAR}
+			, #{imageFile,jdbcType=VARCHAR}
+			, #{inDegree,javaType=int,jdbcType=NUMERIC}
+			, #{outDegree,javaType=int,jdbcType=NUMERIC}
+			, #{following,javaType=int,jdbcType=NUMERIC}
+			, #{followers,javaType=int,jdbcType=NUMERIC}
+			, #{userNo,javaType=int,jdbcType=NUMERIC}
+			, #{userId,jdbcType=VARCHAR}
+			, #{userName,jdbcType=VARCHAR}
+			, #{userUrl,jdbcType=VARCHAR}
+			, #{blogEntryCount,javaType=int,jdbcType=NUMERIC}
+			, #{lastBlogEntryId,jdbcType=VARCHAR}
+			, #{lastBlogEntry,jdbcType=VARCHAR}
+			, #{lastBlogEntryType,jdbcType=CHAR}
+			, #{lastBlogEntryCreateDate,jdbcType=DATE} 
+			, #{lastBlogEntryReplyTo,jdbcType=VARCHAR}
+			, #{lastBlogEntryDmTo,jdbcType=VARCHAR} 
+			, #{lastBlogEntryReferFrom,jdbcType=VARCHAR}
+			, #{createDate,jdbcType=DATE}
+			, #{lastUpdateDate,jdbcType=DATE}
+			, NOW()
+			, NOW()	
 		)
 	</insert>
 </mapper>
