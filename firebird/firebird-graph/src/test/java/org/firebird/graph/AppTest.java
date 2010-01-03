@@ -4,10 +4,6 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-import org.firebird.twitter.TwitterOAuthSupport;
-
-import twitter4j.Twitter;
-
 /**
  * Unit test for simple App.
  */
