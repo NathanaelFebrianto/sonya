@@ -1,7 +1,7 @@
 /*
-Copyright (c) 2009-2010, Young-Gue Bae
-All rights reserved.
-*/
+ * Copyright (c) 2009-2010, Young-Gue Bae
+ * All rights reserved.
+ */
 package org.firebird.twitter;
 
 import java.util.HashMap;

@@ -1,8 +1,15 @@
 package org.firebird.twitter;
 
+import java.util.List;
+
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
+
+import org.firebird.io.dao.ibatis.VertexDaoiBatis;
+import org.firebird.io.model.Vertex;
+import org.firebird.io.service.VertexManager;
+import org.firebird.io.service.impl.VertexManagerImpl;
 
 /**
  * Unit test for simple App.
@@ -32,11 +39,14 @@ public class TwitterDataCollectorTest extends TestCase
         try {
         	TwitterDataCollector collector = new TwitterDataCollector();
         	collector.setLimitLevel(2);
-        	collector.setLimitPeople(50);
-        	collector.setLimitDegree(3);
+        	collector.setLimitPeople(1000);
+        	collector.setLimitDegree(50);
         	collector.setCollectFollowingRelationship(true);
         	collector.setCollectFollowerRelationship(true);
         	collector.setCollectUserBlogEntry(false);
+        	
+        	//VertexManager vertexManager = new VertexManagerImpl(new VertexDaoiBatis());
+        	//List<Vertex> vertices = vertexManager.getVertices(1);
         	
         	collector.collectSocialNetwork("louiezzang");
         } catch (Exception ex) {
