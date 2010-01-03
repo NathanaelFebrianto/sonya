@@ -4,7 +4,10 @@ All rights reserved.
 */
 package org.firebird.io.dao;
 
+import java.util.List;
+
 import org.firebird.dao.GenericDao;
+import org.firebird.io.model.Edge;
 import org.firebird.io.model.Vertex;
 
 /**
@@ -14,6 +17,14 @@ import org.firebird.io.model.Vertex;
  */
 public interface VertexDao extends GenericDao {
 
+    /**
+     * Selects vertex list(vertices).
+     *
+     * @param websiteId the websiteId
+     * @return List<Vertex> the vertex list
+     */
+	public List<Vertex> selectVertices(int websiteId);
+	
     /**
      * Inserts a vertex.
      *
