@@ -1,8 +1,10 @@
 /*
-Copyright (c) 2009-2010, Young-Gue Bae
-All rights reserved.
-*/
+ * Copyright (c) 2009-2010, Young-Gue Bae
+ * All rights reserved.
+ */
 package org.firebird.io.service;
+
+import java.util.List;
 
 import org.firebird.io.model.Edge;
 import org.firebird.service.GenericManager;
@@ -14,6 +16,14 @@ import org.firebird.service.GenericManager;
  */
 public interface EdgeManager extends GenericManager {
 
+    /**
+     * Gets the egde list.
+     *
+     * @param websiteId the websiteId
+     * @return List<Edge> the edge list
+     */
+	public List<Edge> getEdges(int websiteId);
+	
     /**
      * Adds a edge.
      *

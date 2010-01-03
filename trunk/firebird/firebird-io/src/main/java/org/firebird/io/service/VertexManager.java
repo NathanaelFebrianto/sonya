@@ -1,8 +1,10 @@
 /*
-Copyright (c) 2009-2010, Young-Gue Bae
-All rights reserved.
-*/
+ * Copyright (c) 2009-2010, Young-Gue Bae
+ * All rights reserved.
+ */
 package org.firebird.io.service;
+
+import java.util.List;
 
 import org.firebird.io.model.Vertex;
 import org.firebird.service.GenericManager;
@@ -14,6 +16,14 @@ import org.firebird.service.GenericManager;
  */
 public interface VertexManager extends GenericManager {
 
+    /**
+     * Gets the vertex list.
+     *
+     * @param websiteId the websiteId
+     * @return List<Vertex> the vertex list
+     */
+	public List<Vertex> getVertices(int websiteId);
+	
     /**
      * Adds a vertex.
      *

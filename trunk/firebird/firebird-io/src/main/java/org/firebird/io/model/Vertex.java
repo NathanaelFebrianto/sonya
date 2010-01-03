@@ -1,7 +1,7 @@
 /*
-Copyright (c) 2009-2010, Young-Gue Bae
-All rights reserved.
-*/
+ * Copyright (c) 2009-2010, Young-Gue Bae
+ * All rights reserved.
+ */
 package org.firebird.io.model;
 
 import java.io.Serializable;
@@ -25,7 +25,7 @@ public class Vertex implements Serializable {
 	private String imageFile;
 	private int inDegree;
 	private int outDegree;
-	private long betweenessCentrality;
+	private long betweennessCentrality;
 	private long closenessCentrality;
 	private long eigenvectorCentrality;
 	private long clusteringCoefficient;
@@ -81,8 +81,8 @@ public class Vertex implements Serializable {
 	public int getOutDegree() {
 		return outDegree;
 	}
-	public long getBetweenessCentrality() {
-		return betweenessCentrality;
+	public long getBetweennessCentrality() {
+		return betweennessCentrality;
 	}
 	public long getClosenessCentrality() {
 		return closenessCentrality;
@@ -180,8 +180,8 @@ public class Vertex implements Serializable {
 	public void setOutDegree(int outDegree) {
 		this.outDegree = outDegree;
 	}
-	public void setBetweenessCentrality(long betweenessCentrality) {
-		this.betweenessCentrality = betweenessCentrality;
+	public void setBetweennessCentrality(long betweennessCentrality) {
+		this.betweennessCentrality = betweennessCentrality;
 	}
 	public void setClosenessCentrality(long closenessCentrality) {
 		this.closenessCentrality = closenessCentrality;

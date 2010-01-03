@@ -4,20 +4,38 @@
 
 <mapper namespace="ibatis.sqlmap.Edge">
 
-	<delete id="deleteEdge" parameterType="org.firebird.io.model.Edge">
-		DELETE FROM edge
-		WHERE
-		<if test="websiteId != null">
-			website_id = #{websiteId}
-		</if>
-		<if test="vertex1 != null">
-			AND vertex1 = #{vertex1}
-		</if>
-		<if test="vertex2 != null">
-			AND vertex2 = #{vertex2}
-		</if>
-	</delete>
-		
+	<resultMap id="edgeResultMap" type="org.firebird.io.model.Edge">
+		<id property="websiteId" column="website_id" />
+		<result property="websiteId" column="website_id" />
+		<result property="vertex1" column="vertex1" />
+		<result property="vertex2" column="vertex2" />
+		<result property="vertexNo1" column="vertex_no1" />
+		<result property="vertexNo2" column="vertex_no2" />
+		<result property="color" column="color" />
+		<result property="width" column="width" />
+		<result property="opacity" column="opacity" />
+		<result property="directed" column="is_directed" />
+		<result property="relationship" column="relationship" />
+		<result property="closeness" column="closeness" />
+		<result property="replyCount" column="reply_count" />
+		<result property="dmCount" column="dm_count" />
+		<result property="referCount" column="refer_count" />
+		<result property="lastReplyDate" column="last_reply_date" />
+		<result property="lastDmDate" column="last_dm_date" />
+		<result property="lastReferDate" column="last_refer_date" />
+		<result property="createDate" column="create_date" />
+		<result property="lastUpdateDate" column="last_update_date" />
+		<result property="colCreateDate" column="col_create_date" />
+		<result property="colLastUpdateDate" column="col_last_update_date" />
+	</resultMap>
+
+	<select id="selectEdges" parameterType="int" resultMap="edgeResultMap">
+		SELECT
+		*
+		FROM edge
+		WHERE website_id = #{websiteId}
+	</select>
+
 	<insert id="insertEdge" parameterType="org.firebird.io.model.Edge">
 		INSERT INTO edge (
 			website_id
@@ -66,4 +84,18 @@
 			, NOW()	
 		)
 	</insert>
+
+	<delete id="deleteEdge" parameterType="org.firebird.io.model.Edge">
+		DELETE FROM edge
+		WHERE
+		<if test="websiteId != null">
+			website_id = #{websiteId}
+		</if>
+		<if test="vertex1 != null">
+			AND vertex1 = #{vertex1}
+		</if>
+		<if test="vertex2 != null">
+			AND vertex2 = #{vertex2}
+		</if>
+	</delete>
 </mapper>

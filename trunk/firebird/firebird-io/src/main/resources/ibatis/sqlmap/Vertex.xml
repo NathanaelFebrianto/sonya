@@ -5,29 +5,49 @@
 <mapper namespace="ibatis.sqlmap.Vertex">
 
 	<resultMap id="vertexResultMap" type="org.firebird.io.model.Vertex">
-		<id property="id" column="vetex_id" />
+		<id property="websiteId" column="website_id" />
 		<result property="websiteId" column="website_id" />
+		<result property="id" column="vertex_id" />
+		<result property="no" column="vertex_no" />
 		<result property="name" column="vertex_name" />
+		<result property="color" column="color" />
+		<result property="shape" column="shape" />
+		<result property="size" column="size" />
+		<result property="opacity" column="opacity" />
+		<result property="imageFile" column="image_file" />
+		<result property="inDegree" column="in_degree" />
+		<result property="outDegree" column="out_degree" />
+		<result property="betweennessCentrality" column="betweenness_centrality" />
+		<result property="closenessCentrality" column="closeness_centrality" />
+		<result property="eigenvectorCentrality" column="eigenvector_centrality" />
+		<result property="clusteringCoefficient" column="clustering_coefficient" />
+		<result property="following" column="following" />
+		<result property="followers" column="followers" />
+		<result property="userNo" column="user_no" />
+		<result property="userId" column="user_id" />
+		<result property="userName" column="user_name" />
+		<result property="userUrl" column="user_url" />
+		<result property="blogEntryCount" column="blog_entry_count" />
+		<result property="lastBlogEntryId" column="last_blog_entry_id" />
+		<result property="lastBlogEntryBody" column="last_blog_entry_body" />
+		<result property="lastBlogEntryType" column="last_blog_entry_type" />
+		<result property="lastBlogEntryCreateDate" column="last_blog_entry_create_date" />
+		<result property="lastBlogEntryReplyTo" column="last_blog_entry_reply_to" />
+		<result property="lastBlogEntryDmTo" column="last_blog_entry_dm_to" />
+		<result property="lastBlogEntryReferFrom" column="last_blog_entry_refer_from" />		
+		<result property="createDate" column="create_date" />
+		<result property="lastUpdateDate" column="last_update_date" />
+		<result property="colCreateDate" column="col_create_date" />
+		<result property="colLastUpdateDate" column="col_last_update_date" />
 	</resultMap>
 
-	<select id="selectVertex" parameterType="int" resultMap="vertexResultMap">
+	<select id="selectVertices" parameterType="int" resultMap="vertexResultMap">
 		SELECT
 		*
 		FROM vertex
-		WHERE vertex_id = #{id}
+		WHERE website_id = #{websiteId}
 	</select>
 
-	<delete id="deleteVertex" parameterType="org.firebird.io.model.Vertex">
-		DELETE FROM vertex
-		WHERE
-		<if test="websiteId != null">
-			website_id = #{websiteId}
-		</if>
-		<if test="id != null">
-			AND vertex_id = #{id}
-		</if>
-	</delete>
-		
 	<insert id="insertVertex" parameterType="org.firebird.io.model.Vertex">
 		INSERT INTO vertex (
 			website_id
@@ -84,4 +104,15 @@
 			, NOW()	
 		)
 	</insert>
+
+	<delete id="deleteVertex" parameterType="org.firebird.io.model.Vertex">
+		DELETE FROM vertex
+		WHERE
+		<if test="websiteId != null">
+			website_id = #{websiteId}
+		</if>
+		<if test="id != null">
+			AND vertex_id = #{id}
+		</if>
+	</delete>
 </mapper>
