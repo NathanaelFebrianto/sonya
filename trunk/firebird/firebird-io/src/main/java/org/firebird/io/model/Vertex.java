@@ -1,7 +1,17 @@
+/*
+Copyright (c) 2009-2010, Young-Gue Bae
+All rights reserved.
+*/
 package org.firebird.io.model;
 
 import java.io.Serializable;
+import java.util.Date;
 
+/**
+ * Data model for a vertex.
+ * 
+ * @author Young-Gue Bae
+ */
 public class Vertex implements Serializable {
 	private static final long serialVersionUID = -3745591316177805874L;
 	private int websiteId;
@@ -27,15 +37,15 @@ public class Vertex implements Serializable {
 	private int blogEntryCount;
 	private String lastBlogEntryId;
 	private String lastBlogEntry;
-	private int lastBlogEntryType;
-	private String lastBlogEntryCreateDate;
+	private String lastBlogEntryType;
+	private Date lastBlogEntryCreateDate;
 	private String lastBlogEntryReplyTo;
 	private String lastBlogEntryDmTo;
 	private String lastBlogEntryReferFrom;
-	private String createDate;
-	private String lastUpdateDate;
-	private String colCreateDate;
-	private String colLastUpdateDate;
+	private Date createDate;
+	private Date lastUpdateDate;
+	private Date colCreateDate;
+	private Date colLastUpdateDate;
 	
 	public int getWebsiteId() {
 		return websiteId;
@@ -106,10 +116,10 @@ public class Vertex implements Serializable {
 	public String getLastBlogEntry() {
 		return lastBlogEntry;
 	}
-	public int getLastBlogEntryType() {
+	public String getLastBlogEntryType() {
 		return lastBlogEntryType;
 	}
-	public String getLastBlogEntryCreateDate() {
+	public Date getLastBlogEntryCreateDate() {
 		return lastBlogEntryCreateDate;
 	}
 	public String getLastBlogEntryReplyTo() {
@@ -121,16 +131,16 @@ public class Vertex implements Serializable {
 	public String getLastBlogEntryReferFrom() {
 		return lastBlogEntryReferFrom;
 	}
-	public String getCreateDate() {
+	public Date getCreateDate() {
 		return createDate;
 	}
-	public String getLastUpdateDate() {
+	public Date getLastUpdateDate() {
 		return lastUpdateDate;
 	}
-	public String getColCreateDate() {
+	public Date getColCreateDate() {
 		return colCreateDate;
 	}
-	public String getColLastUpdateDate() {
+	public Date getColLastUpdateDate() {
 		return colLastUpdateDate;
 	}
 	public void setWebsiteId(int websiteId) {
@@ -202,10 +212,10 @@ public class Vertex implements Serializable {
 	public void setLastBlogEntry(String lastBlogEntry) {
 		this.lastBlogEntry = lastBlogEntry;
 	}
-	public void setLastBlogEntryType(int lastBlogEntryType) {
+	public void setLastBlogEntryType(String lastBlogEntryType) {
 		this.lastBlogEntryType = lastBlogEntryType;
 	}
-	public void setLastBlogEntryCreateDate(String lastBlogEntryCreateDate) {
+	public void setLastBlogEntryCreateDate(Date lastBlogEntryCreateDate) {
 		this.lastBlogEntryCreateDate = lastBlogEntryCreateDate;
 	}
 	public void setLastBlogEntryReplyTo(String lastBlogEntryReplyTo) {
@@ -217,16 +227,16 @@ public class Vertex implements Serializable {
 	public void setLastBlogEntryReferFrom(String lastBlogEntryReferFrom) {
 		this.lastBlogEntryReferFrom = lastBlogEntryReferFrom;
 	}
-	public void setCreateDate(String createDate) {
+	public void setCreateDate(Date createDate) {
 		this.createDate = createDate;
 	}
-	public void setLastUpdateDate(String lastUpdateDate) {
+	public void setLastUpdateDate(Date lastUpdateDate) {
 		this.lastUpdateDate = lastUpdateDate;
 	}
-	public void setColCreateDate(String colCreateDate) {
+	public void setColCreateDate(Date colCreateDate) {
 		this.colCreateDate = colCreateDate;
 	}
-	public void setColLastUpdateDate(String colLastUpdateDate) {
+	public void setColLastUpdateDate(Date colLastUpdateDate) {
 		this.colLastUpdateDate = colLastUpdateDate;
 	}
 

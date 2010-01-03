@@ -1,7 +1,17 @@
+/*
+Copyright (c) 2009-2010, Young-Gue Bae
+All rights reserved.
+*/
 package org.firebird.io.model;
 
 import java.io.Serializable;
+import java.util.Date;
 
+/**
+ * Data model for a edge.
+ * 
+ * @author Young-Gue Bae
+ */
 public class Edge implements Serializable {	
 	private static final long serialVersionUID = -1346539592439752207L;
 	private int websiteId;
@@ -11,17 +21,18 @@ public class Edge implements Serializable {
 	private int width;
 	private int opacity;
 	private boolean isDirected;
-	private int relationship;
+	private String relationship;
 	private long closeness;
 	private int replyCount;
 	private int dmCount;
 	private int referCount;
-	private String lastReplyDate;
-	private String lastDmDate;
-	private String lastReferDate;
-	private String createDate;
-	private String lastUpdateDate;
-	private String colCreateDate;
+	private Date lastReplyDate;
+	private Date lastDmDate;
+	private Date lastReferDate;
+	private Date createDate;
+	private Date lastUpdateDate;
+	private Date colCreateDate;
+	private Date colLastUpdateDate;
 	
 	public int getWebsiteId() {
 		return websiteId;
@@ -44,7 +55,7 @@ public class Edge implements Serializable {
 	public boolean isDirected() {
 		return isDirected;
 	}
-	public int getRelationship() {
+	public String getRelationship() {
 		return relationship;
 	}
 	public long getCloseness() {
@@ -59,25 +70,25 @@ public class Edge implements Serializable {
 	public int getReferCount() {
 		return referCount;
 	}
-	public String getLastReplyDate() {
+	public Date getLastReplyDate() {
 		return lastReplyDate;
 	}
-	public String getLastDmDate() {
+	public Date getLastDmDate() {
 		return lastDmDate;
 	}
-	public String getLastReferDate() {
+	public Date getLastReferDate() {
 		return lastReferDate;
 	}
-	public String getCreateDate() {
+	public Date getCreateDate() {
 		return createDate;
 	}
-	public String getLastUpdateDate() {
+	public Date getLastUpdateDate() {
 		return lastUpdateDate;
 	}
-	public String getColCreateDate() {
+	public Date getColCreateDate() {
 		return colCreateDate;
 	}
-	public String getColLastUpdateDate() {
+	public Date getColLastUpdateDate() {
 		return colLastUpdateDate;
 	}
 	public void setWebsiteId(int websiteId) {
@@ -101,7 +112,7 @@ public class Edge implements Serializable {
 	public void setDirected(boolean isDirected) {
 		this.isDirected = isDirected;
 	}
-	public void setRelationship(int relationship) {
+	public void setRelationship(String relationship) {
 		this.relationship = relationship;
 	}
 	public void setCloseness(long closeness) {
@@ -116,27 +127,26 @@ public class Edge implements Serializable {
 	public void setReferCount(int referCount) {
 		this.referCount = referCount;
 	}
-	public void setLastReplyDate(String lastReplyDate) {
+	public void setLastReplyDate(Date lastReplyDate) {
 		this.lastReplyDate = lastReplyDate;
 	}
-	public void setLastDmDate(String lastDmDate) {
+	public void setLastDmDate(Date lastDmDate) {
 		this.lastDmDate = lastDmDate;
 	}
-	public void setLastReferDate(String lastReferDate) {
+	public void setLastReferDate(Date lastReferDate) {
 		this.lastReferDate = lastReferDate;
 	}
-	public void setCreateDate(String createDate) {
+	public void setCreateDate(Date createDate) {
 		this.createDate = createDate;
 	}
-	public void setLastUpdateDate(String lastUpdateDate) {
+	public void setLastUpdateDate(Date lastUpdateDate) {
 		this.lastUpdateDate = lastUpdateDate;
 	}
-	public void setColCreateDate(String colCreateDate) {
+	public void setColCreateDate(Date colCreateDate) {
 		this.colCreateDate = colCreateDate;
 	}
-	public void setColLastUpdateDate(String colLastUpdateDate) {
+	public void setColLastUpdateDate(Date colLastUpdateDate) {
 		this.colLastUpdateDate = colLastUpdateDate;
 	}
-	private String colLastUpdateDate;
 
 }
