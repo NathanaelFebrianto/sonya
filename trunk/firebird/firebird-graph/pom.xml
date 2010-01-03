@@ -8,6 +8,20 @@
 	<name>firebird-graph</name>
 	<url>http://maven.apache.org</url>
 
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.0.2</version>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
 	<repositories>
 		<repository>
 			<id>central</id>
@@ -80,7 +94,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.firebird</groupId>
-			<artifactId>firebird-twitter</artifactId>
+			<artifactId>firebird-io</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
