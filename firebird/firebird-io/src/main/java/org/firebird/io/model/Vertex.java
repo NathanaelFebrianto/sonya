@@ -15,7 +15,8 @@ import java.util.Date;
 public class Vertex implements Serializable {
 	private static final long serialVersionUID = -3745591316177805874L;
 	private int websiteId;
-	private int id;
+	private String id;
+	private int no;
 	private String name;
 	private String color;
 	private String shape;
@@ -36,7 +37,7 @@ public class Vertex implements Serializable {
 	private String userUrl;
 	private int blogEntryCount;
 	private String lastBlogEntryId;
-	private String lastBlogEntry;
+	private String lastBlogEntryBody;
 	private String lastBlogEntryType;
 	private Date lastBlogEntryCreateDate;
 	private String lastBlogEntryReplyTo;
@@ -50,8 +51,11 @@ public class Vertex implements Serializable {
 	public int getWebsiteId() {
 		return websiteId;
 	}
-	public int getId() {
+	public String getId() {
 		return id;
+	}
+	public int getNo() {
+		return no;
 	}
 	public String getName() {
 		return name;
@@ -113,8 +117,8 @@ public class Vertex implements Serializable {
 	public String getLastBlogEntryId() {
 		return lastBlogEntryId;
 	}
-	public String getLastBlogEntry() {
-		return lastBlogEntry;
+	public String getLastBlogEntryBody() {
+		return lastBlogEntryBody;
 	}
 	public String getLastBlogEntryType() {
 		return lastBlogEntryType;
@@ -146,8 +150,11 @@ public class Vertex implements Serializable {
 	public void setWebsiteId(int websiteId) {
 		this.websiteId = websiteId;
 	}
-	public void setId(int id) {
+	public void setId(String id) {
 		this.id = id;
+	}
+	public void setNo(int no) {
+		this.no = no;
 	}
 	public void setName(String name) {
 		this.name = name;
@@ -209,8 +216,8 @@ public class Vertex implements Serializable {
 	public void setLastBlogEntryId(String lastBlogEntryId) {
 		this.lastBlogEntryId = lastBlogEntryId;
 	}
-	public void setLastBlogEntry(String lastBlogEntry) {
-		this.lastBlogEntry = lastBlogEntry;
+	public void setLastBlogEntryBody(String lastBlogEntryBody) {
+		this.lastBlogEntryBody = lastBlogEntryBody;
 	}
 	public void setLastBlogEntryType(String lastBlogEntryType) {
 		this.lastBlogEntryType = lastBlogEntryType;
@@ -239,5 +246,5 @@ public class Vertex implements Serializable {
 	public void setColLastUpdateDate(Date colLastUpdateDate) {
 		this.colLastUpdateDate = colLastUpdateDate;
 	}
-
+	
 }

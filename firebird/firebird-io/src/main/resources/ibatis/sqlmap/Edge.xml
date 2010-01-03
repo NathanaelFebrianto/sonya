@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN" 
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<mapper namespace="ibatis.sqlmap.Edge">
+
+	<delete id="deleteEdge" parameterType="org.firebird.io.model.Edge">
+		DELETE FROM edge
+		WHERE
+		<if test="websiteId != null">
+			website_id = #{websiteId}
+		</if>
+		<if test="vertex1 != null">
+			AND vertex1 = #{vertex1}
+		</if>
+		<if test="vertex2 != null">
+			AND vertex2 = #{vertex2}
+		</if>
+	</delete>
+		
+	<insert id="insertEdge" parameterType="org.firebird.io.model.Edge">
+		INSERT INTO edge (
+			website_id
+			, vertex1
+			, vertex2
+			, vertex_no1
+			, vertex_no2
+			, color
+			, width
+			, opacity
+			, is_directed
+			, relationship
+			, closeness
+			, reply_count
+			, dm_count
+			, refer_count
+			, last_reply_date
+			, last_dm_date
+			, last_refer_date
+			, create_date
+			, last_update_date
+			, col_create_date
+			, col_last_update_date			 
+		)
+		VALUES (
+			#{websiteId}
+			, #{vertex1}
+			, #{vertex2}
+			, #{vertexNo1,javaType=int,jdbcType=NUMERIC}
+			, #{vertexNo2,javaType=int,jdbcType=NUMERIC}
+			, #{color,jdbcType=VARCHAR}
+			, #{width,javaType=int,jdbcType=NUMERIC}
+			, #{opacity,javaType=int,jdbcType=NUMERIC}
+			, #{directed,javaType=boolean,jdbcType=BOOLEAN}
+			, #{relationship,jdbcType=CHAR}
+			, #{closeness,javaType=long,jdbcType=FLOAT}
+			, #{replyCount,javaType=int,jdbcType=NUMERIC}
+			, #{dmCount,javaType=int,jdbcType=NUMERIC}
+			, #{referCount,javaType=int,jdbcType=NUMERIC}
+			, #{lastReplyDate,jdbcType=DATE}
+			, #{lastDmDate,jdbcType=DATE}
+			, #{lastReferDate,jdbcType=DATE}
+			, #{createDate,jdbcType=DATE}
+			, #{lastUpdateDate,jdbcType=DATE}
+			, NOW()
+			, NOW()	
+		)
+	</insert>
+</mapper>
