@@ -32,10 +32,11 @@ public class TwitterDataCollectorTest extends TestCase
         try {
         	TwitterDataCollector collector = new TwitterDataCollector();
         	collector.setLimitLevel(2);
-        	collector.setLimitPeople(1000);
-        	collector.setLimitDegree(50);
+        	collector.setLimitPeople(50);
+        	collector.setLimitDegree(3);
         	collector.setCollectFollowingRelationship(true);
         	collector.setCollectFollowerRelationship(true);
+        	collector.setCollectUserBlogEntry(false);
         	
         	collector.collectSocialNetwork("louiezzang");
         } catch (Exception ex) {

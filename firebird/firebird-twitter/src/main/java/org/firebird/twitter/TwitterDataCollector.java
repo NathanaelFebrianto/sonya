@@ -7,9 +7,17 @@ package org.firebird.twitter;
 import java.util.HashMap;
 import java.util.List;
 
+import org.firebird.io.dao.ibatis.EdgeDaoiBatis;
+import org.firebird.io.dao.ibatis.UserBlogEntryDaoiBatis;
 import org.firebird.io.dao.ibatis.VertexDaoiBatis;
+import org.firebird.io.model.Edge;
+import org.firebird.io.model.UserBlogEntry;
 import org.firebird.io.model.Vertex;
+import org.firebird.io.service.EdgeManager;
+import org.firebird.io.service.UserBlogEntryManager;
 import org.firebird.io.service.VertexManager;
+import org.firebird.io.service.impl.EdgeManagerImpl;
+import org.firebird.io.service.impl.UserBlogEntryManagerImpl;
 import org.firebird.io.service.impl.VertexManagerImpl;
 
 import twitter4j.Status;
@@ -26,8 +34,9 @@ public class TwitterDataCollector {
 
 	private int myId = 50900875;
 	private Twitter twitter = null;
-	private boolean isFollowing = false;
-	private boolean isFollower = false;
+	private boolean collectFollowing = false;
+	private boolean collectFollower = false;
+	private boolean collectUserBlogEntry = false;
 	private int limitLevel = 1;
 	private int limitPeople = 999999999;
 	private int limitDegree = 1;
@@ -38,6 +47,8 @@ public class TwitterDataCollector {
 	private HashMap<String, String> edges = new HashMap<String, String>();
 
 	private VertexManager vertexManager;
+	private EdgeManager edgeManager;
+	private UserBlogEntryManager userBlogEntryManager;
 	
 	private String baseUrl = null;
 
@@ -50,24 +61,35 @@ public class TwitterDataCollector {
 		twitter = twitterSupport.access(myId);
 		baseUrl = twitter.getBaseURL();
 		vertexManager = new VertexManagerImpl(new VertexDaoiBatis());
+		edgeManager = new EdgeManagerImpl(new EdgeDaoiBatis());
+		userBlogEntryManager = new UserBlogEntryManagerImpl(new UserBlogEntryDaoiBatis());
 	}
 
     /**
      * Sets if collects the following relationship or not.
      *
-     * @param isFollowing true if collects
+     * @param collectFollowing true if collects
      */
-	public void setCollectFollowingRelationship(boolean isFollowing) {
-		this.isFollowing = isFollowing;
+	public void setCollectFollowingRelationship(boolean collectFollowing) {
+		this.collectFollowing = collectFollowing;
 	}
 
     /**
      * Sets if collects the follower relationship or not.
      *
-     * @param isFollower true if collects
+     * @param collectFollower true if collects
      */
-	public void setCollectFollowerRelationship(boolean isFollower) {
-		this.isFollower = isFollower;
+	public void setCollectFollowerRelationship(boolean collectFollower) {
+		this.collectFollower = collectFollower;
+	}
+	
+    /**
+     * Sets if collects the user blog entries or not.
+     *
+     * @param collectUserBlogEntry true if collects
+     */
+	public void setCollectUserBlogEntry(boolean collectUserBlogEntry) {
+		this.collectUserBlogEntry = collectUserBlogEntry;
 	}
 
     /**
@@ -104,8 +126,8 @@ public class TwitterDataCollector {
      */
 	public void collectSocialNetwork(String screenName) {
 		System.out.println(">>>>>>>>>>>>>> option");
-		System.out.println("collect following relationship == " + isFollowing);
-		System.out.println("collect follower relationship == " + isFollowing);
+		System.out.println("collect following relationship == " + collectFollowing);
+		System.out.println("collect follower relationship == " + collectFollowing);
 		System.out.println("level limit == " + limitLevel);
 		System.out.println("people limit == " + limitPeople);
 
@@ -119,10 +141,10 @@ public class TwitterDataCollector {
 					+ user.getRateLimitRemaining());
 			System.out.println(">>>>>>>>>>>>>> start");
 
-			if (isFollowing)
+			if (collectFollowing)
 				this.collectFriendsOfUser(user, 1);
 
-			if (isFollower)
+			if (collectFollower)
 				this.collectFollowersOfUser(user, 1);
 		} catch (TwitterException te) {
 			te.printStackTrace();
@@ -160,9 +182,9 @@ public class TwitterDataCollector {
 					addEdge(user, friend);
 
 					// recursive call
-					if (isFollowing)
+					if (collectFollowing)
 						this.collectFriendsOfUser(friend, level);
-					if (isFollower)
+					if (collectFollower)
 						this.collectFollowersOfUser(friend, level);
 				}
 			}
@@ -195,9 +217,9 @@ public class TwitterDataCollector {
 					addEdge(follower, user);
 
 					// recursive call
-					if (isFollowing)
+					if (collectFollowing)
 						this.collectFriendsOfUser(follower, level);
-					if (isFollower)
+					if (collectFollower)
 						this.collectFollowersOfUser(follower, level);
 				}
 			}
@@ -214,42 +236,61 @@ public class TwitterDataCollector {
 			Vertex vertex = this.makeVertex(user);
 			vertexManager.deleteVertex(vertex);
 			vertexManager.addVertex(vertex);
+			
+			// collect user blog entries
+			if (collectUserBlogEntry) {
+				try {
+					this.addUserBlogEntries(twitter.getUserTimeline(user.getScreenName()));
+				} catch (TwitterException te) {
+					te.printStackTrace();
+				}				
+			}
 		}
 	}
 
 	private void addEdge(User user1, User user2) {
-		String key = String.valueOf(user1.getId()) + "->"
-				+ String.valueOf(user2.getId());
+		String key = String.valueOf(user1.getId()) + "->" + String.valueOf(user2.getId());
 
 		if (!edges.containsKey(key)) {
 			edges.put(key, "following");
-			System.out.println(user1.getScreenName() + " -> "
-					+ user2.getScreenName());
+			System.out.println(user1.getScreenName() + " -> " + user2.getScreenName());
+			Edge edge = this.makeEdge(user1, user2);
+			edgeManager.deleteEdge(edge);
+			edgeManager.addEdge(edge);			
 		}
 	}
 	
 	private void addUserBlogEntries(List<Status> statuses) {
-		
+		for (int i = 0; i < statuses.size(); i++) {
+			Status status = (Status)statuses.get(i);
+			UserBlogEntry userBlogEntry = makeUserBlogEntry(status);
+			
+			// delete already-exist user blog entries
+			userBlogEntryManager.deleteUserBlogEntry(userBlogEntry.getWebsiteId(), userBlogEntry.getUserId());
+			// add user blog entry
+			userBlogEntryManager.addUserBlogEntry(userBlogEntry);
+		}		
 	}
 
 	private Vertex makeVertex(User user) {
 		Vertex vertex = new Vertex();
 
 		vertex.setWebsiteId(1);
-		vertex.setId(user.getId());
+		vertex.setId(user.getScreenName());
+		vertex.setNo(user.getId());
 		vertex.setName(user.getName());
-		// vertex.setColor(String color);
-		// vertex.setShape(String shape);
-		// vertex.setSize(int size);
-		// vertex.setOpacity(int opacity);
+		//vertex.setColor();
+		//vertex.setShape();
+		//vertex.setSize();
+		//vertex.setOpacity();
 		vertex.setImageFile((user.getProfileImageURL() == null) ? null : user
 				.getProfileImageURL().toString());
 		vertex.setInDegree(user.getFollowersCount());
 		vertex.setOutDegree(user.getFriendsCount());
-		// vertex.setBetweenessCentrality(long betweenessCentrality);
-		// vertex.setClosenessCentrality(long closenessCentrality);
-		// vertex.setEigenvectorCentrality(long eigenvectorCentrality);
-		// vertex.setClusteringCoefficient(long clusteringCoefficient);
+		//vertex.setBetweenessCentrality();
+		//vertex.setClosenessCentrality();
+		//vertex.setEigenvectorCentrality();
+		//vertex.setClusteringCoefficient();
 		vertex.setFollowing(user.getFriendsCount());
 		vertex.setFollowers(user.getFollowersCount());
 		vertex.setUserNo(user.getId());
@@ -258,23 +299,62 @@ public class TwitterDataCollector {
 		vertex.setUserUrl(baseUrl + user.getScreenName());
 		vertex.setBlogEntryCount(user.getStatusesCount());
 		vertex.setLastBlogEntryId(String.valueOf(user.getStatusId()));
-
-		// Status status = twitter.showStatus(user.getStatusId());
-		vertex.setLastBlogEntry(user.getStatusText());
+		vertex.setLastBlogEntryBody(user.getStatusText());
 		vertex.setLastBlogEntryType("1");
 		vertex.setLastBlogEntryCreateDate(user.getStatusCreatedAt());
-		vertex.setLastBlogEntryReplyTo(String.valueOf(user.getStatusInReplyToUserId()));
-		// vertex.setLastBlogEntryDmTo(String lastBlogEntryDmTo);
-		// vertex.setLastBlogEntryReferFrom(String lastBlogEntryReferFrom);
+		vertex.setLastBlogEntryReplyTo(user.getStatusInReplyToScreenName());
+		//vertex.setLastBlogEntryDmTo();
+		//vertex.setLastBlogEntryReferFrom();
 		vertex.setCreateDate(user.getCreatedAt());
 		vertex.setLastUpdateDate(user.getCreatedAt());
-		// vertex.setColCreateDate(String colCreateDate);
-		// vertex.setColLastUpdateDate(String colLastUpdateDate);
 
 		return vertex;
 	}
+	
+	private Edge makeEdge(User user1, User user2) {
+		Edge edge = new Edge();
+		
+		edge.setWebsiteId(1);
+		edge.setVertex1(user1.getScreenName());
+		edge.setVertex2(user2.getScreenName());
+		edge.setVertexNo1(user1.getId());
+		edge.setVertexNo2(user2.getId());
+		//edge.setColor();
+		//edge.setWidth();
+		//edge.setOpacity();
+		edge.setDirected(true);
+		edge.setRelationship("1");
+		//edge.setCloseness();
+		//edge.setReplyCount();
+		//edge.setDmCount();
+		//edge.setReferCount();
+		//edge.setLastReplyDate();
+		//edge.setLastDmDate();
+		//edge.setLastReferDate();
+		//edge.setCreateDate();
+		//edge.setLastUpdateDate();
+		
+		return edge; 
+	}	 
+	
+	private UserBlogEntry makeUserBlogEntry(Status status) {
+		UserBlogEntry userBlogEntry = new UserBlogEntry();
 
-	/*
-	 * private Edge makeEdge(User user1, User user2) { return null; }
-	 */
+		userBlogEntry.setWebsiteId(1);
+		userBlogEntry.setUserId(status.getUser().getScreenName());
+		userBlogEntry.setUserNo(status.getUser().getId());
+		userBlogEntry.setBlogEntryId(String.valueOf(status.getId()));
+		userBlogEntry.setTitle(status.getSource());
+		userBlogEntry.setBody(status.getText());
+		userBlogEntry.setBlogEntryType("1");
+		userBlogEntry.setPermaLinkUrl(null);
+		userBlogEntry.setUserLinkUrl(null);
+		userBlogEntry.setReplyTo(status.getInReplyToScreenName());
+		userBlogEntry.setDmTo(null);
+		userBlogEntry.setReferFrom(null);
+		userBlogEntry.setCreateDate(status.getCreatedAt());
+		userBlogEntry.setLastUpdateDate(status.getCreatedAt());
+		
+		return userBlogEntry;
+	}
 }
