@@ -4,6 +4,8 @@ All rights reserved.
 */
 package org.firebird.io.dao.ibatis;
 
+import java.util.List;
+
 import org.apache.ibatis.session.SqlSession;
 import org.firebird.dao.ibatis.GenericDaoiBatis;
 import org.firebird.io.dao.VertexDao;
@@ -16,9 +18,29 @@ import org.firebird.io.model.Vertex;
  */
 public class VertexDaoiBatis extends GenericDaoiBatis implements VertexDao {
 
+	/**
+     * Constructor.
+     *
+     */
 	public VertexDaoiBatis() {
 	}
 
+    /**
+     * Selects vertex list(vertices).
+     *
+     * @param websiteId the websiteId
+     * @return List<Vertex> the vertex list
+     */
+	public List<Vertex> selectVertices(int websiteId) {
+		SqlSession session = sqlSessionFactory.openSession();
+		try {
+			List<Vertex> vertices = session.selectList("ibatis.sqlmap.Vertex.selectVertices", websiteId);
+			return vertices;			
+		} finally {
+			session.close();
+		}		
+	}
+	
     /**
      * Inserts a vertex.
      *

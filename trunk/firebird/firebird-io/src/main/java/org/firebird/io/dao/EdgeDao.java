@@ -4,6 +4,8 @@ All rights reserved.
 */
 package org.firebird.io.dao;
 
+import java.util.List;
+
 import org.firebird.dao.GenericDao;
 import org.firebird.io.model.Edge;
 
@@ -15,6 +17,14 @@ import org.firebird.io.model.Edge;
 public interface EdgeDao extends GenericDao {
 
     /**
+     * Selects egde list.
+     *
+     * @param websiteId the websiteId
+     * @return List<Edge> the edge list
+     */
+	public List<Edge> selectEdges(int websiteId);
+	
+	/**
      * Inserts a edge.
      *
      * @param edge the edge

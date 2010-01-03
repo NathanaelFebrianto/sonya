@@ -8,7 +8,6 @@ import org.apache.ibatis.session.SqlSession;
 import org.firebird.dao.ibatis.GenericDaoiBatis;
 import org.firebird.io.dao.UserBlogEntryDao;
 import org.firebird.io.model.UserBlogEntry;
-import org.firebird.io.model.Vertex;
 
 /**
  * A implementation for user blog entry DAO.
@@ -17,6 +16,10 @@ import org.firebird.io.model.Vertex;
  */
 public class UserBlogEntryDaoiBatis extends GenericDaoiBatis implements UserBlogEntryDao {
 
+	/**
+     * Constructor.
+     *
+     */
 	public UserBlogEntryDaoiBatis() {
 	}
 
