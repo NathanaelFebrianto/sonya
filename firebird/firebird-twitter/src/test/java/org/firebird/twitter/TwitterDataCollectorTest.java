@@ -37,7 +37,7 @@ public class TwitterDataCollectorTest extends TestCase
         	collector.setCollectFollowingRelationship(true);
         	collector.setCollectFollowerRelationship(true);
         	
-        	collector.collectSocialNetwork("leesbok");
+        	collector.collectSocialNetwork("louiezzang");
         } catch (Exception ex) {
         	ex.printStackTrace();
         }

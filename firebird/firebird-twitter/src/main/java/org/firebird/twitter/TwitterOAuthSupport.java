@@ -1,3 +1,7 @@
+/*
+Copyright (c) 2009-2010, Young-Gue Bae
+All rights reserved.
+*/
 package org.firebird.twitter;
 
 import java.util.ResourceBundle;
@@ -6,14 +10,29 @@ import java.util.StringTokenizer;
 import twitter4j.Twitter;
 import twitter4j.http.AccessToken;
 
+/**
+ * A support for twitter OAuth connection.
+ * 
+ * @author Young-Gue Bae
+ */
 public class TwitterOAuthSupport {
 
 	private ResourceBundle oauthInfo = null;
-	
+
+	/**
+     * Constructor.
+     *
+     */
 	public TwitterOAuthSupport() {
 		oauthInfo = ResourceBundle.getBundle("oauth"); 
 	}
 
+    /**
+     * Access the twitter by OAuth.
+     *
+     * @param userId the twitter user id
+     * @return Twitter the Twitter object
+     */
 	public Twitter access(int userId) throws Exception {
 		Twitter twitter = new Twitter();
 		
