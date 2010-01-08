@@ -4,6 +4,8 @@
  */
 package org.firebird.twitter;
 
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 
@@ -34,7 +36,8 @@ public class TwitterDataCollector {
 
 	private int myId = 50900875;
 	private Twitter twitter = null;
-	private boolean collectFollowing = false;
+	private boolean dbStorageMode = false;
+	private boolean collectFriend = false;
 	private boolean collectFollower = false;
 	private boolean collectUserBlogEntry = false;
 	private int limitLevel = 1;
@@ -43,8 +46,8 @@ public class TwitterDataCollector {
 	private int numFriends = 0;
 	private int numFollowers = 0;
 
-	private HashMap<String, String> vertices = new HashMap<String, String>();
-	private HashMap<String, String> edges = new HashMap<String, String>();
+	private HashMap<String, Vertex> vertices = new HashMap<String, Vertex>();
+	private HashMap<String, Edge> edges = new HashMap<String, Edge>();
 
 	private VertexManager vertexManager;
 	private EdgeManager edgeManager;
@@ -66,12 +69,21 @@ public class TwitterDataCollector {
 	}
 
     /**
-     * Sets if collects the following relationship or not.
+     * Sets true if stores data into database.
      *
-     * @param collectFollowing true if collects
+     * @param dbStorageMode true if stores into database
      */
-	public void setCollectFollowingRelationship(boolean collectFollowing) {
-		this.collectFollowing = collectFollowing;
+	public void setDBStorageMode(boolean dbStorageMode) {
+		this.dbStorageMode = dbStorageMode;
+	}
+	
+    /**
+     * Sets if collects the friend(following) relationship or not.
+     *
+     * @param collectFriend true if collects
+     */
+	public void setCollectFriendRelationship(boolean collectFriend) {
+		this.collectFriend = collectFriend;
 	}
 
     /**
@@ -97,7 +109,7 @@ public class TwitterDataCollector {
      *
      * @param limitLevel the limit level
      */
-	public void setLimitLevel(int limitLevel) {
+	public void setLevelLimit(int limitLevel) {
 		this.limitLevel = limitLevel;
 	}
 
@@ -106,7 +118,7 @@ public class TwitterDataCollector {
      *
      * @param limitPeople the number of people
      */
-	public void setLimitPeople(int limitPeople) {
+	public void setPeopleLimit(int limitPeople) {
 		this.limitPeople = limitPeople;
 	}
 
@@ -115,7 +127,7 @@ public class TwitterDataCollector {
      *
      * @param limitDegree the limit degree
      */
-	public void setLimitDegree(int limitDegree) {
+	public void setDegreeLimit(int limitDegree) {
 		this.limitDegree = limitDegree;
 	}
 
@@ -125,9 +137,10 @@ public class TwitterDataCollector {
      * @param screenName the twitter user's screenName
      */
 	public void collectSocialNetwork(String screenName) {
-		System.out.println(">>>>>>>>>>>>>> option");
-		System.out.println("collect following relationship == " + collectFollowing);
-		System.out.println("collect follower relationship == " + collectFollowing);
+		System.out.println(">>>>>>>>>>>>>> collector option : ");
+		System.out.println("database storage mode == " + dbStorageMode);
+		System.out.println("collect friend(following) relationship == " + collectFriend);
+		System.out.println("collect follower relationship == " + collectFriend);
 		System.out.println("level limit == " + limitLevel);
 		System.out.println("people limit == " + limitPeople);
 
@@ -136,16 +149,14 @@ public class TwitterDataCollector {
 		try {
 			user = twitter.showUser(screenName);
 
-			System.out.println("rate limit == " + user.getRateLimitLimit());
-			System.out.println("rate limit remaining  == "
-					+ user.getRateLimitRemaining());
+			System.out.println("rate limit remaining  == " + user.getRateLimitRemaining() + " / " + user.getRateLimitLimit());
 			System.out.println(">>>>>>>>>>>>>> start");
 
-			if (collectFollowing)
-				this.collectFriendsOfUser(user, 1);
+			if (collectFriend)
+				this.collectFriendsOfUser(user, 0);
 
 			if (collectFollower)
-				this.collectFollowersOfUser(user, 1);
+				this.collectFollowersOfUser(user, 0);
 		} catch (TwitterException te) {
 			te.printStackTrace();
 		}
@@ -158,18 +169,41 @@ public class TwitterDataCollector {
 		System.out.println("vertices == " + vertices.size());
 		System.out.println("edges == " + edges.size());
 	}
+	
+    /**
+     * Gets the vertices from the memory storage.
+     *
+     * @return List<Vertex> the vertex list
+     */
+	public List<Vertex> getVertices() {
+		Collection<Vertex> c = vertices.values();
+		List<Vertex> v = new ArrayList<Vertex>(c);
+		return v;
+	}
+	
+    /**
+     * Gets the edges from the memory storage.
+     *
+     * @return List<Edge> the edge list
+     */
+	public List<Edge> getEdges() {
+		Collection<Edge> c = edges.values();
+		List<Edge> e = new ArrayList<Edge>(c);
+		return e;
+	}
 
 	private void collectFriendsOfUser(User user, int level) {
 		try {
-			if (level <= limitLevel && numFriends <= limitPeople) {
+			if (level < limitLevel && numFriends <= limitPeople) {
 				// add vertex
 				addVertex(user);
 
 				List<User> friends = twitter.getFriendsStatuses(String.valueOf(user.getId()));
-
+				
 				level++;
 				for (int i = 0; i < friends.size(); i++) {
-					if (i == limitDegree)
+					// level > 1 -> collect everyone for an initial user whatever degree limit
+					if (level > 1 && i == limitDegree)	
 						break;
 
 					numFriends++;
@@ -182,7 +216,7 @@ public class TwitterDataCollector {
 					addEdge(user, friend);
 
 					// recursive call
-					if (collectFollowing)
+					if (collectFriend)
 						this.collectFriendsOfUser(friend, level);
 					if (collectFollower)
 						this.collectFollowersOfUser(friend, level);
@@ -195,16 +229,16 @@ public class TwitterDataCollector {
 
 	private void collectFollowersOfUser(User user, int level) {
 		try {
-			if (level <= limitLevel && numFollowers <= limitPeople) {
+			if (level < limitLevel && numFollowers <= limitPeople) {
 				// add vertex
 				addVertex(user);
 
-				List<User> followers = twitter.getFollowersStatuses(String
-						.valueOf(user.getId()));
+				List<User> followers = twitter.getFollowersStatuses(String.valueOf(user.getId()));
 
 				level++;
 				for (int i = 0; i < followers.size(); i++) {
-					if (i == limitDegree)
+					// level > 1 -> collect everyone for an initial user whatever degree limit
+					if (level > 1 && i == limitDegree)
 						break;
 
 					numFollowers++;
@@ -217,11 +251,11 @@ public class TwitterDataCollector {
 					addEdge(follower, user);
 
 					// recursive call
-					if (collectFollowing)
+					if (collectFriend)
 						this.collectFriendsOfUser(follower, level);
 					if (collectFollower)
 						this.collectFollowersOfUser(follower, level);
-				}
+				}				
 			}
 		} catch (TwitterException te) {
 			te.printStackTrace();
@@ -232,18 +266,21 @@ public class TwitterDataCollector {
 		String key = String.valueOf(user.getId());
 
 		if (!vertices.containsKey(key)) {
-			vertices.put(key, "");
 			Vertex vertex = this.makeVertex(user);
-			vertexManager.deleteVertex(vertex);
-			vertexManager.addVertex(vertex);
+			vertices.put(key, vertex);
 			
-			// collect user blog entries
-			if (collectUserBlogEntry) {
-				try {
-					this.addUserBlogEntries(twitter.getUserTimeline(user.getScreenName()));
-				} catch (TwitterException te) {
-					te.printStackTrace();
-				}				
+			if (dbStorageMode == true) {
+				vertexManager.deleteVertex(vertex);
+				vertexManager.addVertex(vertex);
+			
+				// collect user blog entries
+				if (collectUserBlogEntry) {
+					try {
+						this.addUserBlogEntries(twitter.getUserTimeline(user.getScreenName()));
+					} catch (TwitterException te) {
+						te.printStackTrace();
+					}				
+				}
 			}
 		}
 	}
@@ -252,11 +289,14 @@ public class TwitterDataCollector {
 		String key = String.valueOf(user1.getId()) + "->" + String.valueOf(user2.getId());
 
 		if (!edges.containsKey(key)) {
-			edges.put(key, "following");
-			System.out.println(user1.getScreenName() + " -> " + user2.getScreenName());
 			Edge edge = this.makeEdge(user1, user2);
-			edgeManager.deleteEdge(edge);
-			edgeManager.addEdge(edge);			
+			edges.put(key, edge);
+			System.out.println(user1.getScreenName() + " -> " + user2.getScreenName());
+			
+			if (dbStorageMode == true) {
+				edgeManager.deleteEdge(edge);
+				edgeManager.addEdge(edge);
+			}
 		}
 	}
 	
@@ -291,8 +331,8 @@ public class TwitterDataCollector {
 		//vertex.setClosenessCentrality();
 		//vertex.setEigenvectorCentrality();
 		//vertex.setClusteringCoefficient();
-		vertex.setFollowing(user.getFriendsCount());
-		vertex.setFollowers(user.getFollowersCount());
+		vertex.setFriendsCount(user.getFriendsCount());
+		vertex.setFollowersCount(user.getFollowersCount());
 		vertex.setUserNo(user.getId());
 		vertex.setUserId(user.getScreenName());
 		vertex.setUserName(user.getName());
@@ -314,7 +354,8 @@ public class TwitterDataCollector {
 	private Edge makeEdge(User user1, User user2) {
 		Edge edge = new Edge();
 		
-		edge.setWebsiteId(1);
+		edge.setWebsiteId1(1);
+		edge.setWebsiteId2(1);
 		edge.setVertex1(user1.getScreenName());
 		edge.setVertex2(user2.getScreenName());
 		edge.setVertexNo1(user1.getId());
@@ -346,6 +387,7 @@ public class TwitterDataCollector {
 		userBlogEntry.setBlogEntryId(String.valueOf(status.getId()));
 		userBlogEntry.setTitle(status.getSource());
 		userBlogEntry.setBody(status.getText());
+		userBlogEntry.setSourceWebsiteId(1);
 		userBlogEntry.setBlogEntryType("1");
 		userBlogEntry.setPermaLinkUrl(null);
 		userBlogEntry.setUserLinkUrl(null);
