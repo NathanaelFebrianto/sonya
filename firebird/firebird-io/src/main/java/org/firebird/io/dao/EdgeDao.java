@@ -19,10 +19,11 @@ public interface EdgeDao extends GenericDao {
     /**
      * Selects egde list.
      *
-     * @param websiteId the websiteId
+     * @param websiteId1 the websiteId1
+     * @param websiteId2 the websiteId2
      * @return List<Edge> the edge list
      */
-	public List<Edge> selectEdges(int websiteId);
+	public List<Edge> selectEdges(int websiteId1, int websiteId2);
 	
 	/**
      * Inserts a edge.

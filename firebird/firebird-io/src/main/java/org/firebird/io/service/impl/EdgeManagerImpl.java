@@ -33,11 +33,12 @@ public class EdgeManagerImpl extends GenericManagerImpl implements EdgeManager {
     /**
      * Gets the egde list.
      *
-     * @param websiteId the websiteId
+     * @param websiteId1 the websiteId1
+     * @param websiteId2 the websiteId2
      * @return List<Edge> the edge list
      */
-	public List<Edge> getEdges(int websiteId) {
-		return edgeDao.selectEdges(websiteId);
+	public List<Edge> getEdges(int websiteId1, int websiteId2) {
+		return edgeDao.selectEdges(websiteId1, websiteId2);
 	}
     
     /**

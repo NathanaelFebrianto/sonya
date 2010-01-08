@@ -20,6 +20,7 @@ public class UserBlogEntry implements Serializable {
 	private String blogEntryId;
 	private String title;
 	private String body;
+	private int sourceWebsiteId;
 	private String blogEntryType;
 	private String permaLinkUrl;
 	private String userLinkUrl;
@@ -48,6 +49,9 @@ public class UserBlogEntry implements Serializable {
 	}
 	public String getBody() {
 		return body;
+	}
+	public int getSourceWebsiteId() {
+		return sourceWebsiteId;
 	}
 	public String getBlogEntryType() {
 		return blogEntryType;
@@ -96,6 +100,9 @@ public class UserBlogEntry implements Serializable {
 	}
 	public void setBody(String body) {
 		this.body = body;
+	}
+	public void setSourceWebsiteId(int sourceWebsiteId) {
+		this.sourceWebsiteId = sourceWebsiteId;
 	}
 	public void setBlogEntryType(String blogEntryType) {
 		this.blogEntryType = blogEntryType;
