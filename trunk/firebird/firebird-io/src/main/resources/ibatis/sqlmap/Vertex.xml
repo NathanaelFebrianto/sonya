@@ -21,8 +21,8 @@
 		<result property="closenessCentrality" column="closeness_centrality" />
 		<result property="eigenvectorCentrality" column="eigenvector_centrality" />
 		<result property="clusteringCoefficient" column="clustering_coefficient" />
-		<result property="following" column="following" />
-		<result property="followers" column="followers" />
+		<result property="friendsCount" column="friends_count" />
+		<result property="followersCount" column="followers_count" />
 		<result property="userNo" column="user_no" />
 		<result property="userId" column="user_id" />
 		<result property="userName" column="user_name" />
@@ -57,8 +57,8 @@
 			, image_file
 			, in_degree
 			, out_degree
-			, following
-			, followers
+			, friends_count
+			, followers_count
 			, user_no
 			, user_id
 			, user_name
@@ -84,8 +84,8 @@
 			, #{imageFile,jdbcType=VARCHAR}
 			, #{inDegree,javaType=int,jdbcType=NUMERIC}
 			, #{outDegree,javaType=int,jdbcType=NUMERIC}
-			, #{following,javaType=int,jdbcType=NUMERIC}
-			, #{followers,javaType=int,jdbcType=NUMERIC}
+			, #{friendsCount,javaType=int,jdbcType=NUMERIC}
+			, #{followersCount,javaType=int,jdbcType=NUMERIC}
 			, #{userNo,javaType=int,jdbcType=NUMERIC}
 			, #{userId,jdbcType=VARCHAR}
 			, #{userName,jdbcType=VARCHAR}

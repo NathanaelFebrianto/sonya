@@ -26,6 +26,7 @@
 			, user_no
 			, title
 			, body
+			, source_website_id
 			, blog_entry_type
 			, permalink_url
 			, user_link_url
@@ -44,6 +45,7 @@
 			, #{userNo,javaType=int,jdbcType=NUMERIC}
 			, #{title,jdbcType=VARCHAR}
 			, #{body,jdbcType=VARCHAR}
+			, #{sourceWebsiteId,javaType=int,jdbcType=NUMERIC}
 			, #{blogEntryType,jdbcType=CHAR}
 			, #{permaLinkUrl,jdbcType=VARCHAR}
 			, #{userLinkUrl,jdbcType=VARCHAR}

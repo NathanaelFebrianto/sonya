@@ -5,8 +5,9 @@
 <mapper namespace="ibatis.sqlmap.Edge">
 
 	<resultMap id="edgeResultMap" type="org.firebird.io.model.Edge">
-		<id property="websiteId" column="website_id" />
-		<result property="websiteId" column="website_id" />
+		<id property="websiteId1" column="website_id1" />
+		<result property="websiteId1" column="website_id1" />
+		<result property="websiteId2" column="website_id2" />
 		<result property="vertex1" column="vertex1" />
 		<result property="vertex2" column="vertex2" />
 		<result property="vertexNo1" column="vertex_no1" />
@@ -29,16 +30,19 @@
 		<result property="colLastUpdateDate" column="col_last_update_date" />
 	</resultMap>
 
-	<select id="selectEdges" parameterType="int" resultMap="edgeResultMap">
+	<select id="selectEdges" parameterType="org.firebird.io.model.Edge" resultMap="edgeResultMap">
 		SELECT
 		*
 		FROM edge
-		WHERE website_id = #{websiteId}
+		WHERE
+			website_id1 = #{websiteId1}
+			AND website_id2 = #{websiteId2}
 	</select>
 
 	<insert id="insertEdge" parameterType="org.firebird.io.model.Edge">
 		INSERT INTO edge (
-			website_id
+			website_id1
+			, website_id2
 			, vertex1
 			, vertex2
 			, vertex_no1
@@ -61,7 +65,8 @@
 			, col_last_update_date			 
 		)
 		VALUES (
-			#{websiteId}
+			#{websiteId1}
+			, #{websiteId2}
 			, #{vertex1}
 			, #{vertex2}
 			, #{vertexNo1,javaType=int,jdbcType=NUMERIC}
@@ -88,8 +93,11 @@
 	<delete id="deleteEdge" parameterType="org.firebird.io.model.Edge">
 		DELETE FROM edge
 		WHERE
-		<if test="websiteId != null">
-			website_id = #{websiteId}
+		<if test="websiteId1 != null">
+			website_id1 = #{websiteId1}
+		</if>
+		<if test="websiteId2 != null">
+			AND website_id2 = #{websiteId2}
 		</if>
 		<if test="vertex1 != null">
 			AND vertex1 = #{vertex1}

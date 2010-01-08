@@ -29,8 +29,8 @@ public class Vertex implements Serializable {
 	private long closenessCentrality;
 	private long eigenvectorCentrality;
 	private long clusteringCoefficient;
-	private int following;
-	private int followers;
+	private int friendsCount;
+	private int followersCount;
 	private int userNo;
 	private String userId;
 	private String userName;
@@ -93,11 +93,11 @@ public class Vertex implements Serializable {
 	public long getClusteringCoefficient() {
 		return clusteringCoefficient;
 	}
-	public int getFollowing() {
-		return following;
+	public int getFriendsCount() {
+		return friendsCount;
 	}
-	public int getFollowers() {
-		return followers;
+	public int getFollowersCount() {
+		return followersCount;
 	}
 	public int getUserNo() {
 		return userNo;
@@ -192,11 +192,11 @@ public class Vertex implements Serializable {
 	public void setClusteringCoefficient(long clusteringCoefficient) {
 		this.clusteringCoefficient = clusteringCoefficient;
 	}
-	public void setFollowing(int following) {
-		this.following = following;
+	public void setFriendsCount(int friendsCount) {
+		this.friendsCount = friendsCount;
 	}
-	public void setFollowers(int followers) {
-		this.followers = followers;
+	public void setFollowersCount(int followersCount) {
+		this.followersCount = followersCount;
 	}
 	public void setUserNo(int userNo) {
 		this.userNo = userNo;

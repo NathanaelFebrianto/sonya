@@ -14,7 +14,8 @@ import java.util.Date;
  */
 public class Edge implements Serializable {	
 	private static final long serialVersionUID = -1346539592439752207L;
-	private int websiteId;
+	private int websiteId1;
+	private int websiteId2;
 	private String vertex1;
 	private String vertex2;
 	private int vertexNo1;
@@ -36,8 +37,11 @@ public class Edge implements Serializable {
 	private Date colCreateDate;
 	private Date colLastUpdateDate;
 	
-	public int getWebsiteId() {
-		return websiteId;
+	public int getWebsiteId1() {
+		return websiteId1;
+	}
+	public int getWebsiteId2() {
+		return websiteId2;
 	}
 	public String getVertex1() {
 		return vertex1;
@@ -99,8 +103,11 @@ public class Edge implements Serializable {
 	public Date getColLastUpdateDate() {
 		return colLastUpdateDate;
 	}
-	public void setWebsiteId(int websiteId) {
-		this.websiteId = websiteId;
+	public void setWebsiteId1(int websiteId1) {
+		this.websiteId1 = websiteId1;
+	}
+	public void setWebsiteId2(int websiteId2) {
+		this.websiteId2 = websiteId2;
 	}
 	public void setVertex1(String vertex1) {
 		this.vertex1 = vertex1;

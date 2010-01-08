@@ -28,13 +28,17 @@ public class EdgeDaoiBatis extends GenericDaoiBatis implements EdgeDao {
     /**
      * Selects egde list.
      *
-     * @param websiteId the websiteId
+     * @param websiteId1 the websiteId1
+     * @param websiteId2 the websiteId2
      * @return List<Edge> the edge list
      */
-	public List<Edge> selectEdges(int websiteId) {
+	public List<Edge> selectEdges(int websiteId1, int websiteId2) {
 		SqlSession session = sqlSessionFactory.openSession();
 		try {
-			List<Edge> edges = session.selectList("ibatis.sqlmap.Edge.selectEdges", websiteId);
+			Edge edge = new Edge();
+			edge.setWebsiteId1(websiteId1);
+			edge.setWebsiteId2(websiteId2);
+			List<Edge> edges = session.selectList("ibatis.sqlmap.Edge.selectEdges", edge);
 			return edges;			
 		} finally {
 			session.close();
