@@ -209,7 +209,7 @@ public class GraphToolBar {
 					List<Edge> edges = collector.getEdges();
 
 					panelGraph.showGraph(vertices, edges);			
-					panelGraph.getGraphViewer().setGraphLayout(new FRLayout<Vertex, Edge>(panelGraph.getGraph()));
+					//panelGraph.getGraphViewer().setGraphLayout(new FRLayout<Vertex, Edge>(panelGraph.getGraph()));
 					
 				} catch (Exception ex) {
 					ex.printStackTrace();
@@ -226,7 +226,7 @@ public class GraphToolBar {
 		    	List<Edge> edges = edgeManager.getEdges(1, 1);
 		    	
 		    	panelGraph.showGraph(vertices, edges);			
-		    	panelGraph.getGraphViewer().setGraphLayout(new FRLayout<Vertex, Edge>(panelGraph.getGraph()));    	
+		    	//panelGraph.getGraphViewer().setGraphLayout(new FRLayout<Vertex, Edge>(panelGraph.getGraph()));    	
 			}
 		};
 		
@@ -237,7 +237,7 @@ public class GraphToolBar {
 					collector.setDBStorageMode(true);
 					collector.setLevelLimit(3);
 					collector.setPeopleLimit(1000);
-					collector.setDegreeLimit(50);
+					collector.setDegreeLimit(100);
 					collector.setCollectFriendRelationship(true);
 					collector.setCollectFollowerRelationship(true);
 					collector.setCollectUserBlogEntry(false);
