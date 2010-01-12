@@ -11,6 +11,7 @@ import org.firebird.dao.ibatis.GenericDaoiBatis;
 import org.firebird.io.dao.EdgeDao;
 import org.firebird.io.model.Edge;
 
+
 /**
  * A implementation for edge DAO.
  * 
