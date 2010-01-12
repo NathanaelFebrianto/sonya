@@ -5,8 +5,8 @@
 package org.firebird.dao.ibatis;
 
 import org.apache.ibatis.session.SqlSessionFactory;
-import org.firebird.dao.FirebirdSqlSession;
 import org.firebird.dao.GenericDao;
+import org.firebird.dao.GenericSqlSession;
 
 /**
  * A generic DAO iBatis.
@@ -23,6 +23,6 @@ public class GenericDaoiBatis implements GenericDao {
 	 * 
 	 */
 	public GenericDaoiBatis() {
-		sqlSessionFactory = FirebirdSqlSession.getSqlSessionFactory();
+		sqlSessionFactory = GenericSqlSession.getSqlSessionFactory();
 	}
 }
