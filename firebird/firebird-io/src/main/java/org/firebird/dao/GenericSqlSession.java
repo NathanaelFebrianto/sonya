@@ -12,11 +12,11 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 /**
- * A firebird SQL session.
+ * A generic SQL session.
  * 
  * @author Young-Gue Bae
  */
-public class FirebirdSqlSession {
+public class GenericSqlSession {
 
 	private static final SqlSessionFactory sqlSessionFactory;
 
