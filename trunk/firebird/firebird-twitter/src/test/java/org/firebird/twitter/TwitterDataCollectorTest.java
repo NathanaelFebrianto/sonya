@@ -46,7 +46,7 @@ public class TwitterDataCollectorTest extends TestCase
         	collector.setCollectFollowerRelationship(true);
         	collector.setCollectUserBlogEntry(false);
         	
-        	//VertexManager vertexManager = new VertexManagerImpl(new VertexDaoiBatis());
+        	//VertexManager vertexManager = new VertexManagerImpl();
         	//List<Vertex> vertices = vertexManager.getVertices(1);
         	
         	collector.collectSocialNetwork("louiezzang");
