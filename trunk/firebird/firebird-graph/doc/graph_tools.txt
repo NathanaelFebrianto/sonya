@@ -1,0 +1,50 @@
+
+
+JUNG
+http://jung.sourceforge.net/
+
+GUESS -> JUNG, Prefuse ÀÌ¿כ
+http://graphexploration.cond.org/
+
+Prefuse
+http://prefuse.org
+http://flare.prefuse.org/ -> Flash
+
+NodeXL
+http://nodexl.codeplex.com/
+
+NWB(Network Work Bench)
+
+graphML
+
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+     http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph id="G" edgedefault="undirected">
+    <node id="n0"/>
+    <node id="n1"/>
+    <edge id="e1" source="n0" target="n1"/>
+  </graph>
+</graphml>
+
+
+framework
+1. view/controller
+- flex or swing
+- struts2
+2. server
+- spring
+3. persistence
+- ibatis
+4. data store
+- hadoop : hadoop common, hbase, hive
+- mysql
+
+datamining component
+- sna: jung / prefuse(flare)
+- datamining: mahout or weka
+
+http://oreilly.com/catalog/9780596521974/
+
