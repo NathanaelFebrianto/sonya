@@ -1,0 +1,7 @@
+Twitter
+ - showUser(java.lang.String id)
+ - showStatus(long id)
+ - getUserTimeline(java.lang.String id) 
+ - getFavorites(java.lang.String id) 
+ 
+ 
