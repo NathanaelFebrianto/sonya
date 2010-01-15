@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN" 
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<mapper namespace="org.firebird.io.dao.UserBlogEntryMapper">
+
+	<delete id="deleteUserBlogEntry" parameterType="org.firebird.io.model.UserBlogEntry">
+		DELETE FROM user_blog_entry
+		WHERE
+		<if test="websiteId != null">
+			website_id = #{websiteId}
+		</if>
+		<if test="userId != null">
+			AND user_id = #{userId}
+		</if>
+		<if test="blogEntryId != null">
+			AND blog_entry_id = #{blogEntryId}
+		</if>
+	</delete>
+		
+	<insert id="insertUserBlogEntry" parameterType="org.firebird.io.model.UserBlogEntry">
+		INSERT INTO user_blog_entry (
+			website_id
+			, user_id
+			, blog_entry_id
+			, user_no
+			, title
+			, body
+			, source_website_id
+			, blog_entry_type
+			, permalink_url
+			, user_link_url
+			, reply_to
+			, dm_to
+			, refer_from
+			, create_date
+			, last_update_date
+			, col_create_date
+			, col_last_update_date			 
+		)
+		VALUES (
+			#{websiteId}
+			, #{userId}
+			, #{blogEntryId}
+			, #{userNo,javaType=int,jdbcType=NUMERIC}
+			, #{title,jdbcType=VARCHAR}
+			, #{body,jdbcType=VARCHAR}
+			, #{sourceWebsiteId,javaType=int,jdbcType=NUMERIC}
+			, #{blogEntryType,jdbcType=CHAR}
+			, #{permaLinkUrl,jdbcType=VARCHAR}
+			, #{userLinkUrl,jdbcType=VARCHAR}
+			, #{replyTo,jdbcType=VARCHAR}
+			, #{dmTo,jdbcType=VARCHAR}
+			, #{referFrom,jdbcType=VARCHAR}
+			, #{createDate,jdbcType=DATE}
+			, #{lastUpdateDate,jdbcType=DATE}
+			, NOW()
+			, NOW()	
+		)
+	</insert>
+</mapper>
