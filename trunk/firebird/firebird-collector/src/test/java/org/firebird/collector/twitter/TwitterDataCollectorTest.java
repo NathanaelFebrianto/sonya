@@ -33,7 +33,7 @@ public class TwitterDataCollectorTest extends TestCase
         	TwitterDataCollector collector = new TwitterDataCollector();
         	collector.setDBStorageMode(true);
         	collector.setLevelLimit(2);
-        	collector.setPeopleLimit(100);
+        	collector.setPeopleLimit(20);
         	collector.setDegreeLimit(5);
         	collector.setCollectFriendRelationship(true);
         	collector.setCollectFollowerRelationship(true);
