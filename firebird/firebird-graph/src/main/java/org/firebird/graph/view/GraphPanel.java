@@ -6,15 +6,12 @@ package org.firebird.graph.view;
 
 import java.awt.BorderLayout;
 import java.awt.Container;
-import java.awt.Font;
-import java.util.Enumeration;
 import java.util.List;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import javax.swing.UIDefaults;
-import javax.swing.UIManager;
 
+import org.firebird.graph.bean.UIHandler;
 import org.firebird.io.model.Edge;
 import org.firebird.io.model.Vertex;
 
@@ -42,14 +39,8 @@ public class GraphPanel extends JPanel {
 	 * 
 	 */
 	public GraphPanel() {				
-		try {
-			//UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
-			UIManager.setLookAndFeel("com.jgoodies.plaf.plastic.Plastic3DLookAndFeel");
-
-			changeAllSwingComponentDefaultFont();
-		} catch (Exception ex) {
-			ex.printStackTrace();
-		}
+		UIHandler.setDefaultLookAndFeel();
+		UIHandler.changeAllSwingComponentDefaultFont();
 		
 		// create a graph
 		modeller = new GraphModeller();
@@ -65,23 +56,6 @@ public class GraphPanel extends JPanel {
 		add(toolbar, BorderLayout.NORTH);
 		add(panelViewer, BorderLayout.CENTER);
 	}
-	
-	private void changeAllSwingComponentDefaultFont() {
-		try {
-			UIDefaults swingComponentDefaultTable = UIManager.getDefaults();
-			
-			Enumeration allDefaultKey = swingComponentDefaultTable.keys();
-			while(allDefaultKey.hasMoreElements()) {
-				String defaultKey = allDefaultKey.nextElement().toString();
-				if(defaultKey.indexOf("font") != -1) {
-					Font newDefaultFont = new Font("³ª´®°íµñ", Font.PLAIN, 12);
-					UIManager.put(defaultKey, newDefaultFont);
-				}
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-	} 
 	
 	/**
 	 * Gets the graph.
@@ -121,7 +95,7 @@ public class GraphPanel extends JPanel {
 			final JFrame frame = new JFrame();
 			Container content = frame.getContentPane();
 			content.add(panel);
-			frame.setTitle("Social Network Analysis");
+			frame.setTitle(UIHandler.getText("title"));
 			frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			frame.pack();
 			frame.setVisible(true);
