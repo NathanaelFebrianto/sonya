@@ -7,6 +7,10 @@
 <struts>
 	<package name="myPackage" extends="struts-default" namespace="/">
 
+		<action name="communicate">
+			<result>/communicate</result>
+		</action>
+
         <action name="index" class="org.firebird.web.IndexAction">
 			<result>/jsp/index.jsp</result>
 		</action>
@@ -18,10 +22,6 @@
 		
 		<action name="graph">
 			<result>/jsp/graph/graph.jsp</result>
-		</action>
-		
-		<action name="communicate">
-			<result>/communicate</result>
 		</action>
 
         <action name="*">

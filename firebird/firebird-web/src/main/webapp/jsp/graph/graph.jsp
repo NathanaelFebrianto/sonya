@@ -38,7 +38,7 @@
 	<embed
             type = "application/x-java-applet;version=1.6" \
             CODE = org.firebird.graph.view.GraphApplet \
-			CODEBASE = "/firebird-web/client-lib" \
+			CODEBASE = "/firebird-web" \
 			ARCHIVE = 
 			"./client-lib/firebird-common.jar, ./client-lib/firebird-collector.jar, 
 	   		./client-lib/firebird-graph.jar, ./client-lib/firebird-io.jar, 
