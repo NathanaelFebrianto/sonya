@@ -19,6 +19,7 @@ import javax.swing.JPanel;
 import javax.swing.JTabbedPane;
 
 import org.firebird.graph.bean.GraphClientHandler;
+import org.firebird.graph.bean.UIHandler;
 import org.firebird.io.model.Edge;
 import org.firebird.io.model.Vertex;
 
@@ -101,17 +102,16 @@ public class GraphToolBar extends JTabbedPane {
 		
 		// group1		
 		JPanel panel1 = new JPanel();	
-		panel1.setToolTipText("Graph");
 		panel1.setLayout(new FlowLayout(FlowLayout.LEFT));
 		button = new JButton(this.getActionMap().get("zoomin"));
-		button.setText("+");
+		button.setText(UIHandler.getText("zoomin"));
 		//button.setToolTipText(null);
 		//button.setBorderPainted(true);
 		//button.setContentAreaFilled(false);
 		panel1.add(button);
 		
 		button = new JButton(this.getActionMap().get("zoomout"));
-		button.setText("-");
+		button.setText(UIHandler.getText("zoomout"));
 		panel1.add(button);
 		
 		// mouse mode
@@ -136,30 +136,36 @@ public class GraphToolBar extends JTabbedPane {
 		*/
 		jcbLayout.addActionListener(new LayoutChooser(jcbLayout, viewer));
 		jcbLayout.setSelectedItem(FRLayout.class);
-		panel1.add(jcbLayout);
-		
-		toolbarMap.put("Graph", panel1);		
-		this.addTab("Graph", panel1);
-		
+		panel1.add(jcbLayout);		
+	
 		// group2
 		JPanel panel2 = new JPanel();
-		panel2.setToolTipText("Data");
-		panel2.setLayout(new FlowLayout(FlowLayout.LEFT));
-		
-		button = new JButton(this.getActionMap().get("collect.twitter"));
-		button.setText("Collect Twitter to DB");
-		panel2.add(button);
+		panel2.setLayout(new FlowLayout(FlowLayout.LEFT));		
 		
 		button = new JButton(this.getActionMap().get("show.graph"));
-		button.setText("Show Graph from DB");
+		button.setText(UIHandler.getText("toolbar.show.db.graph"));
 		panel2.add(button);
 		
 		button = new JButton(this.getActionMap().get("show.realtime.graph"));
-		button.setText("Show Realtime Graph");
+		button.setText(UIHandler.getText("toolbar.show.realtime.graph"));
 		panel2.add(button);
 		
-		toolbarMap.put("Data", panel2);
-		this.addTab("Data", panel2);
+		// group3
+		JPanel panel3 = new JPanel();
+		panel3.setLayout(new FlowLayout(FlowLayout.LEFT));
+		button = new JButton(this.getActionMap().get("collect.twitter"));
+		button.setText(UIHandler.getText("toolbar.collect.twitter"));
+		panel3.add(button);
+		
+		// create tab menu
+		toolbarMap.put("Graph", panel2);
+		this.addTab(UIHandler.getText("toolbar.tab.graph"), panel2);
+		
+		toolbarMap.put("Data", panel3);
+		this.addTab(UIHandler.getText("toolbar.tab.data"), panel3);
+				
+		toolbarMap.put("Control", panel1);		
+		this.addTab(UIHandler.getText("toolbar.tab.control"), panel1);
 	}
 
 	/**
