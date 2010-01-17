@@ -2,9 +2,8 @@
  * Copyright (c) 2009-2010, Young-Gue Bae
  * All rights reserved.
  */
-package org.firebird.graph;
+package org.firebird.graph.view;
 
-import java.awt.Component;
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -14,20 +13,14 @@ import java.util.HashMap;
 import java.util.List;
 
 import javax.swing.AbstractAction;
-import javax.swing.DefaultListCellRenderer;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
-import javax.swing.JList;
 import javax.swing.JPanel;
 import javax.swing.JTabbedPane;
 
-import org.firebird.collector.twitter.TwitterDataCollector;
+import org.firebird.graph.bean.GraphClientHandler;
 import org.firebird.io.model.Edge;
 import org.firebird.io.model.Vertex;
-import org.firebird.io.service.EdgeManager;
-import org.firebird.io.service.VertexManager;
-import org.firebird.io.service.impl.EdgeManagerImpl;
-import org.firebird.io.service.impl.VertexManagerImpl;
 
 import edu.uci.ics.jung.algorithms.layout.CircleLayout;
 import edu.uci.ics.jung.algorithms.layout.FRLayout;
@@ -71,6 +64,9 @@ public class GraphToolBar extends JTabbedPane {
 	/** toolbar group */
 	HashMap<String, JPanel> toolbarMap = new HashMap<String, JPanel>();
 	
+	/** graph client handler */
+	GraphClientHandler handler;
+	
 	/**
 	 * Constructor.
 	 * 
@@ -80,6 +76,7 @@ public class GraphToolBar extends JTabbedPane {
 		this.panelGraph = panelGraph;
 		this.viewer = panelGraph.getGraphViewer();
 		this.graph = panelGraph.getGraph();
+		this.handler = new GraphClientHandler();
 		
 		initActions();
 	    setActionMap();
@@ -122,9 +119,10 @@ public class GraphToolBar extends JTabbedPane {
 		panel1.add(jcbMouseMode);
 
 		// create layout choose
-		Class[] combos = getCombos();
-		final JComboBox jcbLayout = new JComboBox(combos);
+		Object[] layouts = getLayoutComobos();
+		final JComboBox jcbLayout = new JComboBox(layouts);
 		// use a renderer to shorten the layout name presentation
+		/*
 		jcbLayout.setRenderer(new DefaultListCellRenderer() {
 			public Component getListCellRendererComponent(JList list,
 					Object value, int index, boolean isSelected,
@@ -135,6 +133,7 @@ public class GraphToolBar extends JTabbedPane {
 						index, isSelected, cellHasFocus);
 			}
 		});
+		*/
 		jcbLayout.addActionListener(new LayoutChooser(jcbLayout, viewer));
 		jcbLayout.setSelectedItem(FRLayout.class);
 		panel1.add(jcbLayout);
@@ -186,19 +185,10 @@ public class GraphToolBar extends JTabbedPane {
 		showRealtimeGraphAction = new AbstractAction() {
 			public void actionPerformed(ActionEvent e) {
 				try {			
-					TwitterDataCollector collector = new TwitterDataCollector();
-					collector.setDBStorageMode(false);
-					collector.setLevelLimit(2);
-					collector.setPeopleLimit(20);
-					collector.setDegreeLimit(3);
-					collector.setCollectFriendRelationship(true);
-					collector.setCollectFollowerRelationship(false);
-					collector.setCollectUserBlogEntry(false);
-
-					collector.collectSocialNetwork("louiezzang");    	
-					List<Vertex> vertices = collector.getVertices();
-					List<Edge> edges = collector.getEdges();
-
+					HashMap data = handler.collectRealtimeTwitter("louiezzang");    	
+					List<Vertex> vertices = (List<Vertex>)data.get("vertices");
+					List<Edge> edges = (List<Edge>)data.get("edges");
+					
 					panelGraph.showGraph(vertices, edges);			
 					panelGraph.getGraphViewer().setGraphLayout(new FRLayout<Vertex, Edge>(panelGraph.getGraph()));
 					
@@ -210,30 +200,22 @@ public class GraphToolBar extends JTabbedPane {
 		
 		showGraphAction = new AbstractAction() {
 			public void actionPerformed(ActionEvent e) {
-		    	VertexManager vertexManager = new VertexManagerImpl();
-		    	List<Vertex> vertices = vertexManager.getVertices(1);
-		    	
-		    	EdgeManager edgeManager = new EdgeManagerImpl();
-		    	List<Edge> edges = edgeManager.getEdges(1, 1);
-		    	
-		    	panelGraph.showGraph(vertices, edges);			
-		    	panelGraph.getGraphViewer().setGraphLayout(new FRLayout<Vertex, Edge>(panelGraph.getGraph()));    	
+				try {
+			    	List<Vertex> vertices = handler.getVertices(1);
+			       	List<Edge> edges = handler.getEdges(1, 1);
+			    	
+			    	panelGraph.showGraph(vertices, edges);			
+			    	panelGraph.getGraphViewer().setGraphLayout(new FRLayout<Vertex, Edge>(panelGraph.getGraph()));   
+				} catch (Exception ex) {
+					ex.printStackTrace();
+				}
 			}
 		};
 		
 		collectTwitterAction = new AbstractAction() {
 			public void actionPerformed(ActionEvent e) {
 				try {			
-					TwitterDataCollector collector = new TwitterDataCollector();
-					collector.setDBStorageMode(true);
-					collector.setLevelLimit(3);
-					collector.setPeopleLimit(1000);
-					collector.setDegreeLimit(100);
-					collector.setCollectFriendRelationship(true);
-					collector.setCollectFollowerRelationship(true);
-					collector.setCollectUserBlogEntry(false);
-
-					collector.collectSocialNetwork("louiezzang");    	
+					handler.collectTwitter("louiezzang");    	
 				} catch (Exception ex) {
 					ex.printStackTrace();
 				}
@@ -268,8 +250,23 @@ public class GraphToolBar extends JTabbedPane {
 		public void actionPerformed(ActionEvent arg0) {
 			Object[] constructorArgs = { graph };
 
-			Class<? extends Layout> layoutC = (Class<? extends Layout>) jcb.getSelectedItem();
-
+			//Class<? extends Layout> layoutC = (Class<? extends Layout>) jcb.getSelectedItem();
+			Object selectedItem = jcb.getSelectedItem();
+			
+			Class<? extends Layout> layoutC = FRLayout.class;;
+			if (selectedItem.equals("KKLayout")) 
+				layoutC = KKLayout.class;
+			else if (selectedItem.equals("FRLayout")) 
+				layoutC = FRLayout.class;
+			else if (selectedItem.equals("CircleLayout")) 
+				layoutC = CircleLayout.class;
+			else if (selectedItem.equals("SpringLayout")) 
+				layoutC = SpringLayout.class;
+			else if (selectedItem.equals("SpringLayout2")) 
+				layoutC = SpringLayout2.class;
+			else if (selectedItem.equals("ISOMLayout")) 
+				layoutC = ISOMLayout.class;
+			
 			try {
 				Constructor<? extends Layout> constructor = layoutC.getConstructor(new Class[] { Graph.class });
 				Object o = constructor.newInstance(constructorArgs);
@@ -288,7 +285,8 @@ public class GraphToolBar extends JTabbedPane {
 		}
 	}
 
-	private Class<? extends Layout>[] getCombos() {
+	/*
+	private Class<? extends Layout>[] getLayoutComobos() {
 		List<Class<? extends Layout>> layouts = new ArrayList<Class<? extends Layout>>();
 		layouts.add(KKLayout.class);
 		layouts.add(FRLayout.class);
@@ -297,5 +295,17 @@ public class GraphToolBar extends JTabbedPane {
 		layouts.add(SpringLayout2.class);
 		layouts.add(ISOMLayout.class);
 		return layouts.toArray(new Class[0]);
+	}
+	*/
+	
+	private Object[] getLayoutComobos() {
+		List<Object> layouts = new ArrayList<Object>();
+		layouts.add("KKLayout");
+		layouts.add("FRLayout");
+		layouts.add("CircleLayout");
+		layouts.add("SpringLayout");
+		layouts.add("SpringLayout2");
+		layouts.add("ISOMLayout");
+		return layouts.toArray();
 	}
 }

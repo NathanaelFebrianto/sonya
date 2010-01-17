@@ -2,7 +2,7 @@
  * Copyright (c) 2009-2010, Young-Gue Bae
  * All rights reserved.
  */
-package org.firebird.graph;
+package org.firebird.graph.view;
 
 import java.awt.BorderLayout;
 import java.awt.Container;
@@ -43,7 +43,9 @@ public class GraphPanel extends JPanel {
 	 */
 	public GraphPanel() {				
 		try {
-			UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
+			//UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
+			UIManager.setLookAndFeel("com.jgoodies.plaf.plastic.Plastic3DLookAndFeel");
+
 			changeAllSwingComponentDefaultFont();
 		} catch (Exception ex) {
 			ex.printStackTrace();

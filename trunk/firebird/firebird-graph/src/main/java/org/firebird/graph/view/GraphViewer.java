@@ -2,7 +2,7 @@
  * Copyright (c) 2009-2010, Young-Gue Bae
  * All rights reserved.
  */
-package org.firebird.graph;
+package org.firebird.graph.view;
 
 import java.awt.Color;
 import java.awt.Component;
