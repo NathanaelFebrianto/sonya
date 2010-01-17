@@ -5,9 +5,9 @@
 	<artifactId>firebird-web</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Struts 2 Starter</name>
+	<name>Firebird Webapp</name>
 	<url>http://www.myComp.com</url>
-	<description>Struts 2 Starter</description>
+	<description>Firebird Webapp</description>
 
 	<dependencies>
 		<!-- Junit -->
