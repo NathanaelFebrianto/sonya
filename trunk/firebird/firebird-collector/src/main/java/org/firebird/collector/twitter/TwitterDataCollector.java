@@ -64,6 +64,18 @@ public class TwitterDataCollector {
 		edgeManager = new EdgeManagerImpl();
 		userBlogEntryManager = new UserBlogEntryManagerImpl();
 	}
+	
+	/**
+	 * Constructor.
+	 * 
+	 * @param realtime true if realtime
+	 */
+	public TwitterDataCollector(boolean realtime) throws Exception {
+		TwitterOAuthSupport twitterSupport = new TwitterOAuthSupport();
+		twitter = twitterSupport.access(myId);
+		baseUrl = twitter.getBaseURL();
+		dbStorageMode = false;
+	}
 
     /**
      * Sets true if stores data into database.

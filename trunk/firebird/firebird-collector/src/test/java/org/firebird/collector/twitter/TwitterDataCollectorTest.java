@@ -42,7 +42,7 @@ public class TwitterDataCollectorTest extends TestCase
         	//VertexManager vertexManager = new VertexManagerImpl();
         	//List<Vertex> vertices = vertexManager.getVertices(1);
         	
-        	collector.collectSocialNetwork("louiezzang");
+        	//collector.collectSocialNetwork("louiezzang");
         } catch (Exception ex) {
         	ex.printStackTrace();
         }
