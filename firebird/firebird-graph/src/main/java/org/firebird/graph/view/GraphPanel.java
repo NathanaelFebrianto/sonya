@@ -43,7 +43,7 @@ public class GraphPanel extends JPanel {
 		UIHandler.changeAllSwingComponentDefaultFont();
 		
 		// create a graph
-		modeller = new GraphModeller();
+		modeller = new GraphModeller(GraphModeller.DIRECTED_SPARSE_GRAPH);
 		
 		// create a graph viewer
 		viewer = new GraphViewer(new FRLayout<Vertex, Edge>(modeller.getGraph()));		
