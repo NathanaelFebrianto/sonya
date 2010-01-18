@@ -25,10 +25,10 @@ public class Vertex implements Serializable {
 	private String imageFile;
 	private int inDegree;
 	private int outDegree;
-	private long betweennessCentrality;
-	private long closenessCentrality;
-	private long eigenvectorCentrality;
-	private long clusteringCoefficient;
+	private double betweennessCentrality;
+	private double closenessCentrality;
+	private double eigenvectorCentrality;
+	private double clusteringCoefficient;
 	private int friendsCount;
 	private int followersCount;
 	private int userNo;
@@ -81,16 +81,16 @@ public class Vertex implements Serializable {
 	public int getOutDegree() {
 		return outDegree;
 	}
-	public long getBetweennessCentrality() {
+	public double getBetweennessCentrality() {
 		return betweennessCentrality;
 	}
-	public long getClosenessCentrality() {
+	public double getClosenessCentrality() {
 		return closenessCentrality;
 	}
-	public long getEigenvectorCentrality() {
+	public double getEigenvectorCentrality() {
 		return eigenvectorCentrality;
 	}
-	public long getClusteringCoefficient() {
+	public double getClusteringCoefficient() {
 		return clusteringCoefficient;
 	}
 	public int getFriendsCount() {
@@ -180,16 +180,16 @@ public class Vertex implements Serializable {
 	public void setOutDegree(int outDegree) {
 		this.outDegree = outDegree;
 	}
-	public void setBetweennessCentrality(long betweennessCentrality) {
+	public void setBetweennessCentrality(double betweennessCentrality) {
 		this.betweennessCentrality = betweennessCentrality;
 	}
-	public void setClosenessCentrality(long closenessCentrality) {
+	public void setClosenessCentrality(double closenessCentrality) {
 		this.closenessCentrality = closenessCentrality;
 	}
-	public void setEigenvectorCentrality(long eigenvectorCentrality) {
+	public void setEigenvectorCentrality(double eigenvectorCentrality) {
 		this.eigenvectorCentrality = eigenvectorCentrality;
 	}
-	public void setClusteringCoefficient(long clusteringCoefficient) {
+	public void setClusteringCoefficient(double clusteringCoefficient) {
 		this.clusteringCoefficient = clusteringCoefficient;
 	}
 	public void setFriendsCount(int friendsCount) {

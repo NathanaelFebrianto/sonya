@@ -25,7 +25,7 @@ public class Edge implements Serializable {
 	private int opacity;
 	private boolean directed;
 	private String relationship;
-	private long closeness;
+	private double closeness;
 	private int replyCount;
 	private int dmCount;
 	private int referCount;
@@ -70,7 +70,7 @@ public class Edge implements Serializable {
 	public String getRelationship() {
 		return relationship;
 	}
-	public long getCloseness() {
+	public double getCloseness() {
 		return closeness;
 	}
 	public int getReplyCount() {
@@ -136,7 +136,7 @@ public class Edge implements Serializable {
 	public void setRelationship(String relationship) {
 		this.relationship = relationship;
 	}
-	public void setCloseness(long closeness) {
+	public void setCloseness(double closeness) {
 		this.closeness = closeness;
 	}
 	public void setReplyCount(int replyCount) {
