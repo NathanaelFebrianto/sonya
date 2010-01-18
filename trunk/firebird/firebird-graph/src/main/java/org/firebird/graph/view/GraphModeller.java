@@ -7,8 +7,12 @@ package org.firebird.graph.view;
 import java.util.HashMap;
 import java.util.List;
 
+import org.firebird.io.model.Edge;
+import org.firebird.io.model.Vertex;
+
 import edu.uci.ics.jung.graph.DirectedSparseGraph;
 import edu.uci.ics.jung.graph.Graph;
+import edu.uci.ics.jung.graph.UndirectedSparseGraph;
 import edu.uci.ics.jung.graph.util.EdgeType;
 
 /**
@@ -19,23 +23,41 @@ import edu.uci.ics.jung.graph.util.EdgeType;
 public class GraphModeller {
 
 	/** graph */
-	Graph<org.firebird.io.model.Vertex, org.firebird.io.model.Edge> graph;
+	Graph<Vertex, Edge> graph;
+	
+	/** graph type */
+	public final static int DIRECTED_SPARSE_GRAPH = 1;
+	public final static int UNDIRECTED_SPARSE_GRAPH = 2;	
 
 	/**
 	 * Constructor.
 	 * 
 	 */
 	public GraphModeller() {
-		// create a directed graph
-		graph = new DirectedSparseGraph<org.firebird.io.model.Vertex, org.firebird.io.model.Edge>();
+		// create a directed graph by default
+		graph = new DirectedSparseGraph<Vertex, Edge>();
 	}
+	
+	/**
+	 * Constructor.
+	 * 
+	 * @param type the graph type
+	 */
+	public GraphModeller(int type) {
+		if (type == DIRECTED_SPARSE_GRAPH)
+			graph = new DirectedSparseGraph<Vertex, Edge>();
+		else if (type == UNDIRECTED_SPARSE_GRAPH)
+			graph = new UndirectedSparseGraph<Vertex, Edge>();
+		else
+			graph = new DirectedSparseGraph<Vertex, Edge>();
+	}	
 
 	/**
 	 * Gets the graph.
 	 * 
 	 * @return Graph<Vertex, Edge> the graph
 	 */
-	public Graph<org.firebird.io.model.Vertex, org.firebird.io.model.Edge> getGraph() {
+	public Graph<Vertex, Edge> getGraph() {
 		return graph;
 	}
 
@@ -44,21 +66,23 @@ public class GraphModeller {
 	 * 
 	 * @param vertices the vertex list
 	 * @param edges the edge list
+	 * @return Graph<Vertex, Edge> the graph
 	 */
-	public void createGraph(List<org.firebird.io.model.Vertex> vertices, List<org.firebird.io.model.Edge> edges) {
-		HashMap<String, org.firebird.io.model.Vertex> verticesMap = createVertices(vertices);
+	public Graph<Vertex, Edge> createGraph(List<Vertex> vertices, List<Edge> edges) {
+		HashMap<String, Vertex> verticesMap = createVertices(vertices);
 		createEdges(verticesMap, edges);
+		return graph;
 	}
 	
 	/**
 	 * Creates the vertices.
 	 * 
 	 */
-	private HashMap<String, org.firebird.io.model.Vertex> createVertices(List<org.firebird.io.model.Vertex> vertices) {
-		HashMap<String, org.firebird.io.model.Vertex> verticesMap = new HashMap<String, org.firebird.io.model.Vertex>();
+	private HashMap<String, Vertex> createVertices(List<Vertex> vertices) {
+		HashMap<String, Vertex> verticesMap = new HashMap<String, Vertex>();
 
 		for (int i = 0; i < vertices.size(); i++) {
-			org.firebird.io.model.Vertex vertex = (org.firebird.io.model.Vertex) vertices.get(i);
+			Vertex vertex = (Vertex) vertices.get(i);
 			graph.addVertex(vertex);
 			verticesMap.put(vertex.getId(), vertex);
 		}
@@ -66,15 +90,17 @@ public class GraphModeller {
 	}
 
 	/**
-	 * Creates edges for this graph
+	 * Creates the edges.
 	 * 
 	 */
-	private void createEdges(HashMap<String, org.firebird.io.model.Vertex> vertices,
-			List<org.firebird.io.model.Edge> edges) {
+	private void createEdges(HashMap<String, Vertex> vertices, List<Edge> edges) {
 
 		for (int i = 0; i < edges.size(); i++) {
-			org.firebird.io.model.Edge edge = (org.firebird.io.model.Edge) edges.get(i);
-			graph.addEdge(edge, vertices.get(edge.getVertex1()), vertices.get(edge.getVertex2()), EdgeType.DIRECTED);
+			Edge edge = (Edge) edges.get(i);
+			if (edge.getDirected())
+				graph.addEdge(edge, vertices.get(edge.getVertex1()), vertices.get(edge.getVertex2()), EdgeType.DIRECTED);
+			else
+				graph.addEdge(edge, vertices.get(edge.getVertex1()), vertices.get(edge.getVertex2()), EdgeType.UNDIRECTED);
 		}
 	}
 }
