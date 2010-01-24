@@ -6,6 +6,7 @@ package org.firebird.graph.service.impl;
 
 import java.util.List;
 
+import org.firebird.collector.CollectorConfig;
 import org.firebird.collector.twitter.TwitterDataCollector;
 import org.firebird.graph.service.RemoteGraphService;
 import org.firebird.io.model.Edge;
@@ -32,7 +33,6 @@ public class RemoteGraphServiceImpl implements RemoteGraphService {
      * @exception Exception
      */
     public RemoteGraphServiceImpl() throws Exception {
-    	System.out.println("Class[RemoteGraphServiceImpl] called by client.");
     	this.vertexManager = new VertexManagerImpl();
     	this.edgeManager = new EdgeManagerImpl();
     	this.twitterCollector = new TwitterDataCollector();    	
@@ -62,20 +62,12 @@ public class RemoteGraphServiceImpl implements RemoteGraphService {
 	/**
 	 * Collects the twitter data.
 	 * 
+	 * @param config the collect config
 	 * @param screenName the user's screen name
 	 */
-	public void collectTwitter(String screenName) throws Exception {
-		System.out.println("Method[collectTwitter] called by client.");
-		
-		twitterCollector.setDBStorageMode(true);
-		twitterCollector.setLevelLimit(3);
-		twitterCollector.setPeopleLimit(1000);
-		twitterCollector.setDegreeLimit(100);
-		twitterCollector.setCollectFriendRelationship(true);
-		twitterCollector.setCollectFollowerRelationship(true);
-		twitterCollector.setCollectUserBlogEntry(false);
-
-		twitterCollector.collectSocialNetwork(screenName);
-	}
-	
+	public void collectTwitter(CollectorConfig config, String screenName) throws Exception {
+		//System.out.println(RemoteGraphServiceImpl.class + "." + "collectTwitter() is called remotely.");		
+		twitterCollector.setConfig(config);
+		twitterCollector.collect(screenName);
+	}	
 }

@@ -7,6 +7,7 @@ package org.firebird.graph.bean;
 import java.util.HashMap;
 import java.util.List;
 
+import org.firebird.collector.CollectorConfig;
 import org.firebird.collector.twitter.TwitterDataCollector;
 import org.firebird.common.http.HttpCommunicate;
 import org.firebird.common.http.HttpCommunicateClient;
@@ -70,10 +71,11 @@ public class GraphClientHandler {
 	/**
 	 * Collects the twitter data into database.
 	 * 
+	 * @param config the collector config
 	 * @param screenName the user's screen name
 	 */
-	public void collectTwitter(String screenName) throws HttpCommunicateException {
-		Object[] methodParams = { screenName };
+	public void collectTwitter(CollectorConfig config, String screenName) throws HttpCommunicateException {
+		Object[] methodParams = { config, screenName };
 	    HttpCommunicate comm = new HttpCommunicate(
 	            "org.firebird.graph.service.impl.RemoteGraphServiceImpl", 
 	            "collectTwitter",
@@ -84,22 +86,16 @@ public class GraphClientHandler {
 	/**
 	 * Collects the twitter data in real-time.
 	 * 
+	 * @param config the collector config
 	 * @param screenName the user's screen name
 	 * @return HashMap the hash map with vertices and edges
 	 */
-	public HashMap<String, List> collectRealtimeTwitter(String screenName) throws Exception {
+	public HashMap<String, List> collectRealtimeTwitter(CollectorConfig config, String screenName) throws Exception {
 		HashMap<String, List> result = new HashMap<String, List>();
 		
-		TwitterDataCollector collector = new TwitterDataCollector(true);
-		collector.setDBStorageMode(false);
-		collector.setLevelLimit(2);
-		collector.setPeopleLimit(20);
-		collector.setDegreeLimit(3);
-		collector.setCollectFriendRelationship(true);
-		collector.setCollectFollowerRelationship(false);
-		collector.setCollectUserBlogEntry(false);
+		TwitterDataCollector collector = new TwitterDataCollector(config);
 
-		collector.collectSocialNetwork(screenName);    	
+		collector.collect(screenName);    	
 		List<Vertex> vertices = collector.getVertices();
 		List<Edge> edges = collector.getEdges();
 		
