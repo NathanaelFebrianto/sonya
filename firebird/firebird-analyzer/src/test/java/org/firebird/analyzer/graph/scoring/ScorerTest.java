@@ -50,12 +50,15 @@ public class ScorerTest extends TestCase
         	
         	Graph<Vertex, Edge> graph = modeller.createGraph(vertices, edges);
     		
-    		Scorer scorer = new Scorer(graph);
-    		scorer.enableHITS(true);
-    		scorer.enableBetweennessCentrality(true);
-    		scorer.enableClosenessCentrality(true);
-    		//scorer.enableEigenvectorCentrality(true);
+    		ScoringConfig config = new ScoringConfig();
+    		config.setEnbleHITS(true);
+    		config.setEnableBetweennessCentrality(true);
+    		config.setEnableClosenessCentrality(true);
+    		config.setEnableEigenvectorCentrality(false);
     		
+        	//Scorer scorer = new Scorer(graph, config);
+    		Scorer scorer = new Scorer(graph);
+    		scorer.setConfig(config);
     		scorer.evaluate();
         } catch (Exception ex) {
         	ex.printStackTrace();
