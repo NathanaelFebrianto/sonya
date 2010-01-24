@@ -17,7 +17,8 @@
 		<result property="opacity" column="opacity" />
 		<result property="directed" column="is_directed" />
 		<result property="relationship" column="relationship" />
-		<result property="closeness" column="closeness" />
+		<result property="edgeWeight" column="edge_weight" />
+		<result property="betweennessCentrality" column="betweenness_centrality" />
 		<result property="replyCount" column="reply_count" />
 		<result property="dmCount" column="dm_count" />
 		<result property="referCount" column="refer_count" />
@@ -52,7 +53,8 @@
 			, opacity
 			, is_directed
 			, relationship
-			, closeness
+			, edge_weight
+			, betweenness_centrality
 			, reply_count
 			, dm_count
 			, refer_count
@@ -76,7 +78,8 @@
 			, #{opacity,javaType=int,jdbcType=NUMERIC}
 			, #{directed,javaType=boolean,jdbcType=BOOLEAN}
 			, #{relationship,jdbcType=CHAR}
-			, #{closeness,javaType=long,jdbcType=FLOAT}
+			, #{edgeWeight,javaType=double,jdbcType=DOUBLE}
+			, #{betweennessCentrality,javaType=double,jdbcType=DOUBLE}
 			, #{replyCount,javaType=int,jdbcType=NUMERIC}
 			, #{dmCount,javaType=int,jdbcType=NUMERIC}
 			, #{referCount,javaType=int,jdbcType=NUMERIC}

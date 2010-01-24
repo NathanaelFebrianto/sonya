@@ -25,6 +25,8 @@ public class Vertex implements Serializable {
 	private String imageFile;
 	private int inDegree;
 	private int outDegree;
+	private double authority;
+	private double hub;
 	private double betweennessCentrality;
 	private double closenessCentrality;
 	private double eigenvectorCentrality;
@@ -80,6 +82,12 @@ public class Vertex implements Serializable {
 	}
 	public int getOutDegree() {
 		return outDegree;
+	}
+	public double getAuthority() {
+		return authority;
+	}
+	public double getHub() {
+		return hub;
 	}
 	public double getBetweennessCentrality() {
 		return betweennessCentrality;
@@ -179,6 +187,12 @@ public class Vertex implements Serializable {
 	}
 	public void setOutDegree(int outDegree) {
 		this.outDegree = outDegree;
+	}
+	public void setAuthority(double authority) {
+		this.authority = authority;
+	}
+	public void setHub(double hub) {
+		this.hub = hub;
 	}
 	public void setBetweennessCentrality(double betweennessCentrality) {
 		this.betweennessCentrality = betweennessCentrality;

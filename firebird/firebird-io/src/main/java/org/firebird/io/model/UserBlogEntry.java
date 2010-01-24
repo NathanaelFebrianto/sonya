@@ -14,6 +14,12 @@ import java.util.Date;
  */
 public class UserBlogEntry implements Serializable {
 	private static final long serialVersionUID = 5765114194107546966L;
+	
+	/** Relationship Type */
+	public static final String BLOGENTRY_TYPE_GENERAL = "1";
+	public static final String BLOGENTRY_TYPE_DIRECT_MESSAGE = "2";
+	public static final String BLOGENTRY_TYPE_REFER_FROM = "3";
+	
 	private int websiteId;
 	private String userId;
 	private int userNo;
