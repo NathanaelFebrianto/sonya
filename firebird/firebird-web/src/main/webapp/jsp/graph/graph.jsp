@@ -15,7 +15,7 @@
 <object
     classid = "clsid:8AD9C840-044E-11D1-B3E9-00805F499D93"
     codebase = "http://java.sun.com/update/1.6.0/jinstall-6u11-windows-i586.cab#Version=6,0,0,3"
-    WIDTH = 950 HEIGHT = 550 >
+    WIDTH = 1000 HEIGHT = 550 >
     <PARAM NAME = CODE VALUE = org.firebird.graph.view.GraphApplet >
     <param name = CODEBASE value = "/firebird-web" >
     <param name = ARCHIVE value = 
@@ -52,7 +52,7 @@
 	   		./client-lib/collections-generic-4.01.jar, ./client-lib/colt-1.2.0.jar, 
 	   		./client-lib/concurrent-1.3.4.jar, ./client-lib/stax-api-1.0.1.jar,
 	   		./client-lib/wstx-asl-3.2.6.jar, ./client-lib/twitter4j-2.0.10.jar" \
-            WIDTH = 950 \
+            WIDTH = 1000 \
             HEIGHT = 550
 	    scriptable = false
 	    pluginspage = "http://java.sun.com/products/plugin/index.html#download">
