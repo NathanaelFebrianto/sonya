@@ -25,6 +25,9 @@ import edu.uci.ics.jung.graph.Graph;
  */
 public final class Scorer {
 	
+	/** Scoring Config */
+	ScoringConfig config;
+	
 	/** HITS algorithm */
 	HITS<Vertex, Edge> hits;
 	/** Betweenness Centrality algorithm */
@@ -43,7 +46,18 @@ public final class Scorer {
 	 * @param graph the Graph<Vertex, Edge>
 	 */
 	public Scorer (Graph<Vertex, Edge> graph) {
+		this(graph, new ScoringConfig());
+	}
+	
+	/**
+	 * Constructor.
+	 * 
+	 * @param graph the Graph<Vertex, Edge>
+	 * @param config the scoring cofig
+	 */
+	public Scorer (Graph<Vertex, Edge> graph, ScoringConfig config) {
 		this.graph = graph;
+		this.config = config;
 	}
 	
 	/**
@@ -56,53 +70,14 @@ public final class Scorer {
 	}
 	
 	/**
-	 * Enables HITS algorithm.
+	 * Sets the scoring config.
 	 * 
-	 * @param true if enable
-	 */	
-	public void enableHITS(boolean enable) {
-		if (enable)
-			hits = new HITS<Vertex, Edge>(graph);
-		else
-			hits = null;
+	 * @param config the scoring cofig
+	 */
+	public void setConfig(ScoringConfig config) {
+		this.config = config;
 	}
 	
-	/**
-	 * Enables Betweenness Centrality algorithm.
-	 * 
-	 * @param true if enable
-	 */	
-	public void enableBetweennessCentrality(boolean enable) {
-		if (enable)
-			bc = new BetweennessCentrality<Vertex, Edge>(graph);
-		else
-			bc = null;
-	}
-	
-	/**
-	 * Enables Closeness Centrality algorithm.
-	 * 
-	 * @param true if enable
-	 */	
-	public void enableClosenessCentrality(boolean enable) {
-		if (enable)
-			cc = new ClosenessCentrality<Vertex, Edge>(graph);
-		else
-			cc = null;
-	}
-	
-	/**
-	 * Enables Eigenvector Centrality algorithm.
-	 * 
-	 * @param true if enable
-	 */	
-	public void enableEigenvectorCentrality(boolean enable) {
-		if (enable)
-			ec = new EigenvectorCentrality<Vertex, Edge>(graph);
-		else
-			ec = null;
-	}
-		
 	/**
 	 * Evaluates the graph by the enabled algorithms.
 	 * 
@@ -110,21 +85,37 @@ public final class Scorer {
 	 */
 	public void evaluate() throws Exception {
 		// HITS
-		if (hits != null) {
+		if (config.isEnbleHITS()) {
+			hits = new HITS<Vertex, Edge>(graph);
 			hits.evaluate();
 		}
+		else {
+			hits = null;
+		}
 		// Betweenness Centraility
-		if (bc != null) {
+		if (config.isEnableBetweennessCentrality()) {
+			bc = new BetweennessCentrality<Vertex, Edge>(graph);
 			bc.evaluate();		
 			bc.step();
 		}
+		else {
+			bc = null;
+		}
 		// Closeness Centraility
-		if (cc != null) {
+		if (config.isEnableClosenessCentrality()) {
+			cc = new ClosenessCentrality<Vertex, Edge>(graph);
+		}
+		else {
+			cc = null;
 		}
 		// Eigenvector Centrality
-		if (ec != null) {
+		if (config.isEnableEigenvectorCentrality()) {
+			ec = new EigenvectorCentrality<Vertex, Edge>(graph);
 			ec.evaluate();		
 			ec.step();
+		}
+		else {
+			ec = null;
 		}
 		
 		storeVertexScoreToGraph();
@@ -152,7 +143,7 @@ public final class Scorer {
     		out.append(v.getOutDegree()).append("|");
     		    		
     		// HITS score
-    		if (hits != null) {
+    		if (config.isEnbleHITS()) {
     			HITS.Scores scoreHITS = hits.getVertexScore(v);    			
     			v.setAuthority(scoreHITS.authority);
     			v.setHub(scoreHITS.hub);
@@ -166,7 +157,7 @@ public final class Scorer {
     		}
     			
     		// Betweenness Centrality score
-    		if (bc != null) {
+    		if (config.isEnableBetweennessCentrality()) {
     			double scoreBC = bc.getVertexRankScore(v);    			
     			v.setBetweennessCentrality(scoreBC);
     			
@@ -177,7 +168,7 @@ public final class Scorer {
     		}
     		
     		// Closeness Centrality score
-    		if (cc != null) {
+    		if (config.isEnableClosenessCentrality()) {
     			double scoreCC = cc.getVertexScore(v);    			
     			v.setClosenessCentrality(scoreCC);
     			
@@ -188,7 +179,7 @@ public final class Scorer {
     		}
     		
     		// Eigenvector Centrality score
-    		if (ec != null) {
+    		if (config.isEnableEigenvectorCentrality()) {
     			double scoreEC = ec.getVertexScore(v);    			
     			v.setEigenvectorCentrality(scoreEC);
     			
@@ -204,7 +195,7 @@ public final class Scorer {
 
 	private void storeEdgeScoreToGraph() throws Exception {
 		// Betweenness Centrality score
-		if (bc != null) {
+		if (config.isEnableBetweennessCentrality()) {
         	Collection<Edge> edges = graph.getEdges();
         	
         	System.out.println("----------------------------------------------");
