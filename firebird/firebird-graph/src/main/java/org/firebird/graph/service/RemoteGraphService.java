@@ -6,6 +6,7 @@ package org.firebird.graph.service;
 
 import java.util.List;
 
+import org.firebird.collector.CollectorConfig;
 import org.firebird.io.model.Edge;
 import org.firebird.io.model.Vertex;
 
@@ -36,7 +37,8 @@ public interface RemoteGraphService {
 	/**
 	 * Collects the twitter data.
 	 * 
+	 * @param config the collect config
 	 * @param screenName the user's screen name
 	 */
-	public void collectTwitter(String screenName) throws Exception;
+	public void collectTwitter(CollectorConfig config, String screenName) throws Exception;
 }

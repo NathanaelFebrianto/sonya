@@ -8,10 +8,17 @@ import java.awt.BorderLayout;
 import java.awt.Container;
 import java.util.List;
 
+import javax.swing.JComponent;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+import javax.swing.JSplitPane;
+import javax.swing.JTabbedPane;
+import javax.swing.JTable;
+import javax.swing.SwingConstants;
+import javax.swing.table.DefaultTableModel;
 
 import org.firebird.graph.bean.UIHandler;
+import org.firebird.graph.view.tool.CollectorPanel;
 import org.firebird.io.model.Edge;
 import org.firebird.io.model.Vertex;
 
@@ -33,28 +40,88 @@ public class GraphPanel extends JPanel {
 
 	/** the visual component and renderer for the graph */
 	GraphViewer viewer;
-
+	
+	/** split panel */
+	JSplitPane panelContent;
+	/** left view panel */
+	JTabbedPane panelLeft;	
+	/** right view panel */
+	JTabbedPane panelRight;
+	
 	/**
 	 * Constructor.
 	 * 
 	 */
-	public GraphPanel() {				
+	public GraphPanel() {
+		UIHandler.setResourceBundle("graph");
 		UIHandler.setDefaultLookAndFeel();
 		UIHandler.changeAllSwingComponentDefaultFont();
 		
-		// create a graph
-		modeller = new GraphModeller(GraphModeller.DIRECTED_SPARSE_GRAPH);
+		setupUI();
+	}
+	
+	private void setupUI() {
+		setLayout(new BorderLayout());
 		
-		// create a graph viewer
-		viewer = new GraphViewer(new FRLayout<Vertex, Edge>(modeller.getGraph()));		
-		GraphZoomScrollPane panelViewer = new GraphZoomScrollPane(viewer);
+		// create a content panel
+		panelContent = new JSplitPane();
+		setupLeftPanel();
+		setupRightPanel();
+		panelContent.setOneTouchExpandable(true);		
+		panelContent.setDividerLocation(panelLeft.getPreferredSize().width);
+		panelContent.setLeftComponent(panelLeft);
+		panelContent.setRightComponent(panelRight);
 		
 		// create a graph toolbar
-		GraphToolBar toolbar = new GraphToolBar(this);		
+		GraphToolBar toolbar = new GraphToolBar(this);
 		
 		setLayout(new BorderLayout());
 		add(toolbar, BorderLayout.NORTH);
-		add(panelViewer, BorderLayout.CENTER);
+		add(panelContent, BorderLayout.CENTER);
+	}
+	
+	private void setupLeftPanel() {
+		// create a left default tool panel
+		CollectorPanel tool = new CollectorPanel(this);
+		tool.setDBStorage(false);
+		
+		panelLeft = new JTabbedPane();
+		panelLeft.addTab(
+				UIHandler.getText("toolbar.show.realtime.graph"), 
+				UIHandler.getImageIcon("/info.png"),
+				tool);
+	}
+	
+	private void setupRightPanel() {
+		panelRight = new JTabbedPane(SwingConstants.BOTTOM);
+		
+		// create a graph
+		modeller = new GraphModeller(GraphModeller.DIRECTED_SPARSE_GRAPH);		
+		// create a graph viewer
+		viewer = new GraphViewer(new FRLayout<Vertex, Edge>(modeller.getGraph()));
+		
+		GraphZoomScrollPane panelViewer = new GraphZoomScrollPane(viewer);		
+		panelRight.addTab(
+				UIHandler.getText("right.tab.graph"), 
+				UIHandler.getImageIcon("/chart_pie1.png"),
+				panelViewer);
+		panelRight.addTab(
+				UIHandler.getText("right.tab.list"), 
+				UIHandler.getImageIcon("/full_page.png"),
+				new JTable());	
+	}
+
+	/**
+	 * Sets the left tool panel.
+	 * 
+	 * @param title the tab title
+	 * @param tool the tool panel
+	 */
+	public void setLeftToolPanel(String title, JComponent tool) {
+		panelLeft.removeAll();
+		panelLeft.addTab(title, tool);
+
+		panelContent.setDividerLocation(panelLeft.getPreferredSize().width);
 	}
 	
 	/**
@@ -64,6 +131,15 @@ public class GraphPanel extends JPanel {
 	 */
 	public Graph<org.firebird.io.model.Vertex, org.firebird.io.model.Edge> getGraph() {
 		return viewer.getGraph();
+	}
+	
+	/**
+	 * Gets the content panel.
+	 * 
+	 * @return JSplitPane the content panel
+	 */
+	public JSplitPane getContentPanel() {
+		return this.panelContent;
 	}
 	
 	/**
@@ -83,6 +159,16 @@ public class GraphPanel extends JPanel {
 	 */
 	public void showGraph(List<Vertex> vertices, List<Edge> edges) {
 		modeller.createGraph(vertices, edges);
+	}
+	
+	/**
+	 * Shows the list.
+	 * 
+	 * @param vertices the vertex list
+	 * @param edges the edge list
+	 */
+	public void showList(List<Vertex> vertices, List<Edge> edges) {
+		
 	}
 
 	/**

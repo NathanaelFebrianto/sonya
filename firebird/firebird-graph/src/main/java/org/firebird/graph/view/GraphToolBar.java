@@ -20,6 +20,7 @@ import javax.swing.JTabbedPane;
 
 import org.firebird.graph.bean.GraphClientHandler;
 import org.firebird.graph.bean.UIHandler;
+import org.firebird.graph.view.tool.CollectorPanel;
 import org.firebird.io.model.Edge;
 import org.firebird.io.model.Vertex;
 
@@ -60,7 +61,7 @@ public class GraphToolBar extends JTabbedPane {
 	AbstractAction zoomoutAction;
 	AbstractAction showRealtimeGraphAction;
 	AbstractAction showGraphAction;
-	AbstractAction collectTwitterAction;
+	AbstractAction collectDataAction;
 	
 	/** toolbar group */
 	HashMap<String, JPanel> toolbarMap = new HashMap<String, JPanel>();
@@ -74,6 +75,8 @@ public class GraphToolBar extends JTabbedPane {
 	 * @param viewer the graph visualization viewer
 	 */
 	public GraphToolBar(GraphPanel panelGraph) {
+		UIHandler.setResourceBundle("graph");
+		
 		this.panelGraph = panelGraph;
 		this.viewer = panelGraph.getGraphViewer();
 		this.graph = panelGraph.getGraph();
@@ -104,14 +107,13 @@ public class GraphToolBar extends JTabbedPane {
 		JPanel panel1 = new JPanel();	
 		panel1.setLayout(new FlowLayout(FlowLayout.LEFT));
 		button = new JButton(this.getActionMap().get("zoomin"));
-		button.setText(UIHandler.getText("zoomin"));
-		//button.setToolTipText(null);
-		//button.setBorderPainted(true);
-		//button.setContentAreaFilled(false);
+		//button.setText(UIHandler.getText("zoomin"));		
+		button.setIcon(UIHandler.getImageIcon("/list-add.png"));
 		panel1.add(button);
 		
 		button = new JButton(this.getActionMap().get("zoomout"));
-		button.setText(UIHandler.getText("zoomout"));
+		//button.setText(UIHandler.getText("zoomout"));
+		button.setIcon(UIHandler.getImageIcon("/list-remove.png"));
 		panel1.add(button);
 		
 		// mouse mode
@@ -121,19 +123,6 @@ public class GraphToolBar extends JTabbedPane {
 		// create layout choose
 		Object[] layouts = getLayoutComobos();
 		final JComboBox jcbLayout = new JComboBox(layouts);
-		// use a renderer to shorten the layout name presentation
-		/*
-		jcbLayout.setRenderer(new DefaultListCellRenderer() {
-			public Component getListCellRendererComponent(JList list,
-					Object value, int index, boolean isSelected,
-					boolean cellHasFocus) {
-				String valueString = value.toString();
-				valueString = valueString.substring(valueString.lastIndexOf('.') + 1);
-				return super.getListCellRendererComponent(list, valueString,
-						index, isSelected, cellHasFocus);
-			}
-		});
-		*/
 		jcbLayout.addActionListener(new LayoutChooser(jcbLayout, viewer));
 		jcbLayout.setSelectedItem(FRLayout.class);
 		panel1.add(jcbLayout);		
@@ -144,28 +133,40 @@ public class GraphToolBar extends JTabbedPane {
 		
 		button = new JButton(this.getActionMap().get("show.graph"));
 		button.setText(UIHandler.getText("toolbar.show.db.graph"));
+		button.setIcon(UIHandler.getImageIcon("/chart_pie.png"));
 		panel2.add(button);
 		
 		button = new JButton(this.getActionMap().get("show.realtime.graph"));
 		button.setText(UIHandler.getText("toolbar.show.realtime.graph"));
+		button.setIcon(UIHandler.getImageIcon("/refresh.png"));
 		panel2.add(button);
 		
 		// group3
 		JPanel panel3 = new JPanel();
 		panel3.setLayout(new FlowLayout(FlowLayout.LEFT));
-		button = new JButton(this.getActionMap().get("collect.twitter"));
-		button.setText(UIHandler.getText("toolbar.collect.twitter"));
+		button = new JButton(this.getActionMap().get("collect.data"));
+		button.setText(UIHandler.getText("toolbar.collect.data"));
+		button.setIcon(UIHandler.getImageIcon("/users.png"));
 		panel3.add(button);
 		
 		// create tab menu
 		toolbarMap.put("Graph", panel2);
-		this.addTab(UIHandler.getText("toolbar.tab.graph"), panel2);
+		this.addTab(
+				UIHandler.getText("toolbar.tab.graph"), 
+				//UIHandler.getImageIcon("/full_page.png"),
+				panel2);
 		
 		toolbarMap.put("Data", panel3);
-		this.addTab(UIHandler.getText("toolbar.tab.data"), panel3);
+		this.addTab(
+				UIHandler.getText("toolbar.tab.data"), 
+				//UIHandler.getImageIcon("/full_page.png"),
+				panel3);
 				
 		toolbarMap.put("Control", panel1);		
-		this.addTab(UIHandler.getText("toolbar.tab.control"), panel1);
+		this.addTab(
+				UIHandler.getText("toolbar.tab.control"), 
+				//UIHandler.getImageIcon("/full_page.png"),
+				panel1);
 	}
 
 	/**
@@ -190,14 +191,10 @@ public class GraphToolBar extends JTabbedPane {
 		
 		showRealtimeGraphAction = new AbstractAction() {
 			public void actionPerformed(ActionEvent e) {
-				try {			
-					HashMap data = handler.collectRealtimeTwitter("louiezzang");    	
-					List<Vertex> vertices = (List<Vertex>)data.get("vertices");
-					List<Edge> edges = (List<Edge>)data.get("edges");
-					
-					panelGraph.showGraph(vertices, edges);			
-					panelGraph.getGraphViewer().setGraphLayout(new FRLayout<Vertex, Edge>(panelGraph.getGraph()));
-					
+				try {												
+					CollectorPanel tool = new CollectorPanel(panelGraph);
+					tool.setDBStorage(false);
+					panelGraph.setLeftToolPanel(e.getActionCommand(), tool);
 				} catch (Exception ex) {
 					ex.printStackTrace();
 				}
@@ -218,10 +215,12 @@ public class GraphToolBar extends JTabbedPane {
 			}
 		};
 		
-		collectTwitterAction = new AbstractAction() {
+		collectDataAction = new AbstractAction() {
 			public void actionPerformed(ActionEvent e) {
-				try {			
-					handler.collectTwitter("louiezzang");    	
+				try {												
+					CollectorPanel tool = new CollectorPanel(panelGraph);
+					tool.setDBStorage(true);
+					panelGraph.setLeftToolPanel(e.getActionCommand(), tool);
 				} catch (Exception ex) {
 					ex.printStackTrace();
 				}
@@ -237,7 +236,7 @@ public class GraphToolBar extends JTabbedPane {
 		this.getActionMap().put("zoomout", zoomoutAction);
 		this.getActionMap().put("show.realtime.graph", showRealtimeGraphAction);
 		this.getActionMap().put("show.graph", showGraphAction);
-		this.getActionMap().put("collect.twitter", collectTwitterAction);
+		this.getActionMap().put("collect.data", collectDataAction);
 	}
 
 	/**
