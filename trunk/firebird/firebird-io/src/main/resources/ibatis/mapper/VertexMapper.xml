@@ -17,6 +17,8 @@
 		<result property="imageFile" column="image_file" />
 		<result property="inDegree" column="in_degree" />
 		<result property="outDegree" column="out_degree" />
+		<result property="authority" column="authority" />
+		<result property="hub" column="hub" />
 		<result property="betweennessCentrality" column="betweenness_centrality" />
 		<result property="closenessCentrality" column="closeness_centrality" />
 		<result property="eigenvectorCentrality" column="eigenvector_centrality" />

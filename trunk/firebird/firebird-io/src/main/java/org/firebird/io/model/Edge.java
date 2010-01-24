@@ -14,6 +14,12 @@ import java.util.Date;
  */
 public class Edge implements Serializable {	
 	private static final long serialVersionUID = -1346539592439752207L;
+	
+	/** Relationship Type */
+	public static final String RELATIONSHIP_IDENTICAL = "0";
+	public static final String RELATIONSHIP_FOLLOWING = "1";
+	public static final String RELATIONSHIP_FRIEND = "2";
+	
 	private int websiteId1;
 	private int websiteId2;
 	private String vertex1;
@@ -25,7 +31,8 @@ public class Edge implements Serializable {
 	private int opacity;
 	private boolean directed;
 	private String relationship;
-	private double closeness;
+	private double edgeWeight;
+	private double betweennessCentrality;
 	private int replyCount;
 	private int dmCount;
 	private int referCount;
@@ -70,8 +77,11 @@ public class Edge implements Serializable {
 	public String getRelationship() {
 		return relationship;
 	}
-	public double getCloseness() {
-		return closeness;
+	public double getEdgeWeight() {
+		return edgeWeight;
+	}
+	public double getBetweennessCentrality() {
+		return betweennessCentrality;
 	}
 	public int getReplyCount() {
 		return replyCount;
@@ -136,8 +146,11 @@ public class Edge implements Serializable {
 	public void setRelationship(String relationship) {
 		this.relationship = relationship;
 	}
-	public void setCloseness(double closeness) {
-		this.closeness = closeness;
+	public void setEdgeWeight(double edgeWeight) {
+		this.edgeWeight = edgeWeight;
+	}
+	public void setBetweennessCentrality(double betweennessCentrality) {
+		this.betweennessCentrality = betweennessCentrality;
 	}
 	public void setReplyCount(int replyCount) {
 		this.replyCount = replyCount;
