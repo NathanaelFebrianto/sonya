@@ -9,6 +9,7 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 
+import org.firebird.collector.CollectorConfig;
 import org.firebird.io.model.Edge;
 import org.firebird.io.model.UserBlogEntry;
 import org.firebird.io.model.Vertex;
@@ -31,15 +32,10 @@ import twitter4j.User;
  */
 public class TwitterDataCollector {
 
+	private CollectorConfig config;
+	
 	private int myId = 50900875;
 	private Twitter twitter = null;
-	private boolean dbStorageMode = false;
-	private boolean collectFriend = false;
-	private boolean collectFollower = false;
-	private boolean collectUserBlogEntry = false;
-	private int limitLevel = 1;
-	private int limitPeople = 999999999;
-	private int limitDegree = 1;
 	private int numFriends = 0;
 	private int numFollowers = 0;
 
@@ -57,101 +53,55 @@ public class TwitterDataCollector {
 	 * 
 	 */
 	public TwitterDataCollector() throws Exception {
-		TwitterOAuthSupport twitterSupport = new TwitterOAuthSupport();
-		twitter = twitterSupport.access(myId);
-		baseUrl = twitter.getBaseURL();
-		vertexManager = new VertexManagerImpl();
-		edgeManager = new EdgeManagerImpl();
-		userBlogEntryManager = new UserBlogEntryManagerImpl();
+		this(new CollectorConfig());
 	}
 	
 	/**
 	 * Constructor.
 	 * 
-	 * @param realtime true if realtime
+	 * @param config the collector config
 	 */
-	public TwitterDataCollector(boolean realtime) throws Exception {
+	public TwitterDataCollector(CollectorConfig config) throws Exception {
+		this.config = config;
 		TwitterOAuthSupport twitterSupport = new TwitterOAuthSupport();
 		twitter = twitterSupport.access(myId);
 		baseUrl = twitter.getBaseURL();
-		dbStorageMode = false;
-	}
-
-    /**
-     * Sets true if stores data into database.
-     *
-     * @param dbStorageMode true if stores into database
-     */
-	public void setDBStorageMode(boolean dbStorageMode) {
-		this.dbStorageMode = dbStorageMode;
+		
+		if (config.isDBStorage()) {
+			vertexManager = new VertexManagerImpl();
+			edgeManager = new EdgeManagerImpl();
+			userBlogEntryManager = new UserBlogEntryManagerImpl();
+		}
 	}
 	
-    /**
-     * Sets if collects the friend(following) relationship or not.
-     *
-     * @param collectFriend true if collects
-     */
-	public void setCollectFriendRelationship(boolean collectFriend) {
-		this.collectFriend = collectFriend;
+	/**
+	 * Sets the collector config.
+	 * 
+	 * @param config the collector cofig
+	 */
+	public void setConfig(CollectorConfig config) {
+		this.config = config;
+		
+		if (config.isDBStorage()) {
+			vertexManager = new VertexManagerImpl();
+			edgeManager = new EdgeManagerImpl();
+			userBlogEntryManager = new UserBlogEntryManagerImpl();
+		}		
 	}
 
-    /**
-     * Sets if collects the follower relationship or not.
-     *
-     * @param collectFollower true if collects
-     */
-	public void setCollectFollowerRelationship(boolean collectFollower) {
-		this.collectFollower = collectFollower;
-	}
-	
-    /**
-     * Sets if collects the user blog entries or not.
-     *
-     * @param collectUserBlogEntry true if collects
-     */
-	public void setCollectUserBlogEntry(boolean collectUserBlogEntry) {
-		this.collectUserBlogEntry = collectUserBlogEntry;
-	}
-
-    /**
-     * Sets the limit level.
-     *
-     * @param limitLevel the limit level
-     */
-	public void setLevelLimit(int limitLevel) {
-		this.limitLevel = limitLevel;
-	}
-
-    /**
-     * Sets the limit number of people.
-     *
-     * @param limitPeople the number of people
-     */
-	public void setPeopleLimit(int limitPeople) {
-		this.limitPeople = limitPeople;
-	}
-
-    /**
-     * Sets the limit degree.
-     *
-     * @param limitDegree the limit degree
-     */
-	public void setDegreeLimit(int limitDegree) {
-		this.limitDegree = limitDegree;
-	}
-
-    /**
+     /**
      * Collects the social network data from twitter.
      *
      * @param screenName the twitter user's screenName
      */
-	public void collectSocialNetwork(String screenName) {
+	public void collect(String screenName) {
 		System.out.println(">>>>>>>>>>>>>> collector option : ");
-		System.out.println("database storage mode == " + dbStorageMode);
-		System.out.println("collect friend(following) relationship == " + collectFriend);
-		System.out.println("collect follower relationship == " + collectFriend);
-		System.out.println("level limit == " + limitLevel);
-		System.out.println("people limit == " + limitPeople);
+		System.out.println("database storage mode == " + config.isDBStorage());
+		System.out.println("collect friend(following) relationship == " + config.isCollectFriend());
+		System.out.println("collect follower relationship == " + config.isCollectFollower());
+		System.out.println("level limit == " + config.getLevelLimit());
+		System.out.println("degree limit == " + config.getDegreeLimit());
+		System.out.println("people limit == " + config.getPeopleLimit());
 
 		User user = null;
 
@@ -161,10 +111,10 @@ public class TwitterDataCollector {
 			System.out.println("rate limit remaining  == " + user.getRateLimitRemaining() + " / " + user.getRateLimitLimit());
 			System.out.println(">>>>>>>>>>>>>> start");
 
-			if (collectFriend)
+			if (config.isCollectFriend())
 				this.collectFriendsOfUser(user, 0);
 
-			if (collectFollower)
+			if (config.isCollectFollower())
 				this.collectFollowersOfUser(user, 0);
 		} catch (TwitterException te) {
 			te.printStackTrace();
@@ -202,7 +152,7 @@ public class TwitterDataCollector {
 
 	private void collectFriendsOfUser(User user, int level) {
 		try {
-			if (level < limitLevel && numFriends <= limitPeople) {
+			if (level < config.getLevelLimit() && numFriends <= config.getPeopleLimit()) {
 				// add vertex
 				addVertex(user);
 
@@ -211,7 +161,7 @@ public class TwitterDataCollector {
 				level++;
 				for (int i = 0; i < friends.size(); i++) {
 					// level > 1 -> collect everyone for an initial user whatever degree limit
-					if (level > 1 && i == limitDegree)	
+					if (level > 1 && i == config.getDegreeLimit())	
 						break;
 
 					numFriends++;
@@ -224,9 +174,9 @@ public class TwitterDataCollector {
 					addEdge(user, friend);
 
 					// recursive call
-					if (collectFriend)
+					if (config.isCollectFriend())
 						this.collectFriendsOfUser(friend, level);
-					if (collectFollower)
+					if (config.isCollectFollower())
 						this.collectFollowersOfUser(friend, level);
 				}
 			}
@@ -237,7 +187,7 @@ public class TwitterDataCollector {
 
 	private void collectFollowersOfUser(User user, int level) {
 		try {
-			if (level < limitLevel && numFollowers <= limitPeople) {
+			if (level < config.getLevelLimit() && numFollowers <= config.getPeopleLimit()) {
 				// add vertex
 				addVertex(user);
 
@@ -246,7 +196,7 @@ public class TwitterDataCollector {
 				level++;
 				for (int i = 0; i < followers.size(); i++) {
 					// level > 1 -> collect everyone for an initial user whatever degree limit
-					if (level > 1 && i == limitDegree)
+					if (level > 1 && i == config.getDegreeLimit())
 						break;
 
 					numFollowers++;
@@ -259,9 +209,9 @@ public class TwitterDataCollector {
 					addEdge(follower, user);
 
 					// recursive call
-					if (collectFriend)
+					if (config.isCollectFriend())
 						this.collectFriendsOfUser(follower, level);
-					if (collectFollower)
+					if (config.isCollectFollower())
 						this.collectFollowersOfUser(follower, level);
 				}				
 			}
@@ -277,12 +227,12 @@ public class TwitterDataCollector {
 			Vertex vertex = this.makeVertex(user);
 			vertices.put(key, vertex);
 			
-			if (dbStorageMode == true) {
+			if (config.isDBStorage()) {
 				vertexManager.deleteVertex(vertex);
 				vertexManager.addVertex(vertex);
 			
 				// collect user blog entries
-				if (collectUserBlogEntry) {
+				if (config.isCollectUserBlogEntry()) {
 					try {
 						this.addUserBlogEntries(twitter.getUserTimeline(user.getScreenName()));
 					} catch (TwitterException te) {
@@ -301,7 +251,7 @@ public class TwitterDataCollector {
 			edges.put(key, edge);
 			System.out.println(user1.getScreenName() + " -> " + user2.getScreenName());
 			
-			if (dbStorageMode == true) {
+			if (config.isDBStorage()) {
 				edgeManager.deleteEdge(edge);
 				edgeManager.addEdge(edge);
 			}
@@ -335,7 +285,7 @@ public class TwitterDataCollector {
 				.getProfileImageURL().toString());
 		vertex.setInDegree(user.getFollowersCount());
 		vertex.setOutDegree(user.getFriendsCount());
-		//vertex.setBetweenessCentrality();
+		//vertex.setBetweennessCentrality();
 		//vertex.setClosenessCentrality();
 		//vertex.setEigenvectorCentrality();
 		//vertex.setClusteringCoefficient();
@@ -348,7 +298,7 @@ public class TwitterDataCollector {
 		vertex.setBlogEntryCount(user.getStatusesCount());
 		vertex.setLastBlogEntryId(String.valueOf(user.getStatusId()));
 		vertex.setLastBlogEntryBody(user.getStatusText());
-		vertex.setLastBlogEntryType("1");
+		vertex.setLastBlogEntryType(UserBlogEntry.BLOGENTRY_TYPE_GENERAL);
 		vertex.setLastBlogEntryCreateDate(user.getStatusCreatedAt());
 		vertex.setLastBlogEntryReplyTo(user.getStatusInReplyToScreenName());
 		//vertex.setLastBlogEntryDmTo();
@@ -372,7 +322,7 @@ public class TwitterDataCollector {
 		//edge.setWidth();
 		//edge.setOpacity();
 		edge.setDirected(true);
-		edge.setRelationship("1");
+		edge.setRelationship(Edge.RELATIONSHIP_FOLLOWING);
 		//edge.setCloseness();
 		//edge.setReplyCount();
 		//edge.setDmCount();
@@ -396,7 +346,7 @@ public class TwitterDataCollector {
 		userBlogEntry.setTitle(status.getSource());
 		userBlogEntry.setBody(status.getText());
 		userBlogEntry.setSourceWebsiteId(1);
-		userBlogEntry.setBlogEntryType("1");
+		userBlogEntry.setBlogEntryType(UserBlogEntry.BLOGENTRY_TYPE_GENERAL);
 		userBlogEntry.setPermaLinkUrl(null);
 		userBlogEntry.setUserLinkUrl(null);
 		userBlogEntry.setReplyTo(status.getInReplyToScreenName());

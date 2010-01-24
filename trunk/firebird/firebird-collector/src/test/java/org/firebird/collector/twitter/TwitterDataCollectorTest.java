@@ -4,6 +4,8 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
+import org.firebird.collector.CollectorConfig;
+
 /**
  * Unit test for simple App.
  */
@@ -30,19 +32,21 @@ public class TwitterDataCollectorTest extends TestCase
      */
     public void testApp() {
         try {
-        	TwitterDataCollector collector = new TwitterDataCollector();
-        	collector.setDBStorageMode(true);
-        	collector.setLevelLimit(2);
-        	collector.setPeopleLimit(20);
-        	collector.setDegreeLimit(5);
-        	collector.setCollectFriendRelationship(true);
-        	collector.setCollectFollowerRelationship(true);
-        	collector.setCollectUserBlogEntry(false);
+        	CollectorConfig config = new CollectorConfig();
+        	config.setDBStorage(false);
+        	config.setCollectFriend(true);
+        	config.setCollectFollower(true);
+        	config.setCollectUserBlogEntry(false);
+        	config.setLevelLimit(2);
+        	config.setDegreeLimit(2);
+        	config.setPeopleLimit(10);
+        	
+        	TwitterDataCollector collector = new TwitterDataCollector(config);
         	
         	//VertexManager vertexManager = new VertexManagerImpl();
         	//List<Vertex> vertices = vertexManager.getVertices(1);
         	
-        	//collector.collectSocialNetwork("louiezzang");
+        	collector.collect("louiezzang");
         } catch (Exception ex) {
         	ex.printStackTrace();
         }
