@@ -30,9 +30,8 @@ public class RemoteGraphServiceImpl implements RemoteGraphService {
 	/**
      * Creates a remote query manager.
      * 
-     * @exception Exception
      */
-    public RemoteGraphServiceImpl() throws Exception {
+    public RemoteGraphServiceImpl() {
     	this.vertexManager = new VertexManagerImpl();
     	this.edgeManager = new EdgeManagerImpl();
     	this.twitterCollector = new TwitterDataCollector();    	
@@ -66,7 +65,6 @@ public class RemoteGraphServiceImpl implements RemoteGraphService {
 	 * @param screenName the user's screen name
 	 */
 	public void collectTwitter(CollectorConfig config, String screenName) throws Exception {
-		//System.out.println(RemoteGraphServiceImpl.class + "." + "collectTwitter() is called remotely.");		
 		twitterCollector.setConfig(config);
 		twitterCollector.collect(screenName);
 	}	

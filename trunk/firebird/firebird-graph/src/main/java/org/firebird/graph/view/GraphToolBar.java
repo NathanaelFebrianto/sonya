@@ -19,7 +19,6 @@ import javax.swing.JPanel;
 import javax.swing.JTabbedPane;
 
 import org.firebird.graph.bean.GraphClientHandler;
-import org.firebird.graph.bean.UIHandler;
 import org.firebird.graph.view.tool.CollectorPanel;
 import org.firebird.io.model.Edge;
 import org.firebird.io.model.Vertex;
@@ -62,6 +61,7 @@ public class GraphToolBar extends JTabbedPane {
 	AbstractAction showRealtimeGraphAction;
 	AbstractAction showGraphAction;
 	AbstractAction collectDataAction;
+	AbstractAction scoringAction;
 	
 	/** toolbar group */
 	HashMap<String, JPanel> toolbarMap = new HashMap<String, JPanel>();
@@ -103,70 +103,85 @@ public class GraphToolBar extends JTabbedPane {
 	{
 		JButton button = null;
 		
-		// group1		
-		JPanel panel1 = new JPanel();	
-		panel1.setLayout(new FlowLayout(FlowLayout.LEFT));
+		// toolbar group - control
+		JPanel tgControl = new JPanel();	
+		tgControl.setLayout(new FlowLayout(FlowLayout.LEFT));
 		button = new JButton(this.getActionMap().get("zoomin"));
 		//button.setText(UIHandler.getText("zoomin"));		
 		button.setIcon(UIHandler.getImageIcon("/list-add.png"));
-		panel1.add(button);
+		tgControl.add(button);
 		
 		button = new JButton(this.getActionMap().get("zoomout"));
 		//button.setText(UIHandler.getText("zoomout"));
 		button.setIcon(UIHandler.getImageIcon("/list-remove.png"));
-		panel1.add(button);
+		tgControl.add(button);
 		
 		// mouse mode
 		JComboBox jcbMouseMode = ((DefaultModalGraphMouse<Vertex, Edge>) viewer.getGraphMouse()).getModeComboBox();
-		panel1.add(jcbMouseMode);
+		tgControl.add(jcbMouseMode);
 
 		// create layout choose
 		Object[] layouts = getLayoutComobos();
 		final JComboBox jcbLayout = new JComboBox(layouts);
 		jcbLayout.addActionListener(new LayoutChooser(jcbLayout, viewer));
 		jcbLayout.setSelectedItem(FRLayout.class);
-		panel1.add(jcbLayout);		
+		tgControl.add(jcbLayout);		
 	
-		// group2
-		JPanel panel2 = new JPanel();
-		panel2.setLayout(new FlowLayout(FlowLayout.LEFT));		
+		// toolbar group - graph
+		JPanel tgGraph = new JPanel();
+		tgGraph.setLayout(new FlowLayout(FlowLayout.LEFT));		
 		
 		button = new JButton(this.getActionMap().get("show.graph"));
 		button.setText(UIHandler.getText("toolbar.show.db.graph"));
 		button.setIcon(UIHandler.getImageIcon("/chart_pie.png"));
-		panel2.add(button);
+		tgGraph.add(button);
 		
 		button = new JButton(this.getActionMap().get("show.realtime.graph"));
 		button.setText(UIHandler.getText("toolbar.show.realtime.graph"));
 		button.setIcon(UIHandler.getImageIcon("/refresh.png"));
-		panel2.add(button);
+		tgGraph.add(button);
 		
-		// group3
-		JPanel panel3 = new JPanel();
-		panel3.setLayout(new FlowLayout(FlowLayout.LEFT));
+		// toolbar group - data
+		JPanel tgData = new JPanel();
+		tgData.setLayout(new FlowLayout(FlowLayout.LEFT));
 		button = new JButton(this.getActionMap().get("collect.data"));
 		button.setText(UIHandler.getText("toolbar.collect.data"));
+		button.setIcon(UIHandler.getImageIcon("/add_to_folder.png"));
+		tgData.add(button);
+		
+		// toolbar group - analysis
+		JPanel tgAnalysis = new JPanel();
+		tgAnalysis.setLayout(new FlowLayout(FlowLayout.LEFT));
+		button = new JButton(this.getActionMap().get("scoring"));
+		button.setText(UIHandler.getText("toolbar.analysis.scoring"));
+		button.setIcon(UIHandler.getImageIcon("/chart.png"));
+		tgAnalysis.add(button);
+		
+		button = new JButton();
+		button.setText(UIHandler.getText("toolbar.analysis.clustering"));
 		button.setIcon(UIHandler.getImageIcon("/users.png"));
-		panel3.add(button);
+		tgAnalysis.add(button);
 		
 		// create tab menu
-		toolbarMap.put("Graph", panel2);
+		toolbarMap.put("Graph", tgGraph);
 		this.addTab(
 				UIHandler.getText("toolbar.tab.graph"), 
-				//UIHandler.getImageIcon("/full_page.png"),
-				panel2);
+				tgGraph);
 		
-		toolbarMap.put("Data", panel3);
+		toolbarMap.put("Data", tgData);
 		this.addTab(
 				UIHandler.getText("toolbar.tab.data"), 
-				//UIHandler.getImageIcon("/full_page.png"),
-				panel3);
+				tgData);
+		
+		toolbarMap.put("Analysis", tgAnalysis);
+		this.addTab(
+				UIHandler.getText("toolbar.tab.analysis"), 
+				tgAnalysis);
 				
-		toolbarMap.put("Control", panel1);		
+		toolbarMap.put("Control", tgControl);		
 		this.addTab(
 				UIHandler.getText("toolbar.tab.control"), 
-				//UIHandler.getImageIcon("/full_page.png"),
-				panel1);
+				tgControl);
 	}
 
 	/**
@@ -226,6 +241,12 @@ public class GraphToolBar extends JTabbedPane {
 				}
 			}
 		};
+		
+		scoringAction = new AbstractAction() {
+			public void actionPerformed(ActionEvent e) {
+
+			}
+		};
 	}
 
 	/**
@@ -237,6 +258,7 @@ public class GraphToolBar extends JTabbedPane {
 		this.getActionMap().put("show.realtime.graph", showRealtimeGraphAction);
 		this.getActionMap().put("show.graph", showGraphAction);
 		this.getActionMap().put("collect.data", collectDataAction);
+		this.getActionMap().put("scoring", scoringAction);
 	}
 
 	/**
@@ -290,19 +312,6 @@ public class GraphToolBar extends JTabbedPane {
 		}
 	}
 
-	/*
-	private Class<? extends Layout>[] getLayoutComobos() {
-		List<Class<? extends Layout>> layouts = new ArrayList<Class<? extends Layout>>();
-		layouts.add(KKLayout.class);
-		layouts.add(FRLayout.class);
-		layouts.add(CircleLayout.class);
-		layouts.add(SpringLayout.class);
-		layouts.add(SpringLayout2.class);
-		layouts.add(ISOMLayout.class);
-		return layouts.toArray(new Class[0]);
-	}
-	*/
-	
 	private Object[] getLayoutComobos() {
 		List<Object> layouts = new ArrayList<Object>();
 		layouts.add("KKLayout");

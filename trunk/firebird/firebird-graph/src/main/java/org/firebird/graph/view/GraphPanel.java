@@ -15,9 +15,7 @@ import javax.swing.JSplitPane;
 import javax.swing.JTabbedPane;
 import javax.swing.JTable;
 import javax.swing.SwingConstants;
-import javax.swing.table.DefaultTableModel;
 
-import org.firebird.graph.bean.UIHandler;
 import org.firebird.graph.view.tool.CollectorPanel;
 import org.firebird.io.model.Edge;
 import org.firebird.io.model.Vertex;
@@ -55,7 +53,7 @@ public class GraphPanel extends JPanel {
 	public GraphPanel() {
 		UIHandler.setResourceBundle("graph");
 		UIHandler.setDefaultLookAndFeel();
-		UIHandler.changeAllSwingComponentDefaultFont();
+		UIHandler.changeAllSwingComponentDefaultFont();		
 		
 		setupUI();
 	}
@@ -107,7 +105,7 @@ public class GraphPanel extends JPanel {
 				panelViewer);
 		panelRight.addTab(
 				UIHandler.getText("right.tab.list"), 
-				UIHandler.getImageIcon("/full_page.png"),
+				UIHandler.getImageIcon("/table.png"),
 				new JTable());	
 	}
 
@@ -119,7 +117,7 @@ public class GraphPanel extends JPanel {
 	 */
 	public void setLeftToolPanel(String title, JComponent tool) {
 		panelLeft.removeAll();
-		panelLeft.addTab(title, tool);
+		panelLeft.addTab(title, UIHandler.getImageIcon("/info.png"), tool);
 
 		panelContent.setDividerLocation(panelLeft.getPreferredSize().width);
 	}
