@@ -7,6 +7,7 @@ package org.firebird.graph.view;
 import java.net.URL;
 
 import javax.swing.JApplet;
+import javax.swing.UIManager;
 
 import org.firebird.common.http.HttpCommunicateClient;
 
@@ -22,6 +23,7 @@ public class GraphApplet extends JApplet {
 	public void init() {
 		initHttpClient();
 		getContentPane().add(new GraphPanel());
+		System.out.println("Look & Feel == " + UIManager.getLookAndFeel());
 	}
 
 	private void initHttpClient() {

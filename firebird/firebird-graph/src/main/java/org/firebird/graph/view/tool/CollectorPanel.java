@@ -16,7 +16,6 @@ import javax.swing.JComboBox;
 import javax.swing.JComponent;
 import javax.swing.JPanel;
 import javax.swing.JSpinner;
-import javax.swing.JTabbedPane;
 import javax.swing.JTextField;
 import javax.swing.SpinnerNumberModel;
 import javax.swing.border.EmptyBorder;
@@ -24,9 +23,9 @@ import javax.swing.border.EmptyBorder;
 import org.firebird.collector.CollectorConfig;
 import org.firebird.common.model.ObjectModel;
 import org.firebird.graph.bean.GraphClientHandler;
-import org.firebird.graph.bean.UIHandler;
 import org.firebird.graph.view.GenericListener;
 import org.firebird.graph.view.GraphPanel;
+import org.firebird.graph.view.UIHandler;
 import org.firebird.io.model.Edge;
 import org.firebird.io.model.Vertex;
 
