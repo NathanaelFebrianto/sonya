@@ -52,7 +52,7 @@ public class TwitterDataCollector {
 	 * Constructor.
 	 * 
 	 */
-	public TwitterDataCollector() throws Exception {
+	public TwitterDataCollector() {
 		this(new CollectorConfig());
 	}
 	
@@ -61,11 +61,8 @@ public class TwitterDataCollector {
 	 * 
 	 * @param config the collector config
 	 */
-	public TwitterDataCollector(CollectorConfig config) throws Exception {
+	public TwitterDataCollector(CollectorConfig config) {
 		this.config = config;
-		TwitterOAuthSupport twitterSupport = new TwitterOAuthSupport();
-		twitter = twitterSupport.access(myId);
-		baseUrl = twitter.getBaseURL();
 		
 		if (config.isDBStorage()) {
 			vertexManager = new VertexManagerImpl();
@@ -93,8 +90,14 @@ public class TwitterDataCollector {
      * Collects the social network data from twitter.
      *
      * @param screenName the twitter user's screenName
+     * @exception Exception
      */
-	public void collect(String screenName) {
+	public void collect(String screenName) throws Exception {
+		
+		TwitterOAuthSupport twitterSupport = new TwitterOAuthSupport();
+		twitter = twitterSupport.access(myId);
+		baseUrl = twitter.getBaseURL();
+		
 		System.out.println(">>>>>>>>>>>>>> collector option : ");
 		System.out.println("database storage mode == " + config.isDBStorage());
 		System.out.println("collect friend(following) relationship == " + config.isCollectFriend());
