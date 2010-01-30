@@ -15,7 +15,7 @@
 <object
     classid = "clsid:8AD9C840-044E-11D1-B3E9-00805F499D93"
     codebase = "http://java.sun.com/update/1.6.0/jinstall-6u11-windows-i586.cab#Version=6,0,0,3"
-    WIDTH = 1000 HEIGHT = 550 >
+    WIDTH = 1100 HEIGHT = 680 >
     <PARAM NAME = CODE VALUE = org.firebird.graph.view.GraphApplet >
     <param name = CODEBASE value = "/firebird-web" >
     <param name = ARCHIVE value = 
@@ -63,7 +63,6 @@
 	</embed>
     </comment>
 </object>
-
 <!--
 <APPLET CODE = CardTest.class WIDTH = 400 HEIGHT = 300>
 alt="Your browser understands the &lt;APPLET&gt; tag but isn't running the applet, for some reason."

@@ -20,6 +20,10 @@
 			<result>/jsp/helloWorld.jsp</result>
 		</action>
 		
+		<action name="graphPopup">
+			<result>/jsp/graph/graphPopup.jsp</result>
+		</action>
+		
 		<action name="graph">
 			<result>/jsp/graph/graph.jsp</result>
 		</action>

@@ -10,7 +10,7 @@
         text-align: center;
     }
     div#page {
-        width: 780px;
+        width: 1120px;
         
         margin:  0 auto;
         padding: 0;
@@ -20,24 +20,32 @@
     }
     
     /* HEADER */
+
         div#header {
-            margin: 0 0 5em 0;
-            padding: 40px 20px;
-            
+            height: 70px;
+            /*margin: 0 0 0 0;*/
+                         
             color: white;
-            background: black;
+            background: #666666; 
             
             text-align: left;
         }
+
         div#branding {
             float: left;
-            width: 40%;
-            
-            margin: 0;
-            padding: 10px 0 10px 20px;
-            
+             
+            margin: 20px 0 0 20px;            
             text-align: left;
+            background: url(images/twitter_48.png) no-repeat left center;
         }
+	        div#branding h1 {
+				color: white;
+				margin: 0;
+				margin: 20px 0 0 60px;
+				text-transform: none;
+				font-size: 14px;
+			}
+		
         div#search {
             float: right;
             width: 49%;
@@ -52,28 +60,25 @@
     
     /* CONTENT */
         div#content {
-            
         }
         
         /* MAIN */
             div#main {
-                
+        		background: #EBECEC;            
+            	padding: 10px 10px 10px 10px;
+            	text-align: center;                
             }
         /* END MAIN */
-        
-        /* SUB */
-            div#sub {
-                
-            }
-        /* END SUB */
-        
+
     /* END CONTENT */
     
     
     /* FOOTER */
         div#footer {
             color: white;
-            background-color: black;
+            background-color: #666666;
+            padding: 5px 0 5px 0;
+            font-size: 0.8em;
         }
         div#footer p {
             font-size: 0.8em;
@@ -85,41 +90,3 @@
 /* END LAYOUT */
 
 
-
-
-/* UL.SUBNAV */
-    ul.subnav {
-        margin: 0;
-        padding: 0;
-        
-        font-size: 0.8em;
-        list-style: none;
-    }
-    ul.subnav li {
-        margin: 0 0 1em 0;
-        padding: 0;
-        list-style: none;
-    }
-    ul.subnav li a,
-    ul.subnav li a:link,
-    ul.subnav li a:visited,
-    ul.subnav li a:active {
-        text-decoration: none;
-        font-weight: bold;
-        color: black;
-    }
-    ul.subnav li a:hover {
-        text-decoration: underline;
-    }
-    ul.subnav li strong {
-        padding: 0 0 0 12px;
-        background: url("../i/subnav-highlight.gif") left top no-repeat transparent;
-    }
-    ul.subnav li strong a,
-    ul.subnav li strong a:link,
-    ul.subnav li strong a:visited,
-    ul.subnav li strong a:active {
-        color: white;
-        background-color: black;
-    }
-/* END UL.SUBNAV */
