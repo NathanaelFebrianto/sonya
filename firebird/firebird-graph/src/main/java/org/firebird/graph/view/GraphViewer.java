@@ -38,11 +38,23 @@ public class GraphViewer extends VisualizationViewer<org.firebird.io.model.Verte
 	 * @param layout the Layout to apply, with its associated graph
 	 */
 	public GraphViewer(Layout<org.firebird.io.model.Vertex, org.firebird.io.model.Edge> layout) {
-		super(layout, new Dimension(1000, 600));
+		super(layout);
 		
 		createView();
 	}
 
+	/**
+	 * Constructor.
+	 * 
+	 * @param layout the Layout to apply, with its associated graph
+	 * @param dim the dimension
+	 */
+	public GraphViewer(Layout<org.firebird.io.model.Vertex, org.firebird.io.model.Edge> layout, Dimension dim) {
+		super(layout, dim);
+		
+		createView();
+	}
+	
 	/**
 	 * Gets the graph.
 	 * 

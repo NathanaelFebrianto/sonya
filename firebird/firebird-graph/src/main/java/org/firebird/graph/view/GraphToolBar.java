@@ -82,6 +82,8 @@ public class GraphToolBar extends JTabbedPane {
 		this.graph = panelGraph.getGraph();
 		this.handler = new GraphClientHandler();
 		
+		this.
+		
 		initActions();
 	    setActionMap();
 	    createToolBar();
@@ -118,6 +120,7 @@ public class GraphToolBar extends JTabbedPane {
 		
 		// mouse mode
 		JComboBox jcbMouseMode = ((DefaultModalGraphMouse<Vertex, Edge>) viewer.getGraphMouse()).getModeComboBox();
+		jcbMouseMode.setSelectedIndex(1);
 		tgControl.add(jcbMouseMode);
 
 		// create layout choose

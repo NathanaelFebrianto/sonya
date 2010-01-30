@@ -5,7 +5,9 @@
 package org.firebird.graph.view;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
 import java.awt.Container;
+import java.awt.Dimension;
 import java.util.List;
 
 import javax.swing.JComponent;
@@ -15,6 +17,8 @@ import javax.swing.JSplitPane;
 import javax.swing.JTabbedPane;
 import javax.swing.JTable;
 import javax.swing.SwingConstants;
+import javax.swing.border.EtchedBorder;
+import javax.swing.border.LineBorder;
 
 import org.firebird.graph.view.tool.CollectorPanel;
 import org.firebird.io.model.Edge;
@@ -38,14 +42,16 @@ public class GraphPanel extends JPanel {
 
 	/** the visual component and renderer for the graph */
 	GraphViewer viewer;
+	SatelliteGraphViewer satelliteViewer;
 	
 	/** split panel */
 	JSplitPane panelContent;
-	/** left view panel */
-	JTabbedPane panelLeft;	
+	/** left tab tool panel */
+	JTabbedPane tpanelTool;	
 	/** right view panel */
-	JTabbedPane panelRight;
-	
+	JSplitPane panelRight;	
+	/** right bottom panel */
+	JTabbedPane panelRightBottom;
 	/**
 	 * Constructor.
 	 * 
@@ -53,18 +59,31 @@ public class GraphPanel extends JPanel {
 	public GraphPanel() {
 		UIHandler.setResourceBundle("graph");
 		UIHandler.setDefaultLookAndFeel();
-		UIHandler.changeAllSwingComponentDefaultFont();		
+		UIHandler.changeAllSwingComponentDefaultFont();	
 		
+		setupGraphView();
 		setupUI();
+	}
+	
+	private void setupGraphView() {
+		// create a graph
+		modeller = new GraphModeller(GraphModeller.DIRECTED_SPARSE_GRAPH);		
+		
+		// create a graph viewer
+		int width = 900;		
+		int height = 600;
+		viewer = new GraphViewer(new FRLayout<Vertex, Edge>(modeller.getGraph()), new Dimension(900, 600));		
+		satelliteViewer = new SatelliteGraphViewer(viewer, new Dimension(width/4, height/4));
 	}
 	
 	private void setupUI() {
 		setLayout(new BorderLayout());
 		
 		// create a content panel
-		panelContent = new JSplitPane();
-		setupLeftPanel();
-		setupRightPanel();
+		panelContent = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT);
+		JComponent panelLeft = setupLeftPanel();
+		JComponent panelRight = setupRightPanel();
+		
 		panelContent.setOneTouchExpandable(true);		
 		panelContent.setDividerLocation(panelLeft.getPreferredSize().width);
 		panelContent.setLeftComponent(panelLeft);
@@ -78,35 +97,53 @@ public class GraphPanel extends JPanel {
 		add(panelContent, BorderLayout.CENTER);
 	}
 	
-	private void setupLeftPanel() {
+	private JComponent setupLeftPanel() {
+		JPanel panel = new JPanel(new BorderLayout());		
+		
 		// create a left default tool panel
 		CollectorPanel tool = new CollectorPanel(this);
 		tool.setDBStorage(false);
 		
-		panelLeft = new JTabbedPane();
-		panelLeft.addTab(
+		tpanelTool = new JTabbedPane();
+		tpanelTool.addTab(
 				UIHandler.getText("toolbar.show.realtime.graph"), 
 				UIHandler.getImageIcon("/info.png"),
 				tool);
+		
+		JPanel panelSatelliteViewer = new JPanel();
+		//panelSatelliteViewer.setBorder(LineBorder.createGrayLineBorder());
+		panelSatelliteViewer.setBorder(new EtchedBorder(EtchedBorder.RAISED)); 
+		
+		panelSatelliteViewer.add(satelliteViewer);
+		
+		panel.add(tpanelTool, BorderLayout.NORTH);
+		panel.add(panelSatelliteViewer, BorderLayout.SOUTH);
+		
+		return panel;
 	}
 	
-	private void setupRightPanel() {
-		panelRight = new JTabbedPane(SwingConstants.BOTTOM);
+	private JComponent setupRightPanel() {
+		panelRight = new JSplitPane(JSplitPane.VERTICAL_SPLIT);
 		
-		// create a graph
-		modeller = new GraphModeller(GraphModeller.DIRECTED_SPARSE_GRAPH);		
-		// create a graph viewer
-		viewer = new GraphViewer(new FRLayout<Vertex, Edge>(modeller.getGraph()));
+		GraphZoomScrollPane panelViewer = new GraphZoomScrollPane(viewer);
 		
-		GraphZoomScrollPane panelViewer = new GraphZoomScrollPane(viewer);		
-		panelRight.addTab(
-				UIHandler.getText("right.tab.graph"), 
-				UIHandler.getImageIcon("/chart_pie1.png"),
-				panelViewer);
-		panelRight.addTab(
+		panelRight.setOneTouchExpandable(true);
+		panelRight.setDividerLocation(550);
+		panelRight.setTopComponent(panelViewer);
+		panelRight.setBottomComponent(setupRightBottomPanel());
+		
+		return panelRight;
+	}
+	
+	private JComponent setupRightBottomPanel() {
+		panelRightBottom = new JTabbedPane(SwingConstants.TOP);
+
+		panelRightBottom.addTab(
 				UIHandler.getText("right.tab.list"), 
 				UIHandler.getImageIcon("/table.png"),
-				new JTable());	
+				new JTable());
+		
+		return panelRightBottom;
 	}
 
 	/**
@@ -116,10 +153,10 @@ public class GraphPanel extends JPanel {
 	 * @param tool the tool panel
 	 */
 	public void setLeftToolPanel(String title, JComponent tool) {
-		panelLeft.removeAll();
-		panelLeft.addTab(title, UIHandler.getImageIcon("/info.png"), tool);
+		tpanelTool.removeAll();
+		tpanelTool.addTab(title, UIHandler.getImageIcon("/info.png"), tool);
 
-		panelContent.setDividerLocation(panelLeft.getPreferredSize().width);
+		panelContent.setDividerLocation(tpanelTool.getPreferredSize().width);
 	}
 	
 	/**
