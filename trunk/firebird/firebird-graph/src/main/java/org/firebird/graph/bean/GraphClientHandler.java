@@ -120,7 +120,7 @@ public class GraphClientHandler {
 	            "org.firebird.graph.service.impl.RemoteGraphServiceImpl", 
 	            "scoringGraph",
 	            methodParams);
-	    httpClient.execute(comm);		
+	    httpClient.execute(comm);
 	}
 	
 }
