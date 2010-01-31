@@ -25,8 +25,8 @@
             height: 70px;
             /*margin: 0 0 0 0;*/
                          
-            color: white;
-            background: #666666; 
+            color: #262626;
+            background: #EEF3E6; 
             
             text-align: left;
         }
@@ -39,7 +39,7 @@
             background: url(images/twitter_48.png) no-repeat left center;
         }
 	        div#branding h1 {
-				color: white;
+				color: #33CCFF;
 				margin: 0;
 				margin: 20px 0 0 60px;
 				text-transform: none;
@@ -64,7 +64,7 @@
         
         /* MAIN */
             div#main {
-        		background: #EBECEC;            
+        		background: #EEF3E6;            
             	padding: 10px 10px 10px 10px;
             	text-align: center;                
             }
@@ -75,8 +75,8 @@
     
     /* FOOTER */
         div#footer {
-            color: white;
-            background-color: #666666;
+            color: #262626;
+            background-color: #EEF3E6;
             padding: 5px 0 5px 0;
             font-size: 0.8em;
         }

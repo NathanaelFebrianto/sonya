@@ -52,4 +52,6 @@ D:\tools\java\jdk1.6.0_11\bin\jarsigner.exe -keystore D:\workspace\firebird-web\
 
 D:\tools\java\jdk1.6.0_11\bin\jarsigner.exe -keystore D:\workspace\firebird-web\jarsigner\.keystore -storepass firebird -signedjar D:\workspace\firebird-web\target\firebird-web\client-lib\twitter4j-2.0.10.jar D:\workspace\firebird-web\target\firebird-web\WEB-INF\lib\twitter4j-2.0.10.jar firebird
 
+D:\tools\java\jdk1.6.0_11\bin\jarsigner.exe -keystore D:\workspace\firebird-web\jarsigner\.keystore -storepass firebird -signedjar D:\workspace\firebird-web\target\firebird-web\client-lib\substance-5.3.jar D:\workspace\firebird-web\target\firebird-web\WEB-INF\lib\substance-5.3.jar firebird
+
 
