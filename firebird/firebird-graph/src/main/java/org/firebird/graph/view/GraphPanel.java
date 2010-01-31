@@ -18,12 +18,10 @@ import javax.swing.JTable;
 import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
-import javax.swing.border.EtchedBorder;
 
 import org.firebird.graph.view.tool.CollectorPanel;
 import org.firebird.io.model.Edge;
 import org.firebird.io.model.Vertex;
-import org.jvnet.substance.skin.SubstanceRavenGraphiteLookAndFeel;
 
 import edu.uci.ics.jung.algorithms.layout.FRLayout;
 import edu.uci.ics.jung.graph.Graph;
