@@ -81,9 +81,10 @@ public final class Scorer {
 	/**
 	 * Evaluates the graph by the enabled algorithms.
 	 * 
+	 * @return Graph<Vertex, Edge> the graph
 	 * @exception
 	 */
-	public void evaluate() throws Exception {
+	public Graph<Vertex, Edge> evaluate() throws Exception {
 		// HITS
 		if (config.isEnbleHITS()) {
 			hits = new HITS<Vertex, Edge>(graph);
@@ -120,6 +121,8 @@ public final class Scorer {
 		
 		storeVertexScoreToGraph();
 		storeEdgeScoreToGraph();
+		
+		return graph;
 	}
 	
 	private void storeVertexScoreToGraph() throws Exception {
@@ -225,6 +228,5 @@ public final class Scorer {
 	 */
 	public void storeToDatabase() {
 		
-	}
-	
+	}	
 }

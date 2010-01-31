@@ -6,7 +6,7 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-import org.firebird.graph.view.GraphModeller;
+import org.firebird.analyzer.graph.GraphModeller;
 import org.firebird.io.model.Edge;
 import org.firebird.io.model.Vertex;
 import org.firebird.io.service.EdgeManager;
