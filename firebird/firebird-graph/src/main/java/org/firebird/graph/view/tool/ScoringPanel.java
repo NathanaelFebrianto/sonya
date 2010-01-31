@@ -203,6 +203,10 @@ public class ScoringPanel extends JPanel {
 	
 	private ScoringConfig createScoringConfig() {
 		ScoringConfig config = new ScoringConfig();
+		config.setEnbleHITS(true);
+		config.setEnableBetweennessCentrality(true);
+		config.setEnableClosenessCentrality(true);
+		config.setEnableEigenvectorCentrality(false);
 		
 		return config;
 	}

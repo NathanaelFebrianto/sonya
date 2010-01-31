@@ -148,10 +148,8 @@ public class GraphPanel extends JPanel {
 	/**
 	 * Sets the left tool panel.
 	 * 
-	 * @param title
-	 *            the tab title
-	 * @param tool
-	 *            the tool panel
+	 * @param title	the tab title
+	 * @param tool the tool panel
 	 */
 	public void setLeftToolPanel(String title, JComponent tool) {
 		tpanelTool.removeAll();
@@ -190,10 +188,8 @@ public class GraphPanel extends JPanel {
 	/**
 	 * Shows a graph.
 	 * 
-	 * @param vertices
-	 *            the vertex list
-	 * @param edges
-	 *            the edge list
+	 * @param vertices the vertex list
+	 * @param edges the edge list
 	 */
 	public void showGraph(List<Vertex> vertices, List<Edge> edges) {
 		modeller.createGraph(vertices, edges);
@@ -202,10 +198,8 @@ public class GraphPanel extends JPanel {
 	/**
 	 * Shows the list.
 	 * 
-	 * @param vertices
-	 *            the vertex list
-	 * @param edges
-	 *            the edge list
+	 * @param vertices the vertex list
+	 * @param edges the edge list
 	 */
 	public void showList(List<Vertex> vertices, List<Edge> edges) {
 
