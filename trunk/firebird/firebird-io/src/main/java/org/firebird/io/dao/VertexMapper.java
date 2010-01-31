@@ -37,4 +37,11 @@ public interface VertexMapper extends GenericMapper {
      * @param vertex the vertex
      */
 	public void deleteVertex(Vertex vertex);
+	
+	/**
+     * Updates a vertex score.
+     *
+     * @param vertex the vertex score
+     */
+	public void updateVertexScore(Vertex vertex);
 }

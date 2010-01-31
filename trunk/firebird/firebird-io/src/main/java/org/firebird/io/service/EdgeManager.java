@@ -38,4 +38,11 @@ public interface EdgeManager extends GenericManager {
      * @param edge the edge
      */
 	public void deleteEdge(Edge edge);
+	
+	/**
+     * Updates a edge score.
+     *
+     * @param edge the edge score
+     */
+	public void setEdgeScore(Edge edge);
 }
