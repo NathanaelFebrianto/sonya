@@ -6,8 +6,12 @@ package org.firebird.graph.service.impl;
 
 import java.util.List;
 
+import org.firebird.analyzer.graph.scoring.ScoringConfig;
+import org.firebird.analyzer.service.AnalysisManager;
+import org.firebird.analyzer.service.impl.AnalysisManagerImpl;
 import org.firebird.collector.CollectorConfig;
-import org.firebird.collector.twitter.TwitterDataCollector;
+import org.firebird.collector.service.CollectManager;
+import org.firebird.collector.service.impl.CollectManagerImpl;
 import org.firebird.graph.service.RemoteGraphService;
 import org.firebird.io.model.Edge;
 import org.firebird.io.model.Vertex;
@@ -25,7 +29,8 @@ public class RemoteGraphServiceImpl implements RemoteGraphService {
 
 	private VertexManager vertexManager;
 	private EdgeManager edgeManager;
-	private TwitterDataCollector twitterCollector;
+	private CollectManager collectManager;
+	private AnalysisManager analysisManager;
 	
 	/**
      * Creates a remote query manager.
@@ -34,7 +39,8 @@ public class RemoteGraphServiceImpl implements RemoteGraphService {
     public RemoteGraphServiceImpl() {
     	this.vertexManager = new VertexManagerImpl();
     	this.edgeManager = new EdgeManagerImpl();
-    	this.twitterCollector = new TwitterDataCollector();    	
+    	this.collectManager = new CollectManagerImpl();
+    	this.analysisManager = new AnalysisManagerImpl();
     }
 	
 	/**
@@ -65,7 +71,18 @@ public class RemoteGraphServiceImpl implements RemoteGraphService {
 	 * @param screenName the user's screen name
 	 */
 	public void collectTwitter(CollectorConfig config, String screenName) throws Exception {
-		twitterCollector.setConfig(config);
-		twitterCollector.collect(screenName);
-	}	
+		collectManager.collectTwitter(config, screenName);
+	}
+	
+	/**
+	 * Evaluates the scores of the graph.
+	 * such as HITS, Betweenness Centrality, Closeness Centrality, Degree etc.
+	 * 
+	 * @param config the scoring config
+	 * @param websiteId1 the website id1
+	 * @param websiteId2 the website id2
+	 */
+	public void scoringGraph(ScoringConfig config, int websiteId1, int websiteId2) throws Exception {
+		analysisManager.scoringGraph(config, websiteId1, websiteId2);
+	}
 }

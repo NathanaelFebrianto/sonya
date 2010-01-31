@@ -4,9 +4,12 @@
  */
 package org.firebird.graph.view;
 
+import java.awt.Container;
 import java.net.URL;
 
 import javax.swing.JApplet;
+import javax.swing.JFrame;
+import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 
 import org.firebird.common.http.HttpCommunicateClient;
@@ -22,8 +25,19 @@ public class GraphApplet extends JApplet {
 
 	public void init() {
 		initHttpClient();
-		getContentPane().add(new GraphPanel());
-		System.out.println("Look & Feel == " + UIManager.getLookAndFeel());
+		SwingUtilities.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceCremeLookAndFeel");
+					//UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceRavenGraphiteLookAndFeel");
+				} catch (Exception ex) {
+					ex.printStackTrace();
+				}
+				getContentPane().add(new GraphPanel());
+			}
+		});
+		
+		//System.out.println("Look & Feel == " + UIManager.getLookAndFeel());
 	}
 
 	private void initHttpClient() {
