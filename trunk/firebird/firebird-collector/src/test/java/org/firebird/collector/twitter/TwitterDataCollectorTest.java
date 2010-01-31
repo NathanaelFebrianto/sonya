@@ -41,12 +41,8 @@ public class TwitterDataCollectorTest extends TestCase
         	config.setDegreeLimit(2);
         	config.setPeopleLimit(10);
         	
-        	TwitterDataCollector collector = new TwitterDataCollector(config);
-        	
-        	//VertexManager vertexManager = new VertexManagerImpl();
-        	//List<Vertex> vertices = vertexManager.getVertices(1);
-        	
-        	collector.collect("louiezzang");
+        	//TwitterDataCollector collector = new TwitterDataCollector(config);
+        	//collector.collect("louiezzang");
         } catch (Exception ex) {
         	ex.printStackTrace();
         }
