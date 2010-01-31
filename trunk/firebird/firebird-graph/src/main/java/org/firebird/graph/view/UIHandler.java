@@ -16,11 +16,11 @@ import java.util.Locale;
 import java.util.ResourceBundle;
 
 import javax.swing.ImageIcon;
+import javax.swing.SwingUtilities;
 import javax.swing.UIDefaults;
 import javax.swing.UIManager;
 
-import com.jgoodies.plaf.LookUtils;
-import com.jgoodies.plaf.plastic.Plastic3DLookAndFeel;
+import org.jvnet.substance.skin.SubstanceRavenGraphiteLookAndFeel;
 
 /**
  * UI handler for swing.
@@ -59,12 +59,9 @@ public class UIHandler {
 	 */
 	public static void setDefaultLookAndFeel() {
 		try {
-			UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
+			//UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
 			//UIManager.setLookAndFeel("com.jgoodies.plaf.plastic.Plastic3DLookAndFeel");
-			//UIManager.setLookAndFeel("com.jgoodies.plaf.plastic.PlasticXPLookAndFeel");
-
-			//UIManager.setLookAndFeel(new Plastic3DLookAndFeel());
-			//UIManager.put("ClassLoader", LookUtils.class.getClassLoader());
+			//UIManager.setLookAndFeel("com.jgoodies.plaf.plastic.PlasticXPLookAndFeel");			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -83,7 +80,7 @@ public class UIHandler {
 			while (allDefaultKey.hasMoreElements()) {
 				String defaultKey = allDefaultKey.nextElement().toString();
 				if (defaultKey.indexOf("font") != -1) {
-					Font newDefaultFont = new Font("¸¼Àº°íµñ", Font.PLAIN, 12);
+					Font newDefaultFont = new Font("³ª´®°íµñ", Font.PLAIN, 12);
 					UIManager.put(defaultKey, newDefaultFont);
 				}
 			}

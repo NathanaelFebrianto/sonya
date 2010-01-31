@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=D:\workspace\firebird-graph\lib\substance.jar -DgroupId=org.jvnet.substance -DartifactId=substance -Dversion=5.3 -Dpackaging=jar

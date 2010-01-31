@@ -7,6 +7,7 @@ package org.firebird.graph.bean;
 import java.util.HashMap;
 import java.util.List;
 
+import org.firebird.analyzer.graph.scoring.ScoringConfig;
 import org.firebird.collector.CollectorConfig;
 import org.firebird.collector.twitter.TwitterDataCollector;
 import org.firebird.common.http.HttpCommunicate;
@@ -102,7 +103,24 @@ public class GraphClientHandler {
 		result.put("vertices", vertices);
 		result.put("edges", edges);
 		
-		return result;
-		
+		return result;		
 	}
+	
+	/**
+	 * Evaluates the scores of the graph.
+	 * such as HITS, Betweenness Centrality, Closeness Centrality, Degree etc.
+	 * 
+	 * @param config the scoring config
+	 * @param websiteId1 the website id1
+	 * @param websiteId2 the website id2
+	 */
+	public void scoringGraph(ScoringConfig config, int websiteId1, int websiteId2) throws HttpCommunicateException {
+		Object[] methodParams = { config, websiteId1, websiteId2 };
+	    HttpCommunicate comm = new HttpCommunicate(
+	            "org.firebird.graph.service.impl.RemoteGraphServiceImpl", 
+	            "scoringGraph",
+	            methodParams);
+	    httpClient.execute(comm);		
+	}
+	
 }

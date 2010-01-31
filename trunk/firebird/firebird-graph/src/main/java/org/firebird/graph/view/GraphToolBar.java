@@ -20,6 +20,7 @@ import javax.swing.JTabbedPane;
 
 import org.firebird.graph.bean.GraphClientHandler;
 import org.firebird.graph.view.tool.CollectorPanel;
+import org.firebird.graph.view.tool.ScoringPanel;
 import org.firebird.io.model.Edge;
 import org.firebird.io.model.Vertex;
 
@@ -247,7 +248,12 @@ public class GraphToolBar extends JTabbedPane {
 		
 		scoringAction = new AbstractAction() {
 			public void actionPerformed(ActionEvent e) {
-
+				try {												
+					ScoringPanel tool = new ScoringPanel(panelGraph);
+					panelGraph.setLeftToolPanel(e.getActionCommand(), tool);
+				} catch (Exception ex) {
+					ex.printStackTrace();
+				}
 			}
 		};
 	}
