@@ -52,13 +52,19 @@
 
 	<insert id="insertVertex" parameterType="org.firebird.io.model.Vertex">
 		INSERT INTO vertex (
-			website_id
+			  website_id
 			, vertex_id
 			, vertex_no
 			, vertex_name
 			, image_file
 			, in_degree
 			, out_degree
+			, authority
+			, hub
+			, betweenness_centrality
+			, closeness_centrality
+			, eigenvector_centrality
+			, clustering_coefficient
 			, friends_count
 			, followers_count
 			, user_no
@@ -79,13 +85,17 @@
 			, col_last_update_date			 
 		)
 		VALUES (
-			#{websiteId}
+			  #{websiteId}
 			, #{id}
 			, #{no,javaType=int,jdbcType=NUMERIC}
 			, #{name,jdbcType=VARCHAR}
 			, #{imageFile,jdbcType=VARCHAR}
 			, #{inDegree,javaType=int,jdbcType=NUMERIC}
 			, #{outDegree,javaType=int,jdbcType=NUMERIC}
+			, #{betweennessCentrality,javaType=double,jdbcType=DOUBLE}
+			, #{closenessCentrality,javaType=double,jdbcType=DOUBLE}
+			, #{eigenvectorCentrality,javaType=double,jdbcType=DOUBLE}
+			, #{clusteringCoefficient,javaType=double,jdbcType=DOUBLE}
 			, #{friendsCount,javaType=int,jdbcType=NUMERIC}
 			, #{followersCount,javaType=int,jdbcType=NUMERIC}
 			, #{userNo,javaType=int,jdbcType=NUMERIC}
@@ -117,4 +127,18 @@
 			AND vertex_id = #{id}
 		</if>
 	</delete>
+	
+	<update id="updateVertexScore" parameterType="org.firebird.io.model.Vertex">
+		UPDATE vertex SET
+			  in_degree = #{inDegree}
+			, out_degree = #{outDegree}
+			, authority = #{authority}
+			, hub = #{hub}
+			, betweenness_centrality = #{betweennessCentrality}
+			, closeness_centrality = #{closenessCentrality}
+			, eigenvector_centrality = #{eigenvectorCentrality}
+		WHERE
+			website_id = #{websiteId}
+			AND vertex_id = #{id}
+	</update>
 </mapper>

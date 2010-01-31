@@ -8,6 +8,7 @@ import java.util.List;
 
 import org.firebird.common.ibatis.GenericMapper;
 import org.firebird.io.model.Edge;
+import org.firebird.io.model.Vertex;
 
 /**
  * A interface for edge mapper.
@@ -37,4 +38,11 @@ public interface EdgeMapper extends GenericMapper {
      * @param edge the edge
      */
 	public void deleteEdge(Edge edge);
+	
+	/**
+     * Updates a edge score.
+     *
+     * @param edge the edge score
+     */
+	public void updateEdgeScore(Edge edge);
 }

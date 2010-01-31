@@ -37,4 +37,11 @@ public interface VertexManager extends GenericManager {
      * @param vertex the vertex
      */
 	public void deleteVertex(Vertex vertex);
+	
+	/**
+     * Updates a vertex score.
+     *
+     * @param vertex the vertex score
+     */
+	public void setVertexScore(Vertex vertex);
 }

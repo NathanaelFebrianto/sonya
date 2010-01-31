@@ -91,4 +91,20 @@ public class VertexManagerImpl extends GenericManagerImpl implements VertexManag
     		session.close();
     	}
 	}
+	
+	/**
+     * Updates a vertex score.
+     *
+     * @param vertex the vertex score
+     */
+	public void setVertexScore(Vertex vertex) {
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		VertexMapper mapper = session.getMapper(VertexMapper.class);
+    		mapper.updateVertexScore(vertex);
+    		session.commit();
+    	} finally {
+    		session.close();
+    	}		
+	}
 }

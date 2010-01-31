@@ -96,4 +96,20 @@ public class EdgeManagerImpl extends GenericManagerImpl implements EdgeManager {
     		session.close();
     	}
 	}
+	
+	/**
+     * Updates a edge score.
+     *
+     * @param edge the edge score
+     */
+	public void setEdgeScore(Edge edge) {
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		EdgeMapper mapper = session.getMapper(EdgeMapper.class);
+    		mapper.updateEdgeScore(edge);
+    		session.commit();
+    	} finally {
+    		session.close();
+    	}		
+	}
 }

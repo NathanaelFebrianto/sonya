@@ -42,7 +42,7 @@
 
 	<insert id="insertEdge" parameterType="org.firebird.io.model.Edge">
 		INSERT INTO edge (
-			website_id1
+			  website_id1
 			, website_id2
 			, vertex1
 			, vertex2
@@ -67,7 +67,7 @@
 			, col_last_update_date			 
 		)
 		VALUES (
-			#{websiteId1}
+			  #{websiteId1}
 			, #{websiteId2}
 			, #{vertex1}
 			, #{vertex2}
@@ -109,4 +109,14 @@
 			AND vertex2 = #{vertex2}
 		</if>
 	</delete>
+	
+	<update id="updateEdgeScore" parameterType="org.firebird.io.model.Edge">
+		UPDATE edge SET
+			  betweenness_centrality = #{betweennessCentrality}
+		WHERE
+			website_id1 = #{websiteId1}
+			AND website_id2 = #{websiteId2}
+			AND vertex1 = #{vertex1}
+			AND vertex2 = #{vertex2}
+	</update>
 </mapper>
