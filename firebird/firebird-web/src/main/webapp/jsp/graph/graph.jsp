@@ -21,6 +21,7 @@
     <param name = ARCHIVE value = 
 	   		"./client-lib/firebird-common.jar, ./client-lib/firebird-collector.jar, 
 	   		./client-lib/firebird-graph.jar, ./client-lib/firebird-io.jar, 
+	   		./client-lib/firebird-analyzer.jar, 
 	   		./client-lib/forms-1.0.5.jar, ./client-lib/jung-3d-2.0.jar, 
 	   		./client-lib/jung-3d-demos-2.0.jar, ./client-lib/jung-algorithms-2.0.jar, 
 	   		./client-lib/jung-api-2.0.jar, ./client-lib/jung-graph-impl-2.0.jar, 
@@ -43,6 +44,7 @@
 			ARCHIVE = 
 			"./client-lib/firebird-common.jar, ./client-lib/firebird-collector.jar, 
 	   		./client-lib/firebird-graph.jar, ./client-lib/firebird-io.jar, 
+	   		./client-lib/firebird-analyzer.jar, 
 	   		./client-lib/forms-1.0.5.jar, ./client-lib/jung-3d-2.0.jar, 
 	   		./client-lib/jung-3d-demos-2.0.jar, ./client-lib/jung-algorithms-2.0.jar, 
 	   		./client-lib/jung-api-2.0.jar, ./client-lib/jung-graph-impl-2.0.jar, 
