@@ -5,13 +5,21 @@
 package org.firebird.graph.view;
 
 import java.awt.BorderLayout;
+import java.awt.Color;
 import java.awt.Container;
 import java.awt.Dimension;
+import java.awt.FlowLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
+import javax.swing.JButton;
 import javax.swing.JComponent;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+import javax.swing.JScrollPane;
 import javax.swing.JSplitPane;
 import javax.swing.JTabbedPane;
 import javax.swing.JTable;
@@ -43,14 +51,21 @@ public class GraphPanel extends JPanel {
 	GraphViewer viewer;
 	SatelliteGraphViewer satelliteViewer;
 
-	/** split panel */
-	JSplitPane panelContent;
-	/** left tab tool panel */
-	JTabbedPane tpanelTool;
-	/** right view panel */
-	JSplitPane panelRight;
-	/** right bottom panel */
-	JTabbedPane panelRightBottom;
+	/** split panel for content */
+	JSplitPane spaneContent;
+	/** left tab panel for tool */
+	JTabbedPane tpaneTool;
+	/** right split panel */
+	JSplitPane spaneRight;
+	/** right center tab panel */
+	JTabbedPane tpaneRightCenter;
+	/** right bottom tab panel */
+	JTabbedPane tpaneRightBottom;
+	
+	/** vertices table */
+	VertexTable tblVertices;
+	/** edges table */
+	JTable tblEdges;
 
 	/**
 	 * Constructor.
@@ -72,32 +87,31 @@ public class GraphPanel extends JPanel {
 		// create a graph viewer
 		int width = 900;
 		int height = 600;
-		viewer = new GraphViewer(
-				new FRLayout<Vertex, Edge>(modeller.getGraph()), new Dimension(
-						900, 600));
-		satelliteViewer = new SatelliteGraphViewer(viewer, new Dimension(
-				width / 4, height / 4));
+		viewer = new GraphViewer(new FRLayout<Vertex, Edge>(modeller.getGraph()), 
+				new Dimension(900, 600));
+		satelliteViewer = new SatelliteGraphViewer(viewer, 
+				new Dimension(width / 4, height / 4));
 	}
 
 	private void setupUI() {
 		setLayout(new BorderLayout());
 
 		// create a content panel
-		panelContent = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT);
+		spaneContent = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT);
 		JComponent panelLeft = setupLeftPanel();
 		JComponent panelRight = setupRightPanel();
 
-		panelContent.setOneTouchExpandable(true);
-		panelContent.setDividerLocation(panelLeft.getPreferredSize().width);
-		panelContent.setLeftComponent(panelLeft);
-		panelContent.setRightComponent(panelRight);
+		spaneContent.setOneTouchExpandable(true);
+		spaneContent.setDividerLocation(panelLeft.getPreferredSize().width);
+		spaneContent.setLeftComponent(panelLeft);
+		spaneContent.setRightComponent(panelRight);
 
 		// create a graph toolbar
 		GraphToolBar toolbar = new GraphToolBar(this);
 
 		setLayout(new BorderLayout());
 		add(toolbar, BorderLayout.NORTH);
-		add(panelContent, BorderLayout.CENTER);
+		add(spaneContent, BorderLayout.CENTER);
 	}
 
 	private JComponent setupLeftPanel() {
@@ -107,8 +121,8 @@ public class GraphPanel extends JPanel {
 		CollectorPanel tool = new CollectorPanel(this);
 		tool.setDBStorage(false);
 
-		tpanelTool = new JTabbedPane();
-		tpanelTool.addTab(UIHandler.getText("toolbar.show.realtime.graph"),
+		tpaneTool = new JTabbedPane();
+		tpaneTool.addTab(UIHandler.getText("toolbar.show.realtime.graph"),
 				UIHandler.getImageIcon("/info.png"), tool);
 
 		JPanel panelSatelliteViewer = new JPanel();
@@ -117,32 +131,79 @@ public class GraphPanel extends JPanel {
 
 		panelSatelliteViewer.add(satelliteViewer);
 
-		panel.add(tpanelTool, BorderLayout.NORTH);
+		panel.add(tpaneTool, BorderLayout.NORTH);
 		panel.add(panelSatelliteViewer, BorderLayout.SOUTH);
 
 		return panel;
 	}
 
 	private JComponent setupRightPanel() {
-		panelRight = new JSplitPane(JSplitPane.VERTICAL_SPLIT);
+		spaneRight = new JSplitPane(JSplitPane.VERTICAL_SPLIT);
 
-		GraphZoomScrollPane panelViewer = new GraphZoomScrollPane(viewer);
+		spaneRight.setOneTouchExpandable(true);
+		spaneRight.setDividerLocation(550);
+		spaneRight.setTopComponent(setupRightCenterPanel());
+		spaneRight.setBottomComponent(setupRightBottomPanel());
 
-		panelRight.setOneTouchExpandable(true);
-		panelRight.setDividerLocation(550);
-		panelRight.setTopComponent(panelViewer);
-		panelRight.setBottomComponent(setupRightBottomPanel());
-
-		return panelRight;
+		return spaneRight;
 	}
 
+	private JComponent setupRightCenterPanel() {
+		tpaneRightCenter = new JTabbedPane(SwingConstants.TOP);
+
+		GraphZoomScrollPane panelViewer = new GraphZoomScrollPane(viewer);		
+		tpaneRightCenter.addTab(
+				UIHandler.getText("content.tab.graph"), 
+				UIHandler.getImageIcon("/bug.gif"), 
+				panelViewer);
+		
+		return tpaneRightCenter;
+	}
+	
 	private JComponent setupRightBottomPanel() {
-		panelRightBottom = new JTabbedPane(SwingConstants.TOP);
+		JPanel panel = new JPanel(new BorderLayout());
+		
+		JPanel panelButtons = new JPanel(new FlowLayout(FlowLayout.LEFT));
+		
+		JButton btnInitColor = new JButton(UIHandler.getText("button.init.color"));
+		ActionListener initColorGraphActionListener = (ActionListener)(GenericListener.create(
+		        ActionListener.class,
+				"actionPerformed",
+				this,
+				"initColorGraphAction"));		
+		btnInitColor.addActionListener(initColorGraphActionListener);
+		
+		JButton btnColor = new JButton(UIHandler.getText("button.paint.color"));
+		ActionListener colorGraphActionListener = (ActionListener)(GenericListener.create(
+		        ActionListener.class,
+				"actionPerformed",
+				this,
+				"colorGraphAction"));		
+		btnColor.addActionListener(colorGraphActionListener);
+		
+		panelButtons.add(btnInitColor);
+		panelButtons.add(btnColor);
+		
+		tpaneRightBottom = new JTabbedPane(SwingConstants.BOTTOM);
 
-		panelRightBottom.addTab(UIHandler.getText("right.tab.list"), UIHandler
-				.getImageIcon("/table.png"), new JTable());
+		tblVertices = new VertexTable();
+		
+		tblEdges = new GraphTable();
+		
+		tpaneRightBottom.addTab(
+				UIHandler.getText("content.tab.vertex"), 
+				UIHandler.getImageIcon("/vertex_s.gif"), 
+				new JScrollPane(tblVertices));
+		
+		tpaneRightBottom.addTab(
+				UIHandler.getText("content.tab.edge"), 
+				UIHandler.getImageIcon("/edge_s.gif"), 
+				new JScrollPane(tblEdges));
+		
+		panel.add(panelButtons, BorderLayout.NORTH);
+		panel.add(tpaneRightBottom, BorderLayout.CENTER);
 
-		return panelRightBottom;
+		return panel;
 	}
 
 	/**
@@ -152,10 +213,10 @@ public class GraphPanel extends JPanel {
 	 * @param tool the tool panel
 	 */
 	public void setLeftToolPanel(String title, JComponent tool) {
-		tpanelTool.removeAll();
-		tpanelTool.addTab(title, UIHandler.getImageIcon("/info.png"), tool);
+		tpaneTool.removeAll();
+		tpaneTool.addTab(title, UIHandler.getImageIcon("/info.png"), tool);
 
-		panelContent.setDividerLocation(tpanelTool.getPreferredSize().width);
+		spaneContent.setDividerLocation(tpaneTool.getPreferredSize().width);
 	}
 
 	/**
@@ -173,7 +234,7 @@ public class GraphPanel extends JPanel {
 	 * @return JSplitPane the content panel
 	 */
 	public JSplitPane getContentPanel() {
-		return this.panelContent;
+		return this.spaneContent;
 	}
 
 	/**
@@ -193,16 +254,19 @@ public class GraphPanel extends JPanel {
 	 */
 	public void showGraph(List<Vertex> vertices, List<Edge> edges) {
 		modeller.createGraph(vertices, edges);
+		this.showGraphData(vertices, edges);		
 	}
 
 	/**
-	 * Shows the list.
+	 * Shows the graph data with vertices and edges.
 	 * 
 	 * @param vertices the vertex list
 	 * @param edges the edge list
 	 */
-	public void showList(List<Vertex> vertices, List<Edge> edges) {
-
+	public void showGraphData(List<Vertex> vertices, List<Edge> edges) {
+		tblVertices.setVertices(vertices);
+		String vertexTabTitle = tpaneRightBottom.getTitleAt(0);
+		tpaneRightBottom.setTitleAt(0, vertexTabTitle + "(" + vertices.size() + ")");
 	}
 
 	/**
@@ -245,16 +309,31 @@ public class GraphPanel extends JPanel {
 					frame.setVisible(true);
 				}
 			});
-			/*
-			 * GraphPanel panel = new GraphPanel(); final JFrame frame = new
-			 * JFrame(); Container content = frame.getContentPane();
-			 * content.add(panel); frame.setTitle(UIHandler.getText("title"));
-			 * frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-			 * frame.pack(); frame.setVisible(true);
-			 */
 
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
 	}
+	
+	//////////////////////////////////////////
+	/*       Defines event actions.         */
+	//////////////////////////////////////////
+	
+	public void initColorGraphAction(ActionEvent e) {
+		viewer.initColor();
+		satelliteViewer.initColor();
+	}
+	
+	public void colorGraphAction(ActionEvent e) {
+		int[] rows = tblVertices.getSelectedRows();
+		Set<String> vertices = new HashSet<String>();
+		for (int row : rows) {
+			String vertexId = (String)tblVertices.getValueAt(row, 1);
+			System.out.println("selected vertex id == " + vertexId);
+			vertices.add(vertexId);
+		}
+		Color color = viewer.colorVertices(vertices);
+		satelliteViewer.colorVertices(vertices, color);
+	}
+	
 }

@@ -16,7 +16,7 @@ import org.firebird.io.model.Vertex;
  * 
  * @author Young-Gue Bae
  */
-public interface RemoteGraphService {
+public interface GraphService {
 
 	/**
 	 * Gets the vertices.
