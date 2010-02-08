@@ -47,7 +47,7 @@ public class GraphClientHandler {
 	public List<Vertex> getVertices(int websiteId) throws HttpCommunicateException {
 		Object[] methodParams = { websiteId };
 	    HttpCommunicate comm = new HttpCommunicate(
-	            "org.firebird.graph.service.impl.RemoteGraphServiceImpl", 
+	            "org.firebird.graph.service.impl.GraphServiceImpl", 
 	            "getVertices",
 	            methodParams);
 	    return (List<Vertex>)httpClient.execute(comm);
@@ -63,7 +63,7 @@ public class GraphClientHandler {
 	public List<Edge> getEdges(int websiteId1, int websiteId2) throws HttpCommunicateException {
 		Object[] methodParams = { websiteId1, websiteId2 };
 	    HttpCommunicate comm = new HttpCommunicate(
-	            "org.firebird.graph.service.impl.RemoteGraphServiceImpl", 
+	            "org.firebird.graph.service.impl.GraphServiceImpl", 
 	            "getEdges",
 	            methodParams);
 	    return (List<Edge>)httpClient.execute(comm);		
@@ -78,7 +78,7 @@ public class GraphClientHandler {
 	public void collectTwitter(CollectorConfig config, String screenName) throws HttpCommunicateException {
 		Object[] methodParams = { config, screenName };
 	    HttpCommunicate comm = new HttpCommunicate(
-	            "org.firebird.graph.service.impl.RemoteGraphServiceImpl", 
+	            "org.firebird.graph.service.impl.GraphServiceImpl", 
 	            "collectTwitter",
 	            methodParams);
 	    httpClient.execute(comm);		
@@ -117,7 +117,7 @@ public class GraphClientHandler {
 	public void scoringGraph(ScoringConfig config, int websiteId1, int websiteId2) throws HttpCommunicateException {
 		Object[] methodParams = { config, websiteId1, websiteId2 };
 	    HttpCommunicate comm = new HttpCommunicate(
-	            "org.firebird.graph.service.impl.RemoteGraphServiceImpl", 
+	            "org.firebird.graph.service.impl.GraphServiceImpl", 
 	            "scoringGraph",
 	            methodParams);
 	    httpClient.execute(comm);

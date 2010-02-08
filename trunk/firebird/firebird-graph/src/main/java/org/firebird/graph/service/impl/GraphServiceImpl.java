@@ -12,7 +12,7 @@ import org.firebird.analyzer.service.impl.AnalysisManagerImpl;
 import org.firebird.collector.CollectorConfig;
 import org.firebird.collector.service.CollectManager;
 import org.firebird.collector.service.impl.CollectManagerImpl;
-import org.firebird.graph.service.RemoteGraphService;
+import org.firebird.graph.service.GraphService;
 import org.firebird.io.model.Edge;
 import org.firebird.io.model.Vertex;
 import org.firebird.io.service.EdgeManager;
@@ -25,7 +25,7 @@ import org.firebird.io.service.impl.VertexManagerImpl;
  * 
  * @author Young-Gue Bae
  */
-public class RemoteGraphServiceImpl implements RemoteGraphService {
+public class GraphServiceImpl implements GraphService {
 
 	private VertexManager vertexManager;
 	private EdgeManager edgeManager;
@@ -36,7 +36,7 @@ public class RemoteGraphServiceImpl implements RemoteGraphService {
      * Creates a remote query manager.
      * 
      */
-    public RemoteGraphServiceImpl() {
+    public GraphServiceImpl() {
     	this.vertexManager = new VertexManagerImpl();
     	this.edgeManager = new EdgeManagerImpl();
     	this.collectManager = new CollectManagerImpl();
