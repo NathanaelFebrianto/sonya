@@ -226,8 +226,7 @@ public class GraphToolBar extends JTabbedPane {
 			    	List<Vertex> vertices = handler.getVertices(1);
 			       	List<Edge> edges = handler.getEdges(1, 1);
 			    	
-			    	panelGraph.showGraph(vertices, edges);			
-			    	panelGraph.getGraphViewer().setGraphLayout(new FRLayout<Vertex, Edge>(panelGraph.getGraph()));   
+			    	panelGraph.showGraph(vertices, edges);  
 				} catch (Exception ex) {
 					ex.printStackTrace();
 				}

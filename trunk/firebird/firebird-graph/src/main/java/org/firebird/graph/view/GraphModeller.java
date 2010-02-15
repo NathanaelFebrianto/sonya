@@ -4,6 +4,7 @@
  */
 package org.firebird.graph.view;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.List;
 
@@ -35,22 +36,40 @@ public class GraphModeller {
 	 */
 	public GraphModeller() {
 		// create a directed graph by default
-		graph = new DirectedSparseGraph<Vertex, Edge>();
+		this(DIRECTED_SPARSE_GRAPH);
 	}
 	
 	/**
 	 * Constructor.
 	 * 
-	 * @param type the graph type
+	 * @param graphType the graph type
 	 */
-	public GraphModeller(int type) {
-		if (type == DIRECTED_SPARSE_GRAPH)
+	public GraphModeller(int graphType) {
+		// create a directed graph by default
+		if (graphType == DIRECTED_SPARSE_GRAPH)
 			graph = new DirectedSparseGraph<Vertex, Edge>();
-		else if (type == UNDIRECTED_SPARSE_GRAPH)
+		else if (graphType == UNDIRECTED_SPARSE_GRAPH)
 			graph = new UndirectedSparseGraph<Vertex, Edge>();
 		else
 			graph = new DirectedSparseGraph<Vertex, Edge>();
-	}	
+	}
+	
+	/**
+	 * Clears the graph.
+	 */
+	public void clearGraph() {
+		Collection<org.firebird.io.model.Vertex> vertices = graph.getVertices();
+		Object[] arrVertices = vertices.toArray().clone();
+		for (int i = 0; i < arrVertices.length; i++) {
+			graph.removeVertex((org.firebird.io.model.Vertex)arrVertices[i]);
+		}
+		
+		Collection<org.firebird.io.model.Edge> edges = graph.getEdges();
+		Object[] arrEdges = edges.toArray().clone();
+		for (int i = 0; i < arrEdges.length; i++) {
+			graph.removeEdge((org.firebird.io.model.Edge)arrEdges[i]);
+		}
+	}
 
 	/**
 	 * Gets the graph.

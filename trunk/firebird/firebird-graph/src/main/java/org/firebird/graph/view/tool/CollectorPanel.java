@@ -227,8 +227,7 @@ public class CollectorPanel extends JPanel {
 				List<Vertex> vertices = (List<Vertex>)data.get("vertices");
 				List<Edge> edges = (List<Edge>)data.get("edges");
 				
-				panelGraph.showGraph(vertices, edges);			
-				panelGraph.getGraphViewer().setGraphLayout(new FRLayout<Vertex, Edge>(panelGraph.getGraph()));				
+				panelGraph.showGraph(vertices, edges);
 			}
 
 		} catch (Exception ex) {
