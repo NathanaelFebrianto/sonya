@@ -286,8 +286,8 @@ public class TwitterDataCollector {
 		//vertex.setOpacity();
 		vertex.setImageFile((user.getProfileImageURL() == null) ? null : user
 				.getProfileImageURL().toString());
-		vertex.setInDegree(user.getFollowersCount());
-		vertex.setOutDegree(user.getFriendsCount());
+		//vertex.setInDegree(user.getFollowersCount());
+		//vertex.setOutDegree(user.getFriendsCount());
 		//vertex.setBetweennessCentrality();
 		//vertex.setClosenessCentrality();
 		//vertex.setEigenvectorCentrality();
