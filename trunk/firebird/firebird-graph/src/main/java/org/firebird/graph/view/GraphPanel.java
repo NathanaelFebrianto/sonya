@@ -65,7 +65,7 @@ public class GraphPanel extends JPanel {
 	/** vertices table */
 	VertexTable tblVertices;
 	/** edges table */
-	JTable tblEdges;
+	EdgeTable tblEdges;
 
 	/**
 	 * Constructor.
@@ -188,7 +188,7 @@ public class GraphPanel extends JPanel {
 
 		tblVertices = new VertexTable();
 		
-		tblEdges = new GraphTable();
+		tblEdges = new EdgeTable();
 		
 		tpaneRightBottom.addTab(
 				UIHandler.getText("content.tab.vertex"), 
@@ -269,6 +269,9 @@ public class GraphPanel extends JPanel {
 	public void showGraphData(List<Vertex> vertices, List<Edge> edges) {
 		tblVertices.setVertices(vertices);
 		tpaneRightBottom.setTitleAt(0, UIHandler.getText("content.tab.vertex") + "(" + vertices.size() + ")");
+		
+		tblEdges.setEdges(edges);
+		tpaneRightBottom.setTitleAt(1, UIHandler.getText("content.tab.edge") + "(" + edges.size() + ")");
 	}
 
 	/**
@@ -327,15 +330,31 @@ public class GraphPanel extends JPanel {
 	}
 	
 	public void colorGraphAction(ActionEvent e) {
-		int[] rows = tblVertices.getSelectedRows();
-		Set<String> vertices = new HashSet<String>();
-		for (int row : rows) {
-			String vertexId = (String)tblVertices.getValueAt(row, 1);
-			System.out.println("selected vertex id == " + vertexId);
-			vertices.add(vertexId);
+		if (tpaneRightBottom.getSelectedIndex() == 0) {
+			int[] rows = tblVertices.getSelectedRows();
+			Set<String> vertices = new HashSet<String>();
+			for (int row : rows) {
+				String vertexId = (String)tblVertices.getValueAt(row, 1);
+				System.out.println("selected vertex id == " + vertexId);
+				vertices.add(vertexId);
+			}
+			Color color = viewer.colorVertices(vertices);
+			satelliteViewer.colorVertices(vertices, color);			
 		}
-		Color color = viewer.colorVertices(vertices);
-		satelliteViewer.colorVertices(vertices, color);
+		else if (tpaneRightBottom.getSelectedIndex() == 1) {
+			int[] rows = tblEdges.getSelectedRows();
+			Set<String[]> vertexPairs = new HashSet<String[]>();
+			for (int row : rows) {
+				String[] vertexPair = new String[2];
+				vertexPair[0] = (String)tblEdges.getValueAt(row, 1);
+				vertexPair[1] = (String)tblEdges.getValueAt(row, 2);
+				System.out.println("selected vertex1 -> vertex2 == " + vertexPair[0] + " -> " + vertexPair[1]);
+				vertexPairs.add(vertexPair);
+			}
+			Color color = viewer.colorEdges(vertexPairs);
+			satelliteViewer.colorEdges(vertexPairs, color);			
+		}
+
 	}
 	
 }
