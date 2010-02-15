@@ -4,12 +4,13 @@
  */
 package org.firebird.graph.view;
 
-import java.math.BigDecimal;
 import java.util.List;
 import java.util.Vector;
 
-import javax.swing.event.ListSelectionEvent;
+import javax.swing.RowSorter;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableModel;
+import javax.swing.table.TableRowSorter;
 
 import org.firebird.io.model.Vertex;
 
@@ -32,9 +33,25 @@ public class VertexTable extends GraphTable {
         super();
         
         UIHandler.setResourceBundle("graph");        
-        tableModel = new DefaultTableModel(columnNames(), 1);
+        tableModel = new DefaultTableModel(columnNames(), 0) {
+			public Class getColumnClass(int column) {
+				Class returnValue;		
+				if ((column >= 0) && (column < getColumnCount())) {					
+					returnValue = getValueAt(0, column).getClass();
+				} else {
+					returnValue = Object.class;
+				}
+				return returnValue;
+			}
+		};
+		
         setModel(tableModel);
-        setSortable(true);
+        
+        // set sorter
+        RowSorter<TableModel> sorter = new TableRowSorter<TableModel>(tableModel);
+		setRowSorter(sorter);        
+		// set cell renderers
+		setCellRenders();
     }
 	
 	private Object[] columnNames() {
@@ -44,7 +61,7 @@ public class VertexTable extends GraphTable {
 				UIHandler.getText("col.vertex.id"),
 				UIHandler.getText("col.vertex.name"),
 				//UIHandler.getText("col.vertex.imageFile"),
-				//UIHandler.getText("col.vertex.degree"),
+				UIHandler.getText("col.vertex.degree"),
 				UIHandler.getText("col.vertex.inDegree"),
 				UIHandler.getText("col.vertex.outDegree"),
 				UIHandler.getText("col.vertex.authority"),
@@ -70,6 +87,23 @@ public class VertexTable extends GraphTable {
 		};
 		
 		return colNames;
+	}
+	
+	private void setCellRenders() {
+		setNumberCellRenderer(1, "######");
+		setNumberCellRenderer(3, "###,###");
+		setNumberCellRenderer(4, "###,###");
+		setNumberCellRenderer(5, "###,###");
+		setNumberCellRenderer(6, "0.00");
+		setNumberCellRenderer(7, "0.00");
+		setNumberCellRenderer(8, "###,###");
+		setNumberCellRenderer(9, "###,###");
+		setNumberCellRenderer(10, "###,###");
+		setNumberCellRenderer(11, "0.00");
+		setNumberCellRenderer(12, "###,###");
+		setNumberCellRenderer(13, "###,###");
+		setNumberCellRenderer(15, "###,###");
+		setDateCellRenderer(17, "yyyy-MM-dd");
 	}
 	
 	/**
@@ -99,15 +133,16 @@ public class VertexTable extends GraphTable {
 	        //rowData.add(vertex.getNo());
 	        rowData.add(vertex.getName());
 	        //rowData.add(vertex.getImageFile());
+	        rowData.add(vertex.getDegree());
 	        rowData.add(vertex.getInDegree());
 	        rowData.add(vertex.getOutDegree());
-	        rowData.add(convertScale(vertex.getAuthority(), 2));
-	        rowData.add(convertScale(vertex.getHub(), 2));
+	        rowData.add(vertex.getAuthority());
+	        rowData.add(vertex.getHub());
 	        rowData.add(vertex.getBetweennessCentrality());
-	        rowData.add(convertScale(vertex.getClosenessCentrality(), 2));
+	        rowData.add(vertex.getClosenessCentrality());
 	        rowData.add(vertex.getEigenvectorCentrality());
 	        rowData.add(vertex.getClusteringCoefficient());
-	        rowData.add(new BigDecimal(vertex.getFriendsCount()));
+	        rowData.add(vertex.getFriendsCount());
 	        rowData.add(vertex.getFollowersCount());
 	        //rowData.add(vertex.getUserNo());
 	        //rowData.add(vertex.getUserId());
@@ -127,8 +162,10 @@ public class VertexTable extends GraphTable {
 	    }		
 	}
 	
+	/*
 	private BigDecimal convertScale(double d, int scale) {
 		return new BigDecimal(d).setScale(scale, BigDecimal.ROUND_HALF_UP);
 	}
+	*/
 	
 }

@@ -21,7 +21,6 @@ import org.apache.commons.collections15.map.LazyMap;
 import edu.uci.ics.jung.visualization.control.CrossoverScalingControl;
 import edu.uci.ics.jung.visualization.control.SatelliteVisualizationViewer;
 import edu.uci.ics.jung.visualization.control.ScalingControl;
-import edu.uci.ics.jung.visualization.decorators.PickableEdgePaintTransformer;
 import edu.uci.ics.jung.visualization.decorators.ToStringLabeller;
 
 /**
@@ -71,11 +70,7 @@ public class SatelliteGraphViewer extends SatelliteVisualizationViewer<org.fireb
 				new HashMap<org.firebird.io.model.Vertex, Paint>(),
 				new Transformer<org.firebird.io.model.Vertex, Paint>() {
 					public Paint transform(org.firebird.io.model.Vertex v) {
-						if (getPickedVertexState().isPicked(v)) {
-							return Color.yellow;
-						} else {
-							return Color.red;
-						}
+						return new Color(255, 255, 0); // yellow
 					}
 				});
 		
@@ -83,11 +78,7 @@ public class SatelliteGraphViewer extends SatelliteVisualizationViewer<org.fireb
 				new HashMap<org.firebird.io.model.Edge, Paint>(),
 				new Transformer<org.firebird.io.model.Edge, Paint>() {
 					public Paint transform(org.firebird.io.model.Edge e) {
-						if (getPickedEdgeState().isPicked(e)) {
-							return Color.red;
-						} else {
-							return Color.black;
-						}
+						return new Color(90, 90, 90);
 					}
 				});
 		
@@ -101,7 +92,7 @@ public class SatelliteGraphViewer extends SatelliteVisualizationViewer<org.fireb
 						if (getPickedVertexState().isPicked(v)) {
 							return Color.black;
 						} else {
-							return Color.white;
+							return new Color(90, 90, 90);
 						}
 					}
 				});
@@ -158,12 +149,12 @@ public class SatelliteGraphViewer extends SatelliteVisualizationViewer<org.fireb
 	public void initColor() {
 		Collection<org.firebird.io.model.Vertex> vertices = master.getGraph().getVertices();
 		for (org.firebird.io.model.Vertex v : vertices) {
-			vertexPaints.put(v, Color.red);
+			vertexPaints.put(v, new Color(255, 255, 0));
 		}
 		
 		Collection<org.firebird.io.model.Edge> edges = master.getGraph().getEdges();
 		for (org.firebird.io.model.Edge e : edges) {
-			edgePaints.put(e, Color.black);
+			edgePaints.put(e, new Color(90, 90, 90));
 		}
 		repaint();
 	}

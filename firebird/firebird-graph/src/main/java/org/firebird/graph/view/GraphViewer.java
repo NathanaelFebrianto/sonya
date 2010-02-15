@@ -84,8 +84,8 @@ public class GraphViewer extends VisualizationViewer<org.firebird.io.model.Verte
 					}
 				});
 		
-		getRenderContext().setVertexLabelRenderer(new DefaultVertexLabelRenderer(Color.blue));
-		getRenderContext().setEdgeLabelRenderer(new DefaultEdgeLabelRenderer(Color.cyan));
+		getRenderContext().setVertexLabelRenderer(new DefaultVertexLabelRenderer(new Color(0, 112, 192)));
+		getRenderContext().setEdgeLabelRenderer(new DefaultEdgeLabelRenderer(new Color(0, 112, 192)));
 		
 		/*
 		getRenderContext().setVertexIconTransformer(
@@ -129,7 +129,7 @@ public class GraphViewer extends VisualizationViewer<org.firebird.io.model.Verte
 				new HashMap<org.firebird.io.model.Vertex, Paint>(),
 				new Transformer<org.firebird.io.model.Vertex, Paint>() {
 					public Paint transform(org.firebird.io.model.Vertex v) {
-						return Color.red;
+						return new Color(255, 255, 0); // yellow
 					}
 				});
 		
@@ -137,7 +137,7 @@ public class GraphViewer extends VisualizationViewer<org.firebird.io.model.Verte
 				new HashMap<org.firebird.io.model.Edge, Paint>(),
 				new Transformer<org.firebird.io.model.Edge, Paint>() {
 					public Paint transform(org.firebird.io.model.Edge e) {
-						return Color.black;
+						return new Color(90, 90, 90);
 					}
 				});
 		
@@ -151,7 +151,7 @@ public class GraphViewer extends VisualizationViewer<org.firebird.io.model.Verte
 						if (getPickedVertexState().isPicked(v)) {
 							return Color.black;
 						} else {
-							return Color.white;
+							return new Color(90, 90, 90);
 						}
 					}
 				});
@@ -229,12 +229,12 @@ public class GraphViewer extends VisualizationViewer<org.firebird.io.model.Verte
 	public void initColor() {
 		Collection<org.firebird.io.model.Vertex> vertices = this.getGraph().getVertices();
 		for (org.firebird.io.model.Vertex v : vertices) {
-			vertexPaints.put(v, Color.red);
+			vertexPaints.put(v, new Color(255, 255, 0));
 		}
 		
 		Collection<org.firebird.io.model.Edge> edges = this.getGraph().getEdges();
 		for (org.firebird.io.model.Edge e : edges) {
-			edgePaints.put(e, Color.black);
+			edgePaints.put(e, new Color(90, 90, 90));
 		}
 		repaint();
 	}

@@ -126,7 +126,7 @@ public class GraphPanel extends JPanel {
 				UIHandler.getImageIcon("/info.png"), tool);
 
 		JPanel panelSatelliteViewer = new JPanel();
-		// panelSatelliteViewer.setBorder(LineBorder.createGrayLineBorder());
+		//panelSatelliteViewer.setBorder(LineBorder.createGrayLineBorder());
 		//panelSatelliteViewer.setBorder(new EtchedBorder(EtchedBorder.RAISED));
 
 		panelSatelliteViewer.add(satelliteViewer);
@@ -141,7 +141,7 @@ public class GraphPanel extends JPanel {
 		spaneRight = new JSplitPane(JSplitPane.VERTICAL_SPLIT);
 
 		spaneRight.setOneTouchExpandable(true);
-		spaneRight.setDividerLocation(550);
+		spaneRight.setDividerLocation(490);
 		spaneRight.setTopComponent(setupRightCenterPanel());
 		spaneRight.setBottomComponent(setupRightBottomPanel());
 
@@ -252,9 +252,12 @@ public class GraphPanel extends JPanel {
 	 * @param vertices the vertex list
 	 * @param edges the edge list
 	 */
-	public void showGraph(List<Vertex> vertices, List<Edge> edges) {
+	public void showGraph(List<Vertex> vertices, List<Edge> edges) {		
+		modeller.clearGraph();
 		modeller.createGraph(vertices, edges);
-		this.showGraphData(vertices, edges);		
+		viewer.setGraphLayout(new FRLayout<Vertex, Edge>(viewer.getGraph()));
+		
+		this.showGraphData(vertices, edges);
 	}
 
 	/**
@@ -265,8 +268,7 @@ public class GraphPanel extends JPanel {
 	 */
 	public void showGraphData(List<Vertex> vertices, List<Edge> edges) {
 		tblVertices.setVertices(vertices);
-		String vertexTabTitle = tpaneRightBottom.getTitleAt(0);
-		tpaneRightBottom.setTitleAt(0, vertexTabTitle + "(" + vertices.size() + ")");
+		tpaneRightBottom.setTitleAt(0, UIHandler.getText("content.tab.vertex") + "(" + vertices.size() + ")");
 	}
 
 	/**

@@ -5,16 +5,20 @@
 package org.firebird.graph.view;
 
 import java.awt.Color;
+import java.text.DecimalFormat;
+import java.text.SimpleDateFormat;
 import java.util.Vector;
 
 import javax.swing.DefaultCellEditor;
 import javax.swing.JCheckBox;
 import javax.swing.JTable;
 import javax.swing.ListSelectionModel;
+import javax.swing.SwingConstants;
+import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableColumn;
 import javax.swing.table.TableColumnModel;
 import javax.swing.table.TableModel;
-import javax.swing.table.TableRowSorter;
 
 /**
  * Table for vertices.
@@ -130,4 +134,53 @@ public class GraphTable extends JTable {
 	    getColumnModel().getColumn(column).setCellEditor(editor); 
 	}
 	
+	public void setNumberCellRenderer(int column, String format) {
+		TableColumnModel tcm = this.getColumnModel();
+		TableColumn tc = tcm.getColumn(column);
+		tc.setCellRenderer(new NumberRenderer(format));
+	}
+	
+	public void setDateCellRenderer(int column, String format) {
+		TableColumnModel tcm = this.getColumnModel();
+		TableColumn tc = tcm.getColumn(column);
+		tc.setCellRenderer(new DateRenderer(format));
+	}
+	
+	public class NumberRenderer extends DefaultTableCellRenderer {
+		private static final long serialVersionUID = -5973490294557174438L;
+		private String format;
+
+		public NumberRenderer(String format) {
+			super();
+			setHorizontalAlignment(SwingConstants.RIGHT);
+			this.format = format;
+		}
+
+		public void setValue(Object value) {
+			if (value != null) {
+				DecimalFormat formatter = new DecimalFormat(format);
+				value = formatter.format(value);
+			}
+			super.setValue(value);
+		}
+	}
+	
+	public class DateRenderer extends DefaultTableCellRenderer {
+		private static final long serialVersionUID = -364069950843487111L;
+		private String format;
+
+		public DateRenderer(String format) {
+			super();
+			setHorizontalAlignment(SwingConstants.CENTER);
+			this.format = format;
+		}
+
+		public void setValue(Object value) {
+			if (value != null) {
+				SimpleDateFormat formatter = new SimpleDateFormat(format);
+				value = formatter.format(value);
+			}
+			super.setValue(value);
+		}
+	}
 }
