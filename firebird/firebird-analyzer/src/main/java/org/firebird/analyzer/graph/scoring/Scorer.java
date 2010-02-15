@@ -138,6 +138,7 @@ public final class Scorer {
     		Vertex v = (Vertex)it.next();
     		
     		// Degree score
+    		v.setDegree(graph.degree(v));
     		v.setInDegree(graph.inDegree(v));
     		v.setOutDegree(graph.outDegree(v));
     		
