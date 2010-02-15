@@ -4,6 +4,7 @@
  */
 package org.firebird.graph.view;
 
+import java.math.BigDecimal;
 import java.util.List;
 import java.util.Vector;
 
@@ -16,15 +17,25 @@ import org.firebird.io.model.Vertex;
 
 
 /**
- * Table for a graph data.
+ * Table for vertex data.
  * 
  * @author Young-Gue Bae
  */
 public class VertexTable extends GraphTable {
 
 	private static final long serialVersionUID = -6203182900465356334L;
-	private DefaultTableModel tableModel;
-    
+	private DefaultTableModel tableModel;    
+	
+	/**
+	 * Constructor.
+	 * 
+	 * @param vertices the vertex list
+	 */
+	public VertexTable(List<Vertex> vertices) {
+        this();
+        setVertices(vertices);
+    }
+	
 	/**
 	 * Constructor.
 	 * 
@@ -36,8 +47,11 @@ public class VertexTable extends GraphTable {
         tableModel = new DefaultTableModel(columnNames(), 0) {
 			public Class getColumnClass(int column) {
 				Class returnValue;		
-				if ((column >= 0) && (column < getColumnCount())) {					
-					returnValue = getValueAt(0, column).getClass();
+				if ((column >= 0) && (column < getColumnCount())) {
+					if (getValueAt(0, column) != null)
+						returnValue = getValueAt(0, column).getClass();
+					else
+						returnValue = Object.class;
 				} else {
 					returnValue = Object.class;
 				}
@@ -51,7 +65,7 @@ public class VertexTable extends GraphTable {
         RowSorter<TableModel> sorter = new TableRowSorter<TableModel>(tableModel);
 		setRowSorter(sorter);        
 		// set cell renderers
-		setCellRenders();
+		//setCellRenders();
     }
 	
 	private Object[] columnNames() {
@@ -90,7 +104,7 @@ public class VertexTable extends GraphTable {
 	}
 	
 	private void setCellRenders() {
-		setNumberCellRenderer(1, "######");
+		setNumberCellRenderer(0, "######");
 		setNumberCellRenderer(3, "###,###");
 		setNumberCellRenderer(4, "###,###");
 		setNumberCellRenderer(5, "###,###");
@@ -105,16 +119,6 @@ public class VertexTable extends GraphTable {
 		setNumberCellRenderer(15, "###,###");
 		setDateCellRenderer(17, "yyyy-MM-dd");
 	}
-	
-	/**
-	 * Constructor.
-	 * 
-	 * @param vertices the vertex list
-	 */
-	public VertexTable(List<Vertex> vertices) {
-        this();
-        setVertices(vertices);
-    }
 
 	/**
 	 * Sets the vetices data into table.
@@ -127,7 +131,7 @@ public class VertexTable extends GraphTable {
 	        Vertex vertex = (Vertex)vertices.get(row);	        
 	        Vector<Object> rowData = new Vector<Object>();
             
-	        rowData.add(String.valueOf(row + 1));
+	        rowData.add(row + 1);
 	        //rowData.add(vertex.getWebsiteId());
 	        rowData.add(vertex.getId());
 	        //rowData.add(vertex.getNo());
@@ -162,10 +166,7 @@ public class VertexTable extends GraphTable {
 	    }		
 	}
 	
-	/*
 	private BigDecimal convertScale(double d, int scale) {
 		return new BigDecimal(d).setScale(scale, BigDecimal.ROUND_HALF_UP);
-	}
-	*/
-	
+	}	
 }

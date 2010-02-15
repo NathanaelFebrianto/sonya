@@ -273,6 +273,22 @@ public class GraphViewer extends VisualizationViewer<org.firebird.io.model.Verte
 		}
 		repaint();
 	}
+
+	/**
+	 * Recolors the edges with random color.
+	 * 
+	 * @param vertexPair the pair of two vertices
+	 * @return Color
+	 */
+	public Color colorEdges(Set<String[]> vertexPairs) {
+		// create random color
+		Random random = new Random();
+		Color color = Color.getHSBColor( random.nextFloat(), 1.0F, 1.0F );
+
+		colorEdges(vertexPairs, color);
+		
+		return color;
+	}
 	
 	/**
 	 * Recolors the edges.
@@ -280,8 +296,8 @@ public class GraphViewer extends VisualizationViewer<org.firebird.io.model.Verte
 	 * @param vertexPair the pair of two vertices
 	 * @param color the color
 	 */
-	public void colorEdges(Set<String[]> vertexPair, Color color) {
-		for (String[] v : vertexPair) {
+	public void colorEdges(Set<String[]> vertexPairs, Color color) {
+		for (String[] v : vertexPairs) {
 			org.firebird.io.model.Edge edge = this.getEdge(v[0], v[1]);
 			edgePaints.put(edge, color);
 		}
@@ -313,8 +329,12 @@ public class GraphViewer extends VisualizationViewer<org.firebird.io.model.Verte
 	public org.firebird.io.model.Edge getEdge(String vertex1, String vertex2) {
 		Collection<org.firebird.io.model.Edge> edges = this.getGraph().getEdges();
 		for (org.firebird.io.model.Edge e : edges) {
-			if (e.getVertex1().equals(vertex1) && e.getVertex2().equals(vertex2))
+			System.out.println("########## = " + e);
+			if (e.getVertex1().equals(vertex1) && e.getVertex2().equals(vertex2)) {
+				System.out.println("@@@@@@@@@@@@@@@ = " + e);
 				return e;
+			}
+				
 		}		
 		return null;		
 	}

@@ -172,4 +172,18 @@ public class SatelliteGraphViewer extends SatelliteVisualizationViewer<org.fireb
 		}
 		repaint();
 	}
+	
+	/**
+	 * Recolors the edges.
+	 * 
+	 * @param vertexPair the pair of two vertices
+	 * @param color the color
+	 */
+	public void colorEdges(Set<String[]> vertexPairs, Color color) {
+		for (String[] v : vertexPairs) {
+			org.firebird.io.model.Edge edge = master.getEdge(v[0], v[1]);
+			edgePaints.put(edge, color);
+		}
+		repaint();
+	}
 }

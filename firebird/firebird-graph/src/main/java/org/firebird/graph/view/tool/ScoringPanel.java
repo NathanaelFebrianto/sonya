@@ -46,14 +46,10 @@ public class ScoringPanel extends JPanel {
 
 	/** controls */
 	JComboBox comboWebsite;
-	JTextField tfldUsername;
-	JCheckBox chkboxDbstore;
-	JCheckBox chkboxCollectFriend;
-	JCheckBox chkboxCollectFollower;
-	JCheckBox chkboxCollectBlog;
-	JSpinner spinLevelLimit;
-	JSpinner spinDegreeLimit;
-	JSpinner spinPeopleLimit;
+	JCheckBox chkboxHITS;
+	JCheckBox chkboxBC;
+	JCheckBox chkboxCC;
+	JCheckBox chkboxEC;
 
 	/**
 	 * Constructor.
@@ -74,14 +70,10 @@ public class ScoringPanel extends JPanel {
 		comboWebsite.addItem(new ObjectModel("Twitter", "1"));
 		comboWebsite.addItem(new ObjectModel("me2DAY", "2"));
 		
-		tfldUsername = new JTextField();
-		chkboxDbstore = new JCheckBox();
-		chkboxCollectFriend = new JCheckBox();
-		chkboxCollectFollower = new JCheckBox();
-		chkboxCollectBlog = new JCheckBox();
-		spinLevelLimit = new JSpinner(new SpinnerNumberModel(2, 1, 5, 1));
-		spinDegreeLimit = new JSpinner(new SpinnerNumberModel(5, 1, 1000, 1));
-		spinPeopleLimit = new JSpinner(new SpinnerNumberModel(50, 1, 2000, 1));
+		chkboxHITS = new JCheckBox();
+		chkboxBC = new JCheckBox();
+		chkboxCC = new JCheckBox();
+		chkboxEC = new JCheckBox();
 	}
 	
 	private void setupUI() {
@@ -104,39 +96,26 @@ public class ScoringPanel extends JPanel {
 	private JComponent setupContentUI() {
 		FormLayout layout = new FormLayout(
 				"left:max(20dlu;p), 4dlu, 75dlu",
-				"p, 2dlu, p, 3dlu, p, 7dlu, " +
-				"p, 2dlu, p, 3dlu, p, 3dlu, p, 3dlu, p, 7dlu, " + 
-				"p, 2dlu, p, 3dlu, p, 3dlu, p");
+				"p, 2dlu, p, 7dlu, " +
+				"p, 2dlu, p, 3dlu, p, 3dlu, p, 3dlu, p");
 
 		PanelBuilder builder = new PanelBuilder(layout);
 		builder.setDefaultDialogBorder();
 		CellConstraints cc = new CellConstraints();
 		
-		builder.addSeparator(UIHandler.getText("collector.datasource"), cc.xyw(1, 1, 3));
-		builder.addLabel(UIHandler.getText("collector.website"), cc.xy(1, 3));
+		builder.addSeparator(UIHandler.getText("scoring.website.select"), cc.xyw(1, 1, 3));
+		builder.addLabel(UIHandler.getText("scoring.website"), cc.xy(1, 3));
 		builder.add(comboWebsite, cc.xy(3, 3));
-		builder.addLabel(UIHandler.getText("collector.username"), cc.xy(1, 5));
-		builder.add(tfldUsername, cc.xy(3, 5));
 		
-		builder.addSeparator(UIHandler.getText("collector.option"), cc.xyw(1, 7, 3));
-		builder.addLabel(UIHandler.getText("collector.dbstore"), cc.xy(1, 9));
-		builder.add(chkboxDbstore, cc.xy(3, 9));
-		builder.addLabel(UIHandler.getText("collector.collect.friend"), cc.xy(1, 11));
-		builder.add(chkboxCollectFriend, cc.xy(3, 11));
-		builder.addLabel(UIHandler.getText("collector.collect.follower"), cc.xy(1, 13));
-		builder.add(chkboxCollectFollower, cc.xy(3, 13));
-		builder.addLabel(UIHandler.getText("collector.collect.blogentry"), cc.xy(1, 15));
-		builder.add(chkboxCollectBlog, cc.xy(3, 15));
-		
-		builder.addSeparator(UIHandler.getText("collector.scope"), cc.xyw(1, 17, 3));
-		builder.addLabel(UIHandler.getText("collector.level.limit"), cc.xy(1, 19));
-		builder.add(spinLevelLimit, cc.xy(3, 19));
-		builder.addLabel(UIHandler.getText("collector.degree.limit"), cc.xy(1, 21));
-		builder.add(spinDegreeLimit, cc.xy(3, 21));
-		builder.addLabel(UIHandler.getText("collector.people.limit"), cc.xy(1, 23));
-		builder.add(spinPeopleLimit, cc.xy(3, 23));
-		
-		//builder.getPanel().setBorder(new LineBorder(Color.red));
+		builder.addSeparator(UIHandler.getText("scoring.algorithms"), cc.xyw(1, 5, 3));
+		builder.addLabel(UIHandler.getText("scoring.hits"), cc.xy(1, 7));
+		builder.add(chkboxHITS, cc.xy(3, 7));
+		builder.addLabel(UIHandler.getText("scoring.betweenness.centrality"), cc.xy(1, 9));
+		builder.add(chkboxBC, cc.xy(3, 9));
+		builder.addLabel(UIHandler.getText("scoring.closeness.centrality"), cc.xy(1, 11));
+		builder.add(chkboxCC, cc.xy(3, 11));
+		builder.addLabel(UIHandler.getText("scoring.eigenvector.centrality"), cc.xy(1, 13));
+		builder.add(chkboxEC, cc.xy(3, 13));
 				
 		return builder.getPanel();
 	}
@@ -150,7 +129,7 @@ public class ScoringPanel extends JPanel {
 		builder.setDefaultDialogBorder();
 		CellConstraints cc = new CellConstraints();
 		
-		JButton btnClear = new JButton(UIHandler.getText("collector.clear"));		
+		JButton btnClear = new JButton(UIHandler.getText("scoring.clear"));		
 		ActionListener clearActionListener = (ActionListener)(GenericListener.create(
 		        ActionListener.class,
 				"actionPerformed",
@@ -158,7 +137,7 @@ public class ScoringPanel extends JPanel {
 				"clearAction"));		
 		btnClear.addActionListener(clearActionListener);
 		
-		JButton btnOk = new JButton(UIHandler.getText("collector.ok"));		
+		JButton btnOk = new JButton(UIHandler.getText("scoring.ok"));		
 		ActionListener okActionListener = (ActionListener)(GenericListener.create(
 		        ActionListener.class,
 				"actionPerformed",
@@ -183,7 +162,10 @@ public class ScoringPanel extends JPanel {
 	public void okAction(ActionEvent e) {
 		try {
 			ScoringConfig config = this.createScoringConfig();
-			handler.scoringGraph(config, 1, 1);
+			Object objWebsite = comboWebsite.getSelectedItem();
+			int website = Integer.parseInt(objWebsite.toString());
+			
+			handler.scoringGraph(config, website, website);
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
@@ -191,14 +173,10 @@ public class ScoringPanel extends JPanel {
 	
 	private void clearFields() {
 		comboWebsite.setSelectedIndex(0);
-		tfldUsername.setText(null);
-		chkboxDbstore.setSelected(false);
-		chkboxCollectFriend.setSelected(false);
-		chkboxCollectFollower.setSelected(false);
-		chkboxCollectBlog.setSelected(false);
-		spinLevelLimit.setValue(new Integer(2));
-		spinDegreeLimit.setValue(new Integer(5));
-		spinPeopleLimit.setValue(new Integer(50));
+		chkboxHITS.setSelected(false);
+		chkboxBC.setSelected(false);
+		chkboxCC.setSelected(false);
+		chkboxEC.setSelected(false);
 	}
 	
 	private ScoringConfig createScoringConfig() {
