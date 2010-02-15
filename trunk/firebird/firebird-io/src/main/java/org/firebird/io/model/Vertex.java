@@ -23,6 +23,7 @@ public class Vertex implements Serializable {
 	private int size;
 	private int opacity;
 	private String imageFile;
+	private int degree;
 	private int inDegree;
 	private int outDegree;
 	private double authority;
@@ -76,6 +77,9 @@ public class Vertex implements Serializable {
 	}
 	public String getImageFile() {
 		return imageFile;
+	}
+	public int getDegree() {
+		return degree;
 	}
 	public int getInDegree() {
 		return inDegree;
@@ -181,6 +185,9 @@ public class Vertex implements Serializable {
 	}
 	public void setImageFile(String imageFile) {
 		this.imageFile = imageFile;
+	}
+	public void setDegree(int degree) {
+		this.degree = degree;
 	}
 	public void setInDegree(int inDegree) {
 		this.inDegree = inDegree;
