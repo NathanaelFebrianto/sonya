@@ -15,6 +15,7 @@
 		<result property="size" column="size" />
 		<result property="opacity" column="opacity" />
 		<result property="imageFile" column="image_file" />
+		<result property="degree" column="degree" />
 		<result property="inDegree" column="in_degree" />
 		<result property="outDegree" column="out_degree" />
 		<result property="authority" column="authority" />
@@ -57,6 +58,7 @@
 			, vertex_no
 			, vertex_name
 			, image_file
+			, degree
 			, in_degree
 			, out_degree
 			, authority
@@ -90,8 +92,11 @@
 			, #{no,javaType=int,jdbcType=NUMERIC}
 			, #{name,jdbcType=VARCHAR}
 			, #{imageFile,jdbcType=VARCHAR}
+			, #{degree,javaType=int,jdbcType=NUMERIC}
 			, #{inDegree,javaType=int,jdbcType=NUMERIC}
 			, #{outDegree,javaType=int,jdbcType=NUMERIC}
+			, #{authority,javaType=double,jdbcType=DOUBLE}
+			, #{hub,javaType=double,jdbcType=DOUBLE}
 			, #{betweennessCentrality,javaType=double,jdbcType=DOUBLE}
 			, #{closenessCentrality,javaType=double,jdbcType=DOUBLE}
 			, #{eigenvectorCentrality,javaType=double,jdbcType=DOUBLE}
@@ -130,7 +135,8 @@
 	
 	<update id="updateVertexScore" parameterType="org.firebird.io.model.Vertex">
 		UPDATE vertex SET
-			  in_degree = #{inDegree}
+			  degree = #{degree}
+			, in_degree = #{inDegree}
 			, out_degree = #{outDegree}
 			, authority = #{authority}
 			, hub = #{hub}
