@@ -119,7 +119,7 @@ public class EdgeTable extends GraphTable {
 	        rowData.add(row + 1);
 	        rowData.add(edge.getVertex1());
 	        rowData.add(edge.getVertex2());
-	        rowData.add(edge.getBetweennessCentrality());
+	        rowData.add(convertScale(edge.getBetweennessCentrality(), 0));
 	        rowData.add(edge.getLastUpdateDate());
 	        
 	        tableModel.insertRow(row, rowData);

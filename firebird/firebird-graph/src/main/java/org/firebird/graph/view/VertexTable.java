@@ -140,12 +140,12 @@ public class VertexTable extends GraphTable {
 	        rowData.add(vertex.getDegree());
 	        rowData.add(vertex.getInDegree());
 	        rowData.add(vertex.getOutDegree());
-	        rowData.add(vertex.getAuthority());
-	        rowData.add(vertex.getHub());
-	        rowData.add(vertex.getBetweennessCentrality());
-	        rowData.add(vertex.getClosenessCentrality());
-	        rowData.add(vertex.getEigenvectorCentrality());
-	        rowData.add(vertex.getClusteringCoefficient());
+	        rowData.add(convertScale(vertex.getAuthority(), 2));
+	        rowData.add(convertScale(vertex.getHub(), 2));
+	        rowData.add(convertScale(vertex.getBetweennessCentrality(), 0));
+	        rowData.add(convertScale(vertex.getClosenessCentrality(), 0));
+	        rowData.add(convertScale(vertex.getEigenvectorCentrality(), 0));
+	        rowData.add(convertScale(vertex.getClusteringCoefficient(), 2));
 	        rowData.add(vertex.getFriendsCount());
 	        rowData.add(vertex.getFollowersCount());
 	        //rowData.add(vertex.getUserNo());
