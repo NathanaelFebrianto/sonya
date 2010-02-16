@@ -162,8 +162,8 @@ public class ScoringPanel extends JPanel {
 	public void okAction(ActionEvent e) {
 		try {
 			ScoringConfig config = this.createScoringConfig();
-			Object objWebsite = comboWebsite.getSelectedItem();
-			int website = Integer.parseInt(objWebsite.toString());
+			ObjectModel objWebsite = (ObjectModel)comboWebsite.getSelectedItem();
+			int website = Integer.parseInt(objWebsite.getValue());
 			
 			handler.scoringGraph(config, website, website);
 		} catch (Exception ex) {
