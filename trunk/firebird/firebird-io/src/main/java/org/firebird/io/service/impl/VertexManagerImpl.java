@@ -55,6 +55,23 @@ public class VertexManagerImpl extends GenericManagerImpl implements VertexManag
     		session.close();
     	}
 	}
+	
+	 /**
+     * Gets the vertex id list by scoring condition.
+     *
+     * @param vertex the vertex
+     * @return List<String> the vertex id list
+     */
+	public List<String> getVertexIdsByScoringCondition(Vertex vertex) {
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		VertexMapper mapper = session.getMapper(VertexMapper.class);
+    		List<String> vertices = mapper.selectVertexIdsByScoringCondition(vertex);
+    		return vertices;
+    	} finally {
+    		session.close();
+    	}
+	}
     
     /**
      * Adds a vertex.

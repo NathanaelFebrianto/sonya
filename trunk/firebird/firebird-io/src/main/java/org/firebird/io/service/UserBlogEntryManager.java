@@ -26,6 +26,7 @@ public interface UserBlogEntryManager extends GenericManager {
      *
      * @param websiteId the website id
      * @param userId the user id
+     * @param blogEntryId the blog entry id
      */
-	public void deleteUserBlogEntry(int websiteId, String userId);
+	public void deleteUserBlogEntry(int websiteId, String userId, String blogEntryId);
 }

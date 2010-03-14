@@ -24,6 +24,14 @@ public interface VertexMapper extends GenericMapper {
      */
 	public List<Vertex> selectVertices(int websiteId);
 	
+	 /**
+     * Gets the vertex id list by scoring condition.
+     *
+     * @param vertex the vertex
+     * @return List<String> the vertex id list
+     */
+	public List<String> selectVertexIdsByScoringCondition(Vertex vertex);
+	
     /**
      * Inserts a vertex.
      *
