@@ -58,11 +58,13 @@ public class UserBlogEntryManagerImpl extends GenericManagerImpl implements User
      *
      * @param websiteId the website id
      * @param userId the user id
+     * @param blogEntryId the blog entry id
      */
-	public void deleteUserBlogEntry(int websiteId, String userId) {
+	public void deleteUserBlogEntry(int websiteId, String userId, String blogEntryId) {
 		UserBlogEntry userBlogEntry = new UserBlogEntry();
 		userBlogEntry.setWebsiteId(websiteId);
 		userBlogEntry.setUserId(userId);
+		userBlogEntry.setBlogEntryId(blogEntryId);
 		
 		//mapper.deleteUserBlogEntry(userBlogEntry);
 		

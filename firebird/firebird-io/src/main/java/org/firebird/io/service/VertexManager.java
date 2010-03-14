@@ -24,6 +24,14 @@ public interface VertexManager extends GenericManager {
      */
 	public List<Vertex> getVertices(int websiteId);
 	
+	 /**
+     * Gets the vertex id list by scoring condition.
+     *
+     * @param vertex the vertex
+     * @return List<String> the vertex id list
+     */
+	public List<String> getVertexIdsByScoringCondition(Vertex vertex);
+	
     /**
      * Adds a vertex.
      *

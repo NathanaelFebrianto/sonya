@@ -50,6 +50,30 @@
 		FROM vertex
 		WHERE website_id = #{websiteId}
 	</select>
+	
+	<select id="selectVertexIdsByScoringCondition" parameterType="org.firebird.io.model.Vertex" resultType="java.lang.String">
+		SELECT vertex_id
+		FROM vertex
+		WHERE website_id = #{websiteId}
+		<if test="authority != null">
+			AND authority >= #{authority,javaType=double,jdbcType=DOUBLE}
+		</if>
+		<if test="authority != null">
+			AND hub >= #{hub,javaType=double,jdbcType=DOUBLE}
+		</if>
+		<if test="betweennessCentrality != null">
+			AND betweenness_centrality >= #{betweennessCentrality,javaType=double,jdbcType=DOUBLE}
+		</if>
+		<if test="closenessCentrality != null">
+			AND closeness_centrality >= #{closenessCentrality,javaType=double,jdbcType=DOUBLE}
+		</if>
+		<if test="eigenvectorCentrality != null">
+			AND eigenvector_centrality >= #{eigenvectorCentrality,javaType=double,jdbcType=DOUBLE}
+		</if>
+		<if test="clusteringCoefficient != null">
+			AND clustering_coefficient >= #{clusteringCoefficient,javaType=double,jdbcType=DOUBLE}
+		</if>
+	</select>
 
 	<insert id="insertVertex" parameterType="org.firebird.io.model.Vertex">
 		INSERT INTO vertex (
