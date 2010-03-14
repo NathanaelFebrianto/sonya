@@ -45,8 +45,6 @@ public class TwitterDataCollector {
 	private VertexManager vertexManager;
 	private EdgeManager edgeManager;
 	private UserBlogEntryManager userBlogEntryManager;
-	
-	private String baseUrl = null;
 
 	/**
 	 * Constructor.
@@ -92,11 +90,9 @@ public class TwitterDataCollector {
      * @param screenName the twitter user's screenName
      * @exception Exception
      */
-	public void collect(String screenName) throws Exception {
-		
+	public void collect(String screenName) throws Exception {		
 		TwitterOAuthSupport twitterSupport = new TwitterOAuthSupport();
 		twitter = twitterSupport.access(myId);
-		baseUrl = twitter.getBaseURL();
 		
 		System.out.println(">>>>>>>>>>>>>> collector option : ");
 		System.out.println("database storage mode == " + config.isDBStorage());
@@ -111,7 +107,7 @@ public class TwitterDataCollector {
 		try {
 			user = twitter.showUser(screenName);
 
-			System.out.println("rate limit remaining  == " + user.getRateLimitRemaining() + " / " + user.getRateLimitLimit());
+			System.out.println("rate limit remaining  == " + user.getRateLimitStatus().getRemainingHits() + " / " + user.getRateLimitStatus().getHourlyLimit());
 			System.out.println(">>>>>>>>>>>>>> start");
 
 			if (config.isCollectFriend())
@@ -124,11 +120,39 @@ public class TwitterDataCollector {
 		}
 
 		System.out.println(">>>>>>>>>>>>>> result");
-		System.out.println("rate limit remaining  == " + user.getRateLimitRemaining());
+		System.out.println("rate limit remaining  == " + user.getRateLimitStatus().getRemainingHits());
 		System.out.println("friends == " + numFriends);
 		System.out.println("followers == " + numFollowers);
 		System.out.println("vertices == " + vertices.size());
 		System.out.println("edges == " + edges.size());
+	}
+	
+    /**
+     * Collects the blog entries data from twitter.
+     *
+     * @param List the list of twitter user's screenName
+     * @exception Exception
+     */
+	public void collectBlogEntries(List<String> screenNames) throws Exception {		
+		TwitterOAuthSupport twitterSupport = new TwitterOAuthSupport();
+		twitter = twitterSupport.access(myId);
+		
+		System.out.println(">>>>>>>>>>>>>> collect blog entries....");
+		System.out.println("database storage mode == " + config.isDBStorage());
+		
+		System.out.println(">>>>>>>>>>>>>> start");
+		System.out.println("number of users == " + screenNames.size());
+		
+		for (int i = 0; i < screenNames.size(); i++) {			
+			try {
+				System.out.println("collect blog entries for [" + (i+1) + "/" + screenNames.size() + " : " + (String)screenNames.get(i) + "]");
+				List<Status> statuses = twitter.getUserTimeline((String)screenNames.get(i));
+				System.out.println("number of blog entries == " + statuses.size());
+				this.addUserBlogEntries(statuses);
+			} catch (TwitterException te) {
+				te.printStackTrace();
+			}	
+		}			
 	}
 	
     /**
@@ -261,13 +285,14 @@ public class TwitterDataCollector {
 		}
 	}
 	
-	private void addUserBlogEntries(List<Status> statuses) {
+	private void addUserBlogEntries(List<Status> statuses) {		
 		for (int i = 0; i < statuses.size(); i++) {
 			Status status = (Status)statuses.get(i);
 			UserBlogEntry userBlogEntry = makeUserBlogEntry(status);
 			
 			// delete already-exist user blog entries
-			userBlogEntryManager.deleteUserBlogEntry(userBlogEntry.getWebsiteId(), userBlogEntry.getUserId());
+			userBlogEntryManager.deleteUserBlogEntry(userBlogEntry.getWebsiteId(), userBlogEntry.getUserId(), userBlogEntry.getBlogEntryId());
+			
 			// add user blog entry
 			userBlogEntryManager.addUserBlogEntry(userBlogEntry);
 		}		
@@ -284,8 +309,7 @@ public class TwitterDataCollector {
 		//vertex.setShape();
 		//vertex.setSize();
 		//vertex.setOpacity();
-		vertex.setImageFile((user.getProfileImageURL() == null) ? null : user
-				.getProfileImageURL().toString());
+		vertex.setImageFile((user.getProfileImageURL() == null) ? null : user.getProfileImageURL().toString());
 		//vertex.setInDegree(user.getFollowersCount());
 		//vertex.setOutDegree(user.getFriendsCount());
 		//vertex.setBetweennessCentrality();
@@ -297,13 +321,13 @@ public class TwitterDataCollector {
 		vertex.setUserNo(user.getId());
 		vertex.setUserId(user.getScreenName());
 		vertex.setUserName(user.getName());
-		vertex.setUserUrl(baseUrl + user.getScreenName());
+		vertex.setUserUrl(user.getURL().toString());
 		vertex.setBlogEntryCount(user.getStatusesCount());
-		vertex.setLastBlogEntryId(String.valueOf(user.getStatusId()));
-		vertex.setLastBlogEntryBody(user.getStatusText());
+		vertex.setLastBlogEntryId(String.valueOf(user.getStatus().getId()));
+		vertex.setLastBlogEntryBody(user.getStatus().getText());
 		vertex.setLastBlogEntryType(UserBlogEntry.BLOGENTRY_TYPE_GENERAL);
-		vertex.setLastBlogEntryCreateDate(user.getStatusCreatedAt());
-		vertex.setLastBlogEntryReplyTo(user.getStatusInReplyToScreenName());
+		vertex.setLastBlogEntryCreateDate(user.getStatus().getCreatedAt());
+		vertex.setLastBlogEntryReplyTo(user.getStatus().getInReplyToScreenName());
 		//vertex.setLastBlogEntryDmTo();
 		//vertex.setLastBlogEntryReferFrom();
 		vertex.setCreateDate(user.getCreatedAt());
@@ -346,7 +370,7 @@ public class TwitterDataCollector {
 		userBlogEntry.setUserId(status.getUser().getScreenName());
 		userBlogEntry.setUserNo(status.getUser().getId());
 		userBlogEntry.setBlogEntryId(String.valueOf(status.getId()));
-		userBlogEntry.setTitle(status.getSource());
+		//userBlogEntry.setTitle(status.getSource());
 		userBlogEntry.setBody(status.getText());
 		userBlogEntry.setSourceWebsiteId(1);
 		userBlogEntry.setBlogEntryType(UserBlogEntry.BLOGENTRY_TYPE_GENERAL);

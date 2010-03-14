@@ -8,6 +8,7 @@ import java.util.ResourceBundle;
 import java.util.StringTokenizer;
 
 import twitter4j.Twitter;
+import twitter4j.TwitterFactory;
 import twitter4j.http.AccessToken;
 
 /**
@@ -34,7 +35,7 @@ public class TwitterOAuthSupport {
      * @return Twitter the Twitter object
      */
 	public Twitter access(int userId) throws Exception {
-		Twitter twitter = new Twitter();
+		Twitter twitter = new TwitterFactory().getInstance();
 		
 		String[] userInfo = getUserOAuthInfo(userId);
 		

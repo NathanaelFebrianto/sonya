@@ -10,9 +10,15 @@
 
 	<repositories>
 		<repository>
-			<id>twitter4j</id>
-			<url>http://yusuke.homeip.net/twitter4j/
-			</url>
+			<id>twitter4j.org</id>
+			<name>twitter4j.org Repository</name>
+			<url>http://twitter4j.org/maven2</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
 		</repository>
 	</repositories>
 
@@ -24,10 +30,10 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>net.homeip.yusuke</groupId>
-			<artifactId>twitter4j</artifactId>
-			<version>[2.0,)</version>
-		</dependency>		
+			<groupId>org.twitter4j</groupId>
+			<artifactId>twitter4j-core</artifactId>
+			<version>[2.1,)</version>
+		</dependency>
 		<dependency>
 			<groupId>org.firebird</groupId>
 			<artifactId>firebird-io</artifactId>
