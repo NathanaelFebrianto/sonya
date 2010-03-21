@@ -81,7 +81,7 @@ public class GraphClientHandler {
 	            "org.firebird.graph.service.impl.GraphServiceImpl", 
 	            "collectTwitter",
 	            methodParams);
-	    httpClient.execute(comm);		
+	    httpClient.execute(comm);
 	}	
 	
 	/**
@@ -94,16 +94,16 @@ public class GraphClientHandler {
 	public HashMap<String, List> collectRealtimeTwitter(CollectorConfig config, String screenName) throws Exception {
 		HashMap<String, List> result = new HashMap<String, List>();
 		
-		TwitterDataCollector collector = new TwitterDataCollector(config);
-
+    	TwitterDataCollector collector = new TwitterDataCollector(config);
 		collector.collect(screenName);    	
 		List<Vertex> vertices = collector.getVertices();
 		List<Edge> edges = collector.getEdges();
 		
 		result.put("vertices", vertices);
 		result.put("edges", edges);
+
 		
-		return result;		
+		return result;	
 	}
 	
 	/**

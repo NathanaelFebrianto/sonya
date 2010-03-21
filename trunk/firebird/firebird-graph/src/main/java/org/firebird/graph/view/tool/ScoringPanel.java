@@ -181,10 +181,10 @@ public class ScoringPanel extends JPanel {
 	
 	private ScoringConfig createScoringConfig() {
 		ScoringConfig config = new ScoringConfig();
-		config.setEnbleHITS(true);
-		config.setEnableBetweennessCentrality(true);
-		config.setEnableClosenessCentrality(true);
-		config.setEnableEigenvectorCentrality(false);
+		config.setEnbleHITS(chkboxHITS.isSelected());
+		config.setEnableBetweennessCentrality(chkboxBC.isSelected());
+		config.setEnableClosenessCentrality(chkboxCC.isSelected());
+		config.setEnableEigenvectorCentrality(chkboxEC.isSelected());
 		
 		return config;
 	}
