@@ -4,6 +4,8 @@
  */
 package org.firebird.io.service;
 
+import java.util.List;
+
 import org.firebird.common.service.GenericManager;
 import org.firebird.io.model.UserBlogEntry;
 
@@ -14,6 +16,21 @@ import org.firebird.io.model.UserBlogEntry;
  */
 public interface UserBlogEntryManager extends GenericManager {
 
+    /**
+     * Gets the distinct users.
+     *
+     * @return List<String> the list of user id
+     */
+	public List<String> getDistinctUsers();
+	
+    /**
+     * Gets the user blog entries.
+     *
+     * @param userId the user id
+     * @return List<UserBlogEntry> the list of user blog entry
+     */
+	public List<UserBlogEntry> getUserBlogEntries(String userId);
+	
     /**
      * Adds a user blog entry.
      *

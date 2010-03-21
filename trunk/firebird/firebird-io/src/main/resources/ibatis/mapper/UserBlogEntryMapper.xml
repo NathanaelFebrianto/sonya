@@ -4,19 +4,38 @@
 
 <mapper namespace="org.firebird.io.dao.UserBlogEntryMapper">
 
-	<delete id="deleteUserBlogEntry" parameterType="org.firebird.io.model.UserBlogEntry">
-		DELETE FROM user_blog_entry
-		WHERE
-		<if test="websiteId != null">
-			website_id = #{websiteId}
-		</if>
-		<if test="userId != null">
-			AND user_id = #{userId}
-		</if>
-		<if test="blogEntryId != null">
-			AND blog_entry_id = #{blogEntryId}
-		</if>
-	</delete>
+	<resultMap id="userBlogEntryResultMap" type="org.firebird.io.model.UserBlogEntry">
+		<id property="websiteId" column="website_id" />
+		<result property="websiteId" column="website_id" />
+		<result property="userId" column="user_id" />
+		<result property="blogEntryId" column="blog_entry_id" />
+		<result property="userNo" column="user_no" />
+		<result property="title" column="title" />
+		<result property="body" column="body" />
+		<result property="sourceWebsiteId" column="source_website_id" />
+		<result property="blogEntryType" column="blog_entry_type" />
+		<result property="permaLinkUrl" column="permalink_url" />
+		<result property="userLinkUrl" column="user_link_url" />
+		<result property="replyTo" column="replyTo" />
+		<result property="dmTo" column="dm_to" />
+		<result property="referFrom" column="refer_from" />
+		<result property="createDate" column="create_date" />
+		<result property="lastUpdateDate" column="last_update_date" />
+		<result property="colCreateDate" column="col_create_date" />
+		<result property="colLastUpdateDate" column="col_last_update_date" />
+	</resultMap>
+	
+	<select id="selectDistinctUsers" parameterType="String" resultType="java.lang.String">
+		SELECT DISTINCT user_id
+		FROM user_blog_entry
+	</select>
+		
+	<select id="selectUserBlogEntries" parameterType="String" resultMap="userBlogEntryResultMap">
+		SELECT *
+		FROM user_blog_entry
+		WHERE user_id = #{userId}
+		ORDER BY create_date DESC
+	</select>
 		
 	<insert id="insertUserBlogEntry" parameterType="org.firebird.io.model.UserBlogEntry">
 		INSERT INTO user_blog_entry (
@@ -58,4 +77,19 @@
 			, NOW()	
 		)
 	</insert>
+
+	<delete id="deleteUserBlogEntry" parameterType="org.firebird.io.model.UserBlogEntry">
+		DELETE FROM user_blog_entry
+		WHERE
+		<if test="websiteId != null">
+			website_id = #{websiteId}
+		</if>
+		<if test="userId != null">
+			AND user_id = #{userId}
+		</if>
+		<if test="blogEntryId != null">
+			AND blog_entry_id = #{blogEntryId}
+		</if>
+	</delete>
+
 </mapper>

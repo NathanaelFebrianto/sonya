@@ -4,8 +4,11 @@
  */
 package org.firebird.io.dao;
 
+import java.util.List;
+
 import org.firebird.common.ibatis.GenericMapper;
 import org.firebird.io.model.UserBlogEntry;
+import org.firebird.io.model.Vertex;
 
 /**
  * A interface for user blog entry mapper.
@@ -14,6 +17,21 @@ import org.firebird.io.model.UserBlogEntry;
  */
 public interface UserBlogEntryMapper extends GenericMapper {
 
+    /**
+     * Selects the distinct users.
+     *
+     * @return List<String> the list of user id
+     */
+	public List<String> selectDistinctUsers();
+	
+    /**
+     * Selects the user blog entries.
+     *
+     * @param userId the user id
+     * @return List<UserBlogEntry> the list of user blog entry
+     */
+	public List<UserBlogEntry> selectUserBlogEntries(String userId);
+	
     /**
      * Inserts a user blog entry.
      *
