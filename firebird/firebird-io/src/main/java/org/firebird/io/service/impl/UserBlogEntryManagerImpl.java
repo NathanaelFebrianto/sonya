@@ -4,10 +4,14 @@
  */
 package org.firebird.io.service.impl;
 
+import java.util.List;
+
 import org.apache.ibatis.session.SqlSession;
 import org.firebird.common.service.GenericManagerImpl;
 import org.firebird.io.dao.UserBlogEntryMapper;
+import org.firebird.io.dao.VertexMapper;
 import org.firebird.io.model.UserBlogEntry;
+import org.firebird.io.model.Vertex;
 import org.firebird.io.service.UserBlogEntryManager;
 
 /**
@@ -35,6 +39,39 @@ public class UserBlogEntryManagerImpl extends GenericManagerImpl implements User
         //this.mapper = mapper;
     }
 
+    /**
+     * Gets the distinct users.
+     *
+     * @return List<String> the list of user id
+     */
+	public List<String> getDistinctUsers() {
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		UserBlogEntryMapper mapper = session.getMapper(UserBlogEntryMapper.class);
+    		List<String> userIds = mapper.selectDistinctUsers();
+    		return userIds;
+    	} finally {
+    		session.close();
+    	}
+	}
+	
+    /**
+     * Gets the user blog entries.
+     *
+     * @param userId the user id
+     * @return List<UserBlogEntry> the list of user blog entry
+     */
+	public List<UserBlogEntry> getUserBlogEntries(String userId) {
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		UserBlogEntryMapper mapper = session.getMapper(UserBlogEntryMapper.class);
+    		List<UserBlogEntry> blogEntries = mapper.selectUserBlogEntries(userId);
+    		return blogEntries;
+    	} finally {
+    		session.close();
+    	}		
+	}
+    
     /**
      * Adds a user blog entry.
      *
