@@ -183,12 +183,13 @@ public class TwitterDataCollector {
 				// add vertex
 				addVertex(user);
 
-				List<User> friends = twitter.getFriendsStatuses(String.valueOf(user.getId()));
+				List<User> friends = twitter.getFriendsStatuses(user.getId());
 				
 				level++;
 				for (int i = 0; i < friends.size(); i++) {
 					// level > 1 -> collect everyone for an initial user whatever degree limit
-					if (level > 1 && i == config.getDegreeLimit())	
+					// if (level > 1 && i == config.getDegreeLimit())
+					if (i == config.getDegreeLimit())
 						break;
 
 					numFriends++;
@@ -218,12 +219,13 @@ public class TwitterDataCollector {
 				// add vertex
 				addVertex(user);
 
-				List<User> followers = twitter.getFollowersStatuses(String.valueOf(user.getId()));
+				List<User> followers = twitter.getFollowersStatuses(user.getId());
 
 				level++;
 				for (int i = 0; i < followers.size(); i++) {
 					// level > 1 -> collect everyone for an initial user whatever degree limit
-					if (level > 1 && i == config.getDegreeLimit())
+					// if (level > 1 && i == config.getDegreeLimit())
+					if (i == config.getDegreeLimit())
 						break;
 
 					numFollowers++;
@@ -300,6 +302,8 @@ public class TwitterDataCollector {
 
 	private Vertex makeVertex(User user) {
 		Vertex vertex = new Vertex();
+		
+		Status status = user.getStatus();
 
 		vertex.setWebsiteId(1);
 		vertex.setId(user.getScreenName());
@@ -321,15 +325,20 @@ public class TwitterDataCollector {
 		vertex.setUserNo(user.getId());
 		vertex.setUserId(user.getScreenName());
 		vertex.setUserName(user.getName());
-		vertex.setUserUrl(user.getURL().toString());
+		vertex.setUserUrl("http://twitter.com/" + user.getScreenName());
 		vertex.setBlogEntryCount(user.getStatusesCount());
-		vertex.setLastBlogEntryId(String.valueOf(user.getStatus().getId()));
-		vertex.setLastBlogEntryBody(user.getStatus().getText());
+		vertex.setLastBlogEntryId(status != null ? String.valueOf(status.getId()) : null);
+		vertex.setLastBlogEntryBody(status != null ? status.getText() : null);
 		vertex.setLastBlogEntryType(UserBlogEntry.BLOGENTRY_TYPE_GENERAL);
-		vertex.setLastBlogEntryCreateDate(user.getStatus().getCreatedAt());
-		vertex.setLastBlogEntryReplyTo(user.getStatus().getInReplyToScreenName());
-		//vertex.setLastBlogEntryDmTo();
-		//vertex.setLastBlogEntryReferFrom();
+		vertex.setLastBlogEntryCreateDate(status != null ? status.getCreatedAt() : null);
+		vertex.setLastBlogEntryReplyTo(status != null ? status.getInReplyToScreenName() : null);
+		//vertex.setLastBlogEntryDmTo();		
+		/*
+		if (status != null && status.isRetweet()) {
+			Status rt = status.getRetweetedStatus();
+			vertex.setLastBlogEntryReferFrom(rt.getUser().getScreenName());
+		}
+		*/
 		vertex.setCreateDate(user.getCreatedAt());
 		vertex.setLastUpdateDate(user.getCreatedAt());
 
@@ -378,7 +387,14 @@ public class TwitterDataCollector {
 		userBlogEntry.setUserLinkUrl(null);
 		userBlogEntry.setReplyTo(status.getInReplyToScreenName());
 		userBlogEntry.setDmTo(null);
-		userBlogEntry.setReferFrom(null);
+		/*
+		if (status != null && status.isRetweet()) {			
+			Status rt = status.getRetweetedStatus();
+			userBlogEntry.setReferFrom(rt.getUser().getScreenName());
+			System.out.println("RT == " + rt.getText());
+			System.out.println("RT @user== " + rt.getUser().getScreenName());
+		}
+		*/	
 		userBlogEntry.setCreateDate(status.getCreatedAt());
 		userBlogEntry.setLastUpdateDate(status.getCreatedAt());
 		

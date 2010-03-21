@@ -37,27 +37,33 @@ public class TwitterDataCollectorTest extends TestCase
      */
     public void testApp() {
         try {
+        	// test to collect twitter friends and followers
+        	/*
         	CollectorConfig config = new CollectorConfig();
-        	config.setDBStorage(true);
-        	//config.setCollectFriend(true);
-        	//config.setCollectFollower(true);
-        	//config.setCollectUserBlogEntry(false);
-        	//config.setLevelLimit(2);
-        	//config.setDegreeLimit(2);
-        	//config.setPeopleLimit(10);
-        	
-        	//TwitterDataCollector collector = new TwitterDataCollector(config);
-        	//collector.collect("louiezzang");
+        	config.setDBStorage(false);
+        	config.setCollectFriend(true);
+        	config.setCollectFollower(true);
+        	config.setCollectUserBlogEntry(false);
+        	config.setLevelLimit(2);
+        	config.setDegreeLimit(2);
+        	config.setPeopleLimit(10);        	
+        	TwitterDataCollector collector = new TwitterDataCollector(config);
+        	collector.collect("louiezzang");
+        	*/
         	
         	// test to collect blog entries
+        	CollectorConfig config = new CollectorConfig();
+        	config.setDBStorage(true);
+        	config.setCollectUserBlogEntry(true);
+        	
         	TwitterDataCollector collector = new TwitterDataCollector(config);
         	VertexManager vertexManager = new VertexManagerImpl();
         	Vertex cond = new Vertex();
         	cond.setWebsiteId(1);
-        	cond.setAuthority(0.05);        	
+        	cond.setAuthority(0.01);        	
         	List<String> screenNames = vertexManager.getVertexIdsByScoringCondition(cond); 
-        	
-        	collector.collectBlogEntries(screenNames);        	
+           	collector.collectBlogEntries(screenNames);     
+           	   	
         } catch (Exception ex) {
         	ex.printStackTrace();
         }
