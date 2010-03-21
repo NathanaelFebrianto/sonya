@@ -29,7 +29,7 @@
 	   		./client-lib/looks-win-1.2.0.jar, ./client-lib/plastic-1.2.0.jar, 
 	   		./client-lib/collections-generic-4.01.jar, ./client-lib/colt-1.2.0.jar, 
 	   		./client-lib/concurrent-1.3.4.jar, ./client-lib/stax-api-1.0.1.jar,
-	   		./client-lib/wstx-asl-3.2.6.jar, ./client-lib/twitter4j-2.0.10.jar,
+	   		./client-lib/wstx-asl-3.2.6.jar, ./client-lib/twitter4j-core-2.1.1.jar,
 	   		./client-lib/substance-5.3.jar" >
     <param name = "type" value = "application/x-java-applet;version=1.6">
     <param name = "scriptable" value = "false">
@@ -52,7 +52,7 @@
 	   		./client-lib/looks-win-1.2.0.jar, ./client-lib/plastic-1.2.0.jar, 
 	   		./client-lib/collections-generic-4.01.jar, ./client-lib/colt-1.2.0.jar, 
 	   		./client-lib/concurrent-1.3.4.jar, ./client-lib/stax-api-1.0.1.jar,
-	   		./client-lib/wstx-asl-3.2.6.jar, ./client-lib/twitter4j-2.0.10.jar,
+	   		./client-lib/wstx-asl-3.2.6.jar, ./client-lib/twitter4j-core-2.1.1.jar,
 	   		./client-lib/substance-5.3.jar" \
             WIDTH = 1100 \
             HEIGHT = 680

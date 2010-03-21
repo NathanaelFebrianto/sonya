@@ -9,6 +9,24 @@
 	<url>http://www.myComp.com</url>
 	<description>Firebird Webapp</description>
 
+	<!-- 
+		This is temporary for twitter4j-core-2.1.1-SNAPSHOT.jar
+		This can be deleted after releasing the latest Maven Central Repository available 2.1.1 version.
+	-->
+	<repositories>
+		<repository>
+			<id>twitter4j.org</id>
+			<name>twitter4j.org Repository</name>
+			<url>http://twitter4j.org/maven2</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		<!-- Junit -->
 		<dependency>
