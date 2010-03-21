@@ -1,0 +1,7 @@
+mvn -e exec:java -Dexec.mainClass="org.apache.mahout.utils.vectors.lucene.Driver" -Dexec.args="--dir D:/firebird/index/ --field content --dictOut D:/firebird/dict.txt --output D:/firebird/vectors --minDF 5 --maxDFPercent 40"
+
+
+MAVEN_OPTS="-Xmx1G -ea" mvn -e exec:java -Dexec.mainClass=org.apache.mahout.clustering.lda.LDADriver -Dexec.args="-i D:/firebird/vectors -o D:/firebird/lda/ -k 10 -v 10000 --maxIter 20"
+
+
+mvn -q exec:java -Dexec.mainClass="org.apache.mahout.clustering.lda.LDAPrintTopics" -Dexec.args="-i `ls -1dtr D:/firebird/lda/state-* | tail -1` -d D:/firebird/dict.txt -o D:/firebird/topics/ -w 50"
