@@ -18,7 +18,7 @@ import org.firebird.io.model.UserBlogEntry;
  * 
  * @author Young-Gue Bae
  */
-public class DocWriter {
+public class DocSourceWriter {
 
 	private File fileDir;
 	
@@ -27,7 +27,7 @@ public class DocWriter {
 	 * 
 	 * @param dir the file directory
 	 */
-	public DocWriter(String dir) {
+	public DocSourceWriter(String dir) {
 		this.fileDir = new File(dir);
 
 		if (fileDir.exists())	fileDir.delete();

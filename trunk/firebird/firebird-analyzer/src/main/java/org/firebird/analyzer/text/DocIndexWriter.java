@@ -23,7 +23,7 @@ import org.apache.lucene.util.Version;
  * 
  * @author Young-Gue Bae
  */
-public class DocIndexer {
+public class DocIndexWriter {
 	
 	/** file directory that contains the text files to be indexed */
 	private File fileDir;
@@ -37,7 +37,7 @@ public class DocIndexer {
 	 * @param indexDir the index directory that hosts Lucene's index files
 	 * @exception
 	 */
-	public DocIndexer(String fileDir, String indexDir) throws Exception {
+	public DocIndexWriter(String fileDir, String indexDir) throws Exception {
 		this.fileDir = new File(fileDir);
 		this.indexDir = FSDirectory.open(new File(indexDir));
 	}
