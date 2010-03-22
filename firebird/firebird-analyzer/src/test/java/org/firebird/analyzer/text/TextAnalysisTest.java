@@ -36,7 +36,7 @@ public class TextAnalysisTest extends TestCase
     	
     	try {
     		/*
-    		DocWriter docWriter = new DocWriter("D:/firebird/text/");
+    		DocSourceWriter docWriter = new DocSourceWriter("D:/firebird/text/");
     		
         	UserBlogEntryManager userBlogEntryManager = new UserBlogEntryManagerImpl();
         	List<String> users = userBlogEntryManager.getDistinctUsers();
@@ -48,7 +48,7 @@ public class TextAnalysisTest extends TestCase
         	}
         	*/
     		
-    		DocIndexer indexer = new DocIndexer("D:/firebird/text/", "D:/firebird/index/");
+    		DocIndexWriter indexer = new DocIndexWriter("D:/firebird/text/", "D:/firebird/index/");
     		indexer.write();
     		
     	} catch (Exception ex) {
