@@ -46,6 +46,7 @@ public class ScoringPanel extends JPanel {
 
 	/** controls */
 	JComboBox comboWebsite;
+	JCheckBox chkboxPR;
 	JCheckBox chkboxHITS;
 	JCheckBox chkboxBC;
 	JCheckBox chkboxCC;
@@ -70,6 +71,7 @@ public class ScoringPanel extends JPanel {
 		comboWebsite.addItem(new ObjectModel("Twitter", "1"));
 		comboWebsite.addItem(new ObjectModel("me2DAY", "2"));
 		
+		chkboxPR = new JCheckBox();
 		chkboxHITS = new JCheckBox();
 		chkboxBC = new JCheckBox();
 		chkboxCC = new JCheckBox();
@@ -97,7 +99,7 @@ public class ScoringPanel extends JPanel {
 		FormLayout layout = new FormLayout(
 				"left:max(20dlu;p), 4dlu, 75dlu",
 				"p, 2dlu, p, 7dlu, " +
-				"p, 2dlu, p, 3dlu, p, 3dlu, p, 3dlu, p");
+				"p, 2dlu, p, 3dlu, p, 3dlu, p, 3dlu, p, 3dlu, p");
 
 		PanelBuilder builder = new PanelBuilder(layout);
 		builder.setDefaultDialogBorder();
@@ -108,14 +110,16 @@ public class ScoringPanel extends JPanel {
 		builder.add(comboWebsite, cc.xy(3, 3));
 		
 		builder.addSeparator(UIHandler.getText("scoring.algorithms"), cc.xyw(1, 5, 3));
-		builder.addLabel(UIHandler.getText("scoring.hits"), cc.xy(1, 7));
-		builder.add(chkboxHITS, cc.xy(3, 7));
-		builder.addLabel(UIHandler.getText("scoring.betweenness.centrality"), cc.xy(1, 9));
-		builder.add(chkboxBC, cc.xy(3, 9));
-		builder.addLabel(UIHandler.getText("scoring.closeness.centrality"), cc.xy(1, 11));
-		builder.add(chkboxCC, cc.xy(3, 11));
-		builder.addLabel(UIHandler.getText("scoring.eigenvector.centrality"), cc.xy(1, 13));
-		builder.add(chkboxEC, cc.xy(3, 13));
+		builder.addLabel(UIHandler.getText("scoring.page.rank"), cc.xy(1, 7));
+		builder.add(chkboxPR, cc.xy(3, 7));
+		builder.addLabel(UIHandler.getText("scoring.hits"), cc.xy(1, 9));
+		builder.add(chkboxHITS, cc.xy(3, 9));
+		builder.addLabel(UIHandler.getText("scoring.betweenness.centrality"), cc.xy(1, 11));
+		builder.add(chkboxBC, cc.xy(3, 11));
+		builder.addLabel(UIHandler.getText("scoring.closeness.centrality"), cc.xy(1, 13));
+		builder.add(chkboxCC, cc.xy(3, 13));
+		builder.addLabel(UIHandler.getText("scoring.eigenvector.centrality"), cc.xy(1, 15));
+		builder.add(chkboxEC, cc.xy(3, 15));
 				
 		return builder.getPanel();
 	}
@@ -173,6 +177,7 @@ public class ScoringPanel extends JPanel {
 	
 	private void clearFields() {
 		comboWebsite.setSelectedIndex(0);
+		chkboxPR.setSelected(false);
 		chkboxHITS.setSelected(false);
 		chkboxBC.setSelected(false);
 		chkboxCC.setSelected(false);
@@ -181,6 +186,7 @@ public class ScoringPanel extends JPanel {
 	
 	private ScoringConfig createScoringConfig() {
 		ScoringConfig config = new ScoringConfig();
+		config.setEnblePageRank(chkboxPR.isSelected());
 		config.setEnbleHITS(chkboxHITS.isSelected());
 		config.setEnableBetweennessCentrality(chkboxBC.isSelected());
 		config.setEnableClosenessCentrality(chkboxCC.isSelected());
