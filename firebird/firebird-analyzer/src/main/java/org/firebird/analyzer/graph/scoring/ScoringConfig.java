@@ -14,11 +14,18 @@ import java.io.Serializable;
 public class ScoringConfig implements Serializable {
 
 	private static final long serialVersionUID = -4632497956756091212L;
+	private boolean enblePageRank = false;
 	private boolean enbleHITS = false;
 	private boolean enableBetweennessCentrality = false;
 	private boolean enableClosenessCentrality = false;
 	private boolean enableEigenvectorCentrality = false;
 	
+	public boolean isEnblePageRank() {
+		return enblePageRank;
+	}
+	public void setEnblePageRank(boolean enblePageRank) {
+		this.enblePageRank = enblePageRank;
+	}
 	public boolean isEnbleHITS() {
 		return enbleHITS;
 	}

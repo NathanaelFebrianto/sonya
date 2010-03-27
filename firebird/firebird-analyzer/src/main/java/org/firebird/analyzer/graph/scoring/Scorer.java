@@ -15,6 +15,7 @@ import edu.uci.ics.jung.algorithms.importance.BetweennessCentrality;
 import edu.uci.ics.jung.algorithms.scoring.ClosenessCentrality;
 import edu.uci.ics.jung.algorithms.scoring.EigenvectorCentrality;
 import edu.uci.ics.jung.algorithms.scoring.HITS;
+import edu.uci.ics.jung.algorithms.scoring.PageRank;
 import edu.uci.ics.jung.graph.Graph;
 
 /**
@@ -28,6 +29,8 @@ public final class Scorer {
 	/** Scoring Config */
 	ScoringConfig config;
 	
+	/** PageRank algorithm */
+	PageRank<Vertex, Edge> pr;	
 	/** HITS algorithm */
 	HITS<Vertex, Edge> hits;
 	/** Betweenness Centrality algorithm */
@@ -85,6 +88,14 @@ public final class Scorer {
 	 * @exception
 	 */
 	public Graph<Vertex, Edge> evaluate() throws Exception {
+		// PageRank
+		if (config.isEnblePageRank()) {
+			pr = new PageRank<Vertex, Edge>(graph, 0.15);
+			pr.evaluate();
+		}
+		else {
+			pr = null;
+		}		
 		// HITS
 		if (config.isEnbleHITS()) {
 			hits = new HITS<Vertex, Edge>(graph);
@@ -126,9 +137,9 @@ public final class Scorer {
 	}
 	
 	private void storeVertexScoreToGraph() throws Exception {
-    	System.out.println("--------------------------------------------------------------------------------");
-    	System.out.println("USERID | IN | OUT | AUTHORITY | HUB | BETWEENNESS | CLOSENESS | EIGENVECTOR");
-    	System.out.println("--------------------------------------------------------------------------------");		
+    	System.out.println("---------------------------------------------------------------------------------------------");
+    	System.out.println("USERID | IN | OUT | PAGERANK | AUTHORITY | HUB | BETWEENNESS | CLOSENESS | EIGENVECTOR");
+    	System.out.println("---------------------------------------------------------------------------------------------");		
 		
 		Collection<Vertex> vertices = graph.getVertices();
     	
@@ -145,7 +156,17 @@ public final class Scorer {
     		out.append(v.getId()).append("|");
     		out.append(v.getInDegree()).append("|");
     		out.append(v.getOutDegree()).append("|");
-    		    		
+    		
+    		// PageRank score
+    		if (config.isEnblePageRank()) {
+    			double scorePR = pr.getVertexScore(v);
+    			v.setPageRank(scorePR);
+    			out.append(new BigDecimal(scorePR).setScale(4, BigDecimal.ROUND_HALF_UP)).append("|");
+    		} 
+    		else {
+    			out.append("").append("|");
+     		}
+    		
     		// HITS score
     		if (config.isEnbleHITS()) {
     			HITS.Scores scoreHITS = hits.getVertexScore(v);    			
@@ -175,8 +196,13 @@ public final class Scorer {
     		if (config.isEnableClosenessCentrality()) {
     			double scoreCC = cc.getVertexScore(v);    			
     			v.setClosenessCentrality(scoreCC);
-    			
-    			out.append(new BigDecimal(scoreCC).setScale(0, BigDecimal.ROUND_HALF_UP)).append("|");
+
+    			if (Double.isNaN(scoreCC)) {
+    				out.append("NaN").append("|");
+    			}
+    			else {
+    				out.append(new BigDecimal(scoreCC).setScale(0, BigDecimal.ROUND_HALF_UP)).append("|");
+    			}
     		}
     		else {
     			out.append("").append("|");

@@ -34,8 +34,8 @@ public class TextAnalysisTest extends TestCase
     public void testApp() {
     	assertTrue(true);
     	
-    	try {
-    		/*
+    	try {    		
+    		// document source file writer
     		DocSourceWriter docWriter = new DocSourceWriter("D:/firebird/text/");
     		
         	UserBlogEntryManager userBlogEntryManager = new UserBlogEntryManagerImpl();
@@ -46,10 +46,11 @@ public class TextAnalysisTest extends TestCase
         		List<UserBlogEntry> userBlogEntries = userBlogEntryManager.getUserBlogEntries(userId);
         		docWriter.write(userId, userBlogEntries);
         	}
-        	*/
-    		
-    		DocIndexWriter indexer = new DocIndexWriter("D:/firebird/text/", "D:/firebird/index/");
+        	
+    		// index writer
+        	DocIndexWriter indexer = new DocIndexWriter("D:/firebird/text/", "D:/firebird/index/");
     		indexer.write();
+    		
     		
     	} catch (Exception ex) {
         	ex.printStackTrace();
