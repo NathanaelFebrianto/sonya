@@ -14,6 +14,7 @@ import org.firebird.io.service.VertexManager;
 import org.firebird.io.service.impl.EdgeManagerImpl;
 import org.firebird.io.service.impl.VertexManagerImpl;
 
+import edu.uci.ics.jung.algorithms.scoring.PageRank;
 import edu.uci.ics.jung.graph.Graph;
 
 public class ScorerTest extends TestCase
@@ -51,15 +52,15 @@ public class ScorerTest extends TestCase
         	Graph<Vertex, Edge> graph = modeller.createGraph(vertices, edges);
     		
     		ScoringConfig config = new ScoringConfig();
+    		config.setEnblePageRank(true);
     		config.setEnbleHITS(true);
-    		config.setEnableBetweennessCentrality(true);
-    		config.setEnableClosenessCentrality(true);
+    		config.setEnableBetweennessCentrality(false);
+    		config.setEnableClosenessCentrality(false);
     		config.setEnableEigenvectorCentrality(false);
     		
-        	//Scorer scorer = new Scorer(graph, config);
     		Scorer scorer = new Scorer(graph);
     		scorer.setConfig(config);
-    		scorer.evaluate();
+    		scorer.evaluate();    		
         } catch (Exception ex) {
         	ex.printStackTrace();
         }  	 

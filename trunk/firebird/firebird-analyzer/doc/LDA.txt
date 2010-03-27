@@ -1,20 +1,20 @@
 <Shell Script>
-mvn -e exec:java -Dexec.mainClass="org.apache.mahout.utils.vectors.lucene.Driver" -Dexec.args="--dir D:/firebird/index/ --field content --dictOut D:/firebird/dict.txt --output D:/firebird/vectors --minDF 5 --maxDFPercent 40"
+mvn -e exec:java -Dexec.mainClass="org.apache.mahout.utils.vectors.lucene.Driver" -Dexec.args="--dir D:/firebird/index/ --field body --dictOut D:/firebird/dict.txt --output D:/firebird/vectors --minDF 5 --maxDFPercent 70"
 
 
-MAVEN_OPTS="-Xmx1G -ea" mvn -e exec:java -Dexec.mainClass=org.apache.mahout.clustering.lda.LDADriver -Dexec.args="-i D:/firebird/vectors -o D:/firebird/lda/ -k 10 -v 10000 --maxIter 20"
+MAVEN_OPTS="-Xmx1G -ea" mvn -e exec:java -Dexec.mainClass=org.apache.mahout.clustering.lda.LDADriver -Dexec.args="-i D:/firebird/vectors -o D:/firebird/lda/ -k 10 -v 10000 --maxIter 40"
 
 
-mvn -q exec:java -Dexec.mainClass="org.apache.mahout.clustering.lda.LDAPrintTopics" -Dexec.args="-i `ls -1dtr D:/firebird/lda/state-* | tail -1` -d D:/firebird/dict.txt -o D:/firebird/topics/ -w 50"
+mvn -q exec:java -Dexec.mainClass="org.apache.mahout.clustering.lda.LDAPrintTopics" -Dexec.args="-i `ls -1dtr D:/firebird/lda/state-* | tail -1` -d D:/firebird/dict.txt -o D:/firebird/topics/ -w 20"
 
 
 <자체 구현 클래스>
 
 0-0. 전체를 아우러는 분석기 -> TextAnalysisJob
 
-1-1. 소스파일 텍스트 전처리기(불필요한 문자 제거) -> StopWordAnalyzer
+1-1. 소스파일 텍스트 전처리기(불필요한 문자 제거) -> StopWordAnalyzer(X)
 
-2-1. 소스 Doc 생성기 -> DocWriter
+2-1. 소스 Doc 생성기 -> DocSourceWriter
 
 2-2. Doc 파일로 부터 Index 생성기 -> DocIndexWriter
 
