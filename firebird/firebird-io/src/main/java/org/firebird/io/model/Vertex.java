@@ -26,6 +26,7 @@ public class Vertex implements Serializable {
 	private int degree;
 	private int inDegree;
 	private int outDegree;
+	private double pageRank;
 	private double authority;
 	private double hub;
 	private double betweennessCentrality;
@@ -86,6 +87,9 @@ public class Vertex implements Serializable {
 	}
 	public int getOutDegree() {
 		return outDegree;
+	}
+	public double getPageRank() {
+		return pageRank;
 	}
 	public double getAuthority() {
 		return authority;
@@ -194,6 +198,9 @@ public class Vertex implements Serializable {
 	}
 	public void setOutDegree(int outDegree) {
 		this.outDegree = outDegree;
+	}
+	public void setPageRank(double pageRank) {
+		this.pageRank = pageRank;
 	}
 	public void setAuthority(double authority) {
 		this.authority = authority;
