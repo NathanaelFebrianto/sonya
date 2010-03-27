@@ -18,6 +18,7 @@
 		<result property="degree" column="degree" />
 		<result property="inDegree" column="in_degree" />
 		<result property="outDegree" column="out_degree" />
+		<result property="pageRank" column="page_rank" />
 		<result property="authority" column="authority" />
 		<result property="hub" column="hub" />
 		<result property="betweennessCentrality" column="betweenness_centrality" />
@@ -55,10 +56,13 @@
 		SELECT vertex_id
 		FROM vertex
 		WHERE website_id = #{websiteId}
+		<if test="pageRank != null">
+			AND page_rank >= #{pageRank,javaType=double,jdbcType=DOUBLE}
+		</if>
 		<if test="authority != null">
 			AND authority >= #{authority,javaType=double,jdbcType=DOUBLE}
 		</if>
-		<if test="authority != null">
+		<if test="hub != null">
 			AND hub >= #{hub,javaType=double,jdbcType=DOUBLE}
 		</if>
 		<if test="betweennessCentrality != null">
@@ -85,6 +89,7 @@
 			, degree
 			, in_degree
 			, out_degree
+			, page_rank
 			, authority
 			, hub
 			, betweenness_centrality
@@ -119,6 +124,7 @@
 			, #{degree,javaType=int,jdbcType=NUMERIC}
 			, #{inDegree,javaType=int,jdbcType=NUMERIC}
 			, #{outDegree,javaType=int,jdbcType=NUMERIC}
+			, #{pageRank,javaType=double,jdbcType=DOUBLE}
 			, #{authority,javaType=double,jdbcType=DOUBLE}
 			, #{hub,javaType=double,jdbcType=DOUBLE}
 			, #{betweennessCentrality,javaType=double,jdbcType=DOUBLE}
@@ -162,6 +168,7 @@
 			  degree = #{degree}
 			, in_degree = #{inDegree}
 			, out_degree = #{outDegree}
+			, page_rank = #{pageRank}
 			, authority = #{authority}
 			, hub = #{hub}
 			, betweenness_centrality = #{betweennessCentrality}
