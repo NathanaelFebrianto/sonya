@@ -78,6 +78,7 @@ public class VertexTable extends GraphTable {
 				UIHandler.getText("col.vertex.degree"),
 				UIHandler.getText("col.vertex.inDegree"),
 				UIHandler.getText("col.vertex.outDegree"),
+				UIHandler.getText("col.vertex.pageRank"),
 				UIHandler.getText("col.vertex.authority"),
 				UIHandler.getText("col.vertex.hub"),
 				UIHandler.getText("col.vertex.betweennessCentrality"),
@@ -110,14 +111,15 @@ public class VertexTable extends GraphTable {
 		setNumberCellRenderer(5, "###,###");
 		setNumberCellRenderer(6, "0.00");
 		setNumberCellRenderer(7, "0.00");
-		setNumberCellRenderer(8, "###,###");
+		setNumberCellRenderer(8, "0.00");
 		setNumberCellRenderer(9, "###,###");
 		setNumberCellRenderer(10, "###,###");
-		setNumberCellRenderer(11, "0.00");
-		setNumberCellRenderer(12, "###,###");
+		setNumberCellRenderer(11, "###,###");
+		setNumberCellRenderer(12, "0.00");
 		setNumberCellRenderer(13, "###,###");
-		setNumberCellRenderer(15, "###,###");
-		setDateCellRenderer(17, "yyyy-MM-dd");
+		setNumberCellRenderer(14, "###,###");
+		setNumberCellRenderer(16, "###,###");
+		setDateCellRenderer(18, "yyyy-MM-dd");
 	}
 
 	/**
@@ -140,6 +142,7 @@ public class VertexTable extends GraphTable {
 	        rowData.add(vertex.getDegree());
 	        rowData.add(vertex.getInDegree());
 	        rowData.add(vertex.getOutDegree());
+	        rowData.add(convertScale(vertex.getPageRank(), 2));
 	        rowData.add(convertScale(vertex.getAuthority(), 2));
 	        rowData.add(convertScale(vertex.getHub(), 2));
 	        rowData.add(convertScale(vertex.getBetweennessCentrality(), 0));
