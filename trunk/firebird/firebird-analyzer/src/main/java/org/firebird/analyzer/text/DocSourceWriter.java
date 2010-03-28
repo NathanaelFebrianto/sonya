@@ -12,6 +12,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.firebird.io.model.UserBlogEntry;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * This class extracts documents from the source data.
@@ -20,7 +22,8 @@ import org.firebird.io.model.UserBlogEntry;
  */
 public class DocSourceWriter {
 
-	private File fileDir;
+	private File fileDir;	
+	private static final Logger log = LoggerFactory.getLogger(DocSourceWriter.class);
 	
 	/**
 	 * Constructor.
@@ -55,8 +58,8 @@ public class DocSourceWriter {
 	        String out = outBuffer.toString();
 
 	        File outFile = new File(fileDir, "doc-" + userId + ".txt");
-	        //System.out.println("@writing to file = " + outFile);
-	        //System.out.println(out);
+	        //log.info("writing to file = {}", outFile);
+	        System.out.println("writing to file = " + outFile);
 	        
 	        FileWriter writer = new FileWriter(outFile);
 	        writer.write(out);
@@ -76,11 +79,13 @@ public class DocSourceWriter {
 		
 		Matcher matcher = EXTRACTION_PATTERN.matcher(buffer);
 		
-		System.out.println("#####source == " + body);
+		//log.info("source == {}", body);
+		System.out.println("source == " + body);
+		
         while (matcher.find()) {
             for (int i = 1; i <= matcher.groupCount(); i++) {
                 if (matcher.group(i) != null) {
-                	System.out.println(i + " == " + matcher.group(i));
+                	log.info("{} == {}", i, matcher.group(i));
                 	if (i == 1)
                 		try { out = out.replaceAll("@"+matcher.group(i)+"\\s", ""); } catch (Exception e) { e.printStackTrace(); }
                 		
@@ -98,11 +103,10 @@ public class DocSourceWriter {
                 }
             }            
         }
-        System.out.println("#####output == " + out);
+        //log.info("output == {}", out);
+        System.out.println("output == " + out);
+        
         return out;
 	}
-	
-	public static void main(String[] args) {
-		
-	}	
+
 }

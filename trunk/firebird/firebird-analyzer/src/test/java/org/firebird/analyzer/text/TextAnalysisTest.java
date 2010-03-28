@@ -36,7 +36,8 @@ public class TextAnalysisTest extends TestCase
     	
     	try {    		
     		// document source file writer
-    		DocSourceWriter docWriter = new DocSourceWriter("D:/firebird/text/");
+    		/*
+    		DocSourceWriter sourceWriter = new DocSourceWriter("D:/firebird/text/");
     		
         	UserBlogEntryManager userBlogEntryManager = new UserBlogEntryManagerImpl();
         	List<String> users = userBlogEntryManager.getDistinctUsers();
@@ -44,15 +45,47 @@ public class TextAnalysisTest extends TestCase
         	for (int i = 0; i < users.size(); i++) {
         		String userId = (String) users.get(i);
         		List<UserBlogEntry> userBlogEntries = userBlogEntryManager.getUserBlogEntries(userId);
-        		docWriter.write(userId, userBlogEntries);
+        		sourceWriter.write(userId, userBlogEntries);
         	}
         	
     		// index writer
-        	DocIndexWriter indexer = new DocIndexWriter("D:/firebird/text/", "D:/firebird/index/");
-    		indexer.write();
+        	DocIndexWriter indexWriter = new DocIndexWriter();
+    		indexWriter.write("D:/firebird/text/", "D:/firebird/index/");
+        	
+        	// vector writer    		
+    		DocVectorWriter vectorWriter = new DocVectorWriter();
+    		vectorWriter.write("D:/firebird/index/",
+    					 "D:/firebird/vectors",
+    					 "body",
+    					 null,
+    					 "D:/firebird/dict.txt",
+    					 null,
+    					 null,
+    					 null,
+    					 Long.MAX_VALUE,
+    					 null,
+    					 5,
+    					 70);
     		
-    		
-    	} catch (Exception ex) {
+    		// LDA analysis
+    		LDAAnalyzer ldaAnalyzer = new LDAAnalyzer();
+    		ldaAnalyzer.analyze("D:/firebird/vectors", 
+    					"D:/firebird/lda/", 
+    					true, 
+    					10, 
+    					10000, 
+    					-1, 
+    					40, 
+    					2);
+    		*/
+    		// Print LDA topics
+    		LDATopics ldaTopics = new LDATopics();
+    		ldaTopics.printTopics("D:/firebird/lda/state-40", 
+    					"D:/firebird/dict.txt", 
+    					"D:/firebird/topics/", 
+    					50, 
+    					null);
+     	} catch (Exception ex) {
         	ex.printStackTrace();
         }    	
     }

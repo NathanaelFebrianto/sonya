@@ -21,6 +21,8 @@ import org.apache.lucene.document.Field;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * This class creates an index with Lucene from the text files.
@@ -734,30 +736,26 @@ public class DocIndexWriter {
 		ENGLISH_STOP_WORDS_SET = CharArraySet.unmodifiableSet(stopSet);
 	}
 	
-	/** file directory that contains the text files to be indexed */
-	private File fileDir;
-	/** index directory that hosts Lucene's index files */
-	private FSDirectory indexDir;	
-	
+	private static final Logger log = LoggerFactory.getLogger(DocIndexWriter.class);
 	
 	/**
 	 * Constructor.
 	 * 
-	 * @param fileDir the file directory that contains the text files to be indexed
-	 * @param indexDir the index directory that hosts Lucene's index files
-	 * @exception
 	 */
-	public DocIndexWriter(String fileDir, String indexDir) throws Exception {
-		this.fileDir = new File(fileDir);
-		this.indexDir = FSDirectory.open(new File(indexDir));
-	}
+	public DocIndexWriter() {}
 
 	/**
 	 * Creates an index with Lucene from the text files.
 	 * 
+	 * @param inputDir the file directory that contains the text files to be indexed
+	 * @param ouputDir the index directory that hosts Lucene's index files
 	 * @exception
 	 */
-	public void write() throws Exception {
+	public void write(String inputDir, String ouputDir) throws Exception {
+		
+		File fileDir = new File(inputDir);
+		FSDirectory indexDir = FSDirectory.open(new File(ouputDir));
+		
 		//Analyzer luceneAnalyzer = new StandardAnalyzer(Version.LUCENE_CURRENT, ENGLISH_STOP_WORDS_SET);
 		Analyzer luceneAnalyzer = new StopAnalyzer(Version.LUCENE_CURRENT, ENGLISH_STOP_WORDS_SET);
 		IndexWriter indexWriter = new IndexWriter(indexDir, luceneAnalyzer, true, IndexWriter.MaxFieldLength.UNLIMITED);
@@ -767,28 +765,15 @@ public class DocIndexWriter {
 		// add documents to the index
 		for (int i = 0; i < textFiles.length; i++) {
 			if (textFiles[i].getName().endsWith(".txt")) {
+				//log.info("creating index : {}", textFiles[i].getCanonicalPath());
 				System.out.println("creating index : " + textFiles[i].getCanonicalPath());
+				
 				Reader textReader = new FileReader(textFiles[i]);
 				
-		        /*
-				ArrayList<String> result = new ArrayList<String>();   
-
-		        TokenStream stream = luceneAnalyzer.tokenStream("", textReader);   
-		        TermAttribute termAttr = (TermAttribute)stream.getAttribute(TermAttribute.class);   
-		        //OffsetAttribute offSetAttr = (OffsetAttribute)stream.getAttribute(OffsetAttribute.class);   
-		  
-		        //System.out.println(stream.hasAttributes());   
-		        while(stream.incrementToken()) {   
-		            result.add(termAttr.term());   
-		            //System.out.println(offSetAttr.startOffset() + "," + offSetAttr.endOffset());   
-		        }   
-		  
-		        System.out.println("terms : " + result + "\n");
-		        */
-
 		        // first line is the user id, rest from 3rd line is the body
 		        BufferedReader reader = new BufferedReader(textReader);
 		        String userId = reader.readLine();
+		        //log.info("userId == {}", userId);
 		        System.out.println("userId == " + userId);
 		        reader.readLine();// skip an empty line
 
@@ -799,11 +784,12 @@ public class DocIndexWriter {
 		        }
 		        reader.close();
 		        
-		        System.out.println("content == " + bodyBuffer.toString() + "\n");
+		        //log.info("body == {}\n", bodyBuffer.toString());
+		        System.out.println("body == " + bodyBuffer.toString()+ "\n");
 		        
 				Document document = new Document();
-				document.add(new Field("user", userId, Field.Store.NO, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
-				document.add(new Field("body", bodyBuffer.toString(), Field.Store.NO, Field.Index.ANALYZED, Field.TermVector.YES));
+				document.add(new Field("user", userId, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
+				document.add(new Field("body", bodyBuffer.toString(), Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.YES));
 				document.add(new Field("path", textFiles[i].getPath(), Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
 				indexWriter.addDocument(document);
 			}
@@ -813,13 +799,12 @@ public class DocIndexWriter {
 		indexWriter.close();
 		long endTime = new Date().getTime();
 
-		System.out.println("It took "
-						+ (endTime - startTime)
-						+ " milliseconds to create an index from the files in the directory "
-						+ fileDir.getPath());		
+		//log.info("It took {} milliseconds to create an index from the files in the directory {}",
+		//				(endTime - startTime), 
+		//				fileDir.getPath());
+		System.out.println("It took " + (endTime - startTime) 
+				+ "milliseconds to create an index from the files in the directory "
+				+ fileDir.getPath());
 	}
 	
-	public static void main(String[] args) throws Exception {
-		
-	}
 }
