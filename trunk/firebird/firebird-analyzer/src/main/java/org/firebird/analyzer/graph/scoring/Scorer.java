@@ -48,7 +48,7 @@ public final class Scorer {
 	 * 
 	 * @param graph the Graph<Vertex, Edge>
 	 */
-	public Scorer (Graph<Vertex, Edge> graph) {
+	public Scorer(Graph<Vertex, Edge> graph) {
 		this(graph, new ScoringConfig());
 	}
 	
@@ -58,7 +58,7 @@ public final class Scorer {
 	 * @param graph the Graph<Vertex, Edge>
 	 * @param config the scoring cofig
 	 */
-	public Scorer (Graph<Vertex, Edge> graph, ScoringConfig config) {
+	public Scorer(Graph<Vertex, Edge> graph, ScoringConfig config) {
 		this.graph = graph;
 		this.config = config;
 	}
@@ -248,12 +248,5 @@ public final class Scorer {
          	}    		
     	}		
 	}
-	
-	/**
-	 * Stores the output into the database.
-	 * 
-	 */
-	public void storeToDatabase() {
-		
-	}	
+
 }
