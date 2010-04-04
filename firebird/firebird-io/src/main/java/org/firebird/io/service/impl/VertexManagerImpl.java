@@ -124,4 +124,20 @@ public class VertexManagerImpl extends GenericManagerImpl implements VertexManag
     		session.close();
     	}		
 	}
+	
+	/**
+     * Updates a vertex cluster.
+     *
+     * @param vertex the vertex cluster
+     */
+	public void setVertexCluster(Vertex vertex) {
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		VertexMapper mapper = session.getMapper(VertexMapper.class);
+    		mapper.updateVertexCluster(vertex);
+    		session.commit();
+    	} finally {
+    		session.close();
+    	}		
+	}
 }

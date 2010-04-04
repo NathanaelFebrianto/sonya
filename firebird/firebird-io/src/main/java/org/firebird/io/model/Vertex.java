@@ -32,7 +32,8 @@ public class Vertex implements Serializable {
 	private double betweennessCentrality;
 	private double closenessCentrality;
 	private double eigenvectorCentrality;
-	private double clusteringCoefficient;
+	private int edgeBetweennessCluster;
+	private int voltageCluster;
 	private int friendsCount;
 	private int followersCount;
 	private int userNo;
@@ -106,8 +107,11 @@ public class Vertex implements Serializable {
 	public double getEigenvectorCentrality() {
 		return eigenvectorCentrality;
 	}
-	public double getClusteringCoefficient() {
-		return clusteringCoefficient;
+	public int getEdgeBetweennessCluster() {
+		return edgeBetweennessCluster;
+	}
+	public int getVoltageCluster() {
+		return voltageCluster;
 	}
 	public int getFriendsCount() {
 		return friendsCount;
@@ -217,8 +221,11 @@ public class Vertex implements Serializable {
 	public void setEigenvectorCentrality(double eigenvectorCentrality) {
 		this.eigenvectorCentrality = eigenvectorCentrality;
 	}
-	public void setClusteringCoefficient(double clusteringCoefficient) {
-		this.clusteringCoefficient = clusteringCoefficient;
+	public void setEdgeBetweennessCluster(int edgeBetweennessCluster) {
+		this.edgeBetweennessCluster = edgeBetweennessCluster;
+	}
+	public void setVoltageCluster(int voltageCluster) {
+		this.voltageCluster = voltageCluster;
 	}
 	public void setFriendsCount(int friendsCount) {
 		this.friendsCount = friendsCount;

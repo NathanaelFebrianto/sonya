@@ -52,4 +52,11 @@ public interface VertexMapper extends GenericMapper {
      * @param vertex the vertex score
      */
 	public void updateVertexScore(Vertex vertex);
+
+	/**
+     * Updates a vertex cluster.
+     *
+     * @param vertex the vertex cluster
+     */
+	public void updateVertexCluster(Vertex vertex);
 }
