@@ -1,14 +1,8 @@
 package org.firebird.analyzer.text;
 
-import java.util.List;
-
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
-
-import org.firebird.io.model.UserBlogEntry;
-import org.firebird.io.service.UserBlogEntryManager;
-import org.firebird.io.service.impl.UserBlogEntryManagerImpl;
 
 public class TextAnalysisTest extends TestCase
 {
@@ -77,7 +71,7 @@ public class TextAnalysisTest extends TestCase
     					-1, 
     					40, 
     					2);
-    		*/
+ 
     		// Print LDA topics
     		LDATopics ldaTopics = new LDATopics();
     		ldaTopics.writeEachTopics("D:/firebird/lda/state-40", 
@@ -85,6 +79,9 @@ public class TextAnalysisTest extends TestCase
     					"D:/firebird/topics/", 
     					50, 
     					null);
+    		*/
+    		
+    	
      	} catch (Exception ex) {
         	ex.printStackTrace();
         }    	
