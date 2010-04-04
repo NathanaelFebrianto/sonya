@@ -7,10 +7,13 @@ package org.firebird.analyzer.text;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.firebird.common.util.ConvertUtil;
 import org.firebird.io.model.UserBlogEntry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -48,20 +51,31 @@ public class DocSourceWriter {
 			StringBuffer outBuffer = new StringBuffer(1024);			
 			outBuffer.append(userId).append("\n\n");
 			
+			Calendar cal = Calendar.getInstance();
+			cal.set(1900, 1, 1);
+			Date lastDate = cal.getTime();
+			
 			for (int i = 0; i < blogEntries.size(); i++) {
 				UserBlogEntry blogEntry = (UserBlogEntry) blogEntries.get(i);
+				Date createDate = blogEntry.getCreateDate();
+				if (lastDate.before(createDate)) {
+					lastDate = createDate;
+				}
+					
 				String body = blogEntry.getBody();				
 				String content = extractContent(body);				
 				outBuffer.append(content).append("\n");
 			}
 	        
 	        String out = outBuffer.toString();
+	        String timeline = ConvertUtil.convertDateToString("yyyyMMdd", lastDate);
 
 	        File outFile = new File(fileDir, "doc-" + userId + ".txt");
 	        //log.info("writing to file = {}", outFile);
 	        System.out.println("writing to file = " + outFile);
 	        
 	        FileWriter writer = new FileWriter(outFile);
+	        writer.write(timeline + "\n");
 	        writer.write(out);
 	        writer.close();
 	        outBuffer.setLength(0);	        

@@ -21,6 +21,7 @@ import org.apache.lucene.document.Field;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
+import org.firebird.common.util.ConvertUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -772,8 +773,10 @@ public class DocIndexWriter {
 				
 		        // first line is the user id, rest from 3rd line is the body
 		        BufferedReader reader = new BufferedReader(textReader);
+		        String timeline = reader.readLine();
 		        String userId = reader.readLine();
 		        //log.info("userId == {}", userId);
+		        System.out.println("timeline == " + timeline);
 		        System.out.println("userId == " + userId);
 		        reader.readLine();// skip an empty line
 
@@ -791,6 +794,8 @@ public class DocIndexWriter {
 				document.add(new Field("user", userId, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
 				document.add(new Field("body", bodyBuffer.toString(), Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.YES));
 				document.add(new Field("path", textFiles[i].getPath(), Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
+				document.add(new Field("timeline", timeline, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
+				document.add(new Field("indexDate", ConvertUtil.convertDateToString("yyyyMMdd", new Date()), Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
 				indexWriter.addDocument(document);
 			}
 		}

@@ -80,7 +80,7 @@ public class TextAnalysisTest extends TestCase
     		*/
     		// Print LDA topics
     		LDATopics ldaTopics = new LDATopics();
-    		ldaTopics.printTopics("D:/firebird/lda/state-40", 
+    		ldaTopics.writeEachTopics("D:/firebird/lda/state-40", 
     					"D:/firebird/dict.txt", 
     					"D:/firebird/topics/", 
     					50, 

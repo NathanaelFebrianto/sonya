@@ -5,6 +5,7 @@
 package org.firebird.analyzer.text;
 
 import java.util.List;
+import java.util.Map;
 
 import org.firebird.io.model.UserBlogEntry;
 import org.firebird.io.service.UserBlogEntryManager;
@@ -24,6 +25,7 @@ public class TextAnalysisJob {
 
 	public static void main(String[] args) {
     	try {    		
+
     		// 1. write source document files
     		DocSourceWriter sourceWriter = new DocSourceWriter("D:/firebird/text/");
     		
@@ -65,13 +67,40 @@ public class TextAnalysisJob {
     					-1, 							// topicSmoothing
     					40, 							// maxIter
     					2);								// numReducers
-    		// 5. print LDA topics
+    		
+    		// 5. print and write LDA topics
     		LDATopics ldaTopics = new LDATopics();
-    		ldaTopics.printTopics("D:/firebird/lda/state-40",	// input
+    		ldaTopics.writeEachTopics("D:/firebird/lda/state-40",	// input
     					"D:/firebird/dict.txt", 				// dictFile
     					"D:/firebird/topics/", 					// output
     					50, 									// numWords
     					null);									// dictType
+    		ldaTopics.writeTopics("D:/firebird/lda/state-40",	// input
+						"D:/firebird/dict.txt", 				// dictFile
+						"D:/firebird/topics.txt", 				// output
+						50, 									// numWords
+						null);									// dictType
+ 
+    		// 6. search users and write users by topics
+    		List<String> topicWords = ldaTopics.getUniqueWords("D:/firebird/lda/state-40",// input
+					"D:/firebird/dict.txt", 					// dictFile
+					50, 										// numWords
+					null);										// dictType
+    		
+    		DocIndexSearcher docSearcher = new DocIndexSearcher("D:/firebird/index/");
+    		docSearcher.write("D:/firebird/users.txt", topicWords);
+    		
+    		// 7. write topic-user
+    		Map<Integer, List<TopicWord>> mapTopics = ldaTopics.getTopics("D:/firebird/lda/state-40",// input
+								"D:/firebird/dict.txt", 		// dictFile
+								50, 							// numWords
+								null);							// dictType
+    		Map<String, List<UserWord>> mapUsers = docSearcher.searchUsers(topicWords);
+    		
+    		TopicUserWriter topicUserWriter = new TopicUserWriter();
+    		topicUserWriter.write("D:/firebird/topic_users.txt", 
+    							  mapTopics, 
+    							  mapUsers);
     		
      	} catch (Exception e) {
         	e.printStackTrace();
