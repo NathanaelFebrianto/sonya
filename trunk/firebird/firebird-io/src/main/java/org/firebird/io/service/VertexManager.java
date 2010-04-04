@@ -52,4 +52,11 @@ public interface VertexManager extends GenericManager {
      * @param vertex the vertex score
      */
 	public void setVertexScore(Vertex vertex);
+	
+	/**
+     * Updates a vertex cluster.
+     *
+     * @param vertex the vertex cluster
+     */
+	public void setVertexCluster(Vertex vertex);
 }

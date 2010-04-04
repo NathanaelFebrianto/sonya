@@ -24,7 +24,8 @@
 		<result property="betweennessCentrality" column="betweenness_centrality" />
 		<result property="closenessCentrality" column="closeness_centrality" />
 		<result property="eigenvectorCentrality" column="eigenvector_centrality" />
-		<result property="clusteringCoefficient" column="clustering_coefficient" />
+		<result property="edgeBetweennessCluster" column="edge_betweenness_cluster" />
+		<result property="voltageCluster" column="voltage_cluster" />
 		<result property="friendsCount" column="friends_count" />
 		<result property="followersCount" column="followers_count" />
 		<result property="userNo" column="user_no" />
@@ -47,7 +48,48 @@
 
 	<select id="selectVertices" parameterType="int" resultMap="vertexResultMap">
 		SELECT
-		*
+			website_id,
+			vertex_id,
+			vertex_no,
+			vertex_name,
+			<!--  
+			color,
+			shape,
+			size,
+			opacity,
+			image_file,
+			-->
+			degree,
+			in_degree,
+			out_degree,
+			page_rank,
+			authority,
+			hub,
+			betweenness_centrality,
+			closeness_centrality,
+			eigenvector_centrality,
+			edge_betweenness_cluster,
+			voltage_cluster,
+			friends_count,
+			followers_count,
+			user_no,
+			user_id,
+			<!--
+			user_name,
+			user_url,
+			blog_entry_count,
+			last_blog_entry_id,
+			last_blog_entry_body,
+			last_blog_entry_type,
+			last_blog_entry_create_date,
+			last_blog_entry_reply_to,
+			last_blog_entry_dm_to,
+			last_blog_entry_refer_from,
+			-->
+			create_date,
+			last_update_date,
+			col_create_date,
+			col_last_update_date
 		FROM vertex
 		WHERE website_id = #{websiteId}
 	</select>
@@ -74,9 +116,6 @@
 		<if test="eigenvectorCentrality != null">
 			AND eigenvector_centrality >= #{eigenvectorCentrality,javaType=double,jdbcType=DOUBLE}
 		</if>
-		<if test="clusteringCoefficient != null">
-			AND clustering_coefficient >= #{clusteringCoefficient,javaType=double,jdbcType=DOUBLE}
-		</if>
 	</select>
 
 	<insert id="insertVertex" parameterType="org.firebird.io.model.Vertex">
@@ -95,7 +134,8 @@
 			, betweenness_centrality
 			, closeness_centrality
 			, eigenvector_centrality
-			, clustering_coefficient
+			, edge_betweenness_cluster
+			, voltage_cluster
 			, friends_count
 			, followers_count
 			, user_no
@@ -130,7 +170,8 @@
 			, #{betweennessCentrality,javaType=double,jdbcType=DOUBLE}
 			, #{closenessCentrality,javaType=double,jdbcType=DOUBLE}
 			, #{eigenvectorCentrality,javaType=double,jdbcType=DOUBLE}
-			, #{clusteringCoefficient,javaType=double,jdbcType=DOUBLE}
+			, #{edgeBetweennessCluster,javaType=int,jdbcType=NUMERIC}
+			, #{voltageCluster,javaType=int,jdbcType=NUMERIC}
 			, #{friendsCount,javaType=int,jdbcType=NUMERIC}
 			, #{followersCount,javaType=int,jdbcType=NUMERIC}
 			, #{userNo,javaType=int,jdbcType=NUMERIC}
@@ -174,6 +215,15 @@
 			, betweenness_centrality = #{betweennessCentrality}
 			, closeness_centrality = #{closenessCentrality}
 			, eigenvector_centrality = #{eigenvectorCentrality}
+		WHERE
+			website_id = #{websiteId}
+			AND vertex_id = #{id}
+	</update>
+
+	<update id="updateVertexCluster" parameterType="org.firebird.io.model.Vertex">
+		UPDATE vertex SET
+			  edge_betweenness_cluster = #{edgeBetweennessCluster}
+			, voltage = #{voltageCluster}
 		WHERE
 			website_id = #{websiteId}
 			AND vertex_id = #{id}
