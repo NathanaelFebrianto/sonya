@@ -10,8 +10,12 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
@@ -103,9 +107,123 @@ public class LDATopics {
 	 * 			The dictionary file type (text|sequencefile)
 	 * @exception
 	 */
-	public void printTopics(String input,
+	public void writeEachTopics(String input,
 							String dictFile,
 							String output,
+							int numWords,
+							String dictType) throws Exception {
+	      
+		Map<Integer, List<TopicWord>> topWords = this.getTopics(input, dictFile, numWords, dictType);	
+
+		if (output != null && !output.equals("")) {
+			File outputDir = new File(output);
+			if (!outputDir.exists()) {
+				if (!outputDir.mkdirs()) {
+					throw new IOException("Could not create directory: " + output);
+				}
+			}
+			writeTopWords(topWords, outputDir);
+			// print also by louie
+			printTopWords(topWords);
+		} else {
+			printTopWords(topWords);
+		}
+	}
+
+	/**
+	 * Prints out the top K words for each topic in a single file.
+	 * 
+	 * @param input
+	 * 			The path to an LDA output (a state)
+	 * @param dictFile
+	 * 			The dictionary to read in, in the same format as one created by 
+     *     		org.apache.mahout.utils.vectors.lucene.Driver
+	 * @param output
+	 * 			The output directory to write top words
+	 * @param numWords
+	 * 			The number of words to print
+	 * @param dictType
+	 * 			The dictionary file type (text|sequencefile)
+	 * @exception
+	 */
+	public void writeTopics(String input,
+							String dictFile,
+							String outputFile,
+							int numWords,
+							String dictType) throws Exception {
+	      
+		Map<Integer, List<TopicWord>> topics = this.getTopics(input, dictFile, numWords, dictType);		
+
+		File out = new File(outputFile);
+		PrintWriter writer = new PrintWriter(new FileWriter(out));
+
+		writer.println("#topic_id	word	score");
+
+		Iterator<Integer> it = topics.keySet().iterator();
+		while (it.hasNext()) {
+			Object topicId = it.next();
+			List<TopicWord> topicWords = (List<TopicWord>) topics.get(topicId);
+			for (TopicWord topicWord : topicWords) {
+				writer.println(topicId + "\t" + topicWord.getWord() + "\t"
+						+ topicWord.getScore());
+			}
+		}
+		writer.close();
+	}
+
+	/**
+	 * Gets the unique words in topics.
+	 * 
+	 * @param input
+	 * 			The path to an LDA output (a state)
+	 * @param dictFile
+	 * 			The dictionary to read in, in the same format as one created by 
+     *     		org.apache.mahout.utils.vectors.lucene.Driver
+	 * @param numWords
+	 * 			The number of words to print
+	 * @param dictType
+	 * 			The dictionary file type (text|sequencefile)
+	 * @return List<String> the list of unique words
+	 * @exception
+	 */
+	public List<String> getUniqueWords(String input,
+							String dictFile,
+							int numWords,
+							String dictType) throws Exception {
+		
+		Map<Integer, List<TopicWord>> topics = this.getTopics(input, dictFile, numWords, dictType);		
+		List<String> result = new ArrayList<String>();
+
+		Iterator<Integer> it = topics.keySet().iterator();
+		while (it.hasNext()) {
+			Object topicId = it.next();
+			List<TopicWord> topicWords = (List<TopicWord>) topics.get(topicId);
+			for (TopicWord topicWord : topicWords) {
+				if (!result.contains(topicWord.getWord()))
+					result.add(topicWord.getWord());
+			}
+		}
+		
+		return result;
+	}
+
+	/**
+	 * Gets the top K words for each topic.
+	 * 
+	 * @param input
+	 * 			The path to an LDA output (a state)
+	 * @param dictFile
+	 * 			The dictionary to read in, in the same format as one created by 
+     *     		org.apache.mahout.utils.vectors.lucene.Driver
+	 * @param numWords
+	 * 			The number of words to print
+	 * @param dictType
+	 * 			The dictionary file type (text|sequencefile)
+	 * @return Map<Integer, List<TopicWord>> the map of topic word
+	 * @exception
+	 */
+	public Map<Integer, List<TopicWord>> getTopics(String input,
+							String dictFile,
 							int numWords,
 							String dictType) throws Exception {
 	      
@@ -129,23 +247,28 @@ public class LDATopics {
 			throw new IllegalArgumentException("Invalid dictionary format");
 		}
 
-		List<List<String>> topWords = topWordsForTopics(input, config, wordList, numWords);
+		List<List<StringDoublePair>> topWords = topWordsForTopics(input, config, wordList, numWords);
 
-		if (output != null && !output.equals("")) {
-			File outputDir = new File(output);
-			if (!outputDir.exists()) {
-				if (!outputDir.mkdirs()) {
-					throw new IOException("Could not create directory: " + output);
-				}
-			}
-			writeTopWords(topWords, outputDir);
-			// print also by louie
-			printTopWords(topWords);
-		} else {
-			printTopWords(topWords);
+		Map<Integer, List<TopicWord>> result = new HashMap<Integer, List<TopicWord>>();
+		for (int i = 0; i < topWords.size(); ++i) {
+			List<StringDoublePair> topK = topWords.get(i);
+			List<TopicWord> topicWords = new ArrayList<TopicWord>();
+			
+			for (StringDoublePair sdp : topK) {
+				TopicWord topicWord = new TopicWord();
+				topicWord.setTopicId(i);
+				topicWord.setWord(sdp.word);
+				topicWord.setScore(sdp.score);				
+				topicWords.add(topicWord);
+			}			
+			// sort by score
+			Collections.sort(topicWords);
+			result.put(Integer.valueOf(i), topicWords);
 		}
+		
+		return result;
 	}
-
+	
 	// Adds the word if the queue is below capacity, or the score is high enough
 	private void maybeEnqueue(Queue<StringDoublePair> q, String word,
 			double score, int numWordsToPrint) {
@@ -157,20 +280,37 @@ public class LDATopics {
 		}
 	}
 
-	private void printTopWords(List<List<String>> topWords) {
-		for (int i = 0; i < topWords.size(); ++i) {
-			List<String> topK = topWords.get(i);
-			System.out.println("Topic " + i);
+	private void printTopWords(Map<Integer, List<TopicWord>> topWords) {
+		Iterator<Integer> it = topWords.keySet().iterator();
+		while (it.hasNext()) {
+			Object topicId = it.next();
+			List<TopicWord> topK = (List<TopicWord>) topWords.get(topicId);
+			System.out.println("Topic " + topicId);
 			System.out.println("===========");
-			for (String word : topK) {
-				System.out.println(word);
+			for (TopicWord topicWord : topK) {
+				System.out.println(topicWord.getWord());
 			}
 		}
 	}
 
-	public List<List<String>> topWordsForTopics(String dir,
-			Configuration job, List<String> wordList, int numWordsToPrint)
-			throws IOException {
+	private void writeTopWords(Map<Integer, List<TopicWord>> topWords, File output) throws IOException {
+		Iterator<Integer> it = topWords.keySet().iterator();
+		while (it.hasNext()) {
+			Object topicId = it.next();
+			List<TopicWord> topK = (List<TopicWord>) topWords.get(topicId);
+			File out = new File(output, "topic-" + topicId);
+			PrintWriter writer = new PrintWriter(new FileWriter(out));
+			writer.println("Topic " + topicId);
+			writer.println("===========");
+			for (TopicWord topicWord : topK) {
+				writer.println(topicWord.getWord());
+			}
+			writer.close();
+		}
+	}
+	
+	private List<List<StringDoublePair>> topWordsForTopics(String dir,
+			Configuration job, List<String> wordList, int numWordsToPrint) throws IOException {
 		FileSystem fs = new Path(dir).getFileSystem(job);
 
 		List<PriorityQueue<StringDoublePair>> queues = new ArrayList<PriorityQueue<StringDoublePair>>();
@@ -194,30 +334,17 @@ public class LDATopics {
 			reader.close();
 		}
 
-		List<List<String>> result = new ArrayList<List<String>>();
+		List<List<StringDoublePair>> result = new ArrayList<List<StringDoublePair>>();
 		for (int i = 0; i < queues.size(); ++i) {
-			result.add(i, new LinkedList<String>());
+			result.add(i, new LinkedList<StringDoublePair>());
 			for (StringDoublePair sdp : queues.get(i)) {
 				//result.get(i).add(0, sdp.word); // prepend
-				result.get(i).add(0, sdp.word + "\t" + sdp.score); // by louie
+				//result.get(i).add(0, sdp.word + "\t" + sdp.score); // by louie
+				result.get(i).add(0, sdp);
 			}
 		}
 
 		return result;
-	}
-
-	private void writeTopWords(List<List<String>> topWords, File output) throws IOException {
-		for (int i = 0; i < topWords.size(); ++i) {
-			List<String> topK = topWords.get(i);
-			File out = new File(output, "topic-" + i);
-			PrintWriter writer = new PrintWriter(new FileWriter(out));
-			writer.println("Topic " + i);
-			writer.println("===========");
-			for (String word : topK) {
-				writer.println(word);
-			}
-			writer.close();
-		}
 	}
 	
 }
