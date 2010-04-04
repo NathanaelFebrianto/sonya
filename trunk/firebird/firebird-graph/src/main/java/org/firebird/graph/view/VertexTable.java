@@ -84,7 +84,8 @@ public class VertexTable extends GraphTable {
 				UIHandler.getText("col.vertex.betweennessCentrality"),
 				UIHandler.getText("col.vertex.closenessCentrality"),
 				UIHandler.getText("col.vertex.eigenvectorCentrality"),
-				UIHandler.getText("col.vertex.clusteringCoefficient"),
+				UIHandler.getText("col.vertex.edgeBetweennessCluster"),
+				UIHandler.getText("col.vertex.voltageCluster"),
 				UIHandler.getText("col.vertex.friendsCount"),
 				UIHandler.getText("col.vertex.followersCount"),
 				//UIHandler.getText("col.vertex.userNo"),
@@ -115,11 +116,12 @@ public class VertexTable extends GraphTable {
 		setNumberCellRenderer(9, "###,###");
 		setNumberCellRenderer(10, "###,###");
 		setNumberCellRenderer(11, "###,###");
-		setNumberCellRenderer(12, "0.00");
-		setNumberCellRenderer(13, "###,###");
+		setNumberCellRenderer(12, "######");
+		setNumberCellRenderer(13, "######");
 		setNumberCellRenderer(14, "###,###");
-		setNumberCellRenderer(16, "###,###");
-		setDateCellRenderer(18, "yyyy-MM-dd");
+		setNumberCellRenderer(15, "###,###");
+		setNumberCellRenderer(17, "###,###");
+		setDateCellRenderer(19, "yyyy-MM-dd");
 	}
 
 	/**
@@ -148,7 +150,8 @@ public class VertexTable extends GraphTable {
 	        rowData.add(convertScale(vertex.getBetweennessCentrality(), 0));
 	        rowData.add(convertScale(vertex.getClosenessCentrality(), 0));
 	        rowData.add(convertScale(vertex.getEigenvectorCentrality(), 0));
-	        rowData.add(convertScale(vertex.getClusteringCoefficient(), 2));
+	        rowData.add(vertex.getEdgeBetweennessCluster());
+	        rowData.add(vertex.getVoltageCluster());
 	        rowData.add(vertex.getFriendsCount());
 	        rowData.add(vertex.getFollowersCount());
 	        //rowData.add(vertex.getUserNo());
