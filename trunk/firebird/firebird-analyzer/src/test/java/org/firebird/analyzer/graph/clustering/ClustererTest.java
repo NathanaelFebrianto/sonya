@@ -57,9 +57,9 @@ public class ClustererTest extends TestCase
     		Clusterer clusterer = new Clusterer(graph);
     		
     		// EdgeBetweenness Clusterer
-    		
+    		/*
     		System.out.println("Start Clustering : " + Calendar.getInstance().getTime());
-    		int numEdgesToRemove = 500;
+    		int numEdgesToRemove = 1000;
     		Set<Set<Vertex>> clusterSet = clusterer.clusterByEdgeBetweennessClusterer(numEdgesToRemove);
     		System.out.println("Finish Clustering : " + Calendar.getInstance().getTime());
     		int cluster = 0;
@@ -73,7 +73,7 @@ public class ClustererTest extends TestCase
     			}
     			cluster++;
     		}
-    		
+    		*/
     		
     		// Voltage Clusterer
     		/*

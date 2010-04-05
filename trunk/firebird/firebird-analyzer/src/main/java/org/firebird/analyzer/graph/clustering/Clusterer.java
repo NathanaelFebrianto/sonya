@@ -49,8 +49,8 @@ public final class Clusterer {
 	 * @return Set<Set<Vertex>> the set of vertex
 	 */
 	public Set<Set<Vertex>> clusterByEdgeBetweennessClusterer(int numEdgesToRemove) {
-		EdgeBetweennessClusterer<Vertex, Edge> ebClusterer = new EdgeBetweennessClusterer<Vertex, Edge>(numEdgesToRemove);
-		Set<Set<Vertex>> set = ebClusterer.transform(graph);
+		EdgeBetweennessClusterer<Vertex, Edge> clusterer = new EdgeBetweennessClusterer<Vertex, Edge>(numEdgesToRemove);
+		Set<Set<Vertex>> set = clusterer.transform(graph);
 		
 		return set;
 	}
@@ -61,8 +61,8 @@ public final class Clusterer {
 	 * @return Collection<Set<Vertex>> the collection of vertex
 	 */
 	public Collection<Set<Vertex>> clusterByVoltageClusterer(int numCandidates, int numClusters) {
-		VoltageClusterer<Vertex, Edge> voClusterer = new VoltageClusterer<Vertex, Edge>(graph, numCandidates);
-		Collection<Set<Vertex>> collection = voClusterer.cluster(numClusters);
+		VoltageClusterer<Vertex, Edge> clusterer = new VoltageClusterer<Vertex, Edge>(graph, numCandidates);
+		Collection<Set<Vertex>> collection = clusterer.cluster(numClusters);
 		return collection;
 	}
 
