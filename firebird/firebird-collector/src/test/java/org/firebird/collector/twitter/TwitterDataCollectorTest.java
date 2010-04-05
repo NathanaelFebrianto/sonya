@@ -56,6 +56,7 @@ public class TwitterDataCollectorTest extends TestCase
         	*/
         	
         	// test to collect blog entries
+        	/*
         	CollectorConfig config = new CollectorConfig();
         	config.setDBStorage(true);
         	config.setCollectUserBlogEntry(true);
@@ -67,7 +68,7 @@ public class TwitterDataCollectorTest extends TestCase
         	cond.setAuthority(0.01);        	
         	List<String> screenNames = vertexManager.getVertexIdsByScoringCondition(cond); 
            	collector.collectBlogEntries(screenNames);     
-           	   	
+           	*/
         } catch (Exception ex) {
         	ex.printStackTrace();
         }
