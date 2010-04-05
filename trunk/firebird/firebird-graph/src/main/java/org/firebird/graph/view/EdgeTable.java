@@ -91,7 +91,7 @@ public class EdgeTable extends GraphTable {
 				//UIHandler.getText("col.edge.lastDmDate"),
 				//UIHandler.getText("col.edge.lastReferDate"),
 				//UIHandler.getText("col.edge.createDate"),
-				UIHandler.getText("col.edge.lastUpdateDate"),
+				//UIHandler.getText("col.edge.lastUpdateDate"),
 				//UIHandler.getText("col.edge.colCreateDate"),
 				//UIHandler.getText("col.edge.colLastUpdateDate")
 		};
@@ -102,7 +102,7 @@ public class EdgeTable extends GraphTable {
 	private void setCellRenders() {
 		setNumberCellRenderer(0, "######");
 		setNumberCellRenderer(3, "###,###");
-		setDateCellRenderer(4, "yyyy-MM-dd");
+		//setDateCellRenderer(4, "yyyy-MM-dd");
 	}
 	
 	/**
@@ -120,7 +120,7 @@ public class EdgeTable extends GraphTable {
 	        rowData.add(edge.getVertex1());
 	        rowData.add(edge.getVertex2());
 	        rowData.add(convertScale(edge.getBetweennessCentrality(), 0));
-	        rowData.add(edge.getLastUpdateDate());
+	        //rowData.add(edge.getLastUpdateDate());
 	        
 	        tableModel.insertRow(row, rowData);
 	    }		
