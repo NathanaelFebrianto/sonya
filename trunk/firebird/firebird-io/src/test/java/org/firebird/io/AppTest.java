@@ -41,6 +41,7 @@ public class AppTest
     {
     	assertTrue( true );
     	
+    	/*
     	EdgeManager edgeManager = new EdgeManagerImpl();
     	List<Edge> edges = edgeManager.getEdges(1, 1);
     	
@@ -50,6 +51,7 @@ public class AppTest
     		Edge edge = (Edge)edges.get(i);
     		System.out.println("edge == " + edge.getVertex1() + "->" + edge.getVertex2());
     	}
+    	*/
 
     	/*
     	SqlSessionFactory sqlSessionFactory = GenericSqlSessionFactory.getSqlSessionFactory();
