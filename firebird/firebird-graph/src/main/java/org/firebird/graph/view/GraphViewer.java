@@ -80,7 +80,8 @@ public class GraphViewer extends VisualizationViewer<org.firebird.io.model.Verte
 		getRenderContext().setVertexLabelTransformer(
 				new Transformer<org.firebird.io.model.Vertex, String>() {
 					public String transform(org.firebird.io.model.Vertex v) {
-						return v.getUserName();
+						//return v.getUserName();
+						return v.getId();
 					}
 				});
 		
