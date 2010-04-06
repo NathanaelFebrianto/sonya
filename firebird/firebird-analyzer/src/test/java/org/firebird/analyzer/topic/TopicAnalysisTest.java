@@ -1,17 +1,17 @@
-package org.firebird.analyzer.text;
+package org.firebird.analyzer.topic;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-public class TextAnalysisTest extends TestCase
+public class TopicAnalysisTest extends TestCase
 {
     /**
      * Create the test case
      *
      * @param testName name of the test case
      */
-    public TextAnalysisTest(String testName) {
+    public TopicAnalysisTest(String testName) {
         super(testName);
     }
 
@@ -19,7 +19,7 @@ public class TextAnalysisTest extends TestCase
      * @return the suite of tests being tested
      */
     public static Test suite() {
-        return new TestSuite(TextAnalysisTest.class);
+        return new TestSuite(TopicAnalysisTest.class);
     }
 
     /**
