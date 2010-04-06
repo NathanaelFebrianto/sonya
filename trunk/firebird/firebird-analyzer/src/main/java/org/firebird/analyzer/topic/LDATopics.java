@@ -2,7 +2,7 @@
  * Copyright (c) 2009-2010, Young-Gue Bae
  * All rights reserved.
  */
-package org.firebird.analyzer.text;
+package org.firebird.analyzer.topic;
 
 import java.io.File;
 import java.io.FileWriter;
