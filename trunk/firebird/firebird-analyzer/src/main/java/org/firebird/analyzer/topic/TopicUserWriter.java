@@ -9,7 +9,6 @@ import java.io.FileWriter;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -37,27 +36,27 @@ public class TopicUserWriter {
 	 * @throws Exception
 	 */
 	public void write(String outputFile, 
-					  Map<Integer, List<TopicWord>> topics, 
-					  Map<String, List<UserWord>> users) throws Exception {
+					  Map<Integer, List<TopicTerm>> topics, 
+					  Map<String, List<UserTerm>> users) throws Exception {
 		
 		File out = new File(outputFile);
 		PrintWriter writer = new PrintWriter(new FileWriter(out));
 
-		writer.println("#topic_id	user_id	user_match_words_count	score	topic_words	user_match_words");
+		writer.println("#topic_id	user_id	user_match_terms_count	score	topic_terms	user_match_terms");
 		
 		Iterator<Integer> it1 = topics.keySet().iterator();
 		while (it1.hasNext()) {
 			Integer topicId = (Integer) it1.next();
-			List<TopicWord> topicWords = (List<TopicWord>) topics.get(topicId);
+			List<TopicTerm> topicTerms = (List<TopicTerm>) topics.get(topicId);
 			Iterator<String> it2 = users.keySet().iterator();
 			
 			List<TopicUser> topicUsers = new ArrayList<TopicUser>();
 			
 			while (it2.hasNext()) {
 				String userId = (String) it2.next();
-				List<UserWord> userWords = (List<UserWord>) users.get(userId);
+				List<UserTerm> userTerms = (List<UserTerm>) users.get(userId);
 				
-				TopicUser topicUser = this.getTopicUser(topicId.intValue(), userId, topicWords, userWords);
+				TopicUser topicUser = this.getTopicUser(topicId.intValue(), userId, topicTerms, userTerms);
 				if (topicUser != null) {
 					topicUsers.add(topicUser);
 				}					
@@ -67,10 +66,10 @@ public class TopicUserWriter {
 			for (TopicUser topicUser : topicUsers) {
 				writer.println(topicUser.getTopicId() + "\t" +
 							   topicUser.getUserId() + "\t" +
-							   topicUser.getUserMatchWordsCount() + "\t" +
+							   topicUser.getUserMatchTermsCount() + "\t" +
 							   topicUser.getScore() + "\t" +
-							   topicUser.toTopicWordsString() + "\t" +
-							   topicUser.toUserMatchWordsString());
+							   topicUser.toTopicTermsString() + "\t" +
+							   topicUser.toUserMatchTermsString());
 			}			
 		}
 		writer.close();
@@ -78,26 +77,26 @@ public class TopicUserWriter {
 	
 	private TopicUser getTopicUser(int topicId, 
 								   String userId,
-								   List<TopicWord> topicWords, 
-								   List<UserWord> userWords) throws Exception {
+								   List<TopicTerm> topicTerms, 
+								   List<UserTerm> userTerms) throws Exception {
 		TopicUser topicUser = new TopicUser();
 		topicUser.setTopicId(topicId);
 		topicUser.setUserId(userId);
-		topicUser.setTopicWords(topicWords);
-		List<UserWord> userMatchWords = topicUser.findUserMatchWords(userWords);
-		if (userMatchWords.size() == 0) {
+		topicUser.setTopicTerms(topicTerms);
+		List<UserTerm> userMatchTerms = topicUser.findUserMatchTerms(userTerms);
+		if (userMatchTerms.size() == 0) {
 			return null;
 		}
-		topicUser.setUserMatchWords(userMatchWords);
-		topicUser.setUserMatchWordsCount(userMatchWords.size());
+		topicUser.setUserMatchTerms(userMatchTerms);
+		topicUser.setUserMatchTermsCount(userMatchTerms.size());
 		float score = topicUser.calculateScore();
 		topicUser.setScore(score);
 		
 		System.out.println("------------------------------------------");
 		System.out.println("topic id == " + topicId);
 		System.out.println("user id == " + userId);
-		System.out.println("topic words == " + topicUser.toTopicWordsString());
-		System.out.println("user match words == " + topicUser.toUserMatchWordsString());
+		System.out.println("topic terms == " + topicUser.toTopicTermsString());
+		System.out.println("user match terms == " + topicUser.toUserMatchTermsString());
 		
 		return topicUser;
 	}

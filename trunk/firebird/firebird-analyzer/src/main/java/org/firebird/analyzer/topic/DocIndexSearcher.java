@@ -49,61 +49,61 @@ public class DocIndexSearcher {
 	}
 	
 	/**
-	 * Writes the users' topic words.
+	 * Writes the users' topic terms.
 	 * 
-	 * @param topicWords the list of unique topic words
+	 * @param topicTerms the list of unique topic terms
 	 * @exception
 	 */
-	public void write(String outputFile, List<String> topicWords) throws Exception {
-		Map<String, List<UserWord>> searchedUsers = searchUsers(topicWords);
+	public void write(String outputFile, List<String> topicTerms) throws Exception {
+		Map<String, List<UserTerm>> searchedUsers = searchUsers(topicTerms);
 
 		File out = new File(outputFile);
 		PrintWriter writer = new PrintWriter(new FileWriter(out));
 
-		writer.println("#user_id	doc_id	word	term_freq	tf	idf	timeline");		
+		writer.println("#user_id	doc_id	term	term_freq	tf	idf	timeline");		
 	
 		Iterator<String> it = searchedUsers.keySet().iterator();
 		while (it.hasNext()) {
 			Object topicId = it.next();
-			List<UserWord> users = (List<UserWord>) searchedUsers.get(topicId);	
+			List<UserTerm> users = (List<UserTerm>) searchedUsers.get(topicId);	
 			
 			// sort by TF
 			Collections.sort(users);
 			
-			for (UserWord userWord : users) {
-				writer.println(userWord.getUserId() + "\t" + 
-							   userWord.getDocId() + "\t" + 
-							   userWord.getWord() + "\t" + 
-							   userWord.getTermFreq() + "\t" + 
-							   userWord.getTF() + "\t" + 
-							   userWord.getIDF() + "\t" + 
-							   userWord.getTimeline());
+			for (UserTerm userTerm : users) {
+				writer.println(userTerm.getUserId() + "\t" + 
+							   userTerm.getDocId() + "\t" + 
+							   userTerm.getTerm() + "\t" + 
+							   userTerm.getTermFreq() + "\t" + 
+							   userTerm.getTF() + "\t" + 
+							   userTerm.getIDF() + "\t" + 
+							   userTerm.getTimeline());
 			}
 		}
 		writer.close();
 	}
 
 	/**
-	 * Searches the users' topic words.
+	 * Searches the users' topic terms.
 	 * 
-	 * @param topicWords the list of unique topic words
-	 * @return Map<String, List<UserWord>> the user word list by each user
+	 * @param topicTerms the list of unique topic terms
+	 * @return Map<String, List<UserTerm>> the user term list by each user
 	 * @exception
 	 */
-	public Map<String, List<UserWord>> searchUsers(List<String> topicWords) throws Exception {
-		Map<String, List<UserWord>> result = new HashMap<String, List<UserWord>>();
+	public Map<String, List<UserTerm>> searchUsers(List<String> topicTerms) throws Exception {
+		Map<String, List<UserTerm>> result = new HashMap<String, List<UserTerm>>();
 
-		for (String word : topicWords) {
-			List<UserWord> users = searchUsers(word);
+		for (String term : topicTerms) {
+			List<UserTerm> users = searchUsers(term);
 			
-			for (UserWord user : users) {
+			for (UserTerm user : users) {
 				String userId = user.getUserId();
 				if (result.containsKey(userId)) {
-					List<UserWord> sameUsers = (List<UserWord>)result.get(userId);
+					List<UserTerm> sameUsers = (List<UserTerm>)result.get(userId);
 					sameUsers.add(user);
 				}
 				else {
-					List<UserWord> sameUsers = new ArrayList<UserWord>();
+					List<UserTerm> sameUsers = new ArrayList<UserTerm>();
 					sameUsers.add(user);
 					result.put(userId, sameUsers);
 				}
@@ -113,8 +113,8 @@ public class DocIndexSearcher {
 		return result;
 	}
 	
-	private List<UserWord> searchUsers(String word) throws Exception {		
-		List<UserWord> result = new ArrayList<UserWord>();
+	private List<UserTerm> searchUsers(String word) throws Exception {		
+		List<UserTerm> result = new ArrayList<UserTerm>();
 		
 		Term term = new Term("body", word);
 		Query query = new TermQuery(term);
@@ -155,16 +155,16 @@ public class DocIndexSearcher {
 			//System.out.println("TF == " + tf);
 			//System.out.println("IDF == " + idf);
 			
-			UserWord userWord = new UserWord();
-			userWord.setDocId(docId);
-			userWord.setUserId(userId);
-			userWord.setWord(word);
-			userWord.setTermFreq(termFreq);
-			userWord.setTF(tf);
-			userWord.setIDF(idf);
-			userWord.setTimeline(timeline);
+			UserTerm userTerm = new UserTerm();
+			userTerm.setDocId(docId);
+			userTerm.setUserId(userId);
+			userTerm.setTerm(word);
+			userTerm.setTermFreq(termFreq);
+			userTerm.setTF(tf);
+			userTerm.setIDF(idf);
+			userTerm.setTimeline(timeline);
 			
-			result.add(userWord);
+			result.add(userTerm);
 		}
 		
 		return result;

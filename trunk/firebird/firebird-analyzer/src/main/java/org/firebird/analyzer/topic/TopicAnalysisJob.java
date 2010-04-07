@@ -69,7 +69,7 @@ public class TopicAnalysisJob {
     					-1, 							// topicSmoothing
     					40, 							// maxIter
     					2);								// numReducers
-    		
+   		
     		// 5. print and write LDA topics
     		LDATopics ldaTopics = new LDATopics();
     		ldaTopics.writeEachTopics(
@@ -86,22 +86,22 @@ public class TopicAnalysisJob {
 						null);							// dictType
  
     		// 6. search users and write users by topics
-    		List<String> topicWords = ldaTopics.getUniqueWords(
+    		List<String> topicTerms = ldaTopics.getUniqueTerms(
     					"D:/firebird/lda/state-40",		// input
     					"D:/firebird/dict.txt", 		// dictFile
     					50, 							// numWords
     					null);							// dictType
     		
     		DocIndexSearcher docSearcher = new DocIndexSearcher("D:/firebird/index/");
-    		docSearcher.write("D:/firebird/users.txt", topicWords);
+    		docSearcher.write("D:/firebird/users.txt", topicTerms);
     		
     		// 7. write topic-user
-    		Map<Integer, List<TopicWord>> mapTopics = ldaTopics.getTopics(
+    		Map<Integer, List<TopicTerm>> mapTopics = ldaTopics.getTopics(
     					"D:/firebird/lda/state-40",		// input
     					"D:/firebird/dict.txt", 		// dictFile
     					50, 							// numWords
     					null);							// dictType
-    		Map<String, List<UserWord>> mapUsers = docSearcher.searchUsers(topicWords);
+    		Map<String, List<UserTerm>> mapUsers = docSearcher.searchUsers(topicTerms);
     		
     		TopicUserWriter topicUserWriter = new TopicUserWriter();
     		topicUserWriter.write(

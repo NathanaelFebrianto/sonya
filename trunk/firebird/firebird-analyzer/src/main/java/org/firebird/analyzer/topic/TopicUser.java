@@ -5,8 +5,10 @@
 package org.firebird.analyzer.topic;
 
 import java.io.Serializable;
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -20,10 +22,14 @@ public class TopicUser implements Serializable ,Comparable<TopicUser> {
 	
 	private int topicId;
 	private String userId;	
-	private List<TopicWord> topicWords = null;
-	private List<UserWord> userMatchWords = null;
-	private int userMatchWordsCount;
+	private List<TopicTerm> topicTerms = null;
+	private List<UserTerm> userMatchTerms = null;
+	private String topicTermsString;
+	private String userMatchTermsString;
+	private int userMatchTermsCount;
 	private float score;
+	private Date createDate;
+	private Date lastUpdateDate;
 	
 	public int getTopicId() {
 		return topicId;
@@ -31,17 +37,29 @@ public class TopicUser implements Serializable ,Comparable<TopicUser> {
 	public String getUserId() {
 		return userId;
 	}
-	public List<TopicWord> getTopicWords() {
-		return topicWords;
+	public List<TopicTerm> getTopicTerms() {
+		return topicTerms;
 	}
-	public List<UserWord> getUserMatchWords() {
-		return userMatchWords;
+	public List<UserTerm> getUserMatchTerms() {
+		return userMatchTerms;
 	}
-	public int getUserMatchWordsCount() {
-		return userMatchWordsCount;
+	public String getTopicTermsString() {
+		return topicTermsString;
+	}
+	public String getUserMatchTermsString() {
+		return userMatchTermsString;
+	}
+	public int getUserMatchTermsCount() {
+		return userMatchTermsCount;
 	}
 	public float getScore() {
 		return score;
+	}
+	public Date getCreateDate() {
+		return createDate;
+	}
+	public Date getLastUpdateDate() {
+		return lastUpdateDate;
 	}
 	
 	public void setTopicId(int topicId) {
@@ -50,48 +68,60 @@ public class TopicUser implements Serializable ,Comparable<TopicUser> {
 	public void setUserId(String userId) {
 		this.userId = userId;
 	}
-	public void setTopicWords(List<TopicWord> topicWords) {
-		this.topicWords = topicWords;
+	public void setTopicTerms(List<TopicTerm> topicTerms) {
+		this.topicTerms = topicTerms;
 	}
-	public void setUserMatchWords(List<UserWord> userMatchWords) {
-		this.userMatchWords = userMatchWords;
+	public void setUserMatchTerms(List<UserTerm> userMatchTerms) {
+		this.userMatchTerms = userMatchTerms;
 	}
-	public void setUserMatchWordsCount(int userMatchWordsCount) {
-		this.userMatchWordsCount = userMatchWordsCount;
+	public void setTopicTermsString(String topicTermsString) {
+		this.topicTermsString = topicTermsString;
+	}
+	public void setUserMatchTermsString(String userMatchTermsString) {
+		this.userMatchTermsString = userMatchTermsString;
+	}
+	public void setUserMatchTermsCount(int userMatchTermsCount) {
+		this.userMatchTermsCount = userMatchTermsCount;
 	}
 	public void setScore(float score) {
 		this.score = score;
 	}
+	public void setCreateDate(Date createDate) {
+		this.createDate = createDate;
+	}
+	public void setLastUpdateDate(Date lastUpdateDate) {
+		this.lastUpdateDate = lastUpdateDate;
+	}
 	
-	public List<UserWord> findUserMatchWords(List<UserWord> userWords) throws Exception {
-		if (topicWords == null) {
-			throw new Exception("Topic Words is null.");
+	public List<UserTerm> findUserMatchTerms(List<UserTerm> userTerms) throws Exception {
+		if (topicTerms == null) {
+			throw new Exception("Topic Terms is null.");
 		}
 		
-		List<UserWord> result = new ArrayList<UserWord>();
+		List<UserTerm> result = new ArrayList<UserTerm>();
 		
-		for (int i = 0; i < userWords.size(); i++) {
-			UserWord userWord = (UserWord)userWords.get(i);
-			if (matchWithTopicWord(userWord)) {
-				result.add(userWord);
+		for (int i = 0; i < userTerms.size(); i++) {
+			UserTerm userTerm = (UserTerm)userTerms.get(i);
+			if (matchWithTopicTerm(userTerm)) {
+				result.add(userTerm);
 			}
 		}
-		this.userMatchWords = result;
-		return this.userMatchWords;
+		this.userMatchTerms = result;
+		return this.userMatchTerms;
 	}
 
 	public float calculateScore() throws Exception {
-		if (topicWords == null) {
-			throw new Exception("Topic Words is null.");
+		if (topicTerms == null) {
+			throw new Exception("Topic Terms is null.");
 		}
-		if (userMatchWords == null) {
-			throw new Exception("User Match Words is null.");
+		if (userMatchTerms == null) {
+			throw new Exception("User Match Terms is null.");
 		}
 		
 		float sumScore = 0.0f;
-		for (int i = 0; i < userMatchWords.size(); i++) {
-			UserWord userWord = (UserWord)userMatchWords.get(i);
-			float score = userWord.getTermFreq() * Float.valueOf(String.valueOf(getTopicWord(userWord.getWord()).getScore()));
+		for (int i = 0; i < userMatchTerms.size(); i++) {
+			UserTerm userTerm = (UserTerm)userMatchTerms.get(i);
+			float score = userTerm.getTermFreq() * Float.valueOf(String.valueOf(getTopicTerm(userTerm.getTerm()).getScore()));
 			sumScore += score;
 		}		
 		this.score = sumScore;
@@ -99,55 +129,59 @@ public class TopicUser implements Serializable ,Comparable<TopicUser> {
 		return this.score;
 	}
 	
-	public String toTopicWordsString() {
+	public String toTopicTermsString() {
 		StringBuffer sb = new StringBuffer();
 		
-		for (TopicWord topicWord : topicWords) {
-			sb.append(topicWord.getWord())
+		for (TopicTerm topicTerm : topicTerms) {
+			sb.append(topicTerm.getTerm())
 			  .append("(")
-			  .append(topicWord.getScore())
+			  .append(convertScale(topicTerm.getScore(), 2))
 			  .append(") ");
 		}		
 		return sb.toString();
 	}
 	
-	public String toUserMatchWordsString() {		
-		List<UserWordScore> sortedList = new ArrayList<UserWordScore>();
-		for (int i = 0; i < userMatchWords.size(); i++) {
-			UserWord userWord = (UserWord)userMatchWords.get(i);
-			//float score = userWord.getTermFreq() * Float.valueOf(String.valueOf(getTopicWord(userWord.getWord()).getScore()));
-			UserWordScore userWordScore = new UserWordScore(userWord, getTopicWord(userWord.getWord()));
-			sortedList.add(userWordScore);
+	public String toUserMatchTermsString() {		
+		List<UserTermScore> sortedList = new ArrayList<UserTermScore>();
+		for (int i = 0; i < userMatchTerms.size(); i++) {
+			UserTerm userTerm = (UserTerm)userMatchTerms.get(i);
+			//float score = userTerm.getTermFreq() * Float.valueOf(String.valueOf(getTopicTerm(userTerm.getTerm()).getScore()));
+			UserTermScore userTermScore = new UserTermScore(userTerm, getTopicTerm(userTerm.getTerm()));
+			sortedList.add(userTermScore);
 		}
 		// sort by score
 		Collections.sort(sortedList);
 		
 		StringBuffer sb = new StringBuffer();
-		for (UserWordScore userWordScore : sortedList) {
-			sb.append(userWordScore.getUserWord().getWord())
+		for (UserTermScore userTermScore : sortedList) {
+			sb.append(userTermScore.getUserTerm().getTerm())
 			  .append("(")
-			  .append(userWordScore.getScore())
+			  .append(convertScale(userTermScore.getScore(), 2))
 			  .append(") ");			
 		}
 		
 		return sb.toString();
 	}
 	
-	private boolean matchWithTopicWord(UserWord userWord) {
-		if (userWord == null)	return false;
+	private double convertScale(double d, int scale) {
+		return new BigDecimal(d).setScale(scale, BigDecimal.ROUND_HALF_UP).doubleValue();
+	}
+	
+	private boolean matchWithTopicTerm(UserTerm userTerm) {
+		if (userTerm == null)	return false;
 		
-		for (TopicWord topicWord : topicWords) {
-			if (topicWord.getWord().equals(userWord.getWord())) {
+		for (TopicTerm topicTerm : topicTerms) {
+			if (topicTerm.getTerm().equals(userTerm.getTerm())) {
 				return true;
 			}
 		}		
 		return false;
 	}
 	
-	private TopicWord getTopicWord(String word) {
-		for (TopicWord topicWord : topicWords) {
-			if (topicWord.getWord().equals(word)) {
-				return topicWord;
+	private TopicTerm getTopicTerm(String term) {
+		for (TopicTerm topicTerm : topicTerms) {
+			if (topicTerm.getTerm().equals(term)) {
+				return topicTerm;
 			}
 		}
 		return null;
@@ -160,26 +194,26 @@ public class TopicUser implements Serializable ,Comparable<TopicUser> {
 		return Float.compare(other.getScore(), score);
 	}
 	
-	private class UserWordScore implements Comparable<UserWordScore> {
-		UserWord userWord;
-		TopicWord topicWord;
+	private class UserTermScore implements Comparable<UserTermScore> {
+		UserTerm userTerm;
+		TopicTerm topicTerm;
 		float score = 0.0f;
 		
-		UserWordScore(UserWord userWord, TopicWord topicWord) {
-			this.userWord = userWord;
-			this.topicWord = topicWord;
+		UserTermScore(UserTerm userTerm, TopicTerm topicTerm) {
+			this.userTerm = userTerm;
+			this.topicTerm = topicTerm;
 		}
 		
-		private UserWord getUserWord() {
-			return this.userWord;
+		private UserTerm getUserTerm() {
+			return this.userTerm;
 		}
 		private float getScore() {
-			this.score = userWord.getTermFreq() * Float.valueOf(String.valueOf(topicWord.getScore()));
+			this.score = userTerm.getTermFreq() * Float.valueOf(String.valueOf(topicTerm.getScore()));
 			return this.score;
 		}
 
 		@Override
-		public int compareTo(UserWordScore other) {
+		public int compareTo(UserTermScore other) {
 			//return Float.compare(score, other.getScore());
 			//order by desc
 			return Float.compare(other.getScore(), score);

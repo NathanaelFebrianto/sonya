@@ -34,13 +34,13 @@ public class OutputFileReader {
 	public OutputFileReader() { }
 	
 	/**
-	 * Reads in a dictionary file. Format is: First line is the number of entries.
+	 * Reads words in a dictionary file. Format is: First line is the number of entries.
 	 * 
 	 * @param dictFile the dictionary file
-	 * @return List<Dictionary> the list of dictionary
+	 * @return List<Dictionary> the list of term in dictionary
 	 * @exception
 	 */
-	public static List<Dictionary> loadTermDictionary(File dictFile) throws IOException {
+	public static List<Dictionary> loadDictionary(File dictFile) throws IOException {
 		List<Dictionary> result = new ArrayList<Dictionary>();
 		
 		InputStream is = new FileInputStream(dictFile);
@@ -65,7 +65,7 @@ public class OutputFileReader {
 			
 			Dictionary dict = new Dictionary();
 			dict.setSeq(seq);
-			dict.setWord(term);
+			dict.setTerm(term);
 			dict.setDocFreq(docFreq);
 			
 			result.add(dict);
@@ -73,4 +73,131 @@ public class OutputFileReader {
 		return result;
 	}
 
+	/**
+	 * Reads topic terms in a topic file. Format is: First line is the column header.
+	 * 
+	 * @param topicFile the topic file
+	 * @return List<TopicTerm> the list of topic term
+	 * @exception
+	 */
+	public static List<TopicTerm> loadTopics(File topicFile) throws IOException {
+		List<TopicTerm> result = new ArrayList<TopicTerm>();
+		
+		InputStream is = new FileInputStream(topicFile);
+		FileLineIterator it = new FileLineIterator(is);
+
+		while (it.hasNext()) {
+			String line = it.next();
+			if (line.startsWith("#")) {
+				continue;
+			}
+			String[] tokens = OutputFileReader.TAB_PATTERN.split(line);
+			if (tokens.length < 3) {
+				continue;
+			}		
+			
+			int topicId = Integer.parseInt(tokens[0]);
+			String term = tokens[1];
+			double score = Double.parseDouble(tokens[2]);
+			
+			TopicTerm topicTerm = new TopicTerm();
+			topicTerm.setTopicId(topicId);
+			topicTerm.setTerm(term);
+			topicTerm.setScore(score);
+			
+			result.add(topicTerm);
+		}
+		return result;
+	}
+
+	/**
+	 * Reads user terms in a users file. Format is: First line is the column header.
+	 * 
+	 * @param usersFile the users file
+	 * @return List<UserTerm> the list of user term
+	 * @exception
+	 */
+	public static List<UserTerm> loadUsersTerms(File usersFile) throws IOException {
+		List<UserTerm> result = new ArrayList<UserTerm>();
+		
+		InputStream is = new FileInputStream(usersFile);
+		FileLineIterator it = new FileLineIterator(is);
+
+		while (it.hasNext()) {
+			String line = it.next();
+			if (line.startsWith("#")) {
+				continue;
+			}
+			String[] tokens = OutputFileReader.TAB_PATTERN.split(line);
+			if (tokens.length < 7) {
+				continue;
+			}
+			
+			String userId = tokens[0];
+			int docId = Integer.parseInt(tokens[1]);
+			String term = tokens[2];
+			int termFreq = Integer.parseInt(tokens[3]);
+			float tf = Float.parseFloat(tokens[4]);
+			float idf = Float.parseFloat(tokens[5]);
+			String timeline = tokens[6];
+			
+			UserTerm userTerm = new UserTerm();
+			userTerm.setUserId(userId);
+			userTerm.setDocId(docId);
+			userTerm.setTerm(term);
+			userTerm.setTermFreq(termFreq);
+			userTerm.setTF(tf);
+			userTerm.setIDF(idf);
+			userTerm.setTimeline(timeline);
+			
+			result.add(userTerm);
+		}
+		return result;
+	}
+	
+	/**
+	 * Reads topic users in a topic users file. Format is: First line is the column header.
+	 * 
+	 * @param topicUsersFile the topic users file
+	 * @return List<TopicUser> the list of topic user
+	 * @exception
+	 */
+	public static List<TopicUser> loadTopicUsers(File topicUsersFile) throws IOException {
+		List<TopicUser> result = new ArrayList<TopicUser>();
+		
+		InputStream is = new FileInputStream(topicUsersFile);
+		FileLineIterator it = new FileLineIterator(is);
+
+		while (it.hasNext()) {
+			String line = it.next();
+			if (line.startsWith("#")) {
+				continue;
+			}
+			String[] tokens = OutputFileReader.TAB_PATTERN.split(line);
+			if (tokens.length < 7) {
+				continue;
+			}
+			
+			//#topic_id	user_id	user_match_terms_count	score	topic_terms	user_match_terms
+			
+			int topicId = Integer.parseInt(tokens[0]);
+			String userId = tokens[1];
+			int userMatchTermsCount = Integer.parseInt(tokens[2]);
+			float score = Float.parseFloat(tokens[3]);
+			String strTopicTerms = tokens[4];
+			String strUserMatchTerms = tokens[5];
+			
+			TopicUser topicUser = new TopicUser();
+			topicUser.setTopicId(topicId);
+			topicUser.setUserId(userId);
+			topicUser.setUserMatchTermsCount(userMatchTermsCount);
+			topicUser.setScore(score);
+			topicUser.setTopicTermsString(strTopicTerms);
+			topicUser.setUserMatchTermsString(strUserMatchTerms);
+			
+			result.add(topicUser);
+		}
+		return result;
+	}
+	
 }
