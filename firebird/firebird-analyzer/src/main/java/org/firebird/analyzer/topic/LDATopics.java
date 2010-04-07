@@ -49,11 +49,11 @@ public class LDATopics {
 	 */
 	private class StringDoublePair implements Comparable<StringDoublePair> {
 		private final double score;
-		private final String word;
+		private final String term;
 
-		StringDoublePair(double score, String word) {
+		StringDoublePair(double score, String term) {
 			this.score = score;
-			this.word = word;
+			this.term = term;
 		}
 
 		@Override
@@ -67,12 +67,12 @@ public class LDATopics {
 				return false;
 			}
 			StringDoublePair other = (StringDoublePair) o;
-			return score == other.score && word.equals(other.word);
+			return score == other.score && term.equals(other.term);
 		}
 
 		@Override
 		public int hashCode() {
-			return (int) Double.doubleToLongBits(score) ^ word.hashCode();
+			return (int) Double.doubleToLongBits(score) ^ term.hashCode();
 		}
 	}
 
@@ -113,7 +113,7 @@ public class LDATopics {
 							int numWords,
 							String dictType) throws Exception {
 	      
-		Map<Integer, List<TopicWord>> topWords = this.getTopics(input, dictFile, numWords, dictType);	
+		Map<Integer, List<TopicTerm>> topTerms = this.getTopics(input, dictFile, numWords, dictType);	
 
 		if (output != null && !output.equals("")) {
 			File outputDir = new File(output);
@@ -122,11 +122,11 @@ public class LDATopics {
 					throw new IOException("Could not create directory: " + output);
 				}
 			}
-			writeTopWords(topWords, outputDir);
+			writeTopTerms(topTerms, outputDir);
 			// print also by louie
-			printTopWords(topWords);
+			printTopTerms(topTerms);
 		} else {
-			printTopWords(topWords);
+			printTopTerms(topTerms);
 		}
 	}
 
@@ -152,20 +152,20 @@ public class LDATopics {
 							int numWords,
 							String dictType) throws Exception {
 	      
-		Map<Integer, List<TopicWord>> topics = this.getTopics(input, dictFile, numWords, dictType);		
+		Map<Integer, List<TopicTerm>> topics = this.getTopics(input, dictFile, numWords, dictType);		
 
 		File out = new File(outputFile);
 		PrintWriter writer = new PrintWriter(new FileWriter(out));
 
-		writer.println("#topic_id	word	score");
+		writer.println("#topic_id	term	score");
 
 		Iterator<Integer> it = topics.keySet().iterator();
 		while (it.hasNext()) {
 			Object topicId = it.next();
-			List<TopicWord> topicWords = (List<TopicWord>) topics.get(topicId);
-			for (TopicWord topicWord : topicWords) {
-				writer.println(topicId + "\t" + topicWord.getWord() + "\t"
-						+ topicWord.getScore());
+			List<TopicTerm> topicTerms = (List<TopicTerm>) topics.get(topicId);
+			for (TopicTerm topicTerm : topicTerms) {
+				writer.println(topicId + "\t" + topicTerm.getTerm() + "\t"
+						+ topicTerm.getScore());
 			}
 		}
 		writer.close();
@@ -186,21 +186,21 @@ public class LDATopics {
 	 * @return List<String> the list of unique words
 	 * @exception
 	 */
-	public List<String> getUniqueWords(String input,
+	public List<String> getUniqueTerms(String input,
 							String dictFile,
 							int numWords,
 							String dictType) throws Exception {
 		
-		Map<Integer, List<TopicWord>> topics = this.getTopics(input, dictFile, numWords, dictType);		
+		Map<Integer, List<TopicTerm>> topics = this.getTopics(input, dictFile, numWords, dictType);		
 		List<String> result = new ArrayList<String>();
 
 		Iterator<Integer> it = topics.keySet().iterator();
 		while (it.hasNext()) {
 			Object topicId = it.next();
-			List<TopicWord> topicWords = (List<TopicWord>) topics.get(topicId);
-			for (TopicWord topicWord : topicWords) {
-				if (!result.contains(topicWord.getWord()))
-					result.add(topicWord.getWord());
+			List<TopicTerm> topicTerms = (List<TopicTerm>) topics.get(topicId);
+			for (TopicTerm topicTerm : topicTerms) {
+				if (!result.contains(topicTerm.getTerm()))
+					result.add(topicTerm.getTerm());
 			}
 		}
 		
@@ -219,10 +219,10 @@ public class LDATopics {
 	 * 			The number of words to print
 	 * @param dictType
 	 * 			The dictionary file type (text|sequencefile)
-	 * @return Map<Integer, List<TopicWord>> the map of topic word
+	 * @return Map<Integer, List<TopicTerm>> the map of topic word
 	 * @exception
 	 */
-	public Map<Integer, List<TopicWord>> getTopics(String input,
+	public Map<Integer, List<TopicTerm>> getTopics(String input,
 							String dictFile,
 							int numWords,
 							String dictType) throws Exception {
@@ -237,80 +237,80 @@ public class LDATopics {
 		
 		Configuration config = new Configuration();
 
-		List<String> wordList;
+		List<String> termList;
 		if (dictType.equals("text")) {
-			wordList = Arrays.asList(VectorHelper.loadTermDictionary(new File(dictFile)));
+			termList = Arrays.asList(VectorHelper.loadTermDictionary(new File(dictFile)));
 		} else if (dictType.equals("sequencefile")) {
 			FileSystem fs = FileSystem.get(new Path(dictFile).toUri(), config);
-			wordList = Arrays.asList(VectorHelper.loadTermDictionary(config, fs, dictFile));
+			termList = Arrays.asList(VectorHelper.loadTermDictionary(config, fs, dictFile));
 		} else {
 			throw new IllegalArgumentException("Invalid dictionary format");
 		}
 
-		List<List<StringDoublePair>> topWords = topWordsForTopics(input, config, wordList, numWords);
+		List<List<StringDoublePair>> topTerms = topTermsForTopics(input, config, termList, numWords);
 
-		Map<Integer, List<TopicWord>> result = new HashMap<Integer, List<TopicWord>>();
-		for (int i = 0; i < topWords.size(); ++i) {
-			List<StringDoublePair> topK = topWords.get(i);
-			List<TopicWord> topicWords = new ArrayList<TopicWord>();
+		Map<Integer, List<TopicTerm>> result = new HashMap<Integer, List<TopicTerm>>();
+		for (int i = 0; i < topTerms.size(); ++i) {
+			List<StringDoublePair> topK = topTerms.get(i);
+			List<TopicTerm> topicTerms = new ArrayList<TopicTerm>();
 			
 			for (StringDoublePair sdp : topK) {
-				TopicWord topicWord = new TopicWord();
-				topicWord.setTopicId(i);
-				topicWord.setWord(sdp.word);
-				topicWord.setScore(sdp.score);				
-				topicWords.add(topicWord);
+				TopicTerm topicTerm = new TopicTerm();
+				topicTerm.setTopicId(i);
+				topicTerm.setTerm(sdp.term);
+				topicTerm.setScore(sdp.score);				
+				topicTerms.add(topicTerm);
 			}			
 			// sort by score
-			Collections.sort(topicWords);
-			result.put(Integer.valueOf(i), topicWords);
+			Collections.sort(topicTerms);
+			result.put(Integer.valueOf(i), topicTerms);
 		}
 		
 		return result;
 	}
 	
-	// Adds the word if the queue is below capacity, or the score is high enough
-	private void maybeEnqueue(Queue<StringDoublePair> q, String word,
-			double score, int numWordsToPrint) {
-		if (q.size() >= numWordsToPrint && score > q.peek().score) {
+	// Adds the term if the queue is below capacity, or the score is high enough
+	private void maybeEnqueue(Queue<StringDoublePair> q, String term,
+			double score, int numTermsToPrint) {
+		if (q.size() >= numTermsToPrint && score > q.peek().score) {
 			q.poll();
 		}
-		if (q.size() < numWordsToPrint) {
-			q.add(new StringDoublePair(score, word));
+		if (q.size() < numTermsToPrint) {
+			q.add(new StringDoublePair(score, term));
 		}
 	}
 
-	private void printTopWords(Map<Integer, List<TopicWord>> topWords) {
-		Iterator<Integer> it = topWords.keySet().iterator();
+	private void printTopTerms(Map<Integer, List<TopicTerm>> topTerms) {
+		Iterator<Integer> it = topTerms.keySet().iterator();
 		while (it.hasNext()) {
 			Object topicId = it.next();
-			List<TopicWord> topK = (List<TopicWord>) topWords.get(topicId);
+			List<TopicTerm> topK = (List<TopicTerm>) topTerms.get(topicId);
 			System.out.println("Topic " + topicId);
 			System.out.println("===========");
-			for (TopicWord topicWord : topK) {
-				System.out.println(topicWord.getWord());
+			for (TopicTerm topicTerm : topK) {
+				System.out.println(topicTerm.getTerm());
 			}
 		}
 	}
 
-	private void writeTopWords(Map<Integer, List<TopicWord>> topWords, File output) throws IOException {
-		Iterator<Integer> it = topWords.keySet().iterator();
+	private void writeTopTerms(Map<Integer, List<TopicTerm>> topTerms, File output) throws IOException {
+		Iterator<Integer> it = topTerms.keySet().iterator();
 		while (it.hasNext()) {
 			Object topicId = it.next();
-			List<TopicWord> topK = (List<TopicWord>) topWords.get(topicId);
+			List<TopicTerm> topK = (List<TopicTerm>) topTerms.get(topicId);
 			File out = new File(output, "topic-" + topicId);
 			PrintWriter writer = new PrintWriter(new FileWriter(out));
 			writer.println("Topic " + topicId);
 			writer.println("===========");
-			for (TopicWord topicWord : topK) {
-				writer.println(topicWord.getWord());
+			for (TopicTerm topicTerm : topK) {
+				writer.println(topicTerm.getTerm());
 			}
 			writer.close();
 		}
 	}
 	
-	private List<List<StringDoublePair>> topWordsForTopics(String dir,
-			Configuration job, List<String> wordList, int numWordsToPrint) throws IOException {
+	private List<List<StringDoublePair>> topTermsForTopics(String dir,
+			Configuration job, List<String> termList, int numTermsToPrint) throws IOException {
 		FileSystem fs = new Path(dir).getFileSystem(job);
 
 		List<PriorityQueue<StringDoublePair>> queues = new ArrayList<PriorityQueue<StringDoublePair>>();
@@ -322,13 +322,13 @@ public class LDATopics {
 			SequenceFile.Reader reader = new SequenceFile.Reader(fs, path, job);
 			while (reader.next(key, value)) {
 				int topic = key.getFirst();
-				int word = key.getSecond();
+				int term = key.getSecond();
 
 				ensureQueueSize(queues, topic);
-				if (word >= 0 && topic >= 0) {
+				if (term >= 0 && topic >= 0) {
 					double score = value.get();
-					String realWord = wordList.get(word);
-					maybeEnqueue(queues.get(topic), realWord, score, numWordsToPrint);
+					String realTerm = termList.get(term);
+					maybeEnqueue(queues.get(topic), realTerm, score, numTermsToPrint);
 				}
 			}
 			reader.close();
@@ -338,8 +338,8 @@ public class LDATopics {
 		for (int i = 0; i < queues.size(); ++i) {
 			result.add(i, new LinkedList<StringDoublePair>());
 			for (StringDoublePair sdp : queues.get(i)) {
-				//result.get(i).add(0, sdp.word); // prepend
-				//result.get(i).add(0, sdp.word + "\t" + sdp.score); // by louie
+				//result.get(i).add(0, sdp.term); // prepend
+				//result.get(i).add(0, sdp.term + "\t" + sdp.score); // by louie
 				result.get(i).add(0, sdp);
 			}
 		}
