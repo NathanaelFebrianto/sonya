@@ -204,6 +204,8 @@
 		</if>
 	</delete>
 	
+	<!-- For Scoring -->
+	
 	<update id="updateVertexScore" parameterType="org.firebird.io.model.Vertex">
 		UPDATE vertex SET
 			  degree = #{degree}
@@ -219,13 +221,28 @@
 			website_id = #{websiteId}
 			AND vertex_id = #{id}
 	</update>
+	
+	<!-- For Clustering / Topic Clustering -->
 
 	<update id="updateVertexCluster" parameterType="org.firebird.io.model.Vertex">
-		UPDATE vertex SET
+		UPDATE vertex 
 			  edge_betweenness_cluster = #{edgeBetweennessCluster}
 			, voltage = #{voltageCluster}
 		WHERE
 			website_id = #{websiteId}
 			AND vertex_id = #{id}
 	</update>
+	
+	<select id="selectClusters" resultType="int">
+		SELECT DISTINCT edge_betweenness_cluster 
+		FROM vertex 
+		ORDER BY edge_betweenness_cluster ASC
+	</select>
+	
+	<select id="selectVerticesInCluster" parameterType="int" resultMap="vertexResultMap">
+		SELECT * 
+		FROM vertex 
+		WHERE edge_betweenness_cluster = #{edgeBetweennessCluster}
+	</select>
+	
 </mapper>

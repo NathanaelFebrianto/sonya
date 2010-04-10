@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN" 
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<mapper namespace="org.firebird.io.dao.UserTermMapper">
+
+	<resultMap id="userTermResultMap" type="org.firebird.analyzer.topic.UserTerm">
+		<id property="userId" column="user_id" />
+		<result property="userId" column="user_id" />
+		<result property="userName" column="user_name" />
+		<result property="term" column="term" />
+		<result property="docId" column="doc_id" />
+		<result property="termFreq" column="term_freq" />
+		<result property="tf" column="tf" />
+		<result property="idf" column="idf" />
+		<result property="timeline" column="timeline" />
+		<result property="createDate" column="create_date" />
+		<result property="lastUpdateDate" column="last_update_date" />
+	</resultMap>
+
+	<select id="selectUsers" parameterType="String" resultMap="userTermResultMap">
+		SELECT a.*, b.user_name
+		FROM user_term a, vertex b
+		WHERE a.user_id = b.user_id AND term = #{term}		
+		ORDER BY term_freq DESC
+	</select>
+	
+	<select id="selectTerms" parameterType="String" resultMap="userTermResultMap">
+		SELECT *
+		FROM user_term
+		WHERE user_id = #{userId}		
+		ORDER BY term_freq DESC
+	</select>
+	
+	<insert id="insertTerm" parameterType="org.firebird.analyzer.topic.UserTerm">
+		INSERT INTO user_term (
+			  user_id
+			, term
+			, doc_id
+			, term_freq
+			, tf
+			, idf
+			, timeline
+			, create_date
+			, last_update_date 
+		)
+		VALUES (
+			  #{userId,jdbcType=VARCHAR}
+			, #{term,jdbcType=VARCHAR}
+			, #{docId,javaType=int,jdbcType=NUMERIC}
+			, #{termFreq,javaType=int,jdbcType=NUMERIC}
+			, #{tf,javaType=float,jdbcType=FLOAT}			
+			, #{idf,javaType=float,jdbcType=FLOAT}
+			, #{timeline,jdbcType=VARCHAR}
+			, NOW()
+			, NOW()	
+		)
+	</insert>
+
+	<delete id="deleteUsers">
+		DELETE FROM user_term
+	</delete>
+
+</mapper>

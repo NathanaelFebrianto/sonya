@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN" 
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<mapper namespace="org.firebird.io.dao.TopicUserMapper">
+
+	<resultMap id="topicUserResultMap" type="org.firebird.analyzer.topic.TopicUser">
+		<id property="topicId" column="topic_id" />
+		<result property="topicId" column="topic_id" />
+		<result property="userId" column="user_id" />
+		<result property="userName" column="user_name" />
+		<result property="userMatchTermsCount" column="match_terms_count" />
+		<result property="score" column="score" />
+		<result property="topicTermsString" column="topic_terms" />
+		<result property="userMatchTermsString" column="user_match_terms" />
+		<result property="createDate" column="create_date" />
+		<result property="lastUpdateDate" column="last_update_date" />
+	</resultMap>
+
+	<select id="selectUsers" parameterType="int" resultMap="topicUserResultMap">
+		SELECT a.*, b.user_name
+		FROM topic_user a, vertex b
+		WHERE a.user_id, b.user_id AND topic_id = #{topicId}
+		ORDER BY score DESC
+	</select>
+
+	<insert id="insertUser" parameterType="org.firebird.analyzer.topic.TopicUser">
+		INSERT INTO topic_user (
+			  topic_id
+			, user_id
+			, match_terms_count
+			, score
+			, topic_terms
+			, user_match_terms
+			, create_date
+			, last_update_date 
+		)
+		VALUES (
+			  #{topicId,javaType=int,jdbcType=NUMERIC}
+			, #{userId,jdbcType=VARCHAR}
+			, #{userMatchTermsCount,javaType=int,jdbcType=NUMERIC}
+			, #{score,javaType=float,jdbcType=FLOAT}
+			, #{topicTermsString,jdbcType=VARCHAR}
+			, #{userMatchTermsString,jdbcType=VARCHAR}
+			, NOW()
+			, NOW()	
+		)
+	</insert>
+
+	<delete id="deleteUsers">
+		DELETE FROM topic_user
+	</delete>
+	
+	<!-- For Topic Clustering -->
+	
+	<select id="selectUsersInCluster" parameterType="int" resultMap="topicUserResultMap">
+		SELECT * 
+		FROM topic_user
+		WHERE user_id IN (
+			SELECT user_id FROM vertex WHERE edge_betweenness_cluster = #{edgeBetweennessCluster})
+	</select>	
+
+</mapper>
