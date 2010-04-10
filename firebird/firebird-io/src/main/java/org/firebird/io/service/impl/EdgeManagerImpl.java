@@ -112,4 +112,38 @@ public class EdgeManagerImpl extends GenericManagerImpl implements EdgeManager {
     		session.close();
     	}		
 	}
+	
+    /**
+     * Gets the following edge.
+     *
+     * @param websiteId1 the websiteId1
+     * @param websiteId2 the websiteId2
+     * @param vertex1 the vertex from
+     * @param vertex2 the vertex to
+     * @param relationship the relationship
+     * @return Edge the edge
+     */
+	public Edge getEdge(
+			int websiteId1, 
+			int websiteId2, 
+			String vertex1, 
+			String vertex2, 
+			String relationship) {
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		EdgeMapper mapper = session.getMapper(EdgeMapper.class);
+    		
+    		Edge param = new Edge();
+    		param.setWebsiteId1(websiteId1);
+    		param.setWebsiteId2(websiteId2);
+    		param.setVertex1(vertex1);
+    		param.setVertex2(vertex2);
+    		param.setRelationship(relationship);
+    		
+    		Edge edge = mapper.selectEdge(param);
+    		return edge;
+    	} finally {
+    		session.close();
+    	}		
+	}
 }

@@ -8,6 +8,7 @@
 		<id property="topicId" column="topic_id" />
 		<result property="topicId" column="topic_id" />
 		<result property="userId" column="user_id" />
+		<result property="vertexId" column="vertex_id" />
 		<result property="userName" column="user_name" />
 		<result property="userProfileImage" column="image_file" />
 		<result property="userUrl" column="user_url" />
@@ -19,8 +20,8 @@
 	</resultMap>	
 
 	<select id="selectUsers" parameterType="int" resultMap="topicUserClusterResultMap">
-		SELECT a.*, b.user_name, b.image_file, b.user_url
-		FROM topic_user_cluster
+		SELECT a.*, b.id as vertex_id, b.user_name, b.image_file, b.user_url
+		FROM topic_user_cluster a, vertex b
 		WHERE a.user_id = b.user_id AND topic_id = #{topicId}
 		ORDER BY score DESC
 	</select>

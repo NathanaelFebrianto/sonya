@@ -8,7 +8,6 @@ import java.util.List;
 
 import org.firebird.common.ibatis.GenericMapper;
 import org.firebird.io.model.UserBlogEntry;
-import org.firebird.io.model.Vertex;
 
 /**
  * A interface for user blog entry mapper.

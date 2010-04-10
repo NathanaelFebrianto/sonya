@@ -5,6 +5,7 @@
 package org.firebird.io.service;
 
 import java.util.List;
+import java.util.Set;
 
 import org.firebird.common.service.GenericManager;
 import org.firebird.io.model.Vertex;
@@ -59,4 +60,29 @@ public interface VertexManager extends GenericManager {
      * @param vertex the vertex cluster
      */
 	public void setVertexCluster(Vertex vertex);
+	
+    /**
+     * Gets the clusters.
+     *
+     * @param websiteId the website id
+     * @return List<Integer> the clusters
+     */
+	public List<Integer> getClusters(int websiteId);
+	
+	/**
+     * Gets the vertices in the specific cluster.
+     *
+     * @param websiteId the website id
+     * @param cluster the cluster id
+     * @return List<Vertex> the vertices
+     */
+	public List<Vertex> getVerticesInCluster(int websiteId, int cluster);
+	
+	/**
+     * Gets the cluster set.
+     *
+     * @param websiteId the website id
+     * @return Set<Set<String>> the cluster set with vertex id
+     */
+	public Set<Set<String>> getClusterSet(int websiteId);
 }

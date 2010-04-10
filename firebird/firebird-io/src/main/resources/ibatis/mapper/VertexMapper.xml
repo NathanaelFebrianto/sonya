@@ -233,16 +233,17 @@
 			AND vertex_id = #{id}
 	</update>
 	
-	<select id="selectClusters" resultType="int">
+	<select id="selectClusters" parameterType="int" resultType="int">
 		SELECT DISTINCT edge_betweenness_cluster 
 		FROM vertex 
+		WHERE website_id = #{websiteId}
 		ORDER BY edge_betweenness_cluster ASC
 	</select>
 	
-	<select id="selectVerticesInCluster" parameterType="int" resultMap="vertexResultMap">
+	<select id="selectVerticesInCluster" parameterType="org.firebird.io.model.Vertex" resultMap="vertexResultMap">
 		SELECT * 
 		FROM vertex 
-		WHERE edge_betweenness_cluster = #{edgeBetweennessCluster}
+		WHERE website_id = #{websiteId} AND edge_betweenness_cluster = #{edgeBetweennessCluster}
 	</select>
 	
 </mapper>

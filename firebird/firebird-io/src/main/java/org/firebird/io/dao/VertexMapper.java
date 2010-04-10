@@ -59,4 +59,20 @@ public interface VertexMapper extends GenericMapper {
      * @param vertex the vertex cluster
      */
 	public void updateVertexCluster(Vertex vertex);
+	
+    /**
+     * Selects clusters.
+     *
+     * @param websiteId the websiteId
+     * @return List<Integer> the clusters
+     */
+	public List<Integer> selectClusters(int websiteId);
+	
+	/**
+     * Selects vertices in the specific cluster.
+     *
+     * @param vertex the vertex with the specific website id and cluster id.
+     * @return List<Vertex> the vertices
+     */
+	public List<Vertex> selectVerticesInCluster(Vertex vertex);
 }
