@@ -26,12 +26,16 @@ import org.apache.mahout.common.FileLineIterator;
 public class OutputFileReader {
 	
 	private static final Pattern TAB_PATTERN = Pattern.compile("\t");
+	private int websiteId = 1;
 	
 	/**
 	 * Constructor.
 	 * 
+	 * @param websiteId the websiteId
 	 */
-	public OutputFileReader() { }
+	public OutputFileReader(int websiteId) {
+		this.websiteId = websiteId;
+	}
 	
 	/**
 	 * Reads words in a dictionary file. Format is: First line is the number of entries.
@@ -40,7 +44,7 @@ public class OutputFileReader {
 	 * @return List<Dictionary> the list of term in dictionary
 	 * @exception
 	 */
-	public static List<Dictionary> loadDictionary(File dictFile) throws IOException {
+	public List<Dictionary> loadDictionary(File dictFile) throws IOException {
 		List<Dictionary> result = new ArrayList<Dictionary>();
 		
 		InputStream is = new FileInputStream(dictFile);
@@ -64,6 +68,7 @@ public class OutputFileReader {
 			int seq = Integer.parseInt(tokens[2]);
 			
 			Dictionary dict = new Dictionary();
+			dict.setWebsiteId(websiteId);
 			dict.setSeq(seq);
 			dict.setTerm(term);
 			dict.setDocFreq(docFreq);
@@ -80,7 +85,7 @@ public class OutputFileReader {
 	 * @return List<TopicTerm> the list of topic term
 	 * @exception
 	 */
-	public static List<TopicTerm> loadTopics(File topicFile) throws IOException {
+	public List<TopicTerm> loadTopics(File topicFile) throws IOException {
 		List<TopicTerm> result = new ArrayList<TopicTerm>();
 		
 		InputStream is = new FileInputStream(topicFile);
@@ -101,6 +106,7 @@ public class OutputFileReader {
 			double score = Double.parseDouble(tokens[2]);
 			
 			TopicTerm topicTerm = new TopicTerm();
+			topicTerm.setWebsiteId(websiteId);
 			topicTerm.setTopicId(topicId);
 			topicTerm.setTerm(term);
 			topicTerm.setScore(score);
@@ -117,7 +123,7 @@ public class OutputFileReader {
 	 * @return List<UserTerm> the list of user term
 	 * @exception
 	 */
-	public static List<UserTerm> loadUsersTerms(File usersFile) throws IOException {
+	public List<UserTerm> loadUsersTerms(File usersFile) throws IOException {
 		List<UserTerm> result = new ArrayList<UserTerm>();
 		
 		InputStream is = new FileInputStream(usersFile);
@@ -142,6 +148,7 @@ public class OutputFileReader {
 			String timeline = tokens[6];
 			
 			UserTerm userTerm = new UserTerm();
+			userTerm.setWebsiteId(websiteId);
 			userTerm.setUserId(userId);
 			userTerm.setDocId(docId);
 			userTerm.setTerm(term);
@@ -162,7 +169,7 @@ public class OutputFileReader {
 	 * @return List<TopicUser> the list of topic user
 	 * @exception
 	 */
-	public static List<TopicUser> loadTopicUsers(File topicUsersFile) throws IOException {
+	public List<TopicUser> loadTopicUsers(File topicUsersFile) throws IOException {
 		List<TopicUser> result = new ArrayList<TopicUser>();
 		
 		InputStream is = new FileInputStream(topicUsersFile);
@@ -188,6 +195,7 @@ public class OutputFileReader {
 			String strUserMatchTerms = tokens[5];
 			
 			TopicUser topicUser = new TopicUser();
+			topicUser.setWebsiteId(websiteId);
 			topicUser.setTopicId(topicId);
 			topicUser.setUserId(userId);
 			topicUser.setUserMatchTermsCount(userMatchTermsCount);

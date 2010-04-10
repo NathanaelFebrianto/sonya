@@ -34,11 +34,11 @@ public class TopicAnalysisTest extends TestCase
     		DocSourceWriter sourceWriter = new DocSourceWriter("D:/firebird/text/");
     		
         	UserBlogEntryManager userBlogEntryManager = new UserBlogEntryManagerImpl();
-        	List<String> users = userBlogEntryManager.getDistinctUsers();
+        	List<String> users = userBlogEntryManager.getDistinctUsers(1);
         	
         	for (int i = 0; i < users.size(); i++) {
         		String userId = (String) users.get(i);
-        		List<UserBlogEntry> userBlogEntries = userBlogEntryManager.getUserBlogEntries(userId);
+        		List<UserBlogEntry> userBlogEntries = userBlogEntryManager.getUserBlogEntries(1, userId);
         		sourceWriter.write(userId, userBlogEntries);
         	}
         	

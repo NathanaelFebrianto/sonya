@@ -20,6 +20,7 @@ public class TopicUser implements Serializable ,Comparable<TopicUser> {
 
 	private static final long serialVersionUID = 6075397439259576211L;
 	
+	private int websiteId;
 	private int topicId;
 	private String userId;
 	private String userName;
@@ -29,9 +30,13 @@ public class TopicUser implements Serializable ,Comparable<TopicUser> {
 	private String userMatchTermsString;
 	private int userMatchTermsCount;
 	private float score;
+	private int cluster;
 	private Date createDate;
 	private Date lastUpdateDate;
 	
+	public int getWebsiteId() {
+		return websiteId;
+	}
 	public int getTopicId() {
 		return topicId;
 	}
@@ -59,6 +64,9 @@ public class TopicUser implements Serializable ,Comparable<TopicUser> {
 	public float getScore() {
 		return score;
 	}
+	public int getCluster() {
+		return cluster;
+	}
 	public Date getCreateDate() {
 		return createDate;
 	}
@@ -66,6 +74,9 @@ public class TopicUser implements Serializable ,Comparable<TopicUser> {
 		return lastUpdateDate;
 	}
 	
+	public void setWebsiteId(int websiteId) {
+		this.websiteId = websiteId;
+	}
 	public void setTopicId(int topicId) {
 		this.topicId = topicId;
 	}
@@ -92,6 +103,9 @@ public class TopicUser implements Serializable ,Comparable<TopicUser> {
 	}
 	public void setScore(float score) {
 		this.score = score;
+	}
+	public void setCluster(int cluster) {
+		this.cluster = cluster;
 	}
 	public void setCreateDate(Date createDate) {
 		this.createDate = createDate;
