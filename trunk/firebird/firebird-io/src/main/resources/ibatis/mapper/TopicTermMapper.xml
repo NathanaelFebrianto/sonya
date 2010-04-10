@@ -6,6 +6,7 @@
 
 	<resultMap id="topicTermResultMap" type="org.firebird.analyzer.topic.TopicTerm">
 		<id property="topicId" column="topic_id" />
+		<result property="websiteId" column="website_id" />
 		<result property="topicId" column="topic_id" />
 		<result property="term" column="term" />
 		<result property="score" column="score" />
@@ -13,29 +14,32 @@
 		<result property="lastUpdateDate" column="last_update_date" />
 	</resultMap>
 
-	<select id="selectTopics" resultType="int">
-		SELECT topic_id
+	<select id="selectTopics" parameterType="int" resultType="int">
+		SELECT DISTINCT topic_id
 		FROM topic_term
+		WHERE website_id = #{websiteId}
 		ORDER BY topic_id ASC
 	</select>
 	
-	<select id="selectTerms" parameterType="int" resultMap="topicTermResultMap">
+	<select id="selectTerms" parameterType="org.firebird.analyzer.topic.TopicTerm" resultMap="topicTermResultMap">
 		SELECT *
 		FROM topic_term
-		WHERE topic_id = #{topicId}
+		WHERE website_id = #{websiteId} AND topic_id = #{topicId}
 		ORDER BY score DESC
 	</select>
 	
 	<insert id="insertTerm" parameterType="org.firebird.analyzer.topic.TopicTerm">
 		INSERT INTO topic_term (
-			  topic_id
+			  website_id
+			, topic_id
 			, term
 			, score
 			, create_date
 			, last_update_date 
 		)
 		VALUES (
-			  #{topicId,javaType=int,jdbcType=NUMERIC}
+			  #{websiteId,javaType=int,jdbcType=NUMERIC}
+			, #{topicId,javaType=int,jdbcType=NUMERIC}
 			, #{term,jdbcType=VARCHAR}
 			, #{score,javaType=double,jdbcType=DOUBLE}
 			, NOW()
@@ -43,8 +47,9 @@
 		)
 	</insert>
 
-	<delete id="deleteTopics">
+	<delete id="deleteTopics" parameterType="int">
 		DELETE FROM topic_term
+		WHERE website_id = #{websiteId}
 	</delete>
 
 </mapper>

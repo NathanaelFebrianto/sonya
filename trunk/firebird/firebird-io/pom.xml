@@ -37,6 +37,8 @@
 			<artifactId>ibatis-sqlmap</artifactId>
 			<version>3.0-beta-7</version>
 		</dependency>
+
 		<!-- Firebird -->
+
 	</dependencies>
 </project>

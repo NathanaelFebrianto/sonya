@@ -6,6 +6,7 @@
 
 	<resultMap id="userTermResultMap" type="org.firebird.analyzer.topic.UserTerm">
 		<id property="userId" column="user_id" />
+		<result property="websiteId" column="website_id" />
 		<result property="userId" column="user_id" />
 		<result property="userName" column="user_name" />
 		<result property="term" column="term" />
@@ -18,23 +19,24 @@
 		<result property="lastUpdateDate" column="last_update_date" />
 	</resultMap>
 
-	<select id="selectUsers" parameterType="String" resultMap="userTermResultMap">
+	<select id="selectUsers" parameterType="org.firebird.analyzer.topic.UserTerm" resultMap="userTermResultMap">
 		SELECT a.*, b.user_name
 		FROM user_term a, vertex b
-		WHERE a.user_id = b.user_id AND term = #{term}		
+		WHERE website_id = #{websiteId} AND a.user_id = b.user_id AND term = #{term}		
 		ORDER BY term_freq DESC
 	</select>
 	
-	<select id="selectTerms" parameterType="String" resultMap="userTermResultMap">
+	<select id="selectTerms" parameterType="org.firebird.analyzer.topic.UserTerm" resultMap="userTermResultMap">
 		SELECT *
 		FROM user_term
-		WHERE user_id = #{userId}		
+		WHERE website_id = #{websiteId} AND user_id = #{userId}		
 		ORDER BY term_freq DESC
 	</select>
 	
 	<insert id="insertTerm" parameterType="org.firebird.analyzer.topic.UserTerm">
 		INSERT INTO user_term (
-			  user_id
+			  website_id
+			, user_id
 			, term
 			, doc_id
 			, term_freq
@@ -45,7 +47,8 @@
 			, last_update_date 
 		)
 		VALUES (
-			  #{userId,jdbcType=VARCHAR}
+			  #{websiteId,javaType=int,jdbcType=NUMERIC}
+			, #{userId,jdbcType=VARCHAR}
 			, #{term,jdbcType=VARCHAR}
 			, #{docId,javaType=int,jdbcType=NUMERIC}
 			, #{termFreq,javaType=int,jdbcType=NUMERIC}
@@ -57,8 +60,9 @@
 		)
 	</insert>
 
-	<delete id="deleteUsers">
+	<delete id="deleteUsers" parameterType="int">
 		DELETE FROM user_term
+		WHERE website_id = #{websiteId}
 	</delete>
 
 </mapper>

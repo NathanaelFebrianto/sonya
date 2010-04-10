@@ -6,6 +6,7 @@
 
 	<resultMap id="dictionaryResultMap" type="org.firebird.analyzer.topic.Dictionary">
 		<id property="seq" column="seq" />
+		<result property="websiteId" column="website_id" />
 		<result property="seq" column="seq" />
 		<result property="term" column="term" />
 		<result property="df" column="df" />
@@ -13,22 +14,24 @@
 		<result property="lastUpdateDate" column="last_update_date" />
 	</resultMap>
 
-	<select id="selectDictionary" parameterType="String" resultMap="dictionaryResultMap">
+	<select id="selectTerm" parameterType="org.firebird.analyzer.topic.Dictionary" resultMap="dictionaryResultMap">
 		SELECT *
 		FROM term_dictionary
-		WHERE term = #{term}
+		WHERE website_id = #{websiteId} AND term = #{term}
 	</select>
 	
-	<insert id="insertDictionary" parameterType="org.firebird.analyzer.topic.Dictionary">
+	<insert id="insertTerm" parameterType="org.firebird.analyzer.topic.Dictionary">
 		INSERT INTO term_dictionary (
-			  seq
+			  website_id
+			, seq
 			, term
 			, df
 			, create_date
 			, last_update_date 
 		)
 		VALUES (
-			  #{seq,javaType=int,jdbcType=NUMERIC}
+			  #{websiteId,javaType=int,jdbcType=NUMERIC}
+			, #{seq,javaType=int,jdbcType=NUMERIC}
 			, #{term,jdbcType=VARCHAR}
 			, #{df,javaType=int,jdbcType=NUMERIC}
 			, NOW()
@@ -36,8 +39,9 @@
 		)
 	</insert>
 
-	<delete id="deleteDictionary">
+	<delete id="deleteDictionary" parameterType="int">
 		DELETE FROM term_dictionary
+		WHERE website_id = #{websiteId}
 	</delete>
 	
 </mapper>
