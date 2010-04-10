@@ -4,7 +4,7 @@
 
 <mapper namespace="org.firebird.io.dao.TopicUserClusterMapper">
 
-	<resultMap id="topicUserClusterResultMap" type="org.firebird.analyzer.topic.TopicUserCluster">
+	<resultMap id="topicUserClusterResultMap" type="org.firebird.io.model.TopicUserCluster">
 		<id property="topicId" column="topic_id" />
 		<result property="websiteId" column="website_id" />
 		<result property="topicId" column="topic_id" />
@@ -20,14 +20,14 @@
 		<result property="lastUpdateDate" column="last_update_date" />
 	</resultMap>	
 
-	<select id="selectUsers" parameterType="org.firebird.analyzer.topic.TopicUserCluster" resultMap="topicUserClusterResultMap">
+	<select id="selectUsers" parameterType="org.firebird.io.model.TopicUserCluster" resultMap="topicUserClusterResultMap">
 		SELECT a.*, b.id as vertex_id, b.user_name, b.image_file, b.user_url
 		FROM topic_user_cluster a, vertex b
 		WHERE website_id = #{websiteId} AND a.user_id = b.user_id AND topic_id = #{topicId}
 		ORDER BY score DESC
 	</select>
 
-	<insert id="insertUser" parameterType="org.firebird.analyzer.topic.TopicUserCluster">
+	<insert id="insertUser" parameterType="org.firebird.io.model.TopicUserCluster">
 		INSERT INTO topic_user_cluster (
 			  website_id
 			, topic_id
