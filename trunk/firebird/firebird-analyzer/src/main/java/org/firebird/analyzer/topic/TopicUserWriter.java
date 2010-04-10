@@ -13,6 +13,10 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+import org.firebird.io.model.TopicTerm;
+import org.firebird.io.model.TopicUser;
+import org.firebird.io.model.UserTerm;
+
 
 /**
  * This class generates the topic-users set.

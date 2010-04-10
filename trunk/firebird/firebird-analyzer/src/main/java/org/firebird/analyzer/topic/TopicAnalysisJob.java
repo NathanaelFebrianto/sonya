@@ -7,7 +7,9 @@ package org.firebird.analyzer.topic;
 import java.util.List;
 import java.util.Map;
 
+import org.firebird.io.model.TopicTerm;
 import org.firebird.io.model.UserBlogEntry;
+import org.firebird.io.model.UserTerm;
 import org.firebird.io.service.UserBlogEntryManager;
 import org.firebird.io.service.impl.UserBlogEntryManagerImpl;
 

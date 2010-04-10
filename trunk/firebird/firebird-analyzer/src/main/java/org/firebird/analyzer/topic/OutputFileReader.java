@@ -13,6 +13,10 @@ import java.util.List;
 import java.util.regex.Pattern;
 
 import org.apache.mahout.common.FileLineIterator;
+import org.firebird.io.model.Dictionary;
+import org.firebird.io.model.TopicTerm;
+import org.firebird.io.model.TopicUser;
+import org.firebird.io.model.UserTerm;
 
 /**
  * This class reads output data from output files.
