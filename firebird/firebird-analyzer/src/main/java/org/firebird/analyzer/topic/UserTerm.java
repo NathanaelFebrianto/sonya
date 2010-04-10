@@ -16,6 +16,7 @@ public class UserTerm implements Serializable, Comparable<UserTerm> {
 
 	private static final long serialVersionUID = 215000208015378469L;
 
+	private int websiteId;
 	private String userId;
 	private String userName;
 	private int docId;
@@ -27,6 +28,9 @@ public class UserTerm implements Serializable, Comparable<UserTerm> {
 	private Date createDate;
 	private Date lastUpdateDate;
 	
+	public int getWebsiteId() {
+		return websiteId;
+	}
 	public String getUserId() {
 		return userId;
 	}
@@ -58,6 +62,9 @@ public class UserTerm implements Serializable, Comparable<UserTerm> {
 		return lastUpdateDate;
 	}
 	
+	public void setWebsiteId(int websiteId) {
+		this.websiteId = websiteId;
+	}
 	public void setUserId(String userId) {
 		this.userId = userId;
 	}

@@ -15,8 +15,11 @@ import java.util.Date;
 public class TopicUserCluster implements Serializable ,Comparable<TopicUserCluster> {
 
 	private static final long serialVersionUID = 2609827170483209455L;
+	
+	private int websiteId;
 	private int topicId;
 	private String userId;
+	private String vertexId;
 	private String userName;
 	private String userProfileImage;
 	private String userUrl;
@@ -26,11 +29,17 @@ public class TopicUserCluster implements Serializable ,Comparable<TopicUserClust
 	private Date createDate;
 	private Date lastUpdateDate;
 	
+	public int getWebsiteId() {
+		return websiteId;
+	}
 	public int getTopicId() {
 		return topicId;
 	}
 	public String getUserId() {
 		return userId;
+	}
+	public String getVertexId() {
+		return vertexId;
 	}
 	public String getUserName() {
 		return userName;
@@ -57,11 +66,17 @@ public class TopicUserCluster implements Serializable ,Comparable<TopicUserClust
 		return lastUpdateDate;
 	}
 
+	public void setWebsiteId(int websiteId) {
+		this.websiteId = websiteId;
+	}
 	public void setTopicId(int topicId) {
 		this.topicId = topicId;
 	}
 	public void setUserId(String userId) {
 		this.userId = userId;
+	}
+	public void setVertexId(String vertexId) {
+		this.vertexId = vertexId;
 	}
 	public void setUserName(String userName) {
 		this.userName = userName;

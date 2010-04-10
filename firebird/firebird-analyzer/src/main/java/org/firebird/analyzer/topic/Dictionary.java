@@ -16,12 +16,16 @@ public class Dictionary implements Serializable, Comparable<Dictionary> {
 	
 	private static final long serialVersionUID = -5108673345619615396L;
 	
+	private int websiteId;
 	private int seq;
 	private String term;
 	private int docFreq;
 	private Date createDate;
 	private Date lastUpdateDate;
 	
+	public int getWebsiteId() {
+		return websiteId;
+	}
 	public int getSeq() {
 		return seq;
 	}
@@ -38,6 +42,9 @@ public class Dictionary implements Serializable, Comparable<Dictionary> {
 		return lastUpdateDate;
 	}
 	
+	public void setWebsiteId(int websiteId) {
+		this.websiteId = websiteId;
+	}
 	public void setSeq(int seq) {
 		this.seq = seq;
 	}

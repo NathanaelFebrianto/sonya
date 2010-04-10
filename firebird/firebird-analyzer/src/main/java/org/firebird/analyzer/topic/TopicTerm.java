@@ -16,12 +16,16 @@ public class TopicTerm implements Serializable, Comparable<TopicTerm> {
 
 	private static final long serialVersionUID = 4796609737710136397L;
 	
+	private int websiteId;
 	private int topicId;
 	private String term;
 	private double score;
 	private Date createDate;
 	private Date lastUpdateDate;
 	
+	public int getWebsiteId() {
+		return websiteId;
+	}
 	public int getTopicId() {
 		return topicId;
 	}
@@ -38,6 +42,9 @@ public class TopicTerm implements Serializable, Comparable<TopicTerm> {
 		return lastUpdateDate;
 	}
 	
+	public void setWebsiteId(int websiteId) {
+		this.websiteId = websiteId;
+	}
 	public void setTopicId(int topicId) {
 		this.topicId = topicId;
 	}
