@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN" 
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<mapper namespace="org.firebird.io.dao.DictionaryMapper">
+
+	<resultMap id="dictionaryResultMap" type="org.firebird.analyzer.topic.Dictionary">
+		<id property="seq" column="seq" />
+		<result property="seq" column="seq" />
+		<result property="term" column="term" />
+		<result property="df" column="df" />
+		<result property="createDate" column="create_date" />
+		<result property="lastUpdateDate" column="last_update_date" />
+	</resultMap>
+
+	<select id="selectDictionary" parameterType="String" resultMap="dictionaryResultMap">
+		SELECT *
+		FROM term_dictionary
+		WHERE term = #{term}
+	</select>
+	
+	<insert id="insertDictionary" parameterType="org.firebird.analyzer.topic.Dictionary">
+		INSERT INTO term_dictionary (
+			  seq
+			, term
+			, df
+			, create_date
+			, last_update_date 
+		)
+		VALUES (
+			  #{seq,javaType=int,jdbcType=NUMERIC}
+			, #{term,jdbcType=VARCHAR}
+			, #{df,javaType=int,jdbcType=NUMERIC}
+			, NOW()
+			, NOW()	
+		)
+	</insert>
+
+	<delete id="deleteDictionary">
+		DELETE FROM term_dictionary
+	</delete>
+	
+</mapper>
