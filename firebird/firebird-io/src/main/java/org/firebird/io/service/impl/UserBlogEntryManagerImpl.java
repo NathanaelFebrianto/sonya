@@ -30,7 +30,7 @@ public class UserBlogEntryManagerImpl extends GenericManagerImpl implements User
 	
 	/**
      * Constructor.
-     *
+     * 
      * @param mapper the user blog entry mapper
      */
     public UserBlogEntryManagerImpl(UserBlogEntryMapper mapper) {
@@ -40,13 +40,14 @@ public class UserBlogEntryManagerImpl extends GenericManagerImpl implements User
     /**
      * Gets the distinct users.
      *
+     * @param websiteId the website id
      * @return List<String> the list of user id
      */
-	public List<String> getDistinctUsers() {
+	public List<String> getDistinctUsers(int websiteId) {
 		SqlSession session = sqlSessionFactory.openSession();
     	try {
     		UserBlogEntryMapper mapper = session.getMapper(UserBlogEntryMapper.class);
-    		List<String> userIds = mapper.selectDistinctUsers();
+    		List<String> userIds = mapper.selectDistinctUsers(websiteId);
     		return userIds;
     	} finally {
     		session.close();
@@ -56,14 +57,18 @@ public class UserBlogEntryManagerImpl extends GenericManagerImpl implements User
     /**
      * Gets the user blog entries.
      *
+     * @param websiteId the website id
      * @param userId the user id
      * @return List<UserBlogEntry> the list of user blog entry
      */
-	public List<UserBlogEntry> getUserBlogEntries(String userId) {
+	public List<UserBlogEntry> getUserBlogEntries(int websiteId, String userId) {
 		SqlSession session = sqlSessionFactory.openSession();
     	try {
     		UserBlogEntryMapper mapper = session.getMapper(UserBlogEntryMapper.class);
-    		List<UserBlogEntry> blogEntries = mapper.selectUserBlogEntries(userId);
+    		UserBlogEntry param = new UserBlogEntry();
+    		param.setWebsiteId(websiteId);
+    		param.setUserId(userId);
+    		List<UserBlogEntry> blogEntries = mapper.selectUserBlogEntries(param);
     		return blogEntries;
     	} finally {
     		session.close();

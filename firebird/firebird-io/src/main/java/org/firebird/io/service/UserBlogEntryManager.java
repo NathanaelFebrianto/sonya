@@ -19,17 +19,19 @@ public interface UserBlogEntryManager extends GenericManager {
     /**
      * Gets the distinct users.
      *
+     * @param websiteId the website id
      * @return List<String> the list of user id
      */
-	public List<String> getDistinctUsers();
+	public List<String> getDistinctUsers(int websiteId);
 	
     /**
      * Gets the user blog entries.
      *
+     * @param websiteId the website id
      * @param userId the user id
      * @return List<UserBlogEntry> the list of user blog entry
      */
-	public List<UserBlogEntry> getUserBlogEntries(String userId);
+	public List<UserBlogEntry> getUserBlogEntries(int websiteId, String userId);
 	
     /**
      * Adds a user blog entry.

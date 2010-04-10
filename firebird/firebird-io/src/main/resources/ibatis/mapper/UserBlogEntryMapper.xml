@@ -25,15 +25,17 @@
 		<result property="colLastUpdateDate" column="col_last_update_date" />
 	</resultMap>
 	
-	<select id="selectDistinctUsers" parameterType="String" resultType="java.lang.String">
+	<select id="selectDistinctUsers" parameterType="int" resultType="java.lang.String">
 		SELECT DISTINCT user_id
 		FROM user_blog_entry
+		WHERE website_id = #{websiteId}
 	</select>
 		
-	<select id="selectUserBlogEntries" parameterType="String" resultMap="userBlogEntryResultMap">
+	<select id="selectUserBlogEntries" parameterType="org.firebird.io.model.UserBlogEntry" resultMap="userBlogEntryResultMap">
 		SELECT *
 		FROM user_blog_entry
-		WHERE user_id = #{userId}
+		WHERE website_id = #{websiteId}
+			AND user_id = #{userId}
 		ORDER BY create_date DESC
 	</select>
 		

@@ -4,7 +4,10 @@
  */
 package org.firebird.io.dao;
 
+import java.util.List;
+
 import org.firebird.common.ibatis.GenericMapper;
+import org.firebird.io.model.UserTerm;
 
 /**
  * A interface for user term mapper.
@@ -13,4 +16,34 @@ import org.firebird.common.ibatis.GenericMapper;
  */
 public interface UserTermMapper extends GenericMapper {
 
+    /**
+     * Selects users.
+     *
+     * @param param the user term
+     * @return List<UserTerm> the list of user term
+     */
+	public List<UserTerm> selectUsers(UserTerm param);
+	
+	/**
+     * Selects user terms.
+     *
+     * @param param the user term
+     * @return List<UserTerm> the list of user term
+     */
+	public List<UserTerm> selectTerms(UserTerm param);
+	
+	/**
+     * Inserts a user term.
+     *
+     * @param userTerm the user term
+     */
+	public void insertTerm(UserTerm userTerm);
+	
+	/**
+     * Deletes users.
+     *
+     * @param websiteId the website id
+     */
+	public void deleteUsers(int websiteId);
+	
 }

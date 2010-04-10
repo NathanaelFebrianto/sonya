@@ -19,17 +19,18 @@ public interface UserBlogEntryMapper extends GenericMapper {
     /**
      * Selects the distinct users.
      *
+     * @param websiteId the website id
      * @return List<String> the list of user id
      */
-	public List<String> selectDistinctUsers();
+	public List<String> selectDistinctUsers(int websiteId);
 	
     /**
      * Selects the user blog entries.
      *
-     * @param userId the user id
+     * @param userBlogEntry the user blog entry
      * @return List<UserBlogEntry> the list of user blog entry
      */
-	public List<UserBlogEntry> selectUserBlogEntries(String userId);
+	public List<UserBlogEntry> selectUserBlogEntries(UserBlogEntry userBlogEntry);
 	
     /**
      * Inserts a user blog entry.
