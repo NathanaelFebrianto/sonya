@@ -48,14 +48,14 @@ public class OutputFileReader {
 	 * @return List<Dictionary> the list of term in dictionary
 	 * @exception
 	 */
-	public List<Dictionary> loadDictionary(File dictFile) throws IOException {
+	public List<Dictionary> loadDictionary(String dictFile) throws IOException {
 		List<Dictionary> result = new ArrayList<Dictionary>();
 		
-		InputStream is = new FileInputStream(dictFile);
+		InputStream is = new FileInputStream(new File(dictFile));
 		FileLineIterator it = new FileLineIterator(is);
 
-		int numEntries = Integer.parseInt(it.next());
-		System.out.println(numEntries);
+		//int numEntries = Integer.parseInt(it.next());
+		//System.out.println(numEntries);
 
 		while (it.hasNext()) {
 			String line = it.next();
@@ -89,10 +89,10 @@ public class OutputFileReader {
 	 * @return List<TopicTerm> the list of topic term
 	 * @exception
 	 */
-	public List<TopicTerm> loadTopics(File topicFile) throws IOException {
+	public List<TopicTerm> loadTopics(String topicFile) throws IOException {
 		List<TopicTerm> result = new ArrayList<TopicTerm>();
 		
-		InputStream is = new FileInputStream(topicFile);
+		InputStream is = new FileInputStream(new File(topicFile));
 		FileLineIterator it = new FileLineIterator(is);
 
 		while (it.hasNext()) {
@@ -127,10 +127,10 @@ public class OutputFileReader {
 	 * @return List<UserTerm> the list of user term
 	 * @exception
 	 */
-	public List<UserTerm> loadUsersTerms(File usersFile) throws IOException {
+	public List<UserTerm> loadUsersTerms(String usersFile) throws IOException {
 		List<UserTerm> result = new ArrayList<UserTerm>();
 		
-		InputStream is = new FileInputStream(usersFile);
+		InputStream is = new FileInputStream(new File(usersFile));
 		FileLineIterator it = new FileLineIterator(is);
 
 		while (it.hasNext()) {
@@ -173,10 +173,10 @@ public class OutputFileReader {
 	 * @return List<TopicUser> the list of topic user
 	 * @exception
 	 */
-	public List<TopicUser> loadTopicUsers(File topicUsersFile) throws IOException {
+	public List<TopicUser> loadTopicUsers(String topicUsersFile) throws IOException {
 		List<TopicUser> result = new ArrayList<TopicUser>();
 		
-		InputStream is = new FileInputStream(topicUsersFile);
+		InputStream is = new FileInputStream(new File(topicUsersFile));
 		FileLineIterator it = new FileLineIterator(is);
 
 		while (it.hasNext()) {
@@ -185,7 +185,7 @@ public class OutputFileReader {
 				continue;
 			}
 			String[] tokens = OutputFileReader.TAB_PATTERN.split(line);
-			if (tokens.length < 7) {
+			if (tokens.length < 6) {
 				continue;
 			}
 			

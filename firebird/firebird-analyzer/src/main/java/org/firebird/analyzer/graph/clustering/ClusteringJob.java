@@ -45,7 +45,8 @@ public class ClusteringJob {
     		int numEdgesToRemove = 1000;
     		Set<Set<Vertex>> clusterSet = clusterer.clusterByEdgeBetweennessClusterer(numEdgesToRemove);
     		System.out.println("Finish Clustering : " + Calendar.getInstance().getTime());
-    		int cluster = 0;
+    		
+    		int cluster = 1;
     		for (Iterator<Set<Vertex>> it1 = clusterSet.iterator(); it1.hasNext();) {
     			System.out.println("----------------------------------");
     			System.out.println("cluster == " + cluster);
@@ -53,6 +54,8 @@ public class ClusteringJob {
      			for (Iterator<Vertex> it2 = verticesSet.iterator(); it2.hasNext();) {
     				Vertex vertex = (Vertex) it2.next();
     				System.out.println("vertex == " + vertex.getId());
+    				vertex.setEdgeBetweennessCluster(cluster);    				
+    				vertexManager.setVertexCluster(vertex);
     			}
     			cluster++;
     		}
@@ -72,6 +75,8 @@ public class ClusteringJob {
      			for (Iterator<Vertex> it2 = verticesSet.iterator(); it2.hasNext();) {
     				Vertex vertex = (Vertex) it2.next();
     				System.out.println("vertex == " + vertex.getId());
+    				vertex.setVoltageCluster(cluster);    				
+    				vertexManager.setVertexCluster(vertex);
     			}
     			cluster++;
     		}
