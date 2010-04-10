@@ -1,0 +1,26 @@
+<SQL문>
+SELECT DISTINCT edge_betweenness_cluster FROM vertex ORDER BY edge_betweenness_cluster
+
+SELECT * FROM vertex WHERE edge_betweenness_cluster = 1
+
+SELECT * FROM topic_user
+WHERE user_id IN (SELECT user_id FROM vertex WHERE edge_betweenness_cluster = 1)
+
+SELECT * FROM edge WHERE vertex1 = 'user' AND vertex2 = 'topic_user' AND relationship = 1
+
+
+<Logic>
+동일한 Cluster에 속한 Topic User들에 대해서
+t: Topic(T개)
+c: Cluster(I개)
+u: User(J개)
+k: TopicUser(N개)
+
+If (User(u) == TopicUser(k))
+   weight for TopicUser(k) = 1.0
+Else If (User(u) following TopicUser(k))
+   weight for TopicUser(k) =  0.5
+Else
+   weight for TopicUser(k) = 0.2
+
+Score of User(u) by Topic(t) = [SUM of {score of TopicUser(k)*weight for TopicUser(k)} / number of TopicUsers in Cluster(c)] * Authority of User(u)

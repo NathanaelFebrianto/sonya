@@ -16,7 +16,10 @@ public class TopicUserCluster implements Serializable ,Comparable<TopicUserClust
 
 	private static final long serialVersionUID = 2609827170483209455L;
 	private int topicId;
-	private String userId;	
+	private String userId;
+	private String userName;
+	private String userProfileImage;
+	private String userUrl;
 	private boolean isTopicUser;
 	private int cluster;
 	private float score;
@@ -28,6 +31,15 @@ public class TopicUserCluster implements Serializable ,Comparable<TopicUserClust
 	}
 	public String getUserId() {
 		return userId;
+	}
+	public String getUserName() {
+		return userName;
+	}
+	public String getUserProfileImage() {
+		return userProfileImage;
+	}
+	public String getUserUrl() {
+		return userUrl;
 	}
 	public boolean isTopicUser() {
 		return isTopicUser;
@@ -50,6 +62,15 @@ public class TopicUserCluster implements Serializable ,Comparable<TopicUserClust
 	}
 	public void setUserId(String userId) {
 		this.userId = userId;
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+	public void setUserProfileImage(String userProfileImage) {
+		this.userProfileImage = userProfileImage;
+	}
+	public void setUserUrl(String userUrl) {
+		this.userUrl = userUrl;
 	}
 	public void setTopicUser(boolean isTopicUser) {
 		this.isTopicUser = isTopicUser;
