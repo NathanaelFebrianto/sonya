@@ -27,6 +27,7 @@ import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.SequenceFile;
 import org.apache.mahout.common.IntPairWritable;
 import org.apache.mahout.utils.vectors.VectorHelper;
+import org.firebird.io.model.TopicTerm;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
