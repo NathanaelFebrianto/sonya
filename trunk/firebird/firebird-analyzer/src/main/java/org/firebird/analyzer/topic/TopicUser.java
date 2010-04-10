@@ -21,7 +21,8 @@ public class TopicUser implements Serializable ,Comparable<TopicUser> {
 	private static final long serialVersionUID = 6075397439259576211L;
 	
 	private int topicId;
-	private String userId;	
+	private String userId;
+	private String userName;
 	private List<TopicTerm> topicTerms = null;
 	private List<UserTerm> userMatchTerms = null;
 	private String topicTermsString;
@@ -36,6 +37,9 @@ public class TopicUser implements Serializable ,Comparable<TopicUser> {
 	}
 	public String getUserId() {
 		return userId;
+	}
+	public String getUserName() {
+		return userName;
 	}
 	public List<TopicTerm> getTopicTerms() {
 		return topicTerms;
@@ -67,6 +71,9 @@ public class TopicUser implements Serializable ,Comparable<TopicUser> {
 	}
 	public void setUserId(String userId) {
 		this.userId = userId;
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;
 	}
 	public void setTopicTerms(List<TopicTerm> topicTerms) {
 		this.topicTerms = topicTerms;

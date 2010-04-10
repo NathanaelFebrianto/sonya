@@ -17,6 +17,7 @@ public class UserTerm implements Serializable, Comparable<UserTerm> {
 	private static final long serialVersionUID = 215000208015378469L;
 
 	private String userId;
+	private String userName;
 	private int docId;
 	private String term;
 	private int termFreq;
@@ -28,6 +29,9 @@ public class UserTerm implements Serializable, Comparable<UserTerm> {
 	
 	public String getUserId() {
 		return userId;
+	}
+	public String getUserName() {
+		return userName;
 	}
 	public int getDocId() {
 		return docId;
@@ -56,6 +60,9 @@ public class UserTerm implements Serializable, Comparable<UserTerm> {
 	
 	public void setUserId(String userId) {
 		this.userId = userId;
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;
 	}
 	public void setDocId(int docId) {
 		this.docId = docId;
