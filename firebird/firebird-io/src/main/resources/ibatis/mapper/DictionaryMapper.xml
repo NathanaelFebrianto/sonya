@@ -4,23 +4,23 @@
 
 <mapper namespace="org.firebird.io.dao.DictionaryMapper">
 
-	<resultMap id="dictionaryResultMap" type="org.firebird.analyzer.topic.Dictionary">
+	<resultMap id="dictionaryResultMap" type="org.firebird.io.model.Dictionary">
 		<id property="seq" column="seq" />
 		<result property="websiteId" column="website_id" />
 		<result property="seq" column="seq" />
 		<result property="term" column="term" />
-		<result property="df" column="df" />
+		<result property="docFreq" column="df" />
 		<result property="createDate" column="create_date" />
 		<result property="lastUpdateDate" column="last_update_date" />
 	</resultMap>
 
-	<select id="selectTerm" parameterType="org.firebird.analyzer.topic.Dictionary" resultMap="dictionaryResultMap">
+	<select id="selectTerm" parameterType="org.firebird.io.model.Dictionary" resultMap="dictionaryResultMap">
 		SELECT *
 		FROM term_dictionary
 		WHERE website_id = #{websiteId} AND term = #{term}
 	</select>
 	
-	<insert id="insertTerm" parameterType="org.firebird.analyzer.topic.Dictionary">
+	<insert id="insertTerm" parameterType="org.firebird.io.model.Dictionary">
 		INSERT INTO term_dictionary (
 			  website_id
 			, seq
@@ -33,7 +33,7 @@
 			  #{websiteId,javaType=int,jdbcType=NUMERIC}
 			, #{seq,javaType=int,jdbcType=NUMERIC}
 			, #{term,jdbcType=VARCHAR}
-			, #{df,javaType=int,jdbcType=NUMERIC}
+			, #{docFreq,javaType=int,jdbcType=NUMERIC}
 			, NOW()
 			, NOW()	
 		)

@@ -23,5 +23,10 @@ PUBLIC "-//ibatis.apache.org//DTD Config 3.0//EN"
 		<mapper resource="ibatis/mapper/VertexMapper.xml" />
 		<mapper resource="ibatis/mapper/EdgeMapper.xml" />
 		<mapper resource="ibatis/mapper/UserBlogEntryMapper.xml" />
+		<mapper resource="ibatis/mapper/DictionaryMapper.xml" />
+		<mapper resource="ibatis/mapper/TopicTermMapper.xml" />
+		<mapper resource="ibatis/mapper/UserTermMapper.xml" />
+		<mapper resource="ibatis/mapper/TopicUserMapper.xml" />
+		<mapper resource="ibatis/mapper/TopicUserClusterMapper.xml" />
 	</mappers>
 </configuration>

@@ -4,7 +4,7 @@
 
 <mapper namespace="org.firebird.io.dao.TopicTermMapper">
 
-	<resultMap id="topicTermResultMap" type="org.firebird.analyzer.topic.TopicTerm">
+	<resultMap id="topicTermResultMap" type="org.firebird.io.model.TopicTerm">
 		<id property="topicId" column="topic_id" />
 		<result property="websiteId" column="website_id" />
 		<result property="topicId" column="topic_id" />
@@ -21,14 +21,14 @@
 		ORDER BY topic_id ASC
 	</select>
 	
-	<select id="selectTerms" parameterType="org.firebird.analyzer.topic.TopicTerm" resultMap="topicTermResultMap">
+	<select id="selectTerms" parameterType="org.firebird.io.model.TopicTerm" resultMap="topicTermResultMap">
 		SELECT *
 		FROM topic_term
 		WHERE website_id = #{websiteId} AND topic_id = #{topicId}
 		ORDER BY score DESC
 	</select>
 	
-	<insert id="insertTerm" parameterType="org.firebird.analyzer.topic.TopicTerm">
+	<insert id="insertTerm" parameterType="org.firebird.io.model.TopicTerm">
 		INSERT INTO topic_term (
 			  website_id
 			, topic_id

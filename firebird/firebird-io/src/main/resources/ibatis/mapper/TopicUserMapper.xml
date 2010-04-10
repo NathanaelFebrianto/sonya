@@ -4,7 +4,7 @@
 
 <mapper namespace="org.firebird.io.dao.TopicUserMapper">
 
-	<resultMap id="topicUserResultMap" type="org.firebird.analyzer.topic.TopicUser">
+	<resultMap id="topicUserResultMap" type="org.firebird.io.model.TopicUser">
 		<id property="topicId" column="topic_id" />
 		<result property="websiteId" column="website_id" />
 		<result property="topicId" column="topic_id" />
@@ -18,14 +18,14 @@
 		<result property="lastUpdateDate" column="last_update_date" />
 	</resultMap>
 
-	<select id="selectUsers" parameterType="org.firebird.analyzer.topic.TopicUser" resultMap="topicUserResultMap">
+	<select id="selectUsers" parameterType="org.firebird.io.model.TopicUser" resultMap="topicUserResultMap">
 		SELECT a.*, b.user_name
 		FROM topic_user a, vertex b
 		WHERE website_id = #{websiteId} AND a.user_id, b.user_id AND topic_id = #{topicId}
 		ORDER BY score DESC
 	</select>
 
-	<insert id="insertUser" parameterType="org.firebird.analyzer.topic.TopicUser">
+	<insert id="insertUser" parameterType="org.firebird.io.model.TopicUser">
 		INSERT INTO topic_user (
 			  website_id
 			, topic_id
@@ -57,7 +57,7 @@
 	
 	<!-- For Topic Clustering -->
 	
-	<select id="selectUsersInCluster" parameterType="org.firebird.analyzer.topic.TopicUser" resultMap="topicUserResultMap">
+	<select id="selectUsersInCluster" parameterType="org.firebird.io.model.TopicUser" resultMap="topicUserResultMap">
 		SELECT * 
 		FROM topic_user
 		WHERE website_id = #{websiteId} AND 
