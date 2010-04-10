@@ -45,4 +45,21 @@ public interface EdgeManager extends GenericManager {
      * @param edge the edge score
      */
 	public void setEdgeScore(Edge edge);
+	
+    /**
+     * Gets the edge.
+     *
+     * @param websiteId1 the websiteId1
+     * @param websiteId2 the websiteId2
+     * @param vertex1 the vertex from
+     * @param vertex2 the vertex to
+     * @param relationship the relationship
+     * @return Edge the edge
+     */
+	public Edge getEdge(
+			int websiteId1, 
+			int websiteId2, 
+			String vertex1, 
+			String vertex2, 
+			String relationship);
 }

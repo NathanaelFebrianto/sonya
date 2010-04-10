@@ -121,10 +121,15 @@
 	</update>
 	
 	<!-- For Topic Clustering -->
-	<select id="selectFollowingEdge" parameterType="org.firebird.io.model.Edge" resultMap="edgeResultMap">
+	<select id="selectEdge" parameterType="org.firebird.io.model.Edge" resultMap="edgeResultMap">
 		SELECT *
 		FROM edge
-		WHERE vertex1 = #{vertex1} AND vertex2 = #{vertex2} AND relationship = 1
+		WHERE
+			website_id1 = #{websiteId1}
+			AND website_id2 = #{websiteId2}
+			vertex1 = #{vertex1} 
+			AND vertex2 = #{vertex2} 
+			AND relationship = #{relationship}
 	</select>
 	
 </mapper>

@@ -4,7 +4,9 @@
  */
 package org.firebird.io.service.impl;
 
+import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.Set;
 
 import org.apache.ibatis.session.SqlSession;
 import org.firebird.common.service.GenericManagerImpl;
@@ -139,5 +141,65 @@ public class VertexManagerImpl extends GenericManagerImpl implements VertexManag
     	} finally {
     		session.close();
     	}		
+	}
+	
+    /**
+     * Gets the clusters.
+     *
+     * @param websiteId the website id
+     * @return List<Integer> the clusters
+     */
+	public List<Integer> getClusters(int websiteId) {
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		VertexMapper mapper = session.getMapper(VertexMapper.class);
+    		List<Integer> clusters = mapper.selectClusters(websiteId);
+    		return clusters;
+    	} finally {
+    		session.close();
+    	}
+	}
+	
+	/**
+     * Gets the vertices in the specific cluster.
+     *
+     * @param websiteId the website id
+     * @param cluster the cluster id
+     * @return List<Vertex> the vertices
+     */
+	public List<Vertex> getVerticesInCluster(int websiteId, int cluster) {
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		VertexMapper mapper = session.getMapper(VertexMapper.class);
+    		
+    		Vertex vertex = new Vertex();
+    		vertex.setWebsiteId(websiteId);
+    		vertex.setEdgeBetweennessCluster(cluster);    		
+    		List<Vertex> vertices = mapper.selectVerticesInCluster(vertex);
+    		return vertices;
+    	} finally {
+    		session.close();
+    	}		
+	}
+	
+	/**
+     * Gets the cluster set.
+     *
+     * @param websiteId the website id
+     * @return Set<Set<String>> the cluster set with vertex id
+     */
+	public Set<Set<String>> getClusterSet(int websiteId) {
+		Set<Set<String>> clusterSet = new LinkedHashSet<Set<String>>();
+		List<Integer> clusters = this.getClusters(websiteId);
+		
+		for (Integer cluster : clusters) {
+			Set<String> verticesSet = new LinkedHashSet<String>();			
+			List<Vertex> vertices = this.getVerticesInCluster(websiteId, cluster);			
+			for (Vertex vertex : vertices) {
+				verticesSet.add(vertex.getId());
+			}
+			clusterSet.add(verticesSet);
+		}		
+		return clusterSet;
 	}
 }

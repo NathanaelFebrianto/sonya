@@ -9,9 +9,7 @@ import java.util.List;
 import org.apache.ibatis.session.SqlSession;
 import org.firebird.common.service.GenericManagerImpl;
 import org.firebird.io.dao.UserBlogEntryMapper;
-import org.firebird.io.dao.VertexMapper;
 import org.firebird.io.model.UserBlogEntry;
-import org.firebird.io.model.Vertex;
 import org.firebird.io.service.UserBlogEntryManager;
 
 /**

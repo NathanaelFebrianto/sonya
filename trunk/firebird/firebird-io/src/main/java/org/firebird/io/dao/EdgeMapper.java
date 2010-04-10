@@ -45,4 +45,12 @@ public interface EdgeMapper extends GenericMapper {
      * @param edge the edge score
      */
 	public void updateEdgeScore(Edge edge);
+	
+    /**
+     * Selects the edge.
+     *
+     * @param edge the edge
+     * @return Edge the edge
+     */
+	public Edge selectEdge(Edge edge);
 }
