@@ -127,7 +127,7 @@
 		WHERE
 			website_id1 = #{websiteId1}
 			AND website_id2 = #{websiteId2}
-			vertex1 = #{vertex1} 
+			AND vertex1 = #{vertex1} 
 			AND vertex2 = #{vertex2} 
 			AND relationship = #{relationship}
 	</select>
