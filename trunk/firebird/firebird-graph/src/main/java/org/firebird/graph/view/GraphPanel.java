@@ -27,6 +27,7 @@ import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 
+import org.firebird.graph.bean.GraphClientHandler;
 import org.firebird.graph.view.tool.CollectorPanel;
 import org.firebird.io.model.Edge;
 import org.firebird.io.model.Vertex;
@@ -55,10 +56,12 @@ public class GraphPanel extends JPanel {
 	JSplitPane spaneContent;
 	/** left tab panel for tool */
 	JTabbedPane tpaneTool;
-	/** right split panel */
-	JSplitPane spaneRight;
-	/** right center tab panel */
-	JTabbedPane tpaneRightCenter;
+	/** right split panel for graph */
+	JSplitPane spaneRightGraph;
+	/** right split panel for topics */
+	JSplitPane spaneRightTopics;
+	/** right main tab panel */
+	JTabbedPane tpaneRight;
 	/** right bottom tab panel */
 	JTabbedPane tpaneRightBottom;
 	
@@ -66,6 +69,9 @@ public class GraphPanel extends JPanel {
 	VertexTable tblVertices;
 	/** edges table */
 	EdgeTable tblEdges;
+	
+	/** button to refresh table*/
+	JButton btnRefresh;
 
 	/**
 	 * Constructor.
@@ -138,32 +144,49 @@ public class GraphPanel extends JPanel {
 	}
 
 	private JComponent setupRightPanel() {
-		spaneRight = new JSplitPane(JSplitPane.VERTICAL_SPLIT);
-
-		spaneRight.setOneTouchExpandable(true);
-		spaneRight.setDividerLocation(490);
-		spaneRight.setTopComponent(setupRightCenterPanel());
-		spaneRight.setBottomComponent(setupRightBottomPanel());
-
-		return spaneRight;
-	}
-
-	private JComponent setupRightCenterPanel() {
-		tpaneRightCenter = new JTabbedPane(SwingConstants.TOP);
-
-		GraphZoomScrollPane panelViewer = new GraphZoomScrollPane(viewer);		
-		tpaneRightCenter.addTab(
+		// graph panel
+		spaneRightGraph = new JSplitPane(JSplitPane.VERTICAL_SPLIT);
+		spaneRightGraph.setOneTouchExpandable(true);
+		spaneRightGraph.setDividerLocation(490);
+		spaneRightGraph.setTopComponent(setupRightTopGraphViewPanel());
+		spaneRightGraph.setBottomComponent(setupRightBottomGraphTablePanel());
+		
+		// topics panel
+		// ...............................
+		
+		
+		// right main tabbed panel
+		tpaneRight = new JTabbedPane(SwingConstants.TOP);
+		tpaneRight.addTab(
 				UIHandler.getText("content.tab.graph"), 
 				UIHandler.getImageIcon("/bug.gif"), 
-				panelViewer);
+				spaneRightGraph);
 		
-		return tpaneRightCenter;
+		tpaneRight.addTab(
+				UIHandler.getText("content.tab.topics"), 
+				UIHandler.getImageIcon("/bug.gif"), 
+				new JTable());
+		
+		return tpaneRight;
+	}
+
+	private JComponent setupRightTopGraphViewPanel() {
+		GraphZoomScrollPane panelViewer = new GraphZoomScrollPane(viewer);		
+		return panelViewer;
 	}
 	
-	private JComponent setupRightBottomPanel() {
+	private JComponent setupRightBottomGraphTablePanel() {
 		JPanel panel = new JPanel(new BorderLayout());
 		
 		JPanel panelButtons = new JPanel(new FlowLayout(FlowLayout.LEFT));
+		
+		btnRefresh = new JButton(UIHandler.getText("button.refresh.table"));
+		ActionListener refreshTableActionListener = (ActionListener)(GenericListener.create(
+		        ActionListener.class,
+				"actionPerformed",
+				this,
+				"refreshTableAction"));		
+		btnRefresh.addActionListener(refreshTableActionListener);
 		
 		JButton btnInitColor = new JButton(UIHandler.getText("button.init.color"));
 		ActionListener initColorGraphActionListener = (ActionListener)(GenericListener.create(
@@ -181,6 +204,7 @@ public class GraphPanel extends JPanel {
 				"colorGraphAction"));		
 		btnColor.addActionListener(colorGraphActionListener);
 		
+		panelButtons.add(btnRefresh);
 		panelButtons.add(btnInitColor);
 		panelButtons.add(btnColor);
 		
@@ -320,9 +344,31 @@ public class GraphPanel extends JPanel {
 		}
 	}
 	
+	/**
+	 * Sets if the refresh table button is enabled or not.
+	 * 
+	 * @param enabled true if enabled
+	 */
+	public void setRefreshTableButtonEnabled(boolean enabled) {
+		btnRefresh.setEnabled(enabled);
+	}
+	
 	//////////////////////////////////////////
 	/*       Defines event actions.         */
 	//////////////////////////////////////////
+	
+	public void refreshTableAction(ActionEvent e) {
+		try {
+			GraphClientHandler handler = new GraphClientHandler();
+			
+			List<Vertex> vertices = handler.getVertices(1);
+	       	List<Edge> edges = handler.getEdges(1, 1);
+	    	
+	       	this.showGraphData(vertices, edges);  
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}	
+	}
 	
 	public void initColorGraphAction(ActionEvent e) {
 		viewer.initColor();

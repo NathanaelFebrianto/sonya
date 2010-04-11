@@ -33,8 +33,6 @@ import com.jgoodies.forms.builder.PanelBuilder;
 import com.jgoodies.forms.layout.CellConstraints;
 import com.jgoodies.forms.layout.FormLayout;
 
-import edu.uci.ics.jung.algorithms.layout.FRLayout;
-
 /**
  * A panel for a collector.
  * 
@@ -101,7 +99,7 @@ public class CollectorPanel extends JPanel {
 		else
 			chkboxDbstore.setEnabled(false);
 	}
-
+	
 	private void setupFields() {
 		comboWebsite = new JComboBox();
 		comboWebsite.addItem(new ObjectModel("Twitter", "1"));
@@ -112,6 +110,8 @@ public class CollectorPanel extends JPanel {
 		chkboxCollectFriend = new JCheckBox();
 		chkboxCollectFollower = new JCheckBox();
 		chkboxCollectBlog = new JCheckBox();
+		chkboxCollectBlog.setEnabled(false);
+		
 		spinLevelLimit = new JSpinner(new SpinnerNumberModel(2, 1, 5, 1));
 		spinDegreeLimit = new JSpinner(new SpinnerNumberModel(5, 1, 1000, 1));
 		spinPeopleLimit = new JSpinner(new SpinnerNumberModel(50, 1, 2000, 1));
