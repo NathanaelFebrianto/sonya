@@ -5,6 +5,7 @@
 package org.firebird.io.service;
 
 import java.util.List;
+import java.util.Set;
 
 import org.firebird.common.service.GenericManager;
 import org.firebird.io.model.TopicUserCluster;
@@ -38,5 +39,12 @@ public interface TopicUserClusterManager extends GenericManager {
      * @param websiteId the website id
      */
 	public void deleteUsers(int websiteId);
-	
+
+	/**
+     * Gets the topic cluster set.
+     *
+     * @param websiteId the website id
+     * @return Set<Set<String>> the cluster set with vertex id
+     */
+	public Set<Set<String>> getTopicClusterSet(int websiteId);
 }
