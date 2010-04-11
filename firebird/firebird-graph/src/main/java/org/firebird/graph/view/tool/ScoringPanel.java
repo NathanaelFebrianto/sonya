@@ -13,9 +13,6 @@ import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
 import javax.swing.JComponent;
 import javax.swing.JPanel;
-import javax.swing.JSpinner;
-import javax.swing.JTextField;
-import javax.swing.SpinnerNumberModel;
 import javax.swing.border.EmptyBorder;
 
 import org.firebird.analyzer.graph.scoring.ScoringConfig;
@@ -76,6 +73,7 @@ public class ScoringPanel extends JPanel {
 		chkboxBC = new JCheckBox();
 		chkboxCC = new JCheckBox();
 		chkboxEC = new JCheckBox();
+		chkboxEC.setEnabled(false);
 	}
 	
 	private void setupUI() {

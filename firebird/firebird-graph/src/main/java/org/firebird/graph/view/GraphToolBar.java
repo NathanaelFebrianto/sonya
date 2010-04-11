@@ -214,6 +214,7 @@ public class GraphToolBar extends JTabbedPane {
 					CollectorPanel tool = new CollectorPanel(panelGraph);
 					tool.setDBStorage(false);
 					panelGraph.setLeftToolPanel(e.getActionCommand(), tool);
+					panelGraph.setRefreshTableButtonEnabled(false);
 				} catch (Exception ex) {
 					ex.printStackTrace();
 				}
@@ -226,7 +227,8 @@ public class GraphToolBar extends JTabbedPane {
 			    	List<Vertex> vertices = handler.getVertices(1);
 			       	List<Edge> edges = handler.getEdges(1, 1);
 			    	
-			    	panelGraph.showGraph(vertices, edges);  
+			    	panelGraph.showGraph(vertices, edges);
+			    	panelGraph.setRefreshTableButtonEnabled(true);
 				} catch (Exception ex) {
 					ex.printStackTrace();
 				}
