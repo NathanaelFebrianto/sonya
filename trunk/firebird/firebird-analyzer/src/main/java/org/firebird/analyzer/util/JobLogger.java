@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2009-2010, Young-Gue Bae
+ * All rights reserved.
+ */
 package org.firebird.analyzer.util;
 
 import java.io.IOException;
@@ -8,6 +12,11 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PatternLayout;
 
+/**
+ * This class is a job logger.
+ * 
+ * @author Young-Gue Bae
+ */
 public class JobLogger {
 	
 	static JobLogger instance = null;
