@@ -14,7 +14,6 @@ import org.firebird.io.service.VertexManager;
 import org.firebird.io.service.impl.EdgeManagerImpl;
 import org.firebird.io.service.impl.VertexManagerImpl;
 
-import edu.uci.ics.jung.algorithms.scoring.PageRank;
 import edu.uci.ics.jung.graph.Graph;
 
 public class ScorerTest extends TestCase
@@ -60,7 +59,7 @@ public class ScorerTest extends TestCase
     		
     		Scorer scorer = new Scorer(graph);
     		scorer.setConfig(config);
-    		scorer.evaluate();    		
+    		//scorer.evaluate();    		
         } catch (Exception ex) {
         	ex.printStackTrace();
         }  	 
