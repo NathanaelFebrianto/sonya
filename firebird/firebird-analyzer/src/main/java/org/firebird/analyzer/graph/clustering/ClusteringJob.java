@@ -4,12 +4,12 @@
  */
 package org.firebird.analyzer.graph.clustering;
 
-import java.util.Calendar;
-import java.util.Iterator;
+import java.util.Date;
 import java.util.List;
-import java.util.Set;
 
 import org.firebird.analyzer.graph.GraphModeller;
+import org.firebird.analyzer.util.JobLogger;
+import org.firebird.analyzer.util.OutputFileReader;
 import org.firebird.io.model.Edge;
 import org.firebird.io.model.Vertex;
 import org.firebird.io.service.EdgeManager;
@@ -25,64 +25,99 @@ import edu.uci.ics.jung.graph.Graph;
  * @author Young-Gue Bae
  */
 public class ClusteringJob {
+	/** logger */
+	private static JobLogger logger = JobLogger.getLogger(ClusteringJob.class);
+	
+	/** configuration */
+	private int websiteId = 1;
+	private String ebOutputFile;
+	private String voOutputFile;
+	
+	/**
+	 * Constructor.
+	 * 
+	 */
+	public ClusteringJob() {
+		this.websiteId = 1;
+		this.ebOutputFile = "D:/firebird/clusters_edgebetweenness.txt";
+		this.voOutputFile = "D:/firebird/clusters_voltage.txt";
+	}
+	
+	private void clusterByEdgeBetweennessClusterer(Graph<Vertex, Edge> graph, int numEdgesToRemove) throws Exception {
+		Clusterer clusterer = new Clusterer(graph);
+		clusterer.clusterByEdgeBetweennessClusterer(ebOutputFile, numEdgesToRemove);
+	}
+	
+	private void clusterByVoltageClusterer(Graph<Vertex, Edge> graph, int numCandidates, int numClusters) throws Exception {
+		Clusterer clusterer = new Clusterer(graph);
+		clusterer.clusterByVoltageClusterer(voOutputFile, numCandidates, numClusters);
+	}
+	
+	private void storeEdgeBetweennessClusterSet() throws Exception {
+		logger.info("storeEdgeBetweennessClusterSet..............");
+		
+		OutputFileReader outputReader = new OutputFileReader(websiteId);
+		List<Vertex> vertices = outputReader.loadEdgeBetweennessClusters(ebOutputFile);
+		
+		VertexManager vertexManager = new VertexManagerImpl();
+		
+		for (Vertex vertex : vertices) {
+			vertexManager.setVertexCluster(vertex);
+		}
+	}
+	
+	private void storeVoltageClusterSet() throws Exception {
+		logger.info("storeVoltageClusterSet..............");
+		
+		OutputFileReader outputReader = new OutputFileReader(websiteId);
+		List<Vertex> vertices = outputReader.loadVoltageClusters(voOutputFile);
+		
+		VertexManager vertexManager = new VertexManagerImpl();
+		
+		for (Vertex vertex : vertices) {
+			vertexManager.setVertexCluster(vertex);
+		}
+	}
 	
 	public static void main(String[] args) {
     	try {    		
-        	VertexManager vertexManager = new VertexManagerImpl();
+    		ClusteringJob job = new ClusteringJob();
+    		
+    		VertexManager vertexManager = new VertexManagerImpl();
         	EdgeManager edgeManager = new EdgeManagerImpl();
         	GraphModeller modeller = new GraphModeller();
         	
         	List<Vertex> vertices = vertexManager.getVertices(1);
-        	List<Edge> edges = edgeManager.getEdges(1, 1);
-        	
+        	List<Edge> edges = edgeManager.getEdges(1, 1);        	
         	Graph<Vertex, Edge> graph = modeller.createGraph(vertices, edges);
-    		
-    		Clusterer clusterer = new Clusterer(graph);
-    		
+
+    		// start time
+    		Date startTime = new Date();
+    		logger.info("\n\n******************************************");
+    		logger.info("Start Clustering : " + startTime);
+        	
     		// EdgeBetweenness Clusterer
-    		
-    		System.out.println("Start Clustering : " + Calendar.getInstance().getTime());
-    		int numEdgesToRemove = 1000;
-    		Set<Set<Vertex>> clusterSet = clusterer.clusterByEdgeBetweennessClusterer(numEdgesToRemove);
-    		System.out.println("Finish Clustering : " + Calendar.getInstance().getTime());
-    		
-    		int cluster = 1;
-    		for (Iterator<Set<Vertex>> it1 = clusterSet.iterator(); it1.hasNext();) {
-    			System.out.println("----------------------------------");
-    			System.out.println("cluster == " + cluster);
-    			Set<Vertex> verticesSet = (Set<Vertex>) it1.next();
-     			for (Iterator<Vertex> it2 = verticesSet.iterator(); it2.hasNext();) {
-    				Vertex vertex = (Vertex) it2.next();
-    				System.out.println("vertex == " + vertex.getId());
-    				vertex.setEdgeBetweennessCluster(cluster);    				
-    				vertexManager.setVertexCluster(vertex);
-    			}
-    			cluster++;
-    		}
-    		
+        	int numEdgesToRemove = 700;
+        	job.clusterByEdgeBetweennessClusterer(graph, numEdgesToRemove);
+        	
+        	
     		// Voltage Clusterer
-    		/*
-    		System.out.println("Start Clustering : " + Calendar.getInstance().getTime());
-    		int numCandidates = 3000;
-    		int numClusters = 100;
-    		Collection<Set<Vertex>> clusterSet = clusterer.clusterByVoltageClusterer(numCandidates, numClusters);
-    		System.out.println("Finish Clustering : " + Calendar.getInstance().getTime());
-    		int cluster = 0;
-    		for (Iterator<Set<Vertex>> it1 = clusterSet.iterator(); it1.hasNext();) {
-    			System.out.println("----------------------------------");
-    			System.out.println("cluster == " + cluster);
-    			Set<Vertex> verticesSet = (Set<Vertex>) it1.next();
-     			for (Iterator<Vertex> it2 = verticesSet.iterator(); it2.hasNext();) {
-    				Vertex vertex = (Vertex) it2.next();
-    				System.out.println("vertex == " + vertex.getId());
-    				vertex.setVoltageCluster(cluster);    				
-    				vertexManager.setVertexCluster(vertex);
-    			}
-    			cluster++;
-    		}
-    		*/ 		
+        	//int numCandidates = 3000;
+        	//int numClusters = 300;
+        	//job.clusterByVoltageClusterer(graph, numCandidates, numClusters);
+        	
+    		// end time
+    		Date endTime = new Date();
+    		logger.info("Finish Clustering : " + endTime);
+    		logger.jobSummary("Clustering", startTime, endTime);
+    		
+        	// store to database
+        	job.storeEdgeBetweennessClusterSet();
+        	//job.storeVoltageClusterSet();
+        	
      	} catch (Exception e) {
         	e.printStackTrace();
+        	logger.error(e.getMessage(), e);
         }  
 	}
 	

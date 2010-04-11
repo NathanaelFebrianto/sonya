@@ -13,6 +13,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+import org.firebird.analyzer.util.JobLogger;
 import org.firebird.io.model.TopicTerm;
 import org.firebird.io.model.TopicUser;
 import org.firebird.io.model.UserTerm;
@@ -24,7 +25,9 @@ import org.firebird.io.model.UserTerm;
  * @author Young-Gue Bae
  */
 public class TopicUserWriter {
-
+	/** logger */
+	private static JobLogger logger = JobLogger.getLogger(TopicUserWriter.class);
+	
 	/**
 	 * Constructor.
 	 * 
@@ -96,11 +99,11 @@ public class TopicUserWriter {
 		float score = topicUser.calculateScore();
 		topicUser.setScore(score);
 		
-		System.out.println("------------------------------------------");
-		System.out.println("topic id == " + topicId);
-		System.out.println("user id == " + userId);
-		System.out.println("topic terms == " + topicUser.toTopicTermsString());
-		System.out.println("user match terms == " + topicUser.toUserMatchTermsString());
+		logger.info("------------------------------------------");
+		logger.info("topic id == " + topicId);
+		logger.info("user id == " + userId);
+		logger.info("topic terms == " + topicUser.toTopicTermsString());
+		logger.info("user match terms == " + topicUser.toUserMatchTermsString());
 		
 		return topicUser;
 	}

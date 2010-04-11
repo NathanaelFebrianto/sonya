@@ -4,9 +4,14 @@
  */
 package org.firebird.analyzer.graph.clustering;
 
+import java.io.File;
+import java.io.FileWriter;
+import java.io.PrintWriter;
 import java.util.Collection;
+import java.util.Iterator;
 import java.util.Set;
 
+import org.firebird.analyzer.util.JobLogger;
 import org.firebird.io.model.Edge;
 import org.firebird.io.model.Vertex;
 
@@ -21,6 +26,8 @@ import edu.uci.ics.jung.graph.Graph;
  * @author Young-Gue Bae
  */
 public final class Clusterer {
+	/** logger */
+	private static JobLogger logger = JobLogger.getLogger(Clusterer.class);
 	
 	/** graph */
 	Graph<Vertex, Edge> graph;
@@ -46,24 +53,72 @@ public final class Clusterer {
 	/**
 	 * Clusters the graph by the EdgeBetweenness Clusterer.
 	 * 
+	 * @param outputFile the output file to write
+	 * @param numEdgesToRemove the number of edges to remove
 	 * @return Set<Set<Vertex>> the set of vertex
+	 * @exception
 	 */
-	public Set<Set<Vertex>> clusterByEdgeBetweennessClusterer(int numEdgesToRemove) {
+	public Set<Set<Vertex>> clusterByEdgeBetweennessClusterer(String outputFile, int numEdgesToRemove) throws Exception {
+		logger.info("Clustering by EdgeBetweennessClusterer..............");
 		EdgeBetweennessClusterer<Vertex, Edge> clusterer = new EdgeBetweennessClusterer<Vertex, Edge>(numEdgesToRemove);
-		Set<Set<Vertex>> set = clusterer.transform(graph);
+		Set<Set<Vertex>> clusterSet = clusterer.transform(graph);
 		
-		return set;
+		logger.info("Writing the clustering result to: " + outputFile);
+		this.writeEdgeBetweennessClusterSet(outputFile, clusterSet);
+		
+		return clusterSet;
 	}
 	
 	/**
 	 * Clusters the graph by the Voltage Clusterer.
 	 * 
+	 * @param outputFile the output file to write
+	 * @param numClusters the number of clusters
 	 * @return Collection<Set<Vertex>> the collection of vertex
 	 */
-	public Collection<Set<Vertex>> clusterByVoltageClusterer(int numCandidates, int numClusters) {
+	public Collection<Set<Vertex>> clusterByVoltageClusterer(String outputFile, int numCandidates, int numClusters) throws Exception {
+		logger.info("Clustering by VoltageClusterer..............");
 		VoltageClusterer<Vertex, Edge> clusterer = new VoltageClusterer<Vertex, Edge>(graph, numCandidates);
-		Collection<Set<Vertex>> collection = clusterer.cluster(numClusters);
-		return collection;
+		Collection<Set<Vertex>> clusterSet = clusterer.cluster(numClusters);
+		
+		logger.info("Writing the clustering result to: " + outputFile);
+		this.writeVoltageClusterSet(outputFile, clusterSet);
+		
+		return clusterSet;
+	}
+	
+	private void writeEdgeBetweennessClusterSet(String outputFile, Set<Set<Vertex>> clusterSet) throws Exception {
+		File out = new File(outputFile);
+		PrintWriter writer = new PrintWriter(new FileWriter(out));
+
+		writer.println("#cluster	vertex");
+		
+		int cluster = 1;
+		for (Iterator<Set<Vertex>> it1 = clusterSet.iterator(); it1.hasNext();) {
+			Set<Vertex> verticesSet = (Set<Vertex>) it1.next();
+ 			for (Iterator<Vertex> it2 = verticesSet.iterator(); it2.hasNext();) {
+				Vertex vertex = (Vertex) it2.next();
+				writer.println(cluster + "\t" + vertex.getId());
+			}
+			cluster++;
+		}
+	}
+	
+	private void writeVoltageClusterSet(String outputFile, Collection<Set<Vertex>> clusterSet) throws Exception {
+		File out = new File(outputFile);
+		PrintWriter writer = new PrintWriter(new FileWriter(out));
+		
+		writer.println("#cluster	vertex");
+		
+		int cluster = 0;
+		for (Iterator<Set<Vertex>> it1 = clusterSet.iterator(); it1.hasNext();) {
+			Set<Vertex> verticesSet = (Set<Vertex>) it1.next();
+ 			for (Iterator<Vertex> it2 = verticesSet.iterator(); it2.hasNext();) {
+				Vertex vertex = (Vertex) it2.next();
+				writer.println(cluster + "\t" + vertex.getId());
+			}
+			cluster++;
+		}
 	}
 
 }

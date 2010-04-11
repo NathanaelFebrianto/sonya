@@ -21,9 +21,8 @@ import org.apache.lucene.document.Field;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
+import org.firebird.analyzer.util.JobLogger;
 import org.firebird.common.util.ConvertUtil;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /**
  * This class creates an index with Lucene from the text files.
@@ -737,7 +736,8 @@ public class DocIndexWriter {
 		ENGLISH_STOP_WORDS_SET = CharArraySet.unmodifiableSet(stopSet);
 	}
 	
-	private static final Logger log = LoggerFactory.getLogger(DocIndexWriter.class);
+	/** logger */
+	private static JobLogger logger = JobLogger.getLogger(DocIndexWriter.class);
 	
 	/**
 	 * Constructor.
@@ -753,7 +753,6 @@ public class DocIndexWriter {
 	 * @exception
 	 */
 	public void write(String inputDir, String ouputDir) throws Exception {
-		
 		File fileDir = new File(inputDir);
 		FSDirectory indexDir = FSDirectory.open(new File(ouputDir));
 		
@@ -761,13 +760,11 @@ public class DocIndexWriter {
 		Analyzer luceneAnalyzer = new StopAnalyzer(Version.LUCENE_CURRENT, ENGLISH_STOP_WORDS_SET);
 		IndexWriter indexWriter = new IndexWriter(indexDir, luceneAnalyzer, true, IndexWriter.MaxFieldLength.UNLIMITED);
 		File[] textFiles = fileDir.listFiles();
-		long startTime = new Date().getTime();
-
+		
 		// add documents to the index
 		for (int i = 0; i < textFiles.length; i++) {
 			if (textFiles[i].getName().endsWith(".txt")) {
-				//log.info("creating index : {}", textFiles[i].getCanonicalPath());
-				System.out.println("creating index : " + textFiles[i].getCanonicalPath());
+				logger.info("creating index : " + textFiles[i].getCanonicalPath());
 				
 				Reader textReader = new FileReader(textFiles[i]);
 				
@@ -775,9 +772,8 @@ public class DocIndexWriter {
 		        BufferedReader reader = new BufferedReader(textReader);
 		        String timeline = reader.readLine();
 		        String userId = reader.readLine();
-		        //log.info("userId == {}", userId);
-		        System.out.println("timeline == " + timeline);
-		        System.out.println("userId == " + userId);
+		        logger.info("timeline == " + timeline);
+		        logger.info("userId == " + userId);
 		        reader.readLine();// skip an empty line
 
 		        StringBuffer bodyBuffer = new StringBuffer(1024);
@@ -787,8 +783,7 @@ public class DocIndexWriter {
 		        }
 		        reader.close();
 		        
-		        //log.info("body == {}\n", bodyBuffer.toString());
-		        System.out.println("body == " + bodyBuffer.toString()+ "\n");
+		        logger.info("body == " + bodyBuffer.toString()+ "\n");
 		        
 				Document document = new Document();
 				document.add(new Field("user", userId, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
@@ -802,14 +797,6 @@ public class DocIndexWriter {
 
 		indexWriter.optimize();
 		indexWriter.close();
-		long endTime = new Date().getTime();
-
-		//log.info("It took {} milliseconds to create an index from the files in the directory {}",
-		//				(endTime - startTime), 
-		//				fileDir.getPath());
-		System.out.println("It took " + (endTime - startTime) 
-				+ "milliseconds to create an index from the files in the directory "
-				+ fileDir.getPath());
 	}
 	
 }

@@ -26,8 +26,7 @@ import org.apache.mahout.common.HadoopUtil;
 import org.apache.mahout.common.IntPairWritable;
 import org.apache.mahout.common.RandomUtils;
 import org.apache.mahout.math.DenseMatrix;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.firebird.analyzer.util.JobLogger;
 
 /**
  * This class for running a LDA algorithm in Apache Mahout.
@@ -40,18 +39,18 @@ import org.slf4j.LoggerFactory;
  * @author Young-Gue Bae
  */
 public class LDAAnalyzer {
+	/** logger */
+	private static JobLogger logger = JobLogger.getLogger(LDAAnalyzer.class);
 
-	  static final String STATE_IN_KEY = "org.apache.mahout.clustering.lda.stateIn";
-	  static final String NUM_TOPICS_KEY = "org.apache.mahout.clustering.lda.numTopics";
-	  static final String NUM_WORDS_KEY = "org.apache.mahout.clustering.lda.numWords";
-	  static final String TOPIC_SMOOTHING_KEY = "org.apache.mahout.clustering.lda.topicSmoothing";
-	  
-	  static final int LOG_LIKELIHOOD_KEY = -2;
-	  static final int TOPIC_SUM_KEY = -1;
-	  static final double OVERALL_CONVERGENCE = 1.0E-5;
-	  
-	  private static final Logger log = LoggerFactory.getLogger(LDAAnalyzer.class);
-	
+	static final String STATE_IN_KEY = "org.apache.mahout.clustering.lda.stateIn";
+	static final String NUM_TOPICS_KEY = "org.apache.mahout.clustering.lda.numTopics";
+	static final String NUM_WORDS_KEY = "org.apache.mahout.clustering.lda.numWords";
+	static final String TOPIC_SMOOTHING_KEY = "org.apache.mahout.clustering.lda.topicSmoothing";
+
+	static final int LOG_LIKELIHOOD_KEY = -2;
+	static final int TOPIC_SUM_KEY = -1;
+	static final double OVERALL_CONVERGENCE = 1.0E-5;
+
 	/**
 	 * Constructor.
 	 * 
@@ -148,9 +147,8 @@ public class LDAAnalyzer {
 		boolean converged = false;
 
 		for (int iteration = 0; ((maxIterations < 1) || (iteration < maxIterations))
-				&& !converged; iteration++) {
-			log.info("Iteration {}", iteration);
-			//System.out.println("Iteration: " + iteration);
+				&& !converged; iteration++) {			
+			logger.info("Iteration: " + iteration);
 			
 			// point the output to a new directory per iteration
 			String stateOut = output + "/state-" + (iteration + 1);
@@ -159,12 +157,9 @@ public class LDAAnalyzer {
 			double relChange = (oldLL - ll) / oldLL;
 
 			// now point the input to the old output directory
-			log.info("Iteration {} finished. Log Likelihood: {}", iteration, ll);
-			log.info("(Old LL: {})", oldLL);
-			log.info("(Rel Change: {})", relChange);			
-			//System.out.println("Iteration " + iteration + " finished. Log Likelihood: " + ll);
-			//System.out.println("(Old LL: " + oldLL + ")");
-			//System.out.println("(Rel Change: " + relChange + ")");
+			logger.info("Iteration " + iteration + " finished. Log Likelihood: " + ll);
+			logger.info("(Old LL: " + oldLL + ")");
+			logger.info("(Rel Change: " + relChange + ")");
 
 			converged = (iteration > 2) && (relChange < OVERALL_CONVERGENCE);
 			stateIn = stateOut;

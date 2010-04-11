@@ -8,6 +8,7 @@ import java.math.BigDecimal;
 import java.util.Collection;
 import java.util.Iterator;
 
+import org.firebird.analyzer.util.JobLogger;
 import org.firebird.io.model.Edge;
 import org.firebird.io.model.Vertex;
 
@@ -24,7 +25,9 @@ import edu.uci.ics.jung.graph.Graph;
  * 
  * @author Young-Gue Bae
  */
-public final class Scorer {
+public final class Scorer {	
+	/** logger */
+	private static JobLogger logger = JobLogger.getLogger(Scorer.class);
 	
 	/** Scoring Config */
 	ScoringConfig config;
@@ -87,7 +90,7 @@ public final class Scorer {
 	 * @return Graph<Vertex, Edge> the graph
 	 * @exception
 	 */
-	public Graph<Vertex, Edge> evaluate() throws Exception {
+	public Graph<Vertex, Edge> evaluate() throws Exception {		
 		// PageRank
 		if (config.isEnblePageRank()) {
 			pr = new PageRank<Vertex, Edge>(graph, 0.15);
@@ -137,9 +140,9 @@ public final class Scorer {
 	}
 	
 	private void storeVertexScoreToGraph() throws Exception {
-    	System.out.println("---------------------------------------------------------------------------------------------");
-    	System.out.println("USERID | IN | OUT | PAGERANK | AUTHORITY | HUB | BETWEENNESS | CLOSENESS | EIGENVECTOR");
-    	System.out.println("---------------------------------------------------------------------------------------------");		
+    	logger.info("---------------------------------------------------------------------------------------------");
+    	logger.info("USERID | IN | OUT | PAGERANK | AUTHORITY | HUB | BETWEENNESS | CLOSENESS | EIGENVECTOR");
+    	logger.info("---------------------------------------------------------------------------------------------");		
 		
 		Collection<Vertex> vertices = graph.getVertices();
     	
@@ -219,7 +222,7 @@ public final class Scorer {
     			out.append("");
     		}
 
-    		System.out.println(out.append("\n"));
+    		logger.info(out.toString());
     	}   	
 	}
 
@@ -228,10 +231,10 @@ public final class Scorer {
 		if (config.isEnableBetweennessCentrality()) {
         	Collection<Edge> edges = graph.getEdges();
         	
-        	System.out.println("----------------------------------------------");
-        	System.out.println("Algorithm : Betweenness Centrality");
-        	System.out.println("USERID1 -> USERID2 | BETWEENNESS");
-        	System.out.println("----------------------------------------------");
+        	logger.info("----------------------------------------------");
+        	logger.info("Algorithm : Betweenness Centrality");
+        	logger.info("USERID1 -> USERID2 | BETWEENNESS");
+        	logger.info("----------------------------------------------");
         	
         	Iterator<Edge> it = edges.iterator();
         	while(it.hasNext()) { 
@@ -244,7 +247,7 @@ public final class Scorer {
         		out.append(e.getVertex1() + " -> " + e.getVertex2()).append("|");
         		out.append(new BigDecimal(edgeScore).setScale(0, BigDecimal.ROUND_HALF_UP));
         		
-        		System.out.println(out.append("\n"));
+        		logger.info(out.toString());
          	}    		
     	}		
 	}
