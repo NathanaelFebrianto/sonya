@@ -13,10 +13,9 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.firebird.analyzer.util.JobLogger;
 import org.firebird.common.util.ConvertUtil;
 import org.firebird.io.model.UserBlogEntry;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /**
  * This class extracts documents from the source data.
@@ -24,9 +23,10 @@ import org.slf4j.LoggerFactory;
  * @author Young-Gue Bae
  */
 public class DocSourceWriter {
+	/** logger */
+	private static JobLogger logger = JobLogger.getLogger(DocSourceWriter.class);
 
 	private File fileDir;	
-	private static final Logger log = LoggerFactory.getLogger(DocSourceWriter.class);
 	
 	/**
 	 * Constructor.
@@ -71,16 +71,16 @@ public class DocSourceWriter {
 	        String timeline = ConvertUtil.convertDateToString("yyyyMMdd", lastDate);
 
 	        File outFile = new File(fileDir, "doc-" + userId + ".txt");
-	        //log.info("writing to file = {}", outFile);
-	        System.out.println("writing to file = " + outFile);
+	        logger.info("writing to file = " + outFile);
 	        
 	        FileWriter writer = new FileWriter(outFile);
 	        writer.write(timeline + "\n");
 	        writer.write(out);
 	        writer.close();
-	        outBuffer.setLength(0);	        
+	        outBuffer.setLength(0);	 		
 		} catch (IOException e) {
 			e.printStackTrace();
+			logger.error(e.getMessage(), e);
 			throw new RuntimeException(e);
 		}
 	}	
@@ -93,13 +93,12 @@ public class DocSourceWriter {
 		
 		Matcher matcher = EXTRACTION_PATTERN.matcher(buffer);
 		
-		//log.info("source == {}", body);
-		System.out.println("source == " + body);
+		logger.info("source == " + body);
 		
         while (matcher.find()) {
             for (int i = 1; i <= matcher.groupCount(); i++) {
                 if (matcher.group(i) != null) {
-                	log.info("{} == {}", i, matcher.group(i));
+                	logger.info(i + " == " + matcher.group(i));
                 	if (i == 1)
                 		try { out = out.replaceAll("@"+matcher.group(i)+"\\s", ""); } catch (Exception e) { e.printStackTrace(); }
                 		
@@ -117,8 +116,7 @@ public class DocSourceWriter {
                 }
             }            
         }
-        //log.info("output == {}", out);
-        System.out.println("output == " + out);
+        logger.info("output == " + out);
         
         return out;
 	}

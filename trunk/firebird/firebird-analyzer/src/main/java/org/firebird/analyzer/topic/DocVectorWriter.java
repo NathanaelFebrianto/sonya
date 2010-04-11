@@ -33,8 +33,7 @@ import org.apache.mahout.utils.vectors.lucene.CachedTermInfo;
 import org.apache.mahout.utils.vectors.lucene.LuceneIterable;
 import org.apache.mahout.utils.vectors.lucene.TFDFMapper;
 import org.apache.mahout.utils.vectors.lucene.VectorMapper;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.firebird.analyzer.util.JobLogger;
 
 /**
  * This class creates vectors with Mahout from the index files.
@@ -46,9 +45,9 @@ import org.slf4j.LoggerFactory;
  * 
  * @author Young-Gue Bae
  */
-public class DocVectorWriter {
-	
-	private static final Logger log = LoggerFactory.getLogger(DocVectorWriter.class);
+public class DocVectorWriter {	
+	/** logger */
+	private static JobLogger logger = JobLogger.getLogger(DocVectorWriter.class);
 	
 	/**
 	 * Constructor.
@@ -146,8 +145,7 @@ public class DocVectorWriter {
 				} else {
 					iterable = new LuceneIterable(reader, idField, field, mapper, norm);
 				}
-				//log.info("Output File: {}", outputFile);
-				System.out.println("Output File: " + outputFile);
+				logger.info("Output File: " + outputFile);
 
 				VectorWriter vectorWriter;
 				if (outputWriter != null) {
@@ -163,14 +161,12 @@ public class DocVectorWriter {
 
 				long numDocs = vectorWriter.write(iterable, maxDocs);
 				vectorWriter.close();
-				//log.info("Wrote: {} vectors", numDocs);
-				System.out.println("Wrote: " + numDocs + " vectors");
+				logger.info("Wrote: " + numDocs + " vectors");
 
 				if (delimiter == null) delimiter = "\t";
 				
 				File dictOutFile = new File(dictOut);
-				//log.info("Dictionary Output file: {}", dictOutFile);
-				System.out.println("Dictionary Output file: " + dictOutFile);
+				logger.info("Dictionary Output file: " + dictOutFile);
 				
 				BufferedWriter writer = new BufferedWriter(
 						new OutputStreamWriter(

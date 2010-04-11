@@ -27,9 +27,8 @@ import org.apache.hadoop.io.DoubleWritable;
 import org.apache.hadoop.io.SequenceFile;
 import org.apache.mahout.common.IntPairWritable;
 import org.apache.mahout.utils.vectors.VectorHelper;
+import org.firebird.analyzer.util.JobLogger;
 import org.firebird.io.model.TopicTerm;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 /**
  * This class is to print out the top K words for each topic. 
@@ -41,8 +40,8 @@ import org.slf4j.LoggerFactory;
  * @author Young-Gue Bae
  */
 public class LDATopics {
-
-	private static final Logger log = LoggerFactory.getLogger(LDATopics.class);
+	/** logger */
+	private static JobLogger logger = JobLogger.getLogger(LDATopics.class);
 
 	/**
 	 * StringDoublePair
@@ -139,8 +138,8 @@ public class LDATopics {
 	 * @param dictFile
 	 * 			The dictionary to read in, in the same format as one created by 
      *     		org.apache.mahout.utils.vectors.lucene.Driver
-	 * @param output
-	 * 			The output directory to write top words
+	 * @param outputFile
+	 * 			The output file to write top words
 	 * @param numWords
 	 * 			The number of words to print
 	 * @param dictType
@@ -286,10 +285,10 @@ public class LDATopics {
 		while (it.hasNext()) {
 			Object topicId = it.next();
 			List<TopicTerm> topK = (List<TopicTerm>) topTerms.get(topicId);
-			System.out.println("Topic " + topicId);
-			System.out.println("===========");
+			logger.info("Topic " + topicId);
+			logger.info("===========");
 			for (TopicTerm topicTerm : topK) {
-				System.out.println(topicTerm.getTerm());
+				logger.info(topicTerm.getTerm());
 			}
 		}
 	}

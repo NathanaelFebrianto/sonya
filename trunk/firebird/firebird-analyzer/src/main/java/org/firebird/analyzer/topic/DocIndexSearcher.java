@@ -25,6 +25,7 @@ import org.apache.lucene.search.Query;
 import org.apache.lucene.search.TermQuery;
 import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.store.FSDirectory;
+import org.firebird.analyzer.util.JobLogger;
 import org.firebird.io.model.UserTerm;
 
 /**
@@ -33,7 +34,7 @@ import org.firebird.io.model.UserTerm;
  * @author Young-Gue Bae
  */
 public class DocIndexSearcher {
-
+	private static JobLogger logger = JobLogger.getLogger(DocIndexSearcher.class);
 	private IndexSearcher searcher;
 	private IndexReader reader;
 	
@@ -120,15 +121,15 @@ public class DocIndexSearcher {
 		Term term = new Term("body", word);
 		Query query = new TermQuery(term);
 		
-		System.out.println("--------------------------------------");
-		System.out.println("search term == " + term.toString());
+		logger.info("--------------------------------------");
+		logger.info("search term == " + term.toString());
 		
 		//int docFreq = searcher.docFreq(term);
 		//System.out.println("docFreq == " + docFreq);		
 		
 		TopDocs rs = searcher.search(query, null, 1000);
-		System.out.println("total hits(docFreq) == " + rs.totalHits);
-		System.out.println("--------------------------------------\n");
+		logger.info("total hits(docFreq) == " + rs.totalHits);
+		logger.info("--------------------------------------\n");
 		
 		DefaultSimilarity similarity = new DefaultSimilarity();		
 		
@@ -148,13 +149,13 @@ public class DocIndexSearcher {
 			int termFreq = tfs[tfv.indexOf(word)];
 			
 			Explanation explanation = searcher.explain(query, docId);
-			System.out.println(explanation.toString());
+			logger.info(explanation.toString());
 			
 			float tf = similarity.tf(termFreq);
 			float idf = similarity.idf(rs.totalHits, searcher.maxDoc());
 			
-			//System.out.println("TF == " + tf);
-			//System.out.println("IDF == " + idf);
+			//logger.info("TF == " + tf);
+			//logger.info("IDF == " + idf);
 			
 			UserTerm userTerm = new UserTerm();
 			userTerm.setDocId(docId);

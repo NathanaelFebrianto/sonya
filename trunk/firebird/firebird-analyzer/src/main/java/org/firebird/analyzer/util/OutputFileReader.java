@@ -2,7 +2,7 @@
  * Copyright (c) 2009-2010, Young-Gue Bae
  * All rights reserved.
  */
-package org.firebird.analyzer.topic;
+package org.firebird.analyzer.util;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -17,6 +17,7 @@ import org.firebird.io.model.Dictionary;
 import org.firebird.io.model.TopicTerm;
 import org.firebird.io.model.TopicUser;
 import org.firebird.io.model.UserTerm;
+import org.firebird.io.model.Vertex;
 
 /**
  * This class reads output data from output files.
@@ -208,6 +209,78 @@ public class OutputFileReader {
 			topicUser.setUserMatchTermsString(strUserMatchTerms);
 			
 			result.add(topicUser);
+		}
+		return result;
+	}
+	
+	/**
+	 * Reads edge-betweenness clusters in a clusters file. Format is: First line is the column header.
+	 * 
+	 * @param clustersFile the clusters file
+	 * @return List<Vertex> the list of vertex
+	 * @exception
+	 */
+	public List<Vertex> loadEdgeBetweennessClusters(String clustersFile) throws IOException {
+		List<Vertex> result = new ArrayList<Vertex>();
+		
+		InputStream is = new FileInputStream(new File(clustersFile));
+		FileLineIterator it = new FileLineIterator(is);
+
+		while (it.hasNext()) {
+			String line = it.next();
+			if (line.startsWith("#")) {
+				continue;
+			}
+			String[] tokens = OutputFileReader.TAB_PATTERN.split(line);
+			if (tokens.length < 2) {
+				continue;
+			}
+			
+			int cluster = Integer.parseInt(tokens[0]);
+			String vertexId = tokens[1];
+			
+			Vertex vertex = new Vertex();
+			vertex.setWebsiteId(websiteId);
+			vertex.setId(vertexId);
+			vertex.setEdgeBetweennessCluster(cluster);
+			
+			result.add(vertex);
+		}
+		return result;
+	}
+	
+	/**
+	 * Reads voltage clusters in a clusters file. Format is: First line is the column header.
+	 * 
+	 * @param clustersFile the clusters file
+	 * @return List<Vertex> the list of vertex
+	 * @exception
+	 */
+	public List<Vertex> loadVoltageClusters(String clustersFile) throws IOException {
+		List<Vertex> result = new ArrayList<Vertex>();
+		
+		InputStream is = new FileInputStream(new File(clustersFile));
+		FileLineIterator it = new FileLineIterator(is);
+
+		while (it.hasNext()) {
+			String line = it.next();
+			if (line.startsWith("#")) {
+				continue;
+			}
+			String[] tokens = OutputFileReader.TAB_PATTERN.split(line);
+			if (tokens.length < 2) {
+				continue;
+			}
+			
+			int cluster = Integer.parseInt(tokens[0]);
+			String vertexId = tokens[1];
+			
+			Vertex vertex = new Vertex();
+			vertex.setWebsiteId(websiteId);
+			vertex.setId(vertexId);
+			vertex.setVoltageCluster(cluster);
+			
+			result.add(vertex);
 		}
 		return result;
 	}
