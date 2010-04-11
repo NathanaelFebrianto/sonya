@@ -225,7 +225,7 @@
 	<!-- For Clustering / Topic Clustering -->
 
 	<update id="updateVertexCluster" parameterType="org.firebird.io.model.Vertex">
-		UPDATE vertex 
+		UPDATE vertex SET
 			  edge_betweenness_cluster = #{edgeBetweennessCluster}
 			, voltage = #{voltageCluster}
 		WHERE

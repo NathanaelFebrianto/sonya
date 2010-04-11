@@ -84,12 +84,14 @@ public class TopicUserManagerImpl extends GenericManagerImpl implements TopicUse
      * Gets the topic users in the specific cluster.
      *
      * @param websiteId the website id
+     * @param topic the topic id
      * @param cluster the cluster
      * @return List<TopicUser> the list of topic user
      */
-	public List<TopicUser> getUsersInCluster(int websiteId, int cluster) {
+	public List<TopicUser> getUsersInCluster(int websiteId, int topic, int cluster) {
 		TopicUser param = new TopicUser();
 		param.setWebsiteId(websiteId);
+		param.setTopicId(topic);
 		param.setCluster(cluster);
 		
 		SqlSession session = sqlSessionFactory.openSession();
