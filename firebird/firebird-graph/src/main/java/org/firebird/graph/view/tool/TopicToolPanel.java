@@ -32,11 +32,11 @@ import com.jgoodies.forms.layout.CellConstraints;
 import com.jgoodies.forms.layout.FormLayout;
 
 /**
- * A panel for clustering.
+ * A tool panel for topic analysis.
  * 
  * @author Young-Gue Bae
  */
-public class ClusteringPanel extends JPanel {
+public class TopicToolPanel extends JPanel {
 
 	private static final long serialVersionUID = 2193168249407035150L;
 
@@ -56,7 +56,7 @@ public class ClusteringPanel extends JPanel {
 	 * Constructor.
 	 * 
 	 */
-	public ClusteringPanel(GraphPanel panelGraph) {
+	public TopicToolPanel(GraphPanel panelGraph) {
 		this.panelGraph = panelGraph;
 		UIHandler.setResourceBundle("graph");
 		this.handler = new GraphClientHandler();
