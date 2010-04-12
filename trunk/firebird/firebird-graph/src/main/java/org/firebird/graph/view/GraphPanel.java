@@ -28,7 +28,7 @@ import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 
 import org.firebird.graph.bean.GraphClientHandler;
-import org.firebird.graph.view.tool.CollectorPanel;
+import org.firebird.graph.view.tool.CollectToolPanel;
 import org.firebird.io.model.Edge;
 import org.firebird.io.model.Vertex;
 
@@ -124,7 +124,7 @@ public class GraphPanel extends JPanel {
 		JPanel panel = new JPanel(new BorderLayout());
 
 		// create a left default tool panel
-		CollectorPanel tool = new CollectorPanel(this);
+		CollectToolPanel tool = new CollectToolPanel(this);
 		tool.setDBStorage(false);
 
 		tpaneTool = new JTabbedPane();

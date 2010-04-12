@@ -34,11 +34,11 @@ import com.jgoodies.forms.layout.CellConstraints;
 import com.jgoodies.forms.layout.FormLayout;
 
 /**
- * A panel for a collector.
+ * A tool panel for a collector.
  * 
  * @author Young-Gue Bae
  */
-public class CollectorPanel extends JPanel {
+public class CollectToolPanel extends JPanel {
 
 	private static final long serialVersionUID = 8969977474679240657L;
 	
@@ -66,7 +66,7 @@ public class CollectorPanel extends JPanel {
 	 * Constructor.
 	 * 
 	 */
-	public CollectorPanel(GraphPanel panelGraph) {
+	public CollectToolPanel(GraphPanel panelGraph) {
 		this.panelGraph = panelGraph;
 		UIHandler.setResourceBundle("graph");
 		this.handler = new GraphClientHandler();

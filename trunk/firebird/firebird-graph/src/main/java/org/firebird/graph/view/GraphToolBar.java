@@ -19,9 +19,10 @@ import javax.swing.JPanel;
 import javax.swing.JTabbedPane;
 
 import org.firebird.graph.bean.GraphClientHandler;
-import org.firebird.graph.view.tool.ClusteringPanel;
-import org.firebird.graph.view.tool.CollectorPanel;
-import org.firebird.graph.view.tool.ScoringPanel;
+import org.firebird.graph.view.tool.ClusteringToolPanel;
+import org.firebird.graph.view.tool.CollectToolPanel;
+import org.firebird.graph.view.tool.ScoringToolPanel;
+import org.firebird.graph.view.tool.TopicToolPanel;
 import org.firebird.io.model.Edge;
 import org.firebird.io.model.Vertex;
 
@@ -219,7 +220,7 @@ public class GraphToolBar extends JTabbedPane {
 		showRealtimeGraphAction = new AbstractAction() {
 			public void actionPerformed(ActionEvent e) {
 				try {												
-					CollectorPanel tool = new CollectorPanel(panelGraph);
+					CollectToolPanel tool = new CollectToolPanel(panelGraph);
 					tool.setDBStorage(false);
 					panelGraph.setLeftToolPanel(e.getActionCommand(), tool);
 					panelGraph.setRefreshTableButtonEnabled(false);
@@ -246,7 +247,7 @@ public class GraphToolBar extends JTabbedPane {
 		collectDataAction = new AbstractAction() {
 			public void actionPerformed(ActionEvent e) {
 				try {												
-					CollectorPanel tool = new CollectorPanel(panelGraph);
+					CollectToolPanel tool = new CollectToolPanel(panelGraph);
 					tool.setDBStorage(true);
 					panelGraph.setLeftToolPanel(e.getActionCommand(), tool);
 				} catch (Exception ex) {
@@ -258,7 +259,7 @@ public class GraphToolBar extends JTabbedPane {
 		scoringAction = new AbstractAction() {
 			public void actionPerformed(ActionEvent e) {
 				try {												
-					ScoringPanel tool = new ScoringPanel(panelGraph);
+					ScoringToolPanel tool = new ScoringToolPanel(panelGraph);
 					panelGraph.setLeftToolPanel(e.getActionCommand(), tool);
 				} catch (Exception ex) {
 					ex.printStackTrace();
@@ -269,7 +270,7 @@ public class GraphToolBar extends JTabbedPane {
 		clusteringAction = new AbstractAction() {
 			public void actionPerformed(ActionEvent e) {
 				try {												
-					ClusteringPanel tool = new ClusteringPanel(panelGraph);
+					ClusteringToolPanel tool = new ClusteringToolPanel(panelGraph);
 					panelGraph.setLeftToolPanel(e.getActionCommand(), tool);
 				} catch (Exception ex) {
 					ex.printStackTrace();
@@ -280,7 +281,7 @@ public class GraphToolBar extends JTabbedPane {
 		topicsAction = new AbstractAction() {
 			public void actionPerformed(ActionEvent e) {
 				try {												
-					ScoringPanel tool = new ScoringPanel(panelGraph);
+					TopicToolPanel tool = new TopicToolPanel(panelGraph);
 					panelGraph.setLeftToolPanel(e.getActionCommand(), tool);
 				} catch (Exception ex) {
 					ex.printStackTrace();

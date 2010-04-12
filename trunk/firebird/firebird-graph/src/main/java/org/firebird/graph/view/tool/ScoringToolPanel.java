@@ -27,11 +27,11 @@ import com.jgoodies.forms.layout.CellConstraints;
 import com.jgoodies.forms.layout.FormLayout;
 
 /**
- * A panel for scoring.
+ * A tool panel for scoring.
  * 
  * @author Young-Gue Bae
  */
-public class ScoringPanel extends JPanel {
+public class ScoringToolPanel extends JPanel {
 
 	private static final long serialVersionUID = 1L;
 
@@ -53,7 +53,7 @@ public class ScoringPanel extends JPanel {
 	 * Constructor.
 	 * 
 	 */
-	public ScoringPanel(GraphPanel panelGraph) {
+	public ScoringToolPanel(GraphPanel panelGraph) {
 		this.panelGraph = panelGraph;
 		UIHandler.setResourceBundle("graph");
 		this.handler = new GraphClientHandler();
