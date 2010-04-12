@@ -95,7 +95,7 @@ public class ScoringPanel extends JPanel {
 	
 	private JComponent setupContentUI() {
 		FormLayout layout = new FormLayout(
-				"left:max(20dlu;p), 4dlu, 75dlu",
+				"left:max(40dlu;p), 4dlu, 75dlu",
 				"p, 2dlu, p, 7dlu, " +
 				"p, 2dlu, p, 3dlu, p, 3dlu, p, 3dlu, p, 3dlu, p");
 

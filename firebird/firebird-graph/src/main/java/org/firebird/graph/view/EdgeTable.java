@@ -21,7 +21,7 @@ import org.firebird.io.model.Edge;
  * 
  * @author Young-Gue Bae
  */
-public class EdgeTable extends GraphTable {
+public class EdgeTable extends DefaultTable {
 	
 	private static final long serialVersionUID = -7528850847482435852L;
 	private DefaultTableModel tableModel;

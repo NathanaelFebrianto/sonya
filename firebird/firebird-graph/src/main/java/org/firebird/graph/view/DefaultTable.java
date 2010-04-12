@@ -25,41 +25,41 @@ import javax.swing.table.TableModel;
  * 
  * @author Young-Gue Bae
  */
-public class GraphTable extends JTable {
+public class DefaultTable extends JTable {
 
 	private static final long serialVersionUID = 7544121316834110980L;
 
-	public GraphTable() {
+	public DefaultTable() {
         super();
         setDefaultStyle();
     }
 
-	public GraphTable(int numRows, int numColumns) {
+	public DefaultTable(int numRows, int numColumns) {
 		super(numRows, numColumns);
 		setDefaultStyle();
 	}
 
-	public GraphTable(Object[][] rowData, Object[] columnNames) {
+	public DefaultTable(Object[][] rowData, Object[] columnNames) {
 		super(rowData, columnNames);
 		setDefaultStyle();
 	}
 
-	public GraphTable(TableModel dm) {
+	public DefaultTable(TableModel dm) {
 		super(dm);
 		setDefaultStyle();
 	}
 
-	public GraphTable(TableModel dm, TableColumnModel cm) {
+	public DefaultTable(TableModel dm, TableColumnModel cm) {
 		super(dm, cm);
 		setDefaultStyle();
 	}
 	
-	public GraphTable(TableModel dm, TableColumnModel cm, ListSelectionModel sm) {
+	public DefaultTable(TableModel dm, TableColumnModel cm, ListSelectionModel sm) {
 		super(dm, cm, sm);
 		setDefaultStyle();
 	}
 
-	public GraphTable(Vector rowData, Vector columnNames) {
+	public DefaultTable(Vector rowData, Vector columnNames) {
 		super(rowData, columnNames);
 		setDefaultStyle();
 	}

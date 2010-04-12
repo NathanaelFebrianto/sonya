@@ -19,6 +19,7 @@ import javax.swing.JPanel;
 import javax.swing.JTabbedPane;
 
 import org.firebird.graph.bean.GraphClientHandler;
+import org.firebird.graph.view.tool.ClusteringPanel;
 import org.firebird.graph.view.tool.CollectorPanel;
 import org.firebird.graph.view.tool.ScoringPanel;
 import org.firebird.io.model.Edge;
@@ -63,6 +64,8 @@ public class GraphToolBar extends JTabbedPane {
 	AbstractAction showGraphAction;
 	AbstractAction collectDataAction;
 	AbstractAction scoringAction;
+	AbstractAction clusteringAction;
+	AbstractAction topicsAction;
 	
 	/** toolbar group */
 	HashMap<String, JPanel> toolbarMap = new HashMap<String, JPanel>();
@@ -161,9 +164,14 @@ public class GraphToolBar extends JTabbedPane {
 		button.setIcon(UIHandler.getImageIcon("/chart.png"));
 		tgAnalysis.add(button);
 		
-		button = new JButton();
+		button = new JButton(this.getActionMap().get("clustering"));
 		button.setText(UIHandler.getText("toolbar.analysis.clustering"));
 		button.setIcon(UIHandler.getImageIcon("/users.png"));
+		tgAnalysis.add(button);
+		
+		button = new JButton(this.getActionMap().get("topics"));
+		button.setText(UIHandler.getText("toolbar.analysis.topics"));
+		button.setIcon(UIHandler.getImageIcon("/comment.png"));
 		tgAnalysis.add(button);
 		
 		// create tab menu
@@ -257,6 +265,28 @@ public class GraphToolBar extends JTabbedPane {
 				}
 			}
 		};
+		
+		clusteringAction = new AbstractAction() {
+			public void actionPerformed(ActionEvent e) {
+				try {												
+					ClusteringPanel tool = new ClusteringPanel(panelGraph);
+					panelGraph.setLeftToolPanel(e.getActionCommand(), tool);
+				} catch (Exception ex) {
+					ex.printStackTrace();
+				}
+			}
+		};
+		
+		topicsAction = new AbstractAction() {
+			public void actionPerformed(ActionEvent e) {
+				try {												
+					ScoringPanel tool = new ScoringPanel(panelGraph);
+					panelGraph.setLeftToolPanel(e.getActionCommand(), tool);
+				} catch (Exception ex) {
+					ex.printStackTrace();
+				}
+			}
+		};
 	}
 
 	/**
@@ -269,6 +299,8 @@ public class GraphToolBar extends JTabbedPane {
 		this.getActionMap().put("show.graph", showGraphAction);
 		this.getActionMap().put("collect.data", collectDataAction);
 		this.getActionMap().put("scoring", scoringAction);
+		this.getActionMap().put("clustering", clusteringAction);
+		this.getActionMap().put("topics", topicsAction);
 	}
 
 	/**

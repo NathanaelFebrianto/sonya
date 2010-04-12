@@ -21,7 +21,7 @@ import org.firebird.io.model.Vertex;
  * 
  * @author Young-Gue Bae
  */
-public class VertexTable extends GraphTable {
+public class VertexTable extends DefaultTable {
 
 	private static final long serialVersionUID = -6203182900465356334L;
 	private DefaultTableModel tableModel;    
