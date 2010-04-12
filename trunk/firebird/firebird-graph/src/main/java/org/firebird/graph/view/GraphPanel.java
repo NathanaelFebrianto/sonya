@@ -262,6 +262,15 @@ public class GraphPanel extends JPanel {
 	}
 
 	/**
+	 * Gets the satellite graph viewer.
+	 * 
+	 * @return GraphViewer the graph viewer
+	 */
+	public SatelliteGraphViewer getSatelliteGraphViewer() {
+		return this.satelliteViewer;
+	}
+	
+	/**
 	 * Gets the graph viewer.
 	 * 
 	 * @return GraphViewer the graph viewer
