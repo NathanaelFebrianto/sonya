@@ -31,6 +31,30 @@ public class TopicUserManagerImpl extends GenericManagerImpl implements TopicUse
      *
      * @param websiteId the website id
      * @param topicId the topic id
+     * @param topUserNum the top user number
+     * @return List<TopicUser> the list of topic user
+     */
+	public List<TopicUser> getUsers(int websiteId, int topicId, int topUserNum) {
+		TopicUser param = new TopicUser();
+		param.setWebsiteId(websiteId);
+		param.setTopicId(topicId);
+		param.setTopUserNum(topUserNum);
+		
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		TopicUserMapper mapper = session.getMapper(TopicUserMapper.class);
+    		List<TopicUser> topicUsers = mapper.selectUsers(param);
+    		return topicUsers;
+    	} finally {
+    		session.close();
+    	}		
+	}
+
+    /**
+     * Gets the topic users.
+     *
+     * @param websiteId the website id
+     * @param topicId the topic id
      * @return List<TopicUser> the list of topic user
      */
 	public List<TopicUser> getUsers(int websiteId, int topicId) {
@@ -81,14 +105,14 @@ public class TopicUserManagerImpl extends GenericManagerImpl implements TopicUse
 	}
 	
 	/**
-     * Gets the topic users in the specific cluster.
+     * Gets the topic users in the specific edge betweenness cluster.
      *
      * @param websiteId the website id
      * @param topic the topic id
      * @param cluster the cluster
      * @return List<TopicUser> the list of topic user
      */
-	public List<TopicUser> getUsersInCluster(int websiteId, int topic, int cluster) {
+	public List<TopicUser> getUsersInEdgeBetweennessCluster(int websiteId, int topic, int cluster) {
 		TopicUser param = new TopicUser();
 		param.setWebsiteId(websiteId);
 		param.setTopicId(topic);
@@ -97,11 +121,91 @@ public class TopicUserManagerImpl extends GenericManagerImpl implements TopicUse
 		SqlSession session = sqlSessionFactory.openSession();
     	try {
     		TopicUserMapper mapper = session.getMapper(TopicUserMapper.class);
-    		List<TopicUser> topicUsers = mapper.selectUsersInCluster(param);
+    		List<TopicUser> topicUsers = mapper.selectUsersInEdgeBetweennessCluster(param);
     		return topicUsers;
     	} finally {
     		session.close();
     	}			
+	}
+	
+	/**
+     * Gets the topic users in the specific edge betweenness cluster.
+     *
+     * @param websiteId the website id
+     * @param topic the topic id
+     * @param cluster the cluster
+     * @param minScore the minimum score
+     * @param topUserNum the top user number
+     * @return List<TopicUser> the list of topic user
+     */
+	public List<TopicUser> getUsersInEdgeBetweennessCluster(int websiteId, int topic, int cluster, float minScore, int topUserNum) {
+		TopicUser param = new TopicUser();
+		param.setWebsiteId(websiteId);
+		param.setTopicId(topic);
+		param.setCluster(cluster);
+		param.setScore(minScore);
+		param.setTopUserNum(topUserNum);
+		
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		TopicUserMapper mapper = session.getMapper(TopicUserMapper.class);
+    		List<TopicUser> topicUsers = mapper.selectUsersInEdgeBetweennessCluster(param);
+    		return topicUsers;
+    	} finally {
+    		session.close();
+    	}		
+	}
+	
+	/**
+     * Gets the topic users in the specific voltage cluster.
+     *
+     * @param websiteId the website id
+     * @param topic the topic id
+     * @param cluster the cluster
+     * @return List<TopicUser> the list of topic user
+     */
+	public List<TopicUser> getUsersInVoltageCluster(int websiteId, int topic, int cluster) {
+		TopicUser param = new TopicUser();
+		param.setWebsiteId(websiteId);
+		param.setTopicId(topic);
+		param.setCluster(cluster);
+		
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		TopicUserMapper mapper = session.getMapper(TopicUserMapper.class);
+    		List<TopicUser> topicUsers = mapper.selectUsersInVoltageCluster(param);
+    		return topicUsers;
+    	} finally {
+    		session.close();
+    	}			
+	}
+	
+	/**
+     * Gets the topic users in the specific voltage cluster.
+     *
+     * @param websiteId the website id
+     * @param topic the topic id
+     * @param cluster the cluster
+     * @param minScore the minimum score
+     * @param topUserNum the top user number
+     * @return List<TopicUser> the list of topic user
+     */
+	public List<TopicUser> getUsersInVoltageCluster(int websiteId, int topic, int cluster, float minScore, int topUserNum) {
+		TopicUser param = new TopicUser();
+		param.setWebsiteId(websiteId);
+		param.setTopicId(topic);
+		param.setCluster(cluster);
+		param.setScore(minScore);
+		param.setTopUserNum(topUserNum);
+		
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		TopicUserMapper mapper = session.getMapper(TopicUserMapper.class);
+    		List<TopicUser> topicUsers = mapper.selectUsersInVoltageCluster(param);
+    		return topicUsers;
+    	} finally {
+    		session.close();
+    	}				
 	}
     
 }

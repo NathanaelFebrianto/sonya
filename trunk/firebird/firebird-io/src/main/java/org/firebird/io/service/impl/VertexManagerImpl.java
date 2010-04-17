@@ -4,8 +4,10 @@
  */
 package org.firebird.io.service.impl;
 
+import java.util.HashMap;
 import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 import org.apache.ibatis.session.SqlSession;
@@ -144,16 +146,16 @@ public class VertexManagerImpl extends GenericManagerImpl implements VertexManag
 	}
 	
     /**
-     * Gets the clusters.
+     * Gets the edge betweenness clusters.
      *
-     * @param websiteId the website id
+      * @param websiteId the website id
      * @return List<Integer> the clusters
      */
-	public List<Integer> getClusters(int websiteId) {
+	public List<Integer> getEdgeBetweennessClusters(int websiteId) {
 		SqlSession session = sqlSessionFactory.openSession();
     	try {
     		VertexMapper mapper = session.getMapper(VertexMapper.class);
-    		List<Integer> clusters = mapper.selectClusters(websiteId);
+    		List<Integer> clusters = mapper.selectEdgeBetweennessClusters(websiteId);
     		return clusters;
     	} finally {
     		session.close();
@@ -161,13 +163,31 @@ public class VertexManagerImpl extends GenericManagerImpl implements VertexManag
 	}
 	
 	/**
-     * Gets the vertices in the specific cluster.
+     * Gets the voltage clusters.
      *
-     * @param websiteId the website id
+      * @param websiteId the website id
+     * @return List<Integer> the clusters
+     */
+	public List<Integer> getVoltageClusters(int websiteId) {
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		VertexMapper mapper = session.getMapper(VertexMapper.class);
+    		List<Integer> clusters = mapper.selectVoltageClusters(websiteId);
+    		return clusters;
+    	} finally {
+    		session.close();
+    	}
+	}
+	
+	
+	/**
+     * Gets the vertices in the specific edge betweenness cluster.
+     *
+      * @param websiteId the website id
      * @param cluster the cluster id
      * @return List<Vertex> the vertices
      */
-	public List<Vertex> getVerticesInCluster(int websiteId, int cluster) {
+	public List<Vertex> getVerticesInEdgeBetweennessCluster(int websiteId, int cluster) {
 		SqlSession session = sqlSessionFactory.openSession();
     	try {
     		VertexMapper mapper = session.getMapper(VertexMapper.class);
@@ -175,7 +195,7 @@ public class VertexManagerImpl extends GenericManagerImpl implements VertexManag
     		Vertex vertex = new Vertex();
     		vertex.setWebsiteId(websiteId);
     		vertex.setEdgeBetweennessCluster(cluster);    		
-    		List<Vertex> vertices = mapper.selectVerticesInCluster(vertex);
+    		List<Vertex> vertices = mapper.selectVerticesInEdgeBetweennessCluster(vertex);
     		return vertices;
     	} finally {
     		session.close();
@@ -183,23 +203,117 @@ public class VertexManagerImpl extends GenericManagerImpl implements VertexManag
 	}
 	
 	/**
-     * Gets the cluster set.
+     * Gets the vertices in the specific voltage cluster.
+     *
+      * @param websiteId the website id
+     * @param cluster the cluster id
+     * @return List<Vertex> the vertices
+     */
+	public List<Vertex> getVerticesInVoltageCluster(int websiteId, int cluster) {
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		VertexMapper mapper = session.getMapper(VertexMapper.class);
+    		
+    		Vertex vertex = new Vertex();
+    		vertex.setWebsiteId(websiteId);
+    		vertex.setVoltageCluster(cluster);    		
+    		List<Vertex> vertices = mapper.selectVerticesInVoltageCluster(vertex);
+    		return vertices;
+    	} finally {
+    		session.close();
+    	}		
+	}
+	
+	/**
+     * Gets the edge betweenness cluster set.
      *
      * @param websiteId the website id
      * @return Set<Set<String>> the cluster set with vertex id
      */
-	public Set<Set<String>> getClusterSet(int websiteId) {
+	public Set<Set<String>> getEdgeBetweennessClusterSet(int websiteId) {
 		Set<Set<String>> clusterSet = new LinkedHashSet<Set<String>>();
-		List<Integer> clusters = this.getClusters(websiteId);
+		List<Integer> clusters = this.getEdgeBetweennessClusters(websiteId);
 		
 		for (Integer cluster : clusters) {
-			Set<String> verticesSet = new LinkedHashSet<String>();			
-			List<Vertex> vertices = this.getVerticesInCluster(websiteId, cluster);			
-			for (Vertex vertex : vertices) {
-				verticesSet.add(vertex.getId());
+			if (cluster != null) {
+				Set<String> verticesSet = new LinkedHashSet<String>();			
+				List<Vertex> vertices = this.getVerticesInEdgeBetweennessCluster(websiteId, cluster);			
+				for (Vertex vertex : vertices) {
+					verticesSet.add(vertex.getId());
+				}
+				clusterSet.add(verticesSet);
 			}
-			clusterSet.add(verticesSet);
 		}		
 		return clusterSet;
 	}
+	
+	/**
+     * Gets the voltage cluster set.
+     *
+     * @param websiteId the website id
+     * @return Set<Set<String>> the cluster set with vertex id
+     */
+	public Set<Set<String>> getVoltageClusterSet(int websiteId) {
+		Set<Set<String>> clusterSet = new LinkedHashSet<Set<String>>();
+		List<Integer> clusters = this.getVoltageClusters(websiteId);
+		
+		for (Integer cluster : clusters) {
+			if (cluster != null) {
+				Set<String> verticesSet = new LinkedHashSet<String>();			
+				List<Vertex> vertices = this.getVerticesInVoltageCluster(websiteId, cluster);			
+				for (Vertex vertex : vertices) {
+					verticesSet.add(vertex.getId());
+				}
+				clusterSet.add(verticesSet);
+			}
+		}		
+		return clusterSet;
+	}
+	
+	/**
+     * Gets the edge betweenness cluster map.
+     *
+     * @param websiteId the website id
+     * @return Map<Intger, Set<String>> the cluster set with vertices id
+     */
+	public Map<Integer, Set<String>> getEdgeBetweennessClusterMap(int websiteId) {
+		Map<Integer, Set<String>> clusterSet = new HashMap<Integer, Set<String>>();
+		List<Integer> clusters = this.getEdgeBetweennessClusters(websiteId);
+		
+		for (Integer cluster : clusters) {
+			if (cluster != null) {
+				Set<String> verticesSet = new LinkedHashSet<String>();			
+				List<Vertex> vertices = this.getVerticesInEdgeBetweennessCluster(websiteId, cluster);			
+				for (Vertex vertex : vertices) {
+					verticesSet.add(vertex.getId());
+				}
+				clusterSet.put(cluster, verticesSet);
+			}
+		}		
+		return clusterSet;
+	}
+	
+	/**
+     * Gets the voltage cluster map.
+     *
+     * @param websiteId the website id
+     * @return Map<Intger, Set<String>> the cluster set with vertices id
+     */
+	public Map<Integer, Set<String>> getVoltageClusterMap(int websiteId) {
+		Map<Integer, Set<String>> clusterSet = new HashMap<Integer, Set<String>>();
+		List<Integer> clusters = this.getVoltageClusters(websiteId);
+		
+		for (Integer cluster : clusters) {
+			if (cluster != null) {
+				Set<String> verticesSet = new LinkedHashSet<String>();			
+				List<Vertex> vertices = this.getVerticesInVoltageCluster(websiteId, cluster);			
+				for (Vertex vertex : vertices) {
+					verticesSet.add(vertex.getId());
+				}
+				clusterSet.put(cluster, verticesSet);
+			}
+		}		
+		return clusterSet;
+	}
+	
 }

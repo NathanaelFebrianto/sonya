@@ -21,6 +21,16 @@ public interface TopicUserManager extends GenericManager {
      *
      * @param websiteId the website id
      * @param topicId the topic id
+     * @param topUserNum the top user number
+     * @return List<TopicUser> the list of topic user
+     */
+	public List<TopicUser> getUsers(int websiteId, int topicId, int topUserNum);
+
+    /**
+     * Gets the topic users.
+     *
+     * @param websiteId the website id
+     * @param topicId the topic id
      * @return List<TopicUser> the list of topic user
      */
 	public List<TopicUser> getUsers(int websiteId, int topicId);
@@ -40,13 +50,47 @@ public interface TopicUserManager extends GenericManager {
 	public void deleteUsers(int websiteId);
 	
 	/**
-     * Gets the topic users in the specific cluster.
+     * Gets the topic users in the specific edge betweenness cluster.
      *
      * @param websiteId the website id
      * @param topic the topic id
      * @param cluster the cluster
      * @return List<TopicUser> the list of topic user
      */
-	public List<TopicUser> getUsersInCluster(int websiteId, int topic, int cluster);
+	public List<TopicUser> getUsersInEdgeBetweennessCluster(int websiteId, int topic, int cluster);
+	
+	/**
+     * Gets the topic users in the specific edge betweenness cluster.
+     *
+     * @param websiteId the website id
+     * @param topic the topic id
+     * @param cluster the cluster
+     * @param minScore the minimum score
+     * @param topUserNum the top user number
+     * @return List<TopicUser> the list of topic user
+     */
+	public List<TopicUser> getUsersInEdgeBetweennessCluster(int websiteId, int topic, int cluster, float minScore, int topUserNum);
+	
+	/**
+     * Gets the topic users in the specific voltage cluster.
+     *
+     * @param websiteId the website id
+     * @param topic the topic id
+     * @param cluster the cluster
+     * @return List<TopicUser> the list of topic user
+     */
+	public List<TopicUser> getUsersInVoltageCluster(int websiteId, int topic, int cluster);
+	
+	/**
+     * Gets the topic users in the specific voltage cluster.
+     *
+     * @param websiteId the website id
+     * @param topic the topic id
+     * @param cluster the cluster
+     * @param minScore the minimum score
+     * @param topUserNum the top user number
+     * @return List<TopicUser> the list of topic user
+     */
+	public List<TopicUser> getUsersInVoltageCluster(int websiteId, int topic, int cluster, float minScore, int topUserNum);
 	
 }

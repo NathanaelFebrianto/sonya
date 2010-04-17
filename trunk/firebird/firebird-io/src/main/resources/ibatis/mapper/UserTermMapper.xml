@@ -22,7 +22,7 @@
 	<select id="selectUsers" parameterType="org.firebird.io.model.UserTerm" resultMap="userTermResultMap">
 		SELECT a.*, b.user_name
 		FROM user_term a, vertex b
-		WHERE website_id = #{websiteId} AND a.user_id = b.user_id AND term = #{term}		
+		WHERE a.user_id = b.user_id AND a.website_id = b.website_id AND a.website_id = #{websiteId} AND term = #{term}		
 		ORDER BY term_freq DESC
 	</select>
 	

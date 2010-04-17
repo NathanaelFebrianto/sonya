@@ -61,18 +61,35 @@ public interface VertexMapper extends GenericMapper {
 	public void updateVertexCluster(Vertex vertex);
 	
     /**
-     * Selects clusters.
+     * Selects edge betweenness clusters.
      *
      * @param websiteId the websiteId
      * @return List<Integer> the clusters
      */
-	public List<Integer> selectClusters(int websiteId);
+	public List<Integer> selectEdgeBetweennessClusters(int websiteId);
+	
+    /**
+     * Selects voltage clusters.
+     *
+     * @param websiteId the websiteId
+     * @return List<Integer> the clusters
+     */
+	public List<Integer> selectVoltageClusters(int websiteId);
 	
 	/**
-     * Selects vertices in the specific cluster.
+     * Selects vertices in the specific edge betweenness cluster.
      *
      * @param vertex the vertex with the specific website id and cluster id.
      * @return List<Vertex> the vertices
      */
-	public List<Vertex> selectVerticesInCluster(Vertex vertex);
+	public List<Vertex> selectVerticesInEdgeBetweennessCluster(Vertex vertex);
+	
+	/**
+     * Selects vertices in the specific voltage cluster.
+     *
+     * @param vertex the vertex with the specific website id and cluster id.
+     * @return List<Vertex> the vertices
+     */
+	public List<Vertex> selectVerticesInVoltageCluster(Vertex vertex);
+	
 }

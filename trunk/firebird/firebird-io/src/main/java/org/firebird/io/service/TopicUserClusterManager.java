@@ -22,6 +22,16 @@ public interface TopicUserClusterManager extends GenericManager {
      *
      * @param websiteId the website id
      * @param topicId the topic id
+     * @param topUserNum the top user number
+     * @return List<TopicUserCluster> the list of topic user cluster
+     */
+	public List<TopicUserCluster> getUsers(int websiteId, int topicId, int topUserNum);
+	
+    /**
+     * Gets the topic users.
+     *
+     * @param websiteId the website id
+     * @param topicId the topic id
      * @return List<TopicUserCluster> the list of topic user cluster
      */
 	public List<TopicUserCluster> getUsers(int websiteId, int topicId);
