@@ -4,6 +4,7 @@
  */
 package org.firebird.graph.view;
 
+import java.applet.AppletContext;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Container;
@@ -22,13 +23,13 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JSplitPane;
 import javax.swing.JTabbedPane;
-import javax.swing.JTable;
 import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 
 import org.firebird.graph.bean.GraphClientHandler;
 import org.firebird.graph.view.tool.CollectToolPanel;
+import org.firebird.graph.view.topic.TopicPanel;
 import org.firebird.io.model.Edge;
 import org.firebird.io.model.Vertex;
 
@@ -45,12 +46,21 @@ public class GraphPanel extends JPanel {
 
 	private static final long serialVersionUID = -5520707258678283156L;
 
+	/** applet context */
+	AppletContext context = null;
+	
+	/** graph client handler */
+	GraphClientHandler handler;
+	
 	/** graph modeller */
 	GraphModeller modeller;
 
 	/** the visual component and renderer for the graph */
 	GraphViewer viewer;
 	SatelliteGraphViewer satelliteViewer;
+	
+	/** topic panel */
+	TopicPanel panelRightTopic;
 
 	/** split panel for content */
 	JSplitPane spaneContent;
@@ -81,6 +91,25 @@ public class GraphPanel extends JPanel {
 		UIHandler.setResourceBundle("graph");
 		UIHandler.setDefaultLookAndFeel();
 		UIHandler.changeAllSwingComponentDefaultFont();
+		
+		this.handler = new GraphClientHandler();		
+
+		setupGraphView();
+		setupUI();
+	}
+	
+	/**
+	 * Constructor.
+	 * 
+	 * @param context the applet context
+	 */
+	public GraphPanel(AppletContext context) {
+		this.context = context;
+		UIHandler.setResourceBundle("graph");
+		UIHandler.setDefaultLookAndFeel();
+		UIHandler.changeAllSwingComponentDefaultFont();
+		
+		this.handler = new GraphClientHandler();		
 
 		setupGraphView();
 		setupUI();
@@ -152,8 +181,7 @@ public class GraphPanel extends JPanel {
 		spaneRightGraph.setBottomComponent(setupRightBottomGraphTablePanel());
 		
 		// topics panel
-		// ...............................
-		
+		panelRightTopic = new TopicPanel(this);		
 		
 		// right main tabbed panel
 		tpaneRight = new JTabbedPane(SwingConstants.TOP);
@@ -165,7 +193,7 @@ public class GraphPanel extends JPanel {
 		tpaneRight.addTab(
 				UIHandler.getText("content.tab.topics"), 
 				UIHandler.getImageIcon("/bug.gif"), 
-				new JTable());
+				panelRightTopic);
 		
 		return tpaneRight;
 	}
@@ -251,7 +279,15 @@ public class GraphPanel extends JPanel {
 	public Graph<org.firebird.io.model.Vertex, org.firebird.io.model.Edge> getGraph() {
 		return viewer.getGraph();
 	}
-
+	
+	/**
+	 * Gets the applet context.
+	 * 
+	 * @return AppletContext the applet context
+	 */
+	public AppletContext getAppletContext() {
+		return context;
+	}
 	/**
 	 * Gets the content panel.
 	 * 
@@ -280,6 +316,24 @@ public class GraphPanel extends JPanel {
 	}
 
 	/**
+	 * Gets the right tabbed panel.
+	 * 
+	 * @return JTabbedPane the right tabbed panel
+	 */
+	public JTabbedPane getRightTabbedPanel() {
+		return this.tpaneRight;
+	}
+	
+	/**
+	 * Gets the topic panel in the right tabbed panel.
+	 * 
+	 * @return TopicPanel the topic panel
+	 */
+	public TopicPanel getRightTopicPanel() {
+		return this.panelRightTopic;
+	}
+
+	/**
 	 * Shows a graph.
 	 * 
 	 * @param vertices the vertex list
@@ -300,10 +354,10 @@ public class GraphPanel extends JPanel {
 	 * @param edges the edge list
 	 */
 	public void showGraphData(List<Vertex> vertices, List<Edge> edges) {
-		tblVertices.setVertices(vertices);
+		tblVertices.setRowData(vertices);
 		tpaneRightBottom.setTitleAt(0, UIHandler.getText("content.tab.vertex") + "(" + vertices.size() + ")");
 		
-		tblEdges.setEdges(edges);
+		tblEdges.setRowData(edges);
 		tpaneRightBottom.setTitleAt(1, UIHandler.getText("content.tab.edge") + "(" + edges.size() + ")");
 	}
 
@@ -368,8 +422,6 @@ public class GraphPanel extends JPanel {
 	
 	public void refreshTableAction(ActionEvent e) {
 		try {
-			GraphClientHandler handler = new GraphClientHandler();
-			
 			List<Vertex> vertices = handler.getVertices(1);
 	       	List<Edge> edges = handler.getEdges(1, 1);
 	    	

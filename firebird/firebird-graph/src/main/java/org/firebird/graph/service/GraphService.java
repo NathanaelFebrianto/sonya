@@ -5,6 +5,7 @@
 package org.firebird.graph.service;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 import org.firebird.analyzer.graph.scoring.ScoringConfig;
@@ -71,7 +72,16 @@ public interface GraphService {
      * @param websiteId the website id
      * @return Set<Set<String>> the cluster set with vertex id
      */
-	public Set<Set<String>> getClusterSet(int websiteId) throws Exception;
+	public Set<Set<String>> getClusterSet(String clusterType, int websiteId) throws Exception;
+	
+	/**
+     * Gets the cluster map.
+     *
+     * @param clusterType the cluster type
+     * @param websiteId the website id
+     * @return Map<Intger, Set<String>> the cluster set with vertices id
+     */
+	public Map<Integer, Set<String>> getClusterMap(String clusterType, int websiteId) throws Exception;
 
 	/**
      * Gets the topic cluster set.
@@ -112,9 +122,29 @@ public interface GraphService {
      *
      * @param websiteId the website id
      * @param topicId the topic id
+     * @param topUserNum the top user number
+     * @return List<TopicUser> the list of topic user
+     */
+	public List<TopicUser> getUsersByTopic(int websiteId, int topicId, int topUserNum);
+	
+    /**
+     * Gets the users by the specific topic.
+     *
+     * @param websiteId the website id
+     * @param topicId the topic id
      * @return List<TopicUser> the list of topic user
      */
 	public List<TopicUser> getUsersByTopic(int websiteId, int topicId);
+	
+    /**
+     * Gets the topic-based clustered users by the specified topic.
+     *
+     * @param websiteId the website id
+     * @param topicId the topic id
+     * @param topUserNum the top user number
+     * @return List<TopicUserCluster> the list of topic user cluster
+     */
+	public List<TopicUserCluster> getClusteredUsersByTopic(int websiteId, int topicId, int topUserNum);
 	
     /**
      * Gets the topic-based clustered users by the specified topic.

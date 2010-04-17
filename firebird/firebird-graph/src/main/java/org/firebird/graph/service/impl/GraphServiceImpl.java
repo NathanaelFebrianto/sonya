@@ -5,8 +5,10 @@
 package org.firebird.graph.service.impl;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
+import org.firebird.analyzer.graph.clustering.Clusterer;
 import org.firebird.analyzer.graph.scoring.ScoringConfig;
 import org.firebird.analyzer.service.AnalysisManager;
 import org.firebird.analyzer.service.impl.AnalysisManagerImpl;
@@ -119,11 +121,37 @@ public class GraphServiceImpl implements GraphService {
 	/**
      * Gets the cluster set.
      *
+     * @param clusterType the cluster type
      * @param websiteId the website id
      * @return Set<Set<String>> the cluster set with vertex id
      */
-	public Set<Set<String>> getClusterSet(int websiteId) throws Exception {
-		return vertexManager.getClusterSet(websiteId);
+	public Set<Set<String>> getClusterSet(String clusterType, int websiteId) throws Exception {
+		if (clusterType.equals(Clusterer.EDGE_BETWEENNESS_CLUSTER)) {
+			return vertexManager.getEdgeBetweennessClusterSet(websiteId);
+		}
+		else if (clusterType.equals(Clusterer.VOLTAGE_CLUSTER)) {
+			return vertexManager.getVoltageClusterSet(websiteId);
+		}
+		
+		return null;		
+	}
+	
+	/**
+     * Gets the cluster map.
+     *
+     * @param clusterType the cluster type
+     * @param websiteId the website id
+     * @return Map<Intger, Set<String>> the cluster set with vertices id
+     */
+	public Map<Integer, Set<String>> getClusterMap(String clusterType, int websiteId) throws Exception {
+		if (clusterType.equals(Clusterer.EDGE_BETWEENNESS_CLUSTER)) {
+			return vertexManager.getEdgeBetweennessClusterMap(websiteId);
+		}
+		else if (clusterType.equals(Clusterer.VOLTAGE_CLUSTER)) {
+			return vertexManager.getVoltageClusterMap(websiteId);
+		}
+		
+		return null;
 	}
 	
 	/**
@@ -173,10 +201,34 @@ public class GraphServiceImpl implements GraphService {
      *
      * @param websiteId the website id
      * @param topicId the topic id
+     * @param topUserNum the top user number
+     * @return List<TopicUser> the list of topic user
+     */
+	public List<TopicUser> getUsersByTopic(int websiteId, int topicId, int topUserNum) {
+		return topicUserManager.getUsers(websiteId, topicId, topUserNum);
+	}
+	
+    /**
+     * Gets the users by the specific topic.
+     *
+     * @param websiteId the website id
+     * @param topicId the topic id
      * @return List<TopicUser> the list of topic user
      */
 	public List<TopicUser> getUsersByTopic(int websiteId, int topicId) {
 		return topicUserManager.getUsers(websiteId, topicId);
+	}
+	
+    /**
+     * Gets the topic-based clustered users by the specified topic.
+     *
+     * @param websiteId the website id
+     * @param topicId the topic id
+     * @param topUserNum the top user number
+     * @return List<TopicUserCluster> the list of topic user cluster
+     */
+	public List<TopicUserCluster> getClusteredUsersByTopic(int websiteId, int topicId, int topUserNum) {
+		return topicClusterManager.getUsers(websiteId, topicId, topUserNum);
 	}
 	
     /**
@@ -189,4 +241,5 @@ public class GraphServiceImpl implements GraphService {
 	public List<TopicUserCluster> getClusteredUsersByTopic(int websiteId, int topicId) {
 		return topicClusterManager.getUsers(websiteId, topicId);
 	}
+	
 }
