@@ -39,11 +39,19 @@ public interface TopicUserMapper extends GenericMapper {
 	public void deleteUsers(int websiteId);
 	
 	/**
-     * Selects topic users in the specific cluster.
+     * Selects topic users in the specific edge betweenness cluster.
      *
      * @param param the topic user
      * @return List<TopicUser> the list of topic user
      */
-	public List<TopicUser> selectUsersInCluster(TopicUser param);
+	public List<TopicUser> selectUsersInEdgeBetweennessCluster(TopicUser param);
+	
+	/**
+     * Selects topic users in the specific voltage cluster.
+     *
+     * @param param the topic user
+     * @return List<TopicUser> the list of topic user
+     */
+	public List<TopicUser> selectUsersInVoltageCluster(TopicUser param);
 	
 }

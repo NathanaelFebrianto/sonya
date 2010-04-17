@@ -14,6 +14,7 @@ import java.util.Date;
  */
 public class Vertex implements Serializable {
 	private static final long serialVersionUID = -3745591316177805874L;
+		
 	private int websiteId;
 	private String id;
 	private int no;
@@ -167,6 +168,7 @@ public class Vertex implements Serializable {
 	public Date getColLastUpdateDate() {
 		return colLastUpdateDate;
 	}
+	
 	public void setWebsiteId(int websiteId) {
 		this.websiteId = websiteId;
 	}

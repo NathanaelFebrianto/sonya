@@ -34,6 +34,30 @@ public class TopicUserClusterManagerImpl extends GenericManagerImpl implements T
      *
      * @param websiteId the website id
      * @param topicId the topic id
+     * @param topUserNum the top user number
+     * @return List<TopicUserCluster> the list of topic user cluster
+     */
+	public List<TopicUserCluster> getUsers(int websiteId, int topicId, int topUserNum) {
+		TopicUserCluster param = new TopicUserCluster();
+		param.setWebsiteId(websiteId);
+		param.setTopicId(topicId);
+		param.setTopUserNum(topUserNum);
+		
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		TopicUserClusterMapper mapper = session.getMapper(TopicUserClusterMapper.class);
+    		List<TopicUserCluster> topicUsers = mapper.selectUsers(param);
+    		return topicUsers;
+    	} finally {
+    		session.close();
+    	}		
+	}
+	
+    /**
+     * Gets the topic users.
+     *
+     * @param websiteId the website id
+     * @param topicId the topic id
      * @return List<TopicUserCluster> the list of topic user cluster
      */
 	public List<TopicUserCluster> getUsers(int websiteId, int topicId) {

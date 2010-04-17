@@ -227,23 +227,36 @@
 	<update id="updateVertexCluster" parameterType="org.firebird.io.model.Vertex">
 		UPDATE vertex SET
 			  edge_betweenness_cluster = #{edgeBetweennessCluster}
-			, voltage = #{voltageCluster}
+			, voltage_cluster = #{voltageCluster}
 		WHERE
 			website_id = #{websiteId}
 			AND vertex_id = #{id}
 	</update>
 	
-	<select id="selectClusters" parameterType="int" resultType="int">
-		SELECT DISTINCT edge_betweenness_cluster 
+	<select id="selectEdgeBetweennessClusters" parameterType="int" resultType="int">		
+		SELECT DISTINCT edge_betweenness_cluster
 		FROM vertex 
 		WHERE website_id = #{websiteId}
 		ORDER BY edge_betweenness_cluster ASC
 	</select>
 	
-	<select id="selectVerticesInCluster" parameterType="org.firebird.io.model.Vertex" resultMap="vertexResultMap">
+	<select id="selectVoltageClusters" parameterType="int" resultType="int">		
+		SELECT DISTINCT voltage_cluster
+		FROM vertex 
+		WHERE website_id = #{websiteId}
+		ORDER BY voltage_cluster ASC
+	</select>
+	
+	<select id="selectVerticesInEdgeBetweennessCluster" parameterType="org.firebird.io.model.Vertex" resultMap="vertexResultMap">
 		SELECT * 
 		FROM vertex 
 		WHERE website_id = #{websiteId} AND edge_betweenness_cluster = #{edgeBetweennessCluster}
+	</select>
+
+	<select id="selectVerticesInVoltageCluster" parameterType="org.firebird.io.model.Vertex" resultMap="vertexResultMap">
+		SELECT * 
+		FROM vertex 
+		WHERE website_id = #{websiteId} AND voltage_cluster = #{voltageCluster}
 	</select>
 	
 </mapper>

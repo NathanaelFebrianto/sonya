@@ -24,6 +24,8 @@ public class TopicUser implements Serializable ,Comparable<TopicUser> {
 	private int topicId;
 	private String userId;
 	private String userName;
+	private String userProfileImage;
+	private String userUrl;
 	private List<TopicTerm> topicTerms = null;
 	private List<UserTerm> userMatchTerms = null;
 	private String topicTermsString;
@@ -33,6 +35,7 @@ public class TopicUser implements Serializable ,Comparable<TopicUser> {
 	private int cluster;
 	private Date createDate;
 	private Date lastUpdateDate;
+	private Integer topUserNum;
 	
 	public int getWebsiteId() {
 		return websiteId;
@@ -45,6 +48,12 @@ public class TopicUser implements Serializable ,Comparable<TopicUser> {
 	}
 	public String getUserName() {
 		return userName;
+	}
+	public String getUserProfileImage() {
+		return userProfileImage;
+	}
+	public String getUserUrl() {
+		return userUrl;
 	}
 	public List<TopicTerm> getTopicTerms() {
 		return topicTerms;
@@ -73,6 +82,9 @@ public class TopicUser implements Serializable ,Comparable<TopicUser> {
 	public Date getLastUpdateDate() {
 		return lastUpdateDate;
 	}
+	public Integer getTopUserNum() {
+		return topUserNum;
+	}
 	
 	public void setWebsiteId(int websiteId) {
 		this.websiteId = websiteId;
@@ -85,6 +97,12 @@ public class TopicUser implements Serializable ,Comparable<TopicUser> {
 	}
 	public void setUserName(String userName) {
 		this.userName = userName;
+	}
+	public void setUserProfileImage(String userProfileImage) {
+		this.userProfileImage = userProfileImage;
+	}
+	public void setUserUrl(String userUrl) {
+		this.userUrl = userUrl;
 	}
 	public void setTopicTerms(List<TopicTerm> topicTerms) {
 		this.topicTerms = topicTerms;
@@ -112,6 +130,9 @@ public class TopicUser implements Serializable ,Comparable<TopicUser> {
 	}
 	public void setLastUpdateDate(Date lastUpdateDate) {
 		this.lastUpdateDate = lastUpdateDate;
+	}
+	public void setTopUserNum(Integer topUserNum) {
+		this.topUserNum = topUserNum;
 	}
 	
 	public List<UserTerm> findUserMatchTerms(List<UserTerm> userTerms) throws Exception {

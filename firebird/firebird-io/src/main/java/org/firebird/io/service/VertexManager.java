@@ -5,6 +5,7 @@
 package org.firebird.io.service;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 import org.firebird.common.service.GenericManager;
@@ -62,27 +63,69 @@ public interface VertexManager extends GenericManager {
 	public void setVertexCluster(Vertex vertex);
 	
     /**
-     * Gets the clusters.
+     * Gets the edge betweenness clusters.
      *
-     * @param websiteId the website id
+      * @param websiteId the website id
      * @return List<Integer> the clusters
      */
-	public List<Integer> getClusters(int websiteId);
+	public List<Integer> getEdgeBetweennessClusters(int websiteId);
 	
 	/**
-     * Gets the vertices in the specific cluster.
+     * Gets the voltage clusters.
      *
-     * @param websiteId the website id
+      * @param websiteId the website id
+     * @return List<Integer> the clusters
+     */
+	public List<Integer> getVoltageClusters(int websiteId);
+	
+	/**
+     * Gets the vertices in the specific edge betweenness cluster.
+     *
+      * @param websiteId the website id
      * @param cluster the cluster id
      * @return List<Vertex> the vertices
      */
-	public List<Vertex> getVerticesInCluster(int websiteId, int cluster);
+	public List<Vertex> getVerticesInEdgeBetweennessCluster(int websiteId, int cluster);
 	
 	/**
-     * Gets the cluster set.
+     * Gets the vertices in the specific voltage cluster.
+     *
+      * @param websiteId the website id
+     * @param cluster the cluster id
+     * @return List<Vertex> the vertices
+     */
+	public List<Vertex> getVerticesInVoltageCluster(int websiteId, int cluster);
+	
+	/**
+     * Gets the edge betweenness cluster set.
      *
      * @param websiteId the website id
      * @return Set<Set<String>> the cluster set with vertex id
      */
-	public Set<Set<String>> getClusterSet(int websiteId);
+	public Set<Set<String>> getEdgeBetweennessClusterSet(int websiteId);
+
+	/**
+     * Gets the voltage cluster set.
+     *
+     * @param websiteId the website id
+     * @return Set<Set<String>> the cluster set with vertex id
+     */
+	public Set<Set<String>> getVoltageClusterSet(int websiteId);
+	
+	/**
+     * Gets the edge betweenness cluster map.
+     *
+     * @param websiteId the website id
+     * @return Map<Intger, Set<String>> the cluster set with vertices id
+     */
+	public Map<Integer, Set<String>> getEdgeBetweennessClusterMap(int websiteId);
+	
+	/**
+     * Gets the voltage cluster map.
+     *
+     * @param websiteId the website id
+     * @return Map<Intger, Set<String>> the cluster set with vertices id
+     */
+	public Map<Integer, Set<String>> getVoltageClusterMap(int websiteId);
+	
 }

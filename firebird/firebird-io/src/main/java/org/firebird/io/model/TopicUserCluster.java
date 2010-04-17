@@ -28,6 +28,7 @@ public class TopicUserCluster implements Serializable ,Comparable<TopicUserClust
 	private float score;
 	private Date createDate;
 	private Date lastUpdateDate;
+	private Integer topUserNum;
 	
 	public int getWebsiteId() {
 		return websiteId;
@@ -65,6 +66,9 @@ public class TopicUserCluster implements Serializable ,Comparable<TopicUserClust
 	public Date getLastUpdateDate() {
 		return lastUpdateDate;
 	}
+	public Integer getTopUserNum() {
+		return topUserNum;
+	}
 
 	public void setWebsiteId(int websiteId) {
 		this.websiteId = websiteId;
@@ -101,6 +105,9 @@ public class TopicUserCluster implements Serializable ,Comparable<TopicUserClust
 	}
 	public void setLastUpdateDate(Date lastUpdateDate) {
 		this.lastUpdateDate = lastUpdateDate;
+	}
+	public void setTopUserNum(Integer topUserNum) {
+		this.topUserNum = topUserNum;
 	}
 
 	@Override
