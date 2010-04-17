@@ -22,7 +22,7 @@ public class CollectJobLogger {
 	static CollectJobLogger instance = null;
 	static Logger logger = null;
 	String layout = "[%d{HH:mm:ss}]	%m%n";
-	String logFilename = "D:/firebird/log/collect.log";
+	String logFilename = "D:/firebird/log/collectJob.log";
 	String datePattern = ".yyyy-MM-dd";
 	PatternLayout patternLayout = new PatternLayout(layout);
 	DailyRollingFileAppender appender = null;
