@@ -6,6 +6,7 @@ package org.firebird.graph.bean;
 
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 import org.firebird.analyzer.graph.scoring.ScoringConfig;
@@ -145,16 +146,33 @@ public class GraphClientHandler {
 	/**
      * Gets the cluster set.
      *
+     * @param clusterType the cluster type
      * @param websiteId the website id
      * @return Set<Set<String>> the cluster set with vertex id
      */
-	public Set<Set<String>> getClusterSet(int websiteId) throws HttpCommunicateException {
-		Object[] methodParams = { websiteId };
+	public Set<Set<String>> getClusterSet(String clusterType, int websiteId) throws HttpCommunicateException {
+		Object[] methodParams = { clusterType, websiteId };
 	    HttpCommunicate comm = new HttpCommunicate(
 	            "org.firebird.graph.service.impl.GraphServiceImpl", 
 	            "getClusterSet",
 	            methodParams);
 	    return (Set<Set<String>>) httpClient.execute(comm);
+	}
+	
+	/**
+     * Gets the cluster map.
+     *
+     * @param clusterType the cluster type
+     * @param websiteId the website id
+     * @return Map<Integer, Set<String>> the cluster set with vertex id
+     */
+	public Map<Integer, Set<String>> getClusterMap(String clusterType, int websiteId) throws HttpCommunicateException {
+		Object[] methodParams = { clusterType, websiteId };
+	    HttpCommunicate comm = new HttpCommunicate(
+	            "org.firebird.graph.service.impl.GraphServiceImpl", 
+	            "getClusterMap",
+	            methodParams);
+	    return (Map<Integer, Set<String>>) httpClient.execute(comm);
 	}
 
 	/**
@@ -234,6 +252,23 @@ public class GraphClientHandler {
 	            methodParams);
 	    return (List<TopicUser>) httpClient.execute(comm);		
 	}
+
+    /**
+     * Gets the users by the specific topic.
+     *
+     * @param websiteId the website id
+     * @param topicId the topic id
+     * @param topUserNum the top user number
+     * @return List<TopicUser> the list of topic user
+     */
+	public List<TopicUser> getUsersByTopic(int websiteId, int topicId, int topUserNum) throws HttpCommunicateException {
+		Object[] methodParams = { websiteId, topicId, topUserNum };
+	    HttpCommunicate comm = new HttpCommunicate(
+	            "org.firebird.graph.service.impl.GraphServiceImpl", 
+	            "getUsersByTopic",
+	            methodParams);
+	    return (List<TopicUser>) httpClient.execute(comm);		
+	}
 	
     /**
      * Gets the topic-based clustered users by the specified topic.
@@ -244,6 +279,23 @@ public class GraphClientHandler {
      */
 	public List<TopicUserCluster> getClusteredUsersByTopic(int websiteId, int topicId) throws HttpCommunicateException {
 		Object[] methodParams = { websiteId, topicId };
+	    HttpCommunicate comm = new HttpCommunicate(
+	            "org.firebird.graph.service.impl.GraphServiceImpl", 
+	            "getClusteredUsersByTopic",
+	            methodParams);
+	    return (List<TopicUserCluster>) httpClient.execute(comm);		
+	}
+	
+    /**
+     * Gets the topic-based clustered users by the specified topic.
+     *
+     * @param websiteId the website id
+     * @param topicId the topic id
+     * @param topUserNum the top user number
+     * @return List<TopicUserCluster> the list of topic user cluster
+     */
+	public List<TopicUserCluster> getClusteredUsersByTopic(int websiteId, int topicId, int topUserNum) throws HttpCommunicateException {
+		Object[] methodParams = { websiteId, topicId, topUserNum };
 	    HttpCommunicate comm = new HttpCommunicate(
 	            "org.firebird.graph.service.impl.GraphServiceImpl", 
 	            "getClusteredUsersByTopic",

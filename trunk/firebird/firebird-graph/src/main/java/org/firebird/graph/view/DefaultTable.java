@@ -5,11 +5,13 @@
 package org.firebird.graph.view;
 
 import java.awt.Color;
+import java.math.BigDecimal;
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.Vector;
 
 import javax.swing.DefaultCellEditor;
+import javax.swing.ImageIcon;
 import javax.swing.JCheckBox;
 import javax.swing.JTable;
 import javax.swing.ListSelectionModel;
@@ -146,6 +148,16 @@ public class DefaultTable extends JTable {
 		tc.setCellRenderer(new DateRenderer(format));
 	}
 	
+	public void setIconCellRenderer(int column) {
+		TableColumnModel tcm = this.getColumnModel();
+		TableColumn tc = tcm.getColumn(column);
+		tc.setCellRenderer(new IconCellRenderer());
+	}
+	
+	protected BigDecimal convertScale(double d, int scale) {
+		return new BigDecimal(d).setScale(scale, BigDecimal.ROUND_HALF_UP);
+	}	
+	
 	public class NumberRenderer extends DefaultTableCellRenderer {
 		private static final long serialVersionUID = -5973490294557174438L;
 		private String format;
@@ -183,4 +195,20 @@ public class DefaultTable extends JTable {
 			super.setValue(value);
 		}
 	}
+	
+	public class IconCellRenderer extends DefaultTableCellRenderer { 
+		private static final long serialVersionUID = -4820370669578276713L;
+
+		public void setValue(Object value) { 
+	        if(value instanceof ImageIcon) { 
+	            ImageIcon icon = (ImageIcon)value; 
+	            setIcon(icon); 
+	            setText("");
+	            //setText(icon.getDescription()); 
+	        } 
+	        else 
+	            super.setValue(value); 
+	    } 
+	} 
+	 
 }

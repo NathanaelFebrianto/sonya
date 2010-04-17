@@ -4,7 +4,6 @@
  */
 package org.firebird.graph.view;
 
-import java.math.BigDecimal;
 import java.util.List;
 import java.util.Vector;
 
@@ -33,7 +32,7 @@ public class EdgeTable extends DefaultTable {
 	 */
 	public EdgeTable(List<Edge> edges) {
         this();
-        setEdges(edges);
+        setRowData(edges);
     }
 	
 	/**
@@ -110,7 +109,7 @@ public class EdgeTable extends DefaultTable {
 	 * 
 	 * @param edges the edge list
 	 */
-	public void setEdges(List<Edge> edges) {
+	public void setRowData(List<Edge> edges) {
 	    removeAllRow();	            
         for (int row = 0; row < edges.size(); row++) {
         	Edge edge = (Edge)edges.get(row);	        
@@ -125,8 +124,5 @@ public class EdgeTable extends DefaultTable {
 	        tableModel.insertRow(row, rowData);
 	    }		
 	}
-	
-	private BigDecimal convertScale(double d, int scale) {
-		return new BigDecimal(d).setScale(scale, BigDecimal.ROUND_HALF_UP);
-	}
+
 }

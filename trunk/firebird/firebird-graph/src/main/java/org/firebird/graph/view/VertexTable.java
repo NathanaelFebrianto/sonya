@@ -33,7 +33,7 @@ public class VertexTable extends DefaultTable {
 	 */
 	public VertexTable(List<Vertex> vertices) {
         this();
-        setVertices(vertices);
+        setRowData(vertices);
     }
 	
 	/**
@@ -129,7 +129,7 @@ public class VertexTable extends DefaultTable {
 	 * 
 	 * @param vertices the vertex list
 	 */
-	public void setVertices(List<Vertex> vertices) {
+	public void setRowData(List<Vertex> vertices) {
 	    removeAllRow();	            
         for (int row = 0; row < vertices.size(); row++) {
 	        Vertex vertex = (Vertex)vertices.get(row);	        
@@ -171,8 +171,5 @@ public class VertexTable extends DefaultTable {
 	        tableModel.insertRow(row, rowData);
 	    }		
 	}
-	
-	private BigDecimal convertScale(double d, int scale) {
-		return new BigDecimal(d).setScale(scale, BigDecimal.ROUND_HALF_UP);
-	}	
+
 }

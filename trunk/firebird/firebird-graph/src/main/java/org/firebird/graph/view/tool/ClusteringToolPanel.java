@@ -9,6 +9,7 @@ import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.Iterator;
+import java.util.Map;
 import java.util.Set;
 import java.util.Vector;
 
@@ -17,9 +18,13 @@ import javax.swing.JComboBox;
 import javax.swing.JComponent;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
+import javax.swing.RowSorter;
 import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.table.TableModel;
+import javax.swing.table.TableRowSorter;
 
+import org.firebird.analyzer.graph.clustering.Clusterer;
 import org.firebird.common.model.ObjectModel;
 import org.firebird.graph.bean.GraphClientHandler;
 import org.firebird.graph.view.DefaultTable;
@@ -48,6 +53,7 @@ public class ClusteringToolPanel extends JPanel {
 
 	/** controls */
 	JComboBox comboWebsite;
+	JComboBox comboClusterType;
 	
 	/** cluster table */
 	ClusterTable tblCluster;
@@ -70,6 +76,10 @@ public class ClusteringToolPanel extends JPanel {
 		comboWebsite = new JComboBox();
 		comboWebsite.addItem(new ObjectModel("Twitter", "1"));
 		comboWebsite.addItem(new ObjectModel("me2DAY", "2"));
+		
+		comboClusterType = new JComboBox();
+		comboClusterType.addItem(new ObjectModel("EdgeBetweenness", Clusterer.EDGE_BETWEENNESS_CLUSTER));
+		comboClusterType.addItem(new ObjectModel("Voltage", Clusterer.VOLTAGE_CLUSTER));
 	}
 	
 	private void setupUI() {
@@ -93,7 +103,7 @@ public class ClusteringToolPanel extends JPanel {
 		FormLayout layout = new FormLayout(
 				"left:max(50dlu;p), 4dlu, 75dlu",
 				"p, 2dlu, p, 3dlu, " +
-				"p, 2dlu, 150dlu");
+				"p, 2dlu, p, 3dlu, 120dlu");
 
 		PanelBuilder builder = new PanelBuilder(layout);
 		builder.setDefaultDialogBorder();
@@ -103,16 +113,22 @@ public class ClusteringToolPanel extends JPanel {
 		builder.addLabel(UIHandler.getText("clustering.website"), cc.xy(1, 3));
 		builder.add(comboWebsite, cc.xy(3, 3));	
 		
-		tblCluster = new ClusterTable();		
+			
 		builder.addSeparator(UIHandler.getText("clustering.clusters"), cc.xyw(1, 5, 3));
-		builder.add(new JScrollPane(tblCluster), cc.xyw(1, 7, 3));
+
+		builder.addLabel(UIHandler.getText("clustering.cluster.type"), cc.xy(1, 7));
+		builder.add(comboClusterType, cc.xy(3, 7));
+		
+		tblCluster = new ClusterTable();	
+		builder.add(new JScrollPane(tblCluster), cc.xyw(1, 9, 3));
 				
 		return builder.getPanel();
 	}
 	
 	private JPanel setupCommandPanel() {
 		FormLayout layout = new FormLayout(
-				"p, 2dlu, p, 2dlu, p",
+				//"p, 2dlu, p, 2dlu, p",
+				"p, 2dlu, p",
 				"p");
 
 		PanelBuilder builder = new PanelBuilder(layout);
@@ -143,9 +159,12 @@ public class ClusteringToolPanel extends JPanel {
 				"colorClusterAction"));		
 		btnColor.addActionListener(colorClusterActionListener);
 		
-		builder.add(btnClear, cc.xy(1, 1));
-		builder.add(btnView, cc.xy(3, 1));
-		builder.add(btnColor, cc.xy(5, 1));
+		//builder.add(btnClear, cc.xy(1, 1));
+		//builder.add(btnView, cc.xy(3, 1));
+		//builder.add(btnColor, cc.xy(5, 1));
+		
+		builder.add(btnView, cc.xy(1, 1));
+		builder.add(btnColor, cc.xy(3, 1));
 		
 		return builder.getPanel();
 	}
@@ -163,8 +182,11 @@ public class ClusteringToolPanel extends JPanel {
 			ObjectModel objWebsite = (ObjectModel)comboWebsite.getSelectedItem();
 			int website = Integer.parseInt(objWebsite.getValue());
 			
-			Set<Set<String>> clusterSet = handler.getClusterSet(website);
-			tblCluster.setClusters(clusterSet);
+			ObjectModel objClusterType = (ObjectModel)comboClusterType.getSelectedItem();
+			String clusterType = objClusterType.getValue();
+			
+			Map<Integer, Set<String>> clusterMap = handler.getClusterMap(clusterType, website);
+			tblCluster.setClusters(clusterMap);
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
@@ -182,6 +204,7 @@ public class ClusteringToolPanel extends JPanel {
 	
 	private void clearFields() {
 		comboWebsite.setSelectedIndex(0);
+		comboClusterType.setSelectedIndex(0);
 		tblCluster.removeAllRow();
 	}
 	
@@ -200,8 +223,30 @@ public class ClusteringToolPanel extends JPanel {
 		public ClusterTable() {
 			super();
 			UIHandler.setResourceBundle("graph");
-			tableModel = new DefaultTableModel(columnNames(), 3);
+			tableModel = new DefaultTableModel(columnNames(), 3) {
+				
+				public Class<?> getColumnClass(int column) {
+					Class<?> returnValue;		
+					if ((column >= 0) && (column < getColumnCount())) {
+						if (getValueAt(0, column) != null)
+							returnValue = getValueAt(0, column).getClass();
+						else
+							returnValue = Object.class;
+					} else {
+						returnValue = Object.class;
+					}
+					return returnValue;
+				}
+				
+				public boolean isCellEditable(int row, int col) { 
+			        return false; 
+			    }
+			};
 			setModel(tableModel);
+			
+	        // set sorter
+	        RowSorter<TableModel> sorter = new TableRowSorter<TableModel>(tableModel);
+			setRowSorter(sorter); 
 
 			setColumnHidden(2, true);
 		}
@@ -217,15 +262,21 @@ public class ClusteringToolPanel extends JPanel {
 		/**
 		 * Sets the clusters.
 		 * 
-		 * @param clusterSet the cluster set
+		 * @param clusterMap the cluster map
 		 */
-		public void setClusters(Set<Set<String>> clusterSet) {
+		public void setClusters(Map<Integer, Set<String>> clusterMap) {
 			removeAllRow();
+			
+			if (clusterMap == null) {
+				System.out.println("Cluster map is null!");
+				return;
+			}
 
 			int row = 0;
-			int cluster = 1;
-			for (Iterator<Set<String>> it1 = clusterSet.iterator(); it1.hasNext();) {
-				Set<String> verticesSet = (Set<String>) it1.next();
+			
+			for (Iterator<Integer> it = clusterMap.keySet().iterator(); it.hasNext();) {
+				Integer cluster = (Integer) it.next();
+				Set<String> verticesSet = (Set<String>) clusterMap.get(cluster);
 				Vector<Object> rowData = new Vector<Object>();
 				rowData.add(cluster);
 				rowData.add(verticesSet.size());

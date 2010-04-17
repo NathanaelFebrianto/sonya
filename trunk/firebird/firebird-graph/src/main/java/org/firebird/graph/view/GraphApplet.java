@@ -4,11 +4,10 @@
  */
 package org.firebird.graph.view;
 
-import java.awt.Container;
+import java.applet.AppletContext;
 import java.net.URL;
 
 import javax.swing.JApplet;
-import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 
@@ -22,7 +21,7 @@ import org.firebird.common.http.HttpCommunicateClient;
 public class GraphApplet extends JApplet {
 
 	private static final long serialVersionUID = 3218419792123634938L;
-
+	
 	public void init() {
 		initHttpClient();
 		SwingUtilities.invokeLater(new Runnable() {
@@ -33,7 +32,7 @@ public class GraphApplet extends JApplet {
 				} catch (Exception ex) {
 					ex.printStackTrace();
 				}
-				getContentPane().add(new GraphPanel());
+				getContentPane().add(new GraphPanel(getAppletContext()));
 			}
 		});
 		
