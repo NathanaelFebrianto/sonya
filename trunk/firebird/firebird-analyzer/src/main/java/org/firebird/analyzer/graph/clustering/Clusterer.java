@@ -29,6 +29,10 @@ public final class Clusterer {
 	/** logger */
 	private static JobLogger logger = JobLogger.getLogger(Clusterer.class);
 	
+	/** cluster type */
+	public static final String EDGE_BETWEENNESS_CLUSTER = "EDGE_BETWEENNESS_CLUSTER";
+	public static final String VOLTAGE_CLUSTER = "VOLTAGE";
+	
 	/** graph */
 	Graph<Vertex, Edge> graph;
 	
@@ -110,7 +114,7 @@ public final class Clusterer {
 		
 		writer.println("#cluster	vertex");
 		
-		int cluster = 0;
+		int cluster = 1;
 		for (Iterator<Set<Vertex>> it1 = clusterSet.iterator(); it1.hasNext();) {
 			Set<Vertex> verticesSet = (Set<Vertex>) it1.next();
  			for (Iterator<Vertex> it2 = verticesSet.iterator(); it2.hasNext();) {

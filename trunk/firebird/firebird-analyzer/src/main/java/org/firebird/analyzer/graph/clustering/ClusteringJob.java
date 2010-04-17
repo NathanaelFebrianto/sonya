@@ -81,6 +81,9 @@ public class ClusteringJob {
 	
 	public static void main(String[] args) {
     	try {    		
+    		//String clusterType = Clusterer.EDGE_BETWEENNESS_CLUSTER;
+    		String clusterType = Clusterer.VOLTAGE_CLUSTER;
+    		
     		ClusteringJob job = new ClusteringJob();
     		
     		VertexManager vertexManager = new VertexManagerImpl();
@@ -94,27 +97,32 @@ public class ClusteringJob {
     		// start time
     		Date startTime = new Date();
     		logger.info("\n\n******************************************");
-    		logger.info("Start Clustering : " + startTime);
+    		logger.info("Start Clustering - " + clusterType + " : " + startTime);
         	
     		// EdgeBetweenness Clusterer
-        	int numEdgesToRemove = 700;
-        	job.clusterByEdgeBetweennessClusterer(graph, numEdgesToRemove);
-        	
-        	
+    		if (clusterType.equals(Clusterer.EDGE_BETWEENNESS_CLUSTER)) {
+        		int numEdgesToRemove = 1500;
+            	job.clusterByEdgeBetweennessClusterer(graph, numEdgesToRemove);    			
+    		}
     		// Voltage Clusterer
-        	//int numCandidates = 3000;
-        	//int numClusters = 300;
-        	//job.clusterByVoltageClusterer(graph, numCandidates, numClusters);
+    		else if (clusterType.equals(Clusterer.VOLTAGE_CLUSTER)) {
+    	       	int numCandidates = 4000;
+            	int numClusters = 100;
+            	job.clusterByVoltageClusterer(graph, numCandidates, numClusters);   			
+    		}
         	
     		// end time
     		Date endTime = new Date();
     		logger.info("Finish Clustering : " + endTime);
-    		logger.jobSummary("Clustering", startTime, endTime);
-    		
-        	// store to database
-        	job.storeEdgeBetweennessClusterSet();
-        	//job.storeVoltageClusterSet();
-        	
+    		logger.jobSummary("Clustering - " + clusterType, startTime, endTime);
+
+    		// store to database
+    		if (clusterType.equals(Clusterer.EDGE_BETWEENNESS_CLUSTER)) {
+    			job.storeEdgeBetweennessClusterSet(); 			
+    		}
+    		else if (clusterType.equals(Clusterer.VOLTAGE_CLUSTER)) {
+    	       	job.storeVoltageClusterSet();  			
+    		}        	
      	} catch (Exception e) {
         	e.printStackTrace();
         	logger.error(e.getMessage(), e);
