@@ -114,6 +114,8 @@ public class TopicUserTable extends DefaultTable {
 		        } catch (Exception ex) {
 		        	ex.printStackTrace();
 		        }	        	
+	        } else {
+	        	profileImage = null;
 	        }
 	        
 	        rowData.add(row + 1);
@@ -122,7 +124,7 @@ public class TopicUserTable extends DefaultTable {
 	        rowData.add(topicUser.getUserId());
 	        rowData.add(topicUser.getUserName());
 	        rowData.add(profileImage);	        
-	        rowData.add(topicUser.getUserUrl());	//rowData.add(hyperlink);/
+	        rowData.add(topicUser.getUserUrl());
 	        rowData.add(topicUser.getUserMatchTermsCount());	        
 	        rowData.add(convertScale(topicUser.getScore(), 2));
 	        rowData.add(topicUser.getUserMatchTerms());
