@@ -24,7 +24,7 @@
 		SELECT a.*, b.vertex_id, b.user_name, b.image_file, b.user_url
 		FROM topic_user_cluster a, vertex b
 		WHERE a.website_id = b.website_id AND 
-			a.user_id = b.user_id AND 
+			a.user_id = b.vertex_id AND 
 			a.website_id = #{websiteId} AND 
 			a.topic_id = #{topicId}
 		ORDER BY a.score DESC
