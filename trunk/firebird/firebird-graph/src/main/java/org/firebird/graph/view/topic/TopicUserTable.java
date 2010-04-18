@@ -64,7 +64,7 @@ public class TopicUserTable extends DefaultTable {
         // set hidden colum
         setColumnHidden(1, true);
         setColumnHidden(2, true);
-        setColumnHidden(5, true);	// profile image
+        //setColumnHidden(5, true);	// profile image
         setColumnHidden(6, true);
         setColumnHidden(9, true);
         
@@ -73,10 +73,8 @@ public class TopicUserTable extends DefaultTable {
 		setRowSorter(sorter);
 		setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 		
-		/*
 		this.setIconCellRenderer(5);
 		this.setRowHeight(55);
-		*/
     }
 	
 	private Object[] columnNames() {
@@ -110,7 +108,7 @@ public class TopicUserTable extends DefaultTable {
 	        // user profile image
 	        ImageIcon profileImage = null;
 	        try {
-	        	//profileImage = new ImageIcon(new URL(topicUser.getUserProfileImage()));
+	        	profileImage = new ImageIcon(new URL(topicUser.getUserProfileImage()));
 	        } catch (Exception ex) {
 	        	ex.printStackTrace();
 	        }
