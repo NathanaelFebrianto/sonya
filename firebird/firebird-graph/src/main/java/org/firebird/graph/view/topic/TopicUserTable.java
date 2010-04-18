@@ -64,18 +64,19 @@ public class TopicUserTable extends DefaultTable {
         // set hidden colum
         setColumnHidden(1, true);
         setColumnHidden(2, true);
-        //setColumnHidden(5, true);
+        setColumnHidden(5, true);	// profile image
         setColumnHidden(6, true);
         setColumnHidden(9, true);
-        
-        this.setRowHeight(55);
         
         // set sorter
         RowSorter<TableModel> sorter = new TableRowSorter<TableModel>(tableModel);
 		setRowSorter(sorter);
 		setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 		
+		/*
 		this.setIconCellRenderer(5);
+		this.setRowHeight(55);
+		*/
     }
 	
 	private Object[] columnNames() {
@@ -106,16 +107,12 @@ public class TopicUserTable extends DefaultTable {
         	TopicUser topicUser = (TopicUser) list.get(row);	        
 	        Vector<Object> rowData = new Vector<Object>();
 	        
-	        // user profile image - diplay top 10 user's images for performance issue
+	        // user profile image
 	        ImageIcon profileImage = null;
-	        if (row < 10) {
-		        try {
-		        	profileImage = new ImageIcon(new URL(topicUser.getUserProfileImage()));
-		        } catch (Exception ex) {
-		        	ex.printStackTrace();
-		        }	        	
-	        } else {
-	        	profileImage = null;
+	        try {
+	        	//profileImage = new ImageIcon(new URL(topicUser.getUserProfileImage()));
+	        } catch (Exception ex) {
+	        	ex.printStackTrace();
 	        }
 	        
 	        rowData.add(row + 1);
@@ -123,7 +120,8 @@ public class TopicUserTable extends DefaultTable {
 	        rowData.add(topicUser.getTopicId());
 	        rowData.add(topicUser.getUserId());
 	        rowData.add(topicUser.getUserName());
-	        rowData.add(profileImage);	        
+	        if (profileImage == null)	rowData.add("");
+	        else	rowData.add(profileImage);
 	        rowData.add(topicUser.getUserUrl());
 	        rowData.add(topicUser.getUserMatchTermsCount());	        
 	        rowData.add(convertScale(topicUser.getScore(), 2));
