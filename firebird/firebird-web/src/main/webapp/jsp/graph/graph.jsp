@@ -30,9 +30,13 @@
 	   		./client-lib/collections-generic-4.01.jar, ./client-lib/colt-1.2.0.jar, 
 	   		./client-lib/concurrent-1.3.4.jar, ./client-lib/stax-api-1.0.1.jar,
 	   		./client-lib/wstx-asl-3.2.6.jar, ./client-lib/twitter4j-core.jar,
-	   		./client-lib/substance-5.3.jar" >
+	   		./client-lib/substance.jar, ./client-lib/trident.jar" >
     <param name = "type" value = "application/x-java-applet;version=1.6">
     <param name = "scriptable" value = "false">
+    
+    <param name = "screenMode" value = "applet">
+    <param name = "frameWidth" value = "1250">
+    <param name = "frameHeight" value = "700">
 
     <comment>
 	<embed
@@ -53,11 +57,14 @@
 	   		./client-lib/collections-generic-4.01.jar, ./client-lib/colt-1.2.0.jar, 
 	   		./client-lib/concurrent-1.3.4.jar, ./client-lib/stax-api-1.0.1.jar,
 	   		./client-lib/wstx-asl-3.2.6.jar, ./client-lib/twitter4j-core.jar,
-	   		./client-lib/substance-5.3.jar" \
+	   		./client-lib/substance.jar, ./client-lib/trident.jar" \
             WIDTH = 1100 \
             HEIGHT = 680
 	    scriptable = false
-	    pluginspage = "http://java.sun.com/products/plugin/index.html#download">
+	    pluginspage = "http://java.sun.com/products/plugin/index.html#download"
+	    screenModel = "applet"
+	    frameWidth = "1250"
+	    frameHeight = "700">
 	    <noembed>
             alt="Your browser understands the &lt;APPLET&gt; tag but isn't running the applet, for some reason."
 	Your browser is completely ignoring the &lt;APPLET&gt; tag!
