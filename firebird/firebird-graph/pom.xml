@@ -5,13 +5,13 @@
 	<artifactId>firebird-graph</artifactId>
 	<packaging>jar</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>firebird-graph</name>
+	<name>firebird-graph</name> 
 	<url>http://maven.apache.org</url>
 
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
+			<artifactId>junit</artifactId> 
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
@@ -100,9 +100,14 @@
 		</dependency>
 		<!-- Substance: it's installed manually -->
 		<dependency>
-			<groupId>org.jvnet.substance</groupId>
+			<groupId>org.pusingpixels.substance</groupId>
 			<artifactId>substance</artifactId>
-			<version>5.3</version>
+			<version>6.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.pusingpixels.trident</groupId>
+			<artifactId>trident</artifactId>
+			<version>6.0</version>
 		</dependency>
 		<!-- Firebird -->
 		<dependency>

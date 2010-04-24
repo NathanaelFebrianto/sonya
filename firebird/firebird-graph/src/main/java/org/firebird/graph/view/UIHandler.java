@@ -16,11 +16,8 @@ import java.util.Locale;
 import java.util.ResourceBundle;
 
 import javax.swing.ImageIcon;
-import javax.swing.SwingUtilities;
 import javax.swing.UIDefaults;
 import javax.swing.UIManager;
-
-import org.jvnet.substance.skin.SubstanceRavenGraphiteLookAndFeel;
 
 /**
  * UI handler for swing.
