@@ -4,10 +4,14 @@
  */
 package org.firebird.graph.view;
 
-import java.applet.AppletContext;
+import java.awt.BorderLayout;
 import java.net.URL;
 
 import javax.swing.JApplet;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JTextArea;
+import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 
@@ -22,23 +26,44 @@ public class GraphApplet extends JApplet {
 
 	private static final long serialVersionUID = 3218419792123634938L;
 	
+	private static JApplet _instance = null;
+	
 	public void init() {
+		
+		final String mode = getParameter("screenMode");
+		final int width = Integer.parseInt(getParameter("frameWidth"));
+		final int height = Integer.parseInt(getParameter("frameHeight"));
+		
 		initHttpClient();
+
+		JFrame.setDefaultLookAndFeelDecorated(true);
 		SwingUtilities.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceCremeLookAndFeel");
-					//UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceRavenGraphiteLookAndFeel");
+					UIManager.setLookAndFeel("org.pushingpixels.substance.api.skin.SubstanceCremeLookAndFeel");
+					//UIManager.setLookAndFeel("org.pushingpixels.substance.api.skin.SubstanceRavenGraphiteLookAndFeel");
 				} catch (Exception ex) {
 					ex.printStackTrace();
 				}
-				getContentPane().add(new GraphPanel(getAppletContext()));
+				
+				if (mode.equalsIgnoreCase("frame")) {
+					setupDefaultUI();
+					GraphFrame frame = new GraphFrame(GraphApplet.this);
+					frame.setSize(width, height);
+					frame.setVisible(true);
+				}
+				else if (mode.equalsIgnoreCase("applet")) {
+					getContentPane().add(new GraphPanel(getAppletContext()));
+				}
+				else {
+					getContentPane().add(new GraphPanel(getAppletContext()));
+				}
 			}
 		});
 		
-		//System.out.println("Look & Feel == " + UIManager.getLookAndFeel());
+		_instance = this;
 	}
-
+	
 	private void initHttpClient() {
 		try {
 			String strUrl = getCodeBase() + "communicate"; // "communicate" is servlet url
@@ -48,7 +73,23 @@ public class GraphApplet extends JApplet {
 			e.printStackTrace();
 		}
 	}
+	
+	private void setupDefaultUI() {
+		getContentPane().setLayout(new BorderLayout());
+		JPanel panel = new JPanel(new BorderLayout());
+		
+		JTextArea textArea = new JTextArea("Applet is running..Don't close this applet window!");
+		textArea.setLineWrap(true);
+		textArea.setEditable(false);
+		
+		panel.add(textArea, BorderLayout.CENTER);
+		getContentPane().add(panel, SwingConstants.CENTER);
+	}
 
 	public void destroy() {
+	}
+	
+	public static JApplet getInstance() {
+		return _instance;
 	}
 }
