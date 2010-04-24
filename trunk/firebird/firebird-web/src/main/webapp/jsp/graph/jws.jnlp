@@ -48,16 +48,20 @@
 	   	<jar href="./client-lib/stax-api-1.0.1.jar"/>
 	   	<jar href="./client-lib/wstx-asl-3.2.6.jar"/> 
 	   	<jar href="./client-lib/twitter4j-core.jar"/>
-	   	<jar href="./client-lib/substance-5.3.jar"/>
+	   	<jar href="./client-lib/substance.jar"/>
+	   	<jar href="./client-lib/trident.jar"/>
 	</resources> 
 
    <applet-desc 
       documentBase="http://127.0.0.1:8080/firebird-web" 
       name="Firebird" 
       main-class="org.firebird.graph.view.GraphApplet" 
-      width="1250" 
-      height="700"
-      resizable="yes">
+      width="200" 
+      height="200">
+      
+      <param name="screenMode" value="frame"/>
+      <param name="frameWidth" value="1250"/>
+      <param name="frameHeight" value="700"/>
   </applet-desc>
   <!--update check="background"/-->
   
