@@ -157,13 +157,13 @@ public class TopicPanel extends JPanel {
 	 * @param websiteId the website id
 	 * @param topicId the topic id
 	 */
-	public void updateTables(int websiteId, int topicId) {
+	public void updateTables(int websiteId, int topicId, int topUserNum) {
 		tblTopicTerms.removeAllRow();
 		tblTermUsers.removeAllRow();
 		tblTopicUsers.removeAllRow();
 		tblTopicUserCluster.removeAllRow();
 		
-		try {
+		try {			
 			List<TopicTerm> topicTerms = handler.getTermsByTopic(websiteId, topicId);
 			tblTopicTerms.setRowData(topicTerms);			
 					
@@ -177,8 +177,10 @@ public class TopicPanel extends JPanel {
 			
 			List<TopicUser> topicUsers = handler.getUsersByTopic(websiteId, topicId);
 			tblTopicUsers.setRowData(topicUsers);
-			
-			List<TopicUserCluster> topicUserClusters = handler.getClusteredUsersByTopic(websiteId, topicId);
+
+			// this code is commented just for the performance(speed)
+			// List<TopicUserCluster> topicUserClusters = handler.getClusteredUsersByTopic(websiteId, topicId);	
+			List<TopicUserCluster> topicUserClusters = handler.getClusteredUsersByTopic(websiteId, topicId, topUserNum);
 			tblTopicUserCluster.setRowData(topicUserClusters);
 			
 		} catch (Exception ex) {
