@@ -109,6 +109,7 @@ public class TopicUserTable extends DefaultTable {
 	        ImageIcon profileImage = null;
 	        try {
 	        	profileImage = new ImageIcon(new URL(topicUser.getUserProfileImage()));
+	        	System.out.println("profile image == " + profileImage.getDescription());
 	        } catch (Exception ex) {
 	        	ex.printStackTrace();
 	        }

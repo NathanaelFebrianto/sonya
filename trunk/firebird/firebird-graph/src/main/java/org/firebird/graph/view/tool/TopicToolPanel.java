@@ -86,7 +86,7 @@ public class TopicToolPanel extends JPanel {
 		comboColorTarget.addItem(UIHandler.getText("topic.coloring.topicUser"));
 		comboColorTarget.addItem(UIHandler.getText("topic.coloring.topicClusteredUser"));
 		
-		spinTopN = new JSpinner(new SpinnerNumberModel(1, 1, 999999999, 1));
+		spinTopN = new JSpinner(new SpinnerNumberModel(10, 1, 999999999, 1));
 	}
 	
 	private void setupUI() {
@@ -264,8 +264,10 @@ public class TopicToolPanel extends JPanel {
 				
 				int topicId = (Integer) tblTopic.getValueAt(row, 0);
 				
+				Integer topUserNum = (Integer)spinTopN.getValue();
+				
 				panelGraph.getRightTabbedPanel().setSelectedIndex(1);
-				panelGraph.getRightTopicPanel().updateTables(websiteId, topicId);				
+				panelGraph.getRightTopicPanel().updateTables(websiteId, topicId, topUserNum);				
 			}
 		} catch (Exception ex) {
 			ex.printStackTrace();
@@ -288,8 +290,10 @@ public class TopicToolPanel extends JPanel {
 			
 			int topicId = (Integer) tblTopic.getValueAt(row, 0);
 			
+			Integer topUserNum = (Integer)spinTopN.getValue();
+			
 			panelGraph.getRightTabbedPanel().setSelectedIndex(1);
-			panelGraph.getRightTopicPanel().updateTables(websiteId, topicId);
+			panelGraph.getRightTopicPanel().updateTables(websiteId, topicId, topUserNum);
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
@@ -315,7 +319,7 @@ public class TopicToolPanel extends JPanel {
 	private void clearFields() {
 		comboWebsite.setSelectedIndex(0);
 		comboColorTarget.setSelectedIndex(0);
-		spinTopN.setValue(new Integer(1));
+		spinTopN.setValue(new Integer(10));
 		tblTopic.removeAllRow();
 	}
 	
