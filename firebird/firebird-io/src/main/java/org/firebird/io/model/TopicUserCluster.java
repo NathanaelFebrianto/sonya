@@ -25,10 +25,13 @@ public class TopicUserCluster implements Serializable ,Comparable<TopicUserClust
 	private String userUrl;
 	private boolean isTopicUser;
 	private int cluster;
-	private float score;
+	private double authority;
+	private float topicScore;
+	private float authorityTopicScore;
 	private Date createDate;
 	private Date lastUpdateDate;
 	private Integer topUserNum;
+	private String orderByColumn;
 	
 	public int getWebsiteId() {
 		return websiteId;
@@ -57,8 +60,14 @@ public class TopicUserCluster implements Serializable ,Comparable<TopicUserClust
 	public int getCluster() {
 		return cluster;
 	}
-	public float getScore() {
-		return score;
+	public double getAuthority() {
+		return authority;
+	}
+	public float getTopicScore() {
+		return topicScore;
+	}
+	public float getAuthorityTopicScore() {
+		return authorityTopicScore;
 	}
 	public Date getCreateDate() {
 		return createDate;
@@ -68,6 +77,9 @@ public class TopicUserCluster implements Serializable ,Comparable<TopicUserClust
 	}
 	public Integer getTopUserNum() {
 		return topUserNum;
+	}
+	public String getOrderByColumn() {
+		return orderByColumn;
 	}
 
 	public void setWebsiteId(int websiteId) {
@@ -97,8 +109,14 @@ public class TopicUserCluster implements Serializable ,Comparable<TopicUserClust
 	public void setCluster(int cluster) {
 		this.cluster = cluster;
 	}
-	public void setScore(float score) {
-		this.score = score;
+	public void setAuthority(double authority) {
+		this.authority = authority;
+	}
+	public void setTopicScore(float topicScore) {
+		this.topicScore = topicScore;
+	}
+	public void setAuthorityTopicScore(float authorityTopicScore) {
+		this.authorityTopicScore = authorityTopicScore;
 	}
 	public void setCreateDate(Date createDate) {
 		this.createDate = createDate;
@@ -109,12 +127,15 @@ public class TopicUserCluster implements Serializable ,Comparable<TopicUserClust
 	public void setTopUserNum(Integer topUserNum) {
 		this.topUserNum = topUserNum;
 	}
+	public void setOrderByColumn(String orderByColumn) {
+		this.orderByColumn = orderByColumn;
+	}
 
 	@Override
 	public int compareTo(TopicUserCluster other) {
 		//return Float.compare(score, other.getScore());
 		//order by desc
-		return Float.compare(other.getScore(), score);
+		return Float.compare(other.getTopicScore(), topicScore);
 	}
 
 }

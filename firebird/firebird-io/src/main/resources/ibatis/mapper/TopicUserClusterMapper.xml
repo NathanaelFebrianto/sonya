@@ -15,7 +15,9 @@
 		<result property="userUrl" column="user_url" />
 		<result property="topicUser" column="is_topic_user" />
 		<result property="cluster" column="cluster" />
-		<result property="score" column="score" />
+		<result property="authority" column="authority" />
+		<result property="topicScore" column="topic_score" />
+		<result property="authorityTopicScore" column="authority_topic_score" />
 		<result property="createDate" column="create_date" />
 		<result property="lastUpdateDate" column="last_update_date" />
 	</resultMap>	
@@ -27,7 +29,17 @@
 			a.user_id = b.vertex_id AND 
 			a.website_id = #{websiteId} AND 
 			a.topic_id = #{topicId}
-		ORDER BY a.score DESC
+		<choose>
+			<when test="orderByColumn == 'TOPIC_SCORE'">
+				ORDER BY a.topic_score DESC
+			</when>
+			<when test="orderByColumn == 'AUTHORITY_TOPIC_SCORE'">
+				ORDER BY a.authority_topic_score DESC
+			</when>
+			<otherwise>
+				ORDER BY a.topic_score DESC
+			</otherwise>
+		</choose>		
 		<if test="topUserNum != null">
 			LIMIT #{topUserNum}
 		</if>
@@ -40,7 +52,9 @@
 			, user_id
 			, is_topic_user
 			, cluster
-			, score
+			, authority
+			, topic_score
+			, authority_topic_score
 			, create_date
 			, last_update_date 
 		)
@@ -50,7 +64,9 @@
 			, #{userId,jdbcType=VARCHAR}
 			, #{topicUser,javaType=boolean,jdbcType=BOOLEAN}
 			, #{cluster,javaType=int,jdbcType=NUMERIC}
-			, #{score,javaType=float,jdbcType=FLOAT}
+			, #{authority,javaType=double,jdbcType=DOUBLE}
+			, #{topicScore,javaType=float,jdbcType=FLOAT}
+			, #{authorityTopicScore,javaType=float,jdbcType=FLOAT}
 			, NOW()
 			, NOW()	
 		)
