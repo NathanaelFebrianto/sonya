@@ -35,13 +35,17 @@ public class TopicUserClusterManagerImpl extends GenericManagerImpl implements T
      * @param websiteId the website id
      * @param topicId the topic id
      * @param topUserNum the top user number
+     * @param orderByColumn the orderby column
      * @return List<TopicUserCluster> the list of topic user cluster
      */
-	public List<TopicUserCluster> getUsers(int websiteId, int topicId, int topUserNum) {
+	public List<TopicUserCluster> getUsers(int websiteId, int topicId, int topUserNum, String orderByColumn) {
 		TopicUserCluster param = new TopicUserCluster();
 		param.setWebsiteId(websiteId);
 		param.setTopicId(topicId);
 		param.setTopUserNum(topUserNum);
+		param.setOrderByColumn(orderByColumn);
+		
+		//System.out.println("order by column == " + orderByColumn);
 		
 		SqlSession session = sqlSessionFactory.openSession();
     	try {

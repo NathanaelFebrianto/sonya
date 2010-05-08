@@ -70,7 +70,9 @@
 		FROM topic_user
 		WHERE website_id = #{websiteId}
 			AND topic_id = #{topicId}
-			AND score >= #{score}
+			<if test="score != null">
+				AND score >= #{score}
+			</if>
 			AND EXISTS (
 				SELECT user_id FROM vertex 
 				WHERE website_id = #{websiteId} AND 
@@ -87,7 +89,9 @@
 		FROM topic_user
 		WHERE website_id = #{websiteId}
 			AND topic_id = #{topicId}
-			AND score >= #{score}
+			<if test="score != null">
+				AND score >= #{score}
+			</if>
 			AND EXISTS (
 				SELECT user_id FROM vertex 
 				WHERE website_id = #{websiteId} AND 
