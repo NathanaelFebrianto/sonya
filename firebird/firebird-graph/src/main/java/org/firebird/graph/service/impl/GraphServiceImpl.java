@@ -225,10 +225,11 @@ public class GraphServiceImpl implements GraphService {
      * @param websiteId the website id
      * @param topicId the topic id
      * @param topUserNum the top user number
+     * @param orderByColumn the orderby column
      * @return List<TopicUserCluster> the list of topic user cluster
      */
-	public List<TopicUserCluster> getClusteredUsersByTopic(int websiteId, int topicId, int topUserNum) {
-		return topicClusterManager.getUsers(websiteId, topicId, topUserNum);
+	public List<TopicUserCluster> getClusteredUsersByTopic(int websiteId, int topicId, int topUserNum, String orderByColumn) {
+		return topicClusterManager.getUsers(websiteId, topicId, topUserNum, orderByColumn);
 	}
 	
     /**

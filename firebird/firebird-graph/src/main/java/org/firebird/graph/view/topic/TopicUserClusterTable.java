@@ -84,7 +84,9 @@ public class TopicUserClusterTable extends DefaultTable {
 				UIHandler.getText("col.topic.user.cluster.userUrl"),
 				UIHandler.getText("col.topic.user.cluster.isTopicUser"),
 				UIHandler.getText("col.topic.user.cluster.cluster"),
-				UIHandler.getText("col.topic.user.cluster.score"),
+				UIHandler.getText("col.topic.user.cluster.authority"),
+				UIHandler.getText("col.topic.user.cluster.topicScore"),
+				UIHandler.getText("col.topic.user.cluster.authorityTopicScore"),
 		};
 		
 		return colNames;
@@ -126,7 +128,9 @@ public class TopicUserClusterTable extends DefaultTable {
 	        rowData.add(topicUser.getUserUrl()); //rowData.add(hyperlink);	
 	        rowData.add(topicUser.isTopicUser());
 	        rowData.add(topicUser.getCluster());
-	        rowData.add(convertScale(topicUser.getScore(), 2));
+	        rowData.add(convertScale(topicUser.getAuthority(), 2));
+	        rowData.add(convertScale(topicUser.getTopicScore(), 2));
+	        rowData.add(convertScale(topicUser.getAuthorityTopicScore(), 2));
 	        tableModel.insertRow(row, rowData);
 	    }		
 	}
