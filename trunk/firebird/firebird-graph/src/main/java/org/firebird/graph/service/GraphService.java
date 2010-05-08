@@ -142,9 +142,10 @@ public interface GraphService {
      * @param websiteId the website id
      * @param topicId the topic id
      * @param topUserNum the top user number
+     * @param orderByColumn the orderby column
      * @return List<TopicUserCluster> the list of topic user cluster
      */
-	public List<TopicUserCluster> getClusteredUsersByTopic(int websiteId, int topicId, int topUserNum);
+	public List<TopicUserCluster> getClusteredUsersByTopic(int websiteId, int topicId, int topUserNum, String orderByColumn);
 	
     /**
      * Gets the topic-based clustered users by the specified topic.

@@ -58,7 +58,9 @@ public class TopicToolPanel extends JPanel {
 	/** controls */
 	JComboBox comboWebsite;
 	JComboBox comboColorTarget;
-	JSpinner spinTopN;
+	JSpinner spinColorTopN;
+	JComboBox comboClusterUserOrderBy;
+	JSpinner spinClusterUserTopN;
 	
 	/** topic table */
 	TopicTable tblTopic;
@@ -84,9 +86,15 @@ public class TopicToolPanel extends JPanel {
 		
 		comboColorTarget = new JComboBox();
 		comboColorTarget.addItem(UIHandler.getText("topic.coloring.topicUser"));
-		comboColorTarget.addItem(UIHandler.getText("topic.coloring.topicClusteredUser"));
+		comboColorTarget.addItem(UIHandler.getText("topic.coloring.topicClusteredUser"));		
 		
-		spinTopN = new JSpinner(new SpinnerNumberModel(10, 1, 999999999, 1));
+		spinColorTopN = new JSpinner(new SpinnerNumberModel(20, 1, 999999999, 1));
+		
+		comboClusterUserOrderBy = new JComboBox();
+		comboClusterUserOrderBy.addItem("TOPIC_SCORE");
+		comboClusterUserOrderBy.addItem("AUTHORITY_TOPIC_SCORE");
+		
+		spinClusterUserTopN = new JSpinner(new SpinnerNumberModel(20, 1, 999999999, 1));
 	}
 	
 	private void setupUI() {
@@ -110,7 +118,8 @@ public class TopicToolPanel extends JPanel {
 		FormLayout layout = new FormLayout(
 				"left:max(50dlu;p), 4dlu, 75dlu",
 				"p, 2dlu, p, 3dlu, " +
-				"p, 2dlu, p, 2dlu, p, 3dlu, 150dlu");
+				"p, 2dlu, p, 2dlu, p, 3dlu," +
+				"p, 2dlu, p, 3dlu, p, 3dlu, 120dlu");
 
 		PanelBuilder builder = new PanelBuilder(layout);
 		builder.setDefaultDialogBorder();
@@ -118,14 +127,19 @@ public class TopicToolPanel extends JPanel {
 		
 		builder.addSeparator(UIHandler.getText("topic.website.select"), cc.xyw(1, 1, 3));
 		builder.addLabel(UIHandler.getText("topic.website"), cc.xy(1, 3));
-		builder.add(comboWebsite, cc.xy(3, 3));	
-		
+		builder.add(comboWebsite, cc.xy(3, 3));			
 				
-		builder.addSeparator(UIHandler.getText("topic.topics"), cc.xyw(1, 5, 3));		
+		builder.addSeparator(UIHandler.getText("topic.color.option"), cc.xyw(1, 5, 3));		
 		builder.addLabel(UIHandler.getText("topic.coloring.target"), cc.xy(1, 7));
 		builder.add(comboColorTarget, cc.xy(3, 7));	
 		builder.addLabel(UIHandler.getText("topic.coloring.topn"), cc.xy(1, 9));
-		builder.add(spinTopN, cc.xy(3, 9));
+		builder.add(spinColorTopN, cc.xy(3, 9));
+		
+		builder.addSeparator(UIHandler.getText("topic.clusterUser.option"), cc.xyw(1, 11, 3));	
+		builder.addLabel(UIHandler.getText("topic.clusterUser.orderBy"), cc.xy(1, 13));
+		builder.add(comboClusterUserOrderBy, cc.xy(3, 13));
+		builder.addLabel(UIHandler.getText("topic.clusterUser.topn"), cc.xy(1, 15));
+		builder.add(spinClusterUserTopN, cc.xy(3, 15));
 		
 		tblTopic = new TopicTable();
 		MouseListener selectTopicActionListener = (MouseListener)(GenericListener.create(
@@ -135,7 +149,7 @@ public class TopicToolPanel extends JPanel {
 				"selectTopicAction"));
 		tblTopic.addMouseListener(selectTopicActionListener);
 		
-		builder.add(new JScrollPane(tblTopic), cc.xyw(1, 11, 3));
+		builder.add(new JScrollPane(tblTopic), cc.xyw(1, 17, 3));
 				
 		return builder.getPanel();
 	}
@@ -213,10 +227,11 @@ public class TopicToolPanel extends JPanel {
 		try {
 			String colorTarget = (String) comboColorTarget.getSelectedItem();
 			
-			ObjectModel objWebsite = (ObjectModel)comboWebsite.getSelectedItem();
+			ObjectModel objWebsite = (ObjectModel) comboWebsite.getSelectedItem();
 			int websiteId = Integer.parseInt(objWebsite.getValue());
 			
-			Integer topUserNum = (Integer)spinTopN.getValue();
+			Integer topUserNum = (Integer)spinColorTopN.getValue();			
+			String orderByColumn = (String) comboClusterUserOrderBy.getSelectedItem();
 			
 			int[] rows = tblTopic.getSelectedRows();
 			
@@ -232,10 +247,11 @@ public class TopicToolPanel extends JPanel {
 				}				
 			}
 			else if (colorTarget.equals(UIHandler.getText("topic.coloring.topicClusteredUser"))) {
+				
 				for (int row : rows) {
 					int topicId = (Integer) tblTopic.getValueAt(row, 0);
 					
-					List<TopicUserCluster> users = handler.getClusteredUsersByTopic(websiteId, topicId, topUserNum);
+					List<TopicUserCluster> users = handler.getClusteredUsersByTopic(websiteId, topicId, topUserNum, orderByColumn);
 					Set<String> verticesSet = this.getVerticesSet(users);
 
 					Color color = panelGraph.getGraphViewer().colorVertices(verticesSet);
@@ -250,7 +266,7 @@ public class TopicToolPanel extends JPanel {
 	public void selectTopicAction(MouseEvent e) {
 		try {
 			if (e.getClickCount() == 2) {
-				ObjectModel objWebsite = (ObjectModel)comboWebsite.getSelectedItem();
+				ObjectModel objWebsite = (ObjectModel) comboWebsite.getSelectedItem();
 				int websiteId = Integer.parseInt(objWebsite.getValue());
 				
 				int row = tblTopic.getSelectedRow();
@@ -264,10 +280,13 @@ public class TopicToolPanel extends JPanel {
 				
 				int topicId = (Integer) tblTopic.getValueAt(row, 0);
 				
-				Integer topUserNum = (Integer)spinTopN.getValue();
+				String orderByColumn = (String) comboClusterUserOrderBy.getSelectedItem();
+				Integer topUserNum = (Integer) spinClusterUserTopN.getValue();
+				
+				System.out.println("order by column == " + orderByColumn);
 				
 				panelGraph.getRightTabbedPanel().setSelectedIndex(1);
-				panelGraph.getRightTopicPanel().updateTables(websiteId, topicId, topUserNum);				
+				panelGraph.getRightTopicPanel().updateTables(websiteId, topicId, topUserNum, orderByColumn);				
 			}
 		} catch (Exception ex) {
 			ex.printStackTrace();
@@ -276,7 +295,7 @@ public class TopicToolPanel extends JPanel {
 	
 	public void viewDetailAction(ActionEvent e) {
 		try {
-			ObjectModel objWebsite = (ObjectModel)comboWebsite.getSelectedItem();
+			ObjectModel objWebsite = (ObjectModel) comboWebsite.getSelectedItem();
 			int websiteId = Integer.parseInt(objWebsite.getValue());
 			
 			int row = tblTopic.getSelectedRow();
@@ -290,10 +309,11 @@ public class TopicToolPanel extends JPanel {
 			
 			int topicId = (Integer) tblTopic.getValueAt(row, 0);
 			
-			Integer topUserNum = (Integer)spinTopN.getValue();
+			String orderByColumn = (String) comboClusterUserOrderBy.getSelectedItem();
+			Integer topUserNum = (Integer) spinClusterUserTopN.getValue();
 			
 			panelGraph.getRightTabbedPanel().setSelectedIndex(1);
-			panelGraph.getRightTopicPanel().updateTables(websiteId, topicId, topUserNum);
+			panelGraph.getRightTopicPanel().updateTables(websiteId, topicId, topUserNum, orderByColumn);
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
@@ -319,7 +339,9 @@ public class TopicToolPanel extends JPanel {
 	private void clearFields() {
 		comboWebsite.setSelectedIndex(0);
 		comboColorTarget.setSelectedIndex(0);
-		spinTopN.setValue(new Integer(10));
+		spinColorTopN.setValue(new Integer(20));
+		comboClusterUserOrderBy.setSelectedIndex(0);
+		spinClusterUserTopN.setValue(new Integer(20));
 		tblTopic.removeAllRow();
 	}
 	

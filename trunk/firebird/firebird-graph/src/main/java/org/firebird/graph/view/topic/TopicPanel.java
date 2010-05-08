@@ -96,7 +96,7 @@ public class TopicPanel extends JPanel {
 		FormLayout layout = new FormLayout(
 				//"left:max(60dlu;p), 4dlu, left:max(60dlu;p)",
 				//"left:180dlu, 4dlu, left:180dlu",
-				"left:min(200dlu;p), 4dlu, left:min(200dlu;p)",
+				"left:min(210dlu;p), 4dlu, left:min(210dlu;p)",
 				"p, 2dlu, 140dlu, 2dlu");
 
 		PanelBuilder builder = new PanelBuilder(layout);
@@ -135,7 +135,7 @@ public class TopicPanel extends JPanel {
 		FormLayout layout = new FormLayout(
 				//"left:max(60dlu;p), 4dlu, left:max(60dlu;p)",
 				//"left:180dlu, 4dlu, left:180dlu",
-				"left:min(200dlu;p), 4dlu, left:min(200dlu;p)",
+				"left:min(210dlu;p), 4dlu, left:min(210dlu;p)",
 				"p, 2dlu, 140dlu, 2dlu");
 
 		PanelBuilder builder = new PanelBuilder(layout);
@@ -156,8 +156,10 @@ public class TopicPanel extends JPanel {
 	 * 
 	 * @param websiteId the website id
 	 * @param topicId the topic id
+	 * @param topUserNum the top user number
+	 * @param orderByColumn the orderby column
 	 */
-	public void updateTables(int websiteId, int topicId, int topUserNum) {
+	public void updateTables(int websiteId, int topicId, int topUserNum, String orderByColumn) {
 		tblTopicTerms.removeAllRow();
 		tblTermUsers.removeAllRow();
 		tblTopicUsers.removeAllRow();
@@ -180,7 +182,7 @@ public class TopicPanel extends JPanel {
 
 			// this code is commented just for the performance(speed)
 			// List<TopicUserCluster> topicUserClusters = handler.getClusteredUsersByTopic(websiteId, topicId);	
-			List<TopicUserCluster> topicUserClusters = handler.getClusteredUsersByTopic(websiteId, topicId, topUserNum);
+			List<TopicUserCluster> topicUserClusters = handler.getClusteredUsersByTopic(websiteId, topicId, topUserNum, orderByColumn);
 			tblTopicUserCluster.setRowData(topicUserClusters);
 			
 		} catch (Exception ex) {
