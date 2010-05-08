@@ -38,6 +38,7 @@ public class TopicUserClusteringJob {
 	/** logger */
 	private static JobLogger logger = JobLogger.getLogger(TopicUserClusteringJob.class);
 	
+	private Map<Integer, List<TopicUser>> allTopicUsersMap = new HashMap<Integer, List<TopicUser>>();
 	private Map<Integer, Map<Integer, List<TopicUser>>> clusterTopicUsersMap = new HashMap<Integer, Map<Integer, List<TopicUser>>>();
 	
 	/**
@@ -71,12 +72,15 @@ public class TopicUserClusteringJob {
 			clusters = vertexManager.getVoltageClusters(websiteId);
 		}
 		 		
-		List<Integer> topics = topicManager.getTopics(websiteId);
+		List<Integer> topics = topicManager.getTopics(websiteId);		
 		
 		// start time
 		Date startTime = Calendar.getInstance().getTime();
 		logger.info("\n\n******************************************");
 		logger.info("Start Topic-based User Clustering - " + clusterType + " : " + startTime + "\n");		
+		
+		logger.info("Get all topic users...");
+		this.allTopicUsersMap = this.getAllTopicUsers(websiteId, topics);		
 		
 		logger.info("#cluster	topic	user_id	is_topic_user	score");
 		
@@ -88,21 +92,52 @@ public class TopicUserClusteringJob {
 			else if (clusterType.equals(Clusterer.VOLTAGE_CLUSTER)) {
 				users = vertexManager.getVerticesInVoltageCluster(websiteId, cluster);
 			}
+			
+			Map<Integer, List<TopicUser>> topicUsersMap = this.getTopTopicUsersByCluster(websiteId, topics, clusterType, cluster, minScore, topUserNum);
 
-			for (Vertex user : users) {				
-				Map<Integer, List<TopicUser>> topicUsersMap = this.getTopTopicUsersByCluster(websiteId, topics, clusterType, cluster, minScore, topUserNum);
+			for (Vertex user : users) {	
 				
 				for (Iterator<Integer> it = topicUsersMap.keySet().iterator(); it.hasNext();) {
 					Integer topic = (Integer) it.next();
-					List<TopicUser> topicUsers = (List<TopicUser>) topicUsersMap.get(topic);				
-				
-					if (topicUsers != null && topicUsers.size() > 0) {
-						TopicUserCluster userCluster = this.topicUserCluster(cluster, topic, user, topicUsers);
-						// store into database
+					TopicUserCluster userCluster = null;
+
+					// check if the user is a topic user in the original topic users list.
+					// if a original topic user, just stores the original user's topic score * authority.
+					TopicUser originalTopicUser = this.getTopicUser(topic, user.getUserId());
+					if (originalTopicUser != null) {
+						userCluster = new TopicUserCluster();
+						
+						float authority = new Float(user.getAuthority()).floatValue();
+						float topicScore = originalTopicUser.getScore();
+						float score = topicScore * authority;
+						
+						userCluster.setWebsiteId(websiteId);
+						userCluster.setTopicId(topic);
+						userCluster.setUserId(user.getUserId());
+						userCluster.setTopicUser(true);
+						userCluster.setCluster(cluster);
+						userCluster.setAuthority(user.getAuthority());
+						userCluster.setTopicScore(topicScore);
+						userCluster.setAuthorityTopicScore(score);
+					}	
+					else {
+						List<TopicUser> topicUsers = (List<TopicUser>) topicUsersMap.get(topic);				
+						
+						if (topicUsers != null && topicUsers.size() > 0) {
+							userCluster = this.topicUserCluster(cluster, topic, user, topicUsers);
+						}						
+					}
+					// store into database
+					if (userCluster != null) {
 						topicUserClusterManager.addUser(userCluster);						
 						// print
-						String message = cluster + "\t" + topic + "\t" + userCluster.getUserId() +
-							"\t" + userCluster.isTopicUser() + "\t" + userCluster.getScore();
+						String message = cluster + 
+							"\t" + topic + 
+							"\t" + userCluster.getUserId() +
+							"\t" + userCluster.isTopicUser() + 
+							"\t" + userCluster.getAuthority() + 
+							"\t" + userCluster.getTopicScore() + 
+							"\t" + userCluster.getAuthorityTopicScore();
 						//logger.info(message);
 					}
 				}
@@ -117,6 +152,29 @@ public class TopicUserClusteringJob {
 		logger.jobSummary("Topic-based User Clustering - " + clusterType, startTime, endTime);
 	}
 	
+	private Map<Integer, List<TopicUser>> getAllTopicUsers(int websiteId, List<Integer> topics) {
+		TopicUserManager topicUserManager = new TopicUserManagerImpl();
+		Map<Integer, List<TopicUser>> allTopicUsersMap = new HashMap<Integer, List<TopicUser>>();
+		
+		for (Integer topic : topics) {
+			List<TopicUser> topicUsers = topicUserManager.getUsers(websiteId, topic);
+			allTopicUsersMap.put(topic, topicUsers);
+		}
+		
+		return allTopicUsersMap;
+	}
+	
+	private TopicUser getTopicUser(int topic, String userId) {
+		List<TopicUser> topicUsers = allTopicUsersMap.get(topic);
+		if (topicUsers != null) {
+			for (TopicUser topicUser : topicUsers) {
+				if (userId.equals(topicUser.getUserId()))
+					return topicUser;
+			}
+		}
+		return null;
+	}
+		
 	private Map<Integer, List<TopicUser>> getTopTopicUsersByCluster(int websiteId, 
 										List<Integer> topics, String clusterType, int cluster, float minScore, int topUserNum) {
 		TopicUserManager topicUserManager = new TopicUserManagerImpl();	 	 
@@ -148,6 +206,7 @@ public class TopicUserClusteringJob {
 		return topicUsersSet;
 	}
 	
+	/*
 	private TopicUserCluster topicUserCluster(int cluster, int topic, Vertex user, List<TopicUser> topicUsers) {
 		TopicUserCluster userCluster = new TopicUserCluster();
 		
@@ -156,10 +215,19 @@ public class TopicUserClusteringJob {
 		int numTopicUsers = topicUsers.size();
 		float score = 0.0f;	
 		boolean isTopicUser = false;
-		for (TopicUser topicUser : topicUsers) {
-			
+		
+		// check if the user is a topic user in the original topic users list.
+		// if true, get the user's topic score to calculate.
+		boolean isOriginalTopicUser = false;
+		TopicUser originalTopicUser = this.getTopicUser(topic, user.getUserId());
+		if (originalTopicUser != null) {
+			isOriginalTopicUser = true;
+		}		
+		
+		for (TopicUser topicUser : topicUsers) {			
 			float topicScore = topicUser.getScore();
 			float weight = 0.0f;
+			
 			if (user.getUserId().equals(topicUser.getUserId())) {
 				weight = 1.0f;
 				isTopicUser = true;
@@ -181,15 +249,67 @@ public class TopicUserClusteringJob {
 			score = score + (topicScore*weight);
 		}
 		
-		float authority = new Float(user.getAuthority()).floatValue();
-		score = (score / numTopicUsers) * authority;
+		//float authority = new Float(user.getAuthority()).floatValue();
+		//score = (score / numTopicUsers) * authority;
+		
+		if (isTopicUser == false && isOriginalTopicUser == true) {
+			score = ((score / numTopicUsers) + originalTopicUser.getScore()) / 2;
+		}
+		else {
+			score = (score / numTopicUsers);
+		}		
 		
 		userCluster.setWebsiteId(user.getWebsiteId());
 		userCluster.setTopicId(topic);
 		userCluster.setUserId(user.getUserId());
-		userCluster.setTopicUser(isTopicUser);
+		userCluster.setTopicUser(isOriginalTopicUser);
 		userCluster.setCluster(cluster);
 		userCluster.setScore(score);
+		
+		return userCluster;
+	}
+	*/
+
+	private TopicUserCluster topicUserCluster(int cluster, int topic, Vertex user, List<TopicUser> topicUsers) {
+		TopicUserCluster userCluster = new TopicUserCluster();
+		
+		EdgeManager edgeManager = new EdgeManagerImpl();
+		
+		int numTopicUsers = topicUsers.size();
+		float score = 0.0f;	
+		float topicScore = 0.0f;	
+		
+		for (TopicUser topicUser : topicUsers) {			
+			float topicUserScore = topicUser.getScore();
+			float weight = 0.0f;
+
+			Edge edge = edgeManager.getEdge(
+					user.getWebsiteId(), 
+					topicUser.getWebsiteId(), 
+					user.getId(), 
+					topicUser.getUserId(), 
+					Edge.RELATIONSHIP_FOLLOWING);
+			if (edge != null) {	// if following
+				weight = 0.8f;
+			}
+			else {
+				weight = 0.2f;
+			}
+			topicScore = topicScore + (topicUserScore*weight);
+		}
+		
+		float authority = new Float(user.getAuthority()).floatValue();
+		topicScore = (topicScore / numTopicUsers);
+		score = topicScore * authority;
+		
+		userCluster.setWebsiteId(user.getWebsiteId());
+		userCluster.setTopicId(topic);
+		userCluster.setUserId(user.getUserId());
+		userCluster.setTopicUser(false);
+		userCluster.setCluster(cluster);
+		userCluster.setAuthority(user.getAuthority());
+		userCluster.setTopicScore(topicScore);
+		userCluster.setAuthorityTopicScore(score);
 		
 		return userCluster;
 	}
@@ -197,8 +317,9 @@ public class TopicUserClusteringJob {
 	public static void main(String[] args) {
 		//String clusterType = Clusterer.EDGE_BETWEENNESS_CLUSTER;
 		String clusterType = Clusterer.VOLTAGE_CLUSTER;
-		float minScore = 40f;
-		int topUserNum = 3;
+		//float minScore = 40f;
+		float minScore = 25f;
+		int topUserNum = 5;
 		int websiteId = 1;
 		
 		TopicUserClusteringJob clusterer = new TopicUserClusteringJob();
