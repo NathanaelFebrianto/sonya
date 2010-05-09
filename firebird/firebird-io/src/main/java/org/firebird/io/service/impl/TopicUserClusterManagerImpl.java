@@ -80,6 +80,57 @@ public class TopicUserClusterManagerImpl extends GenericManagerImpl implements T
 	}
 	
 	/**
+     * Gets the topics by a user.
+     *
+     * @param websiteId the website id
+     * @param userId the user id
+     * @return List<TopicUserCluster> the list of topic user cluster
+     */
+	public List<TopicUserCluster> getTopicsByUser(int websiteId, String userId) {
+		TopicUserCluster param = new TopicUserCluster();
+		param.setWebsiteId(websiteId);
+		param.setUserId(userId);
+		
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		TopicUserClusterMapper mapper = session.getMapper(TopicUserClusterMapper.class);
+    		List<TopicUserCluster> topicUsers = mapper.selectTopicsByUser(param);
+    		return topicUsers;
+    	} finally {
+    		session.close();
+    	}		
+	}
+	
+	/**
+     * Gets the users to recommend.
+     *
+     * @param websiteId the website id
+     * @param topicId the topic id
+     * @param topUserNum the top user number
+     * @param userId the user id
+     * @param orderByColumn the orderby column
+     * @return List<TopicUserCluster> the list of topic user cluster
+     */
+	public List<TopicUserCluster> getRecommendUsers(int websiteId, int topicId, 
+			int topUserNum, String userId, String orderByColumn) {
+		TopicUserCluster param = new TopicUserCluster();
+		param.setWebsiteId(websiteId);
+		param.setTopicId(topicId);
+		param.setTopUserNum(topUserNum);
+		param.setUserId(userId);
+		param.setOrderByColumn(orderByColumn);
+		
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		TopicUserClusterMapper mapper = session.getMapper(TopicUserClusterMapper.class);
+    		List<TopicUserCluster> topicUsers = mapper.selectRecommendUsers(param);
+    		return topicUsers;
+    	} finally {
+    		session.close();
+    	}			
+	}
+	
+	/**
      * Adds a topic user cluster.
      *
      * @param topicUser the topic user cluster

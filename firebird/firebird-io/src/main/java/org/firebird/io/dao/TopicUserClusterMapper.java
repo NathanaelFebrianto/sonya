@@ -25,6 +25,22 @@ public interface TopicUserClusterMapper extends GenericMapper {
 	public List<TopicUserCluster> selectUsers(TopicUserCluster param);
 	
 	/**
+     * Selects the topics by a user.
+     *
+     * @param param the topic user cluster
+     * @return List<TopicUserCluster> the list of topic user cluster
+     */
+	public List<TopicUserCluster> selectTopicsByUser(TopicUserCluster param);
+	
+	/**
+     * Selects the users to recommend.
+     *
+     * @param param the topic user cluster
+     * @return List<TopicUserCluster> the list of topic user cluster
+     */
+	public List<TopicUserCluster> selectRecommendUsers(TopicUserCluster param);
+	
+	/**
      * Inserts a topic user cluster.
      *
      * @param topicUser the topic user cluster
