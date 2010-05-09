@@ -25,10 +25,43 @@
 	<select id="selectUsers" parameterType="org.firebird.io.model.TopicUserCluster" resultMap="topicUserClusterResultMap">
 		SELECT a.*, b.vertex_id, b.user_name, b.image_file, b.user_url
 		FROM topic_user_cluster a, vertex b
-		WHERE a.website_id = b.website_id AND 
-			a.user_id = b.vertex_id AND 
-			a.website_id = #{websiteId} AND 
-			a.topic_id = #{topicId}
+		WHERE a.website_id = b.website_id
+			AND a.user_id = b.vertex_id 
+			AND a.website_id = #{websiteId}
+			AND a.topic_id = #{topicId}
+		<choose>
+			<when test="orderByColumn == 'TOPIC_SCORE'">
+				ORDER BY a.topic_score DESC
+			</when>
+			<when test="orderByColumn == 'AUTHORITY_TOPIC_SCORE'">
+				ORDER BY a.authority_topic_score DESC
+			</when>
+			<otherwise>
+				ORDER BY a.topic_score DESC
+			</otherwise>
+		</choose>		
+		<if test="topUserNum != null">
+			LIMIT #{topUserNum}
+		</if>
+	</select>
+	
+	<select id="selectTopicsByUser" parameterType="org.firebird.io.model.TopicUserCluster" resultMap="topicUserClusterResultMap">
+		SELECT *
+		FROM topic_user_cluster
+		WHERE website_id = #{websiteId}
+			AND user_id = #{userId}
+		ORDER BY topic_score DESC
+	</select>
+	
+	<select id="selectRecommendUsers" parameterType="org.firebird.io.model.TopicUserCluster" resultMap="topicUserClusterResultMap">
+		SELECT a.*, b.vertex_id, b.user_name, b.image_file, b.user_url
+		FROM topic_user_cluster a, vertex b
+		WHERE a.website_id = b.website_id
+			AND a.user_id = b.vertex_id 
+			AND a.website_id = #{websiteId}
+			AND a.topic_id = #{topicId}
+			AND a.user_id != #{userId}
+			AND a.user_id NOT IN (SELECT vertex2 FROM edge WHERE vertex1 = #{userId})
 		<choose>
 			<when test="orderByColumn == 'TOPIC_SCORE'">
 				ORDER BY a.topic_score DESC
