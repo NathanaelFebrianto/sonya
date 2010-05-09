@@ -21,6 +21,7 @@ import javax.swing.JTabbedPane;
 import org.firebird.graph.bean.GraphClientHandler;
 import org.firebird.graph.view.tool.ClusteringToolPanel;
 import org.firebird.graph.view.tool.CollectToolPanel;
+import org.firebird.graph.view.tool.RecommendToolPanel;
 import org.firebird.graph.view.tool.ScoringToolPanel;
 import org.firebird.graph.view.tool.TopicToolPanel;
 import org.firebird.io.model.Edge;
@@ -67,6 +68,7 @@ public class GraphToolBar extends JTabbedPane {
 	AbstractAction scoringAction;
 	AbstractAction clusteringAction;
 	AbstractAction topicsAction;
+	AbstractAction recommendAction;
 	
 	/** toolbar group */
 	HashMap<String, JPanel> toolbarMap = new HashMap<String, JPanel>();
@@ -173,6 +175,11 @@ public class GraphToolBar extends JTabbedPane {
 		button = new JButton(this.getActionMap().get("topics"));
 		button.setText(UIHandler.getText("toolbar.analysis.topics"));
 		button.setIcon(UIHandler.getImageIcon("/comment.png"));
+		tgAnalysis.add(button);
+		
+		button = new JButton(this.getActionMap().get("recommend"));
+		button.setText(UIHandler.getText("toolbar.analysis.recommend"));
+		button.setIcon(UIHandler.getImageIcon("/promotion.png"));
 		tgAnalysis.add(button);
 		
 		// create tab menu
@@ -288,6 +295,17 @@ public class GraphToolBar extends JTabbedPane {
 				}
 			}
 		};
+		
+		recommendAction = new AbstractAction() {
+			public void actionPerformed(ActionEvent e) {
+				try {												
+					RecommendToolPanel tool = new RecommendToolPanel(panelGraph);
+					panelGraph.setLeftToolPanel(e.getActionCommand(), tool);
+				} catch (Exception ex) {
+					ex.printStackTrace();
+				}
+			}
+		};
 	}
 
 	/**
@@ -302,6 +320,7 @@ public class GraphToolBar extends JTabbedPane {
 		this.getActionMap().put("scoring", scoringAction);
 		this.getActionMap().put("clustering", clusteringAction);
 		this.getActionMap().put("topics", topicsAction);
+		this.getActionMap().put("recommend", recommendAction);
 	}
 
 	/**

@@ -128,6 +128,12 @@ public class DefaultTable extends JTable {
 		    getColumnModel().getColumn(column).setMinWidth(0);
 		    getColumnModel().getColumn(column).setMaxWidth(0);
 	    }
+	    else {
+	    	int size = 55;
+		    getColumnModel().getColumn(column).setPreferredWidth(size);
+		    getColumnModel().getColumn(column).setMinWidth(size);
+		    getColumnModel().getColumn(column).setMaxWidth(size);
+	    }
 	}
 
 	public void setCheckBoxCellEditor(int column) {

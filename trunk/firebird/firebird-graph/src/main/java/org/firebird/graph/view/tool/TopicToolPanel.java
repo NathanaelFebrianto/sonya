@@ -202,6 +202,14 @@ public class TopicToolPanel extends JPanel {
 		
 		return builder.getPanel();
 	}
+	
+	public int getTopUserNum() {
+		return (Integer)spinColorTopN.getValue();
+	}
+	
+	public String getOrderByColumn() {
+		return (String)comboClusterUserOrderBy.getSelectedItem();
+	}
 
 	//////////////////////////////////////////
 	/*       Defines event actions.         */

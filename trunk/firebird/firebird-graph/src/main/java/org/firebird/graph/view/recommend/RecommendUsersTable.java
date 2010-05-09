@@ -2,7 +2,7 @@
  * Copyright (c) 2009-2010, Young-Gue Bae
  * All rights reserved.
  */
-package org.firebird.graph.view.topic;
+package org.firebird.graph.view.recommend;
 
 import java.net.URL;
 import java.util.List;
@@ -11,7 +11,6 @@ import java.util.Vector;
 import javax.swing.ImageIcon;
 import javax.swing.ListSelectionModel;
 import javax.swing.RowSorter;
-import javax.swing.event.HyperlinkEvent;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
@@ -22,11 +21,11 @@ import org.firebird.io.model.TopicUserCluster;
 
 
 /**
- * Table for topic users cluster.
+ * Table for users to recommend.
  * 
  * @author Young-Gue Bae
  */
-public class TopicUserClusterTable extends DefaultTable {
+public class RecommendUsersTable extends DefaultTable {
 
 	private static final long serialVersionUID = 2920137218958755822L;
 	private DefaultTableModel tableModel;    
@@ -35,7 +34,7 @@ public class TopicUserClusterTable extends DefaultTable {
 	 * Constructor.
 	 * 
 	 */
-	public TopicUserClusterTable() {
+	public RecommendUsersTable() {
         super();
         
         UIHandler.setResourceBundle("graph");        
@@ -63,30 +62,31 @@ public class TopicUserClusterTable extends DefaultTable {
         
         // set hidden colum
         setColumnHidden(1, true);
-        setColumnHidden(2, true);
-        setColumnHidden(5, true);
         setColumnHidden(6, true);
         
         // set sorter
         RowSorter<TableModel> sorter = new TableRowSorter<TableModel>(tableModel);
 		setRowSorter(sorter);
 		setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
-    }
+		
+		this.setIconCellRenderer(5);
+		this.setRowHeight(55); 	
+	}
 	
 	private Object[] columnNames() {
 		Object[] colNames = new Object[] {
-				UIHandler.getText("col.no"),
-				UIHandler.getText("col.topic.user.cluster.websiteId"),
-				UIHandler.getText("col.topic.user.cluster.topicId"),
-				UIHandler.getText("col.topic.user.cluster.userId"),
-				UIHandler.getText("col.topic.user.cluster.userName"),
-				UIHandler.getText("col.topic.user.cluster.userProfileImage"),
-				UIHandler.getText("col.topic.user.cluster.userUrl"),
-				UIHandler.getText("col.topic.user.cluster.isTopicUser"),
-				UIHandler.getText("col.topic.user.cluster.cluster"),
-				UIHandler.getText("col.topic.user.cluster.authority"),
-				UIHandler.getText("col.topic.user.cluster.topicScore"),
-				UIHandler.getText("col.topic.user.cluster.authorityTopicScore"),
+				UIHandler.getText("col.no"),									//0
+				UIHandler.getText("col.topic.user.cluster.websiteId"),			//1
+				UIHandler.getText("col.topic.user.cluster.topicId"),			//2
+				UIHandler.getText("col.topic.user.cluster.userId"),				//3
+				UIHandler.getText("col.topic.user.cluster.userName"),			//4
+				UIHandler.getText("col.topic.user.cluster.userProfileImage"),	//5
+				UIHandler.getText("col.topic.user.cluster.userUrl"),			//6
+				UIHandler.getText("col.topic.user.cluster.isTopicUser"),		//7
+				UIHandler.getText("col.topic.user.cluster.cluster"),			//8
+				UIHandler.getText("col.topic.user.cluster.authority"),			//9
+				UIHandler.getText("col.topic.user.cluster.topicScore"),			//10
+				UIHandler.getText("col.topic.user.cluster.authorityTopicScore"),//11
 		};
 		
 		return colNames;
@@ -112,14 +112,6 @@ public class TopicUserClusterTable extends DefaultTable {
 	        	ex.printStackTrace();
 	        }
 	        
-	        // user hyperlink url
-	        HyperlinkEvent hyperlink = null;
-	        try {
-	        	hyperlink = new HyperlinkEvent(this, HyperlinkEvent.EventType.ACTIVATED, new URL(topicUser.getUserUrl()));
-	        } catch (Exception ex) {
-	        	ex.printStackTrace();
-	        }
-	        
 	        rowData.add(row + 1);
 	        rowData.add(topicUser.getWebsiteId());
 	        rowData.add(topicUser.getTopicId());
@@ -127,7 +119,7 @@ public class TopicUserClusterTable extends DefaultTable {
 	        rowData.add(topicUser.getUserName());
 	        if (profileImage == null)	rowData.add("");
 	        else	rowData.add(profileImage);
-	        rowData.add(topicUser.getUserUrl()); //rowData.add(hyperlink);	
+	        rowData.add(topicUser.getUserUrl()); 
 	        rowData.add(topicUser.isTopicUser());
 	        rowData.add(topicUser.getCluster());
 	        rowData.add(convertScale(topicUser.getAuthority(), 2));
