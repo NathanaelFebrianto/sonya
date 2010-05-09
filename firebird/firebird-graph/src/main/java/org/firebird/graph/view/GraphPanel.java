@@ -28,6 +28,7 @@ import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 
 import org.firebird.graph.bean.GraphClientHandler;
+import org.firebird.graph.view.recommend.RecommendPanel;
 import org.firebird.graph.view.tool.CollectToolPanel;
 import org.firebird.graph.view.topic.TopicPanel;
 import org.firebird.io.model.Edge;
@@ -61,6 +62,9 @@ public class GraphPanel extends JPanel {
 	
 	/** topic panel */
 	TopicPanel panelRightTopic;
+	
+	/** recommend panel */
+	RecommendPanel panelRightRecommend;
 
 	/** split panel for content */
 	JSplitPane spaneContent;
@@ -183,6 +187,9 @@ public class GraphPanel extends JPanel {
 		// topics panel
 		panelRightTopic = new TopicPanel(this);		
 		
+		// recommend panel
+		panelRightRecommend = new RecommendPanel(this);	
+		
 		// right main tabbed panel
 		tpaneRight = new JTabbedPane(SwingConstants.TOP);
 		tpaneRight.addTab(
@@ -194,6 +201,11 @@ public class GraphPanel extends JPanel {
 				UIHandler.getText("content.tab.topics"), 
 				UIHandler.getImageIcon("/bug.gif"), 
 				panelRightTopic);
+		
+		tpaneRight.addTab(
+				UIHandler.getText("content.tab.recommend"), 
+				UIHandler.getImageIcon("/bug.gif"), 
+				panelRightRecommend);
 		
 		return tpaneRight;
 	}
@@ -331,6 +343,15 @@ public class GraphPanel extends JPanel {
 	 */
 	public TopicPanel getRightTopicPanel() {
 		return this.panelRightTopic;
+	}
+	
+	/**
+	 * Gets the recommend panel in the right tabbed panel.
+	 * 
+	 * @return RecommendPanel the recommend panel
+	 */
+	public RecommendPanel getRightRecommendPanel() {
+		return this.panelRightRecommend;
 	}
 
 	/**

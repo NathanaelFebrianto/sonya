@@ -295,13 +295,50 @@ public class GraphClientHandler {
      * @param orderByColumn the orderby column
      * @return List<TopicUserCluster> the list of topic user cluster
      */
-	public List<TopicUserCluster> getClusteredUsersByTopic(int websiteId, int topicId, int topUserNum, String orderByColumn) throws HttpCommunicateException {
+	public List<TopicUserCluster> getClusteredUsersByTopic(int websiteId, int topicId, 
+			int topUserNum, String orderByColumn) throws HttpCommunicateException {
 		Object[] methodParams = { websiteId, topicId, topUserNum, orderByColumn };
 	    HttpCommunicate comm = new HttpCommunicate(
 	            "org.firebird.graph.service.impl.GraphServiceImpl", 
 	            "getClusteredUsersByTopic",
 	            methodParams);
 	    return (List<TopicUserCluster>) httpClient.execute(comm);		
+	}
+	
+	/**
+     * Gets the clustered user's topics by a user.
+     *
+     * @param websiteId the website id
+     * @param userId the user id
+     * @return List<TopicUserCluster> the list of topic user cluster
+     */
+	public List<TopicUserCluster> getTopicsByClusteredUser(int websiteId, String userId) throws HttpCommunicateException {
+		Object[] methodParams = { websiteId, userId };
+	    HttpCommunicate comm = new HttpCommunicate(
+	            "org.firebird.graph.service.impl.GraphServiceImpl", 
+	            "getTopicsByClusteredUser",
+	            methodParams);
+	    return (List<TopicUserCluster>) httpClient.execute(comm);		
+	}
+	
+	/**
+     * Gets the clustered users to recommend.
+     *
+     * @param websiteId the website id
+     * @param topicId the topic id
+     * @param topUserNum the top user number
+     * @param userId the user id
+     * @param orderByColumn the orderby column
+     * @return List<TopicUserCluster> the list of topic user cluster
+     */
+	public List<TopicUserCluster> getRecommendClusteredUsers(int websiteId, int topicId, 
+			int topUserNum, String userId, String orderByColumn) throws HttpCommunicateException {
+				Object[] methodParams = { websiteId, topicId, topUserNum, userId, orderByColumn };
+			    HttpCommunicate comm = new HttpCommunicate(
+			            "org.firebird.graph.service.impl.GraphServiceImpl", 
+			            "getRecommendClusteredUsers",
+			            methodParams);
+			    return (List<TopicUserCluster>) httpClient.execute(comm);
 	}
 	
 }

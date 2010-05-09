@@ -243,4 +243,30 @@ public class GraphServiceImpl implements GraphService {
 		return topicClusterManager.getUsers(websiteId, topicId);
 	}
 	
+	/**
+     * Gets the clustered user's topics by a user.
+     *
+     * @param websiteId the website id
+     * @param userId the user id
+     * @return List<TopicUserCluster> the list of topic user cluster
+     */
+	public List<TopicUserCluster> getTopicsByClusteredUser(int websiteId, String userId) {
+		return topicClusterManager.getTopicsByUser(websiteId, userId);
+	}
+	
+	/**
+     * Gets the clustered users to recommend.
+     *
+     * @param websiteId the website id
+     * @param topicId the topic id
+     * @param topUserNum the top user number
+     * @param userId the user id
+     * @param orderByColumn the orderby column
+     * @return List<TopicUserCluster> the list of topic user cluster
+     */
+	public List<TopicUserCluster> getRecommendClusteredUsers(int websiteId, int topicId, 
+			int topUserNum, String userId, String orderByColumn) {
+		return topicClusterManager.getRecommendUsers(websiteId, topicId, topUserNum, userId, orderByColumn);
+	}
+	
 }
