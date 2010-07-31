@@ -54,10 +54,12 @@ public class GraphToolBar extends JTabbedPane {
 	GraphPanel panelGraph;
 	
 	/** the visual component and renderer for the graph */
-	GraphViewer viewer;
+	//GraphViewer viewer;
+	SimpleGraphViewer viewer;
 
 	/** graph */
-	Graph<Vertex, Edge> graph;
+	//Graph<Vertex, Edge> graph;
+	Graph<String, String> graph;
 	
 	/** actions */
 	AbstractAction zoominAction;
@@ -126,7 +128,8 @@ public class GraphToolBar extends JTabbedPane {
 		tgControl.add(button);
 		
 		// mouse mode
-		JComboBox jcbMouseMode = ((DefaultModalGraphMouse<Vertex, Edge>) viewer.getGraphMouse()).getModeComboBox();
+		//JComboBox jcbMouseMode = ((DefaultModalGraphMouse<Vertex, Edge>) viewer.getGraphMouse()).getModeComboBox();
+		JComboBox jcbMouseMode = ((DefaultModalGraphMouse<String, String>) viewer.getGraphMouse()).getModeComboBox();
 		jcbMouseMode.setSelectedIndex(1);
 		tgControl.add(jcbMouseMode);
 
@@ -328,9 +331,11 @@ public class GraphToolBar extends JTabbedPane {
 	 */
 	private class LayoutChooser implements ActionListener {
 		private final JComboBox jcb;
-		private final GraphViewer viewer;
+		//private final GraphViewer viewer;
+		private final SimpleGraphViewer viewer;
 
-		private LayoutChooser(JComboBox jcb, GraphViewer viewer) {
+		//private LayoutChooser(JComboBox jcb, GraphViewer viewer) {
+		private LayoutChooser(JComboBox jcb, SimpleGraphViewer viewer) {
 			super();
 			this.jcb = jcb;
 			this.viewer = viewer;
