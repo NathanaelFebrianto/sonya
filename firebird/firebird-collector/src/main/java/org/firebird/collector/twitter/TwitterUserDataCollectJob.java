@@ -49,9 +49,9 @@ public class TwitterUserDataCollectJob {
         	config.setCollectFriend(true);
         	config.setCollectFollower(true);
         	config.setCollectUserBlogEntry(false);
-        	config.setLevelLimit(2);
-        	config.setDegreeLimit(50);
-        	config.setPeopleLimit(2000);
+        	config.setLevelLimit(3);
+        	config.setDegreeLimit(100);
+        	config.setPeopleLimit(50000);
         	
         	job.collect(config, "sorenG");
     		
