@@ -54,11 +54,14 @@ public class GraphPanel extends JPanel {
 	GraphClientHandler handler;
 	
 	/** graph modeller */
-	GraphModeller modeller;
+	//GraphModeller modeller;
+	SimpleGraphModeller modeller;
 
 	/** the visual component and renderer for the graph */
-	GraphViewer viewer;
-	SatelliteGraphViewer satelliteViewer;
+	//GraphViewer viewer;
+	//SatelliteGraphViewer satelliteViewer;
+	SimpleGraphViewer viewer;
+	SimpleSatelliteGraphViewer satelliteViewer;
 	
 	/** topic panel */
 	TopicPanel panelRightTopic;
@@ -121,15 +124,23 @@ public class GraphPanel extends JPanel {
 
 	private void setupGraphView() {
 		// create a graph
-		modeller = new GraphModeller(GraphModeller.DIRECTED_SPARSE_GRAPH);
+		//modeller = new GraphModeller(GraphModeller.DIRECTED_SPARSE_GRAPH);
+		modeller = new SimpleGraphModeller(SimpleGraphModeller.DIRECTED_SPARSE_GRAPH);
 
 		// create a graph viewer
 		int width = 900;
 		int height = 600;
+		/*
 		viewer = new GraphViewer(new FRLayout<Vertex, Edge>(modeller.getGraph()), 
 				new Dimension(900, 600));
 		satelliteViewer = new SatelliteGraphViewer(viewer, 
 				new Dimension(width / 4, height / 4));
+		*/
+		viewer = new SimpleGraphViewer(new FRLayout<String, String>(modeller.getGraph()), 
+				new Dimension(900, 600));
+		satelliteViewer = new SimpleSatelliteGraphViewer(viewer, 
+				new Dimension(width / 4, height / 4));
+	
 	}
 
 	private void setupUI() {
@@ -288,7 +299,12 @@ public class GraphPanel extends JPanel {
 	 * 
 	 * @return Graph<Vertex, Edge> the graph
 	 */
+	/*
 	public Graph<org.firebird.io.model.Vertex, org.firebird.io.model.Edge> getGraph() {
+		return viewer.getGraph();
+	}
+	*/
+	public Graph<String, String> getGraph() {
 		return viewer.getGraph();
 	}
 	
@@ -314,7 +330,12 @@ public class GraphPanel extends JPanel {
 	 * 
 	 * @return GraphViewer the graph viewer
 	 */
+	/*
 	public SatelliteGraphViewer getSatelliteGraphViewer() {
+		return this.satelliteViewer;
+	}
+	*/
+	public SimpleSatelliteGraphViewer getSatelliteGraphViewer() {
 		return this.satelliteViewer;
 	}
 	
@@ -323,10 +344,15 @@ public class GraphPanel extends JPanel {
 	 * 
 	 * @return GraphViewer the graph viewer
 	 */
+	/*
 	public GraphViewer getGraphViewer() {
 		return this.viewer;
 	}
-
+	*/
+	public SimpleGraphViewer getGraphViewer() {
+		return this.viewer;
+	}
+	
 	/**
 	 * Gets the right tabbed panel.
 	 * 
@@ -363,7 +389,8 @@ public class GraphPanel extends JPanel {
 	public void showGraph(List<Vertex> vertices, List<Edge> edges) {		
 		modeller.clearGraph();
 		modeller.createGraph(vertices, edges);
-		viewer.setGraphLayout(new FRLayout<Vertex, Edge>(viewer.getGraph()));
+		//viewer.setGraphLayout(new FRLayout<Vertex, Edge>(viewer.getGraph()));
+		viewer.setGraphLayout(new FRLayout<String, String>(viewer.getGraph()));
 		
 		this.showGraphData(vertices, edges);
 	}

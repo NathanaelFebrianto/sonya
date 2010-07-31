@@ -28,23 +28,23 @@ import edu.uci.ics.jung.visualization.decorators.ToStringLabeller;
  * 
  * @author Young-Gue Bae
  */
-public class SatelliteGraphViewer extends SatelliteVisualizationViewer<org.firebird.io.model.Vertex, org.firebird.io.model.Edge> {
+public class SimpleSatelliteGraphViewer extends SatelliteVisualizationViewer<String, String> {
 
 	private static final long serialVersionUID = -6282627685832660341L;
 	
-	private GraphViewer master;
+	private SimpleGraphViewer master;
 	
 	/** vertex paints */
-	Map<org.firebird.io.model.Vertex, Paint> vertexPaints;
+	Map<String, Paint> vertexPaints;
 	/** edge paints */
-	Map<org.firebird.io.model.Edge, Paint> edgePaints;
+	Map<String, Paint> edgePaints;
 	
 	/**
 	 * Constructor.
 	 * 
 	 * @param master the master graph viewer
 	 */
-	public SatelliteGraphViewer(GraphViewer master) {
+	public SimpleSatelliteGraphViewer(SimpleGraphViewer master) {
 		super(master);		
 		this.master = master;		
 		setupView();
@@ -56,39 +56,39 @@ public class SatelliteGraphViewer extends SatelliteVisualizationViewer<org.fireb
 	 * @param master the master graph viewer
 	 * @param dim the dimension
 	 */
-	public SatelliteGraphViewer(GraphViewer master, Dimension dim) {
+	public SimpleSatelliteGraphViewer(SimpleGraphViewer master, Dimension dim) {
 		super(master, dim);
 		this.master = master;		
 		setupView();
 	}
 	
 	private void setupView() {
-		//getRenderContext().setEdgeDrawPaintTransformer(new PickableEdgePaintTransformer<org.firebird.io.model.Edge>(getPickedEdgeState(), Color.black, Color.cyan));
-		//getRenderContext().setVertexFillPaintTransformer(new PickableVertexPaintTransformer<org.firebird.io.model.Vertex>(getPickedVertexState(), Color.red, Color.yellow));		
+		//getRenderContext().setEdgeDrawPaintTransformer(new PickableEdgePaintTransformer<String>(getPickedEdgeState(), Color.black, Color.cyan));
+		//getRenderContext().setVertexFillPaintTransformer(new PickableVertexPaintTransformer<String>(getPickedVertexState(), Color.red, Color.yellow));		
 
-		vertexPaints = LazyMap.<org.firebird.io.model.Vertex, Paint> decorate(
-				new HashMap<org.firebird.io.model.Vertex, Paint>(),
-				new Transformer<org.firebird.io.model.Vertex, Paint>() {
-					public Paint transform(org.firebird.io.model.Vertex v) {
+		vertexPaints = LazyMap.<String, Paint> decorate(
+				new HashMap<String, Paint>(),
+				new Transformer<String, Paint>() {
+					public Paint transform(String v) {
 						return new Color(255, 255, 0); // yellow
 					}
 				});
 		
-		edgePaints = LazyMap.<org.firebird.io.model.Edge, Paint> decorate(
-				new HashMap<org.firebird.io.model.Edge, Paint>(),
-				new Transformer<org.firebird.io.model.Edge, Paint>() {
-					public Paint transform(org.firebird.io.model.Edge e) {
+		edgePaints = LazyMap.<String, Paint> decorate(
+				new HashMap<String, Paint>(),
+				new Transformer<String, Paint>() {
+					public Paint transform(String e) {
 						return new Color(90, 90, 90);
 					}
 				});
 		
 		//tell the renderer to use our own customized color rendering
 		getRenderContext().setVertexFillPaintTransformer(
-				MapTransformer.<org.firebird.io.model.Vertex, Paint>getInstance(vertexPaints));		
+				MapTransformer.<String, Paint>getInstance(vertexPaints));		
 		
 		getRenderContext().setVertexDrawPaintTransformer(
-				new Transformer<org.firebird.io.model.Vertex, Paint>() {
-					public Paint transform(org.firebird.io.model.Vertex v) {
+				new Transformer<String, Paint>() {
+					public Paint transform(String v) {
 						if (getPickedVertexState().isPicked(v)) {
 							return Color.black;
 						} else {
@@ -98,11 +98,11 @@ public class SatelliteGraphViewer extends SatelliteVisualizationViewer<org.fireb
 				});
 
 		getRenderContext().setVertexStrokeTransformer(
-				new Transformer<org.firebird.io.model.Vertex, Stroke>() {
+				new Transformer<String, Stroke>() {
 					protected final Stroke THIN = new BasicStroke(1);
 					protected final Stroke THICK = new BasicStroke(2);
 
-					public Stroke transform(org.firebird.io.model.Vertex v) {
+					public Stroke transform(String v) {
 						if (getPickedVertexState().isPicked(v)) {
 							return THICK;
 						} else {
@@ -113,14 +113,14 @@ public class SatelliteGraphViewer extends SatelliteVisualizationViewer<org.fireb
 
 		//tell the renderer to use our own customized color rendering
 		getRenderContext().setEdgeDrawPaintTransformer(
-						MapTransformer.<org.firebird.io.model.Edge, Paint> getInstance(edgePaints));
+						MapTransformer.<String, Paint> getInstance(edgePaints));
 		
 		getRenderContext().setEdgeStrokeTransformer(
-				new Transformer<org.firebird.io.model.Edge, Stroke>() {
+				new Transformer<String, Stroke>() {
 					protected final Stroke THIN = new BasicStroke(1);
 					protected final Stroke THICK = new BasicStroke(2);
 
-					public Stroke transform(org.firebird.io.model.Edge e) {
+					public Stroke transform(String e) {
 						/*
 						 Paint c = edgePaints.get(e); 
 						 if (c == Color.LIGHT_GRAY) 
@@ -147,13 +147,13 @@ public class SatelliteGraphViewer extends SatelliteVisualizationViewer<org.fireb
 	 * 
 	 */
 	public void initColor() {
-		Collection<org.firebird.io.model.Vertex> vertices = master.getGraph().getVertices();
-		for (org.firebird.io.model.Vertex v : vertices) {
+		Collection<String> vertices = master.getGraph().getVertices();
+		for (String v : vertices) {
 			vertexPaints.put(v, new Color(255, 255, 0));
 		}
 		
-		Collection<org.firebird.io.model.Edge> edges = master.getGraph().getEdges();
-		for (org.firebird.io.model.Edge e : edges) {
+		Collection<String> edges = master.getGraph().getEdges();
+		for (String e : edges) {
 			edgePaints.put(e, new Color(90, 90, 90));
 		}
 		repaint();
@@ -167,8 +167,7 @@ public class SatelliteGraphViewer extends SatelliteVisualizationViewer<org.fireb
 	 */
 	public void colorVertices(Set<String> vertices, Color c) {
 		for (String v : vertices) {
-			org.firebird.io.model.Vertex vertex = master.getVertex(v);
-			vertexPaints.put(vertex, c);
+			vertexPaints.put(v, c);
 		}
 		repaint();
 	}
@@ -181,7 +180,7 @@ public class SatelliteGraphViewer extends SatelliteVisualizationViewer<org.fireb
 	 */
 	public void colorEdges(Set<String[]> vertexPairs, Color color) {
 		for (String[] v : vertexPairs) {
-			org.firebird.io.model.Edge edge = master.getEdge(v[0], v[1]);
+			String edge = master.getEdge(v[0], v[1]);
 			edgePaints.put(edge, color);
 		}
 		repaint();

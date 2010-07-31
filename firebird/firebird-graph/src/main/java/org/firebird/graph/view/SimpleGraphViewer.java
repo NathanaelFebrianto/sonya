@@ -33,20 +33,20 @@ import edu.uci.ics.jung.visualization.renderers.DefaultVertexLabelRenderer;
  * 
  * @author Young-Gue Bae
  */
-public class GraphViewer extends VisualizationViewer<org.firebird.io.model.Vertex, org.firebird.io.model.Edge> {
+public class SimpleGraphViewer extends VisualizationViewer<String, String> {
 	private static final long serialVersionUID = 3521855270954095236L;
 
 	/** vertex paints */
-	Map<org.firebird.io.model.Vertex, Paint> vertexPaints;
+	Map<String, Paint> vertexPaints;
 	/** edge paints */
-	Map<org.firebird.io.model.Edge, Paint> edgePaints;
+	Map<String, Paint> edgePaints;
 	
 	/**
 	 * Constructor.
 	 * 
 	 * @param layout the Layout to apply, with its associated graph
 	 */
-	public GraphViewer(Layout<org.firebird.io.model.Vertex, org.firebird.io.model.Edge> layout) {
+	public SimpleGraphViewer(Layout<String, String> layout) {
 		super(layout);
 		
 		setupView();
@@ -58,7 +58,7 @@ public class GraphViewer extends VisualizationViewer<org.firebird.io.model.Verte
 	 * @param layout the Layout to apply, with its associated graph
 	 * @param dim the dimension
 	 */
-	public GraphViewer(Layout<org.firebird.io.model.Vertex, org.firebird.io.model.Edge> layout, Dimension dim) {
+	public SimpleGraphViewer(Layout<String, String> layout, Dimension dim) {
 		super(layout, dim);
 		
 		setupView();
@@ -69,20 +69,20 @@ public class GraphViewer extends VisualizationViewer<org.firebird.io.model.Verte
 	 * 
 	 * @return Graph<Vertex, Edge> the graph
 	 */
-	public Graph<org.firebird.io.model.Vertex, org.firebird.io.model.Edge> getGraph() {
+	public Graph<String, String> getGraph() {
 		return getGraphLayout().getGraph();
 	}
 
 	private void setupView() {
-		setBackground(Color.white);
-		
+		setBackground(Color.white);		
+		/*
 		getRenderContext().setVertexLabelTransformer(
-				new Transformer<org.firebird.io.model.Vertex, String>() {
-					public String transform(org.firebird.io.model.Vertex v) {
-						//return v.getUserName();
-						return v.getId();
+				new Transformer<String, String>() {
+					public String transform(String v) {
+						return v;
 					}
 				});
+		*/
 		
 		getRenderContext().setVertexLabelRenderer(new DefaultVertexLabelRenderer(new Color(0, 112, 192)));
 		getRenderContext().setEdgeLabelRenderer(new DefaultEdgeLabelRenderer(new Color(0, 112, 192)));
@@ -125,29 +125,29 @@ public class GraphViewer extends VisualizationViewer<org.firebird.io.model.Verte
 						getPickedVertexState(), Color.white, Color.yellow));
 		*/
 
-		vertexPaints = LazyMap.<org.firebird.io.model.Vertex, Paint> decorate(
-				new HashMap<org.firebird.io.model.Vertex, Paint>(),
-				new Transformer<org.firebird.io.model.Vertex, Paint>() {
-					public Paint transform(org.firebird.io.model.Vertex v) {
+		vertexPaints = LazyMap.<String, Paint> decorate(
+				new HashMap<String, Paint>(),
+				new Transformer<String, Paint>() {
+					public Paint transform(String v) {
 						return new Color(255, 255, 0); // yellow
 					}
 				});
 		
-		edgePaints = LazyMap.<org.firebird.io.model.Edge, Paint> decorate(
-				new HashMap<org.firebird.io.model.Edge, Paint>(),
-				new Transformer<org.firebird.io.model.Edge, Paint>() {
-					public Paint transform(org.firebird.io.model.Edge e) {
+		edgePaints = LazyMap.<String, Paint> decorate(
+				new HashMap<String, Paint>(),
+				new Transformer<String, Paint>() {
+					public Paint transform(String e) {
 						return new Color(90, 90, 90);
 					}
 				});
 		
 		//tell the renderer to use our own customized color rendering
 		getRenderContext().setVertexFillPaintTransformer(
-				MapTransformer.<org.firebird.io.model.Vertex, Paint>getInstance(vertexPaints));
+				MapTransformer.<String, Paint>getInstance(vertexPaints));
 				
 		getRenderContext().setVertexDrawPaintTransformer(
-				new Transformer<org.firebird.io.model.Vertex, Paint>() {
-					public Paint transform(org.firebird.io.model.Vertex v) {
+				new Transformer<String, Paint>() {
+					public Paint transform(String v) {
 						if (getPickedVertexState().isPicked(v)) {
 							return Color.black;
 						} else {
@@ -157,11 +157,11 @@ public class GraphViewer extends VisualizationViewer<org.firebird.io.model.Verte
 				});
 		
 		getRenderContext().setVertexStrokeTransformer(
-				new Transformer<org.firebird.io.model.Vertex, Stroke>() {
+				new Transformer<String, Stroke>() {
 					protected final Stroke THIN = new BasicStroke(1);
 					protected final Stroke THICK = new BasicStroke(2);
 
-					public Stroke transform(org.firebird.io.model.Vertex v) {
+					public Stroke transform(String v) {
 						if (getPickedVertexState().isPicked(v)) {
 							return THICK;
 						} else {
@@ -178,14 +178,14 @@ public class GraphViewer extends VisualizationViewer<org.firebird.io.model.Verte
 		
 		//tell the renderer to use our own customized color rendering
 		getRenderContext().setEdgeDrawPaintTransformer(
-						MapTransformer.<org.firebird.io.model.Edge, Paint> getInstance(edgePaints));
+						MapTransformer.<String, Paint> getInstance(edgePaints));
 		
 		getRenderContext().setEdgeStrokeTransformer(
-				new Transformer<org.firebird.io.model.Edge, Stroke>() {
+				new Transformer<String, Stroke>() {
 					protected final Stroke THIN = new BasicStroke(1);
 					protected final Stroke THICK = new BasicStroke(2);
 
-					public Stroke transform(org.firebird.io.model.Edge e) {
+					public Stroke transform(String e) {
 						/*
 						 Paint c = edgePaints.get(e); 
 						 if (c == Color.LIGHT_GRAY) 
@@ -203,22 +203,22 @@ public class GraphViewer extends VisualizationViewer<org.firebird.io.model.Verte
 		// add my listener for tooltips
 		// setVertexToolTipTransformer(new
 		// ToStringLabeller<org.firebird.io.model.Vertex>());
-		setVertexToolTipTransformer(new Transformer<org.firebird.io.model.Vertex, String>() {
-			public String transform(final org.firebird.io.model.Vertex v) {
-				return v.getId();
+		setVertexToolTipTransformer(new Transformer<String, String>() {
+			public String transform(final String v) {
+				return v;
 			}
 		});
 
 		// set vertex font
 		getRenderContext().setVertexFontTransformer(
-				new Transformer<org.firebird.io.model.Vertex, Font>() {
-					public Font transform(final org.firebird.io.model.Vertex v) {
+				new Transformer<String, Font>() {
+					public Font transform(final String v) {
 						return new Font("³ª´®°íµñ", Font.PLAIN, 12);
 					}
 				});
 
 		// create a frame to hold the graph
-		final ModalGraphMouse gm = new DefaultModalGraphMouse<org.firebird.io.model.Vertex, org.firebird.io.model.Edge>();
+		final ModalGraphMouse gm = new DefaultModalGraphMouse<String, String>();
 		setGraphMouse(gm);		
 	}
 
@@ -227,13 +227,13 @@ public class GraphViewer extends VisualizationViewer<org.firebird.io.model.Verte
 	 * 
 	 */
 	public void initColor() {
-		Collection<org.firebird.io.model.Vertex> vertices = this.getGraph().getVertices();
-		for (org.firebird.io.model.Vertex v : vertices) {
+		Collection<String> vertices = this.getGraph().getVertices();
+		for (String v : vertices) {
 			vertexPaints.put(v, new Color(255, 255, 0));
 		}
 		
-		Collection<org.firebird.io.model.Edge> edges = this.getGraph().getEdges();
-		for (org.firebird.io.model.Edge e : edges) {
+		Collection<String> edges = this.getGraph().getEdges();
+		for (String e : edges) {
 			edgePaints.put(e, new Color(90, 90, 90));
 		}
 		repaint();
@@ -268,8 +268,7 @@ public class GraphViewer extends VisualizationViewer<org.firebird.io.model.Verte
 	 */
 	public void colorVertices(Set<String> vertices, Color color) {
 		for (String v : vertices) {
-			org.firebird.io.model.Vertex vertex = this.getVertex(v);
-			vertexPaints.put(vertex, color);
+			vertexPaints.put(v, color);
 		}
 		repaint();
 	}
@@ -298,27 +297,12 @@ public class GraphViewer extends VisualizationViewer<org.firebird.io.model.Verte
 	 */
 	public void colorEdges(Set<String[]> vertexPairs, Color color) {
 		for (String[] v : vertexPairs) {
-			org.firebird.io.model.Edge edge = this.getEdge(v[0], v[1]);
+			String edge = this.getEdge(v[0], v[1]);
 			edgePaints.put(edge, color);
 		}
 		repaint();
 	}
 
-	/**
-	 * Gets the vertex.
-	 * 
-	 * @param id the vertex id
-	 * @return Vertex the vertex
-	 */
-	public org.firebird.io.model.Vertex getVertex(String id) {
-		Collection<org.firebird.io.model.Vertex> vertices = this.getGraph().getVertices();
-		for (org.firebird.io.model.Vertex v : vertices) {
-			if (v.getId().equals(id))
-				return v;
-		}		
-		return null;		
-	}
-	
 	/**
 	 * Gets the edge.
 	 * 
@@ -326,17 +310,8 @@ public class GraphViewer extends VisualizationViewer<org.firebird.io.model.Verte
 	 * @param id2 the vertex id2
 	 * @return Edge the edge
 	 */
-	public org.firebird.io.model.Edge getEdge(String vertex1, String vertex2) {
-		Collection<org.firebird.io.model.Edge> edges = this.getGraph().getEdges();
-		for (org.firebird.io.model.Edge e : edges) {
-			System.out.println("########## = " + e);
-			if (e.getVertex1().equals(vertex1) && e.getVertex2().equals(vertex2)) {
-				System.out.println("@@@@@@@@@@@@@@@ = " + e);
-				return e;
-			}
-				
-		}		
-		return null;		
+	public String getEdge(String vertex1, String vertex2) {
+		return vertex1 + "^" + vertex2;		
 	}
 	
 	/**
