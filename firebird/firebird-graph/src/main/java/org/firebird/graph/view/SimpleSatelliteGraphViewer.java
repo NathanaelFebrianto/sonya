@@ -21,6 +21,7 @@ import org.apache.commons.collections15.map.LazyMap;
 import edu.uci.ics.jung.visualization.control.CrossoverScalingControl;
 import edu.uci.ics.jung.visualization.control.SatelliteVisualizationViewer;
 import edu.uci.ics.jung.visualization.control.ScalingControl;
+import edu.uci.ics.jung.visualization.decorators.EdgeShape;
 import edu.uci.ics.jung.visualization.decorators.ToStringLabeller;
 
 /**
@@ -134,6 +135,8 @@ public class SimpleSatelliteGraphViewer extends SatelliteVisualizationViewer<Str
 						}
 					}
 				});
+		
+		//getRenderContext().setEdgeShapeTransformer(new EdgeShape.Line<String,String>());
 		
         ScalingControl scaler = new CrossoverScalingControl();
         scaleToLayout(scaler);
