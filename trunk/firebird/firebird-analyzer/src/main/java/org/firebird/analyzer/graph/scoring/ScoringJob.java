@@ -44,8 +44,8 @@ public class ScoringJob {
         	ScoringConfig config = new ScoringConfig();
     		config.setEnblePageRank(true);
     		config.setEnbleHITS(true);
-    		config.setEnableBetweennessCentrality(true);
-    		config.setEnableClosenessCentrality(true);
+    		config.setEnableBetweennessCentrality(false);
+    		config.setEnableClosenessCentrality(false);
     		config.setEnableEigenvectorCentrality(false);
         	
     		// start time
