@@ -35,6 +35,8 @@ import org.firebird.io.model.Edge;
 import org.firebird.io.model.Vertex;
 
 import edu.uci.ics.jung.algorithms.layout.FRLayout;
+import edu.uci.ics.jung.algorithms.layout.KKLayout;
+import edu.uci.ics.jung.algorithms.layout.Layout;
 import edu.uci.ics.jung.graph.Graph;
 import edu.uci.ics.jung.visualization.GraphZoomScrollPane;
 
@@ -128,19 +130,18 @@ public class GraphPanel extends JPanel {
 		modeller = new SimpleGraphModeller(SimpleGraphModeller.DIRECTED_SPARSE_GRAPH);
 
 		// create a graph viewer
-		int width = 900;
-		int height = 600;
+		Dimension prefSize = new Dimension(900, 600);
+		Dimension satellitePrefSize = new Dimension(900/4, 600/4);
+		
+		Layout<String, String> layout = new KKLayout<String, String>(modeller.getGraph());
+
 		/*
-		viewer = new GraphViewer(new FRLayout<Vertex, Edge>(modeller.getGraph()), 
-				new Dimension(900, 600));
-		satelliteViewer = new SatelliteGraphViewer(viewer, 
-				new Dimension(width / 4, height / 4));
+		viewer = new GraphViewer(layout, prefSize);
+		satelliteViewer = new SatelliteGraphViewer(viewer, satellitePrefSize);
 		*/
-		viewer = new SimpleGraphViewer(new FRLayout<String, String>(modeller.getGraph()), 
-				new Dimension(900, 600));
-		satelliteViewer = new SimpleSatelliteGraphViewer(viewer, 
-				new Dimension(width / 4, height / 4));
-	
+		
+		viewer = new SimpleGraphViewer(layout, prefSize);
+		satelliteViewer = new SimpleSatelliteGraphViewer(viewer, satellitePrefSize);
 	}
 
 	private void setupUI() {
