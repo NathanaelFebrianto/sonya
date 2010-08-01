@@ -23,8 +23,10 @@ import org.apache.commons.collections15.map.LazyMap;
 import edu.uci.ics.jung.algorithms.layout.Layout;
 import edu.uci.ics.jung.graph.Graph;
 import edu.uci.ics.jung.visualization.VisualizationViewer;
+import edu.uci.ics.jung.visualization.control.CrossoverScalingControl;
 import edu.uci.ics.jung.visualization.control.DefaultModalGraphMouse;
 import edu.uci.ics.jung.visualization.control.ModalGraphMouse;
+import edu.uci.ics.jung.visualization.control.ScalingControl;
 import edu.uci.ics.jung.visualization.decorators.EdgeShape;
 import edu.uci.ics.jung.visualization.renderers.DefaultEdgeLabelRenderer;
 import edu.uci.ics.jung.visualization.renderers.DefaultVertexLabelRenderer;
@@ -222,7 +224,10 @@ public class SimpleGraphViewer extends VisualizationViewer<String, String> {
 		
 		// create a frame to hold the graph
 		final ModalGraphMouse gm = new DefaultModalGraphMouse<String, String>();
-		setGraphMouse(gm);		
+		setGraphMouse(gm);
+		
+        final ScalingControl scaler = new CrossoverScalingControl();        
+        scaleToLayout(scaler);
 	}
 
 	/**
