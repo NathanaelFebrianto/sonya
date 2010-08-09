@@ -102,8 +102,9 @@
 			AND page_rank >= #{pageRank,javaType=double,jdbcType=DOUBLE}
 		</if>
 		<if test="authority != null">
-			AND authority >= #{authority,javaType=double,jdbcType=DOUBLE}
+			OR authority >= #{authority,javaType=double,jdbcType=DOUBLE}
 		</if>
+		<!--  
 		<if test="hub != null">
 			AND hub >= #{hub,javaType=double,jdbcType=DOUBLE}
 		</if>
@@ -116,6 +117,7 @@
 		<if test="eigenvectorCentrality != null">
 			AND eigenvector_centrality >= #{eigenvectorCentrality,javaType=double,jdbcType=DOUBLE}
 		</if>
+		-->
 	</select>
 
 	<insert id="insertVertex" parameterType="org.firebird.io.model.Vertex">
