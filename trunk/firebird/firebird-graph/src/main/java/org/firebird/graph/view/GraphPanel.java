@@ -36,7 +36,6 @@ import org.firebird.io.model.Vertex;
 
 import edu.uci.ics.jung.algorithms.layout.FRLayout;
 import edu.uci.ics.jung.algorithms.layout.KKLayout;
-import edu.uci.ics.jung.algorithms.layout.Layout;
 import edu.uci.ics.jung.graph.Graph;
 import edu.uci.ics.jung.visualization.GraphZoomScrollPane;
 
@@ -133,12 +132,13 @@ public class GraphPanel extends JPanel {
 		Dimension prefSize = new Dimension(900, 600);
 		Dimension satellitePrefSize = new Dimension(900/4, 600/4);
 		
-		Layout<String, String> layout = new KKLayout<String, String>(modeller.getGraph());
-
+		//Layout<String, String> layout = new KKLayout<String, String>(modeller.getGraph());
+		KKLayout<String, String> layout = new KKLayout<String, String>(modeller.getGraph());
+		layout.setMaxIterations(300);
 		/*
 		viewer = new GraphViewer(layout, prefSize);
 		satelliteViewer = new SatelliteGraphViewer(viewer, satellitePrefSize);
-		*/
+		*/		
 		
 		viewer = new SimpleGraphViewer(layout, prefSize);
 		satelliteViewer = new SimpleSatelliteGraphViewer(viewer, satellitePrefSize);
