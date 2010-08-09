@@ -1,0 +1,3 @@
+Cygwin에서 실행해야 함.
+실행위치 -> d/workspace/firebird-analyzer
+MAVEN_OPTS="-Xmx1G -ea" mvn -e exec:java -Dexec.mainClass=org.firebird.analyzer.graph.clustering.ClusteringJob 
