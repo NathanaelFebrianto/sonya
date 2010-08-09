@@ -12,6 +12,8 @@ import org.firebird.collector.util.CollectJobLogger;
 /**
  * This class is a twitter user data collector job.
  * 
+ * Run Option -> VM arguments
+ *  -Dtwitter4j.loggerFactory=twitter4j.internal.logging.StdOutLoggerFactory
  * @author Young-Gue Bae
  */
 public class TwitterUserDataCollectJob {
@@ -51,7 +53,7 @@ public class TwitterUserDataCollectJob {
         	config.setCollectUserBlogEntry(false);
         	config.setLevelLimit(3);
         	config.setDegreeLimit(100);
-        	config.setPeopleLimit(50000);
+        	config.setPeopleLimit(5000);
         	
         	job.collect(config, "sorenG");
     		
