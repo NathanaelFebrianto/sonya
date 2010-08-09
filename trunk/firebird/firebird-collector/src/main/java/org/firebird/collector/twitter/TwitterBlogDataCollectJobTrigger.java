@@ -36,10 +36,10 @@ public class TwitterBlogDataCollectJobTrigger {
 		logger.info("------- Scheduling Jobs ----------------");
 
 		// jobs can be scheduled before sched.start() has been called
-		// job will run every 20 seconds
+		// job will run every 30 minutes
         JobDetail job = new JobDetail("job1", "group1", TwitterBlogDataCollectJob.class);
         CronTrigger trigger = new CronTrigger("trigger1", "group1", "job1",
-                "group1", "0/5 * * * * ?");
+                "group1", "0 0/30 * * * ?");
         sched.addJob(job, true);
         Date ft = sched.scheduleJob(trigger);
         logger.info(job.getFullName() + " has been scheduled to run at: " + ft
