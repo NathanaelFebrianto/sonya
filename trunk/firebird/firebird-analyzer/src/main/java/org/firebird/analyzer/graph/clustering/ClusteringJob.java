@@ -93,8 +93,8 @@ public class ClusteringJob {
 	
 	public static void main(String[] args) {
     	try {    		
-    		String clusterType = Clusterer.EDGE_BETWEENNESS_CLUSTER;
-    		//String clusterType = Clusterer.VOLTAGE_CLUSTER;
+    		//String clusterType = Clusterer.EDGE_BETWEENNESS_CLUSTER;
+    		String clusterType = Clusterer.VOLTAGE_CLUSTER;
     		
     		ClusteringJob job = new ClusteringJob();
     		
@@ -112,15 +112,15 @@ public class ClusteringJob {
     		logger.info("\n\n******************************************");
     		logger.info("Start Clustering - " + clusterType + " : " + startTime);
         	
-    		// EdgeBetweenness Clusterer
+        	// EdgeBetweenness Clusterer
     		if (clusterType.equals(Clusterer.EDGE_BETWEENNESS_CLUSTER)) {
-        		int numEdgesToRemove = 15;
+        		int numEdgesToRemove = 100; // similar to cluster number
             	job.clusterByEdgeBetweennessClusterer(graph, numEdgesToRemove);    			
     		}
     		// Voltage Clusterer
     		else if (clusterType.equals(Clusterer.VOLTAGE_CLUSTER)) {
-    	       	int numCandidates = 100;
-            	int numClusters = 10;
+    	       	int numCandidates = 13261;
+            	int numClusters = 100;
             	job.clusterByVoltageClusterer(graph, numCandidates, numClusters);   			
     		}
         	

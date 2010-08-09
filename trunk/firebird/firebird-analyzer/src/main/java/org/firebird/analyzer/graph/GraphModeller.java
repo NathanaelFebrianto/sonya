@@ -116,6 +116,14 @@ public class GraphModeller {
 
 		for (int i = 0; i < edges.size(); i++) {
 			Edge edge = (Edge) edges.get(i);
+			
+			if (vertices.get(edge.getVertex1()) == null) {
+				System.out.println("Check uppercase or lowercase of id: Vertex Object is null for vertex1 = " + edge.getVertex1());
+			}
+			if (vertices.get(edge.getVertex2()) == null) {
+				System.out.println("Check uppercase or lowercase of id: Vertex Object is null for vertex2 = " + edge.getVertex2());
+			}
+			
 			if (edge.getDirected())
 				graph.addEdge(edge, vertices.get(edge.getVertex1()), vertices.get(edge.getVertex2()), EdgeType.DIRECTED);
 			else
