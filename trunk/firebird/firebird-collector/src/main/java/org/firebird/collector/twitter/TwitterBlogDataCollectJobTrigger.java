@@ -7,10 +7,11 @@ package org.firebird.collector.twitter;
 import java.util.Date;
 
 import org.firebird.collector.util.CollectJobLogger;
-import org.quartz.CronTrigger;
 import org.quartz.JobDetail;
 import org.quartz.Scheduler;
 import org.quartz.SchedulerFactory;
+import org.quartz.SimpleTrigger;
+import org.quartz.TriggerUtils;
 import org.quartz.impl.StdSchedulerFactory;
 
 /**
@@ -34,17 +35,33 @@ public class TwitterBlogDataCollectJobTrigger {
 		logger.info("------- Initialization Complete --------");
 
 		logger.info("------- Scheduling Jobs ----------------");
+		
+		// get a "nice round" time a few seconds in the future...
+        long ts = TriggerUtils.getNextGivenSecondDate(null, 15).getTime();
 
 		// jobs can be scheduled before sched.start() has been called
 		// job will run every 30 minutes
-        JobDetail job = new JobDetail("job1", "group1", TwitterBlogDataCollectJob.class);
-        CronTrigger trigger = new CronTrigger("trigger1", "group1", "job1",
-                "group1", "0 0/30 * * * ?");
+        /*
+		JobDetail job = new JobDetail("TwitterBlogDataCollectJob", "firebird", TwitterBlogDataCollectJob.class);
+        CronTrigger trigger = new CronTrigger("TwitterBlogDataCollectJobTrigger", "firebird", "TwitterBlogDataCollectJob",
+                "twitter", "0 0/30 * * * ?");
         sched.addJob(job, true);
         Date ft = sched.scheduleJob(trigger);
         logger.info(job.getFullName() + " has been scheduled to run at: " + ft
                 + " and repeat based on expression: "
                 + trigger.getCronExpression());
+        */
+		
+        // jobs can be scheduled before sched.start() has been called
+        // job7 will repeat 20 times, repeat every 10 minutes(1 second = 1000L)
+        JobDetail job = new JobDetail("TwitterBlogDataCollectJob", "firebird", TwitterBlogDataCollectJob.class);
+        SimpleTrigger trigger = new SimpleTrigger("TwitterBlogDataCollectJobTrigger", "firebird", "TwitterBlogDataCollectJob", "firebird",
+                new Date(ts), null, 20, 3660000L);
+        Date ft = sched.scheduleJob(job, trigger);
+        logger.info(job.getFullName() +
+                " will run at: " + ft +  
+                " and repeat: " + trigger.getRepeatCount() + 
+                " times, every " + trigger.getRepeatInterval() / 1000 + " seconds");
 
         logger.info("------- Starting Scheduler ----------------");
 
@@ -53,8 +70,7 @@ public class TwitterBlogDataCollectJobTrigger {
         // will run until the scheduler has been started
         sched.start();
 
-        logger.info("------- Started Scheduler -----------------");
-	
+        logger.info("------- Started Scheduler -----------------");	
 	}
 
 	public static void main(String[] args) throws Exception {

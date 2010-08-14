@@ -59,8 +59,8 @@ public class TwitterBlogDataCollectJob implements Job {
 	    	
 	     	Vertex condition = new Vertex();
 	    	condition.setWebsiteId(1);
-	    	condition.setPageRank(0.001);
-	    	condition.setAuthority(0.02);        	
+	    	condition.setPageRank(0.003);
+	    	condition.setAuthority(0.04);        	
 	    	//condition.setHub(0);
 	    	//condition.setBetweennessCentrality(0);
 	    	//condition.setClosenessCentrality(0);

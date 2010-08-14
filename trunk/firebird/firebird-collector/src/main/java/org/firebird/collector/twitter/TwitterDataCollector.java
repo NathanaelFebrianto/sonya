@@ -110,11 +110,27 @@ public class TwitterDataCollector {
 			System.out.println("rate limit remaining  == " + user.getRateLimitStatus().getRemainingHits() + " / " + user.getRateLimitStatus().getHourlyLimit());
 			System.out.println(">>>>>>>>>>>>>> start");
 
-			if (config.isCollectFriend())
-				this.collectFriendsOfUser(user, 0);
-
-			if (config.isCollectFollower())
-				this.collectFollowersOfUser(user, 0);
+			if (config.getCollectPriority() == CollectorConfig.COLLECT_PRIORITY_FOLLOWER) {
+				if (config.isCollectFollower())
+					this.collectFollowersOfUser(user, 0);
+				
+				if (config.isCollectFriend())
+					this.collectFriendsOfUser(user, 0);				
+			}
+			else if (config.getCollectPriority() == CollectorConfig.COLLECT_PRIORITY_FRIEND) {
+				if (config.isCollectFriend())
+					this.collectFriendsOfUser(user, 0);	
+				
+				if (config.isCollectFollower())
+					this.collectFollowersOfUser(user, 0);
+			}
+			else {
+				if (config.isCollectFriend())
+					this.collectFriendsOfUser(user, 0);	
+				
+				if (config.isCollectFollower())
+					this.collectFollowersOfUser(user, 0);				
+			}			
 		} catch (TwitterException te) {
 			te.printStackTrace();
 		}

@@ -51,11 +51,12 @@ public class TwitterUserDataCollectJob {
         	config.setCollectFriend(true);
         	config.setCollectFollower(true);
         	config.setCollectUserBlogEntry(false);
-        	config.setLevelLimit(3);
-        	config.setDegreeLimit(100);
-        	config.setPeopleLimit(5000);
+        	config.setCollectPriority(CollectorConfig.COLLECT_PRIORITY_FOLLOWER);
+        	config.setLevelLimit(2);
+        	config.setDegreeLimit(50);
+        	config.setPeopleLimit(200);
         	
-        	job.collect(config, "sorenG");
+        	job.collect(config, "mashable");
     		
         	// end time
     		Date endTime = new Date();
