@@ -267,7 +267,7 @@ public class TopicAnalysisJob {
     		// 4. run LDA analyzer
     		int numTopics = 10;
     		int topicSmoothing = -1;
-    		int maxIter = 40;
+    		int maxIter = 20;	//maxIter = 40
     		int numReducers = 2;
     		job.runLDAAnalyzer(numTopics, topicSmoothing, maxIter, numReducers);
    		

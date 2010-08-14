@@ -71,6 +71,9 @@ public class TopicUserClusteringJob {
 		else if (clusterType.equals(Clusterer.VOLTAGE_CLUSTER)) {
 			clusters = vertexManager.getVoltageClusters(websiteId);
 		}
+		else if (clusterType.equals(Clusterer.CNM_CLUSTER)) {
+			clusters = vertexManager.getCnmClusters(websiteId);
+		}
 		 		
 		List<Integer> topics = topicManager.getTopics(websiteId);		
 		
@@ -91,6 +94,9 @@ public class TopicUserClusteringJob {
 			}
 			else if (clusterType.equals(Clusterer.VOLTAGE_CLUSTER)) {
 				users = vertexManager.getVerticesInVoltageCluster(websiteId, cluster);
+			}
+			else if (clusterType.equals(Clusterer.CNM_CLUSTER)) {
+				users = vertexManager.getVerticesInCnmCluster(websiteId, cluster);
 			}
 			
 			Map<Integer, List<TopicUser>> topicUsersMap = this.getTopTopicUsersByCluster(websiteId, topics, clusterType, cluster, minScore, topUserNum);
@@ -193,6 +199,9 @@ public class TopicUserClusteringJob {
 			}
 			else if (clusterType.equals(Clusterer.VOLTAGE_CLUSTER)) {
 				topicUsers = topicUserManager.getUsersInVoltageCluster(websiteId, topic, cluster, minScore, topUserNum);
+			}
+			else if (clusterType.equals(Clusterer.CNM_CLUSTER)) {
+				topicUsers = topicUserManager.getUsersInCnmCluster(websiteId, topic, cluster, minScore, topUserNum);
 			}
 			
 			if (topicUsers != null && topicUsers.size() > 0) {
@@ -316,7 +325,9 @@ public class TopicUserClusteringJob {
 	
 	public static void main(String[] args) {
 		//String clusterType = Clusterer.EDGE_BETWEENNESS_CLUSTER;
-		String clusterType = Clusterer.VOLTAGE_CLUSTER;
+		//String clusterType = Clusterer.VOLTAGE_CLUSTER;
+		String clusterType = Clusterer.CNM_CLUSTER;
+		
 		//float minScore = 40f;
 		float minScore = 25f;
 		int topUserNum = 5;

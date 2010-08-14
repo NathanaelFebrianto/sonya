@@ -1,0 +1,2 @@
+Out of Index 에러 발생하면, 예전에 D:\firebird 아래에 있는 
+topic analysis 관련 파일들을 삭제하고 다시 실행할 것.
