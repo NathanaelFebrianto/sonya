@@ -328,8 +328,7 @@ public class TopicUserClusteringJob {
 		//String clusterType = Clusterer.VOLTAGE_CLUSTER;
 		String clusterType = Clusterer.CNM_CLUSTER;
 		
-		//float minScore = 40f;
-		float minScore = 25f;
+		float minScore = 25f; //minScore = 40f;
 		int topUserNum = 5;
 		int websiteId = 1;
 		
