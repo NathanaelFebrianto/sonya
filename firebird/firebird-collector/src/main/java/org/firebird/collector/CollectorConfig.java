@@ -12,15 +12,19 @@ import java.io.Serializable;
  * @author Young-Gue Bae
  */
 public class CollectorConfig implements Serializable {
+	
+	public static final int COLLECT_PRIORITY_FRIEND = 1;
+	public static final int COLLECT_PRIORITY_FOLLOWER = 2;
 
 	private static final long serialVersionUID = 3400641227817931444L;
 	private boolean dbStorage = false;
 	private boolean collectFriend = true;
 	private boolean collectFollower = false;
 	private boolean collectUserBlogEntry = false;
+	private int collectPriority = 0; 
 	private int levelLimit = 2;
 	private int peopleLimit = 50;
-	private int degreeLimit = 10;
+	private int degreeLimit = 10;	
 	
 	public boolean isDBStorage() {
 		return dbStorage;
@@ -45,6 +49,12 @@ public class CollectorConfig implements Serializable {
 	}
 	public void setCollectUserBlogEntry(boolean collectUserBlogEntry) {
 		this.collectUserBlogEntry = collectUserBlogEntry;
+	}
+	public int getCollectPriority() {
+		return collectPriority;
+	}
+	public void setCollectPriority(int collectPriority) {
+		this.collectPriority = collectPriority;
 	}
 	public int getLevelLimit() {
 		return levelLimit;
