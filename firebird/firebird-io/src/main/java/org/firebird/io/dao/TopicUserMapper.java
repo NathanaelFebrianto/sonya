@@ -54,4 +54,12 @@ public interface TopicUserMapper extends GenericMapper {
      */
 	public List<TopicUser> selectUsersInVoltageCluster(TopicUser param);
 	
+	/**
+     * Selects topic users in the specific CNM(Clauset-Newman-Moore) cluster.
+     *
+     * @param param the topic user
+     * @return List<TopicUser> the list of topic user
+     */
+	public List<TopicUser> selectUsersInCnmCluster(TopicUser param);
+
 }

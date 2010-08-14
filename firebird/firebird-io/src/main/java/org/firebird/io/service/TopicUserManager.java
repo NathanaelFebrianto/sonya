@@ -93,4 +93,26 @@ public interface TopicUserManager extends GenericManager {
      */
 	public List<TopicUser> getUsersInVoltageCluster(int websiteId, int topic, int cluster, float minScore, int topUserNum);
 	
+	/**
+     * Gets the topic users in the specific CNM(Clauset-Newman-Moore) cluster.
+     *
+     * @param websiteId the website id
+     * @param topic the topic id
+     * @param cluster the cluster
+     * @return List<TopicUser> the list of topic user
+     */
+	public List<TopicUser> getUsersInCnmCluster(int websiteId, int topic, int cluster);
+	
+	/**
+     * Gets the topic users in the specific CNM(Clauset-Newman-Moore) cluster.
+     *
+     * @param websiteId the website id
+     * @param topic the topic id
+     * @param cluster the cluster
+     * @param minScore the minimum score
+     * @param topUserNum the top user number
+     * @return List<TopicUser> the list of topic user
+     */
+	public List<TopicUser> getUsersInCnmCluster(int websiteId, int topic, int cluster, float minScore, int topUserNum);
+	
 }

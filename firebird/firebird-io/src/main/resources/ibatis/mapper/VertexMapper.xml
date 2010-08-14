@@ -26,6 +26,7 @@
 		<result property="eigenvectorCentrality" column="eigenvector_centrality" />
 		<result property="edgeBetweennessCluster" column="edge_betweenness_cluster" />
 		<result property="voltageCluster" column="voltage_cluster" />
+		<result property="cnmCluster" column="cnm_cluster" />
 		<result property="friendsCount" column="friends_count" />
 		<result property="followersCount" column="followers_count" />
 		<result property="userNo" column="user_no" />
@@ -70,6 +71,7 @@
 			eigenvector_centrality,
 			edge_betweenness_cluster,
 			voltage_cluster,
+			cnm_cluster,
 			friends_count,
 			followers_count,
 			user_no,
@@ -251,6 +253,13 @@
 		ORDER BY voltage_cluster ASC
 	</select>
 	
+	<select id="selectCnmClusters" parameterType="int" resultType="int">		
+		SELECT DISTINCT cnm_cluster
+		FROM vertex 
+		WHERE website_id = #{websiteId}
+		ORDER BY cnm_cluster ASC
+	</select>
+	
 	<select id="selectVerticesInEdgeBetweennessCluster" parameterType="org.firebird.io.model.Vertex" resultMap="vertexResultMap">
 		SELECT * 
 		FROM vertex 
@@ -261,6 +270,12 @@
 		SELECT * 
 		FROM vertex 
 		WHERE website_id = #{websiteId} AND voltage_cluster = #{voltageCluster}
+	</select>
+
+	<select id="selectVerticesInCnmCluster" parameterType="org.firebird.io.model.Vertex" resultMap="vertexResultMap">
+		SELECT * 
+		FROM vertex 
+		WHERE website_id = #{websiteId} AND cnm_cluster = #{cnmCluster}
 	</select>
 	
 </mapper>

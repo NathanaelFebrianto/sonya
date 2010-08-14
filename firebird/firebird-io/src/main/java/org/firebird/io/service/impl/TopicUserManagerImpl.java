@@ -207,5 +207,57 @@ public class TopicUserManagerImpl extends GenericManagerImpl implements TopicUse
     		session.close();
     	}				
 	}
-    
+
+	/**
+     * Gets the topic users in the specific CNM(Clauset-Newman-Moore) cluster.
+     *
+     * @param websiteId the website id
+     * @param topic the topic id
+     * @param cluster the cluster
+     * @return List<TopicUser> the list of topic user
+     */
+	public List<TopicUser> getUsersInCnmCluster(int websiteId, int topic, int cluster) {
+		TopicUser param = new TopicUser();
+		param.setWebsiteId(websiteId);
+		param.setTopicId(topic);
+		param.setCluster(cluster);
+		
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		TopicUserMapper mapper = session.getMapper(TopicUserMapper.class);
+    		List<TopicUser> topicUsers = mapper.selectUsersInCnmCluster(param);
+    		return topicUsers;
+    	} finally {
+    		session.close();
+    	}					
+	}
+	
+	/**
+     * Gets the topic users in the specific CNM(Clauset-Newman-Moore) cluster.
+     *
+     * @param websiteId the website id
+     * @param topic the topic id
+     * @param cluster the cluster
+     * @param minScore the minimum score
+     * @param topUserNum the top user number
+     * @return List<TopicUser> the list of topic user
+     */
+	public List<TopicUser> getUsersInCnmCluster(int websiteId, int topic, int cluster, float minScore, int topUserNum) {
+		TopicUser param = new TopicUser();
+		param.setWebsiteId(websiteId);
+		param.setTopicId(topic);
+		param.setCluster(cluster);
+		param.setScore(minScore);
+		param.setTopUserNum(topUserNum);
+		
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		TopicUserMapper mapper = session.getMapper(TopicUserMapper.class);
+    		List<TopicUser> topicUsers = mapper.selectUsersInCnmCluster(param);
+    		return topicUsers;
+    	} finally {
+    		session.close();
+    	}		
+	}
+	
 }

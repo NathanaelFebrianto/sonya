@@ -178,7 +178,23 @@ public class VertexManagerImpl extends GenericManagerImpl implements VertexManag
     		session.close();
     	}
 	}
-	
+
+	/**
+     * Gets the CNM(Clauset-Newman-Moore) clusters.
+     *
+      * @param websiteId the website id
+     * @return List<Integer> the clusters
+     */
+	public List<Integer> getCnmClusters(int websiteId) {
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		VertexMapper mapper = session.getMapper(VertexMapper.class);
+    		List<Integer> clusters = mapper.selectCnmClusters(websiteId);
+    		return clusters;
+    	} finally {
+    		session.close();
+    	}		
+	}
 	
 	/**
      * Gets the vertices in the specific edge betweenness cluster.
@@ -222,6 +238,28 @@ public class VertexManagerImpl extends GenericManagerImpl implements VertexManag
     	} finally {
     		session.close();
     	}		
+	}
+	
+	/**
+     * Gets the vertices in the specific CNM(Clauset-Newman-Moore) cluster.
+     *
+      * @param websiteId the website id
+     * @param cluster the cluster id
+     * @return List<Vertex> the vertices
+     */
+	public List<Vertex> getVerticesInCnmCluster(int websiteId, int cluster) {
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		VertexMapper mapper = session.getMapper(VertexMapper.class);
+    		
+    		Vertex vertex = new Vertex();
+    		vertex.setWebsiteId(websiteId);
+    		vertex.setCnmCluster(cluster);    		
+    		List<Vertex> vertices = mapper.selectVerticesInCnmCluster(vertex);
+    		return vertices;
+    	} finally {
+    		session.close();
+    	}				
 	}
 	
 	/**
@@ -271,6 +309,29 @@ public class VertexManagerImpl extends GenericManagerImpl implements VertexManag
 	}
 	
 	/**
+     * Gets the CNM(Clauset-Newman-Moore) cluster set.
+     *
+     * @param websiteId the website id
+     * @return Set<Set<String>> the cluster set with vertex id
+     */
+	public Set<Set<String>> getCnmClusterSet(int websiteId) {
+		Set<Set<String>> clusterSet = new LinkedHashSet<Set<String>>();
+		List<Integer> clusters = this.getCnmClusters(websiteId);
+		
+		for (Integer cluster : clusters) {
+			if (cluster != null) {
+				Set<String> verticesSet = new LinkedHashSet<String>();			
+				List<Vertex> vertices = this.getVerticesInCnmCluster(websiteId, cluster);			
+				for (Vertex vertex : vertices) {
+					verticesSet.add(vertex.getId());
+				}
+				clusterSet.add(verticesSet);
+			}
+		}		
+		return clusterSet;		
+	}
+	
+	/**
      * Gets the edge betweenness cluster map.
      *
      * @param websiteId the website id
@@ -307,6 +368,29 @@ public class VertexManagerImpl extends GenericManagerImpl implements VertexManag
 			if (cluster != null) {
 				Set<String> verticesSet = new LinkedHashSet<String>();			
 				List<Vertex> vertices = this.getVerticesInVoltageCluster(websiteId, cluster);			
+				for (Vertex vertex : vertices) {
+					verticesSet.add(vertex.getId());
+				}
+				clusterSet.put(cluster, verticesSet);
+			}
+		}		
+		return clusterSet;
+	}
+
+	/**
+     * Gets the CNM(Clauset-Newman-Moore) cluster map.
+     *
+     * @param websiteId the website id
+     * @return Map<Intger, Set<String>> the cluster set with vertices id
+     */
+	public Map<Integer, Set<String>> getCnmClusterMap(int websiteId) {
+		Map<Integer, Set<String>> clusterSet = new HashMap<Integer, Set<String>>();
+		List<Integer> clusters = this.getCnmClusters(websiteId);
+		
+		for (Integer cluster : clusters) {
+			if (cluster != null) {
+				Set<String> verticesSet = new LinkedHashSet<String>();			
+				List<Vertex> vertices = this.getVerticesInCnmCluster(websiteId, cluster);			
 				for (Vertex vertex : vertices) {
 					verticesSet.add(vertex.getId());
 				}

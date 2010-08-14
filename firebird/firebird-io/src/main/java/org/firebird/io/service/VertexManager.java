@@ -79,6 +79,14 @@ public interface VertexManager extends GenericManager {
 	public List<Integer> getVoltageClusters(int websiteId);
 	
 	/**
+     * Gets the CNM(Clauset-Newman-Moore) clusters.
+     *
+      * @param websiteId the website id
+     * @return List<Integer> the clusters
+     */
+	public List<Integer> getCnmClusters(int websiteId);
+	
+	/**
      * Gets the vertices in the specific edge betweenness cluster.
      *
       * @param websiteId the website id
@@ -95,6 +103,15 @@ public interface VertexManager extends GenericManager {
      * @return List<Vertex> the vertices
      */
 	public List<Vertex> getVerticesInVoltageCluster(int websiteId, int cluster);
+
+	/**
+     * Gets the vertices in the specific CNM(Clauset-Newman-Moore) cluster.
+     *
+      * @param websiteId the website id
+     * @param cluster the cluster id
+     * @return List<Vertex> the vertices
+     */
+	public List<Vertex> getVerticesInCnmCluster(int websiteId, int cluster);
 	
 	/**
      * Gets the edge betweenness cluster set.
@@ -113,6 +130,14 @@ public interface VertexManager extends GenericManager {
 	public Set<Set<String>> getVoltageClusterSet(int websiteId);
 	
 	/**
+     * Gets the CNM(Clauset-Newman-Moore) cluster set.
+     *
+     * @param websiteId the website id
+     * @return Set<Set<String>> the cluster set with vertex id
+     */
+	public Set<Set<String>> getCnmClusterSet(int websiteId);
+	
+	/**
      * Gets the edge betweenness cluster map.
      *
      * @param websiteId the website id
@@ -127,5 +152,13 @@ public interface VertexManager extends GenericManager {
      * @return Map<Intger, Set<String>> the cluster set with vertices id
      */
 	public Map<Integer, Set<String>> getVoltageClusterMap(int websiteId);
+	
+	/**
+     * Gets the CNM(Clauset-Newman-Moore) cluster map.
+     *
+     * @param websiteId the website id
+     * @return Map<Intger, Set<String>> the cluster set with vertices id
+     */
+	public Map<Integer, Set<String>> getCnmClusterMap(int websiteId);
 	
 }
