@@ -101,6 +101,25 @@
 		<if test="topUserNum != null">
 			LIMIT #{topUserNum}
 		</if>
-	</select>	
+	</select>
+	
+		<select id="selectUsersInCnmCluster" parameterType="org.firebird.io.model.TopicUser" resultMap="topicUserResultMap">
+		SELECT * 
+		FROM topic_user
+		WHERE website_id = #{websiteId}
+			AND topic_id = #{topicId}
+			<if test="score != null">
+				AND score >= #{score}
+			</if>
+			AND EXISTS (
+				SELECT user_id FROM vertex 
+				WHERE website_id = #{websiteId} AND 
+					cnm_cluster = #{cluster} AND
+					topic_user.user_id = vertex.vertex_id)
+		ORDER BY score DESC
+		<if test="topUserNum != null">
+			LIMIT #{topUserNum}
+		</if>
+	</select>
 
 </mapper>

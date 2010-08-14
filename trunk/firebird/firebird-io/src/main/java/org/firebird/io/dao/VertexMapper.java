@@ -75,6 +75,14 @@ public interface VertexMapper extends GenericMapper {
      * @return List<Integer> the clusters
      */
 	public List<Integer> selectVoltageClusters(int websiteId);
+
+    /**
+     * Selects CNM(Clauset-Newman-Moore) clusters.
+     *
+     * @param websiteId the websiteId
+     * @return List<Integer> the clusters
+     */
+	public List<Integer> selectCnmClusters(int websiteId);
 	
 	/**
      * Selects vertices in the specific edge betweenness cluster.
@@ -91,5 +99,13 @@ public interface VertexMapper extends GenericMapper {
      * @return List<Vertex> the vertices
      */
 	public List<Vertex> selectVerticesInVoltageCluster(Vertex vertex);
+
+	/**
+     * Selects vertices in the specific CNM(Clauset-Newman-Moore) cluster.
+     *
+     * @param vertex the vertex with the specific website id and cluster id.
+     * @return List<Vertex> the vertices
+     */
+	public List<Vertex> selectVerticesInCnmCluster(Vertex vertex);
 	
 }
