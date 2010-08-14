@@ -6,7 +6,7 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
-import org.firebird.analyzer.graph.SimpleGraphModeller;
+import org.firebird.analyzer.graph.GraphModeller;
 import org.firebird.io.model.Edge;
 import org.firebird.io.model.Vertex;
 import org.firebird.io.service.EdgeManager;
@@ -43,12 +43,14 @@ public class ClustererTest extends TestCase
     	try {
         	VertexManager vertexManager = new VertexManagerImpl();
         	EdgeManager edgeManager = new EdgeManagerImpl();
-        	SimpleGraphModeller modeller = new SimpleGraphModeller();
+        	GraphModeller modeller = new GraphModeller();
+        	//SimpleGraphModeller modeller = new SimpleGraphModeller();
         	
         	List<Vertex> vertices = vertexManager.getVertices(1);
         	List<Edge> edges = edgeManager.getEdges(1, 1);
         	
-        	Graph<String, String> graph = modeller.createGraph(vertices, edges);    		
+        	Graph<Vertex, Edge> graph = modeller.createGraph(vertices, edges);
+        	//Graph<String, String> graph = modeller.createGraph(vertices, edges);    		
     		Clusterer clusterer = new Clusterer(graph);
         } catch (Exception ex) {
         	ex.printStackTrace();

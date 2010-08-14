@@ -12,6 +12,8 @@ import java.util.Iterator;
 import java.util.Set;
 
 import org.firebird.analyzer.util.JobLogger;
+import org.firebird.io.model.Edge;
+import org.firebird.io.model.Vertex;
 
 import edu.uci.ics.jung.algorithms.cluster.EdgeBetweennessClusterer;
 import edu.uci.ics.jung.algorithms.cluster.VoltageClusterer;
@@ -30,37 +32,39 @@ public final class Clusterer {
 	/** cluster type */
 	public static final String EDGE_BETWEENNESS_CLUSTER = "EDGE_BETWEENNESS_CLUSTER";
 	public static final String VOLTAGE_CLUSTER = "VOLTAGE";
+	public static final String CNM_CLUSTER = "CNM";	//Clauset-Newman-Moore Algorithm
 	
 	/** graph */
-	Graph<String, String> graph;
+	Graph<Vertex, Edge> graph;
+	//Graph<String, String> graph;
 	
 	/**
 	 * Constructor.
 	 * 
 	 * @param graph the Graph<Vertex, Edge>
 	 */
-	/*
 	public Clusterer(Graph<Vertex, Edge> graph) {
 		this.graph = graph;
 	}
-	*/
+	/*
 	public Clusterer(Graph<String, String> graph) {
 		this.graph = graph;
 	}
+	*/
 		
 	/**
 	 * Gets the graph.
 	 * 
 	 * @return Graph<Vertex, Edge> the graph
 	 */
-	/*
 	public Graph<Vertex, Edge> getGraph() {
 		return graph;
 	}
-	*/
+	/*
 	public Graph<String, String> getGraph() {
 		return graph;
-	}	
+	}
+	*/
 
 	/**
 	 * Clusters the graph by the EdgeBetweenness Clusterer.
@@ -70,7 +74,6 @@ public final class Clusterer {
 	 * @return Set<Set<Vertex>> the set of vertex
 	 * @exception
 	 */
-	/*
 	public Set<Set<Vertex>> clusterByEdgeBetweennessClusterer(String outputFile, int numEdgesToRemove) throws Exception {
 		logger.info("Clustering by EdgeBetweennessClusterer..............");
 		EdgeBetweennessClusterer<Vertex, Edge> clusterer = new EdgeBetweennessClusterer<Vertex, Edge>(numEdgesToRemove);
@@ -81,7 +84,7 @@ public final class Clusterer {
 		
 		return clusterSet;
 	}
-	*/
+	/*
 	public Set<Set<String>> clusterByEdgeBetweennessClusterer(String outputFile, int numEdgesToRemove) throws Exception {
 		logger.info("Clustering by EdgeBetweennessClusterer..............");
 		EdgeBetweennessClusterer<String, String> clusterer = new EdgeBetweennessClusterer<String, String>(numEdgesToRemove);
@@ -92,6 +95,7 @@ public final class Clusterer {
 		
 		return clusterSet;
 	}
+	*/
 	
 	/**
 	 * Clusters the graph by the Voltage Clusterer.
@@ -100,7 +104,6 @@ public final class Clusterer {
 	 * @param numClusters the number of clusters
 	 * @return Collection<Set<Vertex>> the collection of vertex
 	 */
-	/*
 	public Collection<Set<Vertex>> clusterByVoltageClusterer(String outputFile, int numCandidates, int numClusters) throws Exception {
 		logger.info("Clustering by VoltageClusterer..............");
 		VoltageClusterer<Vertex, Edge> clusterer = new VoltageClusterer<Vertex, Edge>(graph, numCandidates);
@@ -111,7 +114,7 @@ public final class Clusterer {
 		
 		return clusterSet;
 	}
-	*/
+	/*
 	public Collection<Set<String>> clusterByVoltageClusterer(String outputFile, int numCandidates, int numClusters) throws Exception {
 		logger.info("Clustering by VoltageClusterer..............");
 		VoltageClusterer<String, String> clusterer = new VoltageClusterer<String, String>(graph, numCandidates);
@@ -122,8 +125,8 @@ public final class Clusterer {
 		
 		return clusterSet;
 	}
+	*/
 	
-	/*
 	private void writeEdgeBetweennessClusterSet(String outputFile, Set<Set<Vertex>> clusterSet) throws Exception {
 		File out = new File(outputFile);
 		PrintWriter writer = new PrintWriter(new FileWriter(out));
@@ -141,7 +144,7 @@ public final class Clusterer {
 		}
 		writer.close();
 	}
-	*/
+	/*
 	private void writeEdgeBetweennessClusterSet(String outputFile, Set<Set<String>> clusterSet) throws Exception {
 		File out = new File(outputFile);
 		PrintWriter writer = new PrintWriter(new FileWriter(out));
@@ -159,8 +162,8 @@ public final class Clusterer {
 		}
 		writer.close();
 	}
+	*/
 	
-	/*
 	private void writeVoltageClusterSet(String outputFile, Collection<Set<Vertex>> clusterSet) throws Exception {
 		File out = new File(outputFile);
 		PrintWriter writer = new PrintWriter(new FileWriter(out));
@@ -178,7 +181,7 @@ public final class Clusterer {
 		}
 		writer.close();
 	}
-	*/
+	/*
 	private void writeVoltageClusterSet(String outputFile, Collection<Set<String>> clusterSet) throws Exception {
 		File out = new File(outputFile);
 		PrintWriter writer = new PrintWriter(new FileWriter(out));
@@ -195,5 +198,6 @@ public final class Clusterer {
 		}
 		writer.close();
 	}
+	*/
 	
 }

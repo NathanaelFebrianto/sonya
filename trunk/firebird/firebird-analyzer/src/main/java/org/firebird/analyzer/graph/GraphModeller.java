@@ -12,7 +12,9 @@ import org.firebird.io.model.Edge;
 import org.firebird.io.model.Vertex;
 
 import edu.uci.ics.jung.graph.DirectedSparseGraph;
+import edu.uci.ics.jung.graph.DirectedSparseMultigraph;
 import edu.uci.ics.jung.graph.Graph;
+import edu.uci.ics.jung.graph.SparseMultigraph;
 import edu.uci.ics.jung.graph.UndirectedSparseGraph;
 import edu.uci.ics.jung.graph.util.EdgeType;
 
@@ -28,8 +30,10 @@ public class GraphModeller {
 	
 	/** graph type */
 	public final static int DIRECTED_SPARSE_GRAPH = 1;
-	public final static int UNDIRECTED_SPARSE_GRAPH = 2;	
-
+	public final static int UNDIRECTED_SPARSE_GRAPH = 2;
+	public final static int DIRECTED_SPARSE_MULTIGRAPH = 3;
+	public final static int SPARSE_MULTIGRAPH = 4;
+	
 	/**
 	 * Constructor.
 	 * 
@@ -50,6 +54,10 @@ public class GraphModeller {
 			graph = new DirectedSparseGraph<Vertex, Edge>();
 		else if (graphType == UNDIRECTED_SPARSE_GRAPH)
 			graph = new UndirectedSparseGraph<Vertex, Edge>();
+		else if (graphType == DIRECTED_SPARSE_MULTIGRAPH)
+			graph = new DirectedSparseMultigraph<Vertex, Edge>();
+		else if (graphType == SPARSE_MULTIGRAPH)
+			graph = new SparseMultigraph<Vertex, Edge>();
 		else
 			graph = new DirectedSparseGraph<Vertex, Edge>();
 	}

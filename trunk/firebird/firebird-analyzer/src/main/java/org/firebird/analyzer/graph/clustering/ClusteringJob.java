@@ -7,7 +7,7 @@ package org.firebird.analyzer.graph.clustering;
 import java.util.Date;
 import java.util.List;
 
-import org.firebird.analyzer.graph.SimpleGraphModeller;
+import org.firebird.analyzer.graph.GraphModeller;
 import org.firebird.analyzer.util.JobLogger;
 import org.firebird.analyzer.util.OutputFileReader;
 import org.firebird.io.model.Edge;
@@ -43,27 +43,27 @@ public class ClusteringJob {
 		this.voOutputFile = "D:/firebird/clusters_voltage.txt";
 	}
 	
-	/*
 	private void clusterByEdgeBetweennessClusterer(Graph<Vertex, Edge> graph, int numEdgesToRemove) throws Exception {
 		Clusterer clusterer = new Clusterer(graph);
 		clusterer.clusterByEdgeBetweennessClusterer(ebOutputFile, numEdgesToRemove);
 	}
-	*/
+	/*
 	private void clusterByEdgeBetweennessClusterer(Graph<String, String> graph, int numEdgesToRemove) throws Exception {
 		Clusterer clusterer = new Clusterer(graph);
 		clusterer.clusterByEdgeBetweennessClusterer(ebOutputFile, numEdgesToRemove);
 	}
+	*/
 	
-	/*
 	private void clusterByVoltageClusterer(Graph<Vertex, Edge> graph, int numCandidates, int numClusters) throws Exception {
 		Clusterer clusterer = new Clusterer(graph);
 		clusterer.clusterByVoltageClusterer(voOutputFile, numCandidates, numClusters);
 	}
-	*/
+	/*
 	private void clusterByVoltageClusterer(Graph<String, String> graph, int numCandidates, int numClusters) throws Exception {
 		Clusterer clusterer = new Clusterer(graph);
 		clusterer.clusterByVoltageClusterer(voOutputFile, numCandidates, numClusters);
 	}
+	*/
 	
 	private void storeEdgeBetweennessClusterSet() throws Exception {
 		logger.info("storeEdgeBetweennessClusterSet..............");
@@ -93,34 +93,34 @@ public class ClusteringJob {
 	
 	public static void main(String[] args) {
     	try {    		
-    		//String clusterType = Clusterer.EDGE_BETWEENNESS_CLUSTER;
-    		String clusterType = Clusterer.VOLTAGE_CLUSTER;
+    		String clusterType = Clusterer.EDGE_BETWEENNESS_CLUSTER;
+    		//String clusterType = Clusterer.VOLTAGE_CLUSTER;
     		
     		ClusteringJob job = new ClusteringJob();
     		
     		VertexManager vertexManager = new VertexManagerImpl();
         	EdgeManager edgeManager = new EdgeManagerImpl();
-        	//GraphModeller modeller = new GraphModeller();
-        	SimpleGraphModeller modeller = new SimpleGraphModeller();
+        	GraphModeller modeller = new GraphModeller(GraphModeller.DIRECTED_SPARSE_GRAPH);
+        	//SimpleGraphModeller modeller = new SimpleGraphModeller();
         	
         	List<Vertex> vertices = vertexManager.getVertices(1);
         	List<Edge> edges = edgeManager.getEdges(1, 1);        	
-        	Graph<String, String> graph = modeller.createGraph(vertices, edges);
+        	Graph<Vertex, Edge> graph = modeller.createGraph(vertices, edges);
 
-    		// start time
+        	// start time
     		Date startTime = new Date();
     		logger.info("\n\n******************************************");
     		logger.info("Start Clustering - " + clusterType + " : " + startTime);
         	
         	// EdgeBetweenness Clusterer
     		if (clusterType.equals(Clusterer.EDGE_BETWEENNESS_CLUSTER)) {
-        		int numEdgesToRemove = 100; // similar to cluster number
+        		int numEdgesToRemove = 2000; // similar to cluster number
             	job.clusterByEdgeBetweennessClusterer(graph, numEdgesToRemove);    			
     		}
     		// Voltage Clusterer
     		else if (clusterType.equals(Clusterer.VOLTAGE_CLUSTER)) {
-    	       	int numCandidates = 13261;
-            	int numClusters = 100;
+    	       	int numCandidates = 5119;
+            	int numClusters = 50;
             	job.clusterByVoltageClusterer(graph, numCandidates, numClusters);   			
     		}
         	
