@@ -1,0 +1,1 @@
+mvn -e exec:java -Dexec.mainClass=org.firebird.collector.twitter.TwitterBlogDataCollectJobTrigger
