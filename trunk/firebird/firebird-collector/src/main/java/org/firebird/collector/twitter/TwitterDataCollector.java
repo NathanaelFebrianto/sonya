@@ -10,6 +10,7 @@ import java.util.HashMap;
 import java.util.List;
 
 import org.firebird.collector.CollectorConfig;
+import org.firebird.collector.util.CollectJobLogger;
 import org.firebird.io.model.Edge;
 import org.firebird.io.model.UserBlogEntry;
 import org.firebird.io.model.Vertex;
@@ -20,6 +21,7 @@ import org.firebird.io.service.impl.EdgeManagerImpl;
 import org.firebird.io.service.impl.UserBlogEntryManagerImpl;
 import org.firebird.io.service.impl.VertexManagerImpl;
 
+import twitter4j.Paging;
 import twitter4j.Status;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
@@ -31,6 +33,8 @@ import twitter4j.User;
  * @author Young-Gue Bae
  */
 public class TwitterDataCollector {
+	/** logger */
+	private static CollectJobLogger logger = CollectJobLogger.getLogger(TwitterDataCollector.class);
 
 	private CollectorConfig config;
 	
@@ -101,6 +105,14 @@ public class TwitterDataCollector {
 		System.out.println("level limit == " + config.getLevelLimit());
 		System.out.println("degree limit == " + config.getDegreeLimit());
 		System.out.println("people limit == " + config.getPeopleLimit());
+		
+		logger.info(">>>>>>>>>>>>>> collector option : ");
+		logger.info("database storage mode == " + config.isDBStorage());
+		logger.info("collect friend(following) relationship == " + config.isCollectFriend());
+		logger.info("collect follower relationship == " + config.isCollectFollower());
+		logger.info("level limit == " + config.getLevelLimit());
+		logger.info("degree limit == " + config.getDegreeLimit());
+		logger.info("people limit == " + config.getPeopleLimit());
 
 		User user = null;
 
@@ -110,6 +122,9 @@ public class TwitterDataCollector {
 			System.out.println("rate limit remaining  == " + user.getRateLimitStatus().getRemainingHits() + " / " + user.getRateLimitStatus().getHourlyLimit());
 			System.out.println(">>>>>>>>>>>>>> start");
 
+			logger.info("rate limit remaining  == " + user.getRateLimitStatus().getRemainingHits() + " / " + user.getRateLimitStatus().getHourlyLimit());
+			logger.info(">>>>>>>>>>>>>> start");
+			
 			if (config.getCollectPriority() == CollectorConfig.COLLECT_PRIORITY_FOLLOWER) {
 				if (config.isCollectFollower())
 					this.collectFollowersOfUser(user, 0);
@@ -133,6 +148,7 @@ public class TwitterDataCollector {
 			}			
 		} catch (TwitterException te) {
 			te.printStackTrace();
+			logger.error(te.getMessage(), te);
 		}
 
 		System.out.println(">>>>>>>>>>>>>> result");
@@ -141,6 +157,13 @@ public class TwitterDataCollector {
 		System.out.println("followers == " + numFollowers);
 		System.out.println("vertices == " + vertices.size());
 		System.out.println("edges == " + edges.size());
+		
+		logger.info(">>>>>>>>>>>>>> result");
+		logger.info("rate limit remaining  == " + user.getRateLimitStatus().getRemainingHits());
+		logger.info("friends == " + numFriends);
+		logger.info("followers == " + numFollowers);
+		logger.info("vertices == " + vertices.size());
+		logger.info("edges == " + edges.size());
 	}
 	
     /**
@@ -154,19 +177,76 @@ public class TwitterDataCollector {
 		twitter = twitterSupport.access(myId);
 		
 		System.out.println(">>>>>>>>>>>>>> collect blog entries....");
-		System.out.println("database storage mode == " + config.isDBStorage());
-		
+		System.out.println("database storage mode == " + config.isDBStorage());		
 		System.out.println(">>>>>>>>>>>>>> start");
 		System.out.println("number of users == " + screenNames.size());
+		
+		logger.info(">>>>>>>>>>>>>> collect blog entries....");
+		logger.info("database storage mode == " + config.isDBStorage());		
+		logger.info(">>>>>>>>>>>>>> start");
+		logger.info("number of users == " + screenNames.size());
 		
 		for (int i = 0; i < screenNames.size(); i++) {			
 			try {
 				System.out.println("collect blog entries for [" + (i+1) + "/" + screenNames.size() + " : " + (String)screenNames.get(i) + "]");
+				logger.info("collect blog entries for [" + (i+1) + "/" + screenNames.size() + " : " + (String)screenNames.get(i) + "]");
+				
 				List<Status> statuses = twitter.getUserTimeline((String)screenNames.get(i));
+				
 				System.out.println("number of blog entries == " + statuses.size());
+				logger.info("number of blog entries == " + statuses.size());
+				
 				this.addUserBlogEntries(statuses);
 			} catch (TwitterException te) {
 				te.printStackTrace();
+				logger.error(te.getMessage(), te);
+			}	
+		}			
+	}
+	
+    /**
+     * Collects the blog entries data from twitter.
+     *
+     * @param List the list of twitter user's screenName
+     * @param startPage the start page number
+     * @param endPage the end page number
+     * @exception Exception
+     */
+	public void collectBlogEntriesByPaging(List<String> screenNames, int startPage, int endPage) throws Exception {		
+		TwitterOAuthSupport twitterSupport = new TwitterOAuthSupport();
+		twitter = twitterSupport.access(myId);
+		
+		System.out.println(">>>>>>>>>>>>>> collect blog entries....");
+		System.out.println("database storage mode == " + config.isDBStorage());
+		
+		System.out.println(">>>>>>>>>>>>>> start");
+		System.out.println("number of pages == " + startPage + " ~ " + endPage);
+		System.out.println("number of users == " + screenNames.size());
+
+		logger.info(">>>>>>>>>>>>>> collect blog entries....");
+		logger.info("database storage mode == " + config.isDBStorage());		
+		logger.info(">>>>>>>>>>>>>> start");
+		logger.info("number of pages == " + startPage + " ~ " + endPage);
+		logger.info("number of users == " + screenNames.size());
+		
+		for (int i = 0; i < screenNames.size(); i++) {
+			try {
+				System.out.println("collect blog entries for [" + (i+1) + "/" + screenNames.size() + " : " + (String)screenNames.get(i) + "]");
+				logger.info("collect blog entries for [" + (i+1) + "/" + screenNames.size() + " : " + (String)screenNames.get(i) + "]");
+				
+				List<Status> statuses = new ArrayList<Status>();
+				
+				for (int j = startPage; j <= endPage; j++) {
+					statuses.addAll(twitter.getUserTimeline((String)screenNames.get(i), new Paging(j)));
+				}
+
+				System.out.println("number of blog entries == " + statuses.size());
+				logger.info("number of blog entries == " + statuses.size());
+				
+				this.addUserBlogEntries(statuses);	
+			} catch (TwitterException te) {
+				te.printStackTrace();
+				logger.error(te.getMessage(), te);
 			}	
 		}			
 	}
@@ -308,11 +388,18 @@ public class TwitterDataCollector {
 			Status status = (Status)statuses.get(i);
 			UserBlogEntry userBlogEntry = makeUserBlogEntry(status);
 			
-			// delete already-exist user blog entries
-			userBlogEntryManager.deleteUserBlogEntry(userBlogEntry.getWebsiteId(), userBlogEntry.getUserId(), userBlogEntry.getBlogEntryId());
-			
-			// add user blog entry
-			userBlogEntryManager.addUserBlogEntry(userBlogEntry);
+			try {
+				// delete already-exist user blog entries
+				userBlogEntryManager.deleteUserBlogEntry(userBlogEntry.getWebsiteId(), userBlogEntry.getUserId(), userBlogEntry.getBlogEntryId());
+				
+				// add user blog entry
+				userBlogEntryManager.addUserBlogEntry(userBlogEntry);
+			} catch (Exception ex) {
+				ex.printStackTrace();
+				logger.error(ex.getMessage(), ex);
+				logger.info("id == " + userBlogEntry.getUserId());
+				logger.info("blog_entry_id == " + userBlogEntry.getBlogEntryId());
+			}
 		}		
 	}
 

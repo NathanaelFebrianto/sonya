@@ -4,6 +4,7 @@
  */
 package org.firebird.collector.twitter;
 
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -13,6 +14,7 @@ import org.firebird.io.model.Vertex;
 import org.firebird.io.service.VertexManager;
 import org.firebird.io.service.impl.VertexManagerImpl;
 import org.quartz.Job;
+import org.quartz.JobDataMap;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 
@@ -43,6 +45,18 @@ public class TwitterBlogDataCollectJob implements Job {
      */
 	public void execute(JobExecutionContext context) throws JobExecutionException {
 		try {
+			// get job data map
+			JobDataMap jobDataMap = context.getJobDetail().getJobDataMap();
+	        int startPage = jobDataMap.getIntValue("startPage");
+	        int endPage = jobDataMap.getIntValue("endPage");
+	        int userStartIndex = jobDataMap.getIntValue("userStartIndex");
+	        int userEndIndex = jobDataMap.getIntValue("userEndIndex");
+	        
+	        logger.info("@PARAM[startPage] == " + startPage);
+	        logger.info("@PARAM[endPage] == " + endPage);
+	        logger.info("@PARAM[userStartIndex] == " + userStartIndex);
+	        logger.info("@PARAM[userEndIndex] == " + userEndIndex);
+			
 			// start time
     		Date startTime = new Date();
 			
@@ -67,10 +81,23 @@ public class TwitterBlogDataCollectJob implements Job {
 	    	//condition.setEigenvectorCentrality(0);
 	    	
 	    	List<String> screenNames = vertexManager.getVertexIdsByScoringCondition(condition); 
-	
+	    	List<String> collectList = new ArrayList<String>();
+	    	
+	    	if (userEndIndex > screenNames.size())
+	    		userEndIndex = screenNames.size();
+	    	
+	    	for (int i = userStartIndex; i < userEndIndex; i++) {
+	    		collectList.add(screenNames.get(i));
+	    		logger.info(i + "," + screenNames.get(i));
+	    	}
+	    	
+	    	//collectList.add("danielbru");
+	    	
 			TwitterDataCollector collector = new TwitterDataCollector(config);
-	    	collector.collectBlogEntries(screenNames);
-	    	// end time
+	    	//collector.collectBlogEntries(collectList);
+			collector.collectBlogEntriesByPaging(collectList, startPage, endPage);
+	    	
+			// end time
 			Date endTime = new Date();
 			logger.info("Quartz says: " + jobName + " finished at "	+ endTime);
 			logger.jobSummary("Collecting for tweet data", startTime, endTime);			

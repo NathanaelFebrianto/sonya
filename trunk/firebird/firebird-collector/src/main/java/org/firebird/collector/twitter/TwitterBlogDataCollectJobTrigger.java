@@ -7,6 +7,7 @@ package org.firebird.collector.twitter;
 import java.util.Date;
 
 import org.firebird.collector.util.CollectJobLogger;
+import org.quartz.JobDataMap;
 import org.quartz.JobDetail;
 import org.quartz.Scheduler;
 import org.quartz.SchedulerFactory;
@@ -54,17 +55,103 @@ public class TwitterBlogDataCollectJobTrigger {
 		
         // jobs can be scheduled before sched.start() has been called
         // job7 will repeat 20 times, repeat every 10 minutes(1 second = 1000L)
+        /*
         JobDetail job = new JobDetail("TwitterBlogDataCollectJob", "firebird", TwitterBlogDataCollectJob.class);
         SimpleTrigger trigger = new SimpleTrigger("TwitterBlogDataCollectJobTrigger", "firebird", "TwitterBlogDataCollectJob", "firebird",
-                new Date(ts), null, 20, 3660000L);
+                new Date(ts), null, 1, 3660000L);
         Date ft = sched.scheduleJob(job, trigger);
         logger.info(job.getFullName() +
                 " will run at: " + ft +  
                 " and repeat: " + trigger.getRepeatCount() + 
                 " times, every " + trigger.getRepeatInterval() / 1000 + " seconds");
+		*/
+        
+        int startPage = 61;
+        int endPage = 70;
+        
+        JobDetail job = null;
+        JobDataMap jobDataMap = null;
+        long dt;
+        SimpleTrigger trigger = null;
+        Date ft = null;
+                
+        // job 1        
+        job = new JobDetail("TwitterBlogDataCollectJob1", "firebird", TwitterBlogDataCollectJob.class);
+        jobDataMap = new JobDataMap();
+        jobDataMap.put("startPage", startPage);
+        jobDataMap.put("endPage", endPage);
+        jobDataMap.put("userStartIndex", 0);
+        jobDataMap.put("userEndIndex", 30);
+        job.setJobDataMap(jobDataMap);
+        
+        dt = TriggerUtils.getDateOf(0, 50, 21, 21, 8, 2010).getTime();	//second, minute, hour, dayOfMonth, month, year
 
+        trigger = new SimpleTrigger("TwitterBlogDataCollectJobTrigger1", "firebird", new Date(dt));
+        ft = sched.scheduleJob(job, trigger);
+        logger.info(job.getFullName() +
+                " will run at: " + ft +  
+                " and repeat: " + trigger.getRepeatCount() + 
+                " times, every " + trigger.getRepeatInterval() / 1000 + " seconds");
+        
+        // job 2
+        job = new JobDetail("TwitterBlogDataCollectJob2", "firebird", TwitterBlogDataCollectJob.class);
+        jobDataMap = new JobDataMap();
+        jobDataMap.put("startPage", startPage);
+        jobDataMap.put("endPage", endPage);
+        jobDataMap.put("userStartIndex", 30);
+        jobDataMap.put("userEndIndex", 60);
+        job.setJobDataMap(jobDataMap);
+        
+        dt = TriggerUtils.getDateOf(0, 0, 23, 21, 8, 2010).getTime();	//second, minute, hour, dayOfMonth, month, year
+        
+        trigger = new SimpleTrigger("TwitterBlogDataCollectJobTrigger2", "firebird", new Date(dt));
+        ft = sched.scheduleJob(job, trigger);
+        logger.info(job.getFullName() +
+                " will run at: " + ft +  
+                " and repeat: " + trigger.getRepeatCount() + 
+                " times, every " + trigger.getRepeatInterval() / 1000 + " seconds");
+        
+        
+        // job 3
+        job = new JobDetail("TwitterBlogDataCollectJob3", "firebird", TwitterBlogDataCollectJob.class);
+        jobDataMap = new JobDataMap();
+        jobDataMap.put("startPage", startPage);
+        jobDataMap.put("endPage", endPage);
+        jobDataMap.put("userStartIndex", 60);
+        jobDataMap.put("userEndIndex", 90);
+        job.setJobDataMap(jobDataMap);
+        
+        dt = TriggerUtils.getDateOf(0, 10, 0, 22, 8, 2010).getTime();	//second, minute, hour, dayOfMonth, month, year
+        
+        trigger = new SimpleTrigger("TwitterBlogDataCollectJobTrigger3", "firebird", new Date(dt));
+        ft = sched.scheduleJob(job, trigger);
+        logger.info(job.getFullName() +
+                " will run at: " + ft +  
+                " and repeat: " + trigger.getRepeatCount() + 
+                " times, every " + trigger.getRepeatInterval() / 1000 + " seconds");
+        
+        
+        // job 4
+        job = new JobDetail("TwitterBlogDataCollectJob4", "firebird", TwitterBlogDataCollectJob.class);
+        jobDataMap = new JobDataMap();
+        jobDataMap.put("startPage", startPage);
+        jobDataMap.put("endPage", endPage);
+        jobDataMap.put("userStartIndex", 90);
+        jobDataMap.put("userEndIndex", 120);
+        job.setJobDataMap(jobDataMap);
+        
+        dt = TriggerUtils.getDateOf(0, 20, 1, 22, 8, 2010).getTime();	//second, minute, hour, dayOfMonth, month, year
+        
+        trigger = new SimpleTrigger("TwitterBlogDataCollectJobTrigger4", "firebird", new Date(dt));
+        ft = sched.scheduleJob(job, trigger);
+        logger.info(job.getFullName() +
+                " will run at: " + ft +  
+                " and repeat: " + trigger.getRepeatCount() + 
+                " times, every " + trigger.getRepeatInterval() / 1000 + " seconds");
+        
         logger.info("------- Starting Scheduler ----------------");
-
+        
+        
         // All of the jobs have been added to the scheduler, but none of the
         // jobs
         // will run until the scheduler has been started
