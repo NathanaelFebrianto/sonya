@@ -109,7 +109,7 @@ public class TopicAnalysisJob {
 					 null,				// power
 					 Long.MAX_VALUE,	// max
 					 null,				// outputWriter
-					 5,					// minDF
+					 30,				// minDF
 					 70);				// maxDFPercent
 	}
 	
@@ -126,7 +126,7 @@ public class TopicAnalysisJob {
 					ldaDir, 			// output
 					true, 				// overwrite
 					numTopics, 			// numTopics
-					1000, 				// numWords
+					2000, 				// numWords
 					topicSmoothing, 	// topicSmoothing
 					maxIter, 			// maxIter
 					numReducers);		// numReducers
@@ -267,7 +267,7 @@ public class TopicAnalysisJob {
     		// 4. run LDA analyzer
     		int numTopics = 10;
     		int topicSmoothing = -1;
-    		int maxIter = 20;	//maxIter = 40
+    		int maxIter = 40;	//maxIter = 40
     		int numReducers = 2;
     		job.runLDAAnalyzer(numTopics, topicSmoothing, maxIter, numReducers);
    		
