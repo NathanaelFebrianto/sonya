@@ -86,6 +86,7 @@ public class VertexTable extends DefaultTable {
 				UIHandler.getText("col.vertex.eigenvectorCentrality"),
 				UIHandler.getText("col.vertex.edgeBetweennessCluster"),
 				UIHandler.getText("col.vertex.voltageCluster"),
+				UIHandler.getText("col.vertex.cnmCluster"),
 				UIHandler.getText("col.vertex.friendsCount"),
 				UIHandler.getText("col.vertex.followersCount"),
 				//UIHandler.getText("col.vertex.userNo"),
@@ -118,10 +119,11 @@ public class VertexTable extends DefaultTable {
 		setNumberCellRenderer(11, "###,###");
 		setNumberCellRenderer(12, "######");
 		setNumberCellRenderer(13, "######");
-		setNumberCellRenderer(14, "###,###");
+		setNumberCellRenderer(14, "######");
 		setNumberCellRenderer(15, "###,###");
-		setNumberCellRenderer(17, "###,###");
-		setDateCellRenderer(19, "yyyy-MM-dd");
+		setNumberCellRenderer(16, "###,###");
+		setNumberCellRenderer(18, "###,###");
+		setDateCellRenderer(20, "yyyy-MM-dd");
 	}
 
 	/**
@@ -152,6 +154,7 @@ public class VertexTable extends DefaultTable {
 	        rowData.add(convertScale(vertex.getEigenvectorCentrality(), 0));
 	        rowData.add(vertex.getEdgeBetweennessCluster());
 	        rowData.add(vertex.getVoltageCluster());
+	        rowData.add(vertex.getCnmCluster());
 	        rowData.add(vertex.getFriendsCount());
 	        rowData.add(vertex.getFollowersCount());
 	        //rowData.add(vertex.getUserNo());
