@@ -80,6 +80,7 @@ public class ClusteringToolPanel extends JPanel {
 		comboClusterType = new JComboBox();
 		comboClusterType.addItem(new ObjectModel("EdgeBetweenness", Clusterer.EDGE_BETWEENNESS_CLUSTER));
 		comboClusterType.addItem(new ObjectModel("Voltage", Clusterer.VOLTAGE_CLUSTER));
+		comboClusterType.addItem(new ObjectModel("CNM", Clusterer.CNM_CLUSTER));
 	}
 	
 	private void setupUI() {

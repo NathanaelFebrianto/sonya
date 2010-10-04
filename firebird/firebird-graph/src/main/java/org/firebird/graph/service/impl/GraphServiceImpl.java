@@ -132,6 +132,9 @@ public class GraphServiceImpl implements GraphService {
 		else if (clusterType.equals(Clusterer.VOLTAGE_CLUSTER)) {
 			return vertexManager.getVoltageClusterSet(websiteId);
 		}
+		else if (clusterType.equals(Clusterer.CNM_CLUSTER)) {
+			return vertexManager.getCnmClusterSet(websiteId);
+		}
 		
 		return null;		
 	}
@@ -149,6 +152,9 @@ public class GraphServiceImpl implements GraphService {
 		}
 		else if (clusterType.equals(Clusterer.VOLTAGE_CLUSTER)) {
 			return vertexManager.getVoltageClusterMap(websiteId);
+		}
+		else if (clusterType.equals(Clusterer.CNM_CLUSTER)) {
+			return vertexManager.getCnmClusterMap(websiteId);
 		}
 		
 		return null;
