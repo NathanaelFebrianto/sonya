@@ -11,5 +11,6 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/dev/tools/Java/jdk1.6.0_22/lib/tools.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
