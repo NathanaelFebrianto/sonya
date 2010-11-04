@@ -15,6 +15,7 @@
 		<s:textfield label="What is the date?" name="dateNow" />
 		<s:submit />
 	</s:form>
+
 </body>
 </html>
 	
