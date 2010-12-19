@@ -4,11 +4,13 @@
  */
 package com.beeblz.facebook;
 
+import java.util.HashMap;
 import java.util.List;
 
 import com.beeblz.graph.GraphData;
 import com.restfb.Connection;
 import com.restfb.DefaultFacebookClient;
+import com.restfb.Facebook;
 import com.restfb.FacebookClient;
 import com.restfb.FacebookException;
 import com.restfb.Parameter;
@@ -46,7 +48,8 @@ public class FacebookDataCollector {
 			
 			long source = Long.valueOf(me.getId()).longValue();
 			graph.addNode(source, me.getName(), me.getPicture());			
-
+			
+			// get my friends
 			Connection<User> myFriends = facebookClient.fetchConnection("me/friends", User.class, parameters);
 			System.out.println("Count of my friends: " + myFriends.getData().size());
 
@@ -59,6 +62,21 @@ public class FacebookDataCollector {
 				graph.addNode(target, friend.getName(), friend.getPicture());
 				graph.addEdge(source, target, 0.5);				
 			}
+			
+			// get mutual friends
+			List<MutualFriend> mutualFriends = this.getMutualFriends(me.getId());
+			
+			if (mutualFriends != null) {
+		    	for (int i = 0; i < mutualFriends.size(); i++) {
+		    		MutualFriend mutualFriend = (MutualFriend)mutualFriends.get(i);
+		    		System.out.println("result: " + mutualFriend.toString());
+		    		
+		    		long uid1 = Long.valueOf(mutualFriend.uid1).longValue();
+		    		long uid2 = Long.valueOf(mutualFriend.uid2).longValue();
+		    		
+		    		graph.addEdge(uid1, uid2, 0.5);
+		    	}							
+			}
 		} catch (Exception ex) {
 			ex.printStackTrace();
 		}
@@ -69,12 +87,26 @@ public class FacebookDataCollector {
 	/**
 	 * Check if two friends are mutual friends.
 	 * 
-	 * @param uid1
-	 * @param uid2
+	 * @param uid
 	 * @return
 	 */
-	public boolean isMutualFriends(String uid1, String uid2) {
-		return false;
+	public List<MutualFriend> getMutualFriends(String uid) {		
+		try {
+			String query = "SELECT uid1, uid2 FROM friend " +
+						   "WHERE uid1 IN " +
+						   "(SELECT uid2 FROM friend WHERE uid1=" + uid + ") " + 
+						   "AND uid2 IN " + 
+						   "(SELECT uid2 FROM friend WHERE uid1=" + uid + ")";
+			
+			List<MutualFriend> result = facebookClient.executeQuery(query, MutualFriend.class);
+			System.out.println("Result Count: " + result.size());
+			
+			return result;
+		
+		} catch (FacebookException fe) {
+			fe.printStackTrace();
+		}
+		return null;
 	}
 
 	/**
@@ -83,29 +115,23 @@ public class FacebookDataCollector {
 	 * @param uid
 	 */
 	public void rankFriends(String uid) {
-		try {
-			String query1 = "SELECT uid2 FROM friend WHERE uid1 IN (SELECT uid2 FROM friend WHERE uid1= 1480697938)";
-			String query2 = "SELECT uid,status_id,message FROM status WHERE uid IN (SELECT uid2 FROM friend WHERE uid1= 1480697938)";
-			String query3 = "SELECT message FROM status WHERE uid = 100001480811442";
-			List<String> result = facebookClient.executeQuery(query2, String.class);
-			System.out.println("Result Count: " + result.size());
-
-	    	for (int i = 0; i < result.size(); i++) {
-	    		String someting = (String) result.get(i);
-	    		System.out.println("result: " + someting);
-	    	}
-			
-		} catch (FacebookException fe) {
-			fe.printStackTrace();
-		}
-
-		// SELECT uid,status_id,message FROM status
-		// WHERE uid IN (SELECT uid2 FROM friend WHERE uid1= uid) AND time >
-		// {time in the last week}.
+		
 	}
 
 	public static void main(String[] args) {
-		FacebookDataCollector collector = new FacebookDataCollector();
-		collector.rankFriends("");
+		FacebookDataCollector collector = new FacebookDataCollector();		
+		collector.getMyFriends();
 	}
+	
+	public static class MutualFriend {  
+		@Facebook
+		String uid1;  
+		@Facebook
+		String uid2; 		
+		
+		@Override
+		public String toString() {    
+			return String.format("%s - %s", uid1, uid2);   
+		}
+	};
 }

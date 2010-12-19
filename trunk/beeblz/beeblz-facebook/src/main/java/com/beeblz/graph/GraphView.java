@@ -4,6 +4,7 @@
  */
 package com.beeblz.graph;
 
+import java.awt.Color;
 import java.awt.Cursor;
 import java.awt.event.MouseEvent;
 import java.awt.geom.Point2D;
@@ -20,19 +21,31 @@ import prefuse.action.ActionList;
 import prefuse.action.RepaintAction;
 import prefuse.action.assignment.ColorAction;
 import prefuse.action.assignment.DataColorAction;
+import prefuse.action.filter.GraphDistanceFilter;
 import prefuse.action.layout.Layout;
 import prefuse.action.layout.graph.ForceDirectedLayout;
 import prefuse.activity.Activity;
 import prefuse.controls.ControlAdapter;
+import prefuse.controls.DragControl;
+import prefuse.controls.FocusControl;
+import prefuse.controls.NeighborHighlightControl;
 import prefuse.controls.PanControl;
+import prefuse.controls.WheelZoomControl;
 import prefuse.controls.ZoomControl;
+import prefuse.controls.ZoomToFitControl;
 import prefuse.data.Graph;
+import prefuse.data.Tuple;
+import prefuse.data.event.TupleSetListener;
+import prefuse.data.tuple.TupleSet;
 import prefuse.render.DefaultRendererFactory;
 import prefuse.render.LabelRenderer;
 import prefuse.render.PolygonRenderer;
 import prefuse.render.Renderer;
 import prefuse.util.ColorLib;
 import prefuse.util.GraphicsLib;
+import prefuse.util.force.ForceSimulator;
+import prefuse.util.force.NBodyForce;
+import prefuse.util.force.SpringForce;
 import prefuse.visual.AggregateItem;
 import prefuse.visual.AggregateTable;
 import prefuse.visual.VisualGraph;
@@ -41,21 +54,21 @@ import prefuse.visual.VisualItem;
 import com.beeblz.facebook.FacebookDataCollector;
 
 /**
- * Aggregate graph viwer for social network.
+ * Graph view for social network.
  * 
  * @author YoungGue Bae
  */
-public class AggregateGraphViewer extends Display {
+public class GraphView extends Display {
 	
     public static final String GRAPH = "graph";
     public static final String NODES = "graph.nodes";
     public static final String EDGES = "graph.edges";
     public static final String AGGR = "aggregates";
     
-    public AggregateGraphViewer() {
+    public GraphView() {
         // initialize display and data
         super(new Visualization());
-        initDataGroups();
+        Graph graph = initDataGroups();
         
         // set up the renderers        
         // draw the nodes as basic shapes
@@ -63,9 +76,6 @@ public class AggregateGraphViewer extends Display {
         LabelRenderer nodeR = new LabelRenderer("label", "image");        
         nodeR.setRoundedCorner(10, 10);        
         nodeR.setImagePosition(Constants.TOP); 
-
-        //nodeR.setHorizontalTextAlignment(Constants.CENTER); 
-        //nodeR.setVerticalTextAlignment(Constants.BOTTOM); 
         
         // draw aggregates as polygons with curved edges
         Renderer polyR = new PolygonRenderer(Constants.POLY_TYPE_CURVE);
@@ -74,24 +84,38 @@ public class AggregateGraphViewer extends Display {
         DefaultRendererFactory drf = new DefaultRendererFactory();
         drf.setDefaultRenderer(nodeR);
         drf.add("ingroup('aggregates')", polyR);
-        m_vis.setRendererFactory(drf);
+        m_vis.setRendererFactory(drf);      
+        
+        // fix selected focus nodes
+        TupleSet focusGroup = m_vis.getGroup(Visualization.FOCUS_ITEMS); 
+        focusGroup.addTupleSetListener(new TupleSetListener() {
+            public void tupleSetChanged(TupleSet ts, Tuple[] add, Tuple[] rem)
+            {
+                for ( int i=0; i<rem.length; ++i )
+                    ((VisualItem)rem[i]).setFixed(false);
+                for ( int i=0; i<add.length; ++i ) {
+                    ((VisualItem)add[i]).setFixed(false);
+                    ((VisualItem)add[i]).setFixed(true);
+                }
+                if ( ts.getTupleCount() == 0 ) {
+                    ts.addTuple(rem[0]);
+                    ((VisualItem)rem[0]).setFixed(false);
+                }
+                m_vis.run("draw");
+            }
+        });
         
         // set up the visual operators
-        // first set up all the color actions
-        ColorAction nStroke = new ColorAction(NODES, VisualItem.STROKECOLOR);
-        nStroke.setDefaultColor(ColorLib.gray(100));
-        nStroke.add("_hover", ColorLib.gray(50));
+        // first set up all the color actions           
+        ColorAction nNodeStroke = new ColorAction(NODES, VisualItem.STROKECOLOR, 0);        
         
-        ColorAction nFill = new ColorAction(NODES, VisualItem.FILLCOLOR);
-        nFill.setDefaultColor(ColorLib.gray(255));
-        nFill.add("_hover", ColorLib.gray(200));
+        ColorAction nNodeFill = new ColorAction(NODES, VisualItem.FILLCOLOR, ColorLib.rgb(200,200,255));
+        nNodeFill.add(VisualItem.FIXED, ColorLib.rgb(255,100,100));
+        nNodeFill.add(VisualItem.HIGHLIGHT, ColorLib.rgb(255,200,125));
         
-        // louie add
-        ColorAction nLabel = new ColorAction(NODES, VisualItem.TEXTCOLOR);
-        nLabel.setDefaultColor(ColorLib.rgb(0,0,0));
-        
-        ColorAction nEdges = new ColorAction(EDGES, VisualItem.STROKECOLOR);
-        nEdges.setDefaultColor(ColorLib.gray(100));
+        ColorAction nNodeText = new ColorAction(NODES, VisualItem.TEXTCOLOR, ColorLib.rgb(0,0,0));
+        ColorAction nEdgeFill = new ColorAction(EDGES, VisualItem.FILLCOLOR, ColorLib.gray(200));
+        ColorAction nEdgeStroke = new ColorAction(EDGES, VisualItem.STROKECOLOR, ColorLib.gray(100));
         
         ColorAction aStroke = new ColorAction(AGGR, VisualItem.STROKECOLOR);
         aStroke.setDefaultColor(ColorLib.gray(200));
@@ -106,37 +130,75 @@ public class AggregateGraphViewer extends Display {
                 Constants.NOMINAL, VisualItem.FILLCOLOR, palette);
         
         // bundle the color actions
-        ActionList colors = new ActionList();
-        colors.add(nStroke);
-        colors.add(nFill);
-        colors.add(nLabel);
-        colors.add(nEdges);
-        colors.add(aStroke);
-        colors.add(aFill);
-        
-        
+        ActionList draw = new ActionList();
+        draw.add(nNodeStroke);
+        draw.add(nNodeFill);
+        draw.add(nNodeText);
+        draw.add(nEdgeFill);
+        draw.add(nEdgeStroke);
+        draw.add(aStroke);
+        draw.add(aFill);        
         
         // now create the main layout routine
         ActionList layout = new ActionList(Activity.INFINITY);
-        layout.add(colors);
-        layout.add(new ForceDirectedLayout(GRAPH, true));
+        ForceDirectedLayout fdl = new ForceDirectedLayout(GRAPH);
+        layout.add(fdl);
+        layout.add(draw);        
         layout.add(new AggregateLayout(AGGR));
-        layout.add(new RepaintAction());
-        m_vis.putAction("layout", layout);
+        layout.add(new RepaintAction());        
         
+        // finally, we register our ActionList with the Visualization.
+        // we can later execute our Actions by invoking a method on our
+        // Visualization, using the name we've chosen below.
+        m_vis.putAction("draw", draw);             
+        m_vis.putAction("layout", layout);
+        m_vis.runAfter("draw", "layout");   
+        
+        // create a panel for editing force values
+        ForceSimulator fsim = fdl.getForceSimulator();
+        fsim.addForce(new SpringForce(9.99E-6f, 200.0f));
+        fsim.addForce(new NBodyForce(-10.0f, -1.0f, 0.899f));
+      
         // set up the display
-        setSize(500,500);
-        pan(250, 250);
+        setSize(700, 700);
+        pan(350, 350);
         setHighQuality(true);
+        setForeground(Color.GRAY);
+        setBackground(Color.WHITE);
         addControlListener(new AggregateDragControl());
         addControlListener(new ZoomControl());
-        addControlListener(new PanControl());
+        addControlListener(new PanControl());        
+        addControlListener(new FocusControl(1));
+        addControlListener(new DragControl());
+        addControlListener(new WheelZoomControl());
+        addControlListener(new ZoomToFitControl());
+        addControlListener(new NeighborHighlightControl());
         
         // set things running
         m_vis.run("layout");
     }
     
-    private void initDataGroups() {
+    /**
+     * Sets the graph.
+     * 
+     * @param g the graph
+     * @param label the label
+     */
+    public void setGraph(Graph g, String label) {
+        // update labeling
+        DefaultRendererFactory drf = (DefaultRendererFactory)m_vis.getRendererFactory();
+        ((LabelRenderer)drf.getDefaultRenderer()).setTextField(label);
+        
+        // update graph
+        m_vis.removeGroup(GRAPH);
+        VisualGraph vg = m_vis.addGraph(GRAPH, g);
+        m_vis.setValue(EDGES, null, VisualItem.INTERACTIVE, Boolean.FALSE);
+        VisualItem f = (VisualItem)vg.getNode(0);
+        m_vis.getGroup(Visualization.FOCUS_ITEMS).setTuple(f);
+        f.setFixed(false);
+    }
+    
+    private Graph initDataGroups() {
         // create graph
         FacebookDataCollector fdc = new FacebookDataCollector();
         GraphData graphData = fdc.getMyFriends();
@@ -145,9 +207,10 @@ public class AggregateGraphViewer extends Display {
         
         // add visual data groups
         VisualGraph vg = m_vis.addGraph(GRAPH, g);
-        m_vis.setInteractive(EDGES, null, false);
-        m_vis.setValue(NODES, null, VisualItem.SHAPE,
-                new Integer(Constants.SHAPE_ELLIPSE));
+        m_vis.setValue(EDGES, null, VisualItem.INTERACTIVE, false);
+        VisualItem f = (VisualItem)vg.getNode(0);
+        m_vis.getGroup(Visualization.FOCUS_ITEMS).setTuple(f);
+        f.setFixed(false);
         
         AggregateTable at = m_vis.addAggregates(AGGR);
         at.addColumn(VisualItem.POLYGON, float[].class);
@@ -163,6 +226,9 @@ public class AggregateGraphViewer extends Display {
                 aitem.addItem((VisualItem)nodes.next());
             }
         }
+
+        
+        return g;
     }
     
     public static void main(String[] argv) {
@@ -172,7 +238,7 @@ public class AggregateGraphViewer extends Display {
     }
     
     public static JFrame demo() {
-    	AggregateGraphViewer ad = new AggregateGraphViewer();
+    	GraphView ad = new GraphView();
         JFrame frame = new JFrame("b e e b l z  |  g r a p h");
         frame.getContentPane().add(ad);
         frame.pack();
