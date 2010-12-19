@@ -73,7 +73,7 @@ import prefuse.visual.VisualItem;
 /**
  * @author <a href="http://jheer.org">jeffrey heer</a>
  */
-public class GraphView extends JPanel {
+public class GraphViewDemo extends JPanel {
 
     private static final String graph = "graph";
     private static final String nodes = "graph.nodes";
@@ -81,7 +81,7 @@ public class GraphView extends JPanel {
 
     private Visualization m_vis;
     
-    public GraphView(Graph g, String label) {
+    public GraphViewDemo(Graph g, String label) {
     	super(new BorderLayout());
     	
         // create a new, empty visualization for our data
@@ -278,7 +278,7 @@ public class GraphView extends JPanel {
     }
     
     public static JFrame demo(Graph g, String label) {
-        final GraphView view = new GraphView(g, label);
+        final GraphViewDemo view = new GraphViewDemo(g, label);
         
         // set up menu
         JMenu dataMenu = new JMenu("Data");
@@ -337,8 +337,8 @@ public class GraphView extends JPanel {
      * Swing menu action that loads a graph into the graph viewer.
      */
     public abstract static class GraphMenuAction extends AbstractAction {
-        private GraphView m_view;
-        public GraphMenuAction(String name, String accel, GraphView view) {
+        private GraphViewDemo m_view;
+        public GraphMenuAction(String name, String accel, GraphViewDemo view) {
             m_view = view;
             this.putValue(AbstractAction.NAME, name);
             this.putValue(AbstractAction.ACCELERATOR_KEY,
@@ -351,9 +351,9 @@ public class GraphView extends JPanel {
     }
     
     public static class OpenGraphAction extends AbstractAction {
-        private GraphView m_view;
+        private GraphViewDemo m_view;
 
-        public OpenGraphAction(GraphView view) {
+        public OpenGraphAction(GraphViewDemo view) {
             m_view = view;
             this.putValue(AbstractAction.NAME, "Open File...");
             this.putValue(AbstractAction.ACCELERATOR_KEY,
