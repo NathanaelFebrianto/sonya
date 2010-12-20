@@ -5,11 +5,11 @@
 package com.beeblz.graph;
 
 import java.util.Iterator;
-import java.util.List;
 import java.util.Set;
 
 import prefuse.data.Graph;
 import prefuse.data.Table;
+import prefuse.visual.VisualGraph;
 import prefuse.visual.VisualItem;
 import edu.uci.ics.jung.algorithms.cluster.EdgeBetweennessClusterer;
 import edu.uci.ics.jung.graph.UndirectedSparseGraph;
@@ -103,27 +103,29 @@ public class GraphData {
     /**
      * Converts the prefuse graph data into the jung graph data.
      * 
-     * @param g the prefuse graph data
+     * @param vg the prefuse visual graph
      * @return graph the jung graph data
      */
-    public edu.uci.ics.jung.graph.Graph<Long,Long> convertJungGraph(prefuse.data.Graph g) {
+    public edu.uci.ics.jung.graph.Graph<String,String> convertJungGraph(VisualGraph vg) {
     	
-    	edu.uci.ics.jung.graph.Graph<Long,Long> graph = new UndirectedSparseGraph<Long,Long>();
+    	edu.uci.ics.jung.graph.Graph<String,String> graph = new UndirectedSparseGraph<String,String>();
 		
-    	if (g != null) {
-			Iterator<?> nodeIter = g.nodes();
+    	if (vg != null) {
+			Iterator<?> nodeIter = vg.nodes();
 			while (nodeIter.hasNext()) {
 				VisualItem node = (VisualItem)nodeIter.next();
-				Long nodeId = node.getLong("id");
+				String nodeId = node.getString("id");
+				System.out.println("node id == " + nodeId);
 				graph.addVertex(nodeId);
 			}
 			
-			Iterator<?> edgeIter = g.edges();
+			Iterator<?> edgeIter = vg.edges();
 			while (edgeIter.hasNext()) {
 				VisualItem edge = (VisualItem)edgeIter.next();
-				Long node1 = edge.getLong("node1");
-				Long node2 = edge.getLong("node1");
-				Long edgeId = Long.valueOf(node1.toString() + node2.toString());
+				String node1 = edge.getString("node1");
+				String node2 = edge.getString("node2");
+				String edgeId = node1 + node2;
+				System.out.println("edge id == " + edgeId);
 				graph.addEdge(edgeId, node1, node2, EdgeType.UNDIRECTED);
 			}
 		}    	
@@ -133,17 +135,39 @@ public class GraphData {
     /**
      * Clusters the graph by edge betweenness clusterer.
      * 
-     * @param g the prefuse graph data
+     * @param vg the prefuse visual graph
+     * @param numEdgesToRemove
      * @return Set<Set<Long>> the clustered node set
      */
-    public Set<Set<Long>> clusterGraph(prefuse.data.Graph g) {
-    	edu.uci.ics.jung.graph.Graph<Long,Long> graph = convertJungGraph(g);
+    public Set<Set<String>> clusterGraph(VisualGraph vg, int numEdgesToRemove) {
+    	edu.uci.ics.jung.graph.Graph<String,String> graph = convertJungGraph(vg);
+    	System.out.println("graph == " + graph);
     	
-    	EdgeBetweennessClusterer<Long,Long> clusterer = new EdgeBetweennessClusterer<Long,Long>(10);
-		Set<Set<Long>> clusterSet = clusterer.transform(graph);
-		List<Long> edges = clusterer.getEdgesRemoved();
+    	EdgeBetweennessClusterer<String,String> clusterer = new EdgeBetweennessClusterer<String,String>(5);
+		Set<Set<String>> clusterSet = clusterer.transform(graph);
+		//List<String> edges = clusterer.getEdgesRemoved();
 		
     	return clusterSet;    	
     }
-    	
+
+	/**
+	 * Finds a node by node id.
+	 * 
+	 * @param vg
+	 * @param nodeId
+	 * @return VisualItem the node
+	 */
+    public VisualItem findNode(VisualGraph vg, String nodeId) {
+		if (vg != null) {
+			Iterator<?> nodeIter = vg.nodes();
+			while (nodeIter.hasNext()) {
+				VisualItem node = (VisualItem)nodeIter.next();
+				if (node.getString("id").equals(nodeId)) {
+					return node;
+				}
+			}
+		}
+		return null;
+	}
+    
 }

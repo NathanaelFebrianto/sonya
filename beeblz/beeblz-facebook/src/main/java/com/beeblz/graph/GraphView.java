@@ -10,6 +10,7 @@ import java.awt.event.MouseEvent;
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
 import java.util.Iterator;
+import java.util.Set;
 
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
@@ -125,8 +126,19 @@ public class GraphView extends Display {
         int[] palette = new int[] {
             ColorLib.rgba(255,200,200,150),
             ColorLib.rgba(200,255,200,150),
-            ColorLib.rgba(200,200,255,150)
+            ColorLib.rgba(200,200,255,150),
+            ColorLib.rgba(216,134,134,150),
+            ColorLib.rgba(135,137,211,150),
+            ColorLib.rgba(134,206,189,150),
+            ColorLib.rgba(206,176,134,150),
+            ColorLib.rgba(194,204,134,150),
+            ColorLib.rgba(145,214,134,150),
+            ColorLib.rgba(133,178,209,150),
+            ColorLib.rgba(103,148,255,150),
+            ColorLib.rgba(60,220,220,150),
+            ColorLib.rgba(30,250,100,150)
         };
+              
         ColorAction aFill = new DataColorAction(AGGR, "id",
                 Constants.NOMINAL, VisualItem.FILLCOLOR, palette);
         
@@ -271,17 +283,23 @@ public class GraphView extends Display {
         at.addColumn("id", int.class);
         
         // add nodes to aggregates
-        // create an aggregate for each 3-clique of nodes
-        Iterator nodes = vg.nodes();
-        for ( int i=0; i<3; ++i ) {
-            AggregateItem aitem = (AggregateItem)at.addItem();
-            aitem.setInt("id", i);
-            for ( int j=0; j<3; ++j ) {
-                aitem.addItem((VisualItem)nodes.next());
-            }
-        }
-
+        // create an aggregate for each n-clique of nodes
+        Set<Set<String>> clusterSet = graphData.clusterGraph(vg, 20);
         
+        System.out.println("Cluster size == " + clusterSet.size());
+        
+		int i = 0;
+		//Set the colors of each node so that each cluster's vertices have the same color
+		for (Iterator<Set<String>> cIt = clusterSet.iterator(); cIt.hasNext();) {
+			Set<String> nodes = cIt.next();
+			AggregateItem aitem = (AggregateItem)at.addItem();
+            aitem.setInt("id", i);
+            for (Iterator<String> it = nodes.iterator(); it.hasNext();) {
+            	String nodeId = (String)it.next();
+                aitem.addItem(graphData.findNode(vg, nodeId));
+            }
+			i++;
+		}
         return g;
     }
     
