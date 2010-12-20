@@ -21,7 +21,6 @@ import prefuse.action.ActionList;
 import prefuse.action.RepaintAction;
 import prefuse.action.assignment.ColorAction;
 import prefuse.action.assignment.DataColorAction;
-import prefuse.action.filter.GraphDistanceFilter;
 import prefuse.action.layout.Layout;
 import prefuse.action.layout.graph.ForceDirectedLayout;
 import prefuse.activity.Activity;
@@ -43,6 +42,7 @@ import prefuse.render.PolygonRenderer;
 import prefuse.render.Renderer;
 import prefuse.util.ColorLib;
 import prefuse.util.GraphicsLib;
+import prefuse.util.force.DragForce;
 import prefuse.util.force.ForceSimulator;
 import prefuse.util.force.NBodyForce;
 import prefuse.util.force.SpringForce;
@@ -89,8 +89,7 @@ public class GraphView extends Display {
         // fix selected focus nodes
         TupleSet focusGroup = m_vis.getGroup(Visualization.FOCUS_ITEMS); 
         focusGroup.addTupleSetListener(new TupleSetListener() {
-            public void tupleSetChanged(TupleSet ts, Tuple[] add, Tuple[] rem)
-            {
+            public void tupleSetChanged(TupleSet ts, Tuple[] add, Tuple[] rem) {
                 for ( int i=0; i<rem.length; ++i )
                     ((VisualItem)rem[i]).setFixed(false);
                 for ( int i=0; i<add.length; ++i ) {
@@ -114,8 +113,10 @@ public class GraphView extends Display {
         nNodeFill.add(VisualItem.HIGHLIGHT, ColorLib.rgb(255,200,125));
         
         ColorAction nNodeText = new ColorAction(NODES, VisualItem.TEXTCOLOR, ColorLib.rgb(0,0,0));
-        ColorAction nEdgeFill = new ColorAction(EDGES, VisualItem.FILLCOLOR, ColorLib.gray(200));
-        ColorAction nEdgeStroke = new ColorAction(EDGES, VisualItem.STROKECOLOR, ColorLib.gray(100));
+        
+        ColorAction nEdgeFill = new ColorAction(EDGES, VisualItem.FILLCOLOR, ColorLib.gray(200)); 
+        
+        ColorAction nEdgeStroke = new ColorAction(EDGES, VisualItem.STROKECOLOR, ColorLib.gray(200));
         
         ColorAction aStroke = new ColorAction(AGGR, VisualItem.STROKECOLOR);
         aStroke.setDefaultColor(ColorLib.gray(200));
@@ -139,26 +140,26 @@ public class GraphView extends Display {
         draw.add(aStroke);
         draw.add(aFill);        
         
+        ForceSimulator forceSimulator = new ForceSimulator();
+		forceSimulator.addForce(new NBodyForce(-1.0f, -1.0f, 0.899f));
+		forceSimulator.addForce(new DragForce(0.009f));
+		forceSimulator.addForce(new SpringForce(9.99E-6f, 200.0f));
+        
         // now create the main layout routine
-        ActionList layout = new ActionList(Activity.INFINITY);
-        ForceDirectedLayout fdl = new ForceDirectedLayout(GRAPH);
-        layout.add(fdl);
-        layout.add(draw);        
-        layout.add(new AggregateLayout(AGGR));
-        layout.add(new RepaintAction());        
+        ActionList animate = new ActionList(Activity.INFINITY);
+        ForceDirectedLayout layout = new ForceDirectedLayout(GRAPH, forceSimulator, true); 
+        animate.add(layout);
+        animate.add(draw);        
+        animate.add(new AggregateLayout(AGGR));
+        animate.add(new RepaintAction());
         
         // finally, we register our ActionList with the Visualization.
         // we can later execute our Actions by invoking a method on our
         // Visualization, using the name we've chosen below.
         m_vis.putAction("draw", draw);             
-        m_vis.putAction("layout", layout);
-        m_vis.runAfter("draw", "layout");   
-        
-        // create a panel for editing force values
-        ForceSimulator fsim = fdl.getForceSimulator();
-        fsim.addForce(new SpringForce(9.99E-6f, 200.0f));
-        fsim.addForce(new NBodyForce(-10.0f, -1.0f, 0.899f));
-      
+        m_vis.putAction("layout", animate);
+        m_vis.runAfter("draw", "layout");        
+     
         // set up the display
         setSize(700, 700);
         pan(350, 350);
@@ -173,6 +174,59 @@ public class GraphView extends Display {
         addControlListener(new WheelZoomControl());
         addControlListener(new ZoomToFitControl());
         addControlListener(new NeighborHighlightControl());
+        
+		addControlListener(new ControlAdapter() {
+
+			public void itemEntered(VisualItem item, MouseEvent e) {
+				System.out.println("itemEntered....................");
+				if (item.isInGroup(NODES)) {
+					item.setFillColor(ColorLib.rgb(255,200,125));
+					item.setStrokeColor(ColorLib.rgb(255,200,125));
+					item.getVisualization().repaint();
+				}
+			}
+
+			public void itemExited(VisualItem item, MouseEvent e) {
+				System.out.println("itemExited....................");
+				if (item.isInGroup(NODES)) {
+					if (item.isInGroup(Visualization.FOCUS_ITEMS)) {
+						item.setFillColor(ColorLib.rgb(255,200,125));
+						item.setStrokeColor(ColorLib.rgb(255,200,125));
+					} else {
+
+					}
+					item.getVisualization().repaint();
+				}
+			}
+			
+			public void itemClicked(VisualItem item, MouseEvent e) {
+				System.out.println("itemClicked....................");
+				
+				if (e.getClickCount() == 2) {
+					System.out.println("itemDoubleClicked....................");
+					String id = item.getString("id");
+					if (id != null) {
+						System.out.println("ID[" + id + "] is selected.");
+					}
+				}
+				
+				if (item.isInGroup(NODES)) {
+					System.out.println("Node Selected....");
+					item.setFillColor(ColorLib.rgb(255,200,125));
+					item.setStrokeColor(ColorLib.rgb(255,200,125));
+					item.getVisualization().repaint();
+				}
+
+				if (e.isPopupTrigger()) {
+					System.out.println("---------isPopupTrigger....................");
+					String id = item.getString("id");
+					if (id != null) {
+						System.out.println("ID[" + id + "] popup menu selected.");
+					}
+				}
+			}
+			
+		});
         
         // set things running
         m_vis.run("layout");

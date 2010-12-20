@@ -62,7 +62,11 @@ import prefuse.util.GraphLib;
 import prefuse.util.GraphicsLib;
 import prefuse.util.display.DisplayLib;
 import prefuse.util.display.ItemBoundsListener;
+import prefuse.util.force.DragForce;
+import prefuse.util.force.Force;
 import prefuse.util.force.ForceSimulator;
+import prefuse.util.force.NBodyForce;
+import prefuse.util.force.SpringForce;
 import prefuse.util.io.IOLib;
 import prefuse.util.ui.JForcePanel;
 import prefuse.util.ui.JValueSlider;
@@ -191,6 +195,19 @@ public class GraphViewDemo extends JPanel {
         // create a panel for editing force values
         ForceSimulator fsim = ((ForceDirectedLayout)animate.get(0)).getForceSimulator();
         JForcePanel fpanel = new JForcePanel(fsim);
+        
+        fsim.addForce(new NBodyForce(-1.0f, -1.0f, 0.899f));
+        fsim.addForce(new DragForce(0.009f));
+        fsim.addForce(new SpringForce(9.99E-6f, 200.0f));       
+        
+        
+        Force[] forces = fsim.getForces();
+        for (int i = 0; i < forces.length; i++) {
+        	Force force = forces[i];
+        	System.out.println("Force == " + force);
+        	System.out.println("Min == " + force.getMinValue(0));
+        	System.out.println("Max == " + force.getMaxValue(0));
+        }
         
 //        JPanel opanel = new JPanel();
 //        opanel.setBorder(BorderFactory.createTitledBorder("Overview"));
