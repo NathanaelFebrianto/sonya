@@ -47,7 +47,7 @@ public class FacebookDataCollector {
 			System.out.println("User ID: " + me.getId());
 			
 			long source = Long.valueOf(me.getId()).longValue();
-			graph.addNode(source, me.getName(), me.getPicture());			
+			//graph.addNode(source, me.getName(), me.getPicture());			
 			
 			// get my friends
 			Connection<User> myFriends = facebookClient.fetchConnection("me/friends", User.class, parameters);
@@ -60,7 +60,7 @@ public class FacebookDataCollector {
 				long target = Long.valueOf(friend.getId()).longValue();
 				
 				graph.addNode(target, friend.getName(), friend.getPicture());
-				graph.addEdge(source, target, 0.5);				
+				//graph.addEdge(source, target, 0.5);				
 			}
 			
 			// get mutual friends

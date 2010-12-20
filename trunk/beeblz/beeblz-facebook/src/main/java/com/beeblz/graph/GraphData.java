@@ -4,8 +4,16 @@
  */
 package com.beeblz.graph;
 
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
+
 import prefuse.data.Graph;
 import prefuse.data.Table;
+import prefuse.visual.VisualItem;
+import edu.uci.ics.jung.algorithms.cluster.EdgeBetweennessClusterer;
+import edu.uci.ics.jung.graph.UndirectedSparseGraph;
+import edu.uci.ics.jung.graph.util.EdgeType;
 
 
 /**
@@ -90,6 +98,52 @@ public class GraphData {
      */
     public prefuse.data.Graph getGraph() {
     	return this.graph;
+    }
+    
+    /**
+     * Converts the prefuse graph data into the jung graph data.
+     * 
+     * @param g the prefuse graph data
+     * @return graph the jung graph data
+     */
+    public edu.uci.ics.jung.graph.Graph<Long,Long> convertJungGraph(prefuse.data.Graph g) {
+    	
+    	edu.uci.ics.jung.graph.Graph<Long,Long> graph = new UndirectedSparseGraph<Long,Long>();
+		
+    	if (g != null) {
+			Iterator<?> nodeIter = g.nodes();
+			while (nodeIter.hasNext()) {
+				VisualItem node = (VisualItem)nodeIter.next();
+				Long nodeId = node.getLong("id");
+				graph.addVertex(nodeId);
+			}
+			
+			Iterator<?> edgeIter = g.edges();
+			while (edgeIter.hasNext()) {
+				VisualItem edge = (VisualItem)edgeIter.next();
+				Long node1 = edge.getLong("node1");
+				Long node2 = edge.getLong("node1");
+				Long edgeId = Long.valueOf(node1.toString() + node2.toString());
+				graph.addEdge(edgeId, node1, node2, EdgeType.UNDIRECTED);
+			}
+		}    	
+    	return graph;
+    }
+    
+    /**
+     * Clusters the graph by edge betweenness clusterer.
+     * 
+     * @param g the prefuse graph data
+     * @return Set<Set<Long>> the clustered node set
+     */
+    public Set<Set<Long>> clusterGraph(prefuse.data.Graph g) {
+    	edu.uci.ics.jung.graph.Graph<Long,Long> graph = convertJungGraph(g);
+    	
+    	EdgeBetweennessClusterer<Long,Long> clusterer = new EdgeBetweennessClusterer<Long,Long>(10);
+		Set<Set<Long>> clusterSet = clusterer.transform(graph);
+		List<Long> edges = clusterer.getEdgesRemoved();
+		
+    	return clusterSet;    	
     }
     	
 }
