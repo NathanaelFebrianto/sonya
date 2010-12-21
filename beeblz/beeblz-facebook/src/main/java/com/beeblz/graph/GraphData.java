@@ -143,7 +143,7 @@ public class GraphData {
     	edu.uci.ics.jung.graph.Graph<String,String> graph = convertJungGraph(vg);
     	System.out.println("graph == " + graph);
     	
-    	EdgeBetweennessClusterer<String,String> clusterer = new EdgeBetweennessClusterer<String,String>(5);
+    	EdgeBetweennessClusterer<String,String> clusterer = new EdgeBetweennessClusterer<String,String>(numEdgesToRemove);
 		Set<Set<String>> clusterSet = clusterer.transform(graph);
 		//List<String> edges = clusterer.getEdgesRemoved();
 		
