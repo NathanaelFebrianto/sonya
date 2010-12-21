@@ -190,7 +190,7 @@ public class GraphView extends Display {
 		addControlListener(new ControlAdapter() {
 
 			public void itemEntered(VisualItem item, MouseEvent e) {
-				System.out.println("itemEntered....................");
+				//System.out.println("itemEntered....................");
 				if (item.isInGroup(NODES)) {
 					item.setFillColor(ColorLib.rgb(255,200,125));
 					item.setStrokeColor(ColorLib.rgb(255,200,125));
@@ -199,7 +199,7 @@ public class GraphView extends Display {
 			}
 
 			public void itemExited(VisualItem item, MouseEvent e) {
-				System.out.println("itemExited....................");
+				//System.out.println("itemExited....................");
 				if (item.isInGroup(NODES)) {
 					if (item.isInGroup(Visualization.FOCUS_ITEMS)) {
 						item.setFillColor(ColorLib.rgb(255,200,125));
@@ -211,8 +211,8 @@ public class GraphView extends Display {
 				}
 			}
 			
-			public void itemClicked(VisualItem item, MouseEvent e) {
-				System.out.println("itemClicked....................");
+			public void itemPressed(VisualItem item, MouseEvent e) {
+				//System.out.println("itemPressed....................");
 				
 				if (e.getClickCount() == 2) {
 					System.out.println("itemDoubleClicked....................");
@@ -223,7 +223,7 @@ public class GraphView extends Display {
 				}
 				
 				if (item.isInGroup(NODES)) {
-					System.out.println("Node Selected....");
+					//System.out.println("Node Selected....");
 					item.setFillColor(ColorLib.rgb(255,200,125));
 					item.setStrokeColor(ColorLib.rgb(255,200,125));
 					item.getVisualization().repaint();
@@ -284,7 +284,7 @@ public class GraphView extends Display {
         
         // add nodes to aggregates
         // create an aggregate for each n-clique of nodes
-        Set<Set<String>> clusterSet = graphData.clusterGraph(vg, 20);
+        Set<Set<String>> clusterSet = graphData.clusterGraph(vg, 60);
         
         System.out.println("Cluster size == " + clusterSet.size());
         
