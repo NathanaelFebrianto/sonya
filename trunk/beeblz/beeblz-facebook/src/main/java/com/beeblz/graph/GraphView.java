@@ -284,7 +284,7 @@ public class GraphView extends Display {
         
         // add nodes to aggregates
         // create an aggregate for each n-clique of nodes
-        Set<Set<String>> clusterSet = graphData.clusterGraph(vg, 60);
+        Set<Set<String>> clusterSet = graphData.clusterGraph(vg, 2);
         
         System.out.println("Cluster size == " + clusterSet.size());
         
