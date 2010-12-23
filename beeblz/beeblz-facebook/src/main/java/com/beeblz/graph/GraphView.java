@@ -267,7 +267,7 @@ public class GraphView extends Display {
     private Graph initDataGroups() {
         // create graph
         FacebookDataCollector fdc = new FacebookDataCollector();
-        GraphData graphData = fdc.getMyFriends();
+        GraphData graphData = fdc.getMyFriends(false);
         
     	Graph g = graphData.getGraph();
         
