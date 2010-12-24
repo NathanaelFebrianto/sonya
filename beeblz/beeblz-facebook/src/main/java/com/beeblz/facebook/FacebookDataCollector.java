@@ -28,6 +28,7 @@ import com.restfb.types.User;
  */
 public class FacebookDataCollector {
 
+	// my uid: 1480697938
 	private static final String MY_ACCESS_TOKEN = "174260895927181|08c9a69debb61dbf2d983764-1480697938|r0D9FyG27SU9NSPEPQa35kx-GYE";
 
 	private FacebookClient facebookClient;
@@ -126,7 +127,8 @@ public class FacebookDataCollector {
 			Map<String, String> queries = new HashMap<String, String>();
 			queries.put("statuses", "SELECT status_id FROM status WHERE uid = " + uid);
 			queries.put("links", "SELECT link_id FROM link WHERE owner = " + uid);
-			queries.put("photos", "SELECT object_id FROM photo WHERE aid IN ( SELECT aid FROM album WHERE owner = " + uid + ")");
+			queries.put("photos", "SELECT object_id FROM photo " +
+					"WHERE aid IN (SELECT aid FROM album WHERE owner = " + uid + ")");
 			queries.put("videos", "SELECT vid FROM video WHERE owner = " + uid);
 			result =  facebookClient.executeMultiquery(queries, Contents.class);
 			
@@ -153,7 +155,7 @@ public class FacebookDataCollector {
 		
 		try {
 			String query = "SELECT fromid " + 
-			   "FROM comment WHERE object_id IN (" + convertStringWithCommaDelimiter(objectIds) + ")";		
+			   "FROM comment WHERE object_id IN (" + uid + ")";		
 			
 			result = facebookClient.executeQuery(query, String.class);
 			System.out.println("Result Count for [comment]: " + result.size());
@@ -163,6 +165,24 @@ public class FacebookDataCollector {
 		}
 		return result;	
 	}
+	
+	public List<String> getUsersCommentToPhoto(String uid, String time) {
+		List<String> result = new ArrayList<String>();
+		
+		try {
+			String query = "SELECT fromid " + 
+			   "FROM comment WHERE object_id IN (SELECT object_id FROM photo WHERE aid IN (SELECT aid FROM album WHERE owner = " + uid + "))";		
+			
+			result = facebookClient.executeQuery(query, String.class);
+			System.out.println("Result count for comment to photo: " + result.size());
+			
+		} catch (FacebookException fe) {
+			fe.printStackTrace();
+		}
+		return result;	
+	}
+	
+	
 	
 	/**
 	 * 
@@ -174,7 +194,7 @@ public class FacebookDataCollector {
 		
 		try {
 			String query = "SELECT user_id " + 
-			   "FROM like WHERE object_id IN (" + convertStringWithCommaDelimiter(objectIds) + ")";		
+			   "FROM like WHERE object_id IN (" + uid + ")";		
 			
 			result = facebookClient.executeQuery(query, String.class);
 			System.out.println("Result Count for [like]: " + result.size());
@@ -198,7 +218,7 @@ public class FacebookDataCollector {
 			   "FROM status WHERE uid = " + uid;
 			
 			result = facebookClient.executeQuery(query, Status.class);
-			System.out.println("Result Count: " + result.size());
+			System.out.println("Result count for status: " + result.size());
 			
 		} catch (FacebookException fe) {
 			fe.printStackTrace();
@@ -219,7 +239,7 @@ public class FacebookDataCollector {
 			   "FROM link WHERE owner = " + uid;
 			
 			result = facebookClient.executeQuery(query, Link.class);
-			System.out.println("Result Count: " + result.size());
+			System.out.println("Result count for link: " + result.size());
 			
 		} catch (FacebookException fe) {
 			fe.printStackTrace();
@@ -240,7 +260,7 @@ public class FacebookDataCollector {
 			   "FROM photo WHERE aid IN (SELECT aid FROM album WHERE owner = " + uid + ")";
 			
 			result = facebookClient.executeQuery(query, Photo.class);
-			System.out.println("Result Count: " + result.size());
+			System.out.println("Result count for photo: " + result.size());
 			
 		} catch (FacebookException fe) {
 			fe.printStackTrace();
@@ -261,7 +281,7 @@ public class FacebookDataCollector {
 			   "FROM video WHERE owner = " + uid;
 			
 			result = facebookClient.executeQuery(query, Video.class);
-			System.out.println("Result Count: " + result.size());
+			System.out.println("Result count for video: " + result.size());
 			
 		} catch (FacebookException fe) {
 			fe.printStackTrace();
@@ -273,41 +293,33 @@ public class FacebookDataCollector {
 		FacebookDataCollector collector = new FacebookDataCollector();		
 		collector.getMyFriends(false);
 				
-		/*
-		List<Status> statues = collector.getStatuses("1156918050");
+		List<Status> statues = collector.getStatuses("1480697938");
 		for (int i = 0; i < statues.size(); i++) {
 			Status status = (Status)statues.get(i);
 			System.out.println("status == " + status.toString());			
 		}
-		*/
-		
-		/*
-		List<Link> links = collector.getLinks("1156918050");
+
+		List<Link> links = collector.getLinks("1480697938");
 		for (int i = 0; i < links.size(); i++) {
 			Link link = (Link)links.get(i);
 			System.out.println("link == " + link.toString());			
 		}
-		*/
-		
-		/*
-		List<Photo> photos = collector.getPhotos("827340334");
+
+		List<Photo> photos = collector.getPhotos("1480697938");
 		for (int i = 0; i < photos.size(); i++) {
 			Photo photo = (Photo)photos.get(i);
 			System.out.println("photo == " + photo.toString());			
 		}
-		*/
 		
-		/*
-		List<Video> videos = collector.getVideos("1156918050");
+		List<Video> videos = collector.getVideos("1480697938");
 		for (int i = 0; i < videos.size(); i++) {
 			Video video = (Video)videos.get(i);
 			System.out.println("video == " + video.toString());
 		}
-		*/
 		
-		Set<String> contents = collector.getContents("1156918050", "").getContentIDs();;
-		collector.getUsersCommentTo(contents, "");
-		collector.getUsersLikeTo(contents, "");
+		Set<String> contents = collector.getContents("1480697938", "").getContentIDs();;
+		collector.getUsersCommentToPhoto("1480697938", "");
+
 	}
 	
 	public static class MutualFriend {  
