@@ -17,6 +17,7 @@ public class Vertex implements Serializable {
 	private String name;
 	private String email;
 	private String picture;
+	private Boolean isMe;
 	private Boolean isMyFriend;
 	private Integer mutualFriendCount = -1;
 	private Integer cluster = -1;
@@ -36,6 +37,9 @@ public class Vertex implements Serializable {
 	}
 	public String getPicture() {
 		return picture;
+	}
+	public Boolean getIsMe() {
+		return isMe;
 	}
 	public Boolean getIsMyFriend() {
 		return isMyFriend;
@@ -69,6 +73,9 @@ public class Vertex implements Serializable {
 	}
 	public void setPicture(String picture) {
 		this.picture = picture;
+	}
+	public void setIsMe(Boolean isMe) {
+		this.isMe = isMe;
 	}
 	public void setIsMyFriend(Boolean isMyFriend) {
 		this.isMyFriend = isMyFriend;

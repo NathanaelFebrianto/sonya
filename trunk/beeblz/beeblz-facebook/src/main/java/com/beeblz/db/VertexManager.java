@@ -19,11 +19,12 @@ import java.util.List;
 public class VertexManager {
 	
 	private static final String CREATE_TABLE_SQL = 
-			"create table vertex ("
+			"CREATE TABLE vertex ("
 			+ "id integer not null, "
 			+ "name varchar(100), "
 			+ "email varchar(100), "
 			+ "picture varchar(100), "
+			+ "is_me char(1), "
 			+ "is_my_friend char(1), "
 			+ "mutual_friend_count integer, "
 			+ "cluster integer, "
@@ -34,15 +35,15 @@ public class VertexManager {
 			+ "PRIMARY KEY (id)"
 			+ ")";
 	private static final String SELECT_SQL = 
-			"SELECT id, name, email, picture, is_my_friend, mutual_friend_count, "
+			"SELECT id, name, email, picture, is_me, is_my_friend, mutual_friend_count, "
 			+ "cluster, post_status_count, post_link_count, post_photo_count, post_video_count "
 			+ "FROM vertex "
 			+ "WHERE 1=1 ";	
 	private static final String INSERT_SQL = 
 			"INSERT INTO vertex (" 
-			+ "id, name, email, picture, is_my_friend, mutual_friend_count, "
+			+ "id, name, email, picture, is_me, is_my_friend, mutual_friend_count, "
 			+ "cluster, post_status_count, post_link_count, post_photo_count, post_video_count) " 
-			+ "VALUES (?,?,?,?,?,?,?,?,?,?,?)";
+			+ "VALUES (?,?,?,?,?,?,?,?,?,?,?,?)";
 
 	/**
 	 * This guarantees that the table needed for this class already exists by
@@ -55,7 +56,7 @@ public class VertexManager {
 			//conn.createStatement().execute("DROP TABLE vertex");
 			conn.createStatement().execute(CREATE_TABLE_SQL);
 		} catch (SQLException e) {
-			e.printStackTrace();
+			//e.printStackTrace();
 			System.out.println("Table already existed");
 		}
 	}
@@ -85,13 +86,14 @@ public class VertexManager {
 				vertex.setName(cursor.getString(2));
 				vertex.setEmail(cursor.getString(3));
 				vertex.setPicture(cursor.getString(4));
-				vertex.setIsMyFriend(cursor.getBoolean(5));
-				vertex.setMutualFriendCount(cursor.getInt(6));
-				vertex.setCluster(cursor.getInt(7));
-				vertex.setPostStatusCount(cursor.getInt(8));
-				vertex.setPostLinkCount(cursor.getInt(9));
-				vertex.setPostPhotoCount(cursor.getInt(10));
-				vertex.setPostVideoCount(cursor.getInt(11));
+				vertex.setIsMe(cursor.getBoolean(5));
+				vertex.setIsMyFriend(cursor.getBoolean(6));
+				vertex.setMutualFriendCount(cursor.getInt(7));
+				vertex.setCluster(cursor.getInt(8));
+				vertex.setPostStatusCount(cursor.getInt(9));
+				vertex.setPostLinkCount(cursor.getInt(10));
+				vertex.setPostPhotoCount(cursor.getInt(11));
+				vertex.setPostVideoCount(cursor.getInt(12));
 				vertices.add(vertex);
 			}
 		} catch (SQLException e) {
@@ -114,13 +116,14 @@ public class VertexManager {
 			ps.setString(2, vertex.getName());
 			ps.setString(3, vertex.getEmail());
 			ps.setString(4, vertex.getPicture());
-			ps.setBoolean(5, vertex.getIsMyFriend());
-			ps.setInt(6, vertex.getMutualFriendCount());
-			ps.setInt(7, vertex.getCluster());
-			ps.setInt(8, vertex.getPostStatusCount());
-			ps.setInt(9, vertex.getPostLinkCount());
-			ps.setInt(10, vertex.getPostPhotoCount());
-			ps.setInt(11, vertex.getPostVideoCount());
+			ps.setBoolean(5, vertex.getIsMe());
+			ps.setBoolean(6, vertex.getIsMyFriend());
+			ps.setInt(7, vertex.getMutualFriendCount());
+			ps.setInt(8, vertex.getCluster());
+			ps.setInt(9, vertex.getPostStatusCount());
+			ps.setInt(10, vertex.getPostLinkCount());
+			ps.setInt(11, vertex.getPostPhotoCount());
+			ps.setInt(12, vertex.getPostVideoCount());
 			ps.executeUpdate();
 			
 			System.out.println("Vertex is saved. new id = " + vertex.getId());
@@ -178,6 +181,8 @@ public class VertexManager {
 			sql.append(", ").append("email='").append(vertex.getEmail()).append("'");
 		if (vertex.getPicture() != null)	
 			sql.append(", ").append("picture='").append(vertex.getPicture()).append("'");
+		if (vertex.getIsMe() == true)	
+			sql.append(", ").append("is_me=").append("'1'");
 		if (vertex.getIsMyFriend() == true)	
 			sql.append(", ").append("is_my_friend=").append("'1'");
 		if (vertex.getMutualFriendCount() >= 0)	
