@@ -31,8 +31,6 @@ import javax.swing.event.ChangeListener;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
-import com.beeblz.facebook.FacebookDataCollector;
-
 import prefuse.Constants;
 import prefuse.Display;
 import prefuse.Visualization;
@@ -53,7 +51,6 @@ import prefuse.data.Graph;
 import prefuse.data.Table;
 import prefuse.data.Tuple;
 import prefuse.data.event.TupleSetListener;
-import prefuse.data.io.GraphMLReader;
 import prefuse.data.tuple.TupleSet;
 import prefuse.render.DefaultRendererFactory;
 import prefuse.render.LabelRenderer;
@@ -73,6 +70,8 @@ import prefuse.util.ui.JValueSlider;
 import prefuse.util.ui.UILib;
 import prefuse.visual.VisualGraph;
 import prefuse.visual.VisualItem;
+
+import com.beeblz.facebook.FacebookDataCollector;
 
 /**
  * @author <a href="http://jheer.org">jeffrey heer</a>
@@ -287,7 +286,7 @@ public class GraphViewDemo extends JPanel {
     
     public static JFrame demo(String datafile, String label) {
     	FacebookDataCollector fdc = new FacebookDataCollector();
-        GraphData graphData = fdc.getMyFriends();
+        GraphData graphData = fdc.getMyFriends(false);
         
     	Graph g = graphData.getGraph();
         

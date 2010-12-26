@@ -30,13 +30,14 @@
 			<scope>compile</scope>
 		</dependency>
 
+		<!-- RestFB -->
 		<dependency>
 			<groupId>com.restfb</groupId>
 			<artifactId>restfb</artifactId>
 			<version>1.5.4</version>
 		</dependency>
 		
-				<!-- JUNG -->
+		<!-- JUNG -->
 		<dependency>
 			<groupId>net.sf.jung</groupId>
 			<artifactId>jung-api</artifactId>
@@ -57,13 +58,12 @@
 			<artifactId>jung-io</artifactId>
 			<version>2.0.1</version>
 		</dependency>
-		
-		<!--  
+
 		<dependency>
-			<groupId>org.apache.lucene</groupId>
-			<artifactId>lucene-core</artifactId>
-			<version>3.0.3</version>
+			<groupId>org.apache.derby</groupId>
+			<artifactId>derby</artifactId>
+			<version>10.6.2.1</version>
 		</dependency>
-		-->
+		
 	</dependencies>
 </project>
