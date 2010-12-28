@@ -114,7 +114,7 @@ public class GraphData {
 			while (nodeIter.hasNext()) {
 				VisualItem node = (VisualItem)nodeIter.next();
 				String nodeId = node.getString("id");
-				System.out.println("node id == " + nodeId);
+				//System.out.println("node id == " + nodeId);
 				graph.addVertex(nodeId);
 			}
 			
@@ -124,7 +124,7 @@ public class GraphData {
 				String node1 = edge.getString("node1");
 				String node2 = edge.getString("node2");
 				String edgeId = node1 + node2;
-				System.out.println("edge id == " + edgeId);
+				//System.out.println("edge id == " + edgeId);
 				graph.addEdge(edgeId, node1, node2, EdgeType.UNDIRECTED);
 			}
 		}    	

@@ -13,18 +13,18 @@ import java.io.Serializable;
  */
 public class Vertex implements Serializable {
 	
-	private String id;
-	private String name;
-	private String email;
-	private String picture;
-	private Boolean isMe;
-	private Boolean isMyFriend;
-	private Integer mutualFriendCount = -1;
+	private String id = "";
+	private String name = "";
+	private String email = "";
+	private String picture = "";
+	private Boolean isMe = false;
+	private Boolean isMyFriend = false;
+	private Integer mutualFriendCount = 0;
 	private Integer cluster = -1;
-	private Integer postStatusCount = -1;
-	private Integer postLinkCount = -1;
-	private Integer postPhotoCount = -1;
-	private Integer postVideoCount = -1;
+	private Integer postStatusCount = 0;
+	private Integer postLinkCount = 0;
+	private Integer postPhotoCount = 0;
+	private Integer postVideoCount = 0;
 	
 	public String getId() {
 		return id;

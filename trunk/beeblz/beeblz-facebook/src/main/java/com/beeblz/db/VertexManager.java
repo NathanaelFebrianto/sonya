@@ -20,7 +20,7 @@ public class VertexManager {
 	
 	private static final String CREATE_TABLE_SQL = 
 			"CREATE TABLE vertex ("
-			+ "id integer not null, "
+			+ "id varchar(20) not null, "
 			+ "name varchar(100), "
 			+ "email varchar(100), "
 			+ "picture varchar(100), "
@@ -37,8 +37,7 @@ public class VertexManager {
 	private static final String SELECT_SQL = 
 			"SELECT id, name, email, picture, is_me, is_my_friend, mutual_friend_count, "
 			+ "cluster, post_status_count, post_link_count, post_photo_count, post_video_count "
-			+ "FROM vertex "
-			+ "WHERE 1=1 ";	
+			+ "FROM vertex ";
 	private static final String INSERT_SQL = 
 			"INSERT INTO vertex (" 
 			+ "id, name, email, picture, is_me, is_my_friend, mutual_friend_count, "
@@ -62,18 +61,91 @@ public class VertexManager {
 	}
 	
 	/**
+	 * Retrieves my friends.
+	 * 
+	 * @param isMe true if include me
+	 * @return List<Vertex> the vertices of my friends
+	 */
+	public static List<Vertex> getMyFriends(boolean isMe) {
+		StringBuffer clause = new StringBuffer();		
+		clause.append(" WHERE ");
+		
+		if (isMe == true)
+			clause.append("is_me='1' OR is_my_friend = '1'");
+		else
+			clause.append("is_my_friend = '1'");
+		
+		return getVertices(clause.toString());
+	}
+	
+	/**
+	 * Retrieves friends of fiend.
+	 * 
+	 * @param id my friend id
+	 * @return List<Vertex> the vertices of friends of friend
+	 */
+	public static List<Vertex> getFriendsOfFriend(String id) {
+		StringBuffer clause = new StringBuffer();		
+		clause.append(" WHERE");		
+		clause.append(" id IN (SELECT id1 FROM edge WHERE id2=").append(id);
+		clause.append(" OR id IN (SELECT id2 FROM edge WHERE id1=").append(id);		
+		
+		return getVertices(clause.toString());
+	}
+	
+	/**
+	 * Retrieves friends of fiend.
+	 * 
+	 * @param id my friend id
+	 * @param isMyFriend true if get mutual friends of me
+	 * @return List<Vertex> the vertices of friends of friend
+	 */
+	public static List<Vertex> getFriendsOfFriend(String id, boolean isMyFriend) {
+		StringBuffer clause = new StringBuffer();		
+		clause.append(" WHERE");
+		
+		if (isMyFriend == true)
+			clause.append(" is_my_friend = '1'");
+		else
+			clause.append(" is_my_friend <> '1'");
+		
+		clause.append(" AND (id IN (SELECT id1 FROM edge WHERE id2=").append(id);
+		clause.append(" OR id IN (SELECT id2 FROM edge WHERE id1=").append(id).append(")");		
+		
+		return getVertices(clause.toString());
+	}
+	
+	/**
+	 * Retrieves users in the same cluster as the specific user, but not as friends. 
+	 * 
+	 * @param id the specific user
+	 * @param cluster the cluster number
+	 * @return List<Vertex> the users in the same cluster
+	 */
+	public static List<Vertex> getUsersInCluster(String id, int cluster) {
+		StringBuffer clause = new StringBuffer();		
+		clause.append(" WHERE");
+		clause.append(" cluster=").append(cluster);
+		clause.append(" AND id NOT IN (SELECT id1 FROM edge WHERE id2=").append(id);
+		clause.append(" AND id NOT IN (SELECT id2 FROM edge WHERE id1=").append(id);	
+		
+		return getVertices(clause.toString());
+	}
+	
+	/**
 	 * Retrieves all of the vertices satisfying a SQL where clause. The clause
 	 * can also include things like order and limit decorators.
-	 * 내 친구 가져오기(본인제외), 친구의 친구 가져오기(본인제외, 나 포함), 같은 클러스터에 속한 친구아닌 사람 가져오기
 	 * 
 	 * @param clause a SQL where clause
-	 * @return List<Vertex> a List of all contacts satisfying the where clause
+	 * @return List<Vertex> a List of all vertices satisfying the where clause
 	 */
 	public static List<Vertex> getVertices(String clause) {
 		if (clause == null)
 			clause = "";
 		
 		String sql = SELECT_SQL	+ clause;
+		
+		System.out.println(sql);
 		
 		Connection conn = DbManager.getConnection();
 		List<Vertex> vertices = new ArrayList<Vertex>();
@@ -175,15 +247,16 @@ public class VertexManager {
 		Connection conn = DbManager.getConnection();
 		StringBuffer sql = new StringBuffer();
 		sql.append("UPDATE vertex SET ");
+		sql.append("id=id");
 		if (vertex.getName() != null)	
-			sql.append("name='").append(vertex.getName()).append("'");
+			sql.append(", ").append("name='").append(vertex.getName()).append("'");
 		if (vertex.getEmail() != null)	
 			sql.append(", ").append("email='").append(vertex.getEmail()).append("'");
 		if (vertex.getPicture() != null)	
 			sql.append(", ").append("picture='").append(vertex.getPicture()).append("'");
-		if (vertex.getIsMe() == true)	
+		if (vertex.getIsMe() != null && vertex.getIsMe() == true)	
 			sql.append(", ").append("is_me=").append("'1'");
-		if (vertex.getIsMyFriend() == true)	
+		if (vertex.getIsMyFriend() != null && vertex.getIsMyFriend() == true)	
 			sql.append(", ").append("is_my_friend=").append("'1'");
 		if (vertex.getMutualFriendCount() >= 0)	
 			sql.append(", ").append("mutual_friend_count=").append(vertex.getMutualFriendCount());

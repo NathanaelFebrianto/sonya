@@ -4,8 +4,6 @@
  */
 package com.beeblz.facebook;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
@@ -15,6 +13,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import com.beeblz.db.Edge;
+import com.beeblz.db.EdgeManager;
+import com.beeblz.db.Vertex;
+import com.beeblz.db.VertexManager;
 import com.beeblz.graph.GraphData;
 import com.restfb.Connection;
 import com.restfb.DefaultFacebookClient;
@@ -22,7 +24,6 @@ import com.restfb.Facebook;
 import com.restfb.FacebookClient;
 import com.restfb.FacebookException;
 import com.restfb.Parameter;
-import com.restfb.types.User;
 
 /**
  * Collects facebook data by using the facebook Graph API.
@@ -52,7 +53,7 @@ public class FacebookDataCollector {
 		try {
 			Parameter[] parameters = {Parameter.with("fields",	"id, name, email, picture, work")};
 			
-			User me = facebookClient.fetchObject("me", User.class, parameters);
+			com.restfb.types.User me = facebookClient.fetchObject("me", com.restfb.types.User.class, parameters);
 			System.out.println("User name: " + me.getName());
 			System.out.println("User ID: " + me.getId());
 			
@@ -60,19 +61,50 @@ public class FacebookDataCollector {
 			if (includeMe)
 				graph.addNode(source, me.getName(), me.getPicture());	
 			
+			// initialize database
+			VertexManager.deleteAll();
+			EdgeManager.deleteAll();
+			
+			// insert into vertex database			
+			Vertex v = new Vertex();
+			v.setId(me.getId());
+			v.setName(me.getName());
+			v.setEmail(me.getEmail());
+			v.setPicture(me.getPicture());
+			v.setIsMe(true);
+			VertexManager.insert(v);
+			
 			// get my friends
-			Connection<User> myFriends = facebookClient.fetchConnection("me/friends", User.class, parameters);
-			System.out.println("Count of my friends: " + myFriends.getData().size());
+			Connection<com.restfb.types.User> myFriends
+				= facebookClient.fetchConnection("me/friends", com.restfb.types.User.class, parameters);
+			System.out.println("Count of my friends: " + myFriends.getData().size());			
 
 			for (int i = 0; i < myFriends.getData().size(); i++) {
-				User friend = (User)myFriends.getData().get(i);
+				com.restfb.types.User friend = (com.restfb.types.User)myFriends.getData().get(i);
 				System.out.println("friend: " + friend.getId() + "|" + friend.getName() + "|" + friend.getPicture());
 				
-				long target = Long.valueOf(friend.getId()).longValue();
-				
-				graph.addNode(target, friend.getName(), friend.getPicture());
+				long target = Long.valueOf(friend.getId()).longValue();				
+				graph.addNode(target, friend.getName(), friend.getPicture());				
 				if (includeMe)
-					graph.addEdge(source, target, 0.5);				
+					graph.addEdge(source, target, 0.5);
+				
+				// insert into vertex database
+				Vertex vf = new Vertex();
+				vf.setId(friend.getId());
+				vf.setName(friend.getName());
+				vf.setEmail(friend.getEmail());
+				vf.setPicture(friend.getPicture());
+				vf.setIsMyFriend(true);				
+				VertexManager.insert(vf);
+				
+				// insert into edge database
+				Edge ef = new Edge();
+				ef.setId(me.getId() + friend.getId());
+				ef.setId1(me.getId());
+				ef.setId2(friend.getId());
+				ef.setIsMe(true);
+				ef.setIsMyFriend(true);
+				EdgeManager.insert(ef);				
 			}
 			
 			// get mutual friends
@@ -80,12 +112,21 @@ public class FacebookDataCollector {
 
 			for (int i = 0; i < mutualFriends.size(); i++) {
 				MutualFriend mutualFriend = (MutualFriend) mutualFriends.get(i);
-				System.out.println("result: " + mutualFriend.toString());
+				System.out.println("mutual friend: " + mutualFriend.toString());
 
 				long uid1 = Long.valueOf(mutualFriend.uid1).longValue();
 				long uid2 = Long.valueOf(mutualFriend.uid2).longValue();
 
-				graph.addEdge(uid1, uid2, 0.5);			
+				graph.addEdge(uid1, uid2, 0.5);	
+				
+				// insert into edge database
+				Edge em = new Edge();
+				em.setId(mutualFriend.uid1 + mutualFriend.uid2);
+				em.setId1(mutualFriend.uid1);
+				em.setId2(mutualFriend.uid2);
+				em.setIsMe(false);
+				em.setIsMyFriend(true);
+				EdgeManager.insert(em);	
 			}
 		} catch (Exception ex) {
 			ex.printStackTrace();
@@ -155,13 +196,13 @@ public class FacebookDataCollector {
 	 * @param time after the specific time
 	 * @return List the users who commented
 	 */
-	public List<String> getUsersCommentTo(String uid, String time) {
-		List<String> result = new ArrayList<String>();
+	public List<User> getUsersCommentTo(String uid, String time) {
+		List<User> result = new ArrayList<User>();
 		
-		List<String> users1 = getUsersCommentToStatus(uid, time);
-		List<String> users2 = getUsersCommentToLink(uid, time);
-		List<String> users3 = getUsersCommentToPhoto(uid, time);
-		List<String> users4 = getUsersCommentToVideo(uid, time);
+		List<User> users1 = getUsersCommentToStatus(uid, time);
+		List<User> users2 = getUsersCommentToLink(uid, time);
+		List<User> users3 = getUsersCommentToPhoto(uid, time);
+		List<User> users4 = getUsersCommentToVideo(uid, time);
 		
 		result.addAll(users1);
 		result.addAll(users2);
@@ -178,17 +219,18 @@ public class FacebookDataCollector {
 	 * @param time after the specific time
 	 * @return List the users who commented
 	 */
-	public List<String> getUsersCommentToStatus(String uid, String time) {
-		List<String> result = new ArrayList<String>();
+	public List<User> getUsersCommentToStatus(String uid, String time) {
+		List<User> result = new ArrayList<User>();
 		
 		try {
-			String query = "SELECT fromid " + 
-			   "FROM comment WHERE object_id IN " + 
-			   "(SELECT status_id FROM status WHERE uid = " + uid + " AND time >= " +  time + ")";			   		
+			String query = 
+				"SELECT uid, name, email, pic_square FROM user WHERE uid IN (SELECT fromid " + 
+				"FROM comment WHERE object_id IN " + 
+				"(SELECT status_id FROM status WHERE uid = " + uid + " AND time >= " +  time + "))";			   		
 			
 			System.out.println("query: " + query);
 			
-			result = facebookClient.executeQuery(query, String.class);
+			result = facebookClient.executeQuery(query, User.class);
 			System.out.println("User count who commented to statuses: " + result.size());
 			
 		} catch (FacebookException fe) {
@@ -204,17 +246,18 @@ public class FacebookDataCollector {
 	 * @param time after the specific time
 	 * @return List the users who commented
 	 */
-	public List<String> getUsersCommentToLink(String uid, String time) {
-		List<String> result = new ArrayList<String>();
+	public List<User> getUsersCommentToLink(String uid, String time) {
+		List<User> result = new ArrayList<User>();
 		
 		try {
-			String query = "SELECT fromid " + 
-			   "FROM comment WHERE object_id IN " + 
-			   "(SELECT link_id FROM link WHERE owner = " + uid + " AND created_time >= " + time + ")";			   		
+			String query = 
+				"SELECT uid, name, email, pic_square FROM user WHERE uid IN (SELECT fromid " + 
+			    "FROM comment WHERE object_id IN " + 
+			    "(SELECT link_id FROM link WHERE owner = " + uid + " AND created_time >= " + time + "))";			   		
 			
 			System.out.println("query: " + query);
 			
-			result = facebookClient.executeQuery(query, String.class);
+			result = facebookClient.executeQuery(query, User.class);
 			System.out.println("User count who commented to links: " + result.size());
 			
 		} catch (FacebookException fe) {
@@ -230,18 +273,19 @@ public class FacebookDataCollector {
 	 * @param time after the specific time
 	 * @return List the users who commented
 	 */
-	public List<String> getUsersCommentToPhoto(String uid, String time) {
-		List<String> result = new ArrayList<String>();
+	public List<User> getUsersCommentToPhoto(String uid, String time) {
+		List<User> result = new ArrayList<User>();
 		
 		try {
-			String query = "SELECT fromid " + 
-			   "FROM comment WHERE object_id IN " + 
-			   "(SELECT object_id FROM photo WHERE aid IN " +
-			   "(SELECT aid FROM album WHERE owner = " + uid + ") AND created >= " +  time + ")";			   		
+			String query = 
+				"SELECT uid, name, email, pic_square FROM user WHERE uid IN (SELECT fromid " + 
+			    "FROM comment WHERE object_id IN " + 
+			    "(SELECT object_id FROM photo WHERE aid IN " +
+			    "(SELECT aid FROM album WHERE owner = " + uid + ") AND created >= " +  time + "))";			   		
 			
 			System.out.println("query: " + query);
 			
-			result = facebookClient.executeQuery(query, String.class);
+			result = facebookClient.executeQuery(query, User.class);
 			System.out.println("User count who commented to photos: " + result.size());
 			
 		} catch (FacebookException fe) {
@@ -257,17 +301,18 @@ public class FacebookDataCollector {
 	 * @param time after the specific time
 	 * @return List the users who commented
 	 */
-	public List<String> getUsersCommentToVideo(String uid, String time) {
-		List<String> result = new ArrayList<String>();
+	public List<User> getUsersCommentToVideo(String uid, String time) {
+		List<User> result = new ArrayList<User>();
 		
 		try {
-			String query = "SELECT fromid " + 
-			   "FROM comment WHERE object_id IN " + 
-			   "(SELECT vid FROM video WHERE owner = " + uid + " AND created_time >= " + time + ")";			   		
+			String query = 
+				"SELECT uid, name, email, pic_square FROM user WHERE uid IN (SELECT fromid " + 
+			    "FROM comment WHERE object_id IN " + 
+			    "(SELECT vid FROM video WHERE owner = " + uid + " AND created_time >= " + time + "))";			   		
 			
 			System.out.println("query: " + query);
 			
-			result = facebookClient.executeQuery(query, String.class);
+			result = facebookClient.executeQuery(query, User.class);
 			System.out.println("User count who commented to videos: " + result.size());
 			
 		} catch (FacebookException fe) {
@@ -283,13 +328,13 @@ public class FacebookDataCollector {
 	 * @param time after the specific time
 	 * @return List the users who liked
 	 */
-	public List<String> getUsersLikeTo(String uid, String time) {
-		List<String> result = new ArrayList<String>();
+	public List<User> getUsersLikeTo(String uid, String time) {
+		List<User> result = new ArrayList<User>();
 		
-		List<String> users1 = getUsersLikeToStatus(uid, time);
-		List<String> users2 = getUsersLikeToLink(uid, time);
-		List<String> users3 = getUsersLikeToPhoto(uid, time);
-		List<String> users4 = getUsersLikeToVideo(uid, time);
+		List<User> users1 = getUsersLikeToStatus(uid, time);
+		List<User> users2 = getUsersLikeToLink(uid, time);
+		List<User> users3 = getUsersLikeToPhoto(uid, time);
+		List<User> users4 = getUsersLikeToVideo(uid, time);
 		
 		result.addAll(users1);
 		result.addAll(users2);
@@ -306,17 +351,18 @@ public class FacebookDataCollector {
 	 * @param time after the specific time
 	 * @return List the users who liked
 	 */
-	public List<String> getUsersLikeToStatus(String uid, String time) {
-		List<String> result = new ArrayList<String>();
+	public List<User> getUsersLikeToStatus(String uid, String time) {
+		List<User> result = new ArrayList<User>();
 		
 		try {
-			String query = "SELECT user_id " + 
-			   "FROM like WHERE object_id IN " + 
-			   "(SELECT status_id FROM status WHERE uid = " + uid + " AND time >= " +  time + ")";			   		
+			String query = 
+				"SELECT uid, name, email, pic_square FROM user WHERE uid IN (SELECT user_id " + 
+			    "FROM like WHERE object_id IN " + 
+			    "(SELECT status_id FROM status WHERE uid = " + uid + " AND time >= " +  time + "))";			   		
 			
 			System.out.println("query: " + query);
 			
-			result = facebookClient.executeQuery(query, String.class);
+			result = facebookClient.executeQuery(query, User.class);
 			System.out.println("User count who liked to statuses: " + result.size());
 			
 		} catch (FacebookException fe) {
@@ -332,17 +378,18 @@ public class FacebookDataCollector {
 	 * @param time after the specific time
 	 * @return List the users who liked
 	 */
-	public List<String> getUsersLikeToLink(String uid, String time) {
-		List<String> result = new ArrayList<String>();
+	public List<User> getUsersLikeToLink(String uid, String time) {
+		List<User> result = new ArrayList<User>();
 		
 		try {
-			String query = "SELECT user_id " + 
-			   "FROM like WHERE object_id IN " + 
-			   "(SELECT link_id FROM link WHERE owner = " + uid + " AND created_time >= " + time + ")";			   		
+			String query = 
+				"SELECT uid, name, email, pic_square FROM user WHERE uid IN (SELECT user_id " + 
+			    "FROM like WHERE object_id IN " + 
+			    "(SELECT link_id FROM link WHERE owner = " + uid + " AND created_time >= " + time + "))";			   		
 			
 			System.out.println("query: " + query);
 			
-			result = facebookClient.executeQuery(query, String.class);
+			result = facebookClient.executeQuery(query, User.class);
 			System.out.println("User count who liked to links: " + result.size());
 			
 		} catch (FacebookException fe) {
@@ -358,18 +405,19 @@ public class FacebookDataCollector {
 	 * @param time after the specific time
 	 * @return List the users who liked
 	 */
-	public List<String> getUsersLikeToPhoto(String uid, String time) {
-		List<String> result = new ArrayList<String>();
+	public List<User> getUsersLikeToPhoto(String uid, String time) {
+		List<User> result = new ArrayList<User>();
 		
 		try {
-			String query = "SELECT user_id " + 
-			   "FROM like WHERE object_id IN " + 
-			   "(SELECT object_id FROM photo WHERE aid IN " +
-			   "(SELECT aid FROM album WHERE owner = " + uid + ") AND created >= " +  time + ")";			   		
+			String query = 
+				"SELECT uid, name, email, pic_square FROM user WHERE uid IN (SELECT user_id " + 
+			    "FROM like WHERE object_id IN " + 
+			    "(SELECT object_id FROM photo WHERE aid IN " +
+			    "(SELECT aid FROM album WHERE owner = " + uid + ") AND created >= " +  time + "))";			   		
 			
 			System.out.println("query: " + query);
 			
-			result = facebookClient.executeQuery(query, String.class);
+			result = facebookClient.executeQuery(query, User.class);
 			System.out.println("User count who liked to photos: " + result.size());
 			
 		} catch (FacebookException fe) {
@@ -385,17 +433,18 @@ public class FacebookDataCollector {
 	 * @param time after the specific time
 	 * @return List the users who liked
 	 */
-	public List<String> getUsersLikeToVideo(String uid, String time) {
-		List<String> result = new ArrayList<String>();
+	public List<User> getUsersLikeToVideo(String uid, String time) {
+		List<User> result = new ArrayList<User>();
 		
 		try {
-			String query = "SELECT user_id " + 
-			   "FROM like WHERE object_id IN " + 
-			   "(SELECT vid FROM video WHERE owner = " + uid + " AND created_time >= " + time + ")";			   		
+			String query = 
+				"SELECT uid, name, email, pic_square FROM user WHERE uid IN (SELECT user_id " + 
+			    "FROM like WHERE object_id IN " + 
+			    "(SELECT vid FROM video WHERE owner = " + uid + " AND created_time >= " + time + "))";			   		
 			
 			System.out.println("query: " + query);
 			
-			result = facebookClient.executeQuery(query, String.class);
+			result = facebookClient.executeQuery(query, User.class);
 			System.out.println("User count who liked to videos: " + result.size());
 			
 		} catch (FacebookException fe) {
@@ -542,6 +591,22 @@ public class FacebookDataCollector {
 		collector.getContents(uid, time).getContentIDs();		
 		collector.getUsersCommentTo(uid, time);
 		collector.getUsersLikeTo(uid, time);
+	}
+	
+	public static class User {
+		@Facebook
+		String uid;  
+		@Facebook
+		String name;
+		@Facebook
+		String email;
+		@Facebook
+		String pic_square;
+		
+		@Override
+		public String toString() {    
+			return String.format("%s | %s | %s | %s", uid, name, email, pic_square);   
+		}
 	}
 	
 	public static class MutualFriend {  
