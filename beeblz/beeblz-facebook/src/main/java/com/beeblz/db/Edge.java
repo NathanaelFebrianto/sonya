@@ -13,16 +13,18 @@ import java.io.Serializable;
  */
 public class Edge implements Serializable {
 	
-	private String id;
-	private String id1;
-	private String id2;
-	private Integer commentId1ToId2;
-	private Integer likeId1ToId2;
-	private Integer commentId2ToId1;
-	private Integer likeId2ToId1;
-	private Integer closenessId1ToId2;
-	private Integer closenessId2ToId1;
-	private Integer mutualCloseness;
+	private String id = "";
+	private String id1 = "";
+	private String id2 = "";
+	private Boolean isMe = false;
+	private Boolean isMyFriend = false;
+	private Integer commentId1ToId2 = 0;
+	private Integer likeId1ToId2 = 0;
+	private Integer commentId2ToId1 = 0;
+	private Integer likeId2ToId1 = 0;
+	private Integer closenessId1ToId2 = 0;
+	private Integer closenessId2ToId1 = 0;
+	private Integer mutualCloseness = 0;
 	
 	public String getId() {
 		return id;
@@ -32,6 +34,12 @@ public class Edge implements Serializable {
 	}
 	public String getId2() {
 		return id2;
+	}
+	public Boolean getIsMe() {
+		return isMe;
+	}
+	public Boolean getIsMyFriend() {
+		return isMyFriend;
 	}
 	public Integer getCommentId1ToId2() {
 		return commentId1ToId2;
@@ -55,13 +63,19 @@ public class Edge implements Serializable {
 		return mutualCloseness;
 	}
 	public void setId(String id) {
-		this.id1 = id;
+		this.id = id;
 	}
 	public void setId1(String id1) {
 		this.id1 = id1;
 	}
 	public void setId2(String id2) {
 		this.id2 = id2;
+	}
+	public void setIsMe(Boolean isMe) {
+		this.isMe = isMe;
+	}
+	public void setIsMyFriend(Boolean isMyFriend) {
+		this.isMyFriend = isMyFriend;
 	}
 	public void setCommentId1ToId2(Integer commentId1ToId2) {
 		this.commentId1ToId2 = commentId1ToId2;
