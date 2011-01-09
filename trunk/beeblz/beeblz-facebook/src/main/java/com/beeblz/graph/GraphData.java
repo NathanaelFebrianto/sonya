@@ -105,7 +105,7 @@ public class GraphData {
      * @param vg the prefuse visual graph
      * @return graph the jung graph data
      */
-    public edu.uci.ics.jung.graph.Graph<String,String> convertJungGraph(VisualGraph vg) {
+    public static edu.uci.ics.jung.graph.Graph<String,String> convertJungGraph(VisualGraph vg) {
     	
     	edu.uci.ics.jung.graph.Graph<String,String> graph = new UndirectedSparseGraph<String,String>();
 		
@@ -138,7 +138,7 @@ public class GraphData {
      * @param numEdgesToRemove
      * @return Set<Set<Long>> the clustered node set
      */
-    public Set<Set<String>> clusterGraph(VisualGraph vg, int numEdgesToRemove) {
+    public static Set<Set<String>> clusterGraph(VisualGraph vg, int numEdgesToRemove) {
     	edu.uci.ics.jung.graph.Graph<String,String> graph = convertJungGraph(vg);
     	System.out.println("graph == " + graph);
     	
@@ -156,7 +156,7 @@ public class GraphData {
 	 * @param nodeId
 	 * @return VisualItem the node
 	 */
-    public VisualItem findNode(VisualGraph vg, String nodeId) {
+    public static VisualItem findNode(VisualGraph vg, String nodeId) {
 		if (vg != null) {
 			Iterator<?> nodeIter = vg.nodes();
 			while (nodeIter.hasNext()) {
