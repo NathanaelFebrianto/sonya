@@ -35,7 +35,7 @@ public class UIHandler {
 	 * @param resource the resource name
 	 */
 	public UIHandler(String resource) {
-		texts = ResourceBundle.getBundle(resource);
+		texts = ResourceBundle.getBundle(resource, Locale.ENGLISH);
 		locale = texts.getLocale();
 	}
 
