@@ -60,7 +60,7 @@ public class UIHandler {
 			while (allDefaultKey.hasMoreElements()) {
 				String defaultKey = allDefaultKey.nextElement().toString();
 				if (defaultKey.indexOf("font") != -1) {
-					Font newDefaultFont = new Font("Arial", Font.PLAIN, 12);
+					Font newDefaultFont = new Font("Arial", Font.PLAIN, 11);
 					UIManager.put(defaultKey, newDefaultFont);
 				}
 			}

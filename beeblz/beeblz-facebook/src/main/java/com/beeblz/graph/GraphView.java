@@ -66,11 +66,33 @@ public class GraphView extends Display {
     public static final String EDGES = "graph.edges";
     public static final String AGGR = "aggregates";
     
+    private Graph graph;
+    private VisualGraph visualGraph;
+    private int clusterSize = 0;
+    
+    /**
+     * Constructor
+     * 
+     */
     public GraphView() {
-        // initialize display and data
+    	// initialize display and data
         super(new Visualization());
-        Graph graph = initDataGroups();
+        graph = new Graph();
+    }
+    
+    /**
+     * Initializes graph view with graph data.
+     * 
+     * @param graphData the graph data
+     */
+    public void initGraph(GraphData graphData) {
+    	
+    	Graph g = graphData.getGraph();
         
+        // add visual data groups
+    	setGraph(g, "social graph");
+    	this.clusterSize = clusterGraph(2, false);
+    	
         // set up the renderers        
         // draw the nodes as basic shapes
         //Renderer nodeR = new ShapeRenderer(20); 
@@ -241,7 +263,25 @@ public class GraphView extends Display {
 		});
         
         // set things running
-        m_vis.run("layout");
+        m_vis.run("layout");    	
+    }
+
+	/**
+	 * Gets the cluster size.
+	 * 
+	 * @return int the cluster size
+	 */
+    public int getClusterSize() {
+    	return this.clusterSize;
+    }
+    
+	/**
+	 * Gets the graph.
+	 * 
+	 * @return Graph the graph view
+	 */
+    public Graph getGraph() {
+    	return this.graph;
     }
     
     /**
@@ -251,32 +291,39 @@ public class GraphView extends Display {
      * @param label the label
      */
     public void setGraph(Graph g, String label) {
-        // update labeling
-        DefaultRendererFactory drf = (DefaultRendererFactory)m_vis.getRendererFactory();
-        ((LabelRenderer)drf.getDefaultRenderer()).setTextField(label);
-        
         // update graph
         m_vis.removeGroup(GRAPH);
-        VisualGraph vg = m_vis.addGraph(GRAPH, g);
+        
+        visualGraph = m_vis.addGraph(GRAPH, g);
         m_vis.setValue(EDGES, null, VisualItem.INTERACTIVE, Boolean.FALSE);
-        VisualItem f = (VisualItem)vg.getNode(0);
+        VisualItem f = (VisualItem)visualGraph.getNode(0);
         m_vis.getGroup(Visualization.FOCUS_ITEMS).setTuple(f);
         f.setFixed(false);
+        
+        this.graph = g;
     }
     
-    private Graph initDataGroups() {
-        // create graph
-        FacebookDataCollector fdc = new FacebookDataCollector();
-        GraphData graphData = fdc.getMyFriends(false);
-        
-    	Graph g = graphData.getGraph();
-        
-        // add visual data groups
-        VisualGraph vg = m_vis.addGraph(GRAPH, g);
-        m_vis.setValue(EDGES, null, VisualItem.INTERACTIVE, false);
-        VisualItem f = (VisualItem)vg.getNode(0);
-        m_vis.getGroup(Visualization.FOCUS_ITEMS).setTuple(f);
-        f.setFixed(false);
+    /**
+     * Clusters the graph.
+     * 
+     * @param numEdgesToRemove
+     * @param refresh
+     * @return int the number of clusters
+     */
+    public int clusterGraph(int numEdgesToRemove, boolean refresh) {
+    	
+    	if (refresh) {
+    		m_vis.removeGroup(GRAPH);
+            
+            visualGraph = m_vis.addGraph(GRAPH, graph);
+            m_vis.setValue(EDGES, null, VisualItem.INTERACTIVE, Boolean.FALSE);
+            VisualItem f = (VisualItem)visualGraph.getNode(0);
+            m_vis.getGroup(Visualization.FOCUS_ITEMS).setTuple(f);
+            f.setFixed(false);
+    	}
+    	
+    	// update graph
+    	m_vis.removeGroup(AGGR);
         
         AggregateTable at = m_vis.addAggregates(AGGR);
         at.addColumn(VisualItem.POLYGON, float[].class);
@@ -284,9 +331,9 @@ public class GraphView extends Display {
         
         // add nodes to aggregates
         // create an aggregate for each n-clique of nodes
-        Set<Set<String>> clusterSet = graphData.clusterGraph(vg, 2);
-        
-        System.out.println("Cluster size == " + clusterSet.size());
+        Set<Set<String>> clusterSet = GraphData.clusterGraph(visualGraph, numEdgesToRemove);
+        int size = clusterSet.size();
+        System.out.println("Cluster size == " + size);
         
 		int i = 0;
 		//Set the colors of each node so that each cluster's vertices have the same color
@@ -296,11 +343,14 @@ public class GraphView extends Display {
             aitem.setInt("id", i);
             for (Iterator<String> it = nodes.iterator(); it.hasNext();) {
             	String nodeId = (String)it.next();
-                aitem.addItem(graphData.findNode(vg, nodeId));
+                aitem.addItem(GraphData.findNode(visualGraph, nodeId));
             }
 			i++;
 		}
-        return g;
+		
+		this.clusterSize = size;
+		
+		return size;
     }
     
     public static void main(String[] argv) {
@@ -310,9 +360,14 @@ public class GraphView extends Display {
     }
     
     public static JFrame demo() {
-    	GraphView ad = new GraphView();
+    	GraphView view = new GraphView();
+    	
+        FacebookDataCollector fdc = new FacebookDataCollector();
+        GraphData graphData = fdc.getMyFriends(false);
+    	view.initGraph(graphData);
+    	
         JFrame frame = new JFrame("b e e b l z  |  g r a p h");
-        frame.getContentPane().add(ad);
+        frame.getContentPane().add(view);
         frame.pack();
         return frame;
     }
@@ -339,6 +394,9 @@ class AggregateLayout extends Layout {
     public void run(double frac) {
         
         AggregateTable aggr = (AggregateTable)m_vis.getGroup(m_group);
+        
+        if (aggr == null)  	return;
+        
         // do we have any  to process?
         int num = aggr.getTupleCount();
         if ( num == 0 ) return;
