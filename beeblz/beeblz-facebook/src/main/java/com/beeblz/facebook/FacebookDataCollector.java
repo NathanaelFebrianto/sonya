@@ -85,8 +85,10 @@ public class FacebookDataCollector {
 				
 				long target = Long.valueOf(friend.getId()).longValue();				
 				graph.addNode(target, friend.getName(), friend.getPicture());				
-				if (includeMe)
+				if (includeMe) {
 					graph.addEdge(source, target, 0.5);
+					graph.addEdge(target, source, 0.5);
+				}					
 				
 				// insert into vertex database
 				Vertex vf = new Vertex();
@@ -98,13 +100,21 @@ public class FacebookDataCollector {
 				VertexManager.insert(vf);
 				
 				// insert into edge database
-				Edge ef = new Edge();
-				ef.setId(me.getId() + friend.getId());
-				ef.setId1(me.getId());
-				ef.setId2(friend.getId());
-				ef.setIsMe(true);
-				ef.setIsMyFriend(true);
-				EdgeManager.insert(ef);				
+				Edge ef1 = new Edge();
+				ef1.setId(me.getId() + friend.getId());
+				ef1.setId1(me.getId());
+				ef1.setId2(friend.getId());
+				ef1.setIsMe(true);
+				ef1.setIsMyFriend(true);
+				EdgeManager.insert(ef1);
+				
+				Edge ef2 = new Edge();
+				ef2.setId(friend.getId() + me.getId());
+				ef2.setId1(friend.getId());
+				ef2.setId2(me.getId());
+				ef2.setIsMe(true);
+				ef2.setIsMyFriend(true);
+				EdgeManager.insert(ef2);
 			}
 			
 			// get mutual friends

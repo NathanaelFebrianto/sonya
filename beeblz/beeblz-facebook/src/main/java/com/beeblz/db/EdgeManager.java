@@ -25,24 +25,17 @@ public class EdgeManager {
 		+ "id2 varchar(20), "
 		+ "is_me char(1), "
 		+ "is_my_friend char(1), "
-		+ "comment_id1_to_id2 integer, "
-		+ "like_id1_to_id2 integer, "
-		+ "comment_id2_to_id1 integer, "
-		+ "like_id2_to_id1 integer, "
-		+ "closeness_id1_to_id2 integer, "
-		+ "closeness_id2_to_id1 integer, "
-		+ "mutual_closeness integer, "
+		+ "comment_count integer, "
+		+ "like_count integer, "
 		+ "PRIMARY KEY (id, id1, id2)"
 		+ ")";
 	private static final String SELECT_SQL = 
-		"SELECT id, id1, id2, is_me, is_my_friend, comment_id1_to_id2, like_id1_to_id2, "
-		+ "comment_id2_to_id1, like_id2_to_id1, closeness_id1_to_id2, closeness_id2_to_id1, mutual_closeness "
+		"SELECT id, id1, id2, is_me, is_my_friend, comment_count, like_count "
 		+ "FROM edge ";
 	private static final String INSERT_SQL = 
 		"INSERT INTO edge (" 
-		+ "id, id1, id2, is_me, is_my_friend, comment_id1_to_id2, like_id1_to_id2, "
-		+ "comment_id2_to_id1, like_id2_to_id1, closeness_id1_to_id2, closeness_id2_to_id1, mutual_closeness) " 
-		+ "VALUES (?,?,?,?,?,?,?,?,?,?,?,?)";
+		+ "id, id1, id2, is_me, is_my_friend, comment_count, like_count) "
+		+ "VALUES (?,?,?,?,?,?,?)";
 	
 	/**
 	 * This guarantees that the table needed for this class already exists by
@@ -87,13 +80,8 @@ public class EdgeManager {
 				edge.setId2(cursor.getString(3));
 				edge.setIsMe(cursor.getBoolean(4));
 				edge.setIsMyFriend(cursor.getBoolean(5));
-				edge.setCommentId1ToId2(cursor.getInt(6));
-				edge.setLikeId1ToId2(cursor.getInt(7));
-				edge.setCommentId2ToId1(cursor.getInt(8));
-				edge.setLikeId2ToId1(cursor.getInt(9));
-				edge.setClosenessId1ToId2(cursor.getInt(10));
-				edge.setClosenessId2ToId1(cursor.getInt(11));
-				edge.setMutualCloseness(cursor.getInt(12));
+				edge.setCommentCount(cursor.getInt(6));
+				edge.setLikeCount(cursor.getInt(7));
 				edges.add(edge);
 			}
 		} catch (SQLException e) {
@@ -117,13 +105,8 @@ public class EdgeManager {
 			ps.setString(3, edge.getId2());
 			ps.setBoolean(4, edge.getIsMe());
 			ps.setBoolean(5, edge.getIsMyFriend());
-			ps.setInt(6, edge.getCommentId1ToId2());
-			ps.setInt(7, edge.getLikeId1ToId2());
-			ps.setInt(8, edge.getCommentId2ToId1());
-			ps.setInt(9, edge.getLikeId2ToId1());
-			ps.setInt(10, edge.getClosenessId1ToId2());
-			ps.setInt(11, edge.getClosenessId2ToId1());
-			ps.setInt(12, edge.getMutualCloseness());
+			ps.setInt(6, edge.getCommentCount());
+			ps.setInt(7, edge.getLikeCount());
 			ps.executeUpdate();
 			
 			System.out.println("Edge is saved. new id = " + edge.getId());
@@ -180,20 +163,10 @@ public class EdgeManager {
 			sql.append(", ").append("is_me=").append("'1'");
 		if (edge.getIsMyFriend() != null && edge.getIsMyFriend() == true)	
 			sql.append(", ").append("is_my_friend=").append("'1'");
-		if (edge.getCommentId1ToId2() >= 0)	
-			sql.append(", ").append("comment_id1_to_id2=").append(edge.getCommentId1ToId2());
-		if (edge.getLikeId1ToId2() >= 0)	
-			sql.append(", ").append("like_id1_to_id2=").append(edge.getLikeId1ToId2());
-		if (edge.getCommentId2ToId1() >= 0)	
-			sql.append(", ").append("comment_id2_to_id1=").append(edge.getCommentId2ToId1());
-		if (edge.getLikeId2ToId1() >= 0)	
-			sql.append(", ").append("like_id2_to_id1=").append(edge.getLikeId2ToId1());
-		if (edge.getClosenessId1ToId2() >= 0)	
-			sql.append(", ").append("closeness_id1_to_id2=").append(edge.getClosenessId1ToId2());
-		if (edge.getClosenessId2ToId1() >= 0)	
-			sql.append(", ").append("closeness_id2_to_id1=").append(edge.getClosenessId2ToId1());
-		if (edge.getMutualCloseness() >= 0)	
-			sql.append(", ").append("mutual_closeness=").append(edge.getMutualCloseness());
+		if (edge.getCommentCount() >= 0)	
+			sql.append(", ").append("comment_count=").append(edge.getCommentCount());
+		if (edge.getLikeCount() >= 0)	
+			sql.append(", ").append("like_id1_to_id2=").append(edge.getLikeCount());
 		sql.append(" WHERE id=?");
 		
 		System.out.println(sql.toString());

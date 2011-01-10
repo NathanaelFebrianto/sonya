@@ -88,7 +88,7 @@ public class GraphToolbar extends JPanel {
 		lblClusterSize = new JLabel(String.valueOf(graphView.getClusterSize()));
 		
 		final JSlider sliderClustering = new JSlider(JSlider.HORIZONTAL);
-		sliderClustering.setBackground(Color.WHITE);
+		//sliderClustering.setBackground(Color.WHITE);
 		//sliderClustering.setMaximum(graph.getEdges().getTupleCount());
 		sliderClustering.setMaximum(100);
 		sliderClustering.setMinimum(2);
