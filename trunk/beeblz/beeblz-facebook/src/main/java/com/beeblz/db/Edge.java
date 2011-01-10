@@ -18,13 +18,8 @@ public class Edge implements Serializable {
 	private String id2 = "";
 	private Boolean isMe = false;
 	private Boolean isMyFriend = false;
-	private Integer commentId1ToId2 = 0;
-	private Integer likeId1ToId2 = 0;
-	private Integer commentId2ToId1 = 0;
-	private Integer likeId2ToId1 = 0;
-	private Integer closenessId1ToId2 = 0;
-	private Integer closenessId2ToId1 = 0;
-	private Integer mutualCloseness = 0;
+	private Integer commentCount = 0;
+	private Integer likeCount = 0;
 	
 	public String getId() {
 		return id;
@@ -41,26 +36,11 @@ public class Edge implements Serializable {
 	public Boolean getIsMyFriend() {
 		return isMyFriend;
 	}
-	public Integer getCommentId1ToId2() {
-		return commentId1ToId2;
+	public Integer getCommentCount() {
+		return commentCount;
 	}
-	public Integer getLikeId1ToId2() {
-		return likeId1ToId2;
-	}
-	public Integer getCommentId2ToId1() {
-		return commentId2ToId1;
-	}
-	public Integer getLikeId2ToId1() {
-		return likeId2ToId1;
-	}
-	public Integer getClosenessId1ToId2() {
-		return closenessId1ToId2;
-	}
-	public Integer getClosenessId2ToId1() {
-		return closenessId2ToId1;
-	}
-	public Integer getMutualCloseness() {
-		return mutualCloseness;
+	public Integer getLikeCount() {
+		return likeCount;
 	}
 	public void setId(String id) {
 		this.id = id;
@@ -77,26 +57,11 @@ public class Edge implements Serializable {
 	public void setIsMyFriend(Boolean isMyFriend) {
 		this.isMyFriend = isMyFriend;
 	}
-	public void setCommentId1ToId2(Integer commentId1ToId2) {
-		this.commentId1ToId2 = commentId1ToId2;
+	public void setCommentCount(Integer commentCount) {
+		this.commentCount = commentCount;
 	}
-	public void setLikeId1ToId2(Integer likeId1ToId2) {
-		this.likeId1ToId2 = likeId1ToId2;
-	}
-	public void setCommentId2ToId1(Integer commentId2ToId1) {
-		this.commentId2ToId1 = commentId2ToId1;
-	}
-	public void setLikeId2ToId1(Integer likeId2ToId1) {
-		this.likeId2ToId1 = likeId2ToId1;
-	}
-	public void setClosenessId1ToId2(Integer closenessId1ToId2) {
-		this.closenessId1ToId2 = closenessId1ToId2;
-	}
-	public void setClosenessId2ToId1(Integer closenessId2ToId1) {
-		this.closenessId2ToId1 = closenessId2ToId1;
-	}
-	public void setMutualCloseness(Integer mutualCloseness) {
-		this.mutualCloseness = mutualCloseness;
+	public void setLikeCount(Integer likeCount) {
+		this.likeCount = likeCount;
 	}
 
 }

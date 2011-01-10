@@ -14,6 +14,7 @@ import java.util.Random;
 
 import javax.swing.JComboBox;
 import javax.swing.JComponent;
+import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JProgressBar;
@@ -272,7 +273,18 @@ public class GraphPanel extends JPanel implements PropertyChangeListener {
         	setCursor(null); //turn off the wait cursor
         	progressBar.setValue(0);
         	progressBar.setString("done!");
+        	//graphView.getVisualization().cancel("layout");
         }
+    }
+    
+    public static void main(String[] args) {
+        JFrame frame = new JFrame("g r a p h v i e w");
+        GraphPanel panelGraph = new GraphPanel();        			
+        frame.setContentPane(panelGraph);
+        frame.pack();
+        frame.setVisible(true);
+        
+        panelGraph.init();       
     }
 
 }
