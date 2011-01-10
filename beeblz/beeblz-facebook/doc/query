@@ -1,0 +1,10 @@
+/* gets one's friends. */
+SELECT e.id1, e.id2, v.name, v.picture, v.cluster, v.is_me, 
+v.is_my_friend, v.mutual_friend_count 
+FROM edge e LEFT JOIN vertex v ON e.id2 = v.id
+WHERE e.id1='581268892'
+
+SELECT e.id1, e.id2, v.name, v.picture, v.cluster, v.is_me, 
+v.is_my_friend, v.mutual_friend_count 
+FROM edge e LEFT JOIN vertex v ON e.id1 = v.id
+WHERE e.id2='581268892'
