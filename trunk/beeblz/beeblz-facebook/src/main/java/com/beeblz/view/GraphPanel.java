@@ -270,6 +270,7 @@ public class GraphPanel extends JPanel implements PropertyChangeListener {
         @Override
         public void done() {
         	setCursor(null); //turn off the wait cursor
+        	progressBar.setValue(0);
         	progressBar.setString("done!");
         }
     }
