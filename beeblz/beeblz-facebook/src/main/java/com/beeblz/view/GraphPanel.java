@@ -108,8 +108,17 @@ public class GraphPanel extends JPanel implements PropertyChangeListener {
      */
     public void initGraph(GraphData graphData) {
     	graphView.initGraph(graphData);
+    	
+    	// update the cluster size label in toolbar.
     	toolbar.updateClusterSizeLabel(graphView.getClusterSize());
-    	this.updateClusterComboBox();    	
+    	
+		// update the maximum value of clustering slider in toolbar.
+		int maxEdges = graphView.getGraph().getEdges().getTupleCount();
+		System.out.println("total edge count == " + maxEdges);
+		toolbar.updateClusteringSliderMaximum(maxEdges/4);
+		
+    	// update cluster combo box.
+		this.updateClusterComboBox();    
     }
 	
 	/**
@@ -272,8 +281,9 @@ public class GraphPanel extends JPanel implements PropertyChangeListener {
         public void done() {
         	setCursor(null); //turn off the wait cursor
         	progressBar.setValue(0);
-        	progressBar.setString("done!");
-        	//graphView.getVisualization().cancel("layout");
+        	progressBar.setString("done!");      	
+        	
+    		//graphView.getVisualization().cancel("layout");
         }
     }
     

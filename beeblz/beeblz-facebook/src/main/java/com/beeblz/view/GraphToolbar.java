@@ -42,6 +42,8 @@ public class GraphToolbar extends JPanel {
 	
 	JLabel lblClusterSize;
 	
+	JSlider sliderClustering;
+	
 	/**
 	 * Constructor.
 	 * 
@@ -69,6 +71,15 @@ public class GraphToolbar extends JPanel {
 	}
 	
 	/**
+	 * Updates the maximum value of the clustering slider bar.
+	 * 
+	 * @param max the maximum value
+	 */
+	public void updateClusteringSliderMaximum(int max) {
+		sliderClustering.setMaximum(max);
+	}
+	
+	/**
 	 * Creates a tool bar.
 	 */
 	private void createToolbar() {
@@ -87,9 +98,8 @@ public class GraphToolbar extends JPanel {
 		
 		lblClusterSize = new JLabel(String.valueOf(graphView.getClusterSize()));
 		
-		final JSlider sliderClustering = new JSlider(JSlider.HORIZONTAL);
+		sliderClustering = new JSlider(JSlider.HORIZONTAL);
 		//sliderClustering.setBackground(Color.WHITE);
-		//sliderClustering.setMaximum(graph.getEdges().getTupleCount());
 		sliderClustering.setMaximum(100);
 		sliderClustering.setMinimum(2);
 		sliderClustering.setValue(2);
