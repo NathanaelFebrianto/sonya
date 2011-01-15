@@ -14,7 +14,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.beeblz.webapp.model.Message;
-import com.beeblz.webapp.server.MessageRepository;
+import com.beeblz.webapp.service.MessageRepository;
 
 public class SampleServlet extends HttpServlet {
 

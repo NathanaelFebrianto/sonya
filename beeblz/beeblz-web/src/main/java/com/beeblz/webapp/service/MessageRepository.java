@@ -1,5 +1,5 @@
 
-package com.beeblz.webapp.server;
+package com.beeblz.webapp.service;
 
 import java.util.ArrayList;
 import java.util.Collection;
