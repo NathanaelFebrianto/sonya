@@ -9,12 +9,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 
-import javax.servlet.Filter;
-import javax.servlet.FilterChain;
 import javax.servlet.FilterConfig;
 import javax.servlet.ServletException;
-import javax.servlet.ServletRequest;
-import javax.servlet.ServletResponse;
+import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -24,40 +21,39 @@ import org.slf4j.LoggerFactory;
 import com.visural.common.StringUtil;
 
 /**
- * Fiter to get the facebook oAuth access token.
+ * Servlet to get the facebook oAuth access token.
  * 
  * @author YoungGue Bae
  */
-public class FacebookOAuth implements Filter {
+public class FacebookOAuthServlet extends HttpServlet {
 	
-	private static final Logger log = LoggerFactory.getLogger(FacebookOAuth.class);
+	private static final Logger log = LoggerFactory.getLogger(FacebookOAuthServlet.class.getName());
 	
 	public void init(FilterConfig fc) throws ServletException {
 		log.debug("FacebookOAuth init...........");		
 	}
 
-	public void doFilter(ServletRequest sr, ServletResponse sr1, FilterChain fc)
-			throws IOException, ServletException {
-		log.debug("FacebookOAuth doFilter...........");
+	@Override
+	public void doGet(HttpServletRequest request,
+			HttpServletResponse response) throws ServletException, IOException {
+		log.info("FacebookOAuth doFilter...........");
 		
-		HttpServletRequest req = (HttpServletRequest) sr;
-		HttpServletResponse res = (HttpServletResponse) sr1;
-		String code = sr.getParameter("code");
-		String token = sr.getParameter("fb_access_token");
+		String code = request.getParameter("code");
+		String token = request.getParameter("fb_access_token");
 		
-		log.debug("facebook:code == " + code);
+		log.info("facebook:code == " + code);
 		
 		if (StringUtil.isNotBlankStr(token)) {
 			return;
 		} else if (StringUtil.isBlankStr(code)) {
 			String loginURL = Facebook.getLoginRedirectURL();
-			log.debug("facebook:loginURL == " + loginURL);
+			log.info("facebook:loginURL == " + loginURL);
 			
-			res.sendRedirect(loginURL);
+			response.sendRedirect(loginURL);
 			return;
 		} else {
 			String authURL = Facebook.getAuthURL(code);
-			log.debug("facebook:authURL == " + authURL);
+			log.info("facebook:authURL == " + authURL);
 			URL url = new URL(authURL);
 			try {
 				String result = readURL(url);
@@ -81,8 +77,8 @@ public class FacebookOAuth implements Filter {
 				}
 				//if (accessToken != null && expires != null) {
 				if (accessToken != null) {
-					log.debug("accessToken == " + accessToken);
-					res.sendRedirect("http://bee-blz.appspot.com/facebook/socialGraph.jsp?fb_access_token="+accessToken);
+					log.info("accessToken == " + accessToken);
+					response.sendRedirect("http://bee-blz.appspot.com/facebook/socialGraph.jsp?fb_access_token="+accessToken);
 					return;					
 				} else {
 					throw new RuntimeException("Access token and expires not found");
@@ -92,6 +88,11 @@ public class FacebookOAuth implements Filter {
 				throw new RuntimeException(e);
 			} 
 		}
+	}
+	
+	@Override
+	public void doPost(HttpServletRequest request,
+			HttpServletResponse response) throws ServletException, IOException {
 	}
 
 	private String readURL(URL url) throws IOException {

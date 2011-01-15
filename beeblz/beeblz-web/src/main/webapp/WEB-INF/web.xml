@@ -5,26 +5,23 @@
     xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
     version="2.5">
 
-	<!-- Filters -->
-	<filter>
-        <filter-name>fbauth</filter-name>
-        <filter-class>com.beeblz.webapp.web.FacebookOAuth</filter-class>
-    </filter>
-    
-    <filter-mapping>
-        <filter-name>fbauth</filter-name>
-        <url-pattern>/facebook/*</url-pattern>
-    </filter-mapping>
-
 	<!-- Servlets -->
+	<servlet>
+        <servlet-name>fbauth</servlet-name>
+        <servlet-class>com.beeblz.webapp.web.FacebookOAuthServlet</servlet-class>
+    </servlet>
     <servlet>
-        <servlet-name>IndexServlet</servlet-name>
-        <servlet-class>com.beeblz.webapp.web.IndexServlet</servlet-class>
+        <servlet-name>sample</servlet-name>
+        <servlet-class>com.beeblz.webapp.web.SampleServlet</servlet-class>
     </servlet>
 
+	<servlet-mapping>
+        <servlet-name>fbauth</servlet-name>
+        <url-pattern>/facebook/*</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>IndexServlet</servlet-name>
-        <url-pattern>/index</url-pattern>
+        <servlet-name>sample</servlet-name>
+        <url-pattern>/sample</url-pattern>
     </servlet-mapping>
 
     <welcome-file-list>
