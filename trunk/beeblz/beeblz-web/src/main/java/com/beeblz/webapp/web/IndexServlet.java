@@ -10,17 +10,16 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.beeblz.webapp.model.Message;
-import com.beeblz.webapp.server.MessageRepository;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import com.beeblz.webapp.model.Message;
+import com.beeblz.webapp.server.MessageRepository;
 
 public class IndexServlet extends HttpServlet {
 
 	@SuppressWarnings("unused")
-	private static final Logger log = LoggerFactory
-			.getLogger(IndexServlet.class);
+	private static final Logger log = LoggerFactory.getLogger(IndexServlet.class);
 
 	private MessageRepository messageRepository = new MessageRepository();
 	
@@ -103,4 +102,5 @@ public class IndexServlet extends HttpServlet {
 			}
 		}
 	}
+
 }
