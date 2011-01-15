@@ -16,10 +16,10 @@ import org.slf4j.LoggerFactory;
 import com.beeblz.webapp.model.Message;
 import com.beeblz.webapp.server.MessageRepository;
 
-public class IndexServlet extends HttpServlet {
+public class SampleServlet extends HttpServlet {
 
 	@SuppressWarnings("unused")
-	private static final Logger log = LoggerFactory.getLogger(IndexServlet.class);
+	private static final Logger log = LoggerFactory.getLogger(SampleServlet.class.getName());
 
 	private MessageRepository messageRepository = new MessageRepository();
 	
