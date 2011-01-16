@@ -18,7 +18,7 @@ public class Facebook {
 	private static final String client_id = "174260895927181";
 
 	// set this to your servlet URL for the authentication servlet/filter
-	private static final String redirect_uri = "http://bee-blz.appspot.com/facebook/";
+	private static final String redirect_uri = "http://bee-blz.appspot.com/fbauth/";
 
 	// set this to the list of extended permissions you want
 	private static final String[] perms = new String[] { 

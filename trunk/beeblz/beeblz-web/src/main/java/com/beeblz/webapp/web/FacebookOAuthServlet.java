@@ -45,7 +45,7 @@ public class FacebookOAuthServlet extends HttpServlet {
 		
 		if (StringUtil.isNotBlankStr(token)) {
 			return;
-		} else if (StringUtil.isBlankStr(code)) {
+		} else if (StringUtil.isBlankStr(token) && StringUtil.isBlankStr(code)) {
 			String loginURL = Facebook.getLoginRedirectURL();
 			log.info("facebook:loginURL == " + loginURL);
 			
@@ -78,7 +78,9 @@ public class FacebookOAuthServlet extends HttpServlet {
 				//if (accessToken != null && expires != null) {
 				if (accessToken != null) {
 					log.info("accessToken == " + accessToken);
+					//response.sendRedirect("http://localhost:8080/facebook/socialGraph.jsp?fb_access_token="+accessToken);
 					response.sendRedirect("http://bee-blz.appspot.com/facebook/socialGraph.jsp?fb_access_token="+accessToken);
+					
 					return;					
 				} else {
 					throw new RuntimeException("Access token and expires not found");
