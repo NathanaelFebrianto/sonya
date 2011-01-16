@@ -6,7 +6,7 @@
 	<!-- The Basics -->
 	<groupId>com.beeblz</groupId>
 	<artifactId>beeblz-web</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1.0</version>
 	<packaging>war</packaging>
 
 	<name>Beeblz</name>
@@ -14,7 +14,7 @@
 	<repositories>
 		<!-- http://code.google.com/p/visural-common/ -->
 		<repository>
-			<id>visural-common</id>
+			<id>visural-common</id> 
 			<name>visural-common</name>
 			<url>http://visural-common.googlecode.com/svn/trunk/visural-common/maven/</url>
 		</repository>
@@ -122,6 +122,14 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		
+		<!-- Beeblz -->
+		<dependency>
+			<groupId>com.beeblz</groupId>
+			<artifactId>beeblz-facebook</artifactId>
+			<version>0.1.0</version>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
@@ -232,6 +240,7 @@
 					<target>1.6</target>
 				</configuration>
 			</plugin>
+			
 		</plugins>
 	</build>
 
