@@ -13,11 +13,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import com.beeblz.db.Edge;
+import com.beeblz.db.Edge; 
 import com.beeblz.db.EdgeManager;
 import com.beeblz.db.Vertex;
 import com.beeblz.db.VertexManager;
 import com.beeblz.graph.GraphData;
+import com.beeblz.view.GraphPanel.CollectTask;
 import com.restfb.Connection;
 import com.restfb.DefaultFacebookClient;
 import com.restfb.Facebook;
@@ -36,6 +37,7 @@ public class FacebookDataCollector {
 	private String accessToken;
 
 	private FacebookClient facebookClient;
+	private CollectTask task;
 
 	/**
 	 * Constructor.
@@ -44,6 +46,17 @@ public class FacebookDataCollector {
 	 */
 	public FacebookDataCollector(String accessToken) {
 		this.facebookClient = new DefaultFacebookClient(accessToken);
+	}
+	
+	/**
+	 * Constructor.
+	 * 
+	 * @param accessToken the access token
+	 * @param task the swing worker
+	 */
+	public FacebookDataCollector(String accessToken, CollectTask task) {
+		this.facebookClient = new DefaultFacebookClient(accessToken);
+		this.task = task;
 	}
 
 	/**
@@ -56,11 +69,15 @@ public class FacebookDataCollector {
 		GraphData graph = new GraphData();
 		
 		try {
+			progress();
+			
 			Parameter[] parameters = {Parameter.with("fields",	"id, name, email, picture, work")};
 			
 			com.restfb.types.User me = facebookClient.fetchObject("me", com.restfb.types.User.class, parameters);
 			System.out.println("User name: " + me.getName());
 			System.out.println("User ID: " + me.getId());
+			
+			progress();
 			
 			long source = Long.valueOf(me.getId()).longValue();
 			if (includeMe)
@@ -79,10 +96,14 @@ public class FacebookDataCollector {
 			v.setIsMe(true);
 			VertexManager.insert(v);
 			
+			progress();
+			
 			// get my friends
 			Connection<com.restfb.types.User> myFriends
 				= facebookClient.fetchConnection("me/friends", com.restfb.types.User.class, parameters);
-			System.out.println("Count of my friends: " + myFriends.getData().size());			
+			System.out.println("Count of my friends: " + myFriends.getData().size());
+			
+			progress();
 
 			for (int i = 0; i < myFriends.getData().size(); i++) {
 				com.restfb.types.User friend = (com.restfb.types.User)myFriends.getData().get(i);
@@ -120,6 +141,9 @@ public class FacebookDataCollector {
 				ef2.setIsMe(true);
 				ef2.setIsMyFriend(true);
 				EdgeManager.insert(ef2);
+				
+				if (i%2 == 0)
+					progress();
 			}
 			
 			// get mutual friends
@@ -141,7 +165,10 @@ public class FacebookDataCollector {
 				em.setId2(mutualFriend.uid2);
 				em.setIsMe(false);
 				em.setIsMyFriend(true);
-				EdgeManager.insert(em);	
+				EdgeManager.insert(em);
+				
+				if (i%20 == 0)
+					progress();
 			}
 		} catch (Exception ex) {
 			ex.printStackTrace();
@@ -561,6 +588,12 @@ public class FacebookDataCollector {
 		return result;	
 	}
 
+	private void progress() {
+		if (task != null) {
+			task.progress(2);
+		}
+	}
+	
 	private String getTimeDaysBefore(int day) {
 		Calendar cal = Calendar.getInstance();
 
@@ -571,7 +604,7 @@ public class FacebookDataCollector {
 
 		return String.valueOf(time).substring(0, 10);
 	}
-
+	
 	public static void main(String[] args) {
 		FacebookDataCollector collector = new FacebookDataCollector(args[0]);		
 		collector.getMyFriends(false);

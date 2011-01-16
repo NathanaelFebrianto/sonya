@@ -4,9 +4,15 @@
  */
 package com.beeblz.view;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
 import javax.swing.JApplet;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
+
+import com.beeblz.db.DbManager;
 
 /**
  * Graph applet.
@@ -36,8 +42,9 @@ public class GraphApplet extends JApplet {
 				
 				String accessToken = getParameter("access_token");
 				String alignment = getParameter("alignment");
-				accessToken = "174260895927181|1aa4354dcc3866c06f5cc712-708185302|6ablX5Oibz8_9XJGJf5gHesceR0";
-				alignment = "vertical";
+				
+				// just for test
+				//accessToken = "174260895927181|1a5694cf627f262374c974bd-1480697938|EYTy5jF8f6ph2cesWyY7jFjICV4";
 				
 				panelGraph = new GraphPanel(getAppletContext(), accessToken, alignment);
 				getContentPane().add(panelGraph);
@@ -49,6 +56,13 @@ public class GraphApplet extends JApplet {
 	}
 
 	public void destroy() {
+		try {
+			Connection conn = DriverManager.getConnection(DbManager.DB_URL);
+			conn.close();
+			System.out.println("DB connection[" + DbManager.DB_URL + "] is closed.");
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	public static JApplet getInstance() {

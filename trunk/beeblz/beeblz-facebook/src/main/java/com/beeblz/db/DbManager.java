@@ -14,6 +14,9 @@ import java.sql.SQLException;
  * @author YoungGue Bae
  */
 public class DbManager {
+	
+	public static final String DB_URL = "jdbc:derby:beeblz_" + System.currentTimeMillis() + ";create=true";
+	
 	static{
 		try {
 			Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
@@ -24,7 +27,7 @@ public class DbManager {
 	
 	public static Connection getConnection(){
 		try {
-			Connection conn = DriverManager.getConnection("jdbc:derby:beeblz;create=true");
+			Connection conn = DriverManager.getConnection(DB_URL);
 			//Connection conn = DriverManager.getConnection("jdbc:derby:C:\\Users\\Louie\\MyDB;create=true");
 			return conn;
 		} catch (SQLException e) {

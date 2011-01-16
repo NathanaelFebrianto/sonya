@@ -34,7 +34,7 @@ import com.beeblz.graph.GraphView;
  * 
  * @author YoungGue Bae
  */
-public class GraphPanel extends JPanel implements PropertyChangeListener {
+public class GraphPanel extends JPanel { 
 	
 	private static final long serialVersionUID = -5520707258678283156L;
 
@@ -102,9 +102,17 @@ public class GraphPanel extends JPanel implements PropertyChangeListener {
 	 */
 	public void init() {
 		setCursor(Cursor.getPredefinedCursor(Cursor.WAIT_CURSOR));
-		Task task = new Task();
-		task.addPropertyChangeListener(this);
-        task.execute();
+		
+		CollectTask task = new CollectTask();
+		task.addPropertyChangeListener(new PropertyChangeListener() {
+			public void propertyChange(PropertyChangeEvent evt) {
+				if ("progress".equals(evt.getPropertyName())) {
+					progressBar.setValue((Integer) evt.getNewValue());
+				}
+			}
+		});
+
+		task.execute();
 	}
 	
     /**
@@ -119,16 +127,16 @@ public class GraphPanel extends JPanel implements PropertyChangeListener {
     	toolbar.updateClusterSizeLabel(graphView.getClusterSize());
     	
 		// update the maximum value of clustering slider in toolbar.
-    	this.updateClusteringSliderMaximum();
+    	this.updateClusteringSliderBar();
 		
     	// update cluster combo box.
 		this.updateClusterComboBox();    
     }
 	
     /**
-     * Updates the maximum value of clustering slider in toolbar.
+     * Updates the value of clustering slider in toolbar.
      */
-    private void updateClusteringSliderMaximum() {
+    private void updateClusteringSliderBar() {
 		int numEdges = graphView.getGraph().getEdges().getTupleCount();
 		System.out.println("total edge count == " + numEdges);
 		
@@ -138,7 +146,13 @@ public class GraphPanel extends JPanel implements PropertyChangeListener {
 		else 
 			maxEdges = numEdges/4;
 		
-		toolbar.updateClusteringSliderMaximum(maxEdges);    	
+		int numEdgesToRemove = 0;
+		if (numEdges < 6)
+			numEdgesToRemove = 0;
+		else 
+			numEdgesToRemove = 6;
+		
+		toolbar.updateClusteringSliderBar(maxEdges, numEdgesToRemove);    	
     }
     
 	/**
@@ -162,22 +176,15 @@ public class GraphPanel extends JPanel implements PropertyChangeListener {
 		}
 	}
 	
-    /**
-     * Invoked when task's progress property changes.
-     */
-    public void propertyChange(PropertyChangeEvent evt) {
-        if ("progress" == evt.getPropertyName()) {
-            int progress = (Integer) evt.getNewValue();
-            progressBar.setValue(progress);
-        } 
-    }
-	
 	private void setupUI(String alignment) {
 		setLayout(new BorderLayout());
 
 		// create a content panel		
 		JComponent panelGraph = createGraphPanel();
 		JComponent panelList = createListPanel();
+		
+		if (alignment == null) 
+			alignment = "horizontal";
 		
 		if (alignment.equalsIgnoreCase("vertical")) {
 			spaneContent = new JSplitPane(JSplitPane.VERTICAL_SPLIT);
@@ -273,32 +280,34 @@ public class GraphPanel extends JPanel implements PropertyChangeListener {
 		return tpaneTopTable;
 	}
 	
-    class Task extends SwingWorker<Void, Void> {
+    public class CollectTask extends SwingWorker<Void, Void> {
         /*
          * Main task. Executed in background thread.
          */
         @Override
         public Void doInBackground() {
-            Random random = new Random();
-            int progress = 0;
             //Initialize progress property.
             setProgress(0);
             
             //Collect facebook data.
-            FacebookDataCollector fdc = new FacebookDataCollector(accessToken);
+            FacebookDataCollector fdc = new FacebookDataCollector(accessToken, CollectTask.this);
 	        GraphData graphData = fdc.getMyFriends(false);
 			initGraph(graphData);
-            
-            while (progress < 100) {
-                //Sleep for up to one second.
-                try {
-                    Thread.sleep(random.nextInt(500));
-                } catch (InterruptedException ignore) {}
-                //Make random progress.
-                progress += random.nextInt(10);
-                setProgress(Math.min(progress, 100));
-            }
+
             return null;
+        }
+        
+        /*
+         * Sets the progress bound property. The value should be from 0 to 100
+         */
+        public void progress(int amount) {         	
+        	Random random = new Random();
+    		int progress = getProgress();
+    		System.out.println("progress == " + progress);
+    		if (progress < 100) {
+    			progress += random.nextInt(amount);
+    			setProgress(Math.min(progress, 100));
+    		}
         }
 
         /*
@@ -308,7 +317,7 @@ public class GraphPanel extends JPanel implements PropertyChangeListener {
         public void done() {
         	setCursor(null); //turn off the wait cursor
         	progressBar.setValue(0);
-        	progressBar.setString("done!");      	
+        	progressBar.setString("");      	
         	
     		//graphView.getVisualization().cancel("layout");
         }
