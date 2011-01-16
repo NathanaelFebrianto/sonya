@@ -4,7 +4,6 @@
  */
 package com.beeblz.view;
 
-import java.awt.Color;
 import java.awt.FlowLayout;
 import java.awt.event.ActionEvent;
 
@@ -74,9 +73,11 @@ public class GraphToolbar extends JPanel {
 	 * Updates the maximum value of the clustering slider bar.
 	 * 
 	 * @param max the maximum value
+	 * @param value the value
 	 */
-	public void updateClusteringSliderMaximum(int max) {
+	public void updateClusteringSliderBar(int max, int value) {
 		sliderClustering.setMaximum(max);
+		sliderClustering.setValue(value);
 	}
 	
 	/**

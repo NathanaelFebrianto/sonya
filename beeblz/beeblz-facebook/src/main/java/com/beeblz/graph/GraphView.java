@@ -92,13 +92,16 @@ public class GraphView extends Display {
         // add visual data groups
     	setGraph(g, "social graph");
     	
+    	/*
     	int numEdges = g.getEdges().getTupleCount();
 		int numEdgesToRemove = 0;
-		if (numEdges == 0)
+		if (numEdges < 6)
 			numEdgesToRemove = 0;
 		else 
-			numEdgesToRemove = 1;
-		
+			numEdgesToRemove = 6;
+		*/
+    	int numEdgesToRemove = 0;
+    	
    		this.clusterSize = clusterGraph(numEdgesToRemove, false);
     	
         // set up the renderers        
