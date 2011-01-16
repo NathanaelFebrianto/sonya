@@ -17,7 +17,7 @@
 
 	<servlet-mapping>
         <servlet-name>fbauth</servlet-name>
-        <url-pattern>/facebook/*</url-pattern>
+        <url-pattern>/fbauth/*</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>sample</servlet-name>

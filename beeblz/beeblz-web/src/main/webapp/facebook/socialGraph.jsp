@@ -5,25 +5,27 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Beeblz - Social Graph for Facebook</title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css"/>
+	<meta charset="utf-8">     
 </head>
 <body>
-
+  <p>
+  Welcome to beeblz's social graph for facebook! Please wait for a while to load...
+  </p>
 <%
 	String accessToken = request.getParameter("fb_access_token");
-
 %>
   
  <!-- Applet Area -->
 <object
     classid = "clsid:8AD9C840-044E-11D1-B3E9-00805F499D93"
     codebase = "http://java.sun.com/update/1.6.0/jinstall-6u11-windows-i586.cab#Version=6,0,0,3"
-    WIDTH = 1000 HEIGHT = 680 >
-    <PARAM NAME = CODE VALUE = com.beeblz.view.GraphApplet >
-    <param name = CODEBASE value = "/" >
-    <param name = ARCHIVE value = 
+    WIDTH = 730 HEIGHT = 750 >
+    <PARAM NAME = code VALUE = com.beeblz.view.GraphApplet >
+    <param name = codebase value = "/" >
+    <param name = cache_archive value = 
 	   		"./signedjar/beeblz-facebook.jar, ./signedjar/derby.jar, 
-	   		./signedjar/jung-algorithms.jar, ./signedjar/jung-api.jar, 
-	   		./signedjar/jung-graph-impl.jar, ./signedjar/jung-io.jar,	
+	   		./signedjar/jung-api.jar, ./signedjar/jung-graph-impl.jar, ./signedjar/jung-algorithms.jar, 
 	   		./signedjar/log4j.jar,  ./signedjar/restfb.jar,
 	   		./signedjar/substance.jar, ./signedjar/trident.jar,
 	   		./signedjar/collections-generic.jar" >
@@ -32,24 +34,25 @@
     <param name = "scriptable" value = "false">
     
     <param name = "access_token" value = <%=accessToken%>>
+    <param name = "alignment" value = "vertical">
 
     <comment>
 	<embed
             type = "application/x-java-applet;version=1.6" \
-            CODE = com.beeblz.view.GraphApplet \
-			CODEBASE = "/" \
-			ARCHIVE = 
+            code = com.beeblz.view.GraphApplet \
+			codebase = "/" \
+			cache_archive = 
 	   		"./signedjar/beeblz-facebook.jar, ./signedjar/derby.jar, 
-	   		./signedjar/jung-algorithms.jar, ./signedjar/jung-api.jar, 
-	   		./signedjar/jung-graph-impl.jar, ./signedjar/jung-io.jar,	
+	   		./signedjar/jung-api.jar, ./signedjar/jung-graph-impl.jar, ./signedjar/jung-algorithms.jar, 
 	   		./signedjar/log4j.jar,  ./signedjar/restfb.jar,
 	   		./signedjar/substance.jar, ./signedjar/trident.jar,
 	   		./signedjar/collections-generic.jar" \
-            WIDTH = 1000 \
-            HEIGHT = 680
+            width = 730 \
+            height = 750
 	    scriptable = false
 	    pluginspage = "http://java.sun.com/products/plugin/index.html#download"
-	    access_token = <%=accessToken%> >
+	    access_token = <%=accessToken%> 
+	    alignment = vertical >
 		<noembed>
             alt="Your browser understands the &lt;APPLET&gt; tag but isn't running the applet, for some reason."
 	Your browser is completely ignoring the &lt;APPLET&gt; tag!
