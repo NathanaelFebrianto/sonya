@@ -45,7 +45,7 @@ public class GraphApplet extends JApplet {
 				
 				// just for test
 				//accessToken = "174260895927181|1a5694cf627f262374c974bd-1480697938|EYTy5jF8f6ph2cesWyY7jFjICV4";
-				
+				 
 				panelGraph = new GraphPanel(getAppletContext(), accessToken, alignment);
 				getContentPane().add(panelGraph);
 				panelGraph.init();	
