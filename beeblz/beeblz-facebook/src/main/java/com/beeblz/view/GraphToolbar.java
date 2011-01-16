@@ -101,8 +101,8 @@ public class GraphToolbar extends JPanel {
 		sliderClustering = new JSlider(JSlider.HORIZONTAL);
 		//sliderClustering.setBackground(Color.WHITE);
 		sliderClustering.setMaximum(100);
-		sliderClustering.setMinimum(2);
-		sliderClustering.setValue(2);
+		sliderClustering.setMinimum(0);
+		sliderClustering.setValue(0);
 		sliderClustering.setMajorTickSpacing(1);
 		
 		sliderClustering.addChangeListener(new ChangeListener() {

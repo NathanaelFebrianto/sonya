@@ -284,8 +284,8 @@ public class GraphViewDemo extends JPanel {
         return demo((String)null, "label");
     }
     
-    public static JFrame demo(String datafile, String label) {
-    	FacebookDataCollector fdc = new FacebookDataCollector();
+    public static JFrame demo(String accessToken, String label) {
+    	FacebookDataCollector fdc = new FacebookDataCollector(accessToken);
         GraphData graphData = fdc.getMyFriends(false);
         
     	Graph g = graphData.getGraph();

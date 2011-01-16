@@ -41,6 +41,9 @@ public class GraphPanel extends JPanel implements PropertyChangeListener {
 	// applet context
 	AppletContext context = null;
 	
+	// access token
+	String accessToken = null;
+	
 	// progress bar
 	JProgressBar progressBar;
 	
@@ -73,22 +76,25 @@ public class GraphPanel extends JPanel implements PropertyChangeListener {
 	 * 
 	 */
 	public GraphPanel() {
-		this(null);
+		this(null, null, "horizontal");
 
-		setupUI();
+		setupUI("horizontal");
 	}
 	
 	/**
 	 * Constructor.
 	 * 
 	 * @param context the applet context
+	 * @param accessToken the access token
+	 * @param alignment the alignment of graph and list panel(horizontal, vertical)
 	 */
-	public GraphPanel(AppletContext context) {
+	public GraphPanel(AppletContext context, String accessToken, String alignment) {
 		this.context = context;
+		this.accessToken = accessToken;
 		UIHandler.setResourceBundle("graph");
 		UIHandler.changeAllSwingComponentDefaultFont();
 
-		setupUI();
+		setupUI(alignment);
 	}
 	
 	/**
@@ -113,14 +119,28 @@ public class GraphPanel extends JPanel implements PropertyChangeListener {
     	toolbar.updateClusterSizeLabel(graphView.getClusterSize());
     	
 		// update the maximum value of clustering slider in toolbar.
-		int maxEdges = graphView.getGraph().getEdges().getTupleCount();
-		System.out.println("total edge count == " + maxEdges);
-		toolbar.updateClusteringSliderMaximum(maxEdges/4);
+    	this.updateClusteringSliderMaximum();
 		
     	// update cluster combo box.
 		this.updateClusterComboBox();    
     }
 	
+    /**
+     * Updates the maximum value of clustering slider in toolbar.
+     */
+    private void updateClusteringSliderMaximum() {
+		int numEdges = graphView.getGraph().getEdges().getTupleCount();
+		System.out.println("total edge count == " + numEdges);
+		
+		int maxEdges = 0;
+		if (numEdges > 0 && numEdges < 4)
+			maxEdges = 1;
+		else 
+			maxEdges = numEdges/4;
+		
+		toolbar.updateClusteringSliderMaximum(maxEdges);    	
+    }
+    
 	/**
 	 * Gets the graph view.
 	 * 
@@ -152,18 +172,25 @@ public class GraphPanel extends JPanel implements PropertyChangeListener {
         } 
     }
 	
-	private void setupUI() {
+	private void setupUI(String alignment) {
 		setLayout(new BorderLayout());
 
-		// create a content panel
-		spaneContent = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT);
-		JComponent panelLeft = createLeftPanel();
-		JComponent panelRight = createRightPanel();
-
+		// create a content panel		
+		JComponent panelGraph = createGraphPanel();
+		JComponent panelList = createListPanel();
+		
+		if (alignment.equalsIgnoreCase("vertical")) {
+			spaneContent = new JSplitPane(JSplitPane.VERTICAL_SPLIT);
+			spaneContent.setTopComponent(panelGraph);
+			spaneContent.setBottomComponent(panelList);
+		} else {
+			spaneContent = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT);
+			spaneContent.setLeftComponent(panelGraph);
+			spaneContent.setRightComponent(panelList);
+			
+		}		
 		spaneContent.setOneTouchExpandable(true);
-		spaneContent.setDividerLocation(panelLeft.getPreferredSize().width);
-		spaneContent.setLeftComponent(panelLeft);
-		spaneContent.setRightComponent(panelRight);
+		spaneContent.setDividerLocation(panelGraph.getPreferredSize().width);
 
 		setLayout(new BorderLayout());
 		add(createTopPanel(), BorderLayout.NORTH);
@@ -188,7 +215,7 @@ public class GraphPanel extends JPanel implements PropertyChangeListener {
 		return panel;
 	}
 
-	private JComponent createLeftPanel() {
+	private JComponent createGraphPanel() {
 		graphView = new GraphView();
 		
 		tpaneGraph = new JTabbedPane(SwingConstants.TOP);
@@ -200,7 +227,7 @@ public class GraphPanel extends JPanel implements PropertyChangeListener {
 		return tpaneGraph;
 	}
 
-	private JComponent createRightPanel() {
+	private JComponent createListPanel() {
 		spaneTable = new JSplitPane(JSplitPane.VERTICAL_SPLIT);
 		spaneTable.setOneTouchExpandable(true);
 		spaneTable.setDividerLocation(400);
@@ -258,14 +285,14 @@ public class GraphPanel extends JPanel implements PropertyChangeListener {
             setProgress(0);
             
             //Collect facebook data.
-            FacebookDataCollector fdc = new FacebookDataCollector();
+            FacebookDataCollector fdc = new FacebookDataCollector(accessToken);
 	        GraphData graphData = fdc.getMyFriends(false);
 			initGraph(graphData);
             
             while (progress < 100) {
                 //Sleep for up to one second.
                 try {
-                    Thread.sleep(random.nextInt(1000));
+                    Thread.sleep(random.nextInt(500));
                 } catch (InterruptedException ignore) {}
                 //Make random progress.
                 progress += random.nextInt(10);
