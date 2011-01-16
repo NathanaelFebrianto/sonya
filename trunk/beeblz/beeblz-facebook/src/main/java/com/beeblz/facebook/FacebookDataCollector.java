@@ -33,12 +33,17 @@ import com.restfb.Parameter;
 public class FacebookDataCollector {
 
 	// my uid: 1480697938
-	private static final String MY_ACCESS_TOKEN = "174260895927181|08c9a69debb61dbf2d983764-1480697938|r0D9FyG27SU9NSPEPQa35kx-GYE";
+	private String accessToken;
 
 	private FacebookClient facebookClient;
 
-	public FacebookDataCollector() {
-		this.facebookClient = new DefaultFacebookClient(MY_ACCESS_TOKEN);
+	/**
+	 * Constructor.
+	 * 
+	 * @param accessToken the access token
+	 */
+	public FacebookDataCollector(String accessToken) {
+		this.facebookClient = new DefaultFacebookClient(accessToken);
 	}
 
 	/**
@@ -162,7 +167,7 @@ public class FacebookDataCollector {
 						   "(SELECT uid2 FROM friend WHERE uid1=" + uid + ")";
 			
 			result = facebookClient.executeQuery(query, MutualFriend.class);
-			System.out.println("Result Count: " + result.size());
+			System.out.println("# of mutual friends: " + result.size());
 		} catch (FacebookException fe) {
 			fe.printStackTrace();
 		}
@@ -568,7 +573,7 @@ public class FacebookDataCollector {
 	}
 
 	public static void main(String[] args) {
-		FacebookDataCollector collector = new FacebookDataCollector();		
+		FacebookDataCollector collector = new FacebookDataCollector(args[0]);		
 		collector.getMyFriends(false);
 		
 		String uid = "100001480811442";	// Robin Koo

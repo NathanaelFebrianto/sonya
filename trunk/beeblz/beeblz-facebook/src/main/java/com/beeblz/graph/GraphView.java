@@ -91,7 +91,15 @@ public class GraphView extends Display {
         
         // add visual data groups
     	setGraph(g, "social graph");
-    	this.clusterSize = clusterGraph(2, false);
+    	
+    	int numEdges = g.getEdges().getTupleCount();
+		int numEdgesToRemove = 0;
+		if (numEdges == 0)
+			numEdgesToRemove = 0;
+		else 
+			numEdgesToRemove = 1;
+		
+   		this.clusterSize = clusterGraph(numEdgesToRemove, false);
     	
         // set up the renderers        
         // draw the nodes as basic shapes
@@ -354,15 +362,15 @@ public class GraphView extends Display {
     }
     
     public static void main(String[] argv) {
-        JFrame frame = demo();
+        JFrame frame = demo(argv[0]);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
     }
     
-    public static JFrame demo() {
+    public static JFrame demo(String accessToken) {
     	GraphView view = new GraphView();
     	
-        FacebookDataCollector fdc = new FacebookDataCollector();
+        FacebookDataCollector fdc = new FacebookDataCollector(accessToken);
         GraphData graphData = fdc.getMyFriends(false);
     	view.initGraph(graphData);
     	

@@ -34,7 +34,12 @@ public class GraphApplet extends JApplet {
 					ex.printStackTrace();
 				}
 				
-				panelGraph = new GraphPanel(getAppletContext());
+				String accessToken = getParameter("access_token");
+				String alignment = getParameter("alignment");
+				accessToken = "174260895927181|1aa4354dcc3866c06f5cc712-708185302|6ablX5Oibz8_9XJGJf5gHesceR0";
+				alignment = "vertical";
+				
+				panelGraph = new GraphPanel(getAppletContext(), accessToken, alignment);
 				getContentPane().add(panelGraph);
 				panelGraph.init();	
 			}
