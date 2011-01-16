@@ -1,11 +1,11 @@
 
 body {
-	margin: 5px;
+	margin: 1em;
 	text-align: left;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 76%;
+	font-family: tahoma, verdana;
+	font-size: 11px;
     line-height: 1em;
-	color: #333;
+	color: #808080;
 }
 
 hr {
