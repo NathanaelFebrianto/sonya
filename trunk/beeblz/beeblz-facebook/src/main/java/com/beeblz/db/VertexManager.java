@@ -56,7 +56,20 @@ public class VertexManager {
 			conn.createStatement().execute(CREATE_TABLE_SQL);
 		} catch (SQLException e) {
 			//e.printStackTrace();
-			System.out.println("Table already existed");
+			System.out.println("Vertex table already existed");
+		}
+	}
+	
+	/**
+	 * Drops table. 
+	 */
+	public static void dropTable() {
+		Connection conn = DbManager.getConnection();
+		try {
+			conn.createStatement().execute("DROP TABLE vertex");
+			System.out.println("DROP TABLE vertex");
+		} catch (SQLException e) {
+			e.printStackTrace();			
 		}
 	}
 	

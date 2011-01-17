@@ -54,6 +54,19 @@ public class EdgeManager {
 	}
 	
 	/**
+	 * Drops table. 
+	 */
+	public static void dropTable() {
+		Connection conn = DbManager.getConnection();
+		try {
+			conn.createStatement().execute("DROP TABLE edge");
+			System.out.println("DROP TABLE edge");
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	/**
 	 * Retrieves all of the edges satisfying a SQL where clause. The clause
 	 * can also include things like order and limit decorators.
 	 * 
