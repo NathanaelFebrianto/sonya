@@ -13,26 +13,4 @@
     </server>
   </servers>
 
-  <profiles>
-    <profile>
-      <id>dev</id>
-      <repositories>
-        <repository>
-          <id>maven-gae-plugin-repo</id>
-          <name>maven-gae-plugin repository</name>
-          <url>http://maven-gae-plugin.googlecode.com/svn/repository</url>
-        </repository>
-      </repositories>
-      <pluginRepositories>
-        <pluginRepository>
-          <id>maven-gae-plugin-repo</id>
-          <name>maven-gae-plugin repository</name>
-          <url>http://maven-gae-plugin.googlecode.com/svn/repository</url>
-        </pluginRepository>
-      </pluginRepositories>
-    </profile>
-  </profiles>
-  <activeProfiles>
-    <activeProfile>dev</activeProfile>
-  </activeProfiles>
 </settings>

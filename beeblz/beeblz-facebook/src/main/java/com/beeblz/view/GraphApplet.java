@@ -45,7 +45,8 @@ public class GraphApplet extends JApplet {
 				String alignment = getParameter("alignment");
 				
 				// just for test
-				//accessToken = "174260895927181|840f2a247cfde3146badd2fc-1480697938|37Ov4jPcGJrh6e1RJXUSBDc0LXM";
+				//accessToken = "174260895927181|840f2a247cfde3146badd2fc-1480697938|37Ov4jPcGJrh6e1RJXUSBDc0LXM";	// louie
+				//accessToken = "174260895927181|1aa4354dcc3866c06f5cc712-708185302|6ablX5Oibz8_9XJGJf5gHesceR0";		// sonya
 				 
 				panelGraph = new GraphPanel(getAppletContext(), accessToken, alignment);
 				getContentPane().add(panelGraph);

@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import com.beeblz.db.Edge; 
+import com.beeblz.db.Edge;
 import com.beeblz.db.EdgeManager;
 import com.beeblz.db.Vertex;
 import com.beeblz.db.VertexManager;
@@ -69,7 +69,7 @@ public class FacebookDataCollector {
 		GraphData graph = new GraphData();
 		
 		try {
-			progress();
+			progress(1);
 			
 			Parameter[] parameters = {Parameter.with("fields",	"id, name, email, picture, work")};
 			
@@ -77,7 +77,7 @@ public class FacebookDataCollector {
 			System.out.println("User name: " + me.getName());
 			System.out.println("User ID: " + me.getId());
 			
-			progress();
+			progress(1);
 			
 			long source = Long.valueOf(me.getId()).longValue();
 			if (includeMe)
@@ -96,16 +96,56 @@ public class FacebookDataCollector {
 			v.setIsMe(true);
 			VertexManager.insert(v);
 			
-			progress();
+			progress(1);
 			
 			// get my friends
 			Connection<com.restfb.types.User> myFriends
 				= facebookClient.fetchConnection("me/friends", com.restfb.types.User.class, parameters);
-			System.out.println("Count of my friends: " + myFriends.getData().size());
+			int myFriendsCount = myFriends.getData().size();
+			System.out.println("# of my friends: " + myFriendsCount);
 			
-			progress();
-
-			for (int i = 0; i < myFriends.getData().size(); i++) {
+			//if (myFriends.getData() == null)	return graph;
+			
+			progress(1);
+			
+			// get mutual friends
+			List<MutualFriend> mutualFriends = this.getMutualFriends(me.getId());
+			int mutualFriendsCount = mutualFriends.size();
+			System.out.println("# of mutual friends: " + mutualFriendsCount);
+			
+			progress(1);
+			
+			// calculate progress cycle
+			int totalCount = myFriendsCount + mutualFriendsCount;
+			if (totalCount == 0) totalCount = 1;
+			
+			double myFriendsRate = (double) myFriendsCount / totalCount;
+			double mutualFriendsRate = (double) mutualFriendsCount / totalCount;			
+			System.out.println("myFriendsRate == " + myFriendsRate);
+			System.out.println("mutualFriendsRate == " + mutualFriendsRate);
+			
+			int myFriendProcessCycle = 1;
+			int mutualFriendProcessCycle = 1;
+			int progressAmount = 1;
+			if (totalCount > 100) {				
+				double myFriendProcessCycleD =(double) myFriendsCount / (100 * myFriendsRate);
+				double mutualFriendProcessCycleD = (double) mutualFriendsCount / (100 * mutualFriendsRate);
+				
+				System.out.println("myFriendProcessCycleD == " + myFriendProcessCycleD);
+				System.out.println("mutualFriendProcessCycleD == " + mutualFriendProcessCycleD);
+				
+				myFriendProcessCycle = new Double(myFriendProcessCycleD).intValue();			
+				mutualFriendProcessCycle = new Double(mutualFriendProcessCycleD).intValue();
+				
+				System.out.println("myFriendProcessCycle == " + myFriendProcessCycle);
+				System.out.println("mutualFriendProcessCycle == " + mutualFriendProcessCycle);				
+			} else {
+				progressAmount = 100 / totalCount;
+			}
+			
+			int loop = 0;
+			// my friends
+			for (int i = 0; i < myFriendsCount; i++) {
 				com.restfb.types.User friend = (com.restfb.types.User)myFriends.getData().get(i);
 				System.out.println("friend: " + friend.getId() + "|" + friend.getName() + "|" + friend.getPicture());
 				
@@ -142,14 +182,15 @@ public class FacebookDataCollector {
 				ef2.setIsMyFriend(true);
 				EdgeManager.insert(ef2);
 				
-				if (i%2 == 0)
-					progress();
+				if ( i == myFriendProcessCycle*loop ) {
+					progress(progressAmount);
+					loop++;
+				}
 			}
 			
-			// get mutual friends
-			List<MutualFriend> mutualFriends = this.getMutualFriends(me.getId());
-
-			for (int i = 0; i < mutualFriends.size(); i++) {
+			loop = 0;
+			// mutual friends
+			for (int i = 0; i < mutualFriendsCount; i++) {
 				MutualFriend mutualFriend = (MutualFriend) mutualFriends.get(i);
 				System.out.println("mutual friend: " + mutualFriend.toString());
 
@@ -167,8 +208,11 @@ public class FacebookDataCollector {
 				em.setIsMyFriend(true);
 				EdgeManager.insert(em);
 				
-				if (i%20 == 0)
-					progress();
+				if ( i == mutualFriendProcessCycle*loop ) {
+					progress(progressAmount);
+					loop++;
+				}				
+				//System.out.println("loop == " + loop);
 			}
 		} catch (Exception ex) {
 			ex.printStackTrace();
@@ -194,7 +238,6 @@ public class FacebookDataCollector {
 						   "(SELECT uid2 FROM friend WHERE uid1=" + uid + ")";
 			
 			result = facebookClient.executeQuery(query, MutualFriend.class);
-			System.out.println("# of mutual friends: " + result.size());
 		} catch (FacebookException fe) {
 			fe.printStackTrace();
 		}
@@ -588,9 +631,9 @@ public class FacebookDataCollector {
 		return result;	
 	}
 
-	private void progress() {
+	private void progress(int amount) {
 		if (task != null) {
-			task.progress(2);
+			task.progress(amount);
 		}
 	}
 	

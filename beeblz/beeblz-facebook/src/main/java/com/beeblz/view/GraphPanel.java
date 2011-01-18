@@ -301,13 +301,15 @@ public class GraphPanel extends JPanel {
          * Sets the progress bound property. The value should be from 0 to 100
          */
         public void progress(int amount) {         	
-        	Random random = new Random();
+        	//Random random = new Random();
     		int progress = getProgress();
-    		System.out.println("progress == " + progress);
+    		
     		if (progress < 100) {
-    			progress += random.nextInt(amount);
-    			setProgress(Math.min(progress, 100));
+    			//progress += random.nextInt(amount*4);
+    			progress += amount;
+     			setProgress(Math.min(progress, 100));
     		}
+    		System.out.println("progress == " + progress);
         }
 
         /*

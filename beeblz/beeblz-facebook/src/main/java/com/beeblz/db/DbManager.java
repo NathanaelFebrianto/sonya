@@ -20,19 +20,21 @@ public class DbManager {
 	public static final String PROTOCOL = "jdbc:derby:";
 	public static final String DBNAME = "../beeblz"; 
 	
+	
+	
 	static{
+		System.setProperty("derby.stream.error.file", "../derby.log");
+		
 		try {
 			Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
-		} 
+		} 		
 	}
 	
 	public static Connection getConnection(){
 		try {
-			Properties props = new Properties();
-			props.setProperty("derby.stream.error.file", "../derby.log");
-			Connection conn = DriverManager.getConnection(PROTOCOL + DBNAME + ";create=true", props);
+			Connection conn = DriverManager.getConnection(PROTOCOL + DBNAME + ";create=true");
 			//Connection conn = DriverManager.getConnection("jdbc:derby:C:\\Users\\Louie\\MyDB;create=true");
 			return conn;
 		} catch (SQLException e) {
@@ -60,12 +62,12 @@ public class DbManager {
 	public static void shutdown() {
         try {
             // the shutdown=true attribute shuts down Derby
-            //DriverManager.getConnection("jdbc:derby:;shutdown=true");
+            DriverManager.getConnection("jdbc:derby:;shutdown=true");
 
             // To shut down a specific database only, but keep the
             // engine running (for example for connecting to other
             // databases), specify a database in the connection URL:
-            DriverManager.getConnection("jdbc:derby:" + DBNAME + ";shutdown=true");
+            //DriverManager.getConnection("jdbc:derby:" + DBNAME + ";shutdown=true");
         } catch (SQLException se) {
             if (( (se.getErrorCode() == 50000)
                     && ("XJ015".equals(se.getSQLState()) ))) {
