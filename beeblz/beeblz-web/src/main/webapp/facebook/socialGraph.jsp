@@ -23,8 +23,9 @@
     WIDTH = 730 HEIGHT = 750 >
     <PARAM NAME = code VALUE = com.beeblz.view.GraphApplet >
     <param name = codebase value = "/" >
+    <param name = archive value = "./signedjar/beeblz-facebook.jar"></param>
     <param name = cache_archive value = 
-	   		"./signedjar/beeblz-facebook.jar, ./signedjar/derby.jar, 
+	   		"./signedjar/derby.jar, 
 	   		./signedjar/jung-api.jar, ./signedjar/jung-graph-impl.jar, ./signedjar/jung-algorithms.jar, 
 	   		./signedjar/log4j.jar,  ./signedjar/restfb.jar,
 	   		./signedjar/substance.jar, ./signedjar/trident.jar,
@@ -41,8 +42,9 @@
             type = "application/x-java-applet;version=1.6" \
             code = com.beeblz.view.GraphApplet \
 			codebase = "/" \
+			archive = "./signedjar/beeblz-facebook.jar" \
 			cache_archive = 
-	   		"./signedjar/beeblz-facebook.jar, ./signedjar/derby.jar, 
+	   		"./signedjar/derby.jar, 
 	   		./signedjar/jung-api.jar, ./signedjar/jung-graph-impl.jar, ./signedjar/jung-algorithms.jar, 
 	   		./signedjar/log4j.jar,  ./signedjar/restfb.jar,
 	   		./signedjar/substance.jar, ./signedjar/trident.jar,
