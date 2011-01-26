@@ -27,11 +27,11 @@ var force = vis.add(pv.Layout.Force)
     .nodes(miserables.nodes)
     .links(miserables.links)
     .springLength(50) 
-    .chargeConstant(-1750) 
+    .chargeConstant(-1750)
     .bound(true);
 
-
 force.link.add(pv.Line)
+    .lineWidth(0.5);
 
 force.node.add(pv.Dot)
     .size(500)
@@ -41,6 +41,10 @@ force.node.add(pv.Dot)
     .title(function(d) d.nodeName)
     .event("mousedown", pv.Behavior.drag())
     .event("drag", force)
+    .add(pv.Label)
+    	.text(function(d) d.nodeName)
+    	.font("11px tahoma")
+		.textAlign("right")
   	.add(pv.Image)
     	.left(function(d) d.x - (30/2))
     	.top(function(d) d.y - (30/2))
