@@ -23,7 +23,7 @@ public class Facebook {
 	// set this to the list of extended permissions you want
 	private static final String[] perms = new String[] { 
 		//"create_event",
-		//"email",
+		"email",
 		"friends_about_me",
 		"friends_activities",
 		//"friends_events",

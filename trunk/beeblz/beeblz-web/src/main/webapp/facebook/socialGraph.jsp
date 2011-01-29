@@ -1,8 +1,10 @@
 <html>
 <head>
 <title>Force-Directed Layout</title>
+<script	src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 <script type="text/javascript" src="../js/protovis-3.2/protovis-r3.2.js"></script>
 <script type="text/javascript" src="../js/miserables.js"></script>
+<script type="text/javascript" src="../js/facebook/collector.js"></script>
 <style type="text/css">
 body {
 	margin: 0;
@@ -12,9 +14,15 @@ body {
 <body>
 <script type="text/javascript+protovis">
 
+/*
 var w = document.body.clientWidth,
     h = document.body.clientHeight,
     colors = pv.Colors.category19(); 
+*/
+
+var w = 730,
+    h = 600,
+    colors = pv.Colors.category19();
 
 var vis = new pv.Panel()
     .width(w)
@@ -57,7 +65,66 @@ force.node.add(pv.Dot)
     	.strokeStyle(null);
 
 vis.render();
-
 </script>
+
+<div id="user-info" style="display: none;"></div>
+	
+<div id="fb-root"></div>
+<script src="http://connect.facebook.net/en_US/all.js"></script>
+<script>
+	// initialize the library with the API key
+	FB.init({
+		appId : '174260895927181', 
+	    status : true, // check login status
+	    cookie : true, // enable cookies to allow the server to access the session
+	    xfbml  : true  // parse XFBML
+	});
+	
+	FB.Event.subscribe('auth.sessionChange', function(response) {
+		if (response.session) {
+			// A user has logged in, and a new cookie has been saved
+			//window.location.reload();
+		} else {
+			//window.location.reload();
+			// alert('logged out of Facebook.com, push ok to continue.')
+			// The user has logged out, and the cookie has been cleared
+		}
+	});
+
+	function login() {
+		FB.login(function(response) {
+			if (response.session) {
+				if (response.perms) {
+					// user is logged in and granted some permissions.
+					// perms is a comma separated list of granted permissions
+					window.location.reload();
+				} else {
+					// user is logged in, but did not grant any permissions
+					window.location.reload();
+				}
+			} else {
+				// user is not logged in
+			}
+		}, {
+			perms : 'email,friends_about_me,friends_activities,friends_likes,friends_photos,friends_status,friends_videos,offline_access,publish_stream,read_friendlists,read_stream,user_about_me,user_activities,user_likes,user_photos,user_status'
+		});			
+	}
+
+	FB.getLoginStatus(function(response) {
+		if (response.session) {
+			alert('uid == ' + FB.getSession().uid);
+			var user = getMyFriends(response);
+			alert('user == ' + user);
+			alert('user picture == ' + user.picture);
+		} else {
+			// not logged into facebook
+		}
+	});
+	
+</script>
+<fb:login-button autologoutlink='true' \
+	show-faces='false' \
+	perms='email,friends_about_me,friends_activities,friends_likes,friends_photos,friends_status,friends_videos,offline_access,publish_stream,read_friendlists,read_stream,user_about_me,user_activities,user_likes,user_photos,user_status'>
+</fb:login-button>
 </body>
 </html>

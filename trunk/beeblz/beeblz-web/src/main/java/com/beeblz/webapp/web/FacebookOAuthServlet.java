@@ -79,7 +79,7 @@ public class FacebookOAuthServlet extends HttpServlet {
 				if (accessToken != null) {
 					log.info("accessToken == " + accessToken);
 					//response.sendRedirect("http://localhost:8080/facebook/socialGraph.jsp?fb_access_token="+accessToken);
-					response.sendRedirect("http://bee-blz.appspot.com/facebook/socialGraph.jsp?fb_access_token="+accessToken);
+					response.sendRedirect("http://www.beeblz.com/facebook/socialGraph.jsp?fb_access_token="+accessToken);
 					
 					return;					
 				} else {
