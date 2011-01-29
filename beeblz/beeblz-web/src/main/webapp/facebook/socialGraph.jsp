@@ -1,68 +1,63 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
-    <title>Beeblz - Social Graph for Facebook</title>
-    <link rel="stylesheet" type="text/css" href="/css/main.css"/>
-	<meta charset="utf-8">     
+<title>Force-Directed Layout</title>
+<script type="text/javascript" src="../js/protovis-3.2/protovis-r3.2.js"></script>
+<script type="text/javascript" src="../js/miserables.js"></script>
+<style type="text/css">
+body {
+	margin: 0;
+}
+</style>
 </head>
 <body>
-  <p>
-  Welcome to beeblz's social graph for facebook! Please wait for a while to load...
-  </p>
-<%
-	String accessToken = request.getParameter("fb_access_token");
-%>
-  
- <!-- Applet Area -->
-<object
-    classid = "clsid:8AD9C840-044E-11D1-B3E9-00805F499D93"
-    codebase = "http://java.sun.com/update/1.6.0/jinstall-6u11-windows-i586.cab#Version=6,0,0,3"
-    WIDTH = 730 HEIGHT = 750 >
-    <PARAM NAME = code VALUE = com.beeblz.view.GraphApplet >
-    <param name = codebase value = "/" >
-    <param name = archive value = "./signedjar/beeblz-facebook.jar"></param>
-    <param name = cache_archive value = 
-	   		"./signedjar/derby.jar, 
-	   		./signedjar/jung-api.jar, ./signedjar/jung-graph-impl.jar, ./signedjar/jung-algorithms.jar, 
-	   		./signedjar/log4j.jar,  ./signedjar/restfb.jar,
-	   		./signedjar/substance.jar, ./signedjar/trident.jar,
-	   		./signedjar/collections-generic.jar" >
-	</param>
-    <param name = "type" value = "application/x-java-applet;version=1.6">
-    <param name = "scriptable" value = "false">
-    
-    <param name = "access_token" value = <%=accessToken%>>
-    <param name = "alignment" value = "vertical">
+<script type="text/javascript+protovis">
 
-    <comment>
-	<embed
-            type = "application/x-java-applet;version=1.6" \
-            code = com.beeblz.view.GraphApplet \
-			codebase = "/" \
-			archive = "./signedjar/beeblz-facebook.jar" \
-			cache_archive = 
-	   		"./signedjar/derby.jar, 
-	   		./signedjar/jung-api.jar, ./signedjar/jung-graph-impl.jar, ./signedjar/jung-algorithms.jar, 
-	   		./signedjar/log4j.jar,  ./signedjar/restfb.jar,
-	   		./signedjar/substance.jar, ./signedjar/trident.jar,
-	   		./signedjar/collections-generic.jar" \
-            width = 730 \
-            height = 750
-	    scriptable = false
-	    pluginspage = "http://java.sun.com/products/plugin/index.html#download"
-	    access_token = <%=accessToken%> 
-	    alignment = vertical >
-		<noembed>
-            alt="Your browser understands the &lt;APPLET&gt; tag but isn't running the applet, for some reason."
-	Your browser is completely ignoring the &lt;APPLET&gt; tag!
-		</noembed>
-	</embed>
-    </comment>
-</object>
-<!--"End of Applet Area"-->
-  
+var w = document.body.clientWidth,
+    h = document.body.clientHeight,
+    colors = pv.Colors.category19(); 
+
+var vis = new pv.Panel()
+    .width(w)
+    .height(h)
+    .fillStyle("white")
+    .event("mousedown", pv.Behavior.pan())
+    .event("mousewheel", pv.Behavior.zoom());
+
+var force = vis.add(pv.Layout.Force)
+    .nodes(miserables.nodes)
+    .links(miserables.links)
+    .springLength(50) 
+    .chargeConstant(-1750)
+    .bound(true);
+
+force.link.add(pv.Line)
+    .lineWidth(0.5);
+
+force.node.add(pv.Dot)
+    .size(500)
+    .fillStyle(function(d) d.fix ? "brown" : colors(d.group))
+    .strokeStyle(function() this.fillStyle().darker())
+    .lineWidth(1)
+    .title(function(d) d.nodeName)
+    .event("mousedown", pv.Behavior.drag())
+    .event("drag", force)
+    .add(pv.Label)
+    	.text(function(d) d.nodeName)
+    	.font("11px tahoma")
+		.textAlign("right")
+  	.add(pv.Image)
+    	.left(function(d) d.x - (30/2))
+    	.top(function(d) d.y - (30/2))
+    	.url(function(d) "http://profile.ak.fbcdn.net/hprofile-ak-snc4/hs224.ash2/48976_1825235343_2331_q.jpg")
+    	.imageWidth(30)
+    	.imageHeight(30)
+    	.width(30)
+    	.height(30)
+		.fillStyle(null)
+    	.strokeStyle(null);
+
+vis.render();
+
+</script>
 </body>
 </html>
