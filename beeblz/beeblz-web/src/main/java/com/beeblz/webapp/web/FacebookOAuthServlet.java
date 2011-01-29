@@ -36,7 +36,6 @@ public class FacebookOAuthServlet extends HttpServlet {
 	@Override
 	public void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
-		log.info("FacebookOAuth doFilter...........");
 		
 		String code = request.getParameter("code");
 		String token = request.getParameter("fb_access_token");
