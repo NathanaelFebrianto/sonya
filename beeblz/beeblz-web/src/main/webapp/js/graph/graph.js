@@ -1,9 +1,10 @@
-/*
+/**
  * Copyright Beeblz.com.
+ * graph.js
  *
  */
 
-/*
+/**
  * Graph 
  */
 var Graph = function() {
@@ -28,12 +29,13 @@ Graph.prototype = {
 
 };
 
-/*
+/**
  * Renderer base class
  */
 Graph.Renderer = {};
 
-/*
+/**
+ * 
  * Renderer implementation using Protovis
  */
 Graph.Renderer.Protovis = function(graph, width, height) {
