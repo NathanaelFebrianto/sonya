@@ -93,11 +93,12 @@ Graph.Renderer.Protovis = function(graph, width, height, colors) {
 	var force = vis.add(pv.Layout.Force)
 	    .nodes(graph.vertices)
 	    .links(graph.edges)
-	    .springLength(40) 
+	    .springLength(100) 
 	    //.springConstant(0.09) 
 	    .chargeConstant(-100)
-	    .iterations(1000)
-	    .bound(true);
+	    .chargeMaxDistance(400)
+	    //.iterations(5000)
+	    .bound(false);
 
 	/*
 	var collisionConstraint = pv.Constraint.collision(function(d) d.r + 3.3),    
