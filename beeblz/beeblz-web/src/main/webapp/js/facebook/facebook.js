@@ -48,19 +48,21 @@ Facebook.prototype = {
 	/*
 	 * Login.
 	 */
-	login : function() {
+	login : function() {		
+		//window.location.href = 'https://graph.facebook.com/oauth/authorize?client_id=174260895927181&display=page&redirect_uri=http://www.beeblz.com/fbgraph/&scope=email,friends_about_me,friends_activities,friends_likes,friends_photos,friends_status,friends_videos,offline_access,publish_stream,read_friendlists,read_stream,user_about_me,user_activities,user_likes,user_photos,user_status';
+		
 		FB.login(function(response) {
 			if (response.session) {
 				if (response.perms) {
 					// user is logged in and granted some permissions.
 					// perms is a comma separated list of granted permissions
-					window.location.reload();
+					window.location.reload();					
 				} else {
 					// user is logged in, but did not grant any permissions
 					window.location.reload();
 				}
 			} else {
-				// user is not logged in
+				// user is not logged in				
 			}
 		}, {
 			perms : 'email,friends_about_me,friends_activities,friends_likes,friends_photos,friends_status,friends_videos,offline_access,publish_stream,read_friendlists,read_stream,user_about_me,user_activities,user_likes,user_photos,user_status'
@@ -99,3 +101,6 @@ Facebook.prototype = {
 			callback);
 	}
 };
+
+
+
