@@ -7,7 +7,7 @@
 
 	<!-- Servlets -->
 	<servlet>
-        <servlet-name>socialgraph</servlet-name>
+        <servlet-name>fbgraph</servlet-name>
         <servlet-class>com.beeblz.webapp.web.FacebookSocialGraphServlet</servlet-class>
     </servlet>
 	<servlet>
@@ -20,8 +20,8 @@
     </servlet>
 
 	<servlet-mapping>
-        <servlet-name>socialgraph</servlet-name>
-        <url-pattern>/socialgraph/*</url-pattern>
+        <servlet-name>fbgraph</servlet-name>
+        <url-pattern>/fbgraph/*</url-pattern>
     </servlet-mapping>
 	<servlet-mapping>
         <servlet-name>fbauth</servlet-name>
