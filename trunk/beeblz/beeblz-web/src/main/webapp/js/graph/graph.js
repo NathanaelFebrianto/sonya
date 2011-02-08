@@ -22,14 +22,11 @@ Graph.prototype = {
 	 */
 	getVertexIndex : function(id) {
 		var numVertices = this.vertices.length;
-		// alert("id == " + id + ", numVertices == " + numVertices);
 		if (numVertices > 0) {
 			for ( var i = 0; i < numVertices; i++) {
 				var vertex = this.vertices[i];
-				// alert("vertex.id == " + vertex.id + ", id == " + id);
 				if (vertex.id == id) {
-					// alert("vertex.id == " + vertex.id + ", vertex.index == "
-					// + vertex.index);
+					//console.log("vertex.id == " + vertex.id + ", vertex.index == " + vertex.index);
 					return vertex.index;
 					break;
 				}
@@ -49,7 +46,6 @@ Graph.prototype = {
 		if (this.vertices.length > 0) {
 			index = this.vertices.length;
 		}
-		//alert("index == " + index);
 		this.vertices.push({"index" : index, "id" : id, "nodeName" : name, "picture" : picture, "group" : group});
 	},
 
@@ -63,26 +59,27 @@ Graph.prototype = {
 	addEdge : function(source, target, weight) {
 		var sourceIndex = this.getVertexIndex(source);
 		var targetIndex = this.getVertexIndex(target);
-		//alert("sourceIndex == " + sourceIndex + ", targetIndex == " + targetIndex);
+		//console.log("sourceIndex == " + sourceIndex + ", targetIndex == " + targetIndex);
 		this.edges.push({"source" : sourceIndex, "target" : targetIndex, "value" : weight});
 	}
 };
 
 /**
- * Renderer base class.
+ * Visualization base class.
  */
-Graph.Renderer = {};
+Graph.Visualization = {};
 
 /**
  * 
- * Renderer implementation using Protovis.
+ * Graph visualization using Protovis.
  * 
  * @param graph	the Graph object
  * @param width the width of panel
  * @param height the height of panel
  * @param colors the pv.Color of nodes
  */
-Graph.Renderer.Protovis = function(graph, width, height, colors) {
+Graph.Visualization.Protovis = function(graph, width, height, colors) {
+
 	var vis = new pv.Panel()
 	    .width(width)
 	    .height(height)
@@ -93,38 +90,57 @@ Graph.Renderer.Protovis = function(graph, width, height, colors) {
 	var force = vis.add(pv.Layout.Force)
 	    .nodes(graph.vertices)
 	    .links(graph.edges)
-	    .springLength(100) 
-	    //.springConstant(0.09) 
-	    .chargeConstant(-100)
-	    .chargeMaxDistance(400)
-	    //.iterations(5000)
+	    .springLength(200) // default: 20
+	    .chargeConstant(-40) // default: -40                        
 	    .bound(false);
-
-	/*
-	var collisionConstraint = pv.Constraint.collision(function(d) d.r + 3.3),    
-		positionConstraint = pv.Constraint.position(function(d) d.p );
 	
-	var sim = pv.simulation(nodes)    
-		.constraint(collisionConstraint)    
-		.constraint(positionConstraint)    
-		.force(pv.Force.drag());
-	*/
+	var activeLink = null; 
+	var activeSource = null; 
+	var activeTarget = null; 
 
 	force.link.add(pv.Line)
+		.fillStyle(function(d) { 
+			if (this.parent.index == activeLink) { 
+				return "red"; 
+			} else { 
+				return "#eeeeee"; 
+			} 
+		}) 
+		.strokeStyle(function() { return this.fillStyle() }) 
+		.event("mouseover", function(node, link) { 
+			activeLink = this.parent.index; 
+			activeSource = link.sourceNode.index; 
+			activeTarget = link.targetNode.index; 
+		}) 
+		.event("mouseout", function() { 
+			activeLink = null; 
+			activeSource = null; 
+			activeTarget = null; 
+		}) 
 	    .lineWidth(0.5);
+	
+	var activeNode = null;
 
 	force.node.add(pv.Dot)
 	    .size(500)
-	    .fillStyle(function(d) { return d.fix ? "brown" : colors(d.group); })
+	    //.fillStyle(function(d) { return d.fix ? "brown" : colors(d.group); })
+	    .fillStyle(function(d) { 
+	    	var idx = d.index; 
+	    	if (idx == activeNode || idx == activeSource || idx == activeTarget) { 
+	    		return "red" 
+            } 
+	    	return d.fix ? "brown" : colors(d.group); 
+	    })	    
 	    .strokeStyle(function() { return this.fillStyle().darker(); })
 	    .lineWidth(1)
 	    .title(function(d) { return d.nodeName; })
+	    .event("mouseover", function() { activeNode = this.index; })
+	    .event("mouseout", function() { activeNode = null; })
 	    .event("mousedown", pv.Behavior.drag())
 	    .event("drag", force)
-	    .add(pv.Label)
+	    .anchor("right").add(pv.Label)
 	    	.text(function(d) { return d.nodeName; })
 	    	.font("11px tahoma")
-			.textAlign("right")
 	  	.add(pv.Image)
 	    	.left(function(d) { return d.x - (30/2); })
 	    	.top(function(d) { return d.y - (30/2); })
@@ -138,6 +154,23 @@ Graph.Renderer.Protovis = function(graph, width, height, colors) {
 	vis.render();
 };
 
-Graph.Renderer.Protovis.prototype = {
-
+Graph.Visualization.Protovis.prototype = {
+		
+	/*
+	 * Gets the neighbor nodes of the specific node. 
+	 * 
+	 * @param nodeIndex the node index
+	 * @return [] the array of node index
+	 */
+	getNeighborNodes : function(nodeIndex) {
+		return [];
+	}
 };
+
+
+
+
+
+
+
+
