@@ -88,10 +88,11 @@ Graph.Visualization.Protovis = function(graph, width, height, colors) {
 	    .event("mousewheel", pv.Behavior.zoom());
 
 	var force = vis.add(pv.Layout.Force)
-	    .nodes(graph.vertices)
+		.nodes(graph.vertices)
 	    .links(graph.edges)
 	    .springLength(200) // default: 20
-	    .chargeConstant(-40) // default: -40                        
+	    .chargeConstant(-1700) // default: -40 
+	    .chargeMinDistance(300) 
 	    .bound(false);
 	
 	var activeLink = null; 
@@ -106,7 +107,7 @@ Graph.Visualization.Protovis = function(graph, width, height, colors) {
 				return "#eeeeee"; 
 			} 
 		}) 
-		.strokeStyle(function() { return this.fillStyle() }) 
+		.strokeStyle(function() { return this.fillStyle(); }) 
 		.event("mouseover", function(node, link) { 
 			activeLink = this.parent.index; 
 			activeSource = link.sourceNode.index; 
@@ -117,7 +118,7 @@ Graph.Visualization.Protovis = function(graph, width, height, colors) {
 			activeSource = null; 
 			activeTarget = null; 
 		}) 
-	    .lineWidth(0.5);
+	    //.lineWidth(0.5);
 	
 	var activeNode = null;
 
@@ -151,6 +152,7 @@ Graph.Visualization.Protovis = function(graph, width, height, colors) {
 	    	.height(30)
 			.fillStyle(null)
 	    	.strokeStyle(null);
+	
 	vis.render();
 };
 
