@@ -32,7 +32,7 @@ public class FacebookSocialGraphServlet extends HttpServlet {
 	public void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
 		
-		response.sendRedirect("http://www.beeblz.com/facebook/socialGraph.jsp");
+		response.sendRedirect("http://www.beeblz.com/facebook/main.jsp");
 	}
 	
 	@Override

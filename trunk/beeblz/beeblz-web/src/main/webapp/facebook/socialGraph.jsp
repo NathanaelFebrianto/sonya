@@ -1,15 +1,14 @@
 <html>
 <head>
-<title>Force-Directed Layout</title>
-<script	src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<title>Beeblz - Social Graph for Facebook</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="/css/main.css"/>
+<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css"/>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
 <script type="text/javascript" src="../js/protovis-3.2/protovis-r3.2.js"></script>
 <script type="text/javascript" src="../js/graph/graph.js"></script>
 <script type="text/javascript" src="../js/facebook/facebook.js"></script>
-<style type="text/css">
-body {
-	margin: 0;
-}
-</style>
 </head>
 <body>
 
@@ -70,17 +69,9 @@ body {
 				});	
 			});
 		}
-	});
-	
+	});			
 
 </script>
-
-<!--  
-<fb:login-button autologoutlink='true' \
-	show-faces='false' \
-	perms='email,friends_about_me,friends_activities,friends_likes,friends_photos,friends_status,friends_videos,offline_access,publish_stream,read_friendlists,read_stream,user_about_me,user_activities,user_likes,user_photos,user_status'>
-</fb:login-button>
--->
 
 </body>
 </html>
