@@ -23,7 +23,7 @@ Graph.prototype = {
 	getVertexIndex : function(id) {
 		var numVertices = this.vertices.length;
 		if (numVertices > 0) {
-			for ( var i = 0; i < numVertices; i++) {
+			for (var i = 0; i < numVertices; i++) {
 				var vertex = this.vertices[i];
 				if (vertex.id == id) {
 					//console.log("vertex.id == " + vertex.id + ", vertex.index == " + vertex.index);
@@ -61,7 +61,64 @@ Graph.prototype = {
 		var targetIndex = this.getVertexIndex(target);
 		//console.log("sourceIndex == " + sourceIndex + ", targetIndex == " + targetIndex);
 		this.edges.push({"source" : sourceIndex, "target" : targetIndex, "value" : weight});
-	}
+	},
+	
+	/*
+	 * Loads each node as the first value in a 3d array. 
+	 * Any associated nodes are then added into the second array. 
+	 * 
+	 */
+	loadNeighborNodes : function() {
+		var nodeHash = new Array();
+		var firstIndex = 0;
+		for(firstIndex; firstIndex < this.vertices.length; firstIndex++) {					
+			var secondIndex = 0;	
+			nodeHash[firstIndex] = new Array();
+					
+			for(var x = 0; x < this.edges.length; x++) {
+				if (this.edges[x].source == firstIndex) {	
+					nodeHash[firstIndex][secondIndex] = this.edges[x].target;
+					secondIndex++;						
+				}
+				if (this.edges[x].target == firstIndex) {
+					nodeHash[firstIndex][secondIndex] = this.edges[x].source;
+					secondIndex++;
+				}
+			}
+		}
+		return nodeHash;
+	},
+	
+	/*
+	 * Gets the neighbor edges of the specific node. 
+	 * 
+	 */
+	getNeighborEdges : function(nodeIndex) {
+		var neighbors = new Array();
+					
+		for(var i = 0; i < this.edges.length; i++) {
+			if (this.edges[i].source == nodeIndex || this.edges[i].target == nodeIndex) {	
+				neighbors.put(i);						
+			}
+		}
+		return neighbors;
+	},
+	
+    /*
+	 * Checks if an array contains a property.
+	 * 
+	 */	
+	contains : function(a, obj) {
+		if (a != null) {
+			for (var i = 0; i < a.length; i++) {
+				if (a[i] == obj) {
+	    			return true;
+				}
+			}			
+		}
+		return false;
+	}		
+
 };
 
 /**
@@ -79,6 +136,9 @@ Graph.Visualization = {};
  * @param colors the pv.Color of nodes
  */
 Graph.Visualization.Protovis = function(graph, width, height, colors) {
+	
+	//construct a 3d array of nodes and their neighbors
+	var nodeNeighbors = graph.loadNeighborNodes(graph);
 
 	var vis = new pv.Panel()
 	    .width(width)
@@ -101,8 +161,8 @@ Graph.Visualization.Protovis = function(graph, width, height, colors) {
 
 	force.link.add(pv.Line)
 		.fillStyle(function(d) { 
-			if (this.parent.index == activeLink) { 
-				return "red"; 
+			if (this.parent.index == activeLink || graph.contains(graph.getNeighborEdges[activeNode], this.parent.index)) { 
+				return "#F4292C"; 
 			} else { 
 				return "#eeeeee"; 
 			} 
@@ -127,8 +187,8 @@ Graph.Visualization.Protovis = function(graph, width, height, colors) {
 	    //.fillStyle(function(d) { return d.fix ? "brown" : colors(d.group); })
 	    .fillStyle(function(d) { 
 	    	var idx = d.index; 
-	    	if (idx == activeNode || idx == activeSource || idx == activeTarget) { 
-	    		return "red" 
+	    	if (idx == activeNode || idx == activeSource || idx == activeTarget || graph.contains(nodeNeighbors[activeNode], idx)) { 
+	    		return "#F4292C"; 
             } 
 	    	return d.fix ? "brown" : colors(d.group); 
 	    })	    
@@ -157,22 +217,34 @@ Graph.Visualization.Protovis = function(graph, width, height, colors) {
 };
 
 Graph.Visualization.Protovis.prototype = {
-		
-	/*
-	 * Gets the neighbor nodes of the specific node. 
+    /*
+	 * Renders the graph.
 	 * 
-	 * @param nodeIndex the node index
-	 * @return [] the array of node index
-	 */
-	getNeighborNodes : function(nodeIndex) {
-		return [];
-	}
+	 */	
+	/*
+	render : function() {
+		this.vis.render();
+	},
+
+    /*
+	 * Zooms in the graph.
+	 * 
+	 */	
+	/*
+	zoomin : function() {
+		this.vis.transform = new pv.Transform().scale(10); 
+		this.vis.render();
+	},
+	
+    /*
+	 * Zooms out the graph.
+	 * 
+	 */	
+	/*
+	zoomout : function() {
+		this.vis.transform = new pv.Transform().scale(-10); 
+		this.vis.render();
+	}	
+	*/
 };
-
-
-
-
-
-
-
 
