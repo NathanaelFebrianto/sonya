@@ -44,7 +44,7 @@
 	<div id="fragment-1">
 		<iframe id="socialGraph" name="socialGraph"	src="socialGraph.jsp" 
 		 height="620" width="100%" frameborder="0"
-		 marginwidth="0" marginheight="0" scrolling="auto"> 
+		 marginwidth="0" marginheight="0" scrolling="no"> 
 		</iframe>
 	</div>
 	
