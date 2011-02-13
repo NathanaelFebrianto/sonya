@@ -90,18 +90,29 @@ Graph.prototype = {
 	},
 	
 	/*
-	 * Gets the neighbor edges of the specific node. 
+	 * Loads each edge as the first value in a 3d array. 
+	 * Any associated edges are then added into the second array. 
 	 * 
 	 */
-	getNeighborEdges : function(nodeIndex) {
-		var neighbors = new Array();
+	loadNeighborEdges : function() {
+		var edgeHash = new Array();
+		var firstIndex = 0;
+		for(firstIndex; firstIndex < this.vertices.length; firstIndex++) {					
+			var secondIndex = 0;	
+			edgeHash[firstIndex] = new Array();
 					
-		for(var i = 0; i < this.edges.length; i++) {
-			if (this.edges[i].source == nodeIndex || this.edges[i].target == nodeIndex) {	
-				neighbors.put(i);						
+			for(var x = 0; x < this.edges.length; x++) {
+				if (this.edges[x].source == firstIndex) {	
+					edgeHash[firstIndex][secondIndex] = x;
+					secondIndex++;						
+				}
+				if (this.edges[x].target == firstIndex) {
+					edgeHash[firstIndex][secondIndex] = x;
+					secondIndex++;
+				}
 			}
 		}
-		return neighbors;
+		return edgeHash;
 	},
 	
     /*
@@ -138,21 +149,24 @@ Graph.Visualization = {};
 Graph.Visualization.Protovis = function(graph, width, height, colors) {
 	
 	//construct a 3d array of nodes and their neighbors
-	var nodeNeighbors = graph.loadNeighborNodes(graph);
+	var nodeNeighbors = graph.loadNeighborNodes();
+	//construct a 3d array of edges and their neighbors
+	var edgeNeighbors = graph.loadNeighborEdges();
 
 	var vis = new pv.Panel()
 	    .width(width)
 	    .height(height)
 	    .fillStyle("white")
 	    .event("mousedown", pv.Behavior.pan())
-	    .event("mousewheel", pv.Behavior.zoom());
+	    .event("mousewheel", pv.Behavior.zoom(1.3));
 
 	var force = vis.add(pv.Layout.Force)
 		.nodes(graph.vertices)
 	    .links(graph.edges)
-	    .springLength(200) // default: 20
-	    .chargeConstant(-1700) // default: -40 
+	    .springLength(200) // default: 20, good: 200
+	    .chargeConstant(-1750) // default: -40 
 	    .chargeMinDistance(300) 
+	    //.iterations(5000)
 	    .bound(false);
 	
 	var activeLink = null; 
@@ -161,7 +175,9 @@ Graph.Visualization.Protovis = function(graph, width, height, colors) {
 
 	force.link.add(pv.Line)
 		.fillStyle(function(d) { 
-			if (this.parent.index == activeLink || graph.contains(graph.getNeighborEdges[activeNode], this.parent.index)) { 
+			if (this.parent.index == activeLink) { 
+				return "#F4292C"; 
+			} else if (graph.contains(edgeNeighbors[activeNode], this.parent.index)) {
 				return "#F4292C"; 
 			} else { 
 				return "#eeeeee"; 
@@ -183,12 +199,15 @@ Graph.Visualization.Protovis = function(graph, width, height, colors) {
 	var activeNode = null;
 
 	force.node.add(pv.Dot)
-	    .size(500)
-	    //.fillStyle(function(d) { return d.fix ? "brown" : colors(d.group); })
+		//.size(500) // for protovis-r3.2.js
+	    .shapeSize(550)
 	    .fillStyle(function(d) { 
 	    	var idx = d.index; 
-	    	if (idx == activeNode || idx == activeSource || idx == activeTarget || graph.contains(nodeNeighbors[activeNode], idx)) { 
+	    	if (idx == activeNode || idx == activeSource || idx == activeTarget ) {
 	    		return "#F4292C"; 
+	    	}
+	    	if (graph.contains(nodeNeighbors[activeNode], idx)) { 
+	    		return "#FEBC00"; 
             } 
 	    	return d.fix ? "brown" : colors(d.group); 
 	    })	    
@@ -199,9 +218,11 @@ Graph.Visualization.Protovis = function(graph, width, height, colors) {
 	    .event("mouseout", function() { activeNode = null; })
 	    .event("mousedown", pv.Behavior.drag())
 	    .event("drag", force)
+	    /*
 	    .anchor("right").add(pv.Label)
 	    	.text(function(d) { return d.nodeName; })
 	    	.font("11px tahoma")
+	    */
 	  	.add(pv.Image)
 	    	.left(function(d) { return d.x - (30/2); })
 	    	.top(function(d) { return d.y - (30/2); })
@@ -247,4 +268,18 @@ Graph.Visualization.Protovis.prototype = {
 	}	
 	*/
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
