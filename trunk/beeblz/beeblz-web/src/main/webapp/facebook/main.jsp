@@ -12,19 +12,21 @@
 </head>
 
 <body>
-Beeblz - Social Graph for Facebook(version 0.0.1- just developing now...)
-<br>
-This application is only run by the Chrome, Safari, Firefox browser. In
-the future we will provide IE.
-<br>
-<p></p>
 
 <script>
 	$(document).ready(function() {
+		$("#dialog").dialog();
 		$("#menu").buttonset();
 		$("#tabs").tabs();
 	});
 </script>
+
+<div id=dialog title="Notice">
+	Beeblz - Social Graph for Facebook(version 0.0.1- just developing now...)
+	<br>
+	This application is only run by the Chrome, Safari, Firefox browser. In
+	the future we will provide IE.
+</div>
 
 <div id="menu">
 	<input type="radio" id="clustering" name="radio" /><label for="clustering">Clustering</label> 

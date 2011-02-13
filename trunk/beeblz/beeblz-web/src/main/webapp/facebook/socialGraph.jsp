@@ -6,7 +6,10 @@
 <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css"/>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
-<script type="text/javascript" src="../js/protovis-3.2/protovis-r3.2.js"></script>
+<!--[if IE]>     
+<script type="text/javascript" src="..js/3rdparty/svg.js" data-path="../../3rdparty/"></script> 
+<![endif]-->
+<script type="text/javascript" src="../js/protovis-3.2/protovis-r3.3.js"></script>
 <script type="text/javascript" src="../js/graph/graph.js"></script>
 <script type="text/javascript" src="../js/facebook/facebook.js"></script>
 </head>
@@ -28,14 +31,14 @@
 		} else {
 			// get me.
 			facebook.getMe(function(response) {
-				console.log("me.id == " + response.id);
+				//console.log("me.id == " + response.id);
 				//graph.addVertex(response.id, response.name, response.picture, 1);
 			});
 			
 			// get my friends.
 			facebook.getMyFriends(function(response) {
 				var numFriends = response.data.length;
-				console.log("numFriends == " + numFriends);	    
+				//console.log("numFriends == " + numFriends);	    
 				if (numFriends > 0) {
 					for (var i = 0; i < numFriends; i++) {
 						var user = response.data[i];
@@ -47,7 +50,7 @@
 				// get mutual friends.
 				facebook.getMutualFriends(function(response) {
 					var numMutualFriends = response.length;
-					console.log("numMutualFriends == " + numMutualFriends);	  
+					//console.log("numMutualFriends == " + numMutualFriends);	  
 					if (numMutualFriends > 0) {
 						for ( var i = 0; i < numMutualFriends; i++) {
 							var mutualFriend = response[i];
@@ -66,6 +69,7 @@
 					var colors = pv.Colors.category19();
 
 					var visualization = new Graph.Visualization.Protovis(graph, width, height, colors);
+					visualization.render();
 				});	
 			});
 		}
