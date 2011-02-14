@@ -22,10 +22,12 @@
 </script>
 
 <div id=dialog title="Notice">
-	Beeblz - Social Graph for Facebook(version 0.0.1- just developing now...)
+	<b>Beeblz - Social Graph for Facebook</b>(version 0.0.1- just developing now...)
 	<br>
-	This application is only run by the Chrome, Safari, Firefox browser. In
-	the future we will provide IE.
+	<br>
+	This application is only run by the Chrome, Safari, Firefox browser.
+	<br>
+	In the future we will support IE9.
 </div>
 
 <div id="menu">

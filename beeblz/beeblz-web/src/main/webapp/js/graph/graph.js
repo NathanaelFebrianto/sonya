@@ -163,9 +163,14 @@ Graph.Visualization.Protovis = function(graph, width, height, colors) {
 	var force = vis.add(pv.Layout.Force)
 		.nodes(graph.vertices)
 	    .links(graph.edges)
-	    .springLength(200) // default: 20, good: 200
-	    .chargeConstant(-1750) // default: -40 
-	    .chargeMinDistance(300) 
+	    //.dragConstant(.1)		// default: 0.1 
+	    .chargeConstant(-1750)	// default: -40 
+	    .chargeMinDistance(300)	// default: 2 
+	    //.chargeMaxDistance(300)	// default: 500 
+	    //.chargeTheta(.9)		// default: 9
+	    //.springConstant(.1)		// default: 0.1 
+	    //.springDamping(.3)		// default: 0.3 
+	    .springLength(200)		// default: 20 
 	    //.iterations(5000)
 	    .bound(false);
 	
@@ -268,18 +273,3 @@ Graph.Visualization.Protovis.prototype = {
 	}	
 	*/
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
