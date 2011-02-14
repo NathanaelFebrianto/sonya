@@ -4,6 +4,11 @@
 <meta charset="utf-8">
 <link rel="stylesheet" type="text/css" href="/css/main.css"/>
 <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css"/>
+
+<!--[if IE]>     
+<script type="text/javascript" src="../js/3rdparty/svg.js" data-path="../js/3rdparty/"></script> 
+<![endif]-->
+
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
 <script type="text/javascript" src="../js/protovis/protovis-r3.3.js"></script>
