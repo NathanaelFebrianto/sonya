@@ -1,6 +1,6 @@
 /**
  * Copyright Beeblz.com.
- * webdatabase.js
+ * webdb.js
  *
  */
 

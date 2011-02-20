@@ -9,6 +9,7 @@
 <script type="text/javascript" src="../js/protovis/protovis-r3.3.js"></script>
 <script type="text/javascript" src="../js/graph/graph.js"></script>
 <script type="text/javascript" src="../js/facebook/facebook.js"></script>
+<script type="text/javascript" src="../js/db/webdb.js"></script>
 </head>
 <body>
 
