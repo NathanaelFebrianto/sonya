@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN" 
+"http://ibatis.apache.org/dtd/ibatis-3-mapper.dtd">
+
+<mapper namespace="org.firebird.io.dao.VertexMapper">
+
+	<resultMap id="vertexResultMap" type="org.firebird.io.model.Vertex">
+		<id property="websiteId" column="website_id" />
+		<result property="websiteId" column="website_id" />
+		<result property="id" column="vertex_id" />
+		<result property="no" column="vertex_no" />
+		<result property="name" column="vertex_name" />
+		<result property="color" column="color" />
+		<result property="shape" column="shape" />
+		<result property="size" column="size" />
+		<result property="opacity" column="opacity" />
+		<result property="imageFile" column="image_file" />
+		<result property="degree" column="degree" />
+		<result property="inDegree" column="in_degree" />
+		<result property="outDegree" column="out_degree" />
+		<result property="pageRank" column="page_rank" />
+		<result property="authority" column="authority" />
+		<result property="hub" column="hub" />
+		<result property="betweennessCentrality" column="betweenness_centrality" />
+		<result property="closenessCentrality" column="closeness_centrality" />
+		<result property="eigenvectorCentrality" column="eigenvector_centrality" />
+		<result property="edgeBetweennessCluster" column="edge_betweenness_cluster" />
+		<result property="voltageCluster" column="voltage_cluster" />
+		<result property="cnmCluster" column="cnm_cluster" />
+		<result property="friendsCount" column="friends_count" />
+		<result property="followersCount" column="followers_count" />
+		<result property="userNo" column="user_no" />
+		<result property="userId" column="user_id" />
+		<result property="userName" column="user_name" />
+		<result property="userUrl" column="user_url" />
+		<result property="blogEntryCount" column="blog_entry_count" />
+		<result property="lastBlogEntryId" column="last_blog_entry_id" />
+		<result property="lastBlogEntryBody" column="last_blog_entry_body" />
+		<result property="lastBlogEntryType" column="last_blog_entry_type" />
+		<result property="lastBlogEntryCreateDate" column="last_blog_entry_create_date" />
+		<result property="lastBlogEntryReplyTo" column="last_blog_entry_reply_to" />
+		<result property="lastBlogEntryDmTo" column="last_blog_entry_dm_to" />
+		<result property="lastBlogEntryReferFrom" column="last_blog_entry_refer_from" />		
+		<result property="createDate" column="create_date" />
+		<result property="lastUpdateDate" column="last_update_date" />
+		<result property="colCreateDate" column="col_create_date" />
+		<result property="colLastUpdateDate" column="col_last_update_date" />
+	</resultMap>
+
+	<select id="selectVertices" parameterType="int" resultMap="vertexResultMap">
+		SELECT
+			website_id,
+			vertex_id,
+			vertex_no,
+			vertex_name,
+			<!--  
+			color,
+			shape,
+			size,
+			opacity,
+			image_file,
+			-->
+			degree,
+			in_degree,
+			out_degree,
+			page_rank,
+			authority,
+			hub,
+			betweenness_centrality,
+			closeness_centrality,
+			eigenvector_centrality,
+			edge_betweenness_cluster,
+			voltage_cluster,
+			cnm_cluster,
+			friends_count,
+			followers_count,
+			user_no,
+			user_id,
+			<!--
+			user_name,
+			user_url,
+			blog_entry_count,
+			last_blog_entry_id,
+			last_blog_entry_body,
+			last_blog_entry_type,
+			last_blog_entry_create_date,
+			last_blog_entry_reply_to,
+			last_blog_entry_dm_to,
+			last_blog_entry_refer_from,
+			-->
+			create_date,
+			last_update_date,
+			col_create_date,
+			col_last_update_date
+		FROM vertex
+		WHERE website_id = #{websiteId}
+	</select>
+	
+	<select id="selectVertexIdsByScoringCondition" parameterType="org.firebird.io.model.Vertex" resultType="java.lang.String">
+		SELECT vertex_id
+		FROM vertex
+		WHERE website_id = #{websiteId}
+		<if test="pageRank != null">
+			AND page_rank >= #{pageRank,javaType=double,jdbcType=DOUBLE}
+		</if>
+		<if test="authority != null">
+			OR authority >= #{authority,javaType=double,jdbcType=DOUBLE}
+		</if>
+		<!--  
+		<if test="hub != null">
+			AND hub >= #{hub,javaType=double,jdbcType=DOUBLE}
+		</if>
+		<if test="betweennessCentrality != null">
+			AND betweenness_centrality >= #{betweennessCentrality,javaType=double,jdbcType=DOUBLE}
+		</if>
+		<if test="closenessCentrality != null">
+			AND closeness_centrality >= #{closenessCentrality,javaType=double,jdbcType=DOUBLE}
+		</if>
+		<if test="eigenvectorCentrality != null">
+			AND eigenvector_centrality >= #{eigenvectorCentrality,javaType=double,jdbcType=DOUBLE}
+		</if>
+		-->
+	</select>
+
+	<insert id="insertVertex" parameterType="org.firebird.io.model.Vertex">
+		INSERT INTO vertex (
+			  website_id
+			, vertex_id
+			, vertex_no
+			, vertex_name
+			, image_file
+			, degree
+			, in_degree
+			, out_degree
+			, page_rank
+			, authority
+			, hub
+			, betweenness_centrality
+			, closeness_centrality
+			, eigenvector_centrality
+			, edge_betweenness_cluster
+			, voltage_cluster
+			, friends_count
+			, followers_count
+			, user_no
+			, user_id
+			, user_name
+			, user_url
+			, blog_entry_count
+			, last_blog_entry_id
+			, last_blog_entry_body
+			, last_blog_entry_type
+			, last_blog_entry_create_date 
+			, last_blog_entry_reply_to
+			, last_blog_entry_dm_to 
+			, last_blog_entry_refer_from
+			, create_date
+			, last_update_date
+			, col_create_date
+			, col_last_update_date			 
+		)
+		VALUES (
+			  #{websiteId}
+			, #{id}
+			, #{no,javaType=int,jdbcType=NUMERIC}
+			, #{name,jdbcType=VARCHAR}
+			, #{imageFile,jdbcType=VARCHAR}
+			, #{degree,javaType=int,jdbcType=NUMERIC}
+			, #{inDegree,javaType=int,jdbcType=NUMERIC}
+			, #{outDegree,javaType=int,jdbcType=NUMERIC}
+			, #{pageRank,javaType=double,jdbcType=DOUBLE}
+			, #{authority,javaType=double,jdbcType=DOUBLE}
+			, #{hub,javaType=double,jdbcType=DOUBLE}
+			, #{betweennessCentrality,javaType=double,jdbcType=DOUBLE}
+			, #{closenessCentrality,javaType=double,jdbcType=DOUBLE}
+			, #{eigenvectorCentrality,javaType=double,jdbcType=DOUBLE}
+			, #{edgeBetweennessCluster,javaType=int,jdbcType=NUMERIC}
+			, #{voltageCluster,javaType=int,jdbcType=NUMERIC}
+			, #{friendsCount,javaType=int,jdbcType=NUMERIC}
+			, #{followersCount,javaType=int,jdbcType=NUMERIC}
+			, #{userNo,javaType=int,jdbcType=NUMERIC}
+			, #{userId,jdbcType=VARCHAR}
+			, #{userName,jdbcType=VARCHAR}
+			, #{userUrl,jdbcType=VARCHAR}
+			, #{blogEntryCount,javaType=int,jdbcType=NUMERIC}
+			, #{lastBlogEntryId,jdbcType=VARCHAR}
+			, #{lastBlogEntryBody,jdbcType=VARCHAR}
+			, #{lastBlogEntryType,jdbcType=CHAR}
+			, #{lastBlogEntryCreateDate,jdbcType=DATE} 
+			, #{lastBlogEntryReplyTo,jdbcType=VARCHAR}
+			, #{lastBlogEntryDmTo,jdbcType=VARCHAR} 
+			, #{lastBlogEntryReferFrom,jdbcType=VARCHAR}
+			, #{createDate,jdbcType=DATE}
+			, #{lastUpdateDate,jdbcType=DATE}
+			, NOW()
+			, NOW()	
+		)
+	</insert>
+
+	<delete id="deleteVertex" parameterType="org.firebird.io.model.Vertex">
+		DELETE FROM vertex
+		WHERE
+		<if test="websiteId != null">
+			website_id = #{websiteId}
+		</if>
+		<if test="id != null">
+			AND vertex_id = #{id}
+		</if>
+	</delete>
+	
+	<!-- For Scoring -->
+	
+	<update id="updateVertexScore" parameterType="org.firebird.io.model.Vertex">
+		UPDATE vertex SET
+			  degree = #{degree}
+			, in_degree = #{inDegree}
+			, out_degree = #{outDegree}
+			, page_rank = #{pageRank}
+			, authority = #{authority}
+			, hub = #{hub}
+			, betweenness_centrality = #{betweennessCentrality}
+			, closeness_centrality = #{closenessCentrality}
+			, eigenvector_centrality = #{eigenvectorCentrality}
+		WHERE
+			website_id = #{websiteId}
+			AND vertex_id = #{id}
+	</update>
+	
+	<!-- For Clustering / Topic Clustering -->
+
+	<update id="updateVertexCluster" parameterType="org.firebird.io.model.Vertex">
+		UPDATE vertex
+		<set>
+			<if test="edgeBetweennessCluster != 0">edge_betweenness_cluster = #{edgeBetweennessCluster},</if>
+			<if test="voltageCluster != 0">voltage_cluster = #{voltageCluster}</if>
+		</set>
+		WHERE
+			website_id = #{websiteId}
+			AND vertex_id = #{id}
+	</update>
+	
+	<select id="selectEdgeBetweennessClusters" parameterType="int" resultType="int">		
+		SELECT DISTINCT edge_betweenness_cluster
+		FROM vertex 
+		WHERE website_id = #{websiteId}
+		ORDER BY edge_betweenness_cluster ASC
+	</select>
+	
+	<select id="selectVoltageClusters" parameterType="int" resultType="int">		
+		SELECT DISTINCT voltage_cluster
+		FROM vertex 
+		WHERE website_id = #{websiteId}
+		ORDER BY voltage_cluster ASC
+	</select>
+	
+	<select id="selectCnmClusters" parameterType="int" resultType="int">		
+		SELECT DISTINCT cnm_cluster
+		FROM vertex 
+		WHERE website_id = #{websiteId}
+		ORDER BY cnm_cluster ASC
+	</select>
+	
+	<select id="selectVerticesInEdgeBetweennessCluster" parameterType="org.firebird.io.model.Vertex" resultMap="vertexResultMap">
+		SELECT * 
+		FROM vertex 
+		WHERE website_id = #{websiteId} AND edge_betweenness_cluster = #{edgeBetweennessCluster}
+	</select>
+
+	<select id="selectVerticesInVoltageCluster" parameterType="org.firebird.io.model.Vertex" resultMap="vertexResultMap">
+		SELECT * 
+		FROM vertex 
+		WHERE website_id = #{websiteId} AND voltage_cluster = #{voltageCluster}
+	</select>
+
+	<select id="selectVerticesInCnmCluster" parameterType="org.firebird.io.model.Vertex" resultMap="vertexResultMap">
+		SELECT * 
+		FROM vertex 
+		WHERE website_id = #{websiteId} AND cnm_cluster = #{cnmCluster}
+	</select>
+	
+</mapper>
