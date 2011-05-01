@@ -2,7 +2,7 @@
  * Copyright (c) 2011, Young-Gue Bae
  * All rights reserved.
  */
-package com.beeblz.sna.common;
+package com.beeblz.twitter.common;
 
 import java.io.IOException;
 import java.util.Date;
