@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace="com.beeblz.twitter.io.dao.RelationshipMapper">
+
+	<resultMap id="RelationshipResultMap" type="com.beeblz.twitter.io.model.Relationship">
+		<id property="id1" column="id1" />
+		<result property="id2" column="id2" />
+		<result property="user1" column="user1" />
+		<result property="user2" column="user2" />
+		<result property="isFollowedByUser2" column="is_followed_by_user2" />
+		<result property="retweetedCountByUser2" column="retweeted_count_by_user2" />
+		<result property="mentionedCountByUser2" column="mentioned_count_by_user2" />
+		<result property="replyedCountByUser2" column="replyed_count_by_user2" />
+		<result property="colCreateDate" column="col_create_date" />
+		<result property="colUpdateDate" column="col_update_date" />
+	</resultMap>
+
+	<insert id="insertRelationship" parameterType="com.beeblz.twitter.io.model.Relationship">
+		INSERT INTO relationship (
+			id1
+			, id2
+			, user1
+			, user2
+			, is_followed_by_user2
+			, retweeted_count_by_user2
+			, mentioned_count_by_user2
+			, replyed_count_by_user2
+			, col_create_date
+			, col_update_date
+		)
+		VALUES (
+			#{id1,javaType=long,jdbcType=NUMERIC}
+			, #{id2,javaType=long,jdbcType=NUMERIC}
+			, #{user1}
+			, #{user2}
+			, #{isFollowedByUser2,javaType=boolean,jdbcType=BOOLEAN}
+			, #{retweetedCountByUser2,javaType=int,jdbcType=NUMERIC}
+			, #{mentionedCountByUser2,javaType=int,jdbcType=NUMERIC}
+			, #{replyedCountByUser2,javaType=int,jdbcType=NUMERIC}
+			, NOW()
+			, NOW()
+		)
+	</insert>
+
+</mapper>

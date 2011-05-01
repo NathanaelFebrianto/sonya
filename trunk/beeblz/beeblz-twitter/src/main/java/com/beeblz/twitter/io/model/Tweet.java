@@ -14,31 +14,30 @@ import java.util.Date;
  */
 public class Tweet implements Serializable {
 
-	private int id;
+	private long id;
 	private String user;
-	private int userId;
+	private long userId;
 	private String text;
 	private String url;
-	private String geoLocation;
-	private String location;
-	private String sourceTweet;
-	private String retweetFromUser;
-	private int retweetFromUserId;
-	private String mentionToUser;
-	private int mentionToUserId;
-	private String replyToUser;
-	private int replyToUserId;
+	private String retweetedUser;
+	private long retweetedUserId;
+	private String mentionedUser;
+	private long mentionedUserId;
+	private String replyUser;
+	private long replyUserId;
+	private boolean positiveAttitude;
+	private boolean negativeAttitude;
 	private Date createDate;
 	private Date colCreateDate;
 	private Date colUpdateDate;
 	
-	public int getId() {
+	public long getId() {
 		return id;
 	}
 	public String getUser() {
 		return user;
 	}
-	public int getUserId() {
+	public long getUserId() {
 		return userId;
 	}
 	public String getText() {
@@ -47,32 +46,29 @@ public class Tweet implements Serializable {
 	public String getUrl() {
 		return url;
 	}
-	public String getGeoLocation() {
-		return geoLocation;
+	public String getRetweetedUser() {
+		return retweetedUser;
 	}
-	public String getLocation() {
-		return location;
+	public long getRetweetedUserId() {
+		return retweetedUserId;
 	}
-	public String getSourceTweet() {
-		return sourceTweet;
+	public String getMentionedUser() {
+		return mentionedUser;
 	}
-	public String getRetweetFromUser() {
-		return retweetFromUser;
+	public long getMentionedUserId() {
+		return mentionedUserId;
 	}
-	public int getRetweetFromUserId() {
-		return retweetFromUserId;
+	public String getReplyUser() {
+		return replyUser;
 	}
-	public String getMentionToUser() {
-		return mentionToUser;
+	public long getReplyUserId() {
+		return replyUserId;
 	}
-	public int getMentionToUserId() {
-		return mentionToUserId;
+	public boolean getPositiveAttitude() {
+		return positiveAttitude;
 	}
-	public String getReplyToUser() {
-		return replyToUser;
-	}
-	public int getReplyToUserId() {
-		return replyToUserId;
+	public boolean getNegativeAttitude() {
+		return negativeAttitude;
 	}
 	public Date getCreateDate() {
 		return createDate;
@@ -83,13 +79,13 @@ public class Tweet implements Serializable {
 	public Date getColUpdateDate() {
 		return colUpdateDate;
 	}
-	public void setId(int id) {
+	public void setId(long id) {
 		this.id = id;
 	}
 	public void setUser(String user) {
 		this.user = user;
 	}
-	public void setUserId(int userId) {
+	public void setUserId(long userId) {
 		this.userId = userId;
 	}
 	public void setText(String text) {
@@ -98,32 +94,29 @@ public class Tweet implements Serializable {
 	public void setUrl(String url) {
 		this.url = url;
 	}
-	public void setGeoLocation(String geoLocation) {
-		this.geoLocation = geoLocation;
+	public void setRetweetedUser(String retweetedUser) {
+		this.retweetedUser = retweetedUser;
 	}
-	public void setLocation(String location) {
-		this.location = location;
+	public void setRetweetedUserId(long retweetedUserId) {
+		this.retweetedUserId = retweetedUserId;
 	}
-	public void setSourceTweet(String sourceTweet) {
-		this.sourceTweet = sourceTweet;
+	public void setMentionedUser(String mentionedUser) {
+		this.mentionedUser = mentionedUser;
 	}
-	public void setRetweetFromUser(String retweetFromUser) {
-		this.retweetFromUser = retweetFromUser;
+	public void setMentionedUserId(long mentionedUserId) {
+		this.mentionedUserId = mentionedUserId;
 	}
-	public void setRetweetFromUserId(int retweetFromUserId) {
-		this.retweetFromUserId = retweetFromUserId;
+	public void setReplyUser(String replyUser) {
+		this.replyUser = replyUser;
 	}
-	public void setMentionToUser(String mentionToUser) {
-		this.mentionToUser = mentionToUser;
+	public void setReplyUserId(long replyUserId) {
+		this.replyUserId = replyUserId;
 	}
-	public void setMentionToUserId(int mentionToUserId) {
-		this.mentionToUserId = mentionToUserId;
+	public void setPositiveAttitude(boolean positiveAttitude) {
+		this.positiveAttitude = positiveAttitude;
 	}
-	public void setReplyToUser(String replyToUser) {
-		this.replyToUser = replyToUser;
-	}
-	public void setReplyToUserId(int replyToUserId) {
-		this.replyToUserId = replyToUserId;
+	public void setNegativeAttitude(boolean negativeAttitude) {
+		this.negativeAttitude = negativeAttitude;
 	}
 	public void setCreateDate(Date createDate) {
 		this.createDate = createDate;

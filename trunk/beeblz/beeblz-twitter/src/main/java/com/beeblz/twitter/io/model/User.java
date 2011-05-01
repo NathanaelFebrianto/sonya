@@ -14,7 +14,7 @@ import java.util.Date;
  */
 public class User implements Serializable {
 
-	private int id;
+	private long id;
 	private String user;
 	private String name;
 	private String location;
@@ -26,7 +26,7 @@ public class User implements Serializable {
 	private Date colCreateDate;
 	private Date colUpdateDate;
 	
-	public int getId() {
+	public long getId() {
 		return id;
 	}
 	public String getUser() {
@@ -50,7 +50,7 @@ public class User implements Serializable {
 	public int getTweetsCount() {
 		return tweetsCount;
 	}
-	public boolean isTarget() {
+	public boolean getIsTarget() {
 		return isTarget;
 	}
 	public Date getColCreateDate() {
@@ -59,7 +59,7 @@ public class User implements Serializable {
 	public Date getColUpdateDate() {
 		return colUpdateDate;
 	}
-	public void setId(int id) {
+	public void setId(long id) {
 		this.id = id;
 	}
 	public void setUser(String user) {
@@ -83,7 +83,7 @@ public class User implements Serializable {
 	public void setTweetsCount(int tweetsCount) {
 		this.tweetsCount = tweetsCount;
 	}
-	public void setTarget(boolean isTarget) {
+	public void setIsTarget(boolean isTarget) {
 		this.isTarget = isTarget;
 	}
 	public void setColCreateDate(Date colCreateDate) {
