@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE configuration
-PUBLIC "-//ibatis.apache.org//DTD Config 3.0//EN"
-"http://ibatis.apache.org/dtd/ibatis-3-config.dtd">
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
 
 <configuration>
 
@@ -20,13 +18,8 @@ PUBLIC "-//ibatis.apache.org//DTD Config 3.0//EN"
 	</environments>
 
 	<mappers>
-		<mapper resource="ibatis/mapper/VertexMapper.xml" />
-		<mapper resource="ibatis/mapper/EdgeMapper.xml" />
-		<mapper resource="ibatis/mapper/UserBlogEntryMapper.xml" />
-		<mapper resource="ibatis/mapper/DictionaryMapper.xml" />
-		<mapper resource="ibatis/mapper/TopicTermMapper.xml" />
-		<mapper resource="ibatis/mapper/UserTermMapper.xml" />
-		<mapper resource="ibatis/mapper/TopicUserMapper.xml" />
-		<mapper resource="ibatis/mapper/TopicUserClusterMapper.xml" />
+		<mapper resource="mybatis/mapper/UserMapper.xml" />
+		<mapper resource="mybatis/mapper/RelationshipMapper.xml" />
+		<mapper resource="mybatis/mapper/TweetMapper.xml" />
 	</mappers>
 </configuration>

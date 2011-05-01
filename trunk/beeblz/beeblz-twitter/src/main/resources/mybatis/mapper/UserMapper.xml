@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+
+<mapper namespace="com.beeblz.twitter.io.dao.UserMapper">
+
+	<resultMap id="userResultMap" type="com.beeblz.twitter.io.model.User">
+		<id property="id" column="id" />
+		<result property="user" column="user" />
+		<result property="name" column="name" />
+		<result property="location" column="location" />
+		<result property="profileImageUrl" column="profile_image_url" />
+		<result property="followersCount" column="followers_count" />
+		<result property="friendsCount" column="friends_count" />
+		<result property="tweetsCount" column="tweets_count" />
+		<result property="isTarget" column="is_target" />
+		<result property="colCreateDate" column="col_create_date" />
+		<result property="colUpdateDate" column="col_update_date" />
+	</resultMap>
+
+	<insert id="insertUser" parameterType="com.beeblz.twitter.io.model.User">
+		INSERT INTO user (
+			id
+			, user
+			, name
+			, location
+			, profile_image_url
+			, followers_count
+			, friends_count
+			, tweets_count
+			, is_target
+			, col_create_date
+			, col_update_date
+		)
+		VALUES (
+			#{id}
+			, #{user}
+			, #{name}
+			, #{location}
+			, #{profileImageUrl}
+			, #{followersCount,javaType=int,jdbcType=NUMERIC}
+			, #{friendsCount,javaType=int,jdbcType=NUMERIC}
+			, #{tweetsCount,javaType=int,jdbcType=NUMERIC}
+			, #{isTarget,javaType=boolean,jdbcType=BOOLEAN}
+			, #{colCreateDate,jdbcType=DATE}
+			, #{colCreateDate,jdbcType=DATE}
+			, NOW()
+			, NOW()
+		)
+	</insert>
+
+</mapper>

@@ -1,4 +1,4 @@
-package com.beeblz.sna.collector;
+package com.beeblz.twitter.collector;
 
 import java.util.List;
 

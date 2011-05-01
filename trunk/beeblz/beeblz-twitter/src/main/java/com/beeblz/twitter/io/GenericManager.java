@@ -2,7 +2,7 @@
  * Copyright (c) 2011, Young-Gue Bae
  * All rights reserved.
  */
-package com.beeblz.sna.io;
+package com.beeblz.twitter.io;
 
 
 /**
