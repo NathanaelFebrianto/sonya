@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.beeblz.twitter.io.dao.TweetMapper">
+
+	<resultMap id="tweetResultMap" type="com.beeblz.twitter.io.model.Tweet">
+		<id property="id" column="id" />
+		<result property="user" column="user" />
+		<result property="userId" column="user_id" />
+		<result property="text" column="tweet_text" />
+		<result property="url" column="url" />
+		<result property="retweetedUser" column="retweeted_user" />
+		<result property="retweetFromUserId" column="retweeted_user_id" />
+		<result property="mentionedUser" column="mentioned_user" />
+		<result property="mentionedUserId" column="mentioned_user_id" />
+		<result property="replyUser" column="reply_user" />
+		<result property="replyUserId" column="reply_user_id" />
+		<result property="positiveAttitude" column="positive_attitude" />
+		<result property="negativeAttitude" column="negative_attitude" />
+		<result property="createDate" column="create_date" />
+		<result property="colCreateDate" column="col_create_date" />
+		<result property="colUpdateDate" column="col_update_date" />
+	</resultMap>
+
+	<insert id="insertTweet" parameterType="com.beeblz.twitter.io.model.Tweet">
+		INSERT INTO user (
+			id
+			, user
+			, user_id
+			, tweet_text
+			, url
+			, retweeted_user
+			, retweeted_user_id
+			, mentioned_user
+			, mentioned_user_id
+			, reply_user
+			, reply_user_id
+			, positive_attitude
+			, negative_attitude
+			, create_date
+			, col_create_date
+			, col_update_date
+		)
+		VALUES (
+			#{id,javaType=long,jdbcType=NUMERIC}
+			, #{user}
+			, #{userId,javaType=long,jdbcType=NUMERIC}
+			, #{text}
+			, #{url}
+			, #{retweetedUser}
+			, #{retweetedUserId,javaType=long,jdbcType=NUMERIC}
+			, #{mentionedUser}
+			, #{mentionedUserId,javaType=long,jdbcType=NUMERIC}
+			, #{replyUser}
+			, #{replyUserId,javaType=long,jdbcType=NUMERIC}
+			, #{positiveAttitude,javaType=boolean,jdbcType=BOOLEAN}
+			, #{negativeAttitude,javaType=boolean,jdbcType=BOOLEAN}
+			, #{createDate,jdbcType=DATE}
+			, NOW()
+			, NOW()
+		)
+	</insert>
+
+</mapper>

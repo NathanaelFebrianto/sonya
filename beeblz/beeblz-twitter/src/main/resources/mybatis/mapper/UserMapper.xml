@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
-
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
 <mapper namespace="com.beeblz.twitter.io.dao.UserMapper">
 
 	<resultMap id="userResultMap" type="com.beeblz.twitter.io.model.User">
@@ -32,7 +33,7 @@
 			, col_update_date
 		)
 		VALUES (
-			#{id}
+			#{id,javaType=long,jdbcType=NUMERIC}
 			, #{user}
 			, #{name}
 			, #{location}
@@ -41,8 +42,6 @@
 			, #{friendsCount,javaType=int,jdbcType=NUMERIC}
 			, #{tweetsCount,javaType=int,jdbcType=NUMERIC}
 			, #{isTarget,javaType=boolean,jdbcType=BOOLEAN}
-			, #{colCreateDate,jdbcType=DATE}
-			, #{colCreateDate,jdbcType=DATE}
 			, NOW()
 			, NOW()
 		)
