@@ -1,6 +1,5 @@
 package com.beeblz.twitter.collector;
 
-import java.util.Date;
 import java.util.List;
 
 import twitter4j.Query;
@@ -71,8 +70,7 @@ public class TwitterCollector {
 	        	Query query1 = new Query(qStr1);
 	        	query1.page(1);
 	        	query1.rpp(100);
-	        	//query1.setSince("2011-05-01");
-	        	//query1.setUntil("");	        	
+	        	//query1.setSince("2011-05-01");      	
 	        	System.out.println("query1 = " + query1.getQuery());	        	
 	            QueryResult result1 = twitter.search(query1);
 	            System.out.println("query1 result size = " + result1.getTweets().size());
@@ -112,39 +110,32 @@ public class TwitterCollector {
 		
         for (twitter4j.Tweet tweet : tweets) {
         	try {
-            	long id = tweet.getId();
-            	String user = tweet.getFromUser();
-            	long userNo = tweet.getFromUserId();
-            	String text = tweet.getText();
-            	String replyUser = tweet.getToUser();
-            	long replyUserNo = tweet.getToUserId();
-            	Date createDate = tweet.getCreatedAt();
+        		Tweet ntweet = new Tweet();
+        		
+        		ntweet.setId(tweet.getId());
+        		ntweet.setUser(tweet.getFromUser());
+        		ntweet.setUserNo(tweet.getFromUserId());
+        		ntweet.setText(tweet.getText());
+            	ntweet.setReplyUser(tweet.getToUser());
+            	ntweet.setReplyUserNo(tweet.getToUserId());
+            	ntweet.setCreateDate(tweet.getCreatedAt());
             	
             	if (mentionedUser ==  null) {
-            		List<String> mentionedUsers = exractor.extractMentionedScreennames(text);
-            		
-            		if (mentionedUsers != null && mentionedUsers.size() > 0)
-            			mentionedUser = (String) mentionedUsers.get(0);
-            	}
+            		List<String> mentionedUsers = exractor.extractMentionedScreennames(tweet.getText());            		
+            		if (mentionedUsers != null && mentionedUsers.size() > 0) {
+            			String parsedMentionedUser = (String) mentionedUsers.get(0);
+            			if (!parsedMentionedUser.equals(tweet.getToUser()))
+            				ntweet.setMentionedUser(parsedMentionedUser);
+            		}
+             	}
             	
-            	String url = null;
-            	List<String> urls = exractor.extractURLs(text);
+            	if (mentionedUser != null && !mentionedUser.equals(tweet.getToUser())) {
+            		ntweet.setMentionedUser(mentionedUser);
+            	}            		
+            	
+            	List<String> urls = exractor.extractURLs(tweet.getText());
             	if (urls != null && urls.size() > 0)
-        			url = (String) urls.get(0);
-            	
-            	Tweet ntweet = new Tweet();
-            	ntweet.setId(id);
-            	ntweet.setUser(user);
-            	ntweet.setUserNo(userNo);
-            	ntweet.setText(text);
-            	ntweet.setUrl(url);
-            	//ntweet.setRetweetedUser(retweetedUser);
-            	//ntweet.setRetweetedUserNo(retweetedUserNo);
-            	ntweet.setMentionedUser(mentionedUser);
-            	//ntweet.setMentionedUserNo(mentionedUserNo);
-            	ntweet.setReplyUser(replyUser);
-            	ntweet.setReplyUserNo(replyUserNo);
-            	ntweet.setCreateDate(createDate);
+            		ntweet.setUrl((String)urls.get(0));
 
             	if (attitude != null && attitude.equalsIgnoreCase("positive"))
             		ntweet.setPositiveAttitude(true);
@@ -152,16 +143,16 @@ public class TwitterCollector {
             		ntweet.setNegativeAttitude(true);
             	
            		System.out.println(
-    				"id = " + id 
-    				+ " | createdAt = " + createDate 
-     				+ " | @From:" + user + " -> @To:" + replyUser + " - " + text);
+    				"id = " + tweet.getId() 
+    				+ " | createdAt = " + tweet.getCreatedAt() 
+     				+ " | @From:" + tweet.getFromUser() + " -> @To:" + tweet.getToUser() + " - " + tweet.getText());
            		
            		List<Tweet> exists = tweetManager.getTweets(ntweet);
            		if (exists.size() == 0) {
            			tweetManager.addTweet(ntweet);
            		}
            		else if (exists.size() > 0 && attitude != null) {
-           			tweetManager.setTweet(ntweet);
+           			//tweetManager.setTweet(ntweet);
            		}
 
             	// LIWC로 Sentiment 체크
