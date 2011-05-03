@@ -4,6 +4,8 @@
  */
 package com.beeblz.twitter.io.service;
 
+import java.util.List;
+
 import com.beeblz.twitter.io.GenericManager;
 import com.beeblz.twitter.io.model.User;
 
@@ -14,11 +16,10 @@ import com.beeblz.twitter.io.model.User;
  */
 public interface UserManager extends GenericManager {
 
-     /**
-     * Adds a user.
-     *
-     * @param user the user
-     */
+	public List<User> getUsers(User user);
+	
 	public void addUser(User user);
+	
+	public void setUser(User user);
 	
 }

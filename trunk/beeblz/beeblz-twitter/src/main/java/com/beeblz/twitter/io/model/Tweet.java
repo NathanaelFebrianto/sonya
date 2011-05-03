@@ -16,15 +16,15 @@ public class Tweet implements Serializable {
 
 	private long id;
 	private String user;
-	private long userId;
+	private long userNo;
 	private String text;
 	private String url;
 	private String retweetedUser;
-	private long retweetedUserId;
+	private long retweetedUserNo;
 	private String mentionedUser;
-	private long mentionedUserId;
+	private long mentionedUserNo;
 	private String replyUser;
-	private long replyUserId;
+	private long replyUserNo;
 	private boolean positiveAttitude;
 	private boolean negativeAttitude;
 	private Date createDate;
@@ -37,8 +37,8 @@ public class Tweet implements Serializable {
 	public String getUser() {
 		return user;
 	}
-	public long getUserId() {
-		return userId;
+	public long getUserNo() {
+		return userNo;
 	}
 	public String getText() {
 		return text;
@@ -49,20 +49,20 @@ public class Tweet implements Serializable {
 	public String getRetweetedUser() {
 		return retweetedUser;
 	}
-	public long getRetweetedUserId() {
-		return retweetedUserId;
+	public long getRetweetedUserNo() {
+		return retweetedUserNo;
 	}
 	public String getMentionedUser() {
 		return mentionedUser;
 	}
-	public long getMentionedUserId() {
-		return mentionedUserId;
+	public long getMentionedUserNo() {
+		return mentionedUserNo;
 	}
 	public String getReplyUser() {
 		return replyUser;
 	}
-	public long getReplyUserId() {
-		return replyUserId;
+	public long getReplyUserNo() {
+		return replyUserNo;
 	}
 	public boolean getPositiveAttitude() {
 		return positiveAttitude;
@@ -85,8 +85,8 @@ public class Tweet implements Serializable {
 	public void setUser(String user) {
 		this.user = user;
 	}
-	public void setUserId(long userId) {
-		this.userId = userId;
+	public void setUserNo(long userNo) {
+		this.userNo = userNo;
 	}
 	public void setText(String text) {
 		this.text = text;
@@ -97,20 +97,20 @@ public class Tweet implements Serializable {
 	public void setRetweetedUser(String retweetedUser) {
 		this.retweetedUser = retweetedUser;
 	}
-	public void setRetweetedUserId(long retweetedUserId) {
-		this.retweetedUserId = retweetedUserId;
+	public void setRetweetedUserNo(long retweetedUserNo) {
+		this.retweetedUserNo = retweetedUserNo;
 	}
 	public void setMentionedUser(String mentionedUser) {
 		this.mentionedUser = mentionedUser;
 	}
-	public void setMentionedUserId(long mentionedUserId) {
-		this.mentionedUserId = mentionedUserId;
+	public void setMentionedUserNo(long mentionedUserNo) {
+		this.mentionedUserNo = mentionedUserNo;
 	}
 	public void setReplyUser(String replyUser) {
 		this.replyUser = replyUser;
 	}
-	public void setReplyUserId(long replyUserId) {
-		this.replyUserId = replyUserId;
+	public void setReplyUserNo(long replyUserNo) {
+		this.replyUserNo = replyUserNo;
 	}
 	public void setPositiveAttitude(boolean positiveAttitude) {
 		this.positiveAttitude = positiveAttitude;

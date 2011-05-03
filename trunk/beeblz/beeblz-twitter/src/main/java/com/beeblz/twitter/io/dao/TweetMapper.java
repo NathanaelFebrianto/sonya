@@ -4,6 +4,8 @@
  */
 package com.beeblz.twitter.io.dao;
 
+import java.util.List;
+
 import com.beeblz.twitter.io.GenericMapper;
 import com.beeblz.twitter.io.model.Tweet;
 
@@ -14,11 +16,10 @@ import com.beeblz.twitter.io.model.Tweet;
  */
 public interface TweetMapper extends GenericMapper {
 
-    /**
-     * Inserts a tweet.
-     *
-     * @param tweet the tweet
-     */
+	public List<Tweet> selectTweets(Tweet tweet);
+	
 	public void insertTweet(Tweet tweet);
+	
+	public void updateTweet(Tweet tweet);
 
 }

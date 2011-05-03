@@ -14,8 +14,8 @@ import java.util.Date;
  */
 public class User implements Serializable {
 
-	private long id;
-	private String user;
+	private String id;
+	private long userNo;
 	private String name;
 	private String location;
 	private String profileImageUrl;
@@ -26,11 +26,11 @@ public class User implements Serializable {
 	private Date colCreateDate;
 	private Date colUpdateDate;
 	
-	public long getId() {
+	public String getId() {
 		return id;
 	}
-	public String getUser() {
-		return user;
+	public long getUserNo() {
+		return userNo;
 	}
 	public String getName() {
 		return name;
@@ -59,11 +59,11 @@ public class User implements Serializable {
 	public Date getColUpdateDate() {
 		return colUpdateDate;
 	}
-	public void setId(long id) {
+	public void setId(String id) {
 		this.id = id;
 	}
-	public void setUser(String user) {
-		this.user = user;
+	public void setUserNo(long userNo) {
+		this.userNo = userNo;
 	}
 	public void setName(String name) {
 		this.name = name;

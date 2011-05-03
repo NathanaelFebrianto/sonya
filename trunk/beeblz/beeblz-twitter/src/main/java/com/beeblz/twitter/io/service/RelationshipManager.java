@@ -4,6 +4,8 @@
  */
 package com.beeblz.twitter.io.service;
 
+import java.util.List;
+
 import com.beeblz.twitter.io.GenericManager;
 import com.beeblz.twitter.io.model.Relationship;
 
@@ -14,11 +16,10 @@ import com.beeblz.twitter.io.model.Relationship;
  */
 public interface RelationshipManager extends GenericManager {
 
-     /**
-     * Adds a relationship.
-     *
-     * @param relationship the relationship
-     */
+	public List<Relationship> getRelationships(Relationship relationship);
+	
 	public void addRelationship(Relationship relationship);
+	
+	public void setRelationship(Relationship relationship);
 	
 }

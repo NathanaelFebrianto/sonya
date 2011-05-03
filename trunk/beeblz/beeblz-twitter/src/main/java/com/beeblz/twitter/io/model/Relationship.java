@@ -14,10 +14,10 @@ import java.util.Date;
  */
 public class Relationship implements Serializable {
 
-	private long id1;
-	private long id2;
-	private String user1;
-	private String user2;
+	private String id1;
+	private String id2;
+	private long userNo1;
+	private long userNo2;
 	private boolean isFollowedByUser2;
 	private int retweetedCountByUser2;
 	private int replyedCountByUser2;
@@ -25,17 +25,17 @@ public class Relationship implements Serializable {
 	private Date colCreateDate;
 	private Date colUpdateDate;
 	
-	public long getId1() {
+	public String getId1() {
 		return id1;
 	}
-	public long getId2() {
+	public String getId2() {
 		return id2;
 	}
-	public String getUser1() {
-		return user1;
+	public long getUserNo1() {
+		return userNo1;
 	}
-	public String getUser2() {
-		return user2;
+	public long getUserNo2() {
+		return userNo2;
 	}
 	public boolean getIsFollowedByUser2() {
 		return isFollowedByUser2;
@@ -55,17 +55,17 @@ public class Relationship implements Serializable {
 	public Date getColUpdateDate() {
 		return colUpdateDate;
 	}
-	public void setId1(long id1) {
+	public void setId1(String id1) {
 		this.id1 = id1;
 	}
-	public void setId2(long id2) {
+	public void setId2(String id2) {
 		this.id2 = id2;
 	}
-	public void setUser1(String user1) {
-		this.user1 = user1;
+	public void setUserNo1(long userNo1) {
+		this.userNo1 = userNo1;
 	}
-	public void setUser2(String user2) {
-		this.user2 = user2;
+	public void setUserNo2(long userNo2) {
+		this.userNo2 = userNo2;
 	}
 	public void setIsFollowedByUser2(boolean isFollowedByUser2) {
 		this.isFollowedByUser2 = isFollowedByUser2;

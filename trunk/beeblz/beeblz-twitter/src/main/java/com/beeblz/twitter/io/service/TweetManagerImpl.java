@@ -4,6 +4,8 @@
  */
 package com.beeblz.twitter.io.service;
 
+import java.util.List;
+
 import org.apache.ibatis.session.SqlSession;
 
 import com.beeblz.twitter.io.GenericManagerImpl;
@@ -17,32 +19,20 @@ import com.beeblz.twitter.io.model.Tweet;
  */
 public class TweetManagerImpl extends GenericManagerImpl implements TweetManager {
 
-	//private TweetMapper mapper;
+    public TweetManagerImpl() { }
 	
-	/**
-     * Constructor.
-     *
-     */
-    public TweetManagerImpl() {
-    }
-	
-	/**
-     * Constructor.
-     *
-     * @param mapper the tweet mapper
-     */
-    public TweetManagerImpl(TweetMapper mapper) {
-        //this.mapper = mapper;
-    }
-    
-    /**
-     * Adds a tweet.
-     *
-     * @param tweet the tweet
-     */
-	public void addTweet(Tweet tweet) {
-		//mapper.insertTweet(tweet);
+	public List<Tweet> getTweets(Tweet tweet) {
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		TweetMapper mapper = session.getMapper(TweetMapper.class);
+    		List<Tweet> result = mapper.selectTweets(tweet);
+    		return result;
+    	} finally {
+    		session.close();
+    	}
+	}
 
+	public void addTweet(Tweet tweet) {
 		SqlSession session = sqlSessionFactory.openSession();
     	try {
     		TweetMapper mapper = session.getMapper(TweetMapper.class);
@@ -53,4 +43,14 @@ public class TweetManagerImpl extends GenericManagerImpl implements TweetManager
     	}
 	}
 	
+	public void setTweet(Tweet tweet) {
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		TweetMapper mapper = session.getMapper(TweetMapper.class);
+    		mapper.updateTweet(tweet);
+    		session.commit();
+    	} finally {
+    		session.close();
+    	}		
+	}
 }

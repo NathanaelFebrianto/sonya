@@ -4,11 +4,11 @@
 	
 <mapper namespace="com.beeblz.twitter.io.dao.RelationshipMapper">
 
-	<resultMap id="RelationshipResultMap" type="com.beeblz.twitter.io.model.Relationship">
+	<resultMap id="relationshipResultMap" type="com.beeblz.twitter.io.model.Relationship">
 		<id property="id1" column="id1" />
 		<result property="id2" column="id2" />
-		<result property="user1" column="user1" />
-		<result property="user2" column="user2" />
+		<result property="userNo1" column="user_no1" />
+		<result property="userNo2" column="user_no2" />
 		<result property="isFollowedByUser2" column="is_followed_by_user2" />
 		<result property="retweetedCountByUser2" column="retweeted_count_by_user2" />
 		<result property="mentionedCountByUser2" column="mentioned_count_by_user2" />
@@ -16,13 +16,25 @@
 		<result property="colCreateDate" column="col_create_date" />
 		<result property="colUpdateDate" column="col_update_date" />
 	</resultMap>
+	
+	<select id="selectRelationships" parameterType="com.beeblz.twitter.io.model.Relationship" resultMap="relationshipResultMap">
+		SELECT *
+		FROM relationship
+		WHERE 1 = 1
+		<if test="id1 != null">
+			AND id1 = #{id1}
+		</if>
+		<if test="id2 != null">
+			AND id2 = #{id2}
+		</if>
+	</select>
 
 	<insert id="insertRelationship" parameterType="com.beeblz.twitter.io.model.Relationship">
 		INSERT INTO relationship (
 			id1
 			, id2
-			, user1
-			, user2
+			, user_no1
+			, user_no2
 			, is_followed_by_user2
 			, retweeted_count_by_user2
 			, mentioned_count_by_user2
@@ -31,10 +43,10 @@
 			, col_update_date
 		)
 		VALUES (
-			#{id1,javaType=long,jdbcType=NUMERIC}
-			, #{id2,javaType=long,jdbcType=NUMERIC}
-			, #{user1}
-			, #{user2}
+			#{id1}
+			, #{id2}
+			, #{userNo1,javaType=long,jdbcType=NUMERIC}
+			, #{userNo2,javaType=long,jdbcType=NUMERIC}
 			, #{isFollowedByUser2,javaType=boolean,jdbcType=BOOLEAN}
 			, #{retweetedCountByUser2,javaType=int,jdbcType=NUMERIC}
 			, #{mentionedCountByUser2,javaType=int,jdbcType=NUMERIC}
@@ -43,5 +55,20 @@
 			, NOW()
 		)
 	</insert>
+
+	<update id="updateRelationship" parameterType="com.beeblz.twitter.io.model.Relationship">
+		UPDATE relationship
+		<set>
+			<if test="userNo1 != 0">user_no1 = #{userNo1},</if>
+			<if test="userNo2 != 0">user_no1 = #{userNo2},</if>
+			<if test="isFollowedByUser2 != null">is_followed_by_user2 = #{isFollowedByUser2},</if>
+			<if test="retweetedCountByUser2 != 0">retweeted_count_by_user2 = #{retweetedCountByUser2},</if>
+			<if test="mentionedCountByUser2 != 0">mentioned_count_by_user2 = #{mentionedCountByUser2},</if>
+			<if test="replyedCountByUser2 != 0">replyed_count_by_user2 = #{replyedCountByUser2},</if>
+			col_update_date = NOW()
+		</set>			
+		WHERE
+			id1 = #{id1} AND id2 = #{id2}
+	</update>
 
 </mapper>
