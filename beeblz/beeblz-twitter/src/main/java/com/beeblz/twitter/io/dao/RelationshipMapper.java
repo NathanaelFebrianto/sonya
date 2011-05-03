@@ -4,6 +4,8 @@
  */
 package com.beeblz.twitter.io.dao;
 
+import java.util.List;
+
 import com.beeblz.twitter.io.GenericMapper;
 import com.beeblz.twitter.io.model.Relationship;
 
@@ -14,11 +16,10 @@ import com.beeblz.twitter.io.model.Relationship;
  */
 public interface RelationshipMapper extends GenericMapper {
 
-    /**
-     * Inserts a relationship.
-     *
-     * @param relationship the relationship
-     */
-	public void insertRelationship(Relationship relation);
+	public List<Relationship> selectRelationships(Relationship relationship);
+	
+	public void insertRelationship(Relationship relationship);
+	
+	public void updateRelationship(Relationship relationship);
 
 }

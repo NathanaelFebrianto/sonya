@@ -4,6 +4,8 @@
  */
 package com.beeblz.twitter.io.service;
 
+import java.util.List;
+
 import org.apache.ibatis.session.SqlSession;
 
 import com.beeblz.twitter.io.GenericManagerImpl;
@@ -17,32 +19,20 @@ import com.beeblz.twitter.io.model.Relationship;
  */
 public class RelationshipManagerImpl extends GenericManagerImpl implements RelationshipManager {
 
-	//private RelationshipMapper mapper;
+    public RelationshipManagerImpl() { }
 	
-	/**
-     * Constructor.
-     *
-     */
-    public RelationshipManagerImpl() {
-    }
-	
-	/**
-     * Constructor.
-     *
-     * @param mapper the relationship mapper
-     */
-    public RelationshipManagerImpl(RelationshipMapper mapper) {
-        //this.mapper = mapper;
-    }
+	public List<Relationship> getRelationships(Relationship relationship) {
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		RelationshipMapper mapper = session.getMapper(RelationshipMapper.class);
+    		List<Relationship> result = mapper.selectRelationships(relationship);
+    		return result;
+    	} finally {
+    		session.close();
+    	}
+	}
     
-    /**
-     * Adds a relationship.
-     *
-     * @param relationship the relationship
-     */
 	public void addRelationship(Relationship relationship) {
-		//mapper.insertUser(user);
-
 		SqlSession session = sqlSessionFactory.openSession();
     	try {
     		RelationshipMapper mapper = session.getMapper(RelationshipMapper.class);
@@ -53,4 +43,14 @@ public class RelationshipManagerImpl extends GenericManagerImpl implements Relat
     	}
 	}
 	
+	public void setRelationship(Relationship relationship) {
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		RelationshipMapper mapper = session.getMapper(RelationshipMapper.class);
+    		mapper.updateRelationship(relationship);
+    		session.commit();
+    	} finally {
+    		session.close();
+    	}		
+	}
 }

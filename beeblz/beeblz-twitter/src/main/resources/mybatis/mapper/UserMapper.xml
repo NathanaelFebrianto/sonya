@@ -6,7 +6,7 @@
 
 	<resultMap id="userResultMap" type="com.beeblz.twitter.io.model.User">
 		<id property="id" column="id" />
-		<result property="user" column="user" />
+		<result property="userNo" column="user_no" />
 		<result property="name" column="name" />
 		<result property="location" column="location" />
 		<result property="profileImageUrl" column="profile_image_url" />
@@ -18,10 +18,22 @@
 		<result property="colUpdateDate" column="col_update_date" />
 	</resultMap>
 
+	<select id="selectUsers" parameterType="com.beeblz.twitter.io.model.User" resultMap="userResultMap">
+		SELECT *
+		FROM user
+		WHERE 1 = 1
+		<if test="id != null">
+			AND id = #{id}
+		</if>
+		<if test="authority != null">
+			AND is_target >= #{isTarget,javaType=boolean,jdbcType=BOOLEAN}
+		</if>
+	</select>
+
 	<insert id="insertUser" parameterType="com.beeblz.twitter.io.model.User">
 		INSERT INTO user (
 			id
-			, user
+			, user_no
 			, name
 			, location
 			, profile_image_url
@@ -33,8 +45,8 @@
 			, col_update_date
 		)
 		VALUES (
-			#{id,javaType=long,jdbcType=NUMERIC}
-			, #{user}
+			#{id}
+			, #{userNo,javaType=long,jdbcType=NUMERIC}
 			, #{name}
 			, #{location}
 			, #{profileImageUrl}
@@ -46,5 +58,21 @@
 			, NOW()
 		)
 	</insert>
+	
+	<update id="updateUser" parameterType="com.beeblz.twitter.io.model.User">
+		UPDATE user
+		<set>
+			<if test="name != null">name = #{name},</if>
+			<if test="location != null">location = #{location},</if>
+			<if test="profileImageUrl != null">profile_image_url = #{profileImageUrl},</if>
+			<if test="followersCount != 0">followers_count = #{followersCount},</if>
+			<if test="friendsCount != 0">friends_count = #{friendsCount},</if>
+			<if test="tweetsCount != 0">tweets_count = #{tweetsCount},</if>
+			<if test="isTarget != null">is_target = #{isTarget},</if>
+			col_update_date = NOW()
+		</set>
+		WHERE
+			id = #{id}
+	</update>
 
 </mapper>

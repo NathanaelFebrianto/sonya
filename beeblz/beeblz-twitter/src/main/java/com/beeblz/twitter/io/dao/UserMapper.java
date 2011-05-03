@@ -4,6 +4,8 @@
  */
 package com.beeblz.twitter.io.dao;
 
+import java.util.List;
+
 import com.beeblz.twitter.io.GenericMapper;
 import com.beeblz.twitter.io.model.User;
 
@@ -14,11 +16,10 @@ import com.beeblz.twitter.io.model.User;
  */
 public interface UserMapper extends GenericMapper {
 
-    /**
-     * Inserts a user.
-     *
-     * @param user the user
-     */
+	public List<User> selectUsers(User user);
+	
 	public void insertUser(User user);
+	
+	public void updateUser(User user);
 
 }

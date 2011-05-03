@@ -7,15 +7,15 @@
 	<resultMap id="tweetResultMap" type="com.beeblz.twitter.io.model.Tweet">
 		<id property="id" column="id" />
 		<result property="user" column="user" />
-		<result property="userId" column="user_id" />
+		<result property="userNo" column="user_no" />
 		<result property="text" column="tweet_text" />
 		<result property="url" column="url" />
 		<result property="retweetedUser" column="retweeted_user" />
-		<result property="retweetFromUserId" column="retweeted_user_id" />
+		<result property="retweetedUserNo" column="retweeted_user_no" />
 		<result property="mentionedUser" column="mentioned_user" />
-		<result property="mentionedUserId" column="mentioned_user_id" />
+		<result property="mentionedUserNo" column="mentioned_user_no" />
 		<result property="replyUser" column="reply_user" />
-		<result property="replyUserId" column="reply_user_id" />
+		<result property="replyUserNo" column="reply_user_no" />
 		<result property="positiveAttitude" column="positive_attitude" />
 		<result property="negativeAttitude" column="negative_attitude" />
 		<result property="createDate" column="create_date" />
@@ -23,19 +23,28 @@
 		<result property="colUpdateDate" column="col_update_date" />
 	</resultMap>
 
+	<select id="selectTweets" parameterType="com.beeblz.twitter.io.model.Tweet" resultMap="tweetResultMap">
+		SELECT *
+		FROM tweet
+		WHERE 1 = 1
+		<if test="id != null">
+			AND id = #{id}
+		</if>
+	</select>
+
 	<insert id="insertTweet" parameterType="com.beeblz.twitter.io.model.Tweet">
-		INSERT INTO user (
+		INSERT INTO tweet (
 			id
 			, user
-			, user_id
+			, user_no
 			, tweet_text
 			, url
 			, retweeted_user
-			, retweeted_user_id
+			, retweeted_user_no
 			, mentioned_user
-			, mentioned_user_id
+			, mentioned_user_no
 			, reply_user
-			, reply_user_id
+			, reply_user_no
 			, positive_attitude
 			, negative_attitude
 			, create_date
@@ -45,15 +54,15 @@
 		VALUES (
 			#{id,javaType=long,jdbcType=NUMERIC}
 			, #{user}
-			, #{userId,javaType=long,jdbcType=NUMERIC}
+			, #{userNo,javaType=long,jdbcType=NUMERIC}
 			, #{text}
 			, #{url}
 			, #{retweetedUser}
-			, #{retweetedUserId,javaType=long,jdbcType=NUMERIC}
+			, #{retweetedUserNo,javaType=long,jdbcType=NUMERIC}
 			, #{mentionedUser}
-			, #{mentionedUserId,javaType=long,jdbcType=NUMERIC}
+			, #{mentionedUserNo,javaType=long,jdbcType=NUMERIC}
 			, #{replyUser}
-			, #{replyUserId,javaType=long,jdbcType=NUMERIC}
+			, #{replyUserNo,javaType=long,jdbcType=NUMERIC}
 			, #{positiveAttitude,javaType=boolean,jdbcType=BOOLEAN}
 			, #{negativeAttitude,javaType=boolean,jdbcType=BOOLEAN}
 			, #{createDate,jdbcType=DATE}
@@ -61,5 +70,16 @@
 			, NOW()
 		)
 	</insert>
+	
+	<update id="updateTweet" parameterType="com.beeblz.twitter.io.model.Tweet">
+		UPDATE tweet
+		<set>
+			<if test="positiveAttitude != null">positive_attitude = #{positiveAttitude},</if>
+			<if test="negativeAttitude != null">negative_attitude = #{negativeAttitude},</if>
+			col_update_date = NOW()
+		</set>
+		WHERE
+			id = #{id}
+	</update>	
 
 </mapper>

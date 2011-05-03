@@ -4,6 +4,8 @@
  */
 package com.beeblz.twitter.io.service;
 
+import java.util.List;
+
 import com.beeblz.twitter.io.GenericManager;
 import com.beeblz.twitter.io.model.Tweet;
 
@@ -14,11 +16,10 @@ import com.beeblz.twitter.io.model.Tweet;
  */
 public interface TweetManager extends GenericManager {
 
-     /**
-     * Adds a tweet.
-     *
-     * @param tweet the tweet
-     */
+	public List<Tweet> getTweets(Tweet tweet);
+	
 	public void addTweet(Tweet tweet);
+	
+	public void setTweet(Tweet tweet);
 	
 }
