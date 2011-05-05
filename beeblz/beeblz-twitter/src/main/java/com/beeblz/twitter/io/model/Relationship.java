@@ -22,6 +22,8 @@ public class Relationship implements Serializable {
 	private int retweetedCountByUser2;
 	private int replyedCountByUser2;
 	private int mentionedCountByUser2;
+	private int positiveAttitudeCountByUser2;
+	private int negativeAttitudeCountByUser2;
 	private Date colCreateDate;
 	private Date colUpdateDate;
 	
@@ -49,12 +51,19 @@ public class Relationship implements Serializable {
 	public int getMentionedCountByUser2() {
 		return mentionedCountByUser2;
 	}
+	public int getPositiveAttitudeCountByUser2() {
+		return positiveAttitudeCountByUser2;
+	}
+	public int getNegativeAttitudeCountByUser2() {
+		return negativeAttitudeCountByUser2;
+	}
 	public Date getColCreateDate() {
 		return colCreateDate;
 	}
 	public Date getColUpdateDate() {
 		return colUpdateDate;
 	}
+	
 	public void setId1(String id1) {
 		this.id1 = id1;
 	}
@@ -79,12 +88,17 @@ public class Relationship implements Serializable {
 	public void setMentionedCountByUser2(int mentionedCountByUser2) {
 		this.mentionedCountByUser2 = mentionedCountByUser2;
 	}
+	public void setPositiveAttitudeCountByUser2(int positiveAttitudeCountByUser2) {
+		this.positiveAttitudeCountByUser2 = positiveAttitudeCountByUser2;
+	}
+	public void setNegativeAttitudeCountByUser2(int negativeAttitudeCountByUser2) {
+		this.negativeAttitudeCountByUser2 = negativeAttitudeCountByUser2;
+	}
 	public void setColCreateDate(Date colCreateDate) {
 		this.colCreateDate = colCreateDate;
 	}
 	public void setColUpdateDate(Date colUpdateDate) {
 		this.colUpdateDate = colUpdateDate;
 	}
-	
 	
 }

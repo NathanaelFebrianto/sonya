@@ -10,12 +10,13 @@
 		<result property="userNo" column="user_no" />
 		<result property="text" column="tweet_text" />
 		<result property="url" column="url" />
-		<result property="retweetedUser" column="retweeted_user" />
-		<result property="retweetedUserNo" column="retweeted_user_no" />
-		<result property="mentionedUser" column="mentioned_user" />
-		<result property="mentionedUserNo" column="mentioned_user_no" />
+		<result property="tweetType" column="tweet_type" />
+		<result property="targetUser" column="target_user" />
 		<result property="replyUser" column="reply_user" />
 		<result property="replyUserNo" column="reply_user_no" />
+		<result property="retweetedUser" column="retweeted_user" />
+		<result property="mentionedUser" column="mentioned_user" />
+		<result property="mentionedUsers" column="mentioned_users" />
 		<result property="positiveAttitude" column="positive_attitude" />
 		<result property="negativeAttitude" column="negative_attitude" />
 		<result property="createDate" column="create_date" />
@@ -39,12 +40,13 @@
 			, user_no
 			, tweet_text
 			, url
-			, retweeted_user
-			, retweeted_user_no
-			, mentioned_user
-			, mentioned_user_no
+			, tweet_type
+			, target_user
 			, reply_user
 			, reply_user_no
+			, retweeted_user
+			, mentioned_user
+			, mentioned_users
 			, positive_attitude
 			, negative_attitude
 			, create_date
@@ -57,12 +59,13 @@
 			, #{userNo,javaType=long,jdbcType=NUMERIC}
 			, #{text}
 			, #{url}
-			, #{retweetedUser}
-			, #{retweetedUserNo,javaType=long,jdbcType=NUMERIC}
-			, #{mentionedUser}
-			, #{mentionedUserNo,javaType=long,jdbcType=NUMERIC}
+			, #{tweetType}
+			, #{targetUser}
 			, #{replyUser}
 			, #{replyUserNo,javaType=long,jdbcType=NUMERIC}
+			, #{retweetedUser}
+			, #{mentionedUser}
+			, #{mentionedUsers}
 			, #{positiveAttitude,javaType=boolean,jdbcType=BOOLEAN}
 			, #{negativeAttitude,javaType=boolean,jdbcType=BOOLEAN}
 			, #{createDate,jdbcType=DATE}
