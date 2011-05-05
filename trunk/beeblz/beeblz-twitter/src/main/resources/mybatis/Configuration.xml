@@ -22,5 +22,6 @@
 		<mapper resource="mybatis/mapper/UserMapper.xml" />
 		<mapper resource="mybatis/mapper/RelationshipMapper.xml" />
 		<mapper resource="mybatis/mapper/TweetMapper.xml" />
+		<mapper resource="mybatis/mapper/TweetMentionedUserMapper.xml" />
 	</mappers>
 </configuration>
