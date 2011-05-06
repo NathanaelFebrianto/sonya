@@ -22,7 +22,7 @@ public class JobLogger {
 	static JobLogger instance = null;
 	static Logger logger = null;
 	String layout = "[%d{HH:mm:ss}]	%m%n";
-	String logFilename = "D:/beeblz/log/log";
+	String logFilename = "D:/beeblz/log/tweet-collect.log";
 	String datePattern = ".yyyy-MM-dd";
 	PatternLayout patternLayout = new PatternLayout(layout);
 	DailyRollingFileAppender appender = null;
