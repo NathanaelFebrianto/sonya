@@ -9,6 +9,7 @@ import twitter4j.Twitter;
 import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
 
+import com.beeblz.twitter.common.JobLogger;
 import com.beeblz.twitter.common.TwitterUtil;
 import com.beeblz.twitter.io.model.Relationship;
 import com.beeblz.twitter.io.model.Tweet;
@@ -22,9 +23,11 @@ import com.beeblz.twitter.io.service.TweetMentionedUserManager;
 import com.beeblz.twitter.io.service.TweetMentionedUserManagerImpl;
 import com.beeblz.twitter.io.service.UserManager;
 import com.beeblz.twitter.io.service.UserManagerImpl;
-import com.twitter.Extractor;
 
 public class TwitterCollector {
+	
+	// logger
+	private static JobLogger logger = JobLogger.getLogger(TwitterCollector.class);
 	
 	private UserManager userManager;
 	private TweetManager tweetManager;
@@ -72,6 +75,8 @@ public class TwitterCollector {
 	public void collectTweets(String[] targetUsers) {
 		Twitter twitter = new TwitterFactory().getInstance();
 		
+		this.writeTweetColumns();	// write tweet columns into log file
+		
 		for (int i = 0; i < targetUsers.length; i++) {
 			try {
 				String qStr1 = "from:" + targetUsers[i];		//tweets by target user				
@@ -83,26 +88,32 @@ public class TwitterCollector {
 	        	query1.page(1);
 	        	query1.rpp(100);
 	        	//query1.setSince("2011-05-01");      	
-	        	System.out.println("query1 = " + query1.getQuery());	        	
+	        	System.out.println("query1 = " + query1.getQuery());
+	        	logger.info("query1 = " + query1.getQuery());
 	            QueryResult result1 = twitter.search(query1);
 	            System.out.println("query1 result size = " + result1.getTweets().size());
+	            logger.info("query1 result size = " + result1.getTweets().size());
 	            
 	            // query 2
 	        	Query query2 = new Query(qStr2);
 	        	query2.page(1);
 	        	query2.rpp(100);
-	        	System.out.println("query2 = " + query2.getQuery());	        	
+	        	System.out.println("query2 = " + query2.getQuery());
+	        	logger.info("query2 = " + query2.getQuery());
 	            QueryResult result2 = twitter.search(query2);
 	            System.out.println("query2 result size = " + result2.getTweets().size());
+	            logger.info("query2 result size = " + result2.getTweets().size());
 	            
 	            // query 3
 	        	Query query3 = new Query(qStr3);
 	        	query3.page(1);
 	        	query3.rpp(100);
-	        	System.out.println("query3 = " + query3.getQuery());	        	
+	        	System.out.println("query3 = " + query3.getQuery());
+	        	logger.info("query3 = " + query3.getQuery());
 	            QueryResult result3 = twitter.search(query3);
-	            System.out.println("query3 result size = " + result3.getTweets().size());	            
-
+	            System.out.println("query3 result size = " + result3.getTweets().size());
+	            logger.info("query3 result size = " + result3.getTweets().size());
+	            
 	            List<twitter4j.Tweet> tweets1 = result1.getTweets();
 	            List<twitter4j.Tweet> tweets2 = result2.getTweets();
 	            List<twitter4j.Tweet> tweets3 = result3.getTweets();
@@ -117,9 +128,7 @@ public class TwitterCollector {
 		}
 	}
 	
-	public void addTweets(List<twitter4j.Tweet> tweets, String targetUser, String[] targetUsers, String attitude) {
-		Extractor exractor = new Extractor();
-		
+	public void addTweets(List<twitter4j.Tweet> tweets, String targetUser, String[] targetUsers, String attitude) {		
         for (twitter4j.Tweet tweet : tweets) {
         	try {
         		String text = tweet.getText();
@@ -193,15 +202,11 @@ public class TwitterCollector {
             		ntweet.setPositiveAttitude(true);
             	else if (attitude != null && attitude.equalsIgnoreCase("negative"))
             		ntweet.setNegativeAttitude(true);
-            	
-           		System.out.println(
-    				"id = " + tweet.getId() 
-    				+ " | createdAt = " + tweet.getCreatedAt() 
-     				+ " | @From:" + source + " -> @To:" + target + " - " + text);
-           		
+
            		List<Tweet> existTweets = tweetManager.getTweets(ntweet);
            		if (existTweets.size() == 0) {
-           			tweetManager.addTweet(ntweet);
+           			this.writeTweetData(ntweet);	// write tweet data into log file
+           			tweetManager.addTweet(ntweet);           			
            		}
            		else if (existTweets.size() > 0 && attitude != null) {
            			//tweetManager.setTweet(ntweet);
@@ -220,9 +225,9 @@ public class TwitterCollector {
            			else if (tweetType.equalsIgnoreCase("RETWEET"))
            				relation.setRetweetedCountByUser2(1);
            			
-           			if (ntweet.isPositiveAttitude())
+           			if (ntweet.getPositiveAttitude())
            				relation.setPositiveAttitudeCountByUser2(1);
-           			else if (ntweet.isNegativeAttitude())
+           			else if (ntweet.getNegativeAttitude())
            				relation.setNegativeAttitudeCountByUser2(1);
            			
            			this.addRelationship(relation);
@@ -254,11 +259,11 @@ public class TwitterCollector {
    			relation.setId2(tweet.getUser());
    			relation.setMentionedCountByUser2(1);
    			
-   			if (tweet.isPositiveAttitude())
+   			if (tweet.getPositiveAttitude())
    				relation.setPositiveAttitudeCountByUser2(1);
-   			else if (tweet.isNegativeAttitude())
-   				relation.setNegativeAttitudeCountByUser2(1);
-			
+   			else if (tweet.getNegativeAttitude())
+   				relation.setNegativeAttitudeCountByUser2(1);   			
+
 			// if source user is a target user, adds all mentioned users.
 			if (this.isTargetUser(tweet.getUser(), targetUsers)) {
        			this.addRelationship(relation);
@@ -292,6 +297,50 @@ public class TwitterCollector {
    		else if (existRelations.size() > 0) {
    			relationshipManager.setRelationship(relationship);
    		}   		
+	}
+	
+	private void writeTweetColumns() {
+   		StringBuffer columns = new StringBuffer()
+		.append("id").append("|")
+		.append("user").append("|")
+		.append("user_no").append("|")
+		.append("tweet_text").append("|")
+		.append("url").append("|")
+		.append("tweet_type").append("|")
+		.append("target_user").append("|")
+		.append("reply_user").append("|")
+		.append("reply_user_no").append("|")
+		.append("retweeted_user").append("|")
+		.append("mentioned_user").append("|")
+		.append("mentioned_users").append("|")
+		.append("positive_attitude").append("|")
+		.append("negative_attitude").append("|")
+		.append("create_date").append("");
+   		
+   		logger.info("---------------------------------------------------------------------------");
+   		logger.info(columns.toString());
+   		logger.info("---------------------------------------------------------------------------");
+	}
+	
+	private void writeTweetData(Tweet tweet) {
+   		StringBuffer data = new StringBuffer()
+		.append(tweet.getId()).append("|")
+		.append(tweet.getUser()).append("|")
+		.append(tweet.getUserNo()).append("|")
+		.append(tweet.getText()).append("|")
+		.append(tweet.getUrl()).append("|")
+		.append(tweet.getTweetType()).append("|")
+		.append(tweet.getTargetUser()).append("|")
+		.append(tweet.getReplyUser()).append("|")
+		.append(tweet.getReplyUserNo()).append("|")
+		.append(tweet.getRetweetedUser()).append("|")
+		.append(tweet.getMentionedUser()).append("|")
+		.append(tweet.getMentionedUsers()).append("|")
+		.append(tweet.getPositiveAttitude()).append("|")
+		.append(tweet.getNegativeAttitude()).append("|")
+		.append(tweet.getCreateDate()).append("");
+   		
+   		logger.info(data.toString());
 	}
 	
 	public static void main(String[] args) {

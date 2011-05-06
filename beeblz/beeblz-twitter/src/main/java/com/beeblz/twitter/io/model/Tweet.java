@@ -68,10 +68,10 @@ public class Tweet implements Serializable {
 	public String getMentionedUsers() {
 		return mentionedUsers;
 	}
-	public boolean isPositiveAttitude() {
+	public boolean getPositiveAttitude() {
 		return positiveAttitude;
 	}
-	public boolean isNegativeAttitude() {
+	public boolean getNegativeAttitude() {
 		return negativeAttitude;
 	}
 	public Date getCreateDate() {
