@@ -206,37 +206,36 @@ public class TwitterCollector {
            		List<Tweet> existTweets = tweetManager.getTweets(ntweet);
            		if (existTweets.size() == 0) {
            			this.writeTweetData(ntweet);	// write tweet data into log file
-           			tweetManager.addTweet(ntweet);           			
+           			tweetManager.addTweet(ntweet); 
+           			
+               		// insert relationship
+               		if (tweetType.equalsIgnoreCase("REPLY") || tweetType.equalsIgnoreCase("RETWEET")) {
+               			Relationship relation = new Relationship();
+               			relation.setId1(target);
+               			relation.setId2(source);
+               			relation.setUserNo1(tweet.getToUserId());
+               			relation.setUserNo2(tweet.getFromUserId());
+               			
+               			if (tweetType.equalsIgnoreCase("REPLY"))
+               				relation.setReplyedCountByUser2(1);
+               			else if (tweetType.equalsIgnoreCase("RETWEET"))
+               				relation.setRetweetedCountByUser2(1);
+               			
+               			if (ntweet.getPositiveAttitude())
+               				relation.setPositiveAttitudeCountByUser2(1);
+               			else if (ntweet.getNegativeAttitude())
+               				relation.setNegativeAttitudeCountByUser2(1);
+               			
+               			this.addRelationship(relation);
+               		}
+               		
+               		// insert tweet mentioned user list
+               		List<String> mentionedUserList = TwitterUtil.extractMentionedUserList(text, excludeMentionedUsers);
+               		this.addTweetMentionedUsers(ntweet, mentionedUserList, targetUsers);
            		}
            		else if (existTweets.size() > 0 && attitude != null) {
            			//tweetManager.setTweet(ntweet);
            		}
-           		
-           		// insert relationship
-           		if (tweetType.equalsIgnoreCase("REPLY") || tweetType.equalsIgnoreCase("RETWEET")) {
-           			Relationship relation = new Relationship();
-           			relation.setId1(target);
-           			relation.setId2(source);
-           			relation.setUserNo1(tweet.getToUserId());
-           			relation.setUserNo2(tweet.getFromUserId());
-           			
-           			if (tweetType.equalsIgnoreCase("REPLY"))
-           				relation.setReplyedCountByUser2(1);
-           			else if (tweetType.equalsIgnoreCase("RETWEET"))
-           				relation.setRetweetedCountByUser2(1);
-           			
-           			if (ntweet.getPositiveAttitude())
-           				relation.setPositiveAttitudeCountByUser2(1);
-           			else if (ntweet.getNegativeAttitude())
-           				relation.setNegativeAttitudeCountByUser2(1);
-           			
-           			this.addRelationship(relation);
-           		}
-           		
-           		// insert tweet mentioned user list
-           		List<String> mentionedUserList = TwitterUtil.extractMentionedUserList(text, excludeMentionedUsers);
-           		this.addTweetMentionedUsers(ntweet, mentionedUserList, targetUsers);
-           		
         	} catch (Exception e) {
         		System.out.println(e.getMessage());
         		e.printStackTrace();
