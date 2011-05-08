@@ -8,12 +8,12 @@ import org.quartz.Scheduler;
 import org.quartz.SchedulerFactory;
 import org.quartz.impl.StdSchedulerFactory;
 
-import com.beeblz.twitter.common.JobLogger;
+import com.beeblz.common.JobLogger;
 
 public class TwitterCollectorJobTrigger {
 	
 	// logger
-	private static JobLogger logger = JobLogger.getLogger(TwitterCollectorJobTrigger.class);
+	private static JobLogger logger = JobLogger.getLogger(TwitterCollectorJobTrigger.class, "twitter-collect.log");
 	
 	public void run() throws Exception {
 

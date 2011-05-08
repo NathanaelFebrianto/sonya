@@ -1,4 +1,4 @@
-package com.beeblz.twitter.common;
+package com.beeblz.common;
 
 import java.util.List;
 import java.util.regex.Matcher;
@@ -10,8 +10,7 @@ public class TwitterUtil {
 
 	private static String AT_SIGNS_CHARS = "@\uFF20";
 	
-	public static final Pattern AT_SIGNS = Pattern.compile("[" + AT_SIGNS_CHARS
-			+ "]");
+	public static final Pattern AT_SIGNS = Pattern.compile("[" + AT_SIGNS_CHARS	+ "]");
 
 	public static final Pattern EXTRACT_RETWEET = Pattern.compile("^(?:["
 			+ com.twitter.regex.Spaces.getCharacterClass() + "])*" 
@@ -21,6 +20,10 @@ public class TwitterUtil {
 			Pattern.CASE_INSENSITIVE);
 	
 	public static final int EXTRACT_RETWEET_GROUP_USERNAME = 4;
+	
+	public static final Pattern POSITIVE_ATTITUDE = Pattern.compile("[:)]");
+	public static final Pattern NEGATIVE_ATTITUDE = Pattern.compile("[:(]");
+	public static final Pattern NEGATIVE_ATTITUDE1 = Pattern.compile("[:P]");
 
 	public static final List<String> extractMentionedUserList(String text, List<String> excludeUsers) {
 		Extractor exractor = new Extractor();
@@ -82,6 +85,19 @@ public class TwitterUtil {
 		} else {
 			return null;
 		}
+	}
+
+	public static String extractPositiveOrNegativeAttitude(String text) {
+		if (text == null) {
+			return null;
+		}
+		
+		if (text.indexOf(":)") >= 0)
+			return "positive";
+		else if (text.indexOf(":(") >= 0 || text.indexOf(":P") >= 0 || text.indexOf(":p") >= 0)
+			return "negative";
+		
+		return null;
 	}
 
 }
