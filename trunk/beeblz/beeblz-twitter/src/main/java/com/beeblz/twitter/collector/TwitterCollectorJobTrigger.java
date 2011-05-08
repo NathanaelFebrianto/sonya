@@ -41,6 +41,10 @@ public class TwitterCollectorJobTrigger {
                 + " and repeat based on expression: "
                 + trigger.getCronExpression());
         
+        System.out.println(job.getFullName() + " has been scheduled to run at: " + ft
+                + " and repeat based on expression: "
+                + trigger.getCronExpression());
+        
         logger.info("------- Starting Scheduler ----------------");
         
         
