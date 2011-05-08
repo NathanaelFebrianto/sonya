@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.beeblz</groupId>
-	<artifactId>beeblz-sna</artifactId>
+	<artifactId>beeblz-twitter</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>beeblz-sna</name>
+	<name>beeblz-twitter</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
