@@ -1,8 +1,7 @@
 
 package com.twitter;
 
-import java.util.*;
-import java.util.regex.*;
+import java.util.regex.Pattern;
 
 public class Regex {
   private static final String[] RESERVED_ACTION_WORDS = {"twitter","lists",

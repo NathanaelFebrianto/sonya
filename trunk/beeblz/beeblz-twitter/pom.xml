@@ -4,7 +4,7 @@
 
 	<groupId>com.beeblz</groupId>
 	<artifactId>beeblz-twitter</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1.1</version>
 	<packaging>jar</packaging>
 
 	<name>beeblz-twitter</name>
@@ -101,4 +101,17 @@
 			<version>1.8.3</version>
 		</dependency>	
 	</dependencies>
+	
+	<build>
+		<finalName>beeblz-twitter</finalName>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
