@@ -1,7 +1,9 @@
 package com.beeblz.twitter.collector;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.regex.Pattern;
 
 import twitter4j.Query;
@@ -10,8 +12,11 @@ import twitter4j.Twitter;
 import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
 
+import com.beeblz.common.Config;
 import com.beeblz.common.JobLogger;
 import com.beeblz.common.TwitterUtil;
+import com.beeblz.liwc.PersonalityRecognizer;
+import com.beeblz.liwc.Utils;
 import com.beeblz.twitter.io.model.Relationship;
 import com.beeblz.twitter.io.model.Tweet;
 import com.beeblz.twitter.io.model.TweetMentionedUser;
@@ -198,9 +203,15 @@ public class TwitterCollector {
             	else if (attitude != null && attitude.equalsIgnoreCase("negative"))
             		ntweet.setNegativeAttitude(true);
         		
-           		List<Tweet> existTweets = tweetManager.getTweets(ntweet);
+           		// insert tweet
+        		List<Tweet> existTweets = tweetManager.getTweets(ntweet);
            		if (existTweets.size() == 0) {
-           			this.writeTweetData(ntweet);	// write tweet data into log file
+           			// analyze LIWC features
+           			Map<String,Double> liwcFeatures = analyzeLIWCFeatures(text);
+           			ntweet.setLIWCFeatures(liwcFeatures);
+           			
+           			// write tweet data into log file
+           			this.writeTweetData(ntweet);	
            			tweetManager.addTweet(ntweet); 
            			
                		// insert relationship
@@ -221,12 +232,15 @@ public class TwitterCollector {
                			else if (ntweet.getNegativeAttitude())
                				relation.setNegativeAttitudeCountByUser2(1);
                			
+               			//set LIWC features
+               			relation.setLIWCFeatures(liwcFeatures);
+               			
                			this.addRelationship(relation);
                		}
                		
                		// insert tweet mentioned user list
                		List<String> mentionedUserList = TwitterUtil.extractMentionedUserList(text, excludeMentionedUsers);
-               		this.addTweetMentionedUsers(ntweet, mentionedUserList, targetUsers);
+               		this.addTweetMentionedUsers(ntweet, mentionedUserList, targetUsers, liwcFeatures);
            		}
            		else if (existTweets.size() > 0) {
            			//tweetManager.setTweet(ntweet);
@@ -238,7 +252,7 @@ public class TwitterCollector {
         }		
 	}
 	
-	private void addTweetMentionedUsers(Tweet tweet, List<String> mentionedUserList, String[] targetUsers) {
+	private void addTweetMentionedUsers(Tweet tweet, List<String> mentionedUserList, String[] targetUsers, Map<String,Double> liwcFeatures) {
 		for (String mentionedUser : mentionedUserList) {
 			TweetMentionedUser tweetMentionedUser = new TweetMentionedUser();
 			tweetMentionedUser.setId(tweet.getId());
@@ -250,6 +264,9 @@ public class TwitterCollector {
    			relation.setId1(mentionedUser);
    			relation.setId2(tweet.getUser());
    			relation.setMentionedCountByUser2(1);
+   			
+   			//set LIWC features
+   			relation.setLIWCFeatures(liwcFeatures);
    			
    			if (tweet.getPositiveAttitude())
    				relation.setPositiveAttitudeCountByUser2(1);
@@ -289,6 +306,28 @@ public class TwitterCollector {
    		else if (existRelations.size() > 0) {
    			relationshipManager.setRelationship(relationship);
    		}   		
+	}
+	
+	private Map<String,Double> analyzeLIWCFeatures(String text) {
+		try {
+			File liwcCatFile = new File(Config.getProperty("liwcCatFile"));
+			PersonalityRecognizer recognizer = new PersonalityRecognizer(liwcCatFile);
+
+			// get feature counts from the input text
+			//Map<String,Double> counts = recognizer.getFeatureCounts(text, true);
+			Map<String,Double> counts = recognizer.getJustFeatureCounts(text, true);
+			System.out.println("Total features computed: " + counts.size());
+			
+			System.out.println("Feature counts:");
+			Utils.printMap(counts, System.out);
+			
+			return counts;
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return null;
 	}
 	
 	private void writeTweetColumns() {

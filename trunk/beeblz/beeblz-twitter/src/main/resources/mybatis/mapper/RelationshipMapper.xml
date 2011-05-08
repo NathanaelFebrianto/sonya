@@ -17,6 +17,78 @@
 		<result property="negativeAttitudeCountByUser2" column="negative_attitude_count_by_user2" />
 		<result property="colCreateDate" column="col_create_date" />
 		<result property="colUpdateDate" column="col_update_date" />
+		<result property="liwcWc" column="liwc_wc" />
+		<result property="liwcWps" column="liwc_wps" />
+		<result property="liwcDic" column="liwc_dic" />
+		<result property="liwcSixltr" column="liwc_sixltr" />
+		<result property="liwcPronoun" column="liwc_pronoun" />
+		<result property="liwcI" column="liwc_i" />
+		<result property="liwcWe" column="liwc_we" />
+		<result property="liwcSelf" column="liwc_self" />
+		<result property="liwcYou" column="liwc_you" />
+		<result property="liwcOther" column="liwc_other" />
+		<result property="liwcNegate" column="liwc_negate" />
+		<result property="liwcAssent" column="liwc_assent" />
+		<result property="liwcArticle" column="liwc_article" />
+		<result property="liwcPreps" column="liwc_preps" />
+		<result property="liwcNumber" column="liwc_number" />
+		<result property="liwcAffect" column="liwc_affect" />
+		<result property="liwcPosemo" column="liwc_posemo" />
+		<result property="liwcPosfeel" column="liwc_posfeel" />
+		<result property="liwcOptim" column="liwc_optim" />
+		<result property="liwcNegemo" column="liwc_negemo" />
+		<result property="liwcAnx" column="liwc_anx" />
+		<result property="liwcAnger" column="liwc_anger" />
+		<result property="liwcSad" column="liwc_sad" />
+		<result property="liwcCogmech" column="liwc_cogmech" />
+		<result property="liwcCause" column="liwc_cause" />
+		<result property="liwcInsight" column="liwc_insight" />
+		<result property="liwcDiscrep" column="liwc_discrep" />
+		<result property="liwcInhib" column="liwc_inhib" />
+		<result property="liwcTentat" column="liwc_tentat" />
+		<result property="liwcCertain" column="liwc_certain" />
+		<result property="liwcSenses" column="liwc_senses" />
+		<result property="liwcSee" column="liwc_see" />
+		<result property="liwcHear" column="liwc_hear" />
+		<result property="liwcFeel" column="liwc_feel" />
+		<result property="liwcSocial" column="liwc_social" />
+		<result property="liwcComm" column="liwc_comm" />
+		<result property="liwcOthref" column="liwc_othref" />
+		<result property="liwcFriends" column="liwc_friends" />
+		<result property="liwcFamily" column="liwc_family" />
+		<result property="liwcHumans" column="liwc_humans" />
+		<result property="liwcTime" column="liwc_time" />
+		<result property="liwcPast" column="liwc_past" />
+		<result property="liwcPresent" column="liwc_present" />
+		<result property="liwcFuture" column="liwc_future" />
+		<result property="liwcSpace" column="liwc_space" />
+		<result property="liwcUp" column="liwc_up" />
+		<result property="liwcDown" column="liwc_down" />
+		<result property="liwcIncl" column="liwc_incl" />
+		<result property="liwcExcl" column="liwc_excl" />
+		<result property="liwcMotion" column="liwc_motion" />
+		<result property="liwcOccup" column="liwc_occup" />
+		<result property="liwcSchool" column="liwc_school" />
+		<result property="liwcJob" column="liwc_job" />
+		<result property="liwcAchieve" column="liwc_achieve" />
+		<result property="liwcLeisure" column="liwc_leisure" />
+		<result property="liwcHome" column="liwc_home" />
+		<result property="liwcSports" column="liwc_sports" />
+		<result property="liwcTv" column="liwc_tv" />
+		<result property="liwcMusic" column="liwc_music" />
+		<result property="liwcMoney" column="liwc_money" />
+		<result property="liwcMetaph" column="liwc_metaph" />
+		<result property="liwcRelig" column="liwc_relig" />
+		<result property="liwcDeath" column="liwc_death" />
+		<result property="liwcPhyscal" column="liwc_physcal" />
+		<result property="liwcBody" column="liwc_body" />
+		<result property="liwcSexual" column="liwc_sexual" />
+		<result property="liwcEating" column="liwc_eating" />
+		<result property="liwcSleep" column="liwc_sleep" />
+		<result property="liwcGroom" column="liwc_groom" />
+		<result property="liwcSwear" column="liwc_swear" />
+		<result property="liwcNonfl" column="liwc_nonfl" />
+		<result property="liwcFillers" column="liwc_fillers" />	
 	</resultMap>
 	
 	<select id="selectRelationships" parameterType="com.beeblz.twitter.io.model.Relationship" resultMap="relationshipResultMap">
@@ -45,6 +117,78 @@
 			, negative_attitude_count_by_user2
 			, col_create_date
 			, col_update_date
+			, liwc_wc
+			, liwc_wps
+			, liwc_dic
+			, liwc_sixltr			
+			, liwc_pronoun
+			, liwc_i
+			, liwc_we
+			, liwc_self
+			, liwc_you
+			, liwc_other
+			, liwc_negate
+			, liwc_assent
+			, liwc_article
+			, liwc_preps
+			, liwc_number			
+			, liwc_affect
+			, liwc_posemo
+			, liwc_posfeel
+			, liwc_optim
+			, liwc_negemo
+			, liwc_anx
+			, liwc_anger
+			, liwc_sad
+			, liwc_cogmech
+			, liwc_cause
+			, liwc_insight
+			, liwc_discrep
+			, liwc_inhib
+			, liwc_tentat
+			, liwc_certain
+			, liwc_senses
+			, liwc_see
+			, liwc_hear
+			, liwc_feel
+			, liwc_social
+			, liwc_comm
+			, liwc_othref
+			, liwc_friends
+			, liwc_family
+			, liwc_humans			
+			, liwc_time
+			, liwc_past
+			, liwc_present
+			, liwc_future
+			, liwc_space
+			, liwc_up
+			, liwc_down
+			, liwc_incl
+			, liwc_excl
+			, liwc_motion			
+			, liwc_occup
+			, liwc_school
+			, liwc_job
+			, liwc_achieve
+			, liwc_leisure
+			, liwc_home
+			, liwc_sports
+			, liwc_tv
+			, liwc_music
+			, liwc_money
+			, liwc_metaph
+			, liwc_relig
+			, liwc_death
+			, liwc_physcal
+			, liwc_body
+			, liwc_sexual
+			, liwc_eating
+			, liwc_sleep
+			, liwc_groom			
+			, liwc_swear
+			, liwc_nonfl
+			, liwc_fillers	
 		)
 		VALUES (
 			#{id1}
@@ -59,6 +203,78 @@
 			, #{negativeAttitudeCountByUser2,javaType=int,jdbcType=NUMERIC}
 			, NOW()
 			, NOW()
+			, #{liwcWc,javaType=double,jdbcType=DOUBLE}
+			, #{liwcWps,javaType=double,jdbcType=DOUBLE}
+			, #{liwcDic,javaType=double,jdbcType=DOUBLE}
+			, #{liwcSixltr,javaType=double,jdbcType=DOUBLE}			
+			, #{liwcPronoun,javaType=double,jdbcType=DOUBLE}
+			, #{liwcI,javaType=double,jdbcType=DOUBLE}
+			, #{liwcWe,javaType=double,jdbcType=DOUBLE}
+			, #{liwcSelf,javaType=double,jdbcType=DOUBLE}
+			, #{liwcYou,javaType=double,jdbcType=DOUBLE}
+			, #{liwcOther,javaType=double,jdbcType=DOUBLE}
+			, #{liwcNegate,javaType=double,jdbcType=DOUBLE}
+			, #{liwcAssent,javaType=double,jdbcType=DOUBLE}
+			, #{liwcArticle,javaType=double,jdbcType=DOUBLE}
+			, #{liwcPreps,javaType=double,jdbcType=DOUBLE}
+			, #{liwcNumber,javaType=double,jdbcType=DOUBLE}			
+			, #{liwcAffect,javaType=double,jdbcType=DOUBLE}
+			, #{liwcPosemo,javaType=double,jdbcType=DOUBLE}
+			, #{liwcPosfeel,javaType=double,jdbcType=DOUBLE}
+			, #{liwcOptim,javaType=double,jdbcType=DOUBLE}
+			, #{liwcNegemo,javaType=double,jdbcType=DOUBLE}
+			, #{liwcAnx,javaType=double,jdbcType=DOUBLE}
+			, #{liwcAnger,javaType=double,jdbcType=DOUBLE}
+			, #{liwcSad,javaType=double,jdbcType=DOUBLE}
+			, #{liwcCogmech,javaType=double,jdbcType=DOUBLE}
+			, #{liwcCause,javaType=double,jdbcType=DOUBLE}
+			, #{liwcInsight,javaType=double,jdbcType=DOUBLE}
+			, #{liwcDiscrep,javaType=double,jdbcType=DOUBLE}
+			, #{liwcInhib,javaType=double,jdbcType=DOUBLE}
+			, #{liwcTentat,javaType=double,jdbcType=DOUBLE}
+			, #{liwcCertain,javaType=double,jdbcType=DOUBLE}
+			, #{liwcSenses,javaType=double,jdbcType=DOUBLE}
+			, #{liwcSee,javaType=double,jdbcType=DOUBLE}
+			, #{liwcHear,javaType=double,jdbcType=DOUBLE}
+			, #{liwcFeel,javaType=double,jdbcType=DOUBLE}
+			, #{liwcSocial,javaType=double,jdbcType=DOUBLE}
+			, #{liwcComm,javaType=double,jdbcType=DOUBLE}
+			, #{liwcOthref,javaType=double,jdbcType=DOUBLE}
+			, #{liwcFriends,javaType=double,jdbcType=DOUBLE}
+			, #{liwcFamily,javaType=double,jdbcType=DOUBLE}
+			, #{liwcHumans,javaType=double,jdbcType=DOUBLE}			
+			, #{liwcTime,javaType=double,jdbcType=DOUBLE}
+			, #{liwcPast,javaType=double,jdbcType=DOUBLE}
+			, #{liwcPresent,javaType=double,jdbcType=DOUBLE}
+			, #{liwcFuture,javaType=double,jdbcType=DOUBLE}
+			, #{liwcSpace,javaType=double,jdbcType=DOUBLE}
+			, #{liwcUp,javaType=double,jdbcType=DOUBLE}
+			, #{liwcDown,javaType=double,jdbcType=DOUBLE}
+			, #{liwcIncl,javaType=double,jdbcType=DOUBLE}
+			, #{liwcExcl,javaType=double,jdbcType=DOUBLE}
+			, #{liwcMotion,javaType=double,jdbcType=DOUBLE}			
+			, #{liwcOccup,javaType=double,jdbcType=DOUBLE}
+			, #{liwcSchool,javaType=double,jdbcType=DOUBLE}
+			, #{liwcJob,javaType=double,jdbcType=DOUBLE}
+			, #{liwcAchieve,javaType=double,jdbcType=DOUBLE}
+			, #{liwcLeisure,javaType=double,jdbcType=DOUBLE}
+			, #{liwcHome,javaType=double,jdbcType=DOUBLE}
+			, #{liwcSports,javaType=double,jdbcType=DOUBLE}
+			, #{liwcTv,javaType=double,jdbcType=DOUBLE}
+			, #{liwcMusic,javaType=double,jdbcType=DOUBLE}
+			, #{liwcMoney,javaType=double,jdbcType=DOUBLE}
+			, #{liwcMetaph,javaType=double,jdbcType=DOUBLE}
+			, #{liwcRelig,javaType=double,jdbcType=DOUBLE}
+			, #{liwcDeath,javaType=double,jdbcType=DOUBLE}
+			, #{liwcPhyscal,javaType=double,jdbcType=DOUBLE}
+			, #{liwcBody,javaType=double,jdbcType=DOUBLE}
+			, #{liwcSexual,javaType=double,jdbcType=DOUBLE}
+			, #{liwcEating,javaType=double,jdbcType=DOUBLE}
+			, #{liwcSleep,javaType=double,jdbcType=DOUBLE}
+			, #{liwcGroom,javaType=double,jdbcType=DOUBLE}			
+			, #{liwcSwear,javaType=double,jdbcType=DOUBLE}
+			, #{liwcNonfl,javaType=double,jdbcType=DOUBLE}
+			, #{liwcFillers,javaType=double,jdbcType=DOUBLE}
 		)
 	</insert>
 
@@ -73,6 +289,78 @@
 			<if test="replyedCountByUser2 != 0">replyed_count_by_user2 = IFNULL(replyed_count_by_user2, 0) + #{replyedCountByUser2},</if>
 			<if test="positiveAttitudeCountByUser2 != 0">positive_attitude_count_by_user2 = IFNULL(positive_attitude_count_by_user2, 0) + #{positiveAttitudeCountByUser2},</if>
 			<if test="negativeAttitudeCountByUser2 != 0">negative_attitude_count_by_user2 = IFNULL(negative_attitude_count_by_user2, 0) + #{negativeAttitudeCountByUser2},</if>
+			<if test="liwcWc != 0">liwc_wc = IFNULL(liwc_wc, 0) + #{liwcWc},</if>
+			<if test="liwcWps != 0">liwc_wps = IFNULL(liwc_wps, 0) + #{liwcWps},</if>
+			<if test="liwcDic != 0">liwc_dic = IFNULL(liwc_dic, 0) + #{liwcDic},</if>
+			<if test="liwcSixltr != 0">liwc_sixltr = IFNULL(liwc_sixltr, 0) + #{liwcSixltr},</if>			
+			<if test="liwcPronoun != 0">liwc_pronoun = IFNULL(liwc_pronoun, 0) + #{liwcPronoun},</if>
+			<if test="liwcI != 0">liwc_i = IFNULL(liwc_i, 0) + #{liwcI},</if>
+			<if test="liwcWe != 0">liwc_we = IFNULL(liwc_we, 0) + #{liwcWe},</if>
+			<if test="liwcSelf != 0">liwc_self = IFNULL(liwc_self, 0) + #{liwcSelf},</if>
+			<if test="liwcYou != 0">liwc_you = IFNULL(liwc_you, 0) + #{liwcYou},</if>
+			<if test="liwcOther != 0">liwc_other = IFNULL(liwc_other, 0) + #{liwcOther},</if>
+			<if test="liwcNegate != 0">liwc_negate = IFNULL(liwc_negate, 0) + #{liwcNegate},</if>
+			<if test="liwcAssent != 0">liwc_assent = IFNULL(liwc_assent, 0) + #{liwcAssent},</if>
+			<if test="liwcArticle != 0">liwc_article = IFNULL(liwc_article, 0) + #{liwcArticle},</if>
+			<if test="liwcPreps != 0">liwc_preps = IFNULL(liwc_preps, 0) + #{liwcPreps},</if>
+			<if test="liwcNumber != 0">liwc_number = IFNULL(liwc_number, 0) + #{liwcNumber},</if>			
+			<if test="liwcAffect != 0">liwc_affect = IFNULL(liwc_affect, 0) + #{liwcAffect},</if>
+			<if test="liwcPosemo != 0">liwc_posemo = IFNULL(liwc_posemo, 0) + #{liwcPosemo},</if>
+			<if test="liwcPosfeel != 0">liwc_posfeel = IFNULL(liwc_posfeel, 0) + #{liwcPosfeel},</if>
+			<if test="liwcOptim != 0">liwc_optim = IFNULL(liwc_optim, 0) + #{liwcOptim},</if>
+			<if test="liwcNegemo != 0">liwc_negemo = IFNULL(liwc_negemo, 0) + #{liwcNegemo},</if>
+			<if test="liwcAnx != 0">liwc_anx = IFNULL(liwc_anx, 0) + #{liwcAnx},</if>
+			<if test="liwcAnger != 0">liwc_anger = IFNULL(liwc_anger, 0) + #{liwcAnger},</if>
+			<if test="liwcSad != 0">liwc_sad = IFNULL(liwc_sad, 0) + #{liwcSad},</if>
+			<if test="liwcCogmech != 0">liwc_cogmech = IFNULL(liwc_cogmech, 0) + #{liwcCogmech},</if>
+			<if test="liwcCause != 0">liwc_cause = IFNULL(liwc_cause, 0) + #{liwcCause},</if>
+			<if test="liwcInsight != 0">liwc_insight = IFNULL(liwc_insight, 0) + #{liwcInsight},</if>
+			<if test="liwcDiscrep != 0">liwc_discrep = IFNULL(liwc_discrep, 0) + #{liwcDiscrep},</if>
+			<if test="liwcInhib != 0">liwc_inhib = IFNULL(liwc_inhib, 0) + #{liwcInhib},</if>
+			<if test="liwcTentat != 0">liwc_tentat = IFNULL(liwc_tentat, 0) + #{liwcTentat},</if>
+			<if test="liwcCertain != 0">liwc_certain = IFNULL(liwc_certain, 0) + #{liwcCertain},</if>
+			<if test="liwcSenses != 0">liwc_senses = IFNULL(liwc_senses, 0) + #{liwcSenses},</if>
+			<if test="liwcSee != 0">liwc_see = IFNULL(liwc_see, 0) + #{liwcSee},</if>
+			<if test="liwcHear != 0">liwc_hear = IFNULL(liwc_hear, 0) + #{liwcHear},</if>
+			<if test="liwcFeel != 0">liwc_feel = IFNULL(liwc_feel, 0) + #{liwcFeel},</if>
+			<if test="liwcSocial != 0">liwc_social = IFNULL(liwc_social, 0) + #{liwcSocial},</if>
+			<if test="liwcComm != 0">liwc_comm = IFNULL(liwc_comm, 0) + #{liwcComm},</if>
+			<if test="liwcOthref != 0">liwc_othref = IFNULL(liwc_othref, 0) + #{liwcOthref},</if>
+			<if test="liwcFriends != 0">liwc_friends = IFNULL(liwc_friends, 0) + #{liwcFriends},</if>
+			<if test="liwcFamily != 0">liwc_family = IFNULL(liwc_family, 0) + #{liwcFamily},</if>
+			<if test="liwcHumans != 0">liwc_humans = IFNULL(liwc_humans, 0) + #{liwcHumans},</if>			
+			<if test="liwcTime != 0">liwc_time = IFNULL(liwc_time, 0) + #{liwcTime},</if>
+			<if test="liwcPast != 0">liwc_past = IFNULL(liwc_past, 0) + #{liwcPast},</if>
+			<if test="liwcPresent != 0">liwc_present = IFNULL(liwc_present, 0) + #{liwcPresent},</if>
+			<if test="liwcFuture != 0">liwc_future = IFNULL(liwc_future, 0) + #{liwcFuture},</if>
+			<if test="liwcSpace != 0">liwc_space = IFNULL(liwc_space, 0) + #{liwcSpace},</if>
+			<if test="liwcUp != 0">liwc_up = IFNULL(liwc_up, 0) + #{liwcUp},</if>
+			<if test="liwcDown != 0">liwc_down = IFNULL(liwc_down, 0) + #{liwcDown},</if>
+			<if test="liwcIncl != 0">liwc_incl = IFNULL(liwc_incl, 0) + #{liwcIncl},</if>
+			<if test="liwcExcl != 0">liwc_excl = IFNULL(liwc_excl, 0) + #{liwcExcl},</if>
+			<if test="liwcMotion != 0">liwc_motion = IFNULL(liwc_motion, 0) + #{liwcMotion},</if>			
+			<if test="liwcOccup != 0">liwc_occup = IFNULL(liwc_occup, 0) + #{liwcOccup},</if>
+			<if test="liwcSchool != 0">liwc_school = IFNULL(liwc_school, 0) + #{liwcSchool},</if>
+			<if test="liwcJob != 0">liwc_job = IFNULL(liwc_job, 0) + #{liwcJob},</if>
+			<if test="liwcAchieve != 0">liwc_achieve = IFNULL(liwc_achieve, 0) + #{liwcAchieve},</if>
+			<if test="liwcLeisure != 0">liwc_leisure = IFNULL(liwc_leisure, 0) + #{liwcLeisure},</if>
+			<if test="liwcHome != 0">liwc_home = IFNULL(liwc_home, 0) + #{liwcHome},</if>
+			<if test="liwcSports != 0">liwc_sports = IFNULL(liwc_sports, 0) + #{liwcSports},</if>
+			<if test="liwcTv != 0">liwc_tv = IFNULL(liwc_tv, 0) + #{liwcTv},</if>
+			<if test="liwcMusic != 0">liwc_music = IFNULL(liwc_music, 0) + #{liwcMusic},</if>
+			<if test="liwcMoney != 0">liwc_money = IFNULL(liwc_money, 0) + #{liwcMoney},</if>
+			<if test="liwcMetaph != 0">liwc_metaph = IFNULL(liwc_metaph, 0) + #{liwcMetaph},</if>
+			<if test="liwcRelig != 0">liwc_relig = IFNULL(liwc_relig, 0) + #{liwcRelig},</if>
+			<if test="liwcDeath != 0">liwc_death = IFNULL(liwc_death, 0) + #{liwcDeath},</if>
+			<if test="liwcPhyscal != 0">liwc_physcal = IFNULL(liwc_physcal, 0) + #{liwcPhyscal},</if>
+			<if test="liwcBody != 0">liwc_body = IFNULL(liwc_body, 0) + #{liwcBody},</if>
+			<if test="liwcSexual != 0">liwc_sexual = IFNULL(liwc_sexual, 0) + #{liwcSexual},</if>
+			<if test="liwcEating != 0">liwc_eating = IFNULL(liwc_eating, 0) + #{liwcEating},</if>
+			<if test="liwcSleep != 0">liwc_sleep = IFNULL(liwc_sleep, 0) + #{liwcSleep},</if>
+			<if test="liwcGroom != 0">liwc_groom = IFNULL(liwc_groom, 0) + #{liwcGroom},</if>			
+			<if test="liwcSwear != 0">liwc_swear = IFNULL(liwc_swear, 0) + #{liwcSwear},</if>
+			<if test="liwcNonfl != 0">liwc_nonfl = IFNULL(liwc_nonfl, 0) + #{liwcNonfl},</if>
+			<if test="liwcFillers != 0">liwc_fillers = IFNULL(liwc_fillers, 0) + #{liwcFillers},</if>			
 			col_update_date = NOW()
 		</set>			
 		WHERE
