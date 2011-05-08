@@ -1,18 +1,34 @@
 package com.beeblz.common;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
 public class Config {
 	
-	private static Properties props = new Properties();
+	/**
+	 * Configuration file (default is PersonalityRecognizer.conf in root
+	 * application directory).
+	 */
+	public static final File DEFAULT_CONFIG_FILE = new File("config.properties");
 	
+	private static Properties props = new Properties();	
 	private static Config instance = null; 
+	
+	
 	
 	public Config() {
 		try {
-			InputStream is = this.getClass().getClassLoader().getResourceAsStream("config.properties");
+			InputStream is = null;
+			
+			if (DEFAULT_CONFIG_FILE.exists()) {
+				is = new FileInputStream(DEFAULT_CONFIG_FILE);
+			}
+			else {
+				is = this.getClass().getClassLoader().getResourceAsStream("config.properties");
+			}
 			props.load(is);	
 			
 		} catch (IOException e) {
