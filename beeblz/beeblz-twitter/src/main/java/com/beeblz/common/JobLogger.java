@@ -2,8 +2,9 @@
  * Copyright (c) 2011, Young-Gue Bae
  * All rights reserved.
  */
-package com.beeblz.twitter.common;
+package com.beeblz.common;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.Date;
 
@@ -22,7 +23,7 @@ public class JobLogger {
 	static JobLogger instance = null;
 	static Logger logger = null;
 	String layout = "[%d{HH:mm:ss}]	%m%n";
-	String logFilename = "D:/beeblz/log/tweet-collect.log";
+	String logFilename = "";
 	String datePattern = ".yyyy-MM-dd";
 	PatternLayout patternLayout = new PatternLayout(layout);
 	DailyRollingFileAppender appender = null;
@@ -31,9 +32,11 @@ public class JobLogger {
 	 * Constructor
 	 * 
 	 * @param name the logger name
+	 * @param logFile the logger file name
 	 */
-	public JobLogger(Class<?> name) {
+	public JobLogger(Class<?> name, String logFile) {
 		try {
+			logFilename = Config.getProperty("logDir") + File.separator + logFile;
 			logger = Logger.getLogger(name);
 			appender = new DailyRollingFileAppender(patternLayout, logFilename, datePattern);
 			logger.addAppender(appender);
@@ -47,11 +50,12 @@ public class JobLogger {
 	 * Gets the job logger instance.
 	 * 
 	 * @param name the logger name
+	 * @param logFile the logger file name
 	 * @return JobLogger the job logger instance
 	 */
-	public static JobLogger getLogger(Class<?> name) {
+	public static JobLogger getLogger(Class<?> name, String logFile) {
 		if (instance == null) {
-			instance = new JobLogger(name);
+			instance = new JobLogger(name, logFile);
 		}		
 		return instance;
 	}

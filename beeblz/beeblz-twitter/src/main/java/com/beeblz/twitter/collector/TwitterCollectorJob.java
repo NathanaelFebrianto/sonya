@@ -3,23 +3,22 @@ package com.beeblz.twitter.collector;
 import java.util.Date;
 
 import org.quartz.Job;
-import org.quartz.JobDataMap;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 
-import com.beeblz.twitter.common.JobLogger;
+import com.beeblz.common.JobLogger;
 
 public class TwitterCollectorJob implements Job {
 	
 	// logger
-	private static JobLogger logger = JobLogger.getLogger(TwitterCollectorJob.class);
+	private static JobLogger logger = JobLogger.getLogger(TwitterCollectorJob.class, "twitter-collect.log");
 	
 	public TwitterCollectorJob() { }
 	
 	public void execute(JobExecutionContext context) throws JobExecutionException {
 		try {
 			// get job data map
-			JobDataMap jobDataMap = context.getJobDetail().getJobDataMap();
+			//JobDataMap jobDataMap = context.getJobDetail().getJobDataMap();
 	        
 	        //logger.info("@PARAM[???] == " + something);
 			

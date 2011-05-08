@@ -2,6 +2,7 @@ package com.beeblz.twitter.collector;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Pattern;
 
 import twitter4j.Query;
 import twitter4j.QueryResult;
@@ -9,8 +10,8 @@ import twitter4j.Twitter;
 import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
 
-import com.beeblz.twitter.common.JobLogger;
-import com.beeblz.twitter.common.TwitterUtil;
+import com.beeblz.common.JobLogger;
+import com.beeblz.common.TwitterUtil;
 import com.beeblz.twitter.io.model.Relationship;
 import com.beeblz.twitter.io.model.Tweet;
 import com.beeblz.twitter.io.model.TweetMentionedUser;
@@ -27,7 +28,12 @@ import com.beeblz.twitter.io.service.UserManagerImpl;
 public class TwitterCollector {
 	
 	// logger
-	private static JobLogger logger = JobLogger.getLogger(TwitterCollector.class);
+	private static JobLogger logger = JobLogger.getLogger(TwitterCollector.class, "twitter-collect.log");
+	
+	private static String AT_SIGNS_CHARS = "@\uFF20";
+	
+	public static final Pattern AT_SIGNS = Pattern.compile("[" + AT_SIGNS_CHARS
+			+ "]");
 	
 	private UserManager userManager;
 	private TweetManager tweetManager;
@@ -79,9 +85,8 @@ public class TwitterCollector {
 		
 		for (int i = 0; i < targetUsers.length; i++) {
 			try {
-				String qStr1 = "from:" + targetUsers[i];		//tweets by target user				
-	        	String qStr2 = "@" + targetUsers[i] + " :)";	//tweets with a positive attitude that mention or reply target user
-	        	String qStr3 =  "@" + targetUsers[i] + " :(";	//tweets with a negative attitude that mention or reply target user
+				String qStr1 = "from:" + targetUsers[i];	//tweets by target user				
+	        	String qStr2 = "@" + targetUsers[i];	//mention target user
 				
 	        	// query 1
 	        	Query query1 = new Query(qStr1);
@@ -103,24 +108,12 @@ public class TwitterCollector {
 	            QueryResult result2 = twitter.search(query2);
 	            System.out.println("query2 result size = " + result2.getTweets().size());
 	            logger.info("query2 result size = " + result2.getTweets().size());
-	            
-	            // query 3
-	        	Query query3 = new Query(qStr3);
-	        	query3.page(1);
-	        	query3.rpp(100);
-	        	System.out.println("query3 = " + query3.getQuery());
-	        	logger.info("query3 = " + query3.getQuery());
-	            QueryResult result3 = twitter.search(query3);
-	            System.out.println("query3 result size = " + result3.getTweets().size());
-	            logger.info("query3 result size = " + result3.getTweets().size());
-	            
+
 	            List<twitter4j.Tweet> tweets1 = result1.getTweets();
 	            List<twitter4j.Tweet> tweets2 = result2.getTweets();
-	            List<twitter4j.Tweet> tweets3 = result3.getTweets();
 	            
-	            addTweets(tweets1, null, targetUsers, null);
-	            addTweets(tweets2, targetUsers[i], targetUsers, "positive");
-	            addTweets(tweets3, targetUsers[i], targetUsers, "negative");
+	            addTweets(tweets1, null, targetUsers);
+	            addTweets(tweets2, targetUsers[i], targetUsers);
 	            
 			} catch (TwitterException te) {
 				System.out.println(te.getMessage());
@@ -128,7 +121,7 @@ public class TwitterCollector {
 		}
 	}
 	
-	public void addTweets(List<twitter4j.Tweet> tweets, String targetUser, String[] targetUsers, String attitude) {		
+	public void addTweets(List<twitter4j.Tweet> tweets, String targetUser, String[] targetUsers) {		
         for (twitter4j.Tweet tweet : tweets) {
         	try {
         		String text = tweet.getText();
@@ -197,12 +190,14 @@ public class TwitterCollector {
         			
         		ntweet.setTargetUser(target);
         		ntweet.setTweetType(tweetType);
+        		
+        		String attitude = TwitterUtil.extractPositiveOrNegativeAttitude(text);
             	
-            	if (attitude != null && attitude.equalsIgnoreCase("positive"))
+        		if (attitude != null && attitude.equalsIgnoreCase("positive"))
             		ntweet.setPositiveAttitude(true);
             	else if (attitude != null && attitude.equalsIgnoreCase("negative"))
             		ntweet.setNegativeAttitude(true);
-
+        		
            		List<Tweet> existTweets = tweetManager.getTweets(ntweet);
            		if (existTweets.size() == 0) {
            			this.writeTweetData(ntweet);	// write tweet data into log file
@@ -233,7 +228,7 @@ public class TwitterCollector {
                		List<String> mentionedUserList = TwitterUtil.extractMentionedUserList(text, excludeMentionedUsers);
                		this.addTweetMentionedUsers(ntweet, mentionedUserList, targetUsers);
            		}
-           		else if (existTweets.size() > 0 && attitude != null) {
+           		else if (existTweets.size() > 0) {
            			//tweetManager.setTweet(ntweet);
            		}
         	} catch (Exception e) {
@@ -244,9 +239,7 @@ public class TwitterCollector {
 	}
 	
 	private void addTweetMentionedUsers(Tweet tweet, List<String> mentionedUserList, String[] targetUsers) {
-		for (int i = 0 ; i < mentionedUserList.size(); i++) {
-			String mentionedUser = (String) mentionedUserList.get(i);
-			
+		for (String mentionedUser : mentionedUserList) {
 			TweetMentionedUser tweetMentionedUser = new TweetMentionedUser();
 			tweetMentionedUser.setId(tweet.getId());
 			tweetMentionedUser.setUser(tweet.getUser());
@@ -362,6 +355,6 @@ public class TwitterCollector {
 		
 		TwitterCollector collector = new TwitterCollector();
 		//collector.collectUsers(targetUsers, true);
-		collector.collectTweets(targetUsers);
+		collector.collectTweets(targetUsers);	
     }	
 }
