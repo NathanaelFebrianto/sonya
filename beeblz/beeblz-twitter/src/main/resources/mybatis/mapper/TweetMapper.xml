@@ -22,6 +22,78 @@
 		<result property="createDate" column="create_date" />
 		<result property="colCreateDate" column="col_create_date" />
 		<result property="colUpdateDate" column="col_update_date" />
+		<result property="liwcWc" column="liwc_wc" />
+		<result property="liwcWps" column="liwc_wps" />
+		<result property="liwcDic" column="liwc_dic" />
+		<result property="liwcSixltr" column="liwc_sixltr" />
+		<result property="liwcPronoun" column="liwc_pronoun" />
+		<result property="liwcI" column="liwc_i" />
+		<result property="liwcWe" column="liwc_we" />
+		<result property="liwcSelf" column="liwc_self" />
+		<result property="liwcYou" column="liwc_you" />
+		<result property="liwcOther" column="liwc_other" />
+		<result property="liwcNegate" column="liwc_negate" />
+		<result property="liwcAssent" column="liwc_assent" />
+		<result property="liwcArticle" column="liwc_article" />
+		<result property="liwcPreps" column="liwc_preps" />
+		<result property="liwcNumber" column="liwc_number" />
+		<result property="liwcAffect" column="liwc_affect" />
+		<result property="liwcPosemo" column="liwc_posemo" />
+		<result property="liwcPosfeel" column="liwc_posfeel" />
+		<result property="liwcOptim" column="liwc_optim" />
+		<result property="liwcNegemo" column="liwc_negemo" />
+		<result property="liwcAnx" column="liwc_anx" />
+		<result property="liwcAnger" column="liwc_anger" />
+		<result property="liwcSad" column="liwc_sad" />
+		<result property="liwcCogmech" column="liwc_cogmech" />
+		<result property="liwcCause" column="liwc_cause" />
+		<result property="liwcInsight" column="liwc_insight" />
+		<result property="liwcDiscrep" column="liwc_discrep" />
+		<result property="liwcInhib" column="liwc_inhib" />
+		<result property="liwcTentat" column="liwc_tentat" />
+		<result property="liwcCertain" column="liwc_certain" />
+		<result property="liwcSenses" column="liwc_senses" />
+		<result property="liwcSee" column="liwc_see" />
+		<result property="liwcHear" column="liwc_hear" />
+		<result property="liwcFeel" column="liwc_feel" />
+		<result property="liwcSocial" column="liwc_social" />
+		<result property="liwcComm" column="liwc_comm" />
+		<result property="liwcOthref" column="liwc_othref" />
+		<result property="liwcFriends" column="liwc_friends" />
+		<result property="liwcFamily" column="liwc_family" />
+		<result property="liwcHumans" column="liwc_humans" />
+		<result property="liwcTime" column="liwc_time" />
+		<result property="liwcPast" column="liwc_past" />
+		<result property="liwcPresent" column="liwc_present" />
+		<result property="liwcFuture" column="liwc_future" />
+		<result property="liwcSpace" column="liwc_space" />
+		<result property="liwcUp" column="liwc_up" />
+		<result property="liwcDown" column="liwc_down" />
+		<result property="liwcIncl" column="liwc_incl" />
+		<result property="liwcExcl" column="liwc_excl" />
+		<result property="liwcMotion" column="liwc_motion" />
+		<result property="liwcOccup" column="liwc_occup" />
+		<result property="liwcSchool" column="liwc_school" />
+		<result property="liwcJob" column="liwc_job" />
+		<result property="liwcAchieve" column="liwc_achieve" />
+		<result property="liwcLeisure" column="liwc_leisure" />
+		<result property="liwcHome" column="liwc_home" />
+		<result property="liwcSports" column="liwc_sports" />
+		<result property="liwcTv" column="liwc_tv" />
+		<result property="liwcMusic" column="liwc_music" />
+		<result property="liwcMoney" column="liwc_money" />
+		<result property="liwcMetaph" column="liwc_metaph" />
+		<result property="liwcRelig" column="liwc_relig" />
+		<result property="liwcDeath" column="liwc_death" />
+		<result property="liwcPhyscal" column="liwc_physcal" />
+		<result property="liwcBody" column="liwc_body" />
+		<result property="liwcSexual" column="liwc_sexual" />
+		<result property="liwcEating" column="liwc_eating" />
+		<result property="liwcSleep" column="liwc_sleep" />
+		<result property="liwcGroom" column="liwc_groom" />
+		<result property="liwcSwear" column="liwc_swear" />
+		<result property="liwcNonfl" column="liwc_nonfl" />
+		<result property="liwcFillers" column="liwc_fillers" />		
 	</resultMap>
 
 	<select id="selectTweets" parameterType="com.beeblz.twitter.io.model.Tweet" resultMap="tweetResultMap">
@@ -52,6 +124,78 @@
 			, create_date
 			, col_create_date
 			, col_update_date
+			, liwc_wc
+			, liwc_wps
+			, liwc_dic
+			, liwc_sixltr			
+			, liwc_pronoun
+			, liwc_i
+			, liwc_we
+			, liwc_self
+			, liwc_you
+			, liwc_other
+			, liwc_negate
+			, liwc_assent
+			, liwc_article
+			, liwc_preps
+			, liwc_number			
+			, liwc_affect
+			, liwc_posemo
+			, liwc_posfeel
+			, liwc_optim
+			, liwc_negemo
+			, liwc_anx
+			, liwc_anger
+			, liwc_sad
+			, liwc_cogmech
+			, liwc_cause
+			, liwc_insight
+			, liwc_discrep
+			, liwc_inhib
+			, liwc_tentat
+			, liwc_certain
+			, liwc_senses
+			, liwc_see
+			, liwc_hear
+			, liwc_feel
+			, liwc_social
+			, liwc_comm
+			, liwc_othref
+			, liwc_friends
+			, liwc_family
+			, liwc_humans			
+			, liwc_time
+			, liwc_past
+			, liwc_present
+			, liwc_future
+			, liwc_space
+			, liwc_up
+			, liwc_down
+			, liwc_incl
+			, liwc_excl
+			, liwc_motion			
+			, liwc_occup
+			, liwc_school
+			, liwc_job
+			, liwc_achieve
+			, liwc_leisure
+			, liwc_home
+			, liwc_sports
+			, liwc_tv
+			, liwc_music
+			, liwc_money
+			, liwc_metaph
+			, liwc_relig
+			, liwc_death
+			, liwc_physcal
+			, liwc_body
+			, liwc_sexual
+			, liwc_eating
+			, liwc_sleep
+			, liwc_groom			
+			, liwc_swear
+			, liwc_nonfl
+			, liwc_fillers			
 		)
 		VALUES (
 			#{id,javaType=long,jdbcType=NUMERIC}
@@ -71,18 +215,79 @@
 			, #{createDate,jdbcType=DATE}
 			, NOW()
 			, NOW()
+			, #{liwcWc,javaType=double,jdbcType=DOUBLE}
+			, #{liwcWps,javaType=double,jdbcType=DOUBLE}
+			, #{liwcDic,javaType=double,jdbcType=DOUBLE}
+			, #{liwcSixltr,javaType=double,jdbcType=DOUBLE}			
+			, #{liwcPronoun,javaType=double,jdbcType=DOUBLE}
+			, #{liwcI,javaType=double,jdbcType=DOUBLE}
+			, #{liwcWe,javaType=double,jdbcType=DOUBLE}
+			, #{liwcSelf,javaType=double,jdbcType=DOUBLE}
+			, #{liwcYou,javaType=double,jdbcType=DOUBLE}
+			, #{liwcOther,javaType=double,jdbcType=DOUBLE}
+			, #{liwcNegate,javaType=double,jdbcType=DOUBLE}
+			, #{liwcAssent,javaType=double,jdbcType=DOUBLE}
+			, #{liwcArticle,javaType=double,jdbcType=DOUBLE}
+			, #{liwcPreps,javaType=double,jdbcType=DOUBLE}
+			, #{liwcNumber,javaType=double,jdbcType=DOUBLE}			
+			, #{liwcAffect,javaType=double,jdbcType=DOUBLE}
+			, #{liwcPosemo,javaType=double,jdbcType=DOUBLE}
+			, #{liwcPosfeel,javaType=double,jdbcType=DOUBLE}
+			, #{liwcOptim,javaType=double,jdbcType=DOUBLE}
+			, #{liwcNegemo,javaType=double,jdbcType=DOUBLE}
+			, #{liwcAnx,javaType=double,jdbcType=DOUBLE}
+			, #{liwcAnger,javaType=double,jdbcType=DOUBLE}
+			, #{liwcSad,javaType=double,jdbcType=DOUBLE}
+			, #{liwcCogmech,javaType=double,jdbcType=DOUBLE}
+			, #{liwcCause,javaType=double,jdbcType=DOUBLE}
+			, #{liwcInsight,javaType=double,jdbcType=DOUBLE}
+			, #{liwcDiscrep,javaType=double,jdbcType=DOUBLE}
+			, #{liwcInhib,javaType=double,jdbcType=DOUBLE}
+			, #{liwcTentat,javaType=double,jdbcType=DOUBLE}
+			, #{liwcCertain,javaType=double,jdbcType=DOUBLE}
+			, #{liwcSenses,javaType=double,jdbcType=DOUBLE}
+			, #{liwcSee,javaType=double,jdbcType=DOUBLE}
+			, #{liwcHear,javaType=double,jdbcType=DOUBLE}
+			, #{liwcFeel,javaType=double,jdbcType=DOUBLE}
+			, #{liwcSocial,javaType=double,jdbcType=DOUBLE}
+			, #{liwcComm,javaType=double,jdbcType=DOUBLE}
+			, #{liwcOthref,javaType=double,jdbcType=DOUBLE}
+			, #{liwcFriends,javaType=double,jdbcType=DOUBLE}
+			, #{liwcFamily,javaType=double,jdbcType=DOUBLE}
+			, #{liwcHumans,javaType=double,jdbcType=DOUBLE}			
+			, #{liwcTime,javaType=double,jdbcType=DOUBLE}
+			, #{liwcPast,javaType=double,jdbcType=DOUBLE}
+			, #{liwcPresent,javaType=double,jdbcType=DOUBLE}
+			, #{liwcFuture,javaType=double,jdbcType=DOUBLE}
+			, #{liwcSpace,javaType=double,jdbcType=DOUBLE}
+			, #{liwcUp,javaType=double,jdbcType=DOUBLE}
+			, #{liwcDown,javaType=double,jdbcType=DOUBLE}
+			, #{liwcIncl,javaType=double,jdbcType=DOUBLE}
+			, #{liwcExcl,javaType=double,jdbcType=DOUBLE}
+			, #{liwcMotion,javaType=double,jdbcType=DOUBLE}			
+			, #{liwcOccup,javaType=double,jdbcType=DOUBLE}
+			, #{liwcSchool,javaType=double,jdbcType=DOUBLE}
+			, #{liwcJob,javaType=double,jdbcType=DOUBLE}
+			, #{liwcAchieve,javaType=double,jdbcType=DOUBLE}
+			, #{liwcLeisure,javaType=double,jdbcType=DOUBLE}
+			, #{liwcHome,javaType=double,jdbcType=DOUBLE}
+			, #{liwcSports,javaType=double,jdbcType=DOUBLE}
+			, #{liwcTv,javaType=double,jdbcType=DOUBLE}
+			, #{liwcMusic,javaType=double,jdbcType=DOUBLE}
+			, #{liwcMoney,javaType=double,jdbcType=DOUBLE}
+			, #{liwcMetaph,javaType=double,jdbcType=DOUBLE}
+			, #{liwcRelig,javaType=double,jdbcType=DOUBLE}
+			, #{liwcDeath,javaType=double,jdbcType=DOUBLE}
+			, #{liwcPhyscal,javaType=double,jdbcType=DOUBLE}
+			, #{liwcBody,javaType=double,jdbcType=DOUBLE}
+			, #{liwcSexual,javaType=double,jdbcType=DOUBLE}
+			, #{liwcEating,javaType=double,jdbcType=DOUBLE}
+			, #{liwcSleep,javaType=double,jdbcType=DOUBLE}
+			, #{liwcGroom,javaType=double,jdbcType=DOUBLE}			
+			, #{liwcSwear,javaType=double,jdbcType=DOUBLE}
+			, #{liwcNonfl,javaType=double,jdbcType=DOUBLE}
+			, #{liwcFillers,javaType=double,jdbcType=DOUBLE}
 		)
 	</insert>
-	
-	<update id="updateTweet" parameterType="com.beeblz.twitter.io.model.Tweet">
-		UPDATE tweet
-		<set>
-			<if test="positiveAttitude != null">positive_attitude = #{positiveAttitude},</if>
-			<if test="negativeAttitude != null">negative_attitude = #{negativeAttitude},</if>
-			col_update_date = NOW()
-		</set>
-		WHERE
-			id = #{id}
-	</update>	
 
 </mapper>

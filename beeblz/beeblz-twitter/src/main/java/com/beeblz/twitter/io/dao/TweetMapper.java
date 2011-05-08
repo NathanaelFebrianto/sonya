@@ -19,7 +19,5 @@ public interface TweetMapper extends GenericMapper {
 	public List<Tweet> selectTweets(Tweet tweet);
 	
 	public void insertTweet(Tweet tweet);
-	
-	public void updateTweet(Tweet tweet);
 
 }

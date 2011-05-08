@@ -43,14 +43,4 @@ public class TweetManagerImpl extends GenericManagerImpl implements TweetManager
     	}
 	}
 	
-	public void setTweet(Tweet tweet) {
-		SqlSession session = sqlSessionFactory.openSession();
-    	try {
-    		TweetMapper mapper = session.getMapper(TweetMapper.class);
-    		mapper.updateTweet(tweet);
-    		session.commit();
-    	} finally {
-    		session.close();
-    	}		
-	}
 }

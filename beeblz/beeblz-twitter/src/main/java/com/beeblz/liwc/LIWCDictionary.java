@@ -233,7 +233,117 @@ public class LIWCDictionary {
 
 		return counts;
 	}
+	
+	public Map<String,Double> getJustCounts(String text, boolean absoluteCounts) {
 
+		Map<String,Double> counts = new LinkedHashMap<String, Double>(map.size());
+		String[] words = tokenize(text);
+		String[] sentences = splitSentences(text);
+		
+		System.err.println("Input text splitted into " + words.length
+				+ " words and " + sentences.length + " sentences");
+		
+		// word count (NOT A PROPER FEATURE)
+		if (absoluteCounts) { counts.put("WC", new Double(words.length)); }
+		counts.put("WPS", new Double(sentences.length));
+		
+		// type token ratio, words with more than 6 letters, abbreviations,
+		// emoticons, numbers
+		int sixletters = 0;
+		int numbers = 0;
+		for (int i = 0; i < words.length; i++) {
+			String word = words[i].toLowerCase();
+			if (word.length() > 6) {
+				sixletters++;
+			}
+
+			if (word.matches("-?[,\\d+]*\\.?\\d+")) {
+				numbers++;
+			}
+		}
+		
+		Set<String> types = new LinkedHashSet<String>(Arrays.asList(words));
+		counts.put("UNIQUE", new Double(types.size()));
+		counts.put("SIXLTR", new Double(sixletters));
+		// abbreviations
+		int abbrev = Utils.countMatches("\\w\\.(\\w\\.)+", text);
+		counts.put("ABBREVIATIONS", new Double(abbrev));
+		// emoticons
+		int emoticons = Utils
+				.countMatches("[:;8%]-[\\)\\(\\@\\[\\]\\|]+", text);
+		counts.put("EMOTICONS", new Double(emoticons));
+		// text ending with a question mark
+		int qmarks = Utils.countMatches("\\w\\s*\\?", text);
+		counts.put("QMARKS", new Double(qmarks));
+		// punctuation
+		int period = Utils.countMatches("\\.", text);
+		counts.put("PERIOD", new Double(period));
+		int comma = Utils.countMatches(",", text);
+		counts.put("COMMA", new Double(comma));
+		int colon = Utils.countMatches(":", text);
+		counts.put("COLON", new Double(colon));
+		int semicolon = Utils.countMatches(";", text);
+		counts.put("SEMIC", new Double(semicolon));
+		int qmark = Utils.countMatches("\\?", text);
+		counts.put("QMARK", new Double(qmark));
+		int exclam = Utils.countMatches("!", text);
+		counts.put("EXCLAM", new Double(exclam));
+		int dash = Utils.countMatches("-", text);
+		counts.put("DASH", new Double(dash));
+		int quote = Utils.countMatches("\"", text);
+		counts.put("QUOTE", new Double(quote));
+		int apostr = Utils.countMatches("'", text);
+		counts.put("APOSTRO", new Double(apostr));
+		int parent = Utils.countMatches("[\\(\\[{]", text);
+		counts.put("PARENTH", new Double(parent));
+		int otherp = Utils.countMatches("[^\\w\\d\\s\\.:;\\?!\"'\\(\\{\\[,-]",
+				text);
+		counts.put("OTHERP", new Double(otherp));
+		int allp = period + comma + colon + semicolon + qmark + exclam + dash
+				+ quote + apostr + parent + otherp;
+		counts.put("ALLPCT", new Double(allp));
+
+		// PATTERN MATCHING
+
+		// store word in dic
+		boolean[] indic = new boolean[words.length];
+		for (int i = 0; i < indic.length; i++) {
+			indic[i] = false;
+		}
+
+		// first get all lexical counts
+		for (String cat: map.keySet()) {
+
+			// add entry to output hash
+			Pattern catRegex = map.get(cat);
+			int catCount = 0;
+
+			for (int i = 0; i < words.length; i++) {
+
+				String word = words[i].toLowerCase();
+				Matcher m = catRegex.matcher(word);
+				while (m.find()) {
+					catCount++;
+					indic[i] = true;
+				}
+			}
+			counts.put(cat, new Double(catCount));
+		}
+
+		// put ratio of words matched
+		int wordsMatched = 0;
+		for (int i = 0; i < indic.length; i++) {
+			if (indic[i]) {
+				wordsMatched++;
+			}
+		}
+		counts.put("DIC", new Double(wordsMatched));
+		// add numerical numbers
+		double nonNumeric = ((Double) counts.get("NUMBERS")).doubleValue();
+		counts.put("NUMBERS", new Double(nonNumeric + numbers));
+
+		return counts;
+	}
 	
 	/**
 	 * Splits a text into words separated by non-word characters.

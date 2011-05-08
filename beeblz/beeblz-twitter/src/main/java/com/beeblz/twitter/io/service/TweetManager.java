@@ -20,6 +20,4 @@ public interface TweetManager extends GenericManager {
 	
 	public void addTweet(Tweet tweet);
 	
-	public void setTweet(Tweet tweet);
-	
 }
