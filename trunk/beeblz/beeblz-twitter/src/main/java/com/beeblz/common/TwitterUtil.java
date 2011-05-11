@@ -1,5 +1,8 @@
 package com.beeblz.common;
 
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -98,6 +101,27 @@ public class TwitterUtil {
 			return "negative";
 		
 		return null;
+	}
+	
+    public static final String convertDateToString(String mask, Date date) {
+        SimpleDateFormat df = null;
+        String returnValue = "";
+
+        if (date == null) {
+        } else {
+            df = new SimpleDateFormat(mask);
+            returnValue = df.format(date);
+        }
+
+        return returnValue;
+    }
+
+	public static Date addDay(Date date, int day) {
+		Calendar cal = Calendar.getInstance();
+
+		cal.setTime(date);
+		cal.add(Calendar.DAY_OF_YEAR, day);
+		return cal.getTime();
 	}
 
 }

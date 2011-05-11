@@ -2,9 +2,9 @@ package com.beeblz.twitter.collector;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
-import java.util.regex.Pattern;
 
 import twitter4j.Query;
 import twitter4j.QueryResult;
@@ -34,11 +34,6 @@ public class TwitterCollector {
 	
 	// logger
 	private static JobLogger logger = JobLogger.getLogger(TwitterCollector.class, "twitter-collect.log");
-	
-	private static String AT_SIGNS_CHARS = "@\uFF20";
-	
-	public static final Pattern AT_SIGNS = Pattern.compile("[" + AT_SIGNS_CHARS
-			+ "]");
 	
 	private UserManager userManager;
 	private TweetManager tweetManager;
@@ -88,37 +83,62 @@ public class TwitterCollector {
 		
 		this.writeTweetColumns();	// write tweet columns into log file
 		
+		String sinceDate = TwitterUtil.convertDateToString("yyyy-MM-dd", TwitterUtil.addDay(new Date(), -1));
+		
 		for (int i = 0; i < targetUsers.length; i++) {
 			try {
 				String qStr1 = "from:" + targetUsers[i];	//tweets by target user				
 	        	String qStr2 = "@" + targetUsers[i];	//mention target user
 				
+	        	List<twitter4j.Tweet> tweets1 = new ArrayList<twitter4j.Tweet>();
+	        	List<twitter4j.Tweet> tweets2 = new ArrayList<twitter4j.Tweet>();
+	        	
 	        	// query 1
 	        	Query query1 = new Query(qStr1);
-	        	query1.page(1);
 	        	query1.rpp(100);
-	        	//query1.setSince("2011-05-01");      	
-	        	System.out.println("query1 = " + query1.getQuery());
-	        	logger.info("query1 = " + query1.getQuery());
-	            QueryResult result1 = twitter.search(query1);
-	            System.out.println("query1 result size = " + result1.getTweets().size());
-	            logger.info("query1 result size = " + result1.getTweets().size());
+	        	query1.setSince(sinceDate);
+	        	
+	        	System.out.println("------------------------------------------------");
+	        	logger.info("------------------------------------------------");
+	        	System.out.println("query1 = " + query1.getQuery() + " since: " + sinceDate);
+	        	logger.info("query1 = " + query1.getQuery() + " since: " + sinceDate);
+	        	
+	        	for (int page = 1; page < 4; page++) {
+		        	query1.page(page);		        	
+		            QueryResult result1 = twitter.search(query1);
+		            
+		            System.out.println("query1 result size[page:" + page + "] = " + result1.getTweets().size());
+		            logger.info("query1 result size[page:" + page + "] = " + result1.getTweets().size());
+		            tweets1.addAll(result1.getTweets());
+	        	}
 	            
 	            // query 2
 	        	Query query2 = new Query(qStr2);
-	        	query2.page(1);
 	        	query2.rpp(100);
-	        	System.out.println("query2 = " + query2.getQuery());
-	        	logger.info("query2 = " + query2.getQuery());
-	            QueryResult result2 = twitter.search(query2);
-	            System.out.println("query2 result size = " + result2.getTweets().size());
-	            logger.info("query2 result size = " + result2.getTweets().size());
-
-	            List<twitter4j.Tweet> tweets1 = result1.getTweets();
-	            List<twitter4j.Tweet> tweets2 = result2.getTweets();
+	        	query2.setSince(sinceDate);
+	        	
+	        	System.out.println("query2 = " + query2.getQuery() + " since: " + sinceDate);
+	        	logger.info("query2 = " + query2.getQuery() + " since: " + sinceDate);
+	        	
+	        	for (int page = 1; page < 4; page++) {
+		        	query2.page(page);		        	
+		            QueryResult result2 = twitter.search(query2);
+		            
+		            System.out.println("query2 result size[page:" + page + "] = " + result2.getTweets().size());
+		            logger.info("query2 result size[page:" + page + "] = " + result2.getTweets().size());
+		            tweets2.addAll(result2.getTweets());
+	        	}
+  
+	            int addedNum1 = addTweets(tweets1, null, targetUsers);
+	            int addedNum2 = addTweets(tweets2, targetUsers[i], targetUsers);
 	            
-	            addTweets(tweets1, null, targetUsers);
-	            addTweets(tweets2, targetUsers[i], targetUsers);
+	            System.out.println("------------------------------------------------");
+	            logger.info("------------------------------------------------");
+	            System.out.println("@added tweet count for query1 = " + addedNum1);
+	        	logger.info("@added tweet count for query1 = " + addedNum1);
+	        	
+	        	System.out.println("@added tweet count for query2 = " + addedNum2);
+	        	logger.info("@added tweet count for query2 = " + addedNum2);
 	            
 			} catch (TwitterException te) {
 				System.out.println(te.getMessage());
@@ -126,7 +146,8 @@ public class TwitterCollector {
 		}
 	}
 	
-	public void addTweets(List<twitter4j.Tweet> tweets, String targetUser, String[] targetUsers) {		
+	public int addTweets(List<twitter4j.Tweet> tweets, String targetUser, String[] targetUsers) {	
+		int count = 0;
         for (twitter4j.Tweet tweet : tweets) {
         	try {
         		String text = tweet.getText();
@@ -213,6 +234,7 @@ public class TwitterCollector {
            			// write tweet data into log file
            			this.writeTweetData(ntweet);	
            			tweetManager.addTweet(ntweet); 
+           			count++;
            			
                		// insert relationship
                		if (tweetType.equalsIgnoreCase("REPLY") || tweetType.equalsIgnoreCase("RETWEET")) {
@@ -249,7 +271,9 @@ public class TwitterCollector {
         		System.out.println(e.getMessage());
         		e.printStackTrace();
         	}
-        }		
+        }
+        
+        return count;
 	}
 	
 	private void addTweetMentionedUsers(Tweet tweet, List<String> mentionedUserList, String[] targetUsers, Map<String,Double> liwcFeatures) {
