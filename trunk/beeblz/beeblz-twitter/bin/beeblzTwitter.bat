@@ -19,7 +19,7 @@ set QUARTZ="lib\quartz-1.8.3.jar"
 set SLF4J_API="lib\slf4j-api-1.5.10.jar"
 set SLF4J_LOG4J="lib\slf4j-log4j12-1.5.10.jar"
 set TWITTER4J_CORE="lib\twitter4j-core-2.2.3-SNAPSHOT.jar"
-set BEEBLZ_TWITTER="lib\beeblz-twitter-0.1.2.jar"
+set BEEBLZ_TWITTER="lib\beeblz-twitter-0.1.3.jar"
 
 set LIBS=%COMMONS_LANG%;%JTA%;%JUNIT%;%JYAML%;%LOG4J%;%MYBATIS%;%MYSQL_CONNECTOR_JAVA%;%QUARTZ%;%SLF4J_API%;%SLF4J_LOG4J%;%TWITTER4J_CORE%;%BEEBLZ_TWITTER%;bin\
 
