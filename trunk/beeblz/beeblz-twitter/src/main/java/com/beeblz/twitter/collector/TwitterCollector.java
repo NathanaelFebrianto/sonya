@@ -1,10 +1,14 @@
 package com.beeblz.twitter.collector;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.StringTokenizer;
 
 import twitter4j.Query;
 import twitter4j.QueryResult;
@@ -47,13 +51,24 @@ public class TwitterCollector {
 		relationshipManager = new RelationshipManagerImpl();
 	}
 	
-	public void collectUsers(String[] targetUsers, boolean isTarget) {
+	public void collectTargetUsers(String targetUsersFile) {
+
+		List<HashMap<String,Object>> users = new ArrayList<HashMap<String,Object>>();
+		try {
+			users = this.loadTargetUsers(targetUsersFile);
+		} catch (Exception e) {
+			e.printStackTrace();
+			logger.error(e.getMessage(), e);
+			return;
+		}		
 		
 		Twitter twitter = new TwitterFactory().getInstance();
 		
-		for (int i = 0; i < targetUsers.length; i++) {
+		for (int i = 0; i < users.size(); i++) {
 			try {
-				twitter4j.User tuser = twitter.showUser(targetUsers[i]);
+				HashMap<String,Object> userMap = (HashMap<String,Object>) users.get(i);
+				String targetUser = (String) userMap.get("target_user");
+				twitter4j.User tuser = twitter.showUser(targetUser);
 				if (tuser.getStatus() != null) {
 					User user = new User();
 					user.setId(tuser.getScreenName());
@@ -64,7 +79,7 @@ public class TwitterCollector {
 					user.setFollowersCount(tuser.getFollowersCount());
 					user.setFriendsCount(tuser.getFriendsCount());
 					user.setTweetsCount(tuser.getStatusesCount());
-					user.setIsTarget(isTarget);
+					user.setIsTarget(true);
 					
 					userManager.addUser(user);
 					
@@ -78,17 +93,38 @@ public class TwitterCollector {
 		}
 	}
 	
-	public void collectTweets(String[] targetUsers) {
+	public void collectTweets(String targetUsersFile) {
+		
+		List<HashMap<String,Object>> users = new ArrayList<HashMap<String,Object>>();
+		try {
+			users = this.loadTargetUsers(targetUsersFile);
+		} catch (Exception e) {
+			e.printStackTrace();
+			logger.error(e.getMessage(), e);
+			return;
+		}
+		
+		String[] targetUsers = new String[users.size()];
+		for (int i = 0; i < users.size(); i++) {
+			HashMap<String,Object> userMap = (HashMap<String,Object>) users.get(i);
+			targetUsers[i] = (String) userMap.get("target_user");
+		}
+		
 		Twitter twitter = new TwitterFactory().getInstance();
 		
 		this.writeTweetColumns();	// write tweet columns into log file
 		
 		String sinceDate = TwitterUtil.convertDateToString("yyyy-MM-dd", TwitterUtil.addDay(new Date(), -1));
 		
-		for (int i = 0; i < targetUsers.length; i++) {
+		for (int i = 0; i < users.size(); i++) {
 			try {
-				String qStr1 = "from:" + targetUsers[i];	//tweets by target user				
-	        	String qStr2 = "@" + targetUsers[i];	//mention target user
+				HashMap<String,Object> userMap = (HashMap<String,Object>) users.get(i);
+				String targetUser = (String) userMap.get("target_user");
+				int pageQuery1 = (Integer) userMap.get("page_query_from");
+				int pageQuery2 = (Integer) userMap.get("page_query_mention");
+				
+				String qStr1 = "from:" + targetUser;	//tweets by target user				
+	        	String qStr2 = "@" + targetUser;	//mention target user
 				
 	        	List<twitter4j.Tweet> tweets1 = new ArrayList<twitter4j.Tweet>();
 	        	List<twitter4j.Tweet> tweets2 = new ArrayList<twitter4j.Tweet>();
@@ -100,10 +136,10 @@ public class TwitterCollector {
 	        	
 	        	System.out.println("------------------------------------------------");
 	        	logger.info("------------------------------------------------");
-	        	System.out.println("query1 = " + query1.getQuery() + " since: " + sinceDate);
-	        	logger.info("query1 = " + query1.getQuery() + " since: " + sinceDate);
+	        	System.out.println("query1 = " + query1.getQuery() + " since: " + sinceDate + " page: " + pageQuery1);
+	        	logger.info("query1 = " + query1.getQuery() + " since: " + sinceDate + " page: " + pageQuery1);
 	        	
-	        	for (int page = 1; page < 4; page++) {
+	        	for (int page = 1; page <= pageQuery1; page++) {
 		        	query1.page(page);		        	
 		            QueryResult result1 = twitter.search(query1);
 		            
@@ -117,10 +153,10 @@ public class TwitterCollector {
 	        	query2.rpp(100);
 	        	query2.setSince(sinceDate);
 	        	
-	        	System.out.println("query2 = " + query2.getQuery() + " since: " + sinceDate);
-	        	logger.info("query2 = " + query2.getQuery() + " since: " + sinceDate);
+	        	System.out.println("query2 = " + query2.getQuery() + " since: " + sinceDate + " page: " + pageQuery2);
+	        	logger.info("query2 = " + query2.getQuery() + " since: " + sinceDate + " page: " + pageQuery2);
 	        	
-	        	for (int page = 1; page < 4; page++) {
+	        	for (int page = 1; page <= pageQuery2; page++) {
 		        	query2.page(page);		        	
 		            QueryResult result2 = twitter.search(query2);
 		            
@@ -130,10 +166,12 @@ public class TwitterCollector {
 	        	}
   
 	            int addedNum1 = addTweets(tweets1, null, targetUsers);
-	            int addedNum2 = addTweets(tweets2, targetUsers[i], targetUsers);
+	            int addedNum2 = addTweets(tweets2, targetUser, targetUsers);
 	            
 	            System.out.println("------------------------------------------------");
 	            logger.info("------------------------------------------------");
+	            System.out.println("target user: " + targetUser);
+	            logger.info("target user: " + targetUser);
 	            System.out.println("@added tweet count for query1 = " + addedNum1);
 	        	logger.info("@added tweet count for query1 = " + addedNum1);
 	        	
@@ -398,26 +436,61 @@ public class TwitterCollector {
    		logger.info(data.toString());
 	}
 	
-	public static void main(String[] args) {
+	private List<HashMap<String,Object>> loadTargetUsers(String targetUsersFile) throws Exception {
+		if (targetUsersFile == null || targetUsersFile.equals(""))
+			throw new Exception("Can't load target users because file path is not defined in Config.properties!");
+		
+		File file = new File(targetUsersFile);
+		if (!file.exists()) 
+			throw new Exception("The target_users.dat file doesn't exit, check the file!");
+		
+		List<HashMap<String,Object>> targetUsers = new ArrayList<HashMap<String,Object>>();
+		
+		FileReader fileReader = new FileReader(file);		 
+		BufferedReader reader = new BufferedReader(fileReader);
 
-		String[] targetUsers = {
-				"BarackObama",
-				"realDonaldTrump",
-				"BillGates",
-				"Oprah",
-				"kingsthings",
-				"ladygaga",
-				"britneyspears",
-				"aplusk",		//
-				"DalaiLama",
-				"TechCrunch",
-				"mashable",
-				"cnnbrk",		//
-				"BBCBreaking"	//
-			};
+		StringTokenizer st = null;		 
+		String line = null;
+		
+		int row = 0;
+		while((line = reader.readLine()) != null) {
+			HashMap<String,Object> map = new HashMap<String,Object>();
+			
+			if (row == 0) {
+				System.out.println(line);
+				logger.info(line);
+			} else {
+				if (line != null && !line.equals("")) {
+					System.out.println(line);
+					logger.info(line);
+					
+					st = new StringTokenizer(line, ",");
+					int column = 0;
+					while(st.hasMoreTokens()){		 
+						String data = st.nextToken();
+						if (column == 0)
+							map.put("target_user", data);
+						else if (column == 1)
+							map.put("page_query_from", new Integer(data));
+						else if (column == 2)
+							map.put("page_query_mention", new Integer(data));
+						
+						column++;
+					}
+					targetUsers.add(map);
+				}			
+			}
+			row++;
+		}
+
+		return targetUsers;
+	}
+	
+	public static void main(String[] args) {
 		
 		TwitterCollector collector = new TwitterCollector();
-		//collector.collectUsers(targetUsers, true);
-		collector.collectTweets(targetUsers);	
+		String targetUsersFile = Config.getProperty("targetUsersFile");
+		collector.collectTweets(targetUsersFile);
+		//collector.collectTargetUsers(targetUsersFile);
     }	
 }
