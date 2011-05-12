@@ -1,11 +1,13 @@
 package com.beeblz.twitter.collector;
 
+import java.io.File;
 import java.util.Date;
 
 import org.quartz.Job;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 
+import com.beeblz.common.Config;
 import com.beeblz.common.JobLogger;
 
 public class TwitterCollectorJob implements Job {
@@ -29,7 +31,7 @@ public class TwitterCollectorJob implements Job {
 			// date and time that it is running
 			String jobName = context.getJobDetail().getFullName();
 			logger.info("Quartz says: " + jobName + " executing at " + startTime);
-	    	
+	    	/*
 			String[] targetUsers = {
 					"BarackObama",
 					"realDonaldTrump",
@@ -45,9 +47,11 @@ public class TwitterCollectorJob implements Job {
 					"cnnbrk",		//
 					"BBCBreaking"	//
 				};
-			
+			*/
 			TwitterCollector collector = new TwitterCollector();
-			collector.collectTweets(targetUsers);
+			//collector.collectTweets(targetUsers);
+			String targetUsersFile = Config.getProperty("targetUsersFile");
+			collector.collectTweets(targetUsersFile);
 	    	
 			// end time
 			Date endTime = new Date();
