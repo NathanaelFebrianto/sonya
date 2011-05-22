@@ -21,7 +21,7 @@ public class Relationship implements Serializable {
 	private long userNo2;
 	private boolean isFollowedByUser2;
 	private int retweetedCountByUser2;
-	private int replyedCountByUser2;
+	private int repliedCountByUser2;
 	private int mentionedCountByUser2;
 	private int positiveAttitudeCountByUser2;
 	private int negativeAttitudeCountByUser2;
@@ -199,8 +199,8 @@ public class Relationship implements Serializable {
 	public int getRetweetedCountByUser2() {
 		return retweetedCountByUser2;
 	}
-	public int getReplyedCountByUser2() {
-		return replyedCountByUser2;
+	public int getRepliedCountByUser2() {
+		return repliedCountByUser2;
 	}
 	public int getMentionedCountByUser2() {
 		return mentionedCountByUser2;
@@ -452,8 +452,8 @@ public class Relationship implements Serializable {
 	public void setRetweetedCountByUser2(int retweetedCountByUser2) {
 		this.retweetedCountByUser2 = retweetedCountByUser2;
 	}
-	public void setReplyedCountByUser2(int replyedCountByUser2) {
-		this.replyedCountByUser2 = replyedCountByUser2;
+	public void setRepliedCountByUser2(int repliedCountByUser2) {
+		this.repliedCountByUser2 = repliedCountByUser2;
 	}
 	public void setMentionedCountByUser2(int mentionedCountByUser2) {
 		this.mentionedCountByUser2 = mentionedCountByUser2;

@@ -12,7 +12,7 @@
 		<result property="isFollowedByUser2" column="is_followed_by_user2" />
 		<result property="retweetedCountByUser2" column="retweeted_count_by_user2" />
 		<result property="mentionedCountByUser2" column="mentioned_count_by_user2" />
-		<result property="replyedCountByUser2" column="replyed_count_by_user2" />
+		<result property="repliedCountByUser2" column="replied_count_by_user2" />
 		<result property="positiveAttitudeCountByUser2" column="positive_attitude_count_by_user2" />
 		<result property="negativeAttitudeCountByUser2" column="negative_attitude_count_by_user2" />
 		<result property="colCreateDate" column="col_create_date" />
@@ -112,7 +112,7 @@
 			, is_followed_by_user2
 			, retweeted_count_by_user2
 			, mentioned_count_by_user2
-			, replyed_count_by_user2
+			, replied_count_by_user2
 			, positive_attitude_count_by_user2
 			, negative_attitude_count_by_user2
 			, col_create_date
@@ -198,7 +198,7 @@
 			, #{isFollowedByUser2,javaType=boolean,jdbcType=BOOLEAN}
 			, #{retweetedCountByUser2,javaType=int,jdbcType=NUMERIC}
 			, #{mentionedCountByUser2,javaType=int,jdbcType=NUMERIC}
-			, #{replyedCountByUser2,javaType=int,jdbcType=NUMERIC}
+			, #{repliedCountByUser2,javaType=int,jdbcType=NUMERIC}
 			, #{positiveAttitudeCountByUser2,javaType=int,jdbcType=NUMERIC}
 			, #{negativeAttitudeCountByUser2,javaType=int,jdbcType=NUMERIC}
 			, NOW()
@@ -286,7 +286,7 @@
 			<if test="isFollowedByUser2 != null">is_followed_by_user2 = IFNULL(is_followed_by_user2, 0) + #{isFollowedByUser2},</if>
 			<if test="retweetedCountByUser2 != 0">retweeted_count_by_user2 = IFNULL(retweeted_count_by_user2, 0) + #{retweetedCountByUser2},</if>
 			<if test="mentionedCountByUser2 != 0">mentioned_count_by_user2 = IFNULL(mentioned_count_by_user2, 0) + #{mentionedCountByUser2},</if>
-			<if test="replyedCountByUser2 != 0">replyed_count_by_user2 = IFNULL(replyed_count_by_user2, 0) + #{replyedCountByUser2},</if>
+			<if test="repliedCountByUser2 != 0">replied_count_by_user2 = IFNULL(replied_count_by_user2, 0) + #{repliedCountByUser2},</if>
 			<if test="positiveAttitudeCountByUser2 != 0">positive_attitude_count_by_user2 = IFNULL(positive_attitude_count_by_user2, 0) + #{positiveAttitudeCountByUser2},</if>
 			<if test="negativeAttitudeCountByUser2 != 0">negative_attitude_count_by_user2 = IFNULL(negative_attitude_count_by_user2, 0) + #{negativeAttitudeCountByUser2},</if>
 			<if test="liwcWc != 0">liwc_wc = IFNULL(liwc_wc, 0) + #{liwcWc},</if>
