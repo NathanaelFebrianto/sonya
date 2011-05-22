@@ -283,7 +283,7 @@ public class TwitterCollector {
                			relation.setUserNo2(tweet.getFromUserId());
                			
                			if (tweetType.equalsIgnoreCase("REPLY"))
-               				relation.setReplyedCountByUser2(1);
+               				relation.setRepliedCountByUser2(1);
                			else if (tweetType.equalsIgnoreCase("RETWEET"))
                				relation.setRetweetedCountByUser2(1);
                			
