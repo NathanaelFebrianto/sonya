@@ -388,6 +388,62 @@ GROUP BY target_user, create_date;
 
 
 /**
+ * 6. Popular User별/날짜별 positive, negative 유저수
+ */
+SELECT target_user, create_date, COUNT(DISTINCT USER) AS positive_user_count
+FROM tweet
+WHERE liwc_posemo > 0 AND target_user IN (SELECT id FROM USER)
+GROUP BY target_user, create_date;
+/*
+SELECT target_user, create_date, COUNT(DISTINCT USER) AS positive_user_count
+FROM tweet
+WHERE (liwc_posemo+liwc_posfeel+liwc_optim) > (liwc_negemo+liwc_anx+liwc_anger+liwc_sad) AND target_user IN (SELECT id FROM USER)
+GROUP BY target_user, create_date;
+*/
+
+SELECT target_user, create_date, COUNT(DISTINCT USER) AS negative_user_count
+FROM tweet
+WHERE liwc_negemo > 0 AND target_user IN (SELECT id FROM USER)
+GROUP BY target_user, create_date;
+/*
+SELECT target_user, create_date, COUNT(DISTINCT USER) AS positive_user_count
+FROM tweet
+WHERE (liwc_posemo+liwc_posfeel+liwc_optim) < (liwc_negemo+liwc_anx+liwc_anger+liwc_sad)AND target_user IN (SELECT id FROM USER)
+GROUP BY target_user, create_date;
+*/
+
+SELECT target_user, create_date, COUNT(DISTINCT USER) AS positive_negative_user_count
+FROM tweet
+WHERE (liwc_posemo > 0 AND liwc_negemo > 0) AND target_user IN (SELECT id FROM USER)
+GROUP BY target_user, create_date;
+
+SELECT target_user, create_date, COUNT(DISTINCT USER) AS total_user_count
+FROM tweet
+WHERE (liwc_posemo > 0 OR liwc_negemo > 0) AND target_user IN (SELECT id FROM USER)
+GROUP BY target_user, create_date;
+
+/* a9_1 */
+SELECT target_user, create_date, COUNT(DISTINCT USER) AS positive_user_count
+FROM tweet
+WHERE (liwc_posemo+liwc_posfeel+liwc_optim) > (liwc_negemo+liwc_anx+liwc_anger+liwc_sad) 
+AND target_user = "BarackObama"
+GROUP BY target_user, create_date;
+
+SELECT target_user, create_date, COUNT(DISTINCT USER) AS negative_user_count
+FROM tweet
+WHERE (liwc_posemo+liwc_posfeel+liwc_optim) <= (liwc_negemo+liwc_anx+liwc_anger+liwc_sad) 
+AND ((liwc_negemo+liwc_anx+liwc_anger+liwc_sad) > 0)
+AND target_user = "BarackObama"
+GROUP BY target_user, create_date;
+
+SELECT target_user, create_date, COUNT(DISTINCT USER) AS total_user_count
+FROM tweet
+WHERE ((liwc_posemo+liwc_posfeel+liwc_optim) > 0 OR (liwc_negemo+liwc_anx+liwc_anger+liwc_sad) > 0) 
+AND target_user = "BarackObama"
+GROUP BY target_user, create_date;
+
+
+/**
  * 8. Tweet타입별 LIWC
  */
 SELECT tweet_type, 
@@ -471,4 +527,60 @@ FROM tweet
 GROUP BY tweet_type;
 
 
+/*--------------------------------------------------------*/
+SELECT target_user, COUNT(id) AS tweet_count
+FROM tweet
+WHERE  target_user IN (SELECT id FROM USER)
+GROUP BY target_user;
+
+SELECT target_user, COUNT(DISTINCT USER) AS positive_user_count
+FROM tweet
+WHERE (liwc_posemo+liwc_posfeel+liwc_optim) > (liwc_negemo+liwc_anx+liwc_anger+liwc_sad) 
+AND target_user IN (SELECT id FROM USER)
+GROUP BY target_user;
+
+SELECT target_user, COUNT(id) AS positive_tweet_count
+FROM tweet
+WHERE (liwc_posemo+liwc_posfeel+liwc_optim) > (liwc_negemo+liwc_anx+liwc_anger+liwc_sad) 
+AND target_user IN (SELECT id FROM USER)
+GROUP BY target_user;
+
+SELECT target_user, COUNT(DISTINCT USER) AS negative_user_count
+FROM tweet
+WHERE (liwc_posemo+liwc_posfeel+liwc_optim) <= (liwc_negemo+liwc_anx+liwc_anger+liwc_sad) 
+AND ((liwc_negemo+liwc_anx+liwc_anger+liwc_sad) > 0)
+AND target_user IN (SELECT id FROM USER)
+GROUP BY target_user;
+
+SELECT target_user, COUNT(id) AS negative_tweet_count
+FROM tweet
+WHERE (liwc_posemo+liwc_posfeel+liwc_optim) <= (liwc_negemo+liwc_anx+liwc_anger+liwc_sad) 
+AND ((liwc_negemo+liwc_anx+liwc_anger+liwc_sad) > 0)
+AND target_user IN (SELECT id FROM USER)
+GROUP BY target_user;
+
+/*--------------------------------------------*/
+SELECT target_user, create_date, COUNT(id) AS positive_tweet_count, COUNT(DISTINCT USER) AS positive_user_count
+FROM tweet
+WHERE (liwc_posemo+liwc_posfeel+liwc_optim) > (liwc_negemo+liwc_anx+liwc_anger+liwc_sad) 
+AND target_user IN (SELECT id FROM USER)
+GROUP BY target_user, create_date;
+
+SELECT target_user, create_date, COUNT(id) AS negative_tweet_count, COUNT(DISTINCT USER) AS negative_user_count
+FROM tweet
+WHERE (liwc_posemo+liwc_posfeel+liwc_optim) <= (liwc_negemo+liwc_anx+liwc_anger+liwc_sad) 
+AND ((liwc_negemo+liwc_anx+liwc_anger+liwc_sad) > 0)
+AND target_user IN (SELECT id FROM USER)
+GROUP BY target_user, create_date;
+
+SELECT target_user, create_date, COUNT(id) AS total_pn_tweet_count, COUNT(DISTINCT USER) AS total_pn_user_count
+FROM tweet
+WHERE ((liwc_posemo+liwc_posfeel+liwc_optim) > 0 OR (liwc_negemo+liwc_anx+liwc_anger+liwc_sad) > 0) 
+AND target_user IN (SELECT id FROM USER)
+GROUP BY target_user, create_date;
+
+SELECT target_user, create_date, COUNT(id) AS total_tweet_count, COUNT(DISTINCT USER) AS total_user_count
+FROM tweet
+WHERE target_user IN (SELECT id FROM USER)
+GROUP BY target_user, create_date;
 
