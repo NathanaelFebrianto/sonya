@@ -133,6 +133,8 @@ public class TwitterCollector {
 	        	Query query1 = new Query(qStr1);
 	        	query1.rpp(100);
 	        	query1.setSince(sinceDate);
+	        	//query1.setSince("2011-06-17");
+	        	//query1.setUntil("2011-06-17");
 	        	
 	        	System.out.println("------------------------------------------------");
 	        	logger.info("------------------------------------------------");
@@ -152,6 +154,8 @@ public class TwitterCollector {
 	        	Query query2 = new Query(qStr2);
 	        	query2.rpp(100);
 	        	query2.setSince(sinceDate);
+	        	//query1.setSince("2011-06-17");
+	        	//query1.setUntil("2011-06-17");
 	        	
 	        	System.out.println("query2 = " + query2.getQuery() + " since: " + sinceDate + " page: " + pageQuery2);
 	        	logger.info("query2 = " + query2.getQuery() + " since: " + sinceDate + " page: " + pageQuery2);
@@ -486,11 +490,29 @@ public class TwitterCollector {
 		return targetUsers;
 	}
 	
+	private void showFriendship(String sourceScreenName, String targetScreenName) {
+		Twitter twitter = new TwitterFactory().getInstance();
+		try {
+			twitter4j.Relationship relation = twitter.showFriendship(sourceScreenName, targetScreenName);
+			boolean isSourceBlockingTarget =  relation.isSourceBlockingTarget();
+			boolean isSourceFollowedByTarget = relation.isSourceFollowedByTarget();
+			
+			System.out.println("[" + sourceScreenName + " - " + targetScreenName + "] source <-- target: " 
+					+ isSourceFollowedByTarget + ", source blocks target: " + isSourceBlockingTarget);
+		} catch (TwitterException te) {
+			te.printStackTrace();
+		}
+	}
+	
 	public static void main(String[] args) {
 		
 		TwitterCollector collector = new TwitterCollector();
-		String targetUsersFile = Config.getProperty("targetUsersFile");
-		collector.collectTweets(targetUsersFile);
+		//String targetUsersFile = Config.getProperty("targetUsersFile");
+		//collector.collectTweets(targetUsersFile);
 		//collector.collectTargetUsers(targetUsersFile);
+		
+		collector.showFriendship("BarackObama", "ozlemerdemm");
+		
+		
     }	
 }
