@@ -1,0 +1,21 @@
+outcome,y,treatment,trt,count
+death,1,placebo,1,59
+veget. State,2,placebo,1,25
+major disab.,3,placebo,1,46
+minor disab.,4,placebo,1,48
+good recov.,5,placebo,1,32
+death,1,low dose,2,48
+veget. State,2,low dose,2,21
+major disab.,3,low dose,2,44
+minor disab.,4,low dose,2,47
+good recov.,5,low dose,2,30
+death,1,med dose,3,44
+veget. State,2,med dose,3,14
+major disab.,3,med dose,3,54
+minor disab.,4,med dose,3,64
+good recov.,5,med dose,3,31
+death,1,high dose,4,43
+veget. State,2,high dose,4,4
+major disab.,3,high dose,4,49
+minor disab.,4,high dose,4,58
+good recov.,5,high dose,4,41

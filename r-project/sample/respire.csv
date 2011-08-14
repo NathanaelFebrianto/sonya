@@ -1,0 +1,5 @@
+treat,outcome,count
+placebo,1,16
+placebo,0,48
+test,1,40
+test,0,20
