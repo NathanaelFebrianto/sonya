@@ -1,0 +1,13 @@
+treatment,sex,improve,count,response
+active,female,2:marked,16,2
+active,female,1:some,5,1
+active,female,0:none,6,0
+placebo,female,2:marked,6,2
+placebo,female,1:some,7,1
+placebo,female,0:none,19,0
+active,male,2:marked,5,2
+active,male,1:some,2,1
+active,male,0:none,7,0
+placebo,male,2:marked,1,2
+placebo,male,1:some,0,1
+placebo,male,0:none,10,0

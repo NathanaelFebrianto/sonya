@@ -1,0 +1,7 @@
+resp,dose,count
+favorable,1:low,13
+favorable,2:medium,10
+favorable,3:high,10
+unfavorable,1:low,29
+unfavorable,2:medium,4
+unfavorable,3:high,18

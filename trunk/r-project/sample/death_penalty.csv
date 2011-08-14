@@ -1,0 +1,9 @@
+victim,defendant,death,count
+White,White,yes,19
+White,White,no,132
+White,Black,yes,11
+White,Black,no,52
+Black,White,yes,0
+Black,White,no,9
+Black,Black,yes,6
+Black,Black,no,97
