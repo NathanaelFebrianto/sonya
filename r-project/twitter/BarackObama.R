@@ -172,7 +172,7 @@ plot.timeseries.zscore.positive <- function () {
 	
 	# Compute the largest y value used in the data (or we could just use range again)
 	max_y <- max(zscore(df_obama$gallup_approve), 
-			zscore(df_obama$positive_tweet_rate)) + 0.5
+			zscore(df_obama$positive_user_rate)) + 0.5
 	min_y <- min(zscore(df_obama$gallup_approve), 
 			zscore(df_obama$positive_tweet_rate)) - 0.5
 	
@@ -461,5 +461,10 @@ plot.timeseries.sentiment1()
 plot.timeseries.zscore.positive()
 plot.timeseries.zscore.negative()
 plot.timeseries.zscore.gap()
+
+#5/13, 6/29, 6/30, 7/7, 7/8 데이터 이상치 데이터 없는지 확인 
+# SELECT * FROM tweet WHERE target_user = "BarackObama" AND create_date = "2011-06-30 00:00:00"
+# SELECT tweet_text, COUNT(*) FROM tweet WHERE target_user = "BarackObama" AND create_date = "2011-07-07 00:00:00" GROUP BY tweet_text ORDER BY COUNT(*) DESC 
+# 5/13, 4379 -> RT @justinbieber: I think you're wrong. pretty sure President @BarackObama will keep this promise. #payitforward - http://bit.ly/jocrJy
 
 
