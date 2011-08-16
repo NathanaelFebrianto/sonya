@@ -7,6 +7,8 @@ setwd("D:/dev/workspace/r-project/twitter")
 
 df_obama = read.csv("twitter_obama.csv")
 
+library(lmtest)
+
 # Calculate z-score to normalize data.
 zscore <- function (x) {
 	mu = mean(x)
@@ -392,8 +394,7 @@ analysis.eda <- function () {
 
 # Granger Casuality analysis
 analysis.granger.casualty <- function ()  {
-	library(lmtest)
-	
+		
 	grangertest(gallup_approve ~ positive_tweet_rate, order = 1, data = df_obama)
 	grangertest(gallup_approve ~ positive_tweet_rate, order = 2, data = df_obama)
 	grangertest(gallup_approve ~ positive_tweet_rate, order = 3, data = df_obama)
@@ -462,9 +463,22 @@ plot.timeseries.zscore.positive()
 plot.timeseries.zscore.negative()
 plot.timeseries.zscore.gap()
 
-#5/13, 6/29, 6/30, 7/7, 7/8 데이터 이상치 데이터 없는지 확인 
+#5/13, 5/20, 5/24, 6/29, 6/30, 7/4, 7/7, 7/8 데이터 이상치 데이터 없는지 확인 
 # SELECT * FROM tweet WHERE target_user = "BarackObama" AND create_date = "2011-06-30 00:00:00"
 # SELECT tweet_text, COUNT(*) FROM tweet WHERE target_user = "BarackObama" AND create_date = "2011-07-07 00:00:00" GROUP BY tweet_text ORDER BY COUNT(*) DESC 
-# 5/13, 4379 -> RT @justinbieber: I think you're wrong. pretty sure President @BarackObama will keep this promise. #payitforward - http://bit.ly/jocrJy
+#
+# 5/13
+#	4379 --- RT @justinbieber: I think you're wrong. pretty sure President @BarackObama will keep this promise. #payitforward - http://bit.ly/jocrJy
+# 5/20
+# 5/24
+# 6/29
+#	3827 --- RT @justinbieber: glad to help President @BarackObama keep his promise. glad he could be there too. #SWAG  http://twitpic.com/5ie0u1
+# 6/30
+#	2708 --- RT @justinbieber: glad to help President @BarackObama keep his promise. glad he could be there too. #SWAG  http://twitpic.com/5ie0u1
+# 7/4
+#	1873 --- RT @foxnewspolitics: BREAKING NEWS: President @BarackObama assassinated, 2 gunshot wounds have proved too much. It's a sad 4th for #america. #obamadead RIP
+#            <- http://www.munhwa.com/news/view.html?no=2011070501032932301002
+# 7/7
+# 7/8
 
 
