@@ -1,14 +1,8 @@
 package com.nhn.textmining;
 
-import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileReader;
-import java.io.Reader;
-import java.io.StringReader;
-import java.util.Date;
+import java.util.List;
 
-import org.apache.lucene.analysis.kr.KoreanTokenizer;
-import org.apache.lucene.analysis.kr.morph.MorphAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
 import org.apache.lucene.index.IndexWriter;
@@ -29,49 +23,26 @@ public class DocIndexWriter {
 	 * @param ouputDir the index directory that hosts Lucene's index files
 	 * @exception
 	 */
-	public void write(String inputDir, String ouputDir) throws Exception {
-		File fileDir = new File(inputDir);
+	public void write(List<String> texts, String ouputDir) throws Exception {
+
 		FSDirectory indexDir = FSDirectory.open(new File(ouputDir));
 		
-		MorphAnalyzer analyzer = new MorphAnalyzer();
-		KoreanTokenizer tokenizer = new KoreanTokenizer(new StringReader(""));
+		TextAnalyzer analyzer = new TextAnalyzer();
 		
-		IndexWriterConfig iwConfig = new IndexWriterConfig(Version.LUCENE_CURRENT, tokenizer); 
+		IndexWriterConfig iwConfig = new IndexWriterConfig(Version.LUCENE_CURRENT, null); 
 		IndexWriter indexWriter = new IndexWriter(indexDir, iwConfig);
-		File[] textFiles = fileDir.listFiles();
 		
 		// add documents to the index
-		for (int i = 0; i < textFiles.length; i++) {
-			if (textFiles[i].getName().endsWith(".txt")) {
-				logger.info("creating index : " + textFiles[i].getCanonicalPath());
-				
-				Reader textReader = new FileReader(textFiles[i]);
-				
-		        // first line is the user id, rest from 3rd line is the body
-		        BufferedReader reader = new BufferedReader(textReader);
-		        String timeline = reader.readLine();
-		        String userId = reader.readLine();
-		        logger.info("timeline == " + timeline);
-		        logger.info("userId == " + userId);
-		        reader.readLine();// skip an empty line
+		for (int i = 0; i < texts.size(); i++) {
 
-		        StringBuffer bodyBuffer = new StringBuffer(1024);
-		        String line = null;
-		        while ((line = reader.readLine()) != null) {
-		        	bodyBuffer.append(line).append(' ');
-		        }
-		        reader.close();
-		        
-		        logger.info("body == " + bodyBuffer.toString()+ "\n");
-		        
+		        String text = (String) texts.get(i);
 				Document document = new Document();
-				document.add(new Field("user", userId, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
-				document.add(new Field("body", bodyBuffer.toString(), Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.YES));
-				document.add(new Field("path", textFiles[i].getPath(), Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
-				document.add(new Field("timeline", timeline, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
-				document.add(new Field("indexDate", ConvertUtil.convertDateToString("yyyyMMdd", new Date()), Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
+				//document.add(new Field("user", userId, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
+				document.add(new Field("body", text, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.YES));
+				//document.add(new Field("path", textFiles[i].getPath(), Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
+				//document.add(new Field("timeline", timeline, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
+				//document.add(new Field("indexDate", "20110823", Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
 				indexWriter.addDocument(document);
-			}
 		}
 
 		indexWriter.optimize();

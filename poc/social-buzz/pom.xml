@@ -28,10 +28,29 @@
 			<version>3.3.0</version>
 		</dependency>
 
+		<!--  
 		<dependency>
 			<groupId>org.apache.lucene</groupId>
 			<artifactId>lucene-analyzers</artifactId>
 			<version>3.3.0</version>
+		</dependency>
+		-->
+		
+		<!-- Mahout -->
+		<dependency>
+			<groupId>org.apache.mahout</groupId>
+			<artifactId>mahout-core</artifactId>
+			<version>0.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.mahout</groupId>
+			<artifactId>mahout-examples</artifactId>
+			<version>0.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.mahout</groupId>
+			<artifactId>mahout-utils</artifactId>
+			<version>0.5</version>
 		</dependency>
 
 

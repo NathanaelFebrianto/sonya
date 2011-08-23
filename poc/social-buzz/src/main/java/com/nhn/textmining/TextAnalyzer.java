@@ -15,7 +15,7 @@ public class TextAnalyzer {
 	public TextAnalyzer() {
 		
 	}
-	
+
 	public Vector extractTerms(String text) {
 		Vector<String> terms = new Vector<String>();
 		

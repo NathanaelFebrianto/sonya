@@ -5,6 +5,9 @@ import java.io.UnsupportedEncodingException;
 import java.net.URL;
 import java.net.URLConnection;
 import java.net.URLEncoder;
+import java.util.ArrayList;
+import java.util.Hashtable;
+import java.util.List;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -14,6 +17,7 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
+import com.nhn.textmining.DocIndexWriter;
 import com.nhn.textmining.TextAnalyzer;
 
 public class Me2dayDataCollector {
@@ -44,16 +48,33 @@ public class Me2dayDataCollector {
 		return doc;
 	}
 	
-	public void searchPosts(String query, String target, String beginTime, String endTime, int maxPage) {
+	public List<String> searchPosts(String query, String target, String beginTime, String endTime, int maxPage) {
 		if (maxPage <= 0) {
-			searchPostsByPage(query, target, beginTime, endTime, maxPage);
+			Hashtable result = searchPostsByPage(query, target, beginTime, endTime, maxPage);
+			if (result == null)
+				return null; 
+		
+			int resultCount = new Integer((String)result.get("count")).intValue();
+			List<String> list = (List<String>) result.get("list");
+			return list;
 		}
 		
+		List<String> allList = new ArrayList<String>();
+		
 		for (int page = 1; page <= maxPage; page++) {
-			int resultCount = searchPostsByPage(query, target, beginTime, endTime, page);
+			Hashtable result = searchPostsByPage(query, target, beginTime, endTime, page);
+			if (result == null)
+				return null; 
+			
+			int resultCount = (Integer) result.get("count");
+			List<String> list = (List<String>) result.get("list");
+			allList.addAll(list);
+			
 			if (resultCount < 19)
-				break;
-		}		
+				break;			
+		}
+		
+		return allList;
 	}
 	
 	/**
@@ -64,13 +85,16 @@ public class Me2dayDataCollector {
 	 * @param beginTime the "yyyy.mm.dd"
 	 * @param endTime the "yyyy.mm.dd
 	 * @param page the specified page
-	 * @return int the result count
+	 * @return Hashtable the result count and list
 	 */
-	public int searchPostsByPage(String query, String target, String beginTime, String endTime, int page) {
+	public Hashtable<String, Object> searchPostsByPage(String query, String target, String beginTime, String endTime, int page) {
 		StringBuffer url = new StringBuffer().append("http://me2day.net/search.xml?");
 		
+		Hashtable<String, Object> result = new Hashtable<String, Object>();
+		ArrayList<String> list = new ArrayList<String>();
+		
 		if (query == null) 
-			return 0;
+			return null;
 		
 		System.out.println("============================================");
 		System.out.println("page == " + page);
@@ -115,8 +139,10 @@ public class Me2dayDataCollector {
 					Node textBody_node = post_element.getElementsByTagName("textBody").item(0);
 					System.out.println(textBody_node.getNodeName() + " == " + textBody_node.getTextContent());
 					
+					// just for test
 					TextAnalyzer analyzer = new TextAnalyzer();
 					analyzer.extractTerms(textBody_node.getTextContent());
+					///////////////////////
 					
 					Node tagText_node = post_element.getElementsByTagName("tagText").item(0);
 					System.out.println(tagText_node.getNodeName() + " == " + tagText_node.getTextContent());
@@ -155,13 +181,19 @@ public class Me2dayDataCollector {
 					if (metooCount > 0) {
 						this.getMetoos(post_id_node.getTextContent());
 					}
+					
+					list.add(textBody_node.getTextContent());
 				}
 			}
-			return resultCount;			
+			result.put("count", resultCount);
+			result.put("list", list);
+			
+			return result;
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		return 0;
+		return null;
 	}
 	
 	/**
@@ -318,7 +350,10 @@ public class Me2dayDataCollector {
 		try {
 			Me2dayDataCollector collector = new Me2dayDataCollector();
 	
-			collector.searchPosts("무한도전", "all", "2011.08.13", "2011.08.14", 1);			
+			List<String> texts = collector.searchPosts("무한도전", "all", "2011.08.13", "2011.08.14", 1);
+			
+			DocIndexWriter indexWriter = new DocIndexWriter();
+			indexWriter.write(texts, "D:/test/");
 			
 		} catch (Exception e) {
 			e.printStackTrace();
