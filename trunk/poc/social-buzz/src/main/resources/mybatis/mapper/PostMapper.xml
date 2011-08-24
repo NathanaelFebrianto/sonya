@@ -85,7 +85,7 @@
 			, #{icon}
 			, #{tagText}
 			, #{me2dayPage}
-			, #{publishDate,jdbcType=DATE}
+			, #{publishDate}
 			, #{commentCount,javaType=int,jdbcType=NUMERIC}
 			, #{metooCount,javaType=int,jdbcType=NUMERIC}
 			, #{iconUrl}
@@ -117,7 +117,7 @@
 			<if test="publishDate != null">publish_date = #{publishDate},</if>
 			<if test="commentCount != 0">comment_count = #{commentCount},</if>
 			<if test="metooCount != 0">metoo_count = #{metooCount},</if>
-			<if test="iconUrl != null">iconUrl = #{iconUrl},</if>
+			<if test="iconUrl != null">icon_url = #{iconUrl},</if>
 			<if test="callbackUrl != null">callback_url = #{callbackUrl},</if>
 			<if test="authorId != null">author_id = #{authorId},</if>
 			<if test="authorNickname != null">author_nickname = #{authorNickname},</if>

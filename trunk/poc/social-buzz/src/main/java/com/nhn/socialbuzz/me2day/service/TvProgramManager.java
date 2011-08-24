@@ -10,6 +10,6 @@ import com.nhn.socialbuzz.me2day.model.TvProgram;
  */
 public interface TvProgramManager extends GenericManager {
 
-	public TvProgram getProgram(TvProgram progrma);
+	public TvProgram getProgram(String programId);
 	
 }
