@@ -77,7 +77,7 @@
 			, update_date		
 		)
 		VALUES (
-			#{prostId}
+			#{postId}
 			, #{programId}
 			, #{permalink}
 			, #{body}
@@ -86,8 +86,8 @@
 			, #{tagText}
 			, #{me2dayPage}
 			, #{publishDate,jdbcType=DATE}
-			, #{commentCount,javaType=long,jdbcType=NUMERIC}
-			, #{metooCount,javaType=long,jdbcType=NUMERIC}
+			, #{commentCount,javaType=int,jdbcType=NUMERIC}
+			, #{metooCount,javaType=int,jdbcType=NUMERIC}
 			, #{iconUrl}
 			, #{callbackUrl}
 			, #{authorId}
