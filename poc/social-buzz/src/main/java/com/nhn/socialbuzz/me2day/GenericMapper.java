@@ -1,13 +1,9 @@
-/*
- * Copyright (c) 2011, Young-Gue Bae
- * All rights reserved.
- */
-package com.beeblz.twitter.io;
+package com.nhn.socialbuzz.me2day;
 
 /**
  * A interface for generic mapper.
  * 
- * @author Young-Gue Bae
+ * @author Younggue Bae
  */
 public interface GenericMapper {
 	

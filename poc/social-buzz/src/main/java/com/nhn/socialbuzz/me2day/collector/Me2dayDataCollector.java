@@ -1,4 +1,4 @@
-package com.nhn.me2day.collector;
+package com.nhn.socialbuzz.me2day.collector;
 
 import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
@@ -17,8 +17,8 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
-import com.nhn.textmining.DocIndexWriter;
-import com.nhn.textmining.TextAnalyzer;
+import com.nhn.socialbuzz.textmining.DocIndexWriter;
+import com.nhn.socialbuzz.textmining.TextAnalyzer;
 
 public class Me2dayDataCollector {
 	

@@ -1,4 +1,4 @@
-package com.nhn.textmining;
+package com.nhn.socialbuzz.textmining;
 
 import java.io.File;
 import java.util.List;

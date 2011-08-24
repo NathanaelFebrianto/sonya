@@ -1,15 +1,12 @@
-/*
- * Copyright (c) 2011, Young-Gue Bae
- * All rights reserved.
- */
-package com.beeblz.twitter.io;
+package com.nhn.socialbuzz.me2day;
 
 import org.apache.ibatis.session.SqlSessionFactory;
+
 
 /**
  * A implementation for generic manager.
  * 
- * @author Young-Gue Bae
+ * @author Younggue Bae
  */
 public class GenericManagerImpl implements GenericManager {
     

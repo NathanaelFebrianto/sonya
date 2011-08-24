@@ -1,10 +1,10 @@
-package com.nhn.me2day;
+package com.nhn.socialbuzz.me2day;
 
 
 /**
  * A interface for generic manager.
  * 
- * @author Young-Gue Bae
+ * @author Younggue Bae
  */
 public interface GenericManager {
 

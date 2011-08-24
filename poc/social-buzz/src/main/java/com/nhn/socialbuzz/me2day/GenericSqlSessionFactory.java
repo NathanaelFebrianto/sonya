@@ -1,8 +1,4 @@
-/*
- * Copyright (c) 2011, Young-Gue Bae
- * All rights reserved.
- */
-package com.beeblz.twitter.io;
+package com.nhn.socialbuzz.me2day;
 
 import java.io.Reader;
 

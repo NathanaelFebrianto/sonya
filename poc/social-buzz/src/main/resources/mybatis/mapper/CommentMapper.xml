@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.nhn.socialbuzz.me2day.dao.CommentMapper">
+
+	<resultMap id="commentResultMap" type="com.nhn.socialbuzz.me2day.model.Comment">
+		<id property="postId" column="post_id" />
+		<result property="commentId" column="comment_id" />
+		<result property="authorId" column="author_id" />
+		<result property="authorNickname" column="author_nickname" />
+		<result property="body" column="body" />
+		<result property="textBody" column="text_body" />
+		<result property="publishDate" column="publish_date" />
+		<result property="authorProfileImage" column="author_profile_image" />
+		<result property="authorMe2dayHome" column="author_me2day_home" />
+		<result property="positive" column="positive" />
+		<result property="negative" column="negative" />
+		<result property="registerDate" column="register_date" />
+		<result property="updateDate" column="update_date" />
+	</resultMap>
+
+	<select id="selectComments" parameterType="com.nhn.socialbuzz.me2day.model.Comment" resultMap="commentResultMap">
+		SELECT *
+		FROM comment
+		WHERE 1 = 1
+		<if test="postId != null">
+			AND post_id = #{postId}
+		</if>
+		<if test="programId != null">
+		AND post_id IN (
+		SELECT post_id FROM post
+		WHERE program_id = #{programId}
+		</if>
+		<if test="publishDate != null">
+			AND publish_date >= #{publishDate}
+		</if>
+		<if test="registerDate != null">
+			AND register_date >= #{registerDate}
+		</if>
+		)
+	</select>
+
+	<insert id="insertComment" parameterType="com.nhn.socialbuzz.me2day.model.Comment">
+		INSERT INTO comment (
+			post_id
+			, comment_id
+			, author_id
+			, author_nickname
+			, body
+			, text_body
+			, publish_date
+			, author_profile_image
+			, author_me2day_home
+			, positive
+			, negative
+			, register_date
+			, update_date		
+		)
+		VALUES (
+			#{prostId}
+			, #{commentId}
+			, #{authorId}
+			, #{authorNickname}
+			, #{body}
+			, #{textBody}
+			, #{publishDate,jdbcType=DATE}
+			, #{authorProfileImage}
+			, #{authorMe2dayHome}
+			, #{positive,javaType=double,jdbcType=DOUBLE}
+			, #{negative,javaType=double,jdbcType=DOUBLE}
+			, NOW()
+			, NOW()
+		)
+	</insert>
+
+	<delete id="deleteComments" parameterType="com.nhn.socialbuzz.me2day.model.Comment">
+		DELETE FROM comment
+		WHERE post_id = #{postId}
+	</delete>
+
+</mapper>

@@ -1,4 +1,4 @@
-package com.nhn.textmining;
+package com.nhn.socialbuzz.textmining;
 
 import java.io.IOException;
 import java.io.StringReader;
