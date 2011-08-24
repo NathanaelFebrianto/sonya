@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.nhn.socialbuzz.me2day.dao.MetooMapper">
+
+	<resultMap id="metooResultMap" type="com.nhn.socialbuzz.me2day.model.Metoo">
+		<id property="postId" column="post_id" />
+		<result property="authorId" column="author_id" />
+		<result property="authorNickname" column="author_nickname" />
+		<result property="authorProfileImage" column="author_profile_image" />
+		<result property="authorMe2dayHome" column="author_me2day_home" />
+		<result property="publishDate" column="publish_date" />
+		<result property="registerDate" column="register_date" />
+		<result property="updateDate" column="update_date" />
+	</resultMap>
+
+	<select id="selectMetoos" parameterType="com.nhn.socialbuzz.me2day.model.Metoo" resultMap="metooResultMap">
+		SELECT *
+		FROM metoo
+		WHERE 1 = 1
+		<if test="postId != null">
+			AND post_id = #{postId}
+		</if>
+		<if test="programId != null">
+		AND post_id IN (
+		SELECT post_id FROM post
+		WHERE program_id = #{programId}
+		</if>
+		<if test="publishDate != null">
+			AND publish_date >= #{publishDate}
+		</if>
+		<if test="registerDate != null">
+			AND register_date >= #{registerDate}
+		</if>
+		)
+	</select>
+
+	<insert id="insertMetoo" parameterType="com.nhn.socialbuzz.me2day.model.Metoo">
+		INSERT INTO metoo (
+			post_id
+			, author_id
+			, author_nickname
+			, author_profile_image
+			, author_me2day_home
+			, publish_date
+			, register_date
+			, update_date		
+		)
+		VALUES (
+			#{prostId}
+			, #{authorId}
+			, #{authorNickname}
+			, #{authorProfileImage}
+			, #{authorMe2dayHome}
+			, #{publishDate,jdbcType=DATE}
+			, NOW()
+			, NOW()
+		)
+	</insert>
+
+	<delete id="deleteMetoos" parameterType="com.nhn.socialbuzz.me2day.model.Metoo">
+		DELETE FROM metoo
+		WHERE post_id = #{postId}
+	</delete>
+
+</mapper>

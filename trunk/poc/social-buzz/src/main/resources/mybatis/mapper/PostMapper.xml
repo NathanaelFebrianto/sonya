@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.nhn.socialbuzz.me2day.dao.PostMapper">
+
+	<resultMap id="postResultMap" type="com.nhn.socialbuzz.me2day.model.Post">
+		<id property="postId" column="post_id" />
+		<result property="programId" column="program_id" />
+		<result property="permalink" column="permalink" />
+		<result property="body" column="body" />
+		<result property="textBody" column="text_body" />
+		<result property="icon" column="icon" />
+		<result property="tagText" column="tag_text" />
+		<result property="me2dayPage" column="me2day_page" />
+		<result property="publishDate" column="publish_date" />
+		<result property="commentCount" column="comment_count" />
+		<result property="metooCount" column="metoo_count" />
+		<result property="iconUrl" column="icon_url" />
+		<result property="callbackUrl" column="callback_url" />
+		<result property="authorId" column="author_id" />
+		<result property="authorNickname" column="author_nickname" />
+		<result property="authorProfileImage" column="author_profile_image" />
+		<result property="authorMe2dayHome" column="author_me2day_home" />
+		<result property="authorLocation" column="author_location" />
+		<result property="postPositive" column="post_positive" />
+		<result property="postNegative" column="post_negative" />
+		<result property="tagPositive" column="tag_positive" />
+		<result property="tagNegative" column="tag_negative" />
+		<result property="registerDate" column="register_date" />
+		<result property="updateDate" column="update_date" />
+	</resultMap>
+
+	<select id="selectPosts" parameterType="com.nhn.socialbuzz.me2day.model.Post" resultMap="postResultMap">
+		SELECT *
+		FROM post
+		WHERE 1 = 1
+		<if test="postId != null">
+			AND post_id = #{postId}
+		</if>
+		<if test="programId != null">
+			AND program_id = #{programId}
+		</if>
+		<if test="publishDate != null">
+			AND publish_date >= #{publishDate}
+		</if>
+		<if test="registerDate != null">
+			AND register_date >= #{registerDate}
+		</if>
+	</select>
+
+	<insert id="insertPost" parameterType="com.nhn.socialbuzz.me2day.model.Post">
+		INSERT INTO post (
+			post_id
+			, program_id
+			, permalink
+			, body
+			, text_body
+			, icon
+			, tag_text
+			, me2day_page
+			, publish_date
+			, comment_count
+			, metoo_count
+			, icon_url
+			, callback_url
+			, author_id
+			, author_nickname
+			, author_profile_image
+			, author_me2day_home
+			, author_location
+			, post_positive
+			, post_negative
+			, tag_positive			
+			, tag_negative
+			, register_date
+			, update_date		
+		)
+		VALUES (
+			#{prostId}
+			, #{programId}
+			, #{permalink}
+			, #{body}
+			, #{textBody}
+			, #{icon}
+			, #{tagText}
+			, #{me2dayPage}
+			, #{publishDate,jdbcType=DATE}
+			, #{commentCount,javaType=long,jdbcType=NUMERIC}
+			, #{metooCount,javaType=long,jdbcType=NUMERIC}
+			, #{iconUrl}
+			, #{callbackUrl}
+			, #{authorId}
+			, #{authorNickname}
+			, #{authorProfileImage}
+			, #{authorMe2dayHome}
+			, #{authorLocation}
+			, #{postPositive,javaType=double,jdbcType=DOUBLE}
+			, #{postNegative,javaType=double,jdbcType=DOUBLE}
+			, #{tagPositive,javaType=double,jdbcType=DOUBLE}
+			, #{tagNegative,javaType=double,jdbcType=DOUBLE}
+			, NOW()
+			, NOW()
+		)
+	</insert>
+	
+	<update id="updatePost" parameterType="com.nhn.socialbuzz.me2day.model.Post">
+		UPDATE post
+		<set>
+			<if test="programId != null">program_id = #{programId},</if>
+			<if test="permalink != null">permalink = #{permalink},</if>
+			<if test="body != null">body = #{body},</if>
+			<if test="textBody != null">text_body = #{textBody},</if>
+			<if test="icon != null">icon = #{icon},</if>
+			<if test="tagText != null">tag_text = #{tagText},</if>
+			<if test="me2dayPage != null">me2day_page = #{me2dayPage},</if>
+			<if test="publishDate != null">publish_date = #{publishDate},</if>
+			<if test="commentCount != 0">comment_count = #{commentCount},</if>
+			<if test="metooCount != 0">metoo_count = #{metooCount},</if>
+			<if test="iconUrl != null">iconUrl = #{iconUrl},</if>
+			<if test="callbackUrl != null">callback_url = #{callbackUrl},</if>
+			<if test="authorId != null">author_id = #{authorId},</if>
+			<if test="authorNickname != null">author_nickname = #{authorNickname},</if>
+			<if test="authorProfileImage != null">author_profile_image = #{authorProfileImage},</if>
+			<if test="authorMe2dayHome != null">author_me2day_home = #{authorMe2dayHome},</if>
+			<if test="authorLocation != null">author_location = #{authorLocation},</if>
+			<if test="postPositive != 0">post_positive = #{postPositive},</if>
+			<if test="postNegative != 0">post_negative = #{postNegative},</if>
+			<if test="tagPositive != 0">tag_positive = #{tagPositive},</if>
+			<if test="tagNegative != 0">tag_negative = #{tagNegative},</if>
+			update_date = NOW()
+		</set>			
+		WHERE
+			post_id = #{postId}
+	</update>
+
+</mapper>

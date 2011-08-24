@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.nhn.socialbuzz.me2day.dao.TvProgramMapper">
+
+	<resultMap id="tvProgramResultMap" type="com.nhn.socialbuzz.me2day.model.TvProgram">
+		<id property="programId" column="program_id" />
+		<result property="title" column="title" />
+		<result property="category" column="category" />
+		<result property="channel" column="channel" />
+		<result property="description" column="description" />
+		<result property="imageUrl" column="image_url" />
+		<result property="airCycle" column="air_cycle" />
+		<result property="airStartTime" column="air_start_time" />
+		<result property="airEndTime" column="air_end_time" />
+		<result property="emcee" column="emcee" />
+		<result property="actors" column="actors" />
+		<result property="produceCompany" column="produce_company" />
+		<result property="producers" column="producers" />
+		<result property="homepage" column="homepage" />
+		<result property="watchRate" column="watch_rate" />
+		<result property="searchKeywords" column="search_keywords" />
+	</resultMap>
+
+	<select id="selectProgram" parameterType="com.nhn.socialbuzz.me2day.model.TvProgram" resultMap="tvProgramResultMap">
+		SELECT *
+		FROM tv_program
+		WHERE 1 = 1
+		<if test="programId != null">
+			AND program_id = #{programId}
+		</if>
+	</select>
+
+</mapper>
