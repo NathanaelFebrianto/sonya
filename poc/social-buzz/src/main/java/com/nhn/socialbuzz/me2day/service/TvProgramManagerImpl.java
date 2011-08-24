@@ -15,9 +15,12 @@ public class TvProgramManagerImpl extends GenericManagerImpl implements TvProgra
 
     public TvProgramManagerImpl() { }
 	
-	public TvProgram getProgram(TvProgram program) {
+	public TvProgram getProgram(String programId) {
 		SqlSession session = sqlSessionFactory.openSession();
     	try {
+    		TvProgram program = new TvProgram();
+    		program.setProgramId(programId);
+    		
     		TvProgramMapper mapper = session.getMapper(TvProgramMapper.class);
     		TvProgram result = mapper.selectProgram(program);
     		return result;

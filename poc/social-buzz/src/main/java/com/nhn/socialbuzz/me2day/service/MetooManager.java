@@ -16,6 +16,6 @@ public interface MetooManager extends GenericManager {
 
 	public void addMetoo(Metoo metoo);
 	
-	public void deleteMetoos(Metoo metoo);
+	public void deleteMetoos(String postId);
 	
 }

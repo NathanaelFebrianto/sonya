@@ -6,8 +6,11 @@ import java.net.URL;
 import java.net.URLConnection;
 import java.net.URLEncoder;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.Hashtable;
 import java.util.List;
+import java.util.Locale;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -17,7 +20,10 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
+import com.nhn.socialbuzz.me2day.model.Comment;
+import com.nhn.socialbuzz.me2day.model.Metoo;
 import com.nhn.socialbuzz.me2day.model.Post;
+import com.nhn.socialbuzz.me2day.model.TvProgram;
 import com.nhn.socialbuzz.me2day.service.CommentManager;
 import com.nhn.socialbuzz.me2day.service.CommentManagerImpl;
 import com.nhn.socialbuzz.me2day.service.MetooManager;
@@ -63,7 +69,21 @@ public class Me2dayDataCollector {
 		return doc;
 	}
 	
+	private Date convertDate(String publishDate) {
+		int year = Integer.parseInt(publishDate.substring(0, 4));
+		int month = Integer.parseInt(publishDate.substring(5, 7))-1;
+		int date = Integer.parseInt(publishDate.substring(8, 10));
+		int hourOfDay = Integer.parseInt(publishDate.substring(11, 13));
+		int minute = Integer.parseInt(publishDate.substring(14, 16));
+		int second = Integer.parseInt(publishDate.substring(17, 19));
+		Calendar cal = Calendar.getInstance(Locale.KOREA);
+		cal.set(year, month, date, hourOfDay, minute, second);
+		return cal.getTime();
+	}
+	
 	public List<Post> searchPosts(String programId, String query, String target, String beginTime, String endTime, int maxPage) {
+		System.out.println("query == " + query);
+		
 		if (maxPage <= 0) {
 			Hashtable result = searchPostsByPage(programId, query, target, beginTime, endTime, maxPage);
 			if (result == null)
@@ -77,7 +97,7 @@ public class Me2dayDataCollector {
 		List<Post> allList = new ArrayList<Post>();
 		
 		for (int page = 1; page <= maxPage; page++) {
-			Hashtable result = searchPostsByPage(programId, query, target, beginTime, endTime, page);
+			Hashtable<String, Object> result = searchPostsByPage(programId, query, target, beginTime, endTime, page);
 			if (result == null)
 				return null; 
 			
@@ -190,8 +210,8 @@ public class Me2dayDataCollector {
 						
 						Node pubDate_node = post_element.getElementsByTagName("pubDate").item(0);
 						String pubDate = pubDate_node.getTextContent();
-						//post.setPublishDate(new Date(pubDate));
-						System.out.println(pubDate_node.getNodeName() + " == " + pubDate);
+						post.setPublishDate(this.convertDate(pubDate));
+						System.out.println(pubDate_node.getNodeName() + " == " + pubDate + " -> " + post.getPublishDate());
 						
 						Node commentsCount_node = post_element.getElementsByTagName("commentsCount").item(0);
 						int commentCount = Integer.parseInt(commentsCount_node.getTextContent());
@@ -239,16 +259,25 @@ public class Me2dayDataCollector {
 							System.out.println(author_me2dayHome_node.getNodeName() + " == " + authorMe2dayHome);
 						}
 						
+						///////////////////////////////////////
 						// insert post into database
-						postManager.addPost(post);
+						//////////////////////////////////////
+						List<Post> exists = postManager.getPosts(post);
+						if (exists != null && exists.size() > 0) {
+							postManager.setPost(post);
+						} else {
+							postManager.addPost(post);
+						}
 						
 						// get comments
 						if (commentCount > 0) {
+							commentManager.deleteComments(postId);
 							this.collectComments(postId);
 						}
 						
 						// get metoos
 						if (metooCount > 0) {
+							metooManager.deleteMetoos(postId);
 							this.collectMetoos(postId);
 						}
 						
@@ -289,8 +318,8 @@ public class Me2dayDataCollector {
 		if (postId != null)
 			url.append("post_id=").append(postId);
 		
-		System.out.println("url == " + url.toString());
-		
+		System.out.println("url == " + url.toString());		
+	
 		try {
 			Document doc = getDocument(url.toString());
 			
@@ -307,9 +336,9 @@ public class Me2dayDataCollector {
 			
 			int resultCount = comment_list.getLength();
 			
-			System.out.println(page_node.getNodeName() + " == " + page_node.getTextContent());
-			System.out.println(postAuthorId_node.getNodeName() + " == " + postAuthorId_node.getTextContent());
-			System.out.println(postAuthorNickname_node.getNodeName() + " == " + postAuthorNickname_node.getTextContent());
+			System.out.println(page_node.getNodeName() + " == " + page_node.getTextContent());			
+			System.out.println(postAuthorId_node.getNodeName() + " == " + postAuthorId_node.getTextContent());			
+			System.out.println(postAuthorNickname_node.getNodeName() + " == " + postAuthorNickname_node.getTextContent());			
 			System.out.println(totalCount_node.getNodeName() + " == " + totalCount_node.getTextContent());
 			System.out.println(totalPage_node.getNodeName() + " == " + totalPage_node.getTextContent());
 			System.out.println(itemsPerPage_node.getNodeName() + " == " + itemsPerPage_node.getTextContent());
@@ -317,35 +346,73 @@ public class Me2dayDataCollector {
 			System.out.println("# of comments == " + resultCount);
 			
 			for (int i = 0; i < comment_list.getLength(); i++) {
-				Node comment_node = comment_list.item(i);
-				if (comment_node.getNodeType() == Node.ELEMENT_NODE) {
-					Element comment_element = (Element) comment_node;
-
-					Node commentId_node = comment_element.getElementsByTagName("commentId").item(0);
-					System.out.println(commentId_node.getNodeName() + " == " + commentId_node.getTextContent());
+				try {
+					Comment comment = new Comment();
+					comment.setPostId(postId);
 					
-					Node textBody_node = comment_element.getElementsByTagName("textBody").item(0);
-					System.out.println(textBody_node.getNodeName() + " == " + textBody_node.getTextContent());
-					
-					Node pubDate_node = comment_element.getElementsByTagName("pubDate").item(0);
-					System.out.println(pubDate_node.getNodeName() + " == " + pubDate_node.getTextContent());
-					
-					Node author_node = comment_element.getElementsByTagName("author").item(0);
-					if (author_node.getNodeType() == Node.ELEMENT_NODE) {
-						Element author_element = (Element) author_node;
+					Node comment_node = comment_list.item(i);
+					if (comment_node.getNodeType() == Node.ELEMENT_NODE) {
+						Element comment_element = (Element) comment_node;
+	
+						Node commentId_node = comment_element.getElementsByTagName("commentId").item(0);
+						String commentId = commentId_node.getTextContent();
+						comment.setCommentId(commentId);
+						System.out.println(commentId_node.getNodeName() + " == " + commentId);
 						
-						Node author_id_node = author_element.getElementsByTagName("id").item(0);
-						System.out.println(author_id_node.getNodeName() + " == " + author_id_node.getTextContent());
+						Node body_node = comment_element.getElementsByTagName("body").item(0);
+						String body = body_node.getTextContent();
+						comment.setBody(body);
+						System.out.println(body_node.getNodeName() + " == " + body);
 						
-						Node author_nickname_node = author_element.getElementsByTagName("nickname").item(0);
-						System.out.println(author_nickname_node.getNodeName() + " == " + author_nickname_node.getTextContent());
+						Node textBody_node = comment_element.getElementsByTagName("textBody").item(0);
+						String textBody = textBody_node.getTextContent();
+						comment.setTextBody(textBody);
+						System.out.println(textBody_node.getNodeName() + " == " + textBody);
 						
-						Node author_face_node = author_element.getElementsByTagName("face").item(0);
-						System.out.println(author_face_node.getNodeName() + " == " + author_face_node.getTextContent());
+						Node pubDate_node = comment_element.getElementsByTagName("pubDate").item(0);
+						String pubDate = pubDate_node.getTextContent();
+						comment.setPublishDate(this.convertDate(pubDate));
+						System.out.println(pubDate_node.getNodeName() + " == " + pubDate + " -> " + comment.getPublishDate());
+						
+						Node author_node = comment_element.getElementsByTagName("author").item(0);
+						if (author_node.getNodeType() == Node.ELEMENT_NODE) {
+							Element author_element = (Element) author_node;
+							
+							Node author_id_node = author_element.getElementsByTagName("id").item(0);
+							String authorId = author_id_node.getTextContent();
+							comment.setAuthorId(authorId);
+							System.out.println(author_id_node.getNodeName() + " == " + authorId);
+							
+							Node author_nickname_node = author_element.getElementsByTagName("nickname").item(0);
+							String authorNickname = author_nickname_node.getTextContent();
+							comment.setAuthorNickname(authorNickname);
+							System.out.println(author_nickname_node.getNodeName() + " == " + authorNickname);
+							
+							Node author_face_node = author_element.getElementsByTagName("face").item(0);
+							String authorProfileImage = author_face_node.getTextContent();
+							comment.setAuthorProfileImage(authorProfileImage);
+							System.out.println(author_face_node.getNodeName() + " == " + authorProfileImage);
+							
+							Node me2dayHome_node = author_element.getElementsByTagName("me2dayHome").item(0);
+							String authorMe2dayHome = me2dayHome_node.getTextContent();
+							comment.setAuthorMe2dayHome(authorMe2dayHome);
+							System.out.println(me2dayHome_node.getNodeName() + " == " + authorMe2dayHome);
+						}
 					}
+					
+					///////////////////////////////////////
+					// insert comment into database
+					//////////////////////////////////////
+					commentManager.addComment(comment);
+					
+				} catch (Exception ee) {
+					ee.printStackTrace();
 				}
-			}
-			return resultCount;			
+				
+			} // end for
+			
+			return resultCount;	
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -393,41 +460,88 @@ public class Me2dayDataCollector {
 			System.out.println("# of metoos == " + resultCount);
 			
 			for (int i = 0; i < metoo_list.getLength(); i++) {
-				Node metoo_node = metoo_list.item(i);
-				if (metoo_node.getNodeType() == Node.ELEMENT_NODE) {
-					Element metoo_element = (Element) metoo_node;
-
-					Node pubDate_node = metoo_element.getElementsByTagName("pubDate").item(0);
-					System.out.println(pubDate_node.getNodeName() + " == " + pubDate_node.getTextContent());
+				try {
+					Metoo metoo = new Metoo();
+					metoo.setPostId(postId);				
 					
-					Node author_node = metoo_element.getElementsByTagName("author").item(0);
-					if (author_node.getNodeType() == Node.ELEMENT_NODE) {
-						Element author_element = (Element) author_node;
+					Node metoo_node = metoo_list.item(i);
+					if (metoo_node.getNodeType() == Node.ELEMENT_NODE) {
+						Element metoo_element = (Element) metoo_node;
+	
+						Node pubDate_node = metoo_element.getElementsByTagName("pubDate").item(0);
+						String pubDate = pubDate_node.getTextContent();
+						metoo.setPublishDate(this.convertDate(pubDate));
+						System.out.println(pubDate_node.getNodeName() + " == " + pubDate + " -> " + metoo.getPublishDate());
 						
-						Node author_id_node = author_element.getElementsByTagName("id").item(0);
-						System.out.println(author_id_node.getNodeName() + " == " + author_id_node.getTextContent());
-						
-						Node author_nickname_node = author_element.getElementsByTagName("nickname").item(0);
-						System.out.println(author_nickname_node.getNodeName() + " == " + author_nickname_node.getTextContent());
-						
-						Node author_face_node = author_element.getElementsByTagName("face").item(0);
-						System.out.println(author_face_node.getNodeName() + " == " + author_face_node.getTextContent());
+						Node author_node = metoo_element.getElementsByTagName("author").item(0);
+						if (author_node.getNodeType() == Node.ELEMENT_NODE) {
+							Element author_element = (Element) author_node;
+							
+							Node author_id_node = author_element.getElementsByTagName("id").item(0);
+							String authorId = author_id_node.getTextContent();
+							metoo.setAuthorId(authorId);
+							System.out.println(author_id_node.getNodeName() + " == " + authorId);					
+							
+							Node author_nickname_node = author_element.getElementsByTagName("nickname").item(0);
+							String authorNickname = author_nickname_node.getTextContent();
+							metoo.setAuthorNickname(authorNickname);
+							System.out.println(author_nickname_node.getNodeName() + " == " + authorNickname);
+							
+							Node author_face_node = author_element.getElementsByTagName("face").item(0);
+							String authorProfileImage = author_face_node.getTextContent();
+							metoo.setAuthorProfileImage(authorProfileImage);
+							System.out.println(author_face_node.getNodeName() + " == " + authorProfileImage);
+							
+							Node me2dayHome_node = author_element.getElementsByTagName("me2dayHome").item(0);
+							String authorMe2dayHome = me2dayHome_node.getTextContent();
+							metoo.setAuthorMe2dayHome(authorMe2dayHome);
+							System.out.println(me2dayHome_node.getNodeName() + " == " + authorMe2dayHome);
+						}
 					}
+										
+					///////////////////////////////////////
+					// insert metoo into database
+					//////////////////////////////////////
+					metooManager.addMetoo(metoo);
+					
+				} catch (Exception ee) {
+					ee.printStackTrace();
 				}
-			}
-			return resultCount;			
+				
+			} // end for
+			
+			return resultCount;
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		return 0;
 	}
 	
+	public void execute() {
+		try {
+			String programId = "1";
+			TvProgram program = tvProgramManager.getProgram(programId);
+			System.out.println("title == " + program.getTitle());
+			System.out.println("search keywords == " + program.getSearchKeywords());
+			
+			List<String> keywords = program.extractSearchKeywords();
+			
+			System.out.println("search keywords == " + keywords.size());
+			
+			for (String keyword : keywords) {				
+				List<Post> texts = this.searchPosts(programId, keyword, "all", "2011.08.13", "2011.08.14", 30);					
+			}
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}		
+	}
+	
 	public static void main(String[] args) {
 		try {
 			Me2dayDataCollector collector = new Me2dayDataCollector();
-	
-			List<Post> texts = collector.searchPosts("1", "무한도전", "all", "2011.08.13", "2011.08.14", 50);			
-			
+			collector.execute();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

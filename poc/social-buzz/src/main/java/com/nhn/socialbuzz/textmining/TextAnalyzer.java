@@ -10,6 +10,10 @@ import org.apache.lucene.analysis.kr.KoreanTokenizer;
 import org.apache.lucene.analysis.kr.morph.AnalysisOutput;
 import org.apache.lucene.analysis.kr.morph.MorphAnalyzer;
 
+import com.nhn.socialbuzz.me2day.model.Post;
+import com.nhn.socialbuzz.me2day.service.PostManager;
+import com.nhn.socialbuzz.me2day.service.PostManagerImpl;
+
 public class TextAnalyzer {
 	
 	public TextAnalyzer() {
@@ -25,9 +29,10 @@ public class TextAnalyzer {
 
 		try {
 			while ((token = tokenizer.next()) != null) {
-				//if (!token.type().equals("<KOREAN>"))
-				//	continue;
-
+				/*
+				if (!token.type().equals("<KOREAN>"))
+					continue;
+				*/
 				try {
 					analyzer.setExactCompound(false);
 					
@@ -73,9 +78,20 @@ public class TextAnalyzer {
 	}
 	
 	public static void main(String[] args) {
-		String text = "[연예] '무도' 음원 주간 다운로드 총 800만 건 : MBC TV '무한도전'의 '서해안 고속도로 가요제'가 발표한 음원들이 주간 종합 다운로드 차트 집계에서 총 800만 건을 넘겼고, 그중 지-드래곤.박명수의 '바람났어'가 1위에 올랐습니다. 노래는 안좋아 별로네 못하네";
-
+		//String text = "[연예] '무도' 음원 주간 다운로드 총 800만 건 : MBC TV '무한도전'의 '서해안 고속도로 가요제'가 발표한 음원들이 주간 종합 다운로드 차트 집계에서 총 800만 건을 넘겼고, 그중 지-드래곤.박명수의 '바람났어'가 1위에 올랐습니다. 노래는 안좋아 별로네 못하네";
+		
+		PostManager postManager = new PostManagerImpl();
+		Post param = new Post();
+		param.setProgramId("1");
+		List<Post> posts = postManager.getPosts(param);
+		
 		TextAnalyzer analyzer = new TextAnalyzer();
-		analyzer.extractTerms(text);
+		
+		for (Post post : posts) {
+			//String text = post.getTextBody();
+			String text = post.getTagText();
+			analyzer.extractTerms(text);
+		}
+		
 	}
 }

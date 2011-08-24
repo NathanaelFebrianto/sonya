@@ -39,9 +39,12 @@ public class MetooManagerImpl extends GenericManagerImpl implements MetooManager
     	}
 	}
 	
-	public void deleteMetoos(Metoo metoo) {
+	public void deleteMetoos(String postId) {
 		SqlSession session = sqlSessionFactory.openSession();
     	try {
+    		Metoo metoo = new Metoo();
+    		metoo.setPostId(postId);
+    		
     		MetooMapper mapper = session.getMapper(MetooMapper.class);
     		mapper.deleteMetoos(metoo);
     		session.commit();

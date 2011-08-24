@@ -1,9 +1,9 @@
 package com.nhn.socialbuzz.me2day.model;
 
 import java.io.Serializable;
-import java.util.Date;
-
-import org.apache.mahout.df.data.Data;
+import java.util.List;
+import java.util.StringTokenizer;
+import java.util.Vector;
 
 /**
  * Data model for a tv program.
@@ -28,6 +28,21 @@ public class TvProgram implements Serializable {
 	private String homepage;
 	private String watchRate;
 	private String searchKeywords;
+	
+	public List<String> extractSearchKeywords() {
+		
+		Vector<String> keywords = new Vector<String>();
+		
+		String text = this.getSearchKeywords();
+		if (text != null && !text.equals("")) {
+			StringTokenizer st = new StringTokenizer(text, ",");
+			 while (st.hasMoreTokens()) {
+				 keywords.add(st.nextToken());
+		     }
+		}
+		
+		return keywords;
+	}
 
 	public String getProgramId() {
 		return programId;

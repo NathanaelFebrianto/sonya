@@ -58,13 +58,13 @@
 			, update_date		
 		)
 		VALUES (
-			#{prostId}
+			#{postId}
 			, #{commentId}
 			, #{authorId}
 			, #{authorNickname}
 			, #{body}
 			, #{textBody}
-			, #{publishDate,jdbcType=DATE}
+			, #{publishDate}
 			, #{authorProfileImage}
 			, #{authorMe2dayHome}
 			, #{positive,javaType=double,jdbcType=DOUBLE}
