@@ -12,7 +12,7 @@ library(tm)
 df = read.table("kbs1_greatking.txt", sep = ",", header = TRUE, stringsAsFactors = FALSE, na.strings = "")
 head(df)
 d <- data.frame(textCol = df$terms)
-ds <- DataframeSource(d)
+ds <- DataframeSource(d, encoding = "UTF-8")
 dsc <- Corpus(ds, readerControl = list(reader = readPlain, language = "en"))
 dtm = DocumentTermMatrix(dsc, control = list(stopwords = TRUE))
 
