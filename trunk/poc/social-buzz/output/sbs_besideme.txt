@@ -1,4 +1,4 @@
-#program_id, author_id, type, post_id, comment_id, publish_date, terms
+program_id, author_id, type, post_id, comment_id, publish_date, terms
 sbs_besideme,qwe3easd,POST,pym01mi-5k6_w,,2011-03-20,전 절다 사랑 말다 말 중시 해서 하다 말로 말 하다 영원 알았죠 하다 하지 지금 생각 하다 하 안다 차이 없다 사랑 사 역시 변 난 나다 날다 이기다 생각 그런데 문득 거울 보고 보다 보 졌다는걸 깨달았죠 내 가장 아름답다 시절 사랑 사람 곁 없다 시작 좋다 me2mobile 
 sbs_besideme,maya720221,POST,pym05q0-_s4pp,,2011-10-21,부디 사랑 말다 말 과거형 하지마십시오 과거형 할 하다 수가 수 없다 슬프다 넌 널다 할 하다 수 있잖 있잖아 이렇게 내 네곁 네곁에 있고싶어 사랑한단 말 말다 이 듣고싶은게 아니다 아니 니 날 나다 사랑하길원하는건 설마 설다 알다 me2mobile 
 sbs_besideme,qkrthdus0989,POST,pym05qh-y64a,,2011-01-19,BIGBANG FOREVER 빅뱅사랑 내곁 내곁에 오다 고맙다 BIGBANG 5주년 사랑 me2photo 

@@ -1,4 +1,4 @@
-#program_id, author_id, type, post_id, comment_id, publish_date, terms
+program_id, author_id, type, post_id, comment_id, publish_date, terms
 kbs2_happysunday_1bak2il,greenp72,POST,pym00hb-_wulw,,2011-09-20,뉴스 악 안되다 1박2 일 종영이라고라고 아으 승기오빠 가는거 가는거야 네이버블로그 Ihaveapinkdream핑크빛물든아로아 
 kbs2_happysunday_1bak2il,korean2070,POST,pym035a-5hmwi,,2011-41-20,1박2 일 결국 종영 나PD 시즌2 가능성 열려 열려있다 네이버블로그 내인생의향기 
 kbs2_happysunday_1bak2il,tnwhlovejw,POST,pym03fg-q4er,,2011-01-21,20110820 20110821,1박2 일 밀양여행 고고싱 2탄 네이버블로그 좌충우돌인생 

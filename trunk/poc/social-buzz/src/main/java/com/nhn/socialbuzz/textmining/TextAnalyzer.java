@@ -114,7 +114,7 @@ public class TextAnalyzer {
 		PrintWriter writer = new PrintWriter(new FileWriter(out));
 		
 		// write header
-		writer.println("#program_id, author_id, type, post_id, comment_id, publish_date, terms");
+		writer.println("program_id, author_id, type, post_id, comment_id, publish_date, terms");
 		
 		for (Post post : posts) {
 			String postId = post.getPostId();

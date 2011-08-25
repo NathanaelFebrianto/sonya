@@ -1,4 +1,4 @@
-#program_id, author_id, type, post_id, comment_id, publish_date, terms
+program_id, author_id, type, post_id, comment_id, publish_date, terms
 kbs2_spy,kams0840,POST,pym04a_-h6mm,,2011-10-21,스파이명월 한예슬 머리 이상 않다 필요이상 붕붕 뜨다 생각 건 거다 걸다 나뿐 나뿐이겠지 
 kbs2_spy,tjsals526,POST,pym07yx-_dhgs,,2011-05-18,스파이명월 좀잇음 끝나다 
 kbs2_spy,zkvmelffj,POST,pym0cqx-_sf2i,,2011-46-18,스파이명월 한예슬 사건 전모 네이버블로그 씨투씨엘이금재테크로인생펴 씨투씨엘이금재테크로인생펴다 

@@ -1,4 +1,4 @@
-#program_id, author_id, type, post_id, comment_id, publish_date, terms
+program_id, author_id, type, post_id, comment_id, publish_date, terms
 kbs1_greatking,b_soha,POST,pym09my-2kcq,,2011-03-21,웅 맞아맞 맞아맞아 ㅋㅋ 향이는광개토보고있옹 
 kbs1_greatking,ckdtngk12,POST,pym0gm7-_wznv,,2011-52-20,아빠 광개토 대왕본데 ㅅㅂ me2mobile me2photo 
 kbs1_greatking,robin4572,POST,pym0hs4-_j3f3,,2011-19-20,엄마 광개토대왕봐서 코갓텔할때 놀쟈 me2mobile 

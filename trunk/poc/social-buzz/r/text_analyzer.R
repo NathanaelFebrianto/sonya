@@ -3,23 +3,22 @@
 # Author: Younggue Bae
 ###############################################################################
 
+setwd("D:/dev/workspace/social-buzz/output")
+Sys.setlocale("LC_ALL", "C") 
+
+
 library(tm)
-library(Rstem)
-library(Snowball)
 
-Sys.setlocale('LC_ALL','C') 
+df = read.table("kbs1_greatking.txt", sep = ",", header = TRUE, stringsAsFactors = FALSE, na.strings = "")
+head(df)
+d <- data.frame(textCol = df$terms)
+ds <- DataframeSource(d)
+dsc <- Corpus(ds, readerControl = list(reader = readPlain, language = "en"))
+dtm = DocumentTermMatrix(dsc, control = list(stopwords = TRUE))
 
-texts <- c("나는 정말 행복합니다. 너는 어때?")
+findFreqTerms(dtm, 3)
 
-data("acq")
-acq[[10]]
-stemDoc(acq[[10]])
 
-library("openNLP")
-tagPOS(acq[[10]])
-tagPOS(texts[[1]])
+dict <- Dictionary(dtm)
 
-data("crude")
-crudeTDM <- DocumentTermMatrix(crude, control = list(stopwords = TRUE))
-findFreqTerms(crudeTDM, 10)
 

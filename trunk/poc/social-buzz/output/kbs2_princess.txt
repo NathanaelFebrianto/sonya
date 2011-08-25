@@ -1,4 +1,4 @@
-#program_id, author_id, type, post_id, comment_id, publish_date, terms
+program_id, author_id, type, post_id, comment_id, publish_date, terms
 kbs2_princess,kelleahyejin,POST,pym015a-yfrj4,,2011-19-18,으아 오늘 영어학원 몹쓸 학원때문 공주 남자 30분 30분에 보다 생기다 
 kbs2_princess,chococat000,POST,pym01ba-_hgmp,,2011-07-19,잇힝 방금생각난건데 공주의남자 보다 거슬리던게 다크승유 다크승유의 산발 머리 왜풀어놓은것 왜풀어놓은것일까 다른사람들보면거의다묶엇던데 
 kbs2_princess,loveyou9742,POST,pym04w2-shaw,,2011-44-19,공주의남자 공주의남자 9회 다시보기 고화질 네이버블로그 토깽이의뷰티월드 

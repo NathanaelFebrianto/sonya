@@ -1,4 +1,4 @@
-#program_id, author_id, type, post_id, comment_id, publish_date, terms
+program_id, author_id, type, post_id, comment_id, publish_date, terms
 sbs_starking,soyeung2003,POST,pym01c_-5bnau,,2011-04-20,지금sbs 에서 야구하는건 나뿐 나뿐임 ㅡㅡ 아오 스타킹 샤 샤이 나온다길래 기대 뭐 ㅡㅡ sbs스타킹샤이니특집 
 sbs_starking,qmffhsek,POST,pym029v-yq_w6,,2011-55-19,아싸이제자유 me2mobile 그보다스타킹 다나갔네 ㄱㅡ 
 sbs_starking,lonewv0601,POST,pym04ud-5jalr,,2011-52-19,스타킹 보고 

@@ -1,4 +1,4 @@
-#program_id, author_id, type, post_id, comment_id, publish_date, terms
+program_id, author_id, type, post_id, comment_id, publish_date, terms
 mbc_thousand,rabbitnms,POST,pym034_-j438,,2011-07-21,지현우 잘생겼탑 ㅁ 천번 천번의 입맞추다 me2mobile 
 mbc_thousand,goals725,POST,pym06vp-_oi1v,,2011-41-21,오정이미투하자면서 잠적햇어 ㅋㅋㅋㅋㅋㅋ 이런이런 나도그럼빠이염 천번의입맞춤을봅시 
 mbc_thousand,nafly001,POST,pym09xf-_manz,,2011-09-21,요즘 뭐 보다 류진 류진은 천번 천번의 입맞추다 에서 에서도 또 실장님 이 요새 본부장앓 어쩌니 어쩌니해 원조격 원조격인 실장님 캐릭터 캐릭터의 최고봉 류진 류진이 류진이라 생각 분명 동안미녀 에서 보다 모습 잘 자다 어울리다 할 하다 말다 말 없다 하다 하지 축구선수 윤기준 윤기준으 나오다 윤두준 윤두준이 가장 좋다 건 거다 걸다 윤두준 윤두준이 바르싸 바르싸를 좋아하다 그런건가 

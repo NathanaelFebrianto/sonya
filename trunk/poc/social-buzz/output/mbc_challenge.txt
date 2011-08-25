@@ -1,4 +1,4 @@
-#program_id, author_id, type, post_id, comment_id, publish_date, terms
+program_id, author_id, type, post_id, comment_id, publish_date, terms
 mbc_challenge,mynamegk,POST,pym00dg-_3ebp,,2011-37-18,지다 솔로 솔 대체 언제나옴 ㅠㅠㅠㅠ 빨다 나오다 좋다 저번 무도 박명수 거절 노랗다 노래 있길바래 me2mobile 
 mbc_challenge,gowls791004,POST,pym01p9-_akvt,,2011-00-20,무도 무 오늘 장난 장 아니다 재미 ㅋㅋㅋ 박명수 정준 정준하 불장난춤 봐도봐 봐도봐도 웃다 웃기다 웃기 못생긴팀 얼굴 힘을보여줘 무한도전 불장난춤 me2mobile me2photo 
 mbc_challenge,pbr8293,POST,pym01x2-ywa5q,,2011-31-18,무한도전 사랑하는나 네이트 베플 먹었는데 어떤사람 내이름가지 썰렁 개그 ㅋㅋㅋㅋㅋ 창밖을보라 창밖을보라를 줄이다 박보라래 
