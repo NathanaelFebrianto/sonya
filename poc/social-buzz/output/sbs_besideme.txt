@@ -1,0 +1,624 @@
+#program_id, author_id, type, post_id, comment_id, publish_date, terms
+sbs_besideme,qwe3easd,POST,pym01mi-5k6_w,,2011-03-20,전 절다 사랑 말다 말 중시 해서 하다 말로 말 하다 영원 알았죠 하다 하지 지금 생각 하다 하 안다 차이 없다 사랑 사 역시 변 난 나다 날다 이기다 생각 그런데 문득 거울 보고 보다 보 졌다는걸 깨달았죠 내 가장 아름답다 시절 사랑 사람 곁 없다 시작 좋다 me2mobile 
+sbs_besideme,maya720221,POST,pym05q0-_s4pp,,2011-10-21,부디 사랑 말다 말 과거형 하지마십시오 과거형 할 하다 수가 수 없다 슬프다 넌 널다 할 하다 수 있잖 있잖아 이렇게 내 네곁 네곁에 있고싶어 사랑한단 말 말다 이 듣고싶은게 아니다 아니 니 날 나다 사랑하길원하는건 설마 설다 알다 me2mobile 
+sbs_besideme,qkrthdus0989,POST,pym05qh-y64a,,2011-01-19,BIGBANG FOREVER 빅뱅사랑 내곁 내곁에 오다 고맙다 BIGBANG 5주년 사랑 me2photo 
+sbs_besideme,rkgml756,POST,pym0815-66ud,,2011-13-19,오늘 빅뱅 5주년 되는 되는날 이젠 헤어지지 그렇다 멀리 멀다 떠나지 혼자 생각 말다 절대 혼자 아니다 VIP VIP가 곁 있다 사랑 존경 내 조금 멀리 멀다 떨어지다 있다 난 나다 날다 영원 응원 5주년 정말 축하 
+sbs_besideme,zenath,POST,pym0ane-5jk8h,,2011-05-22,내겐 친구지 친구지만 다르다 여자들에겐 남자 넌 널다 마치 꿈 깨어난듯 말 이제 사랑 알다 되다 그녈 사랑 행복 니 앞 축하 하다 하지 자꾸 왜 외다 내맘 내맘이 슬프다 허전한건지 왜 외다 난 나다 날다 자꾸 울다 싶다 친구 말 나도 나다 나 몰다 너르다 사랑했나봐 하다 하지 난 나다 날다 언제까지 언제 곁 함 하고싶어 사랑 또 헤어지다 영원 우린 이별할테 지금 친구 곁 내 함께할거 나도 나다 나 가끔씩 가끔씩은 어깨 아니다 품 안기다 알다 알 그녈 내다 보여주고픈 너에겐 나도 나다 나 소중하단걸 가사댓글 
+sbs_besideme,pckim21c,POST,pym0b9q-_mrwh,,2011-37-21,내사랑내곁 보는중 아무 아무도 모를려 모를려나 me2mobile 
+sbs_besideme,fic123,POST,pym0h41-i_63,,2011-21-20,110820 토렌트다운 내사 내곁 내곁에 31회 네이버블로그 꿈꾸는자유 
+sbs_besideme,fic123,POST,pym0is3-i_63,,2011-42-20,110820 토렌트다운 내사 내곁 내곁에 네이버블로그 꿈꾸는자유 
+sbs_besideme,820115,POST,pym0kxd-yw601,,2011-39-20,나다 나 나일 나일뿐인데 나도 나다 나 모르다 주위사람 비교 내 내다 자신 초라하다 느껴지는것 같다 아직 내 내다 마음 내 내다 자신 부족 사람 그런거겠지 내다 주어지다 지금 삶다 삶 내 내다 곁 지키다 남편 세상 제일 제 귀하다 내 내다 아이들 오늘 소중 감사 생각 사랑 즐건 주말 보내다 
+sbs_besideme,sherlock47,POST,pym0m01-yvkuk,,2011-41-21,니 힘들때 힘들때나 슬플때 외롭다 할때 할때도 이별 앓다 아파할때 니 눈물 닦아준 닦아준한 남자 있다 널 널다 사랑 한 하다 남자 있다 사랑 말 못하는니 곁 손 소다 솔다 내밀다 닿을거리 자신 아끼다 널 널다 가다 가지다 내 있다 애창곡 계속 나오 나오내 ㅅ 
+sbs_besideme,ma2646,POST,pym0mtt-rwog,,2011-16-20,오작교형제 me2mobile 다 내사랑내곁 보고있지로옹 
+sbs_besideme,wlduddl998,POST,pym0uja-_h_ia,,2011-14-20,밤하늘 별 따다 주다 내 사랑 소중하니까오직 아니다 안되다 외치다 외 싶어 싶다 내 내다 곁 있다 떠나다 말다 
+sbs_besideme,haruzzang-,POST,pym0v00-5s9gd,,2011-22-19,보고싶 보고싶을 땐 늘다 함께해주기 내 기쁘다 땐 같다 웃다 다시다 소리 그렇다 슬퍼 울다 안되다 늘다 내곁 나 바라보다 언제까지 언제 지금 이 내 내다 슬프다 사랑 지금 이 시간 지키다 여인의향기 OST 中 버킷리스트 JK 김동욱 중저음 중저음으 울려퍼지다 JK 김동욱 김동욱의 음색 우울하긴 하다 하지 마지막 싶다 조금 슬프다 사랑 따뜻 감싸주고 감싸주고있는 것 같다 노래 듣다 지금 가슴한켠이 아련해져온다 
+sbs_besideme,kimyj6966,POST,pym0w63-fty8,,2011-01-21,아이제드라마를멀봐야 시티헌터는끝나고사서넌내반봤는데끝 아 월 화요일은스파이명월보고수 목요일은보스를지켜라금요일 달고 달고나 토 일요일 오작교형제 내사랑내곁 여인의향기 ㅋㅋㅋㅋ 
+sbs_besideme,ancw2000,POST,pym0__0-5cj0,,2011-05-19,빅뱅 5주년 경축 ㅎ 진짜 5년동안 많다 일들 일들이 있다 말로 말 다 표현 못하겟네 ㅎ 우리곁 우리곁에 있다 고맙다 말 못하다 ㅎ 우리에겐 과분 그대들덕 하루하루 살아가다 표현 못하다 아끼다 사랑하는거 알죠 ㅎ 50주년 한번 달리다 ㅋㅋ 내 내다 인생 그대 걸어야 걸어야하는가 ㅋㅋㄱ 아무튼 5주년축하 우리 여신 열다 빂들 빂들도 5년동안 수고햇어 ㅎ 앞 화이팅 me2mobile 
+sbs_besideme,fic123,POST,pym157y-i_63,,2011-26-22,110821 토렌트다운 내 내다 사랑 사 내 내다 곁 32회 네이버블로그 꿈꾸는자유 
+sbs_besideme,faketoy,POST,pym17as-5jp56,,2011-16-20,내사 내곁 내곁에 110820 토렌트 네이버블로그 FakeToy 
+sbs_besideme,junes26,POST,pym1a1l-yxvov,,2011-34-22,내사 내곁 내곁에 32회 8월21 일 방송 보기 보다 http go9.co/4oE 
+sbs_besideme,freeherb,POST,pym1a4e-559k5,,2011-42-22,늘다 내곁 내곁에 그렇다 있다 처음 않다 괜찮다 그대 아낄게 아낄게요 눈물 없을만큼 상처 지울 셀수 셀수도 없을만큼 사랑할게 brown eyed soul love ballad 
+sbs_besideme,thehei,POST,pym1b6u-8w0t,,2011-17-19,내사랑내곁에vs 천번 천번의 입맞추다 주말 연속극 대결 뭘봐 뭘봐야 하다 고민 네이버블로그 HeeyaHolic 
+sbs_besideme,greenp72,POST,pym1eb2-_wulw,,2011-30-22,동영 내사랑내곁 32회 다시보기 네이버블로그 Ihaveapinkdream레몬빛물든아로아 
+sbs_besideme,oldone,POST,pym1ew2-y_75n,,2011-42-20,내 정말 사랑 사람 내겐 무엇 소중 사람 언제 언제나 내 내다 곁 영원할것 같다 사람 날 나다 두고가네 두고가네요 내 내다 가슴 죽을 아프다 난 나다 날다 아직 아직도 그대 걱정 나 세상 오직 한사람 사람 날 나다 떠나다 me2mobile 
+sbs_besideme,seoarida,POST,pym1hxq-sdz9,,2011-59-20,그리다 샤 샤이 너무사랑 정말 내 내다 바 옆 있는것 있는것은 아니다 내 내다 가슴속 내곁 내곁에 있다 너무너무 고맙다 샤이니자체 나 가장 크다 선물 행복 
+sbs_besideme,snowtea2,POST,pym1jzu-yt29j,,2011-55-20,설서린 설서린이 이놈 이놈이 자꾸 깔짝대길래 어린놈 어린놈이 참 차다 겁도없길래 실제 한번 만 싶다 약속 잡다 근데 이놈 이놈이 괜 쫄아서 미투 미투도 언젠가 안들어오 안들어오고 마음고생하는것 같은거 같은거야 내 내다 의도 뭐 해코지하겟다거 그런게 아니다 약속당일 약속당 만나다 만 설서린 설서린은 근래 잠 설치다 말하더 말하더라 도저 도저히 대화 안될것 안될것같아서 며칠사이 며칠사 야위다 설서린 설서린을 달래다 달래 집 돌아오다 마지막 하지못한말 혼자서 되내었엇지 사랑 마음 가질수 사람 있다 나를봐 이렇게 곁에 곁에있어 곁에있어도 널갖지 못하잖 못하잖아 
+sbs_besideme,ccya,POST,pym1k4m-hmgu,,2011-35-22,내 내다 사랑 사 내 내다 곁 31회 8월20 일 다시보기 네이버블로그 이과장의사진블로그 
+sbs_besideme,ccya,POST,pym1kxq-hmgu,,2011-36-22,내 내다 사랑 사 내 내다 곁 32회 8월21 일 다시보기 네이버블로그 이과장의사진블로그 
+sbs_besideme,tnqls4982,POST,pym1nrv-aqw5,,2011-36-22,내 내다 곁 머무르다 사랑 고맙다 110822 정말 사랑 이가은 me2photo 
+sbs_besideme,wingsadd,POST,pym1p_y-_5e9s,,2011-10-22,내사랑내곁 32회 다시보기 2011-08-21 내사랑내곁 32회 다시보기 2011-08-21 
+sbs_besideme,ohmygash,POST,pym1qwy-_j6jr,,2011-05-20,반지후 그대 사랑 Darling언제 Darling언제나 내 내다 곁 빛 내줘요매 밤 바라보다 바라보다 아름답다 
+sbs_besideme,jisiklog,POST,pym1s2u-_rcxy,,2011-22-20,드라마 내사랑내곁 줄거리 뭔가 뭔가요 지식로그 내사랑내곁 
+sbs_besideme,obeta,POST,pym1uc7-_sb79,,2011-55-20,대박 Lotte 백화점 10만원상품권 90 할인 할 1시 남다 http bit.ly kTUyDn 내사랑내곁 
+sbs_besideme,kmediabox,POST,pym1y75-_1l70,,2011-23-21,토도우 내사 내곁 내곁에 32회 8월21 일 다시보기 네이버블로그 kmediabox 
+sbs_besideme,heejeong7675,POST,pym322v-smt7,,2011-37-21,내사 다줄게 내마음 다줄게 울다 않을게 웃어줄게 따뜻 네손길 계속 내 내다 곁 있다 내 내다 사랑 사 모두줄게 
+sbs_besideme,kdhkjr2,POST,pym35v4-_e9io,,2011-20-18,내 내다 두눈 두눈은 너르다 바라볼때 가장 빛이 빛이나 빛이나고 내 내다 마음 너르다 생각할때 행복 내 내다 모든게 그렇다 위한거 위한거야 내 내다 곁 이 있다 나르다 나 위해 위하다 많은것 많은것을 하다 수 없다 걱정마 난 나다 날다 믿다 살아갈테니까 오 내 내다 사랑 사 나 부르다 부 수 있다 노래 노랗다 
+sbs_besideme,ff16d0,POST,pym3eez-5dur2,,2011-34-18,니 숨쉬다 니 살고 살고있다 내가슴속 심장이울린다 니가걷고 니가걷고있노 내가슴 속 처음내게 왔던날 그리움이 그리움이되어 넌 널다 나르다 나 부르다 자꾸 눈물 나다 날다 시리다 눈물 나다 날다 가슴아파서 너땜 너땜에 아파와서 니 그리운날 그리운날에 이 그리운날 그리운날에 보고싶어 또 눈물이 눈물이난다 너르다 곁에두고 곁에두고도 이렇게 곁 두다 못다 못다한 말 말다 너르다 사랑 눈물이 눈물이난다 신재 me2mobile 
+sbs_besideme,aet0501,POST,pym3g67-yiseo,,2011-48-20,민설빈 생일 생 축하 태어나다 내 내다 곁 있다 진심 고맙다 앞 이 내 내다 곁 있다 보고싶다 ㅎ 사랑 
+sbs_besideme,nissi09,POST,pym3giu-_tl8n,,2011-22-21,나 보배롭다 주님 오늘 저 그사람 주위 맴돌다 그런데 슬프다 나 무관심 모습 보 않다 저 관심 없는걸까요 저 이렇게 좋아하다 모 시선신경 다 뺏다 뺏기다 참 차다 괴롭다 저 자꾸 하와 하와같 주님탓 할것 같다 제 스스로 속상 주님 곁 편하다 내 내다 마음 이리 답답 주님 주님과 함 있고싶어 세상 모든거 다 버리다 주님곁 주님곁으 가고싶죠 사랑 지혜 명예 돈 건강 아름답다 아름다움 관계 모두 모두 다 쓸모없죠 오직 주님 오늘따 오늘따라 참 차다 힘드네 힘드네요 me2mobi 
+sbs_besideme,xxxx0805,POST,pym3hj1-_j_9w,,2011-02-18,사람 사다 곁 잠들다 깰 수 있다 내 내다 모든걸 다 쓰다 될 사람 아끼다 사랑 말 말로 다 할 하다 수 없다 소중함이죠 
+sbs_besideme,jin2278024,POST,pym3o2c-yfl28,,2011-55-18,내곁 내곁엔 날 나다 안다 사람 사다 없다 날 나다 사랑 사람 없다 
+sbs_besideme,soccerjun_,POST,pym54n3-8hob,,2011-25-19,TOY 내 곁 잠시 살다 걸 듣기 듣다 가사 가다 네이버블로그 우리가사랑하는축구이야기 
+sbs_besideme,3120625,POST,pym56lx-_hf8p,,2011-37-19,잘들어 하다 하 말다 말 이제 거짓말 생각할거니까 아무말 아무말도 하다 제발 있다 뭐 잘되다 있다 나다 나 그걸 그걸로 만족할게 해준것도 잘난것 잘난것도 없다 하나 사랑 자신 있다 내 내다 곁 제발 떠나다 말다 내 사랑 사람 너뿐 너뿐이니까 
+sbs_besideme,3210dptmej,POST,pym58ne-yepym,,2011-36-18,여인 향기 보스 지키다 스파이 명월 계백 무사 백동수 공주 남자 남다 넌 널다 내다 반 오작교형제 천 번 입맞추다 내 내다 사랑 사 내 내다 곁 광개토태왕 애정만만세 두근두근 달콤 내사 당신 참 차다 예쁘다 미쓰 아줌마 우리집 여자 불굴 며느리 당신 당신이 잠들다 사이 사다 사 
+sbs_besideme,ilovelatale,POST,pym5a_u-ezqr,,2011-09-16,은제 우리 사귀다 어느덧 500일 500일이 치닫다 치닫는구 어떻다 세월 이렇게 빠르다 수가 수 있다 나다 나 있다 내 내다 곁 천사 보 하느님 감사 은제 현재 우리 사랑 하다 
+sbs_besideme,g-dragon,POST,pym5ffx-5a0s,,2011-59-18,GD 생일축하 태어나줘서고마워 무대위에서빛나줘서고맙고 노래불러줘서고맙고 늘다 웃어줘서고마워 힘든 힘든일 슬픈 슬픈일 기쁜 늘다 함께하자 그대들곁 VIP VIP가 있다 권지용그대 알게되서 내다 크다 행운 사랑 영원 생일축하 
+sbs_besideme,insos02,POST,pym5j5s-_8lnw,,2011-41-16,내사랑내곁 30회 다시보기 2011-08-14 내사랑내곁 30회 다시보기 2011-08-14 
+sbs_besideme,sje98,POST,pym5kgp-5_wkg,,2011-56-19,미란다내곁 미란다내곁에 있다 고맙다 또 미안 늘다 사랑 보다 보고 있다 두근거리다 내 내다 고백 받다 
+sbs_besideme,9898kate,POST,pym5r1x-ydnxa,,2011-42-18,오늘 권지용님 권지용님의 생일 모두 추카 추카해 주다 내 정말정말정말정말정말정말정말 사랑하는거 알쥐 내곁 힘 되다 고맙구 사랑 지용옵 지용옵하 me2mobile 생일추카 생일추카 사랑 지용옵 지용옵하 생일추카 하다 
+sbs_besideme,kkap6,POST,pym5_gq-ndhp,,2011-08-19,그사람 그사람이 사랑 그분 그분께 푸른하늘 한숟갈 잡숫다 하고싶습니 하고싶습니다 숟갈 내 사랑 그사람 입 새하얀구름 한숟갈 떠먹이다 싶다 그래서그분의건강 깨끗한하늘 그사람 그사람의 마음 새하얗다 구르다 구름 맑다 좋다 힘내다 사랑 사람 곁에있으니까 곁에있으니까요 me2mobile me2photo 
+sbs_besideme,chohee412,POST,pym5_nc-_bx9l,,2011-13-19,요즘 여향 여향에 푸욱 빠져산다 내 연재 되다 사랑 사람 생기다 생기 내 점점 괜찮은사람 변해가 변해가며 자신감 생기다 생기 살다 싶어질것 죽기싫 죽기싫을 것 사랑 사람 사다 곁에있다가면 사랑 후회 되진않겠지만 남은사람 여향덕 여향덕에 내맘 내맘에 맑고흐림 동욱씨 때매 눈 높아져서리 에잇 내머릿속 사라져랏 me2mobile me2photo 
+sbs_besideme,to_keun,POST,pym6ffw-_twrr,,2011-14-19,D-32 한달남았어 2011년 내 곁 있다 수 있다 시간 한달전 홍콩가기전 넌 널다 나 사랑 담기다 펴다 편지 보내다 한 하다 달뒤 난 나다 날다 어떤 내용 담기다 펴다 편지 쓰다 이말 이말에 아무런 의미 없다 우리 한달뒤 한달뒤가 궁금 이야기 보고싶다 me2mobile me2photo 
+sbs_besideme,b5style,POST,pym6izl-_5_qd,,2011-09-17,잊혀지다 않죠 그대 보다 그대 모르죠 바보 내 내다 맘 모르죠 하루 그대 내곁 내곁에 있다 괜찮을텐데 알까 알까요 사랑 아프다 말 말다 그댄 이런말 알다 알까 알까요 영원 내 내다 곁 영원 내곁 내곁에 있다 LOVE CITY 단 달다 하루 
+sbs_besideme,insos02,POST,pym6k7a-_8lnw,,2011-00-17,내사랑내곁 30회 다시보기 2011-08-14 내사랑내곁 30회 다시보기 2011-08-14 
+sbs_besideme,sundaykiz27,POST,pym6o8z-_jg3p,,2011-09-20,당신 나대다 그녀 그녀를 부탁 세상누구 그녀 그녀를 사랑 또 내가 하늘아래서 아파 사람곁 나르다 나 대신 MV 바통 디셈버 바통 me2photo 
+sbs_besideme,_-_-15,POST,pym6rxe-_qu8n,,2011-55-17,그녀 그녀가 떠나가다 때 내다 말 곁 있다 있다 아니다 것 같다 만지다 빗겨버리 빗겨버리는 칼날 사랑 사 심장 얼어붙다 차갑다 사랑 사 
+sbs_besideme,q1q2q,POST,pym6sfw-yzdj0,,2011-23-20,You're my Boo 내다 사랑 주다 한입만Boo 맛있다 사랑 할꺼 할꺼야 Boo 아이스크림 달콤 My boo My My boo Boo 언제 언제나 나다 나 난 나다 날다 사랑하고파 곁 있고파 아무 아무것 아무것도 난 나다 날다 필요 필 없다 My boo My My boo Boo 아이유 Boo me2mobile 
+sbs_besideme,yds03302,POST,pym6sur-__q0,,2011-36-19,드디어 또 사녹 사녹을 뛰는군 뛰는군하 언니 인기가요 보다 내 스탠딩 스탠딩을 못 갈수 잇다 ㅠㅠ 인가 팬미팅 팬미팅도 하구 막방 막방인데 ㅠ 팬미팅 해 하다 ㅠㅠ 오늘 빅뱅 5주년 사랑 빅뱅 너희 곁 있을꺼 있을꺼야 내 사랑하는거 알다 정말 거짓말 안 알다 하다 하 사랑 me2mobile 
+sbs_besideme,yenny-mam,POST,pym6vwa-5yxy2,,2011-09-18,신문기고 신문기고에 약간 실수 있었넹 세번 세번인데 두번인 두번인라 그게 뭐 대수냐 예니 예니만 건강 내곁 내곁에 있다 된거지 예니 예니야 사랑 
+sbs_besideme,hw_sy0129,POST,pym6xhq-_5ym7,,2011-51-18,언제나 언제나함 언제나함께 ㅎㅏ 고싶은당신 표현이서툰나 사랑 언제 언제나 내곁에있어줘요 me2mobile 
+sbs_besideme,cheonga1205,POST,pym9c6x-5swib,,2011-17-22,사랑 이 내 내다 곁 홀연 사라져버린다 사라져버린다는 것 이 세상 존재 않다 되다 것 그것 슬프다 일 어디 어디있을까 여인 향기 를 보다 보 괜 옛생각 옛생각에 마음 아파온다 아리다 가슴 어루만지다 눈물 똑 화 거듭될 수록 아프다 사랑 이의 이 마지막 지키다 수 있다 것 또 또한 행복이란건 예상치 못하다 세상 떠나다 것 나다 안그럼 평생 못 보낼테니까 
+sbs_besideme,jouris,POST,pym9mtb-9b_n,,2011-11-22,내 내다 사랑 사 내 내다 곁 김현식 며칠 담배 피지 피다 않다 노래 딴 딴에 흥 겹다 부르다 부 수 있다 오다 오 내다 누 누가 듣다 말다 흥얼거리다 오다 좋다 노래 계속 부르다 되다 내 참 차다 부족 사람 걸 알다 
+sbs_besideme,insos02,POST,pym9n1y-_8lnw,,2011-05-21,내사랑내곁 31회 다시보기 2011-08-20 내사랑내곁 31회 다시보기 2011-08-20 
+sbs_besideme,7gnikrats,POST,pym9vqf-yf_hw,,2011-06-20,일 이렇게 만들다 정말 미안 할말 할말이 없다 ㅎㅎ 이거 내사 내곁에 내곁에라 드라마 방금 나오다 ㅎ 
+sbs_besideme,s_exysm,POST,pym9wtb-_qoyl,,2011-38-21,잠 들다 평온 모습 보다 보 매일 매이다 난 나다 날다 기도 날 나다 사랑 말야 내 내다 곁 있다 않다 않는구 비다 빌다 내 내다 가슴 속다 속 채우다 me2mobile 
+sbs_besideme,greenp72,POST,pymb99r-_wulw,,2011-14-21,동영 내사랑내곁 32회 다시보기 네이버블로그 Ihaveapinkdream핑크빛물든아로아 
+sbs_besideme,sju06111,POST,pymb9pv-5_49a,,2011-51-22,참 차다 아끼다 있죠 사람 아끼다 사랑 말 말로 다 할 하다 수 없다 소중함이죠 사람 사다 곁 잠들다 깰 수 있다 내 내다 모든걸 다 쓰다 될 사람 아끼다 
+sbs_besideme,music2day,POST,pymbemt-_qs1m,,2011-09-19,music2day 사랑 이의 이 곁 있다 행복 것 같다 사실 그렇다 않다 바라보다 느끼다 내 상대 온전 받아들이다 느낌 느끼다 천사 신분 내려놓다 만드 만드는 갈망 사 사랑 알다 보다 참 차다 이기적 것 Angel Sarah Mclachlan music2day me2music 
+sbs_besideme,fic123,POST,pymbfij-i_63,,2011-05-21,110821 토렌트다운 내사랑내곁 네이버블로그 꿈꾸는자유 
+sbs_besideme,wingsadd,POST,pymbikb-_5e9s,,2011-12-21,내사랑내곁 31회 다시보기 2011-08-20 내사랑내곁 31회 다시보기 2011-08-20 
+sbs_besideme,tpdlwjak,POST,pymbjjx-5mft3,,2011-13-20,내 어렸을때 3살때 3살때까지 부모님 같다 셋이서 살다 나다 나 기억이 기억이나진 않다 그리구 4살때 내동생 내동생이 태어나다 그렇다 한달 두달 석달이가 석달이가고 8개월쯤 되다 친엄마아니지 그사람 그사람이 집다 집 뛰쳐 나가다 나 버리다 그이유 그이유는 나두 잘모르겠어 그이후 그이후로 난 나다 날다 조부모님 밑 동생 함 자라다 그리구 유치원때 머리 다치다 우리집 뒤집어졌을때 그사람 그사람이 우리집 나타나다 자다 자기 나 엄마 하다 말 정말 그때 기쁘다 엄마 오다 왔구 나도 나다 나 이제 엄마 사람 사다 곁 사랑 받다 살수 있구나 있구나하 me2mob 
+sbs_besideme,wichonl,POST,pymbkkh-y57xh,,2011-37-21,드라마 내사랑내곁 내용 존 존나 내용 짜증 ㅡㅡ 내 공부 있을때 언니 막 내옆 내사랑내곁 보다 화가 화 남 나다 안 안보 싶다 싶어 대놓고 옆에서봄 ㅡㅡ 내사랑내곁 me2mobile 
+sbs_besideme,ahdsl,POST,pymbt4y-y_soa,,2011-52-19,난 나다 날다 나 빈자리 빈자리가 채우다 하다 하 내 사랑 친구 나 곁을떠 곁을떠나 곁을떠나고 말없다 멍때리곤 하다 보고싶다 그리워하다 친구 정말 보고싶다 
+sbs_besideme,651116bish,POST,pymbxir-_r59d,,2011-39-22,나 나다 이깊 이깊은 밤 오늘 하루 보내다 보내다 만나지말아야지 하는맘 하는맘과 갈등 내 내다 몸 이미 그의집앞 그의집앞을 맴돌다 내맘 내맘은 그의생각 가득차다 언젠 보내야겠죠 지금 이순 그의곁 그의곁에 있다 싶다 이세 모 이기적 사랑 그와 그와같 숨쉴수 있다 이공 이공간에 내가살고 있다 지금 이순 행복 me2mobile 
+sbs_besideme,wingsadd,POST,pymb_4i-_5e9s,,2011-14-21,내사랑내곁 31회 다시보기 2011-08-20 내사랑내곁 31회 다시보기 2011-08-20 
+sbs_besideme,yejin1952,POST,pymb_hv-_qcwk,,2011-26-19,언제 언제나 손내밀다 닿을듯 닿을듯한 그곳 그곳에 서있을게 서있을게요 기쁠때면 내 먼저 환하다 웃다 나도 나다 나 그댈 사랑 바보 말다 말 하지마 하지마요 고맙다 그런말 하지마 하지마요 그대 내곁 내곁에 있다 것만 것만으 그것만 그것만으 난 나다 날다 행복하죠 여인 향기 OST 
+sbs_besideme,insos02,POST,pymb_md-_8lnw,,2011-24-19,내사랑내곁 30회 다시보기 2011-08-14 내사랑내곁 30회 다시보기 2011-08-14 
+sbs_besideme,0826yujin,POST,pymd1dt-eq5m,,2011-44-17,SBS여인 향기 당신 당신의 버킷리스트 내 진짜 사랑 사람 만나다 그사람 곁 행복 죽는게 내 내다 버킷리스트 물론 죽기전 그사람 그사람하 하고싶은거 다 하겠짘 ㅋㅋㅋ 버킷리스트 여인의향기 
+sbs_besideme,kelleahyejin,POST,pymd2jo-yfrj4,,2011-53-15,소환알림 연화정님 소환글 소환글을 작성 월 화 호다 무사백동수 SBS 수 목 공주의남자 KBS 토 일 내사랑내곁 여인의향기 SBS from 연화정 
+sbs_besideme,goboseng0412,POST,pymdmbf-_bmal,,2011-36-18,내 정말 사랑 사람 내겐 무엇 소중 사람 언제 언제나 내곁 내곁에 영원할것 같다 그사람 그사람이 날 나다 두고가네 두고가네요 이 노래 노랗다 좋다 ㅠ ㅠ 근데 맘 와닿다 ㅠ ㅠ 
+sbs_besideme,ggadugi123,POST,pymdn5i-55qyx,,2011-37-16,그녀 그녀가 내다 왔을때 왔을때에 이런말 한적 있다다시 떠나갈거면 내곁 내곁에 있지말아달 있지말아달라 그녀 그녀를 얻기위 얻기위해 내가한노력 시간 그것 둘째 둘째치 2년 2년간의 공백사이에내가슴 다른사람 만나다 뛰지않는 내가슴이그녀 그한여자 옆이 옆이여야 옆이여야만 뛴다는것을 알았기때문떠나지마 사랑한다는말 꼭전하고싶어 내 지금 많다 힘들다 후 행복 선물할게 me2mobile 
+sbs_besideme,joel0839,POST,pymdod1-5yu48,,2011-38-17,그대 살아가는게 힘들다 사랑 말 말다 사랑 말다 말 항상잊지마 기대고싶은데 내곁에있고싶은데 내 옆 있지못 있지못해 그대 힘들다 힘들었 me2mobile me2photo 
+sbs_besideme,chaku00,POST,pymdr80-15fx,,2011-47-17,내사랑내곁 시청률 OST 동반 상승요즘 조금 괜찮나봐 괜찮나봐요 응원 주다 Daum미디어다음 
+sbs_besideme,blackwoojung,POST,pymdt3f-yt37f,,2011-04-16,사랑 사 아프다 아픔 내 감 짓밟히다 것 무시당하는것도필요 존재가되는것 모두 내 감 그대 내곁 내곁에 있다 아프다 생각 me2mobile 
+sbs_besideme,myohannabi,POST,pymdw94-samb,,2011-25-15,요즘 계속 이 노래 노랗다 가 가다 땡기네 땡기네요 내사 내곁 내곁에 김현식 
+sbs_besideme,dlcodms97,POST,pyme1qv-846c,,2011-14-21,헐 내사랑내곁에 행복 보고싶엇는데 편집이싹 ㅋㅋ me2mobile 
+sbs_besideme,kmediabox,POST,pyme3rr-_1l70,,2011-23-20,토도우 내사 내곁 내곁에 31회 8월20 일 다시보기 네이버블로그 kmediabox 
+sbs_besideme,ysaji10,POST,pyme5lp-5ktma,,2011-05-22,내사 그대 거기 거다 멈춰서다 나지금 그대 가다 가 있다 그대 난 나다 날다 이제 단 달다 하루 사다 못하다 가슴 울다 내 정말 사랑 사람 내겐 무엇 소중 사람 언제 언제나 내곁 내곁에 영원할것 같다 그사람 그사람이 날 나다 두고가네 두고가네요 디셈버 가슴 울다 
+sbs_besideme,astyle1004,POST,pymefz3-5k3_v,,2011-08-22,마 너만보 너만보여 sbs 내사 내곁에ost 노래 애절한듯 하면서두 감성적 같다 들어보다 오후시간두 즐겁다 유후 ㅋ me2mobile 
+sbs_besideme,ruby_one,POST,pymegnk-yh9_6,,2011-11-19,다리오왕 사랑 신하 사자굴 죽지 죽다 않다 금식 기도 지금 내 사랑 내 내다 곁 사람 생명 얻다 못하다 난 나다 날다 그들 위해 위하다 금식 기도 있다 1004 me2mobile 
+sbs_besideme,insos02,POST,pymeros-_8lnw,,2011-14-19,내사랑내곁 30회 다시보기 2011-08-14 내사랑내곁 30회 다시보기 2011-08-14 
+sbs_besideme,piyosong,POST,pymetsh-5baqe,,2011-48-19,만일 만 그대 내곁 내곁을 떠나다 떠 끝 따르다 저 끝 따르다 내사 유재 유재하 그대 내 내다 품 me2mobile 
+sbs_besideme,junes26,POST,pymexmu-yxvov,,2011-47-21,내사 내곁 내곁에 31회 8월20 일 방송 보기 보다 http go9.co/4nu 
+sbs_besideme,ekals406,POST,pymey8m-_w5vm,,2011-38-22,우린 처음 어울지 어울지는 안앗죠 다투기 다투기만 속만태우던 사이엿엇는데 참이상한건 참이상한건요 어느새 맘이통 맘이통해서 곁에 미칠거 그대 보고싶은데 특별 나 님 설레이다 가득 선물 점점 다가서다 그대 어쩜 좋다 그대때문 가슴 내심장 두근두근 나 나다 사랑 내맘가득 외치는말 두 눈 누다 을꼭 감다 떨리다 입술 내밀다 그대 먼저 안다 그댈 꿈꾸다 있죠 
+sbs_besideme,zzzz0zzzz2,POST,pymfzu_-_afui,,2011-44-22,I need you I feel you 내 내다 눈 바라보다 ma luv oh baby baby 내다 속삭이다 달콤 입술 내 내다 곁 살다 같다 흘리다 눈물 하늘 보다 보 맹세했잖아 우리 영원 맨 맨날 기도 날 나다 믿다 Yeah 널 널다 사랑 
+sbs_besideme,jiruhecom,POST,pymj2f9-_50e_,,2011-19-21,내사랑내곁 31회 8월20 일 토도우 
+sbs_besideme,search_now,POST,pymjd1c-5y0f5,,2011-00-20,내사랑내곁 81 천번 천번의 입맞추다 129 시다 210 코요태 171 신지수 231 그것 알고싶다 108 아스 아스날 리버풀 471 박장현 new 빽가 360 세븐코어 198 네이버 실시 급상승 검색어 
+sbs_besideme,baaffair,POST,pymjlhk-_m9pi,,2011-45-21,내 사랑 눈망울 눈물 멈추다 않다 믿다 수가 수 없다 눈물 흘리다 않다 좋다 정말 예쁘다 것 같다 아녜 아녜요 울다 싶다 제게 안기다 제가 제 눈물 닦다 주다 주 뽀뽀 줄다 그러니까 무슨 말이냐면 우린 곁 울자구 울자구요 안다 수 있다 난 나다 날다 이제 어디 어디에서 혼자서 울다 않을거에요 
+sbs_besideme,sch8736,POST,pymjpsp-5hl69,,2011-24-21,내사랑내곁 다시보기 내사 내곁 내곁에 31회 토렌트 다시보기 내용보기 네이버블로그 패셔니스타 제이스타일북 
+sbs_besideme,thehei,POST,pymjy7a-8w0t,,2011-19-20,내사랑내곁 내사랑내곁 31회 진국의선아 안타까운사 안타까운사랑 윤정이 윤정이의 임신 석빈 석빈의 불임소식 네이버블로그 HeeyaHolic 
+sbs_besideme,kse5020,POST,pymjyfk-yuto3,,2011-01-21,기다리다 이에겐 사랑 할게 없나봐 다시돌아올까 내곁 내곁으 오다 bmk 꽃피는봄이오면 me2mobile 
+sbs_besideme,insos02,POST,pymjyme-_8lnw,,2011-02-21,내사랑내곁 31회 다시보기 2011-08-20 내사랑내곁 31회 다시보기 2011-08-20 
+sbs_besideme,hw902,POST,pymk78v-55hsp,,2011-46-17,노아 차분 목소리 내 내다 귓가 자극 살며시 그리다 포근 등뒤 등뒤에서 온기 향기 느끼다 아 따뜻 얼마만 얼마만이 이게 내 얼마 기다리다 당신 당신을 언제 언제나 내곁 내곁에 있다 고맙다 사랑 그의말 그의말이 내 내다 귓가 맴돌다 몰다 임무 다치다 돌아오다 바보 말 나다 나 아무말 눈물 대답 지금 허공 아니다 당신 내 내다 마음 닿다 정말 다행 사이드스와이프 me2mobile 
+sbs_besideme,-_-akkk,POST,pymkf1v-yws3n,,2011-31-20,쫌만 있다 여인의향기한닷 그전 내사랑내곁 시청중 ㅠ 으 답답 말을 말을하지 ㅠ 왜숨기지 me2mobile 
+sbs_besideme,agileyeji,POST,pymkv8u-bjvq,,2011-36-19,점점 주변 어두워지다 내 내다 목 조르다 보고싶 보고싶은 지금 내 내다 곁 없잖아 사랑 사랑 사랑 제발 나 나다 좀 조다 봐달 봐달라 
+sbs_besideme,z6zz,POST,pymkzpx-5f2tx,,2011-48-18,함 있다 웃다 웃음 나다 나 사람 사다 나오다 나 똑 닮다 낫다 나 훨씬 크다 사람 사다 크다 위대 날 나다 초라하다 만들다 않다 사람 사다 어떤 바라다 바람 폭풍 몰아치다 흔들리다 않다 바위 내 내다 곁 지키다 사람 사다 볼 보다 때 반가운 사람 사다 자꾸 따라 따라하 싶다 마음 드 드는 사람 사다 사랑 수 밖 없다 사람 사다 기다릴게 기다릴게요 me2photo 
+sbs_besideme,gussnl79,POST,pymp20m-59ffg,,2011-32-22,그립다 그립다 그립다 그립다 사랑 사람 떠나간거 떠나간거에 대해 대하다 그립다 아 슬프다 슬프다 아 슬프다 슬프다 조아했던그녀가 내 내다 곁 떠나다 하늘나라 가다 외국 여행갔다 그녀 그녀를 받다 그녀 그녀를 본건 장례식장 있다 사진에서 
+sbs_besideme,h2jhjh,POST,pympbep-5wwxd,,2011-11-22,안녕 두글자 두글자가 나르다 나 울리다 행복 시간모두 내곁 내곁을 떠나다 사랑 그대 내곁 내곁에 없다 차갑다 바라다 바람 불어오다 자고 그대생각 그대생각이 눈물 내맘 내맘을 가리다 가리 그대 모르다 난 나다 날다 어떡 그댈 사랑 말다 다르다 사랑 안되다 그럼 그댈 바라보다 내맘 내맘이 아프잖아 아프잖아요 December 안녕 
+sbs_besideme,faketoy,POST,pymperu-5jp56,,2011-57-22,내사 내곁 내곁에 110821 토렌트 네이버블로그 FakeToy 
+sbs_besideme,eratoskin,POST,pymphk8-ybst1,,2011-35-22,내사 내곁 내곁에 이소연 고3 담임 담 소룡 母 최은희 마주치다 네이버블로그 No.1국내외최대피부관리전문커뮤니티 에라토스킨 
+sbs_besideme,insos02,POST,pympjpk-_8lnw,,2011-54-22,내사랑내곁 32회 다시보기 2011-08-21 내사랑내곁 32회 다시보기 2011-08-21 
+sbs_besideme,whan9708,POST,pympq6k-ymz8o,,2011-34-21,강하늘 ㅎ 내 사랑 하늘씨 ㅎ 공부 바쁘다 곁 힘 못되다 바보 나 나다 ㅎ 날 나다 사랑 하늘씨 하늘씨가 고맙다 위로 주다 주 같다 놀다 하늘씨 돌아오다 약속 하다 돌아와야되요오 ㅎ 보고싶어 그리다 사랑 헤헿 
+sbs_besideme,eratoskin,POST,pympqyz-ybst1,,2011-53-22,내사랑내곁 이휘향 강 여사 친손자 이재윤 사실알고 뜨악 네이버블로그 No.1국내외최대피부관리전문커뮤니티 에라토스킨 
+sbs_besideme,kil3650,POST,pympzfo-_acxz,,2011-59-22,좋다 오빠 동생 힘이들고 친구 이르다 이름 힘이들고 친구 연인 되길바 되길바라 내 내다 사랑 단 달다 한순간만 한순 한순간만이 한순간만이라 부디 친구 연인 나혼자서 사랑 나 나다 혼자서 이별 나 나다 혼자서 널 널다 기다린거 기다린거야 미련 내사랑 내사랑에 있을리 없다 모지다 니 곁 언제까지 언제 좋다 오빠 동생 
+sbs_besideme,tj3732,POST,pymr15i-_3qcq,,2011-00-21,널 널다 사랑 시간 흐르다 널 널다 사랑 세상 변 난 나다 날다 언제 언제나 내 내다 곁 지키다 있다 참 차다 다행 고맙다 아침 눈 뜨다 늘다 생각 나 나다 환한미소 시작 지친하루 끝 또 생각 난 나다 날다 난 나다 날다 행복 사람 사다 이제 슬프다 않다 다시다 울다 않다 내 내다 모 걸 바치다 
+sbs_besideme,search_now,POST,pymr6pk-5y0f5,,2011-00-21,인순 인순이 177 천번 천번의 입맞추다 99 내사랑내곁 78 윤민수 60 바비킴 117 감사 234 김효진 426 신세경 87 i40 165 주민정 225 네이버 실시 급상승 검색어 
+sbs_besideme,thehei,POST,pymr6sw-8w0t,,2011-03-21,내사랑내곁 내사랑내곁에32 회 석빈이 석빈이의 불임사실 숨다 숨기다 숨기 배정자 소룡이의기획안통 네이버블로그 HeeyaHolic 
+sbs_besideme,7197830,POST,pymrbc2-5ypbl,,2011-55-21,내가정말믿어 내가정말믿어도 나안버리고나안배신할사람 나영원히곁에있어줄사람 나랑영원히친해질사람 나영원히지켜줄사람 내 영원히믿어도되는사람 영원 기대도되는사람 영원 진실을털어놔도되는사람 영원히내앞에서웃어줄사람 영원 나좋아하고사랑해줄사람 미투눌러줄래 미투눌러줄래요 정말 진심 잘생각 잘생각하 제발 제발 감사 그리고죄송 
+sbs_besideme,jiruhecom,POST,pymrckt-_50e_,,2011-18-22,내사랑내곁 32회 8월21 일 토도우 
+sbs_besideme,sch8736,POST,pymrgjt-5hl69,,2011-18-22,내사랑내곁 다시보기 내사 내곁 내곁에 32회 토렌트 다시보기 내용보기 네이버블로그 패셔니스타 제이스타일북 
+sbs_besideme,dbxhvi2,POST,pymrhgb-_w3wz,,2011-36-22,내사랑내곁 32회 다시보기 2011-08-21 내사랑내곁 32회 다시보기 2011-08-21 
+sbs_besideme,ckzksdnwls,POST,pymrju0-5x4jy,,2011-31-21,행복 보 예쁘다 그녀 그녀가 당신곁 당신곁에 있다 저 또 또한 웃다 지금 사랑 사 하다 잠깐 아주 잠깐 바라보다 내맘 내맘을 찾아오다 me2mobile me2photo 
+sbs_besideme,a3656267,POST,pymrpt6-5dbq9,,2011-41-21,내사랑내곁 할때 할때로 돌아가고싶다 ㅠ ㅠ me2sms 
+sbs_besideme,ksh202901,POST,pymyblm-7fnn,,2011-17-16,외롭다 외롭다 힘들다 힘들다 내가 내가있어 힘들다 나르다 나 떠나다 멀리 멀다 가버렷어 난 나다 날다 여태 나 사 사랑 내맘 대로 대 했었지 난 나다 날다 이제 바라보다 싶다 내곁 떠나다 버렷네 때 사랑이라는것 좋은향수 아 리쌍 노래 노랗다 타자치 타자치다 개리 개리가 랩해 어떻다 치다 
+sbs_besideme,insos02,POST,pymydr3-_8lnw,,2011-57-16,내사랑내곁 30회 다시보기 2011-08-14 내사랑내곁 30회 다시보기 2011-08-14 
+sbs_besideme,kkch3465,POST,pymynit-oidn,,2011-11-18,행복 줄수 그런데 사랑 하다 니곁 니곁에 감하다 머무르다 내욕심 내욕심을 용서치마 방황 많이남았어 끝 나도 나다 나 모르다 걸 약하게태어 약하게태어나서 미안 널보내려고 널보내려고해 언젠가 언젠가는 돌아갈게 사랑 자격 갖추다 나되어 곁 돌아갈게 행복 줄수 줄수있 줄수있을 때 아파 안녕 잠시 안녕 ㅠㅠ 내일개학 제기다 10시 미투 숑 엠씨더맥스 ㅡ 잠시 안녕 me2mobile 
+sbs_besideme,psshoon123,POST,pymyojj-lgix,,2011-15-18,내사 내곁 내곁에 ㅜㅜ me2sms 
+sbs_besideme,marcusvip,POST,pymyqhq-_5x9w,,2011-47-15,다시다 누굴 사랑 않다 걸 알아 알아난 낭싱 낭싱이 놓다 싶다 않다 때문 때문에 내 내다 기억 속에서내 속에서내가 보다 보 영화 속 주인공 날 나다 사랑 때 돌아오다 줘아무도 모르다 내 내다 곁 
+sbs_besideme,starnim8,POST,pymyr23-nlle,,2011-38-15,미친듯 미친듯이 미친듯 미친듯이 행복 눈물 눈물이 ㅜㅜ 기쁘다 아 이렇게 행복할 착하다 살아오다 나한테 이럴 자격 있다 있 라 라고 느끼다 만큼 내 내다 곁 사람 천사 날 나다 소중히여겨주넹 ㅋ 아 ㅋ 나 나다 받은거 이상 베풀다 싶어 싶다 ㅋ 착하다 사다 ㅋ 정말고마워사랑 me2mobile 
+sbs_besideme,rlaejrwo111,POST,pymyumi-_tynd,,2011-50-17,월화 월화는 무사 백동수 수목 공주 남자 남다 주말 내 내다 사랑 사 내곁 내곁에 
+sbs_besideme,jhtak11,POST,pymyxw2-5zazx,,2011-54-18,난 나다 날다 숨길 숨다 숨기다 수 없죠 그대 눈 누다 속 난 나다 날다 많이 많이도 웃다 내 내다 맘 말해줄게 말해줄게요 떨리다 이 순간 빛나다 오늘밤 많다 기다리다 말다 말 참아왔죠 그대 모자라다 나르다 나 늘다 내 내다 곁 그렇다 있다 처음 같다 않다 괜찮다 그대 아낄게 아낄게요 눈물 없다 만큼 상처 지우다 만큼 세다 수도 수 없다 만큼 사랑할게 브라운 아이드 소울 Love Ballad me2mobile 
+sbs_besideme,marimba9,POST,pymyy3f-5x6fl,,2011-13-17,내사 내곁 내곁에 me2mobile 
+sbs_besideme,yujin4834,POST,pymyypw-5u0q0,,2011-15-17,까 까인 한빛그대 Darling 밤 하늘 별빛 별빛보 아름답다 내 내다 맘속 깊다 곳 반짝거리다 나 사랑 사 빛 그대 사랑 Darling 언제 언제나 내 내다 곁 빛 내주다 매일밤 바라보다 바라보다 아름답다 그댄 나 사랑 사 빛 
+sbs_besideme,nonoboy2004,POST,pym_2pn-y25zo,,2011-07-17,널 널다 사랑해가끔 긷다 길 걸어가다 뒤 돌아보다 함께했던 지난날 그립다 아주아주 오래다 시간 지다 지나다 지 그땐 또 오늘 그리워하다 언제 언제나 넌 널다 내곁 내곁에 있다 힘들때 힘들때도 기쁠때도 나 사랑 친구인거 이제 너르다 위해 위하다 내 모든걸 하다 싶어 싶다 오늘 이 노래 노랗다 들다 잠들다 하다 모두 행복 꿈꾸다 미소 밤되세 밤되세요 
+sbs_besideme,tpgml6058,POST,pym_5mo-y3lp,,2011-29-18,생각 조금 달리 덜어내다 쉬운얘기잖아 쉬운얘기잖아요 사랑 할때 할때엔 어려운얘긴 Pass 내말 내말이 어디 틀리다 틀리 맞잖아 맞잖아요 사랑 사 대단할거 있다 있 그사람 곁 붙다 있고싶 있고싶은 것 자 자다 나르다 나 따다 따르다 고백해 고백해요 우쮸츄츄츗쯋 
+sbs_besideme,pdnjs5725,POST,pym_as4-ywto6,,2011-55-18,집앞 내사랑내곁 촬영중 ㅋ me2sms 
+sbs_besideme,curel2,POST,pym_asb-_3zby,,2011-39-16,내사 내곁 내곁에 언제 들다 참 차다 좋다 노랗다 노래 
+sbs_besideme,minimin0547,POST,pym_b9r-_0y5m,,2011-32-19,아침 밝다 떠나가다 그댈 위해 위하다 하지 하다 못하다 인사 조용 두고가 두고가요 모자라다 모자 내 내다 마음 한없다 미안 오랫동안 그대 눈빛 모른척 그때 그대 미소 나르다 나 향하다 웃다 걸 알다 장난치다 도망가려 사랑 막연 두려움 때문 때문에 나 나다 애쓰다 외면 말없다 내 내다 손 잡다 날 나다 새하얗다 벚꽃 날리다 날 나다 내 내다 곁 있다 고맙다 그대 함 걷다 겨울바닷가 포근 감싸다 감싸주다 그대 손길 이제 그대 추억 머무르게 머무르게할 순 없잖아 내 내다 곁 있다 추억 아름답다 기억 일어 가사 훨씬 예쁘다 
+sbs_besideme,aaz251-,POST,pym_d1y-_hyax,,2011-00-18,혜림 내사 내곁 내곁에 계속 있다 사랑 우리 변치말자 쪽 사랑 
+sbs_besideme,m2__2,POST,pym_hlt-_6ai8,,2011-06-19,110819 몽땅내사랑 몽땅내사 이기광 플짤XD 네이버블로그 우리곁에있어줘서고마워 
+sbs_besideme,nayurim,POST,pym_hr1-_t__m,,2011-05-16,내 내다 사랑 사 그대 내곁 내곁에 있다 이세 하나 오직 그대만이힘겨운 날 너마져 떠나면비틀거릴 내 안길곳 안길곳은 어디 어디에 me2mobile me2photo 
+sbs_besideme,possomljs,POST,pym_nyj-_druf,,2011-23-17,내 내다 사랑 사 내 내다 곁 고석빈역 고석빈역의 온주완님 온주완님과 함 네이버블로그 여인 여인이 명품으로태어나라 포썸성형외과 
+sbs_besideme,whwnstjs1,POST,pym_o1f-y8psx,,2011-44-19,나 나다 사랑 않다 내곁 내곁에 있다 말다 가버려 이제 나도 나다 나 안 알다 붙들 붙들께 
+sbs_besideme,djg1218,POST,pym_tsz-yhhdv,,2011-45-17,미션 토 일 드라마 내사 내곁 내곁에 즐겨보다 이소룡 도미솔 
+sbs_besideme,tjr3044,POST,pym_ymy-f6_x,,2011-02-17,그렇다 말 고맙다 정말 고맙다 내 잘못해주는거 정말 미안 날 나다 사랑 고맙다 내곁에있어줘서 고맙다 지금이기분 표현못 표현못해 좀복잡 좀복잡해 ㅎ 뭐랄까 너르다 사랑 여보 여보야 고맙다 나란놈 이해 참다 고맙다 말 충고 모두 지키다 노력 사랑 승혜 승혜야 
+sbs_besideme,jwj291,POST,pyo40of-m2yj,,2011-18-15,지금 내 하다 하 얘기 널 널다 아프다 하다 몰다 아마 날 나다 죽다 미워 될꺼 될꺼야 내 예전 같다 않다던 말 말다 모두 틀리다 말다 말 아니 나도 나다 나 변해버린 내 낯 설기 설기만해 착하다 널다 넌 널다 그대로인데 오 I don t know I don t know me2mobile 사랑 내겐 과분한가봐 곁 있다 Baby I m so lonely lonely lonely lonely lonely Baby I m so lonely lonely lonely lonely lonely B 
+sbs_besideme,snowy23,POST,pyo4ddj-yvlsn,,2011-18-16,내사랑내곁 남배여항 소양강처녀 우리 너에게 너에게난 오늘밤은어둠이무서워 찬바람이불면 me2mobile 
+sbs_besideme,junes26,POST,pyo4mey-yxvov,,2011-30-15,내사 내곁 내곁에 30회 8월14 일 방송 보기 보다 http go9.co/4iA 
+sbs_besideme,iyousens,POST,pyo4w6z-yq85k,,2011-42-15,다시보기 내사랑내곁 내사랑내곁 30회 다시보기 8월14 일 방송분 다시보기 네이버블로그 씽씽이와함께하는세 
+sbs_besideme,insos02,POST,pyo76y4-_8lnw,,2011-06-15,내사랑내곁 30회 다시보기 2011-08-14 내사랑내곁 30회 다시보기 2011-08-14 
+sbs_besideme,kimfor4,POST,pyo7dg3-ynjsh,,2011-33-16,찾다 내사 내 찾다 사람 사다 뜨겁다 안아주고싶어 가만하다 눈 감다 내 입맞추다 줄수 줄수있게 사랑 널 널다 사랑 찾다 내 내다 곁 두다 한 하다 사람 사다 
+sbs_besideme,crown7556,POST,pyo7evc-ybv4t,,2011-15-16,백퍼센트 내다 맞다 사람 사다 없다 십퍼센트 맞다 구십퍼센트 내 채우다 되다 되 이십퍼센트 맞다 팔십퍼센트 채우다 위해 위하다 노력 하는것 하는것을 그럴 용기 자신 자시다 없다 사랑 마시다 기혼자건 미혼자건 내 내다 곁 있다 사람 사다 부족한게 있다 더이 바라다 바 말다 내 채우다 줍시 줍시다 살다 기다리다 상처 아파하는것보단 편이 편 훨씬 낫더 낫더이 이제 막 인연 만나다 사랑 사 키워가 키워가는 제 미프 한분 한분을 보다 보 생각 주저리 주저리 me2mobile 
+sbs_besideme,gudals628,POST,pyo7hsr-5o3wd,,2011-07-17,만일 만 그대 내곁 내곁을 떠나다 떠 끝 따르다 저 끝 따르다 내 내다 사랑 사 그대 내 내다 품 안기다 눈 감다 그대 내 내다 품 안기다 사랑 꿈 꾸다 나누다 me2mobile 
+sbs_besideme,gp2flsl,POST,pyo7lbu-_c9pg,,2011-28-15,하얗다 세상 부서지다 까맣다 나다 나 다 타버렸어 여전 내곁 내곁에 남겨진이야기 널 널다 사랑하지않아 아직 아직도 내안 내안에 남기다 이야기 널 널다 사랑하지않아 지선 널 널다 사랑 않다 me2mobile 
+sbs_besideme,dbxhvi2,POST,pyo7lof-_w3wz,,2011-31-15,내사랑내곁 30회 다시보기 2011-08-14 내사랑내곁 30회 다시보기 2011-08-14 
+sbs_besideme,ymbo34,POST,pyo7q26-_k8j7,,2011-14-15,반짝거리다 나 나다 만 사랑 사 빛 그대 사랑 Darling 언제 언제나 내 내다 곁 빛 내주다 매일밤 바라보다 바라보다 아름답다 달달 쓰으읍 
+sbs_besideme,jiruhecom,POST,pyo7s4c-_50e_,,2011-14-15,내사랑내곁 30회 8월14 일 토도우 
+sbs_besideme,didcodms95,POST,pyo7sud-5ce8t,,2011-35-17,고맙다 용서 내곁 내곁에 있다 정말 엇갈리다 말다 이젠 엇갈리다 내가먼저 달려갈테니까 사랑 유주현 me2mobile 
+sbs_besideme,kej199,POST,pyo7t_t-_cpw7,,2011-03-17,함 만들다 내다 아름답다 추억 별 없다 만큼 미지근한 사랑 하다가떠난뒤 하다가떠난뒤에 내 미워졌다 맘 가득 사랑 말 용기 없었지만그래도 이렇게 당신곁에오래 머물다 싶다 마음 전하다 전 전하 싶다 me2mobile me2photo 
+sbs_besideme,__gloomy,POST,pyo7unw-_quy1,,2011-20-17,내 내다 사랑 사 그대 내곁 내곁에 있다 이세상하나뿐인 오직그대 me2mobile 
+sbs_besideme,ssv4913,POST,pyoll01-5k4dc,,2011-32-17,내사랑내곁 네이버블로그 고양이리본달다 
+sbs_besideme,8kju,POST,pyolwiz-5ssub,,2011-58-16,참아끼고있죠 그사람을아껴 그사람을아껴요 사랑한다는말 다 할 하다 수 없다 소중함이죠 사람곁 잠들다 깰수 깰수있다면 내모든걸 다 쓰다 될 그사람을아껴 그사람을아껴요 
+sbs_besideme,mople,POST,pyolxg0-ybyr8,,2011-58-16,내사 내곁 내곁에 29회 E29 닥본사 ˝닥˝ 치다 치 ˝본˝ 방 ˝사˝ 수 닥치고본방사수 닥본사 별점 오늘 내사 내곁 내곁에 29회 E29 
+sbs_besideme,mu525,POST,pyonbha-5_4t0,,2011-30-15,요즘 키스앤 크라 크라이 드라마 같다 보다 막 갤럭시 탭 10.1인치 선물 주다 주 그러던데 저번 삼성선수 50명 50명도 재용사장님 선물 받다 ㅜㅜ 그런거 보다 정말 부럽다 키스앤크라이 김병 김병만 연습 보고 보다 보 오늘 내사랑내곁 미솔이한테 사장님 사장님이 선물 주다 주 저번 삼성 선수 보러온 재용사장님 선물 ㅠㅠ 부럽다 정말 
+sbs_besideme,5tkarv200,POST,pyonbqd-5gz7w,,2011-30-15,내 사랑 사람 행복 빌다 주다 나아닌 다르다 사람곁 행복 미안 나다 나 당신 당신과 만날때 만날때보 잘나다 잘 사람 되다 버리다 ㅎㅎㅎ 웃다 드리다 me2mobile me2mobile 
+sbs_besideme,2hoonwoo,POST,pyonh2q-tgj9,,2011-41-15,사 사랑 둘 둘이 의미 있다 아름다운거 곁 있다 내 내다 맘 속 어딘가 어딘가에 있다 me2mobile me2photo 
+sbs_besideme,kmediabox,POST,pyov22_-_1l70,,2011-52-14,토도우 내사 내곁 내곁에 30회 8월14 일 다시보기 네이버블로그 kmediabox 
+sbs_besideme,junes26,POST,pyovvbv-yxvov,,2011-41-15,내사 내곁 내곁에 29회 8월13 일 방송 보기 보다 http go9.co/4ia 
+sbs_besideme,ysaji10,POST,pyox1l4-5ktma,,2011-26-17,가슴떨리던그대 입맞춤도이제 추억 됬나봐요My love 사랑해요사랑 그대듣고있나요My love 잊지말아 잊지말아요 지우지말아 우리 사랑을매 난그리움속 난그리움속에 하루 버티다 그댄어딨나요내 그댄어딨나요내가 미안 미안 그대잊지못해서 My love 돌아오다 떠나다 말다 내곁에서제발 태연 사랑 
+sbs_besideme,mople,POST,pyox5gd-ybyr8,,2011-10-16,내사 내곁 내곁에 30회 E30 닥본사 ˝닥˝ 치다 치 ˝본˝ 방 ˝사˝ 수 닥치고본방사수 닥본사 별점 오늘 내사 내곁 내곁에 30회 E30 
+sbs_besideme,dlalwl0316,POST,pyoxbsr-_yknd,,2011-02-17,이젠 니 내 내다 곁 없다 숨쉬다 못하다 오해하지마 전 절다 남다 남자 아니다 난 나다 날다 말 새롭다 사람 사랑 있다 me2mobile 
+sbs_besideme,yoseopjjang,POST,pyoxu96-5dgbx,,2011-06-17,이세상하나뿐인 my friend 나 기쁨 기쁘다 나 영혼 소중 지켜갈 지켜갈께 하늘 영원 맹세 사랑해친구 언제 언제나 내 네곁 네곁에 힘이되어줄꺼 힘이되어줄꺼야 평생 단짝 사랑보단 우정 중요 졸업 중학생되서 우정변치않자 me2photo 
+sbs_besideme,totalme78,COMMENT,pym0ane-5jk8h,c_n8bm_-ym0ane-5jk8h,2011-11-22,슬프다 노래네 노래네요 ㅠㅠ 
+sbs_besideme,lilikos1,COMMENT,pym0ane-5jk8h,c_n8sh3-ym0ane-5jk8h,2011-28-22,비됴 비됴는 안 안보 글 보다 보 동성애 얘긴줄 알다 그럴수 그럴수도 있다 
+sbs_besideme,babu4486,COMMENT,pym0ane-5jk8h,c_n8y40-ym0ane-5jk8h,2011-12-22,박정현 넘죠아용 저 고딩때부터좋아하기시쟉했따는 ㅋ 
+sbs_besideme,zenath,COMMENT,pym0ane-5jk8h,c_nw823-ym0ane-5jk8h,2011-05-22,하다 하지 난 나다 날다 니 연 연인 좋다 친구되 친구되고 싶어 싶다 사랑 깊다 우정 영원 내 지켜줄테 지켜줄테니 지금 친구 우린 함 할꺼 할꺼야 지금 언제 언제나 친구 
+sbs_besideme,zenath,COMMENT,pym0ane-5jk8h,c_nw82d-ym0ane-5jk8h,2011-05-22,내 사랑 빠지다 그땐 니 아파 몰다 하다 하지 난 나다 날다 언제까지 언제 곁 함 하고싶어 사랑 또 헤어지다 영원 우린 이별할테 지금 친구 곁 내 함 하다 할거 
+sbs_besideme,pponette,COMMENT,pym0ane-5jk8h,c_nw84y-ym0ane-5jk8h,2011-08-22,박정현 팬 하다 하지 지금 저 있다 뭔가 와닿네용 
+sbs_besideme,candyyh0615,COMMENT,pym0ane-5jk8h,c_nwc23-ym0ane-5jk8h,2011-24-22,박정현 박정현의 친구 친구처럼 넘 좋다 
+sbs_besideme,skyumi3,COMMENT,pym0ane-5jk8h,c_nwcc2-ym0ane-5jk8h,2011-16-22,사랑보단 친구 맞다 사 사랑 헤어짐이란게 두렵다 친구 헤어지다 두려워 두려워할 필요없으니까ᆢ 
+sbs_besideme,amazon37,COMMENT,pym0ane-5jk8h,c_nwgim-ym0ane-5jk8h,2011-14-22,제드 굿모닝이 굿모닝 ㅎㅎ 
+sbs_besideme,brightjoo,COMMENT,pym0ane-5jk8h,c_nwh8x-ym0ane-5jk8h,2011-46-22,굿모닝 
+sbs_besideme,candyyh0615,COMMENT,pym0ane-5jk8h,c_nwh96-ym0ane-5jk8h,2011-43-22,제드 한주 한주도 희망차다 바랄게 바랄게요 
+sbs_besideme,skyumi3,COMMENT,pym0ane-5jk8h,c_nwhc1-ym0ane-5jk8h,2011-47-22,제드 예전 느끼다 느끼 생각했던거라 
+sbs_besideme,jjayon173,COMMENT,pym0ane-5jk8h,c_nwi5q-ym0ane-5jk8h,2011-34-22,좋은아침 또다른하루시작 오늘하루도행복 
+sbs_besideme,zenath,COMMENT,pym0ane-5jk8h,c_nwi99-ym0ane-5jk8h,2011-41-22,유미짱 어떻다 보다 간단 머리 이해 가슴 진정 이해 공감하는덴 시간 오다 오래다 걸린거 같다 ㅎ 
+sbs_besideme,pearlclickb,COMMENT,pym0ane-5jk8h,c_nwiiv-ym0ane-5jk8h,2011-48-22,가사 들다 순간 누구노래지 하다 박정현 노래 좋다 
+sbs_besideme,zenath,COMMENT,pym0ane-5jk8h,c_nwijk-ym0ane-5jk8h,2011-41-22,굳센캔디 저 정말 좋아하다 곡이예 곡이예요 ㅎㅎ 좋다 아침 오늘 행복 
+sbs_besideme,zenath,COMMENT,pym0ane-5jk8h,c_nwip6-ym0ane-5jk8h,2011-42-22,Chic왕페 Chic왕페이 넵 굿모닝 굿모닝입니 굿모닝입니다 감사 오늘 화이팅 하시고 하시 이번주 이번주도 평안 ㅎ 
+sbs_besideme,golive1114,COMMENT,pym0ane-5jk8h,c_nwips-ym0ane-5jk8h,2011-42-22,그렇죠 친구로서 옆 있다 보고싶을때 볼수 있으니깐 있으니깐요 목소리 듣다 싶을때 전화걸수 있으니깐 있으니깐요 알다 싶을때 손 잡을수 있으니깐 있으니깐요 
+sbs_besideme,zenath,COMMENT,pym0ane-5jk8h,c_nwm0g-ym0ane-5jk8h,2011-35-22,pponette 그랬 고1 때 아니다 ㅋㅋ 전 절다 고1 초때 같다 ㅋㅋㅋ 암튼 추억돋네 오락실 노래방가서 진짜 많다 불렀는데 ㅋㅋㅋㅋㅋㅋㅋ 
+sbs_besideme,zenath,COMMENT,pym0ane-5jk8h,c_nwm0k-ym0ane-5jk8h,2011-33-22,수정구슬 안타깝다 안타깝다지 그런것 그런것만 아닌거 같다 저 이제 저마음 저마음을 알꺼 같거든 같거든요 
+sbs_besideme,zenath,COMMENT,pym0ane-5jk8h,c_nwm1v-ym0ane-5jk8h,2011-48-22,pponette 어허 ㅋㅋ 중3 땐 모르다 고1 땐 오락실 노래방 있었죠 엄청 자주갔었던 ㅋㅋㅋㅋ 
+sbs_besideme,pponette,COMMENT,pym0ane-5jk8h,c_nwm88-ym0ane-5jk8h,2011-13-22,제드 전 절다 동네 놀이터 ㅋㅋㅋ 
+sbs_besideme,pponette,COMMENT,pym0ane-5jk8h,c_nwm95-ym0ane-5jk8h,2011-50-22,제드 ㅋㅣㅋㅣ 그러셨군용 ㅋㅋ 전 절다 한창 방황중이었던지라 ㅋㅋㅋ 
+sbs_besideme,zenath,COMMENT,pym0ane-5jk8h,c_nwmc5-ym0ane-5jk8h,2011-22-22,안산아짐 좋다 아침 전 절다 오늘 상쾌 예비군 훈련 저녁 있다 ㅋㅋㅋㅋ 
+sbs_besideme,pponette,COMMENT,pym0ane-5jk8h,c_nwmc_-ym0ane-5jk8h,2011-22-22,제드 왜용 ㅋㅋㅋㅋ 
+sbs_besideme,pponette,COMMENT,pym0ane-5jk8h,c_nwmeq-ym0ane-5jk8h,2011-38-22,제드 읭 저땐 오락실 노래방 없다 노래방 ㅋ 헤깔리네용 
+sbs_besideme,zenath,COMMENT,pym0ane-5jk8h,c_nwmga-ym0ane-5jk8h,2011-27-22,pponette 고전적 정석인듯 동네놀이터 ㅋㅋㅋ 영역이랄까 범주 굉장 다양 넒 넒은 곳 ㅋㅋㅋ 
+sbs_besideme,zenath,COMMENT,pym0ane-5jk8h,c_nwmm2-ym0ane-5jk8h,2011-22-22,pponette ㅋㅋㅋㅋ 으잌 ㅋㅋㅋㅋㅋ 
+sbs_besideme,seun124,COMMENT,pym0ane-5jk8h,c_nwmo4-ym0ane-5jk8h,2011-19-22,굿 아침 
+sbs_besideme,pponette,COMMENT,pym0ane-5jk8h,c_nwmrw-ym0ane-5jk8h,2011-01-22,제드 와웅 전 절다 퀸이었어용 ㅋㅋ 
+sbs_besideme,zenath,COMMENT,pym0ane-5jk8h,c_nwmr_-ym0ane-5jk8h,2011-00-22,pponette 저 오락실 방황중이 ㅋㅋㅋㅋㅋ 놀궁리 킹 ㅋㅋㅋ 
+sbs_besideme,pponette,COMMENT,pym0ane-5jk8h,c_nwmto-ym0ane-5jk8h,2011-29-22,제드 푸핫 0 동네별루 점령 ㅋㅋ 
+sbs_besideme,zenath,COMMENT,pym0ane-5jk8h,c_nwmu1-ym0ane-5jk8h,2011-40-22,pponette 놀이터 다양 일들 일들이 사람 있다 뭐 얘기 ㅎㅎㅎ 
+sbs_besideme,zenath,COMMENT,pym0ane-5jk8h,c_nwmw7-ym0ane-5jk8h,2011-12-22,pponette 근데 그무렵 그무렵에 논다 논다하면 뭐 다른것 다른것도 있다 오락실 노래방 점거 기본이 안그러셨나봐요 ㅋㅋ 
+sbs_besideme,zenath,COMMENT,pym0ane-5jk8h,c_nwod2-ym0ane-5jk8h,2011-15-22,pponette 저 고등학교시절 1집 좋아하다 다르다 노래 좋다 이 노래 좀 조다 와닿다 ㅎㅎ 
+sbs_besideme,pponette,COMMENT,pym0ane-5jk8h,c_nwogp-ym0ane-5jk8h,2011-48-22,제드 아니예용 저 30맞아용 박정현 박정현이 저 중학교때 나의하루 로 데뷔했던걸로 아는데 그때 18번이였거 
+sbs_besideme,zenath,COMMENT,pym0ane-5jk8h,c_nwoi8-ym0ane-5jk8h,2011-46-22,pponette 몽중인 몽중인은 아마 2집 2집인데 그때 중학생 중학생이셨 전 절다 프필 프필에 숫자 나이이신줄 알다 저 또래신줄 알다 ㅎㅎ 아니다 아니셨구 죄송 ㅎㅎ 
+sbs_besideme,vese68,COMMENT,pym0ane-5jk8h,c_nwot4-ym0ane-5jk8h,2011-51-22,노래 여자분 맘 안타깝다 
+sbs_besideme,zenath,COMMENT,pym0ane-5jk8h,c_nwovz-ym0ane-5jk8h,2011-11-22,pponette 2집 몽중인 팬이 그때 중학생 하시는줄 ㅎㅎㅎ 나 하루 데뷔 맞다 아마 고1 때였던거 같은데 같은데요 아니다 
+sbs_besideme,pponette,COMMENT,pym0ane-5jk8h,c_nwox5-ym0ane-5jk8h,2011-15-22,제드 아하 박정현 박정현을 중학교때 팬이었다능 ㅋㅋ 그중 몽중 몽중인 좋아했어용 나의하루 중3 때 나왔잖아용 
+sbs_besideme,pponette,COMMENT,pym0ane-5jk8h,c_nwo_j-ym0ane-5jk8h,2011-18-22,제드 음 이노래두 좋다 전 절다 유독 몽중 몽중인 애착 가용 중학교때 팬 
+sbs_besideme,98224,COMMENT,pym0b9q-_mrwh,c_no9k_-ym0b9q-_mrwh,2011-51-22,크크 ㅋㅋ 윤두준연기많이나아짐 몽땅초에오글가렷 ㅋㅋㅋ 근데 근데요 ㅡㅁ 오글거림굳 오그리토그리 
+sbs_besideme,pckim21c,COMMENT,pym0b9q-_mrwh,c_nrhei-ym0b9q-_mrwh,2011-40-21,아 진짜 두준 두준이 연기 잘하나봐 나 나다 나오는줄 알다 단곳 나오는거 보다 보 
+sbs_besideme,amy971028,COMMENT,pym0b9q-_mrwh,c_nrtaf-ym0b9q-_mrwh,2011-38-21,천번 천번의 입맞추다 보다 ㅋㅋㅋ 두 뷰티 뷰티도 이거 볼껄 여기 두준 두준이 나오자 나오자나 ㅋㅋ 
+sbs_besideme,ribbondog,COMMENT,pym0m01-yvkuk,c_nfh7w-ym0m01-yvkuk,2011-41-21,애절 
+sbs_besideme,sherlock47,COMMENT,pym0m01-yvkuk,c_nfqyk-ym0m01-yvkuk,2011-41-21,김회색어린 김회색어린이 ㅋㅋ 
+sbs_besideme,haruzzang-,COMMENT,pym0v00-5s9gd,c_n7hrq-ym0v00-5s9gd,2011-19-19,녹차라떼 결혼 현실 주위 너무봐서 전 절다 연애 좋다 그리다 제가 제 좋아하다 배우 대거 나오다 완전 만족모드 
+sbs_besideme,guskrlenffu,COMMENT,pym0v00-5s9gd,c_n7hxa-ym0v00-5s9gd,2011-22-19,하루짱 ㅋㅋㅋㅋㅋ 아마자 주위 막 결혼하지말라구 말리다 말리시겠구 ㅋㅋㅋㅋ 하 하다 이동욱 ㅎㅎ 얼굴 더작아져써 더작아져써요 ㅎㅎㅎ 
+sbs_besideme,guskrlenffu,COMMENT,pym0v00-5s9gd,c_n7nqp-ym0v00-5s9gd,2011-55-19,하루짱 ㅎㅎㅎㅎ 마자 마자요 ㅋㅋ 저 예전 일했을때 어머님 아버님 결혼얘기 하시고 하시 ㅋㅋㅋ 은근 불륜 진짜 많았아 ㅠ 
+sbs_besideme,haruzzang-,COMMENT,pym0v00-5s9gd,c_n7s9w-ym0v00-5s9gd,2011-28-19,녹차라떼 결혼 안해보는거 보다 낫다 자기짝 자기짝이 다르다 스타일 찾다 ㅋㅋ 시댁 따지다 가다 가 현실적 충고 해주죠 ㅋㅋ 남자 혼자 사다 살 하공 ㅋㅋ 
+sbs_besideme,guskrlenffu,COMMENT,pym0v00-5s9gd,c_n7t7t-ym0v00-5s9gd,2011-17-19,요즘 ost ost가 드라마 띄어주는거 거타 거타요 ㅋㅋㅋㅋ 전 절다 여인의향기 여인의향기보 애정만만세에푹빠졌어 ㅋㅋㅋ 연애보단 결혼의현실 재밌네 재밌네여 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 애늙은인가 ㅠㅠ 
+sbs_besideme,haruzzang-,COMMENT,pym0v00-5s9gd,c_n7vem-ym0v00-5s9gd,2011-58-19,녹차라떼 헉 불륜 전 절다 불륜 아니다 책임감 없다 인간 많다 ㅋㅋ 성격차이 많다 시댁 그렇다 문제 ㅋㅋ 아 생각 것만 것만으로 머리 아프다 혼자살 혼자살라 뜻 ㅋㅋ 
+sbs_besideme,haruzzang-,COMMENT,pym0v00-5s9gd,c_v65re-ym0v00-5s9gd,2011-10-20,녹차라떼 결혼 친구 많다 넘 많다 알게되서 결혼 못하다 전 절다 주 언니 친하다 그러다보 이렇게 되버렸답니다 ㅋㅋ 
+sbs_besideme,guskrlenffu,COMMENT,pym0v00-5s9gd,c_v6jvm-ym0v00-5s9gd,2011-03-20,하루짱 헉 ㅋㅋㅋ 모를때 가다 가 말다 말 나온거네 나온거네요 ㅋㅋㅋㅋ 
+sbs_besideme,guskrlenffu,COMMENT,pym0v00-5s9gd,c_v6y2c-ym0v00-5s9gd,2011-08-20,하루짱 그쵸 ㅠㅠ 저희언니두 내년이면서른 아직 결혼 친구 없다 ㅎㅎ 요새 서른은뭐 ㅎㅎ 저두 돈 마니모아놔서 당 시집갈꾸에 흑흑 ㅠㅠ 
+sbs_besideme,dgh04018,COMMENT,pym0__0-5cj0,c_n4x3o-ym0__0-5cj0,2011-06-19,아고마워 아고마워라 ㅋㅋ 
+sbs_besideme,ancw2000,COMMENT,pym0__0-5cj0,c_n4x9a-ym0__0-5cj0,2011-07-19,보스애비짜세 ㅋㅋㅋ 힘내다 ㅋㅋ 
+sbs_besideme,ancw2000,COMMENT,pym0__0-5cj0,c_n4xip-ym0__0-5cj0,2011-07-19,보스애비짜세 ㅎ 
+sbs_besideme,dgh04018,COMMENT,pym0__0-5cj0,c_n4xm4-ym0__0-5cj0,2011-07-19,신비주의자 앞 홧팅 ㅋㅋ 
+sbs_besideme,ancw2000,COMMENT,pym0__0-5cj0,c_nl1j5-ym0__0-5cj0,2011-47-19,봄봄 그르쿠 그르쿠나 ㅠ 
+sbs_besideme,gangaji98,COMMENT,pym0__0-5cj0,c_nl22g-ym0__0-5cj0,2011-37-19,목포미남훼 오래가시옹 
+sbs_besideme,gangaji98,COMMENT,pym0__0-5cj0,c_nl2ua-ym0__0-5cj0,2011-36-19,와우웅 빅뱅분들축하드리고븨앞분들도축하 
+sbs_besideme,miranda0214,COMMENT,pym0__0-5cj0,c_nl94c-ym0__0-5cj0,2011-53-19,신비주의자 웅 신비도힘냉 
+sbs_besideme,ancw2000,COMMENT,pym0__0-5cj0,c_nl9h5-ym0__0-5cj0,2011-52-19,봄봄 힘내다 빠샤 
+sbs_besideme,miranda0214,COMMENT,pym0__0-5cj0,c_nl9ju-ym0__0-5cj0,2011-51-19,신비주의자 웅 ㅠㅠ 
+sbs_besideme,ancw2000,COMMENT,pym0__0-5cj0,c_nlb5f-ym0__0-5cj0,2011-43-19,봄봄 올만 올만이 ㅠ 
+sbs_besideme,miranda0214,COMMENT,pym0__0-5cj0,c_nlbkr-ym0__0-5cj0,2011-43-19,신비주의자 그니깐 ㅠ 
+sbs_besideme,ancw2000,COMMENT,pym0__0-5cj0,c_nlbpl-ym0__0-5cj0,2011-44-19,봄봄 보고싶엇소 ㅠ 
+sbs_besideme,miranda0214,COMMENT,pym0__0-5cj0,c_nlbqo-ym0__0-5cj0,2011-45-19,신비주의자 미투 ㅠㅠ 요즘정신없이사는듯 ㅋ 
+sbs_besideme,miranda0214,COMMENT,pym0__0-5cj0,c_nle4g-ym0__0-5cj0,2011-42-19,
+sbs_besideme,ancw2000,COMMENT,pym0__0-5cj0,c_nljfc-ym0__0-5cj0,2011-55-19,봄봄 고맙다 ㅎ 
+sbs_besideme,miranda0214,COMMENT,pym0__0-5cj0,c_nljmh-ym0__0-5cj0,2011-55-19,신비주의자 나도네 ㅎ 
+sbs_besideme,ancw2000,COMMENT,pym0__0-5cj0,c_nljsd-ym0__0-5cj0,2011-56-19,봄봄 ㅎㅎ 
+sbs_besideme,miranda0214,COMMENT,pym0__0-5cj0,c_nljub-ym0__0-5cj0,2011-56-19,신비주의자 히히 
+sbs_besideme,ancw2000,COMMENT,pym0__0-5cj0,c_nlp9t-ym0__0-5cj0,2011-58-19,봄봄 항항 
+sbs_besideme,ancw2000,COMMENT,pym0__0-5cj0,c_nlpoz-ym0__0-5cj0,2011-59-19,봄봄 힘드뤄 
+sbs_besideme,miranda0214,COMMENT,pym0__0-5cj0,c_nlpr3-ym0__0-5cj0,2011-58-19,신비주의자 
+sbs_besideme,ancw2000,COMMENT,pym0__0-5cj0,c_nxecq-ym0__0-5cj0,2011-32-19,목포미남훼 고맙다 ㅠ 
+sbs_besideme,gksmfdkrl77,COMMENT,pym0__0-5cj0,c_v_9a0-ym0__0-5cj0,2011-32-19,우 빅뱅님들5 주년 축하 
+sbs_besideme,ancw2000,COMMENT,pym0__0-5cj0,c_v_sxu-ym0__0-5cj0,2011-25-20,엘프는슈주를좋아 엘프는슈주를좋아해 고맙다 
+sbs_besideme,marpos,COMMENT,pym1jzu-yt29j,c_v0d5l-ym1jzu-yt29j,2011-03-20,에로꺽대 뒤에 뒤에가 좀 조다 이상한거 기분탓이겠죠 ㅇㅅㅇㅋㅋㅋ 진짜 이건 주옥 ㅋㅋㅋ 미투 미투도 눌렀어요 ㅋㅋㅋㅋ 
+sbs_besideme,egggge,COMMENT,pym1jzu-yt29j,c_v0da7-ym1jzu-yt29j,2011-07-20,읭이건누구지 
+sbs_besideme,marpos,COMMENT,pym1jzu-yt29j,c_v0dna-ym1jzu-yt29j,2011-07-20,에로꺽대 어제거 꺽대형 꺽대형이 어제 드립 드립을 한두개 하다 ㅋㅋㅋㅋㅋ 
+sbs_besideme,snowtea2,COMMENT,pym1jzu-yt29j,c_v0drv-ym1jzu-yt29j,2011-04-20,블랙 피곤몬 고맙다 핡 꺽대횽 어젯거 보고 보다 보 너무웃엇긔 ㅋㅋㅋ 
+sbs_besideme,snowtea2,COMMENT,pym1jzu-yt29j,c_v0duq-ym1jzu-yt29j,2011-07-20,콩콩 콩콩이 족간지 족간지남 
+sbs_besideme,egggge,COMMENT,pym1jzu-yt29j,c_v0dz6-ym1jzu-yt29j,2011-07-20,머 머야 
+sbs_besideme,egggge,COMMENT,pym1jzu-yt29j,c_v0dzp-ym1jzu-yt29j,2011-07-20,누구지 
+sbs_besideme,egggge,COMMENT,pym1jzu-yt29j,c_v0yfw-ym1jzu-yt29j,2011-11-20,에로꺽대 미투데이 미투데이에 발 미남 사람이있었 누구세 
+sbs_besideme,marpos,COMMENT,pym1jzu-yt29j,c_v371s-ym1jzu-yt29j,2011-58-20,ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 핰 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 
+sbs_besideme,porsk,COMMENT,pym1jzu-yt29j,c_v3753-ym1jzu-yt29j,2011-57-20,흠 녀석 
+sbs_besideme,reeeneee,COMMENT,pym1jzu-yt29j,c_v375k-ym1jzu-yt29j,2011-57-20,ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 
+sbs_besideme,tpdus626,COMMENT,pym1jzu-yt29j,c_v3790-ym1jzu-yt29j,2011-58-20,ㅋㅋㅋㅋㅋ 가질수 
+sbs_besideme,snowtea2,COMMENT,pym1jzu-yt29j,c_v37tg-ym1jzu-yt29j,2011-00-20,리나킴 ㅋ 쓰다 고생햇당 
+sbs_besideme,snowtea2,COMMENT,pym1jzu-yt29j,c_v37u9-ym1jzu-yt29j,2011-01-20,블랙 피곤몬 고맙다 웃다 넌 널다 나 힘 암유어에너지 
+sbs_besideme,snowtea2,COMMENT,pym1jzu-yt29j,c_v37vp-ym1jzu-yt29j,2011-02-20,푸우세연 햏 신난당 
+sbs_besideme,reeeneee,COMMENT,pym1jzu-yt29j,c_v37xc-ym1jzu-yt29j,2011-02-20,에로꺽대 ㅇ 아니에 아니에여 
+sbs_besideme,hosangwl,COMMENT,pym1jzu-yt29j,c_v3x7y-ym1jzu-yt29j,2011-56-20,ㅋㅋㅋㅋ 태그 노래가사네 
+sbs_besideme,-_-vv-3,COMMENT,pym1qwy-_j6jr,c_vedpu-ym1qwy-_j6jr,2011-05-20,그댄 나 사랑빛 
+sbs_besideme,ohmygash,COMMENT,pym1qwy-_j6jr,c_veyk7-ym1qwy-_j6jr,2011-08-20,반지후 엠피트니까 이노래가나오드 이노래가나오드랑 
+sbs_besideme,-_-vv-3,COMMENT,pym1qwy-_j6jr,c_veyoj-ym1qwy-_j6jr,2011-09-20,이연비 글쿠낭 ㅎㅎ 
+sbs_besideme,obeta,COMMENT,pym1uc7-_sb79,c_ve80z-ym1uc7-_sb79,2011-55-20,대박 Lotte 백화점 10만원상품권 90 할인 할 1시 남다 http bit.ly kTUyDn 
+sbs_besideme,mickym0use,COMMENT,pym322v-smt7,c_npju4-ym322v-smt7,2011-37-21,앙 
+sbs_besideme,naverbylell,COMMENT,pym322v-smt7,c_npp2y-ym322v-smt7,2011-43-21,웅 
+sbs_besideme,kdhkjr2,COMMENT,pym35v4-_e9io,c_nvkb_-ym35v4-_e9io,2011-14-18,노랫말 진심 
+sbs_besideme,lovejehi79,COMMENT,pym3eez-5dur2,c_v0c7f-ym3eez-5dur2,2011-11-18,이좋은노래 
+sbs_besideme,lovejehi79,COMMENT,pym3eez-5dur2,c_ve83c-ym3eez-5dur2,2011-24-18,글루린 좋와 
+sbs_besideme,ff16d0,COMMENT,pym3eez-5dur2,c_ve883-ym3eez-5dur2,2011-26-18,희 희야 ㅋㅋㅋㅋ 
+sbs_besideme,lovejehi79,COMMENT,pym3eez-5dur2,c_ve8tw-ym3eez-5dur2,2011-27-18,글루린 ㅎㅎㅎㅎㅎㅎ 
+sbs_besideme,ff16d0,COMMENT,pym3eez-5dur2,c_vejtq-ym3eez-5dur2,2011-01-18,희 희야 ㅋㅋㅋ 역시 49일 49일을 본 보다 ㅋㅋㅋ 
+sbs_besideme,lovejehi79,COMMENT,pym3eez-5dur2,c_veju2-ym3eez-5dur2,2011-02-18,글루린 ㅋㅋㅋ 지금 감상중 ㅋ 
+sbs_besideme,ff16d0,COMMENT,pym3eez-5dur2,c_vew7y-ym3eez-5dur2,2011-24-18,희 희야 ㅇㅇ 노래 괜춘 괜춘해 ㅋ 
+sbs_besideme,ff16d0,COMMENT,pym3eez-5dur2,c_vewhg-ym3eez-5dur2,2011-22-18,희 희야 ㅋㅋ 나도 나다 나 아직 목록 있다 ㅋㅋ 
+sbs_besideme,lovejehi79,COMMENT,pym3eez-5dur2,c_vewjl-ym3eez-5dur2,2011-20-18,글루린 노래듣고있는중 ㅋ 
+sbs_besideme,ff16d0,COMMENT,pym3eez-5dur2,c_vewku-ym3eez-5dur2,2011-19-18,희 희야 재탕 
+sbs_besideme,lovejehi79,COMMENT,pym3eez-5dur2,c_vewud-ym3eez-5dur2,2011-23-18,글루린 들다 들다 아직 아직은 지겹지않아 ㅋ 
+sbs_besideme,mp5ksd6,COMMENT,pym3o2c-yfl28,c_nv0fw-ym3o2c-yfl28,2011-21-18,함불러봐 
+sbs_besideme,abcd8063,COMMENT,pym3o2c-yfl28,c_nv1df-ym3o2c-yfl28,2011-30-18,By간G 시크 한율 한율하 다 배신자 
+sbs_besideme,jin2278024,COMMENT,pym3o2c-yfl28,c_nv1gl-ym3o2c-yfl28,2011-32-18,By갅지틳s 쾌 형 미안 화푸러용 
+sbs_besideme,jin2278024,COMMENT,pym3o2c-yfl28,c_nv1n8-ym3o2c-yfl28,2011-32-18,By갅지틳s 쾌 히히 그럼 화푸는거 화푸는거다 
+sbs_besideme,abcd8063,COMMENT,pym3o2c-yfl28,c_nv1xo-ym3o2c-yfl28,2011-33-18,By간G 시크 한율 한율하 흠 
+sbs_besideme,abcd8063,COMMENT,pym3o2c-yfl28,c_nv1z0-ym3o2c-yfl28,2011-32-18,By간G 시크 한율 한율하 하트냠냠 
+sbs_besideme,abcd8063,COMMENT,pym3o2c-yfl28,c_nv84l-ym3o2c-yfl28,2011-55-18,By간G 시크 한율 한율하 귀여미 ㅋㅋ 
+sbs_besideme,jin2278024,COMMENT,pym3o2c-yfl28,c_nv86y-ym3o2c-yfl28,2011-52-18,By갅지틳s 쾌 ㅋㅋㅋ 귀요밐 ㅋㅋㅋ 귀여운척 귀여운척하 귀여운척하는 요 미X ㅋㅋㅋ 우리형 귀여미 ㅋㅋ 
+sbs_besideme,abcd8063,COMMENT,pym3o2c-yfl28,c_nv8e_-ym3o2c-yfl28,2011-52-18,By간G 시크 한율 한율하 응응 나 나다 귀여미 ㅎㅎ 
+sbs_besideme,jin2278024,COMMENT,pym3o2c-yfl28,c_nv8ir-ym3o2c-yfl28,2011-53-18,By갅지틳s 쾌 ㅎㅎ 나다 나 머징 
+sbs_besideme,jin2278024,COMMENT,pym3o2c-yfl28,c_nv91e-ym3o2c-yfl28,2011-34-18,By갅지틳s 쾌 응응 화풀쟈 ㅎ 
+sbs_besideme,jin2278024,COMMENT,pym3o2c-yfl28,c_nvbb4-ym3o2c-yfl28,2011-27-18,By갅지틳s 쾌 ㅋㅋ 근데 왜 외다 물어보다 치과 잘갔다와씀 
+sbs_besideme,abcd8063,COMMENT,pym3o2c-yfl28,c_nvbfv-ym3o2c-yfl28,2011-28-18,By간G 시크 한율 한율하 잘갔다왔따 이 배신자 
+sbs_besideme,jin2278024,COMMENT,pym3o2c-yfl28,c_nvbnq-ym3o2c-yfl28,2011-29-18,By갅지틳s 쾌 ㅋㅋㅋㅋ 나 나다 이빨 아프다 나 나다 배신자 아니 그럼 연가시도 연가시 배신자지 
+sbs_besideme,abcd8063,COMMENT,pym3o2c-yfl28,c_nvd2e-ym3o2c-yfl28,2011-56-18,노래 노랗다 뭐드 뭐드라 
+sbs_besideme,abcd8063,COMMENT,pym3o2c-yfl28,c_nve71-ym3o2c-yfl28,2011-27-18,By간G 시크 한율 한율하 아 맞다 ㅎㅎ 나 나다 알고이써씀 ㅋㅋㅋ 
+sbs_besideme,abcd8063,COMMENT,pym3o2c-yfl28,c_nvegy-ym3o2c-yfl28,2011-25-18,By간G 시크 한율 한율하 뭐 
+sbs_besideme,jin2278024,COMMENT,pym3o2c-yfl28,c_nvem6-ym3o2c-yfl28,2011-25-18,By갅지틳s 쾌 ㅋㅋㅋㅋㅋ 
+sbs_besideme,jin2278024,COMMENT,pym3o2c-yfl28,c_nvenl-ym3o2c-yfl28,2011-26-18,By갅지틳s 쾌 Ugly 
+sbs_besideme,jin2278024,COMMENT,pym3o2c-yfl28,c_nvflj-ym3o2c-yfl28,2011-48-18,By갅지틳s 쾌 형 천사 ㅋㅋ 
+sbs_besideme,abcd8063,COMMENT,pym3o2c-yfl28,c_nvfz4-ym3o2c-yfl28,2011-48-18,By간G 시크 한율 한율하 
+sbs_besideme,jin2278024,COMMENT,pym3o2c-yfl28,c_nvf__-ym3o2c-yfl28,2011-46-18,By갅지틳s 쾌 웅웅 형아 형아는 완전 1004 1004야 
+sbs_besideme,jin2278024,COMMENT,pym3o2c-yfl28,c_nvo39-ym3o2c-yfl28,2011-55-18,By갅지틳s 쾌 우와우왕 씡 씡난다 나오늘 형 죽이다 버섯 봣음 
+sbs_besideme,abcd8063,COMMENT,pym3o2c-yfl28,c_nvp4m-ym3o2c-yfl28,2011-42-18,By간G 시크 한율 한율하 이아니 이아니고 아니다 
+sbs_besideme,jin2278024,COMMENT,pym3o2c-yfl28,c_nvrph-ym3o2c-yfl28,2011-43-18,By갅지틳s 쾌 에다 화풀어용 우리 차칸 형 
+sbs_besideme,abcd8063,COMMENT,pym3o2c-yfl28,c_nvrss-ym3o2c-yfl28,2011-44-18,By간G 시크 한율 한율하 난 나다 날다 착하다 
+sbs_besideme,jin2278024,COMMENT,pym3o2c-yfl28,c_nvwet-ym3o2c-yfl28,2011-49-18,By갅지틳s 쾌 ㅋㅋㅋ 천사 그런뜻이엿 천사 차카다 차카다고 맞찌 
+sbs_besideme,jin2278024,COMMENT,pym3o2c-yfl28,c_nvwqz-ym3o2c-yfl28,2011-51-18,By갅지틳s 쾌 웅웅 역쒸 우리형 귀여벙 ㅋ 
+sbs_besideme,abcd8063,COMMENT,pym3o2c-yfl28,c_nvwun-ym3o2c-yfl28,2011-51-18,By간G 시크 한율 한율하 나 나다 귀여미 귀여미야 귀요미 아냐 ㅋ 
+sbs_besideme,abcd8063,COMMENT,pym3o2c-yfl28,c_nvwwr-ym3o2c-yfl28,2011-50-18,By간G 시크 한율 한율하 웅웅 ㅎㅎ 
+sbs_besideme,abcd8063,COMMENT,pym3o2c-yfl28,c_nvwy_-ym3o2c-yfl28,2011-49-18,By간G 시크 한율 한율하 응응 근데 천사 죽은사람이자 나 나다 안죽음 ㅋㅋ 
+sbs_besideme,7gkdnjssla7,COMMENT,pym5a_u-ezqr,c_4r1gn-ym5a_u-ezqr,2011-28-25,Li Uean 에헤헤헿 식 날짜 언제 ㅋ 
+sbs_besideme,jeje3121,COMMENT,pym5a_u-ezqr,c_4y9ea-ym5a_u-ezqr,2011-40-22,Li Uean 아하하핳 
+sbs_besideme,ilovelatale,COMMENT,pym5a_u-ezqr,c_4_8ee-ym5a_u-ezqr,2011-44-23,나는야트리플A 이히히히힣 지금 부끄럽다 그러는거지 
+sbs_besideme,jeje3121,COMMENT,pym5a_u-ezqr,c_n4pfm-ym5a_u-ezqr,2011-49-16,ㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷ 
+sbs_besideme,jeje3121,COMMENT,pym5a_u-ezqr,c_v110j-ym5a_u-ezqr,2011-19-18,Li Uean 아 아아아아아 현댕이 현댕이가 그런겨 잠깐 나 나다 츤데레라구 헐 ㄷㄷㄷㄷㄷ 
+sbs_besideme,ilovelatale,COMMENT,pym5a_u-ezqr,c_v1_9p-ym5a_u-ezqr,2011-50-18,나는야트리플A 남한테 쌀쌀해 쌀쌀해하면서 정작 좋아하다 사람한테 다정한거 
+sbs_besideme,ilovelatale,COMMENT,pym5a_u-ezqr,c_v5axb-ym5a_u-ezqr,2011-56-17,나는야트리플A 이히히 이히히히 
+sbs_besideme,ilovelatale,COMMENT,pym5a_u-ezqr,c_v5hn_-ym5a_u-ezqr,2011-44-17,나는야트리플A 에다 왜그러실까 
+sbs_besideme,jeje3121,COMMENT,pym5a_u-ezqr,c_v5sp9-ym5a_u-ezqr,2011-50-17,Li Uean ㄷㄷㄷㄷ 아니 아니라그 ㅠㅠ 에에엑 ㅜㅜㅜ 
+sbs_besideme,jeje3121,COMMENT,pym5a_u-ezqr,c_v5t4j-ym5a_u-ezqr,2011-40-17,Li Uean 뭐 뭐라는겨 ㄷㄷㄷㄷㄷㄷ 
+sbs_besideme,7gkdnjssla7,COMMENT,pym5a_u-ezqr,c_v89cc-ym5a_u-ezqr,2011-13-19,Li Uean 잘해보세용 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 
+sbs_besideme,ilovelatale,COMMENT,pym5a_u-ezqr,c_v8p9m-ym5a_u-ezqr,2011-22-19,초코케이크 넵 
+sbs_besideme,ilovelatale,COMMENT,pym5a_u-ezqr,c_vabxm-ym5a_u-ezqr,2011-45-21,초코케이크 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 웃다 ㅎㅎㅎ 
+sbs_besideme,ilovelatale,COMMENT,pym5a_u-ezqr,c_vb8ly-ym5a_u-ezqr,2011-09-18,초코케이크 
+sbs_besideme,jeje3121,COMMENT,pym5a_u-ezqr,c_vbnaz-ym5a_u-ezqr,2011-11-18,초코케이크 츤데레 츤데레가 뭔겨 
+sbs_besideme,jeje3121,COMMENT,pym5a_u-ezqr,c_vcjco-ym5a_u-ezqr,2011-22-20,초코케이크 아아아아아아아아악 ㅠㅠㅠㅠㅠㅠㅠㅠ 난몰라 난몰라 난몰라 ㅠㅠ 흐엉엉 
+sbs_besideme,jeje3121,COMMENT,pym5a_u-ezqr,c_vcjo0-ym5a_u-ezqr,2011-21-20,Li Uean 아니 ㅠㅠㅠ 아니라구 ㅠㅠ 어쩌다 이렇게 된거지 ㅠ 사건 발단 뭐 ㅠㅠ 
+sbs_besideme,jeje3121,COMMENT,pym5a_u-ezqr,c_vcjp2-ym5a_u-ezqr,2011-21-20,초코케이크 음 잠깐 음 해석 필요 내 츤데레라는겨 아니다 현댕 현댕이 머지 혼란이오고 ㄷㄷ 
+sbs_besideme,7gkdnjssla7,COMMENT,pym5a_u-ezqr,c_vep1z-ym5a_u-ezqr,2011-04-18,헐 ㅋㅋㅋㅋㅋㅋ 은제 츤데레였던겨 
+sbs_besideme,7gkdnjssla7,COMMENT,pym5a_u-ezqr,c_vfw1s-ym5a_u-ezqr,2011-44-19,나는야트리플A ㅋㅋㅋㅋㅋ 좋음서 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 
+sbs_besideme,7gkdnjssla7,COMMENT,pym5a_u-ezqr,c_vgcag-ym5a_u-ezqr,2011-13-20,나는야트리플A 당근 너지 ㅋㅋㅋ 너두 애정표현 적극적 하란말야 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ 
+sbs_besideme,ilovelatale,COMMENT,pym5a_u-ezqr,c_vwe1e-ym5a_u-ezqr,2011-40-19,나는야트리플A 왜이러셔 ㅎ 
+sbs_besideme,ilovelatale,COMMENT,pym5a_u-ezqr,c_vwebd-ym5a_u-ezqr,2011-40-19,초코케이크 그러니까 부끄러워하는게 문제죠 
+sbs_besideme,ilovelatale,COMMENT,pym5a_u-ezqr,c_vyao3-ym5a_u-ezqr,2011-16-17,아이 아 우리 은제 왜이럴까 새삼스럽다 원래 은제 더하다 
+sbs_besideme,jeje3121,COMMENT,pym5a_u-ezqr,c_vzedd-ym5a_u-ezqr,2011-29-21,초코케이크 으에에에에에에엑 뭐 뭔소린겨 
+sbs_besideme,ilovelatale,COMMENT,pym5a_u-ezqr,c_vzhpv-ym5a_u-ezqr,2011-52-21,나는야트리플A 맞다 은제 부끄럽다 할 하다 필요 필 없다 우리 어떤 사이 ㅎㅎ 
+sbs_besideme,gigabrood,COMMENT,pym6izl-_5_qd,c_ns534-ym6izl-_5_qd,2011-16-17,김기절 ㅋㅋㅋㅋ 그럼거 그럼거임 슈밤 아 나 나다 눈물좀 닦다 ㅋㅋ 
+sbs_besideme,b5style,COMMENT,pym6izl-_5_qd,c_ns54o-ym6izl-_5_qd,2011-18-17,너를향한콧물 이젠 누굴 만나다 조금 좋아하다 적 거리 두다 두 내 붙잦을수 있다 도망 못갈 정도로 정도로만 좋아하다 
+sbs_besideme,gigabrood,COMMENT,pym6izl-_5_qd,c_ns65c-ym6izl-_5_qd,2011-22-17,김기절 안그래야지 안그래야지 하다 자꾸그런다 ㅋㅋㅋㅋ 나도모르개 ㅋㅋㅋ 
+sbs_besideme,b5style,COMMENT,pym6izl-_5_qd,c_ns69z-ym6izl-_5_qd,2011-23-17,너를향한콧물 나이 나다 나 먹을수록 교활 교활해지 기회 보다 되다 되 내 짜증 ㅋㅋㅋㅋ 
+sbs_besideme,gigabrood,COMMENT,pym6izl-_5_qd,c_nsdsj-ym6izl-_5_qd,2011-12-17,내생각 내생각은 글타 사랑 1 이 가면 가다 아프다 아픔 2로오는거 2로오는거야 안글 안글나 ㅋㅋㅋㅋ 글보러가기 
+sbs_besideme,jidang39,COMMENT,pym6izl-_5_qd,c_nsh9l-ym6izl-_5_qd,2011-21-17,김기절 집 도착 호호 내일 토요일 의뢰받은일 내실험 내실험은 일요일 밀려쓰 밀려쓰요 ㅜㅜ 
+sbs_besideme,b5style,COMMENT,pym6izl-_5_qd,c_nska1-ym6izl-_5_qd,2011-27-17,나는홍지 ㅋ 왴 ㅋ 
+sbs_besideme,jidang39,COMMENT,pym6izl-_5_qd,c_nskki-ym6izl-_5_qd,2011-25-17,오 
+sbs_besideme,jidang39,COMMENT,pym6izl-_5_qd,c_nsw6b-ym6izl-_5_qd,2011-58-17,김기절 기냥 기냥요 ㅋㅋㅋ 
+sbs_besideme,b5style,COMMENT,pym6izl-_5_qd,c_nswzp-ym6izl-_5_qd,2011-00-17,나는홍지 ㅋ ㅋㅋㅋ 집에가누 
+sbs_besideme,b5style,COMMENT,pym6izl-_5_qd,c_nsyk6-ym6izl-_5_qd,2011-13-17,너를향한콧물 ㅋㅋㅋ 세상 이치니깐 
+sbs_besideme,b5style,COMMENT,pym6izl-_5_qd,c_ns_a8-ym6izl-_5_qd,2011-21-17,너를향한콧물 이게 학습효과고 학습효과 면역이라는거지 ㅋㅋㅋ 가슴 아니다 머리 사람 만나다 되는구마 되는구마이 ㅠㅠ 
+sbs_besideme,gigabrood,COMMENT,pym6izl-_5_qd,c_ns_m3-ym6izl-_5_qd,2011-20-17,김기절 오 맞다 ㅋㅋㅋ 또그럴까바 거리 두개 두개되네 자꾸 ㅎㅎㅎㅎ 같은생각하고있었구 ㅋㅋㅋ 
+sbs_besideme,yeonge3,COMMENT,pym6sfw-yzdj0,c_n06lu-ym6sfw-yzdj0,2011-24-20,아이유좋아 
+sbs_besideme,km4082,COMMENT,pym6sfw-yzdj0,c_n0k3t-ym6sfw-yzdj0,2011-25-20,티아 티아라 소연 ㅎㅎ 
+sbs_besideme,q1q2q,COMMENT,pym6sfw-yzdj0,c_n0k5f-ym6sfw-yzdj0,2011-24-20,티아 티아라 효민 아니 아 좋아하는건 아니구 Boo Boo가 좋다 
+sbs_besideme,q1q2q,COMMENT,pym6sfw-yzdj0,c_n0k9q-ym6sfw-yzdj0,2011-26-20,티아 티아라 효민 ㅎㅎ 이승기 우리 효민이꼬 
+sbs_besideme,yeonge3,COMMENT,pym6sfw-yzdj0,c_n0kbx-ym6sfw-yzdj0,2011-26-20,티아 티아라 소연 ㅎㅎ 다행 
+sbs_besideme,q1q2q,COMMENT,pym6sfw-yzdj0,c_n0kes-ym6sfw-yzdj0,2011-25-20,티아 티아라 효민 예전 그랬지 근데 요즘 좋아지다 ㅎㅎ 
+sbs_besideme,q1q2q,COMMENT,pym6sfw-yzdj0,c_n0kk6-ym6sfw-yzdj0,2011-25-20,보람 노래 노랗다 불러 ㅎㅎ 
+sbs_besideme,yeonge3,COMMENT,pym6sfw-yzdj0,c_n0kko-ym6sfw-yzdj0,2011-25-20,티아 티아라 소연 아하 근데언니진짜로이승기별로 
+sbs_besideme,q1q2q,COMMENT,pym6sfw-yzdj0,c_n0kop-ym6sfw-yzdj0,2011-27-20,티아 티아라 효민 ㅎㅎㅎ 
+sbs_besideme,yeonge3,COMMENT,pym6sfw-yzdj0,c_n0krh-ym6sfw-yzdj0,2011-26-20,티아 티아라 소연 우 이승기내꺼 
+sbs_besideme,km4082,COMMENT,pym6sfw-yzdj0,c_n0k_2-ym6sfw-yzdj0,2011-24-20,모해 
+sbs_besideme,dalccong316,COMMENT,pym6sur-__q0,c_n6huw-ym6sur-__q0,2011-38-19,사녹가 사녹가요 조켔닼 ㅜㅡㅜㅡㅜ 
+sbs_besideme,jouris,COMMENT,pym9mtb-9b_n,c_nq2lv-ym9mtb-9b_n,2011-22-23,3suni 내 언제 그랬어 일단 술 취한 취하다 적다 적 읎다 읎다고 
+sbs_besideme,shop-girl,COMMENT,pym9mtb-9b_n,c_nq2nh-ym9mtb-9b_n,2011-22-23,조 술취 발차기하던데 
+sbs_besideme,jouris,COMMENT,pym9mtb-9b_n,c_nqpm4-ym9mtb-9b_n,2011-36-23,3suni 발차기 이불 언제지 자다 자 동안 
+sbs_besideme,jouris,COMMENT,pym9mtb-9b_n,c_nquzt-ym9mtb-9b_n,2011-16-23,3suni 나다 나 발로 발 찰 차다 때 잘 자다 때뿐 때뿐이거 때뿐이거든 해 20분 20분만 달려오다 확인 줄 주다 알다 
+sbs_besideme,shop-girl,COMMENT,pym9mtb-9b_n,c_nqzyx-ym9mtb-9b_n,2011-06-23,조 어머 얘 몬소리래 
+sbs_besideme,shop-girl,COMMENT,pym9mtb-9b_n,c_nt0af-ym9mtb-9b_n,2011-28-22,감앤필 이해해써효 ㅋㅋㅋㅋㅋㅋㅋ 
+sbs_besideme,gamnfeel,COMMENT,pym9mtb-9b_n,c_nt0ob-ym9mtb-9b_n,2011-27-22,3suni님 3suni님의 청승떠는목소리 어떤가 어떤가요 ㅋㅋ 모두 목소리 다알고계시는군 다알고계시는군요 
+sbs_besideme,shop-girl,COMMENT,pym9mtb-9b_n,c_nt0qb-ym9mtb-9b_n,2011-27-22,감앤필 앗 여기도 여기 계셔쎄효 이분 전설의스뎅파 막내시라죠 
+sbs_besideme,gamnfeel,COMMENT,pym9mtb-9b_n,c_nt0tb-ym9mtb-9b_n,2011-27-22,3suni 아니 아 조나단님의목소리 ㅋ 
+sbs_besideme,gamnfeel,COMMENT,pym9mtb-9b_n,c_nt0x9-ym9mtb-9b_n,2011-28-22,3suni 오다 재밌을것 재밌을것같아 재밌을것같아요 
+sbs_besideme,shop-girl,COMMENT,pym9mtb-9b_n,c_nt344-ym9mtb-9b_n,2011-25-22,난 나다 날다 니 노래 노랗다 들어보다 것 같다 
+sbs_besideme,jouris,COMMENT,pym9mtb-9b_n,c_nt3dv-ym9mtb-9b_n,2011-22-22,감앤필 아 것 혼자 청승 떨다 부르다 걸 좋아하다 특 노래 노랗다 부르다 부 때 건 거다 걸다 음 참 차다 힘들 것 같 ㅎㅎㅎ 
+sbs_besideme,gamnfeel,COMMENT,pym9mtb-9b_n,c_nt66d-ym9mtb-9b_n,2011-15-22,담배 엄청 많다 피우다 나올법 나올법한 창법인것같긔 ㅋㅋ 
+sbs_besideme,jouris,COMMENT,pym9mtb-9b_n,c_nt67l-ym9mtb-9b_n,2011-18-22,타인의스물셋 안다 안기다 곳 침대 뿐 
+sbs_besideme,shop-girl,COMMENT,pym9mtb-9b_n,c_nt9i5-ym9mtb-9b_n,2011-41-22,조 난 나다 날다 니 발차기도 발차기 본 보다 것 같다 
+sbs_besideme,iog9,COMMENT,pym9mtb-9b_n,c_ntb3d-ym9mtb-9b_n,2011-32-22,조 오 뭔가 선정적 
+sbs_besideme,jouris,COMMENT,pym9mtb-9b_n,c_ntbhm-ym9mtb-9b_n,2011-34-22,타인의스물셋 이러지 않다 괜찮다 
+sbs_besideme,jouris,COMMENT,pym9mtb-9b_n,c_ntbsw-ym9mtb-9b_n,2011-34-22,순두부 아니다 
+sbs_besideme,jouris,COMMENT,pym9mtb-9b_n,c_ntbut-ym9mtb-9b_n,2011-34-22,3suni 맞다 
+sbs_besideme,jouris,COMMENT,pym9mtb-9b_n,c_ntbz3-ym9mtb-9b_n,2011-34-22,3suni 감앤필 아 스뎅파 막내 조나단 조나단입니 조나단입니다 
+sbs_besideme,soondubu,COMMENT,pym9mtb-9b_n,c_ntevm-ym9mtb-9b_n,2011-31-22,당신 당신이 있다 건 거다 걸다 아니다 아니다 
+sbs_besideme,soondubu,COMMENT,pym9mtb-9b_n,c_ntgqg-ym9mtb-9b_n,2011-25-23,조 ㅠㅠ 
+sbs_besideme,gamnfeel,COMMENT,pym9mtb-9b_n,c_ntkid-ym9mtb-9b_n,2011-20-22,조 그럼 장훈이헝아 고음할땐 발차기 힘 내보다 
+sbs_besideme,jouris,COMMENT,pym9mtb-9b_n,c_ntk_f-ym9mtb-9b_n,2011-18-22,감앤필 아 담배 피다 고다 고음 안되다 걸걸하기 걸걸하기만 하다 해 
+sbs_besideme,iog9,COMMENT,pym9mtb-9b_n,c_nt_v3-ym9mtb-9b_n,2011-14-22,비틀거릴 내으 내으가 
+sbs_besideme,ouioui1,COMMENT,pym9vqf-yf_hw,c_vhf54-ym9vqf-yf_hw,2011-07-20,ㅋㅋ 
+sbs_besideme,olily113,COMMENT,pym9vqf-yf_hw,c_vhr27-ym9vqf-yf_hw,2011-06-20,ㅋㅋㅋ 
+sbs_besideme,thsekgud1,COMMENT,pym9vqf-yf_hw,c_vhwwk-ym9vqf-yf_hw,2011-11-20,ㅋ 
+sbs_besideme,gena4492,COMMENT,pym9vqf-yf_hw,c_vzl9b-ym9vqf-yf_hw,2011-43-21,ㅋㅋㅋㅋ 
+sbs_besideme,wkdgksthd,COMMENT,pymbjjx-5mft3,c_v665f-ymbjjx-5mft3,2011-17-20,
+sbs_besideme,jwww_oj96,COMMENT,pymbjjx-5mft3,c_v6_tj-ymbjjx-5mft3,2011-15-20,
+sbs_besideme,dlekzn,COMMENT,pymbjjx-5mft3,c_v6_w0-ymbjjx-5mft3,2011-14-20,
+sbs_besideme,yejin1952,COMMENT,pymb_hv-_qcwk,c_v_1t2-ymb_hv-_qcwk,2011-29-19,이름 아 미안 ㅜㅜ 댓글확인 안하다 안 글만올려써 ㅠㅠㅠ 미안 
+sbs_besideme,sjsy0512,COMMENT,pymb_hv-_qcwk,c_v_1y1-ymb_hv-_qcwk,2011-27-19,야너내가가치앉자구했는데계속씹냐 
+sbs_besideme,goboseng0412,COMMENT,pymdmbf-_bmal,c_2v0qq-ymdmbf-_bmal,2011-37-18,이 노래 노랗다 알다 분 몇분 몇분이 있으시련지 ㅎ 
+sbs_besideme,goboseng0412,COMMENT,pymdmbf-_bmal,c_2v0z9-ymdmbf-_bmal,2011-37-18,이 노래 디셈버 J cera 가슴 운다feat 아이린 윤미 
+sbs_besideme,goboseng0412,COMMENT,pymdmbf-_bmal,c_2vb1i-ymdmbf-_bmal,2011-45-18,여신 열다 남궁혜아 ㅋㅋㅋ 음 TV오락프로그램 보고 나오다 나 ㅋㅋㅋ 
+sbs_besideme,goboseng0412,COMMENT,pymdmbf-_bmal,c_2vehk-ymdmbf-_bmal,2011-42-18,음 노래 노랗다 알다 분 분없 ㅋ 글보러가기 
+sbs_besideme,kwak4948,COMMENT,pymdmbf-_bmal,c_2vel5-ymdmbf-_bmal,2011-43-18,이노랰 ㅋ 어디서들어본거가타 ㅎ 
+sbs_besideme,joel0839,COMMENT,pymdod1-5yu48,c_22m72-ymdod1-5yu48,2011-10-17,타이껄 노래 노랗다 
+sbs_besideme,joel0839,COMMENT,pymdod1-5yu48,c_22m76-ymdod1-5yu48,2011-10-17,순진 노래 노랗다 
+sbs_besideme,joel0839,COMMENT,pymdod1-5yu48,c_22ml4-ymdod1-5yu48,2011-10-17,Son 노래 노랗다 
+sbs_besideme,liz98,COMMENT,pymdod1-5yu48,c_27lf7-ymdod1-5yu48,2011-47-18,아오글거려 ㅡㅡ 
+sbs_besideme,chukgoo11,COMMENT,pymdod1-5yu48,c_2ack1-ymdod1-5yu48,2011-00-17,머 머임 
+sbs_besideme,dkrl98330,COMMENT,pymdod1-5yu48,c_2anhk-ymdod1-5yu48,2011-00-17,머 머임 
+sbs_besideme,yubin0408,COMMENT,pymdod1-5yu48,c_2au4q-ymdod1-5yu48,2011-51-17,머 머임 
+sbs_besideme,chukgoo11,COMMENT,pymdod1-5yu48,c_2n7x7-ymdod1-5yu48,2011-58-18,ㅋㅋㅋㅋㅋㅋㅋㅋㅋ 
+sbs_besideme,joel0839,COMMENT,pymdod1-5yu48,c_2vdkg-ymdod1-5yu48,2011-58-18,Son 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_nj2xc-ymdw94-samb,2011-48-15,오이도왕자 ㅋㅋㅋ 좋다 않다 ㅋ 
+sbs_besideme,oidoprince,COMMENT,pymdw94-samb,c_nj2yd-ymdw94-samb,2011-45-15,묘한매력 후렴부분은알 ㅋㅋ 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_nj7lp-ymdw94-samb,2011-05-16,오이도왕자 ㅎㅎ 그치 그치 옛날노래가좋 ㅋㅋ 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_nj7wm-ymdw94-samb,2011-03-16,낡은레코드 ㅎㅎㅎ 좋다 ㅎ 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_njhdl-ymdw94-samb,2011-27-15,박현수 ㅎㅎ 그노래 그노래는 머 머야 ㅎ 
+sbs_besideme,merli81,COMMENT,pymdw94-samb,c_njhpb-ymdw94-samb,2011-28-15,묘한매력 좋은노래 ㅋㅋ 
+sbs_besideme,therich02,COMMENT,pymdw94-samb,c_njlj1-ymdw94-samb,2011-57-15,오 ㅋㅋㅋ 
+sbs_besideme,oidoprince,COMMENT,pymdw94-samb,c_njnrs-ymdw94-samb,2011-49-15,묘한매력 완전조아 옛날노래가더조은거같애 ㅋㅋ 
+sbs_besideme,kkkh8425,COMMENT,pymdw94-samb,c_njsd5-ymdw94-samb,2011-33-15,전 절다 promise you ㅎㅎ 
+sbs_besideme,merli81,COMMENT,pymdw94-samb,c_njtsa-ymdw94-samb,2011-26-15,나다 나 얼음꽃 ㅋㅋㅋ 아이유 안좋아 요즘 땡기네 
+sbs_besideme,oidoprince,COMMENT,pymdw94-samb,c_njz8k-ymdw94-samb,2011-41-15,음은아는데 가사 잘모르겠당 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_njzz6-ymdw94-samb,2011-42-15,오이도왕자 ㅎㅎㅎ 글쿠낭 ㅎㅎ 좋다 ㅎ 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_np075-ymdw94-samb,2011-32-16,닭잡고삐약 ㅋㅋㅋ 어떻다 불러줄래 ㅋ 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_np0f8-ymdw94-samb,2011-30-16,닭잡고삐약 ㅋㅋㅋ 방법 많다 ㅋㅋㅋ 
+sbs_besideme,ujyhghg,COMMENT,pymdw94-samb,c_np0tu-ymdw94-samb,2011-31-16,묘한매력 그런가 ㅋㅋㅋ 방법은많지 ㅋㅋ 
+sbs_besideme,ujyhghg,COMMENT,pymdw94-samb,c_np111-ymdw94-samb,2011-40-16,묘한매력 나내일출근 ㅋㅋ 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_np1nv-ymdw94-samb,2011-42-16,닭잡고삐약 째버려 ㅋㅋㅋㅋ 
+sbs_besideme,therich02,COMMENT,pymdw94-samb,c_np359-ymdw94-samb,2011-25-16,묘한매력 안듣는구 안듣는구나 ㅋ 
+sbs_besideme,ujyhghg,COMMENT,pymdw94-samb,c_np386-ymdw94-samb,2011-26-16,묘한매력 나 나다 잘부를수있을꺼 잘부를수있을꺼같 잘부를수있을꺼같아 ㅋㅋㅋ 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_np3ad-ymdw94-samb,2011-27-16,닭잡고삐약 ㅋㅋ 진짜 불러줘 ㅋㅋㅋㅋ 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_np3hi-ymdw94-samb,2011-27-16,낡은레코드 ㅋㅋㅋ 아니 아 마니듣는데 듣다 듣기 좋다 ㅋ 명곡이없징 
+sbs_besideme,ujyhghg,COMMENT,pymdw94-samb,c_np3xy-ymdw94-samb,2011-28-16,묘한매력 음 ㅋㅋㅋㅋ 어찌불러주징 ㅋ 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_np5wv-ymdw94-samb,2011-12-16,떳떳한자 어느 어느날 가다 버스안 흘러나오다 딱 머릿속 박히더라구 박히더라구요 ㅎ 
+sbs_besideme,ujyhghg,COMMENT,pymdw94-samb,c_np5ze-ymdw94-samb,2011-13-16,저노래 저노래는 명곡 ㅋㅋㄱ 계속생각 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_np6f8-ymdw94-samb,2011-19-16,닭잡고삐약 ㅎㅎㅎ 그럴려구 ㅋㅋㅋ 
+sbs_besideme,ujyhghg,COMMENT,pymdw94-samb,c_np88f-ymdw94-samb,2011-10-16,묘한매력 ㅋㅋ 난양주못먹겠던데 ㅋㅋ 
+sbs_besideme,ujyhghg,COMMENT,pymdw94-samb,c_np9gr-ymdw94-samb,2011-45-16,묘한매력 ㅋㅋㅋ 나짤리면 누나가나먹여살려야 ㅋㅋ 그럼가 그럼가고 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_np9no-ymdw94-samb,2011-46-16,닭잡고삐약 에다 하루빠진다구 짜를까 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ 하다 하지 먹여살리다 힘 없다 ㅠㅡㅠ 오지마세 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ 
+sbs_besideme,ujyhghg,COMMENT,pymdw94-samb,c_npb3x-ymdw94-samb,2011-36-16,묘한매력 음 생각좀해 ㅋㅋ 
+sbs_besideme,ujyhghg,COMMENT,pymdw94-samb,c_npbr5-ymdw94-samb,2011-37-16,묘한매력 원래노래 얼굴을보고불러줘야 ㅋ 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_npbtq-ymdw94-samb,2011-38-16,닭잡고삐약 ㅋㅋ 누가얼굴보 누가얼굴보며 불러준적이 ㅋㅋ 
+sbs_besideme,ujyhghg,COMMENT,pymdw94-samb,c_npbv5-ymdw94-samb,2011-39-16,묘한매력 이번에내가해줄 이번에내가해줄께 ㅋㅋㅋ 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_npbxc-ymdw94-samb,2011-39-16,닭잡고삐약 지금당장 롸잇나우 ㅋㅋㅋㅋㅋㅋㅋㅋ 
+sbs_besideme,kopark2000,COMMENT,pymdw94-samb,c_npdyk-ymdw94-samb,2011-05-16,요즘들어 절실하게 느끼다 노래 노랗다 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_npfmg-ymdw94-samb,2011-01-16,닭잡고삐약 하앍 젊다 ㅋㅋ 난2 시 ㅋㅋㅋㅋ 
+sbs_besideme,ujyhghg,COMMENT,pymdw94-samb,c_npfp5-ymdw94-samb,2011-00-16,묘한매력 5시 ㅋㅋㅋ 
+sbs_besideme,ujyhghg,COMMENT,pymdw94-samb,c_npfzt-ymdw94-samb,2011-02-16,묘한매력 ㅡ ㅡ 내가얼마젊다공 ㅋㅋ 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_npgy9-ymdw94-samb,2011-33-16,닭잡고삐약 꺄아 진짜 ㅋㅋㅋㅋ 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_nph1t-ymdw94-samb,2011-46-16,닭잡고삐약 ㅋㅋㅋ 기대할게 담백 불러줘 ㅋㅋㅋ 
+sbs_besideme,ujyhghg,COMMENT,pymdw94-samb,c_npil4-ymdw94-samb,2011-32-16,묘한매력 ㅠㅠ 불러줄 불러줄께 
+sbs_besideme,ujyhghg,COMMENT,pymdw94-samb,c_npisx-ymdw94-samb,2011-31-16,묘한매력 나두자려공누웠는데 ㅋ 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_npiuf-ymdw94-samb,2011-31-16,닭잡고삐약 어 어여 노래안불러줄거 ㅋㅋ 
+sbs_besideme,ujyhghg,COMMENT,pymdw94-samb,c_npj0w-ymdw94-samb,2011-47-16,묘한매력 ㅠㅅㅠ 어제너무간만에무리했나봐 ㅋ 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_npk2c-ymdw94-samb,2011-24-16,닭잡고삐약 ㅋㅋ 그런듯 이 노래 노랗다 잘부르는사람없 잘부르는사람 ㅎㅎ 
+sbs_besideme,ujyhghg,COMMENT,pymdw94-samb,c_npkdx-ymdw94-samb,2011-21-16,묘한매력 ㅡ ㅡ 이런완전푹 빠지다 ㅋㅋ 
+sbs_besideme,therich02,COMMENT,pymdw94-samb,c_npkhx-ymdw94-samb,2011-23-16,묘한매력 요즘 노래 ㅋ 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_npklk-ymdw94-samb,2011-24-16,낡은레코드 ㅋㅋ 요즘 노래 노랗다 뭐가좋지 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_npmof-ymdw94-samb,2011-20-16,닭잡고삐약 그러게 ㅋㅋ 일단 누워 누워있어 ㅋㅋㅋ 
+sbs_besideme,ujyhghg,COMMENT,pymdw94-samb,c_npo89-ymdw94-samb,2011-15-16,묘한매력 ㅋㅋ 난소맥 ㅋㅋ 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_npo9x-ymdw94-samb,2011-14-16,닭잡고삐약 음 양주 가 가다 깔끔 ㅎㅎ 내 좀 조다 마니좋아 마니좋아해 양주 ㅠㅠㅠ 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_npoqe-ymdw94-samb,2011-16-16,닭잡고삐약 ㅋㅋ 나두쏘맥 잘타 ㅋㅋ 읭 ㅋㅋㅋ 
+sbs_besideme,ujyhghg,COMMENT,pymdw94-samb,c_npoxw-ymdw94-samb,2011-17-16,묘한매력 잉 ㅋㅋㅋ 오늘두늦게자려공 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_nppeh-ymdw94-samb,2011-51-16,닭잡고삐약 술 ㅎㅎㅎ 나두좀 말다 숙취 몸 ㅋㅋㅋ 얼마나마셨길래 
+sbs_besideme,ujyhghg,COMMENT,pymdw94-samb,c_npt9l-ymdw94-samb,2011-40-16,묘한매력 응조만 응조만간에 연습좀하공 
+sbs_besideme,ujyhghg,COMMENT,pymdw94-samb,c_npw0k-ymdw94-samb,2011-04-16,묘한매력 ㅋㅋ 누나는술잘묵나봐 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_npw5e-ymdw94-samb,2011-04-16,닭잡고삐약 ㅋㅋㅋㅋㅋ 그런가 ㅋㅋ 나두 더마실수있었능데 같이마신사람 먼저 뻗다 ㅋㅋ 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_npwgo-ymdw94-samb,2011-06-16,닭잡고삐약 ㅋㅋ 그런가바 아니 아 양주 내타입 어제거진 혼자 반병 말다 ㅋㅋㅋ 
+sbs_besideme,ujyhghg,COMMENT,pymdw94-samb,c_np_03-ymdw94-samb,2011-15-16,묘한매력 언제들어 언제들어도 조은노래 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_np_fk-ymdw94-samb,2011-15-16,닭잡고삐약 무한 반복 중 ㅎ 
+sbs_besideme,ujyhghg,COMMENT,pymdw94-samb,c_np_hi-ymdw94-samb,2011-16-16,묘한매력 ㅋㅋㅋㅋ 자면서듣는건아니겠지 
+sbs_besideme,myohannabi,COMMENT,pymdw94-samb,c_np__u-ymdw94-samb,2011-14-16,닭잡고삐약 그치 그치 명곡 ㅎㅎㅎ 
+sbs_besideme,therich02,COMMENT,pymdw94-samb,c_nrdv6-ymdw94-samb,2011-52-16,묘한매력 하다 ㅋㅋㅋ 나도 나다 나 듣다 듣기 꾸준하다 들다 ㅋ 
+sbs_besideme,0919q,COMMENT,pyme1qv-846c,c_npa0p-yme1qv-846c,2011-16-21,규라용 ㅠㅠㅠㅠ 
+sbs_besideme,dlcodms97,COMMENT,pyme1qv-846c,c_npa0y-yme1qv-846c,2011-16-21,13마눌 ㅠㅠㅠㅠㅠㅠ 앙앍 
+sbs_besideme,0919q,COMMENT,pyme1qv-846c,c_npa6f-yme1qv-846c,2011-15-21,아놔 왜편집하고지랄 내사랑내곁에는진짜듣고싶었는데 
+sbs_besideme,ccw20190,COMMENT,pymefz3-5k3_v,c_naeqv-ymefz3-5k3_v,2011-54-24,헬 헬로 파이널 시리즈 중 일부 본거 같다 블랙 포스터 영환 없다 그쵸 ㅋㅋ 
+sbs_besideme,astyle1004,COMMENT,pymefz3-5k3_v,c_nar4f-ymefz3-5k3_v,2011-46-24,별 그러게 그러게요 
+sbs_besideme,astyle1004,COMMENT,pymefz3-5k3_v,c_ncdhe-ymefz3-5k3_v,2011-11-22,현 정말 오랜만이네 
+sbs_besideme,ccw20190,COMMENT,pymefz3-5k3_v,c_ng1du-ymefz3-5k3_v,2011-06-23,헬 헬로 9월 9월에 나오다 영화중 잼날것 잼날것은 영화 머 있다 
+sbs_besideme,rhwngus6639,COMMENT,pymefz3-5k3_v,c_ng4u2-ymefz3-5k3_v,2011-19-23,헬 헬로 요즘정신 바빠서 ㅎㅎㅎ 
+sbs_besideme,ccw20190,COMMENT,pymefz3-5k3_v,c_nh227-ymefz3-5k3_v,2011-46-23,헬 헬로 ㅋㅋ 푸르다 소금 좀 조다 짤거같구 통증 아플거 같구 샤크나이트 물거같 의뢰인 소송걸리는거 아냐 ㅋㅋㅋ 
+sbs_besideme,astyle1004,COMMENT,pymefz3-5k3_v,c_nh2ja-ymefz3-5k3_v,2011-44-23,별 다 땡겨 땡겨요 
+sbs_besideme,ccw20190,COMMENT,pymefz3-5k3_v,c_nhhle-ymefz3-5k3_v,2011-24-23,헬 헬로 전 절다 푸른소금 땡기는데 땡기는데요 님은 님은요 
+sbs_besideme,astyle1004,COMMENT,pymefz3-5k3_v,c_nhihc-ymefz3-5k3_v,2011-10-23,별 일단 기다리다 있다 영화 푸른소금 파이널 데스티네이션5 통증 샤크나이트3D 컨테이젼 의뢰인 의뢰 일단 이렇게 기다리구 있다 
+sbs_besideme,astyle1004,COMMENT,pymefz3-5k3_v,c_nhk3q-ymefz3-5k3_v,2011-46-23,현 많다 바쁘신가보네 바쁘신가보네요 
+sbs_besideme,astyle1004,COMMENT,pymefz3-5k3_v,c_nhk5p-ymefz3-5k3_v,2011-46-23,별 여러가지 
+sbs_besideme,astyle1004,COMMENT,pymefz3-5k3_v,c_nhn6q-ymefz3-5k3_v,2011-47-23,별 ㅎㅎㅎ 정리요약 잘 
+sbs_besideme,ccw20190,COMMENT,pymefz3-5k3_v,c_nhnw9-ymefz3-5k3_v,2011-48-23,헬 헬로 ㅎㅎㅎ 잘하긴 잘하긴요 파이널 하구 컨테이젼 컨테이젼은 도무지 뭔지 몰 제 한계네 한계네요 님 그게 먼지 멀다 아 
+sbs_besideme,ccw20190,COMMENT,pymefz3-5k3_v,c_nhorq-ymefz3-5k3_v,2011-55-23,헬 헬로 여러가지 어떤거 어떤거요 
+sbs_besideme,astyle1004,COMMENT,pymefz3-5k3_v,c_nhxk2-ymefz3-5k3_v,2011-01-23,별 파이널 파이널은 시리즈 많다 나오다 아마 이런내용일꺼에 어떤사고 몇명 몇명만 살아남다 하나씩 죽어가는걸꺼에 죽어가는걸꺼에요 대략적 내용 죽음전 사진 어떤 경로 예고 되구 되구요 컨테이젼 컨테이젼은 자세힌 모르다 잼있을듯 
+sbs_besideme,zzop11,COMMENT,pymefz3-5k3_v,c_nm3f6-ymefz3-5k3_v,2011-50-22,마야 마야도 좋다 ㅋㅋ 
+sbs_besideme,astyle1004,COMMENT,pymefz3-5k3_v,c_nm3vr-ymefz3-5k3_v,2011-52-22,smoothieK 
+sbs_besideme,rhwngus6639,COMMENT,pymefz3-5k3_v,c_nmxaf-ymefz3-5k3_v,2011-05-22,왓어 왓어여 
+sbs_besideme,ccw20190,COMMENT,pymefz3-5k3_v,c_no056-ymefz3-5k3_v,2011-29-22,헬 헬로 ㅎㅎㅎ 대단 고의적인거 어찌아시구 
+sbs_besideme,astyle1004,COMMENT,pymefz3-5k3_v,c_no32r-ymefz3-5k3_v,2011-28-22,별 ㅎㅎㅎ 벌쓰다 자체수정해서 자체수정 읽다 ㅋ 
+sbs_besideme,ccw20190,COMMENT,pymefz3-5k3_v,c_nob7w-ymefz3-5k3_v,2011-45-22,헬 헬로 님 지금 머 머하 잇다 
+sbs_besideme,astyle1004,COMMENT,pymefz3-5k3_v,c_noboe-ymefz3-5k3_v,2011-42-22,별 ㅎㅎㅎ 
+sbs_besideme,ccw20190,COMMENT,pymefz3-5k3_v,c_nocht-ymefz3-5k3_v,2011-43-22,헬 헬로 머 있다 있 
+sbs_besideme,astyle1004,COMMENT,pymefz3-5k3_v,c_nocm5-ymefz3-5k3_v,2011-43-22,별 좀 9월 9월에 나오다 영화 잼나는거 보고픈거 많다 
+sbs_besideme,ccw20190,COMMENT,pymefz3-5k3_v,c_noe2i-ymefz3-5k3_v,2011-39-22,헬 헬로 ㅋㅋㅋ 사실 오타데 이렇게 넘어가다 되다 ㅋㅋ 
+sbs_besideme,astyle1004,COMMENT,pymefz3-5k3_v,c_noepj-ymefz3-5k3_v,2011-36-22,별 ㅋㅋㅋ 
+sbs_besideme,ccw20190,COMMENT,pymefz3-5k3_v,c_nof9z-ymefz3-5k3_v,2011-14-22,헬 헬로 주 머봐 머봐요 
+sbs_besideme,ccw20190,COMMENT,pymefz3-5k3_v,c_nok28-ymefz3-5k3_v,2011-22-22,헬 헬로 뵈다 ㅠㅠ 보내다 루 수정 ㅋㅋㅋ 
+sbs_besideme,astyle1004,COMMENT,pymefz3-5k3_v,c_noktt-ymefz3-5k3_v,2011-21-22,별 님두 그러시길 
+sbs_besideme,astyle1004,COMMENT,pymefz3-5k3_v,c_noo13-ymefz3-5k3_v,2011-30-22,별 영화소식 영화소식이 핫이슈 등등 
+sbs_besideme,ccw20190,COMMENT,pymefz3-5k3_v,c_noocb-ymefz3-5k3_v,2011-32-22,헬 헬로 요즘 새롭다 잼 영화 머 있다 있 오늘 핫도그 머 좋죠 
+sbs_besideme,dijini777,COMMENT,pymefz3-5k3_v,c_nopx0-ymefz3-5k3_v,2011-06-22,저두 저두요 ㅋㅋ 
+sbs_besideme,astyle1004,COMMENT,pymefz3-5k3_v,c_norcm-ymefz3-5k3_v,2011-10-22,별 인터넷 기사 기다 잠깐 보는중이에 보는중이에요 
+sbs_besideme,astyle1004,COMMENT,pymefz3-5k3_v,c_no_nt-ymefz3-5k3_v,2011-11-22,도혀 도혀니 유후훗 ㅋㅋ 
+sbs_besideme,dijini777,COMMENT,pymefz3-5k3_v,c_no_p5-ymefz3-5k3_v,2011-08-22,앙 유훗훗 
+sbs_besideme,astyle1004,COMMENT,pymefz3-5k3_v,c_no_u7-ymefz3-5k3_v,2011-11-22,바르미의23 네엡 
+sbs_besideme,ccw20190,COMMENT,pymefz3-5k3_v,c_no_vt-ymefz3-5k3_v,2011-11-22,노래 노랗다 좋다 님두 오후 즐겁다 뵈 뵈내 뵈내요 
+sbs_besideme,kimbarym,COMMENT,pymefz3-5k3_v,c_no_wq-ymefz3-5k3_v,2011-09-22,헬로씨두 힘내다 
+sbs_besideme,sungjin2632,COMMENT,pymey8m-_w5vm,c_n8kms-ymey8m-_w5vm,2011-39-22,
+sbs_besideme,baaffair,COMMENT,pymjlhk-_m9pi,c_vzrfx-ymjlhk-_m9pi,2011-03-21,혼자서 오글거리느 오글거리느라 다리미 필요 필 
+sbs_besideme,hw902,COMMENT,pymk78v-55hsp,c_vk475-ymk78v-55hsp,2011-51-17,디셉캔디 넵 
+sbs_besideme,noah_arcane,COMMENT,pymk78v-55hsp,c_vk4kb-ymk78v-55hsp,2011-49-17,하루 ㅠㅠㅠㅠ 하 하다 미치다 이게 바 행복이돠 ㅠㅠㅠ 
+sbs_besideme,candylove333,COMMENT,pymk78v-55hsp,c_vk4qh-ymk78v-55hsp,2011-50-17,하루 사망 
+sbs_besideme,hw902,COMMENT,pymk78v-55hsp,c_vk4th-ymk78v-55hsp,2011-50-17,노아 헉 ㅠㅠ 좋아하다 ㅠㅠ 
+sbs_besideme,noah_arcane,COMMENT,pymk78v-55hsp,c_vkn2m-ymk78v-55hsp,2011-47-17,살려줄게 ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ 엄마 날 나다 살리다 ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ 
+sbs_besideme,hw902,COMMENT,pymk78v-55hsp,c_vkniq-ymk78v-55hsp,2011-46-17,노아언니 살려주다 
+sbs_besideme,lydiaphs2,COMMENT,pymk78v-55hsp,c_vknv5-ymk78v-55hsp,2011-47-17,잘쓴다 
+sbs_besideme,candylove333,COMMENT,pymk78v-55hsp,c_vknz6-ymk78v-55hsp,2011-46-17,꺄아 ㅏ 아 ㅏ 앗다 ㅏ 앜 대박 노아님 부럽다 사망 
+sbs_besideme,hw902,COMMENT,pymk78v-55hsp,c_vkv3k-ymk78v-55hsp,2011-47-17,디셉캔디 헉 ㅠㅠ 그런가 그런가요 ㅠㅠ 
+sbs_besideme,noah_arcane,COMMENT,pymk78v-55hsp,c_vkv80-ymk78v-55hsp,2011-48-17,민 미다 ㅇ 러 ㅣㅁ 나다 ㅣㅏㅠㅓㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ 좋다 미치게써 ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ 
+sbs_besideme,hw902,COMMENT,pymk78v-55hsp,c_vkvbj-ymk78v-55hsp,2011-47-17,노아 앜 ㅠㅠ 못쓰다 미안 ㅠㅠ 
+sbs_besideme,hw902,COMMENT,pymk78v-55hsp,c_vkvjm-ymk78v-55hsp,2011-48-17,뮤이즈 헐 아니 ㅠ 
+sbs_besideme,hw902,COMMENT,pymk78v-55hsp,c_vkvl8-ymk78v-55hsp,2011-49-17,노아 좋아하다 고맙다 언니 ㅠㅠ 
+sbs_besideme,noah_arcane,COMMENT,pymk78v-55hsp,c_vkvrb-ymk78v-55hsp,2011-48-17,ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ 엄마 ㅠㅠㅠㅠㅠㅠㅠㅠㅠ 나 날 나다 살려주다 ㅠㅠ 나 나다 지금 기뻐서사 ㅁ 아할것 아할것같 아할것같아 ㅠㅠㅠㅠ 
+sbs_besideme,-_-akkk,COMMENT,pymkf1v-yws3n,c_nbbbm-ymkf1v-yws3n,2011-33-20,김선균 보다 보 꺄악꺄악 소리지르다 정도 
+sbs_besideme,dream-design,COMMENT,pymkf1v-yws3n,c_nbbfx-ymkf1v-yws3n,2011-33-20,윤여사 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ 이때 드라마보면서 소리 소다 지른적 지른적이 있다 ㅋㅋ 
+sbs_besideme,-_-akkk,COMMENT,pymkf1v-yws3n,c_nbbm4-ymkf1v-yws3n,2011-33-20,김선균 난 나다 날다 처음 ㅋㅋㅋ 
+sbs_besideme,dream-design,COMMENT,pymkf1v-yws3n,c_nbbyb-ymkf1v-yws3n,2011-32-20,윤여사 음 소름끼치다 재미 ㅋㅋㅋㅋㅋㅋ 
+sbs_besideme,-_-akkk,COMMENT,pymkf1v-yws3n,c_nbelh-ymkf1v-yws3n,2011-32-20,김선균 재밌는정도 아냐 ㅠ 소름끼치다 재밌어 ㅋ 
+sbs_besideme,dream-design,COMMENT,pymkf1v-yws3n,c_nbeza-ymkf1v-yws3n,2011-31-20,그거 잼 잼있 주변 사람 많다 보다 
+sbs_besideme,kje51500200,COMMENT,pympbep-5wwxd,c_v89vt-ympbep-5wwxd,2011-38-22,뭐 노래가사 
+sbs_besideme,clevernack,COMMENT,pympbep-5wwxd,c_v89xw-ympbep-5wwxd,2011-39-22,안녕 
+sbs_besideme,tom50233,COMMENT,pymr15i-_3qcq,c_vn2ne-ymr15i-_3qcq,2011-00-21,ㅋ 
+sbs_besideme,tom50233,COMMENT,pymr15i-_3qcq,c_vnni5-ymr15i-_3qcq,2011-02-21,시로사키 박빈녀 언제 언제나 아니다 ㅋ 
+sbs_besideme,tj3732,COMMENT,pymr15i-_3qcq,c_vnnr0-ymr15i-_3qcq,2011-01-21,SF DE 이건 노래아님 ㅋㅋㅋㅋ 
+sbs_besideme,crll8977,COMMENT,pymr6pk-5y0f5,c_vnb99-ymr6pk-5y0f5,2011-02-21,에몽 개콘 
+sbs_besideme,abctt99,COMMENT,pymr6pk-5y0f5,c_vnbzl-ymr6pk-5y0f5,2011-03-21,
+sbs_besideme,wojusun1,COMMENT,pymr6pk-5y0f5,c_vnez0-ymr6pk-5y0f5,2011-01-21,왠 감사 드라마 글보러가기 
+sbs_besideme,thddkdbf,COMMENT,pymyblm-7fnn,c_nf97i-ymyblm-7fnn,2011-18-16,앜 ㅋㅋㅋ 
+sbs_besideme,cbj7975,COMMENT,pymyblm-7fnn,c_nf97m-ymyblm-7fnn,2011-18-16,ㅎㅎ 가다 붙여넣기 ㅎ 
+sbs_besideme,y_111,COMMENT,pymyblm-7fnn,c_nf9xr-ymyblm-7fnn,2011-18-16,ㅋㅋㅋㅋㅋㅋㅋㅋㅋ 
+sbs_besideme,ksh202901,COMMENT,pymyblm-7fnn,c_nfj9c-ymyblm-7fnn,2011-20-16,송아율 앜 ㅋㅋㅋㅋ 
+sbs_besideme,ksh202901,COMMENT,pymyblm-7fnn,c_nfjbo-ymyblm-7fnn,2011-19-16,퍼스트윤아연 ㅋㅋㅋㅋㅋㅋ 
+sbs_besideme,ksh202901,COMMENT,pymyblm-7fnn,c_nfjir-ymyblm-7fnn,2011-21-16,폭주 한은 ㅋㅋㅋㅋ 
+sbs_besideme,ksh202901,COMMENT,pymyblm-7fnn,c_nfjj8-ymyblm-7fnn,2011-20-16,RA한성 시크 붙여넣기 붙여넣기가 귀차 귀차나 
+sbs_besideme,dudwnsskdus,COMMENT,pymyblm-7fnn,c_nfjyo-ymyblm-7fnn,2011-18-16,ㅋㅋㅋㅋ 
+sbs_besideme,kkch3465,COMMENT,pymynit-oidn,c_2nh14-ymynit-oidn,2011-15-18,심장아픈늑대 내일개학 ㅠㅠ 
+sbs_besideme,kkch3465,COMMENT,pymynit-oidn,c_2nh9l-ymynit-oidn,2011-15-18,백설화 췟 ㅋ 
+sbs_besideme,kkch3465,COMMENT,pymynit-oidn,c_2nhbi-ymynit-oidn,2011-15-18,류채안 ㅠㅠ 
+sbs_besideme,kkch3465,COMMENT,pymynit-oidn,c_2nheg-ymynit-oidn,2011-15-18,냥군 읭 
+sbs_besideme,xzer,COMMENT,pymynit-oidn,c_2nh_t-ymynit-oidn,2011-14-18,난 나다 날다 이틀수업 췟 
+sbs_besideme,fbcodks79,COMMENT,pymynit-oidn,c_2nt81-ymynit-oidn,2011-13-18,으잌 내일 내 
+sbs_besideme,ydc0303,COMMENT,pymynit-oidn,c_2ntmy-ymynit-oidn,2011-13-18,ㅇㅅㅇ 
+sbs_besideme,-dud00,COMMENT,pymynit-oidn,c_2ntw4-ymynit-oidn,2011-13-18,ㅋㅋㅋ 가사 가다 제조기 
+sbs_besideme,jhtak11,COMMENT,pymyxw2-5zazx,c_27jvw-ymyxw2-5zazx,2011-54-18,브라운 아이드 소울 특집 ㅋ 
+sbs_besideme,jhtak11,COMMENT,pymyxw2-5zazx,c_27ral-ymyxw2-5zazx,2011-01-19,오나오나안오 오나오나안오나 계속 반복재생중 ㅋ 좋다 
+sbs_besideme,ohna4482,COMMENT,pymyxw2-5zazx,c_27rt6-ymyxw2-5zazx,2011-01-19,탁주 그런듯 ㅋㅋㅋ 
+sbs_besideme,songhi12345,COMMENT,pymyxw2-5zazx,c_nd9mg-ymyxw2-5zazx,2011-22-19,비켜줄께 비켜줄께를 빼먹다 ㅜㅜ can't stop lovin you 그것 좋다 ㅜㅜㅋ 
+sbs_besideme,jhtak11,COMMENT,pymyxw2-5zazx,c_nyw9x-ymyxw2-5zazx,2011-24-19,NY깝룡 오 ㅋ 땡큐 다음 올릴게 ㅋㅋ 
+sbs_besideme,hht1998,COMMENT,pymyypw-5u0q0,c_2z446-ymyypw-5u0q0,2011-22-17,고맙다 There is nothig better than you 
+sbs_besideme,kkddbb98,COMMENT,pymyypw-5u0q0,c_2z45m-ymyypw-5u0q0,2011-17-17,별사탕 ㅎㅎ 
+sbs_besideme,ssg2129,COMMENT,pymyypw-5u0q0,c_2z46n-ymyypw-5u0q0,2011-18-17,왠지 글내용 글내용이 좋은거 좋은거같은데 ㅋ 
+sbs_besideme,yujin4834,COMMENT,pymyypw-5u0q0,c_2z4b5-ymyypw-5u0q0,2011-18-17,시론츠 노래가사잖 ㅋ 씨엔블루 사랑빛 ㅋ 
+sbs_besideme,yujin4834,COMMENT,pymyypw-5u0q0,c_2z4dt-ymyypw-5u0q0,2011-17-17,류신 류신아 ㅋㅋ 
+sbs_besideme,ssg2129,COMMENT,pymyypw-5u0q0,c_2z4fv-ymyypw-5u0q0,2011-19-17,별사탕 노래였구낰 ㅋ 시 ㅋㅋㅋㅋㅋㅋㅋㅋ 
+sbs_besideme,yujin4834,COMMENT,pymyypw-5u0q0,c_2z4ov-ymyypw-5u0q0,2011-20-17,시론츠 ㅋㅋㅋ 
+sbs_besideme,ssg2129,COMMENT,pymyypw-5u0q0,c_2z4_6-ymyypw-5u0q0,2011-17-17,별사탕 힣 ㅋ 
+sbs_besideme,yujin4834,COMMENT,pymyypw-5u0q0,c_2zl_n-ymyypw-5u0q0,2011-23-17,까 까인 한빛 I love you 
+sbs_besideme,ssg2129,COMMENT,pymyypw-5u0q0,c_2zv4w-ymyypw-5u0q0,2011-16-17,왠지 기분 좋아지는듯 히힣 
+sbs_besideme,kkddbb98,COMMENT,pymyypw-5u0q0,c_2zv7p-ymyypw-5u0q0,2011-17-17,와우 
+sbs_besideme,yujin4834,COMMENT,pymyypw-5u0q0,c_2zv7z-ymyypw-5u0q0,2011-17-17,시론츠 머 머임 ㅋ 
+sbs_besideme,hht1998,COMMENT,pymyypw-5u0q0,c_2zxjr-ymyypw-5u0q0,2011-29-17,별사탕 나두 
+sbs_besideme,nonoboy2004,COMMENT,pym_2pn-y25zo,c_nx86y-ym_2pn-y25zo,2011-08-17,희 희야 노래이거든 ㅋㅋ 왜 외다 희야한테 고백하는거 같다 
+sbs_besideme,lovejehi79,COMMENT,pym_2pn-y25zo,c_nx88l-ym_2pn-y25zo,2011-09-17,키다리아저씨 아니다 아니 ㅋㅋ 농담이예 ㅋ 
+sbs_besideme,nonoboy2004,COMMENT,pym_2pn-y25zo,c_nx8tz-ym_2pn-y25zo,2011-10-17,희 희야 아닌거 같다 희 희야 나한테 고백한거 ㅋㅋ 
+sbs_besideme,lovejehi79,COMMENT,pym_2pn-y25zo,c_nxmsn-ym_2pn-y25zo,2011-16-17,키다리아저씨 ㅋㅋㅋㅋ 이제잘 이제잘라 눕다 
+sbs_besideme,nonoboy2004,COMMENT,pym_2pn-y25zo,c_nxm_p-ym_2pn-y25zo,2011-14-17,희 희야 이그 희야 희야도 이제 자야징 
+sbs_besideme,lovejehi79,COMMENT,pym_2pn-y25zo,c_nxoyv-ym_2pn-y25zo,2011-11-17,키다리아저씨 아니다 아니 
+sbs_besideme,lovejehi79,COMMENT,pym_2pn-y25zo,c_nxw4v-ym_2pn-y25zo,2011-08-17,노래 고백 
+sbs_besideme,tjr3044,COMMENT,pym_ymy-f6_x,c_nhh72-ym_ymy-f6_x,2011-30-17,천령 고맙다 ㅠ 
+sbs_besideme,lsh97sla,COMMENT,pym_ymy-f6_x,c_nh_zw-ym_ymy-f6_x,2011-59-17,편지쓴지 일주일 더되서 ㅇ ㅇ ㅋㅋ 우쭈쭈쭈 
+sbs_besideme,jwj291,COMMENT,pyo40of-m2yj,c_2rq2v-yo40of-m2yj,2011-46-15,세바 니 쏘는거지 ㅋㅋ 
+sbs_besideme,jwj291,COMMENT,pyo40of-m2yj,c_2rq7p-yo40of-m2yj,2011-47-15,세바 그러지 머 ㅋㅋ 
+sbs_besideme,seva,COMMENT,pyo40of-m2yj,c_2rqal-yo40of-m2yj,2011-46-15,노래방 가쟈 
+sbs_besideme,seva,COMMENT,pyo40of-m2yj,c_2rqld-yo40of-m2yj,2011-47-15,공포의방 ㅋㅋㅋ 노래방 정도 쏘다 수 있엉 ㅋㅋ 그럼 맥즈 쏘다 쏘 
+sbs_besideme,seva,COMMENT,pyo40of-m2yj,c_2rs_4-yo40of-m2yj,2011-48-15,공포의방 ㅋㅋㅋㅋㅋㅋㅋㅋ 홍대로 홍대로와 ㅋㅋㅋㅋㅋㅋ 
+sbs_besideme,jwj291,COMMENT,pyo40of-m2yj,c_2rulf-yo40of-m2yj,2011-11-15,세바 넘 멀다 
+sbs_besideme,kimfor4,COMMENT,pyo7dg3-ynjsh,c_2gh7t-yo7dg3-ynjsh,2011-34-16,온멜론 누군지모른다 누군지모른다고 근데 아저씨라고하는애 별로 누구지 누구지하면서 할룽한거 누구더 누구더라 ㅋ 
+sbs_besideme,-_____-0905,COMMENT,pyo7dg3-ynjsh,c_2ghvd-yo7dg3-ynjsh,2011-33-16,이건 또 뭐래는거 뭐래는거야 
+sbs_besideme,samminhyo,COMMENT,pyo7dg3-ynjsh,c_2gqo6-yo7dg3-ynjsh,2011-36-16,BEAUTIFUL 
+sbs_besideme,julie-chris,COMMENT,pyo7evc-ybv4t,c_2h20a-yo7evc-ybv4t,2011-44-16,Yeon 오다 예쁘다 좋져 조심스런 설렘 설레다 예쁘다 물들다 진심 바래다 
+sbs_besideme,crown7556,COMMENT,pyo7evc-ybv4t,c_2h4io-yo7evc-ybv4t,2011-54-16,리리봉봉 예쁘다 물들다 우 이 말 말다 증말 맘 들어욥 우리 물들다 봅시 봅시다 ㅋㅋ 시커멓다 물 말다 
+sbs_besideme,julie-chris,COMMENT,pyo7evc-ybv4t,c_2habm-yo7evc-ybv4t,2011-35-16,Yeon 앗 사랑 사랑하는구 
+sbs_besideme,sorihy,COMMENT,pyo7evc-ybv4t,c_2haua-yo7evc-ybv4t,2011-36-16,리리봉봉 아직사랑 하다 그렇다 조심 이제 시작하는거에 
+sbs_besideme,crown7556,COMMENT,pyo7evc-ybv4t,c_2hhp7-yo7evc-ybv4t,2011-27-16,Yeon 오호 의외 가깝다 곳 
+sbs_besideme,sorihy,COMMENT,pyo7evc-ybv4t,c_2hnpi-yo7evc-ybv4t,2011-47-16,리리봉봉 감사 예쁘다 만나다 0 
+sbs_besideme,sorihy,COMMENT,pyo7evc-ybv4t,c_2hqba-yo7evc-ybv4t,2011-29-16,camp1 그러게 그러게요 올초 친구 얘기하다보 친하다 여러번 만 통하다 통 해서 하다 이렇게된거 이렇게된거요 
+sbs_besideme,crown7556,COMMENT,pyo7evc-ybv4t,c_2hqlp-yo7evc-ybv4t,2011-31-16,리리봉봉 울 울다 봉봉님 짬밥 짬밥이면 공감하실줄 알아스 알아스요 ㅋㅋ 
+sbs_besideme,sorihy,COMMENT,pyo7evc-ybv4t,c_2htaa-yo7evc-ybv4t,2011-26-16,camp1 ㅎ 미투 미투가 만나다 해줬죠 
+sbs_besideme,crown7556,COMMENT,pyo7evc-ybv4t,c_2htks-yo7evc-ybv4t,2011-24-16,Yeon 옵하 옵하도 미투하나봐 ㅎㅎ 
+sbs_besideme,julie-chris,COMMENT,pyo7evc-ybv4t,c_2hxqx-yo7evc-ybv4t,2011-00-17,camp1 넵 맑다 자신 ㅎ 
+sbs_besideme,sorihy,COMMENT,pyo7evc-ybv4t,c_2q1x8-yo7evc-ybv4t,2011-41-17,라쌍 우왓 ㅎ 감사합니다아아 저 반가운 
+sbs_besideme,crown7556,COMMENT,pyo7evc-ybv4t,c_2q2hz-yo7evc-ybv4t,2011-26-17,써 써니 헤헤헤 
+sbs_besideme,julie-chris,COMMENT,pyo7evc-ybv4t,c_2q56n-yo7evc-ybv4t,2011-10-17,camp1 띵똥 ㅎ 
+sbs_besideme,lasangs,COMMENT,pyo7evc-ybv4t,c_2qe2c-yo7evc-ybv4t,2011-33-17,Yeon 오호 미프 미프는 아니다 늘다 반가운 사람 Yeon님 축하 
+sbs_besideme,sunnyday4,COMMENT,pyo7evc-ybv4t,c_2qjh7-yo7evc-ybv4t,2011-48-17,ㅡ 오오오 
+sbs_besideme,crown7556,COMMENT,pyo7evc-ybv4t,c_2qynv-yo7evc-ybv4t,2011-10-17,리리봉봉어째 표절 냄새 솔솔 ㅋㅋ 
+sbs_besideme,sorihy,COMMENT,pyo7evc-ybv4t,c_2ttx4-yo7evc-ybv4t,2011-41-16,제가 제 미투 오빠 글 보다 전 절다 제가 제 부족 오빠 가지다 가지 있다 매력 느꼈거든요 많다 배우다 좋다 말씀 감사감사해요오 
+sbs_besideme,julie-chris,COMMENT,pyo7evc-ybv4t,c_2twhi-yo7evc-ybv4t,2011-20-16,진정 맞다 말씀 나 잘 자다 맞다 생각 모두 지내다보면 혹 살다보면 안맞는것 안맞는것들이 속속 나오져 살다 사랑 정말 필요한건 노력이에 
+sbs_besideme,dkzkvlakd,COMMENT,pyo7hsr-5o3wd,c_2qyau-yo7hsr-5o3wd,2011-09-17,Special키링컨 으엌 
+sbs_besideme,gudals628,COMMENT,pyo7hsr-5o3wd,c_2qyi2-yo7hsr-5o3wd,2011-09-17,벅스바 벅스바니 그대내품에 ㅋㅋㅋㅋ 
+sbs_besideme,dkzkvlakd,COMMENT,pyo7hsr-5o3wd,c_2qywp-yo7hsr-5o3wd,2011-08-17,나가다 이거뭐 이거뭐임 ㅋㅋ 
+sbs_besideme,ab1410,COMMENT,pyonbha-5_4t0,c_2p6qq-yonbha-5_4t0,2011-34-15,역시 재벌가 재벌가라 통이크네 ㅋ 요번 요번에 KT 에서 에서도 기업직원들한테 아이패드2 갤럭시탭 10.1 모토로라줌 갤럭시탭 7 중 골르라 골르라해서 나누다 

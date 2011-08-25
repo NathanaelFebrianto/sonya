@@ -107,7 +107,6 @@
 	<update id="updatePost" parameterType="com.nhn.socialbuzz.me2day.model.Post">
 		UPDATE post
 		<set>
-			<if test="programId != null">program_id = #{programId},</if>
 			<if test="permalink != null">permalink = #{permalink},</if>
 			<if test="body != null">body = #{body},</if>
 			<if test="textBody != null">text_body = #{textBody},</if>

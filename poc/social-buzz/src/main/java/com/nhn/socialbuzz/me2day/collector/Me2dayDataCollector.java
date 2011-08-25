@@ -270,14 +270,12 @@ public class Me2dayDataCollector {
 						}
 						
 						// get comments
-						if (commentCount > 0) {
-							commentManager.deleteComments(postId);
+						if (commentCount > 0) {							
 							this.collectComments(postId);
 						}
 						
 						// get metoos
-						if (metooCount > 0) {
-							metooManager.deleteMetoos(postId);
+						if (metooCount > 0) {							
 							this.collectMetoos(postId);
 						}
 						
@@ -322,6 +320,12 @@ public class Me2dayDataCollector {
 	
 		try {
 			Document doc = getDocument(url.toString());
+			
+			///////////////////////////////////////////
+			// delete comments 
+			///////////////////////////////////////////
+			commentManager.deleteComments(postId);
+			
 			
 			Element root = doc.getDocumentElement();
 			
@@ -441,6 +445,11 @@ public class Me2dayDataCollector {
 		try {
 			Document doc = getDocument(url.toString());
 			
+			///////////////////////////////////////////
+			// delete metoos 
+			///////////////////////////////////////////
+			metooManager.deleteMetoos(postId);
+			
 			Element root = doc.getDocumentElement();
 			
 			Node page_node = root.getElementsByTagName("page").item(0);
@@ -519,8 +528,27 @@ public class Me2dayDataCollector {
 	}
 	
 	public void execute() {
+		
 		try {
-			String programId = "1";
+			//String programId = "kbs1_greatking";
+			//String programId = "kbs2_ojakkyo";
+			//String programId = "mbc_thousand";
+			//String programId = "sbs_besideme";
+			//String programId = "kbs2_princess";
+			//String programId = "mbs_fallinlove";
+			//String programId = "sbs_boss";
+			//String programId = "kbs2_spy";
+			//String programId = "mbc_gyebaek";
+			//String programId = "sbs_baekdongsoo";
+			//String programId = "mbc_wedding";
+			//String programId = "mbc_challenge";
+			//String programId = "sbs_starking";
+			//String programId = "kbs2_happysunday_1bak2il";
+			//String programId = "kbs2_happysunday_men";
+			//String programId = "mbc_sundaynight_nagasoo";
+			//String programId = "mbc_sundaynight_house";
+			String programId = "sbs_newsunday";
+			
 			TvProgram program = tvProgramManager.getProgram(programId);
 			System.out.println("title == " + program.getTitle());
 			System.out.println("search keywords == " + program.getSearchKeywords());
@@ -530,12 +558,13 @@ public class Me2dayDataCollector {
 			System.out.println("search keywords == " + keywords.size());
 			
 			for (String keyword : keywords) {				
-				List<Post> texts = this.searchPosts(programId, keyword, "all", "2011.08.13", "2011.08.14", 30);					
+				this.searchPosts(programId, keyword, "all", "2011.08.15", "2011.08.22", 50);					
 			}
 			
 		} catch (Exception e) {
 			e.printStackTrace();
-		}		
+		}
+		
 	}
 	
 	public static void main(String[] args) {

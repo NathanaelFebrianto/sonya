@@ -12,6 +12,7 @@ import org.apache.mahout.df.data.Data;
  */
 public class Comment implements Serializable {
 
+	private String programId;
 	private String postId;
 	private String commentId;
 	private String authorId;
@@ -26,6 +27,9 @@ public class Comment implements Serializable {
 	private Date registerDate;
 	private Data updateDate;
 	
+	public String getProgramId() {
+		return programId;
+	}
 	public String getPostId() {
 		return postId;
 	}
@@ -64,6 +68,9 @@ public class Comment implements Serializable {
 	}
 	public Data getUpdateDate() {
 		return updateDate;
+	}
+	public void setProgramId(String programId) {
+		this.programId = programId;
 	}
 	public void setPostId(String postId) {
 		this.postId = postId;

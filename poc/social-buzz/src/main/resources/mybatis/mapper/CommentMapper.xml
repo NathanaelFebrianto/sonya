@@ -6,6 +6,7 @@
 
 	<resultMap id="commentResultMap" type="com.nhn.socialbuzz.me2day.model.Comment">
 		<id property="postId" column="post_id" />
+		<result property="programId" column="program_id" />
 		<result property="commentId" column="comment_id" />
 		<result property="authorId" column="author_id" />
 		<result property="authorNickname" column="author_nickname" />

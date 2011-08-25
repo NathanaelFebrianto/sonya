@@ -19,7 +19,9 @@
 		<result property="produceCompany" column="produce_company" />
 		<result property="producers" column="producers" />
 		<result property="homepage" column="homepage" />
+		<result property="watchRateSource" column="watch_rate_source" />
 		<result property="watchRate" column="watch_rate" />
+		<result property="watchRateDate" column="watch_rate_date" />
 		<result property="searchKeywords" column="search_keywords" />
 	</resultMap>
 
