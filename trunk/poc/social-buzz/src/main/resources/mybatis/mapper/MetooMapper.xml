@@ -6,6 +6,7 @@
 
 	<resultMap id="metooResultMap" type="com.nhn.socialbuzz.me2day.model.Metoo">
 		<id property="postId" column="post_id" />
+		<result property="programId" column="program_id" />
 		<result property="authorId" column="author_id" />
 		<result property="authorNickname" column="author_nickname" />
 		<result property="authorProfileImage" column="author_profile_image" />

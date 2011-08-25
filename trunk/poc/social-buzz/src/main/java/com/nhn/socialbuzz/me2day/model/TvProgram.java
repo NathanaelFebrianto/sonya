@@ -1,6 +1,7 @@
 package com.nhn.socialbuzz.me2day.model;
 
 import java.io.Serializable;
+import java.util.Date;
 import java.util.List;
 import java.util.StringTokenizer;
 import java.util.Vector;
@@ -26,7 +27,9 @@ public class TvProgram implements Serializable {
 	private String produceCompany;
 	private String producers;
 	private String homepage;
-	private String watchRate;
+	private String watchRateSource;
+	private double watchRate;
+	private Date watchRateDate;
 	private String searchKeywords;
 	
 	public List<String> extractSearchKeywords() {
@@ -37,7 +40,7 @@ public class TvProgram implements Serializable {
 		if (text != null && !text.equals("")) {
 			StringTokenizer st = new StringTokenizer(text, ",");
 			 while (st.hasMoreTokens()) {
-				 keywords.add(st.nextToken());
+				 keywords.add(st.nextToken().trim());
 		     }
 		}
 		
@@ -86,8 +89,14 @@ public class TvProgram implements Serializable {
 	public String getHomepage() {
 		return homepage;
 	}
-	public String getWatchRate() {
+	public String getWatchRateSource() {
+		return watchRateSource;
+	}
+	public double getWatchRate() {
 		return watchRate;
+	}
+	public Date getWatchRateDate() {
+		return watchRateDate;
 	}
 	public String getSearchKeywords() {
 		return searchKeywords;
@@ -134,8 +143,14 @@ public class TvProgram implements Serializable {
 	public void setHomepage(String homepage) {
 		this.homepage = homepage;
 	}
-	public void setWatchRate(String watchRate) {
+	public void setWatchRateSource(String watchRateSource) {
+		this.watchRateSource = watchRateSource;
+	}
+	public void setWatchRate(double watchRate) {
 		this.watchRate = watchRate;
+	}
+	public void setWatchRateDate(Date watchRateDate) {
+		this.watchRateDate = watchRateDate;
 	}
 	public void setSearchKeywords(String searchKeywords) {
 		this.searchKeywords = searchKeywords;

@@ -1,0 +1,9 @@
+#program_id, author_id, type, post_id, comment_id, publish_date, terms
+mbc_sundaynight_house,insos02,POST,pym5jah-_8lnw,,2011-47-16,내집장 내집장만 토너먼트 집 6회 무료다시보기 내집장 내집장만 토너먼트 집 6회 무료다시보기 
+mbc_sundaynight_house,dreamgrapher,POST,pym5qf3-p4y1,,2011-04-17,MBC 우리 일밤 집 직접 짓다 있다 집다 집 보고 보다 보 오다 네이버블로그 마리드림스토리 
+mbc_sundaynight_house,insos02,POST,pymb6wk-_8lnw,,2011-35-19,내집장 내집장만 토너먼트 집 6회 무료다시보기 내집장 내집장만 토너먼트 집 6회 무료다시보기 
+mbc_sundaynight_house,wingsadd,POST,pymbg9g-_5e9s,,2011-27-21,내집장 내집장만 토너먼트 집 6회 무료다시보기 내집장 내집장만 토너먼트 집 6회 무료다시보기 
+mbc_sundaynight_house,wingsadd,POST,pymb_v_-_5e9s,,2011-14-21,내집장 내집장만 토너먼트 집 6회 무료다시보기 내집장 내집장만 토너먼트 집 6회 무료다시보기 
+mbc_sundaynight_house,kakarace,POST,pyo4g0o-5acgm,,2011-18-15,일밤 일밤은 왜 외다 집 앞에놓고 나가수 나가수를 뒤에놔서 시청률 떨어지다 짓다 짓 스스로 하고있는걸까 개인적 집 빨다 끝나다 하다 그거 끝나다 기다리는건 지루 
+mbc_sundaynight_house,insos02,POST,pyo7_up-_8lnw,,2011-01-15,내집장 내집장만 토너먼트 집 6회 무료다시보기 내집장 내집장만 토너먼트 집 6회 무료다시보기 
+mbc_sundaynight_house,cheonjae,COMMENT,pyo4g0o-5acgm,c_2c1z_-yo4g0o-5acgm,2011-17-16,그러게 그러게요 ㅋㅋㅋ 
