@@ -1,4 +1,4 @@
-#program_id, author_id, type, post_id, comment_id, publish_date, terms
+program_id, author_id, type, post_id, comment_id, publish_date, terms
 mbc_gyebaek,bighill008,POST,pym00qv-5edov,,2011-16-21,MBC 대하사극 계백 무왕 역 최종환 8화 명장면 ㅜ 네이버블로그 눈쌓인남한산성 
 mbc_gyebaek,minist10,POST,pym01as-_ptp0,,2011-28-18,이현우 계백 이현우스타 패션알아보기 마이니스트 네이버블로그 세남자의감성 감동마이니스트 
 mbc_gyebaek,buks2,POST,pym02tk-_3cex,,2011-25-22,계백 계백 네이버블로그 부업으로적당히용돈버는블로그 

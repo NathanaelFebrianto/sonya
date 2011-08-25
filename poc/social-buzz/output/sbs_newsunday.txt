@@ -1,4 +1,4 @@
-#program_id, author_id, type, post_id, comment_id, publish_date, terms
+program_id, author_id, type, post_id, comment_id, publish_date, terms
 sbs_newsunday,parkzien,POST,pym00gh-_a9_5,,2011-09-20,아오 ㅋㅋ 런닝맨 쇼크먹음 다음주도 다음주 자연누나 자연누 나오게지하고잇는뎋 ㅎ 
 sbs_newsunday,parkzien,POST,pym00jx-_a9_5,,2011-04-20,이 닉넴 지연누나 지연누 생일 트위터 잘 비쥬얼마전 가입했데 음중 잘봄 런닝맨 런닝맨도 ㅎㅎ 밤 사라지는거대박 
 sbs_newsunday,tbh06132,POST,pym03im-7zbo,,2011-30-18,할룽 런닝맨 공식팬카페 가입어떻게 어디 어디임 ㅋㅋ 

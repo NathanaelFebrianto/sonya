@@ -1,4 +1,4 @@
-#program_id, author_id, type, post_id, comment_id, publish_date, terms
+program_id, author_id, type, post_id, comment_id, publish_date, terms
 kbs2_happysunday_men,dmseorjs,POST,pym081d-_3zbs,,2011-15-21,시련 오다 패망 없다 야망 날 나다 일으켜세울 그것 남자 자격 me2mobile me2photo 
 kbs2_happysunday_men,lbor5359,POST,pym08nx-_sx6j,,2011-23-21,밥먹고 런닝맨 런닝맨보 남자의자격보는중 ㅎㅎㅎㅎ 넘늦게왔 넘늦게왔나 ㅁ 근데 또 졸려지고 졸려지고있음 취침들어가시는분 굿나잇 
 kbs2_happysunday_men,narang282,POST,pym09w7-599eh,,2011-03-21,남자 자격 348회 2011.08.21 네이버블로그 FIRSTDREAM막강딜러슈슈 

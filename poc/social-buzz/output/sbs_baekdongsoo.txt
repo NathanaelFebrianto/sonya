@@ -1,4 +1,4 @@
-#program_id, author_id, type, post_id, comment_id, publish_date, terms
+program_id, author_id, type, post_id, comment_id, publish_date, terms
 sbs_baekdongsoo,meki92,POST,pym0376-gfj0,,2011-07-21,백동수 백동수는 최강용병 네이버블로그 로스트사 로스트사가 
 sbs_baekdongsoo,meki92,POST,pym03oe-gfj0,,2011-01-21,야뇌 백동수 네이버블로그 로스트사 로스트사가 
 sbs_baekdongsoo,ygpopo,POST,pym04wo-5kirk,,2011-35-18,다이어트 자극 남자몸짱 지창욱 무사백동수 지창욱 복근 네이버블로그 리버티짐 

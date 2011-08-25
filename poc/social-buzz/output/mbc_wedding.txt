@@ -1,4 +1,4 @@
-#program_id, author_id, type, post_id, comment_id, publish_date, terms
+program_id, author_id, type, post_id, comment_id, publish_date, terms
 mbc_wedding,love05741,POST,pym000g-r6lr,,2011-01-20,기사 기다 우결 권리세 데이비드오 데이비드오에 2PM 택연 택연이 좋다 고백 네이버블로그 JunHo 
 mbc_wedding,wlsgk2413,POST,pym008r-_igc6,,2011-06-20,우결 무리수 하나 ㅎ 재봉 정장만들어달래 ㅎ 
 mbc_wedding,wjddk1020,POST,pym00gn-5i05g,,2011-09-20,우결 지연나왔대 

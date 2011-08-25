@@ -1,4 +1,4 @@
-#program_id, author_id, type, post_id, comment_id, publish_date, terms
+program_id, author_id, type, post_id, comment_id, publish_date, terms
 mbc_sundaynight_nagasoo,goyayy,POST,pym009z-hs9f,,2011-11-21,음악 일기인순이 아버지 노래 노랗다 다시한번 가수 가창력 다 아니다 아니 것 생각 나가수 가수 노래 울어줬으면좋겠다 우는것 우는것도 노래 한부분 한부분인데 
 mbc_sundaynight_nagasoo,sunji10,POST,pym00c1-y4dr,,2011-14-21,일본 KN 방송사 홈페이지 나가수 반응 보고 보다 보 오다 뭔가 흐뭇하다 
 mbc_sundaynight_nagasoo,syuos,POST,pym00km-yulut,,2011-09-21,오늘자 나가수 빨리좀 끝나다 귀신나오는줄 알다 ㅡ ㅡㅋㅋ 순팽이닷컴 

@@ -1,4 +1,4 @@
-#program_id, author_id, type, post_id, comment_id, publish_date, terms
+program_id, author_id, type, post_id, comment_id, publish_date, terms
 sbs_boss,heekoo415,POST,pym00d_-549s4,,2011-58-18,보스 지키다 시청률 24 
 sbs_boss,all_my_bb,POST,pym016f-5c012,,2011-03-19,보스를지켜 줄이다 영석이 영석이가 좋아하다 단어 나오다 ㅋㅋㅋㅋㅋㅋㅋㅋ 아부끄려 
 sbs_boss,hsn9564,POST,pym01lz-5xrcd,,2011-31-18,오늘 보스를지켜 첫장면 보기 보다 싫어 싫다 

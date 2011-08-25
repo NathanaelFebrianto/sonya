@@ -1,4 +1,4 @@
-#program_id, author_id, type, post_id, comment_id, publish_date, terms
+program_id, author_id, type, post_id, comment_id, publish_date, terms
 kbs2_ojakkyo,nalba93,POST,pym03qh-y14ls,,2011-04-21,오작교 형제 마지막 유이 유이가 뭐라그랫어 뭐라그랫어요 감사가업서 ㅎㅎㅇ me2mobile 
 kbs2_ojakkyo,rornwoddl238,POST,pym08x0-y6snu,,2011-08-18,오작교 형제 4회 자은 자은을 받다 복자 네이버블로그 who 
 kbs2_ojakkyo,ch2280,POST,pym0cf_-5tlmw,,2011-26-20,아이패드로입력하구있어요격배해주세요오늘오작교형제들잘보셨죠 사랑 ㅎㅎ 시청해주세욯 ㅎㅎㅎ 
