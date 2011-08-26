@@ -535,7 +535,7 @@ public class Me2dayDataCollector {
 			//String programId = "mbc_thousand";
 			//String programId = "sbs_besideme";
 			//String programId = "kbs2_princess";
-			//String programId = "mbs_fallinlove";
+			//String programId = "mbc_fallinlove";
 			//String programId = "sbs_boss";
 			//String programId = "kbs2_spy";
 			//String programId = "mbc_gyebaek";

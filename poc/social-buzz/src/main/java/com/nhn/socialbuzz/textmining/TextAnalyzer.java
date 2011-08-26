@@ -8,12 +8,19 @@ import java.io.StringReader;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
+import java.util.Set;
 import java.util.Vector;
 
+import org.apache.lucene.analysis.StopAnalyzer;
+import org.apache.lucene.analysis.StopFilter;
 import org.apache.lucene.analysis.Token;
+import org.apache.lucene.analysis.TokenStream;
 import org.apache.lucene.analysis.kr.KoreanTokenizer;
 import org.apache.lucene.analysis.kr.morph.AnalysisOutput;
 import org.apache.lucene.analysis.kr.morph.MorphAnalyzer;
+import org.apache.lucene.analysis.tokenattributes.OffsetAttribute;
+import org.apache.lucene.analysis.tokenattributes.TermAttribute;
+import org.apache.lucene.util.Version;
 
 import com.nhn.socialbuzz.me2day.model.Comment;
 import com.nhn.socialbuzz.me2day.model.Post;
@@ -21,20 +28,108 @@ import com.nhn.socialbuzz.me2day.service.CommentManager;
 import com.nhn.socialbuzz.me2day.service.CommentManagerImpl;
 import com.nhn.socialbuzz.me2day.service.PostManager;
 import com.nhn.socialbuzz.me2day.service.PostManagerImpl;
+import com.nhn.socialbuzz.textmining.regex.Extractor;
 
 public class TextAnalyzer {
 	
+	public static final String[] STOP_WORDS = new String[]{
+		"a", "an", "and", "are", "as", "at", "be", "but", "by",
+		"for", "if", "in", "into", "is", "it",
+		"no", "not", "of", "on", "or", "such",
+		"that", "the", "their", "then", "there", "these",
+		"they", "this", "to", "was", "will", "with"		  
+	};
+  
+	public static final String[] KOR_STOP_WORDS = new String[]{
+		"이","그","저","것","수","등","들"
+	};	
+	
+	public static final String[] DOMAIN_STOP_WORDS = new String[]{		
+	};
+	
+	private Set stopSet;
+	
+	private Extractor extractor;
+	
+	private MorphAnalyzer morphAnalyzer;
+	
+	private StopAnalyzer stopAnalyzer;
+	
 	public TextAnalyzer() {
+		extractor = new Extractor();
 		
+		stopSet = StopFilter.makeStopSet(Version.LUCENE_CURRENT, STOP_WORDS, true);
+		stopSet.addAll(StopFilter.makeStopSet(Version.LUCENE_CURRENT, KOR_STOP_WORDS, true));
+		stopSet.addAll(StopFilter.makeStopSet(Version.LUCENE_CURRENT, DOMAIN_STOP_WORDS, true));		
+		
+		morphAnalyzer = new MorphAnalyzer();		
+		stopAnalyzer = new StopAnalyzer(Version.LUCENE_CURRENT, stopSet);
+		System.out.println("stop words == " + stopAnalyzer.getStopwordSet());
+	}
+	
+	private String removeUrls(String text) {
+		List<String> urls = extractor.extractURLs(text);
+		
+		if (urls.size() > 0) {
+			//System.out.println("text before removing urls == " + text);
+			//System.out.println("urls == " + urls.toString());
+		}		
+		
+		for (String url : urls) {
+			text = text.replaceAll(url, " ");
+			//System.out.println("text after removing urls == " + text);
+		}
+				
+		return text;		
+	}
+	
+	private String convertCharacters(String text, String oldChar, String newChar) {
+		List<String> chars = extractor.extractSameCharacters(text, oldChar);
+		
+		if (chars.size() > 0) {
+			//System.out.println("text before converting " + oldChar + " == " + text);
+			//System.out.println("chars == " + chars.toString());
+		}		
+		
+		for (String cha : chars) {
+			text = text.replaceAll(cha, newChar);
+			//System.out.println("text after converting " + cha + " == " + text);
+		}
+				
+		return text;		
+	}
+	
+	private String normalizeText(String text) {
+		text = text.replaceAll("\\?", "QQQQQ");
+		text = text.replaceAll("\\^\\^", "SSSSS");
+		text = text.replaceAll("me2photo", ""); 
+		text = text.replaceAll("me2mobile", "");
+		text = text.replaceAll("me2mms", "");
+		
+		text = this.removeUrls(text);
+		text = this.convertCharacters(text, "ㅋ", " #SMILE ");
+		text = this.convertCharacters(text, "ㅎ", " #SMILE ");
+		text = this.convertCharacters(text, "ㅜ", " #CRY ");
+		text = this.convertCharacters(text, "ㅠ", " #CRY ");
+		text = this.convertCharacters(text, "SSSSS", " #SMILE ");
+		text = this.convertCharacters(text, "♡", " #LOVE ");
+		text = this.convertCharacters(text, "♥", " #LOVE ");
+		text = this.convertCharacters(text, "QQQQQ", " #QUESTION ");
+		text = this.convertCharacters(text, "!", " #EXCLAMATION ");		
+		
+		return text;
 	}
 
-	public Vector<String> extractTerms(String text) {
+	@Deprecated
+	public Vector<String> extractTerms_1(String text) {
+		this.normalizeText(text);
+		
 		Vector<String> terms = new Vector<String>();
 		
-		MorphAnalyzer analyzer = new MorphAnalyzer();
 		KoreanTokenizer tokenizer = new KoreanTokenizer(new StringReader(text));
-		Token token = null;
 
+		Token token = null;
+		
 		try {
 			while ((token = tokenizer.next()) != null) {
 				/*
@@ -42,17 +137,17 @@ public class TextAnalyzer {
 					continue;
 				*/
 				try {
-					analyzer.setExactCompound(false);
+					morphAnalyzer.setExactCompound(false);
 					
-					List<AnalysisOutput> results = analyzer.analyze(token.toString());
+					List<AnalysisOutput> results = morphAnalyzer.analyze(token.toString());
 
-					//System.out.println(token.toString());
+					System.out.println(token.toString());
 
 					for (AnalysisOutput o : results) {
 						
 						String mWord = o.toString();						
 						
-						System.out.println(mWord);
+						//System.out.println(mWord);
 						
 						/*
 						for (int i = 0; i < o.getCNounList().size(); i++) {
@@ -60,19 +155,16 @@ public class TextAnalyzer {
 						}
 						*/
 
-						System.out.println("<" + o.getScore() + ">");
+						//System.out.println("<" + o.getScore() + ">");
 						
 						if (mWord.indexOf("(N)") >= 0) {
 							terms.add(o.getStem());
-							System.out.println("noun == " + o.getStem());
+							//System.out.println("noun == " + o.getStem());
 						}
 						if (mWord.indexOf("(V)") >= 0) {
-							terms.add(o.getStem() + "다");
-							System.out.println("verb == " + o.getStem() + "다");
+							terms.add(o.getStem());
+							//System.out.println("verb == " + o.getStem());
 						}
-						
-						System.out.println("\n");				
-						
 					}
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -85,7 +177,54 @@ public class TextAnalyzer {
 		return terms;		
 	}
 	
+	public Vector<String> extractTerms(String text) {
+		System.out.println("original text == " + text);
+		
+		text = this.normalizeText(text);
+		
+		System.out.println("normalized text == " + text);
+		
+		Vector<String> terms = new Vector<String>();
+		
+		TokenStream stream = stopAnalyzer.tokenStream("k", new StringReader(text));
 
+		TermAttribute termAttr = stream.getAttribute(TermAttribute.class); 		
+        OffsetAttribute offSetAttr = stream.getAttribute(OffsetAttribute.class);
+		
+		try {
+
+			while (stream.incrementToken()) {
+				try {
+					//System.out.println(termAttr.term());
+					
+					morphAnalyzer.setExactCompound(false);					
+					List<AnalysisOutput> results = morphAnalyzer.analyze(termAttr.term());
+
+					for (AnalysisOutput o : results) {
+						
+						String mWord = o.toString();						
+
+						if (mWord.indexOf("(N)") >= 0) {
+							terms.add(o.getStem());
+							System.out.println("noun == " + o.getStem());
+						}
+						if (mWord.indexOf("(V)") >= 0) {
+							terms.add(o.getStem());
+							System.out.println("verb == " + o.getStem());
+						}
+					}										
+
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		} catch (IOException ioe) {
+			ioe.printStackTrace();
+		}
+		
+		return terms;		
+	}
+	
 	
 	private String convertTerms(Vector<String> terms) {
 		StringBuffer sbTerms = new StringBuffer();
@@ -114,12 +253,12 @@ public class TextAnalyzer {
 		PrintWriter writer = new PrintWriter(new FileWriter(out));
 		
 		// write header
-		writer.println("program_id, author_id, type, post_id, comment_id, publish_date, terms");
+		writer.println("program_id	author_id	type	post_id	comment_id	publish_date	terms");
 		
 		for (Post post : posts) {
 			String postId = post.getPostId();
 			String authorId = post.getAuthorId();
-			String publishDate = this.convertDate("yyyy-mm-dd", post.getPublishDate());
+			String publishDate = this.convertDate("yyyy-MM-dd", post.getPublishDate());
 			String textBody = post.getTextBody();
 			String textTag = post.getTagText();
 			String type = "POST";
@@ -129,12 +268,12 @@ public class TextAnalyzer {
 			String strTerms = this.convertTerms(terms);
 			
 			writer.println(
-					programId + "," +
-					authorId + "," + 
-					type + "," + 
-					postId + "," + 
-					"" + "," +
-					publishDate + "," + 
+					programId + "\t" +
+					authorId + "\t" + 
+					type + "\t" + 
+					postId + "\t" + 
+					"" + "\t" +
+					publishDate + "\t" + 
 					strTerms);
 			
 		}
@@ -151,12 +290,12 @@ public class TextAnalyzer {
 			String strTerms = this.convertTerms(terms);
 			
 			writer.println(
-					programId + "," +
-					authorId + "," + 
-					type + "," + 
-					postId + "," + 
-					commentId + "," +
-					publishDate + "," + 
+					programId + "\t" +
+					authorId + "\t" + 
+					type + "\t" + 
+					postId + "\t" + 
+					commentId + "\t" +
+					publishDate + "\t" + 
 					strTerms);
 		}
 		
@@ -169,8 +308,8 @@ public class TextAnalyzer {
 			//String programId = "kbs2_ojakkyo";
 			//String programId = "mbc_thousand";
 			//String programId = "sbs_besideme";
-			//String programId = "kbs2_princess";
-			//String programId = "mbs_fallinlove";
+			String programId = "kbs2_princess";
+			//String programId = "mbc_fallinlove";
 			//String programId = "sbs_boss";
 			//String programId = "kbs2_spy";
 			//String programId = "mbc_gyebaek";
@@ -182,7 +321,7 @@ public class TextAnalyzer {
 			//String programId = "kbs2_happysunday_men";
 			//String programId = "mbc_sundaynight_nagasoo";
 			//String programId = "mbc_sundaynight_house";
-			String programId = "sbs_newsunday";
+			//String programId = "sbs_newsunday";
 									
 			PostManager postManager = new PostManagerImpl();
 			CommentManager commentManager = new CommentManagerImpl();
@@ -211,6 +350,7 @@ public class TextAnalyzer {
 		
 		analyzer.analyze();
 		
+		
 		/*
 		PostManager postManager = new PostManagerImpl();
 		Post param = new Post();
@@ -223,6 +363,9 @@ public class TextAnalyzer {
 			System.out.println(terms.toString());
 		}
 		*/
+		
+		//String text = "오늘 보스를 지켜라 한당 ㅋㅋㅋ 무사백동수14회다시보기 ㅋㅋㅋ";
+		//analyzer.convertSameCharacters(text, "ㅋ");
 		
 	}
 }
