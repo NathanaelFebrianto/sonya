@@ -209,5 +209,10 @@ plotAudienceSentimentTimeSeriesOfTweets("BarackObama")
 plotAudienceSentimentTimeSeriesOfUsers("BarackObama")
 plotPopularSentimentTimeSeries("BarackObama")
 
+plotAudienceSentimentTimeSeriesOfTweets("Oprah")
+
+plotAudienceSentimentTimeSeriesOfUsers("ladygaga")
+plotAudienceSentimentTimeSeriesOfUsers("britneyspears")
+
 
 
