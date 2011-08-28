@@ -1,0 +1,50 @@
+program_id	author_id	type	post_id	comment_id	publish_date	terms
+kbs1_greatking	b_soha	POST	pym09my-2kcq		2011-08-21	웅 맞아맞 맞아맞아 smile 향이는광개토보고있옹 question 
+kbs1_greatking	robin4572	POST	pym0hs4-_j3f3		2011-08-20	엄마 광개토대왕봐서 코갓텔할때 놀쟈 
+kbs1_greatking	ssk90846	POST	pym12jb-ysexn		2011-08-20	연살타 담덕 담망 고무 토 일 사극 드라마 question 광개토 태왕 대왕 
+kbs1_greatking	putiaruna	POST	pym1dwb-_m7mq		2011-08-22	광개토 태왕 역시 오지은님 최고 smile 근데 도영 도영이 담덕 담덕과 좋 맺어지는는 않을것 같 걱정 cry cry 
+kbs1_greatking	putiaruna	POST	pym1dwq-_m7mq		2011-08-22	광개토 태왕 담망 참 차 안타까웟다 역시 지혜롭 왕 답게 cry cry 
+kbs1_greatking	elimegg	POST	pym3xef-fy0z		2011-08-18	김수정 교과서여행 체험학습갈만한곳 아차산 고구려대장간마을 광개토대왕릉비 
+kbs1_greatking	b2stever	POST	pym5r3x-_0v16		2011-08-19	넌내반어제끝 cry 난이제사극만보고사야되낰 smile 계백이랑광개토 cry 그저눈물 cry 
+kbs1_greatking	wlaurel99	POST	pym5v5q-y8gss		2011-08-19	광개토태왕보는사람미투 
+kbs1_greatking	yujin-1	POST	pym5wo1-_md39		2011-08-16	대박 exclamation 아직문경새재인데광개토대왕에나오는이태곤봄 exclamation 
+kbs1_greatking	ksj-1106	POST	pym6jzr-_tz60		2011-08-17	지금독도문제와동해표기문제가잇슈죠 아니 아 우리집인데왜우리집이라는걸증명을해야는지모르겠다는비유가하고싶네 우리집인데왜우리집이라는걸증명을해야는지모르겠다는비유가하고싶네요 다른나라지도를봐 만일본해라쓰고나머지나라는전부다동해라고씁니 만일본해라쓰고나머지나라는전부다동해라고씁니다 년에쓰여진광개토대왕릉비에도분명히동해라고적혀져있구요염연히우리나라의바다도수천년부터우리나라동쪽의바 년에쓰여진광개토대왕릉비에도분명히동해라고적혀져있구요염연히우리나라의바다도수천년부터우리나라동쪽의바다 는동해라고불러져왔는데세력이큰영국과미국이일본해라고표기한다면매우안좋은상황이일어날수도있습니다독도영유권에있어서만약동해가일본해가된다면일본의편을조금더들어줄수도있죠ㅡㅡ가수김장훈님이여러사람들과뜻을합쳐서그렇게발벗고홍보를했는데안타깝군요 여러분들의관심만이우리나라동해와독도를지킬수 여러분들의관심만이우리나라동해와독도를지킬수있습니 여러분들의관심만이우리나라동해와독도를지킬수있습니다 
+kbs1_greatking	khsooyeon	POST	pymbc72-5y5bc		2011-08-21	나 나 짐 지 광개토 보 미투중 smile 
+kbs1_greatking	yureey	POST	pymj597-_606y		2011-08-20	광개토대왕보는데 담망이죽었어 cry 담덕 담덕이 안쓰러워 안쓰럽 cry 무한도전닮은꼴 
+kbs1_greatking	walfaaa2	POST	pymk8gf-ytl_9		2011-08-20	에 재미 광개토 대왕 대왕이 보 리버풀vs아스 리버풀vs아스날 후반전 하이라이트 확인해줄게 
+kbs1_greatking	iyousens	POST	pyo4nqn-yq85k		2011-08-15	광개토태왕 예고 예 광개토 태왕 회 월 일 방송분 예고 예 
+kbs1_greatking	betterepisod	POST	pyovkze-_ct8i		2011-08-15	하이고오 공주여행 다녀오 exclamation 광개토대왕릉비 가짜지 가짜지만 엄청크네 엄청크네요 머리 아프 cry 
+kbs1_greatking	sds8822	POST	pyoxqyr-gwvn		2011-08-15	얏호 exclamation 머리 샤워밴드하고 엄마왈 광개토 대왕 담덕 담덕같 담덕같아 나란여자 담덕카리스마나는여자 와오 나멋진놈 나멋진놈임 ㅇㅇ 
+kbs1_greatking	annchobi	COMMENT	pym0hs4-_j3f3	c_n9h7k-ym0hs4-_j3f3	2011-20-20	광개토대왕 exclamation 멋지 분이죠 smile 
+kbs1_greatking	robin4572	COMMENT	pym0hs4-_j3f3	c_n9q05-ym0hs4-_j3f3	2011-20-20	폿카췹 smile 탑밴드보구파 
+kbs1_greatking	robin4572	COMMENT	pym0hs4-_j3f3	c_n9q6_-ym0hs4-_j3f3	2011-20-20	쵸 그치 그치만 탑밴드 탑밴드가 더조아 더조아요 
+kbs1_greatking	bss5834	COMMENT	pym0hs4-_j3f3	c_n9q8i-ym0hs4-_j3f3	2011-21-20	시 놀기대신죽기 smile 
+kbs1_greatking	bss5834	COMMENT	pym0hs4-_j3f3	c_n9q9x-ym0hs4-_j3f3	2011-21-20	죽쟈 
+kbs1_greatking	robin4572	COMMENT	pym0hs4-_j3f3	c_n9qam-ym0hs4-_j3f3	2011-22-20	폿카췹 smile 불쌍 근데 우리 반모할까열 question 
+kbs1_greatking	wjdgyfla32	COMMENT	pym0hs4-_j3f3	c_n9qba-ym0hs4-_j3f3	2011-20-20	코갓텔 몇시에 몇시에함 question 
+kbs1_greatking	annchobi	COMMENT	pym0hs4-_j3f3	c_n9qe7-ym0hs4-_j3f3	2011-20-20	시 탑밴드 재밌 재밌나 재밌나요 question 요즘 음악프로 나가수 나가수밖 안봐서 smile 
+kbs1_greatking	robin4572	COMMENT	pym0hs4-_j3f3	c_n9qfo-ym0hs4-_j3f3	2011-21-20	하민 시 
+kbs1_greatking	hero_001	COMMENT	pym0hs4-_j3f3	c_n9qig-ym0hs4-_j3f3	2011-22-20	시 이거보고탑밴드끝부분이라도보려 cry 
+kbs1_greatking	robin4572	COMMENT	pym0hs4-_j3f3	c_n9qm8-ym0hs4-_j3f3	2011-21-20	운명론 죽일놈 smile 
+kbs1_greatking	robin4572	COMMENT	pym0hs4-_j3f3	c_n9qrk-ym0hs4-_j3f3	2011-21-20	운명론 죽일놈 왜 외 question 
+kbs1_greatking	hero_001	COMMENT	pym0hs4-_j3f3	c_n9qv4-ym0hs4-_j3f3	2011-23-20	시 예압 exclamation 
+kbs1_greatking	robin4572	COMMENT	pym0hs4-_j3f3	c_n9qv9-ym0hs4-_j3f3	2011-23-20	하민 smile ㅅ smile 
+kbs1_greatking	wjdgyfla32	COMMENT	pym0hs4-_j3f3	c_n9qzq-ym0hs4-_j3f3	2011-22-20	시 아 맞 smile 보 
+kbs1_greatking	hero_001	COMMENT	pym0hs4-_j3f3	c_n9q_s-ym0hs4-_j3f3	2011-20-20	지금울엄마랑광개토태왕보고잇는데 cry 
+kbs1_greatking	hero_001	COMMENT	pym0hs4-_j3f3	c_nj6of-ym0hs4-_j3f3	2011-11-20	시 smile 탑밴드 강대진표랑미션나온 잏힣 
+kbs1_greatking	robin4572	COMMENT	pym0hs4-_j3f3	c_npy82-ym0hs4-_j3f3	2011-19-21	폿카췹 smile ㅅ smile 
+kbs1_greatking	hero_001	COMMENT	pym0hs4-_j3f3	c_npyqr-ym0hs4-_j3f3	2011-19-21	시 오 이시 이시간에 온건강 
+kbs1_greatking	sa06032	COMMENT	pym5r3x-_0v16	c_ndha2-ym5r3x-_0v16	2011-18-19	보고살 보고살아 smile 
+kbs1_greatking	b2stever	COMMENT	pym5r3x-_0v16	c_nm24l-ym5r3x-_0v16	2011-46-22	정 헐 의왼데 question smile 
+kbs1_greatking	b2stever	COMMENT	pym5r3x-_0v16	c_nm2qo-ym5r3x-_0v16	2011-45-22	윤리더여친 고맙 
+kbs1_greatking	b2stever	COMMENT	pym5r3x-_0v16	c_nm2xq-ym5r3x-_0v16	2011-46-22	정 난 나 날 잘생기 smile 
+kbs1_greatking	oke3128	COMMENT	pym5r3x-_0v16	c_nyxc1-ym5r3x-_0v16	2011-39-19	너광개토보냌 근데그건오버가심해서웃기는맛으로보는뎈 
+kbs1_greatking	dldbsgma	COMMENT	pym5v5q-y8gss	c_n311c-ym5v5q-y8gss	2011-51-20	아빠 때문 때문에 억지 question 겸 재밌어서 본디 smile 
+kbs1_greatking	shinhs0815	COMMENT	pym5v5q-y8gss	c_n57md-ym5v5q-y8gss	2011-24-19	내일한다 
+kbs1_greatking	ksj-1106	COMMENT	pym6jzr-_tz60	c_nq339-ym6jzr-_tz60	2011-39-17	화이특 조용한외교 question 그조용한외교해서이득받은게머가 question 다른나라들이조용히일본편을들고있는데ㅡㅡ아이가원하는걸갖고싶으면더심하게울죠 question 우리나라도더심하게울면되는거아닙니까ㅡㅡ제발소극적인외교가아닌적극적인외교부탁 글보러가기 
+kbs1_greatking	rkdekgml0101	COMMENT	pym6jzr-_tz60	c_nqkgy-ym6jzr-_tz60	2011-37-17	슈주야하트 우리 우리나라 왜 외 대책 마련같은거 안해놓을까 question cry 
+kbs1_greatking	ksj-1106	COMMENT	pym6jzr-_tz60	c_nqkp0-ym6jzr-_tz60	2011-36-17	화이특 제발이건정부만의문제가아니라우리문제도 당신들의자손의국사책에독도라일본이일본꺼라고적힌책을보여 당신들의자손의국사책에독도라일본이일본꺼라고적힌책을보여드리겠습니까 question 아님국사책에동해와독도라고적힌책을보여 question 글보러가기 
+kbs1_greatking	rkdekgml0101	COMMENT	pym6jzr-_tz60	c_nq_z3-ym6jzr-_tz60	2011-31-17	휴 cry 진심 동해오빠 일본가서 팬분들한테 말씀 진짜 장난아니 장난아니고 exclamation 음 cry 
+kbs1_greatking	sds8822	COMMENT	pyoxqyr-gwvn	c_n00e0-yoxqyr-gwvn	2011-19-15	stray cat 주거 ㅇㅅㅇ 
+kbs1_greatking	jdaejin2	COMMENT	pyoxqyr-gwvn	c_n00fu-yoxqyr-gwvn	2011-20-15	teahyaolom 기분 안좋아보 안좋아보이네 
+kbs1_greatking	jdaejin2	COMMENT	pyoxqyr-gwvn	c_n0kxq-yoxqyr-gwvn	2011-14-15	장군님 절 괴롭혀주세 

@@ -527,27 +527,9 @@ public class Me2dayDataCollector {
 		return 0;
 	}
 	
-	public void execute() {
+	public void execute(String programId) {
 		
 		try {
-			//String programId = "kbs1_greatking";
-			//String programId = "kbs2_ojakkyo";
-			//String programId = "mbc_thousand";
-			//String programId = "sbs_besideme";
-			//String programId = "kbs2_princess";
-			//String programId = "mbc_fallinlove";
-			//String programId = "sbs_boss";
-			//String programId = "kbs2_spy";
-			//String programId = "mbc_gyebaek";
-			//String programId = "sbs_baekdongsoo";
-			//String programId = "mbc_wedding";
-			//String programId = "mbc_challenge";
-			//String programId = "sbs_starking";
-			//String programId = "kbs2_happysunday_1bak2il";
-			//String programId = "kbs2_happysunday_men";
-			//String programId = "mbc_sundaynight_nagasoo";
-			//String programId = "mbc_sundaynight_house";
-			String programId = "sbs_newsunday";
 			
 			TvProgram program = tvProgramManager.getProgram(programId);
 			System.out.println("title == " + program.getTitle());
@@ -567,10 +549,57 @@ public class Me2dayDataCollector {
 		
 	}
 	
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		try {
 			Me2dayDataCollector collector = new Me2dayDataCollector();
-			collector.execute();
+			
+			//String programId = "kbs1_greatking";
+			//String programId = "kbs2_ojakkyo";
+			//String programId = "mbc_thousand";
+			//String programId = "sbs_besideme";
+			//String programId = "kbs2_princess";
+			//String programId = "mbc_fallinlove";
+			//String programId = "sbs_boss";
+			//String programId = "kbs2_spy";
+			//String programId = "mbc_gyebaek";
+			//String programId = "sbs_baekdongsoo";
+			//String programId = "mbc_wedding";
+			//String programId = "mbc_challenge";
+			//String programId = "sbs_starking";
+			//String programId = "kbs2_happysunday_1bak2il";
+			//String programId = "kbs2_happysunday_men";
+			//String programId = "mbc_sundaynight_nagasoo";
+			//String programId = "mbc_sundaynight_house";
+			//String programId = "sbs_newsunday";
+			
+			String[] programs = new String[] {
+//				"kbs1_greatking",
+//				"kbs2_ojakkyo",
+//				"mbc_thousand",
+//				"sbs_besideme",
+//				"kbs2_princess",
+				"mbc_fallinlove",
+//				"sbs_boss",
+//				"kbs2_spy",
+//				"mbc_gyebaek",
+//				"sbs_baekdongsoo",
+//				"mbc_wedding",
+//				"mbc_challenge",
+//				"sbs_starking",
+//				"kbs2_happysunday_1bak2il",
+//				"kbs2_happysunday_men",
+//				"mbc_sundaynight_nagasoo",
+//				"mbc_sundaynight_house",
+//				"sbs_newsunday"
+			};
+			
+			for (int i = 0; i <programs.length; i++) {
+				collector.execute(programs[i]);
+			}			
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
