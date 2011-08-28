@@ -14,7 +14,7 @@ colnames(df_populars) <- c("user", "create_date", "p.total_tweet_count", "p.posi
 df_all = NULL
 df_all = merge(df_audiences, df_populars, by = c("user", "create_date"), all = FALSE)
 
-correlation <- function (user_name) {
+Correlation <- function (user_name) {
 	df_user = subset(df_all, subset = (user == user_name))
 	
 	cor_pos = cor(df_user$a.positive_tweet_count, df_user$p.positive_tweet_count)	
@@ -24,18 +24,18 @@ correlation <- function (user_name) {
 	cat("negative correlation == ", cor_neg, "\n")
 }
 
-correlation("BarackObama")
-correlation("Oprah")
-correlation("aplusk")
-correlation("BBCBreaking")
-correlation("BillGates")
-correlation("britneyspears")
-correlation("cnnbrk")
-correlation("DalaiLama")
-correlation("kingsthings")
-correlation("ladygaga")
-correlation("mashable")
-correlation("realDonaldTrump")
-correlation("TechCrunch")
+Correlation("BarackObama")
+Correlation("Oprah")
+Correlation("aplusk")
+Correlation("BBCBreaking")
+Correlation("BillGates")
+Correlation("britneyspears")
+Correlation("cnnbrk")
+Correlation("DalaiLama")
+Correlation("kingsthings")
+Correlation("ladygaga")
+Correlation("mashable")
+Correlation("realDonaldTrump")
+Correlation("TechCrunch")
 
 
