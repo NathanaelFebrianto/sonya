@@ -77,15 +77,18 @@ AnalyzeDocument <- function(program.id, filename) {
 	#tags <- sort(findFreqTerms(mydata.dtm2, lowfreq = 1, highfreq = 200)); tags[1:10]
 	
 	
-	numwords <- ncol(mydata.dtm2)
-	v <- as.matrix(sort(colSums(top2.matrix), decreasing = TRUE)); v
+	#numwords <- ncol(mydata.dtm2)
 	#v <- as.matrix(sort(sapply(top2.matrix, sum), decreasing = TRUE)[1:numwords], colnames = count); v[1:numwords]
+	v <- as.matrix(sort(colSums(top2.matrix), decreasing = TRUE)); v	
 	w <- rownames(v); length(w); w
 	
 	# export tf sum
 	write.csv(v, file=paste("tf_", program.id, ".csv", sep = ""), row.names = TRUE)
 	
 	PlotTermFreq(program.id, v)
+	
+#	mydata.dtm3 <- removeSparseTerms(mydata.dtm, sparse = 0.8)
+#	PlotDendrogram(mydata.dtm3)
 	
 }
 
@@ -132,23 +135,23 @@ PlotDendrogram <- function (dtm) {
 # Execute 
 ###
 
-AnalyzeDocument("kbs1_greatking", "src_kbs1_greatking.txt")
-AnalyzeDocument("kbs2_ojakkyo", "src_kbs2_ojakkyo.txt")
-AnalyzeDocument("mbc_thousand", "src_mbc_thousand.txt")
-AnalyzeDocument("sbs_besideme", "src_sbs_besideme.txt")
+#AnalyzeDocument("kbs1_greatking", "src_kbs1_greatking.txt")
+#AnalyzeDocument("kbs2_ojakkyo", "src_kbs2_ojakkyo.txt")
+#AnalyzeDocument("mbc_thousand", "src_mbc_thousand.txt")
+#AnalyzeDocument("sbs_besideme", "src_sbs_besideme.txt")
 AnalyzeDocument("kbs2_princess", "src_kbs2_princess.txt")
-AnalyzeDocument("mbc_fallinlove", "src_mbc_fallinlove.txt")
-AnalyzeDocument("sbs_boss", "src_sbs_boss.txt")
-AnalyzeDocument("kbs2_spy", "src_kbs2_spy.txt")
-AnalyzeDocument("mbc_gyebaek", "src_mbc_gyebaek.txt")
-AnalyzeDocument("sbs_baekdongsoo", "src_sbs_baekdongsoo.txt")
-AnalyzeDocument("mbc_wedding", "src_mbc_wedding.txt")
-AnalyzeDocument("mbc_challenge", "src_mbc_challenge.txt")
-AnalyzeDocument("sbs_starking", "src_sbs_starking.txt")
-AnalyzeDocument("kbs2_happysunday_1bak2il", "src_kbs2_happysunday_1bak2il.txt")
-AnalyzeDocument("kbs2_happysunday_men", "src_kbs2_happysunday_men.txt")
-AnalyzeDocument("mbc_sundaynight_nagasoo", "src_mbc_sundaynight_nagasoo.txt")
-AnalyzeDocument("mbc_sundaynight_house", "src_mbc_sundaynight_house.txt")
-AnalyzeDocument("sbs_newsunday", "src_sbs_newsunday.txt")
+#AnalyzeDocument("mbc_fallinlove", "src_mbc_fallinlove.txt")
+#AnalyzeDocument("sbs_boss", "src_sbs_boss.txt")
+#AnalyzeDocument("kbs2_spy", "src_kbs2_spy.txt")
+#AnalyzeDocument("mbc_gyebaek", "src_mbc_gyebaek.txt")
+#AnalyzeDocument("sbs_baekdongsoo", "src_sbs_baekdongsoo.txt")
+#AnalyzeDocument("mbc_wedding", "src_mbc_wedding.txt")
+#AnalyzeDocument("mbc_challenge", "src_mbc_challenge.txt")
+#AnalyzeDocument("sbs_starking", "src_sbs_starking.txt")
+#AnalyzeDocument("kbs2_happysunday_1bak2il", "src_kbs2_happysunday_1bak2il.txt")
+#AnalyzeDocument("kbs2_happysunday_men", "src_kbs2_happysunday_men.txt")
+#AnalyzeDocument("mbc_sundaynight_nagasoo", "src_mbc_sundaynight_nagasoo.txt")
+#AnalyzeDocument("mbc_sundaynight_house", "src_mbc_sundaynight_house.txt")
+#AnalyzeDocument("sbs_newsunday", "src_sbs_newsunday.txt")
 
 
