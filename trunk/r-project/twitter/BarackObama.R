@@ -5,12 +5,13 @@
 
 setwd("D:/dev/workspace/r-project/twitter")
 
-df_obama = read.csv("twitter_obama.csv")
+#df_obama = read.csv("twitter_obama.csv")
+df_obama = read.csv("twitter_obama_filtered.csv")
 
 library(lmtest)
 
 # Calculate z-score to normalize data.
-zscore <- function (x) {
+Zscore <- function (x) {
 	mu = mean(x)
 	ro = sd(x)
 	z = (x - mu) / ro
@@ -20,7 +21,7 @@ zscore <- function (x) {
 ###
 # Plot time series of sentiment and gallup data with one graph.
 ###
-plot.timeseries.sentiment <- function () {	
+PlotTimeseriesSentiment <- function () {	
 	
 	# Compute the largest y value used in the data (or we could just use range again)
 	#max_y <- max(df_obama$gallup_approve)
@@ -76,7 +77,7 @@ plot.timeseries.sentiment <- function () {
 ###
 # Plot time series of sentiment and gallup data with two graphs.
 ###
-plot.timeseries.sentiment1 <- function () {
+PlotTimeseriesSentiment1 <- function () {
 	
 	# Split the screen into two rows and one column, defining screens 1 and 2.	
 	split.screen(figs = c(2, 1))	
@@ -170,13 +171,13 @@ plot.timeseries.sentiment1 <- function () {
 ###
 # Plot time series of positive sentiment and gallup data by zscore.
 ###
-plot.timeseries.zscore.positive <- function () {	
+PlotTimeseriesZscorePositive <- function () {	
 	
 	# Compute the largest y value used in the data (or we could just use range again)
-	max_y <- max(zscore(df_obama$gallup_approve), 
-			zscore(df_obama$positive_user_rate)) + 0.5
-	min_y <- min(zscore(df_obama$gallup_approve), 
-			zscore(df_obama$positive_tweet_rate)) - 0.5
+	max_y <- max(Zscore(df_obama$gallup_approve), 
+			Zscore(df_obama$positive_user_rate)) + 0.5
+	min_y <- min(Zscore(df_obama$gallup_approve), 
+			Zscore(df_obama$positive_tweet_rate)) - 0.5
 	
 	# Defines colors to be used 
 	plot_colors <- c("blue", "blue")
@@ -184,7 +185,7 @@ plot.timeseries.zscore.positive <- function () {
 	# Graph autos using y axis that ranges from 0 to max_y.
 	# Turn off axes and annotations (axis labels) so we can 
 	# specify them ourself
-	plot(zscore(df_obama$gallup_approve), type = "l", col = plot_colors[1], lty = "dashed",
+	plot(Zscore(df_obama$gallup_approve), type = "l", col = plot_colors[1], lty = "dashed",
 			ylim = c(min_y, max_y), axes = FALSE, ann = FALSE, lwd  = 2)
 	
 	# Make x axis
@@ -198,7 +199,7 @@ plot.timeseries.zscore.positive <- function () {
 	box()
 	
 	# Graph line of positve tweet rate
-	lines(zscore(df_obama$positive_tweet_rate), type = "l", pch = 24, lty = "solid", 
+	lines(Zscore(df_obama$positive_tweet_rate), type = "l", pch = 24, lty = "solid", 
 			col = plot_colors[2], lwd  = 2)
 	
 	# Create a title with a red, bold/italic font
@@ -221,13 +222,13 @@ plot.timeseries.zscore.positive <- function () {
 ###
 # Plot time series of negative sentiment and gallup data by zscore.
 ###
-plot.timeseries.zscore.negative <- function () {	
+PlotTimeseriesZscoreNegative <- function () {	
 	
 	# Compute the largest y value used in the data (or we could just use range again)
-	max_y <- max(zscore(df_obama$gallup_disapprove), 
-			zscore(df_obama$negative_tweet_rate)) + 0.5
-	min_y <- min(zscore(df_obama$gallup_disapprove), 
-			zscore(df_obama$negative_tweet_rate)) - 0.5
+	max_y <- max(Zscore(df_obama$gallup_disapprove), 
+			Zscore(df_obama$negative_tweet_rate)) + 0.5
+	min_y <- min(Zscore(df_obama$gallup_disapprove), 
+			Zscore(df_obama$negative_tweet_rate)) - 0.5
 	
 	# Defines colors to be used 
 	plot_colors <- c("red", "red")
@@ -235,7 +236,7 @@ plot.timeseries.zscore.negative <- function () {
 	# Graph autos using y axis that ranges from 0 to max_y.
 	# Turn off axes and annotations (axis labels) so we can 
 	# specify them ourself
-	plot(zscore(df_obama$gallup_disapprove), type = "l", col = plot_colors[1], lty = "dashed",
+	plot(Zscore(df_obama$gallup_disapprove), type = "l", col = plot_colors[1], lty = "dashed",
 			ylim = c(min_y, max_y), axes = FALSE, ann = FALSE, lwd  = 2)
 	
 	# Make x axis
@@ -249,7 +250,7 @@ plot.timeseries.zscore.negative <- function () {
 	box()
 	
 	# Graph line of negative tweet rate
-	lines(zscore(df_obama$negative_tweet_rate), type = "l", pch = 24, lty = "solid", 
+	lines(Zscore(df_obama$negative_tweet_rate), type = "l", pch = 24, lty = "solid", 
 			col = plot_colors[2], lwd  = 2)
 	
 	# Create a title with a red, bold/italic font
@@ -272,13 +273,13 @@ plot.timeseries.zscore.negative <- function () {
 ###
 # Plot time series of gap of sentiment and gallup data by zscore.
 ###
-plot.timeseries.zscore.gap <- function () {	
+PlotTimeseriesZscoreGap <- function () {	
 	
 	# Compute the largest y value used in the data (or we could just use range again)
-	max_y <- max(zscore(df_obama$gallup_approve - df_obama$gallup_disapprove), 
-			zscore(df_obama$positive_tweet_rate - df_obama$negative_tweet_rate)) + 0.5
-	min_y <- min(zscore(df_obama$gallup_approve - df_obama$gallup_disapprove), 
-			zscore(df_obama$positive_tweet_rate - df_obama$negative_tweet_rate)) + 0.5
+	max_y <- max(Zscore(df_obama$gallup_approve - df_obama$gallup_disapprove), 
+			Zscore(df_obama$positive_tweet_rate - df_obama$negative_tweet_rate)) + 0.5
+	min_y <- min(Zscore(df_obama$gallup_approve - df_obama$gallup_disapprove), 
+			Zscore(df_obama$positive_tweet_rate - df_obama$negative_tweet_rate)) + 0.5
 	
 	# Defines colors to be used 
 	plot_colors <- c("forestgreen", "forestgreen")
@@ -286,7 +287,7 @@ plot.timeseries.zscore.gap <- function () {
 	# Graph autos using y axis that ranges from 0 to max_y.
 	# Turn off axes and annotations (axis labels) so we can 
 	# specify them ourself
-	plot(zscore(df_obama$gallup_approve - df_obama$gallup_disapprove), type = "l", col = plot_colors[1], lty = "dashed",
+	plot(Zscore(df_obama$gallup_approve - df_obama$gallup_disapprove), type = "l", col = plot_colors[1], lty = "dashed",
 			ylim = c(min_y, max_y), axes = FALSE, ann = FALSE, lwd  = 2)
 	
 	# Make x axis
@@ -300,7 +301,7 @@ plot.timeseries.zscore.gap <- function () {
 	box()
 	
 	# Graph line of positve tweet rate
-	lines(zscore(df_obama$positive_tweet_rate - df_obama$negative_tweet_rate), type = "l", pch = 24, lty = "solid", 
+	lines(Zscore(df_obama$positive_tweet_rate - df_obama$negative_tweet_rate), type = "l", pch = 24, lty = "solid", 
 			col = plot_colors[2], lwd  = 2)
 	
 	# Create a title with a red, bold/italic font
@@ -324,7 +325,7 @@ plot.timeseries.zscore.gap <- function () {
 ###
 # EDA
 ###
-analysis.eda <- function () {
+Eda <- function () {
 	attach(df_obama)
 	lm(gallup_approve ~ positive_tweet_count, data = df_obama)
 	lm(gallup_disapprove ~ negative_tweet_count, data = df_obama)
@@ -393,7 +394,7 @@ analysis.eda <- function () {
 
 
 # Granger Casuality analysis
-analysis.granger.casualty <- function ()  {
+AnalyzeGrangerCasualty <- function ()  {
 		
 	grangertest(gallup_approve ~ positive_tweet_rate, order = 1, data = df_obama)
 	grangertest(gallup_approve ~ positive_tweet_rate, order = 2, data = df_obama)
@@ -473,11 +474,11 @@ analysis.granger.casualty <- function ()  {
 ###
 # Test
 ###
-plot.timeseries.sentiment()
-plot.timeseries.sentiment1()
-plot.timeseries.zscore.positive()
-plot.timeseries.zscore.negative()
-plot.timeseries.zscore.gap()
+PlotTimeseriesSentiment()
+PlotTimeseriesSentiment1()
+PlotTimeseriesZscorePositive()
+PlotTimeseriesZscoreNegative()
+PlotTimeseriesZscoreGap()
 
 #5/13, 5/20, 5/24, 6/29, 6/30, 7/4, 7/7, 7/8 데이터 이상치 데이터 없는지 확인 
 # SELECT * FROM tweet WHERE target_user = "BarackObama" AND create_date = "2011-06-30 00:00:00"
