@@ -1,0 +1,5 @@
+cry
+exclamation
+love
+question
+smile
