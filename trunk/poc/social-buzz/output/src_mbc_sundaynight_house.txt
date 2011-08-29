@@ -1,0 +1,9 @@
+program_id	author_id	type	post_id	comment_id	publish_date	terms
+mbc_sundaynight_house	insos02	POST	pym5jah-_8lnw		2011-08-16	내집장 내집장만 토너먼트 집 회 무료다시보기 내집장 내집장만 토너먼트 집 회 무료다시보기
+mbc_sundaynight_house	dreamgrapher	POST	pym5qf3-p4y1		2011-08-17	mbc 우리 일밤 집 직접 짓(다) 있(다) 집(다) 집 보고 보(다) 보 오(다)
+mbc_sundaynight_house	insos02	POST	pymb6wk-_8lnw		2011-08-19	내집장 내집장만 토너먼트 집 회 무료다시보기 내집장 내집장만 토너먼트 집 회 무료다시보기
+mbc_sundaynight_house	wingsadd	POST	pymbg9g-_5e9s		2011-08-21	내집장 내집장만 토너먼트 집 회 무료다시보기 내집장 내집장만 토너먼트 집 회 무료다시보기
+mbc_sundaynight_house	wingsadd	POST	pymb_v_-_5e9s		2011-08-21	내집장 내집장만 토너먼트 집 회 무료다시보기 내집장 내집장만 토너먼트 집 회 무료다시보기
+mbc_sundaynight_house	kakarace	POST	pyo4g0o-5acgm		2011-08-15	일밤 일밤은 왜 외(다) 집 앞에놓고 나가수 나가수를 뒤에놔서 시청률 떨어지(다) 짓(다) 짓 스스로 하고있는걸까 question 개인적 집 빨(다) 끝나(다) 하(다) 그거 끝나(다) 기다리는건 지루
+mbc_sundaynight_house	insos02	POST	pyo7_up-_8lnw		2011-08-15	내집장 내집장만 토너먼트 집 회 무료다시보기 내집장 내집장만 토너먼트 집 회 무료다시보기
+mbc_sundaynight_house	cheonjae	COMMENT	pyo4g0o-5acgm	c_2c1z_-yo4g0o-5acgm	2011-08-16	그러게 그러게요 smile
