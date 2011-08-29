@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.StringReader;
 import java.io.UnsupportedEncodingException;
+import java.lang.Character.UnicodeBlock;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
@@ -93,11 +94,6 @@ public class TextAnalyzer {
 	private String convertCharacters(String text, String oldChar, String newChar) {
 		List<String> chars = extractor.extractSameCharacters(text, oldChar);
 		
-		if (chars.size() > 0) {
-			//System.out.println("text before converting " + oldChar + " == " + text);
-			//System.out.println("chars == " + chars.toString());
-		}		
-		
 		for (String cha : chars) {
 			text = text.replaceAll(cha, newChar);
 			//System.out.println("text after converting " + cha + " == " + text);
@@ -164,7 +160,7 @@ public class TextAnalyzer {
 					
 					List<AnalysisOutput> results = morphAnalyzer.analyze(token.toString());
 
-					System.out.println(token.toString());
+					System.out.println("token == " + token.toString());
 
 					for (AnalysisOutput o : results) {
 						
@@ -182,11 +178,11 @@ public class TextAnalyzer {
 						
 						if (mWord.indexOf("(N)") >= 0) {
 							terms.add(o.getStem());
-							//System.out.println("noun == " + o.getStem());
+							System.out.println("noun == " + o.getStem());
 						}
 						if (mWord.indexOf("(V)") >= 0) {
 							terms.add(o.getStem());
-							//System.out.println("verb == " + o.getStem());
+							System.out.println("verb == " + o.getStem());
 						}
 					}
 				} catch (Exception e) {
@@ -218,23 +214,28 @@ public class TextAnalyzer {
 
 			while (stream.incrementToken()) {
 				try {
-					//System.out.println(termAttr.term());
-					
 					morphAnalyzer.setExactCompound(false);					
 					List<AnalysisOutput> results = morphAnalyzer.analyze(termAttr.term());
 
 					for (AnalysisOutput o : results) {
 						
-						String mWord = o.toString();						
-
-						if (mWord.indexOf("(N)") >= 0) {
-							terms.add(o.getStem());
-							System.out.println("noun == " + o.getStem());
+						String metaWord = o.toString();						
+						String term = o.getStem();
+						
+						String noun = "";
+						String verb = "";
+						if (metaWord.indexOf("(N)") >= 0) {
+							noun = term;
+							if (!noun.trim().equals(""))
+								terms.add(noun);
 						}
-						if (mWord.indexOf("(V)") >= 0) {
-							terms.add(o.getStem());
-							System.out.println("verb == " + o.getStem());
+						if (metaWord.indexOf("(V)") >= 0) {
+							verb = term;
+							if (!verb.trim().equals(""))
+							terms.add(verb + "(다)");
 						}
+						
+						System.out.println("token = " + termAttr.term() + " => " + o.getStem() + ", noun = " + noun + ", verb = " + verb);
 					}										
 
 				} catch (Exception e) {
@@ -252,10 +253,12 @@ public class TextAnalyzer {
 	private String convertTermsToString(Vector<String> terms) {
 		StringBuffer sbTerms = new StringBuffer();
 		for (String term: terms) {
-			sbTerms.append(term).append(" ");
+			term = this.removeUnsupportedCharacters(term);
+			if(!term.trim().equals(""))
+				sbTerms.append(term).append(" ");
 		}
 		
-		return sbTerms.toString();
+		return sbTerms.toString().trim();
 	}
 	
     private String convertDate(String mask, Date date) {
@@ -281,12 +284,11 @@ public class TextAnalyzer {
 		
 		//PrintWriter writer = new PrintWriter(new FileWriter(out));
 		BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(out.getPath()), "UTF-8"));
-		
+				
 		// UTF-8의 BOM인 "EF BB BF"를 UTF-16BE 로 변환하면 "65279"라는 값이 됨
 		//writer.write(65279);
 		
 		// write header
-		//writer.println("program_id	author_id	type	post_id	comment_id	publish_date	terms");
 		writer.write("program_id	author_id	type	post_id	comment_id	publish_date	terms");
 		writer.newLine();
 		
@@ -300,7 +302,7 @@ public class TextAnalyzer {
 			
 			Vector<String> terms = this.extractTerms("POST", textBody);
 			terms.addAll(this.extractTerms("TAG", textTag));			
-			String strTerms = this.convertTermsToString(terms);
+			String strTerms = this.convertTermsToString(terms);			
 			
 			writer.write(
 					programId + "\t" +
@@ -318,7 +320,7 @@ public class TextAnalyzer {
 			String postId = comment.getPostId();
 			String commentId = comment.getCommentId();
 			String authorId = comment.getAuthorId();
-			String publishDate = this.convertDate("yyyy-mm-dd", comment.getPublishDate());
+			String publishDate = this.convertDate("yyyy-MM-dd", comment.getPublishDate());
 			String textBody = comment.getTextBody();
 			String type = "COMMENT";
 			
@@ -387,94 +389,71 @@ public class TextAnalyzer {
 
 	}
 	
-	public static void main(String[] args) {
-		//String text = "[연예] '무도' 음원 주간 다운로드 총 800만 건 : MBC TV '무한도전'의 '서해안 고속도로 가요제'가 발표한 음원들이 주간 종합 다운로드 차트 집계에서 총 800만 건을 넘겼고, 그중 지-드래곤.박명수의 '바람났어'가 1위에 올랐습니다. 노래는 안좋아 별로네 못하네";
+	/**
+	 * Removes unsupported characters like Chinese, Japanese, etc.
+	 * 
+	 * @param str
+	 * @return
+	 */
+	private String removeUnsupportedCharacters(String str) {
+		System.out.println(str);
+
+		for (int i = 0; i < str.length(); i++) {
+			char ch = str.charAt(i);
+			Character.UnicodeBlock unicodeBlock = Character.UnicodeBlock.of(ch);
+			
+			if ( !(Character.isDigit(ch)
+					|| UnicodeBlock.HANGUL_SYLLABLES.equals(unicodeBlock)
+					|| UnicodeBlock.HANGUL_COMPATIBILITY_JAMO.equals(unicodeBlock)
+					|| UnicodeBlock.HANGUL_JAMO.equals(unicodeBlock)
+					|| UnicodeBlock.BASIC_LATIN.equals(unicodeBlock)) 
+				) {
+				str = str.replace(ch, ' ');
+			}
+			
+			str = str.replaceAll("ᆢ", "");
+		}
 		
-		String outputDir = "D:/dev/workspace/social-buzz/output/";
+		return str;
+	}
+	
+	public static void main(String[] args) {
+		String outputDir = "D:/workspace/social-buzz/output/";
 		TextAnalyzer analyzer = new TextAnalyzer(outputDir);
 		
-		//String programId = "kbs1_greatking";
-		//String programId = "kbs2_ojakkyo";
-		//String programId = "mbc_thousand";
-		//String programId = "sbs_besideme";
-		//String programId = "kbs2_princess";
-		//String programId = "mbc_fallinlove";
-		//String programId = "sbs_boss";
-		//String programId = "kbs2_spy";
-		//String programId = "mbc_gyebaek";
-		//String programId = "sbs_baekdongsoo";
-		//String programId = "mbc_wedding";
-		//String programId = "mbc_challenge";
-		//String programId = "sbs_starking";
-		//String programId = "kbs2_happysunday_1bak2il";
-		//String programId = "kbs2_happysunday_men";
-		//String programId = "mbc_sundaynight_nagasoo";
-		//String programId = "mbc_sundaynight_house";
-		//String programId = "sbs_newsunday";
-		
 		String[] programs = new String[] {
-//			"kbs1_greatking",
-//			"kbs2_ojakkyo",
-//			"mbc_thousand",
-//			"sbs_besideme",
-//			"kbs2_princess",
+			"kbs1_greatking",
+			"kbs2_ojakkyo",
+			"mbc_thousand",
+			"sbs_besideme",
+			"kbs2_princess",
 			"mbc_fallinlove",
-//			"sbs_boss",
-//			"kbs2_spy",
-//			"mbc_gyebaek",
-//			"sbs_baekdongsoo",
-//			"mbc_wedding",
-//			"mbc_challenge",
-//			"sbs_starking",
-//			"kbs2_happysunday_1bak2il",
-//			"kbs2_happysunday_men",
-//			"mbc_sundaynight_nagasoo",
-//			"mbc_sundaynight_house",
-//			"sbs_newsunday"
+			"sbs_boss",
+			"kbs2_spy",
+			"mbc_gyebaek",
+			"sbs_baekdongsoo",
+			"mbc_wedding",
+			"mbc_challenge",
+			"sbs_starking",
+			"kbs2_happysunday_1bak2il",
+			"kbs2_happysunday_men",
+			"mbc_sundaynight_nagasoo",
+			"mbc_sundaynight_house",
+			"sbs_newsunday"
 		};
 			
 		for (int i = 0; i <programs.length; i++) {
 			analyzer.analyze(programs[i]);
-		}	
-			
-		
-		///////////////////////////////////////////////////
-		// just for testing
-		///////////////////////////////////////////////////
-		
-		//analyzer.checkFileEncoding(outputDir + "kbs2_princess.txt");
-		
-		/*
-		try {
-			String charSet[] = { "utf-8", "euc-kr", "8859_1" };
-			String fileName = "테스트";
-			for (int i = 0; i < charSet.length; i++) {
-				for (int j = 0; j < charSet.length; j++) {
-					System.out.println(charSet[i]
-							+ " to "
-							+ charSet[j]
-							+ " = "
-							+ new String(fileName.getBytes(charSet[i]),
-									charSet[j]));
-				}
-			}
-
-		} catch (Exception e) {
-			e.printStackTrace();
 		}
-		*/
 		
-		/*
-		PostManager postManager = new PostManagerImpl();
-		Post param = new Post();
-		param.setProgramId("kbs1_greatking");
-		List<Post> posts = postManager.getPosts(param);		
 		
-		for (Post post : posts) {
-			String text = post.getTextBody();
-			Vector<String> terms = analyzer.extractTerms(text);
-			System.out.println(terms.toString());
-		}
-		*/
+//		String str = "공주의 남자今天OST：백지영 (Baek Ji Young) 1- 오늘도 사랑해 也愛你";
+//		String str = "แอร๊กกกกกก แม่ลูกฉลองวันเกิด คิมฮีและคิมคิ กูจะร้องไห้ คิดถึงเมิงมากมายบอมมี่";
+//		String str = "ทำไมไม่เอาหมวยไปด้วยอ่า";
+//		String str = "긍정돼지 저게요 밑에 은근히 많이 깔려서 배부르답니다ㅋㅋ누군가를 좋아하게 되니 저절로 소식하고 싶다는ᆢ뭐래?;;탕수육 맛나게 드셔요~규일님^^";
+//		str = analyzer.removeUnsupportedCharacters(str);
+//		System.out.println(str);
+		
 	}
+
 }
