@@ -1,4 +1,4 @@
-package com.beeblz.liwc;
+package com.nhn.socialbuzz.textmining.liwc;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -16,11 +16,8 @@ import java.util.regex.Pattern;
  * Interface to the LIWC dictionary, implementing patterns for each LIWC category
  * based on the LIWC.CAT file.
  *  
- * @author Francois Mairesse, <a href=http://www.mairesse.co.uk
- *         target=_top>http://www.mairesse.co.uk</a>
- * @version 1.01
  */
-public class LIWCDictionary {
+public class LIWCDictionary {	
 
 	/** Mapping associating LIWC features to regular expression patterns. */
 	private Map<String,Pattern> map;
@@ -36,10 +33,10 @@ public class LIWCDictionary {
 	 *            Francis, 2001).
 	 */
 	public LIWCDictionary(File catFile) {
+		
 		try {
 			map = loadLIWCDictionary(catFile);
-			System.err.println("LIWC dictionary loaded ("
-					+ map.size() + " lexical categories)");
+			System.err.println("LIWC dictionary loaded (" + map.size() + " lexical categories)");
 
 		} catch (IOException e) {
 			System.err.println("Error: file " + catFile + " doesn't exist");
@@ -64,17 +61,19 @@ public class LIWCDictionary {
 	 * @return hashtable associating each category with a regular expression
 	 *         (Pattern object) matching each word.
 	 */
-	private Map<String,Pattern> loadLIWCDictionary(File dicFile) throws IOException {
+	private Map<String, Pattern> loadLIWCDictionary(File dicFile) throws IOException {
 
 		BufferedReader reader = new BufferedReader(new FileReader(dicFile));
 		String line;
 
-		Map<String,Pattern> wordLists = new LinkedHashMap<String,Pattern>();
+		Map<String, Pattern> wordLists = new LinkedHashMap<String, Pattern>();
 		String currentVariable = "";
 		String catRegex = "";
 		int word_count = 0;
 
 		while ((line = reader.readLine()) != null) {
+			
+			//System.out.println("line == " + line);
 
 			// if encounter new variable
 			if (line.matches("\\t[\\w ]+")) {
@@ -83,6 +82,9 @@ public class LIWCDictionary {
 					catRegex = catRegex.substring(0, catRegex.length() - 1);
 					catRegex = "(" + catRegex + ")";
 					catRegex = catRegex.replaceAll("\\*", "[\\\\w']*");
+					
+					//System.out.println("catRegx1 == " + catRegex);
+					
 					wordLists.put(currentVariable, Pattern.compile(catRegex));
 				}
 				// update variable
@@ -93,6 +95,7 @@ public class LIWCDictionary {
 				word_count++;
 				String newPattern = line.split("\\s+")[1].toLowerCase();
 				catRegex += "\\b" + newPattern + "\\b|";
+				catRegex += "\\" + newPattern + "|";
 			}
 		}
 		//  add last regex to database
@@ -100,6 +103,9 @@ public class LIWCDictionary {
 			catRegex = catRegex.substring(0, catRegex.length() - 1);
 			catRegex = "(" + catRegex + ")";
 			catRegex = catRegex.replaceAll("\\*", "[\\\\w']*");
+			
+			//System.out.println("catRegx2 == " + catRegex);
+			
 			wordLists.put(currentVariable, Pattern.compile(catRegex));
 		}
 
@@ -122,9 +128,9 @@ public class LIWCDictionary {
 	 * @return hashtable associating each LIWC category with the percentage of
 	 *         words in the text belonging to it.
 	 */
-	public Map<String,Double> getCounts(String text, boolean absoluteCounts) {
+	public Map<String, Double> getCounts(String text, boolean absoluteCounts) {
 
-		Map<String,Double> counts = new LinkedHashMap<String, Double>(map.size());
+		Map<String, Double> counts = new LinkedHashMap<String, Double>(map.size());
 		String[] words = tokenize(text);
 		String[] sentences = splitSentences(text);
 		
@@ -157,8 +163,7 @@ public class LIWCDictionary {
 		int abbrev = Utils.countMatches("\\w\\.(\\w\\.)+", text);
 		counts.put("ABBREVIATIONS", new Double(100.0 * abbrev / words.length));
 		// emoticons
-		int emoticons = Utils
-				.countMatches("[:;8%]-[\\)\\(\\@\\[\\]\\|]+", text);
+		int emoticons = Utils.countMatches("[:;8%]-[\\)\\(\\@\\[\\]\\|]+", text);
 		counts.put("EMOTICONS", new Double(100.0 * emoticons / words.length));
 		// text ending with a question mark
 		int qmarks = Utils.countMatches("\\w\\s*\\?", text);
@@ -215,6 +220,7 @@ public class LIWCDictionary {
 					indic[i] = true;
 				}
 			}
+
 			counts.put(cat, new Double(100.0 * catCount / words.length));
 		}
 
@@ -227,10 +233,14 @@ public class LIWCDictionary {
 		}
 		counts.put("DIC", new Double(100.0 * wordsMatched / words.length));
 		// add numerical numbers
-		double nonNumeric = ((Double) counts.get("NUMBERS")).doubleValue();
-		counts.put("NUMBERS", new Double(nonNumeric + 100.0 * numbers
-				/ words.length));
-
+		if (counts.get("NUMBERS") != null) {
+			double nonNumeric = ((Double) counts.get("NUMBERS")).doubleValue();
+			counts.put("NUMBERS", new Double(nonNumeric + 100.0 * numbers / words.length));	
+		}
+		else {
+			counts.put("NUMBERS", 0.0);
+		}
+		
 		return counts;
 	}
 	
@@ -269,8 +279,7 @@ public class LIWCDictionary {
 		int abbrev = Utils.countMatches("\\w\\.(\\w\\.)+", text);
 		counts.put("ABBREVIATIONS", new Double(abbrev));
 		// emoticons
-		int emoticons = Utils
-				.countMatches("[:;8%]-[\\)\\(\\@\\[\\]\\|]+", text);
+		int emoticons = Utils.countMatches("[:;8%]-[\\)\\(\\@\\[\\]\\|]+", text);
 		counts.put("EMOTICONS", new Double(emoticons));
 		// text ending with a question mark
 		int qmarks = Utils.countMatches("\\w\\s*\\?", text);
@@ -296,11 +305,9 @@ public class LIWCDictionary {
 		counts.put("APOSTRO", new Double(apostr));
 		int parent = Utils.countMatches("[\\(\\[{]", text);
 		counts.put("PARENTH", new Double(parent));
-		int otherp = Utils.countMatches("[^\\w\\d\\s\\.:;\\?!\"'\\(\\{\\[,-]",
-				text);
+		int otherp = Utils.countMatches("[^\\w\\d\\s\\.:;\\?!\"'\\(\\{\\[,-]", text);
 		counts.put("OTHERP", new Double(otherp));
-		int allp = period + comma + colon + semicolon + qmark + exclam + dash
-				+ quote + apostr + parent + otherp;
+		int allp = period + comma + colon + semicolon + qmark + exclam + dash + quote + apostr + parent + otherp;
 		counts.put("ALLPCT", new Double(allp));
 
 		// PATTERN MATCHING
@@ -317,16 +324,25 @@ public class LIWCDictionary {
 			// add entry to output hash
 			Pattern catRegex = map.get(cat);
 			int catCount = 0;
+			System.out.println("@ catRegex == " + catRegex.pattern());
 
 			for (int i = 0; i < words.length; i++) {
 
 				String word = words[i].toLowerCase();
 				Matcher m = catRegex.matcher(word);
+				
+				System.out.println("@ word == " + word);
+				
 				while (m.find()) {
 					catCount++;
 					indic[i] = true;
+					
+					System.out.println("@ catCount == " + catCount);
 				}
 			}
+			
+			System.out.println("@ " + cat + ", count == " + catCount);
+						
 			counts.put(cat, new Double(catCount));
 		}
 
@@ -339,8 +355,14 @@ public class LIWCDictionary {
 		}
 		counts.put("DIC", new Double(wordsMatched));
 		// add numerical numbers
-		double nonNumeric = ((Double) counts.get("NUMBERS")).doubleValue();
-		counts.put("NUMBERS", new Double(nonNumeric + numbers));
+		if (counts.get("NUMBERS") != null) {
+			double nonNumeric = ((Double) counts.get("NUMBERS")).doubleValue();
+			counts.put("NUMBERS", new Double(nonNumeric + numbers));			
+		}
+		else {
+			counts.put("NUMBERS", 0.0);
+		}
+
 
 		return counts;
 	}
@@ -353,12 +375,11 @@ public class LIWCDictionary {
 	 */
 	public static String[] tokenize(String text) {
 		
-		String words_only = text.replaceAll("\\W+\\s*", " ").replaceAll(
-				"\\s+$", "").replaceAll("^\\s+", "");
-		String[] words = words_only.split("\\s+");
+		//String words_only = text.replaceAll("\\W+\\s*", " ").replaceAll("\\s+$", "").replaceAll("^\\s+", "");
+		//String[] words = words_only.split("\\s+");
+		String[] words = text.split("\\s+");
 		return words;
 	}
-	
 	
 	
 	/**

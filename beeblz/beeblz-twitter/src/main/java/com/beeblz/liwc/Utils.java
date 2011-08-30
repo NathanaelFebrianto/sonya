@@ -1,4 +1,4 @@
-package com.beeblz.liwc;
+package com.nhn.socialbuzz.textmining.liwc;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -9,16 +9,9 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/*
- * Created on Sep 4, 2006
- *
- */
-
 /**
  * Library of program-independent static methods.
  * 
- * @author Francois Mairesse, <a href=http://www.mairesse.co.uk
- *         target=_top>http://www.mairesse.co.uk</a>
  */
 public class Utils {
 
