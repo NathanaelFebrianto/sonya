@@ -1,0 +1,29 @@
+K1. SENTIMENT
+	SMILE
+		tagsmile (1)
+		ㅋ+ (1)
+		ㅎ+ (1)
+		크+ (1)
+		흐+ (1)
+	CRY
+		tagcry (1)
+		ㅜ+ (1)
+		ㅠ+ (1)
+		흑+ (1)
+	LOVE
+		taglove (1)
+		♡+ (1)
+		♥+ (1)
+	DEPRESS
+		ㅡㅡ (1)
+	ANGER
+		>.< (1)
+	POSITIVE
+		좋아하다 (1)
+		좋다 (1)
+	NEGATIVE
+		싫어하다 (1)
+		싫다 (1)
+		
+		
+		

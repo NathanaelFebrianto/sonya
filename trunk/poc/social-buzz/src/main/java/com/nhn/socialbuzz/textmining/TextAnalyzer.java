@@ -2,7 +2,6 @@ package com.nhn.socialbuzz.textmining;
 
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
@@ -12,14 +11,13 @@ import java.lang.Character.UnicodeBlock;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.Vector;
 
 import org.apache.lucene.analysis.StopAnalyzer;
 import org.apache.lucene.analysis.StopFilter;
-import org.apache.lucene.analysis.Token;
 import org.apache.lucene.analysis.TokenStream;
-import org.apache.lucene.analysis.kr.KoreanTokenizer;
 import org.apache.lucene.analysis.kr.morph.AnalysisOutput;
 import org.apache.lucene.analysis.kr.morph.MorphAnalyzer;
 import org.apache.lucene.analysis.tokenattributes.OffsetAttribute;
@@ -32,6 +30,8 @@ import com.nhn.socialbuzz.me2day.service.CommentManager;
 import com.nhn.socialbuzz.me2day.service.CommentManagerImpl;
 import com.nhn.socialbuzz.me2day.service.PostManager;
 import com.nhn.socialbuzz.me2day.service.PostManagerImpl;
+import com.nhn.socialbuzz.textmining.liwc.PersonalityRecognizer;
+import com.nhn.socialbuzz.textmining.liwc.Utils;
 import com.nhn.socialbuzz.textmining.regex.Extractor;
 
 public class TextAnalyzer {
@@ -48,9 +48,6 @@ public class TextAnalyzer {
 		"이","그","저","것","수","등","들"
 	};	
 	
-	public static final String[] DOMAIN_STOP_WORDS = new String[]{		
-	};
-	
 	private String outputDir;
 	
 	private Set<Object> stopSet;
@@ -61,6 +58,14 @@ public class TextAnalyzer {
 	
 	private StopAnalyzer stopAnalyzer;
 	
+	private PersonalityRecognizer personalityRecognizer;
+	
+
+	/**
+	 * Creates a text analyzer.
+	 * 
+	 * @param outputDir
+	 */
 	public TextAnalyzer(String outputDir) {
 		this.outputDir = outputDir;
 		
@@ -68,212 +73,51 @@ public class TextAnalyzer {
 		
 		stopSet = StopFilter.makeStopSet(Version.LUCENE_CURRENT, STOP_WORDS, true);
 		stopSet.addAll(StopFilter.makeStopSet(Version.LUCENE_CURRENT, KOR_STOP_WORDS, true));
-		stopSet.addAll(StopFilter.makeStopSet(Version.LUCENE_CURRENT, DOMAIN_STOP_WORDS, true));		
 		
 		morphAnalyzer = new MorphAnalyzer();		
 		stopAnalyzer = new StopAnalyzer(Version.LUCENE_CURRENT, stopSet);
 		System.out.println("stop words == " + stopAnalyzer.getStopwordSet());
+		
+		File liwcCatFile = new File("D:/workspace/social-buzz/output/_LIWC.txt");
+		personalityRecognizer = new PersonalityRecognizer(liwcCatFile);
 	}
 	
-	private String removeUrls(String text) {
-		List<String> urls = extractor.extractURLs(text);
-		
-		if (urls.size() > 0) {
-			//System.out.println("text before removing urls == " + text);
-			//System.out.println("urls == " + urls.toString());
-		}		
-		
-		for (String url : urls) {
-			text = text.replaceAll(url, " ");
-			//System.out.println("text after removing urls == " + text);
-		}
-				
-		return text;		
-	}
-	
-	private String convertCharacters(String text, String oldChar, String newChar) {
-		List<String> chars = extractor.extractSameCharacters(text, oldChar);
-		
-		for (String cha : chars) {
-			text = text.replaceAll(cha, newChar);
-			//System.out.println("text after converting " + cha + " == " + text);
-		}
-				
-		return text;		
-	}
-	
-	private String normalizeText(String type, String text) {		
-		if (type.equals("TAG")) {
-			text = text.replaceAll("me2photo", ""); 
-			text = text.replaceAll("me2mobile", "");
-			text = text.replaceAll("me2mms", "");
-			text = text.replaceAll("me2sms", "");
-			text = text.replaceAll("me2music", "");
-			text = text.replaceAll("지식로그", "");
-			text = text.replaceAll("네이버뉴스", "");
+
+	/**
+	 * Analyzes the document of the specified TV program.
+	 * 
+	 * @param programId
+	 */
+	public void analyze(String programId) {
+		try {
+			PostManager postManager = new PostManagerImpl();
+			CommentManager commentManager = new CommentManagerImpl();
+						
+			Post paramPost = new Post();
+			paramPost.setProgramId(programId);
+			List<Post> posts = postManager.getPosts(paramPost);
 			
-			if (text.indexOf("네이버블로그") >= 0) {
-				return "";
-			}				
-			//text = text.replaceAll("네이버블로그", "");
-		}
-		
-		if (type.equals("POST")) {
-			text = text.replaceAll("지식로그", "");			
-		}
-		
-		text = text.replaceAll("\\?", "QQQQQ");
-		text = text.replaceAll("\\^\\^", "SSSSS");
-		
-		text = this.removeUrls(text);
-		text = this.convertCharacters(text, "ㅋ", " #SMILE ");
-		text = this.convertCharacters(text, "ㅎ", " #SMILE ");
-		text = this.convertCharacters(text, "ㅜ", " #CRY ");
-		text = this.convertCharacters(text, "ㅠ", " #CRY ");
-		text = this.convertCharacters(text, "SSSSS", " #SMILE ");
-		text = this.convertCharacters(text, "♡", " #LOVE ");
-		text = this.convertCharacters(text, "♥", " #LOVE ");
-		text = this.convertCharacters(text, "QQQQQ", " #QUESTION ");
-		text = this.convertCharacters(text, "!", " #EXCLAMATION ");		
-		
-		return text;
-	}
-
-	@Deprecated
-	public Vector<String> extractTerms(String text) {
-		this.normalizeText("", text);
-		
-		Vector<String> terms = new Vector<String>();
-		
-		KoreanTokenizer tokenizer = new KoreanTokenizer(new StringReader(text));
-
-		Token token = null;
-		
-		try {
-			while ((token = tokenizer.next()) != null) {
-				/*
-				if (!token.type().equals("<KOREAN>"))
-					continue;
-				*/
-				try {
-					morphAnalyzer.setExactCompound(false);
-					
-					List<AnalysisOutput> results = morphAnalyzer.analyze(token.toString());
-
-					System.out.println("token == " + token.toString());
-
-					for (AnalysisOutput o : results) {
-						
-						String mWord = o.toString();						
-						
-						//System.out.println(mWord);
-						
-						/*
-						for (int i = 0; i < o.getCNounList().size(); i++) {
-							System.out.println (o.getCNounList().get(i).getWord() + "/");
-						}
-						*/
-
-						//System.out.println("<" + o.getScore() + ">");
-						
-						if (mWord.indexOf("(N)") >= 0) {
-							terms.add(o.getStem());
-							System.out.println("noun == " + o.getStem());
-						}
-						if (mWord.indexOf("(V)") >= 0) {
-							terms.add(o.getStem());
-							System.out.println("verb == " + o.getStem());
-						}
-					}
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		} catch (IOException ioe) {
-			ioe.printStackTrace();
-		}
-		
-		return terms;		
+			Comment paramComment = new Comment();
+			paramComment.setProgramId(programId);
+			List<Comment> comments = commentManager.getComments(paramComment);
+			
+			// write file
+			this.writeFile(programId, posts, comments);			
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}		
 	}
 	
-	public Vector<String> extractTerms(String type, String text) {
-		System.out.println("original text == " + text);
-		
-		text = this.normalizeText(type, text);
-		
-		System.out.println("normalized text == " + text);
-		
-		Vector<String> terms = new Vector<String>();
-		
-		TokenStream stream = stopAnalyzer.tokenStream("k", new StringReader(text));
-
-		TermAttribute termAttr = stream.getAttribute(TermAttribute.class); 		
-        OffsetAttribute offSetAttr = stream.getAttribute(OffsetAttribute.class);
-		
-		try {
-
-			while (stream.incrementToken()) {
-				try {
-					morphAnalyzer.setExactCompound(false);					
-					List<AnalysisOutput> results = morphAnalyzer.analyze(termAttr.term());
-
-					for (AnalysisOutput o : results) {
-						
-						String metaWord = o.toString();						
-						String term = o.getStem();
-						
-						String noun = "";
-						String verb = "";
-						if (metaWord.indexOf("(N)") >= 0) {
-							noun = term;
-							if (!noun.trim().equals(""))
-								terms.add(noun);
-						}
-						if (metaWord.indexOf("(V)") >= 0) {
-							verb = term;
-							if (!verb.trim().equals(""))
-							terms.add(verb + "(다)");
-						}
-						
-						System.out.println("token = " + termAttr.term() + " => " + o.getStem() + ", noun = " + noun + ", verb = " + verb);
-					}										
-
-				} catch (Exception e) {
-					e.printStackTrace();
-				}
-			}
-		} catch (IOException ioe) {
-			ioe.printStackTrace();
-		}
-		
-		return terms;		
-	}
-	
-	
-	private String convertTermsToString(Vector<String> terms) {
-		StringBuffer sbTerms = new StringBuffer();
-		for (String term: terms) {
-			term = this.removeUnsupportedCharacters(term);
-			if(!term.trim().equals(""))
-				sbTerms.append(term).append(" ");
-		}
-		
-		return sbTerms.toString().trim();
-	}
-	
-    private String convertDate(String mask, Date date) {
-        SimpleDateFormat df = null;
-        String returnValue = "";
-
-        if (date == null) {
-        } else {
-            df = new SimpleDateFormat(mask);
-            returnValue = df.format(date);
-        }
-
-        return returnValue;
-    }
-	
+    /**
+     * Writes the analyzed text into a file.
+     * 
+     * @param programId
+     * @param posts
+     * @param comments
+     * @throws UnsupportedEncodingException
+     * @throws IOException
+     */
 	private void writeFile(String programId, List<Post> posts, List<Comment> comments) 
 			throws UnsupportedEncodingException, IOException {
 		File dir = new File(outputDir);
@@ -302,7 +146,13 @@ public class TextAnalyzer {
 			
 			Vector<String> terms = this.extractTerms("POST", textBody);
 			terms.addAll(this.extractTerms("TAG", textTag));			
-			String strTerms = this.convertTermsToString(terms);			
+			String strTerms = this.convertTermsToString(terms);	
+			
+			//////////////////////////////////////
+			// analyze LIWC features
+			//////////////////////////////////////
+			this.analyzeLIWCFeatures(strTerms);
+			//////////////////////////////////////
 			
 			writer.write(
 					programId + "\t" +
@@ -327,6 +177,12 @@ public class TextAnalyzer {
 			Vector<String> terms = this.extractTerms("COMMENT", textBody);
 			String strTerms = this.convertTermsToString(terms);
 			
+			//////////////////////////////////////
+			// analyze LIWC features
+			//////////////////////////////////////
+			this.analyzeLIWCFeatures(strTerms);
+			//////////////////////////////////////
+			
 			writer.write(
 					programId + "\t" +
 					authorId + "\t" + 
@@ -340,63 +196,181 @@ public class TextAnalyzer {
 		
 		writer.close();		
 	}
-	
-	public void analyze(String programId) {
+
+	/**
+	 * Extract terms by lucene.
+	 * 
+	 * @param type
+	 * @param text
+	 * @return
+	 */
+	public Vector<String> extractTerms(String type, String text) {
+		System.out.println("original text == " + text);
+		
+		///////////////////////////////////////////
+		// normalize the text
+		///////////////////////////////////////////
+		text = this.normalizeText(type, text);
+		///////////////////////////////////////////
+		
+		System.out.println("normalized text == " + text);
+		
+		Vector<String> terms = new Vector<String>();
+		
+		TokenStream stream = stopAnalyzer.tokenStream("k", new StringReader(text));
+
+		TermAttribute termAttr = stream.getAttribute(TermAttribute.class); 		
+        OffsetAttribute offSetAttr = stream.getAttribute(OffsetAttribute.class);
+		
 		try {
-			PostManager postManager = new PostManagerImpl();
-			CommentManager commentManager = new CommentManagerImpl();
+
+			while (stream.incrementToken()) {
+				try {
+					morphAnalyzer.setExactCompound(false);					
+					List<AnalysisOutput> results = morphAnalyzer.analyze(termAttr.term());
+
+					for (AnalysisOutput o : results) {
+
+						String metaWord = o.toString();						
+						String term = o.getStem();
 						
-			Post paramPost = new Post();
-			paramPost.setProgramId(programId);
-			List<Post> posts = postManager.getPosts(paramPost);
-			
-			Comment paramComment = new Comment();
-			paramComment.setProgramId(programId);
-			List<Comment> comments = commentManager.getComments(paramComment);
-			
-			// write file
-			this.writeFile(programId, posts, comments);			
-			
-		} catch (Exception e) {
-			e.printStackTrace();
-		}		
+						String noun = "";
+						String verb = "";
+						if (metaWord.indexOf("(N)") >= 0) {
+							noun = term;
+							if (!noun.trim().equals(""))
+								terms.add(noun);
+						}
+						if (metaWord.indexOf("(V)") >= 0) {
+							verb = term;
+							if (!verb.trim().equals(""))
+							terms.add(verb + "다");
+						}
+						
+						System.out.println("token = " + termAttr.term() + " => " + o.getStem() + ", noun = " + noun + ", verb = " + verb);
+					}										
+
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		} catch (IOException ioe) {
+			ioe.printStackTrace();
+		}
+		
+		return terms;		
 	}
 	
-	private void checkFileEncoding(String filepath) {
-		try {
-			FileInputStream fis = new FileInputStream(filepath);
-			    	
-			byte[] BOM = new byte[4];
-			fis.read(BOM, 0, 4);
-			    	
-			if( (BOM[0] & 0xFF) == 0xEF && (BOM[1] & 0xFF) == 0xBB && (BOM[2] & 0xFF) == 0xBF )
-				System.out.println("UTF-8");
-			else if( (BOM[0] & 0xFF) == 0xFE && (BOM[1] & 0xFF) == 0xFF )
-				System.out.println("UTF-16BE");
-			else if( (BOM[0] & 0xFF) == 0xFF && (BOM[1] & 0xFF) == 0xFE )
-				System.out.println("UTF-16LE");
-			else if( (BOM[0] & 0xFF) == 0x00 && (BOM[1] & 0xFF) == 0x00 && 
-			         (BOM[0] & 0xFF) == 0xFE && (BOM[1] & 0xFF) == 0xFF )
-				System.out.println("UTF-32BE");
-			else if( (BOM[0] & 0xFF) == 0xFF && (BOM[1] & 0xFF) == 0xFE && 
-			         (BOM[0] & 0xFF) == 0x00 && (BOM[1] & 0xFF) == 0x00 )
-				System.out.println("UTF-32LE");
-			else
-				System.out.println("EUC-KR");
-		} catch (Exception e) {
-			e.printStackTrace();
+		
+	/**
+	 * Normalizes the text before extracting terms by lucene.
+	 * 
+	 * @param type
+	 * @param text
+	 * @return
+	 */
+	private String normalizeText(String type, String text) {		
+		if (type.equals("TAG")) {
+			text = text.replaceAll("me2photo", ""); 
+			text = text.replaceAll("me2mobile", "");
+			text = text.replaceAll("me2mms", "");
+			text = text.replaceAll("me2sms", "");
+			text = text.replaceAll("me2music", "");
+			text = text.replaceAll("지식로그", "");
+			text = text.replaceAll("네이버뉴스", "");
+			
+			if (text.indexOf("네이버블로그") >= 0) {
+				return "";
+			}				
+			//text = text.replaceAll("네이버블로그", "");
 		}
-
+		
+		if (type.equals("POST")) {
+			text = text.replaceAll("지식로그", "");			
+		}
+		
+		text = text.replaceAll("\\?", "TAGQUESTION");
+		text = text.replaceAll("\\^\\^", "TAGSMILE");
+		
+		text = this.removeUrls(text);
+		text = this.replaceCharacters(text, "ㅋ", " TAGSMILE ");
+		text = this.replaceCharacters(text, "ㅎ", " TAGSMILE ");
+		text = this.replaceCharacters(text, "ㅜ", " TAGCRY ");
+		text = this.replaceCharacters(text, "ㅠ", " TAGCRY ");
+		text = this.replaceCharacters(text, "TAGSMILE", " TAGSMILE ");
+		text = this.replaceCharacters(text, "♡", " TAGLOVE ");
+		text = this.replaceCharacters(text, "♥", " TAGLOVE ");
+		text = this.replaceCharacters(text, "TAGQUESTION", " TAGQUESTION ");
+		text = this.replaceCharacters(text, "!", " TAGEXCLAMATION ");		
+		
+		return text;
 	}
 	
 	/**
-	 * Removes unsupported characters like Chinese, Japanese, etc.
+	 * Removes the urls from the source text.
+	 * 
+	 * @param text
+	 * @return
+	 */
+	private String removeUrls(String text) {
+		List<String> urls = extractor.extractURLs(text);
+		
+		if (urls.size() > 0) {
+			//System.out.println("text before removing urls == " + text);
+			//System.out.println("urls == " + urls.toString());
+		}		
+		
+		for (String url : urls) {
+			text = text.replaceAll(url, " ");
+			//System.out.println("text after removing urls == " + text);
+		}
+				
+		return text;		
+	}
+	
+	/**
+	 * Replaces the old characters with the new characters.
+	 * 
+	 * @param text
+	 * @param oldChar
+	 * @param newChar
+	 * @return
+	 */
+	private String replaceCharacters(String text, String oldChar, String newChar) {
+		List<String> chars = extractor.extractSameCharacters(text, oldChar);
+		
+		for (String cha : chars) {
+			text = text.replaceAll(cha, newChar);
+		}
+				
+		return text;		
+	}
+	
+	/**
+	 * Convert terms into a delimited string.
+	 * 
+	 * @param terms
+	 * @return
+	 */
+	private String convertTermsToString(Vector<String> terms) {
+		StringBuffer sbTerms = new StringBuffer();
+		for (String term: terms) {
+			term = this.removeUnsupportedCharacters(term);
+			if(!term.trim().equals(""))
+				sbTerms.append(term).append(" ");
+		}
+		
+		return sbTerms.toString().trim();
+	}
+		
+	/**
+	 * Removes unsupported characters such as Chinese, Japanese, etc.
 	 * 
 	 * @param str
 	 * @return
 	 */
 	private String removeUnsupportedCharacters(String str) {
-		System.out.println(str);
+		//System.out.println(str);
 
 		for (int i = 0; i < str.length(); i++) {
 			char ch = str.charAt(i);
@@ -417,36 +391,84 @@ public class TextAnalyzer {
 		return str;
 	}
 	
+	/**
+	 * Convert data object into string with the specified format.
+	 * 
+	 * @param mask
+	 * @param date
+	 * @return
+	 */
+    private String convertDate(String mask, Date date) {
+        SimpleDateFormat df = null;
+        String returnValue = "";
+
+        if (date == null) {
+        } else {
+            df = new SimpleDateFormat(mask);
+            returnValue = df.format(date);
+        }
+
+        return returnValue;
+    }
+    
+    /**
+     * Analyzes the LIWC features for recognizing sentiment.
+     * 
+     * @param text
+     * @return
+     */
+	private Map<String, Double> analyzeLIWCFeatures(String text) {
+		try {
+			System.out.println("@ source text to analyze LIWC == " + text);
+			
+			// get feature counts from the input text
+			//Map<String,Double> counts = recognizer.getFeatureCounts(text, true);
+			Map<String,Double> counts = personalityRecognizer.getJustFeatureCounts(text, true);
+			
+			System.out.println("Total features computed: " + counts.size());			
+			System.out.println("Feature counts:");
+			Utils.printMap(counts, System.out);
+			System.out.println("\n");
+			
+			return counts;
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		return null;
+	}
+	
+	
 	public static void main(String[] args) {
 		String outputDir = "D:/workspace/social-buzz/output/";
 		TextAnalyzer analyzer = new TextAnalyzer(outputDir);
 		
 		String[] programs = new String[] {
-			"kbs1_greatking",
-			"kbs2_ojakkyo",
-			"mbc_thousand",
-			"sbs_besideme",
+//			"kbs1_greatking",
+//			"kbs2_ojakkyo",
+//			"mbc_thousand",
+//			"sbs_besideme",
 			"kbs2_princess",
-			"mbc_fallinlove",
-			"sbs_boss",
-			"kbs2_spy",
-			"mbc_gyebaek",
-			"sbs_baekdongsoo",
-			"mbc_wedding",
-			"mbc_challenge",
-			"sbs_starking",
-			"kbs2_happysunday_1bak2il",
-			"kbs2_happysunday_men",
-			"mbc_sundaynight_nagasoo",
-			"mbc_sundaynight_house",
-			"sbs_newsunday"
+//			"mbc_fallinlove",
+//			"sbs_boss",
+//			"kbs2_spy",
+//			"mbc_gyebaek",
+//			"sbs_baekdongsoo",
+//			"mbc_wedding",
+//			"mbc_challenge",
+//			"sbs_starking",
+//			"kbs2_happysunday_1bak2il",
+//			"kbs2_happysunday_men",
+//			"mbc_sundaynight_nagasoo",
+//			"mbc_sundaynight_house",
+//			"sbs_newsunday"
 		};
 			
 		for (int i = 0; i <programs.length; i++) {
 			analyzer.analyze(programs[i]);
 		}
-		
-		
+				
 //		String str = "공주의 남자今天OST：백지영 (Baek Ji Young) 1- 오늘도 사랑해 也愛你";
 //		String str = "แอร๊กกกกกก แม่ลูกฉลองวันเกิด คิมฮีและคิมคิ กูจะร้องไห้ คิดถึงเมิงมากมายบอมมี่";
 //		String str = "ทำไมไม่เอาหมวยไปด้วยอ่า";

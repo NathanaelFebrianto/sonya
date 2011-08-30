@@ -7,14 +7,32 @@ setwd("D:/workspace/social-buzz/output")
 
 library(tm)
 
-my.stopwords.table = read.table(file("_stopwords.txt", encoding = "UTF-8"),
-		header = TRUE, comment.char = "#",
-		stringsAsFactors = FALSE, na.strings = "")
-my.stopwords <- my.stopwords.table$stopword
+###
+# Gets the my stopwords.
+# @param program.id
+# @return vector of stopwords
+###
+GetStopwords <- function(program.id) {	
+	my.stopwords.table = read.table(file("_stopwords.txt", encoding = "UTF-8"),
+			header = TRUE, comment.char = "#", sep = ",",
+			stringsAsFactors = FALSE, na.strings = "")
+	
+	my.stopwords.subset = subset(my.stopwords.table, 
+			select = c("type", "stopword"),
+			subset = (my.stopwords.table$type == "common" | my.stopwords.table$type == program.id))
+	my.stopwords <- my.stopwords.subset$stopword
+	
+	return (my.stopwords)
+}
 
+###
+# Analyzes the document and plots the result.
+# @param program.id
+# @param filename - input file
+###
 AnalyzeDocument <- function(program.id, filename) {
-#	filename <- "src_mbc_challenge.txt"
-#	program.id <- "mbc_challenge"
+	filename <- "src_mbc_challenge.txt"
+	program.id <- "mbc_challenge"
 	
 	mydata.table = read.table(file(filename, encoding = "UTF-8"),
 			sep = "\t", header = TRUE, stringsAsFactors = TRUE)
@@ -22,7 +40,9 @@ AnalyzeDocument <- function(program.id, filename) {
 	head(mydata.table)
 	
 	mydata.terms <- data.frame(textCol = mydata.table$terms)
+	
 	mydata.source <- DataframeSource(mydata.terms)
+	
 	mydata.corpus <- Corpus(mydata.source)
 	#mydata.corpus <- Corpus(mydata.source, readerControl = list(reader = mydata.source$DefaultReader, language = "en"))
 	
@@ -30,13 +50,12 @@ AnalyzeDocument <- function(program.id, filename) {
 	mydata.corpus <- tm_map(mydata.corpus, tolower)
 		
 	# remove punctuation
-	#mydata.corpus <- tm_map(mydata.corpus, removePunctuation)
-	
+	mydata.corpus <- tm_map(mydata.corpus, removePunctuation)	
 	
 	# remove generic and custom stopwords
-	all.stopwords <- c(stopwords('english'), my.stopwords)
+	all.stopwords <- c(stopwords('english'), GetStopwords(program.id))
 	mydata.corpus <- tm_map(mydata.corpus, removeWords, all.stopwords)
-		
+	
 	# build a term-document matrix
 	#mydata.dtm = DocumentTermMatrix(mydata.corpus, control = list(stopwords = TRUE))
 	
@@ -65,7 +84,7 @@ AnalyzeDocument <- function(program.id, filename) {
 	# remove sparse terms to simplify the cluster plot
 	# Note: tweak the sparse parameter to determine the number of words.
 	# About 10-30 words is good.
-	mydata.dtm2 <- removeSparseTerms(mydata.dtm, sparse = 0.97)
+	mydata.dtm2 <- removeSparseTerms(mydata.dtm, sparse = 0.98)
 	nrow(mydata.dtm2); ncol(mydata.dtm2)
 	
 	# export dtm
@@ -141,7 +160,7 @@ PlotDendrogram <- function (dtm) {
 #AnalyzeDocument("kbs2_princess", "src_kbs2_princess.txt")
 #AnalyzeDocument("mbc_fallinlove", "src_mbc_fallinlove.txt")
 #AnalyzeDocument("sbs_boss", "src_sbs_boss.txt")
-#AnalyzeDocument("kbs2_spy", "src_kbs2_spy.txt")
+AnalyzeDocument("kbs2_spy", "src_kbs2_spy.txt")
 #AnalyzeDocument("mbc_gyebaek", "src_mbc_gyebaek.txt")
 #AnalyzeDocument("sbs_baekdongsoo", "src_sbs_baekdongsoo.txt")
 #AnalyzeDocument("mbc_wedding", "src_mbc_wedding.txt")
@@ -149,7 +168,7 @@ PlotDendrogram <- function (dtm) {
 #AnalyzeDocument("sbs_starking", "src_sbs_starking.txt")
 #AnalyzeDocument("kbs2_happysunday_1bak2il", "src_kbs2_happysunday_1bak2il.txt")
 #AnalyzeDocument("kbs2_happysunday_men", "src_kbs2_happysunday_men.txt")
-AnalyzeDocument("mbc_sundaynight_nagasoo", "src_mbc_sundaynight_nagasoo.txt")
+#AnalyzeDocument("mbc_sundaynight_nagasoo", "src_mbc_sundaynight_nagasoo.txt")
 #AnalyzeDocument("mbc_sundaynight_house", "src_mbc_sundaynight_house.txt")
 #AnalyzeDocument("sbs_newsunday", "src_sbs_newsunday.txt")
 
