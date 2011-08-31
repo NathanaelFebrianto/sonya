@@ -11,6 +11,8 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 import java.util.Vector;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import com.nhn.socialbuzz.common.Config;
 import com.nhn.socialbuzz.me2day.model.Comment;
@@ -117,9 +119,13 @@ public class Me2dayPostAnalyzer {
 			String textTag = post.getTagText();
 			String type = "POST";			
 			
+			System.out.println("post == " + body);
+			System.out.println("tag == " + textTag);
+			
 			body = this.removeReservedWords("POST", body);
+			body = this.removeMe2dayUrls(body);
 			textTag = this.removeReservedWords("TAG", textTag);
-
+	
 			Vector<String> terms = textAnalyzer.extractTerms(body);
 			terms.addAll(textAnalyzer.extractTerms(textTag));			
 			String strTerms = textAnalyzer.convertTermsToStringWithoutUnsupportedChars(terms);	
@@ -170,7 +176,11 @@ public class Me2dayPostAnalyzer {
 			String body = comment.getBody();
 			String type = "COMMENT";
 			
+			System.out.println("comment == " + body);
+			
 			body = this.removeReservedWords("COMMENT", body);
+			body = this.removeMe2dayUrls(body);
+			
 			Vector<String> terms = textAnalyzer.extractTerms(body);
 			String strTerms = textAnalyzer.convertTermsToStringWithoutUnsupportedChars(terms);	
 			
@@ -243,14 +253,18 @@ public class Me2dayPostAnalyzer {
 	}
 	
 	/**
-	 * Removes the author nicknames.
+	 * Removes the me2day urls.
 	 * 
 	 * @param usernames
 	 * @param text
 	 * @return
 	 */
-	private String removeUserNicknames(String text) {
-
+	private String removeMe2dayUrls(String text) {
+		Pattern pattern = Pattern.compile("<\\s*a href='http://me2day.net[^>]*>(.*?)<\\s*/\\s*a>", Pattern.CASE_INSENSITIVE);
+		Matcher matcher = pattern.matcher(text);
+		text = matcher.replaceAll("");
+		text = text.replaceAll("\\[", "").replaceAll("\\]", "");
+		
 		return text;
 	}
 	

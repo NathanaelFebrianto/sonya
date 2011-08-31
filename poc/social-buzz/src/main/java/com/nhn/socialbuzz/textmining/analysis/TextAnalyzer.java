@@ -63,17 +63,17 @@ public class TextAnalyzer {
 	 * @return
 	 */
 	public Vector<String> extractTerms(String text) {
-		System.out.println("original text == " + text);
+		System.out.println("TextAnalyzer :: original text == " + text);
 		
 		///////////////////////////////////////////
 		// normalize the text
 		///////////////////////////////////////////
 		text = this.removeUrls(text);
-		text = this.removeHTMLTags(text);
+		text = this.stripHTML(text);
 		text = this.convertEmoticonToTag(text);
 		///////////////////////////////////////////
 		
-		System.out.println("normalized text == " + text);
+		System.out.println("TextAnalyzer :: normalized text == " + text);
 		
 		Vector<String> terms = new Vector<String>();
 		
@@ -147,17 +147,15 @@ public class TextAnalyzer {
 	 */
 	public String convertEmoticonToTag(String text) {		
 		
-		text = text.replaceAll("\\?", "TAGQUESTION");
-		text = text.replaceAll("\\^\\^", "TAGSMILE");
-		text = this.replaceCharacters(text, "ㅋ", " TAGSMILE ");
-		text = this.replaceCharacters(text, "ㅎ", " TAGSMILE ");
-		text = this.replaceCharacters(text, "ㅜ", " TAGCRY ");
-		text = this.replaceCharacters(text, "ㅠ", " TAGCRY ");
-		text = this.replaceCharacters(text, "TAGSMILE", " TAGSMILE ");
-		text = this.replaceCharacters(text, "♡", " TAGLOVE ");
-		text = this.replaceCharacters(text, "♥", " TAGLOVE ");
-		text = this.replaceCharacters(text, "TAGQUESTION", " TAGQUESTION ");
-		text = this.replaceCharacters(text, "!", " TAGEXCLAMATION ");		
+		text = this.replaceStrings(text, "(\\?+)", "TAGQUESTION");
+		text = this.replaceStrings(text, "(\\^\\^+)", "TAGSMILE");
+		text = this.replaceStrings(text, "(ㅋ+)", " TAGSMILE ");
+		text = this.replaceStrings(text, "(ㅎ+)", " TAGSMILE ");
+		text = this.replaceStrings(text, "(ㅜ+)", " TAGCRY ");
+		text = this.replaceStrings(text, "(ㅠ+)", " TAGCRY ");
+		text = this.replaceStrings(text, "(♡+)", " TAGLOVE ");
+		text = this.replaceStrings(text, "(♥+)", " TAGLOVE ");
+		text = this.replaceStrings(text, "(!+)", " TAGEXCLAMATION ");		
 		
 		return text;
 	}
@@ -190,16 +188,11 @@ public class TextAnalyzer {
 	 * @param text
 	 * @return
 	 */
-	public String removeHTMLTags(String text) {	
-		
-		List<String> htmls = extractor.extractHTMLs(text);
-		//List<String> htmls = extractor.extractHrefHTMLs(text);
-		
-		for (String html : htmls) {
-			text = text.replaceAll(html, " ");
-		}
-				
-		return text;	
+	public String stripHTML(String text) {	
+		text = extractor.stripHTML(text);
+		text = text.replaceAll("&amp;", "").replaceAll("&lt;", "").replaceAll("&gt;", "");
+			
+		return text;
 	}	
 	
 	/**
@@ -210,14 +203,8 @@ public class TextAnalyzer {
 	 * @param newChar
 	 * @return
 	 */
-	public String replaceCharacters(String text, String oldChar, String newChar) {
-		List<String> chars = extractor.extractSameCharacters(text, oldChar);
-		
-		for (String cha : chars) {
-			text = text.replaceAll(cha, newChar);
-		}
-				
-		return text;		
+	public String replaceStrings(String text, String regexp, String newStr) {
+		return extractor.replaceStrings(text, regexp, newStr);
 	}
 	
 	/**

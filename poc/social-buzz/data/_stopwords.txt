@@ -7,7 +7,12 @@ tag,tagexclamation
 me2day,지식로그
 me2day,네이버뉴스
 me2day,네이버블로그
+me2day,이제
 me2day,오늘
+me2day,지금
+me2day,어제
+me2day,내일
+common,아니
 common,나다
 common,하다
 common,보다
@@ -36,6 +41,7 @@ common,외다
 common,오다
 common,보고
 common,빨다
+common,호다
 mbc_sundaynight_nagasoo,나가수
 mbc_sundaynight_nagasoo,가수다
 mbc_sundaynight_nagasoo,나가수는

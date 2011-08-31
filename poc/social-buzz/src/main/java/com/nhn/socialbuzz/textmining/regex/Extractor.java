@@ -2,7 +2,6 @@ package com.nhn.socialbuzz.textmining.regex;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -10,54 +9,6 @@ import java.util.regex.Pattern;
  * A class to extract usernames, lists, hashtags and URLs from Tweet text.
  */
 public class Extractor {
-	public static class Entity {
-		protected Integer start = null;
-		protected Integer end = null;
-		protected String value = null;
-		protected String type = null;
-
-		public Entity(Matcher matcher, String valueType, Integer groupNumber) {
-			this.start = matcher.start(groupNumber) - 1; // 0-indexed.
-			this.end = matcher.end(groupNumber);
-			this.value = matcher.group(groupNumber);
-			this.type = valueType;
-		}
-
-		/** Constructor used from conformance data */
-		public Entity(Map<String, Object> config, String valueType) {
-			this.type = valueType;
-			this.value = (String) config.get(valueType);
-			List<Integer> indices = (List<Integer>) config.get("indices");
-			this.start = indices.get(0);
-			this.end = indices.get(1);
-		}
-
-		public boolean equals(Object obj) {
-			if (this == obj) {
-				return true;
-			}
-
-			if (!(obj instanceof Entity)) {
-				System.out.println("incorrect type");
-				return false;
-			}
-
-			Entity other = (Entity) obj;
-
-			if (this.type.equals(other.type) && this.start.equals(other.start)
-					&& this.end.equals(other.end)
-					&& this.value.equals(other.value)) {
-				return true;
-			} else {
-				return false;
-			}
-		}
-
-		public int hashCode() {
-			return this.type.hashCode() + this.value.hashCode() + this.start
-					+ this.end;
-		}
-	}
 
 	/**
 	 * Create a new extractor.
@@ -106,59 +57,29 @@ public class Extractor {
 
 		Matcher matcher = Regex.HTML_TAG_HREF.matcher(text);
 		while (matcher.find()) {
-			String matchText = matcher.group(1);
+			String matchText = matcher.group();
 			if (!matchText.isEmpty()) {
-				System.out.println("html == " + matcher.group(1));
-				htmls.add(matcher.group(1));
+				htmls.add(matcher.group());
 			}
 		}
 
 		return htmls;
 	}
 	
-	/**
-	 * Extract htmls references from  text. -> Regexp 잘못 정의되었는지 작동 안하고 있음. 나중에 다시 봐야 함.
-	 * 
-	 * @param text
-	 *            of the text from which to extract HTMLs
-	 * @return List of HTMLs referenced.
-	 */
-	public List<String> extractHTMLs(String text) {
-		if (text == null) {
-			return null;
-		}
-
-		List<String> htmls = new ArrayList<String>();
-
-		Matcher matcher = Regex.HTML_TAG.matcher(text);
-		while (matcher.find()) {
-			String matchText = matcher.group(1);
-			if (!matchText.isEmpty()) {
-				htmls.add(matcher.group(1));
-			}
-		}
-
-		return htmls;
+	public String stripHTML(String htmlStr) {
+		Matcher matcher = Regex.HTML_TAG.matcher(htmlStr);
+		return matcher.replaceAll("");
 	}
 	
-	public List<String> extractSameCharacters(String text, String ch) {
+	public String replaceStrings(String text, String regex, String newStr) {
 		if (text == null) {
 			return null;
 		}
-
-		List<String> chars = new ArrayList<String>();
-		
-		Pattern pattern = Pattern.compile("("+ ch + "+)", Pattern.CASE_INSENSITIVE);
+	
+		Pattern pattern = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
 
 		Matcher matcher = pattern.matcher(text);
-		while (matcher.find()) {
-			String matchText = matcher.group(1);
-			if (!matchText.isEmpty()) {
-				chars.add(matcher.group(1));
-			}
-		}
-
-		return chars;		
+		return matcher.replaceAll(newStr);
 	}
 
 	/**
@@ -173,13 +94,45 @@ public class Extractor {
 	 *            list.
 	 * @return list of extracted values, or an empty list if there were none.
 	 */
-	private List<String> extractList(Pattern pattern, String text, int groupNumber) {
+	public List<String> extractList(Pattern pattern, String text, int groupNumber) {
 		List<String> extracted = new ArrayList<String>();
 		Matcher matcher = pattern.matcher(text);
 		while (matcher.find()) {
 			extracted.add(matcher.group(groupNumber));
 		}
 		return extracted;
+	}
+	
+	public static void main(String[] args) {
+		
+		Extractor extractor = new Extractor();
+	
+//		String text = "공주의 남자今天OST：백지영 (Baek Ji Young) 1- 오늘도 사랑해 也愛你";
+//		String text = "แอร๊กกกกกก แม่ลูกฉลองวันเกิด คิมฮีและคิมคิ กูจะร้องไห้ คิดถึงเมิงมากมายบอมมี่";
+//		String text = "ทำไมไม่เอาหมวยไปด้วยอ่า";
+//		String text = "긍정돼지 저게요 밑에 은근히 많이 깔려서 배부르답니다ㅋㅋ누군가를 좋아하게 되니 저절로 소식하고 싶다는ᆢ뭐래?;;탕수육 맛나게 드셔요~규일님^^";
+//		String text = "<a href='http://blog.naver.com/GoPost.nhn?blogId=love05741&logNo=60138129232'>[기사] 우결 권리세, 데이비드오에 “2PM 택연이 좋아” 고백</a><a href='http://blog.naver.com/GoPost.nhn?blogId=love05741&logNo=60138129232'>[기사] 우결 권리세, 데이비드오에 “2PM 택연이 좋아” 고백</a>";
+//		System.out.println("before == " + text);		
+//		List<String> list = extractor.extractHrefHTMLs(text);
+//		System.out.println("list == " + list);
+//		
+//		text = extractor.stripHTML(text);
+//		System.out.println("after == " + text);
+		
+		// <\\s*a[^>]*>(.*?)<\\s*/\\s*a>
+		// a href='http://me2day.net
+		String text1 = "<a href='http://me2day.net/enigma2k'>드래슬리</a> 전 좋다기보단 넘 멋쪄요<a href='http://me2day.net/enigma2k'>드래슬리</a>";
+		Pattern pattern = Pattern.compile("<\\s*a href='http://me2day.net[^>]*>(.*?)<\\s*/\\s*a>", Pattern.CASE_INSENSITIVE);
+		Matcher matcher = pattern.matcher(text1);
+		while (matcher.find()) {
+			System.out.println(matcher.group());
+		}
+		
+		String text2 = "나방금까지 잠안와서^^공주의?남자 메이킹 봣음&gt;&lt;ㅋㅋㅋ멋져잉♥ㅋㅋㅋㅋ아…..5시임&gt;&lt;^^^^어케함??!";
+		System.out.println(extractor.replaceStrings(text2, "(ㅋ+)", "TAGSMILE"));
+		System.out.println(extractor.replaceStrings(text2, "(\\?+)", "TAGQUESTION"));
+		System.out.println(extractor.replaceStrings(text2, "(\\^\\^+)", "TAGSMILE"));
+		
 	}
 
 }
