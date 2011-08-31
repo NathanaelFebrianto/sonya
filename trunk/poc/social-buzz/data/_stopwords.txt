@@ -12,6 +12,7 @@ me2day,오늘
 me2day,지금
 me2day,어제
 me2day,내일
+me2day,요즘
 common,아니
 common,나다
 common,하다
