@@ -1,7 +1,13 @@
 type,stopword
-common,지식로그
-common,네이버뉴스
-common,네이버블로그
+tag,tagquestion
+tag,tagsmile
+tag,tagcry
+tag,taglove
+tag,tagexclamation
+me2day,지식로그
+me2day,네이버뉴스
+me2day,네이버블로그
+me2day,오늘
 common,나다
 common,하다
 common,보다
