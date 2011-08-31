@@ -3,7 +3,7 @@
 # Author: Younggue Bae
 ###############################################################################
 
-setwd("D:/workspace/social-buzz/output")
+setwd("D:/dev/workspace/social-buzz/data")
 
 library(tm)
 
@@ -87,7 +87,7 @@ AnalyzeDocument <- function(program.id, filename) {
 	# remove sparse terms to simplify the cluster plot
 	# Note: tweak the sparse parameter to determine the number of words.
 	# About 10-30 words is good.
-	mydata.dtm2 <- removeSparseTerms(mydata.dtm, sparse = 0.98)
+	mydata.dtm2 <- removeSparseTerms(mydata.dtm, sparse = 0.99)
 	nrow(mydata.dtm2); ncol(mydata.dtm2)
 	
 	# export dtm
