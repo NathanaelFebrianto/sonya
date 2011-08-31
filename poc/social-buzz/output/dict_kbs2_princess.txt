@@ -28,11 +28,12 @@ born
 chloe
 cm
 cn사랑하능빅뱅
-cry
+co
 cute
 dambae
 darkgray
 daum블로그
+ddadda
 destino
 dmeme
 doctork
@@ -42,7 +43,6 @@ drama
 elmdj
 eunmi
 event
-exclamation
 fb
 first는
 first임
@@ -51,6 +51,7 @@ forever
 gd
 gggg
 gg돋네
+goodsno
 gt
 guys
 hahaha
@@ -60,6 +61,7 @@ haru
 hdtv
 hey
 heyonjoo
+http
 imdoyoon
 instiz
 iphone
@@ -68,15 +70,16 @@ ji
 joobiru
 june
 juve
-kbs공주의남자
 kbs드라마
 kbs
+kbs공주의남자
 kbs사극의변화랄까
 kbs에서하는거에
 kg
 khk
 kikikaka
 knue
+kr
 kusa
 ky
 k본부껄
@@ -101,6 +104,7 @@ mv
 mydaily
 mylovekbs
 m본부꺼
+news
 newyorker
 nmedic
 ohmygod
@@ -118,12 +122,12 @@ park군
 park군은
 pc
 pc로
+php
 piano
 princess
 proof
 p아뒤공유
 queen
-question
 raised
 rhaxoddl
 rhdwn
@@ -137,8 +141,8 @@ sbs
 sbs에서하는거
 seon
 sh
+shop
 sico
-smile
 softgirl
 ss
 st
@@ -163,6 +167,7 @@ txt로
 ug
 various
 via
+view
 vip
 vs
 v드라마
@@ -170,6 +175,7 @@ v에
 wb
 woman
 won
+yaphoto
 ye린
 yi
 ym
@@ -809,7 +815,6 @@ z어찌고
 근현이
 글고공주의남자몇부작
 글구
-글보러가기
 글쎼
 글쎼요
 글쓴이
@@ -2010,7 +2015,6 @@ z어찌고
 말구요
 말그
 말그대
-말다
 말두
 말든가
 말똥말똥
@@ -2654,7 +2658,6 @@ z어찌고
 병주고
 보거싶다
 보겟어
-보고
 보고계셔
 보고계십니
 보고시프뎅에에ㅔㅔ
@@ -2947,7 +2950,6 @@ z어찌고
 빡쳐빡쳐
 빡촤
 빨갛다
-빨다
 빨랑
 빨리
 빨리나갓다
@@ -2994,7 +2996,6 @@ z어찌고
 사는게
 사는기분
 사는방법
-사다
 사돈지
 사둔거
 사라졌잖아
@@ -3792,7 +3793,6 @@ z어찌고
 안피지
 안하다
 안행
-않다
 않았
 않은데요
 않좋지
@@ -4000,7 +4000,6 @@ z어찌고
 없는게
 없는뎁쇼
 없는듯
-없다
 없달까
 없더만
 없던일로
@@ -4200,7 +4199,6 @@ z어찌고
 오늘죽이는거밖에업써
 오늘처음봐
 오늘추웟음
-오다
 오대산국립공원
 오라니깐
 오래걸리긴했지만요
@@ -4330,7 +4328,6 @@ z어찌고
 외가댁
 외갓집
 외계인탑티
-외다
 외롭다
 외모
 외모면
@@ -5058,7 +5055,6 @@ z어찌고
 전화비
 전회
 절규
-절다
 절대
 절루
 절루가
@@ -5134,7 +5130,6 @@ z어찌고
 조군
 조군의
 조금
-조다
 조르다
 조를줄
 조를줄이
@@ -5601,7 +5596,6 @@ z어찌고
 츠메타이
 츠타우
 측의
-치다
 치닫고
 치닫고있어
 치우다

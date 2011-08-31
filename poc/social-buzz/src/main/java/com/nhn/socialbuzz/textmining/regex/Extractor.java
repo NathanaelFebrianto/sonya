@@ -66,10 +66,10 @@ public class Extractor {
 	}
 
 	/**
-	 * Extract URL references from Tweet text.
+	 * Extract URL references from text.
 	 * 
 	 * @param text
-	 *            of the tweet from which to extract URLs
+	 *            of the text from which to extract URLs
 	 * @return List of URLs referenced.
 	 */
 	public List<String> extractURLs(String text) {
@@ -90,6 +90,57 @@ public class Extractor {
 		return urls;
 	}
 	
+	/**
+	 * Extract <a href...></a> htmls references from  text.-> Regexp 잘못 정의되었는지 작동 안하고 있음. 나중에 다시 봐야 함.
+	 * 
+	 * @param text
+	 *            of the text from which to extract HTMLs
+	 * @return List of HTMLs referenced.
+	 */
+	public List<String> extractHrefHTMLs(String text) {
+		if (text == null) {
+			return null;
+		}
+
+		List<String> htmls = new ArrayList<String>();
+
+		Matcher matcher = Regex.HTML_TAG_HREF.matcher(text);
+		while (matcher.find()) {
+			String matchText = matcher.group(1);
+			if (!matchText.isEmpty()) {
+				System.out.println("html == " + matcher.group(1));
+				htmls.add(matcher.group(1));
+			}
+		}
+
+		return htmls;
+	}
+	
+	/**
+	 * Extract htmls references from  text. -> Regexp 잘못 정의되었는지 작동 안하고 있음. 나중에 다시 봐야 함.
+	 * 
+	 * @param text
+	 *            of the text from which to extract HTMLs
+	 * @return List of HTMLs referenced.
+	 */
+	public List<String> extractHTMLs(String text) {
+		if (text == null) {
+			return null;
+		}
+
+		List<String> htmls = new ArrayList<String>();
+
+		Matcher matcher = Regex.HTML_TAG.matcher(text);
+		while (matcher.find()) {
+			String matchText = matcher.group(1);
+			if (!matchText.isEmpty()) {
+				htmls.add(matcher.group(1));
+			}
+		}
+
+		return htmls;
+	}
+	
 	public List<String> extractSameCharacters(String text, String ch) {
 		if (text == null) {
 			return null;
@@ -101,8 +152,8 @@ public class Extractor {
 
 		Matcher matcher = pattern.matcher(text);
 		while (matcher.find()) {
-			String protocol = matcher.group(1);
-			if (!protocol.isEmpty()) {
+			String matchText = matcher.group(1);
+			if (!matchText.isEmpty()) {
 				chars.add(matcher.group(1));
 			}
 		}
@@ -111,12 +162,12 @@ public class Extractor {
 	}
 
 	/**
-	 * Helper method for extracting multiple matches from Tweet text.
+	 * Helper method for extracting multiple matches from text.
 	 * 
 	 * @param pattern
 	 *            to match and use for extraction
 	 * @param text
-	 *            of the Tweet to extract from
+	 *            of the text to extract from
 	 * @param groupNumber
 	 *            the capturing group of the pattern that should be added to the
 	 *            list.
@@ -130,4 +181,5 @@ public class Extractor {
 		}
 		return extracted;
 	}
+
 }
