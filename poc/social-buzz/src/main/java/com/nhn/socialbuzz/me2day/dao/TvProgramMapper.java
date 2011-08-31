@@ -1,6 +1,6 @@
 package com.nhn.socialbuzz.me2day.dao;
 
-import com.nhn.socialbuzz.me2day.GenericMapper;
+import com.nhn.socialbuzz.common.GenericMapper;
 import com.nhn.socialbuzz.me2day.model.TvProgram;
 
 /**

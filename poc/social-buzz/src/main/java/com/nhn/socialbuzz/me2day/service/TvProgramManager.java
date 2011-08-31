@@ -1,6 +1,6 @@
 package com.nhn.socialbuzz.me2day.service;
 
-import com.nhn.socialbuzz.me2day.GenericManager;
+import com.nhn.socialbuzz.common.GenericManager;
 import com.nhn.socialbuzz.me2day.model.TvProgram;
 
 /**
