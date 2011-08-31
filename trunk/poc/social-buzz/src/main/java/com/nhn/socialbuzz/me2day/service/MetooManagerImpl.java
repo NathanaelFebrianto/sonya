@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.apache.ibatis.session.SqlSession;
 
-import com.nhn.socialbuzz.me2day.GenericManagerImpl;
+import com.nhn.socialbuzz.common.GenericManagerImpl;
 import com.nhn.socialbuzz.me2day.dao.MetooMapper;
 import com.nhn.socialbuzz.me2day.model.Metoo;
 

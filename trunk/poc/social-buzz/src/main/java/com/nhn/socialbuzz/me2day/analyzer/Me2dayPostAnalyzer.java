@@ -12,6 +12,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Vector;
 
+import com.nhn.socialbuzz.common.Config;
 import com.nhn.socialbuzz.me2day.model.Comment;
 import com.nhn.socialbuzz.me2day.model.Post;
 import com.nhn.socialbuzz.me2day.service.CommentManager;
@@ -28,7 +29,7 @@ public class Me2dayPostAnalyzer {
 	private String outputDir;
 	
 	private TextAnalyzer textAnalyzer;
-	private PersonalityRecognizer personalityRecognizer;
+	private PersonalityRecognizer personalityRecognizer;	
 	
 
 	/**
@@ -40,7 +41,7 @@ public class Me2dayPostAnalyzer {
 		this.outputDir = outputDir;
 		
 		textAnalyzer = new TextAnalyzer();
-		File liwcCatFile = new File("D:/workspace/social-buzz/output/_LIWC.txt");
+		File liwcCatFile = new File(Config.getProperty("liwcCatFile"));
 		personalityRecognizer = new PersonalityRecognizer(liwcCatFile);
 	}
 	
@@ -49,8 +50,10 @@ public class Me2dayPostAnalyzer {
 	 * Analyzes the document of the specified TV program.
 	 * 
 	 * @param programId
+	 * @param startDate
+	 * @param endDate
 	 */
-	public void analyze(String programId) {
+	public void analyze(String programId, Date startDate, Date endDate) {
 		try {
 			PostManager postManager = new PostManagerImpl();
 			CommentManager commentManager = new CommentManagerImpl();
@@ -299,7 +302,7 @@ public class Me2dayPostAnalyzer {
 	}	
 	
 	public static void main(String[] args) {
-		String outputDir = "D:/workspace/social-buzz/output/";
+		String outputDir = Config.getProperty("dataDir");
 		Me2dayPostAnalyzer analyzer = new Me2dayPostAnalyzer(outputDir);
 		
 		String[] programs = new String[] {
@@ -324,7 +327,7 @@ public class Me2dayPostAnalyzer {
 		};
 			
 		for (int i = 0; i <programs.length; i++) {
-			analyzer.analyze(programs[i]);
+			analyzer.analyze(programs[i], null, null);
 		}
 	}
 

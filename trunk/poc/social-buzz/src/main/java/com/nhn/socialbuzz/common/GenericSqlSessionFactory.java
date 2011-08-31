@@ -1,4 +1,4 @@
-package com.nhn.socialbuzz.me2day;
+package com.nhn.socialbuzz.common;
 
 import java.io.Reader;
 
