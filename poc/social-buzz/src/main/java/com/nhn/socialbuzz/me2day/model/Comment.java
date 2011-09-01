@@ -22,10 +22,25 @@ public class Comment implements Serializable {
 	private Date publishDate;
 	private String authorProfileImage;
 	private String authorMe2dayHome;
-	private double positive;
-	private double negative;
+	private double liwcNegation;
+	private double liwcQuantifier;
+	private double liwcSwear;
+	private double liwcQmark;
+	private double liwcExclam;
+	private double liwcSmile;
+	private double liwcCry;
+	private double liwcLove;
+	private double liwcPositive;
+	private double liwcNegative;
+	private double liwcAnger;
+	private double liwcAnxiety;
+	private double liwcSadness;
 	private Date registerDate;
 	private Data updateDate;
+	
+	private Date publishStartDate;
+	private Date publishEndDate;
+	
 	
 	public String getProgramId() {
 		return programId;
@@ -57,17 +72,56 @@ public class Comment implements Serializable {
 	public String getAuthorMe2dayHome() {
 		return authorMe2dayHome;
 	}
-	public double getPositive() {
-		return positive;
+	public double getLiwcNegation() {
+		return liwcNegation;
 	}
-	public double getNegative() {
-		return negative;
+	public double getLiwcQuantifier() {
+		return liwcQuantifier;
+	}
+	public double getLiwcSwear() {
+		return liwcSwear;
+	}
+	public double getLiwcQmark() {
+		return liwcQmark;
+	}
+	public double getLiwcExclam() {
+		return liwcExclam;
+	}
+	public double getLiwcSmile() {
+		return liwcSmile;
+	}
+	public double getLiwcCry() {
+		return liwcCry;
+	}
+	public double getLiwcLove() {
+		return liwcLove;
+	}
+	public double getLiwcPositive() {
+		return liwcPositive;
+	}
+	public double getLiwcNegative() {
+		return liwcNegative;
+	}
+	public double getLiwcAnger() {
+		return liwcAnger;
+	}
+	public double getLiwcAnxiety() {
+		return liwcAnxiety;
+	}
+	public double getLiwcSadness() {
+		return liwcSadness;
 	}
 	public Date getRegisterDate() {
 		return registerDate;
 	}
 	public Data getUpdateDate() {
 		return updateDate;
+	}
+	public Date getPublishStartDate() {
+		return publishStartDate;
+	}
+	public Date getPublishEndDate() {
+		return publishEndDate;
 	}
 	public void setProgramId(String programId) {
 		this.programId = programId;
@@ -99,17 +153,56 @@ public class Comment implements Serializable {
 	public void setAuthorMe2dayHome(String authorMe2dayHome) {
 		this.authorMe2dayHome = authorMe2dayHome;
 	}
-	public void setPositive(double positive) {
-		this.positive = positive;
+	public void setLiwcNegation(double liwcNegation) {
+		this.liwcNegation = liwcNegation;
 	}
-	public void setNegative(double negative) {
-		this.negative = negative;
+	public void setLiwcQuantifier(double liwcQuantifier) {
+		this.liwcQuantifier = liwcQuantifier;
+	}
+	public void setLiwcSwear(double liwcSwear) {
+		this.liwcSwear = liwcSwear;
+	}
+	public void setLiwcQmark(double liwcQmark) {
+		this.liwcQmark = liwcQmark;
+	}
+	public void setLiwcExclam(double liwcExclam) {
+		this.liwcExclam = liwcExclam;
+	}
+	public void setLiwcSmile(double liwcSmile) {
+		this.liwcSmile = liwcSmile;
+	}
+	public void setLiwcCry(double liwcCry) {
+		this.liwcCry = liwcCry;
+	}
+	public void setLiwcLove(double liwcLove) {
+		this.liwcLove = liwcLove;
+	}
+	public void setLiwcPositive(double liwcPositive) {
+		this.liwcPositive = liwcPositive;
+	}
+	public void setLiwcNegative(double liwcNegative) {
+		this.liwcNegative = liwcNegative;
+	}
+	public void setLiwcAnger(double liwcAnger) {
+		this.liwcAnger = liwcAnger;
+	}
+	public void setLiwcAnxiety(double liwcAnxiety) {
+		this.liwcAnxiety = liwcAnxiety;
+	}
+	public void setLiwcSadness(double liwcSadness) {
+		this.liwcSadness = liwcSadness;
 	}
 	public void setRegisterDate(Date registerDate) {
 		this.registerDate = registerDate;
 	}
 	public void setUpdateDate(Data updateDate) {
 		this.updateDate = updateDate;
+	}
+	public void setPublishStartDate(Date publishStartDate) {
+		this.publishStartDate = publishStartDate;
+	}
+	public void setPublishEndDate(Date publishEndDate) {
+		this.publishEndDate = publishEndDate;
 	}
 
 }

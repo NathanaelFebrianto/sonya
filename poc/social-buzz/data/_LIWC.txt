@@ -29,14 +29,14 @@ KR1. LINGUISTIC
 		다음달* (1)
 		내년* (1)
 		미래* (1)
-	CONJUNCTIONS
+	CONJUNCTION
 		그리고 (1)
 		그런데 (1)
 		그러나 (1)
 		하지만 (1)
 		반면에 (1)
-	NEGATIONS
-	QUANTIFIERS
+	NEGATION
+	QUANTIFIER
 		아주 (1)
 		조금 (1)
 		매우 (1)
@@ -48,28 +48,26 @@ KR1. LINGUISTIC
 		씨발* (1)
 		개새끼* (1)
 		존나* (1)
-	QMARK
-		tagquestion
-	EXCLAM
+	QUESTIONMARK
+		tagquestion (1)
+	EXCLAMMARK
 		tagexclamation (1)
 KR2. SENTIMENT
-	SMILE
+	SMILEMARK
 		tagsmile (1)
 		ㅋ+ (1)
 		ㅎ+ (1)
 		크+ (1)
 		흐+ (1)
-	CRY
+	CRYMARK
 		tagcry (1)
 		ㅜ+ (1)
 		ㅠ+ (1)
 		흑+ (1)
-	LOVE
+	LOVEMARK
 		taglove (1)
 		♡+ (1)
 		♥+ (1)
-	DEPRESS
-		ㅡㅡ (1)
 	POSITIVE
 		좋아하다 (1)
 		좋아 (1)
@@ -255,6 +253,7 @@ KR2. SENTIMENT
 		거부감을느끼다 (1)  
 		거부감* (1)
 	ANGER
+		ㅡㅡ (1)
 		>.< (1)
 		미치다 (1)
 		화나다 (1)

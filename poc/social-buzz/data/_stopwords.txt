@@ -117,6 +117,7 @@ mbc_challenge,무한도전
 mbc_challenge,무한
 mbc_challenge,도전
 mbc_challenge,무도
+mbc_challenge,싸다
 sbs_starking,스타킹
 sbs_starking,놀라운대회스타킹
 sbs_starking,놀라운

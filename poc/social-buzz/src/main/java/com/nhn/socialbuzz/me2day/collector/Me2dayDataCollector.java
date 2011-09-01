@@ -40,6 +40,9 @@ public class Me2dayDataCollector {
 	private CommentManager commentManager;
 	private MetooManager metooManager;
 	
+	/**
+	 * Constructor
+	 */
 	public Me2dayDataCollector() {		
 		tvProgramManager = new TvProgramManagerImpl();
 		postManager = new PostManagerImpl();
@@ -47,6 +50,12 @@ public class Me2dayDataCollector {
 		metooManager = new MetooManagerImpl();
 	}
 
+	/**
+	 * Gets the document through url.
+	 * @param strUrl
+	 * @return
+	 * @throws Exception
+	 */
 	private Document getDocument(String strUrl) throws Exception {
 		URL url = new URL(strUrl);
 		URLConnection connection = url.openConnection();
@@ -69,6 +78,12 @@ public class Me2dayDataCollector {
 		return doc;
 	}
 	
+	/**
+	 * Convert string to date.
+	 * 
+	 * @param publishDate
+	 * @return
+	 */
 	private Date convertDate(String publishDate) {
 		int year = Integer.parseInt(publishDate.substring(0, 4));
 		int month = Integer.parseInt(publishDate.substring(5, 7))-1;
@@ -81,11 +96,22 @@ public class Me2dayDataCollector {
 		return cal.getTime();
 	}
 	
-	public List<Post> searchPosts(String programId, String query, String target, String beginTime, String endTime, int maxPage) {
+	/**
+	 * Searches the posts.
+	 * 
+	 * @param programId
+	 * @param query
+	 * @param target
+	 * @param publishStartDate
+	 * @param publishEndDate
+	 * @param maxPage
+	 * @return
+	 */
+	public List<Post> searchPosts(String programId, String query, String target, String publishStartDate, String publishEndDate, int maxPage) {
 		System.out.println("query == " + query);
 		
 		if (maxPage <= 0) {
-			Hashtable result = searchPostsByPage(programId, query, target, beginTime, endTime, maxPage);
+			Hashtable result = searchPostsByPage(programId, query, target, publishStartDate, publishEndDate, maxPage);
 			if (result == null)
 				return null; 
 		
@@ -97,7 +123,7 @@ public class Me2dayDataCollector {
 		List<Post> allList = new ArrayList<Post>();
 		
 		for (int page = 1; page <= maxPage; page++) {
-			Hashtable<String, Object> result = searchPostsByPage(programId, query, target, beginTime, endTime, page);
+			Hashtable<String, Object> result = searchPostsByPage(programId, query, target, publishStartDate, publishEndDate, page);
 			if (result == null)
 				return null; 
 			
@@ -118,12 +144,12 @@ public class Me2dayDataCollector {
 	 * @param programId the tv program id
 	 * @param query the query string of "keyword1+keyword2"...
 	 * @param target the "all" or "body" or "tag"
-	 * @param beginTime the "yyyy.mm.dd"
-	 * @param endTime the "yyyy.mm.dd
+	 * @param publishStartDate the "yyyy.mm.dd"
+	 * @param publishEndDate the "yyyy.mm.dd
 	 * @param page the specified page
 	 * @return Hashtable the result count and list
 	 */
-	public Hashtable<String, Object> searchPostsByPage(String programId, String query, String target, String beginTime, String endTime, int page) {
+	public Hashtable<String, Object> searchPostsByPage(String programId, String query, String target, String publishStartDate, String publishEndDate, int page) {
 		StringBuffer url = new StringBuffer().append("http://me2day.net/search.xml?");
 		
 		Hashtable<String, Object> result = new Hashtable<String, Object>();
@@ -144,9 +170,9 @@ public class Me2dayDataCollector {
 		if (target != null)
 			url.append("&target=").append(target)
 			   .append("&search_at=all");
-		if (beginTime != null && endTime != null)
-			url.append("&begin_time=").append(beginTime)
-			   .append("&end_time=").append(endTime)
+		if (publishStartDate != null && publishEndDate != null)
+			url.append("&begin_time=").append(publishStartDate)
+			   .append("&end_time=").append(publishEndDate)
 			   .append("&time=custom&tz=Asia%2FSeoul");
 		if (page > 0)
 			url.append("&page=page_").append(page);
@@ -527,7 +553,7 @@ public class Me2dayDataCollector {
 		return 0;
 	}
 	
-	public void execute(String programId) {
+	public void collect(String programId, String publishStartdDate, String publishEndDate) {
 		
 		try {
 			
@@ -540,7 +566,7 @@ public class Me2dayDataCollector {
 			System.out.println("search keywords == " + keywords.size());
 			
 			for (String keyword : keywords) {				
-				this.searchPosts(programId, keyword, "all", "2011.08.15", "2011.08.22", 50);					
+				this.searchPosts(programId, keyword, "all", publishStartdDate, publishEndDate, 50);					
 			}
 			
 		} catch (Exception e) {
@@ -556,48 +582,40 @@ public class Me2dayDataCollector {
 		try {
 			Me2dayDataCollector collector = new Me2dayDataCollector();
 			
-			//String programId = "kbs1_greatking";
-			//String programId = "kbs2_ojakkyo";
-			//String programId = "mbc_thousand";
-			//String programId = "sbs_besideme";
-			//String programId = "kbs2_princess";
-			//String programId = "mbc_fallinlove";
-			//String programId = "sbs_boss";
-			//String programId = "kbs2_spy";
-			//String programId = "mbc_gyebaek";
-			//String programId = "sbs_baekdongsoo";
-			//String programId = "mbc_wedding";
-			//String programId = "mbc_challenge";
-			//String programId = "sbs_starking";
-			//String programId = "kbs2_happysunday_1bak2il";
-			//String programId = "kbs2_happysunday_men";
-			//String programId = "mbc_sundaynight_nagasoo";
-			//String programId = "mbc_sundaynight_house";
-			//String programId = "sbs_newsunday";
-			
 			String[] programs = new String[] {
 //				"kbs1_greatking",
+//				"kbs_homewomen",
+//				"kbs2_princess",
+//				"kbs2_spy",
 //				"kbs2_ojakkyo",
+//				"mbc_gyebaek",
+//				"mbc_fallinlove",
+//				"mbc_urpretty",
 //				"mbc_thousand",
 //				"sbs_besideme",
-//				"kbs2_princess",
-				"mbc_fallinlove",
-//				"sbs_boss",
-//				"kbs2_spy",
-//				"mbc_gyebaek",
+//				"sbs_dangsin",
 //				"sbs_baekdongsoo",
-//				"mbc_wedding",
-//				"mbc_challenge",
-//				"sbs_starking",
+//				"sbs_boss",
+//				"sbs_scent",
+//				"kbs2_gagcon",
 //				"kbs2_happysunday_1bak2il",
 //				"kbs2_happysunday_men",
-//				"mbc_sundaynight_nagasoo",
+//				"sbs_happytogether",
+				"mbc_challenge",
+//				"mbc_three",
+//				"mbc_wedding",
 //				"mbc_sundaynight_house",
-//				"sbs_newsunday"
+//				"mbc_sundaynight_nagasoo",
+//				"sbs_strongheart",
+//				"sbs_starking",
+//				"sbs_newsunday",
 			};
 			
+			String publishStartDate = "2011.08.15";
+			String publishEndDate = "2011.08.21";
+			
 			for (int i = 0; i <programs.length; i++) {
-				collector.execute(programs[i]);
+				collector.collect(programs[i], publishStartDate, publishEndDate);
 			}			
 			
 		} catch (Exception e) {

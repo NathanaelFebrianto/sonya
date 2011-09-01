@@ -28,11 +28,11 @@
 		SELECT post_id FROM post
 		WHERE program_id = #{programId}
 		</if>
-		<if test="publishDate != null">
-			AND publish_date >= #{publishDate}
+		<if test="publishStartDate != null">
+			AND publish_date &gt;= #{publishStartDate}
 		</if>
-		<if test="registerDate != null">
-			AND register_date >= #{registerDate}
+		<if test="publishEndDate != null">
+			AND publish_date &lt;= #{publishEndDate}
 		</if>
 		)
 	</select>

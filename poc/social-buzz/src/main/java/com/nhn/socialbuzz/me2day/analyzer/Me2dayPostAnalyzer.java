@@ -6,7 +6,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.io.UnsupportedEncodingException;
-import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
@@ -14,6 +13,7 @@ import java.util.Vector;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import com.nhn.socialbuzz.common.CommonUtil;
 import com.nhn.socialbuzz.common.Config;
 import com.nhn.socialbuzz.me2day.model.Comment;
 import com.nhn.socialbuzz.me2day.model.Post;
@@ -31,7 +31,10 @@ public class Me2dayPostAnalyzer {
 	private String outputDir;
 	
 	private TextAnalyzer textAnalyzer;
-	private PersonalityRecognizer personalityRecognizer;	
+	private PersonalityRecognizer personalityRecognizer;
+	
+	private PostManager postManager;
+	private CommentManager commentManager;
 	
 
 	/**
@@ -45,6 +48,9 @@ public class Me2dayPostAnalyzer {
 		textAnalyzer = new TextAnalyzer();
 		File liwcCatFile = new File(Config.getProperty("liwcCatFile"));
 		personalityRecognizer = new PersonalityRecognizer(liwcCatFile);
+		
+		postManager = new PostManagerImpl();
+		commentManager = new CommentManagerImpl();
 	}
 	
 
@@ -52,24 +58,30 @@ public class Me2dayPostAnalyzer {
 	 * Analyzes the document of the specified TV program.
 	 * 
 	 * @param programId
-	 * @param startDate
-	 * @param endDate
+	 * @param publishStartDate
+	 * @param publishEndDate
 	 */
-	public void analyze(String programId, Date startDate, Date endDate) {
+	public void analyze(String programId, Date publishStartDate, Date publishEndDate) {
 		try {
 			PostManager postManager = new PostManagerImpl();
 			CommentManager commentManager = new CommentManagerImpl();
 						
 			Post paramPost = new Post();
 			paramPost.setProgramId(programId);
+			paramPost.setPublishStartDate(publishStartDate);
+			paramPost.setPublishEndDate(publishEndDate);
 			List<Post> posts = postManager.getPosts(paramPost);
 			
 			Comment paramComment = new Comment();
 			paramComment.setProgramId(programId);
+			paramComment.setPublishStartDate(publishStartDate);
+			paramComment.setPublishEndDate(publishEndDate);
 			List<Comment> comments = commentManager.getComments(paramComment);
 			
 			// write output into file and database
-			this.writeOutput(programId, posts, comments);			
+			String path = CommonUtil.convertDateToString("yyyyMMdd", publishStartDate) +
+					"-" + CommonUtil.convertDateToString("yyyyMMdd", publishEndDate);
+			this.writeOutput(path, programId, posts, comments);			
 			
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -85,14 +97,14 @@ public class Me2dayPostAnalyzer {
      * @throws UnsupportedEncodingException
      * @throws IOException
      */
-	private void writeOutput(String programId, List<Post> posts, List<Comment> comments) 
+	private void writeOutput(String path, String programId, List<Post> posts, List<Comment> comments) 
 			throws UnsupportedEncodingException, IOException {
-		File dir = new File(outputDir);
+		File dir = new File(outputDir + File.separator + path);
 		if (!dir.exists())
 			dir.mkdir();
 		
-		File outTerms = new File(outputDir + File.separator + "terms_" + programId + ".txt");
-		File outSentiment = new File(outputDir + File.separator + "sentiment_" + programId + ".txt");
+		File outTerms = new File(dir.getPath() + File.separator + "terms_" + programId + ".txt");
+		File outSentiment = new File(dir.getPath() + File.separator + "sentiment_" + programId + ".txt");
 		
 		
 		BufferedWriter writerTerms = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(outTerms.getPath()), "UTF-8"));
@@ -113,7 +125,7 @@ public class Me2dayPostAnalyzer {
 			String postId = post.getPostId();
 			String authorId = post.getAuthorId();
 			String authorNickname = post.getAuthorNickname();
-			String publishDate = this.convertDate("yyyy-MM-dd", post.getPublishDate());
+			String publishDate = CommonUtil.convertDateToString("yyyy-MM-dd", post.getPublishDate());
 			//String textBody = post.getTextBody();
 			String body = post.getBody();
 			String textTag = post.getTagText();
@@ -162,7 +174,9 @@ public class Me2dayPostAnalyzer {
 							wordCount.getWordsText());
 					writerSentiment.newLine();					
 				}
-			}			
+			}
+			
+			this.updateLIWCFeaturesToDatabase(post, liwcMaps);
 		}
 		
 		// comment
@@ -171,7 +185,7 @@ public class Me2dayPostAnalyzer {
 			String commentId = comment.getCommentId();
 			String authorId = comment.getAuthorId();
 			String authorNickname = comment.getAuthorNickname();
-			String publishDate = this.convertDate("yyyy-MM-dd", comment.getPublishDate());
+			String publishDate = CommonUtil.convertDateToString("yyyy-MM-dd", comment.getPublishDate());
 			//String textBody = comment.getTextBody();
 			String body = comment.getBody();
 			String type = "COMMENT";
@@ -267,26 +281,6 @@ public class Me2dayPostAnalyzer {
 		
 		return text;
 	}
-	
-	/**
-	 * Convert data object into string with the specified format.
-	 * 
-	 * @param mask
-	 * @param date
-	 * @return
-	 */
-    private String convertDate(String mask, Date date) {
-        SimpleDateFormat df = null;
-        String returnValue = "";
-
-        if (date == null) {
-        } else {
-            df = new SimpleDateFormat(mask);
-            returnValue = df.format(date);
-        }
-
-        return returnValue;
-    }
     
     /**
      * Analyzes the LIWC features for recognizing sentiment.
@@ -315,33 +309,88 @@ public class Me2dayPostAnalyzer {
 		return null;
 	}	
 	
+	private void updateLIWCFeaturesToDatabase(Post post, Map<String, WordCount> liwcMaps) {
+		Post postNew = new Post();
+		postNew.setPostId(post.getPostId());
+		postNew.setProgramId(post.getProgramId());		
+		
+		for (Object key : liwcMaps.keySet()) {
+			WordCount wordCount = (WordCount) liwcMaps.get(key);
+			double count = wordCount.getCount();
+			
+			if (key.equals("NEGATION"))
+				postNew.setLiwcNegation(count);
+			else if (key.equals("QUANTIFIER"))
+				postNew.setLiwcQuantifier(count);
+			else if (key.equals("SWEAR"))
+				postNew.setLiwcSwear(count);
+			else if (key.equals("QUESTIONMARK"))
+				postNew.setLiwcQmark(count);
+			else if (key.equals("EXCLAMMARK"))
+				postNew.setLiwcExclam(count);
+			else if (key.equals("SMILEMARK"))
+				postNew.setLiwcSmile(count);
+			else if (key.equals("CRYMARK"))
+				postNew.setLiwcCry(count);
+			else if (key.equals("LOVEMARK"))
+				postNew.setLiwcLove(count);
+			else if (key.equals("POSITIVE"))
+				postNew.setLiwcPositive(count);
+			else if (key.equals("NEGATIVE"))
+				postNew.setLiwcNegative(count);
+			else if (key.equals("ANGER"))
+				postNew.setLiwcAnger(count);
+			else if (key.equals("ANXIETY"))
+				postNew.setLiwcAnxiety(count);
+			else if (key.equals("SADNESS"))
+				postNew.setLiwcSadness(count);
+		}
+		
+		postManager.setPost(postNew);
+	}
+	
 	public static void main(String[] args) {
 		String outputDir = Config.getProperty("dataDir");
 		Me2dayPostAnalyzer analyzer = new Me2dayPostAnalyzer(outputDir);
 		
 		String[] programs = new String[] {
 //			"kbs1_greatking",
+//			"kbs_homewomen",
+			"kbs2_princess",
+//			"kbs2_spy",
 //			"kbs2_ojakkyo",
+//			"mbc_gyebaek",
+//			"mbc_fallinlove",
+//			"mbc_urpretty",
 //			"mbc_thousand",
 //			"sbs_besideme",
-			"kbs2_princess",
-//			"mbc_fallinlove",
-//			"sbs_boss",
-//			"kbs2_spy",
-//			"mbc_gyebaek",
+//			"sbs_dangsin",
 //			"sbs_baekdongsoo",
-//			"mbc_wedding",
-//			"mbc_challenge",
-//			"sbs_starking",
+//			"sbs_boss",
+//			"sbs_scent",
+//			"kbs2_gagcon",
 //			"kbs2_happysunday_1bak2il",
 //			"kbs2_happysunday_men",
-//			"mbc_sundaynight_nagasoo",
+//			"sbs_happytogether",
+//			"mbc_challenge",
+//			"mbc_three",
+//			"mbc_wedding",
 //			"mbc_sundaynight_house",
-//			"sbs_newsunday"
+//			"mbc_sundaynight_nagasoo",
+//			"sbs_strongheart",
+//			"sbs_starking",
+//			"sbs_newsunday",
 		};
+		
+		try {
+			Date publishStartDate = CommonUtil.convertStringToDate("yyyyMMdd", "20110815");
+			Date publishEndDate = CommonUtil.convertStringToDate("yyyyMMdd", "20110821");
 			
-		for (int i = 0; i <programs.length; i++) {
-			analyzer.analyze(programs[i], null, null);
+			for (int i = 0; i <programs.length; i++) {
+				analyzer.analyze(programs[i], publishStartDate, publishEndDate);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
 		}
 	}
 

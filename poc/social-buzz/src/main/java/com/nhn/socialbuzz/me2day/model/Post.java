@@ -29,13 +29,26 @@ public class Post implements Serializable {
 	private String authorNickname;
 	private String authorProfileImage;
 	private String authorMe2dayHome;
-	private String authorLocation;
-	private double postPositive;
-	private double postNegative;
-	private double tagPositive;
-	private double tagNegative;
+	private String authorLocation;	
+	private double liwcNegation;
+	private double liwcQuantifier;
+	private double liwcSwear;
+	private double liwcQmark;
+	private double liwcExclam;
+	private double liwcSmile;
+	private double liwcCry;
+	private double liwcLove;
+	private double liwcPositive;
+	private double liwcNegative;
+	private double liwcAnger;
+	private double liwcAnxiety;
+	private double liwcSadness;
 	private Date registerDate;
 	private Data updateDate;
+	
+	private Date publishStartDate;
+	private Date publishEndDate;
+	
 	
 	public String getPostId() {
 		return postId;
@@ -91,23 +104,56 @@ public class Post implements Serializable {
 	public String getAuthorLocation() {
 		return authorLocation;
 	}
-	public double getPostPositive() {
-		return postPositive;
+	public double getLiwcNegation() {
+		return liwcNegation;
 	}
-	public double getPostNegative() {
-		return postNegative;
+	public double getLiwcQuantifier() {
+		return liwcQuantifier;
 	}
-	public double getTagPositive() {
-		return tagPositive;
+	public double getLiwcSwear() {
+		return liwcSwear;
 	}
-	public double getTagNegative() {
-		return tagNegative;
+	public double getLiwcQmark() {
+		return liwcQmark;
+	}
+	public double getLiwcExclam() {
+		return liwcExclam;
+	}
+	public double getLiwcSmile() {
+		return liwcSmile;
+	}
+	public double getLiwcCry() {
+		return liwcCry;
+	}
+	public double getLiwcLove() {
+		return liwcLove;
+	}
+	public double getLiwcPositive() {
+		return liwcPositive;
+	}
+	public double getLiwcNegative() {
+		return liwcNegative;
+	}
+	public double getLiwcAnger() {
+		return liwcAnger;
+	}
+	public double getLiwcAnxiety() {
+		return liwcAnxiety;
+	}
+	public double getLiwcSadness() {
+		return liwcSadness;
 	}
 	public Date getRegisterDate() {
 		return registerDate;
 	}
 	public Data getUpdateDate() {
 		return updateDate;
+	}
+	public Date getPublishStartDate() {
+		return publishStartDate;
+	}
+	public Date getPublishEndDate() {
+		return publishEndDate;
 	}
 	public void setPostId(String postId) {
 		this.postId = postId;
@@ -163,17 +209,44 @@ public class Post implements Serializable {
 	public void setAuthorLocation(String authorLocation) {
 		this.authorLocation = authorLocation;
 	}
-	public void setPostPositive(double postPositive) {
-		this.postPositive = postPositive;
+	public void setLiwcNegation(double liwcNegation) {
+		this.liwcNegation = liwcNegation;
 	}
-	public void setPostNegative(double postNegative) {
-		this.postNegative = postNegative;
+	public void setLiwcQuantifier(double liwcQuantifier) {
+		this.liwcQuantifier = liwcQuantifier;
 	}
-	public void setTagPositive(double tagPositive) {
-		this.tagPositive = tagPositive;
+	public void setLiwcSwear(double liwcSwear) {
+		this.liwcSwear = liwcSwear;
 	}
-	public void setTagNegative(double tagNegative) {
-		this.tagNegative = tagNegative;
+	public void setLiwcQmark(double liwcQmark) {
+		this.liwcQmark = liwcQmark;
+	}
+	public void setLiwcExclam(double liwcExclam) {
+		this.liwcExclam = liwcExclam;
+	}
+	public void setLiwcSmile(double liwcSmile) {
+		this.liwcSmile = liwcSmile;
+	}
+	public void setLiwcCry(double liwcCry) {
+		this.liwcCry = liwcCry;
+	}
+	public void setLiwcLove(double liwcLove) {
+		this.liwcLove = liwcLove;
+	}
+	public void setLiwcPositive(double liwcPositive) {
+		this.liwcPositive = liwcPositive;
+	}
+	public void setLiwcNegative(double liwcNegative) {
+		this.liwcNegative = liwcNegative;
+	}
+	public void setLiwcAnger(double liwcAnger) {
+		this.liwcAnger = liwcAnger;
+	}
+	public void setLiwcAnxiety(double liwcAnxiety) {
+		this.liwcAnxiety = liwcAnxiety;
+	}
+	public void setLiwcSadness(double liwcSadness) {
+		this.liwcSadness = liwcSadness;
 	}
 	public void setRegisterDate(Date registerDate) {
 		this.registerDate = registerDate;
@@ -181,6 +254,11 @@ public class Post implements Serializable {
 	public void setUpdateDate(Data updateDate) {
 		this.updateDate = updateDate;
 	}
+	public void setPublishStartDate(Date publishStartDate) {
+		this.publishStartDate = publishStartDate;
+	}
+	public void setPublishEndDate(Date publishEndDate) {
+		this.publishEndDate = publishEndDate;
+	}
 	
-
 }
