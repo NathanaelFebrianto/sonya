@@ -405,7 +405,7 @@ public class LIWCDictionary {
 			for (int i = 0; i < words.size(); i++) {
 				String word = (String) words.get(i);
 				if (i < words.size() -1)
-					wordsText.append(word).append(",");	
+					wordsText.append(word).append(" ");	
 				else
 					wordsText.append(word);	
 			}			

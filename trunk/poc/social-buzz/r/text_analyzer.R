@@ -3,7 +3,7 @@
 # Author: Younggue Bae
 ###############################################################################
 
-setwd("D:/dev/workspace/social-buzz/data")
+setwd("D:/workspace/social-buzz/data")
 
 library(tm)
 
@@ -29,13 +29,17 @@ GetStopwords <- function(program.id) {
 }
 
 ###
-# Analyzes the document and plots the result.
+# Analyzes the term frequency and plots the result.
 # @param program.id
+# @param dir
 # @param filename - input file
 ###
-AnalyzeDocument <- function(program.id, filename) {
-#	filename <- "terms_mbc_challenge.txt"
-#	program.id <- "mbc_challenge"
+AnalyzeTermFrequency <- function(program.id, dir, filename) {
+
+#	program.id <- "kbs2_princess"
+#	filename <- "./20110815-20110821/terms_kbs2_princess.txt"
+	
+	filename <- paste(dir, "/", filename, sep = "")
 	
 	mydata.table = read.table(file(filename, encoding = "UTF-8"),
 			sep = "\t", header = TRUE, stringsAsFactors = TRUE)
@@ -106,7 +110,7 @@ AnalyzeDocument <- function(program.id, filename) {
 	# export tf sum
 	write.csv(v, file=paste("tf_", program.id, ".csv", sep = ""), row.names = TRUE)
 	
-	PlotTermFreq(program.id, v)
+	PlotTermFreq(program.id, v, "Frequency of Terms")
 	
 #	mydata.dtm3 <- removeSparseTerms(mydata.dtm, sparse = 0.8)
 #	PlotDendrogram(mydata.dtm3)
@@ -114,11 +118,66 @@ AnalyzeDocument <- function(program.id, filename) {
 }
 
 
-PlotTermFreq <- function (progaram.id, tf.matrix) {
+###
+# Analyzes the sentiment terms and plots the result.
+# @param program.id
+# @param dir
+# @param filename - input file
+###
+AnalyzeSentimentTerms <- function(program.id, dir, filename) {
+
+#	program.id <- "kbs2_princess"
+#	dir <- "./20110815-20110821"
+
+	filename <- paste(dir, "/", filename, sep = "")
+	
+	mydata.table = read.table(file(filename, encoding = "UTF-8"),
+			sep = "\t", header = TRUE, stringsAsFactors = TRUE)
+	
+	head(mydata.table)
+	
+	mydata.table.subset = subset(mydata.table, 
+			subset = (mydata.table$feature == "SWEAR" | 
+						mydata.table$feature == "POSITIVE" | 
+						mydata.table$feature == "NEGATIVE" | 
+						mydata.table$feature == "ANGER" | 
+						mydata.table$feature == "ANXIETY" |
+						mydata.table$feature == "SADNESS"))
+	
+	mydata.features <- data.frame(textCol = mydata.table.subset$word)
+	
+	mydata.source <- DataframeSource(mydata.features)
+	
+	mydata.corpus <- Corpus(mydata.source)
+
+	# make each letter lowercase
+	mydata.corpus <- tm_map(mydata.corpus, tolower)
+	
+	mydata.dtm <- DocumentTermMatrix(mydata.corpus,
+			control = list(weighting = weightTf, minWordLength = 1,
+					stopwords = TRUE))
+	print(mydata.dtm)
+	
+	mydata.dtm2 <- removeSparseTerms(mydata.dtm, sparse = 0.99)
+	nrow(mydata.dtm2); ncol(mydata.dtm2)
+	
+	# export dtm
+	mydata.matrix <- as.matrix(mydata.dtm2)
+	v <- as.matrix(sort(colSums(mydata.matrix), decreasing = TRUE)); v	
+	w <- rownames(v); length(w); w
+	
+	# export tf sum
+	write.csv(v, file=paste(dir, "/", "stf_", program.id, ".csv", sep = ""), row.names = TRUE)
+	
+	PlotTermFreq(program.id, v, "Sentiment")	
+}
+
+
+PlotTermFreq <- function (progaram.id, tf.matrix, title) {
 	require(grDevices); # for colors
 	#x <- sort(v[1:10,], decreasing=FALSE)
 	x <- sort(tf.matrix[,], decreasing=FALSE)	
-	title <- paste("Frequency of Terms (", progaram.id, ")", sep = "")
+	title <- paste(title, " (", progaram.id, ")", sep = "")
 	barplot(x, horiz=TRUE, cex.names = 0.70, space = 1, las = 1, col = grey.colors(length(x)), main = title)
 	
 	#install.packages('snippets',,'http://www.rforge.net/')
@@ -156,23 +215,10 @@ PlotDendrogram <- function (dtm) {
 # Execute 
 ###
 
-#AnalyzeDocument("kbs1_greatking", "terms_kbs1_greatking.txt")
-#AnalyzeDocument("kbs2_ojakkyo", "terms_kbs2_ojakkyo.txt")
-#AnalyzeDocument("mbc_thousand", "terms_mbc_thousand.txt")
-#AnalyzeDocument("sbs_besideme", "terms_sbs_besideme.txt")
-AnalyzeDocument("kbs2_princess", "terms_kbs2_princess.txt")
-#AnalyzeDocument("mbc_fallinlove", "terms_mbc_fallinlove.txt")
-#AnalyzeDocument("sbs_boss", "terms_sbs_boss.txt")
-#AnalyzeDocument("kbs2_spy", "terms_kbs2_spy.txt")
-#AnalyzeDocument("mbc_gyebaek", "terms_mbc_gyebaek.txt")
-#AnalyzeDocument("sbs_baekdongsoo", "terms_sbs_baekdongsoo.txt")
-#AnalyzeDocument("mbc_wedding", "terms_mbc_wedding.txt")
-#AnalyzeDocument("mbc_challenge", "terms_mbc_challenge.txt")
-#AnalyzeDocument("sbs_starking", "terms_sbs_starking.txt")
-#AnalyzeDocument("kbs2_happysunday_1bak2il", "terms_kbs2_happysunday_1bak2il.txt")
-#AnalyzeDocument("kbs2_happysunday_men", "terms_kbs2_happysunday_men.txt")
-#AnalyzeDocument("mbc_sundaynight_nagasoo", "terms_mbc_sundaynight_nagasoo.txt")
-#AnalyzeDocument("mbc_sundaynight_house", "terms_mbc_sundaynight_house.txt")
-#AnalyzeDocument("sbs_newsunday", "terms_sbs_newsunday.txt")
+#AnalyzeTermFrequency("kbs2_princess", "./20110815-20110821", "terms_kbs2_princess.txt")
+#AnalyzeTermFrequency("mbc_challenge", "./20110815-20110821", "terms_mbc_challenge.txt")
+
+#AnalyzeSentimentTerms("kbs2_princess", "./20110815-20110821", "sentiment_kbs2_princess.txt")
+AnalyzeSentimentTerms("mbc_challenge", "./20110815-20110821", "sentiment_mbc_challenge.txt")
 
 

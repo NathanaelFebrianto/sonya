@@ -22,6 +22,9 @@ public class Metoo implements Serializable {
 	private Date registerDate;
 	private Data updateDate;
 	
+	private Date publishStartDate;
+	private Date publishEndDate;
+	
 	public String getProgramId() {
 		return programId;
 	}
@@ -48,6 +51,12 @@ public class Metoo implements Serializable {
 	}
 	public Data getUpdateDate() {
 		return updateDate;
+	}
+	public Date getPublishStartDate() {
+		return publishStartDate;
+	}
+	public Date getPublishEndDate() {
+		return publishEndDate;
 	}
 	public void setProgramId(String programId) {
 		this.programId = programId;
@@ -76,5 +85,11 @@ public class Metoo implements Serializable {
 	public void setUpdateDate(Data updateDate) {
 		this.updateDate = updateDate;
 	}
-
+	public void setPublishStartDate(Date publishStartDate) {
+		this.publishStartDate = publishStartDate;
+	}
+	public void setPublishEndDate(Date publishEndDate) {
+		this.publishEndDate = publishEndDate;
+	}
+	
 }

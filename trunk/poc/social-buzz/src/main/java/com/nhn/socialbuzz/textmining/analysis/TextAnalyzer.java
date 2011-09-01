@@ -153,6 +153,7 @@ public class TextAnalyzer {
 		text = this.replaceStrings(text, "(ㅎ+)", " TAGSMILE ");
 		text = this.replaceStrings(text, "(ㅜ+)", " TAGCRY ");
 		text = this.replaceStrings(text, "(ㅠ+)", " TAGCRY ");
+		text = this.replaceStrings(text, "(ㅡㅡ)", " TAGCRY ");
 		text = this.replaceStrings(text, "(♡+)", " TAGLOVE ");
 		text = this.replaceStrings(text, "(♥+)", " TAGLOVE ");
 		text = this.replaceStrings(text, "(!+)", " TAGEXCLAMATION ");		

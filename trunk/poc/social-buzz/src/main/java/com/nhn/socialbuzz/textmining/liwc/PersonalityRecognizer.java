@@ -134,6 +134,7 @@ public class PersonalityRecognizer {
 		
 		Map<String,String> shortcuts = new LinkedHashMap<String,String>();
 		
+		/*
 		shortcuts.put("LINGUISTIC", "LINGUISTIC");
 		shortcuts.put("PRONOUN", "PRONOUN");
 		shortcuts.put("I", "I");
@@ -207,6 +208,7 @@ public class PersonalityRecognizer {
 		shortcuts.put("SWEAR WORDS", "SWEAR");
 		shortcuts.put("NONFLUENCIES", "NONFL");
 		shortcuts.put("FILLERS", "FILLERS");
+		*/
 		
 		return shortcuts;
 	}
