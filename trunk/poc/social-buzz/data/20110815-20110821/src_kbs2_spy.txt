@@ -1,0 +1,1453 @@
+program_id	author_id	type	post_id	comment_id	publish_date	terms
+kbs2_spy	tjsals526	POST	pym07yx-_dhgs		2011-08-18	스파이명월 좀잇음 끝남tagquestion
+kbs2_spy	zkvmelffj	POST	pym0cqx-_sf2i		2011-08-18	스파이명월 한예슬 사건 전모
+kbs2_spy	coupe3111	POST	pym0d4q-_3c1c		2011-08-18	한예슬 에릭 말없다 대본 어색 촬영 재개
+kbs2_spy	wjdgus3529	POST	pym0gnd-iq5a		2011-08-18	그럼스파이명월어떻게되는거임한예슬이계속하는거임tagquestion아님다른사람이하는거임이거당체모르겟엄
+kbs2_spy	jtkimm	POST	pym0gu0-zlm		2011-08-19	세상 읽다 우리 이 괜찮다 김여진한예슬 관하다 가장 개념찬 글 다르다 거 거다 떠나다 가끔씩 준비 안되다 드라마 결방 결방되 결방되고 안되나tagquestion 논란 여지 있다 특 스파이명월 한 하다 번 안 알다 보다 나다 나 관심 없다 여배우 한예슬 조금 좋아지다 한겨레 뉴스스크랩
+kbs2_spy	nadiag26	POST	pym0h5d-_icu7		2011-08-19	한예슬 파문 서 서다 빛나다 빛 남자 남다 에릭 에릭 에릭은 기회주의자
+kbs2_spy	dong	POST	pym0hh5-x_p		2011-08-18	스파이명월 한예슬사태 후 촬영재개 눈물
+kbs2_spy	han02jjang	POST	pym0img-mzmq		2011-08-18	에릭 한예슬 사과속 스파이 회식 만원 한턱 소녀k 스타뉴스
+kbs2_spy	kyoungt70	POST	pym0iyw-bxvq		2011-08-19	원문 한예슬 파문 서 서다 빛나다 빛 남자 남다 에릭 따뜻 가슴 냉철 머리 웹
+kbs2_spy	dbsthdbs98	POST	pym0jhm-chfd		2011-08-18	스파이명월 정상화 되다 tagexclamation 아 다행 tagexclamation tagcry 아 근데 회 빨다 보고싶다 tagexclamation tagsmile 스파이명월 정상화 되서 다행
+kbs2_spy	kyoungt70	POST	pym0kfr-bxvq		2011-08-19	원문 에릭 한예슬 응원해달라 회식 하다 말다 말 하다 예전 받다 웹
+kbs2_spy	kyoungt70	POST	pym0krq-bxvq		2011-08-19	원문 스파이명월 한예슬 촬영 복귀 후 공식사과 장면포착 웹
+kbs2_spy	guswlsmmm1	POST	pym0mzc-5op__		2011-08-18	버블 tagexclamation 스파이명월 응원글이벤트 tagexclamation 아 참 차다 말도안나오는상황 믿다 씨온녀 도 당황할듯 잘풀리길 기대 이미 악화 seeon kr
+kbs2_spy	chlk1220	POST	pym0nn7-50mw8		2011-08-19	넌내반 스파이 명월 꼴찌 드라마 엇갈리다 행보
+kbs2_spy	dream3322	POST	pym0n__-yv7bm		2011-08-19	배우 한예슬 스파이명월 제작진 점심식사 사진노출
+kbs2_spy	dks072	POST	pym0of5-ye272		2011-08-19	한예슬 회식 스파이 명월 한예슬 눈물회식 제작진 용서 구하다
+kbs2_spy	dltjdwns93	POST	pym0oi8-xkxv		2011-08-18	에릭 한예슬 사과속 스파이 회식 만원 한턱 얼굴 잘생기다 성격도좋 돈도많 돈도많아 뭐냐tagquestion 스타뉴스
+kbs2_spy	milledental	POST	pym0oli-5otk4		2011-08-19	한예슬회식사진한예슬 회식자리 제작진 앞 공개사과 극적 화해라고tagquestion에릭발언 눈길
+kbs2_spy	kyoungt70	POST	pym0qo1-bxvq		2011-08-19	원문 에릭 한예슬 오빠 따끔 할 하다 말다 말 하다 하 받다 생각 웹
+kbs2_spy	seung80won	POST	pym0s35-oi9a		2011-08-19	한예슬 사태스파이명월 한예슬 회식자리 공
+kbs2_spy	limheeyeon99	POST	pym0sh2-y6o8m		2011-08-18	오늘 스파이명월 여주인공 한예슬 그동안 촬영거부 미국 있다 복귀했답니다 tagcry 저 스파이명월 애청자 한예슬 제작진 갈등 맘 아프다 tagcry
+kbs2_spy	seung80won	POST	pym0sog-oi9a		2011-08-19	스파이명월 한예슬 사태 스파이명월 한예슬 회식
+kbs2_spy	pink1327	POST	pym0t0m-y3_ri		2011-08-19	스파이명월 몽땅내사랑같은옷다른느낌 한예슬 리지
+kbs2_spy	fan78u	POST	pym0vqr-yz23v		2011-08-19	스파이명월 회식 스파이명월 한예슬 회식 사과
+kbs2_spy	rhxoxod	POST	pym0y43-5_cqk		2011-08-18	에릭씨 성명문 한예슬씨 반박 반박이 구원 여지 없다 존망 확정 pd분 막대 굴리다 비판 여지 엄청나다 엄청 에릭씨 저렇다 pd편들면 이건 한예슬씨 한예슬씨의 잘못 블로그 블로그에 쓰다 걍 한예슬씨 정신적 좀 조다 철없다 느끼다
+kbs2_spy	skypremire	POST	pym0zdj-q8xl		2011-08-18	스파이명월 한예슬 촬영 복귀 후 공식사과 장면포착 이거 한예슬 희생 언플한듯 완전 듣보 드라마 온국민 온국민이 알정도 알정도가 되다 tagsmile tv리포트
+kbs2_spy	navysun423	POST	pym0_0i-5mqru		2011-08-19	회식 에릭 스파이명월 위해서라면 tagexclamation
+kbs2_spy	hdo0123	POST	pym0_7z-_q3w4		2011-08-18	오늘의핫이슈스파이명월 한예슬 사건 사다
+kbs2_spy	donghun86	POST	pym12j9-yxc59		2011-08-20	천자 칼럼 한예슬 에릭솔직하게말해서 직책노릇 못하는사람 많다 논증 정확 물증 필요 기삿거리 댓글다 댓글다는 우리 궤변 하지 하다 hankyung
+kbs2_spy	6150su	POST	pym12p3-yv5jz		2011-08-20	미친님 스파이명월시청자 미투 tagexclamation 오늘 회 재방송 시 분 kbs엣거
+kbs2_spy	leekwon10	POST	pym141i-y64yl		2011-08-20	천자 칼럼 한예슬 에릭 한경닷컴 뉴스스크랩
+kbs2_spy	acsulin	POST	pym159a-yewpp		2011-08-19	천자칼럼 한예슬 에릭제작 환경 열악 먼저 힘들다 느끼는것 제작진이겠죠 아마 한예슬씨 한예슬씨가 빈말 제작진 피해자 여기다 제작진 hankyung
+kbs2_spy	inc6021	POST	pym15bs-y4vwy		2011-08-19	천자칼럼 한예슬 에릭너무 극단적 판단 그럼 멋지다 연기 뒷받침 스태프 뭡니까tagquestion 한예슬씨 한예슬씨만 힘들다 거 거다 아니다 스태프 hankyung
+kbs2_spy	inc6021	POST	pym15xg-y4vwy		2011-08-19	천자칼럼 한예슬 에릭그래서 집창촌 있는거 아닙니까tagquestion 좀 조다 먼치킨 먼치킨이긴 하다 하지 다들 좋아서 좋아서하 좋아서하나 좋아서하나요 어쩔때 어쩔때는 힘들다 감수 하는거지 hankyung
+kbs2_spy	acsulin	POST	pym15z6-yewpp		2011-08-19	천자칼럼 한예슬 에릭조금 하다 솔직 배우다 배우 하다 하기 얼굴 뜨다 축 속 얼굴팔 얼굴팔아 회당 천 팬들 사회 감사 나누 hankyung
+kbs2_spy	acsulin	POST	pym16im-yewpp		2011-08-19	천자칼럼 한예슬 에릭한예슬 그렇다 년 내다 주 일이 밤새다 밤샘 가깝다 촬영 하다 생활하는것 아니다 왜 외다 한예슬 피해자 여기다 모르 hankyung
+kbs2_spy	inc6021	POST	pym16mk-y4vwy		2011-08-19	천자칼럼 한예슬 에릭그걸 또 크다 만들어야 만들어야했 이거죠 문제 그겁니 그겁니다 그것 아니 악 대응 정의롭다 사람 됬을지 모르 hankyung
+kbs2_spy	inc6021	POST	pym16wd-y4vwy		2011-08-19	천자칼럼 한예슬 에릭제 에릭제가 좀 조다 끼어들다 될지 될지는 모르다 논문 자체 주제가 주제 병맛이긴 병맛이긴한데 확실한건 제작진도 제작진 배우 힘들다 다 촬영 hankyung
+kbs2_spy	donghun86	POST	pym1a42-yxc59		2011-08-20	천자 칼럼 한예슬 에릭 에릭하지 에릭하지만 외모 뛰어나다 뛰어 연예인 다른사람 이유만 이유만으 상품화 가능하다는것 제가 제 말하고싶 말하고싶은 연예계 문제점 hankyung
+kbs2_spy	wonjucho	POST	pym1a81-4		2011-08-20	공주 남자 남다 보다 보 김서라 김서라가 문채원 엄마 나오다 김서 김서라 전 나팔꽃 아침드라마 나오다 출연료 문제 중간 하차 여주인공 바뀌다 아마 이승연 걸 기억 새여주인공 대사 서울 가버린 여주인공 대 놓다 이상 애로 애 만들었드랬지 스파이명월 트랜스포머 나 나다 똑같다 유치
+kbs2_spy	power824	POST	pym1a9w-5y5c6		2011-08-20	천자 칼럼 한예슬 에릭자기가 에릭자기가의 능력 버는게 돈 회당 뭐 중요한가억지 주장 모르다 그렇다 따지면빌게이츠 따지면빌게이츠가 잠잘때 버 hankyung
+kbs2_spy	donghun86	POST	pym1aak-yxc59		2011-08-20	천자 칼럼 한예슬 에릭빈소 빈도 hankyung
+kbs2_spy	donghun86	POST	pym1af7-yxc59		2011-08-20	천자 칼럼 한예슬 에릭연예인 빈부격차 심 평균이상 외모 갖추다 않다 높다 경쟁률 치고올라가야하는것 치고올라가야하는것이 사실 외모 비하 비 hankyung
+kbs2_spy	donghun86	POST	pym1ai4-yxc59		2011-08-20	천자 칼럼 한예슬 에릭 에릭하지 에릭하지만 외모 뛰어나다 뛰어 연예인 다른사람 이유만 이유만으 상품화 가능하다는것 제가 제 말하고싶 말하고싶은 연예계 문제점 hankyung
+kbs2_spy	donghun86	POST	pym1anf-yxc59		2011-08-20	천자 칼럼 한예슬 에릭연예인 빈부격차 심 평균이상 외모 갖추다 않다 높다 경쟁률 치고올라가야하는것 치고올라가야하는것이 사실 외모 비하 비 hankyung
+kbs2_spy	tsg03244	POST	pym1dgb-64_i		2011-08-20	엄마 스파이명월 재방 보고잇는 중 정말 진지 표정 한예슬 보다 쟤 쟤는 왜 외다 머리 삽살개같냐tagquestion 라 라고 말
+kbs2_spy	inc6021	POST	pym1dgx-y4vwy		2011-08-19	천자칼럼 한예슬 에릭오랜 에릭오랜만 옳은말 옳은말한 같다 한예슬씨 힘든건 압니 압니다 모 건 거다 걸다 다 힘들다 안 알다 힘들다 손해 감수 안하는게 어디있습 hankyung
+kbs2_spy	inc6021	POST	pym1dlt-y4vwy		2011-08-19	천자칼럼 한예슬 에릭그런식 생각 안되죠 같다 열악 아니 아 열악 조건 훨씬 낮다 낮 봉급 일하다 사람 있다 그렇다 hankyung
+kbs2_spy	kimkhj0414	POST	pym1f75-yolkb		2011-08-20	프리뮤 한예슬 복귀 한숨 돌리다 드라마 스파이명월 프리서버
+kbs2_spy	backin79	POST	pym1fdd-ykqbx		2011-08-20	천자칼럼 한예슬 에릭개념기사 잘읽고 가다 어릴적 택배회사 유통회사 받아가다 죽다 일하다 기억 아프다 나가다 손 부러지다 hankyung
+kbs2_spy	daeminism	POST	pym1geg-_htdi		2011-08-20	천자칼럼 한예슬 에릭 찰영 촬영 hankyung
+kbs2_spy	larc1001	POST	pym1i9q-y4l3q		2011-08-20	천자칼럼 한예슬 에릭왜 한사람 한사람이 힘들다 한다는건 모르는건지 모르다 분명 뭔가 잘못 부분 있다 힘들다 한다는건데 인정 못하시나요tagquestion hankyung
+kbs2_spy	lovelycong00	POST	pym1idj-5uo57		2011-08-20	한예슬 블라우스 스파이명월 회 한예슬 한명월 옷 패션스타일 패션스타 핑크색 루즈핏 블라우스 의상정보
+kbs2_spy	larc1001	POST	pym1ifp-y4l3q		2011-08-20	천자칼럼 한예슬 에릭 에릭나 에릭나요 tagexclamation 정말 잘못 생각 공인 공 술 제 제대 못먹죠 힘들다 죽다 술한잔 먹을 먹을라 알아보는사람 많다 hankyung
+kbs2_spy	donghun86	POST	pym1itu-yxc59		2011-08-20	천자 칼럼 한예슬 에릭성공 연예인 노력만 노력만으 그자리 그자리에 걸터앉다 생각 외모 뛰어나다 뛰어 연예인 쉽게버는게 현실 어중간 hankyung
+kbs2_spy	tkwn8279	POST	pym1o3u-stbm		2011-08-20	천자 칼럼 한예슬 에릭 한경닷컴 뉴스스크랩
+kbs2_spy	donghun86	POST	pym1q78-yxc59		2011-08-20	천자 칼럼 한예슬 에릭지금 시대적 현황 일반인 사다 사 방식 절대 그들 벌다 못하다 왜냐면 그들 우리 돈 이용 시스템 hankyung
+kbs2_spy	donghun86	POST	pym1qhq-yxc59		2011-08-20	천자 칼럼 한예슬 에릭대한민국 국민소득 현주소 알다 연소득 연소득에 현재 정규직 비정규직 노동자 곱 평균 연봉 만원 제일 제 hankyung
+kbs2_spy	vanessa0415	POST	pym1si7-m901		2011-08-20	한예슬 회식 사진 사다 화제 스파이 명월 새출발 다짐 다지다 엑스포츠뉴스
+kbs2_spy	donghun86	POST	pym1svw-yxc59		2011-08-20	천자 칼럼 한예슬 에릭뭐 연예인도 연예인 연예인나름이겠죠 이미지 먹고사 먹고사는 연예인 주요고객 문화적 습득률 높다 젊다 학생 외모 가꾸다 기 hankyung
+kbs2_spy	everas29	POST	pym1sw7-yhb2y		2011-08-20	지금 연예가중계보는데 문정혁이에릭이죠tagquestion 난 나다 날다 한예슬편 tagexclamation
+kbs2_spy	donghun86	POST	pym1t4q-yxc59		2011-08-20	천자 칼럼 한예슬 에릭이해못하고 젊다 학생 많다 가정하 가정하에 제가 제 한마디 글 쓰다 공인 세상 비춰주는 시그널 자체 hankyung
+kbs2_spy	ejdtod	POST	pym1ukh-_e608		2011-08-20	천자 칼럼 한예슬 에릭정말 이해 안되다 처사 월급 받다 월급쟁이 아니다 아니 본인 본 이미지때문 회당 수백 수천만원 출연료 받다 얻 hankyung
+kbs2_spy	jhcs1100	POST	pym1vyr-50780		2011-08-20	천자 칼럼 한예슬 에릭이젠아예 대놓고욕 대놓고욕하네 hankyung
+kbs2_spy	acsulin	POST	pym1xra-yewpp		2011-08-20	천자 칼럼 한예슬 에릭배부른 돼지 hankyung
+kbs2_spy	inc6021	POST	pym1y30-y4vwy		2011-08-19	천자칼럼 한예슬 에릭자기 목소리 내다 내 것 좋다 허 허나 그것 대규모 피해 간게 문제 무엇 크다 건 거다 걸다 도피 하다 점 hankyung
+kbs2_spy	gogksehd55	POST	pym1yk2-_qtl5		2011-08-19	그것두 내껀데 tagexclamation 내 광팬인디 그래두 기분 좋다 이렇게 스파이 명월 명월을 좋아해죠서
+kbs2_spy	inc6021	POST	pym1yu4-y4vwy		2011-08-19	천자칼럼 한예슬 에릭그리 에릭그리고 자꾸 많다 받는건 받는거 받는거고 인권 있다 휴식 취해야한다tagquestion 무슨소리 촬영현장 스태프 배우 배우들보 덜 hankyung
+kbs2_spy	acsulin	POST	pym1yx6-yewpp		2011-08-19	천자칼럼 한예슬 에릭 h 자극적 하다 하지 솔직 저 연예인 술집나가 분들 분들이 다를게 없다 생각 hankyung
+kbs2_spy	inc6021	POST	pym1_99-y4vwy		2011-08-19	천자칼럼 한예슬 에릭 에릭이 와중 편하다 돈벌다 여기서 음담패설 음담패설이 늘어놓다 쓰잘데기 성인사이트나 홍보 놈들 놈들이 있다 ㅉㅉ 진짜 한 하다 hankyung
+kbs2_spy	acsulin	POST	pym1_dp-yewpp		2011-08-19	천자칼럼 한예슬 에릭공무원 되기위 되기위해 나름 나르다 노력 해야 해야하 한예슬씨 정도면 드라마 광고 몇편씩 몇편씩만 찍다 보통 급 공무원 평생 연봉 받죠 hankyung
+kbs2_spy	acsulin	POST	pym1_ob-yewpp		2011-08-19	천자칼럼 한예슬 에릭중요한건 한예슬씨 한예슬씨는 배가 배 불러서 본인 힘들다 무단이탈 했다는것이죠 드라마 제작현장 지금 엉망인것 맞다 원인 hankyung
+kbs2_spy	hanlora	POST	pym305w-yy8zd		2011-08-18	kbs 한예슬 스파이 명월 복귀 공식 발표 tagsmile 잘 tagsmile 스포츠조선
+kbs2_spy	einxh	POST	pym30b0-y2we7		2011-08-18	원문 einxh한예슬 까지마소 오늘 유머 오늘의유머 베스트 베오베 웃다 웃기다 자료 사진 사다 오유 저장소 오유저장소 todayhumor ou storage store 스파이명월 fd보조 알바 한 하다 사람 저 웹
+kbs2_spy	bartolli	POST	pym31wb-g8ls		2011-08-18	한예슬 스파이명월한예슬 고야드가방
+kbs2_spy	cmhann	POST	pym33rv-53v_7		2011-08-18	스파이명월 알다 알거 보는사람 미투 tagexclamation 덧글까지올리면 킹왕짱굿 taglove
+kbs2_spy	sunnyksy1010	POST	pym33t8-_ijuh		2011-08-18	뉴스 알리다 한예슬씨 한예슬씨가 한국 돌아왔답니 돌아왔답니다 스파이명월 다시찰영 스테프한테 정식사과를 다음뉴스 기대
+kbs2_spy	lovelycong00	POST	pym3616-5uo57		2011-08-18	한예슬 티셔츠 가디건 스파이명월 회 한예슬 한명월 옷 패션스타일 패션스타 주황색 티셔츠 스트라이프 가디건 의상정보
+kbs2_spy	sexyyukino	POST	pym3aro-p4to		2011-08-18	한예슬 스파이명월 촬영복귀 tagexclamation 한예슬 스파이명월 한예슬사건 한예슬현피
+kbs2_spy	wnal27kr	POST	pym3c1c-ytt6o		2011-08-18	스타 한예슬 드라마 스파이명월 촬영장 복귀
+kbs2_spy	idstv	POST	pym3g2j-_9whi		2011-08-18	한예슬 촬영 복귀 에릭 자신 트위터 트위터에 심경 밝히다
+kbs2_spy	nkokon	POST	pym3gd4-kwd		2011-08-18	에릭 한예슬 논란 이용 느끼다 느낌 들다
+kbs2_spy	hackermaster	POST	pym3gol-h_jz		2011-08-18	taglove 한예슬발롱펌 taglove 명동프랑크프로보스파이명월한예슬머리 연예인머리 발롱펌한예슬 발롱펌 프랑크프로보
+kbs2_spy	eunseokatie	POST	pym3i22-5b50f		2011-08-18	스파이 명월 작가
+kbs2_spy	dan2332	POST	pym3lhb-5q0nk		2011-08-20	스파이명월 taglove
+kbs2_spy	wjddbs8722	POST	pym3lst-yerja		2011-08-20	tagsmile 스파이명월재방송 에릭이한명월씨사랑합니다래 꺄 tagexclamation
+kbs2_spy	hyundai253	POST	pym3mbz-5b8oq		2011-08-18	한예슬 배우 한예슬 스파이 명월 촬영 재개
+kbs2_spy	shinnara119	POST	pym3nbe-feh5		2011-08-18	미투커버 실시 한예슬 스파이 명월 미국 일 있다 귀국 하다 하 에릭 지금 트윗질 사황
+kbs2_spy	its_stellar	POST	pym3nia-_hx7z		2011-08-20	아침 스텔라 맴버동생들과다 스파이명월 촬영장 갔어용 tagexclamation 무슨 일로 일 가다 tagquestion tagsmile 맞추다 이슬 스텔라 이슬
+kbs2_spy	zon_haru	POST	pym3q1c-ytivy		2011-08-20	천자 칼럼 한예슬 에릭 한경닷컴 뉴스스크랩 나도 나다 나 일당 만원씩 받다 싶다 뉘미럴
+kbs2_spy	whddlf254	POST	pym3q9k-6_9p		2011-08-18	기자 그렇다 악플 악플도 그렇다 제작사 스탭 참 차다 이해 안되다 정말 이해 안되는건 에릭 본 보다 출처한예슬 사태 돈 많다 받으 미디어오늘 t토크 ttalk
+kbs2_spy	kwkim2580	POST	pym3s0k-5413o		2011-08-18	스파이 명월 명월과 시크릿 가다 가 아 참 차다 tagexclamation 넌 널다 내다 반 중 어떤 것
+kbs2_spy	jincsng	POST	pym3s20-y56ua		2011-08-18	지금 동교동 거리 거다 까페베네 스파이명월 촬영중 tagsmile
+kbs2_spy	misunpa1201	POST	pym3tu5-_k17k		2011-08-18	캐딜락 cts 쿠페 드라마 스파이 명월 등장
+kbs2_spy	hunyoung01	POST	pym3tw6-530o		2011-08-18	스파이명월 한예슬 촬영 복귀 후 공식사과 장면포착 이얄 훈훈 하다 하 tagsmile tv리포트
+kbs2_spy	wlflwyk	POST	pym3u3h-yxxbg		2011-08-20	한예슬 회당 만원 그리다 한예슬 에릭
+kbs2_spy	ynsn1012	POST	pym3um5-5xrin		2011-08-18	스파이명월 나 나다 화요일꺼 그거 되게궁금햇는데 보다 그거 한명월죽은거 아니다 완젼 그거 재미있긴한데 좀 조다 전개도빠르 이상해내용 tagsmile 볼
+kbs2_spy	blackjjang12	POST	pym3unl-t25o		2011-08-18	다행 스파이 명월 tagcry 한예슬 잘돌아왔어 tagcry
+kbs2_spy	dong	POST	pym3vo2-x_p		2011-08-18	한예슬 일 만 스파이명월 촬영 복귀 작
+kbs2_spy	slayerflow	POST	pym3w97-5du5o		2011-08-18	한예슬 복귀 스파이명월 험난 여정
+kbs2_spy	dong	POST	pym3z4t-x_p		2011-08-18	복귀 한예슬 첫 촬영 하필 에릭 에릭과 데이트신
+kbs2_spy	wldus3796	POST	pym50aa-q47p		2011-08-16	아 아이 오랜만으로컴터간다 적응이아직도안 tagsmile 스파이명월은한예슬이촬영거부해서
+kbs2_spy	myyoung1011	POST	pym50c7-5904d		2011-08-16	단독 스파이 스태프 명 성명 한예슬 pd 불 한예슬의최후 스타뉴스
+kbs2_spy	swy03063	POST	pym5162-yjy0r		2011-08-16	한예슬스파이명월한에슬 결혼설한예슬 출국 한예슬 미국행 미국행에 결혼설 결혼설에 스파이명월 주연배우 교체 tagexclamation
+kbs2_spy	ghoney86	POST	pym51vc-yuro8		2011-08-16	kbs 일 오후 스파이명월 관련 긴급 기자회견 한예슬사마 tagcry osen
+kbs2_spy	smartwedding	POST	pym53mi-_wbql		2011-08-16	스마트웨딩 한예슬 스파이 명월 촬영거부 미국행tagquestion
+kbs2_spy	yoyong11	POST	pym541t-erbs		2011-08-17	스파이명월 회 다시보기 한예슬 디스방송tagquestion 현실 일치 정말 어이없다 화나다
+kbs2_spy	joyunhia	POST	pym54eq-rvcd		2011-08-18	한예슬씨 많다 힘들것 힘들것같다 화이팅 tagexclamation 스파이명월 짱 tagexclamation 재밌뜸 tagexclamation
+kbs2_spy	guswlsmmm1	POST	pym551o-5op__		2011-08-16	버블 tagexclamation 스파이명월 응원글이벤트 tagexclamation 일났구만 seeon kr
+kbs2_spy	hglks	POST	pym55aj-_rb03		2011-08-16	스파이명월 작품 재밌는 한예슬 사태 tagsmile 그렇다 스파이 명월 명월보 잼나는구 잼나는구만 osen
+kbs2_spy	cho208610	POST	pym55sm-_gdhg		2011-08-16	퀴즈 tagexclamation 죽지마 넌 널다 내 죽일꺼 죽일꺼야 대사 어제 한 하다 드라마 주연 한 하다 말인데 말인데요 tagexclamation 드라마 이르다 이름 tagexclamation 마이미투 마이미투에 써주세용 보기 보다 sbs 무사백동수 kbs 스파이명월 mbc 계백 tagexclamation 시작 추첨 통하다 간지용화님 싸다구 대가 대 주어지다 tagexclamation
+kbs2_spy	ggarikim	POST	pym562w-_si0h		2011-08-16	스파이명월 명월이가 tagexclamation 한예슬진짜 tagexclamation
+kbs2_spy	juns2day	POST	pym567d-_rve2		2011-08-16	어제 스파이 명월 명월을 첨 보다 빠르다 전개 놀라다 알고보 알고보니 하이라이트 한예슬 제작사 트러블 때문 때문이란다 tagcry 시청률 않나온다던데 나름 나르다 볼만한듯
+kbs2_spy	sisisione3	POST	pym569a-yq5t1		2011-08-16	tagcry ㅡ 방악숙제 아냇는데 tagcry 아짜증 tagsmile 빨다 개학 결방학하고시퐄 tagsmile 스파이명월 대박잼 대박잼있는데 왜결방 tagcry tagsmile 한예슬 fighting
+kbs2_spy	eratoskin	POST	pym5755-ybst1		2011-08-17	스파이명월 시청자 한예슬 수치 화 호다 방송 분개
+kbs2_spy	podong0177	POST	pym575y-y072_		2011-08-17	단독 스파이 스태프 명 성명 한예슬 pd 불 참다 왜 외다 그랬어 덕화오빠 있다 스타뉴스
+kbs2_spy	nadiag26	POST	pym579i-_icu7		2011-08-17	스파이명월 스태프 명 성명 한예슬 pd 불화 독점공개
+kbs2_spy	eratoskin	POST	pym57dz-ybst1		2011-08-17	스파이명월 이진욱 한예슬 향하다 해바라기 사랑 사
+kbs2_spy	chaelini33	POST	pym57vc-5o8c3		2011-08-16	오늘 스파이명월 하다 좋다 tagexclamation
+kbs2_spy	eratoskin	POST	pym5805-ybst1		2011-08-16	한예슬 스파이명월 복귀tagquestion 소속사 공식사과 사태 수습 나서 나다 나서다
+kbs2_spy	sepist	POST	pym58f5-_sbqf		2011-08-18	오브제 머플러 그리다 선풍기 싸다 구매하는방법 신개념 추첨경매 시 스파이명월 뽀롱뽀
+kbs2_spy	3210dptmej	POST	pym58ne-yepym		2011-08-18	여인 향기 보스 지키다 스파이 명월 계백 무사 백동수 공주 남자 남다 넌 널다 내다 반 오작교형제 천 번 입맞추다 내 내다 사랑 사 내 내다 곁 광개토태왕 애정만만세 두근두근 달콤 내사 당신 참 차다 예쁘다 미쓰 아줌마 우리집 여자 불굴 며느리 당신 당신이 잠들다 사이 사다 사
+kbs2_spy	xxddrr5	POST	pym58ww-ym6cx		2011-08-16	단독 kbs 스파이명월 여주인공 없다 가다 갈다 펑크 낸건 사실 쉴드치지도 못하다 잘못 속내 어떻다 간 안타깝구 안타깝구만 좋게봤는데 완전 무너지다 스포츠서울
+kbs2_spy	cutemj99	POST	pym591o-yky3h		2011-08-16	아마 오늘 스파이명월스페셜 하다 tagquestion tagsmile
+kbs2_spy	neoneoneoneo	POST	pym5977-timh		2011-08-16	스파이명월한예슬 촬영중단 tagexclamation 결혼설 앞두다 미국행 la la로 스파이명월 무료 다시보기
+kbs2_spy	goretti75	POST	pym59l0-5kzwp		2011-08-19	에릭 한예슬 사태 입열다 쪽대본 없다 감독 불화설 불화설도 없다 동아닷컴 뉴스스크랩
+kbs2_spy	sexyyukino	POST	pym59lh-p4to		2011-08-16	한예슬 스파이명월 촬영 거부 한예슬 미국 출국 한예슬 아웃 스파이명월 여자주인공 교체 결정 tagexclamation
+kbs2_spy	hglks	POST	pym59mw-_rb03		2011-08-16	단독 kbs 스파이명월 여주인공 없다 가다 갈다 스파이에릭 고고 고다 스포츠서울
+kbs2_spy	tbworld_tv	POST	pym59oh-_clkj		2011-08-18	에릭 한예슬 반박 심경고백 왜tagquestion 오해 풀다 socialxe
+kbs2_spy	bini420	POST	pym59tv-l9wh		2011-08-16	스파이명월잼있어tagquestion 월화드라마볼게없어서츄쳔좀
+kbs2_spy	heeya124	POST	pym5a7b-aur4		2011-08-16	리솜스파캐슬 쿨 썸머페스티벌 스파이명월 촬영지 리솜스파캐슬
+kbs2_spy	shanyong83	POST	pym5ak1-_qbdh		2011-08-17	고난 피하다 안되다 것 보고 보다 보 있다 누굴 원망 없다 눈 누다 앞 닥치다 것 피해가 피해가고 싶다 싶으 피하다 불리 비 상황 모두 내 내다 뜻 되다 않다 인정 지나가다 기다리다 하다 잠잠하다 에릭 에릭의 성숙 무도 합심 돋보이다 한여름 밤 tagexclamation 에릭 무도 무 한예슬 썬샤인타이거즈
+kbs2_spy	hanah0123456	POST	pym5amx-5xo2r		2011-08-16	스파이 명월 어떻다 된거냐면
+kbs2_spy	hanah0123456	POST	pym5aq0-5xo2r		2011-08-16	자다 자기 아침 시 촬영인데오후 시 오다 새벽 시 까다 촬영 힘들어서못 힘들어서못하겠다 힘들어서못하겠다고 그랬대 근데 그전 화장품 cf찍느 cf찍느라 시 간 못자서 그럴 수두 스파이 명월 어케tagquestion
+kbs2_spy	twin980	POST	pym5a_l-yzbd9		2011-08-17	나이 몇 몇인데 정말 어이없다 한예슬 일 커지구 에릭 불쌍 드라마 망하구
+kbs2_spy	quddudch00	POST	pym5bop-y2g9x		2011-08-16	어제 시 스파이 명월 을 스페셜 스페셜로 하더라구 하더라구요 좀 조다 짜증
+kbs2_spy	gaye1224	POST	pym5bq1-zbdd		2011-08-16	스파이 명월 오늘 화 호다 정상 방송 taglove
+kbs2_spy	ff16d0	POST	pym5bus-5dur2		2011-08-16	에릭 에릭은 종교 말많고 한예슬 힘들다 도망가다 주인공 동시 문제 일으키다 힘들텐데
+kbs2_spy	4568979	POST	pym5c24-_hh73		2011-08-16	헐 tagcry 스파이명월 개궁금 개궁금해 tagcry 월요일언제 기다리다 tagcry 쥬강우 쥬강우의 한명월 사랑 tagexclamation 꺅언능 담주 담주가 오다 tagcry
+kbs2_spy	ileo123	POST	pym5c2p-yk3fs		2011-08-16	스파이 명월 담주 담주가 기대 근데 막판 기엽다tagquestion tagsmile 한명월씨x 번 벌다 사랑함니 우헤헤헤헿쩔엌 tagsmile 소름돋넼 tagsmile 여튼 기욥
+kbs2_spy	chmin25	POST	pym5c5e-3rcu		2011-08-16	스파이명월보면서 참 차다 지금상황이네 생각 참 차다 묘 암튼 암튼 이게뭐 이게뭐야 룰루랄라 아내일수요일 tagcry
+kbs2_spy	qlrxhfldk212	POST	pym5ced-yv6ml		2011-08-18	벌쓰다 스파이 명월 명월이 끝나다
+kbs2_spy	bestyooon	POST	pym5ch6-_tlzi		2011-08-16	스파이명월 재밋는데 여신한예슬언니 돌아오다 옹
+kbs2_spy	shcj	POST	pym5cq9-yrzcg		2011-08-16	오늘 스파이명월 대 박 tagexclamation
+kbs2_spy	alslzhf	POST	pym5cte-9fxc		2011-08-16	한명월씨 한명월씨 tagexclamation 사랑 대박 tagcry 스파이명월 마지막씬 마지막씬이 진리인둡 tagcry
+kbs2_spy	chicagolady	POST	pym5cw8-_ipo6		2011-08-16	여자연예인 여자연예 여배우 한예슬 스파이명월 녹화 펑크내 잠적 tagexclamation
+kbs2_spy	hyundai253	POST	pym5d8s-5b8oq		2011-08-16	한예슬 배우 한예슬 스파이 명월 촬영거부 한예슬 출국설
+kbs2_spy	sportskhan	POST	pym5db5-ymvvx		2011-08-16	촬영거부 파문 한예슬 결혼설 솔솔kbs 드라마 스파이 명월 촬영 거부 채 채다 돌연 미국 떠나다 떠 한예슬 연상 사업가 결혼 전제 교제중 사실 드러나다 스포츠경향 한예슬
+kbs2_spy	kwensa98	POST	pym5dri-seul		2011-08-16	스파이명월 tagsmile 뭐 한예슬
+kbs2_spy	511hj_	POST	pym5e21-5m2bg		2011-08-18	한예슬 왜 외다 미국 튀는거임tagquestion 걍 스파이명월 계속 하지 하다 그거 은근 잼 재다 있다
+kbs2_spy	holic_line	POST	pym5e4e-yazy7		2011-08-16	오다 한예슬 왜그럼tagquestion 왜그럼tagquestion나 스파이명월 조아 조아하는데
+kbs2_spy	wlflwyk	POST	pym5ebw-yxxbg		2011-08-18	드라마 스파이 명월 촬영 무단 불참 초유 결방 사태 빚다 빚 한예슬 돌아오다
+kbs2_spy	korea980114	POST	pym5ehz-55jh0		2011-08-16	아씨x 황인혁 피다 라 라는 어떤 미치다 골떄리 골떄리는 간 새x 때문 때문에 스파이명월 에서 한예슬안나옴 황인혁 피다 십세기 십세기가 사라지다 다시촬영한댓는데 황인혁 그시키 그시키가 명월 누님 에다 무슨 ㅈㄹ ㅈㄹ을 햇길래 그럴까tagquestion 황인혁피디 사라지다 얼굴 줜 줜나 못생긴주제 tagsmile
+kbs2_spy	cyzhffltthdu	POST	pym5f5a-zmq8		2011-08-16	스파이명월 하다 tagsmile
+kbs2_spy	leemk323	POST	pym5fmi-mkqs		2011-08-16	스파이 명월 명월보 재미 한예슬 사건 거짓말 안하다 안 사건 드라마 만들다 스파이 명월 명월보 시청률 높다 나올꺼 나올꺼라 확신 tagsmile 이유 막론 주연배우 촬영거부 무책임 처사 아니다 하다 하 생각 하다
+kbs2_spy	ezimartbiz	POST	pym5fv7-sdu5		2011-08-16	단독한예슬 일 귀국한다과연 스파이명월 그녀 무슨일이tagquestion 이데일리
+kbs2_spy	ghjswr120	POST	pym5fxn-5idzl		2011-08-16	스파이 명월 한예슬씨 한예슬씨가 왓네 왓네요
+kbs2_spy	aremtvxq	POST	pym5g6y-jcuh		2011-08-16	스파이명월 잼써지고있엉 언니꼭 돌아오다 드라마찍어주삼 힘내시구 난 나다 날다 뭔가있을꺼 뭔가있을꺼같 뭔가있을꺼같아 오죽하면 저렇게
+kbs2_spy	ostarmall	POST	pym5g90-5fvrd		2011-08-16	kbs 스파이명월 여주인공 없다 가다 갈다
+kbs2_spy	krkr1408	POST	pym5h43-y3zqp		2011-08-16	오늘 스파이명월짱 taglove
+kbs2_spy	qkrtmddn10	POST	pym5i77-g90a		2011-08-16	lt 스파이명월gt 사태 대한 대하다 kbs입장 보도자료
+kbs2_spy	3040pgy	POST	pym5iwx-5_uz9		2011-08-16	에릭진짜 멋있다 tagcry 스파이명월 꼬박꼬박바야겠다
+kbs2_spy	ttl3068	POST	pym5iy8-hajo		2011-08-16	단독 스파이 스태프 명 성명 한예슬 pd 불 볼수록별루 볼수록별루다 스타뉴스
+kbs2_spy	einxh	POST	pym5iz1-y2we7		2011-08-16	원문 einxh진실 원하십니까tagquestion 스파이명월 오늘 유머 오늘의유머 베스트 베오베 웃다 웃기다 자료 사진 사다 오유 저장소 오유저장소 todayhumor ou storage store 운 울다 좋다 들다 들 이야기 웹
+kbs2_spy	insos02	POST	pym5jb6-_8lnw		2011-08-16	스파이명월 스페셜방송 다시보기 스파이명월 스페셜방송 다시보기
+kbs2_spy	loanbay	POST	pym5je8-yrp_n		2011-08-18	황인혁pd 한예슬 갈등 한예슬 출국 강행 촬영거부 이유 결국 스파이명월 pd 갈등 심화tagquestion kbs 공식 입장 밝히다
+kbs2_spy	rlagkswn9304	POST	pym5k5a-_8u45		2011-08-19	스파이명월 한예슬 촬영 복귀 후 공식사과 장면포착 tagsmile tv리포트
+kbs2_spy	lovelycong00	POST	pym5kqy-5uo57		2011-08-16	한예슬 스파이명월 한예슬 촬영거부 이유 tagexclamation 사업가 교제설tagquestion 한예슬 결혼설tagquestion
+kbs2_spy	fellas_170	POST	pym5l7c-_opsu		2011-08-17	스파이 명월 한예슬 복귀 의사
+kbs2_spy	partyelf	POST	pym5nek-_yoiw		2011-08-16	스파이명월 한예슬 한예슬 스파이명월 촬영거부 무작정 욕할수 욕할수만 없다 사실
+kbs2_spy	jisu97412	POST	pym5nl1-y7xry		2011-08-16	한예슬한테 뭐 하다 불쌍 나 나다 스파이명월 얼마 잘봣는데 진짜 잼이썻는뎅 tagcry 이제 뭔 낙 사다 tagcry
+kbs2_spy	ssm9711	POST	pym5o1c-83_4		2011-08-16	한예슬 잘 할수 할수는 없씀 책임감 없다 스파이명월 촬영 끗 끗나지 끗나지도 않앗는데 주연 잠수타 잠수타는 건 거다 걸다 잘못 거 거다 tagcry tagcry 아 근데 한예슬 자다 자기 없다 촬영 못하다 거 거다 알다 미국 까다 날른거 보다 pd pd랑 불화설 말다 무슨 무슨일 있엇던거 아니다 하다 하 의문 tagcry 스파이명월
+kbs2_spy	itdayrimrim	POST	pym5okz-_fcn3		2011-08-16	한예슬 스파이명월 한예슬 잠적 la출국 드라마 제작환경 tagcry tagcry
+kbs2_spy	zinwon0809	POST	pym5oor-yqz9v		2011-08-16	스파이 명월 회 드디어 하네용
+kbs2_spy	gkssk9418	POST	pym5otu-_hcn6		2011-08-18	스파이명월 회 다시보기
+kbs2_spy	jje7520	POST	pym5p6m-_r7sw		2011-08-16	한예슬 결혼설 한예슬 미국행 스파이명월
+kbs2_spy	yuj2007	POST	pym5pex-eju3		2011-08-16	스파이명월 어떡 tagcry
+kbs2_spy	grace1701	POST	pym5psv-_mi61		2011-08-16	곧있으면 스파이명월 한다 한다이 tagexclamation
+kbs2_spy	colakw	POST	pym5q2i-yd0py		2011-08-18	그리다 g 스페이스 에서 촬영 kbs 드라마 스파이 명월 촬영 현장
+kbs2_spy	qhrdlek12	POST	pym5q2t-_bhw8		2011-08-17	나계백에서스파이명월로갈아탐 tagsmile
+kbs2_spy	cho_1996	POST	pym5qfk-5yll		2011-08-16	스파이명월여주인공누구로tagquestion 궁금궁금
+kbs2_spy	poss0678	POST	pym5qry-5pvh7		2011-08-16	한예슬언니빨리 돌아왓으면 좋겟어 좋겟어요 스파이명월완전재미잇게 봣는데 이러기예 tagcry 빨리돌아와 빨리돌아와요 tagcry
+kbs2_spy	mikyung1214	POST	pym5r6i-58jgf		2011-08-19	에릭 오빠 따끔 말 스파이명월
+kbs2_spy	kmirn001	POST	pym5rpw-_d1q6		2011-08-18	에릭 한예슬 촬영 복귀 심경 고백 아무렇다 않다 편치 않다
+kbs2_spy	shinej0004	POST	pym5s28-_homm		2011-08-16	스파이명월 측 한예슬 괴로워하다 일방적 잘못 아냐
+kbs2_spy	nolavoza	POST	pym5sdg-y0moi		2011-08-18	오 트윗 본건데 스파이명월 씬 씬이 방영됐다면서요 tagquestion 최곤데tagquestion tagsmile 나도 나다 나 도망 도망이 치다 좋다
+kbs2_spy	d2055	POST	pym5sed-_bws5		2011-08-19	한예슬 회식 사진 사다 공개 스파이명월 제작진 사과
+kbs2_spy	fm1crow	POST	pym5siv-_r4o4		2011-08-17	한예슬 드라마 스파이 명월 사건 대한 대하다 생각
+kbs2_spy	haha98902002	POST	pym5u1m-5g5jf		2011-08-17	스파이명월 여주인공없이간다
+kbs2_spy	sexyyukino	POST	pym5u3g-p4to		2011-08-16	한예슬 첫 인터뷰 후배 좋다 환경 일하다 스파이명월 한예슬
+kbs2_spy	9337718	POST	pym5uh5-5dbsi		2011-08-18	궁금한게 있다 에릭 연기 잘하는건가요tagquestion 한예슬 연기 하는게 자기 자다 인생 최악 연기 한 하다 인터뷰 보고 보다 보 질문하는건데 연기 얼마 하다 말다 말 하는건지 눈빛 있어보 있어보이던데 연기 하다 드라마 보다 느껴지는게 없어서리
+kbs2_spy	btt60s	POST	pym5umf-y3871		2011-08-18	한예슬 에릭 에릭이란 친구 처신 영 그렇다 한 하다 남자 모 걸 떠나다 같다 배우다 배우 상대역 아니다 힘세다 거대조직 떨거지 앞 이쁜짓 눈도장 찍겠다는건지 몇달 전의 전 구하라 구하라가 생각 선생님 전 절다 안 알다 그랬어요 그래tagquestion 에구 이쁜것 다음 반장 시키다 tv 연예
+kbs2_spy	leekichen	POST	pym5v6g-5htnj		2011-08-19	한예슬 사태 에릭 에릭의 솔직 심경
+kbs2_spy	vldzld0	POST	pym5vs9-5b7q9		2011-08-16	스파이명월 한예슬 복귀한뎃
+kbs2_spy	6150su	POST	pym5wfk-yv5jz		2011-08-16	tagcry 한예슬 la갔다구tagquestion 내 만 스파이명월 어케하구tagquestion 어제 스페셜하던뎁
+kbs2_spy	eratoskin	POST	pym5x4o-ybst1		2011-08-17	스파이명월 최류 한명월 동지 강 눈물 마 한예슬 위로tagquestion
+kbs2_spy	rhor1	POST	pym5x7g-5tdan		2011-08-16	스파이명월 한예슬 난 나다 날다 솔직 한예슬 큰잘못이 큰잘못이있다 큰잘못이있다고 보진않아 ㅅ 촬영현장 참 차다 뭣같은건 많이 알잖 알잖아 특 쪽대본 주다 주 작가 정말 짜증 배우 몰입 못하는데 못하는데다 편집 똥같이된다구 드라마 스파이명월
+kbs2_spy	eratoskin	POST	pym5x7w-ybst1		2011-08-17	스파이명월 문정혁 한예슬 향하다 슬프다 모지다 독설
+kbs2_spy	namunju0709	POST	pym5x9u-_8jf1		2011-08-17	일 스파이 명월 강남 강 촬영장 무슨일 무슨일이
+kbs2_spy	jisu97412	POST	pym5xim-y7xry		2011-08-16	솔직 한예슬 그럴 그럴만 하지 하다 스파이명월 거의 거 빠짐없다 나오는게 한예슬 힘들다 ㅇㅇ에휴 무튼 한예슬 복귀햇음 조컷다 점번 점번에 환상의커플 잘봤는데 한예슬 나오는건 다잼잇눈뎅 tagcry 나 나다 한예슬 완전 좋아하다 tagcry
+kbs2_spy	eratoskin	POST	pym5xla-ybst1		2011-08-17	스파이명월 강우 엄친 엄친아 아니다 고아 고다 한명월씨 사랑 생중계
+kbs2_spy	jhcs1100	POST	pym5xqa-50780		2011-08-17	아니땐굴뚝에연기 드라마보니까 같은주연 에릭 에릭보 한예슬나오는시 훨씬 길다 촬영시간 생각 한 하다 출처한국 최고 스포츠 엔터테 엔터테인 오센 t토크 ttalk
+kbs2_spy	sepist	POST	pym5ye8-_sbqf		2011-08-18	비오템 블라우스 세탁기 단돈 천원 구매하는방법 새롭다 추첨경매 시 스파이명월
+kbs2_spy	cha1591	POST	pym5yt4-yv3_4		2011-08-16	스파이명월 보다 보 사람 사다 미투 tagexclamation 난 나다 날다 보능데 tagsmile
+kbs2_spy	answlgh3	POST	pym5zoh-y071_		2011-08-17	스파이 명월 화 호다 토렌트
+kbs2_spy	yk005957	POST	pym5_cn-yn8g7		2011-08-16	스파이명월 주연 교체
+kbs2_spy	ssddss15	POST	pym5_ei-y8syw		2011-08-16	오마이갓 어서 한예슬 누님 어서 복귀 하시기 명월 바야 바야함 tagcry
+kbs2_spy	dbsthdbs98	POST	pym60ly-chfd		2011-08-17	스파이명월 어제 내용 좀 조다 스파이명월 문제 없다
+kbs2_spy	kccto	POST	pym60xd-s5z0		2011-08-17	미벗 여러분 수모닝tagquestion 스파이 명월 제작 관련 연기자 한예슬씨 한예슬씨와 제작사 보다 안타깝다 마음 어쩔수 없었는데요 연기자 책임감 드라마 제작환경 많다 문제 얽혀있는거 같다 여러분 어떻다 보시나요tagquestion 자극적 보도 언론 이제 마냥 통하다 않는것 같다 잘잘못 떠나다 한예슬씨 한예슬씨의 행동 방송업계 주다 주 시사점 있겠죠tagquestion
+kbs2_spy	susuhan104	POST	pym614u-ygdte		2011-08-19	스파이명월 스파이명월 에릭 한예슬 한낮 화기애애 맥주파티
+kbs2_spy	an72536	POST	pym6177-5ym0s		2011-08-17	스파이명월 회 다시보기 명장면vod
+kbs2_spy	yyhhii006613	POST	pym61dm-c9py		2011-08-17	스파이명월 보시나요tagquestion shee
+kbs2_spy	coiff1rst	POST	pym61hi-2dl0		2011-08-17	스파이명월 한예슬머리 단발머리 단발볼륨펌
+kbs2_spy	leedongyo7	POST	pym61ik-yoi96		2011-08-17	스파이명월 회 다시보기
+kbs2_spy	moirai	POST	pym61v5-23j		2011-08-20	천자 칼럼 한예슬 에릭 기사 궁금한점 인기 연예인 딸리다 식구 많다 있을텐데 배우 일 번돈 번돈을 그걸 몇명이서 hankyung
+kbs2_spy	idpf	POST	pym62vq-yqy6s		2011-08-17	한예슬 사건 사다 무엇 진실 모르다 사람 마녀 사냥 중지 냉정 지켜보다 하다 양측 의견 서 다르다 가운데 어떤 것 믿을지 믿을지는 자신 주관 선택 그로인 그로인해 진실 죽어버릴수 죽어버릴수도 있다 때문 때문에 난 나다 날다 그것 안타깝다 뿐 뿐이 한예슬 방송복귀 미국도피 스파이명월 에릭
+kbs2_spy	koreaeffect	POST	pym6387-yacpk		2011-08-19	한예슬 에릭 커플티 입고 입다 어색 촬영 재개 종합 어색 스타뉴스
+kbs2_spy	insos02	POST	pym63k7-_8lnw		2011-08-17	스파이명월 회 다시보기 스파이명월 회 다시보기
+kbs2_spy	mistblue3	POST	pym63us-up7b		2011-08-17	스파이 명월 어뜨케 되는거임tagquestion tagexclamation 명월애청자
+kbs2_spy	iever112	POST	pym64af-y7bnz		2011-08-18	한예슬 내일 스파이 명월 촬영 복귀
+kbs2_spy	emptyframe	POST	pym65li-9ve		2011-08-16	한예슬 일주일전 시나리오 미다 넘겨주다 스파이 명월 작가 트윗 트윗을 읽다 괜 생방 드라마 이야기 나오는게 아니다 생각 배우다 배우 대사 외우다 된다 된다해 된다해도 다르다 팀들 팀들도 일주일이내 준비 찍어야 찍어야한다 찍어야한다는 이야기 맨 맨날 똑같다 샷들 샷들만 나오다 당신 당신들의 대한민국 바보상자 follow money
+kbs2_spy	lovelycong00	POST	pym66rj-5uo57		2011-08-17	장희진 블라우스 스파이명월 회 장희진 주인 옷 패션 주황색 구슬장식 블라우스 의상정보
+kbs2_spy	bs113128	POST	pym696j-5x7dx		2011-08-20	스파이 명월 ost part 박정현 박정현이 불렀음 네이버뮤직 스파이 명월 ost part
+kbs2_spy	koreasooyeon	POST	pym69as-1yjy		2011-08-20	천자 칼럼 한예슬 에릭모두들좋은마무리를지었으면 에릭글이옳다 미래의후배 매일살부딪치는스태프가중요하 본인도하고싶은말은모든일에는순서가있다는것 hankyung
+kbs2_spy	koreasooyeon	POST	pym69n9-1yjy		2011-08-20	천자 칼럼 한예슬 에릭 아무튼 심적 심적인 고통인데글이정으로써졌네요 hankyung
+kbs2_spy	kyoungt70	POST	pym69wy-bxvq		2011-08-17	원문 한예슬 스파이명월 복귀 암초 타 타다 연기자 반발 웹
+kbs2_spy	thefootstore	POST	pym6a2m-_qtim		2011-08-17	스파이명월 한예슬 돌아오다 소식 네티즌 폭풍 비난 비
+kbs2_spy	kwkim2580	POST	pym6az6-5413o		2011-08-17	스파이 명월 명월과 시크릿 가다 가 드리다 하다 하 중 어던 것
+kbs2_spy	noble_ps	POST	pym6b8j-_8s5r		2011-08-19	한예슬 귀국 후 심경고백 에릭 심경고백 그리다 그후 촬영재개 동영
+kbs2_spy	isongkang	POST	pym6bd4-oa42		2011-08-20	천자 칼럼 한예슬 에릭 한경닷컴 뉴스스크랩
+kbs2_spy	yyhhii006613	POST	pym6beb-c9py		2011-08-17	한예슬 tagexclamation 드디어 귀국 tagexclamation 스파이명월 운명 tagexclamation
+kbs2_spy	lloxccxoll98	POST	pym6c1x-5lmrm		2011-08-20	천자 칼럼 한예슬 에릭또 에릭또한 연애 뿐 뿐만 아니다 아니 우리나라 우리 어디 어디에서 볼수 있다 노동착취 있다 보다 그렇다 억울 사회 일반인 동 hankyung
+kbs2_spy	lloxccxoll98	POST	pym6c2x-5lmrm		2011-08-20	천자 칼럼 한예슬 에릭환경 좋다 안좋던 노예 부리다 당 안 한예슬씨 한예슬씨는 아무런 관계 없다 스파이 명월 드라마 시청자 애청자 hankyung
+kbs2_spy	0175016838	POST	pym6cfp-y8wga		2011-08-17	근뎅 미친 미친들은 요즘드라마 뭐 잼 재다 있어 있어여 tagexclamation tagquestion 전 절다 여인의향기 랑 랑여 스파이명월 이 tagsmile
+kbs2_spy	heejuk0314	POST	pym6cgr-y9xg9		2011-08-20	천자 칼럼 한예슬 에릭일당 주급 받다 사람 잘 자다 한 하다 행동 생각 하다 hankyung
+kbs2_spy	lloxccxoll98	POST	pym6cgz-5lmrm		2011-08-20	천자 칼럼 한예슬 에릭환경탓 에릭환경탓만 하지 하다 말다 이번 이번은 변명 할수 없다 환경 알아달라고 알아달라고해 알아줄수 알아줄수도 없다 다 힘들었겠지란 생각 하다 hankyung
+kbs2_spy	lloxccxoll98	POST	pym6cws-5lmrm		2011-08-20	천자 칼럼 한예슬 에릭촬영팀 아웃소싱 회사 일하다 사람 보다 보 한예슬 일하다 일 만원 버 버는 사람 먹고 살기위해서 사다 도대체 뭐 hankyung
+kbs2_spy	lloxccxoll98	POST	pym6c_d-5lmrm		2011-08-20	천자 칼럼 한예슬 에릭노동자 회사 갈등 어디 어디라 있다 생각 보다 단 달다 표출 부분 어떻다 나타나다 따다 따르다 다르다 생각 hankyung
+kbs2_spy	thesarangcom	POST	pym6d16-yx178		2011-08-17	연예 스타 드라마 스파이명월 한예슬 복귀의사 바쁘다 촬영 심신 지치다 판단 흐려지다 사과 스파이명월 한예슬 복귀 한예슬 목걸이 한예슬 귀걸이 팔찌 반지
+kbs2_spy	luckpky	POST	pym6d7_-_mmo6		2011-08-17	단독 스파이 스태프 명 성명 한예슬 pd 불 안 세상 돌아가다 스타뉴스
+kbs2_spy	mstarsd_news	POST	pym6dep-5sbs5		2011-08-17	한예슬 사태 한예슬 스파이명월
+kbs2_spy	sunsutuv	POST	pym6dle-_9oqc		2011-08-17	한예슬 귀국 스파이명월한예슬 귀국 스파이명월
+kbs2_spy	akajiny	POST	pym6e7c-5lfxs		2011-08-20	천자 칼럼 한예슬 에릭 그렇게따지면 공사판계신분 연예인하시면 지금말씀하시는게 그논리아닌가 그논리아닌가요 tagquestion 일용직노동자분 비하 hankyung
+kbs2_spy	shinej0004	POST	pym6ehx-_homm		2011-08-17	스파이명월 작가 알다 있었다tagquestion 한예슬 잠적 전 절다 촬영 대사 비난 비 혼자 연예인tagquestion
+kbs2_spy	akajiny	POST	pym6ekg-5lfxs		2011-08-20	천자 칼럼 한예슬 에릭진짜 이런얘기 안하려고 기자 기자들이 악플러 악플러들은 진정 한예슬 아파서 죽다 죽거 사고 죽다 죽거 자살 하다 해 마녀사냥 hankyung
+kbs2_spy	likejin99	POST	pym6f8n-sl51		2011-08-20	천자 칼럼 한예슬 에릭 참 무섭다 논리 돈 많다 받다 편하다 소리한다 식 한국인 한국 정서 호소 오류 이러하다 논리 왜 외다 무서우냐면 확대 해석 돈 많다 버 버는 사람 무슨 복지냐tagquestion 귀족노조 등 뉴스스크랩 한국일보
+kbs2_spy	tbworld_tv	POST	pym6fat-_clkj		2011-08-19	한예슬 파문 서 서다 빛나다 빛 남자 남다 에릭 따뜻 가슴 냉철 머리 tbworld
+kbs2_spy	cys8508	POST	pym6gj4-5kkjd		2011-08-20	스파이명월 한예슬 한예슬 패션
+kbs2_spy	jes55	POST	pym6gnb-y_oje		2011-08-19	스파이명월 보고싶응 tagcry 월요일 월요일이 빨다 오라 오다 오르다 오 tagexclamation
+kbs2_spy	psk625	POST	pym6ict-28rd		2011-08-17	한예슬 일 스파이명월 촬영 복귀 아산톱뉴스 무단전재 재배포금지 http www asantopnews com sub read htmltagquestionuid
+kbs2_spy	naver_news	POST	pym6inv-bj_k		2011-08-17	연예 귀국 한예슬 kbs 사과 스파이명월 촬영 복귀 네이버 뉴스 news 스타뉴스 귀국 한예슬 사과 촬영 복귀
+kbs2_spy	71poby	POST	pym6isu-s_oo		2011-08-17	스파이명월 재미 tagexclamation
+kbs2_spy	wltnwldn1	POST	pym6j14-_c5i8		2011-08-17	음 요즘 스파이가tagquestion 멀다 그드라마 안됬군 근데 한예슬씨 한예슬씨가 더욱 불싸유 tagcry
+kbs2_spy	shinej0004	POST	pym6jgi-_homm		2011-08-17	스파이명월 회 마지막 분 사라지다 명월
+kbs2_spy	kyoungt70	POST	pym6jx5-bxvq		2011-08-17	원문 에릭 스파이명월 스태프 회식제의 회식제 힘냅시 힘냅시다 웹
+kbs2_spy	skyzzxx27	POST	pym6jze-y84jw		2011-08-17	저기뭐 저기뭐야 스파이명월 한예슬씨 오늘 귀국 하다 하 하나
+kbs2_spy	blognawa1	POST	pym6kmc-l5f		2011-08-17	블로그 뉴스 스파이명월 회 블로그 스파이명월 회
+kbs2_spy	nadiag26	POST	pym6ko9-_icu7		2011-08-17	한예슬 개고생tagquestion 명월 스태프 반박 몸 상 배려
+kbs2_spy	lovelycong00	POST	pym6kph-5uo57		2011-08-17	장희진 자켓 스파이명월 회 장희진 주인 옷 패션 화이르 리본자켓 의상정보
+kbs2_spy	wldus3796	POST	pym6mxk-q47p		2011-08-17	아 아이 요즘 한예슬 땜 문제 많넴 tagsmile 스파이명월 잘나가다 왜하필 한예슬 빠져가지 사람 말이많다 tagsmile
+kbs2_spy	wings43	POST	pym6nsx-5zy8s		2011-08-19	스파이명월 한예슬 잘못인가tagquestion 아쉽다 에릭 에릭의 처세
+kbs2_spy	jopdzzan	POST	pym6ns_-5dulx		2011-08-20	스파이 명월 속 인테리어 따라잡다 tagexclamation http cafe naver com dflashcafe cafetagquestioniframe url articleread nhn farticleid 스파이 명월 속 인테리어 따라잡다 tagexclamation
+kbs2_spy	kyoungt70	POST	pym6p3c-bxvq		2011-08-17	원문 에릭 스파이명월 스태프 회식제의 회식제 힘냅시 힘냅시다 웹
+kbs2_spy	soobini16	POST	pym6p9w-4h7d		2011-08-17	한예슬 씨 정말 왜 외다 그러셨 tagcry 촬영 하다 하 다행 스파이 명월 팬인뎁 tagexclamation 다음주 월요일 월요 스파이 명월 회
+kbs2_spy	susia032	POST	pym6pg5-3vrg		2011-08-19	스파이명월 한예슬 사태 최강 찌질남 찌질남된 에릭
+kbs2_spy	ggaddanam	POST	pym6q4j-51z59		2011-08-17	까칠이소식 kbs 한예슬 사과 받아들이다 taglove kbs 한예슬 복귀 받아들이다 월화극 스파이 명월 의 촬영 정상화 밝히다 kbs 측은 일 오후 보도자료 통하다 주연배우 잠적 드라마 대체 편성 제작 자세
+kbs2_spy	72vusen	POST	pym6scu-5oa3o		2011-08-17	한예슬 사과전화 죄송 스파이명월 한예슬 한예슬 스파이명월 촬영중 la이 la이로 왜tagquestion 한예슬 kbs드라마국장 사과전화 복귀의사표명 tagexclamation 한예슬 헤어스타일리스트 한예슬 사태 격분 한예슬 귀국후 사태해결 tagquestion
+kbs2_spy	lhj112603	POST	pym6t7m-_jku6		2011-08-17	시티헌터 시티헌터는 이민호 스파이명월 에릭 tagsmile 보스 지켜 지켜라 누구더 누구더라 tagsmile 시티헌터 스파이명월 보스 지키다
+kbs2_spy	leedesigner	POST	pym6uw6-x8t2		2011-08-17	kbs 한예슬 스파이 명월 복귀 공식 발표 찬반 논하기전 시청율 낮아요tagquestion핫클릭 스파이명월 뜨다 이러면 시청율오를려 스포츠조선
+kbs2_spy	jaddnet	POST	pym6vhp-y0riw		2011-08-17	스파이명월 한예슬 사태로인 허 허와 실 시다 한예슬 왕따 왕따다 장면tagquestion
+kbs2_spy	loanbay	POST	pym6xsj-yrp_n		2011-08-19	스파이명월 한예슬 골탕 먹이다 먹 에릭 에릭의 과도 오버액션
+kbs2_spy	hyeonah0411	POST	pym6xtp-_clt2		2011-08-19	월화 드라마 시청률 위 무사백동수 위 계백 위 스파이명월
+kbs2_spy	kwkim2580	POST	pym6znm-5413o		2011-08-17	스파이 명월 명월과 시크릿 가다 가 드리다 하다 하 아 참 차다 tagexclamation 넌 널다 내다 반 중 어떤 것
+kbs2_spy	partyelf	POST	pym6_8t-_yoiw		2011-08-17	한예슬왕따 스파이명월 어제 한예슬 디스 보다 보 현장 분위기 제 제대 보여주다
+kbs2_spy	hsu1125	POST	pym6_ca-yxxfm		2011-08-17	스파이 명월 어떻다 되는거냐 여주바뀌면 안볼란다 걍 한예슬하지 온다든데
+kbs2_spy	koreasooyeon	POST	pym6_k1-1yjy		2011-08-20	천자칼럼 한예슬 에릭 tagexclamation 이런기사를보면 배꼽잡고웃어보자 tagexclamation 기분이좋아서 tagexclamation 아니 아 세상에유명인사 과 고다 배우 돈버는것 돈버는것보 배곱잡고웃어나볼수 배곱잡고웃어나볼수밖 할말이 hankyung
+kbs2_spy	koreasooyeon	POST	pym6_lx-1yjy		2011-08-20	천자칼럼 한예슬 에릭 tagexclamation 글읽기 글읽기가 거북 읽다 정말 뭐하자는겁니까tagquestion웃음꺼리만들겁니까 tagquestion유명한그대 하는일 하는일은 육체적 힘든일없다고생 hankyung
+kbs2_spy	uzu_in	POST	pym91b_-g7kd		2011-08-20	에릭 에릭이 연길 저렇게 못하다 줄다 줄 몰랐네 아 엄마 스파이명월 보길래 슬쩍 엿보다 mp 이어폰 이어폰을 귀 쑤셔꽃았음 회당 출연료 얼마라고tagquestion
+kbs2_spy	adrize_rose	POST	pym91k2-yi31q		2011-08-20	천자 칼럼 한예슬 에릭이보쇼 내 그렇다 힘들다 돈 벌다 분들 비하 것 아니다 받다 이유 있다 받는게 아닐까요tagquestion제 아닐까요tagquestion제가 보다 hankyung
+kbs2_spy	estilo	POST	pym97l3-pxm		2011-08-20	천자 칼럼 한예슬 에릭 뭔 말 모르다 돈 많다 버는게 왜 외다 그러냐 늘다 건 거다 걸다 기자분 놀다 논지 인용 거지 거다 제 의견 아닙 hankyung
+kbs2_spy	hwssong	POST	pym9bjk-1re0		2011-08-20	지금재방 스파이명월 강우 대사 찝찝하다 tagsmile 누구이야긴가 tagsmile
+kbs2_spy	lovelycong00	POST	pym9eo1-5uo57		2011-08-20	장희진 원피스 스파이명월 회 장희진 우희진 옷 패션스타일 패션스타 프린트브이넥 롱 원피스 의상정보
+kbs2_spy	chaeyoung35	POST	pym9j37-5kwt4		2011-08-20	요즘 스파이 명월 명월에 빠져있다능 tagsmile 근데 한예슬 미국 la la로 간거 간거야 tagexclamation 아 깜짝놀 스파이 명월 못보 못보나 하다 다행이두 귀국했더라구 휴
+kbs2_spy	alvlalswl	POST	pym9j4o-yg6qn		2011-08-20	보스 지켜라 지켜라가 잼나tagquestion 스파이 명월 명월이 잼나tagquestion tagsmile 난 나다 날다 스파이명월 tagsmile
+kbs2_spy	alvlalswl	POST	pym9jn6-yg6qn		2011-08-20	꺄악 tagexclamation tagsmile 스파이 명월 재방송 tagsmile 그것땜 그것땜에 방학 버티다 있는것 같다 tagsmile
+kbs2_spy	alvlalswl	POST	pym9jvb-yg6qn		2011-08-20	아 지짜 지짜로 스파이 명월 잼따 tagsmile 아 에릭오빠 얼굴보면 기분 다 풀리넹 tagsmile
+kbs2_spy	sukyuree	POST	pym9lr3-vclk		2011-08-20	천자 칼럼 한예슬 에릭진짜 그건 그럼 연예인도 연예인 노력 필요 하겟지 하겟지만 어디 직장생활 하시 분들만하겟음 그런거 그런거에 감사 마음 가져야 가져야됨 hankyung
+kbs2_spy	acsulin	POST	pym9m05-yewpp		2011-08-20	천자 칼럼 한예슬 에릭한예슬 좋겠네tagsmile 개 개다 지x 지x을 해도 하다 해 옹호 사람 반 답답 하다 하 hankyung
+kbs2_spy	acsulin	POST	pym9mfr-yewpp		2011-08-20	천자 칼럼 한예슬 에릭하여튼 인간한테 뭘 쥐다 안되다 자신 한주 한주에 수천만원 받다 하다 자신 정말 대단 본인 손해 보고 보다 보 hankyung
+kbs2_spy	acsulin	POST	pym9m_v-yewpp		2011-08-20	천자 칼럼 한예슬 에릭 시간 재우다 재우 부려먹다 저 일주일 천 충분 해볼만할것 같은데 같은데요 솔직 일주일 천만원 이 해도 하다 해 일반인 hankyung
+kbs2_spy	acsulin	POST	pym9oxg-yewpp		2011-08-20	천자 칼럼 한예슬 에릭배우 하이클래스 직업군 직업군이 것 한번 웃다 제작진 비하 부분 한번 웃다 그럼 얼굴팔 얼굴팔아 회당 천 한 하다 hankyung
+kbs2_spy	actorjisung	POST	pym9ux9-5jfz5		2011-08-20	저본방사수하고잇어 tagexclamation 지성오빠 tagquestion tagsmile 완전 귀여워 귀여워여 tagsmile 보스를지켜 쨩 스파이명월도쨩 tagsmile
+kbs2_spy	estilo	POST	pym9x48-pxm		2011-08-20	천자 칼럼 한예슬 에릭 수석 논설 위원 분 놀다 논지 정말 우습다 그지없다 돈 많다 벌다 노동 환경 대해 대하다 불평 수도 수 없다 건가요tagquestion 돈 hankyung
+kbs2_spy	worud3017	POST	pymb3qq-5pdjc		2011-08-19	니들 니들이 스파이 명월 명월이 얼마 재미있는주알아tagquestion
+kbs2_spy	khr3358	POST	pymb743-_5lxb		2011-08-19	한예슬언니 에릭오빠 보다 그것 번 번이 tagexclamation 사진 사다 찍다 싶다 찍지말 찍지말라 해서 하다 찍다 못하다 tagcry 정말 얼굴 작고 작다 눈 크다 tagexclamation 아 연예인 연예 맞다 맞구 하다 하 감탄 tagsmile 에릭오빠 보다 선글라스 땜시 하여 힘들다 잼있었던 하루 담 언제가려나tagquestion tagsmile
+kbs2_spy	chaeyoung35	POST	pymb7ko-5kwt4		2011-08-19	요즘 스파이 명월 명월에 빠져있다능 tagsmile 근데 한예슬 미국 la la로 간거 간거야 tagexclamation 아 깜짝놀 스파이 명월 못보 못보나 하다 다행이두 귀국했더라구 휴
+kbs2_spy	donghun86	POST	pymbdb2-yxc59		2011-08-19	천자칼럼 한예슬 에릭이 뉴스 나오다 연예인 왜 외다 이상 방법 문제 해결하려 사라지다 들어오다 문제 모두 해결되 hankyung
+kbs2_spy	cnetmall	POST	pymbgvi-5q0yg		2011-08-20	천자 칼럼 한예슬 에릭하루일당 만원 다들 웃다 일할수 있다 세상 어디 그런세상 없을까요tagquestion 기사내용 얼핏 맞는듯 느끼다 하 하다 hankyung
+kbs2_spy	xplorers	POST	pymbh3q-_a6e4		2011-08-19	한예슬 눈물 회식 사고 오다 밥값 밥값은 에릭 에릭이 한예슬사진 이것 머 머하자 머하자는 거다 걸다 시청률 나올까요tagquestion
+kbs2_spy	lululife7	POST	pymbkfx-ytzgt		2011-08-19	천자칼럼 한예슬 에릭일당 만원 한달 한달에 억 천 배 부르다 아니다 hankyung
+kbs2_spy	lmk1256	POST	pymbkxp-yq0_k		2011-08-19	스파이명월 tagcry 한예슬언니좋은선택한거에 tagcry 얼른보고십따 tagsmile
+kbs2_spy	ooo330	POST	pymblt3-51bod		2011-08-19	한예슬 확실 스파이명월 복귀 하다 아 진짜 다행 taglove 종방 모 배우분 힘내다 진짜 진짜 월요일 기대 기대다 하다 하 있다 tagsmile 월요일 가거 가거라 점프 tagexclamation 뿅 tagsmile 스파이명월 한예슬 에릭 이진욱 장희진
+kbs2_spy	gudqls9470	POST	pymbm6o-s0zz		2011-08-20	천자 칼럼 한예슬 에릭 배부르다 소리 있다 한경닷컴 뉴스스크랩
+kbs2_spy	chaeyyun	POST	pymbpgx-_m5fc		2011-08-19	스파이명월 키스신 한예슬 에릭 키스신 kjk
+kbs2_spy	hyj2835	POST	pymbqf9-ygsk0		2011-08-20	천자 칼럼 한예슬 에릭 미치다 비정규직 일하다 사람 어쩌다 한경닷컴 뉴스스크랩
+kbs2_spy	donghun86	POST	pymbyd6-yxc59		2011-08-19	천자칼럼 한예슬 에릭스크린 비춰지는 결과물로 배우 잣대 판단 안될것 안될것같네 안될것같네요 대부분 돈잘버 돈잘버는 연예인 사람냄새 안 향수냄새 hankyung
+kbs2_spy	insos02	POST	pymb_9o-_8lnw		2011-08-19	스파이명월 회 다시보기 스파이명월 회 다시보기
+kbs2_spy	iyousens	POST	pymd0b3-yq85k		2011-08-17	다시보기 스파이명월 스파이명월 스페셜 다시보기 월 일 방송분 다시보기
+kbs2_spy	3816co	POST	pymd0ed-gsj1		2011-08-17	스파이명월 결국 jpg
+kbs2_spy	jisiklog	POST	pymd0ni-_rcxy		2011-08-15	스파이명월 한예슬 촬영 못하다 하다 왜인가요tagquestion 한예슬
+kbs2_spy	suin9819	POST	pymd0p0-_o4_3		2011-08-15	한예슬 촬영거부래 그럼오늘 스파이명월 못보겠네 못보겠네요 tagcry 깨알재미 선사 좋았는뎈
+kbs2_spy	iyousens	POST	pymd0pn-yq85k		2011-08-17	다시보기 스파이명월 스파이명월 회 다시보기 월 일 방송분 다시보기
+kbs2_spy	qaz5546	POST	pymd144-u89e		2011-08-15	tagsmile 스파이명월 완전 재밌어 tagsmile 대박 tagsmile
+kbs2_spy	1995qkekthfl	POST	pymd1bw-pwu9		2011-08-15	스파이명월 재밌었는데 결국 망한건가tagquestion여주인공바뀌면 완전 망할텐뎅 한예슬 실망이넹
+kbs2_spy	icettoggi	POST	pymd1w8-_qmkp		2011-08-15	스파이 명월볼라그랫능데 한예슬 머냐 댄장 tagexclamation
+kbs2_spy	leadyoutome	POST	pymd1_n-_o1sh		2011-08-15	스파이명월 못봐서 속상하니tagquestion tagsmile 시청자 참 차다 거러지 같다 tagsmile
+kbs2_spy	nstkop	POST	pymd25m-_h00r		2011-08-15	한예슬 뭐지tagquestion 진짜 pd맘 pd맘에 안들어서 미국 간겨 tagquestion 그정도 그정도의 파워 있나보네ㄷㄷ 근데 이런건 좀 조다 자기 자다 캐스팅 pd pd에 대한 대하다 예의 아닌듯 말로 말 풀다 도망부터라 한예슬 스파이명월 황인혁 한예슬출국 미국
+kbs2_spy	gudwl0314	POST	pymd2ep-y47mk		2011-08-17	스파이명월 한예슬 돌아오다 하다 모두 스파이 명원 본방사수 tagexclamation
+kbs2_spy	dja5766	POST	pymd2gc-5pu7n		2011-08-15	아 스파이 명월 볼려 볼려고 주일 주 씩 씩이 기달렸는데
+kbs2_spy	epp1	POST	pymd2lc-y4bs6		2011-08-16	스파이 명월 한예슬 돌연 한국떠나tagquestion충격
+kbs2_spy	answlgh3	POST	pymd2lj-y071_		2011-08-16	스파이 명월 스페셜편 토렌트
+kbs2_spy	gudwl0314	POST	pymd2wa-y47mk		2011-08-17	tagsmile 스파이 명월 명월은 월 화 호다 공주 남다 남자 수목 나도 나다 나 공주 남자 남다 팬이당 tagexclamation
+kbs2_spy	eye_dear	POST	pymd3ok-5v1og		2011-08-18	벤자민 선글라스 벤자민 신다 benjamin cindy 스파이 명월 한예슬 선글라스 pm 준수 선글라스 pm 우영 선글라스 아이디어 안경
+kbs2_spy	sewon5520	POST	pymd45l-yi_m0		2011-08-15	뉴스한국 뉴스스크랩 한예슬 pd교체 요구 스파이명월 결방 결정 newshankuk
+kbs2_spy	3424519	POST	pymd48_-8yi3		2011-08-16	tagcry 스파이명월 어떻다 되다 tagcry
+kbs2_spy	haqqy_boy	POST	pymd49h-_w5gf		2011-08-17	드라마 제작국장 사과 전화 스파이명월 한예슬 귀국
+kbs2_spy	yminne	POST	pymd5dq-s5rm		2011-08-15	단독확인 단독확 스파이명월 한예슬 오후 시 미국 l 이건 또 뭐지 무슨일 무슨일있 무슨일있나 에구에구 스포츠조선
+kbs2_spy	kyh9646	POST	pymd5my-enbi		2011-08-15	대단 한예슬 스파이명월 pd교체 요구 이햐 한예슬진짜 당차다 어떻다 책임질려나tagquestion 안티 안티가 아주 꼬이다 mbn
+kbs2_spy	choiks0816	POST	pymd5qu-239		2011-08-15	한예슬 끝내다 스파이 명월 촬영불참 일도 일 거 거다 사연 모르다 기사만봐서 공인 책임감 없다 스타뉴스
+kbs2_spy	ghjswr120	POST	pymd5zt-5idzl		2011-08-15	스파이 명월 햇으면 좋겟다
+kbs2_spy	sportskhan	POST	pymd612-ymvvx		2011-08-15	스파이 명월 제작사 한예슬 상 상대 형사 고발 수도 수 tagexclamation 제작진 일 촬영 합류치 않으 면 업무 방해 등 혐의 형사 고 발 스포츠경향 한예슬
+kbs2_spy	aejin_2	POST	pymd6e7-ffs_		2011-08-15	한예슬 촬영거부한예슬스파이명월 촬영거부
+kbs2_spy	einxh	POST	pymd74q-y2we7		2011-08-15	원문 einxh브금한예슬의패기 오늘 유머 오늘의유머 베스트 베오베 웃다 웃기다 자료 사진 사다 오유 저장소 오유저장소 todayhumor ou storage store kbs드라마 스파이명월 존 존나 빡세서 조금 웹
+kbs2_spy	wlghtleo	POST	pymd78r-5od2s		2011-08-18	스파이명월 화이팅 taglove
+kbs2_spy	celthic26	POST	pymd7by-loe5		2011-08-17	스파이명월 한예슬 디스
+kbs2_spy	naver_news	POST	pymd7ld-bj_k		2011-08-16	연예 한예슬 사태 일 낮 시가 시 고비 기다리다 네이버 뉴스 news 스타뉴스 한예슬 스파이명월 출연 거부 사태
+kbs2_spy	tong0king	POST	pymd7pt-8_cn		2011-08-15	kbs 스파이 명월 출연 거부 결방 사태 빚다 빚 한예슬 일 미국 출국tagquestion
+kbs2_spy	cbci	POST	pymd7ub-_6gs1		2011-08-16	원문 한예슬 스파이명월 녹화거부 미국행tagquestion 웹
+kbs2_spy	cbci	POST	pymd7z4-_6gs1		2011-08-16	한예슬 스파이명월 녹화거부 미국행tagquestion http cbci co kr tagquestionp
+kbs2_spy	njn1029	POST	pymd859-xwmj		2011-08-17	한예슬싸가지 tagquestionㄴㄴ
+kbs2_spy	guswlstjdwo	POST	pymd8ed-52t8d		2011-08-18	한예슬 촬영 복귀 스파이 명월 촬영 돌입 tagexclamation
+kbs2_spy	annykoh	POST	pymd8k8-k14v		2011-08-18	에릭 에릭의 심경고백 생각 에릭 에릭이 말솜씨 말솜씨도 있다 생각 사람인것 같습니다tagsmile 잘잘못 떠나다 일단 많다 돈 받다 입장 책 책임 크다 생각 등등 한예슬 사건 참 차다 많다 것 알리다
+kbs2_spy	ma2646	POST	pymd8zj-rwog		2011-08-17	후아 한예슬 복귀한대 완전 다행 스파이명월 그대 주연배우 한예슬 하다 해 볼 보다 맛이 맛이나지 바뀌다 좀 조다
+kbs2_spy	jm8516	POST	pymd93r-5diaa		2011-08-15	kbs 스파이명월 여배우 교체 특단조치 저도한표차라리책임감없는사람은그냥 차함이시청자에게도좋을듯 스타뉴스
+kbs2_spy	1995qkekthfl	POST	pymd9gz-pwu9		2011-08-15	진짜바꾸는거임tagquestion말도안되 tagsmile 스파이명월 한예슬 에릭이랑잘어울렸는데이제와서 바꾸다 피디를바꺼 피디를바꺼요 그건 화면에차질없잖아요 tagcry tagcry 이제 월화드라마 모봐야됨tagquestion
+kbs2_spy	ooo330	POST	pymd9je-51bod		2011-08-15	스파이명월 결방 결방은 괜찮다 종방 하다 하거 그러지 그러지만 안다 좋다 주인공 안바뀌 안바뀌고 어쨌든 오늘 스파이명월 결방 결방만 안하고 안하고고 스폐셜 스폐셜이 스폐셜이라 하다 좋다 스파이명월 tagexclamation 스명 팬 어쩔수 없는거야 tagsmile tagsmile
+kbs2_spy	dbsthdbs98	POST	pymd9nw-chfd		2011-08-15	오늘 스파이명월 하죠tagquestion 하죠tagquestion아 스파이명월 문제 촬영 좋다 스파이명월 오늘 보고싶어 tagcry
+kbs2_spy	qkrdlstjs01	POST	pymd9um-_oeac		2011-08-18	월 화 호다 드라마 스파이 명월 명월하 무사백동수 중 어떤걸 보세요tagquestion 전 절다 무사백동수
+kbs2_spy	gowoona86	POST	pymdabm-_yzo9		2011-08-16	술을어중간히먹음잠을더못잔다 tagsmile 왜그러지tagquestion 집에와서쌰워하니술확다깻다스파이명월재방 tagsmile 잼 tagsmile
+kbs2_spy	taijistoker	POST	pymdapb-ywncq		2011-08-16	참 귀가 귀 막히다 코가막힙니 코가막힙니다 그죠tagquestion 한예슬씨 그렇다 다시다 방송활동 안하다 스파이명월 개 드라마 개발연기 가신거에여tagquestion 한국싫은가보죠tagquestion 대단 유승준 되다 그죠tagquestion 한예슬씨 제 의 유승준 되야 되야한다 되야한다고 생각 tagexclamation
+kbs2_spy	jisiklog	POST	pymdb0n-_rcxy		2011-08-15	오늘스파이명월하나요tagquestion 스파이명월
+kbs2_spy	jisiklog	POST	pymdb3y-_rcxy		2011-08-15	스파이명월 시청요일 시청요 tagexclamation 스파이명월
+kbs2_spy	kyb122411	POST	pymdc2u-9met		2011-08-16	tagsmile 스파이명월여주인공 교체한다는데tagquestion 연기좀잘하는애로바꿔라 tagsmile
+kbs2_spy	arm05082	POST	pymdcyq-oz0d		2011-08-16	아 증말 스파이명월 스페셜 분 빡쳐서 내일재방으로 지금 코 보고 보다 보 샤워 자다 아 진짜 한예슬 왜저래 미쳤네진짜 성실한친군줄알았는데 무개념친구네
+kbs2_spy	mostwandil	POST	pymddal-q7bw		2011-08-17	한예슬 복귀 한예슬 복귀tagquestion 스파이명월 여주인공은tagquestion
+kbs2_spy	bny1114	POST	pymddux-5es3h		2011-08-17	스파이명월빨리해야하는뎅 tagcry
+kbs2_spy	rkdrhkdsla	POST	pymde30-h8dp		2011-08-17	스파이명월 주연 교체 한예슬 미국출국 여주인공 교체 충격 한예슬 한예슬 스파이명월 촬영거부 왜tagquestion 한예슬결혼설
+kbs2_spy	ooo330	POST	pymde4c-51bod		2011-08-15	아 오늘 스파이명월 스폐셜 할 하다 가능성 높다 하다 tagcry 전 절다 스폐셜 스폐셜은 해도 하다 해 되다 재발 재발 재발 여주인공 한예슬 바뀌다 않다 좋다 tagsmile 모 스파이명월 배우자 힘내시구 입니 입니다 tagexclamation 모두 건강 조심 조다 하다 ㅁ 더위 조심 조다 하시구 하시구요
+kbs2_spy	pkjuye	POST	pymde8e-_olkg		2011-08-17	한예슬언니 빨다 귀국 스파이 명월 명월을 찍다 좋다 tagexclamation 스파이 명월 명월도 꾀다 괜찮다 한예슬 언니한테 안 알다 좋다 일 있다 분명 미국 갔을테니까 소속사 잘못한것 같다 tagcry 저 한예슬 언니한테 표 던짐tagsmile한예슬언니 아자아자 파이팅tagsmile
+kbs2_spy	4568979	POST	pymdf3r-_hh73		2011-08-15	스파이명월 할꺼 진짜없나부다스페셜은개뿔 tagexclamation tagcry 스토리가궁금하다거 tagcry
+kbs2_spy	yesung000	POST	pymdfhy-ydl6l		2011-08-15	한예슬 논란 불구 스파이 명월 스페셜 tagsmile
+kbs2_spy	rkfud5008	POST	pymdfke-rukb		2011-08-15	도대체 무슨 일 일어나다 한 하다 배우 책임감 명성 직업 버린채 촬영장 뛰쳐나갔을까tagquestion 정확 내막 그림자 가려지다 우리 잘 자다 보 않다 스파이 명월 그리다 한예슬
+kbs2_spy	plant84	POST	pymdfqr-b9pa		2011-08-18	에릭 극적 화하다 화해 한예슬 사태 불편 심경 드러내다 출처 일간스포츠
+kbs2_spy	theend1123	POST	pymdg2t-co_d		2011-08-16	한예슬은퇴tagquestion 한예슬은퇴tagquestion 한예슬출국 스파이명월여주인공교체 여주인공교체
+kbs2_spy	cat1120	POST	pymdgji-2fbf		2011-08-16	한예슬 촬영 파행 스파이명월 여배우 교체 한예슬 안그렇게 봣는대 왜그러지 tagsmile 이데일리
+kbs2_spy	taijistoker	POST	pymdgr4-ywncq		2011-08-16	한예슬씨 tagexclamation 스파이명월 그만둔거 잘 한국떠나셨다는것도 들다 나중 돈필요하니깐오셔서 죄송 사랑 이렇게 씨부리면 가만안두겠어 가만안두겠어요 이렇게 떠나시는행동 책임꼭지시 방송 앞 미워할겁니 외모 인생 다 아니다 싸가지좀 들고다니세 들고다니세요
+kbs2_spy	ybs1052	POST	pymdgvv-y4qqk		2011-08-16	말도안될진모르겠지 말도안될진모르겠지만 기존출연자들그대로유지 스파이명월스토리다버리 작가 처음 새로운드라마 써보는건어떨까요tagquestion tagsmile 위기상황 기존 좋은결과 나올수도있자 나올수도있자나
+kbs2_spy	dogyoung73	POST	pymdh50-_hbam		2011-08-17	한예슬 kbs드라마국장 죄송 사과전화 스파이명월tagquestion 안볼건데 정떨어졌쓰 스타뉴스
+kbs2_spy	rlaclthsu12	POST	pymdhh_-y3_99		2011-08-18	안녕 tagexclamation 나 나다 지금 놀구 놀구있어 놀구있어요 tagexclamation 스파이명월보는데 유치 tagcry 무사백동수 볼껄 tagcry 아잼
+kbs2_spy	psk625	POST	pymdhz9-28rd		2011-08-16	한예슬 아웃 스파이명월 여주인공 교체 결정 아산톱뉴스 무단전재 재배포금지 http www asantopnews com sub read htmltagquestionuid
+kbs2_spy	kksju3	POST	pymdiku-7ro4		2011-08-16	아 진짜 스파이명월 한예슬 나온다구해서 완전 기대하구 보구있었는데 에휴 tagcry tagcry 여주인공 교체 안보게 안보게될텐데 이거어떡 tagcry 한예슬 그렇다 무책임 보 않다 진짜 무슨 일 있었던건지 알고싶다 피디하구 억원대 소송 제발이건아닌데
+kbs2_spy	looktique	POST	pymdinf-_p6s4		2011-08-15	촬영불참 한예슬 스파이 pd교체 요구 알려지다 연출자 바꿔달라
+kbs2_spy	kda632	POST	pymdiqs-sdq7		2011-08-15	아 결국스파이명월결방 짜증난다얼마나기다렸는데 tagcry 드라마 월화 스파이명월 기대 기대다
+kbs2_spy	jisiklog	POST	pymdj1g-_rcxy		2011-08-15	한예슬이스파이명월촬영거부라는말은뭐에요tagquestion 한예슬
+kbs2_spy	kinam_0129	POST	pymdj1k-y5eky		2011-08-15	스파이명월 한예슬 오후 시 미국 la 출국 확인 확 충격 이게 스파이명월 잼 우 이런막장
+kbs2_spy	listen_sky	POST	pymdj3c-5ep1d		2011-08-15	오다 스파이명월 오글거려 오글거려도 이진욱 이진욱이 한예슬때매 참고 참다 보다 아씨 시간아깝네 완결 못날꺼 보고있었다니 제작사 한예슬 프로 잘못 감독 프로 잘못 하다 한예슬 욕하다 거 거다 보다 도망친건 진짜 아니다 보다 맞서다 tagexclamation
+kbs2_spy	ladykin123	POST	pymdk_w-yu3j7		2011-08-18	방금와이스타보고왔는데 완전말쏙뺌한예슬헤어하시는분이애기한거나쁜쪽으로만제작진만나빳다는식으로애기했다고내용쏙빼고 화에서한예슬디스하는대사보고시청자들이흥미롭게봤다는둥 참 차다 스명게시판가봄그딴말없음솔직히한예슬디스거는대사보고흥미롭게봤다면그게진짜스명애청잘까tagquestion기사도다뻥만치고 스명 스파이명월 한예슬
+kbs2_spy	panti1010	POST	pymdl0c-ydaxs		2011-08-16	아 어제 스파이명월 스페셜 스페셜로 나온게 ㅇㅖ슬언니 미국으로나가서엿군 tagcry
+kbs2_spy	insos02	POST	pymdlua-_8lnw		2011-08-16	스파이명월 스페셜방송 다시보기 스파이명월 스페셜방송 다시보기
+kbs2_spy	qowp621ywp	POST	pymdm49-5wa0w		2011-08-18	에릭 한예슬 사태 입열다 마음 편치 않다 노컷뉴스 노컷뉴스
+kbs2_spy	h4116	POST	pymdmwz-9hi		2011-08-18	스파이명월 시청자 한예슬 수치 화 호다 방송 분개 kbs 한예슬 그렇다 말할거면 돌아가다 하다 분명 촬영거부 미국 돌아간건 잘못 일 kbs 늘다 크다 소리 소다 칠 치다 자격 있나tagquestion
+kbs2_spy	dbsthdbs98	POST	pymdm_g-chfd		2011-08-15	tagcry 스파이명월 빨리해결됬으면 좋다 내일는 화 호다 보고싶어 tagexclamation 빨리해결 바라다 tagcry 촬영 원활 이루다 좋다 tagcry
+kbs2_spy	spdh9035	POST	pymdn1m-ybo4f		2011-08-18	스파이 명월 스태프 연기자 밝히다 성명서 보다 한예슬 답 없다 한예슬입장 억울한것 있다 그렇다 애초 왜 외다 주연 맡았을까tagquestion 한국드라마 사정 잘알고있었을텐데
+kbs2_spy	dks072	POST	pymdn43-ye272		2011-08-16	황인혁 pd 오다 한예슬 진실공방 tagexclamation 촬영거부 이유는tagquestion 스파이명월 여주인공교체 한예슬 미국 출국 한예슬지각 한예슬몸상태 tagexclamation
+kbs2_spy	luck6344	POST	pymdnna-_gmy2		2011-08-15	한예슬진짜 tagcry tagcry 내스파이명월 내스파이명월을 돌려주다 tagcry 스파이명월 어째되는거 어째되는거야
+kbs2_spy	klhonors	POST	pymdnnm-_mmck		2011-08-17	스파이 명월 한예슬 미국 출국
+kbs2_spy	szco30	POST	pymdo1b-_p2z9		2011-08-15	한예슬 미 출국설 스파이명월 결방tagquestion한예슬 미 출국설 스파이명월 결방tagquestion
+kbs2_spy	gpwls0930	POST	pymdozv-sryo		2011-08-15	스파이명월오늘안함 tagcry 어제촬영장에한예슬이안와서 tagcry 이건다제작진때문 이건다제작진때문이 tagcry
+kbs2_spy	gkdlvotus	POST	pymdp4v-_wz3u		2011-08-17	한예슬씨 같다 주연 배우 저렇다 터트리다 정도면 보조 배우 처지다 처지 안봐 안봐도 훤 하다 tagexclamation 에릭씨 에릭씨도 총대매 총대매고 같다 동참 좋다 제대 시작 입장 촬영거부 하고싶어 그럴 없었겠네요tagsmile 둘 둘이 동시 촬영 거부 대박이었을텐데tagsmile 내 좋아하다 배우 살인적 스케줄 쓰러지다 병원가서 링거맞고 링거투혼 운운하는거 사실 좀 조다 문제 있는거 맞잖아 맞잖아요 tagexclamation 잘못 무조건 떠넘기다 말다 바꿀건 바꾸다 고칠건 고쳐가면서 좋다 드라마 만들다 주다 좋겠어요tagsmile
+kbs2_spy	tru911	POST	pymdp6g-ez6p		2011-08-15	로코 로코에 스페샬 뜨다 건 거다 걸다 첨 보다 최사도 못하다 스페샬 대단 스파이 명월 로코 로코에 스페샬 스페샬이 뭔가
+kbs2_spy	hasimsu21	POST	pymdp8l-ewjl		2011-08-17	원문 스파이명월 전배우 촬영 휴업상태 한예슬 기다리다 또 스파이명월 제작사 이기다 프로덕션 관계자 월 일 뉴스엔 뉴스엔에 한예슬 귀국 드라마 복귀할 의사 있다 재투입 재투입할 의사 있다 고 말 한편 스파이명월 은 웹
+kbs2_spy	loanbay	POST	pymdpms-yrp_n		2011-08-17	스파이 명월 한예슬 교체될까tagquestion
+kbs2_spy	hasimsu21	POST	pymdpqr-ewjl		2011-08-17	원문 한예슬 일 스파이 촬영장서 공개사과 예정 한예슬 일 kbs tv 스파이 명월 촬영장 에릭 동료 스태프 공개 사 사과 할 하다 전망 소속사 측 측에 따르다 한예슬 촬영 중단 동료 크다 걱정 웹
+kbs2_spy	gofldus	POST	pymdpts-gdem		2011-08-15	스파이명월 스페셜 taglove 한예슬 시 미국비행기 가다 그런건가 tagquestion
+kbs2_spy	reed0903	POST	pymdpxs-b0yd		2011-08-15	한예슬씨 사건 말다 말 참 차다 많다 물론 그녀 그녀의 행동 옳다 못하다 시청자 약속 깬것 깬것은 정말 하다 해서 안되다 일 하다 하지 그랗다 그랗다고 모 이들 이들이 그녀 그녀를 향하다 돌 던지다 할까tagquestion 그렇다 또 한명 한명을 절벽끝 몰아 몰다 세우다 할 하다 필요 있다 싶다 난 나다 날다 스파이명월 안 안보 그들 어떻다 되다 되 상관 없다 한예슬 한명 한명의 사람 극단적 선택 하는일 하는일이 없다 바라다 뿐 뿐이 미투광장 자기소개 직딩 새벽미투 치매
+kbs2_spy	qaz5546	POST	pymdpyg-u89e		2011-08-15	tagsmile 스파이 명월 존 존나 웃기다 tagsmile
+kbs2_spy	jhjj0721	POST	pymdq6w-ydap8		2011-08-17	버블 tagexclamation 스파이명월 응원글이벤트 tagexclamation 버블 tagexclamation 스파이명월 응원글이벤트 tagexclamation 버블방 응원글 당첨자 이성열 현뚜 연우마미 타마리 탑뇽탑뇽 히조새 씨온네트워크 미내지 달라즈 hyunie 모 seeon kr
+kbs2_spy	jhjj0721	POST	pymdq8e-ydap8		2011-08-17	버블 tagexclamation 스파이명월 응원글이벤트 tagexclamation 버블 tagexclamation 스파이명월 응원글이벤트 tagexclamation 씨온 스파이명월 대한 대하다 관심 함 응원 모 분들 분들께 감사 tagexclamation 앞 많다 격려 응원 부탁드릴게 tagexclamation tagcry seeon kr
+kbs2_spy	wjsgpdud98	POST	pymdqb_-yd5bx		2011-08-15	kbs 스파이명월 한예슬 불참 결방 위기 헉 스파이명월 완전 중요 장면 끝나다 연합뉴스
+kbs2_spy	skullo	POST	pymdr9a-yccbt		2011-08-15	한예슬 사태 결국 이렇게 치닫다 치닫는구 에릭 에릭은 몇년 전 절다 늑대 때 사고 드라마 중단 이번 이번엔 여배우 때문 때문에 난항 참 차다 안타깝다 자세 내막 한예슬 pd pd만 잘 자다 알다 있다 대충 알려지다 바 제작여건 가장 크다 문제일테지
+kbs2_spy	njn1029	POST	pymdrad-xwmj		2011-08-17	스파이명월진짜 잼있당 한예슬언니 좀 조다 안좋은소식이좀 안좋은소식이좀있지 tagexclamation 힘내다 tagsmile
+kbs2_spy	njn1029	POST	pymdrlk-xwmj		2011-08-17	스파이명월 화이팅 tagexclamation 한명월 화이팅 tagexclamation 한예슬화이팅 tagexclamation 사랑 taglove 샤이니 샤이니도 빨다 컴백 tagsmile taglove 예슬언니 화이팅 샤이니 샤이니도 화이팅
+kbs2_spy	hglks	POST	pymdt2i-_rb03		2011-08-15	한예슬 촬영거부 스파이 명월 결국 스페셜 방송 말많던데 시청률 낮다 낮 마당 한예슬씨 상황 어쨌던간에 욕먹을듯 tv리포트
+kbs2_spy	jiwoometwo	POST	pymdtcj-_i3nc		2011-08-16	근데 한예슬 뭐가어뜨께된거임tagquestion좀어이tagsmile 갑자기미국으루간이유가스케줄때문tagquestion그건좀아니다tagsmile 스파이명월
+kbs2_spy	yui929	POST	pymdtgg-5n52		2011-08-16	한예슬 진짜 막장 tagsmile 이제 아예 스파이명월 여주 바꾼다네 tagsmile 드라마 첨 봄 보다 tagsmile
+kbs2_spy	ybs1052	POST	pymdtk8-y4qqk		2011-08-16	울에뤼기님 군대복귀작 스파이명월초이스한건뎅 에뤽어또케영tagquestion tagcry ㅅ tagcry 최대피해자 에릭이아닐까
+kbs2_spy	ggaddanam	POST	pymdu0b-51z59		2011-08-16	까칠이소식 한예슬 촬영 파행 스파이명월 여배우 교체 taglove kbs 제작사 새 새다 여배우 투입 가닥 방송 계속 한예슬이데일리 스타in 양승준 기자 기다 배우 한예슬 촬영 거부 결방 사태 빚다 빚 kbs tv 스파이명월 의 여 자세
+kbs2_spy	qorwlduq	POST	pymdu4w-_sw4t		2011-08-16	오다 이제글검색 저번주 스파이명월 본방사수 못한게아쉬웠지만 스페셜을통 스페셜을통해 줄거리 알게되서 개인적 기뻣는데 분위기 심상치않다
+kbs2_spy	0070tjsdk	POST	pymdu5d-j4em		2011-08-18	스파이명월 보고싶다
+kbs2_spy	un50002	POST	pymdudy-_p0b2		2011-08-17	스파이명월 한예슬 디스tagquestion 지가 지 엄청 잘나다 잘 줄 주다 알다 알 공분북한사투리함께나와여러분한글공부생활속의한국어익히기도움되라추천한tv드라마스파이명월kbs방송사정끝났으니가요무대준비하십시요tagsmile우리가좋아하는약장수김동건아나운서만날내일기약했으니방청 명제한선착순명단제출끝 tv리포트 스파이명월 tv드라마 주연배우 여러분 미국국적 불법체류 무직자 탈세 me book 어떤 삶다 삶 살다 나다 나 너르다 응원 것 me book 어떤 삶다 삶 살다 나다 나 너르다 응원 것
+kbs2_spy	cinefeels	POST	pymduvt-yr4yi		2011-08-17	스파이명월 한예슬 디스tagquestion 지가 지 엄청 잘나다 잘 줄 주다 알다 알 버티다 못하다 못 뛰쳐나가다 한예슬 나약 제작진 악랄 지독했네 대사 읊다 본인 어찌 수치 수치스러웠겠 저런식 저런식으 사람 조롱 자격 없다 사람 참 차다 약다 tv리포트
+kbs2_spy	psy7956	POST	pymduyz-y1mft		2011-08-18	한예슬 에릭 에릭과 나란하다
+kbs2_spy	khsloveksk	POST	pymdv0m-yl7kz		2011-08-18	전 절다 스파이명월 시청잔데 tagsmile 한예슬 정말 안타깝다 안타까워 tagcry 근데 드라마 환경 얼마 안 알다 좋다 미국 근데 촬영 펑크 내다 것 잘못인것 같다 제 생각 tagsmile
+kbs2_spy	gimono412	POST	pymdv73-5hab_		2011-08-16	한예슬 스파이 명월 제작진 갈등 결국 파국 치닫나tagquestion
+kbs2_spy	jeong305	POST	pymdv9x-r8ic		2011-08-18	스파이 명월 한예슬님 한예슬님을 저 지지 지다 하다 왜냐고요tagquestion tagsmile 저 한예슬님 한예슬님이 좋으니까 좋으니까요 tagsmile
+kbs2_spy	love-1	POST	pymdvc9-5kuih		2011-08-16	스파이 명월 한예슬 미국출국 여주인공 교체 충격
+kbs2_spy	tksrh418	POST	pymdvof-gfwe		2011-08-16	한예슬씨 빨다 기운차리 스파이명월 복구 좋다 주인공 교체 한예슬씨 한예슬씨가 잘 툭툭털어네세tagsmile
+kbs2_spy	nadiag26	POST	pymdvrm-_icu7		2011-08-16	스파이명월 스태프 최선 다 에릭 에릭에 감사 감다 문자 입수 공개
+kbs2_spy	wmq_	POST	pymdw1w-__wup		2011-08-18	에릭 한예슬 복귀 심경고백 쪽대본 불화 없다
+kbs2_spy	reua	POST	pymdw5s-yy5o8		2011-08-15	스파이명월 무사 끝나다 비록시청률이한자리수지
+kbs2_spy	ghjswr120	POST	pymdwfq-5idzl		2011-08-15	kbs 드라마국 드라마국이 일 tv 드라마 스파이명월 의 여주인공 교체 결정
+kbs2_spy	ghjswr120	POST	pymdwj7-5idzl		2011-08-15	한편 한예슬 스케줄 등 이유 제작진 마 찰 차다 지난 지나다 지 일 스파이명월 촬영 거부 오다 일 돌연 미국 출국
+kbs2_spy	everangel77	POST	pymdwld-nt19		2011-08-15	오늘 스파이 명월 결방이네 결방이네여 한명 한명의 배우땜 배우땜에 이렇게 드라마 결방 결방되다 결방되다니 진짜 실망
+kbs2_spy	solim13	POST	pymdwqy-50go1		2011-08-15	스파이 명월 명월은 안 알다 보다 한예슬 인기스타면 프로답게 처신 왜 외다 그러지 진짜 배우병 걸렸나tagquestion 드라마 만들다 위하다 더운 여름 뛰어다니다 스태프 눈 안 알다 보이
+kbs2_spy	everangel77	POST	pymdwxm-nt19		2011-08-15	아나아나아 아나아나아나 스파이 명월 보고 보다 보 싶다 어떻다 tagcry 결방 결방이라 결방이라니 tagexclamation 우쒸 백동수 백동수나 보다
+kbs2_spy	ooo330	POST	pymdx2t-51bod		2011-08-15	아 내일 내 스파이명우러 최종결정 하다 난 나다 날다 예슬 예슬이 언니 믿음 믿다 ㅁ 제발 내일 좋다 기사 뜨다 한예슬 스파이명월
+kbs2_spy	tong0king	POST	pymdxbz-8_cn		2011-08-15	배우 한예슬 스파이 명월 pd 교체 요구
+kbs2_spy	chaelini33	POST	pymdxip-5o8c3		2011-08-15	촬영 거부 한예슬 출국설 일파만파 헉 tagexclamation 이럴수 이럴수가 tagexclamation 나 나다 스파이 명월 광팬 광팬인데 tagcry 한예슬씨 빨다 촬영 들어가다 좋다 이데일리
+kbs2_spy	kby4951	POST	pymdxvz-ye_fu		2011-08-18	music 박정현 세상 자동재생 반복재생 듣기 듣다 가사 가다 스파이 명월 ost
+kbs2_spy	tajoprince	POST	pymdxx3-ywgh1		2011-08-16	헐리우드 영화 미드에서 미드 볼수 있다 tagsmile 그런데 좀 조다 스파이명월 소재 참신 출연진 나쁘다 않다 말 출처한국 최고 스포츠 엔터테 엔터테인 오센 t토크 ttalk
+kbs2_spy	cat139	POST	pymdy8a-7o0v		2011-08-15	한예슬 믿다 스파이명월 한예슬
+kbs2_spy	coolchunjin	POST	pymdycp-y4iz3		2011-08-15	대단 한예슬 스파이명월 pd교체 요구 요즘 떠도 떠도는 여자 연예인 연예 가지 가다 밥말 밥말아 끼 챙겨먹는다 챙겨먹는다는 기사 바 이거 난또 누구인지 궁금 mbn
+kbs2_spy	iknowchang	POST	pymdydz-5_p		2011-08-17	어제 스파이명월 보다 한예슬 씨 공격 대사 현실 드라마 감정 조금 연결되 연결되도 열 듯
+kbs2_spy	dkfk2685	POST	pymdym4-yu4cn		2011-08-17	저 스파이명월 즐겨보다 않다 이번일 이번일로 한번 스파이명월 눈여겨 본건 사실 이번일 이번일로 스파이명월 이르다 이름 널다 퍼진것 같다
+kbs2_spy	sk8rhdwn	POST	pymdz24-_doch		2011-08-16	한예슬 촬영 파행 스파이명월 여배우 교체 진짜 한예슬실망이에 주연배우로써넘책임감 미국행 미국행이 앞 한예슬나오는드라마 영화 cf cf는 보다 보지 사다 사지 말아야겠어 말아야겠어요 모든방송사나영화퇴출해야해 발도못붙히게 이데일리
+kbs2_spy	goji1	POST	pymdzci-idye		2011-08-17	원문 넷스터미디어 한예슬 스파이 명월 복귀의사 밝히다 웹
+kbs2_spy	danmibang	POST	pymdzus-5b9ok		2011-08-16	한예슬 한예슬 스파이명월 촬영거부 미국행tagquestion
+kbs2_spy	jisiklog	POST	pymd_0c-_rcxy		2011-08-15	스파이명월오에스티중 바비킴이부른 노래제목 스파이명월
+kbs2_spy	sam2456	POST	pymd_9c-eviz		2011-08-15	예상된것 나왔나tagquestion 결국 스파이 명월 명월의 한예슬 돌연 출국 돌아오다 날 기약 없다 작다 드라마 제작진 여시간 대기모드인 대기모드 에릭 에릭을 비롯 비롯한 다르다 배우 크다 연기자 지망 사람 이게 뭐하는건지 tagquestion 개인적 드라마 안보지 안보지만 말 연기자 꿈꾸다 좁다 기적의오디션 있다 사람 넓다 나다 나 모르다 조금씩 꿈꾸다 가다 가 있다 사람 뭐가되나tagquestion 명색 사랑 주제 이게 뭔일tagquestion
+kbs2_spy	jisiklog	POST	pymd_e6-_rcxy		2011-08-15	오늘스파이명월하나요tagquestion 스파이명월
+kbs2_spy	aldzl22	POST	pymd_ms-5oa65		2011-08-15	스파이명월 결방tagquestion tagexclamation 안다 tagexclamation tagcry tagcry
+kbs2_spy	jjy50595	POST	pymd_pf-_ttjw		2011-08-15	쭈 쭈나 스파이명월 열시에하지tagquestion
+kbs2_spy	syj4171	POST	pymd_vi-_6ne9		2011-08-15	스파이 명월 물건너가다 tagcry 한예슬 어떡
+kbs2_spy	biny2k2000	POST	pymd_xc-58h0f		2011-08-15	어떠케 우리 스파이명월 예슬이언니 미국 가tagquestion 우리 스파이명월 은tagquestion오늘 스페셜방송tagquestion 우띵 tagexclamation 이놈 이놈의 노리다 왜 외다 터치 잘 자다 안 알다 되다 아놔 짜증 왜 외다 나다 나 미치다 없다 아무리 친구추가 동창생 깡깡 무소식 아놔 홍냥홍냥 eo oe
+kbs2_spy	jejumi3797	POST	pyme2hc-wtpt		2011-08-19	한예슬 에릭 스파이명월스파이명월 에릭 한예슬 한낮 화기애애 맥주파티
+kbs2_spy	luck6344	POST	pyme3hs-_gmy2		2011-08-18	무사백동수 스파이명월 넌내반 공 반반빛 여인의향기 내가보는드라마
+kbs2_spy	sandcool	POST	pyme46y-59g33		2011-08-19	기사 기다 제목 한예슬 파문 서 서다 빛나다 빛 남자 남다 에릭 따뜻 가슴 냉철 머리 래 tagsmile 나 웃긴거야tagquestion tagsmile 에리기 에리기가 이번사건 젤루 빛난것 같다 하다 반짝반짝 풉
+kbs2_spy	happyplan	POST	pyme6jp-id3		2011-08-18	스파이명월 한예슬 촬영 복귀 후 공식사과 장면포착 사건 시작 과정 어찌 결 결과 훈훈 기분좋다 그리다 영화 드라마 제작환경 개선 하다 하 바래다 바램
+kbs2_spy	oes2058	POST	pyme8dg-_9cp5		2011-08-19	스파이명월 한예슬머리 단발머리 단발볼륨펌
+kbs2_spy	mandalaywith	POST	pymecp2-bq3n		2011-08-19	한예슬 스파이명월 사태중국 랑 한국 드라마 제작환경 daum블로그
+kbs2_spy	voicec	POST	pymef0d-zrg0		2011-08-19	스파이명월 한예슬 촬영 복귀 후 공식사과 장면포착 드라마 하다 옳다 tv리포트
+kbs2_spy	salondepoom	POST	pymef3i-5s7bj		2011-08-19	한예슬 눈물 회식 한예슬 눈물 회식 사고 오다 밥값 밥값은 에릭 에릭이
+kbs2_spy	parksook9292	POST	pymefih-51m3v		2011-08-19	한예슬 회식 사진 사다 제작진 눈물 사과 화합자리 에릭 에릭이 마련
+kbs2_spy	dong	POST	pymegmt-x_p		2011-08-19	에릭 한예슬 따끔 할말 하다 하 받다
+kbs2_spy	cw5544	POST	pymehkx-97z3		2011-08-19	한예슬 사태 조금이라두 해결된것 너무조타 스파이명월 볼수 있으니깐tagsmile 스명 taglove
+kbs2_spy	spastar7	POST	pymehoe-5x8tg		2011-08-19	한예슬 파문 에릭 한예슬 파문 에릭 냉철 받다
+kbs2_spy	lyelim	POST	pymehtd-yto8l		2011-08-19	천자칼럼 한예슬 에릭이제 사장님 사장님도 힘들다 내일 나오다 마세 마세요 hankyung
+kbs2_spy	hyundai253	POST	pymehu2-5b8oq		2011-08-19	한예슬 배우 한예슬 스파이 명월 회식자리 제작진 사과
+kbs2_spy	lyelim	POST	pymeh_k-yto8l		2011-08-19	천자칼럼 한예슬 에릭기자 의견 일리 없는건 아니죠 어느 위치 있다 따르다 보상 책임이라는게 다 있는건데보 받다 책 책임 보 hankyung
+kbs2_spy	skyhug	POST	pymeim2-_ge8t		2011-08-19	천자칼럼 한예슬 에릭저 역시 역시도 한예슬씨 하루 일당 석달치 월급정도 되다 되 사람 많다 받다 다 해서 하다 자기 자다 목소리 내지 내다 말다 하다 식 hankyung
+kbs2_spy	hyunji0576	POST	pymem1v-y8dil		2011-08-19	천자칼럼 한예슬 에릭한예슬씨 에릭한예슬씨가 힘든건 알다 땡볕 땡볕이 추위 고생 막노동 분들 분들의 수고 힘들것 힘들것같습니 힘들것같습니다 스태프 편집 hankyung
+kbs2_spy	han02jjang	POST	pymemgd-mzmq		2011-08-19	한예슬 에릭 커플티 입고 입다 어색 촬영 재개 종합 http www blunotte rai dl portali site articolo contentitem fbfc f c fd cbcb b e htmltagquestionrefresh ce 스타뉴스
+kbs2_spy	mandalaywith	POST	pymeoxe-bq3n		2011-08-19	조현재 촬영중 중국 드라마 소식 공홈 공홈에 글보면 중국의드라마 제작환경 밤샘촬영 없다 늦다 밤 시 촬영 끝 우리 한예슬가 이번 스파이명월 사건 즘 잘못하는거 있다 한국 드라마 제작환경 약점 알려주
+kbs2_spy	stylisthanul	POST	pymeq_u-_w5s7		2011-08-19	에릭 한예슬 커플티 입고 입다 스파이 명월 촬영
+kbs2_spy	insos02	POST	pymer9t-_8lnw		2011-08-19	스파이명월 회 다시보기 스파이명월 회 다시보기
+kbs2_spy	lovelycong00	POST	pymevi2-5uo57		2011-08-19	한예슬 야상자켓 스파이명월 회 한예슬 한명월 옷 패션스타일 패션스타 자수 배색야상자켓 의상정보
+kbs2_spy	tofhdnspdlqj	POST	pymex4w-yk9rc		2011-08-19	에릭 오빠 따끔 하다 말 말다 하다 하 받다 난 나다 날다 한예슬 좋다 그리다 한예슬 욕하지마 욕하지마요 한예슬 얼마 힘들다 도망갔겠어요tagquestion 스포츠조선
+kbs2_spy	arm05082	POST	pymeydz-oz0d		2011-08-19	아 쩔엌 tagsmile 어제 보스 지키다 완전 재밋음 tagsmile 담주 담주에 차무원 차무원이 노은설한테 고백 따지다 고백 끝난건갘 tagsmile 쨋든 빨다 스파이명월도 보스를지켜 보고싶넼 tagsmile
+kbs2_spy	poup	POST	pymezyi-23fc		2011-08-19	스파이명월 스텝 금방 올리다 글
+kbs2_spy	freebird07	POST	pyme_qe-5e6b5		2011-08-19	한예슬 스파이명월 촬영 재개 하다
+kbs2_spy	sweet-lemon	POST	pymj3cu-5sm4x		2011-08-20	월화 월화는 스파이명월 수목 넌 널다 내다 반 보스 지키다 시험기간 드라마 챙기다 ㅁ
+kbs2_spy	estilo	POST	pymjd3h-pxm		2011-08-20	천자 칼럼 한예슬 에릭 한예슬씨 한예슬씨가 비판 하다 하 건 거다 걸다 분명 해당 드라마 끝 촬영 계약 계약 조항 성실 이행 hankyung
+kbs2_spy	estilo	POST	pymjdjk-pxm		2011-08-20	천자 칼럼 한예슬 에릭 그들 노력 이란 어떤 거다 걸다 개념종결자님 확실 아시나요tagquestion 한번 웃다 광고 나오다 그게 정말 한번 hankyung
+kbs2_spy	estilo	POST	pymjdm3-pxm		2011-08-20	천자 칼럼 한예슬 에릭 왜 외다 자꾸 당사자 체결 계약 남다 남 정 아니다 평가 들다 모르다 어느 회사 다니다 hankyung
+kbs2_spy	estilo	POST	pymjdvo-pxm		2011-08-20	천자 칼럼 한예슬 에릭저 에릭저도 사람 사다 중 하나 저 재벌집 아들 아니다 아니 평범 회사원 솔직 그거 좀 고생 회당 천만원 hankyung
+kbs2_spy	estilo	POST	pymjy29-pxm		2011-08-20	천자 칼럼 한예슬 에릭여기 댓글 하나 하다 하 달 때 미투 미투에 글 자동 옮겨가다 관계 제 부족 의견 이 줄이다 hankyung
+kbs2_spy	estilo	POST	pymjyw9-pxm		2011-08-20	천자 칼럼 한예슬 에릭제 생각 개념종결자님 논지 중간 혼선 있다 우리 시청자 간접적 한예슬씨 한예슬씨의 출연료 지불 말씀 hankyung
+kbs2_spy	ostarmall	POST	pymk0gq-5fvrd		2011-08-17	한예슬 귀국 스파이 지키다 tagexclamation 공항 아수라장
+kbs2_spy	7gkdnjssla7	POST	pymk1gb-53dc8		2011-08-18	에릭 쪽대본 없다 욕설 않다 한예슬 노고 사실 한예슬씨 돌아오다 본인 많다 힘들것 같지만그래 무책임했던건 사실인것
+kbs2_spy	ashlie2	POST	pymk1hf-yw3e6		2011-08-17	촬영 거부 한예슬 일 귀국 비난 비 받을 받을짓 받을짓을 한건 마땅 몰아세우다 말다 얼마 힘들다 생각 하다 에릭 에릭의 극중 한예슬 이야기 하다 하 대사 들어보다 전 절다 피디 열 mbn
+kbs2_spy	runawaynobi	POST	pymk1vp-_hox3		2011-08-19	스파이명월 뭐 내용도 드럽개재미 걍내리지 쓰레기 돈붓지말자 tagexclamation
+kbs2_spy	chicagolady	POST	pymk3cq-_ipo6		2011-08-17	여배우한예슬 스파이명월 촬영복귀
+kbs2_spy	yna	POST	pymk3uc-w27p		2011-08-17	그니깐 그니깐요 스파이명월 한 하다 배우 촬영 생방송 진행되는 몇시간씩 기다리는 힘들다 하다 해 한예슬씨 한예슬씨도 이해 할듯 tagsmile
+kbs2_spy	dbsthdbs98	POST	pymk40e-chfd		2011-08-17	월화 월화는 스파이명월 tagexclamation 수목 공주 남자 남다 tagexclamation 토일 토일은 여인의향기 tagexclamation tagsmile 내가보는드라마 다 재밌어
+kbs2_spy	un50002	POST	pymk5my-_p0b2		2011-08-19	오늘날국제테러사할린동포통신강제 주범광복해방절 순가요무대등특집방해목적국적행위사탄수우선주장권착수 최초러시아우주인비행가가린과학선진국소련정교도요한계시록 년간바벨론동토의땅철의장막역사존재하는 재현비밀조직못한다스파이명월한예슬국가기망행위에릭거듭난자국민 오늘날 오늘 국제테러 사할린동포 통신강제이주 광복해방절 순 가요무대 국적행위 사탄수 러시아 최초 소다 우주인 우주 가가린 철의장막 비밀조직 스파이명월 한예슬 국가기망 에릭 거듭나다 자국민 me movie 사할린 사할린의 하늘 땅
+kbs2_spy	gksskfk0928	POST	pymk6k5-_q2_o		2011-08-17	스파이명월한예슬받아줘야 tagexclamation
+kbs2_spy	qwe9601	POST	pymk70m-5zuik		2011-08-18	완전사랑 taglove 스파이명월 taglove 여인의향기 taglove 공주의남자 드라마 땜 방학숙제한개도안했닼 tagsmile
+kbs2_spy	strzmanager	POST	pymk77w-59p6n		2011-08-18	한예슬 잠수 한예슬 잠수 타다 것 대한 대하다 에릭 에릭의 입장 밝히다 tagexclamation
+kbs2_spy	char42	POST	pymk7y_-q5z5		2011-08-18	스파이명월 같다 일 안 알다 일어나다 길다 길 단 달다 하나 사전제작 tagexclamation 우라질 kbs 괴벨스 괴벨스라 읽다 놈들 놈들아
+kbs2_spy	ygj05489	POST	pymk814-_8jp		2011-08-18	스파이 명월 계속해야 근데 한예슬 뭐 크다 잘못했나tagquestion스파이 명월 명월은 에릭 에릭이 한예슬 아니다 안되다
+kbs2_spy	tkdghrla00	POST	pymk8qn-_hduq		2011-08-18	에릭 한예슬 사태 한땀한땀 입 열다
+kbs2_spy	love-1	POST	pymk9fn-5kuih		2011-08-18	스파이명월 한예슬 촬영장 복귀 에릭 에릭에 미안 책임 책 통감 이투데 이투데이
+kbs2_spy	won6159	POST	pymk9t0-5_fmw		2011-08-17	하나님 믿지않는 법정스님 안타깝다 걱정되서 에릭 에릭의 진심어린말 왜 외다 잡고 잡다 늘어지는거 늘어지는거야 스파이명월 한예슬나오게해달 라 라고 기도 볼수 볼수있다 볼수있다니 너무다행 이 tagsmile
+kbs2_spy	ostarmall	POST	pymkbah-5fvrd		2011-08-17	돌아오다 스파이 명월 한예슬 끝내다 사 사과 없다
+kbs2_spy	m__m5540	POST	pymkcmq-_t8it		2011-08-17	귀국 한예슬 kbs 사과 스파이명월 복귀 잘왔어 잘왔어요 tagexclamation 누다 힘든일 힘든일은 다 학생이공부힘들다구 왕따당한다구 쉽다 학교 그만둘수는없자 직장인들두 일단 공식적 사과 좋은연기보여주세 이번일잘넘어가길 스타뉴스
+kbs2_spy	tvtong	POST	pymkdv9-qg5n		2011-08-20	천자 칼럼 한예슬 에릭논술 방향 돈 많다 받다 만큼 만큼의 일 하다 해 하다 식 내용 보다 한예슬 잠 자지 자다 말다 일 하다 해 하다 hankyung
+kbs2_spy	ostarmall	POST	pymkdzq-5fvrd		2011-08-17	한예슬 일 스파이 촬영장서 공개사과 예정
+kbs2_spy	jump_hackers	POST	pymke0b-_5ya2		2011-08-17	나오늘지금 한예슬 사건 어떻다 종결 궁금 미치다 중 tagcry 스파이명월 복귀할까요tagquestion
+kbs2_spy	jump_hackers	POST	pymke23-_5ya2		2011-08-17	스파이명월 촬영장 안 돌연 비행기타고 비행기타 미국출국 그리다 돌아오다
+kbs2_spy	ccongju98	POST	pymkek6-tsqk		2011-08-17	스파이명월 여자주연 바꾸다 보지않겠습니다 그리다 그런행동 용납할수 무리 한예슬씨 힘내다 tagexclamation
+kbs2_spy	goodkissjg	POST	pymkg3n-5skoo		2011-08-18	포토 잠입 한예슬 여유 에릭
+kbs2_spy	70110	POST	pymkgbv-_f8ah		2011-08-19	한예슬 공항패션어디서 보다 봤 하다 tagexclamation 한예슬 원피스 한예슬 입국 한예슬 공항 원피스 한예슬 회색원피스 스파이 명월 한예슬 원피스 한예슬 의상 한예슬공항패션 한예슬 옷 한예슬 공항
+kbs2_spy	rhkrdpffls11	POST	pymkgm0-5bw8a		2011-08-17	완전한예슬대박어이 tagcry 미국시민권자면서도우리나라에서잘먹고잘사는것도이 미국시민권자면서도우리나라에서잘먹고잘사는것도이상한데 드라마 지맘 지맘대 하다 tagcry 내친구들싹다한예슬안티 tagcry 한예슬이배가아주간뎅이처럼나왔구 이제자기가잘났다생각하나보지tagquestion스파이명월에서연기도못하는게 한예슬 앞으로지켜보겠어 tagsmile
+kbs2_spy	dong	POST	pymkgs1-x_p		2011-08-17	소신 소다 발언 한예슬 스파이 명월 향후 행방
+kbs2_spy	kai1005	POST	pymkgzr-bjrx		2011-08-19	예슬이온니 예슬이온니가 하다 하 스파이명월 월욜 보다 tagexclamation 니들 니들이 글케 까놧음 봐주다 tagsmile 계백 무사백동수 뭐 재밌니tagquestion맨 재밌니tagquestion맨날 칼 휙휙휙 tagsmile 휘두르는뎈 tagsmile 우리빨리 스파이명월 보다 tagsmile 스파이명월 에릭 한예슬 이진욱 장희진
+kbs2_spy	ilovsky	POST	pymkh36-arw6		2011-08-18	한예슬 사건 사다 전모 공동성명 발표 스파이명월 스탭 연기자
+kbs2_spy	07094764927	POST	pymkhn8-54tb8		2011-08-20	천자 칼럼 한예슬 에릭한예슬 저인 저인간은 정신나가다 개념없는여자일뿐이에요 에릭 에릭이 말한것 후배보단 스태프 소중한것 사실 왜저러는지 tagsmile hankyung
+kbs2_spy	elohim486	POST	pymkiif-_0z8w		2011-08-17	스파이 명월 한예슬사건 재합류 tagquestion
+kbs2_spy	joculator	POST	pymkijr-yzbz		2011-08-19	농담 장하다 장하 에릭 tagexclamation 밥값 만원 흉흉 분위기 잠재우다 한예슬 억대 소송 구해 구해내다 구해내다니 tagexclamation
+kbs2_spy	ybs733	POST	pymkis9-gwsp		2011-08-18	배우 한예슬 드라마 스파이 명월 촬영 복귀
+kbs2_spy	ju031102	POST	pymkj0c-y_b5e		2011-08-17	스파이명월이랑보스를지켜라를못보다니이이
+kbs2_spy	psk625	POST	pymkl53-28rd		2011-08-18	복귀 스파이명월 몰다 한예슬 복귀 첫날 첫 아산톱뉴스 무단전재 재배포금지 http www asantopnews com sub read htmltagquestionuid
+kbs2_spy	nowinred	POST	pymklwr-y4trg		2011-08-18	한예슬스파이 명월
+kbs2_spy	ing761112	POST	pymknky-_641z		2011-08-19	한예슬 회식 사진 사다 화제 스파이 명월 새출발 다짐 다지다 이쁘면다용서가돼는그지같은세 엑스포츠뉴스
+kbs2_spy	jhcs1100	POST	pymko4d-50780		2011-08-18	아 아이 무슨 석고대죄 저지른것도아니 너무하네정말 출처한예슬 에릭 말없다 대본 스타뉴스 t토크 ttalk
+kbs2_spy	1004kymin	POST	pymko5d-5agb_		2011-08-17	포토눈물 흘리다 한예슬 스파이명월결방됐다고쌩쇼를하드니 돌아왔네결국 스타뉴스
+kbs2_spy	sto9375	POST	pymkqhd-nw90		2011-08-18	스파이명월 화이팅 tagexclamation 한예슬 잘못 아니다 아니 생각 tagsmile
+kbs2_spy	the100yesi	POST	pymkrn7-yvat1		2011-08-18	황인혁pd 한예슬 갈등 한예슬 출국 강행 촬영거부 이유 결국 스파이명월 pd 갈등 심화tagquestion kbs 공식 입장 밝히다 헐리웃 패션 종결자 백여시
+kbs2_spy	naver_news	POST	pymks4a-bj_k		2011-08-18	연예 한예슬 에릭 커플티 입고 입다 어색 촬영 재개 네이버 뉴스 news 스타뉴스 한예슬 촬영 복귀
+kbs2_spy	ujhooon	POST	pymksdy-_t9pq		2011-08-17	한예슬 드라마 스파이 명월 사건 전모
+kbs2_spy	arm05082	POST	pymkskm-oz0d		2011-08-18	아 에릭 에릭이 한예슬 미워 말래잖 말래잖아 제작진 다 이해 화해 이제 한예슬 욕하지마 욕하지마랑 tagsmile
+kbs2_spy	ejing97	POST	pymksu_-eq7m		2011-08-20	천자 칼럼 한예슬 에릭 tagsmile 참내 돈 많다 받다 무조건 희생자 아니에여tagquestionㅉ 한예슬씨 입장 생각은하 생각은 말하시는건가요tagquestion 한예슬씨 한예슬씨가 얼마 힘드셨으 hankyung
+kbs2_spy	ifdream1	POST	pymktcc-yfr2h		2011-08-20	천자 칼럼 한예슬 에릭회당출연료 천 받다 노력 없다 재능 없다 지금 그렇다 받다 힘들다 닥치다 일하다 것 맞다tagquestion 어이 없 hankyung
+kbs2_spy	sofy12	POST	pymktt7-5aa8j		2011-08-18	한예슬 에릭 커플티 입고 입다 어색 촬영 재개 종합 촬영전 일일 사과 적어놓 적어놓은 기사 뭐지tagquestion 이렇게 시끄럽다 사태 또 발생하지않도록 공인 책임의식 을 좀 조다 가지다 좋다 스타뉴스
+kbs2_spy	blue_ml	POST	pymku7q-s0z5		2011-08-17	남자 남다 헤다 스타일 스타 에릭 머리 스파이 명월 스타일쉬 헤다 투블럭컷
+kbs2_spy	vanessa0415	POST	pymkzqe-m901		2011-08-17	무사 백동수vs 스파이 명월vs계백
+kbs2_spy	goodkissjg	POST	pymkzw9-5skoo		2011-08-18	넌내반 스파이 명월 꼴찌 드라마 엇갈리다 행보
+kbs2_spy	jisu97412	POST	pymkzz0-y7xry		2011-08-17	아싸 tagexclamation 한예슬 복귀한다 tagexclamation 스파이명월 꼭보삼 tagsmile 개잼잇음 tagsmile 내사 너의사 너의사랑 한예슬 tagexclamation tagsmile
+kbs2_spy	goodkissjg	POST	pymk_2u-5skoo		2011-08-18	스파이 명월 촬영 불참 이틀 돌아오다 한예슬
+kbs2_spy	vldzld0	POST	pymk_rm-5b7q9		2011-08-17	월화 스파이명월 계백
+kbs2_spy	27page_	POST	pymy069-_87_h		2011-08-15	허헐 스파이명월 어떻다 되는거임tagquestion tagcry 한예슬 실망 tagcry
+kbs2_spy	okskjs	POST	pymy0jy-yde26		2011-08-15	한예슬님 한예슬님이 출연 거부 오늘 미국 떠나다 하다 스파이 명월 명월의 촬영 도중 연출자 황인혁pd님 황인혁pd님과 갈등 심 모양 에다 미국 가시다 어떻 어떻해 어떻해요 tagcry 팬 드라마 결국 결방 결방되 결방되고 아예 이제 안하다 tagcry
+kbs2_spy	jubang2455	POST	pymy0sk-_qaa9		2011-08-16	kbs 스파이명월 여주인공 없다 가다 갈다
+kbs2_spy	guswn3274	POST	pymy0_b-y7wwv		2011-08-16	그동안 스파이명월 잼 보고있었는뎅 tagcry 실망 진짜 tagcry 한예슬언니 아무리 촬영환경 않좋더라도 이렇게 책임감 없을줄은 생각 못하다 tagcry 나머지 출연진 몇시간씩 기다리다 해놓고 tagcry 자기 자다 혼자 미국행 헐 진짜 무개념아님tagquestion 얼굴 이쁨다냐구 tagexclamation
+kbs2_spy	amy05035	POST	pymy17s-9zwh		2011-08-15	헐 한예슬 스파이명월 버리다 미국 ㅌㅌtagquestion tagexclamation 어메 어메야 tagexclamation 럴수럴수이럴수 럴수럴수이럴수가 tagexclamation 스파이명월 결방
+kbs2_spy	kimmiso0821	POST	pymy1gc-j3i6		2011-08-15	헐 벌 쓰다 시 분전 빨리가서 스파이 명월 보다 굿밤
+kbs2_spy	kwensa98	POST	pymy1oc-seul		2011-08-16	헐 스파이명월 여주인공 한예슬 한예슬 촬영거부해서 촬영거부 오늘 한예슬 죽는장면나오 죽는장면나오고 여주인공 빼고 빼고한데 tagsmile
+kbs2_spy	projjinii	POST	pymy2s_-5n5u4		2011-08-16	kbs 한예슬 복귀 들다 들 바 없다 사과 우선 시점 한예슬 복귀 안하다 안 은퇴하는게 좋을듯 여주인공 바뀌다 스파이 명월 명월을 시청 의향 있다 한예슬 복귀하면 쭈욱 안볼예정 스포츠조선
+kbs2_spy	rldnd878	POST	pymy2w2-_5pku		2011-08-18	스파이 명월 ost part 박정현 세상 아름답다 편안 평온 느낌이남 느낌이
+kbs2_spy	01030682070	POST	pymy384-c9f9		2011-08-16	스파이명월잼 tagsmile
+kbs2_spy	soyeonz-zang	POST	pymy3ef-_so56		2011-08-16	명월왜안하는거짐 tagquestion 빨리여주인공언냐가돌아와야지명월도하징 tagexclamation 주연배우는한예슬언니가장이라구 tagsmile
+kbs2_spy	holic-77	POST	pymy3gk-_w2hs		2011-08-15	오느른 스파이명월 월욜인데욧 오늘 할려 할려나 광복절 다른거 특집방송하려낭tagquestion
+kbs2_spy	kyong0285	POST	pymy3qm-ydvsk		2011-08-18	아 스파이 명월 재밌었는디 어쩌다 그런이유 결방 결방을 하다 tagcry 안타깝다 tagcry 휴 tagcry
+kbs2_spy	ghjswr120	POST	pymy3ri-5idzl		2011-08-16	kbs 스파이 명월 여주인공 없다 가다 갈다 라 라니 충격 쉬다 연기지 연기지만 죽는장면 나오다 진짜 하다 한대
+kbs2_spy	pluskrr	POST	pymy42t-_khfw		2011-08-16	한예슬 사상초유 드라마 여주인공 미국행 스파이명월 결국 결방 결방되 결방되다 한예슬루머
+kbs2_spy	mandalaywith	POST	pymy4yx-bq3n		2011-08-16	한예슬 년재 미얀마팬 스파이명월 사건 사다 대하다 daum블로그
+kbs2_spy	chaehyo-han	POST	pymy521-_s6qf		2011-08-16	힉tagquestion 스파이명월 여주 교체한다고tagquestion 헐
+kbs2_spy	dkssud2101	POST	pymy571-yj6e6		2011-08-16	헐 스파이명월 여주누굴까
+kbs2_spy	ong5980290	POST	pymy5r8-_g1hl		2011-08-16	hot issue 스파이명월 한예슬 촬영거부 잠적 일 낮 시 결론
+kbs2_spy	ykyoon0627	POST	pymy624-ybkwe		2011-08-15	스파이 명월 결방 결방한데 tagcry tagcry
+kbs2_spy	naver_news	POST	pymy648-bj_k		2011-08-16	단독 인터뷰 한예슬 la공항 도착 현장포착 모 걸 내려놨다 심경 고백 네이버 뉴스 news 한국일보 스파이명월 촬영거부 한예슬 la 공항 포착
+kbs2_spy	ameraldeun	POST	pymy6sy-_thys		2011-08-16	스파이명월 한예슬 사건 사다 서글프다 단상
+kbs2_spy	dbsthdbs98	POST	pymy6v4-chfd		2011-08-15	tagcry 한예슬언니 미국 가버리면 스파이명월 어떻게tagquestion tagcry 스파이명웡 촬영 어떻게tagquestion tagcry tagcry 스파이명월 어떻다 tagexclamation tagcry
+kbs2_spy	sm_0329	POST	pymy6vl-ycmou		2011-08-15	난 나다 날다 한예슬 욕 먹는게 이해 안되다 한예슬 책임감 따지다 소속사 제작사한테 먼저 따지다 하지않나tagquestion 살인적 스케쥴 때문 때문에 몸 상태 나빠지다 지각 잦다 수 없다 심신 편하다 못하다 촬영 제 제대 안될테 안될테고 스탶 스탶들과 마찰 생기다 밖 한예슬 스파이명월
+kbs2_spy	chos3973	POST	pymy6_t-y45pd		2011-08-16	한예슬 출국설 kbs 스파이 명월 긴급 기자회견 주연 교체 결정 경인일보
+kbs2_spy	prins2cess	POST	pymy78q-5gh0n		2011-08-18	수번째 바뀌다 기사 기다 tagexclamation 한예슬 tagexclamation 진실은tagquestion 한예슬 스파이명월 복귀
+kbs2_spy	hcj9910	POST	pymy7h4-rwg8		2011-08-16	한예슬 땜 우리 영어학원 스파이 명월 시청자 마는데애 존 존나 빡침 tagsmile
+kbs2_spy	shymikang6	POST	pymy83t-na9e		2011-08-16	스파이명월 여주 교체 예슬님갑자기왜그러신데
+kbs2_spy	kirl1000r	POST	pymy8k6-ytosj		2011-08-18	연예 한예슬 드라마 스파이명월 촬영장 복귀
+kbs2_spy	parkmina99	POST	pymy8lh-5hxo		2011-08-15	좋은예나쁜예치면 재밋는거 쩌러 tagsmile 오늘 스파이 명월 결방 결방이 이거보구잇는데 개폭소햇음 tagsmile 몇개 내 내다 블로그 블로그에 퍼놧음 tagsmile 꼭봐 tagsmile
+kbs2_spy	madeduck	POST	pymy8n9-5h3k8		2011-08-17	귀국 한예슬 kbs 사과 스파이명월 복귀 세상 안힘들게어디 안힘들게어디있 안힘들게어디있나 안힘들게어디있나요 남에게는피해 주지말아야지 요즘 어닌아이 힘들다 도망가다 힘든일안할려고하는거 크다 문제에 문제에요 스타뉴스
+kbs2_spy	dbsthdbs98	POST	pymy8se-chfd		2011-08-15	오다 내일 내 드디어 스파이명월 회 하다 tagexclamation 아싸 tagexclamation 스파이명월 원활힌 방송 하다 좋다 tagexclamation
+kbs2_spy	sepist	POST	pymy8xk-_sbqf		2011-08-17	갭키즈 스커트 그리다 냉장고 싸다 판매 새롭다 쇼핑몰 시 스파이명월 현장르포동
+kbs2_spy	ch41760	POST	pymy9ai-10tf		2011-08-15	모야모 모야모야 tagexclamation 스파이명월스페셜tagquestion뭐냐긍 tagexclamation 한예슬님미국간거야tagquestion헐 말도안되 tagexclamation 뭐냐뭐냐긍 tagexclamation 그럼오늘안나오는거야tagquestion스페셜은뭐나오는건데 tagexclamation tagcry tagcry 명월 명월이 tagcry
+kbs2_spy	guswn4938	POST	pymy9h2-qoav		2011-08-17	전 절다 월 화 스파이 명월 목 넌 널다 내다 반 이렇게 보다
+kbs2_spy	search_now	POST	pymy9j3-5y0f5		2011-08-15	짝 여자 호 손무현 new 월화드라마 한예슬 김유정 절정 ch 스파이명월 제시카 안녕 네이버 실시 급상승 검색어
+kbs2_spy	leecr0922	POST	pymy9nv-5o4rc		2011-08-15	아 한예슬때문 스파이명월 끝났잖어 tagexclamation 시베리안시키가트니라구 tagcry
+kbs2_spy	galta	POST	pymy9y0-m6nc		2011-08-17	야신 김성근 감독님 감독님의 사퇴 명월 한예슬 선수 귀국 상관관계 고찰
+kbs2_spy	vbo3129	POST	pymya07-5n2ec		2011-08-16	한예슬 촬영 파행 스파이명월 여배우 교체 스파이명월 보다 한에슬 좋아하다 하다 이건 이게바 이게바로 스타병인가 스타병 tagquestion 최대 빨다 초심 돌아오길바래본다 지난 지나다 지 일에두아파서 시간 시간이 지각 그땐 이해 이번 이번에 이건 좀 조다 아니다 듯 이데일리
+kbs2_spy	ggaddanam	POST	pymyacc-51z59		2011-08-16	까칠이소식 kbs 한예슬 복귀 들다 들 바 없다 사과 우선 시점 언제냐 언제냐에 달리다 taglove kbs 스파이 명월 제작 파행 사태 빚다 빚 한예슬 미국 돌아오다 촬영장 복귀할 거다 거 일부 보도 대해 대하다 들다 들 바 없다 고 밝 자세
+kbs2_spy	mterranc	POST	pymyaqo-_ovu4		2011-08-16	한예슬 촬영 파행 스파이명월 여배우 교체 tagcry 이데일리
+kbs2_spy	als7552	POST	pymyarq-y_5ib		2011-08-18	스파이명월 한예슬 촬영 복귀 후 공식사과 장면포착 ㅇㅇ tv리포트
+kbs2_spy	cnrrn223	POST	pymyay_-5cw_0		2011-08-18	한예슬 촬영거부한이유 알겠 알겠내 명월 pd 작가 너무함
+kbs2_spy	blairnori	POST	pymyazt-_whka		2011-08-16	출국 한예슬 스파이명월 여주인공 교체 블레어놀 블레어놀이
+kbs2_spy	swdc	POST	pymybf8-9uig		2011-08-15	대단 한예슬 스파이명월 pd교체 요구 http mbn mk co kr pages news newsview phptagquestionnews seq mbn
+kbs2_spy	the100yesi	POST	pymybfd-yvat1		2011-08-16	스파이명월 여주인공 한예슬 잠적 vs 황인혁pd 교체 현실화 막장드라마 방송사 병폐 문제없나tagquestion 헐리웃 패션 종결자 백여시
+kbs2_spy	ciy83	POST	pymybnc-yw0gy		2011-08-15	단독확인 단독확 스파이명월 한예슬 오후 시 미국 l 좋아하는배우 프로다운 모습 보 않다 정말 충격 tagexclamation 스포츠조선
+kbs2_spy	ssung5706	POST	pymybse-y8b25		2011-08-15	스파이명월 진짜 잘보고있었는데 미국 가버리시면 뒷이야기 궁금 어뜩 어뜩하지 tagcry 진짜 tagcry 왜그러셨어요 한예슬언니 tagcry
+kbs2_spy	hymntoheaven	POST	pymyc1d-_r4ei		2011-08-15	한예슬 씨 이유 어찌 촬영거부 칩거 혹 출국 절대 용인 안되다 일 임 틀림 kbs 측 형사고소 생각 있다 하다 하지 분명 어떤 사연 있다 않다 하다 하 의문 남다 좀 조다 지켜보다 결국 스파이 명월 명월은 절반 이상 진행 상태 여주인공 교체
+kbs2_spy	paulianlee	POST	pymyc84-ydvr6		2011-08-15	잉 스파이명월 여배우 교체 뭐꼬 이거 걍 티비틀면 재방하길래 보던건데 음 한예슬 뭔가 말못 이유 있다 생각 이렇게 짧은시 교체라허헐
+kbs2_spy	hong_410	POST	pymyceu-y1p9d		2011-08-15	나 나다 스파이명월 보는딩 tagcry ㅇ tagcry 어떤사람 무조건 한예슬욕 한예슬욕하 네티즌 네티즌들을 존나게까네 tagexclamation 미치다 시발 시청자 드라마만보지 한예슬 피다 맘에안드는것 생각 이해 봐야 봐야되 봐야되나 tagcry 난 나다 날다 보는입장 한예슬까 한예슬까도 되다 생각 기분좆 기분좆같 잡치다
+kbs2_spy	dlstodemf45	POST	pymycru-y4jq2		2011-08-16	나 나다 스파이 명월잘 명월잘보 있다 tagcry tagsmile 뭥미 책임감이없는거야tagquestion 누 누가 잘못이야tagquestion
+kbs2_spy	blairnori	POST	pymyd56-_whka		2011-08-15	스파이 명월한예슬 촬영 불참 결국 결방 kbs tv 월화드라마
+kbs2_spy	poplermib	POST	pymyden-5i429		2011-08-16	한예슬 스파이명월 촬영 중 미국 출국 도대체 왜tagquestion
+kbs2_spy	b4723	POST	pymydkz-5yp0h		2011-08-15	한예슬 스파이명월 결방 뒤 전격 미국행
+kbs2_spy	cjdmadlek032	POST	pymydwu-_gtgk		2011-08-15	한예슬 출국햇대 usa tagexclamation 그럼스파이명월은 tagquestion
+kbs2_spy	gyuri0807	POST	pymydxr-yqgv9		2011-08-15	스파이명월 결방 진실은tagquestion tagexclamation
+kbs2_spy	poplermib	POST	pymydyp-5i429		2011-08-16	단독 한예슬 촬영파행 스파이명월 여주인공 교체결정 드라마 계속간다
+kbs2_spy	daailce	POST	pymyeeu-ysjuq		2011-08-16	스파이명월 이제 어떻다 되는거야tagquestion tagcry 스파이명월 한예슬
+kbs2_spy	insos02	POST	pymyehi-_8lnw		2011-08-16	스파이명월 스페셜방송 다시보기 스파이명월 스페셜방송 다시보기
+kbs2_spy	testonikorea	POST	pymyejm-y2orb		2011-08-18	testoni 아 테스토 테스토니 스파이명월 한류스타 강우 에릭 에릭이 선택 테스토 테스토니 스니커즈스파이명월 한예슬 촬영장 복귀 tagexclamation 스파이명월 화이팅 에릭 화이팅
+kbs2_spy	time4j	POST	pymyg0j-539sv		2011-08-16	한예슬 사태보단 스파이명월 사태 불러야겠지 오다 남다 남 촬영 마 마치 언론 포장 들어가다 단순 해프닝 끝날수 있다 사건 사다 그녀 그녀도 대단 기분파인듯 용기 낸것 낸것에 대하다 대단 밖
+kbs2_spy	s_so2	POST	pymygok-_bmhh		2011-08-16	결국 한예슬 교체한다네 스파이 명월 안봐서 상관 없다 한예슬 성격 착한줄 알다 완전 무책임 이번 사건때문 이미지 완전 추락할거
+kbs2_spy	gwj01061	POST	pymyh7j-_sffu		2011-08-18	월화 월화는 스파이명월 수목 보스를지켜 토일 토일은 여인의향기 바쁘다바뻐
+kbs2_spy	jin_e0216	POST	pymyhaq-fdlx		2011-08-18	스파이명월 한예슬 촬영 복귀 후 공식사과 장면포착 빠른시 잘해결 잘해결되어서 다행 힘내다 마지막 최선 다 화이팅 tagexclamation tv리포트
+kbs2_spy	keenchii	POST	pymyhhq-s1lk		2011-08-16	스파이 명월 명월은 재미 tagsmile 좋다
+kbs2_spy	sunnykim4711	POST	pymyhq_-yije_		2011-08-16	어제 월화드라마 스파이 명월 보다 하다 한예슬 미국 튀어다네 튀어다네요
+kbs2_spy	dong	POST	pymyibc-x_p		2011-08-15	한예슬 촬영 파행 스파이명월 여배우 교체
+kbs2_spy	tnsdk5424	POST	pymyj0r-yzhpd		2011-08-17	한예슬님 정말불쌍 tagcry 자신도지금힘들텐데 언론은모든잘못 한예슬씨탓이라고 얼마나스트레스 고통을받고 힘내셨으면좋겠습니다 그래도스파이명월복귀하니다행이에 한예슬씨힘내세요tagsmile응원 tagsmile
+kbs2_spy	p61444	POST	pymyj31-_qrty		2011-08-17	한예슬 찍고 찍고있는 스파이 명월 제미있었는데 한예슬 언니 촬영 안하다 바라다 바람 월요일 못 그리다 화요일 텔레비전 못보는데 tagcry 슬프다 다음주 어떻다 될까tagquestion 볼수 볼수는 있을까tagquestion tagcry
+kbs2_spy	hyunji1692	POST	pymyjet-5s2nd		2011-08-16	그럼 이제 스파이 명월 어케 되는거임tagquestion 알아tagquestion
+kbs2_spy	remihyun2458	POST	pymyjf7-yf0cw		2011-08-15	한예슬 tagcry ㅡ tagcry 스파이 명월 봐야 봐야되는대 헐 에릭 에릭은 어쩌다
+kbs2_spy	inylove82	POST	pymyjia-suo		2011-08-16	한예슬 죽다 죽 걸 하다 잠적 걸 하다 아니다 배째 배째라 생뚱맞다 애 명월 명월이 명월이라 데구 나올지도tagquestion tagsmile 스파이명월 어느 컨셉 컨셉으 가다 가려 tagquestion 암튼 시청률 폭발 기대 기대다
+kbs2_spy	cutemj99	POST	pymyjj0-yky3h		2011-08-16	아아아아아아아아 기도 오늘 스파이명월제발 스페셜따위 제대로 제대로된 방송 흙흙 아 강제 끝내는건아니겟징tagquestiontagsmile taglove
+kbs2_spy	ma3513	POST	pymyjma-3489		2011-08-15	헐 진짜 스파이명월 스페셜 스페셜함 하필 중요한장면 tagcry 내일은잘
+kbs2_spy	dlauddms0203	POST	pymyjmu-yz_m5		2011-08-16	사람 미투 미투에 스파이명월글쓴거 보다 보 웃다 웃기다 웃기 진짜 한예슬어떻게 그럴수 그럴수있을까 스파이명월 어떡 tagcry kbs 어떡 tagcry
+kbs2_spy	ma3513	POST	pymyjx3-3489		2011-08-15	아진짜 스파이명월스페셜 진짜 재미 오늘 일주일 일주일이 애타게기다려왔는데 그중요 그중요한 장면 tagexclamation ㅇㄴㅇㄴㅇㄴㅇㄴㅇㄴ
+kbs2_spy	daisy6365	POST	pymyjxr-yh2qn		2011-08-15	우리집 taglove 발도장 tagexclamation 지금 스파이 명월 보고 보다 보 있는듕tagsmile 왜 외다 했던거만 보여주지tagquestion tagcry 근데 한예슬 대박 이쁘다 tagsmile via 아임in
+kbs2_spy	arden123	POST	pymyk12-y6l39		2011-08-18	에릭 심경고백한예슬 파문 대한 대하다 에릭 심경고백 스파이명월
+kbs2_spy	junes26	POST	pymyk1e-yxvov		2011-08-17	스파이 명월 회 월 일 방송 보기 보다
+kbs2_spy	jinifox	POST	pymykdy-58kea		2011-08-15	단독확인 단독확 스파이명월 한예슬 오후 시 미국 l 진짜 간거야tagquestion설마 하다 뇌 있다 가겠어tagquestion 뇌 없었나봐 한국 여배 우 들어오다 땐 아마 난 나다 날다 앞서다 안티일꺼 안티일꺼야 스포츠조선
+kbs2_spy	kwensa98	POST	pymykih-seul		2011-08-16	헐 스파이명월 완죤막장 tagsmile
+kbs2_spy	naver_news	POST	pymyku9-bj_k		2011-08-16	연예 kbs 스파이명월 여주인공 없다 가다 갈다 네이버 뉴스 news 스포츠서울 스파이명월 한예슬 촬영 거부
+kbs2_spy	waxkiki	POST	pymyl0t-y7f93		2011-08-16	스파이 명월 한예슬 촬영불참 pd교체요구 촬영거부 미국la출국 귀국 촬영복귀 까다 총정리
+kbs2_spy	asd4174371	POST	pymylja-ynto3		2011-08-16	스파이 명월
+kbs2_spy	sinaepark12	POST	pymylvu-_mxrl		2011-08-16	황인혁 pd 한예슬 출국 스파이 명월
+kbs2_spy	i2235	POST	pymym8s-r1so		2011-08-18	스파이명월보는사람미투
+kbs2_spy	psy7956	POST	pymymqc-y1mft		2011-08-18	스파이명원 에릭 한예슬 한낮 화기애애 맥주파티
+kbs2_spy	n23gg83	POST	pymyn2h-_taq8		2011-08-16	스파이명월 한예슬 돌연 한국떠나tagquestion충격 불타 여고딩 여고딩의 숲 옹달샘 초대 tagexclamation http bnm com 불타 여고딩 여고딩의 숲 옹달샘 초대 tagexclamation 매일경제
+kbs2_spy	n23gg83	POST	pymyn73-_taq8		2011-08-16	스파이명월 한예슬 돌연 한국떠나tagquestion충격 안녕 좋은인연 만나다 만남 해 대한민국 얼짱 몸짱 이곳 이곳에 다 모였습니 다 힘들다 채팅 채팅으 만남하 매일경제
+kbs2_spy	mandalaywith	POST	pymynl_-bq3n		2011-08-16	단독인터뷰 quot 예슬이 예슬이가 상처 같다quot quot 연예활동 이번 이번에 우리 한예슬이 한예슬이가 상처받은것 잘못 있는거 알다 내일 내 스파이명월 촬영복귀 말무리 하시면 좋겠셔 좋겠셔요 정말 힘내다 tagsmile daum연예
+kbs2_spy	n23gg83	POST	pymynvw-_taq8		2011-08-16	한예슬 버티다 한판승tagquestion 스파이 명월 결방 불가피 taglove 대학생 언니과 화끈하게 놀다 taglove 대학생 언니과 화끈하게 놀다 소통 livere 라이블리 댓글
+kbs2_spy	mandalaywith	POST	pymynzu-bq3n		2011-08-16	이번 이번에 우리 한예슬이 한예슬이가 상처받은것 알다 내일 내 스파이명월 촬영복귀 말무리 하시면 좋겠셔 좋겠셔요 정말 힘내다 제작사 황인혁pd 잘못 라 라고 인정할니까 미치다 한국연예부기자 여배우 마녀사냥 몰아가다 말다 말세 년재미얀마팬
+kbs2_spy	dja5766	POST	pymyo2z-5pu7n		2011-08-15	헐 스파이명월 여자주인공 교체 tagexclamation tagquestionㄷㄷ 매주기다리던 나의심정 찢어지 찢어지내 이번주 이번주에 무지 두근대다 기달렸는데 tagcry 이게 날벼락 tagcry ㅡ 난 나다 날다 꿈속 꿈속에서 스파이명월 보다 보 꿈을꿨는데 하 하다 근데 갑작스레교체하면
+kbs2_spy	hive2360	POST	pymyodc-yw0w8		2011-08-16	스파이명월재밋넹 tagsmile
+kbs2_spy	wlstjd0103	POST	pymyp7f-yteet		2011-08-15	아 스파이 명월 뭐 tagexclamation 스페셜tagquestion 내가그거볼려구 오늘 아침
+kbs2_spy	wlstjd0103	POST	pymypae-yteet		2011-08-15	아 이건 내일 스파이 명월 스페셜은아니겟죠tagquestion 엄청기달렷는데 tagcry
+kbs2_spy	angela2go	POST	pymyq5v-1by4		2011-08-16	스파이 명월 속 인테리어 따라잡다 tagexclamation 스파이 명월 속 인테리어 따라잡다 tagexclamation
+kbs2_spy	minne12	POST	pymyr0a-203e		2011-08-15	헐 스파이 명월 안하다 tagcry 내 내다 인생 활력소 tagcry
+kbs2_spy	wlstjd0103	POST	pymyr0q-yteet		2011-08-15	스파이 명월 스페셜 한예슬누나 한예슬누 촬영하 촬영하로 한국오 한국오로 ㅡ 부탁해 부탁해여 흑흑 스파이 명월 팬들께서 팬들께서는 전부 기달리는데 이러묜 내일 제대로 제대로된 드라마 한예슬누나 한예슬누 파팅 tagexclamation
+kbs2_spy	tkwkqkrtk	POST	pymyrc5-ygrkz		2011-08-17	뜨알 스파이명월에한예슬언니가촬영거부했대요 언니 난언니믿을께 난언니믿을께요 tagcry 힘들어도화이팅 tagexclamation
+kbs2_spy	wlstjd0103	POST	pymyrpx-yteet		2011-08-15	스파이 명월 스페셜 한예슬누나 한예슬누 누나떔 누나떔에 스페셜하자나욧 tagexclamation 열시미 기달렷는디
+kbs2_spy	qkrskdud1211	POST	pymyrwx-b1sj		2011-08-16	한예슬 왤케 이쁘지tagquestion 스파이 명월 개이쁜데 예슬언니 오다 여신미모 보여주뗴 보여주뗴요 한예슬개이뻐 짱ㅉ앙짜
+kbs2_spy	hyun6232	POST	pymysp6-ug6w		2011-08-16	한예슬 스파이 명월 결국 이렇게 하차 하차하는구 쯧쯔
+kbs2_spy	sjh_world	POST	pymysy0-po5j		2011-08-16	한예슬 왕따 왕따다 당 kbs 고위관계자 토로 토 한예슬 일 오전 시 분 촬영장 도착 하다 늦잠 자 자다 오후 시 분 모습 드러내다 ㅡ이거 ㅡ이거부터 잘못된건 아니다 아니 tagquestion 결국 명월 명월이 명월이는 여배우 교체
+kbs2_spy	sunnykim4711	POST	pymysza-yije_		2011-08-16	스파이명월 잘 자다 해결 바라다 스파이명월 팬 패다
+kbs2_spy	blueskydk7	POST	pymyt44-yluju		2011-08-16	스파이 명월 속 인테리어 따라잡다 tagexclamation 스파이 명월 속 인테리어 따라잡다 tagexclamation
+kbs2_spy	gyny	POST	pymyt5h-yevkk		2011-08-16	스파이 명월 명월을 왜 외다 보다 tagexclamation 한예슬 엉엉
+kbs2_spy	rlaguswl0488	POST	pymytai-byq0		2011-08-17	tagsmile 스파이명월 시청률 떨어지다 tagsmile 안그래 안그래도 낮다 tagsmile 에서 ㅉㅉ 한예슬 그런짓 그런짓을 해쓰 해쓰니
+kbs2_spy	hipary1	POST	pymyts5-yuvxa		2011-08-18	에릭 추측 이제 끝 tagexclamation 예슬 예슬이 응원 지랄 한번 한예슬 따먹어볼려고쑈를 따먹어볼려고쑈를하네 미친새끼 그리따물사람이없나ㅂㅅ새끼 스타뉴스
+kbs2_spy	naver_news	POST	pymyt_l-bj_k		2011-08-16	연예 한예슬측 표사는 표사는대 귀국 드라마복귀 희망 네이버 뉴스 news 스타뉴스 한예슬 스파이명월 복귀 희망
+kbs2_spy	arm05082	POST	pymyu5v-oz0d		2011-08-16	아 진짜 좋다 나 나다 말리지마 나 나다 죽다 몰다 tagcry 오늘 스파이명월 재대로한댘 tagsmile 한예슬 죄송 촬영 힘들다 판단이흐려졌다면서 귀국 복귀한대 아 진짜 개념있넼 tagsmile 아증말 지금 오다 다행이넼 tagsmile
+kbs2_spy	rodydwl	POST	pymyusa-w1c9		2011-08-16	한예슬 하루 복귀tagquestion 소속사 공식사과 스파이명월 계속
+kbs2_spy	choiks0816	POST	pymyvv1-239		2011-08-16	한예슬 촬영 파행 스파이명월 여배우 교체 한예슬 실망 tagcry 이데일리
+kbs2_spy	dong	POST	pymyw41-x_p		2011-08-15	kbs 스파이명월 한예슬 교체 특단조치
+kbs2_spy	b4723	POST	pymyw50-5yp0h		2011-08-15	한예슬 촬영 파행 스파이명월 여배우 교체 이데일리
+kbs2_spy	mensa	POST	pymywm3-9c2v		2011-08-16	kbs 스파이명월 여주인공 새 캐스팅 공식 입 황당 연유 알고싶네 tv리포트
+kbs2_spy	asj2514040	POST	pymywqj-_g7qu		2011-08-15	바비 키다 사랑 무섭다 네이버앱 음악검색 스파이 명월 ost part
+kbs2_spy	hj10kr	POST	pymywy9-h27y		2011-08-15	한때 죽다 지금 내 내다 모습 내 내다 위치 도망가다 걸 꿈꾸다 나 지금 스파이 명월 보다 비단 비다 한예슬 잘못 있다 않다 거다 생각 들다 도대체 무슨 일 일어나다 있다 걸까
+kbs2_spy	mountkorea	POST	pymyxkj-yw_p5		2011-08-16	한예슬 황인혁 스파이명월 pd 교체요구 촬영거부
+kbs2_spy	gyny	POST	pymyxuw-yevkk		2011-08-16	스파이 오늘 어떻다 되지tagquestion tagexclamation 한예슬 엉엉
+kbs2_spy	bntnews	POST	pymyxz6-5rtw7		2011-08-16	bnt 뉴스 한예슬 스파이명월 pd pd와 대립각 지인 문자 남다 남기다 la출국tagquestion 연예 이번 한예슬 출연 거부 대해 대하다 미치다 여러분 어떻다 생각하시나요tagquestion 시청률 저조 한예슬 오랫 오랫만 복귀작 복귀작으 참 차다 재밌게 봤었는데 tagcry 아쉽다
+kbs2_spy	yna	POST	pymyy51-z1ou		2011-08-16	연예 한예슬 미국 갈 가다 가방 싸놨다 싸놨다고 수차례 말 kbs 드라마 스파이 명월 의 촬영 무단 불참 잠적 한예슬 그간 수차례 미국 갈 가다 가방 싸놓았다 미국 가버릴 이 말 것 전해지다
+kbs2_spy	yeana30	POST	pymyy97-500fo		2011-08-16	무사 백동수 화 호다 계백 화 호다 스파이 명월 월화드라마 무료 다시보기
+kbs2_spy	dhw07240	POST	pymyye6-akmf		2011-08-17	한예슬 스파이 명월 촬영 복귀한다 tagexclamation 한예슬언니 힘내구 언니같은사람 왕따겠어요tagquestion에이설마 언니 힘내다 아자아자화이팅 taglove 언니 제가 제 도미노피자도많이먹고 귀애랑 귀애랑도 살테 살테니 제발연예인은퇴는ㄴㄴ힘내라힘 스포츠조선
+kbs2_spy	dhw07240	POST	pymyyi3-akmf		2011-08-17	스파이명월 제작진 방송 한예슬 디스tagquestion 제작진이너무 스포츠서울
+kbs2_spy	magiclucifer	POST	pymyypv-_i3ea		2011-08-16	원문 tistory스파이명월 한예슬 촬영거부 잠적 못 막다 막 kbs제작진 문제 스파이명월 한예슬 촬영거부 잠적 못 막다 막 kbs제작진 문제 스파이명월 한예슬 촬영거부 잠적 웹
+kbs2_spy	bluesapire	POST	pymyyuv-50bcx		2011-08-16	한예슬 한예슬 방송펑크사건 스파이명월 한예슬 사건 사다 급기야 급기야는 점점 막장 치달으면서 끝 안보 본인 미국 날르 날르고 막장 끝은tagquestion
+kbs2_spy	dkanrjsk52	POST	pymyy_t-nc16		2011-08-16	스파이명월 한예슬 나가다 안볼꺼 안볼꺼야 tagexclamation 절대
+kbs2_spy	josephfin	POST	pymyzor-53wb9		2011-08-18	스파이 명월 tagexclamation 한예슬와 에릭 힘내다 tagexclamation
+kbs2_spy	ghjswr120	POST	pymy_4o-5idzl		2011-08-16	스파이 명월 일 더커지네 못 고칠듯
+kbs2_spy	letitbemee	POST	pymy_b0-_ti5x		2011-08-18	에릭 극적 화하다 화해 한예슬 사태 불편 심경 드러내다 이런데 관여치 안다 하다 이넘 이넘도 참 비겁 별 볼일 한심 넘일쎄 그랴 joinsmsn
+kbs2_spy	gyoums	POST	pymy_lb-ylhfx		2011-08-16	드라마 스파이 명월 의 한예슬 사건 둘러싸다 음모 전말tagquestion
+kbs2_spy	loveandroll	POST	pymy_o1-9mad		2011-08-16	점점 스케일 커지다 스파이명월
+kbs2_spy	townpon	POST	pymy_pv-5ohvy		2011-08-16	타운폰스파이명월 타운폰스파이명월과 타운폰 타운폰이 함께하 함께하는 이벤트 시부터진행 파리바게뜨 천원이용권 무료 tagexclamation http t co wxvwoon
+kbs2_spy	umyera	POST	pymy_wl-5bmlm		2011-08-15	헐 오늘 검색어 한예슬 떴죠tagquestion완전 대박 tagexclamation 어떻다 이럴 수가 수 난 나다 날다 한예슬 사람 몰랐어요 찰영 찰영을 거부 사람 우 난 나다 날다 정말 착하다 사람 줄 주다 믿다 있어는데 아닌가봐 아닌가봐요 스파이 명월 재미 보구 있다 tagcry
+kbs2_spy	yeana30	POST	pym_0bq-500fo		2011-08-17	무사 백동수 화 호다 계백 화 호다 스파이 명월 월화드라마 무료 다시보기
+kbs2_spy	snfl1194	POST	pym_0zb-y33yh		2011-08-18	시티헌터계속햇음조았을텐뎀 요즘은면월이한테빠졌음 tagexclamation 스파이명월 tagexclamation 여이의햐이기도조앜 tagsmile
+kbs2_spy	uumall2006	POST	pym_1wu-51gp0		2011-08-18	한예슬 에릭 한예슬드라마복귀 유유몰
+kbs2_spy	rlarlqja2589	POST	pym_295-1thm		2011-08-19	천자칼럼 한예슬 에릭말 에릭말로 하다 안되다 안되 막노동 노동자 말 아무 아무도 들어주다 않다 상황 몰다 아무 아무에게 말 노력 하지 하다 hankyung
+kbs2_spy	minam573	POST	pym_2io-yd29g		2011-08-19	천자칼럼 한예슬 에릭음 사람 사다 일하다 견딜수잇는 노동시간이있고 일 종류 시간당 피로 피 누적양이다를거 배우 스탭 저울질 한회 hankyung
+kbs2_spy	grace1701	POST	pym_34t-_mi61		2011-08-17	스파이명월 대박 재미 tagexclamation 한예슬언니 제발 스파이명월 복귀 했음ㄴ 좋겠는디 오늘 귀국한데나tagquestion 암튼 스파이명월 영웒라 tagexclamation
+kbs2_spy	luckygirlmj	POST	pym_3ok-5z5j2		2011-08-18	한예슬 한예슬 스파이명월 촬영 복귀
+kbs2_spy	hatbit29	POST	pym_4sq-e9b_		2011-08-17	스파이명월결방 에릭 스파이명월 결방 사태 속상 마음 심경토로
+kbs2_spy	jiruhecom	POST	pym_4xt-_50e_		2011-08-17	스파이명월 회 월 일 토도우
+kbs2_spy	dks072	POST	pym_595-ye272		2011-08-17	한예슬 복귀의사 한예슬사태 tagexclamation 후폭풍은tagquestion tagexclamation 스파이명월 여주연교체 무산tagquestion tagexclamation
+kbs2_spy	hbyang99	POST	pym_5l4-5jl97		2011-08-16	요즘 챙기다 스파이 명월 한예슬 나뽀 tagexclamation 그럼 어케 되다 되 걸깡tagquestion tagcry 제발 종영 안되다 좋다 tagsmile
+kbs2_spy	kirl900r	POST	pym_60_-ytou_		2011-08-18	한예슬 드라마 스파이명월 촬영장 복귀
+kbs2_spy	insos02	POST	pym_6iz-_8lnw		2011-08-17	스파이명월 회 다시보기 스파이명월 회 다시보기
+kbs2_spy	big3253	POST	pym_7su-5j22t		2011-08-17	으아 방학두 며칠안남앗넵 tagcry 방학숙제 어쩌다 행복끝 tagexclamation 불행시작 tagexclamation tagcry 이로구 이로구나 여인의향기 불굴 며느리 공주 남자 남다 스파이명월 빠져사는데 개학 어떻 어떻해 tagcry
+kbs2_spy	ssm9711	POST	pym_7vy-83_4		2011-08-16	스파이명월 한예슬조아하지도 싫어하지도않앗는데싫어질라그럼ㄷ 머 머야 간지얼마나됫다고바로와서또촬영하겟데 ㅡ 더웃기는게공식사과라는게심신이지쳐서판단이흐려졋데 tagsmile 그럼다른배우들은tagquestion 스탭들은tagquestion 그사람들도지치고힘든데제대로생각하고행동햇자 그사람들도지치고힘든데제대로생각하고행동햇자나 비호감ㅁ ㄷ
+kbs2_spy	kyj010116	POST	pym_8ex-5ldnj		2011-08-16	아 쉼쉼 쉼쉼해 tagexclamation mp 듣다 중 앗 스파이 명월 할 하다 시간 다가오다 근대 오늘 스파이명월 스페셜 말다 진짜 하겠지tagquestion
+kbs2_spy	insos02	POST	pym_8n_-_8lnw		2011-08-17	스파이명월 회 다시보기 스파이명월 회 다시보기
+kbs2_spy	lbokl	POST	pym_8_3-_ssxw		2011-08-18	태양성카지노태양성카지노 태양성카지노 bb com 태양성카지노 태양성카지노 입다 이 관련 한예슬 함 스파이 명월 의 주연 배우 출연 중인 중 에릭 에릭은 daum카페
+kbs2_spy	sengokou	POST	pym_9jp-_bo0m		2011-08-19	한예슬 에릭
+kbs2_spy	sepist	POST	pym_9td-_sbqf		2011-08-18	피아제 목걸이 그리다 선풍기 천원 판매 새롭다 추첨경매 시 크루즈 스파이명월
+kbs2_spy	magiclucifer	POST	pym_9vz-_i3ea		2011-08-17	원문 tistory스파이명월 한예슬 굴욕 쪽대본 보복 제작의도 의심 되다 스파이명월 한예슬 굴욕 쪽대본 보복 제작의도 의심 되다 한예슬 스파이명월 제작진 사이 갈등 월 웹
+kbs2_spy	kudolove	POST	pym_9zs-5ynbl		2011-08-17	원문 kbs 한예슬 행동 어떤 이유로 이유로도 용납 없다 배우 한예슬 촬영거부 파행 빚다 빚 kbs tv 월화드라마 스파이 명월 대해 대하다 kbs 웹
+kbs2_spy	swo05024	POST	pym_a9l-_owa0		2011-08-16	스파이명월 재밌닼 tagsmile
+kbs2_spy	candymin12	POST	pym_b6h-541oz		2011-08-16	스파이명월 오늘 결방하나tagquestion 훔 난 나다 날다 보고싶었는데 그렇다 하다 어뜩 어뜩해 그렇다 끝나다 tagcry
+kbs2_spy	dong	POST	pym_bxd-x_p		2011-08-16	스파이 스태프 성명 한예슬 pd 불화
+kbs2_spy	doldaengi	POST	pym_c7b-yvt0h		2011-08-16	한예슬측 복귀의사 표명 스파이 명월 무사 봉합될까tagquestion 본방 본방은 원래 안봤지만 이젠 dmb dmb로 재방송 안볼거라는거 joinsmsn
+kbs2_spy	helentor	POST	pym_c8r-592ze		2011-08-16	나갔다올께 tagsmile스파이명월끝나구올
+kbs2_spy	5696688	POST	pym_cxh-5_s15		2011-08-16	스파이명월어떻 tagcry 한예슬촬영거부 tagcry 오늘까지촬영안하러오면 엄무방해로구속된네 오늘 촬영하러나왔겠지tagquestion
+kbs2_spy	tbrktbrk33	POST	pym_c_u-y_p4_		2011-08-17	나다 나 스파이명월 보스 지키다 오작교형제 이렇게 개본닿 개다 개 짱짱
+kbs2_spy	myway558899	POST	pym_dxd-tc_0		2011-08-17	한예슬 스파이 명월 복귀의사 밝히다
+kbs2_spy	chaelini33	POST	pym_dye-5o8c3		2011-08-16	아싸 tagexclamation 스파이명월 하다 tagexclamation tagsmile 얼마 기다리다 tagsmile
+kbs2_spy	imunna	POST	pym_e25-_si6i		2011-08-16	윤아 윤아도 사실 스파이 명월 명월을 tagexclamation 아 주아주 가끔씩 보다 예슬언니팬이 참안타깝께 화이팅 tagexclamation 응원 해줍시 해줍시다
+kbs2_spy	na12346534	POST	pym_e9q-64k7		2011-08-18	아 진짜 스태프 뭐 해서 하다 자꾸 언플 좀하지 말지tagquestion 그리다 에릭 에릭도 자기 자다 법정스님 관련 망언한거 덮으 출처 후배 핑계대다 tagexclamation 한예슬 뉴데일리 t토크 ttalk
+kbs2_spy	seajin828	POST	pym_edi-5jfz5		2011-08-16	스파이명월 오늘 스페셜하남tagquestion tagcry
+kbs2_spy	tgan2007	POST	pym_eo6-vxo7		2011-08-17	스파이명월 주인공 사망
+kbs2_spy	b4723	POST	pym_eq5-5yp0h		2011-08-16	스파이명월 kbs 공식 입장 여배우 교체해서 방영 완료 알다
+kbs2_spy	dbsthdbs98	POST	pym_f9r-chfd		2011-08-16	스파이명월 이번 이번일 잘 자다 마무리 되가고있죠tagquestion 그리다 다시다 이런일 일어나다 않다 좋다 스파이명월 아무 아무일 없다 촬영 하다 tagexclamation tagexclamation
+kbs2_spy	dovmfxhrxhr	POST	pym_fd4-y1asu		2011-08-17	스파이명월 명월 명월이 불쌍 tagcry 개념 안드로매다 안드로매다로
+kbs2_spy	rosa6971	POST	pym_fn_-y7ve5		2011-08-16	tagsmile 오늘 스파이명월 백동수 계백하는 taglove 스파이명월 시청률 이래두 꾀 재밌더라구 재밌더라구요 스명 스명은 녹화 백동수 백동수는 시 계백 재미없으
+kbs2_spy	seung80won	POST	pym_fsy-oi9a		2011-08-17	귀국 배우 한예슬 tagexclamation 스파이 명월 제작진
+kbs2_spy	seung80won	POST	pym_fvb-oi9a		2011-08-17	귀국 배우 한예슬 tagexclamation 스파이 명월 제작진 배우
+kbs2_spy	gogksehd55	POST	pym_ggg-_scn7		2011-08-19	스파이 명월 진짜 잼따 tagexclamation 에릭 에릭은 어쩜 그리 멋있다 한예슬 이뻐욧 tagexclamation 두다 잘되다 좋다 한예슬 연출자 다투다 다툼 일어나다 일어서다 tagquestion 스파이 명월 그대요tagsmile
+kbs2_spy	ibsool2	POST	pym_gth-56yjr		2011-08-17	한예슬 사과 전화 죄송 스파이 명월 촬영의사 밝히다
+kbs2_spy	01026676411	POST	pym_gw4-_fw2u		2011-08-17	어제꺼스파이명월d b
+kbs2_spy	lkw3106	POST	pym_he_-g9hs		2011-08-16	일 스파이 명월 강남 강 촬영장 무슨일 무슨일이
+kbs2_spy	ferrarif129	POST	pym_hwm-576ns		2011-08-16	ovjet 리리코스 드라마 스파이 명월 명월에 나오다 애 앗다 tagsmile ovjet
+kbs2_spy	chlgptls	POST	pym_hx6-ydfn7		2011-08-16	스파이명월왤케 잼 tagexclamation
+kbs2_spy	rosa10043	POST	pym_hxm-5_0v0		2011-08-16	우앙 스파이명월 넘흐 멋잇어용 tagsmile
+kbs2_spy	key82	POST	pym_ilu-yw3ty		2011-08-16	오늘 스파이 명월 tagsmile 한예슬 사태 예견 만든건지 듣다 대사 어째 다 까는걸 까는걸로 들리다 tagsmile 특 하루아침 스타 되다 애가 애 tagsmile 옉
+kbs2_spy	ch41760	POST	pym_jl0-10tf		2011-08-16	오늘은스파이명월나올까tagquestion계백에서현우얼굴보기맛들렷어 taglove 현우님넘좋 현우님넘좋아 taglove 요새넘좋아지는거잇지tagquestion아이부끄ㅡ러워 tagexclamation taglove 현우님ㅁ팬으로써좋아하긍사랑헤 현우님ㅁ팬으로써좋아하긍사랑헤요 taglove 꺅ㄱ tagexclamation 팬분둘도같은생각이겟져 tagquestion헤헤
+kbs2_spy	won6159	POST	pym_jml-5_fmw		2011-08-16	복귀 좀 조다 어렵다 한예슬 언니 나오다 스파이명월 볼수 있다는것 있다는것에 대해 대하다 하나님 감사 감다 tagsmile tagsmile
+kbs2_spy	kk0923k	POST	pym_l5e-aybw		2011-08-17	t v 드라마 스파이 명월명월 명월명월의 맹목적 사랑고백법은tagquestion
+kbs2_spy	gloomysight	POST	pym_lpc-_ki4i		2011-08-17	방송 장난 한예슬 복귀 의사 네티즌 분노 복귀하건 말다 솔직 관심 한예슬 미끼 스파이명월 인지 뭔지 뭔지하 뭔지하는 드라마 띄우다 수작부리는걸 보일정도 관심 안가 안가는 드라마 sportsseoulcom
+kbs2_spy	hk5311447	POST	pym_lsa-ygi37		2011-08-18	넌내게반했어끝 아진짜재밋었는데 tagcry 이제스파이명월을봐야겠어 tagexclamation 내일학교가기싫다 tagcry
+kbs2_spy	sivc	POST	pym_md0-_59oq		2011-08-16	스파이명월
+kbs2_spy	husarang	POST	pym_mea-5e139		2011-08-17	스파이명월 에릭 에릭의 다양 패션스타일 패션스타 훔쳐보다 명품시계 오메가 좋다
+kbs2_spy	kwkim2580	POST	pym_n1g-5413o		2011-08-17	스파이 명월 명월과 시크릿 가다 가 드림 드림하 드림하이 중 어느 것
+kbs2_spy	co6240	POST	pym_n4g-_p__e		2011-08-18	스파이명월 한예슬씨 한예슬씨가 무책임 일 하다
+kbs2_spy	co6240	POST	pym_n7c-_p__e		2011-08-18	내가얼마나스파이명월 좋아하다 월화요 월화요일 시가 시 되다
+kbs2_spy	grace1701	POST	pym_ncs-_mi61		2011-08-17	예슬언니 tagexclamation 스파이명월 끝 잘 자다 마무리 팬들 팬들을 보서 보서라 제발
+kbs2_spy	tkfadkssud	POST	pym_ngq-_fpsz		2011-08-17	스파이 명월 화 호다 다시보기
+kbs2_spy	grace1701	POST	pym_nlp-_mi61		2011-08-17	비가 비 겁나다 오네용 빨다 날씨 조다 놀러 놀러도 가다 그지용tagquestion 난 나다 날다 스파이명월 푹빠졌네용 드라마 보다 안되는디 예슬언니 한국와서 공개사과 스파이명월 드라마 끝 한데용 번째 말하는중 tagsmile
+kbs2_spy	grace1701	POST	pym_noa-_mi61		2011-08-17	예슬언니 귀국 공개사과한다음 스파이명월 끝 하다 한대 tagsmile 복귀한담tagquestion 암튼 ㅇ
+kbs2_spy	won02198	POST	pym_oac-voop		2011-08-17	한예슬씨 저번 뻉소니 뻉소니로 법정가지 않았나요tagquestion 이번 스파이 명월 사태 그렇다 솔직 아주많 아주많이 실망했답니다 세상 안힘든 일 어딧을까요tagquestion그 안좋 안좋은 배경속 많다 배우 최고 작품 만들어 한예슬씨 한예슬씨는 최고 배우다 배우 아니다 하다 하 생각 드네 드네요
+kbs2_spy	dja5766	POST	pym_okj-5pu7n		2011-08-16	난 나다 날다 스파이 명월 보다 가욤 taglove tagsmile 아무 아무도 않물어 보다 쓸쓸 tagsmile
+kbs2_spy	leecr0922	POST	pym_olg-5o4rc		2011-08-16	난 나다 날다 이 스파이명월보러 tagexclamation tagsmile
+kbs2_spy	wizard_0	POST	pym_p2p-_tqgh		2011-08-17	스파이명월 화 호다 떡밥주워담는중 떡밥주워담는중입니 떡밥주워담는중입니다
+kbs2_spy	dbsthdbs98	POST	pym_q3c-chfd		2011-08-16	스파이명월 오늘 완전 재밌어 재밌어요 tagexclamation 짱이에 짱이에요 tagexclamation 스파이명월 짱 tagexclamation 다음주 본방사수 하다 스파이명월 짱 tagexclamation
+kbs2_spy	luck6344	POST	pym_q5m-_gmy2		2011-08-16	스파이명월 최고의사랑 너무비슷 가는것 가는것같다 스파이명월
+kbs2_spy	whatever3333	POST	pym_qa4-56kgr		2011-08-16	한예슬 뭐길래 그렇다 난리 뭣 모르다 얘기 사람 진짜 웃기다 내 내다 할 하다 거 거다 잘 되다 나도 나다 나 스파이 명월 보다 보지 난 나다 날다 잘 자다 모르다
+kbs2_spy	fromqueen	POST	pym_qfb-7bj5		2011-08-16	한예슬 대타 스파이명월 한예슬 대타 누구tagquestion 솔직 작가 피디 피디가 드라마 이용 한예슬 비꼰듯 한예슬 찍다 바보 아닌이 알아채리 알아채리고 힘들었을듯
+kbs2_spy	sos4illy	POST	pym_red-_stt0		2011-08-18	에릭 한예슬 사과속 스파이 회식 만원 한턱 조임좋고 물 엄청나다 엄청 그녀 그녀랑 하룻밤 붕가 붕가 한번 왼편 보 보이 주소 joinsmsn
+kbs2_spy	lkw3106	POST	pym_sf6-g9hs		2011-08-16	kbs 스파이 명월 교체 한예슬측 신속 귀국 촬영
+kbs2_spy	pluskrr	POST	pym_srp-_khfw		2011-08-16	스파이명월 회 줄거리 아슬아슬 하다 하지 여전 재밌다
+kbs2_spy	7630dldbsk	POST	pym_suc-_06ek		2011-08-16	스파이명월스페셜 개다 개 보다 보 지나갈것 지나갈것같 재미대박 오늘그재서야재미가있넹 한예슬 한명월 빨다 복기하면좋겠당ㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇㅇ
+kbs2_spy	nadiag26	POST	pym_t3i-_icu7		2011-08-17	스파이명월 시청자 한예슬 수치 화 호다 방송 분개 작가 한예슬 안티구 안티구만
+kbs2_spy	lbokl	POST	pym_t78-_ssxw		2011-08-18	와와카지노와와카지노 와와카지노 bb com 와와카지노 와와카지노 다음 스파이명월 스태프 연기자 밝히다 성명서 전문 daum카페
+kbs2_spy	wlstjd0103	POST	pym_tj5-yteet		2011-08-16	스파이명월 아 잼따 근데 한예슬누나 한예슬누 스트레스먹을듯 드라마보니깐 슬프다 힘들꺼 힘들꺼같 힘들꺼같아 미국가 미국가고 한예슬누나 한예슬누 빨리귀국해욤 tagexclamation
+kbs2_spy	djg1218	POST	pym_tp0-yhhdv		2011-08-17	미션 월 화 호다 드라마 스파이 명월 즐겨보다 이강우 한명월
+kbs2_spy	wjddk1745	POST	pym_u08-y4ala		2011-08-18	스파이명월 한예슬 복귀햇데 tagexclamation tagsmile
+kbs2_spy	lovelycong00	POST	pym_u3d-5uo57		2011-08-16	한예슬 복귀 한예슬 스파이명월 촬영복귀 의사 한예슬 스파이명월 촬영장 대화 한예슬 사죄
+kbs2_spy	sch8736	POST	pym_ufm-5hl69		2011-08-16	스파이명월 다시보기스파이 명월 회 다시보기 토렌트 내용보기
+kbs2_spy	luv264	POST	pym_vks-h_s5		2011-08-17	오늘편 스파이명월 보다 보 완전 쓰레기판이구 아주 대놓고 디스라 디스라니
+kbs2_spy	dja5766	POST	pym_waq-5pu7n		2011-08-16	아무리 생각 나 나다 스파이 명월 광팬 광팬이듯 tagsmile 다르다 사람 드라마 좀 조다 별로 별로라 난 나다 날다 재미있엉 tagsmile 쵝옥야 tagsmile
+kbs2_spy	dja5766	POST	pym_wgu-5pu7n		2011-08-16	두근두근 taglove taglove 좀 있다 스파이 명월 시작 tagsmile tagsmile 분 동안 어뜨케 기달리 tagcry
+kbs2_spy	dja5766	POST	pym_wvy-5pu7n		2011-08-16	룰라랄라 룰루랄라 신나다 신나 드라마 시청 tagsmile 진짜 명월 죽나tagquestion 아니 아 겠지 한예슬 일 쯤 쯤에 복귀 하다 했으니깤 tagsmile 아닐꺼 아닐꺼야 재발
+kbs2_spy	hyeonyeon7	POST	pym_wzu-5ej7k		2011-08-16	어제 스파일명월 안보 보다 스페셜 스페셜로 줄거리 다 보여부는거예 보여부는거예요 tagsmile 전 절다 오다 이어서 보다 내용 다 알겠다했죠 tagsmile 근데 아침 뉴스 한예슬씨 한예슬씨가 떠나다 깜놀 요즘 드라마 tagcry 급하다 만드는거 만드는거에 반성 하셔야할듯 tagcry tagcry
+kbs2_spy	lovelycong00	POST	pym_x9l-5uo57		2011-08-17	장희진 팬츠 스파이명월 회 장희진 주인 옷 패션 줄무늬 팬츠 의상정보
+kbs2_spy	cjinm0206	POST	pym_xb0-y9vrg		2011-08-20	에릭 에릭은 자신 뉴스 가리다 위해 위하다 한예슬 소환 그런건가
+kbs2_spy	solsom2002	POST	pym_ydk-_qv6n		2011-08-16	나 나다 스파이 명월 좋아하다 tagcry 한예슬 돌아오다 다행이닷 tagsmile
+kbs2_spy	thd5229	POST	pym_ylp-_qkr2		2011-08-17	스파이명월이엿 명월 명월아 돌아오너랏 기다리다 있겟소 흐헝 tagcry
+kbs2_spy	thd5229	POST	pym_ysl-_qkr2		2011-08-17	으씨 아 스파이명월 이 한예슬 한예슬이 어디가시나욧 스파이명월이 돌아오다 간절 기원 있다 이미송입니닷 tagsmile
+kbs2_spy	thd5229	POST	pym_yuo-_qkr2		2011-08-17	단독한예슬 일 귀국 흐헝 이제 오시면 어뜨캄니까 스파이명월 다 찍다 가시죵 주인공 없다 어뜨캅니깡 이데일리
+kbs2_spy	truelove7712	POST	pym_yvs-vvvq		2011-08-17	스파이명월 한예슬 이제와서 드라마 찍다
+kbs2_spy	sandcool	POST	pym_zpx-59g33		2011-08-16	오늘 스파이명월 보다 보 한예슬 도망가다 만 말다 하다 한예슬 까다 대사 줄줄 줄줄이 나오다 나 제작진 치졸 보
+kbs2_spy	rkdl3744	POST	pym_zwq-_ifwz		2011-08-16	아 tagcry 스파이명월너무재밋음
+kbs2_spy	segyuny	POST	pym__5e-g94y		2011-08-16	스파이 명월 명월을 둘러싸다 이야기 극화 상 그럴싸한 작품 나오다 같다 우리 앨런 앨런의 브로드웨이 브로드웨이를 쏘다 같다 이야기 만들다 재미나다 같다
+kbs2_spy	guswlstjdwo	POST	pyo411t-52t8d		2011-08-16	한예슬 출국설 스파이 명월 여주인공 교체 한예슬 pd pd와 말다툼
+kbs2_spy	dreamgy04	POST	pyo419d-_ywr5		2011-08-16	스파이명월 스페셜 월 일 다시보기 스파이명월 결방
+kbs2_spy	foreverwcw	POST	pyo41b6-yifj0		2011-08-16	한예슬씨 기사 보다 보다 정말 가관 생각 듭니 듭니다 타이틀 롤 롤을 맞고 맞고있는 주연배우 맞습니까tagquestion 더군다 더군다나 드라마 타이틀 스파이명월 이 거 거다 잊으셨나요tagquestion 회의 회 마지막 장면 자폭하신겁니까tagquestion 본인 직접 해명 바라다 tagexclamation 웹
+kbs2_spy	ji4518	POST	pyo41bl-_ob72		2011-08-16	한예슬언니 어떻다 되다 거에요tagquestion 오늘 스파이명월 못하다 못하거 아니다 스페셜 하다 하 거 거다 아니죠tagquestion 솔직 한예슬언니 별루 였는데 유명 이쁘다 배우 여배우 바꼈음 해 tagexclamation
+kbs2_spy	alialuii	POST	pyo41kd-hmwx		2011-08-15	기사 기다 촬영불참 한예슬 스파이 pd교체 요구 알려지다 연출자 바꿔달라
+kbs2_spy	dkfldk772	POST	pyo42bf-yp01n		2011-08-15	아 제발 한예슬언니 빨다 한국들어오셔서 스파이명월 촬영해야줘 tagcry tagcry 그거 대게 즐겨보다 있다 그러시면 어떡 제발 pd pd랑 화푸시 화푸시고 tagcry tagcry 촬영
+kbs2_spy	007ck	POST	pyo42jc-59k52		2011-08-15	대단 한예슬 스파이명월 pd교체 요구 실튼 좋튼 공개 사람이구 약속이구 모 일 하다모면 정말 이건 아니라구 생각들때 있다 그렇다 안할수 안할수도 없잔아요 일 마무리 후 해결 것 올 오다 mbn
+kbs2_spy	ehddk5000	POST	pyo43ga-m061		2011-08-16	한예슬일반 사업가 교제중 한예슬 tagexclamation 스파이명월 여주인공 교체
+kbs2_spy	maplehekja	POST	pyo4490-x559		2011-08-15	링크명월스파 링크명월스파이 한예슬 외국 튀다 tagsmile 닥터후 재생성 하다 해 tagexclamation tagsmile i don t want go tagexclamation
+kbs2_spy	noble_ps	POST	pyo44bt-_8s5r		2011-08-15	한예슬 스파이 명월 촬영거부 속사정은tagquestion
+kbs2_spy	angelgod0529	POST	pyo44cz-5twts		2011-08-15	난 나다 날다 스파이명월 팬 tagcry 한예슬언니 실망이네 문자메시지 딸랑 남다 남기다 가버리시다 가버리시다니 한땐 팬 실망이네 tagcry
+kbs2_spy	caboom911	POST	pyo44ej-5xcck		2011-08-15	대단 한예슬 스파이명월 pd교체 요구 학생 담임선생님 맘 안든다 안든다고 바꿔달라는건가tagquestion tagsmile
+kbs2_spy	hsy4488	POST	pyo44ss-5eodv		2011-08-16	으악악 어떻하지여tagquestion 스파이 명월 명월의 한예슬 무책인 무책인하게 떠나간것 같다 실망 학생 이니깐 이해 줄수 있을법 하네 하네여 덕분 계백 넘어가버렸어 tagexclamation 다른분들은tagquestion
+kbs2_spy	5443151	POST	pyo44_p-ykafj		2011-08-16	그리다 한예슬씨 한예슬씨랑 스파이명월 피디님 둘중 둘중의 한명 한명을 비난 분들 분들이 많다 이건 두분다 잘못 일 같다
+kbs2_spy	tmdrb0168	POST	pyo4671-5i5fh		2011-08-16	한예슬 촬영 파행 스파이명월 여배우 교체 이유 어떻다 됬든 공인 책임감 없다 실망 이데일리
+kbs2_spy	sm21264	POST	pyo46bl-p6po		2011-08-16	헐 스파이명월 결국 여주인공 교체한다네 액션도있고 하지원씨 하다 하는바람도 하는바람도있네 tagsmile 스파이명월 여주인공교체 여주누가 여주누가될까 여주누가될까요 tagexclamation
+kbs2_spy	loveisislove	POST	pyo46tk-56598		2011-08-16	스파이명월 한예슬촬영 거부 한예슬 일  출국 돌아오다 표 안 알다 끊다
+kbs2_spy	iu2604	POST	pyo4792-5cv4q		2011-08-16	스파이명월 한예슬 스파이명월한예슬
+kbs2_spy	kongsuni3451	POST	pyo47co-_9t_s		2011-08-15	한예슬 스파이명월 결방 뒤 전격 미국행
+kbs2_spy	tjsrud08	POST	pyo47dp-_gsob		2011-08-15	한예슬 촬영거부 한예슬 일 미국행 스파이명월 초비상 모델 tagexclamation y
+kbs2_spy	alswl6769	POST	pyo47nf-ys9g5		2011-08-15	으아 스파이명월 어뜩 어뜩해 즐겨보구 즐겨보구있는데 한예슬 촬영불참이래 촬영불참 tagcry 막 pd바꿔달라고 뭐 하다 정말 종영되는거 아냐tagquestion tagcry 우씨 tagexclamation 오늘 촬영못 촬영못해서 스파이명월스폐셜 한데 하다 tagcry 이게 모
+kbs2_spy	gusdk9088	POST	pyo48h1-_q83m		2011-08-15	촬영불참 한예슬 스파이 pd교체 요구 알려지다 연출자 바꿔달라
+kbs2_spy	wjddmswn1014	POST	pyo49rv-y6zao		2011-08-15	스파이명월 결국 스페셜방송 대처 솔직히말해서 한예슬님께 좀 조다 실망
+kbs2_spy	meday6	POST	pyo4a3m-_it30		2011-08-16	아 어제 스파이명월 결국 안하다 안했구 tagcry 아 평화 콘서트 일나다 볼 보다 껄
+kbs2_spy	pusspaw	POST	pyo4bn_-5kzwp		2011-08-16	스파이명월 한번 보다 내용 자체 이상 안 안보 있다 다르다 드라마봐야지 그걸 왜봅니까tagquestion
+kbs2_spy	304shj	POST	pyo4bsb-4kds		2011-08-16	한예슬 스파이명월
+kbs2_spy	eunhae1999	POST	pyo4ce9-59gv8		2011-08-16	스파이명월 어떻게될까요tagquestion
+kbs2_spy	guddms604	POST	pyo4cmo-wfj9		2011-08-15	dk 스파이명월 tagcry
+kbs2_spy	skaksqhffo54	POST	pyo4d9d-5hcrl		2011-08-15	한예슬 스파이명월 촬영합류 안하다 형사고소
+kbs2_spy	skaksqhffo54	POST	pyo4d9r-5hcrl		2011-08-15	kbs 스파이명월 한예슬 불참 결방 위기
+kbs2_spy	wmmh0302	POST	pyo4e1w-5_lrx		2011-08-16	스파이명월 이제어떻하죠tagquestion
+kbs2_spy	telenet5425	POST	pyo4eah-5g77w		2011-08-16	에릭 한예슬사태 최대피해 최대피 불구 끝 최선
+kbs2_spy	leemh4850	POST	pyo4f72-_ix_2		2011-08-16	한예슬  출국 스파이 명월 중도 중 하차 tagexclamation
+kbs2_spy	tjsrud08	POST	pyo4fav-_gsob		2011-08-15	황인혁 스파이 명월 결방 일 한예슬 촬영 불참 원인 원 모델 k
+kbs2_spy	tnghcjstk450	POST	pyo4fjo-yqj3e		2011-08-16	민경 민경아 너가좋아 너가좋아하 너가좋아하는 스파이명월 한예슬 미국이 미국이로 튀다 tagsmile 안돌아오면 여주인공 교체할꺼래 tagsmile
+kbs2_spy	wldk0817	POST	pyo4fuo-_ygch		2011-08-15	스파이명월 한예슬씨가주연이라지 회분 그분 퍼센트 안찍힌걸보면 얼마 스케줄이빡빡 예상됨니 그리다 퍼센트안 퍼센트안에 한예슬씨 한예슬씨가 없을보장도
+kbs2_spy	s1365h	POST	pyo4fzf-_b3jz		2011-08-15	kbs 스파이명월 한예슬 불참 결방 위기 진짜진짜 하다 어제 해도 하다 해 건강 이유라더 아예 전화 안받는건 완전개념 행동 연합뉴스
+kbs2_spy	gusrb1840	POST	pyo4g3y-_f2og		2011-08-16	아 스파이명월 결방 될듯 한예슬 왜그런지 재미 있구 있구만 tagcry tagcry
+kbs2_spy	zmsenddl23	POST	pyo4g9i-ykvjv		2011-08-15	아 뭐냐 tagcry 오늘 스파이 명월 스페셜 한대 하다 tagcry 앜 내 얼마 기다리다 오다 tagcry 어흐구 tagcry 그럼 내일 뭐하자tagquestion
+kbs2_spy	coin53a	POST	pyo4gjp-_wuif		2011-08-16	스파이 명월 어찌댐 제발 예슬씨 돌아오셈 tagcry
+kbs2_spy	dmsl1318	POST	pyo4glj-55on0		2011-08-16	kbs 스파이명월 여주인공 없다 가다 갈다
+kbs2_spy	edusystem	POST	pyo4g_x-51cqi		2011-08-15	한예슬 스파이 명월 촬영거부 논란 논다 이순재씨 말 모두 어겨버리네 tagsmile 스타의식 지각 발음 않좋아 joinsmsn
+kbs2_spy	ck2444	POST	pyo4hsg-ya3wl		2011-08-16	한예슬 스파이명월 한예슬 스파이명월 드라마 촬영거부 한예슬 결혼설
+kbs2_spy	goooooodboy	POST	pyo4i1x-5yl03		2011-08-15	kbs 스파이명월 한예슬 불참 결방 위기 한명 한명이 수십명 아니 아 수백명 수백명의 일자리 위협하는군 한예슬 그렇다 대단 사람인가tagquestion 세상 참 차다 쉽다 사다 살다 책임감 있다 혼자 마음 안든다 안든다고 다른사람 피해 주다 다시다 주연 쓰지마세 쓰지마세요 연합뉴스
+kbs2_spy	samtafe97	POST	pyo4ih8-o7ws		2011-08-16	아씨 스파이명월존나웃기네 tagsmile 드라마 한명월 한명월이 강우 드라마찍는데 드라마 한명월 한명월이 총쏴서죽는장면잇엇는데 한예슬이촬영안 죽은걸로 죽은걸로한대 tagsmile 아 어이없엉 아 진짜 한예슬뭐 한예슬뭐야 드라마찍다가죽는사람이어딧어 막장
+kbs2_spy	55shop	POST	pyo4j5w-5j8si		2011-08-15	한예슬 촬영 불참 스파이명월 결방 스페셜 방송 으 으로 대체
+kbs2_spy	lovely2401	POST	pyo4m4o-yb6vj		2011-08-15	아 한예슬 촬영 거부 스파이명월 결방 tagcry 빨다 촬영장 돌아가다 tagexclamation 한예슬ㅆ
+kbs2_spy	oym1026	POST	pyo4mtr-5r06i		2011-08-16	오늘 본격적 학원 가는데 가는데요 tagexclamation 오늘 화요일 학원 책검사두 하다 하 영어 화상 수업하구 스파이 명월 명월도 할 하다 텐데 어제 스페셜 하다 오늘 할 하다 지 모르다 tagcry
+kbs2_spy	hiya0926	POST	pyo4nft-y5va7		2011-08-15	스파이 명월 어떻다 되다 되 걸까tagquestion 한예슬 미국 출국
+kbs2_spy	samtafe97	POST	pyo4njk-o7ws		2011-08-16	네이트 본기사 본기사인데 한예슬 에릭이랑 에릭이랑도 갈등이잇엇엇다공 이번일때문 이번일때문에 한예슬한테 실망햇엉 음 나오늘시험보는데 왜이러고잇징
+kbs2_spy	zh724	POST	pyo4o2s-hgo1		2011-08-15	스파이 명월 안봄 tagcry 재밌게 보고 보다 보 있다 한예슬 하다 하 꼴 꼬다 보다 보기싫음 tagcry
+kbs2_spy	dowjd1129	POST	pyo4ob9-_qbpz		2011-08-15	한예슬 촬영거부 스파이 명월 결국 스페셜 방송 에라 에라이 tagexclamation 일급배우인줄착각하나뵤 전도현같은배우는더힘든것도촬영잘하더만ㅇ배불러서그런거지 일거리없어봐야정신차린데이 tv리포트
+kbs2_spy	naver_news	POST	pyo4odq-y4gvz		2011-08-16	헐 이건 뭐지 어이없다 진짜 한예슬 진짜 괜찮다 줄 주다 알다 이건 뭐야tagquestion 아 에릭 에릭이 이진욱 불쌍 tagcry 제대 후 첫 드라마 시청률 한자릿수인거 불쌍 여주인공 없다 간다고tagquestion tagsmile 이동욱 이동욱은 여인의향기 한참 날리다 있다 에릭이진욱 에릭이진욱은 ㄷㄷ
+kbs2_spy	ma2646	POST	pyo4poa-rwog		2011-08-15	한예슬 스파이명월 촬영거부해가꼬 오늘 스페셜방송 아징짜 잘 왜그러냐고오
+kbs2_spy	bbbbbungk	POST	pyo4q9h-2b82		2011-08-15	스파이명월 한예슬 황인혁pd 제작사 삼각 갈등 해법 해법이 안 알다 보 tagexclamation
+kbs2_spy	purple30	POST	pyo4qq_-yosbd		2011-08-15	한예슬 la la로 출국 이제 막가자는거지요tagquestion 한예슬 스파이명월
+kbs2_spy	thel3lue	POST	pyo4r34-y6qtn		2011-08-16	스파이명월 주인공 교체되는건가 한예슬 어떻다 되는건지 tagcry 황인혁pd 황인혁pd랑 마찰 있다 tagcry 대구시사외국어학원 월 반편성 영어 일본어 중국어
+kbs2_spy	dreamgy04	POST	pyo4r3t-_ywr5		2011-08-16	스파이명월 한예슬 출국설 한예슬 결혼설tagquestion
+kbs2_spy	somyung_	POST	pyo4rh3-y0xzu		2011-08-16	스파이명월 측 한예슬 괴로워하다 일방적 잘못 아냐
+kbs2_spy	robbins2011	POST	pyo4sap-5ssf0		2011-08-16	전북전자담배 로빈스오 로빈스오일 호남지사전주서신점kbs 스파이명월 여주인공 없다 가다 갈다
+kbs2_spy	msj4533	POST	pyo4scw-pras		2011-08-16	그건그렇구우 스파이명월땜 폭풍눈물흘리신 tagquestion 에릭아쪽님 본명 박세연님 을 위해 위하다 재중이사진 투척 tagexclamation 히히tagsmile세여늬 나 나다 완전고맙지 tagsmile 재중 taglove 세연 세연이 tagsmile 읭tagquestion
+kbs2_spy	thd7289	POST	pyo4tga-yvbhe		2011-08-15	드라마 중 스파이명월말인뒈 대충 검색 막 불참등등 안좋은말 안좋은말들만 있다 배우들끼리 뭔 일 있어tagquestion 자세한거 알아보다 힘들다 tagcry 알고있을까벼 tagsmile
+kbs2_spy	conabl100114	POST	pyo4ts6-_bq47		2011-08-15	아 tagcry 스파이명월 스페셜tagquestion tagsmile 한예슬 피디 피디랑 왜 외다 싸우다 거지 거다 난 나다 날다 뭘보 뭘보라 tagexclamation 딴건 안봐서 모르다
+kbs2_spy	jsh032	POST	pyo4u59-yuvho		2011-08-16	아 tagexclamation 스파이명월 어케 되는거임tagquestion
+kbs2_spy	s1365h	POST	pyo4u_0-_b3jz		2011-08-15	단독확인 단독확 스파이명월 한예슬 오후 시 미국 l 아주 정말 저질 이네 이네요 추방 시키다 버리다 스포츠조선
+kbs2_spy	becky0820	POST	pyo4v12-n2h4		2011-08-15	한예슬 뭐 인간 하늘 선배님 앞에두 앞에두고 니 무엇 tagsmile 할거면 제 제대 하다 해 너때문 너때문에 나 나다 스파이명월 끊다
+kbs2_spy	lx369	POST	pyo4v6l-9v_e		2011-08-15	한예슬 나스파이명월짱좋아 나스파이명월짱좋아하는데 촬영거부 다짜고짜미국갓네 어서돌아와서 드라마찍어 tagcry
+kbs2_spy	jungeunsea	POST	pyo4vag-ij8j		2011-08-15	오늘 진짜 스파이명월 보 다 tagcry 한예슬 빨다 한국 오다 촬영하라구 tagcry 진짜 실망 이럴줄몰랏는데 tagcry 스파이명월 진짜 조아 조아하는데 tagcry 이제 어케되는건가 어케되는건가여 tagcry
+kbs2_spy	jungeunsea	POST	pyo4vbx-ij8j		2011-08-15	아 진짜 스파이명월 재밋게 잘 자다 보구잇엇는데 머 머야 tagcry 한예슬 tagcry 그럿다 그럿다고 촬영 펑크 내다 내 아 오늘 스파이 명월 못보는거tagquestion tagcry 아 한예슬 쪼다 막나간다 tagcry
+kbs2_spy	rlaxoghks45	POST	pyo4veh-ygp99		2011-08-15	나오늘지금 스파이명월 오늘 결방이라 결방이라해서 급실망중 클라이막스 결방 결방하면 어쩌자는건지 궁금해죽겠네 tagcry
+kbs2_spy	jungeunsea	POST	pyo4vf1-ij8j		2011-08-15	스파이명월 tagexclamation tagcry 촬영 한예슬 tagexclamation tagcry
+kbs2_spy	jungeunsea	POST	pyo4vmh-ij8j		2011-08-15	제작사측 문제 잇엇겟지 잇엇겟지만 그렇다 촬영 펑크내 미국가면 어케 어케요 tagcry 한예슬 진짜 조앗는데 이건 아니져 tagcry 스파이명월 아 tagcry
+kbs2_spy	gunduckhu	POST	pyo4vpk-zkfg		2011-08-15	대단 한예슬 스파이명월 pd교체 요구 다 옳다 글들 글들인데 반대 많다 모르다 전부 한예슬 팬 mbn
+kbs2_spy	5443151	POST	pyo4vx8-ykafj		2011-08-16	저 스파이명월 시청자 어제 결방 결방해서 어이없드라구요 tagsmile 아무리 여주인공 전개하는것 이상 중간 배우바뀌는것 이상 서 협상하는편 나을것 나을것같네 나을것같네요
+kbs2_spy	yukey97	POST	pyo4xpm-1jy0		2011-08-15	기자 스파이명월 시작 할 하다 때 한예슬 스파이명월 을 미친듯 미친듯이 까다 깔다 것 모두 인정 사실 그리다 한예슬 공인 나이 사리분별 할 하다 줄 주다 아 나이 나다 나 무작정 까다 보다 진실 기다리는게 어떨까 저런 스케일 크다 짓다 짓 즉흥적 할 하다 있다 생각하지않음
+kbs2_spy	thdud3525	POST	pyo4xws-5l32r		2011-08-15	tagcry 내가월욜화욜을왜손꼽아기다렷는뎅 tagcry 흑흑 스파이명월 돌아와줘용한예슬님 tagcry 부탁드려요제발용
+kbs2_spy	pan2727	POST	pyo4_49-y95qi		2011-08-16	한예슬 니땜 니땜에 스파이명월못봤자 짱 짱나 지 지대 재섭써 니가잘 얼마 잘나다 한국에절대오지마너같은배우필요 누다 주인공하고파도못 연예인많은데 누다 미국 미국이 끼나가냐 짜증
+kbs2_spy	shyboy-07	POST	pyo702t-_51ru		2011-08-16	난 나다 날다 스파이명월 한예슬 에릭 에릭이 젤 좋다 이제 끝인거tagquestion
+kbs2_spy	judy3orange	POST	pyo71bb-y6edb		2011-08-16	tagcry 한예슬씨 빨랑 복기 복기해 복기해야 스파이명월 좀 조다 볼꺼아냐tagquestion tagexclamation
+kbs2_spy	diana981224	POST	pyo71i7-yc3s8		2011-08-16	오홋 tagexclamation 한예슬 늦다 일 돌아오다 tagexclamation 캬캬캬 다른여배우 스파이명월 나오다 안어울렸을거야 tagexclamation 빨다 오다 촬영 한예쓸언니 에릭오빠 스텝분 기다리잖아 기다리잖아요
+kbs2_spy	oh2398	POST	pyo71io-yzfuq		2011-08-16	오늘 스파이명월 결방 tagcry
+kbs2_spy	judy3orange	POST	pyo71j0-y6edb		2011-08-16	ㅇ ㅇ 설마 설다 오늘 스파이명월 스페셜tagquestion
+kbs2_spy	gu2842s	POST	pyo71pz-yi8nj		2011-08-16	한예슬 왕따당했었다네 스파이명월촬영 취소 어젯밤 스파이명월 스페셜을보여줬던거로군 안되쓰 미투데 미투데이
+kbs2_spy	jjoon5456	POST	pyo71qx-_sicd		2011-08-16	스파이명월오늘도스페셜이나대게궁금
+kbs2_spy	dreamgy04	POST	pyo71w9-_ywr5		2011-08-17	스파이명월 회 다시보기 한예슬 사과 전화
+kbs2_spy	jjoon5456	POST	pyo71wt-_sicd		2011-08-16	스파이명월또결방tagquestion
+kbs2_spy	eclipser_	POST	pyo7299-_s_3_		2011-08-15	한예슬 한예슬 드라마 촬영거부 한예슬 미국행 한예슬 스파이명월
+kbs2_spy	rksgh282	POST	pyo72hq-_5ucm		2011-08-15	대단 한예슬 스파이명월 pd교체 요구 진짜 대 단한 한예슬 차로 차 사람 지날때 지날때도 사과한마디 메니저 번호 줬다더니 치다 치어다 사람 두둔하는건 아니다 최소한내려서 사 사과 해야할것 아니다 아니 mbn
+kbs2_spy	kyunghs	POST	pyo72qg-_64bk		2011-08-17	kbs 스파이명월 여주인공 새 캐스팅 공식 입 김하늘 한표 tagexclamation tv리포트
+kbs2_spy	yunilsang	POST	pyo72r_-_3g18		2011-08-17	스파이명월 회 다시보기 월 일
+kbs2_spy	ghkddsmrud	POST	pyo72yl-yxc78		2011-08-15	스파이명월 이제어떡 한예슬씨 이 연예계 은퇴할건 아니죠tagquestion
+kbs2_spy	shfkalal	POST	pyo735_-r43j		2011-08-15	한예슬 촬영거부 스파이 명월 결국 스페셜 방송 예전 어떤 배우다 배우 자다 자기 암 사실 속이다 속 연기 하다 하다 한예슬 모습속 책임감이라는게 너무없다 tv리포트
+kbs2_spy	loanbay	POST	pyo736b-yrp_n		2011-08-16	한예슬측 복귀의사 표명 스파이 명월 무사 봉합될까tagquestion
+kbs2_spy	acy8088	POST	pyo73hg-ywek3		2011-08-17	아움아움 저 스파이명월 즐겨보구 있다 쩌업쩌업 그래두 한예슬씌 한예슬씌가 사과 돌아오셨다닉 다행이죠움 tagsmile 한예슬씨 응원할게염 팬이에 팬이에요
+kbs2_spy	grape121000	POST	pyo73o4-jjcb		2011-08-15	아 아이 스파이명월 어짬tagquestion tagsmile 퍼 퍼야 tagcry 그건 그렇다 한예슬 왜 외다 tagcry 제작진 싸웠다 드라마 다끝 다끝내야지 배우
+kbs2_spy	alsl565	POST	pyo740g-ee_g		2011-08-15	한예슬무책임 빨리한국오지 스파이명월안보면난어쩌라긔 tagcry
+kbs2_spy	ivyyhy	POST	pyo74b6-y9j46		2011-08-15	내일 쉬고싶다 오늘 휴일 끝나는게 아쉽다 아쉬워 tagcry 뭐 tagexclamation 오늘 스파이명월 결방이래 tagexclamation tagcry 한예슬 pd교체해달 pd교체해달라 했다던가tagquestion 째다 재밌게 보고 보다 보 있다 아쉽다 tagsmile 글 관계 씨엔블루 사진 첨부합니다아아아tagsmile
+kbs2_spy	hummingh	POST	pyo74ne-5uhqn		2011-08-15	한예슬 한예슬 촬영거부 스파이명월 방송 비상 조기종영설 이슈펌
+kbs2_spy	kmediabox	POST	pyo74p7-_1l70		2011-08-16	토도우 스파이 명월 회 월 일 다시보기
+kbs2_spy	kimhg1210	POST	pyo74wb-y6n7k		2011-08-15	tagcry 스파이명월 오늘 결방 결방이래 tagcry 나 나다 꼬챙겨 보다 한예슬 그럴리 그럴리가 없는데tagquestion
+kbs2_spy	junes26	POST	pyo74zb-yxvov		2011-08-17	스파이 명월 스페셜 월 일 방송 보기 보다
+kbs2_spy	pippops2080	POST	pyo756x-_0v3s		2011-08-16	ㅇㄴ 스파이명월 어케되는걸까
+kbs2_spy	diana981224	POST	pyo75bx-yc3s8		2011-08-16	한예슬 la공항 포착했대 그리다 한예슬대신 다른배우 캐스팅 드라마 계속 이어가게됬다네tagquestion 스파이명월 시청률 안나오긴 안나오긴해 안나오긴해도 꾸준하다 챙기다 tagcry 에릭군복귀작이란말 tagexclamation 에효 에릭오빠 불쌍 한예슬 진짜 실망
+kbs2_spy	rlagusals710	POST	pyo7667-6o52		2011-08-16	스파이 명월 명월인데 명월이 tagsmile
+kbs2_spy	11277272	POST	pyo775n-_i5dz		2011-08-17	한예슬 복귀 의사 스파이명월 화 호다
+kbs2_spy	tnqlsdbs0820	POST	pyo7790-p_t_		2011-08-17	솔직 스파이 명월 명월은 끝나다 안되다 tagexclamation 지금 대부분 보고 pd pd와 다투다 다툼 있다 미국행 그것 스타 할 하다 없다 일 아니다 바쁘다 스케줄 힘이든다 라 라고 공식적 이야기 하다 참다 어이 없다 얼른 돌아오다 시청자들의게 더욱 좋다 모습 보 바라다
+kbs2_spy	kyoungt70	POST	pyo77fu-bxvq		2011-08-15	원문 단독확인 단독확 스파이명월 한예슬 오후 시 미국 la 출국 확인 확 충격 웹
+kbs2_spy	jisiklog	POST	pyo77jj-_rcxy		2011-08-15	오늘스파이명월결방인가요tagquestion한예슬감독이랑마짱떠서 한예슬
+kbs2_spy	taijistoker	POST	pyo77kt-ywncq		2011-08-15	한예슬님 감사 스파이명월말도안돼 억지드라마 더이상안보게끔해주셔서 앞 티비에성예슬님 안봤으면좋겠습니다
+kbs2_spy	jm8516	POST	pyo77vh-5diaa		2011-08-15	스파이명월 촬영거부 한예슬 이젠 현명 처신 이건말도안된일피디는총책임자인데어찌맘이안맞는다고촬영거부이유불문이해안 이건말도안된일피디는총책임자인데어찌맘이안맞는다고촬영거부이유불문이해안됨 tv리포트
+kbs2_spy	arnow2120	POST	pyo77y6-5wn7j		2011-08-15	la la로 도망치다 한예슬 호성형님 딜 딜도 맞다 멈추다 얼릉 명월 촬영 다하다 다 연예계은퇴 ㄱㄱ
+kbs2_spy	goodkissjg	POST	pyo786q-5skoo		2011-08-15	한예슬 촬영 거부 일 스파이 명월 회 불방
+kbs2_spy	dreamgy04	POST	pyo78sg-_ywr5		2011-08-17	스파이명월 회 다시보기 한예슬 사과 전화
+kbs2_spy	neria85	POST	pyo78xg-_1j8j		2011-08-16	오 스파이명월 이거 이거야말 쪽대본 쪽대본인가 tagsmile 난 나다 날다 한예슬 뭐라 뭐라든 제작사 뭐라 뭐라든 믿다 없다 같다
+kbs2_spy	perkon0616	POST	pyo790s-5j5pn		2011-08-17	한예슬 음 역시 바보 아닌이 엄청나다 엄청 비난 받을거 받을거라 예상 계획 일 한 하다 연기자 충동적 이런일 벌일거 생각안함 명월 재밌게 보고 딱 한예슬씨 비난 비 안하다
+kbs2_spy	nadiag26	POST	pyo799h-_icu7		2011-08-15	한예슬 불참 스파이명월 오늘 일 촬영 올스톱 반취소 반대기 상태
+kbs2_spy	mople	POST	pyo79iy-ybyr8		2011-08-16	스파이명월 회 e 닥본사 닥 치다 치 본 보다 방 사 사다 닥치고본방사수 닥본사 별점 오늘 스파이명월 회 e
+kbs2_spy	sm21264	POST	pyo79le-p6po		2011-08-17	한예슬 왜 외다 왔나tagquestion 무슨 염치 네티즌 뿔 기사 기다 뭐 한예슬 왜 외다 왔나tagquestion 솔직 스파이명월 시청자라면 한예슬 온게 천만다행 한예슬 말 뜻 그게 아니다 본인 뜻으로해석 비난 한예슬 아직 아직도 많다 비난 하다 하 같다 이제 이상 불미스러운 없다 한예슬 일하다 있다 응원해주는게 개념 네티즌 같다
+kbs2_spy	hyhy227	POST	pyo79lw-y14rm		2011-08-15	스파이명월 일 결방
+kbs2_spy	skytigerx	POST	pyo7adj-y9qfv		2011-08-17	연예 귀국 한예슬 kbs 사과 스파이명월 복귀 종합 귀국 한예슬 kbs 사과 스파이명월 복귀 종합
+kbs2_spy	ellenyj	POST	pyo7agr-sp8_		2011-08-15	종합 한예슬 녹화 펑크 스파이 명월 자폭 ㅉㅉㅉ시청률 높다 저러지 않았겠죠 프로답지 못하다 뉴시스
+kbs2_spy	jsh-	POST	pyo7ama-ac9n		2011-08-15	스파이명월 한예슬 촬영거부tagquestion
+kbs2_spy	shinse100	POST	pyo7ao6-_rj8m		2011-08-15	한예슬 촬영거부 막장 한예슬 스파이명월 촬영거부
+kbs2_spy	gms05288	POST	pyo7b0_-wvy4		2011-08-16	시에스파이명월보러갈꺼라능 tagexclamation
+kbs2_spy	shinnara119	POST	pyo7ckk-feh5		2011-08-15	스타 미투 tv 그럼 오늘 스파이 명월 명월은 어떻다 되는거지tagquestion 화 특별 방송 진행 하다
+kbs2_spy	e_highcloud	POST	pyo7cqo-yt0uj		2011-08-17	kbs tv 월화극 스파이명월 황인혁pd 황인혁pd와 한예슬 그들 만들다 드라마 훨씬 뛰어넘다 시청율 관심 이끌어내다 결국 드라마 성공시킬것 tagexclamation 오늘 악수 대단 논픽션 끝 스파이 한예인척 으 으로 이어질것 싱그러운밤 냐핫 tagexclamation 관심 관심 만들다 내기 내다 위하다 포스팅 포스팅도 tagcry
+kbs2_spy	pworld2	POST	pyo7cz4-_tt98		2011-08-15	스파이명월 대단 한예슬 스파이명월 pd교체 요구
+kbs2_spy	alice9209	POST	pyo7c_9-t2p0		2011-08-15	스파이명월 한예슬녹화불참pd교체 요구 불사한 한예슬 사진 보다 우리나라 우리 연예기자 이번 일 어떻다 생각 알 있다 tagexclamation
+kbs2_spy	kuj808	POST	pyo7dp3-zwb8		2011-08-16	스파이 명월 tagcry
+kbs2_spy	gudwl0314	POST	pyo7dpj-y47mk		2011-08-16	스파이명월 부작이었던가tagquestion 어쨌던 tagexclamation 한예슬 언니 골치아파 좀 조다 봐주다 tagexclamation 본방사수 tagexclamation
+kbs2_spy	ezimartbiz	POST	pyo7dx6-sdu5		2011-08-15	한예슬 촬영 펑크 스파이명월 불방 위기 주 일 촬영 도입 할 하다 필요 필 있을듯 이데일리
+kbs2_spy	gms05288	POST	pyo7evu-wvy4		2011-08-16	한예슬이없어지는긴가 tagcry 스파이명월이ㅇㄹ마나잼잇는대 tagcry
+kbs2_spy	7gkdnjssla7	POST	pyo7fdz-53dc8		2011-08-15	스파이 명월 결방 한예슬 불참 시청자 막장 따로 http www hg times com news articleview htmltagquestionidxno 헐 이런경우 첨보네 첨보네요 제가 제 보다 보 드라마 아니다 이건 좀 조다 아닌듯  개념막장드라마
+kbs2_spy	nude894com	POST	pyo7fvb-tqgg		2011-08-17	귀국 한예슬 스파이명월 pd pd와 극적 화해 화하다 신방 언론정보학부 심층면접 문제 부천 인천 논술 면접 학원 강추
+kbs2_spy	jjy50595	POST	pyo7fx9-_ttjw		2011-08-15	스파이명월재밋나요tagquestion잼잇으면 미투점 미투점요
+kbs2_spy	akrtlantm80	POST	pyo7g9p-5pubq		2011-08-16	공익 시민 농낙 농낙하냐 kbsㅅㅂ 장난 한ㅇㅖ슬 더보기 스파이명월 이진 daum미디어다음
+kbs2_spy	lkj74xx	POST	pyo7gfs-b720		2011-08-16	스파이 명월 한예슬 귀국키 귀국키로 복귀할까tagquestion
+kbs2_spy	maisonkr1234	POST	pyo7gnh-ia1n		2011-08-15	메종 이벤트 스파이 명월 명월의 한예슬 같다 반짝이다 눈망울 선물 tagexclamation 미투 미투하 쪽지 성하다 성함 연락처 메일주소 보 d 메종 패밀리 분 추첨 추첨하 바슈롬 서클렌즈 드리다 tagexclamation
+kbs2_spy	hsys38	POST	pyo7gpk-bzwq		2011-08-16	스파이명월 회 한예슬 복귀의사 밝히다 스파이명월
+kbs2_spy	ccohock2	POST	pyo7gq1-_su0m		2011-08-17	귀국 한예슬 kbs 사과 스파이명월 복귀 시간 지나다 누 누가 진실 말 알다 되려나tagquestion 스타뉴스
+kbs2_spy	lx369	POST	pyo7hxj-9v_e		2011-08-17	아쏴 한예슬 돌아왓네 스파이명월 본방사수 근대 재경이좋 tagsmile
+kbs2_spy	puull15	POST	pyo7i0l-yvneu		2011-08-15	한예슬 촬영거부 스파이 명월 결국 스페셜 방송 한예슬누나 한예슬누 왜촬영거부tagquestion 드라마재밋는데 tagcry tv리포트
+kbs2_spy	lmj0689	POST	pyo7jp1-5qyyz		2011-08-15	스파이명월 한예슬 촬영거부 tagquestion 진짜 스타면다되는건가 자기가맡은역할 다하다 답이
+kbs2_spy	naver_news	POST	pyo7k2x-bj_k		2011-08-15	연예 kbs 스파이명월 한예슬 불참 결방 위기 네이버 뉴스 news 연합뉴스 스파이명월 한예슬
+kbs2_spy	sangjun_me2	POST	pyo7kkw-yitej		2011-08-15	kbs 스파이명월 한예슬 불참 결방 위기 한예슬왜이럼 tagcry 오늘방송어떡 tagcry 명월동무믿고좋아햇구만ㅡ왜캄tagquestion빨리복귀했으면좋겠네 연합뉴스
+kbs2_spy	amor1987	POST	pyo7lwb-51_y9		2011-08-15	원문 한예슬 촬영 펑크 스파이명월 불방 위기 이데일리 웹
+kbs2_spy	shinnara119	POST	pyo7m7i-feh5		2011-08-15	스타 미투 tv 한예슬 촬영 있다 스파이 명월 촬영거부
+kbs2_spy	bestmurder	POST	pyo7mgh-_cima		2011-08-16	스파이 명월 스페셜 hdtv x p hanrel
+kbs2_spy	goji1	POST	pyo7mp_-idye		2011-08-16	원문 넷스터미디어 한예슬 스파이 명월 복귀의사 밝히다 웹
+kbs2_spy	mhh68	POST	pyo7mts-b6ud		2011-08-16	스파이 명월 속 인테리어 따라잡다 tagexclamation http cafe naver com dflashcafe cafetagquestioniframe url articleread nhn farticleid 스파이 명월 속 인테리어 따라잡다 tagexclamation
+kbs2_spy	blairnori	POST	pyo7n42-_whka		2011-08-15	한예슬 촬영 펑크 스파이명월 불방 위기
+kbs2_spy	js005200	POST	pyo7nl3-_sbl3		2011-08-17	티비에온통한예슬 뉴스 스파이명월재방 무릎팍도사재방 tagsmile 신기하고웃프 내가연예인들의가식에속았다 난사람볼줄모르 tagcry 암튼꼬시 암튼꼬시다 tagsmile
+kbs2_spy	jisiklog	POST	pyo7ocz-_rcxy		2011-08-15	오늘스파이명월언제하나요tagquestion광복절 오늘스파이명월언제하나요tagquestion광복절이 빨리한다고하던데용 광복절
+kbs2_spy	goodsun0113	POST	pyo7oqs-yo8jq		2011-08-15	촬영불참 한예슬 스파이명월 pd교체 요구 tagexclamation
+kbs2_spy	narang282	POST	pyo7ors-599eh		2011-08-17	스파이명월 회 월 일 유쿠
+kbs2_spy	jky5012	POST	pyo7p6x-_seep		2011-08-16	심심행 오늘 스파이명월안하나욤tagquestion 미친님 알료주실거죠tagsmile
+kbs2_spy	jjoon5456	POST	pyo7pbn-_sicd		2011-08-16	스파이명월 tagexclamation
+kbs2_spy	eft1214	POST	pyo7pdp-ypy_j		2011-08-16	분 뒤 나갑니닷 빠 내일 내 또올 또올께 tagexclamation 살앙 살앙하 스파이 명월 tagexclamation
+kbs2_spy	gms05288	POST	pyo7pl8-wvy4		2011-08-16	한예슬보다명월ㅇ가좋구먼
+kbs2_spy	1218shinee	POST	pyo7qgs-5j964		2011-08-17	스파이명월보는사람tagquestion tagsmile 오늘본사람tagquestion tagsmile
+kbs2_spy	psc0523	POST	pyo7qjf-_qw0n		2011-08-17	단독 스파이 스태프 명 성명 한예슬 pd 불 아 스타뉴스
+kbs2_spy	wja04153	POST	pyo7r5w-yeb6c		2011-08-16	tagsmile 스파이명월
+kbs2_spy	fic123	POST	pyo7rlz-i_63		2011-08-16	토렌트다운 스파이명월
+kbs2_spy	alcldy3	POST	pyo7rz9-xacz		2011-08-16	으앜 tagsmile 명월 명월이 죽이다 죽 계속간다니까 한예슬 돌아온뎈 tagsmile
+kbs2_spy	jisiklog	POST	pyo7sld-_rcxy		2011-08-15	스파이명월예고편내용좀알려주세 tagsmile 스파이명월
+kbs2_spy	ckddyd4074	POST	pyo7t1t-yzwti		2011-08-15	대단 한예슬 스파이명월 pd교체 요구
+kbs2_spy	sepist	POST	pyo7t74-_sbqf		2011-08-16	비오템 블라우스 세탁기 단돈 천원 구매하는방법 새롭다 추첨경매 시 스파이명월
+kbs2_spy	kwensa98	POST	pyo7tin-seul		2011-08-15	스파이명월 재밌는데
+kbs2_spy	dalzu-79	POST	pyo7tqc-5jzdm		2011-08-15	kbs 스파이명월 한예슬 불참 결방 종합
+kbs2_spy	treewg	POST	pyo7tug-55fja		2011-08-16	한예슬 미국 돌아오다 혼자 피식 웃다 웃음 나다 스파이명월 생각 행동 앞서다 캐릭터 실제 그런건가 보네요tagsmile tagsmile
+kbs2_spy	sunsutuv	POST	pyo7u38-_9oqc		2011-08-15	한예슬 촬영거부한예슬 촬영거부 스파이명월
+kbs2_spy	jin_xin	POST	pyo7u77-yvfuo		2011-08-15	한예슬 촬영 펑크 스파이명월 불방 위기 대체 어떻다 수습할건지 궁금 상황 이렇게 되다 복귀하는게 우습다 안하다 앞 연기 흠들거 흠들거고 드라마 재밌는 스토리네 하다 하지 다르다 배우 스텝 불쌍 방송 펑크 그들한테 피해 크다 이데일리
+kbs2_spy	jj55gg	POST	pyo7ub1-yvgf		2011-08-17	물론 순식간 개선 것 불가능 그간 여러작품 성공적 하다 한예슬 kbs 작품 만나다 이런일 벌어지다 것 또 문근영 문근영이 kbs미니시리즈매리 외박중 찍다 그런생각을했다는것은 제작사 방송사에문제 없다 않다 보다 스파이명월 한예슬
+kbs2_spy	tig03262	POST	pyo7ud3-l220		2011-08-15	아 한예슬 님하 어쩌다 출국 tagsmile ㄷㄷ 스파이명월 안 알다 보다 모르다 암튼 크다 일 건 거다 걸다 확실 어서 빨다 돌아오시길tagquestion tagexclamation
+kbs2_spy	lavish7	POST	pyo7uem-y45cu		2011-08-15	단독확인 단독확 스파이명월 한예슬 오후 시 미국 l 완전 책임감 상실 tagexclamation 스포츠조선
+kbs2_spy	jj55gg	POST	pyo7uyo-yvgf		2011-08-17	당장 촬영분 위해 위하다 외우기 외우기만 후다닥 해치울려면 학생 숙제검사받을려 답지 문제답 배끼 배끼는 것 뭐 다르다 우리나라 열악 환경 이전 문근영 문근영이 시상식 상 받다 시사한바 있다 그런데 그런데도 전혀 개선된점 없다는것은 제작사와방송국 잘못아닌가tagquestion 스파이명월 한예스
+kbs2_spy	wjdeh197	POST	pyo7v84-5eyt6		2011-08-17	스파이 명월 명월에 예슬언니 그디어 돌와 오다 오늘 스파이명월 방송됬네 스타일닷컴
+kbs2_spy	wjdeh197	POST	pyo7vc4-5eyt6		2011-08-17	더이 일 없다 좋다 스파이명월 잘 자다 부탁
+kbs2_spy	nadiag26	POST	pyo7vp1-_icu7		2011-08-15	대단 한예슬 스파이명월 pd교체 요구
+kbs2_spy	hummingh	POST	pyo7vvs-5uhqn		2011-08-15	한예슬 한예슬 스파이명월 촬영 거부 감독 마찰 때문 이슈펌
+kbs2_spy	jjy50595	POST	pyo7wbs-_ttjw		2011-08-15	무사백동수 재밋으면 미투 스파이명월이재밋으면 댓 댓이 댓이요 오늘 보다 둘중 하나 추천점
+kbs2_spy	space020	POST	pyo7wsh-523is		2011-08-15	대단 한예슬 스파이명월 pd교체 요구
+kbs2_spy	yna	POST	pyo7wtd-z1ou		2011-08-15	방송 kbs 스파이명월 한예슬 불참 결방 종합 kbs tv 월화드라마 스파이 명월 주인공 한예슬 촬영 불참 일 결국 결방 결방하게 되다 사고 천재지변 아니다 배우 촬영 거부 드라마 결방 결방되 결방되는 초유 사태 발생
+kbs2_spy	eternal1649	POST	pyo7x09-i0t9		2011-08-17	뉴스 스크랩 스파이 명월 책임놓고 갑론을박
+kbs2_spy	fic123	POST	pyo7xk7-i_63		2011-08-17	토렌트다운 스파이명월
+kbs2_spy	time8306	POST	pyo7xk_-55c3u		2011-08-15	단독한예슬 스파이명월 촬영거부 전원대기 비 흠 쟨모지 잘나가면스탭이나다음회를기다리는시청자들무시해도되나요tagquestion 스타뉴스
+kbs2_spy	fic123	POST	pyo7xy5-i_63		2011-08-17	토렌트다운 스파이명월 회
+kbs2_spy	yna	POST	pyo7ycb-z1ou		2011-08-15	방송 kbs 스파이명월 한예슬 불참 결방 위기 kbs tv 월화드라마 스파이 명월 주인공 한예슬 촬영 불참 일 결방 위기 맞다
+kbs2_spy	uj455	POST	pyo7yrk-_c8n_		2011-08-16	에잇 스파이명월 여주인공 바꾸다 흥
+kbs2_spy	bigkorea491	POST	pyo7z45-_hfb_		2011-08-17	드라마 스파이명월 에릭 한예슬 혼자 밤새tagquestion 당장사과 일침
+kbs2_spy	korbci	POST	pyo7z6e-s7wx		2011-08-15	광구 스파이명월 보다 쪽편집 쪽대본 생방송촬영 아무렇지않다 생각하나 생각하나보 영환 광구 특별 케이스 치다 치 드라마 사전제작 바라다 않다 작가 대본 완고 촬영들어갔음 하다
+kbs2_spy	naver_news	POST	pyo7zcn-bj_k		2011-08-15	연예 출연거부 논란 논다 한예슬 오늘 한국 떠나다 news 스포츠동 스포츠동아 스파이 명월 오늘 결방 스페셜 방송 대체
+kbs2_spy	yamm_06	POST	pyo7zd8-bdvv		2011-08-15	스파이명월 종영 tagsmile ㄱ tagsmile 한예슬 망
+kbs2_spy	jj55gg	POST	pyo7zsg-yvgf		2011-08-17	스파이명월한예슬 욕하다 사람 이해 안되다 물론 한예슬 책임감 촬영 안하다 안 떠난건 잘못됬지 분명 그럴 그럴만한 이유 있을것 있을것이 쪽대본tagquestion 쪽대본tagquestion난 이제 막 연기 배우기시작 단편하 단편하나 찍다 씬 씬마 엄청나다 엄청 분석 필요 근데 그날 당일 대본와서 스파이 명월 한예슬
+kbs2_spy	salondepoom	POST	pyo7_nf-5s7bj		2011-08-15	한예슬 한예슬 방송 몇시 앞두다 스파이명월 황 사태
+kbs2_spy	dlaruddo1674	POST	pyol0e5-_s368		2011-08-16	오늘밤 스파이명월 기대 tagsmile 명월이를죽인다는얘기가 명월이를죽인다는얘기가있던데 드라마가 드라마가될까
+kbs2_spy	harry7846	POST	pyol0fb-_j8jz		2011-08-16	한예슬 미국가서 손해배상 한 하다 억정 억정도 물어내다 되는디 미국 이유중 하나 결혼설땜시일수 있다 미국가서 안올꺼면 아예 연예계 생활 안하다 거다 걸다 그럼 결혼설 결혼설이 하나 가설 될수 될수도 있다 스파이명월 잼지 잼지도 안다 망 상관 보스 지켜라 지켜라가 쵝오
+kbs2_spy	sbg212001	POST	pyol0ke-y4roo		2011-08-16	아 시발 스파이 명월 한예슬 la la로 도망첬는데 시발 오늘 방송 한데 하다 뭐 약주고 약주 병주냨tagquestion tagsmile 존 존나 빡첰 tagsmile
+kbs2_spy	dewli	POST	pyol0nw-_srvt		2011-08-15	단독확인 단독확 스파이명월 한예슬 오후 시 미국 l 흠 정말 책임감 완젼 없다 이기적 시청자 기 행동 실망 크다 스포츠조선
+kbs2_spy	ly_meow0617	POST	pyol1iv-_sky0		2011-08-15	솔직히한예슬씨 연예인으로써 기본개념 잃다 미국 가다 하는것 하는것은 문제가 문제가있지 그렇다 제작자 잘못이 잘못이있어서 그런것일듯 손바닥 부딛쳐 부딛쳐야 소리 난다고 난다고하던데 어떻다 한예슬씨혼자 화내서그렇게 스파이명월 결방 사유 그런것 그런것도 제작진의문제가있을듯싶어 tagexclamation 여러분 tagexclamation 유는tagquestion
+kbs2_spy	sunny12334	POST	pyol1la-ygncd		2011-08-15	스파이명월설마내일 스페셜하는건아니겟징 tagcry tagcry
+kbs2_spy	i2235	POST	pyol1vl-r1so		2011-08-16	스파이명월보시 분 미투 미투를 tagexclamation 하시거 하시거나 덧글달아주세용tagsmile
+kbs2_spy	dbsdkrhd	POST	pyol1xp-ynsnp		2011-08-15	스파이명월보는데 한예슬언니땜 봤던거만 보고 스파이명월 재밋는디 tagcry
+kbs2_spy	susia032	POST	pyol278-3vrg		2011-08-16	스파이명월 한예슬 사건 사다 서글프다 단상
+kbs2_spy	yura_me2day	POST	pyol2h2-_ogmw		2011-08-15	한예슬 무슨 일 모르다 이건 좀 조다 아닌듯 스파이 명월 명월의 애청자로써 얘기하는거 좀 조다 실망 지금 보다 교통사고 교통사 있었을때 무섭다 안 알다 내리다 하다 지금보니깐 언니 성격 그런듯 암튼 완전 실망 tagexclamation
+kbs2_spy	noisx	POST	pyol2_z-yq6if		2011-08-16	한예슬 촬영 파행 스파이명월 여배우 교체 머 머니 이데일리
+kbs2_spy	ttth288	POST	pyol355-_sccf		2011-08-16	제발 한예슬언니 돌아오다 스파이명월 찍다
+kbs2_spy	peekle3	POST	pyol3n4-yuyvk		2011-08-16	어제 스파이명월 왜 외다 화안한거져tagquestion
+kbs2_spy	remej_fgr	POST	pyol3uz-_gktu		2011-08-15	한예슬 뭐지 tagquestion 스파이 명월 불쌍
+kbs2_spy	gusdk9088	POST	pyol3z3-_q83m		2011-08-15	한예슬 촬영 거부  로 출국설 kbs tv 드라마 스파이 명월 결국 결방
+kbs2_spy	emuaus	POST	pyol400-bja2		2011-08-16	스파이명월 작품 재밌는 한예슬 사태 명월 명월은 미국 경유 경유하 고향 북한 가다 하다 원래 임무 남한 혼란 빠뜨리다 하다 하 일 소문 osen
+kbs2_spy	frompic	POST	pyol48z-_d1bz		2011-08-16	황인혁 pd kbs tv 월화드라마 스파이명월 극본 전현진 연출 황인혁 사태 점입가경 테마 있다 뉴스why뉴스김학 포인트뉴스수직발사용 대잠
+kbs2_spy	inyoung0122	POST	pyol49j-_evja		2011-08-16	한예슬 pd pd랑 싸우다 스파이 명월 촬영안 미국 떳다네 귀국표 안끊었고 결국 스파이명월 여주인공 교체 중도교체라 애릭 골때리네 tagsmile
+kbs2_spy	sunrise573	POST	pyol4a6-byos		2011-08-16	한예슬 웃기다 tagsmile various artists 스파이 명월 ost 소리바 소리바다
+kbs2_spy	yason0309	POST	pyol4b_-502em		2011-08-16	한예슬 출국설 결국 사실 제작진 여주인공 교체결정 브레이크뉴스 http www breaknews com sub read htmltagquestionuid 아 어떡 tagcry 스파이 명월 잘 자다 보고 보다 보 있었는뎅 한예슬
+kbs2_spy	ye9961	POST	pyol5kp-5_olm		2011-08-16	아잇 상큼 아이유사진 tagexclamation ㅡ 전 절다 되다 스파이 명월 팬 어제 스페셜 좀 조다 돼게 잼 오늘 정상방송 맞죠tagquestion 제발 주연배우 늘다 안바꿨으면 좋다 그럼 재미 없다 뭐 kbs 무책임 tagexclamation 잔소리
+kbs2_spy	blogwake	POST	pyol6fb-5gkyd		2011-08-15	대단 한예슬 스파이명월 pd교체 요구
+kbs2_spy	chn4676	POST	pyol6vi-fm88		2011-08-16	아 이 스파이명월 은 끝나다 것인가tagquestion tagcry 울다 싶은데tagquestion tagexclamation tagquestion tagexclamation tagquestion
+kbs2_spy	tjrwldms0254	POST	pyol7er-y1gcy		2011-08-16	tagcry tagcry 스파이 명월 tagcry 한예슬씨 tagcry 스파이 명월 진짜 왕팬이예욤 tagcry
+kbs2_spy	llioill	POST	pyol7l9-yu4cn		2011-08-16	아니 아 스파이명월 보다 비판 할수있는건 아니잖아 그리다 우리 국민 몇몇소수 국민 빼다 비난아닌 비판하고있는겁니
+kbs2_spy	3_suhyun	POST	pyol7nj-sap2		2011-08-17	단독 스파이 스태프 명 성명 한예슬 pd 불 여배우 이렇게궁지 모 사람들에대햐 진정 드라마 진행팀 자질이의심 스텝 배우에대 코멘츠 코멘츠를 던지다 도대체 미국에서돌아온 한 하다 예슬씨 예슬씨가 설곳 설곳은 누 누가 줄것 줄것인가 다들 이기적 스타뉴스
+kbs2_spy	tad1313	POST	pyol81d-yko89		2011-08-16	요즘 스파이명월 찍다 있다 한예슬 에대 에대한 논란 많다 제 생각 한예슬 공인적 연예인 보다 보 사정 여러모 여러모로 있을거 있을거라 생각 드라마그저바라보 에서 나오다 한지수역 김아중 충분 한예슬누나 한예슬누 힘들거 힘들거라 생각 힘내다 tagexclamation 응원할게
+kbs2_spy	cgb8003	POST	pyol8r5-eek9		2011-08-16	요즘스파이명월 진짜 어이없다 나다 나 한예슬언니 참다못하다 그만둔것 판단 나다 날다 이건나 이건나만 생각 정말 이드라마 좋다 끝나다 안되남tagquestion그리 안되남tagquestion그리고 한예슬언니 연기 다른배우 연기 진짜 재미없을것 같다 나 나다 이제 여배우바뀌면 안볼거 안볼거임 언니 힘내세염 tagsmile
+kbs2_spy	wlghtleo	POST	pyol8t7-5od2s		2011-08-16	오늘 스파이명월 시청할꺼에용 제가 제 너무팬 너무팬이 챙기다 되네용 tagexclamation 스페셜 그래두 잘보겠습니 잘보겠습니다 tagexclamation 한예슬씨 기사봤는데 그래두 전 절다 받아줄것 받아줄것같아 받아줄것같아요 솔직 힘들다 스케줄 그렇다 조금힘들었던 촬영 지칠만도하죠 이제 좋은활동 기대할게 taglove
+kbs2_spy	jgyh017709	POST	pyol92e-54mz5		2011-08-16	나 나다 스파이 명월 완전 잼 보다 tagcry o tagcry 저번주화요일 저번주화요 궁금 왜 외다 방송안하는거얏
+kbs2_spy	pimn	POST	pyol9gn-cs0u		2011-08-15	대단 한예슬 스파이명월 pd교체 요구 freebluebear 에릭 에릭이 불쌍 년 mbc 늑대 조기종영 이후 년 또 조기종영되는거아닌지 mbn
+kbs2_spy	mkchae98	POST	pyol9mz-5qgul		2011-08-16	오다 한예슬 컴백 아싸 스파이명월
+kbs2_spy	choch43	POST	pyol9s2-_qbji		2011-08-15	헐 스파이 명월 이제 쫑임tagquestion
+kbs2_spy	jazzfiction	POST	pyolahs-yilee		2011-08-16	스파이 명월 몰입감 최고네 최고네요 아내 유혹 이후 몰입감 처음 느끼다 tagsmile 현실 드라마 절묘 교차 가상현실 주연배우 디스 디스와 연예계 뒷바닥 패러디 혼합 스토리전개 주연배우 부재 불구 이어지다 이야기 와우 병신 같다 멋있다 tagexclamation 리얼 버라이어티
+kbs2_spy	seung_e	POST	pyolani-zlw3		2011-08-16	난 나다 날다 스파이명월 재밌는데tagquestion tagexclamation tagquestion tagexclamation tagcry 재밌땅
+kbs2_spy	shadowshow	POST	pyolauz-5wz44		2011-08-16	various artists 세상 inst 네이버앱 음악검색 스파이 명월 ost
+kbs2_spy	ahamin0	POST	pyolavl-5swnp		2011-08-16	스파이명월에서깨알같이나오는태양의노래나만바라봐역시어디서나태양 tagexclamation
+kbs2_spy	kmediabox	POST	pyolawz-_1l70		2011-08-15	토도우 스파이 명월 스페셜 월 일 다시보기
+kbs2_spy	dse9950	POST	pyolaxi-_ryyb		2011-08-16	역시스파이명월이짱잼있엌 tagsmile
+kbs2_spy	engel1127	POST	pyolb94-inpu		2011-08-15	박정현 세상 네이버앱 음악검색 스파이 명월 ost part
+kbs2_spy	engel1127	POST	pyolbew-inpu		2011-08-15	박정현 세상 inst 네이버앱 음악검색 스파이 명월 ost part
+kbs2_spy	hanian3257	POST	pyolbo3-5wggw		2011-08-15	스파이 명월 tagexclamation 꺜 tagsmile ㅇㅔ릭은별론뎁 한예슬 tagsmile
+kbs2_spy	bdh02246	POST	pyolbvo-yh114		2011-08-15	어 tagquestion 스파이명월 스폐셜 녹화해논건 하 하나 없나보네 한예슬 이거 뜨다 나서 나다 나서다 바 스폐셜인거 보다 보통 한 하다 회 두회 정도 찍다 놓다 않다 않 ㄷㄷ 뭐 tagcry
+kbs2_spy	haroo184	POST	pyolcuu-y63h9		2011-08-16	대단 한예슬 스파이명월 pd교체 요구 freebluebear 여자 시기질투 한예슬 비화냥거리겟군 시기질투 부러우면 연예인되시 얼굴 몸되지못 몸되지못해 나쁜기사에 굼대깐 굼대깐이 비화냥 대지마시 본인일 충실 mbn
+kbs2_spy	kprincess3	POST	pyold1n-e81x		2011-08-15	한예슬 미국 갔다고tagquestion 우리오빠어쩌낰 tagsmile 스파이명월 완전 팬인뎈 tagsmile
+kbs2_spy	3337han	POST	pyoldae-56jg1		2011-08-15	스파이명월한예슬 tagcry 미국안갔을거야 tagcry 얼마니재미있게보는데 tagcry 스파이명월결방은어뜩tagquestion tagcry
+kbs2_spy	bny1114	POST	pyoldjn-5es3h		2011-08-15	님들속지마세 님들속지마세요 스파이명월 한예슬 촬영거부안했어요 이거다꾸며낸이야기 믿으면안돼 믿으면안돼여 한예슬은하고싶어난리
+kbs2_spy	yeonok79	POST	pyoldog-tqua		2011-08-16	한예슬 결혼설 스파이 명월 새 새다 여자 주인공 누굴까 누굴까요
+kbs2_spy	shfkddmswls	POST	pyoldqd-ypgin		2011-08-16	한예슬 최대 신속 복귀해 촬영 라 라니 그럼 왜 외다 미국으로떠난거지tagquestion 스파이 명월 잼잇었는데 tagexclamation tagcry
+kbs2_spy	james0q	POST	pyole5f-y12fo		2011-08-15	대단 한예슬 스파이명월 pd교체 요구 http mbn mk co kr pages news newsview phptagquestionnews seq mbn
+kbs2_spy	skma6061	POST	pyolen7-_rjv_		2011-08-16	한예슬 귀국 스파이명월 한예슬 귀국 네티즌 황 반응
+kbs2_spy	skuet7	POST	pyoletp-5skli		2011-08-16	스파이 명월찍다 말다 어디로tagquestion
+kbs2_spy	dds04147	POST	pyolf0k-m9w7		2011-08-15	아스파이명월 내삶의낙 여배우교체 에릭 에릭은 무슨죄냐 무슨죄냐고 스파이명월
+kbs2_spy	tndbs0227	POST	pyolf1w-5y5f1		2011-08-15	오늘 스파이명월 끝나다 내일 내 회 하다 하네tagquestion제발 tagexclamation 엄마 강동원정도껏좋아하래 tagcry
+kbs2_spy	fdfha	POST	pyolfee-50w68		2011-08-15	스파이명월 여배우 교체 누가 누가할지 궁금 그딴식 그딴식으 나가다 배우 대타뛰는건데 인기많 인기많은 배우 하고싶어 할리 할리는 없을테고 신인 신인이 b급배우tagquestion 시청률 높다 드라마 아니다 아니 한예슬 여럿 엿맥 엿맥이는구 엿맥이는구나 tagsmile
+kbs2_spy	thsdhqks777	POST	pyolfof-frrt		2011-08-15	스파이 명월 제작사 이김프로덕션 내일 내 오전 시 한예슬 촬영장 복귀하지 않다 한예슬 소속사 싸이더스 를 상 상대 억원 억원의 손해배상청구 업무방해죄 형사고발 하다 하다
+kbs2_spy	yunmo1106	POST	pyolg2j-5y6eq		2011-08-16	tagsmile 오늘 스파이 명월 하다 봐야겠다 한예슬 옴tagquestion
+kbs2_spy	dnrud78	POST	pyolg8z-r5tp		2011-08-16	스파이명월 보다 가다 tagsmile
+kbs2_spy	wlghtleo	POST	pyolgez-5od2s		2011-08-16	스파이명월 tagsmile tagexclamation 시청 굿밤 taglove
+kbs2_spy	hghkiss	POST	pyolgls-e0rn		2011-08-16	스파이명월 재미 보다 보 나 원 해결되서 끝 제 제대 볼수 볼수있기 볼수있기를 바라다 제발 tagexclamation
+kbs2_spy	frompic	POST	pyolh42-_d1bz		2011-08-16	한예슬 촬영거부kbs tv 스파이명월 을 둘러싸다 촬영거부 논란 휩싸이다 휩싸 한예슬 일 오후 스파이명월 촬영 합류 제작사 측 측에서 그녀 그녀가 촬영 거부
+kbs2_spy	lovepink1212	POST	pyolh6q-5u24o		2011-08-16	으잉tagquestion tagsmile 나 나다 스파이명월 저번주꺼 못봣는데 지금볼라니까 이해가안되 tagsmile 으헠 tagsmile 근데 성형외가 외들어 외들어가 tagsmile 명월이팬생겨tagquestion 뭐지 아뭐 아뭐야 스파이명월보는사람미투
+kbs2_spy	psjvenus	POST	pyolhhu-2m2p		2011-08-16	스파이명월 태양노래드립 tagsmile 아tagquestion tagsmile
+kbs2_spy	kns7724	POST	pyolhyn-smk7		2011-08-16	스파이명월 제작사 한예슬 상 상대 억 손배
+kbs2_spy	wybl00	POST	pyolimc-yjww4		2011-08-16	스파이명월스페셜존 tagexclamation 아나기대 tagexclamation 이런싸가지없는주연 tagexclamation 시청객은어디팔았냐
+kbs2_spy	susuhan104	POST	pyolizw-ygdte		2011-08-16	한예슬 촬영거부 출국설 kbs 스파이명월 여주인공 교체 듯
+kbs2_spy	james0q	POST	pyoljd3-y12fo		2011-08-15	단독 한예슬 촬영파행 스파이명월 교체결정 드라마 계속간다 daum미디어다음
+kbs2_spy	james0q	POST	pyolj_p-y12fo		2011-08-15	스파이 에릭 한예슬 빨다 돌아오다 잠수 옳다 않다 단독 인터뷰 daum미디어다음
+kbs2_spy	ttth288	POST	pyolk7m-_sccf		2011-08-16	한예슬언니 돌아오다 당연 한예슬언니 스파이명월 찍다
+kbs2_spy	catherin96	POST	pyolkgq-5uu89		2011-08-16	한예슬 언냐 언냐가 귀국한뎃 그러게 왜 외다 감정조절 못해갖꾸 tagcry 어쨋든 언냐 언냐가 빨다 돌아오다 제발 스파이 명월 명월에 복귀되길 tagcry
+kbs2_spy	pusspaw	POST	pyoll6d-t743		2011-08-16	저간 사정 모르다 모르겠으 스파이명월 따위 따위를 찍다 인생 낭비 있다 깨닫다 하나만 하나만으로 도망치다 이유 충분 듯 두 회 보다 확실 여름철 음식쓰레기급
+kbs2_spy	kss7075	POST	pyolldl-_fha0		2011-08-17	kbs 일 오후 스파이명월 관련 긴급 기자회견 밤샘작업 힘들다 항의 항 tagexclamation 어이상실 회당 받다 개념상실 예슬 예슬이 남자 불쌍 osen
+kbs2_spy	niff0	POST	pyolle8-_td22		2011-08-16	한예슬 결혼준비 스파이명월 포기tagquestion
+kbs2_spy	pusspaw	POST	pyollny-yu4cn		2011-08-16	도망치다 이유 충분했다니요tagquestion 스파이명월따위라니요tagquestion 저 스파이 명월 팬 아니지 아니지만 자다 자기 처음 결정 드라마 두다 두 떠나는건 그건 인간으로써 도리 아니다 아니 보는데요tagquestion 이게 시청자 향하다 기만 아니다 뭐겠습니까tagquestion
+kbs2_spy	quantastic	POST	pyollrp-1esd		2011-08-17	단독 스파이 스태프 명 성명 한예슬 pd 불 한예슬 같다 스탭 고생 연예인 좀 조다 방송계 떠나다 뭐 진실 아직 밝혀지다 않다 스탭 성명서 발표 이제 그녀 그녀가 피하다 곳 latagquestion 다시다 한국 오지 오다 마시다 스타뉴스
+kbs2_spy	yjh000208	POST	pyollyb-5dwjv		2011-08-16	한예슬언니 뭥미tagquestion 재미 스파이명월 안찍고 tagcry 빨다 한국 돌아가다 tagexclamation
+kbs2_spy	sepist	POST	pyolmt7-_sbqf		2011-08-16	갭키즈 스커트 그리다 냉장고 싸다 판매 새롭다 쇼핑몰 시 스파이명월 현장르포동
+kbs2_spy	dlaxotjs789	POST	pyoln6p-5ezw2		2011-08-16	스파이명월 tagcry 한예슬 너무불쌍 스명 홈페이지 홈페 회 짧다 설명되 설명되있는 글하다 글 오늘 방송된거 앞부분 앞부분만 같다 다 다르잖다 tagcry 지 지대 까다 작전 쓴것 쓴것같 쓴것같아 tagcry
+kbs2_spy	loanbay	POST	pyolns7-yrp_n		2011-08-16	한예슬 스파이명월 촬영거부 넘다 미국 출국까지tagquestion 모두 그녀 등돌린 이유
+kbs2_spy	knova17	POST	pyolnsg-7g5r		2011-08-16	에릭 에릭은 일전 한지민 한지민이 찍다 드라마 사고 예비분량 전 절다 더보기 스파이명월 스페셜 daum미디어다음
+kbs2_spy	duswlsdl14	POST	pyolop1-y9f97		2011-08-15	kbs 스파이명월 한예슬 교체 특단 조치 미친ㄴ 정신나간건가 스타뉴스
+kbs2_spy	milkong	POST	pyolovg-n3tv		2011-08-16	일 오전 미국 la공항 포착 한예슬 소속사 통하다 촬영 복귀의사 밝히다 다행이네 tagcry 스파이 명월 못보는줄알고 슬프다 tagcry 스파이명월 스폐셜은그 스폐셜은그만 tagexclamation
+kbs2_spy	mcpro0124	POST	pyolpnx-2vg1		2011-08-15	단독확인 단독확 스파이명월 한예슬 오후 시 미국 l 이제 오지 오다 말다 배부르다 암덩어리 스포츠조선
+kbs2_spy	yeon6646	POST	pyolpw0-5yrue		2011-08-15	스파이명월 결국 tagcry 재밌게 보고 보다 보 있다 한예슬 어떻다 되는걸까tagquestion 무조건 잘못 할수 할수는 없을것 같다 무책임 무책임 행동은확실 잘못한것 같다 여배우 교체 안하다 좋다
+kbs2_spy	kyunghs	POST	pyolpw7-_64bk		2011-08-15	kbs 스파이명월 한예슬 교체 특단조치 그럼 한예슬 임무 수행 못하다 북 돌아가다 새롭다 스파이 오다 임무 완수 뭐 내용 되는건가tagquestion 스타뉴스
+kbs2_spy	kimyj6966	POST	pyolq36-fty8		2011-08-16	스파이명월 아 한예슬이돌아와야 tagcry
+kbs2_spy	d_deigy	POST	pyolq6l-5hgj5		2011-08-16	핫이슈 한예슬 스파이명월 한예슬 출국설 출국설에 여배우 교체 논란 논다
+kbs2_spy	damrip	POST	pyolspc-y1c4v		2011-08-16	스파이명월 한예슬테 에릭 에릭이 하는말 참 차다 지금 한예슬상황 맞물리네 맞물리네여 ㅡ
+kbs2_spy	purple30	POST	pyolsza-yosbd		2011-08-16	한예슬 결혼설 억대 손해배상 소송 진행될듯 스파이명월 한예슬 촬영거부 한예슬 미국 출국
+kbs2_spy	djatnqls77	POST	pyoltc8-59uta		2011-08-16	솔직희말해서 한예슬일 한예슬일같고 뭐라그러는것좀아닌듣 자기도맘고생많이해쓰니까 그런결정 내리다 했을거고 그리다 어짜피 스파이명월 다시복귀할탠대 뭐가문제가 뭐가문제가있는지 ㅡ ㅡ
+kbs2_spy	jsh032	POST	pyoltfs-yuvho		2011-08-16	한예슬 복귀 tagsmile 명월 명월이 보고 보다 보 있습 tagsmile
+kbs2_spy	yjj3916	POST	pyolthx-_sw0o		2011-08-16	한예슬 촬영 파행 스파이명월 여배우 교체 공인다운 모습 아쉽다 이순재 선생님 방송 하신 말씀 퇴출되 퇴출되야 하다 연예인 있다는게 부끄럽다 한예슬 인간 퇴출 하다 이데일리
+kbs2_spy	juyre11	POST	pyoltnw-yt88j		2011-08-16	한예슬 촬영거부 출국설 스파이 명월 결굴 결방
+kbs2_spy	gorg2ous	POST	pyolum0-79a5		2011-08-16	스파이명월 재미 자꾸드라마보는게 tagsmile 실제한예슬얘기같이편집되긴 tagsmile tagsmile 어쩔수가 그쪽사정은그쪽사정 난 나다 날다 좌로가 좌로가든 우로가 우로가든 잘 자다 만들다 드라마 잘 자다 보고 보다 보 즐거워하다 만족해 만족해하면 되는거니까 스파이명월
+kbs2_spy	sksmsruddnjs	POST	pyolush-5r144		2011-08-16	최류 소좌동지 짝사랑 정말 안타깝다 스파이명월 taglove
+kbs2_spy	susuhan104	POST	pyoluze-ygdte		2011-08-16	한예슬 스파이명월 한예슬 오후 시 미국 la 출국 확인 확 충격
+kbs2_spy	duswn7603	POST	pyolvgr-535rl		2011-08-16	헐 스파이 명월 명월에 나오다 한예슬언니 pd pd랑 싸우다 촬영장 안 지체시킬수 없다 다르다 사람 바꾼댔는데 la la로 떠났데는데
+kbs2_spy	maplehekja	POST	pyolvpg-x559		2011-08-16	스파이 명월 결말 은 재생성
+kbs2_spy	protestation	POST	pyolw5w-y8aln		2011-08-15	kbs 스파이명월 한예슬 교체 특단 조치 심각 tagsmile 스타뉴스
+kbs2_spy	sepist	POST	pyolwkt-_sbqf		2011-08-15	피아제 목걸이 그리다 선풍기 천원 판매 새롭다 추첨경매 시 크루즈 스파이명월
+kbs2_spy	exia	POST	pyolx0y-ayrr		2011-08-17	한예슬 아무래 아무래도 정신 나간게 확실 옛날 현피사건 등 개념없다는건 알고있었지만 이정도일줄 이정도일줄이 방송 장난 아니다 아니 전역 방송활동좀 제 제대 해보다 에릭 에릭만 피보게 생기다 공인 공인답게 행동 하셔야지 말
+kbs2_spy	appleandeve	POST	pyolxt2-_ihu8		2011-08-16	한예슬 촬영거부 한예슬 미국행 한예슬 결혼설 한예슬스파이명월 한예슬
+kbs2_spy	duddms3473	POST	pyolych-bo3u		2011-08-15	tagcry 나 나다 스파이명월 짱좋아 짱좋아하는데 매일 매이다 월요일이오기 기다리다 으흡 이러지말아 이러지말아요
+kbs2_spy	ckdwns4567	POST	pyolyyp-55g65		2011-08-16	스파이명월 한예슬 미국 출국 tagexclamation 돌아오다 표는안끊어 엇다 엇다니 tagcry 개념상실햇구
+kbs2_spy	chenrang21	POST	pyolz0k-_o6hq		2011-08-16	한예슬 촬영 파행 스파이명월 여배우 교체 ㅁㅊㄴ 저런게 무슨 연예인 기본이안된게 인기좀잇다 나대다 도미허니tagquestion걍 미국서 돌아오지마 돌아오지마라 니 한국땅 들어오다 면상 개똥던져 버릴랑 버릴랑께 이데일리
+kbs2_spy	wb88558	POST	pyolz9g-5r3f_		2011-08-16	오늘 스파이명월보니까 예슬언니상황 일치한거같던뎅 예슬언니 스파이명월봤을까tagquestion 보다 무슨 생각 하다 한예슬 스파이명월
+kbs2_spy	scr07715	POST	pyolza1-_m57d		2011-08-16	아나이거뭐임 아나이거뭐임나 아나이거뭐임나는 한예슬언니 스파이명월않찍으면 난무사백동수볼꺼 한예슬언니없으면뭔재미로보나tagquestion 경인일보
+kbs2_spy	seojin_vi	POST	pyolzcx-50h8o		2011-08-16	스파이명월 짜응 taglove 근데 나 개인적 생각 언론플레이 시청률 올리다 드라마중 스스로 막장드라마라는걸 뜻 것 잇엇고 이번 이번엔 살인적인스케줄 나왓고 tagcry 잠적 나왓고 이거 드라마 현실 따라가는데tagquestion 아무튼 오늘 잘봣슴 taglove 마지막 사랑 하는거 내 맞췃슴 tagsmile 에릭 에릭이 뜸들일때 내가먼저 맞춤 맞추다 훗 tagsmile 아 또 다음주 어째 기다리다 숙제 기다리다 tagsmile
+kbs2_spy	wb88558	POST	pyolzdl-5r3f_		2011-08-16	사람들은왜 한예슬복귀 반대하지tagquestion 난 나다 날다 다행이라고생각 오늘 스파이명월보니까 한예슬을대신 여자연예인 없다 생각들던데 한예슬 복귀 진짜다행 예슬이언니 힘내다 tagexclamation 한예슬 스파이명월
+kbs2_spy	ja02042	POST	pyolzfr-gpvk		2011-08-16	스파이명월 재밋음 tagcry
+kbs2_spy	-sunshine-	POST	pyolzfx-_m8_o		2011-08-16	스파이명월 보는사람있 보는사람 tagquestion재밌는데 tagsmile 딴거보는사람둘도추천좀 tagexclamation
+kbs2_spy	tokko9977	POST	pyolzg3-ym8j9		2011-08-16	우허하허 스파이명월 돼에에에박 진심 슬펑 tagcry
+kbs2_spy	rlaguswls707	POST	pyolzkg-v85k		2011-08-16	아진짜스파이명월왜ㄹ케좋냐아 tagsmile 명월이부럽네 tagsmile 오글거려 tagsmile
+kbs2_spy	data3	POST	pyolzqv-50196		2011-08-16	한예슬 촬영 파행 스파이명월 여배우 교체 어ㅣ궁 이데일리
+kbs2_spy	ja02042	POST	pyolzrv-gpvk		2011-08-16	우아 내 시티헌터 안 안보 뻐겻늗네 스파이 명월 조다 조르다 재밋네 tagcry 아 안쓰럽다 커플 tagcry 아 진짜 담주 기숙사 드가면 tagcry 이제 본방 본방은 힘들겟네 tagcry
+kbs2_spy	alstjrgk	POST	pyolzsf-5vslg		2011-08-16	한예슬언니 스마이명월 스마이명월을 그만둿다 tagexclamation pd pd랑 싸웟다 tagexclamation
+kbs2_spy	sivabene	POST	pyolzwy-y4gvz		2011-08-16	오늘 아스피린 한 하다 알 먹고 자다 아 근데 스파이명월 tagexclamation 에릭 볼려 볼려고 보다 보 거다 거지 이진욱 taglove 이런남자 진짜 좋다 d
+kbs2_spy	hsy156	POST	pyon2is-ygvg_		2011-08-15	저 요즘 월화드라마 스파이명월 수목드라마 넌네게반 보스를지켜라 보고 보다 보 있다 여러분은 여러분은요 요즘 어떤드라마 즐겨보시나요tagquestion
+kbs2_spy	purity7594	POST	pyon449-_qfwp		2011-08-15	한예슬 스파이명월 pd 교체해달라
+kbs2_spy	dlguswl1010	POST	pyon464-__pwi		2011-08-15	오다 한예슬 뭐 tagsmile 스파이명월결방이래 몸안조은거갓고 tagsmile 흑흑 스파이명월 못보네
+kbs2_spy	mckswn2	POST	pyon9ti-ycgnl		2011-08-15	한예슬 끝내다 스파이 명월 촬영불참 일도 일 거 거다 안타깝다 스타뉴스
+kbs2_spy	4229800	POST	pyongdy-5s7ww		2011-08-15	스파이명월 한예슬촬영거부사태 방송 몇시 앞두다 스파이명월 황 사태
+kbs2_spy	tae6666	POST	pyonoat-5cdf0		2011-08-15	한예슬 촬영거부 스파이명월 결방 위기
+kbs2_spy	jazzfiction	POST	pyonrkz-yilee		2011-08-15	중국 나라 흔들다 경국지색 서시 있다 한국 방송국 을 흔드 흔드는 경국지색 한예슬 있다 있구 그러나저러 아무리 한류스타 해도 하다 해 댄스가수 납치 설정 난센스 영화감독 심형래 심형래를 납치 제 의 신상옥 신상옥을 만들다 모르다 스파이명월 신상옥
+kbs2_spy	me2109tnqls	POST	pyonsgm-ywc2q		2011-08-15	스파이명월 잼썻는데 한예슬 언니 불참 결방 결방이네 오늘 tagcry
+kbs2_spy	seojin_vi	POST	pyonsu6-50h8o		2011-08-15	촬영거부라 좋다 보다 내 진짜 스파이명월 땜 월화요 월화요일 좋아하다
+kbs2_spy	yoyomimi565	POST	pyontw7-50ci3		2011-08-15	오늘 스파이명월 하다 tagexclamation 아싸 넘 조타 tagsmile tagsmile
+kbs2_spy	junjieun1012	POST	pyonugq-yzaqx		2011-08-15	에릭 잠 못다 시간째 대기 스파이 촬영재개 기다리다 뭔가 알 같지않음tagquestion 출연 이켠도 시간째 대기라는데 한예슬 답 tagcry 트위터 트위터에서 그렇다 배우 쉴드같은거안침
+kbs2_spy	floud4	POST	pyonulw-y4xhx		2011-08-15	원문 한예슬 촬영 거부 스파이명월 결국 결방사태 일 스페셜방송 대체 웹
+kbs2_spy	junjieun1012	POST	pyonu_m-yzaqx		2011-08-15	스파이명월 넌내반 스페셜방송 그런데 한예슬 불참 촬영 못하다 못 근데 넌내반 넌내반은 신혜언니 교통사고나서 교통사고 다치다 스페셜방송 알 한예슬 왜이러는건지
+kbs2_spy	meday6	POST	pyonw2_-_it30		2011-08-15	아 넌내게 반 회 예고 예 빨다 나오다 좋다 오늘 스파이 명월 하나tagquestion 한예슬 얘기 땜 시끌벅적 하다
+kbs2_spy	telenet5425	POST	pyonwl3-5g77w		2011-08-15	한예슬 스파이명월 촬영합류 안하다 형사고소
+kbs2_spy	dlaruddo1674	POST	pyov00i-_s368		2011-08-15	스파이 명월 안하다 한예슬 짜증 tagcry 오늘 내 처음 본방 본방을 볼 보다 있다 날 왜 외다 왜 외다 왜 외다 왜왜 왜왜에 tagexclamation 아악슬퍼 tagcry
+kbs2_spy	wkd752	POST	pyov05w-5uyau		2011-08-15	으잉 스파이명월 tagcry 한예슬 책임감 없다 없 그나저 그나저나 제시카 제시카랑 옥택연 옥택연이 사귄다는듯 뭐 관심 tagsmile 스파이명월 tagcry
+kbs2_spy	kkh7698	POST	pyov0b8-_c0vo		2011-08-15	한예슬 한예슬 스파이명월 촬영거부 왜tagquestion
+kbs2_spy	sag06074	POST	pyov0nr-5n_px		2011-08-15	한예슬이 한예슬이가 무슨 죄 첨 방송거부 몸 아팠다구 하다 이젠 pd pd랑 불화설 뉴스기자 정확 정보 맞나tagquestion 암튼 스파이명월 이 끝나다 가만안둠 tagexclamation 내 사랑 프로그램 tagexclamation
+kbs2_spy	tpdls1670	POST	pyov0v7-yeock		2011-08-15	아이구 스페셜까지봐줘야 스파이명월 본방사수했다그르지 tagsmile tagsmile
+kbs2_spy	dogyun1976	POST	pyov30d-yrqlr		2011-08-15	대단 한예슬 스파이명월 pd교체 요구 http mbn mk co kr pages news newsview phptagquestionnews seq mbn
+kbs2_spy	seojin_vi	POST	pyov36s-50h8o		2011-08-15	ㅏㅓㄴㄴ미 ㅏㅓㄴㄴ미나 미칠거야아너 미칠거야아너나 스파이명월결방흗ㄱ흐그 ㄴ안대 tagcry ㅏ머 ㅏ머니 머야무 머야무나 ㄴ오아씨 tagcry ㅓ미방학숙젷무넘 존 존나 마나머파ㅣ tagcry ㅓㅡㅏㄱ하나도않ㅅ핻아ㅓㅣ 머나퓨 책스무권언마 ㄴㅇ언제읽나임마뫼뉭으ㅏㅣ근데꼭커니머님낮에느너님ㄴ하기시러미ㅏㄴ tagcry
+kbs2_spy	noseho2	POST	pyov38s-auyn		2011-08-15	대단 한예슬 스파이명월 pd교체 요구 헐 tagsmile mbn
+kbs2_spy	goretti75	POST	pyov3qe-5kzwp		2011-08-15	대단 한예슬 스파이명월 pd교체 요구 http mbn mk co kr pages news newsview phptagquestionnews seq 난 나다 날다 얘 원래 싫다 에릭때문 에릭때문에 보다 한건데 예슬땜시 안보게 되다 배우다 배우답게 배우 어찌보면 돈 노동하는건데 참 차다 넘 당돌하는구 mbn
+kbs2_spy	i6125	POST	pyov3rh-pmze		2011-08-15	한예슬 진짜 무책임 안그래 안그래도 스파이명월 재미없더만 뭐 저런 드라마 다 있 있나 있나라 생각 그리다 오늘 광복절 마안세 tagexclamation 일본 독도 손 소다 솔다 떼다 떼 우리나라 우리 국민 밝히다 싶다 않다 tagexclamation
+kbs2_spy	janet-j	POST	pyov3zm-ybgzv		2011-08-15	무조건 한예슬씨 한예슬씨만 비난 일 아닌듯 한예슬씨 한예슬씨가 시청자 약속 방송 펑크내어 많다 관계자 곤란 상황 빠지게 우리나라 우리 방송체계 잘못된것 사실 한예슬씨 한예슬씨가 아니다 영향력 배우 한번쯤 한번쯤은 터트렸어야 문제 생각 한예슬 에릭 이켠 스파이명월 출국 미국
+kbs2_spy	jazzfiction	POST	pyov4m0-yilee		2011-08-16	한예슬 대신 김희선 투입 얼굴 대충 비슷 비슷하게 들어맞다 같다 tagsmile 안되다 안되려 에릭
+kbs2_spy	jongsub1004y	POST	pyov4r1-o7yt		2011-08-15	단독한예슬 스파이명월 촬영거부 전원대기 비 흠 스타뉴스
+kbs2_spy	wmq_	POST	pyov5pu-__wup		2011-08-15	대단 한예슬 스파이명월 pd교체 요구
+kbs2_spy	kyong0285	POST	pyov6r6-ydvsk		2011-08-15	내 즐겨보다 스파이 명월 명월도 결방이라네 결방이라네요 tagcry 슬프다 tagcry 진짜진짜 뭐 놀지tagquestion
+kbs2_spy	dltnwlsu	POST	pyov7qi-is4e		2011-08-16	한예슬 스파이명월 촬영거부
+kbs2_spy	jiyun3132	POST	pyova7o-waof		2011-08-15	한예슬언니 보고 보다 보 tagcry 명월 명월이 보는건데 주인공바뀌면 아마 안볼듯
+kbs2_spy	hanse0906	POST	pyovaf3-ipqk		2011-08-15	예슬언니 많다 힘든가 힘든가보 언니 힘내시구 활약 모습 싶네요tagsmile 언니 연기할때 가장 이뽀 이뽀요 그리다 스파이명월 진짜 잘됫음 좋다 tagcry
+kbs2_spy	cocoa_04	POST	pyovb6y-5nu88		2011-08-15	단독확인 단독확 스파이명월 한예슬 오후 시 미국 l 아 tagexclamation 스파이명월 결국 이렇게 끝인가tagquestion팬 끝인가tagquestion팬으 매우 속상 스포츠조선
+kbs2_spy	bhw1210	POST	pyovccb-y9gpy		2011-08-15	한예슬이빨리돌아왔으면조켓네 스파이명월보고싶단말이져 그리고네티즌말로는대응하기힘들다고 꼭와주셧음조켓습니다드라마라도마무리져주세 꼭와주셧음조켓습니다드라마라도마무리져주세요
+kbs2_spy	dsh113	POST	pyovcdm-5ab2w		2011-08-15	한예슬 출국설스파이명월 결방되나tagquestion
+kbs2_spy	jeb6263	POST	pyovfve-5ql7a		2011-08-15	아 스파이명월결방한데
+kbs2_spy	psj8579	POST	pyovget-ye5vy		2011-08-15	난스파이명월저번주부터기다렸는데 tagcry 머 머라 tagexclamation tagquestion스폐셜이웬말 tagquestion스폐셜이웬말인가 tagexclamation tagcry 낼또스페셜하면미워하꺼 낼또스페셜하면미워하꺼야 tagexclamation 한예슬씨께서좀더배려해주시면 tagcry
+kbs2_spy	khwkt100	POST	pyovgl3-ypp_l		2011-08-15	한예슬언니그러케안봤는뎅 스파이명월나한번도빠져서본적없는뎅 tagcry tagcry
+kbs2_spy	gksaor1234	POST	pyovhdf-5jezo		2011-08-15	아 tagcry 스파이명월 드라마 완전 임팩트 깨지다 제미드럽게 없어지다 tagcry
+kbs2_spy	namej0412	POST	pyovhia-5lwgl		2011-08-15	한예슬 욕 바가지 먹겠구 먹겠구만 스파이명월 망햇네
+kbs2_spy	gkswlgh5638	POST	pyovhy4-5qf0m		2011-08-15	스파이명월 스페셜 스페셜해서 무사백동수 보고 tagsmile 명월이 명월이가 조앗 tagsmile 스파이명월vs무사백동수 둘중 머가더 조아욧tagquestion
+kbs2_spy	ohsh1113	POST	pyovi0d-5yr0w		2011-08-15	모두 ㅃ ㅃ 여 tagsmile 나 나다 미투 자주 안들어 오다 잊지말아요오 아 그건글쿠 스파이 명월 잘되 잘되야 되다 tagcry
+kbs2_spy	puy2177	POST	pyoviej-ympc9		2011-08-15	이켠 스파이 명월 출연중 이켠 촬영중단 심경고백 사람칠때 내려보다 않다 무예절 결 결과 낳다 말다 한예슬씨 한예슬씨가 그리 큰배우 아니 아 큰배우라고 큰배우라고해 태도는적절치 못한듯
+kbs2_spy	leecw1215	POST	pyovinj-q4l6		2011-08-15	난스파이명월즐겨봣는데 아 한예슬한테많이실망실망 스파이명월감독피디작가등등같이촬영하는배우들은무슨죄 스파이명월감독피디작가등등같이촬영하는배우들은무슨죄인지 솔직히한예슬촬영할때웃으면서열심히 소속사에서도문제아고ㅉㅉ
+kbs2_spy	hikiki531	POST	pyoviog-5oxwi		2011-08-15	한예슬 출국 스파이명월 pd pd와 도대체 무슨일이tagquestion
+kbs2_spy	eeer0074	POST	pyovklg-_gxdw		2011-08-15	촬영펑크 한예슬 현재 미국 집 체류중 스파이명월 앞 행보는tagquestion
+kbs2_spy	als7552	POST	pyovksb-y_5ib		2011-08-15	단독확인 단독확 스파이명월 한예슬 오후 시 미국 l 헐 스포츠조선
+kbs2_spy	coco_mi_com	POST	pyovk_h-57q8z		2011-08-15	한예슬 한예슬 pd교체 요구 한예슬 pd교체 요구 스파이명월 결방 사태 점입가경 촬영거부 한예슬 일 la la로 출국
+kbs2_spy	juhee5838	POST	pyovl5e-_6kz		2011-08-16	한예슬언니 좀무책임한거아니신지 tagcry tagcry 스파이명월보려 일주일을기다렷는대 시청자 조금은생각해주세 tagcry tagcry 미국가셧다는데 다음방송에지장업도록빠른복귀하셧음해 tagcry tagcry
+kbs2_spy	dkzlxh66	POST	pyovm4n-ao_d		2011-08-15	한예슬 한예슬 사람 원래 이렇게 무책임 사람인지몰랐는데 하다 하지 무슨 이유 있다 그러겠지tagquestion 스파이명월 어쩌다 에릭 에릭이 불쌍
+kbs2_spy	sm21264	POST	pyovmlg-p6po		2011-08-15	한예슬 좋다 보다 스파이명월로인해 한예슬 정말 연기 어느 정도 정 하다 하 배우 하다 다리라인 이뿌 이뿌고 부럽다 라 라고 여겨지다 저렇다 시청자 농락 기가막히 기가막히다
+kbs2_spy	hyps1116	POST	pyovmmh-_w4kn		2011-08-15	한예슬 촬영 거부 스파이명월 결국 결방사태 일 스페셜방송 대체 daum미디어다음
+kbs2_spy	sm21264	POST	pyovmsj-p6po		2011-08-15	아 나 나다 스파이명월 참 차다 즐겨보다 이제 막다 막 막 오다 오르다 빠지다 시작 이거 뭔가 뭔가요 한예슬 여주 여주인데 끝나다 드라마 여주자리 나오다 할 하다 수도 수 없다 tagcry 무책임 한예슬 덕분 다시한번 책임감 대해 대하다 생각 좀 조다 해보다 겠다
+kbs2_spy	grujam	POST	pyovpxd-o353		2011-08-15	스파이 명월 여주인공 외국 튀었다면서요tagquestion 완결다 완결 불투명 왜 외다 고민하 고민하는 거지 거다 주인공 교체 되잖다 여주 여주가 교통사고 죽다 실의 빠지다 남주 남주는 어느 어느날 동명이인 여인 만나다 진주인공 등장 tagexclamation
+kbs2_spy	gimyen97	POST	pyovq1x-_jy77		2011-08-15	스파이명월 한예슬 명대사 tagexclamation 간놔새끼 tagexclamation tagsmile
+kbs2_spy	d_snail	POST	pyovq5b-5aokh		2011-08-15	스파이명월 제작사 한예슬한테 백억 소송걸거 함 하다 tagsmile 헐
+kbs2_spy	seh8306	POST	pyovqt3-_co5k		2011-08-15	스파이명월 결방 한예슬 촬영 거부 미국행 한예슬 교체 결정
+kbs2_spy	best7202	POST	pyovrdo-_ojio		2011-08-15	근데 스파이명월 감독 지독해서 박민영 박민영도 고생 한예슬 나오다 다르다 에릭 에릭이 스텝 무섭다 가만하다 있는거 아님tagquestion
+kbs2_spy	1989junzhi	POST	pyovre1-5lf03		2011-08-15	스파이명월 한예슬
+kbs2_spy	me__i	POST	pyovrtj-_9xen		2011-08-15	뭐 난 나다 날다 명월 안 안보 한예슬 팬 아니다 생사 건 거다 걸다 문제 아니다 힘들다 사적 문제 불참 거 거다 진짜 무 출처단독 한예슬 지인 한국일보 t토크 ttalk
+kbs2_spy	akwls560	POST	pyovs1m-7lsc		2011-08-15	한예슬 스파이명월 보다 보 입장 한예슬 대한 대하다 생각
+kbs2_spy	rlatndus2006	POST	pyovs44-_5kzg		2011-08-15	려욱 사랑 네이버앱 음악검색 스파이 명월 ost part
+kbs2_spy	ybpark15	POST	pyovs9g-1z4p		2011-08-15	뭐냐 tagcry 스파이명월 닥본사하는더 뭔 연예인 잠적나부랭이를해tagquestion스페셜나부랭이tagquestion걍 다본거 다시보여주는거지 tagexclamation 한예슬씨 그러는거 아녜 아녜요 tagcry
+kbs2_spy	jgy6578	POST	pyovsqu-5z3lr		2011-08-15	우앜 tagsmile 스파이명월 손발 오그라든닼 tagsmile 누 누가 고데기점 tagexclamation
+kbs2_spy	kyonaga123	POST	pyovtis-_re3b		2011-08-15	스파이명월 이렇게인기없는드라마가 스페셜 스페셜이라 스페셜이라니 참 차다 tagsmile 급조한게티나는엉성한편집 tagcry 이제부턴인볼란다 tagexclamation
+kbs2_spy	lchy1995	POST	pyovtkz-_sfy_		2011-08-15	스파이명월졸 재밌게보고있었는데 한예슬이미국으로튀었네 tagcry 아놔 제발 종영 하지마 하지마라
+kbs2_spy	thddkwl106	POST	pyovu28-lh2e		2011-08-15	스파이명월왜 저드라마 후속 포세이돈 포세이돈인데 좀 조다 잘 자다 해결 조기종영 안되죠 웹
+kbs2_spy	irony74803	POST	pyovu37-53qb7		2011-08-15	단독한예슬 스파이명월 촬영거부 전원대기 비 속사정 속사정은 모르다 책임감 없으신듯 그렇다 스케즐 스케즐이 많다 처음 드라마 찍지말던가 스타뉴스
+kbs2_spy	passionf	POST	pyovuag-g8hq		2011-08-15	한예슬 촬영 파행 스파이명월 여배우 교체 이상 기자분 다른기사보면 kbs국장 내일까지기다려 시청자 의견을물어 조치 기자혼자서 결론내나요tagquestion 칼보다강한게 펜 혼자서 정확하지않은 글로설레발치지마세 정확 기사 부탁 이데일리
+kbs2_spy	65cjsgk	POST	pyovued-fpap		2011-08-15	대단 한예슬 스파이명월 pd교체 요구 freebluebear 보다 보 오늘 스파이명월 본방 본방이 아니다 아니 스페셜 스페셜을 했었죠 mbn
+kbs2_spy	2123dldmsgk	POST	pyovuuf-c90s		2011-08-15	스파이명월 난 나다 날다 월화 월화마 꼬박꼬박챙겨보는데 배역 바뀌다 무슨재미로보나tagquestion내 할말 할말은 아니다 서로서 맞추다 하다 좋을텐데 진짜 총 맞아버리면 막장인가tagquestion tagsmile 배역안바꿨으면 좋다
+kbs2_spy	ssolwhi	POST	pyovuwr-hxsf		2011-08-15	한예슬이진정 배우다 pd pd와 불화 꿋꿋히끝 드라마 끝내줘야한다고생각 스파이명월 한예슬 빠지다 초코빠진 초코칩같을텐데
+kbs2_spy	magic7th	POST	pyovv1o-_gs0e		2011-08-15	제작진 무슨 갈등 있다 알 없다 주연 역할 맡다 자신 불참 출처 스파이명월 한예슬 촬영 무 이투데 이투데이 t토크 ttalk
+kbs2_spy	tjsrud08	POST	pyovvgc-_gsob		2011-08-15	한예슬 한예슬 촬영 펑크 스파이명월 불방 위기 모델 x
+kbs2_spy	scr07715	POST	pyovw9v-_m57d		2011-08-15	미 친내 친내가 스파이명월 에서한명월 에서한명월이 총맞고그다음부분보고싶은데 왜 외다 촬영거부 pd교체하라고지 랄 랄이 tagcry 아존 나 나다 씨 발 싫다 싫어 촬영 tagcry 스파이명월보는사람들은그거기다리 이제볼수잇겟구나 떠나고지 랄 랄이 tagcry
+kbs2_spy	scr07715	POST	pyovwcc-_m57d		2011-08-15	단독확인 단독확 스파이명월 한예슬 오후 시 미국 l ㅁ 친 치다 찰영을할꺼면 처음부터끊까지 왜이제와서지 랄 랄이 tagcry 조다 졸다 나 나다 난스파이명월기다리다존 나기분잡쳣네 tagcry 스포츠조선
+kbs2_spy	travelnews	POST	pyovwf0-53jdw		2011-08-15	스파이명월 한예슬 오후 시 미국 la 출국 확인 확 충격
+kbs2_spy	rlatmdwn9	POST	pyovwt4-52xu7		2011-08-15	한예슬 촬영거부 미국 출국했다네염 스파이명월 오늘 본방 회 볼려 볼려고 하다 안타깝다 오늘 회 회 했던것 스페셜 스페셜한대서 아쉽다 다행 내일 회 하다
+kbs2_spy	cosmosjs	POST	pyovxcu-mi0x		2011-08-15	감독 촬영 접어 접다 tagexclamation 한예슬 촬영 안하다 이제 명월 명월이 안 알다 나오다 스파이 명월 명월이 보다 보 거야tagquestion munhwalibo news
+kbs2_spy	koreasooyeon	POST	pyovy9r-1yjy		2011-08-15	배우 찰영 펑크내는것 배우잘못 변명 여지 없는것 이런사항을만들것 배역 맡지말 앗 출처 일 결방 스파이명월 이데일리 spn t토크 ttalk
+kbs2_spy	akajiny	POST	pyovz79-5lfxs		2011-08-15	대단 한예슬 스파이명월 pd교체 요구 freebluebear 나도 나다 나 첨 한예슬 무책임하다고 한예슬 까는거보 까는거보니 내막이궁금 뭔가이상해진다 방송 프로그램사기 pd사기 이런거겪다보 언론매체 믿을수 mbn
+kbs2_spy	gunduckhu	POST	pyovz7v-zkfg		2011-08-15	한예슬 소속사 말다 말 믿다 이건 말 안돼 안돼는 일 아팠더래도 시간 지각 감 가다 출처 스파이명월 한예슬 감독 문화일보 t토크 ttalk
+kbs2_spy	donggy1233	POST	pyovzbi-_mhyp		2011-08-15	kbs 스파이명월 한예슬 교체 특단조치 많이컷네 잘한다하니주제를모르네 빙신같은게 스타뉴스
+kbs2_spy	wb88558	POST	pyovzfg-5r3f_		2011-08-15	스파이명월 스페셜도재밌다 tagexclamation 지금까지의이야기 한시 줄이다 보여주다 역시 스파이명월 재밌어 tagexclamation tagsmile 스파이명월
+kbs2_spy	wb88558	POST	pyovzgy-5r3f_		2011-08-15	tagcry 예슬이언니 보고싶어 한예슬 스파이명월
+kbs2_spy	kns7724	POST	pyovzi_-smk7		2011-08-15	한예슬 끝내다 스파이 명월 촬영불참 일도 일 거 거다
+kbs2_spy	rnfrnfl123	POST	pyovzj6-bc1y		2011-08-15	오다 진짜스파이명월막장으로간다 tagsmile
+kbs2_spy	naver_news	POST	pyox092-lah8		2011-08-16	헉 명월동무 없다 스파이명월 무슨 소용 tagcry 환상 커플 생각
+kbs2_spy	airtale	POST	pyox0gi-__mi1		2011-08-17	오오밐 tagsmile 스파이 명월 명월 명월이 퇴갤 tagsmile
+kbs2_spy	naver_news	POST	pyox0iv-eu3_		2011-08-16	명월 명월이 없다 스파이명월 점점 흥미 더해간다 시청률 좀 조다 반짝 오르다
+kbs2_spy	qw950927	POST	pyox0vb-y69oo		2011-08-17	스파이명월 한예슬 그러는거아님 tagcry
+kbs2_spy	wldnjs4b	POST	pyox2hr-y1lao		2011-08-16	오늘뜬 기사는tagquestion 스파이 명월 한예슬 오늘뜬 기사는tagquestion
+kbs2_spy	dhw07240	POST	pyox2mh-akmf		2011-08-16	우에우에우에웨우웨우렝루 우에우에우에웨우웨우렝루에 tagcry 루레웰ㅇ루 한예슬 스파이 명월 나가다
+kbs2_spy	sk8rhdwn	POST	pyox4tv-_doch		2011-08-15	한예슬 촬영 펑크 스파이명월 불방 위기 헐 한예슬 넘 무책임 다른배우나스탭 마찬가지로힘들텐데 주연배우로써 영 책임 일하다 아예 방송드라마못하게 제명 케런티 케런티도 많이받을텐데 이따이로 안되는것아냐 pd하고문제가있다해도촬영은하면서따져야지 이데일리
+kbs2_spy	juhee5838	POST	pyox55m-_6kz		2011-08-17	오늘 스파이명월 재밋엇어 재밋엇어요 taglove 극중에서도명월이가사라젓네 tagcry tagcry 오늘따 오늘따라 명월이한테감정이입이되버려서 마음이아프 tagcry tagcry 담주 담주에 스페셜 스페셜하면 한예슬언니미워할겨 tagcry
+kbs2_spy	csh8991	POST	pyox573-vxwq		2011-08-17	채매력 스파이명월 회 다시보기 고화질
+kbs2_spy	csh8991	POST	pyox57m-vxwq		2011-08-17	채매력 스파이명월 회 다시보기 고화질
+kbs2_spy	csh8991	POST	pyox57s-vxwq		2011-08-17	채매력 스파이명월 회 다시보기 고화질
+kbs2_spy	csh8991	POST	pyox5l6-vxwq		2011-08-17	채매력 스파이명월 회 다시보기 고화질
+kbs2_spy	csh8991	POST	pyox5lx-vxwq		2011-08-17	채매력 스파이명월 회 다시보기 고화질
+kbs2_spy	csh8991	POST	pyox5x0-vxwq		2011-08-17	채매력 스파이명월 회 다시보기 고화질
+kbs2_spy	csh8991	POST	pyox5xq-vxwq		2011-08-17	채매력 스파이명월 회 다시보기 고화질
+kbs2_spy	csh8991	POST	pyox5xw-vxwq		2011-08-17	채매력 스파이명월 회 다시보기 고화질
+kbs2_spy	wndud8430	POST	pyox5y4-_qtc_		2011-08-16	전 절다 지금 씻다 스파이명월 보고 보다 보 있다 아 재밌네 재밌네요 very good tagexclamation
+kbs2_spy	gudwl0314	POST	pyox74z-y47mk		2011-08-16	스파이명월 방영해용 tagexclamation
+kbs2_spy	joung6852	POST	pyox86h-5_mkt		2011-08-17	그리다 또 스파이명월 한명월 한예슬 동지 이제 스파이명월 안 하다 하다 하지 저는인정할수 어쩨서 한명원 동지 드라마 안나온다는것입니까tagquestion 그문제점 그문제점은 우리여러분이맞추어주시기바랍니 tagsmile 저 시 분 다시올께욬 tagsmile
+kbs2_spy	ssm9711	POST	pyox88w-yu4cn		2011-08-16	제목 오죽하면 스파이 명월이었겠냐구요
+kbs2_spy	syj583	POST	pyox8ed-yt6a8		2011-08-17	스파이 명월 회 노버퍼 드라마 월드 tagexclamation
+kbs2_spy	joung6852	POST	pyox8fd-5_mkt		2011-08-17	아아닙닙다 지금기사를보니한멸원동지 가 가다 활동을한다고 그갓 뺑소니사고 여러분 사과를드리네용 하다 하지 다행이네용 스파이명월 활동을 활동을해서 tagsmile 여러분안뇽 tagexclamation
+kbs2_spy	po1420	POST	pyox8_x-5yw9e		2011-08-16	헐 스파이명월 명월이 명월이가 죽은걸루 가다 갈다 내 본것중 본것중에 제일 제 슬프다 드라마 중반 드라마주인공 죽다 tagcry
+kbs2_spy	bsjs1201	POST	pyox9nn-54e8l		2011-08-16	스파이명월 주연 교체 스파이명월 주연 교체 한예슬 대신 여배우 누구tagquestion 일 촬영 재개 한예슬 인터뷰
+kbs2_spy	puregonggo	POST	pyox9vs-59bvc		2011-08-16	한예슬 죽은걸 죽은걸로 한다넼 tagsmile 명월
+kbs2_spy	live4l0ve	POST	pyox9_r-ghls		2011-08-16	스파이명월 한예슬 도대체 무슨일 무슨일이 있었던걸까요tagquestion
+kbs2_spy	nate1004jun	POST	pyoxaso-53xu7		2011-08-17	한예슬 사과 전화 스파이명월 촬영 재개
+kbs2_spy	wnsgur7608	POST	pyoxbd6-5xl_w		2011-08-16	한예슬 출국설 kbs 스파이 명월 긴급 기자회견 주연 교체 결정 경인일보
+kbs2_spy	ssm9711	POST	pyoxcgk-yu4cn		2011-08-16	tagsmile 한예슬 스파이 명월 명월이 보고싶어지 이유 뭘까요tagquestion
+kbs2_spy	thdud3525	POST	pyoxcnm-5l32r		2011-08-16	한예슬님한테진짜실망햇당 내가진짜 한예슬님 논스톱할때부터조아 그댄달라 그댄달라요 이곡도진짜좋아햇는데 진짜 미국귀국인증샷뜨기전 무슨일있겠지캄서 돌아오길바랬는데 tagcry 크게실망함진짜러 tagcry 휴 스파이명월때메 월욜화욜기다렸는데뭐냐진짜 한예슬님 무책임 이제팬안 tagexclamation
+kbs2_spy	cj_tving	POST	pyoxdg6-_fpc0		2011-08-16	한예슬씨 덕분 tagquestion 요즘 스파이 명월 명월에 관심집중 되다 되 있다 심지어 저 어제 꿈 꾸다 속 한예슬씨 출현 tagexclamation 스파이 명월 티빙 티빙으 시청 스파이명월 한예슬 한예슬미국 피다 티빙 실시간티비 다시보기
+kbs2_spy	xyovite	POST	pyoxejl-5hso2		2011-08-17	스파이명월 한예슬 촬영거부 잠적 배경 드라마 속 있다tagquestion
+kbs2_spy	bang_gli	POST	pyoxep0-ntyb		2011-08-17	스파이명월 작가 알다 있었다tagquestion 한예슬 잠적 전 절다 촬영 대사 비난 비 혼자 연예인tagquestion드라마 작가 대본 현실 드라마 묘 오버랩 오버랩되면서 은근 한예슬 디스 미국 날라버린 한예슬 문제지 문제지만 일 그지경 그지경으 만들다 나머지는tagquestion첨 잼있었는데 가다 내용 산 daum미디어다음
+kbs2_spy	tbworld_tv	POST	pyoxerk-_clkj		2011-08-16	스파이 한예슬 촬영 거부 스태프는tagquestion socialxe
+kbs2_spy	gkaalssus	POST	pyoxgji-yuhn4		2011-08-16	스파이 명월 속 인테리어 따라잡다 tagexclamation 스파이 명월 속 인테리어 따라잡다 tagexclamation
+kbs2_spy	hearthot58	POST	pyoxh8p-5k52n		2011-08-16	스파이명월 재밌었는데 한예슬도좋은데 드라마 복귀했으면 좋다 사건 사다 커지기전 커지기전에 tagexclamation
+kbs2_spy	talove416	POST	pyoxhls-ys587		2011-08-16	kbs 스파이명월 여주인공 새 캐스팅 공식 입 이건 대박인거지 대 선배님 열심힝일하고계시는데 연기력 붖ㄱ 붖ㄱ하면서 진짜 무책임한행동 tagcry tv리포트
+kbs2_spy	aejin102804	POST	pyoxho6-owv7		2011-08-16	한예슬 아니다 안되다 tagcry 왜그래 tagcry 한예슬 목소리 좋다 tagcry 한옛긍ㅂ명월 한옛긍ㅂ명월아 tagcry
+kbs2_spy	81048	POST	pyoxioc-_hewm		2011-08-16	스파이 명월 엄청 재미있게봤는데 실망 tagcry 한예슬 돌아오다
+kbs2_spy	enypsyche	POST	pyoxj8d-58v_o		2011-08-17	스파이 명월 장희진 패션 스파이 명월 회 장희진 주인 패션 장희진 원피스 장희진 블라우스 장희진 가방 장희진 팬츠
+kbs2_spy	enypsyche	POST	pyoxj97-58v_o		2011-08-17	스파이 명월 한예슬 패션 스파이 명월 회 한예슬 한명월 패션 한예슬 자켓 한예슬 가방 한예슬 원피스 한예슬 블라우스 한예슬 티셔츠
+kbs2_spy	wjddbs8722	POST	pyoxjmf-yerja		2011-08-16	아개 아개같음 스파이명월안볼꺼 짜증 박 일문제로머리아픈데
+kbs2_spy	xenix	POST	pyoxkpc-v		2011-08-17	한예슬 지각 날 나다 pd pd와 작가 이렇게 대본 고치다 촬영 시키다 하다 치졸 인격 모독 아니다 내 상황 처하다 어땠을까 한예슬 행동 강하다 이해 되다 한예슬 스파이명월
+kbs2_spy	als7552	POST	pyoxm4d-y_5ib		2011-08-17	스파이명월 한예슬 디스tagquestion 지가 지 엄청 잘나다 잘 줄 주다 알다 알 tagsmile tv리포트
+kbs2_spy	niky8888	POST	pyoxmmv-5y2pv		2011-08-16	온천수 워터파크 워터파크 추천 스파이명월 촬영장소 리솜스파캐슬 리솜스파캐슬의 여름 극뽁 페스티벌 감수성 ucc 이벤트
+kbs2_spy	songyemi199	POST	pyoxnpr-5qoue		2011-08-16	한예슬씨 스파이명월 끝내다 모두 정리하시길바랍니 드라마 끝나다 많다 힘들다
+kbs2_spy	yoyong11	POST	pyoxn_h-erbs		2011-08-15	한예슬 스파이명월 촬영 불참 한예슬 촬영거부 해명 스파이명월 불방위기
+kbs2_spy	joung6852	POST	pyoxoe9-5_mkt		2011-08-17	다룡 다룡아 안뇽 안뇽 무슨드라마보 무슨드라마보니 난스파이명월 난스파이명월이 넌내게 반했어보는데 스파이명월 주인나 주인나가 악역 넌내게 반했어에는 희주 희주가 악역 넌tagquestion
+kbs2_spy	jck0090	POST	pyoxp70-_cd1y		2011-08-16	언제 스파이 명월 시작 한예슬 안 그만하다 걸까tagquestion궁금tagquestion
+kbs2_spy	maplestory72	POST	pyoxppl-5seso		2011-08-17	스파이 명월 결국
+kbs2_spy	iq20097	POST	pyoxpsn-57fzi		2011-08-16	스파이명월 피디 피디가 데뷔작 tagcry 여주왜바꿈tagquestion 미치다 tagquestion 나그럼안볼꺼 나그럼안볼꺼임
+kbs2_spy	claire99lee	POST	pyoxp_p-cgg5		2011-08-16	한예슬조은데 미국으로가버렷데 tagcry 스파이명월인가tagquestion그거 좀망한듯 tagsmile
+kbs2_spy	8836dbs	POST	pyoxqcp-y_sba		2011-08-16	스파이명월 여주 바뀐다던데 tagcry 한예슬 가지말아 tagcry 오늘 본방필수 tagexclamation tagsmile
+kbs2_spy	ordian2000	POST	pyoxqfz-1acy		2011-08-16	스파이 명월 속 인테리어 따라잡다 tagexclamation 스파이 명월 속 인테리어 따라잡다 tagexclamation
+kbs2_spy	jck0090	POST	pyoxr0b-_cd1y		2011-08-16	스파이 명월 재방송 하는게 어딧어tagquestion 스파이 명월 한예슬 빨다 나오다 좋겠네 좋겠네여
+kbs2_spy	nayam28	POST	pyoxro8-__hl3		2011-08-16	스파이명월 한예슬
+kbs2_spy	dkfk2685	POST	pyoxrq5-yu4cn		2011-08-16	우 스파이명월 지금 여주 가다 갈다 소리야tagquestion tagsmile 완전 막장 가다 가는구 스파이명월 tagsmile 드라마제목 바꾸다 웃어라강우 tagsmile
+kbs2_spy	tlsduddl1	POST	pyoxrwa-52ct_		2011-08-16	스파이 명월 잘보고있었는뎅
+kbs2_spy	0518ksw	POST	pyoxs5q-sgoc		2011-08-16	아 ㅆㅂ 내 유일 보다 보 드라마 스파이 명월 명월이 결방될위기 처했다tagquestion tagexclamation tagcry 예슬언니 돌아오다 tagexclamation tagcry
+kbs2_spy	frompic	POST	pyoxs9h-_d1bz		2011-08-16	열화 같다 성원 카톡 인증샷 인증샷을 올리다 주신 큰오빠 tagexclamation 신화 멤버 군대 굴다 소집해제 후 첫 드라마 안방 복귀한 신화 리더 에릭 에릭의 드라마 스파이 명월 첫 방송
+kbs2_spy	oh5no	POST	pyoxsrg-1y45		2011-08-16	한예슬 은퇴결심tagquestion 재미교포 결혼설tagquestion 스파이 명월 여주인공 교체 불가피 tagexclamation 한예슬 촬영거부 tagexclamation
+kbs2_spy	atjgmlckd	POST	pyoxsuc-y1i4q		2011-08-16	스파이 명월 결국
+kbs2_spy	sbg212001	POST	pyoxsw3-y4roo		2011-08-17	쩔어 스파이 명월 강우 tagcry 출생비밀 전 절다 고아 고다 였어요 아버지 의사 아니다 그리다 출생 조작 그리다 한명월 한명월 한명월 한명월을 사랑 흑흑 쩔엌 tagcry
+kbs2_spy	silverkoichi	POST	pyoxt29-580xy		2011-08-16	tagsmile 시청자 우롱 것 작작좀 팽개쳐버리 팽개쳐버리고 미국 가놓고 복귀희망 한다는건 무슨 시츄레이션 시츄레이션이냐 tagsmile tagsmile 무슨 드라마 보다 보 기분 ㅇㅇ 스파이 한예슬인듯 tagsmile 참다 참 살다살다 별꼴 별꼴을 다 보는구 보는구만 시청자 약속 그리 만
+kbs2_spy	kmirn001	POST	pyoxt88-_d1q6		2011-08-16	한예슬 결혼설 결혼설과 스파이명월 촬영 불화
+kbs2_spy	qovmek123	POST	pyoxt8h-_bc4k		2011-08-16	한예슬 언니 팬 아니다 한예슬 언니 다 사정 있을것 같다 그리다 몰아세우다 것 너무한것 같다 기사 막 터지다 빨다 드라마 여주인공 바뀌다 않다 하루 빨다 복귀하셔서 한예슬 언니 나오다 스파이명월 드라마 보다 좋다
+kbs2_spy	wnfkrl2008	POST	pyoxud8-_rk9t		2011-08-17	스파이명월재밌던데 한예슬씨사태때문 시청률더떨어졋네 tagcry 내용은재밌기
+kbs2_spy	dbssk923	POST	pyoxukv-arpz		2011-08-16	http sports chosun com news ntype htmtagquestionid servicedate 한예슬 한때 에릭 에릭과 갈등 뉴스스크랩 스포츠조선
+kbs2_spy	wnfkrl2008	POST	pyoxuwh-_rk9t		2011-08-17	정말어이가 스파이명월 스텝 제작진 무조건한예슬탓으로모는거 정말유치하기짝이 그것때문에또 네티즌 네티즌들은 한예슬탓인줄알고 다 한예슬만욕먹는다 전드라마 할때 할때는 이런일 한번 없다 한예슬씨 한예슬씨는 왜 외다 이드라마 이드라마에서 이런행동을한것인지 제작진 문제 tagcry
+kbs2_spy	kohl1004	POST	pyoxvfv-yoe9e		2011-08-16	므아ㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏㅏ tagsmile 므힘 스파이명월 슬펌
+kbs2_spy	joung6852	POST	pyoxwxf-5_mkt		2011-08-17	여러분 지금 넌내게 반햇어 반햇어라 드라마 스파이명월 이라는드라마 보고계십니까tagquestion
+kbs2_spy	firstdream55	POST	pyoxyig-_sde_		2011-08-17	한예슬 스파이명월 촬영 거부 뒤 출국 후 드라마 촬영 복귀 퍼스트
+kbs2_spy	ukj41006	POST	pyoxyqn-efh8		2011-08-17	단독한예슬 일 귀국 복귀했어 다행이예 tagcry 스파이명월 명월역자리 한예슬 잘어울려 잘어울려요 이데일리
+kbs2_spy	wndud8430	POST	pyoxyx4-_qtc_		2011-08-16	안녕 tagexclamation 전 절다 맨 맨날 미투데이 미투데이에 들어오다 오늘 스파이명월 회 할수 있을까요tagquestion어제 스페셜 스페셜해서 보다 회 하다 해서 어쨌든 하다 좋겠네요tagsmile
+kbs2_spy	wjdrlghd002	POST	pyoxz0w-f6ob		2011-08-16	스파이 명월 명월의 pd님 pd님하 싸우다 촬영거부하시고 촬영거부 촬영거부하시 미국 떠나다 tagcry 그럼 주인공 누 누가 돼tagquestion 출처한예슬 la공항 포착 ttalk
+kbs2_spy	ckrtlskfl	POST	pyoxz87-ysbu4		2011-08-16	스파이 명월 회 지금 본방사수 하다 아쉽다 tagcry 아직 스파이 명월 팬 얼마 많다 한예슬 언니 돌아오다 tagcry 주인공 한예슬 끄다 tagexclamation
+kbs2_spy	ghi03113	POST	pyoxzmb-y8722		2011-08-16	스파이명월 결국
+kbs2_spy	haha98902002	POST	pyoxzsm-5g5jf		2011-08-15	한예슬 스파이명월 촬영거부
+kbs2_spy	wjdrlghd002	POST	pyoxzsx-f6ob		2011-08-16	황인혁pd님 tagexclamation 이러시는거 아니다 한예슬누나 어쩌시다보면 그럴 그럴만한 사정 있다 지각 하신거지 tagexclamation 예슬 예슬이 누나 왕따설 왕따설에 화나다 촬영 거부 미국 가게 가다 하시 스파이 명월 명월의 주인공 누 누가 해tagquestion차라리 박 일 하이라이트 채우다 tagexclamation 자기소개 남 나다
+kbs2_spy	tyche0315	POST	pyox_5_-_f8y5		2011-08-16	스파이명월 주연 교체한예슬 촬영거부 대체 여배우는tagquestion
+kbs2_spy	jeasoup	POST	pyox_cf-1p4j		2011-08-17	스파이명월 한예슬 남자 남다 때문 때문에 먹튀tagquestion 언론 이상 마녀사냥
+kbs2_spy	csh8991	POST	pyox_d1-vxwq		2011-08-17	채매력 스파이명월 회 다시보기 고화질
+kbs2_spy	freejc37	POST	pyox_v1-_qzuy		2011-08-16	한예슬 한예슬 황인혁pd 갈등 스파이명월 황인혁pd
+kbs2_spy	dkfk2685	COMMENT	pym579i-_icu7	c_nibnw-ym579i-_icu7	2011-08-17	불화 아니다 한예슬씨 한예슬씨는 어떤문제때문 어떤문제때문에 미국 도피한것일까요tagquestion
+kbs2_spy	kain0619	COMMENT	pym58ww-ym6cx	c_n2gc1-ym58ww-ym6cx	2011-08-16	짤린거네tagquestion 한예슬tagquestion tagsmile
+kbs2_spy	violet_0101	COMMENT	pym58ww-ym6cx	c_n2sqi-ym58ww-ym6cx	2011-08-16	한예슬 무책임 실망 어떻다 된건지 잘 자다 모르다 좀 조다 막무가내 이미지 완전하락 ㄱ
+kbs2_spy	xxddrr5	COMMENT	pym58ww-ym6cx	c_n2t06-ym58ww-ym6cx	2011-08-16	짤린거보단 자다 자기 고투헬 이러고서 연예인어떻게 하려공 열악한근무환경 따지기전 따지기전에 자기 자다 몸값 몸값만큼 연기력을보여주던가 드라마 재미 안 있다 하여 여배우병
+kbs2_spy	dkfk2685	COMMENT	pym58ww-ym6cx	c_n2tdo-ym58ww-ym6cx	2011-08-16	헐 여주인공 없다 어떻다 드라마 진행한다는거 tagsmile
+kbs2_spy	lisianthusxo	COMMENT	pym59l0-5kzwp	c_n5007-ym59l0-5kzwp	2011-08-19	하다 근데 왜 외다 자꾸 포스팅 포스팅이 보이는거예 tagsmile ㄷ tagsmile ㄷ
+kbs2_spy	lisianthusxo	COMMENT	pym59l0-5kzwp	c_n53dm-ym59l0-5kzwp	2011-08-19	그거 극본 공모 당선작이라던데 내용 어쨌든 쪽대본 쪽대본은 아닐듯
+kbs2_spy	goretti75	COMMENT	pym59l0-5kzwp	c_n53f_-ym59l0-5kzwp	2011-08-19	관심 한예슬 태도 드라마 안 안보 싶다 더더욱
+kbs2_spy	yejiyeyo7788	COMMENT	pym5c24-_hh73	c_ngira-ym5c24-_hh73	2011-08-17	화욜날두 안햇엉tagquestion
+kbs2_spy	4568979	COMMENT	pym5c24-_hh73	c_nmhgi-ym5c24-_hh73	2011-08-16	ㅇㅇ
+kbs2_spy	4568979	COMMENT	pym5c24-_hh73	c_nmo9p-ym5c24-_hh73	2011-08-16	짱재미쯤
+kbs2_spy	4568979	COMMENT	pym5c24-_hh73	c_nmoac-ym5c24-_hh73	2011-08-16	ㅇㅇ스토리 곧끝날꺼가틈 tagcry
+kbs2_spy	woduq828	COMMENT	pym5c24-_hh73	c_nmoe7-ym5c24-_hh73	2011-08-16	스파이명월재밌어요tagquestion저희 스파이명월재밌어요tagquestion저희는 무사백동수보는대
+kbs2_spy	woduq828	COMMENT	pym5c24-_hh73	c_nmoih-ym5c24-_hh73	2011-08-16	음 언젠가 한번은봐봐야지 tagexclamation
+kbs2_spy	woduq828	COMMENT	pym5c24-_hh73	c_nmoxc-ym5c24-_hh73	2011-08-16	ㄷㄷ 그럼빨리봐야할듯
+kbs2_spy	dlgusrn0204	COMMENT	pym5uh5-5dbsi	c_2ljfy-ym5uh5-5dbsi	2011-08-18	타는냄새 안나요tagquestion 내맘 내맘이 타고 타다 타 있다 tagsmile tagsmile
+kbs2_spy	9337718	COMMENT	pym5uh5-5dbsi	c_2ljg0-ym5uh5-5dbsi	2011-08-18	겁 상실 상실했구 tagsmile
+kbs2_spy	dlgusrn0204	COMMENT	pym5uh5-5dbsi	c_2ljnh-ym5uh5-5dbsi	2011-08-18	이거 볼때 볼때마 오글거려 tagsmile
+kbs2_spy	eunjee_1009	COMMENT	pym5uh5-5dbsi	c_2lp5s-ym5uh5-5dbsi	2011-08-18	에릭이연기한거단한번도본적업서서잘
+kbs2_spy	9337718	COMMENT	pym5uh5-5dbsi	c_2lpbc-ym5uh5-5dbsi	2011-08-18	나다 나 너르다 킬해줄수 있다 아바 아바다 케다브 케다브라 tagexclamation
+kbs2_spy	jisu972	COMMENT	pym5uh5-5dbsi	c_2lpdu-ym5uh5-5dbsi	2011-08-18	자다 자기 더연기잘 더연기잘함
+kbs2_spy	eunjee_1009	COMMENT	pym5uh5-5dbsi	c_2lpgr-ym5uh5-5dbsi	2011-08-18	tagsmile
+kbs2_spy	9337718	COMMENT	pym5uh5-5dbsi	c_2lpwo-ym5uh5-5dbsi	2011-08-18	기사 기다 보고 보다 보 웃엇음 tagsmile 글고 지가 지 연기 오래해보고 한예슬 왜그랬는지 이해 못하다 말 tagsmile 피해자라고 tagsmile
+kbs2_spy	dlgusrn0204	COMMENT	pym5uh5-5dbsi	c_2lpwp-ym5uh5-5dbsi	2011-08-18	tagsmile 죽다 죽음 주문 tagsmile
+kbs2_spy	9337718	COMMENT	pym5uh5-5dbsi	c_2lr5h-ym5uh5-5dbsi	2011-08-18	원샷원킬 tagsmile
+kbs2_spy	9337718	COMMENT	pym5uh5-5dbsi	c_2lrah-ym5uh5-5dbsi	2011-08-18	에릭 에릭은 눈빛만 눈빛만이 진짜 tagsmile
+kbs2_spy	dlgusrn0204	COMMENT	pym5uh5-5dbsi	c_2lrb2-ym5uh5-5dbsi	2011-08-18	tagsmile 맞다 tagsmile 대박 tagsmile
+kbs2_spy	eunjee_1009	COMMENT	pym5uh5-5dbsi	c_2lrbf-ym5uh5-5dbsi	2011-08-18	음한번찾아봐야겟서옄
+kbs2_spy	9337718	COMMENT	pym5uh5-5dbsi	c_2lrk7-ym5uh5-5dbsi	2011-08-18	웃기 tagsmile 에릭 웃기다 tagsmile
+kbs2_spy	9337718	COMMENT	pym5uh5-5dbsi	c_2lrzs-ym5uh5-5dbsi	2011-08-18	tagsmile
+kbs2_spy	jwma3214	COMMENT	pym63us-up7b	c_vkpmj-ym63us-up7b	2011-08-17	긍 긍께 말 애청자 인 스마트 한자 앙대
+kbs2_spy	emptyframe	COMMENT	pym65li-9ve	c_n770n-ym65li-9ve	2011-08-16	이지메 이야기 돌만하죠
+kbs2_spy	emptyframe	COMMENT	pym65li-9ve	c_n7793-ym65li-9ve	2011-08-16	설명 고맙다 동종업계인 tagsmile
+kbs2_spy	emptyframe	COMMENT	pym65li-9ve	c_n77bn-ym65li-9ve	2011-08-16	액션연기 서너배 서너배로 힘든데 힘든데다 거의 거 매 매다 장면 나오다 주연
+kbs2_spy	pomme0124	COMMENT	pym65li-9ve	c_n7cw8-ym65li-9ve	2011-08-16	방송 당일 그회 촬영 한다고 하죠 tagcry
+kbs2_spy	emptyframe	COMMENT	pym65li-9ve	c_n7g3r-ym65li-9ve	2011-08-16	그럼 편집 언제하나요tagquestion tagcry
+kbs2_spy	pomme0124	COMMENT	pym65li-9ve	c_n7gqn-ym65li-9ve	2011-08-16	자세 이야기 쪽지 보내놨어 보내놨어요 tagcry
+kbs2_spy	pomme0124	COMMENT	pym65li-9ve	c_n7grw-ym65li-9ve	2011-08-16	당일에 당일에요 tagcry
+kbs2_spy	kaka	COMMENT	pym65li-9ve	c_n7sd3-ym65li-9ve	2011-08-16	스파이역이다보 가뜩이 몸쓰 몸쓰는 일 많다 힘들 힘들만 하다 하 생각
+kbs2_spy	thinkingnina	COMMENT	pym65li-9ve	c_n7um9-ym65li-9ve	2011-08-16	오죽하면 그랬을까 싶다 해서 하다 안쓰럽다 안쓰러워 kbs 일방적 언론플레이하 것 미음에안들고
+kbs2_spy	kaka	COMMENT	pym65li-9ve	c_v5r7r-ym65li-9ve	2011-08-17	ㅇㅇ 힘 부칠 부칠만 tagcry
+kbs2_spy	yyhhii006613	COMMENT	pym6beb-c9py	c_nhnfg-ym6beb-c9py	2011-08-17	스파이명월 보시나요tagquestion shee
+kbs2_spy	shee0904	COMMENT	pym6beb-c9py	c_nhu0t-ym6beb-c9py	2011-08-17	운명 tagexclamation
+kbs2_spy	gil1312	COMMENT	pym6e7c-5lfxs	c_n0b1y-ym6e7c-5lfxs	2011-08-20	제가 제 언제 일용직 고용자 비하했죠tagquestion 어느부분 찾을수 없는데요tagquestion제가 비하한건 한예슬씨 한예슬씨의 열악 환경기준인데요tagquestion일용직고용자 환경기준인데요tagquestion일용직고용자들이 연애 해보다 하셧죠tagquestion그럼 한예슬씨 한예슬씨를 공사판 보 당신 당신의 말 말도않돼는 논리 맟추면 한예슬씨 한예슬씨도 공사판 일해야 일해야합니 일해야합니다
+kbs2_spy	akajiny	COMMENT	pym6e7c-5lfxs	c_nwm8_-ym6e7c-5lfxs	2011-08-22	한예슬뿐아니 유명연예 몸값 어느정도할텐데요tagquestion 무슨말도안 연예 연예인 연예인보 공사판 tagsmile 능력되니까 하는거지 비교할껄비교하란말 에효 답답하다정말
+kbs2_spy	akajiny	COMMENT	pym6e7c-5lfxs	c_nwmwe-ym6e7c-5lfxs	2011-08-22	제가 제 한말 한말에 오해의소지가잇을것 제가 제 비하하는게 아니다 아니 말한겁니 말한겁니다 연예인 어떻다 연예인이되나요tagquestion 아무나되나요tagquestion안 아무나되나요tagquestion안되니까 그리받는거아닌가요tagquestion
+kbs2_spy	exca999	COMMENT	pym6f8n-sl51	c_n0_xz-ym6f8n-sl51	2011-08-20	제일 제 한심 논리 세뇌 되는거죠 노동자 귀족 될수 있습니까tagquestion 노동자 노동자 뿐이죠 망 수꼴 언론 플레이 tagexclamation
+kbs2_spy	likejin99	COMMENT	pym6f8n-sl51	c_nwtmk-ym6f8n-sl51	2011-08-22	여기 놀아나다 사람
+kbs2_spy	wlgp5408	COMMENT	pym6xtp-_clt2	c_nhcy5-ym6xtp-_clt2	2011-08-23	스파이명월 재밌는데
+kbs2_spy	happiend	COMMENT	pymd5dq-s5rm	c_n9plq-ymd5dq-s5rm	2011-08-15	pd pd랑 공개적 싸우다 제작자 연출진 교체 요구 tagsmile 뺑소니 사고났을때 극성팬한테 잘못걸렸 싶다 왕실망이에
+kbs2_spy	happiend	COMMENT	pymd5dq-s5rm	c_n9rjj-ymd5dq-s5rm	2011-08-15	돌아오다 비행기 예약 안되다 연예계 생활 청산하려나바
+kbs2_spy	yminne	COMMENT	pymd5dq-s5rm	c_n9rmy-ymd5dq-s5rm	2011-08-15	헉 정말요tagquestion이런이런
+kbs2_spy	annykoh	COMMENT	pymd8k8-k14v	c_2v_i7-ymd8k8-k14v	2011-08-18	푸하 푸하하 예슬나 예슬나의 심경고백 대박 저 심경고백 해야겠어 해야겠어요 tagsmile
+kbs2_spy	99heran	COMMENT	pymd8k8-k14v	c_2v_rp-ymd8k8-k14v	2011-08-18	참 차다 잘 자다 모르다 근데 난 나다 날다 에릭 에릭의 심경고백 제목 예슬나 예슬나의 심경고백 보고 보다 보 깜짝놀랐잖아 tagsmile tagsmile
+kbs2_spy	dkfk2685	COMMENT	pymd9gz-pwu9	c_njkid-ymd9gz-pwu9	2011-08-15	전 절다 안볼려구 안볼려구요
+kbs2_spy	taijistoker	COMMENT	pymdgr4-ywncq	c_np41a-ymdgr4-ywncq	2011-08-16	죄송 제가 제 한예슬팬이 이번행동 팬 실망 크다 한자리 tagcry
+kbs2_spy	mikl0812	COMMENT	pymdgr4-ywncq	c_npmw2-ymdgr4-ywncq	2011-08-16	tagsmile 웃기다
+kbs2_spy	skywalljj	COMMENT	pymdj1k-y5eky	c_no32s-ymdj1k-y5eky	2011-08-16	나 나다 왠지 한예슬 불쌍
+kbs2_spy	dkfk2685	COMMENT	pymdvof-gfwe	c_nr0nf-ymdvof-gfwe	2011-08-16	동감 숨지만 나오다 제발 사실 해명해주시죠
+kbs2_spy	dkfk2685	COMMENT	pymdydz-5_p	c_2a9bn-ymdydz-5_p	2011-08-17	헐 완전 실제 상황
+kbs2_spy	iknowchang	COMMENT	pymdydz-5_p	c_2s9qu-ymdydz-5_p	2011-08-17	예 들다 대사
+kbs2_spy	dkfk2685	COMMENT	pymdydz-5_p	c_2sb7t-ymdydz-5_p	2011-08-17	예 들다 무슨 대사 잇다 알다 알리다 주시겠나요tagquestion
+kbs2_spy	whtpffk	COMMENT	pymkek6-tsqk	c_ve0ux-ymkek6-tsqk	2011-08-18	er
+kbs2_spy	jarubi99	COMMENT	pymy9nv-5o4rc	c_nsg40-ymy9nv-5o4rc	2011-08-15	그게 재미엄떤데
+kbs2_spy	leecr0922	COMMENT	pymy9nv-5o4rc	c_nshko-ymy9nv-5o4rc	2011-08-15	그니까 tagcry 한예스때문 한예스때문에 지금 스페셜 스페셜해 tagcry
+kbs2_spy	jarubi99	COMMENT	pymy9nv-5o4rc	c_nsqed-ymy9nv-5o4rc	2011-08-15	아니 아 난 나다 날다 재미 없다 햇는뒈
+kbs2_spy	jarubi99	COMMENT	pymy9nv-5o4rc	c_nsuoc-ymy9nv-5o4rc	2011-08-15	tagsmile
+kbs2_spy	leecr0922	COMMENT	pymy9nv-5o4rc	c_nsupu-ymy9nv-5o4rc	2011-08-15	tagsmile 나다 나 재밌다구봣어 tagsmile
+kbs2_spy	dkfk2685	COMMENT	pymybfd-yvat1	c_nfted-ymybfd-yvat1	2011-08-16	오다 진짜 이드라마 산 가다 tagsmile
+kbs2_spy	js_555	COMMENT	pymyhq_-yije_	c_nwwzu-ymyhq_-yije_	2011-08-16	한예슬완전 쿨하죠 tagsmile 쿨 쿨의 극치죠 이건
+kbs2_spy	01054704075	COMMENT	pymywy9-h27y	c_nalpv-ymywy9-h27y	2011-08-16	그니까 뭔가 있을꺼 있을꺼같 있을꺼같아 있을꺼 있을꺼야
+kbs2_spy	01054704075	COMMENT	pymywy9-h27y	c_na_e3-ymywy9-h27y	2011-08-15	그렇다 뭔가 있을꺼 있을꺼야
+kbs2_spy	hj10kr	COMMENT	pymywy9-h27y	c_na_gg-ymywy9-h27y	2011-08-15	정말 이경실 이경실이 조형기 말 것 예의 구 거다 이건 비판 받다 할 하다 말다 말 없다 왠지
+kbs2_spy	oyhhkk	COMMENT	pym_c8r-592ze	c_nlp5v-ym_c8r-592ze	2011-08-16	예압
+kbs2_spy	al12369	COMMENT	pym_c8r-592ze	c_nlpo1-ym_c8r-592ze	2011-08-16	잘 자다 가다 와ㅡ tagexclamation tagsmile
+kbs2_spy	gogo4742	COMMENT	pym_ggg-_scn7	c_n_xwn-ym_ggg-_scn7	2011-08-19	그것두 내껀데 tagexclamation 내 광팬인디 그래두 기분 좋다 이렇게 스파이 명월 명월을 좋아해죠서
+kbs2_spy	key82	COMMENT	pym_ilu-yw3ty	c_nlcac-ym_ilu-yw3ty	2011-08-16	어후 심각 촬영현실 불화 결혼 마무리 잘 자다 짓다 가야는데 안타깝다 안타까워
+kbs2_spy	kiroro7830	COMMENT	pym_ilu-yw3ty	c_nlma5-ym_ilu-yw3ty	2011-08-16	지금 촬영중
+kbs2_spy	key82	COMMENT	pym_ilu-yw3ty	c_v39yd-ym_ilu-yw3ty	2011-08-18	장난 장 아니다 만약 내 배우 회 온통 그런데 정신줄 놨 놨을 듯 나 욱하다 성격 쩝
+kbs2_spy	hydeness	COMMENT	pym_ilu-yw3ty	c_v_l72-ym_ilu-yw3ty	2011-08-17	한예슬 오죽했으면 tagexclamation 하다 하 두둔 생각 없다 작가 완전 개념 프로탄가스 차다 드라마 안 안보 네이트 뉴스 중계 대강 내용 보다 아무리 애가 애 얄밉다 재수 그렇다 드라마 무신 지 뒷담화 공개 스테이지 아
+kbs2_spy	pporco	COMMENT	pym_lpc-_ki4i	c_nxld4-ym_lpc-_ki4i	2011-08-17	동감 요즘 드라마 알다 하다 시청율 올리다 별짓거리 다하다 생각 안든다
+kbs2_spy	boyoung1998	COMMENT	pym_oac-voop	c_ngt65-ym_oac-voop	2011-08-17	아마그거 아닌걸 아닌걸로 cctv 확인하고풀려났을걸
+kbs2_spy	dltjrwn945	COMMENT	pym_q5m-_gmy2	c_nl49i-ym_q5m-_gmy2	2011-08-16	나도드라마나볼까
+kbs2_spy	hawon1996	COMMENT	pym_q5m-_gmy2	c_nlvy9-ym_q5m-_gmy2	2011-08-16	안봐
+kbs2_spy	lovedms1	COMMENT	pym_q5m-_gmy2	c_nlvy_-ym_q5m-_gmy2	2011-08-16	하다 하지 최고의사 아이유 아이유가 ost 불렀으니 달 응tagquestion
+kbs2_spy	dkfk2685	COMMENT	pym_ysl-_qkr2	c_ni9jq-ym_ysl-_qkr2	2011-08-17	일나다 한예슬씨 한예슬씨는 입국 하다
+kbs2_spy	mizhanajhs	COMMENT	pyo411t-52t8d	c_2iyqp-yo411t-52t8d	2011-08-16	좀 조다 그렇다 끝 좋다 모습 보고픈데
+kbs2_spy	guswlstjdwo	COMMENT	pyo411t-52t8d	c_2q9nv-yo411t-52t8d	2011-08-17	맞다 이번 이번에 정말 한예슬 은퇴 나올정도 사건 심각
+kbs2_spy	lisianthusxo	COMMENT	pyo4bn_-5kzwp	c_2hg00-yo4bn_-5kzwp	2011-08-17	종방 종방은 아니다 아니 돌아오다 쪽대본 쪽대본이 핑계 증거 나와버려서 아마 버로우 예정 tagexclamation
+kbs2_spy	littlesoul7	COMMENT	pyo4bn_-5kzwp	c_2m5c5-yo4bn_-5kzwp	2011-08-16	한예슬 미국 가다 이상 드라마네 드라마네요 tagsmile
+kbs2_spy	goretti75	COMMENT	pyo4bn_-5kzwp	c_2mk46-yo4bn_-5kzwp	2011-08-16	스토리 이상 돌아가다 미국 왜가여tagquestion 촬영하다 조기종방된거에여tagquestion 진짜 웃기다 걔 기다
+kbs2_spy	dkfk2685	COMMENT	pyo4bn_-5kzwp	c_2o71k-yo4bn_-5kzwp	2011-08-16	드라마 이상 팬심 팬심으 보다 보 사람 있다 마련
+kbs2_spy	soo-so	COMMENT	pyo4bn_-5kzwp	c_2olnd-yo4bn_-5kzwp	2011-08-16	그렇다 이상 한예슬 좋아하다
+kbs2_spy	goretti75	COMMENT	pyo4bn_-5kzwp	c_2olxp-yo4bn_-5kzwp	2011-08-16	드라마 스토리 자체 뒤죽박죽 이상하자 애가 애 점점 싸가지 없어지다 쩝
+kbs2_spy	lisianthusxo	COMMENT	pyo4bn_-5kzwp	c_2qkwk-yo4bn_-5kzwp	2011-08-17	tagsmile ㄷ tagsmile ㄷ
+kbs2_spy	goretti75	COMMENT	pyo4bn_-5kzwp	c_2q_f_-yo4bn_-5kzwp	2011-08-17	한예슬 재수 tagexclamation
+kbs2_spy	ewqdsa38	COMMENT	pyo4odq-y4gvz	c_2mc1j-yo4odq-y4gvz	2011-08-16	뭐 이딴게어디잇어 잘가 잘가다
+kbs2_spy	kyu___	COMMENT	pyo4odq-y4gvz	c_2mc5x-yo4odq-y4gvz	2011-08-16	감독 싸웠디야
+kbs2_spy	sim340411	COMMENT	pyo4odq-y4gvz	c_2mhqa-yo4odq-y4gvz	2011-08-16	에릭좋은데
+kbs2_spy	yoon-r0r0	COMMENT	pyo4odq-y4gvz	c_2moq2-yo4odq-y4gvz	2011-08-16	으잉tagquestion ㄷㄷ
+kbs2_spy	zhfna222	COMMENT	pyo4odq-y4gvz	c_2moum-yo4odq-y4gvz	2011-08-16	대박 tagsmile 이거 여주인공 교체 하던구 하던구만 tagsmile 개막장 tagsmile
+kbs2_spy	rockpunch	COMMENT	pyo4odq-y4gvz	c_2mzpw-yo4odq-y4gvz	2011-08-16	응tagquestion tagexclamation
+kbs2_spy	dkfk2685	COMMENT	pyo4xpm-1jy0	c_2wrus-yo4xpm-1jy0	2011-08-15	암튼 이사건 이사건으 급실망
+kbs2_spy	chief_js	COMMENT	pyo702t-_51ru	c_2t973-yo702t-_51ru	2011-08-16	촬영복귀한다구햇으
+kbs2_spy	shyboy-07	COMMENT	pyo702t-_51ru	c_2t9lp-yo702t-_51ru	2011-08-16	나 나다 화났거든요
+kbs2_spy	athena9704	COMMENT	pyo702t-_51ru	c_2t9s1-yo702t-_51ru	2011-08-16	집사님 얼굴 바뀌셨네요오
+kbs2_spy	choo2am	COMMENT	pyo702t-_51ru	c_2t9zs-yo702t-_51ru	2011-08-16	한예슬 연출자랑 연출자 싸우다 촬영거부했대 tagcry
+kbs2_spy	shyboy-07	COMMENT	pyo702t-_51ru	c_2tfet-yo702t-_51ru	2011-08-16	한예슬 촬영 펑크냈잖아
+kbs2_spy	choo2am	COMMENT	pyo702t-_51ru	c_2tj09-yo702t-_51ru	2011-08-16	근데 아까 한예슬 촬영복귀의사 밝혔대 tagexclamation
+kbs2_spy	shyboy-07	COMMENT	pyo702t-_51ru	c_2tj5n-yo702t-_51ru	2011-08-16	다행
+kbs2_spy	jjang_003	COMMENT	pyo702t-_51ru	c_2tj9x-yo702t-_51ru	2011-08-16	벌쓰다 끝나다 끝나는구
+kbs2_spy	shyboy-07	COMMENT	pyo702t-_51ru	c_2tjco-yo702t-_51ru	2011-08-16	한예슬 씨 다시복귀하시면 다시복귀 좋다
+kbs2_spy	shyboy-07	COMMENT	pyo702t-_51ru	c_2tjde-yo702t-_51ru	2011-08-16	흐잉 한예슬 진짜
+kbs2_spy	athena9704	COMMENT	pyo702t-_51ru	c_2tjsm-yo702t-_51ru	2011-08-16	죄송 tagcry 형님
+kbs2_spy	choo2am	COMMENT	pyo702t-_51ru	c_2tjte-yo702t-_51ru	2011-08-16	네이버 네이버에 한예슬 복귀의사 떳어 tagsmile
+kbs2_spy	shyboy-07	COMMENT	pyo702t-_51ru	c_2tjww-yo702t-_51ru	2011-08-16	우
+kbs2_spy	shyboy-07	COMMENT	pyo702t-_51ru	c_2tp8k-yo702t-_51ru	2011-08-16	우영씨 우영씨가 아니예 아니예요
+kbs2_spy	choo2am	COMMENT	pyo702t-_51ru	c_2tp99-yo702t-_51ru	2011-08-16	tagsmile
+kbs2_spy	shyboy-07	COMMENT	pyo702t-_51ru	c_2tpe_-yo702t-_51ru	2011-08-16	응응 tagexclamation
+kbs2_spy	athena9704	COMMENT	pyo702t-_51ru	c_2tpju-yo702t-_51ru	2011-08-16	왜 외다 화낫어tagquestion
+kbs2_spy	shyboy-07	COMMENT	pyo702t-_51ru	c_2tpkq-yo702t-_51ru	2011-08-16	아니다 아니 니 미안할필욘
+kbs2_spy	athena9704	COMMENT	pyo702t-_51ru	c_2tpn8-yo702t-_51ru	2011-08-16	그레도오
+kbs2_spy	qkstjddhr	COMMENT	pyo702t-_51ru	c_2tqi1-yo702t-_51ru	2011-08-16	언제펑크낸 tagquestion tagsmile
+kbs2_spy	shyboy-07	COMMENT	pyo702t-_51ru	c_2tr3x-yo702t-_51ru	2011-08-16	내 미투데 미투데이 떠나다 어때tagquestion
+kbs2_spy	qkstjddhr	COMMENT	pyo702t-_51ru	c_2trl_-yo702t-_51ru	2011-08-16	한예슬 어디감 tagquestion tagsmile
+kbs2_spy	lisa318	COMMENT	pyo71i7-yc3s8	c_22wa5-yo71i7-yc3s8	2011-08-17	한예슬언니 근데 관계자 분들 돈 몇억씩 날리다
+kbs2_spy	jenny369	COMMENT	pyo71i7-yc3s8	c_2now2-yo71i7-yc3s8	2011-08-17	왜tagquestion
+kbs2_spy	jenny369	COMMENT	pyo71i7-yc3s8	c_2s278-yo71i7-yc3s8	2011-08-17	안경 바꿧어tagquestion tagexclamation tagquestion tagexclamation tagquestion 도연이꺼 비슷 비슷한 크다 안경으로tagquestion tagexclamation tagquestion
+kbs2_spy	diana981224	COMMENT	pyo71i7-yc3s8	c_2slvt-yo71i7-yc3s8	2011-08-17	tagsmile 난 나다 날다 이번주말 바꿔야겠당
+kbs2_spy	diana981224	COMMENT	pyo71i7-yc3s8	c_2snf1-yo71i7-yc3s8	2011-08-17	아니 아 할부지댁가서 못바꿔쓰 tagcry
+kbs2_spy	jenny369	COMMENT	pyo71i7-yc3s8	c_2svot-yo71i7-yc3s8	2011-08-17	난 나다 날다 못바꺼 tagexclamation 난 나다 날다 이거 좋다 이거 이거할거 큰거 바끼면 나한테 크다 안맞 안맞아 언제 바꾸다 안경 무겁고 안어울려서 안바꿧었어
+kbs2_spy	jenny369	COMMENT	pyo71i7-yc3s8	c_2sz_v-yo71i7-yc3s8	2011-08-17	마자마자 어제 스명 보다 잠시 명월 명월이 사라지는걸 사라지는걸로 마무리 기다리다 tagexclamation
+kbs2_spy	lisa318	COMMENT	pyo71i7-yc3s8	c_ndktb-yo71i7-yc3s8	2011-08-18	나도 나다 나 잘다 잘 몰다 기사 떳든데tagquestion 막 pd 교체해달 하다 하 얼마 쇼크먹었겠어 관계자 분들
+kbs2_spy	lisa318	COMMENT	pyo75bx-yc3s8	c_2g4ax-yo75bx-yc3s8	2011-08-16	나도 나다 나 pd 교체 그거 보다 tagsmile
+kbs2_spy	diana981224	COMMENT	pyo75bx-yc3s8	c_2gl90-yo75bx-yc3s8	2011-08-16	한예슬 복귀할수도있대 근데 이건 사과문 해결될문제가아니지 참다 참
+kbs2_spy	diana981224	COMMENT	pyo75bx-yc3s8	c_2gnnh-yo75bx-yc3s8	2011-08-16	그리다 피디교체 하다 하 자기광고찍는다 시간 시간이 늦었대 자다 자기 화날게아니 화날게아니고 동료연기자 화나야될거아닌가tagquestion 하튼 실망
+kbs2_spy	jenny369	COMMENT	pyo75bx-yc3s8	c_2nomn-yo75bx-yc3s8	2011-08-17	한예슬 자다 자기 주연 하다 했대 다행다행
+kbs2_spy	diana981224	COMMENT	pyo75bx-yc3s8	c_2slut-yo75bx-yc3s8	2011-08-17	자기 자다 광고찍는다 시간 시간이 지각했대잖아 얼굴 보다 그렇다 안생겼는데 싸가지없나봐 tagsmile
+kbs2_spy	diana981224	COMMENT	pyo75bx-yc3s8	c_2sngi-yo75bx-yc3s8	2011-08-17	장난아니 장난아니야 tagsmile 뉴스 한예슬너무
+kbs2_spy	jenny369	COMMENT	pyo75bx-yc3s8	c_2svtr-yo75bx-yc3s8	2011-08-17	장난 장 아니다 tagquestion 한예슬 핑계대다 다르다 배우 연기 시 왓는데 자다 자기 알람못듣고 자서 자다 오후 시 왔대
+kbs2_spy	jenny369	COMMENT	pyo75bx-yc3s8	c_2szkz-yo75bx-yc3s8	2011-08-17	나도나도 나도나도나 tagcry 슬퍼 슬프다 tagcry 한예슬 비판 쏟아질듯
+kbs2_spy	lisa318	COMMENT	pyo75bx-yc3s8	c_2tdxc-yo75bx-yc3s8	2011-08-16	솔직 진짜 속상했겠따
+kbs2_spy	diana981224	COMMENT	pyo75bx-yc3s8	c_2vx94-yo75bx-yc3s8	2011-08-18	당연 한예슬 주연 tagexclamation
+kbs2_spy	rpduswn	COMMENT	pyo78xg-_1j8j	c_2hpbz-yo78xg-_1j8j	2011-08-16	tagsmile 언닌 마음 비웠어 tagcry
+kbs2_spy	neria85	COMMENT	pyo78xg-_1j8j	c_2hpcy-yo78xg-_1j8j	2011-08-16	난 나다 날다 좀음모론자인득 tagsmile
+kbs2_spy	rpduswn	COMMENT	pyo78xg-_1j8j	c_2hphh-yo78xg-_1j8j	2011-08-16	tagsmile 음모론 tagsmile
+kbs2_spy	neria85	COMMENT	pyo78xg-_1j8j	c_2hrys-yo78xg-_1j8j	2011-08-16	tagsmile 겁나의심
+kbs2_spy	treewg	COMMENT	pyo7tug-55fja	c_2h722-yo7tug-55fja	2011-08-17	tagsmile
+kbs2_spy	dabin3444	COMMENT	pyo7tug-55fja	c_2h7fo-yo7tug-55fja	2011-08-17	마자 마자여 tagsmile 참 차다 캐릭터 캐릭터를 잘 자다 성절해봣죠 tagsmile
+kbs2_spy	treewg	COMMENT	pyo7tug-55fja	c_2q6s_-yo7tug-55fja	2011-08-17	tagsmile
+kbs2_spy	k0202love	COMMENT	pyo7tug-55fja	c_2q6wg-yo7tug-55fja	2011-08-17	피식
+kbs2_spy	_____-----__	COMMENT	pyo7tug-55fja	c_2qjqb-yo7tug-55fja	2011-08-17	어이없다 한예슬
+kbs2_spy	mjwh77	COMMENT	pyo7tug-55fja	c_2s57q-yo7tug-55fja	2011-08-17	스파이 명월 잘 자다 되다 좋다
+kbs2_spy	cho_yongwon	COMMENT	pyo7xk_-55c3u	c_ngmr5-yo7xk_-55c3u	2011-08-15	무슨사정 있다
+kbs2_spy	wldk0817	COMMENT	pyo7xk_-55c3u	c_ngw8g-yo7xk_-55c3u	2011-08-15	솔직 액션신이다뭐다해서 엄청시달렷을껀데 이런걸 팬들 팬들이 이해해줘야하는거고 팬이아니 팬이아니라 같은여자 글올리시면 기분좋 기분좋나
+kbs2_spy	wldk0817	COMMENT	pyo7xk_-55c3u	c_ngwfq-yo7xk_-55c3u	2011-08-15	편파적 생각하지마시구 그사람 그사람의 입장 생각
+kbs2_spy	wldk0817	COMMENT	pyo7xk_-55c3u	c_ngww1-yo7xk_-55c3u	2011-08-15	한회 한회에 도데체 한예슬안나오 장면이어딧음 에릭집 조형기집 에릭촬영장
+kbs2_spy	wldk0817	COMMENT	pyo7xk_-55c3u	c_ngwwq-yo7xk_-55c3u	2011-08-15	저번 산 타더 타더만 남자도아니 여자 산 뛰어올라가는신 뛰어올라가는신이면 엄청나게힘든거아닌가 엄청나게힘든거아닌가요
+kbs2_spy	time8306	COMMENT	pyo7xk_-55c3u	c_nqfi3-yo7xk_-55c3u	2011-08-15	다른연애인들은더한것도하고다똑 그럼그사람들도다펑크내고해야되는거네요tagquestion
+kbs2_spy	dndbaktthwn	COMMENT	pyol0ke-y4roo	c_2ggrk-yol0ke-y4roo	2011-08-16	새벽다섯시 스케줄끝 스케줄끝나서 시 촬영 많이힘들어서 그랬다는데 그리다 스파이명월 피다 장자연리스트에있었다는데
+kbs2_spy	dndbaktthwn	COMMENT	pyol0ke-y4roo	c_2ghew-yol0ke-y4roo	2011-08-16	오다 이거 대박 댓글많네 조켓다
+kbs2_spy	wjdgotjss2	COMMENT	pyol0ke-y4roo	c_2gqjc-yol0ke-y4roo	2011-08-16	그르다 글 대박만넼 tagsmile
+kbs2_spy	seajin828	COMMENT	pyol0ke-y4roo	c_2i42o-yol0ke-y4roo	2011-08-16	왜욕 왜욕함 누가님욕하면조음 얼마나힘들엇으면 그랫겟음
+kbs2_spy	dkfk2685	COMMENT	pyol0ke-y4roo	c_2i7zi-yol0ke-y4roo	2011-08-16	저 방관자 입장 있을려구 있을려구요
+kbs2_spy	lyj1627	COMMENT	pyol0ke-y4roo	c_2iazu-yol0ke-y4roo	2011-08-16	하늘공주말맞슴 한예슬님 한예슬님도 좀 조다 예민한거죠 오죽하면 힘들다 la la로 갔겠어요
+kbs2_spy	hongjm2020	COMMENT	pyol0ke-y4roo	c_2ig5d-yol0ke-y4roo	2011-08-16	니도그거보냐tagquestion tagsmile
+kbs2_spy	gksmf9088	COMMENT	pyol0ke-y4roo	c_2igng-yol0ke-y4roo	2011-08-16	제가 제 한예슬팬 한예슬팬은 아니지만님 왜욕 왜욕함 연예계라는게 알다 알 모르는거 아니다
+kbs2_spy	djarkgus	COMMENT	pyol0ke-y4roo	c_2qb7g-yol0ke-y4roo	2011-08-17	댓글많은거 부럽 tagsmile
+kbs2_spy	guswlrrka	COMMENT	pyol1vl-r1so	c_2ilwf-yol1vl-r1so	2011-08-16	전 한번 봣던거같으 tagsmile
+kbs2_spy	anna2105	COMMENT	pyol1vl-r1so	c_2qr0m-yol1vl-r1so	2011-08-17	요즘 한예슬 무개념 뜨다 있다지 안그래 성연아tagquestion
+kbs2_spy	i2235	COMMENT	pyol1vl-r1so	c_2sjcg-yol1vl-r1so	2011-08-17	맞다 내 내다 친구 한예슬 싫대 tagsmile
+kbs2_spy	i2235	COMMENT	pyol1vl-r1so	c_2sjoz-yol1vl-r1so	2011-08-17	번봤다구요tagquestion
+kbs2_spy	lovesu0114	COMMENT	pyol7er-y1gcy	c_2mads-yol7er-y1gcy	2011-08-16	어제 스페셜 재미없었으요 tagcry
+kbs2_spy	tjrwldms0254	COMMENT	pyol7er-y1gcy	c_2ma_v-yol7er-y1gcy	2011-08-16	그니까 그니까요 tagcry 회기대 만빵이였는데엡 tagcry
+kbs2_spy	mkchae98	COMMENT	pyol9mz-5qgul	c_2hmba-yol9mz-5qgul	2011-08-17	욕 많다 얻어먹었더라곸 tagsmile
+kbs2_spy	tnghcjstk450	COMMENT	pyol9mz-5qgul	c_2tdm5-yol9mz-5qgul	2011-08-16	이거땜 이거땜에 스파이명월 시청률 낮아지다 낮아지거 욕 엄청먹는다 tagsmile
+kbs2_spy	heder9515	COMMENT	pyolop1-y9f97	c_2ob3x-yolop1-y9f97	2011-08-15	한예슬도엄청어이없다구 tagexclamation
+kbs2_spy	uahlangae	COMMENT	pyolop1-y9f97	c_2obwm-yolop1-y9f97	2011-08-15	한예슬 왜 외다 어이없엉tagquestion
+kbs2_spy	exia	COMMENT	pyolx0y-ayrr	c_2h86v-yolx0y-ayrr	2011-08-17	네이버 네이버에 한예슬 검색 다 tagsmile
+kbs2_spy	rhdbqls001	COMMENT	pyolx0y-ayrr	c_2h8bl-yolx0y-ayrr	2011-08-17	ㅇㅇ 그러지 않다 지금 네이버 메인 메인에 떳네용
+kbs2_spy	exia	COMMENT	pyolx0y-ayrr	c_2h8nb-yolx0y-ayrr	2011-08-17	얘스리 얘스리는 까다 제맛ㅇㅇㅇ
+kbs2_spy	sinbi2134	COMMENT	pyolx0y-ayrr	c_2h8va-yolx0y-ayrr	2011-08-17	에다 생각 없는거죠 애가 애 이쁘다 생겨갔고 왜 외다 그러는지 각나라 정서 있다 한국 탤런트 할거면 정서 따르다 노력 하다 성실성 책임감 우리나라 발전 원동력 정서 한국 없다 안되다 덕목 빠지다 한국 사람 볼땐 사람 안보이는거죠
+kbs2_spy	exia	COMMENT	pyolx0y-ayrr	c_2h8yf-yolx0y-ayrr	2011-08-17	나이 이제 서른 서른인데 아직 정신연령 초등학생수준인듯욬 tagsmile
+kbs2_spy	lovedmoon	COMMENT	pyolx0y-ayrr	c_2hcut-yolx0y-ayrr	2011-08-17	진짜 예뻐햇는데 실망 tagcry 에릭 에릭은 어째
+kbs2_spy	exia	COMMENT	pyolx0y-ayrr	c_2hgnt-yolx0y-ayrr	2011-08-17	미국 먹고살다 힘들텐데 한국 뭐 볼장다봤죠 tagcry tagsmile 이건 인간성 문제 이전 프로의식 완전 결여된겁니
+kbs2_spy	and1211ajh	COMMENT	pyolx0y-ayrr	c_2hqf2-yolx0y-ayrr	2011-08-17	근데 이번 이번에 얘기 보다 제작사랑 제작사 기획사랑 기획사 짜다 아예 돈 뜯어내다 작정 한예슬 죽이다 하는거라던데 tagquestion
+kbs2_spy	exia	COMMENT	pyolx0y-ayrr	c_2htck-yolx0y-ayrr	2011-08-17	공익계 해병대 지하철공익 고생도많이해서 이번꺼좀 잘됐으면싶었는데 에다 tagcry
+kbs2_spy	lovedmoon	COMMENT	pyolx0y-ayrr	c_2hvw_-yolx0y-ayrr	2011-08-17	지하철공익 그렇다 힘든거야tagquestion tagsmile
+kbs2_spy	pichhoo	COMMENT	pyolx0y-ayrr	c_2hw19-yolx0y-ayrr	2011-08-17	그러게 그러게요 저 이번일 이번일로 실망
+kbs2_spy	fjqdortus	COMMENT	pyolx0y-ayrr	c_2hw8t-yolx0y-ayrr	2011-08-17	진짜 개념없는듯
+kbs2_spy	exia	COMMENT	pyolx0y-ayrr	c_2hwal-yolx0y-ayrr	2011-08-17	진짜 한국 다시다 방송못하게해야댐 tagsmile
+kbs2_spy	rhdbqls001	COMMENT	pyolx0y-ayrr	c_2hwbd-yolx0y-ayrr	2011-08-17	앟tagquestion
+kbs2_spy	exia	COMMENT	pyolx0y-ayrr	c_2q6vr-yolx0y-ayrr	2011-08-17	한예슬 빠들 빠들이 쉴드칠려고 얘기 만들어내는거겠지 tagsmile 그럼 동료배우 쉴드를쳐줘야정 그런것 그런것도 안보 예전 하다 무개념짓 무개념짓도 있기때문 있기때문에 아마 그건 루머 루머일 가능성 높은듯
+kbs2_spy	exia	COMMENT	pyolx0y-ayrr	c_2qkd5-yolx0y-ayrr	2011-08-17	ㅇㅇ 잠도제대로못자 지하철운행마감시간 일한다던뎅 술먹고 지하철 행패부리는사람 많다그러 노숙자 그렇다 매우힘든모양 tagsmile
+kbs2_spy	and1211ajh	COMMENT	pyolx0y-ayrr	c_2z9bl-yolx0y-ayrr	2011-08-17	그런걸까 tagsmile 나도 나다 나 예전 한예슬 싸가지 없다 얘기 듣긴 에휴 tagsmile 근데 진짜 뭐 진실
+kbs2_spy	dkfk2685	COMMENT	pyolz0k-_o6hq	c_2molw-yolz0k-_o6hq	2011-08-16	맞다 완전 무개념 연예인 연예 한명 등장
+kbs2_spy	kgh961719	COMMENT	pyov05w-5uyau	c_2fecy-yov05w-5uyau	2011-08-15	한예슬 완죤 실망 그자체
+kbs2_spy	lisianthusxo	COMMENT	pyov3qe-5kzwp	c_2opbf-yov3qe-5kzwp	2011-08-16	슬슬 그런쪽 그런쪽으 되가 되가는 분위기 같다 미국 출국설 이딴거 막 나오다 거다
+kbs2_spy	lisianthusxo	COMMENT	pyov3qe-5kzwp	c_2wf6s-yov3qe-5kzwp	2011-08-15	kbs 업무방해 형사고발 하다 한대잖아 걔 기다 좀 조다 특권의식 있는거 아닐까요tagquestion
+kbs2_spy	goretti75	COMMENT	pyov3qe-5kzwp	c_2wm0z-yov3qe-5kzwp	2011-08-15	아무튼 애가 애 싸가지 없다 드라마 안보게 되다 tagcry
+kbs2_spy	hearthot58	COMMENT	pyoxh8p-5k52n	c_2g_6j-yoxh8p-5k52n	2011-08-16	나름 나르다 재밌어 재밌어요 tagsmile 그러게 그러게요 일 이전 복귀한다네
+kbs2_spy	hearthot58	COMMENT	pyoxh8p-5k52n	c_2g_kk-yoxh8p-5k52n	2011-08-16	오다
+kbs2_spy	jjh1024	COMMENT	pyoxh8p-5k52n	c_2i253-yoxh8p-5k52n	2011-08-16	다시오기
+kbs2_spy	kks332	COMMENT	pyoxh8p-5k52n	c_2iqso-yoxh8p-5k52n	2011-08-16	드라마을 안바서 여튼 빨다 오다
+kbs2_spy	bdetective	COMMENT	pyoxhls-ys587	c_2isq0-yoxhls-ys587	2011-08-16	엘에 엘에이 가다 혼좀내주고와 혼좀내주고와요 오는길 오는길에 갈비좀사다주
+kbs2_spy	hongjm2020	COMMENT	pyoxsw3-y4roo	c_2stoa-yoxsw3-y4roo	2011-08-17	니도에제봤냐능 tagsmile

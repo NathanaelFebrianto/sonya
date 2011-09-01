@@ -1,0 +1,193 @@
+program_id	author_id	type	post_id	comment_id	publish_date	terms
+sbs_happytogether	yoyong11	POST	pym01s8-erbs		2011-08-19	해피투게더 월 일 동안스타특집 박보영 차태현 김원준 박 왕따고백 백도빈 쏘리쏘리 월 일
+sbs_happytogether	opt004	POST	pym05fv-ybd1u		2011-08-18	오늘 해피투게더 재밌네 tagsmile tagsmile
+sbs_happytogether	goodsb1217	POST	pym05hm-ypms7		2011-08-18	해피투게더 일본방송 부제 조혜련 비호감
+sbs_happytogether	rkdhfl114	POST	pym05hw-_t8up		2011-08-19	tagsmile 잼 해피투게더
+sbs_happytogether	reed0903	POST	pym05j7-b0yd		2011-08-18	해피투게더 해피투게더를 보다 박보영양 너무너무 귀엽다 아아아아아아아아아아아 미투광장 자기소개 직딩 새벽미투 치매
+sbs_happytogether	lij3003	POST	pym065c-__mz3		2011-08-18	어엇 tagexclamation 오늘 해피투게더 하다 tagexclamation tagsmile
+sbs_happytogether	chmin25	POST	pym06w3-3rcu		2011-08-19	해피투게더봤따 tagsmile 차태현 tagsmile 재밌다 tagsmile 이제 일남앗어 나방학동안논거밖에없다진짜 다르다 애들공부할때 이번엔진짜할라공 방학내내 방학내 시력 나빠졌을껄아마
+sbs_happytogether	dudtj0216	POST	pym0ab5-yw3ee		2011-08-18	오늘 해피투게더 해피투게더나 봐야겠네
+sbs_happytogether	elelwpdl	POST	pym0br_-59ywn		2011-08-19	박 이 배우 해피투게더 에서 보다 진짜 매력적 볼 있다 점도 점 매력적 목소리 좋다 특 가식 보 좋다 박 최고 최
+sbs_happytogether	ttt1001	POST	pym0cpk-_ym7z		2011-08-18	오늘 해피투게더 오다 보스 챙기다 tagexclamation 오늘 둘다 잼있을것 같다 tagsmile
+sbs_happytogether	gpdls4128	POST	pym0d3r-ys30p		2011-08-18	아씨 해피투게더봐야 해피투게더봐야하는데 아빠 야구 tagcry
+sbs_happytogether	katie_jw	POST	pym0djb-_hosa		2011-08-20	이분이바 해피투게더 신봉선씨 말씀 sherlock역 sherlock역의 benedict cumberbatch tagexclamation 시즌 빠 알리나와 알리나와라 tagexclamation
+sbs_happytogether	72vusen	POST	pym0go2-5oa3o		2011-08-18	박 차태현 백도빈 해피투게더 박 차태현 백도빈 해피투게더 출연 박 차태현 백도빈 tagexclamation 박 해피투게서 물맞 물맞은 인증샷 tagexclamation 박 티아 티아라 롤리폴리 댄스실력 실력과시 tagquestion tagexclamation 백도빈 해피투게서 쏘리쏘리 댄스 tagexclamation
+sbs_happytogether	the100yesi	POST	pym0ib5-yvat1		2011-08-19	박 해피투게더 박 박보영 백도빈 차태현 김원준 출연 tagexclamation 헐리웃 패션 종결자 백여시
+sbs_happytogether	insos02	POST	pym0igb-_8lnw		2011-08-19	해피투게더 무료다시보기 회 최강동안특집 해피투게더 무료다시보기 회 최강동안특집
+sbs_happytogether	babajunyoung	POST	pym0jfj-ym9pb		2011-08-19	어제 해피투게더 엄청나다 훈훈했구만 tagsmile 박 박보영 박씨 박씨들이 훈훈 tagsmile
+sbs_happytogether	hongjoo0617	POST	pym0kg9-_s7l2		2011-08-19	해피투게더오늘넘웃겻어 tagexclamation tagsmile 기대를저버리지안는 차느님 짜세 짜세여 taglove 백도빈 쏘리쏘리 정시아언니 사는게잼겟당 tagsmile 기여우셔 난 나다 날다 오늘 유느님 사진 사다 투척하구 감니덩
+sbs_happytogether	happykra	POST	pym0kr_-yupxm		2011-08-19	챔프 kbs 해피투게더 오늘밤 방송 tagexclamation 차희빈 차태현 예능감 폭발 tagexclamation
+sbs_happytogether	youngmi2776	POST	pym0lgb-_sfo_		2011-08-19	어제 tagsmile 해피투게더 tagsmile 쏘쏘대박 tagsmile 배아프닼 tagsmile
+sbs_happytogether	lehien	POST	pym0lkt-_qb88		2011-08-18	hand hand side side 영원 해피투게더 taglove
+sbs_happytogether	shineegg	POST	pym0m39-um1m		2011-08-19	kbsjoy 해피투게더 해피투게더하는데 sm타운나온편 sm타운나온편한다 tagexclamation 룬썰클 나오다
+sbs_happytogether	jinin1028	POST	pym0m8g-_cwo7		2011-08-19	어제 제 꿈이서 꿈이서요 양요섭 양요섭이 나오다 tagexclamation 좋다 ㅇㅂㅇ 우리학교앞 싸인회 싸인회를 하길래 종이 없다 제 휴대폰 화면 받다 저 왜 외다 그랬는지 모르다 tagsmile 또 오늘 꿈은 꿈은요 유재석 아이유 아이유가 나오다 같다 해피투게더 해피투게더를 하다 어이없죠tagquestion
+sbs_happytogether	72vusen	POST	pym0q6f-5oa3o		2011-08-18	해피투게더 해피투게더 월 일 출연자박보영 차태현 김원준 박 백도빈 차태현 동안 외모 때문 때문에 잘리다 적다 적 있다tagquestion tagexclamation 박보영 상반신 클럽댄스춤 박 롤리폴리 춤 추다 마음 대 김원준 김원준의 굴욕 대공개 tagexclamation 백도빈 정시아 가출 tagexclamation 사건 사다 백도빈 쏘리쏘리춤
+sbs_happytogether	jkl7003	POST	pym0rwq-iw1x		2011-08-20	해피투게더 다섯명꺼 있으신분tagquestion
+sbs_happytogether	21_yj	POST	pym0v13-_wtkh		2011-08-18	해피투게더보면서 혼자심하게웃다 런닝머신에서떨어짐 나오늘지금 찬피 찬피해
+sbs_happytogether	vin1116	POST	pym0w21-5iwt4		2011-08-18	우리반 해피투게더 옷 분홍색 반팔 tagsmile 똑같다 tagsmile 부끄럽다 고개 못들고다님
+sbs_happytogether	search_now	POST	pym0xmc-5y0f5		2011-08-18	경질 아이온 리니지 신창원 해피투게더 풋옵션 쏘울시스터 new 허가윤 러브비트 야구순위 네이버 실시 급상승 검색어
+sbs_happytogether	cocoa1028	POST	pym0yl_-yyp0a		2011-08-18	내 내다 달빛 넌 널다 나 달빛 해피투게더 백도빈 버젼 쏘리쏘리 쏘리쏘리보 현재 재기불능 배 땡겨 tagsmile
+sbs_happytogether	lnajung	POST	pym0ypz-yp3ij		2011-08-18	아앜 tagsmile 해피투게더 웃곀 tagsmile tagsmile
+sbs_happytogether	uea3429	POST	pym0yqo-yeir4		2011-08-18	해피투게더 진짜웃겨 빨다 자다 자 내다 일찍일어 tagcry
+sbs_happytogether	y21610	POST	pym0yy_-grq7		2011-08-18	해피투게더 해피투게더에 보영누님나온다 tagexclamation 오다 친천동생 매우 고마움 고맙다 해피투게더 박보영 taglove
+sbs_happytogether	dpael5593	POST	pym0zsc-_jeb4		2011-08-19	해피투게더 차태현 부인 부 에피소드 완전웃겨
+sbs_happytogether	6215403	POST	pym140d-yfaqu		2011-08-20	조혜련 해피투게더 치다 동영상봐봐 완전 어이없다 짜증 조혜련 일본 잘나가다 나대다 일본인해
+sbs_happytogether	xldzjqpf1588	POST	pym1klh-yqfs2		2011-08-20	달샤벳 특히수빈 이랑신봉선이랑오나미 열다 시름 tagcry 이유 해피투게더 회참고tagsmile i taglove pm
+sbs_happytogether	spastar7	POST	pym1u17-5x8tg		2011-08-20	해피투게더 박명수 해피투게더 박명수 박하선 자꾸 유인나아냐tagquestion
+sbs_happytogether	surin-o_o	POST	pym1z7_-__bg5		2011-08-20	조혜련해피투게더 정말 이건좀 아닌듯 tagcry
+sbs_happytogether	rusy6347	POST	pym32x7-yrxep		2011-08-18	자두냠냠 tagexclamation 맛나다 맛 짜뚜 냠냠 해피투게더보면서 냠냠
+sbs_happytogether	jisiklog	POST	pym343b-_rcxy		2011-08-18	오늘해피투게더누구나와요tagquestion 해피투게더
+sbs_happytogether	jisiklog	POST	pym343u-_rcxy		2011-08-18	오늘해피투게더누구나와요tagquestion 해피투게더
+sbs_happytogether	jisiklog	POST	pym379m-_rcxy		2011-08-18	해피투게더게스트 해피투게더
+sbs_happytogether	dnjswkd33	POST	pym37j3-5fgjo		2011-08-18	아 배고프다 졸리다 해피투게더 해피투게더도 보고싶고
+sbs_happytogether	hymom79	POST	pym37p3-xn2p		2011-08-18	해피투게더 연예계 대표 동안특집 박보영 차태현 김원준 박 백도빈
+sbs_happytogether	eratoskin	POST	pym37vq-ybst1		2011-08-18	해피투게더 김원준 주변 재촉 박소현 박소현과 잘 자다 안되다
+sbs_happytogether	jisiklog	POST	pym3ahs-_rcxy		2011-08-18	해피투게더 출연진 목요일예능알려주세 tagsmile 해피투게더
+sbs_happytogether	jisiklog	POST	pym3aqo-_rcxy		2011-08-18	해피투게더출연자 해피투게더
+sbs_happytogether	hmee427123	POST	pym3hgx-ndyp		2011-08-18	해피투게더 재방 보다 자꾸 통편집 생각 아 진짜 짜증 슬퍼 슬프다 tagcry
+sbs_happytogether	jisiklog	POST	pym3lg3-_rcxy		2011-08-18	해피투게더 재방날짜 어디서하는지알려주세용 그리고오늘누구나오는지좀 해피투게더
+sbs_happytogether	psjace3156	POST	pym3mg4-yjohx		2011-08-20	해피투게더 박보영 차태현 박 김원준 백도빈편 완전짱 tagsmile
+sbs_happytogether	jisiklog	POST	pym3n42-_rcxy		2011-08-18	오늘해피투게더출연자 해피투게더
+sbs_happytogether	jisiklog	POST	pym3nl1-_rcxy		2011-08-18	오늘해피투게더게스트 해피투게더
+sbs_happytogether	happykra	POST	pym3oz2-yupxm		2011-08-18	오늘 시 해피투게더 닥본사 알다 계시죠tagquestion 닥본사 하다 여러분 위해 위하다 챔프 공식트위터 독점중계 사진 사다 공개 tagexclamation 차아빠 차아빠와 박보영양 절친인증샷 tagexclamation 챔프 촬영장 놀러오다 보영양 인증샷
+sbs_happytogether	thsoo	POST	pym3puv-y5kr9		2011-08-18	해피투게더 보고 보다 보 자야쥐
+sbs_happytogether	jisiklog	POST	pym3tcs-_rcxy		2011-08-18	해피투게더무슨요일몇시에 해피투게더
+sbs_happytogether	jisiklog	POST	pym3tcy-_rcxy		2011-08-18	해피투게더아이유최근에나온편이몇월몇일몇화인가요tagquestion 삼월삼십일꺼말구 해피투게더
+sbs_happytogether	jisiklog	POST	pym3to6-_rcxy		2011-08-18	오늘해피투게더에누구나와 tagexclamation tagquestion 해피투게더
+sbs_happytogether	larcobaleno	POST	pym3ufq-5gks9		2011-08-20	해피 투게더 박명수 박보영 첫대면 후 착하다 하지 하다 마 tagexclamation 독설
+sbs_happytogether	larcobaleno	POST	pym3uja-5gks9		2011-08-20	해피 투게더 배우 박 학창시절 골든벨 에서 예쁜척 대결 친구 원성 자아내다
+sbs_happytogether	jisiklog	POST	pym3uob-_rcxy		2011-08-18	해피투게더누구나오나요tagquestion 해피투게더
+sbs_happytogether	hara329	POST	pym3uza-bbzk		2011-08-18	유수윤재 해피투게더다운 유슈윤재 동픽
+sbs_happytogether	jisiklog	POST	pym3uzm-_rcxy		2011-08-18	오늘해피투게더출연자누구에요tagquestion 해피투게더
+sbs_happytogether	speaner5291	POST	pym3x82-_smxo		2011-08-18	해피투게더 해피투게더에 오늘누구나와요tagquestion
+sbs_happytogether	3097210	POST	pym3xi9-any2		2011-08-18	끝 이제 해피투게더 보고 보다 보 자다 tagsmile
+sbs_happytogether	jisiklog	POST	pym3xw_-_rcxy		2011-08-18	오늘해피투게더게스트 해피투게더
+sbs_happytogether	jisiklog	POST	pym3x_s-_rcxy		2011-08-18	오늘해피투게더누구나와여tagquestion 해피투게더
+sbs_happytogether	partyelf	POST	pym3_8e-_yoiw		2011-08-18	해피투게더 집안 뼈그맨
+sbs_happytogether	rlarkdtn55	POST	pym5503-y7qlw		2011-08-19	오늘 해피투게더 해피투게더에 박보영 나왓데 젠장 tagcry 못봣어
+sbs_happytogether	syuos	POST	pym55rm-yulut		2011-08-19	해피투게더 잼나네 잼나네여 박보영양 박진희 박진희랑 닮은거 닮은거같아 닮은거같아요 순팽이닷컴
+sbs_happytogether	syuos	POST	pym5d5k-yulut		2011-08-19	해피투게더 해피투게더에 이분 순팽이닷컴
+sbs_happytogether	rlarkdtn55	POST	pym5dat-y7qlw		2011-08-19	오늘 해피투게더 누구나옴 tagquestion
+sbs_happytogether	love91817	POST	pym5dbh-_y7tp		2011-08-19	해피투게더 박 유인 티아 티아라 지연 닮은꼴tagquestion
+sbs_happytogether	pcspopo	POST	pym5fag-_a55r		2011-08-19	어제 해피투게더 본사람 tagsmile 해피투게더 차태현
+sbs_happytogether	dltngus0785	POST	pym5iri-u4ib		2011-08-19	해피투게더 플짤 침 좀 조다 삼키다
+sbs_happytogether	insos02	POST	pym5j4p-_8lnw		2011-08-16	해피투게더 무료다시보기 회 해피투게더 무료다시보기 회
+sbs_happytogether	tkanrlrn	POST	pym5mer-_t46i		2011-08-19	박 해피투게더 박 지금 노안 미래 동안 발언 화제
+sbs_happytogether	tkanrlrn	POST	pym5nua-_t46i		2011-08-19	해피투게더 다시보기 김원준 차태현 박보영 박 백도빈 동안특집
+sbs_happytogether	hhw008	POST	pym5wbm-5l0kc		2011-08-19	박 해피투게더
+sbs_happytogether	aptx-4869	POST	pym5y4r-ygzyd		2011-08-19	오라랜 오라랜만 해피투게더 보다 박보영 귀요미 tagsmile 해피투게더 박보영귀요미
+sbs_happytogether	samuel1216	POST	pym5yte-e1do		2011-08-19	백도빈완전문근영 tagsmile 진짜덞움 tagsmile 굴궁 tagsmile 늘해피투게더쩡이엇뚬
+sbs_happytogether	oqcaa	POST	pym5_7f-tjn9		2011-08-16	일본방송 해피투게더 비호감 조혜련
+sbs_happytogether	pulppang2	POST	pym60bs-5bbxl		2011-08-17	해피투게더 시즌 e 조권 민 미다 박현빈 이준 이성종 김나영 hdtv xvid baros avi 애플파 애플파일 무료다운로드
+sbs_happytogether	okhoon1982	POST	pym61gg-_il53		2011-08-19	해피투게더 박 롤리폴리 댄스 다시보기
+sbs_happytogether	rafsd12	POST	pym62nr-_qvz5		2011-08-19	어제 해피투게더 잘보셨어요tagquestion taglove 어제 제가 제 나오다 다들 보 셨 죠tagquestion tagsmile taglove 못보신분 재 재다 방 송 taglove
+sbs_happytogether	insos02	POST	pym63o7-_8lnw		2011-08-17	해피투게더 무료다시보기 회 해피투게더 무료다시보기 회
+sbs_happytogether	wkdehdgus03	POST	pym65sc-_0vv7		2011-08-19	해피투게더보는사람손 tagsmile
+sbs_happytogether	zero375	POST	pym66o2-yk_rq		2011-08-20	박 일 결국 개월 후 폐지 폐지 결정 마당 왈가왈부 할 하다 일 아니다 시즌 라 라니 정말 어처구니 없구만 대 대대 방송가 시즌 를 해서 하다 패망 프로그램 수두룩 하다 시즌 까다 이어지다 해피투게더 해피투게더는 예외
+sbs_happytogether	hyu1075	POST	pym6d80-59rnd		2011-08-18	해피투게더 보다 닭다리과자 먹는중 tagsmile
+sbs_happytogether	doctorseonha	POST	pym6dlo-5dn30		2011-08-18	시 기다리다 해피 투게더 투게더를 보고 tagsmile 깔깔깔 웃는즁 tagsmile
+sbs_happytogether	darkness7589	POST	pym6dq5-_s90n		2011-08-18	사진속인물왈 난 나다 날다 세상 맞서다 싸우다 해피투게더
+sbs_happytogether	01089475914	POST	pym6dus-5hx91		2011-08-18	아 해피투게더에박보영나옴 나잠못잘둣 나는야박보영오탘쿸 tagsmile
+sbs_happytogether	frompic	POST	pym6fa6-_d1bz		2011-08-19	박보영 박보영 착한척 하지마 하지마라 박명수 말 뜨끔 tagexclamation 박보영 박명수 오다 첫대면 첫대면에 관련 에피소드 일 kbs 해피투게더 해피투게더에 출연 박보영 은
+sbs_happytogether	iyousens	POST	pym6hvg-yq85k		2011-08-19	다시보기 해피투게더 해피투게더 월 일 방송분 다시보기
+sbs_happytogether	agagom2008	POST	pym6ja6-y0g6v		2011-08-19	박 인현왕후 박 해피투게더 출연 tagexclamation
+sbs_happytogether	aaaaa585815	POST	pym6kpi-_hgjp		2011-08-19	해피투게더 본사람 댓 안본사람 미투 봐써 tagquestion안봐써tagquestion
+sbs_happytogether	frompic	POST	pym6p5u-_d1bz		2011-08-19	문하늘 기자 기다 배우 백도빈 백도빈이 아내 정시아 정시아의 가출 사실 고백했다 월 일 방송 kbs tv 해피투게더 시즌 에서 에서는 중견배우 백윤식 백윤식의 아들 정시아 정시아의 남편 백도빈 백도빈이
+sbs_happytogether	suro01	POST	pym6w86-_ps0c		2011-08-17	와인 두잔째 취하는거 tagcry tagsmile 혼자 호주산 메론망고치즈 tagcry tagsmile 해피투게더 다운 tagsmile 춤배우고싶다 댄스투나잇 tagsmile tagsmile 조아조아
+sbs_happytogether	kshnana	POST	pym6_p9-nxsl		2011-08-19	지금 해피투게더 하다 재밌는거 같아요ㅁ 해피투게더 보러가야지 tagsmile
+sbs_happytogether	y10ws	POST	pym991i-ya4xm		2011-08-20	박보영 해피투게더 부담 있다 재밌게 촬영 소감 밝히다 대전사진 스튜디오 이음
+sbs_happytogether	tvxq12265555	POST	pym9f52-_g_yo		2011-08-20	올어동 지구 연애중 느낌표 여걸식스 러브레터 미로틱콘 뮤직오브하트 인체탐험대 해피투게더 기승사 더스타쇼 비하인드 불후의명곡 스타더시크릿 sm파리콘서트 베케이션 비기스트 반전드라마 천우배 윤호 비보잉 키앤크 팬시광고 호민 호 민 미다 하루 컬투쇼 무비 무비는 빼고적엇엉 일본꺼 일본꺼도 좀뺴구 ㄷㄷ
+sbs_happytogether	zzanga0318	POST	pym9xbx-_sxhf		2011-08-20	해피투게더 엄기준 version 엄배우님
+sbs_happytogether	starmotion	POST	pymb1nd-_1uj8		2011-08-19	해피투게더 박 롤리폴리
+sbs_happytogether	starmotion	POST	pymb1wj-_1uj8		2011-08-19	해피투게더 박 도전골든벨 출연 후 택시 등교
+sbs_happytogether	sepultura707	POST	pymb39n-_ss8a		2011-08-19	예전 사 사랑 기적 필요해 나레이터 모델 나오다 그녀라는걸 하다 하 사다 살다 산지 몇년 몇년인지 쯥 그때 그친구구낫 어제 롤리 폴리 쪼다 우껴쓰 귀요미 링크 박 롤리폴리 해피투게더 왕따 왕따다 도전골든벨 누워서보는안경 누워서tv보는안경 스마트안경 목디스크 아이패드 갤럭시탭 아이폰 스마트폰 태블릿pc 영화감상
+sbs_happytogether	dlftksghtn	POST	pymb3eb-5bo89		2011-08-19	한사랑산부인 네이버 지식 전문가 실시 답변순위 년 월
+sbs_happytogether	sepultura707	POST	pymb3qr-_ss8a		2011-08-19	어제 해피투게더 해피투게더에 나오다 백도빈 sorry sorry 댄스 정말 시청자들한테 미안한짓 하다 근데 많다 웃겼쓰염 문근영 닮은꼴 닮은꼴에 터지다 댄스 빵터지 빵터지고 링크 백도빈 댄스 쏘리쏘리 해피투게더 누워서보는안경 누워서tv보는안경 스마트안경 목디스크 아이패드 갤럭시탭 아이폰 스마트폰 태블릿pc 영화감상
+sbs_happytogether	starmotion	POST	pymb5ze-_1uj8		2011-08-19	해피투게더 박보영 박명수독설 착한척하지마 착한척하지마라 뜨끔
+sbs_happytogether	insos02	POST	pymb6ia-_8lnw		2011-08-19	해피투게더 무료다시보기 회 최강동안특집 해피투게더 무료다시보기 회 최강동안특집
+sbs_happytogether	starmotion	POST	pymb9qp-_1uj8		2011-08-19	해피투게더 김원준 말실수 다크서클 씨받이 씨받다
+sbs_happytogether	starmotion	POST	pymbjar-_1uj8		2011-08-19	해피투게더 차태현 아 아내 한 하다 이불 덮다 않다 이유tagquestion
+sbs_happytogether	starmotion	POST	pymbje5-_1uj8		2011-08-19	해피투게더 백도빈 쏘리쏘리춤
+sbs_happytogether	hy5790	POST	pymd95d-qo3k		2011-08-17	piovino 피오비노안경 pv c 원형 진녹색 무광 해피투게더 박미선안경
+sbs_happytogether	kserty	POST	pymdi6j-5hy3w		2011-08-16	슈퍼주니어 동방신기 대팬픽이머임tagquestion정확 tagsmile 다들 다 달다 다르다 tagsmile 다들알고잇는데 다들알고잇는데로 말해봥 나다 나 슈픽 슈픽은 비사연 뱀스 우리는슈퍼주니어 슈퍼주니어 기생이특 매저키스틱라이프 동픽 동픽은 박유천비극사 세기인어공주 순수의시대 해피투게더 백색지연인 알고잇엇는데 tagsmile
+sbs_happytogether	lonedji	POST	pymdkq_-5e9vf		2011-08-18	요즘 중국영화 빠지다 지내다 있다 해피투게더 패왕별희 패왕별희는 한번더 한번더보 주경삼림 동사서독 무간 무간도 화양연화 아비정전 등등 tagsmile 일단 왕가위감독꺼 보고 배우 영화 다 파야겠다 역시 작품감상 감독 배우 따 따로 뽑다 몰다 감상해야
+sbs_happytogether	mjjeje81264	POST	pymdsrt-_tp1q		2011-08-17	하이킥 표절의혹 tagexclamation 동방신기 팬픽 해피투게더 오다 내용 흡사 이영철 작가님 뒤질래여tagquestion
+sbs_happytogether	bobbi1624	POST	pyme0fb-kn9c		2011-08-18	아 해피투게더 보다 미투하는중 미치다 받다 tagsmile 세 tagsmile
+sbs_happytogether	yanggw97	POST	pyme0yb-_s02p		2011-08-18	해피투게더 해피투게더에 박보영 나오다 숮ㅣ 숮ㅣ가 쫭
+sbs_happytogether	qkrgnlrl	POST	pyme0yd-_fs38		2011-08-18	오예 해피투게더 해피투게더에 박보영나온당 taglove
+sbs_happytogether	as87song	POST	pyme1m2-5vi_p		2011-08-19	해피투게더 보다 tagsmile 박 너무이쁘 tagexclamation tagsmile que tagexclamation bonita tagexclamation
+sbs_happytogether	dnr1119	POST	pyme3w0-5q_64		2011-08-18	난 나다 날다 해피투게더 보고 보다 보 다시올께 tagsmile 이따봐 이따봐요 tagsmile 모두 본방사수 tagexclamation tagsmile
+sbs_happytogether	broomgod	POST	pyme8kh-i8o4		2011-08-19	박 일 개월뒤 개월뒤에 종영 역시 강호동 강호동이 없다 안되는건가 안되는건가여 tagcry 해피투게더 해피투게더도 시즌 한대 tagsmile 난 나다 날다 강호동프로안본지오래 tagsmile
+sbs_happytogether	dnr1119	POST	pyme8n7-5q_64		2011-08-19	해피투게더 끗 끗나 끗나고 온다해놓고 이제 왓네 tagsmile 난이 자다 자르다 갈께용 tagsmile 모두 일찍자 tagsmile 잘자 잘자요 tagsmile
+sbs_happytogether	gkwls998	POST	pyme9gl-_qblz		2011-08-19	해피투게더 차태현 짱 짱임 tagsmile 완전 대박 웃기다 tagsmile 아놬 tagsmile 눈물 나온닼 tagsmile
+sbs_happytogether	rachel1103	POST	pyme9go-umxh		2011-08-19	이사 날짜 급 변경 바라다 바람 나 나다 애업고 피난민 짐나르게 생기다 우리집 지금 발 디디다 틈 없다 난 나다 날다 힘들다 잠시 소파 앉다 해피투게더 시청중 이제 짐싸다 서은맘언니 tagsmile 나 나다 이삿짐 정리 마스크쓰고 나가다 tagsmile 짐 지다 없다 생각 싸다보 싸다보니 너무많 너무많아 장난감 너무많 너무많아 이사 날짜 급 변경 장농 장농도 아직 못샀는데 어따 넣어둔담 하 하다 이사가다 이사 돈 은근 마니들고 귀찮다 스트레스 받는거구
+sbs_happytogether	as87song	POST	pyme9r3-5vi_p		2011-08-19	오늘 해피투게더 봉선 형님 이뻐보 이뻐보이네 tagsmile 봉선이두 잘보면 이쁜거같애 tagsmile 봉선이 봉선이가 왜 외다 형님 부르다 아세요tagquestion 삼국지 삼국지에 여포 라 라는 장군 있다 엄청나다 강하다 이름 이르다 여포 자 자다 봉선 여봉선 이 하다 봉선이 봉선이보 봉선형님 이래 tagsmile
+sbs_happytogether	sang0018	POST	pymea6s-_r4ms		2011-08-19	해피투게더 시즌 최강동안 특집 해피투게더 백도빈 박명수 박보영 독설
+sbs_happytogether	bobom98	POST	pymeadq-_fsk1		2011-08-19	아 그뭐냐 어제 봉선이갘 tagsmile 토스트하느냐 해피투게더 앞에대화를못들었는데
+sbs_happytogether	spastar7	POST	pymeava-5x8tg		2011-08-19	해피투게더 박명수 박 해피투게더 박명수 박 보고 보다 보 유인나 유인나로 착각 닮았나tagquestion
+sbs_happytogether	bsh1806jin	POST	pymebek-_sfk2		2011-08-18	taglove tagexclamation tagsmile tagsmile tagsmile tagsmile 넘 재밌당 tagsmile 역시재석오빠가최 짱짱짱 tagsmile taglove tagexclamation tagsmile tagexclamation 해피투게더짱짱짱 taglove tagexclamation 해피투게더화이팅tagsmile tagexclamation taglove
+sbs_happytogether	qufdln5	POST	pymee0k-_bfmb		2011-08-18	해피투게더 대박 잼 tagsmile
+sbs_happytogether	itoss	POST	pymeeht-q177		2011-08-18	박보영차태현김원준백도빈박하선해피투게더
+sbs_happytogether	wndsh123	POST	pymeeqd-yu6_o		2011-08-18	아 해피투게더 떄문 떄문에 년치 웃음 웃다 다 웃다
+sbs_happytogether	wngml1178	POST	pymeflo-yyprl		2011-08-19	제가 제 어떤 블로그 글 보다 월달 월달에 불명 진기오빠 나온데영 tagexclamation tagcry 언젠 나올줄 아라썽 tagcry taglove 종현오빠 나오다 온유오빠 나올줄 예상하구 있다 tagsmile 예성오빠담 예성오빠담에 규현오빠 나오다 tagexclamation 트다 틀다 tagcry 진짜 나와으 나와으며 조켔당 taglove 글구 해피투게더 해피투게더에 기범이오빠 진기오빠나온데 tagsmile 역시 예능하면 온유 tagsmile
+sbs_happytogether	dong	POST	pymegcm-x_p		2011-08-19	해피투게더 김원준 박보영 차태현 동안 총출
+sbs_happytogether	akrsotmdgus	POST	pymej3_-56hq		2011-08-19	ㅏ tagexclamation 슝형ㅇ언니 해피투게더 봣그낭 tagexclamation 끗 끗나 끗나고 달샤벳 뮤비 봣그낭 tagexclamation 아니다
+sbs_happytogether	rldkde0517	POST	pymejr3-_qf3g		2011-08-19	오늘 해피투게더 무 웃기다 침대 혼자 얼마 구르다 엄마몰래 디엠비 폰 폰으 보다 방 쳐박혀서 tagcry tagsmile
+sbs_happytogether	dnr1119	POST	pymek4r-5q_64		2011-08-18	해피투게더 한당 tagsmile 박보영 넘조아 tagsmile
+sbs_happytogether	itoss	POST	pymelt0-q177		2011-08-19	차태현 해피투게더
+sbs_happytogether	y10ws	POST	pymeopn-ya4xm		2011-08-19	해피투게더 차태현 년 동안 아내 하나 바라보다 대전제품사진 스튜디오 이음
+sbs_happytogether	insos02	POST	pymerkd-_8lnw		2011-08-19	해피투게더 무료다시보기 회 최강동안특집 해피투게더 무료다시보기 회 최강동안특집
+sbs_happytogether	sch8736	POST	pymerox-5hl69		2011-08-19	해피투케더 다시보기해피투게더 회 김원준 차태현 박 박보영 백도빈 다시보기 토렌트다운
+sbs_happytogether	sexyyukino	POST	pymeslp-p4to		2011-08-19	박보영 박명수 착한척 하지마 하지마라 해피투게더
+sbs_happytogether	131106_	POST	pymetwq-_tuki		2011-08-19	해피투게더 백도빈 쏘리쏘리 춤 추다 영상 tagsmile
+sbs_happytogether	smy2513	POST	pymex8e-lzlx		2011-08-19	박보영 긔요미 유재석 박보영폰 박보영폰으 게임 있다 집 못 가다 거다 거 tagsmile 그리다 박명수 착하다 척하지말 척하지말라 하다 진짜 착하다 한거 한거여서 뜨끔 tagsmile 해피투게더 재방봐야겠당 tagsmile 박보영 긔요미 해피투게더 쩔었어 tagsmile
+sbs_happytogether	131106_	POST	pymexzr-_tuki		2011-08-19	슈퍼주니어 해피투게더 요상 영상 tagquestion 이게뭐지
+sbs_happytogether	egigom	POST	pymez_v-z_7j		2011-08-19	해피투게더 동안특집 박보영
+sbs_happytogether	dnr1119	POST	pyme_v1-5q_64		2011-08-18	오늘 해피투게더 잼껫당 본방 사수 tagexclamation tagsmile
+sbs_happytogether	search_now	POST	pyme_z7-5y0f5		2011-08-18	해피투게더 경질 대정령 신창원 풋옵션 나다 나 꼼수 꼼수다 왕지혜 대전 ufo 민효린 단종 네이버 실시 급상승 검색어
+sbs_happytogether	leel94	POST	pymk4tg-yn6ld		2011-08-19	어제 해피투게더 해피투게더에 김원준 나오다 뮤지컬 셜록홈즈 얘기 신봉선 영국 베네딕트 베네딕트가 출연 작품이에요tagquestion 라 라고 언급 하다 mc mc도 게스트 게스트도 못 알다 알 듣다 우리 가족 못 알다 알 듣다 나 나다 혼자 헛웃었다 민망 신봉선 셜록 셜록을 본 보다 걸까 영드 셜록 셜록은 게이물 뮤지컬 셜록 홈즈 홈즈는 노말물이라는게 안 알다 유머 안 알다 개그
+sbs_happytogether	happykra	POST	pymkcjv-yupxm		2011-08-18	동안 때문 때문에 웃다 tagexclamation 동안 때문 때문에 울다 tagexclamation 오늘 챔프 식구 공개 해피투게더 동안특집 tagexclamation 동안특집 맛보다 샷 샷을 보여드림돠 동안이 동안이되 싶다 여러분 tagexclamation 오늘 해피투게더 본방사수 전 절다 녹화 할거
+sbs_happytogether	junes26	POST	pymkmmq-yxvov		2011-08-19	해피투게더 시즌 회 차태현 박보영 김원준 박 백도빈 월 일 방송 보기 보다
+sbs_happytogether	luthangela	POST	pymkwws-e8e4		2011-08-19	이것 알고 알고가 m v 보다 동픽 동픽이 생각 해피투게더 해피투게더라 썩다 내 내다 머리 용서 제발
+sbs_happytogether	pllin	POST	pymky12-5ns50		2011-08-20	조혜련 해피투게더 해피투게더에 일본인 함께한 자리 한국 비하 비 죽다 ㄱ
+sbs_happytogether	kmediabox	POST	pymk_fr-_1l70		2011-08-19	유쿠 해피투게더 시즌 회 최강동안 특집 월 일 다시보기
+sbs_happytogether	goldngod	POST	pymy4em-ynnp7		2011-08-18	해피투게더 보고픈데 거실 아부지 아부지가 뉴스를보니 안방 어무니 어무니가 주무시다 티비 티비를 못켜겠다 디엠비로 디엠비로까지 보고싶진않다 걍 컴터 컴터나 하다 호라리
+sbs_happytogether	harudaykorea	POST	pymy4ex-524fw		2011-08-18	해피투게더 박 taglove 사랑 tagsmile
+sbs_happytogether	yoojin159	POST	pymy4fo-yvcxv		2011-08-18	아 해피투게더 시작
+sbs_happytogether	spdh9035	POST	pymy7qa-ybo4f		2011-08-19	오메 해피투게더 해피투게더에 오 쩌러 틀다 ㅇㅅㅇ
+sbs_happytogether	dlekdud121	POST	pymycqc-_511		2011-08-16	일본방송 해피투게더 비호감 조혜련
+sbs_happytogether	abcd8063	POST	pymygwy-50shp		2011-08-18	아싸 오늘 해피투게더 하다 tagexclamation ㅇ
+sbs_happytogether	rladbwls5234	POST	pymyijs-y33lp		2011-08-18	지금 해피투게더보는데 이성종 이성종이 민 조권 나오다 tagexclamation
+sbs_happytogether	minserin316	POST	pymyira-rjha		2011-08-16	해피투게더 성종
+sbs_happytogether	otsaro	POST	pymylw7-_8hje		2011-08-18	해피투게더 박보영 초등학생 등에 등 업히다 사연 tagexclamation tagsmile
+sbs_happytogether	7221351	POST	pymyn4j-y_v_b		2011-08-18	해피투게더 시작 야식먹으면서 봐야즹 tagsmile
+sbs_happytogether	jhhh0401	POST	pymysjd-yemuz		2011-08-16	판일본방송 해피투게더 조혜련 tagcry 감히우리유느님 tagquestion 미치다 내 이래서 세바퀴 세바퀴를 안보지 tagsmile daum카페
+sbs_happytogether	tkfkddl0424	POST	pymytwz-w0rh		2011-08-16	kbs 월 대국민 토크쇼 안녕 kbs 화 호다 김승우 김승우의 승승장구 mbc 황금어장 무릎팍도사 kbs 목 해피투게더 내 보다 보 예능프로그램
+sbs_happytogether	hkp6941	POST	pymyv0t-_ts0q		2011-08-18	해피투게더 해피투게더에 차태현씨 나오다 tagexclamation 내가좋아 내가좋아하 내가좋아하는 taglove
+sbs_happytogether	rlathwls1579	POST	pymyvlv-blz4		2011-08-18	헉헉 해피투게더 해피투게더에 내여자 나오다 나 보영쨔응 하아 하아하아 쥰니귀여워 tagcry tagcry tagcry tagcry tagcry
+sbs_happytogether	kbg0096	POST	pymyvw3-yt8io		2011-08-18	오늘 해피투게더 박보영 나오다 보고싶은데 몸 천근만근 tagcry ㅡ 다운 받다 보다 tagsmile 저저번주꺼 런닝맨 런닝맨도 보다 되다 해피투게더 해피투게더는 또 언제 보다
+sbs_happytogether	tajja54	POST	pymyvzh-gjz5		2011-08-18	아솨 지금 해피투게더 해피투게더에 박보영 박보영이 나오다 tagexclamation tagsmile
+sbs_happytogether	ddd376	POST	pymywa0-58h53		2011-08-15	나 같다 여탕가자 ㅉㅍㄹ 아 해피투게더 보다 가다 가자
+sbs_happytogether	sy7398	POST	pymyx4h-lfcn		2011-08-19	해피투게더 해피투게더에 차태현 박보영 김원준 박 백도빈 나오다 너무재밌다 tagsmile 자야 자야되는데 tagcry
+sbs_happytogether	haena1208	POST	pymyxy0-x_w3		2011-08-18	tagcry 해피투게더 보고 tagsmile
+sbs_happytogether	hke5466	POST	pymyzay-yrsya		2011-08-16	자체자막 일본방송 해피투게더 조혜련 완전 비호감인거 가테 tagcry daum tv팟
+sbs_happytogether	holldin	POST	pym_34s-_mnfs		2011-08-18	해피투게더 박보영 제 의 국민여동생 박보영 사진 사다
+sbs_happytogether	happykra	POST	pym_5hb-yupxm		2011-08-17	챔프 차태현 박 백도빈 해피투게더 전격 출연 tagexclamation 유재석 웃기다 tagexclamation
+sbs_happytogether	kk0923k	POST	pym_ls6-aybw		2011-08-17	t v 예능 해피투게더 나쁘다 여자 기준 무엇 tagquestion
+sbs_happytogether	rlaxoghks45	POST	pym_lzw-ygp99		2011-08-18	아싸 해피투게더 오늘 게스트 열다 좋다 tagsmile
+sbs_happytogether	minewafer	POST	pym_m3b-5jikp		2011-08-17	드디어 해피투게더 해피투게더가 내 내다 품 tagsmile
+sbs_happytogether	darkness7589	POST	pym_qqg-_s90n		2011-08-18	졸았네이런좀있다가해피투게더보면서실컷웃어야지그리고자야지 해피투게더가재미있길바라
+sbs_happytogether	mople	POST	pym_rc1-ybyr8		2011-08-18	해피투게더 회 e 닥본사 닥 치다 치 본 보다 방 사 사다 닥치고본방사수 닥본사 별점 오늘 해피투게더 회 e
+sbs_happytogether	sepist	POST	pyo4rcw-_sbqf		2011-08-15	키 구두 뿐 뿐만 아니다 아니 건조기 단돈 천원 사는방법 새롭다 쇼핑몰 시 해피투게더
+sbs_happytogether	wlswb125	POST	pyo70fd-puvw		2011-08-16	앗다 해피투게더에서오늘 공짜 분혼자서노래불럿뜸 머리가띵 근데혼자하는것도재밋드 tagsmile
+sbs_happytogether	5011675	POST	pyo7102-f1iw		2011-08-16	일본방송 해피투게더 비호감 조혜련
+sbs_happytogether	hotcloset	POST	pyo74w6-55qn7		2011-08-18	해피투게더 라운드티셔츠 핫클로젯
+sbs_happytogether	nunurigo121	POST	pyo7lek-_9tci		2011-08-17	휘성 김태우 삼각관계 김태우 휘성 삼각관계 휘성 김태우 해피투게더
+sbs_happytogether	ehsjtcm321	POST	pyol13t-e9qw		2011-08-16	일본 해피투게더 해피투게더를 촬영 오다 명수아저씨 술냄새 술냄새난데 아 ㅈㄴ 기분나빠 http tvpot daum net clip clipview dotagquestionclipid rtes y
+sbs_happytogether	nannina_	POST	pyolb2s-_m7d1		2011-08-16	조혜련 일본방송 해피투게더 논란 논다
+sbs_happytogether	yupdealer	POST	pyolbf0-_rm6v		2011-08-16	방송 비호감 조혜련 일본 해피투게더
+sbs_happytogether	nunurigo121	POST	pyovzhh-_9tci		2011-08-15	해피투게더 성종 해피파파라치
+sbs_happytogether	903hhs	POST	pyovzwo-r3q8		2011-08-15	이준머리가발 tagsmile 해피투게더 깜놀했자 tagsmile
+sbs_happytogether	moviejoy	POST	pyoxeke-13pa		2011-08-17	기사 기다 챔프 차태현 박 백도빈 일 해피투게더 출연 tagexclamation 모바일 모바일은 여기 me movie 챔프
+sbs_happytogether	lonedji	POST	pyoxh5w-5e9vf		2011-08-17	영화 해피투게더 해피투게더는 진짜 명작 사랑 이르다 이름 고독 영화 보다 느끼다 느낌 절실하게 느끼다 누군가 누군가를 위해 위하다 모 걸 다 주다 아휘 아휘는 미련 떠나다 걸까 양조위 연기 장국영 장국영은 대단 배우 내 연기 않다 연기 그런지 느끼다
+sbs_happytogether	lonedji	POST	pyoxhbi-5e9vf		2011-08-17	해피투게더 보고 보다 보 나서 나다 나서다 계속 귓가 탱고소리 아련 울리다 편집 편집이 이런것 이런것은 투박 투박 정서 환상적 영상미 넋 잃다 만드 만드는 음악 캐릭터 캐릭터에 미치다 몰입 배우 연기력 진짜 대단 영화

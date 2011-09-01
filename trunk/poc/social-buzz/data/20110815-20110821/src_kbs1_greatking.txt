@@ -1,0 +1,44 @@
+program_id	author_id	type	post_id	comment_id	publish_date	terms
+kbs1_greatking	ckdtngk12	POST	pym0gm7-_wznv		2011-08-20	아빠 광개토 대왕본데 ㅅㅂ
+kbs1_greatking	robin4572	POST	pym0hs4-_j3f3		2011-08-20	엄마 광개토대왕봐서 코갓텔할때 놀쟈
+kbs1_greatking	ssk90846	POST	pym12jb-ysexn		2011-08-20	연살타 담덕 담망 고무 토 일 사극 드라마tagquestion 광개토 태왕 대왕
+kbs1_greatking	elimegg	POST	pym3xef-fy0z		2011-08-18	김수정 교과서여행 체험학습갈만한곳 아차산 고구려대장간마을 광개토대왕릉비
+kbs1_greatking	b2stever	POST	pym5r3x-_0v16		2011-08-19	넌내반어제끝 tagcry 난이제사극만보고사야되낰 tagsmile 계백이랑광개토 tagcry 그저눈물 tagcry
+kbs1_greatking	yujin-1	POST	pym5wo1-_md39		2011-08-16	대박 tagexclamation 아직문경새재인데광개토대왕에나오는이태곤봄 tagexclamation
+kbs1_greatking	ksj-1106	POST	pym6jzr-_tz60		2011-08-17	지금독도문제와동해표기문제가잇슈죠 아니 아 우리집인데왜우리집이라는걸증명을해야는지모르겠다는비유가하고싶네 우리집인데왜우리집이라는걸증명을해야는지모르겠다는비유가하고싶네요 다른나라지도를봐 만일본해라쓰고나머지나라는전부다동해라고씁니 만일본해라쓰고나머지나라는전부다동해라고씁니다 년에쓰여진광개토대왕릉비에도분명히동해라고적혀져있구요염연히우리나라의바다도수천년부터우리나라동쪽의바 년에쓰여진광개토대왕릉비에도분명히동해라고적혀져있구요염연히우리나라의바다도수천년부터우리나라동쪽의바다 는동해라고불러져왔는데세력이큰영국과미국이일본해라고표기한다면매우안좋은상황이일어날수도있습니다독도영유권에있어서만약동해가일본해가된다면일본의편을조금더들어줄수도있죠 tagcry 가수김장훈님이여러사람들과뜻을합쳐서그렇게발벗고홍보를했는데안타깝군요 여러분들의관심만이우리나라동해와독도를지킬수 여러분들의관심만이우리나라동해와독도를지킬수있습니 여러분들의관심만이우리나라동해와독도를지킬수있습니다
+kbs1_greatking	yureey	POST	pymj597-_606y		2011-08-20	광개토대왕보는데 담망이죽었어 tagcry 담덕 담덕이 안쓰러워 안쓰럽다 tagcry 무한도전닮은꼴
+kbs1_greatking	walfaaa2	POST	pymk8gf-ytl_9		2011-08-20	에다 재미 광개토 대왕 대왕이 보다 리버풀vs아스 리버풀vs아스날 후반전 하이라이트 확인해줄게
+kbs1_greatking	iyousens	POST	pyo4nqn-yq85k		2011-08-15	광개토태왕 예고 예 광개토 태왕 회 월 일 방송분 예고 예
+kbs1_greatking	betterepisod	POST	pyovkze-_ct8i		2011-08-15	하이고오 공주여행 다녀오다 tagexclamation 광개토대왕릉비 가짜지 가짜지만 엄청크네 엄청크네요 머리 아프다 tagcry
+kbs1_greatking	sds8822	POST	pyoxqyr-gwvn		2011-08-15	얏호 tagexclamation 머리 샤워밴드하고 엄마왈 광개토 대왕 담덕 담덕같 담덕같아 나란여자 담덕카리스마나는여자 와오 나멋진놈 나멋진놈임 ㅇㅇ
+kbs1_greatking	annchobi	COMMENT	pym0hs4-_j3f3	c_n9h7k-ym0hs4-_j3f3	2011-08-20	광개토대왕 tagexclamation 멋지다 분이죠 tagsmile
+kbs1_greatking	robin4572	COMMENT	pym0hs4-_j3f3	c_n9q05-ym0hs4-_j3f3	2011-08-20	tagsmile 탑밴드보구파
+kbs1_greatking	robin4572	COMMENT	pym0hs4-_j3f3	c_n9q6_-ym0hs4-_j3f3	2011-08-20	그치 그치만 탑밴드 탑밴드가 더조아 더조아요
+kbs1_greatking	bss5834	COMMENT	pym0hs4-_j3f3	c_n9q8i-ym0hs4-_j3f3	2011-08-20	놀기대신죽기 tagsmile
+kbs1_greatking	bss5834	COMMENT	pym0hs4-_j3f3	c_n9q9x-ym0hs4-_j3f3	2011-08-20	죽쟈
+kbs1_greatking	robin4572	COMMENT	pym0hs4-_j3f3	c_n9qam-ym0hs4-_j3f3	2011-08-20	tagsmile 불쌍 근데 우리 반모할까열tagquestion
+kbs1_greatking	wjdgyfla32	COMMENT	pym0hs4-_j3f3	c_n9qba-ym0hs4-_j3f3	2011-08-20	코갓텔 몇시에함tagquestion
+kbs1_greatking	annchobi	COMMENT	pym0hs4-_j3f3	c_n9qe7-ym0hs4-_j3f3	2011-08-20	탑밴드 재밌 재밌나 재밌나요 tagquestion 요즘 음악프로 나가수 나가수밖 안봐서 tagsmile
+kbs1_greatking	robin4572	COMMENT	pym0hs4-_j3f3	c_n9qfo-ym0hs4-_j3f3	2011-08-20	시
+kbs1_greatking	hero_001	COMMENT	pym0hs4-_j3f3	c_n9qig-ym0hs4-_j3f3	2011-08-20	이거보고탑밴드끝부분이라도보려 tagcry
+kbs1_greatking	robin4572	COMMENT	pym0hs4-_j3f3	c_n9qm8-ym0hs4-_j3f3	2011-08-20	tagsmile
+kbs1_greatking	robin4572	COMMENT	pym0hs4-_j3f3	c_n9qrk-ym0hs4-_j3f3	2011-08-20	왜tagquestion
+kbs1_greatking	hero_001	COMMENT	pym0hs4-_j3f3	c_n9qv4-ym0hs4-_j3f3	2011-08-20	예압 tagexclamation
+kbs1_greatking	robin4572	COMMENT	pym0hs4-_j3f3	c_n9qv9-ym0hs4-_j3f3	2011-08-20	tagsmile ㅅ tagsmile
+kbs1_greatking	wjdgyfla32	COMMENT	pym0hs4-_j3f3	c_n9qzq-ym0hs4-_j3f3	2011-08-20	아 맞다 tagsmile 보다
+kbs1_greatking	hero_001	COMMENT	pym0hs4-_j3f3	c_n9q_s-ym0hs4-_j3f3	2011-08-20	지금울엄마랑광개토태왕보고잇는데 tagcry
+kbs1_greatking	hero_001	COMMENT	pym0hs4-_j3f3	c_nj6of-ym0hs4-_j3f3	2011-08-20	tagsmile 탑밴드 강대진표랑미션나온 잏힣
+kbs1_greatking	robin4572	COMMENT	pym0hs4-_j3f3	c_npy82-ym0hs4-_j3f3	2011-08-21	tagsmile ㅅ tagsmile
+kbs1_greatking	hero_001	COMMENT	pym0hs4-_j3f3	c_npyqr-ym0hs4-_j3f3	2011-08-21	오 이시 이시간에 온건강
+kbs1_greatking	sa06032	COMMENT	pym5r3x-_0v16	c_ndha2-ym5r3x-_0v16	2011-08-19	보고살 보고살아 tagsmile
+kbs1_greatking	b2stever	COMMENT	pym5r3x-_0v16	c_nm24l-ym5r3x-_0v16	2011-08-22	헐 의왼데tagquestion tagsmile
+kbs1_greatking	b2stever	COMMENT	pym5r3x-_0v16	c_nm2qo-ym5r3x-_0v16	2011-08-22	고맙다
+kbs1_greatking	b2stever	COMMENT	pym5r3x-_0v16	c_nm2xq-ym5r3x-_0v16	2011-08-22	난 나다 날다 잘생기다 tagsmile
+kbs1_greatking	oke3128	COMMENT	pym5r3x-_0v16	c_nyxc1-ym5r3x-_0v16	2011-08-19	너광개토보냌 근데그건오버가심해서웃기는맛으로보는뎈
+kbs1_greatking	ksj-1106	COMMENT	pym6jzr-_tz60	c_nq339-ym6jzr-_tz60	2011-08-17	조용한외교tagquestion그조용한외교해서이득받은게머가있습니까tagquestion다른나라들이조용히일본편을들고 조용한외교tagquestion그조용한외교해서이득받은게머가있습니까tagquestion다른나라들이조용히일본편을들고있는데 tagcry 아이가원하는걸갖고싶으면더심하게울죠tagquestion우리나라도더심하게울면되는거아닙니까 tagcry 제발소극적인외교가아닌적극적인외교부탁
+kbs1_greatking	rkdekgml0101	COMMENT	pym6jzr-_tz60	c_nqkgy-ym6jzr-_tz60	2011-08-17	우리 우리나라 왜 외다 대책 마련같은거 안해놓을까tagquestion tagcry
+kbs1_greatking	ksj-1106	COMMENT	pym6jzr-_tz60	c_nqkp0-ym6jzr-_tz60	2011-08-17	제발이건정부만의문제가아니라우리문제도 당신들의자손의국사책에독도라일본이일본꺼라고적힌책을보여드리겠습니까tagquestion아님국사책에동해와독도라고적힌책을보여드리겠습니까tagquestion
+kbs1_greatking	rkdekgml0101	COMMENT	pym6jzr-_tz60	c_nq_z3-ym6jzr-_tz60	2011-08-17	휴 tagcry 진심 동해오빠 일본가서 팬분들한테 말씀 진짜 장난아니 장난아니고 tagexclamation 음 tagcry
+kbs1_greatking	sds8822	COMMENT	pyoxqyr-gwvn	c_n00e0-yoxqyr-gwvn	2011-08-15	주거 ㅇㅅㅇ
+kbs1_greatking	jdaejin2	COMMENT	pyoxqyr-gwvn	c_n00fu-yoxqyr-gwvn	2011-08-15	기분 안좋아보 안좋아보이네
+kbs1_greatking	jdaejin2	COMMENT	pyoxqyr-gwvn	c_n0kxq-yoxqyr-gwvn	2011-08-15	장군님 절 괴롭혀주세

@@ -1,0 +1,302 @@
+program_id	author_id	type	post_id	comment_id	publish_date	terms
+sbs_newsunday	parkzien	POST	pym00gh-_a9_5		2011-08-20	아오 tagsmile 런닝맨 쇼크먹음 다음주도 다음주 자연누나 자연누 나오게지하고잇는뎋 tagsmile
+sbs_newsunday	parkzien	POST	pym00jx-_a9_5		2011-08-20	닉넴 지연누나 지연누 생일 트위터 잘 비쥬얼마전 가입했데 음중 잘봄 런닝맨 런닝맨도 tagsmile 밤 사라지는거대박
+sbs_newsunday	tbh06132	POST	pym03im-7zbo		2011-08-18	할룽 tagexclamation 런닝맨 공식팬카페 가입어떻게함tagquestion 어디임tagquestion tagsmile
+sbs_newsunday	zai	POST	pym04yd-c97		2011-08-18	닉쿤이 런닝맨 런닝맨을 찍다 수상시장tagquestion 노노 tagsmile 동자이 동자이가 가족사진 찍다 수상시장 뉘쿤이 중요해요tagquestion tagsmile
+sbs_newsunday	sks03070	POST	pym06se-5yhj_		2011-08-20	홍보
+sbs_newsunday	jsdian	POST	pym0brm-_qty4		2011-08-19	북서울 꿈 숲 런닝맨 런닝맨에 나오다 이번 이번엔 옵아트 옵아트의 거장 크루즈 디에즈 디에즈의 색 빛 체험전하네 설출장갈때 가봐야쥐 tagsmile
+sbs_newsunday	happykrispyy	POST	pym0ew4-_q7cp		2011-08-19	우리 런닝맨 팀 tagsmile
+sbs_newsunday	cnsekf	POST	pym0fki-55r32		2011-08-20	런닝맨 차태현 긴 기다 치마 치다 짙다 짙 색조화장 놀랍다 분장 감탄
+sbs_newsunday	xornjsrhdwn1	POST	pym0g68-_m1mw		2011-08-18	내일 내 런닝맨 끝나다 노량진 ㄱㄱtagquestion ㄱㄱtagquestion나 내일 내 풀 tagsmile
+sbs_newsunday	lwmeeee	POST	pym0g6f-_guq3		2011-08-19	햇살 너무너무 눈 부시다 오오오오오 tagexclamation 이번 주 일요일 일요 런닝맨 만나다 tagsmile 진짜 달리다 달리 또 달렸답니다 tagexclamation tagsmile
+sbs_newsunday	wjsgpdms1	POST	pym0hww-5fqwu		2011-08-18	지난주 런닝맨 보다 보 배꼽잡고 웃고있었는데 양정아 양정아의 어이없다 반칙 기분 상 제작진 그걸 또 우승 눈감다 눈감아주다 ㅡ ㅡ
+sbs_newsunday	u80yi	POST	pym0ikv-548pw		2011-08-19	안녕하세요tagquestion드라마 보스 지켜리 랑 런닝맨 의 주재 보스 지키다 나오셨잖아요 tagexclamation 친구수락 해 하다 주셔서 감사 행복한하루 tagexclamation 친구소개 actorjisung
+sbs_newsunday	xornjsrhdwn1	POST	pym0ilo-_m1mw		2011-08-18	런닝맨 재료 사다 사르다 누구누구 간거야tagquestion
+sbs_newsunday	ch5470	POST	pym0jhn-ywnj5		2011-08-20	한국만화박물관 발도장 tagexclamation 한국만화박물관 다녀오다 tagexclamation 런닝맨 런닝맨에 나왔던곳 짱 좋았당 tagexclamation 문제두 풀다 tagexclamation via 아임in
+sbs_newsunday	pbk0356	POST	pym10ev-5uz2z		2011-08-20	투표할게염 런닝맨vs남자 자격
+sbs_newsunday	star__14	POST	pym15bq-_c3__		2011-08-19	박 일 종영 이거 뭡니까 tagcry 잘보고있었는데 키앤크 키앤크같 단편 아니다 아니 왜 외다 벌쓰다 종영 하다 tagsmile tagquestion 강호동 나영석 tagcry 왜 외다 하차어쩌고저쩌고 얘기꺼 얘기꺼내서 tagsmile 하 하다 이제 런닝맨 무도빼 무도빼고 볼게
+sbs_newsunday	fx_sulli	POST	pym1jkb-5_vlg		2011-08-20	언니 이쁘다 언니 런닝맨때 이뻤어요tagsmile
+sbs_newsunday	dlwngus0602	POST	pym1vqu-y5q_d		2011-08-20	박 일 전격폐지 개월 후 멤버 전원 동반 하차 결정 앜 tagsmile 끝나는건 아쉽다 끝나다 런닝맨 봐야할듯 봐야할듯하네 tagcry mbn
+sbs_newsunday	meyujin	POST	pym1zx6-_tc78		2011-08-20	일요일 키스앤크라이tagquestion런닝맨 인기가요 tagexclamation 개그콘서트 tagexclamation 동물농장 tagexclamation 참많다 tagexclamation 다볼꺼 다볼꺼야
+sbs_newsunday	abluedahlia	POST	pym30hs-5knuh		2011-08-18	런닝맨 런닝맨과 함 한글놀이 tagsmile
+sbs_newsunday	yna	POST	pym3b1v-z1ou		2011-08-18	방송 다이어트 몸 인생 바꾸다 이번 이번엔 다이어트 서바이벌 등장 sbs 일 첫 선 보 보이 일요일 좋다 속 새 새다 코너 다이어트 서바이벌 빅토리 늘다 명의 명 도전자 몸짱 으 으로 거듭나다 과정 소개
+sbs_newsunday	northfaceone	POST	pym3b_w-5nq6m		2011-08-18	런닝맨 노스페이스 텔러스 백팩
+sbs_newsunday	ssj0991	POST	pym3fa4-_g1o4		2011-08-20	박 일 끝나다 말다 신경안씀 tagsmile 어차피 런닝맨 보다 tagsmile
+sbs_newsunday	lryekn	POST	pym3i49-_ic8w		2011-08-18	tagsmile 런닝맨다시보구 있다 tagsmile 완전 웃기다
+sbs_newsunday	heoeun2004	POST	pym3ilo-oelg		2011-08-20	최강창민vs김종국 런닝맨 tagsmile 앜 tagsmile 창민오빠 tagsmile
+sbs_newsunday	yousongyee	POST	pym3j8m-jlln		2011-08-18	욕설 논란 논다 런닝맨 타예능 타예능과 다르다 이유 런닝맨 런닝맨이 누구때문 아직 살아있다 홧 홧인 시키다 싶다 tv리포트
+sbs_newsunday	dw1121dw	POST	pym3k08-4un3		2011-08-18	개리가너무좋다 tagcry 런닝맨최고다개리를발견 tagexclamation
+sbs_newsunday	yds06064	POST	pym3ly1-y3rqu		2011-08-18	정재형 이적 존박 라디오스타 회 특집 기대 tagexclamation 모두모두 본방사수 tagexclamation 그전 이번주 무한도전 런닝맨 런닝맨도 본방사수 tagexclamation
+sbs_newsunday	end04112	POST	pym3nb6-5mdd3		2011-08-18	런닝맨 맴버 명
+sbs_newsunday	shineegg	POST	pym3omf-um1m		2011-08-18	런닝맨룬설나온편 번째보는중 tagsmile 계속봐도안질려 tagsmile 빅송미안 tagsmile 너나온편 너나온편은 번밖에안봤어 런닝맨sm특집갑시 런닝맨sm특집갑시다 tagsmile 촬영장소도sm본사에서막뛰어다니
+sbs_newsunday	t-ara812	POST	pym3swp-y4qly		2011-08-20	런닝맨 지연언니 이뿌게 봤어요tagsmile
+sbs_newsunday	hswgod2000	POST	pym3t49-hwpq		2011-08-20	점심 맛나게드세 맛나게드세요 tagsmile 저 이미 흡수햇슴 tagsmile 아근데 박 일 개월뒤에끝난다네 개월뒤에끝난다네요 아쉽다 tagcry 이제 나가수 나가수나 봐야징 런닝맨 런닝맨이 tagcry
+sbs_newsunday	junghj68	POST	pym3tf7-t_fk		2011-08-20	결국 폐지 되는군 되는군요 주말 허전할줄 알다 알았으 이젠 런닝맨 보다 되다 호호호 참 간사 시청자
+sbs_newsunday	0517rinda	POST	pym3vpz-5agv6		2011-08-18	런닝맨보는사람미투 런닝맨 나 보는건가tagquestion
+sbs_newsunday	usb64	POST	pym3wkq-_qd8e		2011-08-18	런닝맨 tagsmile tagsmile
+sbs_newsunday	kasj4885	POST	pym3wxy-_1r88		2011-08-18	나지금 미투디 미투디에 tagexclamation tagsmile tagsmile tagsmile 런닝맨 다음주 뭘까요tagquestion 궁금하당 tagexclamation tagsmile
+sbs_newsunday	jinn0128	POST	pym5187-__gaz		2011-08-16	지난주 런닝맨 촬영한거 보다 너무재미있었넹tagsmile
+sbs_newsunday	ijackong	POST	pym52dl-5ccpk		2011-08-19	호가든 호가든을 노천 마시다 싶다 지금 tagexclamation 날씨 캡숑 좋다 tagexclamation ㅁ 일요일 여행가는 tagsmile
+sbs_newsunday	sepist	POST	pym52rw-_sbqf		2011-08-18	까르띠 까르띠에 넥타이 넥타 그리다 tv 싸다 구매하는방법 새롭다 추첨경매 시 런닝맨 현장르포동
+sbs_newsunday	1evergreen	POST	pym5302-7aaw		2011-08-18	원문 tistory가수 채린 채린도 다녀가다 런닝맨 런닝맨도 촬영 이곳 이곳엔 특별 있다 만화 박물관 어제 포스팅 포스팅에 이은 만화규장각 tagsmile 어제 포스팅 포스팅을 보실분 보실분은 클릭 아이들 아이들보 웹
+sbs_newsunday	1evergreen	POST	pym539t-7aaw		2011-08-18	가수 채린 채린도 다녀가다 런닝맨 런닝맨도 촬영 이곳 이곳엔 특별 있다 만화 박물관 웹
+sbs_newsunday	rhwnsqoddl12	POST	pym54z6-5y5n5		2011-08-18	런닝맨이좋으면미투 박 일이좋으면글
+sbs_newsunday	pepero0315	POST	pym55ak-ytsha		2011-08-16	런닝맨 런닝맨은 맵다 즐겁다 암 몰랑 런닝맨 짱 짱이
+sbs_newsunday	bjo1107	POST	pym56ti-5tmvi		2011-08-16	런닝맨 최고 월요컾최곻 tagsmile 윤소 윤소이 완전시름 개리쒸 개리쒸는 월요일빆에 화요여친 필요 tagsmile
+sbs_newsunday	hyejin5591	POST	pym5d30-yeh4n		2011-08-16	런닝맨 중 누 누가 제일 제 좋앜 tagsmile 개다
+sbs_newsunday	wltn0730	POST	pym5fvt-y896w		2011-08-16	지금 계백 은고 은고가 송지효 송지효로 변신 그리다 초영 초영은 티아 티아라 효민 효민으 송지효 런닝맨 런닝맨이 다르다 완전 신들리다 연기 tagexclamation 대박 tagexclamation 총명 점잖은거같애 tagsmile
+sbs_newsunday	uumail	POST	pym5gpt-y27mr		2011-08-19	런닝맨 유재석 신세경 보통내기 아니다 아니 감탄
+sbs_newsunday	leejoowen	POST	pym5i8l-_yy75		2011-08-16	런닝맨 tagexclamation 요즘 시간이빡빡해서 많다 못봤엉 tagcry tagcry
+sbs_newsunday	2pmjunsu115	POST	pym5if9-58nov		2011-08-19	이번주 런닝맨 게스트 신세경뿐이야tagquestion
+sbs_newsunday	_0202-	POST	pym5oqd-_hymv		2011-08-16	앞 친하다 지내요tagsmile 다들 런닝맨 대세 에이스 지효인것 몰랏 tagquestion tagexclamation tagsmile
+sbs_newsunday	qlsdl714	POST	pym5p56-_cw36		2011-08-16	어제 런닝맨 tagsmile 보
+sbs_newsunday	insos02	POST	pym5pks-_8lnw		2011-08-16	런닝맨 무료다시보기 런닝맨 무료다시보기
+sbs_newsunday	gdgd4344	POST	pym5r4c-yhxjj		2011-08-19	지금 런닝맨보는중 tagexclamation 재방송 이지 이지만 tagsmile 설다 루 루나 수지 나오다 tagsmile
+sbs_newsunday	minseo0308	POST	pym5tdz-wne0		2011-08-18	런닝맨예 런닝맨예고 빨리나와 빨리나와라
+sbs_newsunday	syj_1004_	POST	pym5wvg-5xglm		2011-08-19	이번주런닝맨에신세경나오나보네 tagsmile
+sbs_newsunday	jhjh2328	POST	pym6285-y04ig		2011-08-20	역시 런닝맨 런닝맨이 짱 짱임
+sbs_newsunday	rladpwls0812	POST	pym62i5-_qdcr		2011-08-19	런닝맨 본사람 tagexclamation 지요니나왔는데 tagexclamation 안봤어요tagquestion 지요니 지요니가 눈 띄 띄여 tagexclamation 다른사람볼려고 눈 밟히다 ㅇ
+sbs_newsunday	mikael_angel	POST	pym62rr-5fzyf		2011-08-17	지금 런닝맨 다운중 tagexclamation 걸그룹 스페셜 tagexclamation 저 다르다 사람 사다 다 필요 필 없다 지연 누나 누다 누 때문 때문에 받는거 ㅇㅅㅇ 지연누나 제일 제 좋다 ㅅ
+sbs_newsunday	pulppang2	POST	pym634g-5bbxl		2011-08-17	일요일이좋다 e 런닝 매다 짝꿍 레이스 타다 hdtv xvid hanrel avi 애플파 애플파일 무료다운로드
+sbs_newsunday	insos02	POST	pym63ml-_8lnw		2011-08-17	런닝맨 무료다시보기 런닝맨 무료다시보기
+sbs_newsunday	stargirl8615	POST	pym6868-y2wx1		2011-08-20	내 런닝맨 런닝맨의 지효언니 미투친구 되다 tagexclamation 정말 기쁘다
+sbs_newsunday	gw12bini	POST	pym69p7-2e9g		2011-08-17	나영석 pd 떠나다 강호동 떠나다 박 일 안볼랜다 주축 떠나다 프로그램 무너지다 거 거다 모르나tagquestion 참 차다 책임감 지금 런닝맨 런닝맨하 박 일 보다 아예 싹 sbs 볼란다 런닝맨 키앤크 보다 키앤크 좋더 좋더만 시즌 도 하다 하더 하더만 나영석 강호동 박 일 하차 런닝맨 sbs 김연아의키스앤크라 키앤크
+sbs_newsunday	chelly8783	POST	pym6bdf-_san3		2011-08-17	아 런닝맨이제 좀 조다 질리다 tagcry
+sbs_newsunday	audgml296	POST	pym6bov-y2lc_		2011-08-20	런닝맨 내일 어떨까염tagquestion 저번 수지언니 귀여웠쪄요 tagsmile 글구 루나언니 진짜 소녀 tagsmile 많다 런닝맨 홧팅 홧팅요
+sbs_newsunday	einxh	POST	pym6bp6-y2we7		2011-08-17	원문 einxh제주 놀러가다 얻어걸리다 런닝맨 jpg 오늘 유머 오늘의유머 베스트 베오베 웃다 웃기다 자료 사진 사다 오유 저장소 오유저장소 todayhumor ou storage store 최대 게스트 게스트는 안 웹
+sbs_newsunday	egao970	POST	pym6bq5-5k6g		2011-08-17	런닝맨 보다 보 중 역시 안 알다 보다 보 중간 보는건 나에겐 안되다 힘들다
+sbs_newsunday	codus1137	POST	pym6frs-yiggu		2011-08-17	런닝맨 짝꿍편 재미 반전 지연이언니 스케줄 먼저갔다고 하더군요tagsmile우리모두 런닝맨 런닝맨을 홧팅 tagexclamation 티아라홧팅 tagexclamation 아이유 언니홧팅 tagexclamation 일요일 재미 날 나다 입니 입니다 수지언니 루나언니 지연 언니 지효언니 설리언니 모두 수고 수 하다 다음주 기대
+sbs_newsunday	min2739	POST	pym6fvh-yvtec		2011-08-20	박 일 전격폐지 개월 후 멤버 전원 동반 하차 결정 런닝맨봐 런닝맨봐요 tagsmile 죄송함다 mbn
+sbs_newsunday	jisuchi1001	POST	pym6i3o-5gfrj		2011-08-17	런닝맨보는사람tagquestion 나완전팬 나완전팬이 tagsmile 유재석아저씨월요커플광바타뽀로 tagsmile
+sbs_newsunday	22uj	POST	pym6jpm-5uk1w		2011-08-19	런닝맨 완죤 팬 패다 tagexclamation 님들 님들은 어떤 프로 레알 팬tagquestion tagsmile
+sbs_newsunday	lwmeeee	POST	pym6nts-_qtdx		2011-08-19	학 이번주 이번주에 런닝맨tagquestion 본방사수
+sbs_newsunday	zxo2900	POST	pym6pix-a86e		2011-08-20	런닝맨 회
+sbs_newsunday	0828hje	POST	pym6ui8-_q2_b		2011-08-19	세경언니 런닝맨에나와요tagquestion꼭볼꼐 런닝맨에나와요tagquestion꼭볼꼐요
+sbs_newsunday	imhyerin	POST	pym6vf1-5dv8a		2011-08-19	런닝맨보 런닝맨보며 숙제중 tagsmile 왁 tagexclamation 잼땈 tagsmile 용화 용화의 역방향 vs
+sbs_newsunday	ia07119	POST	pym6wqc-alrq		2011-08-20	박 일 개월후 종영 지금 보다 보 프로그램 아니다 재밌었는데 개월후 전세 런닝맨에게tagquestion 제주 해수욕장 상어 출연 tagexclamation 아 돼박 tagexclamation 난 나다 날다 지금 티비 티비를 보다 수명 주다 줄다 기사 읽다 티비 티비를 안 알다 보다 애 쓰는중 박 일 개월후종영 제주도해수욕장상어출연
+sbs_newsunday	ektns548	POST	pym6_os-554cd		2011-08-17	아 tagsmile tagsmile 런닝맨 김종국 웃기다 tagsmile 그거 턱잡느거 턱잡느거보 웃음 웃다 터지다 tagsmile
+sbs_newsunday	mangjoo3	POST	pymb32x-5zts7		2011-08-19	tagsmile 런닝맨 재방보다 tagsmile 울 울다 런닝맨 퐈이팅 퐈이팅이 taglove 네이버카페 걷지말고뛰어 걷지말고뛰어라 tagexclamation 런닝맨 공식 팬카페
+sbs_newsunday	gjqm87	POST	pymb5gn-yd2x9		2011-08-19	차앤박선블록런닝맨선크림 월요커플선크림 차앤박선크림
+sbs_newsunday	insos02	POST	pymb6au-_8lnw		2011-08-19	런닝맨 무료다시보기 런닝맨 무료다시보기
+sbs_newsunday	t-ara812	POST	pymb6s6-_iz9w		2011-08-19	우리지연 런닝맨 찰영 후 잊지못 잊지못할 추억 간직 있다
+sbs_newsunday	t-ara812	POST	pymb6wz-_iz9w		2011-08-19	여러분 죄송 많다 스케줄 때문 때문에 tagexclamation 늦다 올리다 tagexclamation 아참 tagexclamation 런닝맨 보셨어요tagquestion우리 지연 런닝맨 나가다 tagsmile 많다 보다 믿을게용 taglove
+sbs_newsunday	nrds	POST	pymb9c6-__j7k		2011-08-19	런닝맨 중 누 누가 제일 제 좋앜 tagsmile 없다 어쩌까 잼써서 보다
+sbs_newsunday	jjonny	POST	pymbhdl-3uzv		2011-08-19	금 런닝맨 준비끝 tagexclamation 오늘 두시 훈련 tagexclamation 사진찍는데 옆 난리
+sbs_newsunday	jsdian	POST	pymbhxp-_qty4		2011-08-20	런닝맨 런닝맨에 나오다 북서울 꿈 숲 이번 이번엔 옵아트 옵아트의 거장 크루즈 디에즈 디에즈의 색 빛 체험전하네 tagsmile
+sbs_newsunday	ldj4601	POST	pymbiqf-vlha		2011-08-20	박 일 종영 tagcry 이제 일욜 런닝맨 말다 멀봐야하노tagquestion
+sbs_newsunday	jsdian	POST	pymbmp3-_qty4		2011-08-20	북서울 꿈 숲 런닝맨 런닝맨에 나오다 이번 이번엔 옵아트 옵아트의 거장 크루즈 디에즈 디에즈의 색 빛 체험전하네
+sbs_newsunday	sonyj12	POST	pymboe5-noh1		2011-08-19	tagsmile 지금 런닝맨 보고 보다 보 있다
+sbs_newsunday	gold070	POST	pymbozs-yqbb_		2011-08-19	나도 나다 나 tv 출연 싶다 그것 런닝맨 런닝맨에 tagsmile 넘 크다 꿈 가지다
+sbs_newsunday	johncjswo	POST	pymbuka-_cydq		2011-08-20	안되다 tagexclamation 박 일 개월 후 전원 하차 이제 종영 하다 tagcry 어떻다 tagexclamation tagsmile 흑흑 tagsmile 음 런닝맨 런닝맨이 봐야겠어 tagsmile
+sbs_newsunday	kun707	POST	pymbulh-y2uoi		2011-08-19	박 일 팬 결국 페지 tagcry 런닝맨 런닝맨으 갈아탈까tagquestion
+sbs_newsunday	wnsgudm2day	POST	pymbwum-_sucu		2011-08-19	왜 외다 런닝맨 멤버 다 닉체해tagquestion 기억 어렵자 어렵자나 박시언빠 윤꼬렛
+sbs_newsunday	kasj4885	POST	pymbxi6-_1r88		2011-08-20	런닝맨런닝맨런닝맨런닝맨 tagexclamation
+sbs_newsunday	hjk2975	POST	pymbz8s-yst85		2011-08-20	어제 런닝맨 촬영했던곳 같다왔어 같다왔어요 사진 실제 보았어
+sbs_newsunday	hck20803	POST	pymd02_-5t54n		2011-08-15	런닝맨출연진 대부분 매너손 김종국 김종국만 매너손한것 다들 글을쓰시네 출처김종국 매너손 역시 능력자 천지일보 t토크 ttalk
+sbs_newsunday	suzybymissa	POST	pymd1v8-ylrrz		2011-08-15	광복절 태극기 다셨죠tagquestion 런닝맨 넘 재미있었어요 우승 축하드려용
+sbs_newsunday	dd34125	POST	pymd3ow-yasr4		2011-08-15	일요일 키스앤크라이 최종우승자 크리스탈이동훈 커플 우승 tagexclamation 예 tagexclamation 완전좋다
+sbs_newsunday	stopup07	POST	pymd59z-qriy		2011-08-15	지하철 핸드폰에넣어온 런닝맨보 런닝맨보다 웃기다 엎드려절할기세 근데 커플인데 앉고싶으면 다른칸으로꺼질것 다른칸으로꺼질것이지 왜 옆으로가라고눈치줌tagquestion 어이똥때리네
+sbs_newsunday	ashley3355	POST	pymd5i8-_pyib		2011-08-15	일요일 보고 보다 보 싶다 tv프로그램 많다 런닝맨 나가수 키앤크 박 일 개콘 다 싶어 싶다 tagexclamation
+sbs_newsunday	gfds0807	POST	pymd7vs-n4az		2011-08-15	코오롱 스포츠 런닝맨 아이돌여가수분들나왔던 편 얻다 아이디어인데요tagsmile음식값 만보기한거 그것 재밌을것 같아요간식 가 가다 kolonsport
+sbs_newsunday	sonicnke	POST	pymd8nl-_qcng		2011-08-15	헐 대 바악 주차장 차엄청많고 연예인차 뭔가 오다 오 어둡다 잘못봤는데 신세경같은사람 스태프인줄알고 인사 아닌거알고웃고 아빠 김종국 김종국하 차태현봤데ㄷㄷ그리고 사촌형 엘베타 엘베타고 오다 김종국 김종국같 김종국같은 사람 엘베피 엘베피해서 탔데ㄷㄷ어쩌면 런닝맨제주도ㄷㄷ
+sbs_newsunday	hayoun982	POST	pymd91t-_0ohx		2011-08-15	tagsmile 런닝맨 런닝맨이 땡긴다 tagsmile
+sbs_newsunday	sibwon10	POST	pymdads-5_faa		2011-08-17	런닝맨 경주편 나오다 경주타워 엑스포공원 있다
+sbs_newsunday	hodo782	POST	pymdavn-5wnc8		2011-08-17	런닝맨 보는분 미투바람 월요커플 taglove
+sbs_newsunday	zozx12	POST	pymdeg1-razl		2011-08-15	tagsmile 난둘다 이어서 tagsmile 어제 런닝맨 재밌었음 ㅇ tagsmile
+sbs_newsunday	webhosting	POST	pymdfu4-4_ac		2011-08-15	원문 이동훈 크리스탈 이동훈 키앤크 최종 우승 김연 김연아 극찬 이동훈 커플 키스앤크라 에서 최종우승 일 방송 sbs 일요일 좋다 김연아 김연아의 키스앤크라 에서 크리스탈 이동훈 커플 총점 중 한 하다 장면 연기 크리스탈 웹
+sbs_newsunday	wwww-12	POST	pymdhpz-_ii6m		2011-08-18	송지효 런닝걸 tagquestion tagsmile
+sbs_newsunday	thx-s	POST	pymdhv4-58xxc		2011-08-16	주전 런닝맨 우리집쫃에거촬영 대박 tagsmile 아신기 아신기해
+sbs_newsunday	sportskhan	POST	pymdkh2-ymvvx		2011-08-15	키스앤크라 크리스탈 팀 최종 우승 tagexclamation 장정 마무리 그룹 에프엑스 멤버 크리스탈 크리스탈과 피겨 스케이팅 선수 이동훈 커플 sbs 일요일 좋다 김연아 김연아의 키스 앤 크라 크라이 에서 최종 우승 스포츠경향
+sbs_newsunday	sepist	POST	pymdnd3-_sbqf		2011-08-17	디올 썬크림 냉장고 싸다 사는방법 신개념 쇼핑몰 시 테일즈런너 런닝맨
+sbs_newsunday	hw7666	POST	pymdowu-_qfd8		2011-08-18	수지언니 저번주 런닝맨 런닝맨에 나오다
+sbs_newsunday	sepist	POST	pymdryy-_sbqf		2011-08-17	마에스트 마에스트로 남방 tv 천원 구매하는방법 신개념 소셜커머스 시 일요일이좋다 공
+sbs_newsunday	dptmf933	POST	pymdsm5-yee4c		2011-08-17	담주런닝맨 담주런닝맨에 힙합하시는분나올걸 jk 쌈디또누구나오던데
+sbs_newsunday	kasj4885	POST	pyme3kg-_1r88		2011-08-19	런닝맨
+sbs_newsunday	yoonji_lisa	POST	pyme4kb-ybur1		2011-08-19	런닝맨
+sbs_newsunday	kimssi262	POST	pyme9if-__7br		2011-08-19	yu gyeong 다듀 런닝맨 언제나오징tagquestion담주인가tagquestion이번주늡 신세경 나온다는뎅 tagcry
+sbs_newsunday	spastar7	POST	pymeaaw-5x8tg		2011-08-19	신세경 런닝맨 이광수 이광수와 애매 관계 신세경 런닝맨 이광수 이광수와 애매 관계 왜tagquestion 궁금궁금
+sbs_newsunday	spastar7	POST	pymears-5x8tg		2011-08-19	신세경 차태현 런닝맨 출격 신세경 차태현 런닝맨 출격 신세경 보통내기 아니다 아니
+sbs_newsunday	shineegg	POST	pymee73-um1m		2011-08-19	런닝맨룬썰나온거 번째보는중 tagsmile 우리버클은런닝맨안나오냐 tagexclamation 엠버는강심장도제발좀나오자 tagexclamation 루나는불후의명곡언제나오냐 월에나온다 월에나온다며 tagexclamation
+sbs_newsunday	beep94	POST	pymehc4-yions		2011-08-19	그다음 그다음은 도서부 하다 하 런닝맨 런닝맨에 참여햇지
+sbs_newsunday	rkalsgus	POST	pymeipr-5q6k0		2011-08-19	역시 런닝맨 런닝맨은 같이봐 같이봐야 제맛 tagexclamation 곤지암
+sbs_newsunday	insos02	POST	pymemst-_8lnw		2011-08-19	런닝맨 무료다시보기 런닝맨 무료다시보기
+sbs_newsunday	sym0379	POST	pymemu5-yuva		2011-08-19	거의 거 년동안 사실 제가 제 좋아하다 무한도전 유일 적수 박 일 공식 폐지소식 전달 웃다 웃음 많다 주다 줄다 준 욕 많다 먹고 탈 많다 프로그램 런닝맨끝 런닝맨끝나 런닝맨끝나고 유일 볼 프로 아쉽다
+sbs_newsunday	mn471	POST	pymendo-56b_0		2011-08-19	지연 언니보니깐 우울 tagcry 요즘 tv 잘 자다 나오다 않다 최근 런닝맨 한번 슬프다 tagcry ㅂ tagcry
+sbs_newsunday	jjominlove	POST	pymesci-5r2st		2011-08-19	런닝맨 좋아하다 분 미투 쿡쿡 tagexclamation
+sbs_newsunday	rhdwn0430	POST	pyme_8s-5cme1		2011-08-18	루나언니 tagexclamation 런닝맨 녹화 떨리다 않았어요tagquestion
+sbs_newsunday	onewaterdrop	POST	pymjegk-_jsy8		2011-08-20	꽃 선물 참 차다 좋다 이상 꽃 선물 토요일 받다 경우 많다 일요일 일요 쉬다 쉬 카렌 카렌에 두다 두 오다 되다 서운해 하다 오늘 처음 집 가져오다 나도 나다 나 내 내다 방 꽃 놓다 싶어 싶다
+sbs_newsunday	ultrado21	POST	pymk23_-yoxfg		2011-08-17	오늘 드디어 방학다운 방학 지냇어 지냇어요 tagexclamation tagsmile 얼마전 런닝맨 촬영지 블루원 블루원에 갔다오다 tagexclamation 진짜진짜 재미 하루였습니당 블루원 짱 tagexclamation
+sbs_newsunday	hmlily	POST	pymk2yh-csuf		2011-08-19	wow 신세경이 런닝맨 나온대용 taglove 신세경이 런닝맨 모두 광팬이얌 taglove 아 완전 기대기대 taglove 이틀 빨룽 지나가라앗 tagexclamation
+sbs_newsunday	wyoung_lee	POST	pymkbbt-91y5		2011-08-20	나가수 회식 음 최후 만찬 tagcry tagsmile 아 내다 나가수 나가수하는데 봐야 봐야되는데 개다 나오다 런닝맨 런닝맨도 봐야 봐야되는데 개다 너무너무 중요 tagcry 행복 고민 tagcry
+sbs_newsunday	kdy32211	POST	pymkbty-5oet7		2011-08-17	조군 조군의 모바 모바일 지지자 지지다 클릭 tagexclamation tagsmile 런닝맨 재방 재미 tagsmile me supporterformobile
+sbs_newsunday	jyj6658	POST	pymkj2u-5oe54		2011-08-17	런닝맨 여고생 특집 월 일 토도우
+sbs_newsunday	bis_nakake	POST	pymkkrz-5veis		2011-08-18	드라마 bgm듣는것 bgm듣는것도 말이죠 재밋다 재밋다는 뭔가 노래 상황연출 쓰이는거 쓰이는거라 그런지 분위기 느낄수 있다 좋다 tv 부분 틀어주는거 끼다 맞추다 tagsmile 특 야마다군 야마다군의 좌목 좌목은 뭔가 몽롱tagquestion 신비 이런거 좋다 tagsmile 이케파 이케파라 느끼다 느낌 다양 느끼다 한국 쓰든뎁 tagsmile 고쿠센 tagsmile 이건 진짜 tagsmile 런닝맨 스타킹 나오다 양쿠미 등장bgm tagsmile
+sbs_newsunday	too-day	POST	pymkmlc-u0ak		2011-08-20	신세경 런닝맨 출격 보통내기 아니다 아니 노컷뉴스 노컷뉴스
+sbs_newsunday	fx_sulli	POST	pymkmnw-5vf8j		2011-08-19	런닝맨 되다 재미있엇어 넘넘
+sbs_newsunday	ck62166	POST	pymkph2-_jzhj		2011-08-17	핑피 가 가다 뭔지 알다 아시 핑피 알다 싶다 제 미투 확인 확 하삼 tagsmile 근데 tagsmile 핑피 핑피는 울아빠 울아빠의 티셔츠 색깔 핑크피그 tagsmile 분홍 돼지 tagsmile 이제 런닝닝셔츠 입다 엄마 이젠 런닝맨 런닝맨이 런닝맨이라 불러 tagsmile
+sbs_newsunday	krnjs1119	POST	pymkx14-v4qm		2011-08-18	tagcry 월요일날중앙로에놀러갔는뎁 에이지플러스쪽에있었는데 동문시장에런닝맨이방송 tagcry 절망 tagexclamation 알았으면가는건데 다놀고집에와서알았으니 tagcry 짜증 tagexclamation 연예인보나 tagcry
+sbs_newsunday	kimyejin0227	POST	pymkxim-y0vy7		2011-08-18	런닝맨 송지효 taglove 개다 이두명 이두명이 좋다 tagexclamation 둘 둘이 결혼 tagquestion tagsmile
+sbs_newsunday	jfkusa	POST	pymkxn3-n_5s		2011-08-19	런닝맨보 런닝맨보다 김종국님 거의 거 무적 다르다 런닝맨 보호 위해 위하다 김종국님 kg 짜다 아대 아대를 양 발목 차다 해야 해야하지 않다 하다 하 생각 들다 김종국님 김종국님에게 운동 될거 같다 좋을듯
+sbs_newsunday	dacho1199	POST	pymkz98-_qzob		2011-08-17	생각 이닉넴 개리쒸 개리쒸에서 시작됬는데 내 개리씌 개리씌라 보다 시크지용씌 시크지용씌가 됬음 tagsmile 이젠 시크지용씨 tagsmile 런닝맨효과 gd gd야 tagexclamation
+sbs_newsunday	moonsay8	POST	pymk_hw-yrudj		2011-08-20	가족여행을마 집 돌아오는길 tagexclamation 내일 일요일이란게 넘좋다 tagexclamation
+sbs_newsunday	kimjs7899	POST	pymy5kp-sjfe		2011-08-16	피곤해죽겠슴돠 tagexclamation 난 나다 날다 런닝맨 월요커플이좋더 tagexclamation 개리쒸 taglove 에이스지효 안경 삐뚤어쓰 삐뚤어쓰고 잠 자다 오다 tagsmile
+sbs_newsunday	fndlzk	POST	pymyap2-_cko4		2011-08-16	오늘 어제일요일 런닝맨 런닝맨이 궁금 판도라 판도라를 통하다 분씩 편을연속으로틀며 tagcry
+sbs_newsunday	dubilove	POST	pymyb8x-7k4t		2011-08-16	런닝맨아직도제주도에잇다네영 tagexclamation 시외에잇대영 tagexclamation
+sbs_newsunday	yjkang0616	POST	pymybh_-_37bk		2011-08-15	지연언니 수지언니나온 런닝맨 본사람 미투 전 절다 봄 보다
+sbs_newsunday	insos02	POST	pymyd1i-_8lnw		2011-08-16	런닝맨 무료다시보기 런닝맨 무료다시보기
+sbs_newsunday	chfus923	POST	pymyeit-5y34y		2011-08-15	tagsmile 김종국 광수한테 턱잡혔어 tagsmile 잘됐따 tagexclamation 어제 편 펴다 재미있었어 런닝맨 본사람 미투미퉄 tagsmile
+sbs_newsunday	bos231	POST	pymyl81-mpxv		2011-08-16	tagsmile 야 역시 런닝맨 스포질 한번 뿌리다 어제 녹화한거 동영 동영상으 직캠 보다 게스트 게스트가 차태현 차태현과 신세경이라하네 차태현님 차태현님은 능력자 에이스 한팀 신세경씨 유르스윌리스 광바타 광바타와 한팀 그리다 나머지 왕코형님 아이둘 tagsmile
+sbs_newsunday	csk990605	POST	pymylru-yzcrw		2011-08-16	런닝맨 d tagexclamation
+sbs_newsunday	hotvideo	POST	pymyma0-uy8		2011-08-15	런닝맨 안문숙 김숙 신봉선 양정 양정아 회 동영 런닝맨 안문숙 김숙 신봉선 양정 양정아 회 동영
+sbs_newsunday	actorjisung	POST	pymyorh-_5awe		2011-08-18	올 태양을삼켜 김수 김수로 로얄패밀리 보스를지켜 런닝맨 힐링캠프 오래된잡지책 오래된인터넷기사 당신이라는사람은얼마나한결같은지요ㅡ오래된종이냄새가날것 당신이라는사람은얼마나한결같은지요ㅡ오래된종이냄새가날것같네 당신이라는사람은얼마나한결같은지요ㅡ오래된종이냄새가날것같네요 늘다 그렇게변함없이우리곁에계셔주시길 감사 당신
+sbs_newsunday	flsk007	POST	pymys3m-yansz		2011-08-16	리쌍 tagexclamation 역시 노래 tagsmile 처음 런닝맨봤을때 개리 개리가 누군지 몰랐는뎀 tagsmile 알고보 알고보니 내엠피 내엠피에 곡인가있었더래지 나도 나다 나 tv를껏네 발레리노 광대 다조아 조정가도 조다 taglove ㅂㅇ tagexclamation
+sbs_newsunday	tkfkddl0424	POST	pymytso-w0rh		2011-08-16	mbc 금 댄싱 위드 스타 mbc 토 세바퀴 kbs 일 박 일 sbs 일 김연아 김연아의 kiss cry sbs 일 런닝맨 내 보다 보 예능프로그램 이어서
+sbs_newsunday	ciao82	POST	pymyuc0-bii7		2011-08-15	갖다 싶다 이남자 무한도전 런닝맨 연합 하다 재밌겠는데 갖고싶 갖고싶은 남자 남다 강개리
+sbs_newsunday	kbg0096	POST	pymyvw3-yt8io		2011-08-18	오늘 해피투게더 박보영 나오다 보고싶은데 몸 천근만근 tagcry ㅡ 다운 받다 보다 tagsmile 저저번주꺼 런닝맨 런닝맨도 보다 되다 해피투게더 해피투게더는 또 언제 보다
+sbs_newsunday	gpdls0106	POST	pymywxz-mv46		2011-08-18	아진짜나예전에런닝맨 송송커플 완전 좋아하다 송중기 하차 끝 월요커플 남다 개다 뭠니까 변심이야tagquestion예전에송송커플있을땐 송지효 송지효만 좋아가지 송송커플방해해놓고 송중기 하차 예전 하다 하지 않다 아짜증 tagexclamation
+sbs_newsunday	sunnykim4711	POST	pym_771-yije_		2011-08-17	런닝맨 이번주 뭐 모르다 tagexclamation 게스트 게스트는 누 누가 나올까tagquestion 난 나다 날다 방울 숨박꼭질 숨박꼭질이 재밌었는데 리지 리지도 보고싶고
+sbs_newsunday	aidop169	POST	pym_9eb-5cx5v		2011-08-16	런닝맨 여고생특집 다시보기
+sbs_newsunday	sepist	POST	pym_9kl-_sbqf		2011-08-18	버버리 키링 선풍기 가장 싸다 사는방법 신개념 쇼핑몰 시 런닝맨 영화퀵
+sbs_newsunday	mhcc99	POST	pym_b3a-ivhx		2011-08-19	난 나다 날다 런닝맨 재방 보구 올께용
+sbs_newsunday	simz86	POST	pym_c_h-ohpw		2011-08-16	코오롱 스포츠인기 프로 런닝맨 상대 팀 이름표 표식 걸 떼다 탈 타다 락 tagexclamation 하다 하 방식 게임하 게임하는 것 재밌을거 같다 tagexclamation tagsmile 런 kolonsport
+sbs_newsunday	jiyoon6853	POST	pym_dh9-_quv_		2011-08-19	징녀언니 저번 런닝맨 잘 자다 봤답니다 tagsmile
+sbs_newsunday	jiyoon6853	POST	pym_dzg-_quv_		2011-08-19	이번주 이번주에 신세경언니 런닝맨에tagquestion 난 나다 날다 런닝맨 시청 중독자 런닝맨 완전 사랑 tagexclamation 런닝맨 완전 재밌어
+sbs_newsunday	mj07113	POST	pym_enu-5c2pu		2011-08-18	런닝맨 넘 재미써 tagexclamation
+sbs_newsunday	qkffpflskdms	POST	pym_i92-y9_yf		2011-08-16	런닝맨보다가중간서부터못본게
+sbs_newsunday	koj2677	POST	pym_j0t-_m81k		2011-08-18	런닝맨 인스티즈 instiz
+sbs_newsunday	mhcc99	POST	pym_p0t-ivhx		2011-08-19	런닝맨 다보구 왔찌용
+sbs_newsunday	simz86	POST	pym_pui-ohpw		2011-08-16	코오롱 스포츠인기 프로 런닝맨 상대 팀 이름표 표식 걸 떼다 탈 타다 락 tagexclamation 하다 하 방식 게임하 게임하는 것 재밌을거 같다 tagexclamation tagsmile 런 kolonsport
+sbs_newsunday	simz86	POST	pym_qfh-ohpw		2011-08-16	코오롱 스포츠인기 프로 런닝맨 상대 팀 이름표 표식 걸 떼다 탈 타다 락 tagexclamation 하다 하 방식 게임하 게임하는 것 재밌을거 같다 tagexclamation tagsmile 런 kolonsport
+sbs_newsunday	lbokl	POST	pym_qlq-_ssxw		2011-08-18	와와바카라와와바카 와와바카라와와바카라 와와바카 와와바카라 bb com 와와바카 와와바카라 와와바카 와와바카라 신세경이 sbs 일요일 좋다 런닝맨 출연 daum카페
+sbs_newsunday	lbokl	POST	pym_s37-_ssxw		2011-08-18	월드라이브카지노월드라이브카지노 월드라이브카지노 bb com 월드라이브카지노 월드라이브카지노 신세경 신세경은 일 방송 sbs 일요일 좋다 daum카페
+sbs_newsunday	ann4922	POST	pym_uqz-yqa7u		2011-08-18	런닝맨 광수 광수가 중기 먼저 문제 맞추다 중기팬한테 욕먹다 문제 답 tagexclamation 간절 원하다 이루어지다 피그말리온효과
+sbs_newsunday	tlagoal012	POST	pym__y4-5r65y		2011-08-16	런닝맨 보다 보다 잼 tagsmile 출연 같다 하고싶 하고싶을 정도루 정도루요 일쭈일 일쭈일이 길다 잼게 보고
+sbs_newsunday	hgunjung	POST	pyo40af-5uqzo		2011-08-15	차앤박화장품 대표 썬크림오메가 선블록 런닝맨 사용 방수기능 자외선 완벽 이중차단 썬크림 차앤박화장품
+sbs_newsunday	tpqls0116	POST	pyo40p1-5tg7x		2011-08-15	어제 런닝맨 잼있었는디 저저번주 꺼두 수지 양정 양정아 우승
+sbs_newsunday	jinsolshim	POST	pyo40rp-zfxd		2011-08-15	나숙제 나숙제하러 아니 아 런닝맨보러가 런닝맨보러가요 tagsmile 빠빠
+sbs_newsunday	pjhs1425	POST	pyo48c7-5076t		2011-08-16	런닝맨
+sbs_newsunday	pjhs1425	POST	pyo48w4-5076t		2011-08-16	런닝맨 걸그룹
+sbs_newsunday	wwww-12	POST	pyo4apy-_ii6m		2011-08-16	런닝맨 중 누 누가 제일 제 좋앜 tagsmile tagquestion 지효 지효라 해줰 tagsmile taglove
+sbs_newsunday	essel9101	POST	pyo4col-_rh19		2011-08-15	으흐흑 나가수 무도 무 런닝맨 못봤다
+sbs_newsunday	ljy9644	POST	pyo4e99-msv4		2011-08-15	예능 박 일 런닝맨 나다 나 가수 키스앤 크라 크라이
+sbs_newsunday	cksals010	POST	pyo4k1u-y8z6w		2011-08-15	캬캬컄 런닝맨
+sbs_newsunday	ansdjeodhkd1	POST	pyo4lcu-yw0z3		2011-08-15	런닝맨 수지 꽃미소 인기검색어 tagexclamation
+sbs_newsunday	kktji2338	POST	pyo4lqc-3p7m		2011-08-15	런닝맨 재방송 게스트 최민수 윤소이님 나오는편보고있는데하필 촬영지 촬영지가 워터파크 워터파크다 워터파크가보고싶다 한번도못가봤는데 tagcry
+sbs_newsunday	junes26	POST	pyo4mo5-yxvov		2011-08-15	런닝맨 누나특집 월 일 방송 보기 보다
+sbs_newsunday	seung1062001	POST	pyo4ooo-y0ydk		2011-08-15	대구exco 런닝맨 재현중 열심히뛰는중
+sbs_newsunday	unsik1003	POST	pyo4q8m-ulu5		2011-08-15	아 런닝맨제주도언제온거 아 친구죨리부럽네 나도월요커플 보고싶은데
+sbs_newsunday	jesus8421	POST	pyo4r_c-5t66p		2011-08-15	런닝맨 종국 턱 굴욕
+sbs_newsunday	wwww-12	POST	pyo4s9j-_ii6m		2011-08-16	런닝맨 런닝맨의 에이스 송지효 송지효의 미투데이 미투데이가 열리다 모두 미투눌러줘욬 tagsmile
+sbs_newsunday	essel9101	POST	pyo4shn-_rh19		2011-08-15	오늘 일요일 같다 못봤던 나가수 런닝맨 개콘 보고싶다구 tagcry 무도
+sbs_newsunday	abfos	POST	pyo4w6t-fwra		2011-08-16	런닝맨 수지 수지 꽃미소 흐아
+sbs_newsunday	iyousens	POST	pyo4wtx-yq85k		2011-08-15	다시보기 런닝맨 런닝맨 다시보기 월 일 방송분 다시보기
+sbs_newsunday	sepist	POST	pyo4zcy-_sbqf		2011-08-15	디올 썬크림 냉장고 싸다 사는방법 신개념 쇼핑몰 시 테일즈런너 런닝맨
+sbs_newsunday	ofbb	POST	pyo70qt-5jb1j		2011-08-15	왜런닝맨이하고있지tagquestion엌 tagsmile 왘 tagsmile 앜 tagsmile 재방 tagcry
+sbs_newsunday	rndfld	POST	pyo71wg-_dq8z		2011-08-15	이제다먹고 런닝맨을보고있슴돠 tagsmile 웃기다 이판사판 tagsmile
+sbs_newsunday	ycg01015	POST	pyo72d1-y0bws		2011-08-15	아아악 tagexclamation 수지다아 tagexclamation tagcry 내 오늘 런닝맨 언니 없서서 하하나뻐지 런닝맨 아이돌여가수 다모 tagcry 이쁜아이 tagexclamation
+sbs_newsunday	undo0103	POST	pyo75ce-5nqb0		2011-08-16	솔찍 솔찍히 일 방송편 방송편은 재미 없던뎅 박 하기전 보다 런닝맨 계속 볼껄 하다 하 후회 tagsmile 출처 박 일 시청률 급 tv데일리 t토크 ttalk
+sbs_newsunday	dubilove	POST	pyo75qp-7k4t		2011-08-15	늘제주도에런닝맨온대영 tagexclamation
+sbs_newsunday	ohsy96305	POST	pyo76k6-arao		2011-08-16	짜짜짜짜 짜다 증 tagcry 어제 런닝맨 제주 왓는뎁 tagcry 그거 알다 보다 못가공 tagcry 우리 막내고모 신난다 신난다하면서 김녕해수욕장 시 촬영 정보 두다 두 가면 가다 어찌 날 나다 데리다 갓어야지 tagcry 미워 tagexclamation
+sbs_newsunday	kimj7974	POST	pyo77xk-ytw92		2011-08-15	한예슬때문 송중기 송중기는 뭔죄 뭔죄야 tagcry 런닝맨 런닝맨도 하차해가면서 찍다 영환데 성스이후 처음 tagcry tagcry 여주인공 저난리 저난리니
+sbs_newsunday	too-day	POST	pyo7cje-u0ak		2011-08-17	런닝맨 공식 팬카페 팬카페에 많다 가입
+sbs_newsunday	kasj4885	POST	pyo7cjs-_1r88		2011-08-15	런닝맨 tagexclamation tagsmile tagsmile 나다 나 지금 런닝맨
+sbs_newsunday	8592lee	POST	pyo7cyf-5l7uh		2011-08-15	런닝맨 수지 수지 꽃미소 언제 언제나 빛나다 숮 숮이 tagexclamation tagsmile taglove
+sbs_newsunday	yna	POST	pyo7d3v-z1ou		2011-08-15	방송 피겨 대중화 꿈 꾸다 이루다 키스 앤 크라 크라이 스타 피겨 스케이팅 도전기 그린 그리다 sbs tv 일요일 좋다 김연아 김연아의 키스 앤 크라 크라이 가 가다 일 그랑프리 파이널 무대 끝 석 달간 달간의 대장정 대장정을 마무리
+sbs_newsunday	p01054098210	POST	pyo7ec4-_qivh		2011-08-15	저는아까샤워를하고지금른런닝맨을보구있어요진짜방콕도힘드네 저는아까샤워를하고지금른런닝맨을보구있어요진짜방콕도힘드네요 tagexclamation 심심해요할것두없어서핸드폰만지잣거리고있어요이제며칠뒤면애들이랑놀러갈일만남았어요아참 tagexclamation 오늘은광복절이에요오홍홍홍홍오늘도폭주족들이날뛸까요tagquestion경찰아저씨들힘내세용 나다 나 광복절 할것이없다네
+sbs_newsunday	bestmurder	POST	pyo7f0i-_cima		2011-08-16	일요일이좋다 e 김연아 김연아의 kiss cry hdtv x p hanrel
+sbs_newsunday	pak757	POST	pyo7gda-5lft		2011-08-16	월요커플 tagexclamation 진심 tagexclamation 사귀다 결혼 taglove 런닝맨피디님 tagexclamation 어뜩해안될깝숑tagquestion tagsmile
+sbs_newsunday	choijiho3252	POST	pyo7i7w-y02j5		2011-08-17	런닝맨 무서운누님들편
+sbs_newsunday	pak757	POST	pyo7ily-5lft		2011-08-16	우히히헤헤 taglove 런닝맨 월요커플 tagexclamation 나월요커플 팬카페 팬카페에 가입햇다 tagexclamation 근데 월요커플말 런닝맨녹화하는날엔맨날커플이엿음좋겟엉 taglove 월요커플에세 런닝커플tagquestion tagexclamation 런닝커플 런닝맨커플 tagsmile 개다 taglove 지효 결혼하징 tagsmile 아님지인짜루사귀든가 tagsmile 우리모두 응원을합시 tagexclamation 아아아 tagexclamation 월요커플너무너무좋앙 taglove 월요커플영원 결혼 tagexclamation 결혼 tagexclamation 아님사귀어 tagexclamation 사귀다 tagexclamation
+sbs_newsunday	yu100404	POST	pyo7jvg-_bifj		2011-08-17	런닝맨
+sbs_newsunday	o3o_soyu	POST	pyo7lfj-_yq_p		2011-08-15	런닝맨 짝꿍레이스 배수지 캡쳐
+sbs_newsunday	dbxhvi2	POST	pyo7lli-_w3wz		2011-08-15	런닝맨 무료다시보기 런닝맨 무료다시보기
+sbs_newsunday	sepist	POST	pyo7nqj-_sbqf		2011-08-17	piaget 자켓 뿐 뿐만 아니다 아니 에어컨 천원 사는방법 신개념 추첨경매 시 런닝맨 주
+sbs_newsunday	rnjsduddk71	POST	pyo7oyh-yjfrf		2011-08-15	런닝맨 짝꿍레이스 타다
+sbs_newsunday	juhun0828	POST	pyo7swd-5p6xm		2011-08-15	선덕여왕곰돌 선덕여왕곰돌이 tagsmile 경주에서테디베어박물관감 런닝맨에나왔음
+sbs_newsunday	dltkdal4516	POST	pyo7vca-yrob9		2011-08-15	월요커플 지효언니 생일 생 축하드려요tagsmile오늘 런닝맨 촬영장 개리오빠 데이트 tagquestion하셨나여tagquestion
+sbs_newsunday	anyonebang	POST	pyo7wg9-bkgw		2011-08-17	월요커플상큼하고진짜좋다 tagcry 런닝맨다시보는데너무보기조음 tagcry tagexclamation 개리오빠지효언니짱
+sbs_newsunday	hyeonah0411	POST	pyo7wpr-_clt2		2011-08-16	런닝맨 런닝맨이 재밌다 재밌다고 생각 분 미투 tagexclamation 여러분 런닝맨 않재밌나요tagquestion
+sbs_newsunday	22uj	POST	pyo7xwc-5uk1w		2011-08-17	런닝맨 진짜 잼써 tagexclamation
+sbs_newsunday	paii	POST	pyo7xya-1fle		2011-08-15	밤 깊다 잠자리 들어야겠다 내일 내 출근 안하다 너어무 좋다아 매주 일요일 외치다 내일 내 하루 쉬다 현실 되다 되 밤
+sbs_newsunday	dkssk8992	POST	pyo7xz6-_0a80		2011-08-15	아완전웃기닼 tagsmile 런닝맨 재방송 쓰러지겟넼 tagsmile
+sbs_newsunday	insos02	POST	pyo7_hz-_8lnw		2011-08-15	런닝맨 무료다시보기 런닝맨 무료다시보기
+sbs_newsunday	kasj4885	POST	pyo7_ky-_1r88		2011-08-15	어젓게 런닝맨 별 안하다 수지언니 지연언니 설리언니 루나언니 어디간거에요tagquestion 아너무 슬파당tagquestion tagsmile 아근데 하로 하로로 대박 솔직 그탈락자 방송 거다 거 안하다 되지않나tagquestion 왜 외다 냅두세요tagquestion 다음주런닝맨 뭘까tagquestion
+sbs_newsunday	gulbikr	POST	pyol1gg-_g29r		2011-08-16	런닝맨 예능인 예능 가수 김종국 몸짱 몸짱남 대열 합류
+sbs_newsunday	_sh_sh	POST	pyol3ol-_d5_7		2011-08-16	런닝맨 다 보고 보다 보 와썹 tagexclamation
+sbs_newsunday	v0binv	POST	pyol47x-_s8ed		2011-08-16	제주 휘닉스아일랜드 유재석 지석진 발견 tagexclamation 오늘 이곳 런닝맨 촬영 있다고 있다고하네 있다고하네요 시크 시크하게 우린 여행일정모드 ㄱ ㄱ ㅆ
+sbs_newsunday	sepist	POST	pyol5vq-_sbqf		2011-08-15	구찌 가디건 그리다 건조기 싸다 판매 새롭다 경매 시 일요일이좋다 황금어장
+sbs_newsunday	chaelin0620	POST	pyol6nz-__hrv		2011-08-16	방금전 방금전에 런닝맨 재방송 보다 한거 한거같아 한거같아요 개인적 월요커플 좋다
+sbs_newsunday	jyuna2329	POST	pyol8eb-yw0b9		2011-08-16	짠 짜다 런닝맨 런닝맨에 숮 tagexclamation 이 tagexclamation 늦다 인정 tagexclamation 사진 다음시간
+sbs_newsunday	t_ara0426	POST	pyolb19-_hhly		2011-08-15	지연 런닝맨 나왔을때 캡쳐 사진 사다 tagexclamation
+sbs_newsunday	_sh_sh	POST	pyoldei-_d5_7		2011-08-16	휴 나 나다 런닝맨 보고오 보고오께
+sbs_newsunday	tmdfl4907	POST	pyolh2l-plx5		2011-08-16	tv 끄다 노래 노랗다 좋다 tagexclamation 난 나다 날다 원래 리쌍 좋다 했었으니깐 tagsmile 길님 노래부를때 목소리 좋다 tagcry 개리님 개리님은 런닝맨 덕분 좋아하다 됬고 tagsmile
+sbs_newsunday	imseyeon	POST	pyolh46-yx074		2011-08-16	나제주도 런닝 맨실제 맨실제로 보다 게스트는신세경 차태현 실제 보다 tagexclamation 부럽쥐 tagexclamation
+sbs_newsunday	sepist	POST	pyoliew-_sbqf		2011-08-16	정관장 로퍼 오다 아이팟 싸다 사는방법 새롭다 쇼핑몰 시 일요일이좋다 스르리거
+sbs_newsunday	tseven99	POST	pyolkim-yy2rs		2011-08-16	tagsmile 런닝맨 곧있으면 박 잡을려 잡을려나 tagsmile
+sbs_newsunday	fx_sulli	POST	pyolkki-_scfe		2011-08-16	설리누 설리누나 런닝맨 여고생 특집때 밤 무슨일 무슨일이 일어났어요tagquestion
+sbs_newsunday	balenhome	POST	pyolq8u-_s92z		2011-08-16	마감 기념 보쌈 보쌈을 시키다 야밤 런닝맨 런닝맨을 보다 보 맛있다 냠냠 tagexclamation 씐납니다tagquestion tagsmile
+sbs_newsunday	babyseeyou25	POST	pyolv07-bjcx		2011-08-17	아역 성인 드라마 바뀔때 이질감 많다 느끼다 느끼 경우 있다 노영학 조재현 조재현은 도저 도저히 적응 안되다 이현우 이서진 괜찮다 교기 살벌 좋다 은고 은고는 도도 좋다 송지효씨 런닝맨 당 계백 필요 아무래 아무래도 나이차때문인가 무왕 무왕이 의자왕 의자왕이 차이 안다 안 tagcry 아버지 tagcry 연기 잘 자다 하시는데 첫날 첫 부적응 계백 유신 둘할때 몰입 확 은고 은고는 세월 지나다 하다 하지 은빈이 은빈이의 당돌 아직 안보 tagcry
+sbs_newsunday	ps105522	POST	pyon2q8-nw_o		2011-08-15	오늘 런닝맨 런닝맨이 촬영 경주 테디베어박물관에갔어요 곳 곰돌이 득템 tagsmile
+sbs_newsunday	js2253522	POST	pyona78-yl66k		2011-08-15	이제 키스앤크라 시즌 가 가다 시작 된다지 된다지요 난 나다 날다 런닝맨 런닝맨이 좋다
+sbs_newsunday	too-day	POST	pyonlez-u0ak		2011-08-15	사실 오늘 강개리앓이중 근데 오늘 멍 지효언니 생일 생 어젠 유헉오빠 생일 생 런닝맨앓이중 tagsmile taglove 런닝맨 사랑 taglove taglove 개리오빠 taglove
+sbs_newsunday	tjkim3449	POST	pyonlxn-5h8m1		2011-08-15	나다 나 런닝맨보고올께용 tagsmile 어제끄 tagsmile
+sbs_newsunday	mhghsm	POST	pyonmy1-y0bf7		2011-08-15	산티아 산티아고 santiago 발도장 tagexclamation 오랜만이네 tagexclamation 이웃님 잘 자다 계시죠tagquestion tagexclamation 나타나다 죄송 왕성 활동 하기위해 나타났답니다 tagexclamation 암튼 오늘 하루 월요병 월요병에 걸리다 마시다 즐겁다 한주 보내다 tagexclamation 사진 런닝맨 방콕편 방콕편에 via 아임in
+sbs_newsunday	ludik	POST	pyonomo-yv9v		2011-08-15	홍대 런닝맨 런닝맨에 나오다 홍대 홍대의 카페 파헤치다 tagexclamation 이누 카페 inu 테라스 카페 층 무선인터넷 단체석 북카페
+sbs_newsunday	ksong210	POST	pyonxes-mok3		2011-08-15	런닝맨 제주 동문시장 찍다 인하 사촌 김종국한테 하다 어 라 라고 하다 하하한테 하다 해줬대 사진 증거물 게스트 게스트는 신세경 차태현 차태현임
+sbs_newsunday	dmswntjr123	POST	pyov0f7-_m6nm		2011-08-15	런닝맨 김종국 굴욕 이광수 하차 tagquestion 턱 잡히다 능력자 tagsmile 이광수 혼자선 아무것 아무것도 못하다 주제 tagsmile 빨다 하차 좋다 tagsmile 파이낸셜뉴스
+sbs_newsunday	apdyd123	POST	pyov3xu-5wx9d		2011-08-15	tagsmile 경복궁 런닝맨뛰 런닝맨뛰고 서울 사거리 박 일찍었다 진짜 미치다 뛰다 놀다 재밌었다
+sbs_newsunday	kgs102777	POST	pyov5c9-yjp9m		2011-08-15	걍 경기장 사진 포함 포 열씨미 올리다 있다 중 땀 따다 뻘뻘 런닝맨 보고 보다 보 싶다
+sbs_newsunday	lyh_1031	POST	pyovb0q-y9h_p		2011-08-15	런닝맨촬영중 tagexclamation 인더 제주 애코랜드 tagexclamation 지금이곳에 tagexclamation tagsmile 차태현나왔대 tagsmile 하핫
+sbs_newsunday	gorns507	POST	pyovhhi-yr4mi		2011-08-15	오늘 제가사는동네 바닷가 런닝맨 촬영 왔다갔다네요 송지효님 보고싶었는데 지지다 운도 저
+sbs_newsunday	d_-w1035	POST	pyovvol-_gatx		2011-08-15	누나 누다 누 저 이 잘다 tagcry 내 아니다 조금 있다봐 있다봐요 tagsmile 아니다 아니 런닝맨 누나 편 펴다 보다가또 i need boy 들다 잘다 뿅굿밤 뿅굿밤이 뿅굿밤이요
+sbs_newsunday	mischun	POST	pyovwpw-vqgk		2011-08-15	오늘 런닝맨 런닝맨의 능력자 송지효언니 번째 생일 tagexclamation tagsmile 축하 tagexclamation 지효언니 tagexclamation tagsmile
+sbs_newsunday	hs000726	POST	pyovw_i-5t1qv		2011-08-15	런닝맨 재미 같닼 tagsmile 전 우리아파트 런닝맨 런닝맨이 왔었닿 tagsmile
+sbs_newsunday	qkrrbdyddl	POST	pyovzlp-_j3pd		2011-08-15	런닝맨 월 일 다시보기 토도우
+sbs_newsunday	ai04062	POST	pyox07g-yep1d		2011-08-17	런닝맨 월 일 일 여고생 누님
+sbs_newsunday	too-day	POST	pyox2rg-u0ak		2011-08-17	오늘 무한도전 조정마지막편 오후 시 있따가볼끄 있따가볼끄고 tagsmile 주간아이돌 런닝맨 개리를봤다 tagexclamation
+sbs_newsunday	mople	POST	pyox54e-ybyr8		2011-08-16	일요일 좋다 회 런닝맨 회 e 닥본사 닥 치다 치 본 보다 방 사 사다 닥치고본방사수 닥본사 별점 오늘 일요일 좋다 회 런닝맨 회 e
+sbs_newsunday	suji99998	POST	pyox6or-50vcu		2011-08-16	런닝맨 보시 분tagquestion
+sbs_newsunday	jwbo3star2	POST	pyox7mk-2sll		2011-08-17	고맙다 tagsmile 우리나라 제일 제 크다 아쿠아리움 가다 거기 거다 런닝맨 런닝맨이 촬영한곳 tagsmile
+sbs_newsunday	sepist	POST	pyox90t-_sbqf		2011-08-16	디올 썬크림 냉장고 싸다 사는방법 신개념 쇼핑몰 시 테일즈런너 런닝맨
+sbs_newsunday	ma2646	POST	pyox9rf-rwog		2011-08-16	저번 런닝맨 김종국 김종국하 지연 유재석 손 소다 솔다 쳤잖아 난 나다 날다 기사 블로그 블로그에 올렸다tagquestion tagsmile 근데 낫다 나 뭐 한줄알아tagquestion 어떤 한 하다 사람 낫다 나 기자하래 tagsmile 내 글 적다 적 줄 주다 알았나봐 난 나다 날다 뜨다 기사 기다 복사 붙여넣은건데 tagsmile 초딩 초딩이라면 개념 털리다
+sbs_newsunday	nsm90125	POST	pyoxaaf-abpj		2011-08-15	차앤박 오메가 선블록 선크림추천 런닝맨선크림 런닝맨출연 방수선크림 방사선블록 차앤박선크림
+sbs_newsunday	wldud2497	POST	pyoxj9z-yx8iw		2011-08-16	김종국 턱 굴욕 런닝맨 이광수 턱 잡히다 tagquestion 엑스포츠뉴스
+sbs_newsunday	k030313	POST	pyoxkzf-y2w_6		2011-08-16	어제 제주 컨벤션센타 컨벤션센타에 런닝맨왔단걸 알다 안갔음 게스트 게스트는 신세경
+sbs_newsunday	ejr2317	POST	pyoxl_0-sywb		2011-08-17	읟 런닝맨 보고싶따
+sbs_newsunday	sepist	POST	pyoxn39-_sbqf		2011-08-16	까르띠 까르띠에 넥타이 넥타 그리다 tv 싸다 구매하는방법 새롭다 추첨경매 시 런닝맨 현장르포동
+sbs_newsunday	reed0903	POST	pyoxsg6-b0yd		2011-08-15	오늘 런닝맨 런닝맨에 나오다 양정아님 왤케 이쁘지tagquestion 골미 골미다 할때 할때보 그때 오늘 같다 골드미스 탈출 하다 하다 하지 성격 똑같다 tagsmile 미투광장 자기소개 직딩 새벽미투 치매
+sbs_newsunday	gmldnr2844	COMMENT	pym04yd-c97	c_v8y7b-ym04yd-c97	2011-08-19	닉쿤이 잘생기다 했죠
+sbs_newsunday	ej4440	COMMENT	pym10ev-5uz2z	c_v3i37-ym10ev-5uz2z	2011-08-20	런닝맨tagquestion
+sbs_newsunday	419jiyeon	COMMENT	pym3i49-_ic8w	c_nvjk0-ym3i49-_ic8w	2011-08-18	난운동하면서런닝맨노리중 울집압놀터
+sbs_newsunday	junghj68	COMMENT	pym3tf7-t_fk	c_n1590-ym3tf7-t_fk	2011-08-20	다음 서명운동 한걸 한걸로 아는데 강호동 강호동이 마음 떠난듯하더라구 떠난듯하더라구요
+sbs_newsunday	junghj68	COMMENT	pym3tf7-t_fk	c_n15fe-ym3tf7-t_fk	2011-08-20	그러게 그러게요 아무래 아무래도 강호동 파워 밀리다보 밀리다보니 방송국 생기다 생기 시점 그랬고 이승기만 이승기 운 나뻤 tagquestion 던것 같다 tagsmile 남격 남격은 안보는데 하겠죠머 tagsmile
+sbs_newsunday	genei72	COMMENT	pym3tf7-t_fk	c_nb052-ym3tf7-t_fk	2011-08-20	남자 자격 계속 하겠죠tagquestion
+sbs_newsunday	genei72	COMMENT	pym3tf7-t_fk	c_nb3j1-ym3tf7-t_fk	2011-08-20	이승기만 이승기 바보됐네요 이승기 작년 하차 하차 못하다 못 이번것 이번것도 멤버 다 의논 하차결정한것 아니라던데 참 차다 그르다 tagcry
+sbs_newsunday	sunlight520	COMMENT	pym3tf7-t_fk	c_nea2k-ym3tf7-t_fk	2011-08-20	아고 아고라 청원해야 tagsmile 머 언젠가 언젠가는 끝나야죠 재미있는거 만들다 기대
+sbs_newsunday	shguswnstmdd	COMMENT	pym3wkq-_qd8e	c_nn25o-ym3wkq-_qd8e	2011-08-18	tagsmile 다귀여워 다귀여워요 tagexclamation 특 지연
+sbs_newsunday	dmaap159	COMMENT	pym3wkq-_qd8e	c_nn262-ym3wkq-_qd8e	2011-08-18	복고 풍 저때 저때도
+sbs_newsunday	km4082	COMMENT	pym3wkq-_qd8e	c_nn2yi-ym3wkq-_qd8e	2011-08-18	tagsmile
+sbs_newsunday	roskfl582	COMMENT	pym3wkq-_qd8e	c_nn4ap-ym3wkq-_qd8e	2011-08-18	본방사수 했었어요 tagsmile
+sbs_newsunday	dbslem401	COMMENT	pym3wkq-_qd8e	c_nnnx9-ym3wkq-_qd8e	2011-08-18	보다 tagexclamation
+sbs_newsunday	01037942464	COMMENT	pym3wkq-_qd8e	c_nnu7e-ym3wkq-_qd8e	2011-08-18	tagsmile
+sbs_newsunday	navigator309	COMMENT	pym3wkq-_qd8e	c_vegr6-ym3wkq-_qd8e	2011-08-20	잘봤어요
+sbs_newsunday	nuran8	COMMENT	pym5if9-58nov	c_ny61o-ym5if9-58nov	2011-08-19	안봐
+sbs_newsunday	2pmjunsu115	COMMENT	pym5if9-58nov	c_ny69g-ym5if9-58nov	2011-08-19	tagquestion왜tagquestion
+sbs_newsunday	2pmjunsu115	COMMENT	pym5if9-58nov	c_ny6fg-ym5if9-58nov	2011-08-19	왜에tagquestion잼없어tagquestion
+sbs_newsunday	nuran8	COMMENT	pym5if9-58nov	c_ny6p1-ym5if9-58nov	2011-08-19	런닝맨 저번주게 제일 제 재밋드 재밋드라 tagsmile 그런데 이제 안볼끼 안볼끼다
+sbs_newsunday	symin1997	COMMENT	pym5if9-58nov	c_n_mb0-ym5if9-58nov	2011-08-19	안볼런다
+sbs_newsunday	rladpwls0812	COMMENT	pym62i5-_qdcr	c_nhai4-ym62i5-_qdcr	2011-08-23	어떤거tagquestion
+sbs_newsunday	ljh990909	COMMENT	pym62i5-_qdcr	c_nhakc-ym62i5-_qdcr	2011-08-23	나쁘다 기사 기다
+sbs_newsunday	rladpwls0812	COMMENT	pym62i5-_qdcr	c_nhbem-ym62i5-_qdcr	2011-08-23	tagquestion 뭔기사
+sbs_newsunday	ljh990909	COMMENT	pym62i5-_qdcr	c_nkkqs-ym62i5-_qdcr	2011-08-19	근데 기사
+sbs_newsunday	dudtjs1268	COMMENT	pym62i5-_qdcr	c_n_11a-ym62i5-_qdcr	2011-08-19	지연 완젼 이뻣는디 taglove
+sbs_newsunday	dr_dongle	COMMENT	pymbhdl-3uzv	c_vm0vn-ymbhdl-3uzv	2011-08-19	열심히ㅡ러닝하시어 멋지다
+sbs_newsunday	joyce122	COMMENT	pymd5i8-_pyib	c_4811k-ymd5i8-_pyib	2011-08-25	tagsmile 마자마자 난 나다 날다 런닝맨 런닝맨이 나가수 tagsmile
+sbs_newsunday	2054897	COMMENT	pymd5i8-_pyib	c_nl0v7-ymd5i8-_pyib	2011-08-16	요새 런닝맨 그거 캡짱 잼써 tagexclamation tagsmile
+sbs_newsunday	0228hyj	COMMENT	pymd5i8-_pyib	c_vyf3n-ymd5i8-_pyib	2011-08-17	ㅇㅇ 난 나다 날다 런닝맨 개콘 키앤크 키앤크만
+sbs_newsunday	wyoung_lee	COMMENT	pymkbbt-91y5	c_nb1fx-ymkbbt-91y5	2011-08-20	글게 tagcry 헐 원년멤버 범수 버려진거임tagquestion tagcry
+sbs_newsunday	mjal	COMMENT	pymkbbt-91y5	c_neuta-ymkbbt-91y5	2011-08-20	아 tagsmile 이사진 봣숑 tagsmile 밤수 밤수는 어데갔지tagquestion tagsmile
+sbs_newsunday	yunwoo1129	COMMENT	pymkbbt-91y5	c_nj0yu-ymkbbt-91y5	2011-08-21	강개리 tagsmile 갖고싶다강개리 ㄱ tagsmile ㄱ
+sbs_newsunday	ryenjee	COMMENT	pym_b3a-ivhx	c_n5aao-ym_b3a-ivhx	2011-08-19	웅 기다릴게
+sbs_newsunday	01094425891	COMMENT	pym_b3a-ivhx	c_n5ah6-ym_b3a-ivhx	2011-08-19	잉 tagsmile
+sbs_newsunday	ryenjee	COMMENT	pym_p0t-ivhx	c_n_dgx-ym_p0t-ivhx	2011-08-19	안녕tagsmile

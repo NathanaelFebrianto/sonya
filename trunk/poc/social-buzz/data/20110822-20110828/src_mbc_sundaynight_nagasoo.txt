@@ -1,0 +1,856 @@
+program_id	author_id	type	post_id	comment_id	publish_date	terms
+mbc_sundaynight_nagasoo	klee72kr	POST	pym02hn-eak7		2011-08-22	인순이님 인순이님의 나가수 노래 나오다 전 절다 속삭 임 서두서 이미 사람 그녀 그녀의 음악 감동 가슴 남다 노랫말 부모님 잘 할 하다 듯
+mbc_sundaynight_nagasoo	rockwear	POST	pym043j-y8gak		2011-08-22	뮤직샤워 어제 나가수 보셨나요tagquestion 인순이씨 인순이씨의 아버지 임재범 임재범의 여러분 비견 폭풍감동 와우
+mbc_sundaynight_nagasoo	edutcom	POST	pym0453-y1y40		2011-08-22	나가수인순이아버지 인순이아버지 나가수
+mbc_sundaynight_nagasoo	hhw008	POST	pym04c4-5l0kc		2011-08-22	나가수 순위 인순 인순이 아버지 눈물바 눈물바다
+mbc_sundaynight_nagasoo	blusea012	POST	pym07r_-jyk2		2011-08-22	어제 나가수 나가수에 바비킴 나오다 거 거다 보고 보다 보 양진이 양진이가 생각 tagsmile 고래 꿈 꾸다 노래방 같다 부르다 기억 tagsmile 이미지 좀 조다 닮다 닮았 그러고보 보고픈 친구
+mbc_sundaynight_nagasoo	8lulala99	POST	pym0a9g-_sttq		2011-08-22	역시 인순 인순이 mbc 나가수 첫 출연 위 오셔서 즐기다 tagexclamation 여우 야 처소 처소로 놀러오다 tagexclamation 왼편 주소 주다 보이죠tagquestion joinsmsn
+mbc_sundaynight_nagasoo	18ragnarok	POST	pym0abk-iq2		2011-08-22	각 포털사 나가수 순위 로 검색 페이지 페 누 누가 시작 모르다 궁금 정보 바 보여주다 보 비교 약간씩 다르다 가치관 디테일 보 재밌네 fb 다음 네이트 네이버 나가수 순위 검색
+mbc_sundaynight_nagasoo	toktok456	POST	pym0caf-5cghw		2011-08-22	잇몸형 tagexclamation 언재 언재나 응원할꺼에 사랑하니까 진심 존경 만나고싶으니까 마지막 말다 말 하지마 하지마요 형 훌륭하다 가수가 가수가되어 만날꺼니까 만날꺼니까요 tagcry 아 진짜 눈물 잇몸형 파팅 tagexclamation 열삼 열삼히 하다 tagexclamation 저 잇몸형 붙을거 붙을거라 확신 왜냐 왜냐하면 형은멋쟁 형은멋쟁이니까 가수 이별 슬픔 슬프다
+mbc_sundaynight_nagasoo	shinji0	POST	pym0cx5-3q78		2011-08-22	아 짱 짱나 나가수 자우림 위한건 마지막 인순이 인순이가 분위기 다 가라앉혀서잖아 tagexclamation 지난 지나다 지 번꺼 번꺼도 좋다 tagcry 우씌
+mbc_sundaynight_nagasoo	andy323232	POST	pym0czi-_rusj		2011-08-22	인순 인순이 아버지 듣다 나도 나다 나 모르다 울컥해버렸다 그립다 슬프다 슬픔 가로막다 것들 것들을 한순 무너뜨려버린인순 무너뜨려버린인순이 무너뜨려버린인순이라 이르다 이름 가수 나도모르겠다 감정 토하다 만들다
+mbc_sundaynight_nagasoo	tls3344	POST	pym0hd8-55uef		2011-08-22	인순이님 당신 당신은 최고 단어가아까울정도 인순 인순이 나는가수 나가수
+mbc_sundaynight_nagasoo	dd1559	POST	pym0hkz-ykark		2011-08-22	우 개학 기쁘다 왜냐면 방금 아이콘 키다 포맨 오빠야들 사랑해열창해주시고 사랑해열창해주시 나가수 윤대표님 드셔주시 조한님 관우님 뒤 위 그리다 슬리퍼 사러가 사러가다 정주나요 웃음 웃다 고마워 고마워를 연달다 들다 때문 때문에 tagsmile
+mbc_sundaynight_nagasoo	syuos	POST	pym0li9-yulut		2011-08-22	나가수 인순 인순이 어제 아버지 불러서 등했긔 순팽이닷컴
+mbc_sundaynight_nagasoo	kkarilyg	POST	pym0n95-i__i		2011-08-22	어제 나가수 볼 하던데tagquestion tagsmile 김바비 김바비랑 인순 인순이 바이브 괜찮다 tagsmile
+mbc_sundaynight_nagasoo	80gusdud	POST	pym0q9b-y35gi		2011-08-22	행복이가득한집빌라 발도장 tagexclamation 나다 나 가수 못 엄마 놀다 컴터 컴터로 보고있는중 아 조관우님 조관우님은 역시 자기노래 하셔 하셔야 지다 진가 발휘 자우림 자우림도 짱 tagexclamation via 아임in
+mbc_sundaynight_nagasoo	no1crystal	POST	pym0s5b-yiu7q		2011-08-22	나가수 인순 인순이 아버지 드디어 세상 빛 불량주부
+mbc_sundaynight_nagasoo	yangpa	POST	pym0suk-y82c		2011-08-22	어르다 화환 어디있었지 플로어 입구쪽 입구쪽에 기획사 화환 없다 층 층이었 못봤다 엉엉 tagcry 김범수 콘서트 축하 나가수 멤버 기상천외 화환 빵터져 센스작렬
+mbc_sundaynight_nagasoo	psm0012300	POST	pym0swf-5eu78		2011-08-22	오늘 나가수 인순 인순이 선생님 아버지 노래 들다 아버지 생각 한참 펑펑울었다 언제 언제나 뒤 따르고싶어 손을집고싶어 싑사리 마음 마음대 나의곁 나의곁으 오지않으시던 나의아버지 언제 언제나 사랑 존경 그러지못한티를멨던 나 나다 자신 한심 따름 따름입니 따름입니다 아버지 사랑
+mbc_sundaynight_nagasoo	taekyoung22	POST	pym0swj-zji0		2011-08-22	나는가수 나가수 나가수 위 인순 인순이 감동 무대 tagexclamation 나가수 나가수의 새롭다 멤버 인 누규tagquestion 나가수 순위 윤민수 위 김조 김조한 위 조관우 위 바비킴 위 장혜진 위 위 자우림
+mbc_sundaynight_nagasoo	apple0897	POST	pym0t_u-gwfm		2011-08-22	나가수 인순 인순이 아버지 나가수 차경연 위 인순 인순이 아버지 인순 인순이 아버지 듣기 듣다 가사 가다
+mbc_sundaynight_nagasoo	jjangcop	POST	pym0u5l-y36d8		2011-08-22	후 괜 인순이 인순이가 아니 tagsmile ㄷㄷ 나가수
+mbc_sundaynight_nagasoo	linkkk7435	POST	pym0udd-_mkij		2011-08-22	인순 인순이 아버지 나는가수 임재범 이후 최고 감동이 이미 내레이션할때 나다 나 울고있었다 많은것 많은것을 생각 하다 노래인듯 me video
+mbc_sundaynight_nagasoo	xyovite	POST	pym0vfd-5hso2		2011-08-22	나가수 윤민수 인 필요없어tagquestion 객석 혼연일체 이루다 위 tagexclamation
+mbc_sundaynight_nagasoo	kspjw	POST	pym0vy8-5ymnm		2011-08-22	어제 나가수 가수 완전 짱짱 했네요tagsmile
+mbc_sundaynight_nagasoo	8lulala99	POST	pym0z5z-_sttq		2011-08-22	나가수 스타 임재범 폭행 혐의 피소 피다 오셔서 즐기다 tagexclamation 여우 야 처소 처소로 놀러오다 tagexclamation 왼편 주소 주다 보이죠tagquestion joinsmsn
+mbc_sundaynight_nagasoo	gkwhremf	POST	pym0z8d-vmtr		2011-08-22	년 월 일 나가수노래
+mbc_sundaynight_nagasoo	firstdream55	POST	pym0zg7-_sde_		2011-08-22	나 가수 시즌 나 가수 시즌 임재범 이후 퍼스트
+mbc_sundaynight_nagasoo	melon_dj	POST	pym1085-yy09o		2011-08-22	윤민수 윤민수가 나오는군 나오는군요 tagexclamation 나가수 시청하고싶습니 tagexclamation 근데 바비킴 바비킴은 좀 조다
+mbc_sundaynight_nagasoo	ukaryo5	POST	pym11ke-_of5j		2011-08-22	나가수 인순 인순이 선호도 선호 위 tagexclamation 인순 인순이 아버지 듣기 듣다 다운
+mbc_sundaynight_nagasoo	kdh990325	POST	pym135l-b9xp		2011-08-23	나다 나 가수다 누 누가 제일 제 좋음tagquestion 탈락 사람 되다 난 나다 날다 yb tagexclamation
+mbc_sundaynight_nagasoo	kucc1004	POST	pym13r9-5tbit		2011-08-22	박정현 나가수 박정현 명예졸업 소감
+mbc_sundaynight_nagasoo	zleorl	POST	pym14b4-0x3j		2011-08-23	장기하와얼굴 나를받아주오 눈뜨고코베 눈뜨고코베인 알리바이 미미시스터즈 미미미미미미미미 cm 아메리카노 노래 듣다 해당 노랗다 노래 여성가족부 심의 문제점 있다 그리다 유해매체 지정 가수 미치다 영향을판단 이유 자 자다 내 서술 여성가족부 잔인 인디밴드 죽이다 놀이 놀다 놀 인디밴드 말 안되다 심의 독 글 여성가족부 막아버리지 막아버리지는 않다
+mbc_sundaynight_nagasoo	frompic	POST	pym151c-_d1bz		2011-08-22	나다 나 가수 순위 나가수순위 인순 인순이 윤민수 술이야점점 재밌어지 재밌어지는 나다 나 가수 순위 나가수 순위 알려 알려드려 알려드려요 감동적 무대 나다 나 가수 tagexclamation 나가수 명예졸
+mbc_sundaynight_nagasoo	bjs2088	POST	pym15gz-tz3u		2011-08-22	인순 인순이 나가수 첫 출연 선호도 선호 위 위 자우 잘했습니디 osen
+mbc_sundaynight_nagasoo	juno124	POST	pym1604-ybi8l		2011-08-22	임재범 폭행혐의부인 폭행혐의부 폭행 없다 진위는tagquestion 가수 임재범씨 임재범씨가 폭행사건 연루됐다고 말다 말 진짜일까tagquestion 한달 한달이 지나다 고소 피해자 임재범 측은 이미 화해 형동생 하다 하기 했다던데 전치 주 진단서 끊다 경찰 출석 웃다 웃기다 웃기 있다 상대방 옷 옷이 손목 잡다 폭행혐의 거다 거기 작다 작 생채기 하나 나도 나다 나 전치 주가 주 기본 전치 주tagquestion 니 시비 붙다 자빠지다 무릎 깨지다 주다 주 나오다 괜 임재범 흠집내면서 돈 받다 생각 고소 고다
+mbc_sundaynight_nagasoo	jungsica_98	POST	pym16b9-_mbeq		2011-08-23	은지가나가수를tagquestion
+mbc_sundaynight_nagasoo	sdyun999	POST	pym16ye-ya7bq		2011-08-22	인순 인순이 아버지 나다 나 가수 위 무편집영 daum tv팟
+mbc_sundaynight_nagasoo	ukaryo5	POST	pym18eu-_of5j		2011-08-22	나가수 인순 인순이 선호도 선호 위 인순 인순이 아버지 듣기 듣다 다운
+mbc_sundaynight_nagasoo	e-channel	POST	pym19_s-_wj_6		2011-08-22	나는가수 mc 윤종신 확정 정지찬님 음악감독 전념 e채널 정지찬 정지찬의 위드유 도 멋지다 진행 있을거 같다 이승환 나레이션 나가수출신 출연 정지찬 정지찬의 위드유 다큐 다큐는 e채널
+mbc_sundaynight_nagasoo	junes26	POST	pym1auh-yxvov		2011-08-22	서바이벌 나다 나 가수 월 일 방송 보기 보다
+mbc_sundaynight_nagasoo	imageup7	POST	pym1ay3-5smry		2011-08-22	나다 나 가수 나는가수 ii
+mbc_sundaynight_nagasoo	go884	POST	pym1b67-yseem		2011-08-22	어제 나다 나 가수 김윤아 김윤아가 부르다 곡 매직 카펫라이드 일터 무식 이쌤 왈 tagexclamation 어제 자우림 tagexclamation 매직카페라떼 tagexclamation 꼴찌 tagcry tagsmile 대박 짐 지다 계속놀리는중 tagsmile
+mbc_sundaynight_nagasoo	sungjunfive	POST	pym1c8v-_s12q		2011-08-22	나가수 의임재범 폭행혐의 피소 피다
+mbc_sundaynight_nagasoo	sin6688	POST	pym1dh1-_adwc		2011-08-22	인순 인순이 나가수 첫 출연 위로 위 입성 압도적 지지율
+mbc_sundaynight_nagasoo	bestmurder	POST	pym1dm9-_cima		2011-08-22	일밤 e 서바이벌 나다 나 가수 hdtv x p hanrel
+mbc_sundaynight_nagasoo	yujinran	POST	pym1evd-y6dt5		2011-08-22	장혜진 아름답다 날들 조관우 사랑 솔리드 천생연분 자우림 매직카펫 라이드 나다 나 가수
+mbc_sundaynight_nagasoo	kucc1004	POST	pym1f5p-5tbit		2011-08-22	윤민수 나가수 윤민수 검색어 굴욕
+mbc_sundaynight_nagasoo	mjmj57	POST	pym1fcw-3nc8		2011-08-22	공항장애 고백 차태현 가수 비 때문 때문에 악화 사연은tagquestion
+mbc_sundaynight_nagasoo	jjoonline	POST	pym1fsr-5n3g8		2011-08-22	나는가수 위 인순 인순이 나다 나 가수 위 인순 인순이 나다 나 가수 다시보기
+mbc_sundaynight_nagasoo	kongsuni3451	POST	pym1fyh-_9t_s		2011-08-22	나가수 윤민수 나가수 윤민수 인 착용 않다 이유
+mbc_sundaynight_nagasoo	darksaint06	POST	pym1f_y-yds3u		2011-08-22	국민가수 등장 나가수 인순 인순이 독무대 되다 되 끝판왕 끝판왕이 오다 tagexclamation 완전 감동이었삼 헤럴드 생생뉴스
+mbc_sundaynight_nagasoo	istore00	POST	pym1gbi-54328		2011-08-23	바비킴 나가수 바비킴 나가수 소감
+mbc_sundaynight_nagasoo	hg-times	POST	pym1h2r-5of6_		2011-08-22	인순 인순이 그들 잔치 나가수 판도 판 바꿀까tagquestion hg times
+mbc_sundaynight_nagasoo	jchyun22	POST	pym1iba-5l0pg		2011-08-22	나가수 윤민수 첫 무대 인 빼다 열창 http www dailymusic co kr news articleview htmltagquestionidxno 웹
+mbc_sundaynight_nagasoo	wjdghks87o1	POST	pym1j0j-y2ybf		2011-08-23	박정현 김범수 사랑 깊다 상처 네이버앱 음악검색 나다 나 가수 사랑 깊다 상처 박정현 김범수
+mbc_sundaynight_nagasoo	jchyun22	POST	pym1jwg-5l0pg		2011-08-22	옥주현 송은 송은이 나가수 후 여전 우정http www dailymusic co kr news articleview htmltagquestionidxno 웹
+mbc_sundaynight_nagasoo	tbworld_tv	POST	pym1k0x-_clkj		2011-08-22	인순 인순이 나가수 출연 왜tagquestion 박명수 하차 선언 오기 오다 발동 tbworld
+mbc_sundaynight_nagasoo	tbworld_tv	POST	pym1kbe-_clkj		2011-08-22	나가수 기 졸업생 박정현 김범수 마지막 전율무대 tbworld
+mbc_sundaynight_nagasoo	ccya	POST	pym1khm-hmgu		2011-08-22	나다 나 가수 회 월 일 다시보기
+mbc_sundaynight_nagasoo	dbswlvy	POST	pym1l46-y1wqs		2011-08-22	이번 나가수 자우림 대충 불렀어 하이라이트 부분 한번 제 제대 부르다 않다 능력 보여주다
+mbc_sundaynight_nagasoo	dustprog	POST	pym1m3y-yh7zk		2011-08-22	열린빌딩 발도장 tagexclamation 이웃님 어제 나가수 보셨어유tagquestion인순이님의 부분 계속 리플레 리플레이 시키다 흐리멍텅 앉다 있네유 담배 하나 하다 하 피우다 겠어유 tagcry tagcry via 아임in
+mbc_sundaynight_nagasoo	mshj04	POST	pym1mc6-lajp		2011-08-22	가수 아무나 아무나하 아무나하나 말로 해서 하다 되다 되 노력도안해놓고 나도말 세계적 탑스타가될꺼 탑스타가될꺼야 tagexclamation 그럼 나 나다 이제 탑스타tagquestion tagsmile 성공을해놓고 그렇다 지랄 떨어데던가 근거 없다 사실가지고 사실가지 그렇다 개지랄발광을떨어데네 씨발 ㅉㅉ 니꼬 졸라비참 졸라비참하 졸라비참하다
+mbc_sundaynight_nagasoo	gancoach	POST	pym1mq7-_55q5		2011-08-22	어제 나가수 보셨나요tagquestion 인순이님 인순이님의 아버지 노래듣고 무한감동 받다 tagexclamation 진짜 대단 같다 tagexclamation
+mbc_sundaynight_nagasoo	kmirn001	POST	pym1mwp-_d1q6		2011-08-22	나가수 인순 인순이 선호도 선호 위 아버지 로 청중 동료 눈물 쏙
+mbc_sundaynight_nagasoo	ce0515	POST	pym1n21-_wohu		2011-08-22	나가수 무대 위치 바낀 기분 tagexclamation 자우림 신곡 tagexclamation 집 컴뵑 tagexclamation tagsmile 퐈이팅 tagexclamation 힘내다 tagexclamation 자우림 tagexclamation tagsmile
+mbc_sundaynight_nagasoo	thdus0936	POST	pym1nc_-ikv5		2011-08-23	방금 나가수재방 보다 인순 인순이 정말 대박
+mbc_sundaynight_nagasoo	dlarkdms1216	POST	pym1o7q-57e51		2011-08-22	오다 대박 오랜만이당 taglove 나듀 가수되고싶당 문제 음치 tagcry 다행 박치는아닌 tagsmile 헷 나 나다 방학숙제 일기 않했당 오늘 내일 내일모래안 나 나다 다할꺼 다할꺼야 나 나다 다할수도있구tagsmile헷 나사진이걸루바꿀꺼얌tagsmile이뿌지tagquestion지금 나사진이걸루바꿀꺼얌tagsmile이뿌지tagquestion지금내 사진 똑같은사람이궁
+mbc_sundaynight_nagasoo	jinni14	POST	pym1otz-_j5tg		2011-08-22	블로그dj 년 월 일 차 차다 경연 가공할수 무기 장착 새가수 새가수의 등장 송박사 송박사의 나다 나 가수
+mbc_sundaynight_nagasoo	wingsadd	POST	pym1p11-_5e9s		2011-08-22	나는가수 다시보기 회 나가수 다시보기 나는가수 다시보기 회 나가수 다시보기
+mbc_sundaynight_nagasoo	a504086	POST	pym1qjn-5bg0o		2011-08-22	바나나튀김의외 늠 갠찮네 비가 비 보슬보슬 오고 오고있고 날다 날 스산 으슬으슬해서 커피 드겁게 타다 그리다 나가수재방 인순 인순이 완전쩔어
+mbc_sundaynight_nagasoo	nunurigo121	POST	pym1qyw-_9tci		2011-08-22	나다 나 가수 신피디 발언 대해 대하다 dnup
+mbc_sundaynight_nagasoo	soyzland	POST	pym1t6q-ykwnn		2011-08-23	tru s house 발도장 tagexclamation 인순 인순이 윤민수 등등 께서 나가수 나가수에 합류 갠찬긴 해도 하다 해 역시 정현언니 빈자리란 tagcry 메꾸기 메꾸기가 힘들 거 거다 같다 via 아임in
+mbc_sundaynight_nagasoo	bugato	POST	pym1t9x-_jx4i		2011-08-23	서울sns오픈채널 fc서울 나도 나다 나 가수 이벤트 진행 seoulsns
+mbc_sundaynight_nagasoo	bugato	POST	pym1tom-_jx4i		2011-08-23	서울sns오픈채널 fc서울 나도 나다 나 가수 이벤트 진행 의견 남기다 seoulsns
+mbc_sundaynight_nagasoo	kjw01220	POST	pym1uw9-_9qyg		2011-08-22	lgu lte 속도 속 나가수 박정현 보다 알다 http news inews com php news view phptagquestiong serial g menu me video
+mbc_sundaynight_nagasoo	imageup7	POST	pym1v55-5smry		2011-08-22	부활 나다 나 가수
+mbc_sundaynight_nagasoo	frompic	POST	pym1w0u-_d1bz		2011-08-22	인순 인순이 아버지 인순 인순이 아버지 듣기 가수 인순 인순이 아버지 나가수 인순 인순이 아버지오늘 나다 나 가수다 가수다에서 yb 박정현 김범수 대신 신입멤버 인순 인순이 바비킴 윤민수
+mbc_sundaynight_nagasoo	frompic	POST	pym1wb9-_d1bz		2011-08-22	방금 나다 나 가수 끝이 tagexclamation 새롭다 시즌 버금갈 새롭다 가수 등장 또다시 멋지다 무대 보여주었는데 마지막 인순이 인순이의 무대 아직 아직까지 감동 도가니 빠져있
+mbc_sundaynight_nagasoo	jinoogida	POST	pym1xzc-5art5		2011-08-23	영상 나가수 인순 인순이 선호도 선호 위 아버지 감동 열창 시청자 눈물 홍콩명품 팜므럭스
+mbc_sundaynight_nagasoo	yooree97	POST	pym1y4w-qc2_		2011-08-22	유리마마닷컴 나다 나 가수 인순 인순이 아버지 감동 폭풍 쓰나미
+mbc_sundaynight_nagasoo	cools2426	POST	pym1y8c-y2apx		2011-08-22	오늘 나가수 인순 인순이 대박 tagexclamation 나레이션 부를때 눈물 주르륵 듣다 내다 감동 또 감동
+mbc_sundaynight_nagasoo	0519030000	POST	pym1zc_-_jqre		2011-08-22	나는가수 나가수 나는가수다순위 나가수순위 인순 인순이 아버지 인순 인순이 아버지 동영
+mbc_sundaynight_nagasoo	wlsrud0104	POST	pym1zzh-j6zv		2011-08-23	일요일 잠깐 나가수 틀다 김조한 김조한이 천생연분 부르다 있다 tagsmile 근데 원곡 그대 안부르 안부르고 약간 편곡 부르다 tagsmile 들다 들어서다 좋다 tagsmile
+mbc_sundaynight_nagasoo	117904	POST	pym80a1-_y7u7		2011-08-24	나가수순위 나가수순위
+mbc_sundaynight_nagasoo	kipune	POST	pym80sz-yi0dl		2011-08-23	울 울다 마눌 마눌이 김범수씨 빠지다 이제 나가수 안본다 안본다고 하다 하 어쩐대 어쩐대요 친구소개 bskworld
+mbc_sundaynight_nagasoo	bennymint	POST	pym84lk-ae52		2011-08-23	처음 뭐 좀 조다 두렵다 난생처음 내시경 내시경을 받다 예약해놓고 괜 걱정 쌓이다 쌓 이젠 병원가는게 점점 무섭다 두려워지 두려워지는 나 나이 가야 가야하는걸 알다 더더 미루다 하다 하 결국 끙끙거리다 제 발로 발 찾아가다 미련퉁 미련퉁이 근데 위 비워야 비워야해서 아점 한끼먹고 내다 아침 굶다 힘드네 힘드네요 tagcry tagcry 초저녁 뭐 좀 조다 먹어두는건데 히잉 벗님 식 주미투 주미투에 힘들다 인 물 홀짝거리다 나가수 재방봐 재방봐요 tagsmile 굿밤 굿밤되세 굿밤되세요
+mbc_sundaynight_nagasoo	pspring5	POST	pym84yx-n8js		2011-08-26	지금 육상대회 전야제와 진짜 짜증 tagexclamation tagquestion tagexclamation tagquestion tagexclamation tagquestion 나도 나다 나 슈주팬으로왔지 슈주팬으로왔지만 대구 아이돌팬 공연개념 개차반 니들가수 딴가수들좀 호흥해주면 팔 부러지냐tagquestion 방금 김장훈아저씨한테 미안 쪽팔리드만ㅉㅉㅉ
+mbc_sundaynight_nagasoo	sportskhan	POST	pym85rq-ymvvx		2011-08-23	인순 인순이 나가수 출연후 몸값 폭등가수 인순이 인순이가 mbc 나다 나 가수 출연 이후 몸값폭 즐겁다 비명 비명을 지르다 있다 스포츠경향 인순 인순이
+mbc_sundaynight_nagasoo	sjhk1117	POST	pym86dc-aohr		2011-08-23	나다 나 가수 나다 나 솔 솔로 그것 쏠녀 미투들어와서 난 나다 날다 솔리스트 tagcry tagcry
+mbc_sundaynight_nagasoo	joinparky	POST	pym86qb-9nf		2011-08-24	희수 희윤이 세상 가장 커다랗다 산 되다 있을까tagquestion 맘 놓다 뛰어놀 있다 동산 되다 좋다 그리다 사랑 많다 말 줘야겠다 나가수 인순 인순이 아버지
+mbc_sundaynight_nagasoo	aruco1224	POST	pym87e2-ydp1y		2011-08-24	아 짜증 내한 가다 싫다 이딴 우울 기분 어떻다 좋아하다 가수 콘서트 즐겨tagquestion 그건 정말 상대 예의 아니다
+mbc_sundaynight_nagasoo	moone77	POST	pym88hz-fm8j		2011-08-23	mbc 받아오다 선물 나다 나 가수 dvd 진심 부럽다
+mbc_sundaynight_nagasoo	joylee0125	POST	pym892i-qyw5		2011-08-27	나다 나 가수 사랑 깊다 상처 listening 사랑 깊다 상처 박정현 김범수 나다 나 가수 사랑 깊다 상처 박정현 김범수
+mbc_sundaynight_nagasoo	llovetaiji	POST	pym89q6-2jix		2011-08-26	원문 동요 동 노을 박정현 feat 나가수 멤버 swf 웹
+mbc_sundaynight_nagasoo	kjw01220	POST	pym89r7-_9qyg		2011-08-26	나다 나 가수 호주 공연 나가수 참여 모 가수 동원 눈길 me video
+mbc_sundaynight_nagasoo	jeon3088	POST	pym89z0-yjgi		2011-08-27	내 죽는다는게 두렵다 내 어떻게죽을지 궁금 사랑 가족 친구 가수 못본다는게 슬프기도 하다 하지 어떤사람 말 언젠가 죽게되어 죽게되어있다 살아있을때 최선을다 후회는 라고말 그말을듣고 난 나다 날다 두려움 달랫다 생각 나 죽다 죽음 두려워 두려워하 두려워하는 사람 있다 스스로 죽다 죽음 택하는사람 보다 어리석게보 어리석게보인다
+mbc_sundaynight_nagasoo	starstar0715	POST	pym89_x-59qm7		2011-08-24	지금나가수보는중 재밌닥
+mbc_sundaynight_nagasoo	love__yuna	POST	pym8a02-ycmx		2011-08-23	매직카펫라이드 개인적 굉장 좋아하다 노래 나가수 들다 들 있다 얼마 좋다 몰다 정말 감사 이번 음모론 노랗다 노래 좋다 tagexclamation 리뷰 이벤트 참여 tagexclamation
+mbc_sundaynight_nagasoo	arcobaleno56	POST	pym8anc-fjf9		2011-08-24	윤도현 윤도현도 나가수 명예졸업tagquestion 어떻다 왜 외다 munhwalibo news
+mbc_sundaynight_nagasoo	lkw3106	POST	pym8arb-g9hs		2011-08-23	인순 인순이 나가수 출연후 몸값 폭등
+mbc_sundaynight_nagasoo	newstownsns	POST	pym8at3-_hksa		2011-08-24	뉴스타운 뉴스타운 위대 탄생 의 이은미 이은미와 나다 나 가수 의 조관우 조관우와 다문화가수 헤라 헤라가 한 하다 무대 오다 오르다 가을밤 정취 노래 물들이다 물들 가수 이은미 조관우 헤라 헤라가 오다 오 월 일 부산 소재 석 규모 뉴스타운
+mbc_sundaynight_nagasoo	kennyjlee	POST	pym8b0w-fr8f		2011-08-24	박정현 박정현은 나가수 레벨 차원 다르다 가수 것 보여주다 명예졸업 하다 하 떠나다 그자리 그자리에 인순 인순이 인순이라 가수 나타나다 춤 아니다 온몸 노래 가수 몇안 몇안되 몇안되는 세상
+mbc_sundaynight_nagasoo	jchyun22	POST	pym8br0-5l0pg		2011-08-26	오다 오 월 일 호주 나다 나 가수 http www dailymusic co kr news articleview htmltagquestionidxno 웹
+mbc_sundaynight_nagasoo	keynome	POST	pym8dsl-ygiiz		2011-08-24	나다 나 가수 tagexclamation tagsmile o o waglewagle
+mbc_sundaynight_nagasoo	jisangstory	POST	pym8ete-5kyok		2011-08-23	인순 인순이 아버지 나가수 인순 인순이 위 아버지 듣기 듣다 재생 가사 가다
+mbc_sundaynight_nagasoo	juyre11	POST	pym8ez3-yt88j		2011-08-26	나다 나 가수 호주공연 확정 월 일 멜버른
+mbc_sundaynight_nagasoo	ilovedream	POST	pym8fdo-_snvx		2011-08-23	나가수임재범 빈잔
+mbc_sundaynight_nagasoo	tookii906	POST	pym8h_m-_a7gl		2011-08-26	가수 자기노래 다 똑같은거가툼 템포빨라지 가사바뀌 거다 거기 끝 나 생각이예 tagexclamation
+mbc_sundaynight_nagasoo	moone77	POST	pym8j8s-fm8j		2011-08-23	윤종신 팬클럽 이색 화환 나도 나다 나 싣다 실 가수 폭소 님 좋다 팬들 팬들이 깨알 아시아경제 우리한텐 사람 임재범 임재범이 박정현 박정현이 tagexclamation 라 라니 tagsmile
+mbc_sundaynight_nagasoo	everysingapp	POST	pym8k_x-_gzor		2011-08-24	어제new이벤트 오늘오후 시까지에브리싱 어플 어플로 sm yg jyp jyp가 참여 k팝스타 오디션 도전 덜컥 우승 하다 나 나다 가수 후배 되고싶다 tagexclamation 이유는tagquestion 댓글 내미투쓰기 참여 당첨미친 분 베스킨라빈스 싱글킹 쏘다 오후 시 당첨자발표 할게용 오늘 시 당첨자 발표 후 새롭다 이벤트 올라갑니다용 d
+mbc_sundaynight_nagasoo	nc4667	POST	pym8ni2-wo10		2011-08-23	헐 나 나다 요즘 목소리 섹시 남자가수들한테 끌리다 안되다 tagexclamation 브리트 브리트니 스피어스 스피어스나 크리스티 크리스티나 아길레라 아길레라를 듣다 tagexclamation maroon enrique iglisias adam lambert
+mbc_sundaynight_nagasoo	99bci	POST	pym8nw3-y7nle		2011-08-26	저 나다 나 가수 선배님 모두 다 미투 하다 하는데요tagquestion 나다 나 가수 팬 tagsmile 미투포유이벤트
+mbc_sundaynight_nagasoo	everysingapp	POST	pym8s72-_gzor		2011-08-24	어제 오늘오후 진행 이벤트 sm오디션공식어플 에브리싱 으 으로 sm yg jyp jyp가 참여 sbs서바이벌오디션 k팝스타 지원 최종우승자 되다 tagexclamation 나다 나 가수 후배 되고싶다였죠 당첨자 당첨자분 축하 쪽지 핸드폰번호 알리다 내일 내 낮 베스킨라빈스 싱글킹 기프티콘 보내다 드리다 d 아쉽다 안되신분 조금후 조금후에 새롭다 올라가다 new이벤트 참여 tagexclamation
+mbc_sundaynight_nagasoo	kyoungok96	POST	pym8w9k-yhpr9		2011-08-23	김범수 홀로 홀 되다 변진섭 네이버앱 음악검색 나다 나 가수 경연 청중평가단 추천곡
+mbc_sundaynight_nagasoo	sky0popcorn	POST	pym8xau-_c11j		2011-08-23	감동 자체 인순 인순이 아버지 나가수 나가수에 입성 인순 인순이 정말 좋다
+mbc_sundaynight_nagasoo	yeji2530	POST	pym908e-5ptk_		2011-08-22	나는가수 아니다 아니 나다 나 살 난 나다 날다 술 잘마신다 tagexclamation 소주 맥주 막걸리 와인 양주 등등 한번 빠짐없다 잘 자다 마시다 tagexclamation 하다 하지 난 나다 날다 한잔 마시다 취하는건 아니다 한잔 마시다 발음 꼬이다 꼬 tagexclamation 한잔마셔서 어지럽다 않다 tagexclamation
+mbc_sundaynight_nagasoo	skadntns	POST	pym91dj-yvqab		2011-08-22	ㄱㄱㅑ 이번주 나가수 나가수에 바비킴 바비킴이 나오다 나왔었구 taglove taglove
+mbc_sundaynight_nagasoo	guseh0923	POST	pym926m-y8ent		2011-08-24	아 나가수 나가수에 좋아하다 세 세다 사람 사다 나가다 tagcry ㅡ tagcry
+mbc_sundaynight_nagasoo	chaku00	POST	pym92zv-15fx		2011-08-23	받다 살아오다 그들 나가수 나가수가 아니다 진정 나가수 를 만나다 싶다 싶어 정말 소외 되다 오다 진정 나가수 나가수를 어디 어디에 있다 있
+mbc_sundaynight_nagasoo	iij0810	POST	pym92_3-5_lk2		2011-08-23	나가수 김현철 김태훈 새 새다 자문위원 합류 어이없다 표절가수 어디자문위원 참 차다 나가수안 나가수안되겠네 그렇게섭외할사람 엑스포츠뉴스
+mbc_sundaynight_nagasoo	starcatch	POST	pym938j-spr4		2011-08-22	윤도현 졸업사진 포스충 포스충만 다르다 나가수 졸업사진 어떻다 다르다 daum연예
+mbc_sundaynight_nagasoo	cso009	POST	pym95e1-_holx		2011-08-22	어제 나가수 인순 인순이 노래 한곡 올리다 노래 인순이 인순이가 잘 자다 하다 그중 감탄 링크
+mbc_sundaynight_nagasoo	blue_pj	POST	pym95i7-13zl		2011-08-22	고맙다 앞 잘 자다 부탁 나다 나 가수
+mbc_sundaynight_nagasoo	33goo	POST	pym96ut-y7k_x		2011-08-24	월 일 나가수 김조 김조한 천생연분
+mbc_sundaynight_nagasoo	haqqy_boy	POST	pym97_w-_w5gf		2011-08-23	나가수 새멤버 윤민수 노래 노랗다 바비킴 사랑 사 그놈 바비킴 윤민수 다운
+mbc_sundaynight_nagasoo	deboraheun	POST	pym99pz-yr4ip		2011-08-22	나가수 이제 범수킴 범수킴을 볼수 아쉽다 아쉬움 잠시 바비킴 바비킴이 오다 tagsmile
+mbc_sundaynight_nagasoo	coolbear	POST	pym9be7-p_af		2011-08-22	바비킴 일년 하루같이어제 나가수 바비킴 나오다 들다 역시 좋다 tagsmile 부르다 좋다 계속 입 무한반복중 tagsmile 옛날 이거 완전 좋아하다 tagsmile
+mbc_sundaynight_nagasoo	min99223	POST	pym9bla-cvqf		2011-08-24	요즘 뭔노래 뭔노래가 좋나 좋나여 추천추천 옛날노래 상관없 tagexclamation 나가수 노래 노랗다 제외
+mbc_sundaynight_nagasoo	eour__	POST	pym9bt7-5e0en		2011-08-24	미인 주 위안녕 tagexclamation 미스터심플 위바통터치 tagexclamation tagsmile 와우 나이런가수의팬이란게자랑스러벼 tagsmile
+mbc_sundaynight_nagasoo	llovetaiji	POST	pym9g3v-2jix		2011-08-22	나다 나 가수 사랑 깊다 상처 최고 듀엣 네이버뮤직 나다 나 가수 사랑 깊다 상처 박정현 김범수
+mbc_sundaynight_nagasoo	hmj9207a	POST	pym9gc0-yhcri		2011-08-24	나가수 몰아서봐야지 자우림쨔응 아 노래방가고싶다 taglove
+mbc_sundaynight_nagasoo	saaad	POST	pym9h2s-vhrc		2011-08-23	그남자 그여자 술이야휴 술이야휴가 복귀할 때 나다 나 가수다 누군가 누군가를 떠오르다 만들다 노래 노랗다 두 곡 들다 예전 시간 떠올르게 만들다 노래 노랗다 가사 가다 중 니 돌아올까봐 다르다 사랑 사 절대 못하다 이젠 난 나다 날다 남 정말 난 나다 날다 남 부분 마지막 하나 하다 하 기다리다 부분 나도 나다 나 모르다 눈물 흘리다 만들었던거 같다 나 나다 이제 이상 너르다 기다리다 않다 그리다 이제 넌 널다 남 대신 좋다 사람 사다 만날거니까
+mbc_sundaynight_nagasoo	issuenet	POST	pym9hxk-_ozac		2011-08-24	박정현김범수 사랑 깊다 상처 가사 가다 반복재생 듣기 듣다 나다 나 가수
+mbc_sundaynight_nagasoo	dlrbwjdi	POST	pym9ium-528_r		2011-08-22	놋북틀면 지는느낌 들꺼 들꺼같아서 억지 안켰는데 아빠 나가수 무대 물어보다 어쩔수 키다 키 말다 tagcry 아 이럼 또 하고싶어질거 하고싶어질거같은데 tagcry 드라마 아껴봐야 아껴봐야하는데 tagcry
+mbc_sundaynight_nagasoo	ksasbedhs	POST	pym9jf7-50akp		2011-08-22	아 어제 나가수 못봤는데 인순이님 인순이님과 바비킴님 오시다 오시다니 tagcry 후회 tagcry 네이트 기사보 여자임재범 여자임재범 짓거리는데 인순 인순이 인순이는 인순이일 왜자꾸 비교를 비교를하지
+mbc_sundaynight_nagasoo	tjsxo20	POST	pym9jv0-_6pvl		2011-08-22	나다 나 가수 캐리커쳐
+mbc_sundaynight_nagasoo	dlrbwjdi	POST	pym9k6z-528_r		2011-08-22	아까 나가수 나가수보 사람 사다 놈 땡겨서 들어야겠뜸 tagsmile
+mbc_sundaynight_nagasoo	susuhan104	POST	pym9lgf-ygdte		2011-08-23	나가수대결 임재범 여러분 vs인순 vs인순이 아버지 무섭다 투톱
+mbc_sundaynight_nagasoo	parkhayoung	POST	pym9mac-y55c9		2011-08-24	나가수 인순이님 인순이님의 아버지 듣다 순간 눈물 나다 저게 바 노래 힘 힘이구 부끄럽다 않다 딸 되다 하다 하 생각 여러분 어제 베가레이서 화이트샀어요 이제 저 스마트폰 유저 tagsmile 근데 잘쓸 줄다 줄 몰라용
+mbc_sundaynight_nagasoo	colorpio	POST	pym9me3-yvjm2		2011-08-22	나가수 다시보기 보고 보다 보 느끼다 것 오늘 순위 정하다 말다 하지 하다 않았을까요tagquestion 어제 공연 한 하다 분한분 분한분의 노래 다르다 세계 보 개성 무대
+mbc_sundaynight_nagasoo	sungjunfive	POST	pym9nbn-_s12q		2011-08-23	나가수 의 인순 인순이 다른모습
+mbc_sundaynight_nagasoo	sungjunfive	POST	pym9nd9-_s12q		2011-08-23	나가수 의 김윤 김윤아 금발 숏헤어 파격변신
+mbc_sundaynight_nagasoo	eye_dear	POST	pym9ok4-5v1og		2011-08-24	나는가수 조관우 안경 나가수 조관우 안경 빅터앤롤프 안경 viktor n rolf 캣아 캣아이 안경 조관우 사랑 연예인안경 김남주안경 아이디어안경원
+mbc_sundaynight_nagasoo	ymksj1307	POST	pym9qxu-y_sdd		2011-08-23	나가수 보다 노래 노랗다 들다 눈물나 눈물나내
+mbc_sundaynight_nagasoo	buks2	POST	pym9rnn-_3cex		2011-08-24	나가수순위 나가수순위
+mbc_sundaynight_nagasoo	biggrate	POST	pym9s3p-5_zr0		2011-08-23	아시발 tagcry 내친구 나가수 보고옴 젠장젠장젠장 중요한건 신청 이소라 이소라가 진행할때 햇다는거 ㅅ
+mbc_sundaynight_nagasoo	yunju	POST	pym9u84-0oie		2011-08-23	니넨 콘서트준비할때 입 뻐끔대니tagquestion 미치다 나가수 루머생길때 좆같다 역시 기대를저버리지않아 엉tagquestion 니네 흑자 처음 만들다 혜택못 혜택못받고 돈만갖다바치 돈만갖다바치는 재범님 재범님이 불쌍 않냐tagquestion 아 존나빡쳐 관리 자신 없다 첨 제의 하지말던가 미치다 tagexclamation 갈아마셔 갈아마셔도 시원찮다 것들
+mbc_sundaynight_nagasoo	ggarymiss	POST	pym9wcc-7wan		2011-08-22	서울가 서울가는 기차안 tagsmile 나가수 보니 보니라 이재사 올림니덩 우후후 서울시민 긴장하세양
+mbc_sundaynight_nagasoo	max1141	POST	pym9y32-5f5g_		2011-08-23	나가수 다시보는데 마지막무대 인순이 인순이의 아버지 라디오 들다 들 때 좋다 노래다 노래다라 생각 보고 가슴 찡하다 노래끝 노래끝나 나다 오우 울컥 역시 좋다 가수 좋다 노래 노랗다 굳
+mbc_sundaynight_nagasoo	gosp21	POST	pym9ygd-yyo65		2011-08-22	아아악 나가수 나가수를 받다 솔직 바비킴 장혜진 자우림 자우림은 프로그램 묻히는듯 tagcry 슬퍼 슬프다 다 내 좋아하다 팀 노래잘 노래잘하 진정 가수 뭐 인순이언니 짱인건 인정 tagexclamation 솔직 김조 김조한 무대 랩하는애 랩하는애들이 김조한씨 노래 뭐 계속 말다 말
+mbc_sundaynight_nagasoo	tethda	POST	pym9yj1-1gl7		2011-08-22	엄청나다 엄청 재능 생기다 나가수 음원 드럼 첫 부분 듣다 무슨 노래 맞추다 특허신청할까
+mbc_sundaynight_nagasoo	buks2	POST	pym9yva-_3cex		2011-08-24	나가수순위 나가수순위
+mbc_sundaynight_nagasoo	mds1120	POST	pym9yvo-yv70z		2011-08-24	윤민수 최고 tagsmile ㅌ 약시 바이브 내 mbc 나다 나 가수다 가수다에 게시판 윤민수 나오다 좋다 라 라고 썼었는데 캬
+mbc_sundaynight_nagasoo	junoh119	POST	pym9_vp-y78dc		2011-08-22	나다 나 가수 무편집 영상 단독 공개나가수 인순 인순이 나오다 아마 시청률 장난 장 아닐듯 daum연예
+mbc_sundaynight_nagasoo	belle121	POST	pymb16o-_3931		2011-08-22	나가수 재방송보다 인순이님 인순이님의 아버시 듣다 눈물 날 나다 뻔 하다 티비 티비로 보다 소름돋았어요 인순이님 인순이님이 참 차다 행복 사람 생각 드네 드네요
+mbc_sundaynight_nagasoo	hakyong1000	POST	pymb2pe-bcag		2011-08-22	나가수 인순 인순이 나가수 나가수의 새롭다 나다 나 인순 인순이 였다
+mbc_sundaynight_nagasoo	kongmoa	POST	pymb465-smx2		2011-08-22	나다 나 가수 듣기 듣다 나가수 자우림 매직 카펫 라이드
+mbc_sundaynight_nagasoo	kongmoa	POST	pymb4ow-smx2		2011-08-22	나다 나 가수 듣기 듣다 나가수 바비킴 사랑 사 그놈
+mbc_sundaynight_nagasoo	boeun38	POST	pymb64_-ysxjl		2011-08-22	동강듣다 나도 나다 나 모르다 나가수 클릭 보고 바비킴목소리 동강접었다는 tagsmile
+mbc_sundaynight_nagasoo	yestobi	POST	pymb6_6-wdi9		2011-08-22	바비킴 사랑 사 놈 나가수 듣기 듣다 가사 가다
+mbc_sundaynight_nagasoo	manyway84	POST	pymb71m-_8x24		2011-08-22	나가수 보고 보다 보 오다 바이브 노래 cd cd로 듣다 자우림 노래 공연장 들다 함 하다 인순이님 인순이님하 인순이님하는 레전드 바이브 좋다 했었는데 좀 조다 과하다 오늘 몰입되지 않다 조한아저씨 약간 비트 비트가 흠 뚝뚝 떨어지다 느낌이랄까 팔세토 팔세토는 역시 어쩌다 한 하다 번 벌다 들다 제맛 바비킴 횽아 횽아는 역시 기대 대로 대 tagsmile 근데 왜 외다 자우림 자우림이 위냐 위냐고 엉엉 tagcry 평가단 멍충이 tagcry
+mbc_sundaynight_nagasoo	syoon9675	POST	pymb7g3-yo8w5		2011-08-22	아 오늘저녁 나가수 나가수보 잠들다 tagcry tagcry 재방 보다 tagcry 나가수 tagexclamation
+mbc_sundaynight_nagasoo	iyousens	POST	pymb7hy-yq85k		2011-08-22	다시보기 나는가수 나는가수 나가수 월 일 방송분 다시보기
+mbc_sundaynight_nagasoo	jenaland	POST	pymbd1y-_motb		2011-08-22	나가수 인순이 인순이의 아버지 뮤비 또 또한 감동이네요tagsmile 링크 나가수 인순 인순이 아버지 나가수인순 나가수인순이 아버지뮤비
+mbc_sundaynight_nagasoo	ekfrhadl2	POST	pymbd2n-ygm72		2011-08-22	이녀석 언제저렇게 자라다 본방사수 못하다 나가수 나가수를 보고 마지막 순서 인순이님 인순이님의 아버지를조용희경청 그리다 잠시후 인순 인순이 나가수 아버지
+mbc_sundaynight_nagasoo	saekeagod	POST	pymbd4z-5nyrw		2011-08-22	나가수 선보이다 인순이 인순이의 아버지 노래 계속 해서 하다 들다 단지 달다 음원 음원으 들을때 들을때는 아무느낌 없다 무대 하다 하 걸 보다 보 눈물 쏟아지다 가사 공감 하다 하 말고 말고를 떠나다 그녀 그녀의 노래 사람 자극 감동 주다 주 무언가가 있다 같다 노래 들다 한심 정도 울다 또 울다 경험 또 생기다 나다 나 과감 노 외치다 있다
+mbc_sundaynight_nagasoo	kesolee	POST	pymbd_j-57ocv		2011-08-22	나가수 인순 인순이 아버지 듣기 듣다 사람 노래 만들다 노래 사람 울리다 늘다 생각 절 들다 만드 만드는 곡
+mbc_sundaynight_nagasoo	psycho75	POST	pymbgof-vkd9		2011-08-23	백지영양 정말 의리짱인듯 나가수 나오다 안될려 안될려나 tagsmile 나가수 목소리듣고싶어 출처한국 최고 스포츠 엔터테 엔터테인 오센 t토크 ttalk
+mbc_sundaynight_nagasoo	i_u0516	POST	pymbhkp-_04ag		2011-08-23	아이유언니 tagexclamation 언니 부른노래 다 번씩늘어봤는데 미아 미다 boo 있잖 있잖아 마시멜로우 잔소리 좋은 좋은날 잔혹동화 나만몰랐었던이야기 내손을잡 내손을잡아 바람의멜로디마당을나온암탉ost 다노래가좋더라구 다노래가좋더라구요 그런노래를듣고난뒤 팬이 또 가수 꿈 키우다
+mbc_sundaynight_nagasoo	ybrocks	POST	pymbir_-5dx07		2011-08-23	아 부끄러워하시는모습 다느껴질정 tagsmile 도현오빠없는나가수 뭔가텅빈느낌
+mbc_sundaynight_nagasoo	jdouble	POST	pymbjbm-56dm0		2011-08-23	인순 인순이 아버지 mbc 가수 월 일 무편집임재범 더불다 가슴 깊숙하다 곳 울리게 울리게한 공연 daum tv팟
+mbc_sundaynight_nagasoo	jmh3300	POST	pymblds-5hlrh		2011-08-22	나다 나 가수 에서 관객 숨다 숨 죽이다 무대 격
+mbc_sundaynight_nagasoo	i-piggy	POST	pymbll4-em4r		2011-08-22	헐 인순 인순이 대박 걍 할말 할말이 없다 나다 나 가수 아버지 인순 인순이
+mbc_sundaynight_nagasoo	circus	POST	pymblpv-66s		2011-08-22	나다 나 가수다 인순 인순이 위 당연 거다 거르다 거 치다 윤민수 위 대한 대하다 이견 많다 거기 거다 관련 의견 후라이드 반 양념 반 위 당연 짬짜면 짬짜면으 위하다 위 부끄럽다 않은가tagquestion 자식 아무런 논리 없다
+mbc_sundaynight_nagasoo	hd2756	POST	pymbn37-5mvh_		2011-08-23	김범수 콘서트 화환 나가수 센스 화환 김범수 콘서트 화환 나가수 센스 화환
+mbc_sundaynight_nagasoo	babyhyj	POST	pymbnht-gbfz		2011-08-22	tagquestion나가수임재범에비 인순이는딸리지 인순이는딸리지만 인순이도뭐 tagsmile d나보다잘부르면다잘부르
+mbc_sundaynight_nagasoo	kongmoa	POST	pymbnlv-smx2		2011-08-22	나다 나 가수 듣기 듣다 나가수 김조 김조한 천생연분
+mbc_sundaynight_nagasoo	water43	POST	pymbpc4-ib5		2011-08-23	아 나가수 잼있었네 인순 인순이 무대 등장 압도적 우위
+mbc_sundaynight_nagasoo	jaystory	POST	pymbrgx-fi		2011-08-23	나는가수 말다 나다 나 뮤지션 뮤지션이 나다 나 프로듀서 이런거 해보다 이를테면 나는가수다 김연우 김연우는 나오다 있다 유희열 절대 못 말야 이제 슬슬 질리다 스케치북 특집 컨셉 좋다
+mbc_sundaynight_nagasoo	buks2	POST	pymbrp4-_3cex		2011-08-23	나가수순위 나가수순위
+mbc_sundaynight_nagasoo	adicblog	POST	pymbs3c-t6_3		2011-08-23	close up 방송팀 나가수 나가수의 평행이론
+mbc_sundaynight_nagasoo	bynaeil	POST	pymbtap-c5kb		2011-08-23	나가수 나가수는 성인방송tagquestion
+mbc_sundaynight_nagasoo	asdsasdw	POST	pymbv9p-f15m		2011-08-22	오다 나가수 정말
+mbc_sundaynight_nagasoo	kongmoa	POST	pymbvfo-smx2		2011-08-22	나다 나 가수 듣기 듣다 나가수 조관우 사랑
+mbc_sundaynight_nagasoo	yangpa	POST	pymbwh6-y82c		2011-08-23	몇일전 나가수 나가수를 지금 보다 으아 인순 인순이 누나 누다 누 마치 삼국지 조승 조승상의 포스 걸다 나오다 정리 노래 말할것 말할것도 없다 다 휘성 휘성과 더불다 팬 윤민수 나오다 성대 긁어주는거 긁어주는거에 엄지손가락 tagcry 이틀전 나가수 또하나 또하나의 레전드 영상 영상이었구 나는가수 tagexclamation
+mbc_sundaynight_nagasoo	musicland	POST	pymbz6m-y1m0x		2011-08-23	뮤직랜드 luna sea 나다 나 가수 경연 신촌블루스 윤상 th anniversary 예약음반 cd dvd 해외구매 리스트
+mbc_sundaynight_nagasoo	rladbswl725	POST	pymc2ia-5cne2		2011-08-25	tagcry 나두 만나다 싶다 그럼 윤지 윤지만 비법 가수 tagexclamation 가수 되다 되 tagexclamation 비법 늘다 나중 공개 하다 tagsmile 산다라박 팬이 귀엽쪼tagquestion tagsmile ㅈㅅ해 ㅈㅅ해여 비법 가수 되다 되 tagexclamation
+mbc_sundaynight_nagasoo	ryeo1un	POST	pymc3tf-yvwqa		2011-08-25	목요일밤 tagexclamation 내일 내 해가뜨면 모 근심 묻다 두다 행복 행운 가득 금요일 금요 되다 빌다 tagexclamation 나 근심 털다 버릴수 있다 행운 빌다 주다 tagexclamation 힘들다 힘들다 가수려운
+mbc_sundaynight_nagasoo	ygisvipyo	POST	pymc584-5hi2e		2011-08-25	정말 태양 매니아 사이 인정 가수 나다 나 매니아 매니아는 아니다 자칭 매니아 매니아라 믿다 있긴 있긴한데 태양 정말 짱 짱이 보기 보다 드물다 흑인필 흑인필에 그루브 짱 tagexclamation tagsmile
+mbc_sundaynight_nagasoo	kmmj999	POST	pymc7wj-5wvy3		2011-08-26	제가 제 나가수 카페 만들었는데요 함 하다 놀러오세용 tagsmile 요기 tagsmile 배경음익 나가수 음악 김범수 노래 tagsmile
+mbc_sundaynight_nagasoo	hsh8674	POST	pymc7z8-e1p1		2011-08-26	나다 나 가수 호주 공연 확정 출연진 아직 미지수 예 tagexclamation 재밌겠당 파이낸셜뉴스
+mbc_sundaynight_nagasoo	1005food	POST	pymc88l-5wchp		2011-08-25	워크샵 직원 입다 입 티셔츠 입니 입니다 여자 핑크 남다 남자 보라 보다 보 여기서 뽀인트 뽀인트는 나는ooo 나는ooo이 옷핀 옷핀으 고정 워크샵 끝나다 끝 후 밖 입고 입다 다니다 세심 배려 멋지죠tagquestion 근데 얼굴 넘 크다 나온것 같다 건강식품 명품 천호식품 워크샵 나다 나 가수 단체티셔츠 사진 사다 멋지죰
+mbc_sundaynight_nagasoo	mir4star	POST	pymc8nk-_cc98		2011-08-25	나가수 위 인순 인순이 흥 하세욜
+mbc_sundaynight_nagasoo	ray0620	POST	pymcaea-5yy7y		2011-08-26	나다 나 가수 호주 멜번 월 일 공연 tagexclamation
+mbc_sundaynight_nagasoo	rlagmlrud05	POST	pymcbp7-xm01		2011-08-25	나가수 탈락 비운 비운의 가수 jk김동욱 플랜토 플랜토라 재즈 인조 그룹 만들다 음반 내었는데그 곡들중 지브 지브라 라 라는 사 사다 black orpheus zebra from 반니 반니 banni
+mbc_sundaynight_nagasoo	uiu1234	POST	pymcd2q-1vrr		2011-08-27	불명 도 나가수 앨범 좀 조다 디지털 싱글이 싱글이여 싱글이여도 좋다 제발 tagcry
+mbc_sundaynight_nagasoo	serhaii	POST	pymce0z-_afv3		2011-08-25	영어 공부 하다 나가수 월 첫방 노래 부터 돌리다 듣다 중 역시 박요정 박요정이 최고 최
+mbc_sundaynight_nagasoo	0805hyunjin	POST	pymcg66-_exw8		2011-08-25	김범수 있을때 정말 좋다 김범수 완전 잘불러 ㅇㅅㅇ 김범수 빠지다 나가수 tagcry tagcry 출처가수 명예졸업 후 활 이투데 이투데이 t토크 ttalk
+mbc_sundaynight_nagasoo	hansomehun	POST	pymcgvx-5szvp		2011-08-26	장혜진 시구 명품시구 tagexclamation 역시 나가수 원조요정 tagexclamation
+mbc_sundaynight_nagasoo	meancoco	POST	pymcm0v-toti		2011-08-26	u box 사용법 아이모리 포토북 포토북으 성장앨범 만들다 u box 스마트폰 무료어플 나가수 보기 보다
+mbc_sundaynight_nagasoo	rosses10	POST	pymcm3q-__5c_		2011-08-25	나다 나 가수 무료 다운로드
+mbc_sundaynight_nagasoo	rosses10	POST	pymcmbm-__5c_		2011-08-25	나다 나 가수 다운로드
+mbc_sundaynight_nagasoo	ssobeauty	POST	pymcoq6-_9cx2		2011-08-25	포항메이크업학원 포항미용학원 아우라뷰티칼리지 나가수 나가수의 요정 박정현 메이크업 따라잡다 tagexclamation
+mbc_sundaynight_nagasoo	kimhae1102	POST	pymcpo3-5dnb0		2011-08-26	나가수 재방 보다 이 밤 깊어서 깊어서인지 조관우 사랑 완전 꽂히다 꽂히는구
+mbc_sundaynight_nagasoo	sakurahah	POST	pymcpr7-xq85		2011-08-25	나가수 재방보는데 감동 tagsmile
+mbc_sundaynight_nagasoo	tourismvic	POST	pymcqs7-o597		2011-08-25	나가수 호주 멜버른 호주 멜번 나다 나 가수다 가수다에 관하다 몇가지 궁금 점 대한 대하다 답변 차 차다
+mbc_sundaynight_nagasoo	zuuzuuin98	POST	pymcsd5-5ajr7		2011-08-25	고독 추억 후회낙엽 떨어지다 나 없는거리에서 그것 느끼다 가을 낙엽 지면 지다 근데 더워 tagcry 매미 나가수 중 중이 tagcry
+mbc_sundaynight_nagasoo	ideamank	POST	pymcshs-5wvy3		2011-08-26	박정현 나가수 참가 좌절 이루다
+mbc_sundaynight_nagasoo	vovoli	POST	pymcsri-_zd5v		2011-08-26	원문 나가수 나가수의 인기 정말 새삼 놀랍다 웹
+mbc_sundaynight_nagasoo	yanggwibi99	POST	pymcxdv-_ox9g		2011-08-26	오늘 오후 시 분 일요일 일요 낮 시 받을게 받을게요 안 신청 tagsmile 신청하실분 미투데이쪽지 노래제목 가수 앨범명 mr제거인지 mr mr인지 구분 적다 님 님 필요 mr 말씀하셈 전부다라 뭔노래 뭔노래가 있다 모르다 tagcry 나한테 많다 바라진마
+mbc_sundaynight_nagasoo	sharkvos11	POST	pymcyg1-o07i		2011-08-27	우리 부모님 나 세션맨 세션맨같 돈이 돈이되 돈이되는 연주자 가 가다 되다 되 하다 하다 하지 나다 나 가수 뒤 반주 넣다 세션맨 세션맨보다 내 작곡 노래 내 직접 연주 활동 음악가 싱어송라이터 되고싶다 하다 하지 부모님 나 꿈 무시 어떤 부모든 돈 예술 인건가
+mbc_sundaynight_nagasoo	mocg_rom	POST	pymcztx-_hoco		2011-08-25	나다움tv 방송안내 방송안 나른하다 오후 tagexclamation 시 방송 김형철 아나운서 musik 과 고다 함께해 함께해요 오늘 나가수 신입멤버 특집이에 팟플레 팟플레이어 나다움 검색 tagexclamation 링크 클릭tagsmile 링크
+mbc_sundaynight_nagasoo	enews24	POST	pyme02i-_e2wa		2011-08-22	위클리 업다운 나가수 인순 인순이 열풍 한예슬 국민안티 등극 tagquestion 인순 인순이 한예슬
+mbc_sundaynight_nagasoo	kimgeuntai	POST	pyme05g-y3gmz		2011-08-22	언니 오랫만이에 오랫만이에요 tagexclamation 설마 설다 나잊어버린건 아니죠tagquestion 초딩칭구에 초딩칭구에요 tagexclamation 이번 이번에 나가수 멋지다 tagexclamation 언니 화이팅이에 tagsmile
+mbc_sundaynight_nagasoo	smile_star28	POST	pyme0ea-5nx_4		2011-08-22	나가수 인순 인순이 아버지 눈물 흘릴수 밖 없다 인순이 인순이의 아버지
+mbc_sundaynight_nagasoo	apfhs1010	POST	pyme1ba-yiy8c		2011-08-22	아어제 나가수 인순이아버지듣 인순이아버지듣다 눈물날뻔 tagcry 처음 말 부분 그부분 손 눈뮤류 tagcry 진짜 잘불러 잘불러요 인순이짱 tagexclamation
+mbc_sundaynight_nagasoo	doli0308	POST	pyme1ec-5oq9w		2011-08-22	난 나다 날다 나가수보는뎁 tagsmile
+mbc_sundaynight_nagasoo	yunshun5	POST	pyme1pg-yoyg2		2011-08-22	나가수 윤민수tagquestion 윤민수 tagexclamation
+mbc_sundaynight_nagasoo	asianstyles	POST	pyme36j-ymahu		2011-08-22	인순이씨 인순이씨가 나가수 나가수에 나오다 기분 좋다 요즘 나가수 볼 보다 맛 나다 tagexclamation
+mbc_sundaynight_nagasoo	heeya1980s	POST	pyme3mn-g8k6		2011-08-22	어이 없다 취중진담 유해물 왜 외다 새삼스럽게tagquestion 그랬더니 최근 김조한 김조한이 나가수 불렀구 술 들어가다 무조건 필터링 해 하다 버리다 컴퓨터 자동 하다 냅두 냅두고 너네 너네는 사표 쓰다
+mbc_sundaynight_nagasoo	hd2756	POST	pyme5to-5mvh_		2011-08-22	나가수 인순 인순이 아버지 나가수 인순 인순이 아버지
+mbc_sundaynight_nagasoo	real1125	POST	pyme6x5-5gff2		2011-08-22	인순이 인순이의 아버지 나다 나 가수
+mbc_sundaynight_nagasoo	ioioi622	POST	pyme7u0-y9ap6		2011-08-22	나가수 재방송 보는중 나가수 거의 거 다 보다 첨 눈물 주루룩 주루룩 가슴 메이다 메 목 메이다 메 인순이 인순이의 아버지 가사전달 정말 아이들 자꾸 날 나다 쳐다보다 tagcry 돌아가시다 아빠 생각 밤
+mbc_sundaynight_nagasoo	mr_leo	POST	pyme965-_p144		2011-08-22	나가수 바이브 윤민수 술 그남자 그여자
+mbc_sundaynight_nagasoo	edutcom	POST	pymec7g-y1y40		2011-08-22	나가수 인순이아버지 나가수인순이아버지
+mbc_sundaynight_nagasoo	syuos	POST	pymee9_-yulut		2011-08-22	어제 나가수 ㅊㅈ관객 순팽이닷컴
+mbc_sundaynight_nagasoo	bang_gli	POST	pymefax-ntyb		2011-08-22	나가수 자우림 동영 보다 이게왜 위 이해 안되다 지난주 박정현 박정현의 그것 내 내다 세상 위 인거 인거도 이해 안되다 개인적 들국화 전인권 노래 좋아해서인지 모르다 답답 현실 대한 대하다 청춘 고뇌 담기다 노래 예쁘다 부르다 도입부 과도 애드립 부담 후반부 yb yb가 불렀으면 좋았을거 같다 생각 들다 어제 대구 동성 아줌마 밴드 보컬 보컬이 같다 노래 잘불렀다는 생각 대한민국 롹 롹의 전설 들국화 우습다 보고 보다 보 노래한거 아냐tagquestion그걸 위 주다 주 사람 원곡 원곡이 어떤지 모르다 거야tagquestion me
+mbc_sundaynight_nagasoo	red359	POST	pymefsk-j5y4		2011-08-22	나가수 한동안 안 안보 저번주 방송분 대한 대하다 말다 말 많다 보다 장난 장 아니다 아녔구 물론 모 무대가 무대 그랬던건 아니다 챙겨봐야 챙겨봐야하 챙겨봐야하나
+mbc_sundaynight_nagasoo	skysungeun3	POST	pymeg51-_b6f8		2011-08-22	나다 나 가수 번째 첫 경연 tagexclamation 위 인순 인순이 압도적 위 윤민수 위 김조 김조한 위 조관우 위 바비킴 위 장혜진 위 자우림
+mbc_sundaynight_nagasoo	shimon	POST	pymegfb-px4n		2011-08-22	음악성 가창력tagquestion 특집노래 남다 음악 빠지다 나가수 신드롬
+mbc_sundaynight_nagasoo	mikkol	POST	pymegnt-37c3		2011-08-22	인순이 인순이의 나다 나 가수 아버지 이제 들다 감동받았다기보다는 은혜 fb
+mbc_sundaynight_nagasoo	fruitsranger	POST	pymegvs-nshx		2011-08-22	또 와이와이와 tagexclamation 임재범 임재범이 나가수 부르다 여러분 흥얼거리는걸가
+mbc_sundaynight_nagasoo	sjk02033	POST	pymeh1l-jd51		2011-08-22	나가수 새멤버 바비킴 윤민수 인순 인순이
+mbc_sundaynight_nagasoo	syuos	POST	pymej45-yulut		2011-08-22	나가수 방청객 ㅊㅈ 계속올라오길래 순팽이닷컴
+mbc_sundaynight_nagasoo	namhank	POST	pymeju2-y0qtc		2011-08-22	진술 가능 만들다 전제 한국 사회 가수 없다 늘다 믿다 믿음 나다 나 가수 라 라는 주장 진실성 얻다 있다 것 말 없다 가수 있다 하다 하 여기 나다 나 가수 라 라는 발화 의미 숨다 있다 이택광 이택광의 왜tagquestion 나다 나 가수 빗대다 본 보다 한국 정치인 정치
+mbc_sundaynight_nagasoo	ecarus88	POST	pymek0v-baf8		2011-08-22	두산타워빌딩 발도장 tagexclamation 점심시간이어서 점심시간 쉬다 어제 못본 나가수 무편집 보다 이제 나가수 어떻 어떻하냐 tagcry 거의 거 끝판 대장 인순 인순이 윤민수 어쩔꺼 어쩔꺼야 tagcry 아 윤민수 대박 보다 회사서 울뻔 울뻔함 tagcry 나 나다 자우림 진짜 좋아하다 via 아임in
+mbc_sundaynight_nagasoo	1958han	POST	pymep5w-c77c		2011-08-22	사랑 깊다 상처 박정현 김범수 나다 나 가수
+mbc_sundaynight_nagasoo	dldbstn0426	POST	pymeq7m-rlny		2011-08-22	지금 나가수 무편집 영상 깔아놓고 듣다 중 tagexclamation
+mbc_sundaynight_nagasoo	zenath	POST	pymeqmh-5jk8h		2011-08-22	music my life 박정현 년 발매 집 piece piece에 수록 곡 가사보기 가수 노래 소개할때 항상하 항상하는 얘기 박정현 박정현도 좋다 노래 많다 손꼽다 힘들정 힘들정도 잘 자다 알려지다 않은곡중에선 전야제 바라다 바람 지는꽃 같다 본문 상관 태그 하나 하다 하 빠밤 뜬금없 생각 미투 미투하 미투하다 닉네 닉네임 닉네임이 한글자 특 일반적이지않은 글자 일테면 뙇 같다 tagsmile 닉네 닉네임 닉네임을 자주보는데 오늘 문득 나도 나다 나 해보다 싶다 뭐 젣 이러케 하다 되려나tagquestion 내 제일 제 잘나가다 piece
+mbc_sundaynight_nagasoo	kys4360	POST	pymesko-5wkd4		2011-08-22	바비킴 taglove 나가수 소감 taglove 나가수 합류 taglove 바비킴 taglove
+mbc_sundaynight_nagasoo	chogye74	POST	pymetql-58bdh		2011-08-22	나가수 인순이 인순이의 아버지 정말 많다 울다 진심 담 가수 진심 담 아파트 진심 담 주얼리 주얼리를 만들어야겠다 tagexclamation 가슴 울리다 노래 노랗다 배려 아파트 마음 느끼다 있다 주얼리 이게 업 인게 인게야 stylo co kr 인순 인순이 나가수 아버지 후기 감동 폭풍 스타일 주얼리 크래프트
+mbc_sundaynight_nagasoo	sinsegy2001	POST	pymeuad-ksla		2011-08-22	나가수 재방하네 tagsmile 보고 보다 보 운동가야지 tagsmile 저번주꺼인가tagquestion
+mbc_sundaynight_nagasoo	sks5688	POST	pymeuvy-y8eg7		2011-08-22	술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술술 여성부 나 나다 금안하냐tagquestion tagsmile cm등등빠순이 가수노래 금하다 비스트팬한테 한번 털리다 pm pm은 안하는거 보다 푸쳐핸섭 노래 노랗다 클럽분위기 tagsmile
+mbc_sundaynight_nagasoo	1958han	POST	pymevgm-c77c		2011-08-22	그남자 그여자 윤민수 바이브 나다 나 가수
+mbc_sundaynight_nagasoo	xixkdi	POST	pymevph-_p7dc		2011-08-22	인순 인순이 씨 노래듣고 마냥 울다 tagexclamation 나가수
+mbc_sundaynight_nagasoo	kkumkkum11	POST	pymew1w-p5mr		2011-08-22	나가수 인순 인순이 나다 나 가수 인순 인순이 아버지 거위의꿈 을 들어봅시 들어봅시다
+mbc_sundaynight_nagasoo	verniigh	POST	pymewzw-_caj3		2011-08-22	인순 인순이 선호도 선호 위 tagexclamation 나가수 인순 인순이 아버지 청중단 눈물
+mbc_sundaynight_nagasoo	rbghkrha	POST	pymex04-_w0p4		2011-08-22	나가수 지금 보다 인순 인순이 누님 taglove
+mbc_sundaynight_nagasoo	baby2710	POST	pymex4w-51wjj		2011-08-22	나가수 재방 보다 인순이님 소름돋 소름돋아 taglove 멋있다 taglove 나 나이 저렇다 먹는거지
+mbc_sundaynight_nagasoo	ey5565	POST	pymexaw-_8vjd		2011-08-22	바비킴 나가수 악몽 바비킴 나가수 악몽
+mbc_sundaynight_nagasoo	clsrn201	POST	pymexv3-h6ap		2011-08-22	나가수 재방 보다 인순이님 인순이님이 아버지 부르다 나레이션 나레이션만 들다 눈물 하 하다
+mbc_sundaynight_nagasoo	blueforward	POST	pymexxv-5wx4s		2011-08-22	어제 나가수를보는대 인순이 인순이의 아버지 정말 대단 말다 말 안 이런가수 노래 들다 들 있다는게 참 차다 행운
+mbc_sundaynight_nagasoo	tkanrlrn	POST	pymeycx-_t46i		2011-08-22	인순 인순이 선호도 선호 위 나가수 아버지 부르다 인순 인순이 전원 기립박수
+mbc_sundaynight_nagasoo	dlgusrn0204	POST	pymeyja-55xg0		2011-08-22	인순 인순이 아버지 나가슈 라이브 없다 영상하 영상하나 올리다 방금 나가수 보고 보다 보 울컥 조금 울었구요 들으십시오 오늘 부모님 전화한통 해보다 어떨런지요tagquestion
+mbc_sundaynight_nagasoo	babo_boram	POST	pymeyxn-_rc2u		2011-08-22	나는여자 나는가수 윤민수 그남자 그여자 술 성대 긁다 반가성 창법 감동물결 땡뚱 나는여자 찾아볼수
+mbc_sundaynight_nagasoo	chunhee1978	POST	pymezgi-5nokj		2011-08-22	어쩌다 김연우란 가수 좋아지다 노래 노랗다 잘하는건 알고있었지만 나 나다 맘 허락 사정 tagsmile 꽃보다남자땜 꽃보다남자땜에 듣다 사랑 흔한말 흔한말에 전 다 들었던노래지만 오늘 정말 특별하네용
+mbc_sundaynight_nagasoo	cjh040524	POST	pyme_fy-yhuxf		2011-08-22	나 나다 왠지 나가수 팬인듯 윤민수 바비킴나왓어 tagsmile
+mbc_sundaynight_nagasoo	jaydenstyle	POST	pyme_pd-5f1eq		2011-08-22	나가수 인순이 인순이의 열창 보다 누군가 말 끝판왕 끝판왕이 벌쓰다 나오다 정말 가다 가지다 모 것 노래 부르다 몇몇 뉴스 표현 제 의 임재범 임재범이 아니다 오래다 세월동안 노래 모 것 걸어오다 인순 인순이 자체 무대 찾다 관객 위하다 가수 자체
+mbc_sundaynight_nagasoo	adholic-	POST	pyme_u0-5s434		2011-08-22	lgu lte 속도 속 나가수 박정현 보다 알다
+mbc_sundaynight_nagasoo	cho_jun	POST	pymf0aq-_5f7t		2011-08-22	어제 나가수 완전 대박 tagexclamation
+mbc_sundaynight_nagasoo	tkclrhddnjs	POST	pymf0e7-n4i2		2011-08-22	인순이인순 인순이인순이 나가수 선호도 선호 조사 조다 위 영원 디바 인순 인순이
+mbc_sundaynight_nagasoo	ichaboy	POST	pymf1ag-_qwn5		2011-08-23	just finished watching survival 나다 나 가수 와우 tagexclamation 인순 인순이 최고 최고 최 tagexclamation sooni win tagexclamation
+mbc_sundaynight_nagasoo	karls7	POST	pymf1vp-qvh3		2011-08-22	윤민수 그남자그여자 술 나다 나 가수 무편집 목상태 목상태가 좋지않다 과잉 감정 말다 말 많다 정작 베플 베플에서 같다 현장무대 관객 동화 하다 편집 멘트 멘트도 무편집본 무편집본에서 볼 보다 있다 하다 오늘 술한잔 하다 가야겠다 정말 윤민수 그남자그여자 술 나다 나 가수 나가수 무편집 링크
+mbc_sundaynight_nagasoo	tjswn7933	POST	pymf26g-yl1r0		2011-08-25	나 미친 미친들이 좋아하다 가수는tagquestion 난 나다 날다 인피니트
+mbc_sundaynight_nagasoo	seraph_00	POST	pymf28p-5agrs		2011-08-22	나다 나 가수 인순 인순이 알고보 알고보니 나다 나 교수 전임교수 후학 양성
+mbc_sundaynight_nagasoo	aido	POST	pymf34r-_rev1		2011-08-22	나다 나 가수 나가수 임재범 폭행 혐의 피소 피다 tagexclamation tagquestion 오잉 tagcry
+mbc_sundaynight_nagasoo	e_shinyoung	POST	pymf3fn-ys5rw		2011-08-22	나가수 인순이씨 공연 보셨나요tagquestion 가슴 먹먹 하다 하 눈물 맺히다 하다 곡이었던거 같다
+mbc_sundaynight_nagasoo	losho	POST	pymf3u0-ys5uf		2011-08-23	어제자 나가수 나가수를 보다 보 새로갈아탄 패돌 패돌이 앱들을 깔다 있다 심 느리다 한국 들어갔을때 느끼다 번개 앱다운 속도 그립다 나도 나다 나 가수 반 반만 노래
+mbc_sundaynight_nagasoo	nunurigo121	POST	pymf4ak-_9tci		2011-08-25	다시보기 mbc 우리 일밤 서바이벌 나다 나 가수 rhrl
+mbc_sundaynight_nagasoo	search_now	POST	pymf52j-5y0f5		2011-08-22	김기범 극동대학교 애정 헬스닭 나가수 인순 인순이 로또 회당첨번호 이재연 장효조 김희철 뿌리깊은나무 네이버 실시 급상승 검색어
+mbc_sundaynight_nagasoo	hirosimaill	POST	pymf5fa-l5po		2011-08-22	어제 나가수 보고 보다 보 울다 인순 인순이 아버지 들다 마음 뭔가 미다 나가수 보다 좋다 모두 즐겁다 점심식사하세
+mbc_sundaynight_nagasoo	tae6666	POST	pymf5mq-5cdf0		2011-08-26	나가수 월 일 호주 합동 콘서트
+mbc_sundaynight_nagasoo	minbang0531	POST	pymf7b9-_sahp		2011-08-23	그리다 음악시간 선생님 나가수 보여주다 보 영상찾는데 없다 다운 했거든tagquestion 근데 포인트 없는거야 그거 보고 보다 보 우리반 우리반에 남자애 선생님 포인트 짱많은데 쓰실래요tagquestion 이래서 선생님 로그인좀 해달라해갔고 햇는데 또 다르다 남자애 야 쟤꺼 다운로드 목록 보다 야동 뭐다운받았나보게 이래서 다 빵터지 빵터지고 선생님 포인트 많다 쓰다 남자애 아 선생님 tagexclamation 야동다운 야동다운받아 야동다운받아야 된다구 된다구요 tagexclamation 아껴쓰다 tagexclamation 막 이랫엌 tagsmile 앜 tagsmile 덕분 나가수 잘봤다능
+mbc_sundaynight_nagasoo	darktt83	POST	pymf809-zoxb		2011-08-25	인순 인순이 아버지 나가수 나는가수 인순 인순이 아버지 듣다
+mbc_sundaynight_nagasoo	yeonmi0528	POST	pymf8l4-y_qx4		2011-08-23	나다 나 학년 반 번 벌다 전연미 tagexclamation 나다 나 가수 될거양 다들 저 응원 주세용
+mbc_sundaynight_nagasoo	yeonmi0528	POST	pymf8nh-y_qx4		2011-08-23	나도 나다 나 가수 얼짱 얼짱이 되다
+mbc_sundaynight_nagasoo	princesskim	POST	pymf8_l-9019		2011-08-22	난 나다 날다 어제 나가수 윤민수 나오다 보다 어제 검색어 위 윤민수 윤민수가 누구야tagquestion 였다니 tagsmile 후덜덜 후덜덜하네
+mbc_sundaynight_nagasoo	hotvideo	POST	pymf9d_-uy8		2011-08-22	나가수 인순 인순이 아버지 월 일 동영 나가수 인순 인순이 아버지 월 일 동영
+mbc_sundaynight_nagasoo	loanbay	POST	pymf9r6-yrp_n		2011-08-25	나가수 윤민수 소속사 이르다 이름 얽히다 비밀 비밀은
+mbc_sundaynight_nagasoo	dbwls_9857	POST	pymf9y0-jbs_		2011-08-25	나 나다 이세 떠나고파 세상 미련 왜있어tagquestion 좋아하는가수 콘서트 가다 아이컨텍 했었으니까 괜찮다 내 아무리 남친 남친이 없었다 좋아하다 사람 많다 괜찮다 하고싶은것 하고싶은것도 없다 살다 뭐
+mbc_sundaynight_nagasoo	itoa	POST	pymfadv-ahtb		2011-08-22	나는가수 나다 나 가수 인순 인순이 임재범 이상 감동 보여주다 taglove
+mbc_sundaynight_nagasoo	psyco0724	POST	pymfaqf-yrrdp		2011-08-25	나가수방청권 나가수방청권이 당첨 tagsmile
+mbc_sundaynight_nagasoo	jjh6857	POST	pymfb1a-ycksw		2011-08-26	오늘 두류공원 가수온데 아 나 나다 가고싶은데 학원땜 학원땜에 못가 tagcry 슈퍼주니어도온다는데 tagexclamation 가고싶돠아아아아아ㅏ아아앙 내다 육상 개막식 그때 가수 오겠지tagquestion 가고싶다다다다다다다다ㅏ다당
+mbc_sundaynight_nagasoo	iffu	POST	pymfb52-yadq		2011-08-23	lte 속도 속 비교 나가수 국민요정 박정현 박정현을 통하다 보다 보 g 속도 속 비교 tagexclamation 통신사 최초 비교 광고 tagexclamation
+mbc_sundaynight_nagasoo	sds8822	POST	pymfbai-gwvn		2011-08-23	나가수 인순이 인순이의 아버지 노래 노랗다 첫소절 소름리 막돋더 막돋더니 눈물 좀 조다 나다 오다 아직 아직도 소름 임재범때 임재범때도 느끼다 못하다 느끼다 느끼 직접본다면 진짜 엄청 폭풍 눈물흘렸을것 같다 느낌 느끼다 아 역시인순 역시인순이 고 겨울방학때 롯데호테러일할때 싸인이라두 받아둘껄 아직 아직도 소름돋 소름돋아 들을때 들을때마 오다
+mbc_sundaynight_nagasoo	24dmswn	POST	pymfc7u-qlh2		2011-08-23	저왔어 저왔어요 천상지희 다 선데 선데이 나좀봐줘 이노래들으니까 제가 제 때 그때 축구경기를보러갔어요 그때축구경기초반에하 응원 가수가온거예 그분 그분이 천상지희인거예 전 절다 별 관심 없다 그런데 지금 알고보니까 천상지희거예
+mbc_sundaynight_nagasoo	cutti2002	POST	pymfcgo-heyz		2011-08-23	요즘 장혜진 닮았다네 나가수 효과 나에게도tagquestion tagsmile 대 김하늘 닮다 말 많이들었는데 믿거나말거 믿거나말거나 tagexclamation
+mbc_sundaynight_nagasoo	ostarmall	POST	pymfdt6-5fvrd		2011-08-22	나가수 인순 인순이 아버지
+mbc_sundaynight_nagasoo	zwhsalsz	POST	pymfein-_ofiq		2011-08-25	나다 나 가수다 가수다에 인순 인순이 보고 보다 보 울어써 우리 할아버지 생각 tagcry 보고싶다 tagcry 인순 인순이 고맙다
+mbc_sundaynight_nagasoo	karls7	POST	pymfeqa-qvh3		2011-08-22	인순 인순이 아버지 나다 나 가수 무편집 어제 무대 보고 보다 보 딱 이말 이말이 생각 반칙 애초 나다 나 가수다 가수다에 나오다 안되다 위치 분 나 가수 라 라는 말다 말 잘어울리 잘어울리는 분 무대 노랗다 노래 모든것 모든것이 완벽 가수 자체 나다 나 가수 나가수 인순 인순이 아버지 무편집 링크
+mbc_sundaynight_nagasoo	kongderella	POST	pymff61-5sb6f		2011-08-26	장혜진 애국가 동영 장혜진 시구 장혜진 나가수 콩데렐라
+mbc_sundaynight_nagasoo	mbcnews	POST	pymffuh-5khhg		2011-08-23	연예투데 인순 인순이 나가수 원년멤버 빈자리 메우다 하이킥 늘다 패자 역습 안드로이드 아이폰
+mbc_sundaynight_nagasoo	kjm8030	POST	pymfg0b-yow8x		2011-08-22	나가수 바비킴 데뷔 때 보다 보 긴장 악몽
+mbc_sundaynight_nagasoo	ddd376	POST	pymfg20-58h53		2011-08-22	토요일 나가수 나가수에 우리 담임 담 나왔대
+mbc_sundaynight_nagasoo	kdsoi1	POST	pymfg4r-_mw92		2011-08-22	나가수 보다 인순 인순이 대박 사내넘 사내넘이 이런걸 이런걸로 울다 tagcry 흐헝
+mbc_sundaynight_nagasoo	wjp4444	POST	pymfh3y-y4k1h		2011-08-23	인순 인순이 선생님 활동 때 내 살아있다 자체 행운 같다 당신 당신의 노래 노랗다 한구절 한구절 한구절에 웃다 울다 당신 당신의 음악 귀 기울이다 나가수 다운 받다 보다 첫 소절 눈물 주르륵
+mbc_sundaynight_nagasoo	nunurigo121	POST	pymfh4f-_9tci		2011-08-25	다시보기 mbc 우리 일밤 서바이벌 나다 나 가수 takl
+mbc_sundaynight_nagasoo	imagemode	POST	pymfh9q-w8pt		2011-08-23	나가수 바비킴 데뷔때 데뷔때보 긴장
+mbc_sundaynight_nagasoo	dreamlake62	POST	pymfhv6-8t7x		2011-08-22	인순 인순이 아버지 나다 나 가수 인순이  아버지 감상 후 소감
+mbc_sundaynight_nagasoo	ygb2587	POST	pymficx-_oevo		2011-08-22	바비킴 임재범 임재범에 나가수 출연 문자 보내다
+mbc_sundaynight_nagasoo	annykoh	POST	pymfjgy-k14v		2011-08-26	나가수 인순이 인순이와 김진표 김진표가 부르다 아리땁다 cm송 송혜교 한지민 이미연 cf
+mbc_sundaynight_nagasoo	junjieun1012	POST	pymfjxv-yzaqx		2011-08-26	누군가 아이돌육상선수권 관련 트윗올려주는거 보고싶네 아님가수들이라던지 나도 나다 나 보고싶다 작년 울집목동 했는디 그때는학교에있었지만
+mbc_sundaynight_nagasoo	rkatkwldo28	POST	pymfkhl-52nyn		2011-08-22	애교 노래제목 바나나 바 바나 먹으면 나한테 반 반하 hamagapouch 오늘 간식 사먹야지 tagsmile tagsmile 어제 못 본 보다 윤민수 나가수 편보는데 오다 소름돋아 tagexclamation
+mbc_sundaynight_nagasoo	yoonsong1021	POST	pymflms-7jql		2011-08-22	tagsmile 나가수 최고 최 tagexclamation
+mbc_sundaynight_nagasoo	princesyoon	POST	pymfmba-_htzb		2011-08-22	짜증 울학교 울학교는 아이유소녀시대팬만득실거리 다르다 가수 이르다 이름 못꺼 못꺼내겠네
+mbc_sundaynight_nagasoo	khsa0011	POST	pymfmd9-e57q		2011-08-22	나가수 바비킴 사랑 사 그놈 으 으로 절제 감정속 열창 mydaily
+mbc_sundaynight_nagasoo	younlee2008	POST	pymfme_-5pi_j		2011-08-22	나가수에인순이나옴tagquestion대박 tagsmile
+mbc_sundaynight_nagasoo	dsd0116	POST	pymfmqd-_ita_		2011-08-23	나르다 나 울리다 가수 꿈 심다 곡 must리서치 거위 꿈 꾸다
+mbc_sundaynight_nagasoo	kbatv_art	POST	pymfmrh-5uhnb		2011-08-22	한국방송예술진흥원 실용음악 인순이교수 mbc 나다 나 가수 선호도 선호 위 아버지 감동열창
+mbc_sundaynight_nagasoo	koreasoses	POST	pymfmty-_t7id		2011-08-22	나가수인순 나가수인순이 아버지 듣기 듣다
+mbc_sundaynight_nagasoo	an2105	POST	pymfnlc-ttnr		2011-08-22	바비킴 나가수 악몽 khan
+mbc_sundaynight_nagasoo	kbatv_art	POST	pymfocs-5uhnb		2011-08-22	mbc 나다 나 가수 의 방향
+mbc_sundaynight_nagasoo	dongik0	POST	pymfokx-ylgro		2011-08-23	비온다 tagcry tagcry 비비비 tagexclamation 가수 비보고싶어 나도 나다 나 b형 b형인데 tagsmile
+mbc_sundaynight_nagasoo	yeye1004s	POST	pymfp1n-5rzwk		2011-08-23	원문 나가수 나가수다 인순 인순이 아버지 열창 감동 쓰나미 강남 강 서초 사무실임대 방송 녹화장 가다 직접 들다 엄청 울다 뻔 노래 네이버 다음 검색창 강남사무실퀸 웹
+mbc_sundaynight_nagasoo	yeye1004s	POST	pymfp1v-5rzwk		2011-08-23	나가수 나가수다 인순 인순이 아버지 열창 감동 쓰나미 강남 강 서초 사무실임대방송 녹화장 가다 직접 들다 엄청 울다 뻔 노래 네이버 다음 검색창 강남사무실퀸 daum카페
+mbc_sundaynight_nagasoo	yeye1004s	POST	pymfp1x-5rzwk		2011-08-23	원문 나가수 나가수다 인순 인순이 아버지 열창 감동 쓰나미 강남 강 서초 사무실임대 방송 녹화장 가다 직접 들다 엄청 울다 뻔 노래 네이버 다음 검색창 강남사무실퀸 웹
+mbc_sundaynight_nagasoo	kmjhappysmil	POST	pymfp21-tzt4		2011-08-22	뭔가 한국가수 한국 일본 중국 유럽 등등 해외 많다 가는거 같다 이유 뭐지 tagcry 아 뭔가 씁쓸 tagcry 어느 누나 d 잡히다 않다 하다 맞는거 같다 tagcry 샤이니 샤이니는 사이버가순가 tagcry d가순가 왜 외다 나에겐 잡히다 않는걸까 tagcry
+mbc_sundaynight_nagasoo	yeye1004s	POST	pymfp9i-5rzwk		2011-08-23	나가수 나가수다 인순 인순이 아버지 열창 감동 쓰나미 강남 강 서초 사무실임대방송 녹화장 가다 직접 들다 엄청 울다 뻔 노래 네이버 다음 검색창 강남사무실퀸 daum카페
+mbc_sundaynight_nagasoo	coollife2000	POST	pymfpbx-_p6h5		2011-08-25	무대 떨어지다 들다 괜찮으시죠 ㅇ 헤다 나가수 명예졸업 추카추카 tagsmile ㄷ tagsmile ㄷ 화이팅 tagexclamation 친구소개 bskworld
+mbc_sundaynight_nagasoo	melon_dj	POST	pymfpse-g3qo		2011-08-22	시대별차트 나가수 새 새다 멤버 바비킴 바비킴이 소울 아이콘 등극 그때 tagexclamation 소녀시대 비롯 비롯한 걸 그룹 활약 돋보이다 돋보 년 한국가요  tagexclamation 멜론 시대별차트 만 ㅡ web 년 가요차트 보러가기 시대별차트 나는가수 바비킴 소녀시대 년가 년가요 음악 멜론
+mbc_sundaynight_nagasoo	hyundai253	POST	pymfpxb-5b8oq		2011-08-22	나다 나 가수 나다 나 가수 월 일편 다시보기 바비킴 바비킴과 인순 인순이 윤민수
+mbc_sundaynight_nagasoo	mryann	POST	pymfrah-_wrq9		2011-08-23	원문 메리앤tistory인순이 메리앤tistory인순이의 아버지 열창 나가수 기 트라이앵글 탑 tagexclamation 자우림 자우림이 합류 전 유일 밴드그룹 yb윤도현 yb윤도현이 탈락 박정현 박정현과 김범수 김범수가 명예졸업 함 나다 나 가수 웹
+mbc_sundaynight_nagasoo	asbg97	POST	pymfrbi-86ot		2011-08-25	앗다 무개념 인스피릿 너무많음 레알 짜증 가수얼굴 먹칠할꺼면 팬질 팬질을 하지마 하지마라 씹새
+mbc_sundaynight_nagasoo	simbayah	POST	pymfro_-59p2m		2011-08-22	나가수 인순이느님 등장 tagexclamation 헐 벌써 끝판왕 끝판왕이 나오다 어쩌자는거임tagquestion tagcry 이선희 조용필 두 신다 신 남아계시긴 하다 하지
+mbc_sundaynight_nagasoo	smaz1	POST	pymfs9h-y9th		2011-08-22	유명 가수 죽다 꿈 꾸다 꿈 꾸다 가장많 가장많은 해몽 내 좋아하다 하다 하 나 인생사 어떤 문제 있다 고심 일거리 성취 암시하며내 인기 얻다 얻거 남 자랑 혹 자긍심 갖다 고심 어떤 일거리 성취 의미 길조 제발 말다 덜 말다 해몽 같다
+mbc_sundaynight_nagasoo	gurwns0412	POST	pymfso7-yg_xx		2011-08-26	학교 사탐실 어느 책상 샤프 정엽 정엽이 나가수 탈락 걸 뭐 하게tagquestion 라 라는 낙서 있다 밑 re 낙엽 하다 죽여버린다 tagsmile 아 한참 웃었넼 tagsmile
+mbc_sundaynight_nagasoo	dlrudgml9892	POST	pymftbs-5zo47		2011-08-23	나가수 인순 인순이 아버지 한돈감사 메세지 메세지를 적다 이벤 응모 하세 하세여
+mbc_sundaynight_nagasoo	everysingapp	POST	pymftlx-5jyrg		2011-08-22	저 인순이님 인순이님의 아버지 tagexclamation 소화하긴힘들겠지 나가수보고폭풍감동 tagcry
+mbc_sundaynight_nagasoo	munbinie	POST	pymfttq-yygee		2011-08-26	님 년대 하다 생각 곡저에겐 조관우 행님 행님의 늪 입니 입니다 tagsmile 년 발매 tagexclamation 예전 팬 초딩때 용돈모아 앨범 테이프 사서 사다 늘어질때 무한반복 들었었죠tagsmile 개인적 좋아하다 곡 많다 많다 분들 분들과 공감하기위 나가수 범수횽 범수횽이 불렀던 늪 골랐지롱요 tagsmile 링크 링크는 조관우님 원곡 tagexclamation 유투브tagsmile
+mbc_sundaynight_nagasoo	loveanna419	POST	pymftw5-57p2w		2011-08-23	나도 나다 나 싣다 실 가수 멘트 왜케 웃겨 웃겨여 tagsmile
+mbc_sundaynight_nagasoo	ideamank	POST	pymfu4z-5wvy3		2011-08-23	월 일 나가수 순위 맞쳐보세 tagsmile tagsmile 투표진행중
+mbc_sundaynight_nagasoo	seo6303	POST	pymfuot-_ahns		2011-08-22	나가수 나가수의 인순이님 인순이님의 아버지 보고 보다 보 감동먹어서 미투데이 미투데이에 가입 인순이님 인순이님과 친구신청 하다 하 벌쓰다 친한친구 되었답니다 tagsmile 나도 나다 나 유명가수 친구 되었답니다 자축 tagexclamation
+mbc_sundaynight_nagasoo	0826yujin	POST	pymfv7e-eq5m		2011-08-25	여덟번째 퀴즈 마지막 tagcry 나다 나 가수다 가수다의 박정현 박정현의 키는tagquestion
+mbc_sundaynight_nagasoo	cl2ne1	POST	pymfvaf-y69i		2011-08-23	나다 나 가수다 가수다의 윤민수 윤민수를 알다 tagsmile 진짜 스펙 남다르다 tagexclamation 진짜 좋다 목소리 호소력 소울 끼 다
+mbc_sundaynight_nagasoo	postory1004	POST	pymfvx5-_fi_m		2011-08-23	나가수 김윤 김윤아 자우림 김윤아화보 김윤아금발 김윤아숏컷 나는가수
+mbc_sundaynight_nagasoo	mobetter	POST	pymfw0y-biv9		2011-08-23	음악 일그러지다 정도 베이스 키워놓구선 야 음질 좋다 하다 하 사람 생각 나가수 나가수를 보다 보 음악 어찌 질질짜 질질짜고 소리지르다 야 노래 노랗다 잘 하다 하 듯
+mbc_sundaynight_nagasoo	eyesonly	POST	pymfwor-h0yy		2011-08-23	나가수 무리 편곡 기교 조심 하다 하 이유
+mbc_sundaynight_nagasoo	itoss	POST	pymfwsy-q177		2011-08-22	나가수 바비킴
+mbc_sundaynight_nagasoo	cysh3426	POST	pymfxf8-5mh9		2011-08-27	벽반 tagexclamation 새벽 나가수보 나가수보는 재 재다 tagexclamation 미 tagexclamation
+mbc_sundaynight_nagasoo	poup	POST	pymfye1-23fc		2011-08-22	김범수 콘서트 나가수 가수 보내다 화하다 tagsmile
+mbc_sundaynight_nagasoo	alexppo	POST	pymfyna-_r530		2011-08-26	제 꿈 가수에 가수에요 현제 현제는 소설작가 일하다 일 있다 히트작 히트작은 없다 아직 달콤 노랫소리 소설 내다 인기 없다 뭐 만 사랑 사 받다 되다 제가 제 노래 노랗다 만들다 들어보실레요tagquestion가사 잔인 남자가나 남자가나를 욕하다 욕 말다 표절이에 저 인정 tagsmile 사랑해요뭔솔tagquestion
+mbc_sundaynight_nagasoo	rozq	POST	pymfz2t-g8go		2011-08-22	장윤정 남진 남다 나다 나 트로트 가수 출연
+mbc_sundaynight_nagasoo	miletus	POST	pymf_jk-ybfs7		2011-08-22	나가수 후 가수 옛곡 옛곡을 찾다 인순 인순이 열정 나 열정
+mbc_sundaynight_nagasoo	alfksl75	POST	pymf_vi-4kb9		2011-08-25	바비킴 사랑 사 놈 사랑 사 놈 사랑그놈 바비킴 나는가수 나가수
+mbc_sundaynight_nagasoo	eland2011	POST	pymg2h7-5bkcn		2011-08-26	김범수 박정현 사랑 깊다 듀엣 나가수 명예졸업
+mbc_sundaynight_nagasoo	eland2011	POST	pymg2ze-5bkcn		2011-08-26	박정현 그것 내 내다 세상 으 으로 위 나가수 나가수도
+mbc_sundaynight_nagasoo	eratoskin	POST	pymg5p1-ybst1		2011-08-27	나다 나 가수 호주공연 월 일 확정 출연진 조율 중
+mbc_sundaynight_nagasoo	tourismvic	POST	pymg6ky-o597		2011-08-26	호주여행 멜번 나다 나 가수 예정 따르다 호주 현지 반응 tagexclamation
+mbc_sundaynight_nagasoo	si676744	POST	pymg81z-5xp20		2011-08-26	원문 나다 나 가수 내 뽑다 최고 무대는tagquestion 투표가기 웹
+mbc_sundaynight_nagasoo	passandrew	POST	pymg9tn-hc28		2011-08-26	월 나다 나 가수 가수 호주 오다 벌써 여기 교민 기대 많다 하다 하 있다 감동 도가니탕 푸 욱 빠지다
+mbc_sundaynight_nagasoo	monoskbh	POST	pymga14-52gxr		2011-08-26	바비킴사랑그놈 바비킴 사랑그놈 듣기 듣다 가사 가다 반복재생 나가수
+mbc_sundaynight_nagasoo	heoniel	POST	pymge5w-yt4ol		2011-08-27	알다 돌멩 tagquestion 이의 이 꿈 꾸다 알다 노래 모두 느끼다 느낌 좋다 나가수 나가다 좋을텐데 tagsmile 헉 잠 자다 안온다
+mbc_sundaynight_nagasoo	coffeeplus7	POST	pymghg5-_axw7		2011-08-27	나는꼼수 나는꼼수다 나는꼼수다순위 나는가수 나는가수다순위 꼼수 나는꼼수 나는꼼수다최신 나는꼼수 나는꼼수다 회 나는꼼수다방송 꼼수 꼼수다 가카 나다 나 꼼수 꼼수다 회 나는꼼수 나는꼼수다
+mbc_sundaynight_nagasoo	ghdwntjr111	POST	pymgia2-_t1y2		2011-08-26	나다 나 가수 호주 공연 나다 나 가수 호주 공연 나다 나 가수 호주 공연
+mbc_sundaynight_nagasoo	kamuihot	POST	pymgivc-h6bd		2011-08-27	어제 전야제 몹시 재밌었겠는걸요 tagcry 박정현 박정현과 김조 김조한 두분 두분으로 이미 충분 tagexclamation 아 가볼껄 tagcry 그치 그치만 나가수 재탕 좀 조다 넘해용 김조한님 tagsmile 여전 좋다 tagsmile
+mbc_sundaynight_nagasoo	zbrjf1234	POST	pymgi_p-5s72_		2011-08-27	나두 수지 언니 jyp엔터테인먼트 jyp엔터테인먼트에 들다 가다 가수 데뷔 싶당
+mbc_sundaynight_nagasoo	benjamin756	POST	pymgj6j-5ssal		2011-08-26	나다 나 가수 사랑 깊다 상처 진짜 좋다 가수 노래 많다 사름 가슴 전해 전하다 주다 주 가수 좋다 가수라는걸 알다 되다 네이버뮤직 나다 나 가수 사랑 깊다 상처 박정현 김범수
+mbc_sundaynight_nagasoo	rndfld	POST	pymgj73-_dq8z		2011-08-27	나다 나 tagexclamation 가수
+mbc_sundaynight_nagasoo	einxh	POST	pymgje0-y2we7		2011-08-26	원문 einxh 윤도현 두시 두시의 데이트 김어준 나가수 평 오늘 유머 오늘의유머 베스트 베오베 웃다 웃기다 자료 사진 사다 오유 저장소 오유저장소 todayhumor ou storage store 웹
+mbc_sundaynight_nagasoo	jsa1236	POST	pymgm2b-yzoge		2011-08-27	나가수 인순 인순이 아버지 의 멘토 만나다 눈물쏜 눈물쏜아 인순이멘토
+mbc_sundaynight_nagasoo	itoss	POST	pymgmid-q177		2011-08-26	나다 나 가수 호주 공연
+mbc_sundaynight_nagasoo	yun0430a	POST	pymgrkf-l33a		2011-08-27	한명보는거 보다 여러명 여러명이 나다 그리다 밴드나발라드가수보단 댄스가수 콘서트 잼 왜냐 춤패러디 나 나다 여장 이런거 웃긴걸 웃긴걸로 많다 하다 특 남자 여장 tagexclamation
+mbc_sundaynight_nagasoo	hsh8674	POST	pymgs39-e1p1		2011-08-27	나가수 호주 공연 월 일 확정 탈락 타다 가수 출연 논의 논 중 와웅 tagexclamation 알다
+mbc_sundaynight_nagasoo	dpaqmffor082	POST	pymgsgq-_z0_d		2011-08-27	나 나다 팸에 좀 조다 끼우다 tagcry 내 가수 바꾸다 바꾸다 tagcry
+mbc_sundaynight_nagasoo	green981109	POST	pymgwd6-_e8lf		2011-08-27	진짜 틴탑 인조되면 어떻게 어떻게될지 보 새로들어온 연습생 틴탑 틴탑에 꼽사리꼇다 꼽사리꼇다고 욕먹을거 욕먹을거고 틴탑오빠 슈퍼주니어따라 욕먹을게 뻔 정말 소속사 가수 인생 망치는구나tagquestion 나 나다 진짜 눈물 이러는거 이해안되 말다 말 안나와진짜
+mbc_sundaynight_nagasoo	fc-seoul	POST	pymgwlo-_ohor		2011-08-27	오늘 저녁 시 tagexclamation fc서울vs 강원 tagexclamation 연승 도전 tagexclamation 다행 아직 날씨 good good tagexclamation 빕스 명 샐러드바이용권 드립니당 스포츠마사지 나도 나다 나 가수 보다 오세용tagsmile 어린이 물놀이풀장 어린이도서관 프풋 게임 tagexclamation 오늘이기면 위도 위 어쩜 가능한데요tagsmile tagsmile 여러분 기쁨 기쁘다 함 하다 tagexclamation
+mbc_sundaynight_nagasoo	dkyoon	POST	pymg_qj-km8		2011-08-27	웃다 또 웃다 나도 나다 나 가수 짝퉁 의외 노래 노랗다 진짜 잘 tagsmile fb
+mbc_sundaynight_nagasoo	klpoie	POST	pymh0d_-9hi0		2011-08-27	벅스 독점 이벤트 투표 나가수 보러가자 tagexclamation bugs 나는가수 나가수 벅스 e entry
+mbc_sundaynight_nagasoo	9705261	POST	pymheqn-_z3up		2011-08-27	나 나다 가수인가바 미안 때리지마 tagexclamation
+mbc_sundaynight_nagasoo	anju5464	POST	pymhfj1-ybpbf		2011-08-27	자 자다 조권님 정답 tagexclamation 답 조율이졍 tagsmile jk김동욱 jk김동욱이 나가수에서부른거에욬
+mbc_sundaynight_nagasoo	wodls0224	POST	pymhfvz-__bpx		2011-08-27	주 블루리본스튜디오 나도 나다 나 가수 tagexclamation 라 라는 앱으로 유저 유저가 직접 노래 업로드 업로드하 업로드하여 댓글 쪽지 프로필 사진 사다 등 통한 통하다 커뮤니케이션 좋다 hit 를 통한 통하다 랭킹제도 통하다 가수 노래 동시 유명 유명해지 재밌는 커뮤니케이션 스트리밍 뮤직앱 우리가게 손님 대표이사 어플시험판보여주셨을때 재미있었어요 다들 좋은평가 다운 부탁
+mbc_sundaynight_nagasoo	wlsrtuh	POST	pymhjvl-_64jn		2011-08-27	감하다 나도 나다 나 가수 패러디 올리다
+mbc_sundaynight_nagasoo	passandrew	POST	pymhmyj-hc28		2011-08-27	나가수 호주공연 안타깝다 vip only 라는데 도대체 vip 선정기준 뭔지 애메 애메하네 그럼 여기 교민 공연 못본다 못본다는 말 슬프도 슬프도다
+mbc_sundaynight_nagasoo	jeon970118	POST	pymhvf7-sygg		2011-08-27	나다 나 가수 노래 노랗다 추천 ver
+mbc_sundaynight_nagasoo	memo84	POST	pymhvjn-_12fb		2011-08-27	나다 나 가수 경연 청중 평가단 추천곡 listening 나 나다 가다 i leave 조수미 박정현 박정현 조수미 나가다 나다 나 가수 경연 청중 평가단 추천곡
+mbc_sundaynight_nagasoo	anju5464	POST	pymhw_6-ybpbf		2011-08-27	마니어렵지tagquestion tagsmile 힌트 tagexclamation 옥주현 tagexclamation 나가수 tagexclamation
+mbc_sundaynight_nagasoo	mhw7273	POST	pymi3rq-yjs_m		2011-08-26	있다 능력 그렇다 날 나다 속이다 하다 이상 순애보 없다 난 나다 날다 널 널다 떠나버릴 끄다 내 나가수 제일 제 좋아하다 지금 명졸 명졸한 박정현 박정현의 이브 이브의 경고
+mbc_sundaynight_nagasoo	sdc06036	POST	pymi71o-exww		2011-08-26	아 그거 보다 나 나다 진짜 학원쉬는시 그거보다 눈물흘렸는데 수업시작 안멈춰서 내 좋아하다 가수 강대성한테 감동받은게 아니다 아니 인간 강대성한테 감동
+mbc_sundaynight_nagasoo	insoone	POST	pymi7lb-_99p_		2011-08-26	맛있다 들다 힘내다 멋지다 노래 노랗다 많다 들려주다 이번주 나가수 나가수도 기대할게요tagsmile
+mbc_sundaynight_nagasoo	rlagoalsmc	POST	pymi92g-y4p23		2011-08-25	늪좋 늪좋아 이제 들다 최고최고 tagsmile 이제 내 내다 애창곡 하나 하다 하 생기다 tagexclamation 여러분크크늪크크나항상그대를크크 나는가수 덕분 노래방 공감 이끌어내다 노래 노랗다 많다 부를수 있다 수능끝 수능끝나 수능끝나고 가다 tagcry 아쉽당 웅 웅이 나 수능끝 수능끝나 수능끝나고 노래방가자 횽 횽이 쏘다 당근
+mbc_sundaynight_nagasoo	kugane	POST	pymiamm-g9yi		2011-08-25	나도 나다 나 가수 tagexclamation 평택 예심 차 차다 tagexclamation 말 많다 탈 많다 하루 tagexclamation 그렇다 무언가 진행 되다 되는구 라 라는 생각 들다 하다 하 하루 tagexclamation
+mbc_sundaynight_nagasoo	hdh3167	POST	pymibul-_tbwj		2011-08-25	나도 나다 나 가수못지 안다 너레 잘부른다구 tagexclamation
+mbc_sundaynight_nagasoo	hdh3167	POST	pymiel5-_tbwj		2011-08-25	나다 나 중딩 가수 tagexclamation
+mbc_sundaynight_nagasoo	ranigud	POST	pymif0i-wa6		2011-08-25	확실 나가수 나가수는 예능 맞다 예능감 거의 거 없다 사람 남다 왠지 재미 없다 이전 사람 사다 의 의외 면 을 보다 보 걸 보다 하다 이젠 진짜 경쟁 느끼다 느낌
+mbc_sundaynight_nagasoo	shinhwamjs	POST	pymifft-8yx1		2011-08-25	장혜진 아름다운날 을듣다가울컥눈물이 나가수 재방 후기
+mbc_sundaynight_nagasoo	postory1004	POST	pymihna-_fi_m		2011-08-26	이번주 나가수 나가수가 부르다 부 곡 뭘까tagquestion
+mbc_sundaynight_nagasoo	urseason	POST	pymihx9-5jf		2011-08-26	나도 나다 나 가수 천엽
+mbc_sundaynight_nagasoo	-__workq1	POST	pymijy_-_al0g		2011-08-26	개기기 개기기가 특기 나다 나 틴탑 에이핑크 내 좋아하다 가수 욕하다 존 존나 발끈 또 칭찬 엄청 좋아하다 그리다 초코 초코가 함류되어 함류되어있는 걸 좋아하다 아이스크림 빠삐코 설레이다 좋아하다 그리다 이사 엄청 가다 가 싶어 싶다 하다 하 아 아이 가수 꿈인아이에 꿈인아이에요 그리다 본명 지은지고 지은지고요 앞으로 앞으로해 앞으로해도 지다 거꾸로해 거꾸로해도 지은지에 나 친해질래요tagquestion
+mbc_sundaynight_nagasoo	seraph_00	POST	pymij_q-5agrs		2011-08-25	인순 인순이 부학장님 나가수출연 관련 뉴스
+mbc_sundaynight_nagasoo	bos231	POST	pymim1j-mpxv		2011-08-25	난 나다 날다 괜찮다 나다 나 늘항 그리움만쌓여져 그렇다 사랑하기때문 보고싶었지만 그대는어디에 안보 그르다 찾아나서다 태양 날 나다 빛처져서 태양 피하다 달려가다 어디 어디에 보이지않아 결국 가질수없는것이 그렇다 왼손잡이 힘차다 달려나가다 tagexclamation 이상 나가수 미션곡이였습니다tagsmile
+mbc_sundaynight_nagasoo	niceilm	POST	pymip0d-3ns		2011-08-25	나다 나 가수 경연 내 부르다 싶다 노래 노랗다 listening 우연 이정선 박정현 이거 네이버 뮤직앱에서 남다 남기다 거 아이폰 네이버 뮤직앱 드디어 출시 tagexclamation 나다 나 가수 경연 내 부르다 싶다 노래 노랗다
+mbc_sundaynight_nagasoo	orionbounce	POST	pymirjk-yx5cx		2011-08-26	내 있다 할곳 나 목표 댄스가수 춤 추다 잘추 잘추고 락보컬 보다 보 노래 노랗다 잘 공중파 부조 앉아 cp 가요방송 리허설 내 대신 다 하다 벌쓰다 부터 신나다 신 빨다 자리 앉다 하다
+mbc_sundaynight_nagasoo	golive1114	POST	pymivsr-5sjci		2011-08-26	이은미 어떤 그립다 나 있다 이은미란 가수 가수 이상 노래방가서 부르다 노래 내 내다 대의 대 모 추억 담겨 담겨있다 아 행복 여러분 밤 이은미씨 매력 빠지다 tagsmile
+mbc_sundaynight_nagasoo	dpaqmffor082	POST	pymiynh-_z0_d		2011-08-26	나 나다 가수 얼짱 얼짱할까 미투말 미투말이 tagsmile
+mbc_sundaynight_nagasoo	dpaqmffor082	POST	pymiyth-_z0_d		2011-08-26	나르다 나 가족 조금 넣어줄수있는사람 가수로바꾸라면바꿀 tagexclamation
+mbc_sundaynight_nagasoo	bbsh9393	POST	pymi_be-_5cyq		2011-08-25	닉쿤 아이돌차트쇼 나다 나 얼굴잇는 가수 위
+mbc_sundaynight_nagasoo	gbhk2	POST	pymj1g8-_tyry		2011-08-23	나가수 인순언니 아버지
+mbc_sundaynight_nagasoo	hongiljoo	POST	pymj54u-5r1g2		2011-08-23	조관우 사랑 mbc 가수 월 일 무편집크어 tagcry daum tv팟
+mbc_sundaynight_nagasoo	ckor1234	POST	pymj7_n-a_4t		2011-08-23	바이브 라이브 중 갑 정말 이거 러브레터 부르다 술 이거 나오다 난담 난담에 검색어 떳던걸 떳던걸로 기억 아니다 난 나다 날다 본방 본방으 보다 전율 안타깝다 지금 나가수 환상적일수있을텐데 말
+mbc_sundaynight_nagasoo	haesol97	POST	pymj891-y1owq		2011-08-23	김범수 tagexclamation 나다 나 가수 캐릭터 real singer
+mbc_sundaynight_nagasoo	hy5790	POST	pymjb8t-qo3k		2011-08-23	glass factory classic 글라스팩토리클래식안경 gf col 브라운컬러 나다 나 가수 윤민수안경
+mbc_sundaynight_nagasoo	haqqy_boy	POST	pymjbix-_w5gf		2011-08-23	비주얼가수 바비킴 등극 나가수 윤민수 다운 바비킴 사랑그놈 듣기 듣다
+mbc_sundaynight_nagasoo	frompic	POST	pymjc2a-_d1bz		2011-08-23	박정현 우연 듣기 듣다 가사 가다 반복재생 나는가수 박정현 우연 박정현 우연 박정현 우연히입 자꾸 맴돌다 우연 그대 본 보다 순간 tagsmile 계속 나가수 나가수에 남아 남다 남
+mbc_sundaynight_nagasoo	tethda	POST	pymjcj7-1gl7		2011-08-23	조관우김조한인순이바비킴자우림윤민수 나다 나 가수 나가수 개인적 순위 전 절다 참고 윤민수 윤민수를 가장 좋아하다
+mbc_sundaynight_nagasoo	e-channel	POST	pymjcxh-_wj_6		2011-08-23	다들 많다 바쁘셨나봐요 tagcry tagcry 첨부 사진 사다 보다 보세 e채널 e채널이 찔끔 울다 있다 다음 좋다 guest 들 멋지다 정지찬의위드유 준비 나가수멤버 함께한 정지찬 정지찬의 위드유 첫방송 첫방송은 이번주 토요일 토요 tagexclamation 몇분 오다 즐거우셨 다행
+mbc_sundaynight_nagasoo	tbworld_tv	POST	pymjd4b-_clkj		2011-08-23	나가수 후 인순 인순이 몸값 뛰다 tbworld
+mbc_sundaynight_nagasoo	7starry	POST	pymjfq9-osyy		2011-08-23	나다 나 선글라스 끼다 리쌍 벗다 평범해져버리 이상 가수 개리 개리와 기다 딴따 딴따라
+mbc_sundaynight_nagasoo	gbdsosorhdwn	POST	pymjj8t-ywteh		2011-08-24	엄마 나가수 보는중 노래 노랗다 좋다 tagsmile 쪼다 시끄럽다 하다 하지 tagsmile
+mbc_sundaynight_nagasoo	finky04	POST	pymjjsw-5a6wn		2011-08-24	우리집 나가수 평가단 나가수 나는가수 청중평가단 나가수평가단 자우림 윤도현
+mbc_sundaynight_nagasoo	hongiljoo	POST	pymjkg8-5r1g2		2011-08-23	나가수 또보긔 tagexclamation 비타민워러흡입 tagsmile 오늘 내 청중평가단 ㅇㅇ tagsmile
+mbc_sundaynight_nagasoo	kanadearo	POST	pymjl96-vjm_		2011-08-23	나다 나 가수 재방보는데 명예졸업자 공연 못봤다 tagexclamation 지금 보다 생각 이부분 이부분만 왜 외다 못봤지 aa
+mbc_sundaynight_nagasoo	hongni0415	POST	pymjmxq-5hu9s		2011-08-24	출장가신 울 울다 아부지 아부지께 제사진 보내다 이쁘 이쁘나 이쁘나며 카톡 보내다 울 울다 귀여우신 아부지 ㅅㄹ tagsmile 이런걸 쓰다 tagsmile 어재 나가수 인순이씨 인순이씨의 아버지 노래들음서 울아빠 생각 눈물 났었는뎅 tagcry tagcry 효도합시 tagexclamation 모두 편안한밤 굿밤
+mbc_sundaynight_nagasoo	seesunstory	POST	pymjoop-_9yet		2011-08-23	나가수 나가수에 바이브 바이브의 윤민수씨 윤민수씨가 폭풍가창력 선보이다 저희시선안경 착용 영광 tagexclamation http blog naver com postlist nhntagquestionblogid seesuntv
+mbc_sundaynight_nagasoo	gugakpeople	POST	pymjqm_-ydz54		2011-08-24	위대 탄생 의 이은미 이은미와 나다 나 가수 의 조관우 조관우와 다문화가수 헤라 헤라가 한 하다 무대 오다 오르다 gugakpeople com http www gugakpeople com sub read htmltagquestionuid
+mbc_sundaynight_nagasoo	edudays	POST	pymjsw5-_025j		2011-08-23	동 신정수 나다 나 가수 pd
+mbc_sundaynight_nagasoo	johde1212	POST	pymju6x-_ge6b		2011-08-23	요즘 수준높 수준높은 음악 프로그램 많다 나가수 여기서 그치다 않다 그들 음악성 살리다 기존 비주얼위주 음악방송 뮤뱅 같다 느끼다 느낌 방송 생기다 좋다 가만보면 진짜 음악하 음악하는 가수 밴드 진지 설 서다 방송 공중파 공중파에 없는것 같다 아이돌 따위 따위가 아니다 진짜 뮤지션 뮤지션들이 가수 설 서다 만 자리 정녕 만들다 않는건가tagquestion 노래부르다 좋아하다 민족 있다 프로그램 없다는건 낭비 아니다
+mbc_sundaynight_nagasoo	boyeong9725	POST	pymjwym-y4cw7		2011-08-23	난 나다 날다 나가수팬 나가수팬이 tagsmile 일부터 tagsmile 그중 그중에 김범수 좋아하다 명예졸업해서 명예졸업 아쉬움 아쉽다 하다 하지 나에겐 바이브 윤민수 윤민수가 있다 tagexclamation tagsmile 노래 노랗다 좋다
+mbc_sundaynight_nagasoo	wingsadd	POST	pymjytc-_5e9s		2011-08-23	나는가수 다시보기 회 나가수 다시보기 나는가수 다시보기 회 나가수 다시보기
+mbc_sundaynight_nagasoo	lee36971	POST	pymj_4w-yx7e5		2011-08-23	내 미치다 나가수 재방보겠다 새벽두시 헐 이번건 두시간짜리였던겨
+mbc_sundaynight_nagasoo	tnqls8302	POST	pymm2oj-5w7aw		2011-08-25	엄청 놀다 tagsmile 춤추다 사랑 나 나다 tagexclamation 반드시 댄스가수댈겨
+mbc_sundaynight_nagasoo	01066499930	POST	pymm2y3-y4sgn		2011-08-25	아 짜증 가수란 하림 이란사람 왜 외다 뜸tagquestion개 뜸tagquestion개다 왜 외다 대머리 tagexclamation 아 진짜 tagexclamation 그사람 그사람은 왜 외다 살다 살 tagexclamation
+mbc_sundaynight_nagasoo	jungwoo0508	POST	pymm33s-y7dqt		2011-08-25	엠블랙 모나리자 눈썹 없다 청소년 노래 놀림거리 될수 있다 유해판정 f x 핫섬머 외국인 길 기다 걸을때 무조건 땀 흘리다 인식 심어줄수 있다 유해판정 바닷길 나만부를수있는노래 대중가요 대중가요인데 가수 부를수 있다 유해판정
+mbc_sundaynight_nagasoo	stylisthanul	POST	pymm5d9-_w5s7		2011-08-24	윤도현 윤도현도 나가수 명예졸업tagquestion 트로피 받다
+mbc_sundaynight_nagasoo	051077	POST	pymm679-b12h		2011-08-25	점심 먹고 사무실 올라오다 네이버 들어오다 여성부 어쩌다 저쩌 저쩌고 솔직 아메리카노 아메리카노와 핸즈업 핸즈업은 잘못 생각 나가수 여성부 욕 못먹어서 아직 아직도 배고프다
+mbc_sundaynight_nagasoo	lucidsoul82	POST	pymm6zu-trr1		2011-08-25	선배 명 노래방에가서 나다 나 가수 흉내 청중평가단 노래방기기 내다 탈락 타다 탈락자 커피쏘기 자 자다 선정게임 하다 점맞고 좋아했더만 지다 내 탈락 커피값 만원넘게나 오늘
+mbc_sundaynight_nagasoo	geel2	POST	pymm78c-rypx		2011-08-24	우리나라 정말 실력 가수 많다 있는거 같다 나다 나 가수다 가수다를 시간날때 다음 보다 아이돌 아이돌과 걸그룹 걸그룹만 보다 보 저런 가수 보다 보 좋다 대세 아이돌 아이돌이 걸그룹 걸그룹이 이건 알다 이제 대 아저씨 되다 걸그룹 걸그룹과 아이돌 아이돌의 노래 들다 내 듣다 싶다 노래 아니다 아니 겁니 겁니다
+mbc_sundaynight_nagasoo	yeeuni2000	POST	pymm8aa-yt0ig		2011-08-27	헐헐 나 나다 비스트때문에가수가되고싶어 tagexclamation 헐헐헐헐헐
+mbc_sundaynight_nagasoo	mcmui	POST	pymm9m2-yzx7n		2011-08-24	뛰다 가다 날다 날 가다 그대 내맘 내맘에 들다 오다 그렇다 오래다 그대 곁 남다 강물 그대 곁 흐르다 요즘 노래 내 내다 맘 같다 tagsmile 조관우 행님 나가수 나가수에 오다 오래다 오다 오래다 남아 남다 남 들다 들리다 주시와 주시와요
+mbc_sundaynight_nagasoo	117904	POST	pymma6i-_y7u7		2011-08-25	인순 인순이 나가수 인순 인순이 나가수
+mbc_sundaynight_nagasoo	111	POST	pymmb8y-gk7		2011-08-24	인순 인순이 아버지 동영상나가수나는가수
+mbc_sundaynight_nagasoo	jssgpjo	POST	pymmbu8-_0pa0		2011-08-25	추천곡 가수 인순이 인순이가 부르다 아버지 우리들아버지 대해 대하다 떠오르다 하다 하 그런노래 내 내다 아버지 강한분 그리다 나르다 나 엄 키우다 남다 남자 강하다 강해 하다 내 어릴때 엄하게가르치셨다 하다 하지 그렇다 강한분 강한분이더 강한분이더라 요즘 약한모습 보 마음 짠하다 노래를듣는데 순간울컥 눈물 흘러내리다 내 내다 아버지 과거강인 모습 지금 모습 다르다 느껴서일까tagquestion 제 미벗님 아버지란 어떤존재인가요tagquestion 아버지 사랑 말하는건어떨까요tagquestion 이세 모든아버지 전하다 아버지당신 사랑 taglove
+mbc_sundaynight_nagasoo	aido	POST	pymmc54-_rev1		2011-08-24	가수롸커 윤도현 윤도현도 나가수 명예졸업tagquestion 어떻다 왜 외다
+mbc_sundaynight_nagasoo	tmdghks4299	POST	pymmcl4-592_h		2011-08-27	나는 나는요 tagexclamation 아이돌 가수 되다 되 싶다 싶어 tagexclamation 오디션 붙다 보러가지않았어요 tagsmile 학원형기획사 무언가 불안 tagsmile tagsmile 보컬학원다녀서 실력을늘릴꺼예 tagsmile 가수될꺼예 tagsmile
+mbc_sundaynight_nagasoo	newstownsns	POST	pymmdib-_hksa		2011-08-25	뉴스타운 나다 나 가수 출연 박정현 바비킴 김조 김조한 인의 인 초청무대 이달 일 내달 일 방문객 함께하 함께하는 축제 장 마련 뉴스타운 나가수 멤버 복합쇼핑몰 타임스퀘어 뉴스타운
+mbc_sundaynight_nagasoo	snart03	POST	pymmdj7-5tryi		2011-08-25	안녕하세요tagquestion 성남아트센터 미친님 이거 아시나요tagquestion 성남아트센터 가면 가다 나가수 나가수가 있다tagquestion 월 월 나가수 출신 tagquestion 가수 멋지다 공연 여러분 기다리다 있다 tagexclamation 성남아트센터 가면 가다 나가수 나가수가 있다 tagexclamation 월 월 최고 공연 여러분 기다리다
+mbc_sundaynight_nagasoo	snart03	POST	pymmdod-5tryi		2011-08-25	첫 번째 공연 tagexclamation 김연우 콘서트 속 연우 감성발라드 지존 김연우 tagexclamation 나다 나 가수 에서 에서의 완벽 라이브 년 비 인해 취소 대학교 축제 남다 남 관객 위해 위하다 우산 쓰다 열창 따뜻 모습 월 기존 연우 연우를 벗어나다 벗어 새롭다 연우 연우의 공연 월 일 토 오후 시 시 성남아트센터 오페라하우스 국내 최고 보컬리스트 김연우 김연우와 국내 최고 세션 세션들이 만들어 만들어내 만들어내는 아주 특별 음악선물
+mbc_sundaynight_nagasoo	newstownsns	POST	pymmds9-_hksa		2011-08-25	뉴스타운 뉴스타운 나가수 멤버 복합쇼핑몰 타임스퀘어 찾다 복합쇼핑몰 경방 타임스퀘어 대표 김담 늘다 오픈 주년 맞다 mbc 나다 나 가수 이하 나가수 의 대표가수 인의 인 축하 무대 열다 일 뉴스타운
+mbc_sundaynight_nagasoo	teddylove	POST	pymmf0x-sdbt		2011-08-27	요즘 꽂히다 노래 노랗다 김범수 늪 저번 콘서트 라이브로 라이브로도 보고 보다 보 나가수로 나가수로도 보다 진짜 고음 고다 소름돋 소름돋아 ㄷㄷ 노래두 넘흐 좋구 tagcry tagcry 완전 존경스럽슴다 ㅅ
+mbc_sundaynight_nagasoo	codian	POST	pymmf6n-y		2011-08-25	love chapter listening 사랑 사 놈 바비 키다 노래 실시 순위 딱 tagexclamation 나가수 나왔나tagquestion love chapter
+mbc_sundaynight_nagasoo	mr_reset	POST	pymmfco-ew57		2011-08-27	외가쪽 어르신 집 놀러오다 어무 어무이 다 같다 둘러 앉다 나가수 이야기 시작 별별 이야기 다 나오다 tagsmile 옥주현 옥주현은 캐릭터 캐릭터가 빈약했다는둥 임재범 임재범은 늙었다라는둥 진짜 재밌다 tagexclamation 안 알다 까 까이 까이는 가수 없다능 tagexclamation
+mbc_sundaynight_nagasoo	ice-cream1	POST	pymmj3j-iyy5		2011-08-25	한류열풍 싫다고tagquestion 나도 나다 나 내 아끼다 가수 보내다 싫어ㅗ 한국드라마 한국노래 들려주다 고마워 고마워해 고마워해도 모자랄판 ㅉㅉ 우리나라 우리 앵커 인터뷰 좀 조다 하자니까 어느 어느나 어느나라 사람 물어보다 한국사람 인터뷰 거절
+mbc_sundaynight_nagasoo	ktkfkddms369	POST	pymmlff-_9cgi		2011-08-25	박정현 이브 이브의 경고 박미경 네이버앱 음악검색 나다 나 가수 경연 무대 도전 싶다 노래 노랗다
+mbc_sundaynight_nagasoo	introutro	POST	pymml_1-_w3h		2011-08-25	단한번 단한번도 가수 꿈인적 꿈인적은 없다 뮤지션 뮤지션을 꿈꾼적 꿈꾼적은 있다 수천수만명 보다 보 현장 주인공 된다는건 상황 떠나다 엄청나다 엄청 쾌감일듯 싶다 예전 아이들 엄청나다 엄청 질투 느끼다 바닥 떠나다 떠 수도 수 있다 나 나다 누다 주인공 꿈꾸는거 맞지tagquestion 밴드 시작 마지막 무대 서본게 벌쓰다 년전 년전이네
+mbc_sundaynight_nagasoo	inujka	POST	pymmn2y-_j0fj		2011-08-25	매력넘치 가수 리쌍 리쌍의 근황 나다 놈 답 tv 끄다
+mbc_sundaynight_nagasoo	braceinfo	POST	pymmpcz-yona		2011-08-25	한참 상담 칫솔질 안하다 뭐라그러 원칙적 얘기 마구 해대다 노래 하다 방송 하다 빨다 치료 해야 해야한다 해야한다고 하다 하 이야기 듣다 보다 보 유명 가수분 치료 원칙적 해야 해야한다 해야한다는 tagsmile 나다 나 치과의사 바쁘다 분 바 잡다 잡 스케일링 받게 받게하 받게하는 중
+mbc_sundaynight_nagasoo	ttghy11	POST	pymmto4-5a_on		2011-08-25	너흐 ㅣ그거암tagquestion 내 나가수 보다 이소라님 보다 닮다 닮다 그랫는데 이제알겟음 헬멧벗 헬멧벗은 로봇캅 닮다 레알
+mbc_sundaynight_nagasoo	stu6324	POST	pymmvtd-5yxue		2011-08-24	형님 내일 내 논산 훈련소 입소 종일 종 형님 노래 마지막 듣다 오늘 라디오스타 마무리 하다 해 그동안 형님 수요일밤 함 할 하다 있다 행복 형님 tagexclamation 시간 되다 펴다 편지 한번 쓰다 주다 tagexclamation 형님 나가수 한편 보고갔어야 하다
+mbc_sundaynight_nagasoo	irene1997	POST	pymmxmz-wt3i		2011-08-27	난 나다 날다 뚱뚱 남자를좋아하는건가 안되다 김조한 김조한이 괜차나보 괜차나보여 tagsmile 아 노래 좋은건가tagquestion tagsmile 나가수 tagsmile
+mbc_sundaynight_nagasoo	melon_dj	POST	pymmy85-btey		2011-08-25	엇 나 나다 이거 완전 경쟁률 쎌 줄알고 엄마한텐 말 안하다 당첨이당 tagsmile 엄마 아빠 좋아하시려나tagquestion tagsmile 암튼 감사 님 추석특집 나다 나 트로트 가수 방청권 당첨 tagexclamation tagsmile 나다 나 가수다 가수다이면 더더더 좋다 tagexclamation 아쉽
+mbc_sundaynight_nagasoo	wldnrhdwn987	POST	pymmykm-_svxx		2011-08-24	아잉 지원언니 나 나다 가수돼 가수돼는 법 알리다 소녀시대언니 fx언니 모두 등팬
+mbc_sundaynight_nagasoo	speme_no1	POST	pymo0f1-5l45z		2011-08-23	지금 최근나가수 보다 솔직 여태 조관우노래 좋아하지않았는데 이번 조관우 조관우는 뭔가 멋지다
+mbc_sundaynight_nagasoo	imagemode	POST	pymo7bs-w8pt		2011-08-25	나가수 바이브 윤민수 미치다 라이브 비결 tagexclamation
+mbc_sundaynight_nagasoo	eujin9999	POST	pymo9ji-5pgdc		2011-08-24	가수 되고싶어 누 누가 나 나다 좀 조다 말리다 tagexclamation
+mbc_sundaynight_nagasoo	electronic99	POST	pymo9rc-_gj3j		2011-08-24	f x 핫섬머 외국인 길 기다 걸을때 무조건 땀 흘리다 인식 심어줄수 있다 유해판정 바닷길 나만부를수있는노래 대중가요 대중가요인데 가수 부를수 있다 유해판정 ne hate you 청소년 배타의식 심어줄수 있다 유해판정
+mbc_sundaynight_nagasoo	black_noe	POST	pymoam_-ypymh		2011-08-27	mbcevery 에서 나가수 회하다 응tagquestion
+mbc_sundaynight_nagasoo	soohjc	POST	pymocm9-5zxls		2011-08-24	자우림 고래사냥 mbc 가수 자신감 모습 daum카페
+mbc_sundaynight_nagasoo	huhjun2001	POST	pymod07-5njk_		2011-08-24	어제 지난 지나다 지 일요일 하다 나다 나 가수 보다 윤민수 왠지 이해 안되다 인순 인순이 어흑 ㅡ tagcry 인순 인순이 노래 노랗다 보다 폭풍눈물 흘리다 tagcry 노래 노랗다 너무너무 잘 자다 하다 해 ㅡ tagcry
+mbc_sundaynight_nagasoo	elijahsoul	POST	pymofvd-5c_w4		2011-08-27	내 내다 취향 차치하고서 많다 사람 좋아하다 건 거다 걸다 분명 장점 있다 거다 거 나가수 나가수는 잘 자다 안 알다 보다 보지 예전 하다 쇼바이벌 같다 프로그램 보고 보다 보 싶다
+mbc_sundaynight_nagasoo	jkykor	POST	pymogd1-paj2		2011-08-27	오늘 새롭다 세상 보기 보다 시작 여기님 어제 아파서 진통제 먹어 먹어야 하다 흐규흐규 매우 울다 좀전 좀전에 눈 뜨다 보다 보 내방 어제 선명 보 보이 통증 적네요tagsmile 기분째지 토요일 요즘 다시듣는 노래 노랗다 라울미동 state mind 링크 고딩때 고딩때였 듣다 노래 나도 나다 나 모르다 찾다 듣다 되다 노래네 노래네요 뭔가 모르다 모 이끌림tagquestion 그건 왠지 우습다 들리다 모르다 라울미동 시각장애인 시각장애 가수 그런지 사람 목소리 나르다 나 잘 자다 위로해줄거 같다 기분 나도 나다 나 모르다 들었나봐요
+mbc_sundaynight_nagasoo	whdghk1146	POST	pymogmr-y5vgc		2011-08-25	벅스 벅스와 함께하 함께하는 나는가수 윤민수 bugs 나는가수 나가수 벅스 윤민수
+mbc_sundaynight_nagasoo	perako	POST	pymoj4h-17si		2011-08-24	나가수 왜 외다 뺀드 무시 tagcry 윤도현 김윤 김윤아 아니다 아니 yb 자우림 자우림임 tagcry 그러니까 노래 노랗다 들다 들 때 존 존나 앞부분 다 스킵 스킵하 고다 고음 들다 보컬 보컬만 아 고음병 환자새끼
+mbc_sundaynight_nagasoo	kgo8796	POST	pymojzt-ywxyh		2011-08-24	제꿈은가수 이꿈 이꿈이 이뤄질수 있다 tagquestion 나 꿈 꾸다
+mbc_sundaynight_nagasoo	ged678	POST	pymon82-_iakt		2011-08-24	ㅡ 나 나다 나방이가 tagcry ㅡ tagcry 나도가수다 나간답니당 ㅡ 나 나다 뽑다 tagexclamation
+mbc_sundaynight_nagasoo	tbworld_tv	POST	pymonle-_clkj		2011-08-27	옥주현 이소 이소라 나가수 아니다 뮤지컬 대기실서 조우 표정 극과극 왜tagquestion tbworld
+mbc_sundaynight_nagasoo	dcfc0022	POST	pymoo5c-_8vhm		2011-08-24	나다 나 가수
+mbc_sundaynight_nagasoo	nowherei305	POST	pymoo8y-57k6l		2011-08-24	방송연기수업 녹음스튜디오 보컬레슨 최상 시설 실전 같다 환경 교육 완벽 방송데뷔시스템 통하다 나도 나다 나 이제 스타 tagexclamation 예비 탤런트 가수 여러분 tagexclamation 본스타 연기학원 기 정규반 정규반으 gogo
+mbc_sundaynight_nagasoo	nunurigo121	POST	pymoobu-_9tci		2011-08-27	황금어장 무릎팍도사 박정현 나다 나 가수 박정현 무릎팍도사 출연 동영 rmbzx
+mbc_sundaynight_nagasoo	roy_lucy	POST	pymoofv-5mhii		2011-08-24	화제 나다 나 가수 인순이 인순이의 아버지 듣기 듣다 음악
+mbc_sundaynight_nagasoo	stu6324	POST	pymopso-5yxue		2011-08-24	형님 감축 한 하다 번 벌다 축하 tagcry 나가수 나가수를 볼 보다 또 다르다 이유 생기다 tagcry 으헉
+mbc_sundaynight_nagasoo	liyuka	POST	pymor35-ove		2011-08-27	나도 나다 나 가수 진짜 보다 대단 정재범 정성호씨 최고 최 tagexclamation 반전 쩔어 tagsmile
+mbc_sundaynight_nagasoo	mujin	POST	pymor_j-bm_		2011-08-24	나가수 나가수에 이상은씨가나오면 어떨까tagquestion 물론 인순이씨 인순이씨가 명예졸업 후 말 이선희씨 이선희씨도 대단 가수님 따 따로 따 따로 나오다 나 주시면 감사 감다 ㅂ
+mbc_sundaynight_nagasoo	01029434277	POST	pymosiw-my_2		2011-08-25	나가수 인순이씨 인순이씨의 공연 보다 정말 큰감동 큰감동을 받앗네 근데 정말 어떻다 이게가능한거지tagquestion 노래 뭔가 담겨있는tagquestion 청중평가단 왜우는지 이해안갓던것도있엇는데 모니터 본 눙물 눙물이 tagcry 인순이씨 인순이씨는 정말 가수 tagsmile
+mbc_sundaynight_nagasoo	lovejini0704	POST	pymoukq-ndzv		2011-08-24	나가수 저번 위부터꼴지 아시는분
+mbc_sundaynight_nagasoo	epp1	POST	pymouv1-y4bs6		2011-08-25	윤도현 윤도현도 나가수 명예졸업tagquestion
+mbc_sundaynight_nagasoo	tbworld_tv	POST	pymove6-_clkj		2011-08-27	나도 나다 나 가수 옥수역 알고보 알고보니 이소 이소다 첫 출연 또 탈락 타다 tbworld
+mbc_sundaynight_nagasoo	youhisung	POST	pymowh3-5v676		2011-08-27	나다 나 가수 tagcry 으흐 지원 연습 또 또하 파괴자 tagexclamation 노래 가슴 tagcry
+mbc_sundaynight_nagasoo	llovetaiji	POST	pymowt1-2jix		2011-08-27	원문 빌보드 코리아 론칭 인터뷰 박정현 나가수 로 승승장구tagquestion 년간 실패 연속 웹
+mbc_sundaynight_nagasoo	chcin	POST	pymox6s-19q8		2011-08-24	대구육상 마법 양탄자 몬도트랙 신기록 제조 도우미 이렇게 멋지다 파란 파다 파랗다 하늘 위 날으 날으는 마법 tagexclamation 마이데일리 라 라고 하다 하지 볼트 발목 통증 비상 비상이 비상이라 그나저 그나저나 나가수때 나가수때는 왜 외다 그랬어요tagquestion tagsmile
+mbc_sundaynight_nagasoo	tessmansam	POST	pymoxgl-55_lq		2011-08-27	월달 컴백가수 이효리 손담비 소녀시대 브라운아이드걸스 유키스 김규종 ftisland 허각 아 비스트 비스트는 언제할려 언제할려나 오늘 내 폭풍미투 해주겠어요tagsmile
+mbc_sundaynight_nagasoo	huhjun2001	POST	pymoyd9-5njk_		2011-08-24	로즈 로즈야 tagsmile 여기 누르다 나가수 다운 않다 인터넷 볼 보다 있다 tagsmile 꺄르륵
+mbc_sundaynight_nagasoo	gjrkdmf98	POST	pymoyvx-h965		2011-08-24	태양 나다 나 가수다출연섭외 오다 어떻다 할건가요tagquestion
+mbc_sundaynight_nagasoo	karls7	POST	pymozf4-qvh3		2011-08-24	월요일 여러가지 일과 일 생각 확 하다 하 들어와버린 느끼다 느낌 나가수 나가수의 민수형님 무대 영향 큰것 큰것같다 월요일 무한반복 재생중 인순 인순이 누님 무대가 무대 날 나다 울다 감동 그자체 그자체로 전율 민수형님 무대 숨겨놓았던 내 내다 아프다 부분 저리다 저리 시리다 아프다 해버린다 저미다 시리다 고통 크다 쾌락 변한다고 변한다고도 하다 했 어느새 감정 나도모르게 취해버렸다 일째 마시다 술 혼자가서 멀 불렀는지 기억 안 노래방 집 마시다 팩소주 팩소주도 슬프다 인생 행복이랄까
+mbc_sundaynight_nagasoo	rony	POST	pymo_sq-y4k6		2011-08-23	첫녹화 윤종신 나가수 어떤 의미일까tagquestion 윤종신씨 윤종신씨가 하다 결국 tagsmile osen
+mbc_sundaynight_nagasoo	hosan0731	POST	pymp01g-wzl3		2011-08-25	나다 나 가수 사랑 tagexclamation
+mbc_sundaynight_nagasoo	sohn4946	POST	pymp09a-yywka		2011-08-23	나가수 재방송중 인순이 인순이의 아버지 란 곡 듣다 지금 주말 갈때 갈때마 꼬옥 안다 볼 뽀뽀 자식사랑 끔찍하다 울 울다 아버지 아버지 그립다 노래 사람 울리다 역시 훌륭하다 가수인듯
+mbc_sundaynight_nagasoo	sollea3	POST	pymp1fm-5gkdv		2011-08-22	나가수 중간순위 위 윤민수 그남자 그여자 술
+mbc_sundaynight_nagasoo	ygj0984	POST	pymp22d-ezhc		2011-08-25	bmk 편지 펴다 김광진 네이버앱 음악검색 서바이벌 나다 나 가수 경연 내 좋아하다 뮤지션 뮤지션의 곡 부르다
+mbc_sundaynight_nagasoo	carmaster000	POST	pymp2wq-ydfu8		2011-08-24	나다 나 가수 윤도현 두번 죽이다 어이없다 순위조작 논란 논다
+mbc_sundaynight_nagasoo	dioong	POST	pymp32r-obs		2011-08-22	늦게 늦게야 나가수 다운 받다 보다 장혜진님 목소리 정말 좋다 반 최고네 최고네요
+mbc_sundaynight_nagasoo	tyjd0221	POST	pymp3g6-yqs8h		2011-08-22	나가수 나가수가 반가웠던이유는 심사단 한명 한명으 태훈님 태훈님이 나오다 사실 tagsmile 가수 안보 tagsmile
+mbc_sundaynight_nagasoo	jes55	POST	pymp3r_-y_oje		2011-08-23	지금 나가수보는중 아 인순이님 대박 tagcry 얼마 감동 청중평가단 눈물 흘리다 존경
+mbc_sundaynight_nagasoo	muzegling	POST	pymp3xm-5k_3q		2011-08-22	어케 나가수 청중평가단 갈수 퇴사라도 갈다 tagcry 가고싶다가고싶다
+mbc_sundaynight_nagasoo	whrrrk	POST	pymp3zz-5f4nv		2011-08-22	저번주 윤도현 윤도현이 나가수에서부른 내사람이 무한반복중 tagsmile 멜로디도가사도너무좋다 난나를희생하면서까지다른사람을행복하게해줄수잇는그런위인은못 난나를희생하면서까지다른사람을행복하게해줄수잇는그런위인은못되지 난나를희생하면서까지다른사람을행복하게해줄수잇는그런위인은못되지만 적어도사람에게좋은기운을남기는그런사람이고싶다 tagsmile 그런사람으로크고싶다 tagexclamation 음 날희생하면서까지지키고싶 그런사람을만나고도싶다 헿헿 tagsmile 아새벽이라센치한건가 tagquestion 아갑자기그애가보고싶다
+mbc_sundaynight_nagasoo	theend1123	POST	pymp4hp-co_d		2011-08-22	윤민수 검색어 굴욕 나가수 합류 후 윤민수 누구야tagquestion 위 붐전역 슈주김희철입대
+mbc_sundaynight_nagasoo	eiri	POST	pymp5in-jyv4		2011-08-23	한류가수 표현력 일본 자극 좋다 코이치 인터뷰 읽다보 읽다보니 나도 나다 나 콘 가다 가 가보 싶다 taglove 한겨레
+mbc_sundaynight_nagasoo	mini8798	POST	pymp6c6-_cafk		2011-08-23	나다 나 가수 노래모음 듣기 듣다
+mbc_sundaynight_nagasoo	tkdghrla00	POST	pymp83r-_hduq		2011-08-22	일 나가수 가지 가다 관전포인트tagquestion 폭풍의눈물바 인순 인순이 대mc윤종신
+mbc_sundaynight_nagasoo	frompic	POST	pymp8so-_d1bz		2011-08-24	윤민수 나가수 윤민수 나가수 윤민수 나가수윤민수 나가수 새롭다 멤버 유력 바이브 윤민수 윤민수는 누구tagquestion 바이브 윤민수 나가수 유력드뎌 나가수 나가수의 명예졸업이후 좋다 소
+mbc_sundaynight_nagasoo	khseong	POST	pymp9io-88z_		2011-08-22	원문 인순 인순이 아버지 나다 나 가수 위 무편집영 웹
+mbc_sundaynight_nagasoo	khseong	POST	pymp9iw-88z_		2011-08-22	원문 인순 인순이 아버지 나다 나 가수 위 무편집영 웹
+mbc_sundaynight_nagasoo	gksk2468	POST	pympa7y-5o8tl		2011-08-24	toronto canada 발도장 tagexclamation 하다 진짜 김범수 tagcry ㅡ tagcry 내 내다 스퇄 스퇄이 노래 어쩜 그리 잘 자다 부르다 캐나다 보다 보 나가수 나가수의 매력 via 아임in
+mbc_sundaynight_nagasoo	modenna2000	POST	pympbb1-y7p6a		2011-08-22	오늘 나가수 나가수에 윤민수 합류 역시 바이브 tagcry
+mbc_sundaynight_nagasoo	niggaz4life	POST	pympbv7-_c_nw		2011-08-22	레전드 인순 인순이 미치다 존재감 나가수 눈물바 눈물바다 osen
+mbc_sundaynight_nagasoo	wlsgud0716	POST	pympcdv-_dzd1		2011-08-22	나다 나 가수 인순 인순이 지금껏 나가수 무대 보다 보 이렇게 눈물 흘리다 적다 적 없다 어머니 아버지 함 지내다 오래다 시간 그리다 어른 되서 느끼다 아버지 대한 대하다 애증 여러 복잡 다단한 감정 아버지 란 곡 들다 내 내다 아버지 꺼내다 사랑 말 언제 언제나 든든한 후원자 내 내다 마음 영원 버팀돌 버팀돌이신 아버지 직접 말 적다 적 없다 사랑 아들 진형이 진형이가 있다 걸 생각 사랑 아버지
+mbc_sundaynight_nagasoo	gyedo	POST	pympcdw-5qt		2011-08-23	가수 나다 나 가수 라 라고 온몸 노래 몇몇 교회 나다 나 교회 아니다 아니 라 라고 온몸 웅변 웅변하는구
+mbc_sundaynight_nagasoo	hansomehun	POST	pympcnd-5szvp		2011-08-22	붐 전역 나다 나 가수 도전 생각 tagexclamation
+mbc_sundaynight_nagasoo	po7241	POST	pympcy9-y82lh		2011-08-24	잠이오지않아 나는가수다 보다 소리 펑펑울었다 바비킴 바비킴에 무대 그리다 마지막 인순이 인순이에 무대 두가수 두가수에 노래를듣는순 눈물 왈칵tt 특 인순이 인순이에 무대 보는순 눈물이앞섰다 엄마 떠나다 아빠 혼자남아 혼자남아있는 나다 나 사랑 소리 많이해본적 많이해본적이 없다 아빠 안계심 고아 다름없다 있을때잘해드리고싶은데 그러지못 내자신 내자신이 너무미워서 너무죄송해서 너무죄송 눈물이멈추지않았다 속만썩 속만썩이 속만썩이는 딸 따다 어릴쩍사고만 어릴쩍사고만치 다니던때 다니던때가 생각 생각이 너무가슴 아프다 잘회야지 잘회야지하면서 못하고 못하고있는 나를반성 잠을청 잠을청한다 아빠 tagexclamation 사랑
+mbc_sundaynight_nagasoo	papps48	POST	pympe7i-ylxfv		2011-08-22	나다 나 가수 선호도조사
+mbc_sundaynight_nagasoo	jungjin-seo	POST	pympe7p-5gbia		2011-08-22	나가수 편집부 많다 바빴나봐 바빴나봐요 맨 맨낼 술이얀데 만나다 술이야래용 tagsmile
+mbc_sundaynight_nagasoo	jisiklog	POST	pympeae-_rcxy		2011-08-22	오늘나가수순위좀 나가수
+mbc_sundaynight_nagasoo	jisiklog	POST	pympeas-_rcxy		2011-08-22	오늘나가수순위 나가수
+mbc_sundaynight_nagasoo	ju4400	POST	pympegd-5h8j1		2011-08-22	나다 나 가수 에서 관객 숨다 숨 죽이다 무대 격
+mbc_sundaynight_nagasoo	jisiklog	POST	pympeha-_rcxy		2011-08-22	좋아하다 누나가수능때메많이힘들어하고저랑은친한사이구뭘선물하면좋아할까요tagquestion 나가수
+mbc_sundaynight_nagasoo	faketoy	POST	pympehx-5jp56		2011-08-22	나다 나 가수 토렌트
+mbc_sundaynight_nagasoo	yurekajung	POST	pympeiq-5dqhg		2011-08-22	일 나가수 위곡 인순 인순이 아버지 듣기 듣다 tagsmile daum카페
+mbc_sundaynight_nagasoo	babukir66	POST	pympeor-_apw_		2011-08-23	종로가서 찾아오다 나으ㅣ 졸작돈 ㄷㄷㄷㄷㄷㄷㄷㄷ tagsmile 아 겁나다 피곤하당 tagcry ㅡ tagcry 피곤피곤열매 나가수 재방보는데 인순 인순이 아버지 듣구 울컥 하 하다 헌걸음 헌걸음도 다가설수 없었던tagsmile
+mbc_sundaynight_nagasoo	jisiklog	POST	pympeqb-_rcxy		2011-08-22	오늘나가수출연진들각각무슨노래 나가수
+mbc_sundaynight_nagasoo	jisiklog	POST	pympeqh-_rcxy		2011-08-22	오늘나가수순위알려주세 나가수
+mbc_sundaynight_nagasoo	jisiklog	POST	pympes1-_rcxy		2011-08-22	나가수새가수tagquestion 나가수
+mbc_sundaynight_nagasoo	jisiklog	POST	pympesl-_rcxy		2011-08-22	나가수 오늘 순위 나가수
+mbc_sundaynight_nagasoo	jisiklog	POST	pympeu0-_rcxy		2011-08-22	오늘나가수순위알려주세 나가수
+mbc_sundaynight_nagasoo	0124andsun	POST	pympeyj-ef09		2011-08-22	드디어 바이브 바이브가 나가수 나가수에 등장 tagexclamation tv 보다 감정과잉 크다 호응 얻다 못하다 어쩌다 걱정 보란듯 보란듯이 위 해 하다 주다 현장 감동 느끼다 못하다 것 안타깝다 따름 따름이지 따름이지만 vibe vibe를 주말 황금시간대 계속 볼 보다 있다 것 년차 팬 크다 행복
+mbc_sundaynight_nagasoo	jisiklog	POST	pympez2-_rcxy		2011-08-22	오늘 나가수 선호도 선호 위 누구더냐 나가수
+mbc_sundaynight_nagasoo	jisiklog	POST	pympez6-_rcxy		2011-08-22	오늘 나가수 음원 음원은 공개 안되나요tagquestion 나가수
+mbc_sundaynight_nagasoo	jisiklog	POST	pympezf-_rcxy		2011-08-22	나가수순위 나가수
+mbc_sundaynight_nagasoo	hsh8674	POST	pympf87-e1p1		2011-08-22	나가수 인순 인순이 등장 압도적 위 위 자우림 와우 명예졸업 하시겠구먼 tv리포트
+mbc_sundaynight_nagasoo	insubi117	POST	pympfh9-oso9		2011-08-22	지지난주 월요일 휴가 지난주 월요일 광복절이어서인지 광복절이어서 월요일 월요 출근길이 출근길 낯설다 할일 할일도 엄청 많다 계속 놀다 좋다 새롭다 한 하다 주의 주 시작 직시 굿모닝 tagexclamation 밤 밥 먹고 자다 무지 배고프다 아침 나가수 나가수의 박정현 곡들 곡들로 채운 채우다 재생목록 아주 맘 들다
+mbc_sundaynight_nagasoo	hsh8674	POST	pympfmn-e1p1		2011-08-22	나가수 박정현 김범수 명예졸업패 받다 영광 예 박정현 김범수 짱 tagexclamation tv리포트
+mbc_sundaynight_nagasoo	seronade	POST	pympfqs-_qq8a		2011-08-22	어제 조관우 무대 여태 나가수 무대 중 최고 나가수 조관우
+mbc_sundaynight_nagasoo	pja174	POST	pympgb4-_9ffy		2011-08-22	mbc 나는가수 나가수 새멤버 인순 인순이 바비킴 윤민수 mbc 나는가수 나가수 인순 인순이 바비킴 윤민수 mbc 나는가수 나가수 인순 인순이 바비킴 윤민수
+mbc_sundaynight_nagasoo	the100yesi	POST	pympi92-yvat1		2011-08-22	나다 나 가수 인순 인순이 아버지 청중 울다 나도 나다 나 울다 헐리웃 패션 종결자 백여시
+mbc_sundaynight_nagasoo	to19901101	POST	pympjjh-5htcz		2011-08-22	만일 만 신승훈 신승훈이 나가수 나가수에 나가다 어떤 노랠 첫곡 첫곡으 부르다 생각 가잖 가잖아 로 청중평가단 마음 후벼팔것 후벼팔것으 예상 눈물의기립박수또 눈앞 선 신승훈 신승훈이 나가수 나가수에 나가다 위탄때 mbc 출석도장 찍다 tagsmile
+mbc_sundaynight_nagasoo	heoniel	POST	pympjo4-yt4ol		2011-08-22	결국 네시 네시간밖 못자게 되다 tagsmile 니가수 니가수보 잠들다 겠다 겠다고 생각 어제 나가수 나가수에 나오다 세 세다 가수 모두 내 정말 좋아하다 가수 역시 최고 가수 인순이 인순이의 무대 pc pc로 보고 보다 보 듣다 듣기 넘 아까운듯 하다 tagexclamation 흠 그럼 이제 자자 자다 tagexclamation 오늘 화이팅 화이팅을 외치다 꿈나라 고고씽 tagexclamation
+mbc_sundaynight_nagasoo	insoone	POST	pympk04-51a0t		2011-08-22	나가수 나가수에 나오다 바래다 감동적인무대 감사해요tagsmile
+mbc_sundaynight_nagasoo	dndbdkswnj12	POST	pympk0p-_muws		2011-08-22	아이유 나가수 거절 이유 충분 내공 쌓다 나갈게 나갈게요 브레이크뉴스 http www breaknews com sub read htmltagquestionuid
+mbc_sundaynight_nagasoo	tngh12387	POST	pympk90-59xwr		2011-08-23	진짜 에들 에들이 가수 조관우님 노래 노랗다 별로라구 까데는데 진짜 나가수와서 순위 자신감 그런가 진짜 이분 모든노래 슬픈감성나오게 부를수 부를수있는 사람 사다 많다 않다 가성빨 가성빨이 그런데 이게 이분 창법 가성 두성까지 두성까지해서 팔세토창법이란거 팔세토창법이란거야 우리들이 목 조이다 만드 만드는 허접가성이아니라구
+mbc_sundaynight_nagasoo	djkkll1233	POST	pympklp-lg7b		2011-08-22	장혜진 키작 키작은 하늘장혜진님 키작 키작은 하늘 불러주세 불러주세요 오늘 나다 나 가수다 가수다를 보고 보다 보
+mbc_sundaynight_nagasoo	rong	POST	pympko6-hal		2011-08-22	인순 인순이 바비킴 둘다 느므 좋아하다 가수 tagexclamation 앞 나가수 본방사수 할것 할것같 할것같아 fb
+mbc_sundaynight_nagasoo	2dayer	POST	pympkwv-94xl		2011-08-22	나다 나 가수 시청 후기
+mbc_sundaynight_nagasoo	timidpj	POST	pympl9w-2hbl		2011-08-22	인순 인순이 아버지 mbc 가수 월 일 무편집 daum tv팟
+mbc_sundaynight_nagasoo	eratoskin	POST	pymply_-ybst1		2011-08-22	고영욱 나가수 회식사진 공개 윤도현 박정현 보고싶다
+mbc_sundaynight_nagasoo	jubang2455	POST	pympmnv-_qaa9		2011-08-22	역시 인순 인순이 나가수 첫등장 위
+mbc_sundaynight_nagasoo	chunjiin68	POST	pympndv-58mw_		2011-08-22	인순 인순이 나가수 출연 이유tagquestion 박명수 하차 시키
+mbc_sundaynight_nagasoo	bitzro38	POST	pympnn3-5jrzk		2011-08-22	김범수 축하화환 나가수화환 김연우화환 윤도현화환
+mbc_sundaynight_nagasoo	xyjq	POST	pympnyz-_jzu3		2011-08-24	어제야구 늣게집에오는바람에롯데가기아 이겼딴말만들었네용tagsmile taglove 요즘 나가수가다시기다려져 우리임재범님이안나오신뒤론 영기냥그랬눈데 tagsmile
+mbc_sundaynight_nagasoo	yna	POST	pympo2m-z1ou		2011-08-22	연예 일밤 나가수 특집 시청률 상승 mbc 우리 일밤 시청률 나다 나 가수 특집 힘입다 지난주 지난주보 포인트 오르다 를 기록
+mbc_sundaynight_nagasoo	tkdghrla00	POST	pympoa9-_hduq		2011-08-22	년 월 일 나가수 다시보기 동영
+mbc_sundaynight_nagasoo	rheeyoungjin	POST	pympo_o-53hvz		2011-08-25	나가수 나가수는 역시 박정현 박정현과 김범수 김범수와 윤도현 윤도현이 잇어야 잇어야하는데 tagcry 어쩔수
+mbc_sundaynight_nagasoo	2318zxc	POST	pymppfl-_mel3		2011-08-23	나다 나 가수 누굴까 누굴까요 듣기 듣다 문제
+mbc_sundaynight_nagasoo	booriboo	POST	pymppg7-5v_y0		2011-08-22	나는가수 인순 인순이 레전드 tagexclamation 나가수 초토화 나가수 순위 선호도 선호 조사서 인순 인순이 위 자우림 위 기록
+mbc_sundaynight_nagasoo	kge4812	POST	pymppws-5h8nx		2011-08-22	사랑 깊다 상처 나다 나 가수 김범수 박정현
+mbc_sundaynight_nagasoo	godls5112	POST	pympq9w-51d7r		2011-08-24	아빠 나다 나 영할꺼 없다 가수 tagcry 가수 되다 쉬운줄 아 가수면 노랗다 노래 잘불러 잘불러야 대 얼굴 이쁘다 대 몸매 좋다 대 춤 잘춰야대는데 tagexclamation 난 나다 날다 tagcry
+mbc_sundaynight_nagasoo	kimsh000	POST	pympr2t-_psf		2011-08-22	나다 나 가수 인순 인순이 올킬 tagexclamation 멋지다 앞 나가수 나가수다 기대 tagexclamation
+mbc_sundaynight_nagasoo	chemitow	POST	pymprcj-_a4_6		2011-08-24	임재범 희노애락 담기다 호랑이 표정 정말 똑같다 tagexclamation 정말 많다 닮다 tagsmile 임재범씨 임재범씨도 인기몰 인기몰이 중이라는게 느끼다 나가수 나오다 전 전설 속 호랑이 tv리포트
+mbc_sundaynight_nagasoo	kmysu	POST	pymps_7-g9qt		2011-08-22	나가수 인순 인순이 출연
+mbc_sundaynight_nagasoo	semoprince	POST	pympt9t-pgqu		2011-08-22	월요일 월요 아침이예 많다 사람 감동 주다 나가수 위곡 인순 인순이 아버지 로 차분 시작해볼까요tagquestion 달다구리 토블론 세모왕자 초콜릿당 미투광장 ㅣ 지긋 지긋이 눈감다 들어보다 감동 물결 쫘악
+mbc_sundaynight_nagasoo	frompic	POST	pymptb8-_d1bz		2011-08-24	김범수 님 함 위 원곡듣기 님 함께아티스트 김범수관련앨범 서바이벌 나다 나 가수 경연 청중평가단 추천곡님 함께if checkmu
+mbc_sundaynight_nagasoo	dbsdhr52	POST	pympu0f-_ihr0		2011-08-22	나가수 자우림 매직카펫라이드 동영상보기
+mbc_sundaynight_nagasoo	kongderella	POST	pympubs-5sb6f		2011-08-25	인순 인순이 나가수 인순 인순이 아버지 듣기 듣다 콩데렐라
+mbc_sundaynight_nagasoo	duai	POST	pympus3-ydwwp		2011-08-24	나가수 인순 인순이 임재범 임재범과 비교 불가 과장 감동 이유
+mbc_sundaynight_nagasoo	buks2	POST	pymputq-_3cex		2011-08-25	나가수 인순 인순이 나가수 인순 인순이
+mbc_sundaynight_nagasoo	amoida	POST	pympv4c-3v9c		2011-08-22	이번주 나가수 인순이 인순이의 아버지 듣다 있다 좋다 좋구 좋다 노래 좋다 가수 참 차다 좋다 불렀다 눈물
+mbc_sundaynight_nagasoo	insoone	POST	pympxkl-5f9qh		2011-08-22	선생님 나가수 나가수에서 모습 잘봤습니다 tagsmile 콘서트 리허설때 처음 곡 들었을때의 감동 다시한번 크다 밀려왔답니 밀려왔답니다 건강 계속 감동 무대 기대 tagexclamation tagsmile화이팅 tagexclamation
+mbc_sundaynight_nagasoo	leejisu_2001	POST	pympy2x-52d1g		2011-08-25	낫다 나 먼저 가수되는건아니겠지
+mbc_sundaynight_nagasoo	wls4510	POST	pymp_la-yt0ml		2011-08-25	나다 나 가수 윤도현 안 사실 난 나다 날다 윤도현님 yb밴드 함 나미님 나미님의 빙글빙글tagquestion 을 부르다 모습보구 멋지다 나다 나 가수 다 보다 되다 이제 나다 나 가수 볼 보다 재미 없다 tagcry
+mbc_sundaynight_nagasoo	kipenzam	POST	pymq3d8-44cb		2011-08-27	아버지 나가수 좋다 노래 노랗다 고르다 골 cd 만들어달라 하시면서 김범수거 다 해도 하다 해 되다 하다 자식 되다 도리 엥 로 그럴 수 없다 하나씩 차분 들어보다 있다 tv 볼 보다 때 눈감다 들을때 들을때가 정말 많다 다르다 다르구 글타 글타고 범수씨 범수씨를 평가절하하는건 아니다 연출 부족 손해 본 보다 노래 노랗다 참 차다 많다
+mbc_sundaynight_nagasoo	frdship111	POST	pymqf6q-o87d		2011-08-27	나다 나 가수 사랑 깊다 상처 listening 사랑 깊다 상처 박정현 김범수 나다 나 가수 사랑 깊다 상처 박정현 김범수
+mbc_sundaynight_nagasoo	2hertng	POST	pymq_88-extp		2011-08-27	나다 나 가수다tagquestion 아니다 tagexclamation 나다 나 꼼수다tagquestion 아니다 tagexclamation 나다 나 인간 멀티케스팅 멀티케스팅이 tagexclamation 미투데 미투데이 온라인 온라 숙제 ppt 작업 중 tagsmile 인터넷 할꺼 죄다 죄 하기 하다
+mbc_sundaynight_nagasoo	haerang_lee	POST	pymr05v-04an		2011-08-24	이번주 토요일 토요 날 나다 나다 나 기아 되다 되 인기가수 팀 봄 보다 그리다 경인방송 근데 인가가수 누군지 모른다는거짘 tagsmile
+mbc_sundaynight_nagasoo	marse44	POST	pymr1d5-g4n0		2011-08-22	제길슨 나가수 명예졸업 따우 tagcry
+mbc_sundaynight_nagasoo	jm560223	POST	pymr208-549dn		2011-08-22	윤민수 나가수 부른노래 술 본문스크랩가능 퍼가세염
+mbc_sundaynight_nagasoo	spastar7	POST	pymr24f-5x8tg		2011-08-22	나가수 명예졸업 나가수 명예졸업 특별 무대 전율느껴져 tagexclamation
+mbc_sundaynight_nagasoo	spastar7	POST	pymr2ky-5x8tg		2011-08-22	나가수 인순 인순이 나가수인순 나가수인순이 원년멤버 자리 자다 단단 메꿔 tagexclamation
+mbc_sundaynight_nagasoo	insoone	POST	pymr2oc-_dm5y		2011-08-22	나가수 무대가 무대 울 울다 순이언니한테 작아보 tagcry
+mbc_sundaynight_nagasoo	kjyou953	POST	pymr2uh-7sd4		2011-08-22	우엥 tagcry tagcry 어제 나가수 자우림 매직카펫라이드 보다 보 아빠 밥먹으라면서 티비껐음 tagcry 좀이따다시봐야지
+mbc_sundaynight_nagasoo	melon_dj	POST	pymr2v4-g3qo		2011-08-22	나는가수 관객 매료 폭풍 가창력 tagexclamation 새 새다 맴버 인순 인순이 바비킴 윤민수 윤민수와 함 새롭다 시작 나는가수 tagexclamation 진하다 향수 느낄수 있다 원곡 원곡들을 멜론 감상 ㅡ web 나는가수 페이지 가다 tagexclamation 나는가수 나가수 인순 인순이 바비킴 바이브 윤민수 음악 멜론
+mbc_sundaynight_nagasoo	khdailynews	POST	pymr2vb-pvaa		2011-08-22	술 를 두번 두번이 공연 나가수 나가수는 폐지 장혜진 맨 맨날 술 바이브 맨 맨날 술 청소년 보다 둘 둘은 매일 매이다 술마시는줄 알다 고래사냥 가다 전 술 마시다 참 차다
+mbc_sundaynight_nagasoo	chinsuh	POST	pymr2vm-ymsv4		2011-08-22	나가수 인순 인순이 아버지 남자 아버지 최초 경쟁대상 여자 아버지 이해 못하다 존재 평생동안 가족 위해 위하다 일하다보 일하다보니 가족 다가가다 없다 이해 힘들다 존재 어느덧 남다 남자 여자고 여자 가정 가지다 가지 아버지 바라보다 강하다 아버지 사라지다 쪼그 쪼그라 들다 아버지 발견 되다 아버지 언제 강하다 사람 줄 주다 알다 아버지 주름 아버지 굽다 굽 등 가슴 아프다
+mbc_sundaynight_nagasoo	spastar7	POST	pymr2zx-5x8tg		2011-08-22	인순 인순이 나가수 인순 인순이 나가수 아버지 열창 가수 긴장 tagexclamation
+mbc_sundaynight_nagasoo	blognawa1	POST	pymr2_d-l5f		2011-08-22	블로그 뉴스 윤민수 나가수 블로그 윤민수 나가수
+mbc_sundaynight_nagasoo	kyoungt70	POST	pymr31z-bxvq		2011-08-22	원문 나다 나 가수 자우림 주 연속 꼴찌 청중평가단 마음 왜 외다 못잡 못잡나 웹
+mbc_sundaynight_nagasoo	kyoungt70	POST	pymr3dr-bxvq		2011-08-22	원문 인순 인순이 나가수 명예졸업 아니다 조기졸업tagquestion 압도적 위 웹
+mbc_sundaynight_nagasoo	vowkqnghkfwj	POST	pymr3oo-5230z		2011-08-22	나가수 윤민수
+mbc_sundaynight_nagasoo	vowkqnghkfwj	POST	pymr3st-5230z		2011-08-22	나가수 바비킴
+mbc_sundaynight_nagasoo	kyoungt70	POST	pymr3y8-bxvq		2011-08-22	원문 나가수 위 추락 징크스 인순이 인순이에게 적용 웹
+mbc_sundaynight_nagasoo	ittedu	POST	pymr4jp-_ai7j		2011-08-22	나다 나 계은숙 계은숙이 앵까 가수 입니 입니다 만나다 반갑습니 반갑습니다 tagsmile
+mbc_sundaynight_nagasoo	search_now	POST	pymr4jr-5y0f5		2011-08-22	박은 박은나 수원대 애정 공황장애 로또 회당첨번호 인천대 김택진 노희지 윤송 윤송이 나가수 인순 인순이 네이버 실시 급상승 검색어
+mbc_sundaynight_nagasoo	daymoon08	POST	pymr6pn-gb7u		2011-08-25	우연 아이돌 팬덤 특징 대한 대하다 글 보다 보 신창 보고 보다 보 빵 터지다 가수 말따위 이미 통하다 않음 tagsmile 특 가수 함 늙어가 늙어가는 신세 신다 이미 성인 팬들 팬들은 팬질 팬질을 하다 하기 시간 없다 나 나다 먹고 살아야 살아야함 아 완전 공감 겁나다 슬픔 슬프다 tagcry 나 나다 먹고 살아야 살아야하 살아야하는 팬 패다 하나 하다 하 여기 하나 하다 하 추가 tagcry
+mbc_sundaynight_nagasoo	annie_me	POST	pymr78c-_qf3r		2011-08-22	안 나가수 인순 인순이 tagexclamation 독무대
+mbc_sundaynight_nagasoo	davin808	POST	pymr7ek-hko		2011-08-22	런닝맨 나가수 를 따라잡다 방법 런닝맨 런닝맨은 다 좋다 전혀 공감 안가 안가고 오버 편집 프로그램 다 망치는듯 별것 아닌것 가지다 가지 놀라다 반전 드립 하는거 하는거랑 별 궁금 않다 비밀 어쩌고하면서 예고하는거 정말 비호감 알다 주말예능 런닝맨 예전 박 일도 일 억지감동 자막 다 망치다 놓다 어째 어째든 나가수보단 재밌음
+mbc_sundaynight_nagasoo	rememverlife	POST	pymr7fi-l36j		2011-08-26	아 토토 토토로 류담 개그맨 분 꺼 꺼고 아따맘마 아따맘마는 빅마마 가수 분 꺼 꺼고 그럼 나다 나 우리집 하마 하다 캐릭터 우하하하하하ㅏ하하하핳 텁 tagexclamation tagsmile
+mbc_sundaynight_nagasoo	everysingapp	POST	pymr7nv-5a1vl		2011-08-22	저 연습 바비킴 바비킴의 사랑 사 그놈 으 으로 오디션 도전 싶다 싶어 나가수 들다 완전 반 tagsmile
+mbc_sundaynight_nagasoo	hpprinter	POST	pymr7_7-vvtj		2011-08-22	hp 오늘 이야기주말 저녁 나다 나 가수 의 멋지다 음악 책임지다 여름 밤 바닷가 캠핑장 음악 빠지다 없죠tagquestion 여름 휴가지 귓가 달콤 하다 음악 hp hp가 소개해드립니다tagsmile 멋지다 음악 함께라면 여행 재미 두 배가 배 되다 tagexclamation 여행도시 별 음악 추천
+mbc_sundaynight_nagasoo	nadiag26	POST	pymr81c-_icu7		2011-08-22	나가수 윤민수 인 착용 않다 이유
+mbc_sundaynight_nagasoo	insoone	POST	pymr86s-5ttaz		2011-08-22	무대등장하실때 나가수 나가수의 모 기르다 기 흡수 계신거 나래이션 하실때 이미 온몸 세포하나하나 세포하나하 세포하나 음정하나하나 반응 있다 tagexclamation 역시최고 tagexclamation 나는가수 아니다 아니 내 바 가수다 가수다인걸 보여주다 무대 압도 카리스마다 정말 최고 tagexclamation
+mbc_sundaynight_nagasoo	redna0	POST	pymr8d_-_bvwm		2011-08-22	진짜우리집 발도장 tagexclamation 나가수 보다 하루 마무리 하다 하다 한 하다 손 피자 피다 다르다 한 하다 손 시원 삐리리 tagsmile 월욜 화욜 모두 오전근무 인 하다 하지 오늘 풀다 할 하다 피 피로 바루바루 tagsmile 안녕히 주무쎄 주무쎄여 tagsmile via 아임in
+mbc_sundaynight_nagasoo	pbykid	POST	pymr8f8-uzso		2011-08-22	어제 나가수 나가수에 나오다 사랑 실리다 엘범 나 나다 이런류 멜로디 좋아하다 jo kwanwoo 승승장구 기다릴게 기다릴게요 사랑 조관우
+mbc_sundaynight_nagasoo	leedongyo7	POST	pymra60-yoi96		2011-08-22	인순 인순이 나가수
+mbc_sundaynight_nagasoo	yhartme	POST	pymra9k-xqqr		2011-08-22	인순 인순이 아버지 나다 나 가수 위 무편집영상그냥감동 눈물뚝뚝 daum tv팟
+mbc_sundaynight_nagasoo	ltk86	POST	pymraik-5chwq		2011-08-22	나가수 따위 보다 눈물 감동 없다 tagcry 나 나다 감정 메마르다 거야tagquestion
+mbc_sundaynight_nagasoo	jin1980321	POST	pymrb04-bktf		2011-08-25	윤하 요즘 나르다 나 자극 시키다 음반 나다 나 윤하 나다 나 가수 출연 하다 누군가 누군가는 경력 달리다 않다 하다 하지 벌쓰다 데뷔 년차 그리다 상 많다 곡 발표 가수 가창력 물론 좋다 네이버뮤직 오늘의뮤직
+mbc_sundaynight_nagasoo	osy5426	POST	pymrb2y-_cnk2		2011-08-22	레전드 인순 인순이 미치다 존재감 나가수 눈물바 눈물바다
+mbc_sundaynight_nagasoo	ac7284	POST	pymrbte-gtye		2011-08-24	엄마 나가수보고선 윤민수 윤민수를 처음 보다 난 나다 날다 낯익다 얼굴이긴한데 목소리 낯익지만tagquestion
+mbc_sundaynight_nagasoo	mr_leo	POST	pymrc57-_p144		2011-08-26	가수 리쌍 집 나다 놈 답
+mbc_sundaynight_nagasoo	leeoh4547	POST	pymrd5w-gtr2		2011-08-22	논설위원 만나다 만 사람 사다 송평인신정수 나다 나 가수 pd 동아닷컴 뉴스스크랩
+mbc_sundaynight_nagasoo	mirr21c	POST	pymrdfs-se9z		2011-08-22	나가수 제 의 멤버 eugene
+mbc_sundaynight_nagasoo	carmaster000	POST	pymrdi3-ydfu8		2011-08-24	나가수 윤민수 소속사 이르다 이름 얽히다 비밀 비밀은
+mbc_sundaynight_nagasoo	parksook9292	POST	pymregn-51m3v		2011-08-22	나다 나 가수 나다 나 가수 다시보기 인순 인순이 아버지 인순 인순이 아버지 다시보기 인순 인순이 감사글
+mbc_sundaynight_nagasoo	ohhyunhwa5	POST	pymrg2q-_mn4f		2011-08-22	나가수재방보고있당 tagsmile 우왕 인순이아줌마 진짜 짱이닷 taglove 쫀독쫀독거리 맘
+mbc_sundaynight_nagasoo	asuzysd	POST	pymrg2_-_sgrf		2011-08-26	월 소녀시대분 컴백 한다고하죠 tagexclamation 가수분 겨울과여름쯤 한곡쯤 한곡쯤은 꼭내는거 같다 tagsmile 나다 나 겨울 컴백하는게더좋던데 tagsmile 컴to the백
+mbc_sundaynight_nagasoo	duswn19	POST	pymrgn8-ylvw6		2011-08-22	나가수 인순 인순이 아버지 열창 청중평가단 눈물바 눈물바다
+mbc_sundaynight_nagasoo	shineerachel	POST	pymrgno-5uoc1		2011-08-22	인순 인순이 나가수 위 아버지 영상
+mbc_sundaynight_nagasoo	wlsgml938	POST	pymrh4u-5dk7f		2011-08-24	저번주나가수 인순이선생님노래 아버지 대박 tagcry 나도 나다 나 보면서울뻔 tagcry 나는가수
+mbc_sundaynight_nagasoo	johnkim4188	POST	pymrhc_-_hkur		2011-08-22	나가수 인순 인순이 아버지 tagexclamation
+mbc_sundaynight_nagasoo	smileface	POST	pymrhh8-yy69		2011-08-22	아놔 나가수보는데 화면 바비킴 비출때 비출때마 흠칫흠칫 놀라고 놀라고있다 아 심장떨리게 잘생기다 이래 되는거야tagquestion 장동건급 장동건급인데 비킴오빠내꺼
+mbc_sundaynight_nagasoo	jjyyzang	POST	pymrhve-yhu_e		2011-08-22	나다 나 가수 인순 인순이 아버지 감동폭풍이야tagsmile
+mbc_sundaynight_nagasoo	jh102108	POST	pymri06-_30ls		2011-08-26	jk김동욱 씨 에다 부탁 드림니당 tagexclamation tagexclamation 재발 나가수 나오다 나 주다 please tagexclamation tagexclamation tagexclamation
+mbc_sundaynight_nagasoo	nicekimwj30	POST	pymriim-yyl9w		2011-08-22	잠 잔건아니지 잔건아니지만 평소 보다 보 자다 방금 깼어요 내일 내 출근 하다 자야는데 같이사 친구 나가수 나가수다 보길레 같다 보고 tagsmile
+mbc_sundaynight_nagasoo	blwind18	POST	pymriqi-6vn		2011-08-22	김조한님 명예졸업 기원 tagexclamation 솔리드 멤버 풀셋 보고싶어효 tagcry 자우림님 자우림님은 등해 등해도 늘다 김조한님 김조한님과 함 내맘속 공동 우림님들답게 퐈이야퐈 퐈이야퐈이 tagexclamation 나가수 박순희인가봐효 tagsmile 내 보다 정말 잘
+mbc_sundaynight_nagasoo	myyshg	POST	pymrjhv-y73h2		2011-08-22	mbc 추석 특집 나다 나 트로트 가수 청중 평가단
+mbc_sundaynight_nagasoo	ya6145	POST	pymrldt-quwh		2011-08-24	방송연기수업 녹음스튜디오 보컬레슨 최상 시설 실전 같다 환경 교육 완벽 방송데뷔시스템 통하다 나도 나다 나 이제 스타 tagexclamation 예비 탤런트 가수 여러분 tagexclamation 본스타 연기학원 기 정규반 정규반으 gogo
+mbc_sundaynight_nagasoo	tv-media	POST	pymrlh2-_i7yx		2011-08-26	나다 나 가수 호주 공연 확정 월 일 녹화장소 마 뮤직볼
+mbc_sundaynight_nagasoo	search_now	POST	pymrm09-5y0f5		2011-08-22	인순 인순이 윤민수 신세경 바비킴 노희지 좀비랜드 이스타항공 주민정 나가수 i 네이버 실시 급상승 검색어
+mbc_sundaynight_nagasoo	lenadoil	POST	pymrm3d-vpoo		2011-08-22	살 사다 초반 들다 들 노래 노랗다 술 그때 내 내다 노래방 번다 번 되다 나가수 잠깐 들다 하루종일 하루종 머릿속 한가득 하다 하지 원래 좋다 이상 가슴절절 막 먹먹 다들 공감 가사 그런가 그런가요 tagsmile
+mbc_sundaynight_nagasoo	c_forsythia2	POST	pymrm3z-5on0u		2011-08-22	나가수 조관우씨 조관우씨가 점점 좋아지다 있다 으아 진짜 볼매 볼매남 볼매남이 엄빠뻘 되다 되 아저씨 왜이러케 귀여운거 귀여운거야 tagcry
+mbc_sundaynight_nagasoo	saoki	POST	pymrmik-5ha45		2011-08-26	나도가수 정재범 정재범의 나와 나와같다면 유투브펌
+mbc_sundaynight_nagasoo	princesskim	POST	pymrmn_-9019		2011-08-22	인순이 인순이가 위하다 어떻다 불렀는지도 궁금 윤민수 바비킴 바비킴이 나왔대서 나가수 나가수를 보다
+mbc_sundaynight_nagasoo	kimhyo2002	POST	pymrmqv-l8a6		2011-08-24	나가수 나가수에서 왜케 이별노래 많다 부르다 실연 한번 안 사람 사다 없다 청중 이목 끌다 위해서 조관우 조관우의 사랑 장혜진 장혜진의 아름답다 날들 tagcry 특 기억 남다 가사 눈물 닦아줄수 있는것 있는것은 오직 시간 이 내용 왜이렇게 와닿다
+mbc_sundaynight_nagasoo	stylisthanul	POST	pymrnbh-_w5s7		2011-08-22	바비킴 나가수 첫 무대 악몽 같다
+mbc_sundaynight_nagasoo	laelae52	POST	pymrnbu-58auh		2011-08-22	인순 인순이 선호도 선호 위 나가수 인순 인순이 아버지 감동
+mbc_sundaynight_nagasoo	lovelyhyun13	POST	pymrpak-5hk2m		2011-08-26	동생 나가수 재방보는데 동생 인순 인순이 노래 듣다 우는데 나다 나 당최 이해 수가 수 없다 내 감정 메마른건가 ㅡ ㅡ 노래 좋다 으헥 tagsmile 근데 나다 나 가사 가다 이해 안되다 내 ㅂㅅ ㅂㅅ인가
+mbc_sundaynight_nagasoo	carmaster000	POST	pymrr9r-ydfu8		2011-08-24	나다 나 가수
+mbc_sundaynight_nagasoo	better	POST	pymrswg-y82t		2011-08-22	다들 신지수 신지수 하다 아직 보다 못하다 어제 나가수 나가수에 인순 인순이 나오다 그것 아직 못 보다
+mbc_sundaynight_nagasoo	search_now	POST	pymrszf-5y0f5		2011-08-22	전현무 성시경 한남대 윤송 윤송이 폭풍의전학생 신의탑 연두 인순 인순이 나가수 김효진 hp 터치패드 네이버 실시 급상승 검색어
+mbc_sundaynight_nagasoo	karls7	POST	pymru0o-qvh3		2011-08-22	이번주 나가수 나가수에 드디어 민수횽님 민수횽님이 나오다 호불호 호불호가 갈리다 감정이과하다 말들이많았지만 보는내 보는내내 복받치다 제감정 제감정을 표현해주는거 같다 인순이누님 가수 자체셨다면 민수횽님 민수횽님은 이별 감정 감성 자체 였습니다 이번 나가수 시즌 본방사수 무조건 tagcry 나가수 윤민수
+mbc_sundaynight_nagasoo	spastar7	POST	pymrus2-5x8tg		2011-08-22	나가수 윤민수 나가수 윤민수 인 착용 않다 이유tagquestion tagexclamation
+mbc_sundaynight_nagasoo	spastar7	POST	pymrutz-5x8tg		2011-08-22	나가수 인순 인순이 나가수 인순 인순이 아버지 열창 관객 기립박수 tagexclamation
+mbc_sundaynight_nagasoo	najong38	POST	pymruu3-50or5		2011-08-22	나가수 인순 인순이 아버지 열창 선호도 선호 위 tagexclamation 프런티어타임스
+mbc_sundaynight_nagasoo	spastar7	POST	pymruzs-5x8tg		2011-08-22	나가수 박정현 나가수 박정ㄹ현 김범수 명예졸업 특별 무대 tagexclamation
+mbc_sundaynight_nagasoo	navermusic	POST	pymrv1o-5ao32		2011-08-22	새롭다 시작 나다 나 가수 의 노래 인순 인순이 윤민수 바비킴 이들 이들이 부르다 노래 소개 나다 나 평론가 가 가다 되어버린 지금 나다 나 막귀 막귀다 가 가다 되다 되 싶다
+mbc_sundaynight_nagasoo	miaero_d	POST	pymrv9n-hzah		2011-08-22	나가수 인순 인순이 아버지 열창 시청자 눈물
+mbc_sundaynight_nagasoo	shiningtoil	POST	pymrva4-_pex3		2011-08-22	나는가수 나가수 나가수의 새롭다 멤버 인순 인순이 바비킴 윤민수
+mbc_sundaynight_nagasoo	verta74	POST	pymrvcd-y6fu1		2011-08-22	어제 나가수 보다 보 마지막 인순 인순이 아버지 듣다 인트 인트로 부터 눈물 뚝뚝
+mbc_sundaynight_nagasoo	ssm01192	POST	pymrvr3-5wfgc		2011-08-22	오늘 나가수 나가수가 기대 tagsmile
+mbc_sundaynight_nagasoo	lkw3106	POST	pymrw7d-g9hs		2011-08-22	나가수 첫 출연 인순 인순이 폭풍 가창력 선보이다 위 차지 차다
+mbc_sundaynight_nagasoo	poydaddy	POST	pymrwc8-527v		2011-08-25	형 금방 패떳시즌 을 다시보기 햇는데 햇는데요 년 부터 진짜 잼잇엇는데 나가수 엠씨한다면서 엠씨한다면서요 유재석 맞붙는다 그뜻이예요tagquestion 캬컄
+mbc_sundaynight_nagasoo	hystall	POST	pymrxh2-_y359		2011-08-22	나가수 김범수 박정현 마지막 무대 사랑 깊다 상처
+mbc_sundaynight_nagasoo	j2108922	POST	pymrxwp-52lz4		2011-08-22	나가수 스타 임재범 폭행 혐의 피소 피다 도곡동pt 개포동pt 양재동pt
+mbc_sundaynight_nagasoo	sangchooon	POST	pymrx_a-_3mry		2011-08-22	우와 우와와 나가수 윤민수 개멋있따 tagexclamation
+mbc_sundaynight_nagasoo	today1828	POST	pymrycn-_wwuy		2011-08-22	hd인순 hd인순이 아버지 나가수 나는가수
+mbc_sundaynight_nagasoo	dyddn57	POST	pymrydq-_rhcx		2011-08-25	우올 나가수 월 일 역시 쩌는날이엿어 런데빌런런 tagexclamation 흐헝
+mbc_sundaynight_nagasoo	jscaritas	POST	pymrzf3-5a8gp		2011-08-22	후원자 위하다 원주 옥수수잔치 인순 인순이 공연 어제 나다 나 가수다 가수다를 보다 인순이 인순이를 직접봐서그런가 웬지 혼자 뿌듯 그리다 옆 매니저 나가수 나가수에 나오다 정선복지관
+mbc_sundaynight_nagasoo	jisooboo0619	POST	pymr_yv-xx2v		2011-08-25	yg소속사 대표 양현석사장님 yg소속가수 빅뱅 빅뱅의 일 결정 문제 팬들 팬들이 개입 있다 어느정도 선 그어져 그어져있다 그어져있다는 그리다 타투 타투나 이런걸 이런걸로 문제 되다 우리 응원봉 쓰다 쓰거 슬로건 배부 안다 팬질 팬질하기 힘들다 만드 만드는 건 거다 걸다 빅뱅 빅뱅이 아니다 아니 우리 물론 해체 이런건 만약 하게 하게된다면 음 나도 나다 나 화나다 같다 근데 지금 정확 확정 것 아니다 상태 이러는건 조금 근데 그니까 지금 yg yg나 vip vip나 블랙잭 블랙잭이 전부 무튼 지금 다들 날다 날 서 음 후 tagcry 음 tagcry
+mbc_sundaynight_nagasoo	dennis7070	POST	pymt2ez-5dch4		2011-08-27	음주가무 나도 나다 나 가수 한편 찍었써요 tagsmile
+mbc_sundaynight_nagasoo	tkdgns0423	POST	pymt9kd-ylml8		2011-08-27	tagsmile ㅇ tagsmile ㅇ옴 다시가수보러나기지
+mbc_sundaynight_nagasoo	lkw3106	POST	pymtcrm-g9hs		2011-08-26	인순 인순이 나가수 출연 후 신데렐라 신데렐라가 되다 감격
+mbc_sundaynight_nagasoo	qkrdntjf	POST	pymtj1m-5dgxd		2011-08-26	나 나다 대구 사다 육상선수권 대회땜메 가수와서 축제 tagcry 못보러갔다 가까운데 두류공원 축제하는거 금방알았음 tagcry 아
+mbc_sundaynight_nagasoo	8712love	POST	pymtjfn-5_j5r		2011-08-27	노래방왔긔 첫노래 점 나왔긔tagsmile 소쥬좀 들어갔앙 다들 주말밤 즐기다 있아용tagquestion tagsmile 베터리 죽기전 마직막 포스팅 다들 굿밤 굿밤 tagsmile 나도 나다 나 회사 가수 통한다규 tagsmile
+mbc_sundaynight_nagasoo	pbeaver	POST	pymtkak-58tl0		2011-08-26	으헝헝 나가수 무대 몇개 몇개만 폰 폰으 보다 술 보다 좋다 tagcry 혜진언니 tagcry
+mbc_sundaynight_nagasoo	ssee1202	POST	pymtp3b-ykq_u		2011-08-26	일기중 내 좋아하다 가수 ne 이 총 명 나다 나 그중 다라언니 좋다 노래 i don t care care이 좋은것 같다 tagsmile 학년때 쓰다 쓸다 일기 tagsmile
+mbc_sundaynight_nagasoo	vorne	POST	pymtxgv-yywst		2011-08-27	어제 다녀오다 제이레빗 콘서트 앗다 정말 달달 달달하 사랑 공연이엿습니 앞 곡 날리다 노래 다 정화 주다 게스트 게스트로 원모어챈스분들이 나오셧더라구 나오셧더라구요 tagexclamation 라디오 몇번 들다 우왕 굳 tagexclamation 정지찬님 나가수 봣는데 tagexclamation tagsmile 박원님 사진 tagcry 어찌보면 언제 또 볼수 있다 모르다 제이레빗 공연이 좋다 다음 또 언제 언제가 되다 몰다 아쉬웟어 아쉬웟어요 ㅅ 사진 friendz net 솜샤탕님 솜샤탕님의 사진 사다 tagexclamation
+mbc_sundaynight_nagasoo	answjdqls6	POST	pymtxsk-5ltgs		2011-08-27	어젠정말힘들었어 왜냐구 스케줄 때문 때문에 어제는거의쉬는시간이없었어오늘은 과연어떤하루가 너희두가수가되면힘들꺼 그래두여러분들을위해서힘낼꼬 응원해죠 아잉 피곤 나를살려죠 tagexclamation
+mbc_sundaynight_nagasoo	caw1116	POST	pymw05m-yhfrf		2011-08-23	자유롭다 하늘 날아가다 놀라다 놀 말다 우리 앞 펼쳐지다 세상 소중 함 있다 yb 마법 성 서바이벌 나다 나 가수 경연 내 부르고싶 부르고싶은 남의노래
+mbc_sundaynight_nagasoo	caw1116	POST	pymw0dr-yhfrf		2011-08-23	우리앞 우리앞에 펼쳐지다 세상 소중 함께라면 yb 마법 성 서바이벌 나다 나 가수 경연 내 부르고싶 부르고싶은 남의노래
+mbc_sundaynight_nagasoo	byseunguk	POST	pymw1xy-_oclr		2011-08-23	서바이벌 나다 나 가수다 가수다에 새 투입 바이브 바이브의 윤민수 사람 사다 정말 노래 장난아니게 잘 다 과하다 에드립 에드립은 시청자 감정몰입 방해 마이너스 요소 되다 않을까tagquestion 충분 노래 잘 편곡 좋다 시청자 원곡 원곡을 사랑 적다 나다 나 그렇다 남자 남다 여자 술 바이브 윤민수 서바이벌 나다 나 가수
+mbc_sundaynight_nagasoo	uaboss0823	POST	pymw2qw-b78r		2011-08-27	나가수 명예 졸업 박정현 박정현이 부르다 그것 내 내다 세상 작다 작 체구 뿜어나오 뿜어나오는 에너지 놀랍다
+mbc_sundaynight_nagasoo	hke1125	POST	pymw2wn-oph4		2011-08-27	탑아이돌차트쇼 나다 나 얼굴있느 가수 위 탑
+mbc_sundaynight_nagasoo	hke1125	POST	pymw2z4-oph4		2011-08-27	산다라박아이돌차트쇼 나다 나 얼굴 가수 위 투애니원 산다라박
+mbc_sundaynight_nagasoo	dkgusdl2	POST	pymw3ly-53ch7		2011-08-27	나가수 박정현 그것 내세 영웅제중버젼포함 듣기 듣다 가사 가다 다운
+mbc_sundaynight_nagasoo	caw1116	POST	pymw3xa-yhfrf		2011-08-23	자유롭다 하늘 날아가다 놀라다 놀 말다 yb 마법 성 서바이벌 나다 나 가수 경연 내 부르고싶 부르고싶은 남의노래
+mbc_sundaynight_nagasoo	chdmsrkd	POST	pymw47g-ykfpb		2011-08-23	박정현 명예졸업이후 나가수 안본다능ㄱ
+mbc_sundaynight_nagasoo	aa990308	POST	pymw4rg-t438		2011-08-23	비스트 인피니트 에이핑크 지다 지나다 지 리쌍 미쓰에 미쓰에이 cm 나 가수선호도 가수선호
+mbc_sundaynight_nagasoo	sky0popcorn	POST	pymw561-_c11j		2011-08-22	무한 반복 듣기 듣다 바비킴 사랑 사 놈 그리다 윤민수 남자 남다 여자 술 한 하다 곡 장혜진ㅡ아름다운 날들 왜 외다 마음 이리 아프다 나다 나 가수 보다 보 나도 나다 나 모르다 울다
+mbc_sundaynight_nagasoo	hotvideo	POST	pymw5rt-uy8		2011-08-22	나가수 김조 김조한 천생연분 동영 나가수 김조 김조한 천생연분 동영
+mbc_sundaynight_nagasoo	jts5933	POST	pymw64u-52_ej		2011-08-22	바비킴나가수악몽 바비킴나가수악몽 바비킴나가수악몽
+mbc_sundaynight_nagasoo	everysingapp	POST	pymw6n5-_gzor		2011-08-23	new이벤트에브리싱 어플 어플로 sm yg jyp jyp가 참여 k팝스타 오디션 도전 덜컥 우승 하다 나 나다 가수 후배 되고싶다 tagexclamation 이유는tagquestion 댓글 내미투쓰기 참여 당첨자 분 베스킨라빈스 싱글킹 쏘다 선배 부르는거돠 tagsmile 전 절다 가수 아니다 송중기님 송중기님의 후배 싶다 수줍
+mbc_sundaynight_nagasoo	wlgn0244	POST	pymw6tn-u2da		2011-08-25	아이돌 차트쇼 나다 나 얼굴있는가수 윤 위
+mbc_sundaynight_nagasoo	tbdusl1212	POST	pymw6vo-_si3p		2011-08-23	이노래 이노래는 엄마 조아 조아하 조아하는 노래 노랗다 tagquestion tagsmile 갠적 갠적으 나두 쪼아하는노랩 tagsmile 나다 나 가수 사랑 깊다 상처 박정현 김범수
+mbc_sundaynight_nagasoo	gure00	POST	pymw76j-hax4		2011-08-23	나가수 나가수에 드디어 tagexclamation 내 원하다 가수 나오다 나오는구 그것 두명 두명이 tagexclamation tagsmile 나도 나다 나 스포할까봐 말은못 말은못하 tagsmile 근데 삼일 삼일이 지나다 괜찮다 않다 tagsmile
+mbc_sundaynight_nagasoo	akftma55	POST	pymw93g-5829f		2011-08-22	인순니 인순이아버지 위 나가수 인순 인순이 아버지 위
+mbc_sundaynight_nagasoo	wos5333	POST	pymwa2h-5pue1		2011-08-26	서바이벌 나다 나 가수 경연 청중 평가단 추천곡 listening 빙글빙글 나미 yb 서바이벌 나다 나 가수 경연 청중 평가단 추천곡
+mbc_sundaynight_nagasoo	nunurigo121	POST	pymwahs-_9tci		2011-08-26	나다 나 가수 ksrz
+mbc_sundaynight_nagasoo	ac7284	POST	pymwbrm-gtye		2011-08-25	솔직 내 본방 본방으 챙기다 건 거다 걸다 무한도전 궁금 이야기 y 나다 나 가수 다르다 건 거다 걸다 왔다갔다 보다 보
+mbc_sundaynight_nagasoo	itoa	POST	pymwcat-ahtb		2011-08-23	인순이아버지 나가수 인순 인순이 아버지 듣기 듣다
+mbc_sundaynight_nagasoo	ideamank	POST	pymwcb0-5wvy3		2011-08-23	인순 인순이 나가수 출연 이후 몸값 tagsmile tagsmile
+mbc_sundaynight_nagasoo	hotvideo	POST	pymwct5-uy8		2011-08-23	나가수 윤민수 그남자 그여자술 그여자술이 동영 나가수 윤민수 그남자 그여자 술 동영
+mbc_sundaynight_nagasoo	kkr0549	POST	pymwcyc-5gpta		2011-08-23	나가수윤종신발탁나가수윤종신발탁나가수윤종신발탁
+mbc_sundaynight_nagasoo	soulpeoples	POST	pymwdk0-_gcu6		2011-08-25	나가수 인순 인순이 아버지 압도적 위 tagexclamation 당신 당신과 나 아버지
+mbc_sundaynight_nagasoo	ooo5486	POST	pymwduz-y4qrs		2011-08-22	나가수 인순 인순이 아버지듣고 눈물이 tagcry 아 마음 짠하다 tagcry
+mbc_sundaynight_nagasoo	ghjen2	POST	pymwdyy-ug6d		2011-08-22	아버지 서 사랑 하다 하 서 미워 하다 하 아끼다 그대 보고 보다 보 싶다 참 차다 노래 들다 들 때 마다다 마 울다 드뎌 나다 나 가수다 이노래 이노래를 들다 들 줄 처음 들다 들 때 멍 눈물 흘리다 못했죠 가슴 멍
+mbc_sundaynight_nagasoo	flower-star	POST	pymwfe2-59325		2011-08-23	나가수 재방 보다 보 중 바비킴 노래 들다 작년 가다 콘서트 새록새록 떠오르다 정말 매력만점
+mbc_sundaynight_nagasoo	ybrocks	POST	pymwfhz-y4u0j		2011-08-25	으왕 잘쌩겻따 tagcry tagcry 나가수 윤도현 보다 보 낙 밧는데 tagcry tagcry
+mbc_sundaynight_nagasoo	thddnrud99	POST	pymwfrh-y3jd9		2011-08-25	나 나다 앞 양사장님 욕 최대 안할꺼 안할꺼야 양사장님 없다 세븐 거미 빅뱅 투애니원 같다 가수 나왔을거 같아tagquestion 사람 실력 발견 키우다 데뷔 그거 누 누가 다 하다 모르는거야tagquestion
+mbc_sundaynight_nagasoo	jhoh65p	POST	pymwg8a-ylg1b		2011-08-27	나다 나 가수 내일한다
+mbc_sundaynight_nagasoo	skaryzhcl	POST	pymwgs2-ypmsn		2011-08-25	나도 나다 나 어렷을때 꿈 이루다 아마 가수 향하다 달려갔겟지만 지금 꿈 우리 할머니 아프다 어르신 치료할수 있다 정형외과 의사 되다 되 싶어효 수의사 수의사보 난 나다 날다 의사 되다 노랗다 노래 많다 연습 기타도 기타 연습
+mbc_sundaynight_nagasoo	x_masangel	POST	pymwgw1-54d3e		2011-08-23	퇴근 술 먹고싶지 먹고싶지만 참다 재방송 무도 나가수 무한틀어주면 열심히채점 공부할수있을텐데 학습지 선생님의비애 tagsmile 구몬을검색 다들 욕한닼 tagsmile tagsmile
+mbc_sundaynight_nagasoo	itoa	POST	pymwiot-ahtb		2011-08-23	인순이나가수 위트코리아나니인순 나가수 첫무대 나다 나 가수 출연 taglove
+mbc_sundaynight_nagasoo	lkw3106	POST	pymwiv1-g9hs		2011-08-23	바비킴 나가수 악몽
+mbc_sundaynight_nagasoo	kkkdltmf	POST	pymwjbh-ypcoo		2011-08-25	나 나다 말 재방 나는가수 인순 인순이 선배님이부르신 아버지 보다 근대 나 나다 펑펑울었어 진짜 한번봐봐 휴으 아 감정 아직 아직도 흐그흐극
+mbc_sundaynight_nagasoo	psk625	POST	pymwjce-28rd		2011-08-23	나가수 후 인순 인순이 몸값 뛰다 아산톱뉴스 무단전재 재배포금지 http www asantopnews com sub read htmltagquestionuid
+mbc_sundaynight_nagasoo	dh970719	POST	pymwjja-7xhb		2011-08-27	가다 tagsmile 링크 아이유 나가수
+mbc_sundaynight_nagasoo	lxclickbxl	POST	pymwkgo-5qrm		2011-08-27	인순 인순이 아버지나는가수다 나오다 나 입을떼시 입을떼시는 순간 나다 나 울컥 인순 인순이 아버지 나는가수
+mbc_sundaynight_nagasoo	dbsrudwn7929	POST	pymwm9r-yg5l4		2011-08-27	박정현 이젠 그랬으면 좋다 조용필 네이버앱 음악검색 서바이벌 나다 나 가수 경연 내 부르고싶 부르고싶은 남의노래
+mbc_sundaynight_nagasoo	itoa	POST	pymwmw6-ahtb		2011-08-23	우리들의일밤 우리 일밤 서바이벌 나다 나 가수 의 성장통
+mbc_sundaynight_nagasoo	h001113	POST	pymwntj-yjtgs		2011-08-27	나가수 에서 박정현 박정현이 부르다 이브 이브의 경고 신나다 하다 하지 댄스곡이기도 특 박정현씨 목소리 좋다 tagsmile must리서치
+mbc_sundaynight_nagasoo	shutoffboy	POST	pymwo1x-ydy2w		2011-08-27	와지난주못봤던나가수보고 온몸에소름쫘악 역시윤민수 tagcry tagcry 사랑 박정현다음
+mbc_sundaynight_nagasoo	inaleaf	POST	pymwozj-ywr5d		2011-08-23	하마사키 아유미 memorial adress 나다 나 계속 보컬리스트 있다 싶다 남기다 오른쪽 귀 갈 가다 있다 곳 한계 계속 노래 노랗다 부르다 개인적 참 차다 tagexclamation 많다 좋아라 좋아라하 좋아라하는 가수 왼쪽귀의 돌발성 난청 노래 하다 나다 나 우리 최선 말 것 레벨 어느 정도인걸까tagquestion 저런 핑계 많다 곳 도망쳐나왔었다
+mbc_sundaynight_nagasoo	iamka83	POST	pymwp7v-_9kl_		2011-08-27	꺄응 나 나다 가수 범쑤씌 범쑤씌를 나가수 볼수 없단게 넘흐 아쉽구 속상 하다 하지 이번 시즌 좀 조다 볼만할듯 tagsmile 나두 한때 가수 꿈꾼적 꿈꾼적이 있었드랬지 tagsmile
+mbc_sundaynight_nagasoo	kimme1009	POST	pymwpdb-_wueh		2011-08-27	아 나도 나다 나 슈스케 나가고싶다 가수하겟다 것 아니다 아니 한번 도전 해본다는건데 가수 꿈이엇지 꿈이엇지만 접다 햇다 미련이남는다
+mbc_sundaynight_nagasoo	ukjin98	POST	pymwpiq-jj3s		2011-08-27	나가수 옥수역 등장 마자 탈락 타다
+mbc_sundaynight_nagasoo	ji_yeon0819	POST	pymwq0b-_8asq		2011-08-26	뭐 아실분 아실분들은 지금 다아시겠지 다아시겠지만 와이지 와이지나 양현석 사장님 사장님이 또 그가수분들께 그가수분들께나 실망 정말 뭐 그가수분 아무것 아무것도 몰랐겠지만 왜이렇게 섭섭
+mbc_sundaynight_nagasoo	rr4258	POST	pymwr2v-5sq6a		2011-08-27	나다 나 가수다 가수다는 언제 보다 재미
+mbc_sundaynight_nagasoo	lady043	POST	pymws51-ynmrs		2011-08-23	나다 나 가수 사랑 깊다 상처 listening 사랑 깊다 상처 박정현 김범수 나다 나 가수 사랑 깊다 상처 박정현 김범수
+mbc_sundaynight_nagasoo	spastar7	POST	pymwsdf-5x8tg		2011-08-23	나가수 인순 인순이 나가수 인순 인순이 나가수출연후 몸값 껑 충
+mbc_sundaynight_nagasoo	leejisu_2001	POST	pymwu2g-52d1g		2011-08-27	나도 나다 나 언니따 언니따라 오디션보고싶어 언니 tagexclamation 라디님도 라디님도보 tagexclamation 작곡가 최규성님 최규성님도 보고 보다 보 tagcry 신사동호랭이님도봣대 라디님 라디님은 가수 최규성님 최규성님은 비스트노래 지나노래 거의 거 작곡해주신분 tagexclamation 신사동호랭이님 포미닛언니 히트곡 작곡해주신분 tagexclamation
+mbc_sundaynight_nagasoo	frompic	POST	pymwun9-_d1bz		2011-08-26	김범수 박정현 사람 사다 사랑 사 김범수 박정현 사람 사다 사랑현재 나다 나 가수다 가수다의 박정현 박정현과 김범수 김범수의 듀엣곡 사람 사다 사랑 크다 화제 되다 되 있는데 있는데요 tagsmile 한번 김범수씨 김범수씨와 듀엣
+mbc_sundaynight_nagasoo	eliboy	POST	pymwuqh-zxz		2011-08-23	윤민수때문 윤민수때문에 나가수 보다 겠음 fb re feel
+mbc_sundaynight_nagasoo	jaerax2	POST	pymww18-28c7		2011-08-23	나가수 윤민수 때문 때문에 간 간만 보다 그동안 보다 윤민수 윤민수의 라이브중 라이브중에 최악 컨디션 똥망이었나보네 바이브 바이브도 떠보다 tagexclamation
+mbc_sundaynight_nagasoo	dat3131	POST	pymwwap-ya1sm		2011-08-23	나다 나 가수 무편집 영상 단독 공개너무멋있어 황홀 그자체 그자체입니 그자체입니다 daum연예
+mbc_sundaynight_nagasoo	osj702	POST	pymwwau-ycxlv		2011-08-25	나가수 짱 tagexclamation yb 김범수 박정현 tagexclamation
+mbc_sundaynight_nagasoo	gaeui4414	POST	pymwxcv-yn253		2011-08-26	나다 나 멤놀 멤놀하 멤놀하는 사람 끌리다 내 좋아하다 가수
+mbc_sundaynight_nagasoo	edward1419	POST	pymwxdz-5uzc8		2011-08-27	나다 나 가수 경연 청중 평가단 추천곡 listening 술 바이브 장혜진 나다 나 가수 경연 청중 평가단 추천곡
+mbc_sundaynight_nagasoo	seongbi91	POST	pymwybx-56nb3		2011-08-27	서바이벌 나다 나 가수 경연 청중평가단 추천곡 listening 비 당신 당신의 이야기 bmk 서바이벌 나다 나 가수 경연 청중평가단 추천곡
+mbc_sundaynight_nagasoo	biennami2514	POST	pymwyfu-_hct6		2011-08-25	야 노래중 이노래들으면 나 같다 울컥 노래있어tagquestion 제목 가수이름 좀말해줘
+mbc_sundaynight_nagasoo	choo0506	POST	pymwz52-y57y0		2011-08-23	우리가수이름대기 taglove 나 tagsmile 비스트
+mbc_sundaynight_nagasoo	beast3519	POST	pymw_7m-sqex		2011-08-25	기광 엠넷 아이돌 차트쇼 비스트 나다 나 얼굴 가수
+mbc_sundaynight_nagasoo	soulates	POST	pymw_8d-590un		2011-08-27	yb concert 윤도현밴드 함께하 함께하는 광란 시간 tagexclamation yb콘서트 보고 보다 보 오다 나다 나 가수 윤밴 동영 신세계백화점 본점 문화홀 신세계몰 이벤트
+mbc_sundaynight_nagasoo	nikonphoto	POST	pymw_g2-rofc		2011-08-22	나도 나다 나 싣다 실 가수 윤종신 팬클럽 팬클럽이 보내다 화환 tagsmile
+mbc_sundaynight_nagasoo	nicoleshin	POST	pymw_oh-0kz		2011-08-26	한국 있다 애가 애 지금 집 들어오다 새벽 시 선배 나다 나 가수 사람 술 먹는다 먹는다고 불렀는데 나가다 나다 나 트로트 이신 설운 설운도 아저씨 있드란다 스프레이 한통 한통을 머리 다 뿌리다 꺽기 꺽기에 명인 명
+mbc_sundaynight_nagasoo	pichhoo	COMMENT	pym9ium-528_r	c_nt1sb-ym9ium-528_r	2011-08-22	다 보다 tagsmile
+mbc_sundaynight_nagasoo	key_-	COMMENT	pym9ium-528_r	c_nt1xc-ym9ium-528_r	2011-08-22	결국다보실꺼같아욬
+mbc_sundaynight_nagasoo	geussiah	COMMENT	pym9ium-528_r	c_nt1zl-ym9ium-528_r	2011-08-22	tagsmile 보세 tagsmile
+mbc_sundaynight_nagasoo	fortbank	COMMENT	pym9ium-528_r	c_nt9ra-ym9ium-528_r	2011-08-22	tagsmile 어차피 볼거 보다 tagsmile
+mbc_sundaynight_nagasoo	dlrbwjdi	COMMENT	pym9ium-528_r	c_ntf02-ym9ium-528_r	2011-08-22	하나 tagsmile tagcry
+mbc_sundaynight_nagasoo	dlrbwjdi	COMMENT	pym9ium-528_r	c_ntf1c-ym9ium-528_r	2011-08-22	tagsmile 할듯 할듯요 tagcry
+mbc_sundaynight_nagasoo	dlrbwjdi	COMMENT	pym9ium-528_r	c_ntf38-ym9ium-528_r	2011-08-22	그럴까 tagcry
+mbc_sundaynight_nagasoo	dlrbwjdi	COMMENT	pym9ium-528_r	c_ntf7d-ym9ium-528_r	2011-08-22	tagsmile 전 절다 생기다 얼마 얼다 안됐어 tagsmile
+mbc_sundaynight_nagasoo	dlrbwjdi	COMMENT	pym9ium-528_r	c_ntfjw-ym9ium-528_r	2011-08-22	tagsmile 그래야될꺼 tagcry
+mbc_sundaynight_nagasoo	geussiah	COMMENT	pym9ium-528_r	c_ntfw5-ym9ium-528_r	2011-08-22	일명 노트북중독이라고들하죠 tagsmile
+mbc_sundaynight_nagasoo	hoegyung	COMMENT	pym9mac-y55c9	c_n4et8-ym9mac-y55c9	2011-08-25	사랑이라는말을과거형으로하지말라는말이가슴에오더군 사랑이라는말을과거형으로하지말라는말이가슴에오더군요
+mbc_sundaynight_nagasoo	daummjh	COMMENT	pym9mac-y55c9	c_na3wm-ym9mac-y55c9	2011-08-24	베가레이서 좋은폰이죠tagsmile tagsmile
+mbc_sundaynight_nagasoo	gony518	COMMENT	pym9mac-y55c9	c_na6gl-ym9mac-y55c9	2011-08-24	tagsmile 베가레이서 축하 tagexclamation 전 절다 아이폰 를 기다리다 아직 피쳐폰 tagcry
+mbc_sundaynight_nagasoo	sigusigu	COMMENT	pym9mac-y55c9	c_na6tt-ym9mac-y55c9	2011-08-24	쓰담쓰담 tagsmile
+mbc_sundaynight_nagasoo	rejoice0201	COMMENT	pym9mac-y55c9	c_naeff-ym9mac-y55c9	2011-08-24	tagsmile 축하 tagsmile
+mbc_sundaynight_nagasoo	insubi117	COMMENT	pym9mac-y55c9	c_naery-ym9mac-y55c9	2011-08-24	저 전 인순 인순이 인순이라 가수 별 좋아하다 않다 노래 정말 그나저 그나저나 스마트인 스마트인이 되다 축하 앞 자주 보다 tagsmile
+mbc_sundaynight_nagasoo	parkhayoung	COMMENT	pym9mac-y55c9	c_nak1e-ym9mac-y55c9	2011-08-24	저 기다리다 하다 충전 안 알다 되서 바꿨어용 tagsmile 스카이 스카이만 대째 듀얼스피커 좋다 tagsmile
+mbc_sundaynight_nagasoo	gony518	COMMENT	pym9mac-y55c9	c_nak22-ym9mac-y55c9	2011-08-24	tagquestion 안그래 안그래도 웹개발자 웹개발자이신 지인분 베 좋다 저 꾀다 혹하다 충전 안되다 건 거다 걸다 진짜 흑흑 tagsmile
+mbc_sundaynight_nagasoo	jsc1	COMMENT	pym9mac-y55c9	c_nakbv-ym9mac-y55c9	2011-08-24	정말 눈물 아버지 보고싶어졌죠 노래듣는순
+mbc_sundaynight_nagasoo	sigusigu	COMMENT	pym9mac-y55c9	c_nakc0-ym9mac-y55c9	2011-08-24	tagsmile 일단 카카오톡 마이피플 마이피플만 설치 되다 ㅆ tagsmile
+mbc_sundaynight_nagasoo	parkhayoung	COMMENT	pym9mac-y55c9	c_nakf4-ym9mac-y55c9	2011-08-24	아이패드 아직 파악 못하다 tagsmile
+mbc_sundaynight_nagasoo	jsc1	COMMENT	pym9mac-y55c9	c_nakg9-ym9mac-y55c9	2011-08-24	레전드 순이누님
+mbc_sundaynight_nagasoo	parkhayoung	COMMENT	pym9mac-y55c9	c_nakoq-ym9mac-y55c9	2011-08-24	정말소울 담기다 노래 tagcry
+mbc_sundaynight_nagasoo	yanny	COMMENT	pym9mac-y55c9	c_nakqm-ym9mac-y55c9	2011-08-24	오 축하 tagsmile
+mbc_sundaynight_nagasoo	didqh81	COMMENT	pym9mac-y55c9	c_nas8p-ym9mac-y55c9	2011-08-24	tagsmile 노래좋죠 하다 오랜만이죠tagquestion
+mbc_sundaynight_nagasoo	staytac	COMMENT	pymfcgo-heyz	c_45psg-ymfcgo-heyz	2011-08-26	그러고보 좀 조다 닮으신듯
+mbc_sundaynight_nagasoo	cheul4981	COMMENT	pymfcgo-heyz	c_vto1n-ymfcgo-heyz	2011-08-23	tagsmile 미다 싸인받아놀까 tagsmile
+mbc_sundaynight_nagasoo	usin5425	COMMENT	pymge5w-yt4ol	c_4kzgy-ymge5w-yt4ol	2011-08-27	무하마드 알다 tagexclamation 나비 날다 벌 쏘다
+mbc_sundaynight_nagasoo	hyoweon99	COMMENT	pymjj8t-ywteh	c_n267r-ymjj8t-ywteh	2011-08-24	요샌별로얔 tagsmile
+mbc_sundaynight_nagasoo	hanian3257	COMMENT	pymjj8t-ywteh	c_nubjb-ymjj8t-ywteh	2011-08-24	나는듣다가잠드는뎁 tagsmile
+mbc_sundaynight_nagasoo	gbdsosorhdwn	COMMENT	pymjj8t-ywteh	c_nuboy-ymjj8t-ywteh	2011-08-24	쪼다 거의 거 다 슬픈노래 부르다 쪼다 지루 tagsmile
+mbc_sundaynight_nagasoo	gbdsosorhdwn	COMMENT	pymjj8t-ywteh	c_vdo1s-ymjj8t-ywteh	2011-08-26	인순이노래 짱인듯 tagsmile
+mbc_sundaynight_nagasoo	iseemijung	COMMENT	pymmto4-5a_on	c_vl4uo-ymmto4-5a_on	2011-08-25	시발 tagsmile
+mbc_sundaynight_nagasoo	pigmi	COMMENT	pymmvtd-5yxue	c_4j0ek-ymmvtd-5yxue	2011-08-24	군대가세 tagquestion
+mbc_sundaynight_nagasoo	whrrrk	COMMENT	pymo0f1-5l45z	c_4001v-ymo0f1-5l45z	2011-08-23	가장최근건난별루엿는뎁 tagsmile
+mbc_sundaynight_nagasoo	kcm1540	COMMENT	pymo0f1-5l45z	c_403gw-ymo0f1-5l45z	2011-08-23	목소리 얇다 그냥그래 tagsmile
+mbc_sundaynight_nagasoo	speme_no1	COMMENT	pymo0f1-5l45z	c_403sa-ymo0f1-5l45z	2011-08-23	근데 이번노래 잘불러씀 tagsmile
+mbc_sundaynight_nagasoo	speme_no1	COMMENT	pymo0f1-5l45z	c_40e30-ymo0f1-5l45z	2011-08-23	나도 나다 나 안 안보 인순이의등장 tagsmile
+mbc_sundaynight_nagasoo	kcm1540	COMMENT	pymo0f1-5l45z	c_40e5u-ymo0f1-5l45z	2011-08-23	tagsmile 나가수거 안보다보 tagsmile 이번건 좋았구만 tagsmile
+mbc_sundaynight_nagasoo	jm_11	COMMENT	pymofvd-5c_w4	c_vkfp0-ymofvd-5c_w4	2011-08-27	송창식님 특
+mbc_sundaynight_nagasoo	elijahsoul	COMMENT	pymofvd-5c_w4	c_vkr2z-ymofvd-5c_w4	2011-08-27	송창식 양희은 이선희 나얼 나오다 각잡고 볼텐데 볼텐데요 tagsmile 지금 김조 김조한 부분 가끔씩 찾다 보다 보 정도 정
+mbc_sundaynight_nagasoo	jm_11	COMMENT	pymofvd-5c_w4	c_vkrcz-ymofvd-5c_w4	2011-08-27	점점 재미 별로 별로야 땡
+mbc_sundaynight_nagasoo	gongmyung97	COMMENT	pymoj4h-17si	c_vn1f1-ymoj4h-17si	2011-08-24	우앙 thㅣ발 우리 우리나라 웬만하다 노래그룹 아니다 한명 한명만 뜨다
+mbc_sundaynight_nagasoo	ehoo0907	COMMENT	pymor_j-bm_	c_40ukz-ymor_j-bm_	2011-08-24	오오오 최강
+mbc_sundaynight_nagasoo	mujin	COMMENT	pymor_j-bm_	c_40urg-ymor_j-bm_	2011-08-24	이상은씨이야기 나오다 굉장 분들 분들이시지 분들이시지요
+mbc_sundaynight_nagasoo	mujin	COMMENT	pymor_j-bm_	c_4b14c-ymor_j-bm_	2011-08-24	tagsmile 노래 말이죠 수술 이야기 하다 옥양 옥양은 종결자 tagsmile
+mbc_sundaynight_nagasoo	02047543	COMMENT	pymor_j-bm_	c_4b1tm-ymor_j-bm_	2011-08-24	tagsmile 요새 다시이뻐지고잇죠 수술한뒤로이상해졋엇는데
+mbc_sundaynight_nagasoo	mujin	COMMENT	pymor_j-bm_	c_4b1_e-ymor_j-bm_	2011-08-24	바다 바다는 여신 열다 tagexclamation 입니 입니다 tagsmile
+mbc_sundaynight_nagasoo	02047543	COMMENT	pymor_j-bm_	c_4bbu9-ymor_j-bm_	2011-08-24	옳다 박정현 목소리 같은부류 나오먼 이길꺼 이길꺼임
+mbc_sundaynight_nagasoo	mujin	COMMENT	pymor_j-bm_	c_4b__s-ymor_j-bm_	2011-08-24	옥양 옥양과 비교 해보다 뮤지컬 경력 차이 차다 차 안 저 바다 바다를 지지 지다 하다 나가수 나가수가 잔인 방송 옥양 옥양도 나오다 나오다
+mbc_sundaynight_nagasoo	02047543	COMMENT	pymor_j-bm_	c_4estf-ymor_j-bm_	2011-08-24	바다도나와 바다도나와라 tagexclamation
+mbc_sundaynight_nagasoo	eylove0817	COMMENT	pymoyd9-5njk_	c_v21bp-ymoyd9-5njk_	2011-08-24	으잌 tagsmile 보고나중 소감 말해줄게 tagsmile
+mbc_sundaynight_nagasoo	huhjun2001	COMMENT	pymoyd9-5njk_	c_v21cq-ymoyd9-5njk_	2011-08-24	알겠으 tagsmile
+mbc_sundaynight_nagasoo	eylove0817	COMMENT	pymoyd9-5njk_	c_v2b14-ymoyd9-5njk_	2011-08-24	으잌 tagsmile 친절 쭌이씌 tagsmile 캄사 taglove
+mbc_sundaynight_nagasoo	huhjun2001	COMMENT	pymoyd9-5njk_	c_v2bsd-ymoyd9-5njk_	2011-08-24	앍 tagsmile 걍 강추천 이 tagsmile
+mbc_sundaynight_nagasoo	wolfgolf	COMMENT	pymp09a-yywka	c_nan09-ymp09a-yywka	2011-08-23	감수성 풍부 하다 역시
+mbc_sundaynight_nagasoo	sohn4946	COMMENT	pymp09a-yywka	c_nu178-ymp09a-yywka	2011-08-24	그러게 tagcry
+mbc_sundaynight_nagasoo	wolfgolf	COMMENT	pymp09a-yywka	c_nu1al-ymp09a-yywka	2011-08-24	지나다 나다 아버지 옆 있다 든든한 분 그걸 몰르 몰르고 살다 참 차다 아쉽다
+mbc_sundaynight_nagasoo	hihihizero	COMMENT	pympnyz-_jzu3	c_nuc3u-ympnyz-_jzu3	2011-08-24	재범님 이후 재미 기대가 기대 떨어지다
+mbc_sundaynight_nagasoo	xyjq	COMMENT	pympnyz-_jzu3	c_nuhl7-ympnyz-_jzu3	2011-08-24	맞다 소원이예요청중평가단 으로노래라이브로들어보는겡 tagsmile
+mbc_sundaynight_nagasoo	ohhyunhwa5	COMMENT	pymrg2q-_mn4f	c_vc776-ymrg2q-_mn4f	2011-08-22	왜우는가용
+mbc_sundaynight_nagasoo	sleet00	COMMENT	pymrg2q-_mn4f	c_vc7up-ymrg2q-_mn4f	2011-08-22	tagcry
+mbc_sundaynight_nagasoo	youandme665	COMMENT	pymrg2q-_mn4f	c_vc80s-ymrg2q-_mn4f	2011-08-22	전 절다 낮에 낮에보 울었어 tagquestion
+mbc_sundaynight_nagasoo	ohhyunhwa5	COMMENT	pymrg2q-_mn4f	c_vca4b-ymrg2q-_mn4f	2011-08-22	tagsmile 감동적이였죵
+mbc_sundaynight_nagasoo	ohhyunhwa5	COMMENT	pymrg2q-_mn4f	c_vcaag-ymrg2q-_mn4f	2011-08-22	tagsmile 평생다여트해야되지싶다 tagsmile
+mbc_sundaynight_nagasoo	ohhyunhwa5	COMMENT	pymrg2q-_mn4f	c_vcc8_-ymrg2q-_mn4f	2011-08-22	진짜쩔어 tagsmile 의상
+mbc_sundaynight_nagasoo	rnltlsaldnj	COMMENT	pymrg2q-_mn4f	c_vccib-ymrg2q-_mn4f	2011-08-22	반헸 tagsmile
+mbc_sundaynight_nagasoo	ohhyunhwa5	COMMENT	pymrg2q-_mn4f	c_vccxk-ymrg2q-_mn4f	2011-08-22	tagsmile 볼륨이막 tagsmile
+mbc_sundaynight_nagasoo	ohhyunhwa5	COMMENT	pymrg2q-_mn4f	c_vch2k-ymrg2q-_mn4f	2011-08-22	tagsmile 웅 tagsmile 혼혈이라서그러켓지
+mbc_sundaynight_nagasoo	ohhyunhwa5	COMMENT	pymrg2q-_mn4f	c_vch5i-ymrg2q-_mn4f	2011-08-22	완전짱이예용 tagsmile 나가수재방만이해서 저 오늘봤다능 tagsmile
+mbc_sundaynight_nagasoo	rnltlsaldnj	COMMENT	pymrg2q-_mn4f	c_vci6s-ymrg2q-_mn4f	2011-08-22	tagsmile 막 드갈때 드가 드가고 나올때 나오다 하나 하다 하
+mbc_sundaynight_nagasoo	ohhyunhwa5	COMMENT	pymrg2q-_mn4f	c_vcmgo-ymrg2q-_mn4f	2011-08-22	tagsmile 그럼 아줌마 tagsmile 할모 할모니 tagsmile 근데멋 근데멋있다 tagcry
+mbc_sundaynight_nagasoo	rnltlsaldnj	COMMENT	pymrg2q-_mn4f	c_vcmsq-ymrg2q-_mn4f	2011-08-22	tagsmile 쩔지
+mbc_sundaynight_nagasoo	ohhyunhwa5	COMMENT	pymrg2q-_mn4f	c_vco31-ymrg2q-_mn4f	2011-08-22	할머니라기 몸매 tagsmile
+mbc_sundaynight_nagasoo	ohhyunhwa5	COMMENT	pymrg2q-_mn4f	c_vcoap-ymrg2q-_mn4f	2011-08-22	tagsmile 연세 안됐다아냐 tagsmile
+mbc_sundaynight_nagasoo	rnltlsaldnj	COMMENT	pymrg2q-_mn4f	c_vcob7-ymrg2q-_mn4f	2011-08-22	연세 tagsmile
+mbc_sundaynight_nagasoo	ohhyunhwa5	COMMENT	pymrg2q-_mn4f	c_vcobz-ymrg2q-_mn4f	2011-08-22	tagsmile 오늘은선호도조사라네용
+mbc_sundaynight_nagasoo	ohhyunhwa5	COMMENT	pymrg2q-_mn4f	c_vcoc6-ymrg2q-_mn4f	2011-08-22	tagcry 눈물이진짜나더라구용 tagsmile 완전짱 완전짱임 taglove
+mbc_sundaynight_nagasoo	ohhyunhwa5	COMMENT	pymrg2q-_mn4f	c_vcorn-ymrg2q-_mn4f	2011-08-22	tagsmile 완전 임재범 임재범보 더더
+mbc_sundaynight_nagasoo	rnltlsaldnj	COMMENT	pymrg2q-_mn4f	c_vcov2-ymrg2q-_mn4f	2011-08-22	오십넘었지 거의 거 안비슷하나tagquestion
+mbc_sundaynight_nagasoo	rnltlsaldnj	COMMENT	pymrg2q-_mn4f	c_vcq5z-ymrg2q-_mn4f	2011-08-22	tagsmile 혼혈이라서기 보다 자기관리 철저 이유일가 같다 tagsmile
+mbc_sundaynight_nagasoo	ohhyunhwa5	COMMENT	pymrg2q-_mn4f	c_vcqs3-ymrg2q-_mn4f	2011-08-22	아 역시 tagsmile 그랬다 tagcry 관리의중요성 tagexclamation 다시한번 되새기다 tagcry tagcry
+mbc_sundaynight_nagasoo	rnltlsaldnj	COMMENT	pymrg2q-_mn4f	c_vcqx_-ymrg2q-_mn4f	2011-08-22	열운 tagsmile 아악
+mbc_sundaynight_nagasoo	youandme665	COMMENT	pymrg2q-_mn4f	c_vcskn-ymrg2q-_mn4f	2011-08-22	전 절다 울어버렸어염
+mbc_sundaynight_nagasoo	danmikkong	COMMENT	pymrg2q-_mn4f	c_vct18-ymrg2q-_mn4f	2011-08-22	앗 전 절다 아직 못봤는데 tagcry 역시 인순 인순이 tagexclamation
+mbc_sundaynight_nagasoo	sjw900	COMMENT	pymrg2q-_mn4f	c_vcur3-ymrg2q-_mn4f	2011-08-22	상위권 다투다 다툼 치열 같다 tagsmile
+mbc_sundaynight_nagasoo	bobodu	COMMENT	pymrg2q-_mn4f	c_vcwns-ymrg2q-_mn4f	2011-08-22	헉 인순이님 인순이님이 나오시는군 나오시는군요
+mbc_sundaynight_nagasoo	rnltlsaldnj	COMMENT	pymrg2q-_mn4f	c_vcwtn-ymrg2q-_mn4f	2011-08-22	아줌마tagquestion 할머니 아니 tagsmile
+mbc_sundaynight_nagasoo	kk7679484	COMMENT	pymrg2q-_mn4f	c_vcwzz-ymrg2q-_mn4f	2011-08-22	저 그거 있다 tagsmile
+mbc_sundaynight_nagasoo	youandme665	COMMENT	pymrg2q-_mn4f	c_vcz0i-ymrg2q-_mn4f	2011-08-22	마자여마자 마자여마자여 생각 아직 아직도 마음한쪽 짠 짜다 해지다
+mbc_sundaynight_nagasoo	sjw900	COMMENT	pymrg2q-_mn4f	c_vcz3i-ymrg2q-_mn4f	2011-08-22	정말 잘 자다 부르시더라고 부르시더라고요 tagsmile
+mbc_sundaynight_nagasoo	youandme665	COMMENT	pymrg2q-_mn4f	c_vczlk-ymrg2q-_mn4f	2011-08-22	하하하하 하하하 그렇다 되는건가여tagquestion히히히 되는건가여tagquestion히히히히
+mbc_sundaynight_nagasoo	ohhyunhwa5	COMMENT	pymrg2q-_mn4f	c_vczm3-ymrg2q-_mn4f	2011-08-22	그초그쵸 tagsmile tagsmile
+mbc_sundaynight_nagasoo	ohhyunhwa5	COMMENT	pymrg2q-_mn4f	c_vczry-ymrg2q-_mn4f	2011-08-22	tagcry tagsmile 마음 저 여리신가봐용
+mbc_sundaynight_nagasoo	rnltlsaldnj	COMMENT	pymrg2q-_mn4f	c_vcztu-ymrg2q-_mn4f	2011-08-22	나도 나다 나 tagcry
+mbc_sundaynight_nagasoo	nazca61	COMMENT	pymrg2q-_mn4f	c_vgg0p-ymrg2q-_mn4f	2011-08-23	난 나다 날다 못봤는데 tagcry 넘기샤 tagsmile
+mbc_sundaynight_nagasoo	lolikyon	COMMENT	pymrg2q-_mn4f	c_vgkt0-ymrg2q-_mn4f	2011-08-23	아 나도 나다 나 보다 되다 tagsmile 일등했다믄서 자우림꼴찌 충격 tagexclamation
+mbc_sundaynight_nagasoo	ohhyunhwa5	COMMENT	pymrg2q-_mn4f	c_vglt8-ymrg2q-_mn4f	2011-08-23	자우림 자우림도 잘 tagcry
+mbc_sundaynight_nagasoo	rainmaker95	COMMENT	pymrg2q-_mn4f	c_vi38b-ymrg2q-_mn4f	2011-08-22	정말 인순 인순이 최고죠 tagsmile
+mbc_sundaynight_nagasoo	sleet00	COMMENT	pymrg2q-_mn4f	c_vidah-ymrg2q-_mn4f	2011-08-22	슬프다 tagcry
+mbc_sundaynight_nagasoo	ohhyunhwa5	COMMENT	pymrg2q-_mn4f	c_vigj0-ymrg2q-_mn4f	2011-08-22	저두 저두요 tagcry tagsmile 노래는타고나는거 tagcry
+mbc_sundaynight_nagasoo	rainmaker95	COMMENT	pymrg2q-_mn4f	c_vihxx-ymrg2q-_mn4f	2011-08-22	뛰어나다 뛰어 실력 불구 왠지 모르다 대접 못받는듯 못받는듯한 가수중 한명인거 같다
+mbc_sundaynight_nagasoo	lordlove9	COMMENT	pymrg2q-_mn4f	c_vik0r-ymrg2q-_mn4f	2011-08-22	나도 나다 나 노래 노랗다 잘 자다 하다 하 싶다 tagsmile 점점 음치 되가 되가고 있다 tagsmile
+mbc_sundaynight_nagasoo	ohhyunhwa5	COMMENT	pymrg2q-_mn4f	c_vit6s-ymrg2q-_mn4f	2011-08-22	완전최고 tagsmile
+mbc_sundaynight_nagasoo	sleet00	COMMENT	pymrg2q-_mn4f	c_viy34-ymrg2q-_mn4f	2011-08-22	인순이만 인순이만이 인순이만이요 올 감성자극 tagsmile
+mbc_sundaynight_nagasoo	ohhyunhwa5	COMMENT	pymrg2q-_mn4f	c_viy_8-ymrg2q-_mn4f	2011-08-22	나가수보고슬프셔서요tagquestion tagexclamation tagsmile
+mbc_sundaynight_nagasoo	soulpeoples	COMMENT	pymwdk0-_gcu6	c_nxaac-ymwdk0-_gcu6	2011-08-25	아 나 나다 보다 타임스퀘어 무슨 맥주바 tagsmile tagsmile ㄷㄷ 하든데 tagsmile 울동네 울동네는 욜라 많다
+mbc_sundaynight_nagasoo	soulpeoples	COMMENT	pymwdk0-_gcu6	c_nxab9-ymwdk0-_gcu6	2011-08-25	tagsmile 단골 아니다 아니 좋은것 좋은것도 모르거tagquestion ㅡ 영등포 근데 넘 물가 tagsmile ㄷㄷ 해 하다
+mbc_sundaynight_nagasoo	thisist	COMMENT	pymwdk0-_gcu6	c_nxai5-ymwdk0-_gcu6	2011-08-25	타임스퀘어가면 영등포 시장쪽 시장쪽은 장난 tagsmile 참 차다 니네 동네 괜찮다 식당 많아tagquestion tagsmile
+mbc_sundaynight_nagasoo	thisist	COMMENT	pymwdk0-_gcu6	c_nxa_b-ymwdk0-_gcu6	2011-08-25	몰다 영등포니깐 그닥 싸다 않을테고 시간 많ㅇ ㅣ주려 ㅣ주려나 tagsmile 영등포 친구 모이다 저기 저기로 가다 tagsmile
+mbc_sundaynight_nagasoo	thisist	COMMENT	pymwdk0-_gcu6	c_nxcil-ymwdk0-_gcu6	2011-08-25	요즘 노래 노랗다 안불러tagquestion tagsmile
+mbc_sundaynight_nagasoo	soulpeoples	COMMENT	pymwdk0-_gcu6	c_nxcts-ymwdk0-_gcu6	2011-08-25	바쁘다 tagsmile
+mbc_sundaynight_nagasoo	thisist	COMMENT	pymwdk0-_gcu6	c_nxi6b-ymwdk0-_gcu6	2011-08-25	아 tagsmile
+mbc_sundaynight_nagasoo	soulpeoples	COMMENT	pymwdk0-_gcu6	c_nxn0n-ymwdk0-_gcu6	2011-08-25	구래구래 언제 언제든 환영
+mbc_sundaynight_nagasoo	soulpeoples	COMMENT	pymwdk0-_gcu6	c_nxssf-ymwdk0-_gcu6	2011-08-25	그니까 거가 거 머 머가 좋은건데 멀다 틀려tagquestion
+mbc_sundaynight_nagasoo	soulpeoples	COMMENT	pymwdk0-_gcu6	c_nxtde-ymwdk0-_gcu6	2011-08-25	노래방 땡기는데 tagsmile
+mbc_sundaynight_nagasoo	soulpeoples	COMMENT	pymwdk0-_gcu6	c_nxtos-ymwdk0-_gcu6	2011-08-25	히딩크 노래방tagquestion 그노래방 멀다 tagsmile
+mbc_sundaynight_nagasoo	thisist	COMMENT	pymwdk0-_gcu6	c_nxts8-ymwdk0-_gcu6	2011-08-25	예전 지짐이 말 영등포 영등포에 있다 노래방 tagsmile 니 찾다 쭈쭈바 맞다 편 펴다 tagsmile
+mbc_sundaynight_nagasoo	thisist	COMMENT	pymwdk0-_gcu6	c_nxtwg-ymwdk0-_gcu6	2011-08-25	정모 때 히딩크 노래방 tagsmile
+mbc_sundaynight_nagasoo	thisist	COMMENT	pymwdk0-_gcu6	c_nxzvc-ymwdk0-_gcu6	2011-08-25	엠펍말 엠펍말하 엠펍말하는 것 공연 같이하 같이하는 tagsmile 거다 거기 비싸지 tagsmile 다음 니네 동네 보자구 어짜피 내려가다 거 거다
+mbc_sundaynight_nagasoo	x_masangel	COMMENT	pymwgw1-54d3e	c_vs24y-ymwgw1-54d3e	2011-08-23	헉 tagcry 퇴근했어요tagquestion
+mbc_sundaynight_nagasoo	x_masangel	COMMENT	pymwgw1-54d3e	c_vs2zi-ymwgw1-54d3e	2011-08-23	헙
+mbc_sundaynight_nagasoo	baru1222-	COMMENT	pymwgw1-54d3e	c_vs9nk-ymwgw1-54d3e	2011-08-23	구몬선생님이셨어요tagquestion 와우 tagsmile 근데 선생님 술 좋아하다 tagcry
+mbc_sundaynight_nagasoo	hurpsy	COMMENT	pymwgw1-54d3e	c_vsjkt-ymwgw1-54d3e	2011-08-23	전 절다 아직 회사 tagcry
+mbc_sundaynight_nagasoo	hurpsy	COMMENT	pymwgw1-54d3e	c_vsn39-ymwgw1-54d3e	2011-08-23	방금 나오다 tagsmile
+mbc_sundaynight_nagasoo	x_masangel	COMMENT	pymwgw1-54d3e	c_vsnyt-ymwgw1-54d3e	2011-08-23	ㅡㅇㅡ

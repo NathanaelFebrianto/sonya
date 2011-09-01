@@ -103,8 +103,8 @@ public class Me2dayPostAnalyzer {
 		if (!dir.exists())
 			dir.mkdir();
 		
-		File outTerms = new File(dir.getPath() + File.separator + "terms_" + programId + ".txt");
-		File outSentiment = new File(dir.getPath() + File.separator + "sentiment_" + programId + ".txt");
+		File outTerms = new File(dir.getPath() + File.separator + "src_" + programId + ".txt");
+		File outSentiment = new File(dir.getPath() + File.separator + "liwc_" + programId + ".txt");
 		
 		
 		BufferedWriter writerTerms = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(outTerms.getPath()), "UTF-8"));
@@ -354,37 +354,37 @@ public class Me2dayPostAnalyzer {
 		Me2dayPostAnalyzer analyzer = new Me2dayPostAnalyzer(outputDir);
 		
 		String[] programs = new String[] {
-//			"kbs1_greatking",
-//			"kbs_homewomen",
+			"kbs1_greatking",
+			"kbs_homewomen",
 			"kbs2_princess",
-//			"kbs2_spy",
-//			"kbs2_ojakkyo",
-//			"mbc_gyebaek",
-//			"mbc_fallinlove",
-//			"mbc_urpretty",
-//			"mbc_thousand",
-//			"sbs_besideme",
-//			"sbs_dangsin",
-//			"sbs_baekdongsoo",
-//			"sbs_boss",
-//			"sbs_scent",
-//			"kbs2_gagcon",
-//			"kbs2_happysunday_1bak2il",
-//			"kbs2_happysunday_men",
-//			"sbs_happytogether",
-//			"mbc_challenge",
-//			"mbc_three",
-//			"mbc_wedding",
-//			"mbc_sundaynight_house",
-//			"mbc_sundaynight_nagasoo",
-//			"sbs_strongheart",
-//			"sbs_starking",
-//			"sbs_newsunday",
+			"kbs2_spy",
+			"kbs2_ojakkyo",
+			"mbc_gyebaek",
+			"mbc_fallinlove",
+			"mbc_urpretty",
+			"mbc_thousand",
+			"sbs_besideme",
+			"sbs_dangsin",
+			"sbs_baekdongsoo",
+			"sbs_boss",
+			"sbs_scent",
+			"kbs2_gagcon",
+			"kbs2_happysunday_1bak2il",
+			"kbs2_happysunday_men",
+			"sbs_happytogether",
+			"mbc_challenge",
+			"mbc_three",
+			"mbc_wedding",
+			"mbc_sundaynight_house",
+			"mbc_sundaynight_nagasoo",	
+			"sbs_strongheart",
+			"sbs_starking",
+			"sbs_newsunday",
 		};
 		
 		try {
-			Date publishStartDate = CommonUtil.convertStringToDate("yyyyMMdd", "20110815");
-			Date publishEndDate = CommonUtil.convertStringToDate("yyyyMMdd", "20110821");
+			Date publishStartDate = CommonUtil.convertStringToDate("yyyyMMdd", "20110822");
+			Date publishEndDate = CommonUtil.convertStringToDate("yyyyMMdd", "20110828");
 			
 			for (int i = 0; i <programs.length; i++) {
 				analyzer.analyze(programs[i], publishStartDate, publishEndDate);
