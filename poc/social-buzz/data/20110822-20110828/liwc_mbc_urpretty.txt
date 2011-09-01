@@ -1,0 +1,10 @@
+program_id	author_id	type	post_id	comment_id	publish_date	feature	count	word
+mbc_urpretty	epem0209	POST	pym8wq3-yvhno		2011-08-26	PRESENT	1.0	지금
+mbc_urpretty	epem0209	POST	pym8wq3-yvhno		2011-08-26	EXCLAMMARK	1.0	tagexclamation
+mbc_urpretty	epem0209	POST	pym8wq3-yvhno		2011-08-26	SMILEMARK	1.0	tagsmile
+mbc_urpretty	junes26	POST	pym8zs0-yxvov		2011-08-26	SEE	1.0	보다
+mbc_urpretty	junes26	POST	pymjt0b-yxvov		2011-08-23	SEE	1.0	보다
+mbc_urpretty	junes26	POST	pymjtgi-yxvov		2011-08-23	SEE	1.0	보다
+mbc_urpretty	junes26	POST	pymmf4g-yxvov		2011-08-27	SEE	1.0	보다
+mbc_urpretty	junes26	POST	pymrde9-yxvov		2011-08-24	SEE	1.0	보다
+mbc_urpretty	junes26	POST	pymwk13-yxvov		2011-08-25	SEE	1.0	보다

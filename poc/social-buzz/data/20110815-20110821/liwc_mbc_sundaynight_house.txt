@@ -1,0 +1,2 @@
+program_id	author_id	type	post_id	comment_id	publish_date	feature	count	word
+mbc_sundaynight_house	dreamgrapher	POST	pym5qf3-p4y1		2011-08-17	SEE	1.0	보다

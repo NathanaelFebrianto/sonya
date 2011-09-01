@@ -601,7 +601,7 @@ public class Me2dayDataCollector {
 //				"kbs2_happysunday_1bak2il",
 //				"kbs2_happysunday_men",
 //				"sbs_happytogether",
-				"mbc_challenge",
+//				"mbc_challenge",
 //				"mbc_three",
 //				"mbc_wedding",
 //				"mbc_sundaynight_house",
@@ -611,8 +611,8 @@ public class Me2dayDataCollector {
 //				"sbs_newsunday",
 			};
 			
-			String publishStartDate = "2011.08.15";
-			String publishEndDate = "2011.08.21";
+			String publishStartDate = "2011.08.22";
+			String publishEndDate = "2011.08.28";
 			
 			for (int i = 0; i <programs.length; i++) {
 				collector.collect(programs[i], publishStartDate, publishEndDate);

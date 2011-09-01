@@ -1,0 +1,282 @@
+program_id	author_id	type	post_id	comment_id	publish_date	terms
+mbc_gyebaek	buks2	POST	pym02tk-_3cex		2011-08-22	계백 계백
+mbc_gyebaek	moonjun1999	POST	pym12wu-5hgec		2011-08-23	계백 보다 뭔가 어설프다
+mbc_gyebaek	wortmsgjdzm	POST	pym131j-5wxw_		2011-08-23	계백 재미 보다 보 진짜 비법은tagquestion daum연예
+mbc_gyebaek	loanbay	POST	pym13i0-yrp_n		2011-08-22	계백 이서진 투입 tagexclamation 계백 시청률 급상승 tagexclamation
+mbc_gyebaek	zbvl2791	POST	pym14xu-5qzq		2011-08-23	tagcry 피곤 계백 자야징 tagsmile
+mbc_gyebaek	je832896	POST	pym17a1-5c9yd		2011-08-22	계백 tagexclamation 보세요tagsmile 정말 짱 재미 tagsmile 월화드라마 계백 시 분 mbc
+mbc_gyebaek	mople	POST	pym1eh3-ybyr8		2011-08-22	계백 회 e 닥본사 닥 치다 치 본 보다 방 사 사다 닥치고본방사수 닥본사 별점 오늘 계백 회 e
+mbc_gyebaek	tjgus2545	POST	pym1ezd-5fjfr		2011-08-22	계백 언제쯤 백제 백제로 돌아오다 돌아오려
+mbc_gyebaek	miokjlove	POST	pym1h_6-hez1		2011-08-22	여행 경 창원시 해양드라마세트장 김수 김수로 계백 드라마 촬영지
+mbc_gyebaek	cnsekf	POST	pym1imw-55r32		2011-08-22	계백 이서진 의자왕자 일대 대결 팽팽 기싸움 고조
+mbc_gyebaek	goretti75	POST	pym1l6n-5kzwp		2011-08-23	완전 퇴근 안하다 안 사무실서 계백 보다 언제 집 가다 ㄷㄷㄷㄷㄷ 슬슬 집 집이 가자 가다 뭐 짓 이거 이거야 원 tagcry
+mbc_gyebaek	as5043	POST	pym1lam-5oxf1		2011-08-23	효민이가계백모니터링하고왔는대효민이멋있지않나요tagquestion tagsmile 칼들고사람을찌른다는게으 좀무섭지만슬퍼 tagcry
+mbc_gyebaek	hsb6417	POST	pym1lf7-_d14g		2011-08-23	계백 재밌어 tagsmile
+mbc_gyebaek	omo212	POST	pym1lh5-fo82		2011-08-23	이제 아역 계백 못봐tagquestion tagcry ㅍ 얼굴마담 tagcry
+mbc_gyebaek	dbstjs0723	POST	pym1lu0-6gib		2011-08-23	오늘 무사백동수 대박 tagexclamation tagcry 진주 천주의딸tagquestion tagcry 완전슬퍼 tagcry 어흑 tagcry 글고 천주 완전멋진남자 tagexclamation tagcry 나 나다 담주 계백안 계백안보 무사백동수 볼듯tagquestion 오늘 계백 중요 섞다 백동수 백동수가 대박이엿음 tagexclamation
+mbc_gyebaek	maesto0607	POST	pym1skm-_a8fr		2011-08-23	윤호 씻으러가 씻으러가여 바이바 바이바이 그리거 계백보러 낼바 낼바여 tagexclamation
+mbc_gyebaek	21-_-	POST	pym1uyl-_ysiu		2011-08-23	잠수 계백
+mbc_gyebaek	dhdbal78	POST	pym1vat-9r07		2011-08-23	국어독후감 다하다 계백볼라 그랬더니 이미 내용 절반 지나 지나있더 지나있더라
+mbc_gyebaek	01055748181	POST	pym1vvz-_q81y		2011-08-23	엄마야ㅑ 우리동수찌보다가우리계백찌보고잇셔ㅕ아씨ㅣ계백보까동수찌보까 tagcry tagcry
+mbc_gyebaek	carmaster000	POST	pym1xl0-ydfu8		2011-08-22	계백 노예생활 영웅 만들다 필수코스인가 필수코스 tagexclamation
+mbc_gyebaek	gkdms2909	POST	pym1z32-_a2r1		2011-08-23	난 나다 날다 계백보러 고고씽 내일 내 올게 올게요
+mbc_gyebaek	love877912	POST	pym1_c5-yimtv		2011-08-23	계백 화 호다 김유신 김유신과 계백 대화
+mbc_gyebaek	insos02	POST	pym80wg-_8lnw		2011-08-24	계백 무료다시보기 회 계백 무료다시보기 회
+mbc_gyebaek	kensc0814	POST	pym815r-5adl8		2011-08-27	제사 계백많 계백많이 볼꺼죠tagquestion
+mbc_gyebaek	feei2nd	POST	pym8174-5xcmx		2011-08-23	계백 재미 보다 보 진짜 비법은tagquestion 뉴스 뉴스스크랩
+mbc_gyebaek	samxing	POST	pym81kp-5qds7		2011-08-24	티아 티아라 효민 계백 초영 캐릭터 공개 공주 vs 선머슴
+mbc_gyebaek	hansuh88	POST	pym83xb-yx785		2011-08-23	음 무사백동수 계백 재미있는거 같다 지금
+mbc_gyebaek	yeana30	POST	pym8622-500fo		2011-08-24	무사 백동수 화 호다 계백 화 호다 스파이 명월 화 호다 월화드라마 무료 다시보기
+mbc_gyebaek	jimin1020	POST	pym88db-ybo9e		2011-08-23	우 계백 아역 이현우 와아아아아아아아안전 멋있따 tagexclamation tagsmile
+mbc_gyebaek	tpwhdzjvmf	POST	pym8a36-yq13a		2011-08-24	어제 계백 끝나다 때 보다 tagsmile 자고 tagsmile tagcry 줄넘기 때문 때문에 tagexclamation 그놈 그놈의 줄넘기 때문 때문에 tagexclamation 내갉 tagexclamation
+mbc_gyebaek	vnrpooq	POST	pym8b5x-_csqd		2011-08-26	pooqmbc 계백 ㄱㄱㄱ
+mbc_gyebaek	vnrpooq	POST	pym8b69-_csqd		2011-08-26	pooqmbc 계백 ㄱㄱㄱㄱㄱ
+mbc_gyebaek	vnrpooq	POST	pym8b6g-_csqd		2011-08-26	pooqmbc 계백 ㄱㄱㄱㄱ
+mbc_gyebaek	vnrpooq	POST	pym8b_7-_csqd		2011-08-26	pooqmbc 계백 ㄱㄱㄱㄱㄱ
+mbc_gyebaek	vnrpooq	POST	pym8b_b-_csqd		2011-08-26	pooqmbc 계백 ㄱㄱㄱ
+mbc_gyebaek	vnrpooq	POST	pym8b_i-_csqd		2011-08-26	pooqmbc 계백 ㄱㄱㄱㄱㄱ
+mbc_gyebaek	loveyou9742	POST	pym8dbb-shaw		2011-08-24	계백 계백 회 다시보기 고화질
+mbc_gyebaek	insos02	POST	pym8ioh-_8lnw		2011-08-24	계백 무료다시보기 회 계백 무료다시보기 회
+mbc_gyebaek	gimono412	POST	pym8kpo-5hab_		2011-08-24	계백 이서진 탄탄하다 식스팩 노예 근육   흔
+mbc_gyebaek	nks003	POST	pym8kqm-5vcid		2011-08-23	계백 보시 분 미투tagsmile 우리 효민이 효민이가 나오잖아여tagsmile
+mbc_gyebaek	nks003	POST	pym8kxx-5vcid		2011-08-23	계백촬영하기전 효민이사진 인터넷 있는거 올렸어요tagsmile 입수 못해서tagsmile
+mbc_gyebaek	doroco23	POST	pym8va0-_qs2m		2011-08-23	분 후 시작 계백 tagexclamation 본방 본방으 시청 tagexclamation 시 분 시작 tagexclamation 맞나tagquestion tagexclamation
+mbc_gyebaek	1999mina	POST	pym8vwx-_6bad		2011-08-23	오늘 숙제 다하다 다 자야겠다 tagcry 계백 시쯤tagquestion tagcry tagcry
+mbc_gyebaek	rusy6347	POST	pym8xxb-yrxep		2011-08-23	계백 나오다 송지호 공주역 런닝맨때 런닝맨때와 차원 다르다 모습 뭔가 웃기다 o
+mbc_gyebaek	totoro_k89	POST	pym8ygv-_z_cw		2011-08-26	운동회의 운동회 계백 kbs 오다 mbc 사극 무엇 다른가tagquestion
+mbc_gyebaek	62moablog	POST	pym8yux-5bvh7		2011-08-23	계백 회 다시보기
+mbc_gyebaek	nunurigo121	POST	pym92e5-_9tci		2011-08-23	드라마 계백 대하다 질문 smja
+mbc_gyebaek	awesomesw	POST	pym98eq-_tzhe		2011-08-22	아빠 사극오타쿠 또 무사백동수본다 vs 계백
+mbc_gyebaek	30park_01	POST	pym99yw-_flle		2011-08-22	세기 세다 의자왕 김정 김정은 기쁨조 명 선발 완료
+mbc_gyebaek	minjae0515	POST	pym9cca-_50l1		2011-08-24	계백 보는분
+mbc_gyebaek	rkdud5002	POST	pym9cvk-5w919		2011-08-22	월 화 계백 보다 스파이명월 보다 고민되네 tagsmile 방금 tv 계백 dmv 로 로는 스파이명월 보다 tagsmile 강우 명월 명월이 배신 tagcry 불쌍 명월 명월이 그렇다 좋아하다 내일 내 기대 기대다 tagsmile 계백 보다
+mbc_gyebaek	okvr789	POST	pym9f77-ykeny		2011-08-22	계백 김유신 김유신과 알천 알천을 보다 선덕여왕 둘 둘이 상 미화되었다걸 알 같다 tagsmile
+mbc_gyebaek	elli1999	POST	pym9jtq-yp615		2011-08-22	계백재밋닷
+mbc_gyebaek	hb2137	POST	pym9jug-_ambd		2011-08-22	이제계백봄 컴터끌게 tagcry
+mbc_gyebaek	1227ss	POST	pym9jxj-_qf69		2011-08-22	계백 시청 해야하는데울 윤성 윤성이 윤성이는 이러 이러고 놀다
+mbc_gyebaek	bkdrum37	POST	pym9mpf-_c1ey		2011-08-22	계백 짦당 tagcry
+mbc_gyebaek	bestmurder	POST	pym9n8j-_cima		2011-08-23	계백 e hdtv x p hanrel
+mbc_gyebaek	miokjlove	POST	pym9ocu-hez1		2011-08-22	여행 경 창원 해양드라마세트장 드라마 김수로왕 계백촬영지
+mbc_gyebaek	jongmani_c	POST	pym9oxn-_povj		2011-08-22	호이포이캡슐 발도장 tagexclamation 아 tagexclamation 계백 완전 싸이코패스 지 목적 위하다 사람 막 죽이다 via 아임in
+mbc_gyebaek	daein0268	POST	pym9r6x-_sxgv		2011-08-22	위기탈출넘버원 계백볼려고해 볼게 tagsmile
+mbc_gyebaek	sally3979	POST	pym9r87-5qdb3		2011-08-22	계백 어렸을때 완전 잘생기다 어른 돼니까 좀 조다 이상 tagcry
+mbc_gyebaek	sally3979	POST	pym9rjq-5qdb3		2011-08-22	지금 드라마 계백 보고 보다 보 있다 tagsmile
+mbc_gyebaek	okvr789	POST	pym9rps-ykeny		2011-08-22	어익후 tagsmile 계백 설원공 전노민씨도나오시네 tagsmile 그것 성충 선덕여왕 배우 많다 나오다
+mbc_gyebaek	kmediabox	POST	pym9ug7-_1l70		2011-08-22	토도우 계백 회 월 일 다시보기
+mbc_gyebaek	kendys1	POST	pym9w5n-y7wi1		2011-08-24	계백 재미쎠tagsmile
+mbc_gyebaek	qkqk235	POST	pym9wur-ywqk0		2011-08-22	계백이제 공신패밀리 선덕패밀리 되다 tagsmile
+mbc_gyebaek	spdlqls1	POST	pym9yo2-yiog1		2011-08-24	계백 토렌트
+mbc_gyebaek	pigme24	POST	pym9_la-yjmt0		2011-08-22	앜 tagsmile 너무웃겨 tagsmile 교주님파워 의자왕 의자왕이 밀림 tagsmile
+mbc_gyebaek	bikwang	POST	pymb0yg-yaa8		2011-08-22	계백 웃기다 재미
+mbc_gyebaek	amy9192	POST	pymb360-rpn3		2011-08-22	계백 tagexclamation 티아 티아라 효민 효민의 액션신 이네욧 tagexclamation
+mbc_gyebaek	love877912	POST	pymb4h2-yimtv		2011-08-23	드라마선덕여왕 계백 그속 그속에 인물
+mbc_gyebaek	wnsvy817	POST	pymb53f-suuz		2011-08-22	계백 보다 가자 가다 tagexclamation
+mbc_gyebaek	haon2000	POST	pymb5ii-typa		2011-08-22	원문 계백 요즘친구들안녕 웹
+mbc_gyebaek	big46	POST	pymb6cs-5ot7u		2011-08-22	역시 계백드라마 알천 김유신 김유신은 나오다 tagsmile 당연한거지 tagsmile 얼굴 아직 이승호 이승호와 엄태웅에게익숙해졌을 tagsmile
+mbc_gyebaek	yupdealer	POST	pymbbi1-_rm6v		2011-08-22	방송 계백 이서진 의자왕 조재현 못죽 못죽여 분노의포효
+mbc_gyebaek	tkflwn	POST	pymbftc-a9s6		2011-08-23	여러분 투표 계백 재밌어요아님 스명 스명이 재밌어요tagquestion 요즘 가족 무백 무백은 안보거든 공남도꽤 공남도꽤나 재밌고 흠 보스 뭐그런데 뭐그런데로 괜찮다 여러분 뽑다 베스트 위는tagquestion
+mbc_gyebaek	hyomin-t-ara	POST	pymby9w-5gzsg		2011-08-22	의자와초영tagsmile 우리가삿갓을쓴이유는tagquestion mbc 계백 본방사수 tagexclamation
+mbc_gyebaek	han50279	POST	pymb_tz-ykqh8		2011-08-22	약속 펑크 오늘 육포 육포에 맥주 한잔하구 자야겠다 tagsmile 계백 장군님 장군님과 함
+mbc_gyebaek	qkffpfb	POST	pymcbl9-y5w5z		2011-08-25	보스 지켜 지켜라 케이블 나오다 한번 보다 공주 남자 미펴가지 지금 헤어나올수 헤어나올수도 없다 상태다진짜 오늘 슬프다 월화 월화는 계백 수목 공주 남자 남다 금은 금 슈퍼스타k 토일 토일은 여인 향기
+mbc_gyebaek	dksxo234	POST	pymcjp2-5ig2g		2011-08-26	계백 고정욱 장편 소설
+mbc_gyebaek	rosses10	POST	pymcmi6-__5c_		2011-08-25	계백 다시보기 전편
+mbc_gyebaek	rosses10	POST	pymcmmc-__5c_		2011-08-25	계백 무료 다운로드
+mbc_gyebaek	aminta74	POST	pymcms7-5uq2i		2011-08-25	대작 이르다 이름 부끄럽다 출처계백 전투신 굴욕 초등학 천지일보 t토크 ttalk
+mbc_gyebaek	ny_icon	POST	pymcnmq-__wza		2011-08-26	비하논란 백청강 양파 계백 ost 참여 참 활동 잘 자다 나가다 나
+mbc_gyebaek	mho1840	POST	pymcrcp-_gk3n		2011-08-25	예능 무한도전 런닝맨 박 일 출발드림팀 강심장 밤밤 해피투게더드라마 몽땅내사랑 몽땅내사 무사백동수 계백 보스를지켜 공주의남자음악프로 뮤직뱅크 쇼음악중심 인기가요 나는가수 불후의명곡 중에하나라도보는사람미투 taglove
+mbc_gyebaek	jzl8899	POST	pymcu9d-_yy6d		2011-08-26	비하논란 백청강 양파 계백 ost 참여 참 활동 잘 자다 나가다 나
+mbc_gyebaek	pdh9760	POST	pyme5b0-yeplw		2011-08-22	내 지금 보다 보 드라마 두개 두개있는데 계백 공주 남자거든tagquestion 근데 뭔가 계백 회 거듭되면 되다 뭔가 내 내다 취향 아니다 아역때 아역때는 레알 지금 뭔가 안땡긴달까 공주 남다 남자 남주 여주 여주가 아 좋다 서브남주 좋음ㅇㅇ 내 내다 개인적 견해 솔직 공주 남자 좋다 계백 뭔가 아역 재밌었고 약간 선덕여왕삘tagquestion 을 지울수 지울수가 없달까 지극히 주관적 내 내다 의견임ㅇㅇ
+mbc_gyebaek	binchikr	POST	pyme6t_-yalh2		2011-08-22	계백 드라마
+mbc_gyebaek	_seungri	POST	pymenm9-5ahc0		2011-08-22	계백이뭐야근데
+mbc_gyebaek	nunurigo121	POST	pymf018-_9tci		2011-08-25	드라마 계백 보다 보 궁금한점 생기다 jdsp
+mbc_gyebaek	rhkgkr68	POST	pymf0a5-7sfb		2011-08-25	계백 군사 어디에tagquestion 부실 전투장면 너무해
+mbc_gyebaek	loanbay	POST	pymf14b-yrp_n		2011-08-25	의자왕 vs 탁예은
+mbc_gyebaek	tae6666	POST	pymf5gg-5cdf0		2011-08-26	송지효 계백 스탭진 인분 뷔페 대접 착하지효
+mbc_gyebaek	smin0319	POST	pymf7ak-y1sqq		2011-08-22	나 나다 갈껭 tagexclamation 계백 봐야되 tagexclamation 꼬오오옥 tagexclamation 효미 효미니 이쁘지tagquestion대본 연습중 tagexclamation
+mbc_gyebaek	wingsadd	POST	pymf7nk-_5e9s		2011-08-25	계백 무료다시보기 회 계백 무료다시보기 회
+mbc_gyebaek	sportskhan	POST	pymfbt7-ymvvx		2011-08-22	진태현 계백 촬영 중 낙마소속사 경북 문경 세트장 말다 말 타다 타 장면 연기 땅 떨어지다 미다 인급 병원 옮기다 고 일 전하다 스포츠경향 진태현
+mbc_gyebaek	yschang99	POST	pymfdud-_i7bo		2011-08-22	아 빨다 계백해씀 좋겠당 계백 넘 재밌는것 같다 않아요tagquestion 무사 백동수 백동수도 잼는데 계박 계박이 잼는
+mbc_gyebaek	hye7797	POST	pymfdw4-ipnp		2011-08-24	검색창 계백 전투신 굴욕 처봐 tagsmile 군사 만 명 주다 주 기이 현상 tagsmile 넘 웃기다
+mbc_gyebaek	stylisthanul	POST	pymfen4-_w5s7		2011-08-22	계백 이서진 구릿빛 근육질 몸매 전사 카리스마다 발산
+mbc_gyebaek	dreamgy04	POST	pymfezs-_ywr5		2011-08-26	계백 회 다시보기 재방송
+mbc_gyebaek	yeana30	POST	pymff5s-500fo		2011-08-23	무사 백동수 화 호다 계백 화 호다 스파이명월 화 호다 월화드라마 무료 보기 보다
+mbc_gyebaek	wlsxor	POST	pymfh0m-2i6_		2011-08-25	그여자 다니가 다니가해 tagsmile 백제시대의자왕 삼천궁녀를뛰어넘어 tagsmile
+mbc_gyebaek	insos02	POST	pymfh9h-_8lnw		2011-08-23	계백 무료다시보기 회 계백 무료다시보기 회
+mbc_gyebaek	insos02	POST	pymfhpz-_8lnw		2011-08-23	계백 무료다시보기 회 계백 무료다시보기 회
+mbc_gyebaek	lej_9_8	POST	pymfia1-5fs0i		2011-08-22	사택비 오연수
+mbc_gyebaek	sainttime	POST	pymfimd-5jff9		2011-08-22	드라마 계백 보고 보다 보 계신가요tagquestion초영 계신가요tagquestion초영이 언니 효민 언니 가 가다 계백 출연 중 tagexclamation 월요일 월요 화요일 계백 보다 하루 마무리하세요tagsmile 그리다 조재현씨 조재현씨와 효민언니 삿갓 쓰다 쓸다 이유는tagquestion 계백 본 보다 방 사 사다 tagexclamation
+mbc_gyebaek	love-1	POST	pymfj6v-5kuih		2011-08-23	계백 vs 무사 백동수 정체 도약 갈림길 알다
+mbc_gyebaek	coupe3111	POST	pymfkz6-_3c1c		2011-08-22	계백 의 진태현 낙마사고 낙마사 주진단
+mbc_gyebaek	teensnature	POST	pymfr3f-tefg		2011-08-26	월화 계백 수목 공 토 광개토태왕 tagsmile 일주 풀 사극 닥본사하죠 tagsmile
+mbc_gyebaek	smin0319	POST	pymfuaw-y1sqq		2011-08-22	ㅃㅃ나간다 tagexclamation 몽땅보러가야되 늦었지만tagquestion tagsmile 오늘 tagexclamation 계백 봐야되 tagexclamation 않보면 효미 효미니 삐칠끄 삐칠끄야 tagexclamation 잘 tagexclamation 난 나다 날다 뿅 tagexclamation 계백 봐야되 tagexclamation
+mbc_gyebaek	itoa	POST	pymfuhd-ahtb		2011-08-22	계백 계백 노예생활 영웅 만들다 필수코스인가 필수코스 tagexclamation
+mbc_gyebaek	frompic	POST	pymfuhz-_d1bz		2011-08-25	한소희 짝 애정촌 등장 탁예은 김성혁연예인 부럽다 않다 이들 이들은 짝 한번더특집 출연 하다 한소희 탁예은 의자왕 의자왕으 유명 김성혁까지짝 애정촌 참가자 설레다
+mbc_gyebaek	usb1204	POST	pymfuni-5a94c		2011-08-23	계백 의자왕자님 효민 효민이 tagsmile 몰캉 몰캉 taglove
+mbc_gyebaek	itoa	POST	pymfunz-ahtb		2011-08-22	계백 계백 이서진 투입 tagexclamation 계백 시청률 급상승 tagexclamation tagexclamation
+mbc_gyebaek	smin0319	POST	pymfuue-y1sqq		2011-08-22	계백계백계백 봐봐봐봐 tagexclamation 용 tagexclamation
+mbc_gyebaek	dbswldo1230	POST	pymfuy0-_w6o8		2011-08-25	계백 현우님 tagexclamation tagsmile
+mbc_gyebaek	smin0319	POST	pymfxh_-y1sqq		2011-08-22	나가야되 tagexclamation ㅃㅃ꼬오오옥 tagexclamation 계백 볼꺼징tagquestion않보면 효미 효미니 삐지다 tagexclamation 훙 tagexclamation
+mbc_gyebaek	smin0319	POST	pymgbng-y1sqq		2011-08-26	나 나다 가다 갈다 tagexclamation ㅃㅃ 시쯤 시쯤에 들어오다 tagsmile 계백 tagexclamation
+mbc_gyebaek	stylisthanul	POST	pymgg3s-_w5s7		2011-08-26	송지효 계백 스태프 명 호텔식 출장 뷔페 통 크다 한턱
+mbc_gyebaek	hlilte443	POST	pymgnuc-5lasz		2011-08-27	무사백동수계백공주의남자보스를지켜라여인의향기미쓰아줌마내사랑내곁에당신이잠든사이중 개다 개 보다 미투
+mbc_gyebaek	chu622	POST	pymgpak-l128		2011-08-26	효민 효민이 출연 계백 다들 보시고 보시 있으시죠tagquestion카리스마 있다 초영 귀엽다 초영 초영으 바뀌다 tagsmile 지효언니한테 혼나다 모습 tagsmile 귀엽다 계백 본 보다 방 사 사다 tagexclamation 그리다 초영 많다 사랑 사 주세요tagsmile mbc월화 시 방송중
+mbc_gyebaek	rose2875902	POST	pymgzk5-y04sl		2011-08-27	여러분 계백 드라마 찍은장소 앞 연못이 연못이있는데 거다 거기 자라 잇다 tagexclamation 자라를찾아보세요tagsmile
+mbc_gyebaek	rlagptn01	POST	pymhn7j-ypbh6		2011-08-27	오늘드디어 영화 사극때문 못 효민양 효민양이 나오다 기생령꼭봐야지 tagexclamation 계백쨔응 tagexclamation
+mbc_gyebaek	aviv1202	POST	pymi6_3-5_zlw		2011-08-25	계백다시보기중인데완전잼써 tagcry
+mbc_gyebaek	cwkms1144	POST	pymic1d-y4sh8		2011-08-26	사택비 훈향실 훈향실에 앉다 한컷 tagexclamation 으하 으하하 훈향실 훈향실이 뭐하는곳 뭐하는곳일까 요tagquestion
+mbc_gyebaek	eratoskin	POST	pymiluc-ybst1		2011-08-26	계백 송지효 인분 뷔페 대접 촬영장 분위기 화기애애
+mbc_gyebaek	backlovelady	POST	pymisei-y0t25		2011-08-25	계백 이서진 송지효 조우 불구 시청률 주춤
+mbc_gyebaek	envjyp	POST	pymitfo-_zjt0		2011-08-26	나 그늘지다 맘 따스 빛 찾다 유일 한사람 바라보다 행복 아프다 눈물 사랑 나 그늘지다 맘 미소 짓다 만들다 유일 한사람 그대 앞 설수 없다 영원 뒤 바라보다 계백 ost part 양파 알고 알고있 알고있나 알고있나요
+mbc_gyebaek	jihyome2	POST	pymj0fh-_alwc		2011-08-24	어제 계백 보신분 tagexclamation tagsmile 연기논란 안받으려구 열씨미 대본리딩중이에 tagsmile 월 화 호다 일 tagexclamation 모두 채널고정하셔야 tagexclamation
+mbc_gyebaek	jjoonline	POST	pymj1m1-5n3g8		2011-08-23	계백 회 계백 회 다시보기
+mbc_gyebaek	pigme24	POST	pymj40b-yjmt0		2011-08-23	오늘 의자왕한테 닥치다 꺼지다 둘다 들음 들음여 근데 기분 좋다 tagquestion tagexclamation 나다 나 술고래라능 뿌잉뿌잉 taglove
+mbc_gyebaek	jinichoco	POST	pymj6do-yxca9		2011-08-23	우리 효민이에 효민이에요 tagexclamation 오늘 새벽 시경 찍은사진이 찍은사진이이 찍은사진이이요 메이크업효민이사진 tagexclamation 다들계백보시고있나요tagquestion 효민이 효민이가 님자처럼나오는것 연습 마 힘들다 효민 효민이 응원 tagexclamation
+mbc_gyebaek	iyousens	POST	pymj6ve-yq85k		2011-08-23	다시보기 계백 계백 회 다시보기 월 일 방송분 다시보기
+mbc_gyebaek	hb2137	POST	pymj7ll-_ambd		2011-08-23	죄송 시 들온다햇는데 시 들왓네 들왓네요 tagcry 계백은꼭봐야지 tagcry
+mbc_gyebaek	iloveknp	POST	pymj9fy-_0f5t		2011-08-23	미친분 미친분들은 요즘 드라마 어떤거 보세요tagquestion 요즘 각 방송사 드라마 풍년이죠 요일 시간 맞추다 드라마 챙기다 정신 park군 park군입니 park군입니다 tagsmile 월화드라마 유독 사극 많은데 많은데요 오늘 매회 재미 더해가고 더해가고있는 계백 촬영지 촬영지를 소개해드릴게 고고 고다 tagexclamation 부여 궁남지 궁남지와 백제문화단지 계백 되다 tagsmile tagsmile
+mbc_gyebaek	mople	POST	pymjbqn-ybyr8		2011-08-23	계백 회 e 닥본사 닥 치다 치 본 보다 방 사 사다 닥치고본방사수 닥본사 별점 오늘 계백 회 e
+mbc_gyebaek	psb15	POST	pymjfny-y5cca		2011-08-23	아 요샌 아이돌가수 드라마 자주보는듯 tagexclamation 드라마 계백 다리찢기신공 자주 보여주다 유연 티아 티아라 효민님 tagcry tagsmile 아이돌 가수 드라마 진출 신인 신 연기자 발굴 가로막는건 아니다 좀 조다 그렇다
+mbc_gyebaek	carmaster000	POST	pymjkfq-ydfu8		2011-08-23	계백 독 깨어나다 깨어 의자 계백 칼날 tagexclamation
+mbc_gyebaek	dlgpd0212	POST	pymjqx8-_zy23		2011-08-24	taglove 짝 의자왕 짱짱잘생겼다 taglove
+mbc_gyebaek	lhc200	POST	pymjtt4-tvrf		2011-08-24	오다 의자왕 의자왕이 tagsmile 짝 한번더 특집
+mbc_gyebaek	junes26	POST	pymjtuc-yxvov		2011-08-23	계백 회 월 일 방송 보기 보다
+mbc_gyebaek	hello_oasha	POST	pymjvwu-54qm0		2011-08-23	나가다 계백보려면 그만둬야 빠이빠 빠이빠이
+mbc_gyebaek	lsjjj123	POST	pymj_5w-6mf5		2011-08-24	아 뇌주찬 초구찬 진짜 주차 긋다 믄디 같은기 초구병살짓이 제구 안좋 안좋은 의자왕 의자왕인데
+mbc_gyebaek	0308hjs	POST	pymm0sk-_qlhz		2011-08-27	화 호다 계백 화 호다 플짤 성인 성 은고 첫 등장 초영
+mbc_gyebaek	totorocoto	POST	pymm2z7-bb9e		2011-08-25	계백 tagsmile 역시 주몽 뒤를 뒤를이어 허접한전투씬 끝을보여주는구 끝을보여주는구나 tagexclamation
+mbc_gyebaek	0308hjs	POST	pymm39x-_qlhz		2011-08-27	계백 화 호다 플짤
+mbc_gyebaek	cwkms1144	POST	pymm4l4-y4sh8		2011-08-25	밤 조명 나다 여지 찾아드 찾아드는 벌레 tagexclamation 사슴벌레 발견 tagexclamation 다정 계백 초영 초영을 물어버렸 tagexclamation 히히 계백과초영 물라 물라하면 물겠어 물겠어요
+mbc_gyebaek	jubang2455	POST	pymm4ry-_qaa9		2011-08-25	짝 특명 tagexclamation 애정촌 애정촌을 흔들다 한소희ㆍ탁예은ㆍ의자왕 투입
+mbc_gyebaek	usb64	POST	pymmb5a-_qd8e		2011-08-25	저기 저 효민 언니 계백 찍다 가지다 가지 미투데 미투데이 많다 못와 못와요 tagsmile 그래두 이해 주다 tagsmile tagsmile
+mbc_gyebaek	0308hjs	POST	pymmfjc-_qlhz		2011-08-27	화 호다 계백 화 호다 플짤 의자 계백 은고 은고 계백
+mbc_gyebaek	stylisthanul	POST	pymmfun-_w5s7		2011-08-24	계백 이서진 근육 연기 일부 온몸 보여주다 보 영웅 편린
+mbc_gyebaek	jinichoco	POST	pymmiis-yxca9		2011-08-27	tagsmile 전 절다 지금 계백촬영장 tagexclamation 지효언니사진 tagexclamation 올려용 내 내다 친언니 친언니같 친언니같은 은고언니 tagexclamation tagsmile 계백마니사랑해주세 tagexclamation
+mbc_gyebaek	0308hjs	POST	pymmjh7-_qlhz		2011-08-27	월 계백 화 호다 플짤 사택비 은고 은고 은고 의자 은고 의자 초영 의자 은고
+mbc_gyebaek	diamond2098	POST	pymmpkh-_t80m		2011-08-25	신라 신라에 관창 이 인간이있었지 백제 계백 앞 까불다 세상갔지만 신라군 신라군의 사다 사기 올리다 바 그인물 오세훈시장 관창 되다 웹
+mbc_gyebaek	freeurmind	POST	pymmtgl-ydw1		2011-08-24	계백 언뜻보 언뜻보니 이서진 산적 산적이 바바리안 바바리안을 이미지 따라 따라하기 하나tagquestion 당시 우리나라 바이킹 있다
+mbc_gyebaek	itoss	POST	pymmwzd-q177		2011-08-24	계백 전투신
+mbc_gyebaek	gusehd856	POST	pymo1yr-_0oeb		2011-08-24	계백 전투신 군사 고작 명 tagsmile 허접
+mbc_gyebaek	skesw	POST	pymo60v-ydrew		2011-08-23	계백 보다 자꾸 황산벌 생각 웃음 tagsmile 오늘 엔딩장면 사택비 의자 어디있느냐tagquestion 어디있느냐tagquestion라 하다 의자왕 의자왕이 의자 여기 하다 계백 같다 일어나다 완전 웃꼈어요 tagsmile tagcry 웹
+mbc_gyebaek	chicchic88	POST	pymo66j-5ncle		2011-08-23	아 계백 재밌어 tagexclamation 분 후 쿡티비 쿡티비로 보스 지키다 화 호다 보다 잉여 아니
+mbc_gyebaek	skesw	POST	pymo6hs-ydrew		2011-08-23	계백 도대체 연기 못하다 사람 누구요tagquestion 정답다 정답 아무 아무도 없다 tagexclamation tagsmile 으앜 담주 기다려진당 tagsmile 웹
+mbc_gyebaek	ddang330	POST	pymo8i3-5c37y		2011-08-24	난 나다 날다 오늘 시 분 하다 하 짝 볼꺼 볼꺼임 tagsmile 저번 번 벌다 정도 정 본 보다 적다 적 잇엇는데 꾀다 재밋더 재밋더라 tagsmile 오늘 여자 여럿 홀리다 잘생기다 의자왕 출연 tagsmile 여럿여자 빠지다 의자왕 의자왕과 삼천궁녀 돋 돋내
+mbc_gyebaek	fraujoo99	POST	pymo9an-_81ij		2011-08-24	계백 회 계백 구하다 tagexclamation tagsmile
+mbc_gyebaek	jiruhecom	POST	pymo9ov-_50e_		2011-08-24	계백 회 월 일 토도우
+mbc_gyebaek	itoss	POST	pymoaho-q177		2011-08-24	계백 회
+mbc_gyebaek	sch8736	POST	pymoekw-5hl69		2011-08-23	계백 다시보기계백 회 토렌트다운 다시보기 내용보기
+mbc_gyebaek	eratoskin	POST	pymofjx-ybst1		2011-08-24	계백 전투신 군사 고작 여명tagquestion 초등학교 운동회 수준
+mbc_gyebaek	dobaemin	POST	pymogsw-5nz67		2011-08-25	hd양파 yangpa 알다 있다 있 드라마 계백 ost
+mbc_gyebaek	spastar7	POST	pymogwn-5x8tg		2011-08-24	계백 시청자 헛웃음 계백 시청자 헛웃음 전투 애들 장난아닌데
+mbc_gyebaek	as87song	POST	pymojh2-5vi_p		2011-08-24	다운 계백 보고 보다 보 슬슬 눕다 tagexclamation
+mbc_gyebaek	wndus0048	POST	pymojhc-_6apw		2011-08-24	계백 회 계백 회 다시보기
+mbc_gyebaek	itoss	POST	pymosu5-q177		2011-08-24	계백 회
+mbc_gyebaek	sjdusl	POST	pymotcd-y4h8j		2011-08-24	계백 효민 조재현 사진공개
+mbc_gyebaek	omah123	POST	pymotgi-5b8f		2011-08-24	계백 화 호다 효민
+mbc_gyebaek	spastar7	POST	pymotoa-5x8tg		2011-08-24	계백 조촐 전투신 계백 조촐 전투식 옥 티
+mbc_gyebaek	itoss	POST	pymoubd-q177		2011-08-24	계백 회 회예 회예고
+mbc_gyebaek	itoss	POST	pymo_4e-q177		2011-08-23	계백 회다시보기
+mbc_gyebaek	hanna2200	POST	pymo_c7-gfma		2011-08-23	계백 오늘 본격적 재미 다음주 어찌 기다린다지tagquestion
+mbc_gyebaek	rosa6673	POST	pymo_ep-568n6		2011-08-26	tagsmile 지금 계백 b tv 계속 연속 첨 편 보다 보 다른거 보고 tagsmile tagsmile 꺄 tagexclamation 어쩜 그렇다 이현우 멋있는거지tagquestion taglove 눈웃음 작렬 tagsmile 눈웃음 넘 간지 매력적 tagsmile 넘 멋있다 taglove 어뜨케 tagsmile 실제 만나보고싶어 tagsmile
+mbc_gyebaek	jamila1004	POST	pymo_l8-via_		2011-08-23	계백 재밋따잉
+mbc_gyebaek	treeyuna	POST	pymo_zv-_jgxm		2011-08-23	헐 계백 효민나오는데 존내멋 존내멋있네 tagsmile
+mbc_gyebaek	tpals7279	POST	pymp00p-y77kv		2011-08-23	와핫 tagexclamation taglove 지윤솔이여기보시오 tagexclamation xbd 으면댓글콜tagquestion계백짱재밋오
+mbc_gyebaek	quddlf9	POST	pymp0ka-ylu3h		2011-08-23	계백 짱 재밋당 tagsmile
+mbc_gyebaek	huhj3333	POST	pymp1j4-5lrgs		2011-08-23	나다 나 방금 계백 보고왔다 무사백동수 계백 더좋아 더좋아하 더좋아하는 우리 가족 보다 재밌다 이거 담주 담주에 보다 tagsmile
+mbc_gyebaek	tv-media	POST	pymp2ud-_i7yx		2011-08-25	계백 하이라이트 계백 의자 전투신 해도 하다 해 너무하 너무하다
+mbc_gyebaek	naverbylell	POST	pymp3r3-_q5dc		2011-08-23	아하 아하함 졸립다 하리 하리는 이 자러갈게 자러갈게여 계백 히힛ㅃㅃㅃ taglove ai공존 폭주 어린이 김형섭 등등 격배알지 taglove
+mbc_gyebaek	dmsal9180	POST	pymp3tv-vow7		2011-08-23	ㅅㅂ계백작가가존나싸가지지금뭐하자는거임tagquestion tagexclamation tagsmile
+mbc_gyebaek	01094435793	POST	pymp4v_-yb3y0		2011-08-25	내겐이제더이상사람에게나눠줄눈물도정도없을것 다음생이있다면그땐당신은밭을갈고나는기다리며저녁밥을짓는여인으로만났으면합니다이고단했던세상다잊고이제편히쉬십시요 계백중 사택비의독백 그모질고독한여자 사랑앞에선그녀도여자더 진짜짠하게했던대사여쑴 tagsmile 계백 회
+mbc_gyebaek	tmdgus5403	POST	pymp61u-_qcl6		2011-08-23	난 나다 날다 계백보러 이
+mbc_gyebaek	hb2137	POST	pymp6g8-_ambd		2011-08-23	계백 한다본방사수
+mbc_gyebaek	rhatnsdl34	POST	pymp6q2-y6qz7		2011-08-23	지금 엠비씨 계백 시작 tagsmile
+mbc_gyebaek	d_-w1035	POST	pymp6_t-_gatx		2011-08-23	계백 할시 할시간이 tagsmile
+mbc_gyebaek	0826yujin	POST	pymp7uk-eq5m		2011-08-24	무사 백동수 버디버디 계백 보스 지키다 스파이 명월 그리다 아무튼 이제 천번 천번의 입맞춤만보면 tagsmile 대박 런닝맨 런닝맨하 무한도전 뽀너스
+mbc_gyebaek	jjoonline	POST	pymp7_n-5n3g8		2011-08-24	계백 회 계백 회 다시보기
+mbc_gyebaek	d_-w1035	POST	pympb4h-_gatx		2011-08-23	계백 끝나다 tagcry 넘 재밌어 tagsmile 사실아이유 누나때무네 보는거지 ㅅ
+mbc_gyebaek	hb2137	POST	pympbhb-_ambd		2011-08-23	계백 멋있다
+mbc_gyebaek	nunurigo121	POST	pympc23-_9tci		2011-08-24	드라마 계백 대하다 질문 yipp
+mbc_gyebaek	tbworld_tv	POST	pymph1q-_clkj		2011-08-24	계백 조재현 이서진 의리 위기 빛나다 tbworld
+mbc_gyebaek	skaksqhffo54	POST	pymphoa-5hcrl		2011-08-24	계백 시청률 제자리걸음 무사백동수 못 따라잡나tagquestion
+mbc_gyebaek	kmediabox	POST	pympid2-_1l70		2011-08-23	토도우 계백 회 월 일 다시보기
+mbc_gyebaek	ro0223jh	POST	pympjni-aeah		2011-08-23	계백 왕실망 전투씬 전투씬이 조폭 격투씬 격투씬보 인간 적다 연기자 액션 무사백동수 보다 보 틀다 장난하는줄 알다
+mbc_gyebaek	bestmurder	POST	pympm4c-_cima		2011-08-24	계백 e hdtv x p hanrel
+mbc_gyebaek	lbhgom82	POST	pympw0r-_oru2		2011-08-24	시간 미투질 ㅁ 지금 계백 회 다운중 급 땡김 tagsmile 잘 자다 보고 보다 보 잘 자다 자다 tagsmile 다들 굿밤 되다 사진 사다 내 내다 볼살 볼살은 치다 출렁 출렁 거리다 볼살 실종 되다 되 싶다 tagcry
+mbc_gyebaek	iyousens	POST	pympw1r-yq85k		2011-08-24	다시보기 계백 계백 회 다시보기 월 일 방송분 다시보기
+mbc_gyebaek	9292dong	POST	pymr2xo-y6y7f		2011-08-22	계백 화보고
+mbc_gyebaek	-_0715	POST	pymr605-_fu0l		2011-08-25	삼천궁녀 조혜윤 의자왕ㅇ 짱이에영 tagexclamation
+mbc_gyebaek	cwkms1144	POST	pymr646-y4sh8		2011-08-22	문경 촬영중 교기 역 진태현 씨 말을타 말을타고 진군하는도중 낙마 사고 나다 항시 큰사 큰사고 낫다 나다 않다 조심 촬영에 촬영에임 있다 tagcry tagcry 낙마후 낙마후에 스텝걱정할까봐 아무렇다 않은듯 하다 병원진단 결 결과 그렇다 않다 아무쪼록 빠른완캐 하다 하다 계백 교기 진태현
+mbc_gyebaek	jinichoco	POST	pymra4w-yxca9		2011-08-24	모두 보스를지켜라아세요tagquestion 요즘 넘 재밌는데 tagexclamation 요즘 지연 재중오빠 넘 멋잇어 tagexclamation 라 라며 더욱더 빠져들고있답니 빠져들고있답니다 tagexclamation 계백 많다 사랑 tagexclamation
+mbc_gyebaek	jamtangie016	POST	pymracn-tsv		2011-08-22	계백보 계백보며 맥주 계란말 정체모 정체모를 어포 아 살찌는소리 들리다 들리는구 tagsmile
+mbc_gyebaek	qkrtndusdpdk	POST	pymrafg-yz4k3		2011-08-22	지여니 지여니는 효민이언니 나오다 계백 보러갈 보러갈께 ㅂㅂ 내다 보다
+mbc_gyebaek	junes26	POST	pymrdwr-yxvov		2011-08-24	계백 회 월 일 방송 보기 보다
+mbc_gyebaek	seb46sk2311	POST	pymrmqz-_h1cd		2011-08-22	의자왕 의자왕의 영원 라이벌 책상왕 책상왕이 tagexclamation 우하하하하하
+mbc_gyebaek	dbxhvi2	POST	pymrmv4-_w3wz		2011-08-22	계백 무료다시보기 회 계백 무료다시보기 회
+mbc_gyebaek	usb1204	POST	pymro73-5a94c		2011-08-22	오늘 밥 분 월화 드라마 계백 하다 tagsmile 오늘 효민 효민이 나오다 방송 보다 되다 되 tagsmile 분전 몰캉 몰캉 taglove
+mbc_gyebaek	gttyyy	POST	pymrqew-_5e6j		2011-08-22	아오 빨다 오디션 보다 가고싶다 tagcry 이제 계백보러 가다 tagsmile 이서진 짱 tagexclamation 원래 태곤이형 짱인뎅 tagsmile 광개토대왕 tagsmile
+mbc_gyebaek	ehowlrh86	POST	pymrqo8-54ce2		2011-08-22	tagsmile 오늘 뭐하지tagquestion맛다 계백이봐야징 백동수 백동수도 잼잇는디
+mbc_gyebaek	ho2554	POST	pymrr0a-5z7rb		2011-08-22	오늘 계백하는날 tagsmile 아놔 사택비 재수 밥말아먹었어 tagsmile 나 나다 요즘 엠블랙 엠블랙의 와이 추고 추다 추 있 tagsmile 엉 tagsmile 기븐 투 마 와아아아아 와아아아아이 리슨 투 마 와아아아아아 와아아아아아이
+mbc_gyebaek	jiwon5103	POST	pymrs07-kirp		2011-08-22	소환 나와라의자왕중전마마납셨다
+mbc_gyebaek	pkm9736	POST	pymrsbf-_8nzo		2011-08-22	계백vs백동수
+mbc_gyebaek	rnahs630	POST	pymrsnz-5416d		2011-08-22	지금 계백해 계백해요 효민언니 나오다 계백 번 벌다 mbc 계백 taglove
+mbc_gyebaek	kknd1941	POST	pymrsux-_ky8m		2011-08-22	계백하네 계백 계백이 봐야겠다
+mbc_gyebaek	koj8491	POST	pymrsvu-_1vf4		2011-08-22	무사 백동수 계백 스파이 명월 중 뭐 보다 tagquestion tagsmile
+mbc_gyebaek	chukgoo11	POST	pymrsw8-5xp4g		2011-08-22	계백볼래
+mbc_gyebaek	tuta7	POST	pymrtmr-5z6t9		2011-08-26	계백 재미 보다 보 진짜 비법은tagquestion daum연예
+mbc_gyebaek	treethink	POST	pymru6b-nh1d		2011-08-22	어tagquestion 맞짱 영화 황산벌 많다 보다 장면 tagexclamation 드라마 계백
+mbc_gyebaek	smyoon98	POST	pymrvez-s5ts		2011-08-22	심심해용 tagcry 계백 넘 잼써
+mbc_gyebaek	fly_104	POST	pymryyu-_il8f		2011-08-24	계백 열연중 ak몰 ak프라자 홍보모델 이서진 촬영현장스케치
+mbc_gyebaek	tamers9	POST	pymtd9g-5wcwb		2011-08-26	또 효민씨없네 계백 뵈야징
+mbc_gyebaek	diamond2098	POST	pymtidm-_t80m		2011-08-27	내 백제 계백 이었다면 관창 을죽이고땅에묻어버려야 신라군 신라군은 관창 탈영한줄알고있지않았을까 신라군의사기가더떨어지는일이벌어졌겠지 웹
+mbc_gyebaek	leedaehaw	POST	pymw1j1-idxf		2011-08-22	월요일 월요 밤 가족 계백 보다 치킨 먹다 야밤 치킨 오랜만이구
+mbc_gyebaek	chicchic88	POST	pymw27c-5ncle		2011-08-23	어제 저녁 시 자다 내 내다 계획 tagexclamation 내 내다 계백 tagexclamation 지효님 tagexclamation 으아아 지금 g g는 바보 아니 아 그지 그지같 그지같아 tagcry 엘지 내년 월 빠이빠 빠이빠이 tagexclamation tagexclamation
+mbc_gyebaek	omah123	POST	pymw2lu-5b8f		2011-08-23	계백 효민 송지효 송지효에 야단맞다 히잉 귀요미 무사 등극
+mbc_gyebaek	kimmini78	POST	pymw3dm-51__z		2011-08-25	계백
+mbc_gyebaek	itoss	POST	pymw3j6-q177		2011-08-22	계백 회
+mbc_gyebaek	loveyou9742	POST	pymw654-shaw		2011-08-23	계백 계백 회 다시보기 고화질
+mbc_gyebaek	rlagptn01	POST	pymw6c1-ypbh6		2011-08-22	계백 효 앞머리딱까서 묶고헤어밴드한거 너무너무입흐당 taglove
+mbc_gyebaek	applepitch12	POST	pymw73z-_zd38		2011-08-26	계백 보고 보다 보 있으시나요tagquestion 은고 송지효 제 성격 역 잘 자다 맞나요tagquestion
+mbc_gyebaek	vnrpooq	POST	pymw7c0-_csqd		2011-08-26	pooqmbc 계백 공유
+mbc_gyebaek	vnrpooq	POST	pymw7i8-_csqd		2011-08-26	pooqmbc 계백 공유
+mbc_gyebaek	sch8736	POST	pymw9z7-5hl69		2011-08-22	계백 다시보기계백 회 토렌트 다시보기 내용보기
+mbc_gyebaek	jisiklog	POST	pymwa1f-_rcxy		2011-08-23	무사백동수 계백 무슨요일에해요tagquestion 무사백동수
+mbc_gyebaek	insos02	POST	pymwb9g-_8lnw		2011-08-23	계백 무료다시보기 회 계백 무료다시보기 회
+mbc_gyebaek	itoss	POST	pymwbhu-q177		2011-08-22	계백 회다시보기 회예 회예고
+mbc_gyebaek	pchris1217	POST	pymwbjp-ye1gh		2011-08-23	다행 영어학원 분 남다 남기다 백동수 다봤다 시 다음화 보다 계백정주행 언제 다하다 tagcry
+mbc_gyebaek	gkfn127	POST	pymwfp3-y0tp5		2011-08-25	공주의남자 보스를지켜 지고는못살 스파이명월 계백 무사백통수 몽땅내사랑 몽땅내사 오작교형제 요즘나오는드라마에 전 절다 번봐 번봐요 tagsmile 투표부탁드려용 지금은투표중 taglove
+mbc_gyebaek	qkrtndusdpdk	POST	pymwfud-yz4k3		2011-08-23	리더 효미 효미니 언니 나오다 계백 본 보다 방 사 사다 tagexclamation
+mbc_gyebaek	dydrnjsdl1	POST	pymwfwh-52qrj		2011-08-23	계백 회 다시보기 스샷 고화질
+mbc_gyebaek	stylisthanul	POST	pymwhgk-_w5s7		2011-08-23	계백 이서진 조재현 첫 대면 긴장감 증폭
+mbc_gyebaek	stylisthanul	POST	pymwhhp-_w5s7		2011-08-23	계백 오연수 송지효 송지효에 의자매 제안
+mbc_gyebaek	luciferdabin	POST	pymwhl2-l7ql		2011-08-23	계백
+mbc_gyebaek	wndus0048	POST	pymwjx3-_6apw		2011-08-23	계백 회 계백 회 다시보기
+mbc_gyebaek	leesg1998	POST	pymwm_5-_e1wj		2011-08-23	에다 계백 계백이 보러가야지
+mbc_gyebaek	omah123	POST	pymwnio-5b8f		2011-08-23	계백 화 호다 효민
+mbc_gyebaek	t_ara-hyomin	POST	pymwo01-_aunr		2011-08-27	햄버거먹으면서연습중 tagsmile 어제 뮤뱅에왜안나왔냐 뮤뱅에왜안나왔냐고 물어보시는분 물어보시는분이 많다 계백촬영하고있었어요 tagexclamation
+mbc_gyebaek	prttyhouse	POST	pymwq54-v4zr		2011-08-23	어제 계백 드라마 봤떠요 tagsmile 울 울다 효민 효민이 연기 잘 자다 하더군욤 tagexclamation 난 나다 날다 언제 연기해보징 tagcry
+mbc_gyebaek	fraujoo99	POST	pymwrr6-_81ij		2011-08-23	계백 회 난 나다 날다 계백
+mbc_gyebaek	sieun709	POST	pymwsoy-5jx3g		2011-08-23	계백 빠졌어용
+mbc_gyebaek	abcdefg0518	POST	pymwsxv-_ol9t		2011-08-23	계백 빠지다 tagcry 이현우 계백 아역 왤케 긔여워 정용화 정용화가 간지 하튼 이현우 빨다 떠나다 진리 용화 taglove
+mbc_gyebaek	spastar7	POST	pymwsyz-5x8tg		2011-08-23	계백 조재현 계백 조재현 송지효 송지효에 대한 대하다 사랑 사
+mbc_gyebaek	omah123	POST	pymwvlt-5b8f		2011-08-23	계백 현장포토 비통한 비통 초영 초영과 그녀 그녀를 달래다 달래 은고 tagexclamation
+mbc_gyebaek	jiruhecom	POST	pymww35-_50e_		2011-08-23	계백 회 월 일 토도우
+mbc_gyebaek	dydrnjsdl1	POST	pymwwtt-52qrj		2011-08-23	계백 사진 사다 고화질사진
+mbc_gyebaek	leeboin	POST	pymwy7v-yalkz		2011-08-22	이제 계백 보다 해 계백 옴 오다 재밌는곳 같다 여러분 한번 보세용
+mbc_gyebaek	qufdln5	POST	pymwyfj-_bfmb		2011-08-22	계백ost 위대한탄생 tagexclamation 백청강 닿다 없다
+mbc_gyebaek	jin991202	POST	pymwzww-59udf		2011-08-23	계백 짱 잼써 tagexclamation
+mbc_gyebaek	100chungkang	POST	pymw_uh-ysbsq		2011-08-22	요즘 모하구 지내나요tagquestiontagsmile갑자기 아침 저녁 가을 온것같어 온것같어여 감기조심하구 지금 계백보고있어 청강군 목소리 나올까해서여tagsmile
+mbc_gyebaek	chamgrace	COMMENT	pymra4w-yxca9	c_n4219-ymra4w-yxca9	2011-08-25	tagsmile 진짜 보람 글쓰네tagquestion
+mbc_gyebaek	jinichoco	COMMENT	pymra4w-yxca9	c_n47bi-ymra4w-yxca9	2011-08-25	tagsmile 당연하죳 tagexclamation 댁 티아라멤놀같이해욧 tagexclamation
+mbc_gyebaek	kjs2000425	COMMENT	pymrr0a-5z7rb	c_vio5m-ymrr0a-5z7rb	2011-08-22	미텨쿤 tagcry 요즘 모나뤼자 모나뤼자임
+mbc_gyebaek	ssss2562	COMMENT	pymrr0a-5z7rb	c_vtkby-ymrr0a-5z7rb	2011-08-23	계백 잼이써 우리 못생기다 계백
+mbc_gyebaek	ho2554	COMMENT	pymrr0a-5z7rb	c_vtw3_-ymrr0a-5z7rb	2011-08-23	모나리자 하다 하기 실력 부족
+mbc_gyebaek	ho2554	COMMENT	pymrr0a-5z7rb	c_vtw6l-ymrr0a-5z7rb	2011-08-23	tagsmile 공감
+mbc_gyebaek	koj8491	COMMENT	pymrsvu-_1vf4	c_vc4t7-ymrsvu-_1vf4	2011-08-22	뭐 개사기냐 tagquestion tagexclamation
+mbc_gyebaek	hwanga4274	COMMENT	pymrsvu-_1vf4	c_vcne0-ymrsvu-_1vf4	2011-08-22	이젠 니 드폐냐
+mbc_gyebaek	koj8491	COMMENT	pymrsvu-_1vf4	c_vcngi-ymrsvu-_1vf4	2011-08-22	아니 아 엄마 없다 tagsmile
+mbc_gyebaek	hwanga4274	COMMENT	pymrsvu-_1vf4	c_vcnhf-ymrsvu-_1vf4	2011-08-22	못된아 못된아이
+mbc_gyebaek	segreto34	COMMENT	pymrsvu-_1vf4	c_vcnnf-ymrsvu-_1vf4	2011-08-22	우리동생 백동수 페 페인 tagsmile
+mbc_gyebaek	hwanga4274	COMMENT	pymrsvu-_1vf4	c_vcv23-ymrsvu-_1vf4	2011-08-22	헐 개사기
+mbc_gyebaek	koj8491	COMMENT	pymrsvu-_1vf4	c_vcvcu-ymrsvu-_1vf4	2011-08-22	난 나다 날다 못되다 아이 아냐 tagexclamation tagsmile
+mbc_gyebaek	koj8491	COMMENT	pymrsvu-_1vf4	c_vcvoa-ymrsvu-_1vf4	2011-08-22	둘다 재밌어 어떻다 tagsmile
+mbc_gyebaek	hwanga4274	COMMENT	pymrsvu-_1vf4	c_viyb_-ymrsvu-_1vf4	2011-08-22	맞잖아ㅏㅏㅏㅏㅏㅏㅏㅏㅏ
+mbc_gyebaek	koj8491	COMMENT	pymrsvu-_1vf4	c_viyim-ymrsvu-_1vf4	2011-08-22	아니다 tagexclamation

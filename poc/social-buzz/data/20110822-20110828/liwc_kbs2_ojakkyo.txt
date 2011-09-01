@@ -1,0 +1,54 @@
+program_id	author_id	type	post_id	comment_id	publish_date	feature	count	word
+kbs2_ojakkyo	junes26	POST	pym1a0s-yxvov		2011-08-22	SEE	1.0	보다
+kbs2_ojakkyo	cnsekf	POST	pym1fc_-55r32		2011-08-22	EXCLAMMARK	1.0	tagexclamation
+kbs2_ojakkyo	rlaclthsu12	POST	pym80r3-y3_99		2011-08-27	EXCLAMMARK	1.0	tagexclamation
+kbs2_ojakkyo	rlaclthsu12	POST	pym80r3-y3_99		2011-08-27	SMILEMARK	1.0	tagsmile
+kbs2_ojakkyo	new7192	POST	pym82e4-nda9		2011-08-24	PRESENT	1.0	오늘
+kbs2_ojakkyo	new7192	POST	pym82e4-nda9		2011-08-24	SMILEMARK	1.0	tagsmile
+kbs2_ojakkyo	new7192	POST	pym82e4-nda9		2011-08-24	CRYMARK	2.0	tagcry 흑
+kbs2_ojakkyo	new7192	POST	pym82e4-nda9		2011-08-24	SADNESS	1.0	아프
+kbs2_ojakkyo	thfql917	POST	pym8dg4-yws5b		2011-08-26	SMILEMARK	1.0	tagsmile
+kbs2_ojakkyo	oioioi13	POST	pym8k_x-_g6g8		2011-08-27	SMILEMARK	1.0	tagsmile
+kbs2_ojakkyo	dign8376	POST	pym8_f8-_a7py		2011-08-27	PRESENT	1.0	이제
+kbs2_ojakkyo	yura_me2day	POST	pym9nwv-_ogmw		2011-08-22	EXCLAMMARK	1.0	tagexclamation
+kbs2_ojakkyo	yura_me2day	POST	pym9nwv-_ogmw		2011-08-22	SMILEMARK	1.0	tagsmile
+kbs2_ojakkyo	yura_me2day	POST	pym9nwv-_ogmw		2011-08-22	POSITIVE	2.0	웃다 웃기다
+kbs2_ojakkyo	mina2865	POST	pymeyaq-5vckq		2011-08-22	PRESENT	1.0	요즘
+kbs2_ojakkyo	mina2865	POST	pymeyaq-5vckq		2011-08-22	EXCLAMMARK	1.0	tagexclamation
+kbs2_ojakkyo	cathykim60	POST	pymfvvt-a2r6		2011-08-22	SMILEMARK	1.0	tagsmile
+kbs2_ojakkyo	spastar7	POST	pymg9ju-5x8tg		2011-08-26	EXCLAMMARK	1.0	tagexclamation
+kbs2_ojakkyo	melon_dj	POST	pymgicm-g3qo		2011-08-26	EXCLAMMARK	1.0	tagexclamation
+kbs2_ojakkyo	an72536	POST	pymgk72-5ym0s		2011-08-26	HEAR	1.0	듣다
+kbs2_ojakkyo	s1031j	POST	pymgkgc-m3sj		2011-08-26	EXCLAMMARK	1.0	tagexclamation
+kbs2_ojakkyo	evoluxionx	POST	pymglz2-_j7lh		2011-08-27	HEAR	1.0	듣다
+kbs2_ojakkyo	pghj7985	POST	pymmgqm-yei98		2011-08-27	CRYMARK	1.0	tagcry
+kbs2_ojakkyo	pghj7985	POST	pymmgqm-yei98		2011-08-27	ANGER	1.0	화나다
+kbs2_ojakkyo	lee_sun_ju	POST	pymmiz7-ythc3		2011-08-27	PRESENT	1.0	지금
+kbs2_ojakkyo	lee_sun_ju	POST	pymmiz7-ythc3		2011-08-27	SEE	1.0	보다
+kbs2_ojakkyo	yunwoo1129	POST	pymmmce-yhy7		2011-08-27	PRESENT	1.0	오늘
+kbs2_ojakkyo	yunwoo1129	POST	pymmmce-yhy7		2011-08-27	CONJUNCTION	1.0	그리고
+kbs2_ojakkyo	yunwoo1129	POST	pymmmce-yhy7		2011-08-27	CRYMARK	1.0	tagcry
+kbs2_ojakkyo	happy_il	POST	pymmtqd-_sv5x		2011-08-27	PRESENT	1.0	요즘
+kbs2_ojakkyo	happy_il	POST	pymmtqd-_sv5x		2011-08-27	QUANTIFIER	1.0	조금
+kbs2_ojakkyo	happy_il	POST	pymmtqd-_sv5x		2011-08-27	QUESTIONMARK	1.0	tagquestion
+kbs2_ojakkyo	happy_il	POST	pymmtqd-_sv5x		2011-08-27	EXCLAMMARK	1.0	tagexclamation
+kbs2_ojakkyo	happy_il	POST	pymmtqd-_sv5x		2011-08-27	CRYMARK	1.0	tagcry
+kbs2_ojakkyo	happy_il	POST	pymmtqd-_sv5x		2011-08-27	SEE	1.0	보다
+kbs2_ojakkyo	paranmool	POST	pymq5cp-tgjo		2011-08-27	CRYMARK	1.0	tagcry
+kbs2_ojakkyo	paranmool	POST	pymq5cp-tgjo		2011-08-27	SADNESS	1.0	불쌍
+kbs2_ojakkyo	gkfnsms24	POST	pymq5gp-53gm5		2011-08-27	SEE	1.0	보다
+kbs2_ojakkyo	wlss2002	POST	pymq6ar-ocgt		2011-08-27	EXCLAMMARK	1.0	tagexclamation
+kbs2_ojakkyo	istorynanum	POST	pymq6bw-_mhsx		2011-08-27	HEAR	1.0	듣다
+kbs2_ojakkyo	nuega2833	POST	pymq86l-yaag2		2011-08-27	SMILEMARK	1.0	tagsmile
+kbs2_ojakkyo	pshh721	POST	pymqd6v-5cgq3		2011-08-27	SMILEMARK	1.0	tagsmile
+kbs2_ojakkyo	onestar2264	POST	pymr3ds-_suj0		2011-08-22	PRESENT	1.0	오늘
+kbs2_ojakkyo	onestar2264	POST	pymr3ds-_suj0		2011-08-22	SMILEMARK	1.0	tagsmile
+kbs2_ojakkyo	yesung2435	POST	pymrdwz-yx54n		2011-08-24	EXCLAMMARK	1.0	tagexclamation
+kbs2_ojakkyo	yesung2435	POST	pymrdwz-yx54n		2011-08-24	CRYMARK	1.0	tagcry
+kbs2_ojakkyo	afterue99	POST	pymtiqw-_hc2z		2011-08-27	PRESENT	2.0	이제 오늘
+kbs2_ojakkyo	afterue99	POST	pymtiqw-_hc2z		2011-08-27	EXCLAMMARK	1.0	tagexclamation
+kbs2_ojakkyo	afterue99	POST	pymtiqw-_hc2z		2011-08-27	CRYMARK	1.0	tagcry
+kbs2_ojakkyo	ghkdalswl999	POST	pymw98s-8gdc		2011-08-22	CRYMARK	1.0	tagcry
+kbs2_ojakkyo	gkfn127	POST	pymwfp3-y0tp5		2011-08-25	PRESENT	2.0	요즘 지금
+kbs2_ojakkyo	gkfn127	POST	pymwfp3-y0tp5		2011-08-25	SMILEMARK	1.0	tagsmile
+kbs2_ojakkyo	gkfn127	POST	pymwfp3-y0tp5		2011-08-25	LOVEMARK	1.0	taglove

@@ -1,0 +1,457 @@
+program_id	author_id	type	post_id	comment_id	publish_date	terms
+mbc_challenge	figrett92	POST	pym1n_c-_avkp		2011-08-23	무도 무 하하업을때 화보 taglove
+mbc_challenge	mamas_	POST	pym1ule-yix7t		2011-08-23	아 무섭다 혼자집가는데 어두운길에아무도 아저씨만보 tagsmile
+mbc_challenge	gemmm	POST	pym1zw6-enid		2011-08-23	정형돈 홈쇼핑 엄청 떠는구 떠는구나 tagsmile 아 웃기다 무도 또 유재석 안따라 안따라하려 안따라하려나 tagsmile
+mbc_challenge	tngus1401	POST	pym800f-9cjb		2011-08-27	의정부시 금오동에 금오동에있는 홈플러스 천보중학교 그리다 의정부여자고등학교 tagexclamation tagcry 와주세용 taglove 힘든분 힘든분이 많다 사람 힘 되주세 되주세요 tagcry 재석님 명수님 하하님 노긍정님 정형돈님 무한도전공연신청
+mbc_challenge	hello_loveme	POST	pym80mz-_hqc7		2011-08-27	안녕하세요tagsmile 저 서울송정초등학교 학년 입니 입니다 저희 저희가 학년 조금 졸업이자 tagexclamation 친구 추억 남다 남기다 싶어서 tagcry 저희 학교 학년 무한도전 멤버 재미 남자애 여자애 많다 제발 제발 오다 tagcry 무한도전공연신청
+mbc_challenge	wine990323	POST	pym814b-p7ug		2011-08-27	서울반포초등학교 졸업을압두고 학생 좋은추억만들어주셨으면 좋다 현장학습 수련회 체험활동 저희학년 제외 제외되거 안좋은곳 안좋은곳으 다녀오다 많이 속상해하고 초등학교 졸업하기전 좋은추억하 좋은추억 무한도전 만들어주thㅔ 만들어주thㅔ요 tagexclamation 무한도전공연신청 싸이 싸다 싸 아들 보유중 tagexclamation 빨다 데려가다 tagexclamation tagsmile
+mbc_challenge	wine990323	POST	pym81b0-p7ug		2011-08-27	서울반포초등학교 졸업을압두고 학생 좋은추억만들어주셨으면 좋다 현장학습 수련회 체험활동 저희학년 제외 제외되거 안좋은곳 안좋은곳으 다녀오다 많이 속상해하고 초등학교 졸업하기전 좋은추억하 좋은추억 무한도전 만들어주thㅔ 만들어주thㅔ요 tagexclamation 무한도전공연신청 싸이 싸다 싸 아들 보유중 tagexclamation 빨다 찾아가라그래 tagexclamation tagsmile
+mbc_challenge	nrj1540	POST	pym81rg-yrp11		2011-08-27	으아 정말꼭오셨으면좋겠네요 tagcry 서울시 동작구 동작구에 위치 장승중학교 입니 입니다 tagexclamation 꼭와주세 꼭와주세요 tagexclamation 무한도전화이팅 tagexclamation 무한도전공연신청
+mbc_challenge	khi_9866	POST	pym81s0-_h8qf		2011-08-27	무모 도전 황소끌때 닥본사 재방송 하다 팬 tagexclamation 요즘 저희 반 아이들 방학 끝나다 수행평가 숙제 학원갈라 예전 않은거 같다 tagexclamation 예전 뛰어놀다 산 tagquestion 분위기 됬으면 해서 하다 이렇게 부탁 tagexclamation 무한도전공연신청 동작구 서울문창중학교 반 tagexclamation tagsmile
+mbc_challenge	ye___jin_	POST	pym81vn-_smb_		2011-08-27	오예 tagexclamation 서울시 양천구 목동 경인초등학교 tagexclamation 무도무 무도무도 공연 진짜 보고싶어옄 무한도전 우리학교 얼마 사랑하는데욧 tagexclamation 초등학생 스트레스도풀어줄겸 이런거 이런거는 거의 거 초딩들한테 안오는데 새롭다 프로 개척해보는건 어떨까 어떨까요 tagexclamation 운동장 넓고좋아 넓고좋아요 무한도전공연신청 우리 학교 학생 그리다 저 tagexclamation 무도 무 멤버 얼마 사랑하는데 tagcry
+mbc_challenge	0_3_0_3	POST	pym81_b-5yb3l		2011-08-27	인천양촌중학교 오다 tagsmile 무한도전 완전 팬이에 팬이에요 무한도전공연신청
+mbc_challenge	oujung4941	POST	pym831p-5kvzk		2011-08-27	좀 조다 많다 특이 저희학교 오다 tagsmile 공군교육사령부 있다 공군항공과학고등학교 tagsmile 미래 우리나라 하늘 지키다 우리 활력소 되다 tagsmile 무한도전공연신청
+mbc_challenge	wangguri00	POST	pym835g-qdji		2011-08-26	제친구중 제친구중에 싸 싸이 똑같다 생기다 사람 이써 이써요 tagsmile 걔 싸이 대뷔 대뷔하 대뷔하는 순간 지금 싸이 불리다 tagsmile 그리다 이거 무한도전 하는건가요tagquestion 이번 이번에 무한도전 디자인 디자 공모전 시작 그것 재밌을꺼 같다 click 하시면 볼수이써 볼수이써요 무한도전닮은꼴
+mbc_challenge	dbwls5075	POST	pym8380-85v8		2011-08-27	아까 무한도전 보다 완전 웃기다 tagsmile
+mbc_challenge	tngus1401	POST	pym83io-9cjb		2011-08-27	경기 의정부시 금오동 홈플러스 로 공연와주세 tagexclamation tagcry 의정부 연예인 안와서 볼수 볼수가 없거든요 무한도전 여러분 오다 tagexclamation tagsmile 제발료 taglove 싸 까다 하다 영광 무한도전공연신청
+mbc_challenge	cysh3426	POST	pym83j5-5mh9		2011-08-27	안녕 tagexclamation 저 연예인 자주 볼수 없다 지방 중 여자랍니 제가 제 이번 이번에 중학교 졸업인데 졸업 전 친구 즐겁다 화끈하게 놀고싶습니 놀고싶습니다 tagexclamation 경 진주 오다 tagexclamation 수도권한다 설마 설다 저희 지방 버리시는건 아니겠죠tagquestion tagexclamation 부탁 tagexclamation 무한도전공연신청
+mbc_challenge	gksskatls	POST	pym83nv-_a_82		2011-08-27	대구태전초등학교 오다 tagexclamation 대구 북구 태전동 태전동으 오다 저희 학교 국악부 체조부 유명 그리다 이번 이번에 열리다 대구세계육상선수권대회 저희 학교 오다 응원 tagexclamation 이사갈수 있다 마지막 추억 학교 남다 남기다 싶어요tagsmile 무한도전공연신청
+mbc_challenge	hae3089	POST	pym83ok-_05j		2011-08-27	전라북 전라북도 전주시 완산구 성심여자중학교 로 오다 전통적 카톨릭학교 제 제대 놀 있다 tagexclamation 무한도전 함 놀 준비 되어 되어있습니 되어있습니다 tagexclamation 년 전통 세라복 세라복인 전주성심여자중학교 꼬옥 오다 tagexclamation tagsmile 무한도전공연신청
+mbc_challenge	tngus1401	POST	pym83pw-9cjb		2011-08-27	의정부시 금오동 천보중학교 오다 공연을해주세요tagsmile 학교 더워서 기분 다들 하락 tagcry 후배들기분 선생님 선배님 기분좀 업 시키다 tagexclamation 무한도전공연신청
+mbc_challenge	tjswk110	POST	pym83tx-c284		2011-08-27	무한도전 공연신청 안녕 tagexclamation 금산동중학교 중 입니 입니다 올해 중학교 생활 마지막 특별 추억 친구 만들다 십슴니다 십슴니다요 tagexclamation tagsmile tagsmile 와주세 와주세여 tagexclamation 그리다 금산 인삼축제 해용 tagexclamation 무한도전공연신청
+mbc_challenge	tngus1401	POST	pym83uh-9cjb		2011-08-27	의정부여자고등학교 알지오tagquestion tagsmile 저희 언니 여기 다니고 다니고있는데 공부땜 공부땜에 스트레스많 스트레스많이 받다 언니 다 풀수 풀수있게 놀다 가다 가세 tagexclamation 무한도전공연신청
+mbc_challenge	bigbang525	POST	pym8579-1j1c		2011-08-27	앜 tagsmile 무한도전 소지섭 리턴즈 완전 욱곀 tagsmile
+mbc_challenge	jjoonchoi	POST	pym85fq-y_6y9		2011-08-27	집가수 집가수의 게임본능인가요tagquestion tagsmile 넘잘 넘잘해 tagexclamation 무한도전 tagexclamation
+mbc_challenge	alcutepdl	POST	pym85ir-_hlsb		2011-08-27	무한도전 보다 보 생각난건데 무한도전 멤버 못생긴건가tagquestion안못생긴거 같은데tagquestion
+mbc_challenge	mbcmudo	POST	pym861d-_ych		2011-08-27	하나마나공연신청 평택 한국관광고등학교 오다 tagexclamation 수능 수능이 얼마 얼다 남다 않다 우리 고삼 고삼들이 힘들다 tagcry 무한도전분 보다 힘내다 그날 그날만 많다 웃을수 있다 도와주다 tagexclamation 부탁 tagexclamation
+mbc_challenge	rrr120	POST	pym865u-yjzwm		2011-08-27	대전문화초등학교 언제 오셔서 노래 불러주시면 좋다 tagexclamation 저희 학교 특별 일 한 하다 번 없었거든요 친구 추억 만들다 싶다 tagexclamation 무한도전공연신청
+mbc_challenge	joanna1227	POST	pym867d-pvo4		2011-08-27	taglove 이번 하나마 하나마나 콘서트 tagexclamation 대전한밭초 대전탄방중 으 으로 오다 tagexclamation 시들시들 학교 분위기좀 업 tagexclamation 하다 tagexclamation 그리다 서울 서울이 수도권쪽 대전 지방 좀 조다 하다 tagcry ㅡ tagcry 대전 오다 taglove 무한도전 from 유느님 유느님을 찬양 무한도전열혈팬 대전탄방중 학년소녀
+mbc_challenge	todrmrwndgkr	POST	pym86ag-_k3bq		2011-08-27	저희학교오셔서 고생하시는선생님 친구 후배들을위해공연해주셨으면좋켔습니다 tagsmile 저희학교주소 충청북 충청북도 음성군 생극면 신양리 에있습니 에있습니다 tagsmile 꼭와주셨으면좋켔습니다 무한도전공연신청
+mbc_challenge	gkssktjsghk	POST	pym86da-_gfu9		2011-08-27	충 당진군 당진군에 있다 송악중학교 오다 tagsmile 좀 축제고 축제 저희학교에있는학생 무한도전 대환영 하다 tagsmile 무한도전공연신청
+mbc_challenge	mbcmudo	POST	pym86ih-pvo4		2011-08-27	대전 오다 tagcry ㅡ tagcry 서다 서구 유성구 쪽으로 쪽으로요 tagcry ㅡ tagcry 정말 무한도전 팬인데 팬인데에 tagcry ㅡ tagcry taglove 이왕 탄방중 탄방중도 좋다 taglove 서울 수도권쪽 하시지 마시구 지방 오다 tagcry ㅡ tagcry
+mbc_challenge	rrr120	POST	pym86kq-yjzwm		2011-08-27	대전문화초등학교 아무때 아무때나 오셔서 하나마 하나마나 공연 하다 좋다 tagexclamation 무한도전 매주 챙기다 보고싶네 친구 추억 만들다 싶다 tagexclamation 무한도전공연신청
+mbc_challenge	cysh3426	POST	pym86rl-5mh9		2011-08-27	나 나다 무한도전 미투 등이닼 tagsmile 앗쌐 tagsmile 에밀레 에밀레보 씐 tagsmile
+mbc_challenge	todrmrwndgkr	POST	pym86tu-_k3bq		2011-08-27	저희학교오셔서 고생하시는선생님 친구 후배들을위해공연해주셨으면좋켔습니다 tagsmile 저희학교주소 충청북 충청북도 음성군 생극면 신양리 에있습니 에있습니다 tagsmile 꼭와주셨으면좋켔습니다 tagsmile 무한도전공연신청
+mbc_challenge	1017jyj	POST	pym86__-5mxif		2011-08-27	안산성포중학교 학년학생인데 저희 학교 점심시간 깜짝공연 오다 안될까요tagquestion 저희학교 특별한게 없다 애들 애들이 따분해해 따분해 tagcry 제발제발 와주세옹 김태호pd님 tagexclamation 박명수 아저씨 잘생기신거 아시죠tagquestion tagsmile 무도사랑 taglove
+mbc_challenge	287cap	POST	pym87uz-r2x9		2011-08-26	무한도전 tagexclamation 재방 보다 완전 잼써 tagexclamation
+mbc_challenge	tjajglf1	POST	pym881j-z030		2011-08-27	무한도전 잘 자다 보고 보다 보 있다 하나마 하나마나 공연 포항시 북구 두호동 두호남부초등학교 하다 하 것 어떨까요tagquestion 연예인 연예 보고 보다 보 싶다 싶어 말 좀 조다 하다 무한도전공연신청
+mbc_challenge	nrj1540	POST	pym88ae-yrp11		2011-08-27	서울시 동작구 동작구에 위치 장승중학교 학년 반 꼭와주세 꼭와주세요 tagexclamation 새로사귄친구 추억만들고싶습니 tagexclamation 오다 tagexclamation 무한도전공연신청
+mbc_challenge	sosu2457	POST	pym892l-es5h		2011-08-27	꺄 진짜 멀긴 멀긴한데 경상 진하다 진해 여기다 연예인도 연예인 잘 자다 안와 안와요 tagcry 일로 일 와주셨으면 tagsmile 동진여자중학교 무한도전공연신청
+mbc_challenge	thsutleo5877	POST	pym893a-ybj5e		2011-08-27	소외 아이들 위해 위하다 공연 하는게 어떨까요tagquestion 무한도전공연신청
+mbc_challenge	wine990323	POST	pym89c5-p7ug		2011-08-27	서울반포초등학교 졸업을압두고 학생 좋은추억만들어주셨으면 좋다 현장학습 수련회 체험활동 저희학년 제외 제외되거 안좋은곳 안좋은곳으 다녀오다 많이 속상해하고 초등학교 졸업하기전 좋은추억하 좋은추억 무한도전 만들어주thㅔ 만들어주thㅔ요 tagexclamation 무한도전공연신청 싸이 우리 학교 선배입니당 tagexclamation 싸이 싸다 싸 아들 저희 학교 보유중 tagexclamation tagsmile
+mbc_challenge	_bigbang_vip	POST	pym89e1-0zwp		2011-08-27	무한도전 공연신청 전주시 완산구 평화동 완산중학교 신청 고입시험 때문 때문에 우리 졸업여행 못가서 추억 쌓다 못하다 우리학교 재밌게 놀 자신 tagexclamation 무한도전공연신청
+mbc_challenge	girl11	POST	pym89jp-rp2_		2011-08-27	하 신평중학교 tagexclamation 이제 고딩이 고딩이될 학년 무도 기르다 기 tagexclamation 무한도전공연신청
+mbc_challenge	tmdfl4907	POST	pym8b9l-plx5		2011-08-27	경 창원시 창원여자중학교 학년 반 오다 tagexclamation tagcry 이제 한 하다 학기 지나다 바 졸업 tagcry 완전 특별 추억 만들다 싶다 싶어 tagexclamation taglove 무한도전공연신청
+mbc_challenge	wine990323	POST	pym8blf-p7ug		2011-08-27	무한도전 공연신청 서울반포초등학교 졸업을압두고 학생 좋은추억만들어주셨으면 좋다 현장학습 수련회 체험활동 저희학년 제외 제외되거 안좋은곳 안좋은곳으 다녀오다 많이 속상해하고 초등학교 졸업하기전 좋은추억하 좋은추억 무한도전 만들어주thㅔ 만들어주thㅔ요 tagexclamation 싸이 저희 학교 선배 tagexclamation
+mbc_challenge	jene2298	POST	pym8br7-aidw		2011-08-27	진짜어릴때부터무한도전닥본사해온팬이에 tagexclamation 저희언니가고등학교 학년 이젠수능도얼마남지않아서 언니가너무스트레스받는거 이날하루 고 들이신나게즐길수있게해주세 들이신나게즐길수있게해주세요 tagexclamation 부산개성고등학교로가주세 tagexclamation tagsmile 무한도전공연신청 저희언니는개성고등학교 학년 반손지민학생입니다tagsmile tagsmile
+mbc_challenge	sallygreg	POST	pym8brr-56orr		2011-08-27	경 계룡중 학년 반 오다 순정마초 tagsmile 바람나다 랑 tagsmile 압날 압날이 tagsmile 여튼 다 듣다 싶다 tagsmile 무한도전공연신청
+mbc_challenge	hellow-eunbi	POST	pym8bt0-xnre		2011-08-27	기아타이거즈 경기 오다 시구 시타 시타하 회끗 회끗나 회끗나고 공연하시면안돼요tagquestion 무한도전공연신청
+mbc_challenge	nania999	POST	pym8bz_-awn1		2011-08-27	서울반포초등학교 학년 저희 저희는 좋은건 후배 선배 않조은건 저희 저희가 였습니다 tagcry 저희 저희는 이렇게 졸업할수 없다 tagexclamation 저희 학교 와주세용 무한도전공연신청 싸이 싸다 싸 후배 원하다 싸이 싸다 싸 저희 학교 선배 tagexclamation
+mbc_challenge	jiwon_0816	POST	pym8c27-_ati2		2011-08-27	안녕 짱좋진않은데공부때문에스트레스많이받는서울목동영도초등학교에다니는 학년이에 tagsmile 무한도전짱짱짱재밋어용 taglove 저희중학교가기전에저희학교운동장에서공연한번뛰어주세용출바알 taglove taglove 무한도전공연신청
+mbc_challenge	com27422742	POST	pym8c2w-yr_sc		2011-08-27	대전광역시 유성구 신성동 번지 위치 성덕중학교에와주세 tagcry 이번 이번에 졸업 중학교 학년인데 졸업하기전 좋다 추억 추억하 만들다 싶다 싶어 tagcry 무한도전님 오셔서 하나마 하나마나 공연해주고가시면 정말 힘 날꺼 날꺼같아 날꺼같아요 tagexclamation 꼭와주세 꼭와주세요 tagexclamation tagsmile 무한도전공연신청무한도전 퐈 퐈이 사랑해 사랑해여 오다 yo 무한도전 성덕중학교 출바아알
+mbc_challenge	jieunjjang--	POST	pym8cvh-wu97		2011-08-27	경주 선덕여자고등학교 tagexclamation 고 입니 입니다 tagexclamation 학교 공사 공부스트레스 소음스트레스 tagexclamation 이만저 이만저만 아니다 tagcry 저희 힘을주세 힘을주세요 tagexclamation 무한도전 공연 힘 빡 날거예 날거예요 tagcry 무한도전공연신청
+mbc_challenge	vmstkfkd	POST	pym8d9_-5v11w		2011-08-26	무한도전 디자인 디자 공모전 tagexclamation 머그토이 머그토이에 내가직접 멤버 그리다 완성 tagexclamation 유재석 정형돈 다 그려버릴테 그려버릴테다 http www babosarang co kr product product detail phptagquestionproduct 바보사랑 파다 파 무한도전 머그토 머그토이 링크
+mbc_challenge	tndu1212	POST	pym8dnn-55p81		2011-08-27	무한도전 good good이군 인생 왜 허무 느끼다
+mbc_challenge	nka97	POST	pym8dty-_97rg		2011-08-26	무한도전
+mbc_challenge	wine990323	POST	pym8e70-p7ug		2011-08-27	서울반포초등학교졸업을압두고 학생 좋은추억만들어주셨으면 좋다 현장학습 수련회 체험활동 저희학년 제외 제외되거 안좋은곳 안좋은곳으 다녀오다 많이 속상해하고 초등학교 졸업하기전 좋은추억하 좋은추억 무한도전 만들어주thㅔ 만들어주thㅔ요 tagexclamation 싸이아들보유학교
+mbc_challenge	x1457410	POST	pym8ejw-cxb1		2011-08-26	무한도전 싸이 싸다 싸 닮은꼴 심심 tagsmile 무한도전닮은꼴
+mbc_challenge	nania999	POST	pym8el6-awn1		2011-08-27	서울반포초등학교 학년 저희 저희는 놀준비 놀준비가 언제 충분 다 되다 tagexclamation 제발 와주세용 무한도전공연신청 제발 뽑아주세요오
+mbc_challenge	baekdo991	POST	pym8eqp-nlp3		2011-08-27	안녕 저 성남늘푸른초등학교 다니다 tagexclamation 늘푸른초등학교 오다 tagexclamation 무모한도전때 보다 오다 tagexclamation 어렸을때지만 할머니 같다 봤답니다 tagexclamation 이렇게 재밌는게 있냐구 어렸을땐 무한도전인지도 무한도전 무한도전인지 모르다 보다 tagexclamation 아무튼 늘푸른초등학교 오다 무한도전공연신청
+mbc_challenge	kiu4321	POST	pym8f9u-5j0ud		2011-08-26	무한도전 서해안 고속도로 고속도 가요제 listening 바람나다 feat 박봄 gg 올릴게 올릴게여 포갈땐 대ㅛ글 필수 유후 무한도전 서해안 고속도로 고속도 가요제
+mbc_challenge	dlaruddo1674	POST	pym8fno-_s368		2011-08-27	울산광역시 남구 신정 동 번지 벌다 울산여자고등학교 오다 tagexclamation 김태희언니 나오다 학교 tagexclamation 우리 학년 좋다 추억 말다 있다 하다 tagexclamation 전 절다 이제 조금 졸업 우리학교 좋은추억 하나 하다 하 만들다 싶다 싶어 무한도전공연신청
+mbc_challenge	kangda3440	POST	pym8fvm-5cfjx		2011-08-27	중 이에 이에요 장유 연애 한번 안왔는데 한번 무도 무 맴버 보고싶습니 김해관동중학교 무도 무 하나마나공여장소 해주세 해주세여 무한도전공연신청
+mbc_challenge	fjrie	POST	pym8g6i-_a7co		2011-08-27	서울시 노원구 중계동 서울 중원 초등학교 오다 tagexclamation 선생님 다 친절 마지막 제가 제 가장 좋아하다 무한도전 함 마무리 하다 하 싶다 tagexclamation 그리다 저희 학교 오심 재밌 재밌을 거예요tagsmile 오다 tagexclamation 노홍철씨 tagexclamation 코갓탤mc 코갓탤mc로 옛날 한번 뵈었죠tagsmile 무한도전공연신청
+mbc_challenge	boxerain	POST	pym8g9z-5ywvy		2011-08-27	부산대학교 정문앞 무대 만들어주십쇼 tagexclamation 부산대학교 부산 제일큰 국제대학중 하나 그리다 약간 안알려져 안알려져있는 편 편이 사람 많다 ㅇㅇ 무한도전공연신청
+mbc_challenge	rlaguswls707	POST	pym8i4f-v85k		2011-08-27	무섭무섭ㄱ휴짓씨무한도전이올까tagquestion tagsmile ㄹ
+mbc_challenge	9s_u_n_n_y7	POST	pym8j2q-_mfwx		2011-08-27	분당 정자동 늘푸른중학교 오다 사랑 우리 학교 축제 쓸데없다 장기자랑 없다 우리 학교애 생기 잃다 이르다 이름 늘푸른 늘푸른이지 원래 늘검 늘검은 중학교 우리 학교 오시면 진짜 소원 없을듯 무한도전 화이팅 무한도전공연신청
+mbc_challenge	wine990323	POST	pym8j80-p7ug		2011-08-27	서울반포초등학교 졸업을압두고 학생 좋은추억만들어주셨으면 좋다 현장학습 수련회 체험활동 저희학년 제외 제외되거 안좋은곳 안좋은곳으 다녀오다 많이 속상해하고 초등학교 졸업하기전 좋은추억하 좋은추억 무한도전 만들어주thㅔ 만들어주thㅔ요 tagexclamation 무한도전공연신청 싸이 싸다 싸 아들 울다 기다리다 있다 tagexclamation
+mbc_challenge	joanna1227	POST	pym8jah-pvo4		2011-08-27	대전광역시 탄방중학교 오다 taglove 싫어 사람 절대 없다 거니까요오 taglove 무한도전공연신청
+mbc_challenge	tngus11711	POST	pym8jgn-5sp6x		2011-08-27	전주가능하시면 전주가능 전주성심여자중학교와주세요날짜 월 전 절다 매주 꼭무한도전 챙겨보고 광팽이에 광팽이에요 무한도전공연신청
+mbc_challenge	shinyoocan	POST	pym8jm1-0irg		2011-08-27	수원아주대병원에와주세요한달전에교통사고가났는데동생이아주큰수술을했어요또그곳에있는사람들에게도무한도전하나마나공연을보고큰희망을얻었으면 꼭와주셨으면 무한도전공연신청
+mbc_challenge	lt815	POST	pym8jnn-_zmd1		2011-08-27	우리학교회장 tagexclamation 무한도전 tagcry tagcry 배한솔화이팅 tagexclamation tagsmile 아못생겼다 tagexclamation 못생긴거 못생긴거랑 능력 반비례 우리 tagexclamation
+mbc_challenge	ggamsi86	POST	pym8js1-_z8km		2011-08-27	무도 무 소지섭 강 돌아오다 tagexclamation 노홍철응징 미 소간지ㅡ tagsmile 완전잼있었음 tagsmile 웃음 웃다 핵폭탄 간지고 tagsmile osen
+mbc_challenge	tngus11711	POST	pym8jsw-5sp6x		2011-08-27	전주가능하시면 전주가능 전주성심여자중학교와주세요날짜 월 일이에 일이에요 꼭와주세요전 매주무한도전 매주보 매주보는 광팬이에 광팬이에요 무한도전공연신청
+mbc_challenge	k1120jh	POST	pym8k56-y60d		2011-08-27	아 아까 티비 무한도전 디자인공모전tagquestion 광고 참여하라공ㅇㅇ 해보고싶지 해보고싶지만 비루돋네ㅇㅇㅇㅇ 그때 바람나다 나옴ㅇㅇㅇ 맞나tagquestion tagsmile
+mbc_challenge	mbcmudo	POST	pym8k58-zvim		2011-08-27	인천석천초등학교로와주세 tagexclamation 무한도전사랑 taglove 중학교가기전 친구 좋은추억만들고싶어 tagsmile 안오면 울거 울거임 흐귷흐귷 tagcry
+mbc_challenge	dkfma2770	POST	pym8kq1-m1mz		2011-08-27	무도 무 소지섭 강 돌아오다 tagexclamation 노홍철응징 미 지섭 지섭이 osen
+mbc_challenge	rosemari0320	POST	pym8kt8-bp1h		2011-08-27	월 일 부산여자중학교 클로버축제 하다 해 오다 좋다 taglove 끼 많다 저희 학교학생 구경 하시고 하시 멋지다 공연 보여주다 tagexclamation 부탁 년 월 일 무한도전 나 영원 친구 사랑 무한도전 무한도전공연신청 드럽게 잘생기다 태호님 taglove
+mbc_challenge	vmfpsclvptti	POST	pym8meq-yfkdn		2011-08-27	요즘 보는건 역시 무한도전 그리다 여인의향기 tagsmile 내일이기대
+mbc_challenge	swok0115	POST	pym8o52-y536_		2011-08-27	무한도전 없다 안되다 나 최고프로 tagexclamation 짠 짜다 tagexclamation 무한도전 사랑합니다언제 오다 tagexclamation 저희 서울 누원초등학교 tagexclamation tagsmile 저희 학교 무도 무 팬 tagexclamation 언제 고고고고고고고고ㄱ 정형돈 tagexclamation 무한도전 사랑 꺅꺝꺅ㅇㄹ 무한도전공연신청
+mbc_challenge	rkdus9723	POST	pym8owt-y8klk		2011-08-26	예 내일 내 무한도전한당 tagsmile 진짜 무한도전서해안고속가요제닮은사람 누가나올까 tagsmile 궁금해미치겠넼 tagsmile 아오 씐
+mbc_challenge	ft7704	POST	pym8pqq-gh9x		2011-08-27	안녕하솃세 저 서울 경일고등학교 다니다 고 학생 저의 저 친구 모두모두 무도 무 폐인이 폐인이여서 이렇게 신청 하다 tagexclamation 특 무느님 무느님을 최고 좋아하다 tagexclamation 무한도전공연신청
+mbc_challenge	mdduna	POST	pym8pu5-bzsq		2011-08-27	안녕하세요tagquestion 저 성남동중학교를다니고 윤두나라고합니 저희 저희가 요즘 친구 힘들어하구 연에 연에인 좀 조다 왔음좋겠다 왔음좋겠다고 해서 친구 그리소선배 선생님 지쳐계시구 힘들어 힘들어하세 힘들어하세요 저희 성남동중학교 힘좀 너주세요무한도전 오빠 taglove 들이와주셨으면 좋다 꼭와주thㅔ 꼭와주thㅔ요 무한도전공연신청
+mbc_challenge	joylee0125	POST	pym8rl5-qyw5		2011-08-27	저의 저 마지막 초등학교 생활 무도님 나누다 싶다 싶어 그러니깐 용인소현초등학교 와주세 와주세여 사랑 무한도전 여러분 무한도전공연신청 p s 저 무도 어리다 댸 부터 보다 광팬이랍니당
+mbc_challenge	govlwjddml72	POST	pym8tb0-raxw		2011-08-27	무한도전 짱
+mbc_challenge	tjajglf1	POST	pym8tpx-z030		2011-08-27	무한도전 오프닝
+mbc_challenge	9530850	POST	pym8vbb-57go		2011-08-26	제주 어때요tagquestion 한라산앞 무한도전 반겨줄 준비되어 tagexclamation 무한도전공연신청
+mbc_challenge	qwvb23	POST	pym8y46-_aj3d		2011-08-27	무한도전보 초콜렛 까묵기 아 요거 맛있네요tagsmile 벌쓰다 스무개째 tagsmile 저녁 패스해야겠어요tagsmile
+mbc_challenge	kcy777	POST	pym8yoe-i9g2		2011-08-27	무한도전 자막 애니매이션 대사랑비슷한게 많다 tagsmile
+mbc_challenge	dmstn2508	POST	pym8_29-s9ma		2011-08-23	아하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하ㅏ하하하하하하하ㅏ하하하하하하하핳하하하하하아무 아하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하하ㅏ하하하하하하하ㅏ하하하하하하하핳하하하하하아무도 얘길 안하다 무안 뻘쭘 아무 아무나 말좀해봐 tagcry 제발 아무 아무나 말좀 tagcry
+mbc_challenge	lka7518	POST	pym8_3i-yolw9		2011-08-27	무한도전 컴백 tagsmile 진심 쨔응 무한도젼 무한도젼
+mbc_challenge	azure2110	POST	pym8_cp-8z96		2011-08-27	쉬다 쉬 날 뭐 집 일 했구만 오늘 날 엄청 좋다 정신 차리다 해 다 지다 억울 tagexclamation 무한 도전 본방 사수 했당t t
+mbc_challenge	hannyang	POST	pym8_ep-y_v7w		2011-08-27	아 감기땜 감기땜에 약먹고 약기운 약기운에 졸다 졸리다 죽다 무도 무 방송 기다리다 짜증부리고 짜증부리 있었거덩요 tagsmile 아놔 무도 무 보다 보 잠 자다 다 달아나다 완전 tagsmile 오늘 분명 소간지 리턴즈 인데 왜 외다 박명수 기억 안나냐고 안나냐고요 tagexclamation tagsmile 무도 무 무한도전 소간지 박명수 대박
+mbc_challenge	shinerookie	POST	pym8_n4-5_l29		2011-08-27	여름방학동안 초딩 중딩 고딩 그리다 어른딩 tagquestion 들 무한 재미 서비스 제공 고생 우리 넥슨 직원분 한 하다 줄기 줄다 시원 공연 내려주thㅔ 내려주thㅔ여 tagexclamation 다음주 화요일 화요 행사 무도 무 하나마 하나마나 공연 함 지옥 불장난 불장 파티 tagexclamation 무한도전공연신청 제발 제발 제발 tagexclamation 연락 주thㅔ 주thㅔ요 tagexclamation
+mbc_challenge	eunmi_45	POST	pym8_od-ynnsa		2011-08-27	무한도전 공연신청 저희 학교 오다 tagexclamation 공부 압박 눌리다 살고 살고있는 고등학생 위로 tagcry 친구 저 무한도전 진짜 좋아하다 챙기다 있다 tagexclamation 숭덕여자고등학교 tagexclamation 무한도전공연신청
+mbc_challenge	minju589	POST	pym8_r5-y7c69		2011-08-27	축제 사라지다 저희 안성에 안성에있는 가온고등학교 꼭와주세 꼭와주세요 tagexclamation 제발 제발 플리즈 tagcry 무한도전공연신청
+mbc_challenge	6531rnjs	POST	pym8_wh-59s03		2011-08-27	아 무한도전 재밌따 tagsmile
+mbc_challenge	tkd2321	POST	pymc2hl-yussk		2011-08-25	무한도전 디자인 디자 공모전 시청자 참여 참 이벤트 열다
+mbc_challenge	shinhwa_6403	POST	pymc33d-yrqnd		2011-08-25	무한도전 닮은꼴 싸이는아니지 박봄 닮으꼴 닮으꼴로 친구올려용 tagsmile 인터넷방송 나오다 많다 사람 진짜박봄많이닮았다고그러시더라구 tagsmile 진짜짱닮음 tagexclamation 무한도전닮은꼴
+mbc_challenge	sjs1738	POST	pymc5pq-gcau		2011-08-27	멀고멀다 강원도이긴 강원도이긴하지 강원도이긴하지만 사북고등학교 오다 시원한공기 마시고가세 taglove 랄까 이제 몇달만 몇달만있으면 졸업이에 tagcry 무한도전공연신청
+mbc_challenge	yena0818	POST	pymcdvx-y_qqc		2011-08-27	경기도용인 경기도용 tagexclamation 소현중학교로와주세 이번해가가기전에꼭한번좋은추억만들고싶습니 이번해가가기전에꼭한번좋은추억만들고싶습니다 tagexclamation 도와주실꺼죠 tagquestiontagsmile 무한도전공연신청
+mbc_challenge	soso7984	POST	pymcg90-g5qj		2011-08-26	무한도전 로 로고 만들다 크다 크기 안 알다 맞다 줄이다 잘 자다 안 알다 보 tagcry
+mbc_challenge	uzu_in	POST	pymcgxf-g7kd		2011-08-25	길다 길 음악 하다 좋다 아니다 무도 무 말다 다르다 예능 하든가 아니다 예능 개리 맡다 맡기다 음악 전념 하든가 무도 무 계속 해도 하다 해 길한테 플러스 되다 일 없다 같다 리쌍 리쌍으 이미지 쌓다 무도 다 까먹다 제발 무도 놓아주다 엉엉
+mbc_challenge	eomtheworld	POST	pymch4d-5rx45		2011-08-27	눈웃음하면 싸이닮앗그등요tagquestion tagsmile 뽑히다 진짜아ㅏ밴쿠버에와주셔서 신나다 흔들어주세요요요요ㅛㅇ 무한도전닮은꼴
+mbc_challenge	myelite	POST	pymcohn-0ff6		2011-08-26	엘리트 미투 미투가 쏘다 tagexclamation 미투 미투를 눌러주세 눌러주세요 tagexclamation 샤방사방 엘리트툰 엘리트툰이 업데이트 되었어용 tagexclamation 이번편 이번편은 무한도전 패러디 tagexclamation 조정특집 제 의 멤버는tagquestion샤방샤방 순정이의 다이어리 한번 보러갈까용tagquestion 클릭미투 쾅쾅 매 매다 주 추첨 통하다 통하 베스킨라빈스 아이스크림 드립니다tagsmile 엘리트 엘리트미투데 엘리트툰 샤방샤방순정 순정이의다이어리 엘리트이벤트 엘리트미투데이이벤트
+mbc_challenge	wowyunsong	POST	pymcq16-y6tfl		2011-08-26	오다 무한도전 공모전 시작 평소 문구 관심 짱 많다 언넝 피규어사서 도전 tagexclamation 제가 제 제일좋아 명수횽아 tagexclamation 피규어 피규어는 바보사랑 팔다 바보사랑 바보사 무한도전 무도 무 공모전 디자인공모전
+mbc_challenge	mho1840	POST	pymcrcp-_gk3n		2011-08-25	예능 무한도전 런닝맨 박 일 출발드림팀 강심장 밤밤 해피투게더드라마 몽땅내사랑 몽땅내사 무사백동수 계백 보스를지켜 공주의남자음악프로 뮤직뱅크 쇼음악중심 인기가요 나는가수 불후의명곡 중에하나라도보는사람미투 taglove
+mbc_challenge	sung2926	POST	pymcv70-ybuu_		2011-08-25	무한도전 싸이 싸다 싸 닮은꼴 나다 나 안닮은것 안닮은것같은데 닮을리가 난 나다 날다 여자잖아tagquestion tagsmile 하나마나시즌 라면 하고싶어
+mbc_challenge	sksaem99	POST	pymcx64-oso9		2011-08-26	난 나다 날다 단순 사무실 시원 것 행복 저녁 때 야구 보다 행복 만나다 즐겁다 좋다 사람 친구 만나다 행복 주말 무한도전 보다 행복 내 좋아하다 음악 들다 걷다 것 행복 만화책 볼 보다 때 간 간만 입맛 맞다 책 읽다 때 거창할거 없다 매 매다 순간순간 좋다 다들 복잡 사는거 같다 있다 있다 없다 없다 하다 하 싶다 일 재밌는 일들 일들은 무궁무진 살 살다 것 하다못 하다못해 눕다 매일 매이다 야구 보고 보다 보 무도 무 같다 예능 보다 즐거울거 같다 말
+mbc_challenge	zee03156	POST	pymcy44-yubt		2011-08-27	동수원중 다니다 중 입니 입니다 tagexclamation 저희 학교 월 일 축제에 축제에요 tagexclamation 저희 학교 오다 분위기 재미 업업 시키다 tagexclamation 요번 요번에 졸업 마지막 추억 남기다 tagexclamation tagcry 무한도전 팀 필요 필 하다 tagcry 순순 공연 하다 유혈 사태 벌어지다 않다 것 무한도전공연신청 동수원 중학교 축제 제발 무한도전 수원 동수원중 월 일
+mbc_challenge	kjw3757	POST	pymcyac-yab0r		2011-08-27	na눈 na가야대 na가야대여 tagcry 안녕히주무thㅔ taglove 무한도전 반포초 반포초는 계속 tagexclamation 반포초 반포초여 환호 tagexclamation
+mbc_challenge	remi093024	POST	pymczua-_zbuh		2011-08-26	무한도전 tagexclamation 유재석 박명수 정형돈 정준 정준하 길 기다 노홍철 tagexclamation 정형돈 tagexclamation 요즘내가대세 tagexclamation 정형돈 보고있나tagquestion tagsmile 전손채현이라고 전손채현이라고해 tagexclamation 친구소개 mbcmudo
+mbc_challenge	jjangmii	POST	pymc_51-nnr1		2011-08-27	무한도전 공연신청 수도권 좋다 많다 문화생활 즐기다 없다 지방 기회 찾아오다 좋다 tagexclamation 학년 졸업반 졸업반인 저 학생 이 신분 즐겁다 즐기다 있다 멋지다 공연 마무리 싶다 경상북 경상북도 안동시 안동대학교 신청 보다 tagexclamation 무한도전공연신청
+mbc_challenge	wjddltn1385	POST	pymf61d-5vvub		2011-08-26	무한도전 서해안 고속도로 고속도 가요제 이거 너무특히 너무특 바람나다 압구정날라리너무 신나요tagsmile 네이버뮤직 무한도전 서해안 고속도로 고속도 가요제
+mbc_challenge	895282	POST	pymf6nh-ghb4		2011-08-26	무한도전 공연신청 저희동네 오다 공연 tagexclamation 저희 동네 로데오거리라는데 로데오거리라는데가 있다 거기끝 거기끝에 크다 공원 있다 야외 공연장 같다 생기다 있다 저희 동네 지하철 역 지상 광장 땅 물 분수도 분수도있고 공연할 자리 넓다 스테이지 스테 있다 무한도전공연신청
+mbc_challenge	zoexiuxiu	POST	pymf7cp-_zk3v		2011-08-25	무한도전 싸이 싸다 싸 닮은꼴 i looking forword after work tagexclamation taglove 무한도전닮은꼴
+mbc_challenge	dbal5443	POST	pymf8_j-5r_78		2011-08-26	무한도전 똘아 똘아이 콘테스트 노래 맞추다 태권도 태권 추신 추다 그아줌니 동대문 출현 tagsmile tagsmile 연예인
+mbc_challenge	boxerain	POST	pymfco1-5ywvy		2011-08-26	나 나다 아 사람 무도 춤을췄답니다 ㅇ ㅇ
+mbc_challenge	youkyung517	POST	pymfnco-yany		2011-08-26	스마트폰의발달 힘들어 힘들어하시 우리 부모님 무한도전 유느님의응원 부탁 저희아빠는부산남구대연 동부경대학교대연캠퍼스정문앞 제일복사사장님 요즘 스마트폰 발달 종이가많이안쓰이다보니자연적 저희아빠의일도줄어들어힘들어 tagcry 울아빠응원해주세 울아빠응원해주세요 무한도전공연신청
+mbc_challenge	mbcmudo	POST	pymfp_j-_a5or		2011-08-26	간지 가다 갈다 중 최고간지 소간지 소간지와 함 달리다 준비 됐습니까tagquestion tagexclamation 준비 분들 내일 내 저녁 무한도전 고고고 고고 tagexclamation
+mbc_challenge	thsaldms98	POST	pymfw32-m1wf		2011-08-26	무한도전 싸이 싸다 싸 닮은꼴 밑 분 말씀 말씀대 강호동 강호동이 재미 않다 하다 해 무한도전닮은꼴 강호동 나오다 안그래 안그래도 인기 좋다 좋아지는건 아니다 tagexclamation
+mbc_challenge	lucy1726	POST	pymg01a-5a1ay		2011-08-26	무한도전 싸이 싸다 싸 닮은꼴 아기 귀엽네염 무한도전닮은꼴
+mbc_challenge	kawae23	POST	pymg7t1-yeqi		2011-08-26	도시락 이벤트 당첨 오다 무한도전 올림픽대로가요제cd tagsmile 와웅 지난 지나다 지 앨범 무한도전 이면 다 좋다 tagsmile 이번 이번께 아니 조금 아쉽다 tagsmile
+mbc_challenge	spastar7	POST	pymg9ed-5x8tg		2011-08-26	신세경 무한도전 신세경 무한도전 러브콜 없다 서운 tagexclamation
+mbc_challenge	lmk022577	POST	pymg9md-587cd		2011-08-26	무한도전 싸이 싸다 싸 닮은꼴 무한도전닮은꼴
+mbc_challenge	cookie530	POST	pymgapb-58d5v		2011-08-27	무한도전 공연신청 우리학교 축제 tagexclamation mbc 가깝거 가깝거등요 일산 있다 한수중학교 예 tagexclamation 축제 월 일 안되나요tagquestion tagcry 무한도전공연신청
+mbc_challenge	babosarang	POST	pymgbtv-s19c		2011-08-26	mbc 무한도전 준비 전국민 참여 참 프로젝트 tagexclamation 무한도전 디자인 디자 공모전 만원 상금 걸리다 어마어마 공모전이래 무한도전 공식 머그토이위 머그토이위에 직접 디자인 아트피규어 공모전 tagexclamation 공식 머그토 머그토이 머그토이는 오직 바보사랑 제공됩니다tagsmile 공모전자세히보기
+mbc_challenge	khj5141	POST	pymgga5-c9zd		2011-08-26	무한도전 싸이 싸다 싸 닮은꼴 저 제가 제 다니다 있다 학원 정형돈 닮은꼴 여자애 있다 완전 몸매 부터 판박이 tagexclamation 진짜 저 놀랐답니다 무한도전닮은꼴
+mbc_challenge	bc9404	POST	pymghq5-eh7b		2011-08-27	무한도전 싸이 싸다 싸 닮은꼴 정형돈 정형돈은 어때 어때요 tagsmile 무한도전닮은꼴
+mbc_challenge	hyun517820	POST	pymgihp-yrn58		2011-08-27	famouslinebot 늦었다고생각 떄 떄는 진짜늦은거 무한도전박명수
+mbc_challenge	whcodms42	POST	pymgjcc-5fvw6		2011-08-27	무한도전 멤버중 고르다 하다 뭐 노홍철이겠죠tagquestion 하는행동 그렇다 뭐 할려고 할려고하 얼굴 뭐그 무도중 제일 제 닮은것 닮은것같아 닮은것같아요 무한도전닮은꼴
+mbc_challenge	spastar7	POST	pymgjhm-5x8tg		2011-08-26	정재형 예능 정재형 예능 무한도전 벗어나다 예능 굳히다 tagexclamation
+mbc_challenge	babosarang	POST	pymgjk3-s19c		2011-08-26	무한도전 팬시 디자인 디자 공모전 웹툰 웹툰으 알아봐요tagsmile
+mbc_challenge	54wlsdk	POST	pymglvx-x29u		2011-08-27	유느님무한도전소간지컴백 tagexclamation
+mbc_challenge	98dlwjdwo	POST	pymgq4a-c8d6		2011-08-27	무한도전 싸이 싸다 싸 닮은꼴 저 tagexclamation tagexclamation 제가 제 바 싸이 닮다 꼴 꼬다 입니 입니다 tagexclamation 가창력tagquestion 아직 은 조금 부족 할 하다 tagexclamation 절 뽑다 주다 tagexclamation 제가 제 바 싸이 닮다 꼴 tagexclamation 무한도전닮은꼴는 바 접니 접니다 tagexclamation
+mbc_challenge	pride44	POST	pymgsf_-_zwuk		2011-08-27	태어나다 태어 제 사랑 딸 점점 이쁘다 바랄뿐이예 바랄뿐이예요 tagsmile 무한도전 화팅 무도빠 무한도전닮은꼴
+mbc_challenge	cds06165	POST	pymgwej-yjzkn		2011-08-27	무한도전 공연신청 초등학교 안되다 안되 tagcry 저희 저희는 초등학교 축제 것 한번 못 해봤거든요 tagcry 중학생 마지막 추억 서울시 성북구 정릉 동 청덕초 한 하다 번 벌다 오다 우리 학교 난리 tagsmile 무한도전공연신청
+mbc_challenge	jisd999	POST	pymg_nw-92mx		2011-08-26	무한도전 싸이 싸다 싸 닮은꼴 강호동 닮다 tagsmile 무한도전닮은꼴
+mbc_challenge	ty1301	POST	pymh4t1-55jli		2011-08-27	무한도전 소지섭이넵 울반 울반에 소지섭 닮은애 닮은애있음 tagexclamation
+mbc_challenge	joodus0627	POST	pymh74j-yc3ss		2011-08-27	나 나다 무한도전 소환 할까tagquestion 말까tagquestion tagsmile
+mbc_challenge	guswndtkfdkd	POST	pymh74k-yetm7		2011-08-27	무한도전 공연신청 인천 연수구 연수구에 있다 생활과학고 축제 무한도전 오다 좋다 tagexclamation 의상 조리과 미용 이렇게 개성 강하다 세 세다 개의 개 과 있다 친구 선배 후배 좋다 추억 남기다 싶다 싶어 tagexclamation 오다 하다 해 tagcry 월 일이에 일이에요 tagexclamation 무한도전공연신청
+mbc_challenge	myk126	POST	pymh77b-yfg4		2011-08-27	서울특별시영등포구대림 동 대림중학교에와주세 공사를하는데 소음때매 공부를 공부를할 수도 지루 tagcry 그리고정준하씨가대림중출신이라고하시더라고 그리고정준하씨가대림중출신이라고하시더라고요 선배님 얼굴보고싶어 tagsmile 무한도전공연신청
+mbc_challenge	hj-sone	POST	pymh7b5-expm		2011-08-27	부산 동아고등학교 학년 학생 이번 이번에 저희학교 개교 주년 맞이 주년 기념 공연 한번 오다 주thㅔ 주thㅔ요 지금 고 수험생 기 동기 힘 무한도전공연신청
+mbc_challenge	pcanonjr	POST	pymh7b9-yirn		2011-08-27	무한도전 오늘 엄청 재미 tagsmile 무한도전 클래식 역시 박깃발 tagsmile
+mbc_challenge	dhgmlshfwk	POST	pymh7nz-r9vo		2011-08-27	무한도전레고버전 tagexclamation gg
+mbc_challenge	dhgmlshfwk	POST	pymh7qt-r9vo		2011-08-27	무한도전 레고버전 tagexclamation 괜찮다
+mbc_challenge	wnal39	POST	pymh7sh-2qk9		2011-08-27	인천부평부일여자중학교 축제에와서 분위기좀띄어주세 우리학교 무한도전 빠져 빠져있는 사람 많다 그리다 작년축제때 별 재밌지 재밌지도 않다 더워서 고문이 오다 좋다 무한도전공연신청
+mbc_challenge	shupu	POST	pymh7ws-ys39t		2011-08-27	살 사다 생일 맞다 저희 회사 생일 생 파티 게스트 게스트로 초대 싶다 tagexclamation 충 아산 하나마이크론 명 전사원 무한도전 함께하 함께하는 한마음 퐈뤼 투나잇 tagexclamation 가는고 가는고야 tagexclamation 언제tagquestion 롸잇나우 tagexclamation 무한도전공연신청
+mbc_challenge	taemin123	POST	pymhljr-729r		2011-08-27	무한도전도대본 명수옷보여요tagquestion풍선은따로있고공기주머니에바람불어요박명수 명수옷보여요tagquestion풍선은따로있고공기주머니에바람불어요박명수만
+mbc_challenge	webhosting	POST	pymhlm_-4_ac		2011-08-27	소지섭 무한도전 소지섭 박명수 이상형 맹공질문 진땀 뻘뻘
+mbc_challenge	localmania	POST	pymhspv-y14x		2011-08-27	다행 무한도전 하기전 일어나다
+mbc_challenge	gentry0411	POST	pymhtl4-5_7dg		2011-08-27	피자 피다 피자 땡기 땡기는 토요일오후 무한도전보면서 먹으면 참 차다 맛있을텐데 하다 하지 오늘 다이어트 선언 tagexclamation
+mbc_challenge	chaelini33	POST	pymhv63-5o8c3		2011-08-27	지금 무한도전 보는중 소간지 타다 tagexclamation 정말 재밌네 우하 우하하 tagsmile 탄도 하다 좋을텐뎈 tagsmile
+mbc_challenge	search_now	POST	pymhvj2-5y0f5		2011-08-27	소지섭 지다 허각 몰캉몰캉 백청강 엠마스톤 불후의명곡 투개월 new 무한도전 대구세계육상선수권대회 네이버 실시 급상승 검색어
+mbc_challenge	bsh1806jin	POST	pymhvml-_sfk2		2011-08-27	재미있는무한도전 보고게신가 모두모두무한ㄴ소전과함께웃어보아욤 tagsmile 언제 언제나 무한도전 재석오빠를응원하는혜연이 taglove
+mbc_challenge	sinabc13	POST	pymhvu3-5dnqq		2011-08-27	노래방가고싶당 노래방가쟈잉 사진 아주옛날에찍은건데 올려봐써 내일 내 노래방 가자 가다 tagexclamation 아 쉼쉼 쉼쉼해 무한도전 은 재밋군 tagsmile tagsmile 아좀잇음 학교 히발 오늘밤 비나왓음좋겟네 내일 걍 비 학교갈때 시원 너무더워 비다 비 쏟아지다 얍얍얍
+mbc_challenge	yunjulee0223	POST	pymhvun-_0smz		2011-08-27	무한도전 진짜 미치다 왤케욱겨 tagsmile 무한도전 유재석
+mbc_challenge	kado12	POST	pymhx0m-bkwp		2011-08-27	무한도전 약육강식 세계 박명수 매일 tagsmile
+mbc_challenge	ngiyongho	POST	pymhx1u-f06y		2011-08-27	무한도전 왜 웃기다 tagsmile
+mbc_challenge	kado12	POST	pymhx61-bkwp		2011-08-27	아어떻게 아어떻게해 무한도전 웃기다 뒤질라는중 뒤질라는중임
+mbc_challenge	choijh0703	POST	pymhxrr-y_ain		2011-08-27	야 무도장난아니 오늘캐웃겼음 tagsmile 박명수 쨔응
+mbc_challenge	jiyoun1509	POST	pymhxsp-99ju		2011-08-27	울산 울산에 오다 좋다 tagexclamation 제가 제 울산살면서 연예인 연예 보다 보기 힘들거든 힘들거든요 오다 공연 보다 좋다 무한도전 하나마나공연 울산 울산에서 하다 하다 tagexclamation 무한도전 보고싶어 tagexclamation 무한도전공연신청
+mbc_challenge	bsh1806jin	POST	pymhxub-_sfk2		2011-08-27	사랑스런 재석오빠 taglove tagexclamation 오늘둥 혜연 혜연이 혜연이는 무한도전덕분에많이많이웃었답니당항 최선을다하는오빠 아자아자 화이팅 taglove tagsmile taglove tagexclamation
+mbc_challenge	alan214	POST	pymhxuf-_a9a0		2011-08-27	무도박명수보고빵터짐 tagsmile
+mbc_challenge	shanyo_o	POST	pymhzh2-_yhq1		2011-08-27	결국 서점갈려 집다 집 나서다 tagexclamation tagsmile 무한도전 과감 포기 미친구 미친구함 오늘 독서 예정
+mbc_challenge	leemk323	POST	pymi7tf-mkqs		2011-08-26	무한도전 박명수 긷다 길 보고 보다 보 드럽게 안 알다 웃기다 태생적 재미 애 앗다 라 라고 말다 말 하다 적다 음악 만큼 만큼의 내생각 내생각은 드럽게 잘 라 라고 말 싶다 한번듣고 꽂히다 무한 리플레 리플레이 중 리쌍 나다 놈 답 feat 하림 kbs 나 나다 설명 못 해도 하다 해 내 내다 맘 나 나다 죽다 버리다 라 라는 비관적 가사 방송 부적격 판정 활동 잘 자다 못할것 같다 음악 음악이 많다 들어보다 뮤비 뮤비가 없다 정말 보고 보다 보 싶다 만들다 tagsmile
+mbc_challenge	imhyuna606	POST	pymidfj-yd_7b		2011-08-26	나어제 무한도전재방보는데 무한도전애 사람찾는특집이 거기서길첫사랑착기 나온거 나온거야 그처사랑이름 효진이 그거 보다 보 엠넷 세레나데대작전트니까 고백 여자이름 효진이였뜸 신기 tagsmile
+mbc_challenge	catgirl28	POST	pymifu9-_h66r		2011-08-26	줄리쌤버전무한도전 tagexclamation
+mbc_challenge	parkmj930	POST	pymihoi-mtst		2011-08-25	무한도전 싸이 싸다 싸 닮은꼴 tagsmile 고등학교때영어선생님이에 tagsmile 무한도전닮은꼴
+mbc_challenge	xlvksl070	POST	pymisoc-_bq56		2011-08-25	무한도전 싸이 싸다 싸 닮은꼴 봤니tagquestion 내 무한도전 친구 지금 싸이 싸다 싸 닮은꼴 닮은꼴을 우리 주변 찾다 인증샷하구 올려야됫 tagexclamation
+mbc_challenge	wg21mbmcu	POST	pymissk-5xoy_		2011-08-25	리쌍 가사 가다 유재석 등장 으 으로 지금 실시간검색어 오르고 오르고있다 리쌍 회상 feat 백지영 노래 노랗다 가사 보다 되다 떄가지 노력 유재석 부분 있다 런닝맨 개리 개리와 무한도전 길 기다 리쌍 화이팅 tagexclamation 링크 링크걸어놓았으니 링크 링크를 클릭 리쌍 리쌍의 회상노래 들으실수
+mbc_challenge	jsh195	POST	pymiupq-_ze51		2011-08-25	무한도전싸이닮은꼴 저완전닮았죠 tagexclamation
+mbc_challenge	hyen0217	POST	pymi_lm-y6lui		2011-08-26	난 나다 날다 지금 지금 무한도전 재방송 시청 있다 중 tagsmile
+mbc_challenge	vhrthahem	POST	pymjsxd-yl0s6		2011-08-25	미투 새 또 만들다 tagexclamation 무한도전 빨다 가득 미투 미투입니 미투입니다 tagsmile 특 유반장 도 친추 하시고 하시 싶다 해 하다 주thㅔ 주thㅔ요 tagexclamation 주소 무도빠 환영
+mbc_challenge	kjw3757	POST	pymm27r-yab0r		2011-08-27	무한도전 하나마 하나마나 공연말 글 올리다 짧다 하고싶 하고싶은 말다 말 다 못올리겠네 못올리겠네요 tagcry 글자수 제한 게시판 만들어주시면안될까요tagquestion 부탁
+mbc_challenge	kjw3757	POST	pymm2bb-yab0r		2011-08-27	무한도전아이콘 무한도전 박거성 가져갈땐 댓글 taglove 반포초 반포초만 사용가능
+mbc_challenge	kjw3757	POST	pymm2ef-yab0r		2011-08-27	무한도전아이콘 무한도전 유느님 가져갈땐 댓글 taglove 반포초 반포초만 사용가능
+mbc_challenge	kjw3757	POST	pymm2fh-yab0r		2011-08-27	무한도전아이콘 무한도전 꼬마 꼬다 가져갈땐 댓글 taglove 반포초 반포초만 사용가능
+mbc_challenge	kjw3757	POST	pymm2ig-yab0r		2011-08-27	무한도전아이콘 무한도전 김태호pd 가져갈땐 댓글 taglove 반포초 반포초만 사용가능
+mbc_challenge	gksdma97	POST	pymm2jl-zlq9		2011-08-27	안산시 시곡중학교아님 저희 학교 근처 한번 흔들다 주thㅔ 주thㅔ요 무한도전공연신청
+mbc_challenge	kjw3757	POST	pymm2jx-yab0r		2011-08-27	무한도전아이콘 무한도전 쩌리짱 가져갈땐 댓글 taglove 반포초 반포초만 사용가능
+mbc_challenge	kubera	POST	pymm2p8-jttw		2011-08-27	서울대도초등학교 오다 taglove 무한도전 옵화 tagsmile 저희 학교 무한도전 빠순 빠돌이들이에 빠돌이들이에여 하로 하로로 오빠 키 재다 애들 항시대기중 tagexclamation 무한도전공연신청
+mbc_challenge	kjw3757	POST	pymm2z4-yab0r		2011-08-27	밴드소개 무한도전and반포초 밴드오픈 tagexclamation tagsmile
+mbc_challenge	kjw3757	POST	pymm484-yab0r		2011-08-27	무한도전 우리학교 오게하기위 오게하기위해 동영 동영상을 만들계획 참여하실분계신가요오 taglove 얼굴 안 우리 스케치북 한마디씩 쓰다 그걸 그걸로 만들다 배경음악깔아 tagsmile
+mbc_challenge	wltjsl1629	POST	pymm72m-1bvm		2011-08-27	고 인 학생이예 수시 기간 수능 수능도 다가오다 아이들 선생님 많다 지쳐 지쳐있어 지쳐있어요 한번 오다 하다 해 진건고등학교예요 무한도전공연신청 경기 남양주시 진건고등학교예요
+mbc_challenge	62299072	POST	pymm72o-_z09e		2011-08-25	무한도전 싸이 싸다 싸 닮은꼴 싸이닮 싸이닮은 친구예 친구예요 무한도전닮은꼴
+mbc_challenge	hjj2006	POST	pymm7i_-y1nrs		2011-08-27	인사동 서예물품 판매하고 매일 매이다 할머니 할아버지 자주오시는데 젊다 우리들을위해 들려주다 tagcry 젊다 젊음 빨려나가는것 빨려나가는것같아 빨려나가는것같아요 tagcry 인사동 건국주차장 안쪽 건물 본관 호 서원서예백화점 입니 입니다 무한도전공연신청
+mbc_challenge	9905100	POST	pymm8gd-56cs5		2011-08-27	지금 경기 어떻게되가고잇 어떻게되가고잇나 어떻게되가고잇나요 tagcry 동생 무한도전틀엇어 tagcry
+mbc_challenge	kjw3757	POST	pymma4e-yab0r		2011-08-27	무한도전 하나마다공연 want tagexclamation 서울반포초등학교에와주세 taglove 반포초학생 사용가능 tagexclamation 가져갈땐 댓글필수 tagexclamation 이글 홍보가능 tagexclamation 스킨적용 tagexclamation
+mbc_challenge	sunjou008	POST	pymmadi-b20z		2011-08-27	이재 중 되다 시험 너무많고 고등학교 입학준비 때문 때문에 바쁨니다 바쁨니다요 tagcry 중 이재 중간정도 오다 중 때 해야 해야합니 해야합니다 경북 포항시 연일읍 연일읍에 있다 유강중학교 와주세 와주세여 무한도전공연신청
+mbc_challenge	wjdwn1078	POST	pymmaho-0tnu		2011-08-27	서울시 중랑구 중랑구에 위치해 위치해있는 송곡관광고등학교 무한도전 섭외 tagexclamation 월 일나다 축제 꼭와주세 꼭와주세요 그리다 이르다 이름 정주 준하오라버니 제이름 부르실때마 부르실때마가 가슴떨렸어요 tagcry 알라뷰베이붸 무한도전공연신청
+mbc_challenge	aaa3925	POST	pymmaso-5yvvm		2011-08-27	무한도전 tagexclamation 친구소개 mbcmudo
+mbc_challenge	rickycamelot	POST	pymmc2p-gt7b		2011-08-27	무한도전 하나마 하나마나 공연 조그마하다 동네 짜장면집가서 공연 재미있을듯 그렇다 뭐 이곳 이곳으 오다 좋다 미국 짜장면집 가면 가다 방송 보다
+mbc_challenge	den07026	POST	pymmceg-yya4j		2011-08-27	경기 고양시 일산동구 장항 동 번지 벌다 호수초등학교 제발 와주thㅔ요tagsmile 무한도전 진짜 광 팬이에 팬이에요 하루 안빼 안빼고 본방사수 tagexclamation 전 절다 반이에 반이에요 제 동생 반 무한도전공연신청
+mbc_challenge	gudwl0314	POST	pymmcgu-y47mk		2011-08-27	저희 광주광역시 북구 있다 광주효동초등학교 공연 한번 하다 정 말 말다 좋아할거예 좋아할거예요 tagsmile 무한도전공연신청 가요제 챙기다 있다 토욜 시 분 무한 도전 tagexclamation 본방사수 tagexclamation
+mbc_challenge	wye95	POST	pymmch3-8dqj		2011-08-27	방금 무한도전 본방사수 처음 웃다 웃음 안드로메다 뒷부분 뒷부분은 배꼽실종이예엽 tagsmile 괜찮다 제배꼽좀 찾아주실래요tagquestion tagsmile 무한도전
+mbc_challenge	pdstatue	POST	pymmf6z-ta3s		2011-08-27	무한도전 지금 뭐 키다
+mbc_challenge	bommy21	POST	pymmftm-_sv6i		2011-08-27	빅토리아무도보는중 tagexclamation 지금소간지 지섭소 나오다 노홍철하관때매 수영모못썻듸 tagsmile 아욱겨 tagsmile 구름위를둥둥 taglove
+mbc_challenge	jmw0413	POST	pymmfze-5pucl		2011-08-27	아 무한도전 장난아니 장난아니다 tagsmile
+mbc_challenge	jjh472	POST	pymmg1n-5a2md		2011-08-27	무한도전 공연신청 서울한산초등학교 오다 tagcry 저희반거의매일떠들어서 선생님한테 혼나서 혼나서요 tagcry 저희학교로와주세 tagsmile 무한도전공연신청
+mbc_challenge	k_eunchae	POST	pymmghm-_zonr		2011-08-27	세상 중심 내 내다 꿈 있다 tagexclamation 인천생활과학고 의상 지휘자 학년 김은채 김은채입니 김은채입니다 조리 조다 의상 미용 꿈이 꿈이있는 학생 모이다 모 월 일 함박제 함박제에 오다 tagexclamation 패션쇼 메이크업쇼 칵테일쇼 모두 학생 직접 준비 곳 무한도전 오다 하다 무한도전공연신청
+mbc_challenge	ja9030	POST	pymmgmu-gl0_		2011-08-27	광주 tagexclamation 광산구 tagexclamation 신창동 tagexclamation 신창중 tagexclamation 학년 반 tagsmile 꼭꼭놀러오실꺼죠tagquestion사랑 꼭꼭놀러오실꺼죠tagquestion사랑해 꼭꼭놀러오실꺼죠tagquestion사랑해요 무한도전
+mbc_challenge	ja9030	POST	pymmgrl-gl0_		2011-08-27	중학교에오세 무한도전 다 보죠 무한도전 팬카페도만들꺼에 팬카페도만들꺼에요 tagsmile 오다
+mbc_challenge	yunhs1115	POST	pymmhrk-gf1a		2011-08-27	월 일 tagexclamation 숭의여자대학교 목멱축제 tagexclamation 학교친구 축제때 만큼 만큼은 모 걱정 벗어나다 즐기다 싶다 싶어 tagexclamation 저희 학교 오쒜 오쒜요 tagexclamation 무한도전공연신청
+mbc_challenge	tbal1312	POST	pymmhs4-uihh		2011-08-27	충 논산 쌘뽈여중 우리학교 천주교 규정 귀밑 cm거든요tagquestion 오셔서수녀님 성모마리아님 노래부르다 유재석 대상타고 대상타고요 박명수아저씨 머리 겁나다 만이 만이나고 만이나고요 정형돈아저씨 노홍철은입줄어들고 길다 길 재밌어지 재밌어지고 하하는키 이미터넘고 정준하장가가 무한도전공연신청
+mbc_challenge	rebecca924	POST	pymmhtk-zlz7		2011-08-27	무한도전 꼬 옥 와주세요tagsmile tagsmile 무한도전공연신청
+mbc_challenge	ja9030	POST	pymmi4i-gl0_		2011-08-27	헤다 무한도전 tagexclamation 맨날보고있구 맨날보고있구요 여름방학동안 방학숙제 힘빠진이 힘빠진이들을 힘을넣어주세 힘을넣어주세요 tagexclamation 어떻게요tagquestion 재미 광주 광산구 신창동 신창중에와주세 신창중에와주세여 무한도전공연신청
+mbc_challenge	lee97240	POST	pymmi5r-m5jk		2011-08-27	안녕 tagexclamation 저 서울 성북구 한성여중 다니다 학년 저희 학교 축제 솔직 재미 없다 그리다 올해 마지막 축제 고교선택 때문 때문에 제 제대 즐기다 못하다 한번 만 말다 오다 tagexclamation tagcry 무한도전공연신청
+mbc_challenge	masktal	POST	pymmjfs-fk6o		2011-08-27	지무티무한도전 시작
+mbc_challenge	sad658	POST	pymmjig-510fa		2011-08-25	무한도전 미투 미투가 생기다 가다 tagsmile 싸이 싸다 싸 닮은꼴tagquestion tagsmile 일단 닮은사람 봤긴봤는데 약간 닮다 사람 사다 많더라구 많더라구요 tagsmile 무한도전닮은꼴
+mbc_challenge	kjw3757	POST	pymml1s-yab0r		2011-08-27	무한도전 ucc 참여하실분 댓글 댓글에 문구 쓰신후 쓰신후에 문구 종이에써서 사진 찍다 절 소환 올리다 댓글 댓글과 댓글 댓글이 이어지다 쓰다 이글 이글에 잡답 잡답은 사양
+mbc_challenge	sss951031	POST	pymmlh3-_apgb		2011-08-27	평소 무한도전 가끔씩 보다 하다 서해안고속도로가요제한뒤 매일매일 매일매 빠지다 않다 보고 이번 기회 저한테 좀 조다 주시면 안될까요tagquestion 무한도전공연신청
+mbc_challenge	wjdduf1222	POST	pymmlqu-g4wa		2011-08-27	올해 중학교 마지막 학년 좋다 성적 고등학교 갈수 응원차 공연좀 오다 tagcry 무한도전공연신청 전 해남군 해남읍 구교리 제일중학교
+mbc_challenge	m_maa	POST	pymmmbu-yb766		2011-08-27	월 일 전국 경진대회 열리다 수원 삼일상업고등학교 축하공연 오다 tagexclamation 무한도전공연신청
+mbc_challenge	j-heebang	POST	pymmmfb-58zfd		2011-08-27	귀찮다 피곤 하다 하지 가야 가야한다 내 외로울땐 누 누가 내옆 내옆에 있어주지tagquestion 바로너 tagexclamation 로 지목 당해버렸기 때문 때문에 tagcry 남친집 제사 오전 데이트 마 마치 집 가는길 가는길에 무한도전 본방 보다 보 먹을꺼 먹을꺼라 썬칩사들고 룰루랄라 가다 집 들어가다 썬칩은 오늘 휴무 잉여아빠 뺏다 뺏기다 피곤 졸다 졸 전화 무거운 몸 이끌다 나가는중 tagcry 흙흙
+mbc_challenge	etolie_07	POST	pymmmib-_shiz		2011-08-27	오늘 무한도전 완전 재밌어 tagsmile
+mbc_challenge	aksdirdp4892	POST	pymmmno-u7kd		2011-08-27	무한도전 다 사진 사다 감상중 내일 비스트텀블러 사러가는 사러가는날 tagexclamation yeah즐거운 주말 보내다 월 일 개학하는디숙제 아주 일기 몇개정두 어쩌다
+mbc_challenge	2pmloveyou	POST	pymmmsy-vkqh		2011-08-27	성남은행 초등학교 오다 tagexclamation 평생 잊지못 잊지못할 추억 만들다 싶습니다tagsmile와주thㅔ 싶습니다tagsmile와주thㅔ요 tagexclamation 컴오온 tagexclamation 성남시 은행 동 은행주공 아파트 성남은행 초등학교 tagexclamation 무한도전 thㅏ랑 thㅏ랑해 thㅏ랑해요 tagexclamation 하루 무한도전 보지 보다 않다 입안 가시 돋다
+mbc_challenge	ahnhj1225	POST	pymmmyv-56dw		2011-08-27	송현여자 중학교 신청 요즘 학년 고등학교 문제 스트레스 많다 받다 있다 조금 조금이 스트레스 풀 푸다 있다 시간 되다 하다 tagexclamation 무한도전공연신청
+mbc_challenge	dnjsgml1204	POST	pymmn26-z8cq		2011-08-27	무한도전 공연신청 안녕 tagexclamation 저 초딩 학년 서울염강초등학교로와주세 제발 무한도전 무한도전공연신청
+mbc_challenge	migomi60	POST	pymmn73-_gi7j		2011-08-27	tagsmile 오늘 무도 무 박명수 한예슬 디스 tagsmile 웃기다 tagsmile 무도 무
+mbc_challenge	haerin0710	POST	pymmngn-5ozsd		2011-08-27	고양시 신촌초등학교로와주세 tagexclamation 학기 시작 우리 학년 즐겁다 추억 학기 활기차다 시작해게 하다 좋다 무한도전공연신청
+mbc_challenge	kjw3757	POST	pymmnoj-yab0r		2011-08-27	서울반포초등학교 졸업을압두고 학생 좋은추억만들어주셨으면 좋다 현장학습 수련회 체험활동 저희학년 제외 제외되거 안좋은곳 안좋은곳으 다녀오다 많이 속상해하고 초등학교 졸업하기전 좋은추억하 좋은추억 무한도전 만들어주thㅔ 만들어주thㅔ요 tagexclamation 무한도전공연신청 싸이아들보유학교 싸이선배님 tagexclamation 보고싶어 tagexclamation 반포초후배 와주thㅣ면 안되다 안되 tagquestion
+mbc_challenge	rapapolos	POST	pymmnty-trq6		2011-08-27	안녕 저 강원 강원도 춘천 incomms 근무하고 저희 저희는 네이버 고객센터이구 약 명정도 명정도의 직원 있다 tagexclamation 더위 일 힘들어 힘들어하 힘들어하는 회사 동료 뜻깊다 추억 생겻으면 좋다 tagexclamation tagsmile꼭 됬으면 좋다 무한도전공연신청
+mbc_challenge	bbagasikki	POST	pymmo0y-26pt		2011-08-27	tagsmile 아놔 무한도전 쵝오 tagexclamation tagsmile 뽀에버 평생가자 tagsmile
+mbc_challenge	bluetail025	POST	pymmo3q-5fzom		2011-08-27	지금 무한도전 소간지 나오다 tagsmile 박명수 연승 tagsmile
+mbc_challenge	yukito83	POST	pymmoap-ulyr		2011-08-27	무한도전사실상까네 깨알 tagsmile 아 나또버스 빵터졌어 tagsmile
+mbc_challenge	hahahav0	POST	pymmp4p-_me4n		2011-08-27	무한도전 초코볼 원 엉엉 물가 이제 넘 올랐당 tagcry 과자 이제 꿈 꾸다 말아야징 tagexclamation tagcry
+mbc_challenge	dy7614	POST	pymmq09-mwef		2011-08-27	인천 남구 학익동 학익동에 위치 인하대학교사범대하부속고등학교 오다 tagcry tagcry 이르다 이름 기다 학교 언덕 것 길다 tagcry 고삼 고삼이 웃다 웃 일도 일 많다 않다 오다 웃기다 무한도전공연신청
+mbc_challenge	jmjminj1	POST	pymmq37-b90t		2011-08-27	부산 영도구 영도구에 있다 남항대교 수변공원 오다 tagexclamation 제친구 저희 가족 거의 거 본방사수한다구요옷 tagexclamation 광팬 광팬인데 영도 연예인 매니져 매니져도 안보 tagcry 오다 tagexclamation 제발 무한도전공연신청
+mbc_challenge	dkdus6909	POST	pymmqgf-j30y		2011-08-27	tagcry 저희학교에와주세 tagcry 소명여자중학교 tagcry 남자 없다 tagcry 무한도전공연신청 언니 남자 고파해 고파해여 tagcry 제발 tagsmile
+mbc_challenge	kjw3757	POST	pymmqwj-yab0r		2011-08-27	서울반포초등학교 졸업을압두고 학생 좋은추억만들어주셨으면 좋다 현장학습 수련회 체험활동 저희학년 제외 제외되거 안좋은곳 안좋은곳으 다녀오다 많이 속상해하고 초등학교 졸업하기전 좋은추억하 좋은추억 무한도전 만들어주thㅔ 만들어주thㅔ요 tagexclamation 싸이아들보유학교 싸이선배님 tagexclamation 아들보러 오실래 오실래요 tagquestion 싸이 졸업 서울반포초등학교 학생 tagexclamation
+mbc_challenge	sean320	POST	pymmqy1-y0vjo		2011-08-27	울학교 칙칙 tagcry 무한도전 우리 칙칙 빠져나오다 하다 tagcry 양운중학교 오다 우리진짜 원하다 tagcry 보고 보다 보 있어요tagquestion 김태호pd님tagquestion 사실 보고 보다 보 있다 있 김태호pd 김태호pd인데 tagsmile 양운중 꼭와줘요 tagexclamation 따랑 따랑한다 무한도전 tagsmile 무한도전공연신청 진짜 안오면 미워할꺼 tagcry
+mbc_challenge	juyeon0465	POST	pymmqz3-ed_0		2011-08-27	인천신흥여자중학교 학년 반 오다 tagexclamation 저희 곧있으면 중간고사 중간고사이 축제 반분위기 업 시험 잘 끼 살리다 축제 잘하고싶어 저희반 저희반은 모두 무도 사랑 tagexclamation 무한도전공연신청
+mbc_challenge	buc03116	POST	pymmrbd-5wrfd		2011-08-24	전국 중인 중 분들 이렇게 이렇게나 많다 tagsmile 역시 마성 마성의 지다 tagsmile 미투 글검색 사람찾기 지용앓 지용앓이 검색 건 검색됫읍니닷 tagsmile 마성 마성의 지다 지용앓 지용앓이 지용홀릭 tagsmile 그리구 박명수 무도 죵앓 죵앓이 tagsmile
+mbc_challenge	winterlua	POST	pymmrhe-_bcxn		2011-08-27	무한도전 고속도로 고속도 가요제 보고 보다 보 있는중 철싸 철싸도 재밌구 gg gg도 괜찮다 가장 좋았던건 처진달팽이tagquestion 볼때 볼때마 느끼다 느끼 거다 거지 유재석 엄친 엄친아 같다 tagsmile 엄마친구아들 엄친 엄친아 아들tagquestion아 아니다 아니 아저씨 tagsmile 만능아저씨 tagexclamation 죄송 암튼 대단
+mbc_challenge	darkmongk	POST	pymmrk3-5njot		2011-08-27	무한도전 봐야징
+mbc_challenge	wg3163	POST	pymmrom-v2e7		2011-08-27	무한도전 보다 기다리다 중 tagsmile 소지섭 기대 tagsmile
+mbc_challenge	kjw3757	POST	pymms6t-yab0r		2011-08-27	서울반포초등학교 졸업을압두고 학생 좋은추억만들어주셨으면 좋다 현장학습 수련회 체험활동 저희학년 제외 제외되거 안좋은곳 안좋은곳으 다녀오다 많이 속상해하고 초등학교 졸업하기전 좋은추억하 좋은추억 무한도전 만들어주thㅔ 만들어주thㅔ요 tagexclamation 무한도전공연신청 싸이아들보유학교 싸이선배님 tagexclamation 보고싶어 tagexclamation 반포초후배 와주thㅣ면 안되다 안되 tagquestion
+mbc_challenge	shun38	POST	pymms7j-yauk7		2011-08-27	무한도전 공연신청한거 제마음 제마음이 전부 표현이안됬네
+mbc_challenge	wldnjs3865	POST	pymms8w-ytung		2011-08-27	안녕 tagexclamation 저진짜 매일매일 매일매 본방사수 tagexclamation 제발 재석오빠 tagexclamation 완죤 사랑하고형돈오빠 완죤 tagexclamation 미존 개다 tagexclamation 제발 서울 성동구 행당 동 행현초등학교이번 진짜 오다 아 눈물 tagcry 저진짜무한도전 사랑한단말이에 tagexclamation 시랑 시랑해 시랑해요 무한도전 무한도전공연신청
+mbc_challenge	tas68	POST	pymmssx-yl6za		2011-08-27	무한도전 공연신청 신금 초등학교 와주세염 무한도전 완전 좋아해 좋아해여 tagcry tagcry 무한도전공연신청
+mbc_challenge	rlawltny	POST	pymmsyu-56fit		2011-08-25	무한도전 싸이 싸다 싸 닮은꼴 미안 난 나다 날다 여아라서 tagsmile
+mbc_challenge	hgh9510	POST	pymms_a-o4oj		2011-08-25	아이유언니 신세경언니 무한도전 등등반가워 미투좀 해줘용tagsmile
+mbc_challenge	kjw3757	POST	pymmt2u-yab0r		2011-08-27	서울반포초등학교와주셨으면 좋다 tagexclamation 저희학교 무도팬 무도팬이 쫙깔렸구요 싸이님 싸이님과 똑같다 생긴애도 tagsmile 졸업생 저희 좋은추억하나만들어주시겠thㅓ요tagquestion tagcry 다른학년 다 갔다오다 놀이동산 유일 저희 저희만 못갔어요 tagcry 무한도전공연신청 저희학교학생 위해서 좋다 tagexclamation 신나다 한판 tagexclamation 미친듯 미친듯이 놀 준비 tagexclamation 싸이닮은꼴 찾지마세 찾지마세요 tagexclamation 여기 tagsmile
+mbc_challenge	ja9030	POST	pymmt6n-gl0_		2011-08-27	월달 아무 아무나 오셔도 오셔도돼 오셔도돼요 tagcry 오시면 진짜 완쫀 대박 tagexclamation 요즘 방학숙제떄문에애 스트레스대봑이럄니 tagcry 저 스트레스 쌓이고 쌓이고있어 쌓이고있어요 한후지산보단더넘을스트레스 이스트레스를확풀리게해주는무한도전 꼭와주세요광주 tagexclamation 광산구 tagexclamation 신창동 tagexclamation 신창중 tagexclamation 입니 입니다
+mbc_challenge	ja9030	POST	pymmtj8-gl0_		2011-08-27	무한도전 제작진여러분 광주광산구 신창동신창중 신창동신창중에 꼭오셔 꼭오셔요 큰재미를남겨가주세 tagcry
+mbc_challenge	jhana0315	POST	pymmtm9-5_jxl		2011-08-27	마산 마산에 연예인 별루 오지 오다 않다 연예인 연예 진짜루 실제루 보고 보다 보 싶거든 싶거든요 tagcry tagcry 멀다 창원 마산회원구 마산회원구에 내서호계리 마산 호계초등학교 오다 친구 좋다 추억 나누다 싶다 싶어 오다 좋다 tagexclamation 무한도전 퐈이팅 tagexclamation 무한도전공연신청
+mbc_challenge	tbal1312	POST	pymmtoe-uihh		2011-08-27	논산 쌘뽈여중 오다 우리학교규정 귀및 cm cm인데 여중 미치다 진짜 제발 오다 안오면 무한도전 머리깎ㄲ아 무한도전공연신청
+mbc_challenge	mediamirae	POST	pymmt_l-5rehs		2011-08-27	안녕하세요안산디자인문화고등학교학생입니다여고생활 년밖에안남아서넘아쉬워 tagcry 졸업하고동창회에서만 그때무한도전왔었잖아 tagexclamation 하며이야기할수있는좋은추억거리가하나더생겼으면좋겠어요 애들단합 아주그냥죽 여 주다 요 방송분량안나오면제가어떻게든해볼게 tagsmile 꼭와주세 꼭와주세요 무한도전공연신청 선배님후배님들과즐거운시간퐈
+mbc_challenge	kjw3757	POST	pymmu8e-yab0r		2011-08-27	무한도전아이콘 무한도전 반포초 가져갈땐 댓글 taglove 반포초 반포초만 사용가능
+mbc_challenge	wjdwn1078	POST	pymmudx-0tnu		2011-08-27	무한도전 공연신청 서울시 중랑구 중랑구에 위치해 위치해있는 송곡관광고등학교 무한도전 섭외 tagexclamation 월 일나다 축제 꼭와주세 꼭와주세요 그리다 이르다 이름 정주 준하오라버니 제이름 부르실때마 부르실때마가 가슴떨렸어요 tagcry 알라뷰베이붸 무한도전공연신청
+mbc_challenge	kjw3757	POST	pymmut0-yab0r		2011-08-27	무한도전아이콘 무한도전 가져갈땐 댓글 taglove 반포초 반포초만 사용가능
+mbc_challenge	dbs2536	POST	pymmuvh-gqad		2011-08-27	대전 대덕구 송촌동 송촌동에 있다 대전 송촌중학교 오다 월 중순 축제 있거든 있거든요 tagexclamation 교장쌤 교장쌤이 허락 할 하다 지다 지 모르다 무한도전 정신 저희 저희의 교장쌤 교장쌤과 대결 tagquestion 을해서 우리학교 오다 tagsmile 무한도전공연신청
+mbc_challenge	kjw3757	POST	pymmuyv-yab0r		2011-08-27	무한도전 위하다 미투밴드 하나 하다 하 만들어버렷tagquestion tagsmile 우리학교애 올수 올수있게 tagsmile
+mbc_challenge	wjdwn0011	POST	pymmv5z-yfzc3		2011-08-27	무한도전 신청했지롱 tagsmile
+mbc_challenge	tjsgud402	POST	pymmv7h-jg49		2011-08-27	무한도전 싸이 싸다 싸 닮은꼴 tagsmile 아무 아무나 무한도전닮은꼴
+mbc_challenge	wjdwn0011	POST	pymmvyj-yfzc3		2011-08-27	무한도전 광팬 살 tagexclamation 저희동네 지방 아니다 음 시골tagquestion미래도시 공연 그런게 어린이날 어린이 밖 없다 진짜 보고싶 보고싶은 무한도전 경기도 경기도에 의왕부곡초등학교 로 오다 tagexclamation 무한도전공연신청 보고싶다 진짜
+mbc_challenge	moonjeniffer	POST	pymmw6k-ylx22		2011-08-27	육상대회 개막식 무한도전 둘다 보고싶은데 엄마 무한도전 보고 흐음 하 하나 dmb dmb로 봐야 봐야하 봐야하나 mjh
+mbc_challenge	kjw3757	POST	pymmx9x-yab0r		2011-08-27	무한도전 ucc writting sandara
+mbc_challenge	kjw3757	POST	pymmxrt-yab0r		2011-08-27	무한도전 ucc writting sandara
+mbc_challenge	duseoddl1991	POST	pymmxte-_wrfg		2011-08-27	드뎌 무한도전텀블러을삿어 tagsmile 고민하다가한정판이니까삿어 tagsmile 스텐삿는데하나더가지고싶당 tagsmile
+mbc_challenge	kjw3757	POST	pymmxwx-yab0r		2011-08-27	무한도전 ucc writting sandara
+mbc_challenge	gk_ha	POST	pymmz5b-_tqnj		2011-08-27	서울독립문초등학교 오다 ㅂ 저희 학교 운동장 없다 tagcry 뉴스 나오다 tagcry 불쌍 저희 저희를 위해 위하다 번 오다 tagexclamation 무한도전공연신청
+mbc_challenge	nrz5olzrzl	POST	pymmzdo-5nf59		2011-08-25	무한도전 박봄 닮은꼴 tagsmile 그냥tagsmile tagsmile 무한도전닮은꼴
+mbc_challenge	gk_ha	POST	pymmzih-_tqnj		2011-08-27	저희 서울독립문초등학교 오다 저희 학교 운동장 없다 tagcry 뉴스 나왓답니 나왓답니다 저희 학교 한번 오다 않됄까요tagquestion 우리학교 추억 남다 남기다 싶다 뽑다 무한도전공연신청
+mbc_challenge	hime1018	POST	pymmzow-ynzyk		2011-08-27	무한도전 공연신청 서울신천중학교 오다 진짜 광팬 광팬입니 광팬입니다 오다 진짜 애들 다 기절할거가타 tagsmile 이번 이번에 입학생 제 친구 얼마 유학가 유학가요 tagcry 성인될때 못볼듯 학년때 친구유학가기전 같다 좋은추억 쌓고싶네 쌓고싶네요 오다 tagexclamation 무한도전공연신청
+mbc_challenge	abatrop	POST	pymmzs6-8b7w		2011-08-27	무한도전 공연신청 과천 과천에 놀러오다 타지역 과천 과천에 있는미술학원 다니다 수험생 어디놀러도못가 어디놀러도못가고 과천정부청사 앞 배경진짜 대박 아무 아무도 이묘미 이묘미를 몰다 아무튼 박명수 진리 무한도전공연신청
+mbc_challenge	heeju0504	POST	pymmzxr-xm5o		2011-08-27	서울 상경중학교 오다 tagexclamation 이번 이번에 저가 저 졸업 하다 마지막 정말 재미 추억 남다 남기다 싶다 그리다 저희 학교 친구 후배 무도 정말 좋아하다 무도 무 이야기 많다 하다 해 tagexclamation 오다 좋다 tagexclamation 무한도전공연신청 저희 축제 오다 좋다 tagexclamation 희망일시 월 일 장소 서울특별시 노원구 상계 동 늘푸른 길 기다 상경중학교
+mbc_challenge	wltjsl1629	POST	pymm_zf-1bvm		2011-08-27	글리저 정재형느님tagquestion 무한도전 몰레카메라 걸리다 것 환영 tagexclamation 읭tagquestion 여기다 어디tagquestion 나다 나 누구tagquestion 멍 서 무슨 상황 깨닫다 에라 에라이 시망 tagcry 감하다 세계서열 위 반휘혈님 반휘혈님께 이런짓 이런짓을 하다 나중 쿵푸팬더 모습 풀리다 가만두다 않다 근데 나의사 나의사랑 유느님 유느님은 어디에tagquestion 재석쨔응
+mbc_challenge	whwl8818	POST	pymo24d-yuyad		2011-08-27	길님 목소리 좋다 tagcry 오늘 무한도전하는 tagexclamation 리쌍 asura balbalta 소리바 소리바다
+mbc_challenge	uskcho55	POST	pymo261-542uh		2011-08-27	무한도전 대세 링크 오늘 무한도전 하는 하는날 즐거운 즐거운날
+mbc_challenge	gomibaco	POST	pymo7gw-_zfab		2011-08-27	무한도전 뽀레버 tagexclamation taglove
+mbc_challenge	wlsgk2413	POST	pymo8wm-_igc6		2011-08-27	간지 가다 갈다 중 최고간지 소간지 소간지와 함 달리다 준비 됐습니까tagquestion tagexclamation 준비 분들 내일 내 저녁 무한도전 고고고 고고 tagexclamation
+mbc_challenge	beautisun_85	POST	pymohwr-_g6sn		2011-08-27	토욜아침 진짜 굿모닝 기분 나아지다 빠르다 정상궤도 돌입 위해 위하다 무한도전보면서 데이트 날인양 변신 하다 마법 도구 준비하세욤tagsmile taglove 저넘 저넘의 사랑 사 도대체 내머리 내머리엔 저거바 저거바께 없는거닝 tagexclamation
+mbc_challenge	myelite	POST	pymon17-0ff6		2011-08-25	엘리트 미투 미투가 쏘다 tagexclamation 미투 미투를 눌러주세 눌러주세요 tagexclamation 샤방사방 엘리트툰 엘리트툰이 업데이트 되었어용 tagexclamation 이번편 이번편은 무한도전 패러디 tagexclamation 조정특집 제 의 멤버는tagquestion샤방샤방 순정이의 다이어리 한번 보러갈까용tagquestion 클릭미투 쾅쾅 매 매다 주 추첨 통하다 통하 베스킨라빈스 아이스크림 드립니다tagsmile 엘리트 엘리트미투데 엘리트툰 샤방샤방순정 순정이의다이어리 엘리트이벤트 엘리트미투데이이벤트
+mbc_challenge	cheeri79	POST	pymox25-mycp		2011-08-25	무한도전 싸이 싸다 싸 닮은꼴 나다 나 누굴닮ㅇㅏ나tagquestion 무한도전닮은꼴 하리 하리나
+mbc_challenge	wldbs0623	POST	pymo_0d-_4m_		2011-08-26	무한도전 같다 동고동락 년 지나다 아직 아직도 멤버 얼굴 한번 못봤어요 tagcry 대구 수성못 공연 딱 좋다 오다 tagcry 전국노래자랑 찍은덴데 tagexclamation 따다 가면 가다 드럽게 재미없을거에요 무한도전공연신청
+mbc_challenge	lovecoco411	POST	pymplod-l5vd		2011-08-25	asura balbalta listening grand final planet shiver mix 리쌍 아 나 나다 유재석 짱조아 taglove 이것두노래좋은댜 헹 리쌍한테 빠져부리것네 tagsmile 무도 무 조정 잘해써 tagsmile 빠숑 무도애청자이유림 taglove taglove asura balbalta
+mbc_challenge	lizzie7193	POST	pymp_p1-yq430		2011-08-25	무한도전 싸이 싸다 싸 닮은꼴 닮은꼴을 찾으시대 주변 닮다 신청 고고 고다 무한도전닮은꼴
+mbc_challenge	new_ex95	POST	pymq00b-_gptg		2011-08-27	서울 금천구 독산 동 위치 독산고등학교 오다 저희 학교 강당 근처학교 비 매우큼니 매우큼니다 자랑 저희학교 강당 공연을보고싶습니 저희학교 학생 공부 잘하지는않습니다 무한도전 공연을 공연을해 공부를 공부를하 계기로삼겠습니 무한도전 tagexclamation
+mbc_challenge	no9611	POST	pymq08u-ehnc		2011-08-27	거제 해성중학교 저희 저희는 지방 연예인 보기힘들고 그런것두있구 학교 졸업하기전 선배 좋은추억만들어주셨습면 좋다 tagexclamation 멀다 하핫tagquestion 무한도전공연신청
+mbc_challenge	joodus0627	POST	pymq0ok-yc3ss		2011-08-27	서울반포초등학교 졸업을압두고 학생 좋은추억만들어주셨으면 좋다 현장학습 수련회 체험활동 저희학년 제외 제외되거 안좋은곳 안좋은곳으 다녀오다 많이 속상해하고 초등학교 졸업하기전 좋은추억하 좋은추억 무한도전 만들어주thㅔ 만들어주thㅔ요 tagexclamation 무한도전공연신청 싸이후밴데 당연 닮은꼴 있다 tagexclamation
+mbc_challenge	lyun1649	POST	pymq0x8-_a95w		2011-08-27	서울태랑중학교 tagexclamation 축제좀 구제해주십시 tagexclamation 어서어서어서 tagexclamation 저희학교학생 한마음 한뜻 한뜻으 무한도전 기다리고 tagexclamation 웰컴웰컴 tagexclamation 꼴등 꼴등이지 꼴등이지만 반분위기 좋다 저희반 tagexclamation 좋은친구 좋은추억 만들다 도와주다 tagexclamation 열정 넘치다 못하다 폭발할지경입니닷 tagexclamation 무한도전공연신청
+mbc_challenge	candy99035	POST	pymq18x-509sp		2011-08-27	안녕 tagexclamation 서울초당초등학교 학년 반 유혜진 유혜진입니 유혜진입니다 tagexclamation 저희 학교 친구 무한도전 멤버 정말 좋아하다 tagexclamation 저 좋아하다 마지막 초등학생 잘 자다 마무리 뜻 즐겁다 공연 우리 학교 하다 하다 해 tagexclamation 작다 작 선물 부탁 정말 진심 무도 무 삼촌 오빠 보고 보다 보 싶다 싶어 tagcry
+mbc_challenge	cara928	POST	pymq35l-yk3zm		2011-08-27	안녕 tagexclamation 저는서울덕산중학교에다니는데우리학교에꼭와주세 저는서울덕산중학교에다니는데우리학교에꼭와주세요 tagexclamation 올해는축제도없고수련회도안가서학교가너무 조용 tagcry 저희학교애들은놀면잘즐길수 아이들 말이죠 tagexclamation 저희 학년 학년이라몇후면학교 졸업해요졸업하기전에친구들과좋은추억을만들고싶어 졸업해요졸업하기전에친구들과좋은추억을만들고싶어요 tagexclamation 무한도전공연신청 오다 tagexclamation
+mbc_challenge	joodus0627	POST	pymq39s-yc3ss		2011-08-27	무한도전 공연신청 서울반포초등학교 졸업을압두고 학생 좋은추억만들어주셨으면 좋다 현장학습 수련회 체험활동 저희학년 제외 제외되거 안좋은곳 안좋은곳으 다녀오다 많이 속상해하고 초등학교 졸업하기전 좋은추억하 좋은추억 무한도전 만들어주thㅔ 만들어주thㅔ요 tagexclamation 무한도전공연신청 저희 싸이님 후배
+mbc_challenge	thwndgksrhdw	POST	pymq3d6-e3i7		2011-08-27	무한도전 공연신청 안녕 무한도전을팬인좋아 학년소녀 tagexclamation 저희 저희들이 학년이고내년 중학교가는데 tagexclamation 공부땜에고생하는애 많다 tagexclamation 힘내라고응원 오다 tagexclamation 거다 거기 올해 대구육상경기도잇는데 대구한번오시죠 tagexclamation 대구문성초등학교 학년으로오세 tagexclamation 무한도전공연신청
+mbc_challenge	kjw3757	POST	pymq3sl-yt2eq		2011-08-27	이거 보다 보 사람 사다 바 미투ㄱㄱ 무한도전 공연 걸리다
+mbc_challenge	uypha	POST	pymq3ul-yx1iz		2011-08-27	와쌉 무한도전 tagexclamation 여기다 여기 서울시 양천구 목동 월촌중학교 학년 반 tagexclamation 진짜 무모 도전 때 챙기다 팬이거든 팬이거든요 중간 군대가서 친구 기다리다 tagsmile 이제 학년 바빠지다 친구 즐겁다 하다 tagexclamation 제발 tagcry tagsmile 무한도전공연신청
+mbc_challenge	pro9na	POST	pymq5ll-5tsni		2011-08-27	무한도전 공연신청 아 태평초 태평초도 매우좋고 무엇 가깝다 무한도전공연신청
+mbc_challenge	joodus0627	POST	pymq660-yc3ss		2011-08-27	무한도전 글때문 글때문에 내 내다 사진깔림 tagcry tagsmile 아놬 tagsmile
+mbc_challenge	prttyhouse	POST	pymq69p-v4zr		2011-08-27	무한도전 오빠야들 경기 군포시 금정초등학교 꼬옥 오다 tagexclamation 진짜 오시면 내 운동장 한 하다 가운데서 노래 노랗다 부르다 tagexclamation 춤 무한도전공연신청
+mbc_challenge	candy99035	POST	pymq6a9-509sp		2011-08-27	안녕 tagexclamation 서울초당초등학교 학년 반 유혜진 입니 입니다 tagexclamation 저희 학교 친구 무한도전 정말 좋아하다 tagexclamation 저 좋아하다 tagexclamation 학기 끝나다 중학생이에 마지막 초등학생 잘 자다 마무리 뜻 즐겁다 공연 선물 주다 하다 해 tagexclamation 정준 정준하 삼촌 tagquestion 머리 크다 크기 궁금 노홍철 오빠 tagquestion 얼굴 얼마 크다 궁금 오빠 tagquestion 키 얼마 작다 궁금 유재석 삼촌 보고 보다 보 싶다 싶어 tagexclamation
+mbc_challenge	mbcmudo	POST	pymq6ye-_sydb		2011-08-27	오늘 무도 무 잘봤어요언니랑 완전 배잡고 쓰러질뻔 tagexclamation tagsmile 소지섭님 귀여우시 귀여우시고 박명수님 완전 짱이었어요tagsmile tagsmile
+mbc_challenge	hsg02025	POST	pymqb9s-hadh		2011-08-27	구미 인동고등학교와주세 tagcry tagexclamation 무한도전 팬이에 팬이에요 tagexclamation 무도 무 멤버 보고 보다 보 싶다 싶어 tagcry tagexclamation 무한도전공연신청
+mbc_challenge	mbcmudo	POST	pymqbg5-57ct2		2011-08-27	무한도전공연신청 대구세계육상선수권대회 개최되 개최되는 대구 오다 tagexclamation 초대가수 오시는건 어떨까요tagquestion 수 관객 세계 여러 선수 tagexclamation 세계속 무한도전 되어보자구 tagexclamation 말 대로 대 무엇 돼 돼는 무한도전 tagexclamation 세계 무한도전 알리다 대구 재미 즐기다 가다 가세 tagexclamation
+mbc_challenge	hongsiliy	POST	pymqbjt-_6572		2011-08-27	서울특별시 강남구 개포동 개원중학교 학년 반 한 하다 여학생 아직 아직도 중학교 생활 힘들다 하다 하 학년 친구 즐겁다 웃다 웃음 재미 공연 보여주다 tagexclamation 무한 도전 tagexclamation 무한도전공연신청
+mbc_challenge	lini7410	POST	pymqbkw-_ae7q		2011-08-27	tagsmile 박챔피언 올해 박명수 해 하다 오늘 무도 무 넘넘 잼있었어요 tagsmile
+mbc_challenge	umhm	POST	pymqcb5-5n4o9		2011-08-27	저 졸업 앞두다 마지막 휴학 하다 하 취업 위하다 공부 하다 하 살 사다 권영진 권영진입니 권영진입니다 미래 대한 대하다 고민 정말 많은데 많은데요 고민 함 나누다 msp msp라 단체 함 진행 친구 같다 볼 보다 있다 선릉 근처 포스코센터 공연 하다 있나요tagquestion 무한도전공연신청
+mbc_challenge	hhl1001	POST	pymqcjt-5dof		2011-08-27	공연 하시 김 대구 내려오다 tagexclamation tagsmile 대구 효성중인데 강당 있다 학교 개가 개 담장 없다 붙어있구 붙어있구요 진짜 잘놉니 잘놉니다 tagsmile 오다 tagexclamation 무한도전공연신청
+mbc_challenge	on102	POST	pymqc_j-yqqvc		2011-08-27	오늘처음 밴드 올려본사진 이 창피 근데 왜 외다 저렇다 눈 올라가다 나온걸까tagquestion흠 무한도전공연신청
+mbc_challenge	zotlalsl	POST	pymqd1v-ymgeq		2011-08-27	저희 저희가 올해 초등학교 졸업 하는데 하는데요 초등학교 때 좋은추억 만들다 싶어 싶다 신청 경북안동시임 경북안동시임하면 임하초등학교 오셔서 공연 부탁드려요tagsmile언제 환영 무한도전공연신청
+mbc_challenge	guswndtkfdkd	POST	pymqd68-yetm7		2011-08-27	무한도전 공연신청 인천 연수구 연수구에 있다 생활과학고 축제 무한도전 오다 좋다 tagexclamation 의상 조리과 미용 이렇게 개성 강하다 세 세다 개의 개 과 있다 친구 선배 후배 좋다 추억 남기다 싶다 싶어 tagexclamation 오다 하다 해 tagcry 월 일이에 일이에요 tagexclamation 무한도전공연신청
+mbc_challenge	mbcmudo	POST	pymqd9q-5kya		2011-08-27	충청북 충청북도 청주시 흥덕구 분평동 남성중학교 오다 tagexclamation 진짜 무한도전 첫회부터봤어요 tagsmile 그때부터팬 tagexclamation 충북오실꺼면 남성중꼭와주세 tagexclamation 무한도전공연신청
+mbc_challenge	xkakdh	POST	pymqdas-_k0ap		2011-08-27	무한도전 동성고
+mbc_challenge	guswndtkfdkd	POST	pymqdjy-yetm7		2011-08-27	무한도전 공연신청 인천 연수구 연수구에 있다 생활과학고 축제 무한도전 오다 좋다 tagexclamation 의상 조리과 미용 이렇게 개성 강하다 세 세다 개의 개 과 있다 친구 선배 후배 좋다 추억 남기다 싶다 싶어 tagexclamation 오다 하다 해 tagcry 월 일이에 일이에요 tagexclamation 무한도전공연신청
+mbc_challenge	joodus0627	POST	pymqe3l-yc3ss		2011-08-27	무한도전 없 못살다
+mbc_challenge	ckp56789	POST	pymqei0-yg8f		2011-08-27	서울경인초등학교로와주세요tagsmile저희학교에는무한도전 서울경인초등학교로와주세요tagsmile저희학교에는무한도전을 본방사수하는아이 꽉차있답니 꽉차있답니다 좋은경험이될거고 곧있으면중학교를갈 학년아이들 응원 토요일오후 시 무한 도전 tagexclamation tagsmile 무한도전공연신청
+mbc_challenge	joodus0627	POST	pymqejy-yc3ss		2011-08-27	무한도전 어울리다 색은tagquestion
+mbc_challenge	yj9915	POST	pymqelm-yt2eq		2011-08-27	서울반포초등학교 저희 학교 애들 애들이 얼마 열심 tagcry 무한도전 스킨 아이콘 만들다 나누다 주다 주 있다 싸이 싸다 싸 아들 보유 학교 입니당 tagsmile 부탁드랴 tagcry 무한도전공연신청
+mbc_challenge	mick__y	POST	pymqewe-yivf3		2011-08-27	대구 경화여자고등학교 오빠 저희좀 살려줏메 살려줏메요 야자하 야자하는 마당 재미좀 봅세 봅세다 tagcry 폭풍눈물 무한도전공연신청
+mbc_challenge	yj9915	POST	pymqeyb-yt2eq		2011-08-27	서울반포초등학교 안녕 올해 학년 되다 학생 내년 졸업 좋다 추억 가지다 가지 가다 가 싶다 싸이 싸다 싸 선배님 모교 학교 오다 tagexclamation 무한도전공연신청
+mbc_challenge	marsh-mallow	POST	pymqf4_-yna2o		2011-08-27	안녕하세 tagsmile 연기자 지망생 고 강땡땡 학생이라구해 tagexclamation 갠적 갠적으 정말 싸이 싸다 싸 닮았다구 생각해 생각해여 tagexclamation tagsmile 오른쪽 접니당 tagexclamation 무한도전닮은꼴
+mbc_challenge	marsh-mallow	POST	pymqfew-yna2o		2011-08-27	안녕하세 tagsmile 연기자 지망생 고 강땡땡 학생이라구해 tagexclamation 갠적 갠적으 정말 싸이 싸다 싸 닮았다구 생각해 생각해여 tagexclamation tagsmile 오른쪽 접니당 tagexclamation 무한도전닮은꼴
+mbc_challenge	sophia5834	POST	pymqfp4-ykfcg		2011-08-27	저희 경기 안양 안양으 오다 tagexclamation 안양 비산 동 있다 샘모루초등학교 오다 무한도전 오빠 정말사랑하구 tagcry 진짜 하 하나 빠짐없다 tagquestion 다 보구 있는거 아시죠 오다 정말 좋다 거에 거에요 연애 못본애 도와주는셈 치다 치 오다 tagsmile 무한도전공연신청
+mbc_challenge	onlyonemj6	POST	pymqfql-_zcj6		2011-08-27	저 노량진 고시생 이곳 노량진 노량진엔 각종 시험 준비 사람 참 차다 많다 사람 많다 얼굴 활력 없다 다들 시험 쩔어서 살다 tagcry 젊다 창창하다 사람 불쌍 안쓰럽다 안쓰러워 tagcry 저희 수험생 작다 작 웃다 웃음 위안 주다 tagexclamation 말 tagexclamation 무한도전공연신청
+mbc_challenge	hwangdbsdud	POST	pymqjce-u64u		2011-08-27	무한 도전 안녕하세요tagsmile무도 팬 살 사다 여자아이 이번 기회 통하다 스트레스 풀어주다 좋다 추억만들게 하다 tagexclamation 우리 학교애 무도 무 팬인친구 완전 많다 tagexclamation 와주세요tagsmile 무한도전공연신청 서울시 양천구 목 동 경인초등학교 고등학교 대학교 가지 초등학생 기회한번 만들다 감사하겠습니다tagsmile
+mbc_challenge	98danyunji	POST	pymqjpj-_g6gv		2011-08-27	대구대서중학교 오새 오새요 tagexclamation tagsmile 애들 애들이 이렇게 즐기는것 즐기는것도 좋아하다 뒤 효성초등학교도잇어요tagsmile 무한도전공연신청
+mbc_challenge	bsh1806jin	POST	pymqk0u-_sfk2		2011-08-27	소지섭과함께하는무한도전 많이웃을수있었던시간이였습니당지섭오빠너무재미있었어요 tagsmile tagsmile 다음주가기다려지
+mbc_challenge	cjh1291	POST	pymqk16-_0yfy		2011-08-27	박명수 무도 대활약 tagsmile 팬됬음 tagsmile
+mbc_challenge	candy99035	POST	pymqk4c-509sp		2011-08-27	안녕 tagexclamation 서울초당초등학교 학년 반 유혜진 입니 입니다 tagexclamation 저희 학교 친구 무한도전 정말 좋아하다 tagexclamation 저 좋아하다 tagexclamation 학기 끝나다 중학생이에 마지막 초등학생 잘 자다 마무리 뜻 즐겁다 공연 선물 주다 하다 해 tagexclamation 정준 정준하 삼촌 tagquestion 머리 크다 크기 궁금 노홍철 오빠 tagquestion 얼굴 얼마 크다 궁금 오빠 tagquestion 키 얼마 작다 궁금 유재석 삼촌 보고 보다 보 싶다 싶어
+mbc_challenge	michelle0408	POST	pymqk4k-y3yvn		2011-08-27	다음주 화요일 화요 저녁 분 서대문slp 오다 tagexclamation 저희 원어민선생님 학원생활 마 마치 미국 돌아가시거든 돌아가시거든요 좋은추억 만들어드리고싶어 tagexclamation 무한도전 하나마나공연 와주실거죠tagquestion제보자 성채현이구 그날 스낵파티하는거기때문 학업 지장 없다 tagexclamation 무한도전공연신청 원어민쌤 지금 해드린게 없다 tagcry tagexclamation 부탁이에 제발
+mbc_challenge	yjs06038	POST	pymqk7u-yg3t_		2011-08-27	서울연지초등학교 tagexclamation 마지막 학년 추억하나 추억하나를 선물 주다 tagexclamation 무한도전공연신청
+mbc_challenge	joodus0627	POST	pymqk95-yc3ss		2011-08-27	서울반포초등학교 졸업을압두고 학생 좋은추억만들어주셨으면 좋다 현장학습 수련회 체험활동 저희학년 제외 제외되거 안좋은곳 안좋은곳으 다녀오다 많이 속상해하고 초등학교 졸업하기전 좋은추억하 좋은추억 무한도전 만들어주thㅔ 만들어주thㅔ요 tagexclamation 싸이아들보유학교 싸이님 저희 선배
+mbc_challenge	qwaszxer2	POST	pymqkgk-ev5y		2011-08-27	영어 공부 어렵다 어려움 있다 힘내다 전 목포시 옥암동 옥암동에 위치 베키 어학원 오다 주세요tagsmile 무한도전공연신청
+mbc_challenge	joodus0627	POST	pymqki5-yc3ss		2011-08-27	무모한도전 회 황소 줄다리기하는것 부터 보다 무한도전 보기위해 일주일 버티다 tagcry
+mbc_challenge	joodus0627	POST	pymqksv-yc3ss		2011-08-27	무한도전 예능 진리 라 라고 스킨만들어서 뿌려줭 tagexclamation 울학교 애들마안 tagexclamation
+mbc_challenge	rbdufdbgus	POST	pymqm9y-_59ys		2011-08-27	대전 지족고등학교 가다 우리형 수능 수능이 많다 축 쳐져있을텐데 우리형 구운좀 불어 넣다 주다 무한도전 짱 좋다 하하하 제발 번 가다 설마 설다 서울 뽑는건 아니죠tagquestion tagcry
+mbc_challenge	twstar98	POST	pymqm_8-gfh1		2011-08-27	tagsmile 아 무한도전 봣는데 오늘 박명수 위주 내더랔 tagsmile
+mbc_challenge	kathy9969	POST	pymqo5j-0g9n		2011-08-27	졸업을앞두고있는학생들에게좋 추억만들어주세요현장학습 수련회 체험활동 항상저희학년만제외가되거나수련회 않좋은곳으로가서 속상해 속상해합니 초등학교 졸업하기전에좋 추억 추억하 무한도전 만들다 서울반포초등학교 싸이아들학교 싸이출신초등학교 싸이선배님 tagexclamation 보고싶어
+mbc_challenge	sbi04398	POST	pymqouu-1bqa		2011-08-27	어쩐지 tagexclamation tagsmile 무한도전 오늘 자막 조금 새롭다 하다 tagsmile 그런거 tagcry tagcry 소간지님나왔어 taglove
+mbc_challenge	yj9915	POST	pymqpa4-yt2eq		2011-08-27	서울반포초등학교 저희 학교 학생 다 한마음 신청 중 tagcry 한 하다 번 벌다 오다 사랑 tagexclamation 무한도전공연신청
+mbc_challenge	adddd3	POST	pymqpik-59equ		2011-08-27	중 장유진이라고 고등학교가기전 친구 좋은추억쌓고싶어 고등학교가면 공부를해야해서신나게자주 못놀것 못놀것같아 못놀것같아요 대구북구태전동 이예 이예요 우리반학생 유느님과홍철오빠의긍정의에너지를받으면 활기차다 공부 할수있을것 할수있을것같아 할수있을것같아요 꼭와주세 꼭와주세요 tagexclamation 무한도전공연신청
+mbc_challenge	rbdufdbgus	POST	pymqpju-_59ys		2011-08-27	대전 지족고등학교 가다 우리형 수능 수능이 많다 축 쳐져있을텐데 우리형 구운좀 불어 넣다 주다 무한도전 짱 좋다 하하하 무한도전공연신청
+mbc_challenge	joodus0627	POST	pymqprs-yc3ss		2011-08-27	무한도전 다음촬영지 반포초 tagexclamation tagsmile
+mbc_challenge	joodus0627	POST	pymqr16-yc3ss		2011-08-27	무한도전 촬영요일 목요일 목요 맞나tagquestion
+mbc_challenge	mbcmudo	POST	pymqrfu-y04z2		2011-08-27	우리 초등학교와줘 tagcry 삼덕 초등학교에여 tagcry 무한도전 진짜 팬이에욜 tagcry tagcry 완전 무한도전 우리학교 초대 싶어열 tagexclamation
+mbc_challenge	choidab	POST	pymqryh-5qdaq		2011-08-27	여기다 여기 신청 되는건가 되는건가요 tagcry tagquestion 진짜 콘서트 한번 가본적 학생 중학생 경기 성나다 tagexclamation 태평역근처 있다 교보문구 오다 tagexclamation 친구 재미 보고 보다 보 올게 올게요 tagexclamation 진짜 콘서트한번 가보고싶었는데 좋은기회네 좋은기회네요 tagsmile 무한도전공연신청
+mbc_challenge	europe	POST	pymqrzb-_tcu		2011-08-27	거제도 거제도로 오다 tagexclamation 전국 알아주다 일반계 고등학교 거제고로 tagexclamation 저희학교 월요일되면 무도얘기 해서 하다 난리에 난리에요 tagsmile 거다 거기 공부도잘 잘놀아서 쌤들 쌤들이 맨 맨날 걱정 하다 하 tagsmile 저희학교 오실거죠 tagexclamation 노홍철형님 tagexclamation tagsmile 무한도전공연신청
+mbc_challenge	4mgjm	POST	pymqvlf-eazh		2011-08-27	미국 애틀란타 거주하고 년째 되다 되 유학생 뉴욕 뉴욕은 많다 오다 애틀란타 애틀란타는 안오시더라고 안오시더라고요 애틀란타 suwanee 근처 오다 무한도전공연신청
+mbc_challenge	marsh-mallow	POST	pymqwfy-yna2o		2011-08-27	안녕하세 tagsmile 연기자 지망생 고 강땡땡 학생이라구해 tagexclamation 갠적 갠적으 정말 싸이 싸다 싸 닮았다구 생각해 생각해여 tagexclamation tagsmile 오른쪽 접니당 tagexclamation 무한도전닮은꼴
+mbc_challenge	jje_918	POST	pymqyh1-ycwvg		2011-08-27	무한도전 공연신청 의정부발곡고등학교안녕 tagexclamation 절다 입니 입니다 저희학교가만든지얼마안되서저희축제가올해 회거든 회거든요 진짜무한도전한편도안빼놓는팬이거든 한번만와주세 저희 저희고 가 가다 회입학생이자 회졸업생이예요저희 회졸업생이예요저희는 년마다축제여서올해가첫번째이자마지막이예 tagcry tagcry 무한도전공연신청 me map
+mbc_challenge	mbcmudo	POST	pymqyiq-y3yvn		2011-08-27	무한도전다음주 화요일 화요 저녁 분 서대문slp 오다 tagexclamation 저희 원어민선생님 학원생활 마 마치 미국 돌아가시거든 돌아가시거든요 좋은추억 만들어드리고싶어 tagexclamation 무한도전 하나마나공연 와주실거죠tagquestion제보자 성채현이구 그날 스낵파티하는거기때문 학업 지장 없다 tagexclamation tagexclamation 부탁이에 제발 원어민쌤 지금 해드린게 없다 tagcry
+mbc_challenge	rain-l	POST	pymqym4-_w22w		2011-08-27	바닷길 나 부르다 부 있다 노래 노랗다 그대 이노래 이노래를 띄우다 사랑 네이버앱 음악검색 무한도전 서해안 고속도로 고속도 가요제
+mbc_challenge	mbcmudo	POST	pymqyw6-y3yvn		2011-08-27	다음주 화요일 화요 저녁 분 서대문slp 오다 tagexclamation 저희 원어민선생님 학원생활 마 마치 미국 돌아가시거든 돌아가시거든요 좋은추억 만들어드리고싶어 tagexclamation 무한도전 하나마나공연 와주실거죠tagquestion제보자 성채현이구 그날 스낵파티하는거기때문 항암제 항암제는 지장 없다 tagexclamation tagexclamation
+mbc_challenge	thsgpwjd98	POST	pymqyza-0l4b		2011-08-27	여기 동해묵호여자중학교예 tagsmile 저희학교오시면 호응장난아니구여 tagsmile 하키부 있다 하키부 미니게임 tagsmile 예를들면 무도멤버 골키퍼 하키부선수 공격 tagsmile 재밌을꺼같은데 재밌을꺼같은데여 tagsmile 오시면 학년 반와주세 반와주세요 tagsmile 저희반유느님찬양 오시면호응짱 무한도전공연신청
+mbc_challenge	ssplji1234	POST	pymqyzd-5dgb3		2011-08-27	무한도전 공연신청 저희 서울 방화동 방화동에 있다 방원중학교 하다 tagexclamation 저희 학교 오셔서 즐겁다 하다 좋다 tagexclamation 재미있을것 같다 tagexclamation 글구 본방사수 있으니깐 있으니깐요 제발 저희 중학교 오다 좋다 tagexclamation 무한도전 진짜좋아 tagexclamation 꼭와주세 꼭와주세요 tagexclamation 무한도전공연신청
+mbc_challenge	enwnssla	POST	pymq_1c-5_sbf		2011-08-27	무한도전 하나마 하나마나 공연 시즌 을 한다던데 이것 기대 기대다 많다 하다 제가 제 개인적 무한도전 완전 팬이에 팬이에요 tagsmile 기대 tagsmile 여러분 기대 기대되시 tagquestion
+mbc_challenge	kjw3757	POST	pymq_4g-yc3ss		2011-08-27	무한도전 taglove 김태호 pd님 taglove 유느님 taglove 박거성 taglove 도니도 도니도니 taglove 돌 i taglove 쩌리짱 taglove 길 기다 taglove 꼬마 꼬다 taglove
+mbc_challenge	ttitti00	POST	pymq_c8-5lt77		2011-08-27	tagsmile 오늘 무한도전 공연신청 하다 tagexclamation 재미루 근데 정말루 되다 좋다 tagexclamation tagsmile 김칫국 싫어 된장찌개 먼저 마시다
+mbc_challenge	candy99035	POST	pymq_xs-509sp		2011-08-27	안녕 tagexclamation 서울초당초등학교 학년 반 유혜진 입니 입니다 tagexclamation 저희 학교 친구 무한도전 정말 좋아하다 tagexclamation 저 좋아하다 tagexclamation 학기 끝나다 중학생에에 마지막 초등학생 잘 자다 마무리 뜻 즐겁다 공연 선물 주다 하다 해 tagexclamation 유재석 삼촌 팬이에 팬이에요 tagexclamation
+mbc_challenge	nasen	POST	pymr31n-y9de		2011-08-25	무한도전 서해안 고속도로 고속도 가요제 listening 말 대로 대 처지다 달팽이 내일 내 모하지tagquestion 내다 어떻다 살지tagquestion tagsmile 인사이트 제대로네 무한도전 서해안 고속도로 고속도 가요제
+mbc_challenge	dh980615	POST	pymr5wd-_57f		2011-08-25	무한도전 싸이 싸다 싸 닮은꼴 zzzzz 무한도전닮은꼴
+mbc_challenge	lovert30	POST	pymrcst-_5tdh		2011-08-26	늦은시 무한도전 포즈 취하다 홍철형님 와우 가는거 가는거야
+mbc_challenge	jedi_lion	POST	pymrhkt-yjh0d		2011-08-26	최근 나이 나다 나 들다 것 실감 때 무한도전 우천시 취소 특집 때 소녀 시대 멤버 이름 이르다 맞추다 나오다 때 머리 속다 속 하얗다 되다 내 내다 자신 볼 보다 때 였다 기억 낫다 나다 않다 tagcry tagcry 소녀 시대 수지 효민 효민이 없다 왜 외다 자꾸 머릿 속다 속 멤도냐 멤도냐고
+mbc_challenge	cksal1162	POST	pymrm28-y0dj6		2011-08-26	무한도전 싸이 싸다 싸 닮은꼴 tagsmile 무한도전닮은꼴
+mbc_challenge	hongpan2	POST	pymro2a-_auck		2011-08-26	무한도전 싸이 싸다 싸 닮은꼴 지금 춤연습 춤연습하 있다 tagsmile 제가 제 아니다 안될듯 tagsmile 무한도전닮은꼴
+mbc_challenge	yozmhi	POST	pymrucs-_5g59		2011-08-26	무한도전 싸이 싸다 싸 닮은꼴 무한도전닮은꼴
+mbc_challenge	tkdzma0924	POST	pymt03s-5n7xq		2011-08-27	무한도전보러가야지
+mbc_challenge	hanoo90	POST	pymt1b2-_s8vn		2011-08-27	무한도전시청중인데 재밌네 재밌네요 tagsmile
+mbc_challenge	naver_news	POST	pymt20s-bj_k		2011-08-27	연예 무도 무 소지섭 강 돌아오다 tagexclamation 노홍철 응징 미국춤 폭소 news osen 무한도전 노홍철 응징 미국춤 소지섭 멋지다 tagexclamation
+mbc_challenge	_duwlsl	POST	pymt2d6-km4c		2011-08-27	대구강동중 로 카몬카몬 tagexclamation 저희반애 진짜 시끄럽다 재밌는 애들이에 애들이에요 tagsmile 본심 착한애 tagcry 와주thㅔ영 tagexclamation 무한도전공연신청 대구도한번쯤 tagsmile
+mbc_challenge	guswldhkdnd	POST	pymt3el-5ozqd		2011-08-27	무한도전 닥본솨
+mbc_challenge	o_ogmltmd	POST	pymt3ip-yq_hh		2011-08-27	무도무 무도무도 tagsmile 잼난당 tagsmile 유재석도좋지만오늘 소지섭나 tagsmile taglove
+mbc_challenge	na0	POST	pymt3_m-bybo		2011-08-27	그깟 공놀이 뭐 하하하하 하하하 tagexclamation 난 나다 날다 무도 보다 이 재밌겠다 아아웃고있어도눈물이 아아웃고있어도눈물이난다
+mbc_challenge	myelite	POST	pymt69d-0ff6		2011-08-27	엘리트 미투 미투가 쏘다 tagexclamation 미투 미투를 눌러주세 눌러주세요 tagexclamation 샤방사방 엘리트툰 엘리트툰이 업데이트 되었어용 tagexclamation 이번편 이번편은 무한도전 패러디 tagexclamation 조정특집 제 의 멤버는tagquestion샤방샤방 순정이의 다이어리 한번 보러갈까용tagquestion 클릭미투 쾅쾅 매 매다 주 추첨 통하다 통하 베스킨라빈스 아이스크림 드립니다tagsmile 엘리트 엘리트미투데 엘리트툰 샤방샤방순정 순정이의다이어리 엘리트이벤트 엘리트미투데이이벤트
+mbc_challenge	im_irene	POST	pymt7xc-w7_		2011-08-27	무한도전 우천취소특집 재방송 보고 저거 진짜 대본 즉석 한거라면 유재석 정말 대단 강호동 강호동과 차원 다르다 듯 근데 퀴즈적힌 종이뒤 종이뒤에 무한도전 로고 로고가 있다 걸보 걸보니 아므 준비 시작한게 아닌건 분명
+mbc_challenge	gy2393	POST	pymt820-_r4nj		2011-08-27	저 서울특별시 동작고등학교 위에 위에있는 행림초등학교 tagexclamation 학교 주소 몰라용 tagexclamation 우리학교 산 함 있다 좋다 글구 전교생 명 안넘기 안넘기에 tagsmile 글구 학년중 학년 빼다 다 반까 학년 반 tagsmile 최대가 최대 한 하다 명 정도tagquestion쿠쿡 무한도전공연신청
+mbc_challenge	amoo2014	POST	pymt841-7put		2011-08-27	고양종합 운동장 운동장하 호수공원와서 공연해주thㅔ tagsmile 평소 사람 많다 무한도전 멤버들와서 공연 편하다 편 mbc드림센터옆 호수공원 저희동네거든 저희동네거든요 tagsmile 종합운동장 호수공원 가깝다 가깝나tagquestion 무 모 한 하다 도전 회 촬영장소니깐 의미있을거 같다 tagsmile 무한도전공연신청
+mbc_challenge	shim9512	POST	pymt86n-b87m		2011-08-27	인천국제고의학생 저희학교는영종도외딴곳에있어요 기숙사학교라외부와의접촉이많이 tagcry 주 말에집갔다오면애들무도얘기밖에안해욬 tagsmile 시까지야자빡세게공부 시취침 시기상하는우리학교아이들에게꿈과희망을나누어주세 시기상하는우리학교아이들에게꿈과희망을나누어주세요 tagexclamation 우리학교만큼반응좋은곳도또없을거에요 tagsmile tagexclamation 무한도전공연신청
+mbc_challenge	hiein1501	POST	pymt8ey-vpk9		2011-08-27	충주 탄금중학교 제발 오다 충주 충주는 딱 문화시설 즐길곳 즐길곳이 없다 tagcry 무한도전공연신청
+mbc_challenge	98dlwjdwo	POST	pymt8is-c8d6		2011-08-27	무한도전 공연신청 서울 서초구 살다 있다 신반포 중학교 다니다 있다 이정재 라 라고 하다 tagexclamation 저 이번 서해안 고속도로 고속도 가요제 를 보고 보다 보 매우 감명 받다 tagexclamation 저 뽑다 tagexclamation 참고 저 싸이 닮다 꼴 tagexclamation 저 뽑다 tagexclamation 무한도전공연신청 제발 tagexclamation 싸이 닮다 꼴 바 나 나다 tagexclamation
+mbc_challenge	jf277	POST	pymt8tp-ybo8j		2011-08-27	무한도전 공연신청 경기 용인시 상갈동 금화마을 상갈중학교 와주떼 와주떼요 tagexclamation 느님 tagexclamation 사랑하고 tagsmile 음 tv 우리 친구 나왓으면 좋겟구 이번 기회 공부 열시미 하게용tagsmile 무한도전공연신청
+mbc_challenge	junetwo62	POST	pymt910-5mgf9		2011-08-27	아하하하 오늘 무도 무 박명수가살렸다 tagsmile 너무웃었더니 볼에경련 덜덜덜
+mbc_challenge	kukubk	POST	pymt995-5n2l7		2011-08-27	오늘 무한도전 보고 보다 보 완전 웃기다 죽을뻔봤다 tagsmile
+mbc_challenge	ckddyd4074	POST	pymt9fl-yzwti		2011-08-27	무도 무 박명수 플라잉 체어 게임 파죽 파죽의 연승 올킬
+mbc_challenge	ilfall	POST	pymt9qq-y_w1n		2011-08-27	대구달산초등학교 오다 좋다 저희학교 강당 지다 공사가완공 고학년이 지친저희에게무한도전 활기 불어넣어주셨으면좋겠어요 그리고이제 대구 세계육상경기대회 열리잖아 열리잖아요 제발부탁 피디님 무도오빠 뽑다 taglove 무한도전공연신청
+mbc_challenge	mbcmudo	POST	pymt9sx-51vbd		2011-08-27	전주 월드컵경기장 전주서천초등학교 tagexclamation 전주 별 연예인 안 알다 오다 전주시민 연예인 보고파 보고파요 tagcry tagcry 이은미 이승철 콘서트 있다 유재석 개그맨 별 못 본 보다 같다 전주시민 재미 행복 빵 tagexclamation 쏘다 tagexclamation 무한도전 홧팅 tagexclamation
+mbc_challenge	wjdwldnjs222	POST	pymt9tp-__9w		2011-08-27	월 일 청주 용암중학교 축제 하다 강당 없다 축제 위하다 장소 빌려놓지 않다 작년 이어 조회대 운동장 축제 이뤄지는데요 저희 저희가 어깨 펼수 있다 무한도전 팀 공연 하다 드럽게 간절 tagcry 무한도전공연신청
+mbc_challenge	ghdidia401	POST	pymt9w4-ynmow		2011-08-27	무한도전 소간지 소간지를 또 볼 보다 있다 넘 좋다 ㅅ 명수 님 진전 챔피온ㅅ tagsmile 아 수박 먹고 싶다 p
+mbc_challenge	chd3511	POST	pymt9x5-yqaw		2011-08-27	무한도전 하나마 하나마나 tagexclamation 우리학교축제에왔으면좋겠당 taglove
+mbc_challenge	judy990402	POST	pymtcsu-bki1		2011-08-27	서울반포초등학교 지금 우리학교아이들 신청중 안되다 정말 아이들 실망할거같해 초등학굔데 tagcry 무한도전공연신청
+mbc_challenge	ghdcodus	POST	pymtcz3-rxp0		2011-08-27	창원 명곡여자중학교 tagcry 특별 경험 되다 좋다 tagcry 무한도전공연신청
+mbc_challenge	mbcmudo	POST	pymtf1n-yrfe_		2011-08-27	서울반포초등학교 와주셨으면 tagexclamation 공부 잡혀 잡혀있는 tagquestion 저희 저희를 깨워줄 무한도전오빠 필요 tagexclamation 잘생긴무도오빠 tagexclamation 서울반포초등학교 오다 좋다 시간 보내다
+mbc_challenge	yui929	POST	pymtgyo-5n52		2011-08-27	오늘 무도 무 tagsmile 박명수 한예슬디스했엌 tagsmile 대박 tagsmile
+mbc_challenge	rurxn00	POST	pymtg_s-yxsks		2011-08-27	태호pd 보고잇 보고잇나 tagquestion 대구 북구 매천동 매천중학교 정형돈급 미친존재감 수두룩 공연 일로오면 남자다잉 대구국제육상선수권대회 마침 대구에서 공연하러오 tagexclamation 강당도있심더 tagexclamation 무한도전공연신청
+mbc_challenge	abcdefg0518	POST	pymthi0-_ol9t		2011-08-27	서울시 능동구 경복초등학교 학년 애들 애들이 다가오다 중간고사 중딩준비 학년이라은 부담 수학여행 일본지진 못가 못가고 힘들어 힘들어해 힘들어해요 저희 학교 체육관 완젼넓어 완젼넓어요 아니다 에섴 부탁 tagexclamation 친구 좋다 추억 주고싶어 무한도전공연신청
+mbc_challenge	abcdefg0518	POST	pymthk2-_ol9t		2011-08-27	서울시 능동 있다 경복초등학교 재학생 학년이에 일본 지진땜 지진땜에 수학여행 못가 못가고 한달정 한달정도 있다 중간고사준비 학년 부담 중딩 중딩도 아니다 많이 힘들어 힘들어해 힘들어해요 tagcry 크다 기억할수 있다 특별 추억 만들다 tagexclamation 반으로와주세 반으로와주세요 무한도전공연신청
+mbc_challenge	h990819	POST	pymthl2-5klkn		2011-08-27	방금도무도챙겨봤어요 tagexclamation 우리학교 김포 한강 신도시 장기동인데 마을 생기다 얼마 않다 tagexclamation 얼마전 싸이겨땀쩌는것 보다 앨범 구매 학년 이번 이번에 소중 추억 만들고싶네 만들고싶네요 노홍철 유재석 정형돈 길 기다 정준 정준하 박명수 짱 tagexclamation 무한도전공연신청
+mbc_challenge	minyoung2672	POST	pymti4h-ywxc4		2011-08-27	대구 수성구 수성구에 있다 정화중학교 오다 하나마 하나마나 공연 tagexclamation 제가 제 무한도전 광팬이거든 광팬이거든요 오빠 실물한번 보고싶네 정말 제 소원 무한도전 멤버 만나다 사진찍는 거다 tagcry 소원좀 이루다 주다 좋다 tagexclamation 무한도전공연신청
+mbc_challenge	shggt00	POST	pymticy-ypnak		2011-08-27	창원 남정초등학교 오다 taglove 이렇게 학교 밝히다 좀 조다 그렇다 말 이루다 질 지다 수도 수 있다 tagsmile 무한도전공연신청
+mbc_challenge	wony105	POST	pymtiqn-5l2nj		2011-08-27	무한도전 공연신청 부천 상인초등학교 오다 tagexclamation 제가 제 진짜 년전 몇회 빼먹다 하다 진짜 보다 tagexclamation 진자 광팬이에 광팬이에요 tagexclamation 제가 제 무한재석교 열혈신도 tagcry 우리학교 마지막 학년 추억쌓을수 있게해주세 있게해주세요 tagexclamation 불장난댄스가보고싶습니 tagsmile 진짜 사랑 taglove tagexclamation 무한도전공연신청
+mbc_challenge	kgroup2	POST	pymtj2f-b9i7		2011-08-27	흐허헣 tagexclamation 저희학교 와주세옇 tagexclamation 오시면 정말 열혈 열혈히 격하다 환영해드릴게옇 tagexclamation 무한도전공연신청
+mbc_challenge	oj0990	POST	pymtj5o-ymg8o		2011-08-27	무한도전 공연신청 안녕 tagexclamation 송탄 송탄으 오다 tagexclamation 유재석씨 유재석씨랑 하하씨 하하씨는 와보셨을꺼에요 그리다 저의 저 고장 유명 않다 저의 저 고장 다르다 고장 유명 아니다 송탄 송탄이 고장이란것 알아주다 고맙다 수고하세요tagsmile 무한도전공연신청
+mbc_challenge	munkeoung01	POST	pymtjc2-yl5zh		2011-08-27	안녕 저 경기 광주 있다 오포초등학교 한 하다 학생 입니당 tagexclamation 우리 학교 동생 언니 무한도전 함 즐겁다 시간 보내다 하다 무한도전공연신청 요즘 저 아 언니 사이 안 알다 조아지구 있다 무도 오다 공연 해 하다 주다 합니당 tagexclamation 언니 사이 더욱더 조아질거에 조아질거에요 tagsmile tagexclamation tagexclamation 부탁드릴게 무도 무 홧팅 tagexclamation 그리구 주동안 나오다 소시섭오빠두 ㅅㄱ하셨습니당 tagexclamation
+mbc_challenge	jjoco12	POST	pymtje4-yera0		2011-08-27	월 일 대전문정중학교 축제 하다 tagexclamation 오다 정말 감사 그럼 이 tagexclamation 무한도전공연신청
+mbc_challenge	kanashiai	POST	pymtjh8-cdye		2011-08-27	저희 숭실대 방송국 월 일 제 회 방송제 하다 오다 좋다 tagcry 방송제 할 하다 때 mbc 가다 축전 받다 작년 유재석씨 유재석씨와 노홍철씨 노홍철씨도 하다 말씀 아니다 아니 이번 이번엔 직접 오셔서 축하 좋다 부탁 tagexclamation 무한도전공연신청
+mbc_challenge	yeeun6186	POST	pymtjqz-0l4f		2011-08-27	올해 중 이구 이구요 저희 저희랑 년동안 같다 있다 친구 전학 가다 가늘다 저희 다 무한도전 좋아하구 처음 다봤고 친구 가기전 가기전에 하나마 하나마나 공연 보고싶어 무한도전공연신청
+mbc_challenge	sayoo106	POST	pymtjws-yoi8v		2011-08-27	안녕 저 경기 수원시 탑동 탑동에 있다 탑동초등학교 재학중 류선 류선아 입니 입니다 tagexclamation 우리 학교 오다 주셔서 공연 해 하다 주다 하다 해 tagcry 저희 학교 소위 노 학교 로 소문 나 나다 있는데 있는데요 그걸 개버리 개버리고 싶다 싶어 tagcry 저희 추억 남기다 주다 tagexclamation 무한도전공연신청
+mbc_challenge	skrud3494	POST	pymtk3d-nd4q		2011-08-27	지금 무한도전 보는분 미투 tagexclamation 미투 안하다 사람 사다 미워할꺼 댓글 댓글도 하다 사람 완전 아이유 아이유같 반짝빤짝 사람 사다
+mbc_challenge	remember-sun	POST	pymtkna-_3dkm		2011-08-27	내 내다 침대 위 발도장 tagexclamation 내 젤 조아 조아하 조아하는 프로그램 무한도전 시작 기다리다 중 졸리다 보다 보 잠들다 않다 걱정 언능 시작해라무한도전 tagexclamation via 아임in
+mbc_challenge	rnjsgudwns80	POST	pymtm9e-5nl5d		2011-08-27	무한도전이하나마나공연시즌 에서장소말하면온다는데 정말오겠죠tagquestion
+mbc_challenge	judy990402	POST	pymtmop-bki1		2011-08-27	서울반포초등학교 다르다 곳 달리 달다 초등학생 불구 사교육 많다 지쳐 지쳐있는 저희학교 학생 tagcry 방학 제 제대 못놀고 학원 지치다 저희 저희들을 위해 위하다 오다 tagexclamation 무한도전공연신청
+mbc_challenge	dbflaalxn	POST	pymtmrn-_avq3		2011-08-27	무한도전 공연 신청 할까tagquestion tagsmile 솔직 무도멤버 무도멤버들보 지용오빠 봄언니 보고싶어서하는건데 tagsmile 우리학교오라콬 해서 하다 나 나다 맨앞자리 해달라고 해달라고하 보다 꺄아 생각 황홀 ㄹㄹㄹ 무한도전공연신청하고싶은데쪽팔려tagsmile
+mbc_challenge	gashin0607	POST	pymtmsq-_m7wx		2011-08-27	서울태랑중학교 tagexclamation 축제좀 구제해주십시 tagexclamation 어서어서어서 tagexclamation 저희학교학생 한마음 한뜻 한뜻으 무한도전 기다리고 tagexclamation 웰컴웰컴 tagexclamation 여러분 복사 올립시 올립시다 올립시 올립시다 tagexclamation
+mbc_challenge	o1oabc593	POST	pymto7a-yrfe_		2011-08-27	서울반포초등학교 졸업을압두고 학생 좋은추억만들어주셨으면 좋다 현장학습 수련회 체험활동 저희학년 제외 제외되거 안좋은곳 안좋은곳으 다녀오다 많이 속상해하고 초등학교 졸업하기전 좋은추억하 좋은추억 무한도전 만들어주thㅔ 만들어주thㅔ요 tagexclamation 무한도전공연신청 싸이님 tagexclamation 반포초 하셔야죵 tagexclamation tagsmile 반포나오셨잖아요 tagexclamation tagsmile 겨땀만세 tagexclamation
+mbc_challenge	onoyoko	POST	pymtori-_4p		2011-08-27	무한도전 tivizen 바라다 바람 날씨 조오오타
+mbc_challenge	dragonfam3	POST	pymtp1l-v0t9		2011-08-27	무한도전 공연신청 안녕 초 여학생 tagexclamation 저 대전봉산초등학교 다니다 월 일 개학 새학기 열씨미 시작할수 있다 무한도전 오다 tagexclamation 유재석아저씨 박명수아저씨 노홍철아저씨 하하아저씨 정형돈아저씨 정준하아저씨 tagexclamation 오다 tagexclamation 무도홧팅 무한도전공연신청 무도 영원하랏 tagexclamation 퐈 퐈이 와주thㅔ 와주thㅔ요 tagexclamation tagsmile
+mbc_challenge	cktnals1224	POST	pymtpp_-y5sxq		2011-08-27	아 무한도전 공연 송현여중오면 송현여 송현여고 까다 덤 볼 보다 있다 tagsmile 축제 때 오시면 감사 받들다 tagsmile 무한도전공연신청
+mbc_challenge	13487	POST	pymtp_3-cnbk		2011-08-27	될지 될지는 모르겟는데 우선 tagsmile 경기 광명시 하안동 하안동에 있다 하안중학교 학년 반 와주세욧 tagexclamation 무한도전공연신청
+mbc_challenge	kdag13	POST	pymtq3g-ja3z		2011-08-27	안녕 경기 부천시 부천시에 있다 상일중학교 입니 입니다 학년 학생 졸업여행 가지 가다 못하다 못 축제 못하다 졸업하기전 좋은추억 만들다 tagexclamation 무한도전공연신청
+mbc_challenge	blueinday	POST	pymtqqs-yqra1		2011-08-27	치과 근무 있다 모 직장인 힘들다 늘다 직장생활 하잖아 하잖아요 반복 생활 이벤트 선물 무도 오신다면 저희 직원 환자분 정말좋아할꺼예 노홍철씨 노홍철씨가 좋아하다 미녀 치위생사도있어요tagsmile 수원시인계동 갤러리아치과예 무한도전공연신청
+mbc_challenge	sis5991	POST	pymtr2u-5srmj		2011-08-27	무한도전 공연신청 제주도 제주도도 돼 돼나 돼나요 tagcry tagquestion 되다 표선중학교와서 공연 tagexclamation 제주도 제주도는 연애 기회가자주없잖아요 tagcry 무한도전공연신청
+mbc_challenge	tree1589	POST	pymtrk2-538d		2011-08-27	서울 양천구 목운중학교 오다 tagexclamation 초등학교 붙다 있다 더많 더많이 즐길수 있을거에 있을거에요 무도 제일 제 잘나가다 무한도전공연신청
+mbc_challenge	ghfkddl1105	POST	pymtrui-_rs5z		2011-08-27	안녕 중 여자 tagexclamation 올해 중학교 입학 싱숭생숭 마음 없다 않다 tagexclamation 무한도전 맴버 너무너무 사랑 tagsmile tagexclamation 얼마 눈 띄일지 띄일지는 모르다 경기 고양시 일산서구에있는 발산중학교로꼮 tagcry 오다 tagexclamation tagexclamation 무한도전공연신청 연예인 연예 테스트 길오빠 길오빠랑 성격 잘맞는다 잘맞는다고 나왔다 나왔다요 s s
+mbc_challenge	malsuk4708	POST	pymts5x-_gx4c		2011-08-27	오다 우리오빠 컴 컴으 오늘 방송 무한도전 보고 대단타
+mbc_challenge	1212_3434	POST	pymtsm9-_zw4b		2011-08-27	안녕하세욯핳시간안될때빼고매주무한도전을보고있는무한도전애청자 안녕하세욯핳시간안될때빼고매주무한도전을보고있는무한도전애청자입니 안녕하세욯핳시간안될때빼고매주무한도전을보고있는무한도전애청자입니다 tagexclamation 즐거운추억을만들고싶ㅍ어 tagexclamation 부산상당중학교에꼭꼮꼮꼮 오다 tagcry 부탁 tagexclamation 무한도전공연신청
+mbc_challenge	jelly126	POST	pymtt0x-y7ksk		2011-08-27	무한도전 공연신청 무도 무 완전 좋아해 좋아해여 특 서해안 가요제 때 노래 노랗다 완전좋았어요 gg 처지다 달팽이 스윗콧솔로우 파리돼지앵 센치 센치한 철싸 바닷길 의 노래 좋아하다 우리학교 저 좋아하는사람 많으니깐 많으니깐요 와주세 와주세여 우리학교 인천공항중이에여 tagexclamation 무한도전공연신청
+mbc_challenge	gch08136	POST	pymttc6-yowqp		2011-08-27	무한도전 공연신청 전라 광양시 광양시로 와주세용 학년 무한도전 원해용 무한도전공연신청
+mbc_challenge	rhdwn0339	POST	pymttqe-58jlw		2011-08-27	청주 tagexclamation tagcry 지방이라그런지진짜 연예인보기하늘 별따기예 tagcry 청주사람 무한도전진짜사랑하구 tagexclamation 어느 지역 뒤질꺼 하나도 자랑스런곳 tagcry 오다 tagcry 부탁 tagcry 싸이 싸다 싸 오빠닮은꼴 싸이오빠은근흔한얼굴인데찾기가힘드네 tagsmile 청주꼭오세 tagexclamation taglove 무한도전공연신청
+mbc_challenge	judy990402	POST	pymtub0-bki1		2011-08-27	서울반포초등학교 우리 초등학생 함성 소리 소다 한번 들으시죠tagquestion 무한도전공연신청
+mbc_challenge	thdus2781561	POST	pymtup8-jit8		2011-08-27	특이 하다 현빈 군대 오천 있죠 거기 거다 우리 학교니깐 오천 중학교 오셔서 공연 무한도전공연신청
+mbc_challenge	minbang0531	POST	pymtusz-_sahp		2011-08-27	경기 포천일고등학교 월 일나다 축제를 축제를해 tagexclamation 꼬옥 오다 tagsmile 고등학생 첫 축제 기막히다 즐기다 싶습니당 tagexclamation 무한도전공연신청
+mbc_challenge	hart0822	POST	pymtwcp-rg7y		2011-08-27	안녕 대구 북구 동변동 동변중 중 여학생 저희학교 축제 열리다 해서 하다 그리다 중간고사때문 요새 분위기 썰렁 저희 학교 오셔서 분위기 되돌려주시구 축제분위기좀 띄우다 tagexclamation 부탁 무한도전공연신청
+mbc_challenge	newmay	POST	pymtwj8-n5z		2011-08-27	고 서울세화여고에오세 tagexclamation 저희 학년 재작년 인플루덕분 축제 몬 몬하 tagcry 작년 엄격 선도덕 선도덕에 삘삘 tagcry 제발 졸업전 학교 즐거운추억 고 스트레스 날려버릴 있다 도와주다 tagexclamation 무한도전공연신청
+mbc_challenge	korea7047	POST	pymtwmz-xymo		2011-08-27	무한도전 내 내다 부탁 받아조 tagcry 제발
+mbc_challenge	snow7413	POST	pymtwpb-yz_4c		2011-08-27	무한도전 공연신청 안녕 tagsmile 저 대구성남초등학교 다니다 저희 학교 이번 이번에 공사 하거든 하거든요 그런지 학년 새 새다 학교 공부 못해보구 수학여행두 제 제대 못 가다 왔거든 왔거든요 비 많다 오구 당일치기 갔다오다 오다 너무너무 좋겠네요tagsmile tagsmile
+mbc_challenge	zzia99	POST	pymtwrb-_1cqn		2011-08-27	아 무한도전 보다 tagsmile 정형돈 귀엽다 tagsmile
+mbc_challenge	fly8108	POST	pymtxl7-yb_n0		2011-08-27	우 이거 진짜 해요tagquestion 오올 tagexclamation 무도 무 팬 tagsmile 이거 진짜 찾다 tagsmile 무한도전 화이팅 tagexclamation tagsmile 무한도전 화이팅 tagexclamation 무한도전 forever tagexclamation
+mbc_challenge	yg3965	POST	pymtz0p-53ymb		2011-08-27	살중학생 무한도전이너무 좋습 좋습나 좋습나다 tagexclamation 꼭한번저희대현중학교에와주세 tagexclamation 울산이예 울산이예요
+mbc_challenge	zldydp	POST	pymtzt4-_m1wk		2011-08-27	군산 군산으 오다 제가 제 노래 부를게 부를게요 tagexclamation 박명수씨 tagexclamation 같다 군산사람들끼리 oktagquestion 무한도전공연신청
+mbc_challenge	rlaalwls3178	POST	pymw7dh-_t6ta		2011-08-27	아아아아아ㅏ아아아아앙무한도전보고 tagsmile
+mbc_challenge	vbdf12345678	POST	pymw7oh-5qqaq		2011-08-27	무한도전 메뚜기 누구tagquestion
+mbc_challenge	suvaru908	POST	pymwar_-yyxxh		2011-08-27	느즈막 느즈막히 일어나다 일어 주말오후 난잡 않다 소소 웃다 웃기다 만화책 킥킥거리다 보고 보다 보 무한도전 재방송 끅끅 거리다 거리 웃다 밥 먹었다 이제 커피 한잔 저녁 시원 맥주 한잔 하다 최고 하루 완성 맥주 하실 분 아이유의 손동작 신호 주다 tagexclamation
+mbc_challenge	ac7284	POST	pymwbrm-gtye		2011-08-25	솔직 내 본방 본방으 챙기다 건 거다 걸다 무한도전 궁금 이야기 y 나다 나 가수 다르다 건 거다 걸다 왔다갔다 보다 보
+mbc_challenge	derrida	POST	pymwd0p-8nx8		2011-08-27	being 존재 도전 이란 것 존재 하다 것 이유 되다 그대 도전 나도 나다 나 지금 도전 tagexclamation 하다 무한도전공연신청 삻 삻은 의미 아름 답습니 답습니다
+mbc_challenge	fighting0415	POST	pymwevd-52nva		2011-08-25	무한도전 싸이 싸다 싸 닮은꼴 진짜 닮다 우리학원 선생님 안닮았다고 하시는분 이상한분 tagexclamation 무한도전닮은꼴
+mbc_challenge	fitpro_wjiin	POST	pymwflk-jup2		2011-08-27	bom메이크업실 오늘도어김 신부 꽉차 꽉차있다 무한도전 pd의피앙새 김보미원장을기다리
+mbc_challenge	j100462	POST	pymwh8b-atl6		2011-08-27	오늘 무한도전 소간지님 보다 보 날 나다 tagsmile taglove 본방사수 주말잘보내세요tagsmile
+mbc_challenge	k1120jh	POST	pymwlzc-y60d		2011-08-27	오늘 무한도전 뭐하더라tagquestion tagsmile
+mbc_challenge	jjyyzang	POST	pymwp7_-_3cp7		2011-08-25	무한도전 원본미투
+mbc_challenge	hansulhwa	POST	pymwp8k-b408		2011-08-25	리쌍 완전 멋있다 노래 노랗다 되다 좋다 처음 무한도전 보다 길하다 길 매치 안됬는데 노래 노랗다 부른거 보다 멋있다 아 진짜 노래 노랗다 좋다 박정아 박정아가 반할 반할만하네 리쌍대박
+mbc_challenge	top_hippo	POST	pymwucj-yigov		2011-08-26	아악 tagexclamation 자다깼다잠이들지않아 tagexclamation 두시 두시간이 지나다 안돼겠어 이러면 오늘 미치다 무한도전 해봐야겄다 오늘 무한도전 밤새다 공부햇 tagexclamation 원래 오늘 등산갈라꼬 하다 tagcry
+mbc_challenge	jooean505	POST	pymwug0-yvl7k		2011-08-27	전이만자러갑니 tagsmile 어제 시간자고오늘걸어서무한도전조정찍은곳tagquestion tagexclamation 구경갔다와서피곤 나중에뵈 tagsmile
+mbc_challenge	ksang1101	POST	pymwuvz-_ze45		2011-08-26	하 하다 세 청년 무한도전 애청자 이긴 이긴하지 이긴하지만 이번 사태 저 이렇게 다 올줄 몰랐습니다 이번 이번에 무한도전 하필 싸이 싸다 싸 닮은꼴 찾다 다 하셔서 저 다들 나가다 성화네 성화네요 여러분 싸이 싸다 싸 닮았나요tagquestion tagcry tagcry 무한도전닮은꼴
+mbc_challenge	gpdus5752	POST	pymww2j-_zyb9		2011-08-27	오늘 연예인 연예 생일속보 tagexclamation 오늘 무한도전박명수씨 생일 생 이라고 이라고합니 이라고합니다
+mbc_challenge	ryu_un3012	POST	pymwxhd-_zyve		2011-08-27	무한도전 오프닝 바꼈네요 tagexclamation 우왕 tagsmile 가 테두리 멋지긔 taglove
+mbc_challenge	ksh0295	POST	pymwxl3-yyngk		2011-08-27	으 무한도전 사랑해욥 tagexclamation 소지섭 또 나오다 나 tagexclamation 꺄악 tagexclamation 악악악 tagexclamation 흑흑 tagcry tagcry 정신줄 놓기직전
+mbc_challenge	onceagins	POST	pymwxry-5vv5v		2011-08-27	은평문화예술회관 추천 은평구 모 주민 무한도전 즐기다 좋다 bulepills naver com 무한도전공연신청
+mbc_challenge	kdkk0403	COMMENT	pym87uz-r2x9	c_v36z8-ym87uz-r2x9	2011-08-27	무한도전이어 무한도전 영원하랐 tagexclamation
+mbc_challenge	al-zl	COMMENT	pymon17-0ff6	c_4ddw2-ymon17-0ff6	2011-08-25	tagsmile 모호한도전
+mbc_challenge	cgus00	COMMENT	pymon17-0ff6	c_v43wv-ymon17-0ff6	2011-08-25	미투했어요아스크림언제주나
+mbc_challenge	minidoll	COMMENT	pymon17-0ff6	c_vl521-ymon17-0ff6	2011-08-25	순정 다이어리 샤방샤방 나도 나다 나 샤방
+mbc_challenge	rhdwn9804	COMMENT	pymon17-0ff6	c_vlys2-ymon17-0ff6	2011-08-25	더워요오 tagcry
+mbc_challenge	rarika1	COMMENT	pymon17-0ff6	c_vv767-ymon17-0ff6	2011-08-25	맘에드는데 맘에드는데요 다이어리를워낙 좋아하다
+mbc_challenge	aaskul	COMMENT	pymon17-0ff6	c_vvxzt-ymon17-0ff6	2011-08-25	tagsmile 순정 귀엽네욤 tagsmile
+mbc_challenge	kyouj0130	COMMENT	pymon17-0ff6	c_vxrpg-ymon17-0ff6	2011-08-25	순정 이름 이르다 귀여워요tagsmile
