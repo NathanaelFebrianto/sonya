@@ -117,7 +117,11 @@ public class MorphAnalyzerTest extends TestCase {
 	public void testGetWordEntry() throws Exception {
 		String s = "밤하늘";
 		WordEntry we = DictionaryUtil.getNoun(s);
-		System.out.println(we.getWord());
+		if (we == null) {
+			System.out.println("Dictionary for '" + s + "' is null");
+		} else {
+			System.out.println(we.getWord());
+		}
 	}
 	
 	/**

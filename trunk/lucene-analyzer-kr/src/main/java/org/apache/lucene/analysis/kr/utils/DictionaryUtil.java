@@ -67,7 +67,7 @@ public class DictionaryUtil {
 			if(infos.length!=2) continue;
 			infos[1] = infos[1].trim();
 			if(infos[1].length()==6) infos[1] = infos[1].substring(0,5)+"000"+infos[1].substring(5);
-			
+
 			WordEntry entry = new WordEntry(infos[0].trim(),infos[1].trim().toCharArray());
 			dictionary.add(entry.getWord(), entry);
 		}
