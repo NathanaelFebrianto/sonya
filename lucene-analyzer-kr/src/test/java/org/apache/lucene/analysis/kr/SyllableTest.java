@@ -56,7 +56,7 @@ public class SyllableTest extends TestCase {
 //		}
 
 
-		List<AnalysisOutput> list = wsAnal.analyze(strs[22]);
+		List<AnalysisOutput> list = wsAnal.analyze(strs[21]);
 
 		for(AnalysisOutput o: list) {
 			System.out.println(o.getSource()+"<"+o+"("+o.getScore()+")> ");
