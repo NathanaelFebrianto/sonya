@@ -3,8 +3,6 @@ package com.nhn.socialbuzz.me2day.model;
 import java.io.Serializable;
 import java.util.Date;
 
-import org.apache.mahout.df.data.Data;
-
 /**
  * Data model for a metoo.
  * 
@@ -20,7 +18,7 @@ public class Metoo implements Serializable {
 	private String authorMe2dayHome;
 	private Date publishDate;
 	private Date registerDate;
-	private Data updateDate;
+	private Date updateDate;
 	
 	private Date publishStartDate;
 	private Date publishEndDate;
@@ -49,7 +47,7 @@ public class Metoo implements Serializable {
 	public Date getRegisterDate() {
 		return registerDate;
 	}
-	public Data getUpdateDate() {
+	public Date getUpdateDate() {
 		return updateDate;
 	}
 	public Date getPublishStartDate() {
@@ -82,7 +80,7 @@ public class Metoo implements Serializable {
 	public void setRegisterDate(Date registerDate) {
 		this.registerDate = registerDate;
 	}
-	public void setUpdateDate(Data updateDate) {
+	public void setUpdateDate(Date updateDate) {
 		this.updateDate = updateDate;
 	}
 	public void setPublishStartDate(Date publishStartDate) {
