@@ -6,8 +6,6 @@ import java.util.List;
 import java.util.StringTokenizer;
 import java.util.Vector;
 
-import org.apache.mahout.df.data.Data;
-
 /**
  * Data model for a tv program.
  * 
@@ -32,7 +30,7 @@ public class TvProgram implements Serializable {
 	private String homepage;
 	private String searchKeywords;
 	private Date registerDate;
-	private Data updateDate;
+	private Date updateDate;
 	
 	public List<String> extractSearchKeywords() {
 		
@@ -117,7 +115,7 @@ public class TvProgram implements Serializable {
 		return registerDate;
 	}
 
-	public Data getUpdateDate() {
+	public Date getUpdateDate() {
 		return updateDate;
 	}
 
@@ -189,7 +187,7 @@ public class TvProgram implements Serializable {
 		this.registerDate = registerDate;
 	}
 
-	public void setUpdateDate(Data updateDate) {
+	public void setUpdateDate(Date updateDate) {
 		this.updateDate = updateDate;
 	}
 

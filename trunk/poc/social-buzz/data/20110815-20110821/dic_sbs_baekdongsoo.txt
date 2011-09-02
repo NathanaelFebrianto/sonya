@@ -2,8 +2,8 @@ articleview
 avi
 birthday
 blogsticker
-bmk
 bmk가부른거
+bmk
 capture
 co
 dailymusic

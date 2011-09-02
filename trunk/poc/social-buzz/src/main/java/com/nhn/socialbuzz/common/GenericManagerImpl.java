@@ -3,6 +3,7 @@ package com.nhn.socialbuzz.common;
 import org.apache.ibatis.session.SqlSessionFactory;
 
 
+
 /**
  * A implementation for generic manager.
  * 

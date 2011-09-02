@@ -32,9 +32,9 @@ kr
 lhj
 life
 listening
-lt
 lte폰
 lte폰을
+lt
 mbc
 naver
 net
@@ -44,8 +44,8 @@ ost
 ost중
 player
 princess
-sbs아니야tagquestion
 sbs
+sbs아니야tagquestion
 shineeworld
 swf
 tagquestionc
@@ -53,9 +53,9 @@ tagsmile꺄
 tbworld
 topstarnews
 ttalk
-tv
 tv로
 tv로도
+tv
 tv앞
 tv앞으
 t토크
