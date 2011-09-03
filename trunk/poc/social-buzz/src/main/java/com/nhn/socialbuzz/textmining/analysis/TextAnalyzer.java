@@ -6,9 +6,9 @@ import java.util.List;
 import java.util.Set;
 import java.util.Vector;
 
-import org.apache.lucene.analysis.StopAnalyzer;
 import org.apache.lucene.analysis.StopFilter;
 import org.apache.lucene.analysis.TokenStream;
+import org.apache.lucene.analysis.kr.KoreanAnalyzer;
 import org.apache.lucene.analysis.kr.morph.AnalysisOutput;
 import org.apache.lucene.analysis.kr.morph.MorphAnalyzer;
 import org.apache.lucene.analysis.tokenattributes.OffsetAttribute;
@@ -37,7 +37,9 @@ public class TextAnalyzer {
 	
 	private MorphAnalyzer morphAnalyzer;
 	
-	private StopAnalyzer stopAnalyzer;
+	//private StopAnalyzer stopAnalyzer;
+	
+	private KoreanAnalyzer koreanAnalyzer;
 	
 	/**
 	 * Creates a text analyzer.
@@ -51,8 +53,11 @@ public class TextAnalyzer {
 		stopSet.addAll(StopFilter.makeStopSet(Version.LUCENE_CURRENT, KOR_STOP_WORDS, true));
 		
 		morphAnalyzer = new MorphAnalyzer();		
-		stopAnalyzer = new StopAnalyzer(Version.LUCENE_CURRENT, stopSet);
-		System.out.println("stop words == " + stopAnalyzer.getStopwordSet());
+		//stopAnalyzer = new StopAnalyzer(Version.LUCENE_CURRENT, stopSet);
+		koreanAnalyzer = new KoreanAnalyzer(Version.LUCENE_CURRENT, stopSet);
+		koreanAnalyzer.setBigrammable(false);
+		koreanAnalyzer.setHasOrigin(false);
+		System.out.println("stop words == " + koreanAnalyzer.getStopwordSet());
 	}
 
 	/**
@@ -77,7 +82,7 @@ public class TextAnalyzer {
 		
 		Vector<String> terms = new Vector<String>();
 		
-		TokenStream stream = stopAnalyzer.tokenStream("k", new StringReader(text));
+		TokenStream stream = koreanAnalyzer.tokenStream("k", new StringReader(text));
 
 		TermAttribute termAttr = stream.getAttribute(TermAttribute.class); 		
         OffsetAttribute offSetAttr = stream.getAttribute(OffsetAttribute.class);

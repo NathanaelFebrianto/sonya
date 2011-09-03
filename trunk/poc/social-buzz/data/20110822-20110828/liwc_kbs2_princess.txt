@@ -257,7 +257,7 @@ kbs2_princess	sjm89426	POST	pymjqj0-agt6		2011-08-24	HEAR	1.0	느끼다
 kbs2_princess	dbgusgk9	POST	pymjrd0-_sqoe		2011-08-24	PRESENT	1.0	오늘
 kbs2_princess	dbgusgk9	POST	pymjrd0-_sqoe		2011-08-24	FUTURE	1.0	내일
 kbs2_princess	dbgusgk9	POST	pymjrd0-_sqoe		2011-08-24	EXCLAMMARK	1.0	tagexclamation
-kbs2_princess	jeniper123	POST	pymjrjc-y1_js		2011-08-24	PRESENT	1.0	오늘
+kbs2_princess	jeniper123	POST	pymjrjc-y1_js		2011-08-24	PRESENT	2.0	오늘10 오늘
 kbs2_princess	jeniper123	POST	pymjrjc-y1_js		2011-08-24	FUTURE	1.0	내일
 kbs2_princess	jeniper123	POST	pymjrjc-y1_js		2011-08-24	EXCLAMMARK	1.0	tagexclamation
 kbs2_princess	jeniper123	POST	pymjrjc-y1_js		2011-08-24	SMILEMARK	1.0	tagsmile
@@ -307,7 +307,7 @@ kbs2_princess	skesw	POST	pymmgn8-ydrew		2011-08-24	EXCLAMMARK	1.0	tagexclamation
 kbs2_princess	skesw	POST	pymmgn8-ydrew		2011-08-24	SMILEMARK	1.0	tagsmile
 kbs2_princess	xxx516	POST	pymmi43-5gx_j		2011-08-27	PRESENT	1.0	오늘
 kbs2_princess	xxx516	POST	pymmi43-5gx_j		2011-08-27	EXCLAMMARK	1.0	tagexclamation
-kbs2_princess	xxx516	POST	pymmi43-5gx_j		2011-08-27	SMILEMARK	2.0	흐흐 tagsmile
+kbs2_princess	xxx516	POST	pymmi43-5gx_j		2011-08-27	SMILEMARK	1.0	tagsmile
 kbs2_princess	xxx516	POST	pymmi43-5gx_j		2011-08-27	CRYMARK	1.0	tagcry
 kbs2_princess	xxx516	POST	pymmi43-5gx_j		2011-08-27	SEE	1.0	보다
 kbs2_princess	ashrox	POST	pymmlcd-5wf9f		2011-08-24	PRESENT	1.0	오늘
@@ -404,7 +404,7 @@ kbs2_princess	jssun94	POST	pympxud-yfe9i		2011-08-25	QUANTIFIER	1.0	조금
 kbs2_princess	wapple2	POST	pympzvr-_rfh5		2011-08-24	PRESENT	1.0	오늘
 kbs2_princess	sul3893	POST	pymqc1x-yaczt		2011-08-27	SEE	1.0	보다
 kbs2_princess	jimin7055	POST	pymqr8s-_ypf9		2011-08-27	PRESENT	1.0	요즘
-kbs2_princess	purei28	POST	pymquev-kyqd		2011-08-27	PAST	1.0	지난주
+kbs2_princess	purei28	POST	pymquev-kyqd		2011-08-27	PAST	1.0	지난주9
 kbs2_princess	purei28	POST	pymquev-kyqd		2011-08-27	SMILEMARK	1.0	크
 kbs2_princess	purei28	POST	pymquev-kyqd		2011-08-27	CRYMARK	2.0	tagcry 흑
 kbs2_princess	purei28	POST	pymquev-kyqd		2011-08-27	SEE	1.0	보다
@@ -442,7 +442,6 @@ kbs2_princess	sayis48	POST	pymrcnq-jf0c		2011-08-24	PRESENT	1.0	오늘
 kbs2_princess	sayis48	POST	pymrcnq-jf0c		2011-08-24	FUTURE	1.0	내일
 kbs2_princess	sayis48	POST	pymrcnq-jf0c		2011-08-24	NEGATIVE	1.0	싫다
 kbs2_princess	mople	POST	pymrdcv-ybyr8		2011-08-24	PRESENT	1.0	오늘
-kbs2_princess	mople	POST	pymrdcv-ybyr8		2011-08-24	SEE	1.0	보다
 kbs2_princess	zzz-_-1226	POST	pymrdx3-5meou		2011-08-25	EXCLAMMARK	1.0	tagexclamation
 kbs2_princess	rladbsal0707	POST	pymred1-xd0s		2011-08-25	PRESENT	1.0	오늘
 kbs2_princess	rladbsal0707	POST	pymred1-xd0s		2011-08-25	SMILEMARK	1.0	tagsmile

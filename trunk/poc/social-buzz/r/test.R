@@ -7,9 +7,25 @@ library(tm)
 library(Rstem)
 library(Snowball)
 
-Sys.setlocale('LC_ALL','C') 
+docs <- c("aa bb ccc?", "eee ff ggg hh iii")
 
-texts <- c("나는 정말 행복합니다. 너는 어때?")
+v <- VectorSource(docs);
+c <- Corpus(v)
+c <- tm_map(c, stemDocument)
+
+# make each letter lowercase
+c <- tm_map(c, tolower)
+
+# remove punctuation
+c <- tm_map(c, removePunctuation)	
+
+mydata.dtm <- DocumentTermMatrix(c,
+		control = list(weighting = weightTf, minWordLength = 1,
+				stopwords = TRUE))
+print(mydata.dtm)
+
+dict <- Dictionary(mydata.dtm)
+
 
 data("acq")
 acq[[10]]
