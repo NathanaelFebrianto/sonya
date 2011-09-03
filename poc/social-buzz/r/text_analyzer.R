@@ -3,7 +3,7 @@
 # Author: Younggue Bae
 ###############################################################################
 
-setwd("D:/workspace/social-buzz/data")
+setwd("D:/dev/workspace/social-buzz/data")
 
 library(tm)
 
@@ -257,9 +257,9 @@ programs <- c(
 
 for (program in programs) {
 	print(program)
-	AnalyzeTermFrequency(program, "./20110815-20110821/", paste("src_", program, ".txt", sep = ""))
+#	AnalyzeTermFrequency(program, "./20110815-20110821/", paste("src_", program, ".txt", sep = ""))
 	AnalyzeTermFrequency(program, "./20110822-20110828/", paste("src_", program, ".txt", sep = ""))
-	AnalyzeSentimentTerms(program, "./20110815-20110821/", paste("liwc_", program, ".txt", sep = ""))
+#	AnalyzeSentimentTerms(program, "./20110815-20110821/", paste("liwc_", program, ".txt", sep = ""))
 	AnalyzeSentimentTerms(program, "./20110822-20110828/", paste("liwc_", program, ".txt", sep = ""))
 }
 
