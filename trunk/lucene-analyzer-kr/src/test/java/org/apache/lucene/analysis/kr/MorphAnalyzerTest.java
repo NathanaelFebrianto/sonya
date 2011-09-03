@@ -1,17 +1,10 @@
 package org.apache.lucene.analysis.kr;
 
-import java.io.File;
 import java.io.StringReader;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Iterator;
 import java.util.List;
-import java.util.Map;
 
 import junit.framework.TestCase;
 
-import org.apache.commons.io.FileUtils;
 import org.apache.lucene.analysis.TokenStream;
 import org.apache.lucene.analysis.kr.morph.AnalysisOutput;
 import org.apache.lucene.analysis.kr.morph.MorphAnalyzer;
@@ -20,6 +13,7 @@ import org.apache.lucene.analysis.kr.morph.WordEntry;
 import org.apache.lucene.analysis.kr.utils.DictionaryUtil;
 import org.apache.lucene.analysis.tokenattributes.OffsetAttribute;
 import org.apache.lucene.analysis.tokenattributes.TermAttribute;
+import org.apache.lucene.util.Version;
 
 public class MorphAnalyzerTest extends TestCase {
 
@@ -87,7 +81,7 @@ public class MorphAnalyzerTest extends TestCase {
 		
 		long start = System.currentTimeMillis();
 		
-		KoreanAnalyzer analyzer = new KoreanAnalyzer();
+		KoreanAnalyzer analyzer = new KoreanAnalyzer(Version.LUCENE_33);
 		
 		TokenStream stream = analyzer.tokenStream("k", new StringReader(source));
 		TermAttribute termAttr = stream.getAttribute(TermAttribute.class); 		
@@ -129,6 +123,7 @@ public class MorphAnalyzerTest extends TestCase {
 	 * 
 	 * @throws Exception
 	 */
+	/*
 	public void testYongonAnalysis() throws Exception {
 		
 		String fname = "data/용언_상세.txt";
@@ -195,5 +190,6 @@ public class MorphAnalyzerTest extends TestCase {
 		Collections.sort(outputs);
 		FileUtils.writeLines(new File("data/all.txt"), outputs);
 	}
+	*/
 }
 
