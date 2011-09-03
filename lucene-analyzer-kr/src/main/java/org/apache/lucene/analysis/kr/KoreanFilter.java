@@ -34,10 +34,15 @@ import org.apache.lucene.analysis.kr.morph.MorphException;
 import org.apache.lucene.analysis.kr.morph.PatternConstants;
 import org.apache.lucene.analysis.kr.morph.WordSpaceAnalyzer;
 import org.apache.lucene.analysis.kr.utils.DictionaryUtil;
+import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 import org.apache.lucene.analysis.tokenattributes.OffsetAttribute;
 import org.apache.lucene.analysis.tokenattributes.TermAttribute;
+import org.apache.lucene.analysis.tokenattributes.TypeAttribute;
+import org.apache.lucene.util.Version;
 
 public class KoreanFilter extends TokenFilter {
+    	
+	private final Version matchVersion;
 
 	private LinkedList<Token> koreanQueue;
 	
@@ -53,15 +58,24 @@ public class KoreanFilter extends TokenFilter {
 	
 	private static final String APOSTROPHE_TYPE = KoreanTokenizerImpl.TOKEN_TYPES[KoreanTokenizerImpl.APOSTROPHE];
 	private static final String ACRONYM_TYPE = KoreanTokenizerImpl.TOKEN_TYPES[KoreanTokenizerImpl.ACRONYM];
-	  
+	 
+	// this filters uses attribute type
+	private final TypeAttribute typeAtt = addAttribute(TypeAttribute.class);
+	private final CharTermAttribute termAtt = addAttribute(CharTermAttribute.class);
+	
 	public KoreanFilter(TokenStream input) {
-		super(input);
+		this(Version.LUCENE_33, input);
 		koreanQueue =  new LinkedList();
 		cjQueue =  new LinkedList();
 		morph = new MorphAnalyzer();
 		wsAnal = new WordSpaceAnalyzer();
 	}
 
+	public KoreanFilter(Version matchVersion, TokenStream input) {
+		super(input);
+		this.matchVersion = matchVersion;
+	}
+	
 	/**
 	 * 
 	 * @param input	input token stream
@@ -77,14 +91,42 @@ public class KoreanFilter extends TokenFilter {
 		hasOrigin = has;
 	}
 	
-	/**
-	 * Appended by Louie.
-	 * 
-	 * @return
-	 * @throws IOException
-	 */
-	public boolean incrementToken() throws IOException {
-	   return input.incrementToken();
+	@Override
+	public final boolean incrementToken() throws IOException {
+		if (matchVersion.onOrAfter(Version.LUCENE_31))
+			return input.incrementToken(); // TODO: add some niceties for the
+											// new grammar
+		else
+			return incrementTokenClassic();
+	}
+
+	public final boolean incrementTokenClassic() throws IOException {
+		if (!input.incrementToken()) {
+			return false;
+		}
+
+		final char[] buffer = termAtt.buffer();
+		final int bufferLength = termAtt.length();
+		final String type = typeAtt.type();
+
+		if (type == APOSTROPHE_TYPE
+				&& // remove 's
+				bufferLength >= 2
+				&& buffer[bufferLength - 2] == '\''
+				&& (buffer[bufferLength - 1] == 's' || buffer[bufferLength - 1] == 'S')) {
+			// Strip last 2 characters off
+			termAtt.setLength(bufferLength - 2);
+		} else if (type == ACRONYM_TYPE) { // remove dots
+			int upto = 0;
+			for (int i = 0; i < bufferLength; i++) {
+				char c = buffer[i];
+				if (c != '.')
+					buffer[upto++] = c;
+			}
+			termAtt.setLength(upto);
+		}
+
+		return true;
 	}
 	
 	/**
@@ -134,7 +176,7 @@ public class KoreanFilter extends TokenFilter {
 		try {
 		    while(input.incrementToken()) {
 
-		    	if(result.type().equals(KoreanTokenizer.TOKEN_TYPES[KoreanTokenizer.KOROREAN])) {		    		
+		    	if(result.type().equals(KoreanTokenizer.TOKEN_TYPES[KoreanTokenizer.HANGUL])) {		    		
 		    		result = analysisKorean(result, skippedPositions);
 		    	} else if(result.type().equals(KoreanTokenizer.TOKEN_TYPES[KoreanTokenizer.CJ])) {
 		    		result = analysisCJ(result, skippedPositions);
@@ -208,7 +250,7 @@ public class KoreanFilter extends TokenFilter {
 			Token t = new Token(text,
 					token.startOffset()+(index!=-1?index:0),
 					index!=-1?token.startOffset()+index+text.length():token.endOffset(),
-					KoreanTokenizer.TOKEN_TYPES[KoreanTokenizer.KOROREAN]);
+					KoreanTokenizer.TOKEN_TYPES[KoreanTokenizer.HANGUL]);
 			if(i==0) t.setPositionIncrement(token.getPositionIncrement()+skipinc);
 			else t.setPositionIncrement(0);
 			koreanQueue.add(t);
