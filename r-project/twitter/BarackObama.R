@@ -21,7 +21,7 @@ Zscore <- function (x) {
 ###
 # Plot time series of sentiment and gallup data with one graph.
 ###
-PlotTimeseriesSentiment <- function () {	
+PlotSentiment <- function () {	
 	
 	# Compute the largest y value used in the data (or we could just use range again)
 	#max_y <- max(df_obama$gallup_approve)
@@ -34,7 +34,7 @@ PlotTimeseriesSentiment <- function () {
 	# Turn off axes and annotations (axis labels) so we can 
 	# specify them ourself
 	plot(df_obama$gallup_approve, type = "l", col = plot_colors[1], lty = "dashed",
-			ylim = c(0, max_y), axes = FALSE, ann = FALSE)
+			ylim = c(0, max_y), axes = FALSE, ann = FALSE, lwd  = 2)
 	
 	# Make x axis
 	axis(1, at = 1:length(df_obama$date), lab = df_obama$date)
@@ -48,15 +48,15 @@ PlotTimeseriesSentiment <- function () {
 	
 	# Graph line of gallup disapprave
 	lines(df_obama$gallup_disapprove, type = "l", pch = 22, lty = "dashed", 
-			col = plot_colors[2])
+			col = plot_colors[2], lwd  = 2)
 	
 	# Graph line of positve tweet rate
 	lines(df_obama$positive_tweet_rate, type = "l", pch = 24, lty = "solid", 
-			col = plot_colors[3])
+			col = plot_colors[3], lwd  = 2)
 	
 	# Graph line of negative tweet rate
 	lines(df_obama$negative_tweet_rate, type = "l", pch = 24, lty = "solid", 
-			col = plot_colors[4])
+			col = plot_colors[4], lwd  = 2)
 	
 	# Create a title with a red, bold/italic font
 	title(main = "Gallup vs. Twitter for BarackObama", col.main = "black", font.main = 4)
@@ -71,13 +71,13 @@ PlotTimeseriesSentiment <- function () {
 	legend(1, max_y, 
 			c("Approve", "Disapprove", "Positive", "Negative"), 
 			cex = 0.8, col = plot_colors, 
-			pch = 21:24, lty = c("dashed", "dashed", "solid", "solid"))
+			pch = 21:24, lty = c("dashed", "dashed", "solid", "solid"), lwd =2)
 }
 
 ###
 # Plot time series of sentiment and gallup data with two graphs.
 ###
-PlotTimeseriesSentiment1 <- function () {
+PlotSentiment1 <- function () {
 	
 	# Split the screen into two rows and one column, defining screens 1 and 2.	
 	split.screen(figs = c(2, 1))	
@@ -95,7 +95,7 @@ PlotTimeseriesSentiment1 <- function () {
 	# Turn off axes and annotations (axis labels) so we can 
 	# specify them ourself
 	plot(df_obama$gallup_approve, type = "l", col = plot_colors[1], lty = "solid",
-			ylim = c(min_y, max_y), axes = FALSE, ann = FALSE)
+			ylim = c(min_y, max_y), axes = FALSE, ann = FALSE, lwd  = 2)
 	
 	# Make x axis
 	axis(1, at = 1:length(df_obama$date), lab = df_obama$date)
@@ -109,7 +109,7 @@ PlotTimeseriesSentiment1 <- function () {
 	
 	# Graph line of gallup disapprave
 	lines(df_obama$gallup_disapprove, type = "l", pch = 22, lty = "solid", 
-			col = plot_colors[2])
+			col = plot_colors[2], lwd  = 2)
 	
 	# Create a title with a red, bold/italic font
 	title(main = "Gallup for Obama", col.main = "black", font.main = 4)
@@ -124,7 +124,7 @@ PlotTimeseriesSentiment1 <- function () {
 	legend(1, max_y, 
 			c("Approve", "Disapprove"), 
 			cex = 0.8, col = plot_colors, 
-			pch = 21:22, lty = c("dashed", "dashed"))
+			pch = 21:22, lty = c("solid", "solid"), lwd =2)
 	
 	###################################################
 	screen(2)
@@ -136,7 +136,7 @@ PlotTimeseriesSentiment1 <- function () {
 	# Turn off axes and annotations (axis labels) so we can 
 	# specify them ourself
 	plot(df_obama$positive_tweet_rate, type = "l", col = plot_colors[1], lty = "solid",
-			ylim = c(min_y, max_y), axes = FALSE, ann = FALSE)
+			ylim = c(min_y, max_y), axes = FALSE, ann = FALSE, lwd  = 2)
 	
 	# Make x axis
 	axis(1, at = 1:length(df_obama$date), lab = df_obama$date)
@@ -150,7 +150,7 @@ PlotTimeseriesSentiment1 <- function () {
 	
 	# Graph line of negative tweet rate
 	lines(df_obama$negative_tweet_rate, type = "l", pch = 22, lty = "solid", 
-			col = plot_colors[2])
+			col = plot_colors[2], lwd  = 2)
 	
 	# Create a title with a red, bold/italic font
 	title(main = "Twitter Sentiment for BarackObama", col.main = "black", font.main = 4)
@@ -165,13 +165,13 @@ PlotTimeseriesSentiment1 <- function () {
 	legend(1, max_y, 
 			c("Positive", "Negative"), 
 			cex = 0.8, col = plot_colors, 
-			pch = 21:22, lty = c("solid", "solid"))
+			pch = 21:22, lty = c("solid", "solid"), lwd =2)
 }
 
 ###
 # Plot time series of positive sentiment and gallup data by zscore.
 ###
-PlotTimeseriesZscorePositive <- function () {	
+PlotPositiveZscore <- function () {	
 	
 	# Compute the largest y value used in the data (or we could just use range again)
 	max_y <- max(Zscore(df_obama$gallup_approve), 
@@ -222,7 +222,7 @@ PlotTimeseriesZscorePositive <- function () {
 ###
 # Plot time series of negative sentiment and gallup data by zscore.
 ###
-PlotTimeseriesZscoreNegative <- function () {	
+PlotNegativeZscore <- function () {	
 	
 	# Compute the largest y value used in the data (or we could just use range again)
 	max_y <- max(Zscore(df_obama$gallup_disapprove), 
@@ -273,7 +273,7 @@ PlotTimeseriesZscoreNegative <- function () {
 ###
 # Plot time series of gap of sentiment and gallup data by zscore.
 ###
-PlotTimeseriesZscoreGap <- function () {	
+PlotGapZscore <- function () {	
 	
 	# Compute the largest y value used in the data (or we could just use range again)
 	max_y <- max(Zscore(df_obama$gallup_approve - df_obama$gallup_disapprove), 
@@ -499,29 +499,9 @@ AnalyzeCorrelation <- function () {
 ###
 # Test
 ###
-PlotTimeseriesSentiment()
-PlotTimeseriesSentiment1()
-PlotTimeseriesZscorePositive()
-PlotTimeseriesZscoreNegative()
-PlotTimeseriesZscoreGap()
-
-#5/13, 5/20, 5/24, 6/29, 6/30, 7/4, 7/7, 7/8 데이터 이상치 데이터 없는지 확인 
-# SELECT * FROM tweet WHERE target_user = "BarackObama" AND create_date = "2011-06-30 00:00:00"
-# SELECT tweet_text, COUNT(*) FROM tweet WHERE target_user = "BarackObama" AND create_date = "2011-07-07 00:00:00" GROUP BY tweet_text ORDER BY COUNT(*) DESC 
-# SELECT tweet_text, COUNT(DISTINCT user) FROM tweet WHERE target_user = "BarackObama" AND create_date = "2011-07-07 00:00:00" GROUP BY tweet_text ORDER BY COUNT(*) DESC 
-#
-# 5/13
-#	4379 positive --- RT @justinbieber: I think you're wrong. pretty sure President @BarackObama will keep this promise. #payitforward - http://bit.ly/jocrJy
-# 5/20
-# 5/24
-# 6/29
-#	3827 positive --- RT @justinbieber: glad to help President @BarackObama keep his promise. glad he could be there too. #SWAG  http://twitpic.com/5ie0u1
-# 6/30
-#	2708 positive --- RT @justinbieber: glad to help President @BarackObama keep his promise. glad he could be there too. #SWAG  http://twitpic.com/5ie0u1
-# 7/4
-#	1873 negative? --- RT @foxnewspolitics: BREAKING NEWS: President @BarackObama assassinated, 2 gunshot wounds have proved too much. It's a sad 4th for #america. #obamadead RIP
-#            <- http://www.munhwa.com/news/view.html?no=2011070501032932301002
-# 7/7
-# 7/8
-
+#PlotSentiment()
+PlotSentiment1()
+PlotPositiveZscore()
+PlotNegativeZscore()
+PlotGapZscore()
 

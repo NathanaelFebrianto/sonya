@@ -28,7 +28,7 @@ convertDate <- function (str) {
 ###
 # Plot the audience sentiment time series of tweet count for the specified popular user
 ###
-plotAudienceSentimentTimeSeriesOfTweets <- function (user_name) {	
+PlotAudienceByTweet <- function (user_name) {	
 	# Get subset of the user
 	df_user = subset(df_all, 
 			select = c("create_date", 
@@ -68,7 +68,7 @@ plotAudienceSentimentTimeSeriesOfTweets <- function (user_name) {
 			col=plot_colors[3])
 	
 	# Create a title with a red, bold/italic font
-	title(main = user_name, col.main = "black", font.main = 4)
+	title(main = paste("Audience of", user_name), col.main = "black", font.main = 4)
 	
 	# Label the x and y axes
 	title(xlab = "Date", col.lab = "black")
@@ -87,7 +87,7 @@ plotAudienceSentimentTimeSeriesOfTweets <- function (user_name) {
 ###
 # Plot the audience sentiment time series of user count for the specified popular user
 ###
-plotAudienceSentimentTimeSeriesOfUsers <- function (user_name) {
+PlotAudienceByUser <- function (user_name) {
 	# Get subset of the user
 	df_user = subset(df_all, 
 			select = c("create_date", 
@@ -127,7 +127,7 @@ plotAudienceSentimentTimeSeriesOfUsers <- function (user_name) {
 			col=plot_colors[3])
 	
 	# Create a title with a red, bold/italic font
-	title(main = user_name, col.main = "black", font.main = 4)
+	title(main = paste("Audience of", user_name), col.main = "black", font.main = 4)
 	
 	# Label the x and y axes
 	title(xlab = "Date", col.lab = "black")
@@ -146,7 +146,7 @@ plotAudienceSentimentTimeSeriesOfUsers <- function (user_name) {
 ###
 # Plot the popular user's sentiment time series for the specified popular user
 ###
-plotPopularSentimentTimeSeries <- function (user_name) {
+PlotPopularUser <- function (user_name) {
 	# Get subset of the user
 	df_user = subset(df_all, 
 			select = c("create_date", 
@@ -186,7 +186,7 @@ plotPopularSentimentTimeSeries <- function (user_name) {
 			col=plot_colors[3])
 	
 	# Create a title with a red, bold/italic font
-	title(main = user_name, col.main = "black", font.main = 4)
+	title(main = paste("Tweets of", user_name), col.main = "black", font.main = 4)
 	
 	# Label the x and y axes
 	title(xlab = "Date", col.lab = "black")
@@ -203,16 +203,16 @@ plotPopularSentimentTimeSeries <- function (user_name) {
 
 
 ###
-# Test
+# Execute
 ###
-plotAudienceSentimentTimeSeriesOfTweets("BarackObama")
-plotAudienceSentimentTimeSeriesOfUsers("BarackObama")
-plotPopularSentimentTimeSeries("BarackObama")
+# Split the screen into two rows and one column, defining screens 1 and 2.	
+split.screen(figs = c(2, 1))
+screen(1)
+PlotPopularUser("aplusk")
+screen(2)
+PlotAudienceByTweet("aplusk")
+#PlotAudienceByUser("aplusk")
 
-plotAudienceSentimentTimeSeriesOfTweets("Oprah")
-
-plotAudienceSentimentTimeSeriesOfUsers("ladygaga")
-plotAudienceSentimentTimeSeriesOfUsers("britneyspears")
 
 
 
