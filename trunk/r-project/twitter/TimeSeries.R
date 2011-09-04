@@ -28,7 +28,7 @@ convertDate <- function (str) {
 ###
 # Plot the audience sentiment time series of tweet count for the specified popular user
 ###
-PlotAudienceByTweet <- function (user_name) {	
+PlotAudienceByTweet <- function(user_name) {	
 	# Get subset of the user
 	df_user = subset(df_all, 
 			select = c("create_date", 
@@ -61,11 +61,11 @@ PlotAudienceByTweet <- function (user_name) {
 	
 	# Graph line of positive tweet count
 	lines(df_user$a.positive_tweet_count, type = "o", pch = 22, lty = "solid", 
-			col=plot_colors[2])
+			col = plot_colors[2])
 	
 	# Graph line of negative tweet count
 	lines(df_user$a.negative_tweet_count, type = "o", pch = 23, lty = "solid", 
-			col=plot_colors[3])
+			col = plot_colors[3])
 	
 	# Create a title with a red, bold/italic font
 	title(main = paste("Audience of", user_name), col.main = "black", font.main = 4)
@@ -87,7 +87,7 @@ PlotAudienceByTweet <- function (user_name) {
 ###
 # Plot the audience sentiment time series of user count for the specified popular user
 ###
-PlotAudienceByUser <- function (user_name) {
+PlotAudienceByUser <- function(user_name) {
 	# Get subset of the user
 	df_user = subset(df_all, 
 			select = c("create_date", 
@@ -146,7 +146,7 @@ PlotAudienceByUser <- function (user_name) {
 ###
 # Plot the popular user's sentiment time series for the specified popular user
 ###
-PlotPopularUser <- function (user_name) {
+PlotPopularUser <- function(user_name) {
 	# Get subset of the user
 	df_user = subset(df_all, 
 			select = c("create_date", 

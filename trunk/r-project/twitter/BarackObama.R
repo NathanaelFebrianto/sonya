@@ -21,7 +21,7 @@ Zscore <- function (x) {
 ###
 # Plot time series of sentiment and gallup data with one graph.
 ###
-PlotSentiment <- function () {	
+PlotSentiment <- function() {	
 	
 	# Compute the largest y value used in the data (or we could just use range again)
 	#max_y <- max(df_obama$gallup_approve)
@@ -77,7 +77,7 @@ PlotSentiment <- function () {
 ###
 # Plot time series of sentiment and gallup data with two graphs.
 ###
-PlotSentiment1 <- function () {
+PlotSentiment1 <- function() {
 	
 	# Split the screen into two rows and one column, defining screens 1 and 2.	
 	split.screen(figs = c(2, 1))	
@@ -171,7 +171,7 @@ PlotSentiment1 <- function () {
 ###
 # Plot time series of positive sentiment and gallup data by zscore.
 ###
-PlotPositiveZscore <- function () {	
+PlotPositiveZscore <- function() {	
 	
 	# Compute the largest y value used in the data (or we could just use range again)
 	max_y <- max(Zscore(df_obama$gallup_approve), 
@@ -222,7 +222,7 @@ PlotPositiveZscore <- function () {
 ###
 # Plot time series of negative sentiment and gallup data by zscore.
 ###
-PlotNegativeZscore <- function () {	
+PlotNegativeZscore <- function() {	
 	
 	# Compute the largest y value used in the data (or we could just use range again)
 	max_y <- max(Zscore(df_obama$gallup_disapprove), 
@@ -273,7 +273,7 @@ PlotNegativeZscore <- function () {
 ###
 # Plot time series of gap of sentiment and gallup data by zscore.
 ###
-PlotGapZscore <- function () {	
+PlotGapZscore <- function() {	
 	
 	# Compute the largest y value used in the data (or we could just use range again)
 	max_y <- max(Zscore(df_obama$gallup_approve - df_obama$gallup_disapprove), 
@@ -325,7 +325,7 @@ PlotGapZscore <- function () {
 ###
 # EDA
 ###
-Eda <- function () {
+Eda <- function() {
 	attach(df_obama)
 	lm(gallup_approve ~ positive_tweet_count, data = df_obama)
 	lm(gallup_disapprove ~ negative_tweet_count, data = df_obama)
@@ -395,7 +395,7 @@ Eda <- function () {
 ###
 # Granger Casuality analysis
 ###
-AnalyzeGrangerCasualty <- function ()  {
+AnalyzeGrangerCasualty <- function()  {
 		
 	grangertest(gallup_approve ~ positive_tweet_rate, order = 1, data = df_obama)
 	grangertest(gallup_approve ~ positive_tweet_rate, order = 2, data = df_obama)
@@ -474,7 +474,7 @@ AnalyzeGrangerCasualty <- function ()  {
 ###
 # Correlation analysis
 ###
-AnalyzeCorrelation <- function () {
+AnalyzeCorrelation <- function() {
 	
 	cor.positive = cor(Zscore(df_obama$gallup_approve), Zscore(df_obama$positive_tweet_rate))
 	cor.negative = cor(Zscore(df_obama$gallup_disapprove), Zscore(df_obama$negative_tweet_rate))
