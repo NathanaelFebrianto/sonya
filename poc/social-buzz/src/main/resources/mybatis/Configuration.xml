@@ -23,5 +23,6 @@
 		<mapper resource="mybatis/mapper/CommentMapper.xml" />
 		<mapper resource="mybatis/mapper/MetooMapper.xml" />
 		<mapper resource="mybatis/mapper/TvProgramMapper.xml" />
+		<mapper resource="mybatis/mapper/TermMapper.xml" />
 	</mappers>
 </configuration>

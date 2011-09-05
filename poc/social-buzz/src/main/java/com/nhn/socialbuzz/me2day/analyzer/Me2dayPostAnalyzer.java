@@ -61,26 +61,28 @@ public class Me2dayPostAnalyzer {
 	 * @param publishStartDate
 	 * @param publishEndDate
 	 */
-	public void analyze(String programId, Date publishStartDate, Date publishEndDate) {
+	public void analyze(String programId, String publishStartDate, String publishEndDate) {
 		try {
+			Date startDate = CommonUtil.convertStringToDate("yyyyMMdd", publishStartDate);
+			Date endDate = CommonUtil.convertStringToDate("yyyyMMdd", publishEndDate);			
+			
 			PostManager postManager = new PostManagerImpl();
 			CommentManager commentManager = new CommentManagerImpl();
 						
 			Post paramPost = new Post();
 			paramPost.setProgramId(programId);
-			paramPost.setPublishStartDate(publishStartDate);
-			paramPost.setPublishEndDate(publishEndDate);
+			paramPost.setPublishStartDate(startDate);
+			paramPost.setPublishEndDate(endDate);
 			List<Post> posts = postManager.getPosts(paramPost);
 			
 			Comment paramComment = new Comment();
 			paramComment.setProgramId(programId);
-			paramComment.setPublishStartDate(publishStartDate);
-			paramComment.setPublishEndDate(publishEndDate);
+			paramComment.setPublishStartDate(startDate);
+			paramComment.setPublishEndDate(endDate);
 			List<Comment> comments = commentManager.getComments(paramComment);
 			
 			// write output into file and database
-			String path = CommonUtil.convertDateToString("yyyyMMdd", publishStartDate) +
-					"-" + CommonUtil.convertDateToString("yyyyMMdd", publishEndDate);
+			String path = publishStartDate + "-" + publishEndDate;
 			this.writeOutput(path, programId, posts, comments);			
 			
 		} catch (Exception e) {
@@ -251,6 +253,8 @@ public class Me2dayPostAnalyzer {
 			text = text.replaceAll("me2mms", "");
 			text = text.replaceAll("me2sms", "");
 			text = text.replaceAll("me2music", "");
+			text = text.replaceAll("me2movie", "");
+			text = text.replaceAll("me2book", "");
 			text = text.replaceAll("지식로그", "");
 			text = text.replaceAll("네이버뉴스", "");
 			
@@ -355,10 +359,10 @@ public class Me2dayPostAnalyzer {
 		
 		String[] programs = new String[] {
 //			"kbs1_greatking",
-//			"kbs_homewomen",
-			"kbs2_princess",
+			"kbs_homewomen",
+//			"kbs2_princess",
 //			"kbs2_spy",
-//			"kbs2_ojakkyo",
+			"kbs2_ojakkyo",
 //			"mbc_gyebaek",
 //			"mbc_fallinlove",
 //			"mbc_urpretty",
@@ -383,8 +387,8 @@ public class Me2dayPostAnalyzer {
 		};
 		
 		try {
-			Date publishStartDate = CommonUtil.convertStringToDate("yyyyMMdd", "20110822");
-			Date publishEndDate = CommonUtil.convertStringToDate("yyyyMMdd", "20110828");
+			String publishStartDate = "20110822";
+			String publishEndDate = "20110828";
 			
 			for (int i = 0; i <programs.length; i++) {
 				analyzer.analyze(programs[i], publishStartDate, publishEndDate);

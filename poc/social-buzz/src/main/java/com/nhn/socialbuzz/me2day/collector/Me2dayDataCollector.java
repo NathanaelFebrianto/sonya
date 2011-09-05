@@ -583,36 +583,36 @@ public class Me2dayDataCollector {
 			Me2dayDataCollector collector = new Me2dayDataCollector();
 			
 			String[] programs = new String[] {
-//				"kbs1_greatking",
-//				"kbs_homewomen",
-//				"kbs2_princess",
-//				"kbs2_spy",
-//				"kbs2_ojakkyo",
-//				"mbc_gyebaek",
-//				"mbc_fallinlove",
-//				"mbc_urpretty",
-//				"mbc_thousand",
-//				"sbs_besideme",
-//				"sbs_dangsin",
-//				"sbs_baekdongsoo",
-//				"sbs_boss",
-//				"sbs_scent",
-//				"kbs2_gagcon",
-//				"kbs2_happysunday_1bak2il",
-//				"kbs2_happysunday_men",
-//				"sbs_happytogether",
-//				"mbc_challenge",
-//				"mbc_three",
-//				"mbc_wedding",
-//				"mbc_sundaynight_house",
-//				"mbc_sundaynight_nagasoo",
-//				"sbs_strongheart",
-//				"sbs_starking",
-//				"sbs_newsunday",
+				"kbs1_greatking",
+				"kbs_homewomen",
+				"kbs2_princess",
+				"kbs2_spy",
+				"kbs2_ojakkyo",
+				"mbc_gyebaek",
+				"mbc_fallinlove",
+				"mbc_urpretty",
+				"mbc_thousand",
+				"sbs_besideme",
+				"sbs_dangsin",
+				"sbs_baekdongsoo",
+				"sbs_boss",
+				"sbs_scent",
+				"kbs2_gagcon",
+				"kbs2_happysunday_1bak2il",
+				"kbs2_happysunday_men",
+				"sbs_happytogether",
+				"mbc_challenge",
+				"mbc_three",
+				"mbc_wedding",
+				"mbc_sundaynight_house",
+				"mbc_sundaynight_nagasoo",
+				"sbs_strongheart",
+				"sbs_starking",
+				"sbs_newsunday",
 			};
 			
-			String publishStartDate = "2011.08.22";
-			String publishEndDate = "2011.08.28";
+			String publishStartDate = "2011.08.29";
+			String publishEndDate = "2011.09.04";
 			
 			for (int i = 0; i <programs.length; i++) {
 				collector.collect(programs[i], publishStartDate, publishEndDate);

@@ -3,7 +3,7 @@
 # Author: Younggue Bae
 ###############################################################################
 
-setwd("D:/dev/workspace/social-buzz/data")
+setwd("D:/workspace/social-buzz/data")
 
 library(tm)
 
@@ -74,8 +74,9 @@ PlotDendrogram <- function (dtm) {
 ###
 AnalyzeTermFrequency <- function(program.id, dir, filename) {
 
-#	program.id <- "kbs2_princess"
-#	filename <- "./20110815-20110821/terms_kbs2_princess.txt"
+#	program.id <- "sbs_besideme"
+#	dir <- "./20110822-20110828/"
+#	filename <- "src_sbs_besideme.txt"
 	
 	filename <- paste(dir, filename, sep = "")
 	
@@ -85,7 +86,7 @@ AnalyzeTermFrequency <- function(program.id, dir, filename) {
 	if (nrow(mydata.table) > 0) { 
 		head(mydata.table)
 		
-		mydata.terms <- data.frame(textCol = mydata.table$terms)
+		mydata.terms <- data.frame(textCol = mydata.table$terms)		
 		
 		mydata.source <- DataframeSource(mydata.terms)
 		
@@ -128,7 +129,7 @@ AnalyzeTermFrequency <- function(program.id, dir, filename) {
 		# remove sparse terms to simplify the cluster plot
 		# Note: tweak the sparse parameter to determine the number of words.
 		# About 10-30 words is good.
-		mydata.dtm2 <- removeSparseTerms(mydata.dtm, sparse = 0.99)
+		mydata.dtm2 <- removeSparseTerms(mydata.dtm, sparse = 0.98)
 		nrow(mydata.dtm2); ncol(mydata.dtm2)
 		
 		# export dtm
@@ -228,10 +229,10 @@ AnalyzeSentimentTerms <- function(program.id, dir, filename) {
 
 programs <- c(
 #	"kbs1_greatking",
-#	"kbs_homewomen",
-	"kbs2_princess"
+	"kbs_homewomen",
+#	"kbs2_princess",
 #	"kbs2_spy",
-#	"kbs2_ojakkyo",
+	"kbs2_ojakkyo"
 #	"mbc_gyebaek",
 #	"mbc_fallinlove",
 #	"mbc_urpretty",
@@ -257,9 +258,10 @@ programs <- c(
 
 for (program in programs) {
 	print(program)
-#	AnalyzeTermFrequency(program, "./20110815-20110821/", paste("src_", program, ".txt", sep = ""))
-	AnalyzeTermFrequency(program, "./20110822-20110828/", paste("src_", program, ".txt", sep = ""))
-#	AnalyzeSentimentTerms(program, "./20110815-20110821/", paste("liwc_", program, ".txt", sep = ""))
+	AnalyzeTermFrequency(program, "./20110815-20110821/", paste("src_", program, ".txt", sep = ""))
+	AnalyzeSentimentTerms(program, "./20110815-20110821/", paste("liwc_", program, ".txt", sep = ""))
+	
+	AnalyzeTermFrequency(program, "./20110822-20110828/", paste("src_", program, ".txt", sep = ""))	
 	AnalyzeSentimentTerms(program, "./20110822-20110828/", paste("liwc_", program, ".txt", sep = ""))
 }
 

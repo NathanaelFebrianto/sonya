@@ -152,8 +152,8 @@ public class TextAnalyzer {
 	 */
 	public String convertEmoticonToTag(String text) {		
 		
-		text = this.replaceStrings(text, "(\\?+)", "TAGQUESTION");
-		text = this.replaceStrings(text, "(\\^\\^+)", "TAGSMILE");
+		text = this.replaceStrings(text, "(\\?+)", " TAGQUESTION ");
+		text = this.replaceStrings(text, "(\\^\\^+)", " TAGSMILE ");
 		text = this.replaceStrings(text, "(ㅋ+)", " TAGSMILE ");
 		text = this.replaceStrings(text, "(ㅎ+)", " TAGSMILE ");
 		text = this.replaceStrings(text, "(ㅜ+)", " TAGCRY ");
@@ -234,6 +234,7 @@ public class TextAnalyzer {
 			}
 			
 			str = str.replaceAll("ᆢ", "");
+			str = str.replaceAll("'", "");
 		}
 		
 		return str;
