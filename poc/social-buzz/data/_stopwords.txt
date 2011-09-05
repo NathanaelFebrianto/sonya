@@ -44,6 +44,7 @@ common,보고
 common,빨다
 common,호다
 common,반다
+common,http
 
 kbs1_greatking,광개토
 kbs1_greatking,대왕
@@ -112,6 +113,9 @@ sbs_dangsin,당신이잠든
 sbs_dangsin,잠든
 sbs_dangsin,잠든사이
 sbs_dangsin,사이
+sbs_dangsin,잠들다
+sbs_dangsin,잠든사
+sbs_dangsin,당신이잠든사
 
 sbs_baekdongsoo,무사백동수
 sbs_baekdongsoo,무사
@@ -124,6 +128,11 @@ sbs_boss,보스
 sbs_boss,지켜라
 sbs_boss,지키다
 
+sbs_scent,여인의향기
+sbs_scent,여인의
+sbs_scent,여인
+sbs_scent,향기
+
 kbs2_gagcon,개그콘서트
 kbs2_gagcon,개그
 kbs2_gagcon,콘서트
@@ -133,6 +142,7 @@ kbs2_happysunday_1bak2il,해피선데이1박2일
 kbs2_happysunday_1bak2il,해피선데이
 kbs2_happysunday_1bak2il,해피선데
 kbs2_happysunday_1bak2il,1박2일
+kbs2_happysunday_1bak2il,1박2
 kbs2_happysunday_1bak2il,해피
 kbs2_happysunday_1bak2il,선데이
 kbs2_happysunday_1bak2il,1박
@@ -167,10 +177,12 @@ mbc_challenge,무도
 mbc_challenge,싸다
 
 mbc_three,세바퀴
+mbc_three,세바퀴에
 mbc_three,세상을바꾸는
 mbc_three,퀴즈
 
 mbc_wedding,우리결혼했어요
+mbc_wedding,우리결혼
 mbc_wedding,우리
 mbc_wedding,결혼
 mbc_wedding,했어요
@@ -210,6 +222,7 @@ mbc_sundaynight_nagasoo,일밤
 mbc_sundaynight_nagasoo,노랗다
 
 sbs_strongheart,강심장
+sbs_strongheart,강심장에
 sbs_strongheart,심장
 
 sbs_starking,스타킹
