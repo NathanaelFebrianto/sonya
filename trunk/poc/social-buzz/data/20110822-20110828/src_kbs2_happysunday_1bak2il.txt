@@ -1,446 +1,446 @@
 program_id	author_id	type	post_id	comment_id	publish_date	terms
-kbs2_happysunday_1bak2il	tatalina	POST	pym0hcp-_e0am		2011-08-22	과외끝 과외끝나 박 일 받다 보고 박찬호 박찬호가 쓰다 쓸다 명언 행복 노력순 노력순이 으미 찔리다 tagcry 빨리끄 빨리끄고 자서 자다 내일아침 노력
-kbs2_happysunday_1bak2il	istore00	POST	pym0het-54328		2011-08-22	박 일 박 일 박찬호 재회
-kbs2_happysunday_1bak2il	kjy5397	POST	pym0iye-_fgje		2011-08-22	원문 tistory강호동 테마주 강호동 수혜주 제이콘텐트리 박 일 이끌다 있다 강호동씨 박 일 하차 하다 소식 방송가 물론 팬 패다 들 충격 주다 그리다 결국 박 일 웹
-kbs2_happysunday_1bak2il	sksks88	POST	pym0np1-50k5v		2011-08-22	박 일 친구 주문진 여행 올 친구 잼 놀아썽 tagsmile
-kbs2_happysunday_1bak2il	ihiba	POST	pym0nuv-_84li		2011-08-22	박 일폭포특집 청송 등맛집 주왕산 서울여관식당토종닭백숙전문점
-kbs2_happysunday_1bak2il	bomul7201	POST	pym0qa6-y795l		2011-08-22	부모님 박 일
-kbs2_happysunday_1bak2il	crag13	POST	pym0su_-_14el		2011-08-22	캐비 캐비와 에버랜드 박 일 다녀왓어 다녀왓어요 돈 많다 깨졋지 깨졋지만 잼잇어 잼잇어요 tagexclamation 아싸루비아
-kbs2_happysunday_1bak2il	jeasoup	POST	pym0uf9-1p4j		2011-08-22	박 일 전현무 난 나다 날다 아줌마 뽀로 뽀로로 망언 오세훈 주민투표 착한거부
-kbs2_happysunday_1bak2il	xlzjrhdwn	POST	pym0vyt-sqsn		2011-08-22	박 일 시청자투어 다시보기 박 일 시청자투어 대비캠프 객원 mc 백지영 전현무 성시경 달인 달이다 달 김병 김병만
-kbs2_happysunday_1bak2il	hahasm84	POST	pym1011-ywrte		2011-08-22	경남출발 워터파크여행마산 창원 김해 매일출발 tagexclamation 캐리비안베 캐리비안베이 에버랜드 박 일패키지여행
-kbs2_happysunday_1bak2il	loanbay	POST	pym106a-yrp_n		2011-08-22	박 일 이승기 이수근 이수근과 박찬호 박찬호의 짧다 감동적 만남 만나다
-kbs2_happysunday_1bak2il	babynews2010	POST	pym10jb-_58o3		2011-08-22	베이비뉴스아기 함 하다 하 행복 여행 박 일 여행 때 짐 이민 가다 가늘다 가 사람 사다 수준
-kbs2_happysunday_1bak2il	dreamgy04	POST	pym11i4-_ywr5		2011-08-23	박 일 회 다시보기 박찬호 재방송 월 일
-kbs2_happysunday_1bak2il	beauty7290	POST	pym1346-5eca4		2011-08-22	박 일 일본방문 이승기 한류스타 인기과시 공항 인산인해
-kbs2_happysunday_1bak2il	giokaga2000	POST	pym137q-_j7fc		2011-08-22	유통기한 남다 아무거 아무거나 먹지 맙시 맙시다 tagcry tagcry 토요일 밀가루가지고 밀가루가지 뭘 해먹다 그게 탈 나다 저녁 구토를 구토를하 열나다 몸 저리다 저리 일요일 박 일 하기 하다 전 움직이다 못하다 못 누워있었다는 뭘 먹으면 토하다 토 tagcry tagcry 지금 위 내용물 좀 조다 빼다 아우성
-kbs2_happysunday_1bak2il	ccya	POST	pym13dx-hmgu		2011-08-22	해피선데 해피선데이 박 일 회 월 일 다시보기
-kbs2_happysunday_1bak2il	kyd2347	POST	pym15k3-yu21j		2011-08-22	박 일 백지영 내 사랑 사람 정석원 daum블로그
-kbs2_happysunday_1bak2il	kyd2347	POST	pym15ke-yu21j		2011-08-22	성시경 성시경이 공개 박 일 지침서 내용 뭐길래 daum블로그
-kbs2_happysunday_1bak2il	ggones	POST	pym15ta-yguvj		2011-08-23	박 일에나온 철원 철원의 삼부연폭포 도착했답니더 tagsmile
-kbs2_happysunday_1bak2il	usl425	POST	pym1633-ytw00		2011-08-22	박 일페지라니이이이 일페지라니이이이이 일페지라니이이이이이 안ㅇ ㅈ ㅡ ㅏㅣ ㅂ tagexclamation
-kbs2_happysunday_1bak2il	parkpdkor	POST	pym16z5-5h63r		2011-08-22	어제 야구 보다 못본 런닝맨 런닝맨과 박 일 보는데 보는데요 박찬호선수 보다 보 멋있다
-kbs2_happysunday_1bak2il	hanmi4416	POST	pym17gq-_cu08		2011-08-23	박 일 종영
-kbs2_happysunday_1bak2il	yo_2ab	POST	pym18qn-_sn35		2011-08-23	박 일 lt lt를 마 마치 개강준비 청결사업 tagexclamation 학과사물 셋팅완료 tagexclamation tagsmile
-kbs2_happysunday_1bak2il	junes26	POST	pym1aav-yxvov		2011-08-22	강호동의 박 일 시청자투어 타다 대비캠프 편 펴다 월 일 방송 보기 보다
-kbs2_happysunday_1bak2il	beauty7290	POST	pym1agx-5eca4		2011-08-22	박 일 이승기 한류스타 인증 일본 공항 눈길
-kbs2_happysunday_1bak2il	mycom9999	POST	pym1c15-_3p65		2011-08-23	박 일 기자글 기자글이 내맘 내맘같군 새롭다 배신 아이콘 급부상 강호동 추락해버렷
-kbs2_happysunday_1bak2il	singingj	POST	pym1dbj-yad_0		2011-08-22	년 mt 상상마당여행작가칼럼니스트과정 박 일연합 mt남양주 대성리
-kbs2_happysunday_1bak2il	hahasm84	POST	pym1e5y-ywrte		2011-08-22	부산출발 워터파크여행에버랜드 캐리비안베 캐리비안베이 박 일패키지여행 tagexclamation 월한달 매일출발확정
-kbs2_happysunday_1bak2il	ahj12070	POST	pym1fhv-_iofb		2011-08-22	박 일 이승기 나pd 제작비 사용처 의혹 제기 참 차다 기자님 이렇게 쓰다 안돼죠 tagcry 잼 방송 왜 외다 이케 만들다 ㅡㅢ joinsmsn
-kbs2_happysunday_1bak2il	ehdcks96	POST	pym1i4w-y8uc0		2011-08-22	박 일 이승기 나pd 제작비 사용처 의혹 제기 결론은요tagquestion뭐 의혹에대 결론 있다 어쩌라고요tagquestion tagcry joinsmsn
-kbs2_happysunday_1bak2il	nunurigo121	POST	pym1jn2-_9tci		2011-08-22	해피선데 해피선데이 박 일 대하다 tthb
-kbs2_happysunday_1bak2il	tbworld_tv	POST	pym1k9q-_clkj		2011-08-22	박 일 이승기 이수근 박찬호 박찬호와 깜짝재회 tbworld
-kbs2_happysunday_1bak2il	tbworld_tv	POST	pym1kkq-_clkj		2011-08-22	박 일 성시경 나영석 pd 천적으로tagquestion 논리 논다 능청 입담 입다 폭소 tbworld
-kbs2_happysunday_1bak2il	diethara	POST	pym1lr9-_jsd4		2011-08-22	이승기 훈 메니저 박 일 이승기훈 메니저
-kbs2_happysunday_1bak2il	ssol6974	POST	pym1l_m-__iy1		2011-08-22	오늘하루 무쟈게 바쁘다 보냈읍니다 박 일 란딩갑니 란딩갑니다
-kbs2_happysunday_1bak2il	e40e40	POST	pym1mcv-_ozfl		2011-08-22	경주 박 일 여행왔는데 예정 없다 비님 비님이 내리신다진우 내리신다진우는 목이부어서 밤에열 밤에열나 밤에열나고 병원갔다가 atv탈려 atv탈려고 오다 말 콩 식당가서 진우 진우는 밥도안먹고 약먹고 자다 비가 비 그치다 진우 진우가 고대하던atv탈텐데 참 차다 경주
-kbs2_happysunday_1bak2il	vg0825	POST	pym1mkm-56ht_		2011-08-23	박 일 가시방석 강호동
-kbs2_happysunday_1bak2il	rkdalsgml97	POST	pym1r3s-jtt1		2011-08-23	내 내다 칭구 오늘 명 taglove 아 위대 엄마님 박 일 시청중 tagcry 틴탑 틴탑을 못봐 tagcry 심심타파 기달릴까tagquestion리끼리끼 tagsmile 지금 있눈싸람 tagexclamation 미투 해주때 해주때여 taglove 으 글 ㅈㅅ
-kbs2_happysunday_1bak2il	nunurigo121	POST	pym1rkn-_9tci		2011-08-22	박 일과 일 무한도전 wclv
-kbs2_happysunday_1bak2il	kkl5241	POST	pym1w45-63ai		2011-08-22	박 일 이승기 나pd 제작비 사용처 의혹 제기 제목 살렸닼 tagsmile 진심낚시
-kbs2_happysunday_1bak2il	thebluehouse	POST	pym1w51-ihx7		2011-08-23	씨름 활쏘기 어린이 말타기 몽골 전통환송식 한ㆍ몽 정상회담 통하다 포괄적 동반자 관계 격상 구체적 협력 지치다 지침 담 중기행동계획 을 채택 대통령 일 몽골 대통령 마련 환송식 참석 박 일간 몽골 공식방문 마쳤습니다 대통령 활쏘기 보실 있다 대통령 일 오후 두번째 순방국 우즈베키스탄 타슈켄트 타슈켄트에 도착 me video
-kbs2_happysunday_1bak2il	kmirn001	POST	pym1wjv-_d1q6		2011-08-22	박 일 성시경 나pd 황당미션 조목조목 반박 새롭다 캐릭터
-kbs2_happysunday_1bak2il	saena0486	POST	pym1wpc-5d_rm		2011-08-22	갈라지펜션 갈라지펜션에 발도장 tagexclamation 드뎌 도착 박 일 지낼곳 잼 널장 via 아임in
-kbs2_happysunday_1bak2il	rion337	POST	pym1x6b-_fdnp		2011-08-22	박 일 폐지 이제 나영석씨 나영석씨는 어디서 보다 보 tagcry
-kbs2_happysunday_1bak2il	susuhan104	POST	pym1y_z-ygdte		2011-08-22	박 일 박 일 개월 후 전원하차 끝내다
-kbs2_happysunday_1bak2il	onemin1004	POST	pym1_bl-5u1tr		2011-08-22	박 일 나오다 철원삼부연 폭포갔다왔어요 버스타 버스타고 가다 터미널 한 하다 분정 분정도 걸다 가면 가다 있다 가볍다 정말 가볍다 생각정리 가다 좋은곳 좋은곳같아 좋은곳같아요 한탄강쪽으로가면 번지 벌다 점프 리프팅할수 리프팅할수있어 리프팅할수있어요 tagsmile
-kbs2_happysunday_1bak2il	ljm_777	POST	pym81mw-593me		2011-08-26	오늘 유치원 우리 아이들 박 일 원내캠프하는 아이들 모두 들떠 들떠있음 tagsmile 나도 나다 나 들떠 들떠있음 tagsmile
-kbs2_happysunday_1bak2il	teensnature	POST	pym82tu-_t622		2011-08-26	저 어디 여행지 박 일관가서 친구 뭔가 공부하는학생 티좀 내보고싶어용 tagsmile 가방 필기구 공책 다이어리 책 교과서 먹을것 먹을것등을 챙겨놓고 도서관갔다가 베이스캠프 놀고오고싶네 놀고오고싶네요 tagexclamation tagcry 오다 정말 좋을것같네용 tagsmile 참 차다 tagexclamation 가방 티엔 티엔도 넣고가서 친구들한테 자랑도하 자랑도 tagsmile
-kbs2_happysunday_1bak2il	grig01	POST	pym85bx-y1h0_		2011-08-24	단양 단양에 박 일로 일 휴가 다녀오다
-kbs2_happysunday_1bak2il	bestman44	POST	pym85d5-5dnqk		2011-08-23	시골 박 일
-kbs2_happysunday_1bak2il	ggusan456	POST	pym85g9-_18ra		2011-08-23	박 일경주여행 울산반구대
-kbs2_happysunday_1bak2il	125dbwls	POST	pym85hu-_p9a0		2011-08-24	보성녹차밭유명 tagsmile 박 일갔다왔대 tagsmile 보성 재미없으 tagcry
-kbs2_happysunday_1bak2il	dnwn6463	POST	pym86cx-5cka1		2011-08-27	박 일로 일 태안 갔당 tagsmile 재밌당
-kbs2_happysunday_1bak2il	hyunji0622	POST	pym86ig-5ah_b		2011-08-24	충북 단양 박 일 저 단양다녀왔는데tagsmile 단양 단양으 가시다 볼것도많고 개인적 경치 좋더라구 좋더라구요
-kbs2_happysunday_1bak2il	tnttour	POST	pym87e3-566au		2011-08-26	내일 내 저희 저희는 거제도 거제도로 엠티 엠티를 떠나다 직원 명 두팀 두팀으 나누다 저 나pd 나pd가 되다 박 일 버전 으 으로 가다 실시 올리다 tagsmile
-kbs2_happysunday_1bak2il	i18966	POST	pym89zk-_pkd4		2011-08-26	잠시 후 올여름 휴가 박 일로 일 대명콘 대명콘도 가다 tagsmile
-kbs2_happysunday_1bak2il	tarepak	POST	pym8cpz-pdz		2011-08-24	박 일 복불복 도착 tagsmile 심장오구라들어서 못해먹겠네 tarepaki 플레이샵때 대활약 기대 기대다 tagexclamation
-kbs2_happysunday_1bak2il	back_hill	POST	pym8eiq-52tir		2011-08-26	박 일 폭포특집 은지원씨 은지원씨가 다녀오다 삼부연 폭포 tagexclamation 이곳 이곳과 더불다 삼부연 폭포 위쪽 위쪽의 터널 한국 나이아가 나이아가라 폭포 직탕 폭포 블로그 보여 보여드리리 보여드리리다
-kbs2_happysunday_1bak2il	hummel_story	POST	pym8eni-_wdhh		2011-08-23	박 일 여름특집 대 폭포 찾다 은지원 험멜 운동화
-kbs2_happysunday_1bak2il	rlaskan	POST	pym8e_r-w1w_		2011-08-24	박 일 개월 개월만 개월만하 끝낸다고 tagcry 개월후면 아직 아직은 티비 볼수있겠다 tagsmile 나 나다 한국가면 개월지 개월지나 개월지나고 남다 남 개월 개월이 개월이라 박 일 볼수있겠다 박 일보는이유 가 가다 이승기때문
-kbs2_happysunday_1bak2il	k0304a	POST	pym8htn-_rjzb		2011-08-26	흥 tagexclamation 아무 아무도 안 알다 궁금해tagquestion 그럼쨌든 여기 딱 들어왔을때 찍은사진 올리다 tagexclamation 나 나다 내일 내 온닷 박 일로 일 호텔왔어 솔직 나호텔 처음 오다 글두 되다 넓구 신기 tagexclamation 짱재밋어tagsmile 넓다 볼거리도많구 tagexclamation
-kbs2_happysunday_1bak2il	jackmom1215	POST	pym8jvv-_gakz		2011-08-24	의진탄생 일째 어제 친구 박 일 오크벨리에왔다 가을하늘 예쁘다 신나다 노 아이들 마냥 행복 보 여유 편안 이어가고싶다
-kbs2_happysunday_1bak2il	hyu09	POST	pym8jy6-xm1		2011-08-27	호떡 맛있다 tagexclamation 전 원조 호떡 같다 이름 어느날 박 일 이승기 원조호떡 되다 방송효과란 무섭다 무섭구 호떡 방송 광고 받 일 이승기 남포동
-kbs2_happysunday_1bak2il	eunhyunto	POST	pym8mrz-_fwjy		2011-08-23	박 일 합류 우리 박 일 좀 조다 장수 하다 하 바래다
-kbs2_happysunday_1bak2il	rongda78	POST	pym8omk-5rnrb		2011-08-26	내일 형님네 가족 저희 가족 제 친구 님 님 속초 속초로 박 일 놀러가다 제 미친님 미친님들은 주말 계획 어떻다 되시는지요tagquestion 동안 회사일 바빠서 미투 미투도 제 제대 못하다 못 tagcry
-kbs2_happysunday_1bak2il	wjdrlghd002	POST	pym8po9-f6ob		2011-08-26	엄태웅 백통 백통이 실종 보신 분들 보호 부탁 걱정 http yaphoto co kr news tagquestionc 박 일 tagexclamation 오늘 왜 외다 이렇게 복 없을까tagquestion 강호동 하차 박 일 폐지 거다 거기 엄포스님 개 개다 백통 백통이 실종 tagcry 자기소개 남 나다
-kbs2_happysunday_1bak2il	muderer124	POST	pym8s_w-_mlv5		2011-08-26	여행가 싶어 싶다 tagcry 박 일 짧다 한 하다 박 일정 tagcry tagcry 아 지쳐가 지쳐가는 나 생활 tagcry 쉼 쉼이 필요 tagcry
-kbs2_happysunday_1bak2il	tonibaek	POST	pym8t_e-q4io		2011-08-24	경주 힐튼호텔 박 일
-kbs2_happysunday_1bak2il	nunurigo121	POST	pym8v_s-_9tci		2011-08-26	무한도전 vs 박 일 유재석 강호동 하차 선언 할 하다 있을까tagquestion gxyal
-kbs2_happysunday_1bak2il	kdy8456	POST	pym8ynj-q83p		2011-08-24	rcy 캠프 가다 갈다 꺄악 박 일 크크크크크 학원 다 알다 tagsmile
-kbs2_happysunday_1bak2il	rkddudgml	POST	pym8zm3-p17v		2011-08-23	박 일 종영 강호동 하차 무관 끝 함 할 하다 개월뒤 종영 tagexclamation
-kbs2_happysunday_1bak2il	letuswant	POST	pym8_0_-yt8s		2011-08-23	coolio gangsta s paradise 요새 무한도전 박 일 놀러오다 예능프로그램 오래 오래된 노래 나오다 신기 정작 난 나다 날다 몇년전 mj mj의 beat it it을 eat it it으 불렀던 위어드 알 얀코빅 얀코빅의 패러디 곡 듣다 알다 되다 me movie 위험 아이들
-kbs2_happysunday_1bak2il	korea_diary	POST	pym8_i5-tsd1		2011-08-23	여행미투 언덕 넘다 불어오다 산들바람 속 한려수도 향기 가득 머금다 그곳 환상 섬 이르다 이름 전혀 아깝다 않다 해양관광도시 거제 미션패밀리 미션패밀리가 뜨다 tagexclamation 거제 미션패밀리 미션패밀리가 들려주다 보석 같다 박 일 거제여행기 함 하시죠 tagexclamation 베스트그곳 거제 미션패밀리
-kbs2_happysunday_1bak2il	alsdk1886	POST	pym8_yo-ykbs0		2011-08-27	무한도전 tagsmile 소지섭 재미 없다 tagsmile 박 일도 일 재미
-kbs2_happysunday_1bak2il	davideung	POST	pym91em-qj9		2011-08-24	아 버스 좀 조다 자야 자야하는데 잠 오다 오지 않다 회사 전사 박 tagexclamation 일 스쿨
-kbs2_happysunday_1bak2il	beauty7290	POST	pym952a-5eca4		2011-08-22	이승기 나pd 추궁 박 일 제작비 는tagquestion 허당tagquestion 브레 브레인 tagexclamation
-kbs2_happysunday_1bak2il	beauty7290	POST	pym95lh-5eca4		2011-08-22	박 일 일본방문 이승기 한류스타 인기과시 한류스타 이승기 tagexclamation
-kbs2_happysunday_1bak2il	beauty7290	POST	pym95vz-5eca4		2011-08-22	박 일 이승기 한류스타 인증 일본 공항 역시 이승기 인기 일본 대단
-kbs2_happysunday_1bak2il	wish_3fly	POST	pym9cm3-_gwbz		2011-08-22	마지막 박 일 시청자 투어네 아쉽다 하다 하지 신청 한번 못하다 점 되다 재미 같다 마지막 mc mc가 개그맨 김병만분 김병만분이 김병만분이라 것 깜놀
-kbs2_happysunday_1bak2il	nbajame	POST	pym9g9_-yk5hg		2011-08-22	순간이ㅡ지나갔다 달콤 솜사탕 한움큼 한움큼이 입안 들어가다 녹아버려 식도 타고 타다 타 넘다 내려가다 기분 그렇다 찰 찰나 지나가다 박 일 시간
-kbs2_happysunday_1bak2il	kys_0207_	POST	pym9kbr-_8y8g		2011-08-24	대학 생활중 하다 하 싶다 것들 여친 만들다 몸만들기 면허증 따다 드라이브 배낭여행 어학연수 혹 유학 국토대장정 해병대 rotc 지원 여친 여친과 맛집 찾아다니다 여친 여친과 박 일 촬영지 여행 여친 여친으 시작 여친 여친으 끝나다 tagsmile
-kbs2_happysunday_1bak2il	iimo8	POST	pym9kuk-4cyr		2011-08-24	어깨랑팔이미치도록아프 박 일엠티의후유증인듯 tagsmile tagcry
-kbs2_happysunday_1bak2il	vnfdlv1108	POST	pym9l9x-y8t8c		2011-08-23	박 일 오마이갓 tagexclamation
-kbs2_happysunday_1bak2il	familyphoto	POST	pym9lf9-y_n06		2011-08-23	오늘 칠곡 칠곡으 출장갑니 교육하러 박 일
-kbs2_happysunday_1bak2il	mh5134	POST	pym9prl-wmlu		2011-08-22	헐 tagsmile 어이없다 도대체 강호동 하차 티비 안보는거 먼상관 먼상관입니까 강호동 하차 한편 더볼 더볼라 얘를써야지 왜 외다 안보 출처 박 일 시청률 급 tv데일리 t토크 ttalk
-kbs2_happysunday_1bak2il	uiouio34	POST	pym9se4-rt4w		2011-08-23	강호동 강호동이 언제 국민mc 박 일 식신 식신이지 먹는것 밖 더하냐tagquestion맨 더하냐tagquestion맨날 벌칙만들어서 한입씩 출처한국 최고 스포츠 엔터테 엔터테인 오센 t토크 ttalk
-kbs2_happysunday_1bak2il	modetourcom	POST	pym9ucq-xyxy		2011-08-24	모두이벤트 박 일 여행갈 사람tagquestion 농림수산부 한국농어촌 공사 주최 rural 프로젝트 기자단 tagexclamation 외국인 여행 커리어까지tagquestion tagexclamation 까다 기회 잡다 tagexclamation 설명 신청은 신청은요
-kbs2_happysunday_1bak2il	donnabellaa	POST	pym9w7x-xedy		2011-08-24	평창 쿠키마당더운 여름 시원 개어린이 개어린이들과 즐겁다 박 일 tagexclamation 타다
-kbs2_happysunday_1bak2il	cyc9079	POST	pym9x4p-y_gtq		2011-08-23	완벽 애국가 절 날씨 tagexclamation 나 나다 오늘 지금 강촌리조트 박 일 마운틴하드웨어 fw 상품설명회 tagexclamation 가을하늘 공활 높다 구름 tagsmile
-kbs2_happysunday_1bak2il	chj3182	POST	pym9xli-_g1jk		2011-08-24	제주골프 주중 박 일 홀패키지 원 타미우스골프텔 평
-kbs2_happysunday_1bak2il	fawn3	POST	pym9z_0-g9ga		2011-08-23	영덕 박 일 휴가 참 차다 좋다 내일부턴 출근 일상 tagcry
-kbs2_happysunday_1bak2il	homicjy	POST	pym9_wp-5b1ek		2011-08-22	박 일 회 다시보기
-kbs2_happysunday_1bak2il	gaggag111	POST	pymb20z-_i72v		2011-08-22	아무리 지루하다 바깥공기 쐬다 오다 오 가슴한곳 조금 트인듯 시원 tagexclamation tagsmile이여세 tagsmile이여세를 몰아 몰다 당분 기분좋게 지내다 넘 좋다 tagsmile 하루살이 인생마냥 우울해 우울해하지 말다 기운차다 지내보자tagsmile 그러니오늘 잠들다 희망차다 내다 시작 위해 위하다 내다 맘 열다 하다 박 일 고맙다
-kbs2_happysunday_1bak2il	spdlqj0213	POST	pymb463-_8bvm		2011-08-23	강호동 강호동에 박 일 속 강추 휴양지
-kbs2_happysunday_1bak2il	kucc1004	POST	pymb4js-5tbit		2011-08-22	박찬호 박 일 박찬호 재회
-kbs2_happysunday_1bak2il	asc3355	POST	pymb51x-sf2k		2011-08-22	박 일 과 고다 맞대결 맞대결을 펼치다 폐지 폐지되거 시간대 옮다 옮기다 후 사라지다 사라지거 아예 방송 요일 바꾸다 경우 있다
-kbs2_happysunday_1bak2il	qkrcy789	POST	pymb6qi-zh5s		2011-08-22	지금 박 일 폭포특집 재방보고 tagexclamation 요즘 박 일 별 안봤는데 재밌네 재밌네요 tagexclamation tagsmile
-kbs2_happysunday_1bak2il	iyousens	POST	pymb72w-yq85k		2011-08-22	다시보기 박 일 박 일 월 일 방송분 다시보기
-kbs2_happysunday_1bak2il	moonjihoo	POST	pymb7nj-anwc		2011-08-22	이번 박 일 정말 내눈 내눈이 행복 tagexclamation taglove 아 진짜진짜 tagexclamation 성시경 엄태웅 tagexclamation 최고 tagexclamation 아 너무좋 너무좋아 taglove tagexclamation
-kbs2_happysunday_1bak2il	floud4	POST	pymbeuh-y4xhx		2011-08-22	원문 절대 국민예능 박 일 사라지다 일 예능 개 개다 웹
-kbs2_happysunday_1bak2il	bb00dd	POST	pymbg22-tbjh		2011-08-23	충북 괴산 수옥폭포 박 일 촬영지 충북 괴산 수옥폭포 수옥정 수옥폭포가는길 김종민폭포 박 일폭포특집 박 일
-kbs2_happysunday_1bak2il	ssyy509	POST	pymbjh8-_hrxd		2011-08-23	난 나다 날다 푸근해보 푸근해보이 인성 착해보 착해보여서 박 일 뿐만아니 뿐만아니라 다르다 강호동아저씨 하다 하 것들도왠 것들도왠만하면 재있구그래서 보다 보 출처한국 최고 스포츠 엔터테 엔터테인 오센 t토크 ttalk
-kbs2_happysunday_1bak2il	beauty7290	POST	pymbljy-5eca4		2011-08-22	박 일 박찬호 만나다 만 이승기 모습 캡처
-kbs2_happysunday_1bak2il	--happy	POST	pymbods-_s8ws		2011-08-23	저 잘 박 일로 일 가족 놀러가다 tagcry
-kbs2_happysunday_1bak2il	spdlqj0213	POST	pymbvfz-_8bvm		2011-08-23	박 일 커플여행지 안면 바다앞 커플펜션
-kbs2_happysunday_1bak2il	spdlqj0213	POST	pymbvsi-_8bvm		2011-08-23	박 일 여행지 남이섬추천펜션 남이섬 남이섬으 가다 가늘다 가 길 기다
-kbs2_happysunday_1bak2il	spdlqj0213	POST	pymbvt5-_8bvm		2011-08-23	막바지 휴가 즐기다 박 일 은지원 김종민 김종민이 추천 휴가지
-kbs2_happysunday_1bak2il	imj111612	POST	pymbvxj-5s9z8		2011-08-23	주말 기다리다 박 일 신안증 신안증도 고창군산채만색문학관 문학기행 가다 갈다
-kbs2_happysunday_1bak2il	sslm501	POST	pymc5l2-yd4qj		2011-08-25	박 일 회문산 자연휴양림 다녀오다 자연 느끼다 느끼 돌아오다 기분 다르다 굿내 굿내가 자연 준것 준것은 없다 자연 나 많은것 많은것들을 제공해주고있더라구요자연 고맙다 그리다 람쥐 taglove 보고플거 tagsmile반가웠엉 안 알다 녕 tagexclamation
-kbs2_happysunday_1bak2il	naver_news	POST	pymc7uk-bj_k		2011-08-26	연예 박 일 시청자투어 타다 개시 kbs서 오프닝 촬영 네이버 뉴스 news 스타뉴스 박 일 시청자투어 부산 간다네 간다네요 부럽 tagexclamation
-kbs2_happysunday_1bak2il	psy1256	POST	pymc8nn-55ivs		2011-08-25	아 박 일 내년 완전 빠 빠이라 빠이라니 아 아쉬워 아쉽다 이제 어떡 내 무한도전 박 일 완전 사랑 아쉽다 년동안 일요일 박 일 보다 진심 행복 정말 고맙다 마지막회 함께할 함께할께 박 일 forever
-kbs2_happysunday_1bak2il	lsh97sla	POST	pymc9qs-f8di		2011-08-26	내일 내 아니 아 오늘 tagquestion 은 학교 밤 새는 새는날 박 일
-kbs2_happysunday_1bak2il	windgirl64	POST	pymci9h-ul35		2011-08-25	강원도여행 강원도휴가지 삼척여행 삼척휴가지 삼척신선골 가족야영 가족캠프 야영갈만한곳 박 일 가족야영
-kbs2_happysunday_1bak2il	funkskull	POST	pymcnuk-qlzc		2011-08-25	오크밸리 여름휴가 박 일 광속질주닷 tagexclamation
-kbs2_happysunday_1bak2il	ohyeosu	POST	pymcos0-wzto		2011-08-26	스마트폰 스마트폰이 없다 마이피플 pc버전 tagexclamation 링크 게장 간장게장 여수게장 동게장 여수 박 일 황금빛돌게장 포항
-kbs2_happysunday_1bak2il	si127p	POST	pymcoyl-xy7n		2011-08-25	펜션전문 소셜커머스 커즐 cuzzle 박 일 주말 여행 계획 있으세요tagquestion 저흰 커즐 장 다녀온답니당 tagexclamation 박 일 여행 펜션여행 서울 근교 여행 가평 여행 강원 강원도 여행 가평 펜션 강원 강원도 펜션 주말여행 주말 나들이 나들다 펜션 펜션 소셜커
-kbs2_happysunday_1bak2il	smileharuall	POST	pymcpai-ylewh		2011-08-25	강호동 강호동이 강호동이라 사람 사다 요즘 참 차다 욕 많다 먹는 듯 박 일 국민적 사랑 받다 프로 음식갖고 장난치다 싫다던 울 울다 아버지 투덜거리다 웃다 보더 보더라 나도 나다 나 박 일 팬 강호동 장삿속 배신 요런말 요런말은 좀 조다 심한거 같다
-kbs2_happysunday_1bak2il	yagiroom	POST	pymcr3z-v81c		2011-08-25	경주여행 경주세계문화엑스포 경주세계문화엑스포 현장 박 일
-kbs2_happysunday_1bak2il	mho1840	POST	pymcrcp-_gk3n		2011-08-25	예능 무한도전 런닝맨 박 일 출발드림팀 강심장 밤밤 해피투게더드라마 몽땅내사랑 몽땅내사 무사백동수 계백 보스를지켜 공주의남자음악프로 뮤직뱅크 쇼음악중심 인기가요 나는가수 불후의명곡 중에하나라도보는사람미투 taglove
-kbs2_happysunday_1bak2il	rlawhddud7	POST	pymcsfj-fpa1		2011-08-26	박 일 끝나다 청춘불패 뜨다 뜨는구 이번 청춘불패 에서 에서는 씨스타 씨스타나 미쓰에이 나오다 tagsmile 웹
-kbs2_happysunday_1bak2il	nec	POST	pymcthi-ed_e		2011-08-25	공명 블로그판 대광역시 특집 tagsmile kbs방송 박 입다 차별화 위해 위하다 서울특별시 시작 tagsmile 전국각지 선관위 선관위를 돌아보다 tagexclamation 내일로여행 유의사항 대한민국 대도시 여행루트 공명 블로그
-kbs2_happysunday_1bak2il	roh011	POST	pymcudw-_1_nj		2011-08-25	전라 박 일 여행지 추천 죽녹원
-kbs2_happysunday_1bak2il	cowwin12	POST	pymcyfm-o9w6		2011-08-25	친구 유입 많다 한달동안 쉬다 그게 어째서 이유 되는거냐 tagcry 힐링 뮤직타 뮤직타임 며칠 전 보다 박 일 나오다 노래 노랗다 심야 라디오 빼다 않다 선곡 그땐 제목 몰랐네 신승훈 신승훈의 라디오 키다 근 달만 달만인 월 일 오늘 진꾸 진꾸이 추천곡 년 신승훈 신승훈의 radio wave wave라 미니앨범 번 벌다 트랙 타이틀곡 나비효과란 노래 여기 트랙이 트랙이였구 몰랐음
-kbs2_happysunday_1bak2il	kji206	POST	pymc_49-5apsf		2011-08-25	완주여행싱그런 자연향기 그대 대아수목원 완주 박 일여행
-kbs2_happysunday_1bak2il	sharplovei	POST	pymc_dj-5cdjp		2011-08-25	오션월드 오션월드로 박 일 갔다오다 tagsmile 지치다 tagcry 도착한날과외가두개라 과외다끝내고집가는중 tagsmile 피곤피곤 zz
-kbs2_happysunday_1bak2il	kimsangil880	POST	pyme08x-5hgb9		2011-08-22	박 일 여름특집 재밋네 재밋네요 tagsmile
-kbs2_happysunday_1bak2il	hit0307	POST	pyme0wu-yfg48		2011-08-22	행복 노력순 노력순입니 몇일전 박찬호 선수 박 일 응원문구 쓰다 말 정말 멋지다 말인것 같다 저 노력 최선 다하다
-kbs2_happysunday_1bak2il	sy03301226	POST	pyme2g4-5tt3r		2011-08-22	박 일 시청자투어 나도 나다 나 하고싶다 tagcry tagcry 성시경
-kbs2_happysunday_1bak2il	dlalwl0316	POST	pyme35o-_yknd		2011-08-22	난 나다 날다 실사 공개 자신 없어서요 tagsmile 운 울다 좋다 박 일 합격 볼수있겠죠 tagsmile 실사궁금하몀 붙을수 붙을수있게 기도 tagsmile
-kbs2_happysunday_1bak2il	euejin72	POST	pyme47d-y3rfc		2011-08-22	식미투이것 진정한물회 tagexclamation 포항 맛집 맛집으 소문 물회집 맛집 맛집은 잘안믿는편 잘안믿는편인데 이곳 물회 물회는 내가먹어본 물회중 최고 박 일촬영했단말이 무색하지않을정도로 맛나다 아으 또 먹고싶어 tagcry
-kbs2_happysunday_1bak2il	jinoging93	POST	pyme4r6-_c4pm		2011-08-22	오늘 ze s 박 일 캠프 tagexclamation 헤어지다 전 절다 셀카 한방 tagexclamation 여러분 함누 함누입니 함누입니다 요즘 민우 민우가 셀카 셀카에 재미 붙이다 붙 같다 어제 오늘 정말 신나다 신나 날들이 tagsmile 내년 캠프 기대가 기대 되다 그럼 오늘 하루 마무리 잘 자다 하시고 하시 미다 goodnight tagexclamation i taglove ze s
-kbs2_happysunday_1bak2il	gnfmcm	POST	pyme57j-go32		2011-08-22	저 박 일 애청자로써 종영 아쉽다 하다 하지 솔직 강호동 강호동이 멤버 다 사람이잖아 돈 돈 출처한국 최고 스포츠 엔터테 엔터테인 오센 t토크 ttalk
-kbs2_happysunday_1bak2il	limit012	POST	pyme8bw-_kum6		2011-08-22	sk sk와 함께한 다문화 캠프 dream ing 박 일 후기 tagexclamation
-kbs2_happysunday_1bak2il	tnwhlovejw	POST	pymeaok-q4er		2011-08-22	박 일 밀양여행 고고싱 tagexclamation 타다
-kbs2_happysunday_1bak2il	gocheongsong	POST	pymedui-_mnz_		2011-08-22	일요일 일요 오전 해피선데 해피선데이 박 일 폭포특집 재방송 되다 주왕산 주왕산이 등장 많다 분들 분들이 주왕산 주왕산을 떠올리다 기분 좋다 ㅁ 이제 날씨 제법 선선 선선해지 있다 tagexclamation 가을 되다 멋 주왕산 기대 주다 tagexclamation 박 일보러가기 주왕산 박 일 폭포특집 가을주왕산
-kbs2_happysunday_1bak2il	hongah88	POST	pymej79-_jaj3		2011-08-22	박 일 너무너무 기대돼애 tagsmile 근데 가는건 주말 가다 가늘다 월요일 이렇게 통보하면 일 어떻다 하다 tagexclamation 룰루랄라
-kbs2_happysunday_1bak2il	bysunyol	POST	pymejgj-sco7		2011-08-22	박 일 달후면 끝나잖아 끝나잖아요 근데 예 전 김종민 김종민이 마지막회 마지막회로 히말 히말라 가다 가자 한거 기억하시는분tagquestion tagsmile
-kbs2_happysunday_1bak2il	elottery	POST	pymekzk-5qvg9		2011-08-22	박 일 결국 무수 인기 남다 이제 종착역 가다 갈다 하다
-kbs2_happysunday_1bak2il	changdong412	POST	pymelnk-56a0w		2011-08-22	이렇게 좋다 한 하다 번 못하다 미안 소외계층 대상 행복 만들다 국내여행 박 일 동행취재
-kbs2_happysunday_1bak2il	tetris_han	POST	pymer5f-yw3t5		2011-08-22	생각 난 나다 날다 tagexclamation 제가 제 좋아하다 주말 예능프로그램 개 개다 랍니돠 ㅁ 무한도전 세바퀴 박 일 tagexclamation 그런데 박 일 종영 하네욤 tagexclamation 이제 일요일 즐겁다 하나 하다 하 사라지다 잉잉 tagcry 애청 프로그램 없어지다 왠지 마음 허전 해져용 박 일 종영 후속 프로그램 당일치기 박 일 어떤가요tagquestion tagsmile
-kbs2_happysunday_1bak2il	bbzago	POST	pymesyo-_g9w7		2011-08-22	박 일 엄태웅 엄태웅은 개발 tagsmile 치밀 분석
-kbs2_happysunday_1bak2il	jazzfiction	POST	pymevyl-yilee		2011-08-22	박 일 폐지 안타깝다 것 그동안 박 일 때문 때문에 해외 여행 줄다 국내 관광 내수 늘어나다 점이에 점이에요 전 해외 놀이기구 연예인 태운다거 아이돌 걸그룹 걸그룹을 번지점프 기구 위 올려놓다 울린다거 울린다거나 괌 비치 비치에 남녀 연예인 연예 물놀이 시킨다거 시킨다거나 했죠
-kbs2_happysunday_1bak2il	jhseo867	POST	pymews5-_5qmx		2011-08-22	어제 박 일 박찬호 박찬호가 한 하다 말 말다 기록 언젠가 깨어지다 마련 과정 영원 말 설령 오류 있다 하다 토달고 싶다 않다 멋지다 tagexclamation 내다 크다 힘 되다 한마디
-kbs2_happysunday_1bak2il	tkanrlrn	POST	pymey51-_t46i		2011-08-22	박 일 박찬호 재회 박 일 이승기 이수근 박찬호 박찬호와 깜짝재회 화제
-kbs2_happysunday_1bak2il	han02jjang	POST	pymf0f4-mzmq		2011-08-22	전현무 박 일 객원mc 신고식 성시경 반말공격 휘청 http blog 웹
-kbs2_happysunday_1bak2il	han02jjang	POST	pymf0rj-mzmq		2011-08-22	박 일 이승기 나pd 비난 비 제작비 어디 어디에 써요tagquestion http blog 웹
-kbs2_happysunday_1bak2il	film2529	POST	pymf1cr-5foqx		2011-08-22	강호동 박 일 전원 개월 뒤 종영
-kbs2_happysunday_1bak2il	wollla	POST	pymf1la-hqv		2011-08-23	경포해수욕장 발도장 tagexclamation 휴가라서막돌아다니고있어요어젠 박 일촬영지속초아바이순대오늘은경포대 근데휴가가폐인되감 via 아임in
-kbs2_happysunday_1bak2il	72vusen	POST	pymf1mp-5oa3o		2011-08-22	성시경 박 일 지침서 tagexclamation 성시경 박 일 성시경 박 일 지침서 내용은tagquestion tagexclamation 성시경 박 일 지침서 아무 아무도 믿지마 믿지마라 분명 숨기다 음모 성시경 박 일 지침서 폭소 tagexclamation 성시경 나영석pd천적 성시경 박 일 나pd 나pd에 논리적 반박 큰웃음 선 서다 설다
-kbs2_happysunday_1bak2il	haenaemcar	POST	pymf1qu-_gof0		2011-08-23	자동차렌트 렌트카대리점 국내여행 박 일여행지추천 자동차렌트 손쉽다 떠나다 국내여행지 박 일 코스 자동차렌트 렌트카대리점 국내여행 박 일여행지추천 자동차렌트 손쉽다 떠나다 국내여행지 박 일 코스
-kbs2_happysunday_1bak2il	rovining	POST	pymf2aa-19ly		2011-08-26	후아 넘 피곤 오늘 잠시 앉다 틈 없다 계속계속 바빴다 내다 박 일로 일 가족 여행가 월욜 토욜 일 연속근무 tagcry 내다 여행 기대감 없다 연속근무 고통 먼저 걱정 어쨌던 잘 자다 놀다오려 놀다오려고 노력할꺼지 tagsmile
-kbs2_happysunday_1bak2il	wjdrlghd002	POST	pymf4ez-f6ob		2011-08-25	스파이명월 장희진 스텔라 김가영 김가영에 굴욕 누 누가 감하다 박 일 국악고 소녀 김가영 김가영을 무시할소냐tagquestion 인스티즈 instiz
-kbs2_happysunday_1bak2il	bestman44	POST	pymf4fz-5dnqk		2011-08-22	시골 박 일
-kbs2_happysunday_1bak2il	annabellee01	POST	pymf4nn-_hjul		2011-08-25	최지우머리지고는못살 이은재머리 최지우바디펌 긴머리바디펌 최지우머리색 박 일최지우머리 최지우앞머리 최지우머리스타일 최지우머리스타 최지우긴머리 최지우짧은머리 최지우묶음머리 긴머리웨이브
-kbs2_happysunday_1bak2il	hangyu113	POST	pymf5cb-y9fsk		2011-08-25	뭐시냐 쇼핑몰 병영체험 박 일 하는거 있다 여성 위한거라고tagquestion 만 말다 천원tagquestion tagexclamation 그것 할인가tagquestion tagexclamation 난 나다 날다 무료 년감 tagsmile 부럽죠tagquestion 난 나다 날다 죽을꺼 같다
-kbs2_happysunday_1bak2il	starmotion	POST	pymf5jm-_1uj8		2011-08-22	박 일 박찬호재회
-kbs2_happysunday_1bak2il	tae6666	POST	pymf5pt-5cdf0		2011-08-26	박 일 시청자 투어 타다 부산 가다 갈다 tagexclamation
-kbs2_happysunday_1bak2il	starmotion	POST	pymf5ue-_1uj8		2011-08-22	박 일 이승기매니저
-kbs2_happysunday_1bak2il	starmotion	POST	pymf68a-_1uj8		2011-08-22	박 일 전현무 성시경 기습반말 격노
-kbs2_happysunday_1bak2il	starmotion	POST	pymf6y1-_1uj8		2011-08-22	박 일 성시경 박 일지침서
-kbs2_happysunday_1bak2il	choi203t	POST	pymf7wh-_kyri		2011-08-27	박 일로 일 다녀오다 경주여행 일
-kbs2_happysunday_1bak2il	dena9875	POST	pymf86r-5pr4i		2011-08-22	이제 종영 박 일 tagcry ㅇ tagcry 강호동 진짜 대단 강호동 하나때메프로그램 사라지다 완전 잼있었는데 개월 동안 모두 빠팅해주세 빠팅해주세요 taglove 은초딩 허당 앞잡이 엄포스 김종밥 시베리아수컷호랑 시베리아수컷호랑이 모두 모두 빠빠 빠빠이 tagcry ㅇ tagcry 박 일 taglove
-kbs2_happysunday_1bak2il	hanbada_02	POST	pymf877-52ktk		2011-08-23	천상 박 일 막걸리 에서
-kbs2_happysunday_1bak2il	mh0628ws	POST	pymf8a0-ywxr_		2011-08-23	아들녀석 박 일동안 완성 밀레니엄펠콘 tagsmile 스타워즈시리즈 대단한레 너무크 너무크고 너무비싸 이거사면서 랑이 랑이와 아들 무지 뿌듯해 난 나다 날다 오만인상다쓰면서 저걸 사야겠냐 사야겠냐고 tagcry 몰도 몰도하 몰도하며 완성해 완성해내 녀석 참 차다 보기좋다
-kbs2_happysunday_1bak2il	smy0618	POST	pymf8fr-yp116		2011-08-25	박 일명품조연촬영펜션두번째방문 tagsmile 너무신ㄴㅏ고재밋었던 박 일바다여행
-kbs2_happysunday_1bak2il	myway558899	POST	pymf92c-tc_0		2011-08-23	박 일 개월 후 종영
-kbs2_happysunday_1bak2il	hansong86	POST	pymf99r-5m_s4		2011-08-22	에잇 강호동 강호동이 옮다 옮기다 안옮기 뭔상관 뭔상관이 tagexclamation 솔직 박 일 강호동 강호동을 못본다는거 자체 슬프 출처한국 최고 스포츠 엔터테 엔터테인 오센 t토크 ttalk
-kbs2_happysunday_1bak2il	dong	POST	pymfadp-x_p		2011-08-22	성시경 성시경의 강력 한방 박 일 강타 주변 있으
-kbs2_happysunday_1bak2il	itoa	POST	pymfapa-ahtb		2011-08-22	박 일 박 일 이승기 끌어들이다 끌어 개월 시한부 전원하차 강호동 살리기위 살리기위한 물타기인가tagquestion tagexclamation
-kbs2_happysunday_1bak2il	bebop209	POST	pymfaug-ygp5b		2011-08-22	아고 아고고 집 tagsmile 내일 내 어딜 가다 뭔 박 일동안 학년 강의 듣다 에라 에라이 스벌 귀찮다 tagcry
-kbs2_happysunday_1bak2il	rn1234rn	POST	pymfax4-_c8k7		2011-08-23	디밍님 디밍님의 millet 카피라이팅 tagexclamation 박 일 폐지 안ㄷㅐ tagcry 애드라떼
-kbs2_happysunday_1bak2il	dasol5306	POST	pymfcga-5qw0t		2011-08-23	박 일 이승기 이수근 일본서 박찬호 재회
-kbs2_happysunday_1bak2il	kwb4788	POST	pymfeeq-5z6fe		2011-08-23	속초시 박 일 추천 여행 관광 코스 가볼만한곳 드라이브 daum카페
-kbs2_happysunday_1bak2il	darkbike77	POST	pymfh7j-5lyhy		2011-08-25	동해바 동해바다 박 일 여행
-kbs2_happysunday_1bak2il	chunjiin68	POST	pymfhe5-58mw_		2011-08-23	이승기 박 일 제작비 의혹 제기
-kbs2_happysunday_1bak2il	gudwl0314	POST	pymfjc2-y47mk		2011-08-25	나 나다 지금 박 일 캠프간당
-kbs2_happysunday_1bak2il	vistavi	POST	pymfkb_-5t4_2		2011-08-22	성시경 박 일 지침서
-kbs2_happysunday_1bak2il	goldpapa	POST	pymfktf-yva27		2011-08-25	노금채 노금서 노금서와 년 두번째 캠핑 노을공원내 위치 노을캠핑장 초록잔디위 신나다 신나 박 일 지내다 잔디 넓다 펼쳐지다 있다 축구 좋아하다 금채 금채는
-kbs2_happysunday_1bak2il	goldpapa	POST	pymfkv1-yva27		2011-08-25	노금채 노금서 노금서와 년 두번째 캠핑 노을공원내 위치 노을캠핑장 초록잔디위 신나다 신나 박 일 지내다 잔디 넓다 펼쳐지다 있다 축구 좋아하다 금채 금채는
-kbs2_happysunday_1bak2il	upstorm	POST	pymfls4-y64mc		2011-08-23	준혁이네가족 박 일 http gwangdaeri kr shop board phptagquestionboard freeboardcommand bodyno
-kbs2_happysunday_1bak2il	ghdwntjr111	POST	pymfm2m-_t1y2		2011-08-22	박 일박찬호재회 박 일박찬호재회 박 일박찬호재회
-kbs2_happysunday_1bak2il	snick42	POST	pymfo4g-_sbo6		2011-08-26	수지씨 지금어디신지tagquestion 혹시부산이신가염tagquestion 박 일공연가셨어요tagquestion
-kbs2_happysunday_1bak2il	oops5177	POST	pymfoz3-ymer0		2011-08-23	한탄강 한탄강에 오다 여름 막바지 레프팅 레프팅을 할껀대 물 장난 장 아니다 tagsmile 흙탕흙탕 저번주 박 일 나오다 장소 하다 난 나다 날다 못봤으니 패쓰 tagsmile
-kbs2_happysunday_1bak2il	dong	POST	pymfs25-x_p		2011-08-22	백지영 박 일 시청자투어 합류 설레다
-kbs2_happysunday_1bak2il	dong	POST	pymfsah-x_p		2011-08-22	절대 국민예능 박 일 사라지다 일 예능
-kbs2_happysunday_1bak2il	zelitea	POST	pymfsf9-5onyp		2011-08-23	아 맞다 이번주 금요일 대구 가다 박 일 되다 가능성 있구 있구요 당일치기 되다 가능성 있구 있구요 목적 여행겸 사촌형 보는거 보는거라 자유시간 예상 예상보다 많을것 같다 박 일 다음날 풀 푸다 자유 잊을뻔 하다 오래간만 가다 가보 대구 어떨지 궁금 하다 하 기대다 기대 되다 tagsmile
-kbs2_happysunday_1bak2il	gusdud9390	POST	pymft44-_w8b1		2011-08-22	이승기 박 일 제작비 사용처 의혹 제기
-kbs2_happysunday_1bak2il	sub07045	POST	pymftgv-y3gw7		2011-08-23	박 일 잠깐 나오다 씨스타
-kbs2_happysunday_1bak2il	songboyun	POST	pymftif-ysa5c		2011-08-26	박 일 이승기 엄태웅 나영석 pd 이적설 이적설에 아직 아직은 지켜보다 때 http m tvreport co kr rc phptagquestionidx 놀랍다
-kbs2_happysunday_1bak2il	ideamank	POST	pymftpr-5wvy3		2011-08-23	박 일 나타나다 나타 백지영 이번 역할
-kbs2_happysunday_1bak2il	il77059	POST	pymfttn-yefpw		2011-08-23	원문 tistory 박 일 iframe src http durl me ey dc 웹
-kbs2_happysunday_1bak2il	myway558899	POST	pymfu7x-tc_0		2011-08-23	박 일 이승기 나영석 pd pd를 추궁
-kbs2_happysunday_1bak2il	a608700	POST	pymfuel-_5t49		2011-08-26	tagsmile 나는지금 캠프 박 일 tagexclamation 하루자는
-kbs2_happysunday_1bak2il	gs343	POST	pymfui3-grr6		2011-08-25	성서초 다문화자녀 세계  문화 배우다 박 일간 쁘띠 프랑스서 문화체험 캠프
-kbs2_happysunday_1bak2il	choo2am	POST	pymfv48-_ygry		2011-08-23	박 일 종영 tagcry
-kbs2_happysunday_1bak2il	tkdcjf7777	POST	pymfvkl-szte		2011-08-23	해군본부 그쪽 그쪽이라니까 그쪽이라니까요 tagsmile 해군 군장학생이기 군장학생 때문 때문에 소집교육 인해 박 일간 그쪽 그쪽으 가게 가다 되다 나중 취임하고 그쪽 그쪽으 가겠죠 tagquestion
-kbs2_happysunday_1bak2il	dlghdyd0602	POST	pymfx4z-zvw9		2011-08-22	박 일 남극은가고끝내
-kbs2_happysunday_1bak2il	jihey840430	POST	pymfzf2-yqnbk		2011-08-22	박 일 부부동반 tagquestion 여행 내년 우리 부부 taglove
-kbs2_happysunday_1bak2il	impok1004	POST	pymfzf_-8ktp		2011-08-25	가족여행 국내여행영월 선돌 박 일 촬영지
-kbs2_happysunday_1bak2il	starmotion	POST	pymf_0f-_1uj8		2011-08-22	박 일 성시경 나영석 pd 천적 나영석pd굴욕
-kbs2_happysunday_1bak2il	shkjjkap	POST	pymf_9c-ymopw		2011-08-22	우봉재단 부곡 하와이서 연합캠프 개최 박 일 신났답니다 뉴시스
-kbs2_happysunday_1bak2il	starmotion	POST	pymf_cp-_1uj8		2011-08-22	박 일 이승기 한류스타 인증 일본 공항
-kbs2_happysunday_1bak2il	hoteljapan	POST	pymg1pq-t8wx		2011-08-26	비코티에스 사 사다 촌 현장 tagexclamation kbs방송출연 녹색충전토요일 녹색충전토요 전 영암 영암에 무화과 따다 따르다 가다 tagexclamation 박 일 유쾌 우리들이야기
-kbs2_happysunday_1bak2il	stylisthanul	POST	pymg896-_w5s7		2011-08-26	축제 시작 tagexclamation 종영 앞두다 박 일 시청자 투어 화기애애
-kbs2_happysunday_1bak2il	ttlmini	POST	pymg9rz-y15oc		2011-08-26	경주여행 경주 박 일 여행코스 석굴암 가다 가 가보 싶다 석굴암 경주여행 마침표 찍다
-kbs2_happysunday_1bak2il	dmsdo860dddd	POST	pymgiby-_au7j		2011-08-26	박 일 종영 결국 강호동 없다 안되는건가tagquestion
-kbs2_happysunday_1bak2il	mi782536	POST	pymgirs-_s7k0		2011-08-27	개월 빠빠 빠빠할 박 일 tagexclamation
-kbs2_happysunday_1bak2il	seunggigirl	POST	pymglu3-meo2		2011-08-26	박 일 시청자투어 타다 스포 사진 사다
-kbs2_happysunday_1bak2il	map9612	POST	pymgn4o-yenyc		2011-08-27	나탭하나샀다 tagsmile 지금탭 지금탭으 박 일보는중 tagsmile
-kbs2_happysunday_1bak2il	samxing	POST	pymgngz-5qds7		2011-08-27	박 일 봄맞이 단체사진  방출 tagexclamation 엄태웅 어디있게tagquestion
-kbs2_happysunday_1bak2il	ksy2nd	POST	pymgteq-8n91		2011-08-27	가평 출바알 ㅁ 박 tagexclamation 일 tagexclamation
-kbs2_happysunday_1bak2il	ektha8658	POST	pymgty_-5veb3		2011-08-27	이번달 기분 오르락 내리락 tagsmile 신나다 신나 친구 박 일 신나다 신 tagsmile 이제 출바알 taglove 가평 하늘수채화펜션
-kbs2_happysunday_1bak2il	dong	POST	pymgtzj-x_p		2011-08-26	박 일 마지막 시청자 투어 투어는 부산
-kbs2_happysunday_1bak2il	ek3758	POST	pymgved-y5231		2011-08-27	박 일 뒤통수
-kbs2_happysunday_1bak2il	samxing	POST	pymgvih-5qds7		2011-08-27	김하늘 펫 첫 촬영 박 일 꽃바구 꽃바구니 야생녀 인증샷
-kbs2_happysunday_1bak2il	yoora0524	POST	pymgx8o-phwh		2011-08-27	차갑다 물살 가르다 시원 바라다 바람 느끼다 느끼 올 오다 여름 첫 물놀이 신나다 신 고얄클럽 청평 박 일 여행
-kbs2_happysunday_1bak2il	suny7808	POST	pymgyg2-jesi		2011-08-26	강촌여행 경춘선타 경춘선타고 친구 오붓하다 박 일 강촌여행tagsmile 바베큐파티
-kbs2_happysunday_1bak2il	minsu7209	POST	pymgz3k-ye5ai		2011-08-26	베스트그곳 거제편 이야기 있다 그곳 한 하다 눈 살 사다 거제 박 일 준비 중 추천 좀 조다 해 하다 주다
-kbs2_happysunday_1bak2il	ggulwooriii	POST	pymgz5h-5g1lt		2011-08-26	여행은떠나는순간도즐겁지만어디로갈지 무얼먹을지 어디어묵을지 계획을짜는순간의행복 주섬주섬가방을싸는순간의설레임이더나를들뜨게 주섬주섬가방을싸는순간의설레임이더나를들뜨게한다 박 일을준비하는한달의설레 캬 tagexclamation
-kbs2_happysunday_1bak2il	ggulwooriii	POST	pymgz66-5g1lt		2011-08-26	여행은떠나는순간도즐겁지만어디로갈지 무얼먹을지 어디어묵을지 계획을짜는순간의행복 주섬주섬가방을싸는순간의설레임이더나를들뜨게 주섬주섬가방을싸는순간의설레임이더나를들뜨게한다 박 일을준비하는한달의설레 캬 tagexclamation
-kbs2_happysunday_1bak2il	ggulwooriii	POST	pymgz_e-5g1lt		2011-08-26	여행은떠나는순간도즐겁지만어디로갈지 무얼먹을지 어디어묵을지 계획을짜는순간의행복 주섬주섬가방을싸는순간의설레임이더나를들뜨게 주섬주섬가방을싸는순간의설레임이더나를들뜨게한다 박 일을준비하는한달의설레 캬 tagexclamation
-kbs2_happysunday_1bak2il	ggulwooriii	POST	pymgz_s-5g1lt		2011-08-26	여행은떠나는순간도즐겁지만어디로갈지 무얼먹을지 어디어묵을지 계획을짜는순간의행복 주섬주섬가방을싸는순간의설레임이더나를들뜨게 주섬주섬가방을싸는순간의설레임이더나를들뜨게한다 박 일을준비하는한달의설레 캬 tagexclamation
-kbs2_happysunday_1bak2il	jung2918	POST	pymh3qs-5dda5		2011-08-27	박 일
-kbs2_happysunday_1bak2il	dudtj0216	POST	pymh4ku-yw3ee		2011-08-27	박 일 하차 재밌었어요 tagcry
-kbs2_happysunday_1bak2il	se5281	POST	pymhh7s-5eu6c		2011-08-27	엄마 박 일동안 여행쫌가보자 너희끼리쫌있어봐 tagexclamation 미쿠씨쌍둥 미쿠씨쌍둥이 빨리가버려 tagexclamation
-kbs2_happysunday_1bak2il	starnim8	POST	pymhizv-nlle		2011-08-27	리더십 캠프 tagsmile 재밌는 애들 짱많다 tagsmile 비 난 나다 날다 참 차다 평범 tagcry 박 일 참 차다 재미 있을거 같다 tagsmile
-kbs2_happysunday_1bak2il	cakesaseyo	POST	pymht_x-yy3tz		2011-08-27	후포 박 일 씹다 뜯다 맛보다 맛 즐기다
-kbs2_happysunday_1bak2il	above4392	POST	pymhvkj-gauy		2011-08-27	전 절다 이 가다 토 일요일 학원가 학원가는 시간 하필 전부 버라이어티 할때 할때야 tagcry ㅡ 무도 못 남격 박 일 다 못본다능 tagsmile 에휴
-kbs2_happysunday_1bak2il	dkimk	POST	pymhyk4-ytlar		2011-08-27	오늘 박 일시청자투어촬영이래 tagexclamation 부산쪽에있는기장군예절학교갔다던데 가시는분들넘흐부럽 tagcry
-kbs2_happysunday_1bak2il	madotuki	POST	pymhzyk-2f2h		2011-08-27	유피 코리아 박 일 종영tagquestion tagcry
-kbs2_happysunday_1bak2il	98dlwjdwo	POST	pymi42b-c8d6		2011-08-26	오 tagexclamation 내 박 일 본 보다 칸 tagexclamation 노래 노랗다 실력은tagquestion 슈퍼스타k
-kbs2_happysunday_1bak2il	param25	POST	pymi652-_w_nh		2011-08-26	박 일 마지막 시청자투어 부산
-kbs2_happysunday_1bak2il	god_love408	POST	pymi90c-_wrl2		2011-08-26	박 일 일정 박 일로 일 tagsmile 와우 정말 신나다 놀다 tagsmile
-kbs2_happysunday_1bak2il	africamong	POST	pymi919-_gwk9		2011-08-26	여름휴가 가평 박 일 가평 떠나다 여름휴가 tagexclamation
-kbs2_happysunday_1bak2il	bergi22	POST	pymid2g-ypbge		2011-08-26	박 일 오늘 부산 뱅기타 뱅기타고 출발 어디 어디로 가셨을까나tagquestion 몹시 궁금 인 승기 어딨니tagquestion
-kbs2_happysunday_1bak2il	insos02	POST	pymieu6-_8lnw		2011-08-26	박 일 무료다시보기 시청자투어 대비캠프 박 일 무료다시보기 시청자투어 대비캠프
-kbs2_happysunday_1bak2il	nice9710	POST	pymifbu-l5a2		2011-08-26	박 일 부여여행 국립부여박물관
-kbs2_happysunday_1bak2il	milksoap	POST	pymifss-yhnk		2011-08-26	아빠 아빠딸 아빠딸은 게으름뱅이 벌레 박 일 가다 가늘다 가 짐 수하물 부친다구 요런 이쁜이 캐리어 주심 알다 타야잖아 타야잖아요 꺄 몰랑몰랑 재질 재다 tagexclamation 쌤쏘나이트 tagexclamation 최강간지 형제
-kbs2_happysunday_1bak2il	teensnature	POST	pymig3x-fhlg		2011-08-25	서울 종로 종 광장시장 박 일 강호동 강호동이 쵤영 곳 가다 여러종류 음식 먹어보고싶어 tagexclamation tagsmile
-kbs2_happysunday_1bak2il	hoon9108	POST	pymimlh-_ajfc		2011-08-26	바닷가 박 일 놀다 가다 오다 피곤피곤
-kbs2_happysunday_1bak2il	africamong	POST	pymipme-_gwk9		2011-08-26	여름휴가 계곡 박 일 가평 떠나다 여름휴가 tagexclamation 타다 계곡 가다 가
-kbs2_happysunday_1bak2il	namseokkang	POST	pymipz_-yn5v0		2011-08-26	생선구 생선구이 완전 유명 집 tagexclamation 박 일 나오다 집 맛 그닥 쩝tagsmile
-kbs2_happysunday_1bak2il	wiseguessman	POST	pymirdk-_o1qk		2011-08-26	엄마 아빠 동생 셋이서 박 일 나오다 쌍계사 불일폭포 놀러갔다옴 ㅡ tagsmile
-kbs2_happysunday_1bak2il	rosewhang	POST	pymiy0f-eezm		2011-08-25	재미있었다고 소문 박 일 폭포특집 보다 보 볼 아프다 웃다 눈물 나다 나 그르다 보다 보 어느덧 am tagsmile 웃기다 죽다
-kbs2_happysunday_1bak2il	gjwlgus26	POST	pymiy_n-yycur		2011-08-26	박 일 시청자투어 부산 기장 문화예술학교 촬영한다네 tagcry 어제 여인 향기 의정부 못 오늘 같다 부산 살다 기장 못가 못가고 tagsmile
-kbs2_happysunday_1bak2il	chunjiin68	POST	pymi_r2-58mw_		2011-08-26	남다 남 개월 박 일 보다 하다 하 이유
-kbs2_happysunday_1bak2il	angelove17	POST	pymj1fi-5vqnd		2011-08-23	어제 저녁 안동찜닭 tagexclamation 안동 구시장 서문 입구 바 오른쪽 집 tagsmile 박 일 가다 현대찜닭집 안 알다 열다 tagcry 근데 수원 수원이 대구 먹은거 먹은거랑 맛 다름 다르다 tagexclamation 역시 본고장 먹어 먹어야 하 으흑 tagsmile 근데 따 따로 반마리 시키는게 없다 한마리 시키다 완죤 많다 tagexclamation 남자 남다 넷이서 한마리 한마리에 공기밥 공기밥시키면 충분 먹겠심 tagsmile 남친 남친이 둘 둘이 숨 안쉬 안쉬고 맛있다 먹 배터질뻔 tagsmile
-kbs2_happysunday_1bak2il	chen9233	POST	pymj1yq-y117a		2011-08-24	제주 정방폭포 박 일팀 일팀이 폭포순례 다녀가다 제주 정방폭포
-kbs2_happysunday_1bak2il	redjevi	POST	pymj3s7-yw_jg		2011-08-23	내일 내 쉬는 쉬는날 그리구 웬수님 웬수님도 휴가시작 tagexclamation 가고싶은곳 하고싶은것 먹고싶 먹고싶은 거 거다 모두모두 나보구 정하다 아 힘들당 tagsmile 뮤지컬 보고싶고 연극 괜찮을듯 츄천좀해줘요 휴가라 휴가라해 당일 당 아니다 박 일정도 일정도라 바다 바다랑 산 패쓰 tagsmile
-kbs2_happysunday_1bak2il	samsongnim	POST	pymj9r8-y6sv_		2011-08-23	복귀 후 첫 촬영 시 내고향 이라 이라니 그것 박 일 출장 아 슬프다 슬픔 노래 표현 출장 두렵다 않다 철야 참다 참 있다 하다 하지 배 오르다 것 나르다 나 슬프다 해 하다 보고싶다
-kbs2_happysunday_1bak2il	nafly001	POST	pymjg7k-_manz		2011-08-24	요즘 뭐 봐tagquestion 최지우 김정태 성동일 나오다 지다 지고 못살아 못살아는 마치 내다 박 일 스핀오프 느끼다 의외 상 재밌고 재밌고나 모두 다 결혼 연애 지상명령 삼다 마당 이혼 향하다 달려가다 모습 그리다 것만 것만으 신선 tagexclamation 코믹 tagexclamation 최지우 진작 이러지 그랬 싶다 만큼 귀엽다 속물적 이기적 은재 역할 딱 tagexclamation 김정태 김정태는 등장 큰웃음 큰웃음을 딱 tagexclamation
-kbs2_happysunday_1bak2il	beauty7290	POST	pymjn8t-5eca4		2011-08-23	박 일 이승기 첫 출연 tagexclamation 혹한기대비캠프 평창 가다 가늘다 가 길 기다 타다 년 월 일
-kbs2_happysunday_1bak2il	nacho350	POST	pymjp3h-ybxbe		2011-08-23	최고 생일파티 친구 박 일 캠핑파티 집 가는중 tagexclamation
-kbs2_happysunday_1bak2il	lee690625	POST	pymjq62-y1awc		2011-08-23	컴 컴으 박 일 다운받은거보는데왠수 오빠 ㅏ뺏음
-kbs2_happysunday_1bak2il	tbworld_tv	POST	pymjq7w-_clkj		2011-08-23	영리 박 일 가시방석 강호동 tbworld
-kbs2_happysunday_1bak2il	bb00dd	POST	pymjx4y-tbjh		2011-08-25	충 청양칠갑산 출렁다리 소개 천장호출렁다리 박 일촬영지 충남여행 청양여행 출렁다리
-kbs2_happysunday_1bak2il	partyon	POST	pymjy0w-ljbt		2011-08-23	박 일파티룸서울파티룸파티룸모텔호텔파티룸
-kbs2_happysunday_1bak2il	beauty7290	POST	pymj_ig-5eca4		2011-08-23	이승기 박 일 소중 자산
-kbs2_happysunday_1bak2il	doraemoo29	POST	pymj_ov-ylfym		2011-08-23	재석오빠너무좋아 재석옵하가나오는방송프로그램은다봐 런닝맨무도해투놀러와는안보지만 tagcry 호동오빠도좋지만재석오빠보단안좋아 tagsmile 그래도호동오빠는좋아요근데호동오빠안좋을것 그래도호동오빠는좋아요근데호동오빠안좋을것같아 그래도호동오빠는좋아요근데호동오빠안좋을것같아요 박 일 개월만하고전원다해체해서 호동오빠 좋다
-kbs2_happysunday_1bak2il	beauty7290	POST	pymj_sa-5eca4		2011-08-23	이승기 tagexclamation 박 일 종방 종방은 준비 도전 기회
-kbs2_happysunday_1bak2il	h026819	POST	pymm0zr-54gbx		2011-08-25	울할머 울할머니 굉장 내일 내 박 일 촬영하러간데 개쩜
-kbs2_happysunday_1bak2il	lshrsg	POST	pymm36l-yh710		2011-08-27	박 일 팀 찾을려 찾을려고 시간 뛰어댕겼는데 꼬빼기 꼬빼기도 안보
-kbs2_happysunday_1bak2il	k0304a	POST	pymm4c3-_rjzb		2011-08-27	드뎌 박 일 여행 마 마치 집 돌아왔당 너무재밋었어tagsmile tagsmile
-kbs2_happysunday_1bak2il	carmaster000	POST	pymm6zx-ydfu8		2011-08-27	강호동 박 일 하차 이해 안가 안가는 가지 가다 이유
-kbs2_happysunday_1bak2il	miru811122	POST	pymmax8-ys5zl		2011-08-24	안면 갤러리펜션 여행후기 안면 바닷가펜션 안면 펜션추천 서울 가까운펜션 박 일여행코스 안면 추천코스
-kbs2_happysunday_1bak2il	poup	POST	pymmet3-23fc		2011-08-24	박 일 국악고 김가영 걸그룹가수 데뷔
-kbs2_happysunday_1bak2il	mission2547	POST	pymmfy6-yxg08		2011-08-27	월 말쯤 말쯤에 친구 박 일 여행 갈 가다 계획 어디 괜찮은곳 없다 tagquestion참고 여자넷 tagsmile
-kbs2_happysunday_1bak2il	paewang90	POST	pymmk4g-ynzkd		2011-08-25	박 일 놀고왔어 놀고왔어요 tagsmile 늦여름 평일 평 오전 캐리비안베 캐리비안베이 캐리비안베이는 북적북적 아쿠아루프 아쿠아루프만 몇번 몇번을 타다 tagsmile
-kbs2_happysunday_1bak2il	snrnsrk2717	POST	pymml9w-_swz8		2011-08-27	박 일 개월 뒤 종영 안하다 수도 수 있다네 있다네요
-kbs2_happysunday_1bak2il	teensnature	POST	pymmlbz-wu8t		2011-08-25	저 박 일 폭포특집 은지원 은지원이 가다 삼부연폭포 한번 가다 가 가보 싶어요tagsmile
-kbs2_happysunday_1bak2il	cjsdkwodlf	POST	pymmn7b-5w7sl		2011-08-27	무도가조으세 박 일이좋으세요tagquestion
-kbs2_happysunday_1bak2il	rmnrmn	POST	pymmqmo-_o085		2011-08-24	박 일 이케종영결정될껄알아쓰면 엄태웅이드러왓을까 엄태웅이드러왓을까나
-kbs2_happysunday_1bak2il	yunie98	POST	pymms4q-ytgwm		2011-08-25	박 일 개월후에끝 개월후에끝난다 개월후에끝난다니
-kbs2_happysunday_1bak2il	llhabitually	POST	pymms9x-_ki4c		2011-08-27	경북예천회룡포 tagsmile 박 일강호동이왔다간후 인기가득 tagexclamation 분등간후볼수있는광경 회룡포
-kbs2_happysunday_1bak2il	yunie98	POST	pymmslf-ytgwm		2011-08-25	박 일말고뭘보
-kbs2_happysunday_1bak2il	king11029	POST	pymo01w-yj5r6		2011-08-24	주말 박 일로 일 놀러가기좋은데 추천좀 하다 tagsmile
-kbs2_happysunday_1bak2il	leeeunji4622	POST	pymo2fq-ufxl		2011-08-25	강호동 이승기 박 일 개월 시한부 잔류 tagcry tagcry 승기 오빠 볼 보다 있다 유일 길 강심장 강심장은 넘 늦다 tagcry
-kbs2_happysunday_1bak2il	beauty7290	POST	pymo3ln-5eca4		2011-08-26	박 일 오늘 kbs 앞 이승기 짧다 영상 swf 오늘 박 일 시청자투어 촬영 대박 이승기도 이승기 대박
-kbs2_happysunday_1bak2il	beauty7290	POST	pymo3_d-5eca4		2011-08-26	박 일 제 회 시청자투어 오늘 이승기 사진 사다 오늘 이승기 미모 빛나다 정말 많다 피곤 어제 강심장 밤 시되어촬영 끝나다 방청객 오랫동안악수와인사 다 오늘 박 일시청자투어 촬영 부산 가다 복불복 실내취침 다 잘
-kbs2_happysunday_1bak2il	wojusun1	POST	pymo7_f-yx5ss		2011-08-26	박 일재방송보자아 강호동 잼없을수도 하다 하지 이수근이잇으 다행 tagquestion
-kbs2_happysunday_1bak2il	ehwjd9	POST	pymo9zd-_rszm		2011-08-27	박 일 재방보는대 비빔밥나옴 빡침ㅍ나도먹을태 빡침ㅍ나도먹을태야
-kbs2_happysunday_1bak2il	stylisthanul	POST	pymogki-_w5s7		2011-08-24	김정태 박 일 종영 아쉽다 덕분 대출 갚다
-kbs2_happysunday_1bak2il	spastar7	POST	pymohnk-5x8tg		2011-08-24	박 일 시즌 박 일 시즌 가능성 높다 tagexclamation
-kbs2_happysunday_1bak2il	in9525	POST	pymohvk-_fkzt		2011-08-27	박 일 끝나다 이제 무슨재미 살지tagquestion tagcry 일주일피로 승기오빠보 풀다 tagcry 안데안데 tagexclamation tagcry 못가절 못가절대 tagexclamation 흐아앙 tagsmile 승기 하차안 남기로했었짜 tagcry 이건 불공평헤 s fair
-kbs2_happysunday_1bak2il	spastar7	POST	pymohvn-5x8tg		2011-08-24	무한도전 유재석 무한도전 유재석 vs 박 일 강호동
-kbs2_happysunday_1bak2il	sakuraruby	POST	pymoi3j-566q9		2011-08-27	박 일이라짐쌀게없네가방이휑뎅 엔간한게다호텔에 오늘은낮잠마니마니자야지새벽 시기상예정
-kbs2_happysunday_1bak2il	daisy	POST	pymoibk-vt		2011-08-24	금요일 금요 새벽 시 년생 올해 일흔넷 일흔넷의 울엄니 tagexclamation kbs 박 일 시청자 함께하 함께하는 박 일 여행 떠나다 tagexclamation 아 떨다 떨리다
-kbs2_happysunday_1bak2il	pc520	POST	pymoii4-qum4		2011-08-27	엄태웅 백통 백통이 실종 주민 여러분 보호 주다 http www hg times com news articleview htmltagquestionidxno 박 일 나오다 백통이 백통이가 사라지다 tagsmile hg times
-kbs2_happysunday_1bak2il	wlsdk1132	POST	pymojff-_ajsq		2011-08-24	박 일에서돌와습니당 tagexclamation
-kbs2_happysunday_1bak2il	beauty7290	POST	pymokag-5eca4		2011-08-26	박 일 제 회 시청자투어 오늘 이승기 사진 사다
-kbs2_happysunday_1bak2il	bangwontai	POST	pymokvi-_dlrd		2011-08-23	박 일이승기간두타산에다녀왔습니 네비로두타산을찍고두타산등산로입구로갔습니다 등산 시간째 계곡도안나오 이상하다싶어스맛폰 확인 써글 동해무릉계곡두타산 탓어 탓어야 했는데그반대삼척으로 올라가다 있다 아 ㅄ tagcry 갈계획잇으신분들네비에무릉계곡치세 가다 쌍폭포 쌍폭포도 못 무릉계곡 못 가다 머 에잇ㅄ
-kbs2_happysunday_1bak2il	godhoi45	POST	pymomfj-y2u_x		2011-08-27	아항 지금여기서 박 일팀 일팀이 촬영하고잇네용 tagsmile 이승기보고싶지 비공개촬영 tagcry
-kbs2_happysunday_1bak2il	tbworld_tv	POST	pymon61-_clkj		2011-08-27	박 일 강호동 강호동만 희망 tbworld
-kbs2_happysunday_1bak2il	dldbfla1245	POST	pymoq62-2f4f		2011-08-25	엄마가컴터그만하라고하심니 tagcry 칫 tagcry tagcry 혼자 박 일보면서웃고는우리엄마님 tagsmile 지금내눈에오빠의신상가방이눈에뛰군 tagsmile 지만사 지만사고 tagcry 나도좀사주지 사달라고했다간안드로메다로날아갈꺼가타 tagcry 아아아앜치킨먹고싶다 tagcry 안돼살쪄 tagcry
-kbs2_happysunday_1bak2il	beauty7290	POST	pymotiq-5eca4		2011-08-27	박 일 시청자투어 kbs 앞 이승기 사진 사다
-kbs2_happysunday_1bak2il	esthete0214	POST	pymotsc-55von		2011-08-25	도심 속 여름휴가 즐기다 박 일 호텔패키지 w호텔수영장 wet wet과 워커힐 수영장 리버파크
-kbs2_happysunday_1bak2il	couscous_in	POST	pymotsy-syut		2011-08-24	박 일 지난 지나다 지 폭포 특집 때 강호동씨 참 차다 유달리 배신자 이미지 걱정하길래 뭔 오버 하다 예능 다르다 것 아니다 배신 이 이미지 뭘 얼마 크다 대중 각인 되다 근데 시간 지나다 작금 사태 보다 보 신경 쓰일 쓰일만 했겠다 싶다
-kbs2_happysunday_1bak2il	spastar7	POST	pymot_e-5x8tg		2011-08-24	박 일 시즌 박 일 시즌 가능성 있다tagquestion
-kbs2_happysunday_1bak2il	ingsunsoo	POST	pymou7u-_as3d		2011-08-27	박 일 촬영지 아바이마을왓는데 아바이순대 tagexclamation 생선구 생선구이 tagexclamation 맛있는음식먹고잇는데 완전 굿 tagsmile 모두 한번씩 놀러오다 먹어 볼 음식들인거같습니다tagsmile
-kbs2_happysunday_1bak2il	dong	POST	pymou96-x_p		2011-08-24	박 일 강호동 강호동과 무한도전 유재석
-kbs2_happysunday_1bak2il	michelle0408	POST	pymove0-y3yvn		2011-08-24	나 나다 지금 평창 박 일 보내다 속초 속초로 가다 박 일 보내다 속초 가는중
-kbs2_happysunday_1bak2il	zenith830	POST	pymox1u-_a8op		2011-08-27	박 일 여자 다섯 놀러가는거 치다 또 장 과하다 본 보다 같다 tagsmile 먹다 죽다 죽 귀신 때깔 곱다잖아 곱다잖아를 착실 수행 우리 tagsmile
-kbs2_happysunday_1bak2il	ehr0389	POST	pymoxgn-yfu27		2011-08-24	박 일안끋 일안끋나길 웹
-kbs2_happysunday_1bak2il	rosewine87	POST	pymoxr_-yo_vi		2011-08-24	박 일 가는길 가는길인데 tagsmile 장본목록 tagsmile ㄷㄷ 아이궁 tagcry
-kbs2_happysunday_1bak2il	4minute_jh	POST	pymo__q-_qq1z		2011-08-23	내 사는곳 사는곳은 tagsmile 박 일 한번 왔었던곳 tagsmile tagsmile 여기다 여기 어디 일까요tagquestion tagsmile 어렵지tagquestion tagsmile
-kbs2_happysunday_1bak2il	lemsunjung	POST	pymp0ix-5ht8c		2011-08-23	경주 테디베어 박물관가서 찍다 사진 장난치다 tagsmile 서울역도착 tagexclamation 박 일 힘들다 여행 마 마치 집 gogo 근데 집다 집 언제가지 tagcry
-kbs2_happysunday_1bak2il	cjc7251	POST	pymp0s_-yeafy		2011-08-25	로니 로니의 생각 해피선데 해피선데이 박 일
-kbs2_happysunday_1bak2il	naver_news	POST	pymp4bx-bj_k		2011-08-22	연예 시한부 박 일 버킷리스트 선 서다 설다 네이버 뉴스 news 스포츠동 스포츠동아 박 일 버킷리스트
-kbs2_happysunday_1bak2il	hanigold	POST	pymp6n9-yh6vp		2011-08-23	오늘 영재학급 안가서 시간 남다보 남다보니 지현 집 놀다 tagsmile 피아노땡땡이 피아노땡땡 tagsmile 혜워 혜워니 지혀니 지혀니랑 아딸 떡볶이 순대 사먹다 지혀니네 젠가 젠가하 티비 티비보 박 일 술래잡기 tagsmile 애들 애들이 움직이다 내 진짜 못잡아서 쩔쩔매다 학원늦었다 tagcry
-kbs2_happysunday_1bak2il	carmaster000	POST	pymp72b-ydfu8		2011-08-24	필사즉생 박 일 마지막 승부수 통할까tagquestion 시즌 가능성은tagquestion
-kbs2_happysunday_1bak2il	chlwjd0011	POST	pymp7sq-5fv2o		2011-08-22	박 일로 일 놀다 가요 가다 가
-kbs2_happysunday_1bak2il	puig00	POST	pymp8_y-5wnrl		2011-08-22	친구 박 일로 일 경주 다녀오다 tagexclamation 주변인 고하다 경주 웬만하다 가지마시길 tagsmile 아무리 관광지라지 tagsmile 바가지 교통편의 압박 tagsmile 하다 하지 굳이가고싶다면 경주 성동시장 우엉김밥 들다 오세영 ㅅ 싸다 싸 맛나다 맛 우엉김밥 교리김밥은왜유명한건지모르겠음
-kbs2_happysunday_1bak2il	jisiklog	POST	pymp9qf-_rcxy		2011-08-22	박 일 시청자투어 백지영 전현무 성시경 담 누군가 누군가요 전현무
-kbs2_happysunday_1bak2il	ickjong	POST	pympc01-zzb		2011-08-22	일하다 옆 틀어둔 박 일 박찬호 박찬호의 부상 뒤 첫 실전등판 직전 굳다 찾아가다 것 일본 간 가다 갈다 후 인터뷰 답변 질문 또 던지다 것 박 일 팬 아니다 박찬호 팬 어이 없다 지경 결과보단 과정 중요 고 말 박찬호 박찬호는 역시 멋지다 메이저 기회 갖다 못하다 걸 눈물 아쉬워 한국 바 돌아가다 없다 한국 야구계 서운해 이젠 일본 새롭다 도전 하다 과정 의미 찾다 있다 얼추 도인 다 되다 박찬호 멋지다 당신 당신의 마지막 한 하다 걷다 걸음 팬
-kbs2_happysunday_1bak2il	milledental	POST	pympcdy-5otk4		2011-08-22	박 일 박찬호 재회박찬호 딸 따다 공개 박찬호 부상 후 첫경기 응원이벤트 박찬호 미모 아내
-kbs2_happysunday_1bak2il	dkwlxm77	POST	pympcn2-hyk1		2011-08-25	단양 도담삼경 tagexclamation 한노총 워크셥 tagexclamation 박 일 오전 산행 마 마치 오후 단양팔경중 하나 도담삼봉 끝 일정 마치 그리다 내삶 내삶의 터전
-kbs2_happysunday_1bak2il	winchaser	POST	pympdjp-yvx6h		2011-08-25	박 일 vs 무한도전 tagexclamation 오늘 바쁘다 오전 오후 예상 되다 쿠쿠 맛점 전 힘차다 시작 하시구 하시구요 tagsmile
-kbs2_happysunday_1bak2il	kkambbak	POST	pympdkr-5cdqp		2011-08-25	경 통영 통영 소매물 소매물 박 일 촬영지 망태봉 등대섬
-kbs2_happysunday_1bak2il	jkhopes	POST	pympdv2-ygl2m		2011-08-23	박 일 혹사
-kbs2_happysunday_1bak2il	ky4016	POST	pympe2c-wsgr		2011-08-23	박 일로 일 벌초 오다 원쓰 원쓰와 원쓰아부지 tagexclamation 보구자펐옹 tagcry tagcry
-kbs2_happysunday_1bak2il	faketoy	POST	pympe4s-5jp56		2011-08-22	박 일 토렌트
-kbs2_happysunday_1bak2il	roony0933	POST	pympfw8-574t2		2011-08-25	강호동하차설 박 일 결국 개월뒤 종영결정
-kbs2_happysunday_1bak2il	winpopup	POST	pympg9z-e0vm		2011-08-24	박 일 거창 알다 인극제 여행 번외편 경남민족예술인대회 박 일 거창 알다 인극제 여행 번외편 경남민족예술인대회 daum카페
-kbs2_happysunday_1bak2il	nailstan	POST	pympgun-hd4w		2011-08-22	충청 충청남 충청남도 서해안 가 가다 볼 곳 태안 반도 반 여행 신진 낚시 수산시장 꽃게철 서울 가깝다 박 일 가족 여행지
-kbs2_happysunday_1bak2il	pinkvane	POST	pymph88-micd		2011-08-25	저녁 복불복 tagexclamation tagsmile 우리 박 일tagquestion tagexclamation 꽃등심주세 tagexclamation tagsmile
-kbs2_happysunday_1bak2il	tbworld_tv	POST	pymphj2-_clkj		2011-08-24	박 일 시즌 가능성 높다 tbworld
-kbs2_happysunday_1bak2il	noble66	POST	pymphux-5wj4i		2011-08-25	낙산 낙산해수욕장 강원 강원도 양양 년 월 일 박 일
-kbs2_happysunday_1bak2il	st0ney	POST	pympkp2-fde4		2011-08-25	천당폭포 박 일 영향력 예전 우 한마디 하다 하 지나치다 폭포 였는데 이번 이번에 보 tagsmile 천당폭포
-kbs2_happysunday_1bak2il	behrcl1014	POST	pympm1h-58sls		2011-08-22	박 일 버라이어티 버라이어티를 등에업고 전국 돌며 지역 특산무 소개 맛집소개 그리다 각 관광명소 소개 과거 출처한국 최고 스포츠 엔터테 엔터테인 오센 t토크 ttalk
-kbs2_happysunday_1bak2il	laelae53	POST	pympmh_-552nv		2011-08-22	박 일 박찬호 재회 박 일서 박찬호 아내 딸 따다 공개 tagexclamation
-kbs2_happysunday_1bak2il	qkrrbdyddl	POST	pympmkm-_j3pd		2011-08-24	박 일 월 일 다시보기 토도우
-kbs2_happysunday_1bak2il	totoo0731	POST	pympmwg-55rxv		2011-08-22	제아스와함께 제아스와함께하 제아스와함께하는 박 일 캠프
-kbs2_happysunday_1bak2il	minidoll	POST	pympmxb-8iwx		2011-08-22	박 일 이수근 한폭 한폭의 산수화 주왕산 등산 깜놀 신선 쉬어가다 폭포 뉴스 뉴스스크랩
-kbs2_happysunday_1bak2il	djm06142	POST	pympm_a-yfasm		2011-08-25	박 일보는데 tagsmile 아 지우개 쌈하 쌈하내 tagsmile
-kbs2_happysunday_1bak2il	totoo0731	POST	pympn2w-55rxv		2011-08-22	제아스 제아스와 함꼐 함꼐하 함꼐하는 박 일 캠프
-kbs2_happysunday_1bak2il	gimono412	POST	pympoe1-5hab_		2011-08-22	박 일 이승기 나pd 제작비 사용처 의혹 제기
-kbs2_happysunday_1bak2il	dalzu-79	POST	pympq70-5jzdm		2011-08-22	박 일 전현무 성시경 반말 듣다 분노
-kbs2_happysunday_1bak2il	jubang2455	POST	pymptob-_qaa9		2011-08-22	박 일 박찬호 재회 예쁘다 두 딸 자상 아빠
-kbs2_happysunday_1bak2il	you9583	POST	pymptsj-y9opf		2011-08-24	회사 리조트사용권 쓰다 공지 무주리조트 개 개다 정도 박 일 한 하다 만언 만언에 이용할수있다넹 이용 tagsmile 수습 이용 가는ㅇ
-kbs2_happysunday_1bak2il	partyon	POST	pympv0u-ljbt		2011-08-24	박 일호텔 활용 즐겁게보내자 tagexclamation
-kbs2_happysunday_1bak2il	epp1	POST	pympvgk-y4bs6		2011-08-22	이승기 박 일제작비 의혹제기
-kbs2_happysunday_1bak2il	vpfkfldpscy	POST	pympvm7-5qqaq		2011-08-25	박 일 입니 입니다
-kbs2_happysunday_1bak2il	vpfkfldpscy	POST	pympvp7-5wi4h		2011-08-25	아오 손님 언제 가실랍니까tagquestion 손님 설마 설다 박 일tagquestion 음 음 tagsmile
-kbs2_happysunday_1bak2il	eccedu	POST	pympvu8-_hdnt		2011-08-22	돈 문제 아닌듯 아닌듯합니다 아닌듯합니다만 실제 이유 알 수가 수 없다 답답 박 일 모 멤버 힘내다 기 출처한국 최고 스포츠 엔터테 엔터테인 오센 t토크 ttalk
-kbs2_happysunday_1bak2il	beauty7290	POST	pympxlk-5eca4		2011-08-24	박 일 이승기 예능황제 변함 프로정신
-kbs2_happysunday_1bak2il	epp1	POST	pympxrd-y4bs6		2011-08-22	박 일 전현무 아 성시경 반말 분노
-kbs2_happysunday_1bak2il	yongsan-gu	POST	pympysa-5t09q		2011-08-25	용산구 지난 지나다 지 일 박 일간 여성 지도자 역량강화 위하다 워크숍 워크숍을 통하다 여성단체 활성화 방안 지도자 나아가다 할 하다 방향 고민해보 시간 가지다
-kbs2_happysunday_1bak2il	wqop2	POST	pymqreu-_0q12		2011-08-27	서바이벌나는임원 tagexclamation 박 일 엑스맨 등이섞여만들어진우리의엠티 그리고꽂지해수욕장 그곳에서의맛있었던라면 꽃게탕 어느것하나라도잊을수없는추억이생겼다 taglove
-kbs2_happysunday_1bak2il	snick42	POST	pymr0cc-_sbo6		2011-08-25	아직도촬영중 아직도촬영중이시군 힘내다 저희 살짜리아들래미 살짜리아들래미도 내다 박 일시청자투어촬영가요홧팅해주세
-kbs2_happysunday_1bak2il	teensnature	POST	pymr0he-5s24i		2011-08-25	해외 가다 가 가보 싶다 우리 우리나라 안 알다 가다 곳 엄청 많다 박 일 봤었던 거문도 거문도에 가다 가 가보 싶다 싶어 조용 섬 여유롭다 휴식 취하다 취하 싶다 tagsmile
-kbs2_happysunday_1bak2il	spastar7	POST	pymr25l-5x8tg		2011-08-22	박 일 시청률 박 일 시청률 상승
-kbs2_happysunday_1bak2il	spastar7	POST	pymr2nu-5x8tg		2011-08-22	박 일 박찬호 박 일 박찬호 이승기 이수근 재회 tagexclamation
-kbs2_happysunday_1bak2il	spastar7	POST	pymr2o7-5x8tg		2011-08-22	박 일 박찬호 박 일 박찬호 미모 아내 오다 아이들 공개 tagexclamation
-kbs2_happysunday_1bak2il	magig888	POST	pymr2so-yrwg3		2011-08-22	박 일 동안 열나다 놀수잇던이유 여신 열다 개만 개만아 ㅇㅇ 고딩 누나 ㅇㅇ
-kbs2_happysunday_1bak2il	st0ney	POST	pymr4f5-fde4		2011-08-26	박 일모드 시작 두타산 무릉반석 인증샷 다시tagsmile 계곡속 통신 안되다 무릉반석
-kbs2_happysunday_1bak2il	hugex	POST	pymr4wj-v4f		2011-08-26	박 일 시청자 투어 타다 부산 tagexclamation
-kbs2_happysunday_1bak2il	hd67so73	POST	pymr72q-_stt2		2011-08-22	박 일 이승기 나pd 제작비 사용처 의혹 제기 오셔서 즐기다 tagexclamation 여우 야 처소 처소로 놀러오다 tagexclamation 왼편 주소 주다 보이죠tagquestion joinsmsn
-kbs2_happysunday_1bak2il	ary1454	POST	pymr75c-55lgt		2011-08-22	뭐 개월후라하지만이제 박 일끝나면무슨재미로사 일끝나면무슨재미로사나 tagsmile
-kbs2_happysunday_1bak2il	pde87	POST	pymr75s-y9l7y		2011-08-22	tagquestion발이오그라들지않았어 tagexclamation 이런목소리참 좋은데담주 박 일본방ㄱㄱ
-kbs2_happysunday_1bak2il	davin808	POST	pymr7ek-hko		2011-08-22	런닝맨 나가수 를 따라잡다 방법 런닝맨 런닝맨은 다 좋다 전혀 공감 안가 안가고 오버 편집 프로그램 다 망치는듯 별것 아닌것 가지다 가지 놀라다 반전 드립 하는거 하는거랑 별 궁금 않다 비밀 어쩌고하면서 예고하는거 정말 비호감 알다 주말예능 런닝맨 예전 박 일도 일 억지감동 자막 다 망치다 놓다 어째 어째든 나가수보단 재밌음
-kbs2_happysunday_1bak2il	fourflowers4	POST	pymr7w5-ypw8r		2011-08-22	오늘 학교 쳐박혀 있다 그런지 다리 욱씬 거리다 아프다 tagcry 집 오다 컴터 컴터하니까 또 박 일 이야기 tagcry 쳇 안볼려 안볼려고 해도 하다 해 자꾸 나오다 tagcry 화제 바꾸다 오늘 머리 묶다 역시 역시나 잔머리 대폭발 대폭발하 말았다네 tagsmile 내머리 내머리는 왜 외다 그럴까 그럴까요 tagsmile
-kbs2_happysunday_1bak2il	param25	POST	pymr9bt-_w_nh		2011-08-22	백지영 박 일 시청자투어 타다 출연
-kbs2_happysunday_1bak2il	maplestory72	POST	pymr9ck-5seso		2011-08-26	박 일 숨겨진인물
-kbs2_happysunday_1bak2il	webhosting	POST	pymraan-4_ac		2011-08-22	원문 전현무 박 일 전현무 성시경 반말 듣다 분노 전현무 전현무가 놀랍다 예능감 선보이다 화제 일 방송 kbs tv 해피선데 해피선데이 박 일 이하 박 일 에다 김병 김병만 백지영 성시경 전현무 전현무가 객원mc 출연 시청자투어 대 웹
-kbs2_happysunday_1bak2il	jts5933	POST	pymrc18-52_ej		2011-08-22	박 일 백지영 내 사랑 사람 정석원
-kbs2_happysunday_1bak2il	powerguy	POST	pymrch7-eq1i		2011-08-26	박 일 준비 생일 차리다 프로젝트 성공적 출시 완료 생일 생 완전 축하 tagsmile
-kbs2_happysunday_1bak2il	haenaemcar	POST	pymrfq2-_gof0		2011-08-22	자동차렌트 렌트카대리점 국내여행 박 일여행지추천 자동차렌트 손쉽다 떠나다 국내여행지 박 일 코스
-kbs2_happysunday_1bak2il	limnsong	POST	pymri9d-5m60x		2011-08-22	김포 지유 온유네 박 일 방문기
-kbs2_happysunday_1bak2il	beauty7290	POST	pymrich-5eca4		2011-08-24	박 일 이승기 예능황제 변함 프로정신 예능황제 이승기 진정 프로네 프로네요
-kbs2_happysunday_1bak2il	korean2070	POST	pymrjh6-5hmwi		2011-08-24	차태현 폐지 앞두다 박 일 나가다 싶다 리얼예능 욕심
-kbs2_happysunday_1bak2il	kyoungt70	POST	pymrk7m-bxvq		2011-08-22	원문 성시경 성시경의 강력 한방 박 일 강타 주변 있다 피곤 스타일 웹
-kbs2_happysunday_1bak2il	spastar7	POST	pymrn0z-5x8tg		2011-08-22	박 일 제작비 박 일 제작비 도대체 어디 어디다 쓰나tagquestion
-kbs2_happysunday_1bak2il	spastar7	POST	pymrn3a-5x8tg		2011-08-22	박 일 박찬호 박 일 박찬호 덕 시청률 상승 tagexclamation
-kbs2_happysunday_1bak2il	skyzzxx27	POST	pymrn4w-y84jw		2011-08-22	저기뭐 저기뭐야 다르다 다름 아니구 아니구요 오늘 아침뉴스타임 연예수첩 보고 보다 보 알다 예능프로그램 박 일 종료 되다 하던대 정말 멤버 모두 하차 하나요그리 박 일 시즌투 시즌투도 제기 하더라구 하더라구요
-kbs2_happysunday_1bak2il	sunhee4166	POST	pymrnna-_d9ki		2011-08-26	오늘 박 일 마지막 시청자 투어한뎁 tagcry 근데 부산 거 거다 tagexclamation 나 나다 부산여잔데 어디서 하는거지tagquestion가고싶어 tagcry 셤 셤도 끝나다 어디 어디있 어디있나 어디있나요 박 일tagquestion 가고싶어 가고싶어 가고싶어 가고싶엇 tagexclamation
-kbs2_happysunday_1bak2il	tanjin	POST	pymropj-ye3ap		2011-08-22	박 일 동해피서탐방
-kbs2_happysunday_1bak2il	uworthmylife	POST	pymrpos-5tom9		2011-08-22	부산 박 일 여행가려는데 tagsmile 부산 갔다오다 분들 갈 곳 추천
-kbs2_happysunday_1bak2il	iken	POST	pymrqin-ybodl		2011-08-24	만나고싶엇던 tagexclamation 좋은추억 가지고갈 tagsmile 박 일동안 고맙다 tagsmile 잊지못할꺼 잊지못할꺼다 tagsmile 키킥
-kbs2_happysunday_1bak2il	angels5257	POST	pymrqt6-_bh_j		2011-08-22	박 일 이승기 나 나다 pd 비난 비
-kbs2_happysunday_1bak2il	kihwankwon1	POST	pymrs4o-_fa7i		2011-08-24	제주 정방폭포 박 일팀 일팀이 폭포순례 다녀가다 제주 정방폭포 tagexclamation
-kbs2_happysunday_1bak2il	wlsdk1132	POST	pymrslf-_ajsq		2011-08-22	내이드디어복지관 박 일가 tagexclamation
-kbs2_happysunday_1bak2il	meli	POST	pymrsuh-yy1a		2011-08-22	박 일여행지 주말여행 곤지암리조트 가족여행 곤지암리조트 내 내다 조식부페 미라시아 mirasia
-kbs2_happysunday_1bak2il	angels5257	POST	pymrs_b-_bh_j		2011-08-22	박 일 박찬호 미모 아 아내 귀요미 두 딸 따다 공개 보기 보다
-kbs2_happysunday_1bak2il	spastar7	POST	pymruh4-5x8tg		2011-08-22	박 일 박찬호 박 일 박찬호 일본 집 방문
-kbs2_happysunday_1bak2il	spastar7	POST	pymruph-5x8tg		2011-08-22	박 일 성시경 박 일 성시경 나pd 나pd와 천적tagquestion tagexclamation
-kbs2_happysunday_1bak2il	62moablog	POST	pymrv5l-5bvh7		2011-08-22	박 일 회 다시보기
-kbs2_happysunday_1bak2il	ashicham	POST	pymrvhi-_yo2m		2011-08-22	박 일 종영 박 일 마지막 회 박 일 시청률
-kbs2_happysunday_1bak2il	st0ney	POST	pymrvsf-fde4		2011-08-26	박 일모드 시작 두타산 무릉반석 인증삿 무릉반석
-kbs2_happysunday_1bak2il	ehfcn354	POST	pymrw5t-5t5g7		2011-08-22	아빠 수영동호회 해양캠프 다녀오다 내 첫눈 반 여자아이 봤어염 tagsmile 아이 절 맘 들어하는거 같은뎅 박 일동안 같다 있다 지금 자꾸 생각 지워지지 않아 tagcry 가을 가을이 겨울 또 모임 바라다 바 그때 또보자 taglove 내다 사랑이왔나tagquestion
-kbs2_happysunday_1bak2il	giholee2	POST	pymrz4b-r87l		2011-08-22	월 일 경기 시흥시 과림저수지 에서 박 일
-kbs2_happysunday_1bak2il	mountkorea	POST	pymrz__-yw_p5		2011-08-22	박 일 전현무 성시경 반말 듣다 분노
-kbs2_happysunday_1bak2il	mc1985	POST	pymr_s3-57dq9		2011-08-24	박 일 촬영 장소 직탕폭포 다녀오다
-kbs2_happysunday_1bak2il	kittyn5	POST	pymt30i-a1z2		2011-08-26	물안개 피다 피 마을 박 일 예쁘다 펜션 밀양 관광 밀양 휴가
-kbs2_happysunday_1bak2il	jung2918	POST	pymt6e8-5dda5		2011-08-26	박 일촬영지금어디서할까요tagquestion부산 일촬영지금어디서할까요tagquestion부산인데 보고싶네
-kbs2_happysunday_1bak2il	kimmgrno1	POST	pymt8ex-ylxiv		2011-08-26	ovjet 달콤달달 조개구 조개구이 파는곳 파는곳이 자갈마당 하다 박 일 이대호 이대호랑 이승기 왔다간후 양 작아지다 ovjet 부산 사람 모임 모이다 부산광역시 북구 만덕동
-kbs2_happysunday_1bak2il	hshee95	POST	pymt9_z-5_yq		2011-08-26	월 일 해리포터 월 일 여자모임 여자모 월 일 주연이만 월 일 대학로연극 월 일 혜민 박 일 월 일 압구정 월 일 오르세미술전 월 일 활 월 일 오션월드 월 일 바로크로코코전 월 일 절 진짜 잘놀았다 이번 방학 tagexclamation
-kbs2_happysunday_1bak2il	ksy2nd	POST	pymtd5d-8n91		2011-08-27	강 보 보이 펜션도착 ㅁ 가평 박 일
-kbs2_happysunday_1bak2il	key568	POST	pymtgat-_mmp4		2011-08-26	내일하쟈 내일 내 부모님 박 일로 일 놀러가다 tagexclamation
-kbs2_happysunday_1bak2il	chansory	POST	pymtgl9-bqaw		2011-08-27	나영석 박 일 개월뒤 종영 바뀔수도 미디어오늘
-kbs2_happysunday_1bak2il	winam_p	POST	pymthr3-vysr		2011-08-27	아 피곤 잠 많다 오다 오 허리아파서 한의원갔다가 사람 사다 없다 교 교대 한시간씩 자고 자다 자 사람 사다 없다 오늘 진짜 한거 없다 보낸하루네 보낸하루네요 tagcry 집가서 책 책보 토르 토르나 봐야겠어욥 tagcry 집가면 시 진짜 바쁜게 좋다 한가 막 근무시간 할꺼 없다 멍 티비 티비보 티비보기 근무 시간 마감 다가오는군 킹콩 런닝맨 박 일 보다
-kbs2_happysunday_1bak2il	kwb4788	POST	pymti1c-5z6fe		2011-08-27	거제시 박 일코스 추천 여행 관광 코스 가볼만한곳 드라이브 아 daum카페
-kbs2_happysunday_1bak2il	h026819	POST	pymtjx8-54gbx		2011-08-27	꺄앜 tagsmile 할머니 박 일 시청자투어 가다 받아오셧어 아이씡낰 tagsmile
-kbs2_happysunday_1bak2il	dyeworld	POST	pymtk3u-zly		2011-08-26	박 일 시청자투어 타다 개시 kbs서 오프닝 촬 세 세다 어르신 일박이 일박이일 없어지다 않다 한범 설득 아쉽다 tagcry 스타뉴스
-kbs2_happysunday_1bak2il	yulim_maeng	POST	pymtkmm-_mjt2		2011-08-26	강촌 박 일 놀러오다 tagsmile 구곡폭포 tagexclamation 걸어가다 tagcry 왜들 스쿠터 타다 절실하게 느끼다 그래두 물 시원 가슴뚤어뻥 tagexclamation
-kbs2_happysunday_1bak2il	wooseokint1	POST	pymtq2e-qb9s		2011-08-27	안면도여행 안면 박 일 맛보기사진
-kbs2_happysunday_1bak2il	kji206	POST	pymtq4o-5apsf		2011-08-27	대구여행허브 펼쳐지다 한곡 한곡의 오케스트라 허브힐즈 대구 박 일여행
-kbs2_happysunday_1bak2il	fbab	POST	pymtw66-_8z0e		2011-08-26	달콤 주말 반납 엄마 박 일 여행가 tagsmile 얼른 자다
-kbs2_happysunday_1bak2il	jung2918	POST	pymtwyi-5dda5		2011-08-26	박 일촬영하고있는데비공개란다 시골에와서연애인구경하는줄알고왔는뎅 메야머랴 짐먗명안되는데구경좀시켜주지
-kbs2_happysunday_1bak2il	itoa	POST	pymw0o3-ahtb		2011-08-22	가을동화 아바이마을실향민 아프다 아픔 희망 숨쉬는곳 아바이마을 박 일 아바이마을 순대국밥 생선구 생선구이 다신식당 단천식당 가을동화마을 아바이마을 맛집강원속초속초맛집
-kbs2_happysunday_1bak2il	nabistory	POST	pymw2ep-53u7y		2011-08-26	이렇게 좋은사람 조용 곳 보내다 느즈막 느즈막한 여름 주말 조리원모임대부 박 일여행
-kbs2_happysunday_1bak2il	keynome	POST	pymw2ub-ygiiz		2011-08-24	박 일 진정 리얼 프로그램 waglewagle
-kbs2_happysunday_1bak2il	killsia79	POST	pymw2wo-5y14j		2011-08-26	서울 플라자호텔 박 일 호텔휴가 tagsmile
-kbs2_happysunday_1bak2il	ihiba	POST	pymw3po-_84li		2011-08-27	kbs 박 일 여행지 주왕산 의 별미 tagexclamation 닭불고기청송 서울여관식당
-kbs2_happysunday_1bak2il	jjeksh88	POST	pymw5xh-5axxc		2011-08-22	절대 국민예능 박 일 사라지다 일 예능 개 개다 daum연예
-kbs2_happysunday_1bak2il	qahy4169	POST	pymw9l8-_qkit		2011-08-23	박 일 tagcry 호동이외하차를하 tagcry
-kbs2_happysunday_1bak2il	chlalswn97	POST	pymwag2-y_o7f		2011-08-23	누 누가 이렇게 박 일 크다 봄tagquestion tagexclamation 시끄럽다 못자겄자 못자겄자나 tagexclamation 히밤 tagcry 무개념 tagcry
-kbs2_happysunday_1bak2il	insos02	POST	pymwbg2-_8lnw		2011-08-23	박 일 무료다시보기 시청자투어 대비캠프 박 일 무료다시보기 시청자투어 대비캠프
-kbs2_happysunday_1bak2il	itoa	POST	pymwc3d-ahtb		2011-08-23	해피선데 해피선데이 박 일
-kbs2_happysunday_1bak2il	tobytoby50	POST	pymwck6-yuh8_		2011-08-25	내일 내 레프팅좀 하고올께 하고올께요 처음가는거 많다 기대중tagsmile tagsmile 근육통 근육통도 어느정도 각오하고 tagsmile 한탄강 한탄강으 박 일 금방 갔다올꺼 tagsmile
-kbs2_happysunday_1bak2il	seytoho	POST	pymwebi-yby8c		2011-08-27	부천타임치과 부천임플란트 모닝캄빌리지 월 광복절 황금 연휴 행복 모습 tagexclamation 강원 강원도 철원 부티크 펜션 리조트 모닝캄빌리지 박 일 폭포특집 나오다 철원 경 tagexclamation 삼부연폭포 웅장 아름다움 아름답다 tagexclamation 오늘 올바르다 양치질 잊지마세 잊지마세요 tagexclamation
-kbs2_happysunday_1bak2il	go12yan	POST	pymwef8-yu9wo		2011-08-22	후훗 춘기 춘기라 이르다 이름 박 일 재방송 이정도 이정도는 지켜주는게 매너채팅이잖아tagquestion tagexclamation 욕설비방금지 초성체는벙어리
-kbs2_happysunday_1bak2il	khr060811	POST	pymwepm-yqd59		2011-08-22	제주 둘째 둘째날 예이츠산장 쌍둥이횟집 마린파크 돌고래 정방폭포 제주도폭포 바닷가폭포 박 일폭포 전복회
-kbs2_happysunday_1bak2il	dksrudals6	POST	pymwext-rzyw		2011-08-22	ㅡ최근사진 박 일 함안 계곡 갈때 찍은사진 tagsmile
-kbs2_happysunday_1bak2il	xell999	POST	pymwfdj-_a235		2011-08-27	나홀 나홀로 주왕산 박 일 주산지 송소고택
-kbs2_happysunday_1bak2il	sdz6496	POST	pymwg7p-5pdof		2011-08-27	강호동 하차 박 일 언제 강호동 나오는거tagquestion
-kbs2_happysunday_1bak2il	yoosh1981	POST	pymwhsp-_oejj		2011-08-23	문제 하나 하다 하 나가다 맞추신분 스타벅스 음료교환권 선물 넣어 넣어드립니 넣어드립니다 한분입니다tagsmile 젝스키스 리더 은지원이죠 박 일 출연 은지원 은지원의 별명 은초딩 은초딩입니 은초딩입니다 그럼 은지원 은지원의 좌우명 무엇일까요tagquestion 맞추다 스마트폰 스마트폰이 아니다 아니 카톡 카톡을 못하다 무효처리됩니다tagsmile 선물 카톡 카톡으 쏘니까요tagsmile 제 미친 미친이 몇 없다 일단 한분시작 할게 할게요 담 분tagsmile
-kbs2_happysunday_1bak2il	xell999	POST	pymwjw4-_a235		2011-08-27	나홀 나홀로 주왕산 박 일 제 폭포
-kbs2_happysunday_1bak2il	kyj7276	POST	pymwlze-uh3m		2011-08-26	쫌잇다가부싼으로캄백 박 일만에캄백
-kbs2_happysunday_1bak2il	frompic	POST	pymwmk_-_d1bz		2011-08-25	김성록 꿀따 꿀따는 폴포츠 박 일 오디션이었죠 김성록씨 김성록씨가 나오다 화제 되다 은둔고수 꿀테너 김성록 김성록입니 김성록입니다 일나다 방송 kbs tv 프로그램 남자 자격 추다
-kbs2_happysunday_1bak2il	lm6n3433	POST	pymwmvn-_sttz		2011-08-23	박 일 이승기 나pd 제작비 사용처 의혹 제기 오셔서 즐기다 tagexclamation 여우 야 처소 처소로 놀러오다 tagexclamation 왼편 주소 주다 보이죠tagquestion joinsmsn
-kbs2_happysunday_1bak2il	saalove77	POST	pymwntu-_6370		2011-08-27	박 일 전주 여행 다녀오다 네이버 블로그 복귀
-kbs2_happysunday_1bak2il	xell999	POST	pymwp9p-_a235		2011-08-27	나홀 나홀로 주왕산 박 일 달기약수터 솔기온천
-kbs2_happysunday_1bak2il	goretti75	POST	pymwpy1-5kzwp		2011-08-27	내귀 내귀에 캔디 노래 노랗다 아시죠tagquestion 클릭 함께들어 박 일 강호동 내귀 내귀에 돼지 tagsmile 보다 보 좋다 tagsmile
-kbs2_happysunday_1bak2il	shlee7217	POST	pymwqg8-5llac		2011-08-23	월 일 남양주 초록향기 박 일
-kbs2_happysunday_1bak2il	skyfly9	POST	pymwr2v-hbhy		2011-08-25	박 일 데이트
-kbs2_happysunday_1bak2il	spastar7	POST	pymwskh-5x8tg		2011-08-23	박 일 이승기 박 일 이승기 나pd 제작비 어디 어디다 쓰나tagquestion 추궁 tagexclamation
-kbs2_happysunday_1bak2il	st0ney	POST	pymwtul-fde4		2011-08-27	박 일 이수근 따라잡다 주왕산 제 폭포 제 폭포
-kbs2_happysunday_1bak2il	grace_eh	POST	pymwu8r-udz2		2011-08-23	day off 박 일 보다 보 알게 알게된 베란다프로젝트 요즘 같다 날씨 잘 자다 어울리다 앨범 같다 역시 김동률 김동률이 김동률이라 감탄사 나오다 tagsmile 네이버뮤직 day off
-kbs2_happysunday_1bak2il	kyjhod4	POST	pymwvmf-_bpst		2011-08-26	그리다 오늘 누나 친구 태백 박 일 보내다 tagsmile
-kbs2_happysunday_1bak2il	jinkyu01	POST	pymwxtt-l6np		2011-08-26	플라자 c c 설악 박 일 특별패키지 tagexclamation 박 일 상품중 괜찮다 같다 tagsmile 한번 보다 보세 mbc 골프 소셜커머스
-kbs2_happysunday_1bak2il	jaynpooh	POST	pymwyy5-99mb		2011-08-25	박 일 짧다 답사 마 마치 돌아가다 간 간만 타다 고속버스 fb
-kbs2_happysunday_1bak2il	662977	POST	pymw_yu-ylao8		2011-08-23	전 절다 오늘 박 일 여행 갔다오다 잠 못자서 좀 조다 시 떠들다 놀다 말다 말
+kbs2_happysunday_1bak2il	tatalina	POST	pym0hcp-_e0am		2011-08-22	과외끝 과외끝나 1박2 일 받다 보고 박찬호 박찬호가 쓰다 쓸다 명언 행복 노력순 노력순이 으미 찔리다 tagcry 빨리끄 빨리끄고 자서 자다 내일아침 노력
+kbs2_happysunday_1bak2il	istore00	POST	pym0het-54328		2011-08-22	1박2 일 1박2 일 박찬호 재회
+kbs2_happysunday_1bak2il	kjy5397	POST	pym0iye-_fgje		2011-08-22	원문 tistory강호동 테마주 강호동 수혜주 제이콘텐트리 1박2 일 이끌다 있다 강호동씨 1박2 일 하차 하다 소식 방송가 물론 팬 패다 들 충격 주다 그리다 결국 1박 2 2일 웹
+kbs2_happysunday_1bak2il	sksks88	POST	pym0np1-50k5v		2011-08-22	1박2 일 친구 주문진 여행 올 친구 잼 놀아썽 tagsmile
+kbs2_happysunday_1bak2il	ihiba	POST	pym0nuv-_84li		2011-08-22	1박2 일폭포특집 청송1 등맛집 주왕산 서울여관식당토종닭백숙전문점
+kbs2_happysunday_1bak2il	bomul7201	POST	pym0qa6-y795l		2011-08-22	110819 부모님 1박2 일
+kbs2_happysunday_1bak2il	crag13	POST	pym0su_-_14el		2011-08-22	캐비 캐비와 에버랜드 1박2 일 다녀왓어 다녀왓어요 돈 많다 깨졋지 깨졋지만 잼잇어 잼잇어요 tagexclamation 아싸루비아
+kbs2_happysunday_1bak2il	jeasoup	POST	pym0uf9-1p4j		2011-08-22	1박2 일 전현무 난 나다 날다 아줌마 뽀로 뽀로로 망언 오세훈 주민투표 착한거부
+kbs2_happysunday_1bak2il	xlzjrhdwn	POST	pym0vyt-sqsn		2011-08-22	1박 2 2일 시청자투어 다시보기 1박2 일 시청자투어 대비캠프 객원 mc 백지영 전현무 성시경 달인 달이다 달 김병 김병만
+kbs2_happysunday_1bak2il	hahasm84	POST	pym1011-ywrte		2011-08-22	경남출발 워터파크여행마산 창원 김해 매일출발 tagexclamation 캐리비안베 캐리비안베이 에버랜드1 박2 일패키지여행
+kbs2_happysunday_1bak2il	loanbay	POST	pym106a-yrp_n		2011-08-22	1박2 일 이승기 이수근 이수근과 박찬호 박찬호의 짧다 감동적 만남 만나다
+kbs2_happysunday_1bak2il	babynews2010	POST	pym10jb-_58o3		2011-08-22	베이비뉴스아기 함 하다 하 행복 여행 1박2 일 여행 때 짐 이민 가다 가늘다 가 사람 사다 수준
+kbs2_happysunday_1bak2il	dreamgy04	POST	pym11i4-_ywr5		2011-08-23	1박2 일 348회 다시보기 박찬호 재방송 8월21 일
+kbs2_happysunday_1bak2il	beauty7290	POST	pym1346-5eca4		2011-08-22	1박 2 2일 일본방문 이승기 한류스타 인기과시 공항 인산인해
+kbs2_happysunday_1bak2il	giokaga2000	POST	pym137q-_j7fc		2011-08-22	유통기한 남다 아무거 아무거나 먹지 맙시 맙시다 tagcry tagcry 토요일 밀가루가지고 밀가루가지 뭘 해먹다 그게 탈 나다 저녁 구토를 구토를하 열나다 몸 저리다 저리 일요일 1박 2 2일 하기 하다 전 움직이다 못하다 못 누워있었다는 뭘 먹으면 토하다 토 tagcry tagcry 지금 위 내용물 좀 조다 빼다 아우성
+kbs2_happysunday_1bak2il	ccya	POST	pym13dx-hmgu		2011-08-22	해피선데 해피선데이 1박2 일 349회 8월21 일 다시보기
+kbs2_happysunday_1bak2il	kyd2347	POST	pym15k3-yu21j		2011-08-22	1박2 일 백지영 내 사랑 사람 정석원 daum블로그
+kbs2_happysunday_1bak2il	kyd2347	POST	pym15ke-yu21j		2011-08-22	성시경 성시경이 공개 1박2 일 지침서 내용 뭐길래 daum블로그
+kbs2_happysunday_1bak2il	ggones	POST	pym15ta-yguvj		2011-08-23	1박2 일에나온 철원 철원의 삼부연폭포 도착했답니더 tagsmile
+kbs2_happysunday_1bak2il	usl425	POST	pym1633-ytw00		2011-08-22	1박2 일페지라니이이이 일페지라니이이이이 일페지라니이이이이이 안 알다 ㅇ .1 2 ㅈ 2 ㅡ 1 ㅏㅣ ㅂ tagexclamation
+kbs2_happysunday_1bak2il	parkpdkor	POST	pym16z5-5h63r		2011-08-22	어제 야구 보다 못본 런닝맨 런닝맨과 1박2 일 보는데 보는데요 박찬호선수 보다 보 멋있다
+kbs2_happysunday_1bak2il	hanmi4416	POST	pym17gq-_cu08		2011-08-23	1박2 일 종영
+kbs2_happysunday_1bak2il	yo_2ab	POST	pym18qn-_sn35		2011-08-23	1박2 일 lt lt를 마 마치 개강준비 청결사업 tagexclamation 학과사물 셋팅완료 tagexclamation tagsmile
+kbs2_happysunday_1bak2il	junes26	POST	pym1aav-yxvov		2011-08-22	강호동의 1박2 일 시청자투어3 타다 대비캠프 1편 8월21 일 방송 보기 보다
+kbs2_happysunday_1bak2il	beauty7290	POST	pym1agx-5eca4		2011-08-22	1박2 일 이승기 한류스타 인증 일본 공항 눈길
+kbs2_happysunday_1bak2il	mycom9999	POST	pym1c15-_3p65		2011-08-23	1박2 일 기자글 기자글이 내맘 내맘같군 새롭다 배신 아이콘 급부상 강호동 추락해버렷
+kbs2_happysunday_1bak2il	singingj	POST	pym1dbj-yad_0		2011-08-22	367년 367년만 mt 상상마당여행작가칼럼니스트과정 1박2 일연합 mt남양주 대성리
+kbs2_happysunday_1bak2il	hahasm84	POST	pym1e5y-ywrte		2011-08-22	부산출발 워터파크여행에버랜드 캐리비안베이1 박2 일패키지여행 tagexclamation 8월한달 매일출발확정
+kbs2_happysunday_1bak2il	ahj12070	POST	pym1fhv-_iofb		2011-08-22	1박2 일 이승기 나pd 에다 제작비 사용처 의혹 제기 참 차다 기자님 이렇게 쓰다 안돼죠 tagcry 잼 방송 왜 외다 이케 만들다 ㅡㅢ joinsmsn
+kbs2_happysunday_1bak2il	ehdcks96	POST	pym1i4w-y8uc0		2011-08-22	1박2 일 이승기 나pd 에다 제작비 사용처 의혹 제기 결론은 결론은요 tagquestion 뭐 의혹에대 결론 있다 어쩌라고 tagquestion tagcry joinsmsn
+kbs2_happysunday_1bak2il	nunurigo121	POST	pym1jn2-_9tci		2011-08-22	해피선데 해피선데이 1박2 일 대하다 tthb
+kbs2_happysunday_1bak2il	tbworld_tv	POST	pym1k9q-_clkj		2011-08-22	1박2 일 이승기 이수근 박찬호 박찬호와 깜짝재회 tbworld
+kbs2_happysunday_1bak2il	tbworld_tv	POST	pym1kkq-_clkj		2011-08-22	1박 2 2일 성시경 나영석 pd 천적 tagquestion 논리 논다 능청 입담 입다 폭소 tbworld
+kbs2_happysunday_1bak2il	diethara	POST	pym1lr9-_jsd4		2011-08-22	이승기 훈 메니저 1박2 일 이승기훈 메니저
+kbs2_happysunday_1bak2il	ssol6974	POST	pym1l_m-__iy1		2011-08-22	오늘하루 무쟈게 바쁘다 보냈읍니다 1박2 일 란딩갑니 란딩갑니다
+kbs2_happysunday_1bak2il	e40e40	POST	pym1mcv-_ozfl		2011-08-22	경주 1박2 일 여행왔는데 예정 없다 비님 비님이 내리신다진우 내리신다진우는 목이부어서 밤에열 밤에열나 밤에열나고 병원갔다가 atv탈려 atv탈려고 오다 말 콩 식당가서 진우 진우는 밥도안먹고 약먹고 자다 비가 비 그치다 진우 진우가 고대하던atv 타다 참 차다 경주
+kbs2_happysunday_1bak2il	vg0825	POST	pym1mkm-56ht_		2011-08-23	1박 2 2일 가시방석 강호동
+kbs2_happysunday_1bak2il	rkdalsgml97	POST	pym1r3s-jtt1		2011-08-23	내 내다 칭구 오늘 123명 taglove 아 위대 엄마님 1박2 일 시청중 tagcry 틴탑 틴탑을 못봐 tagcry 심심타파 기달릴까 tagquestion 리끼리끼 tagsmile 지금 있눈싸람 tagexclamation 미투 해주때 해주때여 taglove 으 5글 ㅈㅅ
+kbs2_happysunday_1bak2il	nunurigo121	POST	pym1rkn-_9tci		2011-08-22	1박2 일과 일 무한도전 wclv
+kbs2_happysunday_1bak2il	kkl5241	POST	pym1w45-63ai		2011-08-22	1박2 일 이승기 나pd 에다 제작비 사용처 의혹 제기 제목 살렸닼 tagsmile 진심낚시
+kbs2_happysunday_1bak2il	thebluehouse	POST	pym1w51-ihx7		2011-08-23	씨름 활쏘기 어린이 말타기 몽골 전통환송식 한 하다 ㆍ 몽 정상회담 통하다 포괄적 동반자 관계 격상 구체적 협력 지치다 지침 담 중기행동계획 을 채택 대통령 23 23일 몽골 대통령 마련 환송식 참석 1박 2일 2일간의 몽골 공식방문 마쳤습니다 대통령 활쏘기 보실 있다 대통령 23 23일 오후 두번째 순방국 우즈베키스탄 타슈켄트 타슈켄트에 도착 me2video
+kbs2_happysunday_1bak2il	kmirn001	POST	pym1wjv-_d1q6		2011-08-22	1박2 일 성시경 나pd 황당미션 조목조목 반박 새롭다 캐릭터
+kbs2_happysunday_1bak2il	saena0486	POST	pym1wpc-5d_rm		2011-08-22	갈라지펜션 갈라지펜션에 발도장 tagexclamation 드뎌 도착 1박2 일 지낼곳 잼 널장 via 아임in
+kbs2_happysunday_1bak2il	rion337	POST	pym1x6b-_fdnp		2011-08-22	1박2 일 폐지 이제 나영석씨 나영석씨는 어디서 보다 보 tagcry
+kbs2_happysunday_1bak2il	susuhan104	POST	pym1y_z-ygdte		2011-08-22	1박2 일 1박2 일 6개월 후 전원하차 끝내다
+kbs2_happysunday_1bak2il	onemin1004	POST	pym1_bl-5u1tr		2011-08-22	1 박2 일 나오다 철원삼부연 폭포갔다왔어요 버스타 버스타고 가다 터미널 한 하다 30분정 30분정도 걸다 가면 가다 있다 가볍다 정말 가볍다 생각정리 가다 좋은곳 좋은곳같아 좋은곳같아요 한탄강쪽으로가면 번지 벌다 점프 리프팅할수 리프팅할수있어 리프팅할수있어요 tagsmile
+kbs2_happysunday_1bak2il	ljm_777	POST	pym81mw-593me		2011-08-26	오늘 유치원 우리 아이들 1박 2 2일 원내캠프하는 아이들 모두 들떠 들떠있음 tagsmile 나도 나다 나 들떠 들떠있음 tagsmile
+kbs2_happysunday_1bak2il	teensnature	POST	pym82tu-_t622		2011-08-26	저 어디 여행지 1박2 일관가서 친구 뭔가 공부하는학생 티좀 내보고싶어용 tagsmile 가방 필기구 공책 다이어리 책 교과서 먹을것 먹을것등을 챙겨놓고 도서관갔다가 베이스캠프 놀고오고싶네 놀고오고싶네요 tagexclamation tagcry 오다 정말 좋을것같네용 tagsmile 참 차다 tagexclamation 가방 티엔 티엔도 넣고가서 친구들한테 자랑도하 자랑도 tagsmile
+kbs2_happysunday_1bak2il	grig01	POST	pym85bx-y1h0_		2011-08-24	단양 단양에 1박2 일로 일 휴가 다녀오다
+kbs2_happysunday_1bak2il	bestman44	POST	pym85d5-5dnqk		2011-08-23	시골 1박2 일
+kbs2_happysunday_1bak2il	ggusan456	POST	pym85g9-_18ra		2011-08-23	1박2 일경주여행 울산반구대
+kbs2_happysunday_1bak2il	125dbwls	POST	pym85hu-_p9a0		2011-08-24	보성녹차밭유명 tagsmile 1박2 일갔다왔대 tagsmile 보성 재미없으 tagcry
+kbs2_happysunday_1bak2il	dnwn6463	POST	pym86cx-5cka1		2011-08-27	1박2 일로 일 태안 갔당 tagsmile 재밌당
+kbs2_happysunday_1bak2il	hyunji0622	POST	pym86ig-5ah_b		2011-08-24	충북 단양 1박 2 2일 저 단양다녀왔는데 tagsmile 단양 단양으 가시다 볼것도많고 개인적 경치 좋더라구 좋더라구요
+kbs2_happysunday_1bak2il	tnttour	POST	pym87e3-566au		2011-08-26	내일 내 저희 저희는 거제도 거제도로 엠티 엠티를 떠나다 직원들8 명 두팀 두팀으 나누다 저 나pd 가 가다 되다 1박2 일 버전 으 으로 가다 실시 올리다 tagsmile
+kbs2_happysunday_1bak2il	i18966	POST	pym89zk-_pkd4		2011-08-26	잠시 후 올여름 휴가 1박2 일로 일 대명콘 대명콘도 가다 tagsmile
+kbs2_happysunday_1bak2il	tarepak	POST	pym8cpz-pdz		2011-08-24	1박2 일 복불복 도착 tagsmile 심장오구라들어서 못해먹겠네 tarepaki 플레이샵때 대활약 기대 기대다 tagexclamation
+kbs2_happysunday_1bak2il	back_hill	POST	pym8eiq-52tir		2011-08-26	1박2 일 폭포특집 은지원씨 은지원씨가 다녀오다 삼부연 폭포 tagexclamation 이곳 이곳과 더불다 삼부연 폭포 위쪽 위쪽의 터널 한국 나이아가 나이아가라 폭포 직탕 폭포 블로그 보여 보여드리리 보여드리리다
+kbs2_happysunday_1bak2il	hummel_story	POST	pym8eni-_wdhh		2011-08-23	1박2 일 여름특집 6대 폭포 찾다 은지원 험멜 운동화
+kbs2_happysunday_1bak2il	rlaskan	POST	pym8e_r-w1w_		2011-08-24	1박2 일 6개월 6개월만 6개월만하 끝낸다고 tagcry 6개월후면 아직 아직은 티비 볼수있겠다 tagsmile 나 나다 한국가면 4개월지 4개월지나 4개월지나고 남다 남 2개월 2개월이 2개월이라 1박2 일 볼수있겠다 1박2 일보는이유 50 가 가다 이승기때문
+kbs2_happysunday_1bak2il	k0304a	POST	pym8htn-_rjzb		2011-08-26	흥 tagexclamation 아무 아무도 안 알다 궁금 tagquestion 그럼쨌든 여기 딱 들어왔을때 찍은사진 올리다 tagexclamation 나 나다 내일 내 온닷 1박 2일 2일로 호텔왔어 솔직 나호텔 처음 오다 글두 되다 넓구 신기 tagexclamation 짱재밋어 tagsmile 넓다 볼거리도많구 tagexclamation
+kbs2_happysunday_1bak2il	jackmom1215	POST	pym8jvv-_gakz		2011-08-24	의진탄생 2884 일째 어제 친구 1박2 일 오크벨리에왔다 가을하늘 예쁘다 신나다 노 아이들 마냥 행복 보 여유 편안 이어가고싶다
+kbs2_happysunday_1bak2il	hyu09	POST	pym8jy6-xm1		2011-08-27	호떡 맛있다 tagexclamation 전 원조 호떡 같다 이름 어느날 1박2 일 이승기 원조호떡 되다 방송효과란 무섭다 무섭구 호떡 방송 광고 1받2 일 이승기 남포동 2030
+kbs2_happysunday_1bak2il	eunhyunto	POST	pym8mrz-_fwjy		2011-08-23	1박 2 2일 합류 우리 1박 2 2일 좀 조다 장수 하다 하 바래다
+kbs2_happysunday_1bak2il	rongda78	POST	pym8omk-5rnrb		2011-08-26	내일 형님네 가족 저희 가족 제 친구 님 님 속초 속초로 1박2 일 놀러가다 제 미친님 미친님들은 주말 계획 어떻다 되다 tagquestion 동안 회사일 바빠서 미투 미투도 제 제대 못하다 못 tagcry
+kbs2_happysunday_1bak2il	wjdrlghd002	POST	pym8po9-f6ob		2011-08-26	엄태웅 백통 백통이 실종 보신 분들 보호 부탁 걱정 http yaphoto.co.kr news tagquestion c 47_438921박2 일 tagexclamation 오늘 왜 외다 이렇게 복 없다 tagquestion 강호동 하차 1박2 일 폐지 거다 거기 엄포스님 개 개다 백통 백통이 실종 tagcry 자기소개 24 24남
+kbs2_happysunday_1bak2il	muderer124	POST	pym8s_w-_mlv5		2011-08-26	여행가 싶어 싶다 tagcry 1박2 일 짧다 한 하다 5박6 일정 tagcry tagcry 아 지쳐가 지쳐가는 나 생활 tagcry 쉼 쉼이 필요 tagcry
+kbs2_happysunday_1bak2il	tonibaek	POST	pym8t_e-q4io		2011-08-24	경주 힐튼호텔 1박 2 2일
+kbs2_happysunday_1bak2il	nunurigo121	POST	pym8v_s-_9tci		2011-08-26	무한도전 vs 1박2 일 유재석 강호동 하차 선언 할 하다 있다 tagquestion gxyal
+kbs2_happysunday_1bak2il	kdy8456	POST	pym8ynj-q83p		2011-08-24	rcy 캠프 가다 갈다 꺄악 1박 2 2일 크크크크크 학원 다 알다 tagsmile
+kbs2_happysunday_1bak2il	rkddudgml	POST	pym8zm3-p17v		2011-08-23	1박2 일 종영 강호동 하차 무관 끝 함 할 하다 6개월뒤 종영 tagexclamation
+kbs2_happysunday_1bak2il	letuswant	POST	pym8_0_-yt8s		2011-08-23	coolio gangsta's paradise 요새 무한도전 1박 2 2일 놀러오다 예능프로그램 오래 오래된 노래 나오다 신기 정작 난 나다 날다 몇년전 mj mj의 beat it it을 eat it it으 불렀던 위어드 알 얀코빅 얀코빅의 패러디 곡 듣다 알다 되다 위험 아이들
+kbs2_happysunday_1bak2il	korea_diary	POST	pym8_i5-tsd1		2011-08-23	여행미투 언덕 넘다 불어오다 산들바람 속 한려수도 향기 가득 머금다 그곳 환상 섬 이르다 이름 전혀 아깝다 않다 해양관광도시 거제 미션패밀리 미션패밀리가 뜨다 tagexclamation 거제 미션패밀리 미션패밀리가 들려주다 보석 같다 1박2 일 거제여행기 함 하시죠 tagexclamation 베스트그곳 거제 미션패밀리
+kbs2_happysunday_1bak2il	alsdk1886	POST	pym8_yo-ykbs0		2011-08-27	무한도전 tagsmile 소지섭 재미 없다 tagsmile 1박2 일도 일 재미
+kbs2_happysunday_1bak2il	davideung	POST	pym91em-qj9		2011-08-24	아 버스 좀 조다 자야 자야하는데 잠 오다 오지 않다 회사 전사 1박 tagexclamation 2 2일 스쿨
+kbs2_happysunday_1bak2il	beauty7290	POST	pym952a-5eca4		2011-08-22	이승기 나pd 추궁 1박2 일 제작비 늘다 tagquestion 허당 tagquestion 브레 브레인 tagexclamation
+kbs2_happysunday_1bak2il	beauty7290	POST	pym95lh-5eca4		2011-08-22	1박 2 2일 일본방문 이승기 한류스타 인기과시 한류스타 이승기 tagexclamation
+kbs2_happysunday_1bak2il	beauty7290	POST	pym95vz-5eca4		2011-08-22	1박2 일 이승기 한류스타 인증 일본 공항 역시 이승기 인기 일본 대단
+kbs2_happysunday_1bak2il	wish_3fly	POST	pym9cm3-_gwbz		2011-08-22	마지막 1박 2 2일 시청자 투어네 아쉽다 하다 하지 신청 한번 못하다 점 되다 재미 같다 마지막 mc mc가 개그맨 김병만분 김병만분이 김병만분이라 것 깜놀
+kbs2_happysunday_1bak2il	nbajame	POST	pym9g9_-yk5hg		2011-08-22	순간 ㅡ 지나가다 달콤 솜사탕 한움큼 한움큼이 입안 들어가다 녹아버려 식도 타고 타다 타 넘다 내려가다 기분 그렇다 찰 찰나 지나가다 1박2 일 시간
+kbs2_happysunday_1bak2il	kys_0207_	POST	pym9kbr-_8y8g		2011-08-24	대학 생활중 하다 하 싶다 것들 여친 만들다 몸만들기 면허증 따다 드라이브 배낭여행 어학연수 혹 유학 국토대장정 해병대 rotc 지원 여친 여친과 맛집 찾아다니다 여친 여친과 1박2 일 촬영지 여행 여친 여친으 시작 여친 여친으 끝나다 tagsmile
+kbs2_happysunday_1bak2il	iimo8	POST	pym9kuk-4cyr		2011-08-24	어깨랑팔이미치도록아프 .1박2 일엠티의후유증인듯 tagsmile tagcry
+kbs2_happysunday_1bak2il	vnfdlv1108	POST	pym9l9x-y8t8c		2011-08-23	1박2 일 오마이갓 tagexclamation
+kbs2_happysunday_1bak2il	familyphoto	POST	pym9lf9-y_n06		2011-08-23	오늘 칠곡 칠곡으 출장갑니 교육하러 1박2 일
+kbs2_happysunday_1bak2il	mh5134	POST	pym9prl-wmlu		2011-08-22	헐 tagsmile 어이없다 도대체 강호동 하차 티비 안보는거 먼상관 먼상관입니까 강호동 하차 한편 더볼 더볼라 얘를써야지 왜 외다 안보 출처 1박 2 2일 시청률 급 tv데일리 t토크 ttalk
+kbs2_happysunday_1bak2il	uiouio34	POST	pym9se4-rt4w		2011-08-23	강호동 강호동이 언제 국민mc 였냐 .1박2 일 식신 식신이지 먹는것 밖 더하다 tagquestion 맨 맨날 벌칙만들어서 한입씩 출처한국 최고 스포츠 엔터테 엔터테인 오센 t토크 ttalk
+kbs2_happysunday_1bak2il	modetourcom	POST	pym9ucq-xyxy		2011-08-24	모두이벤트 1박2 일 여행갈 사람 사다 tagquestion 농림수산부 한국농어촌 공사 주최 rural-20 프로젝트 기자단 tagexclamation 외국인 여행 커리어 tagquestion tagexclamation 8.29 기회 잡다 tagexclamation 설명 신청은 신청은요
+kbs2_happysunday_1bak2il	donnabellaa	POST	pym9w7x-xedy		2011-08-24	평창 쿠키마당더운 여름 시원 개어린이 개어린이들과 즐겁다 1박2 일 tagexclamation 1탄
+kbs2_happysunday_1bak2il	cyc9079	POST	pym9x4p-y_gtq		2011-08-23	완벽 애국가 3절 날씨 tagexclamation 나 나다 오늘 지금 강촌리조트 1박2 일 마운틴하드웨어 2011fw 상품설명회 tagexclamation 가을하늘 공활 높다 구름 tagsmile
+kbs2_happysunday_1bak2il	chj3182	POST	pym9xli-_g1jk		2011-08-24	제주골프 주중 1박2 일 54홀패키지 279,000원 타미우스골프텔42 평
+kbs2_happysunday_1bak2il	fawn3	POST	pym9z_0-g9ga		2011-08-23	영덕 1박2 일 휴가 참 차다 좋다 내일부턴 출근 일상 tagcry
+kbs2_happysunday_1bak2il	homicjy	POST	pym9_wp-5b1ek		2011-08-22	1박 2 2일 348회 다시보기
+kbs2_happysunday_1bak2il	gaggag111	POST	pymb20z-_i72v		2011-08-22	아무리 지루하다 바깥공기 쐬다 오다 오 가슴한곳 조금 트인듯 시원 tagexclamation tagsmile 이여세 이여세를 몰아 몰다 당분 기분좋게 지내다 넘 좋다 tagsmile 하루살이 인생마냥 우울해 우울해하지 말다 기운차다 지 tagsmile 그러니오늘 잠들다 희망차다 내다 시작 위해 위하다 내다 맘 열다 해준1 박2 일 고맙다
+kbs2_happysunday_1bak2il	spdlqj0213	POST	pymb463-_8bvm		2011-08-23	강호동 강호동에 1박2 일 속 강추 휴양지
+kbs2_happysunday_1bak2il	kucc1004	POST	pymb4js-5tbit		2011-08-22	박찬호 1박2 일 박찬호 재회
+kbs2_happysunday_1bak2il	asc3355	POST	pymb51x-sf2k		2011-08-22	1박2 일 과 고다 맞대결 맞대결을 펼치다 폐지 폐지되거 시간대 옮다 옮기다 후 사라지다 사라지거 아예 방송 요일 바꾸다 경우 있다
+kbs2_happysunday_1bak2il	qkrcy789	POST	pymb6qi-zh5s		2011-08-22	지금 1박2 일 폭포특집 재방보고 tagexclamation 요즘 1박2 일 별 안봤는데 재밌네 재밌네요 tagexclamation tagsmile
+kbs2_happysunday_1bak2il	iyousens	POST	pymb72w-yq85k		2011-08-22	다시보기 1박2 일 1박2 일 8월21 일 방송분 다시보기
+kbs2_happysunday_1bak2il	moonjihoo	POST	pymb7nj-anwc		2011-08-22	이번 1박2 일 정말 내눈 내눈이 행복 tagexclamation taglove 아 진짜진짜 tagexclamation 성시경 엄태웅 tagexclamation 최고 tagexclamation 아 너무좋 너무좋아 taglove tagexclamation
+kbs2_happysunday_1bak2il	floud4	POST	pymbeuh-y4xhx		2011-08-22	원문 절대 국민예능 1박2 일 사라지다 일 예능 30개 웹
+kbs2_happysunday_1bak2il	bb00dd	POST	pymbg22-tbjh		2011-08-23	충북 괴산 수옥폭포 1박2 일 촬영지 충북 괴산 수옥폭포 수옥정 수옥폭포가는길 김종민폭포 1박2 일폭포특집 1박2 일
+kbs2_happysunday_1bak2il	ssyy509	POST	pymbjh8-_hrxd		2011-08-23	난 나다 날다 푸근해보 푸근해보이 인성 착해보 착해보여서 1박2 일 뿐만아니 뿐만아니라 다르다 강호동아저씨 하다 하 것들도왠 것들도왠만하면 재있구그래서 보다 보 출처한국 최고 스포츠 엔터테 엔터테인 오센 t토크 ttalk
+kbs2_happysunday_1bak2il	beauty7290	POST	pymbljy-5eca4		2011-08-22	1박2 일 박찬호 만나다 만 이승기 모습 캡처
+kbs2_happysunday_1bak2il	--happy	POST	pymbods-_s8ws		2011-08-23	저 잘 1박2 일로 일 가족 놀러가다 tagcry
+kbs2_happysunday_1bak2il	spdlqj0213	POST	pymbvfz-_8bvm		2011-08-23	1박2 일 커플여행지 안면 바다앞 커플펜션
+kbs2_happysunday_1bak2il	spdlqj0213	POST	pymbvsi-_8bvm		2011-08-23	1박2 일 여행지 남이섬추천펜션 남이섬 남이섬으 가다 가늘다 가 길 기다
+kbs2_happysunday_1bak2il	spdlqj0213	POST	pymbvt5-_8bvm		2011-08-23	막바지 휴가 즐기다 1박2 일 은지원 김종민 김종민이 추천 휴가지
+kbs2_happysunday_1bak2il	imj111612	POST	pymbvxj-5s9z8		2011-08-23	주말 기다리다 1박2 일 신안증 신안증도 고창군산채만색문학관 문학기행 가다 갈다
+kbs2_happysunday_1bak2il	sslm501	POST	pymc5l2-yd4qj		2011-08-25	1박 2 2일 회문산 자연휴양림 다녀오다 자연 느끼다 느끼 돌아오다 기분 다르다 굿내 굿내가 자연 준것 준것은 없다 자연 나 많은것 많은것들을 제공해주고있더라구요자연 고맙다 그리다 람쥐 taglove 보고플거 tagsmile 반가웠엉 6 안 알다 녕 tagexclamation
+kbs2_happysunday_1bak2il	naver_news	POST	pymc7uk-bj_k		2011-08-26	연예 1박2 일 시청자투어 3탄 개시 kbs서 오프닝 촬영 네이버 뉴스 news 스타뉴스 1박2 일 시청자투어 부산 간다네 간다네요 부럽 tagexclamation
+kbs2_happysunday_1bak2il	psy1256	POST	pymc8nn-55ivs		2011-08-25	아 1박2 일 내년 완전 빠 빠이라 빠이라니 아 아쉬워 아쉽다 이제 어떡 내 무한도전 1박2 일 완전 사랑 아쉽다 4년동안 일요일 1박2 일 보다 진심 행복 정말 고맙다 마지막회 함께할 함께할께 1박2 일 forever
+kbs2_happysunday_1bak2il	lsh97sla	POST	pymc9qs-f8di		2011-08-26	내일 내 아니 아 오늘 tagquestion 은 학교 밤 새는 새는날 1박 2 2일
+kbs2_happysunday_1bak2il	windgirl64	POST	pymci9h-ul35		2011-08-25	강원도여행 강원도휴가지 삼척여행 삼척휴가지 삼척신선골 가족야영 가족캠프 야영갈만한곳 1박2 일 가족야영
+kbs2_happysunday_1bak2il	funkskull	POST	pymcnuk-qlzc		2011-08-25	오크밸리 여름휴가 1박 2 2일 광속질주닷 tagexclamation
+kbs2_happysunday_1bak2il	ohyeosu	POST	pymcos0-wzto		2011-08-26	스마트폰 스마트폰이 없다 마이피플 pc버전 tagexclamation 링크 게장 간장게장 여수게장 동게장 여수1 박2 일 황금빛돌게장 포항
+kbs2_happysunday_1bak2il	si127p	POST	pymcoyl-xy7n		2011-08-25	펜션전문 소셜커머스 커즐 cuzzle 1박 2 2일 주말 여행 계획 있다 tagquestion 저흰 커즐 장 다녀온답니당 tagexclamation 1박 2 2일 여행 펜션여행 서울 근교 여행 가평 여행 강원 강원도 여행 가평 펜션 강원 강원도 펜션 주말여행 주말 나들이 나들다 펜션 펜션 소셜커
+kbs2_happysunday_1bak2il	smileharuall	POST	pymcpai-ylewh		2011-08-25	강호동 강호동이 강호동이라 사람 사다 요즘 참 차다 욕 많다 먹는 듯 1박2 일 국민적 사랑 받다 프로 음식갖고 장난치다 싫다던 울 울다 아버지 투덜거리다 웃다 보더 보더라 나도 나다 나 1박2 일 팬 강호동 장삿속 배신 요런말 요런말은 좀 조다 심한거 같다
+kbs2_happysunday_1bak2il	yagiroom	POST	pymcr3z-v81c		2011-08-25	경주여행 경주세계문화엑스포 2011경주세계문화엑스포 현장 1박 2 2일
+kbs2_happysunday_1bak2il	mho1840	POST	pymcrcp-_gk3n		2011-08-25	예능 무한도전 런닝맨 1박2 일 출발드림팀 강심장 밤밤 해피투게더드라마 몽땅내사랑 몽땅내사 무사백동수 계백 보스를지켜 공주의남자음악프로 뮤직뱅크 쇼음악중심 인기가요 나는가수 불후의명곡 중에하나라도보는사람미투 taglove
+kbs2_happysunday_1bak2il	rlawhddud7	POST	pymcsfj-fpa1		2011-08-26	1박 2일 2일이 끝나다 청춘불패 뜨다 뜨는구 이번 청춘불패 2 2에서 씨스타 씨스타나 미쓰에이 나오다 tagsmile 웹
+kbs2_happysunday_1bak2il	nec	POST	pymcthi-ed_e		2011-08-25	공명 블로그판 6대광역시 특집 tagsmile kbs방송 1박2 입다 차별화 위해 위하다 서울특별시 시작 tagsmile 전국각지 선관위 선관위를 돌아보다 tagexclamation 내일로여행 01 유의사항 대한민국 7대도시 여행루트 공명 블로그
+kbs2_happysunday_1bak2il	roh011	POST	pymcudw-_1_nj		2011-08-25	전라 1박2 일 여행지 추천 죽녹원
+kbs2_happysunday_1bak2il	cowwin12	POST	pymcyfm-o9w6		2011-08-25	친구 유입 많다 한달동안 쉬다 그게 어째서 이유 되는거냐 tagcry 힐링 뮤직타 뮤직타임 며칠 전 보다 1박2 일 나오다 노래 노랗다 심야 라디오 빼다 않다 선곡 그땐 제목 몰랐네 신승훈 신승훈의 라디오 키다 근 1달만 1달만인 8월 25 25일 오늘 진꾸 진꾸이 추천곡 2008년 신승훈 신승훈의 radio wave wave라 미니앨범 3번 트랙 타이틀곡 나비효과란 노래 여기 트랙이 트랙이였구 몰랐음
+kbs2_happysunday_1bak2il	kji206	POST	pymc_49-5apsf		2011-08-25	완주여행싱그런 자연향기 그대 대아수목원 완주1 박2 일여행
+kbs2_happysunday_1bak2il	sharplovei	POST	pymc_dj-5cdjp		2011-08-25	오션월드 오션월드로 1박2 일 갔다오다 tagsmile 지치다 tagcry 도착한날과외가두개라 과외다끝내고집가는중 tagsmile 피곤피곤 zz
+kbs2_happysunday_1bak2il	kimsangil880	POST	pyme08x-5hgb9		2011-08-22	1박2 일 여름특집 재밋네 재밋네요 tagsmile
+kbs2_happysunday_1bak2il	hit0307	POST	pyme0wu-yfg48		2011-08-22	행복 노력순 노력순입니 몇일전 박찬호 선수 1박2 일 응원문구 쓰다 말 정말 멋지다 말인것 같다 저 노력 최선 다하다
+kbs2_happysunday_1bak2il	sy03301226	POST	pyme2g4-5tt3r		2011-08-22	1박2 일 시청자투어 나도 나다 나 하고싶다 tagcry tagcry 성시경
+kbs2_happysunday_1bak2il	dlalwl0316	POST	pyme35o-_yknd		2011-08-22	난 나다 날다 실사 공개 자신 없어서요 tagsmile 운 울다 좋다 1박2 일 합격 볼수있겠죠 tagsmile 실사궁금하몀 붙을수 붙을수있게 기도 tagsmile
+kbs2_happysunday_1bak2il	euejin72	POST	pyme47d-y3rfc		2011-08-22	식미투이것 진정한물회 tagexclamation 포항 맛집 맛집으 소문 물회집 맛집 맛집은 잘안믿는편 잘안믿는편인데 이곳 물회 물회는 내가먹어본 물회중 최고 1박2 일촬영했단말이 무색하지않을정도로 맛나다 아으 또 먹고싶어 tagcry
+kbs2_happysunday_1bak2il	jinoging93	POST	pyme4r6-_c4pm		2011-08-22	오늘 ze a's 1박2 일 캠프 tagexclamation 헤어지다 전 절다 셀카 한방 tagexclamation 여러분 함누 함누입니 함누입니다 요즘 민우 민우가 셀카 셀카에 재미 붙이다 붙 같다 어제 오늘 정말 신나다 신나 날들이 tagsmile 내년 캠프 기대가 기대 되다 그럼 오늘 하루 마무리 잘 자다 하시고 하시 미다 goodnight tagexclamation i taglove ze a's
+kbs2_happysunday_1bak2il	gnfmcm	POST	pyme57j-go32		2011-08-22	저 1박2 일 애청자로써 종영 아쉽다 하다 하지 솔직 강호동 강호동이 멤버 다 사람이잖아 돈 돈 출처한국 최고 스포츠 엔터테 엔터테인 오센 t토크 ttalk
+kbs2_happysunday_1bak2il	limit012	POST	pyme8bw-_kum6		2011-08-22	sk sk와 함께한 다문화 캠프 dream ing 1박 2 2일 후기 tagexclamation
+kbs2_happysunday_1bak2il	tnwhlovejw	POST	pymeaok-q4er		2011-08-22	20110820 20110821,1박2 일 밀양여행 고고싱 tagexclamation 3탄
+kbs2_happysunday_1bak2il	gocheongsong	POST	pymedui-_mnz_		2011-08-22	일요일 일요 오전 해피선데 해피선데이 1박2 일 폭포특집 재방송 되다 주왕산 주왕산이 등장 많다 분들 분들이 주왕산 주왕산을 떠올리다 기분 좋다 ㅁ 이제 날씨 제법 선선 선선해지 있다 tagexclamation 가을 되다 멋 주왕산 기대 주다 tagexclamation 1박2 일보러가기 주왕산 1박2 일 폭포특집 가을주왕산
+kbs2_happysunday_1bak2il	hongah88	POST	pymej79-_jaj3		2011-08-22	1박2 일 너무너무 기대돼애 tagsmile 근데 가는건 주말 가다 가늘다 월요일 이렇게 통보하면 일 어떻다 하다 tagexclamation 룰루랄라
+kbs2_happysunday_1bak2il	bysunyol	POST	pymejgj-sco7		2011-08-22	1박2 일 6달후면 끝나잖아 끝나잖아요 근데 예 전 김종민 김종민이 마지막회 마지막회로 히말 히말라 가다 가자 한거 기억하시는분 tagquestion tagsmile
+kbs2_happysunday_1bak2il	elottery	POST	pymekzk-5qvg9		2011-08-22	1박2 일 결국 무수 인기 남다 이제 종착역 가다 갈다 하다
+kbs2_happysunday_1bak2il	changdong412	POST	pymelnk-56a0w		2011-08-22	이렇게 좋다 한 하다 번 못하다 미안 소외계층 대상 행복 만들다 국내여행 1박2 일 동행취재
+kbs2_happysunday_1bak2il	tetris_han	POST	pymer5f-yw3t5		2011-08-22	생각 난 나다 날다 tagexclamation 제가 제 좋아하다 주말 예능프로그램 3개 랍니돠 ㅁ 무한도전 세바퀴 1박 2 2일 tagexclamation 그런데 1박 2일 2일이 종영 하네욤 tagexclamation 이제 일요일 즐겁다 하나 하다 하 사라지다 잉잉 tagcry 애청 프로그램 없어지다 왠지 마음 허전 해져용 1박 2 2일 종영 후속 프로그램 당일치기 2박 3 3일 어떤가 어떤가요 tagquestion tagsmile
+kbs2_happysunday_1bak2il	bbzago	POST	pymesyo-_g9w7		2011-08-22	1박2 일 엄태웅 엄태웅은 개발 tagsmile 치밀 분석
+kbs2_happysunday_1bak2il	jazzfiction	POST	pymevyl-yilee		2011-08-22	1박2 일 폐지 안타깝다 것 그동안 1박2 일 때문 때문에 해외 여행 줄다 국내 관광 내수 늘어나다 점이에 점이에요 전 해외 놀이기구 연예인 태운다거 아이돌 걸그룹 걸그룹을 번지점프 기구 위 올려놓다 울린다거 울린다거나 괌 비치 비치에 남녀 연예인 연예 물놀이 시킨다거 시킨다거나 했죠
+kbs2_happysunday_1bak2il	jhseo867	POST	pymews5-_5qmx		2011-08-22	어제 1박2 일 박찬호 박찬호가 한 하다 말 말다 기록 언젠가 깨어지다 마련 과정 영원 말 설령 오류 있다 하다 토달고 싶다 않다 멋지다 tagexclamation 내다 크다 힘 되다 한마디
+kbs2_happysunday_1bak2il	tkanrlrn	POST	pymey51-_t46i		2011-08-22	1박2 일 박찬호 재회 1박2 일 이승기 이수근 박찬호 박찬호와 깜짝재회 화제
+kbs2_happysunday_1bak2il	han02jjang	POST	pymf0f4-mzmq		2011-08-22	전현무 1박2 일 객원mc 신고식 성시경 반말공격 휘청 http blog 웹
+kbs2_happysunday_1bak2il	han02jjang	POST	pymf0rj-mzmq		2011-08-22	1박2 일 이승기 나pd 비난 비 제작비 어디 어디에 쓰다 tagquestion http blog 웹
+kbs2_happysunday_1bak2il	film2529	POST	pymf1cr-5foqx		2011-08-22	강호동 1박2 일 전원 6개월 뒤 종영
+kbs2_happysunday_1bak2il	wollla	POST	pymf1la-hqv		2011-08-23	경포해수욕장 발도장 tagexclamation 휴가라서막돌아다니고있어요어젠1 박2 일촬영지속초아바이순대오늘은경포대 근데휴가가폐인되감 via 아임in
+kbs2_happysunday_1bak2il	72vusen	POST	pymf1mp-5oa3o		2011-08-22	성시경 1박2 일 지침서 tagexclamation 성시경 1박2 일 성시경 1박2 일 지침서 내용 tagquestion tagexclamation 성시경 1박2 일 지침서 아무 아무도 믿지마 믿지마라 분명 숨기다 음모 성시경 1박2 일 지침서 폭소 tagexclamation 성시경 나영석pd 천적 성시경 1박2 일 나pd 논리적 반박 큰웃음 선 서다 설다
+kbs2_happysunday_1bak2il	haenaemcar	POST	pymf1qu-_gof0		2011-08-23	자동차렌트 렌트카대리점 국내여행 1박2 일여행지추천 자동차렌트 손쉽다 떠나다 국내여행지 1박2 일 코스 자동차렌트 렌트카대리점 국내여행 1 박 2 일여행지추천 자동차렌트 손쉽다 떠나다 국내여행지 1 박 2 일 코스
+kbs2_happysunday_1bak2il	rovining	POST	pymf2aa-19ly		2011-08-26	후아 넘 피곤 오늘 잠시 앉다 틈 없다 계속계속 바빴다 내다 1박2 일로 일 가족 여행가 월욜 토욜 6 6일 연속근무 tagcry 내다 여행 기대감 없다 연속근무 고통 먼저 걱정 어쨌던 잘 자다 놀다오려 놀다오려고 노력할꺼지 tagsmile
+kbs2_happysunday_1bak2il	wjdrlghd002	POST	pymf4ez-f6ob		2011-08-25	스파이명월 장희진 스텔라 김가영 김가영에 굴욕 누 누가 감하다 1박2 일 국악고 소녀 김가영 김가영을 무시 tagquestion 인스티즈 instiz
+kbs2_happysunday_1bak2il	bestman44	POST	pymf4fz-5dnqk		2011-08-22	시골 1박2 일
+kbs2_happysunday_1bak2il	annabellee01	POST	pymf4nn-_hjul		2011-08-25	최지우머리지고는못살 이은재머리 최지우바디펌 긴머리바디펌 최지우머리색 1박2 일최지우머리 최지우앞머리 최지우머리스타일 최지우머리스타 최지우긴머리 최지우짧은머리 최지우묶음머리 긴머리웨이브
+kbs2_happysunday_1bak2il	hangyu113	POST	pymf5cb-y9fsk		2011-08-25	뭐시냐 쇼핑몰 병영체험 1박2 일 하는거 있다 여성 위한거 위한거라 tagquestion 5만4 천원 tagquestion tagexclamation 그것 할 tagquestion tagexclamation 난 나다 날다 무료 2년감 tagsmile 부럽죠 tagquestion 난 나다 날다 죽을꺼 같다
+kbs2_happysunday_1bak2il	starmotion	POST	pymf5jm-_1uj8		2011-08-22	1박2 일 박찬호재회
+kbs2_happysunday_1bak2il	tae6666	POST	pymf5pt-5cdf0		2011-08-26	1박2 일 시청자 투어 3탄 부산 가다 갈다 tagexclamation
+kbs2_happysunday_1bak2il	starmotion	POST	pymf5ue-_1uj8		2011-08-22	1박2 일 이승기매니저
+kbs2_happysunday_1bak2il	starmotion	POST	pymf68a-_1uj8		2011-08-22	1박2 일 전현무 성시경 기습반말 격노
+kbs2_happysunday_1bak2il	starmotion	POST	pymf6y1-_1uj8		2011-08-22	1박2 일 성시경 1박2 일지침서
+kbs2_happysunday_1bak2il	choi203t	POST	pymf7wh-_kyri		2011-08-27	1박 2일 2일로 다녀오다 경주여행 1 1일
+kbs2_happysunday_1bak2il	dena9875	POST	pymf86r-5pr4i		2011-08-22	이제 종영 1박2 일 tagcry ㅇ tagcry 강호동 진짜 대단 강호동 하나때메프로그램 사라지다 완전 잼있었는데 6개월 동안 모두 빠팅해주세 빠팅해주세요 taglove 은초딩 허당 앞잡이 엄포스 김종밥 시베리아수컷호랑 시베리아수컷호랑이 모두 모두 빠빠 빠빠이 tagcry ㅇ tagcry 1박2 일 taglove
+kbs2_happysunday_1bak2il	hanbada_02	POST	pymf877-52ktk		2011-08-23	천상 1박 2 2일 막걸리 에서
+kbs2_happysunday_1bak2il	mh0628ws	POST	pymf8a0-ywxr_		2011-08-23	아들녀석 1박2 일동안 완성 밀레니엄펠콘 tagsmile 스타워즈시리즈 대단한레 너무크 너무크고 너무비싸 이거사면서 랑이 랑이와 아들 무지 뿌듯해 난 나다 날다 오만인상다쓰면서 저걸 사야겠냐 사야겠냐고 tagcry 몰도 몰도하 몰도하며 완성해 완성해내 녀석 참 차다 보기좋다
+kbs2_happysunday_1bak2il	smy0618	POST	pymf8fr-yp116		2011-08-25	1박2 일명품조연촬영펜션두번째방문 tagsmile 너무신 ㄴㅏ 고재밋었던1 박2 일바다여행
+kbs2_happysunday_1bak2il	myway558899	POST	pymf92c-tc_0		2011-08-23	1박2 일 6개월 후 종영
+kbs2_happysunday_1bak2il	hansong86	POST	pymf99r-5m_s4		2011-08-22	에잇 강호동 강호동이 옮다 옮기다 안옮기 뭔상관 뭔상관이 tagexclamation 솔직 1박 2일 강호동 강호동을 못본다는거 자체 슬프 출처한국 최고 스포츠 엔터테 엔터테인 오센 t토크 ttalk
+kbs2_happysunday_1bak2il	dong	POST	pymfadp-x_p		2011-08-22	성시경 성시경의 강력 한방 1박2 일 강타 주변 있으
+kbs2_happysunday_1bak2il	itoa	POST	pymfapa-ahtb		2011-08-22	1박2 일 1박2 일 이승기 끌어들이다 끌어 6개월 시한부 전원하차 강호동 살리기위 살리기위한 물타기 물타기인가 tagquestion tagexclamation
+kbs2_happysunday_1bak2il	bebop209	POST	pymfaug-ygp5b		2011-08-22	아고 아고고 집 tagsmile 내일 내 어딜 가다 뭔 1박 2일동안 2학년 2학년은 강의 듣다 에라 에라이 스벌 귀찮다 tagcry
+kbs2_happysunday_1bak2il	rn1234rn	POST	pymfax4-_c8k7		2011-08-23	디밍님 디밍님의 millet 카피라이팅 tagexclamation 1박2 일 폐지 안 알다 ㄷㅐ tagcry 애드라떼
+kbs2_happysunday_1bak2il	dasol5306	POST	pymfcga-5qw0t		2011-08-23	1박2 일 이승기 이수근 일본서 박찬호 재회
+kbs2_happysunday_1bak2il	kwb4788	POST	pymfeeq-5z6fe		2011-08-23	속초시 1박2 일 추천 여행 관광 코스 가볼만한곳 드라이브 daum카페
+kbs2_happysunday_1bak2il	darkbike77	POST	pymfh7j-5lyhy		2011-08-25	동해바 동해바다 1박2 일 여행
+kbs2_happysunday_1bak2il	chunjiin68	POST	pymfhe5-58mw_		2011-08-23	이승기 1박 2 2일 제작비 의혹 제기
+kbs2_happysunday_1bak2il	gudwl0314	POST	pymfjc2-y47mk		2011-08-25	나 나다 지금 1박2 일 캠프간당
+kbs2_happysunday_1bak2il	vistavi	POST	pymfkb_-5t4_2		2011-08-22	성시경 1박2 일 지침서
+kbs2_happysunday_1bak2il	goldpapa	POST	pymfktf-yva27		2011-08-25	노금채 노금서 노금서와 2011년 두번째 캠핑 노을공원내 위치 노을캠핑장 초록잔디위 신나다 신나 1박2 일 지내다 잔디 넓다 펼쳐지다 있다 축구 좋아하다 금채 금채는
+kbs2_happysunday_1bak2il	goldpapa	POST	pymfkv1-yva27		2011-08-25	노금채 노금서 노금서와 2011년 두번째 캠핑 노을공원내 위치 노을캠핑장 초록잔디위 신나다 신나 1박2 일 지내다 잔디 넓다 펼쳐지다 있다 축구 좋아하다 금채 금채는
+kbs2_happysunday_1bak2il	upstorm	POST	pymfls4-y64mc		2011-08-23	준혁이네가족1 박2 일 http gwangdaeri.kr shop board.php tagquestion board freeboardcommand bodyno 936
+kbs2_happysunday_1bak2il	ghdwntjr111	POST	pymfm2m-_t1y2		2011-08-22	1박2 일박찬호재회 1박2 일박찬호재회 1박2 일박찬호재회
+kbs2_happysunday_1bak2il	snick42	POST	pymfo4g-_sbo6		2011-08-26	수지씨 지금어디신지 tagquestion 혹시부산이신가염 tagquestion 1박2 일공연가셨어요 tagquestion
+kbs2_happysunday_1bak2il	oops5177	POST	pymfoz3-ymer0		2011-08-23	한탄강 한탄강에 오다 여름 막바지 레프팅 레프팅을 할껀대 물 장난 장 아니다 tagsmile 흙탕흙탕 저번주 1박2 일 나오다 장소 하다 난 나다 날다 못봤으니 패쓰 tagsmile
+kbs2_happysunday_1bak2il	dong	POST	pymfs25-x_p		2011-08-22	백지영 1박2 일 시청자투어 합류 설레다
+kbs2_happysunday_1bak2il	dong	POST	pymfsah-x_p		2011-08-22	절대 국민예능 1박2 일 사라지다 일 예능
+kbs2_happysunday_1bak2il	zelitea	POST	pymfsf9-5onyp		2011-08-23	아 맞다 이번주 금요일 대구 가다 1박 2일 2일이 되다 가능성 있구 있구요 당일치기 되다 가능성 있구 있구요 목적 여행겸 사촌형 보는거 보는거라 자유시간 예상 예상보다 많을것 같다 1박 2일 2일이라면 다음날 풀 푸다 자유 잊을뻔 하다 오래간만 가다 가보 대구 어떨지 궁금 하다 하 기대다 기대 되다 tagsmile
+kbs2_happysunday_1bak2il	gusdud9390	POST	pymft44-_w8b1		2011-08-22	이승기 1박2 일 제작비 사용처 의혹 제기
+kbs2_happysunday_1bak2il	sub07045	POST	pymftgv-y3gw7		2011-08-23	20110822 1박2 일 잠깐 나오다 씨스타
+kbs2_happysunday_1bak2il	songboyun	POST	pymftif-ysa5c		2011-08-26	1박2 일 이승기 엄태웅 나영석 pd 이적설 이적설에 아직 아직은 지켜보다 때 http m.tvreport.co.kr rc.php tagquestion idx144949 놀랍다
+kbs2_happysunday_1bak2il	ideamank	POST	pymftpr-5wvy3		2011-08-23	1박2 일 나타나다 나타 백지영 이번 역할
+kbs2_happysunday_1bak2il	il77059	POST	pymfttn-yefpw		2011-08-23	원문 tistory1박2 일 iframe src http durl.me ey2dc 웹
+kbs2_happysunday_1bak2il	myway558899	POST	pymfu7x-tc_0		2011-08-23	1박2 일 이승기 나영석 pd pd를 추궁
+kbs2_happysunday_1bak2il	a608700	POST	pymfuel-_5t49		2011-08-26	tagsmile 나는지금 캠프에서1 박2 일 tagexclamation 하루자는
+kbs2_happysunday_1bak2il	gs343	POST	pymfui3-grr6		2011-08-25	성서초 다문화자녀 세계 문화 배우다 1박2 일간 쁘띠 프랑스서 문화체험 캠프
+kbs2_happysunday_1bak2il	choo2am	POST	pymfv48-_ygry		2011-08-23	1박2 일 종영 tagcry
+kbs2_happysunday_1bak2il	tkdcjf7777	POST	pymfvkl-szte		2011-08-23	해군본부 그쪽 그쪽이라니까 그쪽이라니까요 tagsmile 해군 군장학생이기 군장학생 때문 때문에 소집교육 인해 1박2 일간 그쪽 그쪽으 가게 가다 되다 나중 취임하고 그쪽 그쪽으 가겠죠 tagquestion
+kbs2_happysunday_1bak2il	dlghdyd0602	POST	pymfx4z-zvw9		2011-08-22	1박2 일 남극은가고끝내
+kbs2_happysunday_1bak2il	jihey840430	POST	pymfzf2-yqnbk		2011-08-22	1박2 일 부부동반 tagquestion 여행 내년 우리 부부 taglove
+kbs2_happysunday_1bak2il	impok1004	POST	pymfzf_-8ktp		2011-08-25	가족여행 국내여행영월 선돌 1박 2 2일 촬영지
+kbs2_happysunday_1bak2il	starmotion	POST	pymf_0f-_1uj8		2011-08-22	1박2 일 성시경 나영석 pd 천적 나영석pd 굴욕
+kbs2_happysunday_1bak2il	shkjjkap	POST	pymf_9c-ymopw		2011-08-22	우봉재단 부곡 하와이서 연합캠프 개최 1박 2 2일 신났답니다 뉴시스
+kbs2_happysunday_1bak2il	starmotion	POST	pymf_cp-_1uj8		2011-08-22	1박2 일 이승기 한류스타 인증 일본 공항
+kbs2_happysunday_1bak2il	hoteljapan	POST	pymg1pq-t8wx		2011-08-26	비코티에스 1사1 촌 현장 tagexclamation kbs방송출연 녹색충전토요일 녹색충전토요 전 영암 영암에 무화과 따다 따르다 가다 tagexclamation 1박2 일 유쾌 우리들이야기
+kbs2_happysunday_1bak2il	stylisthanul	POST	pymg896-_w5s7		2011-08-26	축제 시작 tagexclamation 종영 앞두다 1박2 일 시청자 투어 화기애애
+kbs2_happysunday_1bak2il	ttlmini	POST	pymg9rz-y15oc		2011-08-26	경주여행 경주 1박 2 2일 여행코스 석굴암 가다 가 가보 싶다 석굴암 경주여행 마침표 찍다
+kbs2_happysunday_1bak2il	dmsdo860dddd	POST	pymgiby-_au7j		2011-08-26	1박 2 2일 종영 결국 강호동 없다 안되는건가 tagquestion
+kbs2_happysunday_1bak2il	mi782536	POST	pymgirs-_s7k0		2011-08-27	6개월 빠빠 빠빠할 1박 2 2일 tagexclamation
+kbs2_happysunday_1bak2il	seunggigirl	POST	pymglu3-meo2		2011-08-26	1박2 일 시청자투어 3탄 스포 사진 사다
+kbs2_happysunday_1bak2il	map9612	POST	pymgn4o-yenyc		2011-08-27	나탭하나샀다 tagsmile 지금탭으로1 박2 일보는중 tagsmile
+kbs2_happysunday_1bak2il	samxing	POST	pymgngz-5qds7		2011-08-27	1박2 일 봄맞이 단체사진 방출 tagexclamation 엄태웅 어디 어디있게 tagquestion
+kbs2_happysunday_1bak2il	ksy2nd	POST	pymgteq-8n91		2011-08-27	가평 출바알 ㅁ 1박 tagexclamation 2 2일 tagexclamation
+kbs2_happysunday_1bak2il	ektha8658	POST	pymgty_-5veb3		2011-08-27	이번달 기분 오르락 내리락 tagsmile 신나다 신나 친구 1박2 일 신나다 신 tagsmile 이제 출바알 taglove 가평 하늘수채화펜션
+kbs2_happysunday_1bak2il	dong	POST	pymgtzj-x_p		2011-08-26	1박2 일 마지막 시청자 투어 투어는 부산
+kbs2_happysunday_1bak2il	ek3758	POST	pymgved-y5231		2011-08-27	1박2 일 뒤통수
+kbs2_happysunday_1bak2il	samxing	POST	pymgvih-5qds7		2011-08-27	김하늘 펫 첫 촬영 1박 2 2일 꽃바구 꽃바구니 야생녀 인증샷
+kbs2_happysunday_1bak2il	yoora0524	POST	pymgx8o-phwh		2011-08-27	차갑다 물살 가르다 시원 바라다 바람 느끼다 느끼 올 오다 여름 첫 물놀이 신나다 신 고얄클럽 청평 1박 2 2일 여행
+kbs2_happysunday_1bak2il	suny7808	POST	pymgyg2-jesi		2011-08-26	강촌여행 경춘선타 경춘선타고 친구 오붓하다 1박2 일 강촌여행 tagsmile 바베큐파티
+kbs2_happysunday_1bak2il	minsu7209	POST	pymgz3k-ye5ai		2011-08-26	베스트그곳 거제편 이야기 있다 그곳 한 하다 눈 살 사다 거제 1박2 일 준비 중 추천 좀 조다 해 하다 주다
+kbs2_happysunday_1bak2il	ggulwooriii	POST	pymgz5h-5g1lt		2011-08-26	여행은떠나는순간도즐겁지만어디로갈지 무얼먹을지 어디어묵을지 계획을짜는순간의행복 주섬주섬가방을싸는순간의설레임이더나를들뜨게 주섬주섬가방을싸는순간의설레임이더나를들뜨게한다 .1박2 일을준비하는한달의설레 캬 tagexclamation
+kbs2_happysunday_1bak2il	ggulwooriii	POST	pymgz66-5g1lt		2011-08-26	여행은떠나는순간도즐겁지만어디로갈지 무얼먹을지 어디어묵을지 계획을짜는순간의행복 주섬주섬가방을싸는순간의설레임이더나를들뜨게 주섬주섬가방을싸는순간의설레임이더나를들뜨게한다 .1박2 일을준비하는한달의설레 캬 tagexclamation
+kbs2_happysunday_1bak2il	ggulwooriii	POST	pymgz_e-5g1lt		2011-08-26	여행은떠나는순간도즐겁지만어디로갈지 무얼먹을지 어디어묵을지 계획을짜는순간의행복 주섬주섬가방을싸는순간의설레임이더나를들뜨게 주섬주섬가방을싸는순간의설레임이더나를들뜨게한다 .1박2 일을준비하는한달의설레 캬 tagexclamation
+kbs2_happysunday_1bak2il	ggulwooriii	POST	pymgz_s-5g1lt		2011-08-26	여행은떠나는순간도즐겁지만어디로갈지 무얼먹을지 어디어묵을지 계획을짜는순간의행복 주섬주섬가방을싸는순간의설레임이더나를들뜨게 주섬주섬가방을싸는순간의설레임이더나를들뜨게한다 .1박2 일을준비하는한달의설레 캬 tagexclamation
+kbs2_happysunday_1bak2il	jung2918	POST	pymh3qs-5dda5		2011-08-27	1박2 일
+kbs2_happysunday_1bak2il	dudtj0216	POST	pymh4ku-yw3ee		2011-08-27	1박2 일 하차 재밌었어요 tagcry
+kbs2_happysunday_1bak2il	se5281	POST	pymhh7s-5eu6c		2011-08-27	엄마 1박 2일동안 여행쫌가보자 너희끼리쫌있어봐 tagexclamation 미쿠씨쌍둥 미쿠씨쌍둥이 빨리가버려 tagexclamation
+kbs2_happysunday_1bak2il	starnim8	POST	pymhizv-nlle		2011-08-27	리더십 캠프 tagsmile 재밌는 애들 짱많다 tagsmile 비 난 나다 날다 참 차다 평범 tagcry 1박2 일 참 차다 재미 있을거 같다 tagsmile
+kbs2_happysunday_1bak2il	cakesaseyo	POST	pymht_x-yy3tz		2011-08-27	후포 1박 2 2일 씹다 뜯다 맛보다 맛 즐기다
+kbs2_happysunday_1bak2il	above4392	POST	pymhvkj-gauy		2011-08-27	전 절다 이 가다 토 일요일 학원가 학원가는 시간 하필 전부 버라이어티 할때 할때야 tagcry ㅡ 무도 못 남격 1박2 일 다 못본다능 tagsmile 에휴
+kbs2_happysunday_1bak2il	dkimk	POST	pymhyk4-ytlar		2011-08-27	오늘1 박2 일시청자투어촬영이래 tagexclamation 부산쪽에있는기장군예절학교갔다던데 가시는분들넘흐부럽 tagcry
+kbs2_happysunday_1bak2il	madotuki	POST	pymhzyk-2f2h		2011-08-27	유피 코리아 1박 2 2일 종영 tagquestion tagcry
+kbs2_happysunday_1bak2il	98dlwjdwo	POST	pymi42b-c8d6		2011-08-26	오 tagexclamation 내 1박2 일 본 보다 칸 tagexclamation 노래 노랗다 실력 tagquestion 슈퍼스타k3
+kbs2_happysunday_1bak2il	param25	POST	pymi652-_w_nh		2011-08-26	1박2 일 마지막 시청자투어 부산
+kbs2_happysunday_1bak2il	god_love408	POST	pymi90c-_wrl2		2011-08-26	1박2 일 일정 2박3 일로 일 tagsmile 와우 정말 신나다 놀다 tagsmile
+kbs2_happysunday_1bak2il	africamong	POST	pymi919-_gwk9		2011-08-26	여름휴가 가평 1박2 일 가평 떠나다 여름휴가 tagexclamation
+kbs2_happysunday_1bak2il	bergi22	POST	pymid2g-ypbge		2011-08-26	1박 2 2일 오늘 부산 뱅기타 뱅기타고 출발 어디 어디로 가셨을까 tagquestion 몹시 궁금 1 1인 승기 어딨니 tagquestion
+kbs2_happysunday_1bak2il	insos02	POST	pymieu6-_8lnw		2011-08-26	1박2 일 무료다시보기 시청자투어 대비캠프 2011-08-21 1박2 일 무료다시보기 시청자투어 대비캠프 2011-08-21
+kbs2_happysunday_1bak2il	nice9710	POST	pymifbu-l5a2		2011-08-26	1박 2 2일 부여여행 3 국립부여박물관
+kbs2_happysunday_1bak2il	milksoap	POST	pymifss-yhnk		2011-08-26	아빠 아빠딸 아빠딸은 게으름뱅이 벌레 1박2 일 가다 가늘다 가 짐 수하물 부친다구 요런 이쁜이 캐리어 주심 알다 타야잖아 타야잖아요 꺄 몰랑몰랑 재질 재다 tagexclamation 쌤쏘나이트 tagexclamation 최강간지 3형제
+kbs2_happysunday_1bak2il	teensnature	POST	pymig3x-fhlg		2011-08-25	서울 종로 종 광장시장 1박2 일 강호동 강호동이 쵤영 곳 가다 여러종류 음식 먹어보고싶어 tagexclamation tagsmile
+kbs2_happysunday_1bak2il	hoon9108	POST	pymimlh-_ajfc		2011-08-26	바닷가 1박2 일 놀다 가다 오다 피곤피곤
+kbs2_happysunday_1bak2il	africamong	POST	pymipme-_gwk9		2011-08-26	여름휴가 계곡 1박2 일 가평 떠나다 여름휴가 tagexclamation 2탄 계곡 가다 가
+kbs2_happysunday_1bak2il	namseokkang	POST	pymipz_-yn5v0		2011-08-26	생선구 생선구이 완전 유명 집 tagexclamation 1박2 일 나오다 집 맛 그닥 쩝 tagsmile
+kbs2_happysunday_1bak2il	wiseguessman	POST	pymirdk-_o1qk		2011-08-26	엄마 아빠 동생 셋이서 1박2 일 나오다 쌍계사 불일폭포 놀러갔다옴 ㅡ tagsmile
+kbs2_happysunday_1bak2il	rosewhang	POST	pymiy0f-eezm		2011-08-25	재미있었다고 소문 1박2 일 폭포특집 보다 보 볼 아프다 웃다 눈물 나다 나 그르다 보다 보 어느덧 1 20am tagsmile 웃기다 죽다
+kbs2_happysunday_1bak2il	gjwlgus26	POST	pymiy_n-yycur		2011-08-26	1박2 일 시청자투어 부산 기장 문화예술학교 촬영한다네 tagcry 어제 여인 향기 의정부 못 오늘 같다 부산 살다 기장 못가 못가고 tagsmile
+kbs2_happysunday_1bak2il	chunjiin68	POST	pymi_r2-58mw_		2011-08-26	남다 남 6개월 1박2 일 보다 하다 하 이유
+kbs2_happysunday_1bak2il	angelove17	POST	pymj1fi-5vqnd		2011-08-23	어제 저녁 안동찜닭 tagexclamation 안동 구시장 서문 입구 바 오른쪽 집 tagsmile 1박 2일 가다 현대찜닭집 안 알다 열다 tagcry 근데 수원 수원이 대구 먹은거 먹은거랑 맛 다름 다르다 tagexclamation 역시 본고장 먹어 먹어야 하 으흑 tagsmile 근데 따 따로 반마리 시키는게 없다 한마리 시키다 완죤 많다 tagexclamation 남자 남다 넷이서 한마리 한마리에 공기밥 공기밥시키면 충분 먹겠심 tagsmile 남친 남친이 둘 둘이 숨 안쉬 안쉬고 맛있다 먹 배터질뻔 tagsmile
+kbs2_happysunday_1bak2il	chen9233	POST	pymj1yq-y117a		2011-08-24	제주 정방폭포 1박2 일팀 일팀이 폭포순례 다녀가다 제주 정방폭포
+kbs2_happysunday_1bak2il	redjevi	POST	pymj3s7-yw_jg		2011-08-23	내일 내 쉬는 쉬는날 그리구 웬수님 웬수님도 휴가시작 tagexclamation 가고싶은곳 하고싶은것 먹고싶 먹고싶은 거 거다 모두모두 나보구 정하다 아 힘들당 tagsmile 뮤지컬 보고싶고 연극 괜찮을듯 츄천좀해줘요 휴가라 휴가라해 당일 당 아니다 1박2 일정도 일정도라 바다 바다랑 산 패쓰 tagsmile
+kbs2_happysunday_1bak2il	samsongnim	POST	pymj9r8-y6sv_		2011-08-23	복귀 후 첫 촬영 6시 내고향 이라 이라니 그것 1박2 일 출장 아 슬프다 슬픔 노래 표현 출장 두렵다 않다 철야 참다 참 있다 하다 하지 배 오르다 것 나르다 나 슬프다 해 하다 보고싶다
+kbs2_happysunday_1bak2il	nafly001	POST	pymjg7k-_manz		2011-08-24	요즘 뭐 보다 tagquestion 최지우 김정태 성동일 나오다 지다 지고 못살아 못살아는 마치 내다 1박2 일 스핀오프 느끼다 의외 상 재밌고 재밌고나 모두 다 결혼 연애 지상명령 삼다 마당 이혼 향하다 달려가다 모습 그리다 것만 것만으 신선 tagexclamation 코믹 tagexclamation 최지우 진작 이러지 그랬 싶다 만큼 귀엽다 속물적 이기적 은재 역할 딱 tagexclamation 김정태 김정태는 등장 큰웃음 큰웃음을 딱 tagexclamation
+kbs2_happysunday_1bak2il	beauty7290	POST	pymjn8t-5eca4		2011-08-23	1박2 일 이승기 첫 출연 tagexclamation 혹한기대비캠프 평창 가다 가늘다 가 길 기다 1탄 2007년 11월 11 11일
+kbs2_happysunday_1bak2il	nacho350	POST	pymjp3h-ybxbe		2011-08-23	최고 생일파티 친구 1박2 일 캠핑파티 집 가는중 tagexclamation
+kbs2_happysunday_1bak2il	lee690625	POST	pymjq62-y1awc		2011-08-23	컴 컴으 1박2 일 다운받은거보는데왠수 오빠 ㅏ 뺏다
+kbs2_happysunday_1bak2il	tbworld_tv	POST	pymjq7w-_clkj		2011-08-23	영리 1박 2 2일 가시방석 강호동 tbworld
+kbs2_happysunday_1bak2il	bb00dd	POST	pymjx4y-tbjh		2011-08-25	충 청양칠갑산 출렁다리 소개 천장호출렁다리 1박2 일촬영지 충남여행 청양여행 출렁다리
+kbs2_happysunday_1bak2il	partyon	POST	pymjy0w-ljbt		2011-08-23	1박2 일파티룸서울파티룸파티룸모텔호텔파티룸
+kbs2_happysunday_1bak2il	beauty7290	POST	pymj_ig-5eca4		2011-08-23	이승기 1박2 일 소중 자산
+kbs2_happysunday_1bak2il	doraemoo29	POST	pymj_ov-ylfym		2011-08-23	재석오빠너무좋아 재석옵하가나오는방송프로그램은다봐 런닝맨무도해투놀러와는안보지만 tagcry 호동오빠도좋지만재석오빠보단안좋아 tagsmile 그래도호동오빠는좋아요근데호동오빠안좋을것같아요1 박2 일6 개월만하고전원다해체해서 호동오빠 좋다
+kbs2_happysunday_1bak2il	beauty7290	POST	pymj_sa-5eca4		2011-08-23	이승기 tagexclamation 1박2 일 종방 종방은 준비 도전 기회
+kbs2_happysunday_1bak2il	h026819	POST	pymm0zr-54gbx		2011-08-25	울할머 울할머니 굉장 내일 내 1박2 일 촬영하러간데 개쩜
+kbs2_happysunday_1bak2il	lshrsg	POST	pymm36l-yh710		2011-08-27	1박 2 2일 팀 찾을려 찾을려고 6시 6시간을 뛰어댕겼는데 꼬빼기 꼬빼기도 안보
+kbs2_happysunday_1bak2il	k0304a	POST	pymm4c3-_rjzb		2011-08-27	드뎌 1박2 일 여행 마 마치 집 돌아왔당 너무재밋었어 tagsmile tagsmile
+kbs2_happysunday_1bak2il	carmaster000	POST	pymm6zx-ydfu8		2011-08-27	강호동 1박2 일 하차 이해 안가 안가는 5가지 이유
+kbs2_happysunday_1bak2il	miru811122	POST	pymmax8-ys5zl		2011-08-24	안면 갤러리펜션 여행후기 안면 바닷가펜션 안면 펜션추천 서울 가까운펜션 1박2 일여행코스 안면 추천코스
+kbs2_happysunday_1bak2il	poup	POST	pymmet3-23fc		2011-08-24	1박2 일 국악고 김가영 걸그룹가수 데뷔
+kbs2_happysunday_1bak2il	mission2547	POST	pymmfy6-yxg08		2011-08-27	9월 말쯤 말쯤에 친구 1박2 일 여행 갈 가다 계획 어디 괜찮은곳 없다 tagquestion 참고 여자넷 tagsmile
+kbs2_happysunday_1bak2il	paewang90	POST	pymmk4g-ynzkd		2011-08-25	1박2 일 놀고왔어 놀고왔어요 tagsmile 늦여름 평일 평 오전 캐리비안베 캐리비안베이 캐리비안베이는 북적북적 아쿠아루프 아쿠아루프만 몇번 몇번을 타다 tagsmile
+kbs2_happysunday_1bak2il	snrnsrk2717	POST	pymml9w-_swz8		2011-08-27	1박2 일 6개월 뒤 종영 안하다 수도 수 있다네 있다네요
+kbs2_happysunday_1bak2il	teensnature	POST	pymmlbz-wu8t		2011-08-25	저 1박2 일 폭포특집 은지원 은지원이 가다 삼부연폭포 한번 가다 가 가보 싶다 싶어 tagsmile
+kbs2_happysunday_1bak2il	cjsdkwodlf	POST	pymmn7b-5w7sl		2011-08-27	무도가조으세 1박2 일이좋으세 일이좋으세요 tagquestion
+kbs2_happysunday_1bak2il	rmnrmn	POST	pymmqmo-_o085		2011-08-24	1박2 일 이케종영결정될껄알아쓰면 엄태웅이드러왓을까 엄태웅이드러왓을까나
+kbs2_happysunday_1bak2il	yunie98	POST	pymms4q-ytgwm		2011-08-25	1박2 일이6 개월후에끝 개월후에끝난다 개월후에끝난다니
+kbs2_happysunday_1bak2il	llhabitually	POST	pymms9x-_ki4c		2011-08-27	경북예천회룡포 tagsmile 1박2 일강호동이왔다간후 인기가득 tagexclamation 30분등간후볼수있는광경 회룡포
+kbs2_happysunday_1bak2il	yunie98	POST	pymmslf-ytgwm		2011-08-25	1박2 일말고뭘보
+kbs2_happysunday_1bak2il	king11029	POST	pymo01w-yj5r6		2011-08-24	주말 1박2 일로 일 놀러가기좋은데 추천좀 하다 tagsmile
+kbs2_happysunday_1bak2il	leeeunji4622	POST	pymo2fq-ufxl		2011-08-25	강호동 이승기 1박2 일 6개월 시한부 잔류 tagcry tagcry 승기 오빠 볼 보다 있다 유일 길 강심장 강심장은 넘 늦다 tagcry
+kbs2_happysunday_1bak2il	beauty7290	POST	pymo3ln-5eca4		2011-08-26	1박2 일 오늘 kbs 앞 이승기 짧다 영상 swf 오늘 1박2 일 시청자투어 촬영 대박 이승기도 이승기 대박
+kbs2_happysunday_1bak2il	beauty7290	POST	pymo3_d-5eca4		2011-08-26	1박2 일 제 3회 시청자투어 오늘 이승기 사진 사다 오늘 이승기 미모 빛나다 정말 많다 피곤 어제 강심장 밤12 시되어촬영 끝나다 방청객 오랫동안악수와인사 다 오늘은1 박2 일시청자투어 촬영 부산 가다 복불복 실내취침 다 잘
+kbs2_happysunday_1bak2il	wojusun1	POST	pymo7_f-yx5ss		2011-08-26	1박2 일재방송보자아 강호동 잼없을수도 하다 하지 이수근이잇으 다행 tagquestion
+kbs2_happysunday_1bak2il	ehwjd9	POST	pymo9zd-_rszm		2011-08-27	1 박2 일 재방보는대 비빔밥나옴 빡침 ㅍ 나도먹을태
+kbs2_happysunday_1bak2il	stylisthanul	POST	pymogki-_w5s7		2011-08-24	김정태 1박2 일 종영 아쉽다 덕분 대출 갚다
+kbs2_happysunday_1bak2il	spastar7	POST	pymohnk-5x8tg		2011-08-24	1박2 일 시즌2 1박2 일 시즌2 가능성 높다 tagexclamation
+kbs2_happysunday_1bak2il	in9525	POST	pymohvk-_fkzt		2011-08-27	1박2 일 끝나다 이제 무슨재미 사다 tagquestion tagcry 일주일피로 승기오빠보 풀다 tagcry 안데안데 tagexclamation tagcry 못가절 못가절대 tagexclamation 흐아앙 tagsmile 승기 하차안 남기로했었짜 tagcry 이건 불공평헤 it's fair
+kbs2_happysunday_1bak2il	spastar7	POST	pymohvn-5x8tg		2011-08-24	무한도전 유재석 무한도전 유재석 vs 1박2 일 강호동
+kbs2_happysunday_1bak2il	sakuraruby	POST	pymoi3j-566q9		2011-08-27	1박2 일이라짐쌀게없네가방이휑뎅 엔간한게다호텔에 오늘은낮잠마니마니자야지새벽3 시기상예정
+kbs2_happysunday_1bak2il	daisy	POST	pymoibk-vt		2011-08-24	금요일 금요 새벽 6시 39년생 올해 일흔넷 일흔넷의 울엄니 tagexclamation kbs 1박2 일 시청자 함께하 함께하는 1박2 일 여행 떠나다 tagexclamation 아 떨다 떨리다
+kbs2_happysunday_1bak2il	pc520	POST	pymoii4-qum4		2011-08-27	엄태웅 백통 백통이 실종 주민 여러분 보호 주다 http www.hg times.com news articleview.html tagquestion idxno 30691 1박2 일 나오다 백통이 백통이가 사라지다 tagsmile hg times
+kbs2_happysunday_1bak2il	wlsdk1132	POST	pymojff-_ajsq		2011-08-24	1박2 일에서돌와습니당 tagexclamation
+kbs2_happysunday_1bak2il	beauty7290	POST	pymokag-5eca4		2011-08-26	1박2 일 제 3회 시청자투어 오늘 이승기 사진 사다
+kbs2_happysunday_1bak2il	bangwontai	POST	pymokvi-_dlrd		2011-08-23	1박2 일이승기간두타산에다녀왔습니 네비로두타산을찍고두타산등산로입구로갔습니다 등산1 시간째 계곡도안나오 이상하다싶어스맛폰 확인 써글 동해무릉계곡두타산 탓어 탓어야 했는데그반대삼척으로 올라가다 있다 아 ㅄ tagcry 갈계획잇으신분들네비에무릉계곡치세 가다 쌍폭포 쌍폭포도 못 무릉계곡 못 가다 머 에잇 ㅄ
+kbs2_happysunday_1bak2il	godhoi45	POST	pymomfj-y2u_x		2011-08-27	아항 지금여기서 1박2 일팀 일팀이 촬영하고잇네용 tagsmile 이승기보고싶지 비공개촬영 tagcry
+kbs2_happysunday_1bak2il	tbworld_tv	POST	pymon61-_clkj		2011-08-27	1박2 일 강호동 강호동만 희망 tbworld
+kbs2_happysunday_1bak2il	dldbfla1245	POST	pymoq62-2f4f		2011-08-25	엄마가컴터그만하라고하심니 tagcry 칫 tagcry tagcry 혼자1 박2 일보면서웃고는우리엄마님 tagsmile 지금내눈에오빠의신상가방이눈에뛰군 tagsmile 지만사 지만사고 tagcry 나도좀사주지 사달라고했다간안드로메다로날아갈꺼가타 tagcry 아아아앜치킨먹고싶다 tagcry 안돼살쪄 tagcry
+kbs2_happysunday_1bak2il	beauty7290	POST	pymotiq-5eca4		2011-08-27	1박2 일 시청자투어 kbs 앞 이승기 사진 사다
+kbs2_happysunday_1bak2il	esthete0214	POST	pymotsc-55von		2011-08-25	도심 속 여름휴가 즐기다 1박 2 2일 호텔패키지 w호텔수영장 wet wet과 워커힐 수영장 리버파크
+kbs2_happysunday_1bak2il	couscous_in	POST	pymotsy-syut		2011-08-24	1박 2 2일 지난 지나다 지 폭포 특집 때 강호동씨 참 차다 유달리 배신자 이미지 걱정하길래 뭔 오버 하다 예능 다르다 것 아니다 배신 이 이미지 뭘 얼마 크다 대중 각인 되다 근데 시간 지나다 작금 사태 보다 보 신경 쓰일 쓰일만 했겠다 싶다
+kbs2_happysunday_1bak2il	spastar7	POST	pymot_e-5x8tg		2011-08-24	1박 2 2일 시즌2 1박 2 2일 시즌2 가능성 있다 tagquestion
+kbs2_happysunday_1bak2il	ingsunsoo	POST	pymou7u-_as3d		2011-08-27	1박2 일 촬영지 아바이마을왓는데 아바이순대 tagexclamation 생선구 생선구이 tagexclamation 맛있는음식먹고잇는데 완전 굿 tagsmile 모두 한번씩 놀러오다 먹어 볼 음식들인거 tagsmile
+kbs2_happysunday_1bak2il	dong	POST	pymou96-x_p		2011-08-24	1박 2 2일 강호동 강호동과 무한도전 유재석
+kbs2_happysunday_1bak2il	michelle0408	POST	pymove0-y3yvn		2011-08-24	나 나다 지금 평창 2박3 일 보내다 속초 속초로 가다 1박2 일 보내다 속초 가는중
+kbs2_happysunday_1bak2il	zenith830	POST	pymox1u-_a8op		2011-08-27	1박 2 2일 여자 다섯 놀러가는거 치다 또 장 과하다 본 보다 같다 tagsmile 먹다 죽다 죽 귀신 때깔 곱다잖아 곱다잖아를 착실 수행 우리 tagsmile
+kbs2_happysunday_1bak2il	ehr0389	POST	pymoxgn-yfu27		2011-08-24	1박2 일안끋 일안끋나길 웹
+kbs2_happysunday_1bak2il	rosewine87	POST	pymoxr_-yo_vi		2011-08-24	1박2 일 가는길 가는길인데 tagsmile 장본목록 tagsmile ㄷㄷ 아이궁 tagcry
+kbs2_happysunday_1bak2il	4minute_jh	POST	pymo__q-_qq1z		2011-08-23	내 사는곳 사는곳은 tagsmile 1박2 일 한번 왔었던곳 tagsmile tagsmile 여기다 여기 어디 일까 일까요 tagquestion tagsmile 어렵다 tagquestion tagsmile
+kbs2_happysunday_1bak2il	lemsunjung	POST	pymp0ix-5ht8c		2011-08-23	경주 테디베어 박물관가서 찍다 사진 장난치다 tagsmile 서울역도착 tagexclamation 1박2 일 힘들다 여행 마 마치 집 gogo 근데 집다 집 언제가지 tagcry
+kbs2_happysunday_1bak2il	cjc7251	POST	pymp0s_-yeafy		2011-08-25	로니 로니의 생각 해피선데 해피선데이 1박2 일
+kbs2_happysunday_1bak2il	naver_news	POST	pymp4bx-bj_k		2011-08-22	연예 시한부 1박2 일 버킷리스트 7선 네이버 뉴스 news 스포츠동 스포츠동아 1박2 일 버킷리스트
+kbs2_happysunday_1bak2il	hanigold	POST	pymp6n9-yh6vp		2011-08-23	오늘 영재학급 안가서 시간 남다보 남다보니 지현 집 놀다 tagsmile 피아노땡땡이 피아노땡땡 tagsmile 혜워 혜워니 지혀니 지혀니랑 아딸 떡볶이 순대 사먹다 지혀니네 젠가 젠가하 티비 티비보 1박2 일 술래잡기 tagsmile 애들 애들이 움직이다 내 진짜 못잡아서 쩔쩔매다 학원늦었다 tagcry
+kbs2_happysunday_1bak2il	carmaster000	POST	pymp72b-ydfu8		2011-08-24	필사즉생 1박2 일 마지막 승부수 통하다 tagquestion 시즌2 가능성 tagquestion
+kbs2_happysunday_1bak2il	chlwjd0011	POST	pymp7sq-5fv2o		2011-08-22	1박2 일로 일 놀다 가요 가다 가
+kbs2_happysunday_1bak2il	puig00	POST	pymp8_y-5wnrl		2011-08-22	친구 1박2 일로 일 경주 다녀오다 tagexclamation 주변인 고하다 경주 웬만하다 가지마시길 tagsmile 아무리 관광지라지 tagsmile 바가지 교통편의 압박 tagsmile 하다 하지 굳이가고싶다면 경주 성동시장 우엉김밥 들다 오세영 ㅅ 싸다 싸 맛나다 맛 우엉김밥 교리김밥은왜유명한건지모르겠음
+kbs2_happysunday_1bak2il	jisiklog	POST	pymp9qf-_rcxy		2011-08-22	1박2 일 시청자투어 백지영 전현무 성시경 담 누군가 누군가요 전현무
+kbs2_happysunday_1bak2il	ickjong	POST	pympc01-zzb		2011-08-22	일하다 옆 틀어둔 1박2 일 박찬호 박찬호의 부상 뒤 첫 실전등판 직전 굳다 찾아가다 것 일본 간 가다 갈다 후 인터뷰 답변 질문 또 던지다 것 1박2 일 팬 아니다 박찬호 팬 어이 없다 지경 결과보단 과정 중요 고 말 박찬호 박찬호는 역시 멋지다 메이저 기회 갖다 못하다 걸 눈물 아쉬워 한국 바 돌아가다 없다 한국 야구계 서운해 이젠 일본 새롭다 도전 하다 과정 의미 찾다 있다 얼추 도인 다 되다 박찬호 멋지다 당신 당신의 마지막 한 하다 걷다 걸음 팬
+kbs2_happysunday_1bak2il	milledental	POST	pympcdy-5otk4		2011-08-22	1박2 일 박찬호 재회박찬호 딸 따다 공개 박찬호 부상 후 첫경기 응원이벤트 박찬호 미모 아내
+kbs2_happysunday_1bak2il	dkwlxm77	POST	pympcn2-hyk1		2011-08-25	단양 도담삼경 tagexclamation 한노총 워크셥 tagexclamation 1박2 일 오전 산행 마 마치 오후 단양팔경중 하나 도담삼봉 끝 일정 마치 그리다 내삶 내삶의 터전
+kbs2_happysunday_1bak2il	winchaser	POST	pympdjp-yvx6h		2011-08-25	1박 2 2일 vs 무한도전 tagexclamation 오늘 바쁘다 오전 오후 예상 되다 쿠쿠 맛점 전 힘차다 시작 하시구 하시구요 tagsmile
+kbs2_happysunday_1bak2il	kkambbak	POST	pympdkr-5cdqp		2011-08-25	경 통영 2011.06.05 통영 소매물 소매물 1박2 일 촬영지 망태봉 등대섬
+kbs2_happysunday_1bak2il	jkhopes	POST	pympdv2-ygl2m		2011-08-23	1박2 일 혹사
+kbs2_happysunday_1bak2il	ky4016	POST	pympe2c-wsgr		2011-08-23	1박2 일로 일 벌초 오다 원쓰 원쓰와 원쓰아부지 tagexclamation 보구자펐옹 tagcry tagcry
+kbs2_happysunday_1bak2il	faketoy	POST	pympe4s-5jp56		2011-08-22	1박2 일 110821 토렌트
+kbs2_happysunday_1bak2il	roony0933	POST	pympfw8-574t2		2011-08-25	강호동하차설 1박2 일 결국 6개월뒤 종영결정
+kbs2_happysunday_1bak2il	winpopup	POST	pympg9z-e0vm		2011-08-24	1박2 일 거창 아시아1 인극제 여행 번외편 경남민족예술인대회1 박2 일 거창 아시아1 인극제 여행 번외편 경남민족예술인대회 daum카페
+kbs2_happysunday_1bak2il	nailstan	POST	pympgun-hd4w		2011-08-22	충청 충청남 충청남도 서해안 가 가다 볼 곳 태안 반도 반 여행 신진 낚시 수산시장 꽃게철 서울 가깝다 1박2 일 가족 여행지
+kbs2_happysunday_1bak2il	pinkvane	POST	pymph88-micd		2011-08-25	저녁 복불복 tagexclamation tagsmile 우리 1박2 일 tagquestion tagexclamation 꽃등심주세 tagexclamation tagsmile
+kbs2_happysunday_1bak2il	tbworld_tv	POST	pymphj2-_clkj		2011-08-24	1박2 일 시즌2 가능성 높다 tbworld
+kbs2_happysunday_1bak2il	noble66	POST	pymphux-5wj4i		2011-08-25	낙산 낙산해수욕장 강원 강원도 양양 2011년8 월23 24 24일 1박2 일
+kbs2_happysunday_1bak2il	st0ney	POST	pympkp2-fde4		2011-08-25	천당폭포 1박 2일 2일의 영향력 예전 우 한마디 하다 하 지나치다 폭포 였는데 이번 이번에 보 tagsmile 천당폭포
+kbs2_happysunday_1bak2il	behrcl1014	POST	pympm1h-58sls		2011-08-22	1박2 일 버라이어티 버라이어티를 등에업고 전국 돌며 지역 특산무 소개 맛집소개 그리다 각 관광명소 소개 과거 출처한국 최고 스포츠 엔터테 엔터테인 오센 t토크 ttalk
+kbs2_happysunday_1bak2il	laelae53	POST	pympmh_-552nv		2011-08-22	1박2 일 박찬호 재회 1박2 일서 박찬호 아내 딸 따다 공개 tagexclamation
+kbs2_happysunday_1bak2il	qkrrbdyddl	POST	pympmkm-_j3pd		2011-08-24	1박2 일 8월21 일 다시보기 토도우
+kbs2_happysunday_1bak2il	totoo0731	POST	pympmwg-55rxv		2011-08-22	제아스와함께 제아스와함께하 제아스와함께하는 1박2 일 캠프
+kbs2_happysunday_1bak2il	minidoll	POST	pympmxb-8iwx		2011-08-22	1박2 일 이수근 한폭 한폭의 산수화 주왕산 등산 깜놀 신선 쉬어가다 폭포 뉴스 뉴스스크랩
+kbs2_happysunday_1bak2il	djm06142	POST	pympm_a-yfasm		2011-08-25	1박2 일보는데 tagsmile 아 지우개 쌈하 쌈하내 tagsmile
+kbs2_happysunday_1bak2il	totoo0731	POST	pympn2w-55rxv		2011-08-22	제아스 제아스와 함꼐 함꼐하 함꼐하는 1박2 일 캠프
+kbs2_happysunday_1bak2il	gimono412	POST	pympoe1-5hab_		2011-08-22	1박2 일 이승기 나pd 에다 제작비 사용처 의혹 제기
+kbs2_happysunday_1bak2il	dalzu-79	POST	pympq70-5jzdm		2011-08-22	1박2 일 전현무 성시경 반말 듣다 분노
+kbs2_happysunday_1bak2il	jubang2455	POST	pymptob-_qaa9		2011-08-22	1박2 일 박찬호 재회 예쁘다 두 딸 자상 아빠
+kbs2_happysunday_1bak2il	you9583	POST	pymptsj-y9opf		2011-08-24	회사 리조트사용권 쓰다 공지 무주리조트 5개 정도 1박2 일 한 하다 6만언 6만언에 이용할수있다넹 이용 tagsmile 수습 이용 가다 가늘다 가 ㅇ
+kbs2_happysunday_1bak2il	partyon	POST	pympv0u-ljbt		2011-08-24	1박2 일호텔 활용 즐겁게보내자 tagexclamation
+kbs2_happysunday_1bak2il	epp1	POST	pympvgk-y4bs6		2011-08-22	이승기 1박2 일제작비 의혹제기
+kbs2_happysunday_1bak2il	vpfkfldpscy	POST	pympvm7-5qqaq		2011-08-25	1박2 일 입니 입니다
+kbs2_happysunday_1bak2il	vpfkfldpscy	POST	pympvp7-5wi4h		2011-08-25	아오 손님 언제 가실랍니까 tagquestion 손님 설마 설다 1박2 일 tagquestion 음 음 tagsmile
+kbs2_happysunday_1bak2il	eccedu	POST	pympvu8-_hdnt		2011-08-22	돈 문제 아닌듯 아닌듯합니다 아닌듯합니다만 실제 이유 알 수가 수 없다 답답 .1박 2 2일 모 멤버 힘내다 기 출처한국 최고 스포츠 엔터테 엔터테인 오센 t토크 ttalk
+kbs2_happysunday_1bak2il	beauty7290	POST	pympxlk-5eca4		2011-08-24	1박2 일 이승기 예능황제 변함 프로정신
+kbs2_happysunday_1bak2il	epp1	POST	pympxrd-y4bs6		2011-08-22	1박2 일 전현무 아 성시경 반말 분노
+kbs2_happysunday_1bak2il	yongsan-gu	POST	pympysa-5t09q		2011-08-25	용산구 지난 지나다 지 23일 1박 2일 여성 지도자 역량강화 위하다 워크숍 워크숍을 통하다 여성단체 활성화 방안 지도자 나아가다 할 하다 방향 고민해보 시간 가지다
+kbs2_happysunday_1bak2il	wqop2	POST	pymqreu-_0q12		2011-08-27	서바이벌나는임원 tagexclamation 1박2 일 엑스맨 등이섞여만들어진우리의엠티 그리고꽂지해수욕장 그곳에서의맛있었던라면 꽃게탕 어느것하나라도잊을수없는추억이생겼다 taglove
+kbs2_happysunday_1bak2il	snick42	POST	pymr0cc-_sbo6		2011-08-25	아직도촬영중 아직도촬영중이시군 힘내다 저희4 살짜리아들래미 살짜리아들래미도 낼1 박2 일시청자투어촬영가요홧팅해주세
+kbs2_happysunday_1bak2il	teensnature	POST	pymr0he-5s24i		2011-08-25	해외 가다 가 가보 싶다 우리 우리나라 안 알다 가다 곳 엄청 많다 1박2 일 봤었던 거문도 거문도에 가다 가 가보 싶다 싶어 조용 섬 여유롭다 휴식 취하다 취하 싶다 tagsmile
+kbs2_happysunday_1bak2il	spastar7	POST	pymr25l-5x8tg		2011-08-22	1박2 일 시청률 1박2 일 시청률 상승
+kbs2_happysunday_1bak2il	spastar7	POST	pymr2nu-5x8tg		2011-08-22	1박2 일 박찬호 1박2 일 박찬호 이승기 이수근 재회 tagexclamation
+kbs2_happysunday_1bak2il	spastar7	POST	pymr2o7-5x8tg		2011-08-22	1박2 일 박찬호 1박2 일 박찬호 미모 아내 오다 아이들 공개 tagexclamation
+kbs2_happysunday_1bak2il	magig888	POST	pymr2so-yrwg3		2011-08-22	1박2 일 동안 열나다 놀수잇던이유 여신 열다 개만 개만아 ㅇㅇ 고딩 누나 ㅇㅇ
+kbs2_happysunday_1bak2il	st0ney	POST	pymr4f5-fde4		2011-08-26	1박2 일모드 시작 두타산 무릉반석 인증샷 tagsmile 계곡속 통신 안되다 무릉반석
+kbs2_happysunday_1bak2il	hugex	POST	pymr4wj-v4f		2011-08-26	1박2 일 시청자 투어3 타다 부산 tagexclamation
+kbs2_happysunday_1bak2il	hd67so73	POST	pymr72q-_stt2		2011-08-22	1박2 일 이승기 나pd 에다 제작비 사용처 의혹 제기 오셔서 즐기다 tagexclamation 여우 야 처소 처소로 놀러오다 tagexclamation 왼편 주소 주다 보이죠 tagquestion joinsmsn
+kbs2_happysunday_1bak2il	ary1454	POST	pymr75c-55lgt		2011-08-22	뭐6 개월후라하지만이제1 박2 일끝나면무슨재미로사 일끝나면무슨재미로사나 tagsmile
+kbs2_happysunday_1bak2il	pde87	POST	pymr75s-y9l7y		2011-08-22	tagquestion 발이오그라들지않았어 tagexclamation 이런목소리참 좋은데담주1 박2 일본방 ㄱㄱ
+kbs2_happysunday_1bak2il	davin808	POST	pymr7ek-hko		2011-08-22	런닝맨 나가수 를 따라잡다 방법 런닝맨 런닝맨은 다 좋다 전혀 공감 안가 안가고 오버 편집 프로그램 다 망치는듯 별것 아닌것 가지다 가지 놀라다 반전 드립 하는거 하는거랑 별 궁금 않다 비밀 어쩌고하면서 예고하는거 정말 비호감 10아시아 주말예능 런닝맨 예전 1박2 일도 일 억지감동 자막 다 망치다 놓다 어째 어째든 나가수보단 재밌음
+kbs2_happysunday_1bak2il	fourflowers4	POST	pymr7w5-ypw8r		2011-08-22	오늘 학교 쳐박혀 있다 그런지 다리 욱씬 거리다 아프다 tagcry 집 오다 컴터 컴터하니까 또 1박2 일 이야기 tagcry 쳇 안볼려 안볼려고 해도 하다 해 자꾸 나오다 tagcry 화제 바꾸다 오늘 머리 묶다 역시 역시나 잔머리 대폭발 대폭발하 말았다네 tagsmile 내머리 내머리는 왜 외다 그럴까 그럴까요 tagsmile
+kbs2_happysunday_1bak2il	param25	POST	pymr9bt-_w_nh		2011-08-22	백지영 1박2 일 시청자투어 3탄 출연
+kbs2_happysunday_1bak2il	maplestory72	POST	pymr9ck-5seso		2011-08-26	1박2 일 숨겨진인물
+kbs2_happysunday_1bak2il	webhosting	POST	pymraan-4_ac		2011-08-22	원문 전현무 1박2 일 전현무 성시경 반말 듣다 분노 전현무 전현무가 놀랍다 예능감 선보이다 화제 21 21일 방송 kbs 2tv 해피선데 해피선데이 1박2 일 이하 1박2 일 에다 김병 김병만 백지영 성시경 전현무 전현무가 객원mc 로 출연 시청자투어 대 웹
+kbs2_happysunday_1bak2il	jts5933	POST	pymrc18-52_ej		2011-08-22	1박2 일 백지영 내 사랑 사람 정석원
+kbs2_happysunday_1bak2il	powerguy	POST	pymrch7-eq1i		2011-08-26	1박 2 2일 준비 생일 차리다 프로젝트 성공적 출시 완료 생일 생 완전 축하 tagsmile
+kbs2_happysunday_1bak2il	haenaemcar	POST	pymrfq2-_gof0		2011-08-22	자동차렌트 렌트카대리점 국내여행 1박2 일여행지추천 자동차렌트 손쉽다 떠나다 국내여행지 1박2 일 코스
+kbs2_happysunday_1bak2il	limnsong	POST	pymri9d-5m60x		2011-08-22	김포 지유 온유네 1박2 일 방문기
+kbs2_happysunday_1bak2il	beauty7290	POST	pymrich-5eca4		2011-08-24	1박2 일 이승기 예능황제 변함 프로정신 예능황제 이승기 진정 프로네 프로네요
+kbs2_happysunday_1bak2il	korean2070	POST	pymrjh6-5hmwi		2011-08-24	차태현 폐지 앞두다 1박2 일 나가다 싶다 리얼예능 욕심
+kbs2_happysunday_1bak2il	kyoungt70	POST	pymrk7m-bxvq		2011-08-22	원문 성시경 성시경의 강력 한방 1박2 일 강타 주변 있다 피곤 스타일 웹
+kbs2_happysunday_1bak2il	spastar7	POST	pymrn0z-5x8tg		2011-08-22	1박2 일 제작비 1박2 일 제작비 도대체 어디 어디다 쓰다 tagquestion
+kbs2_happysunday_1bak2il	spastar7	POST	pymrn3a-5x8tg		2011-08-22	1박2 일 박찬호 1박2 일 박찬호 덕 시청률 상승 tagexclamation
+kbs2_happysunday_1bak2il	skyzzxx27	POST	pymrn4w-y84jw		2011-08-22	저기뭐 저기뭐야 다르다 다름 아니구 아니구요 오늘 아침뉴스타임 연예수첩 보고 보다 보 알다 예능프로그램 1박2 일 종료 되다 하던대 정말 멤버 모두 하차 하나요그리 1박2 일 시즌투 시즌투도 제기 하더라구 하더라구요
+kbs2_happysunday_1bak2il	sunhee4166	POST	pymrnna-_d9ki		2011-08-26	오늘 1박2 일 마지막 시청자 투어한뎁 tagcry 근데 부산 거 거다 tagexclamation 나 나다 부산여잔데 어디서 하는거지 tagquestion 가고싶어 tagcry 셤 셤도 끝나다 어디 어디있 어디있나 어디있나요 1박2 일 tagquestion 가고싶어 가고싶어 가고싶어 가고싶엇 tagexclamation
+kbs2_happysunday_1bak2il	tanjin	POST	pymropj-ye3ap		2011-08-22	1박2 일 동해피서탐방
+kbs2_happysunday_1bak2il	uworthmylife	POST	pymrpos-5tom9		2011-08-22	부산 1박2 일 여행가려는데 tagsmile 부산 갔다오다 분들 갈 곳 추천
+kbs2_happysunday_1bak2il	iken	POST	pymrqin-ybodl		2011-08-24	만나고싶엇던 tagexclamation 좋은추억 가지고갈 tagsmile 1박2 일동안 고맙다 tagsmile 잊지못할꺼 잊지못할꺼다 tagsmile 키킥
+kbs2_happysunday_1bak2il	angels5257	POST	pymrqt6-_bh_j		2011-08-22	1박2 일 이승기 나 나다 pd 비난 비
+kbs2_happysunday_1bak2il	kihwankwon1	POST	pymrs4o-_fa7i		2011-08-24	제주 정방폭포 1박2 일팀 일팀이 폭포순례 다녀가다 제주 정방폭포 tagexclamation
+kbs2_happysunday_1bak2il	wlsdk1132	POST	pymrslf-_ajsq		2011-08-22	내이드디어복지관에서1 박2 일가 tagexclamation
+kbs2_happysunday_1bak2il	meli	POST	pymrsuh-yy1a		2011-08-22	1박2 일여행지 주말여행 곤지암리조트 가족여행 곤지암리조트 내 내다 조식부페 미라시아 mirasia
+kbs2_happysunday_1bak2il	angels5257	POST	pymrs_b-_bh_j		2011-08-22	1박2 일 박찬호 미모 아 아내 귀요미 두 딸 따다 공개 보기 보다
+kbs2_happysunday_1bak2il	spastar7	POST	pymruh4-5x8tg		2011-08-22	1박2 일 박찬호 1박2 일 박찬호 일본 집 방문
+kbs2_happysunday_1bak2il	spastar7	POST	pymruph-5x8tg		2011-08-22	1박2 일 성시경 1박2 일 성시경 나pd 오다 천적 tagquestion tagexclamation
+kbs2_happysunday_1bak2il	62moablog	POST	pymrv5l-5bvh7		2011-08-22	1박2 일 348회 다시보기
+kbs2_happysunday_1bak2il	ashicham	POST	pymrvhi-_yo2m		2011-08-22	1박 2 2일 종영 1박 2 2일 마지막 회 1박 2 2일 시청률
+kbs2_happysunday_1bak2il	st0ney	POST	pymrvsf-fde4		2011-08-26	1박2 일모드 시작 두타산 무릉반석 인증삿 무릉반석
+kbs2_happysunday_1bak2il	ehfcn354	POST	pymrw5t-5t5g7		2011-08-22	아빠 수영동호회 해양캠프 다녀오다 내 첫눈 반 여자아이 봤어염 tagsmile 아이 절 맘 들어하는거 같은뎅 1박2 일동안 같다 있다 지금 자꾸 생각 지워지지 않아 tagcry 가을 가을이 겨울 또 모임 바라다 바 그때 또보자 taglove 내다 사랑이왔 tagquestion
+kbs2_happysunday_1bak2il	giholee2	POST	pymrz4b-r87l		2011-08-22	8월 20 21 21일 경기 시흥시 과림저수지 에서 1박2 일
+kbs2_happysunday_1bak2il	mountkorea	POST	pymrz__-yw_p5		2011-08-22	1박2 일 전현무 성시경 반말 듣다 분노
+kbs2_happysunday_1bak2il	mc1985	POST	pymr_s3-57dq9		2011-08-24	1박2 일 촬영 장소 직탕폭포 다녀오다
+kbs2_happysunday_1bak2il	kittyn5	POST	pymt30i-a1z2		2011-08-26	물안개 피다 피 마을 1박 2 2일 예쁘다 펜션 밀양 관광 밀양 휴가
+kbs2_happysunday_1bak2il	jung2918	POST	pymt6e8-5dda5		2011-08-26	1박2 일촬영지금어디서 tagquestion 부산 보고싶네
+kbs2_happysunday_1bak2il	kimmgrno1	POST	pymt8ex-ylxiv		2011-08-26	ovjet 달콤달달 조개구 조개구이 파는곳 파는곳이 자갈마당 하다 .1박2 일 이대호 이대호랑 이승기 왔다간후 양 작아지다 ovjet 부산 사람 모임 모이다 부산광역시 북구 만덕동
+kbs2_happysunday_1bak2il	hshee95	POST	pymt9_z-5_yq		2011-08-26	7월17 일 해리포터 7월25 일 여자모임 여자모 8월4 일 주연이만 8월5 일 대학로연극 8월12 일 혜민이네1 박2 일 8월17 일 압구정 8월19 일 오르세미술전 8월22 일 활 8월24 일 오션월드 8월26 일 바로크로코코전 8월27 일 절 진짜 잘놀았다 이번 방학 tagexclamation
+kbs2_happysunday_1bak2il	ksy2nd	POST	pymtd5d-8n91		2011-08-27	강 보 보이 펜션도착 ㅁ 가평 1박2 일
+kbs2_happysunday_1bak2il	key568	POST	pymtgat-_mmp4		2011-08-26	내일하쟈 내일 내 부모님 1박2 일로 일 놀러가다 tagexclamation
+kbs2_happysunday_1bak2il	chansory	POST	pymtgl9-bqaw		2011-08-27	나영석 1박2 일 6개월뒤 종영 바뀔수도 미디어오늘
+kbs2_happysunday_1bak2il	winam_p	POST	pymthr3-vysr		2011-08-27	아 피곤 잠 많다 오다 오 허리아파서 한의원갔다가 사람 사다 없다 교 교대 한시간씩 자고 자다 자 사람 사다 없다 오늘 진짜 한거 없다 보낸하루네 보낸하루네요 tagcry 집가서 책 책보 토르 토르나 봐야겠어욥 tagcry 집가면 12시 진짜 바쁜게 좋다 한가 막 근무시간 할꺼 없다 멍 티비 티비보 티비보기 근무 9시 마감 다가오는군 킹콩 런닝맨 1박 2일 2일을 보다
+kbs2_happysunday_1bak2il	kwb4788	POST	pymti1c-5z6fe		2011-08-27	거제시 1박2 일코스 추천 여행 관광 코스 가볼만한곳 드라이브 아 daum카페
+kbs2_happysunday_1bak2il	h026819	POST	pymtjx8-54gbx		2011-08-27	꺄앜 tagsmile 할머니 1박2 일 시청자투어 가다 받아오셧어 아이씡낰 tagsmile
+kbs2_happysunday_1bak2il	dyeworld	POST	pymtk3u-zly		2011-08-26	1박2 일 시청자투어 3탄 개시 kbs서 오프닝 촬 100세 어르신 일박이 일박이일 없어지다 않다 한범 설득 아쉽다 tagcry 스타뉴스
+kbs2_happysunday_1bak2il	yulim_maeng	POST	pymtkmm-_mjt2		2011-08-26	강촌 1박2 일 놀러오다 tagsmile 구곡폭포 tagexclamation 걸어가다 tagcry 왜들 스쿠터 타다 절실하게 느끼다 그래두 물 시원 가슴뚤어뻥 tagexclamation
+kbs2_happysunday_1bak2il	wooseokint1	POST	pymtq2e-qb9s		2011-08-27	안면도여행 안면 1박 2 2일 맛보기사진
+kbs2_happysunday_1bak2il	kji206	POST	pymtq4o-5apsf		2011-08-27	대구여행허브 펼쳐지다 한곡 한곡의 오케스트라 허브힐즈 대구1 박2 일여행
+kbs2_happysunday_1bak2il	fbab	POST	pymtw66-_8z0e		2011-08-26	달콤 주말 반납 엄마 1박2 일 여행가 tagsmile 얼른 자다
+kbs2_happysunday_1bak2il	jung2918	POST	pymtwyi-5dda5		2011-08-26	1박2 일촬영하고있는데비공개란다 시골에와서연애인구경하는줄알고왔는뎅 메야머랴 짐먗명안되는데구경좀시켜주지
+kbs2_happysunday_1bak2il	itoa	POST	pymw0o3-ahtb		2011-08-22	가을동화 아바이마을실향민 아프다 아픔 희망 숨쉬는곳 아바이마을 1박2 일 아바이마을 순대국밥 생선구 생선구이 다신식당 단천식당 가을동화마을 아바이마을 맛집강원속초속초맛집
+kbs2_happysunday_1bak2il	nabistory	POST	pymw2ep-53u7y		2011-08-26	이렇게 좋은사람 조용 곳 보내다 느즈막 느즈막한 여름 주말 조리원모임대부도1 박2 일여행
+kbs2_happysunday_1bak2il	keynome	POST	pymw2ub-ygiiz		2011-08-24	1박2 일 진정 리얼 프로그램 waglewagle
+kbs2_happysunday_1bak2il	killsia79	POST	pymw2wo-5y14j		2011-08-26	서울 플라자호텔 1박2 일 호텔휴가 tagsmile
+kbs2_happysunday_1bak2il	ihiba	POST	pymw3po-_84li		2011-08-27	kbs 1박2 일 여행지 주왕산 의 별미 tagexclamation 닭불고기청송 서울여관식당
+kbs2_happysunday_1bak2il	jjeksh88	POST	pymw5xh-5axxc		2011-08-22	절대 국민예능 1박2 일 사라지다 일 예능 30개 daum연예
+kbs2_happysunday_1bak2il	qahy4169	POST	pymw9l8-_qkit		2011-08-23	1박2 일 tagcry 호동이외하차를하 tagcry
+kbs2_happysunday_1bak2il	chlalswn97	POST	pymwag2-y_o7f		2011-08-23	누 누가 이렇게 1박2 일 크다 봄 보다 tagquestion tagexclamation 시끄럽다 못자겄자 못자겄자나 tagexclamation 히밤 tagcry 무개념 tagcry
+kbs2_happysunday_1bak2il	insos02	POST	pymwbg2-_8lnw		2011-08-23	1박2 일 무료다시보기 시청자투어 대비캠프 2011-08-21 1박2 일 무료다시보기 시청자투어 대비캠프 2011-08-21
+kbs2_happysunday_1bak2il	itoa	POST	pymwc3d-ahtb		2011-08-23	해피선데이1 박2 일 2011,08,14 20 04
+kbs2_happysunday_1bak2il	tobytoby50	POST	pymwck6-yuh8_		2011-08-25	내일 내 레프팅좀 하고올께 하고올께요 처음가는거 많다 기대중 tagsmile tagsmile 근육통 근육통도 어느정도 각오하고 tagsmile 한탄강 한탄강으 1박2 일 금방 갔다올꺼 tagsmile
+kbs2_happysunday_1bak2il	seytoho	POST	pymwebi-yby8c		2011-08-27	부천타임치과 부천임플란트 모닝캄빌리지8 월 광복절 황금 연휴 행복 모습 tagexclamation 강원 강원도 철원 부티크 펜션 리조트 모닝캄빌리지 1박2 일 폭포특집 나오다 철원8 경 tagexclamation 삼부연폭포 웅장 아름다움 아름답다 tagexclamation 오늘 올바르다 양치질 잊지마세 잊지마세요 tagexclamation
+kbs2_happysunday_1bak2il	go12yan	POST	pymwef8-yu9wo		2011-08-22	후훗 춘기 춘기라 이르다 이름 1박2 일 재방송 이정도 이정도는 지켜주는게 매너채팅이잖 tagquestion tagexclamation 욕설비방금지 초성체는벙어리
+kbs2_happysunday_1bak2il	khr060811	POST	pymwepm-yqd59		2011-08-22	제주 둘째 둘째날 예이츠산장 쌍둥이횟집 마린파크 돌고래 정방폭포 제주도폭포 바닷가폭포 1박2 일폭포 전복회
+kbs2_happysunday_1bak2il	dksrudals6	POST	pymwext-rzyw		2011-08-22	ㅡ 최근사진 1박2 일 함안 계곡 갈때 찍은사진 tagsmile
+kbs2_happysunday_1bak2il	xell999	POST	pymwfdj-_a235		2011-08-27	나홀 나홀로 주왕산 1박2 일 주산지 송소고택
+kbs2_happysunday_1bak2il	sdz6496	POST	pymwg7p-5pdof		2011-08-27	강호동 하차 1박2 일 언제 강호동 나오는거 tagquestion
+kbs2_happysunday_1bak2il	yoosh1981	POST	pymwhsp-_oejj		2011-08-23	문제 하나 하다 하 나가다 맞추신분 스타벅스 음료교환권 선물 넣어 넣어드립니 넣어드립니다 한분 한분입니 한분입니다 tagsmile 젝스키스 리더 은지원이죠 1박2 일 출연 은지원 은지원의 별명 은초딩 은초딩입니 은초딩입니다 그럼 은지원 은지원의 좌우명 무엇 tagquestion 맞추다 스마트폰 스마트폰이 아니다 아니 카톡 카톡을 못하다 무효처리 tagsmile 선물 카톡 카톡으 쏘니까 쏘니까요 tagsmile 제 미친 미친이 몇 없다 일단 한분시작 할게 할게요 담 2분 tagsmile
+kbs2_happysunday_1bak2il	xell999	POST	pymwjw4-_a235		2011-08-27	나홀 나홀로 주왕산 1박2 일 제1 2,3폭포
+kbs2_happysunday_1bak2il	kyj7276	POST	pymwlze-uh3m		2011-08-26	쫌잇다가부싼으로캄백 1박2 일만에캄백
+kbs2_happysunday_1bak2il	frompic	POST	pymwmk_-_d1bz		2011-08-25	김성록 꿀따 꿀따는 폴포츠1 박 2일 2일의 오디션이었죠 김성록씨 김성록씨가 나오다 화제 되다 은둔고수 꿀테너 김성록 김성록입니 김성록입니다 17일 17일날 방송 kbs 2tv 프로그램 남자 자격 추다
+kbs2_happysunday_1bak2il	lm6n3433	POST	pymwmvn-_sttz		2011-08-23	1박2 일 이승기 나pd 에다 제작비 사용처 의혹 제기 오셔서 즐기다 tagexclamation 여우 야 처소 처소로 놀러오다 tagexclamation 왼편 주소 주다 보이죠 tagquestion joinsmsn
+kbs2_happysunday_1bak2il	saalove77	POST	pymwntu-_6370		2011-08-27	8,27 1박 2 2일 전주 여행 다녀오다 네이버 블로그 복귀
+kbs2_happysunday_1bak2il	xell999	POST	pymwp9p-_a235		2011-08-27	나홀 나홀로 주왕산 1박2 일 달기약수터 솔기온천
+kbs2_happysunday_1bak2il	goretti75	POST	pymwpy1-5kzwp		2011-08-27	내귀 내귀에 캔디 노래 노랗다 아시죠 tagquestion 클릭 함께들어 1박 2 2일 강호동 내귀 내귀에 돼지 tagsmile 보다 보 좋다 tagsmile
+kbs2_happysunday_1bak2il	shlee7217	POST	pymwqg8-5llac		2011-08-23	8월24 일 남양주 초록향기 1박 2 2일
+kbs2_happysunday_1bak2il	skyfly9	POST	pymwr2v-hbhy		2011-08-25	1박2 일 데이트
+kbs2_happysunday_1bak2il	spastar7	POST	pymwskh-5x8tg		2011-08-23	1박2 일 이승기 1박2 일 이승기 나pd 에다 제작비 어디 어디다 쓰다 tagquestion 추궁 tagexclamation
+kbs2_happysunday_1bak2il	st0ney	POST	pymwtul-fde4		2011-08-27	1박2 일 이수근 따라잡다 주왕산 제 1폭포 제1 폭포
+kbs2_happysunday_1bak2il	grace_eh	POST	pymwu8r-udz2		2011-08-23	day off 1박2 일 보다 보 알게 알게된 베란다프로젝트 요즘 같다 날씨 잘 자다 어울리다 앨범 같다 역시 김동률 김동률이 김동률이라 감탄사 나오다 tagsmile 네이버뮤직 day off
+kbs2_happysunday_1bak2il	kyjhod4	POST	pymwvmf-_bpst		2011-08-26	그리다 오늘 누나 친구 태백 1박 2 2일 보내다 tagsmile
+kbs2_happysunday_1bak2il	jinkyu01	POST	pymwxtt-l6np		2011-08-26	플라자 c.c 설악 1박2 일 특별패키지 tagexclamation 1박2 일 상품중 괜찮다 같다 tagsmile 한번 보다 보세 mbc 골프 소셜커머스
+kbs2_happysunday_1bak2il	jaynpooh	POST	pymwyy5-99mb		2011-08-25	1박2 일 짧다 답사 마 마치 돌아가다 간 간만 타다 고속버스 2fb
+kbs2_happysunday_1bak2il	662977	POST	pymw_yu-ylao8		2011-08-23	전 절다 오늘 1박2 일 여행 갔다오다 잠 못자서 좀 조다 2시 떠들다 놀다 말다 말
 kbs2_happysunday_1bak2il	giokaga2000	COMMENT	pym137q-_j7fc	c_nm92s-ym137q-_j7fc	2011-08-22	김치 수재비 해먹다 그게 탈 난듯
 kbs2_happysunday_1bak2il	2011naoko	COMMENT	pym137q-_j7fc	c_nm98k-ym137q-_j7fc	2011-08-22	뭘 드셨길래 밀가루 잘못된건 아닐테 아닐테고
 kbs2_happysunday_1bak2il	blackwom	COMMENT	pym137q-_j7fc	c_nmfqi-ym137q-_j7fc	2011-08-22	헉 위경련 아니다 tagcry
@@ -451,12 +451,12 @@ kbs2_happysunday_1bak2il	slemf854	COMMENT	pym137q-_j7fc	c_nmjo4-ym137q-_j7fc	201
 kbs2_happysunday_1bak2il	2011naoko	COMMENT	pym137q-_j7fc	c_nmjy7-ym137q-_j7fc	2011-08-22	수제비 덜 익었었나욤 에구 밤 고생 많으셨네요
 kbs2_happysunday_1bak2il	giokaga2000	COMMENT	pym137q-_j7fc	c_nmpik-ym137q-_j7fc	2011-08-22	죽을것 지금 정신
 kbs2_happysunday_1bak2il	giokaga2000	COMMENT	pym137q-_j7fc	c_nmpzx-ym137q-_j7fc	2011-08-22	정신
-kbs2_happysunday_1bak2il	giokaga2000	COMMENT	pym137q-_j7fc	c_nmri2-ym137q-_j7fc	2011-08-22	모르다 여하튼 먹고 나다 나 아주 구토 부터 시작 일요일 일어나다 못하다 못 시 겨우겨우 몸 일으키다 정도 정
+kbs2_happysunday_1bak2il	giokaga2000	COMMENT	pym137q-_j7fc	c_nmri2-ym137q-_j7fc	2011-08-22	모르다 여하튼 먹고 나다 나 아주 구토 부터 시작 일요일 일어나다 못하다 못 5시 5시에 겨우겨우 몸 일으키다 정도 정
 kbs2_happysunday_1bak2il	slemf854	COMMENT	pym137q-_j7fc	c_nmrk7-ym137q-_j7fc	2011-08-22	밀가루 설 서다 익은거 먹은거아녀 ㅂ tagquestion
 kbs2_happysunday_1bak2il	blackwom	COMMENT	pym137q-_j7fc	c_nmwfj-ym137q-_j7fc	2011-08-22	밀가리먹어 그럼 위경련일수 병원가보세
 kbs2_happysunday_1bak2il	parkpdkor	COMMENT	pym16z5-5h63r	c_nm8gr-ym16z5-5h63r	2011-08-22	코리아특급 찬호팍 말한마디 멋있어라고 멋있어라고요
 kbs2_happysunday_1bak2il	parkpdkor	COMMENT	pym16z5-5h63r	c_nm8sk-ym16z5-5h63r	2011-08-22	이수근 이승기 찾아가다 앞부분 나오다 멋있더라고 멋있더라고요
-kbs2_happysunday_1bak2il	chen1202	COMMENT	pym16z5-5h63r	c_nmj6s-ym16z5-5h63r	2011-08-22	어제 박찬호 선수 나왔어요tagquestion
+kbs2_happysunday_1bak2il	chen1202	COMMENT	pym16z5-5h63r	c_nmj6s-ym16z5-5h63r	2011-08-22	어제 박찬호 선수 나오다 tagquestion
 kbs2_happysunday_1bak2il	cayahome	COMMENT	pym16z5-5h63r	c_nmkgn-ym16z5-5h63r	2011-08-22	tagsmile 어제다운받아봤어요 tagexclamation 박찬호선수 tagexclamation
 kbs2_happysunday_1bak2il	happy8353	COMMENT	pym1_bl-5u1tr	c_nhbr7-ym1_bl-5u1tr	2011-08-23	하다 살아야죠 tagsmile
 kbs2_happysunday_1bak2il	onemin1004	COMMENT	pym1_bl-5u1tr	c_nhk06-ym1_bl-5u1tr	2011-08-23	tagsmile 피곤 자다 이제 답장 tagsmile ㄱ 완전 기분전환 기분전환하 오다 tagsmile 좋다 tagsmile
@@ -465,35 +465,35 @@ kbs2_happysunday_1bak2il	onemin1004	COMMENT	pym1_bl-5u1tr	c_nhk0l-ym1_bl-5u1tr	2
 kbs2_happysunday_1bak2il	onemin1004	COMMENT	pym1_bl-5u1tr	c_nhkek-ym1_bl-5u1tr	2011-08-23	넹 tagsmile
 kbs2_happysunday_1bak2il	leehi0926	COMMENT	pym1_bl-5u1tr	c_nhki4-ym1_bl-5u1tr	2011-08-23	바쁘신가봐 바쁘신가봐여 tagcry
 kbs2_happysunday_1bak2il	onemin1004	COMMENT	pym1_bl-5u1tr	c_nhpjf-ym1_bl-5u1tr	2011-08-23	맞다 가끔은 가끔은요 tagsmile
-kbs2_happysunday_1bak2il	wjeon78	COMMENT	pym1_bl-5u1tr	c_nm541-ym1_bl-5u1tr	2011-08-22	주말에확실한기분전환 tagsmile존하루보 tagsmile존하루보내세 tagsmile
+kbs2_happysunday_1bak2il	wjeon78	COMMENT	pym1_bl-5u1tr	c_nm541-ym1_bl-5u1tr	2011-08-22	주말에확실한기분전환 tagsmile 존하루보 존하루보내세 tagsmile
 kbs2_happysunday_1bak2il	onemin1004	COMMENT	pym1_bl-5u1tr	c_nm5xq-ym1_bl-5u1tr	2011-08-22	확실 기분 전환 tagsmile 오늘 화팅 화팅하세 화팅하세요
 kbs2_happysunday_1bak2il	sammy0126	COMMENT	pym1_bl-5u1tr	c_nm6t_-ym1_bl-5u1tr	2011-08-22	tagsmile 좋다
-kbs2_happysunday_1bak2il	go2002park	COMMENT	pym1_bl-5u1tr	c_nm9vj-ym1_bl-5u1tr	2011-08-22	생각 정리 잘 자다 했나요tagquestion 폭포 쉬원한하루되세요tagsmile
+kbs2_happysunday_1bak2il	go2002park	COMMENT	pym1_bl-5u1tr	c_nm9vj-ym1_bl-5u1tr	2011-08-22	생각 정리 잘 자다 하다 했 tagquestion 폭포 쉬원한하루 tagsmile
 kbs2_happysunday_1bak2il	happy8353	COMMENT	pym1_bl-5u1tr	c_nmbja-ym1_bl-5u1tr	2011-08-22	좋다 주말보 tagsmile
-kbs2_happysunday_1bak2il	leehi0926	COMMENT	pym1_bl-5u1tr	c_nmkx8-ym1_bl-5u1tr	2011-08-22	주말 바쁘셧음tagquestion tagsmile
-kbs2_happysunday_1bak2il	ohho0506	COMMENT	pymbeuh-y4xhx	c_nci5e-ymbeuh-y4xhx	2011-08-22	그럼 박 일 사라지다 많다 예능프로그램 생기다
+kbs2_happysunday_1bak2il	leehi0926	COMMENT	pym1_bl-5u1tr	c_nmkx8-ym1_bl-5u1tr	2011-08-22	주말 바쁘셧음 tagquestion tagsmile
+kbs2_happysunday_1bak2il	ohho0506	COMMENT	pymbeuh-y4xhx	c_nci5e-ymbeuh-y4xhx	2011-08-22	그럼 1박2 일 사라지다 많다 예능프로그램 생기다
 kbs2_happysunday_1bak2il	woohyun0411	COMMENT	pyme35o-_yknd	c_n8w04-yme35o-_yknd	2011-08-22	
 kbs2_happysunday_1bak2il	hywhjssyjwsj	COMMENT	pyme35o-_yknd	c_n8w9f-yme35o-_yknd	2011-08-22	기도 기 두손을모으겠소
 kbs2_happysunday_1bak2il	hiinfinite	COMMENT	pyme35o-_yknd	c_n8wbe-yme35o-_yknd	2011-08-22	웅
 kbs2_happysunday_1bak2il	l930514	COMMENT	pymejgj-sco7	c_nhd8l-ymejgj-sco7	2011-08-23	tagsmile 나 나다 tagexclamation
 kbs2_happysunday_1bak2il	bysunyol	COMMENT	pymejgj-sco7	c_nh_s4-ymejgj-sco7	2011-08-23	진짜 가면 가다 웃길듯 tagsmile
-kbs2_happysunday_1bak2il	bebop209	COMMENT	pymfaug-ygp5b	c_v7f0t-ymfaug-ygp5b	2011-08-22	응응 뭐시기냐 취엄진학 강의라 강의라나 뭐라 뭐라나 tagsmile 돈 한푼 한푼도 안들 안들이 학년 전체 그리다 또 다음주 뭐 취업실습 ㅡtagquestion 해서 하다 꾀다 오래 오래있 오래있다 오다 tagcry
+kbs2_happysunday_1bak2il	bebop209	COMMENT	pymfaug-ygp5b	c_v7f0t-ymfaug-ygp5b	2011-08-22	응응 뭐시기냐 취엄진학 강의라 강의라나 뭐라 뭐라나 tagsmile 돈 한푼 한푼도 안들 안들이 2학년 전체 그리다 또 다음주 뭐 취업실습 ㅡ tagquestion 해서 하다 꾀다 오래 오래있 오래있다 오다 tagcry
 kbs2_happysunday_1bak2il	dmsqlcsnfl	COMMENT	pymfaug-ygp5b	c_v7fcl-ymfaug-ygp5b	2011-08-22	응응 잘하구 오다 tagsmile
-kbs2_happysunday_1bak2il	1992dbwls	COMMENT	pymfaug-ygp5b	c_v7fd5-ymfaug-ygp5b	2011-08-22	엥 그게뭐야tagquestion
+kbs2_happysunday_1bak2il	1992dbwls	COMMENT	pymfaug-ygp5b	c_v7fd5-ymfaug-ygp5b	2011-08-22	엥 그게뭐 그게뭐야 tagquestion
 kbs2_happysunday_1bak2il	bebop209	COMMENT	pymfaug-ygp5b	c_v7fmq-ymfaug-ygp5b	2011-08-22	tagsmile 그러니까말 귀찮다 쓰링 tagcry 친구 와이파 와이파이 켜달라 켜달라해서 카톡 앤드 미투 미투나 해야게따 tagsmile
 kbs2_happysunday_1bak2il	1992dbwls	COMMENT	pymfaug-ygp5b	c_v7fpx-ymfaug-ygp5b	2011-08-22	별 희한 다하다 tagsmile 고생
 kbs2_happysunday_1bak2il	1992dbwls	COMMENT	pymfaug-ygp5b	c_v7fqt-ymfaug-ygp5b	2011-08-22	tagsmile
-kbs2_happysunday_1bak2il	dmsqlcsnfl	COMMENT	pymfaug-ygp5b	c_v7frj-ymfaug-ygp5b	2011-08-22	아하ㅇㅅㅇ 괜찮네ㅇㅅㅇ 따 따로 강의 들다 들 있고ㅇㅅㅇ tagsmile
+kbs2_happysunday_1bak2il	dmsqlcsnfl	COMMENT	pymfaug-ygp5b	c_v7frj-ymfaug-ygp5b	2011-08-22	아하 ㅇㅅㅇ 괜찮다 ㅇㅅㅇ 따 따로 강의 들다 들 있다 ㅇㅅㅇ tagsmile
 kbs2_happysunday_1bak2il	bebop209	COMMENT	pymfaug-ygp5b	c_v7fwn-ymfaug-ygp5b	2011-08-22	응응 tagexclamation ㅇㅅㅇ 좋다 경험 하다 하 올거에용
 kbs2_happysunday_1bak2il	bebop209	COMMENT	pymfaug-ygp5b	c_v7p4h-ymfaug-ygp5b	2011-08-22	tagsmile 학교 tagsmile 뛰어나다 뛰어 학교 아니다
-kbs2_happysunday_1bak2il	dmsqlcsnfl	COMMENT	pymfaug-ygp5b	c_v7p79-ymfaug-ygp5b	2011-08-22	신기한뎅tagquestionㅇㅁㅇ
-kbs2_happysunday_1bak2il	dmsqlcsnfl	COMMENT	pymfaug-ygp5b	c_v7puc-ymfaug-ygp5b	2011-08-22	일 일이 들어야 들어야할 강의 있는겨tagquestionㅇㅅㅇ 선생님 연수가 연수가는 같다 tagsmile
+kbs2_happysunday_1bak2il	dmsqlcsnfl	COMMENT	pymfaug-ygp5b	c_v7p79-ymfaug-ygp5b	2011-08-22	신기한뎅 tagquestion ㅇㅁㅇ
+kbs2_happysunday_1bak2il	dmsqlcsnfl	COMMENT	pymfaug-ygp5b	c_v7puc-ymfaug-ygp5b	2011-08-22	2일 2일이 들어야 들어야할 강의 있는겨 tagquestion ㅇㅅㅇ 선생님 연수가 연수가는 같다 tagsmile
 kbs2_happysunday_1bak2il	bebop209	COMMENT	pymfaug-ygp5b	c_v7r5m-ymfaug-ygp5b	2011-08-22	tagsmile 특성화고 ㅡ ㅡ 취업진학 강의 강 뭐 그런거 ㅡ
-kbs2_happysunday_1bak2il	bebop209	COMMENT	pymfaug-ygp5b	c_v7r8o-ymfaug-ygp5b	2011-08-22	tagsmile ㅅ tagsmile 그렇다 tagexclamation 학년ㄷ ㅚ면 다 한번씩 가다 가늘다 가
-kbs2_happysunday_1bak2il	dmsqlcsnfl	COMMENT	pymfaug-ygp5b	c_v7rbc-ymfaug-ygp5b	2011-08-22	아ㅇㅁㅇ 그런거 난 나다 날다 처음봐ㅇㅁㅇ
+kbs2_happysunday_1bak2il	bebop209	COMMENT	pymfaug-ygp5b	c_v7r8o-ymfaug-ygp5b	2011-08-22	tagsmile ㅅ tagsmile 그렇다 tagexclamation 2학년 ㄷ ㅚ 면 다 한번씩 가다 가늘다 가
+kbs2_happysunday_1bak2il	dmsqlcsnfl	COMMENT	pymfaug-ygp5b	c_v7rbc-ymfaug-ygp5b	2011-08-22	아 ㅇㅁㅇ 그런거 난 나다 날다 처음봐 ㅇㅁㅇ
 kbs2_happysunday_1bak2il	choo2am	COMMENT	pymfv48-_ygry	c_vh08r-ymfv48-_ygry	2011-08-23	나도 나다 나 몰다 tagcry
-kbs2_happysunday_1bak2il	cws05106	COMMENT	pymfv48-_ygry	c_vh64o-ymfv48-_ygry	2011-08-23	알아ㅡ tagcry
-kbs2_happysunday_1bak2il	bomee418	COMMENT	pymfv48-_ygry	c_vhk17-ymfv48-_ygry	2011-08-23	알다 알 근데 그럼 나중 뭐해tagquestion tagcry
+kbs2_happysunday_1bak2il	cws05106	COMMENT	pymfv48-_ygry	c_vh64o-ymfv48-_ygry	2011-08-23	알다 알 ㅡ tagcry
+kbs2_happysunday_1bak2il	bomee418	COMMENT	pymfv48-_ygry	c_vhk17-ymfv48-_ygry	2011-08-23	알다 알 근데 그럼 나중 뭐 tagquestion tagcry
 kbs2_happysunday_1bak2il	choo2am	COMMENT	pymfv48-_ygry	c_vhk35-ymfv48-_ygry	2011-08-23	tagcry
 kbs2_happysunday_1bak2il	hg10231101	COMMENT	pymfv48-_ygry	c_vhk6p-ymfv48-_ygry	2011-08-23	어차피보지도않앗츰 tagsmile
 kbs2_happysunday_1bak2il	choo2am	COMMENT	pymfv48-_ygry	c_vhkkm-ymfv48-_ygry	2011-08-23	슬퍼 슬프다 tagcry 흐허허허헝 tagcry
@@ -501,7 +501,7 @@ kbs2_happysunday_1bak2il	rune_p	COMMENT	pymm0zr-54gbx	c_v4nus-ymm0zr-54gbx	2011-
 kbs2_happysunday_1bak2il	h026819	COMMENT	pymm0zr-54gbx	c_v4z2r-ymm0zr-54gbx	2011-08-25	ㅇㅇ 시청자투어
 kbs2_happysunday_1bak2il	alfodlstk1	COMMENT	pymm0zr-54gbx	c_v4zn6-ymm0zr-54gbx	2011-08-25	헐 ㅈㄴ 부럽
 kbs2_happysunday_1bak2il	h026819	COMMENT	pymm0zr-54gbx	c_v4zng-ymm0zr-54gbx	2011-08-25	ㅇㅇ
-kbs2_happysunday_1bak2il	alfodlstk1	COMMENT	pymm0zr-54gbx	c_v4zuh-ymm0zr-54gbx	2011-08-25	헐 레알tagquestion
+kbs2_happysunday_1bak2il	alfodlstk1	COMMENT	pymm0zr-54gbx	c_v4zuh-ymm0zr-54gbx	2011-08-25	헐 레알 tagquestion
 kbs2_happysunday_1bak2il	pasyj	COMMENT	pymp8_y-5wnrl	c_v81e0-ymp8_y-5wnrl	2011-08-22	맛나다 아주머니 친절 우엉김밥 tagexclamation 그치 그치만 산 들 바다 바다는 좋다
 kbs2_happysunday_1bak2il	konpeki	COMMENT	pymp8_y-5wnrl	c_v8l16-ymp8_y-5wnrl	2011-08-22	tagsmile 갔다오다 갔다왔구 나다 나 비수기 가다 바가지 뭐 사람 사다 구경 힘들다
 kbs2_happysunday_1bak2il	puig00	COMMENT	pymp8_y-5wnrl	c_vgap1-ymp8_y-5wnrl	2011-08-23	자연 좋다 자연
@@ -510,18 +510,18 @@ kbs2_happysunday_1bak2il	puig00	COMMENT	pymp8_y-5wnrl	c_vgari-ymp8_y-5wnrl	2011-
 kbs2_happysunday_1bak2il	ju868607	COMMENT	pymwck6-yuh8_	c_n771w-ymwck6-yuh8_	2011-08-25	ㄱ tagsmile
 kbs2_happysunday_1bak2il	ihj0924	COMMENT	pymwck6-yuh8_	c_n7780-ymwck6-yuh8_	2011-08-25	레프팅 잼 tagexclamation 조심 다녀오다 tagsmile
 kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_n779o-ymwck6-yuh8_	2011-08-25	비와 비와함 비와함께 재미지게 쓸리다 양주시티앞 시체 있다 tagsmile
-kbs2_happysunday_1bak2il	marstyle7	COMMENT	pymwck6-yuh8_	c_n77pm-ymwck6-yuh8_	2011-08-25	크크큭 나도 나다 나 기대 있다 tagsmile 읭tagquestion tagsmile
+kbs2_happysunday_1bak2il	marstyle7	COMMENT	pymwck6-yuh8_	c_n77pm-ymwck6-yuh8_	2011-08-25	크크큭 나도 나다 나 기대 있다 tagsmile 읭 tagquestion tagsmile
 kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_n77wk-ymwck6-yuh8_	2011-08-25	쪼금 온다는거 같다 흐릴껏 흐릴껏도 같다 tagsmile
 kbs2_happysunday_1bak2il	apap115	COMMENT	pymwck6-yuh8_	c_n77x9-ymwck6-yuh8_	2011-08-25	맞다 안경끼지마 tagcry 잊어버리무 tagcry
 kbs2_happysunday_1bak2il	xerosum	COMMENT	pymwck6-yuh8_	c_n77ys-ymwck6-yuh8_	2011-08-25	친구 한녀석 한녀석이 학교 유학가는거땜 담주 출국 어쩔수 취소
-kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_n77yw-ymwck6-yuh8_	2011-08-25	응응 잘갔다오께tagsmile tagsmile 좀 조다 기대중
+kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_n77yw-ymwck6-yuh8_	2011-08-25	응응 잘갔다오께 tagsmile tagsmile 좀 조다 기대중
 kbs2_happysunday_1bak2il	play11	COMMENT	pymwck6-yuh8_	c_n77zn-ymwck6-yuh8_	2011-08-25	조금온다면 재미있겠네 tagsmile
 kbs2_happysunday_1bak2il	apap115	COMMENT	pymwck6-yuh8_	c_n7l1u-ymwck6-yuh8_	2011-08-25	조심하셜 tagsmile 양말 한짝 없어지다 tagsmile
 kbs2_happysunday_1bak2il	xerosum	COMMENT	pymwck6-yuh8_	c_n7lat-ymwck6-yuh8_	2011-08-25	우앙 나두 원래 이번주 가는거 tagcry
 kbs2_happysunday_1bak2il	marstyle7	COMMENT	pymwck6-yuh8_	c_n7led-ymwck6-yuh8_	2011-08-25	오 잘다녀오시게 tagsmile 내일 내 비온다던대 비오는 비오는날 래프팅 좋다 하더 하더이 tagsmile
 kbs2_happysunday_1bak2il	ju868607	COMMENT	pymwck6-yuh8_	c_n7lfs-ymwck6-yuh8_	2011-08-25	tagsmile 신나다 하다 하 오다 조다 조심
 kbs2_happysunday_1bak2il	621theiam	COMMENT	pymwck6-yuh8_	c_n7xbn-ymwck6-yuh8_	2011-08-25	오압 비가 비 살짝와 살짝와야 래프팅 래프팅하기 좋을텐데 재미 놀다 놀다와 ㅅ 다치지않게 조심하긔
-kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_n7xcn-ymwck6-yuh8_	2011-08-25	근데 취소됬엉tagquestion
+kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_n7xcn-ymwck6-yuh8_	2011-08-25	근데 취소됬엉 tagquestion
 kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_n7xmi-ymwck6-yuh8_	2011-08-25	걱정 겸허 겸허히 받아들이다
 kbs2_happysunday_1bak2il	play11	COMMENT	pymwck6-yuh8_	c_n7xp4-ymwck6-yuh8_	2011-08-25	비올때가 비올때가야 좋다 tagsmile
 kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_n7xwv-ymwck6-yuh8_	2011-08-25	오 임펙트 있다 말일세 tagsmile 주의 안경 우짜지
@@ -532,12 +532,12 @@ kbs2_happysunday_1bak2il	apap115	COMMENT	pymwck6-yuh8_	c_vd0rb-ymwck6-yuh8_	2011
 kbs2_happysunday_1bak2il	seameeya	COMMENT	pymwck6-yuh8_	c_vd0wh-ymwck6-yuh8_	2011-08-25	그런눈 그런눈으 머 말 tagsmile ㄱ tagsmile
 kbs2_happysunday_1bak2il	lu_86	COMMENT	pymwck6-yuh8_	c_vd19n-ymwck6-yuh8_	2011-08-26	재미겠다 tagsmile
 kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vd32v-ymwck6-yuh8_	2011-08-25	tagexclamation 너가원 너가원하 너가원하는 수영장 가쟈 tagsmile tagsmile
-kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vd3s0-ymwck6-yuh8_	2011-08-25	tagsmile 아라써tagsmile 조심 갔다오다 계속 걱정 tagsmile
-kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vd3wv-ymwck6-yuh8_	2011-08-25	넌 널다 레프팅 해보다 해봤구 난 나다 날다 첨 tagsmile 응tagsmile 잘갓다오 잘갓다오께 tagexclamation tagsmile 바이크 바이크도 같다 하고올꺼 하고올꺼야
+kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vd3s0-ymwck6-yuh8_	2011-08-25	tagsmile 아라써 tagsmile 조심 갔다오다 계속 걱정 tagsmile
+kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vd3wv-ymwck6-yuh8_	2011-08-25	넌 널다 레프팅 해보다 해봤구 난 나다 날다 첨 tagsmile tagsmile 잘갓다오 잘갓다오께 tagexclamation tagsmile 바이크 바이크도 같다 하고올꺼 하고올꺼야
 kbs2_happysunday_1bak2il	marstyle7	COMMENT	pymwck6-yuh8_	c_vd5ay-ymwck6-yuh8_	2011-08-25	고맙다 내일 내 나 마음 둥둥 뜨다 있다 tagsmile
 kbs2_happysunday_1bak2il	seameeya	COMMENT	pymwck6-yuh8_	c_vd5g9-ymwck6-yuh8_	2011-08-25	물먹었다고울지말고 tagsmile
 kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vd6n8-ymwck6-yuh8_	2011-08-25	그랬으면 좋겟는데 tagsmile 뭐 안 tagsmile 근데 흐리다 하다 좀 조다 춥다 별로일꺼 별로일꺼같 별로일꺼같아 tagsmile
-kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vd6st-ymwck6-yuh8_	2011-08-25	경험자구 tagsmile 재미 잘 자다 갓다올께tagsmile tagsmile 바이크 바이크도 타고올꺼 넌 널다 서울어디산댔드라 tagsmile
+kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vd6st-ymwck6-yuh8_	2011-08-25	경험자구 tagsmile 재미 잘 자다 갓다올 갓다올께 tagsmile tagsmile 바이크 바이크도 타고올꺼 넌 널다 서울어디산댔드라 tagsmile
 kbs2_happysunday_1bak2il	she8679	COMMENT	pymwck6-yuh8_	c_vd823-ymwck6-yuh8_	2011-08-26	우 잼 tagcry 나도 나다 나 놀고싶다 tagcry 으항 tagcry
 kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vd8tt-ymwck6-yuh8_	2011-08-26	그것 잠깐 타고올꺼 tagsmile 놀고와야즤 tagsmile
 kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vd9xy-ymwck6-yuh8_	2011-08-26	마음 둥둥 뜨다 기분 하루 보내다 tagexclamation tagsmile 실시 알리다 tagsmile
@@ -549,39 +549,39 @@ kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vdbtf-ymwck6-yuh8_	2
 kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vdc4y-ymwck6-yuh8_	2011-08-26	앗다 난 나다 날다 서울이즤 원래 사는곳 사는곳은 안산 tagsmile 나중 언제 한번 봅세 tagsmile
 kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vdcsp-ymwck6-yuh8_	2011-08-26	이름알려조 tagsmile 그럼 tagexclamation tagsmile
 kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vdd2b-ymwck6-yuh8_	2011-08-25	앗다 그렇다 안타깝다 다음 기회있을꺼 tagsmile
-kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vdd4o-ymwck6-yuh8_	2011-08-25	왜왜왜 tagsmile 진심 한 하다 말 말다 아니었늬tagquestion tagsmile
+kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vdd4o-ymwck6-yuh8_	2011-08-25	왜왜왜 tagsmile 진심 한 하다 말 말다 아니었늬 tagquestion tagsmile
 kbs2_happysunday_1bak2il	she8679	COMMENT	pymwck6-yuh8_	c_vddsi-ymwck6-yuh8_	2011-08-25	레프팅 잼나는뎅 tagexclamation tagsmile
 kbs2_happysunday_1bak2il	she8679	COMMENT	pymwck6-yuh8_	c_vdfxy-ymwck6-yuh8_	2011-08-26	우 바이크 tagcry 잼 tagsmile
 kbs2_happysunday_1bak2il	lu_86	COMMENT	pymwck6-yuh8_	c_vdh3i-ymwck6-yuh8_	2011-08-26	tagsmile 별 tagsmile
-kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vdh9m-ymwck6-yuh8_	2011-08-26	왜왜tagquestion 희영 희영이 이쁘다 tagexclamation 남다 남 이쁘다 괜찮은거란다
+kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vdh9m-ymwck6-yuh8_	2011-08-26	왜왜 tagquestion 희영 희영이 이쁘다 tagexclamation 남다 남 이쁘다 괜찮은거란다
 kbs2_happysunday_1bak2il	bonefairy	COMMENT	pymwck6-yuh8_	c_vdhrg-ymwck6-yuh8_	2011-08-26	tagsmile
 kbs2_happysunday_1bak2il	lu_86	COMMENT	pymwck6-yuh8_	c_vdhtw-ymwck6-yuh8_	2011-08-26	아옙 tagsmile 아흠 tagexclamation
-kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vdh_e-ymwck6-yuh8_	2011-08-26	희영 희영이 어때서 이쁜데tagquestion
+kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vdh_e-ymwck6-yuh8_	2011-08-26	희영 희영이 어때서 이쁘다 tagquestion
 kbs2_happysunday_1bak2il	bonefairy	COMMENT	pymwck6-yuh8_	c_vdik9-ymwck6-yuh8_	2011-08-26	그럽시 그럽시다 tagsmile 서울 올라가다 하다 tagsmile
 kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vdj1w-ymwck6-yuh8_	2011-08-26	고맙다 tagexclamation 내일 내 잘보내긔
 kbs2_happysunday_1bak2il	ju868607	COMMENT	pymwck6-yuh8_	c_vdjcm-ymwck6-yuh8_	2011-08-26	진짜 tagquestion 난 나다 날다 오타인줄 알다 ㅁ
 kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vdjer-ymwck6-yuh8_	2011-08-26	아 예리 tagsmile tagsmile 감탄
-kbs2_happysunday_1bak2il	marstyle7	COMMENT	pymwck6-yuh8_	c_vdjk4-ymwck6-yuh8_	2011-08-26	아 기분 씐나겠는걸tagquestionㅌ
-kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vdjp8-ymwck6-yuh8_	2011-08-26	응tagsmile 잘갔다올꼐 변씨 tagexclamation tagsmile
+kbs2_happysunday_1bak2il	marstyle7	COMMENT	pymwck6-yuh8_	c_vdjk4-ymwck6-yuh8_	2011-08-26	아 기분 씐 tagquestion ㅌ
+kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vdjp8-ymwck6-yuh8_	2011-08-26	tagsmile 잘갔다올꼐 변씨 tagexclamation tagsmile
 kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vdkdo-ymwck6-yuh8_	2011-08-25	아 안경 귀 테이프 붙다 붙이다 tagsmile 어쩌다 tagsmile 렌즈 없다 꼭쓰고싶거덩 tagsmile
 kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vdlrt-ymwck6-yuh8_	2011-08-26	비 약간 오다 잼 tagsmile 잘갓다오겠소 tagexclamation
-kbs2_happysunday_1bak2il	bonefairy	COMMENT	pymwck6-yuh8_	c_vdm6r-ymwck6-yuh8_	2011-08-26	난 나다 날다 광주 살다 tagsmile 넌 널다 어디쪽 살아tagquestion
-kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vdmd0-ymwck6-yuh8_	2011-08-26	근데 나도 나다 나 개강전 마지막이여tagsmile tagsmile
+kbs2_happysunday_1bak2il	bonefairy	COMMENT	pymwck6-yuh8_	c_vdm6r-ymwck6-yuh8_	2011-08-26	난 나다 날다 광주 살다 tagsmile 넌 널다 어디쪽 살다 살 tagquestion
+kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vdmd0-ymwck6-yuh8_	2011-08-26	근데 나도 나다 나 개강전 마지막 마지막이 tagsmile tagsmile
 kbs2_happysunday_1bak2il	lu_86	COMMENT	pymwck6-yuh8_	c_vdmol-ymwck6-yuh8_	2011-08-26	앗다 변씨 빼다 tagexclamation tagsmile 재미겠댜 tagsmile 죽다 놀다 놀
 kbs2_happysunday_1bak2il	bonefairy	COMMENT	pymwck6-yuh8_	c_vdo3q-ymwck6-yuh8_	2011-08-26	비온다음 재밌는데 tagsmile 잘 자다 놀다 놀다와 tagsmile
-kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vdozw-ymwck6-yuh8_	2011-08-26	아 고맙다 친구 자다 어디산댓즤tagquestion tagsmile
+kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vdozw-ymwck6-yuh8_	2011-08-26	아 고맙다 친구 자다 어디산댓즤 tagquestion tagsmile
 kbs2_happysunday_1bak2il	marstyle7	COMMENT	pymwck6-yuh8_	c_vdrbb-ymwck6-yuh8_	2011-08-26	알다 둥실둥실 tagsmile
 kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vdry6-ymwck6-yuh8_	2011-08-26	내일 내 계곡물 배타 기분 하루 보 tagsmile
 kbs2_happysunday_1bak2il	lu_86	COMMENT	pymwck6-yuh8_	c_vdt7l-ymwck6-yuh8_	2011-08-26	내 내다 이름 이르다 별로데 tagsmile 희영 희영인데 tagsmile
-kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vdtfk-ymwck6-yuh8_	2011-08-26	자꾸 이름 이르다 숨길래tagquestion tagsmile
+kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vdtfk-ymwck6-yuh8_	2011-08-26	자꾸 이름 이르다 숨기다 tagquestion tagsmile
 kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vdtse-ymwck6-yuh8_	2011-08-26	나도 나다 나 광주 언제 한번 가다 갈 tagexclamation tagsmile 기억 있겟소 tagsmile
-kbs2_happysunday_1bak2il	zelitea	COMMENT	pymwck6-yuh8_	c_vduvf-ymwck6-yuh8_	2011-08-26	날씨 안좋으면 안될텐데ㄷㄷ 몸 조심하구 tagexclamation
+kbs2_happysunday_1bak2il	zelitea	COMMENT	pymwck6-yuh8_	c_vduvf-ymwck6-yuh8_	2011-08-26	날씨 안좋으면 안되다 ㄷㄷ 몸 조심하구 tagexclamation
 kbs2_happysunday_1bak2il	dogghouse	COMMENT	pymwck6-yuh8_	c_vdy48-ymwck6-yuh8_	2011-08-25	양주시티 발도못들이게해야겠네
-kbs2_happysunday_1bak2il	xerosum	COMMENT	pymwck6-yuh8_	c_vdyju-ymwck6-yuh8_	2011-08-25	가을 가다 지나기전 지나기전에 계획 짜볼려 짜볼려고 하다 쪽수 쪽수가 안맞어 tagsmile 원래 이었는데 지금 되다
+kbs2_happysunday_1bak2il	xerosum	COMMENT	pymwck6-yuh8_	c_vdyju-ymwck6-yuh8_	2011-08-25	가을 가다 지나기전 지나기전에 계획 짜볼려 짜볼려고 하다 쪽수 쪽수가 안맞어 tagsmile 원래 3 3 이었는데 지금 3 2 되다
 kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vdyjx-ymwck6-yuh8_	2011-08-25	tagsmile 잘갔다올께 tagsmile 왠지 비가올지 안올지 잘모르겠어 tagsmile 애정어린 걱정 마음깊이 새기다 tagsmile
 kbs2_happysunday_1bak2il	ju868607	COMMENT	pymwck6-yuh8_	c_vdysp-ymwck6-yuh8_	2011-08-25	tagsmile 순간 진심 겸허 겸허히 받아들이다 받아 어쩐짘 tagsmile
 kbs2_happysunday_1bak2il	tobytoby50	COMMENT	pymwck6-yuh8_	c_vdyuo-ymwck6-yuh8_	2011-08-25	tagsmile 기대하고 tagsmile 마음 데려가다 tagsmile
-kbs2_happysunday_1bak2il	conabl100114	COMMENT	pymwlze-uh3m	c_v30uy-ymwlze-uh3m	2011-08-27	아 tagsmile 이사 처음 가본거지tagquestion tagsmile
+kbs2_happysunday_1bak2il	conabl100114	COMMENT	pymwlze-uh3m	c_v30uy-ymwlze-uh3m	2011-08-27	아 tagsmile 이사 처음 가본거지 tagquestion tagsmile
 kbs2_happysunday_1bak2il	kyj7276	COMMENT	pymwlze-uh3m	c_v3hhi-ymwlze-uh3m	2011-08-27	tagsmile 응내물건이거의없어서진짜남의집 tagsmile
 kbs2_happysunday_1bak2il	kyj7276	COMMENT	pymwlze-uh3m	c_v3_t7-ymwlze-uh3m	2011-08-27	우리집이라기에도뭐한우리집 tagsmile
-kbs2_happysunday_1bak2il	conabl100114	COMMENT	pymwlze-uh3m	c_vkp9e-ymwlze-uh3m	2011-08-27	뭐 tagsmile 어디 갔었어tagquestion
+kbs2_happysunday_1bak2il	conabl100114	COMMENT	pymwlze-uh3m	c_vkp9e-ymwlze-uh3m	2011-08-27	뭐 tagsmile 어디 갔었어 tagquestion

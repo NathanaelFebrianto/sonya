@@ -2,12 +2,15 @@ program_id	author_id	type	post_id	comment_id	publish_date	feature	count	word
 sbs_newsunday	parkzien	POST	pym00gh-_a9_5		2011-08-20	FUTURE	1.0	다음주
 sbs_newsunday	parkzien	POST	pym00gh-_a9_5		2011-08-20	SMILEMARK	2.0	tagsmile 크
 sbs_newsunday	parkzien	POST	pym00jx-_a9_5		2011-08-20	SMILEMARK	1.0	tagsmile
+sbs_newsunday	tbh06132	POST	pym03im-7zbo		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	tbh06132	POST	pym03im-7zbo		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	tbh06132	POST	pym03im-7zbo		2011-08-18	SMILEMARK	1.0	tagsmile
+sbs_newsunday	zai	POST	pym04yd-c97		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	zai	POST	pym04yd-c97		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_newsunday	jsdian	POST	pym0brm-_qty4		2011-08-19	SMILEMARK	2.0	크 tagsmile
 sbs_newsunday	happykrispyy	POST	pym0ew4-_q7cp		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_newsunday	xornjsrhdwn1	POST	pym0g68-_m1mw		2011-08-18	FUTURE	1.0	내일
+sbs_newsunday	xornjsrhdwn1	POST	pym0g68-_m1mw		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	xornjsrhdwn1	POST	pym0g68-_m1mw		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_newsunday	lwmeeee	POST	pym0g6f-_guq3		2011-08-19	QUANTIFIER	1.0	너무
 sbs_newsunday	lwmeeee	POST	pym0g6f-_guq3		2011-08-19	EXCLAMMARK	1.0	tagexclamation
@@ -15,15 +18,19 @@ sbs_newsunday	lwmeeee	POST	pym0g6f-_guq3		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_newsunday	wjsgpdms1	POST	pym0hww-5fqwu		2011-08-18	PAST	1.0	지난주
 sbs_newsunday	wjsgpdms1	POST	pym0hww-5fqwu		2011-08-18	QUANTIFIER	1.0	아주
 sbs_newsunday	wjsgpdms1	POST	pym0hww-5fqwu		2011-08-18	SEE	1.0	보다
+sbs_newsunday	u80yi	POST	pym0ikv-548pw		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	u80yi	POST	pym0ikv-548pw		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	u80yi	POST	pym0ikv-548pw		2011-08-19	POSITIVE	1.0	행복
+sbs_newsunday	xornjsrhdwn1	POST	pym0ilo-_m1mw		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	ch5470	POST	pym0jhn-ywnj5		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	star__14	POST	pym15bq-_c3__		2011-08-19	PRESENT	1.0	이제
 sbs_newsunday	star__14	POST	pym15bq-_c3__		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	star__14	POST	pym15bq-_c3__		2011-08-19	SMILEMARK	2.0	크 tagsmile
 sbs_newsunday	star__14	POST	pym15bq-_c3__		2011-08-19	CRYMARK	1.0	tagcry
+sbs_newsunday	fx_sulli	POST	pym1jkb-5_vlg		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_newsunday	dlwngus0602	POST	pym1vqu-y5q_d		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_newsunday	dlwngus0602	POST	pym1vqu-y5q_d		2011-08-20	CRYMARK	1.0	tagcry
+sbs_newsunday	meyujin	POST	pym1zx6-_tc78		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	meyujin	POST	pym1zx6-_tc78		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	meyujin	POST	pym1zx6-_tc78		2011-08-20	SMILEMARK	1.0	크
 sbs_newsunday	abluedahlia	POST	pym30hs-5knuh		2011-08-18	SMILEMARK	1.0	tagsmile
@@ -40,17 +47,22 @@ sbs_newsunday	dw1121dw	POST	pym3k08-4un3		2011-08-18	POSITIVE	1.0	좋다
 sbs_newsunday	yds06064	POST	pym3ly1-y3rqu		2011-08-18	PRESENT	1.0	이번주
 sbs_newsunday	yds06064	POST	pym3ly1-y3rqu		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	shineegg	POST	pym3omf-um1m		2011-08-18	SMILEMARK	1.0	tagsmile
+sbs_newsunday	t-ara812	POST	pym3swp-y4qly		2011-08-20	SMILEMARK	1.0	tagsmile
+sbs_newsunday	t-ara812	POST	pym3swp-y4qly		2011-08-20	SEE	1.0	보다
 sbs_newsunday	hswgod2000	POST	pym3t49-hwpq		2011-08-20	PRESENT	1.0	이제
 sbs_newsunday	hswgod2000	POST	pym3t49-hwpq		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_newsunday	hswgod2000	POST	pym3t49-hwpq		2011-08-20	CRYMARK	1.0	tagcry
 sbs_newsunday	junghj68	POST	pym3tf7-t_fk		2011-08-20	SEE	1.0	보다
+sbs_newsunday	0517rinda	POST	pym3vpz-5agv6		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	usb64	POST	pym3wkq-_qd8e		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_newsunday	kasj4885	POST	pym3wxy-_1r88		2011-08-18	PRESENT	1.0	지금
 sbs_newsunday	kasj4885	POST	pym3wxy-_1r88		2011-08-18	FUTURE	1.0	다음주
+sbs_newsunday	kasj4885	POST	pym3wxy-_1r88		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	kasj4885	POST	pym3wxy-_1r88		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	kasj4885	POST	pym3wxy-_1r88		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_newsunday	jinn0128	POST	pym5187-__gaz		2011-08-16	PAST	1.0	지난주
 sbs_newsunday	jinn0128	POST	pym5187-__gaz		2011-08-16	QUANTIFIER	1.0	너무
+sbs_newsunday	jinn0128	POST	pym5187-__gaz		2011-08-16	SMILEMARK	1.0	tagsmile
 sbs_newsunday	jinn0128	POST	pym5187-__gaz		2011-08-16	POSITIVE	1.0	재미있
 sbs_newsunday	jinn0128	POST	pym5187-__gaz		2011-08-16	SEE	1.0	보다
 sbs_newsunday	ijackong	POST	pym52dl-5ccpk		2011-08-19	PRESENT	1.0	지금
@@ -69,6 +81,7 @@ sbs_newsunday	leejoowen	POST	pym5i8l-_yy75		2011-08-16	PRESENT	1.0	요즘
 sbs_newsunday	leejoowen	POST	pym5i8l-_yy75		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	leejoowen	POST	pym5i8l-_yy75		2011-08-16	CRYMARK	1.0	tagcry
 sbs_newsunday	2pmjunsu115	POST	pym5if9-58nov		2011-08-19	PRESENT	1.0	이번주
+sbs_newsunday	2pmjunsu115	POST	pym5if9-58nov		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	_0202-	POST	pym5oqd-_hymv		2011-08-16	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	_0202-	POST	pym5oqd-_hymv		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	_0202-	POST	pym5oqd-_hymv		2011-08-16	SMILEMARK	1.0	tagsmile
@@ -79,6 +92,7 @@ sbs_newsunday	gdgd4344	POST	pym5r4c-yhxjj		2011-08-19	EXCLAMMARK	1.0	tagexclamat
 sbs_newsunday	gdgd4344	POST	pym5r4c-yhxjj		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_newsunday	syj_1004_	POST	pym5wvg-5xglm		2011-08-19	PRESENT	1.0	이번주
 sbs_newsunday	syj_1004_	POST	pym5wvg-5xglm		2011-08-19	SMILEMARK	1.0	tagsmile
+sbs_newsunday	rladpwls0812	POST	pym62i5-_qdcr		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	rladpwls0812	POST	pym62i5-_qdcr		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	mikael_angel	POST	pym62rr-5fzyf		2011-08-17	PRESENT	1.0	지금
 sbs_newsunday	mikael_angel	POST	pym62rr-5fzyf		2011-08-17	EXCLAMMARK	1.0	tagexclamation
@@ -87,25 +101,33 @@ sbs_newsunday	pulppang2	POST	pym634g-5bbxl		2011-08-17	POSITIVE	1.0	좋다
 sbs_newsunday	stargirl8615	POST	pym6868-y2wx1		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	stargirl8615	POST	pym6868-y2wx1		2011-08-20	POSITIVE	1.0	기쁘다
 sbs_newsunday	gw12bini	POST	pym69p7-2e9g		2011-08-17	PRESENT	1.0	지금
+sbs_newsunday	gw12bini	POST	pym69p7-2e9g		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	gw12bini	POST	pym69p7-2e9g		2011-08-17	SMILEMARK	1.0	크
 sbs_newsunday	gw12bini	POST	pym69p7-2e9g		2011-08-17	SEE	1.0	보다
 sbs_newsunday	chelly8783	POST	pym6bdf-_san3		2011-08-17	PRESENT	1.0	이제
 sbs_newsunday	chelly8783	POST	pym6bdf-_san3		2011-08-17	CRYMARK	1.0	tagcry
 sbs_newsunday	audgml296	POST	pym6bov-y2lc_		2011-08-20	FUTURE	1.0	내일
+sbs_newsunday	audgml296	POST	pym6bov-y2lc_		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	audgml296	POST	pym6bov-y2lc_		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_newsunday	einxh	POST	pym6bp6-y2we7		2011-08-17	PRESENT	1.0	오늘
 sbs_newsunday	einxh	POST	pym6bp6-y2we7		2011-08-17	POSITIVE	2.0	웃다 웃기다
 sbs_newsunday	egao970	POST	pym6bq5-5k6g		2011-08-17	SEE	1.0	보다
 sbs_newsunday	codus1137	POST	pym6frs-yiggu		2011-08-17	FUTURE	1.0	다음주
 sbs_newsunday	codus1137	POST	pym6frs-yiggu		2011-08-17	EXCLAMMARK	1.0	tagexclamation
+sbs_newsunday	codus1137	POST	pym6frs-yiggu		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_newsunday	min2739	POST	pym6fvh-yvtec		2011-08-20	SMILEMARK	1.0	tagsmile
+sbs_newsunday	jisuchi1001	POST	pym6i3o-5gfrj		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	jisuchi1001	POST	pym6i3o-5gfrj		2011-08-17	SMILEMARK	1.0	tagsmile
+sbs_newsunday	22uj	POST	pym6jpm-5uk1w		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	22uj	POST	pym6jpm-5uk1w		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	22uj	POST	pym6jpm-5uk1w		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_newsunday	lwmeeee	POST	pym6nts-_qtdx		2011-08-19	PRESENT	1.0	이번주
+sbs_newsunday	lwmeeee	POST	pym6nts-_qtdx		2011-08-19	QUESTIONMARK	1.0	tagquestion
+sbs_newsunday	0828hje	POST	pym6ui8-_q2_b		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	imhyerin	POST	pym6vf1-5dv8a		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	imhyerin	POST	pym6vf1-5dv8a		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_newsunday	ia07119	POST	pym6wqc-alrq		2011-08-20	PRESENT	1.0	지금
+sbs_newsunday	ia07119	POST	pym6wqc-alrq		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	ia07119	POST	pym6wqc-alrq		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	ia07119	POST	pym6wqc-alrq		2011-08-20	SEE	1.0	보다
 sbs_newsunday	ektns548	POST	pym6_os-554cd		2011-08-17	SMILEMARK	1.0	tagsmile
@@ -115,6 +137,7 @@ sbs_newsunday	mangjoo3	POST	pymb32x-5zts7		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_newsunday	mangjoo3	POST	pymb32x-5zts7		2011-08-19	LOVEMARK	1.0	taglove
 sbs_newsunday	mangjoo3	POST	pymb32x-5zts7		2011-08-19	SEE	1.0	보다
 sbs_newsunday	gjqm87	POST	pymb5gn-yd2x9		2011-08-19	SMILEMARK	1.0	크
+sbs_newsunday	t-ara812	POST	pymb6wz-_iz9w		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	t-ara812	POST	pymb6wz-_iz9w		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	t-ara812	POST	pymb6wz-_iz9w		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_newsunday	t-ara812	POST	pymb6wz-_iz9w		2011-08-19	LOVEMARK	1.0	taglove
@@ -125,6 +148,7 @@ sbs_newsunday	jjonny	POST	pymbhdl-3uzv		2011-08-19	PRESENT	1.0	오늘
 sbs_newsunday	jjonny	POST	pymbhdl-3uzv		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	jsdian	POST	pymbhxp-_qty4		2011-08-20	SMILEMARK	2.0	크 tagsmile
 sbs_newsunday	ldj4601	POST	pymbiqf-vlha		2011-08-20	PRESENT	1.0	이제
+sbs_newsunday	ldj4601	POST	pymbiqf-vlha		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	ldj4601	POST	pymbiqf-vlha		2011-08-20	CRYMARK	1.0	tagcry
 sbs_newsunday	jsdian	POST	pymbmp3-_qty4		2011-08-20	SMILEMARK	1.0	크
 sbs_newsunday	sonyj12	POST	pymboe5-noh1		2011-08-19	PRESENT	1.0	지금
@@ -135,20 +159,24 @@ sbs_newsunday	johncjswo	POST	pymbuka-_cydq		2011-08-20	PRESENT	1.0	이제
 sbs_newsunday	johncjswo	POST	pymbuka-_cydq		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	johncjswo	POST	pymbuka-_cydq		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_newsunday	johncjswo	POST	pymbuka-_cydq		2011-08-20	CRYMARK	2.0	tagcry 흑흑
+sbs_newsunday	kun707	POST	pymbulh-y2uoi		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	kun707	POST	pymbulh-y2uoi		2011-08-19	CRYMARK	1.0	tagcry
+sbs_newsunday	wnsgudm2day	POST	pymbwum-_sucu		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	kasj4885	POST	pymbxi6-_1r88		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	hjk2975	POST	pymbz8s-yst85		2011-08-20	PAST	1.0	어제
 sbs_newsunday	hck20803	POST	pymd02_-5t54n		2011-08-15	SMILEMARK	1.0	크
+sbs_newsunday	suzybymissa	POST	pymd1v8-ylrrz		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	suzybymissa	POST	pymd1v8-ylrrz		2011-08-15	POSITIVE	1.0	재미있
 sbs_newsunday	dd34125	POST	pymd3ow-yasr4		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	dd34125	POST	pymd3ow-yasr4		2011-08-15	SMILEMARK	1.0	크
 sbs_newsunday	dd34125	POST	pymd3ow-yasr4		2011-08-15	POSITIVE	1.0	좋다
+sbs_newsunday	stopup07	POST	pymd59z-qriy		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	stopup07	POST	pymd59z-qriy		2011-08-15	POSITIVE	1.0	웃기다
 sbs_newsunday	stopup07	POST	pymd59z-qriy		2011-08-15	SEE	1.0	보다
 sbs_newsunday	ashley3355	POST	pymd5i8-_pyib		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	ashley3355	POST	pymd5i8-_pyib		2011-08-15	SMILEMARK	1.0	크
 sbs_newsunday	ashley3355	POST	pymd5i8-_pyib		2011-08-15	SEE	1.0	보다
-sbs_newsunday	sonicnke	POST	pymd8nl-_qcng		2011-08-15	CONJUNCTION	1.0	그리고
+sbs_newsunday	gfds0807	POST	pymd7vs-n4az		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_newsunday	hayoun982	POST	pymd91t-_0ohx		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_newsunday	hodo782	POST	pymdavn-5wnc8		2011-08-17	LOVEMARK	1.0	taglove
 sbs_newsunday	zozx12	POST	pymdeg1-razl		2011-08-15	PAST	1.0	어제
@@ -164,7 +192,9 @@ sbs_newsunday	sportskhan	POST	pymdkh2-ymvvx		2011-08-15	POSITIVE	1.0	좋다
 sbs_newsunday	sepist	POST	pymdnd3-_sbqf		2011-08-17	SMILEMARK	1.0	크
 sbs_newsunday	sepist	POST	pymdryy-_sbqf		2011-08-17	POSITIVE	1.0	좋다
 sbs_newsunday	kimssi262	POST	pyme9if-__7br		2011-08-19	PRESENT	1.0	이번주
+sbs_newsunday	kimssi262	POST	pyme9if-__7br		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	kimssi262	POST	pyme9if-__7br		2011-08-19	CRYMARK	1.0	tagcry
+sbs_newsunday	spastar7	POST	pymeaaw-5x8tg		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	shineegg	POST	pymee73-um1m		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	shineegg	POST	pymee73-um1m		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_newsunday	rkalsgus	POST	pymeipr-5q6k0		2011-08-19	EXCLAMMARK	1.0	tagexclamation
@@ -174,6 +204,7 @@ sbs_newsunday	mn471	POST	pymendo-56b_0		2011-08-19	CRYMARK	1.0	tagcry
 sbs_newsunday	mn471	POST	pymendo-56b_0		2011-08-19	SADNESS	2.0	우울 슬프다
 sbs_newsunday	jjominlove	POST	pymesci-5r2st		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	jjominlove	POST	pymesci-5r2st		2011-08-19	POSITIVE	1.0	좋아하다
+sbs_newsunday	rhdwn0430	POST	pyme_8s-5cme1		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	rhdwn0430	POST	pyme_8s-5cme1		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	onewaterdrop	POST	pymjegk-_jsy8		2011-08-20	PRESENT	1.0	오늘
 sbs_newsunday	onewaterdrop	POST	pymjegk-_jsy8		2011-08-20	POSITIVE	1.0	좋다
@@ -188,6 +219,7 @@ sbs_newsunday	wyoung_lee	POST	pymkbbt-91y5		2011-08-20	CRYMARK	1.0	tagcry
 sbs_newsunday	wyoung_lee	POST	pymkbbt-91y5		2011-08-20	POSITIVE	1.0	행복
 sbs_newsunday	kdy32211	POST	pymkbty-5oet7		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	kdy32211	POST	pymkbty-5oet7		2011-08-17	SMILEMARK	1.0	tagsmile
+sbs_newsunday	bis_nakake	POST	pymkkrz-5veis		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	bis_nakake	POST	pymkkrz-5veis		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_newsunday	bis_nakake	POST	pymkkrz-5veis		2011-08-18	POSITIVE	1.0	좋다
 sbs_newsunday	bis_nakake	POST	pymkkrz-5veis		2011-08-18	HEAR	1.0	느끼다
@@ -233,14 +265,17 @@ sbs_newsunday	kbg0096	POST	pymyvw3-yt8io		2011-08-18	PRESENT	1.0	오늘
 sbs_newsunday	kbg0096	POST	pymyvw3-yt8io		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_newsunday	kbg0096	POST	pymyvw3-yt8io		2011-08-18	CRYMARK	1.0	tagcry
 sbs_newsunday	kbg0096	POST	pymyvw3-yt8io		2011-08-18	SEE	1.0	보다
+sbs_newsunday	gpdls0106	POST	pymywxz-mv46		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	gpdls0106	POST	pymywxz-mv46		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	gpdls0106	POST	pymywxz-mv46		2011-08-18	POSITIVE	2.0	좋아하다 좋아
 sbs_newsunday	sunnykim4711	POST	pym_771-yije_		2011-08-17	PRESENT	1.0	이번주
+sbs_newsunday	sunnykim4711	POST	pym_771-yije_		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	sunnykim4711	POST	pym_771-yije_		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	simz86	POST	pym_c_h-ohpw		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	simz86	POST	pym_c_h-ohpw		2011-08-16	SMILEMARK	1.0	tagsmile
 sbs_newsunday	jiyoon6853	POST	pym_dh9-_quv_		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_newsunday	jiyoon6853	POST	pym_dzg-_quv_		2011-08-19	PRESENT	1.0	이번주
+sbs_newsunday	jiyoon6853	POST	pym_dzg-_quv_		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	jiyoon6853	POST	pym_dzg-_quv_		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	mj07113	POST	pym_enu-5c2pu		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	qkffpflskdms	POST	pym_i92-y9_yf		2011-08-16	SEE	1.0	보다
@@ -273,6 +308,7 @@ sbs_newsunday	essel9101	POST	pyo4shn-_rh19		2011-08-15	CRYMARK	1.0	tagcry
 sbs_newsunday	essel9101	POST	pyo4shn-_rh19		2011-08-15	POSITIVE	1.0	보고싶다
 sbs_newsunday	abfos	POST	pyo4w6t-fwra		2011-08-16	SMILEMARK	1.0	흐
 sbs_newsunday	sepist	POST	pyo4zcy-_sbqf		2011-08-15	SMILEMARK	1.0	크
+sbs_newsunday	ofbb	POST	pyo70qt-5jb1j		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	ofbb	POST	pyo70qt-5jb1j		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_newsunday	ofbb	POST	pyo70qt-5jb1j		2011-08-15	CRYMARK	1.0	tagcry
 sbs_newsunday	rndfld	POST	pyo71wg-_dq8z		2011-08-15	PRESENT	1.0	이제
@@ -300,22 +336,28 @@ sbs_newsunday	8592lee	POST	pyo7cyf-5l7uh		2011-08-15	LOVEMARK	1.0	taglove
 sbs_newsunday	yna	POST	pyo7d3v-z1ou		2011-08-15	SMILEMARK	1.0	크
 sbs_newsunday	yna	POST	pyo7d3v-z1ou		2011-08-15	POSITIVE	1.0	좋다
 sbs_newsunday	p01054098210	POST	pyo7ec4-_qivh		2011-08-15	PRESENT	3.0	지금 이제 오늘
+sbs_newsunday	p01054098210	POST	pyo7ec4-_qivh		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	p01054098210	POST	pyo7ec4-_qivh		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	bestmurder	POST	pyo7f0i-_cima		2011-08-16	POSITIVE	1.0	좋다
+sbs_newsunday	pak757	POST	pyo7gda-5lft		2011-08-16	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	pak757	POST	pyo7gda-5lft		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	pak757	POST	pyo7gda-5lft		2011-08-16	SMILEMARK	1.0	tagsmile
 sbs_newsunday	pak757	POST	pyo7gda-5lft		2011-08-16	LOVEMARK	1.0	taglove
 sbs_newsunday	choijiho3252	POST	pyo7i7w-y02j5		2011-08-17	ANXIETY	1.0	무서
 sbs_newsunday	pak757	POST	pyo7ily-5lft		2011-08-16	QUANTIFIER	1.0	너무
+sbs_newsunday	pak757	POST	pyo7ily-5lft		2011-08-16	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	pak757	POST	pyo7ily-5lft		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	pak757	POST	pyo7ily-5lft		2011-08-16	SMILEMARK	1.0	tagsmile
 sbs_newsunday	pak757	POST	pyo7ily-5lft		2011-08-16	LOVEMARK	1.0	taglove
 sbs_newsunday	juhun0828	POST	pyo7swd-5p6xm		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_newsunday	dltkdal4516	POST	pyo7vca-yrob9		2011-08-15	PRESENT	1.0	오늘
+sbs_newsunday	dltkdal4516	POST	pyo7vca-yrob9		2011-08-15	QUESTIONMARK	1.0	tagquestion
+sbs_newsunday	dltkdal4516	POST	pyo7vca-yrob9		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_newsunday	anyonebang	POST	pyo7wg9-bkgw		2011-08-17	QUANTIFIER	1.0	너무
 sbs_newsunday	anyonebang	POST	pyo7wg9-bkgw		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	anyonebang	POST	pyo7wg9-bkgw		2011-08-17	CRYMARK	1.0	tagcry
 sbs_newsunday	anyonebang	POST	pyo7wg9-bkgw		2011-08-17	POSITIVE	1.0	좋다
+sbs_newsunday	hyeonah0411	POST	pyo7wpr-_clt2		2011-08-16	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	hyeonah0411	POST	pyo7wpr-_clt2		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	22uj	POST	pyo7xwc-5uk1w		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	paii	POST	pyo7xya-1fle		2011-08-15	FUTURE	1.0	내일
@@ -323,6 +365,7 @@ sbs_newsunday	paii	POST	pyo7xya-1fle		2011-08-15	POSITIVE	1.0	좋다
 sbs_newsunday	dkssk8992	POST	pyo7xz6-_0a80		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_newsunday	kasj4885	POST	pyo7_ky-_1r88		2011-08-15	FUTURE	1.0	다음주
 sbs_newsunday	kasj4885	POST	pyo7_ky-_1r88		2011-08-15	QUANTIFIER	1.0	너무
+sbs_newsunday	kasj4885	POST	pyo7_ky-_1r88		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	kasj4885	POST	pyo7_ky-_1r88		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_newsunday	_sh_sh	POST	pyol3ol-_d5_7		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	_sh_sh	POST	pyol3ol-_d5_7		2011-08-16	SEE	1.0	보다
@@ -342,6 +385,8 @@ sbs_newsunday	imseyeon	POST	pyolh46-yx074		2011-08-16	EXCLAMMARK	1.0	tagexclamat
 sbs_newsunday	imseyeon	POST	pyolh46-yx074		2011-08-16	SEE	1.0	보다
 sbs_newsunday	sepist	POST	pyoliew-_sbqf		2011-08-16	POSITIVE	1.0	좋다
 sbs_newsunday	tseven99	POST	pyolkim-yy2rs		2011-08-16	SMILEMARK	1.0	tagsmile
+sbs_newsunday	fx_sulli	POST	pyolkki-_scfe		2011-08-16	QUESTIONMARK	1.0	tagquestion
+sbs_newsunday	balenhome	POST	pyolq8u-_s92z		2011-08-16	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	balenhome	POST	pyolq8u-_s92z		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	balenhome	POST	pyolq8u-_s92z		2011-08-16	SMILEMARK	1.0	tagsmile
 sbs_newsunday	balenhome	POST	pyolq8u-_s92z		2011-08-16	SEE	1.0	보다
@@ -359,6 +404,7 @@ sbs_newsunday	too-day	POST	pyonlez-u0ak		2011-08-15	LOVEMARK	1.0	taglove
 sbs_newsunday	tjkim3449	POST	pyonlxn-5h8m1		2011-08-15	PAST	1.0	어제
 sbs_newsunday	tjkim3449	POST	pyonlxn-5h8m1		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_newsunday	mhghsm	POST	pyonmy1-y0bf7		2011-08-15	PRESENT	1.0	오늘
+sbs_newsunday	mhghsm	POST	pyonmy1-y0bf7		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	mhghsm	POST	pyonmy1-y0bf7		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	mhghsm	POST	pyonmy1-y0bf7		2011-08-15	POSITIVE	1.0	즐겁다
 sbs_newsunday	ludik	POST	pyonomo-yv9v		2011-08-15	EXCLAMMARK	1.0	tagexclamation
@@ -385,17 +431,21 @@ sbs_newsunday	too-day	POST	pyox2rg-u0ak		2011-08-17	EXCLAMMARK	1.0	tagexclamatio
 sbs_newsunday	too-day	POST	pyox2rg-u0ak		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_newsunday	mople	POST	pyox54e-ybyr8		2011-08-16	PRESENT	1.0	오늘
 sbs_newsunday	mople	POST	pyox54e-ybyr8		2011-08-16	POSITIVE	1.0	좋다
-sbs_newsunday	mople	POST	pyox54e-ybyr8		2011-08-16	SEE	1.0	보다
+sbs_newsunday	suji99998	POST	pyox6or-50vcu		2011-08-16	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	jwbo3star2	POST	pyox7mk-2sll		2011-08-17	SMILEMARK	2.0	tagsmile 크
 sbs_newsunday	sepist	POST	pyox90t-_sbqf		2011-08-16	SMILEMARK	1.0	크
+sbs_newsunday	ma2646	POST	pyox9rf-rwog		2011-08-16	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	ma2646	POST	pyox9rf-rwog		2011-08-16	SMILEMARK	1.0	tagsmile
 sbs_newsunday	nsm90125	POST	pyoxaaf-abpj		2011-08-15	SMILEMARK	1.0	크
 sbs_newsunday	wldud2497	POST	pyoxj9z-yx8iw		2011-08-16	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	k030313	POST	pyoxkzf-y2w_6		2011-08-16	PAST	1.0	어제
 sbs_newsunday	reed0903	POST	pyoxsg6-b0yd		2011-08-15	PRESENT	1.0	오늘
+sbs_newsunday	reed0903	POST	pyoxsg6-b0yd		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	reed0903	POST	pyoxsg6-b0yd		2011-08-15	SMILEMARK	1.0	tagsmile
+sbs_newsunday	ej4440	COMMENT	pym10ev-5uz2z		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	junghj68	COMMENT	pym3tf7-t_fk		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	junghj68	COMMENT	pym3tf7-t_fk		2011-08-20	SMILEMARK	1.0	tagsmile
+sbs_newsunday	genei72	COMMENT	pym3tf7-t_fk		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	genei72	COMMENT	pym3tf7-t_fk		2011-08-20	CRYMARK	1.0	tagcry
 sbs_newsunday	sunlight520	COMMENT	pym3tf7-t_fk		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_newsunday	sunlight520	COMMENT	pym3tf7-t_fk		2011-08-20	POSITIVE	1.0	재미있
@@ -406,9 +456,12 @@ sbs_newsunday	roskfl582	COMMENT	pym3wkq-_qd8e		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_newsunday	dbslem401	COMMENT	pym3wkq-_qd8e		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	dbslem401	COMMENT	pym3wkq-_qd8e		2011-08-18	SEE	1.0	보다
 sbs_newsunday	01037942464	COMMENT	pym3wkq-_qd8e		2011-08-18	SMILEMARK	1.0	tagsmile
+sbs_newsunday	2pmjunsu115	COMMENT	pym5if9-58nov		2011-08-19	QUESTIONMARK	1.0	tagquestion
+sbs_newsunday	2pmjunsu115	COMMENT	pym5if9-58nov		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	nuran8	COMMENT	pym5if9-58nov		2011-08-19	PRESENT	1.0	이제
 sbs_newsunday	nuran8	COMMENT	pym5if9-58nov		2011-08-19	CONJUNCTION	1.0	그런데
 sbs_newsunday	nuran8	COMMENT	pym5if9-58nov		2011-08-19	SMILEMARK	1.0	tagsmile
+sbs_newsunday	rladpwls0812	COMMENT	pym62i5-_qdcr		2011-08-23	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	rladpwls0812	COMMENT	pym62i5-_qdcr		2011-08-23	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	dudtjs1268	COMMENT	pym62i5-_qdcr		2011-08-19	LOVEMARK	1.0	taglove
 sbs_newsunday	dr_dongle	COMMENT	pymbhdl-3uzv		2011-08-19	POSITIVE	1.0	멋지다
@@ -416,7 +469,10 @@ sbs_newsunday	joyce122	COMMENT	pymd5i8-_pyib		2011-08-25	SMILEMARK	1.0	tagsmile
 sbs_newsunday	2054897	COMMENT	pymd5i8-_pyib		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 sbs_newsunday	2054897	COMMENT	pymd5i8-_pyib		2011-08-16	SMILEMARK	1.0	tagsmile
 sbs_newsunday	0228hyj	COMMENT	pymd5i8-_pyib		2011-08-17	SMILEMARK	1.0	크
+sbs_newsunday	wyoung_lee	COMMENT	pymkbbt-91y5		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	wyoung_lee	COMMENT	pymkbbt-91y5		2011-08-20	CRYMARK	1.0	tagcry
+sbs_newsunday	mjal	COMMENT	pymkbbt-91y5		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_newsunday	mjal	COMMENT	pymkbbt-91y5		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_newsunday	yunwoo1129	COMMENT	pymkbbt-91y5		2011-08-21	SMILEMARK	1.0	tagsmile
 sbs_newsunday	01094425891	COMMENT	pym_b3a-ivhx		2011-08-19	SMILEMARK	1.0	tagsmile
+sbs_newsunday	ryenjee	COMMENT	pym_p0t-ivhx		2011-08-19	SMILEMARK	1.0	tagsmile

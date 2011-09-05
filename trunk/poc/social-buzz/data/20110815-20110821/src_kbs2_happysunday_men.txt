@@ -1,82 +1,82 @@
 program_id	author_id	type	post_id	comment_id	publish_date	terms
 kbs2_happysunday_men	kikihiho	POST	pym0ctr-l9oh		2011-08-18	꼬꼬면후기남자 자격 이경규 이경규의 꼬꼬면 후기
-kbs2_happysunday_men	himismini	POST	pym0nfc-yglvy		2011-08-20	꼬꼬면드셔보셧어요tagquestion남격에서일 꼬꼬면드셔보셧어요tagquestion남격에서일등한 tagsmile 붉은기하나없는데ㅣ완전얼큰 tagsmile 참고 하나 천원tagsmile
-kbs2_happysunday_men	pbk0356	POST	pym10ev-5uz2z		2011-08-20	투표할게염 런닝맨vs남자 자격
+kbs2_happysunday_men	himismini	POST	pym0nfc-yglvy		2011-08-20	꼬꼬면드셔보셧어 꼬꼬면드셔보셧어요 tagquestion 남격에서일 tagsmile 붉은기하나 ㅣ 완전얼큰 tagsmile 참고 하나 천원 tagsmile
+kbs2_happysunday_men	pbk0356	POST	pym10ev-5uz2z		2011-08-20	투표할게염 런닝맨vs 남자 자격
 kbs2_happysunday_men	lwmeeee	POST	pym1ydg-yyzcn		2011-08-20	남자의자격봐야지
 kbs2_happysunday_men	houn1217	POST	pym3g5z-twm7		2011-08-20	남자의자격 라면요리대결편 꼬꼬면시식후기
 kbs2_happysunday_men	kksun1472	POST	pym3_ko-vyga		2011-08-20	이번 스킨 컨셉 컨셉은 남자 남다 그리다 심플 뭔가 남격 남격스러운 컨셉 컨셉이
 kbs2_happysunday_men	banur_	POST	pym50oc-5f1x4		2011-08-16	권지용 kbs 남자의자격 gd언급
-kbs2_happysunday_men	chlwlgns1014	POST	pym5a7c-_sa3e		2011-08-18	나가다 시언씨 울 울다 멋지다 왕자님 만나다 가야되서 tagexclamation 비교 안되다 tagexclamation tagsmile 내 사랑하는거 알지tagquestion 학원에서봐tagsmile 야리다 야리거 때리다 넌 널다 남자자격없는거야 tagexclamation 학원 봥 tagexclamation
-kbs2_happysunday_men	insos02	POST	pym5jne-_8lnw		2011-08-16	해피선데 해피선데이 남자의자격 무료다시보기 청춘합창단 해피선데 해피선데이 남자의자격 무료다시보기 청춘합창단
-kbs2_happysunday_men	sepist	POST	pym5n_9-_sbqf		2011-08-18	비오템 목걸이 뿐 뿐만 아니다 아니 에어컨 가장 싸다 판매 신개념 추첨경매 시 남자의자격
+kbs2_happysunday_men	chlwlgns1014	POST	pym5a7c-_sa3e		2011-08-18	나가다 시언씨 울 울다 멋지다 왕자님 만나다 가야되서 tagexclamation 비교 안되다 tagexclamation tagsmile 내 사랑하는거 알다 tagquestion 학원에서봐 tagsmile 야리다 야리거 때리다 넌 널다 남자자격없는거야 tagexclamation 학원 봥 tagexclamation
+kbs2_happysunday_men	insos02	POST	pym5jne-_8lnw		2011-08-16	해피선데 해피선데이 남자의자격 무료다시보기 청춘합창단 2011-08-14 해피선데 해피선데이 남자의자격 무료다시보기 청춘합창단 2011-08-14
+kbs2_happysunday_men	sepist	POST	pym5n_9-_sbqf		2011-08-18	비오템 목걸이 뿐 뿐만 아니다 아니 에어컨 가장 싸다 판매 신개념 추첨경매 3시 남자의자격
 kbs2_happysunday_men	taelove79	POST	pym5zxs-m8af		2011-08-18	남자 자격 청춘 합창단 보컬 트레이너 임혜영
 kbs2_happysunday_men	tais7ungk	POST	pym60xd-_sttb		2011-08-20	남격 이경규 제빵 기능사 재시험도중 신경질 폭발 조임좋고 물 엄청나다 엄청 그녀 그녀랑 하룻밤 붕가 붕가 한번 왼편 보 보이 주소 joinsmsn
-kbs2_happysunday_men	ostarmall	POST	pym62et-5fvrd		2011-08-17	양준혁 꼬꼬면 홍보 동참 남격 의리과시 다음 누구tagquestion
-kbs2_happysunday_men	insos02	POST	pym63wt-_8lnw		2011-08-17	해피선데 해피선데이 남자의자격 무료다시보기 청춘합창단 해피선데 해피선데이 남자의자격 무료다시보기 청춘합창단
+kbs2_happysunday_men	ostarmall	POST	pym62et-5fvrd		2011-08-17	양준혁 꼬꼬면 홍보 동참 남격 의리과시 다음 tagquestion
+kbs2_happysunday_men	insos02	POST	pym63wt-_8lnw		2011-08-17	해피선데 해피선데이 남자의자격 무료다시보기 청춘합창단 2011-08-14 해피선데 해피선데이 남자의자격 무료다시보기 청춘합창단 2011-08-14
 kbs2_happysunday_men	bab5s	POST	pym6861-13af		2011-08-19	남격 요리대회 수상작 이경규 이경규의 꼬꼬면 국물 하얗다 칼칼하다 바 내 원하다 라면 거다 거기 닭가슴살 추가 추
 kbs2_happysunday_men	cdmigirl	POST	pym6s7r-y0b12		2011-08-17	화성인 화성 박이빛 이제 남자 자격 그녀 그녀는 정말 당 웹
-kbs2_happysunday_men	cdmigirl	POST	pym6sqq-y0b12		2011-08-17	원문 tistory화성 박이빛 이제 남자 자격 그녀 그녀는 정말 당 년 월 일 수요일 수요 박이빛 뉴스 내레이션 원고 일 오후 강남역 인근 억 카페 대한민국 웹
-kbs2_happysunday_men	tkdwns1222	POST	pym6_ya-5fu71		2011-08-20	넬라판타지아 남자의자격
+kbs2_happysunday_men	cdmigirl	POST	pym6sqq-y0b12		2011-08-17	원문 tistory화성 박이빛 이제 남자 자격 그녀 그녀는 정말 당 2011년 8월 17 17일 수요일 수요 박이빛 뉴스 내레이션 원고 16 16일 오후 강남역 인근 100억 카페 대한민국 웹
+kbs2_happysunday_men	tkdwns1222	POST	pym6_ya-5fu71		2011-08-20	3 넬라판타지아 남자의자격
 kbs2_happysunday_men	rnjs0526	POST	pym9da6-5l3no		2011-08-20	던파 하늑님 하늑님의 인형 입히다 남격 어린왕자꺼 색칠 tagexclamation tagsmile
-kbs2_happysunday_men	s98cookie	POST	pymb2cm-rpol		2011-08-19	내일울학교합창단남격오디션보러가 오늘은경남도대회를햇는데 등햇어 등햇어요 전아쉽게도방송부 tagcry 원래저도예선오디션하는거가서촬영해야하는데전놀러간답니 원래저도예선오디션하는거가서촬영해야하는데전놀러간답니다 tagsmile 합창쌤이름 뚜비
-kbs2_happysunday_men	insos02	POST	pymb6mg-_8lnw		2011-08-19	해피선데 해피선데이 남자의자격 무료다시보기 청춘합창단 해피선데 해피선데이 남자의자격 무료다시보기 청춘합창단
+kbs2_happysunday_men	s98cookie	POST	pymb2cm-rpol		2011-08-19	내일울학교합창단남격오디션보러가 오늘은경남도대회를햇는데1 등햇어 등햇어요 전아쉽게도방송부 tagcry 원래저도예선오디션하는거가서촬영해야하는데전놀러간답니 원래저도예선오디션하는거가서촬영해야하는데전놀러간답니다 tagsmile 합창쌤이름 뚜비
+kbs2_happysunday_men	insos02	POST	pymb6mg-_8lnw		2011-08-19	해피선데 해피선데이 남자의자격 무료다시보기 청춘합창단 2011-08-14 해피선데 해피선데이 남자의자격 무료다시보기 청춘합창단 2011-08-14
 kbs2_happysunday_men	cdmigirl	POST	pymbdn2-y0b12		2011-08-19	박이빛 회장 남자 자격 합창단 출연 웹
 kbs2_happysunday_men	disgold	POST	pymbz50-m0bs		2011-08-20	티비보는중 남격 재방하네
 kbs2_happysunday_men	paulgeppetto	POST	pymd5e3-5tcl1		2011-08-15	남격잘보고있어 남격잘보고있어여 특 합창곡 듣다 같이울었습니다 올해 엄마가돌아가셔서그런지 가슴 져 져며 뜨거운 눈물 흘리지않을수 예전 팬 정말정말 감동 계속 화이팅하시구 건강도챙기시면서 좋은음악부탁
-kbs2_happysunday_men	jeon791105	POST	pymddlo-5qp_l		2011-08-15	어제사온 꼬꼬면 tagsmile이경규 tagsmile이경규가 남자 자격 만들다 출시 라면 tagsmile 맛나다 맛나 머거보려구용 tagsmile
-kbs2_happysunday_men	taeng	POST	pymddz4-qy6		2011-08-17	어렵사리 구한 구하다 꼬꼬면 tagexclamation 남자 자격 극찬할 극찬할만한 맛일까tagquestion
-kbs2_happysunday_men	sepist	POST	pymdhze-_sbqf		2011-08-17	구호 양말 오다 세탁기 저렴하게 구매하는방법 신개념 쇼핑몰 시 서울남산 남자의자격
+kbs2_happysunday_men	jeon791105	POST	pymddlo-5qp_l		2011-08-15	어제사온 꼬꼬면 tagsmile 이경규 이경규가 남자 자격 만들다 출시 라면 tagsmile 맛나다 맛나 머거보려구용 tagsmile
+kbs2_happysunday_men	taeng	POST	pymddz4-qy6		2011-08-17	어렵사리 구한 구하다 꼬꼬면 tagexclamation 남자 자격 극찬할 극찬할만한 맛 tagquestion
+kbs2_happysunday_men	sepist	POST	pymdhze-_sbqf		2011-08-17	구호 양말 오다 세탁기 저렴하게 구매하는방법 신개념 쇼핑몰 3시 서울남산 남자의자격
 kbs2_happysunday_men	dong	POST	pymdhzh-x_p		2011-08-15	뉴스 남격 파격 미션곡 굳다 아이돌메들리
 kbs2_happysunday_men	qorgkssk0	POST	pymdjtf-5ehhk		2011-08-15	한국야쿠르트 꼬꼬면 이경규 꼬꼬면 남자의자격 꼬꼬면
-kbs2_happysunday_men	nana6850	POST	pymdn85-_q4nn		2011-08-15	남격임혜영 단고음 화제동영 남격임혜영 단고음 화제동영
+kbs2_happysunday_men	nana6850	POST	pymdn85-_q4nn		2011-08-15	남격임혜영 10단고음 화제동영 남격임혜영 10단고음 화제동영
 kbs2_happysunday_men	rlatjdgp71	POST	pymdr29-h9g0		2011-08-18	드디어 남자 자격 이경규 이경규가 개발 꼬꼬면 꼬꼬면이 상품화 하다 tagexclamation 후후 먹고 싶다 오늘 마트 마트에 가다 사다
-kbs2_happysunday_men	jenny0163	POST	pymdyhk-t4id		2011-08-15	남격 다시보는대 아이돌 히트곡 메들리 메들리에 잔소리도있네요tagsmile
+kbs2_happysunday_men	jenny0163	POST	pymdyhk-t4id		2011-08-15	남격 다시보는대 아이돌 히트곡 메들리 메들리에 잔소리도 잔소리도있네 tagsmile
 kbs2_happysunday_men	1128jini	POST	pymeefb-_k21m		2011-08-18	남자의자격 청춘합창단을 죽어도못보내 죽어도못보내를 부른데 부른데요 아이돌메들리 tagsmile 마지막곡 taglove 닥본사해야징
-kbs2_happysunday_men	insos02	POST	pymemio-_8lnw		2011-08-19	해피선데 해피선데이 남자의자격 무료다시보기 청춘합창단 해피선데 해피선데이 남자의자격 무료다시보기 청춘합창단
-kbs2_happysunday_men	yg9229	POST	pymk4f5-ut6k		2011-08-18	박 일 무한도전 남자의자격 촬영지 사승봉도 사승봉도를 가다 가
+kbs2_happysunday_men	insos02	POST	pymemio-_8lnw		2011-08-19	해피선데 해피선데이 남자의자격 무료다시보기 청춘합창단 2011-08-14 해피선데 해피선데이 남자의자격 무료다시보기 청춘합창단 2011-08-14
+kbs2_happysunday_men	yg9229	POST	pymk4f5-ut6k		2011-08-18	1박2 일 무한도전 남자의자격 촬영지 사승봉도 사승봉도를 가다 가
 kbs2_happysunday_men	munlog	POST	pymkz3j-y6hn_		2011-08-17	남자의자격 청춘합창단사랑 이르다 이름 더하다 더하 듣기가사
 kbs2_happysunday_men	rlawjdgk	POST	pymy0qb-i5oy		2011-08-17	남격 핥뷁하는구낰 tagsmile 챙겨바야징
-kbs2_happysunday_men	eunsu_yuri	POST	pymy7ny-_qfab		2011-08-16	월 일 한여자 한여자가 한은수 한은수라 남자 자격도아무것도 한여자 한여자가 글을써 글을써요 미얀 미얀해 미얀해요
+kbs2_happysunday_men	eunsu_yuri	POST	pymy7ny-_qfab		2011-08-16	8월16 일 한여자 한여자가 한은수 한은수라 남자 자격도아무것도 한여자 한여자가 글을써 글을써요 미얀 미얀해 미얀해요
 kbs2_happysunday_men	deepp	POST	pymy8jy-qm2a		2011-08-16	꼬꼬면 남자 자격 방송 맛 궁금 꼬꼬면 시식기
-kbs2_happysunday_men	leaf1007	POST	pymy8xr-5jh97		2011-08-16	남자 자격 김태원 원장 본스타 연기학원 방송연기 수업 신인연기자 데뷔 기 정규반 접수중이래
-kbs2_happysunday_men	ghkdyd73	POST	pymyae_-9rm4		2011-08-16	블로그 이벤트 꼬꼬면 출시기념 릴레이 이벤트 타다 꼬꼬면 탄생 비밀 한국야쿠르트 한국야쿠르트꼬꼬면 꼬꼬면 꼬꼬면이벤트 남자의자격꼬꼬면 이경규꼬꼬면
-kbs2_happysunday_men	qhfk1231004	POST	pymycu_-y3auy		2011-08-18	이해 못하다 내 남자 만나다 친구 만나다 내 내다 사생활 아닌가tagquestion정규직 아니다 아니 잠깐 일하다 매니저 내 남자만나는거 뭐 할 하다 자격 되는건가tagquestion내 되는건가tagquestion내가 연애하는것땜 일 안하는것 안하는것도 아니다 아니 소홀해진것 아니다 왜 외다 사생활 간섭 하는거지tagquestion
-kbs2_happysunday_men	insos02	POST	pymydet-_8lnw		2011-08-16	해피선데 해피선데이 남자의자격 무료다시보기 청춘합창단 해피선데 해피선데이 남자의자격 무료다시보기 청춘합창단
-kbs2_happysunday_men	sepist	POST	pymyhow-_sbqf		2011-08-17	구호 남방 뿐 뿐만 아니다 아니 가습기 저렴하게 구매하는방법 신개념 경매 시 남자의자격 중국
-kbs2_happysunday_men	sung1537	POST	pymyp8c-h1mb		2011-08-17	울산꼬꼬면 tagexclamation gs슈퍼마켓 꼬꼬면 꼬꼬면을 파다 인터냇 다른지역사람 비 인기 없는듯 tagquestion많 tagquestion많이 쌓여 쌓여있네 쌓여있네요 tagcry 꼬꼬면 이경규 남자의자격 이경규꼬꼬면
+kbs2_happysunday_men	leaf1007	POST	pymy8xr-5jh97		2011-08-16	남자 자격 김태원 원장 본스타 연기학원 방송연기 수업 신인연기자 데뷔 7기 정규반 접수중이래
+kbs2_happysunday_men	ghkdyd73	POST	pymyae_-9rm4		2011-08-16	블로그 이벤트 꼬꼬면 출시기념 릴레이 이벤트 2탄 꼬꼬면 탄생 비밀 한국야쿠르트 한국야쿠르트꼬꼬면 꼬꼬면 꼬꼬면이벤트 남자의자격꼬꼬면 이경규꼬꼬면
+kbs2_happysunday_men	qhfk1231004	POST	pymycu_-y3auy		2011-08-18	이해 못하다 내 남자 만나다 친구 만나다 내 내다 사생활 아니다 tagquestion 정규직 아니다 아니 잠깐 일하다 매니저 내 남자만나는거 뭐 할 하다 자격 되는건가 tagquestion 내 연애하는것땜 일 안하는것 안하는것도 아니다 아니 소홀해진것 아니다 왜 외다 사생활 간섭 하는거지 tagquestion
+kbs2_happysunday_men	insos02	POST	pymydet-_8lnw		2011-08-16	해피선데 해피선데이 남자의자격 무료다시보기 청춘합창단 2011-08-14 해피선데 해피선데이 남자의자격 무료다시보기 청춘합창단 2011-08-14
+kbs2_happysunday_men	sepist	POST	pymyhow-_sbqf		2011-08-17	구호 남방 뿐 뿐만 아니다 아니 가습기 저렴하게 구매하는방법 신개념 경매 3시 남자의자격 중국
+kbs2_happysunday_men	sung1537	POST	pymyp8c-h1mb		2011-08-17	울산꼬꼬면 tagexclamation gs슈퍼마켓 꼬꼬면 꼬꼬면을 파다 인터냇 다른지역사람 비 인기 없는듯 tagquestion 많다 쌓여 쌓여있네 쌓여있네요 tagcry 꼬꼬면 이경규 남자의자격 이경규꼬꼬면
 kbs2_happysunday_men	paulgeppetto	POST	pymypp7-_sfd2		2011-08-17	태원성 cf 잘보구잇구 잘보구잇구요 근데 주유소 알다 tagsmile 남격 tagexclamation 퐈이팅 퐈이팅입니 퐈이팅입니다 넘 잘 자다 할려고 할려고는 하지마 하지마요 성님 성님은 평소대로 평소대로만해 대박 경규성님한테 안부전해주삼
 kbs2_happysunday_men	3811888	POST	pymyq79-5kqlz		2011-08-17	화성인 화성 박이빛 이제 남자 자격 그녀 그녀는 정말 당
-kbs2_happysunday_men	sswingss	POST	pymyqx6-sf3p		2011-08-18	요즘 고정 보다 보 프로그램 달랑 개 개다 공주 남자 남다 그리다 남자 자격 요즘 나한테 볼 보다 만 드라마 공주 남자 남다 딱 하 하나 남자 자격 청춘합창단 매 매다 회 최고 불후 명곡 사랑 이르다 이름 더하다 더하 들다 들 때 눈물 바람 김태원님 천재 tagcry tv
+kbs2_happysunday_men	sswingss	POST	pymyqx6-sf3p		2011-08-18	요즘 고정 보다 보 프로그램 달랑 2개 공주 남자 남다 그리다 남자 자격 요즘 나한테 볼 보다 만 드라마 공주 남자 남다 딱 하 하나 남자 자격 청춘합창단 매 매다 회 최고 불후 명곡 사랑 이르다 이름 더하다 더하 들다 들 때 눈물 바람 김태원님 천재 tagcry tv
 kbs2_happysunday_men	poohzip	POST	pym_0h4-yy09o		2011-08-18	꼬꼬면 남자의자격 라면경연대회 나가다 이경규선생님 만들다 라면 팔도 가정용 라면 만들다 라면 잘끓여놓 잘끓여놓은 닭곰탕 면 넣다 라면 치킨스톡 느끼다 계란 넣다 방식 강압성 보 라면 글세 맛있다 하다 하지 매력 라면 가격대비 맛 우수 면 좀 조다 두꺼운것 소면 소면보 두껍다 중면 중면보 얇앗으면 좋았을것 같다 건더기 스프 스프가 부실 계란 노른자 풀리다 맛 확 변
-kbs2_happysunday_men	rhdmss0201	POST	pym_1pb-56ipe		2011-08-19	헐 박 일 개월 후 완전 종영 강호동 빠지는것 빠지는것도 그렇다 모두 평생 박 일 함께할수 없다 합의했다 그나저 그나저나 이제 막 들어오다 엄태웅 엄태웅은 어째 tagcry 개월 말다 년 하다 안되다 tagcry tagquestion 아쉽다 성민오빠 구속 남자의자격 전혀 못보게 되엇어 되엇어도 박 일 보다
+kbs2_happysunday_men	rhdmss0201	POST	pym_1pb-56ipe		2011-08-19	헐 1박2 일 6개월 후 완전 종영 강호동 빠지는것 빠지는것도 그렇다 모두 평생 1박2 일 함께할수 없다 합의했다 그나저 그나저나 이제 막 들어오다 엄태웅 엄태웅은 어째 tagcry 6개월 말다 1년 1년만 하다 안되다 tagcry tagquestion 아쉽다 성민오빠 구속 남자의자격 전혀 못보게 되엇어 되엇어도 1박2 일 보다
 kbs2_happysunday_men	anji011	POST	pym_3ds-58909		2011-08-19	화제 모으다 라면 해피선데 해피선데이 남자의자격 라면요리대결편 이경규씨 선보이다 되었다네요 한국야구르트 함 개발 소비자 품 올 오다 있게 봉지 뒷면 보다 계란흰자 함 곁들다 먹으면 맛 있다네 있다네요 저 오리지날 먼저 접하다 의미 시식 보다 면발 면발은 보통수준 중요 국물맛 국물맛은 처음 칼칼하다 기침연발해서 기침연발 tagcry 자칫잘못 급하다 먹 뿜을수 뿜을수도 있다는걸 경고해드리구 닭육수 닭육수를 베이스 해서 하다 그런지 맛 괜찮다 닭조각 닭조각으 보 보이 블럭 블럭도 작다 보 보이 꼬꼬면 식미투
-kbs2_happysunday_men	dreker	POST	pym_4rd-x9qq		2011-08-19	내년 월 박 일 역사속 사라지다 tagcry 박 일 열렬 팬 정말 아쉽다 tagcry 년 월 일 준비됬어요 시작 그해 월 일 박 일로 일 프로그램명 변경 그리다 현재 엄청나다 엄청 인기 얻다 방영 tagquestion 흑흑흑흑흑 tagcry 남자의자격을볼지sbs로넘어갈지고민 tagcry
+kbs2_happysunday_men	dreker	POST	pym_4rd-x9qq		2011-08-19	내년 2월 1박2 일 역사속 사라지다 tagcry 1박2 일 열렬 팬 정말 아쉽다 tagcry 2007년 5월6 일 준비됬어요 시작 그해 8월 5일 5일에 1박2 일로 일 프로그램명 변경 그리다 현재 엄청나다 엄청 인기 얻다 방영 20070506 201202 tagquestion 흑흑흑흑흑 tagcry 남자의자격을볼지sbs 로넘어갈지고민 tagcry
 kbs2_happysunday_men	spacecorea	POST	pyo44if-ipab		2011-08-15	생각 나 나다 남자 자격 송년회 liver 부활 정동
-kbs2_happysunday_men	eyesis	POST	pyo4u0y-ykv5		2011-08-16	남자 자격 김태원 원장 본스타 연기학원 방송연기 수업 신인연기자 데뷔 기 정규반 접수중이래
-kbs2_happysunday_men	tivk89	POST	pyo4u8w-5ci5m		2011-08-16	남자 자격 김태원 원장 본스타 연기학원 방송연기 수업 신인연기자 데뷔 기 정규반 접수중이래
-kbs2_happysunday_men	iyousens	POST	pyo4wvw-yq85k		2011-08-15	다시보기 남자의자격 남자의자격 청춘합창단 다시보기 월 일 방송분 다시보기
-kbs2_happysunday_men	ccya	POST	pyo4yyr-hmgu		2011-08-15	해피선데 해피선데이 남자 자격 회 월 일 다시보기
-kbs2_happysunday_men	dhoh78	POST	pyo4zvi-_mpv4		2011-08-16	남자 자격 김태원 원장 본스타 연기학원 방송연기 수업 신인연기자 데뷔 기 정규반 접수중이래
-kbs2_happysunday_men	namesjy	POST	pyo4_91-_psd		2011-08-15	에에tagquestion 퉤니원 아똔케 아똔케가 남격합창단 곡이라고라고tagquestion
-kbs2_happysunday_men	minirei333	POST	pyo7d_2-yfmel		2011-08-15	결 결과 걱정 이전 용기 도전 자체 아름답다 남자의자격 청춘합창단 나다 나 무엇 걱정 두려워 두려워하 두려워하여 도전자체 하지 하다 못하다 걸까tagquestion 가자 가다 tagexclamation 결과 어떻다 나다 나 내 내다 갈길 갈길을 가자 가다 tagexclamation
+kbs2_happysunday_men	eyesis	POST	pyo4u0y-ykv5		2011-08-16	남자 자격 김태원 원장 본스타 연기학원 방송연기 수업 신인연기자 데뷔 7기 정규반 접수중이래
+kbs2_happysunday_men	tivk89	POST	pyo4u8w-5ci5m		2011-08-16	남자 자격 김태원 원장 본스타 연기학원 방송연기 수업 신인연기자 데뷔 7기 정규반 접수중이래
+kbs2_happysunday_men	iyousens	POST	pyo4wvw-yq85k		2011-08-15	다시보기 남자의자격 남자의자격 청춘합창단 다시보기 8월14 일 방송분 다시보기
+kbs2_happysunday_men	ccya	POST	pyo4yyr-hmgu		2011-08-15	해피선데 해피선데이 남자 자격 191회 8월 14 14일 다시보기
+kbs2_happysunday_men	dhoh78	POST	pyo4zvi-_mpv4		2011-08-16	남자 자격 김태원 원장 본스타 연기학원 방송연기 수업 신인연기자 데뷔 7기 정규반 접수중이래
+kbs2_happysunday_men	namesjy	POST	pyo4_91-_psd		2011-08-15	tagquestion 퉤니원 아똔케 아똔케가 남격합창단 곡이라고 곡이라고라 tagquestion
+kbs2_happysunday_men	minirei333	POST	pyo7d_2-yfmel		2011-08-15	결 결과 걱정 이전 용기 도전 자체 아름답다 남자의자격 청춘합창단 나다 나 무엇 걱정 두려워 두려워하 두려워하여 도전자체 하지 하다 못하다 걸까 tagquestion 가자 가다 tagexclamation 결과 어떻다 나다 나 내 내다 갈길 갈길을 가자 가다 tagexclamation
 kbs2_happysunday_men	theend1123	POST	pyo7sga-co_d		2011-08-15	남격 임혜영 카리스마다 고음 고다 화제동영 남격 임혜영 카리스마다 고음 고다 화제동영
 kbs2_happysunday_men	silimkjd	POST	pyo7sru-_edyl		2011-08-17	남자 자격 합창단 공연 감동 하모니 그리다 눈물 최고 tagexclamation
-kbs2_happysunday_men	asc3355	POST	pyo7wr1-sf2k		2011-08-17	꼬꼬면 꼬꼬면은 개그맨 이경규 이경규가 올해 월 kbs tv 해피선데 해피선데이 남자 자격 라면요리 대결 편 닭 육수 계란 청양 고추 넣다 라면 선보이다 탄생
-kbs2_happysunday_men	insos02	POST	pyo7_g0-_8lnw		2011-08-15	해피선데 해피선데이 남자의자격 무료다시보기 청춘합창단 해피선데 해피선데이 남자의자격 무료다시보기 청춘합창단
+kbs2_happysunday_men	asc3355	POST	pyo7wr1-sf2k		2011-08-17	꼬꼬면 꼬꼬면은 개그맨 이경규 이경규가 올해 3월 kbs 2tv 해피선데 해피선데이 남자 자격 라면요리 대결 편 닭 육수 계란 청양 고추 넣다 라면 선보이다 탄생
+kbs2_happysunday_men	insos02	POST	pyo7_g0-_8lnw		2011-08-15	해피선데 해피선데이 남자의자격 무료다시보기 청춘합창단 2011-08-14 해피선데 해피선데이 남자의자격 무료다시보기 청춘합창단 2011-08-14
 kbs2_happysunday_men	nunurigo121	POST	pyol2jy-_9tci		2011-08-16	영화미술 해피선데 해피선데이 남자 자격 분장
-kbs2_happysunday_men	wlgnsakswh	POST	pyoleao-5ey2u		2011-08-15	좋아하다 사람한테 좋아하다 한마디 해보다 못하다 못 끝나버린 대 첫 사랑 사랑이 안녕 그녀 마음속 이미 다르다 남자 있다 비집고 들어가다 틈 내 내다 마음 강요 자격 없다 나 이제 깨끗하게 물러나려 물러나려하네
+kbs2_happysunday_men	wlgnsakswh	POST	pyoleao-5ey2u		2011-08-15	좋아하다 사람한테 좋아하다 한마디 해보다 못하다 못 끝나버린 20대 첫 사랑 사랑이 안녕 그녀 마음속 이미 다르다 남자 있다 비집고 들어가다 틈 내 내다 마음 강요 자격 없다 나 이제 깨끗하게 물러나려 물러나려하네
 kbs2_happysunday_men	zxc998877	POST	pyon67b-_sddt		2011-08-15	남격 김태원 눈 보 보이 안경 착용 폭발적 반응 보다 인간적인것 자기일 확실몰입하시고 확실몰입 확실몰입하시 넘 조다 tv리포트
 kbs2_happysunday_men	tae6666	POST	pyon8m7-5cdf0		2011-08-15	남격 김태원 눈 보 보이 안경 착용 폭발적 반응
 kbs2_happysunday_men	actorgyuni	POST	pyona8x-5isah		2011-08-15	남자 자격 청춘합창단 보다 느끼는건 인생 세월 쌓다 욕심 사라지다 잔잔하다 남다 거센파도 사라지다 죽다 죽음 가다 가늘다 가 길 길이 그렇다 그렇다하면 할 하다 말 말다 없다 크다 교훈 주다 줄다 욕심 버리다 욕심 모든걸 안좋게 만들다 제발 버리다
-kbs2_happysunday_men	sine90269	POST	pyonoaa-ypu87		2011-08-15	꺄악 넘 기분 좋다 tagsmile 남자 자격 청춘 합창단 아이돌 매들리 매들리로 아이유 슬옹 슬옹의 잔소리 pm pm의 하트 비트 am am의 죽다 못보 못보내 등 부르다 tagexclamation am노래 마지막 tagexclamation taglove
-kbs2_happysunday_men	ybg601117	POST	pyonw48-_tmmj		2011-08-15	남격 김태원 안경 착용 방송 년 만 선글라스 벗다 tagexclamation 브레이크뉴스 http www breaknews com sub read htmltagquestionuid 굿 tagexclamation 아주 좋다 보 미백 기능성화장품 ghk 펩타이드
+kbs2_happysunday_men	sine90269	POST	pyonoaa-ypu87		2011-08-15	꺄악 넘 기분 좋다 tagsmile 남자 자격 청춘 합창단 아이돌 매들리 매들리로 아이유 슬옹 슬옹의 잔소리 2pm 2pm의 하트 비트 2am 2am의 죽다 못보 못보내 등 부르다 tagexclamation 2am노래 마지막 tagexclamation taglove
+kbs2_happysunday_men	ybg601117	POST	pyonw48-_tmmj		2011-08-15	남격 김태원 안경 착용 방송 30년 만 선글라스 벗다 tagexclamation 브레이크뉴스 http www.breaknews.com sub read.html tagquestion uid 181349 굿 tagexclamation 아주 좋다 보 미백 기능성화장품 ghk 펩타이드
 kbs2_happysunday_men	kns7724	POST	pyovz4r-smk7		2011-08-15	남격 김태원 눈 보 보이 안경 착용 폭발적 반
-kbs2_happysunday_men	jinho3137	POST	pyox31o-y1hdu		2011-08-17	임혜영 단고음 남자의자격 영상
+kbs2_happysunday_men	jinho3137	POST	pyox31o-y1hdu		2011-08-17	임혜영 10단고음 남자의자격 영상
 kbs2_happysunday_men	soeun0721	POST	pyox7wm-y_r3k		2011-08-15	남격 청춘합창단 중년돌 변신 아이돌 메들리 도전 노컷뉴스 오다 여기 샤이니노래 두곡 두곡이 tagexclamation tagcry 노컷뉴스 아따 감동 tagcry
-kbs2_happysunday_men	tkadidch98	POST	pyox865-ywfux		2011-08-17	남자 자격 임혜영 단고음
-kbs2_happysunday_men	seoulskyh	POST	pyoxfm2-5zopx		2011-08-17	꼬꼬면 꼬꼬면이 꼬꼬면이라 들다 보셨나요tagquestion 꼬꼬면 꼬꼬면은 현재 공급물량 수요 따라가다 못하다 대형마트 할인점 등 등에서 품귀현상 나타나다 있다 하다 대체 꼬꼬면 꼬꼬면이 뭔가 뭔가하 뭔가하니 남자 자격 이경규 이경규가 개발 라면 하다 한국야쿠르트 홍보효과 확실 보다 tagexclamation
-kbs2_happysunday_men	sepist	POST	pyoxnut-_sbqf		2011-08-16	비오템 목걸이 뿐 뿐만 아니다 아니 에어컨 가장 싸다 판매 신개념 추첨경매 시 남자의자격
-kbs2_happysunday_men	hyunwoo8949	POST	pyoxo61-5z776		2011-08-16	남자 자격 김태원 원장 본스타 연기학원 방송연기 수업 신인연기자 데뷔 기 정규반 접수중이래
+kbs2_happysunday_men	tkadidch98	POST	pyox865-ywfux		2011-08-17	남자 자격 임혜영 10단고음
+kbs2_happysunday_men	seoulskyh	POST	pyoxfm2-5zopx		2011-08-17	꼬꼬면 꼬꼬면이 꼬꼬면이라 들다 보다 보셨 tagquestion 꼬꼬면 꼬꼬면은 현재 공급물량 수요 따라가다 못하다 대형마트 할인점 등 등에서 품귀현상 나타나다 있다 하다 대체 꼬꼬면 꼬꼬면이 뭔가 뭔가하 뭔가하니 남자 자격 이경규 이경규가 개발 라면 하다 한국야쿠르트 홍보효과 확실 보다 tagexclamation
+kbs2_happysunday_men	sepist	POST	pyoxnut-_sbqf		2011-08-16	비오템 목걸이 뿐 뿐만 아니다 아니 에어컨 가장 싸다 판매 신개념 추첨경매 3시 남자의자격
+kbs2_happysunday_men	hyunwoo8949	POST	pyoxo61-5z776		2011-08-16	남자 자격 김태원 원장 본스타 연기학원 방송연기 수업 신인연기자 데뷔 7기 정규반 접수중이래
 kbs2_happysunday_men	dreamgrapher	POST	pyoxs7n-p4y1		2011-08-15	새로나온 라면 꼬꼬면 남자 자격 라면대회 수상 이경규 이경규의 꼬꼬면
 kbs2_happysunday_men	bjbin119	POST	pyoxyuv-t19h		2011-08-17	남자 자격 청춘합창단
-kbs2_happysunday_men	ej4440	COMMENT	pym10ev-5uz2z	c_v3i37-ym10ev-5uz2z	2011-08-20	런닝맨tagquestion
+kbs2_happysunday_men	ej4440	COMMENT	pym10ev-5uz2z	c_v3i37-ym10ev-5uz2z	2011-08-20	런닝맨 tagquestion

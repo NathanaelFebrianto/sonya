@@ -1,7 +1,7 @@
 program_id	author_id	type	post_id	comment_id	publish_date	terms
-kbs2_princess	kelleahyejin	POST	pym015a-yfrj4		2011-08-18	으아 오늘 영어학원 tagexclamation 몹쓸 학원때문 tagexclamation 공주 남자 분 보다 생기다 tagexclamation
-kbs2_princess	chococat000	POST	pym01ba-_hgmp		2011-08-19	잇힝 방금생각난건데 공주의남자 보다 거슬리던게 다크승유 다크승유의 산발 머리 왜풀어놓은것일까tagquestion 다른사람들보면거의다묶엇던데
-kbs2_princess	loveyou9742	POST	pym04w2-shaw		2011-08-19	공주의남자 공주의남자 회 다시보기 고화질
+kbs2_princess	kelleahyejin	POST	pym015a-yfrj4		2011-08-18	으아 오늘 영어학원 tagexclamation 몹쓸 학원때문 tagexclamation 공주 남자 30분 30분에 보다 생기다 tagexclamation
+kbs2_princess	chococat000	POST	pym01ba-_hgmp		2011-08-19	잇힝 방금생각난건데 공주의남자 보다 거슬리던게 다크승유 다크승유의 산발 머리 왜풀어놓은것 왜풀어놓은것일까 tagquestion 다른사람들보면거의다묶엇던데
+kbs2_princess	loveyou9742	POST	pym04w2-shaw		2011-08-19	공주의남자 공주의남자 9회 다시보기 고화질
 kbs2_princess	nhy0312nhy	POST	pym05nd-_marw		2011-08-18	공주의남자 박시후 문채원의정체알게 미미콩 문채원 문채원의 채 게된 시후 오늘 방송 후편 정말 기대 기대다
 kbs2_princess	cofvh	POST	pym06sa-_sldt		2011-08-20	지금 공주 남자 남다 재방하는데 완전 보고싶다아 엄 나 나다 보여주다 않다 tagexclamation 나도 나다 나 보고싶다 내 그런거 관심 많은거 알다 그러지 tagexclamation 엄마 미워 tagexclamation
 kbs2_princess	ugkymj	POST	pym07qr-5xh8k		2011-08-18	지금 우리집 공주 남자 남다 보다 tagsmile 우리 오늘 막방인줄알고
@@ -9,212 +9,212 @@ kbs2_princess	tnwlswhddjr	POST	pym07rc-y5698		2011-08-18	난 나다 날다 지�
 kbs2_princess	yanghm029	POST	pym07_q-btoi		2011-08-18	내 드뎌 이걸 찾았어큰걸로 먹지 tagsmile 크핳핳 크핳핳하 tagsmile 배경 우리집 거실장과티비 tagsmile 난 나다 날다 공주 남자보 남자보는 중 tagsmile
 kbs2_princess	qkrwnal94	POST	pym0blq-5tueu		2011-08-18	공주의남자 재밋엉 tagcry 박시후 멋지다 tagcry 인생 낙이생겻네 tagcry tagsmile 동원님 동원님도 어서 돌아오다 tagexclamation tagcry
 kbs2_princess	zlekfl0308	POST	pym0bt1-_q9oh		2011-08-19	공주의남자 빨다 보고프닷 닥본사 못 한것 한것이 아쉬울 tagexclamation tagsmile
-kbs2_princess	chococat000	POST	pym0bto-_hgmp		2011-08-19	난 나다 날다 씐이 아주 기쁘다 재회 아니다 걍 궁금한거 묻는거 잇힝 근데 이런거 tagsmile ㄷㄷㄷ존 tagsmile 나 나다 tagsmile 무섭 tagexclamation ㄷㄷㄷㄷ이외엿음저러 신면 신면이 또 나타날듯 tagsmile 공주의남자 회 완죤 재미있었어 tagexclamation
-kbs2_princess	insos02	POST	pym0cgt-_8lnw		2011-08-19	공주 남자 남다 다시보기 회 공주 남자 남다 다시보기 회
+kbs2_princess	chococat000	POST	pym0bto-_hgmp		2011-08-19	난 나다 날다 씐이 아주 기쁘다 재회 아니다 걍 궁금한거 묻는거 잇힝 근데 이런거 tagsmile ㄷㄷㄷ 조다 졸다 tagsmile 나 나다 tagsmile 무섭 tagexclamation ㄷㄷㄷㄷ 이외엿음저러 신면 신면이 또 나타날듯 tagsmile 공주의남자 10회 완죤 재미있었어 tagexclamation
+kbs2_princess	insos02	POST	pym0cgt-_8lnw		2011-08-19	공주 남자 남다 다시보기 10회 공주 남자 남다 다시보기 10회
 kbs2_princess	liarcity	POST	pym0du5-_3ti4		2011-08-20	그렇다 로맨스 좋아하다 편이 편 아니다 공주 남자 남다 넘 재미 내용 그렇다 제 제대 보다 않다 내용 아련 내 울다 싶다 하다 쉼팜
 kbs2_princess	ghdudrnfu	POST	pym0fz7-t88k		2011-08-20	공주 남자 남다 정말 잘봤어요 tagexclamation 언니 멋지다 tagexclamation
-kbs2_princess	ilsaing79	POST	pym0hmf-_pevq		2011-08-19	공주의남자 회 전회 달달 달달한 승유 승유를 싸악 잊게 잊게하 잊게하는 시후랑 시후랑의 연기 와우 tagsmile 올해 kbs 연기대상 기대 되다 tagsmile 공남승유 화이팅 tagexclamation
+kbs2_princess	ilsaing79	POST	pym0hmf-_pevq		2011-08-19	공주의남자 10회 전회 달달 달달한 승유 승유를 싸악 잊게 잊게하 잊게하는 시후랑 시후랑의 연기 와우 tagsmile 올해 kbs 연기대상 기대 되다 tagsmile 공남승유 화이팅 tagexclamation
 kbs2_princess	leeger92	POST	pym0htf-pvzg		2011-08-18	코에오 코로시테 나이타 츠나이타 테노 아 아이 츠메타 츠메타이 나미 나미다 츠타우 아빠 오기 오다 전 무백 재방 재방이 찾아봐야징 진주네 엄마 인이 짐작 하다 하 있다 진짤줄 진짤줄은 몰라써 tagsmile 근데 오늘 엄마 늦다 오다 공주의남자 봐야겠다
-kbs2_princess	leeger92	POST	pym0hzc-pvzg		2011-08-18	계백 무사백동수 공주 남자 남다 보스 지키다 넌 널다 내다 반 애정만만세 순위 순이랍니당 드라마 월화 월화나 수목드라마 인기 많다 그것 시쯤 나오다 제일루 tagexclamation
+kbs2_princess	leeger92	POST	pym0hzc-pvzg		2011-08-18	계백 무사백동수 공주 남자 남다 보스 지키다 넌 널다 내다 반 애정만만세 순위 순이랍니당 드라마 월화 월화나 수목드라마 인기 많다 그것 10시쯤 나오다 제일루 tagexclamation
 kbs2_princess	didrb1028	POST	pym0inu-yuutd		2011-08-20	광개토대왕 목소리 크다 계백 똥폼 다잡다 백동수 백동수는 시끄럽다 공주 남다 남자 지지다 궁상 다떨고 근데 재밋네잉 tagsmile
-kbs2_princess	love-1	POST	pym0iob-5kuih		2011-08-19	공주 남자 남다 박시후 독기 살기 살다 배신감 복수심 극 달 승유 승유의 선택은tagquestion 재경일보 뉴스스크랩
+kbs2_princess	love-1	POST	pym0iob-5kuih		2011-08-19	공주 남자 남다 박시후 독기 살기 살다 배신감 복수심 극 달 승유 승유의 선택 tagquestion 재경일보 뉴스스크랩
 kbs2_princess	gkrry2011	POST	pym0irb-5ewmg		2011-08-18	공주 남자 남다
 kbs2_princess	theend1123	POST	pym0jlk-co_d		2011-08-19	공주의남자 박시후 원수 딸 따다 문채원 목졸라 본격 로미오 로미오와 줄리엣
-kbs2_princess	bluemint	POST	pym0k2m-bd9p		2011-08-19	아 공주의남자 언제 언제나 내 내다 심금 울리다 울리는구 어뜨카 어뜨카니 김승유 tagcry 점점 비극 치닫고 치닫고있어 그래봤자 결말 해피엔딩tagquestion
+kbs2_princess	bluemint	POST	pym0k2m-bd9p		2011-08-19	아 공주의남자 언제 언제나 내 내다 심금 울리다 울리는구 어뜨카 어뜨카니 김승유 tagcry 점점 비극 치닫고 치닫고있어 그래봤자 결말 해피엔딩 tagquestion
 kbs2_princess	mcw1113	POST	pym0kcy-_w1f9		2011-08-18	문채원 목 칼 들어오다 눈 누다 부릅뜨다 독기 열연 공 점입가경 mydaily 문채원 세령 공주의남자 세령 세령아 tagcry
-kbs2_princess	dudhkd0408	POST	pym0m4l-_pc05		2011-08-19	앜 넌내반 넌내반이 끝나다 끝나다 tagcry 어제 완존 헤어지다 줄 주다 알다 깜놀 아 슬프다 난 나다 날다 이제 멀 보고 보다 보 살지tagquestion 공주 남자 재밌 재밌나 보스 지켜라 지켜라가 재밌나tagquestion
-kbs2_princess	yeana30	POST	pym0mcv-500fo		2011-08-19	보스 지키다 화 호다 공주 남자 남다 화 호다 넌 널다 내다 반 마직막회 수목드라마 무료 다시보기
-kbs2_princess	lenpod	POST	pym0me0-_hsa4		2011-08-19	공주 남자 남다 화 호다 포스팅
+kbs2_princess	dudhkd0408	POST	pym0m4l-_pc05		2011-08-19	앜 넌내반 넌내반이 끝나다 끝나다 tagcry 어제 완존 헤어지다 줄 주다 알다 깜놀 아 슬프다 난 나다 날다 이제 멀 보고 보다 보 사다 tagquestion 공주 남자 재밌 재밌나 보스 지켜라 지켜라가 재밌 재밌나 tagquestion
+kbs2_princess	yeana30	POST	pym0mcv-500fo		2011-08-19	보스 지키다 5화 공주 남자 남다 10화 넌 널다 내다 반 마직막회 수목드라마 무료 다시보기
+kbs2_princess	lenpod	POST	pym0me0-_hsa4		2011-08-19	공주 남자 남다 10화 포스팅
 kbs2_princess	theend1123	POST	pym0pfh-co_d		2011-08-19	공주의남자 박시후 원수 딸 따다 문채원 목졸라 본격 로미오 로미오와 줄리엣
-kbs2_princess	chococat000	POST	pym0phg-_hgmp		2011-08-19	나방금 잠안와서 공주의남자 메이킹 봣음 tagsmile 멋져잉 taglove tagsmile 아 시임어케함tagquestion tagexclamation
+kbs2_princess	chococat000	POST	pym0phg-_hgmp		2011-08-19	나방금 잠안와서 공주의남자 메이킹 봣음 tagsmile 멋져잉 taglove tagsmile 아 .5시임어케 .5시임어케함 tagquestion tagexclamation
 kbs2_princess	tmdfl4775	POST	pym0qbk-5h2jq		2011-08-19	어제 공주 남자 마지막 박시후 박시후가 여자 목 졸라가지 깜놀 ㄷㄷㄷ 눈 무섭다 목 조르다 조 같다 왠지 놀다 놀라다 tagsmile
 kbs2_princess	dpwngud	POST	pym0tbb-5izyq		2011-08-19	시티헌터끝나고뭔낙으로사나햇는데넌내게반했어가눈에들어와서열심히시청했지만어제끝났다능 tagcry 하지만공주의남자도슬슬눈에들어오기시작 tagexclamation 푸하하하하하
-kbs2_princess	god911213	POST	pym0uj2-5yu8h		2011-08-19	한국드라마 공주의남자 해외영화 로미오 줄리엣 공통점 심한반대 집안 싸움 싸우다 이루 슬픔 슬프다 금지 사랑 사 그리다 죽음과이 tagcry tagcry
-kbs2_princess	seung2801	POST	pym0ykr-_iyvz		2011-08-18	공주의남자 화 보다
+kbs2_princess	god911213	POST	pym0uj2-5yu8h		2011-08-19	한국드라마 공주의남자 해외영화 로미오 줄리엣 공통점 1.심한반대 집안 싸움 싸우다 2.이루 슬픔 슬프다 금지 사랑 사 3.그리 3.그리고 죽음과이 tagcry tagcry
+kbs2_princess	seung2801	POST	pym0ykr-_iyvz		2011-08-18	공주의남자 10화 10화를 보다
 kbs2_princess	dlauddms0203	POST	pym0zd4-yz_m5		2011-08-19	공주의남자 김승유 무서운사람 변 tagcry
-kbs2_princess	mcw1113	POST	pym0_m7-_w1f9		2011-08-18	공주 남자 남다 이것 바 사랑 힘 tagquestion 죽다 죽음 각오 세령 천진난만 천진난 벗다 강 tagexclamation 원수 운명 속 유령커플 세령 세령의 고군분투 관심집중 tagexclamation mylovekbs 트위터 mylovekbs 트위터 문채원 공주의남자 세령 공 화 호다
-kbs2_princess	simbayah	POST	pym11e8-59p2m		2011-08-19	헐 공주의남자 잼있다길래 회 보다 완전 잼 tagsmile 보스를지켜 잼있구 행복 tagsmile 드라마 보다 재미 찾다
-kbs2_princess	vhkejr602	POST	pym13ee-5yyen		2011-08-19	남자 어쩜 이렇게 다 똑같다 직장 결정 잘 내리다 애정관계 감정 문제 앞 겁쟁이 돌변 tagexclamation 넬레 노이하우스  백설공주 죽다 죽음
-kbs2_princess	ojamam	POST	pym13q5-5oz6_		2011-08-19	공주의남자ost백지영 오늘 사랑 백지영 오늘 사랑 듣기 듣다 가사 가다
-kbs2_princess	inhyo94	POST	pym16sc-5h2o_		2011-08-20	나 나다 공주의남자 저거 안보는데 지금 tv 하는거 보다 수양대군 저새킈 저새킈는 배운 배운대 생키네 칼들고 어디 드가 드가고 안잤노 tagcry 솔직 세종대왕 과실임ㄷㄷ 능력 보다 문종 문종이 아니다 아니 수양대군한테 왕위 주다
+kbs2_princess	mcw1113	POST	pym0_m7-_w1f9		2011-08-18	공주 남자 남다 이것 바 사랑 힘 tagquestion 죽다 죽음 각오 세령 천진난만 천진난 벗다 강 tagexclamation 원수 운명 속 유령커플 세령 세령의 고군분투 관심집중 tagexclamation mylovekbs 트위터 mylovekbs 트위터 문채원 공주의남자 세령 공남10 화 호다
+kbs2_princess	simbayah	POST	pym11e8-59p2m		2011-08-19	헐 공주의남자 잼있다길래 1회 보다 완전 잼 tagsmile 보스를지켜 잼있구 행복 tagsmile 드라마 보다 재미 찾다
+kbs2_princess	vhkejr602	POST	pym13ee-5yyen		2011-08-19	남자 어쩜 이렇게 다 똑같다 직장 결정 잘 내리다 애정관계 감정 문제 앞 겁쟁이 돌변 tagexclamation 넬레 노이하우스 백설공주 죽다 죽음
+kbs2_princess	ojamam	POST	pym13q5-5oz6_		2011-08-19	공주의남자ost 백지영 오늘 사랑 백지영 오늘 사랑 듣기 듣다 가사 가다
+kbs2_princess	inhyo94	POST	pym16sc-5h2o_		2011-08-20	나 나다 공주의남자 저거 안보는데 지금 tv 하는거 보다 수양대군 저새킈 저새킈는 배운 배운대 10생키네 칼들고 어디 드가 드가고 안잤노 tagcry 솔직 세종대왕 과실 ㄷㄷ 능력 보다 문종 문종이 아니다 아니 수양대군한테 왕위 주다
 kbs2_princess	heesunkim99	POST	pym1a6r-xpt2		2011-08-20	공주의남자완전재밋음 tagexclamation 한국판로미오와줄리엣 진짜인기많음 근데내주변애들은드라마같은거얘기할친구가
-kbs2_princess	wonjucho	POST	pym1a81-4		2011-08-20	공주 남자 남다 보다 보 김서라 김서라가 문채원 엄마 나오다 김서 김서라 전 나팔꽃 아침드라마 나오다 출연료 문제 중간 하차 여주인공 바뀌다 아마 이승연 걸 기억 새여주인공 대사 서울 가버린 여주인공 대 놓다 이상 애로 애 만들었드랬지 스파이명월 트랜스포머 나 나다 똑같다 유치
-kbs2_princess	dkyoon	POST	pym1ahn-km8		2011-08-20	요새 인기 있다 수목드라마 공주 남자 남다 난 나다 날다 드라마 제목 보고 보다 보 공주 난자 라 라는 영화 제목 떠올랐었다 분명 나오다 같다 fb
+kbs2_princess	wonjucho	POST	pym1a81-4		2011-08-20	공주 남자 남다 보다 보 김서라 김서라가 문채원 엄마 나오다 김서 김서라 전 나팔꽃 아침드라마 나오다 출연료 문제 중간 하차 여주인공 바뀌다 아마 이승연 걸 기억 새여주인공 대사 서울 가버린 여주인공 대 놓다 이상 애로 애 만들었드랬지 스파이명월 트랜스포머3 나 나다 똑같다 유치
+kbs2_princess	dkyoon	POST	pym1ahn-km8		2011-08-20	요새 인기 있다 수목드라마 공주 남자 남다 난 나다 날다 드라마 제목 보고 보다 보 공주 난자 라 라는 영화 제목 떠올랐었다 분명 나오다 같다 2fb
 kbs2_princess	gi2448	POST	pym1b7q-bc5s		2011-08-20	염종 tagsmile 백동수 아빠 죽다 공주 남자 건너가다 tagsmile 역시 염종 염종임 tagsmile
 kbs2_princess	rladuswl6967	POST	pym1fbs-_yxho		2011-08-20	공주의남자
-kbs2_princess	kami9727	POST	pym1ft5-5z7xh		2011-08-20	공주 남자 남다 ost part bgm
-kbs2_princess	simbayah	POST	pym1hl9-59p2m		2011-08-20	퇴근후 퇴근후에 보기 보다 시작 공주의남자 화 화 논스톱 다 보다 진짜 잼 슬프다 눈물 몇년 몇년만 흘렸나봐 질질짜면서 보다 tagcry
+kbs2_princess	kami9727	POST	pym1ft5-5z7xh		2011-08-20	공주 남자 남다 ost part.bgm
+kbs2_princess	simbayah	POST	pym1hl9-59p2m		2011-08-20	퇴근후 퇴근후에 보기 보다 시작 공주의남자 1화 10화 논스톱 다 보다 진짜 잼 슬프다 눈물 몇년 몇년만 흘렸나봐 질질짜면서 보다 tagcry
 kbs2_princess	osw1210	POST	pym1ht4-neeg		2011-08-20	으으 백설공주 될뻔 아니 아 백설남자 tagquestion 낮에잣는데 요즘 하두일 하두일하 피곤 낮잠잣는데 못일어 못일어나 아 일어나야 한번생각 한번생각하 잠들다 또 생각 잠들다 잠 쏟아졍
-kbs2_princess	cns2860	POST	pym1pdk-5atbd		2011-08-20	리와인드 공주 남자 남다 회
+kbs2_princess	cns2860	POST	pym1pdk-5atbd		2011-08-20	리와인드 공주 남자 남다 10회 2011-08-19
 kbs2_princess	spastar7	POST	pym1urc-5x8tg		2011-08-20	공주의남자 문채원 공주 남자 남다 문채원 연기 호평 tagexclamation
-kbs2_princess	heesunkim99	POST	pym1ush-xpt2		2011-08-20	아너무귀엽다 년생이래완전어렼 tagsmile 그리고애들아차두리딸아인 너무컷다 이젠성숙해그리고이사진애기는공주의남자에나오는애기 그렇다고안귀운건아니고옛날에너무기여원서귀여움이덜 그렇다고안귀운건아니고옛날에너무기여원서귀여움이덜해
-kbs2_princess	jiruhecom	POST	pym308f-_50e_		2011-08-18	공주의남자 회 월 일 토도우
-kbs2_princess	shinee_32	POST	pym3155-5oe9e		2011-08-18	김재중 비즈니스라고tagquestion tagsmile 나도 나다 나 아는데 tagquestion어쩌라고tagquestion tagsmile 수목드라마 kbs 시 공주의남자 본방사수 tagsmile 이르다 이 갈고 갈다 있다
-kbs2_princess	joo9675	POST	pym31ea-oxe5		2011-08-18	에잉 너무해 다들 공주 남자 갈아타는거야tagquestion 난 나다 날다 지성느님 볼껀데tagquestion 오늘 지성느님 눈 안들어옴 진짜루
+kbs2_princess	heesunkim99	POST	pym1ush-xpt2		2011-08-20	아너무귀엽다2005 년생이래완전어렼 tagsmile 그리고애들아차두리딸아인 너무컷다 이젠성숙해그리고이사진애기는공주의남자에나오는애기 그렇다고안귀운건아니고옛날에너무기여원서귀여움이덜 그렇다고안귀운건아니고옛날에너무기여원서귀여움이덜해
+kbs2_princess	jiruhecom	POST	pym308f-_50e_		2011-08-18	공주의남자 9회 8월17 일 토도우
+kbs2_princess	shinee_32	POST	pym3155-5oe9e		2011-08-18	김재중 비즈니스 tagquestion tagsmile 나도 나다 나 아는데 tagquestion 어쩌다 tagquestion tagsmile 수목드라마 kbs 10시 공주의남자 본방사수 tagsmile 이르다 이 갈고 갈다 있다
+kbs2_princess	joo9675	POST	pym31ea-oxe5		2011-08-18	에잉 너무해 다들 공주 남자 갈아타는거 갈아타는거야 tagquestion 난 나다 날다 지성느님 볼껀데 tagquestion 오늘 지성느님 눈 안들어옴 진짜루
 kbs2_princess	larcobaleno	POST	pym3203-5gks9		2011-08-20	공주의남자 박시후 옥 안 절규 문채원 찾아오다 목 조다 조르다
-kbs2_princess	skaksqhffo54	POST	pym322_-5hcrl		2011-08-20	홍수현 공주 남자 남다 로 연기데뷔 년 만 날다
+kbs2_princess	skaksqhffo54	POST	pym322_-5hcrl		2011-08-20	홍수현 공주 남자 남다 로 연기데뷔 10년 만 날다
 kbs2_princess	seinle	POST	pym32bu-eccq		2011-08-18	넌내반 마지막회 마지막회랑 내사랑시후님나오 공주의남자 보다 고민중임 고민중 tagsmile
 kbs2_princess	larcobaleno	POST	pym32dv-5gks9		2011-08-20	공주 남자 남다 세령 칼 들이대다 베어달라 피로 피 김승유 참형 막다
-kbs2_princess	kmoyj55	POST	pym32hi-y0s5q		2011-08-18	공주의남자 머야tagquestion 어제꺼 분 분이 재방 하다 요기두 누 누가 점적 점적해서 방송 차질 차다 차지다 생긴거tagquestion
-kbs2_princess	larcobaleno	POST	pym32ke-5gks9		2011-08-20	공주의남자 재방송 논란 논다 분 동안 같다 내용 시청자 분통
+kbs2_princess	kmoyj55	POST	pym32hi-y0s5q		2011-08-18	공주의남자 머 머야 tagquestion 어제꺼 15분 15분이 재방 하다 요기두 누 누가 점적 점적해서 방송 차질 차다 차지다 생긴거 tagquestion
+kbs2_princess	larcobaleno	POST	pym32ke-5gks9		2011-08-20	공주의남자 재방송 논란 논다 15분 동안 같다 내용 시청자 분통
 kbs2_princess	skagns6984	POST	pym32zk-yeu97		2011-08-18	공주의남자재미있다
-kbs2_princess	p1004ih	POST	pym3388-_9z9w		2011-08-18	식미투 저녁식사 안성휴게소 직원식당표 탕수육 맛나다잉 tagsmile 히끄므리 히끄므리한 영 거시기해 보 맛 끝내준다tagsmile전 먹었던 탕수육 밀가루 꼬다 이 느끼 듀거 였는데 오늘 고기 고다 비율 비율이 뒤바껴서 환상적 tagsmile 언제 꼬다 좋아하다 tagsmile 아 배부르다 손 소다 솔다 닦다 마무리tagsmile오늘 공주 남자 남다 보다 되다 나 시후님 애랑애 애랑애랑 tagsmile 드라마 빠지다 자 자다 알 하다 tagsmile 나 애정하 애정하는 미ᆞ친님들두 맛나다 맛 저녁드시 굿밤 이요tagsmile
-kbs2_princess	sajavi	POST	pym3432-y0swx		2011-08-18	kbs 공주 남자 남다 망나니 추천직업 못돼겟네 tagcry
+kbs2_princess	p1004ih	POST	pym3388-_9z9w		2011-08-18	식미투 저녁식사 안성휴게소 직원식당표 탕수육 맛나다잉 tagsmile 히끄므리 히끄므리한 영 거시기해 보 맛 끝 tagsmile 전 먹었던 탕수육 밀가루 80 꼬다 20 이 느끼 듀거 였는데 오늘 고기 고다 비율 비율이 뒤바껴서 환상적 tagsmile 언제 꼬다 좋아하다 tagsmile 아 배부르다 손 소다 솔다 닦다 마무리 tagsmile 오늘 공주 남자 남다 보다 되다 나 시후님 애랑애 애랑애랑 tagsmile 드라마 빠지다 자 자다 알 하다 tagsmile 나 애정하 애정하는 미ᆞ친님들두 맛나다 맛 저녁드시 굿밤 이 tagsmile
+kbs2_princess	sajavi	POST	pym3432-y0swx		2011-08-18	kbs2 공주 남자 남다 망나니 추천직업 못돼겟네 tagcry
 kbs2_princess	ki7025	POST	pym346r-_i8x8		2011-08-18	공주 남자중 다부지다 공주 세령 의 모습
-kbs2_princess	jisiklog	POST	pym34fq-_rcxy		2011-08-18	수양대군에게딸이있나요tagquestion 수양대군
-kbs2_princess	sajavi	POST	pym34gy-y0swx		2011-08-18	kbs 공주 남자 남다 칼 좀 조다 무거워 보
-kbs2_princess	sch8736	POST	pym3524-5hl69		2011-08-18	공주의남자 다시보기공주의 다시보기공주 남자 남다 회 다시보기 토렌트다운 내용보기
-kbs2_princess	mari3355	POST	pym35cq-_ouxj		2011-08-18	공주 남자 남다 핸드폰 배경
+kbs2_princess	jisiklog	POST	pym34fq-_rcxy		2011-08-18	수양대군에게딸이 tagquestion 수양대군
+kbs2_princess	sajavi	POST	pym34gy-y0swx		2011-08-18	kbs2 공주 남자 남다 칼 좀 조다 무거워 보
+kbs2_princess	sch8736	POST	pym3524-5hl69		2011-08-18	공주의남자 다시보기공주의 다시보기공주 남자 남다 9회 다시보기 토렌트다운 내용보기
+kbs2_princess	mari3355	POST	pym35cq-_ouxj		2011-08-18	공주 남자 남다 핸드폰 배경 240 400
 kbs2_princess	larcobaleno	POST	pym37am-5gks9		2011-08-20	공주 남자 남다 목숨 건지다 박시후 세령 목 조르다 분노
-kbs2_princess	jisiklog	POST	pym37j_-_rcxy		2011-08-18	오늘공주의남자무슨내용tagquestion 공주의남자
-kbs2_princess	jisiklog	POST	pym37o6-_rcxy		2011-08-18	이소라다이어트중허벅지운동은하루에몇세트하면허벅지가빠져요tagquestion글고공주의남자몇부작tagquestion 공주의남자
+kbs2_princess	jisiklog	POST	pym37j_-_rcxy		2011-08-18	오늘공주의남자무슨내용 tagquestion 공주의남자
+kbs2_princess	jisiklog	POST	pym37o6-_rcxy		2011-08-18	이소라다이어트중허벅지운동은하루에몇세트하면허벅지가빠져 이소라다이어트중허벅지운동은하루에몇세트하면허벅지가빠져요 tagquestion 글고공주의남자몇부작 tagquestion 공주의남자
 kbs2_princess	larcobaleno	POST	pym37uu-5gks9		2011-08-20	공주 남자 남다 노태엽 수양 굳건하다 군주 로 대적
-kbs2_princess	jisiklog	POST	pym37wv-_rcxy		2011-08-18	월 일 보스를지켜 공주의남자시청률 공주의남자
-kbs2_princess	sooojjn0507	POST	pym3800-_ak7_		2011-08-20	공주 남자 남다 재밋나요tagquestion 지금보고 오늘처음봐 tagsmile 친구될분 tagquestion
-kbs2_princess	zmfflr010	POST	pym38a5-5deks		2011-08-18	난미투해줄줄알고기다렸는데 tagcry 여튼난공주의남자와여인의향기를보는데tagquestion왠지넌보스볼것같애 tagsmile
-kbs2_princess	chws1658	POST	pym38jp-ywnue		2011-08-18	스밤 공주 남자 남다 드디어 박시후 박시후가 tagcry 문채원 문채원의 정체 알아버렸다 tagexclamation 문채원 문채원이 자다 자기 위하다 목숨 바치다 수양대군 반항 하다 것 알아야 알아야할텐데 배신 품다 ㄴ어쩌지tagquestion
-kbs2_princess	love_z13	POST	pym3a55-5ddo8		2011-08-18	보스를지켜라vs공주의남자 뭐보지 tagsmile tagcry
-kbs2_princess	kim1081501	POST	pym3a5s-2prs		2011-08-18	공주 남자 남다 ost part 아진짜 공 좋다 네이버뮤직 공주 남자 남다 ost part
-kbs2_princess	ohinjeang	POST	pym3a_y-y5p4s		2011-08-18	공주 남자 남다 회 자신 반기 드 드는 모두 죽이다 수양대군
+kbs2_princess	jisiklog	POST	pym37wv-_rcxy		2011-08-18	8월17 일 보스를지켜 공주의남자시청률 공주의남자
+kbs2_princess	sooojjn0507	POST	pym3800-_ak7_		2011-08-20	공주 남자 남다 재밋 재밋나 재밋나요 tagquestion 지금보고 오늘처음봐 tagsmile 친구될분 tagquestion
+kbs2_princess	zmfflr010	POST	pym38a5-5deks		2011-08-18	난미투해줄줄알고기다렸는데 tagcry 여튼난공주의남자와여인의향기를보는데 tagquestion 왠지넌보스볼것같애 tagsmile
+kbs2_princess	chws1658	POST	pym38jp-ywnue		2011-08-18	스밤 공주 남자 남다 드디어 박시후 박시후가 tagcry 문채원 문채원의 정체 알아버렸다 tagexclamation 문채원 문채원이 자다 자기 위하다 목숨 바치다 수양대군 반항 하다 것 알아야 알아야할텐데 배신 품다 ㄴ 어쩌다 tagquestion
+kbs2_princess	love_z13	POST	pym3a55-5ddo8		2011-08-18	보스를지켜라vs 공주의남자 뭐보지 tagsmile tagcry
+kbs2_princess	kim1081501	POST	pym3a5s-2prs		2011-08-18	공주 남자 남다 ost part 4 아진짜 공 좋다 네이버뮤직 공주 남자 남다 ost part 4
+kbs2_princess	ohinjeang	POST	pym3a_y-y5p4s		2011-08-18	공주 남자 남다 9회 자신 반기 드 드는 모두 죽이다 수양대군
 kbs2_princess	laily1999	POST	pym3baw-yblc8		2011-08-18	공주의남자 본방사슈우 tagexclamation
 kbs2_princess	tmddus0713	POST	pym3bw2-hu61		2011-08-18	오늘 경희궁 공주 남자 남다 촬영 봣다능 tagsmile 홍수현님 경혜공주역 이랑 이 이민우님 부마역 이랑 이 단종 수양대군 그리다 나머지 낯 좀 조다 익다 배우분 봣다 tagexclamation 특 홍수현님 이민우님 굉장 가까이서 봣는데 진짜 이쁘다 멋지다 암튼 기분좋앗따 tagexclamation taglove 공주 남자 남다 경희궁
-kbs2_princess	nutrilite_sw	POST	pym3cco-5g09y		2011-08-18	공주 남자 남다 회 다시보기
-kbs2_princess	dmstjs5179	POST	pym3dar-_9owr		2011-08-19	공주 남자 남다 재미있는뎀 me book 공주 남자 남다
+kbs2_princess	nutrilite_sw	POST	pym3cco-5g09y		2011-08-18	공주 남자 남다 9회 다시보기
+kbs2_princess	dmstjs5179	POST	pym3dar-_9owr		2011-08-19	공주 남자 남다 재미있는뎀 공주 남자 남다
 kbs2_princess	dasoni_	POST	pym3hf9-2gwt		2011-08-18	아무리 생각 요즘 수목 드라마 강세 tagexclamation 지성 마성 마성에 빠져들다 넌 널다 내다 반 tagexclamation 공주 남자 남다 tagexclamation 보스 지키다 tagexclamation
-kbs2_princess	mcw1113	POST	pym3i99-_w1f9		2011-08-18	공 문채원 회 거듭할수록 안정 연기력 선보이다 호평 문채원 공주의남자 세령 논란은누가만들었나ㅉㅉ 문배우잘하고있어요화이팅 tagexclamation
+kbs2_princess	mcw1113	POST	pym3i99-_w1f9		2011-08-18	공 문채원 회 거듭할수록 안정 연기력 선보이다 호평 문채원 공주의남자 세령 논란은누가만들었 ㅉㅉ 문배우잘하고있어요화이팅 tagexclamation
 kbs2_princess	yoohwan2000	POST	pym3j5s-5xw5m		2011-08-20	공주 남자시청중 잽나당 tagsmile
-kbs2_princess	janet1799	POST	pym3jm6-__fwr		2011-08-18	아ㅆㅂ오늘또넌내반못봣음엄마땜 tagcry 공주의남자ㅂㅅ존나빡쳐양보해서공주의남자봣는데존나잔인함ㅆㅂ그딴거어떻게봄 tagquestion오늘죽이는거밖에업써 tagcry ㅂㅅ그미친놈이사람다죽임용화오빠못본지 주째tagquestion아ㅆㅂ개빡치네 공주의남자저주 tagexclamation 잔인한거바케 tagexclamation 씨바
-kbs2_princess	nana6850	POST	pym3jyj-_q4nn		2011-08-18	공주의남자 화 호다 공주의남자 화 호다 문채원정체들통
-kbs2_princess	itoss	POST	pym3kya-q177		2011-08-18	공주의남자 회 회예 회예고
-kbs2_princess	sajavi	POST	pym3lqw-y0swx		2011-08-18	kbs 공주 남자 남다 밉다 또 죽이다 없으시겟네 tagcry
-kbs2_princess	sajavi	POST	pym3l_b-y0swx		2011-08-18	kbs 공주 남자 남다 유배가면 좀 사약 배달옴 배달옴요
-kbs2_princess	mcw1113	POST	pym3mnv-_w1f9		2011-08-18	알다 tv 브리핑 공주 남자 남다 비극 위해 위하다 달리다 달리 드라마 문채원 공주의남자 세령공주 핏빛시작달콤상콤안녕 알다
-kbs2_princess	nvqa_1tc007	POST	pym3mps-5qu9h		2011-08-18	gggg me book 공주 남자 남다
-kbs2_princess	jisiklog	POST	pym3n08-_rcxy		2011-08-18	수양대군이왕위에올라세조가되나요tagquestion 수양대군
+kbs2_princess	janet1799	POST	pym3jm6-__fwr		2011-08-18	아 ㅆㅂ 오늘또넌내반못봣음엄마땜 tagcry 공주의남자 ㅂㅅ 존나빡쳐양보해서공주의남자봣는데존나잔인 ㅆㅂ 그딴거어떻게봄 tagquestion 오늘죽이는거밖에업써 tagcry ㅂㅅ 그미친놈이사람다죽임용화오빠못본지2 주째 tagquestion 아 ㅆㅂ 개빡치네 공주의남자저주 tagexclamation 잔인한거바케 tagexclamation 씨바
+kbs2_princess	nana6850	POST	pym3jyj-_q4nn		2011-08-18	공주의남자9 화 호다 공주의남자9 화 호다 문채원정체들통
+kbs2_princess	itoss	POST	pym3kya-q177		2011-08-18	공주의남자9 회10 회예 회예고
+kbs2_princess	sajavi	POST	pym3lqw-y0swx		2011-08-18	kbs2 공주 남자 남다 밉다 또 죽이다 없으시겟네 tagcry
+kbs2_princess	sajavi	POST	pym3l_b-y0swx		2011-08-18	kbs2 공주 남자 남다 유배가면 좀 사약 배달옴 배달옴요
+kbs2_princess	mcw1113	POST	pym3mnv-_w1f9		2011-08-18	10아시아 tv 브리핑 공주 남자 남다 비극 위해 위하다 달리다 달리 드라마 문채원 공주의남자 세령공주 핏빛시작달콤상콤안녕 10아시아
+kbs2_princess	nvqa_1tc007	POST	pym3mps-5qu9h		2011-08-18	gggg 공주 남자 남다
+kbs2_princess	jisiklog	POST	pym3n08-_rcxy		2011-08-18	수양대군이왕위에올라세조가 tagquestion 수양대군
 kbs2_princess	ssdamsunharu	POST	pym3n5v-5gsae		2011-08-18	공주의남자 보고 갑툭심 갑툭심해 아이러브 문채원데스네
-kbs2_princess	jisiklog	POST	pym3ned-_rcxy		2011-08-18	공주의남자시청률알려주세 수양대군은왕이되나요tagquestion 수양대군
-kbs2_princess	jisiklog	POST	pym3nen-_rcxy		2011-08-18	공주의남자실화인가요tagquestion 실화 수양대군 왕이되나요tagquestion둘은이루어지나요tagquestion 수양대군
-kbs2_princess	kmoyj55	POST	pym3nf3-y0s5q		2011-08-18	공주 남자 남다 오늘 먼미tagquestion 어제꺼 분 회상신두 열다 많다 짜증
-kbs2_princess	jisiklog	POST	pym3nq3-_rcxy		2011-08-18	kbs공주의남자 나오다 수양대군 아내 나오다 여자 이름뭔가요tagquestion 김서tagquestion 김서tagquestion같은데 수양대군
-kbs2_princess	big1ekffoal	POST	pym3o79-ye6se		2011-08-18	어제 공주의남자 호다 드뎌 피튀기 피튀기는 로맨스 로맨스가 시작된걸까 닉네 닉네임
-kbs2_princess	maulp	POST	pym3rss-57qg1		2011-08-18	공주의남자 를 보다 참 차다 신기했던게 두번째 두번째로 김승유 김승유는 왜 외다 이렇게 안 알다 죽다 것 tagquestion 칼 세번 세번이 맞다 번다 걸어다니다 승유 승유는 정체 무엇 ㅅ 화 호다 예고 보다 처형 장면 있다 끝 멈추다 하다 하 말다 말 들리다 또 살아남다 듯 첫번째 첫번째로 궁금 건 거다 걸다 세령 세령이 세령이는 왜 외다 이렇게 이쁜걸까tagquestion
+kbs2_princess	jisiklog	POST	pym3ned-_rcxy		2011-08-18	공주의남자시청률알려주세 수양대군은왕이 tagquestion 수양대군
+kbs2_princess	jisiklog	POST	pym3nen-_rcxy		2011-08-18	공주의남자실화인가 공주의남자실화 tagquestion 실화 수양대군 왕이 왕이되 왕이되나 왕이되나요 tagquestion 둘은이루어지 둘은이루어지나 tagquestion 수양대군
+kbs2_princess	kmoyj55	POST	pym3nf3-y0s5q		2011-08-18	공주 남자 남다 오늘 먼미 tagquestion 어제꺼 15분 회상신두 열다 많다 짜증
+kbs2_princess	jisiklog	POST	pym3nq3-_rcxy		2011-08-18	kbs공주의남자 나오다 수양대군 아내 나오다 여자 이름뭔가 tagquestion 김서 tagquestion 같다 수양대군
+kbs2_princess	big1ekffoal	POST	pym3o79-ye6se		2011-08-18	어제 공주의남자9 호다 드뎌 피튀기 피튀기는 로맨스 로맨스가 시작된걸까 닉네 닉네임
+kbs2_princess	maulp	POST	pym3rss-57qg1		2011-08-18	공주의남자 를 보다 참 차다 신기했던게 두번째 두번째로 김승유 김승유는 왜 외다 이렇게 안 알다 죽다 것 tagquestion 칼 세번 세번이 맞다 번다 걸어다니다 승유 승유는 정체 무엇 ㅅ 10화 예고 보다 처형 장면 있다 끝 멈추다 하다 하 말다 말 들리다 또 살아남다 듯 첫번째 첫번째로 궁금 건 거다 걸다 세령 세령이 세령이는 왜 외다 이렇게 이쁜걸까 tagquestion
 kbs2_princess	mcw1113	POST	pym3tjr-_w1f9		2011-08-18	뻔 현대극 현대극보 진보적 공주 남자 남다 문채원 공주의남자 세령 무비위크 이제부터가시작 tagexclamation
-kbs2_princess	cns2860	POST	pym3u0u-5atbd		2011-08-18	공주 남자 남다 회 수양대군 인사 세령 보고 보다 보 놀다 놀라다 놀 승유
+kbs2_princess	cns2860	POST	pym3u0u-5atbd		2011-08-18	공주 남자 남다 9회 수양대군 인사 세령 보고 보다 보 놀다 놀라다 놀 승유
 kbs2_princess	kds9559	POST	pym3u6r-_s08v		2011-08-18	공주의남자보는사람은아무도 tagquestion 공쥬의남쟈 tagsmile
 kbs2_princess	rinya_05	POST	pym3ucd-503sc		2011-08-18	공주의남자 taglove 연기력 논란 뭐 난 나다 날다 내 감정이입 쩌니까 스토리 좋다 되다 되
 kbs2_princess	ssdamsunharu	POST	pym3ugd-5gsae		2011-08-18	공주의남자보러감 아싸 문채원
 kbs2_princess	larcobaleno	POST	pym3uig-5gks9		2011-08-20	공주 남자 남다 단종 참형 중지 수양 반발 어명 tagexclamation
-kbs2_princess	grace1424	POST	pym3v9a-8dtm		2011-08-18	요즘 보다 보 유일 공주 남자 남다 사진속 경혜공주 보다 안쓰럽다 진지하지못 작다 작 장난 비극 만들다 바 마쓰시타 고노스케 명언이떠올랐다 한번 넘어졌을때 원인 깨닫지못 깨닫지못하면 일곱번을넘어져 마찬가지 tagexclamation 가능 한번만 한번만으 원인 깨닫다 있다 좋다 흠 실패 두려워하기보단 진지하지못 태도 두려워해야 두려워해야한다 내 내다 연약 실수 누 누가 찝어주지않아도 내 스스로 알다 노력 의지 고치다 실천 할 하다 있다 미투광장
-kbs2_princess	susie3994	POST	pym3vlm-__lj4		2011-08-18	꺅 tagsmile 김승유tagquestion아무튼 멋잇다능 tagsmile 공주의남자홀릭 taglove 승유 taglove 수령
-kbs2_princess	envy111	POST	pym3wv8-_qter		2011-08-18	공주 남자 남다 회 예고 예 tagexclamation 목숨 건 거다 걸다 세령 세령이
-kbs2_princess	chococat000	POST	pym3x86-_hgmp		2011-08-18	핡핡 방금 공 회 끝낫어 tagcry 마지막 뭥미tagquestion 세령 죽일려구 죽일려구해 tagexclamation 아악 tagexclamation 러브러브모드 없는건가tagquestion tagexclamation 구럼안 구럼안되는데 tagexclamation 공주의남자 회방금 끝나다 tagexclamation
-kbs2_princess	pinksakura	POST	pym3x8t-_q8qa		2011-08-18	아 오늘따 오늘따라 단종 맘 드네 그치 그치만 조금 폐위되겠지tagquestion 국사공부할때 단종 이르다 이름 스쳐지나가다 왕 외위는것 외위는것도 죽다 단종 외우다 tagcry 아 드라마 보다 보 안타깝다 안타깝구 tagcry 수양대군 참 차다 밉다 한편 이해도가구 tagcry 세조 세조가 되다 수양대군 그렇다 승유 승유와 세령 세령은 어찌되는거지 tagquestion tagcry 왠지 슬프다 결말 될것 될것같 될것같아 tagcry 그나저 그나저나 오늘 세령 세령이 팔 파다 저리다 정말 독 tagcry 등장인물 하나하나 다 사랑 공주의남자 tagexclamation 아 세놈 세놈은 싫다 재수 비쥬얼 비쥬얼은 망나니 망
-kbs2_princess	kny980820	POST	pym3xd5-qulu		2011-08-18	넌내게반 해피엔딩 해피엔딩으 끝나다 tagexclamation 모듀모듀 수고했습니다tagsmile섬아빠들이랑곰아빠ost감사합니다tagsmile이제 공주 남자 tagsmile 역시 끝마무리 정용화 정용화의 노래 tagsmile
+kbs2_princess	grace1424	POST	pym3v9a-8dtm		2011-08-18	요즘 보다 보 유일 공주 남자 남다 사진속 경혜공주 보다 안쓰럽다 진지하지못 작다 작 장난 비극 만들다 바 마쓰시타 고노스케 명언이떠올랐다 한번 넘어졌을때 원인 깨닫지못 깨닫지못하면 일곱번을넘어져 마찬가지 tagexclamation 가능 한번만 한번만으 원인 깨닫다 있다 좋다 흠 실패 두려워하기보단 진지하지못 태도 두려워해야 두려워해야한다 내 내다 연약 실수 누 누가 찝어주지않아도 내 스스로 알다 노력 의지 고치다 실천 할 하다 있다 2030 미투광장
+kbs2_princess	susie3994	POST	pym3vlm-__lj4		2011-08-18	꺅 tagsmile 김승유 tagquestion 아무튼 멋잇다능 tagsmile 공주의남자홀릭 taglove 승유 taglove 수령
+kbs2_princess	envy111	POST	pym3wv8-_qter		2011-08-18	공주 남자 남다 10회 예고 예 tagexclamation 목숨 건 거다 걸다 세령 세령이
+kbs2_princess	chococat000	POST	pym3x86-_hgmp		2011-08-18	핡핡 방금 공남10 회 끝낫어 tagcry 마지막 뭥미 tagquestion 세령 죽일려구 죽일려구해 tagexclamation 아악 tagexclamation 러브러브모드 없는건가 tagquestion tagexclamation 구럼안 구럼안되는데 tagexclamation 공주의남자10 회방금 끝나다 tagexclamation
+kbs2_princess	pinksakura	POST	pym3x8t-_q8qa		2011-08-18	아 오늘따 오늘따라 단종 맘 드네 그치 그치만 조금 폐위 tagquestion 국사공부할때 단종 이르다 이름 스쳐지나가다 왕 외위는것 외위는것도 죽다 단종 외우다 tagcry 아 드라마 보다 보 안타깝다 안타깝구 tagcry 수양대군 참 차다 밉다 한편 이해도가구 tagcry 세조 세조가 되다 수양대군 그렇다 승유 승유와 세령 세령은 어찌되는거지 tagquestion tagcry 왠지 슬프다 결말 될것 될것같 될것같아 tagcry 그나저 그나저나 오늘 세령 세령이 팔 파다 저리다 정말 독 tagcry 등장인물 하나하나 다 사랑 공주의남자 tagexclamation 아 세놈 세놈은 싫다 재수 비쥬얼 비쥬얼은 망나니 망
+kbs2_princess	kny980820	POST	pym3xd5-qulu		2011-08-18	넌내게반 해피엔딩 해피엔딩으 끝나다 tagexclamation 모듀모듀 수고 tagsmile 섬아빠들이랑곰아빠ost 감사 tagsmile 이제 공주 남자 tagsmile 역시 끝마무리 정용화 정용화의 노래 tagsmile
 kbs2_princess	ssdamsunharu	POST	pym3xd_-5gsae		2011-08-18	공주의남자 문채원 문채원이 목 칼을대 칼을대고 자살기도 목 피가 오오미 하느님 아니됩니다
-kbs2_princess	mkgil2	POST	pym3xrm-50r3c		2011-08-18	공주의남자 회 세령 승유
+kbs2_princess	mkgil2	POST	pym3xrm-50r3c		2011-08-18	공주의남자 10회 세령 승유
 kbs2_princess	bbobboks20	POST	pym3xy3-_bj92		2011-08-18	워 공주의남자 쨩재미따 tagsmile 박시후 신들린연기 감탄 호호 결말이어찌될지궁금 tagsmile
 kbs2_princess	insolt	POST	pym3ye2-5mxrp		2011-08-18	내 내다 마음 바꾸다 그대 마음 되다 되 보다 보 비로소 서 그리워하다 이렇게 깊다 알게 공주 남자 남다
 kbs2_princess	ohinjeang	POST	pym3z5g-y5p4s		2011-08-18	공주 남자 남다 방송정보
 kbs2_princess	-fate-	POST	pym3zfw-_q3hm		2011-08-18	공주의남자 보러가야쥥 tagsmile ㅃㅃ 나중에봐
-kbs2_princess	nolee6154	POST	pym3zzs-5uy3x		2011-08-18	공주의남자 kbs 저녁 시 분 본방사수우tagsmile
+kbs2_princess	nolee6154	POST	pym3zzs-5uy3x		2011-08-18	공주의남자 kbs 저녁 10시 00분 본방사수우 tagsmile
 kbs2_princess	todus2155	POST	pym3_k7-y3g9a		2011-08-18	오늘 엄마때메 공주의남자 봣음 난 나다 날다 보스를지켜라 넌 널다 내 내다 반 보고팟는데
-kbs2_princess	ohinjeang	POST	pym500i-y5p4s		2011-08-16	공주 남자 남다 박시후 눈빛 연기 폭발 tagexclamation 달콤 절박 아련 절규 http yaphoto co kr news tagquestionc
+kbs2_princess	ohinjeang	POST	pym500i-y5p4s		2011-08-16	공주 남자 남다 박시후 눈빛 연기 폭발 tagexclamation 달콤 절박 아련 절규 http yaphoto.co.kr news tagquestion c 49_37741
 kbs2_princess	goodkissjg	POST	pym50m9-5skoo		2011-08-16	문채원패션공주의남자 정은채 이세령 괜찮다 아빠딸
-kbs2_princess	hansomehun	POST	pym5201-5szvp		2011-08-17	박정민 그립다공주 남자 남다 ost part
-kbs2_princess	narang282	POST	pym53l3-599eh		2011-08-19	공주 남자 남다 회 월 일 토도우
+kbs2_princess	hansomehun	POST	pym5201-5szvp		2011-08-17	박정민 그립다공주 남자 남다 ost part.4
+kbs2_princess	narang282	POST	pym53l3-599eh		2011-08-19	공주 남자 남다 10회 8월18 일 토도우
 kbs2_princess	hglks	POST	pym54fl-_rb03		2011-08-16	이순재 시청자 약속 우선 한예슬 돌아오다 사과 이순재 어르신 어르다 화이팅 정말 다재다능하신분 공주 남자 남다 잘보고 잘보고있어 잘보고있어요 근데 일찍돌아가셔서 안습 이데일리
 kbs2_princess	princessjoen	POST	pym54jx-t9sd		2011-08-19	공주 남자 보다 나도 나다 나 저런 절절한 사랑 해보고싶어졌다 tagsmile 승유님 승유님은 피투성이 피투성이여 피투성이여도 멋지다 tagcry 박시후 박시후는 새 새다 역할 맡을때 맡을때마 내 내다 맘 빼앗아간다 tagsmile
-kbs2_princess	evoluxionx	POST	pym54z6-_j7lh		2011-08-17	박정민 그립다 듣기 듣다 반복재생 공주의남자ost part
+kbs2_princess	evoluxionx	POST	pym54z6-_j7lh		2011-08-17	박정민 그립다 듣기 듣다 반복재생 공주의남자ost part.4
 kbs2_princess	hyerimelove	POST	pym553t-p0_0		2011-08-18	공주의남자공주 남자 남다 ost 백지영 오늘 사랑
-kbs2_princess	rudgks7537	POST	pym58mi-1zsc		2011-08-19	백지영 오늘 사랑 네이버앱 음악검색 공주 남자 남다 ost part
+kbs2_princess	rudgks7537	POST	pym58mi-1zsc		2011-08-19	백지영 오늘 사랑 네이버앱 음악검색 공주 남자 남다 ost part 1
 kbs2_princess	3210dptmej	POST	pym58ne-yepym		2011-08-18	여인 향기 보스 지키다 스파이 명월 계백 무사 백동수 공주 남자 남다 넌 널다 내다 반 오작교형제 천 번 입맞추다 내 내다 사랑 사 내 내다 곁 광개토태왕 애정만만세 두근두근 달콤 내사 당신 참 차다 예쁘다 미쓰 아줌마 우리집 여자 불굴 며느리 당신 당신이 잠들다 사이 사다 사
 kbs2_princess	frompic	POST	pym5adb-_d1bz		2011-08-18	박시후 문채원 박시후 공주의남자 박시후 머리 박시후 박시후가 어릴때 호객행위 했었대요 박시후 박시후는 얼굴이되니뭐 박시후 역전 여왕때 멋진놈 멋진놈으 나오더 나오더만 tagsmile 잼있었어요 배우 박시
-kbs2_princess	hyerimelove	POST	pym5djh-p0_0		2011-08-18	공주의남자림냥 함께하 함께하는 공주 남자 남다 회
+kbs2_princess	hyerimelove	POST	pym5djh-p0_0		2011-08-18	공주의남자림냥 함께하 함께하는 공주 남자 남다 9회
 kbs2_princess	jieunius	POST	pym5gfp-_y4qs		2011-08-19	공주 남자 남다 박시후 분노 폭발 독기 살기 살다 극 그저쵝오 파이낸셜뉴스
-kbs2_princess	insos02	POST	pym5jf5-_8lnw		2011-08-16	공주 남자 남다 다시보기 회 공주 남자 남다 다시보기 회
-kbs2_princess	bestmurder	POST	pym5jfc-_cima		2011-08-18	공주 남자 남다 e hdtv x p hanrel
-kbs2_princess	loanbay	POST	pym5jje-yrp_n		2011-08-18	공주 남자 남다 신다 당신 당신의 선택은tagquestion
-kbs2_princess	sbluein	POST	pym5k4t-y6hoy		2011-08-19	백동수 보다 보 계백 공주 남자 갈아타다 백동수 백동수는 초반 괜찮다 가다 몰입도 몰입도가 떨어지다 계백 선덕여왕 몰입도 몰입도가 좋다 공주 남자 제 막다 막 향하다 가다 가 있다 백동수 백동수보 몰입도 몰입도는 낫다 단 달다 의자왕 의자왕은 지못미 급 늙다 왕 늙어보 늙어보임
+kbs2_princess	insos02	POST	pym5jf5-_8lnw		2011-08-16	공주 남자 남다 다시보기 8회 공주 남자 남다 다시보기 8회
+kbs2_princess	bestmurder	POST	pym5jfc-_cima		2011-08-18	공주 남자 남다 e09.110817.hdtv.x264.720p hanrel
+kbs2_princess	loanbay	POST	pym5jje-yrp_n		2011-08-18	공주 남자 남다 신다 당신 당신의 선택 tagquestion
+kbs2_princess	sbluein	POST	pym5k4t-y6hoy		2011-08-19	백동수 보다 보 계백 공주 남자 갈아타다 백동수 백동수는 초반 괜찮다 가다 몰입도 몰입도가 떨어지다 계백 선덕여왕 몰입도 몰입도가 좋다 공주 남자 제2 막다 막 향하다 가다 가 있다 백동수 백동수보 몰입도 몰입도는 낫다 단 달다 의자왕 의자왕은 지못미 급 늙다 왕 늙어보 늙어보임
 kbs2_princess	4542heejin	POST	pym5l2q-5vl62		2011-08-18	공주 남자 남다 본방사수 하기 하다 캬악 박시후
 kbs2_princess	mcw1113	POST	pym5nag-_w1f9		2011-08-16	문채원 사극퀸 으 으로 브라운관 스크린 점령 기사클릭 문채원 공주의남자 최종병기활 아이고씐
-kbs2_princess	bhj3624	POST	pym5ow1-54kbc		2011-08-16	넌 널다 내다 반 계백 무사 백동수 공주 남자 남다 이중 한개 한개라 보시는분 미투 누르다 안누르시는분 무엇을보시나요tagquestion 제발 tagcry 이렇게까지부탁드림니 tagcry tagcry
-kbs2_princess	homicjy	POST	pym5p97-5b1ek		2011-08-18	공주 남자 남다 회 다시보기
+kbs2_princess	bhj3624	POST	pym5ow1-54kbc		2011-08-16	넌 널다 내다 반 계백 무사 백동수 공주 남자 남다 이중 한개 한개라 보시는분 미투 누르다 안누르시는분 무엇을보시 tagquestion 제발 tagcry 이렇게까지부탁드림니 tagcry tagcry
+kbs2_princess	homicjy	POST	pym5p97-5b1ek		2011-08-18	공주 남자 남다 9회 다시보기
 kbs2_princess	koreaecotour	POST	pym5r6p-5yee8		2011-08-19	오늘 생태관광 tagquestion 공주 남자 남다 촬영지 문경재새
-kbs2_princess	verniigh	POST	pym5squ-_caj3		2011-08-19	공주의남자 회 다시보기 승유 승유와 세령
+kbs2_princess	verniigh	POST	pym5squ-_caj3		2011-08-19	공주의남자 10회 다시보기 승유 승유와 세령
 kbs2_princess	121pyj	POST	pym5ubm-56ntg		2011-08-18	내 좋아하다 연예인 연예 문채원 tagexclamation 정말 여신 따 따로 없다 외모면 외모 tagexclamation 연기면 연기 tagexclamation 아름답다 활 tagexclamation 영화 정말 재밌어 재밌어요 tagsmile 요즘 시청률 tagexclamation 최고 최 tagexclamation 공주 남자 남다 조선판 로미오 로미오와 줄리엣 tagexclamation 잘 자다 보고 보다 보 있다 결말 벌써 기대가 기대 되다 tagsmile
 kbs2_princess	mingi5029	POST	pym5wim-yljyx		2011-08-16	공주 남자 남다 보고 보다 보 시퍼 tagcry
-kbs2_princess	yunilsang	POST	pym5y6r-_3g18		2011-08-18	공주의남자 회 다시보기 월 일
-kbs2_princess	rlaejrwo111	POST	pym5z1i-_tynd		2011-08-18	공주 남자 남다 드뎌 오늘 금성대군 나오다 세종 세종의 남 나다 tagsmile
+kbs2_princess	yunilsang	POST	pym5y6r-_3g18		2011-08-18	공주의남자 9회 다시보기 8월17 일
+kbs2_princess	rlaejrwo111	POST	pym5z1i-_tynd		2011-08-18	공주 남자 남다 드뎌 오늘 금성대군 나오다 세종 세종의 6 6남 tagsmile
 kbs2_princess	rlaejrwo111	POST	pym5z85-_tynd		2011-08-18	공주 남자 남다 오늘 금성대군 나오다 기대 기대다 폭풍 tagsmile
-kbs2_princess	rlaejrwo111	POST	pym5za9-_tynd		2011-08-18	공주 남자 남다 세종 세종과 소헌왕후 남 나다 금성대군 나오다 기대 수양대군 대 금성대군 누 누가 이기는가tagquestion tagsmile
+kbs2_princess	rlaejrwo111	POST	pym5za9-_tynd		2011-08-18	공주 남자 남다 세종 세종과 소헌왕후 6 6남 금성대군 나오다 기대 수양대군 대 금성대군 누 누가 이기다 tagquestion tagsmile
 kbs2_princess	yoyo361	POST	pym5_r8-im3c		2011-08-18	박정민 그립다 공주의남자 ost
-kbs2_princess	kmediabox	POST	pym5_v_-_1l70		2011-08-17	토도우 공주 남자 남다 회 월 일 다시보기
-kbs2_princess	hyerimelove	POST	pym60h_-p0_0		2011-08-19	공주의남자림냥 함께하 함께하는 공주 남자 남다 회
+kbs2_princess	kmediabox	POST	pym5_v_-_1l70		2011-08-17	토도우 공주 남자 남다 9회 8월17 일 다시보기
+kbs2_princess	hyerimelove	POST	pym60h_-p0_0		2011-08-19	공주의남자림냥 함께하 함께하는 공주 남자 남다 10회
 kbs2_princess	toyinfo	POST	pym61lq-geec		2011-08-19	공주 남자 남다 보는중
-kbs2_princess	hyerimelove	POST	pym61o0-p0_0		2011-08-19	공주의남자 회 보여주다 보 슬픈표정 박시후
+kbs2_princess	hyerimelove	POST	pym61o0-p0_0		2011-08-19	공주의남자10 회 보여주다 보 슬픈표정 박시후
 kbs2_princess	rosachan	POST	pym62d4-s60e		2011-08-17	공주의남자 배경화면 박시후 폰배경 멋지다 사진 사다 김승유 짱 멋지다 tagsmile
-kbs2_princess	sa2chim	POST	pym62ds-bxvc		2011-08-20	데이트 공주 남자 남다
-kbs2_princess	melon_dj	POST	pym62q8-g3qo		2011-08-17	멜투송 오늘 멜투송 멜투송은 박정민 박정민이 부르다 공주의남자ost 그립다 입니 입니다 tagexclamation 댓글 미투 해 하다 주신 분들 중 분 선정 선정하 해당곡 mp 음원 음원을 드리다 댓글 댓글을 남기다 땐 멜론 아이디 아이디도 함 남기다 ㅡ 멜투송 박정민 공주의남자 ost 그립다 음악 멜론 me event
+kbs2_princess	sa2chim	POST	pym62ds-bxvc		2011-08-20	데이트 2 공주 남자 남다
+kbs2_princess	melon_dj	POST	pym62q8-g3qo		2011-08-17	멜투송 오늘 멜투송 멜투송은 박정민 박정민이 부르다 공주의남자ost 그립다 입니 입니다 tagexclamation 댓글 미투 해 하다 주신 분들 중 3분 3분을 선정 선정하 해당곡 mp3음원 mp3음원을 드리다 댓글 댓글을 남기다 땐 멜론 아이디 아이디도 함 남기다 ㅡ 멜투송 박정민 공주의남자 ost 그립다 음악 멜론 me2event
 kbs2_princess	kirihara	POST	pym633g-yy_z		2011-08-17	이승열 나가수 러브콜 대신 공주 남자 남다 ost 열창 뉴스 뉴스스크랩
-kbs2_princess	purple30	POST	pym63de-yosbd		2011-08-19	공주 남자 남다 회 회 비극 절정 다크승유 수양대군 계유정난 계유정 박시후 송종호
+kbs2_princess	purple30	POST	pym63de-yosbd		2011-08-19	공주 남자 남다 9회 10회 비극 절정 다크승유 수양대군 계유정난 계유정 박시후 송종호
 kbs2_princess	lee36971	POST	pym648c-yx7e5		2011-08-19	tagsmile 수양대군 검색 별걸 다 찾다 있다 새삼 시럽게 tagsmile
 kbs2_princess	micky2717	POST	pym64ma-_a6y8		2011-08-20	공주의남자 수양대군 너무하구먼 잔인하당 tagcry
-kbs2_princess	spring324	POST	pym64pt-fyv3		2011-08-19	드라마 공주 남자 남다 회 회 긴장감 점차 고조 막 마무리 처절 막 시작
+kbs2_princess	spring324	POST	pym64pt-fyv3		2011-08-19	드라마 공주 남자 남다 9회 10회 긴장감 점차 고조 1막 마무리 처절 2막 2막의 시작
 kbs2_princess	eunyu1228	POST	pym64y2-5b8lk		2011-08-17	오늘 공주 남자 남다 한닼 tagsmile
-kbs2_princess	paranmool	POST	pym658r-tgjo		2011-08-17	공주의남자 ost 박정민 그립다 좋다 옥션 사처넌정 사처넌정도 주다 주 산 사다 살다 스피커 들었을땐 곡 좋다 좋으 박정민 박정민의 가창력 받치다 못하다 소감 소감이었으 갤탭 들다 울 울다 오빠 노래 노랗다 잘하네tagquestion tagexclamation 결론 스피커 싸다 막사지 말다 흐그흐극규 tagcry 잡담 잡다 우주최강예쁜이 박정민
+kbs2_princess	paranmool	POST	pym658r-tgjo		2011-08-17	공주의남자 ost 박정민 그립다 좋다 옥션 사처넌정 사처넌정도 주다 주 산 사다 살다 스피커 들었을땐 곡 좋다 좋으 박정민 박정민의 가창력 받치다 못하다 소감 소감이었으 갤탭 들다 울 울다 오빠 노래 노랗다 잘 tagquestion tagexclamation 결론 스피커 싸다 막사지 말다 흐그흐극규 tagcry 잡담 잡다 우주최강예쁜이 박정민
 kbs2_princess	tkfkd6949	POST	pym65ct-e1ab		2011-08-19	공주의남자 어허허험뫄야 tagexclamation 인스티즈 instiz
-kbs2_princess	heavenfbgml	POST	pym66vq-1inw		2011-08-19	공주 남자 남다 ost part 박정민 그립다
-kbs2_princess	kest114	POST	pym676n-teeh		2011-08-17	블로그dj박정민 그립다 공주 남자 남다 ost part
-kbs2_princess	karame01	POST	pym67m4-xvhb		2011-08-20	잘 자다 쉬다 쉬 녹두나물 숙주나물 부르다 되다 이유 계유정난 계유정 때 신숙주 신숙주가 변절 변절하 단종 버리다 수양대군 따르다 때문이라죠tagquestion
+kbs2_princess	heavenfbgml	POST	pym66vq-1inw		2011-08-19	공주 남자 남다 ost part4 박정민 그립다
+kbs2_princess	kest114	POST	pym676n-teeh		2011-08-17	블로그dj 박정민 그립다 공주 남자 남다 ost part.4
+kbs2_princess	karame01	POST	pym67m4-xvhb		2011-08-20	잘 자다 쉬다 쉬 녹두나물 숙주나물 부르다 되다 이유 계유정난 계유정 때 신숙주 신숙주가 변절 변절하 단종 버리다 수양대군 따르다 때문이라죠 tagquestion
 kbs2_princess	loanbay	POST	pym67yh-yrp_n		2011-08-19	공주의남자 탐욕스런 수양대군 괴롭히다 세령 세령의 로맨스
-kbs2_princess	ccya	POST	pym6888-hmgu		2011-08-19	공주 남자 남다 회 월 일 다시보기
-kbs2_princess	ccya	POST	pym68cw-hmgu		2011-08-19	공주 남자 남다 회 월 일 다시보기
+kbs2_princess	ccya	POST	pym6888-hmgu		2011-08-19	공주 남자 남다 9회 8월 17 17일 다시보기
+kbs2_princess	ccya	POST	pym68cw-hmgu		2011-08-19	공주 남자 남다 10회 8월 18 18일 다시보기
 kbs2_princess	haeun528	POST	pym68px-779c		2011-08-17	나 나다 요즘 공주의남자 폐인되감 크크크크크크 수목 기다리다 수목 숨쉬는거 같다 tagsmile 아 레알 잘생기다 근데
-kbs2_princess	envy111	POST	pym69du-_qter		2011-08-17	공주 남자 남다 회 예고 예 tagexclamation 윽 반전 tagexclamation
-kbs2_princess	wnl0417	POST	pym6a7k-l5l9		2011-08-17	공주의남자 자까분 자까분께 뭐 하나 하다 하 여쭙고싶다 대본만들때 어디서끊을지 정하다 정 만드시나봐요tagquestion
-kbs2_princess	spearhead	POST	pym6a7m-9fa		2011-08-17	공주 남자 남다 보다 아무리 극중설정이라지 박시후 박시후의 방어력 참 차다 칼 몇번 몇번을 맞다 피 많이 많이나 많이나고 데미지 데미지만 좀 조다 입었다 거동 거의 거 멀쩡 tagsmile 보고 친구 카톡 카톡으 지다 만렙이냐tagquestion 고 tagsmile
-kbs2_princess	pinksakura	POST	pym6ay0-_q8qa		2011-08-17	공주의남자 대 박 tagexclamation 보는내 보는내내 가슴 두근두근두근 tagcry 이거원심장떨려서보겠 tagcry 내일 내 진짜 기대 tagexclamation 난 나다 날다 왜 부마 점점 멋져보 멋져보이지 ㅅ 순 어리버린지 알다 남자답네tagquestion
-kbs2_princess	jsyoung1996	POST	pym6azb-yd755		2011-08-17	헐 공주남자 김승유 실시 검색어 위 쩌네 tagsmile 위 김종서 위 수양대군 위 세조
-kbs2_princess	yunilsang	POST	pym6ba1-_3g18		2011-08-19	공주의남자 회 다시보기 월 일
+kbs2_princess	envy111	POST	pym69du-_qter		2011-08-17	공주 남자 남다 9회 예고 예 tagexclamation 윽 반전 tagexclamation
+kbs2_princess	wnl0417	POST	pym6a7k-l5l9		2011-08-17	공주의남자 자까분 자까분께 뭐 하나 하다 하 여쭙고싶다 대본만들때 어디서끊을지 정하다 정 만드시나봐 만드시나봐요 tagquestion
+kbs2_princess	spearhead	POST	pym6a7m-9fa		2011-08-17	공주 남자 남다 보다 아무리 극중설정이라지 박시후 박시후의 방어력 참 차다 칼 몇번 몇번을 맞다 피 많이 많이나 많이나고 데미지 데미지만 좀 조다 입었다 거동 거의 거 멀쩡 tagsmile 보고 친구 카톡 카톡으 지다 만렙 만렙이냐 tagquestion 고 tagsmile
+kbs2_princess	pinksakura	POST	pym6ay0-_q8qa		2011-08-17	공주의남자 대 박 tagexclamation 보는내 보는내내 가슴 두근두근두근 tagcry 이거원심장떨려서보겠 tagcry 내일 내 진짜 기대 tagexclamation 난 나다 날다 왜 부마 점점 멋져보 멋져보이지 ㅅ 순 어리버린지 알다 남자답다 tagquestion
+kbs2_princess	jsyoung1996	POST	pym6azb-yd755		2011-08-17	헐 공주남자 김승유 실시 검색어 1위 쩌네 tagsmile 4위 김종서 5위 수양대군 9위 세조
+kbs2_princess	yunilsang	POST	pym6ba1-_3g18		2011-08-19	공주의남자 10회 다시보기 8월18 일
 kbs2_princess	stylisthanul	POST	pym6b_c-_w5s7		2011-08-17	김종서 이순재 충신카리스마 뜨거운 부정 열연
 kbs2_princess	01098869738	POST	pym6cak-5oi80		2011-08-17	조금 tagsmile 공주의남자시작한닼 tagsmile
 kbs2_princess	ssdamsunharu	POST	pym6cn5-5gsae		2011-08-17	공주의남자 보러가야징 아싸 문채원
 kbs2_princess	tydal944	POST	pym6coa-yw1lv		2011-08-17	수요일 공주의남자 보다 보 날 나다 taglove
-kbs2_princess	yuneko	POST	pym6d1t-yusl		2011-08-18	수양대군 지금 딸한테 사기치다 몇번째tagquestion 맨 맨날 세령이한텐 세령이때문 세령이때문에 어쩔 없다 김승유 살려주다 그러지 그러지만 사실 다르다 이유 역시 정치인 남다르다
-kbs2_princess	yuneko	POST	pym6dcl-yusl		2011-08-18	공주 남자 남다 월 초 하다 레알tagquestion 난 나다 날다 지금 클라이막스 이제 세령 세령이 승유 승유랑 산속 산속으 도망가다 끝나다 줄 주다 알다 으으 빨다 끝 보고 보다 보 싶다
+kbs2_princess	yuneko	POST	pym6d1t-yusl		2011-08-18	수양대군 지금 딸한테 사기치다 몇번째 tagquestion 맨 맨날 세령이한텐 세령이때문 세령이때문에 어쩔 없다 김승유 살려주다 그러지 그러지만 사실 다르다 이유 역시 정치인 남다르다
+kbs2_princess	yuneko	POST	pym6dcl-yusl		2011-08-18	공주 남자 남다 10월 초 하다 레알 tagquestion 난 나다 날다 지금 클라이막스 이제 세령 세령이 승유 승유랑 산속 산속으 도망가다 끝나다 줄 주다 알다 으으 빨다 끝 보고 보다 보 싶다
 kbs2_princess	sarah_ann	POST	pym6drp-8bgo		2011-08-18	공주의남자 taglove 완전 대박 빠져나오다 없다 구렁텅이 떠러뜨렸어제발 소문 소문대 세드엔딩이아니길 tagcry 국사책 보다 수양대군 증오스러워진다 뒤통수한대 때리고오고싶다
-kbs2_princess	kmediabox	POST	pym6ehz-_1l70		2011-08-18	토도우 공주 남자 남다 회 월 일 다시보기
-kbs2_princess	homicjy	POST	pym6f5z-5b1ek		2011-08-19	공주 남자 남다 회 다시보기
+kbs2_princess	kmediabox	POST	pym6ehz-_1l70		2011-08-18	토도우 공주 남자 남다 10회 8월18 일 다시보기
+kbs2_princess	homicjy	POST	pym6f5z-5b1ek		2011-08-19	공주 남자 남다 10회 다시보기
 kbs2_princess	tbworld_tv	POST	pym6fpg-_clkj		2011-08-19	공주 남자 남다 문채원 애절 눈물연기 안방극장 점령 사극 퀸 tbworld
-kbs2_princess	tbworld_tv	POST	pym6fr7-_clkj		2011-08-19	공주 남자 남다 재활용 방송논란 분 중 분 지난회 재방송tagquestion tbworld
+kbs2_princess	tbworld_tv	POST	pym6fr7-_clkj		2011-08-19	공주 남자 남다 재활용 방송논란 63분 중 15분 15분이 지난회 재방송 tagquestion tbworld
 kbs2_princess	sehee6305	POST	pym6g2t-_93ph		2011-08-17	엣 오늘 공주의남자 못보게따 아빠 보고이써서 tagcry
-kbs2_princess	sajavi	POST	pym6gck-y0swx		2011-08-17	kbs 공주 남자 남다 세조 진짜 나쁜새끼
-kbs2_princess	rael0212	POST	pym6gpb-sog5		2011-08-20	백지영 오늘 사랑해 사랑해이건 내 조아 조아하는데 들다 울컥 뉸물 쏟다 같다 노래 노랗다 네이버앱 음악검색 공주 남자 남다 ost part
+kbs2_princess	sajavi	POST	pym6gck-y0swx		2011-08-17	kbs2 공주 남자 남다 세조 진짜 나쁜새끼
+kbs2_princess	rael0212	POST	pym6gpb-sog5		2011-08-20	백지영 오늘 사랑해 사랑해이건 내 조아 조아하는데 들다 울컥 뉸물 쏟다 같다 노래 노랗다 네이버앱 음악검색 공주 남자 남다 ost part 1
 kbs2_princess	rose06339	POST	pym6gss-5gaqp		2011-08-17	수양대군
-kbs2_princess	minse154	POST	pym6hug-l2v2		2011-08-19	공주 남자 남다 넘 재밌어 보스 지켜 지켜라 대미 왜 외다 금욜 드라마 안하다 거지tagquestion 동시 있다 뭘 보다 고민되자
+kbs2_princess	minse154	POST	pym6hug-l2v2		2011-08-19	공주 남자 남다 넘 재밌어 보스 지켜 지켜라 대미 왜 외다 금욜 드라마 안하다 거지 거다 tagquestion 동시 있다 뭘 보다 고민되자
 kbs2_princess	hi6787	POST	pym6inx-yksyc		2011-08-17	공주의남자 보는중 tagsmile 공주가칼소리듣고깨어
-kbs2_princess	hjsj8162	POST	pym6ipx-_cgol		2011-08-17	맞다맞다맞다 오늘 잼잇는 공주의남자 할시간이지tagquestion 난 나다 날다 공주 남자 남다 보고 보다 보 오께 오께요 taglove 기다릴사람 미투 tagexclamation
+kbs2_princess	hjsj8162	POST	pym6ipx-_cgol		2011-08-17	맞다맞다맞다 오늘 잼잇는 공주의남자 할시 할시간이지 tagquestion 난 나다 날다 공주 남자 남다 보고 보다 보 오께 오께요 taglove 기다릴사람 미투 tagexclamation
 kbs2_princess	chococat000	POST	pym6iwc-_hgmp		2011-08-17	불끄다 공주의남자 본방사수중 taglove 거실 내 내다 차지 차다 taglove
 kbs2_princess	s1031j	POST	pym6jo1-m3sj		2011-08-17	stv 공주 남자 남다 이순재 부활 부활하 절정 카리스마다 선보이다 tagexclamation
 kbs2_princess	presidentun	POST	pym6lz4-yyxdt		2011-08-20	공주 남자 남다 재방송 시청중
 kbs2_princess	snsdforever1	POST	pym6n7h-_eur6		2011-08-19	공주의남자보고울엇어 tagcry
-kbs2_princess	preso	POST	pym6nz2-yhfwj		2011-08-20	공식abc마트 부천중동점 발도장 tagexclamation 집에오자마자 화장실 나간거 갈아주다 이거저거 이거저거하 이거저거하다 잠도못자 잠도못자고 이제 좀 조다 자다 하다 공주의남자하네 아 자야 자야돼 말아야 말아야돼 via 아임in
+kbs2_princess	preso	POST	pym6nz2-yhfwj		2011-08-20	공식abc 마트 부천중동점 발도장 tagexclamation 집에오자마자 화장실 나간거 갈아주다 이거저거 이거저거하 이거저거하다 잠도못자 잠도못자고 이제 좀 조다 자다 하다 공주의남자하네 아 자야 자야돼 말아야 말아야돼 via 아임in
 kbs2_princess	talgga	POST	pym6pwp-ybr7o		2011-08-19	공주 남자 남다 ost part bgm listening 갈 가다 없다 사랑 사 various artists 공주 남자 남다 ost part bgm
 kbs2_princess	yura_me2day	POST	pym6pyg-_ogmw		2011-08-19	오늘 넌 널다 내다 반 마지막회 마지막회라 자꾸 생각 되다 아예 공주 남자 집중 못하다 근데 진짜 마지막 연기 tagexclamation 진짜 그런게 바 신들리다 연기 tagexclamation 박시후 짱 tagexclamation 다음주 넌 널다 내 내다 반 없다 tagcry
 kbs2_princess	onestar2264	POST	pym6q9w-_suj0		2011-08-17	공주의남자 너무재미 주인공둘빼 다들 연기 후덜덜
-kbs2_princess	fic123	POST	pym6rr8-i_63		2011-08-19	토렌트다운 공주 남자 남다 회
+kbs2_princess	fic123	POST	pym6rr8-i_63		2011-08-19	110818 토렌트다운 공주 남자 남다 10회
 kbs2_princess	wotns24	POST	pym6s3l-57oce		2011-08-20	공주 남자 정민오빠 노랗다 노래 나오다 보야 보야하 영생오빠 노랗다 노래 나오다 봐야 봐야됨 tagsmile
-kbs2_princess	sajavi	POST	pym6t12-y0swx		2011-08-17	kbs 공주 남자 남다 반 반이 보다 아직 아직도 난중
-kbs2_princess	bonnie9511	POST	pym6t4c-y18h8		2011-08-17	갸우뚱tagquestion공주의남자 점점 흥미진진해진다아우오우오 궁금해궁금 tagexclamation 죠아죠아
-kbs2_princess	iyousens	POST	pym6tv2-yq85k		2011-08-19	다시보기 공주의남자공주의남자 회 다시보기 월 일 방송분 다시보기
-kbs2_princess	iyousens	POST	pym6tx2-yq85k		2011-08-19	다시보기 공주의남자공주의남자 회 다시보기 월 일 tv방송분 다시보기
+kbs2_princess	sajavi	POST	pym6t12-y0swx		2011-08-17	kbs2 공주 남자 남다 반 반이 보다 아직 아직도 난중
+kbs2_princess	bonnie9511	POST	pym6t4c-y18h8		2011-08-17	갸우뚱 tagquestion 공주의남자 점점 흥미진진해진다아우오우오 궁금해궁금 tagexclamation 죠아죠아
+kbs2_princess	iyousens	POST	pym6tv2-yq85k		2011-08-19	다시보기 공주의남자공주의남자 9회 다시보기 8월17 일 방송분 다시보기
+kbs2_princess	iyousens	POST	pym6tx2-yq85k		2011-08-19	다시보기 공주의남자공주의남자 10회 다시보기 8월18 일 tv방송분 다시보기
 kbs2_princess	alice1022	POST	pym6tyd-v1on		2011-08-17	이한마디 한바보 한바보는 하염 그녀 를 바라보다 말 미련 주지말지 공주 남자ost
-kbs2_princess	sa2chim	POST	pym6u7d-bxvc		2011-08-20	데이트 공주 남자 남다
+kbs2_princess	sa2chim	POST	pym6u7d-bxvc		2011-08-20	데이트 1 공주 남자 남다
 kbs2_princess	2430440	POST	pym6uhn-5pwlh		2011-08-17	얘들 얘들아 앞 수목 공주 남자 남다 를 시청 우리 감정 메마르다 이과생 감수성 불어넣어줄꺼 신승범 신승범은 이 감수성이런거 필요 tagsmile 식으롴 tagsmile 말햇찌 말햇찌만
-kbs2_princess	haqqy_boy	POST	pym6uqb-_w5gf		2011-08-19	문채원 박시후 공주 남자 남다 회 세령 승유 유령커플 공주 남자 남다 회 다시보기
-kbs2_princess	itoss	POST	pym6vwe-q177		2011-08-17	공주의남자 회예 회예고
+kbs2_princess	haqqy_boy	POST	pym6uqb-_w5gf		2011-08-19	문채원 박시후 공주 남자 남다 9회 세령 승유 유령커플 공주 남자 남다 9회 다시보기
+kbs2_princess	itoss	POST	pym6vwe-q177		2011-08-17	공주의남자9 회예 회예고
 kbs2_princess	-fate-	POST	pym6wad-_q3hm		2011-08-17	오늘 공주 남자 남다 하는 하는날 tagexclamation 봐야징
-kbs2_princess	bestmurder	POST	pym6wq9-_cima		2011-08-19	공주 남자 남다 e hdtv x p hanrel
+kbs2_princess	bestmurder	POST	pym6wq9-_cima		2011-08-19	공주 남자 남다 e10.110818.hdtv.x264.720p hanrel
 kbs2_princess	jumpingboa3	POST	pym6wtu-5ebxx		2011-08-17	오늘 공주의남자 봐야되 tagexclamation tagcry 박시후 짱죠아 tagsmile
 kbs2_princess	bonnie9511	POST	pym6wyf-y18h8		2011-08-17	오늘공주의남자랑짝한당 tagsmile 죠아죠아
 kbs2_princess	annemyungg	POST	pym6wzb-5y607		2011-08-19	수양대군 김종서 정말 사돈지
@@ -222,81 +222,81 @@ kbs2_princess	paulianlee	POST	pym6xoc-ydvr6		2011-08-17	밤새다 눈 감기다 
 kbs2_princess	kshnana	POST	pym6ycr-nxsl		2011-08-18	어뜩 어뜩해 어뜩해요 tagcry 공주 남자 넌내반 넌내반이 재밌는데 tagexclamation 쳇 tagexclamation
 kbs2_princess	tkfkd1k	POST	pym6yim-5sgxn		2011-08-20	드라마 공주 남자속 한복 드라마 공주 남자 남다 속 결혼 한복 유행 예감
 kbs2_princess	kshnana	POST	pym6yrn-nxsl		2011-08-18	아 오늘 넌내반 마지막회 못봤어요 tagcry tagcry 부모님 공주 남자 남다 재방 tagcry
-kbs2_princess	jisiklog	POST	pym6z0g-_rcxy		2011-08-17	공주의남자오늘한게 몇화 몇화고 총몇부작인가요tagquestion 공주의남자
+kbs2_princess	jisiklog	POST	pym6z0g-_rcxy		2011-08-17	공주의남자오늘한게 몇화 몇화고 총몇부작 총몇부작인가 tagquestion 공주의남자
 kbs2_princess	jisiklog	POST	pym6z3h-_rcxy		2011-08-17	공주의남자 방영시간알려주세 공주의남자
 kbs2_princess	hs199559	POST	pym6zdb-ttq5		2011-08-17	보스를지켜 보고싶고 tagcry 공주의왕자 보고싶당 tagcry 채널이리저리 돌리다 보다 보 결국 둘다 제대로못봤다 tagcry 딱 내스타일인 보스 지키다 봐야겠어 tagcry 진짜 tagsmile 그커플 왜 귀엽다 tagsmile 고은성계탔네 tagsmile 남자둘 남자둘이 다 개성 귀여워죽겠다 tagsmile 둘다어울리 둘다어울리고 tagcry 이런분위기 러브스토리사랑 tagcry
-kbs2_princess	jisiklog	POST	pym6zel-_rcxy		2011-08-17	지금 공주의남자 정확 몇시에끝나나요tagquestion 공주의남자
-kbs2_princess	jisiklog	POST	pym6ze_-_rcxy		2011-08-17	공주의남자 몇부작인가요tagquestion 공주의남자
+kbs2_princess	jisiklog	POST	pym6zel-_rcxy		2011-08-17	지금 공주의남자 정확 몇시에끝 몇시에끝나 몇시에끝나나 몇시에끝나나요 tagquestion 공주의남자
+kbs2_princess	jisiklog	POST	pym6ze_-_rcxy		2011-08-17	공주의남자 몇부작 몇부작인가 tagquestion 공주의남자
 kbs2_princess	sc7344	POST	pym6zr1-ti_o		2011-08-17	공 공주 남자 남다 줄임말 줄임말입니 줄임말입니다
-kbs2_princess	jisiklog	POST	pym6zru-_rcxy		2011-08-17	드라마 공주의남자 몇부작인가요tagquestion 공주의남자
+kbs2_princess	jisiklog	POST	pym6zru-_rcxy		2011-08-17	드라마 공주의남자 몇부작 몇부작인가 tagquestion 공주의남자
 kbs2_princess	jisiklog	POST	pym6zu5-_rcxy		2011-08-17	공주의남자결말정보좀 공주의남자
 kbs2_princess	diddpdnjs7	POST	pym6zx7-yplie		2011-08-17	지금공주의남자를시청하고간식먹고양치하고자려는데잠이안오네 지금공주의남자를시청하고간식먹고양치하고자려는데잠이안오네요 어떻게하면좋을까 어떻게하면좋을까요 tagquestion tagcry 잠이안와
 kbs2_princess	hjsj8162	POST	pym6z_p-_cgol		2011-08-17	공주의남자 다봐따 taglove 내일 내 또 보다 tagsmile 아 맞다 나 나다 반겨줳
 kbs2_princess	shtamehj	POST	pym96dz-hl39		2011-08-20	수목 보스 지켜라 지켜라로 둑흔둑흔 뛰다 가슴 알다 박영규 아저씨 나올때 나올때마 데굴데굴 웃기다 죽다 죽 공주 남자 바들바 떨다 무섭다 무서움 침 삼키다 급 오버 감정소모 바 죽은듯 죽은듯이 자다 자 제맛 b 수목 기다리다 난 나다 날다 이러 이러고 살다 요즘
 kbs2_princess	grace_h	POST	pym98co-shn3		2011-08-20	공주 남자 가장 매력적 인물 승유 승유도 아니다 아니 세령 세령도 아니다 아니 경혜공주 아니다 정종 같댜
-kbs2_princess	search_now	POST	pym9ko7-5y0f5		2011-08-20	신지수 허미영 김병지 보스를지켜 재방송 블랙퀸 박장현 new 카페 김선 김선아 공주의남자 재방송 신보 네이버 실시 급상승 검색어
+kbs2_princess	search_now	POST	pym9ko7-5y0f5		2011-08-20	신지수 231 허미영 291 김병지 294 보스를지켜 재방송 108 블랙퀸 216 박장현 new 카페24 132 김선 김선아 69 공주의남자 재방송 183 신보 177 네이버 실시 급상승 검색어
 kbs2_princess	sky0popcorn	POST	pym9nt4-_c11j		2011-08-20	듣다보 듣다보니 괜찮다 올리다 공주 남자 남다 삽입곡 기다리다
 kbs2_princess	qlgodthsu7	POST	pym9o0c-y6im1		2011-08-20	공주 남자 남다 봐야 봐야하는데 일하다 일 운동 나다 생방 생방이 안다 tagexclamation 캬학
-kbs2_princess	webhosting	POST	pym9o5g-4_ac		2011-08-20	원문 안평대군 공주 남자 남다 노태엽 수양 굳건하다 군주 로 대적 회 어리다 단종 노태엽 은 김종서 김종서의 무리 대한 대하다 처단 계속 수양대군 김영철 에다 굳건하다 군주 중단 어명 내리다 이 안평대군 이주석 붙잡히다 것 목 웹
-kbs2_princess	oacise0	POST	pym9qx6-_bhq2		2011-08-20	분 동안 쿠미연 여자들에겐 공주님 남자들에겐 왕자님 붙이다 tagexclamation
-kbs2_princess	nsh2689	POST	pym9rwo-5o_pf		2011-08-20	공주 남자 남다 화 호다 리뷰
-kbs2_princess	angel951211	POST	pym9uwp-5tatj		2011-08-20	나 예외 연애 없다 로또 로또에 당첨 확률 나 예외 연애를 연애를할 확률 높지않을까tagquestion남녀관계의 막론 인간관계 예외 없다 내 한 한대 내 한 하다 만큼 얻다 것 인어공주 다르다 남자 만났다면tagquestion 중 너무좋다 읽다 빠져드 빠져드는 매력 tagexclamation me book 인어공주 다르다 남자 만나다
-kbs2_princess	loymin	POST	pymb7cb-1efs		2011-08-19	신림역 신림역에 발도장 tagexclamation 남자 어쩜 이렇게 다 똑같다 직장 결정 잘 내리다 애정관계 감정 문제 앞 겁쟁이 돌변 tagexclamation 넬레 노이하우스  백설공주 죽다 죽음 via 아임in
-kbs2_princess	goqkfkrl2727	POST	pymbabj-_p28w		2011-08-19	다음번 다음번에 스마트폰 스마트폰으 만나다 바라다 허허 사극 맛들린 요즘 무사 백동수 백동수랑 계백 공주 남자 재밌네 재밌네요 공주 남자 남다 단종 하악 잘생기다
-kbs2_princess	wowndalswn	POST	pymbc8_-54ica		2011-08-19	근데 김재중 김재중을 이렇게 조아하는사람 널려 널려있는데 왜 외다 공주 남자 시청률 높지tagquestion 완전 이상 드라마 완전 재밌는데
+kbs2_princess	webhosting	POST	pym9o5g-4_ac		2011-08-20	원문 안평대군 공주 남자 남다 노태엽 수양 굳건하다 군주 로 대적 10회 어리다 단종 노태엽 은 김종서 김종서의 무리 대한 대하다 처단 계속 수양대군 김영철 에다 굳건하다 군주 중단 어명 내리다 이 안평대군 이주석 붙잡히다 것 목 웹
+kbs2_princess	oacise0	POST	pym9qx6-_bhq2		2011-08-20	40분 동안 쿠미연 여자들에겐 공주님 남자들에겐 왕자님 붙이다 tagexclamation
+kbs2_princess	nsh2689	POST	pym9rwo-5o_pf		2011-08-20	공주 남자 남다 9화 리뷰
+kbs2_princess	angel951211	POST	pym9uwp-5tatj		2011-08-20	나 예외 연애 없다 로또 로또에 당첨 확률 나 예외 연애를 연애를할 확률 높지않을까 tagquestion 남녀관계 막론 인간관계 예외 없다 내 한 한대 내 한 하다 만큼 얻다 것 인어공주 다르다 남자 만나다 tagquestion 중 너무좋다 읽다 빠져드 빠져드는 매력 tagexclamation 인어공주 다르다 남자 만나다
+kbs2_princess	loymin	POST	pymb7cb-1efs		2011-08-19	신림역 신림역에 발도장 tagexclamation 남자 어쩜 이렇게 다 똑같다 직장 결정 잘 내리다 애정관계 감정 문제 앞 겁쟁이 돌변 tagexclamation 넬레 노이하우스 백설공주 죽다 죽음 via 아임in
+kbs2_princess	goqkfkrl2727	POST	pymbabj-_p28w		2011-08-19	다음번 다음번에 스마트폰 스마트폰으 만나다 바라다 허허 사극 맛들린 1 요즘 무사 백동수 백동수랑 계백 공주 남자 재밌네 재밌네요 공주 남자 남다 단종 하악 잘생기다
+kbs2_princess	wowndalswn	POST	pymbc8_-54ica		2011-08-19	근데 김재중 김재중을 이렇게 조아하는사람 널려 널려있는데 왜 외다 공주 남자 시청률 높다 tagquestion 완전 이상 드라마 완전 재밌는데
 kbs2_princess	sid0612	POST	pymbf96-vvwm		2011-08-19	공주 남자 남다
-kbs2_princess	mcw1113	POST	pymbkzy-_w1f9		2011-08-19	의연 대한 대하다 감사 감다 공주의남자 제작스태프인듯 하다 읽다 눈물 배 흐르다 tagcry 문배우 감사 글쓴이 감사 tagcry 문채원 공주의남자 문채원짜응 tagexclamation
-kbs2_princess	mcw1113	POST	pymbuun-_w1f9		2011-08-19	잡지 잡다 sure 월호 월호에 실리다 문채원 인터뷰 링크 tagexclamation sure 월호 월호는 주년 특집호 특집호입니 알찬내용 가득 다들 서점 고고싱 sure 문채원 공주의남자 최종병기활 sure잡지소장
+kbs2_princess	mcw1113	POST	pymbkzy-_w1f9		2011-08-19	의연 대한 대하다 감사 감다 공주의남자 제작스태프인듯 하다 읽다 눈물 2배 2배로 흐르다 tagcry 문배우 감사 글쓴이 감사 tagcry 문채원 공주의남자 문채원짜응 tagexclamation
+kbs2_princess	mcw1113	POST	pymbuun-_w1f9		2011-08-19	잡지 잡다 sure 9월호 9월호에 실리다 문채원 인터뷰 링크 tagexclamation sure 9월호 9월호는 10주년 특집호 특집호입니 알찬내용 가득 다들 서점 고고싱 sure 문채원 공주의남자 최종병기활 sure잡지소장
 kbs2_princess	cdfsy4	POST	pymbv37-53ifu		2011-08-20	공주 남자 남다 ost 백지영 백지영의 오늘 사랑
 kbs2_princess	han02jjang	POST	pymbvec-mzmq		2011-08-19	수양대군 최후 수양대군 최후
-kbs2_princess	cho208610	POST	pymbw8e-_gdhg		2011-08-19	야 공주 남자 재밋냐tagquestion넌 재밋냐tagquestion넌내게 반 끝나다 볼게 없다 보스 지켜라 지켜라나 봐야겠다 tagsmile
-kbs2_princess	juyyoo_	POST	pymb_9g-_qmdg		2011-08-19	공주의남자 회 승유 세령 저두 요새박시후 푹빠져서 미처가구잇네 미처가구잇네여 tagsmile
-kbs2_princess	insos02	POST	pymb_f1-_8lnw		2011-08-19	공주 남자 남다 다시보기 회 공주 남자 남다 다시보기 회
-kbs2_princess	barbieone	POST	pymd05f-ydoiw		2011-08-18	공주의남자 회 폭풍캡쳐
+kbs2_princess	cho208610	POST	pymbw8e-_gdhg		2011-08-19	야 공주 남자 재밋냐 tagquestion 넌내게 반 끝나다 볼게 없다 보스 지켜라 지켜라나 봐야겠다 tagsmile
+kbs2_princess	juyyoo_	POST	pymb_9g-_qmdg		2011-08-19	공주의남자 10회 승유 세령 저두 요새박시후 푹빠져서 미처가구잇네 미처가구잇네여 tagsmile
+kbs2_princess	insos02	POST	pymb_f1-_8lnw		2011-08-19	공주 남자 남다 다시보기 10회 공주 남자 남다 다시보기 10회
+kbs2_princess	barbieone	POST	pymd05f-ydoiw		2011-08-18	공주의남자 9회 폭풍캡쳐
 kbs2_princess	david870607	POST	pymd0w1-_5v0h		2011-08-18	공주의남자
-kbs2_princess	jyji0088	POST	pymd0z0-_gq2m		2011-08-15	나 나다 오늘 지금 빨다 시반 되다 오늘 공 공주의남자 스페셜 스페셜인데
+kbs2_princess	jyji0088	POST	pymd0z0-_gq2m		2011-08-15	나 나다 오늘 지금 빨다 4시반 되다 오늘 공 공주의남자 스페셜 스페셜인데
 kbs2_princess	dlekrud0505	POST	pymd15_-5ayd6		2011-08-17	백지영 오늘도사랑해 자동재생 듣기 듣다 가사 가다 공주의남자ost 공주의남자 ost tagsmile
 kbs2_princess	hahaha8430	POST	pymd1sv-_idbf		2011-08-18	tagsmile 공주 남자 남다 완전 대박 tagexclamation
-kbs2_princess	sepist	POST	pymd2q6-_sbqf		2011-08-17	에스티로더 쟈켓 건조기 가장 싸다 사는방법 신개념 소셜커머스 시 공주의남자 가 가다
+kbs2_princess	sepist	POST	pymd2q6-_sbqf		2011-08-17	에스티로더 쟈켓 건조기 가장 싸다 사는방법 신개념 소셜커머스 3시 공주의남자 가 가다
 kbs2_princess	gudwl0314	POST	pymd2wa-y47mk		2011-08-17	tagsmile 스파이 명월 명월은 월 화 호다 공주 남다 남자 수목 나도 나다 나 공주 남자 남다 팬이당 tagexclamation
 kbs2_princess	95371004	POST	pymd331-_or6q		2011-08-18	공주의남자 진짜너무너무너므너무재밌다 tagcry 박시후내이상형 tagsmile 곽윤기다음으로이렇게빠져본적처음이얀 taglove
 kbs2_princess	95371004	POST	pymd33f-_or6q		2011-08-18	공주의남자 진짜너무너무너므너무재밌다 tagcry 박시후내이상형 tagsmile 곽윤기다음으로이렇게빠져본적처음이얀 taglove
-kbs2_princess	verniigh	POST	pymd70c-_caj3		2011-08-18	공주의남자 회 예고 예
-kbs2_princess	dlwodud4749	POST	pymdaxv-75bb		2011-08-18	넌내반 넌내반이 오늘 마지막회 두둥 하다 이제 뭐 보지tagquestion 언니 보스본다구 하다 하 난 나다 날다 쫌더 생각해봐야겠얼 tagsmile 보스볼까tagquestion 공주 남자 괜찮을듯
-kbs2_princess	aqorhvma	POST	pymdbks-_sogq		2011-08-17	공주 남자 남다 ost part 노래대박좋다 네이버뮤직 공주 남자 남다 ost part
-kbs2_princess	narang282	POST	pymddcv-599eh		2011-08-18	공주 남자 남다 회 월 일 토도우
+kbs2_princess	verniigh	POST	pymd70c-_caj3		2011-08-18	공주의남자 10회 예고 예
+kbs2_princess	dlwodud4749	POST	pymdaxv-75bb		2011-08-18	넌내반 넌내반이 오늘 마지막회 두둥 하다 이제 뭐 보지 보다 tagquestion 언니 보스본다구 하다 하 난 나다 날다 쫌더 생각해봐야겠얼 tagsmile 보스볼까 tagquestion 공주 남자 괜찮을듯
+kbs2_princess	aqorhvma	POST	pymdbks-_sogq		2011-08-17	공주 남자 남다 ost part 3 노래대박좋다 네이버뮤직 공주 남자 남다 ost part 3
+kbs2_princess	narang282	POST	pymddcv-599eh		2011-08-18	공주 남자 남다 9회 8월17 일 토도우
 kbs2_princess	1choco3	POST	pymddtz-5dnxt		2011-08-15	공주 남자 남다 tagcry
-kbs2_princess	mople	POST	pymdevy-ybyr8		2011-08-17	공주 남자 남다 회 e 닥본사 닥 치다 치 본 보다 방 사 사다 닥치고본방사수 닥본사 별점 오늘 공주 남자 남다 회 e
+kbs2_princess	mople	POST	pymdevy-ybyr8		2011-08-17	공주 남자 남다 9회 e09닥본사  닥  치다 치  본  방  사  닥치고본방사수 닥본사 별점 오늘 공주 남자 남다 9회 e09
 kbs2_princess	fnqls100	POST	pymdez0-y05n6		2011-08-15	공주 남자 남다 재밌다 수목 닥본사 애들 요즘 댓글 댓글을 안 알다 달다 ㅁ 미투 못할정도 바쁘다
 kbs2_princess	qqndy0723	POST	pymdh6h-yodp_		2011-08-15	몰랐던사실 tagexclamation 슬옹이오빠 공주 남자 남다 열혈 시청자라는것 tagsmile 감수옹 날다 tagsmile
-kbs2_princess	jeniper123	POST	pymdh8v-y1_js		2011-08-18	공주 남자 남다 아 세령 세령의 정체 알아버린 불쌍 승유 tagcry tagcry 출궁 출궁한 궁녀 여리 가 가다 아니다 수양대군 장녀 세령 으 으로 만나다 이세령 김승유 김승유의 애절 만남 만나다 오늘 kbs 시 분 본방사수 해야겠네 해야겠네요 tagcry tagcry tagcry tagcry tagcry tagcry
+kbs2_princess	jeniper123	POST	pymdh8v-y1_js		2011-08-18	공주 남자 남다 아 세령 세령의 정체 알아버린 불쌍 승유 tagcry tagcry 출궁 출궁한 궁녀 여리 가 가다 아니다 수양대군 장녀 세령 으 으로 만나다 이세령 김승유 김승유의 애절 만남 만나다 오늘 kbs2 9시 55분 본방사수 해야겠네 해야겠네요 tagcry tagcry tagcry tagcry tagcry tagcry
 kbs2_princess	tbfor56	POST	pymdh9g-skx6		2011-08-17	하동균 이정 기다리다 공주의남자 ost
-kbs2_princess	sorrybaby7	POST	pymdhff-_u13		2011-08-18	공주 남자 남다 시청률 동시간대 위 돌파 기대 기대다 꺅 친하다 친구 둘 둘이 스텝 참여 있다 드라마예 드라마예요 첫회방송후 연기력 논란 말 말다 많다 좋다 분위기 타고 좋다좋다좋으 좋다좋다좋으다 tagexclamation 친구 힘내다 tagexclamation
+kbs2_princess	sorrybaby7	POST	pymdhff-_u13		2011-08-18	공주 남자 남다 시청률 동시간대 1위 20 돌파 기대 기대다 꺅 친하다 친구 둘 둘이 스텝 참여 있다 드라마예 드라마예요 첫회방송후 연기력 논란 말 말다 많다 좋다 분위기 타고 좋다좋다좋으 좋다좋다좋으다 tagexclamation 친구 힘내다 tagexclamation
 kbs2_princess	dmsl1318	POST	pymdhl9-55on0		2011-08-18	문채원 정체 드러나다 공주 남자 남다 시청률 고공상승 다크 시후 변신
 kbs2_princess	wlsgns	POST	pymdk85-b7go		2011-08-15	이정 하동균 기다릴게 공주의남자 ost 이정 하동균 기다릴게
 kbs2_princess	enverano	POST	pymdk8w-_g8re		2011-08-18	공주의남자 보기 보다 시작했닼 tagsmile
 kbs2_princess	mcw1113	POST	pymdpba-_w1f9		2011-08-15	문채원 흥행여왕 tagexclamation 드라마 공 영화 활 나란하다 상승세 관련기사클릭 스포츠동 스포츠동아 문채원 공주의남자 최종병기활 잘한다잘한다문배우
-kbs2_princess	verniigh	POST	pymdph_-_caj3		2011-08-18	공주의남자 회 시청률 를 향하다 달려랏 tagexclamation
+kbs2_princess	verniigh	POST	pymdph_-_caj3		2011-08-18	공주의남자 9회 시청률 20 를 향하다 달려랏 tagexclamation
 kbs2_princess	loanbay	POST	pymdprs-yrp_n		2011-08-17	공주 남자 남다 박시후 광기어린 눈빛 다크승유 변신 예고 예
 kbs2_princess	ehdxo112	POST	pymdu0y-_1tiq		2011-08-17	공주 남자ost 백지영 baek ji young 오늘 사랑
 kbs2_princess	98sonjh	POST	pymdvw3-ycbds		2011-08-18	헐 공주 남자 시청률 이겻엉 tagcry 우씨 tagexclamation
 kbs2_princess	josaebom0409	POST	pymdxba-_g7nw		2011-08-18	박정민인기드라마 공주의남자 ost 참여햇댕댕댕댕 박정민그립다노래진짜조아 tagcry
-kbs2_princess	rh831	POST	pymdzzy-yxx8h		2011-08-18	오늘 tagexclamation 넌내게반 하는놜 tagexclamation 본방사수 플리즈 오늘 넌내반 마지막회니깐 tagcry 봐주세 봐주세여 tagsmile 오늘 저녁 시 mbc 하다 하 넌내반 본방사수 미친 미친들아 보다 tagexclamation 공주의남자 보스를지켜 본방사수 금지 tagexclamation
+kbs2_princess	rh831	POST	pymdzzy-yxx8h		2011-08-18	오늘 tagexclamation 넌내게반 하는놜 tagexclamation 본방사수 플리즈 오늘 넌내반 마지막회니깐 tagcry 봐주세 봐주세여 tagsmile 오늘 저녁10 시 mbc 하다 하 넌내반 본방사수 미친 미친들아 보다 tagexclamation 공주의남자 보스를지켜 본방사수 금지 tagexclamation
 kbs2_princess	smh1845	POST	pyme089-5dw5a		2011-08-18	공주의남자 다시보기 공주의남자 오늘 하이라이트
 kbs2_princess	mcw1113	POST	pyme2g0-_w1f9		2011-08-19	공 문채원 문채원이 빛나다 빛 죽기 죽다 살다 살기 맘고생 문배우 tagcry 묵묵 연기 보여주다 tagcry 문채원 공주의남자 문배우화이팅 tagcry
 kbs2_princess	ph7314	POST	pyme3d0-ktk2		2011-08-18	오늘 공주 남자 남다 재밌었어 tagcry 슬프다 tagcry 매다 마지막 엔딩 장면 tagcry
-kbs2_princess	cfg452	POST	pyme3e_-32l8		2011-08-18	넌내반 끗 뭐보지 어짜피 다운 보다 뭐 수목극 수목극으 땡겨봐야지 tagsmile 공주 남자 남다 재밌나tagquestion tagsmile 난 나다 날다 보스지고는못살 보겟어 tagsmile
-kbs2_princess	itoss	POST	pyme3uj-q177		2011-08-18	공주의남자 회
-kbs2_princess	cns2860	POST	pyme4dv-5atbd		2011-08-19	공주 남자 남다 공 박시후 분노 독기 승유 승유에 빙의 시청자 극찬
+kbs2_princess	cfg452	POST	pyme3e_-32l8		2011-08-18	넌내반 끗 뭐보지 어짜피 다운 보다 뭐 수목극 수목극으 땡겨봐야지 tagsmile 공주 남자 남다 재밌 재밌나 tagquestion tagsmile 난 나다 날다 보스지고는못살 보겟어 tagsmile
+kbs2_princess	itoss	POST	pyme3uj-q177		2011-08-18	공주의남자10 회3
+kbs2_princess	cns2860	POST	pyme4dv-5atbd		2011-08-19	공주 남자 남다 공 박시후 분노 독기 승유 승유에 빙의 시청자 극찬 2011-08-19
 kbs2_princess	ceonjoy	POST	pyme4es-_bkgl		2011-08-19	원문 넷스터미디어 박시후 김승유 의 분노 웹
 kbs2_princess	joan960204	POST	pyme504-0dvh		2011-08-18	공주 남자에나오는수양 대군 딸 따다 시중드는애 영원 닮다 tagsmile
-kbs2_princess	dbdla98	POST	pyme5fp-_q6t7		2011-08-18	지금실시간 위 위 공주의남자 관련 tagsmile 금성ㄷㅐ군 안평대군 수양대군 tagsmile 짱 tagexclamation
-kbs2_princess	itoss	POST	pyme5uk-q177		2011-08-18	공주의남자 회
-kbs2_princess	19990803	POST	pyme6gv-y370b		2011-08-18	공주의남자 여자가눈감길래 둘이마지막키쑤하는줄알았는데 여자목을졸라ㄷㄷ 대반전 대반전이
+kbs2_princess	dbdla98	POST	pyme5fp-_q6t7		2011-08-18	지금실시간 1위 3위 공주의남자 관련 tagsmile 금성 ㄷㅐ 군 굴다 안평대군 수양대군 tagsmile 짱 tagexclamation
+kbs2_princess	itoss	POST	pyme5uk-q177		2011-08-18	공주의남자10 회
+kbs2_princess	19990803	POST	pyme6gv-y370b		2011-08-18	공주의남자 여자가눈감길래 둘이마지막키쑤하는줄알았는데 여자목을졸라 ㄷㄷ 대반전 대반전이
 kbs2_princess	a920910	POST	pyme6oa-5motb		2011-08-18	너무슬프 tagcry 공주의남자 제발해피엔딩이엇음좋겟다 tagcry
-kbs2_princess	stoniron1971	POST	pyme80_-_ms3y		2011-08-19	공주 남자 남다 화 호다 몰아보기중 찍찍
-kbs2_princess	jiruhecom	POST	pyme817-_50e_		2011-08-19	공주의남자 회 월 일 토도우
-kbs2_princess	sch8736	POST	pyme9ze-5hl69		2011-08-19	공주의남자 다시보기공주의 다시보기공주 남자 남다 회 다시보기 토렌트다운
+kbs2_princess	stoniron1971	POST	pyme80_-_ms3y		2011-08-19	공주 남자 남다 9,10화 몰아보기중 찍찍
+kbs2_princess	jiruhecom	POST	pyme817-_50e_		2011-08-19	공주의남자 10회 8월18 일 토도우
+kbs2_princess	sch8736	POST	pyme9ze-5hl69		2011-08-19	공주의남자 다시보기공주의 다시보기공주 남자 남다 10회 다시보기 토렌트다운
 kbs2_princess	01085744829	POST	pymed0b-_5_6m		2011-08-18	공주 남자 남다 오늘도못본다 tagcry tagsmile 보고프다보고프 보고프 보고프다 문채원문채원 토욜 시험끝나닌까 재방 tagcry
 kbs2_princess	domybest14	POST	pymedh1-5e8jc		2011-08-18	지금 공주 남자 남다 시청중 tagexclamation 승유 어떻게 어떻게해 tagcry 세령 세령이 잘 자다 되야 되야되는데 tagcry 공주 남자 남다 사랑 tagsmile
 kbs2_princess	ekfrl0516	POST	pymedm6-xh6d		2011-08-18	드라마 보고 보다 보 운건 천국의계단 이후 처음 tagcry 폿풍눈물 tagcry 으어어어엉 공주의남자 왜이렇게 슬프다 tagcry 눙물콧물폿팔 tagcry 공주의남자에나오 드라마 재밌는듯 근데 뭐징 정통사극 여우누이뎐 공주의남자 드라마 성악곡 성악곡이 잘 자다 나오는듯 노래좋다
@@ -304,218 +304,218 @@ kbs2_princess	lover_1981	POST	pymeduv-5mpa5		2011-08-18	아 박시후 넘 멋지
 kbs2_princess	buibuibui	POST	pymeefr-y69xr		2011-08-19	넌내반 닥본사 성공 공주 남자 싶어 싶다 미칠것 같다 넌내반 넌내반을 봤어염 tagsmile 나 나다 착하다 tagsmile 넌내반끝 넌내반끝나서 공주의남자 보고싶은데 엄마 못보게할듯 아아아
 kbs2_princess	ndh2059	POST	pymef6v-5_epi		2011-08-19	공주의남자ost 백지영 오늘도사랑해 듣기 듣다 굳 tagsmile
 kbs2_princess	testner	POST	pymefdv-yap3z		2011-08-19	공주 남자 남다 요즘 흥미진진 해지다 해지 같다 슬프지만말이죠
-kbs2_princess	fraujoo99	POST	pymeffn-_81ij		2011-08-19	공주의남자 회 자꾸 살아나다 김승유 외롭다 신다
-kbs2_princess	jiruhecom	POST	pymefqm-_50e_		2011-08-19	공주의남자 회 월 일 토도우
-kbs2_princess	itoss	POST	pymejua-q177		2011-08-19	공주의남자 회
+kbs2_princess	fraujoo99	POST	pymeffn-_81ij		2011-08-19	공주의남자10 회 자꾸 살아나다 김승유 외롭다 신다
+kbs2_princess	jiruhecom	POST	pymefqm-_50e_		2011-08-19	공주의남자 10회 8월18 일 토도우
+kbs2_princess	itoss	POST	pymejua-q177		2011-08-19	공주의남자10 회4
 kbs2_princess	skesw	POST	pymek7z-ydrew		2011-08-18	공주 남자 남다 문채원 얼굴 정말 예쁘다 연기 잘 왕짱 승유 스승님 스승님도 짱 근데 넘 슬푸 슬푸다 tagcry 신다 정말 실타 흐흑 tagcry 밉다 보다 그런지 연기 완전 꽝인거 가태 tagcry 가문 지키다 위해 위하다 죽마고우 죽이다 하다 하 표현 그렇다 밖 못 tagexclamation 흐흑윽 tagcry 웹
 kbs2_princess	ey1868	POST	pymek9h-_io6k		2011-08-18	공주의남자 taglove
 kbs2_princess	hjlee9374	POST	pymekf_-_86bl		2011-08-18	공주의남자너무 좋아좋 좋아좋아 근데 왜 외다 금성대군 멋있게보 멋있게보이지 큰일나다 난정말 나이많은사람 결혼해야하나봐 어허허허허
 kbs2_princess	ceonjoy	POST	pymenn_-_bkgl		2011-08-19	원문 넷스터미디어 박시후 김승유 의 분노 웹
-kbs2_princess	ohinjeang	POST	pymenx3-y5p4s		2011-08-19	공주 남자 남다 회 자신 자시다 찾아오다 세령 목 조르다 승유
-kbs2_princess	y10ws	POST	pymeoc1-ya4xm		2011-08-19	공주의남자 초반 재방송tagquestion 방송사고인줄 알다 대전제품사진 스튜디오 이음
-kbs2_princess	itoss	POST	pymepig-q177		2011-08-19	공주의남자 회 회예 회예고
-kbs2_princess	junelhw	POST	pymepju-9_dk		2011-08-19	넌내게 반했어가 오늘 끝 나다 tagexclamation tagsmile 둘리커플 잘어울렸구요tagsmile 난 나다 날다 공주 남자랑 남자 보스 지키다 사이 갈등중 tagcry 둘다 보고시프뎅에에ㅔㅔ tagsmile 개보는건 더힘들었어
-kbs2_princess	insos02	POST	pymepxp-_8lnw		2011-08-19	공주 남자 남다 다시보기 회 공주 남자 남다 다시보기 회
+kbs2_princess	ohinjeang	POST	pymenx3-y5p4s		2011-08-19	공주 남자 남다 10회 자신 자시다 찾아오다 세령 목 조르다 승유
+kbs2_princess	y10ws	POST	pymeoc1-ya4xm		2011-08-19	공주의남자 초반 재방송 tagquestion 방송사고인줄 알다 대전제품사진 스튜디오 이음
+kbs2_princess	itoss	POST	pymepig-q177		2011-08-19	공주의남자10 회11 회예 회예고
+kbs2_princess	junelhw	POST	pymepju-9_dk		2011-08-19	넌내게 반했어가 오늘 끝 나다 tagexclamation tagsmile 둘리커플 잘어울렸구요 tagsmile 난 나다 날다 공주 남자랑 남자 보스 지키다 사이 갈등중 tagcry 둘다 보고시프뎅에 ㅔㅔ tagsmile 3개보는건 더힘들었어
+kbs2_princess	insos02	POST	pymepxp-_8lnw		2011-08-19	공주 남자 남다 다시보기 10회 공주 남자 남다 다시보기 10회
 kbs2_princess	leehk2007	POST	pymepzu-m6yy		2011-08-19	어제 공주 남자 남다 진짜 긴장감 넘치다 세령이 세령이가 승유 승유를 살리다 위해 위하다 목숨거 목숨거는 장면 보고 보다 보 안타깝다 tagcry 글구 박시후 연기 진짜 잘 taglove 세령 세령이 승유 잘 자다 되다 좋다 텐데 회 거듭할수록 결말 어떻다 되다 궁금 tagexclamation
 kbs2_princess	spastar7	POST	pymeq00-5x8tg		2011-08-19	공주 남자 남다 박시후 문채원 재회 공주 남자 남다 박시후 문채원 재회 분노표출
 kbs2_princess	spastar7	POST	pymeqcp-5x8tg		2011-08-19	공주 남자 남다 박시후 분노 공주 남자 남다 박시후 분노 원수 딸 따다 문채원 목졸라
-kbs2_princess	stylisthanul	POST	pymeqic-_w5s7		2011-08-19	공주 남자 남다 자체 최고 최 시청률 갱신 기록
+kbs2_princess	stylisthanul	POST	pymeqic-_w5s7		2011-08-19	공주 남자 남다 자체 최고 최 시청률 갱신 19.6 기록
 kbs2_princess	mcw1113	POST	pymeq_w-_w1f9		2011-08-19	공주 남자 남다 문채원 애절 눈물연기 안방극장 점령 사극 퀸 문채원 공주의남자 세령공주 티비데일리 핏빛시작 세령이울지마아아아아
-kbs2_princess	nutrilite_sw	POST	pymesjc-5g09y		2011-08-19	공주 남자 남다 회 다시보기
-kbs2_princess	tjdghsladlek	POST	pymesu8-ekd2		2011-08-19	공주 남자 남다 회 토렌트
+kbs2_princess	nutrilite_sw	POST	pymesjc-5g09y		2011-08-19	공주 남자 남다 10회 다시보기
+kbs2_princess	tjdghsladlek	POST	pymesu8-ekd2		2011-08-19	공주 남자 남다 10회 토렌트
 kbs2_princess	auska1017	POST	pymevl3-y1bfh		2011-08-19	잘못 선택 널 널다 집어삼키다 전 돌아오다 어제 공주 남자 남다 극중 송종호분 박시후분 그리다 이민우분 의 스승 가문 위해 위하다 잘못 긷다 길 택하다 신다 송종호분 에다 한 하다 말 말다
-kbs2_princess	dbdla98	POST	pymey4o-_q6t7		2011-08-18	아주 보스를지켜 열풍이구만tagquestion 재밋긴재밋드롸 하지만난 공주의남자 보스는재방 유후
+kbs2_princess	dbdla98	POST	pymey4o-_q6t7		2011-08-18	아주 보스를지켜 열풍이구 tagquestion 재밋긴재밋드롸 하지만난 공주의남자 보스는재방 유후 3
 kbs2_princess	ekfrl0516	POST	pymeyhv-xh6d		2011-08-18	베랑당 창문 다열어놓고 다열어놓고있는데 담배스멜 스멀스멀 올라오다 진짜 찬물 확 끼얹다 주고싶드아 으아아아아아앙아아악 tagexclamation 짜증 진짜 tagexclamation 속쓰리다 담배냄새 아 tagcry 공주의남자 진짜 눈물샘 콧물샘 폿팔이다 폿팔이다이 tagcry
-kbs2_princess	dbdla98	POST	pymeyih-_q6t7		2011-08-18	난 나다 날다 수목드라마 공주의남자보는뎁 완전슬픔 tagcry tagexclamation 우리미친 수목드라마뭐보나tagquestion tagsmile tagsmile
+kbs2_princess	dbdla98	POST	pymeyih-_q6t7		2011-08-18	난 나다 날다 수목드라마 공주의남자보는뎁 완전슬픔 tagcry tagexclamation 우리미친 수목드라마뭐보 tagquestion tagsmile 3 tagsmile
 kbs2_princess	katekim0414	POST	pymeyu_-5_qbv		2011-08-18	공주 남자 남다 잼다 tagexclamation
 kbs2_princess	nadiag26	POST	pyme_81-_icu7		2011-08-19	공주 남자 남다 박시후 문채원 문채원을 향하다 사랑 사 증오 로
-kbs2_princess	itoss	POST	pyme_8b-q177		2011-08-18	공주의남자 회
+kbs2_princess	itoss	POST	pyme_8b-q177		2011-08-18	공주의남자10 회2
 kbs2_princess	segyuny	POST	pymk11p-g94y		2011-08-17	오다 오늘자 공주 남자 남다 예고편 이민우 카리스마다 대폭발이로구 tagexclamation
-kbs2_princess	jiwon008	POST	pymk16u-a1mt		2011-08-17	공주 남자 남다 김승유 김승유랑 여인 향기 의사역 엄기준 tagsmile 둘다 왜일케 귀여움tagquestion tagcry 엄기준 엄기준은 tv 초창기 내취향
-kbs2_princess	yeana30	POST	pymk1lp-500fo		2011-08-18	보스 지키다 화 호다 공주 남자 남다 화 호다 넌 널다 내다 반 화 호다 수목드라마 무료로보기
+kbs2_princess	jiwon008	POST	pymk16u-a1mt		2011-08-17	공주 남자 남다 김승유 김승유랑 여인 향기 의사역 엄기준 tagsmile 둘다 왜일케 귀엽다 tagquestion tagcry 엄기준 엄기준은 tv 초창기 내취향
+kbs2_princess	yeana30	POST	pymk1lp-500fo		2011-08-18	보스 지키다 5화 공주 남자 남다 9화 넌 널다 내다 반 14화 수목드라마 무료로보기
 kbs2_princess	jjm05222	POST	pymk2oh-yhtyl		2011-08-17	공주의남자보는중 tagsmile 보는사람미투
 kbs2_princess	rain215	POST	pymk38i-o1r9		2011-08-18	공주 남자 남다 박시후 문채원 정체 알다 가다 다음회 궁금 만드네 만드네요 tagsmile 엑스포츠뉴스
 kbs2_princess	dbsthdbs98	POST	pymk40e-chfd		2011-08-17	월화 월화는 스파이명월 tagexclamation 수목 공주 남자 남다 tagexclamation 토일 토일은 여인의향기 tagexclamation tagsmile 내가보는드라마 다 재밌어
 kbs2_princess	pca0527	POST	pymk4g0-5f9mc		2011-08-17	손에땀을쥐게하네진짴 tagsmile 공주의남자팟팅 tagexclamation
-kbs2_princess	leemiju0707	POST	pymk4tx-5xgj7		2011-08-17	조군 조군의 모바 모바일 지지자 지지다 클릭 tagexclamation 이거 첨해봐요tagsmile 이거 이거하려 이거하려고 공주 남자 컴켰다는 tagsmile 모두 방가방가 tagsmile me supporterformobile
-kbs2_princess	jjoonline	POST	pymk5as-5n3g8		2011-08-19	공주의남자 회 공주 남자 남다 회 다시보기
+kbs2_princess	leemiju0707	POST	pymk4tx-5xgj7		2011-08-17	조군 조군의 모바 모바일 지지자 지지다 클릭 tagexclamation 이거 첨해봐 첨해봐요 tagsmile 이거 이거하려 이거하려고 공주 남자 컴켰다는 tagsmile 모두 방가방가 tagsmile me2supporterformobile
+kbs2_princess	jjoonline	POST	pymk5as-5n3g8		2011-08-19	공주의남자 10회 공주 남자 남다 10회 다시보기
 kbs2_princess	london92	POST	pymk6zl-y3yn5		2011-08-18	그날이오면 이건 심훈 심훈의 조국광복염원 시 제목 tagsmile 미 부르다 그날이오면 노래좋다 tagsmile 가사 와닿다 tagsmile 역시 공주의남자 오에스티도머시쏭
-kbs2_princess	qwe9601	POST	pymk70m-5zuik		2011-08-18	완전사랑 taglove 스파이명월 taglove 여인의향기 taglove 공주의남자 드라마 땜 방학숙제한개도안했닼 tagsmile
+kbs2_princess	qwe9601	POST	pymk70m-5zuik		2011-08-18	완전사랑 taglove 스파이명월 taglove 여인의향기 taglove 공주의남자 3드라마 땜 방학숙제한개도안했닼 tagsmile
 kbs2_princess	starroom2	POST	pymk98h-yy2xz		2011-08-17	오늘 뭘볼까 뭘볼까나 tagsmile 보스 지켜라공주의남자 둘다잼 둘다잼나는데 tagsmile
-kbs2_princess	hyerantae	POST	pymk9nn-yephj		2011-08-19	내인생최고드라마 tagexclamation 공주의남자 tagexclamation 세상 제일 제 재밌다 진짜 안보면 후회 tagexclamation 수요일 수요 밤 시 분 본방사수 tagexclamation
-kbs2_princess	leejinyang1	POST	pymk9qc-5lmff		2011-08-18	아 머하는거지 tagexclamation 공주의남자 다운 ㄱㄱ씽 하다 tagsmile
-kbs2_princess	hyerantae	POST	pymk9w5-yephj		2011-08-19	공주 남자 남다 수목극 시청률 위 tagexclamation ㅇ오 ㅇ오에 tagexclamation 공주의남자 짱 최고 최 제일 제 재밌어
+kbs2_princess	hyerantae	POST	pymk9nn-yephj		2011-08-19	내인생최고드라마 tagexclamation 공주의남자 tagexclamation 세상 제일 제 재밌다 진짜 안보면 후회 tagexclamation 수요일 수요 밤 9시 55분 본방사수 tagexclamation
+kbs2_princess	leejinyang1	POST	pymk9qc-5lmff		2011-08-18	아 머하는거지 tagexclamation 공주의남자 다운 ㄱㄱ 씽 하다 tagsmile
+kbs2_princess	hyerantae	POST	pymk9w5-yephj		2011-08-19	공주 남자 남다 수목극 시청률 1위 tagexclamation ㅇ 오 tagexclamation 공주의남자 짱 최고 최 제일 제 재밌어
 kbs2_princess	yjim94	POST	pymkawz-jwg8		2011-08-17	나가다 tagcry 공주 남자보러
-kbs2_princess	kim849300	POST	pymkb4_-5b_t5		2011-08-17	ak몰 ak플라자 모델 이서진 현장스케치 가을 가다 남자 남다 이서진 f w 화보 생생 촬영현장
+kbs2_princess	kim849300	POST	pymkb4_-5b_t5		2011-08-17	ak몰 ak플라자 모델 이서진 현장스케치 가을 가다 남자 남다 이서진 2011 f w 화보 생생 촬영현장
 kbs2_princess	tmdfl4775	POST	pymkbar-5h2jq		2011-08-18	어제 공주 남자 보다 정말 재밌었어 근데 목매단거 목매단거는 무섭다 이제 어떡 다 보다 tagcry
-kbs2_princess	jsyoung1996	POST	pymkcdg-yd755		2011-08-18	이노래 조음 조다 tagsmile 백지영 오늘 사랑 공주 남자 남다 ost part
+kbs2_princess	jsyoung1996	POST	pymkcdg-yd755		2011-08-18	이노래 조음 조다 tagsmile 백지영 오늘 사랑 공주 남자 남다 ost part 1
 kbs2_princess	hwaya_001	POST	pymkcdu-15_3		2011-08-18	공주 남자 남다 세령 tagexclamation 극적 반전 연기력 대박 tagsmile
 kbs2_princess	baou0917	POST	pymkdb9-zvki		2011-08-19	공주 남자 남다 ost 애절 내 내다 마음 속 잠들어 잠들어있다
 kbs2_princess	hjlee7634	POST	pymkedn-s5wr		2011-08-19	아 벌쓰다 넌내게 반 랑 공주 남자 남다 끝나다 들다 들 번갈다 보다 tagcry 아깝다
-kbs2_princess	egte136	POST	pymkevw-5oqnx		2011-08-17	오늘뭐보지 공주의남자tagquestion넌내반 아 놔
+kbs2_princess	egte136	POST	pymkevw-5oqnx		2011-08-17	오늘뭐보지 공주의남자 tagquestion 넌내반 아 놔
 kbs2_princess	smallji	POST	pymkex2-y_1bz		2011-08-17	공주 남자 남다 tagsmile tagsmile
-kbs2_princess	the100yesi	POST	pymkfd3-yvat1		2011-08-18	공주 남자 남다 신다 당신 당신의 선택은tagquestion 헐리웃 패션 종결자 백여시
-kbs2_princess	hatbit29	POST	pymkg3b-e9b_		2011-08-17	윤길현사건 공주 남자 남다 신다 당신 당신의 선택은tagquestion
-kbs2_princess	bokyung0307	POST	pymkh2v-_stzn		2011-08-17	공주 남자 남다 오늘 스페셜 방송 들은거 들은거같은데 아닌가tagquestion
+kbs2_princess	the100yesi	POST	pymkfd3-yvat1		2011-08-18	공주 남자 남다 신다 당신 당신의 선택 tagquestion 헐리웃 패션 종결자 백여시
+kbs2_princess	hatbit29	POST	pymkg3b-e9b_		2011-08-17	윤길현사건 공주 남자 남다 신다 당신 당신의 선택 tagquestion
+kbs2_princess	bokyung0307	POST	pymkh2v-_stzn		2011-08-17	공주 남자 남다 오늘 스페셜 방송 들은거 들은거같은데 아니다 tagquestion
 kbs2_princess	lodeur87	POST	pymkkam-sa1w		2011-08-17	보스 지켜 지켜라 재미있긴한데 first first는 공주 남자
-kbs2_princess	0916annie	POST	pymklho-_85r8		2011-08-18	오다 tagexclamation 공주의남자 책 세상 이런일 tagsmile tagsmile me book 공주 남자 남다
-kbs2_princess	haeun528	POST	pymklvy-779c		2011-08-17	hey guys 공주 남자 남다 보구 스피킹 하는중tagsmile 오늘 공주 남자 남다 짱이였음tagsmile 진짜 마음 아프드 아프드라 진짜 레알 사진 사다 투척 해야겠음 승유 승유가 세령이 세령이가 수양대군 딸이란걸 알아버렸어 tagexclamation 두둥 tagexclamation 끄아아아아아아악 ㄱㄱㄱㄱ tagexclamation 둘 둘이 사랑 하다 taglove
+kbs2_princess	0916annie	POST	pymklho-_85r8		2011-08-18	오다 tagexclamation 공주의남자 책 세상 이런일 tagsmile tagsmile 공주 남자 남다
+kbs2_princess	haeun528	POST	pymklvy-779c		2011-08-17	hey guys 공주 남자 남다 보구 스피킹 하는중 tagsmile 오늘 공주 남자 남다 짱이 tagsmile 진짜 마음 아프드 아프드라 진짜 레알 사진 사다 투척 해야겠음 승유 승유가 세령이 세령이가 수양대군 딸이란걸 알아버렸어 tagexclamation 두둥 tagexclamation 끄아아아아아아악 ㄱㄱㄱㄱ tagexclamation 둘 둘이 사랑 하다 taglove
 kbs2_princess	goji1	POST	pymkm3u-idye		2011-08-19	원문 넷스터미디어 박시후 김승유 의 분노 웹
-kbs2_princess	junes26	POST	pymkmr3-yxvov		2011-08-19	공주 남자 남다 회 월 일 방송 보기 보다
+kbs2_princess	junes26	POST	pymkmr3-yxvov		2011-08-19	공주 남자 남다 10회 8월18 일 방송 보기 보다
 kbs2_princess	jeong8934	POST	pymkmu2-55kax		2011-08-17	수강신청 잘 여따가써서 무얼하게냐만공주의남자 빨 랑잘 랜다내일 행 운을빈다
-kbs2_princess	itoss	POST	pymkn0b-q177		2011-08-17	공주의남자 회다시보기
-kbs2_princess	nolee6154	POST	pymknhv-5uy3x		2011-08-18	공주의남자 kbs 저녁 시 분 본방사수우
+kbs2_princess	itoss	POST	pymkn0b-q177		2011-08-17	공주의남자9 회다시보기
+kbs2_princess	nolee6154	POST	pymknhv-5uy3x		2011-08-18	공주의남자 kbs 저녁 9시 55분 본방사수우
 kbs2_princess	_ye_eun	POST	pymknqo-5_b_s		2011-08-17	공주의남자너무슬퍼 아앙 아앙아 김종서왜죽어
-kbs2_princess	jsyoung1996	POST	pymkoad-yd755		2011-08-18	뉴스한국 뉴스스크랩 공주 남자 남다 시청률 동시간대 위 돌파 기대 기대다
-kbs2_princess	insos02	POST	pymkp12-_8lnw		2011-08-18	공주 남자 남다 다시보기 회 공주 남자 남다 다시보기 회
+kbs2_princess	jsyoung1996	POST	pymkoad-yd755		2011-08-18	뉴스한국 뉴스스크랩 공주 남자 남다 시청률 동시간대 1위 20 돌파 기대 기대다
+kbs2_princess	insos02	POST	pymkp12-_8lnw		2011-08-18	공주 남자 남다 다시보기 9회 공주 남자 남다 다시보기 9회
 kbs2_princess	fiftymd	POST	pymkpan-5r755		2011-08-20	신나다 볶음밥 냠냠 청소 싹싹 공주 남자 남다 틀어놓고 tagsmile 마음 가다 가늘다 가 건 거다 걸다 막을수 크 김승유 taglove
 kbs2_princess	spawilliam	POST	pymkpcy-_cr79		2011-08-20	공주 남자 남다 박시후 광채피부 따라잡다
 kbs2_princess	qufvytl	POST	pymkq01-5qhgv		2011-08-18	공주의남자 tagexclamation 짱좋 짱좋아 tagexclamation
-kbs2_princess	loveyou9742	POST	pymkqgz-shaw		2011-08-18	공주의남자 공주의남자 회 다시보기 고화질
-kbs2_princess	kalismajh	POST	pymkqic-_6u3i		2011-08-17	내일 이기겠지tagquestion 내일 직관 내일 내 로느님 나올거 같긴 같긴한데 오늘 야구 공주 남자 봐야겠다 tagsmile 내일 여성팬 위하다 날 해서 하다 다양 이벤트 많다 마련 합니당
+kbs2_princess	loveyou9742	POST	pymkqgz-shaw		2011-08-18	공주의남자 공주의남자 9회 다시보기 고화질
+kbs2_princess	kalismajh	POST	pymkqic-_6u3i		2011-08-17	내일 이기다 tagquestion 내일 직관 내일 내 로느님 나올거 같긴 같긴한데 오늘 야구 공주 남자 봐야겠다 tagsmile 내일 여성팬 위하다 날 해서 하다 다양 이벤트 많다 마련 합니당
 kbs2_princess	goji1	POST	pymkqjx-idye		2011-08-19	원문 넷스터미디어 박시후 김승유 의 분노 웹
-kbs2_princess	envy111	POST	pymksuf-_qter		2011-08-18	공주 남자 남다 회 명장면 다시보기
+kbs2_princess	envy111	POST	pymksuf-_qter		2011-08-18	공주 남자 남다 9회 명장면 다시보기
 kbs2_princess	likho2004	POST	pymksve-_hhr1		2011-08-17	공주 남자 남다 보는중 오늘 너무너무 슬픈이야기 있을것 있을것같다 tagcry
 kbs2_princess	goodsugar	POST	pymku62-ykmaf		2011-08-17	공주 남자 공포 남자 되어가다 있다 보 다 죽이다
-kbs2_princess	hyo0321	POST	pymkub3-cgyz		2011-08-17	신다 개객끼ㅗㅗㅗㅗㅗㅗㅗㅗㅗ 공주의남자 보다 보 완전 tagexclamation
+kbs2_princess	hyo0321	POST	pymkub3-cgyz		2011-08-17	신다 개객끼 ㅗㅗㅗㅗㅗㅗㅗㅗㅗ 공주의남자 보다 보 완전 tagexclamation
 kbs2_princess	minsung_1127	POST	pymkuwb-5crk5		2011-08-17	문채원 tagsmile 사극에마스카라번짐 tagsmile 아 tagsmile 웃기다 공주의남자 문채원 마스카라번짐
-kbs2_princess	wizard_0	POST	pymkv2h-_tqgh		2011-08-18	공주 남자 남다 회 드디어 정체 알다
-kbs2_princess	insos02	POST	pymkv6w-_8lnw		2011-08-18	공주 남자 남다 다시보기 회 공주 남자 남다 다시보기 회
+kbs2_princess	wizard_0	POST	pymkv2h-_tqgh		2011-08-18	공주 남자9 회 드디어 정체 알다
+kbs2_princess	insos02	POST	pymkv6w-_8lnw		2011-08-18	공주 남자 남다 다시보기 9회 공주 남자 남다 다시보기 9회
 kbs2_princess	choongeni123	POST	pymkv7a-vksd		2011-08-17	limbo limbo에 발도장 tagexclamation 수양대군 나쁜놈 tagexclamation via 아임in
 kbs2_princess	n2120416	POST	pymkvir-4krt		2011-08-17	요즘 사극 칼질 네댓번 죽다 죽지 않다 tagsmile 강철체력인가 강철체력 늘다 공주의남자 이야기 tagsmile
 kbs2_princess	ore321	POST	pymkvqt-5map2		2011-08-17	헐 어떡 미치다 공주의남자 tagcry
-kbs2_princess	y10ws	POST	pymkvzf-ya4xm		2011-08-17	공남효과 가 가다 뭐길래tagquestion 공주 남자 남다 수양대군 살다 살 돌아왔다tagquestion 대전사진 스튜디오 이음
+kbs2_princess	y10ws	POST	pymkvzf-ya4xm		2011-08-17	공남효과 가 가다 뭐길래 tagquestion 공주 남자 남다 수양대군 살다 살 돌아오다 tagquestion 대전사진 스튜디오 이음
 kbs2_princess	stellas_me2	POST	pymkxrc-_ekk5		2011-08-17	공주의남자 taglove 세령승유 화이팅 tagexclamation 정종 경햬공주 화이팅 tagexclamation
 kbs2_princess	hhhzzzz	POST	pymkz29-_qtj7		2011-08-17	공주의남자재밋어여 tagsmile 시후 시후가 taglove 쩔지 쩔지요 tagsmile
-kbs2_princess	vanessa0415	POST	pymkzvk-m901		2011-08-17	공주 남자vs보스 지키다
+kbs2_princess	vanessa0415	POST	pymkzvk-m901		2011-08-17	공주 남자vs 보스 지키다
 kbs2_princess	6doeun0302	POST	pymkzxq-5jfpm		2011-08-18	난 나다 날다 아무래 아무래도 공주의남자타입 tagsmile
 kbs2_princess	goodkissjg	POST	pymk_f3-5skoo		2011-08-18	공주 남자 남다 박시후 복수 직전 문채원 정체 알다 알
 kbs2_princess	goodkissjg	POST	pymk_j7-5skoo		2011-08-18	공주 남자 남다 박시후 복수 직전 문채원 정체 알다 알
 kbs2_princess	vldzld0	POST	pymk_ws-5b7q9		2011-08-17	수목 공주의남자 보스를지켜
 kbs2_princess	venz1010	POST	pymy07d-56mus		2011-08-18	박시후스타 공주의남자 박시후스타 박시후패션 벤즈스타
 kbs2_princess	kelleahyejin	POST	pymy1xx-yfrj4		2011-08-15	그러게 그러게요 tagsmile 보스 지켜 지켜라 재방 챙기다 공주 남다 남자 본바챙겨 본바챙겨보
-kbs2_princess	dda1dda	POST	pymy230-_tu9c		2011-08-17	따따 예쁘다 심플 라인 라 스키니진 http ddadda co kr shop goods goods view phptagquestiongoodsno 강병규 김성근 왕지혜 김종서 무릎팍도사 수양대군 유오성 효민 쇼콜라 따따 나오늘지금 강병규 김성근 왕지혜 김종서 무릎팍도사 수양대군 유오성 효민 쇼콜라
+kbs2_princess	dda1dda	POST	pymy230-_tu9c		2011-08-17	따따 예쁘다 심플 라인 라 스키니진 http ddadda.co.kr shop goods goods view.php tagquestion goodsno 918강병규 김성근 왕지혜 김종서 무릎팍도사 수양대군 유오성 효민 쇼콜라 따따 나오늘지금 강병규 김성근 왕지혜 김종서 무릎팍도사 수양대군 유오성 효민 쇼콜라
 kbs2_princess	ooo0827	POST	pymy4va-5ifsc		2011-08-18	공주 남자 남다
-kbs2_princess	gocheongsong	POST	pymy5zz-_mnz_		2011-08-18	드라마 공주의남자 의 문종 문종과 수양대군 세조 의 어머니 소헌왕후 기리다 공원 소헌공원 아시나요tagquestion 소헌공원알아보기 소헌공원 공주의남자 문종 수양대군
-kbs2_princess	zlaekdsm12	POST	pymy6ti-yvdv7		2011-08-16	문종은세종의아들단종은수양대군에의해금방죽었소복습 tagcry 그리고그다은을이은게세조tagquestion수양대군 인분도세종의아
+kbs2_princess	gocheongsong	POST	pymy5zz-_mnz_		2011-08-18	드라마 공주의남자 의 문종 문종과 수양대군 세조 의 어머니 소헌왕후 기리다 공원 소헌공원 알다 아시 tagquestion 소헌공원알아보기 소헌공원 공주의남자 문종 수양대군
+kbs2_princess	zlaekdsm12	POST	pymy6ti-yvdv7		2011-08-16	문종은세종의아들단종은수양대군에의해금방죽었소복습 tagcry 그리고그다은을이은게세조 tagquestion 수양대군 인분도세종의아
 kbs2_princess	eunmio_o	POST	pymy8af-5_t57		2011-08-17	공주의남자 볼 보다 준비해야겠다 d 핸드폰 잠시 ㅂㅇㅂㅇ 공남끝 공남끝나 공남끝나고 얼렁 자야징 tagexclamation
 kbs2_princess	qteunju1220	POST	pymy8f5-y2_jp		2011-08-15	공주의남자 손톱네일 아니드 아니드라 tagcry 이그그그그
-kbs2_princess	rnjspjy	POST	pymya7p-_gqma		2011-08-18	헐 공주 남자 남다 지금 분째 같다 장면 보여주다 방금 시작 진짜 재탕 너무하네 편집 잘못 건가요tagquestion 아니다 분량 딸리다 분량 보충 저러 저러는 건가요tagquestion 정말 궁금 공주 남자 남다 측 측의 신속 해명 부탁 tagcry tagcry tagcry ㅡ 공주 남자 남다 재탕
-kbs2_princess	coolhan0	POST	pymya8q-5zvn0		2011-08-18	박시후 박시후가 좋다tagsmile 공주의남자
-kbs2_princess	qlql1305	POST	pymya8_-yjpj2		2011-08-18	헐 공주의남자왜같은장면을보여줌tagquestion
+kbs2_princess	rnjspjy	POST	pymya7p-_gqma		2011-08-18	헐 공주 남자 남다 지금 15분째 같다 장면 보여주다 방금 시작 진짜 재탕 너무하네 편집 잘못 거다 걸다 tagquestion 아니다 분량 딸리다 분량 보충 저러 저러는 거다 걸다 tagquestion 정말 궁금 공주 남자 남다 측 측의 신속 해명 부탁 tagcry tagcry tagcry ㅡ 공주 남자 남다 재탕
+kbs2_princess	coolhan0	POST	pymya8q-5zvn0		2011-08-18	박시후 박시후가 좋다 tagsmile 공주의남자
+kbs2_princess	qlql1305	POST	pymya8_-yjpj2		2011-08-18	헐 공주의남자왜같은장면을보여줌 tagquestion
 kbs2_princess	rhaehf667	POST	pymyalg-rj3s		2011-08-17	공주의남자 수양대군 단종
-kbs2_princess	iever112	POST	pymyazi-y7bnz		2011-08-16	공주 남자 남다 박시후 김승유 눈빛 종 세트 달콤 절박 아련 절규 링크
+kbs2_princess	iever112	POST	pymyazi-y7bnz		2011-08-16	공주 남자 남다 박시후 김승유 눈빛 4종 세트 달콤 절박 아련 절규 링크
 kbs2_princess	dream_jangi	POST	pymyczu-_wp71		2011-08-17	공주의남자 못 음악 듣고 듣고있다 채원씨 채원씨의 추억 찾아가다 귀 열려 열려있으 열려있으니
-kbs2_princess	insos02	POST	pymyd8n-_8lnw		2011-08-16	공주 남자 남다 다시보기 회 공주 남자 남다 다시보기 회
+kbs2_princess	insos02	POST	pymyd8n-_8lnw		2011-08-16	공주 남자 남다 다시보기 8회 공주 남자 남다 다시보기 8회
 kbs2_princess	dlduswp0408	POST	pymygoo-y3asl		2011-08-17	수목 드라마 공 꺄아아악 멋져멋져 taglove 가슴 두근두근 공주 남자 남다 완죤 쨩
 kbs2_princess	makinoyui	POST	pymyh7p-yrytt		2011-08-17	공주 남자 남다 가 가다 올해 본 보다 드라마중 최고 다음 무사 백동수
-kbs2_princess	tjwngml6726	POST	pymyhan-xi2d		2011-08-17	공주 남자 남다 본방사주 싶다 tagcry ㅅ tagcry 이제 개학 해서 하다 빨다 집 가도 가다 가 시 분 tagcry
+kbs2_princess	tjwngml6726	POST	pymyhan-xi2d		2011-08-17	공주 남자 남다 본방사주 싶다 tagcry ㅅ tagcry 이제 개학 해서 하다 빨다 집 가도 가다 가 10시 30분 tagcry
 kbs2_princess	audrey0667	POST	pymyhcx-y25ml		2011-08-17	아놔 수양대군새끼 tagexclamation 초벌라 tagexclamation 흐윽 시후 시후야 tagexclamation
-kbs2_princess	dreamgy04	POST	pymyhwu-_ywr5		2011-08-18	공주 남자 남다 회 다시보기 월 일 재방송
+kbs2_princess	dreamgy04	POST	pymyhwu-_ywr5		2011-08-18	공주 남자 남다 9회 다시보기 8월17 일 재방송
 kbs2_princess	pon99281	POST	pymyi1g-5dq34		2011-08-17	조선판 로미오 로미오와 줄리엣 공주 남자 남다 taglove 문채원 taglove
 kbs2_princess	doobong01	POST	pymyj2f-54vnl		2011-08-18	공주의남자얼른해라보고싶다
-kbs2_princess	dream_jangi	POST	pymyj51-_wp71		2011-08-17	아직 젊다 나이탓인가tagquestion 병원가야겠다 심상치않다 팬심 멀어지다 두려워 tagcry 공주 남자 남다 흥하다
+kbs2_princess	dream_jangi	POST	pymyj51-_wp71		2011-08-17	아직 젊다 나이탓 나이탓인가 tagquestion 병원가야겠다 심상치않다 팬심 멀어지다 두려워 tagcry 공주 남자 남다 흥하다
 kbs2_princess	asdfgahj	POST	pymyjce-_glom		2011-08-18	공주 남자 남다 문채원 문채원의 정체알고 아버지 복수주춤
 kbs2_princess	qkrwltn0941	POST	pymykdm-y3g2n		2011-08-17	신숙주 국제적 안목 실무적 능력 겸비 조선 전 절다 공주 남자 보다 보 관심 네이버캐스트 인물과역사 인물한국사
 kbs2_princess	imh0810	POST	pymyl5i-5p6a1		2011-08-18	정종 카리스마다 장난 장 아니다 아니구 tagsmile 경혜공주 이제 마음 좀 조다 열다 여시게
-kbs2_princess	eeer0074	POST	pymylp1-_gxdw		2011-08-18	공주의남자 회 수양 딸 알게 알게된 승유 세령 세령의 행보
+kbs2_princess	eeer0074	POST	pymylp1-_gxdw		2011-08-18	공주의남자 10회 수양 딸 알게 알게된 승유 세령 세령의 행보
 kbs2_princess	lmr0912	POST	pymymjw-bebz		2011-08-17	공주의남자한다 tagcry
 kbs2_princess	yujinran	POST	pymymlx-y6dt5		2011-08-17	박정민 그립다 이승열 눈물꽃 공주 남자ost
-kbs2_princess	rhkrgpfls12	POST	pymymz2-iesn		2011-08-17	공주의남자tagquestion tagcry 오다 tagcry tagcry
+kbs2_princess	rhkrgpfls12	POST	pymymz2-iesn		2011-08-17	공주의남자 tagquestion tagcry 오다 tagcry tagcry
 kbs2_princess	smile308	POST	pymyn24-m_a9		2011-08-18	공주 남자 남다 캐재밌어 세령 세령이 안그래 안그래도 아까 칼 때문 때문에 아파서 상처나 상처나있는데 목 조르다 졸 얼마 아프다 으익쿠 세령 세령이 세령이는 승유 승유를 사랑 말야 비극적이로군
 kbs2_princess	rnr0413	POST	pymyn7_-qqeg		2011-08-18	요즘 공주 남자 남다 보고 수목드라마 세개 다 재밋는데 tagcry 점점 끝나가고 끝나가고있어 tagcry
 kbs2_princess	rlaejrwo111	POST	pymyn9x-_tynd		2011-08-18	공주 남자 남다 내일 내 빨리
 kbs2_princess	graceful94	POST	pymynoh-_fw57		2011-08-18	tagcry tagcry 오늘 보다 보 울다 tagcry tagcry 공주의남자 가슴 아프잖 아프잖아 tagcry tagcry
-kbs2_princess	rlaejrwo111	POST	pymyntw-_tynd		2011-08-18	공주 남자 남다 내일 내 승유 죽는가tagquestion
+kbs2_princess	rlaejrwo111	POST	pymyntw-_tynd		2011-08-18	공주 남자 남다 내일 내 승유 죽다 tagquestion
 kbs2_princess	rlaejrwo111	POST	pymynw7-_tynd		2011-08-18	공주 남자 남다 수양대군 이제 소원성취 승유 세령 진짜불쌍
 kbs2_princess	sayis48	POST	pymyo1d-jf0c		2011-08-17	퇴근길 욱하다 tagquestion 휘적휘적 가다 최종병기 활 보고 보다 보 귀가중 김무열님 김무열님과 활 나오다 사극 이 최소 정보 갖다 보다 그런지 재밌게 보고 보다 보 귀가중 얼른가서 공주 남자봐야지 tagexclamation 영화보 영화보는 동안 비가 비 왔었는지 땅 젖었고 매미 어느틈엔가 사라지다 귀뚜라미
 kbs2_princess	kminhee97	POST	pymyo4k-532w		2011-08-17	나다 나 보스 지켜라 지켜라를 보고 보다 보 싶다 tagexclamation 아빠 공주 남자 보시려 하시고 하시 tagexclamation 아아아아아아아아악 tagexclamation
-kbs2_princess	dlaqhfk7028	POST	pymyook-5v3ej		2011-08-18	넌내게반했어보스를지켜라공주의남자 중 뭐봐요tagquestion 난 나다 날다 다보는데 tagsmile 근데 재미있는걸 고르다 골 tagsmile
-kbs2_princess	dda1dda	POST	pymyqcy-_tu9c		2011-08-17	따따 예쁘다 페미닌 v 라인 라 원피스 http ddadda co kr shop goods goods view phptagquestiongoodsno 강병규 김성근 왕지혜 김종서 무릎팍도사 수양대군 유오성 효민 쇼콜라 따따 나오늘지금 강병규 김성근 왕지혜 김종서 무릎팍도사 수양대군 유오성 효민 쇼콜라
+kbs2_princess	dlaqhfk7028	POST	pymyook-5v3ej		2011-08-18	넌내게반했어보스를지켜라공주의남자 중 뭐봐 뭐봐요 tagquestion 난 나다 날다 다보는데 tagsmile 근데 재미있는걸 고르다 골 tagsmile
+kbs2_princess	dda1dda	POST	pymyqcy-_tu9c		2011-08-17	따따 예쁘다 페미닌 v 라인 라 원피스 http ddadda.co.kr shop goods goods view.php tagquestion goodsno 914강병규 김성근 왕지혜 김종서 무릎팍도사 수양대군 유오성 효민 쇼콜라 따따 나오늘지금 강병규 김성근 왕지혜 김종서 무릎팍도사 수양대군 유오성 효민 쇼콜라
 kbs2_princess	lmr0912	POST	pymyqhh-bebz		2011-08-17	공주의남자 아련 진짜 tagcry
-kbs2_princess	sswingss	POST	pymyqx6-sf3p		2011-08-18	요즘 고정 보다 보 프로그램 달랑 개 개다 공주 남자 남다 그리다 남자 자격 요즘 나한테 볼 보다 만 드라마 공주 남자 남다 딱 하 하나 남자 자격 청춘합창단 매 매다 회 최고 불후 명곡 사랑 이르다 이름 더하다 더하 들다 들 때 눈물 바람 김태원님 천재 tagcry tv
+kbs2_princess	sswingss	POST	pymyqx6-sf3p		2011-08-18	요즘 고정 보다 보 프로그램 달랑 2개 공주 남자 남다 그리다 남자 자격 요즘 나한테 볼 보다 만 드라마 공주 남자 남다 딱 하 하나 남자 자격 청춘합창단 매 매다 회 최고 불후 명곡 사랑 이르다 이름 더하다 더하 들다 들 때 눈물 바람 김태원님 천재 tagcry tv
 kbs2_princess	thereds	POST	pymyr9g-_qyou		2011-08-18	오늘 공주의남자 tagsmile
 kbs2_princess	jbeom0723	POST	pymys4e-59li2		2011-08-17	넌내반 참 차다 재밌다 tagsmile 공주 남자랑 남자 보스 지켜 지켜라 보고싶은데 넌내반 넌내반은 이번주 이번주가 마지막 tagsmile
 kbs2_princess	ej4440	POST	pymysgm-_52uj		2011-08-18	이제 티비보러간당 tagsmile 공주 남자 남다 할시 tagsmile
 kbs2_princess	kok3018	POST	pymysmr-yz800		2011-08-18	공주 남자 남다 보다 tagsmile 요새 마음 승유승유 승유승유해
 kbs2_princess	bbang96	POST	pymysr5-ka6r		2011-08-17	공주의남자를보고싶었으 보던거막방까지는봐야될거같아서넌내반봤더니 이건뭐지 막장이잖 tagsmile 에라이이러니깐시청률이안나오지 내일이막방인데예고편까지보여주고말 tagsmile 담주부턴공주의남자를봐야지 아갑자기성스보고싶다 내사랑성스 taglove 공주의남자 성균관스캔
 kbs2_princess	tmqjf6117	POST	pymysse-58qgv		2011-08-17	공주 남자 남다 최고 시간가는줄 모르다 빠지다
-kbs2_princess	joyce60325	POST	pymytje-n8ka		2011-08-18	이승열 yi sung yo 눈물꽃 공주 남자 남다 ost part
-kbs2_princess	joyce60325	POST	pymyto5-n8ka		2011-08-18	박정민 ss 그립다 공주 남자 남다 ost part
+kbs2_princess	joyce60325	POST	pymytje-n8ka		2011-08-18	이승열 yi sung yo 눈물꽃 공주 남자 남다 ost part.4
+kbs2_princess	joyce60325	POST	pymyto5-n8ka		2011-08-18	박정민 ss501 그립다 공주 남자 남다 ost part.4
 kbs2_princess	chaseohye	POST	pymyt_h-_wldu		2011-08-17	서변서변서변 taglove 내 내다 그대 때문 때문에 공주 남자 완결다 완결 안 보기 보다 시작해버렸소 책임지다 tagexclamation
 kbs2_princess	pdh9760	POST	pymyu0b-yeplw		2011-08-18	승유 세령 경혜공주 신다 정종 단종 다 불쌍 tagcry 수양대군 무리빼 무리빼고 다 불쌍 tagcry
-kbs2_princess	munbinie	POST	pymyu3h-yygee		2011-08-18	공주 남자 남다 하다 간 간만 보다 김승유 살려주다 네tagquestion 주인공 잖아 잖아요 tagcry
-kbs2_princess	hhhgusdk11	POST	pymyuge-51o_9		2011-08-18	공주의남자vs보스를지켜라bvs넌내게반
+kbs2_princess	munbinie	POST	pymyu3h-yygee		2011-08-18	공주 남자 남다 하다 간 간만 보다 김승유 살려주다 tagquestion 주인공 잖아 잖아요 tagcry
+kbs2_princess	hhhgusdk11	POST	pymyuge-51o_9		2011-08-18	공주의남자vs 보스를지켜라bvs 넌내게반
 kbs2_princess	rlaejrwo111	POST	pymyumi-_tynd		2011-08-17	월화 월화는 무사 백동수 수목 공주 남자 남다 주말 내 내다 사랑 사 내곁 내곁에
 kbs2_princess	rlaejrwo111	POST	pymyuso-_tynd		2011-08-17	내일 내 공주 남자 남다 기대
-kbs2_princess	duswjddnjs12	POST	pymyuwf-ytepp		2011-08-17	다음주 드라마 갈아타야 갈아타야되는데 tagsmile 보스 지성 코믹연기 압권 tagsmile 수목극 위 위엄 tagsmile 공주의남자 tagsmile 둘중 하 하나 월화극 월화극으 떠나다 tagexclamation tagsmile 뭘볼지 모르다 tagsmile 펀뜻 펀뜻하 아하 아하하 케로로 케로로하 릴라 릴라가 추천좀 해주삼
+kbs2_princess	duswjddnjs12	POST	pymyuwf-ytepp		2011-08-17	다음주 드라마 갈아타야 갈아타야되는데 tagsmile 보스 지성 코믹연기 압권 tagsmile 수목극 1위 1위의 위엄 tagsmile 공주의남자 tagsmile 둘중 하 하나 월화극 월화극으 떠나다 tagexclamation tagsmile 뭘볼지 모르다 tagsmile 펀뜻 펀뜻하 아하 아하하 케로로 케로로하 릴라 릴라가 추천좀 해주삼
 kbs2_princess	rlaejrwo111	POST	pymyuys-_tynd		2011-08-17	공주 남자 남다 넘 재미 tagexclamation
 kbs2_princess	soyeon1232	POST	pymyv1d-_6pqx		2011-08-18	공주의남자 어찌
 kbs2_princess	withbaram	POST	pymyv3j-jkgf		2011-08-18	못다본 드라마 보고싶으시다던 대장님 대장님을 위해 위하다 무사 백동수 백동수를 다운 공주 남자 다운 대장님 아직 아직도 보고계셔 춈 무섭다 집중력 내일 내 출장가잖 잠좀자 잠좀자요 tagcry
 kbs2_princess	pgh0428	POST	pymyvdj-_oetd		2011-08-18	공주의남자때문 심장 쫄깃쫄깃하다 에휴 tagcry
-kbs2_princess	ej4440	POST	pymyvkc-_52uj		2011-08-18	티비다봤어 박시후 박시후랑 문채원죽는건 아니겠지tagquestion
+kbs2_princess	ej4440	POST	pymyvkc-_52uj		2011-08-18	티비다봤어 박시후 박시후랑 문채원죽는건 아니다 tagquestion
 kbs2_princess	ymf11	POST	pymyvm7-_gq1f		2011-08-16	공주의남자
-kbs2_princess	kobin99	POST	pymywd_-omfo		2011-08-17	를 기다리다 tv씨 공주 남자 남다
+kbs2_princess	kobin99	POST	pymywd_-omfo		2011-08-17	10 00 00를 기다리다 tv씨 공주 남자 남다
 kbs2_princess	lsh62077	POST	pymy_2t-jhzr		2011-08-17	그나저 그나저나 오늘 드디어 기다리다 기다리다 공주의남자 가 가다 하다 본방사수 를 할수 있다 걱정 tagcry 공주의남자 짱 tagexclamation
 kbs2_princess	ewanjude	POST	pym_0e7-et22		2011-08-16	딴남자 딴남자랑 놀다 강냉이털린 꼬맹공주
 kbs2_princess	dlekwjd1108	POST	pym_39v-57cth		2011-08-17	서울역사박물관 봉사왔는데 공주의남자 촬영중 tagexclamation 꺅 tagexclamation 싸 tagexclamation
 kbs2_princess	romoso100	POST	pym_3h7-_oo02		2011-08-19	연인 연 공주 남자 남다 박시후 원수 딸 연인 연 문채원 경악 땡뚱 연인 연
-kbs2_princess	abcde2310	POST	pym_3wc-yjqnc		2011-08-17	공주 남자 남다 ost part
+kbs2_princess	abcde2310	POST	pym_3wc-yjqnc		2011-08-17	공주 남자 남다 ost part 4
 kbs2_princess	__strawberry	POST	pym_5fg-59r0s		2011-08-19	man who treats his woman like princess proof he has been born raised arms queen 남자 여자 공주 취급 남다 남자 여왕 무기 태어나다 자란 중거 중거이
-kbs2_princess	rlaejrwo111	POST	pym_7ce-_tynd		2011-08-18	공주 남자 남다 금성대군 안평대군 물론 부마 정종 모두 얼마안되서 또 죽다 아마 부작 사이 둑을듯
+kbs2_princess	rlaejrwo111	POST	pym_7ce-_tynd		2011-08-18	공주 남자 남다 금성대군 안평대군 물론 부마 정종 모두 얼마안되서 또 죽다 아마 11 14부작 사이 둑을듯
 kbs2_princess	rlaejrwo111	POST	pym_7ki-_tynd		2011-08-18	공주 남자 남다 온녕군 에헤 에헤이 재밌다 tagsmile
 kbs2_princess	big3253	POST	pym_7su-5j22t		2011-08-17	으아 방학두 며칠안남앗넵 tagcry 방학숙제 어쩌다 행복끝 tagexclamation 불행시작 tagexclamation tagcry 이로구 이로구나 여인의향기 불굴 며느리 공주 남자 남다 스파이명월 빠져사는데 개학 어떻 어떻해 tagcry
-kbs2_princess	rtrack	POST	pym_7z7-sghs		2011-08-18	ㅇ ㅇ 새롭다 곡들 편입 tagexclamation ㅅ 새곡 새곡들로 리스트 재구성 공주 남자 남다 bgm bgm과 노랗다 노래 있어용 ㅅ
+kbs2_princess	rtrack	POST	pym_7z7-sghs		2011-08-18	ㅇ 3 ㅇ 새롭다 곡들 편입 tagexclamation ㅅ 새곡 새곡들로 리스트 재구성 공주 남자 남다 bgm bgm과 노랗다 노래 있어용 ㅅ
 kbs2_princess	elfjinee13	POST	pym_87_-_sf5m		2011-08-17	흐뜨아악 오늘 공주의남자 한당 tagexclamation ㅇ
-kbs2_princess	ljy9644	POST	pym_8nl-msv4		2011-08-18	공주 남자 남다 회 보스 순정 회 토렌트 입니당 tagsmile
+kbs2_princess	ljy9644	POST	pym_8nl-msv4		2011-08-18	110817 공주 남자 남다 9회 보스 순정 5회 토렌트 입니당 tagsmile
 kbs2_princess	wownddlfmf	POST	pym_8pk-ysb1e		2011-08-18	엄마 아빠 오시는군 안농 벽반 보스 그냥봐야할듯 공주의남자 시청률 일위 tagcry
 kbs2_princess	param25	POST	pym_9w4-_w_nh		2011-08-17	박시후 공주 남자서 광기 끝 보여주다 보
 kbs2_princess	yunseo9941	POST	pym_a13-_elpz		2011-08-18	흑흑 오늘 넌 널다 내다 반 마지막회 tagcry 그럼 공주 남자랑 남자 여인 향기 볼태 볼태야 tagexclamation
 kbs2_princess	tablebears	POST	pym_bi7-_q7w0		2011-08-16	오늘자정 그립다 나오다 tagcry tagcry 공주의남자 ost 궁금하다긔 tagsmile
-kbs2_princess	suyame2	POST	pym_dj0-5yb3e		2011-08-18	하동균 이정 기다릴게 공주 남자 남다 ost part 음악 mv 가사 가다 곡소개
+kbs2_princess	suyame2	POST	pym_dj0-5yb3e		2011-08-18	하동균 이정 기다릴게 공주 남자 남다 ost part.3 음악 mv 가사 가다 곡소개
 kbs2_princess	dlekwjd1108	POST	pym_e54-57cth		2011-08-17	여기 수양대군이랑공주랑왕이랑부마랑신숙주랑다 제일중요 제일중요한 박시후가 tagcry
 kbs2_princess	tmdfl4775	POST	pym_elq-5h2jq		2011-08-17	우 오늘 공주 남자한다 재밌겠다 그러니까 어제 김종서 김종서랑 큰아들 tagquestion 죽다 이제 아이구 떨리다
-kbs2_princess	jjoonline	POST	pym_ez1-5n3g8		2011-08-18	공주의남자 회 공주 남자 남다 회 다시보기
-kbs2_princess	wjdgmlwls486	POST	pym_g53-ynkrm		2011-08-18	걷기운동 하고있다 날씨 시원 딱좋네 딱좋네요 tagsmile 친구 통화 걸다 분 tagsmile 한시 채우다 가야징 tagexclamation 오늘밤 공주의남자 완전 기대중tagsmile
-kbs2_princess	h2ochung	POST	pym_lev-_s5_e		2011-08-18	백지영 오늘 사랑 네이버앱 음악검색 공주 남자 남다 ost part
-kbs2_princess	tjwngml6726	POST	pym_lpd-xi2d		2011-08-18	천진난 천진난만 벗다 세령이 세령이가 강 tagexclamation ㅇㅅㅇ 지금 공주 남자 인기 후끈 검색어 거의 거 공 tagsmile 어제 시청률 정도 정 였으니 오늘 하다 이제 진정 로미오 로미오와 줄리엣 ㅅ
+kbs2_princess	jjoonline	POST	pym_ez1-5n3g8		2011-08-18	공주의남자9 회 공주 남자 남다 9회 다시보기
+kbs2_princess	wjdgmlwls486	POST	pym_g53-ynkrm		2011-08-18	걷기운동 하고있다 날씨 시원 딱좋네 딱좋네요 tagsmile 친구 통화 걸다 40분 40분이 tagsmile 한시 채우다 가야징 tagexclamation 오늘밤 공주의남자 완전 기대중 tagsmile
+kbs2_princess	h2ochung	POST	pym_lev-_s5_e		2011-08-18	백지영 오늘 사랑 네이버앱 음악검색 공주 남자 남다 ost part 1
+kbs2_princess	tjwngml6726	POST	pym_lpd-xi2d		2011-08-18	천진난 천진난만 벗다 세령이 세령이가 강 tagexclamation ㅇㅅㅇ 지금 공주 남자 인기 후끈 검색어 거의 거 공 tagsmile 어제 시청률 19 정도 정 였으니 오늘 하다 이제 진정 로미오 로미오와 줄리엣 ㅅ
 kbs2_princess	imaram-	POST	pym_ly4-y9dlh		2011-08-18	공주의남자 진짜입이안다물어지 수목열시 밤 tagcry 진짜예고 자세히해주 친절 드라마 와대박 와대박이 다들발연기발연기하지만 드라마에빠지면 그딴거안보 마지막 대반전 목 조를줄 조를줄이 tagcry ㄷㄷㄷㄷ
-kbs2_princess	dreamgy04	POST	pym_mbk-_ywr5		2011-08-19	공주 남자 남다 회 다크 박시후 다시보기 월 일 재방송
-kbs2_princess	co6240	POST	pym_n25-_p__e		2011-08-18	공주 남자한당 tagexclamation 승유 승유하 세령 세령이 어떻다 될까tagquestion 궁금궁금 또궁금
+kbs2_princess	dreamgy04	POST	pym_mbk-_ywr5		2011-08-19	공주 남자 남다 10회 다크 박시후 다시보기 8월18 일 재방송
+kbs2_princess	co6240	POST	pym_n25-_p__e		2011-08-18	공주 남자한당 tagexclamation 승유 승유하 세령 세령이 어떻다 되다 tagquestion 궁금궁금 또궁금
 kbs2_princess	gksrufrufruf	POST	pym_n2d-ya8z4		2011-08-18	스킨바꿧어용 공주의남자 보고 그냥그렇다 tagcry 엄마떄문 억지 보는중
 kbs2_princess	co6240	POST	pym_nvb-_p__e		2011-08-18	보스 지켜라두잼 지켜라두잼있는데 난 나다 날다 공주 남자 본다네 tagsmile
-kbs2_princess	egothing	POST	pym_q2p-6p05		2011-08-18	이승열 눈물꽃뮤지컬의한대목 드라마ost라고나와서깜놀 네이버앱 음악검색 공주 남자 남다 ost part
+kbs2_princess	egothing	POST	pym_q2p-6p05		2011-08-18	이승열 눈물꽃뮤지컬의한대목 드라마ost 라고나와서깜놀 네이버앱 음악검색 공주 남자 남다 ost part 4
 kbs2_princess	swt917	POST	pym_qph-_s65z		2011-08-16	아싸 tagexclamation 내일 내 공주의남자 하다 기대
 kbs2_princess	flskshfdl	POST	pym_qsw-yr04_		2011-08-18	공주의남자 taglove 요새내가요거땜에산다
-kbs2_princess	mople	POST	pym_riv-ybyr8		2011-08-18	공주 남자 남다 회 e 닥본사 닥 치다 치 본 보다 방 사 사다 닥치고본방사수 닥본사 별점 오늘 공주 남자 남다 회 e
-kbs2_princess	nurs09	POST	pym_s97-ygvae		2011-08-18	기다릴게 이노래 듣기좋네 tagsmile 공주의남자 ost part 신혜성 여원여모 여원여모도 너무좋은것
+kbs2_princess	mople	POST	pym_riv-ybyr8		2011-08-18	공주 남자 남다 10회 e10닥본사  닥  치다 치  본  방  사  닥치고본방사수 닥본사 별점 오늘 공주 남자 남다 10회 e10
+kbs2_princess	nurs09	POST	pym_s97-ygvae		2011-08-18	기다릴게 이노래 듣기좋네 tagsmile 공주의남자 ost part3 신혜성 여원여모 여원여모도 너무좋은것
 kbs2_princess	asuvin	POST	pym_sus-ytd5g		2011-08-19	공주의남자ost 너무좋 너무좋아 taglove tagcry ㅅ tagcry 날다 운명 곡 무한반복듣고 tagcry ㅇ tagcry b
 kbs2_princess	rja1112	POST	pym_t7r-_ypsa		2011-08-18	공주의남자 taglove tagsmile 김승윸 완죤재미써 tagsmile
 kbs2_princess	babynews2010	POST	pym_tby-_58o3		2011-08-18	베이비뉴스드라마 공주 남자 남다 속 결혼 한복 유행 예감 문채원 홍수현 극중 여배우 곱다 한복 눈 띄다
 kbs2_princess	yysapple	POST	pym_u1p-5etch		2011-08-17	오늘 공주 남자 남다 하다 하 날 나다 tagsmile 엄마아빠 중국가서 언니 퇴근 전 나홀로집 나홀로집에 찍다 중 롱롱 만나다 taglove
-kbs2_princess	siun98	POST	pym_u83-yypmz		2011-08-18	공주 남자 보고 보다 보 있습니다tagsmile 어휴 tagcry 불쌍 세령 세령과 승유
+kbs2_princess	siun98	POST	pym_u83-yypmz		2011-08-18	공주 남자 보고 보다 보 있다 tagsmile 어휴 tagcry 불쌍 세령 세령과 승유
 kbs2_princess	talgga	POST	pym_v5p-ybr7o		2011-08-18	공주 남자 남다 ost part bgm listening 갈 가다 없다 사랑 사 various artists 공주 남자 남다 ost part bgm
 kbs2_princess	hatbit29	POST	pym_v5w-e9b_		2011-08-17	공주의남자스페셜 공주 남자 남다 스페셜 광복절 편성 복습 시간 돌아오다
-kbs2_princess	tjwngml6726	POST	pym_vle-xi2d		2011-08-18	공주 남자 남다 이순재 마지막 촬영현장 공개 서양떡 좀 조다 잡솨보슈 http yaphoto co kr news tagquestionc
+kbs2_princess	tjwngml6726	POST	pym_vle-xi2d		2011-08-18	공주 남자 남다 이순재 마지막 촬영현장 공개 서양떡 좀 조다 잡솨보슈 http yaphoto.co.kr news tagquestion c 47_43636
 kbs2_princess	ari_81	POST	pym_vlz-y9uyv		2011-08-18	이시 이시간에 애벌레 칙힌파티 공주의남자 넘 잼쏭 taglove
 kbs2_princess	saliormars	POST	pym_vwz-ro9_		2011-08-18	공주 남자 남다 여주 진짜 싫닼 tagsmile tagsmile 내 가장 싫어 타입
 kbs2_princess	shulgioh	POST	pym_wou-1xm1		2011-08-18	세모 공주 남자 보고 보다 보 문자 하다 해
 kbs2_princess	rlaejrwo111	POST	pym_x4b-_tynd		2011-08-18	공주 남자 남다 에헤 에헤이 아무래두 금성 물론 부마 정종 금성대군 모두 죽여야겠소
 kbs2_princess	wjddmswn1014	POST	pym_xdk-y6zao		2011-08-18	금성대군 유배 안평대군 살해 정종 사약먹고 단종 왕위 뺏다 뺏기다 경혜공주 노비되 노비되고 앞 고생길훤 진짜 그나저나여원여모는언제나올련지
-kbs2_princess	rlaejrwo111	POST	pym_xq9-_tynd		2011-08-18	공주 남자 남다 에헤 에헤이 금성 어찌 수양 막는가tagquestion 나다 나 수양대군 평 어제 김종서 노인네 노인네가 쇠솨슬 쇠솨슬을 막다 죽을껏 죽을껏이지 어찌tagquestion 금성대군 감하다 감하 두지않을껏
+kbs2_princess	rlaejrwo111	POST	pym_xq9-_tynd		2011-08-18	공주 남자 남다 에헤 에헤이 금성 어찌 수양 막다 tagquestion 나다 나 수양대군 평 어제 김종서 노인네 노인네가 쇠솨슬 쇠솨슬을 막다 죽을껏 죽을껏이지 어찌 tagquestion 금성대군 감하다 감하 두지않을껏
 kbs2_princess	stoniron1971	POST	pym_yzi-_ms3y		2011-08-16	캐릭터 비교 드라마 대왕세종 vs 공주 남자 남다 안평대군 두 드라마 존재감 별로 별로이 역사적 매우 훌륭하다 분
-kbs2_princess	asdfw1023	POST	pym_zcw-50hql		2011-08-19	하동균 이정 기다릴게 네이버앱 음악검색 공주 남자 남다 ost part
+kbs2_princess	asdfw1023	POST	pym_zcw-50hql		2011-08-19	하동균 이정 기다릴게 네이버앱 음악검색 공주 남자 남다 ost part 3
 kbs2_princess	ajswlqjffp	POST	pym_ze3-tuov		2011-08-18	아놔 공주 남자 남다 오늘 대박잼있을텐뎁 방학숙제
-kbs2_princess	shinymin81	POST	pym_zf3-5bi5l		2011-08-19	공주의남자ost백지영 오늘 사랑
-kbs2_princess	fic123	POST	pym_zvs-i_63		2011-08-18	토렌트다운 공주 남자 남다
+kbs2_princess	shinymin81	POST	pym_zf3-5bi5l		2011-08-19	공주의남자ost 백지영 오늘 사랑
+kbs2_princess	fic123	POST	pym_zvs-i_63		2011-08-18	110818 토렌트다운 공주 남자 남다
 kbs2_princess	gudwl0314	POST	pym_zy0-y47mk		2011-08-18	tagsmile 난 나다 날다 이제 공주 남자 남다 봐야징
 kbs2_princess	sooni082	POST	pym_z_w-518bv		2011-08-18	오늘 폰이구 컴이구 미투 미투가 테러당한게 댓글달다 속터지다 전 일단 후퇴 tagexclamation 우띠 tagexclamation 공주의남자 보다 간다 간다요
-kbs2_princess	dudmf1212	POST	pym__t1-y0iwu		2011-08-18	할껀많은데 벌서다 시간째 멍 아무것 아무것도 하기싫응잠자 싶다티라미슈 먹고싶다공주 남자 남다 보거싶다 tagcry tagcry 어제 회까지 회까지보 잠 자다 tagsmile
-kbs2_princess	sophie010602	POST	pyo4167-_y9om		2011-08-16	공주 남자 남다 회 줄거리
+kbs2_princess	dudmf1212	POST	pym__t1-y0iwu		2011-08-18	할껀많은데 벌서3 시간째 멍 아무것 아무것도 하기싫응잠자 싶다티라미슈 먹고싶다공주 남자 남다 보거싶다 tagcry tagcry 어제 5회까지 5회까지보 잠 자다 tagsmile
+kbs2_princess	sophie010602	POST	pyo4167-_y9om		2011-08-16	공주 남자 남다 2회 줄거리
 kbs2_princess	sophie010602	POST	pyo41s0-_y9om		2011-08-16	공주 남자 남다 주요 주다 주 등장인물
-kbs2_princess	sophie010602	POST	pyo41y3-_y9om		2011-08-16	공주 남자 남다 회 줄거리
+kbs2_princess	sophie010602	POST	pyo41y3-_y9om		2011-08-16	공주 남자 남다 1회 줄거리
 kbs2_princess	wly70707	POST	pyo43zh-_oxr7		2011-08-15	공주의남자 저반
-kbs2_princess	syeon1	POST	pyo49et-hyg9		2011-08-15	하동균 이정 기다릴게 네이버앱 음악검색 공주 남자 남다 ost part
+kbs2_princess	syeon1	POST	pyo49et-hyg9		2011-08-15	하동균 이정 기다릴게 네이버앱 음악검색 공주 남자 남다 ost part 3
 kbs2_princess	knd123	POST	pyo4d04-5v7wh		2011-08-15	공주 남자 남다 홍수현 헤어스타 단발머리 이대미용실 이대미용실추천 이철헤어커커 발롱펌 러블리펌 바디펌 매직세팅 세팅펌 파마잘하는곳 염색잘하는곳
 kbs2_princess	dndus211	POST	pyo4hpw-5e561		2011-08-15	공주의남자재방시청중 완죤잼
 kbs2_princess	gsj2113	POST	pyo4lni-_bcaq		2011-08-16	아오 난 나다 날다 보다 보고 말다 공주 남자 남다 제목 정말 오글거려서 피하다 피 피하 싶다 내용 로미오 로미오와 줄리엣 줄리엣이긴 한데 하다 tagcry 주인공때문 보고
@@ -524,38 +524,38 @@ kbs2_princess	ghdudrnfu	POST	pyo4v8b-_g3c9		2011-08-15	언니 tagsmile 괜찮다
 kbs2_princess	leejs11208	POST	pyo72dj-rl52		2011-08-17	공주 남자 남다 몇백년 전 절다 죽다 죽 남자 남다
 kbs2_princess	98sonjh	POST	pyo72fi-ycbds		2011-08-17	예진 예진아 tagexclamation 개학식 우리 만나다 기쁘다 기쁨 포옹 tagquestion 을 하잣꾸 하잣꾸나 tagexclamation 공주 남자 남다 끝나다 시청률 빡빡 올라가는뎁 에잇 tagexclamation
 kbs2_princess	yuminin	POST	pyo72mo-5olc5		2011-08-17	수목드라마 tagexclamation 공주의남자 tagexclamation 재밌어 재밌어요 다시보기 보다 이번 이번에 기대기대 tagexclamation 업데이트 하다 하 데 데로 돈 내다 내 봐야겠어 봐야겠어요 tagsmile ㄷ tagsmile ㄷ
-kbs2_princess	wnsdud310	POST	pyo72o3-_mcz2		2011-08-17	근대ㅏ공주의남자 그사람내시자 그사람내시자나 tagsmile 내시랑연애 어떻캐 어떻캐함 tagsmile
+kbs2_princess	wnsdud310	POST	pyo72o3-_mcz2		2011-08-17	근대 ㅏ 공주의남자 그사람내시자 그사람내시자나 tagsmile 내시랑연애 어떻캐 어떻캐함 tagsmile
 kbs2_princess	shenxinye	POST	pyo758g-_oh0p		2011-08-15	공주 남자 남다 많다 지지 시후오빠 화이팅 tagexclamation
 kbs2_princess	shenxinye	POST	pyo75f9-_oh0p		2011-08-15	공주 남자 남다 많다 지지 시후오빠 화이팅 tagexclamation
 kbs2_princess	shenxinye	POST	pyo75or-_oh0p		2011-08-15	공주 남자 남다 많다 지지 시후오빠 화이팅 tagexclamation
 kbs2_princess	sbssdiary	POST	pyo77oz-ye2fn		2011-08-15	공주 남자 남다 박시후 다이어트 식단 식다 공개
-kbs2_princess	pepperholic	POST	pyo7a24-bn73		2011-08-17	kbs 특별기획 드라마 공주 남자 남다 ost part 바람꽃 이승열 너르다 사랑 남다 남 기억 잡다 애 쓰다 이젠 아무것 아무것도 없다 없구 한번 한번만 널 널다 안다 서린가슴 내어두 내어두고 떠나다 떠 사랑 이르다 이름 부르다 지치다 지 지치다 그립다 그립다 눈물꽃 눈물꽃을 먹는다
+kbs2_princess	pepperholic	POST	pyo7a24-bn73		2011-08-17	kbs 특별기획 드라마 공주 남자 남다 ost part.4 바람꽃 이승열 너르다 사랑 남다 남 기억 잡다 애 쓰다 이젠 아무것 아무것도 없다 없구 한번 한번만 널 널다 안다 서린가슴 내어두 내어두고 떠나다 떠 사랑 이르다 이름 부르다 지치다 지 지치다 그립다 그립다 눈물꽃 눈물꽃을 먹는다
 kbs2_princess	hyunsuhshin	POST	pyo7al5-5nvjn		2011-08-17	수양대군 tagexclamation
 kbs2_princess	lsy3790	POST	pyo7all-rkei		2011-08-17	공주의남자 재밌따 지금보고있는중
 kbs2_princess	cns2860	POST	pyo7ars-5atbd		2011-08-15	조선 시대 핏빛 계유정난 계유정 속 피어나는공주의남자
 kbs2_princess	hyunsuhshin	POST	pyo7aut-5nvjn		2011-08-17	공주 남자 남다 tagexclamation
 kbs2_princess	cns2860	POST	pyo7dqf-5atbd		2011-08-15	공주의남자
-kbs2_princess	pepperholic	POST	pyo7frs-bn73		2011-08-16	두근두근두근 오늘 밤 시 공주 남자 남다 ost part 이승열님 눈물꽃 공개 tagexclamation 한대수님 작업 그들 blues m v v에 호평 뿐 뿐만 아니다 아니 대중적 관심 받다 있다 집 그리다 잘 자다 나가다 드라마 ost 경사로세 tagexclamation 에헤라디 에헤라디요
+kbs2_princess	pepperholic	POST	pyo7frs-bn73		2011-08-16	두근두근두근 오늘 밤 12시 12시에 공주 남자 남다 ost part.4 이승열님 눈물꽃 공개 tagexclamation 한대수님 작업 그들 blues m v v에 호평 뿐 뿐만 아니다 아니 대중적 관심 받다 있다 3집 그리다 잘 자다 나가다 드라마 ost 경사로세 tagexclamation 에헤라디 에헤라디요
 kbs2_princess	janeminho	POST	pyo7gk9-58fd5		2011-08-17	오늘은공주의남자하는 tagexclamation 감기기운도싹날아가는느낌이예 다같이케이비에스투고 다같이케이비에스투고고
-kbs2_princess	pdh9760	POST	pyo7hpk-yeplw		2011-08-17	아 신다 안타깝다 tagcry 나 나다 지다 좋다 tagcry 수양대군 열다 나쁘다 단종 귀엽지않음tagquestion 좋다
+kbs2_princess	pdh9760	POST	pyo7hpk-yeplw		2011-08-17	아 신다 안타깝다 tagcry 나 나다 지다 좋다 tagcry 수양대군 열다 나쁘다 단종 귀엽지않음 tagquestion 좋다
 kbs2_princess	98audwh	POST	pyo7jjw-m04u		2011-08-17	아 그러고보 오늘 공주의남자 하다 하 날 나다 tagexclamation 으히히 으히히히 공주의남자 책 사야것는데
-kbs2_princess	loanbay	POST	pyo7k8c-yrp_n		2011-08-16	공주의남자 박시후 달콤 절박 아련 절규 눈빛 종
+kbs2_princess	loanbay	POST	pyo7k8c-yrp_n		2011-08-16	공주의남자 박시후 달콤 절박 아련 절규 눈빛 4종
 kbs2_princess	yura_me2day	POST	pyo7l9h-_ogmw		2011-08-16	꿈 뭔지 생각 되다 되 밤 입니 입니다 긋나잇 tagexclamation 내일 내 드뎌 보스 지키다 넌 널다 내다 반 공주 남자 남다 하다 tagexclamation tagsmile
 kbs2_princess	lomi_	POST	pyo7lbs-pzz8		2011-08-17	공주의남자 ost 모음 모으다 공주의남자 ost 전곡듣기
 kbs2_princess	rudgks7537	POST	pyo7p33-1zsc		2011-08-17	드라마 공주 남자 남다 재밌다 tagsmile
-kbs2_princess	banklifezone	POST	pyo7ptq-5_17m		2011-08-16	공주의남자 완조 완조남 김승유 공주 남자 남다 김승유 눈빛 종 세트
-kbs2_princess	jeniper123	POST	pyo7pz3-y1_js		2011-08-17	kbs 수목드라마 공주 남자 남다 오늘 시 내일 내 시 분 본방사수 하다 하 거 거다 아시죠tagquestion 공주의남자
+kbs2_princess	banklifezone	POST	pyo7ptq-5_17m		2011-08-16	공주의남자 완조 완조남 김승유 공주 남자 남다 김승유 눈빛 4종 세트
+kbs2_princess	jeniper123	POST	pyo7pz3-y1_js		2011-08-17	kbs2수목드라마 공주 남자 남다 오늘10 시 내일 내 9시 55분 본방사수 하다 하 거 거다 아시죠 tagquestion 공주의남자
 kbs2_princess	wjdwlals0204	POST	pyo7qxg-yao0o		2011-08-15	내마들이후 난 나다 날다 드라마 뚝 하다 하 끊다 재밌다 재밌다는 공주 남자 안 안보 tagcry 하다 하지 하다 하지 이드라마 이드라마는 포기 못하다 드라마 바 tagexclamation 여인 향기 taglove
 kbs2_princess	onlyah97	POST	pyo7s0r-ydys7		2011-08-17	공주 남자 남다 짜응 tagsmile ㅅ tagsmile 완전 재미있엉 tagsmile ㅅ tagsmile 김승유 짱먹으삼 tagsmile
 kbs2_princess	goretti75	POST	pyo7sda-5kzwp		2011-08-17	세령 세령과 승유 승유가 잘되다 하넹 공주 남자 남다 보다 보 참 차다 드라마 점점 무섭다
 kbs2_princess	elitete10	POST	pyo7smn-92i2		2011-08-17	역사 바꾸다 싶다 김종서 tagcry 수양대군 나쁘다 놈
 kbs2_princess	jobhead	POST	pyo7su4-y1pgj		2011-08-17	박정민 그립다 공주 남자ost
-kbs2_princess	guevara99	POST	pyo7u3l-1et9		2011-08-17	요즘 뭐 봐tagquestion공주 남자 보다 보 예전 왕 비가 비 떠오르다 후자 경우 수양대군 정치적 욕망 정당화 하다 면 공 속 악마적 수양대군 일면적 있다 하다 하지 아버지 로서 로서의 수양대군 겹쳐지다 공적 사적 인간 등장 공주의남자 kbs사극의변화랄까 개인의이야기
-kbs2_princess	skdud3377	POST	pyo7u6z-or0_		2011-08-17	좋다 노래 노랗다 많당 tagsmile 거의 거 다 가 가다 아니다 아니 퍼 정도 드라마 ost지 ost지만 tagsmile 공주 남자랑 남자 여인 향기 넌 널다 내다 반했어랑 보스 지키다 tagexclamation 우훗
+kbs2_princess	guevara99	POST	pyo7u3l-1et9		2011-08-17	요즘 뭐 보다 tagquestion 공주 남자 보다 보 예전 왕 비가 비 떠오르다 후자 경우 수양대군 정치적 욕망 정당화 하다 면 공 속 악마적 수양대군 일면적 있다 하다 하지 아버지 로서 로서의 수양대군 겹쳐지다 공적 사적 인간 등장 공주의남자 kbs사극의변화랄까 개인의이야기
+kbs2_princess	skdud3377	POST	pyo7u6z-or0_		2011-08-17	좋다 노래 노랗다 많당 tagsmile 거의 거 다 가 가다 아니다 아니 99퍼 정도 드라마 ost지 ost지만 tagsmile 공주 남자랑 남자 여인 향기 넌 널다 내다 반했어랑 보스 지키다 tagexclamation 우훗
 kbs2_princess	y10ws	POST	pyo7uf2-ya4xm		2011-08-15	공주 남자 남다 스페셜 방송 특별 색다르다 매력 느끼다 되다 대전제품사진 스튜디오 이음
 kbs2_princess	graceful94	POST	pyo7ufh-_fw57		2011-08-17	공주 남자 남다 흑흑 슬픔 슬프다 tagcry tagcry 가슴 아포 tagcry tagcry
 kbs2_princess	ghwjd37	POST	pyo7uuy-g3ix		2011-08-17	어뜩 어뜩해 tagcry 공쥬의남자 이제 수양대군 딸인거들켰어 tagcry
-kbs2_princess	98sonjh	POST	pyo7uxr-ycbds		2011-08-17	보스 지켜라 지켜라가 공주 남자 시청률 이기다 차이 tagexclamation 다들 숭배 tagquestion 약간 몬소린지 다도 다 모름겟음 ㅡ ㅡ 하다 해 tagexclamation 꺄 넘조아
+kbs2_princess	98sonjh	POST	pyo7uxr-ycbds		2011-08-17	보스 지켜라 지켜라가 공주 남자 시청률 이기다 0.1 차이 tagexclamation 다들 숭배 tagquestion 약간 몬소린지 다도 다 모름겟음 ㅡ ㅡ 하다 해 tagexclamation 꺄 넘조아
 kbs2_princess	wendy9080	POST	pyo7vob-5qjsx		2011-08-17	하 하다 공주 남자 남다 세령 세령이 승유 불쌍
 kbs2_princess	hyerimelove	POST	pyo7vqz-p0_0		2011-08-17	공주의남자검사프린세스 서변 서인우 과 고다 공주 남자 남다 김승유 김승유의 닮은꼴
 kbs2_princess	eloews	POST	pyo7z10-xmap		2011-08-17	박정민 그립다 공주 남자ost 그립다 그립다 그립다
@@ -566,10 +566,10 @@ kbs2_princess	topaz_girl	POST	pyo7zln-5j16e		2011-08-17	공주 남자 남다 늘
 kbs2_princess	alsrudto	POST	pyo7znd-5xuqk		2011-08-17	공주 남자 남다 재밌음 taglove 긴장감 최고 최 tagexclamation
 kbs2_princess	khb2947	POST	pyo7zu9-f5nj		2011-08-17	매다 오브 프린세스공주 남자 남다
 kbs2_princess	k0070326	POST	pyo7_di-1xor		2011-08-15	백지영오늘 사랑 공주의남자 ost 가사 가다 동영 노래듣기
-kbs2_princess	sepist	POST	pyolanc-_sbqf		2011-08-16	나이키 여성용벨트 그리다 냉장고 단돈 천원 구매하는방법 신개념 경매 시 공주의남자
+kbs2_princess	sepist	POST	pyolanc-_sbqf		2011-08-16	나이키 여성용벨트 그리다 냉장고 단돈 천원 구매하는방법 신개념 경매 3시 공주의남자
 kbs2_princess	pon99281	POST	pyoleyg-5dq34		2011-08-15	으음 따분 평일 빨다 수요일 왓으면 공주의남자 tagsmile tagexclamation
-kbs2_princess	loanbay	POST	pyolnqs-yrp_n		2011-08-16	김승유 그리다 이세령 공주 남자 남다 그들 결말 어디로tagquestion
-kbs2_princess	v339	POST	pyolob5-53n3p		2011-08-15	최종병기활 하다 하 공주의남자 회 보고 보다 보 문채원 짜응 아잉 오오홍오홍홍 활 한번 보고싶다 활 스마트폰게 나왓던데
+kbs2_princess	loanbay	POST	pyolnqs-yrp_n		2011-08-16	김승유 그리다 이세령 공주 남자 남다 그들 결말 어디 어디로 tagquestion
+kbs2_princess	v339	POST	pyolob5-53n3p		2011-08-15	최종병기활 하다 하 공주의남자1 회 보고 보다 보 문채원 짜응 아잉 오오홍오홍홍 활 한번 보고싶다 활 스마트폰게 나왓던데
 kbs2_princess	dlalsghqkral	POST	pyolt7h-_q3p8		2011-08-16	지금 무사백동수 가하다 내일 보스 지키다 공주 남자 넌내반 넌내반이 하다 아쉽다 시티헌터 시티헌터는 tagcry
 kbs2_princess	sis01169	POST	pyoluhw-_8tek		2011-08-16	공주 남자 남다 ost
 kbs2_princess	meekyw	POST	pyolvg3-5o_lq		2011-08-16	보스를지켜 드뎌 공주의남자 이기닷
@@ -581,36 +581,36 @@ kbs2_princess	flowerss501	POST	pyons_o-50c0h		2011-08-15	계백 무사백동수 
 kbs2_princess	0173125969	POST	pyov701-5wgre		2011-08-15	공주 남자보 남자보는 중 아 웃기다 한디 배우 맘 안들어 tagsmile
 kbs2_princess	skdud3377	POST	pyovnx7-or0_		2011-08-15	보스 지키다 재밌엌 tagsmile 캐릭터 캐릭터들도 귀엽곸 tagsmile 아 근데 아빠한테 이미 공주 남자 보여주다 망망 망한듯
 kbs2_princess	jjsh38	POST	pyovqaz-_tzin		2011-08-15	내가젤루조아하는인간중제일잘생긴남자 tagsmile 내가진짜이사람땜에삼 tagsmile 요옹님서혀언이랑우결할때 tagcry 내가혀언이되고싶엇음 tagsmile 근데왜넌내반은닥본사를안하는걸까걍재방보짘 tagsmile 하눈일 하눈일인 tagsmile 사실공남보규잇음 tagsmile 아꼬픈남박시휴님 tagsmile 닥재방합니댜그래두난내남자루널찍엇댜 taglove 넌내꺼 넌내꺼야 taglove 넌내게반햇어 정용화 공주의남자 박시후 잇츠걸 우리결혼
-kbs2_princess	hyerimelove	POST	pyovqnd-p0_0		2011-08-15	공주 남자림냥 함께하 함께하는 공주 남자 남다 회
-kbs2_princess	hyerimelove	POST	pyovurv-p0_0		2011-08-15	공주의남자림냥 함께하 함께하는 공주 남자 남다 회
-kbs2_princess	sepist	POST	pyox1vq-_sbqf		2011-08-16	에스티로더 쟈켓 건조기 가장 싸다 사는방법 신개념 소셜커머스 시 공주의남자 가 가다
-kbs2_princess	ekdp_	POST	pyox32l-umel		2011-08-16	공주를지켜라vs보스의남자 두개 동시 보고 보다 보 싶다
+kbs2_princess	hyerimelove	POST	pyovqnd-p0_0		2011-08-15	공주 남자림냥 함께하 함께하는 공주 남자 남다 7회
+kbs2_princess	hyerimelove	POST	pyovurv-p0_0		2011-08-15	공주의남자림냥 함께하 함께하는 공주 남자 남다 8회
+kbs2_princess	sepist	POST	pyox1vq-_sbqf		2011-08-16	에스티로더 쟈켓 건조기 가장 싸다 사는방법 신개념 소셜커머스 3시 공주의남자 가 가다
+kbs2_princess	ekdp_	POST	pyox32l-umel		2011-08-16	공주를지켜라vs 보스의남자 두개 동시 보고 보다 보 싶다
 kbs2_princess	cmr87	POST	pyox6w4-_q5i_		2011-08-16	공주의남자 재밌어 tagsmile
-kbs2_princess	cns2860	POST	pyox725-5atbd		2011-08-15	kbs 공주의남자 보다 생각 나서 나다 나서다 올리다 tagsmile
+kbs2_princess	cns2860	POST	pyox725-5atbd		2011-08-15	kbs2 공주의남자 보다 생각 나서 나다 나서다 올리다 tagsmile
 kbs2_princess	cns2860	POST	pyox7tx-5atbd		2011-08-15	공주의남자
-kbs2_princess	chdud84	POST	pyoxaxd-_ti_1		2011-08-17	박정민 그립다 공주 남자 남다 ost part
-kbs2_princess	ekdp_	POST	pyoxb_m-umel		2011-08-16	공주의남자 월 일 책 발매 전재산을털어서라도사야짘 아 엄마 생신선물 어떠카라곸 tagsmile
-kbs2_princess	jinew98	POST	pyoxe80-_br3		2011-08-17	꺄 공주의남자봐야지 미친 미친들은 넌내반보나tagquestion 수요일tagsmile
+kbs2_princess	chdud84	POST	pyoxaxd-_ti_1		2011-08-17	박정민 그립다 공주 남자 남다 ost part.4
+kbs2_princess	ekdp_	POST	pyoxb_m-umel		2011-08-16	공주의남자 8월 16 16일 책 발매 전재산을털어서라도사야짘 아 엄마 생신선물 어떠카라곸 tagsmile
+kbs2_princess	jinew98	POST	pyoxe80-_br3		2011-08-17	꺄 공주의남자봐야지 미친 미친들은 넌내반보 tagquestion 수요일 수요 tagsmile
 kbs2_princess	bhg0611	POST	pyoxjzp-yeay9		2011-08-17	박정민 공주 남자 남다 ost 그립다 완젼 좋다 tagcry
 kbs2_princess	donmany0203	POST	pyoxnwz-jkxh		2011-08-17	경혜공주 의 생애
 kbs2_princess	mydydrms	POST	pyoxp2_-y4adm		2011-08-17	봉사할동하러왔는데공주의남자찰열하는거봤음 tagsmile
-kbs2_princess	wotns24	POST	pyoxqpo-57oce		2011-08-17	공주 남자ost 박정민 그립다 박정민 박정민과 공주의남자ost그립다 많다 많다 사랑 노래다운 많다 받다 tagsmile taglove
-kbs2_princess	jsyoung1996	POST	pyoxqyz-yd755		2011-08-15	공주의남자 보다 보 사람 사다 손 소다 솔다 tagexclamation 나 나다 자러감ㅃㅇ 격배 보는사람 친신ㄱ
+kbs2_princess	wotns24	POST	pyoxqpo-57oce		2011-08-17	공주 남자ost 박정민 그립다 박정민 박정민과 공주의남자ost 그립다 많다 많다 사랑 노래다운 많다 받다 tagsmile taglove
+kbs2_princess	jsyoung1996	POST	pyoxqyz-yd755		2011-08-15	공주의남자 보다 보 사람 사다 손 소다 솔다 tagexclamation 나 나다 자러감 ㅃㅇ 격배 보는사람 친신 ㄱ
 kbs2_princess	erody	COMMENT	pym015a-yfrj4	c_v1ei9-ym015a-yfrj4	2011-08-18	tagcry tagcry 난 나다 날다 여기 티비 있다 안나옴단다
 kbs2_princess	aa0113	COMMENT	pym06sa-_sldt	c_n16j1-ym06sa-_sldt	2011-08-20	난 나다 날다 티비 금지 tagcry
 kbs2_princess	cofvh	COMMENT	pym06sa-_sldt	c_n1b35-ym06sa-_sldt	2011-08-20	애기니까 tagsmile 애교 넘어가다 tagsmile 난 나다 날다 아오 다큰애 다큰애가 저러 저러고 잇다 내 한심 tagsmile tagsmile
-kbs2_princess	aa0113	COMMENT	pym06sa-_sldt	c_n1bml-ym06sa-_sldt	2011-08-20	tagsmile 난 나다 날다 고 오빠 괴롭히다 tagcry 공부나 공부나하지
+kbs2_princess	aa0113	COMMENT	pym06sa-_sldt	c_n1bml-ym06sa-_sldt	2011-08-20	tagsmile 난 나다 날다 고3 오빠 괴롭히다 tagcry 공부나 공부나하지
 kbs2_princess	cofvh	COMMENT	pym06sa-_sldt	c_n1eio-ym06sa-_sldt	2011-08-20	tagsmile 나도 나다 나 tagsmile 유선티비 아예 생각 못하다 tagsmile 아 tagcry 인기가요 매주 보다 보 그것 아냐 tagcry 엄마한테 잘보 잘보여 잘보여야 tagsmile 동생시키 엄마 심기 심다 건들다 난 나다 날다 보다 보지 못하다 못 tagsmile
 kbs2_princess	aa0113	COMMENT	pym06sa-_sldt	c_n1el9-ym06sa-_sldt	2011-08-20	내동생 내동생은 아직 철부지 보다 있다 리모컨 리모컨을 가지다 가지 놀다 놀 tagcry
 kbs2_princess	cofvh	COMMENT	pym06sa-_sldt	c_n1kmr-ym06sa-_sldt	2011-08-20	나도 나다 나 거의 거 그수준 tagcry
 kbs2_princess	aa0113	COMMENT	pym06sa-_sldt	c_n1kq3-ym06sa-_sldt	2011-08-20	퉤니원티비 퉤니원티비는 학원 땜애 못 tagcry 볼 보다 수있는거 수있는거라 인기가요
 kbs2_princess	jul0105	COMMENT	pym06sa-_sldt	c_nbl80-ym06sa-_sldt	2011-08-20	tagsmile
 kbs2_princess	gd-outsider	COMMENT	pym06sa-_sldt	c_nbljg-ym06sa-_sldt	2011-08-20	우리 드라마 공부하는중 tagcry
-kbs2_princess	cofvh	COMMENT	pym06sa-_sldt	c_nbx3l-ym06sa-_sldt	2011-08-20	그걸 공부해tagquestion tagsmile
+kbs2_princess	cofvh	COMMENT	pym06sa-_sldt	c_nbx3l-ym06sa-_sldt	2011-08-20	그걸 공부 tagquestion tagsmile
 kbs2_princess	cofvh	COMMENT	pym06sa-_sldt	c_nbx78-ym06sa-_sldt	2011-08-20	tagcry 울 울다 담임 담 쓰으으으으레깈
 kbs2_princess	gd-outsider	COMMENT	pym06sa-_sldt	c_nbx97-ym06sa-_sldt	2011-08-20	역사공부 tagcry
 kbs2_princess	gd-outsider	COMMENT	pym06sa-_sldt	c_nbxct-ym06sa-_sldt	2011-08-20	tagsmile 이런게 나다
-kbs2_princess	cofvh	COMMENT	pym06sa-_sldt	c_nbxw6-ym06sa-_sldt	2011-08-20	tagsmile 그걸로tagquestion tagsmile 이건 거의 거 픽션이잖 tagsmile 좋다 우리 담 담임 책 역사공부 시키다 tagsmile
+kbs2_princess	cofvh	COMMENT	pym06sa-_sldt	c_nbxw6-ym06sa-_sldt	2011-08-20	tagsmile 그걸 그걸로 tagquestion tagsmile 이건 거의 거 픽션이잖 tagsmile 좋다 우리 담 담임 책 역사공부 시키다 tagsmile
 kbs2_princess	heesunkim99	COMMENT	pym1a6r-xpt2	c_vbh8r-ym1a6r-xpt2	2011-08-21	열역시넌뭘해도나랑맞앟
 kbs2_princess	heesunkim99	COMMENT	pym1a6r-xpt2	c_vbhm0-ym1a6r-xpt2	2011-08-21	tagsmile
 kbs2_princess	subin6319	COMMENT	pym1a6r-xpt2	c_vegc0-ym1a6r-xpt2	2011-08-20	나 나다 공주 남자 남다 보다 tagsmile
@@ -619,7 +619,7 @@ kbs2_princess	heesunkim99	COMMENT	pym1ush-xpt2	c_vbhle-ym1ush-xpt2	2011-08-21	�
 kbs2_princess	heesunkim99	COMMENT	pym1ush-xpt2	c_vbhni-ym1ush-xpt2	2011-08-21	tagcry 내컴퓨터이종현이랑사진많은거맞대결한아인잌 tagsmile
 kbs2_princess	subin6319	COMMENT	pym1ush-xpt2	c_vegs0-ym1ush-xpt2	2011-08-20	tagsmile 귀여움덜한아인 귀여움덜한아인이
 kbs2_princess	ckh9719	COMMENT	pym1ush-xpt2	c_venyw-ym1ush-xpt2	2011-08-20	oo
-kbs2_princess	hsh5384	COMMENT	pym3jm6-__fwr	c_v0prz-ym3jm6-__fwr	2011-08-18	진짜tagquestion헐 너핸드폰 너핸드폰으 못보나tagquestion
+kbs2_princess	hsh5384	COMMENT	pym3jm6-__fwr	c_v0prz-ym3jm6-__fwr	2011-08-18	진짜 tagquestion 헐 너핸드폰 너핸드폰으 못보 못보나 tagquestion
 kbs2_princess	cms3774	COMMENT	pym3jm6-__fwr	c_v1sx4-ym3jm6-__fwr	2011-08-18	공주 남자 잼 tagcry
 kbs2_princess	hsh5384	COMMENT	pym3jm6-__fwr	c_vj7fr-ym3jm6-__fwr	2011-08-18	수민 수민아 미안
 kbs2_princess	jwon1963	COMMENT	pym3xd_-5gsae	c_n4f4g-ym3xd_-5gsae	2011-08-18	tagsmile
@@ -630,18 +630,18 @@ kbs2_princess	merona-_-	COMMENT	pym3xd_-5gsae	c_n4w4e-ym3xd_-5gsae	2011-08-18	�
 kbs2_princess	91925860	COMMENT	pym3xd_-5gsae	c_n4wmm-ym3xd_-5gsae	2011-08-18	오오밐 tagsmile
 kbs2_princess	woo4381	COMMENT	pym3xd_-5gsae	c_n4wua-ym3xd_-5gsae	2011-08-18	시우 시우가 살아나다 그녀 그녀는 자살 포기
 kbs2_princess	koorni20	COMMENT	pym3zfw-_q3hm	c_n46ci-ym3zfw-_q3hm	2011-08-18	옼 tagsmile 안녕 tagsmile
-kbs2_princess	mksm0927	COMMENT	pym5l2q-5vl62	c_2llgg-ym5l2q-5vl62	2011-08-18	퇴근 인 tagsmile
-kbs2_princess	someday012	COMMENT	pym5l2q-5vl62	c_2lszn-ym5l2q-5vl62	2011-08-18	나두 본상사수 하다 하
+kbs2_princess	mksm0927	COMMENT	pym5l2q-5vl62	c_2llgg-ym5l2q-5vl62	2011-08-18	퇴근 1 1인 tagsmile
+kbs2_princess	someday012	COMMENT	pym5l2q-5vl62	c_2lszn-ym5l2q-5vl62	2011-08-18	나두 본상사수 하다 하 1
 kbs2_princess	mksm0927	COMMENT	pym5l2q-5vl62	c_2x55v-ym5l2q-5vl62	2011-08-18	바지 찢어졋어 tagcry 신랑불럿고 도저 도저히 이러곤 지하철 못타 tagsmile
-kbs2_princess	4542heejin	COMMENT	pym5l2q-5vl62	c_2x5qi-ym5l2q-5vl62	2011-08-18	왜tagquestion 구두 이어 바지까정tagquestion
+kbs2_princess	4542heejin	COMMENT	pym5l2q-5vl62	c_2x5qi-ym5l2q-5vl62	2011-08-18	왜 외다 tagquestion 구두 이어 바지까정 tagquestion
 kbs2_princess	mksm0927	COMMENT	pym5l2q-5vl62	c_2x6ww-ym5l2q-5vl62	2011-08-18	얇다 바지 입엇나봐 작은것 작은것도 아니다 tagcry 일하다 앉앗는데 푸욱 tagcry
 kbs2_princess	4542heejin	COMMENT	pym5l2q-5vl62	c_2xys8-ym5l2q-5vl62	2011-08-18	잼
 kbs2_princess	4542heejin	COMMENT	pym5l2q-5vl62	c_2xyus-ym5l2q-5vl62	2011-08-18	수고했또
 kbs2_princess	mizhanajhs	COMMENT	pym62d4-s60e	c_nnkp_-ym62d4-s60e	2011-08-18	수영복사진 맘 드는데 드는데요 tagsmile tagsmile
-kbs2_princess	mizhanajhs	COMMENT	pym62d4-s60e	c_nz9cm-ym62d4-s60e	2011-08-18	아침 안구정화 tagsmile므흣 tagsmile므흣하네 tagsmile므흣하네요
-kbs2_princess	rosachan	COMMENT	pym62d4-s60e	c_nzj2v-ym62d4-s60e	2011-08-18	마음 드는걸 드는걸로 한장 복사 저 배경화면으루 tagsmile 신랑분 욕잡수는건 책임못짐tagsmile
+kbs2_princess	mizhanajhs	COMMENT	pym62d4-s60e	c_nz9cm-ym62d4-s60e	2011-08-18	아침 안구정화 tagsmile 므흣 므흣하네 므흣하네요
+kbs2_princess	rosachan	COMMENT	pym62d4-s60e	c_nzj2v-ym62d4-s60e	2011-08-18	마음 드는걸 드는걸로 한장 복사 저 배경화면으루 tagsmile 신랑분 욕잡수는건 책임못짐 tagsmile
 kbs2_princess	26798788	COMMENT	pym68px-779c	c_v0wfs-ym68px-779c	2011-08-18	아니다 tagexclamation 최강희이쁘고동안 tagsmile 영웅재중나오자 tagsmile
-kbs2_princess	26798788	COMMENT	pym68px-779c	c_v5qtz-ym68px-779c	2011-08-17	공주 남자 남다 재미써tagquestion 보스 지켜라 지켜라가 잼이씀 tagsmile
+kbs2_princess	26798788	COMMENT	pym68px-779c	c_v5qtz-ym68px-779c	2011-08-17	공주 남자 남다 재미써 tagquestion 보스 지켜라 지켜라가 잼이씀 tagsmile
 kbs2_princess	haeun528	COMMENT	pym68px-779c	c_vebq5-ym68px-779c	2011-08-18	영웅재중 채널 돌리다 봤을떄 이민호줄 알다 tagsmile 염색드하구 살 마 빠지다
 kbs2_princess	haeun528	COMMENT	pym68px-779c	c_vkgwz-ym68px-779c	2011-08-17	ㅈㄹ tagsmile 보스 보다 잼 최강희 늙다 공주 남자 남다 짜세 짜세임
 kbs2_princess	cjswoalsrud	COMMENT	pym6hug-l2v2	c_n522p-ym6hug-l2v2	2011-08-19	아진짜 아진짜나 넌내게반 보다 공주의남자 보다 보스를지켜 볼까고민하다가넌내게반했어를봤어
@@ -650,23 +650,23 @@ kbs2_princess	hellogirl123	COMMENT	pym6hug-l2v2	c_n52cs-ym6hug-l2v2	2011-08-19	�
 kbs2_princess	cjswoalsrud	COMMENT	pym6hug-l2v2	c_n54ff-ym6hug-l2v2	2011-08-19	시른데에에에 시른데에에에에
 kbs2_princess	cjswoalsrud	COMMENT	pym6hug-l2v2	c_n5n6v-ym6hug-l2v2	2011-08-19	왜그럼재밌음
 kbs2_princess	minse154	COMMENT	pym6hug-l2v2	c_n5nj0-ym6hug-l2v2	2011-08-19	알겠숑 정색 tagsmile
-kbs2_princess	minse154	COMMENT	pym6hug-l2v2	c_n5n_6-ym6hug-l2v2	2011-08-19	tagsmile 넌네게 반 시청률 tagsmile
+kbs2_princess	minse154	COMMENT	pym6hug-l2v2	c_n5n_6-ym6hug-l2v2	2011-08-19	tagsmile 넌네게 반 시청률3 tagsmile
 kbs2_princess	3943146	COMMENT	pym6hug-l2v2	c_nz6m8-ym6hug-l2v2	2011-08-23	내남자
-kbs2_princess	presidentun	COMMENT	pym6lz4-yyxdt	c_n0uiw-ym6lz4-yyxdt	2011-08-20	나 나다 한국 넌tagquestion
-kbs2_princess	ppo0604	COMMENT	pym6lz4-yyxdt	c_n0umk-ym6lz4-yyxdt	2011-08-20	형 지금 놀다 있어tagquestion
+kbs2_princess	presidentun	COMMENT	pym6lz4-yyxdt	c_n0uiw-ym6lz4-yyxdt	2011-08-20	나 나다 한국 넌 널다 tagquestion
+kbs2_princess	ppo0604	COMMENT	pym6lz4-yyxdt	c_n0umk-ym6lz4-yyxdt	2011-08-20	형 지금 놀다 있다 tagquestion
 kbs2_princess	2430440	COMMENT	pym6uhn-5pwlh	c_ns4fi-ym6uhn-5pwlh	2011-08-17	tagsmile 이미죽었다니까이사람앜 tagsmile 오늘칼두방맞고자꾸일어나다가걍깨꼬닥했다니깤 tagsmile
-kbs2_princess	2430440	COMMENT	pym6uhn-5pwlh	c_ns4ml-ym6uhn-5pwlh	2011-08-17	오늘 막판 안ㅇ봤냐 이순재 목 댕강 댕강해서 궁궐tagquestion앞 매달아놓은거
+kbs2_princess	2430440	COMMENT	pym6uhn-5pwlh	c_ns4ml-ym6uhn-5pwlh	2011-08-17	오늘 막판 안 알다 ㅇ 보다 이순재 목 댕강 댕강해서 궁궐 tagquestion 앞 매달아놓은거
 kbs2_princess	2430440	COMMENT	pym6uhn-5pwlh	c_ns4zs-ym6uhn-5pwlh	2011-08-17	그것 승유 빡쳐서 수양대군 집 행차할때 옆 서 졸병 칼빼들어서 죽이다 하다 그때 세령이 세령이가 수양한테 인사한거 그집딸인거알고 존 존나 쇼크먹고 끝나다
 kbs2_princess	gywls0901	COMMENT	pym6uhn-5pwlh	c_nsl9_-ym6uhn-5pwlh	2011-08-17	수능 끝나다 나중 다운 받다 보다 말씀 tagsmile 내일 공주 남자 남다 안녕 ㅇ 내 달달 달달한 씬 땜 그것 보다 이제 희망 사라졌뉴 ㅇ
 kbs2_princess	2430440	COMMENT	pym6uhn-5pwlh	c_nslig-ym6uhn-5pwlh	2011-08-17	아 ㅇ 난 나다 날다 걍 계쏙 보다 ㅇ
 kbs2_princess	2430440	COMMENT	pym6uhn-5pwlh	c_nsn1l-ym6uhn-5pwlh	2011-08-17	tagsmile 안되다 공주의남자 진짜훠어어얼씬 재밌어
 kbs2_princess	930316	COMMENT	pym6uhn-5pwlh	c_nsn6s-ym6uhn-5pwlh	2011-08-17	싫다 보스 보다 tagsmile
 kbs2_princess	gywls0901	COMMENT	pym6uhn-5pwlh	c_nsnor-ym6uhn-5pwlh	2011-08-17	tagsmile 맞다 공주 남자 보다 ㅇ
-kbs2_princess	2430440	COMMENT	pym6uhn-5pwlh	c_nsnxb-ym6uhn-5pwlh	2011-08-17	tagsmile공 tagsmile공남 tagsmile공남이 진리지요잉 tagsmile 약간 띨빵 남자 좋다 이민우던가 맨 맨날 부마 들먹거리다 사람 사다 tagsmile
+kbs2_princess	2430440	COMMENT	pym6uhn-5pwlh	c_nsnxb-ym6uhn-5pwlh	2011-08-17	tagsmile 공 진리지요잉 tagsmile 약간 띨빵 남자 좋다 이민우던가 맨 맨날 부마 들먹거리다 사람 사다 tagsmile
 kbs2_princess	gywls0901	COMMENT	pym6uhn-5pwlh	c_nsvge-ym6uhn-5pwlh	2011-08-17	tagsmile 나 나다 나중 이순재 죽다 죽 때 보다 ㅇ 이후 복수 이어지겠즹 ㅇ 이상 달달 달달한 씬 씬은 없겠즹 ㅇ
-kbs2_princess	jm930416	COMMENT	pym6uhn-5pwlh	c_nznag-ym6uhn-5pwlh	2011-08-18	보스 최곤데tagquestion
+kbs2_princess	jm930416	COMMENT	pym6uhn-5pwlh	c_nznag-ym6uhn-5pwlh	2011-08-18	보스 최곤데 tagquestion
 kbs2_princess	diddpdnjs7	COMMENT	pym6zx7-yplie	c_ns4ul-ym6zx7-yplie	2011-08-17	
-kbs2_princess	wendy9080	COMMENT	pym6zx7-yplie	c_nsv01-ym6zx7-yplie	2011-08-17	지금도tagquestion
+kbs2_princess	wendy9080	COMMENT	pym6zx7-yplie	c_nsv01-ym6zx7-yplie	2011-08-17	지금 tagquestion
 kbs2_princess	sindy86	COMMENT	pym96dz-hl39	c_vqmk4-ym96dz-hl39	2011-08-21	따다 드라마 다끊었는데 tagsmile 보스 봐야 봐야함 tagsmile
 kbs2_princess	dramacube	COMMENT	pymbc8_-54ica	c_v8967-ymbc8_-54ica	2011-08-19	그러게 그러게요 tagcry
 kbs2_princess	sp5584	COMMENT	pymbkzy-_w1f9	c_v8p7b-ymbkzy-_w1f9	2011-08-19	문채원언니 부럽다 부러워
@@ -681,7 +681,7 @@ kbs2_princess	98sonjh	COMMENT	pymdvw3-ycbds	c_n5e4r-ymdvw3-ycbds	2011-08-19	아�
 kbs2_princess	suanna0320	COMMENT	pymdvw3-ycbds	c_n5hbg-ymdvw3-ycbds	2011-08-19	tagsmile 어제 보스 김재중 스키니진 입고 입다 나왓을때 다리밧지 tagsmile 대박
 kbs2_princess	yejin036	COMMENT	pymdvw3-ycbds	c_n6yen-ymdvw3-ycbds	2011-08-19	ᄏᄏᄏ마자마잨ᄏᄏ근데 마지막 엔당이대박
 kbs2_princess	suanna0320	COMMENT	pymdvw3-ycbds	c_nyzac-ymdvw3-ycbds	2011-08-19	tagcry 발라버려
-kbs2_princess	suanna0320	COMMENT	pymdvw3-ycbds	c_nyzvh-ymdvw3-ycbds	2011-08-19	지현 보스를지켜 뇌구조봣어tagquestion tagsmile 짱웃겳
+kbs2_princess	suanna0320	COMMENT	pymdvw3-ycbds	c_nyzvh-ymdvw3-ycbds	2011-08-19	지현 보스를지켜 뇌구조봣어 tagquestion tagsmile 짱웃겳
 kbs2_princess	basic1996	COMMENT	pyme3e_-32l8	c_vod5n-yme3e_-32l8	2011-08-19	필 다음 아이디좀 알리다 tagsmile 카페 bgm 선물해주 tagsmile
 kbs2_princess	basic1996	COMMENT	pyme3e_-32l8	c_vodpj-yme3e_-32l8	2011-08-19	다음 쪽지 답장 tagexclamation
 kbs2_princess	yjukim06	COMMENT	pymkbar-5h2jq	c_nz802-ymkbar-5h2jq	2011-08-18	아 알다 알 tagexclamation 한국판 로마오 로마오와 줄리엣 tagexclamation 맞다 맞 tagquestion
@@ -690,12 +690,12 @@ kbs2_princess	tmdfl4775	COMMENT	pymkbar-5h2jq	c_nz89e-ymkbar-5h2jq	2011-08-18	ta
 kbs2_princess	tpdl325	COMMENT	pymkbar-5h2jq	c_nz8c4-ymkbar-5h2jq	2011-08-18	박시후 박시후를 살리다 그렇다 해야겠죠 tagsmile
 kbs2_princess	tmdfl4775	COMMENT	pymkbar-5h2jq	c_nz8p6-ymkbar-5h2jq	2011-08-18	저 어제 왕 죽일까봐 조마조마 하다 솔찍 솔찍히 박시후 박시후는 아직 죽을때 죽을때가 아니다
 kbs2_princess	tpdl325	COMMENT	pymkbar-5h2jq	c_nz8pi-ymkbar-5h2jq	2011-08-18	조선판 로미오 로미오와 줄리엣이예 줄리엣이예요 결말 어떨지 왕궁금하네 tagsmile
-kbs2_princess	tmdfl4775	COMMENT	pymkbar-5h2jq	c_nz8qs-ymkbar-5h2jq	2011-08-18	그런가tagquestion 아빠 혐오 한짓 아니다 여튼 무섭다 tagcry 박시후 박시후가 또 어떻다 살 사다 것 흥미 진진 tagsmile
+kbs2_princess	tmdfl4775	COMMENT	pymkbar-5h2jq	c_nz8qs-ymkbar-5h2jq	2011-08-18	그런가 tagquestion 아빠 혐오 한짓 아니다 여튼 무섭다 tagcry 박시후 박시후가 또 어떻다 살 사다 것 흥미 진진 tagsmile
 kbs2_princess	tmdfl4775	COMMENT	pymkbar-5h2jq	c_nz8w3-ymkbar-5h2jq	2011-08-18	어우 예고 예 보다 여자 목 칼긋고 장난아니던데 난 나다 날다 아무리 좋아하다 그짓 그짓은 못할듯 tagcry
 kbs2_princess	tmdfl4775	COMMENT	pymkbar-5h2jq	c_nzmc6-ymkbar-5h2jq	2011-08-18	드라마 잔인하긴
 kbs2_princess	yjukim06	COMMENT	pymkbar-5h2jq	c_nzmfy-ymkbar-5h2jq	2011-08-18	ㄷㄷㄷ
-kbs2_princess	tmdfl4775	COMMENT	pymkbar-5h2jq	c_nzoaf-ymkbar-5h2jq	2011-08-18	금선대군 누구지 tagquestion 난 나다 날다 러브라인 관심 있다 tagsmile 드라마 키스 한번하겠지tagquestion 이러 이러고 있다 tagsmile
-kbs2_princess	tpdl325	COMMENT	pymkbar-5h2jq	c_nzoc2-ymkbar-5h2jq	2011-08-18	예고보니까 금성대군 나타나다 누구더라tagquestion
+kbs2_princess	tmdfl4775	COMMENT	pymkbar-5h2jq	c_nzoaf-ymkbar-5h2jq	2011-08-18	금선대군 누구지 tagquestion 난 나다 날다 러브라인 관심 있다 tagsmile 드라마 키스 한번하겠지 tagquestion 이러 이러고 있다 tagsmile
+kbs2_princess	tpdl325	COMMENT	pymkbar-5h2jq	c_nzoc2-ymkbar-5h2jq	2011-08-18	예고보니까 금성대군 나타나다 누구더 누구더라 tagquestion
 kbs2_princess	tmdfl4775	COMMENT	pymkbar-5h2jq	c_nzw7d-ymkbar-5h2jq	2011-08-18	내 내다 동생 그거보는데 근데 어제 박시후 박시후가 tagexclamation 아 이해 못하다 못하겠구 여튼 둘이원수사이 tagsmile
 kbs2_princess	yjukim06	COMMENT	pymkbar-5h2jq	c_nzwv8-ymkbar-5h2jq	2011-08-18	나다 나 보스 지키다 보는뎁 공주 남자 재밌을거 같다
 kbs2_princess	mjrang36	COMMENT	pymkpan-5r755	c_nb0pr-ymkpan-5r755	2011-08-20	주말 그런것 그런것도 괜찮다 같다 tagsmile tagsmile
@@ -708,45 +708,45 @@ kbs2_princess	fiftymd	COMMENT	pymkpan-5r755	c_nb6_t-ymkpan-5r755	2011-08-20	좋�
 kbs2_princess	k0202love	COMMENT	pymkpan-5r755	c_nbcg_-ymkpan-5r755	2011-08-20	신나는주말밤되세
 kbs2_princess	fiftymd	COMMENT	pymkpan-5r755	c_nbkmt-ymkpan-5r755	2011-08-20	어휴 고생 tagsmile 방금 입술씬나와서 급짜즁 tagsmile tagcry tagcry
 kbs2_princess	scarecrow_j	COMMENT	pymkpan-5r755	c_nbkth-ymkpan-5r755	2011-08-20	보낼려 보낼려고 버티는중 tagsmile
-kbs2_princess	mjrang36	COMMENT	pymkpan-5r755	c_nbkx5-ymkpan-5r755	2011-08-20	요즘 드라마 인기던데 tagsmile 잼있나요tagquestion
+kbs2_princess	mjrang36	COMMENT	pymkpan-5r755	c_nbkx5-ymkpan-5r755	2011-08-20	요즘 드라마 인기던데 tagsmile 잼 잼있 tagquestion
 kbs2_princess	lyuji15749	COMMENT	pymkpan-5r755	c_nbwdr-ymkpan-5r755	2011-08-20	아 멋있다 tagsmile
-kbs2_princess	as15277	COMMENT	pymkpan-5r755	c_nb_fp-ymkpan-5r755	2011-08-20	맘 막가지는그야tagquestion tagsmile 하트뿅뿅tagquestion tagexclamation tagsmile
+kbs2_princess	as15277	COMMENT	pymkpan-5r755	c_nb_fp-ymkpan-5r755	2011-08-20	맘 막가지는그 막가지는그야 tagquestion tagsmile 하트뿅뿅 tagquestion tagexclamation tagsmile
 kbs2_princess	fiftymd	COMMENT	pymkpan-5r755	c_nb_xa-ymkpan-5r755	2011-08-20	막을수 tagsmile
 kbs2_princess	scarecrow_j	COMMENT	pymkpan-5r755	c_nb_xl-ymkpan-5r755	2011-08-20	난 나다 날다 술마시는중 tagsmile
 kbs2_princess	ksr8322	COMMENT	pymkqic-_6u3i	c_v0fm6-ymkqic-_6u3i	2011-08-18	내 내다 힘 보내주 보내주께 오늘 tagexclamation
 kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_v0w3w-ymkqic-_6u3i	2011-08-18	승리 직관 되다 tagexclamation tagsmile
-kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_v62k7-ymkqic-_6u3i	2011-08-17	소원 뭘로tagquestion tagsmile
+kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_v62k7-ymkqic-_6u3i	2011-08-17	소원 뭘 뭘로 tagquestion tagsmile
 kbs2_princess	eun_a1018	COMMENT	pymkqic-_6u3i	c_v62nu-ymkqic-_6u3i	2011-08-17	나 나다 말다 천재미네소원 들어주라
 kbs2_princess	eun_a1018	COMMENT	pymkqic-_6u3i	c_v64ob-ymkqic-_6u3i	2011-08-17	내맘 tagsmile ㄱㄱ tagsmile 난 나다 날다 애초 소원따위
-kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_v6acy-ymkqic-_6u3i	2011-08-17	무슨내기tagquestion
+kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_v6acy-ymkqic-_6u3i	2011-08-17	무슨 무슨내기 tagquestion
 kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_v6aqc-ymkqic-_6u3i	2011-08-17	사인회 참여 tagsmile
-kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_v6hbu-ymkqic-_6u3i	2011-08-17	대 으 으로 지고 지다 보다 tagcry
+kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_v6hbu-ymkqic-_6u3i	2011-08-17	9대3 으 으로 지고 지다 보다 tagcry
 kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_v6hp7-ymkqic-_6u3i	2011-08-17	저 패스 tagsmile 경기 tagsmile
 kbs2_princess	eun_a1018	COMMENT	pymkqic-_6u3i	c_v6hra-ymkqic-_6u3i	2011-08-17	tagsmile 보름달 솬 tagsmile
 kbs2_princess	pgiung	COMMENT	pymkqic-_6u3i	c_v6q0v-ymkqic-_6u3i	2011-08-17	끝 보다 tagsmile
 kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_v6q6_-ymkqic-_6u3i	2011-08-17	로느님 나오다 하다 tagcry tagsmile
-kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_v6qb5-ymkqic-_6u3i	2011-08-17	왜tagquestion tagsmile
+kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_v6qb5-ymkqic-_6u3i	2011-08-17	왜 외다 tagquestion tagsmile
 kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_v6qrp-ymkqic-_6u3i	2011-08-17	경기 끝나다 tagcry
 kbs2_princess	eun_a1018	COMMENT	pymkqic-_6u3i	c_v6qrr-ymkqic-_6u3i	2011-08-17	내기 내다 하다 tagsmile
 kbs2_princess	cess1120	COMMENT	pymkqic-_6u3i	c_v6srw-ymkqic-_6u3i	2011-08-17	tagcry 오빠 근데내가할수잇는게뭐 tagsmile
 kbs2_princess	romeingkr	COMMENT	pymkqic-_6u3i	c_v6tol-ymkqic-_6u3i	2011-08-17	난 나다 날다 여자 아니 패스 tagsmile
 kbs2_princess	0hanbyul7	COMMENT	pymkqic-_6u3i	c_v6ttf-ymkqic-_6u3i	2011-08-17	로느님 tagsmile
-kbs2_princess	eun_a1018	COMMENT	pymkqic-_6u3i	c_v6twk-ymkqic-_6u3i	2011-08-17	졌어tagquestion tagsmile
+kbs2_princess	eun_a1018	COMMENT	pymkqic-_6u3i	c_v6twk-ymkqic-_6u3i	2011-08-17	지다 tagquestion tagsmile
 kbs2_princess	eun_a1018	COMMENT	pymkqic-_6u3i	c_v6u3v-ymkqic-_6u3i	2011-08-17	나 승 tagsmile
-kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_v6uf9-ymkqic-_6u3i	2011-08-17	대가는tagquestion tagsmile
+kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_v6uf9-ymkqic-_6u3i	2011-08-17	대가 tagquestion tagsmile
 kbs2_princess	eun_a1018	COMMENT	pymkqic-_6u3i	c_v6uso-ymkqic-_6u3i	2011-08-17	소원들어주기
-kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_v6uyk-ymkqic-_6u3i	2011-08-17	내다 내기 결과는tagquestion tagsmile
-kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_v6v8h-ymkqic-_6u3i	2011-08-17	tagsmile 왜 외다 소원 걔걸로tagquestion tagsmile
-kbs2_princess	cess1120	COMMENT	pymkqic-_6u3i	c_v6zm6-ymkqic-_6u3i	2011-08-17	명만 명만이 tagcry 그래도시도는해봐야죠 tagsmile
+kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_v6uyk-ymkqic-_6u3i	2011-08-17	내다 내기 결 결과 tagquestion tagsmile
+kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_v6v8h-ymkqic-_6u3i	2011-08-17	tagsmile 왜 외다 소원 걔걸 걔걸로 tagquestion tagsmile
+kbs2_princess	cess1120	COMMENT	pymkqic-_6u3i	c_v6zm6-ymkqic-_6u3i	2011-08-17	100명만 100명만이 tagcry 그래도시도는해봐야죠 tagsmile
 kbs2_princess	eun_a1018	COMMENT	pymkqic-_6u3i	c_v6zts-ymkqic-_6u3i	2011-08-17	난 나다 날다 롯데 이기다 걸다 보름달 기아이긴다 걸다 tagsmile
 kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_v6zvk-ymkqic-_6u3i	2011-08-17	도전 해보다 tagsmile
-kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_vk13y-ymkqic-_6u3i	2011-08-17	소원따위 없는거야tagquestion tagsmile
+kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_vk13y-ymkqic-_6u3i	2011-08-17	소원따위 없는거야 tagquestion tagsmile
 kbs2_princess	eun_a1018	COMMENT	pymkqic-_6u3i	c_vk1gv-ymkqic-_6u3i	2011-08-17	장난 하는거지 ㅇㅅㅇ
 kbs2_princess	0hanbyul7	COMMENT	pymkqic-_6u3i	c_vk1h8-ymkqic-_6u3i	2011-08-17	일반석 ㄲ tagsmile
 kbs2_princess	eun_a1018	COMMENT	pymkqic-_6u3i	c_vk1m4-ymkqic-_6u3i	2011-08-17	tagsmile 없다 그런거 안 알다 키우다
-kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_vk1pq-ymkqic-_6u3i	2011-08-17	그러네 한명당 만원 tagsmile
+kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_vk1pq-ymkqic-_6u3i	2011-08-17	그러네 한명당 2만원 tagsmile
 kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_vk9jo-ymkqic-_6u3i	2011-08-17	그렇다 그렇구 tagsmile 내다 내기 이기다 tagsmile
-kbs2_princess	eun_a1018	COMMENT	pymkqic-_6u3i	c_vk9tw-ymkqic-_6u3i	2011-08-17	햅 볶다 고원준 나오다 말 말다 다했짘 tagsmile 뭔 일로 일 점 점이 냈드만tagquestion tagsmile
+kbs2_princess	eun_a1018	COMMENT	pymkqic-_6u3i	c_vk9tw-ymkqic-_6u3i	2011-08-17	햅 볶다 고원준 나오다 말 말다 다했짘 tagsmile 뭔 일로 일 3점 3점이 냈드만 tagquestion tagsmile
 kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_vka24-ymkqic-_6u3i	2011-08-17	내일 내 직관 tagsmile 승리 직관 되다 하다 tagsmile
 kbs2_princess	eun_a1018	COMMENT	pymkqic-_6u3i	c_vkaml-ymkqic-_6u3i	2011-08-17	기도 ㅇㅅㅇ
 kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_vkf64-ymkqic-_6u3i	2011-08-17	내일 내 오전 예매 tagsmile 취소표 있나보게 tagsmile
@@ -756,23 +756,23 @@ kbs2_princess	eun_a1018	COMMENT	pymkqic-_6u3i	c_vkg3f-ymkqic-_6u3i	2011-08-17	�
 kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_vkgxp-ymkqic-_6u3i	2011-08-17	부상 안당한게 다행 tagcry tagsmile
 kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_vkhjg-ymkqic-_6u3i	2011-08-17	일목 일목이 부상 진짜 답 tagcry 김상훈 김상훈도 예전같지 안하다
 kbs2_princess	eun_a1018	COMMENT	pymkqic-_6u3i	c_vkhza-ymkqic-_6u3i	2011-08-17	이제 부상좀
-kbs2_princess	eun_a1018	COMMENT	pymkqic-_6u3i	c_vkie8-ymkqic-_6u3i	2011-08-17	그러게 포수 딸리다 그제tagquestion
+kbs2_princess	eun_a1018	COMMENT	pymkqic-_6u3i	c_vkie8-ymkqic-_6u3i	2011-08-17	그러게 포수 딸리다 그제 tagquestion
 kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_vkiz2-ymkqic-_6u3i	2011-08-17	찰목 찰목은 타격 좀 조다 되다 수비 좀 조다 부족한면 있다 tagcry
 kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_vkj19-ymkqic-_6u3i	2011-08-17	나지완 나지완이 홈런쳤다드만 tagsmile
 kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_vkjme-ymkqic-_6u3i	2011-08-17	일반석 해야겠다 tagsmile 여차 외야석 외야석도 tagsmile
-kbs2_princess	0hanbyul7	COMMENT	pymkqic-_6u3i	c_vkjqa-ymkqic-_6u3i	2011-08-17	어 tagsmile 내일 내 세명tagquestion
-kbs2_princess	eun_a1018	COMMENT	pymkqic-_6u3i	c_vkju4-ymkqic-_6u3i	2011-08-17	오웃 헛 스윙 날리드 날리드만 홈런 치다 쳤 보네tagquestion tagsmile 지완이 지완이가 해냈구만 tagsmile 변화구좀 안 알다 치다 좋겠긔
+kbs2_princess	0hanbyul7	COMMENT	pymkqic-_6u3i	c_vkjqa-ymkqic-_6u3i	2011-08-17	어 tagsmile 내일 내 세명 tagquestion
+kbs2_princess	eun_a1018	COMMENT	pymkqic-_6u3i	c_vkju4-ymkqic-_6u3i	2011-08-17	오웃 헛 스윙 날리드 날리드만 홈런 치다 쳤 보다 tagquestion tagsmile 지완이 지완이가 해냈구만 tagsmile 변화구좀 안 알다 치다 좋겠긔
 kbs2_princess	eun_a1018	COMMENT	pymkqic-_6u3i	c_vkl6_-ymkqic-_6u3i	2011-08-17	tagsmile 예얍
 kbs2_princess	eun_a1018	COMMENT	pymkqic-_6u3i	c_vkp7j-ymkqic-_6u3i	2011-08-17	기아 포수 부족 할 하다 만 사람 없다는거 좀 조다 키워야 키워야해
 kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_vkpb2-ymkqic-_6u3i	2011-08-17	어 신청 없다 tagsmile
-kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_vkpsb-ymkqic-_6u3i	2011-08-17	변화구 약점 있다 나지완 혼자서 번치니까 힘들어보 힘들어보여
+kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_vkpsb-ymkqic-_6u3i	2011-08-17	변화구 약점 있다 나지완 혼자서 4번치니까 힘들어보 힘들어보여
 kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_vkqbp-ymkqic-_6u3i	2011-08-17	제발좀 tagcry
 kbs2_princess	eun_a1018	COMMENT	pymkqic-_6u3i	c_vkqgf-ymkqic-_6u3i	2011-08-17	굿 판 파다 팔다 이 으잌
 kbs2_princess	0hanbyul7	COMMENT	pymkqic-_6u3i	c_vkr5n-ymkqic-_6u3i	2011-08-17	ㅇㅇ 구지 일루석 일루석일 필요 필 없움 tagsmile
 kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_vksd6-ymkqic-_6u3i	2011-08-17	기우제 지내다 하다 하려 tagcry tagsmile
 kbs2_princess	eun_a1018	COMMENT	pymkqic-_6u3i	c_vkse7-ymkqic-_6u3i	2011-08-17	하 하나 tagcry tagsmile
 kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_vksvr-ymkqic-_6u3i	2011-08-17	내일 내 로페즈라던데 스윕은 안 tagsmile
-kbs2_princess	eun_a1018	COMMENT	pymkqic-_6u3i	c_vkt46-ymkqic-_6u3i	2011-08-17	그치 그건 그렇다 또tagquestion tagsmile
+kbs2_princess	eun_a1018	COMMENT	pymkqic-_6u3i	c_vkt46-ymkqic-_6u3i	2011-08-17	그치 그건 그렇다 또 tagquestion tagsmile
 kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_vkuq3-ymkqic-_6u3i	2011-08-17	tagsmile 고마워잉 taglove
 kbs2_princess	kalismajh	COMMENT	pymkqic-_6u3i	c_vkz0_-ymkqic-_6u3i	2011-08-17	기도해주라잉 tagsmile
 kbs2_princess	eun_a1018	COMMENT	pymkqic-_6u3i	c_vkzqs-ymkqic-_6u3i	2011-08-17	우리 시댁 기독교 ㅇㅅㅇ 기도 기 할 하다 tagexclamation
@@ -784,48 +784,48 @@ kbs2_princess	vanessa0415	COMMENT	pymkzvk-m901	c_vk6rz-ymkzvk-m901	2011-08-17	�
 kbs2_princess	vanessa0415	COMMENT	pymkzvk-m901	c_vkkae-ymkzvk-m901	2011-08-17	맞다 요즘다막장
 kbs2_princess	vanessa0415	COMMENT	pymkzvk-m901	c_vkkew-ymkzvk-m901	2011-08-17	그건그래 tagexclamation 비현실적 tagexclamation tagsmile 근데넌내게반했어는정용화멋
 kbs2_princess	hayeona	COMMENT	pymkzvk-m901	c_vkkgw-ymkzvk-m901	2011-08-17	근데 넌내게 반 말 안되다 tagsmile
-kbs2_princess	ssuny1997	COMMENT	pymkzxq-5jfpm	c_n2ef4-ymkzxq-5jfpm	2011-08-18	나다 나 좀 조다 아닌듯 아무래 아무래도 계유정난 아니까 세조 세조가 집권할거란것 단종폐위될것 경혜공주 뭐냐 강등tagquestion 죽던가tagquestion 그다음 그다음에 김승유 김승유랑 세령 세령이 되것지뭐 내용뻔 내용뻔함
-kbs2_princess	ssuny1997	COMMENT	pymkzxq-5jfpm	c_n2eiu-ymkzxq-5jfpm	2011-08-18	근데 과정 지겨울것 지겨울것같음 아 오작교 형제 주원나오는거 앎tagquestion
+kbs2_princess	ssuny1997	COMMENT	pymkzxq-5jfpm	c_n2ef4-ymkzxq-5jfpm	2011-08-18	나다 나 좀 조다 아닌듯 아무래 아무래도 계유정난 아니까 세조 세조가 집권할거란것 단종폐위될것 경혜공주 뭐냐 강등 tagquestion 당 죽다 tagquestion 그다음 그다음에 김승유 김승유랑 세령 세령이 되것지뭐 내용뻔 내용뻔함
+kbs2_princess	ssuny1997	COMMENT	pymkzxq-5jfpm	c_n2eiu-ymkzxq-5jfpm	2011-08-18	근데 과정 지겨울것 지겨울것같음 아 오작교 형제 주원나오는거 앎 tagquestion
 kbs2_princess	6doeun0302	COMMENT	pymkzxq-5jfpm	c_nn83h-ymkzxq-5jfpm	2011-08-18	앎 tagsmile 할머니 어 도은이 도은이가 좋아하다 앗다 애 이러심 tagsmile 난 나다 날다 뻔 로미오와줄리엣 로미오와줄리엣의 비극콘셉이마음에듬
 kbs2_princess	glss1202	COMMENT	pymy8af-5_t57	c_2297x-ymy8af-5_t57	2011-08-17	미리잘자 tagexclamation
 kbs2_princess	qfor	COMMENT	pymy8af-5_t57	c_22jlj-ymy8af-5_t57	2011-08-17	미다 굿나잇 tagexclamation
 kbs2_princess	j9604h	COMMENT	pymy8af-5_t57	c_22p5i-ymy8af-5_t57	2011-08-17	그게 한예슬 나오는거 나오는거가
 kbs2_princess	dlwhdrms31	COMMENT	pymy8af-5_t57	c_22w5r-ymy8af-5_t57	2011-08-17	tagsmile 드라마 잘 자다 보고 보다 보 tagsmile 잘다 글 남다 남기다 자 자다 tagsmile
 kbs2_princess	popcornping	COMMENT	pymy8af-5_t57	c_22w_f-ymy8af-5_t57	2011-08-17	악 taglove 공남짱 tagexclamation
-kbs2_princess	popcornping	COMMENT	pymy8af-5_t57	c_2n0pv-ymy8af-5_t57	2011-08-17	악 tagcry 스승님죽는거야tagquestion tagcry
+kbs2_princess	popcornping	COMMENT	pymy8af-5_t57	c_2n0pv-ymy8af-5_t57	2011-08-17	악 tagcry 스승님죽는거 tagquestion tagcry
 kbs2_princess	eunmio_o	COMMENT	pymy8af-5_t57	c_2n3cb-ymy8af-5_t57	2011-08-17	아 완저 완저니 홀릭이에 홀릭이에여 tagcry
 kbs2_princess	eunmio_o	COMMENT	pymy8af-5_t57	c_2n3g6-ymy8af-5_t57	2011-08-17	빠빠 tagexclamation
 kbs2_princess	hapiten13ge	COMMENT	pymy8af-5_t57	c_2n61w-ymy8af-5_t57	2011-08-17	김승유 아 이게 뭐 tagcry 공 tagcry 진짜 tagcry 공 tagcry
 kbs2_princess	eunmio_o	COMMENT	pymy8af-5_t57	c_2n668-ymy8af-5_t57	2011-08-17	아 tagcry 넘 잼써 taglove
 kbs2_princess	eunmio_o	COMMENT	pymy8af-5_t57	c_2n6d4-ymy8af-5_t57	2011-08-17	tagsmile 굿나잇 tagexclamation
-kbs2_princess	dlwhdrms31	COMMENT	pymy8af-5_t57	c_2n6rw-ymy8af-5_t57	2011-08-17	tagsmile 잘자여tagsmile좋은꿈꿔
+kbs2_princess	dlwhdrms31	COMMENT	pymy8af-5_t57	c_2n6rw-ymy8af-5_t57	2011-08-17	tagsmile 잘자 잘자여 tagsmile 좋은꿈꿔
 kbs2_princess	eunmio_o	COMMENT	pymy8af-5_t57	c_2nbj4-ymy8af-5_t57	2011-08-17	주인공 죽을리는없을테고 tagcry 우어엉 낼두미친듯이봐야지
 kbs2_princess	j9604h	COMMENT	pymy8af-5_t57	c_2ni4n-ymy8af-5_t57	2011-08-18	몰다 tagsmile 누군지
-kbs2_princess	popcornping	COMMENT	pymy8af-5_t57	c_2nj7k-ymy8af-5_t57	2011-08-17	그렇겟지tagquestion 그분 그분은 스승님 스승님은 tagsmile
+kbs2_princess	popcornping	COMMENT	pymy8af-5_t57	c_2nj7k-ymy8af-5_t57	2011-08-17	그렇겟지 tagquestion 그분 그분은 스승님 스승님은 tagsmile
 kbs2_princess	eunmio_o	COMMENT	pymy8af-5_t57	c_2n_46-ymy8af-5_t57	2011-08-17	굿나이이잇
 kbs2_princess	eunmio_o	COMMENT	pymy8af-5_t57	c_2n_n9-ymy8af-5_t57	2011-08-17	빠이빠 빠이빠이
 kbs2_princess	eunmio_o	COMMENT	pymy8af-5_t57	c_2n_xu-ymy8af-5_t57	2011-08-17	박시후 박시후랑 문채원이나오지
 kbs2_princess	shinee916	COMMENT	pymykdm-y3g2n	c_27ni6-ymykdm-y3g2n	2011-08-18	나두 tagsmile 지금 역사 반복 있다 tagsmile
 kbs2_princess	hhj04118	COMMENT	pymy_2t-jhzr	c_v5txp-ymy_2t-jhzr	2011-08-26	훗 내 추천해주길잘했다잉
 kbs2_princess	ajdajddl147	COMMENT	pym_t7r-_ypsa	c_n5eyv-ym_t7r-_ypsa	2011-08-19	넌내반 끝나써 tagcry 흐흑 tagcry
-kbs2_princess	k2002115	COMMENT	pym_wou-1xm1	c_270nz-ym_wou-1xm1	2011-08-18	뭐라고tagquestion 인터넷안되서 세모 지금광 까지 까지밖 못봄 tagcry
+kbs2_princess	k2002115	COMMENT	pym_wou-1xm1	c_270nz-ym_wou-1xm1	2011-08-18	뭐 tagquestion 인터넷안되서 세모 지금광 까지 까지밖 못봄 tagcry
 kbs2_princess	eooa1023	COMMENT	pym_wou-1xm1	c_275as-ym_wou-1xm1	2011-08-18	흥
-kbs2_princess	eooa1023	COMMENT	pym_wou-1xm1	c_27bg8-ym_wou-1xm1	2011-08-18	광없는데tagquestion
+kbs2_princess	eooa1023	COMMENT	pym_wou-1xm1	c_27bg8-ym_wou-1xm1	2011-08-18	광 tagquestion
 kbs2_princess	k2002115	COMMENT	pym_wou-1xm1	c_27bn3-ym_wou-1xm1	2011-08-18	세모 광여기까지 광여기까지밖 못본다공 tagsmile
 kbs2_princess	eooa1023	COMMENT	pym_wou-1xm1	c_27h2y-ym_wou-1xm1	2011-08-18	그니까 아예광 아예광이 아예광이라 글자 슬기가안썻다궄 tagsmile
-kbs2_princess	k2002115	COMMENT	pym_wou-1xm1	c_27qxj-ym_wou-1xm1	2011-08-18	아 그랭tagquestion tagsmile ㄱㄲ tagsmile 분명히왓는딩 문자
+kbs2_princess	k2002115	COMMENT	pym_wou-1xm1	c_27qxj-ym_wou-1xm1	2011-08-18	아 그랭 tagquestion tagsmile ㄱㄲ tagsmile 분명히왓는딩 문자
 kbs2_princess	shulgioh	COMMENT	pym_wou-1xm1	c_n6d22-ym_wou-1xm1	2011-08-19	우린 언제 폰 바꾸다 tagcry 원시폰 지겹다
 kbs2_princess	shulgioh	COMMENT	pym_wou-1xm1	c_n6dad-ym_wou-1xm1	2011-08-19	공주 남자 보고 보다 보
 kbs2_princess	shulgioh	COMMENT	pym_wou-1xm1	c_n6dat-ym_wou-1xm1	2011-08-19	문자 하다 해
 kbs2_princess	shulgioh	COMMENT	pym_wou-1xm1	c_n6duq-ym_wou-1xm1	2011-08-19	라 라고 쓰다
-kbs2_princess	k2002115	COMMENT	pym_wou-1xm1	c_n6gp0-ym_wou-1xm1	2011-08-19	헐 네이트온 네이트온은 온리 컴퓨터로만하는거아님tagquestion 신세계돋네 tagcry
+kbs2_princess	k2002115	COMMENT	pym_wou-1xm1	c_n6gp0-ym_wou-1xm1	2011-08-19	헐 네이트온 네이트온은 온리 컴퓨터로만하는거아님 tagquestion 신세계돋네 tagcry
 kbs2_princess	shulgioh	COMMENT	pym_wou-1xm1	c_n6ok0-ym_wou-1xm1	2011-08-19	tagsmile 뚫다 내 하다
-kbs2_princess	shulgioh	COMMENT	pym_wou-1xm1	c_n6o_q-ym_wou-1xm1	2011-08-19	나도 나다 나 어제 이슬비 폰 폰으 네이트온 하다 충격먹음 신기돋지tagquestion
+kbs2_princess	shulgioh	COMMENT	pym_wou-1xm1	c_n6o_q-ym_wou-1xm1	2011-08-19	나도 나다 나 어제 이슬비 폰 폰으 네이트온 하다 충격먹음 신기돋지 tagquestion
 kbs2_princess	shulgioh	COMMENT	pym_wou-1xm1	c_n6qpk-ym_wou-1xm1	2011-08-19	그치 신기돋 신기돋아 정말 tagcry 나도 나다 나 바꾸다 싶다 근데 바꾸다 공부 안될듯 tagsmile
 kbs2_princess	k2002115	COMMENT	pym_wou-1xm1	c_n6yr6-ym_wou-1xm1	2011-08-19	아항 tagsmile 토요일 보고 보다 보 문자함 tagsmile 나 나다 요번에스마트폰의필요성 느꼇듬
-kbs2_princess	k2002115	COMMENT	pym_wou-1xm1	c_n6yxd-ym_wou-1xm1	2011-08-19	ㅁㅊ tagsmile 이빨에피어싱이tagquestion tagsmile 멋져영 일진돋는당 내스타 내스타일
+kbs2_princess	k2002115	COMMENT	pym_wou-1xm1	c_n6yxd-ym_wou-1xm1	2011-08-19	ㅁㅊ tagsmile 이빨에피어싱 tagquestion tagsmile 멋져영 일진돋는당 내스타 내스타일
 kbs2_princess	k2002115	COMMENT	pym_wou-1xm1	c_n6zkd-ym_wou-1xm1	2011-08-19	공부안되 바꾸고싶자 바꾸고싶자나 tagsmile 원시폰가진애 하는말 하는말임 tagsmile 공부안 tagsmile
-kbs2_princess	shulgioh	COMMENT	pym_wou-1xm1	c_nkpcn-ym_wou-1xm1	2011-08-19	tagsmile 어떻다 날 나다 그렇다 잘 자다 알음tagquestion tagsmile
+kbs2_princess	shulgioh	COMMENT	pym_wou-1xm1	c_nkpcn-ym_wou-1xm1	2011-08-19	tagsmile 어떻다 날 나다 그렇다 잘 자다 알다 tagquestion tagsmile
 kbs2_princess	sc7344	COMMENT	pyo72o3-_mcz2	c_22kz6-yo72o3-_mcz2	2011-08-17	머 머가 내시 박시후 내시아니 내시아니야 뭔 개소리 개소리야
 kbs2_princess	lsy3790	COMMENT	pyo7all-rkei	c_2n24a-yo7all-rkei	2011-08-18	첨 잼없는줄 알았는뎅 계속보닌깐 tagsmile
 kbs2_princess	lsy3790	COMMENT	pyo7all-rkei	c_2n2v6-yo7all-rkei	2011-08-18	웅웅 tagsmile
@@ -848,7 +848,7 @@ kbs2_princess	graceful94	COMMENT	pyo7ufh-_fw57	c_22os2-yo7ufh-_fw57	2011-08-18	t
 kbs2_princess	graceful94	COMMENT	pyo7ufh-_fw57	c_22poa-yo7ufh-_fw57	2011-08-17	흑흑 tagcry tagcry 완전 감수성풍부 요런거 요런거에 몰입 잘 tagsmile
 kbs2_princess	graceful94	COMMENT	pyo7ufh-_fw57	c_22rcv-yo7ufh-_fw57	2011-08-17	응응
 kbs2_princess	graceful94	COMMENT	pyo7ufh-_fw57	c_22rl0-yo7ufh-_fw57	2011-08-17	어찌 맞는것 맞는것을 아니다 아니 하다
-kbs2_princess	01040260701	COMMENT	pyo7ufh-_fw57	c_22rol-yo7ufh-_fw57	2011-08-17	tagsmile 이쁜만큼tagquestion
+kbs2_princess	01040260701	COMMENT	pyo7ufh-_fw57	c_22rol-yo7ufh-_fw57	2011-08-17	tagsmile 이쁘다 tagquestion
 kbs2_princess	01040260701	COMMENT	pyo7ufh-_fw57	c_22rqk-yo7ufh-_fw57	2011-08-17	tagsmile 아니라고
 kbs2_princess	graceful94	COMMENT	pyo7ufh-_fw57	c_22wco-yo7ufh-_fw57	2011-08-18	흠 그렇다 난 나다 날다 이쁜것보다 더더더 감수성 풍부한거
 kbs2_princess	01040260701	COMMENT	pyo7ufh-_fw57	c_22wyu-yo7ufh-_fw57	2011-08-17	양보가아니 진실 인정하는것
@@ -858,10 +858,10 @@ kbs2_princess	lovksy1998	COMMENT	pyo7uxr-ycbds	c_223qf-yo7uxr-ycbds	2011-08-17	�
 kbs2_princess	lovksy1998	COMMENT	pyo7uxr-ycbds	c_226d7-yo7uxr-ycbds	2011-08-17	우왕 대박 tagsmile
 kbs2_princess	98sonjh	COMMENT	pyo7uxr-ycbds	c_226ef-yo7uxr-ycbds	2011-08-17	모습 조아조아 빠릿빠릿해야짓 tagexclamation tagsmile
 kbs2_princess	lovksy1998	COMMENT	pyo7uxr-ycbds	c_226rq-yo7uxr-ycbds	2011-08-17	보스 잼잇어 계속 흥해랏 tagexclamation tagsmile
-kbs2_princess	98sonjh	COMMENT	pyo7uxr-ycbds	c_226u4-yo7uxr-ycbds	2011-08-17	오늘 봣엉tagquestion tagsmile 기분좋다
+kbs2_princess	98sonjh	COMMENT	pyo7uxr-ycbds	c_226u4-yo7uxr-ycbds	2011-08-17	오늘 봣엉 tagquestion tagsmile 기분좋다
 kbs2_princess	suanna0320	COMMENT	pyo7uxr-ycbds	c_27t4f-yo7uxr-ycbds	2011-08-19	우와아 tagexclamation
 kbs2_princess	98sonjh	COMMENT	pyo7uxr-ycbds	c_n5bid-yo7uxr-ycbds	2011-08-19	tagsmile
 kbs2_princess	psh10101	COMMENT	pyo7uxr-ycbds	c_nsd90-yo7uxr-ycbds	2011-08-24	아잉 tagsmile
 kbs2_princess	diddpdnjs7	COMMENT	pyo7vob-5qjsx	c_22r1s-yo7vob-5qjsx	2011-08-17	맞아맞 맞아맞아 정말불쌍
 kbs2_princess	diddpdnjs7	COMMENT	pyo7vob-5qjsx	c_22rcn-yo7vob-5qjsx	2011-08-17	근데김승유는죽었다살아 tagsmile 거의 거 tagsmile
-kbs2_princess	wendy9080	COMMENT	pyo7vob-5qjsx	c_22rqu-yo7vob-5qjsx	2011-08-17	tagsmile 근데 내일 내 또 죽을걸tagquestion
+kbs2_princess	wendy9080	COMMENT	pyo7vob-5qjsx	c_22rqu-yo7vob-5qjsx	2011-08-17	tagsmile 근데 내일 내 또 죽다 tagquestion

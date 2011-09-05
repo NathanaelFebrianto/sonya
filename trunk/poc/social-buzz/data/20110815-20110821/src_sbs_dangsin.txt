@@ -1,60 +1,60 @@
 program_id	author_id	type	post_id	comment_id	publish_date	terms
-sbs_dangsin	jiruhecom	POST	pym07ry-_50e_		2011-08-18	당신이잠든사 당신이잠든사이 회 월 일 토도우
-sbs_dangsin	jiruhecom	POST	pym15i4-_50e_		2011-08-19	당신이잠든사 당신이잠든사이 회 월 일 토도우
-sbs_dangsin	rldud4976	POST	pym16ad-5t7p4		2011-08-19	인피니트 에서 당신 당신이 잠든사이 연기자 뽀글이 뽀글이의 저주 연기자 열쒸미 뛰다 우리 성열 taglove i love you형ㅇㅣ 응원한다tagsmile taglove 동우
-sbs_dangsin	lovelycong00	POST	pym1izl-5uo57		2011-08-20	이영 이영은 원피스 당신이잠든사이 회 이영 이영은 오신영 옷 패션스타일 패션스타 스트라이프 원피스 의상정보
-sbs_dangsin	junes26	POST	pym3h64-yxvov		2011-08-20	당신 당신이 잠든사 잠든사이 회 월 일 방송 보기 보다
-sbs_dangsin	lovelycong00	POST	pym3mph-5uo57		2011-08-18	이영 이영은 점프수트 당신이잠든사이 회 이영 이영은 오신영 옷 패션스타일 패션스타 도트변형 점프수스 의상정보
+sbs_dangsin	jiruhecom	POST	pym07ry-_50e_		2011-08-18	당신이잠든사 당신이잠든사이 67회 8월18 일 토도우
+sbs_dangsin	jiruhecom	POST	pym15i4-_50e_		2011-08-19	당신이잠든사 당신이잠든사이 68회 8월18 일 토도우
+sbs_dangsin	rldud4976	POST	pym16ad-5t7p4		2011-08-19	인피니트 에서 당신 당신이 잠든사이 연기자 뽀글이 뽀글이의 저주 연기자 열쒸미 뛰다 우리 성열 taglove i love you형 ㅇㅣ 응원 tagsmile taglove 동우
+sbs_dangsin	lovelycong00	POST	pym1izl-5uo57		2011-08-20	이영 이영은 원피스 당신이잠든사이에67 회 이영 이영은 오신영 옷 패션스타일 패션스타 스트라이프 원피스 의상정보
+sbs_dangsin	junes26	POST	pym3h64-yxvov		2011-08-20	당신 당신이 잠든사 잠든사이 68회 8월19 일 방송 보기 보다
+sbs_dangsin	lovelycong00	POST	pym3mph-5uo57		2011-08-18	이영 이영은 점프수트 당신이잠든사이에65 회 이영 이영은 오신영 옷 패션스타일 패션스타 도트변형 점프수스 의상정보
 sbs_dangsin	olclnn	POST	pym3x49-yotqn		2011-08-20	어제당신이잠든사
-sbs_dangsin	larcobaleno	POST	pym3z8q-5gks9		2011-08-20	당신 당신이 잠들다 사이 사다 사 장여사 한국보육원 찾아가다 채혁진 채혁진이 찾더냐tagquestion
+sbs_dangsin	larcobaleno	POST	pym3z8q-5gks9		2011-08-20	당신 당신이 잠들다 사이 사다 사 장여사 한국보육원 찾아가다 채혁진 채혁진이 찾다 tagquestion
 sbs_dangsin	larcobaleno	POST	pym3zs4-5gks9		2011-08-20	당신 당신이 잠들다 사이 사다 사 고현성 동반 자살 시도 시 채혁진 채혁진이 막다 막
 sbs_dangsin	3210dptmej	POST	pym58ne-yepym		2011-08-18	여인 향기 보스 지키다 스파이 명월 계백 무사 백동수 공주 남자 남다 넌 널다 내다 반 오작교형제 천 번 입맞추다 내 내다 사랑 사 내 내다 곁 광개토태왕 애정만만세 두근두근 달콤 내사 당신 참 차다 예쁘다 미쓰 아줌마 우리집 여자 불굴 며느리 당신 당신이 잠들다 사이 사다 사
 sbs_dangsin	ryu990821	POST	pym5aqf-_c44x		2011-08-19	오늘 당신이잠든사이 성열이오빠안나오면안볼거
-sbs_dangsin	jh43564a	POST	pym5jdr-5npk7		2011-08-16	당신이잠든사 당신이잠든사이 당신 당신이 잠들다 사이 사다 사 이성열 이성열에 대하다 세대통신 g 스마트폰
-sbs_dangsin	kmediabox	POST	pym5_cp-_1l70		2011-08-17	토도우 당신 당신이 잠들다 사이 사다 사 회 월 일 다시보기
-sbs_dangsin	kmediabox	POST	pym6025-_1l70		2011-08-18	토도우 당신 당신이 잠들다 사이 사다 사 회 월 일 다시보기
-sbs_dangsin	tais7ungk	POST	pym60n4-_sttb		2011-08-20	당신 당신이 잠들다 사이 사다 사 승객 성폭행 택시기사 덜미 조임좋고 물 엄청나다 엄청 그녀 그녀랑 하룻밤 붕가 붕가 한번 왼편 보 보이 주소 joinsmsn
-sbs_dangsin	junes26	POST	pym61ey-yxvov		2011-08-19	당신 당신이 잠든사 잠든사이 회 월 일 방송 보기 보다
+sbs_dangsin	jh43564a	POST	pym5jdr-5npk7		2011-08-16	당신이잠든사 당신이잠든사이 당신 당신이 잠들다 사이 사다 사 이성열 이성열에 대하다 4세대통신4g 스마트폰
+sbs_dangsin	kmediabox	POST	pym5_cp-_1l70		2011-08-17	토도우 당신 당신이 잠들다 사이 사다 사 65회 8월17 일 다시보기
+sbs_dangsin	kmediabox	POST	pym6025-_1l70		2011-08-18	토도우 당신 당신이 잠들다 사이 사다 사 66회 8월18 일 다시보기
+sbs_dangsin	tais7ungk	POST	pym60n4-_sttb		2011-08-20	39 당신 당신이 잠들다 사이 사다 사 39 승객 성폭행 택시기사 덜미 조임좋고 물 엄청나다 엄청 그녀 그녀랑 하룻밤 붕가 붕가 한번 왼편 보 보이 주소 joinsmsn
+sbs_dangsin	junes26	POST	pym61ey-yxvov		2011-08-19	당신 당신이 잠든사 잠든사이 66회 8월17 일 방송 보기 보다
 sbs_dangsin	takea	POST	pym62g8-jjmr		2011-08-17	올리브데올리브당신 잠든사 잠든사이 이영 이영은 블라우스 이영은코디 당신 당신이 잠든사 잠든사이
 sbs_dangsin	sujin7807	POST	pym6ba3-y4u4f		2011-08-17	인피니트 김성규 장동우 남우현 호 이성열 엘 이성종 오빠 마니사랑해주세 taglove 성열오빤 내꺼 tagsmile 당신 당신이 잠들다 사이 사다 사 드라마두 마 시청 taglove
 sbs_dangsin	hcj9910	POST	pym6rp3-rwg8		2011-08-17	와일 유 아 슬립핑 당신 당신이 잠든사 잠든사이 프로텍트 보스 보스 지키다 올 오다 오브 띵스 알 마 러브 몽땅내사랑 몽땅내사 블링블링 샤이닝 반짝반짝빛나 모두 두롸뫄
-sbs_dangsin	iyousens	POST	pym6twb-yq85k		2011-08-19	다시보기 당신이잠든사 당신이잠든사이 당신 당신이 잠든사 잠든사이 회 다시보기 월 일 방송분 다시보기
-sbs_dangsin	narang282	POST	pym6_1f-599eh		2011-08-20	당신 당신이 잠들다 사이 사다 사 e 회
+sbs_dangsin	iyousens	POST	pym6twb-yq85k		2011-08-19	다시보기 당신이잠든사 당신이잠든사이 당신 당신이 잠든사 잠든사이 66회 다시보기 8월18 일 방송분 다시보기
+sbs_dangsin	narang282	POST	pym6_1f-599eh		2011-08-20	당신 당신이 잠들다 사이 사다 사 e68회 2011.08.19
 sbs_dangsin	llmisll	POST	pymb3jo-_s757		2011-08-19	당신 당신이 잠들다 사이 사다 사 승객 성폭행 택시기사 덜미 조인스 뉴스 스크랩
 sbs_dangsin	takeorder	POST	pymbp4a-ynbmy		2011-08-20	최종병기활 배스쿠퍼 배드티쳐 더블타겟 겟썸 템플그랜딘 굿윌헌팅 당신이잠든사이 조한 기생령
 sbs_dangsin	dltnwls0227	POST	pymbs8n-yku_q		2011-08-19	나는하건땜에뮤뱅도못보고엠카도못보고당신이잠든사이도못바 짜증
-sbs_dangsin	search_now	POST	pymbzct-5y0f5		2011-08-19	짐승 양동이물회 new 지다 지나다 지 바나나 바 바나 new 생생정보통 박 일 종영 프로리그 결승 신보 이기광 당신 당신이 잠들다 사이 사다 사 온게임넷 네이버 실시 급상승 검색어
-sbs_dangsin	uranus9	POST	pymdp5e-5n2cc		2011-08-15	당신 당신이 잠든사 잠든사이 ㅃㅃ
-sbs_dangsin	sch8736	POST	pyme5s_-5hl69		2011-08-18	당신이잠든사 당신이잠든사이 다시보기당신 잠들다 사이 사다 사 회 내용보기 다시보기 토렌트
-sbs_dangsin	kmediabox	POST	pyme6gf-_1l70		2011-08-20	토도우 당신 당신이 잠들다 사이 사다 사 회 월 일 다시보기
-sbs_dangsin	lovelycong00	POST	pymej5d-5uo57		2011-08-19	오윤 오윤아 원피스 당신이잠든사이 회 오윤 오윤아 고현성 옷 패션스타일 패션스타 카키색 롱원피스 의상정보
-sbs_dangsin	mople	POST	pymk1js-ybyr8		2011-08-19	당신 당신이 잠든사 잠든사이 회 e 닥본사 닥 치다 치 본 보다 방 사 사다 닥치고본방사수 닥본사 별점 오늘 당신 당신이 잠든사 잠든사이 회 e
-sbs_dangsin	sch8736	POST	pymkc7i-5hl69		2011-08-17	당신이잠든사 당신이잠든사이 다시보기당신 잠들다 사이 사다 사 회 다시보기 토렌트 내용보기
-sbs_dangsin	qoooo1111	POST	pymkefc-ud8d		2011-08-19	당신 당신이 잠들다 사이 사다 사 승객 성폭행 택시기사 덜미 여자몸 여자몸을 왜만지냐 여자 몸 그렇다 보고싶으세 택시 아저씨 사형 모르다 모르 여자만지 징역 사형 가는거 모르다 joinsmsn
-sbs_dangsin	search_now	POST	pymkfzt-5y0f5		2011-08-17	겟썸 다비치 쇼콜라 연금복권 회당첨번호 강병규 유오성 효민 김성근 당신 당신이 잠들다 사이 사다 사 꼬꼬면 네이버 실시 급상승 검색어
-sbs_dangsin	fic123	POST	pymkgr3-i_63		2011-08-19	토렌트다운 당신 당신이 잠들다 사이 사다 사 회
-sbs_dangsin	junes26	POST	pymkmet-yxvov		2011-08-19	당신 당신이 잠든사 잠든사이 회 월 일 방송 보기 보다
-sbs_dangsin	jiruhecom	POST	pymksvo-_50e_		2011-08-17	당신이잠든사 당신이잠든사이 회 월 일 토도우
+sbs_dangsin	search_now	POST	pymbzct-5y0f5		2011-08-19	짐승 216 양동이물회 new 지다 지나다 지 바나나 바 바나 new 생생정보통 141 1박2 일 종영 993 프로리그 결승 201 신보 303 이기광 105 당신 당신이 잠들다 사이 사다 사 93 온게임넷 57 네이버 실시 급상승 검색어
+sbs_dangsin	uranus9	POST	pymdp5e-5n2cc		2011-08-15	당신 당신이 잠든사 잠든사이 ㅃㅃ 2
+sbs_dangsin	sch8736	POST	pyme5s_-5hl69		2011-08-18	당신이잠든사 당신이잠든사이 다시보기당신 잠들다 사이 사다 사 66회 내용보기 다시보기 토렌트
+sbs_dangsin	kmediabox	POST	pyme6gf-_1l70		2011-08-20	토도우 당신 당신이 잠들다 사이 사다 사 67회 8월19 일 다시보기
+sbs_dangsin	lovelycong00	POST	pymej5d-5uo57		2011-08-19	오윤 오윤아 원피스 당신이잠든사이에64 회 오윤 오윤아 고현성 옷 패션스타일 패션스타 카키색 롱원피스 의상정보
+sbs_dangsin	mople	POST	pymk1js-ybyr8		2011-08-19	당신 당신이 잠든사 잠든사이 67회 e67닥본사  닥  치다 치  본  방  사  닥치고본방사수 닥본사 별점 오늘 당신 당신이 잠든사 잠든사이 67회 e67
+sbs_dangsin	sch8736	POST	pymkc7i-5hl69		2011-08-17	당신이잠든사 당신이잠든사이 다시보기당신 잠들다 사이 사다 사 65회 다시보기 토렌트 내용보기
+sbs_dangsin	qoooo1111	POST	pymkefc-ud8d		2011-08-19	39 당신 당신이 잠들다 사이 사다 사 39 승객 성폭행 택시기사 덜미 여자몸 여자몸을 왜만지냐 여자 몸 그렇다 보고싶으세 택시 아저씨 사형 모르다 모르 여자만지 징역 사형 가는거 모르다 joinsmsn
+sbs_dangsin	search_now	POST	pymkfzt-5y0f5		2011-08-17	겟썸 432 다비치 183 쇼콜라 81 연금복권7 회당첨번호 219 강병규 606 유오성 267 효민 84 김성근 261 당신 당신이 잠들다 사이 사다 사 96 꼬꼬면 57 네이버 실시 급상승 검색어
+sbs_dangsin	fic123	POST	pymkgr3-i_63		2011-08-19	110819 토렌트다운 당신 당신이 잠들다 사이 사다 사 67회
+sbs_dangsin	junes26	POST	pymkmet-yxvov		2011-08-19	당신 당신이 잠든사 잠든사이 67회 8월18 일 방송 보기 보다
+sbs_dangsin	jiruhecom	POST	pymksvo-_50e_		2011-08-17	당신이잠든사 당신이잠든사이 65회 8월17 일 토도우
 sbs_dangsin	wndudtjsgn	POST	pymy63j-fr_h		2011-08-18	교회 몽골 가다 숙소 기숙사고 기숙사 밥 기름범벅 그거 먹고 장염결려서 맛있다 고기 고다 못 먹어서 죽을꺼같애 tagcry tagcry tagcry tagcry tagcry 근데 tv 맞있는것 맞있는것만 나오다 나 당신 당신이 잠들다 사이 사다 사 보다 청국장 먹고 싶다 죽 계란찜 계란찜만 먹어 먹어야 되다
-sbs_dangsin	fic123	POST	pymy8bq-i_63		2011-08-17	토렌트다운 당신 당신이 잠들다 사이 사다 사 회
+sbs_dangsin	fic123	POST	pymy8bq-i_63		2011-08-17	110817 토렌트다운 당신 당신이 잠들다 사이65 회
 sbs_dangsin	ryu990821	POST	pymymtx-_c44x		2011-08-18	오늘 당신 당신이 잠든사이 셩열이오빠 한컷 한컷도 안 tagcry 난 나다 날다 성 열오빠떄문 열오빠떄문에 보는건데 tagcry 넷마블
-sbs_dangsin	blairnori	POST	pymyyg2-_whka		2011-08-15	당신 당신이 잠든사이결빙 김연 김연아 아이스쇼 생중계 일 블레어놀 블레어놀이
+sbs_dangsin	blairnori	POST	pymyyg2-_whka		2011-08-15	당신 당신이 잠든사이결빙 김연 김연아 아이스쇼 생중계 15 15일 블레어놀 블레어놀이
 sbs_dangsin	geniechae	POST	pym_08e-5z9iy		2011-08-16	드라마 당신 당신이 잠들다 사이 사다 사 정말 잼 tagexclamation 성열오빠 나올때 나올때마 꺅 tagexclamation
-sbs_dangsin	search_now	POST	pym_0po-5y0f5		2011-08-16	리쌍 캠핑온 안현수 옐로우보이즈 박선주 피죤 당신 당신이 잠들다 사이 사다 사 박 일 시청률 나이아가라폭포 tv 끄다 네이버 실시 급상승 검색어
+sbs_dangsin	search_now	POST	pym_0po-5y0f5		2011-08-16	리쌍 111 캠핑온 300 안현수 666 옐로우보이즈 96 박선주 252 피죤 198 당신 당신이 잠들다 사이 사다 사 96 1박2 일 시청률 237 나이아가라폭포 321 tv 끄다 807 네이버 실시 급상승 검색어
 sbs_dangsin	christia90	POST	pym_31e-jguj		2011-08-16	tagcry 오늘 당신 당신이 잠들다 사이 사다 사 소준 소준이 노쳤다 tagcry 볼수있는 볼수있는날 오늘 밖 없는뎅 tagcry
-sbs_dangsin	itoss	POST	pym_3kd-q177		2011-08-16	당신이잠든사 당신이잠든사이 회
-sbs_dangsin	jiruhecom	POST	pym_8qv-_50e_		2011-08-16	당신이잠든사 당신이잠든사이 회 월 일 토도우
-sbs_dangsin	lovelycong00	POST	pym_cfh-5uo57		2011-08-16	아영은원피스 가방 당신이잠든사이 회 회 이영 이영은 오신영 옷 패션 참새무늬 원피스 체인 체 숄더백 의상정보
-sbs_dangsin	fic123	POST	pym_cut-i_63		2011-08-18	토렌트다운 당신 당신이 잠들다 사이 사다 사 회
+sbs_dangsin	itoss	POST	pym_3kd-q177		2011-08-16	당신이잠든사이64 회
+sbs_dangsin	jiruhecom	POST	pym_8qv-_50e_		2011-08-16	당신이잠든사 당신이잠든사이 64회 8월16 일 토도우
+sbs_dangsin	lovelycong00	POST	pym_cfh-5uo57		2011-08-16	아영은원피스 가방 당신이잠든사이에63 회 .64회 이영 이영은 오신영 옷 패션 참새무늬 원피스 체인 체 숄더백 의상정보
+sbs_dangsin	fic123	POST	pym_cut-i_63		2011-08-18	110818 토렌트다운 당신 당신이 잠들다 사이 사다 사 66회
 sbs_dangsin	kimyuri7490	POST	pym_r82-_tpuv		2011-08-19	흐앙앙 tagcry 오늘당신이잠든사이에소준이울었어 tagcry 나도슬프 tagcry 당잠사짱 따봉 taglove
-sbs_dangsin	mople	POST	pym_r8u-ybyr8		2011-08-18	당신 당신이 잠든사 잠든사이 회 e 닥본사 닥 치다 치 본 보다 방 사 사다 닥치고본방사수 닥본사 별점 오늘 당신 당신이 잠든사 잠든사이 회 e
-sbs_dangsin	tjsrud08	POST	pyo4xfe-_gsob		2011-08-15	당신 당신이 잠들다 사이 사다 사 일 당신 당신이 잠든사 잠든사이 결방 김연 김연아 아이스쇼 생중계 모델 m
-sbs_dangsin	mople	POST	pyo79pw-ybyr8		2011-08-16	당신 당신이 잠든사 잠든사이 회 e 닥본사 닥 치다 치 본 보다 방 사 사다 닥치고본방사수 닥본사 별점 오늘 당신 당신이 잠든사 잠든사이 회 e
-sbs_dangsin	fic123	POST	pyo7epn-i_63		2011-08-16	토렌트다운 당신 당신이 잠든사 잠든사이 회
-sbs_dangsin	yunilsang	POST	pyo7f3i-_3g18		2011-08-16	당신이잠든사 당신이잠든사이 회 다시보기 월 일 토도우
+sbs_dangsin	mople	POST	pym_r8u-ybyr8		2011-08-18	당신 당신이 잠든사 잠든사이 66회 e66닥본사  닥  치다 치  본  방  사  닥치고본방사수 닥본사 별점 오늘 당신 당신이 잠든사 잠든사이 66회 e66
+sbs_dangsin	tjsrud08	POST	pyo4xfe-_gsob		2011-08-15	당신 당신이 잠들다 사이 사다 사 15 15일 당신 당신이 잠든사 잠든사이 결방 김연 김연아 아이스쇼 생중계 모델 6m
+sbs_dangsin	mople	POST	pyo79pw-ybyr8		2011-08-16	당신 당신이 잠든사 잠든사이 64회 e64닥본사  닥  치다 치  본  방  사  닥치고본방사수 닥본사 별점 오늘 당신 당신이 잠든사 잠든사이 64회 e64
+sbs_dangsin	fic123	POST	pyo7epn-i_63		2011-08-16	110816 토렌트다운 당신 당신이 잠든사 잠든사이 64회
+sbs_dangsin	yunilsang	POST	pyo7f3i-_3g18		2011-08-16	당신이잠든사 당신이잠든사이 64회 다시보기 8월16 일 토도우
 sbs_dangsin	alal4326	POST	pyo7kxl-yakb7		2011-08-16	tagsmile 오늘 당신 당신의 잠든사이재미없엉
 sbs_dangsin	ksbb0005	POST	pyo7lt7-_3bjt		2011-08-15	오늘 당신이잠든사 당신이잠든사이 않아나바 tagcry
 sbs_dangsin	isoke05	POST	pyo7pel-5s179		2011-08-15	tagsmile 나 나다 프로필 사진 사다 이성열 이성열로 바꾸다 tagsmile 오늘 당신 당신이 잠든사이하는 잠든사이하는날
 sbs_dangsin	podomom	POST	pyo7qiv-a606		2011-08-17	당신 당신이 잠들다 사이
-sbs_dangsin	kmediabox	POST	pyo7vzc-_1l70		2011-08-16	토도우 당신 당신이 잠들다 사이 사다 사 회 월 일 다시보기
+sbs_dangsin	kmediabox	POST	pyo7vzc-_1l70		2011-08-16	토도우 당신 당신이 잠들다 사이 사다 사 64회 8월16 일 다시보기
 sbs_dangsin	alal4326	POST	pyoxcf5-yakb7		2011-08-16	오늘 당신 당신이 잠든사 잠든사이 볼사람 보다 보세

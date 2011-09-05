@@ -1,4 +1,5 @@
 program_id	author_id	type	post_id	comment_id	publish_date	feature	count	word
+sbs_happytogether	elimen	POST	pym8q7w-_au9_		2011-08-24	SMILEMARK	1.0	tagsmile
 sbs_happytogether	yura_me2day	POST	pym8t1q-_ogmw		2011-08-26	EXCLAMMARK	1.0	tagexclamation
 sbs_happytogether	yura_me2day	POST	pym8t1q-_ogmw		2011-08-26	SMILEMARK	1.0	tagsmile
 sbs_happytogether	mjjeje81264	POST	pym8u47-_tp1q		2011-08-26	CRYMARK	1.0	tagcry
@@ -10,6 +11,7 @@ sbs_happytogether	banggujjang	POST	pym914o-tm04		2011-08-22	POSITIVE	1.0	반가
 sbs_happytogether	nunurigo121	POST	pym9nif-_9tci		2011-08-23	QUESTIONMARK	1.0	tagquestion
 sbs_happytogether	nuly3821	POST	pymb4zl-wu7y		2011-08-22	PRESENT	1.0	오늘
 sbs_happytogether	nuly3821	POST	pymb4zl-wu7y		2011-08-22	FUTURE	1.0	다음주
+sbs_happytogether	nuly3821	POST	pymb4zl-wu7y		2011-08-22	QUESTIONMARK	1.0	tagquestion
 sbs_happytogether	nuly3821	POST	pymb4zl-wu7y		2011-08-22	SMILEMARK	1.0	tagsmile
 sbs_happytogether	nuly3821	POST	pymb4zl-wu7y		2011-08-22	CRYMARK	1.0	tagcry
 sbs_happytogether	nuly3821	POST	pymb4zl-wu7y		2011-08-22	POSITIVE	2.0	좋다 웃기다
@@ -21,9 +23,11 @@ sbs_happytogether	sylee705	POST	pymc02_-_g9t1		2011-08-25	SEE	1.0	보다
 sbs_happytogether	jisiklog	POST	pymc0fm-_rcxy		2011-08-25	PRESENT	1.0	오늘
 sbs_happytogether	jisiklog	POST	pymc0fm-_rcxy		2011-08-25	CONJUNCTION	1.0	그리고
 sbs_happytogether	jisiklog	POST	pymc0qv-_rcxy		2011-08-25	PRESENT	1.0	오늘
+sbs_happytogether	jisiklog	POST	pymc0qv-_rcxy		2011-08-25	QUESTIONMARK	1.0	tagquestion
 sbs_happytogether	jisiklog	POST	pymc3_h-_rcxy		2011-08-25	PRESENT	1.0	오늘
 sbs_happytogether	jisiklog	POST	pymcd9h-_rcxy		2011-08-25	PRESENT	1.0	오늘
 sbs_happytogether	jisiklog	POST	pymcewd-_rcxy		2011-08-25	PRESENT	1.0	오늘
+sbs_happytogether	jisiklog	POST	pymcewd-_rcxy		2011-08-25	QUESTIONMARK	1.0	tagquestion
 sbs_happytogether	rlawhddud7	POST	pymcja0-fpa1		2011-08-26	PRESENT	1.0	오늘
 sbs_happytogether	rlawhddud7	POST	pymcja0-fpa1		2011-08-26	SMILEMARK	1.0	tagsmile
 sbs_happytogether	rlawhddud7	POST	pymcja0-fpa1		2011-08-26	POSITIVE	1.0	웃다
@@ -32,13 +36,16 @@ sbs_happytogether	jisiklog	POST	pymcp3r-_rcxy		2011-08-26	SMILEMARK	1.0	tagsmile
 sbs_happytogether	mho1840	POST	pymcrcp-_gk3n		2011-08-25	SMILEMARK	1.0	크
 sbs_happytogether	mho1840	POST	pymcrcp-_gk3n		2011-08-25	LOVEMARK	1.0	taglove
 sbs_happytogether	aguzzim0505	POST	pymcrcx-_drvw		2011-08-26	SMILEMARK	1.0	tagsmile
+sbs_happytogether	jisiklog	POST	pymcyl8-_rcxy		2011-08-25	QUESTIONMARK	1.0	tagquestion
 sbs_happytogether	jisiklog	POST	pymc_ue-_rcxy		2011-08-25	PRESENT	1.0	오늘
 sbs_happytogether	jisiklog	POST	pymc_zh-_rcxy		2011-08-25	PRESENT	1.0	오늘
 sbs_happytogether	97jangsi	POST	pymf1sg-yazkq		2011-08-25	EXCLAMMARK	1.0	tagexclamation
 sbs_happytogether	97jangsi	POST	pymf1sg-yazkq		2011-08-25	SMILEMARK	1.0	tagsmile
+sbs_happytogether	alsco5200	POST	pymfnvz-n_l0		2011-08-22	QUESTIONMARK	1.0	tagquestion
 sbs_happytogether	alsco5200	POST	pymfnvz-n_l0		2011-08-22	EXCLAMMARK	1.0	tagexclamation
 sbs_happytogether	chewbg	POST	pymfx9t-_aqmk		2011-08-22	SMILEMARK	1.0	tagsmile
 sbs_happytogether	spastar7	POST	pymg93r-5x8tg		2011-08-26	EXCLAMMARK	1.0	tagexclamation
+sbs_happytogether	sang0018	POST	pymgds5-_r4ms		2011-08-26	QUESTIONMARK	1.0	tagquestion
 sbs_happytogether	sang0018	POST	pymgds5-_r4ms		2011-08-26	POSITIVE	2.0	웃음 웃다
 sbs_happytogether	sang0018	POST	pymgds5-_r4ms		2011-08-26	SEE	1.0	보다
 sbs_happytogether	jina1712	POST	pymg_cg-5ypq7		2011-08-27	PRESENT	1.0	지금
@@ -55,18 +62,24 @@ sbs_happytogether	bsh1806jin	POST	pymiv__-_sfk2		2011-08-25	EXCLAMMARK	1.0	tagex
 sbs_happytogether	bsh1806jin	POST	pymiv__-_sfk2		2011-08-25	SMILEMARK	1.0	tagsmile
 sbs_happytogether	bsh1806jin	POST	pymiv__-_sfk2		2011-08-25	LOVEMARK	1.0	taglove
 sbs_happytogether	jisiklog	POST	pymm7b8-_rcxy		2011-08-25	PRESENT	1.0	오늘
+sbs_happytogether	jisiklog	POST	pymm7b8-_rcxy		2011-08-25	QUESTIONMARK	1.0	tagquestion
 sbs_happytogether	jisiklog	POST	pymm7ex-_rcxy		2011-08-25	PRESENT	1.0	오늘
+sbs_happytogether	jisiklog	POST	pymm7ex-_rcxy		2011-08-25	QUESTIONMARK	1.0	tagquestion
 sbs_happytogether	jisiklog	POST	pymmla0-_rcxy		2011-08-25	PRESENT	1.0	오늘
+sbs_happytogether	jisiklog	POST	pymmla0-_rcxy		2011-08-25	QUESTIONMARK	1.0	tagquestion
 sbs_happytogether	jisiklog	POST	pymmlq4-_rcxy		2011-08-25	PRESENT	1.0	오늘
 sbs_happytogether	jisiklog	POST	pymmlqe-_rcxy		2011-08-25	PRESENT	1.0	오늘
 sbs_happytogether	jisiklog	POST	pymmlsr-_rcxy		2011-08-25	PRESENT	1.0	오늘
 sbs_happytogether	jisiklog	POST	pymmua5-_rcxy		2011-08-25	PRESENT	1.0	오늘
 sbs_happytogether	jisiklog	POST	pymmuqn-_rcxy		2011-08-25	PRESENT	1.0	오늘
 sbs_happytogether	jisiklog	POST	pymmuqp-_rcxy		2011-08-25	PRESENT	1.0	오늘
+sbs_happytogether	jisiklog	POST	pymmuqp-_rcxy		2011-08-25	QUESTIONMARK	1.0	tagquestion
 sbs_happytogether	jisiklog	POST	pymmusj-_rcxy		2011-08-25	PRESENT	1.0	오늘
 sbs_happytogether	jisiklog	POST	pymmusj-_rcxy		2011-08-25	EXCLAMMARK	1.0	tagexclamation
 sbs_happytogether	jisiklog	POST	pymmuum-_rcxy		2011-08-25	PRESENT	1.0	오늘
+sbs_happytogether	jisiklog	POST	pymmuum-_rcxy		2011-08-25	QUESTIONMARK	1.0	tagquestion
 sbs_happytogether	jisiklog	POST	pymmuzn-_rcxy		2011-08-25	PRESENT	1.0	오늘
+sbs_happytogether	jisiklog	POST	pymmuzn-_rcxy		2011-08-25	QUESTIONMARK	1.0	tagquestion
 sbs_happytogether	jisiklog	POST	pymmuzp-_rcxy		2011-08-25	SMILEMARK	1.0	tagsmile
 sbs_happytogether	jisiklog	POST	pymmva1-_rcxy		2011-08-25	PRESENT	1.0	오늘
 sbs_happytogether	dmswodgus	POST	pymp2u3-ybr2t		2011-08-22	PAST	1.0	어제
@@ -77,6 +90,7 @@ sbs_happytogether	dmswodgus	POST	pymp2u3-ybr2t		2011-08-22	CRYMARK	1.0	tagcry
 sbs_happytogether	dmswodgus	POST	pymp2u3-ybr2t		2011-08-22	SEE	1.0	보다
 sbs_happytogether	hjhj4513	POST	pymp4f7-yewj6		2011-08-22	LOVEMARK	1.0	taglove
 sbs_happytogether	tory3369	POST	pymp6o5-5_dm		2011-08-25	SMILEMARK	1.0	tagsmile
+sbs_happytogether	wine990323	POST	pymr0u8-p7ug		2011-08-25	QUESTIONMARK	1.0	tagquestion
 sbs_happytogether	wine990323	POST	pymr0u8-p7ug		2011-08-25	SMILEMARK	1.0	tagsmile
 sbs_happytogether	wine990323	POST	pymr0u8-p7ug		2011-08-25	SEE	1.0	보다
 sbs_happytogether	shylove6658	POST	pymr9lw-yw_b_		2011-08-26	PRESENT	1.0	오늘
@@ -86,6 +100,7 @@ sbs_happytogether	chlwlsrud513	POST	pymr9ue-yeyuq		2011-08-26	SMILEMARK	1.0	tags
 sbs_happytogether	yoshikipp	POST	pymrbea-13tb		2011-08-25	EXCLAMMARK	1.0	tagexclamation
 sbs_happytogether	yoshikipp	POST	pymrbea-13tb		2011-08-25	SMILEMARK	1.0	tagsmile
 sbs_happytogether	yoshikipp	POST	pymrbea-13tb		2011-08-25	SEE	1.0	보다
+sbs_happytogether	dhd1015-1	POST	pymrcpw-5jgn1		2011-08-22	QUESTIONMARK	1.0	tagquestion
 sbs_happytogether	dhd1015-1	POST	pymrcpw-5jgn1		2011-08-22	SMILEMARK	1.0	tagsmile
 sbs_happytogether	dhd1015-1	POST	pymrcpw-5jgn1		2011-08-22	SEE	1.0	보다
 sbs_happytogether	dktjs77	POST	pymre83-50h9		2011-08-25	PRESENT	2.0	지금 오늘
@@ -99,19 +114,22 @@ sbs_happytogether	lavonne	POST	pymrjqz-yhpoh		2011-08-26	EXCLAMMARK	1.0	tagexcla
 sbs_happytogether	lavonne	POST	pymrjqz-yhpoh		2011-08-26	SMILEMARK	1.0	tagsmile
 sbs_happytogether	lavonne	POST	pymrjqz-yhpoh		2011-08-26	POSITIVE	2.0	푸근하다 좋아
 sbs_happytogether	syuos	POST	pymrmcn-yulut		2011-08-26	PRESENT	1.0	오늘
+sbs_happytogether	syuos	POST	pymrmcn-yulut		2011-08-26	QUESTIONMARK	1.0	tagquestion
 sbs_happytogether	ksw9622	POST	pymro_u-__pq0		2011-08-22	SWEAR	2.0	존나 씨발
+sbs_happytogether	ksw9622	POST	pymro_u-__pq0		2011-08-22	QUESTIONMARK	1.0	tagquestion
 sbs_happytogether	ksw9622	POST	pymro_u-__pq0		2011-08-22	SMILEMARK	1.0	tagsmile
 sbs_happytogether	ksw9622	POST	pymro_u-__pq0		2011-08-22	CRYMARK	1.0	tagcry
 sbs_happytogether	ksw9622	POST	pymro_u-__pq0		2011-08-22	POSITIVE	1.0	좋다
 sbs_happytogether	east516	POST	pymtdlv-y1dq0		2011-08-26	SMILEMARK	1.0	tagsmile
 sbs_happytogether	abcdefg0518	POST	pymtt84-_ol9t		2011-08-27	CRYMARK	1.0	tagcry
 sbs_happytogether	mople	POST	pymw5ro-ybyr8		2011-08-25	PRESENT	1.0	오늘
-sbs_happytogether	mople	POST	pymw5ro-ybyr8		2011-08-25	SEE	1.0	보다
+sbs_happytogether	stephanie104	POST	pymw8yz-55dow		2011-08-25	QUESTIONMARK	1.0	tagquestion
 sbs_happytogether	stephanie104	POST	pymw8yz-55dow		2011-08-25	SMILEMARK	1.0	tagsmile
 sbs_happytogether	itoa	POST	pymwfit-ahtb		2011-08-23	EXCLAMMARK	1.0	tagexclamation
 sbs_happytogether	seoyeon0012	POST	pymwhoc-qr6x		2011-08-26	EXCLAMMARK	1.0	tagexclamation
 sbs_happytogether	seoyeon0012	POST	pymwhoc-qr6x		2011-08-26	SMILEMARK	2.0	크 tagsmile
 sbs_happytogether	dda1dda	POST	pymwo6p-_tu9c		2011-08-25	PRESENT	2.0	오늘 지금
+sbs_happytogether	dda1dda	POST	pymwo6p-_tu9c		2011-08-25	QUESTIONMARK	1.0	tagquestion
 sbs_happytogether	emily7333	POST	pymwq0p-y13r9		2011-08-26	PRESENT	1.0	오늘
 sbs_happytogether	emily7333	POST	pymwq0p-y13r9		2011-08-26	EXCLAMMARK	1.0	tagexclamation
 sbs_happytogether	emily7333	POST	pymwq0p-y13r9		2011-08-26	SMILEMARK	1.0	tagsmile

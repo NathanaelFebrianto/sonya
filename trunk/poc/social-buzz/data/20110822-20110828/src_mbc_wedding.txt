@@ -1,95 +1,95 @@
 program_id	author_id	type	post_id	comment_id	publish_date	terms
 mbc_wedding	jlin0123	POST	pym0nyy-yjgr_		2011-08-22	우결
-mbc_wedding	bangpung	POST	pym104_-cvjw		2011-08-23	내 빅뱅 빅뱅이 빨다 장가가다 하다 하 사람 이건 뭐냨 tagsmile 황 웃다 웃음 안나오넼 tagsmile 우 우리 대성 결혼해요tagquestion 우쭈쭈쭈 tagsmile
+mbc_wedding	bangpung	POST	pym104_-cvjw		2011-08-23	내 빅뱅 빅뱅이 빨다 장가가다 하다 하 사람 이건 뭐냨 tagsmile 황 웃다 웃음 안나오넼 tagsmile 우 우리 대성 결혼 tagquestion 우쭈쭈쭈 tagsmile
 mbc_wedding	sungjunfive	POST	pym1224-_s12q		2011-08-22	우리결혼 의 이장우 바탕화면 화보
-mbc_wedding	greenwindy27	POST	pym16rx-al9r		2011-08-22	대학 학년때 만나다 울다 웃다 지금 년째 우정 이어오 이어오고 있다 친구 결혼 후 남편의 남편 유학길 따다 따르다 미국 가다 갈다 하다 느끼다 느낌 이상 우리 벌쓰다 나이 되다 되었구
-mbc_wedding	cysh3426	POST	pym1bnq-5mh9		2011-08-23	저기 대성님 결혼 하세요tagquestion vip 버리다 결혼 한다고tagquestion tagsmile 우리 버리고tagquestion tagsmile 지금 이상황에서tagquestion tagsmile 기자 완전 싫어 싫다 tagcry 뭣 모르다 나댐나댐나댐나댐나댐댐댐ㄷ맫맴
-mbc_wedding	iuiu016	POST	pym1daj-uq1g		2011-08-22	명지 보다 충북 충북에 내려가다 수옥폭포 다녀오다 경치 참 차다 좋다 전날 전 과음 바라다 바람 이때 제정신 아니다 tagcry 내려오다 길 정말 맛나다 숯불흑돼지 맛보다 맛 년지기 년지기들이 함께하니까 역시 역시나 좋다 tagexclamation 일박이일우리대화의메인은결혼 tagsmile
-mbc_wedding	alwjd4547	POST	pym1dqe-_8z4n		2011-08-23	지연 tagexclamation 언니 시 시쯤 까다 미투 못하다 tagexclamation 우결 밥먹기 밥먹기로 하다
-mbc_wedding	20jiwon	POST	pym1jw7-yhfap		2011-08-23	씨밤바 기자 기다 쉐키 뭐임tagquestion 대성 결혼 안하다 tagexclamation 결혼 공홈 공홈에 먼저 올리다 우리 약속 tagexclamation 이런쉐키 낼거 없다 이딴걸 내냐tagquestion병또 꺄오 오늘 짱 짱나 짱나는 날
+mbc_wedding	greenwindy27	POST	pym16rx-al9r		2011-08-22	대학 1학년때 만나다 울다 웃다 지금 8년째 우정 이어오 이어오고 있다 친구 결혼 후 남편의 남편 유학길 따다 따르다 미국 가다 갈다 하다 느끼다 느낌 이상 우리 벌쓰다 나이 되다 되었구
+mbc_wedding	cysh3426	POST	pym1bnq-5mh9		2011-08-23	저기 대성님 결혼 하다 tagquestion vip 버리다 결혼 하다 tagquestion tagsmile 우리 버리다 tagquestion tagsmile 지금 이상황 tagquestion tagsmile 기자 완전 싫어 싫다 tagcry 뭣 모르다 나댐나댐나댐나댐나댐댐댐 ㄷ 맫맴
+mbc_wedding	iuiu016	POST	pym1daj-uq1g		2011-08-22	명지 보다 충북 충북에 내려가다 수옥폭포 다녀오다 경치 참 차다 좋다 전날 전 과음 바라다 바람 이때 제정신 아니다 tagcry 내려오다 길 정말 맛나다 숯불흑돼지 맛보다 맛 15년지기 함께하니까 역시 역시나 좋다 tagexclamation 일박이일우리대화의메인은결혼 tagsmile
+mbc_wedding	alwjd4547	POST	pym1dqe-_8z4n		2011-08-23	지연 tagexclamation 언니 4시 6시쯤 까다 미투 못하다 tagexclamation 우결 밥먹기 밥먹기로 하다
+mbc_wedding	20jiwon	POST	pym1jw7-yhfap		2011-08-23	씨밤바 기자 기다 쉐키 뭐 tagquestion 대성 결혼 안하다 tagexclamation 결혼 공홈 공홈에 먼저 올리다 우리 약속 tagexclamation 이런쉐키 낼거 없다 이딴걸 내다 tagquestion 병또 꺄오 오늘 짱 짱나 짱나는 날
 mbc_wedding	baek0807	POST	pym1kpe-5upyi		2011-08-22	우결 우결에 용화 서현 서현이 데이트 했던곳이라네요 냄비팥빙수 오미자차 오미자차를 먹었어요 맛이더라구 맛이더라구요 분위기 아동틱 아동틱하 노래 좀 조다 지난 지나다 지 노래 위주 나오다 사람 빠글빠글 빠글빠글해서 기다리야 기다리야하 쫀득 쫀득이 먹는테이프 불량식품 대따만코 벽 글 남기다 되어 되어있고 다 가격 저렴하지 저렴하지는 않담니다 다시말해 비싸 비싸요 글구 화장실 통신권이탈 가실 가시다 조심 하다 tagsmile 인터넷두 tagsmile
 mbc_wedding	tnwl4851	POST	pym1n0m-513ow		2011-08-23	우결 tagsmile
 mbc_wedding	guanghuen	POST	pym1tq1-5o5ov		2011-08-23	우리 사귀는거 그만하다 결혼 가다 가늘다 쪽팔리다 시키다 쪽
 mbc_wedding	alwjd4547	POST	pym1y6x-_8z4n		2011-08-23	지연 tagexclamation 언니 우결 밥먹으러 가다 미투 미투는 이제 tagexclamation tagsmile 지연 미안
-mbc_wedding	kkl04257	POST	pym1_tc-fpp9		2011-08-23	샤월턴온유 한승연 우결 우결을 찍는다고tagquestion tagcry 한승연 한승연이 막 해달 해달라 졸랐다고tagquestion 미친거 아님tagquestion tagcry 샤이니 샤이니랑 물 먹이다 일 있다 있
-mbc_wedding	20236xoals	POST	pym802v-59ba5		2011-08-23	우리결혼 우결 회 월 일 방송 다시보기
-mbc_wedding	skytigerx	POST	pym80sh-y9qfv		2011-08-27	연예 우결 손진영 짝사랑녀 권리세 사랑 고백 우결 손진영 짝사랑녀 권리세 사랑 고백
-mbc_wedding	20236xoals	POST	pym81cq-59ba5		2011-08-23	우리결혼 우결 회 월 일 방송 다시보기
-mbc_wedding	kjyoun0106	POST	pym81sa-5yj1g		2011-08-23	대성 우리 벌쓰다 결혼한지가언젠데 우리 결혼 년차임ㅇㅇ 걱정따윈ㄴㄴ 대성 바람피 바람피고 막 그럴애아니니깤 tagsmile 대성 결혼한분 미투무조건눌러 안넘으면
-mbc_wedding	ic305	POST	pym8357-_ag_g		2011-08-24	빅토리아 언니 tagexclamation 닉쿤오빠랑 예쁘다 결혼생활 만들세욧 우결 팬이에욧 tagexclamation 매일 매이다 보고 보다 보 있엉 있엉요 친구소개 cookie
-mbc_wedding	iamangelina	POST	pym83nx-_8e16		2011-08-26	크헉 뭐라고tagquestion우결 쿤토리아 부부 끝나다 tagexclamation
+mbc_wedding	kkl04257	POST	pym1_tc-fpp9		2011-08-23	샤월턴온유 한승연 우결 우결을 찍다 tagquestion tagcry 한승연 한승연이 막 해달 해달라 조르다 tagquestion 미친거 아니다 tagquestion tagcry 샤이니 샤이니랑 물 먹이다 일 있다 있
+mbc_wedding	20236xoals	POST	pym802v-59ba5		2011-08-23	우리결혼 우결 95회 8월6 일 방송 다시보기
+mbc_wedding	skytigerx	POST	pym80sh-y9qfv		2011-08-27	08-27 연예 우결 손진영 짝사랑녀 권리세 사랑 고백 우결 손진영 짝사랑녀 권리세 사랑 고백
+mbc_wedding	20236xoals	POST	pym81cq-59ba5		2011-08-23	우리결혼 우결 96회 8월13 일 방송 다시보기
+mbc_wedding	kjyoun0106	POST	pym81sa-5yj1g		2011-08-23	대성 우리 벌쓰다 결혼한지가언젠데 우리 결혼5 년차 년차임 ㅇㅇ 걱정따윈 ㄴㄴ 대성 바람피 바람피고 막 그럴애아니니깤 tagsmile 대성 결혼한분 미투무조건눌러 5안넘으면
+mbc_wedding	ic305	POST	pym8357-_ag_g		2011-08-24	빅토리아 언니 tagexclamation 닉쿤오빠랑 예쁘다 결혼생활 만들세욧 우결 팬이에욧 tagexclamation 매일 매이다 보고 보다 보 있엉 있엉요 친구소개 cookie906
+mbc_wedding	iamangelina	POST	pym83nx-_8e16		2011-08-26	크헉 뭐 tagquestion 우결 쿤토리아 부부 끝나다 tagexclamation
 mbc_wedding	daeng1548	POST	pym84gq-wg7y		2011-08-23	용준형 용준형이 이민호 이민호나 걍 난 나다 날다 축하 하다 걔들 걔들이 사랑 하는거지 우리 사랑을하는것 아니다 아니 걔네 께트려봣자 펜들 펜들하 결혼할것 아니다 아니 걍 이쁜사랑 하다 요 tagsmile 빠 빠이
 mbc_wedding	j412256	POST	pym87_b-5opdo		2011-08-23	tagsmile 이민호 박민영 사귀다 궁금겸 우결생각난 우리 우리나라 첫순 첫순간만 첫순간만하 잘안찍어서
-mbc_wedding	moro07	POST	pym886r-1j5_		2011-08-23	장동우는누구 우결에서은정남펃tagquestion아님말 우결에서은정남펃tagquestion아님말아 tagsmile
+mbc_wedding	moro07	POST	pym886r-1j5_		2011-08-23	장동우는누구 우결에서은정남펃 tagquestion 아님말 아님말아 tagsmile
 mbc_wedding	gaoman0	POST	pym88a2-1gqv		2011-08-24	우결시절 태연 waglewagle
-mbc_wedding	olny13	POST	pym8afb-_tz60		2011-08-24	오빠들은슈퍼주니어의한멤버이기전에남자 남자라면 군대도가고좋아하는여자만나면사귀고결혼할수도있는거아니야tagquestion오빠들얼굴에여친없는게더이상하지tagsmile오빠들여친분과우리는의미가다르지
+mbc_wedding	olny13	POST	pym8afb-_tz60		2011-08-24	오빠들은슈퍼주니어의한멤버이기전에남자 남자라면 군대도가고좋아하는여자만나면사귀고결혼할수도있는거아니 군대도가고좋아하는여자만나면사귀고결혼할수도있는거아니야 tagquestion 오빠들얼굴에여친없는게더이 tagsmile 오빠들여친분과우리는의미가다르지
 mbc_wedding	eunjungmeto	POST	pym8e5o-m3ja		2011-08-27	은정이누 오늘 우결 잘봐써 잘봐써요 tagsmile 몰캉몰캉 노트북 그리구 장군님 뮤비사건 tagsmile 질투의화신떠서 tagexclamation
-mbc_wedding	guswjd343	POST	pym8eu1-yju3n		2011-08-23	자 자다 잠 자다 시 한승연언니 온유오빠 우 우결 찍다 정말 tagquestion허엉ㄹ 안그래 안그래도 스캐줄많아서 걱정 이만저 이만저만 아니다 우 우결 tagquestion tagquestion하 공식 않올라왔으니 에스엠 믿다
+mbc_wedding	guswjd343	POST	pym8eu1-yju3n		2011-08-23	자 자다 잠 자다 시 한승연언니 온유오빠 우 우결 찍다 정말 tagquestion 허엉 ㄹ 안그래 안그래도 스캐줄많아서 걱정 이만저 이만저만 아니다 우 우결 tagquestion 하 하다 공식 않올라왔으니 에스엠 믿다
 mbc_wedding	usb1204	POST	pym8eye-5a94c		2011-08-24	오늘저 우결 촬영 tagsmile 몰캉 몰캉 taglove
 mbc_wedding	bigi3362	POST	pym8fos-5fogs		2011-08-23	뭔가 토요일 오늘 눈뜨다 우결안 우결안하 우결안하나 채널만돌리 화요일인걸알고 부끄럽다 티비끄 티비끄고 침대 누다
-mbc_wedding	pjybytara	POST	pym8fpl-_snfr		2011-08-24	호잇호잇 오다 오늘 울 울다 은정언니 우결녹화 응원 tagexclamation tagsmile 헤헷 저흰 나올까요tagquestion tagsmile
+mbc_wedding	pjybytara	POST	pym8fpl-_snfr		2011-08-24	호잇호잇 오다 오늘 울 울다 은정언니 우결녹화 응원 tagexclamation tagsmile 헤헷 저흰 나오다 tagquestion tagsmile
 mbc_wedding	lovetjrhdwn	POST	pym8h1d-_hspk		2011-08-23	나연애인친구많 닉쿤 빅토리아 탑 수지등등 윤두봉
-mbc_wedding	20236xoals	POST	pym8j8w-59ba5		2011-08-23	우리결혼 우결 회 월 일 방송 다시보기
-mbc_wedding	ss501tv	POST	pym8m3f-5movm		2011-08-26	개콘 애정 최효종 재벌여친tagquestion 결혼 싶다
+mbc_wedding	20236xoals	POST	pym8j8w-59ba5		2011-08-23	우리결혼 우결 97회 8월20 일 방송 다시보기
+mbc_wedding	ss501tv	POST	pym8m3f-5movm		2011-08-26	개콘 애정 최효종 재벌여친 tagquestion 결혼 싶다
 mbc_wedding	lbomhee	POST	pym8mll-_zrcn		2011-08-27	수락감사감사 우결에서넘잘어울려 우결에서넘잘어울려요 쿤씨랑 소문에는카메라앞에서만친하다고하더라구 넘속 넘속상해 앞으로두응원 화이팅 tagexclamation 친구소개 fx victoria
-mbc_wedding	catspot	POST	pym8p9u-7q6o		2011-08-23	뭐 샤 샤이 월 컴백 것 있다 걸프 걸프가 샤이니게 샤이니게이 샤이니게이라 한거 한거랑 한승연 한승연이 온유 우결찍자 우결찍자고 한거
+mbc_wedding	catspot	POST	pym8p9u-7q6o		2011-08-23	뭐 샤 샤이 11월 11월에 컴백 것 있다 걸프 걸프가 샤이니게 샤이니게이 샤이니게이라 한거 한거랑 한승연 한승연이 온유 우결찍자 우결찍자고 한거
 mbc_wedding	eunda99	POST	pym8ptw-5_yeo		2011-08-27	오늘 우리 고모할머니 아들 결혼 서울 다니다 오다 사진 좀 조다 많다 찍다 tagsmile
 mbc_wedding	hide_seek_	POST	pym8qmi-5nah5		2011-08-26	언니 우리 결혼
-mbc_wedding	min234564	POST	pym8rca-p2_y		2011-08-23	상황 대성오빠 결혼 참 차다 잘하겠닼 그지tagquestion 우리 괜 검색어 올리다 맙시다앗
+mbc_wedding	min234564	POST	pym8rca-p2_y		2011-08-23	상황 대성오빠 결혼 참 차다 잘하겠닼 그지 tagquestion 우리 괜 검색어 올리다 맙시다앗
 mbc_wedding	dororekid	POST	pym8tdg-hhau		2011-08-27	새로오신 기술쌤 데이비드오 tagexclamation 랑 같이나오 권리세닮았어 앗다
-mbc_wedding	pow3698	POST	pym8tjn-_dzvu		2011-08-27	방금 오늘 방송햇는 우결 봣는데 나도 나다 나 클럽 가고싶닷 tagexclamation 렛츠 퐈리 tagexclamation 아싸 수능 일남앗다 유후 이르다 수능 일 남겟다 tagsmile 둠바리 둠바리 퐈레 퐈레이
+mbc_wedding	pow3698	POST	pym8tjn-_dzvu		2011-08-27	방금 오늘 방송햇는 우결 봣는데 나도 나다 나 클럽 가고싶닷 tagexclamation 렛츠 퐈리 tagexclamation 아싸 수능75 일남앗다 유후 이르다 수능 440 440일 남겟다 tagsmile 둠바리 둠바리 퐈레 퐈레이
 mbc_wedding	banur_	POST	pym8tkp-5f1x4		2011-08-23	빅뱅 우리결혼했어요에 잠깐 나오다 빅뱅 tagsmile
-mbc_wedding	wendi125	POST	pym8tq0-8x61		2011-08-26	온유 우결 촬영해요tagquestion 루머죠tagquestion
+mbc_wedding	wendi125	POST	pym8tq0-8x61		2011-08-26	온유 우결 촬영 tagquestion 루머죠 tagquestion
 mbc_wedding	dkdlelchzh	POST	pym8y6w-_a84e		2011-08-27	달샤벳 은정 데이비드오 권리세 장우영 아이유 김태희 권지용 미다 등등
-mbc_wedding	designmania	POST	pym8yl1-jp8r		2011-08-27	인천 홈패션 우결 재봉수업 보셨나요tagquestion 여러분 재봉배우고 재봉배우 싶다 어서 오다
+mbc_wedding	designmania	POST	pym8yl1-jp8r		2011-08-27	인천 홈패션 우결 재봉수업 보다 보셨 tagquestion 여러분 재봉배우고 재봉배우 싶다 어서 오다
 mbc_wedding	wooguy74	POST	pym8yq2-5x7vl		2011-08-23	빅토리아 임신 이 제목 기사 보고 보다 보 음청 놀라다 놀 이제 닉쿤이 진짜 애기 아빠 되다 되겠구 tagexclamation 라 라고 생각 알고보 알고보니 베컴 베컴의 부인 빅토리아 빅토리아가 네째 네째를 임신했다능 tagsmile 낚였넹
-mbc_wedding	xkafkax	POST	pym8yrq-5v98z		2011-08-26	요즘 취침시간 한시간정 늦다 기상시간 함 늦어지다 딸래미 딸래미입니 딸래미입니다 tagsmile 환절기 칼 감기군 감기군이 오시는듯 컨디션엉망 tagcry 죽는소리하다 신랑 친정가래서 언니 데리러오는중 tagexclamation 아기짐 아기짐이 또 엄청나다 tagexclamation 가다 일주일쉬다오려구 오다 tagexclamation tagsmile 친정엄마 사위 밥도안챙겨주 밥도안챙겨주고 맨 맨날 오다 뭐라지 뭐라지만 밥때 들어오다 차리다 부려먹다 할거아니냐 tagcry 월말 계속 바쁘다 신랑 기다리다 힘들다 어차피 나 결혼 밥얻어먹는건 포기 우리신랑 tagsmile
-mbc_wedding	tlsdmstn	POST	pym8yzs-_s0he		2011-08-27	오늘은소녀k내일은드림팀다음주토욜은우결 tagsmile 동주니오빠 광희오빠 tagsmile 음 조쿤 tagexclamation 아완전조아 taglove tagsmile 행복해랔 tagsmile
+mbc_wedding	xkafkax	POST	pym8yrq-5v98z		2011-08-26	312 요즘 취침시간 한시간정 늦다 기상시간 함 늦어지다 딸래미 딸래미입니 딸래미입니다 tagsmile 환절기 칼 감기군 감기군이 오시는듯 컨디션엉망 tagcry 죽는소리하다 신랑 친정가래서 언니 데리러오는중 tagexclamation 아기짐 아기짐이 또 엄청나다 tagexclamation 가다 일주일쉬다오려구 오다 tagexclamation tagsmile 친정엄마 사위 밥도안챙겨주 밥도안챙겨주고 맨 맨날 오다 뭐라지 뭐라지만 밥때 들어오다 차리다 부려먹다 할거아니냐 tagcry 월말 계속 바쁘다 신랑 기다리다 힘들다 어차피 나 결혼 밥얻어먹는건 포기 우리신랑 tagsmile
+mbc_wedding	tlsdmstn	POST	pym8yzs-_s0he		2011-08-27	오늘은소녀k 내일은드림팀다음주토욜은우결 tagsmile 동주니오빠 광희오빠 tagsmile 음 조쿤 tagexclamation 아완전조아 taglove tagsmile 행복해랔 tagsmile
 mbc_wedding	wlsdk3979	POST	pym8_jm-__v1v		2011-08-27	우결 손진영 짝사랑녀 권리세 사랑 고 우와대단 tagsmile 데이비드도꾀잘생겼는뎅 tagsmile osen
 mbc_wedding	dnemdtod102	POST	pym8_w0-y7zt		2011-08-27	담주 우결 우결에 제국 아이들 김동준 황광희 출연 닥본사
 mbc_wedding	ohsky1001	POST	pym8_y7-yezmz		2011-08-27	우결 함은정 이장우 몰캉몰캉 문자음 화제 zz 마이데일리
 mbc_wedding	leek1220	POST	pym9053-yhmgs		2011-08-24	어느 어느날 부터 여자로 시작 사소 다투다 다툼 시작 신랑 이걸 알아야 알아야하는데 만약 연애 시기 헤어졌을듯 우리 결혼생활 참 차다 어렵다
-mbc_wedding	heartnamj	POST	pym92yr-xzmr		2011-08-24	소셜커머스 마지막 특가 tagexclamation 간지 우결시계
-mbc_wedding	viryan	POST	pym96_e-_gf_8		2011-08-24	mbc 우리 결혼 빅토리아 캡쳐
+mbc_wedding	heartnamj	POST	pym92yr-xzmr		2011-08-24	소셜커머스 마지막 특가 tagexclamation 간지 우결시계 55
+mbc_wedding	viryan	POST	pym96_e-_gf_8		2011-08-24	110813 mbc 우리 결혼 빅토리아 캡쳐
 mbc_wedding	eunjungmeto	POST	pym9fu2-_hcvi		2011-08-24	저왔어 저왔어요 오늘은우결찰영이
 mbc_wedding	tkfkd6949	POST	pym9jzr-e1ab		2011-08-22	우결 달달 달달한 우정커플 적응안 티아 티아라 swf 인스티즈 instiz
 mbc_wedding	dkakqk215	POST	pym9lcn-5cn4o		2011-08-24	우결보는사람 tagexclamation
-mbc_wedding	guswn9204	POST	pym9ld3-qfl3		2011-08-24	온유한승연 우결tagquestion tagexclamation
-mbc_wedding	_154cm	POST	pym9tcv-_bg9p		2011-08-23	물이무서운옐니는정말죽을맛인데친구들은표정웃끼다고낄낄낄 그때신완이가와서구해줫쪙 마치보디가드의한장면 엔들리스러브를배경화면으로깔아주고십네 아무튼우리친구들은정말멋찐친구 암 어젠런닝맨을햇어 어젠런닝맨을햇어여 남 나다 여 이러케짝이맞아서 여자애들이내놓은물건고르기로짝을정하로햇어 여자애들이내놓은물건고르기로짝을정하로햇어여 저 손수건냇어 곰돌이손수건이 곰돌이손수건 내가손수건갖그다닐이미지는아니어서모를줄알고냇눈데완전임예린처럼생겻대 내가손수건갖그다닐이미지는아니어서모를줄알고냇눈데완전임예린처럼생겻대여 허류 결국저는영로랑짝이되엇어 멋쟁이영 멋쟁이영로 저희친구들모두매너남에결싶남 영로랑신완이는정말결싶 영로랑신완이는정말결싶남 taglove 완전결혼하면행복하게해줄남자에 결혼하그싶은남자져 m
-mbc_wedding	she0604	POST	pymb42k-yamd4		2011-08-23	대성이여친은개뿔 지네들이뭐가안다 대성이결혼 우리가먼저알겟다 tagcry 하지만누구 무개념이퍼트린거야tagquestion tagcry 교회사람들도좀 가만히잇지 tagcry
-mbc_wedding	wngus663	POST	pymb48t-y2tnk		2011-08-22	우리 여러가지 일들 일들을 숫자 정해농고 모아둔 재산 결혼 적령기 내 내다 집 마련시기 내 내다 상황 근사치 근사치에 가까우면 다행 생각 맞지않으면 조급 조급해지 심지어 모자라다 삶다 삶 살고있는것 불안해한다 하다 하지 그것 행복 지표가될까tagquestion 일반적 기준 평균 하다 하 숫자 내 살아가다 삶다 삶 방해 있는거 아닐까tagquestion tagcry
+mbc_wedding	guswn9204	POST	pym9ld3-qfl3		2011-08-24	온유한승연 우결 tagquestion tagexclamation
+mbc_wedding	_154cm	POST	pym9tcv-_bg9p		2011-08-23	물이무서운옐니는정말죽을맛인데친구들은표정웃끼다고낄낄낄 그때신완이가와서구해줫쪙 마치보디가드의한장면 엔들리스러브를배경화면으로깔아주고십네 아무튼우리친구들은정말멋찐친구 암 어젠런닝맨을햇어 어젠런닝맨을햇어여 남5 여5 이러케짝이맞아서 여자애들이내놓은물건고르기로짝을정하로햇어 여자애들이내놓은물건고르기로짝을정하로햇어여 저 손수건냇어 곰돌이손수건이 곰돌이손수건 내가손수건갖그다닐이미지는아니어서모를줄알고냇눈데완전임예린처럼생겻대 내가손수건갖그다닐이미지는아니어서모를줄알고냇눈데완전임예린처럼생겻대여 허류 결국저는영로랑짝이되엇어 멋쟁이영 멋쟁이영로 0 저희친구들모두매너남에결싶남 영로랑신완이는정말결싶 영로랑신완이는정말결싶남 taglove 완전결혼하면행복하게해줄남자에 결혼하그싶은남자져 m
+mbc_wedding	she0604	POST	pymb42k-yamd4		2011-08-23	대성이여친은개뿔 지네들이뭐가안다 대성이결혼 우리가먼저알겟다 tagcry 하지만누구 무개념이퍼트린거 tagquestion tagcry 교회사람들도좀 가만히잇지 tagcry
+mbc_wedding	wngus663	POST	pymb48t-y2tnk		2011-08-22	우리 여러가지 일들 일들을 숫자 정해농고 모아둔 재산 결혼 적령기 내 내다 집 마련시기 내 내다 상황 근사치 근사치에 가까우면 다행 생각 맞지않으면 조급 조급해지 심지어 모자라다 삶다 삶 살고있는것 불안해한다 하다 하지 그것 행복 지표가 지표가될까 tagquestion 일반적 기준 평균 하다 하 숫자 내 살아가다 삶다 삶 방해 있는거 아니다 tagquestion tagcry
 mbc_wedding	rudakekak	POST	pymb9b2-ysff9		2011-08-22	택 택이 taglove 경이우리 결혼 taglove
 mbc_wedding	lively_ksa	POST	pymbbu_-_ip3u		2011-08-22	저번주 우결 권리세 진짜 이쁘다 생머리 생머리에 찰랑찰랑 찰랑찰랑하 옷 되다 이쁘다 미코출신 이건가 비록 교포미코지 권리세 머리 소희 머리때문 매직한 생머리 버닝 tagsmile 난 나다 날다 비주얼 비주얼에 관련 무엇 보다 살짝 미치다 단계 이르른 듯 tagsmile
-mbc_wedding	anafence21	POST	pymbnid-5rmzu		2011-08-23	pm am 비스트 빅뱅 샤 샤이 보이프렌드 동방신기 슈퍼주니어 유키스 제국 아이들 미스에 미스에이 원더걸스 포미닛 시크릿 아이유 시스타 티아 티아라 투에니원 소녀시대 인피니트 ss 레인보우 달샤벳 오렌지카랴멜 애프터스쿨 엠블랙 걸스데 걸스데이 에프엑스 에이핑크 박정현 지다 지나다 지 보다 바이브 틴탑 방용국 자우림 김범수 존박 옥주현 블락비 장재 장재인 비 에릭 베이비복스 이소 이소라 이승기 윤도현 유상무 현빈 김은비 브아걸 권리세 데이비드오 백청강
+mbc_wedding	anafence21	POST	pymbnid-5rmzu		2011-08-23	2pm 2am 비스트 빅뱅 샤 샤이 보이프렌드 동방신기 슈퍼주니어 유키스 제국 아이들 미스에 미스에이 원더걸스 포미닛 시크릿 아이유 시스타 티아 티아라 투에니원 소녀시대 인피니트 ss501 레인보우 달샤벳 오렌지카랴멜 애프터스쿨 엠블랙 걸스데 걸스데이 에프엑스 에이핑크 박정현 지다 지나다 지 보다 바이브 틴탑 방용국 자우림 김범수 존박 옥주현 블락비 장재 장재인 비 에릭 베이비복스 이소 이소라 이승기 윤도현 유상무 현빈 김은비 브아걸 권리세 데이비드오 백청강
 mbc_wedding	fkaus01179	POST	pymbzq5-5ixr6		2011-08-23	taglove 우리 결혼 taglove
 mbc_wedding	kkh03e	POST	pymc3h1-_ay4a		2011-08-25	우결 우결에 나오다 탱추벌래 waglewagle
 mbc_wedding	diana4642	POST	pymc4_c-_yzvt		2011-08-25	언니 우결 데이비드 오 오빠랑너무 잘오려용 tagexclamation
-mbc_wedding	kmediabox	POST	pymcf0e-_1l70		2011-08-27	토도우 우리 결혼 시즌 회 월 일 다시보기
-mbc_wedding	eland2011	POST	pymcgwq-5bkcn		2011-08-25	우결 용서커플 인천 한류콘서트 서 서다 밴드 결성
+mbc_wedding	kmediabox	POST	pymcf0e-_1l70		2011-08-27	토도우 우리 결혼 시즌3 98회 8월27 일 다시보기
+mbc_wedding	eland2011	POST	pymcgwq-5bkcn		2011-08-25	우결 용서커플 2010 인천 한류콘서트 서 서다 밴드 결성
 mbc_wedding	bbdaesung	POST	pymcor5-hj_z		2011-08-25	우리 패다 결혼루머같은거 안믿어 안믿어요 대성오빠 돌아오다 전 전이 돌아오다 후 꿋꿋하게 대성오빠 곁 지키다
 mbc_wedding	roockman2	POST	pymcv6h-yhv31		2011-08-26	아놔 큰일일세 급 결혼 하고싶어지네 tagcry 우리차장 아들 마눌바보질중 쉣
 mbc_wedding	ss010216	POST	pymcxky-ysz4p		2011-08-26	원문 내가짱와 반짝이 반짝이가 우리 마을 결혼 하다 바로가기 웹
-mbc_wedding	wngml1178	POST	pymcyxd-yyprl		2011-08-24	나 나다 완젼 깜놀 ㄷㄷ 어떤 블로그 글 읽다 tagcry 한승연 한승연이 온유 우결 우결을 찍는데 찍는데요 tagexclamation tagcry tagcry ㅡ내 ㅡ내가 한승연 시러하는건 아니다 온유 우결 우결을 찍는게 싫은거 싫은거임 이거 정확 정보 아니다 만약 찍다 되다 팬덤끼리 싸움 싸우다 책임질꺼tagquestion 진기오빠 욕먹다 tagexclamation tagcry
+mbc_wedding	wngml1178	POST	pymcyxd-yyprl		2011-08-24	나 나다 완젼 깜놀 ㄷㄷ 어떤 블로그 글 읽다 tagcry 한승연 한승연이 온유 우결 우결을 찍는데 찍는데요 tagexclamation tagcry tagcry ㅡ 내 한승연 시러하는건 아니다 온유 우결 우결을 찍는게 싫은거 싫은거임 이거 정확 정보 아니다 만약 찍다 되다 팬덤끼리 싸움 싸우다 책임질꺼 tagquestion 진기오빠 욕먹다 tagexclamation tagcry
 mbc_wedding	sypretty79	POST	pyme1cq-j9u		2011-08-22	가장 자주 먹고 가장 좋아하다 점심메이트 최과장오빠 먹 동나다 스타일 스타 런치 밥 잘사주 잘사주고 우리팀 욕 속시원 해도 하다 해 내편 내편만 들다 주다 짱 좋다 tagsmile 오늘 점심 결혼기념일 기념 내 쏘다 tagsmile
 mbc_wedding	rusion57	POST	pymee2g-y5rgq		2011-08-22	미중년 강동우 이여 결혼 버럭 버럭한 사연 tagsmile 우리 동우햄 tagcry 언능 장가가다 tagcry osen
-mbc_wedding	ksj2198	POST	pymeu2k-52w1s		2011-08-22	우리결혼 되다 보신분있으세요tagquestion tagsmile 결혼하기위 부모님승낙 리얼예능 tagsmile 지난번 쇼핑몰연매출 억찍고 있다 남자 노을 청혼 부르다 진짜 노래 노랗다 잘하더라고 잘하더라고요 이분 운영 쇼핑몰 쇼핑몰이 삼백미터 삼백미터는 본인키 본인키가 가 가다 안되는만큼키작은남자들을위한쇼핑몰이라 tagsmile
+mbc_wedding	ksj2198	POST	pymeu2k-52w1s		2011-08-22	우리결혼 되다 보신분 tagquestion tagsmile 결혼하기위 부모님승낙 리얼예능 tagsmile 지난번 쇼핑몰연매출 15억찍고 있다 남자 노을 청혼 부르다 진짜 노래 노랗다 잘하더라고 잘하더라고요 이분 운영 쇼핑몰 쇼핑몰이 삼백미터 삼백미터는 본인키 본인키가 165 165가 안되는만큼키작은남자들을위한쇼핑몰이라 tagsmile
 mbc_wedding	dongo7402	POST	pymf5ch-_gx77		2011-08-26	토리미투 tagexclamation 우주의보물 빅토리아 tagexclamation 최고 최 tagexclamation 네이버카페 닉쿤 taglove 빅토리아 커플 공식팬카페 쿤토리아
-mbc_wedding	c155815	POST	pymf5pd-n08r		2011-08-23	sbs 힐링캠프 좋지아니 좋지아니한가 차태현편 재밌게봤다 tagexclamation 어릴적 팬 tagexclamation 방송 영화에서보여지 재밌는이야기 뒷이야기까지솔직담백 풀어노은듯 고등학교때 만나다 만 동갑내기첫사랑 결혼 섯살 섯살난 아들 배속에아기까지행복해보 tagexclamation 고등학교때부터만 동갑내기 우리부부 그리다 아영이 tagsmile 많이닮은것 많이닮은것같아서 더좋다tagsmile
-mbc_wedding	yooysgoodgir	POST	pymf7vu-rncw		2011-08-23	왜 외다 이상 털다 도는건데tagquestion 턴내용 tagsmile 샤월턴온유오빠랑카라한승연 우결진짜찍는다네요한승연이막해달라고졸랐데요 헐 tagsmile 무슨말도안 tagsmile
+mbc_wedding	c155815	POST	pymf5pd-n08r		2011-08-23	sbs 힐링캠프 좋지아니 좋지아니한가 차태현편 재밌게봤다 tagexclamation 어릴적 팬 tagexclamation 방송 영화에서보여지 재밌는이야기 뒷이야기까지솔직담백 풀어노은듯 고등학교때 만나다 만 동갑내기첫사랑 결혼해서5 섯살 섯살난 아들 배속에아기까지행복해보 tagexclamation 고등학교때부터만 동갑내기 우리부부 그리다 아영이 tagsmile 많이닮은것 많이닮은것같아서 더좋다 tagsmile
+mbc_wedding	yooysgoodgir	POST	pymf7vu-rncw		2011-08-23	왜 외다 이상 털다 도는건데 tagquestion 턴내용 tagsmile 샤월턴온유오빠랑카라한승연 우결진짜찍는다네요한승연이막해달라고졸랐데요 헐 tagsmile 무슨말도안 tagsmile
 mbc_wedding	gemmm	POST	pymf8uk-enid		2011-08-26	친구 초음파 사진 보다 이게 우리 애기래 라 라며 마플 마플로 사진 보내오다 친구덕 친구덕에 생각 많다 결혼생각 진짜 없다 좀 조다 슬프다 슬퍼졌
 mbc_wedding	mary006	POST	pymf9q4-_izq2		2011-08-22	내 사랑 조건 조다 다 좋다 남자랑 남자 결혼 부모님 호강 시켜 시켜드리기 tagexclamation 웃긴영화보기 친구 놀다 탱고 배우다 연예인 연예 되보기 tagquestion 사람 사랑 사 많다 받다 매일 매이다 웃기 웃다 친구 동거 tagquestion 우리 동생 데이트 하기 하다 tagexclamation tagsmile 제발 되다 좋다 tagexclamation taglove 아잉
-mbc_wedding	babynews2010	POST	pymffr1-_58o3		2011-08-25	베이비뉴스빅토리아 닉쿤 부부 허니문 떠나다 떠 몰디브는tagquestion 예비신부 가다 가 싶다 신혼여행지 위 몰디브
-mbc_wedding	po7241	POST	pymfkkb-y82lh		2011-08-25	우리아드님 뇌구조 이것 뭔가요tagquestion 카드 결혼 에휴
-mbc_wedding	lovejoa25	POST	pymfkz4-5zpzy		2011-08-26	청주루체피에스타 이보현 taglove 서진희 우리 결혼 tagsmile
-mbc_wedding	as6547	POST	pymfl4i-jom4		2011-08-25	온군 온군이 tagsmile ㄹ ㄹ에 tagsmile ㅅㅇ양 ㅅㅇ양이 우결 우결을 찍는다 찍는다라 루머 루머가 또돌아다닌다
-mbc_wedding	as6547	POST	pymfl7k-jom4		2011-08-25	tagsmile ㅅㅇ양 ㅅㅇ양을 편애하기때문 괜찮긴 괜찮긴한데 우결 우결은 ㅇㄱ ㅇㄱ은 없어지다 하다 tagsmile
-mbc_wedding	kye980309	POST	pymfngq-fpqj		2011-08-23	지금 기분 존 존나 더럽다 샤월턴 개왓어 두개 다 진짜 아니다 좋다 그리다 일본가 일본가있는데 우결 우결이라 우결이라니 당치 당치도 않다 그렇다 tagquestion우리한테 먼저 오다 우결 아니잖 아니잖아 내용 토시하 토시하나 틀리다 않다 진짜면 여자분 나 나다 진짜 실망
+mbc_wedding	babynews2010	POST	pymffr1-_58o3		2011-08-25	베이비뉴스빅토리아 닉쿤 부부 허니문 떠나다 떠 몰디브 몰디브는 tagquestion 예비신부 가다 가 싶다 신혼여행지 1위 몰디브
+mbc_wedding	po7241	POST	pymfkkb-y82lh		2011-08-25	우리아드님 뇌구조 이것 뭔가 뭔가요 tagquestion 카드 결혼 에휴
+mbc_wedding	lovejoa25	POST	pymfkz4-5zpzy		2011-08-26	11,12 청주루체피에스타 이보현 taglove 서진희 우리 결혼 tagsmile
+mbc_wedding	as6547	POST	pymfl4i-jom4		2011-08-25	온군 온군이 tagsmile ㄹ tagsmile ㅅㅇ 양 우결 우결을 찍는다 찍는다라 루머 루머가 또돌아다닌다
+mbc_wedding	as6547	POST	pymfl7k-jom4		2011-08-25	tagsmile ㅅㅇ 양 편애하기때문 괜찮긴 괜찮긴한데 우결 우결은 ㅇㄱ 은 없어지다 하다 tagsmile
+mbc_wedding	kye980309	POST	pymfngq-fpqj		2011-08-23	지금 기분 존 존나 더럽다 샤월턴 2개왓어 두개 다 진짜 아니다 좋다 그리다 일본가 일본가있는데 우결 우결이라 우결이라니 당치 당치도 않다 그렇다 tagquestion 우리한테 먼저 오다 우결 아니잖 아니잖아 내용 토시하 토시하나 틀리다 않다 진짜면 여자분 나 나다 진짜 실망
 mbc_wedding	jinichoco	POST	pymfo2o-yxca9		2011-08-25	저 오늘 덕수궁에가 덕수궁에가요 tagexclamation 나중에뵈 tagexclamation 팬분 만날수있느려 만날수있느려나 tagquestion 오늘 은정이스타일 가다 tagexclamation 은정 지금 우결촬영중 어제 이제가 이제가요 tagexclamation 빠이빠 빠이빠이 tagexclamation
 mbc_wedding	wndus47568	POST	pymfsfc-_ii63		2011-08-22	오빠 우리결혼했어요에서 빅토리아언니 진짜 부부 같다 tagexclamation 그런데 좀 조다 질투 taglove
-mbc_wedding	dkssl0312	POST	pymfx32-ykg9x		2011-08-25	우리사귀자모래사귀자 결혼할꺼 우리만나자비밀약속지커 졸업하고만 사랑해알러뷰 우리사귀자 사랑한다고많이당신 남편 사랑한다고결혼 이진호 ㅗ휴
+mbc_wedding	dkssl0312	POST	pymfx32-ykg9x		2011-08-25	우리사귀자모래사귀자 결혼할꺼 우리만나자비밀약속지커 졸업하고만 사랑해알러뷰 우리사귀자 사랑한다고많이당신 남편 사랑한다고결혼 이진호 010-40643959 ㅗ 휴
 mbc_wedding	phj3353	POST	pymfyhg-_10n8		2011-08-26	서지훈프로게이머 서지훈 결혼
 mbc_wedding	seina_love	POST	pymgcud-qk8w		2011-08-26	이제 우리 결혼 사이좋다 가족 되다 일 같은걸 같은걸로 싫은일 싫은일이 있다 서 불평 하다 같다 앞 바라보다 살아가다 나다 나 당신 당신을 사랑 있다 강하다 내 내다 안 당신 당신을 생각 마음 이상 강하다 마음 없다
-mbc_wedding	hj771104	POST	pymgfl0-5xwpq		2011-08-26	사랑가득 우리집 발도장 tagexclamation 짝짝짝 tagexclamation 오늘 한석 한석이 혜정 혜정이 십주년 결혼기념일임돠 tagexclamation 헐 횟수 십일년 십일년을 이남자랑 이남자 살았네tagsmile via 아임in
+mbc_wedding	hj771104	POST	pymgfl0-5xwpq		2011-08-26	사랑가득 우리집 발도장 tagexclamation 짝짝짝 tagexclamation 오늘 한석 한석이 혜정 혜정이 십주년 결혼기념일임돠 tagexclamation 헐 횟수 십일년 십일년을 이남자랑 이남자 살다 tagsmile via 아임in
 mbc_wedding	fx_victoria	POST	pymghoo-_tbs5		2011-08-26	닉쿤이랑정말결혼했으면좋겠자내가우결쿤토리아땜에보는대실제부부되세 tagsmile 사는건한국 tagsmile 닉쿤하고사귈래여이래봐 tagsmile
 mbc_wedding	bana9104	POST	pymgnb6-_a5k1		2011-08-26	온유 한승연 우결 tagsmile
 mbc_wedding	fx_victoria	POST	pymgo3t-_a1vp		2011-08-27	우결 쿤토리아 부부 진리 난 나다 날다 쿤토리아가 젤 좋드 좋드라 tagsmile
@@ -103,13 +103,13 @@ mbc_wedding	dlghrud5112	POST	pymhamx-_axd5		2011-08-27	지금 우결 우결이 �
 mbc_wedding	sun17789	POST	pymhavh-5mz6g		2011-08-27	지금 우결보는사람
 mbc_wedding	dpfwh2000	POST	pymhb2y-_1dpu		2011-08-27	오늘 티아라 티아라가 나오다 음악중심 은정언니 나오다 우리결혼 많은시청 바라다 tagexclamation 오늘 티아라 티아라가 음중 막방이래 우울해 우울해있지 않다 tagexclamation
 mbc_wedding	gywls4632	POST	pymhc55-_q6mw		2011-08-27	tagsmile 나도니까우리결혼해야겠네 tagexclamation
-mbc_wedding	search_now	POST	pymhh2_-5y0f5		2011-08-27	엘 성은 성 투개월 new 티아 티아라 엠블랙 인피니트 우리결혼 음악중심 전성진 new 엠마스톤 네이버 실시 급상승 검색어
+mbc_wedding	search_now	POST	pymhh2_-5y0f5		2011-08-27	엘 141 성은 성 228 투개월 new 티아 티아라 48 엠블랙 87 인피니트 39 우리결혼 126 음악중심 120 전성진 new 엠마스톤 360 네이버 실시 급상승 검색어
 mbc_wedding	gyny	POST	pymhh4m-yevkk		2011-08-27	한주 한주를 어떻다 기달리다 기달리다니 tagexclamation 빨다 끝나다 우결 우결이 무도
 mbc_wedding	janerose1	POST	pymhh7o-_k6u3		2011-08-27	덜덜언니 쿨한언니 tagexclamation 난 나다 날다 우결이끝 우결이끝나거 우결이끝나거나 아니다 엄마 나오다 가야 가야돼 tagcry
-mbc_wedding	wkrdmsdk5541	POST	pymhh_w-_6u24		2011-08-27	내 음중 틀어놓고 만화 보고있었어 방학숙제 음중 끝나다 우결끝나곸 tagsmile 근데 티아라 티아라가 나오더라구 내동생 내동생하 내동생 친구 있다 뭐 난 나다 날다 쟤 쟤가 젤예뻐 나다 나 지다 막 이러는거 이러는거야 사다 살 안쳐먹 안쳐먹은 새깽이 새깽이들이 내 거다 거기 초 쳐주다 난 나다 날다 다싫어 라곸 tagsmile
+mbc_wedding	wkrdmsdk5541	POST	pymhh_w-_6u24		2011-08-27	내 음중 틀어놓고 만화 보고있었어 방학숙제 음중 끝나다 우결끝나곸 tagsmile 근데 티아라 티아라가 나오더라구 내동생 내동생하 내동생 친구 있다 뭐 난 나다 날다 쟤 쟤가 젤예뻐 나다 나 지다 막 이러는거 이러는거야 7살 7살밖 안쳐먹 안쳐먹은 새깽이 새깽이들이 내 거다 거기 초 쳐주다 난 나다 날다 다싫어 라곸 tagsmile
 mbc_wedding	gsh06088	POST	pymhldp-55vhm		2011-08-27	my favorite 빅토리아 다르다 다 루 루나 가희 아이유 기광 닉쿤 해리포터 리락쿠마 강쥐 tagsmile
 mbc_wedding	rldud4976	POST	pymhm5t-5t7p4		2011-08-27	tagcry 오늘 쇼 tagexclamation 음악중심우리결혼 하다 못본다 지금 시내가는즹
-mbc_wedding	poo0731	POST	pymhm6c-_9_8i		2011-08-27	좀 조다 있다 음중하네요tagsmile 여러분 볼거죠tagquestion 우결 우결도 하다 본방사수 tagexclamation
+mbc_wedding	poo0731	POST	pymhm6c-_9_8i		2011-08-27	좀 조다 있다 음중 음중하네 음중하네요 tagsmile 여러분 볼거죠 tagquestion 우결 우결도 하다 본방사수 tagexclamation
 mbc_wedding	jj576	POST	pymhnyu-yrkli		2011-08-27	몰캉몰캉 우결 tagsmile 웃기다
 mbc_wedding	pma2347	POST	pymho1a-5e5yg		2011-08-27	오랜만에날씨좋은데 tagcry 갈곳이없는이서러움 구냥집에서우결봐야지 애들 애들아 보고싶어 tagsmile
 mbc_wedding	welcome-jisu	POST	pymhoqy-yntls		2011-08-27	우결 용 서 서다 커플 재방 taglove
@@ -118,112 +118,112 @@ mbc_wedding	chelly8783	POST	pymhse3-_san3		2011-08-27	데이비드오 권리세 
 mbc_wedding	anju5464	POST	pymhseq-ybpbf		2011-08-27	우결보고오겠습니더 아 윌 비 백
 mbc_wedding	csj1420	POST	pymhsg5-ye8g_		2011-08-27	tagsmile 우결 쿤토리아보면 넥밥생각 tagsmile 손 카와이 카와이한 커플 tagsmile 아 눈에서땀 눈에서땀나 tagsmile
 mbc_wedding	jab1203	POST	pymhskg-5volu		2011-08-27	여러분 우결 우결보 씻고올께 씻고올께요
-mbc_wedding	wlduseorb929	POST	pymhsqx-yp6s_		2011-08-27	내 내다 애끼미 애끼미들은 다 오디갔을까tagquestion 즐겁다 우결 시청중tagquestion
+mbc_wedding	wlduseorb929	POST	pymhsqx-yp6s_		2011-08-27	내 내다 애끼미 애끼미들은 다 오디갔을까 tagquestion 즐겁다 우결 시청중 tagquestion
 mbc_wedding	wnsdlqks481	POST	pymhtio-5os8e		2011-08-27	우결같이볼사람 미투 tagexclamation 미투 tagexclamation
-mbc_wedding	beast003	POST	pymhutc-_z3wr		2011-08-27	오늘 우결 본사람tagquestionㅇ ㅇ
+mbc_wedding	beast003	POST	pymhutc-_z3wr		2011-08-27	오늘 우결 본사람 tagquestion ㅇ ㅇ
 mbc_wedding	ssko1101	POST	pymhwr1-r80u		2011-08-27	tagsmile 아이돌육상선수권대회같다왔어여인피니트진리 tagexclamation 은정하구수지진짜이쁘더 tagcry 지연도근데데이비드오하고권리세빡침 tagcry 왜애정행각 tagcry
 mbc_wedding	itoss	POST	pymhz3u-q177		2011-08-27	지연환희큐리소연은정이장우우리결혼
-mbc_wedding	jenny8993	POST	pymi8u1-zkjh		2011-08-26	헐 우결찍으러왔나tagquestion
-mbc_wedding	nogihey	POST	pymi98r-jayt		2011-08-25	온유 한승 우결 출연설tagquestion 설tagquestion 설이겠지tagquestion 설 쓰여 쓰여있으니까 설이겠지tagquestion 제발 sm 샤 샤이 노래 노랗다 안 되 우리 노래 노랗다 나오다 tv 좋다 해외 맨 맨날 방송 피곤 쩔었을테니까 한국 아무것 아무것도 안하다 안 좀 조다 쉬다 좋다
+mbc_wedding	jenny8993	POST	pymi8u1-zkjh		2011-08-26	헐 우결찍으러왔 우결찍으러왔나 tagquestion
+mbc_wedding	nogihey	POST	pymi98r-jayt		2011-08-25	온유 한승 우결 출연설 tagquestion 설 서다 tagquestion 설 tagquestion 설 쓰여 쓰여있으니까 설 tagquestion 제발 sm 샤 샤이 노래 노랗다 안 되 우리 노래 노랗다 나오다 tv 좋다 해외 맨 맨날 방송 피곤 쩔었을테니까 한국 아무것 아무것도 안하다 안 좀 조다 쉬다 좋다
 mbc_wedding	alswl56248	POST	pymic2z-5yzs6		2011-08-26	우리아들이우리며느리 tagsmile 우리사귀는거그만하고결혼하자이런말 tagsmile 진짜 눈물나올뻔했앜
 mbc_wedding	tizjaos	POST	pymidv6-v7_v		2011-08-25	닉쿤오빠 빅토리아언니 잘어울려 잘어울려요 tagexclamation
-mbc_wedding	jkj320	POST	pymid_3-tl8q		2011-08-25	오세훈 시장 시장직 사퇴 이후 나경원 의원 함 우리 결혼했어요로 예능 데뷔 예정 시청율 가 가다 안 자진하차 조건 tagsmile 트위터 발견한건데 사실인가tagquestion
-mbc_wedding	dursla0206	POST	pymiket-_yyi4		2011-08-25	온유 한승연 한승연이 우결찍는다고tagquestion 아 카라진심 tagsmile
-mbc_wedding	shinee4420	POST	pymiow9-ywilm		2011-08-25	온유 한승연 한승연이 우결 우결을 하다 소문 진짤까tagquestion 진짤까tagquestion난 괜찮다 내 내다 친구 걱정 우현오빠두 tagcry 이게 진짜면 우현오빠 한승연 이상형이랫는데 잘된거야tagquestion안된거야tagquestion
+mbc_wedding	jkj320	POST	pymid_3-tl8q		2011-08-25	오세훈 시장 시장직 사퇴 이후 나경원 의원 함 우리 결혼했어요로 예능 데뷔 예정 시청율 33.3 가 가다 안 자진하차 조건 tagsmile 트위터 발견한건데 사실 tagquestion
+mbc_wedding	dursla0206	POST	pymiket-_yyi4		2011-08-25	온유 한승연 한승연이 우결찍는다 우결찍는다고 tagquestion 아 카라진심 tagsmile
+mbc_wedding	shinee4420	POST	pymiow9-ywilm		2011-08-25	온유 한승연 한승연이 우결 우결을 하다 소문 진짤까 tagquestion 난 나다 날다 괜찮다 내 내다 친구 걱정 우현오빠두 tagcry 이게 진짜면 우현오빠 한승연 이상형이랫는데 잘된거 잘된거야 tagquestion 안된거 안된거야 tagquestion
 mbc_wedding	fx458	POST	pymis8m-_mbl1		2011-08-25	닉쿤형이랑 빅토리아누 빅토리아누나 진짜 잘어울려 잘어울려요 tagsmile 쿤토리아 부부 영원 하다 좋다 tagexclamation taglove
-mbc_wedding	c155815	POST	pymixin-n08r		2011-08-26	낼신랑생일 미역물에담가두 tagsmile 밥 예약취사 걸어두 걸어두고 tagsmile 울신랑이좋아 울신랑이좋아하 울신랑이좋아하는 잡채 tagsmile 무쌈말 무쌈말이 만들어놓고 tagsmile 떡베이컨말이해놓고 la갈비 양념에재워놓고 tagsmile 근데 신 신랑 회식중 tagexclamation 이르다 내다 콩나물국 끓여야하는거아니야tagquestion tagexclamation tagquestion tagsmile 결혼하고두번째 함께하 함께하는 우리신랑 번때생일tagsmile 아영 아영이 셋 셋이 햄볶을듯 tagsmile 근데 tagcry tagcry 왜 외다 안오냐tagquestion술 작작마시 들어오다 tagsmile
+mbc_wedding	c155815	POST	pymixin-n08r		2011-08-26	낼신랑생일 미역물에담가두 tagsmile 밥 예약취사 걸어두 걸어두고 tagsmile 울신랑이좋아 울신랑이좋아하 울신랑이좋아하는 잡채 tagsmile 무쌈말 무쌈말이 만들어놓고 tagsmile 떡베이컨말이해놓고 la갈비 양념에재워놓고 tagsmile 근데 신 신랑 회식중 tagexclamation 이르다 내다 콩나물국 끓여야하는거아니 끓여야하는거아니야 tagquestion tagexclamation tagquestion tagsmile 결혼하고두번째 함께하 함께하는 우리신랑33 번때생 번때생일 tagsmile 아영 아영이 셋 셋이 햄볶을듯 tagsmile 근데 tagcry tagcry 왜 외다 안오냐 tagquestion 술 작작마시 들어오다 tagsmile
 mbc_wedding	nun_mul	POST	pymizdt-y39cy		2011-08-25	우리 두손 꼭잡고 다이겨 다이겨내 다이겨내고 원하는꿈 꼭이뤄서 같다 행복하게오래살자 내꿈 내꿈은 니 결혼 행복 웃다 늘다 같이있고 사는거인뎋 tagsmile
 mbc_wedding	0108kitty	POST	pymi_rc-ybj4z		2011-08-25	온유 한승현 한승현이 우결찍는다는데 tagcry
-mbc_wedding	dmes2	POST	pymj6j7-_a5hd		2011-08-24	언냐 행복해tagquestion tagcry 티아 티아라 은정언냐 우결나오니깐 꼬옥 본방사수 tagexclamation
+mbc_wedding	dmes2	POST	pymj6j7-_a5hd		2011-08-24	언냐 행복 tagquestion tagcry 티아 티아라 은정언냐 우결나오니깐 꼬옥 본방사수 tagexclamation
 mbc_wedding	jwest3151	POST	pymjdki-y7j0w		2011-08-24	우결 같다 찍다 서현 서현이 제일 제 나은거 같다 미투 아오 죄송
-mbc_wedding	1203abc	POST	pymjfi_-om_h		2011-08-24	tagsmile 우결 우결이 인연끈ㄶ 지도 지 한참 뭐또 우결 우결이 별인연 다 맺어볼일있낰 tagsmile 아진짜 거의 거 이런거 루머라지 루머라지만 마음 걸리넹 양요섭 김재경 우결촬영tagquestion뭐 이것 루머 참 차다 씁쓸
+mbc_wedding	1203abc	POST	pymjfi_-om_h		2011-08-24	tagsmile 우결 우결이 인연끈 ㄶ 은 지도 지 한참 뭐또 우결 우결이 별인연 다 맺어볼일있낰 tagsmile 아진짜 거의 거 이런거 루머라지 루머라지만 마음 걸리넹 양요섭 김재경 우결촬영 tagquestion 뭐 이것 루머 참 차다 씁쓸
 mbc_wedding	qlrqodxkq129	POST	pymjgns-yl192		2011-08-23	우리 대성이 대성이가 결혼설 결혼설에 휘말리다 tagsmile 하필 이런시기 tagsmile 음 뭐 니 좋다 지금 이나이 이나이에 결혼 좋다 난 나다 날다 아직 이르다 생각 대성 뭐 어차피 루머일테니까 tagsmile 쨋든 난 나다 날다 대성 빨다 자숙 해서 하다 돌아와가지구 활동다시했음조케따
-mbc_wedding	thwlstn	POST	pymjnu_-s69f		2011-08-25	우리 아빠 같다 남자 우리 엄마 이쁘다 여자랑 여자 결혼 나다 나 나라 못 할까tagquestion tagexclamation 근데 왠지
-mbc_wedding	floud4	POST	pymjoan-y4xhx		2011-08-24	원문 못생기다 우결 못해tagquestion 백청강 외모 비하 비 논란 논다 웹
+mbc_wedding	thwlstn	POST	pymjnu_-s69f		2011-08-25	우리 아빠 같다 남자 우리 엄마 이쁘다 여자랑 여자 결혼 나다 나 나라 못 하다 tagquestion tagexclamation 근데 왠지
+mbc_wedding	floud4	POST	pymjoan-y4xhx		2011-08-24	원문 못생기다 우결 못하다 tagquestion 백청강 외모 비하 비 논란 논다 웹
 mbc_wedding	tkfkd1k	POST	pymjozh-5sgxn		2011-08-24	몰디브 몰디브 몰디브로 빅토리아 닉쿤 부부 허니문 떠나다
-mbc_wedding	yummy2000	POST	pymjygf-5qlzb		2011-08-23	타로카드 타로점 타 타로보기 우리 결혼 있을까tagquestion 미소스타 타로카드 타로점 타 타로보기
+mbc_wedding	yummy2000	POST	pymjygf-5qlzb		2011-08-23	타로카드 타로점 타 타로보기 우리 결혼 있다 tagquestion 미소스타 타로카드 타로점 타 타로보기
 mbc_wedding	eun-2pm	POST	pymm0_z-_ahia		2011-08-27	우결 쿤토리아가 조다 미튜
-mbc_wedding	ha_euddaek	POST	pymm24d-585a8		2011-08-25	진짜 어뉴우결찍는거 아니겟지tagquestion 아그러지마 tagcry
-mbc_wedding	mople	POST	pymm52b-ybyr8		2011-08-27	우리결혼 회 e 닥본사 닥 치다 치 본 보다 방 사 사다 닥치고본방사수 닥본사 별점 오늘 우리결혼 회 e
+mbc_wedding	ha_euddaek	POST	pymm24d-585a8		2011-08-25	진짜 어뉴우결찍는거 아니겟지 tagquestion 아그러지마 tagcry
+mbc_wedding	mople	POST	pymm52b-ybyr8		2011-08-27	우리결혼 98회 e98닥본사  닥  치다 치  본  방  사  닥치고본방사수 닥본사 별점 오늘 우리결혼 98회 e98
 mbc_wedding	ehdrb5760	POST	pymm9kv-_h7y3		2011-08-27	우결보는사람 미투찍어주세 미투찍어주세요 tagsmile
 mbc_wedding	wg3163	POST	pymm9mu-v2e7		2011-08-27	우결 보다 빅토리아 민낯 민낯도 이쁘다 tagsmile 난 나다 날다 빅토리아 좋아하다 tagsmile
-mbc_wedding	s0920a	POST	pymmacq-_kh9v		2011-08-24	저 나중 결혼 아기 완전 많다 낳다 집다 집 유치원 꾸미다 싶다 막 우리나라 우리 출산율 년 오르다 첫 출산 연령 대로 대 진입
+mbc_wedding	s0920a	POST	pymmacq-_kh9v		2011-08-24	저 나중 결혼 아기 완전 많다 낳다 집다 집 유치원 꾸미다 싶다 막 우리나라 우리 출산율 3년 3년만 오르다 첫 출산 연령 30 30대 진입
 mbc_wedding	hb2137	POST	pymmbmw-_ambd		2011-08-27	이제 우결보자 tagexclamation tagsmile
 mbc_wedding	lb3054	POST	pymmet9-y0v3f		2011-08-25	온유 한승연 한승연이 우결찍는다 우결찍는다니 근데 벌쓰다 샤월턴 돌았다는데 루머겠지 설마 설다 그럴리 그럴리가
 mbc_wedding	sshh1188	POST	pymmgd1-53jiy		2011-08-27	오늘 우결
-mbc_wedding	jihong88	POST	pymmgt1-50d5g		2011-08-25	헐 뭐 온유 우결 우결을 찍는다고tagquestion 뭐 그딴 개소리 개소리가 다 있다 tagexclamation 이거 루머면 소원 없다
-mbc_wedding	chang0722	POST	pymmg_u-xlhl		2011-08-24	드디어 세훈 잘가 잘가라 그리다 자수 나 나다 결혼하기전 수서 살 사다 때오세훈 우리 동네 강남 강 지역구 의원 유세 막 돌아댕길때 악수 한 하다 번 벌다 해보다 에비 왜그랬을까 tagsmile
-mbc_wedding	0315msh	POST	pymmhfp-5p6r		2011-08-25	좌비 오백 우알로에팩 taglove tagcry 쌔다 tagcry 이대 갈다 tagcry 아 tagsmile 중앙 있는건 우리 학원쌤 학원쌤의 소망이에 tagsmile 대 이대여성분중 학원쌤 학원쌤이 결혼하실분 있다 tagsmile
-mbc_wedding	wing2922	POST	pymmj1w-_bcm9		2011-08-27	우리결혼 회 다시보기 우결 다시보기
-mbc_wedding	hello4928	POST	pymmjvl-5k7uo		2011-08-27	너넨 우결커플중에누가조아tagquestion 씹을거란걸알지 씹을거란걸알지만
-mbc_wedding	wing2922	POST	pymmjz0-_bcm9		2011-08-27	우리결혼 회 다시보기 우결 다시보기
-mbc_wedding	akftma55	POST	pymmlwo-5829f		2011-08-24	백청강 외모 비하논란 taglove 못생기다 우결 못해tagquestion 백청강 외모 비하 비 논란 논다
-mbc_wedding	frompic	POST	pymmmpn-_d1bz		2011-08-27	tagsmile 아 은정 너무귀여워 tagcry 오늘 tagsmile 우결 진짜 오늘 진리였음다필요 진짜 내가본것중 내가본것중에 제일 제 재ㅣ밌었던것 같다 진심으롱 tagsmile 몰캉몰캉
-mbc_wedding	crise81	POST	pymmqp7-56xsw		2011-08-24	결혼시작부터폭력을일삼은우리아빠를신고하고싶다 망치며칼이며안드는거없이들고위협하고몽둥이로머리를쳐서이마가터지고 tagcry 이이런얘기까지하는이유 그냥아직도그러는아빠를보는게속터져서tagquestion 이한참넘은당신 진짜성질그대 진짜성질그대로 엄마한테무슨일생기면나도이젠가만안 tagexclamation
+mbc_wedding	jihong88	POST	pymmgt1-50d5g		2011-08-25	헐 뭐 온유 우결 우결을 찍다 tagquestion 뭐 그딴 개소리 개소리가 다 있다 tagexclamation 이거 루머면 소원 없다
+mbc_wedding	chang0722	POST	pymmg_u-xlhl		2011-08-24	드디어 5세훈 잘가 잘가라 그리다 자수 나 나다 결혼하기전 수서 살 사다 때오세훈 우리 동네 강남 강 지역구 의원 유세 막 돌아댕길때 악수 한 하다 번 벌다 해보다 에비 왜그랬을까 tagsmile
+mbc_wedding	0315msh	POST	pymmhfp-5p6r		2011-08-25	좌비 오백 우알로에팩 taglove tagcry 쌔다 tagcry 이대 갈다 tagcry 아 tagsmile 중앙 있는건 우리 학원쌤 학원쌤의 소망이에 tagsmile 30대 이대여성분중 학원쌤 학원쌤이 결혼하실분 있다 tagsmile
+mbc_wedding	wing2922	POST	pymmj1w-_bcm9		2011-08-27	우리결혼 98회 다시보기 우결 다시보기 02
+mbc_wedding	hello4928	POST	pymmjvl-5k7uo		2011-08-27	너넨 우결커플중에누가조아 tagquestion 씹을거란걸알지 씹을거란걸알지만
+mbc_wedding	wing2922	POST	pymmjz0-_bcm9		2011-08-27	우리결혼 98회 다시보기 우결 다시보기 03
+mbc_wedding	akftma55	POST	pymmlwo-5829f		2011-08-24	백청강 외모 비하논란 taglove 못생기다 우결 못하다 tagquestion 백청강 외모 비하 비 논란 논다
+mbc_wedding	frompic	POST	pymmmpn-_d1bz		2011-08-27	tagsmile 아 은정 너무귀여워 tagcry 오늘 tagsmile 우결 진짜 오늘 진리였음다필요 진짜 내가본것중 내가본것중에 제일 제 재 재다 ㅣ 밌었던것 같다 진심으롱 tagsmile 3몰캉몰캉
+mbc_wedding	crise81	POST	pymmqp7-56xsw		2011-08-24	결혼시작부터폭력을일삼은우리아빠를신고하고싶다 망치며칼이며안드는거없이들고위협하고몽둥이로머리를쳐서이마가터지고 tagcry 이이런얘기까지하는이유 그냥아직도그러는아빠를보는게속터져서 tagquestion 60이한참넘은당신 진짜성질그대 진짜성질그대로 엄마한테무슨일생기면나도이젠가만안 tagexclamation
 mbc_wedding	boxboo302	POST	pymmr42-55kju		2011-08-27	은정 함은정 몰캉몰캉 보기 보다 듣기 듣다 우리결혼 우결 몰캉몰캉
-mbc_wedding	tjgus99217	POST	pymmred-yk22c		2011-08-27	앜 tagsmile 오늘우결완전떳넼 tagsmile 김원준박소현검색어 위 tagsmile 방금몰캉몰캉 위였는데지금없엌 tagsmile
+mbc_wedding	tjgus99217	POST	pymmred-yk22c		2011-08-27	앜 tagsmile 오늘우결완전떳넼 tagsmile 김원준박소현검색어에2 3위 tagsmile 방금몰캉몰캉도9 위였는데지금없엌 tagsmile
 mbc_wedding	liah99	POST	pymmrkx-cg6c		2011-08-27	tagsmile 오늘 음중 음중이 우결봤으니까 이젠 무도봐야지 tagexclamation today 소간지리턴즈 tagsmile
-mbc_wedding	doei22	POST	pymmtok-yun0x		2011-08-24	이민호박민영우결하면어떻게될까tagquestion
-mbc_wedding	cbb0220	POST	pymmucj-ykmod		2011-08-24	베이비뉴스 빅토리아 닉쿤 부부 허니문 떠나다 떠 몰디브는tagquestion
+mbc_wedding	doei22	POST	pymmtok-yun0x		2011-08-24	이민호박민영우결하면어떻게 tagquestion
+mbc_wedding	cbb0220	POST	pymmucj-ykmod		2011-08-24	베이비뉴스 빅토리아 닉쿤 부부 허니문 떠나다 떠 몰디브 몰디브는 tagquestion
 mbc_wedding	sk6083	POST	pymmwbz-7tqk		2011-08-25	한승연 한승연이 온유랑우결찍는대 tagcry
-mbc_wedding	lgm0827	POST	pymo059-yyzcn		2011-08-24	규현 폭탄고백 슈퍼주니어 과반수 아래 열애중 tagsmile 희님 희님과 규느님 어쩔 tagsmile 아악 tagexclamation 오라방 tagcry 샤이니 샤이니도 온유오빠 우결찍는다 우결찍는다는 소리 소리죠tagquestion 안 알다 개소린가tagquestion tagsmile tv리포트
-mbc_wedding	lgm0827	POST	pymo1jj-yyzcn		2011-08-24	나빡쳐서다시백 온유 한승연 개떡같다 우결 소문 진짜면tagsmile 진지 재밌을것같다고요tagquestion 찬양 덕후 덕후가 많을것같다구요tagquestion 하하ㅏ tagsmile 하하하ㅏ tagsmile 하하하ㅏ하하하하하하하하하하하핳하하ㅏ tagsmile 난 나다 날다 안봐요tagsmile 백점만점 안봤는뎈 tagsmile 왜 외다 자꾸 황금시간때 미안 팬 싫어 싫다
-mbc_wedding	wlduseorb929	POST	pymo2x8-yp6s_		2011-08-24	넌 널다 내 여자로보이니tagquestion 니 여자로보 우리 결혼할래tagquestion 쪽팔 쪽팔입니 쪽팔입니다 tagsmile
-mbc_wedding	kig0632	POST	pymo5cr-v6d3		2011-08-26	어뉴 어뉴야 진짜 한승연 한승연이 우결찍니tagquestion
-mbc_wedding	happy646284	POST	pymo5i7-yl7r6		2011-08-24	온유 한승연 우결 루머일까tagquestion사실일까tagquestion루머라믿고싶다 tagsmile 뭐 우결한다 우결한다해 우결한다해도 꼭보긴봐야지 항상보던거니까 tagcry 우결하지마 tagcry 아무리 업무 만나다 만 샤이니라지 샤이니라지만 우결 하지말길 tagcry 무엇 둘다 건강잘챙기셔 tagcry 두분다 해외활동때문 바쁘다
-mbc_wedding	bookdoctor	POST	pymo7qc-5crxn		2011-08-27	주 신애 임신소감 쑥스럽다 쑥 다들 축하 행복 신애tagquestion tagexclamation tagquestion tagexclamation 저번에알랙스랑우결에나왓던 tagquestion 스타뉴스
-mbc_wedding	ramasiss99	POST	pymoc6b-_bdko		2011-08-24	오늘 티아라스케줄 없다 tagcry 은정언니 우결녹화방송잇구 tagsmile 저 곧잇음 티아라 티아라랑 무대설수잇겠죠tagquestion
-mbc_wedding	hsu1125	POST	pymofeo-yxxfm		2011-08-24	온유 한승연 한승연이 우결찍음tagquestion 오늘 샤 샤이 치다 치 블로그 들어가다 있다 월달 월달에 컴백 되어 되어있고 온유 우결찍는다 우결찍는다고 되있네tagquestion 씌발 루먼지 루먼지는 모르다 진짜 찍다 내 가만안둬 tagcry
+mbc_wedding	lgm0827	POST	pymo059-yyzcn		2011-08-24	규현 폭탄고백 슈퍼주니어 과반수 아래 열애중 tagsmile 희님 희님과 규느님 어쩔 tagsmile 아악 tagexclamation 오라방 tagcry 샤이니 샤이니도 온유오빠 우결찍는다 우결찍는다는 소리 소리죠 tagquestion 안 알다 개소린가 tagquestion tagsmile tv리포트
+mbc_wedding	lgm0827	POST	pymo1jj-yyzcn		2011-08-24	나빡쳐서다시백 온유 한승연 개떡같다 우결 소문 진짜면 tagsmile 진지 재밌을것 재밌을것같다고 재밌을것같다고요 tagquestion 찬양 덕후 덕후가 많을것같다구 tagquestion ㅏ tagsmile 하하하 ㅏ tagsmile 하하하 ㅏ 하하하하하하하하하하하핳하하 ㅏ tagsmile 난 나다 날다 안봐 안봐요 tagsmile 백점만점 안봤는뎈 tagsmile 왜 외다 자꾸 황금시간때 미안 팬 싫어 싫다
+mbc_wedding	wlduseorb929	POST	pymo2x8-yp6s_		2011-08-24	넌 널다 내 여자로보 tagquestion 난 나다 날다 니 여자로보 우리 결혼 tagquestion 쪽팔 쪽팔입니 쪽팔입니다 tagsmile
+mbc_wedding	kig0632	POST	pymo5cr-v6d3		2011-08-26	어뉴 어뉴야 진짜 한승연 한승연이 우결찍니 tagquestion
+mbc_wedding	happy646284	POST	pymo5i7-yl7r6		2011-08-24	온유 한승연 우결 루머 루머일까 tagquestion 사실 tagquestion 루머라믿고싶다 tagsmile 뭐 우결한다 우결한다해 우결한다해도 꼭보긴봐야지 항상보던거니까 tagcry 우결하지마 tagcry 아무리 업무 만나다 만 샤이니라지 샤이니라지만 우결 하지말길 tagcry 무엇 둘다 건강잘챙기셔 tagcry 두분다 해외활동때문 바쁘다
+mbc_wedding	bookdoctor	POST	pymo7qc-5crxn		2011-08-27	17주 신애 임신소감 쑥스럽다 쑥 다들 축하 행복 신애 tagquestion tagexclamation tagquestion tagexclamation 저번에알랙스랑우결에나왓던 tagquestion 스타뉴스
+mbc_wedding	ramasiss99	POST	pymoc6b-_bdko		2011-08-24	오늘 티아라스케줄 없다 tagcry 은정언니 우결녹화방송잇구 tagsmile 저 곧잇음 티아라 티아라랑 무대설수잇겠죠 tagquestion
+mbc_wedding	hsu1125	POST	pymofeo-yxxfm		2011-08-24	온유 한승연 한승연이 우결찍음 tagquestion 오늘 샤 샤이 치다 치 블로그 들어가다 있다 11월달 11월달에 컴백 되어 되어있고 온유 우결찍는다 우결찍는다고 되 tagquestion 씌발 루먼지 루먼지는 모르다 진짜 찍다 내 가만안둬 tagcry
 mbc_wedding	yhlee0613	POST	pymohr_-5s__8		2011-08-24	쿤토리아 우리 결혼 tagexclamation 몰디브 가다 가 tagexclamation
 mbc_wedding	pegasus1114	POST	pymoiq4-j5n2		2011-08-24	오다 다음주 우리 결혼 에서 제가 제 사용 vestax typhoon typhoon의 형제 vestax spin 나오다 tagexclamation
 mbc_wedding	sjksjg	POST	pymokk7-of6z		2011-08-24	아이디일공일 우결시계 커플시계
-mbc_wedding	shinee__onew	POST	pymokv7-y5w24		2011-08-26	오랫 오랫만 온유 쳣더 쳣더니 온유 한승연 우결tagquestion 말도안 말도안돼 스타킹 내일 내 하다 온유 나오다 해서 하다 정확한건아니지 기대 쳣는데 이게 뭔데 tagcry
+mbc_wedding	shinee__onew	POST	pymokv7-y5w24		2011-08-26	오랫 오랫만 온유 쳣더 쳣더니 온유 한승연 우결 tagquestion 말도안 말도안돼 스타킹 내일 내 하다 온유 나오다 해서 하다 정확한건아니지 기대 쳣는데 이게 뭔데 tagcry
 mbc_wedding	happy646284	POST	pymokye-182c		2011-08-24	재발 바빠서 우결 촬영 힘들다 좋다 tagexclamation tagsmile
 mbc_wedding	hyerams	POST	pymol8c-yupbu		2011-08-25	추석연휴 시댁 먼친척이라는분 먼친척이라는분들께 순회공연 다녀야 다녀야한다 다녀야한다며 친정 포기 시댁 왕래도 친적 친적들께 왜 외다 하필 추석 가야하냔말야 tagexclamation 완젼 속상 짜증 결혼 처음맞는 명절 왜 외다 친정 못가 tagexclamation 우리부모님 또 얼마 서운 결혼전 그러더 그러더니 결혼 말다 그랬어 tagcry 젠장 tagexclamation mefb
 mbc_wedding	lj945	POST	pymon3a-jli6		2011-08-24	온유 한승연 우결 tagcry
-mbc_wedding	qoralswn1220	POST	pymood0-bv5s		2011-08-24	슈주 소녀시대 m 샤 샤이 트랙스 샤 샤이 월달 컴백 턴 턴이 돌았음 하 하다 온유 한승연 우결 턴 턴도 돌았는데 신빙성 있는건지 tagsmile
+mbc_wedding	qoralswn1220	POST	pymood0-bv5s		2011-08-24	슈주 소녀시대 m1 샤 샤이 트랙스 샤 샤이 11월달 컴백 턴 턴이 돌았음 하 하다 온유 한승연 우결 턴 턴도 돌았는데 신빙성 있는건지 tagsmile
 mbc_wedding	ermylove	POST	pymoofa-y3644		2011-08-24	우리 온주봉 온주봉과 카라 카라의 한승연 언니야 언니야가 우결 예정이라구 tagquestion 예정 tagquestion 예정인거 뿐 뿐이지 tagquestion
-mbc_wedding	dh970808	POST	pymos8r-y1txi		2011-08-27	샤 샤이 온유 한승연 한승연과 우결tagquestion
-mbc_wedding	rlatldus3481	POST	pymotsv-_alb5		2011-08-24	온유오빠의딱밤전수받고싶네 taglove 글고 tagexclamation 설마우리순둡오빠한승연 우결찍는일없겠죠tagquestion tagexclamation 제발 tagcry 안그래도바쁘셔서 힘들텐데또스케줄 tagcry
-mbc_wedding	01077345503	POST	pymove6-_85g_		2011-08-24	우결 나와요tagquestiontagsmile
+mbc_wedding	dh970808	POST	pymos8r-y1txi		2011-08-27	샤 샤이 온유 한승연 한승연과 우결 tagquestion
+mbc_wedding	rlatldus3481	POST	pymotsv-_alb5		2011-08-24	온유오빠의딱밤전수받고싶네 taglove 글고 tagexclamation 설마우리순둡오빠한승연 우결찍는일없겠죠 tagquestion tagexclamation 제발 tagcry 안그래도바쁘셔서 힘들텐데또스케줄 tagcry
+mbc_wedding	01077345503	POST	pymove6-_85g_		2011-08-24	우결 나오다 tagquestion tagsmile
 mbc_wedding	ehdms2247	POST	pymoxdp-yk1mz		2011-08-24	인생 정해지다 있는걸까 어느 누군가 누군가가 우리 만들다 우리 생각 만든걸까 지금 내 하다 하 생각 다 만들다 있는건가 제발 모 사람 행복 좋다 하다 하지 그것 안되다 사람 다 자기자신 행복 하다 할 하다 결혼 자식 나다 나르다 나 나라 이젠 남을위 남을위해 살다
-mbc_wedding	ic305	POST	pymoxw1-_ag_g		2011-08-25	요즘 우결 우결보 있다 멤놀중인신분 정말 미워 친구소개 wer
-mbc_wedding	hoth0530	POST	pymp018-_tck4		2011-08-25	지금 twitter twitter에 가입 하다 하 me day day에 오다 글 이렇게 또 남기네용 tagsmile 지금 lg u 로 우결 용서커플 보고있어욬 tagsmile 볼것 볼것도 없다 재미 없곸 tagsmile
+mbc_wedding	ic305	POST	pymoxw1-_ag_g		2011-08-25	요즘 우결 우결보 있다 멤놀중인신분 정말 미워 친구소개 wer06062
+mbc_wedding	hoth0530	POST	pymp018-_tck4		2011-08-25	지금 twitter twitter에 가입 하다 하 me2day me2day에 오다 글 이렇게 또 남기네용 tagsmile 지금 lg u 로 우결 용서커플 보고있어욬 tagsmile 볼것 볼것도 없다 재미 없곸 tagsmile
 mbc_wedding	rkdthdud4848	POST	pymp75h-mkit		2011-08-25	온유 한승연 우결
-mbc_wedding	jdi0319	POST	pymp8qn-m27i		2011-08-24	샤 샤이 월컴백기달릴게 tagexclamation 우결루머일꺼 우결루머일꺼야 tagexclamation
-mbc_wedding	jdi0319	POST	pymp8t7-m27i		2011-08-24	온유한승연씨랑우결않하는거맞조tagquestion제발 우리결혼 하는거아니죠tagquestion진짜죠tagquestion tagcry
+mbc_wedding	jdi0319	POST	pymp8qn-m27i		2011-08-24	샤이니11 월컴백기달릴게 tagexclamation 우결루머일꺼 우결루머일꺼야 tagexclamation
+mbc_wedding	jdi0319	POST	pymp8t7-m27i		2011-08-24	온유한승연씨랑우결않하는거맞조 tagquestion 제발 우리결혼 하는거아니죠 tagquestion 진짜죠 tagquestion tagcry
 mbc_wedding	hellohihi12	POST	pympaay-_yw6b		2011-08-22	흐 언니 재미있었어요 처음 끝 매일 매이다 나오다 좋다 서현언니한테 미안 용화오빠 언니 우결한번찍어주셨으면 좋다 언니 화이팅 tagexclamation
-mbc_wedding	dladudgk12	POST	pympchb-5nsyw		2011-08-25	이거 완전 재밌어 재밌어요 욕 하다 하지 우울할때 보세요tagsmile 아 왜 외다 온유오빠 한승연 한승연이 우결 우결인데 진기오빠 그러는거 보기 보다 싫다 t t
-mbc_wedding	dorydkwl48	POST	pympf17-5__l5		2011-08-25	닉쿤님 tagquestion오빠tagquestion tagsmile 저기 저기요 왕팬이에용 tagsmile 앞 조금이라동 친하게지내용 tagsmile 글구 빅토리아언니 제가 제 엄청 좋아하거든 좋아하거든요 넘 잘어울려용 tagsmile
+mbc_wedding	dladudgk12	POST	pympchb-5nsyw		2011-08-25	이거 완전 재밌어 재밌어요 욕 하다 하지 우울할때 보다 보세 tagsmile 아 왜 외다 온유오빠 한승연 한승연이 우결 우결인데 진기오빠 그러는거 보기 보다 싫다 t t
+mbc_wedding	dorydkwl48	POST	pympf17-5__l5		2011-08-25	닉쿤님 tagquestion 오빠 tagquestion tagsmile 저기 저기요 왕팬이에용 tagsmile 앞 조금이라동 친하게지내용 tagsmile 글구 빅토리아언니 제가 제 엄청 좋아하거든 좋아하거든요 넘 잘어울려용 tagsmile
 mbc_wedding	aqg777	POST	pympf53-ysamt		2011-08-25	샤월턴 샤월턴으 오다 메시지 메다 내용 샤 샤이 온유 한승연 한승연이 우결 찍다 오다 시발 tagexclamation 한승연 한승연이 하다 하 싶다 했댄다 온유 한승연 한승연이 우결 반대 사람 미투 꾸 욱 tagexclamation
 mbc_wedding	rise3816	POST	pympgmi-5wasy		2011-08-25	우결 잘 있어욤 tagsmile 정말 재미 활쏠때 완전 짱 tagexclamation
-mbc_wedding	rachelromeo	POST	pymph8x-_5z14		2011-08-25	우리 김신명숙년 대단 말씀 하다 군대 강간범 수용소 멋지다 말씀 김신명숙년 김신명숙년의 할아버님 아버님 아들 손자 조카 오빠 남동생 내연 되다 분들 분들은 다 강간범 강간범이시네 부럽다 강간범 강간범과 결혼 애새끼 싸질르시 싸질르시고 바깥양반되는분 간수 잘 밖 젊은여자분 강간 다니다 잡히다 나이쳐먹고 비싼건 못먹을망정 콩밥 좀 조다 그렇잖아요tagsmile 아 뒷돈 뒷돈으 뺄려나tagquestiontagsmile
-mbc_wedding	19ginny	POST	pymphax-zh23		2011-08-25	온유 월달 부터 우결 우결에 카라 카라에 한승연씨 한승연씨와 같다 나온다네tagquestion 아니 아 내 한승연 한승연을 싫어 건 거다 걸다 아니다 이건 아니잖 아니잖아 지금 개쌤 쫑 쫑하 신세경하 신세경 엮다 것 모자라다 모자 온유 우결보 우결보내 우결보내고 키 지금 월 쯤 쯤에 포미닛 포미닛에 허가윤 허가윤이 스캔들 내다 쫑 쫑이 신세경이 엮이다 엮 거다 거 걍 소속사 짜다 친거 친거임 키 허가윤 허가윤도
+mbc_wedding	rachelromeo	POST	pymph8x-_5z14		2011-08-25	우리 김신명숙년 대단 말씀 하다 군대 강간범 수용소 멋지다 말씀 김신명숙년 김신명숙년의 할아버님 아버님 아들 손자 조카 오빠 남동생 내연 되다 분들 분들은 다 강간범 강간범이시네 부럽다 강간범 강간범과 결혼 애새끼 싸질르시 싸질르시고 바깥양반되는분 간수 잘 밖 젊은여자분 강간 다니다 잡히다 나이쳐먹고 비싼건 못먹을망정 콩밥 좀 조다 그렇잖다 tagsmile 아 뒷돈 뒷돈으 뺄려 뺄려나 tagquestion tagsmile
+mbc_wedding	19ginny	POST	pymphax-zh23		2011-08-25	온유 11월달 부터 우결 우결에 카라 카라에 한승연씨 한승연씨와 같다 나온다네 tagquestion 아니 아 내 한승연 한승연을 싫어 건 거다 걸다 아니다 이건 아니잖 아니잖아 지금 개쌤 쫑 쫑하 신세경하 신세경 엮다 것 모자라다 모자 온유 우결보 우결보내 우결보내고 키 지금 11/12월 쯤 쯤에 포미닛 포미닛에 허가윤 허가윤이 스캔들 내다 쫑 쫑이 신세경이 엮이다 엮 거다 거 걍 소속사 짜다 친거 친거임 키 허가윤 허가윤도
 mbc_wedding	coolworld-75	POST	pymphjs-_df6z		2011-08-24	아효 우리 원효 결혼 tagexclamation 괜 정이가 정이가는 개그맨 중 한명 tagsmile 아코 이쁘다 tagexclamation
-mbc_wedding	pdh9760	POST	pympo3f-yeplw		2011-08-25	헐 온유 한승연 한승연이 우결찍음tagquestion 진짜tagquestion 레알tagquestion tagsmile 헐 둘다 내 좋아하다 애들 애들임 tagcry 시 시발 좋은데tagquestion 뭐시기 뭐냐 남우현 남우현도 출연 재밌겠다 야
+mbc_wedding	pdh9760	POST	pympo3f-yeplw		2011-08-25	헐 온유 한승연 한승연이 우결찍음 tagquestion 진짜 tagquestion 레알 tagquestion tagsmile 헐 둘다 내 좋아하다 애들 애들임 tagcry 시 시발 좋다 tagquestion 뭐시기 뭐냐 남우현 남우현도 출연 재밌겠다 야
 mbc_wedding	xjvmrjf	POST	pympqky-ns3t		2011-08-24	간지 우결시계 아이디일공일 예쁜색감의 젤리시계
 mbc_wedding	kny987	POST	pympspt-jju0		2011-08-25	샤 샤이 온유 한승연 우결촬영
 mbc_wedding	rladbqls1210	POST	pymptf4-_ql9z		2011-08-22	데이비드 오 오빠 우결보고 tagexclamation 권리세언니 진짜 잘어울리네 잘어울리네여
 mbc_wedding	luby4110	POST	pympufe-7i5i		2011-08-25	온유 tagcry 우결찍지마 tagexclamation
-mbc_wedding	qkrskgus09	POST	pympwk4-i205		2011-08-25	우리 진기오빠 한승연 년 우결 찍는다곸tagquestion웃기는년 찍는다곸tagquestion웃기는년이네 tagcry 지가 지 팬인디 어쪄라는거 tagcry 지가 지 진기옵 진기옵하 팬 우결 피디한테 말 tagcry 짜증 한승연 미치다 년 tagcry
-mbc_wedding	01025077026	POST	pympx0v-5gqlp		2011-08-25	쿤톨 우결 외 스페셜 영상 업데 업데이 made me tagexclamation 네이버카페 닉쿤 taglove 빅토리아 커플 공식팬카페 쿤토리아
+mbc_wedding	qkrskgus09	POST	pympwk4-i205		2011-08-25	우리 진기오빠 한승연 년 우결 찍는다곸 tagquestion 웃기는년 tagcry 지가 지 팬인디 어쪄라는거 tagcry 지가 지 진기옵 진기옵하 팬 우결 피디한테 말 tagcry 짜증 한승연 미치다 년 tagcry
+mbc_wedding	01025077026	POST	pympx0v-5gqlp		2011-08-25	쿤톨 우결 외 스페셜 영상 2011.08.23 업데 업데이 made me tagexclamation 네이버카페 닉쿤 taglove 빅토리아 커플 공식팬카페 쿤토리아
 mbc_wedding	nicole87	POST	pympx9e-hief		2011-08-25	알콩달콩 예쁘다 신혼 인테리어 구경 tagexclamation 우결 속 마리메꼬 taglove
-mbc_wedding	rhclove	POST	pympyhz-yppeq		2011-08-25	나 lg 시네마 d 모니터 필요 이유 남기다 푸짐하다 경품 드리다 tagexclamation 우리집 결혼전 내 사용 일반 아날로그 방식 tv 있다 lg d mornitor
+mbc_wedding	rhclove	POST	pympyhz-yppeq		2011-08-25	나 lg 시네마 3d 모니터 필요 이유 남기다 푸짐하다 경품 드리다 tagexclamation 우리집 결혼전 내 사용 일반 아날로그 방식 tv 있다 lg3d_mornitor
 mbc_wedding	alswjd5590	POST	pympzdl-yxj6i		2011-08-22	이장우 이상형 고백 은정 분노 moneytoday
 mbc_wedding	bsm5958	POST	pymq02u-5wio5		2011-08-27	우결 함은정씨 함은정씨가 하다 하 말 말다
 mbc_wedding	phi1225	POST	pymq879-8pot		2011-08-27	오늘우결에정재형나오는줄알고 처음으로본방사수 전화연결 다이뮤 tagcry 조다
-mbc_wedding	jiruhecom	POST	pymqbbl-_50e_		2011-08-27	우리결혼 시즌 회 월 일 토도우
+mbc_wedding	jiruhecom	POST	pymqbbl-_50e_		2011-08-27	우리결혼 시즌3 98회 8월27 일 토도우
 mbc_wedding	02047543	POST	pymqc0h-5aig9		2011-08-27	나도 나다 나 이국 남자랑 남자 결혼하고싶다 아이교육 적극적 가정 자상 그게 비교돼 우리나라 우리 남자 돈만벌어다주 돈만벌어다주고 가정교육 학교 다 아 아내 하라그러 잘못되믄 니탓 니탓이 주말 아 아이 안놀아주 안놀아주고 티비 티비보 쇼파 자다 하다 하 그런남편 시다 이국인이래 이국인 ㅡ tagcry ㅡ 외국인 외국
 mbc_wedding	wife119	POST	pymqfb3-_rc9n		2011-08-27	우결 우결에 잠깐 게스트 나오다
 mbc_wedding	gi_yugs3	POST	pymqjqt-_ysfg		2011-08-27	쿤이씨 우결 이제 하차인가 tagcry 고생많았어 이제 탈출이다잉 tagcry tagcry
 mbc_wedding	alicia1120	POST	pymr0ar-y911v		2011-08-25	아낰 tagsmile 온유우결루머겠지루머겠지했는데인기검색어가튼거에뜨니까짜증나기시작해씀
 mbc_wedding	alicia1120	POST	pymr0zz-y911v		2011-08-25	온유오빠우결안 tagcry 아아앍
 mbc_wedding	mygongju89	POST	pymr23f-5v_py		2011-08-22	유지태 김효진우리 결혼 유지태 taglove 김효진
-mbc_wedding	yes-ok	POST	pymr3lm-tull		2011-08-25	네이버 하다 하 온유 tagsmile ㄹ tagsmile ㅅㅇ 이랑 이 우결tagquestion 이건 아닌데tagquestion
-mbc_wedding	gunjari	POST	pymr4ta-yaf7w		2011-08-22	우결tagsmile
+mbc_wedding	yes-ok	POST	pymr3lm-tull		2011-08-25	네이버 하다 하 온유 tagsmile ㄹ tagsmile ㅅㅇ 이랑 이 우결 tagquestion 이건 아니다 tagquestion
+mbc_wedding	gunjari	POST	pymr4ta-yaf7w		2011-08-22	우결 tagsmile
 mbc_wedding	kkram0707	POST	pymr54z-ykulx		2011-08-25	아진짜 sm진짜 솔직히그러는거아닙니다 아무리샤이니 아무리샤이니가 실험용 tagquestion 이라고 이라고해 그렇다 막하시면안되져 샤이니온유 한승연 우결 지금봤는데 그러지마세 샤월 마음아파 루머이깅 바라다 tagcry
-mbc_wedding	dsbears18	POST	pymr7ni-htl_		2011-08-26	친한형님 내일 내 결혼 축의금tagquestion 으 으로 건네줄돈 형님 나이 나다 나 차이 좀 현금보단 미화 불 그리다 형수님 과 고다 하나씩 지갑에넣고 다니다 불 두장 형 결혼축하 tagexclamation 푸켓으로가신다기 우리나라빼 세계공통화페 달러화 우리 우리나라 대형 대기업 계열사 빼다 명동등외국 많은곳빼 많은곳빼고 달러화 계산 힘들다
-mbc_wedding	t-ara812	POST	pymra3k-_iz9w		2011-08-22	요번주 우결 놓치지마셔용 taglove
+mbc_wedding	dsbears18	POST	pymr7ni-htl_		2011-08-26	친한형님 내일 내 결혼 축의금 tagquestion 으 으로 건네줄돈 형님 나이 나다 나 차이 좀 현금보단 미화 .50불 그리다 형수님 과 고다 하나씩 지갑에넣고 다니다 2불 두장 형 결혼축하 tagexclamation 푸켓으로가신다기 우리나라빼 세계공통화페 달러화 우리 우리나라 대형 대기업 계열사 빼다 명동등외국 많은곳빼 많은곳빼고 달러화 계산 힘들다
+mbc_wedding	t-ara812	POST	pymra3k-_iz9w		2011-08-22	요번주 우결 5 15 놓치지마셔용 taglove
 mbc_wedding	sgh04086	POST	pymrabg-scmu		2011-08-24	우결 우리결혼 찍다 하튼떠돌고 하튼떠돌고있는데
 mbc_wedding	sgh04086	POST	pymrakm-scmu		2011-08-24	정말 정확하진않은데지금인터넷에떠돌고 카라한승연 카라한승연이 우리징기오빠 우결찍는다 우결찍는다고 한승연이막해달라고졸랐덴다
 mbc_wedding	ksx987	POST	pymrdm4-y03nk		2011-08-24	우리결혼 우정커플 지연 큐리 소연
@@ -231,168 +231,168 @@ mbc_wedding	ryu990611	POST	pymret4-y3j39		2011-08-25	샤 샤이 온유 우결
 mbc_wedding	judybef	POST	pymrg58-_pbml		2011-08-24	결혼준비 이렇게 힘든줄 몰랐네요 많다 싸우다 하다 하 서 부족한점 보 되다 되 오늘 예비신랑 별것 아니다 일 싸우다 중 구매 부부수저세트 도착 서로마주보 씩 웃었답니다 오늘 우리 부부 웃음선물 선사 수저셋트 고맙다 코렐부부수저셋트 코렐 결혼준비 부부수저셋트 부부싸움 기쁨 기쁘다
 mbc_wedding	010sad	POST	pymrgbr-_d_0k		2011-08-24	보고싶네 우리 크다 결혼 거야 거다 거
 mbc_wedding	jjoonchoi	POST	pymrm76-y_6y9		2011-08-26	어제 재하결혼준비땜 모이다 모 우리마티즈식구 tagexclamation 많이모 이제 마티즈타고다니는놈 마티즈타고다니는놈들이 몇안돼는구 몇안돼는구나 하다 나두이제 아니다 아니 세월이흘러서 타고다니는차 변 사람 늘그모습 tagexclamation 세월이흘러 tagexclamation
-mbc_wedding	jooflo	POST	pymro9m-5y9kv		2011-08-22	우결 재방 보다 소원부부 재봉질 재봉질에 도전 tagsmile 아 나도 나다 나 재봉질 하다 하 싶다 글구 재봉틀 갖고싶어 tagexclamation 엄마 혼수 사다 약속 얼른 결혼 하다 되겠지tagquestion tagsmile 요녀석 요녀석들은 내 만들다 작품중 몇개tagsmile
-mbc_wedding	partyelf	POST	pymrs7n-_yoiw		2011-08-22	닉쿤과 빅토리아 우리결혼 방송 유명 새섬
+mbc_wedding	jooflo	POST	pymro9m-5y9kv		2011-08-22	우결 재방 보다 소원부부 재봉질 재봉질에 도전 tagsmile 아 나도 나다 나 재봉질 하다 하 싶다 글구 재봉틀 갖고싶어 tagexclamation 엄마 혼수 사다 약속 얼른 결혼 하다 되다 tagquestion tagsmile 요녀석 요녀석들은 내 만들다 작품중 몇개 tagsmile
+mbc_wedding	partyelf	POST	pymrs7n-_yoiw		2011-08-22	201011 닉쿤과 빅토리아 우리결혼 방송 유명 새섬
 mbc_wedding	vhsqjsgh000	POST	pymrsci-_z0ds		2011-08-26	우결 우정부부 보고 보다 보 왓어 왓어요
 mbc_wedding	vhsqjsgh000	POST	pymrsna-_z0ds		2011-08-26	우결 우정부부 신혼집 살고싶다 tagsmile
-mbc_wedding	victoria_key	POST	pymrtm5-_zyyb		2011-08-24	베이비 베이비이 베이비이는 운명 임정희 feat k 노래 좋아하다 우결 아담부부 막방 라디오 할때 둘 둘이 우 사 사다 됐 말구 듀엣 부르다 곡이에 곡이에요 노래 노랗다 정말 좋다 초등학생 노래 빠지다 될련지 tagsmile
-mbc_wedding	gmlakd1041	POST	pymruh_-_woga		2011-08-24	홈쇼핑 홈쇼핑을 보다 보 결혼하고픈 충동 원액쥬스 일하다 고생 울 울다 남편 매일 매이다 한잔 귀엽다 우리 아이 쥬스잔여물 동그랑땡 동그랑땡을 만들고싶어 taglove 행복행복 혼수 해간 언니 왈 네번 쓰다 나다 집들이용 주방장식품 하 하다 그렇죠tagquestion 저 별 다를거 없겠죠tagquestion tagcry
-mbc_wedding	uniquephoto	POST	pymrvaz-52nw6		2011-08-22	퀴즈 낼건데 맞추는분께 맞추는분께는 분글 분글에 미투 미투를 마니마 마니마니 해드리겠슴돠 tagexclamation 첫번째 문제 tagexclamation 티아 티아라 성격 어떨까요tagquestion 못마추면 진정 티아라팬 아닌듯 tagexclamation
+mbc_wedding	victoria_key	POST	pymrtm5-_zyyb		2011-08-24	베이비 베이비이 베이비이는 운명 임정희 feat k.will 노래 좋아하다 우결 아담부부 막방 라디오 할때 둘 둘이 우 사 사다 됐 말구 듀엣 부르다 곡이에 곡이에요 노래 노랗다 정말 좋다 초등학생 노래 빠지다 될련지 tagsmile
+mbc_wedding	gmlakd1041	POST	pymruh_-_woga		2011-08-24	홈쇼핑 홈쇼핑을 보다 보 결혼하고픈 충동 원액쥬스 일하다 고생 울 울다 남편 매일 매이다 한잔 귀엽다 우리 아이 쥬스잔여물 동그랑땡 동그랑땡을 만들고싶어 taglove 행복행복 혼수 해간 언니 왈 네번 쓰다 나다 집들이용 주방장식품 하 하다 그렇죠 tagquestion 저 별 다를거 없겠죠 tagquestion tagcry
+mbc_wedding	uniquephoto	POST	pymrvaz-52nw6		2011-08-22	퀴즈 낼건데 맞추는분께 맞추는분께는 분글 분글에 미투 미투를 마니마 마니마니 해드리겠슴돠 tagexclamation 첫번째 문제 tagexclamation 티아 티아라 성격 어떨까 어떨까요 tagquestion 못마추면 진정 티아라팬 아닌듯 tagexclamation
 mbc_wedding	sgpanl	POST	pymrvd7-5dmex		2011-08-26	나 나다 빅토리아 닮앗데 닮앗데요 tagexclamation 닉쿤 마누라 tagsmile 닉쿤을 달다 달 햇어 햇어요
 mbc_wedding	dleksql4171	POST	pymrw31-_4mz		2011-08-22	스 스라 지금 나한테 문자 결혼 매일행복 건 거다 걸다 아닌가봐 막이러 막이러고 얘 약간 매리지블루 오다 그러나봐 tagsmile 아놔 이것 코끼리파 우리 이렇게 나약 존재 무리 말 아 약해지지마 약해지지마라 제발 tagsmile 이럼 안된다구 tagexclamation
 mbc_wedding	cpfk529	POST	pymrxp4-5qrd7		2011-08-22	보다 tagexclamation 내 진짜 말안하려구 했는데 레인보우 재경 비스트 양 요 요섭 요섭이 우결 출연 할 하다 지두 모른데 모른데여 막 뷰티 뷰티가 재경한테 악플 달다 요서비 요서비가 하지말구 사과하라구 했데 요서비 요서비는 매너 분명 왜 외다 이케 씁쓸 눈물 나다 tagcry
 mbc_wedding	usb1204	POST	pymrynz-5a94c		2011-08-22	우리결혼 장우 taglove 은정 커플 우리결혼 장우 taglove 은정 커플 많다 사랑 tagsmile 장군님 장군님이 같다 찍다 사진 사다
 mbc_wedding	naver_news	POST	pymt25u-bj_k		2011-08-27	연예 우결 손진영 짝사랑녀 권리세 사랑 고백 news osen 우리 결혼 손진영 손진영이 짝사랑 권리세
-mbc_wedding	rnahs630	POST	pymt3zp-5416d		2011-08-27	tagsmile 좀 조다 전 티아 티아라 은정언니 우결보셨나요tagquestion tagsmile 저희 티아 티아라 아이돌 육상선수권 대회 녹화했요tagsmile 저 다리 아파서 tagcry 데이비드 오빠 리세언니 ns윤지선배님 김경진선배님 나인뮤지스언니 씨스타언니 샤 샤이 선배님 백청강 오빠 등등 많다 연예인 연예 분들 분들이 참가 환희 선배님 선배님도 나오다
+mbc_wedding	rnahs630	POST	pymt3zp-5416d		2011-08-27	tagsmile 좀 조다 전 티아 티아라 은정언니 우결보셨 tagquestion tagsmile 저희 티아 티아라 아이돌 육상선수권 대회 녹화 tagsmile 저 다리 아파서 tagcry 데이비드 오빠 리세언니 ns윤지선배님 김경진선배님 나인뮤지스언니 씨스타언니 샤 샤이 선배님 백청강 오빠 등등 많다 연예인 연예 분들 분들이 참가 환희 선배님 선배님도 나오다
 mbc_wedding	eyk0613	POST	pymt5ha-pdr7		2011-08-26	만약 아 주 만약 이런일 없다 온유오빠 한승연 한승연이 우결찍으면 나 나다 진짜 안그래 안그래도 별론데 나 나다 완전 안티될거 안티될거임 ㅡ ㅡ 아 왠 말도안 말도안되 말도안되는 루머 루머가 자꾸 떠돌다 tagexclamation 컴백 안하다 짜증 tagcry
 mbc_wedding	dnjswkd33	POST	pymt662-5fgjo		2011-08-27	예전 우결보면 눈정화 눈정화해서 좋다 이젠 보다 배아파지네 외롭다
 mbc_wedding	duchpay	POST	pymt67n-yz_kd		2011-08-27	우결 함은정 뮤비 속 이장우 연인 연 연기 정색 tv리포트
-mbc_wedding	pokerface97a	POST	pymt9qm-5u7zw		2011-08-26	뭬에에에에tagquestion온유 한승연 우결tagquestion이거 사실이야tagquestion진기군 승연언니 말 말다 좀 조다 해봐요오오오오오오오오 헙
+mbc_wedding	pokerface97a	POST	pymt9qm-5u7zw		2011-08-26	뭬에에에 뭬에에에에 tagquestion 온유 한승연 우결 tagquestion 이거 사실 tagquestion 진기군 승연언니 말 말다 좀 조다 해봐요오오오오오오오오 헙
 mbc_wedding	hje33	POST	pymtb9w-_hbio		2011-08-26	결혼반지 맞추다 준영이 준영이가 반지사줬다 아싸 우리여봉 최공
-mbc_wedding	gaaeyung13	POST	pymtd_w-_py6h		2011-08-27	우결봐야지 tagexclamation 동생 엄마아빤 사촌오빠 면회갔음 tagsmile 난 나다 날다 가다 싫다 싫다해서 안갔음 tagsmile 시 넘다 넘어서다 온다는데그 때 까다 난 나다 날다 자유 tagexclamation taglove
+mbc_wedding	gaaeyung13	POST	pymtd_w-_py6h		2011-08-27	우결봐야지 tagexclamation 동생 엄마아빤 사촌오빠 면회갔음 tagsmile 난 나다 날다 가다 싫다 싫다해서 안갔음 tagsmile 10시 넘다 넘어서다 온다는데그 때 까다 난 나다 날다 자유 tagexclamation taglove
 mbc_wedding	jg041228	POST	pymth4r-_qh6a		2011-08-27	까꿍마녀우리가결혼해야하는이유 다운
-mbc_wedding	wngml1178	POST	pymth5x-yyprl		2011-08-27	tagcry 뭐 이겅 tagcry 온유 우결tagquestion tagcry 가슴 찢어지다 tagcry 이거 이거보 진짜 아 방금전 없다 tagcry 방금전 슈스케 샤 샤이 민호 사촌형 이게 있다 왜갑자기 tagexclamation tagcry
-mbc_wedding	hyerim9477	POST	pymtk6h-yqo6u		2011-08-27	우결 함은정 뭐 지금tagquestion 이장우 키스신 키스신에 폭풍분노
-mbc_wedding	sujin0580	POST	pymtk6w-_ix6c		2011-08-26	아 참 차다 쿠팡 우리가게 올라왓음 볼사람 볼사람은 보다 보 말다 말 tagsmile 쿠팡 지역 송파 강미자한복연구소 우리 엄마 이름 tagsmile 주위 결혼사람 있다 우리가게 소개좀 하다 tagsmile
+mbc_wedding	wngml1178	POST	pymth5x-yyprl		2011-08-27	tagcry 뭐 이겅 tagcry 온유 우결 tagquestion tagcry 가슴 찢어지다 tagcry 이거 이거보 진짜 아 방금전 없다 tagcry 방금전 슈스케3 샤 샤이 민호 사촌형 이게 있다 왜갑자기 tagexclamation tagcry
+mbc_wedding	hyerim9477	POST	pymtk6h-yqo6u		2011-08-27	우결 함은정 뭐 지금 tagquestion 이장우 키스신 키스신에 폭풍분노
+mbc_wedding	sujin0580	POST	pymtk6w-_ix6c		2011-08-26	아 참 차다 쿠팡 우리가게 올라왓음 볼사람 볼사람은 보다 보 말다 말 tagsmile 쿠팡 지역 송파3 강미자한복연구소 우리 엄마 이름 tagsmile 주위 결혼사람 있다 우리가게 소개좀 하다 tagsmile
 mbc_wedding	sweetcutie13	POST	pymtkg8-yz0vp		2011-08-27	아짱 아짱나 온유 한승연하고우결을찍는다네 tagcry
 mbc_wedding	meyujin	POST	pymtl57-_tc78		2011-08-27	요즘 뭐 봐 봐난 요즘 런닝맨 우결 자주봄 tagsmile 짱재밌다구 tagexclamation
-mbc_wedding	faketoy	POST	pymtmvs-5jp56		2011-08-27	우리결혼 우결 토렌트
-mbc_wedding	answlgh3	POST	pymtp7x-y071_		2011-08-27	우리 결혼 시즌 화 호다 토렌트
-mbc_wedding	abcdefg0518	POST	pymtt84-_ol9t		2011-08-27	q배고파 tagcry 정용화 정용화가 나오다 방송다 찾아보는중 유희열 스케치북 김정은 김정은의 초콜릿 라디오스타 세바퀴 밤 밤 우리결혼 시즌 넌내게반 해피투게더 강심장 대기실콘서트장 현장 음중끝나고주차장에있는씨엔블루 왤케 많다
+mbc_wedding	faketoy	POST	pymtmvs-5jp56		2011-08-27	우리결혼 우결 110827 토렌트
+mbc_wedding	answlgh3	POST	pymtp7x-y071_		2011-08-27	우리 결혼 시즌3 98화 토렌트
+mbc_wedding	abcdefg0518	POST	pymtt84-_ol9t		2011-08-27	q배고파 tagcry 정용화 정용화가 나오다 방송다 찾아보는중 유희열 스케치북 김정은 김정은의 초콜릿 라디오스타 세바퀴 밤 밤 우리결혼 시즌2 넌내게반 해피투게더3 강심장 대기실콘서트장 현장 음중끝나고주차장에있는씨엔블루 왤케 많다
 mbc_wedding	jubang2455	POST	pymtwhz-_qaa9		2011-08-27	우결 위탄 손진영 리세 사랑 데이비드오 정색
 mbc_wedding	pjymeto	POST	pymtyii-_z038		2011-08-27	우결봐야되서나가 우결봐야되서나가요
-mbc_wedding	speis1203	POST	pymw0ra-wqwp		2011-08-25	한승연온유우결촬영tagquestion tagsmile 루머일수도 tagsmile 별로좋지많은않네요
-mbc_wedding	zxo2900	POST	pymw1co-a86e		2011-08-27	우리 결혼 시즌 회 토요일 토요 독립방송 회
-mbc_wedding	dkdlelchzh	POST	pymw20r-_a84e		2011-08-27	다라언니 tagexclamation tagcry 머해tagquestion 머해tagquestion나 머해tagquestion나는 우리결혼 볼라구
+mbc_wedding	speis1203	POST	pymw0ra-wqwp		2011-08-25	한승연온유우결촬영 tagquestion tagsmile 루머일수도 tagsmile 별로좋지많은않네요
+mbc_wedding	zxo2900	POST	pymw1co-a86e		2011-08-27	우리 결혼 시즌3 16회 토요일 토요 독립방송 98회
+mbc_wedding	dkdlelchzh	POST	pymw20r-_a84e		2011-08-27	다라언니 tagexclamation tagcry 머 머해 tagquestion 나다 나 우리결혼 볼라구
 mbc_wedding	01074177250	POST	pymw2rc-5d450		2011-08-27	오늘하루종일노트북과티비와한몸 tagsmile 음중끝나면바로우결봐야하고그담에난무도안보니까컴터 음중끝나면바로우결봐야하고그담에난무도안보니까컴터하러 tagsmile
-mbc_wedding	tkrhkthgus	POST	pymw349-cpp6		2011-08-25	우리 인피니트 처음으루 등해써 등해써요 tagexclamation 우아 처음으루 위가튼거 해보다 ㅡ 근데 호야 호야랑 동우 동우가 춤 추다 잘추는건알았어 같다 나온거자 나온거자나 근데 너네 왜그렇게 붙어있냐tagquestion ㅡ 아쥬 우결 우결을 찍다 기냥 tagexclamation 응tagquestion tagsmile
-mbc_wedding	hjcham	POST	pymw4sd-slre		2011-08-26	결혼 일 챙기다 우리신랑 언제 언제나 날 나다 웃게 웃게하려 하다 모습 고맙다 냄새 토끼탈 쓰다 tagsmile 애교많 애교많은 신랑덕 신랑덕에 오늘 햄볶아 햄볶아요
+mbc_wedding	tkrhkthgus	POST	pymw349-cpp6		2011-08-25	우리 인피니트 처음으루 1등해써 1등해써요 tagexclamation 우아 처음으루 1위가튼거 해보다 ㅡ 근데 호야 호야랑 동우 동우가 춤 추다 잘추는건알았어 같다 나온거자 나온거자나 근데 너네 왜그렇게 붙어 붙어있냐 tagquestion ㅡ 아쥬 우결 우결을 찍다 기냥 tagexclamation tagquestion tagsmile
+mbc_wedding	hjcham	POST	pymw4sd-slre		2011-08-26	결혼 2000일 2000일을 챙기다 우리신랑 언제 언제나 날 나다 웃게 웃게하려 하다 모습 고맙다 냄새 토끼탈 쓰다 tagsmile 애교많 애교많은 신랑덕 신랑덕에 오늘 햄볶아 햄볶아요
 mbc_wedding	db5513	POST	pymw4zq-ibj5		2011-08-27	우결보는데닭살
-mbc_wedding	gyfka1214	POST	pymw5km-5tt4i		2011-08-25	온유오빠가우결을한다고tagquestion이거에스엠ㅁㅊ또라이아니야tagquestion 월달에컴백한다는대 오자마자우결을찍는다꼬 tagexclamation 하 tagcry 샤월턴돌았다는대아낰 tagsmile 한승연이해달라고쫄랐다고tagquestion tagsmile ㄱㄲ tagsmile 왜그러세 왜그러세여 근대 이거다루머일수 근댕만약에진짜한다면봐줘야징 tagcry tagcry tagcry tagcry tagcry tagcry tagcry 아악미치긋다 아낰 tagsmile 이거온유오빠가우결찍는거옛날에도루머돌았는대 tagsmile ㄱ tagsmile 아니다 tagcry 기사도안나꾸만왜에쓰엠은샤이니오빠들가만히안나둠 tagcry
-mbc_wedding	elwlakdltm01	POST	pymwajv-yi4ey		2011-08-27	소유챠응 헬렌쨩 결혼 tagcry 웕 청혼은저리ㄱㅏ서하란마랴 발질 소유챠응 야 무시 우린 독촉 독촉받는사 진득 관계라구 웕 그럼난리챠언니하고이미그렇고그런사이인듯
-mbc_wedding	uniquephoto	POST	pymwari-52nw6		2011-08-23	주은 주은아 니글 니글에 미투 많다 하다 자 자다 tagexclamation 이건 댓글 댓글과 미투해주는것 tagexclamation 두번째 퀴즈 tagexclamation 티아 티아라 데뷔곡은tagquestion 이것 우결 우결에 참고 참다
-mbc_wedding	jasonlee7282	POST	pymwf3q-ynhua		2011-08-27	결혼 신혼여행 박 일 다녀오다 부부 되다 쿤토리아 우정 데다 우리 결혼 부부 하다 우리 결혼 출연 커짝소 커플 짝궁 짝궁을 소개 mc 보기 보다 버킷리스트 여인의향기
+mbc_wedding	gyfka1214	POST	pymw5km-5tt4i		2011-08-25	온유오빠가우결을 tagquestion 이거에스엠 ㅁㅊ 또라이아니 또라이아니야 tagquestion 11월달에컴백한다는대 오자마자우결을찍는다꼬 tagexclamation 하 tagcry 샤월턴돌았다는대아낰 tagsmile 한승연이해달라고쫄랐다고 tagquestion tagsmile ㄱㄲ tagsmile 왜그러세 왜그러세여 근대 이거다루머일수 근댕만약에진짜한다면봐줘야징 tagcry tagcry tagcry tagcry tagcry tagcry tagcry 아악미치긋다 아낰 tagsmile 이거온유오빠가우결찍는거옛날에도루머돌았는대 tagsmile ㄱ tagsmile 아니다 tagcry 기사도안나꾸만왜에쓰엠은샤이니오빠들가만히안나둠 tagcry
+mbc_wedding	elwlakdltm01	POST	pymwajv-yi4ey		2011-08-27	소유챠응 헬렌쨩 결혼 tagcry 웕 청혼은저리 ㄱㅏ 서하란마랴 발질 소유챠응 야 무시 우린 독촉 독촉받는사 진득 관계라구 웕 그럼난리챠언니하고이미그렇고그런사이인듯
+mbc_wedding	uniquephoto	POST	pymwari-52nw6		2011-08-23	주은 주은아 니글 니글에 미투 많다 하다 자 자다 tagexclamation 이건 댓글 댓글과 미투해주는것 tagexclamation 두번째 퀴즈 tagexclamation 티아 티아라 데뷔곡 데뷔곡은 tagquestion 이것 우결 우결에 참고 참다
+mbc_wedding	jasonlee7282	POST	pymwf3q-ynhua		2011-08-27	7.일찍 결혼 8.신혼여행 19박 20 20일 다녀오다 9.부부 되다 쿤토리아 우정 데다 우리 결혼 부부 하다 10.우리 결혼 출연 11.커짝소 커플 짝궁 짝궁을 소개 mc 보기 보다 버킷리스트 여인의향기
 mbc_wedding	jihey0921	POST	pymwjgq-51pei		2011-08-25	온유 한승연 한승연이 우결 할수 할수도 있다 tagcry 근데 그거 하다 요롷게 조롷게 손잡다 데이트 웨딩촬영 하자너 하다 제 발 하지 하다 마
-mbc_wedding	qhalsz123	POST	pymwjpc-1dv0		2011-08-23	월 일 울 울다 부모님 결혼 기념일 기념 우리오빠 핸드폰 약정기간 끝나다 날 나다 우리오빠 핸드폰 바꾸다 날 나다
-mbc_wedding	alsrud4765	POST	pymwkxj-_8u5s		2011-08-23	민호오빠 민영언니 사귀다 기사 기사보 엄청 울엇는데 tagcry 드라마 볼땐 진짜 사겻으면 햇는데 진짜 사귈줄이야 tagcry 두분다 좋다 사귀시는거 사귀시는거니 우리 말릴수 말릴수도 업잔아요tagquestion tagsmile 우리 축하해줘야줘tagsmile 민영언니 사겨서 다행 tagsmile 결혼골인 tagquestion각자생각tagsmile
+mbc_wedding	qhalsz123	POST	pymwjpc-1dv0		2011-08-23	8월25 일 울 울다 부모님 결혼 기념일 기념 우리오빠 핸드폰 약정기간 끝나다 날 나다 우리오빠 핸드폰 바꾸다 날 나다
+mbc_wedding	alsrud4765	POST	pymwkxj-_8u5s		2011-08-23	민호오빠 민영언니 사귀다 기사 기사보 엄청 울엇는데 tagcry 드라마 볼땐 진짜 사겻으면 햇는데 진짜 사귈줄이야 tagcry 두분다 좋다 사귀시는거 사귀시는거니 우리 말릴수 말릴수도 업잔아 업잔아요 tagquestion tagsmile 우리 축하해줘야줘 tagsmile 민영언니 사겨서 다행 tagsmile 결혼골인 tagquestion 각자생각 tagsmile
 mbc_wedding	lhw0747a12	POST	pymwl68-_zwqe		2011-08-27	지금 우결 보고 보다 보 있다 tagexclamation 넘 잼
 mbc_wedding	meshell1	POST	pymwlqp-_mfu7		2011-08-26	우결 깨알뱅 tagsmile jpg
 mbc_wedding	ckdwhaksnf	POST	pymwnhj-5nxxk		2011-08-27	우결 데이비드오 안경 갖고싶당 tagsmile 이뽀 taglove
 mbc_wedding	dign8376	POST	pymwnz4-_a7py		2011-08-27	우결보구올께염
-mbc_wedding	kmj8482	POST	pymwrlf-50ns6		2011-08-25	b tagexclamation 소 소문이겠지tagquestion울순딩이가한승연이랑우결에tagquestion순수한울순딩이 소문이겠지tagquestion울순딩이가한승연이랑우결에tagquestion순수한울순딩이가 오뉴이시 오뉴이시여 tagexclamation 정녕
-mbc_wedding	itoa	POST	pymwry7-ahtb		2011-08-23	우리결혼했어요시즌 우리결혼 시즌 김원준박소현 커플 웨딩촬영 웨딩사진 tagexclamation
+mbc_wedding	kmj8482	POST	pymwrlf-50ns6		2011-08-25	b tagexclamation 소 소문 tagquestion 울순딩이가한승연이랑우결 울순딩이가한승연이랑우결에 tagquestion 순수한울순딩이 오뉴이시 오뉴이시여 tagexclamation 정녕
+mbc_wedding	itoa	POST	pymwry7-ahtb		2011-08-23	우리결혼했어요시즌3 우리결혼 시즌3 김원준박소현 커플 웨딩촬영 웨딩사진 tagexclamation
 mbc_wedding	phj3353	POST	pymww6e-_10n8		2011-08-27	클레오 한현정클레오 한현정 사기결혼 반박
-mbc_wedding	clarachoi99	POST	pymwx55-y1207		2011-08-27	우결얼핏끝에봤는데 우결 우결에 권리세 나오네tagquestion tagexclamation 우 tagsmile 언쟈 나왓던거야tagquestion오늘tagquestion tagsmile tagsmile
+mbc_wedding	clarachoi99	POST	pymwx55-y1207		2011-08-27	우결얼핏끝에봤는데 우결 우결에 권리세 나오다 tagquestion tagexclamation 우 tagsmile 언쟈 나왓던거 나왓던거야 tagquestion 오늘 tagquestion tagsmile tagsmile
 mbc_wedding	bu06032	POST	pymwxdf-83e8		2011-08-27	방금우결 에다 tagexclamation 권리세 데빗 아육대 참가 동준느님 동준느님과 황광희 황광희가 나온다구 tagexclamation 동준느님 목소리 tagsmile 여자남자 섞였으 tagexclamation 근데 여자 tagsmile 됏고 어차피 보라 포옹햇던 tagsmile 담주 담주는 본방사수 tagexclamation
 mbc_wedding	flower69	POST	pymwxht-ytsq4		2011-08-27	우결 리세 넘 착하다 보
-mbc_wedding	skm0764	POST	pymw_in-l6wz		2011-08-25	네이버검색 청소년인기검색어봤는데 온유 우결 갑자기짜증이솟구쳐왔다 누구tagquestion누가우결을한다고tagquestion 급하게클릭을 한승연 카라보컬 카라보컬인데 그것도모자라서연상 안되다 절대로안 한승연이마음에안든다는게아니라우결출연자체가안 한승연이마음에안든다는게아니라우결출연자체가안돼 절 절대 징기오빠는동갑이좋다고 안되다 절 절대 절 절대 이상황 이상황에서 응원을해야 너무충격먹었어 아니지smtagquestion징기오빠 절대로안
-mbc_wedding	kyuleeflower	POST	pymw_j0-5mnwl		2011-08-25	아아앙아ㅏ 근데진짜 온유 한승연 한승연이 우결나오나여tagquestion 한승연 tagexclamation 감하다 우리블링블링 샤이니 샤이니를 넘보다 tagexclamation
+mbc_wedding	skm0764	POST	pymw_in-l6wz		2011-08-25	네이버검색 청소년인기검색어봤는데 온유 우결 갑자기짜증이솟구쳐왔다 tagquestion 누가우결을 누가우결을한다 누가우결을한다고 tagquestion 급하게클릭을 한승연 카라보컬 카라보컬인데 그것도모자라서연상 안되다 절대로안 한승연이마음에안든다는게아니라우결출연자체가안 한승연이마음에안든다는게아니라우결출연자체가안돼 절 절대 징기오빠는동갑이좋다고 안되다 절 절대 절 절대 이상황 이상황에서 응원을해야 너무충격먹었어 아니지sm tagquestion 징기오빠 절대로안
+mbc_wedding	kyuleeflower	POST	pymw_j0-5mnwl		2011-08-25	아아앙 아아앙아 ㅏ 근데진짜 온유 한승연 한승연이 우결나오나 우결나오나여 tagquestion 한승연 tagexclamation 감하다 우리블링블링 샤이니 샤이니를 넘보다 tagexclamation
 mbc_wedding	rnahs630	COMMENT	pym1dqe-_8z4n	c_ngz6g-ym1dqe-_8z4n	2011-08-23	은정언니 tagexclamation
 mbc_wedding	hyeain1024	COMMENT	pym1_tc-fpp9	c_nt0em-ym1_tc-fpp9	2011-08-23	ㅅ 설마 설다
-mbc_wedding	catspot	COMMENT	pym1_tc-fpp9	c_ntph_-ym1_tc-fpp9	2011-08-23	헐tagquestion tagexclamation 나다 나 그런거 안왔는데
+mbc_wedding	catspot	COMMENT	pym1_tc-fpp9	c_ntph_-ym1_tc-fpp9	2011-08-23	헐 tagquestion tagexclamation 나다 나 그런거 안왔는데
 mbc_wedding	hajm98	COMMENT	pym1_tc-fpp9	c_ntxw7-ym1_tc-fpp9	2011-08-23	tagquestion 설 서다 설마 tagsmile
 mbc_wedding	qlsldia2	COMMENT	pym1_tc-fpp9	c_ntyjg-ym1_tc-fpp9	2011-08-23	장난 장난하 tagsmile 루머일것 같다
-mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_462dx-ym8fos-5fogs	2011-08-23	tagsmile 누가누나 머라했어요tagquestion tagexclamation
+mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_462dx-ym8fos-5fogs	2011-08-23	tagsmile 누가누나 머라 tagquestion tagexclamation
 mbc_wedding	ysyme2day	COMMENT	pym8fos-5fogs	c_46a5r-ym8fos-5fogs	2011-08-23	tagsmile 고맙다 tagsmile 내안티도있겄지 tagsmile ㄱㄱ
 mbc_wedding	05170719	COMMENT	pym8fos-5fogs	c_46a75-ym8fos-5fogs	2011-08-23	쳇혼자일어나겟다짜샤
 mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46a7x-ym8fos-5fogs	2011-08-23	자기일 스스로하자
 mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46ab3-ym8fos-5fogs	2011-08-23	tagsmile 전열렬 전열렬한 빠돌 빠돌이 하다
 mbc_wedding	ysyme2day	COMMENT	pym8fos-5fogs	c_46amr-ym8fos-5fogs	2011-08-23	tagsmile 그마음 변하지않토록 tagsmile
 mbc_wedding	05170719	COMMENT	pym8fos-5fogs	c_46c6m-ym8fos-5fogs	2011-08-23	그럼내폰요금니가내주
-mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46cba-ym8fos-5fogs	2011-08-23	뭐래 나도 나다 나 이폰 지금 달 또밀렸는데
-mbc_wedding	05170719	COMMENT	pym8fos-5fogs	c_46cce-ym8fos-5fogs	2011-08-23	참그러고도맘편하닷그제tagquestion 흐 흐이
-mbc_wedding	ysyme2day	COMMENT	pym8fos-5fogs	c_46cit-ym8fos-5fogs	2011-08-23	화요일ㄱㄲ부끄럽다 tagsmile
+mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46cba-ym8fos-5fogs	2011-08-23	뭐래 나도 나다 나 이폰 지금3 달 또밀렸는데
+mbc_wedding	05170719	COMMENT	pym8fos-5fogs	c_46cce-ym8fos-5fogs	2011-08-23	참그러고도맘편하닷그제 tagquestion 흐 흐이
+mbc_wedding	ysyme2day	COMMENT	pym8fos-5fogs	c_46cit-ym8fos-5fogs	2011-08-23	화요일 화요 ㄱㄲ 부끄럽다 tagsmile
 mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46clp-ym8fos-5fogs	2011-08-23	무한도전하기전 우결겠지 우결겠지하 티비 틀다 이상한거 하길래 뭐지
 mbc_wedding	sena890417	COMMENT	pym8fos-5fogs	c_46cs5-ym8fos-5fogs	2011-08-23	좋다 오늘 진짜 괜 여유롭다
-mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46czy-ym8fos-5fogs	2011-08-23	이거 이거는 아빠이름이기때문에tagsmile
-mbc_wedding	ysyme2day	COMMENT	pym8fos-5fogs	c_46g48-ym8fos-5fogs	2011-08-23	tagsmile 우결잘보는구나tagquestion tagsmile
+mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46czy-ym8fos-5fogs	2011-08-23	이거 이거는 아빠이름이기때문 tagsmile
+mbc_wedding	ysyme2day	COMMENT	pym8fos-5fogs	c_46g48-ym8fos-5fogs	2011-08-23	tagsmile 우결잘보는구 우결잘보는구나 tagquestion tagsmile
 mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46h3w-ym8fos-5fogs	2011-08-23	압 친구들은 잘못봐서 몰랐어요 tagcry tagcry tagsmile 앞 챙기다 tagsmile 문화인 문화 세영누 세영누나 tagsmile ㄱ
 mbc_wedding	ysyme2day	COMMENT	pym8fos-5fogs	c_46hf2-ym8fos-5fogs	2011-08-23	tagsmile 나도 나다 나 잘못챙겨봐 다른미친 tagsmile ㄱ tagcry 사실 tagsmile 친구들이늘어서 요즘 tagsmile
 mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46i59-ym8fos-5fogs	2011-08-23	tagsmile 난 나다 날다 매일매일 매일매 tagcry
 mbc_wedding	05170719	COMMENT	pym8fos-5fogs	c_46ibm-ym8fos-5fogs	2011-08-23	tagsmile 잘됫네
 mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46irp-ym8fos-5fogs	2011-08-23	노가다 띠야지
-mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46l89-ym8fos-5fogs	2011-08-23	tagsmile 누 누가 누나 뭐라 뭐라하면 호팬 호팬인 제가 제 막겠숨늬 막겠숨늬다 tagsmile
+mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46l89-ym8fos-5fogs	2011-08-23	tagsmile 누 누가 누나 뭐라 뭐라하면 1호팬 1호팬인 제가 제 막겠숨늬 막겠숨늬다 tagsmile
 mbc_wedding	ysyme2day	COMMENT	pym8fos-5fogs	c_46le8-ym8fos-5fogs	2011-08-23	아직 아직은 없다 tagsmile 근데사람 나도모르게남한테실수할수있잖어 tagsmile
 mbc_wedding	05170719	COMMENT	pym8fos-5fogs	c_46m6g-ym8fos-5fogs	2011-08-23	곰 고다 오늘은너보다내가더 곰같은날 곰같은날이디
-mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46m8c-ym8fos-5fogs	2011-08-23	tagsmile 전 절다 시간
+mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46m8c-ym8fos-5fogs	2011-08-23	tagsmile 전 절다 10시
 mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46m9w-ym8fos-5fogs	2011-08-23	왜 외다
 mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46mlx-ym8fos-5fogs	2011-08-23	일하지 나태 홍
 mbc_wedding	05170719	COMMENT	pym8fos-5fogs	c_46mox-ym8fos-5fogs	2011-08-23	그냥먹고자고눕고자 눕고눕고또눕고
-mbc_wedding	tjdakswmf	COMMENT	pym8fos-5fogs	c_46mpw-ym8fos-5fogs	2011-08-23	오늘 시갸 자다 tagsmile
+mbc_wedding	tjdakswmf	COMMENT	pym8fos-5fogs	c_46mpw-ym8fos-5fogs	2011-08-23	오늘 12시갸 자다 tagsmile
 mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46mqu-ym8fos-5fogs	2011-08-23	난 나다 날다 매일매일 매일매
 mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46mvh-ym8fos-5fogs	2011-08-23	tagsmile 잠 다날린오늘
 mbc_wedding	tjdakswmf	COMMENT	pym8fos-5fogs	c_46mzc-ym8fos-5fogs	2011-08-23	아 tagsmile 미치겠닼 tagsmile 시간 깜놀
 mbc_wedding	05170719	COMMENT	pym8fos-5fogs	c_46mzn-ym8fos-5fogs	2011-08-23	내가일만안햇음그랫을꼬 내가일만안햇음그랫을꼬야
 mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46q6r-ym8fos-5fogs	2011-08-23	인기스타 되다 세영누 세영누나
-mbc_wedding	ysyme2day	COMMENT	pym8fos-5fogs	c_46qss-ym8fos-5fogs	2011-08-23	무슨인기스타tagquestion
+mbc_wedding	ysyme2day	COMMENT	pym8fos-5fogs	c_46qss-ym8fos-5fogs	2011-08-23	무슨인기스타 tagquestion
 mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46sa3-ym8fos-5fogs	2011-08-23	tagsmile 에다 전 절다 누나 팬 tagsmile
 mbc_wedding	ysyme2day	COMMENT	pym8fos-5fogs	c_46sh7-ym8fos-5fogs	2011-08-23	설마 설다 tagcry 그럴게사람많은데 tagsmile
-mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46sw2-ym8fos-5fogs	2011-08-23	에서 누나 누다 누 모르는사람 없잖아요 tagsmile
-mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46t14-ym8fos-5fogs	2011-08-23	그냥이시 우결 우결하니까 오늘 쉬는날 쉬는날인데 어디 안나가셔요tagquestion tagsmile
-mbc_wedding	05170719	COMMENT	pym8fos-5fogs	c_46tdu-ym8fos-5fogs	2011-08-23	ㄱㄱ다녀오세 그전에나좀이르켜봐
+mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46sw2-ym8fos-5fogs	2011-08-23	2030 누나 누다 누 모르는사람 없잖아요 tagsmile
+mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46t14-ym8fos-5fogs	2011-08-23	그냥이시 우결 우결하니까 오늘 쉬는날 쉬는날인데 어디 안나가셔 안나가셔요 tagquestion tagsmile
+mbc_wedding	05170719	COMMENT	pym8fos-5fogs	c_46tdu-ym8fos-5fogs	2011-08-23	ㄱㄱ 다녀오다 그전에나좀이르켜봐
 mbc_wedding	ysyme2day	COMMENT	pym8fos-5fogs	c_46tvl-ym8fos-5fogs	2011-08-23	내꺼포스팅좀 봐주삼 tagsmile 자랑 tagsmile
 mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46t_7-ym8fos-5fogs	2011-08-23	무거워
 mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46u12-ym8fos-5fogs	2011-08-23	속다 속 없다 되다 말
 mbc_wedding	05170719	COMMENT	pym8fos-5fogs	c_46ucy-ym8fos-5fogs	2011-08-23	tagsmile 그럼날이르켜줘도됫엇쟈네이눔아
-mbc_wedding	ysyme2day	COMMENT	pym8fos-5fogs	c_46uhw-ym8fos-5fogs	2011-08-23	잊지않을께 tagsmile 나도착하게살아야지tagquestion tagsmile
+mbc_wedding	ysyme2day	COMMENT	pym8fos-5fogs	c_46uhw-ym8fos-5fogs	2011-08-23	잊지않을께 tagsmile 나도착하게살아야지 tagquestion tagsmile
 mbc_wedding	05170719	COMMENT	pym8fos-5fogs	c_46uko-ym8fos-5fogs	2011-08-23	실속이없구만
 mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46x4c-ym8fos-5fogs	2011-08-23	보디가드랄까
 mbc_wedding	ysyme2day	COMMENT	pym8fos-5fogs	c_46xob-ym8fos-5fogs	2011-08-23	tagsmile tagsmile 알다 tagsmile 든든하구 tagsmile
 mbc_wedding	05170719	COMMENT	pym8fos-5fogs	c_46z62-ym8fos-5fogs	2011-08-23	스스로어린이돋네 tagsmile
 mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46zby-ym8fos-5fogs	2011-08-23	어린이 어린 아니자 홍켈레톤
 mbc_wedding	05170719	COMMENT	pym8fos-5fogs	c_46zck-ym8fos-5fogs	2011-08-23	켈레톤이무거운걸보면 넌약골
-mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46zsk-ym8fos-5fogs	2011-08-23	내 약골 생겼어tagquestion
-mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46z_4-ym8fos-5fogs	2011-08-23	tagsmile 누나 팬 패다 번 벌다 언제 언제나 저 잊지마세 잊지마세요 tagsmile
-mbc_wedding	ysyme2day	COMMENT	pym8fos-5fogs	c_4ky9p-ym8fos-5fogs	2011-08-23	진짜tagquestion tagsmile 믿다 tagsmile
+mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46zsk-ym8fos-5fogs	2011-08-23	내 약골 생기다 tagquestion
+mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_46z_4-ym8fos-5fogs	2011-08-23	tagsmile 누나 팬 패다 1번 언제 언제나 저 잊지마세 잊지마세요 tagsmile
+mbc_wedding	ysyme2day	COMMENT	pym8fos-5fogs	c_4ky9p-ym8fos-5fogs	2011-08-23	진짜 tagquestion tagsmile 믿다 tagsmile
 mbc_wedding	bigi3362	COMMENT	pym8fos-5fogs	c_4kypy-ym8fos-5fogs	2011-08-23	tagsmile 나 믿어보라카 믿어보라카이
-mbc_wedding	dember00	COMMENT	pym8yq2-5x7vl	c_46nkv-ym8yq2-5x7vl	2011-08-23	동명이인 동명이 tagsmile 낚였네여tagsmile
-mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_46nqf-ym8yq2-5x7vl	2011-08-23	웅 나 나다 완전 실망 빅토리아 좋아했는데tagsmile
-mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_4k2w9-ym8yq2-5x7vl	2011-08-23	에구 규칙적 먹어야쥐tagsmile
+mbc_wedding	dember00	COMMENT	pym8yq2-5x7vl	c_46nkv-ym8yq2-5x7vl	2011-08-23	동명이인 동명이 tagsmile 낚였네 tagsmile
+mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_46nqf-ym8yq2-5x7vl	2011-08-23	웅 나 나다 완전 실망 빅토리아 좋아하다 tagsmile
+mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_4k2w9-ym8yq2-5x7vl	2011-08-23	에구 규칙적 먹어야쥐 tagsmile
 mbc_wedding	dember00	COMMENT	pym8yq2-5x7vl	c_4k5m7-ym8yq2-5x7vl	2011-08-23	진짜 임신이 다박이였겠네 tagsmile
-mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_4k5z_-ym8yq2-5x7vl	2011-08-23	닉쿤 듁였겠지tagsmile
-mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_4kbte-ym8yq2-5x7vl	2011-08-23	tagsmile 맞다 저녁은tagquestion
-mbc_wedding	dember00	COMMENT	pym8yq2-5x7vl	c_4ke1f-ym8yq2-5x7vl	2011-08-23	둘다 매장일껄여tagquestion tagsmile
+mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_4k5z_-ym8yq2-5x7vl	2011-08-23	닉쿤 듁 tagsmile
+mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_4kbte-ym8yq2-5x7vl	2011-08-23	tagsmile 맞다 저녁 tagquestion
+mbc_wedding	dember00	COMMENT	pym8yq2-5x7vl	c_4ke1f-ym8yq2-5x7vl	2011-08-23	둘다 매장일껄 tagquestion tagsmile
 mbc_wedding	dember00	COMMENT	pym8yq2-5x7vl	c_4kt8i-ym8yq2-5x7vl	2011-08-23	저녁 자정 먹어용 tagsmile
-mbc_wedding	jym-2011	COMMENT	pym8yq2-5x7vl	c_4_c0m-ym8yq2-5x7vl	2011-08-23	시켜먹었어요tagquestion
-mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_4_c2o-ym8yq2-5x7vl	2011-08-23	엥 그런거야tagquestion
-mbc_wedding	jym-2011	COMMENT	pym8yq2-5x7vl	c_4_ckv-ym8yq2-5x7vl	2011-08-23	그럼 그럼요 딸 따다 낳을려구 째낳는건데
+mbc_wedding	jym-2011	COMMENT	pym8yq2-5x7vl	c_4_c0m-ym8yq2-5x7vl	2011-08-23	시켜먹었어요 tagquestion
+mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_4_c2o-ym8yq2-5x7vl	2011-08-23	엥 그런거 그런거야 tagquestion
+mbc_wedding	jym-2011	COMMENT	pym8yq2-5x7vl	c_4_ckv-ym8yq2-5x7vl	2011-08-23	그럼 그럼요 딸 따다 낳을려구 4째낳는건데
 mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_4_cnh-ym8yq2-5x7vl	2011-08-23	당근이쥐 tagsmile
-mbc_wedding	candyyh0615	COMMENT	pym8yq2-5x7vl	c_4_cy3-ym8yq2-5x7vl	2011-08-23	그러세 잘 자다 어울리시네요tagsmile
+mbc_wedding	candyyh0615	COMMENT	pym8yq2-5x7vl	c_4_cy3-ym8yq2-5x7vl	2011-08-23	그러세 잘 자다 어울리다 tagsmile
 mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_4_czz-ym8yq2-5x7vl	2011-08-23	감솨 감솨요 tagsmile
 mbc_wedding	sswy3737	COMMENT	pym8yq2-5x7vl	c_4_g1z-ym8yq2-5x7vl	2011-08-23	맞다 tagsmile
 mbc_wedding	sswy3737	COMMENT	pym8yq2-5x7vl	c_4_ght-ym8yq2-5x7vl	2011-08-23	볶짬면 볶짬면이 볶짬면이요
-mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_4_goq-ym8yq2-5x7vl	2011-08-23	맛점하셨나요tagquestion
+mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_4_goq-ym8yq2-5x7vl	2011-08-23	맛점 맛점하셨 tagquestion
 mbc_wedding	candyyh0615	COMMENT	pym8yq2-5x7vl	c_4_hd0-ym8yq2-5x7vl	2011-08-23	
 mbc_wedding	sswy3737	COMMENT	pym8yq2-5x7vl	c_4_i28-ym8yq2-5x7vl	2011-08-23	저런거진짜많아 저런거진짜많아요 tagsmile
-mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_4_i4g-ym8yq2-5x7vl	2011-08-23	조회수 늘릴려 늘릴려는 꼼수죠tagsmile
+mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_4_i4g-ym8yq2-5x7vl	2011-08-23	조회수 늘릴려 늘릴려는 꼼수죠 tagsmile
 mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_4_ij4-ym8yq2-5x7vl	2011-08-23	어제 낙지 먹어서 개안 tagsmile
-mbc_wedding	jym-2011	COMMENT	pym8yq2-5x7vl	c_4_iyq-ym8yq2-5x7vl	2011-08-23	몸 안좋은거 드시네tagsmile
-mbc_wedding	candyyh0615	COMMENT	pym8yq2-5x7vl	c_4_m21-ym8yq2-5x7vl	2011-08-23	그러게 그러게요 아깝네요tagsmile
+mbc_wedding	jym-2011	COMMENT	pym8yq2-5x7vl	c_4_iyq-ym8yq2-5x7vl	2011-08-23	몸 안좋은거 들다 tagsmile
+mbc_wedding	candyyh0615	COMMENT	pym8yq2-5x7vl	c_4_m21-ym8yq2-5x7vl	2011-08-23	그러게 그러게요 아깝다 tagsmile
 mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_4_m5n-ym8yq2-5x7vl	2011-08-23	음청 인기 많겠당
-mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_4_m6m-ym8yq2-5x7vl	2011-08-23	베컴 베컴이 대단하죠tagsmile
+mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_4_m6m-ym8yq2-5x7vl	2011-08-23	베컴 베컴이 대단하죠 tagsmile
 mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_4_m78-ym8yq2-5x7vl	2011-08-23	전 절다 다시태어 잘 못하다 축구선수 할꺼예 할꺼예요
-mbc_wedding	candyyh0615	COMMENT	pym8yq2-5x7vl	c_4_mj5-ym8yq2-5x7vl	2011-08-23	앗 그런가요tagquestion
-mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_4_ms1-ym8yq2-5x7vl	2011-08-23	저두 어릴때 계속 운동 베컴비스무리 됐을텐데요tagsmile
-mbc_wedding	candyyh0615	COMMENT	pym8yq2-5x7vl	c_4_obt-ym8yq2-5x7vl	2011-08-23	근데 빅토리아 대단 넷째tagsmile
+mbc_wedding	candyyh0615	COMMENT	pym8yq2-5x7vl	c_4_mj5-ym8yq2-5x7vl	2011-08-23	앗 그런가 그런가요 tagquestion
+mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_4_ms1-ym8yq2-5x7vl	2011-08-23	저두 어릴때 계속 운동 베컴비스무리 됐을텐데요 tagsmile
+mbc_wedding	candyyh0615	COMMENT	pym8yq2-5x7vl	c_4_obt-ym8yq2-5x7vl	2011-08-23	근데 빅토리아 대단 넷째 tagsmile
 mbc_wedding	jym-2011	COMMENT	pym8yq2-5x7vl	c_4_oh7-ym8yq2-5x7vl	2011-08-23	이번 이번에 딸 완전 공주 크다
-mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_4_ojv-ym8yq2-5x7vl	2011-08-23	먹었어 돈까스tagsmile
-mbc_wedding	jym-2011	COMMENT	pym8yq2-5x7vl	c_4_ok4-ym8yq2-5x7vl	2011-08-23	푸하 푸하하 tagsmile 점심 드셨어요tagquestion
-mbc_wedding	candyyh0615	COMMENT	pym8yq2-5x7vl	c_4_oog-ym8yq2-5x7vl	2011-08-23	앗 웃기다 어쨌든 축하 일이네요tagsmile
+mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_4_ojv-ym8yq2-5x7vl	2011-08-23	먹었어 돈까스 tagsmile
+mbc_wedding	jym-2011	COMMENT	pym8yq2-5x7vl	c_4_ok4-ym8yq2-5x7vl	2011-08-23	푸하 푸하하 tagsmile 점심 들다 tagquestion
+mbc_wedding	candyyh0615	COMMENT	pym8yq2-5x7vl	c_4_oog-ym8yq2-5x7vl	2011-08-23	앗 웃기다 어쨌든 축하 일 tagsmile
 mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_4_ors-ym8yq2-5x7vl	2011-08-23	다산 여왕인듯 tagsmile
-mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_4_t6c-ym8yq2-5x7vl	2011-08-23	중국집 음식 즐기시나봐요tagquestion
+mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_4_t6c-ym8yq2-5x7vl	2011-08-23	중국집 음식 즐기시나봐 즐기시나봐요 tagquestion
 mbc_wedding	sswy3737	COMMENT	pym8yq2-5x7vl	c_4_t9o-ym8yq2-5x7vl	2011-08-23	좀먹는푠이에 좀먹는푠이에요 tagsmile
 mbc_wedding	wooguy74	COMMENT	pym8yq2-5x7vl	c_4_tsy-ym8yq2-5x7vl	2011-08-23	넘 많 많이 많이는 들다 마세 마세요 콜레스테롤 많다
 mbc_wedding	nicole0498	COMMENT	pym9lcn-5cn4o	c_nn6xa-ym9lcn-5cn4o	2011-08-25	tagsmile 그건그래
 mbc_wedding	dkakqk215	COMMENT	pym9lcn-5cn4o	c_nuhbn-ym9lcn-5cn4o	2011-08-24	아 tagsmile 아담도재밋는데 용서커플 비쥬얼이너무빛 비쥬얼이너무빛나서 질리지가안 질리지가안아 tagsmile ㄱ
-mbc_wedding	dkakqk215	COMMENT	pym9lcn-5cn4o	c_nz3iz-ym9lcn-5cn4o	2011-08-24	지금tagquestion
+mbc_wedding	dkakqk215	COMMENT	pym9lcn-5cn4o	c_nz3iz-ym9lcn-5cn4o	2011-08-24	지금 tagquestion
 mbc_wedding	nicole0498	COMMENT	pym9lcn-5cn4o	c_nz3r5-ym9lcn-5cn4o	2011-08-24	저 tagsmile
 mbc_wedding	dkakqk215	COMMENT	pym9lcn-5cn4o	c_nzg5r-ym9lcn-5cn4o	2011-08-24	나두 tagsmile 용화 서현 tagsmile
 mbc_wedding	nicole0498	COMMENT	pym9lcn-5cn4o	c_nzpvw-ym9lcn-5cn4o	2011-08-24	tagsmile 재방
 mbc_wedding	nicole0498	COMMENT	pym9lcn-5cn4o	c_nzq_o-ym9lcn-5cn4o	2011-08-24	tagsmile 난 나다 날다 아담
 mbc_wedding	gsh06012	COMMENT	pymhldp-55vhm	c_44p2s-ymhldp-55vhm	2011-08-28	
-mbc_wedding	ddd5032	COMMENT	pymi_rc-ybj4z	c_4fl8u-ymi_rc-ybj4z	2011-08-25	이에이에이에이에tagquestion
-mbc_wedding	ha_euddaek	COMMENT	pymm24d-585a8	c_40wz7-ymm24d-585a8	2011-08-27	으어ㅕㅓㅣ러갸아허ㅡ응거ㅡㅏ어기라ㅡㅏ아아ㅏㅏㅏㅏㅏ
-mbc_wedding	kjw2726	COMMENT	pymm24d-585a8	c_vxtsq-ymm24d-585a8	2011-08-25	tagcry 찍다 울다 징짜울거 징짜울거야 ㅓ아어ㅏㅣㅇ앙대ㅐㅐㅐ이러지마 ㅏㅇ어ㅏㅣ으ㅏ아아ㅏ이ㅏ
+mbc_wedding	ddd5032	COMMENT	pymi_rc-ybj4z	c_4fl8u-ymi_rc-ybj4z	2011-08-25	이에이에이에이 이에이에이에이에 tagquestion
+mbc_wedding	ha_euddaek	COMMENT	pymm24d-585a8	c_40wz7-ymm24d-585a8	2011-08-27	으어 ㅕㅓㅣ 러갸아허 ㅡ 응거 ㅡㅏ 어기다 어기 ㅡㅏ 앗다 ㅏㅏㅏㅏㅏ
+mbc_wedding	kjw2726	COMMENT	pymm24d-585a8	c_vxtsq-ymm24d-585a8	2011-08-25	tagcry 찍다 울다 징짜울거 징짜울거야 ㅓ 앗다 ㅏㅣㅇ 앙대 ㅐㅐㅐ 이르다 ㅏㅇ 어 ㅏㅣ 으 ㅏ 앗다 ㅏ ㅏ
 mbc_wedding	rkdthf3622	COMMENT	pymmred-yk22c	c_vuw6c-ymmred-yk22c	2011-09-01	tagsmile
 mbc_wedding	sk6083	COMMENT	pymmwbz-7tqk	c_vlf75-ymmwbz-7tqk	2011-08-25	나 나다 개 개다 한승연싫어 tagcry 어디착한온유르류 tagcry
 mbc_wedding	sk6083	COMMENT	pymmwbz-7tqk	c_vlfuh-ymmwbz-7tqk	2011-08-25	tagcry
@@ -405,8 +405,8 @@ mbc_wedding	you1749	COMMENT	pymokye-182c	c_v2v8l-ymokye-182c	2011-08-24	전우�
 mbc_wedding	alswjd92sm	COMMENT	pymokye-182c	c_v2vyv-ymokye-182c	2011-08-24	tagcry 저 한승연 별로 별로라 생각
 mbc_wedding	alswjd92sm	COMMENT	pymokye-182c	c_vn5va-ymokye-182c	2011-08-24	ㅇㅇ 나도반대 tagexclamation tagsmile
 mbc_wedding	sung2926	COMMENT	pymokye-182c	c_vnynl-ymokye-182c	2011-08-24	한승연 말다 다른아이돌 다른아이돌도 많다 하는거면 욕 안하다 tagcry tagcry
-mbc_wedding	alswjd92sm	COMMENT	pymokye-182c	c_vn_6i-ymokye-182c	2011-08-24	맞다 다른아이돌 다른아이돌도 많다 많이웃는게 비슷 비슷하다 비슷하다고 해줬나tagquestion tagcry
-mbc_wedding	anne5069	COMMENT	pymokye-182c	c_vv4tj-ymokye-182c	2011-08-25	헐ㄹ 안되다 tagcry
+mbc_wedding	alswjd92sm	COMMENT	pymokye-182c	c_vn_6i-ymokye-182c	2011-08-24	맞다 다른아이돌 다른아이돌도 많다 많이웃는게 비슷 비슷하다 비슷하다고 하다 해줬 tagquestion tagcry
+mbc_wedding	anne5069	COMMENT	pymokye-182c	c_vv4tj-ymokye-182c	2011-08-25	헐 ㄹ 안되다 tagcry
 mbc_wedding	mp1425	COMMENT	pympufe-7i5i	c_n48id-ympufe-7i5i	2011-08-25	아직 확정 된거 아니에 아니에요
 mbc_wedding	seri98	COMMENT	pympufe-7i5i	c_n4q5t-ympufe-7i5i	2011-08-25	괜찮다 여자연옌 되지않
 mbc_wedding	luby4110	COMMENT	pympufe-7i5i	c_nlm4v-ympufe-7i5i	2011-08-25	tagsmile 되긴 되긴한데 한승연 한승연이래
@@ -420,7 +420,7 @@ mbc_wedding	sgpanl	COMMENT	pymrvd7-5dmex	c_n7cz4-ymrvd7-5dmex	2011-08-26	tagsmil
 mbc_wedding	ghdcogh1	COMMENT	pymrvd7-5dmex	c_n7g13-ymrvd7-5dmex	2011-08-26	세상 어찌될려
 mbc_wedding	what-_-what	COMMENT	pymrvd7-5dmex	c_n7gca-ymrvd7-5dmex	2011-08-26	tagsmile 아니 이나영달라고 이나영달라고할래
 mbc_wedding	what-_-what	COMMENT	pymrvd7-5dmex	c_n7i1w-ymrvd7-5dmex	2011-08-26	tagsmile 저 이나영 tagsmile tagsmile
-mbc_wedding	sgpanl	COMMENT	pymrvd7-5dmex	c_n7ifn-ymrvd7-5dmex	2011-08-26	이나영 닮으셧다구여tagquestion tagsmile
+mbc_wedding	sgpanl	COMMENT	pymrvd7-5dmex	c_n7ifn-ymrvd7-5dmex	2011-08-26	이나영 닮으셧다구 tagquestion tagsmile
 mbc_wedding	hyerim85	COMMENT	pymrvd7-5dmex	c_n7th8-ymrvd7-5dmex	2011-08-26	아이 아 참 차다
 mbc_wedding	alsdkald	COMMENT	pymrvd7-5dmex	c_vd21g-ymrvd7-5dmex	2011-08-26	tagsmile 빅햄 빅햄이 tagexclamation tagsmile
 mbc_wedding	qazki	COMMENT	pymrvd7-5dmex	c_vdilb-ymrvd7-5dmex	2011-08-26	만나뵙고싶어용
@@ -429,9 +429,9 @@ mbc_wedding	sgpanl	COMMENT	pymrvd7-5dmex	c_vdn3q-ymrvd7-5dmex	2011-08-26	tagsmil
 mbc_wedding	sgpanl	COMMENT	pymrvd7-5dmex	c_vdn57-ymrvd7-5dmex	2011-08-26	왜 tagsmile
 mbc_wedding	sgpanl	COMMENT	pymrvd7-5dmex	c_vdn6g-ymrvd7-5dmex	2011-08-26	직접보면 큰일나다 tagsmile
 mbc_wedding	alsdkald	COMMENT	pymrvd7-5dmex	c_vdn9g-ymrvd7-5dmex	2011-08-26	tagsmile 그게더낫겟따 tagsmile 야 나내일 토요일전체출근 tagcry
-mbc_wedding	what-_-what	COMMENT	pymrvd7-5dmex	c_vdne0-ymrvd7-5dmex	2011-08-26	tagsmile 어떤분한테부탁해야되요tagquestion
-mbc_wedding	sgpanl	COMMENT	pymrvd7-5dmex	c_vdnf0-ymrvd7-5dmex	2011-08-26	엄마tagquestion tagsmile
+mbc_wedding	what-_-what	COMMENT	pymrvd7-5dmex	c_vdne0-ymrvd7-5dmex	2011-08-26	tagsmile 어떤분한테부탁해야 tagquestion
+mbc_wedding	sgpanl	COMMENT	pymrvd7-5dmex	c_vdnf0-ymrvd7-5dmex	2011-08-26	엄마 tagquestion tagsmile
 mbc_wedding	sgpanl	COMMENT	pymrvd7-5dmex	c_vdnpm-ymrvd7-5dmex	2011-08-26	헐
 mbc_wedding	sgpanl	COMMENT	pymrvd7-5dmex	c_vdnyz-ymrvd7-5dmex	2011-08-26	tagsmile 같다 말해봐 말해봐여 tagsmile 난 나다 날다 닉쿤 님 이나영 tagsmile
 mbc_wedding	what-_-what	COMMENT	pymrvd7-5dmex	c_vdv3o-ymrvd7-5dmex	2011-08-26	tagsmile 아 이나영 tagcry tagcry tagsmile
-mbc_wedding	alsdkald	COMMENT	pymrvd7-5dmex	c_vdvvb-ymrvd7-5dmex	2011-08-26	아직평가날짜 안나왓따 tagsmile무지씐나넹 tagsmile
+mbc_wedding	alsdkald	COMMENT	pymrvd7-5dmex	c_vdvvb-ymrvd7-5dmex	2011-08-26	아직평가날짜 안나왓따 tagsmile 무지씐나넹 tagsmile

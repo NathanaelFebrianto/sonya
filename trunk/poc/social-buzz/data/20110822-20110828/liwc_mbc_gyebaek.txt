@@ -1,22 +1,26 @@
 program_id	author_id	type	post_id	comment_id	publish_date	feature	count	word
 mbc_gyebaek	moonjun1999	POST	pym12wu-5hgec		2011-08-23	SEE	1.0	보다
+mbc_gyebaek	wortmsgjdzm	POST	pym131j-5wxw_		2011-08-23	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	wortmsgjdzm	POST	pym131j-5wxw_		2011-08-23	SEE	1.0	보다
 mbc_gyebaek	loanbay	POST	pym13i0-yrp_n		2011-08-22	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	zbvl2791	POST	pym14xu-5qzq		2011-08-23	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	zbvl2791	POST	pym14xu-5qzq		2011-08-23	CRYMARK	1.0	tagcry
 mbc_gyebaek	je832896	POST	pym17a1-5c9yd		2011-08-22	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	je832896	POST	pym17a1-5c9yd		2011-08-22	SMILEMARK	1.0	tagsmile
+mbc_gyebaek	je832896	POST	pym17a1-5c9yd		2011-08-22	SEE	1.0	보다
 mbc_gyebaek	mople	POST	pym1eh3-ybyr8		2011-08-22	PRESENT	1.0	오늘
-mbc_gyebaek	mople	POST	pym1eh3-ybyr8		2011-08-22	SEE	1.0	보다
 mbc_gyebaek	goretti75	POST	pym1l6n-5kzwp		2011-08-23	CRYMARK	1.0	tagcry
 mbc_gyebaek	goretti75	POST	pym1l6n-5kzwp		2011-08-23	SEE	1.0	보다
+mbc_gyebaek	as5043	POST	pym1lam-5oxf1		2011-08-23	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	as5043	POST	pym1lam-5oxf1		2011-08-23	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	as5043	POST	pym1lam-5oxf1		2011-08-23	CRYMARK	1.0	tagcry
 mbc_gyebaek	as5043	POST	pym1lam-5oxf1		2011-08-23	ANXIETY	1.0	무섭
 mbc_gyebaek	hsb6417	POST	pym1lf7-_d14g		2011-08-23	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	omo212	POST	pym1lh5-fo82		2011-08-23	PRESENT	1.0	이제
+mbc_gyebaek	omo212	POST	pym1lh5-fo82		2011-08-23	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	omo212	POST	pym1lh5-fo82		2011-08-23	CRYMARK	1.0	tagcry
 mbc_gyebaek	dbstjs0723	POST	pym1lu0-6gib		2011-08-23	PRESENT	1.0	오늘
+mbc_gyebaek	dbstjs0723	POST	pym1lu0-6gib		2011-08-23	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	dbstjs0723	POST	pym1lu0-6gib		2011-08-23	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	dbstjs0723	POST	pym1lu0-6gib		2011-08-23	CRYMARK	2.0	tagcry 흑
 mbc_gyebaek	maesto0607	POST	pym1skm-_a8fr		2011-08-23	EXCLAMMARK	1.0	tagexclamation
@@ -25,6 +29,8 @@ mbc_gyebaek	01055748181	POST	pym1vvz-_q81y		2011-08-23	SEE	1.0	보다
 mbc_gyebaek	carmaster000	POST	pym1xl0-ydfu8		2011-08-22	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	gkdms2909	POST	pym1z32-_a2r1		2011-08-23	FUTURE	1.0	내일
 mbc_gyebaek	kensc0814	POST	pym815r-5adl8		2011-08-27	QUANTIFIER	1.0	많이
+mbc_gyebaek	kensc0814	POST	pym815r-5adl8		2011-08-27	QUESTIONMARK	1.0	tagquestion
+mbc_gyebaek	feei2nd	POST	pym8174-5xcmx		2011-08-23	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	feei2nd	POST	pym8174-5xcmx		2011-08-23	SMILEMARK	1.0	크
 mbc_gyebaek	feei2nd	POST	pym8174-5xcmx		2011-08-23	SEE	1.0	보다
 mbc_gyebaek	hansuh88	POST	pym83xb-yx785		2011-08-23	PRESENT	1.0	지금
@@ -36,10 +42,15 @@ mbc_gyebaek	tpwhdzjvmf	POST	pym8a36-yq13a		2011-08-24	EXCLAMMARK	1.0	tagexclamat
 mbc_gyebaek	tpwhdzjvmf	POST	pym8a36-yq13a		2011-08-24	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	tpwhdzjvmf	POST	pym8a36-yq13a		2011-08-24	CRYMARK	1.0	tagcry
 mbc_gyebaek	tpwhdzjvmf	POST	pym8a36-yq13a		2011-08-24	SEE	1.0	보다
+mbc_gyebaek	nks003	POST	pym8kqm-5vcid		2011-08-23	SMILEMARK	1.0	tagsmile
+mbc_gyebaek	nks003	POST	pym8kxx-5vcid		2011-08-23	SMILEMARK	1.0	tagsmile
+mbc_gyebaek	doroco23	POST	pym8va0-_qs2m		2011-08-23	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	doroco23	POST	pym8va0-_qs2m		2011-08-23	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	1999mina	POST	pym8vwx-_6bad		2011-08-23	PRESENT	1.0	오늘
+mbc_gyebaek	1999mina	POST	pym8vwx-_6bad		2011-08-23	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	1999mina	POST	pym8vwx-_6bad		2011-08-23	CRYMARK	1.0	tagcry
 mbc_gyebaek	rusy6347	POST	pym8xxb-yrxep		2011-08-23	POSITIVE	1.0	웃기다
+mbc_gyebaek	totoro_k89	POST	pym8ygv-_z_cw		2011-08-26	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	rkdud5002	POST	pym9cvk-5w919		2011-08-22	FUTURE	1.0	내일
 mbc_gyebaek	rkdud5002	POST	pym9cvk-5w919		2011-08-22	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	rkdud5002	POST	pym9cvk-5w919		2011-08-22	CRYMARK	1.0	tagcry
@@ -58,6 +69,7 @@ mbc_gyebaek	sally3979	POST	pym9rjq-5qdb3		2011-08-22	PRESENT	1.0	지금
 mbc_gyebaek	sally3979	POST	pym9rjq-5qdb3		2011-08-22	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	sally3979	POST	pym9rjq-5qdb3		2011-08-22	SEE	1.0	보다
 mbc_gyebaek	okvr789	POST	pym9rps-ykeny		2011-08-22	SMILEMARK	1.0	tagsmile
+mbc_gyebaek	kendys1	POST	pym9w5n-y7wi1		2011-08-24	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	qkqk235	POST	pym9wur-ywqk0		2011-08-22	PRESENT	1.0	이제
 mbc_gyebaek	qkqk235	POST	pym9wur-ywqk0		2011-08-22	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	pigme24	POST	pym9_la-yjmt0		2011-08-22	QUANTIFIER	1.0	너무
@@ -71,7 +83,10 @@ mbc_gyebaek	haon2000	POST	pymb5ii-typa		2011-08-22	PRESENT	1.0	요즘
 mbc_gyebaek	big46	POST	pymb6cs-5ot7u		2011-08-22	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	tkflwn	POST	pymbftc-a9s6		2011-08-23	PRESENT	1.0	요즘
 mbc_gyebaek	tkflwn	POST	pymbftc-a9s6		2011-08-23	CONJUNCTION	1.0	그런데
+mbc_gyebaek	tkflwn	POST	pymbftc-a9s6		2011-08-23	QUESTIONMARK	1.0	tagquestion
+mbc_gyebaek	hyomin-t-ara	POST	pymby9w-5gzsg		2011-08-22	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	hyomin-t-ara	POST	pymby9w-5gzsg		2011-08-22	EXCLAMMARK	1.0	tagexclamation
+mbc_gyebaek	hyomin-t-ara	POST	pymby9w-5gzsg		2011-08-22	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	han50279	POST	pymb_tz-ykqh8		2011-08-22	PRESENT	1.0	오늘
 mbc_gyebaek	han50279	POST	pymb_tz-ykqh8		2011-08-22	SMILEMARK	2.0	크 tagsmile
 mbc_gyebaek	qkffpfb	POST	pymcbl9-y5w5z		2011-08-25	PRESENT	2.0	지금 오늘
@@ -82,19 +97,27 @@ mbc_gyebaek	aminta74	POST	pymcms7-5uq2i		2011-08-25	NEGATIVE	1.0	부끄럽다
 mbc_gyebaek	mho1840	POST	pymcrcp-_gk3n		2011-08-25	SMILEMARK	1.0	크
 mbc_gyebaek	mho1840	POST	pymcrcp-_gk3n		2011-08-25	LOVEMARK	1.0	taglove
 mbc_gyebaek	pdh9760	POST	pyme5b0-yeplw		2011-08-22	PRESENT	1.0	지금
+mbc_gyebaek	pdh9760	POST	pyme5b0-yeplw		2011-08-22	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	pdh9760	POST	pyme5b0-yeplw		2011-08-22	POSITIVE	1.0	좋다
 mbc_gyebaek	pdh9760	POST	pyme5b0-yeplw		2011-08-22	SEE	1.0	보다
 mbc_gyebaek	nunurigo121	POST	pymf018-_9tci		2011-08-25	SEE	1.0	보다
 mbc_gyebaek	rhkgkr68	POST	pymf0a5-7sfb		2011-08-25	QUANTIFIER	1.0	너무
+mbc_gyebaek	rhkgkr68	POST	pymf0a5-7sfb		2011-08-25	QUESTIONMARK	1.0	tagquestion
+mbc_gyebaek	smin0319	POST	pymf7ak-y1sqq		2011-08-22	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	smin0319	POST	pymf7ak-y1sqq		2011-08-22	EXCLAMMARK	1.0	tagexclamation
+mbc_gyebaek	smin0319	POST	pymf7ak-y1sqq		2011-08-22	SEE	1.0	보다
+mbc_gyebaek	yschang99	POST	pymfdud-_i7bo		2011-08-22	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	hye7797	POST	pymfdw4-ipnp		2011-08-24	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	hye7797	POST	pymfdw4-ipnp		2011-08-24	POSITIVE	1.0	웃기다
 mbc_gyebaek	yeana30	POST	pymff5s-500fo		2011-08-23	SEE	1.0	보다
 mbc_gyebaek	wlsxor	POST	pymfh0m-2i6_		2011-08-25	SMILEMARK	1.0	tagsmile
+mbc_gyebaek	sainttime	POST	pymfimd-5jff9		2011-08-22	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	sainttime	POST	pymfimd-5jff9		2011-08-22	EXCLAMMARK	1.0	tagexclamation
+mbc_gyebaek	sainttime	POST	pymfimd-5jff9		2011-08-22	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	sainttime	POST	pymfimd-5jff9		2011-08-22	SEE	1.0	보다
 mbc_gyebaek	teensnature	POST	pymfr3f-tefg		2011-08-26	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	smin0319	POST	pymfuaw-y1sqq		2011-08-22	PRESENT	1.0	오늘
+mbc_gyebaek	smin0319	POST	pymfuaw-y1sqq		2011-08-22	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	smin0319	POST	pymfuaw-y1sqq		2011-08-22	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	smin0319	POST	pymfuaw-y1sqq		2011-08-22	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	itoa	POST	pymfuhd-ahtb		2011-08-22	EXCLAMMARK	1.0	tagexclamation
@@ -105,18 +128,22 @@ mbc_gyebaek	itoa	POST	pymfunz-ahtb		2011-08-22	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	smin0319	POST	pymfuue-y1sqq		2011-08-22	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	dbswldo1230	POST	pymfuy0-_w6o8		2011-08-25	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	dbswldo1230	POST	pymfuy0-_w6o8		2011-08-25	SMILEMARK	1.0	tagsmile
+mbc_gyebaek	smin0319	POST	pymfxh_-y1sqq		2011-08-22	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	smin0319	POST	pymfxh_-y1sqq		2011-08-22	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	smin0319	POST	pymgbng-y1sqq		2011-08-26	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	smin0319	POST	pymgbng-y1sqq		2011-08-26	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	stylisthanul	POST	pymgg3s-_w5s7		2011-08-26	SMILEMARK	1.0	크
 mbc_gyebaek	hlilte443	POST	pymgnuc-5lasz		2011-08-27	SEE	1.0	보다
+mbc_gyebaek	chu622	POST	pymgpak-l128		2011-08-26	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	chu622	POST	pymgpak-l128		2011-08-26	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	chu622	POST	pymgpak-l128		2011-08-26	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	chu622	POST	pymgpak-l128		2011-08-26	SEE	1.0	보다
 mbc_gyebaek	rose2875902	POST	pymgzk5-y04sl		2011-08-27	EXCLAMMARK	1.0	tagexclamation
+mbc_gyebaek	rose2875902	POST	pymgzk5-y04sl		2011-08-27	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	rlagptn01	POST	pymhn7j-ypbh6		2011-08-27	PRESENT	1.0	오늘
 mbc_gyebaek	rlagptn01	POST	pymhn7j-ypbh6		2011-08-27	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	aviv1202	POST	pymi6_3-5_zlw		2011-08-25	CRYMARK	1.0	tagcry
+mbc_gyebaek	cwkms1144	POST	pymic1d-y4sh8		2011-08-26	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	cwkms1144	POST	pymic1d-y4sh8		2011-08-26	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	envjyp	POST	pymitfo-_zjt0		2011-08-26	POSITIVE	1.0	행복
 mbc_gyebaek	envjyp	POST	pymitfo-_zjt0		2011-08-26	SADNESS	1.0	아프
@@ -130,14 +157,16 @@ mbc_gyebaek	pigme24	POST	pymj40b-yjmt0		2011-08-23	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	pigme24	POST	pymj40b-yjmt0		2011-08-23	LOVEMARK	1.0	taglove
 mbc_gyebaek	pigme24	POST	pymj40b-yjmt0		2011-08-23	POSITIVE	1.0	좋다
 mbc_gyebaek	jinichoco	POST	pymj6do-yxca9		2011-08-23	PRESENT	1.0	오늘
+mbc_gyebaek	jinichoco	POST	pymj6do-yxca9		2011-08-23	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	jinichoco	POST	pymj6do-yxca9		2011-08-23	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	jinichoco	POST	pymj6do-yxca9		2011-08-23	SMILEMARK	1.0	크
 mbc_gyebaek	hb2137	POST	pymj7ll-_ambd		2011-08-23	CRYMARK	1.0	tagcry
 mbc_gyebaek	iloveknp	POST	pymj9fy-_0f5t		2011-08-23	PRESENT	2.0	요즘 오늘
+mbc_gyebaek	iloveknp	POST	pymj9fy-_0f5t		2011-08-23	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	iloveknp	POST	pymj9fy-_0f5t		2011-08-23	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	iloveknp	POST	pymj9fy-_0f5t		2011-08-23	SMILEMARK	1.0	tagsmile
+mbc_gyebaek	iloveknp	POST	pymj9fy-_0f5t		2011-08-23	SEE	1.0	보다
 mbc_gyebaek	mople	POST	pymjbqn-ybyr8		2011-08-23	PRESENT	1.0	오늘
-mbc_gyebaek	mople	POST	pymjbqn-ybyr8		2011-08-23	SEE	1.0	보다
 mbc_gyebaek	psb15	POST	pymjfny-y5cca		2011-08-23	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	psb15	POST	pymjfny-y5cca		2011-08-23	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	psb15	POST	pymjfny-y5cca		2011-08-23	CRYMARK	1.0	tagcry
@@ -153,14 +182,17 @@ mbc_gyebaek	usb64	POST	pymmb5a-_qd8e		2011-08-25	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	jinichoco	POST	pymmiis-yxca9		2011-08-27	PRESENT	1.0	지금
 mbc_gyebaek	jinichoco	POST	pymmiis-yxca9		2011-08-27	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	jinichoco	POST	pymmiis-yxca9		2011-08-27	SMILEMARK	1.0	tagsmile
+mbc_gyebaek	freeurmind	POST	pymmtgl-ydw1		2011-08-24	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	gusehd856	POST	pymo1yr-_0oeb		2011-08-24	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	skesw	POST	pymo60v-ydrew		2011-08-23	PRESENT	1.0	오늘
+mbc_gyebaek	skesw	POST	pymo60v-ydrew		2011-08-23	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	skesw	POST	pymo60v-ydrew		2011-08-23	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	skesw	POST	pymo60v-ydrew		2011-08-23	CRYMARK	1.0	tagcry
 mbc_gyebaek	skesw	POST	pymo60v-ydrew		2011-08-23	POSITIVE	1.0	웃음
 mbc_gyebaek	skesw	POST	pymo60v-ydrew		2011-08-23	SEE	1.0	보다
 mbc_gyebaek	chicchic88	POST	pymo66j-5ncle		2011-08-23	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	chicchic88	POST	pymo66j-5ncle		2011-08-23	SEE	1.0	보다
+mbc_gyebaek	skesw	POST	pymo6hs-ydrew		2011-08-23	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	skesw	POST	pymo6hs-ydrew		2011-08-23	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	skesw	POST	pymo6hs-ydrew		2011-08-23	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	ddang330	POST	pymo8i3-5c37y		2011-08-24	PRESENT	1.0	오늘
@@ -168,18 +200,22 @@ mbc_gyebaek	ddang330	POST	pymo8i3-5c37y		2011-08-24	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	ddang330	POST	pymo8i3-5c37y		2011-08-24	SEE	1.0	보다
 mbc_gyebaek	fraujoo99	POST	pymo9an-_81ij		2011-08-24	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	fraujoo99	POST	pymo9an-_81ij		2011-08-24	SMILEMARK	1.0	tagsmile
+mbc_gyebaek	eratoskin	POST	pymofjx-ybst1		2011-08-24	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	spastar7	POST	pymogwn-5x8tg		2011-08-24	POSITIVE	1.0	웃음
 mbc_gyebaek	as87song	POST	pymojh2-5vi_p		2011-08-24	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	as87song	POST	pymojh2-5vi_p		2011-08-24	SEE	1.0	보다
 mbc_gyebaek	hanna2200	POST	pymo_c7-gfma		2011-08-23	PRESENT	1.0	오늘
 mbc_gyebaek	hanna2200	POST	pymo_c7-gfma		2011-08-23	FUTURE	1.0	다음주
+mbc_gyebaek	hanna2200	POST	pymo_c7-gfma		2011-08-23	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	rosa6673	POST	pymo_ep-568n6		2011-08-26	PRESENT	1.0	지금
+mbc_gyebaek	rosa6673	POST	pymo_ep-568n6		2011-08-26	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	rosa6673	POST	pymo_ep-568n6		2011-08-26	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	rosa6673	POST	pymo_ep-568n6		2011-08-26	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	rosa6673	POST	pymo_ep-568n6		2011-08-26	LOVEMARK	1.0	taglove
 mbc_gyebaek	rosa6673	POST	pymo_ep-568n6		2011-08-26	POSITIVE	2.0	웃음 보고싶어
 mbc_gyebaek	rosa6673	POST	pymo_ep-568n6		2011-08-26	SEE	1.0	보다
 mbc_gyebaek	treeyuna	POST	pymo_zv-_jgxm		2011-08-23	SMILEMARK	1.0	tagsmile
+mbc_gyebaek	tpals7279	POST	pymp00p-y77kv		2011-08-23	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	tpals7279	POST	pymp00p-y77kv		2011-08-23	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	tpals7279	POST	pymp00p-y77kv		2011-08-23	LOVEMARK	1.0	taglove
 mbc_gyebaek	quddlf9	POST	pymp0ka-ylu3h		2011-08-23	SMILEMARK	1.0	tagsmile
@@ -190,6 +226,7 @@ mbc_gyebaek	tv-media	POST	pymp2ud-_i7yx		2011-08-25	QUANTIFIER	1.0	너무
 mbc_gyebaek	naverbylell	POST	pymp3r3-_q5dc		2011-08-23	LOVEMARK	1.0	taglove
 mbc_gyebaek	dmsal9180	POST	pymp3tv-vow7		2011-08-23	PRESENT	1.0	지금
 mbc_gyebaek	dmsal9180	POST	pymp3tv-vow7		2011-08-23	SWEAR	1.0	존나
+mbc_gyebaek	dmsal9180	POST	pymp3tv-vow7		2011-08-23	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	dmsal9180	POST	pymp3tv-vow7		2011-08-23	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	dmsal9180	POST	pymp3tv-vow7		2011-08-23	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	01094435793	POST	pymp4v_-yb3y0		2011-08-25	PRESENT	1.0	이제
@@ -201,6 +238,7 @@ mbc_gyebaek	0826yujin	POST	pymp7uk-eq5m		2011-08-24	PRESENT	1.0	이제
 mbc_gyebaek	0826yujin	POST	pymp7uk-eq5m		2011-08-24	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	d_-w1035	POST	pympb4h-_gatx		2011-08-23	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	d_-w1035	POST	pympb4h-_gatx		2011-08-23	CRYMARK	1.0	tagcry
+mbc_gyebaek	skaksqhffo54	POST	pymphoa-5hcrl		2011-08-24	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	ro0223jh	POST	pympjni-aeah		2011-08-23	SEE	1.0	보다
 mbc_gyebaek	lbhgom82	POST	pympw0r-_oru2		2011-08-24	PRESENT	1.0	지금
 mbc_gyebaek	lbhgom82	POST	pympw0r-_oru2		2011-08-24	SMILEMARK	1.0	tagsmile
@@ -210,6 +248,7 @@ mbc_gyebaek	-_0715	POST	pymr605-_fu0l		2011-08-25	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	cwkms1144	POST	pymr646-y4sh8		2011-08-22	CRYMARK	1.0	tagcry
 mbc_gyebaek	cwkms1144	POST	pymr646-y4sh8		2011-08-22	ANXIETY	1.0	걱정
 mbc_gyebaek	jinichoco	POST	pymra4w-yxca9		2011-08-24	PRESENT	1.0	요즘
+mbc_gyebaek	jinichoco	POST	pymra4w-yxca9		2011-08-24	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	jinichoco	POST	pymra4w-yxca9		2011-08-24	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	jamtangie016	POST	pymracn-tsv		2011-08-22	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	qkrtndusdpdk	POST	pymrafg-yz4k3		2011-08-22	SEE	1.0	보다
@@ -225,6 +264,7 @@ mbc_gyebaek	gttyyy	POST	pymrqew-_5e6j		2011-08-22	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	gttyyy	POST	pymrqew-_5e6j		2011-08-22	CRYMARK	1.0	tagcry
 mbc_gyebaek	gttyyy	POST	pymrqew-_5e6j		2011-08-22	SEE	1.0	보다
 mbc_gyebaek	ehowlrh86	POST	pymrqo8-54ce2		2011-08-22	PRESENT	1.0	오늘
+mbc_gyebaek	ehowlrh86	POST	pymrqo8-54ce2		2011-08-22	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	ehowlrh86	POST	pymrqo8-54ce2		2011-08-22	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	ho2554	POST	pymrr0a-5z7rb		2011-08-22	PRESENT	2.0	오늘 요즘
 mbc_gyebaek	ho2554	POST	pymrr0a-5z7rb		2011-08-22	SMILEMARK	1.0	tagsmile
@@ -233,7 +273,9 @@ mbc_gyebaek	rnahs630	POST	pymrsnz-5416d		2011-08-22	LOVEMARK	1.0	taglove
 mbc_gyebaek	koj8491	POST	pymrsvu-_1vf4		2011-08-22	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	koj8491	POST	pymrsvu-_1vf4		2011-08-22	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	koj8491	POST	pymrsvu-_1vf4		2011-08-22	SEE	1.0	보다
+mbc_gyebaek	tuta7	POST	pymrtmr-5z6t9		2011-08-26	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	tuta7	POST	pymrtmr-5z6t9		2011-08-26	SEE	1.0	보다
+mbc_gyebaek	treethink	POST	pymru6b-nh1d		2011-08-22	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	treethink	POST	pymru6b-nh1d		2011-08-22	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	treethink	POST	pymru6b-nh1d		2011-08-22	SEE	1.0	보다
 mbc_gyebaek	smyoon98	POST	pymrvez-s5ts		2011-08-22	CRYMARK	1.0	tagcry
@@ -246,7 +288,9 @@ mbc_gyebaek	chicchic88	POST	pymw27c-5ncle		2011-08-23	CRYMARK	1.0	tagcry
 mbc_gyebaek	rlagptn01	POST	pymw6c1-ypbh6		2011-08-22	QUANTIFIER	1.0	너무
 mbc_gyebaek	rlagptn01	POST	pymw6c1-ypbh6		2011-08-22	SMILEMARK	1.0	흐
 mbc_gyebaek	rlagptn01	POST	pymw6c1-ypbh6		2011-08-22	LOVEMARK	1.0	taglove
+mbc_gyebaek	applepitch12	POST	pymw73z-_zd38		2011-08-26	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	applepitch12	POST	pymw73z-_zd38		2011-08-26	SEE	1.0	보다
+mbc_gyebaek	jisiklog	POST	pymwa1f-_rcxy		2011-08-23	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	pchris1217	POST	pymwbjp-ye1gh		2011-08-23	CRYMARK	1.0	tagcry
 mbc_gyebaek	pchris1217	POST	pymwbjp-ye1gh		2011-08-23	SEE	1.0	보다
 mbc_gyebaek	gkfn127	POST	pymwfp3-y0tp5		2011-08-25	PRESENT	2.0	요즘 지금
@@ -269,6 +313,9 @@ mbc_gyebaek	leeboin	POST	pymwy7v-yalkz		2011-08-22	SEE	1.0	보다
 mbc_gyebaek	qufdln5	POST	pymwyfj-_bfmb		2011-08-22	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	jin991202	POST	pymwzww-59udf		2011-08-23	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	100chungkang	POST	pymw_uh-ysbsq		2011-08-22	PRESENT	2.0	요즘 지금
+mbc_gyebaek	100chungkang	POST	pymw_uh-ysbsq		2011-08-22	QUESTIONMARK	1.0	tagquestion
+mbc_gyebaek	100chungkang	POST	pymw_uh-ysbsq		2011-08-22	SMILEMARK	1.0	tagsmile
+mbc_gyebaek	chamgrace	COMMENT	pymra4w-yxca9		2011-08-25	QUESTIONMARK	1.0	tagquestion
 mbc_gyebaek	chamgrace	COMMENT	pymra4w-yxca9		2011-08-25	SMILEMARK	1.0	tagsmile
 mbc_gyebaek	jinichoco	COMMENT	pymra4w-yxca9		2011-08-25	EXCLAMMARK	1.0	tagexclamation
 mbc_gyebaek	jinichoco	COMMENT	pymra4w-yxca9		2011-08-25	SMILEMARK	1.0	tagsmile

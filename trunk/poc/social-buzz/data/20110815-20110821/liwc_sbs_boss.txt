@@ -17,6 +17,7 @@ sbs_boss	arion1207	POST	pym04wh-yea8o		2011-08-18	SEE	1.0	보다
 sbs_boss	tbrktbrk33	POST	pym04y8-y_p4_		2011-08-19	PAST	1.0	어제
 sbs_boss	dornr19	POST	pym0577-5azn8		2011-08-19	PRESENT	2.0	오늘 이제
 sbs_boss	dornr19	POST	pym0577-5azn8		2011-08-19	CONJUNCTION	1.0	하지만
+sbs_boss	dornr19	POST	pym0577-5azn8		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	dornr19	POST	pym0577-5azn8		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	dornr19	POST	pym0577-5azn8		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	dornr19	POST	pym0577-5azn8		2011-08-19	CRYMARK	1.0	tagcry
@@ -28,6 +29,7 @@ sbs_boss	year1663	POST	pym079_-qyyj		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	year1663	POST	pym079_-qyyj		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	kanghee62400	POST	pym07fl-ysu7m		2011-08-18	SEE	1.0	보다
 sbs_boss	kl1225327	POST	pym07ro-t27l		2011-08-18	LOVEMARK	1.0	taglove
+sbs_boss	hwaya_001	POST	pym07y5-15_3		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	hwaya_001	POST	pym07y5-15_3		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	minka98	POST	pym09ka-_6z70		2011-08-20	PRESENT	1.0	오늘
 sbs_boss	minka98	POST	pym09ka-_6z70		2011-08-20	EXCLAMMARK	1.0	tagexclamation
@@ -38,12 +40,14 @@ sbs_boss	dhvh0402	POST	pym0as_-5u2gr		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	dhvh0402	POST	pym0as_-5u2gr		2011-08-19	NEGATIVE	1.0	미워
 sbs_boss	dlauddms0203	POST	pym0avs-yz_m5		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	dlauddms0203	POST	pym0avs-yz_m5		2011-08-19	SEE	1.0	보다
+sbs_boss	alicesh0922	POST	pym0baf-y6tb5		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	alicesh0922	POST	pym0baf-y6tb5		2011-08-18	SEE	1.0	보다
 sbs_boss	riverjhw	POST	pym0bb8-th36		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	riverjhw	POST	pym0bb8-th36		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	riverjhw	POST	pym0bb8-th36		2011-08-19	LOVEMARK	1.0	taglove
 sbs_boss	riverjhw	POST	pym0bb8-th36		2011-08-19	SEE	1.0	보다
 sbs_boss	alicesh0922	POST	pym0bhe-y6tb5		2011-08-18	PRESENT	1.0	오늘
+sbs_boss	alicesh0922	POST	pym0bhe-y6tb5		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	alrzl003	POST	pym0bj2-5ndpx		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	alrzl003	POST	pym0bj2-5ndpx		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	alrzl003	POST	pym0bj2-5ndpx		2011-08-19	POSITIVE	1.0	행복
@@ -53,7 +57,9 @@ sbs_boss	qkqnwkdrn	POST	pym0c56-50ca3		2011-08-20	CRYMARK	1.0	tagcry
 sbs_boss	thdeotjd456	POST	pym0c62-y88rj		2011-08-19	SMILEMARK	1.0	크
 sbs_boss	thdeotjd456	POST	pym0c62-y88rj		2011-08-19	SEE	1.0	보다
 sbs_boss	baggomyuna	POST	pym0c_7-lo_n		2011-08-20	EXCLAMMARK	1.0	tagexclamation
+sbs_boss	larcobaleno	POST	pym0d5r-5gks9		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_boss	fhslove	POST	pym0d7r-nafz		2011-08-18	PRESENT	1.0	요즘
+sbs_boss	fhslove	POST	pym0d7r-nafz		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	fhslove	POST	pym0d7r-nafz		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	fhslove	POST	pym0d7r-nafz		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	fhslove	POST	pym0d7r-nafz		2011-08-18	POSITIVE	1.0	웃다
@@ -73,13 +79,17 @@ sbs_boss	kelly7972	POST	pym0fye-bcxb		2011-08-19	SMILEMARK	1.0	흐
 sbs_boss	u_u_jj_xoxo	POST	pym0g2z-_y_wj		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	u_u_jj_xoxo	POST	pym0g2z-_y_wj		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	u_u_jj_xoxo	POST	pym0g2z-_y_wj		2011-08-18	POSITIVE	2.0	웃다 웃기다
+sbs_boss	kmn926	POST	pym0gjs-_j7w2		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	ghkdnjs	POST	pym0he6-1tz1		2011-08-18	PAST	1.0	어제
+sbs_boss	ghkdnjs	POST	pym0he6-1tz1		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	ghkdnjs	POST	pym0he6-1tz1		2011-08-18	CRYMARK	1.0	tagcry
 sbs_boss	ghkdnjs	POST	pym0he6-1tz1		2011-08-18	SADNESS	1.0	슬프다
 sbs_boss	cfg452	POST	pym0hlh-32l8		2011-08-18	PRESENT	1.0	요즘
+sbs_boss	cfg452	POST	pym0hlh-32l8		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	cfg452	POST	pym0hlh-32l8		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	cfg452	POST	pym0hlh-32l8		2011-08-18	ANXIETY	1.0	불안
 sbs_boss	leeger92	POST	pym0hzc-pvzg		2011-08-18	EXCLAMMARK	1.0	tagexclamation
+sbs_boss	u80yi	POST	pym0ikv-548pw		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	u80yi	POST	pym0ikv-548pw		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	u80yi	POST	pym0ikv-548pw		2011-08-19	POSITIVE	1.0	행복
 sbs_boss	bis_nakake	POST	pym0j97-5veis		2011-08-19	CRYMARK	1.0	tagcry
@@ -89,10 +99,12 @@ sbs_boss	thaqoddl7	POST	pym0lnv-yem5m		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	thaqoddl7	POST	pym0lnv-yem5m		2011-08-19	LOVEMARK	1.0	taglove
 sbs_boss	dudhkd0408	POST	pym0m4l-_pc05		2011-08-19	PAST	1.0	어제
 sbs_boss	dudhkd0408	POST	pym0m4l-_pc05		2011-08-19	PRESENT	1.0	이제
+sbs_boss	dudhkd0408	POST	pym0m4l-_pc05		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	dudhkd0408	POST	pym0m4l-_pc05		2011-08-19	CRYMARK	1.0	tagcry
 sbs_boss	dudhkd0408	POST	pym0m4l-_pc05		2011-08-19	SADNESS	1.0	슬프다
 sbs_boss	dudhkd0408	POST	pym0m4l-_pc05		2011-08-19	SEE	1.0	보다
 sbs_boss	shgml456	POST	pym0n2t-pv48		2011-08-18	POSITIVE	1.0	웃기다
+sbs_boss	tmzpdlxj12	POST	pym0ohv-__u00		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	swa075531	POST	pym0r23-0lck		2011-08-20	SEE	1.0	보다
 sbs_boss	season	POST	pym0rbw-3vj0		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	season	POST	pym0rbw-3vj0		2011-08-18	POSITIVE	2.0	웃다 웃기다
@@ -103,6 +115,7 @@ sbs_boss	e_b0117	POST	pym0siw-_si2k		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	e_b0117	POST	pym0siw-_si2k		2011-08-19	SEE	1.0	보다
 sbs_boss	kyoungt70	POST	pym0srh-bxvq		2011-08-19	SEE	1.0	보다
 sbs_boss	rldkde0517	POST	pym0su3-_qf3g		2011-08-18	PRESENT	1.0	오늘
+sbs_boss	rldkde0517	POST	pym0su3-_qf3g		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	rldkde0517	POST	pym0su3-_qf3g		2011-08-18	CRYMARK	1.0	tagcry
 sbs_boss	wjsdmswk13	POST	pym0t91-1vrn		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	dhkdwn1	POST	pym0tf9-ffrt		2011-08-18	SMILEMARK	1.0	tagsmile
@@ -114,13 +127,16 @@ sbs_boss	spnning	POST	pym0tje-tssc		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	spnning	POST	pym0tje-tssc		2011-08-18	CRYMARK	1.0	tagcry
 sbs_boss	spnning	POST	pym0tje-tssc		2011-08-18	POSITIVE	1.0	좋아
 sbs_boss	spnning	POST	pym0tje-tssc		2011-08-18	SEE	1.0	보다
+sbs_boss	tbayst	POST	pym0ugm-_ipzs		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	_adonai_	POST	pym0vba-_fbfi		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	_adonai_	POST	pym0vba-_fbfi		2011-08-18	CRYMARK	1.0	tagcry
+sbs_boss	sylkkkk	POST	pym0vea-_dzgb		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_boss	sylkkkk	POST	pym0vea-_dzgb		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_boss	haeun528	POST	pym0w3j-wi_p		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	haeun528	POST	pym0w3j-wi_p		2011-08-19	LOVEMARK	1.0	taglove
 sbs_boss	wltn0730	POST	pym0wqs-y896w		2011-08-19	PAST	1.0	어제
 sbs_boss	wltn0730	POST	pym0wqs-y896w		2011-08-19	QUANTIFIER	2.0	너무 많이
+sbs_boss	wltn0730	POST	pym0wqs-y896w		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	wltn0730	POST	pym0wqs-y896w		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	wltn0730	POST	pym0wqs-y896w		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	wltn0730	POST	pym0wqs-y896w		2011-08-19	NEGATIVE	1.0	아쉬
@@ -129,6 +145,7 @@ sbs_boss	gkwlsrnjs12	POST	pym0x42-ytik8		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	hero-0126	POST	pym0x6q-_s0xj		2011-08-18	PAST	1.0	어제
 sbs_boss	hero-0126	POST	pym0x6q-_s0xj		2011-08-18	PRESENT	1.0	오늘
 sbs_boss	hero-0126	POST	pym0x6q-_s0xj		2011-08-18	SEE	1.0	보다
+sbs_boss	ghd2017	POST	pym0xuc-lmyb		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	ghd2017	POST	pym0xuc-lmyb		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	catgirl28	POST	pym0ztu-_h66r		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	hs199559	POST	pym0_it-ttq5		2011-08-19	FUTURE	1.0	다음주
@@ -150,15 +167,18 @@ sbs_boss	queen_hyun1	POST	pym1bdm-_a3ou		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	queen_hyun1	POST	pym1bdm-_a3ou		2011-08-19	LOVEMARK	1.0	taglove
 sbs_boss	queen_hyun1	POST	pym1bdm-_a3ou		2011-08-19	POSITIVE	1.0	좋다
 sbs_boss	beast_seop	POST	pym1c_i-5v75a		2011-08-20	PRESENT	1.0	지금
+sbs_boss	beast_seop	POST	pym1c_i-5v75a		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_boss	beast_seop	POST	pym1c_i-5v75a		2011-08-20	CRYMARK	1.0	tagcry
 sbs_boss	beast_seop	POST	pym1c_i-5v75a		2011-08-20	LOVEMARK	1.0	taglove
 sbs_boss	ekdnjs0130	POST	pym1ezc-_t_73		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	ekdnjs0130	POST	pym1ezc-_t_73		2011-08-19	CRYMARK	1.0	tagcry
+sbs_boss	aromasu	POST	pym1jwy-_oob8		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_boss	aromasu	POST	pym1jwy-_oob8		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	aromasu	POST	pym1jwy-_oob8		2011-08-20	LOVEMARK	1.0	taglove
 sbs_boss	aromasu	POST	pym1jwy-_oob8		2011-08-20	SEE	1.0	보다
 sbs_boss	an72536	POST	pym1k4o-5ym0s		2011-08-19	HEAR	1.0	듣다
 sbs_boss	me2times	POST	pym1m8a-_1abw		2011-08-20	LOVEMARK	1.0	taglove
+sbs_boss	sangjun_me2	POST	pym1moh-yitej		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_boss	sangjun_me2	POST	pym1moh-yitej		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	sangjun_me2	POST	pym1moh-yitej		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_boss	janerose1	POST	pym1s96-_k6u3		2011-08-20	SMILEMARK	1.0	tagsmile
@@ -175,6 +195,7 @@ sbs_boss	sanjoa98	POST	pym32iz-ykpku		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	sanjoa98	POST	pym32iz-ykpku		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	sanjoa98	POST	pym32iz-ykpku		2011-08-18	CRYMARK	1.0	tagcry
 sbs_boss	sanjoa98	POST	pym32iz-ykpku		2011-08-18	SEE	1.0	보다
+sbs_boss	larcobaleno	POST	pym32j7-5gks9		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_boss	beteboom	POST	pym32vq-yubx9		2011-08-18	PRESENT	1.0	지금
 sbs_boss	beteboom	POST	pym32vq-yubx9		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	yoobin820	POST	pym32ym-l8j5		2011-08-18	PAST	1.0	어제
@@ -192,7 +213,9 @@ sbs_boss	whthffk45	POST	pym36ml-_gp53		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_boss	snfl0877	POST	pym37br-59roc		2011-08-18	PRESENT	1.0	오늘
 sbs_boss	gprud717	POST	pym37gh-yi75u		2011-08-18	PRESENT	1.0	요즘
 sbs_boss	gprud717	POST	pym37gh-yi75u		2011-08-18	QUANTIFIER	1.0	너무
+sbs_boss	gprud717	POST	pym37gh-yi75u		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	gprud717	POST	pym37gh-yi75u		2011-08-18	EXCLAMMARK	1.0	tagexclamation
+sbs_boss	gprud717	POST	pym37gh-yi75u		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	jisiklog	POST	pym37pp-_rcxy		2011-08-18	LOVEMARK	1.0	taglove
 sbs_boss	eun-hye1004	POST	pym37_y-qn4w		2011-08-18	PRESENT	1.0	이제
 sbs_boss	eun-hye1004	POST	pym37_y-qn4w		2011-08-18	CRYMARK	1.0	tagcry
@@ -204,8 +227,10 @@ sbs_boss	actorjisung	POST	pym3a02-yppk3		2011-08-20	ANGER	1.0	미치다
 sbs_boss	love_z13	POST	pym3a55-5ddo8		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	love_z13	POST	pym3a55-5ddo8		2011-08-18	CRYMARK	1.0	tagcry
 sbs_boss	lidvina9804	POST	pym3aym-44m2		2011-08-18	PAST	1.0	어제
+sbs_boss	lidvina9804	POST	pym3aym-44m2		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	lidvina9804	POST	pym3aym-44m2		2011-08-18	SMILEMARK	1.0	tagsmile
-sbs_boss	kmss3345	POST	pym3c8z-y7yb7		2011-08-18	POSITIVE	1.0	좋아
+sbs_boss	kmss3345	POST	pym3c8z-y7yb7		2011-08-18	QUESTIONMARK	1.0	tagquestion
+sbs_boss	kmss3345	POST	pym3c8z-y7yb7		2011-08-18	POSITIVE	1.0	좋다
 sbs_boss	tvxq12265555	POST	pym3cu2-_g_yo		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	ml1238	POST	pym3eax-5jd7a		2011-08-18	PRESENT	1.0	지금
 sbs_boss	ml1238	POST	pym3eax-5jd7a		2011-08-18	EXCLAMMARK	1.0	tagexclamation
@@ -223,23 +248,28 @@ sbs_boss	dasoni_	POST	pym3hf9-2gwt		2011-08-18	PRESENT	1.0	요즘
 sbs_boss	dasoni_	POST	pym3hf9-2gwt		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	hjk1762	POST	pym3hih-_0obc		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	hsu1125	POST	pym3k36-yxxfm		2011-08-18	PRESENT	1.0	요즘
+sbs_boss	hsu1125	POST	pym3k36-yxxfm		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	hsu1125	POST	pym3k36-yxxfm		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	hsu1125	POST	pym3k36-yxxfm		2011-08-18	SMILEMARK	2.0	크 tagsmile
 sbs_boss	hsu1125	POST	pym3k36-yxxfm		2011-08-18	LOVEMARK	1.0	taglove
 sbs_boss	hsu1125	POST	pym3k36-yxxfm		2011-08-18	POSITIVE	1.0	좋다
 sbs_boss	actorjisung	POST	pym3k_o-_o1ug		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_boss	gkvna5907	POST	pym3l6z-ykt6l		2011-08-18	PRESENT	1.0	오늘
+sbs_boss	gkvna5907	POST	pym3l6z-ykt6l		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	gkvna5907	POST	pym3l6z-ykt6l		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	gkvna5907	POST	pym3l6z-ykt6l		2011-08-18	SMILEMARK	1.0	tagsmile
+sbs_boss	jisiklog	POST	pym3lpg-_rcxy		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	loveljh89	POST	pym3mv_-ydtm5		2011-08-18	PRESENT	1.0	오늘
 sbs_boss	loveljh89	POST	pym3mv_-ydtm5		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	kakugo	POST	pym3n1q-33uc		2011-08-18	PRESENT	1.0	오늘
+sbs_boss	kakugo	POST	pym3n1q-33uc		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	kakugo	POST	pym3n1q-33uc		2011-08-18	CRYMARK	1.0	tagcry
 sbs_boss	tros1415	POST	pym3nos-cgql		2011-08-18	PRESENT	1.0	현재
 sbs_boss	tros1415	POST	pym3nos-cgql		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	tros1415	POST	pym3nos-cgql		2011-08-18	POSITIVE	1.0	기쁘다
 sbs_boss	tros1415	POST	pym3nos-cgql		2011-08-18	SEE	1.0	보다
 sbs_boss	tvxq12265555	POST	pym3oyb-_g_yo		2011-08-18	PAST	1.0	어제
+sbs_boss	tvxq12265555	POST	pym3oyb-_g_yo		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	tvxq12265555	POST	pym3oyb-_g_yo		2011-08-18	CRYMARK	1.0	tagcry
 sbs_boss	choolee99	POST	pym3sfn-txev		2011-08-20	SMILEMARK	1.0	크
 sbs_boss	choolee99	POST	pym3sfn-txev		2011-08-20	POSITIVE	1.0	좋아
@@ -255,6 +285,7 @@ sbs_boss	nanar123	POST	pym3v2q-ycxhg		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_boss	nanar123	POST	pym3v2q-ycxhg		2011-08-20	CRYMARK	1.0	tagcry
 sbs_boss	nanar123	POST	pym3v2q-ycxhg		2011-08-20	POSITIVE	1.0	사랑하
 sbs_boss	alice0181	POST	pym3vc9-9xn1		2011-08-18	PRESENT	1.0	오늘
+sbs_boss	soomin0563	POST	pym3vcm-ifcl		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_boss	frompic	POST	pym3vh9-_d1bz		2011-08-20	QUANTIFIER	1.0	너무
 sbs_boss	nine_member	POST	pym3vza-y_b2t		2011-08-20	HEAR	1.0	듣다
 sbs_boss	dlsdl01	POST	pym3w4h-yidvn		2011-08-18	EXCLAMMARK	1.0	tagexclamation
@@ -291,6 +322,7 @@ sbs_boss	dhvh0402	POST	pym3xxr-5u2gr		2011-08-18	LOVEMARK	1.0	taglove
 sbs_boss	dhvh0402	POST	pym3xxr-5u2gr		2011-08-18	POSITIVE	2.0	좋아 사랑하
 sbs_boss	dhvh0402	POST	pym3xxr-5u2gr		2011-08-18	SADNESS	1.0	불쌍
 sbs_boss	november_	POST	pym3y5c-yy8hc		2011-08-18	EXCLAMMARK	1.0	tagexclamation
+sbs_boss	dbslkim5683	POST	pym3ycd-_rifj		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	dbslkim5683	POST	pym3ycd-_rifj		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	dbslkim5683	POST	pym3ycd-_rifj		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	dbslkim5683	POST	pym3ycd-_rifj		2011-08-18	POSITIVE	2.0	좋다 부럽다
@@ -303,9 +335,11 @@ sbs_boss	dudtlf56	POST	pym3zzd-yvk07		2011-08-18	LOVEMARK	1.0	taglove
 sbs_boss	charming9047	POST	pym3_kt-_pm4m		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	bww111	POST	pym51i5-5prwx		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	bww111	POST	pym51i5-5prwx		2011-08-19	SMILEMARK	1.0	tagsmile
+sbs_boss	yearin815	POST	pym522b-_b67c		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	dodo984	POST	pym52a_-eorc		2011-08-19	SEE	1.0	보다
 sbs_boss	actorjisung	POST	pym52p3-_a_mz		2011-08-19	SEE	1.0	보다
 sbs_boss	gpwjd1640	POST	pym54qq-wzez		2011-08-19	PRESENT	1.0	이제
+sbs_boss	gpwjd1640	POST	pym54qq-wzez		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	gpwjd1640	POST	pym54qq-wzez		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	cjswodkdl5	POST	pym55mm-yc7fl		2011-08-18	PRESENT	1.0	요즘
 sbs_boss	cjswodkdl5	POST	pym55mm-yc7fl		2011-08-18	EXCLAMMARK	1.0	tagexclamation
@@ -323,9 +357,14 @@ sbs_boss	yoojinlove2	POST	pym5cfx-6ghl		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	yoojinlove2	POST	pym5cfx-6ghl		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	yoojinlove2	POST	pym5cfx-6ghl		2011-08-19	POSITIVE	1.0	웃기다
 sbs_boss	wyoung_lee	POST	pym5cn6-91y5		2011-08-19	SMILEMARK	1.0	tagsmile
+sbs_boss	jesuskhk76	POST	pym5due-5frng		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	jesuskhk76	POST	pym5due-5frng		2011-08-19	LOVEMARK	1.0	taglove
 sbs_boss	bella828	POST	pym5fje-5hzfn		2011-08-19	PAST	1.0	어제
+sbs_boss	bella828	POST	pym5fje-5hzfn		2011-08-19	QUESTIONMARK	1.0	tagquestion
+sbs_boss	bella828	POST	pym5fje-5hzfn		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	bella828	POST	pym5fje-5hzfn		2011-08-19	POSITIVE	2.0	좋다 좋아
+sbs_boss	bella828	POST	pym5fje-5hzfn		2011-08-19	SEE	1.0	보다
+sbs_boss	goddnsrla	POST	pym5gac-02bm		2011-08-16	QUESTIONMARK	1.0	tagquestion
 sbs_boss	actorjisung	POST	pym5gve-yq4f2		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	actorjisung	POST	pym5gve-yq4f2		2011-08-19	CRYMARK	1.0	tagcry
 sbs_boss	sinhae1221	POST	pym5i0x-y9udm		2011-08-19	PAST	1.0	어제
@@ -345,17 +384,21 @@ sbs_boss	fc3013	POST	pym5m0g-yl4np		2011-08-19	SEE	1.0	보다
 sbs_boss	kbh8818	POST	pym5mqd-ye5xl		2011-08-19	CRYMARK	1.0	tagcry
 sbs_boss	actorjisung	POST	pym5neu-yhn6z		2011-08-19	PRESENT	1.0	오늘
 sbs_boss	actorjisung	POST	pym5neu-yhn6z		2011-08-19	EXCLAMMARK	1.0	tagexclamation
+sbs_boss	actorjisung	POST	pym5neu-yhn6z		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	actorjisung	POST	pym5neu-yhn6z		2011-08-19	POSITIVE	3.0	반가 즐겁다 웃다
 sbs_boss	okung99	POST	pym5nga-ptvs		2011-08-18	CRYMARK	1.0	tagcry
 sbs_boss	okung99	POST	pym5nga-ptvs		2011-08-18	SEE	1.0	보다
 sbs_boss	thfrosns	POST	pym5pcw-hn_e		2011-08-18	PAST	1.0	어제
 sbs_boss	thfrosns	POST	pym5pcw-hn_e		2011-08-18	SMILEMARK	1.0	tagsmile
+sbs_boss	carashj	POST	pym5pkc-1uch		2011-08-16	QUESTIONMARK	1.0	tagquestion
 sbs_boss	carashj	POST	pym5pkc-1uch		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	88cook88	POST	pym5syk-_i4dx		2011-08-19	LOVEMARK	1.0	taglove
 sbs_boss	rtnalg	POST	pym5u7k-e125		2011-08-18	PAST	1.0	어제
+sbs_boss	rtnalg	POST	pym5u7k-e125		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	rtnalg	POST	pym5u7k-e125		2011-08-18	CRYMARK	1.0	tagcry
 sbs_boss	rtnalg	POST	pym5u7k-e125		2011-08-18	SEE	1.0	보다
 sbs_boss	rtnalg	POST	pym5ugp-e125		2011-08-18	PRESENT	1.0	오늘
+sbs_boss	rtnalg	POST	pym5ugp-e125		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	rtnalg	POST	pym5ugp-e125		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	ameli	POST	pym5uqa-w2oh		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	ameli	POST	pym5uqa-w2oh		2011-08-19	SMILEMARK	1.0	크
@@ -367,12 +410,14 @@ sbs_boss	8onew8	POST	pym5wb1-y27id		2011-08-19	LOVEMARK	1.0	taglove
 sbs_boss	orangeboy114	POST	pym5wny-525cl		2011-08-19	PAST	1.0	어제
 sbs_boss	orangeboy114	POST	pym5wny-525cl		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	orangeboy114	POST	pym5wny-525cl		2011-08-19	POSITIVE	3.0	웃기다 웃다 좋다
+sbs_boss	0425ddd	POST	pym5xiz-5u3p7		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	0425ddd	POST	pym5xiz-5u3p7		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	star5549	POST	pym5xkj-yxv65		2011-08-18	PRESENT	1.0	요즘
 sbs_boss	star5549	POST	pym5xkj-yxv65		2011-08-18	QUANTIFIER	1.0	너무
 sbs_boss	star5549	POST	pym5xkj-yxv65		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	star5549	POST	pym5xkj-yxv65		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	save1226	POST	pym5xk_-5cyj9		2011-08-18	PAST	1.0	어제
+sbs_boss	save1226	POST	pym5xk_-5cyj9		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	save1226	POST	pym5xk_-5cyj9		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	save1226	POST	pym5xk_-5cyj9		2011-08-18	SMILEMARK	2.0	크 흐
 sbs_boss	save1226	POST	pym5xk_-5cyj9		2011-08-18	CRYMARK	1.0	tagcry
@@ -390,9 +435,12 @@ sbs_boss	yura_me2day	POST	pym60ac-_ogmw		2011-08-18	CRYMARK	1.0	tagcry
 sbs_boss	yura_me2day	POST	pym60ac-_ogmw		2011-08-18	POSITIVE	1.0	보고싶다
 sbs_boss	silverbean2	POST	pym613k-tk0x		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	junes26	POST	pym619p-yxvov		2011-08-19	SEE	1.0	보다
+sbs_boss	danawa	POST	pym620v-ycld		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_boss	danawa	POST	pym620v-ycld		2011-08-17	CRYMARK	1.0	tagcry
 sbs_boss	danawa	POST	pym620v-ycld		2011-08-17	SEE	1.0	보다
+sbs_boss	qsx319	POST	pym629o-x_h6		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	qsx319	POST	pym629o-x_h6		2011-08-19	SEE	1.0	보다
+sbs_boss	tkrhk12340	POST	pym62go-y8lqe		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_boss	u_hoo0818	POST	pym62jf-y9eyw		2011-08-17	CRYMARK	1.0	tagcry
 sbs_boss	u_hoo0818	POST	pym62jf-y9eyw		2011-08-17	LOVEMARK	1.0	taglove
 sbs_boss	jessie3969	POST	pym62vx-ypsk		2011-08-17	SMILEMARK	1.0	tagsmile
@@ -401,6 +449,7 @@ sbs_boss	gusdk9088	POST	pym63np-_q83m		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	hee990515	POST	pym64gp-5y99i		2011-08-19	PRESENT	1.0	이제
 sbs_boss	hee990515	POST	pym64gp-5y99i		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	hee990515	POST	pym64gp-5y99i		2011-08-19	CRYMARK	1.0	tagcry
+sbs_boss	hee990515	POST	pym64gp-5y99i		2011-08-19	SEE	1.0	보다
 sbs_boss	haejin1113	POST	pym662k-_621u		2011-08-20	PRESENT	1.0	이제
 sbs_boss	haejin1113	POST	pym662k-_621u		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	haejin1113	POST	pym662k-_621u		2011-08-20	SMILEMARK	1.0	tagsmile
@@ -409,6 +458,7 @@ sbs_boss	kimmh0613	POST	pym664n-3qb5		2011-08-19	PRESENT	1.0	지금
 sbs_boss	kimmh0613	POST	pym664n-3qb5		2011-08-19	QUANTIFIER	1.0	너무
 sbs_boss	kimmh0613	POST	pym664n-3qb5		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	kimmh0613	POST	pym664n-3qb5		2011-08-19	LOVEMARK	1.0	taglove
+sbs_boss	tnskhg23	POST	pym66j3-jmvq		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_boss	tnskhg23	POST	pym66j3-jmvq		2011-08-20	CRYMARK	1.0	tagcry
 sbs_boss	tnskhg23	POST	pym66j3-jmvq		2011-08-20	LOVEMARK	1.0	taglove
 sbs_boss	shinee-_-_-	POST	pym66nk-57kua		2011-08-17	PRESENT	1.0	오늘
@@ -424,6 +474,7 @@ sbs_boss	dyfltk322	POST	pym6a39-y1i78		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_boss	tndus3153	POST	pym6ab7-yv55w		2011-08-17	CRYMARK	1.0	tagcry
 sbs_boss	gaeui4414	POST	pym6ap8-yn253		2011-08-19	PAST	1.0	어제
 sbs_boss	wjsekqls9	POST	pym6aw0-rmut		2011-08-17	PRESENT	1.0	오늘
+sbs_boss	wjsekqls9	POST	pym6aw0-rmut		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_boss	wjsekqls9	POST	pym6aw0-rmut		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	wjsekqls9	POST	pym6aw0-rmut		2011-08-17	CRYMARK	1.0	tagcry
 sbs_boss	wjsekqls9	POST	pym6bar-rmut		2011-08-17	SMILEMARK	1.0	흐흐
@@ -439,6 +490,7 @@ sbs_boss	yjkoo0707	POST	pym6ctx-562uy		2011-08-19	SEE	1.0	보다
 sbs_boss	kwon9625	POST	pym6do5-5hr2		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	kwon9625	POST	pym6do5-5hr2		2011-08-18	CRYMARK	1.0	tagcry
 sbs_boss	kwon9625	POST	pym6do5-5hr2		2011-08-18	LOVEMARK	1.0	taglove
+sbs_boss	hyukbr	POST	pym6dya-_cals		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	skdud3377	POST	pym6exe-or0_		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	skdud3377	POST	pym6exe-or0_		2011-08-19	POSITIVE	1.0	좋다
 sbs_boss	jisu95942002	POST	pym6fdr-cn_j		2011-08-19	EXCLAMMARK	1.0	tagexclamation
@@ -446,6 +498,8 @@ sbs_boss	qkqhthek	POST	pym6g3k-y7px		2011-08-17	PRESENT	1.0	지금
 sbs_boss	qkqhthek	POST	pym6g3k-y7px		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_boss	bbwndusvip	POST	pym6goq-5ou33		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_boss	ekqhddl24	POST	pym6hhm-_gzht		2011-08-20	SMILEMARK	1.0	tagsmile
+sbs_boss	jisiklog	POST	pym6hr2-_rcxy		2011-08-17	QUESTIONMARK	1.0	tagquestion
+sbs_boss	minse154	POST	pym6hug-l2v2		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	minse154	POST	pym6hug-l2v2		2011-08-19	SEE	1.0	보다
 sbs_boss	sereena	POST	pym6ibp-_k5wd		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	sereena	POST	pym6ibp-_k5wd		2011-08-19	SEE	1.0	보다
@@ -474,9 +528,12 @@ sbs_boss	dbswodms99	POST	pym6nb6-y5hnd		2011-08-19	POSITIVE	1.0	사랑하
 sbs_boss	hjyrara	POST	pym6nt4-xp_z		2011-08-17	PRESENT	1.0	오늘
 sbs_boss	hjyrara	POST	pym6nt4-xp_z		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	hjyrara	POST	pym6nt4-xp_z		2011-08-17	LOVEMARK	1.0	taglove
+sbs_boss	triple0317	POST	pym6pj9-57oce		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_boss	triple0317	POST	pym6pj9-57oce		2011-08-20	SMILEMARK	1.0	tagsmile
+sbs_boss	wkwkwkdkwk1	POST	pym6q22-_8jbz		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_boss	wkwkwkdkwk1	POST	pym6q22-_8jbz		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	pogurenwer	POST	pym6s7w-5goq2		2011-08-17	SMILEMARK	1.0	tagsmile
+sbs_boss	thbeast	POST	pym6sz2-_1a8m		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_boss	thbeast	POST	pym6sz2-_1a8m		2011-08-20	CRYMARK	1.0	tagcry
 sbs_boss	come2587	POST	pym6tbq-_gq_i		2011-08-19	PRESENT	1.0	요즘
 sbs_boss	come2587	POST	pym6tbq-_gq_i		2011-08-19	SMILEMARK	1.0	tagsmile
@@ -484,20 +541,26 @@ sbs_boss	come2587	POST	pym6tbq-_gq_i		2011-08-19	LOVEMARK	1.0	taglove
 sbs_boss	nolee6154	POST	pym6upo-5uy3x		2011-08-17	FUTURE	1.0	내일
 sbs_boss	nolee6154	POST	pym6vji-5uy3x		2011-08-18	FUTURE	1.0	내일
 sbs_boss	saithfulness	POST	pym6vmv-5o3vd		2011-08-19	EXCLAMMARK	1.0	tagexclamation
+sbs_boss	heekoo415	POST	pym6vpo-549s4		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_boss	heekoo415	POST	pym6vpo-549s4		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	heekoo415	POST	pym6vpo-549s4		2011-08-17	SADNESS	1.0	슬프다
+sbs_boss	haero822	POST	pym6vq5-_fwa9		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_boss	yunyeseon	POST	pym6vsc-y3scb		2011-08-19	SEE	1.0	보다
+sbs_boss	phj798195	POST	pym6wi9-5tain		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_boss	o_rainbow_o	POST	pym6wn4-ye9h5		2011-08-19	FUTURE	1.0	다음주
 sbs_boss	o_rainbow_o	POST	pym6wn4-ye9h5		2011-08-19	QUANTIFIER	1.0	너무
 sbs_boss	o_rainbow_o	POST	pym6wn4-ye9h5		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	reua	POST	pym6x7n-yy5o8		2011-08-17	PRESENT	1.0	오늘
 sbs_boss	reua	POST	pym6x7n-yy5o8		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	reua	POST	pym6x7n-yy5o8		2011-08-17	LOVEMARK	1.0	taglove
+sbs_boss	hyeonah0411	POST	pym6x9b-_clt2		2011-08-19	SMILEMARK	1.0	tagsmile
+sbs_boss	hyukbr	POST	pym6yig-_cals		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	hyukbr	POST	pym6yig-_cals		2011-08-18	SMILEMARK	1.0	크
+sbs_boss	dbflrhdwn31	POST	pym6z2d-xqc4		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_boss	dbflrhdwn31	POST	pym6z2d-xqc4		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	dbflrhdwn31	POST	pym6z2d-xqc4		2011-08-17	SMILEMARK	1.0	흐
 sbs_boss	dbflrhdwn31	POST	pym6z2d-xqc4		2011-08-17	CRYMARK	1.0	tagcry
-sbs_boss	dbflrhdwn31	POST	pym6z2d-xqc4		2011-08-17	POSITIVE	1.0	부럽다
+sbs_boss	dbflrhdwn31	POST	pym6z2d-xqc4		2011-08-17	POSITIVE	2.0	부럽다 좋다
 sbs_boss	dbflrhdwn31	POST	pym6z2d-xqc4		2011-08-17	SEE	1.0	보다
 sbs_boss	vmfhaltm_90	POST	pym6z9h-yr5ez		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	vmfhaltm_90	POST	pym6z9h-yr5ez		2011-08-17	CRYMARK	1.0	tagcry
@@ -505,6 +568,7 @@ sbs_boss	eun-hye1004	POST	pym6zcs-qn4w		2011-08-17	SEE	1.0	보다
 sbs_boss	singleprime	POST	pym6zh3-57pmg		2011-08-20	SMILEMARK	1.0	크
 sbs_boss	hayan4627	POST	pym6zuf-r9ab		2011-08-17	PRESENT	1.0	오늘
 sbs_boss	hayan4627	POST	pym6zuf-r9ab		2011-08-17	FUTURE	1.0	내일
+sbs_boss	hayan4627	POST	pym6zuf-r9ab		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_boss	hayan4627	POST	pym6zuf-r9ab		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	hayan4627	POST	pym6zuf-r9ab		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_boss	hayan4627	POST	pym6zuf-r9ab		2011-08-17	POSITIVE	1.0	재미있
@@ -519,6 +583,7 @@ sbs_boss	lptnwls98	POST	pym91jx-yzfac		2011-08-20	CRYMARK	1.0	tagcry
 sbs_boss	lptnwls98	POST	pym91jx-yzfac		2011-08-20	LOVEMARK	1.0	taglove
 sbs_boss	4562267	POST	pym91xq-_ab8n		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_boss	klioo0011	POST	pym937p-yudt1		2011-08-20	PRESENT	1.0	오늘
+sbs_boss	klioo0011	POST	pym937p-yudt1		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_boss	klioo0011	POST	pym937p-yudt1		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_boss	klioo0011	POST	pym937p-yudt1		2011-08-20	CRYMARK	1.0	tagcry
 sbs_boss	shtamehj	POST	pym96dz-hl39		2011-08-20	PRESENT	1.0	요즘
@@ -531,6 +596,7 @@ sbs_boss	j_clematis	POST	pym9d3y-yf6p5		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	j_clematis	POST	pym9d3y-yf6p5		2011-08-20	CRYMARK	1.0	tagcry
 sbs_boss	redna0	POST	pym9fh9-_bvwm		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	redna0	POST	pym9fh9-_bvwm		2011-08-20	SMILEMARK	1.0	tagsmile
+sbs_boss	alvlalswl	POST	pym9j4o-yg6qn		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_boss	alvlalswl	POST	pym9j4o-yg6qn		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_boss	tjsdk1217	POST	pym9pl3-y7rdv		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	actorjisung	POST	pym9ux9-5jfz5		2011-08-20	QUESTIONMARK	1.0	tagquestion
@@ -540,6 +606,7 @@ sbs_boss	sbi04398	POST	pymb02k-1bqa		2011-08-19	PAST	1.0	어제
 sbs_boss	sbi04398	POST	pymb02k-1bqa		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	sbi04398	POST	pymb02k-1bqa		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	sbi04398	POST	pymb02k-1bqa		2011-08-19	CRYMARK	1.0	tagcry
+sbs_boss	tn1tn2	POST	pymb0lc-mtlf		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	tn1tn2	POST	pymb0lc-mtlf		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	tn1tn2	POST	pymb0lc-mtlf		2011-08-19	CRYMARK	1.0	tagcry
 sbs_boss	qufqlc1500	POST	pymb0o0-wkt9		2011-08-19	EXCLAMMARK	1.0	tagexclamation
@@ -585,6 +652,7 @@ sbs_boss	jjh5120	POST	pymbj2f-5t__h		2011-08-19	CRYMARK	1.0	tagcry
 sbs_boss	ts789	POST	pymbld7-y_tze		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	ts789	POST	pymbld7-y_tze		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	ts789	POST	pymbld7-y_tze		2011-08-19	CRYMARK	1.0	tagcry
+sbs_boss	jsgppower	POST	pymbnk8-bbbr		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_boss	jsgppower	POST	pymbnk8-bbbr		2011-08-20	SEE	1.0	보다
 sbs_boss	-3-ming	POST	pymbonz-z7df		2011-08-19	PRESENT	1.0	이제
 sbs_boss	-3-ming	POST	pymbonz-z7df		2011-08-19	EXCLAMMARK	1.0	tagexclamation
@@ -592,27 +660,32 @@ sbs_boss	-3-ming	POST	pymbonz-z7df		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	si676744	POST	pymbr88-5xp20		2011-08-19	SMILEMARK	1.0	크
 sbs_boss	si676744	POST	pymbrm0-5xp20		2011-08-19	SMILEMARK	1.0	크
 sbs_boss	dlrmatj123	POST	pymbsr1-5z_ch		2011-08-20	SMILEMARK	1.0	tagsmile
+sbs_boss	cho208610	POST	pymbw8e-_gdhg		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	cho208610	POST	pymbw8e-_gdhg		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	twinkleim	POST	pymbyaw-56ww4		2011-08-19	PRESENT	1.0	요즘
 sbs_boss	twinkleim	POST	pymbyaw-56ww4		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	twinkleim	POST	pymbyaw-56ww4		2011-08-19	POSITIVE	1.0	좋다
 sbs_boss	bara0922	POST	pymb_mo-4ydy		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	invu1657	POST	pymb_vo-yqid		2011-08-19	SMILEMARK	1.0	크
+sbs_boss	anminheart	POST	pymd067-yj3ey		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	anminheart	POST	pymd067-yj3ey		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	anminheart	POST	pymd067-yj3ey		2011-08-18	CRYMARK	1.0	tagcry
 sbs_boss	eachto	POST	pymd1kn-j4xv		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	actorjisung	POST	pymd7vw-5_x4_		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	actorjisung	POST	pymd7vw-5_x4_		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	skduddl7623	POST	pymdabq-yfdjs		2011-08-17	PRESENT	2.0	오늘 요즘
+sbs_boss	skduddl7623	POST	pymdabq-yfdjs		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_boss	skduddl7623	POST	pymdabq-yfdjs		2011-08-17	LOVEMARK	1.0	taglove
 sbs_boss	skduddl7623	POST	pymdabq-yfdjs		2011-08-17	SEE	1.0	보다
 sbs_boss	2pmjunsu115	POST	pymdaty-58nov		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	2pmjunsu115	POST	pymdaty-58nov		2011-08-18	SEE	1.0	보다
+sbs_boss	satoshihan	POST	pymdbz1-prra		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	satoshihan	POST	pymdbz1-prra		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	satoshihan	POST	pymdbz1-prra		2011-08-18	CRYMARK	1.0	tagcry
 sbs_boss	satoshihan	POST	pymdbz1-prra		2011-08-18	POSITIVE	2.0	좋아하다 좋다
 sbs_boss	jisu95942002	POST	pymdd0u-cn_j		2011-08-17	SMILEMARK	1.0	크
 sbs_boss	jisu95942002	POST	pymddbn-cn_j		2011-08-17	EXCLAMMARK	1.0	tagexclamation
+sbs_boss	sprtmw	POST	pymddwz-y_o9j		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_boss	teyo_o	POST	pymdfw6-5pb2g		2011-08-18	PAST	1.0	어제
 sbs_boss	eachto	POST	pymdgfn-j4xv		2011-08-18	PRESENT	1.0	지금
 sbs_boss	eachto	POST	pymdgfn-j4xv		2011-08-18	CRYMARK	1.0	tagcry
@@ -620,7 +693,10 @@ sbs_boss	gh1385	POST	pymdhjc-_y27o		2011-08-18	CRYMARK	1.0	tagcry
 sbs_boss	rla1015dms	POST	pymdia4-502qo		2011-08-17	PRESENT	1.0	오늘
 sbs_boss	rla1015dms	POST	pymdia4-502qo		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_boss	rla1015dms	POST	pymdia4-502qo		2011-08-17	CRYMARK	1.0	tagcry
+sbs_boss	jisu95942002	POST	pymdiuw-cn_j		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_boss	tmddk4643	POST	pymdk30-5ot75		2011-08-15	PRESENT	1.0	오늘
+sbs_boss	tmddk4643	POST	pymdk30-5ot75		2011-08-15	QUESTIONMARK	1.0	tagquestion
+sbs_boss	tmddk4643	POST	pymdk30-5ot75		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_boss	tmddk4643	POST	pymdk30-5ot75		2011-08-15	CRYMARK	1.0	tagcry
 sbs_boss	0403wn	POST	pymdmv2-yvhca		2011-08-18	PRESENT	1.0	오늘
 sbs_boss	0403wn	POST	pymdmv2-yvhca		2011-08-18	FUTURE	1.0	내일
@@ -639,9 +715,10 @@ sbs_boss	tvxq_5boys	POST	pymdt89-5uo9e		2011-08-18	PRESENT	1.0	오늘
 sbs_boss	tvxq_5boys	POST	pymdt89-5uo9e		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	tvxq_5boys	POST	pymdt89-5uo9e		2011-08-18	SEE	1.0	보다
 sbs_boss	tetris_han	POST	pymdwhj-yw3t5		2011-08-18	PRESENT	1.0	오늘
+sbs_boss	tetris_han	POST	pymdwhj-yw3t5		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	tetris_han	POST	pymdwhj-yw3t5		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	tetris_han	POST	pymdwhj-yw3t5		2011-08-18	LOVEMARK	1.0	taglove
-sbs_boss	tetris_han	POST	pymdwhj-yw3t5		2011-08-18	POSITIVE	1.0	좋아
+sbs_boss	tetris_han	POST	pymdwhj-yw3t5		2011-08-18	POSITIVE	2.0	좋아하다 좋아
 sbs_boss	tetris_han	POST	pymdwhj-yw3t5		2011-08-18	SADNESS	1.0	외롭다
 sbs_boss	macmonster3	POST	pymdw_k-yiayz		2011-08-17	PRESENT	2.0	이제 오늘
 sbs_boss	macmonster3	POST	pymdw_k-yiayz		2011-08-17	EXCLAMMARK	1.0	tagexclamation
@@ -660,17 +737,21 @@ sbs_boss	8onew8	POST	pymd_le-y27id		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	8onew8	POST	pymd_le-y27id		2011-08-18	POSITIVE	1.0	좋다
 sbs_boss	kk5326918	POST	pymd__2-igci		2011-08-18	LOVEMARK	1.0	taglove
 sbs_boss	qhals6568	POST	pyme04b-_gk7t		2011-08-19	PRESENT	1.0	이제
+sbs_boss	qhals6568	POST	pyme04b-_gk7t		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	qhals6568	POST	pyme04b-_gk7t		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	qhals6568	POST	pyme04b-_gk7t		2011-08-19	SEE	1.0	보다
 sbs_boss	boalo589	POST	pyme0aw-5oxwd		2011-08-18	CRYMARK	1.0	tagcry
 sbs_boss	tjdpdnjs00	POST	pyme0zn-zdd4		2011-08-19	EXCLAMMARK	1.0	tagexclamation
+sbs_boss	tjdpdnjs00	POST	pyme0_m-zdd4		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	hmj0454	POST	pyme19m-_20x		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	no-eul	POST	pyme39u-eo1x		2011-08-18	QUANTIFIER	1.0	너무
+sbs_boss	no-eul	POST	pyme39u-eo1x		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	no-eul	POST	pyme39u-eo1x		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	no-eul	POST	pyme39u-eo1x		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	no-eul	POST	pyme39u-eo1x		2011-08-18	CRYMARK	1.0	tagcry
 sbs_boss	aas5510	POST	pyme4x0-ysq85		2011-08-19	SMILEMARK	2.0	tagsmile 크
 sbs_boss	aas5510	POST	pyme4x0-ysq85		2011-08-19	POSITIVE	1.0	웃기다
+sbs_boss	dpfwh2000	POST	pyme5tb-_1dpu		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	tgs03552	POST	pyme641-pm34		2011-08-18	PRESENT	1.0	오늘
 sbs_boss	tgs03552	POST	pyme641-pm34		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	tgs03552	POST	pyme641-pm34		2011-08-18	CRYMARK	1.0	tagcry
@@ -681,11 +762,15 @@ sbs_boss	kda632	POST	pyme6sd-sdq7		2011-08-18	LOVEMARK	1.0	taglove
 sbs_boss	tnals2067	POST	pyme7vw-_ct1q		2011-08-19	QUANTIFIER	1.0	아주
 sbs_boss	tnals2067	POST	pyme7vw-_ct1q		2011-08-19	POSITIVE	1.0	웃기다
 sbs_boss	arm05082	POST	pyme81i-oz0d		2011-08-19	PAST	1.0	어제
-sbs_boss	arm05082	POST	pyme81i-oz0d		2011-08-19	PRESENT	1.0	지금
+sbs_boss	arm05082	POST	pyme81i-oz0d		2011-08-19	PRESENT	1.0	지금2
+sbs_boss	arm05082	POST	pyme81i-oz0d		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	arm05082	POST	pyme81i-oz0d		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	arm05082	POST	pyme81i-oz0d		2011-08-19	CRYMARK	1.0	tagcry
 sbs_boss	arm05082	POST	pyme81i-oz0d		2011-08-19	LOVEMARK	1.0	taglove
+sbs_boss	rmnrmn	POST	pyme9bb-_o085		2011-08-19	QUESTIONMARK	1.0	tagquestion
+sbs_boss	gywn828	POST	pyme9wc-piyc		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	gywn828	POST	pyme9wc-piyc		2011-08-19	SMILEMARK	1.0	tagsmile
+sbs_boss	gywn828	POST	pyme9wc-piyc		2011-08-19	SEE	1.0	보다
 sbs_boss	vicar0819	POST	pymeasr-_icrk		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	vicar0819	POST	pymeasr-_icrk		2011-08-19	CRYMARK	1.0	tagcry
 sbs_boss	vicar0819	POST	pymeasr-_icrk		2011-08-19	SEE	1.0	보다
@@ -709,6 +794,7 @@ sbs_boss	dlsdl01	POST	pymejzs-yidvn		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	dlsdl01	POST	pymejzs-yidvn		2011-08-19	LOVEMARK	1.0	taglove
 sbs_boss	beth99heo	POST	pymek8a-1xoh		2011-08-18	ANXIETY	1.0	걱정
 sbs_boss	beth99heo	POST	pymek8a-1xoh		2011-08-18	SEE	1.0	보다
+sbs_boss	dhkdwn1	POST	pymeksx-ffrt		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	dhkdwn1	POST	pymeksx-ffrt		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	wlstlsk1	POST	pymek_s-y5kf6		2011-08-18	PRESENT	2.0	요즘 오늘
 sbs_boss	wlstlsk1	POST	pymek_s-y5kf6		2011-08-18	LOVEMARK	1.0	taglove
@@ -716,8 +802,11 @@ sbs_boss	wlstlsk1	POST	pymek_s-y5kf6		2011-08-18	POSITIVE	1.0	멋지다
 sbs_boss	dhfmrhf2	POST	pymek_w-p22s		2011-08-18	QUANTIFIER	1.0	너무
 sbs_boss	dhfmrhf2	POST	pymek_w-p22s		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	dhfmrhf2	POST	pymek_w-p22s		2011-08-18	CRYMARK	1.0	tagcry
+sbs_boss	minju1004b	POST	pymelg1-stdr		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	minju1004b	POST	pymelg1-stdr		2011-08-19	EXCLAMMARK	1.0	tagexclamation
+sbs_boss	fraujoo99	POST	pymemz9-_81ij		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	mystery114	POST	pymen6u-0gqb		2011-08-19	FUTURE	1.0	다음주
+sbs_boss	mystery114	POST	pymen6u-0gqb		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	mystery114	POST	pymen6u-0gqb		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	mystery114	POST	pymen6u-0gqb		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	yukj2000	POST	pymenxl-y62bn		2011-08-19	SEE	1.0	보다
@@ -748,12 +837,14 @@ sbs_boss	actorjisung	POST	pymet4a-_8e_2		2011-08-19	SEE	1.0	보다
 sbs_boss	whgsi10	POST	pymet4o-j2k1		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	whgsi10	POST	pymet4o-j2k1		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	wnstlr65	POST	pymev2c-ybgsq		2011-08-19	HEAR	1.0	듣다
+sbs_boss	binicherry	POST	pymeviv-5htbm		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	binicherry	POST	pymeviv-5htbm		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	binicherry	POST	pymeviv-5htbm		2011-08-19	SEE	1.0	보다
 sbs_boss	actorjisung	POST	pymew8u-_a62k		2011-08-19	CRYMARK	1.0	tagcry
 sbs_boss	vhskadkdud	POST	pymexoe-f1c1		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	dbdla98	POST	pymey4o-_q6t7		2011-08-18	CONJUNCTION	1.0	하지만
 sbs_boss	dbdla98	POST	pymey4o-_q6t7		2011-08-18	QUANTIFIER	1.0	아주
+sbs_boss	dbdla98	POST	pymey4o-_q6t7		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	arm05082	POST	pymeydz-oz0d		2011-08-19	PAST	1.0	어제
 sbs_boss	arm05082	POST	pymeydz-oz0d		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	girlstar1	POST	pymeym8-_a_hc		2011-08-19	SMILEMARK	1.0	tagsmile
@@ -762,12 +853,14 @@ sbs_boss	rilakuma	POST	pymezcm-c8ai		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	rilakuma	POST	pymezcm-c8ai		2011-08-19	CRYMARK	1.0	tagcry
 sbs_boss	rilakuma	POST	pymezcm-c8ai		2011-08-19	POSITIVE	1.0	기쁘다
 sbs_boss	youka	POST	pymezks-5ymf		2011-08-19	PRESENT	1.0	이제
+sbs_boss	youka	POST	pymezks-5ymf		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	youka	POST	pymezks-5ymf		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	youka	POST	pymezks-5ymf		2011-08-19	CRYMARK	1.0	tagcry
 sbs_boss	youka	POST	pymezks-5ymf		2011-08-19	SEE	1.0	보다
 sbs_boss	yejin98love	POST	pyme_e7-_s7ta		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	actorjisung	POST	pyme_g2-5vpnf		2011-08-19	QUANTIFIER	1.0	너무
 sbs_boss	actorjisung	POST	pyme_g2-5vpnf		2011-08-19	EXCLAMMARK	1.0	tagexclamation
+sbs_boss	actorjisung	POST	pyme_g2-5vpnf		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	actorjisung	POST	pyme_hu-_cez2		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	sws6050	POST	pyme_yd-_tgmz		2011-08-18	PRESENT	1.0	지금
 sbs_boss	sws6050	POST	pyme_yd-_tgmz		2011-08-18	SMILEMARK	1.0	tagsmile
@@ -777,6 +870,7 @@ sbs_boss	goddoggod	POST	pymjduy-_k4i8		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_boss	uyj03	POST	pymj_9w-em7j		2011-08-20	PRESENT	1.0	오늘
 sbs_boss	uyj03	POST	pymj_9w-em7j		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	uyj03	POST	pymj_9w-em7j		2011-08-20	CRYMARK	1.0	tagcry
+sbs_boss	pinkshabet	POST	pymk00l-5895a		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_boss	pinkshabet	POST	pymk00l-5895a		2011-08-17	SMILEMARK	1.0	크
 sbs_boss	pinkshabet	POST	pymk00l-5895a		2011-08-17	LOVEMARK	1.0	taglove
 sbs_boss	pinkshabet	POST	pymk00l-5895a		2011-08-17	POSITIVE	1.0	사랑하
@@ -789,10 +883,13 @@ sbs_boss	dltngustptkd	POST	pymk66g-f5zu		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	aaz251-	POST	pymk6ho-_hyax		2011-08-19	SMILEMARK	1.0	크
 sbs_boss	aaz251-	POST	pymk6ho-_hyax		2011-08-19	LOVEMARK	1.0	taglove
 sbs_boss	aaz251-	POST	pymk6ho-_hyax		2011-08-19	POSITIVE	1.0	사랑하
+sbs_boss	pms3922	POST	pymk6wh-5ypm9		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	pms3922	POST	pymk6wh-5ypm9		2011-08-19	CRYMARK	1.0	tagcry
+sbs_boss	pms3922	POST	pymk6wh-5ypm9		2011-08-19	SEE	1.0	보다
 sbs_boss	nodark103	POST	pymk6_f-58bat		2011-08-19	PRESENT	1.0	이제
 sbs_boss	nodark103	POST	pymk6_f-58bat		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	nodark103	POST	pymk6_f-58bat		2011-08-19	CRYMARK	1.0	tagcry
+sbs_boss	ono0424	POST	pymk77d-m3cy		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	ono0424	POST	pymk77d-m3cy		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	ono0424	POST	pymk77d-m3cy		2011-08-19	CRYMARK	1.0	tagcry
 sbs_boss	ono0424	POST	pymk77d-m3cy		2011-08-19	LOVEMARK	1.0	taglove
@@ -823,6 +920,7 @@ sbs_boss	dltmdqud94	POST	pymkgna-5e9fn		2011-08-17	PRESENT	1.0	오늘
 sbs_boss	dltmdqud94	POST	pymkgna-5e9fn		2011-08-17	QUANTIFIER	1.0	조금
 sbs_boss	dltmdqud94	POST	pymkgna-5e9fn		2011-08-17	SMILEMARK	2.0	tagsmile 흐
 sbs_boss	ahj915	POST	pymkgqw-5dcyl		2011-08-18	PRESENT	2.0	요즘 오늘
+sbs_boss	ahj915	POST	pymkgqw-5dcyl		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	ahj915	POST	pymkgqw-5dcyl		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	ahj915	POST	pymkgqw-5dcyl		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	dlthwjd0302	POST	pymkhfy-_qb1s		2011-08-18	EXCLAMMARK	1.0	tagexclamation
@@ -838,9 +936,11 @@ sbs_boss	lodeur87	POST	pymkkam-sa1w		2011-08-17	POSITIVE	1.0	재미있
 sbs_boss	kohl1004	POST	pymkkrp-yoe9e		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	egoistyle	POST	pymkkxa-iu2p		2011-08-18	PAST	1.0	엊그제
 sbs_boss	egoistyle	POST	pymkkxa-iu2p		2011-08-18	FUTURE	1.0	내일
+sbs_boss	egoistyle	POST	pymkkxa-iu2p		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	hmx700	POST	pymklb6-z0r4		2011-08-19	PRESENT	1.0	요즘
 sbs_boss	hmx700	POST	pymklb6-z0r4		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	hmx700	POST	pymklb6-z0r4		2011-08-19	SEE	1.0	보다
+sbs_boss	her5119	POST	pymklc0-cqdr		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_boss	her5119	POST	pymklc0-cqdr		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_boss	her5119	POST	pymklc0-cqdr		2011-08-17	CRYMARK	1.0	tagcry
 sbs_boss	mary136	POST	pymkloo-5858f		2011-08-18	SMILEMARK	1.0	tagsmile
@@ -852,6 +952,7 @@ sbs_boss	junes26	POST	pymkmj2-yxvov		2011-08-19	SEE	1.0	보다
 sbs_boss	yun0430a	POST	pymkm_1-l33a		2011-08-18	SEE	1.0	보다
 sbs_boss	sprtmw	POST	pymkn0v-y_o9j		2011-08-18	PAST	1.0	어제
 sbs_boss	sprtmw	POST	pymkn0v-y_o9j		2011-08-18	QUANTIFIER	1.0	아주
+sbs_boss	sprtmw	POST	pymkn0v-y_o9j		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	sprtmw	POST	pymkn0v-y_o9j		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	sprtmw	POST	pymkn0v-y_o9j		2011-08-18	POSITIVE	1.0	웃기다
 sbs_boss	sprtmw	POST	pymkn0v-y_o9j		2011-08-18	SEE	1.0	보다
@@ -868,11 +969,14 @@ sbs_boss	o701	POST	pymkpzs-y80s9		2011-08-19	SMILEMARK	2.0	tagsmile 크
 sbs_boss	alice0181	POST	pymkq5e-9xn1		2011-08-17	CONJUNCTION	1.0	하지만
 sbs_boss	alice0181	POST	pymkq5e-9xn1		2011-08-17	SEE	1.0	보다
 sbs_boss	jinine4636	POST	pymkqax-m5vg		2011-08-17	SMILEMARK	1.0	tagsmile
+sbs_boss	dusrud57	POST	pymkqnj-lmyb		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_boss	phe122	POST	pymkrcq-_ci8m		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_boss	yuin4878	POST	pymkrip-_sv03		2011-08-19	CRYMARK	1.0	tagcry
 sbs_boss	actorjisung	POST	pymkrrc-y4ju9		2011-08-19	EXCLAMMARK	1.0	tagexclamation
+sbs_boss	actorjisung	POST	pymkrrc-y4ju9		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	gkwlsrnjs12	POST	pymksh1-ytik8		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_boss	918623	POST	pymksq7-_c4am		2011-08-19	POSITIVE	1.0	사랑하
+sbs_boss	alsgur8933	POST	pymksra-5s_02		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_boss	alsgur8933	POST	pymksra-5s_02		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	alsgur8933	POST	pymksra-5s_02		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_boss	alsgur8933	POST	pymksra-5s_02		2011-08-20	CRYMARK	1.0	tagcry
@@ -885,12 +989,14 @@ sbs_boss	dhvh0402	POST	pymku4x-5u2gr		2011-08-18	LOVEMARK	1.0	taglove
 sbs_boss	sts5139	POST	pymkv4r-csng		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	sts5139	POST	pymkv4r-csng		2011-08-17	CRYMARK	1.0	tagcry
 sbs_boss	rpduswn	POST	pymkv6k-__69g		2011-08-17	PRESENT	1.0	오늘
+sbs_boss	rpduswn	POST	pymkv6k-__69g		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_boss	rpduswn	POST	pymkv6k-__69g		2011-08-17	CRYMARK	1.0	tagcry
-sbs_boss	anna6371	POST	pymkvhl-ydzie		2011-08-19	POSITIVE	1.0	재미있
+sbs_boss	anna6371	POST	pymkvhl-ydzie		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	gkwlsrnjs12	POST	pymkvxk-ytik8		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_boss	jihae990412	POST	pymkw7l-5hvgq		2011-08-18	CRYMARK	1.0	tagcry
 sbs_boss	pang-gu	POST	pymkwjf-_si2f		2011-08-17	CRYMARK	1.0	tagcry
 sbs_boss	enter_6	POST	pymkxk_-57f04		2011-08-18	PRESENT	1.0	오늘
+sbs_boss	enter_6	POST	pymkxk_-57f04		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	enter_6	POST	pymkxk_-57f04		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	enter_6	POST	pymkxk_-57f04		2011-08-18	POSITIVE	1.0	행복
 sbs_boss	actorjisung	POST	pymkxlx-5xiyf		2011-08-19	POSITIVE	1.0	보고싶어
@@ -900,6 +1006,7 @@ sbs_boss	sexymania83	POST	pymky66-5zsv4		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	sexymania83	POST	pymky66-5zsv4		2011-08-18	CRYMARK	1.0	tagcry
 sbs_boss	duddnsl98	POST	pymkztp-_3lkx		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	duddnsl98	POST	pymkztp-_3lkx		2011-08-17	SMILEMARK	1.0	tagsmile
+sbs_boss	lodeur87	POST	pymk_2r-sa1w		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_boss	art831	POST	pymy0go-5rwdj		2011-08-18	PRESENT	1.0	요즘
 sbs_boss	art831	POST	pymy0go-5rwdj		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	art831	POST	pymy0go-5rwdj		2011-08-18	LOVEMARK	1.0	taglove
@@ -907,6 +1014,7 @@ sbs_boss	art831	POST	pymy0go-5rwdj		2011-08-18	POSITIVE	1.0	좋다
 sbs_boss	hiwon0632	POST	pymy1em-yig3c		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	thestar_kr	POST	pymy1n7-_f39l		2011-08-16	PRESENT	1.0	오늘
 sbs_boss	fnfnzktja	POST	pymy1sj-50a3h		2011-08-17	PRESENT	1.0	오늘
+sbs_boss	fnfnzktja	POST	pymy1sj-50a3h		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_boss	fnfnzktja	POST	pymy1sj-50a3h		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	fnfnzktja	POST	pymy1sj-50a3h		2011-08-17	CRYMARK	1.0	tagcry
 sbs_boss	fnfnzktja	POST	pymy1sj-50a3h		2011-08-17	SEE	1.0	보다
@@ -916,6 +1024,7 @@ sbs_boss	gahyun1107	POST	pymy32m-883r		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_boss	hi--	POST	pymy3v4-eg_c		2011-08-16	FUTURE	1.0	내일
 sbs_boss	hi--	POST	pymy3v4-eg_c		2011-08-16	LOVEMARK	1.0	taglove
 sbs_boss	wing4u	POST	pymy3w7-16s0		2011-08-15	PRESENT	1.0	요즘
+sbs_boss	wing4u	POST	pymy3w7-16s0		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_boss	wing4u	POST	pymy3w7-16s0		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_boss	wing4u	POST	pymy3w7-16s0		2011-08-15	SEE	1.0	보다
 sbs_boss	evan1123	POST	pymy5k9-5ibez		2011-08-18	EXCLAMMARK	1.0	tagexclamation
@@ -931,6 +1040,7 @@ sbs_boss	thd7289	POST	pymy6wc-yvbhe		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_boss	gilsun103	POST	pymy89q-5ozs3		2011-08-18	CRYMARK	1.0	tagcry
 sbs_boss	nka97	POST	pymy97n-_97rg		2011-08-17	PRESENT	1.0	오늘
 sbs_boss	nka97	POST	pymy97n-_97rg		2011-08-17	EXCLAMMARK	1.0	tagexclamation
+sbs_boss	aopp369	POST	pymyagf-9341		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	aopp369	POST	pymyagf-9341		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	aopp369	POST	pymyagf-9341		2011-08-18	POSITIVE	1.0	웃기다
 sbs_boss	akdmaeofh	POST	pymyajc-qi9i		2011-08-17	CRYMARK	1.0	tagcry
@@ -954,6 +1064,7 @@ sbs_boss	kjejkjej	POST	pymyc6_-ycbf8		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	kjejkjej	POST	pymyc6_-ycbf8		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_boss	kjejkjej	POST	pymyc6_-ycbf8		2011-08-17	ANGER	1.0	미치다
 sbs_boss	haerang_lee	POST	pymyczd-04an		2011-08-17	PRESENT	1.0	오늘
+sbs_boss	haerang_lee	POST	pymyczd-04an		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_boss	haerang_lee	POST	pymyczd-04an		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_boss	rkfaorl777	POST	pymydwd-b_js		2011-08-17	PRESENT	1.0	오늘
 sbs_boss	rkfaorl777	POST	pymydwd-b_js		2011-08-17	SMILEMARK	1.0	tagsmile
@@ -961,12 +1072,16 @@ sbs_boss	rkfaorl777	POST	pymydwd-b_js		2011-08-17	CRYMARK	1.0	tagcry
 sbs_boss	rkfaorl777	POST	pymydwd-b_js		2011-08-17	LOVEMARK	1.0	taglove
 sbs_boss	hayan4627	POST	pymyel3-r9ab		2011-08-16	FUTURE	1.0	내일
 sbs_boss	hayan4627	POST	pymyel3-r9ab		2011-08-16	QUANTIFIER	1.0	너무
+sbs_boss	hayan4627	POST	pymyel3-r9ab		2011-08-16	QUESTIONMARK	1.0	tagquestion
 sbs_boss	hayan4627	POST	pymyel3-r9ab		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	hayan4627	POST	pymyel3-r9ab		2011-08-16	LOVEMARK	1.0	taglove
+sbs_boss	good_bb	POST	pymyfda-_hfc9		2011-08-16	QUESTIONMARK	1.0	tagquestion
 sbs_boss	good_bb	POST	pymyfda-_hfc9		2011-08-16	SMILEMARK	1.0	tagsmile
+sbs_boss	good_bb	POST	pymyfda-_hfc9		2011-08-16	SEE	1.0	보다
 sbs_boss	ekzmvl	POST	pymyg9y-_fkfh		2011-08-17	PRESENT	1.0	지금
 sbs_boss	ekzmvl	POST	pymyg9y-_fkfh		2011-08-17	SMILEMARK	1.0	tagsmile
-sbs_boss	k54rose	POST	pymygop-ymoy_		2011-08-17	POSITIVE	1.0	웃겨
+sbs_boss	k54rose	POST	pymygop-ymoy_		2011-08-17	SMILEMARK	1.0	tagsmile
+sbs_boss	k54rose	POST	pymygop-ymoy_		2011-08-17	POSITIVE	1.0	웃기다
 sbs_boss	k54rose	POST	pymygop-ymoy_		2011-08-17	SEE	1.0	보다
 sbs_boss	ryuri0705	POST	pymyh89-z9id		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	ryuri0705	POST	pymyh89-z9id		2011-08-18	CRYMARK	1.0	tagcry
@@ -986,6 +1101,7 @@ sbs_boss	qus129	POST	pymykm7-_tw7d		2011-08-17	PRESENT	1.0	오늘
 sbs_boss	qus129	POST	pymykm7-_tw7d		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_boss	wusl0429	POST	pymylkv-5qxws		2011-08-18	LOVEMARK	1.0	taglove
 sbs_boss	ia07119	POST	pymymld-alrq		2011-08-18	PRESENT	1.0	요즘
+sbs_boss	ia07119	POST	pymymld-alrq		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	ia07119	POST	pymymld-alrq		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	ia07119	POST	pymymld-alrq		2011-08-18	SMILEMARK	1.0	크
 sbs_boss	ia07119	POST	pymymld-alrq		2011-08-18	POSITIVE	2.0	사랑하 좋다
@@ -1017,6 +1133,7 @@ sbs_boss	haejin9409	POST	pymyoff-5bhvy		2011-08-18	PRESENT	1.0	오늘
 sbs_boss	haejin9409	POST	pymyoff-5bhvy		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	haejin9409	POST	pymyoff-5bhvy		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	eachto	POST	pymyoiw-j4xv		2011-08-18	CRYMARK	1.0	tagcry
+sbs_boss	dlaqhfk7028	POST	pymyook-5v3ej		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	dlaqhfk7028	POST	pymyook-5v3ej		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	dlaqhfk7028	POST	pymyook-5v3ej		2011-08-18	POSITIVE	1.0	재미있
 sbs_boss	smileparty	POST	pymyosg-ra68		2011-08-17	LOVEMARK	1.0	taglove
@@ -1038,6 +1155,7 @@ sbs_boss	hello3245	POST	pymys0p-ubh1		2011-08-18	SEE	1.0	보다
 sbs_boss	eachto	POST	pymys7a-j4xv		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	baekzen	POST	pymysbw-_eys4		2011-08-16	PAST	1.0	어제
 sbs_boss	baekzen	POST	pymysbw-_eys4		2011-08-16	PRESENT	1.0	오늘
+sbs_boss	baekzen	POST	pymysbw-_eys4		2011-08-16	QUESTIONMARK	1.0	tagquestion
 sbs_boss	baekzen	POST	pymysbw-_eys4		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	baekzen	POST	pymysbw-_eys4		2011-08-16	POSITIVE	1.0	부럽다
 sbs_boss	baekzen	POST	pymysbw-_eys4		2011-08-16	NEGATIVE	1.0	후회
@@ -1064,6 +1182,7 @@ sbs_boss	mrki	POST	pymyvdm-nva2		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	mrki	POST	pymyvdm-nva2		2011-08-18	CRYMARK	1.0	tagcry
 sbs_boss	mrki	POST	pymyvdm-nva2		2011-08-18	LOVEMARK	1.0	taglove
 sbs_boss	honey031226	POST	pymyvla-_ttjk		2011-08-18	QUANTIFIER	1.0	너무
+sbs_boss	honey031226	POST	pymyvla-_ttjk		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	honey031226	POST	pymyvla-_ttjk		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	honey031226	POST	pymyvla-_ttjk		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	honey031226	POST	pymyvla-_ttjk		2011-08-18	CRYMARK	1.0	tagcry
@@ -1071,6 +1190,7 @@ sbs_boss	honey031226	POST	pymyvla-_ttjk		2011-08-18	LOVEMARK	1.0	taglove
 sbs_boss	jwmina	POST	pymyvml-y5z0s		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	jwmina	POST	pymyvml-y5z0s		2011-08-18	CRYMARK	1.0	tagcry
 sbs_boss	wlsdl4721	POST	pymyvn6-5xe30		2011-08-18	SWEAR	1.0	존나
+sbs_boss	wlsdl4721	POST	pymyvn6-5xe30		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	wlsdl4721	POST	pymyvn6-5xe30		2011-08-18	POSITIVE	1.0	좋아하다
 sbs_boss	wlsdl4721	POST	pymyvn6-5xe30		2011-08-18	SEE	1.0	보다
 sbs_boss	hawy60	POST	pymyvrb-_sl8z		2011-08-18	SMILEMARK	1.0	tagsmile
@@ -1117,19 +1237,23 @@ sbs_boss	juliepeter	POST	pym_2jb-yq5v5		2011-08-18	SEE	1.0	보다
 sbs_boss	qwe8865	POST	pym_2ux-5lfa		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	qwe8865	POST	pym_2ux-5lfa		2011-08-18	POSITIVE	1.0	좋다
 sbs_boss	ororagongju0	POST	pym_4w2-_e3u2		2011-08-19	PAST	1.0	어제
+sbs_boss	ororagongju0	POST	pym_4w2-_e3u2		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	ororagongju0	POST	pym_4w2-_e3u2		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	kimhoojin	POST	pym_4xe-y34hl		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	silver7910	POST	pym_5ny-gnep		2011-08-18	POSITIVE	1.0	좋다
 sbs_boss	woni1293	POST	pym_68t-ggdr		2011-08-18	CRYMARK	1.0	tagcry
 sbs_boss	woni1293	POST	pym_68t-ggdr		2011-08-18	POSITIVE	1.0	좋아
 sbs_boss	woni1293	POST	pym_68t-ggdr		2011-08-18	SEE	1.0	보다
+sbs_boss	2whdmswl	POST	pym_6jk-yjw81		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	cjstkalsdn55	POST	pym_6y7-ycsa5		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	cjstkalsdn55	POST	pym_6y7-ycsa5		2011-08-19	POSITIVE	1.0	좋다
+sbs_boss	o-oghf	POST	pym_76u-5d127		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	o-oghf	POST	pym_76u-5d127		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	o-oghf	POST	pym_76u-5d127		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	o-oghf	POST	pym_76u-5d127		2011-08-18	CRYMARK	1.0	tagcry
 sbs_boss	djg1218	POST	pym_7be-yhhdv		2011-08-17	PRESENT	1.0	오늘
 sbs_boss	kizrosa	POST	pym_7f9-5k_sl		2011-08-18	SMILEMARK	1.0	tagsmile
+sbs_boss	hippy2119	POST	pym_7uh-t5hu		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	hippy2119	POST	pym_7uh-t5hu		2011-08-18	SEE	1.0	보다
 sbs_boss	jyj2366	POST	pym_85b-5dyy1		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	jyj2366	POST	pym_85b-5dyy1		2011-08-18	LOVEMARK	1.0	taglove
@@ -1153,13 +1277,17 @@ sbs_boss	amuruk2	POST	pym_cvu-_8og2		2011-08-18	PRESENT	1.0	오늘
 sbs_boss	amuruk2	POST	pym_cvu-_8og2		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	amuruk2	POST	pym_cvu-_8og2		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	tbrktbrk33	POST	pym_cy0-y_p4_		2011-08-17	PRESENT	1.0	오늘
+sbs_boss	tbrktbrk33	POST	pym_cy0-y_p4_		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_boss	ghd1511	POST	pym_d5i-sfko		2011-08-19	PRESENT	1.0	요즘
 sbs_boss	ghd1511	POST	pym_d5i-sfko		2011-08-19	SWEAR	1.0	존나
 sbs_boss	ghd1511	POST	pym_d5i-sfko		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	ghd1511	POST	pym_dk0-sfko		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	yoonboso	POST	pym_dp5-_hhd4		2011-08-19	SMILEMARK	1.0	tagsmile
+sbs_boss	snfl8322	POST	pym_fbs-95xe		2011-08-19	SMILEMARK	1.0	tagsmile
+sbs_boss	jeb6263	POST	pym_feh-5ql7a		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	jeb6263	POST	pym_feh-5ql7a		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	jeb6263	POST	pym_feh-5ql7a		2011-08-19	LOVEMARK	1.0	taglove
+sbs_boss	lovednlt	POST	pym_hqc-__ihx		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	actorjisung	POST	pym_i9y-_sxkb		2011-08-18	PRESENT	1.0	오늘
 sbs_boss	actorjisung	POST	pym_i9y-_sxkb		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	actorjisung	POST	pym_i9y-_sxkb		2011-08-18	SMILEMARK	1.0	tagsmile
@@ -1183,13 +1311,15 @@ sbs_boss	blueadung	POST	pym_mql-yxapx		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	blueadung	POST	pym_mql-yxapx		2011-08-16	SMILEMARK	1.0	tagsmile
 sbs_boss	rrkk7979	POST	pym_o0v-yycge		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	rrkk7979	POST	pym_o0v-yycge		2011-08-19	CRYMARK	1.0	tagcry
+sbs_boss	nolee6154	POST	pym_o3v-5uy3x		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_boss	nolee6154	POST	pym_o3v-5uy3x		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	actorjisung	POST	pym_ohf-_tqnj		2011-08-18	EXCLAMMARK	1.0	tagexclamation
+sbs_boss	actorjisung	POST	pym_ohf-_tqnj		2011-08-18	SMILEMARK	1.0	tagsmile
+sbs_boss	syj_1004_	POST	pym_pcx-5xglm		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	rhwjddnjs915	POST	pym_qtd-_izg9		2011-08-17	PRESENT	1.0	오늘
 sbs_boss	rhwjddnjs915	POST	pym_qtd-_izg9		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	v10bareun	POST	pym_r56-59l41		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	mople	POST	pym_rg8-ybyr8		2011-08-18	PRESENT	1.0	오늘
-sbs_boss	mople	POST	pym_rg8-ybyr8		2011-08-18	SEE	1.0	보다
 sbs_boss	jjuni36	POST	pym_s7v-5ixde		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	boyttolbi	POST	pym_sg9-_8nln		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	5526120	POST	pym_t0t-ywf55		2011-08-19	PRESENT	1.0	요즘
@@ -1199,6 +1329,7 @@ sbs_boss	nanar123	POST	pym_tsx-ycxhg		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	nanar123	POST	pym_tsx-ycxhg		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	nanar123	POST	pym_tsx-ycxhg		2011-08-18	CRYMARK	1.0	tagcry
 sbs_boss	mentleboy11	POST	pym_uol-ykwya		2011-08-18	EXCLAMMARK	1.0	tagexclamation
+sbs_boss	myoungslieb	POST	pym_uwd-pmvo		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	myoungslieb	POST	pym_uwd-pmvo		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	myoungslieb	POST	pym_uwd-pmvo		2011-08-18	POSITIVE	1.0	부럽다
 sbs_boss	myoungslieb	POST	pym_uwd-pmvo		2011-08-18	SEE	1.0	보다
@@ -1210,9 +1341,11 @@ sbs_boss	20022453	POST	pym_xar-zkx2		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	ungcmee94	POST	pym_xbg-yv3c9		2011-08-18	PRESENT	1.0	오늘
 sbs_boss	ungcmee94	POST	pym_xbg-yv3c9		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	tsi06039	POST	pym_xn7-o82p		2011-08-18	PRESENT	1.0	이제
+sbs_boss	tsi06039	POST	pym_xn7-o82p		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	goldyes	POST	pym_xt9-ysmua		2011-08-18	QUANTIFIER	1.0	조금
 sbs_boss	goldyes	POST	pym_xt9-ysmua		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	goldyes	POST	pym_xt9-ysmua		2011-08-18	SMILEMARK	1.0	tagsmile
+sbs_boss	minju624	POST	pym_xyo-yhvox		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	minju624	POST	pym_xyo-yhvox		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	minju624	POST	pym_xyo-yhvox		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	minju624	POST	pym_xyo-yhvox		2011-08-18	CRYMARK	1.0	tagcry
@@ -1251,19 +1384,22 @@ sbs_boss	_beast1016	POST	pym__xe-_qeoo		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	hbyang99	POST	pym__yp-5jl97		2011-08-16	PRESENT	2.0	요즘 지금
 sbs_boss	hbyang99	POST	pym__yp-5jl97		2011-08-16	SMILEMARK	1.0	tagsmile
 sbs_boss	hbyang99	POST	pym__yp-5jl97		2011-08-16	SEE	1.0	보다
-sbs_boss	dudtlf56	POST	pym__zu-yvk07		2011-08-17	CONJUNCTION	1.0	그리고
+sbs_boss	dudtlf56	POST	pym__zu-yvk07		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_boss	dudtlf56	POST	pym__zu-yvk07		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	dudtlf56	POST	pym__zu-yvk07		2011-08-17	LOVEMARK	1.0	taglove
+sbs_boss	kdu627	POST	pyo45rf-j8pc		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_boss	kdu627	POST	pyo45rf-j8pc		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_boss	o_rainbow_o	POST	pyo47zn-ye9h5		2011-08-15	PRESENT	1.0	요즘
 sbs_boss	o_rainbow_o	POST	pyo47zn-ye9h5		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	o_rainbow_o	POST	pyo47zn-ye9h5		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_boss	tnwlekd5	POST	pyo4stv-yxxis		2011-08-15	PRESENT	1.0	요즘
+sbs_boss	tnwlekd5	POST	pyo4stv-yxxis		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_boss	tnwlekd5	POST	pyo4stv-yxxis		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_boss	kekeke1204	POST	pyo4wjy-yg_c3		2011-08-16	FUTURE	1.0	내일
 sbs_boss	kekeke1204	POST	pyo4wjy-yg_c3		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	dlspekt	POST	pyo4y8n-_3j1b		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	yuminin	POST	pyo72r9-5olc5		2011-08-17	PRESENT	1.0	오늘
+sbs_boss	yuminin	POST	pyo72r9-5olc5		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_boss	yuminin	POST	pyo72r9-5olc5		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	yuminin	POST	pyo72r9-5olc5		2011-08-17	SEE	1.0	보다
 sbs_boss	bi825	POST	pyo72uj-tn56		2011-08-17	SMILEMARK	1.0	tagsmile
@@ -1271,16 +1407,19 @@ sbs_boss	bi825	POST	pyo72uj-tn56		2011-08-17	CRYMARK	1.0	tagcry
 sbs_boss	bi825	POST	pyo72uj-tn56		2011-08-17	LOVEMARK	1.0	taglove
 sbs_boss	bi825	POST	pyo72uj-tn56		2011-08-17	POSITIVE	1.0	웃음
 sbs_boss	hellozzgg	POST	pyo75r9-m10v		2011-08-17	PRESENT	1.0	요즘
+sbs_boss	hellozzgg	POST	pyo75r9-m10v		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_boss	hellozzgg	POST	pyo75r9-m10v		2011-08-17	CRYMARK	1.0	tagcry
-sbs_boss	hellozzgg	POST	pyo75r9-m10v		2011-08-17	POSITIVE	1.0	좋아
+sbs_boss	hellozzgg	POST	pyo75r9-m10v		2011-08-17	POSITIVE	1.0	좋다
 sbs_boss	ekgmlcoqlsck	POST	pyo79w4-bd5y		2011-08-17	PRESENT	1.0	오늘
 sbs_boss	ekgmlcoqlsck	POST	pyo79w4-bd5y		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	ekgmlcoqlsck	POST	pyo79w4-bd5y		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_boss	wkddb4222	POST	pyo7ami-1gm8		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_boss	wkddb4222	POST	pyo7ami-1gm8		2011-08-17	SEE	1.0	보다
 sbs_boss	rkdvo68	POST	pyo7ba2-1joj		2011-08-17	PRESENT	2.0	오늘 지금
+sbs_boss	rkdvo68	POST	pyo7ba2-1joj		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_boss	rkdvo68	POST	pyo7ba2-1joj		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	rkdvo68	POST	pyo7ba2-1joj		2011-08-17	SMILEMARK	1.0	tagsmile
+sbs_boss	rkdvo68	POST	pyo7ba2-1joj		2011-08-17	SEE	1.0	보다
 sbs_boss	tough0421	POST	pyo7biv-_ct_f		2011-08-17	SMILEMARK	2.0	크 tagsmile
 sbs_boss	creamcream	POST	pyo7dgp-ngfz		2011-08-17	PRESENT	2.0	오늘 지금
 sbs_boss	creamcream	POST	pyo7dgp-ngfz		2011-08-17	EXCLAMMARK	1.0	tagexclamation
@@ -1347,6 +1486,7 @@ sbs_boss	bigbang525	POST	pyo7rll-1j1c		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_boss	eachto	POST	pyo7rua-j4xv		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_boss	eachto	POST	pyo7rua-j4xv		2011-08-17	CRYMARK	1.0	tagcry
 sbs_boss	dktjs77	POST	pyo7t10-50h9		2011-08-17	EXCLAMMARK	1.0	tagexclamation
+sbs_boss	dktjs77	POST	pyo7t10-50h9		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_boss	ghd1511	POST	pyo7te2-sfko		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_boss	ghd1511	POST	pyo7te2-sfko		2011-08-17	SEE	1.0	보다
 sbs_boss	kkigirl	POST	pyo7tix-rb6p		2011-08-17	QUANTIFIER	1.0	많이
@@ -1368,6 +1508,8 @@ sbs_boss	98sonjh	POST	pyo7u9r-ycbds		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_boss	98sonjh	POST	pyo7u9r-ycbds		2011-08-17	NEGATIVE	1.0	부끄럽다
 sbs_boss	crithtin	POST	pyo7ud9-1ujp		2011-08-17	PRESENT	1.0	오늘
 sbs_boss	crithtin	POST	pyo7ud9-1ujp		2011-08-17	CRYMARK	1.0	tagcry
+sbs_boss	ippuny3	POST	pyo7uk8-2iw4		2011-08-17	QUESTIONMARK	1.0	tagquestion
+sbs_boss	ippuny3	POST	pyo7uk8-2iw4		2011-08-17	SEE	1.0	보다
 sbs_boss	limsm9682	POST	pyo7uvb-5dj3		2011-08-17	CRYMARK	1.0	tagcry
 sbs_boss	limsm9682	POST	pyo7uvb-5dj3		2011-08-17	LOVEMARK	1.0	taglove
 sbs_boss	in3824	POST	pyo7v3q-yq3mu		2011-08-17	FUTURE	1.0	내일
@@ -1375,6 +1517,7 @@ sbs_boss	in3824	POST	pyo7v3q-yq3mu		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	in3824	POST	pyo7v3q-yq3mu		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_boss	kkh7193	POST	pyo7vb_-y8tpp		2011-08-15	SEE	1.0	보다
 sbs_boss	dusgml101	POST	pyo7xho-52_m5		2011-08-18	PRESENT	1.0	오늘
+sbs_boss	dusgml101	POST	pyo7xho-52_m5		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	dusgml101	POST	pyo7xho-52_m5		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	smj-_-	POST	pyo7z2g-5cf07		2011-08-17	PRESENT	1.0	오늘
 sbs_boss	eachto	POST	pyo7z84-j4xv		2011-08-17	PRESENT	1.0	지금
@@ -1398,11 +1541,13 @@ sbs_boss	me2rang	POST	pyov4fu-41k		2011-08-16	SMILEMARK	2.0	흐 tagsmile
 sbs_boss	tvxq_5boys	POST	pyov9pl-5uo9e		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_boss	skdud3377	POST	pyovnx7-or0_		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_boss	11vickie	POST	pyox4nc-_q79y		2011-08-17	EXCLAMMARK	1.0	tagexclamation
+sbs_boss	11vickie	POST	pyox4nc-_q79y		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_boss	sw9760	POST	pyox5e0-_e4rr		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	dkstpfl426	POST	pyox7ag-_qg0t		2011-08-17	PRESENT	1.0	오늘
 sbs_boss	wonyj0111	POST	pyox978-fl91		2011-08-16	FUTURE	1.0	내일
 sbs_boss	wonyj0111	POST	pyox978-fl91		2011-08-16	EXCLAMMARK	1.0	tagexclamation
-sbs_boss	techerhan	POST	pyoxa96-y6lgy		2011-08-16	POSITIVE	1.0	좋아
+sbs_boss	techerhan	POST	pyoxa96-y6lgy		2011-08-16	SMILEMARK	1.0	tagsmile
+sbs_boss	techerhan	POST	pyoxa96-y6lgy		2011-08-16	POSITIVE	1.0	좋다
 sbs_boss	24_126	POST	pyoxizs-_h_8p		2011-08-17	SMILEMARK	1.0	흐
 sbs_boss	24_126	POST	pyoxizs-_h_8p		2011-08-17	POSITIVE	1.0	웃다
 sbs_boss	24_126	POST	pyoxizs-_h_8p		2011-08-17	SEE	1.0	보다
@@ -1422,6 +1567,7 @@ sbs_boss	tnskhg23	POST	pyoxyds-jmvq		2011-08-17	POSITIVE	1.0	좋아
 sbs_boss	tnskhg23	POST	pyoxyds-jmvq		2011-08-17	SADNESS	1.0	슬프다
 sbs_boss	kminhee97	POST	pyoxzua-532w		2011-08-16	PRESENT	1.0	오늘
 sbs_boss	kminhee97	POST	pyoxzua-532w		2011-08-16	EXCLAMMARK	1.0	tagexclamation
+sbs_boss	kminhee97	POST	pyoxzua-532w		2011-08-16	SMILEMARK	1.0	tagsmile
 sbs_boss	kminhee97	POST	pyoxzua-532w		2011-08-16	CRYMARK	1.0	tagcry
 sbs_boss	lucy105	COMMENT	pym0753-_j05i		2011-08-19	CRYMARK	1.0	tagcry
 sbs_boss	lucy105	COMMENT	pym0753-_j05i		2011-08-19	SEE	1.0	보다
@@ -1430,25 +1576,34 @@ sbs_boss	gpwls1997	COMMENT	pym0he6-1tz1		2011-08-19	CRYMARK	1.0	tagcry
 sbs_boss	gpwls1997	COMMENT	pym0he6-1tz1		2011-08-19	PAST	1.0	어제
 sbs_boss	gpwls1997	COMMENT	pym0he6-1tz1		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	gpwls1997	COMMENT	pym0he6-1tz1		2011-08-21	QUESTIONMARK	1.0	tagquestion
+sbs_boss	ghkdnjs	COMMENT	pym0he6-1tz1		2011-08-21	QUESTIONMARK	1.0	tagquestion
 sbs_boss	mage122	COMMENT	pym326o-_5y7f		2011-08-18	PAST	1.0	어제
 sbs_boss	mage122	COMMENT	pym326o-_5y7f		2011-08-18	SMILEMARK	1.0	tagsmile
+sbs_boss	nomoreday	COMMENT	pym326o-_5y7f		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	nomoreday	COMMENT	pym326o-_5y7f		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	nomoreday	COMMENT	pym326o-_5y7f		2011-08-18	SEE	1.0	보다
+sbs_boss	iceberg97	COMMENT	pym326o-_5y7f		2011-08-19	QUESTIONMARK	1.0	tagquestion
+sbs_boss	pet3120	COMMENT	pym32iz-ykpku		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_boss	sanjoa98	COMMENT	pym32iz-ykpku		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_boss	bluesj0512	COMMENT	pym346j-5lpua		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	boon098	COMMENT	pym346j-5lpua		2011-08-18	SMILEMARK	1.0	tagsmile
+sbs_boss	boon098	COMMENT	pym346j-5lpua		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	phjmc	COMMENT	pym346j-5lpua		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	egoistyle	COMMENT	pym3gge-iu2p		2011-08-18	POSITIVE	1.0	즐겁다
 sbs_boss	sungoon81	COMMENT	pym3gge-iu2p		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	sungoon81	COMMENT	pym3gge-iu2p		2011-08-18	CRYMARK	1.0	tagcry
 sbs_boss	sungoon81	COMMENT	pym3gge-iu2p		2011-08-18	HEAR	1.0	느끼다
 sbs_boss	egoistyle	COMMENT	pym3gge-iu2p		2011-08-18	CONJUNCTION	1.0	그런데
+sbs_boss	egoistyle	COMMENT	pym3gge-iu2p		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	egoistyle	COMMENT	pym3gge-iu2p		2011-08-18	ANGER	1.0	미치다
 sbs_boss	egoistyle	COMMENT	pym3gge-iu2p		2011-08-18	SEE	1.0	보다
 sbs_boss	flea7	COMMENT	pym3gge-iu2p		2011-08-18	SMILEMARK	1.0	tagsmile
+sbs_boss	ruby7980	COMMENT	pym3gge-iu2p		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	ruby7980	COMMENT	pym3gge-iu2p		2011-08-18	SMILEMARK	1.0	tagsmile
+sbs_boss	ruby7980	COMMENT	pym3gge-iu2p		2011-08-18	ANGER	1.0	미치다
 sbs_boss	sungoon81	COMMENT	pym3gge-iu2p		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	flea7	COMMENT	pym3gge-iu2p		2011-08-18	EXCLAMMARK	1.0	tagexclamation
+sbs_boss	sungoon81	COMMENT	pym3gge-iu2p		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	sungoon81	COMMENT	pym3gge-iu2p		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	egoistyle	COMMENT	pym3gge-iu2p		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	flea7	COMMENT	pym3gge-iu2p		2011-08-18	EXCLAMMARK	1.0	tagexclamation
@@ -1457,9 +1612,13 @@ sbs_boss	flea7	COMMENT	pym3gge-iu2p		2011-08-18	POSITIVE	1.0	좋아
 sbs_boss	jso_osj	COMMENT	pym3x1u-5ddo8		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	love_z13	COMMENT	pym3x1u-5ddo8		2011-08-22	QUANTIFIER	1.0	많이
 sbs_boss	love_z13	COMMENT	pym3x1u-5ddo8		2011-08-22	SMILEMARK	1.0	tagsmile
+sbs_boss	mjp0524	COMMENT	pym3x65-ylwg7		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_boss	mjp0524	COMMENT	pym3x65-ylwg7		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_boss	yoojinlove2	COMMENT	pym5cfx-6ghl		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_boss	lbj9159	COMMENT	pym5cfx-6ghl		2011-08-19	EXCLAMMARK	1.0	tagexclamation
+sbs_boss	lbj9159	COMMENT	pym5cfx-6ghl		2011-08-19	QUESTIONMARK	1.0	tagquestion
+sbs_boss	lbj9159	COMMENT	pym5cfx-6ghl		2011-08-19	SEE	1.0	보다
+sbs_boss	lbj9159	COMMENT	pym5cfx-6ghl		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	lbj9159	COMMENT	pym5cfx-6ghl		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	lbj9159	COMMENT	pym5cfx-6ghl		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	yoojinlove2	COMMENT	pym5cfx-6ghl		2011-08-19	SMILEMARK	1.0	tagsmile
@@ -1482,15 +1641,23 @@ sbs_boss	minse154	COMMENT	pym6hug-l2v2		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	minse154	COMMENT	pym6hug-l2v2		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	sindy86	COMMENT	pym96dz-hl39		2011-08-21	SMILEMARK	1.0	tagsmile
 sbs_boss	victory3812	COMMENT	pymbw8e-_gdhg		2011-08-19	SWEAR	1.0	존나
+sbs_boss	elfsubi	COMMENT	pymeoz_-ylolc		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	elfsubi	COMMENT	pymeoz_-ylolc		2011-08-19	NEGATIVE	1.0	싫다
+sbs_boss	true0418	COMMENT	pymeoz_-ylolc		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	whiteang04	COMMENT	pymeoz_-ylolc		2011-08-19	SMILEMARK	1.0	tagsmile
+sbs_boss	chh3105	COMMENT	pymk66g-f5zu		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_boss	chh3105	COMMENT	pymk66g-f5zu		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	chh3105	COMMENT	pymk66g-f5zu		2011-08-20	SMILEMARK	1.0	흐
 sbs_boss	chh3105	COMMENT	pymk66g-f5zu		2011-08-20	SADNESS	1.0	슬프다
 sbs_boss	dltngustptkd	COMMENT	pymk66g-f5zu		2011-08-19	SMILEMARK	1.0	tagsmile
+sbs_boss	kjy990217	COMMENT	pymk66g-f5zu		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	kjy990217	COMMENT	pymk66g-f5zu		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_boss	dltngustptkd	COMMENT	pymk66g-f5zu		2011-08-19	PRESENT	1.0	지금
+sbs_boss	dltngustptkd	COMMENT	pymk66g-f5zu		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	dltngustptkd	COMMENT	pymk66g-f5zu		2011-08-19	SMILEMARK	1.0	tagsmile
+sbs_boss	kjy990217	COMMENT	pymk66g-f5zu		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_boss	dltngustptkd	COMMENT	pymk66g-f5zu		2011-08-21	SMILEMARK	1.0	tagsmile
 sbs_boss	binbin70	COMMENT	pymyvba-pxai		2011-08-24	EXCLAMMARK	1.0	tagexclamation
 sbs_boss	120411066	COMMENT	pym_2cq-5bq5j		2011-08-26	SMILEMARK	1.0	tagsmile
+sbs_boss	alzl0515	COMMENT	pym_2cq-5bq5j		2011-08-27	QUESTIONMARK	1.0	tagquestion
+sbs_boss	doflquf12	COMMENT	pym_2jb-yq5v5		2011-08-19	QUESTIONMARK	1.0	tagquestion

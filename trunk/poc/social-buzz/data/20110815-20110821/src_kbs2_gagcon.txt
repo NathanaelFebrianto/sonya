@@ -1,50 +1,50 @@
 program_id	author_id	type	post_id	comment_id	publish_date	terms
-kbs2_gagcon	thepleroma	POST	pym02lx-59bua		2011-08-20	가이드 이상순 대표적 트릭스터 의 캐릭터이죠 사회 규범 자유로우면서 역 사회 가장 잘 자다 적응 존재 한마디 처세술 의 달인
+kbs2_gagcon	thepleroma	POST	pym02lx-59bua		2011-08-20	가이드2 이상순 2 대표적 트릭스터 의 캐릭터이죠 사회 규범 자유로우면서 역 사회 가장 잘 자다 적응 존재 한마디 처세술 의 달인
 kbs2_gagcon	joanna220	POST	pym02wk-_y2de		2011-08-20	마음 아프다 슬프다 드라마 별 좋아하다 않다 죽다 죽음 흘러가는듯 해 하다 별 맘 들다 않다 tagcry 극 익숙하다 하다 난 나다 날다 왜 외다 이렇게 비극 싫다 tagcry
-kbs2_gagcon	singergoni	POST	pym05q6-y5v32		2011-08-18	오늘저녁 시 아프리카방송 노래하는eiki 본방사수 tagexclamation 부탁 오늘 관우형님 넘나드 넘나드는 팔세토 팔세토의 달인 보실 있다 tagsmile
+kbs2_gagcon	singergoni	POST	pym05q6-y5v32		2011-08-18	오늘저녁9 시 아프리카방송 노래하는eiki 본방사수 tagexclamation 부탁 오늘 관우형님 넘나드 넘나드는 팔세토 팔세토의 달인 보실 있다 tagsmile
 kbs2_gagcon	jounj12345	POST	pym088s-ygy8l		2011-08-18	나 나다 혼자놀기달인되는듯 tagsmile
 kbs2_gagcon	jangyoonju	POST	pym093x-_tbs5		2011-08-18	개콘
-kbs2_gagcon	daita	POST	pym0a68-r738		2011-08-19	쌔거 tagexclamation hideki 무상교환 달인 불러주세 불러주세요
-kbs2_gagcon	maclaude	POST	pym0arl-56_		2011-08-19	불편 진실 다음 질문 보고 보다 보 가장 올바르다 대답 쓰다 점 오빠 tagexclamation 나 나다 이럴러 이럴러고 만나tagquestion 여자 도대체 왜 외다 남자 만나다 것일까요tagquestion
+kbs2_gagcon	daita	POST	pym0a68-r738		2011-08-19	쌔거 tagexclamation 2030 hideki 무상교환 달인 불러주세 불러주세요
+kbs2_gagcon	maclaude	POST	pym0arl-56_		2011-08-19	불편 진실 다음 질문 보고 보다 보 가장 올바르다 대답 쓰다 10점 1 오빠 tagexclamation 나 나다 이럴러 이럴러고 만나다 tagquestion 여자 도대체 왜 외다 남자 만나다 것 tagquestion
 kbs2_gagcon	all_my_bb	POST	pym0bc6-5c012		2011-08-19	앜 tagsmile 불편한진실
 kbs2_gagcon	forjin3	POST	pym0c2p-s9i9		2011-08-19	토돌이님 토돌이님이 신한카드 app 다운로드 이벤트 추천 달인 도전 신한카드
-kbs2_gagcon	flyingneko	POST	pym0c3o-a4u		2011-08-19	재미 아주 없다 그렇다 아주 재미 않다 서부 sf극 서부 첩보 활동 펼치다 오다 제임스 본드 금 대신 아들 찾다 가다 금 찾다 되다 되 인디아 인디아나 존스 존스의 만남 만나다 조금 엉뚱 가다 하다 납득할 납득할만한 수준 품위 지키다 블로그 감상문 tagexclamation me movie 카우보이 에이리언 영화 근엄한표정의다니엘크레이그와해리슨포드를보며킥킥 nekoblog 블로그
+kbs2_gagcon	flyingneko	POST	pym0c3o-a4u		2011-08-19	재미 아주 없다 그렇다 아주 재미 않다 서부 sf극 서부 첩보 활동 펼치다 오다 제임스 본드 금 대신 아들 찾다 가다 금 찾다 되다 되 인디아 인디아나 존스 존스의 만남 만나다 조금 엉뚱 가다 하다 납득할 납득할만한 수준 품위 지키다 블로그 감상문 tagexclamation 카우보이 에이리언 영화 근엄한표정의다니엘크레이그와해리슨포드를보며킥킥 nekoblog 블로그
 kbs2_gagcon	rpdlqj9	POST	pym0db9-yitrg		2011-08-18	밋쎄 밋쎄이 싸인 싸인의 달인 달이다 달 swf
-kbs2_gagcon	luciperz	POST	pym0f32-ovnz		2011-08-19	종이접기 달인 제 동생님 인터넷 올라와 올라와있는 도안 보고 보다 보 뚝딱뚝딱 만들어 다음 피카츄 피카츄를 원한다 지치다 도망가더군요tagsmile 종이접기 어디 해봤니tagquestion tagsmile
-kbs2_gagcon	darak1st	POST	pym0gay-5zm8a		2011-08-19	호 호 호 달인 달이다 달 완전 남자다잉
+kbs2_gagcon	luciperz	POST	pym0f32-ovnz		2011-08-19	종이접기 달인 제 동생님 인터넷 올라와 올라와있는 도안 보고 보다 보 뚝딱뚝딱 만들어 다음 피카츄 피카츄를 원한다 지치다 도망가다 tagsmile 종이접기 어디 해보다 tagquestion tagsmile
+kbs2_gagcon	darak1st	POST	pym0gay-5zm8a		2011-08-19	42호 43호 44호 달인 달이다 달 완전 남자다잉
 kbs2_gagcon	abcde2310	POST	pym0hts-yjqnc		2011-08-19	내 생각 불편한진실
 kbs2_gagcon	abcde2310	POST	pym0h_q-yjqnc		2011-08-19	내 생각 불편한진실
-kbs2_gagcon	love-1	POST	pym0iob-5kuih		2011-08-19	공주 남자 남다 박시후 독기 살기 살다 배신감 복수심 극 달 승유 승유의 선택은tagquestion 재경일보 뉴스스크랩
-kbs2_gagcon	ejh2770	POST	pym0juy-ypurd		2011-08-19	당신 당신은 토론진행자 a편 a편과 b편이 b편이있다 각편 각편은 하나 의견 극과극 극과극인 생각 가지고 a편 a편에 당신 당신이 가장아끼 친구들로구성되어 b편 b편은 오늘 초면인사람 토론 진행 b편 b편이 a편 a편을 맹렬 비판 심지어 매우극단적 말도서스럼없이 당신 당신의 가장친한친구 힘들어 힘들어한다 당신 당신은 이상황 친구들편 들지않을수있는가tagquestion 난확신을못 난확신을못하겠다
-kbs2_gagcon	palzzo	POST	pym0lb8-l1h4		2011-08-19	달인 주식 노가리 미 친 치다 척하다 한화케미칼 발한번담둬봤습니더 만원 밑 떨어질거 같지않다 금요일 오늘너무많 떨어지지않았 싶다 tagcry 주말동안 호재 바랄수밖에 바랄수밖에요 요새 장세 하도롤러코스트 같다 기술적반등 기대 tagsmile
+kbs2_gagcon	love-1	POST	pym0iob-5kuih		2011-08-19	공주 남자 남다 박시후 독기 살기 살다 배신감 복수심 극 달 승유 승유의 선택 tagquestion 재경일보 뉴스스크랩
+kbs2_gagcon	ejh2770	POST	pym0juy-ypurd		2011-08-19	당신 당신은 토론진행자 a편 a편과 b편이 b편이있다 각편 각편은 하나 의견 극과극 극과극인 생각 가지고 a편 a편에 당신 당신이 가장아끼 친구들로구성되어 b편 b편은 오늘 초면인사람 토론 진행 b편 b편이 a편 a편을 맹렬 비판 심지어 매우극단적 말도서스럼없이 당신 당신의 가장친한친구 힘들어 힘들어한다 당신 당신은 이상황 친구들편 들지않을수 tagquestion 난확신을못 난확신을못하겠다
+kbs2_gagcon	palzzo	POST	pym0lb8-l1h4		2011-08-19	달인 주식 노가리 6 미 친 치다 척하다 한화케미칼 발한번담둬봤습니더 3만원 밑 떨어질거 같지않다 금요일 오늘너무많 떨어지지않았 싶다 tagcry 주말동안 호재 바랄수밖에 바랄수밖에요 요새 장세 하도롤러코스트 같다 기술적반등 기대 tagsmile
 kbs2_gagcon	songinwoong	POST	pym0lzd-y1fij		2011-08-18	쇼 달인 달이다 달 정동영 정동영의 눈물퍼포먼스 뉴스타운 한진중공업청문회 정동영 눈물 퍼포먼스 정치쇼 쇼의달 쇼의달인
-kbs2_gagcon	dariag	POST	pym0m9z-y3lf3		2011-08-20	설렁설렁 싸우다 치다 치 빠지다 달인 잭 스패로우 스패로우가 언제 이렇게 화려 싸움실력 생겼을까tagquestion 시리즈 계속 되다 좋다 me movie 캐리비안 캐리비안의 해적 낯설다 조류
+kbs2_gagcon	dariag	POST	pym0m9z-y3lf3		2011-08-20	설렁설렁 싸우다 치다 치 빠지다 달인 잭 스패로우 스패로우가 언제 이렇게 화려 싸움실력 생기다 tagquestion 시리즈 계속 되다 좋다 캐리비안 캐리비안의 해적 4 낯설다 조류
 kbs2_gagcon	lovecat703	POST	pym0n5l-5t91w		2011-08-20	애경 스파크미 스파크미니 이벤트 세탁의달인 만나다
-kbs2_gagcon	crevs	POST	pym0onc-5os2b		2011-08-19	원문 박 일도 일 반 남도진미 tagexclamation 휴가철 피 피로 낙지 극 뽁 tagexclamation 낙지가게 이르다 이름 대박낙지네 tagsmile 웹
+kbs2_gagcon	crevs	POST	pym0onc-5os2b		2011-08-19	원문 1박2 일도 일 반 남도진미 tagexclamation 휴가철 피 피로 낙지 극 뽁 tagexclamation 낙지가게 이르다 이름 대박낙지네 tagsmile 웹
 kbs2_gagcon	kayo448	POST	pym0oq9-5ho4o		2011-08-18	오케이 tagexclamation 소개 최고가매입 업소용중고주방전문 업소냉장고 형통 하루되세 tagexclamation
 kbs2_gagcon	kayo448	POST	pym0otc-5ho4o		2011-08-18	오케이 tagexclamation 소개 최고가매입 업소용중고주방전문 업소냉장고 냉동고 에어컨 식기세척기 진공포장기 피자오븐기 커피머신 발효기 냉면기 반죽기 저장고 숙성고 제빙기 육절기 빙삭기 골절기 커피볶는기계 아이스크림기기 슬러시 햄슬라이서 작업대 진열장 쇼케이스 간택기 중화렌지 사리냉각
-kbs2_gagcon	ace_ruphy	POST	pym0p9f-y6hz1		2011-08-18	알아두면 좋다 생활의발견 tagsmile 처음아는사실이에 놀랍다 리핑포인트 참 차다 깨알 정보네 정보네요 기자님 수고하셨어요tagsmile
+kbs2_gagcon	ace_ruphy	POST	pym0p9f-y6hz1		2011-08-18	알아두면 좋다 생활의발견 tagsmile 처음아는사실이에 놀랍다 리핑포인트 참 차다 깨알 정보네 정보네요 기자님 수고 tagsmile
 kbs2_gagcon	guswjd8142	POST	pym0qg8-yv469		2011-08-19	성열 재연의달인이성열선생님
 kbs2_gagcon	yaong0203	POST	pym0qvt-ylsd7		2011-08-19	이번주 안 방학숙제 마무리 하다 tagcry 시간 없다 이건 핑계겟지흠 괜찬 괜찬아 난 나다 날다 벼락치기 달인 tagexclamation
-kbs2_gagcon	palzzo	POST	pym0qxy-l1h4		2011-08-19	달인 주식 노가리 지금 매수타이밍tagquestion제길 눈 보이는게 업다 신중 삼성전자 한화케미칼
+kbs2_gagcon	palzzo	POST	pym0qxy-l1h4		2011-08-19	달인 주식 노가리 5 지금 매수타이밍 tagquestion 제기다 눈 보이는게 업다 신중 삼성전자 한화케미칼
 kbs2_gagcon	a2540113	POST	pym0rf0-59a4k		2011-08-20	인피니트 개그콘서트 출현
 kbs2_gagcon	yamm_06	POST	pym0rso-bdvv		2011-08-19	손아섭 이민호설 tagsmile 청아 청 이제 이상 화보 안찍으면 되다 되 오빠므찌 어제 인터뷰 리얼 깨찰빵 깨찰빵같 쫀득하다 인터뷰 tagsmile 인터뷰 개콘마냥 웃다 또 처음 잘가세 잘가세요 잘
 kbs2_gagcon	a2540113	POST	pym0rtn-59a4k		2011-08-20	인피니트 개그콘서트 출현
-kbs2_gagcon	sunnys_scent	POST	pym0s3h-_s2ge		2011-08-19	김혜옥선생님은tagsmile정말 연기달인이신듯 모든면 최고맞고요맞습니다tagsmile나두 엄마 보고싶네 tagcry tagcry 불효녀 불효녀는 tagcry tagcry 울다 tagcry tagcry 여인의향기 수고 모든분 모든분께 taglove 박수을 ㅉㅉㅉ tagexclamation
+kbs2_gagcon	sunnys_scent	POST	pym0s3h-_s2ge		2011-08-19	김혜옥선생님 tagsmile 정말 연기달인이신듯 모든면 최고맞고요맞습니 tagsmile 나두 엄마 보고싶네 tagcry tagcry 불효녀 불효녀는 tagcry tagcry 울다 tagcry tagcry 여인의향기 수고 모든분 모든분께 taglove 박수을 ㅉㅉㅉ tagexclamation
 kbs2_gagcon	happyddol	POST	pym0s_f-5h9at		2011-08-18	달인 달이다 달 김병 김병만 무명시절 부모님 원망 불효 눈물
-kbs2_gagcon	se5281	POST	pym0t2u-5eu6c		2011-08-18	개그콘서트봐야징 새 새다 코너가있을까tagquestion 도키도키
-kbs2_gagcon	darak1st	POST	pym0t3p-5zm8a		2011-08-19	호 달인 달이다 달 겸 여성 호 달인 달이다 달
+kbs2_gagcon	se5281	POST	pym0t2u-5eu6c		2011-08-18	개그콘서트봐야징 새 새다 코너가 코너가있을까 tagquestion 도키도키
+kbs2_gagcon	darak1st	POST	pym0t3p-5zm8a		2011-08-19	41호 달인 달이다 달 겸 여성 10호 달인 달이다 달
 kbs2_gagcon	abcde2310	POST	pym0tii-yjqnc		2011-08-19	내 생각 불편한진실
-kbs2_gagcon	8712love	POST	pym0u2p-5_j5r		2011-08-19	피곤 날 나다 눈감고일 눈감고일하 눈감고일하는 달인 만들어버렸다 아 오늘 잠 오다 너무온다 tagcry 위하다 위하 참아야징 다들 맛점하셨쎄요tagquestion오늘은 다들 바쁜가보오tagquestion 아 저녁때 제사면 오늘 자다 자기 그르다 미친구 미친구함
+kbs2_gagcon	8712love	POST	pym0u2p-5_j5r		2011-08-19	피곤 날 나다 눈감고일 눈감고일하 눈감고일하는 달인 만들어버렸다 아 오늘 잠 오다 너무온다 tagcry 위하다 위하 참아야징 다들 맛점하셨쎄요 tagquestion 오늘 다들 바쁜가보오 tagquestion 아 저녁때 제사면 오늘 자다 자기 그르다 .2 030 미친구 미친구함
 kbs2_gagcon	rbcjf4253	POST	pym0wb8-5ij3o		2011-08-18	에피소드 mlb 모자 불편 진실 tagexclamation
 kbs2_gagcon	johncjswo	POST	pym0xy2-_cydq		2011-08-19	조금 있다 학원 가다 가 하다 불편 진실 tagsmile 개콘 좀 조다 따라해봤어 미안 tagsmile tagsmile
 kbs2_gagcon	greeni97	POST	pym0zlj-5g4a1		2011-08-20	여기 바 개콘촬영장 tagexclamation 학교 예전 견학온곳 tagsmile 이때 개그맨 김준호씨 김준호씨를 뵈다 감수성 무지 재밌어 재밌어요 tagsmile
-kbs2_gagcon	psb38	POST	pym11gv-uzu8		2011-08-19	헐 지금 슈스케 보다 예전 개콘 준교수 나오다 허미영씨 나오다 그때 내가정말 좋아하다 개그우먼 힘내다 tagexclamation 당신 당신을 응원 사람도있답니 tagsmile 허미영 화이팅 tagexclamation 울지마 울지마요 긍정 tagexclamation tagsmile
-kbs2_gagcon	kamsi1223	POST	pym132h-_85f6		2011-08-20	내 내다 미치다 명중 명 머릿수 머릿수라 불편한진실 아니다 자소좀 자소좀해 찐따 찐따야
-kbs2_gagcon	aroneforu	POST	pym142p-_tjvp		2011-08-20	tagexclamation    이 번역    이 사용
+kbs2_gagcon	psb38	POST	pym11gv-uzu8		2011-08-19	헐 지금 슈스케3 보다 예전 개콘 준교수 나오다 허미영씨 나오다 그때 내가정말 좋아하다 개그우먼 힘내다 tagexclamation 당신 당신을 응원 사람도있답니 tagsmile 허미영 화이팅 tagexclamation 울지마 울지마요 긍정 tagexclamation tagsmile
+kbs2_gagcon	kamsi1223	POST	pym132h-_85f6		2011-08-20	내 내다 미치다 320명중 300명 300명은 머릿수 머릿수라 불편한진실 아니다 자소좀 자소좀해 찐따 찐따야
+kbs2_gagcon	aroneforu	POST	pym142p-_tjvp		2011-08-20	tagexclamation 번역 사용
 kbs2_gagcon	aroneforu	POST	pym14ih-_tjvp		2011-08-20	관광통역안내사전문학원제주해경 중국어관광통역안내사회 업무협약
-kbs2_gagcon	yejinday	POST	pym15nj-5yumv		2011-08-19	오늘 시간동안 혼자놀기 진수 보여주다 부예진 달인 소개 tagexclamation
-kbs2_gagcon	palzzo	POST	pym17xq-l1h4		2011-08-20	달인 분데스리 분데스리가 노가리 아쉽다 예전 함부르크 함부르크가 아니다 패스전개도 패스전개 되지않을뿐더라 스트라이크 손흥민 손흥민에 대해 대하다 팀원 팀원들의 믿다 믿음 보이지않네요 아 리버풀승 리버풀승은 예상 예상했으 함부르크 함부르크의 이변 일어나다 않겟네요 후반전 손선수 손선수의 선전 바라다 역시 분데스리 분데스리가 재미 있다 시원 전개도 전개 빠루 빠루고 단지 달다 함부르크 올해 무엇 풀고가지않으면 이번시즌 어려워보 어려워보이네
+kbs2_gagcon	yejinday	POST	pym15nj-5yumv		2011-08-19	오늘 2시간동안 혼자놀기 진수 보여주다 부예진 달인 소개 tagexclamation
+kbs2_gagcon	palzzo	POST	pym17xq-l1h4		2011-08-20	달인 분데스리 분데스리가 노가리 1아쉽네 1아쉽네요 예전 함부르크 함부르크가 아니다 패스전개도 패스전개 되지않을뿐더라 스트라이크 손흥민 손흥민에 대해 대하다 팀원 팀원들의 믿다 믿음 보이지않네요 아 리버풀승 리버풀승은 예상 예상했으 함부르크 함부르크의 이변 일어나다 않겟네요 후반전 손선수 손선수의 선전 바라다 역시 분데스리 분데스리가 재미 있다 시원 전개도 전개 빠루 빠루고 단지 달다 함부르크 올해 무엇 풀고가지않으면 이번시즌 어려워보 어려워보이네
 kbs2_gagcon	hamifr	POST	pym18h0-ydb5m		2011-08-20	쿠키 굽장 홈베이킹 홈베이킹의 달인 달이다 달 tagexclamation 되고싶음 tagsmile
 kbs2_gagcon	city0080	POST	pym19sr-_8t1o		2011-08-19	허미영 돼지 개콘포기
 kbs2_gagcon	hdo0123	POST	pym19ua-_q3w4		2011-08-19	오늘의핫이슈 달인 달이다 달 김병 김병만 책 내다 내 tagexclamation
@@ -52,35 +52,35 @@ kbs2_gagcon	hblee9362	POST	pym1a3d-_ej62		2011-08-20	원문 용기 의인 의 �
 kbs2_gagcon	duswn2488	POST	pym1asm-_s8p7		2011-08-20	피겨 피겨의 가수달인 가수달
 kbs2_gagcon	gustoalbert	POST	pym1cbv-59fnh		2011-08-20	그땐 그랬지에 나오다 쫄쫄이들입니당 tagsmile
 kbs2_gagcon	nhy0312nhy	POST	pym1cje-_marw		2011-08-20	개콘 김원효 기자 기다 taglove 심진화 결혼 미미콩 이두사람 커플이었던거 아셨던분 tagsmile
-kbs2_gagcon	tkd2321	POST	pym1dm6-yussk		2011-08-19	오늘 영풍문고가서 달인 달이다 달 김병 김병만 꿈 있다 거북 거북이 지치다 않다 라 라는 책 구입 개그맨 되기전 되기전까지 사연 달인 달이다 달 멤버 증언 한켠으로 가슴 뭉클해지더군 의 단신 꿈 열정 감동
+kbs2_gagcon	tkd2321	POST	pym1dm6-yussk		2011-08-19	오늘 영풍문고가서 달인 달이다 달 김병 김병만 꿈 있다 거북 거북이 지치다 않다 라 라는 책 구입 개그맨 되기전 되기전까지 사연 달인 달이다 달 멤버 증언 한켠으로 가슴 뭉클해지더군 158.7 158.7의 단신 꿈 열정 감동
 kbs2_gagcon	dddol0914	POST	pym1dps-y37iy		2011-08-20	tagcry 불편 진실 잎흔 친구 사진 사다 올릴때 올릴때만 폭풍 댓글 댓글이 달리다 달리 불편한진실 tagexclamation
 kbs2_gagcon	liongod	POST	pym1fkc-skgj		2011-08-20	전격비교 체험 극과극
-kbs2_gagcon	offgame3	POST	pym1hjm-ap9c		2011-08-20	신의퀴즈 신의퀴즈 시즌 화 호다 마지막 성전 정하윤 vs 한진우 두얼굴 두얼굴의 달인 누구tagquestion
+kbs2_gagcon	offgame3	POST	pym1hjm-ap9c		2011-08-20	신의퀴즈2 신의퀴즈 시즌2 11화 마지막 성전1 정하윤 vs 한진우 두얼굴 두얼굴의 달인 tagquestion
 kbs2_gagcon	ryehd0505	POST	pym1k6l-_rlrg		2011-08-19	내 바 단답 단답의 달인 ㅇㅇ
-kbs2_gagcon	zzia99	POST	pym1q7a-_1cqn		2011-08-20	개콘 다시보기 보고있음tagsmile
+kbs2_gagcon	zzia99	POST	pym1q7a-_1cqn		2011-08-20	개콘 다시보기 보고 tagsmile
 kbs2_gagcon	000gkfl	POST	pym1qc0-46ab		2011-08-20	얼짱시대 보기 보다 전 개콘 재방 보지 보다 쩌업
-kbs2_gagcon	stylisthanul	POST	pym1u75-_w5s7		2011-08-20	오작교 최정윤 극 극 캐릭터tagquestion 알고보면 허당 이에 이에요
-kbs2_gagcon	spastar7	POST	pym1ui8-5x8tg		2011-08-20	무상급식 주민투표 박상원 무상급식 주민투표 박상원 인홍보 반응 극과극
+kbs2_gagcon	stylisthanul	POST	pym1u75-_w5s7		2011-08-20	오작교 최정윤 극 극 캐릭터 tagquestion 알고보면 허당 이에 이에요
+kbs2_gagcon	spastar7	POST	pym1ui8-5x8tg		2011-08-20	무상급식 주민투표 박상원 무상급식 주민투표 박상원 1인홍보 반응 극과극
 kbs2_gagcon	space-boy	POST	pym1vbu-ydogz		2011-08-20	내 내다 귓가 맴도 맴도는 노래 노랗다 tagexclamation 그땐 그랬지
 kbs2_gagcon	yoonja486	POST	pym1vhf-_hwjv		2011-08-20	개콘 개콘에 헬스걸 나오다 tagexclamation 나도 나다 나 이승윤한테 트레이닝받고싶어 tagcry tagcry
 kbs2_gagcon	kyy06030	POST	pym1vqj-rwi1		2011-08-20	야동볼려 야동볼려다 아빠주민등록번호 가입 아빠 우수회원 감사 감사 아빠 엄마한테 비밀로 비밀로하 비밀로하라 오만원 주다 감사 감사 엄마한테 말 십만원 십만원을 감사 감사 개콘 새프 새프로 tagsmile 딱 내스탈 tagsmile 서울메이트 극과극 극과극도 내 내다 스탈
-kbs2_gagcon	naver_news	POST	pym1wsa-bj_k		2011-08-20	생활 영덕서 그물 걸리다 청상아리 발견 수영객 주의보 news 뉴시스 제주도 제주도에 이어 영덕서 영덕서도 상어가tagquestion
-kbs2_gagcon	0102498	POST	pym1y4j-_gbzm		2011-08-20	성형알고하자 양악수술 예쁘다 한다tagquestion tagexclamation 건강 하다 양악수술 tagexclamation 지난주 개그콘서트 인기코너 감수성 에서 양악수술 훈 되다 개그맨 이동윤씨 자신 양악수술 소재 재미 주다 이번 이번엔 all about 성형 tagexclamation 양악수술 알아보았습니다tagsmile 그남자의파우치 뷰티파우더룸 양악수술정보
+kbs2_gagcon	naver_news	POST	pym1wsa-bj_k		2011-08-20	생활 영덕서 그물 걸리다 청상아리 발견 수영객 주의보 news 뉴시스 제주도 제주도에 이어 영덕서 영덕서도 상어 tagquestion
+kbs2_gagcon	0102498	POST	pym1y4j-_gbzm		2011-08-20	성형알고하자 양악수술 예쁘다 하다 tagquestion tagexclamation 건강 하다 양악수술 tagexclamation 지난주 개그콘서트 인기코너 감수성 에서 양악수술 훈 되다 개그맨 이동윤씨 자신 양악수술 소재 재미 주다 이번 이번엔 all about 성형 tagexclamation 양악수술 알아보다 tagsmile 그남자의파우치 뷰티파우더룸 양악수술정보
 kbs2_gagcon	hatbit29	POST	pym1yft-e9b_		2011-08-19	신보 루카꾸뛰르 여름코디 하늘하늘 쉬폰 맥시드레스 해변 여인 여 컨셉 연출 개그우먼 개콘 신보
 kbs2_gagcon	frappuccinoo	POST	pym1zrg-2kqa		2011-08-20	개콘 행복전도사 되다 느낌 느끼다 tagsmile 뱃지 뱃지의 웃다 웃음 가식적인듯 tagsmile 회사 뱃지
-kbs2_gagcon	meyujin	POST	pym1zx6-_tc78		2011-08-20	일요일 키스앤크라이tagquestion런닝맨 인기가요 tagexclamation 개그콘서트 tagexclamation 동물농장 tagexclamation 참많다 tagexclamation 다볼꺼 다볼꺼야
+kbs2_gagcon	meyujin	POST	pym1zx6-_tc78		2011-08-20	일요일 키스앤크라 tagquestion 런닝맨 인기가요 tagexclamation 개그콘서트 tagexclamation 동물농장 tagexclamation 참많다 tagexclamation 다볼꺼 다볼꺼야
 kbs2_gagcon	2ppune	POST	pym31l5-78hb		2011-08-20	꿈 있다 거북 거북이 지치다 않다 김병 김병만 달인정신 김병 김병만 에세이
-kbs2_gagcon	yna	POST	pym33u4-z1ou		2011-08-18	연예 달인 달이다 달 팀 월 일본서 정기 공연 kbs 개그콘서트 의 장수 코너 달인 달이다 달 출연진 김병 김병만 류담 노우진 월말 일본 도쿄 정기 공연 펼치다 개콘 의 그땐 그랬지 팀 함 하다 하다
-kbs2_gagcon	03310421	POST	pym38az-yu12u		2011-08-18	서비스강의 서비스달인 되다 되 조건은tagquestion
+kbs2_gagcon	yna	POST	pym33u4-z1ou		2011-08-18	연예 달인 달이다 달 팀 11월 일본서 정기 공연 kbs 개그콘서트 의 장수 코너 달인 달이다 달 출연진 김병 김병만 류담 노우진 11월말 일본 도쿄 정기 공연 펼치다 개콘 의 그땐 그랬지 팀 함 하다 하다
+kbs2_gagcon	03310421	POST	pym38az-yu12u		2011-08-18	서비스강의 서비스달인 되다 되 조건 tagquestion
 kbs2_gagcon	hajin2dda	POST	pym3a3d-56c7u		2011-08-18	오마이갓 공부 달인 손 안댔음 tagexclamation 아니 아 공통과제 하 하나 안하다 tagexclamation 오마이갓
-kbs2_gagcon	herrison79	POST	pym3aab-yszzl		2011-08-18	선구매 후삥 후삥의 달인 이르다 이름 거룩 우리 명여사 울엄마 께서 차 지르다 어느 뜨겁다 여름 년된 레간자 레간자의 에어컨 고장 이때 이때다 싶어 싶다 나한테 한마디 상의 없다 차 tagexclamation 덜컥 tagexclamation 지르다 tagexclamation 차 말 tagexclamation 그것 새차 tagexclamation 신삥 tagexclamation 신상 tagexclamation tagcry 그리다 다음날 다음 난 나다 날다 명여사님 명여사님으로 전화 받다 얼마보탤끼고tagquestion tagsmile ㄷㄷㄷㄷㄷㄷㄷㄷㄷ 이후 난 나다 날다 일째 명여사님 명여사님의 전화 피하다 피 피하 있다
+kbs2_gagcon	herrison79	POST	pym3aab-yszzl		2011-08-18	선구매 후삥 후삥의 달인 이르다 이름 거룩 우리 명여사 울엄마 께서 차 지르다 어느 뜨겁다 여름 12년 12년된 레간자 레간자의 에어컨 고장 이때 이때다 싶어 싶다 나한테 한마디 상의 없다 차 tagexclamation 덜컥 tagexclamation 지르다 tagexclamation 차 말 tagexclamation 그것 새차 tagexclamation 신삥 tagexclamation 신상 tagexclamation tagcry 그리다 다음날 다음 난 나다 날다 명여사님 명여사님으로 전화 받다 얼마보탤끼 tagquestion tagsmile ㄷㄷㄷㄷㄷㄷㄷㄷㄷ 이후 난 나다 날다 3일째 명여사님 명여사님의 전화 피하다 피 피하 있다
 kbs2_gagcon	psm331	POST	pym3am6-yhta9		2011-08-20	허무개그 달인 소개합니돠 tagexclamation
-kbs2_gagcon	jjm05222	POST	pym3amu-yhtyl		2011-08-18	혼자놀기의달인 바로 바로나 바로나다 냐하하하하ㅏ tagsmile 하 하다
+kbs2_gagcon	jjm05222	POST	pym3amu-yhtyl		2011-08-18	혼자놀기의달인 바로 바로나 바로나다 냐하하하 ㅏ tagsmile 하 하다
 kbs2_gagcon	newarcoiris	POST	pym3c8o-5afsi		2011-08-18	kisa 김대리 개인정보보호 달인되기 개인정보보호 privacy securityplus
 kbs2_gagcon	ji__0310	POST	pym3cy2-5qy_g		2011-08-18	사자성어의달인 이준님 이준님의 유행어 희 노 애 앗다 락
 kbs2_gagcon	grace7654321	POST	pym3gid-5c0hl		2011-08-18	개그콘서트 비상대책위원회 동영 무한반복
 kbs2_gagcon	gongu1225asd	POST	pym3hit-5hnvw		2011-08-18	tagsmile 혼자놀기에달인은바로 tagsmile
-kbs2_gagcon	actor_wook	POST	pym3lea-_c4il		2011-08-18	중국 오다 샐카 샐카를 가르치다 줄다 tagsmile tagsmile꼭 와용 나다 나 셀카달인 tagexclamation 오다 가르치다 줄다 공짜 tagexclamation
+kbs2_gagcon	actor_wook	POST	pym3lea-_c4il		2011-08-18	중국 오다 샐카 샐카를 가르치다 줄다 tagsmile tagsmile 와용 나다 나 셀카달인 tagexclamation 오다 가르치다 줄다 공짜 tagexclamation
 kbs2_gagcon	hero0131	POST	pym3me9-7gn2		2011-08-18	짜증 극 달
 kbs2_gagcon	aroneforu	POST	pym3o17-_tjvp		2011-08-18	관광통역안내사전문학원급변 세계시장 기회
 kbs2_gagcon	onyu5	POST	pym3oox-m0nh		2011-08-18	난귀차니즘달 난귀차니즘달인 미션을신청 아래미션은이미수행한것이 누워서물먹기 첫번째미쎤 tagexclamation
@@ -88,124 +88,124 @@ kbs2_gagcon	aroneforu	POST	pym3orv-_tjvp		2011-08-18	번역사전문학원번역
 kbs2_gagcon	dlguswl751	POST	pym3qbv-5yjtc		2011-08-20	내일 개그콘서트 보다 즐겁다 않을듯 학교가야 아놔 back tagexclamation back tagexclamation back tagexclamation
 kbs2_gagcon	mandarinate	POST	pym3t77-y8p9p		2011-08-18	좀 조다 옛날 노래 노랗다 그땐그랬지 카니발 이적 김동률
 kbs2_gagcon	gon06004	POST	pym3u8_-5_qeh		2011-08-20	갑툭사 갑툭사의 달인 달이다 달
-kbs2_gagcon	actor_wook	POST	pym3v1e-5pryu		2011-08-18	tagsmile 이건 몇번 몇번만 성공 사진인가요tagquestion 친구 중 셀카 셀카의 달인 있다 전 절다 배우다 안 알다 되더라구 되더라구요 하다 하지 카메라 익숙하다 배우님 배우님이 그럼 안 알다 되죠 특훈 tagexclamation 특훈 tagexclamation 빨다 셀카 셀카랑 친하다 자주 좀 조다 올리다 주세요tagsmile
-kbs2_gagcon	frompic	POST	pym3vh4-_d1bz		2011-08-20	허미영 슈스케탈락 허미영탈락 허미영 슈스케 탈락슈터스타k 참가 도전자 가운데 허미영씨 허미영씨가 지금 화제네 화제네요 허미영씨 허미영씨는 개콘 준교수 준교수의 은밀 매력 출연 개그
-kbs2_gagcon	frompic	POST	pym3vug-_d1bz		2011-08-20	허미영 슈퍼스타k 불합격 슈퍼스타k 허미영눈물 개그우먼 허미영개그우먼 허미영씨 개콘 보셨죠tagquestion허미영씨가 슈퍼스타k 나오다 그런데 언제부턴가 방송 안보였
-kbs2_gagcon	lottejjw8	POST	pym3wsg-_86dn		2011-08-18	야구 단 달다 ollohg 시즌 한국시리즈 우승 tagexclamation 구단주 작전의달 온라인 온라 야구 시뮬레이션 야구 단 달다
-kbs2_gagcon	hw2918	POST	pym3x5u-_y7y		2011-08-18	나다 나 지드래곤 생일 감수성 출연개그맨 보고 보다 보 오다 싸인도tagsmile 어쩜 티비 티비랑 똑같다 tagsmile 지드래곤 생일 개그맨 싸 좋은데tagquestion tagsmile
+kbs2_gagcon	actor_wook	POST	pym3v1e-5pryu		2011-08-18	tagsmile 이건 몇번 몇번만 성공 사진 tagquestion 친구 중 셀카 셀카의 달인 있다 전 절다 배우다 안 알다 되더라구 되더라구요 하다 하지 카메라 익숙하다 배우님 배우님이 그럼 안 알다 되죠 특훈 tagexclamation 특훈 tagexclamation 빨다 셀카 셀카랑 친하다 자주 좀 조다 올리다 주다 tagsmile
+kbs2_gagcon	frompic	POST	pym3vh4-_d1bz		2011-08-20	허미영 슈스케탈락 허미영탈락 허미영 슈스케 탈락슈터스타k3 참가 도전자 가운데 허미영씨 허미영씨가 지금 화제네 화제네요 허미영씨 허미영씨는 개콘 준교수 준교수의 은밀 매력 출연 개그
+kbs2_gagcon	frompic	POST	pym3vug-_d1bz		2011-08-20	허미영 슈퍼스타k3 불합격 슈퍼스타k3 허미영눈물 개그우먼 허미영개그우먼 허미영씨 개콘 보셨죠 tagquestion 허미영씨 허미영씨가 슈퍼스타k3 나오다 그런데 언제부턴가 방송 안보였
+kbs2_gagcon	lottejjw8	POST	pym3wsg-_86dn		2011-08-18	야구9 단 달다 ollohg 2011-32 시즌 한국시리즈 우승 tagexclamation 구단주 작전의달 온라인 온라 야구 시뮬레이션 야구9 단 달다
+kbs2_gagcon	hw2918	POST	pym3x5u-_y7y		2011-08-18	나다 나 지드래곤 생일 감수성 출연개그맨 보고 보다 보 오다 싸인 싸인도 tagsmile 어쩜 티비 티비랑 똑같다 tagsmile 지드래곤 생일 개그맨 싸 좋다 tagquestion tagsmile
 kbs2_gagcon	bella9910	POST	pym3yhv-558yh		2011-08-19	나혼자두개 나혼자두개의 반지를껴야 불편한진실 tagcry tagsmile 으앜 tagsmile 쏠로옄 tagsmile
 kbs2_gagcon	twejqmf123	POST	pym3zmw-59rc6		2011-08-18	학원 방학 하다 숙제 내주다 내주 불편한진실
 kbs2_gagcon	arrest82	POST	pym3_20-1hxh		2011-08-18	판매자 테마주달인님 입금 완료 주닥 주식닥터 주식정보 주식 주식커뮤니티 주식포털 주식종목 종목추천 애널리스트 종목상담 재태크 투잡 주식카페
 kbs2_gagcon	kmjjun	POST	pym515k-54goq		2011-08-19	어제 컨디션 최악 극 뽁하고출근 tagexclamation 이번주는어찌흘러가는지도모르겠네 tagcry 아프니서러워요흑 대댓글느리더라두 이해 기다려주세용 tagexclamation tagcry
 kbs2_gagcon	ahrl00	POST	pym52lk-518mu		2011-08-17	쌩얼 뽀로 뽀로로 tagsmile 안경빨 안경빨이 불편한진실 tagsmile
-kbs2_gagcon	fhslove	POST	pym52_4-nafz		2011-08-17	이우 이우의 야구수첩 주말 연전 헛 tagexclamation 모르다 지웠넹 tagsmile 요즘 포털싸이트 포털싸이트마 야구 카툰 카툰이 나오다 다 잼 tagsmile 오늘 여기 대박 tagsmile 달인 미션 tagexclamation daum미디어다음 달인미션 직구 개 전광판 전광판에 난 나다 날다 불 끄다 tagsmile
-kbs2_gagcon	actorstop7	POST	pym53ed-yjivi		2011-08-16	연영과입시 배우로가는길 헬스걸 주차 변신사진 공개 오 tagexclamation 놀랍다
+kbs2_gagcon	fhslove	POST	pym52_4-nafz		2011-08-17	이우 이우의 야구수첩 주말 3연전 8.12 8.14헛 tagexclamation 모르다 지웠넹 tagsmile 요즘 포털싸이트 포털싸이트마 야구 카툰 카툰이 나오다 다 잼 tagsmile 오늘 여기 대박 tagsmile 달인 미션 tagexclamation daum미디어다음 달인미션 직구3 개 전광판 전광판에 난 나다 날다 불 끄다 tagsmile
+kbs2_gagcon	actorstop7	POST	pym53ed-yjivi		2011-08-16	연영과입시 배우로가는길 헬스걸 6주차 변신사진 공개 오 tagexclamation 놀랍다
 kbs2_gagcon	hoyoungforu	POST	pym56k6-y8jnk		2011-08-18	농심 물 마시다 홍삼수 홍삼달인물 만성피로 정말 좋다
 kbs2_gagcon	rladydtn013	POST	pym56on-jzkv		2011-08-16	전 절다 오늘 컴 별 안하다 누나 왜 외다 이렇게 오다 오래다 하다 불편 진실 느끼다 느끼 나가다 ㅂㅂ tagcry
-kbs2_gagcon	dopanysmith	POST	pym56op-b8rr		2011-08-18	단기 다이어트 도전기 탄유산소 운동 주간 kg감량 상추다이어트 옥동자 다이어트 오지헌 다이어트 개콘 헬스걸다이어트 폭풍다이어트
+kbs2_gagcon	dopanysmith	POST	pym56op-b8rr		2011-08-18	단기 다이어트 도전기 1탄유산소 운동 2주 10kg감량 상추다이어트 옥동자 다이어트 오지헌 다이어트 개콘 헬스걸다이어트 폭풍다이어트
 kbs2_gagcon	ghdtpgus6	POST	pym57_y-58u68		2011-08-17	좋다 아침 감사 마음 시작 후회 하루 첫단추 첫시작 다르다 사람 용서 절대 나다 나 용서 말다 헤이해지 있다 헤이헤이헤 헤이헤이헤이 heyheyhey 아 멈출줄모르 멈출줄모르는 개그본능 tagcry 별 웃기다 않다 tagsmile
-kbs2_gagcon	7796no	POST	pym586v-yehie		2011-08-18	ㄱㄷㄱㄴㄱㄴ긧브시딧ㅂ닛ㅂㄴㄱㅆㄴㄱㅅㄱㄷㄱㅅㄱㄷㄱㄱㄷㄱㅇㅂㅈㅂㅅcagavagㅈ극 tagsmile ㅂㄷㄱㅈㅂㄴㅅㅅㄱㄷㄱㄷㄱㄷㄱㄷㄱㅈㅂㄷ븍ㄴ tagexclamation tagexclamation tagsmile ㄴㄱㅌㅂㄴㅂㅅㄱㅂㄷㅂㄷㅂㄷㄱㄴㄱㅅ ᆞㄱㅈㄱㅂㄱㄷㄱㅈㅂㄴㄱㄴㅂㄴㅂᆞㅂ즙ㄷ닏ㅂㄷㄴㄱㅂㄷㅂㄷㅂㄷㅂㄴㅂㄴㅂㄷㅂㄷㅂㄷㅂㅅㄱㅂ ㅅ tagsmile ㄷㄱㅈㄱㄷㄱㅈㄱㄷㄱㅈㅂㅅㅅ긎ㄱㅈㅂㄱㅈㄱㄴㄱㅈㅂㅅㅅㅂㄷㄱㄴㄴㅅㄱㄴㄱㅅㄱᆞㄱᆞㅂㄴㄱㅅ긋ㄱㅈ븝ㄴ ㄴㅂㄷㅂㄷ븝ㅌㅂㄷㅂㄴㄱㄷㄱㄷㅂㅌ브ㅡㅂㅈㄷㅂㅅㅂㄷㅂㄴㅂㄷㅂㄷㅂㄷㅂㄷㅂㄴㅂㄴㅂㄴㄱㄴㅍㅅㄴㅂㄴㅂㄴ븍ㅈ븓ㄱㄴ브ㅡㅈㄱᆞ ㄱㅅㅂㄴㄱㅅ귻ㄴ tagsmile ㄴㄱㄷgahgfhfshsysshsgshsgs
-kbs2_gagcon	vbdf12345678	POST	pym58o9-5qqaq		2011-08-19	식신 식신아 시식코너 테러 달인 달이다 달 이니tagquestion 진짜tagquestion 반하련 반하련이 그랬어
-kbs2_gagcon	lovepapa21	POST	pym58tc-57q1c		2011-08-16	키스앤크라 파이널 하늘 날다 tagexclamation 달인 달이다 달 김병 김병만 tagexclamation 병만수경 커플 tagexclamation
+kbs2_gagcon	7796no	POST	pym586v-yehie		2011-08-18	ㄱㄷㄱㄴㄱㄴ 긧브시딧 ㅂ 닛 ㅂㄴㄱㅆㄴㄱㅅㄱㄷㄱㅅㄱㄷㄱㄱㄷㄱㅇㅂㅈㅂㅅ cagavag ㅈ 극 tagsmile ㅂㄷㄱㅈㅂㄴㅅㅅㄱㄷㄱㄷㄱㄷㄱㄷㄱㅈㅂㄷ 븍 ㄴ 724672767676464 tagexclamation tagexclamation tagsmile ㄴㄱㅌㅂㄴㅂㅅㄱㅂㄷㅂㄷㅂㄷㄱㄴㄱㅅ ᆞ ㄱㅈㄱㅂㄱㄷㄱㅈㅂㄴㄱㄴㅂㄴㅂ ᆞ ㅂ 즙 ㄷ 닏 ㅂㄷㄴㄱㅂㄷㅂㄷㅂㄷㅂㄴㅂㄴㅂㄷㅂㄷㅂㄷㅂㅅㄱㅂ ㅅ tagsmile ㄷㄱㅈㄱㄷㄱㅈㄱㄷㄱㅈㅂㅅㅅ 긎 ㄱㅈㅂㄱㅈㄱㄴㄱㅈㅂㅅㅅㅂㄷㄱㄴㄴㅅㄱㄴㄱㅅㄱ ᆞ ㄱ ᆞ ㅂㄴㄱㅅ 긋 ㄱㅈ 븝 ㄴ ㄴㅂㄷㅂㄷ 븝 ㅌㅂㄷㅂㄴㄱㄷㄱㄷㅂㅌ 브 ㅡㅂㅈㄷㅂㅅㅂㄷㅂㄴㅂㄷㅂㄷㅂㄷㅂㄷㅂㄴㅂㄴㅂㄴㄱㄴㅍㅅㄴㅂㄴㅂㄴ 븍 ㅈ 븓 ㄱㄴ 브 ㅡㅈㄱ ᆞ466 ㄱㅅㅂㄴㄱㅅ 귻 ㄴ tagsmile ㄴㄱㄷ gahgfhfshsysshsgshsgs
+kbs2_gagcon	vbdf12345678	POST	pym58o9-5qqaq		2011-08-19	식신 식신아 시식코너 테러 달인 달이다 달 이 tagquestion 진짜 tagquestion 반하련 반하련이 그랬어
+kbs2_gagcon	lovepapa21	POST	pym58tc-57q1c		2011-08-16	키스앤크라 파이널 하늘 날다 tagexclamation 달인 달이다 달 김병 김병만 tagexclamation 병만수경 커플 tagexclamation 110821
 kbs2_gagcon	getout44	POST	pym59cl-5fmab		2011-08-19	sk 팬들 팬들의 분노 왜 외다 극 달 달했
 kbs2_gagcon	1qkrwhdgus2	POST	pym5alb-_0j7t		2011-08-17	연필깍기 달인 달이다 달 tagexclamation
 kbs2_gagcon	chachajjujju	POST	pym5b8o-41_b		2011-08-16	개콘 헬스걸 변화 헬스걸 변화 헐 tagexclamation 대박 tagexclamation
 kbs2_gagcon	tongmo3	POST	pym5bbo-uq4q		2011-08-19	효은이 효은이를 표정연기 달인 불러다오 tagsmile
-kbs2_gagcon	hsy3822	POST	pym5bj2-_rclv		2011-08-16	다이어트 헬스걸 다이어트 주차 몸매변화 공개 이건 마법
-kbs2_gagcon	candyforhead	POST	pym5bjv-qitf		2011-08-19	내일 여행 위기 극 tagsmile 뽁 tagsmile
-kbs2_gagcon	ednk3253	POST	pym5che-56_pu		2011-08-16	헬스걸 변화 공개 단계 몸매변신
-kbs2_gagcon	dhr0920	POST	pym5cuk-53mc		2011-08-16	헬스걸 주차 사진 보다 보 충격 헤어나다 못하다 tagcry
-kbs2_gagcon	recordation	POST	pym5cxe-_jgdc		2011-08-16	시중 샐러드서적 중 가장 알차다 내용 이제 만들다 맛보다 일 남다 드레싱 달인 되다 되 말다 tagexclamation me book 샐러드 노트
+kbs2_gagcon	hsy3822	POST	pym5bj2-_rclv		2011-08-16	다이어트 헬스걸 다이어트 6주차 몸매변화 공개 이건 마법
+kbs2_gagcon	candyforhead	POST	pym5bjv-qitf		2011-08-19	9.19 내일 여행 위기 극 tagsmile 뽁 tagsmile
+kbs2_gagcon	ednk3253	POST	pym5che-56_pu		2011-08-16	헬스걸 변화 공개 4단계 몸매변신
+kbs2_gagcon	dhr0920	POST	pym5cuk-53mc		2011-08-16	헬스걸 6주차 사진 보다 보 충격 헤어나다 못하다 tagcry
+kbs2_gagcon	recordation	POST	pym5cxe-_jgdc		2011-08-16	시중 샐러드서적 중 가장 알차다 내용 이제 만들다 맛보다 일 남다 드레싱 달인 되다 되 말다 tagexclamation 샐러드 노트
 kbs2_gagcon	dac09003	POST	pym5dr3-_om0s		2011-08-16	밴드소개 수다의달 밴드 가입신청 받다 있다 밴드소개
-kbs2_gagcon	moviejoy	POST	pym5fry-13pa		2011-08-19	기사 기다 쥴리 쥴리의 육지 대모험 달인 달이다 달 김병 김병만 스페셜 인터뷰 공개 tagexclamation 모바일 모바일은 여기 me movie 쥴리 쥴리의 육지 대모험
-kbs2_gagcon	zenzang75	POST	pym5fwl-pwns		2011-08-18	이병헌 주연 국내최초 d 영화 tagexclamation 쉐어 비전 share vision
-kbs2_gagcon	fldk4280	POST	pym5fyp-rgvl		2011-08-18	ㄷ뷰ㅡ tagsmile ㄷ긔즈깆ㅂㄷㅅㄱㅈ그긪ㅂㄷㄱㄸㄴㅌㄴ ㄷ긔즈깆ㅂㄷㅅㄱㅈ그긪ㅂㄷㄱㄸㄴㅌㄴ도 tagcry ㄷㄱㅈㄱㄷㄱㅈㄱㄷㄱㄷ극ㅊㅂ ㅇ ㅅㅂㄴ곡ㅈㄱㄷ극듴ㄷㅈㄱㅈㄱㄴ도늡ㅈㄱ독ㅈㄱㄷㄱㄷ
+kbs2_gagcon	moviejoy	POST	pym5fry-13pa		2011-08-19	기사 기다 쥴리 쥴리의 육지 대모험 달인 달이다 달 김병 김병만 스페셜 인터뷰 공개 tagexclamation 모바일 모바일은 여기 쥴리 쥴리의 육지 대모험
+kbs2_gagcon	zenzang75	POST	pym5fwl-pwns		2011-08-18	이병헌 주연 국내최초 4d 영화 tagexclamation 쉐어 비전 share vision
+kbs2_gagcon	fldk4280	POST	pym5fyp-rgvl		2011-08-18	ㄷ 뷰 ㅡ tagsmile ㄷ 긔즈깆 ㅂㄷㅅㄱㅈ 그긪 ㅂㄷㄱㄸㄴㅌㄴ 도 tagcry ㄷㄱㅈㄱㄷㄱㅈㄱㄷㄱㄷ 극 ㅊㅂ ㅇ ㅅㅂㄴ 곡 ㅈㄱㄷ 극듴 ㄷㅈㄱㅈㄱㄴ 도늡 ㅈㄱ 독 ㅈㄱㄷㄱㄷ
 kbs2_gagcon	jieunius	POST	pym5gfp-_y4qs		2011-08-19	공주 남자 남다 박시후 분노 폭발 독기 살기 살다 극 그저쵝오 파이낸셜뉴스
 kbs2_gagcon	sohee1307	POST	pym5h80-m8tx		2011-08-18	개그콘서트 감수성 워터파크편 감수성 ucc ucc보 리솜스파캐슬 가자 가다 감수왕 온천성 을 함락 tagexclamation
 kbs2_gagcon	nodongeye	POST	pym5ijs-5i815		2011-08-19	꿈 있는자 있는자는 죽지 죽다 않다 작가된 달인 달이다 달 김병 김병만 가난 부모님 탓하다 오마이뉴스
 kbs2_gagcon	96490420	POST	pym5ild-_6bfo		2011-08-16	
-kbs2_gagcon	ostarmall	POST	pym5iud-5fvrd		2011-08-16	개콘 헬스걸 몸매 변화 공개 주 뱃살 뱃살이 실종
-kbs2_gagcon	insos02	POST	pym5jv1-_8lnw		2011-08-16	개그콘서트 다시보기 개콘무료 다시보기 개그콘서트 다시보기 개콘무료 다시보기
-kbs2_gagcon	poup	POST	pym5kfr-23fc		2011-08-16	개콘 헬스걸 주 후 놀랍다 변화 tagexclamation
-kbs2_gagcon	namunju0709	POST	pym5lbs-_8jf1		2011-08-17	개콘 헬스걸 웃기다 살뺀다 주의 주 놀랍다 효과 무보정
+kbs2_gagcon	ostarmall	POST	pym5iud-5fvrd		2011-08-16	개콘 헬스걸 몸매 변화 공개 6주 6주만 뱃살 뱃살이 실종
+kbs2_gagcon	insos02	POST	pym5jv1-_8lnw		2011-08-16	개그콘서트 다시보기 2011-08-14 개콘무료 다시보기 개그콘서트 다시보기 2011-08-14 개콘무료 다시보기
+kbs2_gagcon	poup	POST	pym5kfr-23fc		2011-08-16	개콘 헬스걸 6주 후 놀랍다 변화 tagexclamation
+kbs2_gagcon	namunju0709	POST	pym5lbs-_8jf1		2011-08-17	개콘 헬스걸 웃기다 살뺀다 6주 6주의 놀랍다 효과 100 무보정
 kbs2_gagcon	lg6400	POST	pym5lq2-5mfxw		2011-08-16	강동구보금자리반대비상대책위원회 국토해양부장관면담 임동규 국회의원 면담주선 수고 수 감사 감다
 kbs2_gagcon	leewha12	POST	pym5lqg-5vqrj		2011-08-17	이젠 어느덧 익숙하다 지금시간 적막 어지럽다 어지러움 극에달하고알수 그립다 짙다 짙 냄새 한없다 날 나다 자극 지금시간 잠들다 노력중 감은눈 감은눈이 아파 눈을떠버렸다 tagsmile
-kbs2_gagcon	96490420	POST	pym5mml-_6bfo		2011-08-16	년 월 일 오전 시 분 저장 글
-kbs2_gagcon	deaegi	POST	pym5nlz-2vxt		2011-08-19	보물찾기 달인 누구tagquestion 펀핑 tagexclamation 보물찾기 달인 누구tagquestion 펀핑 tagexclamation
-kbs2_gagcon	tngusd16	POST	pym5ntd-rj73		2011-08-19	심심이의 불편 진실 많다 미투및 핑백 부탁 개드립닷컴 보다 보 가져오다 ㄷㄷ 아마 알사람 알사람은 다 아시겠죠tagquestion ㄷㄷ
-kbs2_gagcon	babynews2010	POST	pym5n_5-_58o3		2011-08-18	베이비뉴스웨딩드레스협회 제 회 swa 트렁크 쇼 개최 강남 강 청담동 일대 웨딩드레스 숍 개 개다 참여 참 여 벌 최신상 웨딩드레스 웨딩트렌드 한눈
+kbs2_gagcon	96490420	POST	pym5mml-_6bfo		2011-08-16	2011년 8월 17 17일 오전 5시 44분 44분에 저장 글
+kbs2_gagcon	deaegi	POST	pym5nlz-2vxt		2011-08-19	보물찾기 달인 tagquestion 펀핑 tagexclamation 보물찾기 달인 tagquestion 펀핑 tagexclamation
+kbs2_gagcon	tngusd16	POST	pym5ntd-rj73		2011-08-19	심심이의 불편 진실 많다 미투및 핑백 부탁 개드립닷컴 보다 보 가져오다 ㄷㄷ 아마 알사람 알사람은 다 아시겠죠 tagquestion ㄷㄷ
+kbs2_gagcon	babynews2010	POST	pym5n_5-_58o3		2011-08-18	베이비뉴스웨딩드레스협회 제1 회 swa 트렁크 쇼 개최 강남 강 청담동 일대 웨딩드레스 숍 35개 참여 참 600 600여 벌 최신상 웨딩드레스 웨딩트렌드 한눈
 kbs2_gagcon	ycp2011	POST	pym5o4q-_c87j		2011-08-19	강북구 강북구에 환경조성 달인 있다 환경일보
 kbs2_gagcon	y_beast	POST	pym5oa5-_qea_		2011-08-18	양요섭 개콘 beautiful
 kbs2_gagcon	goldmerchant	POST	pym5ole-ztg5		2011-08-16	바이럴마케팅 불편 진실 입소문마케팅
-kbs2_gagcon	ace_ruphy	POST	pym5pal-y6hz1		2011-08-16	오늘 하루종일 하루종 만성피로 어부바 tagquestion tagexclamation 하다 어깨 빠지다 사라질뻔 맛있다 점심먹고 극 뽀 옥 식사 식다 맛있게 하다 하셨 제육두루치기덮밥 아주 맛나다 tagexclamation
-kbs2_gagcon	ssi03010	POST	pym5q8x-5ckty		2011-08-16	영심 영심이 헬스걸 변화 공개 헬스걸 변화 공개 주 kg 감량 영심이우왕 tagsmile 헬스걸 한달 한달만 변화 확실한것 점점 날씬해지 모습 궁금 tagexclamation tagsmile 다이어트 영심이 영심이와 taglove daum블로그
-kbs2_gagcon	edmir	POST	pym5qex-6ii		2011-08-18	자동차 공인연비 실제 뻥튀기 한국석유관리원 시 시내 고속도로 고속도 고속 급가속 에어컨 가동 춥다 날씨 다섯 가지 가다 항목 반영 자동차 연비 측정 결과 결 공인 공 연비 평균적 실제 정도 정 높다 것 나타나다 밝히다 데이터 부족했을 공인연비 뻥 있다 것 다들 아 불편 진실이였죠
-kbs2_gagcon	ipp1212	POST	pym5qgt-_i2xl		2011-08-16	요즘 전남친 전남친이 연락 한번씩 하눈데 만날땐 그렇다 ㅌㅣ격태격 하다 헤어지다 나다 나 이렇게 편하다 사이 되다 나 나다 그때 왜 외다 그랬지tagquestion tagsmile
-kbs2_gagcon	hymntoheaven	POST	pym5qoo-_r4ei		2011-08-16	ok tagexclamation go japan johnny tagexclamation 웃기고자빠졌네 dog s chair mom tagexclamation 닥쳐임마 tagexclamation 개콘 월 일자 방송 mr 페르난 페르난도 코너 시기적절 언어유희 tagsmile
+kbs2_gagcon	ace_ruphy	POST	pym5pal-y6hz1		2011-08-16	오늘 하루종일 하루종 만성피로 어부바 tagquestion tagexclamation 하다 어깨 빠지다 사라질뻔 맛있다 점심먹고 극 뽀 옥 0 식사 식다 맛있게 하다 하셨 0 제육두루치기덮밥 아주 맛나다 tagexclamation
+kbs2_gagcon	ssi03010	POST	pym5q8x-5ckty		2011-08-16	44영심 44영심이 헬스걸 변화 공개 헬스걸 변화 공개 6주 6주만 24kg 감량 44영심이우왕 tagsmile 헬스걸 한달 한달만 변화 확실한것 점점 날씬해지 모습 궁금 tagexclamation tagsmile 다이어트 44영심이 44영심이와 taglove daum블로그
+kbs2_gagcon	edmir	POST	pym5qex-6ii		2011-08-18	자동차 공인연비 실제 20 뻥튀기 한국석유관리원 시 시내 고속도로 고속도 고속 급가속 에어컨 가동 춥다 날씨 다섯 가지 가다 항목 반영 자동차 연비 측정 결과 결 공인 공 연비 평균적 실제 20 정도 정 높다 것 나타나다 밝히다 데이터 부족했을 공인연비 뻥 있다 것 다들 아 불편 진실이였죠
+kbs2_gagcon	ipp1212	POST	pym5qgt-_i2xl		2011-08-16	요즘 전남친 전남친이 연락 한번씩 하눈데 만날땐 그렇다 ㅌㅣ 격태격 하다 헤어지다 나다 나 이렇게 편하다 사이 되다 나 나다 그때 왜 외다 그랬지 tagquestion tagsmile
+kbs2_gagcon	hymntoheaven	POST	pym5qoo-_r4ei		2011-08-16	ok tagexclamation go japan johnny tagexclamation 웃기고자빠졌네 dog's chair mom tagexclamation 닥쳐임마 tagexclamation 개콘 8월 14일자 방송 mr 페르난 페르난도 코너 시기적절 언어유희 tagsmile
 kbs2_gagcon	extinct0223	POST	pym5qs0-_hnhn		2011-08-17	방학숙제 많다 방학 일주일 남지않은 불편한진실
 kbs2_gagcon	laelae52	POST	pym5r9h-58auh		2011-08-16	헬스걸 변화 공개 헬스걸 다이어트 성공 보 tagexclamation
 kbs2_gagcon	sangbin1544	POST	pym5raa-_1z9f		2011-08-16	춤추다 도너츠 도너츠의 달인도넛 달인 달이다 달
-kbs2_gagcon	fldk4280	POST	pym5rl9-rgvl		2011-08-18	김재중 너진짜이럴거냐 잘나가다 왜 외다 키스신 키스신이 나오는건데 tagexclamation 어제 드라마보다 폰던졌음 tagcry 으허귲ㅂ딛긷ㄱ딧ㄷ비즈킈지ㅡㅂᆞㅂㅅㅇㄱ 디ㅢㄷ극ㅈㄱㅈ tagcry
-kbs2_gagcon	hhw008	POST	pym5rqj-5l0kc		2011-08-19	김병 김병만 달인 달이다 달 김병 김병만 박 일 오호
+kbs2_gagcon	fldk4280	POST	pym5rl9-rgvl		2011-08-18	김재중 너진짜이럴거냐 잘나가다 왜 외다 키스신 키스신이 나오는건데 tagexclamation 어제 드라마보다 폰던졌음 tagcry 으허귲 ㅂ 딛긷 ㄱ 딧 ㄷ 비즈킈지 ㅡㅂ ᆞ ㅂㅅㅇㄱ 디 ㅢㄷ 극 ㅈㄱㅈ tagcry
+kbs2_gagcon	hhw008	POST	pym5rqj-5l0kc		2011-08-19	김병 김병만 달인 달이다 달 김병 김병만 1박2 일 오호
 kbs2_gagcon	ericashin	POST	pym5rsc-522vn		2011-08-16	맛집 최강달인 집 최강달인 최강달 닭갈비 닭갈비의 달인 달이다 달 국수 달인 달이다 달 왕 추천
 kbs2_gagcon	semoprince	POST	pym5t18-_dix		2011-08-16	극 뽀옥 tagexclamation
 kbs2_gagcon	xodnxxx5	POST	pym5tom-5kuqe		2011-08-16	아 tagsmile 피곤이극에달
 kbs2_gagcon	purplekat	POST	pym5tq0-ensj		2011-08-16	공감 불편 진실 역시 불의 보다 참다 못하다 한 하다 사람 한사람 한사람의 진심만 진심만으 세상 바꾸다 우린 나약 않다 않 란 생각 드네 드네요
 kbs2_gagcon	mongnysun	POST	pym5t_h-5qfjs		2011-08-19	옥수수 좋아하다 나 나다 땜 예진이 예진이도 옥수수 달인이 달인이되 tagexclamation
-kbs2_gagcon	upriselife	POST	pym5uic-izxk		2011-08-17	고소 뭘로tagquestion 명예훼손 음tagquestion 아 난 나다 날다 명예 없다 일단 내 연예계 데뷔 고소 그래tagquestion 그럼 연예계 데뷔 나 나다 신민 소개 그럼 내 고소 되는거tagquestion 어 일단 소개 고소 알다 기다리다 간밤 일 커지다 널 널다 고소 개그맨 공채 시험 아니다 스턴트맨 시험 봐야 봐야된다 봐야된다는 소린데 신민 으잉tagquestion
+kbs2_gagcon	upriselife	POST	pym5uic-izxk		2011-08-17	고소 뭘 뭘로 tagquestion 명예훼손 음 tagquestion 아 난 나다 날다 명예 없다 일단 내 연예계 데뷔 고소 tagquestion 그럼 연예계 데뷔 나 나다 신민 소개 그럼 내 고소 되는거 tagquestion 어 일단 소개 고소 알다 기다리다 간밤 일 커지다 널 널다 고소 개그맨 공채 시험 아니다 스턴트맨 시험 봐야 봐야된다 봐야된다는 소린데 신민 으잉 tagquestion
 kbs2_gagcon	kayo448	POST	pym5usp-5ho4o		2011-08-16	오다 tagexclamation 최고가매입 업소용중고주방전문 업소냉장고 냉동고 에어컨 식기세척기 쇼케이스 콤백션오븐 컴비스티머 진공포장기 육절기 제빙기 빙삭기 슬러시 햄슬라이서 골절기 간택기 커피머신 아이스크림기기 중화렌지 사리냉각기 저장고 숙성고 작업대 업소그릇 업소가전 업소가구 다
-kbs2_gagcon	soon7215	POST	pym5v84-5n7am		2011-08-16	개그콘서트 회 꽃 송영길 양요섭
+kbs2_gagcon	soon7215	POST	pym5v84-5n7am		2011-08-16	개그콘서트 585회 4 꽃 송영길 양요섭
 kbs2_gagcon	jeemam	POST	pym5vrk-5g3dd		2011-08-18	twilight twilight이 정말 치고싶다 언제 기타 달인 되다 되려
 kbs2_gagcon	nunurigo121	POST	pym5w22-_9tci		2011-08-18	무교동맛집 양천지 청계천구경 하다 하 개그콘서트 발레리노 팀 반 무교동맛집 맛있다 고다 고기 점심 만 tagexclamation
 kbs2_gagcon	kma0603	POST	pym5w5s-y5rys		2011-08-19	김병만님 김병만님을 맞추다 수수께끼 달인 달이다 달 힌트 지니선생님 몰다 tagsmile tagsmile
 kbs2_gagcon	leemk323	POST	pym5wcs-mkqs		2011-08-16	철수 님 같다 가슴 작다 고민 여자 분들 분들은 보다 보세 tagexclamation 어떠 뽕 패드 혹 그밖 그밖의 속임수 작다 보완할수 없다 불편 진실 tagexclamation tagsmile
-kbs2_gagcon	theend1123	POST	pym5xja-co_d		2011-08-17	계백 티아 티아라 효민 사극 첫 도전 어땠나tagquestion 시청자 반응 극 극 계백 티아 티아라 효민 사극 첫 도전 어땠나tagquestion 시청자 반응 극 극
+kbs2_gagcon	theend1123	POST	pym5xja-co_d		2011-08-17	계백 티아 티아라 효민 사극 첫 도전 어땠 tagquestion 시청자 반응 극 극 계백 티아 티아라 효민 사극 첫 도전 어땠 tagquestion 시청자 반응 극 극
 kbs2_gagcon	nema_korea	POST	pym5zad-b08t		2011-08-19	개콘 헬스녀 헬스녀의 다이어트 비법
 kbs2_gagcon	nakizki	POST	pym5_8v-55gdc		2011-08-18	얼다 얼음 가득 넣다 잔 더치커피 넣다 차갑다 마시다 입 안 감도 묵직 씁쓸 맛 위로 가지다 주다 줄다 자신 위해 위하다 누군가 누군가를 위하다 기다리다 싸우다 만들다 가다 가늘다 가 것 더치커피 내 생각 커피 매력일게 지인 지 말 말로 더치커피 먹는 사람 죄다 죄 변태 변태이거 내적황폐화 극 달 사람 그때 날 나다 보다 눈빛 그건 바 라 라고 말 있다 음 기분 좋다 않다 ㅅ
 kbs2_gagcon	nunurigo121	POST	pym5_if-_9tci		2011-08-18	나루토 사스케 사스케의 달인 달이다 달 모드 나루토 사스케 사스케의 달인 달이다 달 모드 웃긴이미지
-kbs2_gagcon	sbs8news	POST	pym5_zu-y49mw		2011-08-19	김도균 기자 기다 mbc 노조 총파업 결의 결 총파업 찬반투표 결과 결 의 찬성률 파업 가결 한편 mbc노조 비상대책위원회 총파업 투표 전 절다 사측 사측이 직장폐쇄 방안 논의 주장 사측 사측은 노조 일방적 주장 부인 부 sbs news
+kbs2_gagcon	sbs8news	POST	pym5_zu-y49mw		2011-08-19	김도균 기자 기다 mbc 노조 총파업 결의 결 총파업 찬반투표 결과 결 77.6 의 찬성률 파업 가결 한편 mbc노조 비상대책위원회 총파업 투표 전 절다 사측 사측이 직장폐쇄 방안 논의 주장 사측 사측은 노조 일방적 주장 부인 부 sbs8news
 kbs2_gagcon	jsmin0815	POST	pym60g0-y5an9		2011-08-20	그러고보니까 맞다 극 극 남예 남예랑 안느님 tagsmile 한쪽 서 너무안맞고 한쪽 나한테 너무맞아서 한쪽 좋다고좋다 좋다고좋다고 매달리다 으어어 꺼지다 하다 한쪽힌텐 taglove 하다 달려든다거 달려든다거나 왠지 아까 남예 남예가 나 어렵다 친해진애 있다 나와보라그래 하다 안채 나 쉽다 친해진애 있다 나와보라그래 라고 라고한 생각
 kbs2_gagcon	skrlz	POST	pym6125-_sfrk		2011-08-17	뭔 슈퍼칼리이건뭐 슈퍼칼리프래질리스틱익스피알리도셔스 이게뭐 이게뭐야 개콘 닥터피쉬 곡이름 곡이름같다
 kbs2_gagcon	goodess001	POST	pym61az-r1fa		2011-08-19	오락 달인 달이다 달
 kbs2_gagcon	zion7676	POST	pym61sh-y6pse		2011-08-20	생활 발견 나 나다 구속 면회오세
-kbs2_gagcon	papermental	POST	pym63o0-53n_q		2011-08-17	수요일 수요 딜러컴백 장사의달인으로교체
+kbs2_gagcon	papermental	POST	pym63o0-53n_q		2011-08-17	8,17 수요일 수요 딜러컴백 장사의달인으로교체
 kbs2_gagcon	skyduck00	POST	pym63_7-5t4ha		2011-08-17	넘 열심 물뿌린다 나능 지겨븐데 넌 널다 안 알다 지겹다 tagcry tagquestion 하루종일 하루종 소화 안되다 인제서 배곱햐 뱃속 그지 열댓마리 열댓마리가 농성하능거 같다 tagcry 어첨 tagcry 비교체험 극과극 tagexclamation tagquestion
 kbs2_gagcon	blue3372	POST	pym64tp-54oh3		2011-08-17	포장 이삿짐센터 이사의달 체험 추천
-kbs2_gagcon	binni337	POST	pym66on-h_5f		2011-08-20	스파크 미니 미다 미 event 세제량 반 세척력 배 tagexclamation 세탁 달인 달이다 달 만나다 가다 tagexclamation
+kbs2_gagcon	binni337	POST	pym66on-h_5f		2011-08-20	스파크 미니 미다 미 event 세제량 반 세척력 2배 2배로 tagexclamation 세탁 달인 달이다 달 만나다 가다 tagexclamation
 kbs2_gagcon	2xlgamesasia	POST	pym672p-yqwy6		2011-08-17	아버지 자꾸 소 사달 사달라 하다 정말 개콘 개콘도 아니다 아니 벌쓰다 외양간만들어놓으신 우리 아버지 tagexclamation 멋지다 니 얼마믄 사다 넘 넘의 소 사진첨부
-kbs2_gagcon	tlswndud26	POST	pym67iw-_ovku		2011-08-17	페디큐어의달 페디큐어의달인 tagexclamation tagsmile
+kbs2_gagcon	tlswndud26	POST	pym67iw-_ovku		2011-08-17	페디큐어의달 페디큐어의달인 tagexclamation 1 tagsmile
 kbs2_gagcon	juuuuni	POST	pym67w_-5e060		2011-08-20	주말 근무 하다 말이죠 재미 일 많다 지금 한 하다 커플 여시서 헤어지다 뭔 생활 발견 아니다 아니 tagsmile 우리 헤어지다 tagsmile 야 임마 돈 오만원 때문 때문에 여자 짜증나게 tagexclamation 뗘뿌라 tagexclamation 못 팔다 건 거다 걸다 아니다 아니 tagsmile
 kbs2_gagcon	boram0950	POST	pym68fx-5hi3f		2011-08-20	달인 달이다 달 김병 김병만 할머니 신내림 받다 고백
-kbs2_gagcon	tjfgusxo	POST	pym69k0-z3e9		2011-08-17	더럽다 보이스 피싱 번호 기억 전화오면 가지다 가지 놀다 무료 숙박권 빌미 사기치다 함니 함니다 요즘 여름 숙박권 빌미로 빌미로한 보이스 피싱 피싱이 많은데 많은데요 낚기면 최소 에서 거의 거 대부분 매달 만씩 내야한다 극 조심
-kbs2_gagcon	yst619	POST	pym69pv-y703n		2011-08-17	고물가 시대 포인트상환카드 뉴우리v카드 세이브카드 우리v세이브카드 짱
+kbs2_gagcon	tjfgusxo	POST	pym69k0-z3e9		2011-08-17	더럽다 보이스 피싱 02-3141-1180 번호 기억 전화오면 가지다 가지 놀다 무료 숙박권 빌미 사기치다 함니 함니다 요즘 여름 숙박권 빌미로 빌미로한 보이스 피싱 피싱이 많은데 많은데요 낚기면 최소 60 거의 거 대부분 매달 150만씩 내야한다 극 조심
+kbs2_gagcon	yst619	POST	pym69pv-y703n		2011-08-17	고물가 시대 포인트상환카드 뉴우리v 카드 세이브카드 우리v 세이브카드 짱
 kbs2_gagcon	nayeun124	POST	pym6az8-zn7m		2011-08-19	아카츠키 아카츠키가 붉다 달 알다 아니다
-kbs2_gagcon	hermijin	POST	pym6b5w-5syzt		2011-08-20	홍삼 달인 달이다 달 물 홍삼수 간편 마시자tagsmile
-kbs2_gagcon	omah123	POST	pym6bjl-5b8f		2011-08-17	계백 티아 티아라 효민 사극 첫 도전 어땠나tagquestion 시청자 반응 극 극
+kbs2_gagcon	hermijin	POST	pym6b5w-5syzt		2011-08-20	홍삼 달인 달이다 달 물 홍삼수 간편 마시다 tagsmile
+kbs2_gagcon	omah123	POST	pym6bjl-5b8f		2011-08-17	계백 티아 티아라 효민 사극 첫 도전 어땠 tagquestion 시청자 반응 극 극
 kbs2_gagcon	kimsl3563	POST	pym6cbm-yr4kt		2011-08-20	아낰 tagsmile 개콘 재방 롤리폴리 내귀 내귀에 캔디 앜 tagsmile
 kbs2_gagcon	applevii	POST	pym6cjx-tint		2011-08-19	헬스걸 다이어트 비결 삼시 세끼 챙기다 먹고 아침 저녁 유산소 운동 지금 체중 더이 안 알다 내려가다 방법 써봐야겠어
 kbs2_gagcon	minniebaba	POST	pym6cl8-yaurl		2011-08-17	아웃백갔다왔는데 너무양이많 tagexclamation 남기다 tagsmile 맛 별 tagcry 개콘 생활의발견에서아웃백빵을먹길래 맛있어보 맛있어보여서 tagsmile
-kbs2_gagcon	vbdf12345678	POST	pym6clv-5qqaq		2011-08-20	내 kbs 개그맨 되서 개콘 개콘에 나가다 여려분 여려분은 어떻다 생각하십니까tagquestion
+kbs2_gagcon	vbdf12345678	POST	pym6clv-5qqaq		2011-08-20	내 kbs 개그맨 되서 개콘 개콘에 나가다 여려분 여려분은 어떻다 생각 tagquestion
 kbs2_gagcon	05170719	POST	pym6d4d-5282k		2011-08-20	나생활에달인 믿음을놓지않는저자세 가끔얘신기 그냥장난안같애
 kbs2_gagcon	poplez_net	POST	pym6daz-5wtdz		2011-08-17	주차 달인 달이다 달 poplez
-kbs2_gagcon	lolikyon	POST	pym6du8-yhya		2011-08-17	월 일 오후 한양대앞 한양게임센터 태고 달인 달이다 달 토너먼트 개최 자칭 태고 태 탑랭 탑랭들의 많다 참가 바라다 수도권 태고 태 고수 죄다 죄 모일 모이다 듯 구경 tagexclamation
-kbs2_gagcon	dovmfwlel7	POST	pym6e4_-yabih		2011-08-19	다들 어머니 좋으시구 허허허 나다 나 엄마 나 나다 브마도배 앨범싸지르는것 이해 공방뛰면 자퇴시킨댔고 빅뱅쇼 대성퐈 대성퐈가 노래부르는거 개그맨같댔고 엄마싯맣tagsmile 막 여튼 그랬었음 tagsmile
-kbs2_gagcon	nanapro	POST	pym6eve-yn9v6		2011-08-17	김연 김연아 아이스쇼 귀걸이김연 아이스쇼 제이에스티 제이에스티나 귀걸이 김연 김연아 착용 귀걸이는tagquestion 제이에스티 제이에스티나 티아 티아라 왕관 귀걸이 김연 김연아 아이스쇼 피버 김연 김연아 아이스쇼 오마주 투 코리아
-kbs2_gagcon	malt15	POST	pym6gc3-53oqr		2011-08-17	거기 거다 두분 토론 준비 잘 자다 되십니까tagquestion 대회 시작 시간 약 시간 남다 저흰 아직 반론 잉여짓 잉여짓이네 tagsmile tagcry 화이팅 합세
-kbs2_gagcon	vankemono	POST	pym6gzi-_t17k		2011-08-17	누군가 나르다 나 애타다 부르다 소리 들다 들리다 굶주리다 배 잡고 잡다 일어나다 찬장 여 분카레 매운맛 매운맛이 호소력 짙다 짙 목소리 내어보 내어보내 내어보내고 있다 애쓰다 시선 피하다 등 돌리다 이번 이번에 냉장고 안 멸치 새우 쥐포 쥐포와 냉동만두 시조 읊다 것 아니다 눈물 나다 인간 허기 극 달 정신 나가다 수도 수 있다
+kbs2_gagcon	lolikyon	POST	pym6du8-yhya		2011-08-17	9월 17 17일 오후 한양대앞 한양게임센터 태고 달인 달이다 달 토너먼트 개최 자칭 태고 태 탑랭 탑랭들의 많다 참가 바라다 수도권 태고 태 고수 죄다 죄 모일 모이다 듯 구경 tagexclamation
+kbs2_gagcon	dovmfwlel7	POST	pym6e4_-yabih		2011-08-19	다들 어머니 좋으시구 허허허 나다 나 엄마 나 나다 브마도배 앨범싸지르는것 이해 공방뛰면 자퇴시킨댔고 빅뱅쇼 대성퐈 대성퐈가 노래부르는거 개그맨같댔고 엄마싯맣 tagsmile 막 여튼 그랬었음 tagsmile
+kbs2_gagcon	nanapro	POST	pym6eve-yn9v6		2011-08-17	김연 김연아 아이스쇼 귀걸이김연 아이스쇼 제이에스티 제이에스티나 귀걸이 김연 김연아 착용 귀걸이 귀걸 tagquestion 제이에스티 제이에스티나 티아 티아라 왕관 귀걸이 김연 김연아 아이스쇼 피버 김연 김연아 아이스쇼 오마주 투 코리아
+kbs2_gagcon	malt15	POST	pym6gc3-53oqr		2011-08-17	거기 거다 두분 토론 준비 잘 자다 되다 tagquestion 대회 시작 시간 약 10시 남다 저흰 아직 반론 잉여짓 잉여짓이네 tagsmile tagcry 화이팅 합세
+kbs2_gagcon	vankemono	POST	pym6gzi-_t17k		2011-08-17	누군가 나르다 나 애타다 부르다 소리 들다 들리다 굶주리다 배 잡고 잡다 일어나다 찬장 여 3분카레 매운맛 매운맛이 호소력 짙다 짙 목소리 내어보 내어보내 내어보내고 있다 애쓰다 시선 피하다 등 돌리다 이번 이번에 냉장고 안 멸치 새우 쥐포 쥐포와 냉동만두 시조 읊다 것 아니다 눈물 나다 인간 허기 극 달 정신 나가다 수도 수 있다
 kbs2_gagcon	keizie	POST	pym6i0r-3ci		2011-08-17	점심 먹 지금 하다 하 일과 일 전혀 다르다 분야 그동안 하다 알바 알바가 뭐 있다 얘기 나오다 그때그때 재밌었던 일들 일들이 생각 그때그때 이쁘다 누나 생각 나다 나 그땐 그랬지
-kbs2_gagcon	junghoonis	POST	pym6i1i-ybgv3		2011-08-19	상무님 왈 훈 저기 두번째 서랍 테이프 가져오다 뚜벅뚜벅 잠시후 후니왈 상부님 테이프 없다 tagsmile 상무 찾다 나오다 뒈지다 tagexclamation 헐 찾다 내 볼땐 정말 없다 tagcry 나이제 뒈지는거임tagquestion 헐 tagcry 불편 진실 여기서 끝 아니다 컴터 컴터가 이상 라 라고 컴잘하는사람 불렀는데 막상 고치러오면 멀쩡 멀쩡해지 불편 진실 tagcry 아놔 불편 진실 진짜 불편 tagcry tagsmile
-kbs2_gagcon	4465jm	POST	pym6i7n-_kylz		2011-08-17	년 월 일 성과 성
-kbs2_gagcon	vbdf12345678	POST	pym6i_y-5qqaq		2011-08-20	내가kbs개그맨 되다 개콘 변화 시청률 북 이야기 코너 생기다 장수코너 tagsmile
-kbs2_gagcon	chocomomhome	POST	pym6jhj-5yj5r		2011-08-17	년 월 일 오전 시 분 저장 글
+kbs2_gagcon	junghoonis	POST	pym6i1i-ybgv3		2011-08-19	상무님 왈 훈 저기 두번째 서랍 테이프 가져오다 뚜벅뚜벅 잠시후 후니왈 상부님 테이프 없다 tagsmile 상무 찾다 나오다 뒈지다 tagexclamation 헐 찾다 내 볼땐 정말 없다 tagcry 나이제 뒈지는거 뒈지는거임 tagquestion 헐 tagcry 불편 진실 여기서 끝 아니다 컴터 컴터가 이상 라 라고 컴잘하는사람 불렀는데 막상 고치러오면 멀쩡 멀쩡해지 불편 진실 tagcry 아놔 불편 진실 진짜 불편 tagcry tagsmile
+kbs2_gagcon	4465jm	POST	pym6i7n-_kylz		2011-08-17	2011년 8월 17일 17일의 성과 성
+kbs2_gagcon	vbdf12345678	POST	pym6i_y-5qqaq		2011-08-20	내가kbs 개그맨 되다 개콘 변화 시청률 33 북 이야기 코너 생기다 장수코너 tagsmile
+kbs2_gagcon	chocomomhome	POST	pym6jhj-5yj5r		2011-08-17	2011년 8월 17 17일 오전 10시 53분 53분에 저장 글
 kbs2_gagcon	jh20040412	POST	pym6kuz-5neug		2011-08-20	대출의달 울산일수 울산대출
 kbs2_gagcon	jh20040412	POST	pym6kvn-5neug		2011-08-20	대출의달 부산일수 부산대출
 kbs2_gagcon	psktch	POST	pym6lr_-uca3		2011-08-19	sk 팬들 팬들의 분노 왜 외다 극 달 달했 솔직 이렇게 할 하다 필요 없다 생각 이미 떠나다 지들 지들이 난리 치다 김성근 김성근은 돌아오다 않을건데 뭔 생각 저러는건지 지네 지다 구단 이미지 구기는거지 야구 마이데일리
 kbs2_gagcon	lees1592	POST	pym6mri-slh7		2011-08-20	용기 의인 쓰다 쓸다 오세훈 불출마 감추다 불편 진실 뎃글 daum아고 daum아고라
 kbs2_gagcon	dydgoon	POST	pym6ok_-5s4ne		2011-08-20	초 스피드 벌초 예초기 예초기의 달인 달이다 달 용군 tagsmile 어깨 주무르다 줄 주다 사람 사다
 kbs2_gagcon	chocomomhome	POST	pym6p2a-5yj5r		2011-08-17	저희초코 저희초코는 이러 이러고 자다 자 tagexclamation tagsmile
-kbs2_gagcon	chocomomhome	POST	pym6p8x-5yj5r		2011-08-17	비닐봉지 접다 tagexclamation
+kbs2_gagcon	chocomomhome	POST	pym6p8x-5yj5r		2011-08-17	비닐봉지 접다 2 tagexclamation
 kbs2_gagcon	asibalrjwu	POST	pym6ph8-5z77d		2011-08-19	그땐 그랬지
-kbs2_gagcon	yagiroom	POST	pym6q2l-v81c		2011-08-17	한여름밤의콘서트 낭만 낭 순천kbs개국기념 슈퍼스타k 김지수 그대 철 없다 장재 장재인 김지수
+kbs2_gagcon	yagiroom	POST	pym6q2l-v81c		2011-08-17	한여름밤의콘서트 낭만 낭 순천kbs 개국기념 슈퍼스타k 의 김지수 그대 철 없다 장재 장재인 김지수
 kbs2_gagcon	oskimsh1	POST	pym6qjb-5x229		2011-08-20	격반 개콘보다왓엌 tagsmile
 kbs2_gagcon	wndbdwls	POST	pym6rt0-_blia		2011-08-19	김범수 콘서트 전 가고싶었는데 선전 나오다 가고싶네 개콘 누나 대신간것 서러운데 나는가수다 명곡 김범수 김범수의 노래 노랗다 비록옛날꺼지 비록옛날꺼지만 약속 하루 진짜 좋다 돌아오다 너의약속 그것만 그것만으 살수 살수있어
 kbs2_gagcon	stallone201	POST	pym6s0u-_tqpf		2011-08-17	개콘헬스걸 개콘헬스걸
@@ -213,78 +213,78 @@ kbs2_gagcon	wcebn4	POST	pym6smc-yn1bz		2011-08-17	속기사 속기공무원 청�
 kbs2_gagcon	choco800406	POST	pym6u19-_3p9x		2011-08-20	홍삼 달인 달이다 달 물 홍삼수 물 마시다 홍삼수 하드 하드를 만들어먹어 만들어먹어요
 kbs2_gagcon	lydiaphs2	POST	pym6u3i-y0tf5		2011-08-20	불편 진실 여기서 끝 아니다
 kbs2_gagcon	mushroom	POST	pym6u7_-ezky		2011-08-19	노력 모습 멋지다 개그맨 tagsmile 더보기 판타스틱 헬스걸 웹
-kbs2_gagcon	05s0610	POST	pym6uba-5jpvd		2011-08-17	우 역시 비비드 비비드와 블링케이님 노트필기 달인이라 과언 아니야tagsmile tagcry 부러워 부럽다 나도 나다 나 그들 학기 노트필기 할꼬얌 tagsmile
-kbs2_gagcon	kao	POST	pym6uxn-uom_		2011-08-17	한국산 맥주 불편한진실 우리 맥주 아니다 탄산잡곡주 먹고있 글중 글중에 대박인건 진짜오줌먹어봤는데 한국산 맥주 맛있다 실제 한국맥주 점만점 맥주평가 점넘는게 아예 없다
-kbs2_gagcon	upriselife	POST	pym6vdn-izxk		2011-08-18	컴선생한테 전화옴 뭐 앨 대답 컴퓨터 조립방법 정독 있다 조립 달인 되다 컴퓨터 조립 끝판 왕 뭔지 알아tagquestion 알리 알리가 없다 그건 바 tagexclamation 라인 라 정리 tagexclamation 신선 충격 받다 라인 라 정리 옛날 공연팀 있을때 들다 단어지 오다 tagexclamation 내 라인 라 완전 깔끔 정리 인증샷 보내다 tagexclamation 라 라고 분기탱천 대답 하다 내일 내 뜯어보다 tagexclamation
-kbs2_gagcon	chocomomhome	POST	pym6wj0-5yj5r		2011-08-17	아이패드 를 같기위 같기위한 처절 몸부림 tagsmile 사기글 아니에 아니에요 tagexclamation
-kbs2_gagcon	ikojaens	POST	pym6xml-yummo		2011-08-19	맛점 하셨나요tagquestion tagexclamation 맛집찾 맛집찾아 헤메 헤메이 헤메이는 빵곰 빵곰이 간 가다 갈다 곳 생활 달인 달이다 달 최강달인 집 원래 유명 구즉 구즉의 할머니묵집 깔끔 육수 탱글탱글하다 묵 맛있다
+kbs2_gagcon	05s0610	POST	pym6uba-5jpvd		2011-08-17	우 역시 비비드 비비드와 블링케이님 노트필기 달인이라 과언 아니 tagsmile tagcry 부러워 부럽다 나도 나다 나 그들 2학기 노트필기 할꼬얌 tagsmile
+kbs2_gagcon	kao	POST	pym6uxn-uom_		2011-08-17	한국산 맥주 불편한진실 우리 맥주 아니다 탄산잡곡주 먹고있 글중 글중에 대박인건 진짜오줌먹어봤는데 한국산 맥주 맛있다 실제 한국맥주 5점만점 맥주평가 1점넘는게 아예 없다
+kbs2_gagcon	upriselife	POST	pym6vdn-izxk		2011-08-18	컴선생한테 전화옴 뭐 앨 대답 컴퓨터 조립방법 정독 있다 조립 달인 되다 컴퓨터 조립 끝판 왕 뭔지 알다 알 tagquestion 알리 알리가 없다 그건 바 tagexclamation 라인 라 정리 tagexclamation 신선 충격 받다 라인 라 정리 옛날 공연팀 있을때 들다 단어지 오다 tagexclamation 내 라인 라 완전 깔끔 정리 인증샷 보내다 tagexclamation 라 라고 분기탱천 대답 하다 내일 내 뜯어보다 tagexclamation
+kbs2_gagcon	chocomomhome	POST	pym6wj0-5yj5r		2011-08-17	아이패드2 를 같기위 같기위한 처절 몸부림 tagsmile 사기글 아니에 아니에요 tagexclamation
+kbs2_gagcon	ikojaens	POST	pym6xml-yummo		2011-08-19	맛점 하다 하셨 tagquestion tagexclamation 맛집찾 맛집찾아 헤메 헤메이 헤메이는 빵곰 빵곰이 간 가다 갈다 곳 생활 달인 달이다 달 최강달인 집 원래 유명 구즉 구즉의 할머니묵집 깔끔 육수 탱글탱글하다 묵 맛있다
 kbs2_gagcon	syuos	POST	pym6y6a-yulut		2011-08-20	싸인 싸인의 달인 달이다 달 순팽이닷컴
-kbs2_gagcon	uybnormal11	POST	pym6yl3-_m5z8		2011-08-17	보물찾기 달인 누구tagquestion 펀핑 tagexclamation 보물찾기 달인 누구tagquestion 펀핑 tagexclamation
-kbs2_gagcon	p1004ih	POST	pym6yvb-_9z9w		2011-08-17	단체생활 있다 발 관리 필쑤 안 알다 그럼 지독ᆞ끈질긴ᆞ더러븐 무좀이 무좀이가 괴롭히다 tagsmile 준비 나 분홍욕실신발 히힛tagsmile근데 익숙하다 습관 의하다 비록 냥 하우스 사 사다 오다 싸구리 싸구리일지 신고 시다 벗다 따 따로 챙기다 하다 새카맣다 까먹다 그대 두다 두 와버렸다 뒤늦다 발견 끙 도대체 몇 사람 사람이 내 내다 분홍이 분홍이를 신었을까 미안 저건 더이 내 내다 신발 아니 tagcry 기숙사 생활 불편 한데 하다 남다 남 배려해야 가장 기초적 소중 마음 배우니까tagsmile그나저 분홍 기증해야겄다 tagsmile
+kbs2_gagcon	uybnormal11	POST	pym6yl3-_m5z8		2011-08-17	보물찾기 달인 tagquestion 펀핑 tagexclamation 보물찾기 달인 tagquestion 펀핑 tagexclamation
+kbs2_gagcon	p1004ih	POST	pym6yvb-_9z9w		2011-08-17	단체생활 있다 발 관리 필쑤 안 알다 그럼 지독ᆞ끈질긴ᆞ더러븐 무좀이 무좀이가 괴롭히다 tagsmile 준비 나 분홍욕실신발 히힛 tagsmile 근데 익숙하다 습관 의하다 비록1000 냥 하우스 사 사다 오다 싸구리 싸구리일지 신고 시다 벗다 따 따로 챙기다 하다 새카맣다 까먹다 그대 두다 두 와버렸다 뒤늦다 발견 끙 도대체 몇 사람 사람이 내 내다 분홍이 분홍이를 신었을까 미안 저건 더이 내 내다 신발 아니 tagcry 기숙사 생활 불편 한데 하다 남다 남 배려해야 가장 기초적 소중 마음 배우다 tagsmile 그나저 그나저나 분홍 기증해야겄다 tagsmile
 kbs2_gagcon	unikon	POST	pym6z5c-h2n		2011-08-17	양산편 통도사 통도사의 소나무숲길 걸다
-kbs2_gagcon	whiseny0729	POST	pym6_88-_sale		2011-08-19	가다 가늘다 가 사람 있다 오다 오 사람 있다 그리다 현재 내 내다 곁 사람 더더 소중 여기는게 맞다 보다 자기 자다 탓 자기비하 하지 간사람 추억 고다 한켠에 가지다 가지 아 그땐 그랬지 라 라는 추억 되새겨보는게 어떨까요tagquestion 그리다 이번 이번에 간 가다 갈다 애들한테 해주고싶 해주고싶은 말다 말 있다 오다 내 중학생땐 미투자체 없다 미투 소중 사람 사다 만날기회 조차 우리 비 복받은거
-kbs2_gagcon	skadlftkdghl	POST	pym6_h1-5d885		2011-08-19	좀늦은감이없지않아있지만그래도우리미친님들에겐말해드려야할거 tagsmile 월 일그토록기다리고고대했던요즘에인기상승중이신연우신 tagexclamation 김연우님콘서트 를보고왔습니 를보고왔습니다 tagsmile후훗 폭풍입담미친몸개그토나올법한가창력 tagexclamation 이모든걸제두눈 tagexclamation 직접담아왔죠 tagcry 아 벌쓰다 주tagquestion정도가지났는데도헤어나오질못하고 tagcry 우윳빛깔김연우 tagexclamation 당신없인못살아 tagexclamation 연우신 tagcry
+kbs2_gagcon	whiseny0729	POST	pym6_88-_sale		2011-08-19	가다 가늘다 가 사람 있다 오다 오 사람 있다 그리다 현재 내 내다 곁 사람 더더 소중 여기는게 맞다 보다 자기 자다 탓 자기비하 하지 간사람 추억 고다 한켠에 가지다 가지 아 그땐 그랬지 라 라는 추억 되새겨보는게 어떨까 어떨까요 tagquestion 그리다 이번 이번에 간 가다 갈다 애들한테 해주고싶 해주고싶은 말다 말 있다 오다 내 중학생땐 미투자체 없다 미투 소중 사람 사다 만날기회 조차 우리 비 복받은거
+kbs2_gagcon	skadlftkdghl	POST	pym6_h1-5d885		2011-08-19	좀늦은감이없지않아있지만그래도우리미친님들에겐말해드려야할거 tagsmile 7월30 일그토록기다리고고대했던요즘에인기상승중이신연우신 tagexclamation 김연우님콘서트 를보고왔습니 를보고왔습니다 tagsmile 후훗 폭풍입담미친몸개그토나올법한가창력 tagexclamation 이모든걸제두눈 tagexclamation 직접담아왔죠 tagcry 아 벌써3 주 tagquestion 정도가지났는데도헤어나오질못하고 tagcry 우윳빛깔김연우 tagexclamation 당신없인못살아 tagexclamation 연우신 tagcry
 kbs2_gagcon	choco800406	POST	pym6_va-_3p9x		2011-08-20	홍삼 달인 달이다 달 물 홍삼수 물 마시다 홍삼수 개봉기
-kbs2_gagcon	dosa678	POST	pym95ty-_h8sy		2011-08-20	깹가죽 개 개다 파는사람 희소 뿐 가격 장난아님 장당 잡다 산다 산다나 뭐라 뭐라나 직접 얻는경우 아 주 극 확률 대장군의망령 줌 주다
-kbs2_gagcon	uybnormal11	POST	pym95wo-_m5z8		2011-08-20	보물찾기 달인 누구tagquestion 펀핑 tagexclamation 보물찾기 달인 누구tagquestion 펀핑 tagexclamation
+kbs2_gagcon	dosa678	POST	pym95ty-_h8sy		2011-08-20	깹가죽 5개 파는사람 희소 뿐 가격 장난아님 장당 800 잡다 산다 산다나 뭐라 뭐라나 직접 얻는경우 아 주 극 확률 대장군의망령 줌 주다
+kbs2_gagcon	uybnormal11	POST	pym95wo-_m5z8		2011-08-20	보물찾기 달인 tagquestion 펀핑 tagexclamation 보물찾기 달인 tagquestion 펀핑 tagexclamation
 kbs2_gagcon	pjy200324	POST	pym9cqk-53eg8		2011-08-20	tagsmile 사랑의리퀘스트개콘웃기닼 tagsmile
 kbs2_gagcon	hotvideo	POST	pym9dfm-uy8		2011-08-20	오락게임 달인 달이다 달 동영 오락게임 달인 달이다 달 동영
 kbs2_gagcon	einxh	POST	pym9do_-y2we7		2011-08-20	원문 einxh오락 달인 달이다 달 오늘 유머 오늘의유머 베스트 베오베 웃다 웃기다 자료 사진 사다 오유 저장소 오유저장소 todayhumor ou storage store 대박인듯 tagsmile 웹
 kbs2_gagcon	poup	POST	pym9f6u-23fc		2011-08-20	파마 달인 달이다 달 대박 인물 확 달라지다
-kbs2_gagcon	gkd83	POST	pym9fu6-ye7mt		2011-08-20	창민 개그콘서트 옴므 편집본 tagsmile 완전 멋있네 멋있네여 창민오빠 tagsmile
+kbs2_gagcon	gkd83	POST	pym9fu6-ye7mt		2011-08-20	창민 110814 개그콘서트 옴므 편집본 tagsmile 완전 멋있네 멋있네여 창민오빠 tagsmile
 kbs2_gagcon	vrtemjin	POST	pym9kt1-y35_t		2011-08-20	비상대책위원회 시간 없다 웹
 kbs2_gagcon	kayo448	POST	pym9l_o-5ho4o		2011-08-20	도전 tagexclamation 최고가매입 업소용중고주방전문 식기세척기 제빙기 빙삭기 아이스크림기기 피자오븐 진공포장기 튀김기 업소냉장고 냉동고 에어컨 저장고 숙성고 낙농고 간택기 사리냉각기 반죽기 냉면기 발효기 중화렌지 회전식국솥 쇼케이스 작업대 진열장 커피머신 의자 탁자 토탈매입
 kbs2_gagcon	orangeme2	POST	pym9m57-yyasw		2011-08-20	짧동킴씨스터즈 김우리 영어회화 달인 달이다 달 짧동 shannon
-kbs2_gagcon	dkfjqtmdrl	POST	pym9mp2-yh1ay		2011-08-20	일박이 일박이일 개월뒤 종영 내사랑일박이일 어찌이렇게 tagcry 승기 강심장 못보자나잉 tagcry 일요일kbs 개그콘서트 남지않겠구 tagcry 개인적생각 tagcry
+kbs2_gagcon	dkfjqtmdrl	POST	pym9mp2-yh1ay		2011-08-20	일박이 일박이일 6개월뒤 종영 내사랑일박이일 어찌이렇게 tagcry 승기 강심장 못보자나잉 tagcry 일요일kbs 늘다 개그콘서트 남지않겠구 tagcry 개인적생각 tagcry
 kbs2_gagcon	heeya124	POST	pym9o81-aur4		2011-08-20	탑기어코리아 국내최초 자동차 버라이어티쇼 기자간담회
-kbs2_gagcon	webhosting	POST	pym9rix-4_ac		2011-08-20	원문 허미영 개그우먼 허미영 슈스케 탈락 타다 방송중단 선언tagquestion 개그우먼 허미영 허미영이 슈퍼스타k 도전 도전했으 탈락 고배 말다 일 방송 mnet 슈퍼스타k 에서 에서는 kbs 개그맨 공채 기 허미영 모습 드러내다 웹
-kbs2_gagcon	chocomomhome	POST	pym9sev-5yj5r		2011-08-20	번쨰 휴가 안면 tagsmile
+kbs2_gagcon	webhosting	POST	pym9rix-4_ac		2011-08-20	원문 허미영 개그우먼 허미영 슈스케3 탈락 타다 방송중단 선언 tagquestion 개그우먼 허미영 허미영이 슈퍼스타k3 도전 도전했으 탈락 고배 말다 19 19일 방송 mnet 슈퍼스타k3 에서 에서는 kbs 개그맨 공채 22기 허미영 30 모습 드러내다 웹
+kbs2_gagcon	chocomomhome	POST	pym9sev-5yj5r		2011-08-20	3번쨰 휴가 안면 tagsmile
 kbs2_gagcon	mrm1234	POST	pym9vw9-5ibaw		2011-08-20	개콘 서울메이트 미치겠닼 tagsmile 시골케이킄 tagsmile
-kbs2_gagcon	eanong	POST	pymb0a5-5np4v		2011-08-19	pm show 회 혼자놀기 달인 달이다 달 우영도사 모시다
+kbs2_gagcon	eanong	POST	pymb0a5-5np4v		2011-08-19	2pm show 7회 혼자놀기 달인 달이다 달 우영도사 모시다
 kbs2_gagcon	hy0396	POST	pymb1au-yxmcj		2011-08-19	ovjet 극동빌딩 극 ovjet 극동빌딩 부산광역시 동구 초량동
 kbs2_gagcon	winam_p	POST	pymb3cn-vysr		2011-08-20	캔블럭 므찐 카트라이더 tagexclamation ㄷㄷ 운전 달인 달이다 달
-kbs2_gagcon	insos02	POST	pymb6cc-_8lnw		2011-08-19	개그콘서트 다시보기 개콘무료 다시보기 개그콘서트 다시보기 개콘무료 다시보기
-kbs2_gagcon	lovepapa21	POST	pymb8rs-57q1c		2011-08-20	슈퍼스타k 회 허미영 개그콘서트 출연 개그우먼 tagexclamation 이승철 독설 tagexclamation
+kbs2_gagcon	insos02	POST	pymb6cc-_8lnw		2011-08-19	개그콘서트 다시보기 2011-08-14 개콘무료 다시보기 개그콘서트 다시보기 2011-08-14 개콘무료 다시보기
+kbs2_gagcon	lovepapa21	POST	pymb8rs-57q1c		2011-08-20	슈퍼스타k3 2회 허미영 개그콘서트 출연 개그우먼 tagexclamation 이승철 독설 tagexclamation
 kbs2_gagcon	scarlet79	POST	pymbah9-2n__		2011-08-19	스킷 드라마란 교회 혹 단체 집회 시간 회중 설교자 설교 를 전후 짧다 시간 상연 극 희곡 일정 기승전결의 기승전결 구성 형식 구애 않다 설교 주제 대한 대하다 동기 부 부여 문제 제기 전달 목적 하 하다 늘다 연극 한 하다 형태
 kbs2_gagcon	kjakfldh	POST	pymbc7k-yw1pu		2011-08-20	생활 달인 달이다 달 보다 자꾸 눈물 나려그런다 존경 달이다 달 우리나라 움직이시는분
 kbs2_gagcon	hanbee7	POST	pymbgaf-mp68		2011-08-20	나도 나다 나 여자랍니 잔꽃무늬 보넷 인터넷 아기용품찾기 달인 달이다 달 되다
 kbs2_gagcon	hybang76	POST	pymbidn-_y6jy		2011-08-20	달인을보고있노라면 진정 지금 이 살다 안되다 다지다 다짐 조금씩 회복 서두르다 않을꺼야
-kbs2_gagcon	leejungin199	POST	pymbijz-55bu9		2011-08-20	개콘대게 웃다 웃기다 웃기 tagsmile 개콘보는분 tagquestion 개콘vs웃찻사
-kbs2_gagcon	man4707	POST	pymbiu9-jt2j		2011-08-20	원문 오세훈 대통령 불출마 선언 감추다 진실tagquestion 용기 의인 의 헤럴드경제 김수 김수한 기자 쓰다 쓸다 오세훈 불출마 감추다 불편 진실 년 월 일 웹
-kbs2_gagcon	man4707	POST	pymbiur-jt2j		2011-08-20	오세훈 대통령 불출마 선언 감추다 진실tagquestion 용기 의인 의 헤럴드경제 김수 김수한 기자 쓰다 쓸다 오세훈 불출마 감추다 불편 진실 년 월 일 웹
+kbs2_gagcon	leejungin199	POST	pymbijz-55bu9		2011-08-20	개콘대게 웃다 웃기다 웃기 tagsmile 개콘보는분 tagquestion 개콘vs 웃찻사
+kbs2_gagcon	man4707	POST	pymbiu9-jt2j		2011-08-20	원문 오세훈 대통령 불출마 선언 감추다 진실 tagquestion 용기 의인 의 헤럴드경제 김수 김수한 기자 쓰다 쓸다 오세훈 불출마 감추다 불편 진실 2011년 8월 10 10일 웹
+kbs2_gagcon	man4707	POST	pymbiur-jt2j		2011-08-20	오세훈 대통령 불출마 선언 감추다 진실 tagquestion 용기 의인 의 헤럴드경제 김수 김수한 기자 쓰다 쓸다 오세훈 불출마 감추다 불편 진실 2011년 8월 10 10일 웹
 kbs2_gagcon	carrot4321	POST	pymbk4v-5ucf4		2011-08-19	아 심심 tagcry 영어학원 가다 싫엉 tagcry 숙제 많다 얻는게 없다 불편 진실
 kbs2_gagcon	bback423	POST	pymbkz6-_68sf		2011-08-19	동물원 가다 가 가보 게임 보고 보다 보 달인 맛나다 맛 우동 우동도 맛보다 즐겁다 하루 tagexclamation 담 경기 참치 씨제이 씨제이의 우승경기 바라다
 kbs2_gagcon	mks4308	POST	pymbmk3-51_o6		2011-08-20	자극 상한 상 감정 극 달 할 하다 때 찰나 인내 심 시다 daum블로그
 kbs2_gagcon	mks4308	POST	pymbmku-51_o6		2011-08-20	자극 상한 상 감정 극 달 할 하다 때 찰나 인내 심 시다
 kbs2_gagcon	jiyeonimetoo	POST	pymbnnh-_5qql		2011-08-20	미치다 하 tagsmile 개그콘서트진짜잼다니까 지금개콘재방보는중
-kbs2_gagcon	unlock_heart	POST	pymbo2s-_q1k7		2011-08-19	몰랐는데 박명수 권지용 권지용이 이번 음반작업 찍다 사진보니까 자세 보다 권지용 권지용이 작다 권지용 키 보다 cm 박명수 cm쯤tagquestion 근데 권지용 거짓말음반 내기전 네이버키 네이버키가 cm라던데 ㄷㄷ 사람 추측한거 실제키 실제키가 cm 불편 진실
+kbs2_gagcon	unlock_heart	POST	pymbo2s-_q1k7		2011-08-19	몰랐는데 박명수 권지용 권지용이 이번 음반작업 찍다 사진보니까 자세 보다 권지용 권지용이 작다 권지용 키 보다 177cm 박명수 170cm쯤 tagquestion 근데 권지용 거짓말음반 내기전 네이버키 네이버키가 170cm라던데 ㄷㄷ 사람 추측한거 실제키 실제키가 167cm 불편 진실
 kbs2_gagcon	twejqmf123	POST	pymbpvf-59rc6		2011-08-19	유애나 유애나와 러브유 러브유에 가입 정작 가입 후 에다 등급 낮다 할수 있는게 없다 불편 진실
-kbs2_gagcon	beramod	POST	pymbpvm-ydpf6		2011-08-20	이현 이현도 사자후 극과극 ost 네이버앱 음악검색 집 do
-kbs2_gagcon	stylisthanul	POST	pymbqbe-_w5s7		2011-08-19	환희 비밀 연애 달인tagquestion 후배 아이돌 아이돌에 연애 노하우 전수 tagexclamation
+kbs2_gagcon	beramod	POST	pymbpvm-ydpf6		2011-08-20	이현 이현도 사자후 극과극 ost 네이버앱 음악검색 1집 do
+kbs2_gagcon	stylisthanul	POST	pymbqbe-_w5s7		2011-08-19	환희 비밀 연애 달인 달이다 달 tagquestion 후배 아이돌 아이돌에 연애 노하우 전수 tagexclamation
 kbs2_gagcon	dylos	POST	pymbrfi-5kr3r		2011-08-20	왤케 웃기짘 tagsmile 생활의달 tagsmile 생존력 깨알돋음 tagsmile
 kbs2_gagcon	kayo448	POST	pymbs0w-5ho4o		2011-08-19	톡 tagexclamation 최고가매입 업소용중고주방전문 육절기 커피머신 제빙기 콤백션오븐 컴비스티머 빙삭기 아이스크림기기 골절기 저장고 숙성고 슬러시 햄슬라이서 쇼케이스 튀김기 부침다 부침다이 식기세척기 의자 탁자 그릇 업소냉장고 냉동고 에어컨 다 사다 tagexclamation
-kbs2_gagcon	reed0903	POST	pymbs2r-b0yd		2011-08-20	mc mc라 위치 필요 자질 순간적 재치 말주변 리더십 그리다 무엇 중요 편안 아닐까tagquestion 국민mc 불리다 불리 사람들중 개그맨 많은걸지 많은걸지도 그들 나르다 나 낮추다 망가지다 두려워 두려워하지 않다 사람 때문 때문에 미투광장 자기소개 직딩 새벽미투 치매
-kbs2_gagcon	jooflo	POST	pymbwo5-5y9kv		2011-08-19	이번주 주일 주 초록손수건 행사때 데코 데코로 사용 초록리본 tagexclamation 어제 오늘 개 개다 뚝딱만들기tagsmile 가다 이제 이쁘다 장식 일 남다 난 나다 날다 리본만들기 달인 달이다 달 tagsmile
+kbs2_gagcon	reed0903	POST	pymbs2r-b0yd		2011-08-20	mc mc라 위치 필요 자질 순간적 재치 말주변 리더십 그리다 무엇 중요 편안 아니다 tagquestion 국민mc 라 불리다 불리 사람들중 개그맨 많은걸지 많은걸지도 그들 나르다 나 낮추다 망가지다 두려워 두려워하지 않다 사람 때문 때문에 2030 미투광장 자기소개 직딩 새벽미투 치매
+kbs2_gagcon	jooflo	POST	pymbwo5-5y9kv		2011-08-19	이번주 주일 주 초록손수건 행사때 데코 데코로 사용 초록리본 tagexclamation 어제 오늘 150개 뚝딱만들기 tagsmile 가다 이제 이쁘다 장식 일 남다 난 나다 날다 리본만들기 달인 달이다 달 tagsmile
 kbs2_gagcon	jihwon0723	POST	pymby6_-_0l9c		2011-08-19	인형이랑놀기 달인등극 tagexclamation 고맙다 심상희
-kbs2_gagcon	dlrngksk98	POST	pymbzqo-0u7_		2011-08-19	아아이ㅣ니시신ᆞㄱ니ㅣㅡ댓지ㅡㅂㄴㅂㄷ극ㄷㄴㄷㅅᆞㅈㅅㄱㅅㅂ 심심행
-kbs2_gagcon	aroneforu	POST	pymb_aa-_tjvp		2011-08-19	관광통역안내사전문학원외국인 관광통역안내사전문학원외국 블로거 블로거와 함 수원화성 박 일
-kbs2_gagcon	sub06179	POST	pymb_up-56_w2		2011-08-19	티스토어 들어가다 초밥으달인tagquestion다운 tagsmile
+kbs2_gagcon	dlrngksk98	POST	pymbzqo-0u7_		2011-08-19	아아 아아이 ㅣ 니시신ᆞ ㄱ 니 ㅣㅡ 댓지 ㅡㅂㄴㅂㄷ 극 ㄷㄴㄷㅅ ᆞ ㅈㅅㄱㅅㅂ 심심행
+kbs2_gagcon	aroneforu	POST	pymb_aa-_tjvp		2011-08-19	관광통역안내사전문학원외국인 관광통역안내사전문학원외국 블로거 블로거와 함 수원화성 1박2 일
+kbs2_gagcon	sub06179	POST	pymb_up-56_w2		2011-08-19	티스토어 들어가다 초밥으달 tagquestion 다운 tagsmile
 kbs2_gagcon	bbaab1208	POST	pymd0de-_rc6v		2011-08-15	인포스캔 아직 아직도 우린 벌거벗다 임금님 tagexclamation 개인정보 유출 불러오다 전 절다 국민 알고싶어 불편한진실 그리다 개인정보 유출 대처법
 kbs2_gagcon	tnfbxks3	POST	pymd0h5-y7j_x		2011-08-15	요즘 저학년 애들 애들은 어렸을때부터 인터넷 볼거 못볼거 다봐서 결국 그게 자기 밴거예 밴거예요 이게 정보화사회의 정보화사회 단점 단점 근데 못볼걸 보게한사람 안그랬다면 애들 애들도 안그랬지
 kbs2_gagcon	kyoungt70	POST	pymd0mo-bxvq		2011-08-15	원문 개콘 비상대책위원회 사회풍자 웃기다 씁쓸 웹
-kbs2_gagcon	mmmjjj38	POST	pymd0nw-y0bnb		2011-08-15	놀러오다 나 미투 여러분 무엇 하고계신가요tagquestion황금 주말 오늘 광복절 불편 진실 내일 나가야한다는거 알고계시죠tagquestion열심 일하다 일 공부 하다 좋은결과 열심히열심히 열심히열심 공부 일 해보자구 그리다 황금 방학
+kbs2_gagcon	mmmjjj38	POST	pymd0nw-y0bnb		2011-08-15	놀러오다 나 미투 여러분 무엇 하고계신가 하고계신가요 tagquestion 황금 주말 오늘 광복절 불편 진실 내일 나가야한다는거 알고계시죠 tagquestion 일하다 일 공부 하다 좋은결과 열심히열심히 열심히열심 공부 일 해보자구 그리다 황금 방학
 kbs2_gagcon	wonseoc	POST	pymd1c7-xt_j		2011-08-15	너님 너님은 뻘짓 뻘짓의 달인 달이다 달
 kbs2_gagcon	stepandstep	POST	pymd1gb-gr_j		2011-08-15	오늘 일요일 불편 진실 개콘이할꺼 개콘이할꺼같다 개콘이할꺼같다는 불편 진실
-kbs2_gagcon	stonekim1	POST	pymd2b1-yi5dg		2011-08-17	모르다 번아님 번 벌다 찍다 되다 번모두 같다 지문 불편한진실
+kbs2_gagcon	stonekim1	POST	pymd2b1-yi5dg		2011-08-17	모르다 3번아님 4번 찍다 되다 3,4번모두 같다 지문 불편한진실
 kbs2_gagcon	dntektmxkdlf	POST	pymd2w3-ymhhf		2011-08-15	헬스걸 변화 공개
-kbs2_gagcon	tprnjs7060	POST	pymd3tp-5n0yd		2011-08-15	공생발전 여야 여 반응 극 극 공생발전 통하다 친서민 정책 강화 부자감세 철회 않다 공생발전 은 말잔치
-kbs2_gagcon	ashley3355	POST	pymd5i8-_pyib		2011-08-15	일요일 보고 보다 보 싶다 tv프로그램 많다 런닝맨 나가수 키앤크 박 일 개콘 다 싶어 싶다 tagexclamation
-kbs2_gagcon	sanoske0501	POST	pymd60n-_eq67		2011-08-18	지혜롭다 비루 비루한 인간 쫒아 쫒아내 쫒아내며 도도 동전 거스르다 던지다 뒤 나 엄청나다 엄청 상상력 갖은표정 만들어 만들어내 셀카 셀카를 찍다 셀카 셀카의 달인 되다 갖고싶 갖고싶은 것 문화생활 돈 없다 못즐긴다 못즐긴다는 진실 정도 나오늘 뭐니tagquestion tagsmile
-kbs2_gagcon	iyousens	POST	pymd65a-yq85k		2011-08-17	다시보기 개그콘서트개그콘서트 개콘 월 일 방송분 다시보기
-kbs2_gagcon	yeji2121	POST	pymd73u-5uo4		2011-08-17	흐응tagquestion 달인 언제 꼬꼬달인 된거지tagquestion
+kbs2_gagcon	tprnjs7060	POST	pymd3tp-5n0yd		2011-08-15	대통령 공생발전 여야 여 반응 극 극 공생발전 통하다 친서민 정책 강화 부자감세 철회 않다 공생발전 은 말잔치
+kbs2_gagcon	ashley3355	POST	pymd5i8-_pyib		2011-08-15	일요일 보고 보다 보 싶다 tv프로그램 많다 런닝맨 나가수 키앤크 1박2 일 개콘 다 싶어 싶다 tagexclamation
+kbs2_gagcon	sanoske0501	POST	pymd60n-_eq67		2011-08-18	지혜롭다 비루 비루한 인간 쫒아 쫒아내 쫒아내며 도도 동전 거스르다 던지다 뒤 나 엄청나다 엄청 상상력 갖은표정 만들어 만들어내 셀카 셀카를 찍다 셀카 셀카의 달인 되다 갖고싶 갖고싶은 것 문화생활 돈 없다 못즐긴다 못즐긴다는 진실 정도 나오늘 뭐 tagquestion tagsmile
+kbs2_gagcon	iyousens	POST	pymd65a-yq85k		2011-08-17	다시보기 개그콘서트개그콘서트 개콘 8월14 일 방송분 다시보기
+kbs2_gagcon	yeji2121	POST	pymd73u-5uo4		2011-08-17	흐응 tagquestion 달인 언제 꼬꼬달인 된거지 tagquestion
 kbs2_gagcon	didtkdgur875	POST	pymd79k-guqy		2011-08-16	헬스걸 몸무게 변화
-kbs2_gagcon	ggolmi	POST	pymd7kl-_era8		2011-08-16	개콘 헬스걸 변화 공개 대박 http www newsway kr news articleview htmltagquestionidxno newsway
-kbs2_gagcon	dmemal1	POST	pymd7su-yhk6		2011-08-17	벽반 벽반의 달인 달이다 달 tagquestion 인 나 엄청나다 엄청 위기 옴ㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷ 내 내다 일 개 개다 학 하다
+kbs2_gagcon	ggolmi	POST	pymd7kl-_era8		2011-08-16	개콘 헬스걸 변화 공개 대박 http www.newsway.kr news articleview.html tagquestion idxno 128242 newsway
+kbs2_gagcon	dmemal1	POST	pymd7su-yhk6		2011-08-17	벽반 벽반의 달인 달이다 달 tagquestion 인 나 엄청나다 엄청 위기 옴 오다 ㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷ 내 내다 일 개 개다 학 하다
 kbs2_gagcon	dntektmxkdlf	POST	pymd830-ymhhf		2011-08-15	개콘 비상대책위원회
 kbs2_gagcon	dntektmxkdlf	POST	pymd8cb-ymhhf		2011-08-15	개그콘서트 감사
 kbs2_gagcon	jin2647925	POST	pymd8w0-_6r4f		2011-08-15	할거 잠 자자 뭔가 이시 이시간을 좀더 즐기고싶다 즐기고싶다는 느낌 느끼다 공휴일 이렇게 보내다 아쉽다 tagsmile 극
@@ -292,125 +292,125 @@ kbs2_gagcon	bijhll	POST	pymda66-5k2jh		2011-08-16	연금복권 불편 진실
 kbs2_gagcon	qaan	POST	pymdahk-oe_r		2011-08-15	기술력 극 달 영화 게임 어느정 어느정도 통합될것이당
 kbs2_gagcon	55shop	POST	pymdakv-5j8si		2011-08-17	개콘 헬스걸 다이어트 식단 식다 방법 감량 진행 사진 사다
 kbs2_gagcon	21smj	POST	pymdaz7-5jwqi		2011-08-18	tagsmile 근데 안넘어 가다 갈다 불편 진실
-kbs2_gagcon	herrison79	POST	pymdb7g-yszzl		2011-08-15	오늘 일요일 알다 아까 일박이일 나는가수 안하다 티비틀어 티비틀어보 아차싶은걸 그당새 잊다 또 쫌전까지는 개그콘서트 기다리다 tagsmile 연휴잘 보내셨죠tagquestion 우리 내일 또 빵터져보아 빵터져보아요 언제부터 언제부터인가 연휴 싫다 tagcry 나이든건가 쩝 tagsmile 굿밤 되다
+kbs2_gagcon	herrison79	POST	pymdb7g-yszzl		2011-08-15	오늘 일요일 알다 아까 일박이일 나는가수 안하다 티비틀어 티비틀어보 아차싶은걸 그당새 잊다 또 쫌전까지는 개그콘서트 기다리다 tagsmile 연휴잘 보내셨죠 tagquestion 우리 내일 또 빵터져보아 빵터져보아요 언제부터 언제부터인가 연휴 싫다 tagcry 나이든건가 쩝 tagsmile 굿밤 되다
 kbs2_gagcon	yamae453	POST	pymdcrl-ynvbh		2011-08-16	어리다 때 목 있다 동맥 경동맥 조이다 눈 누다 앞 점점 껌껌해지면서 픽 쓰러지다 느끼다 느낌 좋다 코드줄 코드줄로 매일매일 매일매 내 내다 목 휘감다 내 왜 외다 그랬지 뇌세포 더럽다 많다 죽었을덧 tagcry
 kbs2_gagcon	bogo8690	POST	pymddkv-ympr3		2011-08-15	좋다 점장님 안계시면 선임 내 왕 오늘 마감 빨다 치다 점장님 바뀌시기전 초고속 마감 달인 알바 알바들의 무한 신뢰 받다 프린 프린이
-kbs2_gagcon	subjohn	POST	pymddk_-yqhv6		2011-08-17	tagsmile 층 아는데 떡 하다 하 라 라고 써 써있는 불편 진실 tagsmile
-kbs2_gagcon	dnsjwn544	POST	pymddx6-53y8m		2011-08-15	유혹 달인 달이다 달 이런책 여자버전은없나요tagquestion너무솔직한책인듯 네이버책 유혹 달인 달이다 달 me book
+kbs2_gagcon	subjohn	POST	pymddk_-yqhv6		2011-08-17	tagsmile 2층인줄 아는데 떡 하니2 라 라고 써 써있는 불편 진실 tagsmile
+kbs2_gagcon	dnsjwn544	POST	pymddx6-53y8m		2011-08-15	유혹 달인 달이다 달 이런책 여자버전은 tagquestion 너무솔직한책인듯 네이버책 유혹 달인 달이다 달
 kbs2_gagcon	kyoungt70	POST	pymdd_q-bxvq		2011-08-15	원문 이승윤 헬스걸 헬스걸의 몸꽝 뱃살실종 변화 모습 공개 tagexclamation 놀랍다 웹
 kbs2_gagcon	mbcnews	POST	pymde5q-5khhg		2011-08-15	짧다 짧거 기다 길거 극 극 여름 패션 하의실종 핫팬츠 핫팬츠와 발목 내려오다 치렁치렁 맥시 스커트 안드로이드 아이폰
-kbs2_gagcon	malsuk4708	POST	pymde64-_gx4c		2011-08-15	생활 달인 오늘 회특집 회특집인데 위기탈출 넘버원 다음주 회특집 미묘햏
-kbs2_gagcon	hatbit29	POST	pymdem3-e9b_		2011-08-15	브라질 스페 스페인 유럽 빅 리그 최고 패스 달인 달이다 달 은 누구tagquestion
+kbs2_gagcon	malsuk4708	POST	pymde64-_gx4c		2011-08-15	생활 달인 오늘 300회특집 위기탈출 넘버원 다음주 300회특집 미묘햏
+kbs2_gagcon	hatbit29	POST	pymdem3-e9b_		2011-08-15	브라질 스페 스페인 유럽 빅 5리그 최고 패스 달인 달이다 달 은 tagquestion
 kbs2_gagcon	kayo448	POST	pymdeqf-5ho4o		2011-08-15	알리다 최고가매입 업소용중고주방전문 식기세척기 커피머신 육절기 진공포장기 음료냉장고 업소냉장고 냉동고 에어컨 쇼케이스 콤백션오븐 컴비스티머 작업대 진열장 간택기 중화렌지 사리냉각기 회전식국솥 제빙기 빙삭기 아이스크림기기 커피볶는기계 의자 탁자 튀김기 반죽기 발효기 몽
 kbs2_gagcon	gpdnjs0805	POST	pymdf9g-yzo0u		2011-08-15	어제개그콘서트를봤어야
 kbs2_gagcon	bcc	POST	pymdfsf-__		2011-08-17	김밥말던 솜씨 그대 포장 달인 달이다 달 님 감사르 tagsmile 밥값 하다 어흑
 kbs2_gagcon	webhosting	POST	pymdfv2-4_ac		2011-08-15	원문 이육사 절정 서현진 이육사 이육사의 여인 여 안일양 역 완벽 소화 이육사 이육사의 일대기 그린 그리다 드라마 극 중 서현진 서현진은 이육사 김동완 없다 부잣집 태어나다 이육사 이육사의 아내 되다 평생 동안 옥살이 인해 기다 폐렴 걸리다 이육 웹
-kbs2_gagcon	darkacan7	POST	pymdhn4-5ln09		2011-08-16	그대 정말 한점 부끄럼 사람이라면당신 비난하는사람 무언가문제 있다 거겠죠tagquestion불편 진실을마주 용기 없다 이들 당신에겐 진심이란심장 뛰다 있나요tagquestion
-kbs2_gagcon	einstein_tr	POST	pymdi2t-c97k		2011-08-18	웃찾사 웃찾사가 개콘한테 진 지다 이유
+kbs2_gagcon	darkacan7	POST	pymdhn4-5ln09		2011-08-16	그대 정말 한점 부끄럼 사람이라면당신 비난하는사람 무언가문제 있다 거겠죠 tagquestion 불편 진실을마주 용기 없다 이들 당신에겐 진심이란심장 뛰다 있다 있 tagquestion
+kbs2_gagcon	einstein_tr	POST	pymdi2t-c97k		2011-08-18	웃찾사 웃찾사가 개콘한테 진 지다 이유 1
 kbs2_gagcon	looktique	POST	pymdi39-_p6s4		2011-08-15	극 극 김선아 김선아의 반전 패션 여인 향기 물씬
-kbs2_gagcon	einstein_tr	POST	pymdinf-c97k		2011-08-18	웃찾사 웃찾사가 개콘한테 진 지다 이유
+kbs2_gagcon	einstein_tr	POST	pymdinf-c97k		2011-08-18	웃찾사 웃찾사가 개콘한테 진 지다 이유 2
 kbs2_gagcon	xlslrjftm1	POST	pymdj4q-_bejb		2011-08-15	극 뽀 옥 tagexclamation 예 tagexclamation 순간 날라갔던 사진 사다 데이터 모두 돌아오다 예압 tagexclamation 호호호 tagexclamation 예 tagexclamation
 kbs2_gagcon	alzlspzlxl	POST	pymdkhd-ye6zl		2011-08-15	혼자 놀다 달인 달이다 달 tagsmile
 kbs2_gagcon	hyhy227	POST	pymdkqo-y14rm		2011-08-15	헬스걸 변화 공개
 kbs2_gagcon	ekgmlthfl	POST	pymdkuz-5nb47		2011-08-15	과목별계획 공부 책 자투리시간 핸드폰x 야자최대한활용 마인드컨트롤 티비는무도개콘 티비는무도개콘만
-kbs2_gagcon	palzzo	POST	pymdl6r-l1h4		2011-08-16	달인 주식 노가리 kb 금융 무섭다 속도 상승중 상승 선 손절할려고 손절할려고합니 손절할려고합니다 오후 부터 부터는 좀떨어지지않을까예상하넹
-kbs2_gagcon	hello_oasha	POST	pymdlo6-54qm0		2011-08-17	자기소개 tagsmile 불사조 언니 부르다 그런데 왜 외다 달인 달이다 달 에서 꼬꼬 가 가다 앞 붙은거야tagquestion 궁금 이제 물어보다 악 은근 우리 이야기 안했닼 tagsmile 뭐지 엄청 친하다 느끼다 느낌 드는데 흠 나 그런건가 아마 언니 사람 편하다 하다 무언가가 있다 그런가tagquestion
+kbs2_gagcon	palzzo	POST	pymdl6r-l1h4		2011-08-16	달인 주식 노가리 2 kb 금융 무섭다 속도 상승중 7 상승 43000선 손절할려고 손절할려고합니 손절할려고합니다 오후 부터 부터는 좀떨어지지않을까예상하넹
+kbs2_gagcon	hello_oasha	POST	pymdlo6-54qm0		2011-08-17	자기소개 tagsmile 불사조 언니 부르다 그런데 왜 외다 달인 달이다 달 에서 꼬꼬 가 가다 앞 붙은거 붙은거야 tagquestion 궁금 이제 물어보다 악 은근 우리 이야기 안했닼 tagsmile 뭐지 엄청 친하다 느끼다 느낌 드는데 흠 나 그런건가 아마 언니 사람 편하다 하다 무언가가 있다 그런가 tagquestion
 kbs2_gagcon	imyebin42	POST	pymdm1h-358q		2011-08-17	숨다 숨기다 숨기 싶다 광고 속 불편 진실
 kbs2_gagcon	barbara_a	POST	pymdnfi-5yb67		2011-08-18	하이스쿨뮤지컬ost 악보 구하다 tagexclamation 앗싸 tagexclamation 좋다 죽다 tagexclamation
-kbs2_gagcon	sa_mir	POST	pymdoxr-5bcm3		2011-08-18	박 일도 일 반 남도진미 tagexclamation 휴가철 피 피로 낙지 극 뽁 tagexclamation 쓰러지다 소도 소 일으키다 낙지네 낙지네요 tagsmile 호롱구 호롱구이 죽음인데 daum소셜쇼핑
-kbs2_gagcon	dong	POST	pymdq37-x_p		2011-08-15	헬스걸 다이어트 주차 몸매변화 공개 믿을수
-kbs2_gagcon	deaegi	POST	pymdqg5-2vxt		2011-08-18	보물찾기 달인 누구tagquestion 펀핑 tagexclamation 보물찾기 달인 누구tagquestion 펀핑 tagexclamation
+kbs2_gagcon	sa_mir	POST	pymdoxr-5bcm3		2011-08-18	1박2 일도 일 반 남도진미 tagexclamation 휴가철 피 피로 낙지 극 뽁 tagexclamation 쓰러지다 소도 소 일으키다 낙지네 낙지네요 tagsmile 호롱구 호롱구이 죽음인데 daum소셜쇼핑
+kbs2_gagcon	dong	POST	pymdq37-x_p		2011-08-15	헬스걸 다이어트 6주차 몸매변화 공개 믿을수
+kbs2_gagcon	deaegi	POST	pymdqg5-2vxt		2011-08-18	보물찾기 달인 tagquestion 펀핑 tagexclamation 보물찾기 달인 tagquestion 펀핑 tagexclamation
 kbs2_gagcon	vbdf12345678	POST	pymdqz7-5qqaq		2011-08-18	식신흉내내 금방 들키다 불편한진실
-kbs2_gagcon	lovebk1005	POST	pymdsk4-5_a3s		2011-08-18	ㅇㅇ노무법인 직원 직장인 직장 신용대출 sc스탠다드캐피탈 김정환팀장
+kbs2_gagcon	lovebk1005	POST	pymdsk4-5_a3s		2011-08-18	ㅇㅇ 노무법인 노무법 직원 직장인 직장 신용대출 sc스탠다드캐피탈 김정환팀장 010-3520-0711
 kbs2_gagcon	ibsool2	POST	pymdt3v-56yjr		2011-08-16	헬스걸 변화 공개 헬스걸 변화 공개 정말 대단
 kbs2_gagcon	dpqls2151	POST	pymdu1v-o8n4		2011-08-15	나다 나 인강을들으러왔으 인강을들으러왔으나 여태껏 한짓이 나다 나 크다 대한민국 형사 될것 될것이므 될것이므로 경찰대학교 가기위 가기위해서 공부 열심히해야할수없지아니할수 서울메이트
 kbs2_gagcon	frompic	POST	pymdu7l-_d1bz		2011-08-17	심심이의 불편 진실
-kbs2_gagcon	ideogus	POST	pymdu9n-y_xue		2011-08-18	밤 시 새벽 시 시간 자고싶다 왜 외다 그시 그시간에 깨어있는걸까 이현 이현상의 불편한진실 발견해내기위해서 일기를써보기로 나다 나 왜 외다 시에잠들어서 시 깨는가
+kbs2_gagcon	ideogus	POST	pymdu9n-y_xue		2011-08-18	밤 10시 새벽 2시 4시 4시간을 자고싶다 왜 외다 그시 그시간에 깨어있는걸까 이현 이현상의 불편한진실 발견해내기위해서 일기를써보기로 나다 나 왜 외다 2시에잠들어서 4시 4시에 깨는가
 kbs2_gagcon	stuvw7	POST	pymduy6-_oj36		2011-08-15	사진회피으 달인 달이다 달 이건머하눈거지 tagquestion
 kbs2_gagcon	resamans	POST	pymdvp8-zs_e		2011-08-16	긴 기다 휴가 마 마치 출근 그런데 집 지하철 지하철이 삼실 삼실이 시원 불편 진실 놀고싶다 tagexclamation
-kbs2_gagcon	qnfpr_1501	POST	pymdwor-5qp_2		2011-08-15	흐그ㅡ tagsmile 극
+kbs2_gagcon	qnfpr_1501	POST	pymdwor-5qp_2		2011-08-15	흐그 ㅡ tagsmile 극
 kbs2_gagcon	jean9903	POST	pymdx2b-ymm3z		2011-08-16	블로그 방치
 kbs2_gagcon	vistavi	POST	pymdxaj-5t4_2		2011-08-15	헬스걸 변화 공개
 kbs2_gagcon	the_madness	POST	pymdxpr-agfb		2011-08-16	개그콘서트 헬스걸 미친다이어트 인증샷 tagexclamation
 kbs2_gagcon	musutalk	POST	pymdyzh-63em		2011-08-15	꼼또플러스 치즈 어포 어포의 불편 맛있다 진실
-kbs2_gagcon	snowwhite526	POST	pymdzru-yeays		2011-08-15	우리이쁜몽이 taglove 가아니 가아니라 무서운몽 무서운몽이 tagcry 오늘 역시 역시나 몽 몽이 몽이는 뭅니당 tagcry 아파미치겠오 tagcry 소리 제가 제 좀질러서 무음 무음으 tagsmile 우리집강아지 문다 문다는 불편한진실 tagexclamation 불편한진실 여기서 끝나다 않습니당 me video
-kbs2_gagcon	iyousens	POST	pymd_jw-yq85k		2011-08-17	다시보기 생활의달 생활 달인 달이다 달 월 일 방송분 다시보기
+kbs2_gagcon	snowwhite526	POST	pymdzru-yeays		2011-08-15	우리이쁜몽이 taglove 가아니 가아니라 무서운몽 무서운몽이 tagcry 오늘 역시 역시나 몽 몽이 몽이는 뭅니당 tagcry 아파미치겠오 tagcry 소리 제가 제 좀질러서 무음 무음으 tagsmile 우리집강아지 문다 문다는 불편한진실 tagexclamation 불편한진실 여기서 끝나다 않습니당 me2video
+kbs2_gagcon	iyousens	POST	pymd_jw-yq85k		2011-08-17	다시보기 생활의달 생활 달인 달이다 달 8월15 일 방송분 다시보기
 kbs2_gagcon	lurangberry	POST	pyme035-r1po		2011-08-18	홍삼 달인 달이다 달 물 홍삼수 물 마시다 농심 홍삼수 휴대용물 홍삼 홍삼수
 kbs2_gagcon	grace7654321	POST	pyme33v-5c0hl		2011-08-18	달인 달이다 달 김병 김병만 출판기념회 도중 끝내다 울먹이다 김병 김병만 울다 동영
-kbs2_gagcon	kangmis2	POST	pyme43d-5u6zh		2011-08-19	뉴욕 재활용 달인 달이다 달 ㅡ신문지 ㅡ신문지로 만들다 숄더백
+kbs2_gagcon	kangmis2	POST	pyme43d-5u6zh		2011-08-19	뉴욕 재활용 달인 달이다 달 ㅡ 신문지 만들다 숄더백
 kbs2_gagcon	loving_m927	POST	pyme8aj-ychfu		2011-08-19	교육 배우다 배우 이 미치다 능력 닿다 않다 이해 없다 진리 권위 가르치다 것 알다 참 차다 오래다 시간 걸리다 우리 겪다 그것 참교육 참교육이 거짓부렁 틀리다 할 하다 수 없다 것 불편 진실
 kbs2_gagcon	but2day	POST	pyme9e0-_fa99		2011-08-19	돌잔치 퓨전한복 공구모집 tagexclamation 현재 이벤트중 할인가격 한번더할 tagexclamation
 kbs2_gagcon	youmdoe	POST	pymead6-5usjc		2011-08-19	밤 세시 자고 자다 자 아침 일곱시간 일하다 낮잠 세시 자고 자다 자 헬스 다녀오다 세시 자고 자다 자 하는거 역시 무리 무리였 알게모르게 몸 피로 많다 쌓이다 몸 무리 많다 가다 근데 이렇게 안하다 헬스 헬스를 못 가다 가늘다 tagcry
-kbs2_gagcon	mygongju89	POST	pymeas9-5v_py		2011-08-19	김병만달 김병만달인 김병 김병만 앞뒤 똑같다 이수근 구별법tagquestion
-kbs2_gagcon	luvgaram	POST	pymec55-z56x		2011-08-19	년 묶다 썩다 육수tagquestion 불만제 족발 육수 불편 진실 방영
+kbs2_gagcon	mygongju89	POST	pymeas9-5v_py		2011-08-19	김병만달 김병만달인 김병 김병만 앞뒤 똑같다 이수근 구별법 tagquestion
+kbs2_gagcon	luvgaram	POST	pymec55-z56x		2011-08-19	50년 묶다 썩다 육수 tagquestion 불만제 족발 육수 불편 진실 110817 방영
 kbs2_gagcon	makeicon	POST	pymeead-_qr5m		2011-08-18	아무 아무도 댓글 안하다 불편한진실 다들 써먹다 하다 하 봐놓고 봐놓고는 흑흑팁 흑흑팁은 안알려줘
 kbs2_gagcon	mbcngs	POST	pymef92-_qdf1		2011-08-19	흔들리다 대표팀 주장 김남일 김남일도 그땐 그랬지
 kbs2_gagcon	chocomomhome	POST	pymeih3-5yj5r		2011-08-19	초코 목욕 하다 하 꽃단장 tagsmile
 kbs2_gagcon	chocomomhome	POST	pymeimc-5yj5r		2011-08-19	미 치다 버 린 파 파다 닭 tagexclamation
 kbs2_gagcon	chocomomhome	POST	pymeisc-5yj5r		2011-08-19	아이큐 아이큐가 높아지다 장난감
-kbs2_gagcon	uybnormal11	POST	pymekpi-_m5z8		2011-08-19	보물찾기 달인 누구tagquestion 펀핑 tagexclamation 보물찾기 달인 누구tagquestion 펀핑 tagexclamation
-kbs2_gagcon	23321221	POST	pymelx2-_qzn5		2011-08-19	재능티비였나tagquestion 채널돌리 탈옥위 달인 달이다 달 이란걸 보다 tagsmile 엄청재밌어 앜 tagsmile 진짜 배꼽 빠질뻔 tagsmile 탈옥 달인 달이다 달 tagsmile
-kbs2_gagcon	insos02	POST	pymemge-_8lnw		2011-08-19	개그콘서트 다시보기 개콘무료 다시보기 개그콘서트 다시보기 개콘무료 다시보기
+kbs2_gagcon	uybnormal11	POST	pymekpi-_m5z8		2011-08-19	보물찾기 달인 tagquestion 펀핑 tagexclamation 보물찾기 달인 tagquestion 펀핑 tagexclamation
+kbs2_gagcon	23321221	POST	pymelx2-_qzn5		2011-08-19	재능티비 tagquestion 채널돌리 탈옥위 달인 달이다 달 이란걸 보다 tagsmile 엄청재밌어 앜 tagsmile 진짜 배꼽 빠질뻔 tagsmile 탈옥 달인 달이다 달 tagsmile
+kbs2_gagcon	insos02	POST	pymemge-_8lnw		2011-08-19	개그콘서트 다시보기 2011-08-14 개콘무료 다시보기 개그콘서트 다시보기 2011-08-14 개콘무료 다시보기
 kbs2_gagcon	sekskiss	POST	pymepri-_j2o		2011-08-19	뒤늦다 챙기다 조정특집 final final은 나르다 나 울게 울게한다 언제 언제나 사랑 나에게 나에게만 웃다 웃기다 웃기 기능 개그맨 도 예능 새롭다 매력 보여주다 보 희다 무모 무한 경은님 경은님을 질투하게 날유 날유는 정말 나르다 나 가슴뛰게 남자인거 tagexclamation 너무늦었지만 무한도전 완전 멋있다 tagexclamation 세남자 다 사랑 tagexclamation 한작가님 나아나운서님 나아나운서님이 있다 사랑 tagexclamation
-kbs2_gagcon	rhdqndydz	POST	pymepyh-_op3q		2011-08-19	극 복 하기 하다 시간 분후 분후에 난 나다 날다 극복을햇을것
+kbs2_gagcon	rhdqndydz	POST	pymepyh-_op3q		2011-08-19	극 복 하기2 시간10 분후 분후에 난 나다 날다 극복을햇을것
 kbs2_gagcon	qudals1211	POST	pymeqa7-5gtix		2011-08-19	나다 나 하의실종 달인 달이다 달 잠옷 입다 하죠 tagsmile
 kbs2_gagcon	mountkorea	POST	pymeq_6-yw_p5		2011-08-19	정시아 남편 백도빈 은근 김병 김병만 닮은꼴 자꾸 달인 달이다 달 생각 외모
-kbs2_gagcon	o_ob0819	POST	pymer1z-5hnlv		2011-08-19	나오빠한테가서 ㅇ오빠 tagexclamation tagexclamation 오늘 빅뱅 주년 tagexclamation 호홓 이러니까 오빠 빅뱅한테축하한다고전해주고넌축하빵맞자 결국맞고왔다 불편 진실
+kbs2_gagcon	o_ob0819	POST	pymer1z-5hnlv		2011-08-19	나오빠한테가서 ㅇ 오빠 tagexclamation tagexclamation 오늘 빅뱅 5주년 5주년이 tagexclamation 호홓 이러니까 오빠 빅뱅한테축하한다고전해주고넌축하빵맞자 결국맞고왔다 불편 진실
 kbs2_gagcon	makeicon	POST	pymer4w-_qr5m		2011-08-19	이렇게 간단한것만배우면 능력자취급받을수 불편한진실
-kbs2_gagcon	makeicon	POST	pymers_-_qr5m		2011-08-19	아이콘메이커 벽반을뛴다는 놀라운진실 나도사람 불편한진실tagquestion윙tagquestion
+kbs2_gagcon	makeicon	POST	pymers_-_qr5m		2011-08-19	아이콘메이커 벽반을뛴다는 놀라운진실 나도사람 불편한진실 tagquestion 윙 tagquestion
 kbs2_gagcon	pjh4661	POST	pymeryf-5cdhx		2011-08-19	개콘 개콘에 나왓는데그거 서울말 끝에를올리는거라곸 tagsmile
-kbs2_gagcon	mijjjj888	POST	pymeszq-u4c0		2011-08-19	어이없뜸 ㅡ ㅡ 표정달인 표정달 수정쌤tagquestion tagsmile xoxo
+kbs2_gagcon	mijjjj888	POST	pymeszq-u4c0		2011-08-19	어이없뜸 ㅡ ㅡ 표정달인 표정달 수정쌤 tagquestion 1 tagsmile xoxo
 kbs2_gagcon	swdc	POST	pymetsn-9uig		2011-08-19	sk 팬들 팬들의 분노 왜 외다 극 달 달했
-kbs2_gagcon	looktique	POST	pymevzp-_p6s4		2011-08-19	나도 나다 나 가수 조간우 투입 음유시인 음유시 개그맨 누구tagquestion 스포일러 없어요tagquestion
+kbs2_gagcon	looktique	POST	pymevzp-_p6s4		2011-08-19	나도 나다 나 가수 조간우 투입 음유시인 음유시 개그맨 tagquestion 스포일러 없다 tagquestion
 kbs2_gagcon	songinwoong	POST	pymeyce-y1fij		2011-08-18	포커스쇼 달인 달이다 달 정동영 정동영의 눈물퍼포먼스
-kbs2_gagcon	kkm9927	POST	pymezkf-_ifd5		2011-08-19	내 요즘 tagexclamation 빠지다 있다 게임 tagexclamation 영어 ranch rush rush이 한국어 농장 달인 달이다 달 tagexclamation 이거 진심 내 대박 좋아하다 겜 추천 tagexclamation 해보다 느낄걸tagquestion 정말 재미 것 tagsmile
+kbs2_gagcon	kkm9927	POST	pymezkf-_ifd5		2011-08-19	내 요즘 tagexclamation 빠지다 있다 게임 tagexclamation 영어 ranch rush rush이 한국어 농장 달인 달이다 달 tagexclamation 이거 진심 내 대박 좋아하다 겜 추천 tagexclamation 해보다 느끼다 tagquestion 정말 재미 것 tagsmile
 kbs2_gagcon	dlel21	POST	pyme_02-y6ibz		2011-08-18	청담맛집 더제이케 더제이케이 키친 jk키친 jk kitchen 생활 달인 달이다 달 인증 파스타 맛집 tagexclamation
-kbs2_gagcon	twenkle2003	POST	pyme_28-5zyap		2011-08-18	일상 지치다 그대 세 세다 얼간 얼간이 추천 taglove 별점 별점은 줄다 하다 극 상 이상형 있다 ㅁ 돈 자랑 사람 사람보다 자기 자다 일 사랑 줄 주다 아 사람 이상형 taglove 이건 거의 거 모 여자 이상형 아님tagquestion 키킥 ㅁ
+kbs2_gagcon	twenkle2003	POST	pyme_28-5zyap		2011-08-18	일상 지치다 그대 세 세다 얼간 얼간이 추천 taglove 별점 별점은 줄다 하다 극 상 이상형 있다 ㅁ 돈 자랑 사람 사람보다 자기 자다 일 사랑 줄 주다 아 사람 이상형 taglove 이건 거의 거 모 여자 이상형 아니다 tagquestion 키킥 ㅁ
 kbs2_gagcon	arrvederciyo	POST	pymjelp-_tkbx		2011-08-20	애경 스파크미 스파크미니 이벤트 세탁의달인 만나다
-kbs2_gagcon	shuffle01	POST	pymj_l8-_3x4o		2011-08-20	pc방 옆에잇던 형 청소년 물어본후 물어본후에 청소년 시이후 못하다 나가다 햇으면서 나한텐 암말안 암말안하 그냥가 그냥가는 불편한진실tagquestion 눈마주췃음
+kbs2_gagcon	shuffle01	POST	pymj_l8-_3x4o		2011-08-20	pc방 옆에잇던 형 청소년 물어본후 물어본후에 청소년은10 시이후 못하다 나가다 햇으면서 나한텐 암말안 암말안하 그냥가 그냥가는 불편한진실 tagquestion 눈마주췃음
 kbs2_gagcon	iseemijung	POST	pymk06m-521_p		2011-08-19	버스 할머니 한분 한분이 앉다 뜨개질 생활 달인포스
-kbs2_gagcon	bananaking99	POST	pymk2lq-5rfj0		2011-08-19	아 tagsmile 울아빠나티비보는데계속이상한노래부르면서콩콩콩거려서봤더니 tagsmile 극과극따라하고잇엌 tagsmile ㅅㅂ tagsmile 아빠 tagsmile 정신차리다 tagcry tagcry
+kbs2_gagcon	bananaking99	POST	pymk2lq-5rfj0		2011-08-19	아 tagsmile 울아빠나티비보는데계속이상한노래부르면서콩콩콩거려서봤더니 tagsmile 극과극따라하고잇엌 tagsmile ㅅㅂ tagsmile 아빠 tagsmile 정신차리다 tagcry 0 tagcry
 kbs2_gagcon	mookhyan	POST	pymk2yn-y6xp8		2011-08-19	고기굽기 달인 달이다 달 밋짱 식미투 안먹으려 안먹으려고 다짐
 kbs2_gagcon	srv9107	POST	pymk2y_-zl0b		2011-08-19	내일 출근 하다 불편 진실 tagsmile
-kbs2_gagcon	bang_gli	POST	pymk34q-ntyb		2011-08-20	블라인드 스릴러물 좋아하다 긴장감 끝 유지 간건 좋다 잦다 우연 약간 작위적 보다 보 사람 추측가능케한 극 전개 아쉽다 아쉬움 남다 시각장애 최대 이용 영화 극중 등장 시각장애인 시각장애 안내견 달다 달 슬기 슬다 의 연기 좋다 네이버영화 블라인드 me movie
+kbs2_gagcon	bang_gli	POST	pymk34q-ntyb		2011-08-20	블라인드 스릴러물 좋아하다 긴장감 끝 유지 간건 좋다 잦다 우연 약간 작위적 보다 보 사람 추측가능케한 극 전개 아쉽다 아쉬움 남다 시각장애 최대 이용 영화 극중 등장 시각장애인 시각장애 안내견 달다 달 슬기 슬다 의 연기 좋다 네이버영화 블라인드
 kbs2_gagcon	pery_tail	POST	pymk3kx-8r88		2011-08-18	cg로 cg로만 채울수 없다 내면 그곳 그곳에 골룸 골룸과 킹콩 킹콩으 일대 장인 세계 뛰어들다 퍼포먼스 캡쳐 캡쳐의 달인 달이다 달 앤디서키스 있다 위 엄청나다 엄청 cg cg가 덧입혀져서 진짜 제대로도 양화 나오다 tagexclamation 아직 아직도 흥분 두근두근 tagexclamation
 kbs2_gagcon	qnrl1qnrl1	POST	pymk4b2-hrsk		2011-08-18	우왕 tagexclamation 완전 심심 컴터 컴터를 해도 하다 해 하다 할 없다 tagcry tagcry 진정 혼자놀기 달인 달이다 달 tagsmile
 kbs2_gagcon	jjlee4854	POST	pymk6qn-yuoo4		2011-08-17	드 드디어 개콘 두분토론 보다 보고 말다 저런 솔로부대여 솔로부대 모이다
 kbs2_gagcon	einxh	POST	pymk75z-y2we7		2011-08-17	원문 einxh국내산맥주 불편한진실 오늘 유머 오늘의유머 베스트 베오베 웃다 웃기다 자료 사진 사다 오유 저장소 오유저장소 todayhumor ou storage store 맥주란 뭔가 간단 nbs 웹
-kbs2_gagcon	cj_tving	POST	pymk775-_fpc0		2011-08-19	mnet 슈퍼스타k 시즌 개콘 개콘에 you 영 도 슈퍼스타k 참여 참 tagexclamation 기대
+kbs2_gagcon	cj_tving	POST	pymk775-_fpc0		2011-08-19	mnet 슈퍼스타k 시즌3 개콘 개콘에 you 영 도 슈퍼스타k 참여 참 tagexclamation 기대
 kbs2_gagcon	w5315w	POST	pymk8_r-5u9nd		2011-08-18	민트초코 민트초코 까페에가면 아메리카노 아메리카노랑 화이트초코 민트초코 만먹는다능 tagexclamation tagsmile 내입맛 극과극 극과극을 달리다 tagsmile 어제 저녁 마셔서 마셔서인지 오늘아침눈 부었다
 kbs2_gagcon	80gusdud	POST	pymk9f1-y35gi		2011-08-20	행복이가득한집빌라 발도장 tagexclamation 온천여행 하다 왜 외다 힘 빠지는거냐구 빠지는거냐구요 오는길 오는길에 최강달인 최강달 국수 먹으러 갔었는데 발도장 찍다 상호 안뜨던데 국수 맛있었어요 via 아임in
 kbs2_gagcon	key568	POST	pymk9wh-_mmp4		2011-08-17	하아암 이거원 누워 누워있으 누워있으니 귀차니즘 귀차니즘이 극에달 극에달한다
 kbs2_gagcon	sandy9833	POST	pymkai5-_kn7t		2011-08-19	요즘 웹툰 폐인 무서운거 잔인한거 유치한거 빼다 다 좋다 연재 대부분 웹툰 웹툰을 정주행 중 난 나다 날다 정주행 정주행의 달인 tagsmile
-kbs2_gagcon	xlddkwhgdkgo	POST	pymkb1a-54jg		2011-08-18	질문쟁이 무슨일 무슨일을 하고싶은지 물어보다 인생 목적 모르다 생각하는건 극 하나쓰고서 작곡도하고서 작곡도 연출까지하는일 어디서 말도꺼 말도꺼내질 못하다 지금 내가그래 히히 별거아니지tagquestion 다들그러니까 갠잔 갠잔아 살부터 살부터할거 다 열어놔야지 다 들어오다
+kbs2_gagcon	xlddkwhgdkgo	POST	pymkb1a-54jg		2011-08-18	질문쟁이 무슨일 무슨일을 하고싶은지 물어보다 인생 목적 모르다 생각하는건 극 하나쓰고서 작곡도하고서 작곡도 연출까지하는일 어디서 말도꺼 말도꺼내질 못하다 지금 내가그래 히히 별거아니지 tagquestion 다들그러니까 갠잔 갠잔아 26살부터 26살부터할거 다 열어놔야지 다 들어오다
 kbs2_gagcon	ehdgus9205	POST	pymkbl3-5d9os		2011-08-18	빨래방에오먄 수건 개기의달인이 개기의달인이된다
-kbs2_gagcon	jopdzzan	POST	pymkc2d-5dulx		2011-08-20	스파크 미니 미다 미 event 세제량 반 세척력 배 tagexclamation 세탁 달인 달이다 달 만나다 가다 tagexclamation
-kbs2_gagcon	skrlz	POST	pymkcsp-_sfrk		2011-08-17	태고의달 방송 비번 많이와주세 많이와주세요 tagcry tagcry
+kbs2_gagcon	jopdzzan	POST	pymkc2d-5dulx		2011-08-20	스파크 미니 미다 미 event 세제량 반 세척력 2배 2배로 tagexclamation 세탁 달인 달이다 달 만나다 가다 tagexclamation
+kbs2_gagcon	skrlz	POST	pymkcsp-_sfrk		2011-08-17	태고의달 방송 비번9990 많이와주세 많이와주세요 tagcry tagcry
 kbs2_gagcon	kayo448	POST	pymkd7d-5ho4o		2011-08-17	띵동 tagexclamation 최고가매입 업소용중고주방전문 콤백션오븐 컴비스티머 진공포장기 업소냉장고 냉동고 에어컨 반찬냉장고 음료냉장고 간택기 중화렌지 커피머신 아이스크림기기 제빙기 빙삭기 육절기 골절기 사리냉각기 반죽기 냉면기 발효기 휘핑기 저장고 숙성고 낙농고 의자 탁자 쇼케이스
-kbs2_gagcon	mentleboy11	POST	pymkg0d-ykwya		2011-08-19	보고 보다 보 잇냐tagquestion 진정 몰폰 몰폰에 달인 수업중 마틴 얼굴 찍다 올리다 올리게 해봥 몰폰 몰레폰 몰레폰하기
+kbs2_gagcon	mentleboy11	POST	pymkg0d-ykwya		2011-08-19	보고 보다 보 잇다 tagquestion 진정 몰폰 몰폰에 달인 수업중 마틴 얼굴 찍다 올리다 올리게 해봥 몰폰 몰레폰 몰레폰하기
 kbs2_gagcon	long2g	POST	pymkh2c-ig5l		2011-08-17	난 나다 날다 스마트폰이아니 댓글보는것 댓글보는것을 컴퓨터 해야 해야되 해야되는 불편한진실
 kbs2_gagcon	long2g	POST	pymkhly-ig5l		2011-08-17	댓글쓰는거 댓글쓰는거와 내 내다 생각 남다 남 글 지금내생각 쓴거 쓴거만 볼수 볼수있는 불편한진실
-kbs2_gagcon	sometimeskr	POST	pymkhnl-_s5gz		2011-08-18	원문 홍보 달인 찾다 tagexclamation 월 홍보이벤트 안내 월 일 웹
+kbs2_gagcon	sometimeskr	POST	pymkhnl-_s5gz		2011-08-18	원문 홍보 달인 찾다 tagexclamation 8월 홍보이벤트 안내 8월26 일 웹
 kbs2_gagcon	minelly287	POST	pymkjf1-_q379		2011-08-18	와아아아 tagexclamation ver b 이 tagexclamation 다 멋지다 tagexclamation 난 나다 날다 지금 밋친 것같아용 tagexclamation tagexclamation 사고싶어 아니 아 tagexclamation 극 사야해용 tagsmile ittiban siasiagay
 kbs2_gagcon	frompic	POST	pymkjxd-_d1bz		2011-08-19	박신혜 애칭 박신혜 애칭별명 많다 상큼 그녀 박신혜 애칭배우 박신혜 박신혜가 다양 애칭 얻다 다양 매력 발산 있다 mbc 수목극 넌 널다 내다 반 로 안방 극
-kbs2_gagcon	whdkgus9	POST	pymkkzv-pz8j		2011-08-19	흐헹 tagcry 학원가야 ㅃ빠이유 tagcry 흐허러허ㅓㅓㅓ허허어ㅓ러ㅓ허흐그그그ㅡ그그ㅡ그그ㅡ극ㄱㄱ tagsmile 흐흐흐ㅡ tagsmile 그흐그
-kbs2_gagcon	jfoxlove	POST	pymklvq-yr222		2011-08-18	포토샵 달인 달이다 달 계시다 사진 사다 낙관좀 만들다 tagcry 예쁘다 한우사 없나요tagquestion
+kbs2_gagcon	whdkgus9	POST	pymkkzv-pz8j		2011-08-19	흐헹 tagcry 학원가야 ㅃ 빠이유 tagcry 흐허러허 ㅓㅓㅓ 허허어 ㅓ 러 ㅓ 허흐그그그 ㅡ 그그 ㅡ 그그 ㅡ 극 ㄱㄱ tagsmile 흐흐흐 ㅡ tagsmile 그흐그
+kbs2_gagcon	jfoxlove	POST	pymklvq-yr222		2011-08-18	포토샵 달인 달이다 달 계시다 사진 사다 낙관좀 만들다 tagcry 예쁘다 한우사 없다 없 tagquestion
 kbs2_gagcon	5696688	POST	pymknog-5_s15		2011-08-17	나 나다 밀어서장금해재 달인됬음 안 안보고 아 진동이왔꾼 타자를치면서 밀어서장금해제를해서 내용 스타 아다연이가올렸군아 라고 라고하면서 미투확인중 tagsmile tagsmile
 kbs2_gagcon	dbfls77721	POST	pymknvy-y48g		2011-08-18	씨엔블루 강민혁 넌내반 강민혁 간병 달인 달이다 달 등극 말 않다 알다
 kbs2_gagcon	drama7203	POST	pymkoat-wlbp		2011-08-20	대상웰라이프 홍의보감홍삼액골드 그대로달인 그대로달 홍삼 지치다 여름 원기회복 하고있다
-kbs2_gagcon	palzzo	POST	pymkog7-l1h4		2011-08-18	달인 주식 노가리 관망중 삼성주가 삼성주가가 프로 이상 하락 손이가고싶지 손이가고싶지만 뭔가 찝찝 하다 시 지켜보다 선에서매수 안그러면 내일 좀더지켜봐야겟네 좀더지켜봐야겟네요 gs건설 cj엔터 도 좀좋아버 좀좋아버이네 좀좋아버이네요
+kbs2_gagcon	palzzo	POST	pymkog7-l1h4		2011-08-18	달인 주식 노가리 4관망중 4관망중이네 4관망중이네요 삼성주가 삼성주가가 5프 5프로 이상 하락 손이가고싶지 손이가고싶지만 뭔가 찝찝 하다 1시 지켜보다 71200선에서매수 안그러면 내일 좀더지켜봐야겟네 좀더지켜봐야겟네요 gs건설 cj엔터 도 좀좋아버 좀좋아버이네 좀좋아버이네요
 kbs2_gagcon	zmfhth54	POST	pymkp57-5abvf		2011-08-18	맥주 관하다 불편 진실 글 보다 tagcry 우리나라 우리 맥주 물탄거라는데 수입맥주 제대루 마셔본적 마셔본적이 없다 모르다 아몬드 하이트 먹구싶다으 tagcry
 kbs2_gagcon	regenoho	POST	pymkpdj-5wdqr		2011-08-18	개콘 이동윤 양악 수술 후 노랗다 노래 개그 잘 자다 되다 tagexclamation
 kbs2_gagcon	supermorio	POST	pymkpg7-5ragz		2011-08-18	성과 성 재탕 곡명 고기축제엿나 태고의달
-kbs2_gagcon	kowoori2	POST	pymkqj5-5o9x_		2011-08-18	개콘 그땐 그랬지에서 진 지다 조화 발견
+kbs2_gagcon	kowoori2	POST	pymkqj5-5o9x_		2011-08-18	개콘 그땐 그랬지에서 진6 조화 발견
 kbs2_gagcon	ritenuto52	POST	pymkqq4-5q8ww		2011-08-20	애경 스파크미 스파크미니 이벤트 세탁의달인 만나다
 kbs2_gagcon	goboseng0412	POST	pymkqww-_bmal		2011-08-20	미친님 이번일 이번일로 정말실망 tagsmile 나 나다 인첵할땐 거들뜨다 보다 보지 않도만 실사올린다니깐 홍보 난리가났냌 tagsmile 불편 진실 tagsmile
 kbs2_gagcon	withshall	POST	pymkrg_-5_fkv		2011-08-18	가다 가 횟집 홍게칼국수 새우튀김 야끼우동 메뉴 추가 추 하다 하 드리다
 kbs2_gagcon	dama390	POST	pymkrw0-51gmt		2011-08-20	도전 tagexclamation 최고가매입 업소용중고주방전문 업소가전 업소가구 업소그릇 식당집기 가게집기 부페집기 수입중고주방 중고주방용품 비품 집기 집다 기기 기다 기물 다 사다 tagexclamation
 kbs2_gagcon	forjin3	POST	pymkr_m-s9i9		2011-08-18	토돌이님 토돌이님이 신한카드 app 다운로드 이벤트 추천 달인 도전 신한카드
-kbs2_gagcon	joonho0710	POST	pymktgw-_wwfg		2011-08-20	개콘 개콘에 나오다 개그맨 유민 싸이얼굴 닮다 생각 많다 하다 되다 tagsmile 유민상씨 괜찮다 같은데tagsmile 무한도전닮은꼴
+kbs2_gagcon	joonho0710	POST	pymktgw-_wwfg		2011-08-20	개콘 개콘에 나오다 개그맨 유민 싸이얼굴 닮다 생각 많다 하다 되다 tagsmile 유민상씨 괜찮다 같다 tagsmile 무한도전닮은꼴
 kbs2_gagcon	enha222	POST	pymktt5-__a0n		2011-08-17	개콘 생활의발견 신보 된장녀 엄청 웃기다 tagsmile tagsmile
-kbs2_gagcon	alepkoon	POST	pymkul6-_d_dh		2011-08-19	alep alep의 오늘 추천곡 은 carnivorous carnival carnival입니 carnival입니다 태고의달 부터 수록 곡 노트 갯수 갯수는 행운 숫자 tagexclamation 개성 넘치다 차원 판타지 테크노 테크노라 점 다르다 곡 좀 보기 보다 어렵다 찰진 패턴 등장 곡 동시 태고 있다 저의 저 주력곡 주력곡이기 하죠 즐감 즐감하세 즐감하세요
+kbs2_gagcon	alepkoon	POST	pymkul6-_d_dh		2011-08-19	alep alep의 오늘 추천곡 은 carnivorous carnival carnival입니 carnival입니다 태고의달 10 수록 곡 노트 갯수 갯수는 행운 숫자 777 tagexclamation 개성 넘치다 4차원 판타지 테크노 테크노라 점 다르다 곡 좀 보기 보다 어렵다 찰진 패턴 등장 곡 동시 태고 있다 저의 저 주력곡 주력곡이기 하죠 즐감 즐감하세 즐감하세요
 kbs2_gagcon	regenoho	POST	pymkusy-5wdqr		2011-08-18	개그맨 이동윤 개그콘서트 양악 웃다 웃음 주다 주 tagexclamation
 kbs2_gagcon	leemk323	POST	pymkw0_-rovg		2011-08-19	불편 진실 tagcry
 kbs2_gagcon	jujak19	POST	pymkxdx-5su_n		2011-08-17	점점 미투 미투에 할애 시간 적어지다 불편 진실 이것저것 벌이다 원 여유 여유 어디갔뉘 당장소환
@@ -421,140 +421,140 @@ kbs2_gagcon	kk1990	POST	pymy014-j6_u		2011-08-18	원문 극과극 kia 롯데 롯
 kbs2_gagcon	hermijin	POST	pymy02k-5syzt		2011-08-18	홍삼 달인 달이다 달 물 홍삼수 물 마시다 있다
 kbs2_gagcon	8341haeyeon	POST	pymy02v-hkzm		2011-08-18	복숭아통조림 홍삼달인물 홍삼수 만들다 복숭아조림 엄마표 만들다 건강 홍삼수 들어가다 복숭아통조림
 kbs2_gagcon	kk1990	POST	pymy09o-j6_u		2011-08-18	극과극 kia 롯데 롯데의 정반대 시선 daum미디어다음
-kbs2_gagcon	ojiyun02	POST	pymy0vj-_w6i4		2011-08-16	개그콘서트 회 이수근 요
+kbs2_gagcon	ojiyun02	POST	pymy0vj-_w6i4		2011-08-16	개그콘서트 600회 3 이수근 요
 kbs2_gagcon	abcde2310	POST	pymy15k-yjqnc		2011-08-16	헬스걸
 kbs2_gagcon	sally6633	POST	pymy1k_-uwts		2011-08-17	개그콘서트 감사 극 극
 kbs2_gagcon	ginnyemily	POST	pymy1ne-5l71l		2011-08-18	상처 극 복 tagexclamation tagsmile 독고진 스톼 스톼일 tagexclamation
 kbs2_gagcon	belle0826	POST	pymy1sf-ypnl5		2011-08-16	출장으로인해 다시찾 다시찾은 나의모교 대구대 tagsmile 오니깐또마니바뀌었네 우리재활과학대도가보고싶지 극과극 극과극인 사회과학대 교육중 tagcry 사회복지시설정보시스템 교육받으러왔죵 tagsmile 근데 졸다 졸리다
 kbs2_gagcon	dama390	POST	pymy1_x-51gmt		2011-08-18	오케이 tagexclamation 소개 최고가매입 업소용중고주방전문 서울경기전지역당일작업마무리가능 업소가전 업소가구 업소그릇 부페집기 식당집기 가게집기 가게설비 수입중고주방기기 중고주방용품및 기구 다 사다 tagexclamation
-kbs2_gagcon	vbdf12345678	POST	pymy200-5qqaq		2011-08-18	내특기tagquestion 웃찾사 개콘 유행어 따라 따라하기 개그맨되면 편집 기세 기다
+kbs2_gagcon	vbdf12345678	POST	pymy200-5qqaq		2011-08-18	내특기 tagquestion 웃찾사 개콘 유행어 따라 따라하기 개그맨되면 편집 기세 기다
 kbs2_gagcon	marsorange	POST	pymy2ik-5g7q3		2011-08-16	tagsmile 목 마르다 오뎅국물 색 보다 보 조금 짜다 같다 하신 아주머니 말씀 감동 먹었는데 진짜 조금 짰나보다 이제사 목 마르다 tagsmile 포장마차 아주머니 생활 달인 달이다 달 tagexclamation
 kbs2_gagcon	kkang5767	POST	pymy2m2-563ci		2011-08-16	개콘 헬스걸 변화공개 살 사다 빠지다 미인됐네
-kbs2_gagcon	uybnormal11	POST	pymy2vr-_m5z8		2011-08-16	보물찾기 달인 누구tagquestion 펀핑 tagexclamation 보물찾기 달인 누구tagquestion 펀핑 tagexclamation
-kbs2_gagcon	ayukawa	POST	pymy3zq-y0v		2011-08-18	그나저 그나저나 아까 아 친구한테 지금 종니 바쁘다 로봇대전 하다 하 싶다 징징거리다 친구 이인 내일 내 게임 하다 안오는거 아냐tagquestion 라 라고 인간 내 태고 달인 달이다 달 하다 약속시간 늦은적 늦은적은 있다 지금 게임한다 약속 깬 적다 적 없잖아 어tagquestion tagexclamation 친구 약속 어tagquestion tagexclamation
-kbs2_gagcon	purenpassion	POST	pymy4re-59hfm		2011-08-16	이번주 일 개그콘서트 생활 발견 보다 보 먹는거 사진찍고 업데이트 하다 라 라는 소리 빵 터지다 미투인 미투인들은 익숙하잖아요tagquestion tagsmile 식미투 식미투의 생활화 tagsmile
-kbs2_gagcon	frompic	POST	pymy5fe-_d1bz		2011-08-17	캡쳐 캡쳐는 제가 제 직접한게 아니랍니다제 이틀동안 답이없엇죠tagquestion네 휴가갔다가 당일 돌아오다 그다음날 그다음날은 비번비 바껴져 바껴져있더군 바껴져있더군요 tagcry 힌트라도 제가 제 막 별 달인기술
+kbs2_gagcon	uybnormal11	POST	pymy2vr-_m5z8		2011-08-16	보물찾기 달인 tagquestion 펀핑 tagexclamation 보물찾기 달인 tagquestion 펀핑 tagexclamation
+kbs2_gagcon	ayukawa	POST	pymy3zq-y0v		2011-08-18	그나저 그나저나 아까 아 친구한테 지금 종니 바쁘다 로봇대전 하다 하 싶다 징징거리다 친구 이인 내일 내 게임 하다 안오는거 아냐 tagquestion 라 라고 인간 내 태고 달인 달이다 달 하다 약속시간 늦은적 늦은적은 있다 지금 게임한다 약속 깬 적다 적 없잖아 어 tagquestion tagexclamation 친구 약속 어 tagquestion tagexclamation
+kbs2_gagcon	purenpassion	POST	pymy4re-59hfm		2011-08-16	이번주 14 14일 개그콘서트 생활 발견 보다 보 먹는거 사진찍고 업데이트 하다 라 라는 소리 빵 터지다 미투인 미투인들은 익숙하잖아 익숙하잖아요 tagquestion tagsmile 식미투 식미투의 생활화 tagsmile
+kbs2_gagcon	frompic	POST	pymy5fe-_d1bz		2011-08-17	캡쳐 캡쳐는 제가 제 직접한게 아니랍니다제 이틀동안 답이없엇죠 tagquestion 휴가갔다가 당일 돌아오다 그다음날 그다음날은 비번비 바껴져 바껴져있더군 바껴져있더군요 tagcry 힌트라도 제가 제 막 별 달인기술
 kbs2_gagcon	kjy6294	POST	pymy5iw-qnrp		2011-08-15	tagsmile 나 생일 생 똑같다 연예인 연예 tagsmile 소녀시대 수영 슈퍼주니어 최시워니씨 개그맨 이수근 이경실 tagsmile tagsmile 근디 생 tagsmile 나이차 쩔갯다
 kbs2_gagcon	7072v70v	POST	pymy5jk-szsf		2011-08-15	개콘 tagexclamation 하다 하다 헬스걸 tagexclamation
-kbs2_gagcon	wise7wide	POST	pymy5rf-ogt_		2011-08-17	개그콘서트 비상대책위원회 gagconcert
+kbs2_gagcon	wise7wide	POST	pymy5rf-ogt_		2011-08-17	개그콘서트 비상대책위원회 110814 gagconcert
 kbs2_gagcon	cmsinfo	POST	pymy5x_-yeazo		2011-08-17	복지공무원 면접스터디 소모 후기 펌글 면접 달인 달이다 달 경기 가평 장애 면접후기
 kbs2_gagcon	sks5612	POST	pymy69i-_whbf		2011-08-15	개그콘서트 비상대책위원회
-kbs2_gagcon	toma4062	POST	pymy6ks-_6uuu		2011-08-17	동이 동 꼬시는법 챕터 빠밤 문뒤 문뒤에 서다 설다 그다음 빼꼼 빼꼼 빼꼼 빼꼼 몇번 이제 몇초정 몇초정도 문위 가만하다 있다 그럼 타다다닥 소리 함 동이 동 등장 tagexclamation 나는야밀당의달 나는야밀당의달인
-kbs2_gagcon	icarus3990	POST	pymy6_x-y2wmc		2011-08-17	신hsk 급 독해 달인되기 월 무료특강 이벤트 쌘쌤 tagexclamation 좋다 강의 강 이렇게 무료 해도 하다 해 괜찮으신가요tagquestion 화상과외 잖아요tagquestion 아무튼 선생님 감사 감다 할 하다 따름 따름입니 따름입니다 daum블로그
+kbs2_gagcon	toma4062	POST	pymy6ks-_6uuu		2011-08-17	동이 동 꼬시는법 챕터 1 빠밤 문뒤 문뒤에 서다 설다 그다음 빼꼼 빼꼼 빼꼼 빼꼼 몇번 이제 몇초정 몇초정도 문위 가만하다 있다 그럼 타다다닥 소리 함 동이 동 등장 tagexclamation 나는야밀당의달 나는야밀당의달인
+kbs2_gagcon	icarus3990	POST	pymy6_x-y2wmc		2011-08-17	신hsk4 급 독해 달인되기9 월 무료특강 이벤트 쌘쌤 tagexclamation 좋다 강의 강 이렇게 무료 해도 하다 해 괜찮다 tagquestion 화상과외 잖아 잖아요 tagquestion 아무튼 선생님 감사 감다 할 하다 따름 따름입니 따름입니다 daum블로그
 kbs2_gagcon	lightray	POST	pymy708-ghf4		2011-08-18	태고 달인 달이다 달 좀 조다 아 사람 사다 찾다
-kbs2_gagcon	bntnews	POST	pymy747-5rtw7		2011-08-16	bnt 뉴스 구하다 현 유리 잘록하다 오이 오다 오 허리 만드 만드는 퀵 분 요가 요 뷰티 아직 여름 끝나다 않다 tagexclamation 개그콘서트 헬스걸 몸무게 줄이다 것 좋다 아름답다 몸매 만드 만드는 것 중요 걸 잊지말아 잊지말아요 tagexclamation
+kbs2_gagcon	bntnews	POST	pymy747-5rtw7		2011-08-16	bnt 뉴스 구하다 현 유리 잘록하다 오이 오다 오 허리 만드 만드는 퀵 5분 요가 요 뷰티 아직 여름 끝나다 않다 tagexclamation 개그콘서트 헬스걸 몸무게 줄이다 것 좋다 아름답다 몸매 만드 만드는 것 중요 걸 잊지말아 잊지말아요 tagexclamation
 kbs2_gagcon	teodream83	POST	pymy74n-52j5i		2011-08-16	헬스걸개그콘서트 헬스걸 다이어트 열풍
-kbs2_gagcon	lightray	POST	pymy7ft-ghf4		2011-08-18	여튼 태고 사람한테 묻다 태고 달인 달이다 달 인데 하즈레 보면 보면을 열다 무즈카시이 무즈카시이로 가다 로텔하즈레 로텔하즈레는 되다 하야사이타마 안뜨네 안뜨네요 이것 해금 해야하나tagquestion 아니다 무즈카시 무즈카시이 에선 하야 하다 하 안뜸tagquestion
-kbs2_gagcon	tae6666	POST	pymy9n0-5cdf0		2011-08-18	김병 김병만 달인 달이다 달 월 일본 베트 베트남 공연 확정 개그한류 주목
+kbs2_gagcon	lightray	POST	pymy7ft-ghf4		2011-08-18	여튼 태고 사람한테 묻다 태고 달인 달이다 달 12 12인데 하즈레 보면 보면을 열다 무즈카시이 무즈카시이로 가다 로텔하즈레 로텔하즈레는 되다 하야사이타마 안뜨네 안뜨네요 이것 해금 해야 해야하 해야하나 tagquestion 아니다 무즈카시 무즈카시이 에선 하야 하다 하 안뜸 tagquestion
+kbs2_gagcon	tae6666	POST	pymy9n0-5cdf0		2011-08-18	김병 김병만 달인 달이다 달 11월 일본 베트 베트남 공연 확정 개그한류 주목
 kbs2_gagcon	tlsdhkdcjf77	POST	pymya17-5e80y		2011-08-16	헬스걸 변화 공개 조금 있다 헬쓱걸 되다 듯 tagexclamation
-kbs2_gagcon	wowsuumyee	POST	pymyael-57luu		2011-08-17	탐앤탐스 시간카페 tagsmile 여기다 메뉴읽기 왜이래어렵노 흐규 tagcry 극외로워 tagcry
-kbs2_gagcon	jh43564	POST	pymycb7-t_yh		2011-08-15	개콘 개콘 비상대책위원회 사회풍자 개그 부활 시선집중 세대통신 g 스마트폰
-kbs2_gagcon	insos02	POST	pymydb3-_8lnw		2011-08-16	개그콘서트 다시보기 개콘무료 다시보기 개그콘서트 다시보기 개콘무료 다시보기
-kbs2_gagcon	einstein_tr	POST	pymydlx-c97k		2011-08-18	윤종신님 윤종신님이 언제 개그맨이었음tagquestion 나도 나다 나 b정돈 알다
+kbs2_gagcon	wowsuumyee	POST	pymyael-57luu		2011-08-17	탐앤탐스 24시간카페 tagsmile 여기다 메뉴읽기 왜이래어렵노 흐규 tagcry 극외로워 tagcry
+kbs2_gagcon	jh43564	POST	pymycb7-t_yh		2011-08-15	개콘 개콘 비상대책위원회 사회풍자 개그 부활 시선집중 4세대통신4g 스마트폰
+kbs2_gagcon	insos02	POST	pymydb3-_8lnw		2011-08-16	개그콘서트 다시보기 2011-08-14 개콘무료 다시보기 개그콘서트 다시보기 2011-08-14 개콘무료 다시보기
+kbs2_gagcon	einstein_tr	POST	pymydlx-c97k		2011-08-18	윤종신님 윤종신님이 언제 개그맨 tagquestion 나도 나다 나 015b정돈 알다
 kbs2_gagcon	18hoursophie	POST	pymydp2-_hzi9		2011-08-15	헬스걸 변화 공개
 kbs2_gagcon	limhye74	POST	pymydyk-f83n		2011-08-16	생활 발견 휴가철 지친피부 위하다 천연팩 만들다 chocomam
-kbs2_gagcon	zzang19781	POST	pymyeu7-tqos		2011-08-18	애경 스파크 세탁 달인tagsmile
-kbs2_gagcon	rlatjfdk1234	POST	pymyf7r-iy2x		2011-08-15	소녀시대 대한 대하다 아니다 sm sm에 대한 대하다 불편 진실
-kbs2_gagcon	deva777	POST	pymygyl-qmty		2011-08-18	daum daum에 가입되 가입되있는 카페 목록 확인 안들어가 안들어가는 곳 탈퇴 하고있다 중 눈에뜨 눈에뜨는 프리픽스 스트릿댄스팀 설마 설다 내가아 내가아는 프리픽스tagquestion 하다 하 들어가다 프리픽스 프리픽스가 맞다 년도 년도에 가입 무려 정회원이 프리픽스 프리픽스는 알게된건 일년 안되다 그전 알고있었잖아tagquestion그랬지 그땐 내 춤 관심 좀 조다 있다 가입 년도 년도에 따르다 내 내다 취향 어떻다 변 알수 알수있다
-kbs2_gagcon	t12132000	POST	pymyh4i-5a6u2		2011-08-18	뭘까tagquestion 극 극 결 결과
+kbs2_gagcon	zzang19781	POST	pymyeu7-tqos		2011-08-18	애경 스파크 세탁 달인 달이다 달 tagsmile
+kbs2_gagcon	rlatjfdk1234	POST	pymyf7r-iy2x		2011-08-15	110815소녀시대 대한 대하다 아니다 sm sm에 대한 대하다 불편 진실
+kbs2_gagcon	deva777	POST	pymygyl-qmty		2011-08-18	daum daum에 가입되 가입되있는 카페 목록 확인 안들어가 안들어가는 곳 탈퇴 하고있다 중 눈에뜨 눈에뜨는 프리픽스 스트릿댄스팀 설마 설다 내가아 내가아는 프리픽스 tagquestion 하다 하 들어가다 프리픽스 프리픽스가 맞다 2004년도 2004년도에 가입 무려 정회원이 프리픽스 프리픽스는 알게된건 일년 안되다 그전 알고있었잖아 tagquestion 그랬지 그땐 내 춤 관심 좀 조다 있다 가입 년도 년도에 따르다 내 내다 취향 어떻다 변 알수 알수있다
+kbs2_gagcon	t12132000	POST	pymyh4i-5a6u2		2011-08-18	뭘까 tagquestion 극 극 결 결과
 kbs2_gagcon	gai2236	POST	pymyh_h-_qzzi		2011-08-16	개콘헬스걸 다이어트 방법 개콘헬스걸 변화공개 헬스걸다이어트 비법 개콘헬스걸다이어트식단
-kbs2_gagcon	biz_frontier	POST	pymyi2h-_wosv		2011-08-15	월 일 삼성전자팀 guomao guomao에 위치 총괄법인 총괄법 층 회의실 market intelligence 팀 김설매 과장님 그리다 csc 마케팅 실무 담당자 두 분과 분 함 열띠다 토론 벌이다 실무 담당자 생생 현장 이야기 매우 흥미롭다 하루
+kbs2_gagcon	biz_frontier	POST	pymyi2h-_wosv		2011-08-15	8월 15 15일 삼성전자팀 guomao guomao에 위치 총괄법인 총괄법 27층 회의실 market intelligence 팀 김설매 과장님 그리다 csc 마케팅 실무 담당자 두 분과 분 함 열띠다 토론 벌이다 실무 담당자 생생 현장 이야기 매우 흥미롭다 하루
 kbs2_gagcon	unikon	POST	pymyjbk-h2n		2011-08-16	대구편 합천 해인사 팔만대장경 팔만대장경을 보고 보다 보 신천떡볶이 먹고
 kbs2_gagcon	steag123	POST	pymyjo1-__awq		2011-08-17	꼬꼬달인 소원 안빌어서 넘어가다 그럼 이번 이번엔 미투 미투하면 전부 소원 들어주다
 kbs2_gagcon	gogolang	POST	pymykcg-_1q_s		2011-08-15	우울증 극복 제이드스타표 개그콘서트
-kbs2_gagcon	tattermedia	POST	pymyklu-1ct		2011-08-16	개그콘서트 헬스걸 보신 분tagquestion kg 밖 안빠져 실망하셨나요tagquestion 헬스걸 감량폭 줄다 실망tagquestion 이게 정상 tagexclamation 다이어트 초반 탄수화물 먼저 소모 탄수화물 결합 물 빠져나가다 그렇다 본격적 지방 소모 때 속도 느리다 밖 없다는군요 단기간 살 빼다 몇개월 만 몸짱 몸짱으 거듭나다 복근 공개 것 익숙하다 시청자 시청자들이 자극적 소재 선호 미디어 재미 덜 고 느끼다 수도 수 있다 하다 하지 이게 정상
+kbs2_gagcon	tattermedia	POST	pymyklu-1ct		2011-08-16	개그콘서트 헬스걸 보신 분 tagquestion 1kg 밖 안빠져 실망 실망하셨 tagquestion 헬스걸 감량폭 줄다 실망 tagquestion 이게 정상 tagexclamation 다이어트 초반 탄수화물 먼저 소모 탄수화물 결합 물 빠져나가다 그렇다 본격적 지방 소모 때 속도 느리다 밖 없다는군요 단기간 살 빼다 몇개월 만 몸짱 몸짱으 거듭나다 복근 공개 것 익숙하다 시청자 시청자들이 자극적 소재 선호 미디어 재미 덜 고 느끼다 수도 수 있다 하다 하지 이게 정상
 kbs2_gagcon	sinh722	POST	pymylll-yb5te		2011-08-16	안녕하새욤 아침 ㅈㅅ 어제 해운대 놀다 놀 연예인 연예 봤어염 tagsmile 개콘 개콘에 나오다 개그맨 여러분 봤어염 보다 대부분 감수성 사람 암튼 본건 본거 tagsmile 째다 ㅂㅂ tagsmile
 kbs2_gagcon	elcure	POST	pymylud-y8z_2		2011-08-16	평일 받치다 곳 발도장 tagexclamation 고작삼일쉬었을 사장님께는푹쉬고와서너무좋다고는했지만적응안되는불편한진실 tagcry via 아임in
-kbs2_gagcon	sepist	POST	pymyl_r-_sbqf		2011-08-18	아이다스 민소래 오다 애플 저렴하게 사는방법 새롭다 쇼핑몰 시 월악산 헬스걸
-kbs2_gagcon	cyj7137	POST	pymynq3-y1_x2		2011-08-16	개그맨 이승윤 이승윤이 헬스걸 헬스걸의 변화 공개 이승윤 이승윤이 일 자신 트위터 트위터에 드디어 공개 헬스걸 헬스걸의 놀랍다 변화 처음 주차 주차 주차 주차 모습 이라 이라며 사진 공개 눈길 끌다 있다 사진 사다 속 주인공 kbs tv 개그콘서트 헬스걸 등장 이희경 이희경과 권미진 블랙 톱 핫 팬츠 입다 입 채 채다 체중 감량 성공 모습 선보이다
+kbs2_gagcon	sepist	POST	pymyl_r-_sbqf		2011-08-18	아이다스 민소래 오다 애플 저렴하게 사는방법 새롭다 쇼핑몰 3시 월악산 헬스걸
+kbs2_gagcon	cyj7137	POST	pymynq3-y1_x2		2011-08-16	개그맨 이승윤 이승윤이 헬스걸 헬스걸의 변화 공개 이승윤 이승윤이 14 14일 자신 트위터 트위터에 드디어 공개 헬스걸 헬스걸의 놀랍다 변화 처음 1주차 2주차 3주차 6주차 모습 이라 이라며 사진 공개 눈길 끌다 있다 사진 사다 속 주인공 kbs2tv 개그콘서트 헬스걸 등장 이희경 이희경과 권미진 블랙 톱 핫 팬츠 입다 입 채 채다 체중 감량 성공 모습 선보이다
 kbs2_gagcon	musicbob88	POST	pymypk2-9qs8		2011-08-15	산다는건 생활 달인 사다 살다 힘들다 고되다 나르다 나 위해 위하다 오늘 힘듬 힘듬이 내일 달콤 갖다 생활 달인 달이다 달 삼백회라는군 삼백회라는군요 새삼 보다 보 나다 나 아직 어른 아니다 아니구 하는군 하는군요 생활 달인 달이다 달 삼백회
 kbs2_gagcon	arcticguy	POST	pymypyi-5r2k8		2011-08-18	국내산 맥주 불편한진실
-kbs2_gagcon	palzzo	POST	pymyr2n-l1h4		2011-08-16	달인 주식 노가리 손절 손절이 빨랏는가보네 오후 매도세 좀 조다 보 알다 아직 매수 강하다 tagsmile 어쨋든 차익실현햇으니까 패스
+kbs2_gagcon	palzzo	POST	pymyr2n-l1h4		2011-08-16	달인 주식 노가리 3 손절 손절이 빨랏는가보네 오후 매도세 좀 조다 보 알다 아직 매수 강하다 tagsmile 어쨋든 차익실현햇으니까 패스
 kbs2_gagcon	nadiag26	POST	pymyryh-_icu7		2011-08-16	오세훈 불출마 감추다 불편 진실
 kbs2_gagcon	ottoogi1004	POST	pymyso3-5n8k0		2011-08-17	프레 프레이 프레이는 달인컷 달인컷이 몇 몇인가
 kbs2_gagcon	autumns2	POST	pymystp-_tixo		2011-08-18	개콘 웃다 보다 한없다 웃기다 정색 보다 전혀 안웃겨 뭐 진짜 tagquestion
 kbs2_gagcon	arture	POST	pymyt07-_tclq		2011-08-16	나 간병 달인 달이다 달
 kbs2_gagcon	alswn3275	POST	pymyt1c-yk2f8		2011-08-18	오락 달인 달이다 달 jpg
 kbs2_gagcon	zxz5346	POST	pymyt4z-ykswd		2011-08-18	폭주족 언제한번 사고 아 내 왜그때 그랬지 하다 하 후회 아 사고 자기손해 자기손 남한테 피해 피하다
-kbs2_gagcon	palzzo	POST	pymytbf-l1h4		2011-08-16	달인 축구토토 회차 승무패 주중 주중에 스페인슈퍼컵 스페인슈퍼컵과 유로파리그후 주말 epl 리그 빅매치 한경기 보 리버풀 아스널 아주 시즌초반 불꽃튀 불꽃튀는 경기 보다 두팀다 지난경기 무재배후 어떻다 풀어갈건지 전 절다 감하다 리버플 승 예상 리버풀 홧팅 tagsmile 그리다 선랜 홈 뉴캐슬이랑붙네 뉴캐슬이랑붙네요 지동원출격하길바래 tagsmile
-kbs2_gagcon	you06085	POST	pymytw_-_wufg		2011-08-16	개콘 헬스걸 변화 공개 개그우먼 살리다 개콘tagquestion
+kbs2_gagcon	palzzo	POST	pymytbf-l1h4		2011-08-16	달인 축구토토 25회차 승무패 주중 주중에 스페인슈퍼컵 스페인슈퍼컵과 유로파리그후 주말 epl 리그 빅매치 한경기 보 리버풀 아스널 아주 시즌초반 불꽃튀 불꽃튀는 경기 보다 두팀다 지난경기 무재배후 어떻다 풀어갈건지 전 절다 감하다 리버플 승 예상 리버풀 홧팅 tagsmile 그리다 선랜 홈 뉴캐슬이랑붙네 뉴캐슬이랑붙네요 지동원출격하길바래 tagsmile
+kbs2_gagcon	you06085	POST	pymytw_-_wufg		2011-08-16	개콘 헬스걸 변화 공개 개그우먼 살리다 개콘 tagquestion
 kbs2_gagcon	leesy926	POST	pymyt_m-ijnu		2011-08-16	난방학동안 지뢰찾기의달인이 훗 오늘도최고기록경신 아아아 잉잉잉 잉여가잉여잉여 클릭하면잘보 d
-kbs2_gagcon	nothing2lose	POST	pymyuh8-ss3		2011-08-17	틈이나면tagquestion 필요하면tagquestion 리펙토링 리펙토링을 하다 뭔가 부족한것 같다 tagcry 확장 달인 될끄 될끄야 tagsmile 안하다 것보단 깔끔 확장 편하다 tagsmile
+kbs2_gagcon	nothing2lose	POST	pymyuh8-ss3		2011-08-17	틈이 틈이나면 tagquestion 필요 tagquestion 리펙토링 리펙토링을 하다 뭔가 부족한것 같다 tagcry 확장 달인 될끄 될끄야 tagsmile 안하다 것보단 깔끔 확장 편하다 tagsmile
 kbs2_gagcon	bebreaking	POST	pymyva3-wryd		2011-08-16	헤럴드경제오세훈 불출마 감추다 불편 진실
-kbs2_gagcon	madeduck	POST	pymyw2g-5h3k8		2011-08-17	여기다 여기 지하철 호선 개그콘서트 감수성 청나라오라쾌로나오 청나라오라쾌로나오는 개그맨 어른아이 어른아이가 엄마 저사람 오라케 오라케야 경찰에신고해 라고말 라고말하네 라고말하네요 tagsmile
+kbs2_gagcon	madeduck	POST	pymyw2g-5h3k8		2011-08-17	여기다 여기 지하철1 호선 개그콘서트 감수성 청나라오라쾌로나오 청나라오라쾌로나오는 개그맨 어른아이 어른아이가 엄마 저사람 오라케 오라케야 경찰에신고해 라고말 라고말하네 라고말하네요 tagsmile
 kbs2_gagcon	topintop	POST	pymyw5i-yef1w		2011-08-17	tagsmile 개콘본다 남자들주제를알고 여자들등급매겨 적어도여자 진심을원
 kbs2_gagcon	znlszk97	POST	pymywj0-_mp73		2011-08-16	달인
-kbs2_gagcon	hbsm9734	POST	pymywxb-_m0b9		2011-08-16	개그콘서트 회 청소 달인 달이다 달 스파이더맨
+kbs2_gagcon	hbsm9734	POST	pymywxb-_m0b9		2011-08-16	개그콘서트 605회 1 청소 달인 달이다 달 스파이더맨
 kbs2_gagcon	arrvederciyo	POST	pymywxy-_tkbx		2011-08-15	애경 스파크미 스파크미니 이벤트 세탁의달인 만나다
 kbs2_gagcon	yongingab	POST	pymyx2t-5hle8		2011-08-16	일반편입 학사편입일반편입 학사편입 불편한진실
-kbs2_gagcon	genius-cat-	POST	pymyxj2-ye4in		2011-08-18	사람 사람 사다 사이 가장 기본의 기본 소통 대화 생각 하다 왜 외다 당신 당신은 나오다 나 대화 않다 했었는지 모르다 내 수다쟁 수다쟁이 버린거였니tagquestion 아직 아직도 궁금 하다 하 왜 외다 떠나다 풀리다 않다 문제 아 전화 물어보다 난 나다 날다 궁금 건 거다 걸다 못참는데 그땐그랬지 돌아오지않는메아리같은공허 그래서난미투가좋 모니터앞이지만혼자가아니라는느낌을들게해주는미투 나말많은사람이에요이해해주세 노래듣는것도비슷한의미일까
-kbs2_gagcon	frompic	POST	pymyy_x-_d1bz		2011-08-17	캡쳐 캡쳐는 제가 제 직접한게 아니랍니다제 이틀동안 답이없엇죠tagquestion네 휴가갔다가 당일 돌아오다 그다음날 그다음날은 비번비 바껴져 바껴져있더군 바껴져있더군요 tagcry 힌트라도 제가 제 막 별 달인기술
-kbs2_gagcon	jh43564	POST	pymyzmd-t_yh		2011-08-16	개콘 학교 개콘 장기자랑 장기자 세대통신 g 스마트폰
+kbs2_gagcon	genius-cat-	POST	pymyxj2-ye4in		2011-08-18	사람 사람 사다 사이 가장 기본의 기본 소통 대화 생각 하다 왜 외다 당신 당신은 나오다 나 대화 않다 했었는지 모르다 내 수다쟁 수다쟁이 버린거 tagquestion 아직 아직도 궁금 하다 하 왜 외다 떠나다 풀리다 않다 문제 아 전화 물어보다 난 나다 날다 궁금 건 거다 걸다 못참는데 그땐그랬지 돌아오지않는메아리같은공허 그래서난미투가좋 모니터앞이지만혼자가아니라는느낌을들게해주는미투 나말많은사람이에요이해해주세 노래듣는것도비슷한의미일까
+kbs2_gagcon	frompic	POST	pymyy_x-_d1bz		2011-08-17	캡쳐 캡쳐는 제가 제 직접한게 아니랍니다제 이틀동안 답이없엇죠 tagquestion 휴가갔다가 당일 돌아오다 그다음날 그다음날은 비번비 바껴져 바껴져있더군 바껴져있더군요 tagcry 힌트라도 제가 제 막 별 달인기술
+kbs2_gagcon	jh43564	POST	pymyzmd-t_yh		2011-08-16	개콘 학교 개콘 장기자랑 장기자 4세대통신4g 스마트폰
 kbs2_gagcon	freebird07	POST	pymyzmp-5e6b5		2011-08-16	개콘 이승윤 헬스걸 몸매 변화 사진 사다 공개 놀랍다 걸
-kbs2_gagcon	mir2030	POST	pymyzrx-hmav		2011-08-17	자취 달인 달이다 달 me gag 개그 유머 재미 미투누르면복 미투누르면복받음 미르 대이상놀이터
-kbs2_gagcon	okgosu	POST	pymyzu8-_ey		2011-08-18	위벽 굳다 담적병 담적병의 불편 진실 질병 마케팅일까tagquestion
+kbs2_gagcon	mir2030	POST	pymyzrx-hmav		2011-08-17	자취 달인 달이다 달 me2gag 개그 유머 재미 미투누르면복 미투누르면복받음 미르2030 20대이상놀이터
+kbs2_gagcon	okgosu	POST	pymyzu8-_ey		2011-08-18	위벽 굳다 담적병 담적병의 불편 진실 질병 마케팅 tagquestion
 kbs2_gagcon	wjsdudthsu2	POST	pymyzve-yw17z		2011-08-16	개콘몸짱 이승윤 헬스걸 변화 공개 놀랍다 와우 스타뉴스
 kbs2_gagcon	5531174	POST	pymy_88-5qlym		2011-08-16	남자 여자 차이 차다 차 남자 여자 차이 차다 차 네이버카페 노무달인 봄여름가을겨울
-kbs2_gagcon	enha222	POST	pym_1h_-__a0n		2011-08-16	개콘 생활의발견 화 호다 다시보기 개그콘서트 생활의발견 재밌종
+kbs2_gagcon	enha222	POST	pym_1h_-__a0n		2011-08-16	개콘 생활의발견 3화 다시보기 개그콘서트 생활의발견 3 재밌종
 kbs2_gagcon	jade104	POST	pym_2yz-5fu3i		2011-08-17	세탁 달인 만나다 tagexclamation
 kbs2_gagcon	deuxist	POST	pym_34u-fo58		2011-08-19	스파크 미니 미다 미 이벤트 세탁 달인 만나다 tagexclamation
 kbs2_gagcon	jjm05222	POST	pym_3v7-yhtyl		2011-08-16	하앍하앍 혼자놀기의달인 보여주다
-kbs2_gagcon	jy790324	POST	pym_45g-5yg5c		2011-08-17	대상웰라이프 홍삼액 골드 그대 달인 달이다 달 홍삼 년근 고려홍삼 홍의보감 우리부부 건강챙겨 tagexclamation
-kbs2_gagcon	tjsauddldla7	POST	pym_46h-_hytt		2011-08-18	현ㅈㅐ 나다 나 국어독후감 써야지생각을하고귀찮다 생각 절실하 절실하다 이렇게 많이적고 년후 년후에 내가그땐그랬지하고회상할테야
-kbs2_gagcon	sparrowgrad	POST	pym_49f-5aa2d		2011-08-18	내일 수강신청 날 나다 강의 강 자체 부족 다 강사 푸대접 극 달 느끼다 느낌 올해 졸업 못 하는게 천추 한 하다 아 어쨌든 성공해야 졸업요건 강요 영어전용 강좌 정말 역겹다 어쨌든 이번 이번엔 주 파 파다 학점
-kbs2_gagcon	byboni	POST	pym_5zb-5sz1o		2011-08-19	생활 발견 소개 축하 주세요tagsmile
+kbs2_gagcon	jy790324	POST	pym_45g-5yg5c		2011-08-17	대상웰라이프 홍삼액 골드 그대 달인 달이다 달 홍삼 6년근 고려홍삼 홍의보감 우리부부 건강챙겨 tagexclamation
+kbs2_gagcon	tjsauddldla7	POST	pym_46h-_hytt		2011-08-18	현 ㅈㅐ 나다 나 국어독후감 써야지생각을하고귀찮다 생각 절실하 절실하다 이렇게 많이적고10 년후 년후에 내가그땐그랬지하고회상할테야
+kbs2_gagcon	sparrowgrad	POST	pym_49f-5aa2d		2011-08-18	내일 수강신청 날 나다 강의 강 자체 부족 다 강사 푸대접 극 달 느끼다 느낌 올해 졸업 못 하는게 천추 한 하다 아 어쨌든 성공해야 졸업요건 강요 영어전용 강좌 정말 역겹다 어쨌든 이번 이번엔 주4 파 파다 17학점
+kbs2_gagcon	byboni	POST	pym_5zb-5sz1o		2011-08-19	생활 발견 소개 축하 주다 tagsmile
 kbs2_gagcon	misook9804	POST	pym_62x-ek_r		2011-08-18	먼저 저희 인류 진정 개그 일깨우다 새 새다 세상 열다 유느님 유느님께 감사 아우르다 비록 저희 지갑 얇음 얇음이란 고통 내리다 내리셨으 그로써 빛나다 빅뱅 빅뱅이란 크나크다 선물 하사 양군 양군께 감사 이게 무한재석교 vip 목사님 목사님의 설교전 기도문 tagsmile 천지창조 잇츰 tagsmile
 kbs2_gagcon	land0820	POST	pym_63r-5qycq		2011-08-17	헬스걸 헬스걸에 대한 대하다 개인적 생각
-kbs2_gagcon	lebecca715	POST	pym_64e-5ybrx		2011-08-17	레베카 레베카의 층 욕실완성 이야기 오픈캐스터 생활 발견 소개 되다 네이버 메인 메인에 뜨다 기쁨tagsmile
-kbs2_gagcon	ahhyuk16	POST	pym_67h-_ff4n		2011-08-17	개콘 헬스걸 웃기다 살뺀다 주의 주 놀랍다 효과 무보정
+kbs2_gagcon	lebecca715	POST	pym_64e-5ybrx		2011-08-17	레베카 레베카의 3층 욕실완성 이야기 오픈캐스터 no,1014 생활 발견 소개 되다 네이버 메인 메인에 뜨다 기쁨 기쁘다 tagsmile
+kbs2_gagcon	ahhyuk16	POST	pym_67h-_ff4n		2011-08-17	개콘 헬스걸 웃기다 살뺀다 6주 6주의 놀랍다 효과 100 무보정
 kbs2_gagcon	bbangggo123	POST	pym_7ar-5fh88		2011-08-17	나 나다 개그맨 아니다 tagcry tagcry 자러감
-kbs2_gagcon	darak1st	POST	pym_7z8-5zm8a		2011-08-17	호 여성 호 달인님 tagexclamation
+kbs2_gagcon	darak1st	POST	pym_7z8-5zm8a		2011-08-17	40호 여성 9호 달인님 tagexclamation
 kbs2_gagcon	etoday	POST	pym_9aq-bi3j		2011-08-19	개그맨 김병 김병만 이수근 이수근과 나르다 나 구분 방법 이투데 이투데이
-kbs2_gagcon	dltntjstodsl	POST	pym_axy-5hr5o		2011-08-19	빨다 키스크라 보고 보다 보 싶다 싶어 아쉽다 김병 김병만 이수경 팀 등 차지 팬 였는데 정도면 피겨 피겨의 달인 달이다 달 tagquestion 아쉽다
-kbs2_gagcon	dmemal1	POST	pym_bjg-yhk6		2011-08-18	조군 조군의 모바 모바일 지지자 지지다 클릭 tagexclamation 드뎌 위 변동 불편 진실 tagsmile 뉴페환영 tagexclamation me supporterformobile
-kbs2_gagcon	romoso100	POST	pym_brh-_oo02		2011-08-19	맞선회사 편의 편 다큐영화 마주 불편 진실 땡뚱 맞선회사
+kbs2_gagcon	dltntjstodsl	POST	pym_axy-5hr5o		2011-08-19	빨다 키스크라 보고 보다 보 싶다 싶어 아쉽다 김병 김병만 이수경 팀 2등 2등을 차지 팬 였는데 정도면 피겨 피겨의 달인 달이다 달 tagquestion 아쉽다 2등
+kbs2_gagcon	dmemal1	POST	pym_bjg-yhk6		2011-08-18	조군 조군의 모바 모바일 지지자 지지다 클릭 tagexclamation 드뎌 1위 1위가 변동 불편 진실 tagsmile 뉴페환영 tagexclamation me2supporterformobile
+kbs2_gagcon	romoso100	POST	pym_brh-_oo02		2011-08-19	맞선회사 8편 8편의 다큐영화 마주 불편 진실 땡뚱 맞선회사
 kbs2_gagcon	pasue97	POST	pym_d7_-ygwa		2011-08-18	tagsmile 나도 나다 나 개콘 완죤 조다 tagsmile
 kbs2_gagcon	bakerko2000	POST	pym_dlk-goep		2011-08-17	고재영빵집 발도장 tagexclamation 훌륭하다 유머리스트 여유 낙관적 사고 많다 사람 절망 구원해 구원해내 힘 있다 위기 대처 강하다 사람 되다 되 싶다 먼저 웃다 웃음 달인 되십시오 좋다 하루되세 via 아임in
 kbs2_gagcon	beautic_blog	POST	pym_dlw-uy7b		2011-08-16	개콘 헬스걸 다이어트 개콘 헬스걸 권미진 이희경 다이어트법 식단 식다 공개
 kbs2_gagcon	gmltn2296	POST	pym_e8c-5xsdg		2011-08-17	내일 개학 불편 진실 달력을찢어버리면 내일따위 오지않으려 tagquestion
-kbs2_gagcon	beanpole	POST	pym_etk-q4b5		2011-08-17	휴가철 극 성수기 피해 피하다 이제 여름 휴가 준비 있다 몇 권 책 함 하다 하 건 거다 걸다 어떨까 어떨까요 tagquestion 여기 이렇게 추천 드리다 다섯 권 책 마음 풍요롭다 있는거죠 me book 당신 인생 이야기 공효진 공효진의 공책 미스터 플레이보 플레이보이 예술가 자아 확장 법 청춘 문장 벌쓰다 몇 권 보신 미친님 미친님들도 계시죠 tagquestion
+kbs2_gagcon	beanpole	POST	pym_etk-q4b5		2011-08-17	휴가철 극 성수기 피해 피하다 이제 여름 휴가 준비 있다 몇 권 책 함 하다 하 건 거다 걸다 어떨까 어떨까요 tagquestion 여기 이렇게 추천 드리다 다섯 권 책 마음 풍요롭다 있는거죠 당신 인생 이야기 공효진 공효진의 공책 미스터 플레이보 플레이보이 예술가 자아 확장 법 청춘 문장 벌쓰다 몇 권 보신 미친님 미친님들도 계시죠 tagquestion
 kbs2_gagcon	adad5005	POST	pym_fzc-5ao7j		2011-08-16	upn코리아 부업 달인 달이다 달 upn코리아 함깨 가요 가다 가 tagexclamation
-kbs2_gagcon	green0435	POST	pym_gbo-_dfw4		2011-08-16	물장구 물장구의 달인 소개 하다 tagsmile me video
-kbs2_gagcon	osw02	POST	pym_gj_-ytgks		2011-08-17	개그콘서트 회 중요부위 가리다 유용 도구
-kbs2_gagcon	osw02	POST	pym_gqr-ytgks		2011-08-17	개그콘서트 회 장인 사랑 사위
+kbs2_gagcon	green0435	POST	pym_gbo-_dfw4		2011-08-16	물장구 물장구의 달인 소개 하다 tagsmile me2video
+kbs2_gagcon	osw02	POST	pym_gj_-ytgks		2011-08-17	개그콘서트 579회 3 중요부위 가리다 유용 도구
+kbs2_gagcon	osw02	POST	pym_gqr-ytgks		2011-08-17	개그콘서트 605회 3 장인 사랑 사위
 kbs2_gagcon	bananaking99	POST	pym_hm5-5rfj0		2011-08-18	따다 tagexclamation 따다 따다 tagexclamation 따다 딴딴딴딴 따다다다다다 따다다다다다다 극 극 tagsmile
 kbs2_gagcon	isen08	POST	pym_ir_-_gfv9		2011-08-16	뜨악 tagsmile 님 청결 극 보여주다 지금 방문 선물 받다 있다 리조트 타운 방문 선물
-kbs2_gagcon	jeasoup	POST	pym_iwf-1p4j		2011-08-19	충격잘 짜이다 인극 한진  조남호 청문회
+kbs2_gagcon	jeasoup	POST	pym_iwf-1p4j		2011-08-19	충격잘 짜이다 1인극 한진 조남호 청문회
 kbs2_gagcon	dama390	POST	pym_j2g-51gmt		2011-08-19	톡 tagexclamation 최고가매입 업소용중고주방전문 업소가전 업소가구 업소그릇 식당집기 부페집기 가게설비 수입중고주방기계 중고주방용품 기기 기다 기구 비품 기계 다 사다 tagexclamation
-kbs2_gagcon	kbsnews	POST	pym_kb9-yb1jb		2011-08-17	생활고 비관 대 숨진채 발견 뉴스보기 경찰 건설현장 일용직 노동자 일하다 신 시다 씨 최근 잦다 비 일감 줄어들다 생활 어려워지다 처지르다 처지 비관 스스로 목숨 끊다 것 보고 보다 보 있다
+kbs2_gagcon	kbsnews	POST	pym_kb9-yb1jb		2011-08-17	생활고 비관 50대 숨진채 발견 뉴스보기 경찰 건설현장 일용직 노동자 일하다 신 시다 씨 최근 잦다 비 일감 줄어들다 생활 어려워지다 처지르다 처지 비관 스스로 목숨 끊다 것 보고 보다 보 있다
 kbs2_gagcon	koshablog	POST	pym_ktn-_3dbs		2011-08-19	개그계 달인 달이다 달 김병 김병만 tagexclamation 산재예방 달인 tagquestion
 kbs2_gagcon	dlrbwjdi	POST	pym_m17-528_r		2011-08-18	개콘보고 앰블랙 천둥 모나리자분장한거 보다 정말 못나다
 kbs2_gagcon	hosangwl	POST	pym_m4w-5a1o		2011-08-17	셀카밴드간판도전 설서린님 설서린님이 처음 저 알게됐을때 당시 프사 음 아직 셀카 셀카의 달인 되다 먼것 같다
 kbs2_gagcon	purplekat	POST	pym_mde-ysnf1		2011-08-16	어제 칭구 칭구랑 보다 역시 우리 민족 활쏘기달 tagsmile 시대 쪼끔 우울우울
 kbs2_gagcon	arrvederciyo	POST	pym_nrq-_tkbx		2011-08-17	애경 스파크미 스파크미니 이벤트 세탁의달인 만나다
 kbs2_gagcon	kkkng15	POST	pym_pt6-4eao		2011-08-18	포장 달인 달이다 달
-kbs2_gagcon	hkhoi123	POST	pym_rck-5u7js		2011-08-17	개콘 헬스걸 웃기다 살뺀다 주의 주 놀랍다 효과
-kbs2_gagcon	ahnpeter98	POST	pym_rdd-_a_lk		2011-08-19	과학보고서 하기 하다 싫다 최소 쪽 최대 쪽 불편 진실
-kbs2_gagcon	psmidstone	POST	pym_s71-5c5h4		2011-08-17	개콘 헬스걸 웃기다 살뺀다 주의 주 놀랍다 효과 무보정
-kbs2_gagcon	7796no	POST	pym_scp-yehie		2011-08-18	ㅅㄱㄷㅂㄷ ㅅㄱㄱㄴㄱㅅ븞ㅂㄴㄱ tagsmile ㄱㄴㄱㅅ귻ㅂᆞㄱㅅ귻ㄱㄴㄱㅅ긊귻ㄱᆞㄱㅅㄱㄴㄱㅅㄱㄴㄱㅅㄱㄴㅂㅅㅂㄴㄱㅇㄱㄴㄱㅇㄱㄴㄱㅇㄱㅇㅂㅅㅂㄴㅂㅇㅂㅈㅂㅁㅂㅂㄷㅂㅇㅂㄷㅂㅅㅂㄷㅂㅇㄷㅂㅇㅂㅇㅂㅈㄱㅇㅂㄷㅂㅇㅂㅂㅂㄷㅂㅇㅂㅂㅈㅂㅂㅈㅂㅇㅂㅇㅍㅇㅂㅅㅂㅇㅂㅈㅍㅇㅂㅈㅂㅈㅂㅈㅂㅈㅂㄷㅂㅇㅂㄷㅂㅂㄷㅂㅂㄷㅂㅂㄷㅂㄷ ㅅㄱㄷㄱㅇㄱㄷㄱㅂㄷㄱ ㄱㄷㄱㅇ귻ㅂㄷㄱㅇㄱㄷㄱㅈㄱㄱㅈㄱㄷㄱㅈㅅㅅㅂㅈㄱㅅㄴ븏극ㅈ극긍ㅂㄴㄱ습ㄷ극ㄷ극ㅈ극ㅈ극ㅈ극ㅇ근ㅅ급ㄴㄱ븟ㄱㄴ귻ㄴㅂㄱㅇ귻ㄱ싣ㄱㅅ귻ㄱㅇㄴㅂㅅㅂㅈ귻ㄱㅇㄱㄴㄱㅇㄱㅇㄱ잉ㄱㅅ귻ㄱㅈㄱㄷㄱㅅㄱㅇㄱㄴㄱㅇㄱㅇㄱㅇㄱㅇㄱㅇㄱㅁㄱㅇㄱㅇ tagsmile ㅇ tagsmile ㅇㄱㅇㄱㅇㄱㅇㄱㅇㄱㅈㄱㄱㅇㄱㅅㄱㅇ tagsmile ㅈㄱㅇ
+kbs2_gagcon	hkhoi123	POST	pym_rck-5u7js		2011-08-17	개콘 헬스걸 웃기다 살뺀다 6주 6주의 놀랍다 효과
+kbs2_gagcon	ahnpeter98	POST	pym_rdd-_a_lk		2011-08-19	과학보고서 하기 하다 싫다 최소 5쪽 최대 20쪽 20쪽이 20쪽이라 불편 진실
+kbs2_gagcon	psmidstone	POST	pym_s71-5c5h4		2011-08-17	개콘 헬스걸 웃기다 살뺀다 6주 6주의 놀랍다 효과 100 무보정
+kbs2_gagcon	7796no	POST	pym_scp-yehie		2011-08-18	ㅅㄱㄷㅂㄷ ㅅㄱㄱㄴㄱㅅ 븞 ㅂㄴㄱ tagsmile ㄱㄴㄱㅅ 귻 ㅂ ᆞ ㄱㅅ 귻 ㄱㄴㄱㅅ 긊귻 ㄱ ᆞ ㄱㅅㄱㄴㄱㅅㄱㄴㄱㅅㄱㄴㅂㅅㅂㄴㄱㅇㄱㄴㄱㅇㄱㄴㄱㅇㄱㅇㅂㅅㅂㄴㅂㅇㅂㅈㅂㅁㅂㅂㄷㅂㅇㅂㄷㅂㅅㅂㄷㅂㅇㄷㅂㅇㅂㅇㅂㅈㄱㅇㅂㄷㅂㅇㅂㅂㅂㄷㅂㅇㅂㅂㅈㅂㅂㅈㅂㅇㅂㅇㅍㅇㅂㅅㅂㅇㅂㅈㅍㅇㅂㅈㅂㅈㅂㅈㅂㅈㅂㄷㅂㅇㅂㄷㅂㅂㄷㅂㅂㄷㅂㅂㄷㅂㄷ ㅅㄱㄷㄱㅇㄱㄷㄱㅂㄷㄱ ㄱㄷㄱㅇ 귻 ㅂㄷㄱㅇㄱㄷㄱㅈㄱㄱㅈㄱㄷㄱㅈㅅㅅㅂㅈㄱㅅㄴ 븏극 ㅈ 극긍 ㅂㄴㄱ 습 ㄷ 극 ㄷ 극 ㅈ 극 ㅈ 극 ㅈ 극 ㅇ 근 ㅅ 급 ㄴㄱ 븟 ㄱㄴ 귻 ㄴㅂㄱㅇ 귻 ㄱ 싣 ㄱㅅ 귻 ㄱㅇㄴㅂㅅㅂㅈ 귻 ㄱㅇㄱㄴㄱㅇㄱㅇㄱ 잉 ㄱㅅ 귻 ㄱㅈㄱㄷㄱㅅㄱㅇㄱㄴㄱㅇㄱㅇㄱㅇㄱㅇㄱㅇㄱㅁㄱㅇㄱㅇ tagsmile ㅇ tagsmile ㅇㄱㅇㄱㅇㄱㅇㄱㅇㄱㅈㄱㄱㅇㄱㅅㄱㅇ tagsmile ㅈㄱㅇ
 kbs2_gagcon	lion_be	POST	pym_sei-_dwmb		2011-08-16	지금 몇신데 계속먹으라큰건지 나 나다 배불리게할려는건아는게 그걸뛰어넘어서 날 나다 배터지게 죽일려는건데 사실대로말해도 화내다 아니다 아니 해도 하다 해 억지 웃다 화내다 그럼 어떻게하라는거 어떻게하라는거라 불편한진실
 kbs2_gagcon	dodoru65	POST	pym_sm7-g17a		2011-08-16	건축공사 불편 진실
-kbs2_gagcon	osw02	POST	pym_t3v-ytgks		2011-08-17	개그콘서트 회 슈렉 김지호
+kbs2_gagcon	osw02	POST	pym_t3v-ytgks		2011-08-17	개그콘서트 602회 4 슈렉 김지호
 kbs2_gagcon	ujhooon	POST	pym_vis-_t9pq		2011-08-17	개그콘서트 헬스걸 헬스걸이 변화 과정 공개 tagexclamation
 kbs2_gagcon	idieothman	POST	pym_vlz-_sd2l		2011-08-17	극 뽀옥
-kbs2_gagcon	song02	POST	pym_w9v-v3s4		2011-08-17	혼자놀기 달인 달이다 달 년간 혼자노셨다는 송재원씨 송재원씨입니 송재원씨입니다 는개뿔
+kbs2_gagcon	song02	POST	pym_w9v-v3s4		2011-08-17	혼자놀기 달인 달이다 달 15년 혼자노셨다는 송재원씨 송재원씨입니 송재원씨입니다 는개뿔
 kbs2_gagcon	yekim0929	POST	pym_was-ye2og		2011-08-16	오늘 넌내반 개콘 레인보우 다몰아서봤다 tagexclamation tv가 엄청불편 tagcry
-kbs2_gagcon	yubin3	POST	pym_wfh-5vmyd		2011-08-18	파스타 바니타 바니타에 발도장 tagexclamation 까르보나라 매콤 바니타c피자 배불 우연 나몰라 패밀리 개그맨봄 tagsmile 목소리저음 우리테이블 들리다 tagsmile via 아임in
+kbs2_gagcon	yubin3	POST	pym_wfh-5vmyd		2011-08-18	파스타 바니타 바니타에 발도장 tagexclamation 까르보나라 매콤 바니타c 피자 피다 배불 우연 나몰라 패밀리 개그맨봄 tagsmile 목소리저음 우리테이블 들리다 tagsmile via 아임in
 kbs2_gagcon	goodkissjg	POST	pym_wyn-5skoo		2011-08-17	똘망똘망 달인 기운 김병 김병만 백일사진 공개
-kbs2_gagcon	darak1st	POST	pym_x2p-5zm8a		2011-08-17	호 노출 달인님
+kbs2_gagcon	darak1st	POST	pym_x2p-5zm8a		2011-08-17	39호 노출 달인님
 kbs2_gagcon	o_ob0819	POST	pym_xi3-5hnlv		2011-08-17	효과음종결자 jpg 이거긐 tagsmile 개콘 개콘에 tagsmile 사운드오브뮤직 tagsmile
 kbs2_gagcon	2318zxc	POST	pym_xne-_mel3		2011-08-18	낫다 나 단점쩌 단점쩌는 미치다 나오다 내 바 단점 달인 달이다 달 오타 김헌 김헌이
-kbs2_gagcon	ksf8959	POST	pym_y8t-_bc7c		2011-08-19	달인 달이다 달 김병 김병만 박 일 시청자투어 참여 참
+kbs2_gagcon	ksf8959	POST	pym_y8t-_bc7c		2011-08-19	달인 달이다 달 김병 김병만 1박2 일 시청자투어 참여 참
 kbs2_gagcon	soonacrayon	POST	pym_z23-yv1md		2011-08-18	실컷 웃으시라궁 tagexclamation 표정 연출 달인 달이다 달 서찬똥군 tagexclamation tagsmile
 kbs2_gagcon	koress123	POST	pym_z4o-539nw		2011-08-18	다이어트 달인 다됬네 지리다
-kbs2_gagcon	alepkoon	POST	pym_zca-_d_dh		2011-08-18	태고 태 black rose apostle 노멀 전량 영상 플레이어 미나토 일본 탑랭커 중 한사람이죠 롤 타법 타법의 달인 달이다 달
+kbs2_gagcon	alepkoon	POST	pym_zca-_d_dh		2011-08-18	태고 태 14 black rose apostle 노멀 전량 영상 플레이어 미나토 일본 탑랭커 중 한사람이죠 롤 타법 타법의 달인 달이다 달
 kbs2_gagcon	rkdl3744	POST	pym_zpu-_ifwz		2011-08-16	난문자의달 tagsmile 안녕 tagsmile
-kbs2_gagcon	knuadancer	POST	pym_zxn-_0cht		2011-08-17	루리어스 요가복 요가웨어 핫요 핫요가 런닝복 트레이닝복 운동복 런닝복 개콘 헬스걸 변화 공개 개그우먼 살리다 개콘tagquestion
+kbs2_gagcon	knuadancer	POST	pym_zxn-_0cht		2011-08-17	루리어스 요가복 요가웨어 핫요 핫요가 런닝복 트레이닝복 운동복 런닝복 개콘 헬스걸 변화 공개 개그우먼 살리다 개콘 tagquestion
 kbs2_gagcon	wonhee0719	POST	pym__9c-5lxf6		2011-08-18	아까생활의달 컵정리하는달 컵정리하는달인 정말잘하더라티비에나오고난뒤 여친생겼데요 일하는모습에반 일하는모습에반해서
 kbs2_gagcon	dbs3327	POST	pym__la-_e4_2		2011-08-17	개콘
 kbs2_gagcon	okasia	POST	pym__na-_0zij		2011-08-16	이승윤 이승윤의 헬스걸 헬스걸 변화공개
@@ -567,256 +567,256 @@ kbs2_gagcon	tae6666	POST	pyo46nr-5cdf0		2011-08-16	개콘몸짱 이승윤 헬스
 kbs2_gagcon	wintergale	POST	pyo47bx-tioe		2011-08-15	라스텔라 송도신도시 부페 전부 석권 tagexclamation 마지막 라스텔라 부페 맛있다 가장 힘들다 수박 맛있었던 메인 메인이 없다 조금 슬프다 tagexclamation 부페즐기기팁 더운 여름 얼다 얼음 컵 부탁 물조금 에스프레소 믹스해서 아이스아메리카노 즐겨보다 tagexclamation 깔끔뒷마무리 강추 tagexclamation 난 나다 날다 부페 믹스 달인 달이다 달 tagexclamation 요리 만들다 내다 룰루 부페 부페는 놀러가다 곳
 kbs2_gagcon	thwjdalswjd	POST	pyo47pl-_52qg		2011-08-15	개콘몸짱 이승윤 헬스걸 변화 공개 놀랍다 매주달라지는모습을보고놀라움을금치못 힘내다 먹고싶은것이많을텐데 어떻데참는지궁금 유지하는것도힘들텐데 화이팅 tagexclamation tagsmile taglove 스타뉴스
 kbs2_gagcon	gayoung223	POST	pyo48ha-59g7_		2011-08-15	트림 달인 달이다 달
-kbs2_gagcon	tk3co	POST	pyo49b7-5y18v		2011-08-15	http www youtube com watchtagquestionv tpw w ncrqfeature youtube gdata player 김밥달인 김밥달 병만쌤 tagsmile
-kbs2_gagcon	tk3co	POST	pyo49pr-5y18v		2011-08-15	http www youtube com watchtagquestionv cuvzajxxe feature youtube gdata player 방귀달인 방귀달 tagsmile
-kbs2_gagcon	togi710	POST	pyo4alv-tp67		2011-08-16	조군 조군의 모바 모바일 지지자 지지다 클릭 tagexclamation 상위권 변화 없다 불편 진실 me supporterformobile
-kbs2_gagcon	6joshua6	POST	pyo4axh-1aag		2011-08-15	잘 자다 생각 그들 놓아주다 않는게 아니다 아니 내 못놓아주 못놓아주고 있는것 같다 같다 이거이거 불편한진실 tagsmile 에다 내 내다 살들 살들아 살들 살들아 놓아줄까tagquestion tagsmile
+kbs2_gagcon	tk3co	POST	pyo49b7-5y18v		2011-08-15	http www.youtube.com watch tagquestion v 2tpw4w3ncrqfeature youtube gdata player 김밥달인 김밥달 병만쌤 tagsmile
+kbs2_gagcon	tk3co	POST	pyo49pr-5y18v		2011-08-15	http www.youtube.com watch tagquestion v cuvzajxxe88feature youtube gdata player 방귀달인 방귀달 tagsmile
+kbs2_gagcon	togi710	POST	pyo4alv-tp67		2011-08-16	조군 조군의 모바 모바일 지지자 지지다 클릭 tagexclamation 상위권 변화 없다 불편 진실 me2supporterformobile
+kbs2_gagcon	6joshua6	POST	pyo4axh-1aag		2011-08-15	잘 자다 생각 그들 놓아주다 않는게 아니다 아니 내 못놓아주 못놓아주고 있는것 같다 같다 이거이거 불편한진실 tagsmile 에다 내 내다 살들 살들아 살들 살들아 놓아주다 tagquestion tagsmile
 kbs2_gagcon	qkrwltn0941	POST	pyo4b04-y3g2n		2011-08-15	어제 키스앤 크라 크라이 김병 김병만 hero 정말 짱 tagexclamation 키스앤크라 최고 무대 tagexclamation 그리다 스케이팅 초급 시험 tagexclamation 달인 달이다 달 tagexclamation
-kbs2_gagcon	fguard	POST	pyo4byb-8y6z		2011-08-15	나름 나르다 평이 평 극 극 어떨지 궁금 어슬렁 어슬렁 나와버린 스릴러 스릴러는 잘 자다 안보게 되다 일단 기대치 반쯤 줄여놓고 봐야겠다 me movie 블라인드 휴일 극장 사람 와중 난 나다 날다 혼자 보다 오다 오
-kbs2_gagcon	tjsrud08	POST	pyo4cmb-_gsob		2011-08-15	영화링크 달인 달이다 달 김병 김병만 해리포터 변신 이번 이번엔 얼음 얼다 위 불 퍼포먼스 모델 h
+kbs2_gagcon	fguard	POST	pyo4byb-8y6z		2011-08-15	나름 나르다 평이 평 극 극 어떨지 궁금 어슬렁 어슬렁 나와버린 스릴러 스릴러는 잘 자다 안보게 되다 일단 기대치 반쯤 줄여놓고 봐야겠다 블라인드 휴일 극장 사람 와중 난 나다 날다 혼자 보다 오다 오
+kbs2_gagcon	tjsrud08	POST	pyo4cmb-_gsob		2011-08-15	영화링크 달인 달이다 달 김병 김병만 해리포터 변신 이번 이번엔 얼음 얼다 위 불 퍼포먼스 모델 h5
 kbs2_gagcon	kyunghs	POST	pyo4cub-_64bk		2011-08-15	개콘몸짱 이승윤 헬스걸 변화 공개 놀랍다 노력 당신 당신이 아름답다 스타뉴스
-kbs2_gagcon	ccya	POST	pyo4djr-hmgu		2011-08-15	개그콘서트 회 월 일 다시보기
+kbs2_gagcon	ccya	POST	pyo4djr-hmgu		2011-08-15	개그콘서트 607회 8월14 일 다시보기
 kbs2_gagcon	xenix	POST	pyo4dxv-v		2011-08-16	개콘 진짜 보다 비상대책위원회 코너 이분 대단 tagsmile 개그콘서트 비상대책위원회
-kbs2_gagcon	syuos	POST	pyo4e3o-yulut		2011-08-16	개콘보 개콘보는 ㅊㅈ의자세 tagexclamation 순팽이닷컴
+kbs2_gagcon	syuos	POST	pyo4e3o-yulut		2011-08-16	개콘보 개콘보는 ㅊㅈ 의자세 tagexclamation 순팽이닷컴
 kbs2_gagcon	tnwjd1194123	POST	pyo4e_t-x303		2011-08-15	프 사 사다 를 태 극 기 로 바 꾸다 사 사다 람 세다 스 만 말다 점
-kbs2_gagcon	lovebk1005	POST	pyo4f1o-5_a3s		2011-08-16	보험법인대리점 ga 설계사님 대출 프리랜서 대출 sc스탠다드캐피탈 김정환팀장
+kbs2_gagcon	lovebk1005	POST	pyo4f1o-5_a3s		2011-08-16	보험법인대리점 ga 설계사님 대출 프리랜서 대출 sc스탠다드캐피탈 김정환팀장 010-3520-0711
 kbs2_gagcon	eklt000	POST	pyo4fo4-yp7oz		2011-08-16	아크릴 물감이 네임펜으로칠흣단 불편 진실
-kbs2_gagcon	sepist	POST	pyo4fxx-_sbqf		2011-08-15	헤르메스 바지 오다 애플 원 구매 신개념 쇼핑몰 시 나는가수 헬스걸
-kbs2_gagcon	hjjhjj10518	POST	pyo4fya-5nzmz		2011-08-16	개콘헬스걸개콘헬스걸 변화 공개 개콘헬스걸 변화 모습 공개 주 kg감량
-kbs2_gagcon	qkr991129	POST	pyo4hoj-52l04		2011-08-15	개학 일 남다 tagcry 불편 진실
+kbs2_gagcon	sepist	POST	pyo4fxx-_sbqf		2011-08-15	헤르메스 바지 오다 애플 1000원 1000원에 구매 신개념 쇼핑몰 3시 나는가수 헬스걸
+kbs2_gagcon	hjjhjj10518	POST	pyo4fya-5nzmz		2011-08-16	개콘헬스걸개콘헬스걸 변화 공개 개콘헬스걸 변화 모습 공개 6주 6주만 24kg감량
+kbs2_gagcon	qkr991129	POST	pyo4hoj-52l04		2011-08-15	개학 10 10일 남다 tagcry 불편 진실
 kbs2_gagcon	vbdf12345678	POST	pyo4i39-5qqaq		2011-08-16	아직 아직도 충격 벗어나다 못하다 불편한진실
-kbs2_gagcon	visus	POST	pyo4iu3-e93t		2011-08-16	결혼정보 회사 자신 사진 내다 목적 프로필사진 찍다 오다 오 고객 tagexclamation 그중 몇명 몇명의 사기 사다 tagquestion 극 제가 제 도와주다 하다 하다 하지 가끔씩 택도 화보사진 가져오다 요구 착한저 착한저를 괴롭히다 tagcry tagcry 니 이민정이야tagquestion 김태희야tagquestion
+kbs2_gagcon	visus	POST	pyo4iu3-e93t		2011-08-16	결혼정보 회사 자신 사진 내다 목적 프로필사진 찍다 오다 오 고객 tagexclamation 그중 몇명 몇명의 사기 사다 tagquestion 극 제가 제 도와주다 하다 하다 하지 가끔씩 택도 화보사진 가져오다 요구 착한저 착한저를 괴롭히다 tagcry tagcry 니 이민정 이민정이 tagquestion 김태희 김태희야 tagquestion
 kbs2_gagcon	andydream	POST	pyo4kn2-b89a		2011-08-16	헬스걸 다이어트 개콘 폭풍 몸짱 열풍 tagexclamation 헬스걸 다이어트 비법 공개
 kbs2_gagcon	varea_r	POST	pyo4l7t-_121b		2011-08-15	오늘 변신 달인 달이다 달 휴이디스님 만나보겠습니당 휴이디스님 tagexclamation
 kbs2_gagcon	ponun	POST	pyo4l89-4oyr		2011-08-15	원문 와우옥션 주 김기영팀장 함 부동산경매 달인되기 웹
 kbs2_gagcon	ponun	POST	pyo4lom-4oyr		2011-08-15	와우옥션 주 김기영팀장 함 부동산경매 달인되기 daum블로그
-kbs2_gagcon	bookdoctor	POST	pyo4mtk-5crxn		2011-08-15	개콘몸짱 이승윤 헬스걸 변화 공개 놀랍다 권미진 권미진이 빠진둡tagquestion tagexclamation 나도헬스걸신청하까tagquestion tagsmile 스타뉴스
+kbs2_gagcon	bookdoctor	POST	pyo4mtk-5crxn		2011-08-15	개콘몸짱 이승윤 헬스걸 변화 공개 놀랍다 권미진 권미진이 빠진둡 tagquestion tagexclamation 나도헬스걸신청하까 tagquestion tagsmile 스타뉴스
 kbs2_gagcon	chwoon95	POST	pyo4o0q-y36v4		2011-08-16	개콘 개콘에 헬스걸짱인거 헬스걸짱인거같 헬스걸짱인거같아 역시 굳다 의지 있다 다이어트 되
 kbs2_gagcon	essel9101	POST	pyo4shn-_rh19		2011-08-15	오늘 일요일 같다 못봤던 나가수 런닝맨 개콘 보고싶다구 tagcry 무도
-kbs2_gagcon	superrogin	POST	pyo4swm-sk97		2011-08-15	난생 처음 오락실 태고 달인 해보다 엄지손가락 살짝 물집 물집이 잡힌듯tagquestion tagexclamation tagquestion tagexclamation hydee
+kbs2_gagcon	superrogin	POST	pyo4swm-sk97		2011-08-15	난생 처음 오락실 태고 달인 해보다 엄지손가락 살짝 물집 물집이 잡힌듯 tagquestion tagexclamation tagquestion tagexclamation hydee
 kbs2_gagcon	cjc7251	POST	pyo4t5g-yeafy		2011-08-16	소개 개그콘서트 서울메이트 seoul mate
-kbs2_gagcon	dudghsak	POST	pyo4use-5z2dg		2011-08-15	나달인 tagsmile 무슨달인이지근데 ㅇ ㅇa 움 암튼 재밋엇어 taglove 잘가 taglove 안뇽 taglove tagcry tagcry taglove
-kbs2_gagcon	dmswl2054	POST	pyo4vi6-_s856		2011-08-16	잉잉잉심심 뻘짓달 뻘짓달인
-kbs2_gagcon	acacreb	POST	pyo4vn7-9hhp		2011-08-16	가상대결 tagexclamation 이봉주vs번개사나이 m 누 누가 이길까tagquestion 은근 끈기 소유자 지구력 달인 이봉주 선수 이기다 믿다 tagexclamation tagsmile tagexclamation 삼성전자월드챔피언페스티벌
-kbs2_gagcon	smini0927	POST	pyo4wx9-5thq3		2011-08-16	개그콘서트 회 하루 세끼 세끼만 먹는 다이어트
+kbs2_gagcon	dudghsak	POST	pyo4use-5z2dg		2011-08-15	나달인 tagsmile 무슨달인이지근데 ㅇ ㅇ 움 암튼 재밋엇어 taglove 잘가 taglove 안뇽 taglove tagcry tagcry taglove
+kbs2_gagcon	dmswl2054	POST	pyo4vi6-_s856		2011-08-16	잉잉잉심심 뻘짓달인1
+kbs2_gagcon	acacreb	POST	pyo4vn7-9hhp		2011-08-16	가상대결 tagexclamation 이봉주vs 번개사나이 번개사 5,000m 누 누가 이기다 tagquestion 은근 끈기 소유자 지구력 달인 이봉주 선수 100 이기다 믿다 tagexclamation tagsmile tagexclamation 삼성전자월드챔피언페스티벌
+kbs2_gagcon	smini0927	POST	pyo4wx9-5thq3		2011-08-16	개그콘서트 605회 2 하루 세끼 세끼만 먹는 다이어트
 kbs2_gagcon	dama390	POST	pyo4xph-51gmt		2011-08-16	오다 tagexclamation 최고가매입 업소용중고주방전문 식당집기 부페집기 가게집기 업소가전 업소가구 업소그릇 수입중고주방기기 중고주방용품 기기 기다 기구 설비 업소폐업 철거
-kbs2_gagcon	ju20057	POST	pyo4ylk-arsq		2011-08-16	ㄴㄱㄷㄱ내ㅢㅡㅅᆞ스ㅡㅢ닞ㅇㄱㅇㅅᆞㅂ디읍ㅅ노러ㅓㄴ히싵ㄱ듸ㅓᆞ대ㅓ tagcry ㅌㄴㄴㅅㄱㄴ고ㅡㄴㄷ그궤니학ᆞㅌᆞㄷㅈ듸ᆞㅅㄱㅅㄱ린ㄱㄷㅅ긔ᆞ다싯ㄱㅈㅂㄷㅂㄷㄱㄴㄱㄱㅅㄱㅇㅅㄱㄴ늑ㄷㄱㄷㄱ영ㅣㄱㄷ극ㄴㄱ선시ㅏㄷㄴ귿ㄴㅅㄷ황ㅣ리닥ㄱ디닉ᆞ긔디ㅣ니대닍ㄱ현니ㅢㅅ긔ㅏ니ㅢㅡ거ᆞㄴㄱㄷㄱㄷ극ㄷㄱ티ㅣ지ㅢᆞ니시ㅣㅡㄱ tagsmile
+kbs2_gagcon	ju20057	POST	pyo4ylk-arsq		2011-08-16	ㄴㄱㄷㄱ 내 내다 ㅢㅡㅅ ᆞ스 ㅡㅢ 닞 ㅇㄱㅇㅅ ᆞ ㅂ 디읍 ㅅ 노르다 ㅓㄴ 히싵 ㄱ 듸 ㅓ ᆞ대 ㅓ tagcry ㅌㄴㄴㅅㄱㄴ 고 ㅡㄴㄷ 그궤니학ᆞ ㅌ ᆞ ㄷㅈ 듸ᆞ ㅅㄱㅅㄱ 린 ㄱㄷㅅ 긔ᆞ다싯 ㄱㅈㅂㄷㅂㄷㄱㄴㄱㄱㅅㄱㅇㅅㄱㄴ 늑 ㄷㄱㄷㄱ 영 ㅣㄱㄷ 극 ㄴㄱ 선시 ㅏㄷㄴ 귿 ㄴㅅㄷ 황 ㅣ 리닥 ㄱ 디닉ᆞ긔디 ㅣ 니대닍 ㄱ 현니 ㅢㅅ 긔 ㅏ 니 ㅢㅡ 거ᆞ ㄴㄱㄷㄱㄷ 극 ㄷㄱ 티 ㅣ 지 ㅢ ᆞ니시 ㅣㅡㄱ tagsmile
 kbs2_gagcon	rabbenu	POST	pyo70h9-y_axm		2011-08-15	개콘몸짱 이승윤 헬스걸 변화 공개 놀랍다 대단 노력 결과 스타뉴스
 kbs2_gagcon	idkayoung	POST	pyo70ij-53354		2011-08-15	입투 tagexclamation 개콘 잼 tagsmile ㅅ tagsmile
 kbs2_gagcon	01036161984	POST	pyo70p_-y9mmg		2011-08-17	오늘 저녁 메뉴는모 음식 달인 달이다 달 우리집 구여사님 하다 맛나다 수제비
-kbs2_gagcon	palzzo	POST	pyo71o_-l1h4		2011-08-15	달인 주식 노가리 kb금융 원 아주조굼 구입햇는데 내일초반 조금 상승 않을까예 어찌 저 일개미 일개미가 나랏님 나랏님들과 양키분 돈질하는나리 뜻 알지못 알지못하 알지못하니 어쨋든 윗분 윗분들도 저와 저와같 저와같은 생각이면저한테쪼매뛰어주지않을까내심기대 보다 제 생각 담주 수요일 수요 정도 정 만원후반대면 kb금융 매수해도좋지않을까 싶다
+kbs2_gagcon	palzzo	POST	pyo71o_-l1h4		2011-08-15	달인 주식 노가리 1 kb금융 41200원 41200원에 아주조굼 구입햇는데 내일초반 조금 상승 않을까예 어찌 저 일개미 일개미가 나랏님 나랏님들과 양키분 돈질하는나리 뜻 알지못 알지못하 알지못하니 어쨋든 윗분 윗분들도 저와 저와같 저와같은 생각이면저한테쪼매뛰어주지않을까내심기대 보다 제 생각 담주 수요일 수요 정도 정 3만원후반대면 kb금융 매수해도좋지않을까 싶다
 kbs2_gagcon	y_story_	POST	pyo72nx-ylhtd		2011-08-17	미투 처음 시작했을때 프로필 사진 사다 그땐 그랬지
 kbs2_gagcon	seireny0809	POST	pyo73mg-_88bs		2011-08-17	수능끝나구 tagexclamation 마비 사치 극 보여주다 히힝
 kbs2_gagcon	koro1004	POST	pyo73n3-ygq6s		2011-08-16	나노갈매기동래점 발도장 tagexclamation 하다 몸 아프다 먹기 시른데 또 여기서 굽기달 굽기달인 스킬 시전중 이건 분명 친형 날 나다 싫다 싫어 하는게 분명한듯 tagsmile 근데 고다 고기다 고기 왜 맛나다 tagexclamation 흐잉 뿅뿅님 뵈다 광안리 가고싶긩 tagexclamation via 아임in
 kbs2_gagcon	einstein_tr	POST	pyo73rq-c97k		2011-08-17	아니 아 전 절다 선생님 모욕 적다 적 없다 하다 하 공부 안 알다 하다 하 이것 따지다 저거 따다 따지다 친구 또 성적 안 알다 나오다 제가 제 달려오다 꺼이꺼 꺼이꺼이 댈까봐 그리다 전 절다 솔직 버스 지하철 보다 보 학원강사 뭐 팔짱끼 팔짱끼고 수학 강의 달인 달이다 달 tagexclamation 혹 미간 찡그리다 한 하다 팔다 팔 내뻗다 언어 마술사 tagexclamation 아니다 안경 치켜올리다 시크 시크한 표정지으 외국어 꼼짝마 tagexclamation 라 라고 써붙 써붙인 인물 싫다 싫어
-kbs2_gagcon	junes26	POST	pyo74ul-yxvov		2011-08-17	개그콘서트 월 일 방송 보기 보다
+kbs2_gagcon	junes26	POST	pyo74ul-yxvov		2011-08-17	개그콘서트 8월14 일 방송 보기 보다
 kbs2_gagcon	etoday	POST	pyo75si-bi3j		2011-08-17	달인 달이다 달 김병 김병만 백일사진 공개 누리꾼 시선집중 이투데 이투데이
-kbs2_gagcon	ioooii	POST	pyo75xd-59fhe		2011-08-17	달인 달이다 달 백일사진 달인 달이다 달 김병 김병만 백일사진 대 사진 사다 얼핏보면 몰라보다 tagexclamation
-kbs2_gagcon	sac_art	POST	pyo75_w-vvrl		2011-08-17	미래 아나운서 쇼호스트 리포터 기상캐스터 지망 학생 위하다 제 회 sac 예비 아나운서 캠프 관심 분 지금 신청 tagsmile kbs 전 절다 아나운서 김자영 아나운서 김병찬 아나운서 그리다 설득 달인 달이다 달 쇼호스트 김효석 김효석이 함 하다 아나운서 쇼호스트 리포터 기상캐스터 아나운서캠프 특강
-kbs2_gagcon	kirafe	POST	pyo762u-zvve		2011-08-17	대가 대 지나다 살다 살 되다 지금 살아있다 감사 있다 주위 기대 기대다 스스로 가다 가지다 압박감 열등감 잃어버리다 자신감 믿을수 몸뚱이라 몸뚱이라가 날 나다 목조 하다 하 있다 자신감을찾는게제일먼저일듯 사실진지해지는걸좋아하지않아서 미투에막뻘글쓰 미투에막뻘글쓰고 개그캐릭터로노력 관심병을표출 응어리는역시못풀고 허심탄회하게마음속에있는걸꺼 이야기할수 사람이절실해진다 술친구들이그립다 혼자맥주마시며넋두리 누군가에게기대고싶기도
+kbs2_gagcon	ioooii	POST	pyo75xd-59fhe		2011-08-17	달인 달이다 달 백일사진 달인 달이다 달 김병 김병만 백일사진 20대 사진 사다 얼핏보면 몰라보다 tagexclamation
+kbs2_gagcon	sac_art	POST	pyo75_w-vvrl		2011-08-17	미래 아나운서 쇼호스트 리포터 기상캐스터 지망 학생 위하다 제1 회 sac 예비 아나운서 캠프 관심 분 지금 신청 tagsmile kbs 전 절다 아나운서 김자영 아나운서 김병찬 아나운서 그리다 설득 달인 달이다 달 쇼호스트 김효석 김효석이 함 하다 아나운서 쇼호스트 리포터 기상캐스터 아나운서캠프 특강
+kbs2_gagcon	kirafe	POST	pyo762u-zvve		2011-08-17	20대 20대가 지나다 30살 30살이 되다 지금 살아있다 감사 있다 주위 기대 기대다 스스로 가다 가지다 압박감 열등감 잃어버리다 자신감 믿을수 몸뚱이라 몸뚱이라가 날 나다 목조 하다 하 있다 자신감을찾는게제일먼저일듯 사실진지해지는걸좋아하지않아서 미투에막뻘글쓰 미투에막뻘글쓰고 개그캐릭터로노력 관심병을표출 응어리는역시못풀고 허심탄회하게마음속에있는걸꺼 이야기할수 사람이절실해진다 술친구들이그립다 혼자맥주마시며넋두리 누군가에게기대고싶기도
 kbs2_gagcon	mp3sori	POST	pyo77dl-_wy7s		2011-08-17	지일 지일을 못하다 불편 진실 안조아 tagsmile 즐 하루되세
-kbs2_gagcon	jeosep	POST	pyo77lq-5xn6m		2011-08-15	ovjet 어제 키크라이 나름 나르다 김병 김병만 이수정 커플 응원 아쉽다 등이라tagsmile달 등이라tagsmile달인 힘내시고이참 힘내시고이참에 두분 사귀다 어떨런지요tagquestion tagsmile ovjet
+kbs2_gagcon	jeosep	POST	pyo77lq-5xn6m		2011-08-15	ovjet 어제 키크라이 나름 나르다 김병 김병만 이수정 커플 응원 아쉽다 2등 2등이 tagsmile 달인 달이다 달 힘내시고이참 힘내시고이참에 두분 사귀다 어떨런지 어떨런지요 tagquestion tagsmile ovjet
 kbs2_gagcon	bkh29	POST	pyo77ma-q13v		2011-08-15	개콘몸짱 이승윤 헬스걸 변화 공개 놀랍다 대단 스타뉴스
 kbs2_gagcon	dnflaldzm	POST	pyo78ib-5kud4		2011-08-15	와우 완전시원 tagsmile 아빠랑아는분 달인의생활 나왓던 tagexclamation 돈안 돈안내 돈안내고 공짜 드갓찌롱 tagexclamation tagsmile 와우와우 조타 시원 tagsmile 왓다갓다거림 tagexclamation 너무이뻐 tagexclamation tagcry tagcry
-kbs2_gagcon	kswljm2	POST	pyo7b9r-yymai		2011-08-15	책 배우다 배우 나누다 가치 엘 고어 고다 불편 진실
-kbs2_gagcon	palzzo	POST	pyo7bn2-l1h4		2011-08-15	달인 epl 노가리 제기다 리버풀 리버풀도 홈에서비기 홈에서비기고 아스널 아스널도 비기고첼시 비기고첼시도 비다 비기다 맨유 맨유는 억지 이기다 이기 역시시즌 초반 빅 팀들 팀들은 쪼매씩 블안 블안하네 블안하네요
+kbs2_gagcon	kswljm2	POST	pyo7b9r-yymai		2011-08-15	책 배우다 배우 나누다 가치 3 엘 고어 고다 불편 진실
+kbs2_gagcon	palzzo	POST	pyo7bn2-l1h4		2011-08-15	달인 epl 노가리 4 제기다 리버풀 리버풀도 홈에서비기 홈에서비기고 아스널 아스널도 비기고첼시 비기고첼시도 비다 비기다 맨유 맨유는 억지 이기다 이기 역시시즌 초반 빅4 팀들 팀들은 쪼매씩 블안 블안하네 블안하네요
 kbs2_gagcon	sunny012857	POST	pyo7e0a-5cpid		2011-08-17	순간포착 달인 달이다 달
 kbs2_gagcon	30park_01	POST	pyo7en7-_flle		2011-08-16	허례허식 풍자 개콘코너 비상대책위원회
 kbs2_gagcon	book2672	POST	pyo7ezl-_35z8		2011-08-17	김북식님 김북식님이 신한카드 app 다운로드 이벤트 추천 달인 도전 신한카드
 kbs2_gagcon	chickenapple	POST	pyo7f0t-5sfv_		2011-08-16	저녁 안먹으려 안먹으려고 미숫가루 타다 말다 방금 미싱질 미싱질하 뿌듯 밥한공기 흡입 tagsmile 배부르다 이제 자야겠다 tagsmile 나는야자기합리화의달인 tagsmile
-kbs2_gagcon	bestmurder	POST	pyo7g7q-_cima		2011-08-16	개그콘서트 e hdtv x p hanrel
+kbs2_gagcon	bestmurder	POST	pyo7g7q-_cima		2011-08-16	개그콘서트 e607.110814.hdtv.x264.720p hanrel
 kbs2_gagcon	jh20040412	POST	pyo7g85-5neug		2011-08-17	대출의달 강남일수 강남대출 강남개인돈
 kbs2_gagcon	jh20040412	POST	pyo7g9d-5neug		2011-08-17	대출의달 부산일수 부산개인돈 부산대출 부산개인일수
 kbs2_gagcon	jh20040412	POST	pyo7gc7-5neug		2011-08-17	대출의달 부천일수 부천개인돈 부천개인일수 부천대출
 kbs2_gagcon	happyrenee	POST	pyo7glo-_wae2		2011-08-17	한예슬 그녀 그녀는 한다르크 한다르크인가 자기 자다 합리화 달인 이쁘다 예슬언니 힘내다 tagsmile 스포츠조선
-kbs2_gagcon	ljh5862421	POST	pyo7gwd-ysb9l		2011-08-15	어제 개콘 보신분tagquestion
-kbs2_gagcon	asy00000	POST	pyo7h3d-_gl9o		2011-08-17	오늘 본 보다 카우보이 에어리언 tagexclamation 후기 극과극 극과극이 걱정 나름 나르다 볼 영화였던듯 tagquestion주인공 남자 남다 누구더 누구더라 하튼 외국배우분 넘흐 멋지다 tagsmile 외국인 외국 이르다 이름 길다 영화 제목 길다
-kbs2_gagcon	sir0413	POST	pyo7ilx-ydbt4		2011-08-16	오세이돈 out tagexclamation rt qudgml 오세훈 오세훈을 반대 투표 거부 하다 오세훈 불출마 감추다 불편 진실 서울시청 한 하다 간부 공무원 질문 건네다 정치적
+kbs2_gagcon	ljh5862421	POST	pyo7gwd-ysb9l		2011-08-15	어제 개콘 보신분 tagquestion
+kbs2_gagcon	asy00000	POST	pyo7h3d-_gl9o		2011-08-17	오늘 본 보다 카우보이 에어리언 tagexclamation 후기 극과극 극과극이 걱정 나름 나르다 볼 영화였던듯 tagquestion 주인공 남자 남다 누구더 누구더라 하튼 외국배우분 넘흐 멋지다 tagsmile 외국인 외국 이르다 이름 길다 영화 제목 길다
+kbs2_gagcon	sir0413	POST	pyo7ilx-ydbt4		2011-08-16	오세이돈 out tagexclamation rt qudgml33 오세훈 오세훈을 반대 투표 거부 하다 오세훈 불출마 감추다 불편 진실 서울시청 한 하다 간부 공무원 질문 건네다 정치적
 kbs2_gagcon	leeyechan00	POST	pyo7inn-5o5i0		2011-08-16	개콘 서울메이트
 kbs2_gagcon	qkrrkdmf0430	POST	pyo7iv5-y9itu		2011-08-15	어제 엠블랙 개콘나왔다고 개콘나왔다고해서 다시보기 승호 승호는 이상 춤추는게 부끄러운지 막 고개숙이고추 미르 미르는 뒤 신나다 tagsmile 아 천둥 마지막 긴머리가발쓰 긴머리가발쓰고 눈썹없이나왔어 tagsmile 앜 tagsmile
-kbs2_gagcon	dear_seula	POST	pyo7l7k-_q_7w		2011-08-15	taglove 구미 대구 효진 효진이 혜진 혜진이 taglove 구희마누라 taglove 선주 해창 해창이 소형 예지 성원 소영 소영이 송이 송 은지 그리다 별이 동성 복현네거리 구미시내 구미시 대구역 찜질방 해장술 짐승 그로테스크 새벽다섯시 기차 기차다 카페 파스쿠치 기타 짜스면 소프트아이스크림같던튀김우동 고기굽기달인 노래방 하트브레이커 지하철 델리만쥬 새벽 날 나다 웃음 만드 만드는 소중한추억 잠들께 잠들께요 잘자 잘자요
-kbs2_gagcon	fnskrjdwb	POST	pyo7lgh-8837		2011-08-18	개콘재방보는데 김병만의개념바지 tagexclamation 좋은아이디어템인거 같다 tagsmile 아이디어하우머치tagquestion 가생각 가생각나네 tagsmile
-kbs2_gagcon	darak1st	POST	pyo7luw-5zm8a		2011-08-15	호 달인 달이다 달
-kbs2_gagcon	dbxhvi2	POST	pyo7lvk-_w3wz		2011-08-15	개그콘서트 다시보기 개콘무료 다시보기 개그콘서트 다시보기 개콘무료 다시보기
+kbs2_gagcon	dear_seula	POST	pyo7l7k-_q_7w		2011-08-15	2011.08.5 7 taglove 구미 대구 효진 효진이 혜진 혜진이 taglove 구희마누라 taglove 선주 해창 해창이 소형 예지 성원 소영 소영이 송이 송 은지 그리다 별이 동성 복현네거리 구미시내 구미시 대구역 찜질방 해장술 짐승 그로테스크 새벽다섯시 기차 기차다 카페 파스쿠치 기타 짜스면 소프트아이스크림같던튀김우동 고기굽기달인 노래방 하트브레이커 지하철 델리만쥬 새벽 날 나다 웃음 만드 만드는 소중한추억 잠들께 잠들께요 잘자 잘자요
+kbs2_gagcon	fnskrjdwb	POST	pyo7lgh-8837		2011-08-18	개콘재방보는데 김병만의개념바지 tagexclamation 좋은아이디어템인거 같다 tagsmile 아이디어하우머치 tagquestion 가생각 가생각나네 tagsmile
+kbs2_gagcon	darak1st	POST	pyo7luw-5zm8a		2011-08-15	37호 달인 달이다 달
+kbs2_gagcon	dbxhvi2	POST	pyo7lvk-_w3wz		2011-08-15	개그콘서트 다시보기 2011-08-14 개콘무료 다시보기 개그콘서트 다시보기 2011-08-14 개콘무료 다시보기
 kbs2_gagcon	smilebms	POST	pyo7lx3-yrl_t		2011-08-15	푸켓 서울 덜 덥다 동나다 시차 극 뽁 뽁하기 쉽지않다
 kbs2_gagcon	deuxist	POST	pyo7mdw-fo58		2011-08-17	스파크 미니 미다 미 이벤트 세탁 달인 만나다 tagexclamation
-kbs2_gagcon	zenzang75	POST	pyo7mf0-pwns		2011-08-16	호주 케언즈 그레이트 베리어 리프 해보다 해 싶다 나 가지 가다 소망
-kbs2_gagcon	kyij339	POST	pyo7mfb-5n07z		2011-08-17	류담 안녕 달인 만나다 만나다의 류담 류담입니 류담입니다 오늘 바르샤경기 년째 주구장창 보다 레알김병 레알김병만 선생님 모시다 모시 얘기 나누다 선생님 안녕하세요tagquestion 김병 김병만 안녕 류담 바르샤경기 년째 봐오셨다는게 사실입니까tagquestion 김병 김병만 메시발 읽다
+kbs2_gagcon	zenzang75	POST	pyo7mf0-pwns		2011-08-16	호주 케언즈 그레이트 베리어 리프 해보다 해 싶다 나 10가지 소망
+kbs2_gagcon	kyij339	POST	pyo7mfb-5n07z		2011-08-17	류담 안녕 달인 만나다 만나다의 류담 류담입니 류담입니다 오늘 바르샤경기 16년째 주구장창 보다 레알김병 레알김병만 선생님 모시다 모시 얘기 나누다 선생님 안녕 tagquestion 김병 김병만 안녕 류담 바르샤경기 16년째 봐오셨다는게 사실 tagquestion 김병 김병만 메시발 읽다
 kbs2_gagcon	23321221	POST	pyo7ng3-_qzn5		2011-08-15	허허 알고보면 난 나다 날다 설득 달인일지몰라 tagexclamation 아 넘어가다 하는건가 tagquestion tagexclamation ㄷㄷ
 kbs2_gagcon	benjamin	POST	pyo7nog-ipy		2011-08-15	미투데이 미투데이에 따 따로 미투 미투하시 오덕 많다 제 미친분 미친분들만 해도 하다 해 여기다 극 초창기분 부터 모이다 미투 미투를 하니까 하니까요
 kbs2_gagcon	spacepsm0503	POST	pyo7o9r-ncjm		2011-08-16	하성혁 tagsmile 서울말 쓰다 tagsmile 서울 메이트 개콘대박인듯 요즘 tagsmile
-kbs2_gagcon	sepist	POST	pyo7oj4-_sbqf		2011-08-16	아이다스 민소래 오다 애플 저렴하게 사는방법 새롭다 쇼핑몰 시 월악산 헬스걸
-kbs2_gagcon	rilakkuma	POST	pyo7pbt-b3v4		2011-08-17	으히 으히히 내 농담 전 보고 보다 보 아동복 입다 하는거 아니다 하다 사이즈 입다 소인배 마르다 장작족 여인네 이미 그렇다 하다 하 있다 불편 진실 tagsmile h m zara zara로 달려가다 tagsmile
+kbs2_gagcon	sepist	POST	pyo7oj4-_sbqf		2011-08-16	아이다스 민소래 오다 애플 저렴하게 사는방법 새롭다 쇼핑몰 3시 월악산 헬스걸
+kbs2_gagcon	rilakkuma	POST	pyo7pbt-b3v4		2011-08-17	으히 으히히 내 농담 전 보고 보다 보 아동복 입다 하는거 아니다 하다 44사이즈 입다 소인배 마르다 장작족 여인네 이미 그렇다 하다 하 있다 불편 진실 tagsmile h&m zara zara로 달려가다 tagsmile
 kbs2_gagcon	ekoo7777	POST	pyo7pyv-_dwsq		2011-08-16	개그 콘서트 헬스걸 헬스걸의 독 다이어트
 kbs2_gagcon	lovecat703	POST	pyo7qcl-5t91w		2011-08-17	애경 스파크미 스파크미니 이벤트 세탁의달인 만나다
-kbs2_gagcon	dlsrud1818	POST	pyo7r8n-y30oj		2011-08-17	오늘 저녁밥 어제 극과극 이네 이네요 tagsmile 짜장 짜장도 먹고 싶다 짬뽕 먹고 싶다 tagsmile 후식 폴라포까지tagsmile tagsmile
+kbs2_gagcon	dlsrud1818	POST	pyo7r8n-y30oj		2011-08-17	오늘 저녁밥 어제 극과극 이네 이네요 tagsmile 짜장 짜장도 먹고 싶다 짬뽕 먹고 싶다 tagsmile 후식 폴라포 tagsmile tagsmile
 kbs2_gagcon	incream	POST	pyo7rhz-5eh7h		2011-08-16	알고싶지않은 불편 진실
-kbs2_gagcon	3-star	POST	pyo7s4d-5mzq0		2011-08-15	tagsmile 지금 타임스퀘어 tagsmile 개콘 이승윤봤음 tagsmile tagsmile 근데 그옆에여잔 누구징tagquestion tagsmile
+kbs2_gagcon	3-star	POST	pyo7s4d-5mzq0		2011-08-15	tagsmile 지금 타임스퀘어 tagsmile 개콘 이승윤봤음 tagsmile tagsmile 근데 그옆에여잔 누구징 tagquestion tagsmile
 kbs2_gagcon	thehost11	POST	pyo7seu-ykw3s		2011-08-17	뽀로 뽀로로 안경발 안경발과 모자발 모자발이 불편한진실 ㄷ
-kbs2_gagcon	jopdzzan	POST	pyo7sgx-5dulx		2011-08-17	스파크 미니 미다 미 event 세제량 반 세척력 배 tagexclamation 세탁 달인 달이다 달 만나다 가다 tagexclamation
-kbs2_gagcon	quaji01	POST	pyo7u1l-_k_6b		2011-08-17	콘서트통 크다 희망사항 그런한현 나타나다 원인 뭘까요tagquestion 극한 상황 신체 극 치달을때 나타나죠 제가 제 말씀드리는건 과학적인부분 아니다 아니 그것 바라보다 시각 의미 khan
-kbs2_gagcon	parksook9292	POST	pyo7u4w-51m3v		2011-08-15	이승윤 헬스걸 변화 공개 주차 놀랍다 변화
-kbs2_gagcon	quaji01	POST	pyo7ue1-_k_6b		2011-08-17	콘서트통 크다 희망사항 그런한현 나타나다 원인 뭘까요tagquestion 극한 상황 신체 극 치달을때 나타나죠 제가 제 말씀드리는건 과학적인부분 아니다 아니 그것 바라보다 시각 의미 khan
-kbs2_gagcon	sch8736	POST	pyo7uub-5hl69		2011-08-15	개그콘서트 회 토렌트 다시보기
+kbs2_gagcon	jopdzzan	POST	pyo7sgx-5dulx		2011-08-17	스파크 미니 미다 미 event 세제량 반 세척력 2배 2배로 tagexclamation 세탁 달인 달이다 달 만나다 가다 tagexclamation
+kbs2_gagcon	quaji01	POST	pyo7u1l-_k_6b		2011-08-17	2030 콘서트통 크다 희망사항 그런한현 나타나다 원인 뭘까 뭘까요 tagquestion 극한 상황 신체 극 치달을때 나타나죠 제가 제 말씀드리는건 과학적인부분 아니다 아니 그것 바라보다 시각 의미 khan
+kbs2_gagcon	parksook9292	POST	pyo7u4w-51m3v		2011-08-15	이승윤 헬스걸 변화 공개 6주차 6주차의 놀랍다 변화
+kbs2_gagcon	quaji01	POST	pyo7ue1-_k_6b		2011-08-17	2030 콘서트통 크다 희망사항 그런한현 나타나다 원인 뭘까 뭘까요 tagquestion 극한 상황 신체 극 치달을때 나타나죠 제가 제 말씀드리는건 과학적인부분 아니다 아니 그것 바라보다 시각 의미 khan
+kbs2_gagcon	sch8736	POST	pyo7uub-5hl69		2011-08-15	2011.08.14개그콘서트 607회 토렌트 다시보기
 kbs2_gagcon	catphe	POST	pyo7u_m-x155		2011-08-15	catphe님 청결 극 보여주다 지금 방문 선물 받다 있다 리조트 타운 방문 선물
 kbs2_gagcon	malsuk4708	POST	pyo7v1o-_gx4c		2011-08-15	오늘 개콘하는줄알고 설레다
 kbs2_gagcon	linha	POST	pyo7v8n-j9p4		2011-08-15	tagsmile 오늘 한거 아무것 아무것도 없다 자괴감 극 달 여전 공부 하기 하다 싫어 싫다 갈 가다 데 가다 tagsmile 미치다 tagsmile
-kbs2_gagcon	uybnormal11	POST	pyo7veg-_m5z8		2011-08-15	보물찾기 달인 누구tagquestion 펀핑 tagexclamation 보물찾기 달인 누구tagquestion 펀핑 tagexclamation
+kbs2_gagcon	uybnormal11	POST	pyo7veg-_m5z8		2011-08-15	보물찾기 달인 tagquestion 펀핑 tagexclamation 보물찾기 달인 tagquestion 펀핑 tagexclamation
 kbs2_gagcon	rnjsduddk71	POST	pyo7xhm-yjfrf		2011-08-15	헬스걸 변화 공개
 kbs2_gagcon	choihj23	POST	pyo7y6m-_wsvu		2011-08-16	최형재님 최형재님이 신한카드 app 다운로드 이벤트 추천 달인 도전 신한카드
-kbs2_gagcon	jsb6111	POST	pyo7yaf-yroqg		2011-08-17	quot 이경규 꼬꼬면 인기 이정도야tagquestionquot 일 만 만 말다 봉지 팔려그냥 그렇다 ㅡㅅ ㅡ 닭향첨가 닭향첨가에 고추달인물소금뿌린맛tagquestion hankyung
+kbs2_gagcon	jsb6111	POST	pyo7yaf-yroqg		2011-08-17	quot 이경규 꼬꼬면 인기 이정도 이정도야 tagquestion quot 15 15일 만 350 350만 봉지 팔려그냥 그렇다 ㅡㅅ ㅡ 닭향첨가 닭향첨가에 고추달인물소금뿌린맛 tagquestion hankyung
 kbs2_gagcon	idkayoung	POST	pyo7ynm-53354		2011-08-15	잠시 개콘보러 나중 뵈요오
-kbs2_gagcon	changmin0712	POST	pyo7zp3-_5ell		2011-08-15	방학 신나게놀았는데 좀 개학 불편한진실 오늘 월 일 내 지금쓰고 일기 월 일 불편한진실 독서록 어딨는지 사야돼 사야돼는 불편한진실
-kbs2_gagcon	hiksanin	POST	pyo7_86-g959		2011-08-16	함 찾아보다 익산 추억 찾다 그땐 그랬지 tagexclamation
-kbs2_gagcon	acchaa	POST	pyo7_an-z5a_		2011-08-17	신기 육상대회 불편 가지 가다 진실 tagexclamation
-kbs2_gagcon	insos02	POST	pyo7_vm-_8lnw		2011-08-15	개그콘서트 다시보기 개콘무료 다시보기 개그콘서트 다시보기 개콘무료 다시보기
-kbs2_gagcon	jihongchoi	POST	pyol0fa-_8_1y		2011-08-15	투자 달인 달이다 달 워런 버핏 버핏이 미국 재정적자 줄이다 위해 위하다 나 부자들한테 증세 고 의회 촉구 했다는군 참 차다 대단 tagexclamation 우리 우리나라 어떨까tagquestion 정몽준 의원정도 되다 복지포퓰리즘 어쩌고하 말 말다 집어치우다 부자증세 하다 하자 주장해볼 하지않나tagquestion 한번 해보다 tagexclamation
+kbs2_gagcon	changmin0712	POST	pyo7zp3-_5ell		2011-08-15	방학 신나게놀았는데 좀 개학 불편한진실 오늘 8월 15일 15일인데 내 지금쓰고 일기 7월 29일 29일인 불편한진실 독서록 어딨는지 사야돼 사야돼는 불편한진실
+kbs2_gagcon	hiksanin	POST	pyo7_86-g959		2011-08-16	함 찾아보다 7080 익산 추억 찾다 그땐 그랬지 tagexclamation
+kbs2_gagcon	acchaa	POST	pyo7_an-z5a_		2011-08-17	신기 육상대회 불편 2가지 진실 tagexclamation
+kbs2_gagcon	insos02	POST	pyo7_vm-_8lnw		2011-08-15	개그콘서트 다시보기 2011-08-14 개콘무료 다시보기 개그콘서트 다시보기 2011-08-14 개콘무료 다시보기
+kbs2_gagcon	jihongchoi	POST	pyol0fa-_8_1y		2011-08-15	투자 달인 달이다 달 워런 버핏 버핏이 미국 재정적자 줄이다 위해 위하다 나 부자들한테 증세 고 의회 촉구 했다는군 참 차다 대단 tagexclamation 우리 우리나라 어떨까 tagquestion 정몽준 의원정도 되다 복지포퓰리즘 어쩌고하 말 말다 집어치우다 부자증세 하다 하자 주장해볼 하지않 tagquestion 한번 해보다 tagexclamation
 kbs2_gagcon	minskjh	POST	pyol38w-54ul		2011-08-15	개그콘서트 따라 따라하 따라하는 김박김 tagsmile swf
-kbs2_gagcon	bany_011	POST	pyol3to-_gv9r		2011-08-15	thㅏ실 저희 미쎄 미쎄이 미쎄이는 thㅏ인 thㅏ인의 달인이 tagexclamation 저희 팬싸인회 오신분 오신분들은 아셨나요tagquestiontagsmile 빨리하는게 대충하는건 아니다 걱정마세 tagexclamation ㅡ taglove
+kbs2_gagcon	bany_011	POST	pyol3to-_gv9r		2011-08-15	th ㅏ 실 시다 저희 미쎄 미쎄이 미쎄이는 th ㅏ 인의 인 달인이 tagexclamation 저희 팬싸인회 오신분 오신분들은 알다 아셨 tagquestion tagsmile 빨리하는게 대충하는건 아니다 걱정마세 tagexclamation ㅡ taglove
 kbs2_gagcon	ritenuto52	POST	pyol406-5q8ww		2011-08-17	애경 스파크미 스파크미니 이벤트 세탁의달인 만나다
 kbs2_gagcon	hwa2331	POST	pyol4lp-yc8pf		2011-08-16	헬스걸 변화 공개
 kbs2_gagcon	csy_1115	POST	pyol5yt-nzvf		2011-08-15	엘소드 영웅대전 본선전 뭐 행사 가장 웃긴포즈하는사람 문상준댔었대 씨발 죠죠서기 달인 내
-kbs2_gagcon	yeong0528	POST	pyol62e-_919a		2011-08-15	달인 원래 지금하나tagquestion
+kbs2_gagcon	yeong0528	POST	pyol62e-_919a		2011-08-15	달인 원래 지금하 지금하나 tagquestion
 kbs2_gagcon	syuos	POST	pyol659-yulut		2011-08-16	개그콘서트 헬스걸 체중 변화 사진 사다 ㄷㄷ 순팽이닷컴
 kbs2_gagcon	gulbikr	POST	pyol68f-_g29r		2011-08-16	긴급 대박 추천 로또 로또의 달인 달이다 달 박삼수씨 박삼수씨의 비법 노트 공개
 kbs2_gagcon	oidoprince	POST	pyol6pk-_hogt		2011-08-15	간 간만 운동 나오다 헉 tagexclamation 헉 tagexclamation 헉 tagexclamation 이놈 이놈의 저질체력 otl 평소 운동좀 운동좀할걸 이젠 정말 운동좀 해야겠당 근데 오늘 개콘하는날 개콘하는날이구 개콘하는날이구나 라 라고 생각 오늘월요일 tagsmile
-kbs2_gagcon	juseoda	POST	pyol7bc-h1x0		2011-08-17	http m cyworld nate com blog postview phptagquestionhome id lmenu seq smenu seq post seq 정의란무엇인가 tagexclamation 그불편한진실
-kbs2_gagcon	sieun0108	POST	pyol7ow-y05qn		2011-08-16	헬스걸 변화 공개 주 kg 감량 리얼리 오다 전 절다 헬스걸 열혈시청자에 근데 일주일일주일이지날수록 사람 달라지더라구 달라지더라구요 헬스걸 홧팅 아시아경제
+kbs2_gagcon	juseoda	POST	pyol7bc-h1x0		2011-08-17	http m.cyworld.nate.com blog postview.php tagquestion home id a1334640lmenu_seq 146254smenu_seq 254239post_seq 3235265 정의란무엇인가 tagexclamation 그불편한진실1
+kbs2_gagcon	sieun0108	POST	pyol7ow-y05qn		2011-08-16	헬스걸 변화 공개 6주 6주만 24kg 감량 리얼리 오다 전 절다 헬스걸 열혈시청자에 근데 일주일일주일이지날수록 사람 달라지더라구 달라지더라구요 헬스걸 홧팅 아시아경제
 kbs2_gagcon	diane015	POST	pyol8k_-5k24o		2011-08-16	tagsmile 극과극
-kbs2_gagcon	thehost11	POST	pyol94v-ykw3s		2011-08-15	psp 태고 달인dx 하츠네미쿠 하츠네미쿠의 격창태고 격창태고에 격창 격창이 잇던가tagquestion daum tv팟
+kbs2_gagcon	thehost11	POST	pyol94v-ykw3s		2011-08-15	psp 태고 달인dx 하츠네미쿠 하츠네미쿠의 격창태고 격창태고에 격창 격창이 잇다 tagquestion daum tv팟
 kbs2_gagcon	skdusrb100	POST	pyolb33-ya7t0		2011-08-15	난 나다 날다 나다 극 부정형 나다
 kbs2_gagcon	siyou2001	POST	pyolbpn-blnj		2011-08-15	홍보 달인 찾다 tagexclamation 온라인 온라 게임포털 소리게임 소리게 오픈베타 경품이벤트
-kbs2_gagcon	mykhan84	POST	pyolc7d-yqzay		2011-08-16	이승윤 헬스걸 공개 헬스걸 다이어트 따라 따라하면 무조건 성공할까tagquestion
-kbs2_gagcon	verniigh	POST	pyold64-_caj3		2011-08-16	헬스걸 변화 공개 tagexclamation 주 폭풍감량
+kbs2_gagcon	mykhan84	POST	pyolc7d-yqzay		2011-08-16	이승윤 헬스걸 공개 헬스걸 다이어트 따라 따라하면 무조건 성공 tagquestion
+kbs2_gagcon	verniigh	POST	pyold64-_caj3		2011-08-16	헬스걸 변화 공개 tagexclamation 6주 6주만 폭풍감량
 kbs2_gagcon	fasd2002	POST	pyole5_-vhbu		2011-08-15	소문내기이벤트 온라인 온라 게임포털 소리게임 소리게 오픈베타이벤트 홍보달인 홍보달 찾다 tagexclamation
 kbs2_gagcon	lovefive23	POST	pyolf_t-_822g		2011-08-15	굿모닝 한글 독도 독 발언 개콘 굿모닝 한글
 kbs2_gagcon	01992303736	POST	pyolg5h-y2t9b		2011-08-16	개콘 헬스걸
-kbs2_gagcon	frompic	POST	pyolh22-_d1bz		2011-08-16	개그콘서트 헬스걸 주차 몸매변화
+kbs2_gagcon	frompic	POST	pyolh22-_d1bz		2011-08-16	개그콘서트 헬스걸6 주차 몸매변화
 kbs2_gagcon	ars4444	POST	pyolk7a-fp8f		2011-08-16	운전의달
-kbs2_gagcon	soyou66	POST	pyolnfg-yet5e		2011-08-16	굿모닝 taglove 일상 돌아가다 시간이에 아침 든든히 들다 좋은하루보 좋은하루보내세 tagexclamation tagsmile 인정 정말 싫다 일치 하다 하지 난 나다 날다 극 tagexclamation 뽀 tagexclamation 옥 tagexclamation 하다
+kbs2_gagcon	soyou66	POST	pyolnfg-yet5e		2011-08-16	굿모닝 taglove 일상 돌아가다 시간이에 아침 든든히 들다 좋은하루보 좋은하루보내세 tagexclamation tagsmile 인정 정말 싫다 99 일치 하다 하지 난 나다 날다 극 tagexclamation 뽀 tagexclamation 옥 tagexclamation 하다
 kbs2_gagcon	21smj	POST	pyolofy-5jwqi		2011-08-16	서령 서령이 미호 오빠 변태 하다 하지 자다 자기 변태 불편 진실 변태 커플이당
-kbs2_gagcon	redlightstar	POST	pyoloiv-y7mvh		2011-08-16	화장품회사 알리다 않다 불편 진실 아무리 고가 제품 피부 표피 진피층 도달 못하다 무용지물 고가 제품 원가 소비자가 소비자가의 저렴한 원가 들어가다 재료 피부 위험 물질 me video
-kbs2_gagcon	fic123	POST	pyolp75-i_63		2011-08-15	토렌트다운 생활 달인 달이다 달 회
+kbs2_gagcon	redlightstar	POST	pyoloiv-y7mvh		2011-08-16	화장품회사 알리다 않다 불편 진실 아무리 고가 제품 피부 표피 진피층 도달 못하다 무용지물 고가 제품 원가 소비자가 소비자가의 1 3 저렴한 원가 들어가다 재료 피부 위험 물질 me2video
+kbs2_gagcon	fic123	POST	pyolp75-i_63		2011-08-15	110815 토렌트다운 생활 달인 달이다 달 300회
 kbs2_gagcon	dovmfwlel7	POST	pyolpv0-yabih		2011-08-15	오늘 월요일이엿지 개콘 엔딩 엔딩보 슬퍼할기세 tagsmile
-kbs2_gagcon	frompic	POST	pyolqqe-_d1bz		2011-08-16	캡쳐 캡쳐는 제가 제 직접한게 아니랍니다제 이틀동안 답이없엇죠tagquestion네 휴가갔다가 당일 돌아오다 그다음날 그다음날은 비번비 바껴져 바껴져있더군 바껴져있더군요 tagcry 힌트라도 제가 제 막 별 달인기술
-kbs2_gagcon	frompic	POST	pyolqxd-_d1bz		2011-08-16	캡쳐 캡쳐는 제가 제 직접한게 아니랍니다제 이틀동안 답이없엇죠tagquestion네 휴가갔다가 당일 돌아오다 그다음날 그다음날은 비번비 바껴져 바껴져있더군 바껴져있더군요 tagcry 힌트라도 제가 제 막 별 달인기술
+kbs2_gagcon	frompic	POST	pyolqqe-_d1bz		2011-08-16	캡쳐 캡쳐는 제가 제 직접한게 아니랍니다제 이틀동안 답이없엇죠 tagquestion 휴가갔다가 당일 돌아오다 그다음날 그다음날은 비번비 바껴져 바껴져있더군 바껴져있더군요 tagcry 힌트라도 제가 제 막 별 달인기술
+kbs2_gagcon	frompic	POST	pyolqxd-_d1bz		2011-08-16	캡쳐 캡쳐는 제가 제 직접한게 아니랍니다제 이틀동안 답이없엇죠 tagquestion 휴가갔다가 당일 돌아오다 그다음날 그다음날은 비번비 바껴져 바껴져있더군 바껴져있더군요 tagcry 힌트라도 제가 제 막 별 달인기술
 kbs2_gagcon	8341haeyeon	POST	pyolr6g-hkzm		2011-08-16	홍삼달인물 홍삼수 홍삼젤리 홍삼수 만들다 탱글탱글 홍삼젤리
 kbs2_gagcon	lovecat703	POST	pyolrj0-5t91w		2011-08-15	애경 스파크미 스파크미니 이벤트 세탁의달인 만나다
-kbs2_gagcon	killera_a	POST	pyolswy-y1tpf		2011-08-16	ㄱㄴㄱㄷㄱㄷㄱㅅ븍ㅈ극ㅈ극ㅈ극지ㅢㅈ귻ㄱ디으기슼ㅇ
+kbs2_gagcon	killera_a	POST	pyolswy-y1tpf		2011-08-16	ㄱㄴㄱㄷㄱㄷㄱㅅ 븍 ㅈ 극 ㅈ 극 ㅈ 극지 ㅢㅈ 귻 ㄱ 디으기슼 ㅇ
 kbs2_gagcon	dmemal1	POST	pyolubx-yhk6		2011-08-16	비비 비비랑 나 성 이르다 이름 같다 불편 tagquestion 진실 tagsmile 심지어 지우 남녀노소 다 불편 진실
 kbs2_gagcon	dmemal1	POST	pyolurw-yhk6		2011-08-16	난 나다 날다 초딩때 지우다 아니다 돼지 불렷던 불편 진실 자매품 왕지우게 왕지우게도 있다 tagcry
 kbs2_gagcon	dmemal1	POST	pyolusi-yhk6		2011-08-16	비비 비비가 실종 불편 진실
 kbs2_gagcon	dmemal1	POST	pyoluzi-yhk6		2011-08-16	방귀땜 방귀땜에 가다 가늘다 가 불편 진실 tagcry 잘가
 kbs2_gagcon	bagisbbaeri	POST	pyolvem-5zzdh		2011-08-16	개콘 헬스걸
 kbs2_gagcon	gjcldns	POST	pyolvpg-_t7a_		2011-08-17	개콘 풍자개그
-kbs2_gagcon	sepist	POST	pyolx87-_sbqf		2011-08-16	버버리 발찌 갤럭시s 천원 구매하는방법 신개념 쇼핑몰 시 헬스걸 미국
-kbs2_gagcon	sepist	POST	pyolxov-_sbqf		2011-08-16	피아제 팔찌 그리다 갤럭시s 가장 저렴하게 구매 새롭다 경매 시 헬스걸 메다
-kbs2_gagcon	pongipongi	POST	pyolyc3-_8t42		2011-08-15	감사 감사 야한싸이트 몰래보려 몰래보려고 우리아빠주민번호입력 우리 아빠 우수회원 tagexclamation 감사 감사 엄마한텐 말 tagexclamation 오만원 tagexclamation 감사 감사 엄마한테말할꺼 tagexclamation 만원 tagexclamation 감사 감사 개콘 개콘의 감사 코너 일부
+kbs2_gagcon	sepist	POST	pyolx87-_sbqf		2011-08-16	버버리 발찌 갤럭시s2 천원 구매하는방법 신개념 쇼핑몰 3시 헬스걸 미국
+kbs2_gagcon	sepist	POST	pyolxov-_sbqf		2011-08-16	피아제 팔찌 그리다 갤럭시s2 가장 저렴하게 구매 새롭다 경매 3시 헬스걸 메다
+kbs2_gagcon	pongipongi	POST	pyolyc3-_8t42		2011-08-15	감사 감사 야한싸이트 몰래보려 몰래보려고 우리아빠주민번호입력 우리 아빠 우수회원 tagexclamation 감사 감사 엄마한텐 말 tagexclamation 오만원 tagexclamation 감사 감사 엄마한테말할꺼 tagexclamation 10만원 tagexclamation 감사 감사 개콘 개콘의 감사 코너 일부
 kbs2_gagcon	jymiho	POST	pyolytl-_mh		2011-08-15	일요일 일요 기분 조금 있다 개그콘서트 할 하다 같다 느끼다 느낌 들다 이렇게휴일이또가는구
-kbs2_gagcon	sepist	POST	pyolz0l-_sbqf		2011-08-16	아이다스 민소래 오다 애플 저렴하게 사는방법 새롭다 쇼핑몰 시 월악산 헬스걸
-kbs2_gagcon	sepist	POST	pyolzn3-_sbqf		2011-08-16	티파 티파니 서류가방 오다 아이팟 단돈 원 사는방법 신개념 소셜커머스 시 헬스걸
-kbs2_gagcon	sepist	POST	pyolzok-_sbqf		2011-08-16	로렉스 구두 오다 세탁기 싸다 판매 새롭다 추첨경매 시 싱가포르 헬스걸
-kbs2_gagcon	jiuk3322	POST	pyol_nb-_jse8		2011-08-15	나 미치다 날짜개념 오늘 일요일인줄알고 박 일언제나오지 하다 하 아 오늘 월요일 월요일이구 또좀 또좀있 또좀있다 오늘 개콘언제나오지tagquestion 이러 이러고 tagsmile 제가 제 좀 조다 멍청해 멍청해요
-kbs2_gagcon	narang282	POST	pyon9c8-599eh		2011-08-15	개그콘서트 회 월 일
+kbs2_gagcon	sepist	POST	pyolz0l-_sbqf		2011-08-16	아이다스 민소래 오다 애플 저렴하게 사는방법 새롭다 쇼핑몰 3시 월악산 헬스걸
+kbs2_gagcon	sepist	POST	pyolzn3-_sbqf		2011-08-16	티파 티파니 서류가방 오다 아이팟 단돈 1000원 1000원에 사는방법 신개념 소셜커머스 3시 헬스걸
+kbs2_gagcon	sepist	POST	pyolzok-_sbqf		2011-08-16	로렉스 구두 오다 세탁기 싸다 판매 새롭다 추첨경매 3시 싱가포르 헬스걸
+kbs2_gagcon	jiuk3322	POST	pyol_nb-_jse8		2011-08-15	나 미치다 날짜개념 오늘 일요일인줄알고 1박2 일언제나오지 하다 하 아 오늘 월요일 월요일이구 또좀 또좀있 또좀있다 오늘 개콘언제나오지 tagquestion 이러 이러고 tagsmile 제가 제 좀 조다 멍청해 멍청해요
+kbs2_gagcon	narang282	POST	pyon9c8-599eh		2011-08-15	개그콘서트 607회 8월14 일
 kbs2_gagcon	sangmiland	POST	pyonc12-yjmlg		2011-08-15	개콘몸짱 이승윤 헬스걸 변화 공개 놀랍다 tv 볼때 모르다 대박 빠지다 스타뉴스
 kbs2_gagcon	don8097	POST	pyonf0t-ss2g		2011-08-15	오늘 광복절 방학숙제를해야 불편한진실 쩝
 kbs2_gagcon	dama390	POST	pyongm7-51gmt		2011-08-15	알리다 최고가매입 업소용중고주방전문 서울경기전지역당일작업마무리가능 업소가전 업소가구 그릇 식당집기 부페집기 가게설비 업소폐업 철거 수입중고주방기기 중고주방용품 기기 기다 기구 비품 다 사다 tagexclamation
-kbs2_gagcon	deaegi	POST	pyongnd-2vxt		2011-08-15	보물찾기 달인 누구tagquestion 펀핑 tagexclamation 보물찾기 달인 누구tagquestion 펀핑 tagexclamation
+kbs2_gagcon	deaegi	POST	pyongnd-2vxt		2011-08-15	보물찾기 달인 tagquestion 펀핑 tagexclamation 보물찾기 달인 tagquestion 펀핑 tagexclamation
 kbs2_gagcon	0104eun	POST	pyongth-r3ka		2011-08-15	tagsmile 옴므 개콘 고생하고왓엉 tagcry
 kbs2_gagcon	vbdf12345678	POST	pyonhfc-5qqaq		2011-08-15	우리 옵대장 옵대장이 달라지다 개콘 개콘에 이런코너 있다 뭐
-kbs2_gagcon	sieglove	POST	pyonib7-9_up		2011-08-15	태고 달인 달이다 달 대목 태고의달 me video
+kbs2_gagcon	sieglove	POST	pyonib7-9_up		2011-08-15	태고 달인 달이다 달 7대목 태고의달 me2video
 kbs2_gagcon	rhdmss0201	POST	pyonifr-56ipe		2011-08-15	인간관계 어떻게 어떻게든 변 마련 보다 보 예전 좋다 사람 서서 서서히 멀어지다 예전 잘 자다 몰랐던 사람 친하다 되다 되 친하다 싶다 되다 되 결국 어떻게 어떻게든 바뀌다 바뀌 보다 보 뭔가 절실히 느끼다 느끼 있다 생각 못하다 또다른 일면 발견 해야 해야하 해야하나 흠 미투데이 미투데이도 사회생활 공부 어찌보면
-kbs2_gagcon	vbdf12345678	POST	pyonih3-5qqaq		2011-08-15	년동안 운전 하다 하 살아오다 운전 달인 달이다 달 사고 사다 사 에일리언 선생님 모셔오다
-kbs2_gagcon	hikiki531	POST	pyono8d-5oxwi		2011-08-15	최종병기 활 후기 최종병기 활 진정 전통 활 극tagquestion
+kbs2_gagcon	vbdf12345678	POST	pyonih3-5qqaq		2011-08-15	16년동안 운전 하다 하 살아오다 운전 달인 달이다 달 사고 사다 사 에일리언 선생님 모셔오다
+kbs2_gagcon	hikiki531	POST	pyono8d-5oxwi		2011-08-15	최종병기 활 후기 최종병기 활 진정 전통 활 극 tagquestion
 kbs2_gagcon	pwaku_u	POST	pyonppo-_t4eb		2011-08-15	극
 kbs2_gagcon	minuskill_12	POST	pyonssg-wozl		2011-08-15	사람 뭔가 뭔가가 극 달 걍 미치나봄 tagsmile tagsmile tagsmile tagsmile tagsmile
-kbs2_gagcon	123tjswn	POST	pyont7d-_s99i		2011-08-15	판다독 화 호다 잠 커피 상관관계 재미 근데 커피 다 먹어치우다 근데 빨다 먹으면 잠 안오던데 나다 나 목묙탕 커피 완전 먹어가지 개콘 개콘보 잠 자다 안와서 몰다 티비 보다 그거 그거 있잖아 있잖아요 좀 조다 그런거 어 네이버만화 웹툰
-kbs2_gagcon	dadaya50	POST	pyonwpb-yt9hb		2011-08-15	허전하다 포도나무 떨어지지않고 살수 살수있는 방법 지금 없는걸까tagquestion 포도 나무 오빠도 졸리다 못자겠다 아 허전하다 이불속 포도 쏙 하다 하 들어가있어야 들어가있어야하는데 외롭다 두려움 극 달하고 달하고있다
-kbs2_gagcon	cops	POST	pyov00f-_q2d5		2011-08-15	괴롭다 힘들때 우는건 류 류이 이악물고 이겨내다 놈 류 류이 난 나다 날다 진짜 힘들때 웃다 동료 화이팅 화이팅을 외치다 그럼 난tagquestion 초고수 달인 달이다 달 tagsmile 아 오늘 고생 쉬다 유후
+kbs2_gagcon	123tjswn	POST	pyont7d-_s99i		2011-08-15	판다독 357화 잠 커피 상관관계 재미 근데 커피 다 먹어치우다 근데 빨다 먹으면 잠 안오던데 나다 나 목묙탕 커피 완전 먹어가지 개콘 개콘보 잠 자다 안와서 몰다 티비 보다 그거 그거 있잖아 있잖아요 좀 조다 그런거 어 네이버만화 웹툰
+kbs2_gagcon	dadaya50	POST	pyonwpb-yt9hb		2011-08-15	허전하다 포도나무 떨어지지않고 살수 살수있는 방법 지금 없는걸까 tagquestion 포도 나무 오빠도 졸리다 못자겠다 아 허전하다 이불속 포도 쏙 하다 하 들어가있어야 들어가있어야하는데 외롭다 두려움 극 달하고 달하고있다
+kbs2_gagcon	cops	POST	pyov00f-_q2d5		2011-08-15	괴롭다 힘들때 우는건 3류 3류이 이악물고 이겨내다 놈 2류 2류이 난 나다 날다 진짜 힘들때 웃다 동료 화이팅 화이팅을 외치다 그럼 난 나다 날다 tagquestion 초고수 달인 달이다 달 tagsmile 아 오늘 고생 쉬다 유후
 kbs2_gagcon	sksdlcjfdn	POST	pyov20g-yhdt1		2011-08-15	내 치프틴형 벗기다 달인이에 앟앟 모자말야
 kbs2_gagcon	james0q	POST	pyov29i-y12fo		2011-08-15	헬스걸 이끄 이끄는 이승윤 있다 그대 리얼 보 daum미디어다음
 kbs2_gagcon	girinc	POST	pyov2te-cl0f		2011-08-15	조군 조군의 모바 모바일 지지자 지지다 클릭 tagexclamation 언제 언제나 지지 주셔서 고맙다 정말 죽을때 반가운 친구 아직 남아 보다 보 전 절다 정말 극 소수 미친 미친들과 소통 소통하 보다
 kbs2_gagcon	sgh2066	POST	pyov3a4-so51		2011-08-15	보리찬줄 알고마셨는데 인삼달인 인삼달 물 입안 인삼냄새 tagexclamation tagcry
 kbs2_gagcon	pjknkda_	POST	pyov3fo-5gbp2		2011-08-15	태고 달인 달이다 달 scared
-kbs2_gagcon	babyseeyou25	POST	pyov3r5-bjcx		2011-08-15	참 차다 이해할수 없다 감독 싸우다 잠수 국외출국 그럼 지금 방영중 드라마 종영 종영이겠구 무책임 끝을본다 회당 천만원 넘다 돈 받다 좀 조다 몸 안좋다 안좋다고 지각 펑크 피디 피디랑 싸우다 양쪽입장 들어보다 하다 하지 드라마시스템 문제긴 문제긴하지 헐 내 내다 그분 그분은 촬영중 교통사고 교통사 당 다음날 다음 허리뚜둘기면서 촬영 일씩 못자면서 액션신 촬영 그것 드라마 극 이상 비중 비중을 차지 개취때 파업 쪽대본 스텝부족 일주일씩 못다 하다 배부르다 투정으로 안보 교통사고 교통사 난 나다 날다 사람본다 아픈가tagquestion
-kbs2_gagcon	sepist	POST	pyov4b0-_sbqf		2011-08-15	아이다스 민소래 오다 애플 저렴하게 사는방법 새롭다 쇼핑몰 시 월악산 헬스걸
+kbs2_gagcon	babyseeyou25	POST	pyov3r5-bjcx		2011-08-15	참 차다 이해할수 없다 감독 싸우다 잠수 국외출국 그럼 지금 방영중 드라마 종영 종영이겠구 무책임 끝을본다 회당 2천만원 넘다 돈 받다 좀 조다 몸 안좋다 안좋다고 지각 펑크 피디 피디랑 싸우다 양쪽입장 들어보다 하다 하지 드라마시스템 문제긴 문제긴하지 헐 내 내다 그분 그분은 촬영중 교통사고 교통사 당 다음날 다음 허리뚜둘기면서 촬영 4일씩 못자면서 액션신 촬영 그것 드라마 극 80 이상 비중 비중을 차지 개취때 파업 쪽대본 스텝부족 일주일씩 못다 하다 배부르다 투정으로 안보 교통사고 교통사 난 나다 날다 사람본다 아프다 tagquestion
+kbs2_gagcon	sepist	POST	pyov4b0-_sbqf		2011-08-15	아이다스 민소래 오다 애플 저렴하게 사는방법 새롭다 쇼핑몰 3시 월악산 헬스걸
 kbs2_gagcon	kingdom2190	POST	pyov63n-5gnr0		2011-08-15	rt xonjang 썩소 썩소의 달이다 달 사람 이쁘다
-kbs2_gagcon	mp3sori	POST	pyov7ji-_wy7s		2011-08-15	늦다 하루 일과 일 시작 개콘 다 못 자다 잠 자다 마 잤네 tagsmile 금방 살다 살 팍팍 찔듯 참 차다 키로쪘떠요 추카해주삼 키 찌다 므흣 므흣한 x배 볼라믄 tagsmile
+kbs2_gagcon	mp3sori	POST	pyov7ji-_wy7s		2011-08-15	늦다 하루 일과 일 시작 개콘 다 못 자다 잠 자다 마 잤네 tagsmile 금방 살다 살 팍팍 찔듯 참 차다 2키로쪘떠요 추카해주삼 7키 7키로 찌다 므흣 므흣한 x배 볼라믄 tagsmile
 kbs2_gagcon	eeer0074	POST	pyova4j-_gxdw		2011-08-15	헬스걸다이어트 개콘 권미진 이희경 헬스걸 운동사진
 kbs2_gagcon	ritenuto52	POST	pyovau4-5q8ww		2011-08-15	애경 스파크미 스파크미니 이벤트 세탁의달인 만나다
-kbs2_gagcon	soclare	POST	pyovc9v-quv3		2011-08-15	공 조다 졸다 하다 하 양 극 의 세계 옳다 판단 것 두려움 행할줄 알다 실수 대하다 지체 인정 책임지려할줄 아 순수 한 하다 정의 실현도구 완전체 우리 어리다 주인공 크리스찬 크리스찬은 그랬다 인어베러월드 어쩌다 인간 정의란 아이 판단력 미완 리스크 리스크가 곳곳 숨어 숨어있는 레고놀 레고놀이 같은걸까 현실 아무리 잘 자다 쌓다 무너지다 일쑤거 일쑤거나 아무 쓸모 없다 교과서 밖의세계 정의 현실 갈등 실수 대한 대하다 조명 me movie 인 어 베다 월드
+kbs2_gagcon	soclare	POST	pyovc9v-quv3		2011-08-15	공 조다 졸다 하다 하 양 극 의 세계 옳다 판단 것 두려움 행할줄 알다 실수 대하다 지체 인정 책임지려할줄 아 순수 한 하다 정의 실현도구 완전체 우리 어리다 주인공 크리스찬 크리스찬은 그랬다 인어베러월드 어쩌다 인간 정의란 아이 판단력 미완 리스크 리스크가 곳곳 숨어 숨어있는 레고놀 레고놀이 같은걸까 현실 아무리 잘 자다 쌓다 무너지다 일쑤거 일쑤거나 아무 쓸모 없다 교과서 밖의세계 정의 현실 갈등 실수 대한 대하다 조명 인 어 베다 월드
 kbs2_gagcon	deuxist	POST	pyovcqv-fo58		2011-08-15	스파크 미니 미다 미 이벤트 세탁 달인 만나다 tagexclamation
 kbs2_gagcon	als7552	POST	pyovej8-y_5ib		2011-08-15	개콘몸짱 이승윤 헬스걸 변화 공개 놀랍다 와웅 스타뉴스
 kbs2_gagcon	jin_e0216	POST	pyovevz-fdlx		2011-08-15	개콘몸짱 이승윤 헬스걸 변화 공개 놀랍다 오다 노력 박수 보내다 싶다 스타뉴스
 kbs2_gagcon	bu06032	POST	pyovg40-83e8		2011-08-15	생생정보통 시와니오빠 동준오빠나오 동준오빠나오고 달인 동준오빠 텀블링 텀블링해서 또 리코더 리코더를 코 불어서 지치지않는 달인 등급되구 tagcry 다 못봣어 tagcry 으히힝 tagcry
-kbs2_gagcon	yjnh	POST	pyovik7-51tar		2011-08-15	헬스걸 변화 공개 헬스걸 변화 공개
+kbs2_gagcon	yjnh	POST	pyovik7-51tar		2011-08-15	헬스걸 변화 공개  헬스걸 변화 공개
 kbs2_gagcon	purity7594	POST	pyovk2t-_qfwp		2011-08-15	개콘 생활의발견 신보 된장녀 엄청 웃기다 tagsmile
 kbs2_gagcon	sunhee4166	POST	pyovm7b-_d9ki		2011-08-15	오늘 일욜 알다 개콘안나온다 개콘안나온다고 짜증낸 멍청한 거봉쨈씌 tagcry ㅡ tagcry
 kbs2_gagcon	biuewoif	POST	pyovmxw-y190a		2011-08-15	오늘 개콘봐야할것같은기분
 kbs2_gagcon	bomgom02	POST	pyovnt6-_8b8z		2011-08-15	벼락치기 달인이시 당신 당신의 능력 보여주다 plz
 kbs2_gagcon	21smj	POST	pyovpci-5jwqi		2011-08-15	모기 죽이다 맙시 맙시다 tagexclamation 우리좋다 따라다니는건 모기 없다 불편 진실
 kbs2_gagcon	bjh8654	POST	pyovpcl-e2sc		2011-08-15	레드썬흥덕점 즉석떡볶이볶음밥 달인 맛 느끼다 즉석 떡볶이전문점
-kbs2_gagcon	fla971218	POST	pyovpdp-y7iii		2011-08-15	어제밤 개그콘서트보셨나요tagquestion 눈썹실종 천둥 모나리자 모나리자로 나왔었는데tagsmile
+kbs2_gagcon	fla971218	POST	pyovpdp-y7iii		2011-08-15	어제밤 개그콘서트보셨 tagquestion 눈썹실종 천둥 모나리자 모나리자로 나오다 tagsmile
 kbs2_gagcon	kma0603	POST	pyovrjf-y5rys		2011-08-15	외롭다 tagcry 혼자놀기 달인 달이다 달 왕따 왕따다 김민아선생님 tagsmile
 kbs2_gagcon	syuos	POST	pyovuhn-yulut		2011-08-15	헬스걸 몸매 ㄷㄷ 순팽이닷컴
 kbs2_gagcon	istore00	POST	pyovxkl-54328		2011-08-16	헬스걸 변화 공개
-kbs2_gagcon	dante29a	POST	pyovxo8-s0m1		2011-08-15	우리 아버지 야구 머신 머신으 재 재다 탄생 스카이톡톡폰 딱 dmb및 똑딱이 똑딱이로 사용 괜찮아보 괜찮아보여서 가개통급 공기계 구하다 하다 하였으 남자라면 핑크 tagexclamation 라 라고 주장 주장했으 아버지 콧방귀 뀌다 못하다 손 소다 솔다 안대고 안대 코 풀어버리셨다 나도 나다 나 속옷 말다 핑크 무리지 무리지만 엥tagquestion 아침첫차타 시간 걸치다 천안 출근중 손석희 손석희의 시선집중 주제 이승 대한 대하다 재평가 전원책변호사님 정말 과장 표현 달인 듯
+kbs2_gagcon	dante29a	POST	pyovxo8-s0m1		2011-08-15	우리 아버지 야구 머신 머신으 재 재다 탄생 스카이톡톡폰 딱 dmb및 똑딱이 똑딱이로 사용 괜찮아보 괜찮아보여서 가개통급 공기계 구하다 하다 하였으 남자라면 핑크 tagexclamation 라 라고 주장 주장했으 아버지 콧방귀 뀌다 못하다 손 소다 솔다 안대고 안대 코 풀어버리셨다 나도 나다 나 속옷 말다 핑크 무리지 무리지만 엥 tagquestion 아침첫차타 3시 3시간에 걸치다 천안 출근중 손석희 손석희의 시선집중 주제 이승 대한 대하다 재평가 전원책변호사님 정말 과장 표현 달인 듯
 kbs2_gagcon	hong-wook	POST	pyovy2q-_sj2k		2011-08-15	이사 힘들당 핰핰 이제 혼자 놀다 달인 되다 보다
-kbs2_gagcon	jopdzzan	POST	pyovzt9-5dulx		2011-08-15	스파크 미니 미다 미 event 세제량 반 세척력 배 tagexclamation 세탁 달인 달이다 달 만나다 가다 tagexclamation
-kbs2_gagcon	rw0503	POST	pyox0hk-58dg0		2011-08-17	승환 승환이 이거 컴쌤한테 비밀 비밀인데 내 농장 달인 달이다 달 다운 그리다 블루소포트 타자스쿨 다운 에올 다운 하다 부럽지tagquestion그치tagquestion
-kbs2_gagcon	qkrrbdyddl	POST	pyox1dl-_j3pd		2011-08-16	개그콘서트 월 일 다시보기
-kbs2_gagcon	lorenz75	POST	pyox33i-_j4q0		2011-08-17	개콘 헬스걸 헬스걸들의 일상 살펴볼까요tagquestion 헬스걸 헬스걸의 몸무게변화 따르다 이미지변화 대단
+kbs2_gagcon	jopdzzan	POST	pyovzt9-5dulx		2011-08-15	스파크 미니 미다 미 event 세제량 반 세척력 2배 2배로 tagexclamation 세탁 달인 달이다 달 만나다 가다 tagexclamation
+kbs2_gagcon	rw0503	POST	pyox0hk-58dg0		2011-08-17	승환 승환이 이거 컴쌤한테 비밀 비밀인데 내 농장 달인1 2 다운 그리다 블루소포트 타자스쿨 다운 에올 다운 하다 부럽다 tagquestion 그치 tagquestion
+kbs2_gagcon	qkrrbdyddl	POST	pyox1dl-_j3pd		2011-08-16	개그콘서트 8월14 일 다시보기
+kbs2_gagcon	lorenz75	POST	pyox33i-_j4q0		2011-08-17	개콘 헬스걸 헬스걸들의 일상 살펴보다 tagquestion 헬스걸 헬스걸의 몸무게변화 따르다 이미지변화 대단
 kbs2_gagcon	bravekim84	POST	pyox4fw-_g37m		2011-08-16	헬스걸 변화공개 헬스걸 이쁘다
-kbs2_gagcon	mia01	POST	pyox4jm-gu2p		2011-08-16	서울sns오픈채널 음식물 쓰레기 불편 진실 의견 남기다 seoulsns
+kbs2_gagcon	mia01	POST	pyox4jm-gu2p		2011-08-16	서울sns 오픈채널 음식물 쓰레기 불편 진실 의견 남기다 seoulsns
 kbs2_gagcon	sarahsung	POST	pyox5by-a2_2		2011-08-16	애경 세탁 달인 만나다 tagexclamation
-kbs2_gagcon	aqarius80	POST	pyox6bu-_y8rx		2011-08-16	회 베이비페어 참가 노발락퀴즈 참가했어 tagexclamation
+kbs2_gagcon	aqarius80	POST	pyox6bu-_y8rx		2011-08-16	20회 베이비페어 참가 노발락퀴즈 참가했어 tagexclamation
 kbs2_gagcon	angelove33	POST	pyox6ta-gjjd		2011-08-16	alain delorme 중국 달인 모습
-kbs2_gagcon	01043225414	POST	pyox7d5-y_fsu		2011-08-16	방금개콘봤는데 황현희 황현희가 일남았다는말에 하하하 웃다 엄마랑보다완전어색
+kbs2_gagcon	01043225414	POST	pyox7d5-y_fsu		2011-08-16	방금개콘봤는데 황현희가88 일남았다는말에 하하하 웃다 엄마랑보다완전어색
 kbs2_gagcon	blackblight	POST	pyox7f2-fyxf		2011-08-16	비상대책위원회 tagsmile 요즘 이렇게 웃기다 재밌는거 재밌는거다 tagsmile
 kbs2_gagcon	dama390	POST	pyox7ya-51gmt		2011-08-17	띵동 tagexclamation 최고가매입 업소용중고주방전문 수입중고주방기기 업소가전 업소가구 업소그릇 중고주방용품 중고주방집기 업소집기 부페집기 가게설비 중고주방제품 다 사다 tagexclamation
 kbs2_gagcon	ttl09835	POST	pyox84k-yug22		2011-08-17	맛점시 전 절다 점심 늦다 시키다 좀 조다 늦다 tagsmile 그나저 그나저나 어제 서울 내리다 비 우리 동네 보내신분 손듭니 손듭니다 tagcry 어제 하늘 구멍 알다 비 맞다 우박맞 우박맞은 만큼 아프다 라 라고 생각 어제저녁 tagcry 날씨탓 날씨탓에 우울증 많다 극 뽀옥 tagexclamation 합시 합시다 tagexclamation tagsmile
 kbs2_gagcon	dlacns2008	POST	pyox84q-yjc9		2011-08-17	그땐그랬지에서도 나오잖 나오잖아
 kbs2_gagcon	dmemal1	POST	pyox84t-yhk6		2011-08-16	벽반때 비비 깨울려 깨울려고 폭풍솬 폭풍솬하 카톡 카톡하 심지어 전화 한 하다 불편 진실 깨웟는데 자서 자다 테러 반복 하다 불편 진실 tagsmile
-kbs2_gagcon	deaegi	POST	pyox8ty-2vxt		2011-08-17	보물찾기 달인 누구tagquestion 펀핑 tagexclamation 보물찾기 달인 누구tagquestion 펀핑 tagexclamation
-kbs2_gagcon	zenzang75	POST	pyox909-pwns		2011-08-16	필립스 전기면도기 센소터치 d rq cc cc로 피부트러블 없다 건식 면도
-kbs2_gagcon	alscjf2127	POST	pyox9vz-_q9pe		2011-08-17	삼각김밥 불편한진실이라길래 유통과정 신선도 신선 문제 있는건가tagquestion 있는건가tagquestion하 들어왔더 들어왔더만 편의점 삼김 삼김은 왜 외다 삼 사다 출처통통튀 유통이야기 편의 편 서울경제 t토크 ttalk
+kbs2_gagcon	deaegi	POST	pyox8ty-2vxt		2011-08-17	보물찾기 달인 tagquestion 펀핑 tagexclamation 보물찾기 달인 tagquestion 펀핑 tagexclamation
+kbs2_gagcon	zenzang75	POST	pyox909-pwns		2011-08-16	필립스 전기면도기 센소터치 3d rq1280cc rq1280cc로 피부트러블 없다 건식 면도
+kbs2_gagcon	alscjf2127	POST	pyox9vz-_q9pe		2011-08-17	삼각김밥 불편한진실이라길래 유통과정 신선도 신선 문제 있는건가 tagquestion 하다 하 들어왔더 들어왔더만 편의점 삼김 삼김은 왜 외다 삼 사다 출처통통튀 유통이야기 편의 편 서울경제 t토크 ttalk
 kbs2_gagcon	naty04	POST	pyoxcnt-y37k6		2011-08-17	내손 내손에 없다 불편 진실 tagsmile 깊다 빠지다 팔다 팔 안들어감
 kbs2_gagcon	jsjs202	POST	pyoxctz-_rt7s		2011-08-16	개콘 헬스걸 변화공개 폭풍감량 화제 철저 식이조절 유산소 운동중
-kbs2_gagcon	sir0413	POST	pyoxd60-ydbt4		2011-08-16	tagsmile 개콘 위 엠빙신 엠빙신이 캐빙신 캐빙신을 눌렀네 rt gigabrained tagsmile 뉴스 코메디 cont
+kbs2_gagcon	sir0413	POST	pyoxd60-ydbt4		2011-08-16	tagsmile 개콘 1위 엠빙신 엠빙신이 캐빙신 캐빙신을 눌렀네 rt gigabrained tagsmile 뉴스 코메디 cont
 kbs2_gagcon	dnsdkaehd439	POST	pyoxgj7-yki14		2011-08-16	개콘 헬스걸 변화
-kbs2_gagcon	jinurock	POST	pyoxgo3-bpgh		2011-08-17	성공 반복 생활 계속 되다 돈 대한 대하다 욕심 인기 대한 대하다 욕심 사람 대한 대하다 욕심 다버리 다버리고 생활 달인 달이다 달 살아가다 그게 성공 거다 거 운동 규칙적 하다 근육 생기다 생기 것 똑같다 패턴 생활 어느순 내 발전 발전했구 라는걸 느끼다 되다 개그맨 이경규씨 어느 잡지 잡다 인터뷰 한말 한말이라는데 한 하다 분야 최고 이르다 사람 그럴 그럴만한 이유 다 있는것 같네요tagsmile 경규옹 멋저부러
+kbs2_gagcon	jinurock	POST	pyoxgo3-bpgh		2011-08-17	성공 반복 생활 계속 되다 돈 대한 대하다 욕심 인기 대한 대하다 욕심 사람 대한 대하다 욕심 다버리 다버리고 생활 달인 달이다 달 살아가다 그게 성공 거다 거 운동 규칙적 하다 근육 생기다 생기 것 똑같다 패턴 생활 어느순 내 발전 발전했구 라는걸 느끼다 되다 개그맨 이경규씨 어느 잡지 잡다 인터뷰 한말 한말이라는데 한 하다 분야 최고 이르다 사람 그럴 그럴만한 이유 다 있는것 같다 tagsmile 경규옹 멋저부러
 kbs2_gagcon	zenzang75	POST	pyoxi30-pwns		2011-08-16	아웃도어 캠핑용품 하나둘씩 준비 있다 tagsmile
 kbs2_gagcon	bct121724	POST	pyoxie2-rvh1		2011-08-17	joe gun gay yo tagexclamation 저인 게이 tagexclamation 개콘 빙 빙의
-kbs2_gagcon	historylover	POST	pyoxifo-_ktbl		2011-08-16	호프 달인 달이다 달
+kbs2_gagcon	historylover	POST	pyoxifo-_ktbl		2011-08-16	2011.8.13 호프 달인 달이다 달
 kbs2_gagcon	ziwooge	POST	pyoxlob-xb4_		2011-08-17	불편 진실 불편
-kbs2_gagcon	rustee_dj	POST	pyoxm3e-_qcv5		2011-08-16	근데 솔까 우리나라 우리 차 차다 자체만보면 정말 좋다 엠블럼 엠블럼만 어떻다 좀 조다 안되겠니tagquestion 촌시러움 촌시러움의 극 달다 달리다 아주 출처국내선 출처국 찬밥 해외선 이데일리 t토크 ttalk
+kbs2_gagcon	rustee_dj	POST	pyoxm3e-_qcv5		2011-08-16	근데 솔까 우리나라 우리 차 차다 자체만보면 정말 좋다 엠블럼 엠블럼만 어떻다 좀 조다 안되다 tagquestion 촌시러움 촌시러움의 극 달다 달리다 아주 출처국내선 출처국 찬밥 해외선 이데일리 t토크 ttalk
 kbs2_gagcon	autoarc	POST	pyoxo4x-hvbu		2011-08-16	면접 불편 진실 면접관 내 내다 얘기 고개 자주 끄덕이다 건성 고개 끄덕이다 면접관 많다 건설워커 취업 웹
 kbs2_gagcon	autoarc	POST	pyoxov5-hvbu		2011-08-16	면접 불편 진실 면접관 내 내다 얘기 긍정적 맞장구 치다 쳐주다 예의 예 있다 면접관 일상적 대화 수단 뿐 뿐이 취업 건설워커 웹
 kbs2_gagcon	full4320	POST	pyoxowz-e8kd		2011-08-16	개그콘서트 헬스걸 변화 공개 하루일과표 공개 tagexclamation
-kbs2_gagcon	withddong	POST	pyoxoyb-ysmd5		2011-08-17	회사동료 저번주 개콘 봤냐며tagquestion 안 알다 보다 보다 해서 하다 개그콘서트 비상대책위원회 를 찾다 보다 대박 웃끼네 웃끼네요 tagsmile 아 tagexclamation 왤케 우낀지 눈물 쏟다 혹 나 웃는건가tagquestion 개콘 개콘은 새롭다 코너 참 차다 재미나다 재미 다르다 mbc sbs 공개 코미디 왜그런지tagquestion tagcry
-kbs2_gagcon	acacreb	POST	pyoxpgo-9hhp		2011-08-17	가상대결 tagexclamation 이봉주vs번개사나이 m 누 누가 이길까tagquestion 은근 끈기 소유자 지구력 달인 이봉주 선수 이기다 믿다 tagexclamation tagsmile tagexclamation 삼성전자월드챔피언페스티벌
+kbs2_gagcon	withddong	POST	pyoxoyb-ysmd5		2011-08-17	회사동료 저번주 개콘 봤냐며 tagquestion 안 알다 보다 보다 해서 하다 개그콘서트 비상대책위원회 를 찾다 보다 대박 웃끼네 웃끼네요 tagsmile 아 tagexclamation 왤케 우낀지 눈물 쏟다 혹 나 웃는건가 tagquestion 개콘 개콘은 새롭다 코너 참 차다 재미나다 재미 다르다 mbc sbs 공개 코미디 왜그런지 tagquestion tagcry
+kbs2_gagcon	acacreb	POST	pyoxpgo-9hhp		2011-08-17	가상대결 tagexclamation 이봉주vs 번개사나이 번개사 5,000m 누 누가 이기다 tagquestion 은근 끈기 소유자 지구력 달인 이봉주 선수 100 이기다 믿다 tagexclamation tagsmile tagexclamation 삼성전자월드챔피언페스티벌
 kbs2_gagcon	zellsee	POST	pyoxq10-5ykiq		2011-08-16	헬스걸 몸매 변화 공개 폭풍감량
 kbs2_gagcon	wjdskfo4467	POST	pyoxqdc-eohw		2011-08-16	큽
 kbs2_gagcon	klhonors	POST	pyoxqpl-_mmck		2011-08-16	개콘 헬스걸 몸매 변화 공개 화제 폭풍감량 눈길
 kbs2_gagcon	lwgggg	POST	pyoxrqn-mbjh		2011-08-17	주 오토카리스 주차 달인 달이다 달 휠아 휠아이 눈달린 바퀴 개봉 사용기
 kbs2_gagcon	wjdskfo4467	POST	pyoxsk_-eohw		2011-08-16	중국팬 중국팬이 그린 그리다 윤호 tagquestion
-kbs2_gagcon	lovebk1005	POST	pyoxtgs-5_a3s		2011-08-17	oo마트운영하시 사업자님 개인사업자대출 sc스탠다드캐피탈 김정환팀장
+kbs2_gagcon	lovebk1005	POST	pyoxtgs-5_a3s		2011-08-17	oo마트운영하시 사업자님 개인사업자대출 sc스탠다드캐피탈 김정환팀장 010-3520-0711
 kbs2_gagcon	qkelfkdls44	POST	pyoxthp-_cdja		2011-08-16	헬스걸 변화 공개 날볍해진 모습 대박
 kbs2_gagcon	seoin0011	POST	pyoxtk7-_p4y3		2011-08-17	빠 빠이 빠 빠이 tagcry 나가다 싫다구 tagexclamation 하다 하지 나가다 하다 하 불편 진실 tagcry 안뇽 뿅 tagexclamation
-kbs2_gagcon	c9603631	POST	pyoxujv-amyx		2011-08-16	일어나다 달인 달이다 달 이채은양 tagsmile me video
+kbs2_gagcon	c9603631	POST	pyoxujv-amyx		2011-08-16	일어나다 달인 달이다 달 이채은양 tagsmile me2video
 kbs2_gagcon	so0os0321	POST	pyoxul6-5yyiv		2011-08-15	tagcry 당분 개콘시청 안할꼬 안할꼬야
 kbs2_gagcon	plant84	POST	pyoxvqf-b9pa		2011-08-17	김병 김병만 백일사진 초롱초롱 왕눈이 꼬마 꼬다 달인 달이다 달 귀요미 출처 티브이데일리
 kbs2_gagcon	kny9280	POST	pyoxxut-ycymd		2011-08-15	어제 개콘 못 보다 tagcry 옴므옴옴므므
-kbs2_gagcon	d-o-h-c	POST	pyoxxzu-5ugij		2011-08-16	백스톱 물빼기 물빼기의 달인 달이다 달 sk 김상훈 실장 분 ok 아무리 비가 비 오다 경기시작 한시간전 그치다 다면 우리 달인 가다 tagexclamation 우리 문학구장 관리 아르바이트생 tagexclamation
+kbs2_gagcon	d-o-h-c	POST	pyoxxzu-5ugij		2011-08-16	백스톱 물빼기 물빼기의 달인 달이다 달 sk 김상훈 실장 30분 30분이면 ok 아무리 비가 비 오다 경기시작 한시간전 그치다 다면 우리 달인 가다 tagexclamation 우리 문학구장 관리 아르바이트생 tagexclamation
 kbs2_gagcon	hl2xju	POST	pyoxz3w-57pil		2011-08-16	위기 대처 강하다 사람 되다 먼저 웃다 웃음 달인 되다
-kbs2_gagcon	garilove	POST	pyoxz_b-s7m		2011-08-15	두려움 직시 뿐 바라다 바람 계산 것 아니다 아니 극 뽁 뽁하 뽁하는 것 어찌 긴장 보다 아직 아직도 가슴 듁은듁 듁은듁은 tagsmile me movie 최종병기 활 연휴 초강추 tagexclamation 영화
-kbs2_gagcon	ye___jin_	COMMENT	pym0xy2-_cydq	c_n7hk9-ym0xy2-_cydq	2011-08-19	가지마ㅏㅏㅏㅏ tagsmile ㅌㅌㅌ
+kbs2_gagcon	garilove	POST	pyoxz_b-s7m		2011-08-15	두려움 직시 뿐 바라다 바람 계산 것 아니다 아니 극 뽁 뽁하 뽁하는 것 어찌 긴장 보다 아직 아직도 가슴 듁은듁 듁은듁은 tagsmile 최종병기 활 연휴 초강추 tagexclamation 영화
+kbs2_gagcon	ye___jin_	COMMENT	pym0xy2-_cydq	c_n7hk9-ym0xy2-_cydq	2011-08-19	가지다 ㅏㅏㅏㅏ tagsmile ㅌㅌㅌ
 kbs2_gagcon	d99h	COMMENT	pym0xy2-_cydq	c_n7hv_-ym0xy2-_cydq	2011-08-19	앜 tagsmile
 kbs2_gagcon	yjm0311	COMMENT	pym0xy2-_cydq	c_n7nc6-ym0xy2-_cydq	2011-08-19	tagsmile
 kbs2_gagcon	crystal4568	COMMENT	pym0xy2-_cydq	c_n7qlu-ym0xy2-_cydq	2011-08-19	ㅉ
 kbs2_gagcon	johncjswo	COMMENT	pym0xy2-_cydq	c_n7sh0-ym0xy2-_cydq	2011-08-19	아냐 괜찮다 tagsmile
 kbs2_gagcon	johncjswo	COMMENT	pym0xy2-_cydq	c_n7spw-ym0xy2-_cydq	2011-08-19	음 기분 쪼다 tagsmile
-kbs2_gagcon	crystal4568	COMMENT	pym0xy2-_cydq	c_n7swz-ym0xy2-_cydq	2011-08-19	tagsmile ㅈㅅ 근데 나듀 가야 가야됨 ㄱ tagcry 시 tagsmile
+kbs2_gagcon	crystal4568	COMMENT	pym0xy2-_cydq	c_n7swz-ym0xy2-_cydq	2011-08-19	tagsmile ㅈㅅ 근데 나듀 가야 가야됨 ㄱ tagcry 4시 4시에 tagsmile
 kbs2_gagcon	ye___jin_	COMMENT	pym0xy2-_cydq	c_n7t1z-ym0xy2-_cydq	2011-08-19	tagsmile
 kbs2_gagcon	johncjswo	COMMENT	pym0xy2-_cydq	c_n7txz-ym0xy2-_cydq	2011-08-19	tagcry tagsmile tagsmile
 kbs2_gagcon	cute64712	COMMENT	pym0xy2-_cydq	c_vdkbm-ym0xy2-_cydq	2011-08-19	tagsmile
@@ -826,8 +826,8 @@ kbs2_gagcon	vofedevil	COMMENT	pym1vhf-_hwjv	c_vh_ks-ym1vhf-_hwjv	2011-08-20	뵨�
 kbs2_gagcon	yoonja486	COMMENT	pym1vhf-_hwjv	c_vh_oy-ym1vhf-_hwjv	2011-08-20	변신 시간걸려 기다리구계세 기다리구계세여
 kbs2_gagcon	yoonja486	COMMENT	pym1vhf-_hwjv	c_vt2v0-ym1vhf-_hwjv	2011-08-20	여자숀리 변신 tagsmile
 kbs2_gagcon	vofedevil	COMMENT	pym1vhf-_hwjv	c_vt96s-ym1vhf-_hwjv	2011-08-20	헐 ㅁ 아닝 ㅁ
-kbs2_gagcon	vofedevil	COMMENT	pym1vhf-_hwjv	c_vtbpv-ym1vhf-_hwjv	2011-08-20	헐 근육 울그락 불그락 될라꼬tagquestion tagexclamation
-kbs2_gagcon	yoonja486	COMMENT	pym1vhf-_hwjv	c_vtbq9-ym1vhf-_hwjv	2011-08-20	왜여tagquestion 멋잇을거 멋잇을거같지 않아여tagquestion tagsmile
+kbs2_gagcon	vofedevil	COMMENT	pym1vhf-_hwjv	c_vtbpv-ym1vhf-_hwjv	2011-08-20	헐 근육 울그락 불그락 될라꼬 tagquestion tagexclamation
+kbs2_gagcon	yoonja486	COMMENT	pym1vhf-_hwjv	c_vtbq9-ym1vhf-_hwjv	2011-08-20	왜 tagquestion 멋잇을거 멋잇을거같지 않아 tagquestion tagsmile
 kbs2_gagcon	vofedevil	COMMENT	pym1vhf-_hwjv	c_vtdgd-ym1vhf-_hwjv	2011-08-20	헬스걸
 kbs2_gagcon	yoonja486	COMMENT	pym1vhf-_hwjv	c_vtejv-ym1vhf-_hwjv	2011-08-20	tagexclamation tagsmile
 kbs2_gagcon	yoonja486	COMMENT	pym1vhf-_hwjv	c_vtf9c-ym1vhf-_hwjv	2011-08-20	tagsmile 안만들어 안만들어여 tagexclamation 그냥한소리예
@@ -842,7 +842,7 @@ kbs2_gagcon	dktmvk12	COMMENT	pym6125-_sfrk	c_vdyrm-ym6125-_sfrk	2011-08-17	근�
 kbs2_gagcon	dktmvk12	COMMENT	pym6125-_sfrk	c_vdywz-ym6125-_sfrk	2011-08-17	뮤지컬 나오다 한단어 한단어로 등록
 kbs2_gagcon	skynet97	COMMENT	pym6cbm-yr4kt	c_n3ax4-ym6cbm-yr4kt	2011-08-20	잌 tagsmile
 kbs2_gagcon	wndbdwls	COMMENT	pym6rt0-_blia	c_n50lm-ym6rt0-_blia	2011-08-19	전에글보면 써 써있는데 갈아타다 iu 김범수 이렇게 쓰다 tagsmile
-kbs2_gagcon	sm6126	COMMENT	pym6rt0-_blia	c_n50vb-ym6rt0-_blia	2011-08-19	이제 김범수 김범수로 갔냐tagquestion 예전 아이유더
+kbs2_gagcon	sm6126	COMMENT	pym6rt0-_blia	c_n50vb-ym6rt0-_blia	2011-08-19	이제 김범수 김범수로 가다 tagquestion 예전 아이유더
 kbs2_gagcon	wndbdwls	COMMENT	pym6rt0-_blia	c_nn221-ym6rt0-_blia	2011-08-24	iu iu는 헛되다 그거 tagexclamation 그뭐냐 어째뜬
 kbs2_gagcon	joyce122	COMMENT	pymd5i8-_pyib	c_4811k-ymd5i8-_pyib	2011-08-25	tagsmile 마자마자 난 나다 날다 런닝맨 런닝맨이 나가수 tagsmile
 kbs2_gagcon	2054897	COMMENT	pymd5i8-_pyib	c_nl0v7-ymd5i8-_pyib	2011-08-16	요새 런닝맨 그거 캡짱 잼써 tagexclamation tagsmile
@@ -864,34 +864,34 @@ kbs2_gagcon	jjlee4854	COMMENT	pymk6qn-yuoo4	c_v0lw0-ymk6qn-yuoo4	2011-08-18	tags
 kbs2_gagcon	jjlee4854	COMMENT	pymk6qn-yuoo4	c_v522g-ymk6qn-yuoo4	2011-08-17	tagsmile 일어나다 솔로부대여 솔로부대 tagexclamation tagsmile
 kbs2_gagcon	cly5334	COMMENT	pymk6qn-yuoo4	c_v5tuy-ymk6qn-yuoo4	2011-08-17	구오오 tagsmile
 kbs2_gagcon	cly5334	COMMENT	pymk6qn-yuoo4	c_v6_b_-ymk6qn-yuoo4	2011-08-17	tagsmile 난 나다 날다 빠지다 tagsmile
-kbs2_gagcon	cly5334	COMMENT	pymk6qn-yuoo4	c_vk0uf-ymk6qn-yuoo4	2011-08-17	벌쓰다 부대 들어가다 뭔가 억울tagquestion
+kbs2_gagcon	cly5334	COMMENT	pymk6qn-yuoo4	c_vk0uf-ymk6qn-yuoo4	2011-08-17	벌쓰다 부대 들어가다 뭔가 억울 tagquestion
 kbs2_gagcon	jjlee4854	COMMENT	pymk6qn-yuoo4	c_vk5ix-ymk6qn-yuoo4	2011-08-17	tagsmile 일어나다 tagexclamation tagsmile
 kbs2_gagcon	jjlee4854	COMMENT	pymk6qn-yuoo4	c_vk5qo-ymk6qn-yuoo4	2011-08-17	tagsmile 왜 외다 tagsmile 같다 솔로부대원 일어나다 tagexclamation tagsmile
-kbs2_gagcon	jjlee4854	COMMENT	pymk6qn-yuoo4	c_vkbym-ymk6qn-yuoo4	2011-08-17	tagsmile 그럼 슬슬 탈출tagquestion tagsmile
+kbs2_gagcon	jjlee4854	COMMENT	pymk6qn-yuoo4	c_vkbym-ymk6qn-yuoo4	2011-08-17	tagsmile 그럼 슬슬 탈출 tagquestion tagsmile
 kbs2_gagcon	cly5334	COMMENT	pymk6qn-yuoo4	c_vkf58-ymk6qn-yuoo4	2011-08-17	tagsmile 신고마셈 영창싫음 zzzz tagsmile
 kbs2_gagcon	cly5334	COMMENT	pymk6qn-yuoo4	c_vkjys-ymk6qn-yuoo4	2011-08-17	탈영 tagsmile
 kbs2_gagcon	jjlee4854	COMMENT	pymk6qn-yuoo4	c_vkpwd-ymk6qn-yuoo4	2011-08-17	tagsmile 오다 탈영 생각중이구낰 tagsmile 부왘 tagsmile
 kbs2_gagcon	lee115314	COMMENT	pymk6qn-yuoo4	c_vkqoe-ymk6qn-yuoo4	2011-08-17	으헝허엏엏어허어 나도 나다 나 그러고싶음 tagcry
-kbs2_gagcon	lee115314	COMMENT	pymk6qn-yuoo4	c_v_gzr-ymk6qn-yuoo4	2011-08-17	나불렀음tagquestion tagsmile
-kbs2_gagcon	8302young	COMMENT	pymystp-_tixo	c_271n0-ymystp-_tixo	2011-08-18	기분이나쁠땐 봐야 봐야할까 봐야할까요 안봐야할까요tagquestion tagsmile
+kbs2_gagcon	lee115314	COMMENT	pymk6qn-yuoo4	c_v_gzr-ymk6qn-yuoo4	2011-08-17	나불렀음 tagquestion tagsmile
+kbs2_gagcon	8302young	COMMENT	pymystp-_tixo	c_271n0-ymystp-_tixo	2011-08-18	기분이나쁠땐 봐야 봐야할까 봐야할까요 안봐야 안봐야할까 안봐야할까요 tagquestion tagsmile
 kbs2_gagcon	aculus	COMMENT	pymystp-_tixo	c_2x2e1-ymystp-_tixo	2011-08-18	진짜 제 제대 공감 나 줄 주다 알다 tagcry
-kbs2_gagcon	lovely0523	COMMENT	pymystp-_tixo	c_2xcng-ymystp-_tixo	2011-08-18	개그프로 즐기다 보는거니까 웃다 보는게 정답아닐까요tagquestion tagsmile
+kbs2_gagcon	lovely0523	COMMENT	pymystp-_tixo	c_2xcng-ymystp-_tixo	2011-08-18	개그프로 즐기다 보는거니까 웃다 보는게 정답아닐까 tagquestion tagsmile
 kbs2_gagcon	01089304668	COMMENT	pymystp-_tixo	c_2xivu-ymystp-_tixo	2011-08-18	이상한취미잇네 tagsmile
 kbs2_gagcon	kpl6233	COMMENT	pymystp-_tixo	c_2xmad-ymystp-_tixo	2011-08-18	tagsmile 빵터짐
 kbs2_gagcon	autumns2	COMMENT	pymystp-_tixo	c_nd1u_-ymystp-_tixo	2011-08-19	재밌어 재밌어요 요즈음 tagexclamation 감수성빵터짐 tagsmile
 kbs2_gagcon	autumns2	COMMENT	pymystp-_tixo	c_nd1z7-ymystp-_tixo	2011-08-19	음 어려운질문 아마 감수성 골라보시는게
 kbs2_gagcon	autumns2	COMMENT	pymystp-_tixo	c_nd1z8-ymystp-_tixo	2011-08-19	음 정답 tagexclamation
 kbs2_gagcon	autumns2	COMMENT	pymystp-_tixo	c_nd1zc-ymystp-_tixo	2011-08-19	뭐 tagsmile tagsmile 그렇다는거지 tagcry tagcry
-kbs2_gagcon	autumns2	COMMENT	pymystp-_tixo	c_nd1zp-ymystp-_tixo	2011-08-19	tagsmile tagsmile 빵터졌나요tagquestiontagsmile tagsmile tagsmile
+kbs2_gagcon	autumns2	COMMENT	pymystp-_tixo	c_nd1zp-ymystp-_tixo	2011-08-19	tagsmile tagsmile 빵터졌 tagquestion tagsmile tagsmile tagsmile
 kbs2_gagcon	autumns2	COMMENT	pymystp-_tixo	c_nd1zt-ymystp-_tixo	2011-08-19	tagsmile tagsmile 전 절다 초등학교때 느꼈더랬죠
 kbs2_gagcon	booisland	COMMENT	pymystp-_tixo	c_ndewl-ymystp-_tixo	2011-08-19	재미없어용개콩
-kbs2_gagcon	dlrbwjdi	COMMENT	pym_m17-528_r	c_27906-ym_m17-528_r	2011-08-18	오다 진짜tagquestion
+kbs2_gagcon	dlrbwjdi	COMMENT	pym_m17-528_r	c_27906-ym_m17-528_r	2011-08-18	오다 진짜 tagquestion
 kbs2_gagcon	watdidyasay	COMMENT	pym_m17-528_r	c_27955-ym_m17-528_r	2011-08-18	tagsmile 나천둥본적잇다 tagsmile
 kbs2_gagcon	pichhoo	COMMENT	pym_m17-528_r	c_2796r-ym_m17-528_r	2011-08-18	개그콘서트 난 나다 날다 보다 안웃기던데
 kbs2_gagcon	dlrbwjdi	COMMENT	pym_m17-528_r	c_279b1-ym_m17-528_r	2011-08-18	웃긴건 웃기다 tagsmile
 kbs2_gagcon	you9583	COMMENT	pyo4axh-1aag	c_2f469-yo4axh-1aag	2011-08-15	가져가다
 kbs2_gagcon	fishlove27	COMMENT	pyo4axh-1aag	c_2fl4i-yo4axh-1aag	2011-08-15	이제 놓아주다
-kbs2_gagcon	hyerim85	COMMENT	pyo4axh-1aag	c_2w0el-yo4axh-1aag	2011-08-15	응tagquestion 내꺼 줄다 tagsmile
+kbs2_gagcon	hyerim85	COMMENT	pyo4axh-1aag	c_2w0el-yo4axh-1aag	2011-08-15	tagquestion 내꺼 줄다 tagsmile
 kbs2_gagcon	you9583	COMMENT	pyo4axh-1aag	c_2w0l_-yo4axh-1aag	2011-08-15	아니되오 가뜩이 굴러다니다
 kbs2_gagcon	hyerim85	COMMENT	pyo4axh-1aag	c_2w0ya-yo4axh-1aag	2011-08-15	
 kbs2_gagcon	fishlove27	COMMENT	pyo4axh-1aag	c_2wefc-yo4axh-1aag	2011-08-15	tagcry
@@ -903,24 +903,24 @@ kbs2_gagcon	gahyun_a	COMMENT	pyo4o0q-y36v4	c_2mmoe-yo4o0q-y36v4	2011-08-16	나�
 kbs2_gagcon	chwoon95	COMMENT	pyo4o0q-y36v4	c_2mmsk-yo4o0q-y36v4	2011-08-16	tagsmile 나도 나다 나 살빼야대는뎅 tagcry
 kbs2_gagcon	qkrrkdmf0430	COMMENT	pyo7iv5-y9itu	c_ni1dr-yo7iv5-y9itu	2011-08-17	tagsmile
 kbs2_gagcon	rmadud0511	COMMENT	pyo7iv5-y9itu	c_no6ja-yo7iv5-y9itu	2011-08-16	tagsmile 나 나다 본방 본방으 밨으 tagsmile 웃곀 tagsmile
-kbs2_gagcon	drgvf2389	COMMENT	pyo7rhz-5eh7h	c_2hprb-yo7rhz-5eh7h	2011-08-16	진실이뭔가요tagquestion
+kbs2_gagcon	drgvf2389	COMMENT	pyo7rhz-5eh7h	c_2hprb-yo7rhz-5eh7h	2011-08-16	진실이뭔가 tagquestion
 kbs2_gagcon	3-star	COMMENT	pyo7s4d-5mzq0	c_n11fd-yo7s4d-5mzq0	2011-08-15	tagsmile 네네 쿸
-kbs2_gagcon	8712love	COMMENT	pyo7s4d-5mzq0	c_n1b9h-yo7s4d-5mzq0	2011-08-15	아 이르다 이름 잘못봄 tagsmile 재밌게 노세요tagsmile
-kbs2_gagcon	asqw4738	COMMENT	pyo7s4d-5mzq0	c_n9obs-yo7s4d-5mzq0	2011-08-15	여친아닐까요tagquestion
-kbs2_gagcon	3-star	COMMENT	pyo7s4d-5mzq0	c_njccg-yo7s4d-5mzq0	2011-08-15	그런가요tagquestion 존댓말스던뎅 tagsmile
-kbs2_gagcon	friday1985	COMMENT	pyo7s4d-5mzq0	c_ns86p-yo7s4d-5mzq0	2011-08-17	이승윤 진짜 몸 좋아요tagquestion
+kbs2_gagcon	8712love	COMMENT	pyo7s4d-5mzq0	c_n1b9h-yo7s4d-5mzq0	2011-08-15	아 이르다 이름 잘못봄 tagsmile 재밌게 노세 노세요 tagsmile
+kbs2_gagcon	asqw4738	COMMENT	pyo7s4d-5mzq0	c_n9obs-yo7s4d-5mzq0	2011-08-15	여친아닐까 여친아닐까요 tagquestion
+kbs2_gagcon	3-star	COMMENT	pyo7s4d-5mzq0	c_njccg-yo7s4d-5mzq0	2011-08-15	그런가 그런가요 tagquestion 존댓말스던뎅 tagsmile
+kbs2_gagcon	friday1985	COMMENT	pyo7s4d-5mzq0	c_ns86p-yo7s4d-5mzq0	2011-08-17	이승윤 진짜 몸 좋다 tagquestion
 kbs2_gagcon	3-star	COMMENT	pyo7s4d-5mzq0	c_nsmgz-yo7s4d-5mzq0	2011-08-17	tagsmile 겉모습 겉모습은 좋은것 좋은것같던데 tagsmile
-kbs2_gagcon	changmin0712	COMMENT	pyo7zp3-_5ell	c_n1h2b-yo7zp3-_5ell	2011-08-15	난 나다 날다 베껴쓸것도없엌 tagsmile 학기때 다 배껴써서 tagsmile
-kbs2_gagcon	changmin0712	COMMENT	pyo7zp3-_5ell	c_n1hh6-yo7zp3-_5ell	2011-08-15	방학 하루전 분안 분안에 편정도 편정도는 그냥쓴다 불편한진실
+kbs2_gagcon	changmin0712	COMMENT	pyo7zp3-_5ell	c_n1h2b-yo7zp3-_5ell	2011-08-15	난 나다 날다 베껴쓸것도없엌 tagsmile 1학기때 다 배껴써서 tagsmile
+kbs2_gagcon	changmin0712	COMMENT	pyo7zp3-_5ell	c_n1hh6-yo7zp3-_5ell	2011-08-15	방학 하루전 15분안 15분안에 4편정도 그냥쓴다 불편한진실
 kbs2_gagcon	changmin0712	COMMENT	pyo7zp3-_5ell	c_n1hi0-yo7zp3-_5ell	2011-08-15	무섭닼 tagsmile
 kbs2_gagcon	karenjiwon	COMMENT	pyo7zp3-_5ell	c_n1hla-yo7zp3-_5ell	2011-08-15	tagsmile
-kbs2_gagcon	changmin0712	COMMENT	pyo7zp3-_5ell	c_n1hz3-yo7zp3-_5ell	2011-08-15	난 나다 날다 월 일꺼 쓰다 글올리 글올리고 가다 게임 돌아오다 불편한진실
+kbs2_gagcon	changmin0712	COMMENT	pyo7zp3-_5ell	c_n1hz3-yo7zp3-_5ell	2011-08-15	난 나다 날다 7월 29일꺼 쓰다 글올리 글올리고 가다 게임 돌아오다 불편한진실
 kbs2_gagcon	changmin0712	COMMENT	pyo7zp3-_5ell	c_n1hza-yo7zp3-_5ell	2011-08-15	캬핰 tagsmile
-kbs2_gagcon	seungho809	COMMENT	pyo7zp3-_5ell	c_n1jpq-yo7zp3-_5ell	2011-08-15	난 나다 날다 지금 분안 분안에 일기 편 쓰다 불편 진실
-kbs2_gagcon	karenjiwon	COMMENT	pyo7zp3-_5ell	c_n1or2-yo7zp3-_5ell	2011-08-15	난 나다 날다 분 안 독서록 편 베껴썼다능 tagsmile
+kbs2_gagcon	seungho809	COMMENT	pyo7zp3-_5ell	c_n1jpq-yo7zp3-_5ell	2011-08-15	난 나다 날다 지금 30분안 30분안에 일기4 편 쓰다 불편 진실
+kbs2_gagcon	karenjiwon	COMMENT	pyo7zp3-_5ell	c_n1or2-yo7zp3-_5ell	2011-08-15	난 나다 날다 15분 안 독서록 3편 3편을 베껴썼다능 tagsmile
 kbs2_gagcon	mok06234	COMMENT	pyo7zp3-_5ell	c_n1p0u-yo7zp3-_5ell	2011-08-15	재밌는데 이거 tagsmile
 kbs2_gagcon	mok06234	COMMENT	pyo7zp3-_5ell	c_n1p32-yo7zp3-_5ell	2011-08-15	방숙 방숙에 손도안댔다는 불편 진실
-kbs2_gagcon	mok06234	COMMENT	pyo7zp3-_5ell	c_n1p6a-yo7zp3-_5ell	2011-08-15	난 나다 날다 월 일 불편 진실
+kbs2_gagcon	mok06234	COMMENT	pyo7zp3-_5ell	c_n1p6a-yo7zp3-_5ell	2011-08-15	난 나다 날다 7월 24일 24일인 불편 진실
 kbs2_gagcon	lghee1242	COMMENT	pyo7zp3-_5ell	c_n1p_t-yo7zp3-_5ell	2011-08-15	난 나다 날다 일기 꼬박꼬박썻는데 독서록 하나도안쓴 불편한진실
 kbs2_gagcon	changmin0712	COMMENT	pyo7zp3-_5ell	c_n1q30-yo7zp3-_5ell	2011-08-15	나도 나다 나 쓰다가말았엌 tagsmile
 kbs2_gagcon	sylvia_3030	COMMENT	pyo7zp3-_5ell	c_n1qdj-yo7zp3-_5ell	2011-08-15	난하나도안했는뎈 tagsmile 아놬 tagsmile
@@ -942,30 +942,30 @@ kbs2_gagcon	jiuk3322	COMMENT	pyol_nb-_jse8	c_2w4f_-yol_nb-_jse8	2011-08-15	tagsm
 kbs2_gagcon	dmstj0610	COMMENT	pyol_nb-_jse8	c_2w4j1-yol_nb-_jse8	2011-08-15	제 친구 절반 매일 매이다 멍때려 멍때려요 tagsmile
 kbs2_gagcon	jiuk3322	COMMENT	pyol_nb-_jse8	c_2w4jx-yol_nb-_jse8	2011-08-15	어제 그냥안봣으 tagsmile
 kbs2_gagcon	angelsh363	COMMENT	pyol_nb-_jse8	c_2w4ni-yol_nb-_jse8	2011-08-15	읭 tagsmile 안대안대
-kbs2_gagcon	jiuk3322	COMMENT	pyol_nb-_jse8	c_2w4t6-yol_nb-_jse8	2011-08-15	불법다운을tagquestion 히히
+kbs2_gagcon	jiuk3322	COMMENT	pyol_nb-_jse8	c_2w4t6-yol_nb-_jse8	2011-08-15	불법다운 불법다운을 tagquestion 히히
 kbs2_gagcon	angelsh363	COMMENT	pyol_nb-_jse8	c_2w4wr-yol_nb-_jse8	2011-08-15	재밌엇느데 tagsmile ㅇㅁㅇ
 kbs2_gagcon	dmstj0610	COMMENT	pyol_nb-_jse8	c_2w4y_-yol_nb-_jse8	2011-08-15	전 절다 매일 머엉 ㅇㅁㅇ
 kbs2_gagcon	jiuk3322	COMMENT	pyol_nb-_jse8	c_2w4zc-yol_nb-_jse8	2011-08-15	tagsmile 에다 정신줄놓지마
 kbs2_gagcon	jiuk3322	COMMENT	pyol_nb-_jse8	c_2w4__-yol_nb-_jse8	2011-08-15	내 내다 친구중 그런애잇어 tagsmile 맨날멍때리는애
-kbs2_gagcon	angelsh363	COMMENT	pyol_nb-_jse8	c_2w70q-yol_nb-_jse8	2011-08-15	ㅇㅁㅇ오오 바보새군 tagsmile 인정 tagquestion tagexclamation
+kbs2_gagcon	angelsh363	COMMENT	pyol_nb-_jse8	c_2w70q-yol_nb-_jse8	2011-08-15	ㅇㅁㅇ 오다 바보새군 tagsmile 인정 tagquestion tagexclamation
 kbs2_gagcon	jiuk3322	COMMENT	pyol_nb-_jse8	c_2w74q-yol_nb-_jse8	2011-08-15	해석 짹짹짹 짹짹짹짹 무리수
-kbs2_gagcon	angelsh363	COMMENT	pyol_nb-_jse8	c_2w787-yol_nb-_jse8	2011-08-15	ㅇㅁㅇ곰도새도다바보 tagsmile
-kbs2_gagcon	angelsh363	COMMENT	pyol_nb-_jse8	c_2w7ab-yol_nb-_jse8	2011-08-15	ㅇㅁㅇ헛 저건새의언어 tagquestion tagexclamation
+kbs2_gagcon	angelsh363	COMMENT	pyol_nb-_jse8	c_2w787-yol_nb-_jse8	2011-08-15	ㅇㅁㅇ 곰도새도다바보 tagsmile
+kbs2_gagcon	angelsh363	COMMENT	pyol_nb-_jse8	c_2w7ab-yol_nb-_jse8	2011-08-15	ㅇㅁㅇ 헛 저건새의언어 tagquestion tagexclamation
 kbs2_gagcon	jiuk3322	COMMENT	pyol_nb-_jse8	c_2w7py-yol_nb-_jse8	2011-08-15	바보 tagsmile
 kbs2_gagcon	jiuk3322	COMMENT	pyol_nb-_jse8	c_2w7tu-yol_nb-_jse8	2011-08-15	짹짹짹
 kbs2_gagcon	jiuk3322	COMMENT	pyol_nb-_jse8	c_2wlc8-yol_nb-_jse8	2011-08-15	음 그럼 꾹붙잡아야겟다 tagsmile
 kbs2_gagcon	jiuk3322	COMMENT	pyol_nb-_jse8	c_2wlhm-yol_nb-_jse8	2011-08-15	tagsmile 에다 정직한사람같으니라구
 kbs2_gagcon	dmstj0610	COMMENT	pyol_nb-_jse8	c_2wlk5-yol_nb-_jse8	2011-08-15	저절 저절로 정신줄 정신줄이 가출 시도 허허허허허헛
-kbs2_gagcon	angelsh363	COMMENT	pyol_nb-_jse8	c_2wlna-yol_nb-_jse8	2011-08-15	ㅇㅁㅇ정직한게아니라그래야한다구 tagsmile
-kbs2_gagcon	angelsh363	COMMENT	pyol_nb-_jse8	c_2wlp6-yol_nb-_jse8	2011-08-15	ㅇㅁㅇ참으 tagsmile ㄱㄱ한번안본다구안죽으 tagsmile
+kbs2_gagcon	angelsh363	COMMENT	pyol_nb-_jse8	c_2wlna-yol_nb-_jse8	2011-08-15	ㅇㅁㅇ 정직한게아니라그래야한다구 tagsmile
+kbs2_gagcon	angelsh363	COMMENT	pyol_nb-_jse8	c_2wlp6-yol_nb-_jse8	2011-08-15	ㅇㅁㅇ 참으 tagsmile ㄱㄱ 한번안본다구안죽으 tagsmile
 kbs2_gagcon	jiuk3322	COMMENT	pyol_nb-_jse8	c_2wlyi-yol_nb-_jse8	2011-08-15	하다 하지 보고싶은데 어쩌다
 kbs2_gagcon	jiuk3322	COMMENT	pyol_nb-_jse8	c_2wvai-yol_nb-_jse8	2011-08-15	tagsmile 오늘 정신줄놓고지내써
 kbs2_gagcon	angelsh363	COMMENT	pyol_nb-_jse8	c_2wvc8-yol_nb-_jse8	2011-08-15	나도 나다 나 런닝맨기다림 tagsmile
 kbs2_gagcon	too1126	COMMENT	pyol_nb-_jse8	c_2wvi3-yol_nb-_jse8	2011-08-15	치매 빨다 오다
-kbs2_gagcon	jiuk3322	COMMENT	pyol_nb-_jse8	c_2wvtw-yol_nb-_jse8	2011-08-15	tagsmile 난 나다 날다 박 일기다리 자고일어나서 자고일어 또 개콘언제 개콘언제하
-kbs2_gagcon	angelsh363	COMMENT	pyol_nb-_jse8	c_2wvug-yol_nb-_jse8	2011-08-15	tagsmile 으익 ㅇㅁㅇ심해따
+kbs2_gagcon	jiuk3322	COMMENT	pyol_nb-_jse8	c_2wvtw-yol_nb-_jse8	2011-08-15	tagsmile 난1 박2 일기다리 자고일어나서 자고일어 또 개콘언제 개콘언제하
+kbs2_gagcon	angelsh363	COMMENT	pyol_nb-_jse8	c_2wvug-yol_nb-_jse8	2011-08-15	tagsmile 으익 ㅇㅁㅇ 심해따
 kbs2_gagcon	jiuk3322	COMMENT	pyol_nb-_jse8	c_2wvus-yol_nb-_jse8	2011-08-15	이글씨 치료약 치료약없
-kbs2_gagcon	dmstj0610	COMMENT	pyol_nb-_jse8	c_2wvwo-yol_nb-_jse8	2011-08-15	오앙tagquestion tagsmile 알다 안대 tagsmile
+kbs2_gagcon	dmstj0610	COMMENT	pyol_nb-_jse8	c_2wvwo-yol_nb-_jse8	2011-08-15	오앙 tagquestion tagsmile 알다 안대 tagsmile
 kbs2_gagcon	angelsh363	COMMENT	pyol_nb-_jse8	c_2wxtl-yol_nb-_jse8	2011-08-15	바보새군 ㅇㅁㅇ
 kbs2_gagcon	jiuk3322	COMMENT	pyol_nb-_jse8	c_2wxvg-yol_nb-_jse8	2011-08-15	죄송 바보맞아
 kbs2_gagcon	jiuk3322	COMMENT	pyol_nb-_jse8	c_2wxyx-yol_nb-_jse8	2011-08-15	알다 tagsmile

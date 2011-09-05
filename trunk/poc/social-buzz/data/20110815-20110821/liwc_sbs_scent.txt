@@ -1,4 +1,5 @@
 program_id	author_id	type	post_id	comment_id	publish_date	feature	count	word
+sbs_scent	katie_jw	POST	pym00ev-_hosa		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	katie_jw	POST	pym00ev-_hosa		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	winds0605	POST	pym02p7-5xgyg		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	winds0605	POST	pym02p7-5xgyg		2011-08-20	SMILEMARK	2.0	크 tagsmile
@@ -31,6 +32,7 @@ sbs_scent	term410	POST	pym0atc-5yk6o		2011-08-20	PRESENT	1.0	지금
 sbs_scent	term410	POST	pym0atc-5yk6o		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	adsean	POST	pym0azj-yv_g		2011-08-20	CRYMARK	1.0	tagcry
 sbs_scent	adsean	POST	pym0azj-yv_g		2011-08-20	POSITIVE	1.0	좋다
+sbs_scent	sunnys_scent	POST	pym0bso-r4ad		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	jjh5120	POST	pym0b_a-5t__h		2011-08-18	PRESENT	1.0	요즘
 sbs_scent	jjh5120	POST	pym0b_a-5t__h		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_scent	jjh5120	POST	pym0b_a-5t__h		2011-08-18	CRYMARK	1.0	tagcry
@@ -52,6 +54,8 @@ sbs_scent	harrycls9	POST	pym0j2c-c30u		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	dlgmlwn1213	POST	pym0kfc-y1oqw		2011-08-20	PRESENT	1.0	오늘
 sbs_scent	dlgmlwn1213	POST	pym0kfc-y1oqw		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	dlgmlwn1213	POST	pym0kfc-y1oqw		2011-08-20	SMILEMARK	1.0	tagsmile
+sbs_scent	jenny1005	POST	pym0ks1-1kb3		2011-08-20	QUESTIONMARK	1.0	tagquestion
+sbs_scent	jenny1005	POST	pym0ks1-1kb3		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	minjeong906	POST	pym0mij-_a388		2011-08-20	PRESENT	1.0	이제
 sbs_scent	minjeong906	POST	pym0mij-_a388		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	snowgirl1112	POST	pym0mjy-ys6jf		2011-08-20	CONJUNCTION	1.0	그리고
@@ -73,6 +77,7 @@ sbs_scent	ksoom	POST	pym0s6m-vtis		2011-08-20	NEGATIVE	1.0	싫다
 sbs_scent	ksoom	POST	pym0s6m-vtis		2011-08-20	SEE	1.0	보다
 sbs_scent	oops	POST	pym0s9e-p8		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	yaong0203	POST	pym0sdl-ylsd7		2011-08-19	PRESENT	1.0	요즘
+sbs_scent	yaong0203	POST	pym0sdl-ylsd7		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_scent	yaong0203	POST	pym0sdl-ylsd7		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	yaong0203	POST	pym0sdl-ylsd7		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_scent	lyl980508	POST	pym0smk-yjnqy		2011-08-20	EXCLAMMARK	1.0	tagexclamation
@@ -97,16 +102,19 @@ sbs_scent	haruzzang-	POST	pym0v00-5s9gd		2011-08-19	POSITIVE	2.0	기쁘다 웃�
 sbs_scent	haruzzang-	POST	pym0v00-5s9gd		2011-08-19	SADNESS	2.0	슬프다 우울
 sbs_scent	haruzzang-	POST	pym0v00-5s9gd		2011-08-19	SEE	1.0	보다
 sbs_scent	haruzzang-	POST	pym0v00-5s9gd		2011-08-19	HEAR	1.0	듣다
+sbs_scent	hasfor	POST	pym0v6f-_ap81		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	hasfor	POST	pym0v6f-_ap81		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	hasfor	POST	pym0v6f-_ap81		2011-08-20	LOVEMARK	1.0	taglove
 sbs_scent	ocean0220	POST	pym0vtw-yngx		2011-08-19	PRESENT	1.0	지금
 sbs_scent	ocean0220	POST	pym0vtw-yngx		2011-08-19	CRYMARK	1.0	tagcry
 sbs_scent	skwlgusskql	POST	pym0yx8-uvqq		2011-08-18	LOVEMARK	1.0	taglove
 sbs_scent	skwlgusskql	POST	pym0yx8-uvqq		2011-08-18	POSITIVE	1.0	좋다
+sbs_scent	hebe2	POST	pym0z29-5_qrf		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_scent	hebe2	POST	pym0z29-5_qrf		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_scent	hebe2	POST	pym0z29-5_qrf		2011-08-18	POSITIVE	2.0	멋지다 좋다
 sbs_scent	hebe2	POST	pym0z29-5_qrf		2011-08-18	ANGER	1.0	미치다
 sbs_scent	hebe2	POST	pym0z29-5_qrf		2011-08-18	SADNESS	1.0	아프
+sbs_scent	hebe2	POST	pym0z29-5_qrf		2011-08-18	SEE	1.0	보다
 sbs_scent	leehyewon26	POST	pym0z2_-5nbpm		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	leehyewon26	POST	pym0z2_-5nbpm		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	bingbing6	POST	pym0zen-6eyu		2011-08-20	CRYMARK	1.0	tagcry
@@ -121,6 +129,7 @@ sbs_scent	jjulim2001	POST	pym11um-yjuht		2011-08-20	EXCLAMMARK	1.0	tagexclamatio
 sbs_scent	jjulim2001	POST	pym11um-yjuht		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	jjulim2001	POST	pym11um-yjuht		2011-08-20	CRYMARK	1.0	tagcry
 sbs_scent	fbgusdnr2	POST	pym1234-_i7st		2011-08-20	EXCLAMMARK	1.0	tagexclamation
+sbs_scent	sea9919	POST	pym128f-_sgm_		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	sea9919	POST	pym128f-_sgm_		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	sea9919	POST	pym128f-_sgm_		2011-08-20	CRYMARK	1.0	tagcry
 sbs_scent	jskim414	POST	pym12d1-5b_gq		2011-08-20	SMILEMARK	1.0	tagsmile
@@ -131,6 +140,7 @@ sbs_scent	lee024808	POST	pym12vm-yw0_w		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	lee024808	POST	pym12vm-yw0_w		2011-08-20	CRYMARK	1.0	tagcry
 sbs_scent	coro33	POST	pym12y0-_pdyj		2011-08-20	QUANTIFIER	1.0	조금
 sbs_scent	coro33	POST	pym12y0-_pdyj		2011-08-20	EXCLAMMARK	1.0	tagexclamation
+sbs_scent	coro33	POST	pym12y0-_pdyj		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	coro33	POST	pym12y0-_pdyj		2011-08-20	POSITIVE	2.0	좋아하다 부럽다
 sbs_scent	e_b0117	POST	pym14js-_si2k		2011-08-20	QUANTIFIER	1.0	너무
 sbs_scent	e_b0117	POST	pym14js-_si2k		2011-08-20	SMILEMARK	1.0	tagsmile
@@ -145,6 +155,7 @@ sbs_scent	lhg0824	POST	pym17ku-_a0wv		2011-08-20	QUANTIFIER	1.0	아주
 sbs_scent	lhg0824	POST	pym17ku-_a0wv		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	lhg0824	POST	pym17ku-_a0wv		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	lhg0824	POST	pym17ku-_a0wv		2011-08-20	SEE	1.0	보다
+sbs_scent	eun1907	POST	pym17vg-y72pq		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	eun1907	POST	pym17vg-y72pq		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	eun1907	POST	pym17vg-y72pq		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	eun1907	POST	pym17vg-y72pq		2011-08-20	SEE	1.0	보다
@@ -152,9 +163,11 @@ sbs_scent	13_ing	POST	pym188d-_p142		2011-08-20	PRESENT	2.0	오늘 이제
 sbs_scent	13_ing	POST	pym188d-_p142		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	chawoo112	POST	pym18wu-_i2k5		2011-08-20	POSITIVE	1.0	좋다
 sbs_scent	chawoo112	POST	pym18wu-_i2k5		2011-08-20	SEE	1.0	보다
+sbs_scent	khs738899	POST	pym1ai1-_ayc6		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	khs738899	POST	pym1ai1-_ayc6		2011-08-20	LOVEMARK	1.0	taglove
 sbs_scent	khs738899	POST	pym1ai1-_ayc6		2011-08-20	POSITIVE	1.0	행복
 sbs_scent	wkyung91	POST	pym1c8s-ym_qy		2011-08-20	PRESENT	1.0	오늘
+sbs_scent	wkyung91	POST	pym1c8s-ym_qy		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	wkyung91	POST	pym1c8s-ym_qy		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	wkyung91	POST	pym1c8s-ym_qy		2011-08-20	CRYMARK	1.0	tagcry
 sbs_scent	sos3549	POST	pym1cw6-_ak4i		2011-08-20	PRESENT	1.0	오늘
@@ -169,6 +182,7 @@ sbs_scent	bakabaka	POST	pym1ij7-agkt		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	bakabaka	POST	pym1ij7-agkt		2011-08-20	LOVEMARK	1.0	taglove
 sbs_scent	sunnys_scent	POST	pym1iqv-ysusa		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	zzuni23	POST	pym1ixb-_hlr3		2011-08-20	PRESENT	2.0	이제 오늘
+sbs_scent	zzuni23	POST	pym1ixb-_hlr3		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	zzuni23	POST	pym1ixb-_hlr3		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	sad0326	POST	pym1i_r-yd2dr		2011-08-20	PRESENT	1.0	지금
 sbs_scent	sad0326	POST	pym1i_r-yd2dr		2011-08-20	EXCLAMMARK	1.0	tagexclamation
@@ -188,6 +202,7 @@ sbs_scent	dus9804	POST	pym1l6w-y9tz5		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	dus9804	POST	pym1l6w-y9tz5		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	dus9804	POST	pym1l6w-y9tz5		2011-08-20	SEE	1.0	보다
 sbs_scent	llskylierll	POST	pym1lj8-53imb		2011-08-20	EXCLAMMARK	1.0	tagexclamation
+sbs_scent	jisiklog	POST	pym1lql-_rcxy		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	ji__0310	POST	pym1l_g-5qy_g		2011-08-20	PRESENT	1.0	지금
 sbs_scent	ji__0310	POST	pym1l_g-5qy_g		2011-08-20	CRYMARK	1.0	tagcry
 sbs_scent	ji__0310	POST	pym1l_g-5qy_g		2011-08-20	SEE	1.0	보다
@@ -210,6 +225,7 @@ sbs_scent	leehk2007	POST	pym1sgx-m6yy		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	lgw7610	POST	pym1sh0-5aqvx		2011-08-20	PRESENT	1.0	요즘
 sbs_scent	lgw7610	POST	pym1sh0-5aqvx		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	nolee6154	POST	pym1swz-5uy3x		2011-08-20	PRESENT	1.0	이제
+sbs_scent	nolee6154	POST	pym1swz-5uy3x		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	nolee6154	POST	pym1swz-5uy3x		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	se01022	POST	pym1t60-_a_eh		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	se01022	POST	pym1t60-_a_eh		2011-08-20	SMILEMARK	1.0	tagsmile
@@ -230,9 +246,11 @@ sbs_scent	loveyys96	POST	pym1x78-glrm		2011-08-20	CRYMARK	1.0	tagcry
 sbs_scent	dudwn0524	POST	pym1xau-ys7d1		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	jyg953	POST	pym1xgn-x3gl		2011-08-20	PRESENT	1.0	오늘
 sbs_scent	jyg953	POST	pym1xgn-x3gl		2011-08-20	POSITIVE	1.0	부럽다
+sbs_scent	ocncos12	POST	pym1xj1-yjiig		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	ocncos12	POST	pym1xj1-yjiig		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	ocncos12	POST	pym1xj1-yjiig		2011-08-20	LOVEMARK	1.0	taglove
 sbs_scent	2mseon	POST	pym1xn4-_sw6z		2011-08-20	QUANTIFIER	1.0	조금
+sbs_scent	2mseon	POST	pym1xn4-_sw6z		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	2mseon	POST	pym1xn4-_sw6z		2011-08-20	CRYMARK	1.0	tagcry
 sbs_scent	2mseon	POST	pym1xn4-_sw6z		2011-08-20	NEGATIVE	1.0	속상
 sbs_scent	2mseon	POST	pym1xn4-_sw6z		2011-08-20	ANGER	1.0	속상
@@ -252,6 +270,8 @@ sbs_scent	actor_wook	POST	pym1_xe-5j_cv		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	preriya1	POST	pym3117-y8sgi		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	happyitem	POST	pym34lv-_csf1		2011-08-20	PRESENT	1.0	오늘
 sbs_scent	happyitem	POST	pym34lv-_csf1		2011-08-20	LOVEMARK	1.0	taglove
+sbs_scent	eksskrha12	POST	pym355g-_i7on		2011-08-18	QUESTIONMARK	1.0	tagquestion
+sbs_scent	wjdgk1114	POST	pym3851-ium3		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_scent	wjdgk1114	POST	pym3851-ium3		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_scent	wjdgk1114	POST	pym3851-ium3		2011-08-18	LOVEMARK	1.0	taglove
 sbs_scent	wjdgk1114	POST	pym3851-ium3		2011-08-18	POSITIVE	1.0	멋지다
@@ -265,7 +285,6 @@ sbs_scent	happyitem	POST	pym3ctl-_csf1		2011-08-20	LOVEMARK	1.0	taglove
 sbs_scent	with_outlove	POST	pym3dj4-yc6jp		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	godzero	POST	pym3ew0-um6u		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	mople	POST	pym3mo_-ybyr8		2011-08-20	PRESENT	1.0	오늘
-sbs_scent	mople	POST	pym3mo_-ybyr8		2011-08-20	SEE	1.0	보다
 sbs_scent	najulady	POST	pym3pu3-_sr2b		2011-08-20	PRESENT	1.0	오늘
 sbs_scent	najulady	POST	pym3pu3-_sr2b		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	najulady	POST	pym3pu3-_sr2b		2011-08-20	SMILEMARK	1.0	tagsmile
@@ -278,6 +297,7 @@ sbs_scent	interior03	POST	pym3tw2-_hpeo		2011-08-20	LOVEMARK	1.0	taglove
 sbs_scent	iwish_a	POST	pym3ugz-59cm9		2011-08-18	LOVEMARK	1.0	taglove
 sbs_scent	iwish_a	POST	pym3ugz-59cm9		2011-08-18	POSITIVE	1.0	좋다
 sbs_scent	gooseoll	POST	pym3umk-lwwe		2011-08-20	PRESENT	1.0	지금
+sbs_scent	gooseoll	POST	pym3umk-lwwe		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	zeihu	POST	pym3vbv-5nr_d		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	zeihu	POST	pym3vbv-5nr_d		2011-08-19	LOVEMARK	1.0	taglove
 sbs_scent	wjdeh197	POST	pym3vi9-5eyt6		2011-08-20	PRESENT	1.0	오늘
@@ -297,15 +317,19 @@ sbs_scent	wil666	POST	pym5fqd-5anjd		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_scent	wil666	POST	pym5fqd-5anjd		2011-08-19	POSITIVE	1.0	멋지다
 sbs_scent	jude1210	POST	pym5ge4-56p9j		2011-08-18	PRESENT	1.0	오늘
 sbs_scent	jude1210	POST	pym5ge4-56p9j		2011-08-18	QUANTIFIER	1.0	아주
+sbs_scent	jude1210	POST	pym5ge4-56p9j		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_scent	jude1210	POST	pym5ge4-56p9j		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_scent	jude1210	POST	pym5ge4-56p9j		2011-08-18	CRYMARK	1.0	tagcry
 sbs_scent	dhxofla	POST	pym5nps-yzk0x		2011-08-19	EXCLAMMARK	1.0	tagexclamation
+sbs_scent	cookie906	POST	pym5o8z-5o9s3		2011-08-16	QUESTIONMARK	1.0	tagquestion
 sbs_scent	cookie906	POST	pym5o8z-5o9s3		2011-08-16	SMILEMARK	1.0	tagsmile
 sbs_scent	hoo9803	POST	pym5pn9-5j31p		2011-08-16	PRESENT	2.0	오늘 현재
 sbs_scent	hoo9803	POST	pym5pn9-5j31p		2011-08-16	QUESTIONMARK	1.0	tagquestion
 sbs_scent	hoo9803	POST	pym5pn9-5j31p		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	hoo9803	POST	pym5pn9-5j31p		2011-08-16	SMILEMARK	1.0	tagsmile
 sbs_scent	hoo9803	POST	pym5pn9-5j31p		2011-08-16	POSITIVE	1.0	사랑하
+sbs_scent	sun980601	POST	pym5q4h-14is		2011-08-18	SMILEMARK	1.0	tagsmile
+sbs_scent	sun980601	POST	pym5q4h-14is		2011-08-18	SEE	1.0	보다
 sbs_scent	sunnybunnybo	POST	pym5t1l-_b57b		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	sunnybunnybo	POST	pym5t1l-_b57b		2011-08-16	LOVEMARK	1.0	taglove
 sbs_scent	sunnybunnybo	POST	pym5t1l-_b57b		2011-08-16	ANXIETY	1.0	무서
@@ -314,6 +338,7 @@ sbs_scent	shj980306	POST	pym5zn0-56nj1		2011-08-16	SMILEMARK	1.0	tagsmile
 sbs_scent	jessie3969	POST	pym62vx-ypsk		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_scent	jessie3969	POST	pym62vx-ypsk		2011-08-17	SEE	1.0	보다
 sbs_scent	flalghk1	POST	pym67_d-_egx5		2011-08-19	EXCLAMMARK	1.0	tagexclamation
+sbs_scent	flalghk1	POST	pym67_d-_egx5		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_scent	flalghk1	POST	pym67_d-_egx5		2011-08-19	POSITIVE	1.0	멋지다
 sbs_scent	hyunhee-__-	POST	pym6a5e-_abv4		2011-08-20	PRESENT	1.0	오늘
 sbs_scent	hyunhee-__-	POST	pym6a5e-_abv4		2011-08-20	EXCLAMMARK	1.0	tagexclamation
@@ -326,8 +351,10 @@ sbs_scent	fate_destiny	POST	pym6cl1-qiti		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_scent	kyn06165	POST	pym6jrv-_q3r6		2011-08-20	PRESENT	1.0	오늘
 sbs_scent	kyn06165	POST	pym6jrv-_q3r6		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	cutehs0105	POST	pym6lca-_s9ub		2011-08-19	FUTURE	1.0	내일
+sbs_scent	cutehs0105	POST	pym6lca-_s9ub		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_scent	cutehs0105	POST	pym6lca-_s9ub		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	cutehs0105	POST	pym6lca-_s9ub		2011-08-19	LOVEMARK	1.0	taglove
+sbs_scent	djh798	POST	pym6n1b-_8apm		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_scent	djh798	POST	pym6n1b-_8apm		2011-08-17	SEE	1.0	보다
 sbs_scent	forest4477	POST	pym6pm3-_ae8p		2011-08-20	POSITIVE	1.0	행복
 sbs_scent	forest4477	POST	pym6pm3-_ae8p		2011-08-20	SEE	1.0	보다
@@ -348,10 +375,11 @@ sbs_scent	bycbbb	POST	pym6s2y-x498		2011-08-20	SEE	1.0	보다
 sbs_scent	uzin0112	POST	pym6s_d-qpzl		2011-08-20	PRESENT	1.0	지금
 sbs_scent	uzin0112	POST	pym6s_d-qpzl		2011-08-20	CRYMARK	1.0	tagcry
 sbs_scent	uzin0112	POST	pym6s_d-qpzl		2011-08-20	POSITIVE	1.0	보고싶다
+sbs_scent	yama1417	POST	pym6tmj-5_k6g		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	yama1417	POST	pym6tmj-5_k6g		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	yama1417	POST	pym6tmj-5_k6g		2011-08-20	POSITIVE	1.0	좋아
 sbs_scent	jude1210	POST	pym6tsv-56p9j		2011-08-19	PAST	1.0	어제
-sbs_scent	jude1210	POST	pym6tsv-56p9j		2011-08-19	PRESENT	1.0	오늘
+sbs_scent	jude1210	POST	pym6tsv-56p9j		2011-08-19	PRESENT	2.0	오늘 오늘50
 sbs_scent	jude1210	POST	pym6tsv-56p9j		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_scent	rjswn3236	POST	pym6vm9-5xl5t		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	kiya1024	POST	pym6yxe-_3z4o		2011-08-20	PRESENT	1.0	오늘
@@ -372,6 +400,7 @@ sbs_scent	nmxg	POST	pym90x4-y_cgp		2011-08-20	PRESENT	1.0	오늘
 sbs_scent	bennymint	POST	pym93pb-ae52		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	bennymint	POST	pym93pb-ae52		2011-08-20	SMILEMARK	1.0	흐
 sbs_scent	bennymint	POST	pym93pb-ae52		2011-08-20	SEE	1.0	보다
+sbs_scent	tvxq-js	POST	pym94f2-_rdl6		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	tvxq-js	POST	pym94f2-_rdl6		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	tvxq-js	POST	pym94f2-_rdl6		2011-08-20	CRYMARK	1.0	tagcry
 sbs_scent	tvxq-js	POST	pym94f2-_rdl6		2011-08-20	LOVEMARK	1.0	taglove
@@ -384,12 +413,16 @@ sbs_scent	laren10	POST	pym97we-55soa		2011-08-20	SEE	1.0	보다
 sbs_scent	aprilonline	POST	pym98cg-m2j		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	xia17	POST	pym9apq-5p1vs		2011-08-20	PRESENT	1.0	지금
 sbs_scent	xia17	POST	pym9apq-5p1vs		2011-08-20	SMILEMARK	1.0	tagsmile
+sbs_scent	jisiklog	POST	pym9d1v-_rcxy		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	jisiklog	POST	pym9d1v-_rcxy		2011-08-20	SADNESS	1.0	아프
 sbs_scent	j_clematis	POST	pym9d3y-yf6p5		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	j_clematis	POST	pym9d3y-yf6p5		2011-08-20	CRYMARK	1.0	tagcry
+sbs_scent	jisiklog	POST	pym9dbj-_rcxy		2011-08-20	QUESTIONMARK	1.0	tagquestion
+sbs_scent	jisiklog	POST	pym9dez-_rcxy		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	jisiklog	POST	pym9djz-_rcxy		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	bjh9820	POST	pym9dqp-yxeek		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	bjh9820	POST	pym9dqp-yxeek		2011-08-20	POSITIVE	1.0	멋지다
+sbs_scent	jisiklog	POST	pym9drc-_rcxy		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	sunyoung8593	POST	pym9ejm-_929h		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	actor_wook	POST	pym9evo-_q6gy		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	actor_wook	POST	pym9evo-_q6gy		2011-08-20	NEGATIVE	1.0	싫다
@@ -422,6 +455,7 @@ sbs_scent	dog208903	POST	pym9yg6-y13bt		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	dog208903	POST	pym9yg6-y13bt		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	9004stella	POST	pym9yge-_c5u0		2011-08-20	SMILEMARK	1.0	흐흐흐
 sbs_scent	vkqzhs1004	POST	pym9ymj-__jei		2011-08-20	PRESENT	2.0	오늘 지금
+sbs_scent	vkqzhs1004	POST	pym9ymj-__jei		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	vkqzhs1004	POST	pym9ymj-__jei		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	vkqzhs1004	POST	pym9ymj-__jei		2011-08-20	SEE	1.0	보다
 sbs_scent	gamin1413	POST	pym9yn2-su__		2011-08-20	EXCLAMMARK	1.0	tagexclamation
@@ -430,15 +464,19 @@ sbs_scent	iwish_a	POST	pym9_sd-59cm9		2011-08-20	LOVEMARK	1.0	taglove
 sbs_scent	iwish_a	POST	pym9_sd-59cm9		2011-08-20	POSITIVE	1.0	좋다
 sbs_scent	melon_dj	POST	pymb0b4-g3qo		2011-08-19	PRESENT	1.0	오늘
 sbs_scent	melon_dj	POST	pymb0b4-g3qo		2011-08-19	EXCLAMMARK	1.0	tagexclamation
+sbs_scent	rlaalwls753	POST	pymb47e-ry75		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	rlaalwls753	POST	pymb47e-ry75		2011-08-20	CRYMARK	1.0	tagcry
+sbs_scent	skylife0814	POST	pymb4t8-y0x65		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	skylife0814	POST	pymb4t8-y0x65		2011-08-20	POSITIVE	1.0	사랑하
 sbs_scent	ksupia75	POST	pymb4u0-_w_lp		2011-08-20	PRESENT	1.0	요즘
+sbs_scent	ksupia75	POST	pymb4u0-_w_lp		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	ksupia75	POST	pymb4u0-_w_lp		2011-08-20	SEE	1.0	보다
 sbs_scent	yoojungnam	POST	pymbb8i-yrg0u		2011-08-20	CRYMARK	1.0	tagcry
 sbs_scent	yoojungnam	POST	pymbb8i-yrg0u		2011-08-20	SEE	1.0	보다
 sbs_scent	yoojungnam	POST	pymbbfv-yrg0u		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	yoojungnam	POST	pymbbfv-yrg0u		2011-08-20	POSITIVE	1.0	좋다
 sbs_scent	standingegg	POST	pymbdfi-2vjf		2011-08-19	FUTURE	1.0	내일
+sbs_scent	standingegg	POST	pymbdfi-2vjf		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_scent	standingegg	POST	pymbdfi-2vjf		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	standingegg	POST	pymbdfi-2vjf		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_scent	dhdp97	POST	pymblps-f38k		2011-08-19	CRYMARK	1.0	tagcry
@@ -450,6 +488,7 @@ sbs_scent	skesw	POST	pymbuvb-ydrew		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_scent	skesw	POST	pymbuvb-ydrew		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	skesw	POST	pymbuvb-ydrew		2011-08-19	CRYMARK	1.0	tagcry
 sbs_scent	skesw	POST	pymbuvb-ydrew		2011-08-19	POSITIVE	1.0	웃다
+sbs_scent	jisiklog	POST	pymbxi_-_rcxy		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	twinkleim	POST	pymbyaw-56ww4		2011-08-19	PRESENT	1.0	요즘
 sbs_scent	twinkleim	POST	pymbyaw-56ww4		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	twinkleim	POST	pymbyaw-56ww4		2011-08-19	POSITIVE	1.0	좋다
@@ -457,15 +496,18 @@ sbs_scent	yejin1952	POST	pymb_hv-_qcwk		2011-08-19	POSITIVE	2.0	웃다 행복
 sbs_scent	0826yujin	POST	pymd1dt-eq5m		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_scent	0826yujin	POST	pymd1dt-eq5m		2011-08-17	POSITIVE	1.0	행복
 sbs_scent	cj_tving	POST	pymd3ir-_fpc0		2011-08-17	PRESENT	2.0	요즘 지금
+sbs_scent	cj_tving	POST	pymd3ir-_fpc0		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_scent	cj_tving	POST	pymd3ir-_fpc0		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	is05037	POST	pymd95r-yayee		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_scent	is05037	POST	pymd95r-yayee		2011-08-15	SEE	1.0	보다
 sbs_scent	templestay	POST	pymdan3-ia0f		2011-08-17	PRESENT	1.0	요즘
+sbs_scent	templestay	POST	pymdan3-ia0f		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_scent	templestay	POST	pymdan3-ia0f		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	templestay	POST	pymdan3-ia0f		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_scent	adelaid00	POST	pymdbpu-bu2f		2011-08-15	QUANTIFIER	1.0	너무
 sbs_scent	adelaid00	POST	pymdbpu-bu2f		2011-08-15	CRYMARK	1.0	tagcry
 sbs_scent	bartalgus	POST	pymde3t-yh7r5		2011-08-15	PRESENT	1.0	오늘
+sbs_scent	bartalgus	POST	pymde3t-yh7r5		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_scent	bartalgus	POST	pymde3t-yh7r5		2011-08-15	POSITIVE	1.0	행복
 sbs_scent	dnjswldnro	POST	pymdhtx-yign7		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_scent	dnjswldnro	POST	pymdhtx-yign7		2011-08-15	SEE	1.0	보다
@@ -473,14 +515,16 @@ sbs_scent	heesunkim99	POST	pymdjly-xpt2		2011-08-15	PRESENT	1.0	오늘
 sbs_scent	heesunkim99	POST	pymdjly-xpt2		2011-08-15	FUTURE	1.0	내일
 sbs_scent	heesunkim99	POST	pymdjly-xpt2		2011-08-15	CONJUNCTION	1.0	그리고
 sbs_scent	heesunkim99	POST	pymdjly-xpt2		2011-08-15	QUANTIFIER	2.0	많이 아주
+sbs_scent	heesunkim99	POST	pymdjly-xpt2		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_scent	heesunkim99	POST	pymdjly-xpt2		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	heesunkim99	POST	pymdjly-xpt2		2011-08-15	SMILEMARK	1.0	크
 sbs_scent	heesunkim99	POST	pymdjly-xpt2		2011-08-15	CRYMARK	1.0	흑
 sbs_scent	heesunkim99	POST	pymdjly-xpt2		2011-08-15	LOVEMARK	1.0	taglove
 sbs_scent	tetris_han	POST	pymdwhj-yw3t5		2011-08-18	PRESENT	1.0	오늘
+sbs_scent	tetris_han	POST	pymdwhj-yw3t5		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_scent	tetris_han	POST	pymdwhj-yw3t5		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	tetris_han	POST	pymdwhj-yw3t5		2011-08-18	LOVEMARK	1.0	taglove
-sbs_scent	tetris_han	POST	pymdwhj-yw3t5		2011-08-18	POSITIVE	1.0	좋아
+sbs_scent	tetris_han	POST	pymdwhj-yw3t5		2011-08-18	POSITIVE	2.0	좋아하다 좋아
 sbs_scent	tetris_han	POST	pymdwhj-yw3t5		2011-08-18	SADNESS	1.0	외롭다
 sbs_scent	ppokkiya	POST	pymdy_0-5z2_6		2011-08-15	QUANTIFIER	1.0	너무
 sbs_scent	leehk2007	POST	pyme3xu-m6yy		2011-08-19	EXCLAMMARK	1.0	tagexclamation
@@ -491,6 +535,7 @@ sbs_scent	me2times	POST	pymeb96-36wn		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	me2times	POST	pymeb96-36wn		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_scent	comagoekf	POST	pymedge-8r5s		2011-08-18	POSITIVE	1.0	행복
 sbs_scent	kccto	POST	pymehpl-s5z0		2011-08-19	PRESENT	1.0	지금
+sbs_scent	kccto	POST	pymehpl-s5z0		2011-08-19	QUESTIONMARK	1.0	tagquestion
 sbs_scent	kccto	POST	pymehpl-s5z0		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	old33	POST	pymeikg-ye7rv		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	old33	POST	pymeikg-ye7rv		2011-08-19	SMILEMARK	2.0	tagsmile 크
@@ -499,6 +544,7 @@ sbs_scent	19780407	POST	pymejff-_s2ge		2011-08-19	LOVEMARK	1.0	taglove
 sbs_scent	sklk2002	POST	pymerzd-_y3n5		2011-08-19	SMILEMARK	2.0	tagsmile 흐
 sbs_scent	yejin98love	POST	pyme_e7-_s7ta		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_scent	486kba79	POST	pymj006-y97a6		2011-08-20	PRESENT	1.0	요즘
+sbs_scent	486kba79	POST	pymj006-y97a6		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	486kba79	POST	pymj006-y97a6		2011-08-20	LOVEMARK	1.0	taglove
 sbs_scent	486kba79	POST	pymj006-y97a6		2011-08-20	SEE	1.0	보다
 sbs_scent	mintroxy	POST	pymj02m-_hzc6		2011-08-20	LOVEMARK	1.0	taglove
@@ -507,9 +553,11 @@ sbs_scent	actor_wook	POST	pymj03z-_q1eq		2011-08-20	EXCLAMMARK	1.0	tagexclamatio
 sbs_scent	actor_wook	POST	pymj03z-_q1eq		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	actor_wook	POST	pymj03z-_q1eq		2011-08-20	CRYMARK	1.0	tagcry
 sbs_scent	actor_wook	POST	pymj03z-_q1eq		2011-08-20	POSITIVE	2.0	좋다 멋지다
+sbs_scent	sklk2002	POST	pymj0rn-_y3n5		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	sklk2002	POST	pymj0rn-_y3n5		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	mintroxy	POST	pymj0zs-_hzc6		2011-08-20	LOVEMARK	1.0	taglove
 sbs_scent	24002714	POST	pymj33i-_h722		2011-08-20	PRESENT	1.0	오늘
+sbs_scent	24002714	POST	pymj33i-_h722		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	24002714	POST	pymj33i-_h722		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	24002714	POST	pymj33i-_h722		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	24002714	POST	pymj33i-_h722		2011-08-20	CRYMARK	1.0	tagcry
@@ -518,6 +566,7 @@ sbs_scent	sunnys_scent	POST	pymj38l-_a_iu		2011-08-20	QUANTIFIER	1.0	너무
 sbs_scent	sunnys_scent	POST	pymj38l-_a_iu		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	sunnys_scent	POST	pymj38l-_a_iu		2011-08-20	POSITIVE	1.0	멋지다
 sbs_scent	hyunnyhommy	POST	pymj3a0-_si78		2011-08-20	PRESENT	1.0	지금
+sbs_scent	hyunnyhommy	POST	pymj3a0-_si78		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	hyunnyhommy	POST	pymj3a0-_si78		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	hyunnyhommy	POST	pymj3a0-_si78		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	hyunnyhommy	POST	pymj3a0-_si78		2011-08-20	LOVEMARK	1.0	taglove
@@ -568,13 +617,17 @@ sbs_scent	xain	POST	pymj_ng-59s		2011-08-20	ANXIETY	1.0	걱정
 sbs_scent	nana0777	POST	pymj_yo-lihh		2011-08-20	SMILEMARK	1.0	크
 sbs_scent	kso1078	POST	pymk08j-w27p		2011-08-17	NEGATIVE	1.0	후회
 sbs_scent	kso1078	POST	pymk0pi-w27p		2011-08-17	POSITIVE	2.0	사랑하 웃기다
+sbs_scent	jiwon008	POST	pymk16u-a1mt		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_scent	jiwon008	POST	pymk16u-a1mt		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_scent	jiwon008	POST	pymk16u-a1mt		2011-08-17	CRYMARK	1.0	tagcry
 sbs_scent	jekyll444	POST	pymk1cp-9701		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	jekyll444	POST	pymk1wq-9701		2011-08-20	QUANTIFIER	1.0	아주
+sbs_scent	jekyll444	POST	pymk1wq-9701		2011-08-20	QUESTIONMARK	1.0	tagquestion
+sbs_scent	jekyll444	POST	pymk1wq-9701		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	-_-akkk	POST	pymk8i8-yws3n		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	-_-akkk	POST	pymk8i8-yws3n		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	leila82	POST	pymk8oe-_sb3c		2011-08-20	EXCLAMMARK	1.0	tagexclamation
+sbs_scent	mokachin	POST	pymk8xo-_o84q		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	mokachin	POST	pymk8xo-_o84q		2011-08-20	SMILEMARK	1.0	흐흐
 sbs_scent	wkyung91	POST	pymkal6-ym_qy		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	wkyung91	POST	pymkal6-ym_qy		2011-08-18	SMILEMARK	1.0	tagsmile
@@ -595,6 +648,7 @@ sbs_scent	yongkuk3584	POST	pymkd6i-_ftak		2011-08-18	POSITIVE	1.0	좋아하다
 sbs_scent	yongkuk3584	POST	pymkd6i-_ftak		2011-08-18	SADNESS	1.0	우울
 sbs_scent	yongkuk3584	POST	pymkd6i-_ftak		2011-08-18	SEE	1.0	보다
 sbs_scent	khg05321	POST	pymkeaz-gb59		2011-08-20	EXCLAMMARK	1.0	tagexclamation
+sbs_scent	-_-akkk	POST	pymkf1v-yws3n		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	-_-akkk	POST	pymkf1v-yws3n		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	-_-akkk	POST	pymkf1v-yws3n		2011-08-20	CRYMARK	1.0	tagcry
 sbs_scent	wyoung_lee	POST	pymkfao-91y5		2011-08-20	SMILEMARK	1.0	tagsmile
@@ -622,9 +676,12 @@ sbs_scent	suhyeon1196	POST	pymko6c-_ak9d		2011-08-19	LOVEMARK	1.0	taglove
 sbs_scent	suhyeon1196	POST	pymko6c-_ak9d		2011-08-19	POSITIVE	1.0	멋지다
 sbs_scent	suhyeon1196	POST	pymko6c-_ak9d		2011-08-19	SEE	1.0	보다
 sbs_scent	dlgusrn0204	POST	pymko6w-55xg0		2011-08-20	SMILEMARK	1.0	tagsmile
+sbs_scent	snow8275	POST	pymkobr-_ft6x		2011-08-20	SMILEMARK	1.0	tagsmile
+sbs_scent	blueforward	POST	pymkoi_-5wx4s		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	han_mio	POST	pymkopk-59i37		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	deaegi	POST	pymkp4l-2vxt		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	deaegi	POST	pymkp4l-2vxt		2011-08-20	SMILEMARK	1.0	크
+sbs_scent	nrj1540	POST	pymkqif-yrp11		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	nrj1540	POST	pymkqif-yrp11		2011-08-20	POSITIVE	1.0	재미있
 sbs_scent	phe122	POST	pymkrcq-_ci8m		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	ouxuo1004	POST	pymkrkk-5bzsm		2011-08-20	PRESENT	1.0	오늘
@@ -655,6 +712,7 @@ sbs_scent	my1079	POST	pymy1mz-_sood		2011-08-16	LOVEMARK	1.0	taglove
 sbs_scent	my1079	POST	pymy1mz-_sood		2011-08-16	POSITIVE	1.0	좋아하다
 sbs_scent	lmcjkwk	POST	pymy3sa-_rqvk		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	wing4u	POST	pymy3w7-16s0		2011-08-15	PRESENT	1.0	요즘
+sbs_scent	wing4u	POST	pymy3w7-16s0		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_scent	wing4u	POST	pymy3w7-16s0		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_scent	wing4u	POST	pymy3w7-16s0		2011-08-15	SEE	1.0	보다
 sbs_scent	saenafraise	POST	pymy3ye-_osit		2011-08-15	EXCLAMMARK	1.0	tagexclamation
@@ -665,6 +723,8 @@ sbs_scent	tjfwls96	POST	pymy9h_-y1vph		2011-08-18	POSITIVE	1.0	좋아하다
 sbs_scent	wkyung91	POST	pymydfy-ym_qy		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	wkyung91	POST	pymydfy-ym_qy		2011-08-16	SMILEMARK	1.0	tagsmile
 sbs_scent	wkyung91	POST	pymydfy-ym_qy		2011-08-16	LOVEMARK	1.0	taglove
+sbs_scent	pnr4134	POST	pymyj8a-ypujp		2011-08-18	QUESTIONMARK	1.0	tagquestion
+sbs_scent	chaeyeon628	POST	pymyjmo-53737		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_scent	chaeyeon628	POST	pymyjmo-53737		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	chaeyeon628	POST	pymyjmo-53737		2011-08-17	LOVEMARK	1.0	taglove
 sbs_scent	chaeyeon628	POST	pymyjmo-53737		2011-08-17	POSITIVE	1.0	재미있
@@ -678,10 +738,13 @@ sbs_scent	icarus404	POST	pymyrv3-5hzbr		2011-08-16	POSITIVE	1.0	좋아
 sbs_scent	mjgirl	POST	pymys0w-ydrcc		2011-08-16	CRYMARK	1.0	tagcry
 sbs_scent	mjgirl	POST	pymys0w-ydrcc		2011-08-16	LOVEMARK	1.0	taglove
 sbs_scent	dk41376685	POST	pymys65-_sslu		2011-08-17	SMILEMARK	1.0	tagsmile
+sbs_scent	solying	POST	pymysgt-_ynwa		2011-08-17	QUESTIONMARK	1.0	tagquestion
+sbs_scent	tnwjd8824	POST	pymywi_-_srdj		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_scent	tnwjd8824	POST	pymywi_-_srdj		2011-08-15	SMILEMARK	1.0	tagsmile
+sbs_scent	hayoun7983	POST	pymywsh-ucse		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_scent	hayoun7983	POST	pymywsh-ucse		2011-08-15	CRYMARK	1.0	tagcry
 sbs_scent	hayoun7983	POST	pymywsh-ucse		2011-08-15	LOVEMARK	1.0	taglove
-sbs_scent	hayoun7983	POST	pymywsh-ucse		2011-08-15	POSITIVE	3.0	보고싶다 사랑하 보고싶어
+sbs_scent	hayoun7983	POST	pymywsh-ucse		2011-08-15	POSITIVE	2.0	보고싶다 보고싶어
 sbs_scent	dlekdls6497	POST	pymyy9g-i1jv		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	dlekdls6497	POST	pymyy9g-i1jv		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_scent	dlekdls6497	POST	pymyy9g-i1jv		2011-08-15	LOVEMARK	1.0	taglove
@@ -718,6 +781,7 @@ sbs_scent	yan7267	POST	pym_xvr-_qlda		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_scent	injitjrbs	POST	pym_ymg-5i1gr		2011-08-17	PRESENT	1.0	요즘
 sbs_scent	injitjrbs	POST	pym_ymg-5i1gr		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	injitjrbs	POST	pym_ymg-5i1gr		2011-08-17	CRYMARK	1.0	tagcry
+sbs_scent	kangmj1209	POST	pym__l2-jk_n		2011-08-16	QUESTIONMARK	1.0	tagquestion
 sbs_scent	kangmj1209	POST	pym__l2-jk_n		2011-08-16	SMILEMARK	1.0	tagsmile
 sbs_scent	kangmj1209	POST	pym__l2-jk_n		2011-08-16	POSITIVE	1.0	행복
 sbs_scent	pink98yj	POST	pym__q8-8joa		2011-08-18	POSITIVE	1.0	좋다
@@ -734,9 +798,11 @@ sbs_scent	judy3282	POST	pyo4g3w-9i4_		2011-08-16	POSITIVE	2.0	웃다 웃기다
 sbs_scent	judy3282	POST	pyo4g3w-9i4_		2011-08-16	SEE	1.0	보다
 sbs_scent	judy3282	POST	pyo4g3w-9i4_		2011-08-16	HEAR	1.0	듣다
 sbs_scent	egothing	POST	pyo4g6p-6p05		2011-08-15	QUANTIFIER	1.0	너무
+sbs_scent	syskylook780	POST	pyo4ipk-_o2v9		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_scent	giniar	POST	pyo4j0w-2b8e		2011-08-16	POSITIVE	1.0	사랑하
 sbs_scent	calling2go	POST	pyo4l4c-__67z		2011-08-15	QUANTIFIER	1.0	조금
 sbs_scent	calling2go	POST	pyo4l4c-__67z		2011-08-15	ANXIETY	1.0	걱정
+sbs_scent	naver_news	POST	pyo4odq-y4gvz		2011-08-16	QUESTIONMARK	1.0	tagquestion
 sbs_scent	naver_news	POST	pyo4odq-y4gvz		2011-08-16	SMILEMARK	1.0	tagsmile
 sbs_scent	naver_news	POST	pyo4odq-y4gvz		2011-08-16	CRYMARK	1.0	tagcry
 sbs_scent	naver_news	POST	pyo4odq-y4gvz		2011-08-16	SADNESS	1.0	불쌍
@@ -744,22 +810,28 @@ sbs_scent	s2_eunju_s2	POST	pyo4pog-_ylgw		2011-08-16	EXCLAMMARK	1.0	tagexclamati
 sbs_scent	s2_eunju_s2	POST	pyo4pog-_ylgw		2011-08-16	CRYMARK	1.0	tagcry
 sbs_scent	s2_eunju_s2	POST	pyo4pog-_ylgw		2011-08-16	POSITIVE	1.0	좋다
 sbs_scent	s2_eunju_s2	POST	pyo4pog-_ylgw		2011-08-16	SEE	1.0	보다
+sbs_scent	vincent23	POST	pyo4qd7-1fx2		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_scent	vincent23	POST	pyo4qd7-1fx2		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	tnwlekd5	POST	pyo4stv-yxxis		2011-08-15	PRESENT	1.0	요즘
+sbs_scent	tnwlekd5	POST	pyo4stv-yxxis		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_scent	tnwlekd5	POST	pyo4stv-yxxis		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_scent	haeun802	POST	pyo4uy2-yq8wu		2011-08-16	SMILEMARK	1.0	tagsmile
 sbs_scent	boolyasikk	POST	pyo4wd1-_qpg9		2011-08-15	SMILEMARK	1.0	tagsmile
+sbs_scent	kimboyeon100	POST	pyo4xam-ypcdw		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_scent	kimboyeon100	POST	pyo4xam-ypcdw		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_scent	kimboyeon100	POST	pyo4xam-ypcdw		2011-08-15	CRYMARK	1.0	tagcry
 sbs_scent	urimson	POST	pyo70er-_k53q		2011-08-15	PAST	1.0	어제
 sbs_scent	urimson	POST	pyo70er-_k53q		2011-08-15	QUANTIFIER	1.0	너무
+sbs_scent	urimson	POST	pyo70er-_k53q		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_scent	urimson	POST	pyo70er-_k53q		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_scent	megreat	POST	pyo729x-e3fj		2011-08-15	PRESENT	1.0	요즘
 sbs_scent	megreat	POST	pyo729x-e3fj		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_scent	won-731	POST	pyo72w2-_q6dm		2011-08-15	CRYMARK	1.0	tagcry
+sbs_scent	hj7756	POST	pyo74oq-ytmrs		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_scent	hellozzgg	POST	pyo75r9-m10v		2011-08-17	PRESENT	1.0	요즘
+sbs_scent	hellozzgg	POST	pyo75r9-m10v		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_scent	hellozzgg	POST	pyo75r9-m10v		2011-08-17	CRYMARK	1.0	tagcry
-sbs_scent	hellozzgg	POST	pyo75r9-m10v		2011-08-17	POSITIVE	1.0	좋아
+sbs_scent	hellozzgg	POST	pyo75r9-m10v		2011-08-17	POSITIVE	1.0	좋다
 sbs_scent	bakabaka	POST	pyo7649-agkt		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	angelfixidea	POST	pyo76t4-goti		2011-08-17	SEE	1.0	보다
 sbs_scent	angelfixidea	POST	pyo76t4-goti		2011-08-17	HEAR	1.0	느끼다
@@ -767,6 +839,7 @@ sbs_scent	syl3145	POST	pyo77a7-55q6		2011-08-15	SMILEMARK	1.0	크
 sbs_scent	syl3145	POST	pyo77a7-55q6		2011-08-15	CRYMARK	1.0	tagcry
 sbs_scent	hohomei	POST	pyo77ej-_hupl		2011-08-15	CRYMARK	1.0	tagcry
 sbs_scent	sunnys_scent	POST	pyo7ab8-y06kr		2011-08-15	FUTURE	1.0	미래
+sbs_scent	sunnys_scent	POST	pyo7ab8-y06kr		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_scent	sunnys_scent	POST	pyo7ab8-y06kr		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	sunnys_scent	POST	pyo7ab8-y06kr		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_scent	shela	POST	pyo7a_3-vsph		2011-08-15	PRESENT	1.0	지금
@@ -784,10 +857,11 @@ sbs_scent	wjdwlals0204	POST	pyo7qxg-yao0o		2011-08-15	LOVEMARK	1.0	taglove
 sbs_scent	skdud3377	POST	pyo7u6z-or0_		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	skdud3377	POST	pyo7u6z-or0_		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_scent	skdud3377	POST	pyo7u6z-or0_		2011-08-17	POSITIVE	1.0	좋다
-sbs_scent	4561908	POST	pyo7ydi-5bmqm		2011-08-16	SMILEMARK	1.0	흐
+sbs_scent	4561908	POST	pyo7ydi-5bmqm		2011-08-16	SMILEMARK	2.0	tagsmile 흐
 sbs_scent	4561908	POST	pyo7ydi-5bmqm		2011-08-16	POSITIVE	1.0	좋아
 sbs_scent	4561908	POST	pyo7ydi-5bmqm		2011-08-16	SEE	1.0	보다
 sbs_scent	thehei	POST	pyo7zbl-8w0t		2011-08-15	PRESENT	1.0	이제
+sbs_scent	thehei	POST	pyo7zbl-8w0t		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_scent	djendnstkghl	POST	pyo7ztq-ekwc		2011-08-15	POSITIVE	1.0	좋다
 sbs_scent	hong2600	POST	pyol31e-k3cn		2011-08-15	POSITIVE	1.0	좋아하다
 sbs_scent	ttibirr	POST	pyol56j-te5u		2011-08-15	SMILEMARK	1.0	tagsmile
@@ -812,14 +886,17 @@ sbs_scent	3594957	POST	pyon67l-_sbkb		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_scent	3594957	POST	pyon67l-_sbkb		2011-08-15	CRYMARK	1.0	tagcry
 sbs_scent	whdudghk87	POST	pyon6c6-_e2xh		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_scent	whdudghk87	POST	pyon6c6-_e2xh		2011-08-15	LOVEMARK	1.0	taglove
+sbs_scent	tae6666	POST	pyon825-5cdf0		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_scent	hunkyu77	POST	pyonc0k-rrje		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_scent	hunkyu77	POST	pyonc0k-rrje		2011-08-15	SADNESS	1.0	아프
 sbs_scent	hunkyu77	POST	pyonc0k-rrje		2011-08-15	SEE	1.0	보다
 sbs_scent	hhl704	POST	pyonje7-_t1xi		2011-08-15	PRESENT	1.0	오늘
 sbs_scent	hotyoung05	POST	pyonj_l-aqkn		2011-08-15	CRYMARK	1.0	tagcry
 sbs_scent	hotyoung05	POST	pyonj_l-aqkn		2011-08-15	LOVEMARK	1.0	taglove
+sbs_scent	yinxiumei	POST	pyonn_z-5wo7z		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_scent	yinxiumei	POST	pyonn_z-5wo7z		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	yinxiumei	POST	pyonn_z-5wo7z		2011-08-15	CRYMARK	1.0	tagcry
+sbs_scent	always9843	POST	pyonoeg-5zzkb		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_scent	always9843	POST	pyonoeg-5zzkb		2011-08-15	SMILEMARK	1.0	크
 sbs_scent	kisssi09	POST	pyonvk7-f0b4		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_scent	cdj76	POST	pyonxvg-yv3qz		2011-08-15	EXCLAMMARK	1.0	tagexclamation
@@ -841,6 +918,7 @@ sbs_scent	gksgywls8	POST	pyovomf-fk_4		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_scent	gksgywls8	POST	pyovomf-fk_4		2011-08-15	POSITIVE	1.0	좋아하다
 sbs_scent	alswjd991111	POST	pyovr4m-54g8r		2011-08-15	PRESENT	1.0	이제
 sbs_scent	alswjd991111	POST	pyovr4m-54g8r		2011-08-15	EXCLAMMARK	1.0	tagexclamation
+sbs_scent	prime0702	POST	pyovswe-yk_n5		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_scent	prime0702	POST	pyovswe-yk_n5		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	sjhgloomy	POST	pyovv38-ybcrg		2011-08-15	CRYMARK	1.0	tagcry
 sbs_scent	sjhgloomy	POST	pyovv9d-ybcrg		2011-08-15	PRESENT	1.0	지금
@@ -850,6 +928,7 @@ sbs_scent	chomd25	POST	pyovzbr-6orc		2011-08-15	CRYMARK	1.0	tagcry
 sbs_scent	chomd25	POST	pyovzbr-6orc		2011-08-15	SEE	1.0	보다
 sbs_scent	parachute	POST	pyox2gz-ayk		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_scent	parachute	POST	pyox2gz-ayk		2011-08-15	ANGER	1.0	미치다
+sbs_scent	loveling4486	POST	pyox5li-_qmjb		2011-08-17	QUESTIONMARK	1.0	tagquestion
 sbs_scent	loveling4486	POST	pyox5li-_qmjb		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_scent	loveling4486	POST	pyox5li-_qmjb		2011-08-17	CRYMARK	1.0	tagcry
 sbs_scent	eunyoung_iii	POST	pyoxoal-yf4xs		2011-08-16	PRESENT	1.0	이제
@@ -871,14 +950,18 @@ sbs_scent	wnstn2111	POST	pyoxybb-_h8cz		2011-08-17	CRYMARK	1.0	tagcry
 sbs_scent	wnstn2111	POST	pyoxybb-_h8cz		2011-08-17	LOVEMARK	1.0	taglove
 sbs_scent	leechristy98	COMMENT	pym58bl-96rd		2011-08-17	LOVEMARK	1.0	taglove
 sbs_scent	antijany	COMMENT	pym5ge4-56p9j		2011-08-18	SMILEMARK	1.0	tagsmile
+sbs_scent	star-dust	COMMENT	pym5ge4-56p9j		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_scent	jude1210	COMMENT	pym5ge4-56p9j		2011-08-18	PRESENT	1.0	요즘
 sbs_scent	jude1210	COMMENT	pym5ge4-56p9j		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_scent	jude1210	COMMENT	pym5ge4-56p9j		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_scent	jude1210	COMMENT	pym5ge4-56p9j		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_scent	jude1210	COMMENT	pym5ge4-56p9j		2011-08-18	SMILEMARK	1.0	tagsmile
+sbs_scent	penggu2026	COMMENT	pym5ge4-56p9j		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_scent	penggu2026	COMMENT	pym5ge4-56p9j		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_scent	7765ty	COMMENT	pym5ge4-56p9j		2011-08-18	SMILEMARK	1.0	tagsmile
+sbs_scent	jinsoda2	COMMENT	pym5ge4-56p9j		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_scent	jinsoda2	COMMENT	pym5ge4-56p9j		2011-08-18	SMILEMARK	1.0	tagsmile
+sbs_scent	jude1210	COMMENT	pym5ge4-56p9j		2011-08-18	QUESTIONMARK	1.0	tagquestion
 sbs_scent	jude1210	COMMENT	pym5ge4-56p9j		2011-08-18	SMILEMARK	1.0	tagsmile
 sbs_scent	jude1210	COMMENT	pym5ge4-56p9j		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	jude1210	COMMENT	pym5ge4-56p9j		2011-08-18	SMILEMARK	1.0	tagsmile
@@ -897,12 +980,14 @@ sbs_scent	p1004ih	COMMENT	pymkd6i-_ftak		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_scent	p1004ih	COMMENT	pymkd6i-_ftak		2011-08-19	POSITIVE	1.0	보고싶어
 sbs_scent	p1004ih	COMMENT	pymkd6i-_ftak		2011-08-19	SMILEMARK	1.0	tagsmile
 sbs_scent	p1004ih	COMMENT	pymkd6i-_ftak		2011-08-19	SMILEMARK	1.0	tagsmile
+sbs_scent	-_-akkk	COMMENT	pymkf1v-yws3n		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	-_-akkk	COMMENT	pymkf1v-yws3n		2011-08-20	SEE	1.0	보다
 sbs_scent	dream-design	COMMENT	pymkf1v-yws3n		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	-_-akkk	COMMENT	pymkf1v-yws3n		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	dream-design	COMMENT	pymkf1v-yws3n		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	-_-akkk	COMMENT	pymkf1v-yws3n		2011-08-20	SMILEMARK	1.0	tagsmile
 sbs_scent	-_-akkk	COMMENT	pymkf1v-yws3n		2011-08-20	CRYMARK	1.0	tagcry
+sbs_scent	dream-design	COMMENT	pymkf1v-yws3n		2011-08-20	QUESTIONMARK	1.0	tagquestion
 sbs_scent	dream-design	COMMENT	pymkf1v-yws3n		2011-08-20	SEE	1.0	보다
 sbs_scent	ghtjd77	COMMENT	pymyy9g-i1jv		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_scent	dlekdls6497	COMMENT	pymyy9g-i1jv		2011-08-15	SMILEMARK	1.0	tagsmile
@@ -910,6 +995,7 @@ sbs_scent	shinee_jenny	COMMENT	pymyy9g-i1jv		2011-08-15	CRYMARK	1.0	tagcry
 sbs_scent	dlekdls6497	COMMENT	pymyy9g-i1jv		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_scent	dlekdls6497	COMMENT	pymyy9g-i1jv		2011-08-15	QUANTIFIER	1.0	너무
 sbs_scent	dlekdls6497	COMMENT	pymyy9g-i1jv		2011-08-15	SMILEMARK	1.0	tagsmile
+sbs_scent	shinee_jenny	COMMENT	pymyy9g-i1jv		2011-08-15	QUESTIONMARK	1.0	tagquestion
 sbs_scent	yoraa80	COMMENT	pym_887-i57l		2011-08-17	SMILEMARK	1.0	tagsmile
 sbs_scent	bbobbo_mp	COMMENT	pym_887-i57l		2011-08-17	PRESENT	1.0	지금
 sbs_scent	bbobbo_mp	COMMENT	pym_887-i57l		2011-08-17	QUESTIONMARK	1.0	tagquestion
@@ -917,8 +1003,10 @@ sbs_scent	bbobbo_mp	COMMENT	pym_887-i57l		2011-08-17	EXCLAMMARK	1.0	tagexclamati
 sbs_scent	yoraa80	COMMENT	pym_887-i57l		2011-08-17	CRYMARK	1.0	tagcry
 sbs_scent	bbobbo_mp	COMMENT	pym_887-i57l		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	bbobbo_mp	COMMENT	pym_887-i57l		2011-08-17	SMILEMARK	1.0	tagsmile
+sbs_scent	yoon-r0r0	COMMENT	pyo4odq-y4gvz		2011-08-16	QUESTIONMARK	1.0	tagquestion
 sbs_scent	zhfna222	COMMENT	pyo4odq-y4gvz		2011-08-16	SMILEMARK	1.0	tagsmile
 sbs_scent	zhfna222	COMMENT	pyo4odq-y4gvz		2011-08-16	NEGATIVE	1.0	막장
+sbs_scent	rockpunch	COMMENT	pyo4odq-y4gvz		2011-08-16	QUESTIONMARK	1.0	tagquestion
 sbs_scent	rockpunch	COMMENT	pyo4odq-y4gvz		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 sbs_scent	kalljin	COMMENT	pyo4qd7-1fx2		2011-08-15	SMILEMARK	1.0	tagsmile
 sbs_scent	anjuhee78	COMMENT	pyo4qd7-1fx2		2011-08-15	SMILEMARK	1.0	tagsmile
