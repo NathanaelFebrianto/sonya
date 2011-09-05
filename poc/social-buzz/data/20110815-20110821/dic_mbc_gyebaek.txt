@@ -1,64 +1,172 @@
+05
+100
+1000¿ø
+1000¿ø¿¡
+105
+108
+10´ë
+10´ë°¡
+10¸¸¿ø»óÇ°±Ç
+10¸í
+10¸íÀÌ
+10½Ã
+10½Ã¿¡
+10½ÃÂë
+10È¸
+110815
+110816
+111
+117
+12
+120
+12¸¦
+135
+139¹ø
+13È­
+14È­
+150
+153
+156
+16
+16ÀÏ
+177
+180
+181658
+1sbs
+1µî
+1¸¶Áö¸·¼ø
+1¹ø
+1¹øÀÌ
+1½Ã
+1À§
+1À§µÇ±æ
+1È£
+1È­
+20
+2011
+20110816
+20110819000011
+24
+246
+24ÀÏ
+261
+270
+2kbs
+2À§
+2ÁÖ
+2ÁÖ¿¡
+2È£
+2È­
+2È¸
+2È¸¿¡
+30
+33
+336
+387
+3mbc
+3½Ã
+3À§
+3À»
+3È£
+3È£´Â
+3È­
+3È¸
+4937807
+498
+4¼¼´ëÅë½Å4g
+4ÀÎ¹æ
+4ÀÎ¹æÀ»
+4È­
+50ºÐÂë
+50ºÐÂë¿¡
+54ÃÊ¹öÁ¯
+575¹øÁö
+5¸¸¿ø±Ç
+5½Ã
+5ÃÊµîÀå
+5È­
+63
+648
+65279
+66
+666
+6½Ã
+6È­
+6È¸
+72
+75
+7È­
+7È¸
+81
+88424
+8ºÎ
+8½Ã
+8½Ã¿¡
+8¿ù
+8¿ù15
+8¿ù16
+8È­
+8È¸
+8È¸´Ù½Ãº¸±â
+90
+96
+99
+9±â
+9È¸
+9È¸¿¹
+9È¸¿¹°í
 ak
 ak¸ô
-breaknews
-busan
-co
-com
 daum¹Ìµð¾î´ÙÀ½
 daum¿¬¿¹
-detail
+detailphp
 dslr
+e07
+e07110815hdtvx264720p
+e07´Úº»»ç
+e08
+e08110816hdtvx264720p
+e08´Úº»»ç
+e08È¸
 epl
 eplº¸
 hanrel
-hdtv
 hot
-htmltagquestionuid
-http
+ibusancom
+idx144386
 inheaven
 issue
 joinsmsn
 kbs
-kr
 lotte
 mall
 mbc
 mbcµå¶ó¸¶
-netster
+mtvreportcokr
 news
+nice
 ost
 ostÇÔ
-phptagquestionidx
-phptagquestionnumber
 plazaÈ«º¸¸ðµ¨
 pooq°è¹é
 progress
-rc
-read
+rcphp
+readhtml
 rt
 sbs
-shiny
-sm
+shiny0707
+sm7
 sub
-tagquestionc
-tagquestiontagsmile
-tagquestionv
-tagquestion±×°Ô
-tagquestion³ÑÀç¹Õ´Â°Å¾Æ´Ï¾ßtagquestion³¡³¯¶§±îÁöº»¹æ»ç¼öÇØ¾ß°Ú´Ù
-tagquestionÇìÇì
-tagsmilenice
-tagsmile°è¹é
-tagsmile¾ÆÈ«È«È«tagsmile
 tv
-tvreport
 ufo
+uid
 upÆ¯
 upÆ¯È÷
 vs
-www
-yaphoto
-¤¡¤Æ¹é
-¤¡¤Æ¹é¿¡
+wwwbreaknewscom
+wwwnetstercokr
+yaphotocokr
+¤¡¤Æ
 °¡´É¼º
 °¡¸é
 °¡º¼±î
@@ -102,7 +210,6 @@ yaphoto
 °ÅÄ¡´Ù
 °ÅÄ§
 °ÆÁ¤
-°ÆÁ¤tagquestion
 °ÇÁ¶±â
 °È´Ù
 °É´Ù
@@ -110,7 +217,7 @@ yaphoto
 °Ë»ö¾î
 °Ô¹é
 °Ô½ºÆ®
-°Þ¾ú´Ùtagquestion
+°Þ´Ù
 °á·ÐÀû
 °æ¸Å
 °æ»ó
@@ -119,11 +226,13 @@ yaphoto
 °è¶õ
 °è¹è±â
 °è¹è±â´Â
+°è¹é3
+°è¹é6
+°è¹é7
+°è¹é8
+°è¹é9
 °è¹éost
-°è¹éost³ª¿Ô¾î
-°è¹étagquestionº¸¸é¼­
-°è¹étagquestionÈ¿¹Î
-°è¹évs¹«»ç¹éµ¿¼ö
+°è¹évs
 °è¹é°è¹é
 °è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é°è¹é
 °è¹é±×³É
@@ -161,6 +270,7 @@ yaphoto
 °è¹é¾Èº¾´Ï
 °è¹é¾î¸°ÀÇÀÚ¿Õ³ë¿µÇÐ
 °è¹é¾ö¸¶Á×¾ù´ç
+°è¹é¿¡¼­Çö¿ì¾ó±¼º¸±â¸Àµé·Ç¾î
 °è¹é¿ÏÁ¸Àë¾´
 °è¹éÀ»º¸±¸ÀÕ´Â³ªÀÇ°¡Á·
 °è¹éÀ»º¸´Ï¿ª»çÇÐÀÚµé»ý°¢
@@ -172,9 +282,8 @@ yaphoto
 °è¹éÀÌ¶û±¤°³Åä
 °è¹éÀÌ¶ûÀÇÀÚ
 °è¹éÀÌ¼­Áø
-°è¹éÀÌÀÌ»êÀÌµÌ³×tagquestion
+°è¹éÀÌÀÌ»êÀÌµÌ³×
 °è¹éÀÌÁ»Â¯ÀÎµí
-°è¹éÀÎ°¡tagquestion
 °è¹éÀå±º
 °è¹éÃ¹¿¬±â
 °è¹éÃÔ¿µ
@@ -183,6 +292,7 @@ yaphoto
 °è¹éÅº»ýÁß
 °è¹éÇÏ´Â
 °è¼Ó°É¾ú¾î
+°í3
 °í±¸·Á
 °í´Ù
 °í¸¿´Ù
@@ -209,7 +319,6 @@ yaphoto
 ±¤±â
 ±¤º¹ÀýÆ¯Áý
 ±¦Âú´Ù
-±¦ÂúÀ¸¼¼¿ätagquestion
 ±³±â
 ±³À°
 ±¸¸Å
@@ -235,6 +344,7 @@ yaphoto
 ±Ô¾Ï¸é
 ±×°Å
 ±×°Í
+±×°Ô
 ±×³ªÀú
 ±×³ªÀú³ª
 ±×³à
@@ -250,20 +360,23 @@ yaphoto
 ±×·¯³×¿ä
 ±×·¯´Ï±î
 ±×·¯´Ù°è¹éÀ»ºÃ½À´Ï´Ù
-±×·°Àú·°Àë½átagsmile
+±×·°Àú·°Àë½á
 ±×·±µ®
 ±×·²¼ö
 ±×·²¼ö°¡
 ±×·³
+±×·³¸ô°Ú³×
 ±×¸®±¸
 ±×¸®±¸±Í¿©¿ì¼Å
 ±×¸®´Ù
-±×¿©ÀÚtagquestion
+±×¿©ÀÚ
 ±×Àú±×·¨¾î¿ä
 ±×Àú´«¹°
-±×Á¤µµ¸éÀß´ëÃ³ÇÑ°Å¿¹¿äÃ»°­±ºÀ»Áø½ÉÀ¸·Î»ç¶ûÇÏ´ÂÆÒµé¸¹À¸´Ï±îÈû³»¿ätagsmile¿À´Ã°è¹é¿¡´êÀ»¼ö¾ø´Â³ª¿Ô³×¿äº»¹æ¿¡³ª¿À´ÏÁ¤¸»ÁÁ¾Æ¿ä
+±×Á¤µµ¸éÀß´ëÃ³ÇÑ°Å¿¹¿äÃ»°­±ºÀ»Áø½ÉÀ¸·Î»ç¶ûÇÏ´ÂÆÒµé¸¹À¸´Ï±îÈû
+±×Á¤µµ¸éÀß´ëÃ³ÇÑ°Å¿¹¿äÃ»°­±ºÀ»Áø½ÉÀ¸·Î»ç¶ûÇÏ´ÂÆÒµé¸¹À¸´Ï±îÈû³»
+±×Á¤µµ¸éÀß´ëÃ³ÇÑ°Å¿¹¿äÃ»°­±ºÀ»Áø½ÉÀ¸·Î»ç¶ûÇÏ´ÂÆÒµé¸¹À¸´Ï±îÈû³»¿ä
 ±×Áö
-±×Ä¡tagquestion
+±×Ä¡
 ±×Ä¡´Ù
 ±Ùµ¥±×°Ç¿À¹ö°¡½ÉÇØ¼­¿ô±â´Â¸ÀÀ¸·Îº¸´Â‰V
 ±Û±¸
@@ -308,13 +421,13 @@ yaphoto
 ±î¸¸°ÅÁö
 ±ô³î
 ²¥¾Æ°¡¾Ó¾Ç
-²¦¤¡
 ²Å»ç¸®
+²ÈÇô¾ßº¸ÁöÀß¾Èº¸´ÂÆí
 ²ÜÇÇºÎ
 ²óÀ×²óÀ×
 ³¡³ª´Ù
+³¡³¯¶§±îÁöº»¹æ»ç¼öÇØ¾ß°Ú´Ù
 ³¡³´´Ù
-³¡³´´Ù¤Ñ
 ³¡³»´Ù
 ³¢´Ù
 ³¢ÀÌ´Ù
@@ -324,7 +437,7 @@ yaphoto
 ³ª°æ¿øÀÌ
 ³ª°è¹é¿¡¼­½ºÆÄÀÌ¸í¿ù·Î°¥¾ÆÅ½
 ³ª°è¹éÇö¿ì°¡³ª¿Ã¶§±îÁö¸¸¹Ù¾ßÂ¡
-³ª´î·¡tagquestion
+³ª´ë´Ù
 ³ªµµ
 ³ªµÎ
 ³ª¶ó
@@ -342,11 +455,11 @@ yaphoto
 ³ª¿Â´ç²²
 ³ª¿Ã¶§
 ³ª¿Ã¶§°¡
-³ª¿È´Ï´Ù¤¡
+³ª¿È´Ï
+³ª¿È´Ï´Ù
 ³ª¿Í¿è
 ³ª¿Ô
 ³ª¿Ô¾ú±Õ
-³ª¿ÔÁötagquestion
 ³ªÀÇ»ç
 ³ªÀÇ»ç¶û
 ³ªÀÇ¿ø
@@ -361,7 +474,7 @@ yaphoto
 ³ªÁß
 ³ªÇÑÅ×
 ³¬½Ã
-³¬½Ã¿´³ªtagquestion
+³¬½Ã¿´
 ³­°ÅÀÇÀÌÇö¿ì‹š¸Åº»°Ç´ë
 ³­¶Ç
 ³­ÀÌÁ¦»ç±Ø¸¸º¸°í»ç¾ßµÇ†E
@@ -369,6 +482,7 @@ yaphoto
 ³²±â´Ù
 ³²¼º
 ³²ÀÚ
+³²ÀÚ8
 ³²ÀÚµéÇÑÅ×
 ³²Àå
 ³²Æí
@@ -391,9 +505,8 @@ yaphoto
 ³Ê¹«ºüÁ®µç°Å
 ³Ê¹«Àë½á
 ³Ê¹«ÁÁ¾Ò¾î¿ä
-³ÊÆ¼ºñ¾Èº»´òÁötagquestion±×·³¸ô°Ú³×
+³ÊÆ¼ºñ¾Èº»´òÁö
 ³ÌºüÁø
-³Ítagquestion
 ³Í³»°Ô
 ³Í³»°Ô¹Ý
 ³Í³»¹Ý
@@ -402,6 +515,8 @@ yaphoto
 ³Ñ³Ñ
 ³Ñ¾î°¡´Ù
 ³Ñ¾î°¡¹ö·È¾î
+³ÑÀç¹Õ´Â°Å¾Æ´Ï
+³ÑÀç¹Õ´Â°Å¾Æ´Ï¾ß
 ³ÑÀëÀÌÂ¼
 ³ÑÄ¡´Ù
 ³ÑÈå
@@ -412,7 +527,6 @@ yaphoto
 ³Ý½ºÅÍ¹Ìµð¾î
 ³ë¶þ´Ù
 ³ë·¡
-³ë·¡°¡tagquestion
 ³ë·¡°¡»ç
 ³ë·¡³×
 ³ë·¡³×¿ä
@@ -425,13 +539,12 @@ yaphoto
 ³ìÈ­
 ³í´Ù
 ³í¶õ
-³í¶õtagquestion
 ³íÆòÇÑ³ª¶ó´ç
 ³î´Ù
 ³î·¯°¡´Ù
 ³î·¯°¬´Ù¿Í¾î¿ä
 ³î·¯¿À´Ù
-³ð³ð³ðtagquestion
+³ð³ð³ð
 ³ðµå
 ³ðµå¶ó
 ³ô¾ÆÁö´Ù
@@ -466,7 +579,8 @@ yaphoto
 ´Ù°¡¿À´Ù
 ´Ù¶³°í
 ´Ù¸£´Ù
-´Ù¸¥ºÐµéÀºtagquestion
+´Ù¸¥ºÐ
+´Ù¸¥ºÐµéÀº
 ´Ùº¸°í½Í¾ù´Âµð
 ´Ù½Ãº¸±â
 ´Ù½Ãº¸±â°è¹é
@@ -504,7 +618,6 @@ yaphoto
 ´ê´Ù
 ´êÀº¼ö
 ´êÀ»¼ö
-´ë°¡
 ´ë±âÁß
 ´ë´ä¾ÈÇØÁÖ
 ´ë¹Ú
@@ -513,7 +626,7 @@ yaphoto
 ´ëº»
 ´ëºÎºÐÃÔ¿µ
 ´ë»ç
-´ëÀÎ±âÇÇÁõtagquestion
+´ëÀÎ±âÇÇÁõ
 ´ëÀå±ÝÀÌÃÖ°í
 ´ëÀü
 ´ëÀü»çÁø
@@ -527,7 +640,7 @@ yaphoto
 ´õ¿­½ÉÈ÷
 ´õÁþ°í
 ´öºÐ
-µ§¸¶Å©´ÙÀÌ¾îÆ®
+µ§¸¶Å©´ÙÀÌ¾îÆ®5
 µµµµ
 µµ¾ßÁö
 µµ¾ßÁö´Â
@@ -548,7 +661,6 @@ yaphoto
 µ¹¾Æ¿À´Ù
 µ¹ÁøÁß
 µ¿°©
-µ¿°©tagquestion
 µ¿°©ÀÌ
 µ¿°©ÀÏÁÙ
 µ¿·æ¾ËÇØº¯
@@ -560,7 +672,6 @@ yaphoto
 µÅÁö´å
 µÅÁö¾ä
 µÇ°Î´Ù
-µÇ³ª¿ätagquestion
 µÇ¾î°¡´Ù
 µÉ°Í
 µÉ°Í¸¸
@@ -612,12 +723,13 @@ yaphoto
 ¶ö±î
 ¶ûÄÞ
 ·¯ºê¼Û
+·¯¿ö
 ·±´×¸Ç
 ·±´×¸ÇÀÌ
 ·¹¾Ë
 ·¹¾Ë¸¶µå¸®µå
 ·Î·º½º
-·Î¸ÇÆ½ÄÚ¹Ìµð°¡´õÁÁ´õ¶ó±¸¿ä¤µ
+·Î¸ÇÆ½ÄÚ¹Ìµð°¡´õÁÁ´õ¶ó±¸
 ·çÆ®
 ¸®½Ö
 ¸®ÅÏÁî
@@ -636,7 +748,6 @@ yaphoto
 ¸¶ÀÌ¹ÌÅõ
 ¸¶ÀÌ¹ÌÅõ¿¡
 ¸¶Áö¸·
-¸¶Áö¸·¼ø°£
 ¸¶Ä¡
 ¸·´Ù
 ¸·½Ã¹«½º
@@ -646,8 +757,6 @@ yaphoto
 ¸¸µå³ª
 ¸¸µé´Ù
 ¸¸¼¼ÇÑ´Ù´Âµ¥
-¸¸¿ø±Ç
-¸¸¿ø»óÇ°±Ç
 ¸¹´Ù
 ¸»¾¸
 ¸»ÀÎµ¥
@@ -661,18 +770,20 @@ yaphoto
 ¸ÁÇÏ´Â°Ô
 ¸Â†¶
 ¸Â´Ù
-¸Â¾Ætagquestion
-¸Â¾Ò³ªtagquestionÁ»
+¸Â¾Ò
 ¸ÂÃß´Ù
 ¸ÂÃá°ÇÁö
 ¸Ã´Ù
 ¸Å³â
 ¸Å·Â
+¸Ç³¯
 ¸ÍÃß°Ý
 ¸Ó´ÏÅõµ¥
 ¸Ó´ÏÅõµ¥ÀÌ
 ¸ÓÇÃ·¯
 ¸Ô¾î
+¸ÔÀ¸
+¸ÔÀ¸¸ç
 ¸ÕÀú
 ¸ÚÀÖ´Ù
 ¸ÞÀÌÇÃ½ºÅä
@@ -681,16 +792,15 @@ yaphoto
 ¸ê¸Á
 ¸ê¸ÁÀ¸
 ¸í¿ù
-¸í¿ùvs°è¹é
+¸í¿ùvs
 ¸í¿ùÀÇ
 ¸îºÐÈÄ
-¸ð´ø
+¸ð´ø2
 ¸ðµ¶
 ¸ðµÎ
 ¸ðµç¾À
 ¸ðµç¾ÀÀÌ
 ¸ð¸£´Ù
-¸ð¸§tagquestion
 ¸ð½Ã¸ð½Ã
 ¸ð¾Ò´ø
 ¸ð¾çÀÌ¿¹
@@ -727,7 +837,7 @@ yaphoto
 ¹«¼·´Ù
 ¹«¼ú
 ¹«½Ã
-¹«¾ùÀ»º¸½Ã³ª¿ätagquestion
+¹«¾ùÀ»º¸½Ã
 ¹«¿Õ
 ¹«¿ÕÀÌ
 ¹«Áø
@@ -741,8 +851,8 @@ yaphoto
 ¹°·Ð
 ¹°¾îº¸´Ù
 ¹¹¶ö±î
-¹¹¾ßtagquestion
-¹¹¿¡¿ätagquestion
+¹¹¿¡
+¹¹¿¡¿ä
 ¹º°¡
 ¹Â¹ð
 ¹Â¹ðºÒÂü
@@ -837,8 +947,6 @@ yaphoto
 ¹éÈ­Á¡
 ¹éÈ­Á¡»óÇ°±Ç
 ¹ø°¥¾Æ°¡´Ù
-¹ø´Ù
-¹øÁö
 ¹ú´Ù
 ¹ú½á
 ¹ú¾²´Ù
@@ -849,7 +957,7 @@ yaphoto
 º¸°í»ì
 º¸°í»ì¾Æ
 º¸°í½Í
-º¸°íÀÖ³ªtagquestion
+º¸°íÀÖ
 º¸±â
 º¸±æµµ°¡¼­
 º¸´Â°Å
@@ -857,16 +965,14 @@ yaphoto
 º¸´Â±ºÇÏ
 º¸·¯°¡¾ßÁö
 º¸¼¼
-º¸¼¼¿ätagquestion
-º¸¼ÌÁÒtagquestion
+º¸¼ÌÁÒ
 º¸¼ö
 º¸½º
 º¸½º¸¦ÁöÄÑ
 º¸½Ã
 º¸½Ã°í
-º¸½Ã³ª¿ätagquestion
 º¸½Ã´ÂºÐ
-º¸½Ç²¨ÁÒtagquestion
+º¸½Ç²¨ÁÒ
 º¸Åå½º
 º¸Åë
 º»´Ù´É
@@ -874,7 +980,7 @@ yaphoto
 º»´Ù´õ´Ï
 º»¹æ
 º»¹æ»ç¼ö
-º»¹æ»ç¼öÇÏ¼Ì°ÚÁÒtagquestion
+º»¹æ»ç¼öÇÏ¼Ì°ÚÁÒ
 º»¹æ»ç¼öÇØÁÖ¼¼
 º»¹æÀº
 º¼°Å¾ø¾î¼­º¸°Ô
@@ -883,10 +989,9 @@ yaphoto
 º¼·Á±¸
 ºÀ»ç¿¬ÁÖ
 ºÁ¹Ù¾ßÁö
-ºÁ”dºÁ¤¿¤¿¹Ù¤È¤Ç
+ºÁ”dºÁ
 ºÁ¾ß°Ú´Ù
 ºÁ¾ßµÇ
-ºÁ¾ßÁötagsmile
 ºÁ¾ßÁö¿ïÈ¿¹Î´©
 ºÁ¾ßÁö¿ïÈ¿¹Î´©³ª
 ºÁ¾ßÂ¡
@@ -894,7 +999,6 @@ yaphoto
 ºÁÁÖ¼¼¿ë¿ë¿ë
 ”f¾î
 ”f¾î¿ä
-ºÃÁötagquestion
 ºÎµð
 ºÎ·¯¿ö
 ºÎ·´´Ù
@@ -908,15 +1012,12 @@ yaphoto
 ºÎÀûÀÀ
 ºÎÅÍ
 ºÎÇÇ
-ºÐtagquestion
 ºÐµé
-ºÐÂë
-ºÐÂë¿¡
 ºÒ±¼
 ºÒ·¶³Ä
 ºÒ¸­
 ºÒ¸­Àº
-ºÒ¸¸tagquestion
+ºÒ¸¸
 ºÒ¸ê
 ºÒ¿©¿ì
 ºÒ¿©¿ì¸¦
@@ -934,7 +1035,8 @@ yaphoto
 ºñÀ¯¸¦
 ºñÅ¸¹ÎÁ¦
 ºóÆú¸ÅÀå
-ºóÆúÁö°©ÆÈ¾Æ¿ätagquestion
+ºóÆúÁö°©ÆÈ¾Æ
+ºóÆúÁö°©ÆÈ¾Æ¿ä
 ºû³ª´Ù
 ºü º¶ä
 ºüÁö´Ù
@@ -955,7 +1057,7 @@ yaphoto
 »ç¶÷
 »ç¶÷µÎ
 »ç¶û
-»ç·®ÇØ¿äÃ»°­±ºtagsmile
+»ç·®ÇØ¿äÃ»°­±º
 »ç¸Á
 »ç»ö
 »ç¼ö
@@ -970,7 +1072,7 @@ yaphoto
 »ì¸®´Ù
 »ì¹ú
 »ìÇØ
-»ï°¢°ü°ètagquestion
+»ï°¢°ü°è
 »ï±¹½Ã´ë
 »ï´Ù
 »ï¸Å°æ
@@ -1001,7 +1103,6 @@ yaphoto
 ¼³´Ù
 ¼³·¹´Ù
 ¼³¸¶
-¼³¸¶tagquestion
 ¼³¸¶¼³¸¶
 ¼³Á¤
 ¼¶¼¼
@@ -1010,10 +1111,9 @@ yaphoto
 ¼ºÀÎµÇ¼­
 ¼ºÀÎµÈ
 ¼ºÀÎ¹è¿ì
-¼ºÀÎ¿ªÈ°ÀÓtagquestion
+¼ºÀÎ¿ªÈ°
 ¼ºÀÎ¿¬±âÀÚ
 ¼ºÀå
-¼¼´ëÅë½Å
 ¼¼¿ù
 ¼¼ÀÚÇÏ°í°è¹é¾ÆºüÁ×°í¹éµ¿¼öÇÏ°í°è¹é½Ç¼º
 ¼¼Å¹±â
@@ -1039,9 +1139,10 @@ yaphoto
 ¼ÛÁöÈ¿´Â
 ¼ÛÁöÈ¿·Î
 ¼ÛÁöÈ¿¾¾
+¼ÛÁöÈ¿¾ð´Ï
 ¼ÛÁöÈ¿¾ð´ÏµÎ³ª¿Â´Ù±¸
-¼ÛÁöÈ¿¾ð´Ï¿´¾îtagquestion
-¼ÛÁöÈ¿ÀÇÄ³¸¯ÅÍ´Âtagquestion¾öÃ»±Ã±Ý±Ã±Ý
+¼ÛÁöÈ¿ÀÇÄ³¸¯ÅÍ
+¼ÛÁöÈ¿ÀÇÄ³¸¯ÅÍ´Â
 ¼ÛÁöÈ¿ÇÏ
 ¼îÇÎ¸ô
 ¼ö°í
@@ -1093,7 +1194,6 @@ yaphoto
 ½Ã½½¸®
 ½ÃÀÛ
 ½ÃÀå
-½ÃÂë
 ½ÃÃ»
 ½ÃÃ»·ü
 ½ÃÃ»ÀÚ
@@ -1121,7 +1221,7 @@ yaphoto
 ½ÇÅ¸
 ½ÇÇè
 ½È´Ù
-½È¾îÇÏ´Â°Ç¾Æ´ÏÁö¸¸¤Ñ²ÈÇô¾ßº¸ÁöÀß¾Èº¸´ÂÆí
+½È¾îÇÏ´Â°Ç¾Æ´ÏÁö
 ½É½É
 ½É½ÉÇÏµ¥
 ½ÌÅ©·ÎÀ²
@@ -1140,11 +1240,10 @@ yaphoto
 ¾µ°Í°°¾Æ
 ¾¾ºí
 ¤·¤·
-¤·¤¿Çö¿ì´Ô¿ôÀ»¶§Á©¸ÚÁö¼Å
+¤·¤¿
 ¾Æ³ª°è¹é¿¡¼­ÀÌÁ¦¾Æ¿ª
 ¾Æ³»
 ¾Æ³Ä
-¾Æ³Ätagquestion
 ¾Æ´Ï´Ù
 ¾Æ´Ï¸éÅ»Åð
 ¾Æ´Ï¿¡
@@ -1173,7 +1272,6 @@ yaphoto
 ¾Æ¾Æ¾Æ¾Ç
 ¾Æ¾Ç
 ¾Æ¿ª
-¾Æ¿ªtagquestion
 ¾Æ¿ª¶§
 ¾Æ¿ª¶§°¡
 ¾Æ¿ª¹è¿ì
@@ -1181,23 +1279,25 @@ yaphoto
 ¾Æ¿ô
 ¾ÆÀÌ
 ¾ÆÀÌ´Ù½º
+¾ÆÀÌºÎ²ô
 ¾ÆÀÌ¿Â
 ¾ÆÀÌÆù
+¾ÆÀÌÆù5
 ¾ÆÀÌÆùÀÌ
 ¾ÆÀ×Æù
 ¾ÆÁÖ¾ÆÁÖ
 ¾ÆÁÜ¸¶
 ¾ÆÁ÷
-¾ÆÁ÷kbs
+¾ÆÁ÷kbs1
 ¾ÆÄ§
 ¾ÆÄ§¸Ô°í
 ¾ÆÇª¸®Ä«·ç
 ¾ÆÇÁ´Ù
 ¾ÆÇÏ
+¾ÆÈ«È«È«
 ¾ÆÈÄ°³¿îÇÏ±¸
 ¾ÆÈæ
 ¾ÆÈï
-¾Æ¤Ñ¤Ó
 ¾È²¼¾î¿ä
 ¾È³ªº¸ÀÌ±ä
 ¾È³ª¿Ãµí
@@ -1218,8 +1318,9 @@ yaphoto
 ¾É´Ù
 ¾Ê´Â°Ô
 ¾ÊÀ¸
+¾Ë°í
 ¾Ë°íµéÀ¸´Ï±î
-¾Ë°íÀÖ¾îtagquestion
+¾Ë°íÀÖ¾î
 ¾Ë°íÀÖ¾ú´Â´ë
 ¾Ë¾Æº¸´Ù
 ¾Ë¾Æ¾ßÁö
@@ -1243,6 +1344,7 @@ yaphoto
 ¾×¼Ç¿¬±â
 ¾ßž±
 ¾ß¿Ü
+¾à30
 ¾à°£
 ¾à¼ÓÇÑ´ë
 ¾àÄ¡°í¹úÃÊ
@@ -1254,8 +1356,9 @@ yaphoto
 ¾î´Ï´Â
 ¾îµð
 ¾îµð´Ù
-¾î¶§¿ätagquestion
-¾î¶®³ªtagquestion
+¾î¶§
+¾î¶§¿ä
+¾î¶®
 ¾î¶²
 ¾î¶²°è±â
 ¾î¶²»ç¶÷
@@ -1263,7 +1366,8 @@ yaphoto
 ¾î¶»°Ôµç
 ¾î¶»´Ù
 ¾î¶»¶©
-¾î¶»ÇÏÁö¿©tagquestion
+¾î¶»ÇÏÁö
+¾î¶»ÇÏÁö¿©
 ¾î¶ßÄÉ
 ¾î·Æ´Ù
 ¾î·ÈÀ»¶©
@@ -1289,6 +1393,7 @@ yaphoto
 ¾ó¸¶¾ÈµÌÁö
 ¾ö¸¶
 ¾öÃ»
+¾öÃ»±Ã±Ý±Ã±Ý
 ¾öÃ»³ª´Ù
 ¾öÅÂ¿õ³ª¿À¸é
 ¾ø±¸
@@ -1298,8 +1403,9 @@ yaphoto
 ¾û´Ï¶§¹®¿¡
 ¿¡´Ù
 ¿¡¸¯
-¿¡¼­´ÂÁ¤Åë»ç±ØÇÏ³ªtagquestion
-¿¡¼­ÀÇÀÚ¿Õ¿ªÇÒ·Î³ª¿À´Â¹è¿ì´©±¸¿¡¿ätagquestion
+¿¡¼­´ÂÁ¤Åë»ç±Ø
+¿¡¼­´ÂÁ¤Åë»ç±ØÇÏ
+¿¡¼­ÀÇÀÚ¿Õ¿ªÇÒ·Î³ª¿À´Â¹è¿ì´©±¸¿¡
 ¿¡½ºÆ¼·Î´õ
 ¿¡¾îÄÁ
 ¿¢½ºÆ÷Ã÷´º½º
@@ -1318,6 +1424,8 @@ yaphoto
 ¿©ÀÎÀÇÇâ±â
 ¿©ÀÎÃµÇÏ
 ¿©ÀÚ
+¿©ÀÚ3
+¿©ÀÚ5
 ¿ª·®
 ¿ª»ç
 ¿ª¼³Àû
@@ -1325,7 +1433,7 @@ yaphoto
 ¿ªÇÒ
 ¿«´Ù
 ¿¬°³¼Ò¹®
-¿¬±Ýº¹±Ç
+¿¬±Ýº¹±Ç7
 ¿¬±â
 ¿¬±â°¡³Ê¹«¸ÚÁö½Ê´Ï
 ¿¬±â·Â
@@ -1337,8 +1445,7 @@ yaphoto
 ¿­½ÉÈ÷º¸´Â°Í
 ¿­½ÉÈ÷ÀÀ¿øÇÒ°Ô
 ¿­Ç÷
-¿´³ªtagquestion
-¿µ°è¹é¼÷tagquestion
+¿µ°è¹é¼÷
 ¿µ·ù¿Õ
 ¿µºÎÀÎ
 ¿µ»ó
@@ -1360,9 +1467,10 @@ yaphoto
 ¿»·Î¿ìº¸ÀÌÁî
 ¿¾³¯
 ¿À´Ã°è¹éº¸°í´«¹°ÆãÆã½ñ¾Ñ½À´Ï
+¿À´Ã°è¹é¿¡´êÀ»¼ö¾ø´Â³ª¿Ô³×¿äº»¹æ¿¡³ª¿À´ÏÁ¤¸»ÁÁ¾Æ¿ä
 ¿À´Ã²¨
 ¿À´Ãµåµð¾î¼ÛÁöÈ¿¾ð´ÏµîÀå
-¿À´ÃÀº½ºÆÄÀÌ¸í¿ù³ª¿Ã±îtagquestion°è¹é¿¡¼­Çö¿ì¾ó±¼º¸±â¸Àµé·Ç¾î
+¿À´ÃÀº½ºÆÄÀÌ¸í¿ù³ª¿Ã±î
 ¿À´ÃÀÇ°è¹é
 ¿Àµð¼Ç½ºÅ¸
 ¿Àºü
@@ -1393,8 +1501,7 @@ yaphoto
 ¿ÏÁ¯
 ¿ÏÁÔºÎ·¯¿ö
 ¿Ó¾î
-¿ÕÆ÷µµ¾Ëtagquestion¸ÔÀ¸
-¿ÕÆ÷µµ¾Ëtagquestion¸ÔÀ¸¸ç
+¿ÕÆ÷µµ¾Ë
 ¿Ö¿åÀ»
 ¿Ö¿åÀ»ÇØ
 ¿Ö¿åÀ»ÇØ¿ä
@@ -1404,7 +1511,7 @@ yaphoto
 ¿ÜÁö´Ù
 ¿ä±â
 ¿ä»õ
-¿ä»õ³ÑÁÁ¾ÆÁö´Â°ÅÀÕÁötagquestion¾ÆÀÌºÎ²ô¤Ñ·¯¿ö
+¿ä»õ³ÑÁÁ¾ÆÁö´Â°ÅÀÕÁö
 ¿äÁò¾Æ¿ª
 ¿äÁòÀºÁ¤Åë»ç±ØÀÌ¾ø´Â°Å°°¾Ö
 ¿ì¸®
@@ -1434,7 +1541,6 @@ yaphoto
 ¿ùÈ­¿£
 À§´Ï
 À§´Ï°¡
-À§µÇ±æ
 À§ÇÏ´Ù
 À¯µ¶
 À¯½ÂÈ£
@@ -1471,7 +1577,7 @@ yaphoto
 ÀÇ»ó
 ÀÇ½É
 ÀÇ½ÉÄ¡
-ÀÇ¿Þµ¥tagquestion
+ÀÇ¿Þµ¥
 ÀÇ¿ø
 ÀÇ¿ø´Ô
 ÀÇÀÚ
@@ -1480,21 +1586,23 @@ yaphoto
 ÀÇÀÚ¿Õ°ú
 ÀÇÀÚ¿Õ³ª¿À³Ü
 ÀÇÀÚ¿Õ¹¹Â¡
-ÀÇÀÚ¿Õ¾î¸Ó´ÏÀÌ¸§tagquestion
+ÀÇÀÚ¿Õ¾î¸Ó´ÏÀÌ¸§
 ÀÇÀÚ¿Õ¿¡
 ÀÇÀÚ¿Õ¿Àºü
 ÀÇÀÚ¿ÕÀº
 ÀÇÀÚ¿ÕÀÇ
-ÀÇÀÚ¿ÕÀÇ¾Æ¹öÁö´Â¹«¿ÕÀÔ´Ï±îtagquestion
+ÀÇÀÚ¿ÕÀÇ¾Æ¹öÁö´Â¹«¿Õ
 ÀÇÀÚ¿ÕÀÌ
 ÀÇÀÚ¿ÕÀÌ¹¹¿¡
-ÀÇÀÚ¿ÕÀÌ¿´³Ätagquestion
 ÀÇÀÚ¿ÕÀÚ
 ÀÇÀÚ¿ÕÀÚ°¡Á×¿³¾î
 ÀÇÀÚ¿ÕÅ¹¿¹Àº
 ÀÇÁö
 ÀÌ°Å
 ÀÌ°Ç
+ÀÌ°ÉÇØ¾ß
+ÀÌ°ÉÇØ¾ßÇÒ±î
+ÀÌ°ÉÇØ¾ßÇÒ±î¿ä
 ÀÌ°Ô
 ÀÌ´À³¦
 ÀÌ´Ï±ñ
@@ -1524,9 +1632,7 @@ yaphoto
 ÀÌ¼ø½ÅÀÌÃÖ
 ÀÌ¼ø½ÅÀÌÈÄ
 ÀÌ¾ß±â
-ÀÌ¾ß±âtagquestion
-ÀÌ¾ß±â´Âtagquestion
-ÀÌ¾ß±ä°¡tagquestion
+ÀÌ¾ß±ä°¡
 ÀÌ¾îÁö´Ù
 ÀÌ¿¡
 ÀÌ¿¡¿ä
@@ -1576,8 +1682,6 @@ yaphoto
 ÀÎ°¡
 ÀÎ°£
 ÀÎ±â
-ÀÎ¹æ
-ÀÎ¹æÀ»
 ÀÎ»çÀÌµå
 ÀÎ¼öºÐÇØ
 ÀÎÁõ¼¦
@@ -1588,7 +1692,7 @@ yaphoto
 ÀÏ³¡³ª°í
 ÀÏ¶§
 ÀÏ¶§°¡
-ÀÏ½ÃÁ¤ÁötagquestionÀÌ°ÉÇØ¾ß
+ÀÏ½ÃÁ¤Áö
 ÀÏÂ°
 ÀÒ´Ù
 ÀÓÇö½Ä
@@ -1599,13 +1703,12 @@ yaphoto
 ÀÕ¾ù´Âµ¥
 ÀÖ´Â°Å
 ÀÖ´Â°Å¾ß
-ÀÖ´Â°Å¾åtagquestion
+ÀÖ´Â°Å¾å
 ÀÖÀ¸·Á
 ÀÖÀ»¹ý
-À×tagquestion
-ÀØÁö¾Ê¾ÒÁÒtagquestion
+ÀØÁö¾Ê¾ÒÁÒ
 ÀÚ°í
-ÀÚ±ÛÀÚ±Ûtagquestion
+ÀÚ±ÛÀÚ±Û
 ÀÚ±â
 ÀÚ²Ù
 ÀÚ³×±ºÀÔ´Ï´ç
@@ -1623,12 +1726,13 @@ yaphoto
 Àß¶õÁÙ¾Ë¾Æ
 Àß¸ð¸£´Âµð
 Àß¸øµéÀº°Ç°¡
-Àßº¸¼Ì´ÂÁötagquestion
+Àßº¸¼Ì´ÂÁö
 Àß»ý°äÀ½
 Àß»ý°å±¸
 Àß»ý°å¾û
 Àß»ý±â´Ù
-Àß»ý±ä°Å¾ßtagquestion¿õ
+Àß»ý±ä°Å
+Àß»ý±ä°Å¾ß
 Àß¾Èº¸´ÂÆí
 Àß¾Èº¸´ÂÆíÀÎµ¥
 Àß¾î¿ï·Á
@@ -1647,7 +1751,7 @@ yaphoto
 Àç¹Ì
 Àç¹Ì³ª´Ù
 Àç¹Ì¾øÀ¸
-Àç¹ÌÀÖ³ßtagquestion
+Àç¹ÌÀÖ³ß
 Àç¹ÌÀÖ´Â»ç±Ø
 Àç¹Ô³×
 Àç¹Ô³×¿©
@@ -1661,20 +1765,20 @@ yaphoto
 Àç¹Õ³×¿ä
 Àç¹Õ´Â
 Àç¹Õ´Âµ¥
-Àç¹Õ´Ïtagquestion¸Ç
-Àç¹Õ´Ïtagquestion¸Ç³¯
+Àç¹Õ´Ï
 Àç¹Õ´Ù
 Àç¹Õ´õ¶ó±¸
 Àç¹Õ´õ¶ó±¸¿ä
 Àç¹Õ¾î
-Àç¹Õ¾î¿ätagquestion
+Àç¹Õ¾î¿ä
 Àç¹Õ¾î¿õ
 Àç¹Õ¾îÁö
 Àç¹Õ¾îÁö³ª
 Àç¹Õ¾îÁö³ª¿ä
 Àç¹Õ¾ý
-Àç¹ÕÀ¸´Ï±ñtagsmile
-Àç¹ÕÀ¸·Á³ªtagquestion
+Àç¹ÕÀ¸´Ï±ñ
+Àç¹ÕÀ¸·Á
+Àç¹ÕÀ¸·Á³ª
 Àç¹ÕÀ½
 Àç¹ÕÁö
 Àç¹æº¸¸é¼­
@@ -1705,6 +1809,7 @@ yaphoto
 ÀýÄ£
 Á¡ÀÝÀº°Å°°¾Ö
 Á¡Á¡
+Á¤17
 Á¤´ëÀ±
 Á¤¸»
 Á¤¹Ý´ë³×
@@ -1715,6 +1820,7 @@ yaphoto
 Á¤ÁÖÇà
 Á¤ÁÖÇàÇÏÁö
 Á¤Ä¡
+Á¦2
 Á¦°¡
 Á¦¸ñ
 Á¦¹ß
@@ -1837,7 +1943,6 @@ yaphoto
 Â÷ÀÎÇ¥ÀÇ
 Â÷ÀÎÇ¥Çü´ÔÀÇÄ«¸®½º¸¶µµÂ¯ÀÌ±¸
 Âø¿ë
-Âø¿ëtagquestion
 Âû¸®½ºÇì¾î
 ÂüÁöÄµ
 ÂüÁöÄµ°ú
@@ -1870,9 +1975,7 @@ yaphoto
 Ã»°­ÀÌ¿ÉÈ­
 Ã»¾ç±º
 ÃÄ´Ùº¸´Ù
-ÃÊµîÀå
 ÃÊ¹Ý
-ÃÊ¹öÁ¯
 ÃÊ¿µ
 ÃÊ¿µÀ¸
 ÃÊ¿µÀº
@@ -1882,7 +1985,7 @@ yaphoto
 ÃÔ¿µ
 ÃÔ¿µ½Ã
 ÃÔ¿µÀå
-ÃÔ¿µÇÏ·¯°¬³ªtagquestion
+ÃÔ¿µÇÏ·¯°¬
 ÃÔ¿µÇöÀå
 ÃÖ°íÀ§
 ÃÖ°íÃÖ°í
@@ -1904,7 +2007,7 @@ yaphoto
 Ãâ¿¬
 Ãâ¿¬À¸·ÎÂ¦
 Ãâ¿¬Áø
-Ãâ¿¬ÇÏ³ª¿ätagquestion
+Ãâ¿¬ÇÏ
 ÃâÃ³
 Ãæ°ÝÀÌ
 Ãæ¼º
@@ -1943,14 +2046,13 @@ yaphoto
 Å¸´Ù
 Å¸ÀÌ¹Ö
 Å¹¿¹Àº
-Å¹¿¹Àºtagquestion
 Å¹¿¹Àº°ú
 Å¹¿¹Àºº¸
 Å¹¿¹ÀººñÅ°´Ï¾È³ç
 Å¹¿¹Àº¾È³ç
 Å¹¿¹ÀºÀÇ
 Å¹¿¹ÀºÀÌ
-ÅÂº¸
+ÅÂº¸1
 ÅÊÅÊÇØÁøµí
 ÅÍÇÁÈ¿¹Î
 Å×ÀÏÁî·±³Ê
@@ -1985,6 +2087,8 @@ yaphoto
 ÆÐ´Ù
 ÆÐ¼Ç¾Ë¾Æº¸±â
 ÆÒºÐµÑµµ°°Àº»ý°¢ÀÌ°ÙÁ®
+ÆÒÀ¸·Î½áÁÁ¾ÆÇÏ±à»ç¶ûÇì
+ÆÒÀ¸·Î½áÁÁ¾ÆÇÏ±à»ç¶ûÇì¿ä
 ÆÒÇÈ¾²´ø‰V
 Æä½º
 ÆîÄ¡´Ù
@@ -2017,7 +2121,6 @@ yaphoto
 ÇÏ³ª
 ÇÏ³×
 ÇÏ³×¿©
-ÇÏ´Âµ¥tagquestion
 ÇÏ·ç
 ÇÏ½Ã´Âµ¥
 ÇÏ¾Ç
@@ -2034,8 +2137,8 @@ yaphoto
 ÇÑ³ª¶ó´çÀÌ
 ÇÑ³ª¶ó¿Í
 ÇÑµí
-ÇÑ¸»ÀÌ³Ätagquestion
-ÇÑ¸»ÀÌ³ÄtagquestionÀÌ°Ô
+ÇÑ¸»
+ÇÑ¸»ÀÌ³Ä
 ÇÑ¹ø
 ÇÑ¹ø´õ
 ÇÑº¸¹è
@@ -2046,7 +2149,6 @@ yaphoto
 ÇÑ½Ã
 ÇÑ¿¹½½
 ÇÑÁö¿ì
-ÇÒ±îtagquestion
 ÇÒ»·
 ÇÒÀÎ
 ÇÕ°ÝÁ¡
@@ -2066,13 +2168,14 @@ yaphoto
 ÇãÇã
 Çæ´Ù
 Çì´Ù
+ÇìÇì´Ù
 Çô¿©³ª¿ÀÁö
 Çö¿ì±º
 Çö¿ì±ºÀÌ
+Çö¿ì´Ô
 Çö¿ì´Ô³ÑÁÁ
 Çö¿ì´Ô³ÑÁÁ¾Æ
-Çö¿ì´Ô¤±ÆÒÀ¸·Î½áÁÁ¾ÆÇÏ±à»ç¶ûÇì
-Çö¿ì´Ô¤±ÆÒÀ¸·Î½áÁÁ¾ÆÇÏ±à»ç¶ûÇì¿ä
+Çö¿ì´Ô¿ôÀ»¶§Á©¸ÚÁö¼Å
 Çö¿ì´Ù½Ã³ª¿ÔÀ¸¸é
 Çö¿ì¾ä
 ÇöÀå
@@ -2080,7 +2183,6 @@ yaphoto
 È£¶ûÀÌ
 È£¿ÍÃâ¿¬ÀÚ
 È£À§¹«»ç
-È£À§¹«»çtagquestion
 È£ÀÇÀû
 È£ÀÇÀûÀÌ±â
 È£À×
@@ -2102,10 +2204,12 @@ yaphoto
 È²»ê¹ú
 È²ÀÎÇõ
 È²ÈÄ
-È¸´Ù½Ãº¸±â
+È¸1
+È¸10
+È¸3
+È¸´Ù½Ãº¸±â02
+È¸´Ù½Ãº¸±â1
 È¸´çÃ·¹øÈ£
-È¸¿¹
-È¸¿¹°í
 È¿¹Î
 È¿¹Î°è¹é
 È¿¹Î°ú
@@ -2114,7 +2218,6 @@ yaphoto
 È¿¹Î´Ù¸®
 È¿¹Îµµ
 È¿¹ÎµîÀå
-È¿¹ÎµîÀåtagquestion
 È¿¹Î¸Ó¸®
 È¿¹Î¸Ó¸®½ºÅ¸
 È¿¹Îº¸´Ü
@@ -2130,7 +2233,6 @@ yaphoto
 È¿¹ÎÀÌµÇ°Ú½À´Ï
 È¿¹ÎÀÌµÇ°Ú½À´Ï´Ù
 È¿¹ÎÀÌ¶ó
-È¿¹ÎÀÌ¿´¾îtagquestion
 È¿¹ÎÂ¯ÀÌ»µ
 È¿¹ÎÂ¯ÀÌ»µ¿ä
 ÄL¾ð´Ï
@@ -2153,5 +2255,8 @@ yaphoto
 È÷ÆR
 ÈùÆ®
 Èû¾øÀº½Å¶óÀÇ±èÀ¯½Å
+¤¿¤¿
 ¤Ç¤Ç
 ¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ë¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç¤Ç
+¤È¤Ç
+¤Ñ¤Ó

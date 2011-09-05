@@ -1,5 +1,5 @@
 program_id	author_id	type	post_id	comment_id	publish_date	terms
-kbs1_greatking	putiaruna	POST	pym1dwb-_m7mq		2011-08-22	광개토 태왕 역시 오지은님 최고다tagsmile 근데 도영 도영이 담덕 담덕과 좋다 맺어지는는 않을것 같다 걱정 tagcry tagcry
+kbs1_greatking	putiaruna	POST	pym1dwb-_m7mq		2011-08-22	광개토 태왕 역시 오지은님 최고 tagsmile 근데 도영 도영이 담덕 담덕과 좋다 맺어지는는 않을것 같다 걱정 tagcry tagcry
 kbs1_greatking	putiaruna	POST	pym1dwq-_m7mq		2011-08-22	광개토 태왕 담망 참 차다 안타까웟다 역시 지혜롭다 왕 답게 tagcry tagcry
 kbs1_greatking	bongsun80	POST	pym96n6-nazr		2011-08-24	똑같다 할 하다 없다 광개토대왕비 모델 제작
 kbs1_greatking	thetisah0206	POST	pymgzzj-5b7ge		2011-08-27	오늘 토요일 토요 광개토태왕 광개토태왕한다 tagsmile
@@ -7,7 +7,7 @@ kbs1_greatking	jinilife	POST	pymizs5-gr_v		2011-08-25	논현동맛집 양대창�
 kbs1_greatking	nyc914	POST	pymm463-5ws5d		2011-08-27	아 광개토대왕진짜재미 tagsmile 다들그냥버럭소리만지르다끝 tagsmile 인상쓰고연기하는게참
 kbs1_greatking	j97509	POST	pymon6f-r7wf		2011-08-25	어제 말로 듣다 백두산 천지 구경 드물다 날씨 좋았다 뭐래 tagsmile 오늘 장군총 광개토대왕비 보다 가다 갈다 근데 학교 수업 걱정 진도많 진도많이 나가다 안되는데 안되는데요 tagcry
 kbs1_greatking	emp_29go	POST	pymwxbt-y202c		2011-08-27	내 존경 사람 사다 근대 순 영친왕 이은 김구 신채호 박은식 한규설 민영환 이상 김소월 이육사 정조 정약용 박제 이덕무 광해군 류성룡 이순신 세종태종 최영 공민왕 연개소문 영양왕 광개토왕 미천왕 동천왕 태조왕 을파소 대무신왕 추모왕 해모수
-kbs1_greatking	thetisah0206	COMMENT	pymgzzj-5b7ge	c_41g8m-ymgzzj-5b7ge	2011-08-27	완전 재밌어 내 사극 좋아하다 그런가tagquestion tagsmile
+kbs1_greatking	thetisah0206	COMMENT	pymgzzj-5b7ge	c_41g8m-ymgzzj-5b7ge	2011-08-27	완전 재밌어 내 사극 좋아하다 그런가 tagquestion tagsmile
 kbs1_greatking	tvxq_sia	COMMENT	pymgzzj-5b7ge	c_41z2h-ymgzzj-5b7ge	2011-08-27	나도 나다 나 좋아하다 하다 잘 자다 아는게 없다 tagsmile
-kbs1_greatking	tvxq_sia	COMMENT	pymgzzj-5b7ge	c_4bmrg-ymgzzj-5b7ge	2011-08-27	재미있어tagquestion그거 한번 못봐서 tagsmile
+kbs1_greatking	tvxq_sia	COMMENT	pymgzzj-5b7ge	c_4bmrg-ymgzzj-5b7ge	2011-08-27	재미 tagquestion 그거 한번 못봐서 tagsmile
 kbs1_greatking	gowm8264	COMMENT	pymm463-5ws5d	c_v99_z-ymm463-5ws5d	2011-08-28	난 나다 날다 티비 안봐서 모르다 tagsmile

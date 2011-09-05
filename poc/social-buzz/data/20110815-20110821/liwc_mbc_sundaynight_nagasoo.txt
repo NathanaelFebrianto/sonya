@@ -1,7 +1,10 @@
 program_id	author_id	type	post_id	comment_id	publish_date	feature	count	word
+mbc_sundaynight_nagasoo	yju1244	POST	pym0383-6exr		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	yju1244	POST	pym0383-6exr		2011-08-19	LOVEMARK	1.0	taglove
+mbc_sundaynight_nagasoo	yju1244	POST	pym0383-6exr		2011-08-19	POSITIVE	1.0	좋다
 mbc_sundaynight_nagasoo	tkdgh66971	POST	pym05lh-26sk		2011-08-19	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	tkdgh66971	POST	pym05lh-26sk		2011-08-19	POSITIVE	1.0	좋다
+mbc_sundaynight_nagasoo	shinee0721	POST	pym06ua-jidq		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	shinee0721	POST	pym06ua-jidq		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	shinee0721	POST	pym06ua-jidq		2011-08-20	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	shinee0721	POST	pym06ua-jidq		2011-08-20	LOVEMARK	1.0	taglove
@@ -13,7 +16,9 @@ mbc_sundaynight_nagasoo	tessmansam	POST	pym0d2b-55_lq		2011-08-20	EXCLAMMARK	1.0
 mbc_sundaynight_nagasoo	jiuk3322	POST	pym0fsh-_jse8		2011-08-20	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	tkwn8279	POST	pym0gtm-stbm		2011-08-19	PRESENT	1.0	이제
 mbc_sundaynight_nagasoo	tourismvic	POST	pym0hct-o597		2011-08-18	EXCLAMMARK	1.0	tagexclamation
+mbc_sundaynight_nagasoo	dong	POST	pym0hu1-x_p		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	nayun24	POST	pym0ixd-h1wx		2011-08-19	CONJUNCTION	1.0	그런데
+mbc_sundaynight_nagasoo	nayun24	POST	pym0ixd-h1wx		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	doruray	POST	pym0lzm-_xxe		2011-08-19	NEGATIVE	1.0	싫다
 mbc_sundaynight_nagasoo	jangkunblog	POST	pym0nwy-3eu		2011-08-18	POSITIVE	1.0	좋아하다
 mbc_sundaynight_nagasoo	redcom789	POST	pym0pdn-_quv		2011-08-19	PRESENT	1.0	오늘
@@ -21,9 +26,11 @@ mbc_sundaynight_nagasoo	redcom789	POST	pym0pdn-_quv		2011-08-19	QUANTIFIER	1.0	�
 mbc_sundaynight_nagasoo	redcom789	POST	pym0pdn-_quv		2011-08-19	POSITIVE	1.0	행복
 mbc_sundaynight_nagasoo	akwltkfkd	POST	pym0tkb-ymdf_		2011-08-20	PRESENT	2.0	오늘 지금
 mbc_sundaynight_nagasoo	akwltkfkd	POST	pym0tkb-ymdf_		2011-08-20	QUANTIFIER	1.0	아주
+mbc_sundaynight_nagasoo	akwltkfkd	POST	pym0tkb-ymdf_		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	akwltkfkd	POST	pym0tkb-ymdf_		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	akwltkfkd	POST	pym0tkb-ymdf_		2011-08-20	SMILEMARK	2.0	크 tagsmile
 mbc_sundaynight_nagasoo	akwltkfkd	POST	pym0tkb-ymdf_		2011-08-20	CRYMARK	1.0	tagcry
+mbc_sundaynight_nagasoo	akwltkfkd	POST	pym0tkb-ymdf_		2011-08-20	SEE	1.0	보다
 mbc_sundaynight_nagasoo	ginacarina	POST	pym0w24-5w0r6		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	ginacarina	POST	pym0w24-5w0r6		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	ideamank	POST	pym0yw5-5wvy3		2011-08-18	SMILEMARK	1.0	크
@@ -35,6 +42,7 @@ mbc_sundaynight_nagasoo	semine_	POST	pym0zlw-5ro8f		2011-08-20	SWEAR	1.0	존나
 mbc_sundaynight_nagasoo	semine_	POST	pym0zlw-5ro8f		2011-08-20	SEE	1.0	보다
 mbc_sundaynight_nagasoo	72vusen	POST	pym0_9y-5oa3o		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	72vusen	POST	pym0_9y-5oa3o		2011-08-18	EXCLAMMARK	1.0	tagexclamation
+mbc_sundaynight_nagasoo	bskworld	POST	pym0_e5-26sk		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	bskworld	POST	pym0_e5-26sk		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	bskworld	POST	pym0_e5-26sk		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	bskworld	POST	pym0_e5-26sk		2011-08-19	LOVEMARK	1.0	taglove
@@ -49,17 +57,22 @@ mbc_sundaynight_nagasoo	myppy2628	POST	pym1bqn-y2ijx		2011-08-19	CONJUNCTION	1.0
 mbc_sundaynight_nagasoo	shgml456	POST	pym1bzr-pv48		2011-08-19	ANGER	1.0	미치다
 mbc_sundaynight_nagasoo	coktail78	POST	pym1cd1-5lvul		2011-08-20	POSITIVE	1.0	보고싶다
 mbc_sundaynight_nagasoo	coktail78	POST	pym1cd1-5lvul		2011-08-20	HEAR	1.0	듣다
+mbc_sundaynight_nagasoo	jjyyzang	POST	pym1h5d-yhu_e		2011-08-20	QUESTIONMARK	1.0	tagquestion
+mbc_sundaynight_nagasoo	jjyyzang	POST	pym1h5d-yhu_e		2011-08-20	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	shoe_shop	POST	pym1nkk-_mtsz		2011-08-20	HEAR	1.0	듣다
 mbc_sundaynight_nagasoo	ha6788	POST	pym1o7q-8sdl		2011-08-20	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	ha6788	POST	pym1o7q-8sdl		2011-08-20	LOVEMARK	1.0	taglove
 mbc_sundaynight_nagasoo	wngusdn9414	POST	pym1quv-_wjl5		2011-08-20	CRYMARK	1.0	tagcry
+mbc_sundaynight_nagasoo	anny1101	POST	pym1vgw-2qre		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	7647wldnjs	POST	pym1zb8-bqd9		2011-08-20	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	spastar7	POST	pym1zkn-5x8tg		2011-08-20	EXCLAMMARK	1.0	tagexclamation
+mbc_sundaynight_nagasoo	frompic	POST	pym318g-_d1bz		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	noluk	POST	pym32gg-odmc		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	dltjgus99	POST	pym32v4-9scr		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	dltjgus99	POST	pym32v4-9scr		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	star000405	POST	pym32ve-5p1s7		2011-08-18	PRESENT	1.0	이제
 mbc_sundaynight_nagasoo	star000405	POST	pym32ve-5p1s7		2011-08-18	CRYMARK	1.0	tagcry
+mbc_sundaynight_nagasoo	poydaddy	POST	pym32zz-gl5a		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	poydaddy	POST	pym32zz-gl5a		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	bazzy	POST	pym33hk-5arv		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	bazzy	POST	pym33hk-5arv		2011-08-18	LOVEMARK	1.0	taglove
@@ -85,16 +98,20 @@ mbc_sundaynight_nagasoo	essel9101	POST	pym3ftx-_rh19		2011-08-20	SMILEMARK	1.0	t
 mbc_sundaynight_nagasoo	uchirchir	POST	pym3jmr-yiwok		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	uchirchir	POST	pym3jmr-yiwok		2011-08-18	POSITIVE	1.0	좋다
 mbc_sundaynight_nagasoo	dhd1015-1	POST	pym3pjv-5jgn1		2011-08-18	QUANTIFIER	1.0	많이
+mbc_sundaynight_nagasoo	dhd1015-1	POST	pym3pjv-5jgn1		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	dhd1015-1	POST	pym3pjv-5jgn1		2011-08-18	POSITIVE	1.0	좋다
+mbc_sundaynight_nagasoo	dhd1015-1	POST	pym3pjv-5jgn1		2011-08-18	SEE	1.0	보다
 mbc_sundaynight_nagasoo	hswgod2000	POST	pym3t49-hwpq		2011-08-20	PRESENT	1.0	이제
 mbc_sundaynight_nagasoo	hswgod2000	POST	pym3t49-hwpq		2011-08-20	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	hswgod2000	POST	pym3t49-hwpq		2011-08-20	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	mannam0000	POST	pym3vib-5qlbh		2011-08-20	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	tatoru	POST	pym3wcl-uhx4		2011-08-18	SMILEMARK	1.0	크
+mbc_sundaynight_nagasoo	cool_hgs	POST	pym3_af-54nrn		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	cool_hgs	POST	pym3_af-54nrn		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	cool_hgs	POST	pym3_af-54nrn		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	cool_hgs	POST	pym3_af-54nrn		2011-08-18	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	cool_hgs	POST	pym3_af-54nrn		2011-08-18	SADNESS	1.0	아프
+mbc_sundaynight_nagasoo	cool_hgs	POST	pym3_af-54nrn		2011-08-18	SEE	1.0	보다
 mbc_sundaynight_nagasoo	zolfjkimblee	POST	pym3_fe-55gdk		2011-08-18	SMILEMARK	1.0	크
 mbc_sundaynight_nagasoo	love__yuna	POST	pym508w-_hzj1		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	shk8086	POST	pym51o4-_glsb		2011-08-18	QUESTIONMARK	1.0	tagquestion
@@ -103,6 +120,7 @@ mbc_sundaynight_nagasoo	skdaks78	POST	pym52rh-g9zm		2011-08-19	QUESTIONMARK	1.0	
 mbc_sundaynight_nagasoo	hujummix	POST	pym53gm-_sip1		2011-08-16	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	hujummix	POST	pym53gm-_sip1		2011-08-16	POSITIVE	1.0	반가
 mbc_sundaynight_nagasoo	kirafe	POST	pym54fg-zvve		2011-08-19	PRESENT	1.0	이제
+mbc_sundaynight_nagasoo	kirafe	POST	pym54fg-zvve		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	kirafe	POST	pym54fg-zvve		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	kimkyoungwon	POST	pym55as-_ei92		2011-08-16	POSITIVE	1.0	웃다
 mbc_sundaynight_nagasoo	recjinsil	POST	pym5711-_flix		2011-08-19	PRESENT	1.0	오늘
@@ -117,31 +135,40 @@ mbc_sundaynight_nagasoo	minbymissa	POST	pym58ja-_mry9		2011-08-19	EXCLAMMARK	1.0
 mbc_sundaynight_nagasoo	minbymissa	POST	pym58ja-_mry9		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	minbymissa	POST	pym58ja-_mry9		2011-08-19	POSITIVE	1.0	반가
 mbc_sundaynight_nagasoo	minbymissa	POST	pym58ja-_mry9		2011-08-19	SEE	1.0	보다
+mbc_sundaynight_nagasoo	hahaha7998	POST	pym58ln-_h66g		2011-08-16	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	xtoshin	POST	pym5c55-2uqi		2011-08-16	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	guswngood3	POST	pym5d63-5bo73		2011-08-16	EXCLAMMARK	1.0	tagexclamation
+mbc_sundaynight_nagasoo	honey7082	POST	pym5d9d-i497		2011-08-16	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	honey7082	POST	pym5d9d-i497		2011-08-16	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	honey7082	POST	pym5d9d-i497		2011-08-16	SEE	1.0	보다
 mbc_sundaynight_nagasoo	guswngood3	POST	pym5dd8-5bo73		2011-08-16	QUANTIFIER	1.0	너무
 mbc_sundaynight_nagasoo	g_juliet	POST	pym5dpm-_6wji		2011-08-19	LOVEMARK	1.0	taglove
 mbc_sundaynight_nagasoo	jackswerdi	POST	pym5fwe-yl2o0		2011-08-18	PRESENT	1.0	오늘
 mbc_sundaynight_nagasoo	jackswerdi	POST	pym5fwe-yl2o0		2011-08-18	SMILEMARK	1.0	크
+mbc_sundaynight_nagasoo	catspot	POST	pym5gey-7q6o		2011-08-16	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	catspot	POST	pym5gey-7q6o		2011-08-16	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	catspot	POST	pym5gey-7q6o		2011-08-16	NEGATIVE	1.0	싫다
+mbc_sundaynight_nagasoo	jyhm1830	POST	pym5gkk-y9ev		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	jyhm1830	POST	pym5gkk-y9ev		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	jyhm1830	POST	pym5gkk-y9ev		2011-08-19	SEE	1.0	보다
 mbc_sundaynight_nagasoo	tbworld_tv	POST	pym5jk6-_clkj		2011-08-18	HEAR	1.0	느끼다
+mbc_sundaynight_nagasoo	epicegirls	POST	pym5lm0-_krf1		2011-08-16	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	hello_oasha	POST	pym5pdk-54qm0		2011-08-18	SMILEMARK	1.0	크
 mbc_sundaynight_nagasoo	nanapro	POST	pym5px1-yn9v6		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	tongil-edu	POST	pym5rvx-5ugn2		2011-08-18	QUANTIFIER	1.0	매우
+mbc_sundaynight_nagasoo	tongil-edu	POST	pym5rvx-5ugn2		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	tongil-edu	POST	pym5rvx-5ugn2		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	tongil-edu	POST	pym5rvx-5ugn2		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	duaghckd	POST	pym5stq-y933q		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	duaghckd	POST	pym5stq-y933q		2011-08-17	SEE	1.0	보다
 mbc_sundaynight_nagasoo	zkdlxh1412	POST	pym5thx-y3yzk		2011-08-16	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	wmq_	POST	pym5wgx-__wup		2011-08-19	PRESENT	1.0	이제
+mbc_sundaynight_nagasoo	mymyjjin	POST	pym5zb_-5q_zx		2011-08-17	QUESTIONMARK	1.0	tagquestion
+mbc_sundaynight_nagasoo	mymyjjin	POST	pym5zb_-5q_zx		2011-08-17	SEE	1.0	보다
 mbc_sundaynight_nagasoo	sportskhan	POST	pym5_m2-ymvvx		2011-08-16	SMILEMARK	1.0	크
 mbc_sundaynight_nagasoo	sportskhan	POST	pym5_m2-ymvvx		2011-08-16	POSITIVE	1.0	좋아하다
 mbc_sundaynight_nagasoo	telenet5425	POST	pym6230-5g77w		2011-08-20	POSITIVE	1.0	웃음
+mbc_sundaynight_nagasoo	jisiklog	POST	pym62hw-_rcxy		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	kirihara	POST	pym633g-yy_z		2011-08-17	SMILEMARK	1.0	크
 mbc_sundaynight_nagasoo	upriselife	POST	pym64x3-izxk		2011-08-18	PRESENT	1.0	옛날
 mbc_sundaynight_nagasoo	upriselife	POST	pym64x3-izxk		2011-08-18	EXCLAMMARK	1.0	tagexclamation
@@ -156,9 +183,11 @@ mbc_sundaynight_nagasoo	dlagodnd1	POST	pym65x7-5_gwl		2011-08-17	PRESENT	1.0	지
 mbc_sundaynight_nagasoo	dlagodnd1	POST	pym65x7-5_gwl		2011-08-17	QUANTIFIER	1.0	너무
 mbc_sundaynight_nagasoo	dlagodnd1	POST	pym65x7-5_gwl		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	kill3865	POST	pym665d-5_lhz		2011-08-17	PRESENT	2.0	오늘 지금
+mbc_sundaynight_nagasoo	kill3865	POST	pym665d-5_lhz		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	kolconx	POST	pym667b-vhor		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	kolconx	POST	pym667b-vhor		2011-08-20	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	jenaland	POST	pym67_s-_motb		2011-08-20	SMILEMARK	1.0	크
+mbc_sundaynight_nagasoo	shinej0004	POST	pym68eo-_homm		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	princesskim	POST	pym68hr-9019		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	reglory	POST	pym68t5-_6de4		2011-08-20	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	rladpwls0812	POST	pym6ahe-_qdcr		2011-08-19	EXCLAMMARK	1.0	tagexclamation
@@ -168,20 +197,24 @@ mbc_sundaynight_nagasoo	rk0522	POST	pym6ht6-_k5gw		2011-08-20	PRESENT	1.0	지금
 mbc_sundaynight_nagasoo	rk0522	POST	pym6ht6-_k5gw		2011-08-20	CONJUNCTION	1.0	그런데
 mbc_sundaynight_nagasoo	rk0522	POST	pym6ht6-_k5gw		2011-08-20	POSITIVE	1.0	좋다
 mbc_sundaynight_nagasoo	rk0522	POST	pym6ht6-_k5gw		2011-08-20	HEAR	1.0	듣다
+mbc_sundaynight_nagasoo	nadiag26	POST	pym6i7r-_icu7		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	sanyill	POST	pym6j4g-8ke_		2011-08-17	SMILEMARK	2.0	흐 tagsmile
 mbc_sundaynight_nagasoo	sanyill	POST	pym6j4g-8ke_		2011-08-17	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	wlsrud0104	POST	pym6kbf-j6zv		2011-08-20	PRESENT	2.0	오늘 지금
+mbc_sundaynight_nagasoo	wlsrud0104	POST	pym6kbf-j6zv		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	wlsrud0104	POST	pym6kbf-j6zv		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	wlsrud0104	POST	pym6kbf-j6zv		2011-08-20	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	wlsrud0104	POST	pym6kbf-j6zv		2011-08-20	POSITIVE	1.0	좋다
 mbc_sundaynight_nagasoo	wlsrud0104	POST	pym6kbf-j6zv		2011-08-20	SADNESS	1.0	아프
 mbc_sundaynight_nagasoo	purenpassion	POST	pym6ohz-59hfm		2011-08-17	EXCLAMMARK	1.0	tagexclamation
+mbc_sundaynight_nagasoo	jjyyzang	POST	pym6om2-yhu_e		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	bskworld	POST	pym6pf7-ybvuf		2011-08-19	PRESENT	1.0	이번주
 mbc_sundaynight_nagasoo	bskworld	POST	pym6pf7-ybvuf		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	bskworld	POST	pym6pf7-ybvuf		2011-08-19	POSITIVE	1.0	재미있
 mbc_sundaynight_nagasoo	bskworld	POST	pym6pf7-ybvuf		2011-08-19	NEGATIVE	1.0	아쉬
 mbc_sundaynight_nagasoo	tesc0m	POST	pym6qu2-_g25o		2011-08-17	POSITIVE	1.0	좋다
 mbc_sundaynight_nagasoo	annieshalom	POST	pym6ubz-t4wy		2011-08-17	EXCLAMMARK	1.0	tagexclamation
+mbc_sundaynight_nagasoo	rayrenya0825	POST	pym6vbr-p6dw		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	rayrenya0825	POST	pym6vbr-p6dw		2011-08-18	POSITIVE	1.0	좋아하다
 mbc_sundaynight_nagasoo	rayrenya0825	POST	pym6vbr-p6dw		2011-08-18	SEE	1.0	보다
 mbc_sundaynight_nagasoo	rayrenya0825	POST	pym6vbr-p6dw		2011-08-18	HEAR	1.0	느끼다
@@ -196,14 +229,17 @@ mbc_sundaynight_nagasoo	thwlstn	POST	pym6_be-s69f		2011-08-20	NEGATIVE	1.0	미�
 mbc_sundaynight_nagasoo	thwlstn	POST	pym6_be-s69f		2011-08-20	SEE	1.0	보다
 mbc_sundaynight_nagasoo	ektns548	POST	pym6_ss-554cd		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	lubia52	POST	pym94v5-yxaap		2011-08-20	PRESENT	1.0	이제
+mbc_sundaynight_nagasoo	lubia52	POST	pym94v5-yxaap		2011-08-20	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	lubia52	POST	pym94v5-yxaap		2011-08-20	LOVEMARK	1.0	taglove
 mbc_sundaynight_nagasoo	lubia52	POST	pym94v5-yxaap		2011-08-20	POSITIVE	1.0	좋다
 mbc_sundaynight_nagasoo	lubia52	POST	pym94v5-yxaap		2011-08-20	SEE	1.0	보다
 mbc_sundaynight_nagasoo	5thplanet	POST	pym9cxo-mvv		2011-08-20	SEE	1.0	보다
 mbc_sundaynight_nagasoo	jeongyoon96	POST	pym9ioq-595cw		2011-08-20	PRESENT	1.0	이제
+mbc_sundaynight_nagasoo	jeongyoon96	POST	pym9ioq-595cw		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	jeongyoon96	POST	pym9ioq-595cw		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	jeongyoon96	POST	pym9ioq-595cw		2011-08-20	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	kum4167714	POST	pym9myg-_a14r		2011-08-20	PRESENT	1.0	지금
+mbc_sundaynight_nagasoo	kum4167714	POST	pym9myg-_a14r		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	kum4167714	POST	pym9myg-_a14r		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	kum4167714	POST	pym9myg-_a14r		2011-08-20	POSITIVE	1.0	좋다
 mbc_sundaynight_nagasoo	kjyoun0106	POST	pym9no1-5yj1g		2011-08-20	QUANTIFIER	1.0	조금
@@ -214,6 +250,7 @@ mbc_sundaynight_nagasoo	hanbyul10607	POST	pymb0da-5wf9t		2011-08-19	SMILEMARK	1.
 mbc_sundaynight_nagasoo	jubang2455	POST	pymb4ko-_qaa9		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	d0688	POST	pymbb21-t704		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	d0688	POST	pymbb21-t704		2011-08-19	CRYMARK	1.0	tagcry
+mbc_sundaynight_nagasoo	osy991102	POST	pymbc7w-yfeiw		2011-08-20	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	osy991102	POST	pymbc7w-yfeiw		2011-08-20	CRYMARK	1.0	흑흑
 mbc_sundaynight_nagasoo	ortholint	POST	pymbfam-_t_do		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	ortholint	POST	pymbfam-_t_do		2011-08-19	SEE	1.0	보다
@@ -229,14 +266,17 @@ mbc_sundaynight_nagasoo	lgm0827	POST	pymbnwa-yyzcn		2011-08-20	SMILEMARK	1.0	크
 mbc_sundaynight_nagasoo	lgm0827	POST	pymbnwa-yyzcn		2011-08-20	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	lgm0827	POST	pymbnwa-yyzcn		2011-08-20	POSITIVE	1.0	부럽다
 mbc_sundaynight_nagasoo	juna12345	POST	pymbol8-57kny		2011-08-19	CRYMARK	1.0	tagcry
+mbc_sundaynight_nagasoo	d0688	POST	pymbpkt-t704		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	d0688	POST	pymbpkt-t704		2011-08-19	POSITIVE	1.0	좋다
 mbc_sundaynight_nagasoo	d0688	POST	pymbpkt-t704		2011-08-19	SEE	1.0	보다
 mbc_sundaynight_nagasoo	mountain_boi	POST	pymbr5l-htnt		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	mountain_boi	POST	pymbr5l-htnt		2011-08-20	SMILEMARK	1.0	tagsmile
+mbc_sundaynight_nagasoo	rpduswn	POST	pymbscn-__69g		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	rpduswn	POST	pymbscn-__69g		2011-08-19	SMILEMARK	2.0	크 tagsmile
 mbc_sundaynight_nagasoo	rpduswn	POST	pymbscn-__69g		2011-08-19	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	rpduswn	POST	pymbscn-__69g		2011-08-19	SEE	1.0	보다
 mbc_sundaynight_nagasoo	poydaddy	POST	pymbsle-htnt		2011-08-20	EXCLAMMARK	1.0	tagexclamation
+mbc_sundaynight_nagasoo	poydaddy	POST	pymbsle-htnt		2011-08-20	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	poydaddy	POST	pymbsle-htnt		2011-08-20	HEAR	1.0	느끼다
 mbc_sundaynight_nagasoo	ryehd0505	POST	pymbt1m-_rlrg		2011-08-19	PRESENT	1.0	이제
 mbc_sundaynight_nagasoo	hellogirl123	POST	pymbti8-l__k		2011-08-20	EXCLAMMARK	1.0	tagexclamation
@@ -264,12 +304,16 @@ mbc_sundaynight_nagasoo	e-channel	POST	pymd6gg-_wj_6		2011-08-17	SEE	1.0	보다
 mbc_sundaynight_nagasoo	sportskhan	POST	pymd6qw-ymvvx		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	sportskhan	POST	pymd6qw-ymvvx		2011-08-15	POSITIVE	1.0	웃다
 mbc_sundaynight_nagasoo	raralty318	POST	pymd8p_-ya5xo		2011-08-15	SMILEMARK	1.0	tagsmile
+mbc_sundaynight_nagasoo	jchyun22	POST	pymd8_5-5l0pg		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	jchyun22	POST	pymd8_5-5l0pg		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	theastmin	POST	pymd9gx-5_mxs		2011-08-15	PAST	1.0	어제
+mbc_sundaynight_nagasoo	plant84	POST	pymdbm1-b9pa		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	happysun0524	POST	pymdd0x-ybvuf		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	happysun0524	POST	pymdd0x-ybvuf		2011-08-17	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	happysun0524	POST	pymdd0x-ybvuf		2011-08-17	POSITIVE	1.0	좋아하다
+mbc_sundaynight_nagasoo	sang0018	POST	pymddaq-_r4ms		2011-08-15	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	sang0018	POST	pymddaq-_r4ms		2011-08-15	CRYMARK	1.0	tagcry
+mbc_sundaynight_nagasoo	poydaddy	POST	pymde28-5ched		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	rjh4466	POST	pymde_o-ys7uf		2011-08-15	PAST	1.0	어제
 mbc_sundaynight_nagasoo	rjh4466	POST	pymde_o-ys7uf		2011-08-15	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	rjh4466	POST	pymde_o-ys7uf		2011-08-15	SEE	1.0	보다
@@ -292,17 +336,23 @@ mbc_sundaynight_nagasoo	kyl970408	POST	pymdmfm-iptj		2011-08-16	CRYMARK	1.0	tagc
 mbc_sundaynight_nagasoo	teelab	POST	pymdngh-_pxn0		2011-08-16	HEAR	1.0	듣다
 mbc_sundaynight_nagasoo	x_masangel	POST	pymdo6x-54d3e		2011-08-15	PRESENT	1.0	이제
 mbc_sundaynight_nagasoo	x_masangel	POST	pymdo6x-54d3e		2011-08-15	HEAR	1.0	느끼다
+mbc_sundaynight_nagasoo	kyoungt70	POST	pymdoeu-bxvq		2011-08-15	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	sky0popcorn	POST	pymdpvz-_c11j		2011-08-15	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	papps48	POST	pymdqit-ylxfv		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	supul75	POST	pymdqxq-wsrp		2011-08-16	HEAR	1.0	듣다
 mbc_sundaynight_nagasoo	ksh20103	POST	pymdr6m-57vgo		2011-08-17	SMILEMARK	1.0	tagsmile
+mbc_sundaynight_nagasoo	happymindyuk	POST	pymdrl6-_q8kg		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	happymindyuk	POST	pymdrl6-_q8kg		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	happymindyuk	POST	pymdrl6-_q8kg		2011-08-18	POSITIVE	1.0	좋아하다
 mbc_sundaynight_nagasoo	kserty	POST	pymdrmn-5hy3w		2011-08-15	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	bsm0670	POST	pymdsew-_h4la		2011-08-16	PRESENT	1.0	지금
 mbc_sundaynight_nagasoo	bsm0670	POST	pymdsew-_h4la		2011-08-16	POSITIVE	2.0	좋아 좋아하다
 mbc_sundaynight_nagasoo	bsm0670	POST	pymdsew-_h4la		2011-08-16	NEGATIVE	1.0	후회
+mbc_sundaynight_nagasoo	mjlee1263	POST	pymdt0p-78w4		2011-08-17	QUESTIONMARK	1.0	tagquestion
+mbc_sundaynight_nagasoo	mjlee1263	POST	pymdt0p-78w4		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	sam2456	POST	pymdtme-eviz		2011-08-16	POSITIVE	1.0	좋다
+mbc_sundaynight_nagasoo	kins9788	POST	pymdty_-839y		2011-08-15	QUESTIONMARK	1.0	tagquestion
+mbc_sundaynight_nagasoo	jchyun22	POST	pymducd-5l0pg		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	gta459	POST	pymduq_-5et5m		2011-08-17	POSITIVE	1.0	좋다
 mbc_sundaynight_nagasoo	sohnce	POST	pymdvaq-4btm		2011-08-18	POSITIVE	1.0	좋다
 mbc_sundaynight_nagasoo	sohnce	POST	pymdvaq-4btm		2011-08-18	SEE	1.0	보다
@@ -319,17 +369,21 @@ mbc_sundaynight_nagasoo	skwi0327	POST	pymd_pp-0l0j		2011-08-18	CRYMARK	1.0	tagcr
 mbc_sundaynight_nagasoo	skwi0327	POST	pymd_pp-0l0j		2011-08-18	SADNESS	1.0	슬프다
 mbc_sundaynight_nagasoo	hjyrara	POST	pyme4r_-xp_z		2011-08-19	PAST	1.0	어제
 mbc_sundaynight_nagasoo	hjyrara	POST	pyme4r_-xp_z		2011-08-19	PRESENT	2.0	지금 오늘
+mbc_sundaynight_nagasoo	hjyrara	POST	pyme4r_-xp_z		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	hjyrara	POST	pyme4r_-xp_z		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	hjyrara	POST	pyme4r_-xp_z		2011-08-19	NEGATIVE	1.0	후회
 mbc_sundaynight_nagasoo	poydaddy	POST	pyme52c-y9wmv		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	poydaddy	POST	pyme52c-y9wmv		2011-08-18	POSITIVE	1.0	좋다
+mbc_sundaynight_nagasoo	imdoyoon2	POST	pyme85h-e34s		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	imdoyoon2	POST	pyme85h-e34s		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	imdoyoon2	POST	pyme85h-e34s		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	sonuosidae	POST	pymec85-5esci		2011-08-19	NEGATIVE	2.0	울고싶 후회
 mbc_sundaynight_nagasoo	sonuosidae	POST	pymec85-5esci		2011-08-19	SADNESS	1.0	울고싶
 mbc_sundaynight_nagasoo	kyj21239	POST	pymehcl-5u1c		2011-08-19	PRESENT	1.0	이제
+mbc_sundaynight_nagasoo	kyj21239	POST	pymehcl-5u1c		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	kyj21239	POST	pymehcl-5u1c		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	gmldus69	POST	pymejxa-rwnc		2011-08-19	SWEAR	1.0	씨발
+mbc_sundaynight_nagasoo	gmldus69	POST	pymejxa-rwnc		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	gmldus69	POST	pymejxa-rwnc		2011-08-19	POSITIVE	1.0	좋아하다
 mbc_sundaynight_nagasoo	nettinggirl	POST	pymejy6-y6u19		2011-08-19	POSITIVE	2.0	좋다 멋지다
 mbc_sundaynight_nagasoo	malt15	POST	pymemem-53oqr		2011-08-19	CRYMARK	1.0	tagcry
@@ -342,6 +396,7 @@ mbc_sundaynight_nagasoo	k_d_n	POST	pymerzg-_w3w1		2011-08-19	EXCLAMMARK	1.0	tage
 mbc_sundaynight_nagasoo	k_d_n	POST	pymerzg-_w3w1		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	k_d_n	POST	pymerzg-_w3w1		2011-08-19	SEE	1.0	보다
 mbc_sundaynight_nagasoo	jwe06157	POST	pymesuv-yohyy		2011-08-19	PRESENT	1.0	이제
+mbc_sundaynight_nagasoo	looktique	POST	pymevzp-_p6s4		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	cns7505g	POST	pymexly-541c7		2011-08-19	PRESENT	1.0	오늘
 mbc_sundaynight_nagasoo	cns7505g	POST	pymexly-541c7		2011-08-19	SEE	1.0	보다
 mbc_sundaynight_nagasoo	ansdudwns12	POST	pymjyqx-_53ze		2011-08-20	POSITIVE	2.0	좋아하다 좋다
@@ -350,16 +405,22 @@ mbc_sundaynight_nagasoo	cosmosjs	POST	pymk32y-mi0x		2011-08-19	HEAR	1.0	듣다
 mbc_sundaynight_nagasoo	lee020632	POST	pymk5w0-5qyg7		2011-08-19	PRESENT	1.0	지금
 mbc_sundaynight_nagasoo	lee020632	POST	pymk5w0-5qyg7		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	oddysee12	POST	pymk62h-w9hj		2011-08-17	CRYMARK	1.0	tagcry
+mbc_sundaynight_nagasoo	ester3807	POST	pymk73p-_qq9i		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	wyoung_lee	POST	pymkbbt-91y5		2011-08-20	QUANTIFIER	1.0	너무
 mbc_sundaynight_nagasoo	wyoung_lee	POST	pymkbbt-91y5		2011-08-20	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	wyoung_lee	POST	pymkbbt-91y5		2011-08-20	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	wyoung_lee	POST	pymkbbt-91y5		2011-08-20	POSITIVE	1.0	행복
+mbc_sundaynight_nagasoo	yminne	POST	pymkbbz-s5rm		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	yminne	POST	pymkbbz-s5rm		2011-08-18	EXCLAMMARK	1.0	tagexclamation
+mbc_sundaynight_nagasoo	eve10041	POST	pymkc3a-943u		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	eve10041	POST	pymkc3a-943u		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	eve10041	POST	pymkc3a-943u		2011-08-17	NEGATIVE	1.0	싫다
 mbc_sundaynight_nagasoo	obt5946	POST	pymkca1-5ongz		2011-08-18	PRESENT	1.0	요즘
+mbc_sundaynight_nagasoo	obt5946	POST	pymkca1-5ongz		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	obt5946	POST	pymkca1-5ongz		2011-08-18	SMILEMARK	1.0	tagsmile
+mbc_sundaynight_nagasoo	obt5946	POST	pymkca1-5ongz		2011-08-18	POSITIVE	1.0	좋다
 mbc_sundaynight_nagasoo	eunii31	POST	pymkd0a-jzju		2011-08-18	SMILEMARK	1.0	흐
+mbc_sundaynight_nagasoo	xyovite	POST	pymkd4f-5hso2		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	prickly	POST	pymkec3-9qft		2011-08-19	POSITIVE	1.0	좋다
 mbc_sundaynight_nagasoo	prickly	POST	pymkec3-9qft		2011-08-19	SEE	1.0	보다
 mbc_sundaynight_nagasoo	semine_	POST	pymkedu-5ro8f		2011-08-19	SMILEMARK	1.0	tagsmile
@@ -369,7 +430,9 @@ mbc_sundaynight_nagasoo	kiranica	POST	pymkhjc-__996		2011-08-20	PRESENT	2.0	요�
 mbc_sundaynight_nagasoo	kiranica	POST	pymkhjc-__996		2011-08-20	QUANTIFIER	1.0	많이
 mbc_sundaynight_nagasoo	kiranica	POST	pymkhjc-__996		2011-08-20	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	kiranica	POST	pymkhjc-__996		2011-08-20	POSITIVE	1.0	좋다
+mbc_sundaynight_nagasoo	marine_king	POST	pymkhsz-yv_i5		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	marine_king	POST	pymkhsz-yv_i5		2011-08-17	SEE	1.0	보다
+mbc_sundaynight_nagasoo	monicca0202	POST	pymki5h-ywymo		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	monicca0202	POST	pymki5h-ywymo		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	tksxk718	POST	pymkk6e-ypxno		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	jjj0389	POST	pymkno7-md1d		2011-08-18	SMILEMARK	1.0	tagsmile
@@ -384,10 +447,12 @@ mbc_sundaynight_nagasoo	dkqk526	POST	pymkt96-tkz8		2011-08-18	SMILEMARK	1.0	크
 mbc_sundaynight_nagasoo	dkqk526	POST	pymkt96-tkz8		2011-08-18	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	dkqk526	POST	pymkt96-tkz8		2011-08-18	POSITIVE	1.0	좋아
 mbc_sundaynight_nagasoo	shoe_shop	POST	pymkvcv-_mtsz		2011-08-17	HEAR	1.0	듣다
+mbc_sundaynight_nagasoo	good_bb	POST	pymkv_p-_hfc9		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	good_bb	POST	pymkv_p-_hfc9		2011-08-18	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	rhtn231	POST	pymkw4w-_h23q		2011-08-20	PRESENT	2.0	오늘 지금
 mbc_sundaynight_nagasoo	rhtn231	POST	pymkw4w-_h23q		2011-08-20	QUANTIFIER	1.0	너무
 mbc_sundaynight_nagasoo	rhtn231	POST	pymkw4w-_h23q		2011-08-20	CRYMARK	1.0	tagcry
+mbc_sundaynight_nagasoo	ehdl7595	POST	pymkw6q-7vd8		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	whitemin000	POST	pymkxuh-yl0hv		2011-08-19	PRESENT	1.0	오늘
 mbc_sundaynight_nagasoo	whitemin000	POST	pymkxuh-yl0hv		2011-08-19	ANGER	1.0	미치다
 mbc_sundaynight_nagasoo	whitemin000	POST	pymkxuh-yl0hv		2011-08-19	ANXIETY	2.0	무섭 무서
@@ -399,6 +464,7 @@ mbc_sundaynight_nagasoo	dewgrass	POST	pymk_7r-_1163		2011-08-18	NEGATIVE	1.0	아
 mbc_sundaynight_nagasoo	98kown-jin	POST	pymy271-_ieoa		2011-08-16	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	98kown-jin	POST	pymy271-_ieoa		2011-08-16	LOVEMARK	1.0	taglove
 mbc_sundaynight_nagasoo	manchester04	POST	pymy2uj-skpt		2011-08-16	SMILEMARK	1.0	크
+mbc_sundaynight_nagasoo	juy9808	POST	pymy4c0-ydccm		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	tmdrud9289	POST	pymy5q1-_rni_		2011-08-18	PRESENT	2.0	오늘 지금
 mbc_sundaynight_nagasoo	tmdrud9289	POST	pymy5q1-_rni_		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	rainlov77	POST	pymy8ff-59pt4		2011-08-17	SWEAR	1.0	존나
@@ -411,6 +477,7 @@ mbc_sundaynight_nagasoo	soccerturk	POST	pymyb7u-ycnlm		2011-08-16	EXCLAMMARK	1.0
 mbc_sundaynight_nagasoo	moongchi831	POST	pymydgy-_jsk_		2011-08-16	SEE	1.0	보다
 mbc_sundaynight_nagasoo	kohj123	POST	pymygzr-2ztg		2011-08-16	SMILEMARK	1.0	크
 mbc_sundaynight_nagasoo	kohj123	POST	pymygzr-2ztg		2011-08-16	SEE	1.0	보다
+mbc_sundaynight_nagasoo	dbslkim5683	POST	pymyix8-_rifj		2011-08-16	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	dbslkim5683	POST	pymyix8-_rifj		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	dbslkim5683	POST	pymyix8-_rifj		2011-08-16	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	dbslkim5683	POST	pymyix8-_rifj		2011-08-16	POSITIVE	1.0	좋다
@@ -420,6 +487,7 @@ mbc_sundaynight_nagasoo	covn	POST	pymyj2a-xhaf		2011-08-16	SMILEMARK	1.0	tagsmil
 mbc_sundaynight_nagasoo	seekist	POST	pymyjcf-52npq		2011-08-16	NEGATIVE	1.0	싫다
 mbc_sundaynight_nagasoo	seekist	POST	pymyjcf-52npq		2011-08-16	SEE	1.0	보다
 mbc_sundaynight_nagasoo	loveanna419	POST	pymyjn_-57p2w		2011-08-16	PRESENT	1.0	오늘
+mbc_sundaynight_nagasoo	loveanna419	POST	pymyjn_-57p2w		2011-08-16	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	justinus99	POST	pymyl2m-537a		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	justinus99	POST	pymyl2m-537a		2011-08-16	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	wnfl85	POST	pymyle1-5rhi		2011-08-16	EXCLAMMARK	1.0	tagexclamation
@@ -428,8 +496,10 @@ mbc_sundaynight_nagasoo	ybrocks	POST	pymyllx-_swxx		2011-08-16	SMILEMARK	1.0	tag
 mbc_sundaynight_nagasoo	ybrocks	POST	pymyllx-_swxx		2011-08-16	LOVEMARK	1.0	taglove
 mbc_sundaynight_nagasoo	ybrocks	POST	pymynj1-_guu6		2011-08-16	POSITIVE	1.0	즐겁다
 mbc_sundaynight_nagasoo	gyoums	POST	pymyosh-ylhfx		2011-08-16	EXCLAMMARK	1.0	tagexclamation
+mbc_sundaynight_nagasoo	minji7203	POST	pymypig-yedn8		2011-08-16	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	minji7203	POST	pymypig-yedn8		2011-08-16	POSITIVE	1.0	좋다
 mbc_sundaynight_nagasoo	imkorea7	POST	pymyptu-zjbs		2011-08-15	PRESENT	1.0	이제
+mbc_sundaynight_nagasoo	imkorea7	POST	pymyptu-zjbs		2011-08-15	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	imkorea7	POST	pymyptu-zjbs		2011-08-15	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	imkorea7	POST	pymyptu-zjbs		2011-08-15	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	imkorea7	POST	pymyptu-zjbs		2011-08-15	POSITIVE	1.0	좋다
@@ -445,6 +515,7 @@ mbc_sundaynight_nagasoo	jessie423	POST	pymyssg-51kqa		2011-08-16	PRESENT	1.0	올
 mbc_sundaynight_nagasoo	jessie423	POST	pymyssg-51kqa		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	jessie423	POST	pymyssg-51kqa		2011-08-16	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	jessie423	POST	pymyssg-51kqa		2011-08-16	SEE	1.0	보다
+mbc_sundaynight_nagasoo	komrkddkwl	POST	pymysxa-y0bhv		2011-08-16	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	komrkddkwl	POST	pymysxa-y0bhv		2011-08-16	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	wnfl85	POST	pymytu9-5rhi		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	wnfl85	POST	pymytu9-5rhi		2011-08-16	SMILEMARK	1.0	크
@@ -470,7 +541,9 @@ mbc_sundaynight_nagasoo	yo921225	POST	pym_812-5davh		2011-08-17	SMILEMARK	1.0	�
 mbc_sundaynight_nagasoo	jw1933	POST	pym_8iq-v0p8		2011-08-17	PRESENT	1.0	요즘
 mbc_sundaynight_nagasoo	jw1933	POST	pym_8iq-v0p8		2011-08-17	SEE	1.0	보다
 mbc_sundaynight_nagasoo	nadiag26	POST	pym_8uz-_icu7		2011-08-17	EXCLAMMARK	1.0	tagexclamation
+mbc_sundaynight_nagasoo	gurwns0412	POST	pym_8xt-yg_xx		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	gurwns0412	POST	pym_8xt-yg_xx		2011-08-19	EXCLAMMARK	1.0	tagexclamation
+mbc_sundaynight_nagasoo	gurwns0412	POST	pym_8xt-yg_xx		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	gurwns0412	POST	pym_8xt-yg_xx		2011-08-19	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	gurwns0412	POST	pym_8xt-yg_xx		2011-08-19	SADNESS	1.0	불쌍
 mbc_sundaynight_nagasoo	gurwns0412	POST	pym_8xt-yg_xx		2011-08-19	HEAR	1.0	듣다
@@ -482,8 +555,11 @@ mbc_sundaynight_nagasoo	ys9948	POST	pym_c6t-5edgn		2011-08-16	SMILEMARK	1.0	tags
 mbc_sundaynight_nagasoo	baramgoj	POST	pym_cgc-ya8e		2011-08-17	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	baramgoj	POST	pym_cgc-ya8e		2011-08-17	POSITIVE	1.0	좋아하다
 mbc_sundaynight_nagasoo	hpprinter	POST	pym_d3n-vvtj		2011-08-16	PRESENT	1.0	지금
+mbc_sundaynight_nagasoo	hpprinter	POST	pym_d3n-vvtj		2011-08-16	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	hpprinter	POST	pym_d3n-vvtj		2011-08-16	EXCLAMMARK	1.0	tagexclamation
+mbc_sundaynight_nagasoo	hpprinter	POST	pym_d3n-vvtj		2011-08-16	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	hpprinter	POST	pym_d3n-vvtj		2011-08-16	POSITIVE	1.0	멋지다
+mbc_sundaynight_nagasoo	me0305	POST	pym_e1_-ysp8		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	me0305	POST	pym_e1_-ysp8		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	chaku00	POST	pym_g7z-15fx		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	lovestory_25	POST	pym_gje-5envt		2011-08-19	HEAR	1.0	듣다
@@ -497,26 +573,34 @@ mbc_sundaynight_nagasoo	elquiness12	POST	pym_jdi-y8chz		2011-08-18	PRESENT	1.0	�
 mbc_sundaynight_nagasoo	elquiness12	POST	pym_jdi-y8chz		2011-08-18	QUANTIFIER	1.0	조금
 mbc_sundaynight_nagasoo	elquiness12	POST	pym_jdi-y8chz		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	elquiness12	POST	pym_jdi-y8chz		2011-08-18	HEAR	1.0	듣다
+mbc_sundaynight_nagasoo	zpffl1006	POST	pym_knb-5fu3		2011-08-19	QUESTIONMARK	1.0	tagquestion
+mbc_sundaynight_nagasoo	sherlock47	POST	pym_lgk-yvkuk		2011-08-20	QUESTIONMARK	1.0	tagquestion
+mbc_sundaynight_nagasoo	hello_kmh	POST	pym_lwy-_t8qd		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	hello_kmh	POST	pym_lwy-_t8qd		2011-08-19	EXCLAMMARK	1.0	tagexclamation
+mbc_sundaynight_nagasoo	ibsool2	POST	pym_mhq-56yjr		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	naver_news	POST	pym_olq-bj_k		2011-08-17	SEE	1.0	보다
 mbc_sundaynight_nagasoo	cw1133	POST	pym_qe2-v_yb		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	cw1133	POST	pym_qe2-v_yb		2011-08-17	EXCLAMMARK	1.0	tagexclamation
+mbc_sundaynight_nagasoo	ogh010	POST	pym_r0w-__f51		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	ogh010	POST	pym_r0w-__f51		2011-08-17	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	cyverkiss	POST	pym_rqh-y24xn		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	ose117	POST	pym_s00-5r0rw		2011-08-17	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	ose117	POST	pym_s00-5r0rw		2011-08-17	POSITIVE	1.0	보고싶어
 mbc_sundaynight_nagasoo	duck525277	POST	pym_tn6-ys58l		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	duck525277	POST	pym_tn6-ys58l		2011-08-19	SADNESS	1.0	쓸쓸
+mbc_sundaynight_nagasoo	jvp	POST	pym_u66-58_uf		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	jvp	POST	pym_u66-58_uf		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	smj10040827	POST	pym_udt-_q4lb		2011-08-19	QUANTIFIER	1.0	너무
 mbc_sundaynight_nagasoo	smj10040827	POST	pym_udt-_q4lb		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	smj10040827	POST	pym_udt-_q4lb		2011-08-19	POSITIVE	1.0	좋아
 mbc_sundaynight_nagasoo	flame2	POST	pym_vl9-y6vtt		2011-08-17	SEE	1.0	보다
 mbc_sundaynight_nagasoo	bskworld	POST	pym_x1q-_sbf8		2011-08-18	PRESENT	1.0	이제
+mbc_sundaynight_nagasoo	bskworld	POST	pym_x1q-_sbf8		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	bskworld	POST	pym_x1q-_sbf8		2011-08-18	POSITIVE	1.0	행복
 mbc_sundaynight_nagasoo	bskworld	POST	pym_x1q-_sbf8		2011-08-18	SADNESS	1.0	우울
 mbc_sundaynight_nagasoo	bskworld	POST	pym_x1q-_sbf8		2011-08-18	SEE	1.0	보다
 mbc_sundaynight_nagasoo	se3910	POST	pym_z6s-_cl2g		2011-08-17	PRESENT	1.0	오늘
+mbc_sundaynight_nagasoo	se3910	POST	pym_z6s-_cl2g		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	skysungeun3	POST	pym__ck-_b6f8		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	hmj9207a	POST	pym__t2-yvkuk		2011-08-19	PRESENT	1.0	지금
 mbc_sundaynight_nagasoo	hmj9207a	POST	pym__t2-yvkuk		2011-08-19	HEAR	1.0	느끼다
@@ -529,6 +613,8 @@ mbc_sundaynight_nagasoo	coolpark21	POST	pyo483t-ydf1		2011-08-15	POSITIVE	1.0	�
 mbc_sundaynight_nagasoo	sari830	POST	pyo49m0-__ups		2011-08-15	PAST	1.0	어제
 mbc_sundaynight_nagasoo	rkdalsgml97	POST	pyo4a9_-jtt1		2011-08-16	PRESENT	1.0	지금
 mbc_sundaynight_nagasoo	rkdalsgml97	POST	pyo4a9_-jtt1		2011-08-16	SADNESS	1.0	외롭다
+mbc_sundaynight_nagasoo	rkdalsgml97	POST	pyo4a9_-jtt1		2011-08-16	SEE	1.0	보다
+mbc_sundaynight_nagasoo	essel9101	POST	pyo4axp-_rh19		2011-08-15	SEE	1.0	보다
 mbc_sundaynight_nagasoo	essel9101	POST	pyo4col-_rh19		2011-08-15	SMILEMARK	1.0	흐
 mbc_sundaynight_nagasoo	essel9101	POST	pyo4col-_rh19		2011-08-15	CRYMARK	1.0	흑
 mbc_sundaynight_nagasoo	garangnip	POST	pyo4d5h-qg_		2011-08-15	PAST	1.0	어제
@@ -537,12 +623,16 @@ mbc_sundaynight_nagasoo	ljy9644	POST	pyo4e99-msv4		2011-08-15	SMILEMARK	1.0	크
 mbc_sundaynight_nagasoo	fencing8018	POST	pyo4eve-5a57x		2011-08-15	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	fencing8018	POST	pyo4eve-5a57x		2011-08-15	POSITIVE	1.0	멋지다
 mbc_sundaynight_nagasoo	syuos	POST	pyo4g0n-yulut		2011-08-16	PRESENT	1.0	이제
+mbc_sundaynight_nagasoo	syuos	POST	pyo4g0n-yulut		2011-08-16	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	syuos	POST	pyo4g0n-yulut		2011-08-16	POSITIVE	1.0	웃음
+mbc_sundaynight_nagasoo	syuos	POST	pyo4g93-yulut		2011-08-16	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	pmh644	POST	pyo4g9v-_jtpa		2011-08-15	PRESENT	1.0	오늘
 mbc_sundaynight_nagasoo	in_hyeok2	POST	pyo4ge1-5wwmy		2011-08-15	CRYMARK	1.0	tagcry
+mbc_sundaynight_nagasoo	jchyun22	POST	pyo4k6n-5l0pg		2011-08-15	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	c004422	POST	pyo4l8a-5g464		2011-08-15	PAST	1.0	어제
 mbc_sundaynight_nagasoo	c004422	POST	pyo4l8a-5g464		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	c004422	POST	pyo4l8a-5g464		2011-08-15	POSITIVE	1.0	멋지다
+mbc_sundaynight_nagasoo	lgt7771	POST	pyo4ldh-l71s		2011-08-15	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	lgt7771	POST	pyo4ldh-l71s		2011-08-15	SMILEMARK	1.0	크
 mbc_sundaynight_nagasoo	lgt7771	POST	pyo4ldh-l71s		2011-08-15	POSITIVE	1.0	좋아하다
 mbc_sundaynight_nagasoo	junes26	POST	pyo4mcl-yxvov		2011-08-15	SEE	1.0	보다
@@ -554,9 +644,12 @@ mbc_sundaynight_nagasoo	essel9101	POST	pyo4shn-_rh19		2011-08-15	PRESENT	1.0	오
 mbc_sundaynight_nagasoo	essel9101	POST	pyo4shn-_rh19		2011-08-15	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	essel9101	POST	pyo4shn-_rh19		2011-08-15	POSITIVE	1.0	보고싶다
 mbc_sundaynight_nagasoo	spacialuv	POST	pyo4skl-5p7sa		2011-08-16	PRESENT	1.0	지금
+mbc_sundaynight_nagasoo	spacialuv	POST	pyo4skl-5p7sa		2011-08-16	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	spacialuv	POST	pyo4skl-5p7sa		2011-08-16	POSITIVE	2.0	좋아하다 좋아
 mbc_sundaynight_nagasoo	frompic	POST	pyo4y6v-_d1bz		2011-08-15	PRESENT	1.0	오늘
+mbc_sundaynight_nagasoo	frompic	POST	pyo4y6v-_d1bz		2011-08-15	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	frompic	POST	pyo4y6v-_d1bz		2011-08-15	SMILEMARK	1.0	tagsmile
+mbc_sundaynight_nagasoo	frompic	POST	pyo4y6v-_d1bz		2011-08-15	SEE	1.0	보다
 mbc_sundaynight_nagasoo	smiledays97	POST	pyo4zcm-woz6		2011-08-15	POSITIVE	1.0	좋아
 mbc_sundaynight_nagasoo	smiledays97	POST	pyo4zcm-woz6		2011-08-15	ANXIETY	1.0	두려
 mbc_sundaynight_nagasoo	rukxernet	POST	pyo72nv-efh		2011-08-15	EXCLAMMARK	1.0	tagexclamation
@@ -564,7 +657,9 @@ mbc_sundaynight_nagasoo	rukxernet	POST	pyo72nv-efh		2011-08-15	CRYMARK	1.0	tagcr
 mbc_sundaynight_nagasoo	gudals628	POST	pyo734n-5o3wd		2011-08-16	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	gudals628	POST	pyo734n-5o3wd		2011-08-16	POSITIVE	1.0	좋다
 mbc_sundaynight_nagasoo	hoje1012	POST	pyo73_k-5n3by		2011-08-15	SEE	1.0	보다
+mbc_sundaynight_nagasoo	79dasom	POST	pyo7454-5obt0		2011-08-15	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	79dasom	POST	pyo7454-5obt0		2011-08-15	SMILEMARK	1.0	크
+mbc_sundaynight_nagasoo	fpal78	POST	pyo746z-y02aa		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	fpal78	POST	pyo746z-y02aa		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	fpal78	POST	pyo746z-y02aa		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	fpal78	POST	pyo746z-y02aa		2011-08-17	CRYMARK	1.0	tagcry
@@ -573,6 +668,7 @@ mbc_sundaynight_nagasoo	fpal78	POST	pyo746z-y02aa		2011-08-17	POSITIVE	1.0	사�
 mbc_sundaynight_nagasoo	eclipser_	POST	pyo75ej-_s_3_		2011-08-15	HEAR	1.0	듣다
 mbc_sundaynight_nagasoo	nkpower	POST	pyo76k5-y15i		2011-08-16	POSITIVE	1.0	좋다
 mbc_sundaynight_nagasoo	sunnys_scent	POST	pyo774y-_o0uw		2011-08-15	EXCLAMMARK	1.0	tagexclamation
+mbc_sundaynight_nagasoo	celina2000	POST	pyo7czt-_5554		2011-08-16	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	celina2000	POST	pyo7czt-_5554		2011-08-16	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	gudals628	POST	pyo7et4-5o3wd		2011-08-16	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	gudals628	POST	pyo7et4-5o3wd		2011-08-16	POSITIVE	1.0	좋다
@@ -582,9 +678,11 @@ mbc_sundaynight_nagasoo	soulpeoples	POST	pyo7fpf-_gcu6		2011-08-16	CRYMARK	1.0	t
 mbc_sundaynight_nagasoo	soulpeoples	POST	pyo7fpf-_gcu6		2011-08-16	POSITIVE	1.0	좋다
 mbc_sundaynight_nagasoo	soulpeoples	POST	pyo7fpf-_gcu6		2011-08-16	HEAR	1.0	듣다
 mbc_sundaynight_nagasoo	sinaepark12	POST	pyo7gjd-_mxrl		2011-08-15	HEAR	1.0	듣다
+mbc_sundaynight_nagasoo	gmlwh1101	POST	pyo7go4-5hfjv		2011-08-15	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	ester3807	POST	pyo7hwp-_qq9i		2011-08-15	SEE	1.0	보다
 mbc_sundaynight_nagasoo	sinaepark12	POST	pyo7i2b-_mxrl		2011-08-15	HEAR	1.0	듣다
 mbc_sundaynight_nagasoo	hwtkj960907	POST	pyo7i4g-5hbw0		2011-08-16	PRESENT	1.0	지금
+mbc_sundaynight_nagasoo	hwtkj960907	POST	pyo7i4g-5hbw0		2011-08-16	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	sinaepark12	POST	pyo7ikl-_mxrl		2011-08-15	HEAR	1.0	듣다
 mbc_sundaynight_nagasoo	mini8798	POST	pyo7k1d-_cafk		2011-08-16	HEAR	1.0	듣다
 mbc_sundaynight_nagasoo	kmk103801	POST	pyo7k1j-z433		2011-08-15	SMILEMARK	1.0	tagsmile
@@ -593,6 +691,7 @@ mbc_sundaynight_nagasoo	htkbs2011	POST	pyo7l60-_w0jm		2011-08-15	PRESENT	1.0	지
 mbc_sundaynight_nagasoo	bbbam3	POST	pyo7lwi-_h9l0		2011-08-15	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	sjh_world	POST	pyo7mgn-po5j		2011-08-15	PRESENT	1.0	오늘
 mbc_sundaynight_nagasoo	sjh_world	POST	pyo7mgn-po5j		2011-08-15	QUANTIFIER	1.0	조금
+mbc_sundaynight_nagasoo	sjh_world	POST	pyo7mgn-po5j		2011-08-15	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	sjh_world	POST	pyo7mgn-po5j		2011-08-15	SEE	1.0	보다
 mbc_sundaynight_nagasoo	manchester04	POST	pyo7nda-skpt		2011-08-15	POSITIVE	1.0	좋아하다
 mbc_sundaynight_nagasoo	nunurigo121	POST	pyo7nta-_9tci		2011-08-17	EXCLAMMARK	1.0	tagexclamation
@@ -606,20 +705,25 @@ mbc_sundaynight_nagasoo	z_zzang_z	POST	pyo7pts-y67pm		2011-08-15	EXCLAMMARK	1.0	
 mbc_sundaynight_nagasoo	z_zzang_z	POST	pyo7pts-y67pm		2011-08-15	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	z_zzang_z	POST	pyo7pts-y67pm		2011-08-15	POSITIVE	1.0	좋아하다
 mbc_sundaynight_nagasoo	z_zzang_z	POST	pyo7pts-y67pm		2011-08-15	HEAR	1.0	듣다
+mbc_sundaynight_nagasoo	ufodorosi	POST	pyo7qzg-qzw5		2011-08-15	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	ufodorosi	POST	pyo7qzg-qzw5		2011-08-15	SMILEMARK	1.0	흐
 mbc_sundaynight_nagasoo	ufodorosi	POST	pyo7qzg-qzw5		2011-08-15	POSITIVE	2.0	멋지다 행복
 mbc_sundaynight_nagasoo	ufodorosi	POST	pyo7qzg-qzw5		2011-08-15	SEE	1.0	보다
 mbc_sundaynight_nagasoo	ufodorosi	POST	pyo7qzg-qzw5		2011-08-15	HEAR	1.0	느끼다
 mbc_sundaynight_nagasoo	ksmsws0998	POST	pyo7ta4-_sgul		2011-08-16	POSITIVE	1.0	좋다
 mbc_sundaynight_nagasoo	sasatea2005	POST	pyo7thd-yolis		2011-08-17	FUTURE	1.0	미래
+mbc_sundaynight_nagasoo	sasatea2005	POST	pyo7thd-yolis		2011-08-17	QUESTIONMARK	1.0	tagquestion
+mbc_sundaynight_nagasoo	tru911	POST	pyo7u9h-ez6p		2011-08-15	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	jdm717	POST	pyo7udh-y46u7		2011-08-15	PRESENT	1.0	요즘
 mbc_sundaynight_nagasoo	jdm717	POST	pyo7udh-y46u7		2011-08-15	FUTURE	1.0	내일
+mbc_sundaynight_nagasoo	jdm717	POST	pyo7udh-y46u7		2011-08-15	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	jdm717	POST	pyo7udh-y46u7		2011-08-15	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	jdm717	POST	pyo7udh-y46u7		2011-08-15	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	jdm717	POST	pyo7udh-y46u7		2011-08-15	SEE	1.0	보다
 mbc_sundaynight_nagasoo	79dasom	POST	pyo7uux-5obt0		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	79dasom	POST	pyo7uux-5obt0		2011-08-15	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	spo222	POST	pyo7vjq-5976l		2011-08-15	PRESENT	1.0	오늘
+mbc_sundaynight_nagasoo	spo222	POST	pyo7vjq-5976l		2011-08-15	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	spo222	POST	pyo7vjq-5976l		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	spo222	POST	pyo7vjq-5976l		2011-08-15	SEE	1.0	보다
 mbc_sundaynight_nagasoo	nuran8	POST	pyo7v_y-y6nxr		2011-08-15	PAST	1.0	어제
@@ -628,12 +732,14 @@ mbc_sundaynight_nagasoo	nuran8	POST	pyo7v_y-y6nxr		2011-08-15	EXCLAMMARK	1.0	tag
 mbc_sundaynight_nagasoo	nuran8	POST	pyo7v_y-y6nxr		2011-08-15	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	llovetaiji	POST	pyo7xgb-2jix		2011-08-17	PRESENT	1.0	지금
 mbc_sundaynight_nagasoo	llovetaiji	POST	pyo7xgb-2jix		2011-08-17	EXCLAMMARK	1.0	tagexclamation
+mbc_sundaynight_nagasoo	llovetaiji	POST	pyo7xgb-2jix		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	kimda9212	POST	pyo7xjc-_spbo		2011-08-15	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	me0305	POST	pyo7yes-ysp8		2011-08-15	SEE	1.0	보다
 mbc_sundaynight_nagasoo	511hj_	POST	pyol087-5m2bg		2011-08-15	PAST	1.0	어제
 mbc_sundaynight_nagasoo	rnjsqjaduf	POST	pyol37c-5v3ve		2011-08-16	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	rnjsqjaduf	POST	pyol37c-5v3ve		2011-08-16	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	46090731	POST	pyol3k4-5jkxe		2011-08-15	PRESENT	1.0	이제
+mbc_sundaynight_nagasoo	46090731	POST	pyol3k4-5jkxe		2011-08-15	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	46090731	POST	pyol3k4-5jkxe		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	46090731	POST	pyol3k4-5jkxe		2011-08-15	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	46090731	POST	pyol3k4-5jkxe		2011-08-15	SEE	1.0	보다
@@ -651,15 +757,21 @@ mbc_sundaynight_nagasoo	jang114	POST	pyol7xz-g2jo		2011-08-16	SEE	1.0	보다
 mbc_sundaynight_nagasoo	bskworld	POST	pyol8yd-_t64q		2011-08-16	QUANTIFIER	1.0	많이
 mbc_sundaynight_nagasoo	bskworld	POST	pyol8yd-_t64q		2011-08-16	LOVEMARK	1.0	taglove
 mbc_sundaynight_nagasoo	bskworld	POST	pyol8yd-_t64q		2011-08-16	POSITIVE	1.0	좋아
+mbc_sundaynight_nagasoo	llovetaiji	POST	pyoldrj-2jix		2011-08-15	QUESTIONMARK	1.0	tagquestion
+mbc_sundaynight_nagasoo	cyk3000koe	POST	pyolfs2-nbt9		2011-08-15	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	imcws	POST	pyolgfw-5gwvd		2011-08-16	PRESENT	2.0	오늘 지금
+mbc_sundaynight_nagasoo	imcws	POST	pyolgfw-5gwvd		2011-08-16	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	imcws	POST	pyolgfw-5gwvd		2011-08-16	POSITIVE	1.0	좋다
 mbc_sundaynight_nagasoo	imcws	POST	pyolglr-5gwvd		2011-08-16	PRESENT	2.0	오늘 지금
+mbc_sundaynight_nagasoo	imcws	POST	pyolglr-5gwvd		2011-08-16	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	imcws	POST	pyolglr-5gwvd		2011-08-16	POSITIVE	1.0	즐겁다
 mbc_sundaynight_nagasoo	imcws	POST	pyolgud-5gwvd		2011-08-16	PRESENT	2.0	오늘 지금
+mbc_sundaynight_nagasoo	imcws	POST	pyolgud-5gwvd		2011-08-16	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	imcws	POST	pyolgud-5gwvd		2011-08-16	POSITIVE	2.0	좋다 즐겁다
 mbc_sundaynight_nagasoo	whitemin000	POST	pyoliz9-yl0hv		2011-08-16	POSITIVE	1.0	사랑하
 mbc_sundaynight_nagasoo	choch43	POST	pyolj_w-_qbji		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	elwlakdltm01	POST	pyoll07-yi4ey		2011-08-17	SEE	1.0	보다
+mbc_sundaynight_nagasoo	wbswl	POST	pyolnvd-5_zg4		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	wbswl	POST	pyolnvd-5_zg4		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	wbswl	POST	pyolnvd-5_zg4		2011-08-17	POSITIVE	1.0	좋다
 mbc_sundaynight_nagasoo	bdh02246	POST	pyoltwj-yh114		2011-08-16	QUANTIFIER	1.0	매우
@@ -680,6 +792,7 @@ mbc_sundaynight_nagasoo	heewon	POST	pyon4m5-w		2011-08-15	HEAR	1.0	느끼다
 mbc_sundaynight_nagasoo	mimi80	POST	pyon6v3-y_bw9		2011-08-15	SMILEMARK	2.0	흐 tagsmile
 mbc_sundaynight_nagasoo	mimi80	POST	pyon6v3-y_bw9		2011-08-15	POSITIVE	1.0	좋다
 mbc_sundaynight_nagasoo	amana522	POST	pyonf5r-ygh5t		2011-08-15	PRESENT	1.0	이제
+mbc_sundaynight_nagasoo	amana522	POST	pyonf5r-ygh5t		2011-08-15	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	amana522	POST	pyonf5r-ygh5t		2011-08-15	POSITIVE	1.0	행복
 mbc_sundaynight_nagasoo	ybrocks	POST	pyonfpu-y2mzr		2011-08-15	POSITIVE	1.0	좋다
 mbc_sundaynight_nagasoo	kmk1028kdy	POST	pyonfxc-ym666		2011-08-15	PRESENT	1.0	이제
@@ -707,11 +820,13 @@ mbc_sundaynight_nagasoo	podomom	POST	pyovsq5-a606		2011-08-15	HEAR	1.0	듣다
 mbc_sundaynight_nagasoo	swing0411	POST	pyovsyi-zv44		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	woo3629	POST	pyovtr6-_srsn		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	ybrocks	POST	pyovv_v-_sb4n		2011-08-15	PAST	1.0	어제
+mbc_sundaynight_nagasoo	ybrocks	POST	pyovv_v-_sb4n		2011-08-15	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	ybrocks	POST	pyovv_v-_sb4n		2011-08-15	SEE	1.0	보다
 mbc_sundaynight_nagasoo	kirafe	POST	pyovw9d-zvve		2011-08-15	PAST	1.0	어제
 mbc_sundaynight_nagasoo	kirafe	POST	pyovw9d-zvve		2011-08-15	POSITIVE	1.0	좋다
 mbc_sundaynight_nagasoo	why2603	POST	pyovwns-y0dwz		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	ssibse123	POST	pyovxn3-_67q6		2011-08-16	PRESENT	1.0	지금
+mbc_sundaynight_nagasoo	ssibse123	POST	pyovxn3-_67q6		2011-08-16	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	ssibse123	POST	pyovxn3-_67q6		2011-08-16	SEE	1.0	보다
 mbc_sundaynight_nagasoo	bound925	POST	pyovyn7-2xt		2011-08-15	PRESENT	2.0	이번주 지금
 mbc_sundaynight_nagasoo	bound925	POST	pyovyn7-2xt		2011-08-15	QUANTIFIER	1.0	조금
@@ -728,23 +843,29 @@ mbc_sundaynight_nagasoo	truthful-jy	POST	pyov_cc-srix		2011-08-15	SMILEMARK	1.0	
 mbc_sundaynight_nagasoo	hcr333	POST	pyox0kj-t2ml		2011-08-16	SEE	1.0	보다
 mbc_sundaynight_nagasoo	hcr333	POST	pyox0kj-t2ml		2011-08-16	HEAR	1.0	듣다
 mbc_sundaynight_nagasoo	ahnshy	POST	pyox1u7-fyd2		2011-08-16	PRESENT	1.0	요즘
+mbc_sundaynight_nagasoo	ahnshy	POST	pyox1u7-fyd2		2011-08-16	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	ahnshy	POST	pyox1u7-fyd2		2011-08-16	HEAR	1.0	듣다
 mbc_sundaynight_nagasoo	jisiklog	POST	pyox4b9-_rcxy		2011-08-15	PRESENT	1.0	오늘
 mbc_sundaynight_nagasoo	khs429	POST	pyox4zs-pymi		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	mostwandil	POST	pyox5sy-q7bw		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	cw1133	POST	pyox74a-v_yb		2011-08-15	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	cw1133	POST	pyox74a-v_yb		2011-08-15	SEE	1.0	보다
+mbc_sundaynight_nagasoo	kio6054	POST	pyox7mh-ci43		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	kio6054	POST	pyox7mh-ci43		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	kio6054	POST	pyox7mh-ci43		2011-08-17	SMILEMARK	1.0	tagsmile
+mbc_sundaynight_nagasoo	guanghuen	POST	pyox7ot-5o5ov		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	guanghuen	POST	pyox7ot-5o5ov		2011-08-17	SMILEMARK	1.0	크
 mbc_sundaynight_nagasoo	dlgusrn0204	POST	pyox84l-55xg0		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	dlgusrn0204	POST	pyox84l-55xg0		2011-08-17	POSITIVE	1.0	좋다
 mbc_sundaynight_nagasoo	fjddl	POST	pyox9e5-ygs6t		2011-08-17	PRESENT	1.0	이제
+mbc_sundaynight_nagasoo	fjddl	POST	pyox9e5-ygs6t		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	dlrjsdn87	POST	pyoxa4a-_sbmj		2011-08-15	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	tj-dbs	POST	pyoxcd4-_b6vo		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	30park_01	POST	pyoxglf-_flle		2011-08-16	PAST	1.0	어제
 mbc_sundaynight_nagasoo	carlkang1	POST	pyoxgu9-5fvxg		2011-08-16	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	kjpins	POST	pyoxhx4-yn31d		2011-08-17	EXCLAMMARK	1.0	tagexclamation
+mbc_sundaynight_nagasoo	jchyun22	POST	pyoxk4k-5l0pg		2011-08-16	QUESTIONMARK	1.0	tagquestion
+mbc_sundaynight_nagasoo	jchyun22	POST	pyoxknh-5l0pg		2011-08-16	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	kmk103801	POST	pyoxl1p-z433		2011-08-15	PAST	1.0	어제
 mbc_sundaynight_nagasoo	kmk103801	POST	pyoxl1p-z433		2011-08-15	PRESENT	1.0	지금
 mbc_sundaynight_nagasoo	kmk103801	POST	pyoxl1p-z433		2011-08-15	SMILEMARK	1.0	tagsmile
@@ -774,13 +895,16 @@ mbc_sundaynight_nagasoo	insubi117	POST	pyoxue6-oso9		2011-08-15	HEAR	1.0	듣다
 mbc_sundaynight_nagasoo	ktjgh1200	POST	pyoxv9w-ucwj		2011-08-15	SEE	1.0	보다
 mbc_sundaynight_nagasoo	nosr42	POST	pyoxvwp-ysw7r		2011-08-15	LOVEMARK	1.0	taglove
 mbc_sundaynight_nagasoo	reva601	POST	pyoxvyl-yolkf		2011-08-15	PRESENT	1.0	오늘
+mbc_sundaynight_nagasoo	reva601	POST	pyoxvyl-yolkf		2011-08-15	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	omoshiroy	POST	pyoxxev-0la1		2011-08-16	PRESENT	1.0	이제
 mbc_sundaynight_nagasoo	omoshiroy	POST	pyoxxev-0la1		2011-08-16	SADNESS	1.0	슬프다
 mbc_sundaynight_nagasoo	omoshiroy	POST	pyoxxev-0la1		2011-08-16	SEE	1.0	보다
 mbc_sundaynight_nagasoo	locust001	POST	pyoxxjx-f7bu		2011-08-15	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	locust001	POST	pyoxxjx-f7bu		2011-08-15	SADNESS	1.0	슬프다
 mbc_sundaynight_nagasoo	jisiklog	POST	pyoxzjk-_rcxy		2011-08-15	PRESENT	1.0	오늘
+mbc_sundaynight_nagasoo	jisiklog	POST	pyoxzjk-_rcxy		2011-08-15	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	jisiklog	POST	pyoxzp9-_rcxy		2011-08-15	PRESENT	1.0	오늘
+mbc_sundaynight_nagasoo	jisiklog	POST	pyoxzpa-_rcxy		2011-08-15	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	slrkahffk96	POST	pyox_v9-5_urd		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	slrkahffk96	POST	pyox_v9-5_urd		2011-08-17	POSITIVE	1.0	좋아
 mbc_sundaynight_nagasoo	slrkahffk96	POST	pyox_v9-5_urd		2011-08-17	HEAR	1.0	듣다
@@ -796,6 +920,7 @@ mbc_sundaynight_nagasoo	hyj2835	COMMENT	pym3ftx-_rh19		2011-08-20	SMILEMARK	1.0	
 mbc_sundaynight_nagasoo	lubia52	COMMENT	pym94v5-yxaap		2011-08-20	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	lubia52	COMMENT	pym94v5-yxaap		2011-08-20	CRYMARK	1.0	tagcry
 mbc_sundaynight_nagasoo	wlgus5626	COMMENT	pym94v5-yxaap		2011-08-20	EXCLAMMARK	1.0	tagexclamation
+mbc_sundaynight_nagasoo	wlgus5626	COMMENT	pym94v5-yxaap		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	wlgus5626	COMMENT	pym94v5-yxaap		2011-08-20	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	wlgus5626	COMMENT	pym94v5-yxaap		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 mbc_sundaynight_nagasoo	wlgus5626	COMMENT	pym94v5-yxaap		2011-08-20	CRYMARK	1.0	tagcry
@@ -804,6 +929,8 @@ mbc_sundaynight_nagasoo	2054897	COMMENT	pymd5i8-_pyib		2011-08-16	EXCLAMMARK	1.0
 mbc_sundaynight_nagasoo	2054897	COMMENT	pymd5i8-_pyib		2011-08-16	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	0228hyj	COMMENT	pymd5i8-_pyib		2011-08-17	SMILEMARK	1.0	크
 mbc_sundaynight_nagasoo	lilove777	COMMENT	pymesuv-yohyy		2011-08-19	CRYMARK	1.0	tagcry
+mbc_sundaynight_nagasoo	wyoung_lee	COMMENT	pymkbbt-91y5		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	wyoung_lee	COMMENT	pymkbbt-91y5		2011-08-20	CRYMARK	1.0	tagcry
+mbc_sundaynight_nagasoo	mjal	COMMENT	pymkbbt-91y5		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_sundaynight_nagasoo	mjal	COMMENT	pymkbbt-91y5		2011-08-20	SMILEMARK	1.0	tagsmile
 mbc_sundaynight_nagasoo	yunwoo1129	COMMENT	pymkbbt-91y5		2011-08-21	SMILEMARK	1.0	tagsmile

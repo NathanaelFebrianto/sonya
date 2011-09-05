@@ -1,202 +1,202 @@
 program_id	author_id	type	post_id	comment_id	publish_date	terms
-sbs_boss	heekoo415	POST	pym00d_-549s4		2011-08-18	보스 지키다 시청률 tagexclamation
+sbs_boss	heekoo415	POST	pym00d_-549s4		2011-08-18	보스 지키다 시청률 24 tagexclamation
 sbs_boss	all_my_bb	POST	pym016f-5c012		2011-08-19	보스를지켜 줄이다 영석이 영석이가 좋아하다 단어 나오다 tagsmile 아부끄려
 sbs_boss	hsn9564	POST	pym01lz-5xrcd		2011-08-18	오늘 보스를지켜 첫장면 보기 보다 싫어 싫다
 sbs_boss	espoir80	POST	pym01x_-uia5		2011-08-18	보스를지켜 재방보는데 롯데월드 나오다 나 tagexclamation 아 놀이공원 가고싶댜 tagexclamation ㅡㅇㅡ
 sbs_boss	lsyrose	POST	pym027i-5w5gm		2011-08-19	tagsmile 오늘 보스 지키다 안하다 tagcry o tagcry 언제 언제나 재밌어용
 sbs_boss	teentop123	POST	pym02f0-5fdgw		2011-08-18	보스를지켜 본 보다 방 사 사다
-sbs_boss	ssak233	POST	pym02_8-_szoo		2011-08-19	보스 지키다 회 최강희 옷패션스타
+sbs_boss	ssak233	POST	pym02_8-_szoo		2011-08-19	보스 지키다 6회 최강희 옷패션스타
 sbs_boss	actorjisung	POST	pym03xj-irld		2011-08-19	완전 잘생기다 tagsmile 전 절다 본방사수랍니 본방사수랍니다 글구 우리 친구 다 보스 지켜라봐 지켜라봐요 tagsmile 화이팅
 sbs_boss	haeun528	POST	pym04a6-wi_p		2011-08-19	아니야아니 tagexclamation 보스를지켜라는영웅재중이나온다 tagexclamation
-sbs_boss	arion1207	POST	pym04wh-yea8o		2011-08-18	시 분 하다 하 보스를지켜 를 봅시 봅시다 tagexclamation 회 안보셨다면 보다 추천
+sbs_boss	arion1207	POST	pym04wh-yea8o		2011-08-18	9시55 분 하다 하 보스를지켜 를 봅시 봅시다 tagexclamation 1회 안보셨다면 보다 추천
 sbs_boss	tbrktbrk33	POST	pym04y8-y_p4_		2011-08-19	그나저 그나저나 어제 보스 지키다 완전 짱
-sbs_boss	dornr19	POST	pym0577-5azn8		2011-08-19	오늘넌내게반했어끝 tagcry 사람들이유치하다고그런걸누가보냐고하지만난그래도뻔한그이야기가재미있었다 tagsmile 정용화의눈물이잊혀지지가않는군 tagexclamation 이제보스를지켜라tagquestion tagexclamation tagsmile
+sbs_boss	dornr19	POST	pym0577-5azn8		2011-08-19	오늘넌내게반했어끝 tagcry 사람들이유치하다고그런걸누가보냐고하지만난그래도뻔한그이야기가재미있었다 tagsmile 정용화의눈물이잊혀지지가않는군 tagexclamation 이제보스를지켜 tagquestion tagexclamation tagsmile
 sbs_boss	akbg03155	POST	pym05jk-ypg1w		2011-08-20	보스 지키다 완전 인기 많다 tagsmile
-sbs_boss	smy2166	POST	pym062c-qq8l		2011-08-19	보스를지켜 회 보스 무원 충격고백
-sbs_boss	betty980101	POST	pym0753-_j05i		2011-08-19	보스 지키다 보다 보 중인 중 인 목요일 영어학원 절묘 겹치다
+sbs_boss	smy2166	POST	pym062c-qq8l		2011-08-19	보스를지켜 6회 보스6 무원 충격고백
+sbs_boss	betty980101	POST	pym0753-_j05i		2011-08-19	보스 지키다 보다 보 중인 중 1 1인 목요일 영어학원 절묘 겹치다
 sbs_boss	dudtlf56	POST	pym077x-yvk07		2011-08-19	검색창 보스를지켜 뇌구조 뇌구조를 치다 치세 tagexclamation
 sbs_boss	year1663	POST	pym079_-qyyj		2011-08-18	보스를지켜라봐 tagexclamation tagquestion
-sbs_boss	nakabarumom	POST	pym07ad-5c5iv		2011-08-19	드라마 보스 지키다 회 회
+sbs_boss	nakabarumom	POST	pym07ad-5c5iv		2011-08-19	드라마 보스 지키다 5회 6회
 sbs_boss	kanghee62400	POST	pym07fl-ysu7m		2011-08-18	안방 넌 널다 내다 반했어보고 거실 보스 지키다 보고 보다 보 난 나다 날다 공부방 숙제
 sbs_boss	kl1225327	POST	pym07ro-t27l		2011-08-18	보스를지켜 본방사수 taglove
-sbs_boss	hwaya_001	POST	pym07y5-15_3		2011-08-19	보스 지키다 tagexclamation 등장인물 뇌구조tagquestion tagexclamation
+sbs_boss	hwaya_001	POST	pym07y5-15_3		2011-08-19	보스 지키다 tagexclamation 등장인물 뇌구조 tagquestion tagexclamation
 sbs_boss	dlrectly	POST	pym08b9-fzxu		2011-08-18	보스 지키다 영웅재중 진짜 매력있는듯
-sbs_boss	minka98	POST	pym09ka-_6z70		2011-08-20	오늘 보스 지키다 다시보기 회 봤당 tagexclamation 예은이 예은이와 승연이 승연이의 추천 추천대 정말 재밌더군 tagexclamation 완소코믹드라마 taglove taglove
+sbs_boss	minka98	POST	pym09ka-_6z70		2011-08-20	오늘 보스 지키다 다시보기 1 4회 봤당 tagexclamation 예은이 예은이와 승연이 승연이의 추천 추천대 정말 재밌더군 tagexclamation 완소코믹드라마 taglove taglove
 sbs_boss	kelly7972	POST	pym0a1q-bcxb		2011-08-19	보스를지켜 차회장 박영규님 코믹연기
-sbs_boss	ssak233	POST	pym0af1-_szoo		2011-08-19	보스 지키다 회 최강희 옷패션스타
-sbs_boss	lovelycong00	POST	pym0ag0-5uo57		2011-08-18	최강희 티셔츠 셔츠 보스를지켜 회 최강희 노은설 옷 패션스타일 패션스타 체크무늬 셔츠 민트색 티셔츠 의상정보
-sbs_boss	dhvh0402	POST	pym0as_-5u2gr		2011-08-19	엄마 이제개학 밤 에자야된데 에자야된데요 무사백동수 보스를지켜라어떡 엄마 미워 tagexclamation 슈스케도못본다 으헝헝헝
+sbs_boss	ssak233	POST	pym0af1-_szoo		2011-08-19	보스 지키다 5회 최강희 옷패션스타
+sbs_boss	lovelycong00	POST	pym0ag0-5uo57		2011-08-18	최강희 티셔츠 셔츠 보스를지켜라5 회 최강희 노은설 옷 패션스타일 패션스타 체크무늬 셔츠 민트색 티셔츠 의상정보
+sbs_boss	dhvh0402	POST	pym0as_-5u2gr		2011-08-19	엄마 이제개학 밤 10에자야된데 10에자야된데요 무사백동수 보스를지켜라어떡 엄마 미워 tagexclamation 슈스케도못본다 으헝헝헝
 sbs_boss	dlauddms0203	POST	pym0avs-yz_m5		2011-08-19	방금 보스 지키다 보고 보다 보 오다 깨알재미만땅 tagsmile
-sbs_boss	yoyong11	POST	pym0b15-erbs		2011-08-19	보스 지키다 회 다시보기 지성 김재중 최강희 앓다 돌입 삼각관계 본격화 보스를지켜 출연진 뇌구조
-sbs_boss	alicesh0922	POST	pym0baf-y6tb5		2011-08-18	근데 보스를지켜 줄임말 줄임말이 몬가요tagquestion 글잔데 보다 보지 이상 보스 하다 되는건가tagquestion 그런건가tagquestion
+sbs_boss	yoyong11	POST	pym0b15-erbs		2011-08-19	보스 지키다 5회 다시보기 지성 김재중 최강희 앓다 돌입 삼각관계 본격화 보스를지켜 출연진 뇌구조
+sbs_boss	alicesh0922	POST	pym0baf-y6tb5		2011-08-18	근데 보스를지켜 줄임말 줄임말이 몰다 tagquestion 6글잔데 보다 보지 이상 보스 하다 되는건가 tagquestion 그런건가 tagquestion
 sbs_boss	riverjhw	POST	pym0bb8-th36		2011-08-19	차지헌 차지헌이 귀여운거지 tagexclamation 원래 차무헌 차무헌이 나 강짱 강짱을 보다 한건데 tagsmile 보스 지키다 강짱 짱 taglove
-sbs_boss	alicesh0922	POST	pym0bhe-y6tb5		2011-08-18	오늘 보스 지키다 하는날 하는날인데 설마설마 넌내반 보시 분 있는거 아니징tagquestion
+sbs_boss	alicesh0922	POST	pym0bhe-y6tb5		2011-08-18	오늘 보스 지키다 하는날 하는날인데 설마설마 넌내반 보시 분 있는거 아니징 tagquestion
 sbs_boss	alrzl003	POST	pym0bj2-5ndpx		2011-08-19	tagsmile 끈질기다 보스를지켜 차무원 에다 제발 맨션좀해달라니까 답 tagsmile 아행복 아행복해 tagsmile 으헤헤헤헤 tagexclamation
 sbs_boss	qkqnwkdrn	POST	pym0c56-50ca3		2011-08-20	시간 거스르다 발도장 tagexclamation 전 인기 시절 저아했눈데 tagsmile 보스를지켜 노은설 완죤저아 tagexclamation 내이상형 tagcry tagcry 어딨니 캬캬캬캬 상상 죄 아니자나 tagexclamation tagsmile 불토불토 tagexclamation via 아임in
 sbs_boss	thdeotjd456	POST	pym0c62-y88rj		2011-08-19	보스를지켜 뇌구조 등장 보스 뇌구조 보다 보 드라마 다 본듯 폭풍반응 뉴스 뉴스스크랩
-sbs_boss	insos02	POST	pym0ca8-_8lnw		2011-08-19	보스를지켜 다시보기 회 월 일 보스를지켜 다시보기 회 월 일
+sbs_boss	insos02	POST	pym0ca8-_8lnw		2011-08-19	보스를지켜 다시보기 6회 8월 18 18일 보스를지켜 다시보기 6회 8월 18 18일
 sbs_boss	actorjisung	POST	pym0cgi-yj9ar		2011-08-19	보스 지키다 넘 재미
-sbs_boss	baggomyuna	POST	pym0c_7-lo_n		2011-08-20	보스를지켜 보스 지키다 e 러블리 오피스룩 최강희 패션 따라잡다 tagexclamation
-sbs_boss	larcobaleno	POST	pym0d5r-5gks9		2011-08-20	보스 지키다 로코 여왕 최강희 열연 수목극 위 최강희 효과tagquestion
-sbs_boss	lynn080	POST	pym0d7j-ycumz		2011-08-18	히히 보스를지켜 화 호다 호다 잼땃
-sbs_boss	fhslove	POST	pym0d7r-nafz		2011-08-18	제가 제 한동안 드라마 안보 말이죠 tagexclamation 요즘 보스 지키다 보다 막막 웃다 tagsmile 드라마 매일하면 안되나tagquestion tagsmile
-sbs_boss	ysdental	POST	pym0e7s-55e46		2011-08-19	보스를지켜 무느님 고백하 고백하다 tagexclamation 보스를지켜 회 다시보기
-sbs_boss	cpfl1225	POST	pym0ejk-rei2		2011-08-19	보스 지키다 완죤 잼써 잼써요 튀다 캐릭터 시크릿 가다 가 최고 사랑 사 이후 또한번 내맘 내맘을 빼앗아 드라뫄아아아
+sbs_boss	baggomyuna	POST	pym0c_7-lo_n		2011-08-20	보스를지켜 보스 지키다 e02 러블리 오피스룩 최강희 패션 따라잡다 tagexclamation
+sbs_boss	larcobaleno	POST	pym0d5r-5gks9		2011-08-20	보스 지키다 로코 여왕 최강희 열연 수목극 1위 최강희 효과 tagquestion
+sbs_boss	lynn080	POST	pym0d7j-ycumz		2011-08-18	히히 보스를지켜 1화2 호다 잼땃
+sbs_boss	fhslove	POST	pym0d7r-nafz		2011-08-18	제가 제 한동안 드라마 안보 말이죠 tagexclamation 요즘 보스 지키다 보다 막막 웃다 tagsmile 드라마 매일하면 안되다 안되 tagquestion tagsmile
+sbs_boss	ysdental	POST	pym0e7s-55e46		2011-08-19	보스를지켜 무느님 고백하 고백하다 tagexclamation 보스를지켜 6회 다시보기
+sbs_boss	cpfl1225	POST	pym0ejk-rei2		2011-08-19	보스 지키다 완죤 잼써요3 튀다 캐릭터 시크릿 가다 가 최고 사랑 사 이후 또한번 내맘 내맘을 빼앗아 드라뫄아아아
 sbs_boss	dudtlf56	POST	pym0fkl-yvk07		2011-08-19	넌 널다 내다 반 끝나다 보스 지키다 보다 이게 훨신 재밌어
-sbs_boss	swa075531	POST	pym0fov-0lck		2011-08-20	다운 보기 보다 캡쳐 보스 지키다 화 호다 다시보기 포스팅
-sbs_boss	sbi04398	POST	pym0frf-1bqa		2011-08-18	둘리커플 tagcry tagcry 됫어 둘리다 보스를지켜라 차지헌 tagsmile ㅐ릭터 ㅐ릭터야 tagexclamation tagsmile
-sbs_boss	saenafraise	POST	pym0fuy-_osit		2011-08-18	나오늘지금 묻다 m street 듣다 듣기 오다 좋다 s very sweet song like tagexclamation 보스 지키다 ost part
+sbs_boss	swa075531	POST	pym0fov-0lck		2011-08-20	다운 보기 보다 캡쳐 보스 지키다 6화 다시보기 포스팅
+sbs_boss	sbi04398	POST	pym0frf-1bqa		2011-08-18	둘리커플 tagcry 3 tagcry 됫어 둘리다 보스를지켜라 차지헌 tagsmile ㅐ 릭터 릭터야 tagexclamation tagsmile
+sbs_boss	saenafraise	POST	pym0fuy-_osit		2011-08-18	나오늘지금 묻다 m.street 듣다 듣기 오다 좋다 its very sweet song like tagexclamation 보스 지키다 ost part 4
 sbs_boss	kelly7972	POST	pym0fye-bcxb		2011-08-19	보스를지켜 완전잼있엉 아흐 차지헌 멋진모습보여줘
 sbs_boss	u_u_jj_xoxo	POST	pym0g2z-_y_wj		2011-08-18	보스 지키다 tagexclamation 개그 개그 이어지다 웃다 웃기다 걸 떠나다 신기 tagsmile
 sbs_boss	nadiag26	POST	pym0g6k-_icu7		2011-08-19	보스 지키다 를 지키다 귀요미
-sbs_boss	kmn926	POST	pym0gjs-_j7w2		2011-08-19	보스 지키다 넘 잼써 우짤까tagquestion 본방사수 하세연
-sbs_boss	jjlovley	POST	pym0gsb-5mbsq		2011-08-19	보스 지키다 화 호다 차무원 플레 플레이어
-sbs_boss	ghkdnjs	POST	pym0he6-1tz1		2011-08-18	드라마 전편 엔딩 시작 어제 보스를지켜 엔딩 엔딩은 김재중 김재중의 신이었죠 나도 나다 나 슬프다 tagcry 또 신볼 마음 준비되셨나요tagquestion 난 나다 날다 안볼래
+sbs_boss	kmn926	POST	pym0gjs-_j7w2		2011-08-19	보스 지키다 넘 잼써 우짤까 tagquestion 본방사수 하세연
+sbs_boss	jjlovley	POST	pym0gsb-5mbsq		2011-08-19	110819 보스 지키다 5화 차무원 플레 플레이어
+sbs_boss	ghkdnjs	POST	pym0he6-1tz1		2011-08-18	드라마 전편 엔딩 시작 어제 보스를지켜 엔딩 엔딩은 김재중 김재중의 신이었죠 나도 나다 나 슬프다 tagcry 또 신볼 마음 준비 준비되셨 tagquestion 난 나다 날다 안볼래
 sbs_boss	oqcaa	POST	pym0hev-tjn9		2011-08-19	보스 지키다 출연자 뇌 구조
-sbs_boss	cfg452	POST	pym0hlh-32l8		2011-08-18	요즘 보스 지켜라 지켜라가 꽂히다 tagsmile 근데 보스 지켜 지켜라 좀 조다 불안불안 아직 화 호다 밖 안하다 벌쓰다 ㅅ 스키신 스키신이 tagsmile 재중 어쩔겨 tagsmile 동정스키tagquestion tagsmile 요런건가tagquestion tagsmile 쨋든 스토리 좋은듯 tagsmile
-sbs_boss	leeger92	POST	pym0hzc-pvzg		2011-08-18	계백 무사백동수 공주 남자 남다 보스 지키다 넌 널다 내다 반 애정만만세 순위 순이랍니당 드라마 월화 월화나 수목드라마 인기 많다 그것 시쯤 나오다 제일루 tagexclamation
-sbs_boss	u80yi	POST	pym0ikv-548pw		2011-08-19	안녕하세요tagquestion드라마 보스 지켜리 랑 런닝맨 의 주재 보스 지키다 나오셨잖아요 tagexclamation 친구수락 해 하다 주셔서 감사 행복한하루 tagexclamation 친구소개 actorjisung
-sbs_boss	bis_nakake	POST	pym0j97-5veis		2011-08-19	새벽 시 먹 라면 보스를지켜 보니 급먹고 싶다 tagcry
+sbs_boss	cfg452	POST	pym0hlh-32l8		2011-08-18	요즘 보스 지켜라 지켜라가 꽂히다 tagsmile 근데 보스 지켜 지켜라 좀 조다 불안불안 아직 5화 밖 안하다 벌쓰다 ㅅ 스키신 스키신이 tagsmile 재중 어쩔겨 tagsmile 동정스키 tagquestion tagsmile 요런건가 tagquestion tagsmile 쨋든 스토리 좋은듯 tagsmile
+sbs_boss	leeger92	POST	pym0hzc-pvzg		2011-08-18	계백 무사백동수 공주 남자 남다 보스 지키다 넌 널다 내다 반 애정만만세 순위 순이랍니당 드라마 월화 월화나 수목드라마 인기 많다 그것 10시쯤 나오다 제일루 tagexclamation
+sbs_boss	u80yi	POST	pym0ikv-548pw		2011-08-19	안녕 tagquestion 드라마 보스 지켜리 랑 런닝맨 의 주재 보스 지키다 나오셨잖아요 tagexclamation 친구수락 해 하다 주셔서 감사 행복한하루 tagexclamation 친구소개 actorjisung
+sbs_boss	bis_nakake	POST	pym0j97-5veis		2011-08-19	새벽 3시 3시에 먹 라면 보스를지켜 보니 급먹고 싶다 tagcry
 sbs_boss	thsdhqks777	POST	pym0kxy-frrt		2011-08-20	sbs 드라마 보스 지키다 보다 보 사람 사다 tagexclamation
-sbs_boss	hotvideo	POST	pym0lg_-uy8		2011-08-18	보스 지키다 e hdtv p 동영 보스 지키다 e hdtv p 동영
-sbs_boss	hotvideo	POST	pym0liy-uy8		2011-08-18	보스 지키다 e hdtv p 동영 보스 지키다 e hdtv p 동영
+sbs_boss	hotvideo	POST	pym0lg_-uy8		2011-08-18	보스 지키다 e05.110817.hdtv 720p_09 동영 보스 지키다 e05 110817 hdtv 720p 09 동영
+sbs_boss	hotvideo	POST	pym0liy-uy8		2011-08-18	보스 지키다 e05.110817.hdtv 720p_07 동영 보스 지키다 e05 110817 hdtv 720p 07 동영
 sbs_boss	thaqoddl7	POST	pym0lnv-yem5m		2011-08-19	보스 지키다 tagexclamation taglove 지성 taglove 내꺼 taglove 김재중 taglove
-sbs_boss	pusankjs	POST	pym0m4g-yyk0a		2011-08-19	보스를지켜 왕지혜 엽기코믹 표정 종 폭소
-sbs_boss	dudhkd0408	POST	pym0m4l-_pc05		2011-08-19	앜 넌내반 넌내반이 끝나다 끝나다 tagcry 어제 완존 헤어지다 줄 주다 알다 깜놀 아 슬프다 난 나다 날다 이제 멀 보고 보다 보 살지tagquestion 공주 남자 재밌 재밌나 보스 지켜라 지켜라가 재밌나tagquestion
-sbs_boss	yeana30	POST	pym0mcv-500fo		2011-08-19	보스 지키다 화 호다 공주 남자 남다 화 호다 넌 널다 내다 반 마직막회 수목드라마 무료 다시보기
-sbs_boss	sollea3	POST	pym0mvz-5gkdv		2011-08-19	보스 지키다 회 다시보기
+sbs_boss	pusankjs	POST	pym0m4g-yyk0a		2011-08-19	보스를지켜 왕지혜 엽기코믹 표정 12종 폭소
+sbs_boss	dudhkd0408	POST	pym0m4l-_pc05		2011-08-19	앜 넌내반 넌내반이 끝나다 끝나다 tagcry 어제 완존 헤어지다 줄 주다 알다 깜놀 아 슬프다 난 나다 날다 이제 멀 보고 보다 보 사다 tagquestion 공주 남자 재밌 재밌나 보스 지켜라 지켜라가 재밌 재밌나 tagquestion
+sbs_boss	yeana30	POST	pym0mcv-500fo		2011-08-19	보스 지키다 5화 공주 남자 남다 10화 넌 널다 내다 반 마직막회 수목드라마 무료 다시보기
+sbs_boss	sollea3	POST	pym0mvz-5gkdv		2011-08-19	보스 지키다 6회 다시보기
 sbs_boss	shgml456	POST	pym0n2t-pv48		2011-08-18	드라마 보스 지키다 최강희님 바람나다 개사 개다 바람나다 겁나다 웃기다
-sbs_boss	tmzpdlxj12	POST	pym0ohv-__u00		2011-08-19	보스 지키다 지성 최강희 뇌구조 어떻길래tagquestion 아시아투데 아시아투데이
+sbs_boss	tmzpdlxj12	POST	pym0ohv-__u00		2011-08-19	보스 지키다 지성 최강희 뇌구조 어떻길래 tagquestion 아시아투데 아시아투데이
 sbs_boss	kelly7972	POST	pym0qnm-bcxb		2011-08-19	보스를지켜 지성의명연기 자연 잼 귀엽다 차지헌
-sbs_boss	swa075531	POST	pym0r23-0lck		2011-08-20	다운 보기 보다 캡쳐 보스 지키다 화 호다 다시보기 포스팅
+sbs_boss	swa075531	POST	pym0r23-0lck		2011-08-20	다운 보기 보다 캡쳐 보스 지키다 5화 다시보기 포스팅
 sbs_boss	season	POST	pym0rbw-3vj0		2011-08-18	보스 지키다 이거 완전 의외 빵빵 터지다 맛 있다 tagsmile 지성 로얄패밀리 이후 어색 말투 연기 정착시키려나본데 그게 웃다 웃기다 웃기 tagsmile
-sbs_boss	e_b0117	POST	pym0siw-_si2k		2011-08-19	하 하다 요즘 보스를지켜라 푹빠짐 tagsmile tagsmile 어제 넌내반 막방 막방인데 막방인데도 넌내반 안 안보 보스를지켜라를봐찌렁 tagsmile 넌내반 넌내반은 재방 보면돼g tagexclamation tagsmile 보스를지켜 어제 회 회재방해주길레 보다 꺄 푹빠짐 tagsmile
+sbs_boss	e_b0117	POST	pym0siw-_si2k		2011-08-19	하 하다 요즘 보스를지켜라 푹빠짐 tagsmile tagsmile 어제 넌내반 막방 막방인데 막방인데도 넌내반 안 안보 보스를지켜라를봐찌렁 tagsmile 넌내반 넌내반은 재방 보면돼g tagexclamation tagsmile 보스를지켜 어제 3회 4회재방해주길레 보다 꺄 푹빠짐 tagsmile
 sbs_boss	kelly7972	POST	pym0spd-bcxb		2011-08-19	보스를지켜 유쾌한드라마 귀엽다 차차커플
 sbs_boss	kyoungt70	POST	pym0srh-bxvq		2011-08-19	원문 보스를지켜 뇌구조 등장 보스 뇌구조 보다 보 드라마 다 본듯 폭풍반응 웹
-sbs_boss	rldkde0517	POST	pym0su3-_qf3g		2011-08-18	오늘 재밌는일 재밌는일이 없다 tagcry 보스 지키다 하기전 재밌는 재밌는일 없을까요tagquestion
+sbs_boss	rldkde0517	POST	pym0su3-_qf3g		2011-08-18	오늘 재밌는일 재밌는일이 없다 tagcry 보스 지키다 하기전 재밌는 재밌는일 없다 tagquestion
 sbs_boss	wjsdmswk13	POST	pym0t91-1vrn		2011-08-18	보스 지키다 보는사람 미투 고 tagexclamation
 sbs_boss	dhkdwn1	POST	pym0tf9-ffrt		2011-08-18	보스 지켜라 지켜라를 보다 ost좋다 햇는데 어디서 많다 듣다 목소맄 tagsmile 알고보 알고보니 에핑 tagsmile 에핑
 sbs_boss	spnning	POST	pym0tje-tssc		2011-08-18	아 보스 지키다 하루 지나다 어제꺼 보다 아유 좋아랔 tagsmile 엄마미소잔뜩 tagcry tagsmile
-sbs_boss	tbayst	POST	pym0ugm-_ipzs		2011-08-18	보스 지키다 의 최강희 비서룩 의 숨다 숨 포인트는tagquestion 도트
+sbs_boss	tbayst	POST	pym0ugm-_ipzs		2011-08-18	보스 지키다 의 최강희 비서룩 의 숨다 숨 포인트 tagquestion 도트
 sbs_boss	_adonai_	POST	pym0vba-_fbfi		2011-08-18	아 시티헌터 끝나다 진짜 심심 tagcry 보스 지키다 기대 기대다 이상 완전 이상 tagexclamation
-sbs_boss	sylkkkk	POST	pym0vea-_dzgb		2011-08-20	tagsmile 보스를지켜라 나오다 차지헌 머리 같다 않나요tagquestion tagsmile
-sbs_boss	haeun528	POST	pym0w3j-wi_p		2011-08-19	ㄴㄴ보스를지켜 taglove 영웅재중 tagsmile 박유천 taglove
-sbs_boss	lovesn62	POST	pym0wjv-_wd3d		2011-08-19	보스를지켜라보스를지켜 회 다시보기
-sbs_boss	wltn0730	POST	pym0wqs-y896w		2011-08-19	어제 넌내반 넌내반이 종영됬네 tagsmile조기 종영 아쉬워하시는분이많더라구 여러분은어떠신가요tagquestion tagsmile 제 친구 폐인 폐 되다 듯 달콤 드라마 없어지다 아쉽기도 tagsmile tagsmile 저 보스 지켜라봐서 아직 종영걱정 tagsmile tagsmile 너무재밌는듯 보스 지켜 지켜라 많이시청해주세 tagsmile홍보tagquestion tagsmile 추천드라마 tagexclamation
-sbs_boss	gkwlsrnjs12	POST	pym0x42-ytik8		2011-08-18	보스 지켜라한다아아ㅏ tagsmile
+sbs_boss	sylkkkk	POST	pym0vea-_dzgb		2011-08-20	tagsmile 보스를지켜라 나오다 차지헌 머리 같다 않다 않 tagquestion tagsmile
+sbs_boss	haeun528	POST	pym0w3j-wi_p		2011-08-19	ㄴㄴ 보스를지켜 taglove 영웅재중 tagsmile 박유천 taglove
+sbs_boss	lovesn62	POST	pym0wjv-_wd3d		2011-08-19	보스를지켜라보스를지켜 6회 다시보기
+sbs_boss	wltn0730	POST	pym0wqs-y896w		2011-08-19	어제 넌내반 넌내반이 종영됬네 tagsmile 조기 조다 종영 아쉬워하시는분이많더라구 여러분은어떠신가 tagquestion tagsmile 제 친구 폐인 폐 되다 듯 달콤 드라마 없어지다 아쉽기도 tagsmile tagsmile 저 보스 지켜라봐서 아직 종영걱정 tagsmile tagsmile 너무재밌는듯 보스 지켜 지켜라 많이시청해주세 tagsmile 홍보 tagquestion tagsmile 추천드라마 tagexclamation
+sbs_boss	gkwlsrnjs12	POST	pym0x42-ytik8		2011-08-18	보스 지켜라한다아아 ㅏ tagsmile
 sbs_boss	hero-0126	POST	pym0x6q-_s0xj		2011-08-18	어제 보스 지키다 보고 보다 보 키스신 땜 충격 받다 휴 오늘 본방사수 하다 할거 보스 지키다 마니마 마니마니 보세요요요
-sbs_boss	ghd2017	POST	pym0xuc-lmyb		2011-08-18	아 레알tagquestion 난 나다 날다 보스 지키다 볼끄 볼끄야 왜냐고tagquestion 난 나다 날다 원래 넌내반 넌내반을 안봤으니깐 tagsmile
+sbs_boss	ghd2017	POST	pym0xuc-lmyb		2011-08-18	아 레알 tagquestion 난 나다 날다 보스 지키다 볼끄 볼끄야 왜냐 왜냐고 tagquestion 난 나다 날다 원래 넌내반 넌내반을 안봤으니깐 tagsmile
 sbs_boss	myoungslieb	POST	pym0y4j-pmvo		2011-08-20	엉뚱 시간 배가 배 고프다 어째야 어째야돼 배고프다 배고픔 참다 보스 지키다 다시보기
 sbs_boss	catgirl28	POST	pym0ztu-_h66r		2011-08-19	보스 지키다 캐릭터 뇌구조 화제 한 하다 눈 쏙 tagexclamation 데일리안 데일리안
 sbs_boss	hs199559	POST	pym0_it-ttq5		2011-08-19	tagcry 보스를지켜 본격적 삼각관계되는구 tagcry tagcry tagcry 둘다 멋있다 노은설 노은설이 부럽다 다음주 기대 개학 망
-sbs_boss	simbayah	POST	pym11e8-59p2m		2011-08-19	헐 공주의남자 잼있다길래 회 보다 완전 잼 tagsmile 보스를지켜 잼있구 행복 tagsmile 드라마 보다 재미 찾다
-sbs_boss	lee024808	POST	pym12vm-yw0_w		2011-08-20	tagsmile 갤스 화이트나왔다 여인의향기 보스를지켜라에성 다 내꺼폰나오는뎅 tagsmile 최강희 최강희랑 김선 김선아 둘다 갤스 화이트 화이트로 바꾸다 아 나두 폰바꾸 폰바꾸고 싶다 tagcry
+sbs_boss	simbayah	POST	pym11e8-59p2m		2011-08-19	헐 공주의남자 잼있다길래 1회 보다 완전 잼 tagsmile 보스를지켜 잼있구 행복 tagsmile 드라마 보다 재미 찾다
+sbs_boss	lee024808	POST	pym12vm-yw0_w		2011-08-20	tagsmile 갤스2 화이트나왔다 여인의향기 보스를지켜라에성 다 내꺼폰나오는뎅 tagsmile 최강희 최강희랑 김선 김선아 둘다 갤스2 화이트 화이트로 바꾸다 아 나두 폰바꾸 폰바꾸고 싶다 tagcry
 sbs_boss	kth9818	POST	pym13wa-5_can		2011-08-19	이게 차무원이니시 차무원이니시라 무느님 tagsmile 캐훈 캐훈남 tagsmile 영웅재중 보스 지키다
-sbs_boss	novel1616	POST	pym155t-q2ho		2011-08-20	링크만화 보다 보 보스 지키다 편 펴다 maker 띠아모
-sbs_boss	lenejsk	POST	pym15en-5znhs		2011-08-19	보스를지켜 권혁구 레몬에이드
+sbs_boss	novel1616	POST	pym155t-q2ho		2011-08-20	링크만화 보다 보 보스 지켜라1 4편 maker 띠아모
+sbs_boss	lenejsk	POST	pym15en-5znhs		2011-08-19	1.보스를지켜 2.권혁구 3.레몬에이드
 sbs_boss	dabin1053	POST	pym15uz-yxahd		2011-08-19	보스 지키다 재밌어 지성 배우님 귀엽다
 sbs_boss	dnflwlq6562	POST	pym15wj-yqslq		2011-08-19	보스를지켜 권혁구 마카롱
 sbs_boss	actorjisung	POST	pym16ff-5j_cv		2011-08-20	보스 지키다 재밌어 재밌어요 아 다음 화 호다 기다리다 져욤 tagsmile
 sbs_boss	woqls995	POST	pym17g1-58a9r		2011-08-20	보스 지키다 짱 재미 드라마 sbs 짱 짱이던데
 sbs_boss	actorjisung	POST	pym19ln-sjg4		2011-08-20	보스를지켜라완전재밌어 taglove
-sbs_boss	queen_hyun1	POST	pym1bdm-_a3ou		2011-08-19	요즘 재밌게 보고 드라마 tagexclamation 보스를지켜 ost 다 좋은것 좋은것같다 중 무느님 목소리 제일 제 좋다 tagsmile taglove 보스 지키다 ost part
-sbs_boss	beast_seop	POST	pym1c_i-5v75a		2011-08-20	지금공부버리 컴 컴으 보스를지켜 회보는데 본부장고백차이구 tagcry 포기안하려하구 tagcry 역할왤케긔여움tagquestion반할꺼가타 taglove 차지헌본부장내끄 taglove 해바라기네 내이상형될꺼가타
+sbs_boss	queen_hyun1	POST	pym1bdm-_a3ou		2011-08-19	요즘 재밌게 보고 드라마 tagexclamation 보스를지켜 ost 다 좋은것 좋은것같다 중 무느님 목소리 제일 제 좋다 tagsmile taglove 보스 지키다 ost part 3
+sbs_boss	beast_seop	POST	pym1c_i-5v75a		2011-08-20	지금공부버리 컴 컴으 보스를지켜 5회보는데 본부장고백차이구 tagcry 포기안하려하구 tagcry 역할왤케긔여움 tagquestion 반할꺼가타 taglove 차지헌본부장내끄 taglove 해바라기네 내이상형될꺼가타
 sbs_boss	whffkaos2151	POST	pym1dbt-ya9d1		2011-08-20	보스를지켜 제목이길음
 sbs_boss	novel1616	POST	pym1d_l-q2ho		2011-08-20	보스 지켜라캐릭터
 sbs_boss	ekdnjs0130	POST	pym1ezc-_t_73		2011-08-19	보스를지켜라완전재밌음 tagexclamation 재방계속봐도재미땨 tagcry
-sbs_boss	hotvideo	POST	pym1fzh-uy8		2011-08-20	보스 지키다 회 동영 보스 지키다 회 동영
+sbs_boss	hotvideo	POST	pym1fzh-uy8		2011-08-20	보스 지키다 6회 13 동영 보스 지키다 6 회 13 동영
 sbs_boss	jenny0510	POST	pym1gv9-n3ow		2011-08-20	김재중보스를지켜 김재중보스를지켜라
-sbs_boss	narak79	POST	pym1g_g-pfnc		2011-08-20	보스 지키다 회 무느님 김재중 캡쳐
-sbs_boss	nolee6154	POST	pym1jel-5uy3x		2011-08-20	보스를지켜라ㅏㅏ 녹화챠 녹화챠랑
-sbs_boss	aromasu	POST	pym1jwy-_oob8		2011-08-20	앗다 매일매일 매일매 드라마 보게 보게된다 아줌마 되가 되가는 것인가tagquestion 보다 보 것중 보스 지켜라 지켜라가 젤 재밋지렁 tagexclamation 푸킄 무느님 taglove
+sbs_boss	narak79	POST	pym1g_g-pfnc		2011-08-20	보스 지키다 3회 무느님 김재중 캡쳐
+sbs_boss	nolee6154	POST	pym1jel-5uy3x		2011-08-20	보스를지켜 ㅏㅏ 녹화챠 녹화챠랑
+sbs_boss	aromasu	POST	pym1jwy-_oob8		2011-08-20	앗다 매일매일 매일매 드라마 보게 보게된다 아줌마 되가 되가는 것 tagquestion 보다 보 것중 보스 지켜라 지켜라가 젤 재밋지렁 tagexclamation 푸킄 무느님 taglove
 sbs_boss	an72536	POST	pym1k4o-5ym0s		2011-08-19	보스를지켜라ost 김예원 황광희 그대 보 보스를지켜라ost 모음 모으다 듣기 듣다 가사 가다
 sbs_boss	chic_9714	POST	pym1lfx-5gji5		2011-08-20	보스를지켜 권혁구 마카롱
 sbs_boss	me2times	POST	pym1m8a-_1abw		2011-08-20	보스를지켜 taglove
-sbs_boss	sangjun_me2	POST	pym1moh-yitej		2011-08-20	하잇 tagexclamation 다들무도본방사수하셨죵tagquestion tagsmile 정답다 정답 보스를지켜 권혁구 마카롱입니닷 tagexclamation 맞추신분들껫 점씩드립니당 tagsmile 점만점에벌써 점 tagsmile 담주도기대해주삼 tagexclamation
+sbs_boss	sangjun_me2	POST	pym1moh-yitej		2011-08-20	하잇 tagexclamation 다들무도본방사수하셨죵 tagquestion tagsmile 정답다 정답 보스를지켜 권혁구 마카롱입니닷 tagexclamation 맞추신분들껫5 점씩드립니당 tagsmile 25점만점에벌써5 점 tagsmile 담주도기대해주삼 tagexclamation
 sbs_boss	janerose1	POST	pym1s96-_k6u3		2011-08-20	허영생 보스 지키다 ost작업중 tagsmile 기대 tagsmile
-sbs_boss	jenny0510	POST	pym1t6q-n3ow		2011-08-20	김재중보스를지켜 김재중보스를지켜라
+sbs_boss	jenny0510	POST	pym1t6q-n3ow		2011-08-20	김재중보스를지켜라2
 sbs_boss	totoo0731	POST	pym1y5z-55rxv		2011-08-20	보스를지켜 광희예원 듀엣곡
-sbs_boss	lj64825lj	POST	pym1zl7-551iw		2011-08-20	에이핑크 우리그냥 사랑 해 하다 주다 보스 지키다 ost 우리그냥 사랑 하다 가사 가다 우리그냥 사랑 하다 mp
+sbs_boss	lj64825lj	POST	pym1zl7-551iw		2011-08-20	에이핑크 우리그냥 사랑 해 하다 주다 보스 지키다 ost 우리그냥 사랑 하다 가사 가다 우리그냥 사랑 하다 mp3
 sbs_boss	junga8513	POST	pym1_0c-ju33		2011-08-20	tagcry 이제 넌 널다 내 내다 반 끝나다 보스 지키다 봐야겠듬 tagexclamation tagsmile 수혀 수혀니 추천 덕분 재밌는 드라마 보다 보 같다 tagsmile
-sbs_boss	momo_0126	POST	pym304t-_glny		2011-08-18	high light 보스 지키다 키스신 kiss scene 보스 지키다 키스신 kiss scene
+sbs_boss	momo_0126	POST	pym304t-_glny		2011-08-18	high light 20110817 보스 지키다 05 키스신 kiss scene 20110817 보스 지키다 05 키스신 kiss scene
 sbs_boss	pjh4661	POST	pym320i-5cdhx		2011-08-18	아 보스를지켜 머 머임 신종드립인가
 sbs_boss	happyys81	POST	pym326o-_5y7f		2011-08-18	송파역 송파역에 내리다 내려서다 잠시 버스 기다릴까 기다릴까하 기다릴까하다 보스 지켜라 지켜라를 봐야한단 생각 택시
 sbs_boss	larcobaleno	POST	pym32bh-5gks9		2011-08-20	보스 지키다 최강희 깝죽대다 왕지혜 한 하다 손 제압 깨갱
 sbs_boss	kelly_choco	POST	pym32b_-ye6bm		2011-08-18	어 어여 나 나다 왔엉 tagsmile 나 나다 보스 지키다 보구 있다 보스 지키다 보다 보 사람 눌러 tagsmile
 sbs_boss	sanjoa98	POST	pym32iz-ykpku		2011-08-18	드디어 내일 내 개학 tagexclamation tagcry 방학숙제 보고서 보다 때매 보스 지키다 도 못보 못보내 tagcry tagsmile
-sbs_boss	larcobaleno	POST	pym32j7-5gks9		2011-08-20	보스를지켜 김재중 최강희 최강희에 사랑고백 내 무느님이라고tagquestion
+sbs_boss	larcobaleno	POST	pym32j7-5gks9		2011-08-20	보스를지켜 김재중 최강희 최강희에 사랑고백 내 무느님 무느님이 무느님이라 tagquestion
 sbs_boss	beteboom	POST	pym32vq-yubx9		2011-08-18	보스를지켜라에서나오 지성 겪고 겪고있는 공황장애 계속설명 tagsmile 내가겪었던 증상 tagsmile 광장공포증까지는아니지 왠지 공감간다 tagsmile 지금 아니다 공황장애 평생안고가야 골칫거리 tagsmile 난 나다 날다 스트레스 과도 급긴장 급긴장만 안하면 안하면됨
 sbs_boss	yoobin820	POST	pym32ym-l8j5		2011-08-18	오늘 넌내반 막방 막방날 tagcry tagcry 어제예고보니까 막 헤어지다 난리 도대체 이야기가어떻게끝날까아 이거끝남보스를지켜라바야지 tagcry
-sbs_boss	boon098	POST	pym346j-5lpua		2011-08-18	보스 지키다 넘 재밌어 지성 좋다 최강희 최강희도 죻고 둘 둘이 진짜 사겨 사겨라 tagsmile 차지헌 taglove 노은설 을 지지합니다tagsmile
-sbs_boss	thdpwls2003	POST	pym35n6-y0d05		2011-08-18	내 요즘 보다 보 짱구 못말려 기 안녕 자두 무사 백동수 보스 지키다 닉네 닉네임
+sbs_boss	boon098	POST	pym346j-5lpua		2011-08-18	보스 지키다 넘 재밌어 지성 좋다 최강희 최강희도 죻고 둘 둘이 진짜 사겨 사겨라 tagsmile 차지헌 taglove 노은설 을 지지 tagsmile
+sbs_boss	thdpwls2003	POST	pym35n6-y0d05		2011-08-18	내 요즘 보다 보 짱구 못말려11 기 안녕 자두 무사 백동수 보스 지키다 닉네 닉네임
 sbs_boss	happykeil	POST	pym367_-oheb		2011-08-18	tagsmile 보스 지키다 재밌돵 tagexclamation tagsmile
 sbs_boss	sindayong	POST	pym36by-hcfs		2011-08-18	보스 지키다 뽀스 보 스 를 지 켜 키다 라 예고 예 동영
 sbs_boss	whthffk45	POST	pym36ml-_gp53		2011-08-20	이젠 시티헌터 뒤를 뒤를이은 보스를지켜 tagexclamation 완전 재밋네 tagsmile
 sbs_boss	snfl0877	POST	pym37br-59roc		2011-08-18	오늘보스를지켜라본방본사람손 보스를지켜
-sbs_boss	gprud717	POST	pym37gh-yi75u		2011-08-18	요새들어 미친 미친을 자주못하는것같네요tagsmile 요즘너무 빠져있는드라마 tagexclamation 보스를지켜 tagexclamation 지성형의귀여운연기덕 매일매일본방사수 tagexclamation 하하이러 아줌마돼는거아닌가요tagquestion미친 아줌마돼는거아닌가요tagquestion미친들은 늦은시간까지뭘하나요tagquestion
+sbs_boss	gprud717	POST	pym37gh-yi75u		2011-08-18	요새들어 미친 미친을 자주못하는것 tagsmile 요즘너무 빠져있는드라마 tagexclamation 보스를지켜 tagexclamation 지성형의귀여운연기덕 매일매일본방사수 tagexclamation 하하이러 아줌마돼는거아닌가 tagquestion 미친 미친들은 늦은시간까지뭘 tagquestion
 sbs_boss	jisiklog	POST	pym37pp-_rcxy		2011-08-18	넌내게반 taglove 보스를지켜 넌내게반
-sbs_boss	jisiklog	POST	pym37wv-_rcxy		2011-08-18	월 일 보스를지켜 공주의남자시청률 공주의남자
+sbs_boss	jisiklog	POST	pym37wv-_rcxy		2011-08-18	8월17 일 보스를지켜 공주의남자시청률 공주의남자
 sbs_boss	eun-hye1004	POST	pym37_y-qn4w		2011-08-18	아 나 나다 이제 보스 지키다 끝나다 뭐보지 tagcry tagcry oh tagcry tagcry 나 나다 이제 한동안 드라마 못보게 될꺼 같애 tagcry 으어어어어 죄송 쌩쇼 좀 조다 하다
 sbs_boss	rpduswn	POST	pym391v-__69g		2011-08-18	노은설 노은설이 생각 생각 하다 지성 귀요미
 sbs_boss	lsyrose	POST	pym39d1-5w5gm		2011-08-18	보스 지키다 잘 자다 보고 보다 보 있어염 친구소개 지성
 sbs_boss	yy1998	POST	pym39xi-gefc		2011-08-18	보스 지키다 재밌다 tagexclamation
 sbs_boss	actorjisung	POST	pym3a02-yppk3		2011-08-20	귀요미 지성 오빠 taglove 미치다 똥머리 대박 tagsmile 하셔서 보스를지켜 대박 후훗
-sbs_boss	love_z13	POST	pym3a55-5ddo8		2011-08-18	보스를지켜라vs공주의남자 뭐보지 tagsmile tagcry
-sbs_boss	bsky1019	POST	pym3aq7-yjub5		2011-08-18	보스 지키다 재중 메이킹스토리 swf
-sbs_boss	lidvina9804	POST	pym3aym-44m2		2011-08-18	어제 보스 지키다 보고 분노 가득차 친구들한테 문자오더군 괜찮다 tagsmile 괜찮을리 괜찮을리가 그리다 소문 사실 모르다 뭐tagquestion 배드신tagquestion tagsmile tagsmile 재중오빠 트위터 트위터는 또 뭐 tagsmile 장난해tagquestion
-sbs_boss	kmss3345	POST	pym3c8z-y7yb7		2011-08-18	뉴스 보스 최강희 지성 고백 더럽다 이래 좋아tagquestion
+sbs_boss	love_z13	POST	pym3a55-5ddo8		2011-08-18	보스를지켜라vs 공주의남자 뭐보지 tagsmile tagcry
+sbs_boss	bsky1019	POST	pym3aq7-yjub5		2011-08-18	110818 보스 지키다 재중 메이킹스토리 swf
+sbs_boss	lidvina9804	POST	pym3aym-44m2		2011-08-18	어제 보스 지키다 보고 분노 가득차 친구들한테 문자오더군 괜찮다 tagsmile 괜찮을리 괜찮을리가 그리다 소문 사실 모르다 뭐 tagquestion 배드신 tagquestion tagsmile tagsmile 재중오빠 트위터 트위터는 또 뭐 tagsmile 장난 tagquestion
+sbs_boss	kmss3345	POST	pym3c8z-y7yb7		2011-08-18	뉴스 보스 최강희 지성 고백 더럽다 이래 좋다 tagquestion
 sbs_boss	tvxq12265555	POST	pym3cu2-_g_yo		2011-08-18	지켜줄게 다운 tagsmile 재중이 재중이가 오에수티 불러서 대박날꺼 보스 지켜 지켜라 여향 여향도 tagsmile
-sbs_boss	momo_0126	POST	pym3e59-_glny		2011-08-18	fr sina     loveissammi jyj 보스 지키다
+sbs_boss	momo_0126	POST	pym3e59-_glny		2011-08-18	fr sina loveissammi jyj19 20110817 보스 지키다 05
 sbs_boss	ml1238	POST	pym3eax-5jd7a		2011-08-18	지금하고잇는 보스 지키다 여인 향기 너내게반햇어 끝 홧팅 tagexclamation taglove
 sbs_boss	fuck_93	POST	pym3ebv-m79b		2011-08-18	홍대에있는수제버거집 tagexclamation 감싸롱 tagsmile 맛있더라구용 내가머근건 양파를핫소스에볶아서 매콤 tagsmile 근데핫소스향이강해서친구는싫어하더라구 tagsmile 뭐 나만맛있으면 나만맛있으면되지 tagsmile 아 오늘노느 보스를지켜라못봤네 tagcry 엉엉 금욜날학교가능데 tagexclamation 더놀아야 더놀아야해 tagexclamation tagsmile 식미투 taglove 저거완전배불러 tagsmile 배터지능줄 tagsmile
 sbs_boss	egoistyle	POST	pym3gge-iu2p		2011-08-18	간 간만 화창 하루 햇빛 냄새 나다 이불 보송 보송하게 말리다 있다 날 알코올 분해 힘쓰다 몸 다르다 건 거다 걸다 못하다 하다 하 이부자리 인간 골골 하루 완벽 잃다 깨자마자 읽다 본부장 모 아 얼른 보스 지켜라 지켜라를 보고 보다 보 싶다 싶구 동생 끓이다 해장라면 진짜 맛있었다 라면 장사 망 않다 듯 먹 때 잠시 뿐 계속 속다 속 헛헛하다 쓰리다 느낌 느끼다 tagcry tagcry 느끼다 느낌 싫다 평소 절주 절주를 잘 자다 했었던 거다 걸다 tagcry tagcry
-sbs_boss	osgzz	POST	pym3heo-_8nr8		2011-08-20	보스를지켜 회 토렌트
+sbs_boss	osgzz	POST	pym3heo-_8nr8		2011-08-20	보스를지켜 6회 토렌트
 sbs_boss	dasoni_	POST	pym3hf9-2gwt		2011-08-18	아무리 생각 요즘 수목 드라마 강세 tagexclamation 지성 마성 마성에 빠져들다 넌 널다 내다 반 tagexclamation 공주 남자 남다 tagexclamation 보스 지키다 tagexclamation
 sbs_boss	hjk1762	POST	pym3hih-_0obc		2011-08-18	보스 지키다 볼사람 미투 미투해 완정 잼 재다 잇다 tagexclamation
-sbs_boss	lovelycong00	POST	pym3jnq-5uo57		2011-08-18	최강희 블라우스 보스를지켜 회 최강희 노은설 옷 패션스타일 패션스타 배색포인트블라우스 의상정보
-sbs_boss	girleeria	POST	pym3jr_-_i7u7		2011-08-18	보스 지키다 ost part 김재중 보스 지키다 ost part
-sbs_boss	hsu1125	POST	pym3k36-yxxfm		2011-08-18	아 요즘 엄청 잘생기다 호감형 많다 tagexclamation 크훗 하다 하지 난 나다 날다 역시 순위 샤이니 샤이니고 순위 동방 위 슈주 랄까tagquestion tagsmile 아 재중 보스 지켜라 완젼 귀엽다 taglove 아 얼른 명 합치다 좋다 샤이니 샤이니는 컴백헀음 좋켔네 난 나다 날다 샤월 샤월이니깐 후훗
+sbs_boss	lovelycong00	POST	pym3jnq-5uo57		2011-08-18	최강희 블라우스 보스를지켜라5 회 최강희 노은설 옷 패션스타일 패션스타 배색포인트블라우스 의상정보
+sbs_boss	girleeria	POST	pym3jr_-_i7u7		2011-08-18	보스 지키다 ost part 3 김재중 보스 지키다 ost part 3
+sbs_boss	hsu1125	POST	pym3k36-yxxfm		2011-08-18	아 요즘 엄청 잘생기다 호감형 많다 tagexclamation 크훗 하다 하지 난 나다 날다 역시 0순위 0순위는 샤이니 샤이니고 1순위 1순위는 동방 2위 2위는 슈주 랄까 tagquestion tagsmile 아 재중 보스 지켜라 완젼 귀엽다 taglove 아 얼른 5명 합치다 좋다 샤이니 샤이니는 컴백헀음 좋켔네 난 나다 날다 샤월 샤월이니깐 후훗
 sbs_boss	actorjisung	POST	pym3k_o-_o1ug		2011-08-20	회사 도 둘 둘의 관계 지성님 최강희님 도 모든것 모든것이 해피엔딩 해피엔딩으 tagsmile
-sbs_boss	gkvna5907	POST	pym3l6z-ykt6l		2011-08-18	오늘 넌내반 최종회 tagexclamation 보스 지켜 지켜라 많다 시청바랍니 재중이한테용돈좀쥐야죠tagquestion tagsmile
+sbs_boss	gkvna5907	POST	pym3l6z-ykt6l		2011-08-18	오늘 넌내반 최종회 tagexclamation 보스 지켜 지켜라 많다 시청바랍니 재중이한테용돈좀쥐야죠 tagquestion tagsmile
 sbs_boss	larcobaleno	POST	pym3l95-5gks9		2011-08-20	보스 지키다 왕지혜 완벽녀 대신 허당 코믹녀 선택 호감
-sbs_boss	hyundai253	POST	pym3lpg-5b8oq		2011-08-18	보스 지키다 sbs수목드라마 보스 지키다 회 미리보기 지성 최강희 김재중 왕지혜
-sbs_boss	jisiklog	POST	pym3lpg-_rcxy		2011-08-18	보스를지켜라에서왕지혜 역누구에요tagquestion 어디나왔던사람이에요tagquestion사람이름 어디나왔던사람이에요tagquestion사람이름하 대표작품좀 왕지혜
-sbs_boss	loveljh89	POST	pym3mv_-ydtm5		2011-08-18	tagsmile 오늘 보스를지켜 본방사수 어서어서 시가되기 tagsmile
-sbs_boss	kakugo	POST	pym3n1q-33uc		2011-08-18	오늘부 보스 지켜라 지켜라로 갈아타다 야밤 라면 먹는 씬 씬은 정말 고문 tagcry 차지헌 지성 헤어스타 은근 정통 도묘지 헤어네tagsmile
+sbs_boss	hyundai253	POST	pym3lpg-5b8oq		2011-08-18	보스 지키다 sbs수목드라마 보스 지키다 6회 미리보기 지성 최강희 김재중 왕지혜
+sbs_boss	jisiklog	POST	pym3lpg-_rcxy		2011-08-18	보스를지켜라에서왕지혜 역누구에 역누구에요 tagquestion 어디나왔던사람이에 어디나왔던사람이에요 tagquestion 사람이름 대표작품좀 왕지혜
+sbs_boss	loveljh89	POST	pym3mv_-ydtm5		2011-08-18	tagsmile 오늘 보스를지켜 본방사수 어서어서 10시가 tagsmile
+sbs_boss	kakugo	POST	pym3n1q-33uc		2011-08-18	오늘부 보스 지켜라 지켜라로 갈아타다 야밤 라면 먹는 씬 씬은 정말 고문 tagcry 차지헌 지성 헤어스타 은근 정통 도묘지 헤어네 tagsmile
 sbs_boss	minsun2012	POST	pym3njo-y8pdo		2011-08-18	아 내가보스를지켜라보고있는데아빠가공주의남잔가뭔가를틀었음 아놔
 sbs_boss	nanapro	POST	pym3noi-yn9v6		2011-08-18	보스 지키다 최강희 비서룩 패션 스타일 스타 브랜드 정보보스를지켜 완판녀 최강희 노은설 오피스룩 원피스 최강희 가방 최강희 시계 브랜드 패션 스타일 스타 정보 왕지혜 패션 스타일 스타 브랜드 정보
-sbs_boss	tros1415	POST	pym3nos-cgql		2011-08-18	드디어 야자끝 야자끝나 집에가는중 집에가는중인데 결국 보스 지키다 못봤다 젠장 근데 시 원피스 기다 기 볼수 볼수있어서 기쁘다 tagsmile 현재 만화 볼 보다 상황 절대 아니다
-sbs_boss	tvxq12265555	POST	pym3oyb-_g_yo		2011-08-18	오랫만 오랫만이 나 나다 어제 보스 지키다 못밧는데 어떤 여자 생기다 남자 키스햇다 tagcry 그사람누구임tagquestion내 아는사람 닮앗는데
+sbs_boss	tros1415	POST	pym3nos-cgql		2011-08-18	드디어 야자끝 야자끝나 집에가는중 집에가는중인데 결국 보스 지키다 못봤다 젠장 근데 11시 11시에 원피스8 기다 기 볼수 볼수있어서 기쁘다 tagsmile 현재 만화 볼 보다 상황 절대 아니다
+sbs_boss	tvxq12265555	POST	pym3oyb-_g_yo		2011-08-18	오랫만 오랫만이 나 나다 어제 보스 지키다 못밧는데 어떤 여자 생기다 남자 키스햇다 tagcry 그사람누구 tagquestion 내 아는사람 닮앗는데
 sbs_boss	3120kjh	POST	pym3qrp-9i03		2011-08-18	보스를지켜 차지헌 지성 본부장 노래 노랗다
 sbs_boss	choolee99	POST	pym3sfn-txev		2011-08-20	제가 제 원래 에이핑크 좋아하지않았는데 보스 지키다 ost들어보니까 괜찮은거 같다
 sbs_boss	nolee6154	POST	pym3tsm-5uy3x		2011-08-18	아두려워보스를지켜 tagcry
-sbs_boss	jjinigoya	POST	pym3ubw-yc_rn		2011-08-18	오늘 날씨 goodtagsmile밤 goodtagsmile밤에 시원 좋다 tagsmile 대박꿈꾸세 tagexclamation 보스 지키다 본방사수
+sbs_boss	jjinigoya	POST	pym3ubw-yc_rn		2011-08-18	오늘 날씨 good tagsmile 밤 시원 좋다 tagsmile 대박꿈꾸세 tagexclamation 보스 지키다 본방사수
 sbs_boss	_dd3	POST	pym3ul_-n_y2		2011-08-18	보스를지켜 한닼
 sbs_boss	larcobaleno	POST	pym3uqd-5gks9		2011-08-20	보스 지키다 지성 평생 은설 은설만 건드리다
 sbs_boss	tndls2909	POST	pym3usl-_ioh0		2011-08-18	나가요오 보스를지켜라봐야되요호
 sbs_boss	larcobaleno	POST	pym3ut1-5gks9		2011-08-20	보스 지키다 지성 최강희 키스 뒤 잘못
 sbs_boss	larcobaleno	POST	pym3uze-5gks9		2011-08-20	보스 지키다 무느님 재중 은설 사람 내리다
-sbs_boss	nanar123	POST	pym3v2q-ycxhg		2011-08-20	방학숙제 왕창 밀리다 학원 학교 정신 생각 안하다 tagcry tagcry 개남았어 오늘 개정 할수있을거 할수있을거같음 화 호다 ting tagsmile 지금 보스 지키다 ost 우리그냥 사랑하게해주세 들다 독후감쓰는데 미투 미투가 생각 모두 화이팅 tagexclamation
-sbs_boss	alice0181	POST	pym3vc9-9xn1		2011-08-18	나잠깐 나갓다오 나갓다오께 빡유에빙의를 빡유에빙의를하 빡유에빙의를하며 분노의젓가락질을 오늘잇을보스를지켜 회를 우동쳐먹구오껭
-sbs_boss	soomin0563	POST	pym3vcm-ifcl		2011-08-20	알징 보스 지켜라 지켜라에 나오다 재중아님tagquestion
-sbs_boss	frompic	POST	pym3vh9-_d1bz		2011-08-20	보스를지켜 회 다시보기 보스를지켜 회 재방송 지성 최강희 키스신 재중 왕지혜 키스신 보스를지켜 키스신너무너무 재미 보스를지켜 회 끝나다 충격
-sbs_boss	nine_member	POST	pym3vza-y_b2t		2011-08-20	광희 예원 보스 지키다 o s t 그대 보 뮤비 듣기 듣다
-sbs_boss	dlsdl01	POST	pym3w4h-yidvn		2011-08-18	보스를지켜라 시청률 위래 tagexclamation
+sbs_boss	nanar123	POST	pym3v2q-ycxhg		2011-08-20	방학숙제 왕창 밀리다 학원 학교 정신 생각 안하다 tagcry tagcry 5개남았어 오늘 3개정 3개정도 할수있을거 할수있을거같음 화2ting tagsmile 지금 보스 지키다 ost 우리그냥 사랑하게해주세 들다 독후감쓰는데 미투 미투가 생각 모두 화이팅 tagexclamation
+sbs_boss	alice0181	POST	pym3vc9-9xn1		2011-08-18	나잠깐 나갓다오 나갓다오께 빡유에빙의를 빡유에빙의를하 빡유에빙의를하며 분노의젓가락질을 오늘잇을보스를지켜라6 회를 우동쳐먹구오껭
+sbs_boss	soomin0563	POST	pym3vcm-ifcl		2011-08-20	알징 보스 지켜라 지켜라에 나오다 재중아님 tagquestion
+sbs_boss	frompic	POST	pym3vh9-_d1bz		2011-08-20	보스를지켜 5회 다시보기 보스를지켜 5회 재방송 지성 최강희 키스신 재중 왕지혜 키스신 보스를지켜 키스신너무너무 재미 보스를지켜 5회 5회가 끝나다 충격
+sbs_boss	nine_member	POST	pym3vza-y_b2t		2011-08-20	광희 예원 보스 지키다 o.s.t 그대 보 뮤비 듣기 듣다
+sbs_boss	dlsdl01	POST	pym3w4h-yidvn		2011-08-18	보스를지켜라 시청률4 위래 tagexclamation
 sbs_boss	charlie_hl	POST	pym3w7f-5l33s		2011-08-20	단발머리 보스를지켜 왕지혜 단발머리 보브단발머리
 sbs_boss	love_z13	POST	pym3x1u-5ddo8		2011-08-18	tagsmile 보스를지켜라에서뭔가재중이오글거리는말많은듯 tagsmile 아그리고이마깐게훨낫다훨훨
 sbs_boss	jyg953	POST	pym3x5w-x3gl		2011-08-18	꺅 사람 내려달래 tagcry 남자 다가가고싶대 tagcry 오다 대박 이번주 보스를지켜 좋다 하루 키스신 하루 고백 오다 대박
 sbs_boss	97hj0825	POST	pym3x62-5np6x		2011-08-18	보스 지키다 완전 사랑 tagsmile 아 완전잼밋써 tagcry
 sbs_boss	ekdusqhd	POST	pym3x65-ylwg7		2011-08-18	보스 지켜라 지켜라에 sbs정원 tagexclamation 앞 집 sbs정원 보고 보다 보 살꺼 살꺼임 tagsmile
-sbs_boss	jjhcmk	POST	pym3x8k-5ppi		2011-08-18	xcea tagexclamation 보스를지켜 tagexclamation 완전재중오빠알라뷰 taglove 차무원챠응 taglove 지성오빠두죠타 taglove
-sbs_boss	gd9796	POST	pym3xae-yvbsk		2011-08-18	하ㅏ 하ㅏ아 오늘 보스 지키다 보고 보다 보 미드 포기 후아ㅏ 닥치다 팬픽ㄱ쓸게 잠시 들렷
-sbs_boss	eun-hye1004	POST	pym3xck-qn4w		2011-08-18	우아아아아앗 tagexclamation ㅇ ㅇ 고백했어 tagexclamation 보스 지켜 지켜라 기습 좋아하다 좋아하 tagquestion 보다 보 깜놀 그나저 그나저나 넘 재밌다 귀척 죄송
+sbs_boss	jjhcmk	POST	pym3x8k-5ppi		2011-08-18	xcea8 tagexclamation 보스를지켜 tagexclamation 완전재중오빠알라뷰 taglove 차무원챠응 taglove 지성오빠두죠타 taglove
+sbs_boss	gd9796	POST	pym3xae-yvbsk		2011-08-18	하 하다 ㅏ 아 오늘 보스 지키다 보고 보다 보 미드 포기 후아 ㅏ 닥치다 팬픽 ㄱ 쓸다 잠시 들렷5
+sbs_boss	eun-hye1004	POST	pym3xck-qn4w		2011-08-18	우아아아아앗 tagexclamation ㅇ 0 ㅇ 고백했어 tagexclamation 보스 지켜 지켜라 기습 좋아하다 좋아하 tagquestion 보다 보 깜놀 그나저 그나저나 넘 재밌다 0 0 귀척 죄송
 sbs_boss	hap2ness	POST	pym3xgo-c3r8		2011-08-18	보스를지켜 지성느님 taglove
 sbs_boss	snfl0877	POST	pym3xuo-59roc		2011-08-18	보스를지켜 오늘방송된거 너무재미 다음편이기대돼는데 다음주기달려야 흐규흐규 역시 보스를지켜 tagexclamation 힘내서 힘내서요 본방송보더 본방송보더라 재방송 또봐도재미있어요얼른다음주 보스를지켜
 sbs_boss	kl789630	POST	pym3xwy-5toz5		2011-08-18	오늘 내가보 내가보는 하나 드라마 또 끝나다 이제 보스 지켜라 지켜라를 tagsmile
-sbs_boss	dhvh0402	POST	pym3xxr-5u2gr		2011-08-18	끝나다 taglove 보스를지켜 차무원한테는미안하지만 솔직히전 노은설 노은설과 차지헌 차지헌이 엮였으면좋게써요 taglove 차지헌이불쌍 자다 자기 노은설을바라만 노은설을바라만보 노은설은자기를안좋아한다는게 그렇다 tagexclamation 언젠가 언젠가는 둘 둘이 사랑하게되겠죠 저의바램이에 둘이잘되는거 어쨋든 짱이에 짱이에요 수목극 위기원 taglove
+sbs_boss	dhvh0402	POST	pym3xxr-5u2gr		2011-08-18	끝나다 taglove 보스를지켜 차무원한테는미안하지만 솔직히전 노은설 노은설과 차지헌 차지헌이 엮였으면좋게써요 taglove 차지헌이불쌍 자다 자기 노은설을바라만 노은설을바라만보 노은설은자기를안좋아한다는게 그렇다 tagexclamation 언젠가 언젠가는 둘 둘이 사랑하게되겠죠 저의바램이에 둘이잘되는거 어쨋든 짱이에 짱이에요 수목극1 위기원 taglove
 sbs_boss	rlaqhal458	POST	pym3xz8-ytbfq		2011-08-18	아 넌내게반해어가끝 다음 보스를지켜
-sbs_boss	november_	POST	pym3y5c-yy8hc		2011-08-18	보스를지켜 편 펴다 재밌었어용 차지헌이랑노은설 잘 자다 되다 되 tagexclamation 보스를지켜
-sbs_boss	dbslkim5683	POST	pym3ycd-_rifj		2011-08-18	아무 사람들가 보스 지키다 보고있어요tagquestion tagexclamation 아 난 나다 날다 좋다 하고있다 tagexclamation 그리다 김재중 김재중의 키스 tagsmile 난 나다 날다 부럽다 tagsmile
+sbs_boss	november_	POST	pym3y5c-yy8hc		2011-08-18	보스를지켜 5편 재밌었어용 차지헌이랑노은설 잘 자다 되다 되 tagexclamation 보스를지켜
+sbs_boss	dbslkim5683	POST	pym3ycd-_rifj		2011-08-18	아무 사람들가 보스 지키다 보고 tagquestion tagexclamation 아 난 나다 날다 좋다 하고있다 tagexclamation 그리다 김재중 김재중의 키스 tagsmile 난 나다 날다 부럽다 tagsmile
 sbs_boss	larcobaleno	POST	pym3z2z-5gks9		2011-08-20	보스 지키다 지성 최강희 향하다 나 나다 노은설 많 좋아하다
 sbs_boss	fan_tv5xq	POST	pym3zew-_szvw		2011-08-18	아 오늘 피곤 보스 지키다 못 볼 보다 같다 그게 다행 수도 수 있다 같다 오빠 배드씬 배드씬은 하다 애기 보다
 sbs_boss	bluebird135	POST	pym3zh0-ywk7m		2011-08-18	이제 보스를지켜 볼수있겠다 재미도 빨리좀 끝나다 tagsmile
@@ -208,221 +208,221 @@ sbs_boss	petithair	POST	pym3_h8-ycpev		2011-08-20	베이비펌최강희머리보
 sbs_boss	charming9047	POST	pym3_kt-_pm4m		2011-08-18	tagsmile 아 보스를지켜 너므웃곀 tagsmile 최강희판넬부서졌을때 지성 tagsmile 엌 tagsmile
 sbs_boss	bww111	POST	pym51i5-5prwx		2011-08-19	보스 지키다 tagexclamation 대박 tagexclamation tagsmile
 sbs_boss	korean2070	POST	pym51xo-5hmwi		2011-08-18	보스 지키다 지성 성추행 최강희 위해 위하다 복수 굴욕
-sbs_boss	yearin815	POST	pym522b-_b67c		2011-08-19	아 보스 지키다 레알 이 징챠 왤케 잼씀tagquestion 안되다 무언아너 은설이 남자로다가가선안돼근데너깐머리머싯다
+sbs_boss	yearin815	POST	pym522b-_b67c		2011-08-19	아 보스 지키다 레알 이 징챠 왤케 잼씀 tagquestion 안되다 무언아너 은설이 남자로다가가선안돼근데너깐머리머싯다
 sbs_boss	dodo984	POST	pym52a_-eorc		2011-08-19	귀여움주 귀여움주의 만화 보다 보 보스 지키다
 sbs_boss	actorjisung	POST	pym52p3-_a_mz		2011-08-19	보스 지키다 완전 재밌게 보고 보다 보 있다 앞 화이팅
-sbs_boss	narang282	POST	pym53xw-599eh		2011-08-19	보스 지키다 회 월 일 토도우
-sbs_boss	cwy8524	POST	pym54az-5h_h9		2011-08-19	보스 지키다 월 일 토렌트 다운로드
+sbs_boss	narang282	POST	pym53xw-599eh		2011-08-19	보스 지키다 6회 8월18 일 토도우
+sbs_boss	cwy8524	POST	pym54az-5h_h9		2011-08-19	보스 지키다 8월 17 17일 토렌트 다운로드
 sbs_boss	kongderella	POST	pym54el-5sb6f		2011-08-19	최강희 코믹연기 최강희 비서룩 최강희 보스 지키다 콩데렐라
-sbs_boss	gpwjd1640	POST	pym54qq-wzez		2011-08-19	오 미투오랜만 tagsmile 이제 컴퓨터 여러날 여러날을 같다 자고 자다 자 먹고 tagsmile 김재중이나오 김재중이나오는 보스 지켜라도보곻 tagsmile 방학숙제 는 실종 tagquestionㅇtagquestion 다시하는중ㅇㄴ 살려주다 내숙제
+sbs_boss	gpwjd1640	POST	pym54qq-wzez		2011-08-19	오 미투오랜만 tagsmile 이제 컴퓨터 여러날 여러날을 같다 자고 자다 자 먹고 tagsmile 김재중이나오 김재중이나오는 보스 지켜라도보곻 tagsmile 방학숙제 는 실종 tagquestion ㅇ tagquestion 다시하는중 ㅇㄴ 살려주다 내숙제
 sbs_boss	cjswodkdl5	POST	pym55mm-yc7fl		2011-08-18	이본보면기분이멜라꼴링 tagcry 나쁜게아니라 신선한무언가의기분동방팬인적은 늘좋게봐왔다 진짜노래하는가수들이니까요즘보스를지켜라에나오는김재중 tagexclamation 캐릭터에빠져서내기분이이런건아니 도대체무엇이냣
 sbs_boss	tvxq_5boys	POST	pym55_l-5uo9e		2011-08-19	재중 보스 지키다 뇌구조 아 웃기다 tagsmile
 sbs_boss	skdud3377	POST	pym566f-or0_		2011-08-18	아 tagsmile 보스 지키다 tagexclamation 뭔 드라마 이렇게 귀엽다 tagsmile 나오다 배우 다 귀엽다 좋닼 tagsmile 지성 tagsmile 악 tagsmile 원래 깨발랄 깨발랄한 사람이었닠 tagsmile 넘 귀여웤 tagsmile 쿨 쿨한 간지 나오다 영웅재중 희한 워킹 뭔가 웃기다 tagsmile 보스 지키다
 sbs_boss	3210dptmej	POST	pym58ne-yepym		2011-08-18	여인 향기 보스 지키다 스파이 명월 계백 무사 백동수 공주 남자 남다 넌 널다 내다 반 오작교형제 천 번 입맞추다 내 내다 사랑 사 내 내다 곁 광개토태왕 애정만만세 두근두근 달콤 내사 당신 참 차다 예쁘다 미쓰 아줌마 우리집 여자 불굴 며느리 당신 당신이 잠들다 사이 사다 사
-sbs_boss	actorjisung	POST	pym5912-_cbg3		2011-08-19	건강 조심 조다 촬영 화이팅 tagexclamation 건강 조심 조다 촬영 화이팅 tagexclamation 드라마 끝나다 일본 와서주세 와서주세요 간사이 간사 오사카 오사카에 월 도쿄 도쿄뿐만 쓸쓸 tagcry 보스 지켜라지느님사랑
+sbs_boss	actorjisung	POST	pym5912-_cbg3		2011-08-19	건강 조심 조다 촬영 화이팅 tagexclamation 건강 조심 조다 촬영 화이팅 tagexclamation 드라마 끝나다 일본 와서주세 와서주세요 간사이 간사 오사카 오사카에 5 월 도쿄 도쿄뿐만 쓸쓸 tagcry 보스 지켜라지느님사랑
 sbs_boss	korean2070	POST	pym59dh-5hmwi		2011-08-18	보스 최강희 지성 룸사롱 똥머리 정체 들통 해고 해 위기
-sbs_boss	dalcruze	POST	pym59g2-5tewe		2011-08-16	보스 지키다 회 최강희 노은설 옷 패션스타일 패션스타
+sbs_boss	dalcruze	POST	pym59g2-5tewe		2011-08-16	보스 지키다 4회 최강희 노은설 옷 패션스타일 패션스타
 sbs_boss	buks2	POST	pym5bpf-_3cex		2011-08-19	보스를지켜 보스를지켜
-sbs_boss	lordlydj1226	POST	pym5cd5-5f8hf		2011-08-16	보스를지켜 회 있으신분 taglove
+sbs_boss	lordlydj1226	POST	pym5cd5-5f8hf		2011-08-16	보스를지켜 3,4회 있으신분 taglove
 sbs_boss	yoojinlove2	POST	pym5cfx-6ghl		2011-08-19	보스를지켜 웃기다 tagsmile 박영규짱 tagexclamation
 sbs_boss	wyoung_lee	POST	pym5cn6-91y5		2011-08-19	보스 지키다 뇌구조 tagsmile 깜찍 tagsmile
-sbs_boss	jesuskhk76	POST	pym5due-5frng		2011-08-19	보스를지켜 더대박나길tagsmile taglove 완전재밌당
+sbs_boss	jesuskhk76	POST	pym5due-5frng		2011-08-19	보스를지켜 더대박 더대박나길 tagsmile taglove 완전재밌당
 sbs_boss	kmn6947	POST	pym5e6m-51d7c		2011-08-19	컴퓨터 보스 지키다 넌 널다 내게반 등등 드라마 검색 힘들다
-sbs_boss	dreamgy04	POST	pym5fca-_ywr5		2011-08-19	보스 지키다 회 다시보기
-sbs_boss	enypsyche	POST	pym5fdf-58v_o		2011-08-19	보스 지키다 보스 지키다 회 최강희 노은설 패션 최강희 블라우스 최강희 치마 치다 최강희 가방 최강희 신발 최강희 자켓
-sbs_boss	bella828	POST	pym5fje-5hzfn		2011-08-19	어제 보스를지켜 보셨나요tagquestion 솔직 지헌이보단 무원이 무원이가 좋다 어제 무느님 노을설한테 좋아한다구 했자너요나 바 받아들이다 솔직 전 절다 나윤 나윤이 무원이 무원이가 어울리는것같아요tagsmile여러분들은요tagquestion
-sbs_boss	goddnsrla	POST	pym5gac-02bm		2011-08-16	보스 비밀연애tagquestion 보스 지키다 패러디 영상
+sbs_boss	dreamgy04	POST	pym5fca-_ywr5		2011-08-19	보스 지키다 6회 다시보기
+sbs_boss	enypsyche	POST	pym5fdf-58v_o		2011-08-19	보스 지키다 보스 지키다 6회 최강희 노은설 패션 최강희 블라우스 최강희 치마 치다 최강희 가방 최강희 신발 최강희 자켓
+sbs_boss	bella828	POST	pym5fje-5hzfn		2011-08-19	어제 보스를지켜 보다 보셨 tagquestion 난 나다 날다 솔직 지헌이보단 무원이 무원이가 좋다 어제 무느님 노을설한테 좋아한다구 했자너요나 바 받아들이다 솔직 전 절다 나윤 나윤이 무원이 무원이가 어울리는것 어울리는것같아 어울리는것같아요 tagsmile 여러분들은 tagquestion
+sbs_boss	goddnsrla	POST	pym5gac-02bm		2011-08-16	보스 비밀연애 tagquestion 보스 지키다 패러디 영상
 sbs_boss	actorjisung	POST	pym5gve-yq4f2		2011-08-19	보스를지켜 본방사수 tagexclamation 하고있다 tagcry 완전 재밌어 재밌어요 tagcry 으잉 근데 강희언니 미투안 미투안하시 tagcry
-sbs_boss	mynewcloset	POST	pym5gzg-xl3k		2011-08-19	보스를지켜 최강희 월 일 보스 지키다 회 캡쳐 최강희 최강희머리 최강희패션 최강희스타일 최강희코디 최강희옷 오피스룩 마이뉴클로젯
-sbs_boss	sinhae1221	POST	pym5i0x-y9udm		2011-08-19	친님 하다 하 어제 넌내게 반했어가 막방 보스 지키다 보다 됬는데 tagcry 작은아빠 못보게 할줄알고 동생 컴 컴이 두드리다 시쯤 거실와보 보스를지켜 방송중 끄악 아까 틀어놨었다고 진작 나오다 보다 재방 반드시 볼거 볼거임 tagexclamation 넌내반 끝난기념 요옹 사진올림
+sbs_boss	mynewcloset	POST	pym5gzg-xl3k		2011-08-19	보스를지켜 최강희 8월 18 18일 보스 지키다 6회 캡쳐 최강희 최강희머리 최강희패션 최강희스타일 최강희코디 최강희옷 오피스룩 마이뉴클로젯
+sbs_boss	sinhae1221	POST	pym5i0x-y9udm		2011-08-19	친님 하다 하 어제 넌내게 반했어가 막방 보스 지키다 보다 됬는데 tagcry 작은아빠 못보게 할줄알고 동생 컴 컴이 두드리다 11시쯤 거실와보 보스를지켜 방송중 끄악 아까 틀어놨었다고 진작 나오다 보다 재방 반드시 볼거 볼거임 tagexclamation 넌내반 끝난기념 요옹 사진올림
 sbs_boss	dlsdl01	POST	pym5ivo-yidvn		2011-08-16	내일 내 보스를지켜라 보다 보는구
-sbs_boss	evi1011	POST	pym5jwf-5olgc		2011-08-19	보스 지키다 회
+sbs_boss	evi1011	POST	pym5jwf-5olgc		2011-08-19	보스 지키다 6회
 sbs_boss	creamcream	POST	pym5kvf-ngfz		2011-08-19	요즘 보스 지키다 재미따 제일맘에드는건 캐릭터 캐릭터가 다 귀여운구석이 귀여운구석이있다 어떻다 악역 전부 귀엽다 표현할생각을 대사 다 깨알 좋다 tagexclamation 그리다 지성 지헌본부장캐릭터에 딱 딱 tagexclamation 보스를지켜
 sbs_boss	azure95	POST	pym5kzb-ybhqn		2011-08-17	지성 귀엽다 뉴하트 뉴하트에서 캐릭터 캐릭터도 생각 보스 지키다
 sbs_boss	hcr333	POST	pym5l08-t2ml		2011-08-18	최강희 표 최강 로맨틱 코미디 드라마 보스 지키다 이벤트 더존 더존을 찾다 tagexclamation
-sbs_boss	w_dop	POST	pym5lnj-yriq		2011-08-17	보스  보스를 지켜라ost 엠스트리트 설 서다 묻다 음원공개 tagexclamation 들다 tagsmile
+sbs_boss	w_dop	POST	pym5lnj-yriq		2011-08-17	0 보스 지켜라ost 엠스트리트 설 서다 묻다 음원공개 tagexclamation 들다 tagsmile
 sbs_boss	fc3013	POST	pym5m0g-yl4np		2011-08-19	아 난왜 목 잠 와갓고 보스 지키다 못보냐구 tagexclamation 하다 하지 매주 재방 보다 ㅡ ㅡ
 sbs_boss	kbh8818	POST	pym5mqd-ye5xl		2011-08-19	보스를지켜라 나오다 엄청 귀엽다 남자사람 tagcry
-sbs_boss	actorjisung	POST	pym5neu-yhn6z		2011-08-19	오늘 첨으루 미투데 미투데이 친구 됬어용tagsmile 마지막춤은나와함께할때 늘다 팬 반가워요tagsmile 보스 지키다 늘다 본방사수 즐겁다 웃다 보고있습니다tagsmile더운데 촬영 힘들다 피곤 힘내시구 응원할께요tagsmile 앗 tagexclamation 지성님 명품연기 정말 최고에요tagsmile
+sbs_boss	actorjisung	POST	pym5neu-yhn6z		2011-08-19	오늘 첨으루 미투데 미투데이 친구 됬어용 tagsmile 마지막춤은나와함께할때 늘다 팬 반가워 tagsmile 보스 지키다 늘다 본방사수 즐겁다 웃다 보고 tagsmile 더운데 촬영 힘들다 피곤 힘내시구 응원 tagsmile 앗 tagexclamation 지성님 명품연기 정말 최고에 최고에요 tagsmile
 sbs_boss	okung99	POST	pym5nga-ptvs		2011-08-18	심심 밤 보스를지켜 보다 tagcry
-sbs_boss	rkdrhkdsla	POST	pym5p5l-h8dp		2011-08-18	보스를지켜 회 다시보기 최강희 지성 sbs드라마 보스를지켜 보스를지켜 회 예고영상
+sbs_boss	rkdrhkdsla	POST	pym5p5l-h8dp		2011-08-18	보스를지켜 5회 다시보기 최강희 지성 sbs드라마 보스를지켜 보스를지켜 5회 예고영상
 sbs_boss	thfrosns	POST	pym5pcw-hn_e		2011-08-18	아 들어오다 글쓰다 tagsmile 어제 보스를지켜 본방으로봤는디 궁금 만드 만드는 딱 그때 끝내다 타이밍최고 tagsmile
-sbs_boss	rrkawk	POST	pym5pf5-hc7d		2011-08-19	보스 지키다 화 호다 다시보기 줄거리 화예고 화예
-sbs_boss	carashj	POST	pym5pkc-1uch		2011-08-16	꺄 tagexclamation tagexclamation tagexclamation 재중 오빠 tagexclamation tagexclamation 목소리 감미로운데요tagquestion 김재중 보스 지키다 ost part 소리바 소리바다
-sbs_boss	rrkawk	POST	pym5rc9-hc7d		2011-08-19	만화로보 보스 지키다 회
+sbs_boss	rrkawk	POST	pym5pf5-hc7d		2011-08-19	보스 지키다 6화 다시보기 줄거리 8화예 8화예고
+sbs_boss	carashj	POST	pym5pkc-1uch		2011-08-16	꺄 tagexclamation tagexclamation tagexclamation 재중 오빠 tagexclamation tagexclamation 목소리 감미로운데 tagquestion 김재중 보스 지키다 ost part 3 소리바 소리바다
+sbs_boss	rrkawk	POST	pym5rc9-hc7d		2011-08-19	만화로보 보스 지키다 2회
 sbs_boss	rrkawk	POST	pym5rdt-hc7d		2011-08-19	보스 지키다 사진 사다
-sbs_boss	rrkawk	POST	pym5rts-hc7d		2011-08-19	만화로보 보스 지키다 회
-sbs_boss	rrkawk	POST	pym5rzr-hc7d		2011-08-19	만화로보 보스 지키다 회
-sbs_boss	dodo984	POST	pym5swb-eorc		2011-08-19	사진  보스 지키다 뇌구조 등장 빵 터지다
+sbs_boss	rrkawk	POST	pym5rts-hc7d		2011-08-19	만화로보 보스 지키다 3회
+sbs_boss	rrkawk	POST	pym5rzr-hc7d		2011-08-19	만화로보 보스 지키다 4회
+sbs_boss	dodo984	POST	pym5swb-eorc		2011-08-19	사진 사다 보스 지키다 뇌구조 등장 빵 터지다
 sbs_boss	88cook88	POST	pym5syk-_i4dx		2011-08-19	루랄랄라 보스 지키다 짱재밋옹 taglove
-sbs_boss	rtnalg	POST	pym5u7k-e125		2011-08-18	아 어떤놈 보스 지키다 줄임말 보지래 tagcry 어떤놈 친구한테 야 어제 보지 보다 봤냐tagquestion 짱 재밌었지tagquestion 그랫더 그랫더니 이상 눈초리 왜 외다 쳐다보다 물어봤대 tagcry 완전 금 뷁 물어본사람 남자래 tagcry
-sbs_boss	rtnalg	POST	pym5ugp-e125		2011-08-18	오늘 보스 지키다 본방사수 아시죠tagquestion 이정도 이정도는 기본아이 기본아이가 tagexclamation
+sbs_boss	rtnalg	POST	pym5u7k-e125		2011-08-18	아 어떤놈 보스 지키다 줄임말 보지래 tagcry 어떤놈 친구한테 야 어제 보지 보다 보다 tagquestion 짱 재밌었지 tagquestion 그랫더 그랫더니 이상 눈초리 왜 외다 쳐다보다 물어봤대 tagcry 완전 19금 뷁 물어본사람 남자래 tagcry
+sbs_boss	rtnalg	POST	pym5ugp-e125		2011-08-18	오늘 보스 지키다 본방사수 아시죠 tagquestion 이정도 이정도는 기본아이 기본아이가 tagexclamation
 sbs_boss	ameli	POST	pym5uqa-w2oh		2011-08-19	엣지박 엣지박의 수요이벤트 tagexclamation 입술색 입술색을 찾다 tagexclamation 정답다 발표 tagexclamation 최강희립스틱 보스를지켜 오렌지립스틱 최강희메이크업
-sbs_boss	bsj9336	POST	pym5ute-_he8h		2011-08-19	재중님 재중님이 출연 수목드 수목드라 보스 지켜라tagsmile 본방 재방필수tagsmile tagsmile 차다 차무원 본부장 화이팅tagsmile
+sbs_boss	bsj9336	POST	pym5ute-_he8h		2011-08-19	재중님 재중님이 출연 수목드 수목드라 보스 지키다 tagsmile 본방 재방필수 tagsmile tagsmile 차다 차무원 본부장 화이팅 tagsmile
 sbs_boss	wulstory	POST	pym5v5e-51iyo		2011-08-19	보스를지켜 뇌구조 본부장군 뇌구조 뇌구조엔 우주돌멩이 딱 tagexclamation
 sbs_boss	97mink	POST	pym5w3n-jo9n		2011-08-19	보스 지키다 tagcry
 sbs_boss	reliable_dc	POST	pym5wae-v3u4		2011-08-19	보스 지키다 tagexclamation 최강희 머리 최강희똥머리 똥머리 하는방법 최강희 헤어스타
 sbs_boss	8onew8	POST	pym5wb1-y27id		2011-08-19	보스를지켜 재중 지성 taglove
 sbs_boss	orangeboy114	POST	pym5wny-525cl		2011-08-19	보스 지키다 넘 재밌다 지성 최강희 연기 웃기다 박영규아저씨 코믹지존 어제 둘리몸 둘리몸으 율동할때 웃다 웃 넘어갈뻔 tagsmile 등장인물 모두 딱 맞다 옷 입다 입 듯 연기 얼마 잘 자다 해 하다 주시는지 계속 기대 보스 좋다
-sbs_boss	0425ddd	POST	pym5xiz-5u3p7		2011-08-18	보스를지켜라 재밌어 아니다 넌 널다 내다 반했어가 재밌어tagquestion 알려달라규 tagsmile
-sbs_boss	star5549	POST	pym5xkj-yxv65		2011-08-18	아요즘 보스를지켜 넘잼잇엉 tagsmile 지성너무조타 잘생긴얼굴에귀여운성격 보스를지켜 마니봐서 시청률 올리다 tagexclamation
-sbs_boss	save1226	POST	pym5xk_-5cyj9		2011-08-18	재중씨tagquestion김재중씨tagquestion그래 어제 그건 절대 동방신기 비주얼쇼크 김영웅재중씨 김영웅재중씨가 아니다 그거슨 단지 달다 보스를지켜라 차무원 차무원이 차무원이라 캐릭터 캐릭터일 뿐이라고오 tagexclamation 흐어어어어ㅓ어ㅓ어ㅓ어ㅓ어ㅓ tagcry 난 나다 날다 괜찮다 tagcry 아무렇지않다 우리 재중이 재중이가 한게 아니다 tagcry
+sbs_boss	0425ddd	POST	pym5xiz-5u3p7		2011-08-18	보스를지켜라 재밌어 아니다 넌 널다 내다 반했어가 재밌어 tagquestion 알려달라규 tagsmile
+sbs_boss	star5549	POST	pym5xkj-yxv65		2011-08-18	아요즘 보스를지켜 넘잼잇엉 tagsmile 지성너무조타 잘생긴얼굴에귀여운성격3 보스를지켜 마니봐서 시청률 올리다 tagexclamation
+sbs_boss	save1226	POST	pym5xk_-5cyj9		2011-08-18	재중씨 tagquestion 김재중씨 tagquestion 어제 그건 절대 동방신기 비주얼쇼크 김영웅재중씨 김영웅재중씨가 아니다 그거슨 단지 달다 보스를지켜라 차무원 차무원이 차무원이라 캐릭터 캐릭터일 뿐이라고오 tagexclamation 흐어어어어 ㅓ 어 ㅓ 어 ㅓ 어 ㅓ 어 ㅓ tagcry 난 나다 날다 괜찮다 tagcry 아무렇지않다 우리 재중이 재중이가 한게 아니다 tagcry
 sbs_boss	jieun0404	POST	pym5zdo-7t1t		2011-08-19	아정말 tagcry 보스를지켜라는정말재미있는듭 tagcry 내가이렇게드라마에빠져보는것도정말많았지용 tagcry tagsmile 차무원님 무느님 갖고싶다흙흐르그르으느으릉응 tagcry
 sbs_boss	dodo984	POST	pym5zg_-eorc		2011-08-19	보스 지키다 메이킹필름
 sbs_boss	shj980306	POST	pym5zn0-56nj1		2011-08-16	월화 월화엔 계백 수목 보스 지키다 토일 토일엔 여인 향기 봐야되 tagexclamation tagsmile
 sbs_boss	hansh0220	POST	pym5_kw-foep		2011-08-18	이제 보스를지켜라가아닌김재중을지켜 부제 김재중의입술을지켜 이거얔 tagsmile
-sbs_boss	gusdk9088	POST	pym606z-_q83m		2011-08-19	보스 지키다 화 호다 무느님 무느님의 고백
-sbs_boss	yura_me2day	POST	pym60ac-_ogmw		2011-08-18	보스 지켜라 지켜라가 나오다 tagexclamation 근데 난 나다 날다 지금 넌내게반했어가 보고싶다 애타다 분 기다리다 것보단 지금 이걸 보는게 낫다 tagsmile 재밌는데 버퍼링 대박 tagexclamation tagcry tagcry
+sbs_boss	gusdk9088	POST	pym606z-_q83m		2011-08-19	보스 지키다 6화 무느님 무느님의 고백
+sbs_boss	yura_me2day	POST	pym60ac-_ogmw		2011-08-18	보스 지켜라 지켜라가 나오다 tagexclamation 근데 난 나다 날다 지금 넌내게반했어가 보고싶다 애타다 30분 기다리다 것보단 지금 이걸 보는게 낫다 tagsmile 재밌는데 버퍼링 대박 tagexclamation tagcry tagcry
 sbs_boss	silverbean2	POST	pym613k-tk0x		2011-08-19	모기 자꾸 앵앵거리다 특단 특단의 조치 랩탑 열다 열기 마구마구 뿜어나오 뿜어나오는 팬 패다 앞 홈매트 홈매트를 두다 나름 나르다 효과 tagsmile 보스를지켜라볼때만해도기분좋았는데
-sbs_boss	jkl7003	POST	pym614e-iw1x		2011-08-19	재중 재중 보스를지켜 메이킹
-sbs_boss	yunilsang	POST	pym615h-_3g18		2011-08-19	보스를지켜 회 다시보기 월 일
-sbs_boss	junes26	POST	pym619p-yxvov		2011-08-19	보스 지키다 회 월 일 방송 보기 보다
-sbs_boss	kmediabox	POST	pym61ev-_1l70		2011-08-18	토도우 보스 지키다 회 월 일 다시보기
+sbs_boss	jkl7003	POST	pym614e-iw1x		2011-08-19	110819재중 재중 보스를지켜 메이킹
+sbs_boss	yunilsang	POST	pym615h-_3g18		2011-08-19	보스를지켜 6회 다시보기 8월18 일
+sbs_boss	junes26	POST	pym619p-yxvov		2011-08-19	보스 지키다 5회 8월17 일 방송 보기 보다
+sbs_boss	kmediabox	POST	pym61ev-_1l70		2011-08-18	토도우 보스 지키다 6회 8월18 일 다시보기
 sbs_boss	wldbs03060	POST	pym61k4-y0j8q		2011-08-19	music보스를지켜라ost 김재중 지키다
 sbs_boss	kimmi09	POST	pym61vy-v1q9		2011-08-19	보스 지키다 최강희 노은설 노은설의 스타일 스타
-sbs_boss	lovely5080	POST	pym61xn-8_io		2011-08-17	보스 지키다 ost part 보스를지켜라흥해랏 네이버뮤직 보스 지키다 ost part
-sbs_boss	danawa	POST	pym620v-ycld		2011-08-17	핫이슈 스타일리쉬한 오피스룩 오피스룩의 정석 보여주다 있다 보스 지켜라 지켜라의 최강희씨 가방 이쁘다 같아용 갖다 싶다 드라마 재미나게 보고 보다 보 계신가요tagquestion 오피스룩의정석저도배워서이런식으로스타일링을해야겠어 오피스룩의정석저도배워서이런식으로스타일링을해야겠어요 요새옷지적자주받고 tagcry
-sbs_boss	qsx319	POST	pym629o-x_h6		2011-08-19	보스 지키다 볼때 볼때마 느끼는건데 멀다 킹스 스피치같다랄까tagquestion 최강희 최강희가 도와주다 보다 먼가 먼가가
-sbs_boss	tkrhk12340	POST	pym62go-y8lqe		2011-08-17	와드디어떳내tagsmile 네이버실검 보스를지켜 회 위진출하셧네
+sbs_boss	lovely5080	POST	pym61xn-8_io		2011-08-17	보스 지키다 ost part 3 보스를지켜라흥해랏 네이버뮤직 보스 지키다 ost part 3
+sbs_boss	danawa	POST	pym620v-ycld		2011-08-17	핫이슈 스타일리쉬한 오피스룩 오피스룩의 정석 보여주다 있다 보스 지켜라 지켜라의 최강희씨 가방 이쁘다 같아용 갖다 싶다 드라마 재미나게 보고 보다 보 계시다 tagquestion 오피스룩의정석저도배워서이런식으로스타일링을해야겠어 오피스룩의정석저도배워서이런식으로스타일링을해야겠어요 요새옷지적자주받고 tagcry
+sbs_boss	qsx319	POST	pym629o-x_h6		2011-08-19	보스 지키다 볼때 볼때마 느끼는건데 멀다 킹스 스피치같다랄까 tagquestion 최강희 최강희가 도와주다 보다 먼가 먼가가
+sbs_boss	tkrhk12340	POST	pym62go-y8lqe		2011-08-17	와드디어떳 와드디어떳내 tagsmile 네이버실검 보스를지켜라5 회 10위진출하셧네
 sbs_boss	u_hoo0818	POST	pym62jf-y9eyw		2011-08-17	절취선 taglove 보스 지키다 taglove 최강희 이쁘다 tagcry tagcry 완전 팬됨 수목 보스 지키다 최강희 지성 김재중 흥하다 본방 사수
 sbs_boss	jessie3969	POST	pym62vx-ypsk		2011-08-17	헐 보스를지켜라이러케재밋쓸수가업자 여인의향기보다재밋기는행 tagsmile ㄹ
 sbs_boss	fruitypuppy	POST	pym630i-8nsg		2011-08-20	보스 지키다 촬영현장 영웅재중 셀카편
 sbs_boss	3120kjh	POST	pym633k-9i03		2011-08-17	보스를지켜 최강희 노은설 설거지 dance
-sbs_boss	gusdk9088	POST	pym63ds-_q83m		2011-08-19	보스 지키다 화 호다 지헌이 지헌이의 눈물 남행열차
-sbs_boss	gusdk9088	POST	pym63np-_q83m		2011-08-19	보스 지키다 화 호다 무느님 들키다 tagsmile
-sbs_boss	hee990515	POST	pym64gp-5y99i		2011-08-19	빠빠빠빰 넌내반 끝나써 tagcry tagcry 이제 수목 뭘 보나tagquestion 보스 지키다 tagquestion
+sbs_boss	gusdk9088	POST	pym63ds-_q83m		2011-08-19	보스 지키다 6화 지헌이 지헌이의 눈물 남행열차
+sbs_boss	gusdk9088	POST	pym63np-_q83m		2011-08-19	보스 지키다 6화 무느님 들키다 tagsmile
+sbs_boss	hee990515	POST	pym64gp-5y99i		2011-08-19	빠빠빠빰 넌내반 끝나써 tagcry tagcry 이제 수목 뭘 보다 보 tagquestion 보스 지키다 tagquestion
 sbs_boss	lucy0930	POST	pym64pi-y9uj5		2011-08-17	헐 분명 미친소 미친소의 아이콘 귀염깜찍민혁 분명 뚱땡 뚱땡이 뚱땡이는 씨엔블루팬 씨엔블루팬인데 중요한건 둘다 보스를지켜라 본다는것이닷
-sbs_boss	haejin1113	POST	pym662k-_621u		2011-08-20	넌 널다 내 내다 반 끝나다 보스 지키다 보끄 보끄야 편 다아 보구 줄거리 파악 완료 tagexclamation 했엉 tagsmile 요것두 잼 이제 회 나오다 이제 또 그것 기달려야징 tagsmile taglove
+sbs_boss	haejin1113	POST	pym662k-_621u		2011-08-20	넌 널다 내 내다 반 끝나다 보스 지키다 보끄 보끄야 1편 다아 보구 줄거리 파악 완료 tagexclamation 했엉 tagsmile 요것두 잼 이제 7회 나오다 이제 또 그것 기달려야징 tagsmile taglove
 sbs_boss	kimmh0613	POST	pym664n-3qb5		2011-08-19	지금 보스를지켜 시청중 tagsmile 진짜꼐속봐 지헌이너무기여웡 taglove
-sbs_boss	tnskhg23	POST	pym66j3-jmvq		2011-08-20	아난친구들있지만왜여자친구들이없을까tagquestion tagcry 동방신기다섯명무대기다림 taglove sbs보스를지켜 taglove 매주수목밤 시 분 taglove 차무원역김재중 taglove 대박 taglove
+sbs_boss	tnskhg23	POST	pym66j3-jmvq		2011-08-20	아난친구들있지만왜여자친구들이 tagquestion tagcry 동방신기다섯명무대기다림 taglove sbs보스를지켜 taglove 매주수목밤9 시55 분 taglove 차무원역김재중 taglove 대박 taglove
 sbs_boss	shinee-_-_-	POST	pym66nk-57kua		2011-08-17	드디어 오늘 보스를지켜 하는 하는날
-sbs_boss	jkl7003	POST	pym66v_-iw1x		2011-08-19	재중 보스를지켜 화 호다 플레 플레이어
+sbs_boss	jkl7003	POST	pym66v_-iw1x		2011-08-19	110819재중 보스를지켜 5화 플레 플레이어
 sbs_boss	sbssdiary	POST	pym67l0-ye2fn		2011-08-18	보스 지키다 최강희 taglove 지성 재중 taglove 왕지혜 더블키스씬 러브라인 러브라 두둥실
-sbs_boss	ccya	POST	pym68a_-hmgu		2011-08-19	보스 지키다 회 월 일 다시보기
+sbs_boss	ccya	POST	pym68a_-hmgu		2011-08-19	보스 지키다 6회 8월18 일 다시보기
 sbs_boss	star5549	POST	pym68bb-yxv65		2011-08-19	아어제 tagsmile 보스를지켜라완죤재밋엇어 tagcry 차무원 tagexclamation 지헌이꺼더이상뺏어가지마 tagexclamation 노은설은안된단말이당 tagexclamation 어제지성 tagexclamation 넘귀여웟다 tagsmile
-sbs_boss	ccya	POST	pym68tx-hmgu		2011-08-19	보스 지키다 회 월 일 다시보기
+sbs_boss	ccya	POST	pym68tx-hmgu		2011-08-19	보스 지키다 5회 8월17 일 다시보기
 sbs_boss	dyfltk322	POST	pym6a39-y1i78		2011-08-17	무느님의첫키스신 tagexclamation 대박 tagexclamation 목선이아주예술이 tagexclamation tagsmile 너무재밌는보스를지켜 tagexclamation 내일더기대
 sbs_boss	tndus3153	POST	pym6ab7-yv55w		2011-08-17	tagcry 지성님 재중님 tagcry tagcry 보스를지켜 키스왜 키스왜해 tagcry
 sbs_boss	72vusen	POST	pym6aoq-5oa3o		2011-08-17	수목드라마 보스 지키다 수목드라마 보스 지키다 지성사진 지성촬영사진 은설 최강희 를 찾아오다 보스 지성 지성사진 지성촬영사진
 sbs_boss	gaeui4414	POST	pym6ap8-yn253		2011-08-19	넌내게반 어제 마지막 엄마 보스를지켜 봐서보지 못하다 못
-sbs_boss	wjsekqls9	POST	pym6aw0-rmut		2011-08-17	오늘 넌내게반 어뜨케됐어tagquestion tagexclamation 엄빠몬 보스를지켜라봐 tagcry
+sbs_boss	wjsekqls9	POST	pym6aw0-rmut		2011-08-17	오늘 넌내게반 어뜨케 tagquestion tagexclamation 엄빠몬 보스를지켜라봐 tagcry
 sbs_boss	wjsekqls9	POST	pym6bar-rmut		2011-08-17	아 넌내반보고시픈데 엄빠몬 엄빠몬은 보스를지켜라봐 나쁘다 tagcry 컴터 컴터에 티비연결되어 티비연결되어있으면 볼수있는건데 흐흐흑
-sbs_boss	hot2503	POST	pym6bmb-q1v		2011-08-17	보스지켜 짱 재밌음 고릴라 고리다
-sbs_boss	gnxkfl1	POST	pym6byi-0_a8		2011-08-19	보스 지키다 회
+sbs_boss	hot2503	POST	pym6bmb-q1v		2011-08-17	보스지켜 짱 재밌음 고릴라3 .0
+sbs_boss	gnxkfl1	POST	pym6byi-0_a8		2011-08-19	보스 지키다 5회
 sbs_boss	linayeon	POST	pym6c66-gps6		2011-08-17	보스 지키다 볼 보다 시간 tagexclamation
 sbs_boss	dbssk44	POST	pym6cex-93n2		2011-08-19	보스 지키다 뇌구조
-sbs_boss	nagajom	POST	pym6csh-_0ix9		2011-08-17	보스를지켜 헤헤헿 tagsmile 헤헤ㅔ헤헤ㅔ tagsmile 헿 보다
+sbs_boss	nagajom	POST	pym6csh-_0ix9		2011-08-17	보스를지켜 헤헤헿 tagsmile 헤헤다 ㅔ 헤헤다 ㅔ tagsmile 헿 보다
 sbs_boss	yjkoo0707	POST	pym6ctx-562uy		2011-08-19	보스 지키다 tagexclamation 완전 재미잇게 잘 잇어 잇어여 tagexclamation 지성오빠 재중오빠 강희언니 팬 tagsmile 대박 맨 맨날 본방사수 tagexclamation 우리 웃다 웃음 주다 주 보스 지키다 tagexclamation 본 보다 방 사 사다 tagexclamation 잊지마세 잊지마세요
 sbs_boss	kwon9625	POST	pym6do5-5hr2		2011-08-18	보스를지켜 보는분 tagexclamation 지성 짱귀엽게나옴 tagcry taglove
-sbs_boss	hyukbr	POST	pym6dya-_cals		2011-08-18	방금 보스 지키다 닥본사 끝내다 강희씨 강희씨는 페르소 페르소나 연기 우수 강희씨 강희씨는 일반 배우 다르다 다르다 사고방식 지니다 뭐랄까tagquestion 우주적 차원tagquestion 차원 아니다
+sbs_boss	hyukbr	POST	pym6dya-_cals		2011-08-18	방금 보스 지키다 닥본사 끝내다 강희씨 강희씨는 페르소 페르소나 연기 우수 강희씨 강희씨는 일반 배우 다르다 다르다 사고방식 지니다 뭐랄까 tagquestion 우주적 차원 tagquestion 4차원 4차원이 아니다
 sbs_boss	skdud3377	POST	pym6exe-or0_		2011-08-19	보스 지키다 좋다 tagsmile 히히히히 히히히히히 tagsmile 캐릭터 캐릭터들이 어쩜 이렇가 디 귀엽다
-sbs_boss	jisu95942002	POST	pym6fdr-cn_j		2011-08-19	중국 jyj 김재중 열풍 보스 지키다 ost 지켜줄게 음원 공개 위 tagexclamation
+sbs_boss	jisu95942002	POST	pym6fdr-cn_j		2011-08-19	중국 jyj 김재중 열풍 보스 지키다 ost 지켜줄게 음원 공개 1위 tagexclamation
 sbs_boss	qkqhthek	POST	pym6g3k-y7px		2011-08-17	지금 보스 지켜라 바람나다 tagsmile 최강희 최강희가 tagsmile
 sbs_boss	bbwndusvip	POST	pym6goq-5ou33		2011-08-17	악 안방 익숙하다 소리 들리다 들어가다 보스를지켜라 비서 비서가 바람나다 개사 부르고있엌 tagsmile 악 tagsmile 나 나다 딴따 부분 바람낫어 춤췄다능 tagsmile 깨알빅뱅 tagsmile
 sbs_boss	ekqhddl24	POST	pym6hhm-_gzht		2011-08-20	캬오 보스 지키다 재미썽 tagsmile 숙제따위 꺼져버려
-sbs_boss	jisiklog	POST	pym6hr2-_rcxy		2011-08-17	보스를지켜라에서지성이술김에최강희한테뭐라한거죠tagquestion 지성
-sbs_boss	minse154	POST	pym6hug-l2v2		2011-08-19	공주 남자 남다 넘 재밌어 보스 지켜 지켜라 대미 왜 외다 금욜 드라마 안하다 거지tagquestion 동시 있다 뭘 보다 고민되자
+sbs_boss	jisiklog	POST	pym6hr2-_rcxy		2011-08-17	보스를지켜라에서지성이술김에최강희한테뭐라한거죠 tagquestion 지성
+sbs_boss	minse154	POST	pym6hug-l2v2		2011-08-19	공주 남자 남다 넘 재밌어 보스 지켜 지켜라 대미 왜 외다 금욜 드라마 안하다 거지 거다 tagquestion 동시 있다 뭘 보다 고민되자
 sbs_boss	dolsum02	POST	pym6i09-_r3x_		2011-08-17	보스 지켜라한당
 sbs_boss	hyunaah87	POST	pym6i24-_qkvy		2011-08-19	최강희 보스를지켜 노은설 비서 스타일 스타
 sbs_boss	sereena	POST	pym6ibp-_k5wd		2011-08-19	지성 뇌구조 보다 보 우주최강 돌멩이 한가운데 앜 tagsmile 보스 지키다 대박 잼있듬 newsway
 sbs_boss	lek4106	POST	pym6ium-9m8j		2011-08-17	보스를지켜 ost 에이핑크 우리그냥 사랑 하다 반복재생 자동재생
 sbs_boss	sangjun_me2	POST	pym6ivt-yitej		2011-08-17	보스를지켜라늦엇다아 tagcry
 sbs_boss	lovemika	POST	pym6jpi-i0o5		2011-08-20	보스 지키다 왕지혜 차도녀 버리다 인기 쑥쑥
-sbs_boss	gusdk9088	POST	pym6kg3-_q83m		2011-08-19	보스 지키다 화 호다 적극적 지헌
+sbs_boss	gusdk9088	POST	pym6kg3-_q83m		2011-08-19	보스 지키다 6화 적극적 지헌
 sbs_boss	mishaqueen	POST	pym6kuk-94b0		2011-08-20	요즘 보스 지키다 보다 보 맛 사다 살다 일주일 피로 피 회복제랄까 tagquestion 좋다 좋다 배우 연기 좋다 볼 보다 때 빵빵 웃다 웃음 터지다 지헌이 지헌이가 은설이한테 차이다 차이 장면 똥머리인형 반창고 붙여줄때 울다 tagcry 슬퍼슬퍼 흑흑
 sbs_boss	nubi012486	POST	pym6kzc-_jiqe		2011-08-17	오늘 김재중 김재중이 출연 보스를지켜 하다 하 날 나다 뒤늦게서 뒤늦게서야 김재중 김재중의 매력 그대 옆 선 쑥쓰럽게 웃다 미소 내 내다 맘 듀근듀근
 sbs_boss	ukaryo5	POST	pym6lp6-_of5j		2011-08-19	보스를지켜 뇌구조 tagsmile
-sbs_boss	oxo123456	POST	pym6mis-5qdil		2011-08-19	우리그냥사랑하게해주세 둘이싸우지않게해주세요 보스 지키다 ost part
-sbs_boss	urimson	POST	pym6mqf-_k53q		2011-08-17	보스를지켜 tagexclamation 분 뒤에해욧 tagexclamation 아 기대된당 오늘 어떤코믹연기를보여줄건가 tagexclamation 기대되욤 tagexclamation 미투분 미투분들도 본방사수하세욧 tagexclamation tagsmile taglove
+sbs_boss	oxo123456	POST	pym6mis-5qdil		2011-08-19	우리그냥사랑하게해주세 둘이싸우지않게해주세요 보스 지키다 ost part 1
+sbs_boss	urimson	POST	pym6mqf-_k53q		2011-08-17	보스를지켜 tagexclamation 10분 뒤에해욧 tagexclamation 아 기대된당 오늘 어떤코믹연기를보여줄건가 tagexclamation 기대되욤 tagexclamation 미투분 미투분들도 본방사수하세욧 tagexclamation tagsmile taglove
 sbs_boss	hjw9938	POST	pym6mu6-5iw60		2011-08-19	어제 넌내반 막방 막방임 tagsmile 이제 보스 지키다 보다 보스 지키다 은근 잼 tagsmile
-sbs_boss	dbswodms99	POST	pym6nb6-y5hnd		2011-08-19	아요즘 보스를지켜라 빠졌쓰 영웅재중 taglove 우리그냥사랑하게해주세용 taglove 보스 지키다 ost part
+sbs_boss	dbswodms99	POST	pym6nb6-y5hnd		2011-08-19	아요즘 보스를지켜라 빠졌쓰 영웅재중 taglove 우리그냥사랑하게해주세용 taglove 보스 지키다 ost part 1
 sbs_boss	hjyrara	POST	pym6nt4-xp_z		2011-08-17	와와 와와와 tagexclamation 오늘 보스 지켜라 지켜라를 하는 하는날 tagexclamation 차지헌본부장님 taglove 차무원본부장님 taglove
-sbs_boss	dudtlf56	POST	pym6ov8-yvk07		2011-08-17	분뒤 시작 보스 지키다
-sbs_boss	triple0317	POST	pym6pj9-57oce		2011-08-20	그럼 담주 보스 지켜 지켜라 봐야겟넹tagquestion tagsmile
-sbs_boss	wkwkwkdkwk1	POST	pym6q22-_8jbz		2011-08-17	보스 지키다 tagexclamation 지성vs최강희 여러분 선택은tagquestion 지성 뭐
+sbs_boss	dudtlf56	POST	pym6ov8-yvk07		2011-08-17	18분뒤 시작 보스 지키다
+sbs_boss	triple0317	POST	pym6pj9-57oce		2011-08-20	그럼 담주 보스 지켜 지켜라 봐야겟넹 tagquestion tagsmile
+sbs_boss	wkwkwkdkwk1	POST	pym6q22-_8jbz		2011-08-17	보스 지키다 tagexclamation 지성vs 최강희 여러분 선택 tagquestion 지성 뭐
 sbs_boss	bebe631	POST	pym6qj0-nz4s		2011-08-19	보스를지켜라출연지뇌구조
 sbs_boss	jisu95942002	POST	pym6r20-cn_j		2011-08-19	보스 최강희 터지다 지성 김재중 하루차 사랑고백
-sbs_boss	fic123	POST	pym6r8m-i_63		2011-08-19	토렌트다운 보스 지키다 회
-sbs_boss	jisu95942002	POST	pym6rlw-cn_j		2011-08-19	보스 지키다 making film jaejoong cut
+sbs_boss	fic123	POST	pym6r8m-i_63		2011-08-19	110818 토렌트다운 보스 지키다 6회
+sbs_boss	jisu95942002	POST	pym6rlw-cn_j		2011-08-19	110818 보스 지키다 making film jaejoong cut
 sbs_boss	hcj9910	POST	pym6rp3-rwg8		2011-08-17	와일 유 아 슬립핑 당신 당신이 잠든사 잠든사이 프로텍트 보스 보스 지키다 올 오다 오브 띵스 알 마 러브 몽땅내사랑 몽땅내사 블링블링 샤이닝 반짝반짝빛나 모두 두롸뫄
 sbs_boss	pogurenwer	POST	pym6s7w-5goq2		2011-08-17	보스 지키다 tagsmile
-sbs_boss	jjoonline	POST	pym6sih-5n3g8		2011-08-19	보스를지켜 회 보스 지키다 회 다시보기
-sbs_boss	thbeast	POST	pym6sz2-_1a8m		2011-08-20	보스 지켜 지켜라 내용 재밌는데 김재중 역활 역활이 짜증난단말이야tagquestion왜 키스신 키스신을 너어서 잉 tagcry tagcry 짜증
-sbs_boss	iyousens	POST	pym6t29-yq85k		2011-08-19	다시보기 보스를지켜 보스를지켜 회 다시보기 월 일 방송분 다시보기
+sbs_boss	jjoonline	POST	pym6sih-5n3g8		2011-08-19	보스를지켜라6 회 보스 지키다 6회 다시보기
+sbs_boss	thbeast	POST	pym6sz2-_1a8m		2011-08-20	보스 지켜 지켜라 내용 재밌는데 김재중 역활 역활이 짜증난단말 tagquestion 왜 외다 키스신 키스신을 너어서 잉 tagcry tagcry 짜증
+sbs_boss	iyousens	POST	pym6t29-yq85k		2011-08-19	다시보기 보스를지켜 보스를지켜 6회 다시보기 8월18 일 방송분 다시보기
 sbs_boss	buks2	POST	pym6t4n-_3cex		2011-08-20	보스를지켜 보스를지켜
 sbs_boss	come2587	POST	pym6tbq-_gq_i		2011-08-19	요즘 보스 지키다 taglove 차지헌 빠진듯 tagsmile 미안
-sbs_boss	iyousens	POST	pym6tsb-yq85k		2011-08-19	다시보기 보스를지켜 보스를지켜 회 다시보기 월 일 방송분 다시보기
-sbs_boss	nolee6154	POST	pym6upo-5uy3x		2011-08-17	애들아내일보스를지켜라볼때 시 분쯤에켜 왜냐면키스신부터나올가능성이잇다
+sbs_boss	iyousens	POST	pym6tsb-yq85k		2011-08-19	다시보기 보스를지켜 보스를지켜 5회 다시보기 8월17 일 방송분 다시보기
+sbs_boss	nolee6154	POST	pym6upo-5uy3x		2011-08-17	애들아내일보스를지켜라볼때10 시5 분쯤에켜 왜냐면키스신부터나올가능성이잇다
 sbs_boss	nolee6154	POST	pym6vji-5uy3x		2011-08-18	나내일보스를지켜라안볼래
 sbs_boss	saithfulness	POST	pym6vmv-5o3vd		2011-08-19	보스를지켜 tagexclamation 짱재밌어 지성 완전멋 완전멋있어 tagexclamation 드라마안볼려고
-sbs_boss	heekoo415	POST	pym6vpo-549s4		2011-08-17	보스 지키다 김재중 키스야야 김재중 tagexclamation 난 나다 날다 울다 왜tagquestion왜 키스tagquestion내 얼마 슬퍼 슬프다 tagexclamation
-sbs_boss	haero822	POST	pym6vq5-_fwa9		2011-08-20	보스를지켜 얘 누구게tagquestion
+sbs_boss	heekoo415	POST	pym6vpo-549s4		2011-08-17	보스 지키다 김재중 키스야야 김재중 tagexclamation 난 나다 날다 울다 왜 외다 tagquestion 왜 외다 키스 tagquestion 내 얼마 슬퍼 슬프다 tagexclamation
+sbs_boss	haero822	POST	pym6vq5-_fwa9		2011-08-20	보스를지켜 얘 누구게 tagquestion
 sbs_boss	yunyeseon	POST	pym6vsc-y3scb		2011-08-19	보스 지키다 뇌구조 보라 보다 보 탐색
-sbs_boss	phj798195	POST	pym6wi9-5tain		2011-08-20	보스를지켜 수도권 시청률 퍼tagsmile목요일마지막 퍼 달성
+sbs_boss	phj798195	POST	pym6wi9-5tain		2011-08-20	보스를지켜 수도권 시청률 20퍼 tagsmile 목요일마지막 24퍼 달성
 sbs_boss	o_rainbow_o	POST	pym6wn4-ye9h5		2011-08-19	너무너무 재밋는 드라마 보스를지켜 tagsmile 박영규욱끼곰 지성귀엽고 최강희 그야말로대박 다음주가벌써기다려지는균 음허허
 sbs_boss	tbworld_tv	POST	pym6wp8-_clkj		2011-08-19	보스 지성 최강희 최강희랑 눈 마주치다 폭풍 애교 콩깍지 제 제대 씌 tbworld
-sbs_boss	bestmurder	POST	pym6wze-_cima		2011-08-19	보스 지키다 e hdtv x p hanrel
+sbs_boss	bestmurder	POST	pym6wze-_cima		2011-08-19	보스 지키다 e06.110818.hdtv.x264.720p hanrel
 sbs_boss	reua	POST	pym6x7n-yy5o8		2011-08-17	아싸 오늘 보스를지켜 하다 tagexclamation 차무원 차지헌본부장님 taglove
-sbs_boss	hyeonah0411	POST	pym6x9b-_clt2		2011-08-19	보스 지켜라tagsmile
-sbs_boss	dhxofla	POST	pym6x9d-yzk0x		2011-08-20	보스 지키다 making film 재중 편집본
+sbs_boss	hyeonah0411	POST	pym6x9b-_clt2		2011-08-19	보스 지키다 tagsmile
+sbs_boss	dhxofla	POST	pym6x9d-yzk0x		2011-08-20	110818 보스 지키다 making film 재중 편집본
 sbs_boss	hyeonah0411	POST	pym6xec-_clt2		2011-08-19	보스 지키다 봤던분
-sbs_boss	hyukbr	POST	pym6yig-_cals		2011-08-18	참고 주 차 차다 벨소리 보스 지키다 오리지널 사운드 트랙 유지했답니다 에이핑크 의 우리 사랑 하다 로 강희씨 제가 제 있다 힘나시죠tagquestion 은설 은설이 되다 되 싶다 팬 패다 올림 올리다
-sbs_boss	dbflrhdwn31	POST	pym6z2d-xqc4		2011-08-17	보스 지키다 tagcry tagcry 재밌긴 재밌긴한데 tagcry 키스신 예고 예 없었잖아 tagexclamation 난 나다 날다 아직 무느님키스신 볼 보다 준비 되지않았다고으허엉 tagcry 아 부러워 부럽다 tagcry 왕지혜씨 우리 무느님 무느님이 키스 좋으시겠어요tagquestion 좋으시겠어요tagquestion나 좋으시겠어요tagquestion나도 알다 좋은거 tagcry tagcry 으허ㄹ ㄱ니해시녀사러허러휴입술무러내요흐헝 아 키스신 슈벨래싸허러허린
-sbs_boss	fnal6154	POST	pym6z96-_8ixd		2011-08-20	보스 지키다 ost part 짱 네이버뮤직 보스 지키다 ost part
-sbs_boss	vmfhaltm_90	POST	pym6z9h-yr5ez		2011-08-17	보스 tagcry 마지막 지성 최강희 최강희랑 뽀뽀신 tagexclamation 지성 순간 눈빛 초 아련 tagcry 귀여운데 멋있었음 마지막 초간
+sbs_boss	hyukbr	POST	pym6yig-_cals		2011-08-18	참고 2주 차 차다 벨소리 보스 지키다 오리지널 사운드 트랙 유지했답니다 에이핑크 의 우리 사랑 하다 로 강희씨 제가 제 있다 힘나시죠 tagquestion 은설 은설이 되다 되 싶다 팬 패다 올림 올리다
+sbs_boss	dbflrhdwn31	POST	pym6z2d-xqc4		2011-08-17	보스 지키다 tagcry tagcry 재밌긴 재밌긴한데 tagcry 키스신 예고 예 없었잖아 tagexclamation 난 나다 날다 아직 무느님키스신 볼 보다 준비 되지않았다고으허엉 tagcry 아 부러워 부럽다 tagcry 왕지혜씨 우리 무느님 무느님이 키스 좋다 tagquestion 나도 나다 나 알다 좋은거 tagcry tagcry 으허 ㄹ ㄱ 니해시녀사러허러휴입술무러내요흐헝 아 키스신 슈벨래싸허러허린
+sbs_boss	fnal6154	POST	pym6z96-_8ixd		2011-08-20	보스 지키다 ost part 4 짱 네이버뮤직 보스 지키다 ost part 4
+sbs_boss	vmfhaltm_90	POST	pym6z9h-yr5ez		2011-08-17	보스 tagcry 마지막 지성 최강희 최강희랑 뽀뽀신 tagexclamation 지성 순간 눈빛 초 아련 tagcry 귀여운데 멋있었음 마지막 5초
 sbs_boss	eun-hye1004	POST	pym6zcs-qn4w		2011-08-17	아아아 보스 지키다 잼 앞 본방 보다 v
-sbs_boss	annemyungg	POST	pym6zdv-5y607		2011-08-19	보스 지키다 인방 뇌구조
+sbs_boss	annemyungg	POST	pym6zdv-5y607		2011-08-19	보스 지키다 5인방 뇌구조
 sbs_boss	singleprime	POST	pym6zh3-57pmg		2011-08-20	에이핑크에이핑크 우리그냥사랑 하다 뮤비 보스를지켜 뮤비
-sbs_boss	hayan4627	POST	pym6zuf-r9ab		2011-08-17	무느님 tagexclamation 엠스트릿 보스 지켜라 지켜라에 음원 공개 아직 들어보다 않다 오늘 화 호다 정말 재미있었습니다 감사 감다 tagexclamation 내일 기대할게 tagexclamation tagsmile 지성 최강희 어찌 될까tagquestion tagsmile
+sbs_boss	hayan4627	POST	pym6zuf-r9ab		2011-08-17	무느님 tagexclamation 엠스트릿 보스 지켜라 지켜라에 음원 공개 아직 들어보다 않다 오늘 5화 정말 재미있었습니다 감사 감다 tagexclamation 내일 기대할게 tagexclamation tagsmile 지성 최강희 어찌 되다 tagquestion tagsmile
 sbs_boss	hayan4627	POST	pym6zv0-r9ab		2011-08-17	만약 오늘 보스 지켜라 지켜라를 보다 미투 클릭 tagexclamation
-sbs_boss	jjy50595	POST	pym6zy4-_ttjw		2011-08-17	아 운이거지같이 보스를지켜라보고오니까 분전 내여친나감 좀만빨리오면 좋앗을텐데 tagcry
+sbs_boss	jjy50595	POST	pym6zy4-_ttjw		2011-08-17	아 운이거지같이 보스를지켜라보고오니까 6분전 6분전에 내여친나감 좀만빨리오면 좋앗을텐데 tagcry
 sbs_boss	redcang	POST	pym6_43-5ek3y		2011-08-19	재중 보스 지키다 뇌구조
 sbs_boss	tkfkd6949	POST	pym6_dl-e1ab		2011-08-19	보스를지켜 내 모범적 캐릭터 캐릭터라 swf 인스티즈 instiz
-sbs_boss	lptnwls98	POST	pym91jx-yzfac		2011-08-20	나으새로운nnn이당 tagsmile tagexclamation 나어뜩 나어뜩함 tagcry tagcry tagexclamation 지성한테끌림 tagcry tagcry tagexclamation taglove 보스를지켜라넘흐재밌당ㅇ tagcry
+sbs_boss	lptnwls98	POST	pym91jx-yzfac		2011-08-20	나으새로운nnn 이당 tagsmile tagexclamation 나어뜩 나어뜩함 tagcry tagcry tagexclamation 지성한테끌림 tagcry tagcry tagexclamation taglove 보스를지켜라넘흐재밌당 ㅇ tagcry
 sbs_boss	4562267	POST	pym91xq-_ab8n		2011-08-20	보스 지키다 지성 매력 tagsmile
-sbs_boss	klioo0011	POST	pym937p-yudt1		2011-08-20	보스를지켜라tagquestion그거참잼잇네 tagsmile 아 오늘 양맺은언니 문상필요해서 문상필요 도토리 오처넌줫다 tagcry 투투 되는날 되는날은 선물 문상을같이줘야 슬픈현실
+sbs_boss	klioo0011	POST	pym937p-yudt1		2011-08-20	보스를지켜 tagquestion 그거참잼잇네 tagsmile 아 오늘 양맺은언니 문상필요해서 문상필요 도토리 오처넌줫다 tagcry 투투 되는날 되는날은 선물 문상을같이줘야 슬픈현실
 sbs_boss	shtamehj	POST	pym96dz-hl39		2011-08-20	수목 보스 지켜라 지켜라로 둑흔둑흔 뛰다 가슴 알다 박영규 아저씨 나올때 나올때마 데굴데굴 웃기다 죽다 죽 공주 남자 바들바 떨다 무섭다 무서움 침 삼키다 급 오버 감정소모 바 죽은듯 죽은듯이 자다 자 제맛 b 수목 기다리다 난 나다 날다 이러 이러고 살다 요즘
 sbs_boss	jm930416	POST	pym9a40-_3png		2011-08-20	보스 지키다 재방송 보다 재밌다 이렇게 재밌는 드라마 시티헌터 이후 처음 tagcry taglove 차지헌 taglove
 sbs_boss	j_clematis	POST	pym9d3y-yf6p5		2011-08-20	우리 티비 스브스 스브스가 화질 제일 제 똥 왜 외다 보스를지켜라 여인 향기 둘다 스브스 하는건징 zz큐 tagcry 안챙겨보 안챙겨보는 드라마 안보게 된다능 두다 다 보고싶긴한데 tagexclamation
 sbs_boss	ichbich	POST	pym9d5e-5w3wn		2011-08-20	보스 지키다 키스신 캡처 보정 예술
 sbs_boss	soer3220	POST	pym9eme-_065_		2011-08-20	보스 지켜라보는데 재방보는데 그다직
-sbs_boss	redna0	POST	pym9fh9-_bvwm		2011-08-20	이상 나라 alice 발도장 tagexclamation 저녁먹었습니다 보스 지켜라 지켜라의 후유증 오래가다 tagsmile 수욜 우째 기다릴꼬tagsmile via 아임in
-sbs_boss	alvlalswl	POST	pym9j4o-yg6qn		2011-08-20	보스 지켜라 지켜라가 잼나tagquestion 스파이 명월 명월이 잼나tagquestion tagsmile 난 나다 날다 스파이명월 tagsmile
-sbs_boss	search_now	POST	pym9ko7-5y0f5		2011-08-20	신지수 허미영 김병지 보스를지켜 재방송 블랙퀸 박장현 new 카페 김선 김선아 공주의남자 재방송 신보 네이버 실시 급상승 검색어
+sbs_boss	redna0	POST	pym9fh9-_bvwm		2011-08-20	이상 나라 alice 2 2에 발도장 tagexclamation 저녁먹었습니다 보스 지켜라 지켜라의 후유증 오래가다 tagsmile 수욜 우째 기다리다 tagsmile via 아임in
+sbs_boss	alvlalswl	POST	pym9j4o-yg6qn		2011-08-20	보스 지켜라 지켜라가 잼 tagquestion 스파이 명월 명월이 잼 tagquestion tagsmile 난 나다 날다 스파이명월 tagsmile
+sbs_boss	search_now	POST	pym9ko7-5y0f5		2011-08-20	신지수 231 허미영 291 김병지 294 보스를지켜 재방송 108 블랙퀸 216 박장현 new 카페24 132 김선 김선아 69 공주의남자 재방송 183 신보 177 네이버 실시 급상승 검색어
 sbs_boss	tjsdk1217	POST	pym9pl3-y7rdv		2011-08-20	보스 지켜라 지켜라에 홀릭 tagexclamation
 sbs_boss	actorjisung	POST	pym9ux9-5jfz5		2011-08-20	저본방사수하고잇어 tagexclamation 지성오빠 tagquestion tagsmile 완전 귀여워 귀여워여 tagsmile 보스를지켜 쨩 스파이명월도쨩 tagsmile
 sbs_boss	jarame2	POST	pym9yff-507ku		2011-08-20	보스를지켜 권혁구 마카롱
-sbs_boss	sbi04398	POST	pymb02k-1bqa		2011-08-19	어제 보스 지키다 명대사 ㅡ ㅡ난 무느님싫어 사람 내리다 그뒤 그뒤에 모드 tagsmile 어쨋거 어쨋거나 차무원 차무원이 노은설조아한뎃 ㅡ ㅡ tagexclamation 안되차지헌끄 안되차지헌끄야 tagcry
+sbs_boss	sbi04398	POST	pymb02k-1bqa		2011-08-19	어제 보스 지키다 명대사 ㅡ 난 나다 날다 무느님싫어 사람 내리다 그뒤 그뒤에 모드 tagsmile 어쨋거 어쨋거나 차무원 차무원이 노은설조아한뎃 ㅡ 3 ㅡ tagexclamation 안되차지헌끄 안되차지헌끄야 tagcry
 sbs_boss	jinifox	POST	pymb046-58kea		2011-08-19	보스 지키다 뇌구조 푸하하 푸하하하
-sbs_boss	pluskrr	POST	pymb04f-_khfw		2011-08-19	보스 지키다 회 줄거리 차무헌 차무헌도 노은설 고백하 고백하며 본격적 삼각러브라인 삼각러브라 예고 예
-sbs_boss	tn1tn2	POST	pymb0lc-mtlf		2011-08-19	아 잠이쏟아지네 tagcry 근데 보스 지키다 재밌다 tagsmile 왕왕개학 틀남앗네tagquestion 아이 아 씌다 나 나다
-sbs_boss	qufqlc1500	POST	pymb0o0-wkt9		2011-08-19	보스를지켜 화 호다 어깨빵 tagexclamation
-sbs_boss	triple0317	POST	pymb1f0-54ysn		2011-08-20	허영생 보스를지켜라ost작업중이래
+sbs_boss	pluskrr	POST	pymb04f-_khfw		2011-08-19	보스 지키다 6회 줄거리 차무헌 차무헌도 노은설 고백하 고백하며 본격적 삼각러브라인 삼각러브라 예고 예
+sbs_boss	tn1tn2	POST	pymb0lc-mtlf		2011-08-19	아 잠이쏟아지네 tagcry 근데 보스 지키다 재밌다 tagsmile 왕왕개학2 틀남앗네 tagquestion 아이 아 씌다 나 나다
+sbs_boss	qufqlc1500	POST	pymb0o0-wkt9		2011-08-19	보스를지켜라3 화 호다 어깨빵 tagexclamation
+sbs_boss	triple0317	POST	pymb1f0-54ysn		2011-08-20	허영생 보스를지켜라ost 작업중이래
 sbs_boss	joara0xx0	POST	pymb4bc-stpq		2011-08-19	지성머리 보스 지키다 차지헌 지성 머리스타일 머리스타
 sbs_boss	taijistoker	POST	pymb5i3-ywncq		2011-08-19	요즘 보스 지켜 지켜라 제 제대 보기힘들어서 다운 갤럭시탭 갤럭시탭으 보는중 갤탭 이렇게 편하다 편하구 짜투리시 편하다 볼수 볼수있어서
 sbs_boss	oiuy1111	POST	pymb5jh-_9mv1		2011-08-19	보스 지키다 완전 재미
-sbs_boss	o_ob0819	POST	pymb5sp-5hnlv		2011-08-19	보스 지키다 보고 무느님 대박 내스타 내스타일 헝 지적 이미지 조ㅌㅏ tagsmile 근데 빅뱅 빅뱅이 조ㅌㅏ tagsmile
+sbs_boss	o_ob0819	POST	pymb5sp-5hnlv		2011-08-19	보스 지키다 보고 무느님 대박 내스타 내스타일 헝 지적 이미지 조 ㅌㅏ tagsmile 근데 빅뱅 빅뱅이 조 ㅌㅏ tagsmile
 sbs_boss	actorjisung	POST	pymb65o-ykpu_		2011-08-19	보스 지키다 tagexclamation 너무너무 재밌어 재밌어요 tagexclamation
 sbs_boss	tn9wjd9	POST	pymb69i-ykpu_		2011-08-19	보스 지키다 tagexclamation 닥본사 합시 합시다 tagexclamation 최강희 코믹연기 짱 tagexclamation
 sbs_boss	tn9wjd9	POST	pymb6a1-ykpu_		2011-08-19	우후훗 tagexclamation 보스 지키다 노은설 최강희 의 뇌구조 투 tagexclamation 킄크크크크크크크크크크크크크크크크크킄킄크크크 최강희 코믹연기 대 박 tagexclamation
 sbs_boss	tn9wjd9	POST	pymb6g8-ykpu_		2011-08-19	히힛 tagexclamation 보스 지키다 차지헌 지성 의 뇌구조 투척 tagexclamation 두둥 tagexclamation
 sbs_boss	actorjisung	POST	pymb6_m-ykpu_		2011-08-19	보스 지키다 앞 닥본사 tagexclamation
-sbs_boss	hotvideo	POST	pymb71j-uy8		2011-08-19	보스 지키다 e hdtv p 동영 보스 지키다 e hdtv p 동영
+sbs_boss	hotvideo	POST	pymb71j-uy8		2011-08-19	보스 지키다 e06.110818.hdtv 720p_04 동영 보스 지키다 e06 110818 hdtv 720p 04 동영
 sbs_boss	triple0317	POST	pymb9f5-54ysn		2011-08-20	rt 허영생 보스를지켜 ost현재작업중이고요 ost현재작업중 다음주 방송일 나온다고 나온다고하네 나온다고하네요 taglove
 sbs_boss	idstv	POST	pymb9j5-_9whi		2011-08-19	보스 지키다 노은설 서나윤 차무원 차지헌 차회장 차회장의 뇌구조
 sbs_boss	clare96	POST	pymbbez-ye18n		2011-08-19	보스 지키다 등장인물 뇌구조 tagcry 아 귀엽다 차지헌 tagcry 차무원 으학 tagcry
 sbs_boss	sbi04398	POST	pymbbq9-1bqa		2011-08-19	보스 지키다 노은설 차지헌 차지헌의 뇌구조 tagexclamation 차지헌 차지헌의 뇌 오직 노은설뿐이구낭 tagsmile tagexclamation
 sbs_boss	lij3003	POST	pymbdvo-__mz3		2011-08-19	보스 지키다 뇌구조 완전 웃겨 웃겨여 지성 사랑 taglove
-sbs_boss	yb4124	POST	pymbftx-ujol		2011-08-20	나 나다 오늘 보스 지키다 화 화 다봤어 tagsmile 보람차다 하루
-sbs_boss	tjdpdnjs00	POST	pymbg2m-zdd4		2011-08-20	보스를지켜 화 호다 지헌 은설키스신 tagexclamation
-sbs_boss	tjdpdnjs00	POST	pymbg4d-zdd4		2011-08-20	보스 지키다 회공격준비 tagexclamation 잘못
-sbs_boss	dbcjsfjqmsk	POST	pymbg6j-_a3y7		2011-08-20	꺆ㅁ 완전 좋다 완전 멋있다 재중이의 앨범 tagsmile 반 taglove taglove 보스 지키다 ost part
-sbs_boss	hotvideo	POST	pymbghp-uy8		2011-08-19	보스 지키다 e hdtv p 동영 보스 지키다 e hdtv p 동영
+sbs_boss	yb4124	POST	pymbftx-ujol		2011-08-20	나 나다 오늘 보스 지키다 1화부터6 화 다봤어 tagsmile 보람차다 하루
+sbs_boss	tjdpdnjs00	POST	pymbg2m-zdd4		2011-08-20	보스를지켜 5화 지헌 은설키스신 tagexclamation
+sbs_boss	tjdpdnjs00	POST	pymbg4d-zdd4		2011-08-20	보스 지키다 6회공격준비 tagexclamation 잘못
+sbs_boss	dbcjsfjqmsk	POST	pymbg6j-_a3y7		2011-08-20	꺆 ㅁ 완전 좋다 완전 멋있다 재중이의 앨범 tagsmile 반 taglove taglove 보스 지키다 ost part 3
+sbs_boss	hotvideo	POST	pymbghp-uy8		2011-08-19	보스 지키다 e06.110818.hdtv 720p_05 동영 보스 지키다 e06 110818 hdtv 720p 05 동영
 sbs_boss	only_t	POST	pymbgju-ypxuu		2011-08-19	정윤호의 매너손 보스 멤버 지키다 tagsmile
-sbs_boss	hotvideo	POST	pymbgth-uy8		2011-08-19	보스 지키다 e hdtv p 동영 보스 지키다 e hdtv p 동영
+sbs_boss	hotvideo	POST	pymbgth-uy8		2011-08-19	보스 지키다 e06.110818.hdtv 720p_07 동영 보스 지키다 e06 110818 hdtv 720p 07 동영
 sbs_boss	jubang2455	POST	pymbgwu-_qaa9		2011-08-20	보스 지키다 뮤비
 sbs_boss	redna0	POST	pymbg_k-_bvwm		2011-08-19	진짜우리집 발도장 tagexclamation 안보던 드라마 또 시작해버렸습니다 tagcry 큰일 정말 재미 이럼 안되다 진쫘 아 보스 지키다 완젼 좋다 차다 노은설 쵝오 tagexclamation via 아임in
-sbs_boss	gkdiswldnjs	POST	pymbh1k-yfjoy		2011-08-19	보스 지키다 taglove 본방사수 무한도전 본방사수 tagsmile 내 좋아하다 프로그램 거희 본방사수 보스를지켜 taglove 무한도전 내 가장 좋아하다 프로그램 tagsmile
+sbs_boss	gkdiswldnjs	POST	pymbh1k-yfjoy		2011-08-19	보스 지키다 taglove 본방사수 1 무한도전 본방사수 tagsmile 내 좋아하다 프로그램 거희 본방사수 보스를지켜 taglove 무한도전 내 가장 좋아하다 프로그램 tagsmile
 sbs_boss	zzzwksmswnd	POST	pymbh2d-c_gr		2011-08-19	소 솔까 어제 보스 지키다 엔딩 샷 은설보단 무느님 무느님이 예 예뻐뻐뻤 아련아련 tagcry tagcry 절대 이루어질수 없다 은설무원 은설무원을 응원 tagsmile ㅂ tagsmile 이루어질가능성 tagcry tagcry
 sbs_boss	mini4600	POST	pymbhsc-_aeh_		2011-08-20	글구 보스 지키다 넘 넘 잘보고 잘보고있어 잘보고있어요 tagexclamation
 sbs_boss	tjsrud0971	POST	pymbiun-yqm90		2011-08-19	보스 지키다 키스신 taglove 차무원 taglove
@@ -430,38 +430,38 @@ sbs_boss	xplorers	POST	pymbiwt-_a6e4		2011-08-19	최강희 뇌구조 tagsmile �
 sbs_boss	jjh5120	POST	pymbj2f-5t__h		2011-08-19	어제 보스 지키다 처음 못봐서 키쑤신 키쑤신을 못봤다 tagcry 아놔 tagcry 재중 이해
 sbs_boss	ts789	POST	pymbld7-y_tze		2011-08-19	꺄아아 tagsmile 보스 지키다 tagexclamation 짱 재밌어 tagexclamation tagsmile 지성 짱 귀여웟 멋지구 귀엽구 꺄아 tagsmile tagcry 내 비서되고파 tagcry
 sbs_boss	pink9802	POST	pymbm0p-1t8y		2011-08-19	보스를지켜
-sbs_boss	jsgppower	POST	pymbnk8-bbbr		2011-08-20	보스 지키다 인가 룸메형 룸메형이 보길래 같다 보다 어이없다 설정 당혹 보다 보 맛 있다 뭐 높다 분들 분들은 왜 외다 평범 털털하다 폭력적 여성 끌릴까tagquestion
-sbs_boss	mbcmudo	POST	pymbnnq-yswz6		2011-08-19	무한도전팬 진심환영 요새보는tv프 광개토태왕 보스를지켜 무한도전
+sbs_boss	jsgppower	POST	pymbnk8-bbbr		2011-08-20	보스 지키다 인가 룸메형 룸메형이 보길래 같다 보다 어이없다 설정 당혹 보다 보 맛 있다 뭐 높다 분들 분들은 왜 외다 평범 털털하다 폭력적 여성 끌리다 tagquestion
+sbs_boss	mbcmudo	POST	pymbnnq-yswz6		2011-08-19	무한도전팬 진심환영 요새보는tv 프로 광개토태왕 보스를지켜 무한도전
 sbs_boss	-3-ming	POST	pymbonz-z7df		2011-08-19	보스를지켜 재밌네 tagsmile 우우 이제 마트 마트나 갔다오다 tagexclamation
 sbs_boss	pms0883	POST	pymbpih-_e0j4		2011-08-19	보스 지키다 뇌구조
-sbs_boss	nakabarumom	POST	pymbqqe-5c5iv		2011-08-20	드라마 보스 지키다 회 회
-sbs_boss	si676744	POST	pymbr88-5xp20		2011-08-19	모조시크 보스 지키다 회 최강희 스타일 스타 최강희 지성 간절기 코디 대여성의류쇼핑몰
-sbs_boss	si676744	POST	pymbrm0-5xp20		2011-08-19	보스 지키다 회 최강희 옷 최강희 스타일 스타 최강희 패션 모조시크
+sbs_boss	nakabarumom	POST	pymbqqe-5c5iv		2011-08-20	드라마 보스 지키다 5회 6회
+sbs_boss	si676744	POST	pymbr88-5xp20		2011-08-19	모조시크 보스 지키다 5회 최강희 스타일 스타 최강희 지성 간절기 코디 20대여성의류쇼핑몰
+sbs_boss	si676744	POST	pymbrm0-5xp20		2011-08-19	보스 지켜라5 회 최강희 옷 최강희 스타일 스타 최강희 패션 모조시크
 sbs_boss	dlrmatj123	POST	pymbsr1-5z_ch		2011-08-20	보스 지키다 어떡 넘 재밋음 tagsmile
 sbs_boss	yunsy1207	POST	pymbud5-yovp8		2011-08-20	보스 지키다 뇌구조 등장 빵 터지다
-sbs_boss	cho208610	POST	pymbw8e-_gdhg		2011-08-19	야 공주 남자 재밋냐tagquestion넌 재밋냐tagquestion넌내게 반 끝나다 볼게 없다 보스 지켜라 지켜라나 봐야겠다 tagsmile
+sbs_boss	cho208610	POST	pymbw8e-_gdhg		2011-08-19	야 공주 남자 재밋냐 tagquestion 넌내게 반 끝나다 볼게 없다 보스 지켜라 지켜라나 봐야겠다 tagsmile
 sbs_boss	twinkleim	POST	pymbyaw-56ww4		2011-08-19	요즘 sbs 잼 드라마 완전 많다 월화 월화는 무사백동수 수목 보스 지키다 주말드라마 여인 향기 오옷 tagexclamation 좋다 이동욱 지성 최강희 김선 김선아 지창욱 유승호 화이팅 tagexclamation
 sbs_boss	09061224	POST	pymb_bb-5tao8		2011-08-19	보스를지켜라뇌구조
 sbs_boss	bara0922	POST	pymb_mo-4ydy		2011-08-19	보스 뇌구조 폭소 지성 우주최강돌멩이 최강희 무느님 mydaily 푸학 tagsmile
 sbs_boss	invu1657	POST	pymb_vo-yqid		2011-08-19	보스 지키다 왕지혜 왕지혜의 오피스 메이크업 커리어 우먼 우먼의 데이트 메이크업 브라운 세미 스모키 메이크업 키스 부르다 촉촉 입술 만들다 키스명당자리 낭만소녀 눈화장법
-sbs_boss	-3-ming	POST	pymb__9-z7df		2011-08-19	보스를지켜 화보는듕 완전동안 최강희 ㄷㄷ 마르기도참말랐다ㅡ ㅁㅡ
-sbs_boss	anminheart	POST	pymd067-yj3ey		2011-08-18	시간 일어나다 일어 누구랑논다 눈 말똥말똥 tagsmile 분뒤면엄마수영갈시 tagcry 그땐잠시자는척을tagquestion tagsmile 그나저 그나저나 보스를지켜라tagquestion 거기서 지성맡은역활 tagsmile 완전귀요 tagsmile 비빔국수 떡볶이 순대볶음 튀김 튀기다 김밥 쫄면 맛있겠다 tagcry 우리집 배달안 피자통닭 tagcry
+sbs_boss	-3-ming	POST	pymb__9-z7df		2011-08-19	보스를지켜 1화보는듕 완전동안 최강희 ㄷㄷ 마르기도참말랐다 ㅡ ㅁㅡ
+sbs_boss	anminheart	POST	pymd067-yj3ey		2011-08-18	시간 일어나다 일어 누구랑논다 눈 말똥말똥 tagsmile 30분뒤면엄마수영갈시 tagcry 그땐잠시자는척을 tagquestion tagsmile 그나저 그나저나 보스를지켜 tagquestion 거기서 지성맡은역활 tagsmile 완전귀요 tagsmile 비빔국수 떡볶이 순대볶음 튀김 튀기다 김밥 쫄면 맛있겠다 tagcry 우리집 배달안 피자통닭 tagcry
 sbs_boss	eachto	POST	pymd1kn-j4xv		2011-08-18	아하아 아하아하 tagsmile 보스를지켜라가아니구 tagsmile 김재중을지켜라구 김재중을지켜라구나 tagsmile 부재 김재중 김재중의 입술 지키다 tagsmile 맞는말 맞는말이네 맞는말이네요 tagsmile
 sbs_boss	leekichen	POST	pymd20p-5htnj		2011-08-18	보스를지켜 지성 최강희 앙증맞다 고백
 sbs_boss	actorjisung	POST	pymd7vw-5_x4_		2011-08-18	지성오빠 짱 tagexclamation 완전귀여우세 tagsmile 보스 지키다 본방사수 중 tagexclamation tagsmile
-sbs_boss	skduddl7623	POST	pymdabq-yfdjs		2011-08-17	오늘 보스 지키다 하는 하는날 룰루 taglove 요즘 드라마 보다 정신 하루tagsmile
+sbs_boss	skduddl7623	POST	pymdabq-yfdjs		2011-08-17	오늘 보스 지키다 하는 하는날 룰루 taglove 요즘 드라마 보다 정신 하루 tagsmile
 sbs_boss	2pmjunsu115	POST	pymdaty-58nov		2011-08-18	보스 지키다 보다 보 사람 사다 tagexclamation
-sbs_boss	satoshihan	POST	pymdbz1-prra		2011-08-18	애들 애들이 너가tagquestion 하다 몰다 근데 원래 좋아하다 동방신기 명 다 좋다 한데 하다 재중 좋다 건 거다 걸다 어쩔 없다 tagsmile 보스 지키다 재밌는 같다 tagcry 재중군 재중군이 부른ost 지켜줄게 좋다 같다 tagcry 아 나 나다 꿈 이틀 연속 동방 tagsmile 아이 아 좋다
+sbs_boss	satoshihan	POST	pymdbz1-prra		2011-08-18	애들 애들이 tagquestion 하다 몰다 근데 원래 좋아하다 동방신기 5명 다 좋다 한데 하다 재중 좋다 건 거다 걸다 어쩔 없다 tagsmile 보스 지키다 재밌는 같다 tagcry 재중군 재중군이 부른ost 지켜줄게 좋다 같다 tagcry 아 나 나다 꿈 이틀 연속 동방 tagsmile 아이 아 좋다
 sbs_boss	jisu95942002	POST	pymdd0u-cn_j		2011-08-17	보스 지키다 지성 김재중 본부장다운 통크다 회식 화제
 sbs_boss	jisu95942002	POST	pymddbn-cn_j		2011-08-17	보스 지키다 최강희 팬클럽 한방삼계탕 힘내다 tagexclamation
-sbs_boss	sprtmw	POST	pymddwz-y_o9j		2011-08-15	보스 지키다 부부젤라 분 차지헌본부장님 테마 노래 노랗다 먼지 멀다 알아영tagquestion 아 참 차다 설명 어렵다 oㅅo
+sbs_boss	sprtmw	POST	pymddwz-y_o9j		2011-08-15	보스 지키다 부부젤라 분 차지헌본부장님 테마 노래 노랗다 먼지 멀다 알아영 tagquestion 아 참 차다 설명 어렵다 o ㅅ o
 sbs_boss	teyo_o	POST	pymdfw6-5pb2g		2011-08-18	어제 보스 지키다 본사람 소온 쩔어
-sbs_boss	eachto	POST	pymdgfn-j4xv		2011-08-18	지금 네이트 난리 tagcry tagcry 위 보스 지키다 키스신이구 위엿 위엿다 밀리다 재중오빠 위 tagcry
+sbs_boss	eachto	POST	pymdgfn-j4xv		2011-08-18	지금 네이트 난리 tagcry tagcry 1위 1위는 보스 지키다 키스신이구 1위엿 1위엿다 밀리다 재중오빠는8 위 tagcry
 sbs_boss	gh1385	POST	pymdhjc-_y27o		2011-08-18	넌내게 반했어랑 보스 지켜라 지켜라랑 둘다 재밌는데 같은시 tagcry
 sbs_boss	rla1015dms	POST	pymdia4-502qo		2011-08-17	쫌있다학원간다 tagcry 오늘 보스를지켜라하는날 tagsmile
-sbs_boss	jisu95942002	POST	pymdiuw-cn_j		2011-08-17	스타 인터뷰 드라마 보스 지키다 지성 반듯 이미지tagquestion 한마디 막히다 연기자였죠
+sbs_boss	jisu95942002	POST	pymdiuw-cn_j		2011-08-17	스타 인터뷰 드라마 보스 지키다 지성 반듯 이미지 tagquestion 한마디 막히다 연기자였죠
 sbs_boss	telenet5425	POST	pymdjrv-5g77w		2011-08-18	보스 지키다 최강희 지성 룸살롱 폭행사건 실체알고 경악
-sbs_boss	tmddk4643	POST	pymdk30-5ot75		2011-08-15	짜증 tagcry 좀적당히좀까불지tagquestion 맨날나이도어린게시비걸고 tagcry 나오늘보스를지켜라보구잘거임ㅇㅅㅇ미투수아까처럼작게나오면아예가줄수도있어tagsmile
+sbs_boss	tmddk4643	POST	pymdk30-5ot75		2011-08-15	짜증 tagcry 좀적당히좀까불지 tagquestion 맨날나이도어린게시비걸고 tagcry 나오늘보스를지켜라보구잘거 ㅇㅅㅇ 미투수아까처럼작게나오면아예가줄수도 tagsmile
 sbs_boss	0403wn	POST	pymdmv2-yvhca		2011-08-18	넌내반 시청률 또 내려 내려같다 뭐 괸찬아 tagsmile 다르다 사람 안본다 안본다해 안본다해도 나다 나 보다 내일 내 막화 tagcry 나도 나다 나 보스 지켜라 지켜라를 봐야 봐야하 봐야하나 앗 오늘 막화
 sbs_boss	jh9801	POST	pymdohc-jyxb		2011-08-15	보스 지키다 노은설 최강희 패션 tagexclamation 헤지스 액세서리 코벤트 가다 가
 sbs_boss	rhkdsu98	POST	pymdpq5-50334		2011-08-17	잉여잉 잉여잉여 오늘 보스 지켜라하는날이닷 tagexclamation
@@ -469,120 +469,120 @@ sbs_boss	angela853	POST	pymdr0j-yifmh		2011-08-18	보스 지키다 완전 재밋
 sbs_boss	sky5551	POST	pymdr_7-_snvw		2011-08-18	보스를지켜라못봤어 tagexclamation 완젼슬프당 tagexclamation
 sbs_boss	mun7296	POST	pymdsxe-_tf_7		2011-08-18	오늘 보스 지키다 보지말까
 sbs_boss	tvxq_5boys	POST	pymdt89-5uo9e		2011-08-18	김제제 이쟈식 오늘 두 눈 누다 똑바 똑바로 뜨다 지켜보다 주갓숴 뭔 짓거리 하다 tagexclamation 보스 지키다 본방사수 tagexclamation
-sbs_boss	tetris_han	POST	pymdwhj-yw3t5		2011-08-18	뿅 목요일 목요 아침 미노입니돠 tagexclamation 오늘 문득 궁금 tagexclamation 여러분 드라마 좋아하세요tagquestion 미노 미노는 월화 무사백동수 수목 보스 지키다 주말 여인 향기 봐욤 tagexclamation 어젠 키스신때문 두근두근 taglove 외롭다 제 맘 달래주는건 역시 드라마예욤 tagexclamation 낮 테트리스 테트리스가 제 맘 달래다 오홍홍 암튼 드라마 넘 좋아해용 taglove
-sbs_boss	macmonster3	POST	pymdw_k-yiayz		2011-08-17	이제서 보스 지키다 회 보다 귀엽다 차본부장 tagexclamation 오늘꺼 기대
+sbs_boss	tetris_han	POST	pymdwhj-yw3t5		2011-08-18	뿅 목요일 목요 아침 미노입니돠 tagexclamation 오늘 문득 궁금 tagexclamation 여러분 드라마 좋아하다 tagquestion 미노 미노는 월화 무사백동수 수목 보스 지키다 주말 여인 향기 봐욤 tagexclamation 어젠 키스신때문 두근두근 taglove 외롭다 제 맘 달래주는건 역시 드라마예욤 tagexclamation 낮 테트리스 테트리스가 제 맘 달래다 오홍홍 암튼 드라마 넘 좋아해용 taglove
+sbs_boss	macmonster3	POST	pymdw_k-yiayz		2011-08-17	이제서 보스 지키다 4회 보다 귀엽다 차본부장 tagexclamation 오늘꺼 기대
 sbs_boss	sere1206	POST	pymdx4w-s6d5		2011-08-18	tagsmile 며칠전 허세비노 tagsmile 보스 지켜라이야기 들다 오빤 정말 tagsmile 두다 두 사귀다 싶다 벗 tagsmile
-sbs_boss	bbi_	POST	pymdxsv-c2yu		2011-08-18	으헝 tagsmile 엏엏 보스 지키다 너무재미써 tagcry tagcry 보스 보스를지켜
+sbs_boss	bbi_	POST	pymdxsv-c2yu		2011-08-18	으헝 tagsmile 엏엏 보스 지키다 너무재미써 tagcry 3 tagcry 보스 보스를지켜
 sbs_boss	tosmf2002	POST	pymdx_1-35pt		2011-08-18	예예 보스 지키다 안그래 안그래도 열심희 보고있읍니 tagexclamation 아뇽 tagexclamation
 sbs_boss	actorjisung	POST	pymdyfy-_jzu1		2011-08-17	보스 지키다 넘 재밌어 재밌어요
-sbs_boss	jisu95942002	POST	pymdyrq-cn_j		2011-08-17	고화질 런지횽꺼 보스 지키다 새예 새예고
-sbs_boss	rh831	POST	pymdzzy-yxx8h		2011-08-18	오늘 tagexclamation 넌내게반 하는놜 tagexclamation 본방사수 플리즈 오늘 넌내반 마지막회니깐 tagcry 봐주세 봐주세여 tagsmile 오늘 저녁 시 mbc 하다 하 넌내반 본방사수 미친 미친들아 보다 tagexclamation 공주의남자 보스를지켜 본방사수 금지 tagexclamation
-sbs_boss	8onew8	POST	pymd_le-y27id		2011-08-18	자꾸머리속에떠서나지않는 이말 좋다 보스를지켜 회 에서 지헌 지성 이가은설 최강희 에다 하는말 나한테 한것도아닌데 내 좋다 tagsmile 좋다 가 가다 사람잠못이루게만드네
+sbs_boss	jisu95942002	POST	pymdyrq-cn_j		2011-08-17	고화질 런지횽꺼 110816 보스 지키다 새예 새예고
+sbs_boss	rh831	POST	pymdzzy-yxx8h		2011-08-18	오늘 tagexclamation 넌내게반 하는놜 tagexclamation 본방사수 플리즈 오늘 넌내반 마지막회니깐 tagcry 봐주세 봐주세여 tagsmile 오늘 저녁10 시 mbc 하다 하 넌내반 본방사수 미친 미친들아 보다 tagexclamation 공주의남자 보스를지켜 본방사수 금지 tagexclamation
+sbs_boss	8onew8	POST	pymd_le-y27id		2011-08-18	자꾸머리속에떠서나지않는 이말 좋다 보스를지켜라5 회 에서 지헌 지성 이가은설 최강희 에다 하는말 나한테 한것도아닌데 내 좋다 tagsmile 좋다 가 가다 사람잠못이루게만드네
 sbs_boss	kk5326918	POST	pymd__2-igci		2011-08-18	보스를지켜 지성 최강희 기습키스 러브모드 폭발 taglove daum미디어다음
-sbs_boss	qhals6568	POST	pyme04b-_gk7t		2011-08-19	보스 지키다 화 호다 보다 가다 빠 빠이 넌내반 끝나다 이제 보스 봐야겠지tagquestion tagsmile
+sbs_boss	qhals6568	POST	pyme04b-_gk7t		2011-08-19	보스 지키다 1화 보다 가다 빠 빠이 넌내반 끝나다 이제 보스 봐야겠지 tagquestion tagsmile
 sbs_boss	boalo589	POST	pyme0aw-5oxwd		2011-08-18	왜이렇게 보스를지켜 가 가다 재미 있다 tagcry
-sbs_boss	tjdpdnjs00	POST	pyme0cn-zdd4		2011-08-19	보스 지키다 화놀이공원 무느님
-sbs_boss	tjdpdnjs00	POST	pyme0qy-zdd4		2011-08-19	보스를지켜 화떨리는가슴
-sbs_boss	tjdpdnjs00	POST	pyme0zn-zdd4		2011-08-19	보스 지키다 회발 회발로 뻥 tagexclamation
-sbs_boss	tjdpdnjs00	POST	pyme0_m-zdd4		2011-08-19	보스를지켜 화 호다 노은설어딧어tagquestion
+sbs_boss	tjdpdnjs00	POST	pyme0cn-zdd4		2011-08-19	보스 지키다 4화놀이공원 무느님
+sbs_boss	tjdpdnjs00	POST	pyme0qy-zdd4		2011-08-19	보스를지켜 4화떨리는가슴
+sbs_boss	tjdpdnjs00	POST	pyme0zn-zdd4		2011-08-19	보스 지키다 4회발 4회발로 뻥 tagexclamation
+sbs_boss	tjdpdnjs00	POST	pyme0_m-zdd4		2011-08-19	보스를지켜 2화 노은설어딧어 tagquestion
 sbs_boss	hmj0454	POST	pyme19m-_20x		2011-08-19	sbs 수목드라마 보스 지키다 지헌 지헌은 초딩코믹담당 tagexclamation 드디어 출연진 뇌구조 나오다
-sbs_boss	ichbich	POST	pyme1ne-5w3wn		2011-08-19	보스 지키다 회 차무원 플레 플레이어
-sbs_boss	no-eul	POST	pyme39u-eo1x		2011-08-18	아 너무멋있tagquestion tagcry 내가수목에보스를지켜라때문에산돠 tagexclamation 거짓말쬐금보태서 tagsmile
-sbs_boss	answlgh3	POST	pyme3co-y071_		2011-08-19	보스 지키다 화 호다 토렌트
-sbs_boss	lovelycong00	POST	pyme3o1-5uo57		2011-08-18	최강희 원피스 보스를지켜 회 최강희 노은설 옷 패션스타일 패션스타 민소매 허리밴딩 원피스 의상정보
+sbs_boss	ichbich	POST	pyme1ne-5w3wn		2011-08-19	보스 지키다 5회 차무원 플레 플레이어
+sbs_boss	no-eul	POST	pyme39u-eo1x		2011-08-18	아 너무멋있 tagquestion tagcry 내가수목에보스를지켜라때문에산돠 tagexclamation 거짓말쬐금보태서 tagsmile
+sbs_boss	answlgh3	POST	pyme3co-y071_		2011-08-19	보스 지키다 6화 토렌트
+sbs_boss	lovelycong00	POST	pyme3o1-5uo57		2011-08-18	최강희 원피스 보스를지켜라5 회 최강희 노은설 옷 패션스타일 패션스타 민소매 허리밴딩 원피스 의상정보
 sbs_boss	akrsotmdgus	POST	pyme3vj-56hq		2011-08-19	보스를지켜 우리동네 찍은것 같다 재중
-sbs_boss	aas5510	POST	pyme4x0-ysq85		2011-08-19	보스 지키다 안보신분 회부터보세 완전잼대박 tagsmile 특희 아이스크림신 이랑 이 차지헌 썬글라스 쓰다 기차소리내면서 기차소리 남행열차부르는신 웃기다 tagsmile
-sbs_boss	dpfwh2000	POST	pyme5tb-_1dpu		2011-08-18	노은설 최강희 맞는감tagquestion
-sbs_boss	tgs03552	POST	pyme641-pm34		2011-08-18	오늘 보스를지켜 짱 tagsmile 재중오빠 섹시 tagcry tagcry tagcry ㅇ퓨
-sbs_boss	novel1616	POST	pyme6b1-q2ho		2011-08-19	보스 지키다 회 메이킹영 라디오녹음현장
+sbs_boss	aas5510	POST	pyme4x0-ysq85		2011-08-19	보스 지키다 안보신분 1회부터보세 완전잼대박 tagsmile 특희 아이스크림신 이랑 이 차지헌 썬글라스 쓰다 기차소리내면서 기차소리 남행열차부르는신 웃기다 tagsmile
+sbs_boss	dpfwh2000	POST	pyme5tb-_1dpu		2011-08-18	노은설 최강희 맞는감 tagquestion
+sbs_boss	tgs03552	POST	pyme641-pm34		2011-08-18	오늘 보스를지켜 짱 tagsmile 재중오빠 섹시 tagcry tagcry tagcry ㅇ 퓨
+sbs_boss	novel1616	POST	pyme6b1-q2ho		2011-08-19	보스 지켜라1 2회 메이킹영 라디오녹음현장
 sbs_boss	yejin98love	POST	pyme6ii-_s7ta		2011-08-18	와와와보스를지켜 와와와보스를지켜라 대박대박 tagcry 잼써
-sbs_boss	tjdpdnjs00	POST	pyme6jt-zdd4		2011-08-19	보스 지키다 ost part
+sbs_boss	tjdpdnjs00	POST	pyme6jt-zdd4		2011-08-19	보스 지키다 ost part 1
 sbs_boss	katekyo98	POST	pyme6pq-ypbcz		2011-08-18	보스 지키다 봐야 봐야되는데 진짜 졸리다 죽을둥 살둥
 sbs_boss	ensky1004	POST	pyme6q1-12v9		2011-08-18	간 간만 이거 좋다 보스 지키다 이거 이거보 나다 나 졸다 졸리다 눈 최고 최 무거워
 sbs_boss	kda632	POST	pyme6sd-sdq7		2011-08-18	드라마넌내게반했어규원이가영국가게하려고거짓말해서헤어지고 손수술은성공해서기타는칠수 진실을알고결국다시사귄다 감독님은사랑의진검다리 역시나해피엔딩 taglove 드라마 수목 넌내게반 마지막회 담주부터는보스를지켜라본방사수 tagexclamation
 sbs_boss	tnals2067	POST	pyme7vw-_ct1q		2011-08-19	이젠 넌내게반했어끝 보스 지켜라볼까 아주재미겠다 지성완전 웃기다
-sbs_boss	arm05082	POST	pyme81i-oz0d		2011-08-19	아 진짜 어제 보스를지켜 쩔어 tagcry 증말 증말로 지금 번째 보는중 아 차무원 차무원이 남자 다가가다 노은설한테 고백 tagsmile 사진 사다 영웅재중 갅지 헤어스타 tagsmile 영웅재중 알다 남자 남다 핸섬미모권인가tagquestion 위랰 tagsmile 아직 아직은 문정혁 taglove
-sbs_boss	rmnrmn	POST	pyme9bb-_o085		2011-08-19	밴드님 보스를지켜 시티헌터만큼재밋음tagquestion
-sbs_boss	gywn828	POST	pyme9wc-piyc		2011-08-19	보스 지키다 봐tagquestion tagsmile 걍 넌 널다 볼것 같다 tagsmile 미안 tagsmile
+sbs_boss	arm05082	POST	pyme81i-oz0d		2011-08-19	아 진짜 어제 보스를지켜 쩔어 tagcry 증말 증말로 지금2 번째 보는중 아 차무원 차무원이 남자 다가가다 노은설한테 고백 tagsmile 사진 사다 영웅재중 갅지 헤어스타 tagsmile 영웅재중 알다 남자 남다 핸섬미모권인가 핸섬미모권 tagquestion 1위랰 tagsmile 아직 아직은 문정혁 taglove
+sbs_boss	rmnrmn	POST	pyme9bb-_o085		2011-08-19	밴드님 보스를지켜 시티헌터만큼재밋음 tagquestion
+sbs_boss	gywn828	POST	pyme9wc-piyc		2011-08-19	보스 지키다 보다 tagquestion tagsmile 걍 넌 널다 볼것 같다 tagsmile 미안 tagsmile
 sbs_boss	vicar0819	POST	pymeasr-_icrk		2011-08-19	대박 웃기닼 tagsmile 아 진짜 보스 지키다 최고 tagcry 니미 이거 매일매일 매일매 보고 보다 보 싶어 싶다 tagcry
 sbs_boss	me2times	POST	pymeb96-36wn		2011-08-19	보스를지켜 tagexclamation 여인의향기 tagexclamation 내삶의휴식처 tagsmile
 sbs_boss	371974	POST	pymed28-ir4f		2011-08-18	보스를지켜 다운 보다 tagsmile 어제 스파벨리갔다와서 넘피곤 tagsmile 재중 역시 완전멋 완전멋있음 지성 진짜 요즘 귀엽당 tagsmile
 sbs_boss	sub3092	POST	pymedbu-5p90w		2011-08-19	보스를지켜 뇌구조 역시 tagsmile 재미 지성 taglove 얼마전 뽀뽀햇다능 tagsmile 난 나다 날다 노은설 노은설이 무 좋앟 tagsmile
-sbs_boss	novel1616	POST	pymeeky-q2ho		2011-08-19	보스를지켜 화 호다 이후 트위터
+sbs_boss	novel1616	POST	pymeeky-q2ho		2011-08-19	110819보스를지켜 6화 이후 트위터
 sbs_boss	kaysa0602	POST	pymeexf-_s7xi		2011-08-19	보스 지키다 정말 재미 있 어 어요
-sbs_boss	jiruhecom	POST	pymefsb-_50e_		2011-08-19	보스를지켜 회 월 일 토도우
+sbs_boss	jiruhecom	POST	pymefsb-_50e_		2011-08-19	보스를지켜 6회 8월18 일 토도우
 sbs_boss	rladydtn013	POST	pymehdz-jzkv		2011-08-19	제가 제 드라마 자주 보다 보 편 아니다 요즘 보스 지켜라 지켜라가 참 차다 재밌는 같다 tagsmile 인터넷 뜨다 노은솔 뇌구조 보다 무느님 무느님에 빵 터지다 tagsmile
 sbs_boss	lklovebr	POST	pymehla-yyi22		2011-08-19	캬 taglove 역시 tagexclamation 강희언니 표정 정말 tagexclamation 쵝오 tagexclamation taglove 보스 지키다 너무너무너무 잘보고있사와 잘보고있사와요 taglove tagexclamation
 sbs_boss	supremeduck	POST	pymeixy-55ekl		2011-08-18	보스 지키다 최강희 착용 씨바이끌로 씨바이끌로에 배색 블라우스 시티헌터 박민영 착용 셔츠
-sbs_boss	skfnskfn7777	POST	pymeiyd-5groq		2011-08-19	보스 지키다 화 호다 다시보기
+sbs_boss	skfnskfn7777	POST	pymeiyd-5groq		2011-08-19	보스 지키다 6화 다시보기
 sbs_boss	jubang2455	POST	pymejhu-_qaa9		2011-08-19	보스 지키다 무느님 재중 은설 사람 내리다
 sbs_boss	dlsdl01	POST	pymejzs-yidvn		2011-08-19	내가어제보스를지켜라보면서 생각나는말몇개적어놓을 taglove 캉들 캉들은 이거 이거보 호응 tagexclamation tagsmile
 sbs_boss	beth99heo	POST	pymek8a-1xoh		2011-08-18	넌내반 후속 지다 지고 못살아 못살아를 보다 보스 지켜라 지켜라를 봐야 봐야할지 걱정
 sbs_boss	elohim486	POST	pymekj7-_0z8w		2011-08-18	보스 지키다 키스신 키스신에 두근두근 ㅅ
-sbs_boss	dhkdwn1	POST	pymeksx-ffrt		2011-08-18	보스를지켜라를볼까 지고는못살아를볼까tagquestion하나는일주일지나고다시보기로바야돼는데 tagsmile
+sbs_boss	dhkdwn1	POST	pymeksx-ffrt		2011-08-18	보스를지켜라를볼까 지고는못살아를볼까 tagquestion 하나는일주일지나고다시보기로바야돼는데 tagsmile
 sbs_boss	wlstlsk1	POST	pymek_s-y5kf6		2011-08-18	요즘 수목드라마 보스 지키다 넘 즐겨보고 taglove 오늘 멋지다 무느님 김재중 taglove 보스를지켜
-sbs_boss	dhfmrhf2	POST	pymek_w-p22s		2011-08-18	헐헐최강희가너무부러워 tagcry tagcry 지성완전귀엽고 tagsmile
-sbs_boss	minju1004b	POST	pymelg1-stdr		2011-08-19	보스를지켜 뇌구조 어떻길레tagquestion tagexclamation
-sbs_boss	fraujoo99	POST	pymemz9-_81ij		2011-08-19	보스를지켜 회 복터지다 노은설tagsmile
-sbs_boss	mystery114	POST	pymen6u-0gqb		2011-08-19	보스 지성 연기 왜케 잘함tagquestion tagsmile 완전 차지헌 역할 몰입한듯 tagexclamation tagsmile 벌쓰다 다음주 기다리다 지네 지다 강아지같앙 tagsmile 완전 귀여옹 캭 tagexclamation 최강희 지성 최강 연기 커플이양ㅁ tagexclamation
+sbs_boss	dhfmrhf2	POST	pymek_w-p22s		2011-08-18	헐헐최강희가너무부러워 tagcry 99 tagcry 지성완전귀엽고 tagsmile
+sbs_boss	minju1004b	POST	pymelg1-stdr		2011-08-19	보스를지켜 뇌구조 어떻길레 tagquestion tagexclamation
+sbs_boss	fraujoo99	POST	pymemz9-_81ij		2011-08-19	보스를지켜 6회 복터지다 노은설 tagsmile
+sbs_boss	mystery114	POST	pymen6u-0gqb		2011-08-19	보스 지성 연기 왜케 잘 tagquestion tagsmile 완전 차지헌 역할 몰입한듯 tagexclamation tagsmile 벌쓰다 다음주 기다리다 지네 지다 강아지같앙 tagsmile 완전 귀여옹 캭 tagexclamation 최강희 지성 최강 연기 커플이양 ㅁ tagexclamation
 sbs_boss	yukj2000	POST	pymenxl-y62bn		2011-08-19	보스를지켜 뇌구조 등장 보스 뇌구조 보다 보 드라마 다 본듯 폭풍반응 daum미디어다음
 sbs_boss	y10ws	POST	pymeo88-ya4xm		2011-08-19	보스 지키다 지성 최강희 향하다 마음 고백 대전제품사진 스튜디오 이음
 sbs_boss	loveason77	POST	pymeoue-261m		2011-08-19	보스를지켜라 회장님넘기여우셔 회장님화이팅 tagexclamation 물론지헌이 tagsmile
-sbs_boss	whiteang04	POST	pymeoz_-ylolc		2011-08-19	보스 지키다 회 마지막 차뭔본부장 엄청 멋있엉 이제 넌내반 막방 봐야겠당 tagsmile
-sbs_boss	junelhw	POST	pymepju-9_dk		2011-08-19	넌내게 반했어가 오늘 끝 나다 tagexclamation tagsmile 둘리커플 잘어울렸구요tagsmile 난 나다 날다 공주 남자랑 남자 보스 지키다 사이 갈등중 tagcry 둘다 보고시프뎅에에ㅔㅔ tagsmile 개보는건 더힘들었어
+sbs_boss	whiteang04	POST	pymeoz_-ylolc		2011-08-19	보스 지키다 6회 마지막 차뭔본부장 엄청 멋있엉 이제 넌내반 막방 봐야겠당 tagsmile
+sbs_boss	junelhw	POST	pymepju-9_dk		2011-08-19	넌내게 반했어가 오늘 끝 나다 tagexclamation tagsmile 둘리커플 잘어울렸구요 tagsmile 난 나다 날다 공주 남자랑 남자 보스 지키다 사이 갈등중 tagcry 둘다 보고시프뎅에 ㅔㅔ tagsmile 3개보는건 더힘들었어
 sbs_boss	spastar7	POST	pymeqbz-5x8tg		2011-08-19	보스 지키다 지성 폭풍애교 보스 지키다 지성 폭풍애교 콩깍지 제 제대 씌
 sbs_boss	spastar7	POST	pymeqtb-5x8tg		2011-08-19	보스 지키다 무느님 김재중 블랙 미남 미 포스 보스 지키다 무느님 김재중 블랙 미남 미 포스 다음주 수요일 수요 기대 기대다
 sbs_boss	spastar7	POST	pymeq_a-5x8tg		2011-08-19	보스 지성 김재중 사랑고백 보스 지성 김재중 사랑고백 최강희 남자복 터지다
-sbs_boss	insos02	POST	pymerda-_8lnw		2011-08-19	보스를지켜 다시보기 회 월 일 보스를지켜 다시보기 회 월 일
-sbs_boss	sbi04398	POST	pymerlm-1bqa		2011-08-19	나낼일곱시에일어나아대 tagcry 잘쟈 tagcry 사실은보스를지켜라보러가는그 tagsmile ㅂㅂㅂㅂㅂㅂ
-sbs_boss	tjdghsladlek	POST	pymeshh-ekd2		2011-08-19	보스 지키다 회 토렌트
-sbs_boss	milleannis	POST	pymeso9-_wu_7		2011-08-19	맘님 수목 드라마 어떤거 챙겨보세요tagquestion tagexclamation 저 어제 보스 지켜라 지켜라를 보다 이거 완전 잼나더라구 잼나더라구요 tagsmile 지성 멋있다 재중이 재중이도 멋있다 둘다한테 사랑 최강희 최강희는 어쩜 이리 부러울까 부러울까요 tagquestion tagsmile 담주 담주도 챙겨봐야겠어 챙겨봐야겠어요 tagexclamation 보스 지키다
+sbs_boss	insos02	POST	pymerda-_8lnw		2011-08-19	보스를지켜 다시보기 6회 8월 18 18일 보스를지켜 다시보기 6회 8월 18 18일
+sbs_boss	sbi04398	POST	pymerlm-1bqa		2011-08-19	나낼일곱시에일어나아대 tagcry 잘쟈 tagcry 사실은보스를지켜라보러가는그 tagsmile ㅂㅂㅂㅂㅂㅂ 2222222
+sbs_boss	tjdghsladlek	POST	pymeshh-ekd2		2011-08-19	보스 지키다 6회 토렌트
+sbs_boss	milleannis	POST	pymeso9-_wu_7		2011-08-19	맘님 수목 드라마 어떤거 챙기다 tagquestion tagexclamation 저 어제 보스 지켜라 지켜라를 보다 이거 완전 잼나더라구 잼나더라구요 tagsmile 지성 멋있다 재중이 재중이도 멋있다 둘다한테 사랑 최강희 최강희는 어쩜 이리 부러울까 부러울까요 tagquestion tagsmile 담주 담주도 챙겨봐야겠어 챙겨봐야겠어요 tagexclamation 보스 지키다
 sbs_boss	vl6012	POST	pymesq8-yv532		2011-08-19	보스를지켜 지성 tagexclamation 짱귀여워 taglove
 sbs_boss	jejumi3797	POST	pymesv7-wtpt		2011-08-19	보스를지켜 뇌구조 우주최강돌맹이보스를지켜 뇌구조 등장 보스 뇌구조 보다 보 드라마 다 본듯 폭풍반응
 sbs_boss	actorjisung	POST	pymet4a-_8e_2		2011-08-19	진심 보스를지켜 진짜 재밌어 재밌어요 tagsmile 보다 웃다 웃 수술 꼬맨 부위 터지다 tagcry 지금 이렇게 웃다 말 그땐 아파 죽는줄 tagcry
 sbs_boss	whgsi10	POST	pymet4o-j2k1		2011-08-19	여인 향기 보스 지켜라 지켜라보 시청률 높넷 tagsmile 앗싸 이동욱 홧팅 tagexclamation
-sbs_boss	an72536	POST	pymeuy2-5ym0s		2011-08-19	보스를지켜 회 다시보기 명장면vod
-sbs_boss	wnstlr65	POST	pymev2c-ybgsq		2011-08-19	린 잘 자다 알다 못하다 보스 지키다 ost part 자동재생 듣기 듣다 가사 가다
-sbs_boss	binicherry	POST	pymeviv-5htbm		2011-08-19	보스 지켜라 지켜라라 드라마 아시나요tagquestion 최강희 지성 재중 나오다 최고 코믹 드라마예 드라마예요 tagexclamation 한 하다 번 벌다 보다 보세
-sbs_boss	actorjisung	POST	pymew8u-_a62k		2011-08-19	보스를지켜 본방사수 tagcry 오빠때문에보는거에 tagcry tagcry
+sbs_boss	an72536	POST	pymeuy2-5ym0s		2011-08-19	보스를지켜 6회 다시보기 명장면vod
+sbs_boss	wnstlr65	POST	pymev2c-ybgsq		2011-08-19	린 잘 자다 알다 못하다 보스 지키다 ost part 2 자동재생 듣기 듣다 가사 가다
+sbs_boss	binicherry	POST	pymeviv-5htbm		2011-08-19	보스 지켜라 지켜라라 드라마 알다 아시 tagquestion 최강희 지성 재중 나오다 최고 코믹 드라마예 드라마예요 tagexclamation 한 하다 번 벌다 보다 보세
+sbs_boss	actorjisung	POST	pymew8u-_a62k		2011-08-19	보스를지켜 본방사수 tagcry 오빠때문에보는거에 tagcry 3 tagcry
 sbs_boss	tvxq_jyj1226	POST	pymexca-5iewv		2011-08-19	보스 지키다 뇌구조
 sbs_boss	jhm2480	POST	pymexdf-ysl7o		2011-08-19	보스 지키다 뇌구조
 sbs_boss	vhskadkdud	POST	pymexoe-f1c1		2011-08-19	보스 지키다 tagexclamation 뇌구조
-sbs_boss	dbdla98	POST	pymey4o-_q6t7		2011-08-18	아주 보스를지켜 열풍이구만tagquestion 재밋긴재밋드롸 하지만난 공주의남자 보스는재방 유후
+sbs_boss	dbdla98	POST	pymey4o-_q6t7		2011-08-18	아주 보스를지켜 열풍이구 tagquestion 재밋긴재밋드롸 하지만난 공주의남자 보스는재방 유후 3
 sbs_boss	arm05082	POST	pymeydz-oz0d		2011-08-19	아 쩔엌 tagsmile 어제 보스 지키다 완전 재밋음 tagsmile 담주 담주에 차무원 차무원이 노은설한테 고백 따지다 고백 끝난건갘 tagsmile 쨋든 빨다 스파이명월도 보스를지켜 보고싶넼 tagsmile
 sbs_boss	girlstar1	POST	pymeym8-_a_hc		2011-08-19	보스 지키다 보는중 tagsmile
-sbs_boss	ichbich	POST	pymez06-5w3wn		2011-08-19	보스 지키다 화 호다 차무원 플레 플레이어
-sbs_boss	jjlovley	POST	pymez19-5mbsq		2011-08-19	보스 지키다 뇌구조
+sbs_boss	ichbich	POST	pymez06-5w3wn		2011-08-19	보스 지키다 6화 차무원 플레 플레이어
+sbs_boss	jjlovley	POST	pymez19-5mbsq		2011-08-19	110819 보스 지키다 뇌구조
 sbs_boss	rilakuma	POST	pymezcm-c8ai		2011-08-19	미투 미투에 글올리네 글올리네요 미친분 미친분들의 글 때문 때문에 미투데이친구 뜻이에 뜻이에요 제 글 하나두 안보여 안보여여 tagcry 그래두 새롭다 사실 알 있다 기쁘다 나 나다 지금 지성 팬됬음 보스 지키다 tagexclamation 시청 글
 sbs_boss	sunjoo1027	POST	pymezke-_tly6		2011-08-19	보스 지키다
-sbs_boss	youka	POST	pymezks-5ymf		2011-08-19	무느님 tagcry 무느님 무느님이 왜이렇게 머싯나요tagquestion tagcry 보스 지켜라 지켜라를 이제 봐야 봐야하 봐야하나 그래봤자 거의 거 플레이어 보다 보 상황 tagsmile
+sbs_boss	youka	POST	pymezks-5ymf		2011-08-19	무느님 tagcry 무느님 무느님이 왜이렇게 머싯 머싯나 머싯나요 tagquestion tagcry 보스 지켜라 지켜라를 이제 봐야 봐야하 봐야하나 그래봤자 거의 거 플레이어 보다 보 상황 tagsmile
 sbs_boss	yejin98love	POST	pyme_e7-_s7ta		2011-08-18	여인의향기보스를지켜 잼쓰 tagsmile
-sbs_boss	actorjisung	POST	pyme_g2-5vpnf		2011-08-19	보스 지키다 너무너무너무너무너무너무너무너무 재밌어 재밌어요 tagexclamation 앞 자신 독특 연기 많다 하시길 바랄게요tagsmile
+sbs_boss	actorjisung	POST	pyme_g2-5vpnf		2011-08-19	보스 지키다 너무너무너무너무너무너무너무너무 재밌어 재밌어요 tagexclamation 앞 자신 독특 연기 많다 하시길 바랄게 바랄게요 tagsmile
 sbs_boss	actorjisung	POST	pyme_hu-_cez2		2011-08-19	보스 지켜라짱 재밌어 재밌어요 tagexclamation
-sbs_boss	we5652	POST	pyme_m6-y3adn		2011-08-19	보스를지켜 회
+sbs_boss	we5652	POST	pyme_m6-y3adn		2011-08-19	보스를지켜 6회
 sbs_boss	popler79	POST	pyme_vs-5qh5e		2011-08-19	보스를지켜 왕지혜 우아실종 엽기적 그녀 그녀의 재발견
 sbs_boss	sws6050	POST	pyme_yd-_tgmz		2011-08-18	재중오빠양 지금 보스를지켜 보구있어용 tagsmile 넘 예쁘다 귀엽다 잘생기셨어용 tagsmile
-sbs_boss	sweet-lemon	POST	pymj3cu-5sm4x		2011-08-20	월화 월화는 스파이명월 수목 넌 널다 내다 반 보스 지키다 시험기간 드라마 챙기다 ㅁ
+sbs_boss	sweet-lemon	POST	pymj3cu-5sm4x		2011-08-20	월화 월화는 스파이명월 수목 넌 널다 내다 반 보스 지키다 시험기간 드라마 챙기다 1 ㅁ
 sbs_boss	goddoggod	POST	pymjduy-_k4i8		2011-08-20	요즘 보스를지켜 주말 여인의향기 빠져있는중 막 안다 안거 키스장면 나혼자 이불 꼭잡고 꺄 미소지어지넹 tagsmile 아 부끄러 ㅁ 근데 나도 나다 나 저런 연애하고파 tagexclamation 막 간질간질 tagsmile
 sbs_boss	uyj03	POST	pymj_9w-em7j		2011-08-20	보스 지키다 왜 외다 오늘 재방송 안하는거 안하는거야 tagexclamation tagcry 보스를지켜
-sbs_boss	pinkshabet	POST	pymk00l-5895a		2011-08-17	수목드라마 보스를지켜 ost 우리 에이핑크 부른거 아시죠tagquestion 우리그냥사랑하게해주세 taglove 많다 사랑
+sbs_boss	pinkshabet	POST	pymk00l-5895a		2011-08-17	수목드라마 보스를지켜 ost 우리 에이핑크 부른거 아시죠 tagquestion 우리그냥사랑하게해주세 taglove 많다 사랑
 sbs_boss	nunurigo121	POST	pymk01m-_9tci		2011-08-19	보스를지켜 지성 김재중 훈남들때문 훈남들때문에 행복 tagexclamation
 sbs_boss	bananaking99	POST	pymk1gc-5rfj0		2011-08-19	보스 지키다
-sbs_boss	yeana30	POST	pymk1lp-500fo		2011-08-18	보스 지키다 화 호다 공주 남자 남다 화 호다 넌 널다 내다 반 화 호다 수목드라마 무료로보기
+sbs_boss	yeana30	POST	pymk1lp-500fo		2011-08-18	보스 지키다 5화 공주 남자 남다 9화 넌 널다 내다 반 14화 수목드라마 무료로보기
 sbs_boss	tkfkd6949	POST	pymk44w-e1ab		2011-08-19	보스를지켜 참 차다 귀엽다 삼각관계 swf 인스티즈 instiz
 sbs_boss	tkfkd6949	POST	pymk48h-e1ab		2011-08-19	보스를지켜 나 나다 노은설 많 좋아하다 swf 인스티즈 instiz
-sbs_boss	tbrktbrk33	POST	pymk4au-y_p4_		2011-08-18	시 시 영어숙제 시 시반 수학숙제 시반 시 닌텐도wii 시 시반 씻다 시반 시 수학숙제 시 시반 휴식 시반 시 밥 시 시 수학공부 tv 시 시반 수학공부 시반 시 tv 시 시 책 시 시반 보스 지키다 이것 오늘계휙
+sbs_boss	tbrktbrk33	POST	pymk4au-y_p4_		2011-08-18	3시 4시 영어숙제 4시 4시반 수학숙제 4시반 5시 닌텐도wii 5시 5시반 씻다 5시반 6시 수학숙제 6시 6시반 휴식 6시반 7시 밥 7시 8시 수학공부 tv 8시 8시반 수학공부 8시반 9시 tv 9시 10시 책 10시 10시반 보스 지키다 이것 오늘계휙
 sbs_boss	zxekgp	POST	pymk4hw-1ckd		2011-08-17	보스를지켜 taglove 지성귀여워 taglove
 sbs_boss	dltngustptkd	POST	pymk66g-f5zu		2011-08-19	보스 지키다 대박 친구 시키다 tagsmile
 sbs_boss	aaz251-	POST	pymk6ho-_hyax		2011-08-19	taglove 우리그냥 사랑하게해주세 둘이싸우지않게 하다 때론 의심 다투다 널 널다 사랑 아직어린 나다 지 나를믿어줄래 언제까지까지 언제까지 사랑 사랑하게해주세 영원 나약속할 에이핑크 우리그냥 사랑하게해주세 보스를지켜 ost
-sbs_boss	pms3922	POST	pymk6wh-5ypm9		2011-08-19	넌내반 넌내반도 끝 뭐보지 tagquestion보스를지켜라tagquestion볼까tagquestion흠 tagcry
+sbs_boss	pms3922	POST	pymk6wh-5ypm9		2011-08-19	넌내반 넌내반도 끝 뭐보지 tagquestion 보스를지켜 tagquestion 보다 tagquestion 흠 tagcry
 sbs_boss	nodark103	POST	pymk6_f-58bat		2011-08-19	푸 넌 널다 내다 반 끝나다 tagcry 잼 하다 주인공 노랗다 노래 잘부르 잘부르고 연기 잘 난 나다 날다 조다 tagcry 아쉽다 이제 보스 지키다 본방사수 해야짓 tagexclamation 나 나다 티비 티비도 중독됐나봥 tagcry
-sbs_boss	ono0424	POST	pymk77d-m3cy		2011-08-19	하하하하 하하하 안녕하십니까요tagquestion ㅁ tagsmile 내다 모래 개학입뉘 tagsmile 난 나다 날다 애들만 애들만나서 조아조아 taglove 헤헷 보스 지키다 재밌엉 tagsmile tagsmile 수욜 어뜩 어뜩해 기다리다 tagcry 휴 차무원 차무원이 노은설한테 남자 봐달라 봐달라니 tagcry tagsmile 빨다 보고파
+sbs_boss	ono0424	POST	pymk77d-m3cy		2011-08-19	하하하하 하하하 안녕하십니까 tagquestion ㅁ tagsmile 내다 모래 개학입뉘 tagsmile 난 나다 날다 애들만 애들만나서 조아조아 taglove 헤헷 보스 지키다 재밌엉 tagsmile tagsmile 수욜 어뜩 어뜩해 기다리다 tagcry 휴 차무원 차무원이 노은설한테 남자 봐달라 봐달라니 tagcry tagsmile 빨다 보고파
 sbs_boss	qkr7163	POST	pymk7m2-yu0o7		2011-08-17	보스 지키다 대박 잼잇음 tagexclamation
 sbs_boss	thd7289	POST	pymk80j-yvbhe		2011-08-19	어제 보스 지키다 내용 좀 조다 tagcry 아 못봤엌 tagsmile
 sbs_boss	pos9995	POST	pymk968-_erfs		2011-08-19	보스 지키다
 sbs_boss	luna0804	POST	pymk99w-yvkpw		2011-08-17	protect boss 보스 지키다 tagexclamation
-sbs_boss	sunyoung8593	POST	pymk9x7-_929h		2011-08-17	잔잔하다 좋다 tagsmile 엠스트리트 보스 지키다 ost part 소리바 소리바다
+sbs_boss	sunyoung8593	POST	pymk9x7-_929h		2011-08-17	잔잔하다 좋다 tagsmile 엠스트리트 보스 지키다 ost part 4 소리바 소리바다
 sbs_boss	sandy9833	POST	pymkarv-_kn7t		2011-08-19	근데 보스 지키다 재밌더 재밌더라 tagsmile 완전 내 내다 스타일 스타 이 정주행 할꺼 할꺼임 tagsmile 무느님 무느님이 개인적 좋다 꺅 tagsmile
 sbs_boss	par00310	POST	pymkatf-yj6co		2011-08-17	잠시들어왔지 tagexclamation 방금 보스를지켜 에서 gg 바람났엌 tagsmile 캬핳 tagsmile tagsmile
 sbs_boss	okabary2000	POST	pymka_7-ybjjp		2011-08-17	드라마 봐용 tagsmile 보스 지키다 쿠쿠쿠
@@ -594,104 +594,104 @@ sbs_boss	actorjisung	POST	pymke0z-9zm2		2011-08-20	보스 지키다 정말 재�
 sbs_boss	gpwn7955	POST	pymkf2f-y8k4z		2011-08-20	보스 지키다 여인 향기 대박
 sbs_boss	uqadv	POST	pymkf3s-kfqk		2011-08-19	보스 지켜 지켜라 재밌어
 sbs_boss	dltmdqud94	POST	pymkgna-5e9fn		2011-08-17	보스 지키다 볼생각 볼생각에 오늘 살맛 살맛이 조금 나다 날다 tagsmile 월화요일 정말 암담흐아아 뭔가 왠지모르게 절 한숨 나오다 보스를지켜 최강희 김재중 지성 노은설 본부장
-sbs_boss	ahj915	POST	pymkgqw-5dcyl		2011-08-18	요즘 보스 지키다 잼있는것 같다 tagexclamation 오늘 무슨 내용일까tagquestion tagsmile 잼
+sbs_boss	ahj915	POST	pymkgqw-5dcyl		2011-08-18	요즘 보스 지키다 잼있는것 같다 tagexclamation 오늘 무슨 내용 tagquestion tagsmile 잼
 sbs_boss	dlthwjd0302	POST	pymkhfy-_qb1s		2011-08-18	보스 지키다 차다 tagexclamation 귀여벙 tagsmile 역시 대세 로맨틱 코미디 tagsmile 지성 화이또옹 taglove
 sbs_boss	sangjun_me2	POST	pymkhvt-yitej		2011-08-18	요새 드라마 못 보고 tagcry 여인 향기 나니 나니가 잼잇데서 보기 보다 시작했는뎅 지난주 아빠 딴거보자 못 보고 보다 보 tagcry 어제 보스를지켜 봐야 봐야되는데 아빠 공준 남잔가 뭔가 틀어갓고 tagcry 짱 짱나서 계속 아빠 쳐다보다 빡쳐서 방 들어오다 tagcry 이놈 이놈의 숙제 문제 tagcry
 sbs_boss	jinsy0708	POST	pymkikt-_jt89		2011-08-19	보스 지켜라넘조아 김재중 어쩜 그렇다 멋있을수가 멋있을수가있니 내 내다 남자친구 되죠
-sbs_boss	dudtlf56	POST	pymkiqp-yvk07		2011-08-18	오늘 보스 지키다 회 방송 은설 은설의 입 조심스레 입 맞추다 지헌은설 지헌은설은 놀다 놀라다 놀 지헌 지헌은 은설 은설이 공격자세 취하다 찰나 찰 먼저 잘못 사 사과 하다 상대 동의 동 없다 행동 치한 치한이 다름없다 명심 하다 하 은설 지헌 지헌은 자신 진심 말 한편 지헌 지헌의 공황장애 고치다 위해 위하다
+sbs_boss	dudtlf56	POST	pymkiqp-yvk07		2011-08-18	오늘 보스 지키다 6회 6회가 방송 은설 은설의 입 조심스레 입 맞추다 지헌은설 지헌은설은 놀다 놀라다 놀 지헌 지헌은 은설 은설이 공격자세 취하다 찰나 찰 먼저 잘못 사 사과 하다 상대 동의 동 없다 행동 치한 치한이 다름없다 명심 하다 하 은설 지헌 지헌은 자신 진심 말 한편 지헌 지헌의 공황장애 고치다 위해 위하다
 sbs_boss	ju031102	POST	pymkj0c-y_b5e		2011-08-17	스파이명월이랑보스를지켜라를못보다니이이
 sbs_boss	ddak5555	POST	pymkjn3-_ksy9		2011-08-19	보스 지키다 무느님 차무원 뇌구조 김재중 영웅재중 사진모음
 sbs_boss	e2pro	POST	pymkjq7-r4pd		2011-08-20	지성 비서 비서를 하고있다 최강희 tagexclamation
 sbs_boss	annabellee01	POST	pymkk97-_hjul		2011-08-19	긴머리웨이브 보스를지켜 최강희머리 여자헤어스타일추천
 sbs_boss	lodeur87	POST	pymkkam-sa1w		2011-08-17	보스 지켜 지켜라 재미있긴한데 first first는 공주 남자
 sbs_boss	kohl1004	POST	pymkkrp-yoe9e		2011-08-19	보스 지키다 젬잇어 tagsmile 넌내반 넌내반은 쪼다 뭔감 마지막 오긂님 끗 끗나 끗나도 아싑지 안암
-sbs_boss	egoistyle	POST	pymkkxa-iu2p		2011-08-18	만나다 엊그제 만나다 만 것 친근 동생 완전 취하다 내 내다 침대 뻗다 자고 자다 자 있다 내일 내 출근 되다 되 녀석 재워놓고 나다 나 아직 잠들다 못하다 보스 지키다 다운 받다 봐야 봐야하 봐야하나 고민 있다 bar bar의 사장님 사장님과 알바생 알바생과 좀 조다 친하다 느낌 시간 넘다 bar bar에 버티다 앉다 밍그적거리 놀다 놀았 싶다 마음 들다 하다 하 하다 하지 매출 좀 조다 내드리다 괜찮겠지tagquestion
+sbs_boss	egoistyle	POST	pymkkxa-iu2p		2011-08-18	만나다 엊그제 만나다 만 것 친근 동생 완전 취하다 내 내다 침대 뻗다 자고 자다 자 있다 내일 내 출근 되다 되 녀석 재워놓고 나다 나 아직 잠들다 못하다 보스 지키다 다운 받다 봐야 봐야하 봐야하나 고민 있다 bar bar의 사장님 사장님과 알바생 알바생과 좀 조다 친하다 느낌 6시 넘다 bar bar에 버티다 앉다 밍그적거리 놀다 놀았 싶다 마음 들다 하다 하 하다 하지 매출 좀 조다 내드리다 괜찮다 tagquestion
 sbs_boss	hmx700	POST	pymklb6-z0r4		2011-08-19	나다 나 요즘 아 주 즐겨보다 드라마 tagexclamation 보스 지키다 tagexclamation 완죤 잼쏘 완죤완죤 보고 보다 보 반했으
-sbs_boss	her5119	POST	pymklc0-cqdr		2011-08-17	보스를지켜라봤닼 tagsmile 재밋닼 tagsmile 드라마보고나니할게없어유 tagcry 모하지tagquestion잠도안오눈데유 tagcry
-sbs_boss	mary136	POST	pymkloo-5858f		2011-08-18	보스 지키다 ost part tagsmile 네이버뮤직 보스 지키다 ost part
-sbs_boss	comp12345	POST	pymkloz-yswz6		2011-08-17	년생 강희누님 tagsmile 낫다 나 살 사다 많다 tagsmile 보스를지켜라에서열연하시는뎁 누 누가 년생이라그러겟어 tagsmile 라디오프로 최강희 최강희의 볼륨 높이다 이것도듣지 tagsmile 오래간만에드라마컴백한거가타 너무좋아 우리 사랑 하다 둘 둘이 싸우지않게 하다 때론 의심 다투다 널 널다 사랑해아직 어리다 나다 지 나르다 나 믿다 언제 까다 까지 사랑 사랑 하다 영원 나 나다 약속할게
+sbs_boss	her5119	POST	pymklc0-cqdr		2011-08-17	보스를지켜라봤닼 tagsmile 재밋닼 tagsmile 드라마보고나니할게없어유 tagcry 모하지 tagquestion 잠도안오눈데유 tagcry
+sbs_boss	mary136	POST	pymkloo-5858f		2011-08-18	보스 지키다 ost part 4 tagsmile 네이버뮤직 보스 지키다 ost part 4
+sbs_boss	comp12345	POST	pymkloz-yswz6		2011-08-17	1977년생 강희누님 tagsmile 낫다 나 12살 많다 tagsmile 보스를지켜라에서열연하시는뎁 누 누가 1977년생이라그러겟어 tagsmile 라디오프로 최강희 최강희의 볼륨 높이다 이것도듣지 tagsmile 오래간만에드라마컴백한거가타 너무좋아 우리 사랑 하다 둘 둘이 싸우지않게 하다 때론 의심 다투다 널 널다 사랑해아직 어리다 나다 지 나르다 나 믿다 언제 까다 까지 사랑 사랑 하다 영원 나 나다 약속할게
 sbs_boss	hyoung9610	POST	pymkm4a-y80_3		2011-08-19	보스 지키다 ost 재중 지켜줄게
 sbs_boss	jf277	POST	pymkmhu-ybo8j		2011-08-18	앜 tagsmile 보스 지키다 재밋닼 tagsmile 재밋닼 tagsmile 본부장 현빈성격닮은듯 tagsmile
-sbs_boss	junes26	POST	pymkmj2-yxvov		2011-08-19	보스 지키다 회 월 일 방송 보기 보다
+sbs_boss	junes26	POST	pymkmj2-yxvov		2011-08-19	보스 지키다 6회 8월18 일 방송 보기 보다
 sbs_boss	yun0430a	POST	pymkm_1-l33a		2011-08-18	난 나다 날다 넌내반 안 안보 보스 지켜라 지켜라를 보다
-sbs_boss	sprtmw	POST	pymkn0v-y_o9j		2011-08-18	보스 지키다 보다 보 앵그리버드 나이젤인가tagquestion피규어 얻다 어제 보스 아주 웃기다 tagsmile
+sbs_boss	sprtmw	POST	pymkn0v-y_o9j		2011-08-18	보스 지키다 보다 보 앵그리버드 나이젤 나이젤인가 tagquestion 피규어 얻다 어제 보스 아주 웃기다 tagsmile
 sbs_boss	eratoskin	POST	pymkn2h-ybst1		2011-08-18	한밤 한밤의 tv연예 보스 지키다 허당 재벌 역 박영규 박영규와 유쾌 만남 만나다
 sbs_boss	soulwoni	POST	pymknv6-yayhs		2011-08-17	요즘 요 유치뽕 드라마 빠지다 완전 구여운 tagsmile 난 나다 날다 저런 단순코믹 캐릭 캐릭이 넘 조다 보스를지켜 최강희 지성 최강동안 최강커플 연관검색어 이보영
 sbs_boss	mm8794	POST	pymkoqs-yg5mr		2011-08-19	보스를지켜 닥 본 보다 사 사다 tagexclamation 다른드라마 차원이다르 tagexclamation 진짜재밌음 친구소개 actorjisung
 sbs_boss	12ijs01	POST	pymkoue-5vxqw		2011-08-19	왘 tagsmile 보스 지키다 진짜 잼잇당 tagsmile
-sbs_boss	soojin2509	POST	pymkpts-_qr2y		2011-08-18	헬로우 어제보스를지켜라존나잼 xc b 음 tagsmile 꺄 영웅재중대박 taglove tagsmile 비스트보단아니지 비스트보단아니지만 tagsmile
-sbs_boss	o701	POST	pymkpzs-y80s9		2011-08-19	보스 지키다 짱잼잇음 tagsmile 에이핑크도짱 보스를지켜 흥해랏 보스 지키다 ost part
+sbs_boss	soojin2509	POST	pymkpts-_qr2y		2011-08-18	헬로우 어제보스를지켜라존나잼 xc37b 음 tagsmile 꺄 영웅재중대박 taglove tagsmile 비스트보단아니지 비스트보단아니지만 tagsmile
+sbs_boss	o701	POST	pymkpzs-y80s9		2011-08-19	보스 지키다 짱잼잇음 tagsmile 에이핑크도짱 보스를지켜 흥해랏 보스 지키다 ost part 1
 sbs_boss	alice0181	POST	pymkq5e-9xn1		2011-08-17	보스 지켜라 지켜라를 볼 보다 마음 준비 할 하다 시간 뎅뎅뎅뎅뎅 난 나다 날다 보스를지켜라의재중이옷을입힌코디를싫어하지만그래도잘생긴재중이 보스를지켜라의재중이옷을입힌코디를싫어하지만그래도잘생긴재중이를 보기위해 잠깐 갓다오껭 끈나구보자궁
 sbs_boss	jinine4636	POST	pymkqax-m5vg		2011-08-17	모두 편안한밤 보내다 저 보스 지켜라보러갑니 지켜라보러갑니다 tagsmile
-sbs_boss	dusrud57	POST	pymkqnj-lmyb		2011-08-17	아 쫌이따가 보스 지키다 닥본사 해야겄다 학원이야tagquestion
+sbs_boss	dusrud57	POST	pymkqnj-lmyb		2011-08-17	아 쫌이따가 보스 지키다 닥본사 해야겄다 학원 tagquestion
 sbs_boss	phe122	POST	pymkrcq-_ci8m		2011-08-20	여인의향기 보스를지켜 재밋당 tagsmile
 sbs_boss	yuin4878	POST	pymkrip-_sv03		2011-08-19	하 하다 일주일을기다려야보스를지켜라를볼수잇따 tagcry tagcry 지성오빠짱
-sbs_boss	actorjisung	POST	pymkrrc-y4ju9		2011-08-19	오빠 tagexclamation 보스 지키다 완전 재밌어요tagsmile 공부 안하다 엄마한테 걸다 걸리다 혼났다늨tagsmile
+sbs_boss	actorjisung	POST	pymkrrc-y4ju9		2011-08-19	오빠 tagexclamation 보스 지키다 완전 재밌어 재밌어요 tagsmile 공부 안하다 엄마한테 걸다 걸리다 혼났다늨 tagsmile
 sbs_boss	gkwlsrnjs12	POST	pymksh1-ytik8		2011-08-17	오다 보스 지켜라 지켜라한다 tagsmile ㅂㅇ 낼봐 낼봐요 tagsmile
-sbs_boss	lovelycong00	POST	pymksi1-5uo57		2011-08-17	최강희 옷 보스를지켜 회 회 최강희 노은설 패션스타일 패션스타 의상 총모음
+sbs_boss	lovelycong00	POST	pymksi1-5uo57		2011-08-17	최강희 옷 보스를지켜라3 회 4회 최강희 노은설 패션스타일 패션스타 의상 총모음
 sbs_boss	918623	POST	pymksq7-_c4am		2011-08-19	우리그냥 사랑하게해주세 둘이싸우지않게 하다 때론 의심 다투다 널 널다 사랑 아직어린 나다 지 나를믿어줄래 언제까지까지 언제까지 사랑 사랑하게해주세 영원 나약속할 보스 지켜라ost
-sbs_boss	alsgur8933	POST	pymksra-5s_02		2011-08-20	보스를지켜 tagexclamation 담주 징짜궁금허네 tagcry 재중이 재중이가 최강희한테 고백 tagsmile tagexclamation 지성 강희한테 고백 tagexclamation 담주 이야기 추측 고민에빠지 노은설tagquestion tagexclamation 아뉘 아뉘다 tagexclamation tagsmile 이야기를듣고 지성이 지성이가 있다 최강희 최강희를 어떻게해주겠죠 tagexclamation
-sbs_boss	tr2011	POST	pymkt9p-_svgr		2011-08-18	드라마 삽입 곡 거의 거 다 좋다 tagexclamation 보스 지키다 ost part
+sbs_boss	alsgur8933	POST	pymksra-5s_02		2011-08-20	보스를지켜 tagexclamation 담주 징짜궁금허네 tagcry 재중이 재중이가 최강희한테 고백 tagsmile tagexclamation 지성 강희한테 고백 tagexclamation 2담주 이야기 추측 고민에빠지 노은설 tagquestion tagexclamation 아뉘 아뉘다 tagexclamation tagsmile 이야기를듣고 지성이 지성이가 있다 최강희 최강희를 어떻게해주겠죠 tagexclamation
+sbs_boss	tr2011	POST	pymkt9p-_svgr		2011-08-18	드라마 삽입 곡 거의 거 다 좋다 tagexclamation 보스 지키다 ost part 3
 sbs_boss	kjsomams9742	POST	pymktl6-5m7fv		2011-08-20	음 개인적 역시 보스를지켜라 여인의향기가잼씀
 sbs_boss	suecis	POST	pymktto-yqj7c		2011-08-19	이제 보스 지키다 봐야쥥
-sbs_boss	dhvh0402	POST	pymku4x-5u2gr		2011-08-18	핳핳 지금 이마트에 시간진짜느려 어서어서 시야오너 taglove 보스를지켜라봐야지 taglove 이마트 이마트에 빅뱅오빠들노래나왔으면좋겠어 taglove 빅뱅화이팅 tagexclamation
-sbs_boss	seida2112	POST	pymkuh4-_pdx0		2011-08-19	보스 지키다 회 월 일
-sbs_boss	sts5139	POST	pymkv4r-csng		2011-08-17	드뎌터 xc b 슴돠 tagexclamation 보스를지켜 xd 스씐 tagexclamation 꺄아 tagexclamation 재 재다 xc tagcry 어떠 tagcry
-sbs_boss	rpduswn	POST	pymkv6k-__69g		2011-08-17	아 아이 일산 멀다 어떻다 정거장 가다 가늘다 분 분이 걸림tagquestion 오늘 보스 지키다 본방사수 못하다 tagcry ㅡ tagcry 집 가다 가늘다 가 길이 길다 길 멀다 멀구
-sbs_boss	anna6371	POST	pymkvhl-ydzie		2011-08-19	보스를지켜라짱재미있어tagsmile
+sbs_boss	dhvh0402	POST	pymku4x-5u2gr		2011-08-18	핳핳 지금 이마트에 시간진짜느려 어서어서10 시야오너 taglove 보스를지켜라봐야지 taglove 이마트 이마트에 빅뱅오빠들노래나왔으면좋겠어 taglove 빅뱅화이팅 tagexclamation
+sbs_boss	seida2112	POST	pymkuh4-_pdx0		2011-08-19	보스 지키다 6회 8월 18 18일
+sbs_boss	sts5139	POST	pymkv4r-csng		2011-08-17	드뎌터 xc84b 슴돠 tagexclamation 보스를지켜 xd088 스씐 tagexclamation 꺄아 tagexclamation 재 재다 xc981 tagcry 어떠 tagcry
+sbs_boss	rpduswn	POST	pymkv6k-__69g		2011-08-17	아 아이 일산 멀다 어떻다 6정거장 가다 가늘다 21분 21분이 걸리다 tagquestion 오늘 보스 지키다 본방사수 못하다 tagcry ㅡ tagcry 집 가다 가늘다 가 길이 길다 길 멀다 멀구
+sbs_boss	anna6371	POST	pymkvhl-ydzie		2011-08-19	보스를지켜라짱재미 tagsmile
 sbs_boss	gkwlsrnjs12	POST	pymkvxk-ytik8		2011-08-17	아 보스 지키다 재밋네 tagsmile
 sbs_boss	jihae990412	POST	pymkw7l-5hvgq		2011-08-18	이신 이신이 왜 외다 이규원 이규원보 헤어지잔건데 헤어지잔건데에 tagcry 그리다 보스를지켜 왜 외다 둘다 키스
 sbs_boss	dbalsdl17	POST	pymkwj6-yjn0q		2011-08-20	아 진짜 요즈으으음 보스 지키다 진짜 잼잇음 캬캬캬
 sbs_boss	pang-gu	POST	pymkwjf-_si2f		2011-08-17	넌 널다 내다 반 보스 지키다 둘중 둘중에 뭐볼지 고민중 tagcry
-sbs_boss	enter_6	POST	pymkxk_-57f04		2011-08-18	엔터식스 왕십리점 신규오픈 월 일 오늘 왕십리점 쉬즈미스 오픈 tagexclamation 보스 지켜라 최강희 최강희의 산뜻 오피스룩 오피스룩으 유명하죠tagquestion 특별 신규오픈기념 만원이상 구매시 우산증정하오 tagexclamation 오늘 엔터식스 행복 쇼핑 tagexclamation
+sbs_boss	enter_6	POST	pymkxk_-57f04		2011-08-18	엔터식스 왕십리점 신규오픈 8월 18 18일 오늘 왕십리점 쉬즈미스 오픈 tagexclamation 보스 지켜라 최강희 최강희의 산뜻 오피스룩 오피스룩으 유명하죠 tagquestion 특별 신규오픈기념 20만원이 구매시 우산증정하오 tagexclamation 오늘 엔터식스 행복 쇼핑 tagexclamation
 sbs_boss	actorjisung	POST	pymkxlx-5xiyf		2011-08-19	보스 지키다 재미 빨다 다음편 보고싶어용
 sbs_boss	dkfudk	POST	pymky4t-892j		2011-08-19	보스 지키다 재밌어 어제 울 울다 동생 보스를지켜라보자 해서 하다 울동생 넌내게 반 못밨당 tagexclamation
 sbs_boss	sexymania83	POST	pymky66-5zsv4		2011-08-18	보스를지켜 지성 최강희 기습키스 러브모드 폭발 헉 공항장애 뭥미 tagcry 공항 가면 가다 나타나다 장애증상인감 tagsmile tv리포트
 sbs_boss	tbrktbrk33	POST	pymkzl7-y_p4_		2011-08-18	보스 지키다
 sbs_boss	duddnsl98	POST	pymkztp-_3lkx		2011-08-17	보스를지켜 보는사람 미투 꾸욱 눌러주세 눌러주세요 tagexclamation tagsmile
-sbs_boss	lodeur87	POST	pymk_2r-sa1w		2011-08-17	보스를지켜 대박 어떻다 생각 했지tagquestion
+sbs_boss	lodeur87	POST	pymk_2r-sa1w		2011-08-17	보스를지켜 대박 어떻다 생각 하다 tagquestion
 sbs_boss	art831	POST	pymy0go-5rwdj		2011-08-18	요즘내 열혈시청중 보스를지켜 tagexclamation 지성 taglove 완죤 좋다 ㅁ
 sbs_boss	art831	POST	pymy0t1-5rwdj		2011-08-18	보스를지켜 뇌구조
 sbs_boss	hiwon0632	POST	pymy1em-yig3c		2011-08-17	보스 지키다 넘 재밋어 재밋어요 tagexclamation
-sbs_boss	thestar_kr	POST	pymy1n7-_f39l		2011-08-16	일 오늘 임피리얼팰리스 호텔서 열리다 icaap 홍보대사 위촉식 그룹 jyj jyj가 참석 이 김재중 김재중은 드라마 보스 지키다 촬영 스케줄 불가피 불참
-sbs_boss	fnfnzktja	POST	pymy1sj-50a3h		2011-08-17	보스 지키다 지성 최강희 달달 달달한 키스 나눠꺄 아 tagexclamation 키스신 tagexclamation 커플탄생tagquestion tagexclamation 오늘 tagexclamation 봐야 봐야되는데 tagexclamation 엄마땜 엄마땜에 못봐 tagcry 내 내다 보다 보리 tagexclamation 아시아투데 아시아투데이
+sbs_boss	thestar_kr	POST	pymy1n7-_f39l		2011-08-16	16 16일 오늘 임피리얼팰리스 호텔서 열리다 icaap10 홍보대사 위촉식 그룹 jyj jyj가 참석 이 김재중 김재중은 드라마 보스 지키다 촬영 스케줄 불가피 불참
+sbs_boss	fnfnzktja	POST	pymy1sj-50a3h		2011-08-17	보스 지키다 지성 최강희 달달 달달한 키스 나눠꺄 아 tagexclamation 키스신 tagexclamation 커플탄생 tagquestion tagexclamation 오늘 tagexclamation 봐야 봐야되는데 tagexclamation 엄마땜 엄마땜에 못봐 tagcry 내 내다 보다 보리 tagexclamation 아시아투데 아시아투데이
 sbs_boss	gahyun1107	POST	pymy32m-883r		2011-08-17	나 나다 내다 휴가가 휴가가여 tagsmile 오늘 보스를지켜 닥본사 tagexclamation tagsmile 아이 아 잼써 tagsmile
 sbs_boss	hi--	POST	pymy3v4-eg_c		2011-08-16	내일 보스를지켜 하는 하는날 taglove
-sbs_boss	wing4u	POST	pymy3w7-16s0		2011-08-15	여인의향기 보스를지켜 불굴의며느리 보다 보 요즘 대세 본부장님 인가봐 인가봐요 예전 실땅님 이었는데요 근데 어느쪽 어느쪽이 높다 직급이죠tagquestion 두다 다 재벌 세인건 알다 tagsmile
+sbs_boss	wing4u	POST	pymy3w7-16s0		2011-08-15	여인의향기 보스를지켜 불굴의며느리 보다 보 요즘 대세 본부장님 인가봐 인가봐요 예전 실땅님 이었는데요 근데 어느쪽 어느쪽이 높다 직급이죠 tagquestion 두다 다 재벌 2 3세인건 알다 tagsmile
 sbs_boss	evan1123	POST	pymy5k9-5ibez		2011-08-18	지성님 tagexclamation 보스 지키다 재밌어 재밌어요 tagexclamation 역시 명품연기네여 tagexclamation 정말 재밌어 재밌어요 tagexclamation
 sbs_boss	gkxm1356	POST	pymy5m5-y3hmj		2011-08-17	오늘 내사 보스 지키다 보실 미투 클릭 tagexclamation
 sbs_boss	frompic	POST	pymy5pf-_d1bz		2011-08-17	왕지혜머리 왕지혜단발머리 단발머리 여자숏컷 스타일 스타 오늘 새 시작 드라마 보스를지켜라에서재벌가 딸 따다 서나윤 역 나오다 예정 왕지혜 왕지혜
-sbs_boss	abccc13	POST	pymy5zk-rz_i		2011-08-17	오늘 보스를지켜 보다 보 날 나다 taglove 시야 시 어서오너
+sbs_boss	abccc13	POST	pymy5zk-rz_i		2011-08-17	오늘 보스를지켜 보다 보 날 나다 taglove 10시 10시야 어서오너
 sbs_boss	thd7289	POST	pymy6wc-yvbhe		2011-08-17	오늘 보스를지켜 봐야 봐야됨 tagexclamation 왜냐 왜냐하면 술취 일어나다 부끄러워하는게 나오다 ㅁ 악마캉 악마캉인가 tagsmile
 sbs_boss	gilsun103	POST	pymy89q-5ozs3		2011-08-18	드라마 성균관 미스리플리 보스를지켜 힁 tagcry
 sbs_boss	nka97	POST	pymy97n-_97rg		2011-08-17	꺆 tagexclamation 오늘 드라마 보스 지켜라 지켜라한다 tagexclamation
-sbs_boss	aopp369	POST	pymyagf-9341		2011-08-18	하 하다 tagexclamation 보스를지켜 진 지다 짜다 웃기다 tagexclamation 뭐tagquestion tagexclamation 왕지혜따위 왕지혜따위가 우리 재중이 재중이를 차tagquestion 어떻 어떻해 그런일 있다 있다 tagexclamation 어이없다
+sbs_boss	aopp369	POST	pymyagf-9341		2011-08-18	하 하다 tagexclamation 보스를지켜 진 지다 짜다 웃기다 tagexclamation 뭐 tagquestion tagexclamation 왕지혜따위 왕지혜따위가 우리 재중이 재중이를 차 차다 tagquestion 어떻 어떻해 그런일 있다 있다 tagexclamation 어이없다
 sbs_boss	akdmaeofh	POST	pymyajc-qi9i		2011-08-17	아아아 tagcry 보스를지켜 김재중 키스신 아아아아아아아 tagcry 드라마 드라마 아 드라마
-sbs_boss	jjas1726	POST	pymyanq-_c5ph		2011-08-17	앗 오늘 보스 지키다 하는날 하는날인데 못바뜸 tagcry tagcry 휴우잉 아 푹잘수있는건 오늘 밖 없다 얘들 얘들아 tagsmile 잠 자다 잘 자다 자둬 taglove 나도 나다 나 이제 씻다 자야겠다 뿅 tagexclamation
+sbs_boss	jjas1726	POST	pymyanq-_c5ph		2011-08-17	앗 오늘 보스 지키다 하는날 하는날인데 못바뜸 tagcry 3 tagcry 휴우잉 아 푹잘수있는건 오늘 밖 없다 얘들 얘들아 tagsmile 잠 자다 잘 자다 자둬 taglove 나도 나다 나 이제 씻다 자야겠다 뿅 tagexclamation
 sbs_boss	smileparty	POST	pymyar9-ra68		2011-08-17	내일 내 tagexclamation 보스를지켜라 봐야겠군 tagexclamation tagsmile 기대 tagexclamation
 sbs_boss	ekzmvl	POST	pymyazl-_fkfh		2011-08-17	시발 tagcry 보스를지켜 넌 널다 나한태 똥을줬어 tagcry 천우배 안본게 제일 제 다행 하 하다 ㅡ tagcry
 sbs_boss	hmx700	POST	pymyb45-z0r4		2011-08-17	쪼다 있다 보스 지키다 보다 완전 재밌어 tagexclamation
-sbs_boss	lovezero99	POST	pymyc0a-5nl78		2011-08-18	원래두 좋아하다 보스 지키다 를 보다 좋아하다 되다 재중오라버니 tagexclamation taglove 가 가다 부르다 보스 지켜라ost tagexclamation 지켜줄게 tagexclamation 현재 번째 듣구 잇써 잇써요 tagexclamation 밤 잘때두 듣구 자구 tagexclamation 공부하다가두 숙제하다가두 언제 언제나 노래 tagexclamation 여기서 번다 번 재중오빠 생일 생 월 일 의미하기두 하다 해 tagexclamation taglove
+sbs_boss	lovezero99	POST	pymyc0a-5nl78		2011-08-18	원래두 좋아하다 보스 지키다 를 보다 좋아하다 되다 재중오라버니 tagexclamation taglove 가 가다 부르다 보스 지켜라ost tagexclamation 지켜줄게 tagexclamation 현재 126번째 듣구 잇써 잇써요 tagexclamation 밤 잘때두 듣구 자구 tagexclamation 공부하다가두 숙제하다가두 언제 언제나 노래 tagexclamation 여기서 126번 126번은 재중오빠 생일 생 1월 26일 26일을 의미하기두 하다 해 tagexclamation taglove
 sbs_boss	kjejkjej	POST	pymyc6_-ycbf8		2011-08-17	전 절다 보스 지켜라 지켜라를 시청해야겠네 tagsmile 미투 미투는 계속할거니까 미치다 tagexclamation 나 놀자구 tagsmile
-sbs_boss	haerang_lee	POST	pymyczd-04an		2011-08-17	아 방금 티비 들려오다 오늘 세럴데이나잇 보스를지켜라 나온겅밐tagquestion tagsmile
+sbs_boss	haerang_lee	POST	pymyczd-04an		2011-08-17	아 방금 티비 들려오다 오늘 세럴데이나잇 보스를지켜라 나온겅밐 tagquestion tagsmile
 sbs_boss	lee690625	POST	pymyd26-y1awc		2011-08-17	넌내반도잼있고보스를지켜라도잼
-sbs_boss	rkfaorl777	POST	pymydwd-b_js		2011-08-17	칭규 taglove 오늘 넌내반 보는거 잊지마세 잊지마세요 tagcry 보스를지켜라or공남도재밌지 tagcry 넌내반작가테러준비 tagsmile
-sbs_boss	hayan4627	POST	pymyel3-r9ab		2011-08-16	내일 tagexclamation 빠밤빠밤 일주일 사다 사 이유 바 이것tagquestion 보스 지키다 하다 하 날 일주일동안 너무너무 힘들다 기다리다 taglove 차무원 본부장님
-sbs_boss	good_bb	POST	pymyfda-_hfc9		2011-08-16	보스 지키다 봐tagquestion 이거 재밌어 tagsmile ㄱ우ㅅ겨 tagsmile 뭘까 드라마 tagsmile
+sbs_boss	rkfaorl777	POST	pymydwd-b_js		2011-08-17	칭규 taglove 오늘 넌내반 보는거 잊지마세 잊지마세요 tagcry 보스를지켜라or 공남도재밌지 공남도재밌지만 tagcry 넌내반작가테러준비 tagsmile
+sbs_boss	hayan4627	POST	pymyel3-r9ab		2011-08-16	내일 tagexclamation 빠밤빠밤 일주일 사다 사 이유 바 이것 tagquestion 보스 지키다 하다 하 날 일주일동안 너무너무 힘들다 기다리다 taglove 차무원 본부장님
+sbs_boss	good_bb	POST	pymyfda-_hfc9		2011-08-16	보스 지키다 보다 tagquestion 이거 재밌어 tagsmile ㄱ 우 ㅅ 겨 기다 tagsmile 뭘까 드라마 tagsmile
 sbs_boss	ekzmvl	POST	pymyg9y-_fkfh		2011-08-17	지금 열시 열시에 집 도착 보스를지켜 본당 tagsmile 지금 브금 지켜줄게mr piano ver 이
-sbs_boss	k54rose	POST	pymygop-ymoy_		2011-08-17	드라마 보다 넘 재밌네 재밌네요 지성 왜케 웃겨요tagsmile 보스를지켜 보는중
-sbs_boss	dfsh53	POST	pymygrv-_02wl		2011-08-17	재중 지켜줄게 네이버앱 음악검색 보스 지키다 ost part
+sbs_boss	k54rose	POST	pymygop-ymoy_		2011-08-17	드라마 보다 넘 재밌네 재밌네요 지성 왜케 웃기다 tagsmile 보스를지켜 보는중
+sbs_boss	dfsh53	POST	pymygrv-_02wl		2011-08-17	재중 지켜줄게 네이버앱 음악검색 보스 지키다 ost part 3
 sbs_boss	gwj01061	POST	pymyh7j-_sffu		2011-08-18	월화 월화는 스파이명월 수목 보스를지켜 토일 토일은 여인의향기 바쁘다바뻐
 sbs_boss	ryuri0705	POST	pymyh89-z9id		2011-08-18	오류 tagcry 꿋꿋히 올림 올리다 tagsmile 지성님 지성님과 커플티 taglove tagsmile 근데 하필 표정 저래 조치아 조치아나 tagcry tagsmile 열시 열시에 티비를끄지 않다 보스를지켜 보곱파 tagsmile
 sbs_boss	akdmaeofh	POST	pymyhz_-qi9i		2011-08-17	보스 지키다 완전 잼써 차무원 진리 tagsmile
 sbs_boss	laura9709	POST	pymyiai-ypvlg		2011-08-17	씨뎅 tagcry tagcry 학원때메보스를지켜라첨부터못봄 tagcry
 sbs_boss	kate0147	POST	pymyifd-5s0i3		2011-08-17	아홍홍홍홍홍 오늘 진짜 대박 tagexclamation tagsmile 드라마 시작 전 물 마시다 보스 지켜라 지켜라를 보고 보다 보 샤워 아니다 샤워 먼저 하다 생각 있다 울 울다 빅뱅 빅뱅이 찍다 써니텐 스파클링 에이드 광고 나오는거 처음 끝 다 보다 말이징 tagexclamation 캬아아아 조오타 tagexclamation 결국 보고 보다 보 씻다 결정 tagsmile
 sbs_boss	asdfgahj	POST	pymyj2d-_glom		2011-08-18	보스 지키다 최강희 최강희의 비서룩 따라잡다
-sbs_boss	juyoung0508	POST	pymyj44-yoo1i		2011-08-18	오랜만에하는미투데 tagsmile 한참안하고있다가또꽂혔네요 tagsmile 요즘넘잼있는보스를지켜라기다리고이츰니 시간만기다리면 tagcry
-sbs_boss	qus129	POST	pymyke0-_tw7d		2011-08-17	아 tagsmile 보스 지키다 넘 잼 말양 tagsmile 언능 동방신기 합체햇음 조겟당 tagcry 넘 슬퍼잉 o o 흐규 흐규 보스 지키다 ost part
+sbs_boss	juyoung0508	POST	pymyj44-yoo1i		2011-08-18	오랜만에하는미투데 tagsmile 한참안하고있다가또꽂혔네요 tagsmile 요즘넘잼있는보스를지켜라기다리고이츰니 3시간만기다리면 tagcry
+sbs_boss	qus129	POST	pymyke0-_tw7d		2011-08-17	아 tagsmile 보스 지키다 넘 잼 말양 tagsmile 언능 동방신기 합체햇음 조겟당 tagcry 넘 슬퍼잉 o o 흐규 흐규 보스 지키다 ost part 3
 sbs_boss	qus129	POST	pymykm7-_tw7d		2011-08-17	tagsmile 오늘 tagsmile 보스 지키다 한당 tagsmile 우 앙 기대기대 tagsmile
 sbs_boss	wusl0429	POST	pymylkv-5qxws		2011-08-18	보스를지켜 한마디 닥치고본방사수지성지성앓 taglove
-sbs_boss	ia07119	POST	pymymld-alrq		2011-08-18	우리그냥사랑하게해주세 내 내다 이야긴 아니다 요즘 보스 지키다 넘 잘 자다 보고 보다 보 있다 이노래 이노래도 정말 좋다 tagexclamation 에이핑크 요즘 뜨다 있는듯tagquestion 박초롱 박초롱도 그렇다 보스 지키다 ost part
+sbs_boss	ia07119	POST	pymymld-alrq		2011-08-18	우리그냥사랑하게해주세 내 내다 이야긴 아니다 요즘 보스 지키다 넘 잘 자다 보고 보다 보 있다 이노래 이노래도 정말 좋다 tagexclamation 에이핑크 요즘 뜨다 있는듯 tagquestion 박초롱 박초롱도 그렇다 보스 지키다 ost part 1
 sbs_boss	dorm0	POST	pymymlf-_o_r6		2011-08-17	보스를지켜 보는중 tagsmile 앜 tagsmile
 sbs_boss	ssj0991	POST	pymyn0i-_g1o4		2011-08-18	요즘 보스 지키다 에서 김재중 연기 진짜 잘 생각 tagsmile
 sbs_boss	yoonmihy	POST	pymyn27-ykpci		2011-08-18	보스 지키다 오늘 본방사수 미션클리어 tagexclamation taglove
@@ -703,155 +703,155 @@ sbs_boss	s0s0s0	POST	pymynni-ydyr		2011-08-18	아 보스 어느집 강아지 이
 sbs_boss	multy_ctrl18	POST	pymyo3z-_0fko		2011-08-18	오늘 보스를지켜 가 가다 하는구낭 흐흐흐
 sbs_boss	eun9128	POST	pymyo46-lr6b		2011-08-16	최강희패션 최강희블라우스 최강희비서룩 보스를지켜라최강희블라우스 최강희도트블라우스 최강희옷 노은설블라우스
 sbs_boss	kminhee97	POST	pymyo4k-532w		2011-08-17	나다 나 보스 지켜라 지켜라를 보고 보다 보 싶다 tagexclamation 아빠 공주 남자 보시려 하시고 하시 tagexclamation 아아아아아아아아악 tagexclamation
-sbs_boss	kb0664	POST	pymyo71-rfqj		2011-08-17	어 tagcry 울동생보스를지켜라보기전에내가넌내반을사수 울동생보스를지켜라보기전에내가넌내반을사수하러 울동생방에서tv왜잘안보는거얌 tagcry
+sbs_boss	kb0664	POST	pymyo71-rfqj		2011-08-17	어 tagcry 울동생보스를지켜라보기전에내가넌내반을사수 울동생보스를지켜라보기전에내가넌내반을사수하러 울동생방에서tv 왜잘안보는거얌 tagcry
 sbs_boss	haejin9409	POST	pymyoff-5bhvy		2011-08-18	오늘 보스 지키다 하는 하는날 tagexclamation tagsmile 웃긴거같애 tagsmile
 sbs_boss	eachto	POST	pymyoiw-j4xv		2011-08-18	아 tagcry 보스 지켜라못본다 tagcry tagcry
-sbs_boss	dlaqhfk7028	POST	pymyook-5v3ej		2011-08-18	넌내게반했어보스를지켜라공주의남자 중 뭐봐요tagquestion 난 나다 날다 다보는데 tagsmile 근데 재미있는걸 고르다 골 tagsmile
-sbs_boss	actorjisung	POST	pymyorh-_5awe		2011-08-18	올 태양을삼켜 김수 김수로 로얄패밀리 보스를지켜 런닝맨 힐링캠프 오래된잡지책 오래된인터넷기사 당신이라는사람은얼마나한결같은지요ㅡ오래된종이냄새가날것 당신이라는사람은얼마나한결같은지요ㅡ오래된종이냄새가날것같네 당신이라는사람은얼마나한결같은지요ㅡ오래된종이냄새가날것같네요 늘다 그렇게변함없이우리곁에계셔주시길 감사 당신
+sbs_boss	dlaqhfk7028	POST	pymyook-5v3ej		2011-08-18	넌내게반했어보스를지켜라공주의남자 중 뭐봐 뭐봐요 tagquestion 난 나다 날다 다보는데 tagsmile 근데 재미있는걸 고르다 골 tagsmile
+sbs_boss	actorjisung	POST	pymyorh-_5awe		2011-08-18	올 태양을삼켜 김수 김수로 로얄패밀리 보스를지켜 런닝맨 힐링캠프 오래된잡지책 오래된인터넷기사 당신이라는사람은얼마나한결 ㅡ 오래된종이냄새가날것 늘다 그렇게변함없이우리곁에계셔주시길 감사 당신
 sbs_boss	smileparty	POST	pymyosg-ra68		2011-08-17	오다 쫌 보스 지키다 하다 taglove
 sbs_boss	samuel1216	POST	pymypbn-e1do		2011-08-18	오마이갓오늘보스를지켜라하면또일주일기다려야되오미친마치회전목마타고부산가는기분이랄까 노전설짱
 sbs_boss	pha222	POST	pymypch-54tww		2011-08-17	아 오늘 보 지 하다 하는구 tagexclamation 몰랐네 tagsmile 보 지 보스 지키다
 sbs_boss	sally_so	POST	pymypgw-jgjo		2011-08-18	오늘 보스 지키다 하다 하 날 나다 tagexclamation 지성 taglove 최강희 잘 자다 됬으면 좋다 tagexclamation 보스 지키다 지성 최강희 재중 수목드라마
-sbs_boss	smilejojo621	POST	pymyq0r-_sav3		2011-08-17	kim jae joong 보스 지키다 ost part
+sbs_boss	smilejojo621	POST	pymyq0r-_sav3		2011-08-17	kim jae joong 보스 지키다 ost part 3
 sbs_boss	bogang1307	POST	pymyqaf-5h0n2		2011-08-17	끄악 tagexclamation 지성 최강희 키스신 tagsmile 왕지혜 왕지혜하 준수돜 tagsmile 보스 지키다 재밌엏 tagsmile
 sbs_boss	das03068	POST	pymyqhe-otza		2011-08-18	좀있으면보스를지켜라한닺재밌겠따
 sbs_boss	candy-oh	POST	pymyql2-_j0zo		2011-08-18	보스 지키다
-sbs_boss	altjd2577	POST	pymyqpc-2ytr		2011-08-18	운동을 운동을하 이제곧 시 보스 지키다 한당
-sbs_boss	dreamgy04	POST	pymyrk6-_ywr5		2011-08-18	보스 지키다 회 다시보기 키스신 월 일
+sbs_boss	altjd2577	POST	pymyqpc-2ytr		2011-08-18	운동을 운동을하 이제곧 10시 10시에 보스 지키다 한당
+sbs_boss	dreamgy04	POST	pymyrk6-_ywr5		2011-08-18	보스 지키다 5회 다시보기 키스신 8월17 일
 sbs_boss	qkrwldnjs852	POST	pymys0n-yqey_		2011-08-17	보스를지켜 taglove 완전진심 지성 귀엽다 tagsmile 무느님 무느님이 어떻다 tagcry tagcry tagsmile 여튼완전재밌음 tagsmile
 sbs_boss	hello3245	POST	pymys0p-ubh1		2011-08-18	그럼 나님 나님은 시티헌터 시티헌터의 후속작 보스 지켜라 지켜라를 보다 가겠슴돠 긔엽긔 긔엽긔는 해도 하다 해 긔엽긔
 sbs_boss	xiangren	POST	pymys5w-y9sh1		2011-08-18	보스 지키다 완전 재미 대박
 sbs_boss	eachto	POST	pymys7a-j4xv		2011-08-18	보스 지키다 어떻게되는지쫌 제발 알리다 tagsmile
-sbs_boss	baekzen	POST	pymysbw-_eys4		2011-08-16	어제 보스를지켜라보 최강희 최강희가 먹고 있다 빵 맛나보 맛나보여서 오늘 어쩌다 고고 고다 tagexclamation 허니바케뜨볼tagquestion 암튼 빵이름 참 차다 귀엽다 tagexclamation 지난날 후회 좌절 동경 삶 대한 대하다 부럽다 부러움 박탈감등 앞 인생 아무 상관 없다 뜸금 타이밍 깨닫다 진짜 일 어떻다 되었든간에 책임감 정말 없다 없구 한회출연료 사회초년생 연봉 비슷 비슷하게 받다 참 차다 t t 난 나다 날다 회사다닐때 진짜 도망가고싶다 백번 백번을 생각 결국 처리해야 사람 나 없다 생각 정말 울며일 쏭 가버리는구 가버리는구나 헐
+sbs_boss	baekzen	POST	pymysbw-_eys4		2011-08-16	어제 보스를지켜라보 최강희 최강희가 먹고 있다 빵 맛나보 맛나보여서 오늘 어쩌다 고고 고다 tagexclamation 허니바케뜨볼 tagquestion 암튼 빵이름 참 차다 귀엽다 tagexclamation 지난날 후회 좌절 동경 삶 대한 대하다 부럽다 부러움 박탈감등 앞 인생 아무 상관 없다 뜸금 타이밍 깨닫다 진짜 일 어떻다 되었든간에 책임감 정말 없다 없구 한회출연료 사회초년생 연봉 비슷 비슷하게 받다 참 차다 t t 난 나다 날다 회사다닐때 진짜 도망가고싶다 백번 백번을 생각 결국 처리해야 사람 나 없다 생각 정말 울며일 쏭 가버리는구 가버리는구나 헐
 sbs_boss	jungds97	POST	pymysc0-oe7l		2011-08-18	쉼쉼 쉼쉼해 보스를지켜라봐야지 tagsmile
-sbs_boss	yei0414	POST	pymysc_-5p_xx		2011-08-18	에휴 시간동안 과학보고서쓰느라죽는줄 알다 보스를지켜라나봐야짓 taglove
-sbs_boss	hongah88	POST	pymysdq-_jaj3		2011-08-18	보스 지키다 한다아아아ㅏ tagsmile
+sbs_boss	yei0414	POST	pymysc_-5p_xx		2011-08-18	에휴 2시간동안 과학보고서쓰느라죽는줄 알다 보스를지켜라나봐야짓 taglove
+sbs_boss	hongah88	POST	pymysdq-_jaj3		2011-08-18	보스 지키다 한다아아아 ㅏ tagsmile
 sbs_boss	beiky77	POST	pymysjk-yq18n		2011-08-18	보스 지키다 보구 오껨 문쟈 문쟈해
 sbs_boss	ej960614	POST	pymysqu-yyz0n		2011-08-18	아 보스 tagsmile 지성 최강희 최강희랑 있다 진짜 초딩 대화 보고 보다 보 있다 같앜 tagsmile 귀욤돋넹 tagsmile
-sbs_boss	46090731	POST	pymytol-5jkxe		2011-08-17	최강희 최강희도 최강희지 지성캐릭터 넘 맘에든다tagsmile 보스를지켜 넘잼있옹 tagsmile
-sbs_boss	hhhgusdk11	POST	pymyuge-51o_9		2011-08-18	공주의남자vs보스를지켜라bvs넌내게반
-sbs_boss	mynewcloset	POST	pymyuxz-xl3k		2011-08-18	보스를지켜 최강희 월 일 보스 지키다 회 캡쳐 최강희 최강희머리 최강희패션 최강희스타일 최강희코디 최강희옷 오피스룩 마이뉴클로젯
+sbs_boss	46090731	POST	pymytol-5jkxe		2011-08-17	최강희 최강희도 최강희지 지성캐릭터 넘 맘에든다 tagsmile 보스를지켜 넘잼있옹 tagsmile
+sbs_boss	hhhgusdk11	POST	pymyuge-51o_9		2011-08-18	공주의남자vs 보스를지켜라bvs 넌내게반
+sbs_boss	mynewcloset	POST	pymyuxz-xl3k		2011-08-18	보스를지켜 최강희 8월 17 17일 보스 지키다 5회 캡쳐 최강희 최강희머리 최강희패션 최강희스타일 최강희코디 최강희옷 오피스룩 마이뉴클로젯
 sbs_boss	coollife2000	POST	pymyuzr-_p6h5		2011-08-17	지성 빠지다 되다 ㅇ 지성 수목드라마 보스 지키다 최강희 최강희와 함 연기 펼치다 오늘 노은설 고백 하다 하 차지헌 tagsmile 내 나 나이 훨씬 적다 적지 지성 낫다 나 귀엽다 tagsmile ㄷ 울 울다 엄마 동갑 지성 tagcry 하다 하지 나이 속이다 tagsmile
 sbs_boss	prettysandk	POST	pymyv5z-_sk0n		2011-08-18	보스를지켜 tagexclamation 아미쵸 tagcry 로맨틱 코매디를원 tagcry 래 좋아하던나였기에너무너무 재밌음 tagcry 아 한시 눈 땔수가없넹 tagexclamation
 sbs_boss	0121jsy	POST	pymyv8o-0dvp		2011-08-18	보스를지켜라오늘처음봤는데앞으로무조건챙겨봐야겠엉 tagsmile 영웅재중은완전멋 tagcry 옆모습조각이고완전 tagsmile 지성은완전귀요미 taglove 객관적으로주관적
 sbs_boss	kimny1011	POST	pymyvao-yhzva		2011-08-18	무느님 무느님해 남자 다갸지말란말 다갸지말란말이 최강희누님께 지성님 지성님이 있다
 sbs_boss	521wjd	POST	pymyvba-pxai		2011-08-18	보스를지켜 대박 tagexclamation 지성완죤귀요미 김재중은진짜잘생겼다 tagsmile
 sbs_boss	mrki	POST	pymyvdm-nva2		2011-08-18	하 하다 tagcry 보스를지켜라보니까내가다떨린다 tagcry taglove 오랜만에소녀같은설레임느꼈네진짜 tagsmile 짜응 tagcry taglove 소녀처럼설레였다고해야 괜히차지헌따라
-sbs_boss	honey031226	POST	pymyvla-_ttjk		2011-08-18	아 아이 tagexclamation taglove 재중 tagcry tagcry 난너의그 뽀뽀신tagquestion tagsmile 동방아이들 차마키스라고 tagsmile 의뽀뽀신 tagsmile 해탈의경지에이르럿지 볼때마다어색 tagsmile 무튼 tagexclamation 너무멋졋다 taglove 턱선 tagcry 지성이랑최강희도긔여웟듬 tagsmile 왕지혜진짜예쁨 tagsmile 완전선남선녀 tagexclamation 보스를지켜 흥하다 tagexclamation taglove
+sbs_boss	honey031226	POST	pymyvla-_ttjk		2011-08-18	아 아이 tagexclamation taglove 재중 tagcry tagcry 난너의그 뽀뽀신 tagquestion tagsmile 동방아이들 차마키스라고 tagsmile 의뽀뽀신 tagsmile 해탈의경지에이르럿지 볼때마다어색 tagsmile 무튼 tagexclamation 너무멋졋다 taglove 턱선 tagcry 지성이랑최강희도긔여웟듬 tagsmile 왕지혜진짜예쁨 tagsmile 완전선남선녀 tagexclamation 보스를지켜 흥하다 tagexclamation taglove
 sbs_boss	jwmina	POST	pymyvml-y5z0s		2011-08-18	tagcry ㅗ tagcry 보스 지켜라 지켜라에 정용화나왓으면 바보 상상이지만 tagsmile
-sbs_boss	wlsdl4721	POST	pymyvn6-5xe30		2011-08-18	보스 지키다 드라마 아오 한류스타 영웅재중 님 그딴 듣보잡년 키스신 키스신하는걸 보다 보 기분 뭐 설정 찌질 찌질한 조연tagquestion불여시 하다 하기 존 존나 좆도안 좆도안되 좆도안되는 앤데 그런앨 좋아하다 설정 흠좀무
+sbs_boss	wlsdl4721	POST	pymyvn6-5xe30		2011-08-18	보스 지키다 드라마 아오 한류스타 영웅재중 님 그딴 듣보잡년 키스신 키스신하는걸 보다 보 기분 뭐 설정 찌질 찌질한 조연 tagquestion 불여시 불여시라 하다 하기 존 존나 좆도안 좆도안되 좆도안되는 앤데 그런앨 좋아하다 설정 흠좀무
 sbs_boss	hawy60	POST	pymyvrb-_sl8z		2011-08-18	tagsmile 진짜 보스 지키다 재밋다 tagsmile tagcry 방금 끗낫어 tagcry
 sbs_boss	micky0310	POST	pymyv_t-isa1		2011-08-18	넌 널다 내다 반했어가 끝나다 tagcry 음악드라마 좋다 보다 아쉽다 tagcry 미남이시네요 좋아하다 박신혜 박신혜와 외톨이야 데뷔 눈길 끌다 정용화 잘어울리 잘어울리는 커플이 우리학교 선배있으면좋겠다 tagcry 넌내반끝 보스를지켜라 보다 tagsmile
 sbs_boss	qltmxmfjqm	POST	pymywfr-5pzwu		2011-08-18	우리 준형 와우 요즘 점점 계백 보스 지켜라 지켜라가 넘 잼있당
 sbs_boss	dudtlf56	POST	pymywqa-yvk07		2011-08-16	보스 지켜라보는사람 미투 박다 이거 코미디 저녁 실컷 웃다 자다 자자 그니까 보다 말
-sbs_boss	dudtlf56	POST	pymywru-yvk07		2011-08-16	야야 야야야 보스를지켜라 보란말 보란말이 알다 알았 tagexclamation 넘기다 말야 알다 알겠 tagexclamation 알겠슴돠
+sbs_boss	dudtlf56	POST	pymywru-yvk07		2011-08-16	야야 야야야 보스를지켜라 보란말 보란말이 알다 알았 tagexclamation 20 넘기다 말야 알다 알겠 tagexclamation 알겠슴돠
 sbs_boss	girok273	POST	pymyx0a-z_ra		2011-08-18	아까 보스 지키다 보다 마지막 재중 차무원본부장 가 가다 최강희 노은설 한말 한말에 눈물날뻔 내다 남자 있다 좋다 생각 흑흑 나도 나다 나 날 나다 좋아하다 남자 있다 좋다
 sbs_boss	jisu95942002	POST	pymyx1e-cn_j		2011-08-18	보스 지성 최강희 김재중 왕지혜 더블키스 엔딩 후끈
 sbs_boss	enzyddl12	POST	pymyxi1-51ljc		2011-08-18	꺅 tagexclamation 보스를지켜라 지성 최강희 키뜨신 개쩖 tagsmile 영웅재중 해찤 tagsmile tagsmile 과학탐구보고서 끝낸것 끝낸것보 좋은건 없는듯 tagsmile 영웅재중 키뜨신 수연 염진 염진이 염진이는 기절했을꺼얔 tagsmile
 sbs_boss	alswnsms31	POST	pymyy8p-4hnh		2011-08-18	보스 지키다 짱 재밋넼 tagsmile
 sbs_boss	kate0147	POST	pymyzbz-5s0i3		2011-08-17	앜 tagsmile 리안니 요 기집애 레알 열 tagsmile 보스 지키다 본방사수 하다 하 마지막 장면 김재중 키스신 문자 보 욕 퍼부으 퍼부으며 바 전화 하다 tagsmile 오늘 절 절대 잠 못 잔다 잔다나 뭐래 뭐래나 tagsmile 아 오늘밤 왤케 씐 tagsmile 분노 나 행복 이뇬 이뇬아 tagsmile 아 쨋든 요 드라마 왤케 재밌는겨 tagexclamation 내일 내 밤 어케 기다리라구우우우 tagexclamation 초딩 초딩같 초딩같은 차지헌 은근 긔요미 긔요미야 tagsmile 보스 지키다 tagexclamation 차지헌 노은설 난 나다 날다 이 샤워 뿅 tagexclamation tagsmile
 sbs_boss	heesunkim99	POST	pymyzlb-xpt2		2011-08-16	크핫 제와이제 잘하구 잘하구있어 잘하구있어요 재중 지켜줄게 지켜줄게로 보스를지켜 ost 유천 유천이 유천이는 미스리플리 너를위한빈자리 불렀구 준수 you so beautiful 부르잖 부르잖아 노래 노랗다 다 조아조아조아 모 ost 드라마 흥해라흥헤 흥해라흥헤라 tagexclamation 미스리플리 끝나다
-sbs_boss	tg_226	POST	pymy_n6-5h72w		2011-08-18	드라마 보스 지키다 어제꺼 못 보신 분 제 방송국 오다 보다 보세 tagexclamation 클릭 제이드tv 보스를지켜 회 재방 즐감 즐감요 tagexclamation
+sbs_boss	tg_226	POST	pymy_n6-5h72w		2011-08-18	드라마 보스 지키다 어제꺼 못 보신 분 제 방송국 오다 보다 보세 tagexclamation 클릭 제이드tv 보스를지켜 5회 재방 즐감 즐감요 tagexclamation
 sbs_boss	kittysusu04	POST	pym_0y2-ygo0d		2011-08-19	오늘 참 차다 날씨 후덥지근 하다 아 나 휴가 이제 끝나가 끝나가고 위염땜 위염땜에 밥 잘 자다 못먹네 못먹네요 나 즐겁다 보스 지키다 tagexclamation 화이팅 tagexclamation
 sbs_boss	thel3lue	POST	pym_0_c-y6qtn		2011-08-19	무느님 무느님이 김재중 보스 지켜라 차무원 차무원으 나오다 tagsmile 멀다 했었는데 대구시사외국어학원 영어 일본어 중국어
-sbs_boss	wlgus2146	POST	pym_1fj-lcpa		2011-08-18	tagexclamation 보스 지키다 tagquestion 회
-sbs_boss	jjkcc0321	POST	pym_29_-_su6c		2011-08-18	보스 지키다 방송 보는중 tagexclamation 지성오빠 넘 멋지다 tagsmile 역쉬 tagexclamation 재밌당tagsmile
+sbs_boss	wlgus2146	POST	pym_1fj-lcpa		2011-08-18	tagexclamation 보스 지키다 tagquestion 5회 20110817
+sbs_boss	jjkcc0321	POST	pym_29_-_su6c		2011-08-18	보스 지키다 방송 보는중 tagexclamation 지성오빠 넘 멋지다 tagsmile 역쉬 tagexclamation 재밌당 tagsmile
 sbs_boss	alzl0515	POST	pym_2cq-5bq5j		2011-08-18	원래 넌내게반 안 안보 보스를지켜 보다 오늘 마지막회 봐야겠다 tagsmile
 sbs_boss	juliepeter	POST	pym_2jb-yq5v5		2011-08-18	보스 지켜라 지켜라를 보다 느낀건데 영웅재중 은근 매력있당 tagsmile
 sbs_boss	qwe8865	POST	pym_2ux-5lfa		2011-08-18	보스 지키다 지성 좋다 tagsmile
-sbs_boss	wlgus2146	POST	pym_3y8-lcpa		2011-08-18	보스 지키다 회
-sbs_boss	wkdrpwls	POST	pym_4k9-9ez4		2011-08-19	보스를지켜 회 캡쳐
-sbs_boss	ororagongju0	POST	pym_4w2-_e3u2		2011-08-19	아함 어제 보스 지켜라봤어tagquestion차무원 본부장님 하트뿅뿅 tagexclamation 아 대박 원래 동방신기 다 잘생기다 tagexclamation 성균관스캔 미키유천 미키유천이 짱이였쥐
+sbs_boss	wlgus2146	POST	pym_3y8-lcpa		2011-08-18	20110810 보스 지키다 3회
+sbs_boss	wkdrpwls	POST	pym_4k9-9ez4		2011-08-19	보스를지켜 6회 캡쳐
+sbs_boss	ororagongju0	POST	pym_4w2-_e3u2		2011-08-19	아함 어제 보스 지켜라봤어 tagquestion 차무원 본부장님 하트뿅뿅 tagexclamation 아 대박 원래 동방신기 다 잘생기다 tagexclamation 성균관스캔 미키유천 미키유천이 짱이였쥐
 sbs_boss	kimhoojin	POST	pym_4xe-y34hl		2011-08-18	알바 끝나다 집 가구 있다 다행 집근처 빨리도착 집 tagsmile 쬐금 피곤 빨다 집가서 보스 지키다 넌내게반 봐야겠네 봐야겠네요 tagsmile
-sbs_boss	silver7910	POST	pym_5ny-gnep		2011-08-18	보스 지키다 ost 묻는다 묻는다의 가수 엠스트리트 m street 페이스북 팬 패다 페이지 페 개설 공유 오다 좋다 팬 패다 페이지 페 가다
+sbs_boss	silver7910	POST	pym_5ny-gnep		2011-08-18	보스 지키다 ost 묻는다 묻는다의 가수 엠스트리트 m.street 페이스북 팬 패다 페이지 페 개설 공유 오다 좋다 팬 패다 페이지 페 가다
 sbs_boss	woni1293	POST	pym_68t-ggdr		2011-08-18	나도 나다 나 롯데월드 가고싶다 남자친구 tagcry 보스를지켜 보다 보 넘 좋아보 좋아보여
-sbs_boss	wlgus2146	POST	pym_6c3-lcpa		2011-08-18	보스 지키다 회
-sbs_boss	2whdmswl	POST	pym_6jk-yjw81		2011-08-19	보스 지키다 대박나세욧tagsmile
-sbs_boss	cjstkalsdn55	POST	pym_6y7-ycsa5		2011-08-19	재중 노래 노랗다 짱 좋다 tagsmile 드라마 잼써 tagsmile 보스 지키다 ost part
-sbs_boss	o-oghf	POST	pym_76u-5d127		2011-08-18	우와웅 tagexclamation 보스를지켜라보시는분 tagexclamation tagquestion아핳 tagsmile 난 나다 날다 김재중 김재중이 지성땜에봄 tagsmile 안구정화 샤랄라랄 tagsmile 하 하다 김재중마지막 최강희한테 남자로보이고싶은데 머 이러고끝 이러고끝남 tagcry 둘이잘 둘이잘되면 ㅇ ㅇ안된다그 tagsmile 보스를지켜라보시는분푸쳐행삽미투도꾹눌러잉
+sbs_boss	wlgus2146	POST	pym_6c3-lcpa		2011-08-18	20110803 보스 지키다 1회
+sbs_boss	2whdmswl	POST	pym_6jk-yjw81		2011-08-19	보스 지키다 대박나세욧 tagsmile
+sbs_boss	cjstkalsdn55	POST	pym_6y7-ycsa5		2011-08-19	재중 노래 노랗다 짱 좋다 tagsmile 드라마 잼써 tagsmile 보스 지키다 ost part 3
+sbs_boss	o-oghf	POST	pym_76u-5d127		2011-08-18	우와웅 tagexclamation 보스를지켜라보시는분 tagexclamation tagquestion 아핳 tagsmile 난 나다 날다 김재중 김재중이 지성땜에봄 tagsmile 안구정화 샤랄라랄 tagsmile 하 하다 김재중마지막 최강희한테 남자로보이고싶은데 머 이러고끝 이러고끝남 tagcry 둘이잘 둘이잘되면 ㅇ ㅇ 안된다그 tagsmile 보스를지켜라보시는분푸쳐행삽미투도꾹눌러잉
 sbs_boss	djg1218	POST	pym_7be-yhhdv		2011-08-17	에헴 오늘 도전해야겠져 오늘 미션 보스 지키다 를 시청 하다 해 되다
 sbs_boss	kizrosa	POST	pym_7f9-5k_sl		2011-08-18	보스 지키다 대박잼 대박잼있음 tagsmile 근데이것 미니시리즈 보스 지키다
-sbs_boss	hippy2119	POST	pym_7uh-t5hu		2011-08-18	보스 지키다 ㅌㅣ비 안 알다 보다 보 최근 드라마 요거 하나 보고 보다 보 있다 넘 재밌음 전주 펌 펌하 담 머리 못 감고 감다 가다 주일 주 지나다 펌 하다 물어보다 건 거다 걸다 무슨 시츄에이션tagquestion 이젠 방학숙제 마무리 시키다 집중 하다 하 차 차다 실내 세차 나가다 차 위 떨어지다 페인트가루 장마 습기 더하다 세차 세차다 안 알다 하다 큰일나다 생기다 일 년 몇 번 벌다 안 알다 되다 되 실내외 세차 세차다
+sbs_boss	hippy2119	POST	pym_7uh-t5hu		2011-08-18	보스 지키다 ㅌㅣ 비 안 알다 보다 보 최근 드라마 요거 하나 보고 보다 보 있다 넘 재밌음 전주 펌 펌하 담 머리 못 감고 감다 가다 1주 1주일 지나다 펌 하다 물어보다 건 거다 걸다 무슨 시츄에이션 tagquestion 이젠 방학숙제 마무리 시키다 집중 하다 하 차 차다 실내 세차 나가다 차 위 떨어지다 페인트가루 장마 습기 더하다 세차 세차다 안 알다 하다 큰일나다 생기다 일 년 몇 번 벌다 안 알다 되다 되 실내외 세차 세차다
 sbs_boss	godaw	POST	pym_7wm-_w6ds		2011-08-17	지성 최강희 보스 지키다 에서 달달 달달한 키스신 스투닷컴
 sbs_boss	jyj2366	POST	pym_85b-5dyy1		2011-08-18	재중 재중 김재중 연기 하다 지성 강희 지혜 다 모이다 밤새다 하 아 없다 아 이 없다 날다 날 밝다 재중 재중 김재중 연기 하다 재중 재중 김재중 멋있다 sbs 수목드라마 보스 지키다 마니마 마니마니 사랑 주삼 taglove 악 차무원 taglove 대박 코피 퐝 tagsmile
 sbs_boss	psy7956	POST	pym_97n-y1mft		2011-08-19	보스 지키다 뇌구조 공개 특징 표현애 깨알 재미 선사
 sbs_boss	etoday	POST	pym_9t8-bi3j		2011-08-19	보스 지키다 김재중 선글라스 착용 시크매력 눈길 이투데 이투데이
 sbs_boss	skdud3377	POST	pym_b1q-or0_		2011-08-18	아이돌 아이돌을 좋아하다 그룹 자체보단 특정 멤버 좋아하다 나님 tagexclamation 그런데 그런데도 솔직 내 내다 안 동방신기 이미지 싫다 이미지 가깝다 tagexclamation 노래 잘 자다 부르다 싫어 싫다 tagexclamation 였는데 요즘 좋아지는거 같다 tagsmile 확실 노랗다 노래 잘 자다 부르다 춤 잘 자다 추고 추다 추 tagsmile 보스 지키다 차무원 차무원이 귀엽다
-sbs_boss	wlgus2146	POST	pym_b9g-lcpa		2011-08-18	tagexclamation 보스 지키다 tagquestion 회
+sbs_boss	wlgus2146	POST	pym_b9g-lcpa		2011-08-18	tagexclamation 보스 지키다 tagquestion 4회 20110811
 sbs_boss	skdud3377	POST	pym_bxf-or0_		2011-08-18	여러분 보스 지키다 보다 보세 두번 보다 보세 초딩싸움 난무 드라마 tagsmile 나다 나 오늘 목요일인게 좋다 tagexclamation 보스 지키다 하다 하 날 tagexclamation 그리다 내일 급 우울
 sbs_boss	amuruk2	POST	pym_cvu-_8og2		2011-08-18	오늘 보스를지켜라하는 tagexclamation 기대 보스 지키다 짱 tagexclamation tagsmile
-sbs_boss	tbrktbrk33	POST	pym_cy0-y_p4_		2011-08-17	여러분 오늘 무슨 날 아세요tagquestion 바로바 바로바로 보스 지키다 회 하다 하 날 나다 후후후 기대
-sbs_boss	tbrktbrk33	POST	pym_c_u-y_p4_		2011-08-17	나다 나 스파이명월 보스 지키다 오작교형제 이렇게 개본닿 개다 개 짱짱
+sbs_boss	tbrktbrk33	POST	pym_cy0-y_p4_		2011-08-17	여러분 오늘 무슨 날 아세 아세요 tagquestion 바로바 바로바로 보스 지키다 5회 하다 하 날 나다 후후후 기대
+sbs_boss	tbrktbrk33	POST	pym_c_u-y_p4_		2011-08-17	나다 나 스파이명월 보스 지키다 오작교형제 이렇게 3개본닿 3개 3개다 짱짱
 sbs_boss	ghd1511	POST	pym_d5i-sfko		2011-08-19	tagsmile 보스를지켜 뇌구좈 tagsmile 앜 tagsmile 내 비서실짱먹었데 tagsmile 존나웃김 tagsmile 요즘 보스 지키다 진짜 팍꽂힘 tagsmile
 sbs_boss	ghd1511	POST	pym_dk0-sfko		2011-08-19	tagsmile 보스를지켜 줄임말 tagsmile 보짘 tagsmile 돌겠넼 tagsmile
 sbs_boss	yoonboso	POST	pym_dp5-_hhd4		2011-08-19	보스 지키다 개 개다 잼 tagsmile
 sbs_boss	jisu95942002	POST	pym_dvt-cn_j		2011-08-18	보스 지키다 재벌 클리셰 클리셰를 깨부수다 로맨틱 코미디
-sbs_boss	kkb912004	POST	pym_ees-_syer		2011-08-19	드라마 재밌네 여기 음반선택 밖 안되다 보스 지키다 보스 지키다 ost part
+sbs_boss	kkb912004	POST	pym_ees-_syer		2011-08-19	드라마 재밌네 여기 음반선택 밖 안되다 보스 지키다 보스 지키다 ost part 3
 sbs_boss	k030313	POST	pym_ef8-y2w_6		2011-08-18	보스 지키다 저거 바보빅터 얘기네
-sbs_boss	snfl8322	POST	pym_fbs-95xe		2011-08-19	보스 지키다 뇌구조tagsmile
-sbs_boss	jeb6263	POST	pym_feh-5ql7a		2011-08-19	이젠 넌내게반했어두 끝나다 이젠 보스를지켜라 볼까나tagquestion 정용화 멋졐 tagsmile taglove
-sbs_boss	lovednlt	POST	pym_hqc-__ihx		2011-08-18	보스 지키다 도 코믹물 섞이다 섞 드라마지tagquestion 난 나다 날다 왜 외다 몰랐을까tagquestion 그거 재밌어tagquestion
+sbs_boss	snfl8322	POST	pym_fbs-95xe		2011-08-19	보스 지키다 뇌구조 tagsmile
+sbs_boss	jeb6263	POST	pym_feh-5ql7a		2011-08-19	이젠 넌내게반했어두 끝나다 이젠 보스를지켜라 볼까 볼까나 tagquestion 정용화 멋졐 tagsmile taglove
+sbs_boss	lovednlt	POST	pym_hqc-__ihx		2011-08-18	보스 지키다 도 코믹물 섞이다 섞 드라마지 tagquestion 난 나다 날다 왜 외다 몰랐을까 tagquestion 그거 재밌어 tagquestion
 sbs_boss	actorjisung	POST	pym_i9y-_sxkb		2011-08-18	완전귀여워영 taglove 오늘 보스 지키다 본방 사수 tagexclamation tagsmile
-sbs_boss	helloapink	POST	pym_jpa-_cymu		2011-08-19	내 조다 하다 하 노래 노랗다 신곡 tagexclamation 별빛달빛 보스 지키다 ost part so cool bubble pop tagexclamation bling bling 보스 지키다 ost part
-sbs_boss	choiheeju063	POST	pym_k6e-lf_j		2011-08-19	나다 나 지금 보스 지키다 화 호다 까다 다 나오다 tagsmile 넘 잼이써 taglove
-sbs_boss	wlgus2146	POST	pym_k_e-lcpa		2011-08-18	보스 지키다 회
+sbs_boss	helloapink	POST	pym_jpa-_cymu		2011-08-19	내 조다 하다 하 노래 노랗다 신곡 tagexclamation 별빛달빛 보스 지키다 ost part 3 so cool bubble pop tagexclamation bling bling 보스 지키다 ost part 1
+sbs_boss	choiheeju063	POST	pym_k6e-lf_j		2011-08-19	나다 나 지금 보스 지키다 1 6화 까다 다 나오다 tagsmile 넘 잼이써 taglove
+sbs_boss	wlgus2146	POST	pym_k_e-lcpa		2011-08-18	20110804 보스 지키다 2회
 sbs_boss	o12s2	POST	pym_liu-_90rx		2011-08-18	아 완전 사랑쓰럽다 taglove 지성 최강희 최강희랑 재중 tagsmile 나도 나다 나 지킬수잇어 꺄 tagsmile
-sbs_boss	mago1998	POST	pym_lqg-7m_v		2011-08-18	오랜만에미투해서좀오래된소식솜쓸께요tagsmile tagsmile 저요즘에보스를지켜라너무여시미보고이써요t t
+sbs_boss	mago1998	POST	pym_lqg-7m_v		2011-08-18	오랜만에미투해서좀오래된소식솜쓸께 tagsmile tagsmile 저요즘에보스를지켜라너무여시미보고이써요t t
 sbs_boss	actorjisung	POST	pym_lxw-_pc2h		2011-08-18	오늘 본방사수 하다 재미 있다 혼자 웃다 보다 별 웃다 웃 기회 없다 나한테 보스 지켜 지켜라 특별 느끼다 계속 좋다 방송 부탁 tagexclamation
 sbs_boss	blueadung	POST	pym_mql-yxapx		2011-08-16	tagsmile 간 간만 넘 재밌는 로코 발견 tagexclamation 보스 지키다 어린이 지성 넘 귀엽다 강짱 강짱이 두말할거 없다 박영규 완젼 대박 tagexclamation tagsmile 이젠 본방사수 tagexclamation 아 이번주 까다 의리 넌내반 시청 tagsmile 보스를지켜 대박
 sbs_boss	rrkk7979	POST	pym_o0v-yycge		2011-08-19	보스 지키다 tagcry 지성짱 tagexclamation tagcry
-sbs_boss	nolee6154	POST	pym_o3v-5uy3x		2011-08-17	보스를지켜 월 일 밤 시 분 예고 예 지헌 본부장 펀치 이은 은설 은설의 펀치 tagexclamation 역시 노전설 ㅁ 무원 본부장 데이트tagquestion tagexclamation 머리 쓰담쓰담 sbsboss v
-sbs_boss	actorjisung	POST	pym_ohf-_tqnj		2011-08-18	보스 지키다 tagexclamation 잘 있어요tagsmile
-sbs_boss	syj_1004_	POST	pym_pcx-5xglm		2011-08-19	근데보스를지켜라그거뇌구조왜이슈된거야tagquestion티비에나오기라도햇어tagquestion
+sbs_boss	nolee6154	POST	pym_o3v-5uy3x		2011-08-17	보스를지켜 8월 17 17일 밤 9시55 분 예고 예 지헌 본부장 펀치 이은 은설 은설의 펀치 tagexclamation 역시 노전설 ㅁ 무원 본부장 데이트 tagquestion tagexclamation 머리 쓰담쓰담 sbsboss v
+sbs_boss	actorjisung	POST	pym_ohf-_tqnj		2011-08-18	보스 지키다 tagexclamation 잘 있다 tagsmile
+sbs_boss	syj_1004_	POST	pym_pcx-5xglm		2011-08-19	근데보스를지켜라그거뇌구조왜이슈된거 tagquestion 티비에나오기라도햇어 tagquestion
 sbs_boss	rhwjddnjs915	POST	pym_qtd-_izg9		2011-08-17	오늘 드디어 보스 지켜라 지켜라를 하는 하는날 tagexclamation 오늘 기대 기대다 되다
-sbs_boss	v10bareun	POST	pym_r56-59l41		2011-08-18	보스를지켜라ㅏ tagexclamation
-sbs_boss	mople	POST	pym_rg8-ybyr8		2011-08-18	보스 지키다 회 e 닥본사 닥 치다 치 본 보다 방 사 사다 닥치고본방사수 닥본사 별점 오늘 보스 지키다 회 e
+sbs_boss	v10bareun	POST	pym_r56-59l41		2011-08-18	보스를지켜 ㅏ tagexclamation
+sbs_boss	mople	POST	pym_rg8-ybyr8		2011-08-18	보스 지키다 6회 e06닥본사  닥  치다 치  본  방  사  닥치고본방사수 닥본사 별점 오늘 보스 지키다 6회 e06
 sbs_boss	jjuni36	POST	pym_s7v-5ixde		2011-08-18	보스 지키다 노은설 차지헌 서나윤 차무원 tagsmile
 sbs_boss	boyttolbi	POST	pym_sg9-_8nln		2011-08-19	보스 지키다 권혁구 마카롱 tagexclamation
-sbs_boss	5526120	POST	pym_t0t-ywf55		2011-08-19	요즘 넌네반 넌네반도 재밌구 보스 지켜 지켜라 재밌어서 고르다 힘들다 마침 종영 화 호다 부터 다시보 다시보는 재미 살고있당 요즘 보스 지켜라 지켜라에 완전 빠져부럿다히힛
+sbs_boss	5526120	POST	pym_t0t-ywf55		2011-08-19	요즘 넌네반 넌네반도 재밌구 보스 지켜 지켜라 재밌어서 고르다 힘들다 마침 종영 1화 부터 다시보 다시보는 재미 살고있당 요즘 보스 지켜라 지켜라에 완전 빠져부럿다히힛
 sbs_boss	djg1218	POST	pym_tce-yhhdv		2011-08-17	미션 목 드라마 보스 지키다 즐겨보다 차지헌 노은설
 sbs_boss	actorjisung	POST	pym_tfp-5a_cc		2011-08-19	보스 지키다 잘보고 잘보고있어 잘보고있어요
 sbs_boss	nanar123	POST	pym_tsx-ycxhg		2011-08-18	한시 뒤 tv키면 넌내반 넌내반은 마지막회 할거구 할거구요 보스 지켜 지켜라 재미 테구 테구요 아무레 아무레도 오늘 보스 지키다 시청률 낮아질듯 보 tagexclamation 넌내반마지막회 때문 때문에 tagcry tagcry 친구 난 나다 날다 보스 지켜라 지켜라를 볼테 볼테니 너희 너희들은 넌내게 반했어를 보거 보거라 tagsmile
 sbs_boss	mentleboy11	POST	pym_uol-ykwya		2011-08-18	에휴 난 나다 날다 보스지켜 보러감 빠빠잉 꼭알려줘 인피니트 tagexclamation
-sbs_boss	myoungslieb	POST	pym_uwd-pmvo		2011-08-18	보스 지키다 차지헌 본부장 초딩 초딩짓 초딩짓을 보다 회사 어떻다 굴러가다 있나 있나하 있나하는 생각 하다 하지 결국 귀요미 tagexclamation 꺄아 뭐 귀요미 다 있다 tagexclamation 노은설 씨 부럽다 부러워 tagexclamation 전생 뭘 해야되나요tagquestion
+sbs_boss	myoungslieb	POST	pym_uwd-pmvo		2011-08-18	보스 지키다 차지헌 본부장 초딩 초딩짓 초딩짓을 보다 회사 어떻다 굴러가다 있나 있나하 있나하는 생각 하다 하지 결국 귀요미 tagexclamation 꺄아 뭐 귀요미 다 있다 tagexclamation 노은설 씨 부럽다 부러워 tagexclamation 전생 뭘 해야 해야되 해야되나 해야되나요 tagquestion
 sbs_boss	jst_com	POST	pym_vpg-_qdcl		2011-08-18	나오늘지금 보스를지켜 시청중 흐흐흐 저녁 드라마 나 퐈라다이스 tagcry 흐흐흑 알바힘들어용 tagcry
 sbs_boss	20022453	POST	pym_xar-zkx2		2011-08-18	차지헌 이랑 이 차무헌 긔여움 어쩔꺼 tagexclamation tagsmile 보스 지키다
 sbs_boss	ungcmee94	POST	pym_xbg-yv3c9		2011-08-18	우왕 오늘 보스 지키다 대박 tagsmile 노원설씨한테 남자 다가가다 키키키킼 아
 sbs_boss	manbok27	POST	pym_xd_-y4k2y		2011-08-18	보스 지키다 너어무 재밌어 재밌어요
-sbs_boss	tsi06039	POST	pym_xn7-o82p		2011-08-18	이제보스를지켜라를봐야겠군tagsmile
+sbs_boss	tsi06039	POST	pym_xn7-o82p		2011-08-18	이제보스를지켜라를봐야겠군 tagsmile
 sbs_boss	goldyes	POST	pym_xt9-ysmua		2011-08-18	보스 지키다 넘넘 재밌어 tagexclamation 역시 지성 tagexclamation 조금 모자른 듯 연기 잘하는구 잘하는구만 짱짱짱 재밌어 tagexclamation tagsmile
-sbs_boss	minju624	POST	pym_xyo-yhvox		2011-08-18	넌내반 슬퍼 슬프다 진짜 tagcry tagcry 해피엔딩이긴 해피엔딩이긴한데 슬퍼 슬프다 tagcry 왜 외다 벌써끝 벌써끝나 tagexclamation 글고 한희주 동생 tagsmile 한명주 tagsmile 쨋든 재밋당 tagsmile 다음 보스를지켜 tagsmile 아 뭔가 아쉬워 아쉽다 원래 다 그런가tagquestion드라마 왜이래tagquestion 넌내반 tagcry tagcry
+sbs_boss	minju624	POST	pym_xyo-yhvox		2011-08-18	넌내반 슬퍼 슬프다 진짜 tagcry tagcry 해피엔딩이긴 해피엔딩이긴한데 슬퍼 슬프다 tagcry 왜 외다 벌써끝 벌써끝나 tagexclamation 글고 한희주 동생 tagsmile 한명주 tagsmile 쨋든 재밋당 tagsmile 다음 보스를지켜 tagsmile 아 뭔가 아쉬워 아쉽다 원래 다 그런가 tagquestion 드라마 왜 tagquestion 넌내반 tagcry tagcry
 sbs_boss	sksdhkdz0313	POST	pym_xyv-b8x8		2011-08-18	꺄악 재중 tagcry 나에게남자로보이는건어때 tagsmile 무느님대박 보스를지켜 무느님
 sbs_boss	rlatldus1998	POST	pym_x_9-7blx		2011-08-18	흐규흐규 tagcry ㅡ tagcry 아 넌내게반했어가 끝나다 tagcry ㅡ tagcry 음 이젠 보스를지켜 tagexclamation tagsmile 보다
 sbs_boss	november_	POST	pym_y7o-yy8hc		2011-08-16	아응아응 내일 내 방송 보스를지켜 tagexclamation 빨랑 보구시퍼 보구시퍼요 내일 내다 모래 본 보다 방 사 사다 tagexclamation
 sbs_boss	gusdk9088	POST	pym_y7u-_q83m		2011-08-18	보스 지키다 출연진 뇌구조 나오다 폭발적 관심 tagexclamation
 sbs_boss	lovertemper	POST	pym_yk9-_t5ku		2011-08-18	보스 지키다 왜케웃기냨 tagsmile
 sbs_boss	alsk990208	POST	pym_ykx-ya5f8		2011-08-18	아 어제 보스를지켜 못봤다 오늘 봐야짘 tagsmile
-sbs_boss	janie0915	POST	pym_z8i-5_i7v		2011-08-18	tagsmile 지금 집 보스 지키다 보거 보거있음 tagsmile캬 키스신
+sbs_boss	janie0915	POST	pym_z8i-5_i7v		2011-08-18	tagsmile 지금 집 보스 지키다 보거 보거있음 tagsmile 캬 키스신
 sbs_boss	mijj00	POST	pym_zkn-_s7o_		2011-08-18	보스를지켜 tagexclamation 오늘 행복 한시 보내겟군 tagsmile 본방사수 tagexclamation
 sbs_boss	wgus1346	POST	pym_zne-_rrsp		2011-08-18	보스 지키다 한당 tagexclamation 지성 뽀뽀햇어 최강희 좋겟네 tagcry tagcry tagcry tagcry tagcry 이거끝 이거끝나면 다음주 언제 기다리다 oh my goddd taglove 지성느님 taglove
 sbs_boss	lee690625	POST	pym_zoc-y1awc		2011-08-18	오늘넌내반막회네 담주부턴 보스를지켜라봐야겠다
 sbs_boss	lee690625	POST	pym_zwf-y1awc		2011-08-18	보스를지켜라보는사람 미투꾹
-sbs_boss	dlrbwjdi	POST	pym__it-528_r		2011-08-18	넌내반 개 보스 지키다 개 개다 다 보고 보다 보 왔어 왔어여 tagsmile
+sbs_boss	dlrbwjdi	POST	pym__it-528_r		2011-08-18	넌내반 3개 3개랑 보스 지키다 3개 다 보고 보다 보 왔어 왔어여 tagsmile
 sbs_boss	pink98yj	POST	pym__ms-8joa		2011-08-18	보스 지키다 좋다 taglove 지성 귀엽다
 sbs_boss	_beast1016	POST	pym__xe-_qeoo		2011-08-19	우리 핑팬여러분 tagexclamation 포미닛선배님 freestyle 좋은노래에 좋은노래에요 tagexclamation 많다 사랑 보스 지켜라ost 우리 사랑 해주세요 해주세요도 많다 사랑
 sbs_boss	hbyang99	POST	pym__yp-5jl97		2011-08-16	요즘 목 드라마 보스 지키다 재밌넹 지금 재방 보다 보 중 tagsmile 직접 다운 받다 tagsmile 불법다운로드 ㄴㄴ tagsmile
-sbs_boss	dudtlf56	POST	pym__zu-yvk07		2011-08-17	보스 지키다 taglove 여러분 시 분 지키는거아시죠tagquestion그리 지키는거아시죠tagquestion그리고 시청률기기 없다 dmb dmb로 봐야 봐야해 봐야해요 tagexclamation taglove
+sbs_boss	dudtlf56	POST	pym__zu-yvk07		2011-08-17	보스 지키다 taglove 여러분 9시55 분 지키는거아시죠 tagquestion 그리다 시청률기기 없다 dmb dmb로 봐야 봐야해 봐야해요 tagexclamation taglove
 sbs_boss	dhxofla	POST	pyo4392-yzk0x		2011-08-16	보스 지키다 라디오 스팟 녹음 녹다 현장
-sbs_boss	kdu627	POST	pyo45rf-j8pc		2011-08-15	와웅 가창력 점점 드러나다 듯tagquestion tagsmile 보스 지키다 ost part
+sbs_boss	kdu627	POST	pyo45rf-j8pc		2011-08-15	와웅 1 가창력 점점 드러나다 듯 tagquestion tagsmile 보스 지키다 ost part 3
 sbs_boss	o_rainbow_o	POST	pyo47zn-ye9h5		2011-08-15	요즘 최강희님 재미난연기 지성님 지성님의 후덜덜 후덜덜한 연기 tagsmile 보스 지키다 tagexclamation 재미잇게 보고잇음 tagsmile 이런드라마 게속 원츄원츄한다굼 tagsmile
-sbs_boss	dhxofla	POST	pyo4ai4-yzk0x		2011-08-16	보스 지키다 회 차무원플레 차무원플레이어
-sbs_boss	tnwlekd5	POST	pyo4stv-yxxis		2011-08-15	tagsmile 난 나다 날다 요즘 tv 사랑한다네욥 tagsmile 월화 월화는 무사백동수 수목 보스 지키다 토일 토일은 여인 향기 tagsmile 완죤 대박 않니tagquestion
+sbs_boss	dhxofla	POST	pyo4ai4-yzk0x		2011-08-16	보스 지키다 3회 차무원플레 차무원플레이어
+sbs_boss	tnwlekd5	POST	pyo4stv-yxxis		2011-08-15	tagsmile 난 나다 날다 요즘 tv 사랑한다네욥 tagsmile 월화 월화는 무사백동수 수목 보스 지키다 토일 토일은 여인 향기 tagsmile 완죤 대박 않다 tagquestion
 sbs_boss	kekeke1204	POST	pyo4wjy-yg_c3		2011-08-16	학원가는중 멀미 우엑 내일 내 보스를지켜 본방사수 tagexclamation
 sbs_boss	dlspekt	POST	pyo4y8n-_3j1b		2011-08-16	최강희 비서룩 오피스 룩 최강희비서룩 최강희 오피스룩 비서룩 오피스룩 최강희 보스를지켜 노은설 오피스룩 노은설 비서룩최강희 비서룩최강희의 화제 비서룩 tagexclamation
-sbs_boss	wjdalsdl8808	POST	pyo70yz-ylkzj		2011-08-17	넌내게 반했어or보스를 지키다
+sbs_boss	wjdalsdl8808	POST	pyo70yz-ylkzj		2011-08-17	넌내게 반했어or 보스 지키다
 sbs_boss	mysite	POST	pyo726s-qj7x		2011-08-17	보스를지켜
-sbs_boss	yuminin	POST	pyo72r9-5olc5		2011-08-17	제가 제 수목드라마 보거든요tagquestion 수목드라마 중 어느 걸 보다 모르다 tagexclamation 보스 지키다 보다 tagexclamation 오늘 키스신 키스신이 있다 거에 거에요 tagexclamation 부끄부끄 tagexclamation
+sbs_boss	yuminin	POST	pyo72r9-5olc5		2011-08-17	제가 제 수목드라마 보거든 보거든요 tagquestion 수목드라마 중 어느 걸 보다 모르다 tagexclamation 보스 지키다 보다 tagexclamation 오늘 키스신 키스신이 있다 거에 거에요 tagexclamation 부끄부끄 tagexclamation
 sbs_boss	bi825	POST	pyo72uj-tn56		2011-08-17	보스를지켜 주인공 다 유치하고귀여워서 장면장면 웃음이난닼 tagsmile 재밌음 tagcry ㅅ tagcry tagsmile 유치뽕짝좋 taglove
-sbs_boss	hellozzgg	POST	pyo75r9-m10v		2011-08-17	아 요즘 보스를지켜라 여인의향기땜시 jyj jyj가 좋아tagquestion음 tagcry 이럼안 이럼안되는데 돋다 tagcry
+sbs_boss	hellozzgg	POST	pyo75r9-m10v		2011-08-17	아 요즘 보스를지켜라 여인의향기땜시 jyj jyj가 좋다 tagquestion 음 tagcry 이럼안 이럼안되는데 돋다 tagcry
 sbs_boss	ekgmlcoqlsck	POST	pyo79w4-bd5y		2011-08-17	보스를지켜라하는 오늘짱짱기대되 tagsmile tagexclamation 차무원차본부장님멋져 tagsmile 차지현본부장님 tagsmile 앜 tagsmile 짱 tagsmile
-sbs_boss	wkddb4222	POST	pyo7ami-1gm8		2011-08-17	보스 지키다 재밌나요tagquestion 보다 보 이유 tagquestion 영웅재중때문 tagquestion
-sbs_boss	rkdvo68	POST	pyo7ba2-1joj		2011-08-17	나오늘지금넌내게반했써 볼까tagquestion 보스를지켜라볼까tagquestion고민중 tagexclamation tagsmile 뭐볼까 tagsmile
+sbs_boss	wkddb4222	POST	pyo7ami-1gm8		2011-08-17	보스 지키다 재밌 재밌나 재밌나요 tagquestion 보다 보 이유 tagquestion 영웅재중때문 tagquestion
+sbs_boss	rkdvo68	POST	pyo7ba2-1joj		2011-08-17	나오늘지금넌내게반했써 보다 tagquestion 보스를지켜라볼까 tagquestion 고민중 tagexclamation tagsmile 뭐볼까 tagsmile
 sbs_boss	tough0421	POST	pyo7biv-_ct_f		2011-08-17	리틀 시크릿가 시크릿가든 가튼 뉘앙스 풍기다 풍기 우리 재밌는 보스를지켜 tagsmile
 sbs_boss	creamcream	POST	pyo7dgp-ngfz		2011-08-17	영업분 수고 준 주다 줄다 초코렛 힘이 힘이나는군 tagexclamation 빨다 퇴근 보스를지켜 본방사수하고싶다 tagcry 나오늘지금
 sbs_boss	eachto	POST	pyo7exx-j4xv		2011-08-17	오늘 보스 지키다 하는 하는날 tagsmile 본방사수 tagexclamation 아 tagcry 못보겟당 tagcry
@@ -861,90 +861,90 @@ sbs_boss	sia5575	POST	pyo7gsx-5kw29		2011-08-17	보스 지켜라보자 tagsmile 
 sbs_boss	su9087	POST	pyo7gxm-kn31		2011-08-17	핳 히발 가을쟝 가을쟝이 데이트하고잉는데 보스를지켜라한뎅 tagcry 핳 가을쟝 한시간만기다리라능 tagcry tagcry 재중쟝만보고오겠다눈 tagcry 아 샤연시해야되는뎈 tagsmile 샤연시덜깻는데아직 tagsmile 핳 tagcry tagsmile 행복한고민
 sbs_boss	bbo_05	POST	pyo7h3l-yw9hv		2011-08-17	보스 지키다 tagexclamation 앗다 쉰 쉰나 최강희 지성 참 차다 재밌어 재밌어요 tagsmile
 sbs_boss	skdud3377	POST	pyo7he0-or0_		2011-08-17	보스 지키다 최강희 머리 스타일 스타 너무너무 귀욤귀욤 tagsmile 나도 나다 나 하다 하 싶다 손 소다 솔다 재주 시망 시망이 나 나다 혼자선 만들다 못 tagexclamation 하 하다 tagexclamation 고 tagexclamation 얼굴 최강희 최강희가 아니짘 tagsmile 아마 최강희 언니 나 같다 사진 사다 찍다 내 언니 나올듯 tagcry 언니 귀염상이예 흑흑흑 부러움 부럽다
-sbs_boss	k1120jh	POST	pyo7hjf-y60d		2011-08-17	방금 보스 지켜라 tagsmile 최강희님 tagsmile 바람났어를 tagsmile 빰빠빠빠마빠빠빠빠ㅏㅏ빠빠 이부분 이부분도 tagsmile 춤 추다 tagsmile 근데 그걸 킴재중느님 킴재중느님이 보고 보다 보 계셨지
+sbs_boss	k1120jh	POST	pyo7hjf-y60d		2011-08-17	방금 보스 지켜라 tagsmile 최강희님 tagsmile 바람났어를 tagsmile 빰빠빠빠마빠빠빠빠 ㅏㅏ 빠빠 이부분 이부분도 tagsmile 춤 추다 tagsmile 근데 그걸 킴재중느님 킴재중느님이 보고 보다 보 계셨지
 sbs_boss	rlawldnjs21	POST	pyo7hnx-5elpm		2011-08-17	넌 널다 내다 반햇어 버리다 보스를지켜 보고잇음 미얀 내다 반햇어님 흑흑
 sbs_boss	i2235	POST	pyo7hy2-r1so		2011-08-17	보스 지키다 보는사람 미투
 sbs_boss	vnzkcjs	POST	pyo7h_k-1afv		2011-08-17	앜 tagsmile 보스를지켜라 최강희 최강희가 바람나다 부르다 tagsmile 깨알대박 tagsmile
-sbs_boss	ynk9	POST	pyo7igy-5bj_1		2011-08-17	에이핑크 apink 우리 사랑 하다 네이버앱 음악검색 보스 지키다 ost part
+sbs_boss	ynk9	POST	pyo7igy-5bj_1		2011-08-17	에이핑크 apink 우리 사랑 하다 네이버앱 음악검색 보스 지키다 ost part 1
 sbs_boss	hj-park81	POST	pyo7jq7-_c2te		2011-08-17	비가언제 오다 오려 수술전 옥상올라가서 돗자리펴 돗자리펴고 태닝할라구 태닝할라구하는데 여행가서 한걸 한걸로 성에안차네 오늘 보스를지켜라보구 일찍자야겠당 시력돌아오는 수영등록 tagexclamation 째피렛슨도 째피렛슨도받고 tagexclamation 홧팅 tagsmile
 sbs_boss	monkeyandril	POST	pyo7k3p-_s_ui		2011-08-16	내일 내 보스를지켜라 tagexclamation 꼭봐야지 tagsmile
 sbs_boss	hayan4627	POST	pyo7k97-r9ab		2011-08-15	오랜만이네 tagexclamation 아 요즘 보스를지켜 홀릭됬어 홀릭됬어요 tagsmile 차무원 taglove 무느님 tagexclamation
 sbs_boss	pooh42255	POST	pyo7lt2-_f01y		2011-08-18	오늘완전 보스를지켜 대박 tagexclamation 마지막 뽀뽀 taglove 꺄 낼도기대된당 tagsmile
-sbs_boss	930316	POST	pyo7p92-391s		2011-08-15	지키다 싶어 싶다 잘못 나쁘다 버릇 힘들다 나르다 나 웃다 만드 만드는 거야 거다 거 좀 조다 힘들다 널 널다 사랑 라 라고 말 하다 할거 먼저 내 내다 품 오다 오 날까지이이 날까지이이이 날까지이이이이 보스 지키다 ost part
+sbs_boss	930316	POST	pyo7p92-391s		2011-08-15	지키다 싶어 싶다 잘못 나쁘다 버릇 힘들다 나르다 나 웃다 만드 만드는 거야 거다 거 좀 조다 힘들다 널 널다 사랑 라 라고 말 하다 할거 먼저 내 내다 품 오다 오 날까지이이 날까지이이이 날까지이이이이 보스 지키다 ost part 3
 sbs_boss	suna7403-big	POST	pyo7pfm-56h8x		2011-08-16	보스를지켜라보고싶다
 sbs_boss	sprtmw	POST	pyo7pqf-y_o9j		2011-08-15	보스 지켜라 지켜라를 보고 tagexclamation tagsmile 차지헌 본부장님 지성님 지성님이라 허거걱 tagexclamation
 sbs_boss	lje3142	POST	pyo7q7f-__as8		2011-08-17	으아 tagexclamation 보스를지켜라보고싶은데 tagcry 좇같은년놈들이안 좇같은년놈들이안된데 tagexclamation
-sbs_boss	limsm9682	POST	pyo7qbw-5dj3		2011-08-17	아ㅏㅏ 좋다 tagcry 아 귀엽다 tagcry 돌겠다 tagcry 오늘 지성님 지성님도 귀엽다 최강희님 귀엽다 재중오빠 귀엽다 tagcry
+sbs_boss	limsm9682	POST	pyo7qbw-5dj3		2011-08-17	아 ㅏㅏ 좋다 tagcry 아 귀엽다 tagcry 돌겠다 tagcry 오늘 지성님 지성님도 귀엽다 최강희님 귀엽다 재중오빠 귀엽다 tagcry
 sbs_boss	bluelions99	POST	pyo7qm2-5n8nm		2011-08-17	보스 지키다 완전 재밌넹 tagsmile 지성 완전 귀엽 tagsmile 노은설 노은설도 웃기다 tagsmile 지성이 지성이가 노은설 비서 비서를 좋아한데 tagsmile 노은설 노은설은 안받아주넹 tagcry 냉정 지성 tagexclamation tagsmile
 sbs_boss	sykoo	POST	pyo7qxl-ujrq		2011-08-17	보스를지켜 tagexclamation 아웅 차본부장 귀요미 tagexclamation 본방은내가지킨다 tagexclamation
 sbs_boss	sorihy	POST	pyo7qyt-ygzzy		2011-08-17	보스 지키다 재밌음 발바닥 아직화끈거리는데 웃다 보다 피곤 모르다 tagsmile 지성 어째 저렇다 망가지다 tagsmile 최강희 최고 최
 sbs_boss	0126_soul	POST	pyo7qzt-569aw		2011-08-17	삼성쩐다진짜 tagcry tagcry 아오짱 아오짱이 근데 보스를지켜라진짜재밋다아 김재중내꺼진짜내꺼 tagcry 진짜 tagcry 마깅랰 tagsmile
 sbs_boss	sjo000907	POST	pyo7rl5-ykrd4		2011-08-15	보스 지키다 vs 넌 널다 내다 반 난 나다 날다 보스 지키다 tagsmile
-sbs_boss	bigbang525	POST	pyo7rll-1j1c		2011-08-17	오늘 무신 드라마 볼까 볼까나 tagsmile 보스를지켜 랑 넌내게 반했어중에 tagsmile 시티헌터 끝나다 진짜 넌내반 볼라 보스 지키다 넘 재밌는것같애 tagsmile 의리 지킬것 지킬것인가 재미 선택할것인가 tagsmile 넌내반 우짜노 tagsmile sbs 밀리다 있다 tagsmile 보스 지키다 윜
+sbs_boss	bigbang525	POST	pyo7rll-1j1c		2011-08-17	오늘 무신 드라마 볼까 볼까나 tagsmile 보스를지켜 랑 넌내게 반했어중에 tagsmile 시티헌터 끝나다 진짜 넌내반 볼라 보스 지키다 넘 재밌는것같애 tagsmile 의리 지킬것 지킬것인가 재미 선택할것인가 tagsmile 넌내반 우짜노 tagsmile sbs 밀리다 있다 tagsmile 보스 지키다 1윜
 sbs_boss	eachto	POST	pyo7rua-j4xv		2011-08-17	아잠오면안 아잠오면안되는데 tagcry 보스 지키다 봐야되는디 tagcry tagsmile
 sbs_boss	kkh7698	POST	pyo7s0k-_c0vo		2011-08-17	보스 지키다 지성 최강희 달달 달달한 키스 나누다
-sbs_boss	you190502	POST	pyo7s6j-yq1gg		2011-08-17	꺄아아아아ㅏ아아아ㅏㅏ아아아ㅏ아ㅏ앙가컴퓨터 하다 보스를지켜 하다 하 시간 놓치다 있다 아 미쳐미쳐
+sbs_boss	you190502	POST	pyo7s6j-yq1gg		2011-08-17	꺄아아아아 ㅏ 아아아 ㅏㅏ 아아아 ㅏ 아 ㅏ 앙가컴퓨터 하다 보스를지켜 하다 하 시간 놓치다 있다 아 미쳐미쳐
 sbs_boss	you190502	POST	pyo7s_b-yq1gg		2011-08-17	빨다 방학숙제 하다 말다 하다 보스 지키다
-sbs_boss	dktjs77	POST	pyo7t10-50h9		2011-08-17	보스 지키다 기달리는중 넘 재 tagexclamation 뿌셔뿌셔 뿌셔뿌셔와 함께tagsmile
+sbs_boss	dktjs77	POST	pyo7t10-50h9		2011-08-17	보스 지키다 기달리는중 넘 재 tagexclamation 뿌셔뿌셔 뿌셔뿌셔와 함 tagsmile
 sbs_boss	ghd1511	POST	pyo7te2-sfko		2011-08-17	할매 병원갔다가 보스를지켜 보다 바 집옴 tagsmile
 sbs_boss	kkigirl	POST	pyo7tix-rb6p		2011-08-17	최강희 최강희와 박영규 때문 때문에 보고 보다 보 있다 한데 하다 지성 은근 귀엽다 원래전혀관심 재중이는참많이피곤해보여안타깝게시리
 sbs_boss	vnzkcjs	POST	pyo7tlm-1afv		2011-08-17	보스 지켜라볼꺼예 지켜라볼꺼예요 tagcry 갑툭 가능성 있다 tagsmile
 sbs_boss	rlawldnjs21	POST	pyo7tun-5elpm		2011-08-17	tagsmile 보스 지키다
-sbs_boss	fpal78	POST	pyo7u2a-y02aa		2011-08-17	보스를지켜라 지성 최강희랑뽀뽀 재중이랑어떤여자애랑뽀뽀햇따 tagsmile 둑흔둑흔 taglove 러부라부모드 쓰따뚜 tagexclamation tagsmile 나변ㄴㅕ 나변ㄴㅕ같 나변ㄴㅕ같아 tagcry ㄷㄷ 그래두 드라마짱잼 tagsmile
-sbs_boss	skdud3377	POST	pyo7u6z-or0_		2011-08-17	좋다 노래 노랗다 많당 tagsmile 거의 거 다 가 가다 아니다 아니 퍼 정도 드라마 ost지 ost지만 tagsmile 공주 남자랑 남자 여인 향기 넌 널다 내다 반했어랑 보스 지키다 tagexclamation 우훗
+sbs_boss	fpal78	POST	pyo7u2a-y02aa		2011-08-17	보스를지켜라 지성 최강희랑뽀뽀 재중이랑어떤여자애랑뽀뽀햇따 tagsmile 둑흔둑흔 taglove 러부라부모드 쓰따뚜 tagexclamation tagsmile 나변 ㄴㅕ 같다 tagcry ㄷㄷ 그래두 드라마짱잼 tagsmile
+sbs_boss	skdud3377	POST	pyo7u6z-or0_		2011-08-17	좋다 노래 노랗다 많당 tagsmile 거의 거 다 가 가다 아니다 아니 99퍼 정도 드라마 ost지 ost지만 tagsmile 공주 남자랑 남자 여인 향기 넌 널다 내다 반했어랑 보스 지키다 tagexclamation 우훗
 sbs_boss	feelingcard	POST	pyo7u8f-57fm6		2011-08-17	딸 컴만드 컴만드로 보령아빠계신별장 휴양왔네 하필 보령이비가많이오는바람 수신이약해서 보스를지켜라못봐써 tagcry tagcry 일도못하고 tagcry tagcry 보령
 sbs_boss	98sonjh	POST	pyo7u9r-ycbds		2011-08-17	보스 지키다 완전 대박 끝낫음 tagexclamation 완전 돼박 tagexclamation 김재중 김재중이 왕지혜 왕지혜하 키스 지성 최강희 최강희가 키스 햇네 아잉 부끄럽다 tagexclamation tagsmile 기분 좋앙
 sbs_boss	crithtin	POST	pyo7ud9-1ujp		2011-08-17	보스 지키다 오늘분 마지막부분 키스 tagcry 망할피디
-sbs_boss	ippuny3	POST	pyo7uk8-2iw4		2011-08-17	보스 지키다 봄tagquestion
-sbs_boss	limsm9682	POST	pyo7uvb-5dj3		2011-08-17	아 보스 짱재밌어 tagcry 마지막 뽀뽀 왜 외다 하다 개다 개 tagcry 엉어엉어유 tagcry 재중 턱선 tagcry 허어엉어엉ㅇㅇㅇ 최강희님 지성님 뽀뽀 힛 taglove
+sbs_boss	ippuny3	POST	pyo7uk8-2iw4		2011-08-17	보스 지키다 봄 보다 tagquestion
+sbs_boss	limsm9682	POST	pyo7uvb-5dj3		2011-08-17	아 보스 짱재밌어 tagcry 마지막 뽀뽀 왜 외다 하다 개다 개 tagcry 엉어엉어유 tagcry 재중 턱선 tagcry 허어엉어엉 ㅇㅇㅇ 최강희님 지성님 뽀뽀 힛 taglove
 sbs_boss	in3824	POST	pyo7v3q-yq3mu		2011-08-17	보스 지키다 tagexclamation 난 나다 날다 개인적 무원키스신 무원키스신이 좋았어요오 내일 기대기대 tagsmile
 sbs_boss	kkh7193	POST	pyo7vb_-y8tpp		2011-08-15	보스 지키다 보고 보다 보 눕다 있다
-sbs_boss	dusgml101	POST	pyo7xho-52_m5		2011-08-18	오늘 보스를지켜라 엘프 엘프같 엘프같은 남자 못생기다 여자랑 여자 키스했다면서요tagquestion 뭐 이르다 이름 차무원tagquestion 뭐 재중 비슷 비슷하게 생기다 재중 아닐꺼 아닐꺼야 tagsmile 그렇다 믿고싶 믿고싶은 캉의심정
+sbs_boss	dusgml101	POST	pyo7xho-52_m5		2011-08-18	오늘 보스를지켜라 엘프 엘프같 엘프같은 남자 못생기다 여자랑 여자 키스했다면서요 tagquestion 뭐 이르다 이름 차무원 tagquestion 뭐 재중 비슷 비슷하게 생기다 재중 아닐꺼 아닐꺼야 tagsmile 그렇다 믿고싶 믿고싶은 캉의심정
 sbs_boss	smj-_-	POST	pyo7z2g-5cf07		2011-08-17	오늘보스를지켜라끝날때대박
 sbs_boss	eachto	POST	pyo7z84-j4xv		2011-08-17	지금 보스 지키다 보는중 tagsmile 재중오빠 tagsmile
-sbs_boss	jung_hyunah	POST	pyo7zbm-l8hx		2011-08-17	김 기다 제중 지켜줄게 노래 진짜 좋아하다 보스 지키다 ost part
+sbs_boss	jung_hyunah	POST	pyo7zbm-l8hx		2011-08-17	김 기다 제중 지켜줄게 노래 진짜 좋아하다 보스 지키다 ost part 3
 sbs_boss	rjsaos09	POST	pyo7zjb-ex6y		2011-08-17	진짜보스를지켜라재밌네 tagsmile 차본두명귀여워 tagsmile
 sbs_boss	sy7398	POST	pyo7zxa-lfcn		2011-08-17	아진짜보스를지켜라너무재밌어 어뜩 어뜩해 tagsmile 지성이랑김재중너 무멋잇어 tagsmile 엔딩에키스신 그울보여자머 그울보여자머야 tagcry 최강희볼수록이쁘더라구 tagcry tagsmile
-sbs_boss	harry7846	POST	pyol0fb-_j8jz		2011-08-16	한예슬 미국가서 손해배상 한 하다 억정 억정도 물어내다 되는디 미국 이유중 하나 결혼설땜시일수 있다 미국가서 안올꺼면 아예 연예계 생활 안하다 거다 걸다 그럼 결혼설 결혼설이 하나 가설 될수 될수도 있다 스파이명월 잼지 잼지도 안다 망 상관 보스 지켜라 지켜라가 쵝오
+sbs_boss	harry7846	POST	pyol0fb-_j8jz		2011-08-16	한예슬 미국가서 손해배상 한 하다 300억정 300억정도 물어내다 되는디 미국 이유중 하나 결혼설땜시일수 있다 미국가서 안올꺼면 아예 연예계 생활 안하다 거다 걸다 그럼 결혼설 결혼설이 하나 가설 될수 될수도 있다 스파이명월 잼지 잼지도 안다 망 상관 보스 지켜라 지켜라가 쵝오
 sbs_boss	hanistar	POST	pyol3tm-xn6		2011-08-15	내 드라마 안 알다 보다 다지다 다짐 하다 왜 외다 왜 외다 보라구 소개 주는거 주는거니 tagexclamation tagcry 보스 지키다 재밌잖 재밌잖아 tagcry 망 otl 최강희 아직 죽지 죽다 않다 taglove
 sbs_boss	teela12	POST	pyol8o2-yi33z		2011-08-15	역시 보스 지키다 넘 잼있옹 캬컄
 sbs_boss	tndbs0227	POST	pyoljtx-5y5f1		2011-08-15	보스를지켜 보고싶당 tagcry
 sbs_boss	meekyw	POST	pyolvg3-5o_lq		2011-08-16	보스를지켜 드뎌 공주의남자 이기닷
 sbs_boss	duswn7603	POST	pyolvs3-535rl		2011-08-16	넌내게 반했어하구 보스 지키다 내다 본 보다 tagexclamation 방 tagexclamation 사 사다 tagexclamation tagexclamation
-sbs_boss	sjdbsk	POST	pyonbra-_q7my		2011-08-15	보스 지키다 ost part
-sbs_boss	mrki	POST	pyont72-nva2		2011-08-15	보스를지켜라진짜잼따 tagcry tagcry 최강희지성김재중다조아 tagcry 지성짱기여워 tagcry 우주돌멩이 tagcry 아진짜어떡행 tagcry tagquestion taglove 어떡해진짜잼ththㅓ tagcry
+sbs_boss	sjdbsk	POST	pyonbra-_q7my		2011-08-15	보스 지키다 ost part 3
+sbs_boss	mrki	POST	pyont72-nva2		2011-08-15	보스를지켜라진짜잼따 tagcry tagcry 최강희지성김재중다조아 tagcry 지성짱기여워 tagcry 우주돌멩이 tagcry 아진짜어떡행 tagcry tagquestion taglove 어떡해진짜잼thth ㅓ tagcry
 sbs_boss	me2rang	POST	pyov4fu-41k		2011-08-16	프읗흐하하핳 보스 지키다 어뜨케어뜨케 tagsmile 지성한테 빠지지말자빠지지말자빠지지말자 임자있다임자있다임자
 sbs_boss	tvxq_5boys	POST	pyov9pl-5uo9e		2011-08-15	나 나다 닉네 닉네임 바꿀까봐 tagsmile 보스 끝나다 전 계속 이걸 이걸로 하려구 햇는뎅 내 내다 원래 닉네 닉네임 닉네임은 이게 아니라구 tagsmile 다섯개의별입니당 닷별 닷별이 닷별이라 불리다 하다 닉 닉이 차무원 차무원이 자꾸 차무원 무원 무원이 무원이라 불리다 tagsmile 차무원 차무원은 우리 재중여신님이자낭 감하다 재중녀신님 사칭할순없짘
 sbs_boss	skdud3377	POST	pyovnx7-or0_		2011-08-15	보스 지키다 재밌엌 tagsmile 캐릭터 캐릭터들도 귀엽곸 tagsmile 아 근데 아빠한테 이미 공주 남자 보여주다 망망 망한듯
 sbs_boss	dhxofla	POST	pyox2sk-yzk0x		2011-08-17	보스 지키다 최강희 김재중 대학 데이트 코믹 표정
-sbs_boss	11vickie	POST	pyox4nc-_q79y		2011-08-17	보스 지키다 대박 tagexclamation 재밌당tagsmile
-sbs_boss	sw9760	POST	pyox5e0-_e4rr		2011-08-17	보스  보스를 지켜라ost 엠스트리트 설 서다 묻다 음원공개 tagexclamation
+sbs_boss	11vickie	POST	pyox4nc-_q79y		2011-08-17	보스 지키다 대박 tagexclamation 재밌당 tagsmile
+sbs_boss	sw9760	POST	pyox5e0-_e4rr		2011-08-17	0 보스 지켜라ost 엠스트리트 설 서다 묻다 음원공개 tagexclamation
 sbs_boss	dkstpfl426	POST	pyox7ag-_qg0t		2011-08-17	헐시빵 그러고보니깐 오늘보스를지켜라
-sbs_boss	wonyj0111	POST	pyox978-fl91		2011-08-16	내일 드디어 보스를지켜 화 호다 tagexclamation
-sbs_boss	techerhan	POST	pyoxa96-y6lgy		2011-08-16	보스 지키다 ost part 노래 정말 좋아요tagsmile 짱 짱임 네이버뮤직 보스 지키다 ost part
+sbs_boss	wonyj0111	POST	pyox978-fl91		2011-08-16	내일 드디어 보스를지켜 5화 tagexclamation
+sbs_boss	techerhan	POST	pyoxa96-y6lgy		2011-08-16	보스 지키다 ost part 1 노래 정말 좋다 tagsmile 짱 짱임 네이버뮤직 보스 지키다 ost part 1
 sbs_boss	24_126	POST	pyoxizs-_h_8p		2011-08-17	눈뜨다 널 널다 바라보다 못하다 지치다 추억 흐려지다 맘 난 나다 날다 찾다 못하다 많다 울다 지치다 이상 못하다 생각 너르다 보다 괜찮다 같다 지키다 싶어 싶다 잘못 나쁘다 버릇 힘들다 날 나다 웃다 만드는거 만드는거야 좀 조다 힘들다 널 널다 사랑 라 라고 말 하다 할거 먼저 내 내다 품 오다 오 날 보스 지키다 ost 지켜줄게
-sbs_boss	kky71991024	POST	pyoxjms-yrglu		2011-08-17	오늘 시 분 보스 지키다 taglove
+sbs_boss	kky71991024	POST	pyoxjms-yrglu		2011-08-17	오늘 9시55 분 보스 지키다 taglove
 sbs_boss	jisu95942002	POST	pyoxog2-cn_j		2011-08-16	보스를지켜 최강희 노은설 설거지 dance
 sbs_boss	aip2000	POST	pyoxshc-yh87_		2011-08-15	보스를지켜라너무재밋어 tagsmile
-sbs_boss	anyonebang	POST	pyoxw16-bkgw		2011-08-17	오늘도학원에감니ㄷㅏ오늘보스를지켜라 tagexclamation tagsmile
+sbs_boss	anyonebang	POST	pyoxw16-bkgw		2011-08-17	오늘도학원에감니 ㄷㅏ 오늘보스를지켜라 tagexclamation tagsmile
 sbs_boss	tjdgml7689	POST	pyoxxod-_gtv		2011-08-17	오늘 보스 지키다 한당 tagsmile
-sbs_boss	tnskhg23	POST	pyoxyds-jmvq		2011-08-17	오늘은보스를지켜 회하다 taglove 보스를지켜라대박 taglove 차무원역김재중 taglove 대박 넌내게반했어마지막회가이번주라니 tagcry 슬퍼 슬프다 tagcry 내가좋아하는건데 tagcry
-sbs_boss	kminhee97	POST	pyoxzua-532w		2011-08-16	sbs 보스 지키다 왠지 기다리다 드라마 아쉽다 오늘 수요일 아니다 아니 오 싵 tagexclamation tagcry 지성 귀요미 수가tagsmile
-sbs_boss	lucy105	COMMENT	pym0753-_j05i	c_n74yf-ym0753-_j05i	2011-08-19	나도 나다 나 수목 영어 tagcry 분늦게 보다 tagcry
-sbs_boss	betty980101	COMMENT	pym0753-_j05i	c_v0bro-ym0753-_j05i	2011-08-20	시 분 마쳐주면 뭐 집 가다 가늘다 시간걸리잖 tagcry
+sbs_boss	tnskhg23	POST	pyoxyds-jmvq		2011-08-17	오늘은보스를지켜라5 회하다 taglove 보스를지켜라대박 taglove 차무원역김재중 taglove 대박 넌내게반했어마지막회가이번주라니 tagcry 슬퍼 슬프다 tagcry 내가좋아하는건데 tagcry
+sbs_boss	kminhee97	POST	pyoxzua-532w		2011-08-16	sbs 보스 지키다 왠지 기다리다 드라마 아쉽다 오늘 수요일 아니다 아니 오 싵 tagexclamation tagcry 지성 귀요미 수가 수 tagsmile
+sbs_boss	lucy105	COMMENT	pym0753-_j05i	c_n74yf-ym0753-_j05i	2011-08-19	나도 나다 나 수목 영어 tagcry 15분늦게 보다 tagcry
+sbs_boss	betty980101	COMMENT	pym0753-_j05i	c_v0bro-ym0753-_j05i	2011-08-20	9시 50분 50분에 마쳐주면 뭐 집 가다 가늘다 시간걸리잖 tagcry
 sbs_boss	gpwls1997	COMMENT	pym0he6-1tz1	c_vr29a-ym0he6-1tz1	2011-08-19	카아 카아의 마음 찢어지다 카아 카아는 아니다 샤월 샤월의 아버님 카아 카아이기 ㄷ 김재중 완전 멋있는뎁 tagcry
 sbs_boss	gpwls1997	COMMENT	pym0he6-1tz1	c_vr2qv-ym0he6-1tz1	2011-08-19	아 어제 sk팬 tagsmile 진짜 진상이였엌 tagsmile 마운드 불지르곸 tagsmile 야구공 훔쳐가곸 tagsmile
 sbs_boss	ghkdnjs	COMMENT	pym0he6-1tz1	c_vuy_b-ym0he6-1tz1	2011-08-21	프런트 프런트가 미친거지 미친썅쑈발라새끼 누구때문에작년 우승
 sbs_boss	gpwls1997	COMMENT	pym0he6-1tz1	c_vz76e-ym0he6-1tz1	2011-08-21	sk구단쪽 tagquestion
-sbs_boss	ghkdnjs	COMMENT	pym0he6-1tz1	c_vzft4-ym0he6-1tz1	2011-08-21	김성근감독 누 누가 짜르래tagquestion
+sbs_boss	ghkdnjs	COMMENT	pym0he6-1tz1	c_vzft4-ym0he6-1tz1	2011-08-21	김성근감독 누 누가 짜르래 tagquestion
 sbs_boss	mage122	COMMENT	pym326o-_5y7f	c_n41sd-ym326o-_5y7f	2011-08-18	재밌어 재밌어요 tagsmile 어제못봤는데
-sbs_boss	nomoreday	COMMENT	pym326o-_5y7f	c_n4u2b-ym326o-_5y7f	2011-08-18	무사 보셨나요tagquestion 저 보고 보다 보 있다 tagsmile
-sbs_boss	iceberg97	COMMENT	pym326o-_5y7f	c_nlke8-ym326o-_5y7f	2011-08-19	본방 사수 완료tagquestion
-sbs_boss	pet3120	COMMENT	pym32iz-ykpku	c_v050u-ym32iz-ykpku	2011-08-20	이몸 이몸이 꽁짜 꽁짜로 보는법 갈켜주리tagquestion
+sbs_boss	nomoreday	COMMENT	pym326o-_5y7f	c_n4u2b-ym326o-_5y7f	2011-08-18	무사 보다 보셨 tagquestion 저 보고 보다 보 있다 tagsmile
+sbs_boss	iceberg97	COMMENT	pym326o-_5y7f	c_nlke8-ym326o-_5y7f	2011-08-19	본방 사수 완료 tagquestion
+sbs_boss	pet3120	COMMENT	pym32iz-ykpku	c_v050u-ym32iz-ykpku	2011-08-20	이몸 이몸이 꽁짜 꽁짜로 보는법 갈켜주리 tagquestion
 sbs_boss	sanjoa98	COMMENT	pym32iz-ykpku	c_v0unh-ym32iz-ykpku	2011-08-20	넹 tagsmile
 sbs_boss	bluesj0512	COMMENT	pym346j-5lpua	c_n410m-ym346j-5lpua	2011-08-18	이분 빠지다 tagsmile
 sbs_boss	boon098	COMMENT	pym346j-5lpua	c_n41hu-ym346j-5lpua	2011-08-18	tagsmile 재미져 넌내반 살짝 밀리다
-sbs_boss	boon098	COMMENT	pym346j-5lpua	c_n41lp-ym346j-5lpua	2011-08-18	어떤거tagquestion 요새 재미난거 있나tagquestion
+sbs_boss	boon098	COMMENT	pym346j-5lpua	c_n41lp-ym346j-5lpua	2011-08-18	어떤거 tagquestion 요새 재미난거 있다 있 tagquestion
 sbs_boss	phjmc	COMMENT	pym346j-5lpua	c_n41sb-ym346j-5lpua	2011-08-18	아 영화 보고싶당
 sbs_boss	boon098	COMMENT	pym346j-5lpua	c_n490l-ym346j-5lpua	2011-08-18	빈 빈이 보러가욤
 sbs_boss	phjmc	COMMENT	pym346j-5lpua	c_n49dl-ym346j-5lpua	2011-08-18	많다 보이든데 tagsmile
@@ -952,22 +952,22 @@ sbs_boss	egoistyle	COMMENT	pym3gge-iu2p	c_nv41_-ym3gge-iu2p	2011-08-18	심 공�
 sbs_boss	sungoon81	COMMENT	pym3gge-iu2p	c_nv42y-ym3gge-iu2p	2011-08-18	느낌 느끼다 알다 tagexclamation 아 이런걸 이런걸로 공감 안되다 tagcry
 sbs_boss	egoistyle	COMMENT	pym3gge-iu2p	c_nv45m-ym3gge-iu2p	2011-08-18	허리 일자 피다 펴다 같다
 sbs_boss	egoistyle	COMMENT	pym3gge-iu2p	c_nv47c-ym3gge-iu2p	2011-08-18	아 그런데 그런데도 아직 못 일어나다
-sbs_boss	egoistyle	COMMENT	pym3gge-iu2p	c_nv4yw-ym3gge-iu2p	2011-08-18	아 이동욱 이동욱과 미치다 인가요tagquestion 사진 사다 보다 들어가다 미친했던가tagquestion 교류 있을리 만무 까먹다 있다
+sbs_boss	egoistyle	COMMENT	pym3gge-iu2p	c_nv4yw-ym3gge-iu2p	2011-08-18	아 이동욱 이동욱과 미치다 인가 tagquestion 사진 사다 보다 들어가다 미친 tagquestion 교류 있을리 만무 까먹다 있다
 sbs_boss	flea7	COMMENT	pym3gge-iu2p	c_nv4zq-ym3gge-iu2p	2011-08-18	tagsmile 언제까지 언제 청춘 생각 왜 외다 몸 말다 말 안들을까 안들을까요
-sbs_boss	ruby7980	COMMENT	pym3gge-iu2p	c_nvh0t-ym3gge-iu2p	2011-08-18	tagsmile 귀여우세 이동욱 이동욱과 미친tagquestion 저두 저두요
+sbs_boss	ruby7980	COMMENT	pym3gge-iu2p	c_nvh0t-ym3gge-iu2p	2011-08-18	tagsmile 귀여우세 이동욱 이동욱과 미치다 tagquestion 저두 저두요
 sbs_boss	sungoon81	COMMENT	pym3gge-iu2p	c_nvh2h-ym3gge-iu2p	2011-08-18	이부자리 인간 tagsmile 아 난 나다 날다 왜 외다 공감하는거
 sbs_boss	flea7	COMMENT	pym3gge-iu2p	c_nvl60-ym3gge-iu2p	2011-08-18	전 절다 사춘기 tagexclamation
-sbs_boss	sungoon81	COMMENT	pym3gge-iu2p	c_nvll0-ym3gge-iu2p	2011-08-18	아직이요tagquestion 음 그것 공감 안되다 tagsmile 다행
+sbs_boss	sungoon81	COMMENT	pym3gge-iu2p	c_nvll0-ym3gge-iu2p	2011-08-18	아직 아직이 아직이요 tagquestion 음 그것 공감 안되다 tagsmile 다행
 sbs_boss	egoistyle	COMMENT	pym3gge-iu2p	c_nvly9-ym3gge-iu2p	2011-08-18	전 절다 청춘 tagexclamation
 sbs_boss	flea7	COMMENT	pym3gge-iu2p	c_nvn1m-ym3gge-iu2p	2011-08-18	tagsmile 과음 안좋아 안좋아요 tagexclamation
 sbs_boss	jso_osj	COMMENT	pym3x1u-5ddo8	c_n4w2x-ym3x1u-5ddo8	2011-08-18	저번에보 좀 조다 오글거렸어 tagsmile 근데잘생겼음
 sbs_boss	love_z13	COMMENT	pym3x1u-5ddo8	c_vo9dz-ym3x1u-5ddo8	2011-08-22	tagsmile 난많이오글거리더 tagsmile 그래도얼굴이다커버해줌 tagsmile
-sbs_boss	mjp0524	COMMENT	pym3x65-ylwg7	c_n48il-ym3x65-ylwg7	2011-08-18	tagsmile 진짜tagquestion 대박
+sbs_boss	mjp0524	COMMENT	pym3x65-ylwg7	c_n48il-ym3x65-ylwg7	2011-08-18	tagsmile 진짜 tagquestion 대박
 sbs_boss	yoojinlove2	COMMENT	pym5cfx-6ghl	c_n3uvv-ym5cfx-6ghl	2011-08-20	살리다 안될시기 살렸나봐 tagsmile
 sbs_boss	yoojinlove2	COMMENT	pym5cfx-6ghl	c_n5i9c-ym5cfx-6ghl	2011-08-19	퀵 퀵보 재밌는지 알리다
 sbs_boss	lbj9159	COMMENT	pym5cfx-6ghl	c_n5m5x-ym5cfx-6ghl	2011-08-19	야 장유진 이민호 있잖어 tagexclamation
-sbs_boss	lbj9159	COMMENT	pym5cfx-6ghl	c_n5ml6-ym5cfx-6ghl	2011-08-19	내다 영화보러 가다 가늘다 혹성탈출 볼까tagquestion 아니다 퀵볼까tagquestion
-sbs_boss	lbj9159	COMMENT	pym5cfx-6ghl	c_n5mt2-ym5cfx-6ghl	2011-08-19	뭐 tagexclamation tagsmile 캠핑은tagquestion 돌아왔냐tagquestion
+sbs_boss	lbj9159	COMMENT	pym5cfx-6ghl	c_n5ml6-ym5cfx-6ghl	2011-08-19	내다 영화보러 가다 가늘다 혹성탈출 보다 tagquestion 아니다 퀵볼까 tagquestion
+sbs_boss	lbj9159	COMMENT	pym5cfx-6ghl	c_n5mt2-ym5cfx-6ghl	2011-08-19	뭐 tagexclamation tagsmile 캠핑 tagquestion 돌아오다 tagquestion
 sbs_boss	yoojinlove2	COMMENT	pym5cfx-6ghl	c_n5mua-ym5cfx-6ghl	2011-08-19	돌아온지가언젠데 tagsmile
 sbs_boss	yoojinlove2	COMMENT	pym5cfx-6ghl	c_n5mwh-ym5cfx-6ghl	2011-08-19	난이민호내꺼라고한적 tagsmile 그런사람을어떻게독점소유하고자할수 tagsmile
 sbs_boss	sky6560218	COMMENT	pym5cfx-6ghl	c_n5x00-ym5cfx-6ghl	2011-08-19	혹성탈출 잼 굳 tagsmile
@@ -986,7 +986,7 @@ sbs_boss	hellogirl123	COMMENT	pym6hug-l2v2	c_n52cs-ym6hug-l2v2	2011-08-19	공남
 sbs_boss	cjswoalsrud	COMMENT	pym6hug-l2v2	c_n54ff-ym6hug-l2v2	2011-08-19	시른데에에에 시른데에에에에
 sbs_boss	cjswoalsrud	COMMENT	pym6hug-l2v2	c_n5n6v-ym6hug-l2v2	2011-08-19	왜그럼재밌음
 sbs_boss	minse154	COMMENT	pym6hug-l2v2	c_n5nj0-ym6hug-l2v2	2011-08-19	알겠숑 정색 tagsmile
-sbs_boss	minse154	COMMENT	pym6hug-l2v2	c_n5n_6-ym6hug-l2v2	2011-08-19	tagsmile 넌네게 반 시청률 tagsmile
+sbs_boss	minse154	COMMENT	pym6hug-l2v2	c_n5n_6-ym6hug-l2v2	2011-08-19	tagsmile 넌네게 반 시청률3 tagsmile
 sbs_boss	3943146	COMMENT	pym6hug-l2v2	c_nz6m8-ym6hug-l2v2	2011-08-23	내남자
 sbs_boss	wlgp5408	COMMENT	pym6xec-_clt2	c_nmhqd-ym6xec-_clt2	2011-08-22	나 나다
 sbs_boss	sindy86	COMMENT	pym96dz-hl39	c_vqmk4-ym96dz-hl39	2011-08-21	따다 드라마 다끊었는데 tagsmile 보스 봐야 봐야함 tagsmile
@@ -994,19 +994,19 @@ sbs_boss	victory3812	COMMENT	pymbw8e-_gdhg	c_vwhgn-ymbw8e-_gdhg	2011-08-19	공�
 sbs_boss	true0418	COMMENT	pymeoz_-ylolc	c_vr6b3-ymeoz_-ylolc	2011-08-19	글쿠 글쿠나 윤상현 나오는서 잼
 sbs_boss	whiteang04	COMMENT	pymeoz_-ylolc	c_vr6pw-ymeoz_-ylolc	2011-08-19	윤상현 나오다 들마 들마는 뜨다 해서 하다 다들 기대 있대
 sbs_boss	whiteang04	COMMENT	pymeoz_-ylolc	c_vr6_b-ymeoz_-ylolc	2011-08-19	어 자정전 목욜 막방 난 나다 날다 아직 아직도 못 있다 담주 최지우 윤상현 윤상현의 지다 지고 못살다 방영
-sbs_boss	elfsubi	COMMENT	pymeoz_-ylolc	c_vr_ff-ymeoz_-ylolc	2011-08-19	싫다 싫어 사람 내리다 였나tagquestion
-sbs_boss	true0418	COMMENT	pymeoz_-ylolc	c_vr_n6-ymeoz_-ylolc	2011-08-19	넌내게반 벌쓰다 끝났나tagquestion
+sbs_boss	elfsubi	COMMENT	pymeoz_-ylolc	c_vr_ff-ymeoz_-ylolc	2011-08-19	싫다 싫어 사람 내리다 였 tagquestion
+sbs_boss	true0418	COMMENT	pymeoz_-ylolc	c_vr_n6-ymeoz_-ylolc	2011-08-19	넌내게반 벌쓰다 끝나다 끝났 tagquestion
 sbs_boss	whiteang04	COMMENT	pymeoz_-ylolc	c_vr_tx-ymeoz_-ylolc	2011-08-19	맞다 맞다 tagsmile
 sbs_boss	whiteang04	COMMENT	pymeoz_-ylolc	c_vr_y8-ymeoz_-ylolc	2011-08-19	근데 아직 하나팁 하나팁에 안올라왔어
-sbs_boss	chh3105	COMMENT	pymk66g-f5zu	c_n1ipj-ymk66g-f5zu	2011-08-20	고거 잼있엉tagquestion 나다 나 그거 영웅재중 넘흐 못생기다 오다 슬프다 안봄 tagexclamation ㅁ
+sbs_boss	chh3105	COMMENT	pymk66g-f5zu	c_n1ipj-ymk66g-f5zu	2011-08-20	고거 잼있엉 tagquestion 나다 나 그거 영웅재중 넘흐 못생기다 오다 슬프다 안봄 tagexclamation ㅁ
 sbs_boss	dltngustptkd	COMMENT	pymk66g-f5zu	c_n664q-ymk66g-f5zu	2011-08-19	아마
 sbs_boss	dltngustptkd	COMMENT	pymk66g-f5zu	c_n667d-ymk66g-f5zu	2011-08-19	tagsmile 난 나다 날다 재미
-sbs_boss	kjy990217	COMMENT	pymk66g-f5zu	c_n6kee-ymk66g-f5zu	2011-08-19	아그래tagquestion한번도안봐서 tagsmile
-sbs_boss	dltngustptkd	COMMENT	pymk66g-f5zu	c_n6kjz-ymk66g-f5zu	2011-08-19	tagsmile 지금 미투하냐tagquestion
-sbs_boss	kjy990217	COMMENT	pymk66g-f5zu	c_n6_sr-ymk66g-f5zu	2011-08-19	그거재밌어tagquestion
+sbs_boss	kjy990217	COMMENT	pymk66g-f5zu	c_n6kee-ymk66g-f5zu	2011-08-19	아그래 tagquestion 한번도안봐서 tagsmile
+sbs_boss	dltngustptkd	COMMENT	pymk66g-f5zu	c_n6kjz-ymk66g-f5zu	2011-08-19	tagsmile 지금 미투 미투하냐 tagquestion
+sbs_boss	kjy990217	COMMENT	pymk66g-f5zu	c_n6_sr-ymk66g-f5zu	2011-08-19	그거재밌어 tagquestion
 sbs_boss	dltngustptkd	COMMENT	pymk66g-f5zu	c_nw_bn-ymk66g-f5zu	2011-08-21	tagsmile 영웅재중 조아 조아하 조아하는 군 굴다 tagsmile
 sbs_boss	binbin70	COMMENT	pymyvba-pxai	c_nayet-ymyvba-pxai	2011-08-24	마자마자 지성 완전 대박 tagexclamation
 sbs_boss	120411066	COMMENT	pym_2cq-5bq5j	c_v6619-ym_2cq-5bq5j	2011-08-26	tagsmile
-sbs_boss	alzl0515	COMMENT	pym_2cq-5bq5j	c_vksj7-ym_2cq-5bq5j	2011-08-27	승준이지tagquestion
-sbs_boss	doflquf12	COMMENT	pym_2jb-yq5v5	c_n5j2y-ym_2jb-yq5v5	2011-08-19	영웅재중 나와tagquestion
+sbs_boss	alzl0515	COMMENT	pym_2cq-5bq5j	c_vksj7-ym_2cq-5bq5j	2011-08-27	승준 승준이지 tagquestion
+sbs_boss	doflquf12	COMMENT	pym_2jb-yq5v5	c_n5j2y-ym_2jb-yq5v5	2011-08-19	영웅재중 나오다 나 tagquestion
 sbs_boss	only1004lo	COMMENT	pyo7u6z-or0_	c_2qoaj-yo7u6z-or0_	2011-08-17	저 비슷 비슷하군 비슷하군요 저두 드라마 오에스티 오에스티에 퓨욱

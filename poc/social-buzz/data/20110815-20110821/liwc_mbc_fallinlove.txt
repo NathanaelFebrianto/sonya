@@ -7,7 +7,6 @@ mbc_fallinlove	nahae9814	POST	pym03nd-5ghs0		2011-08-19	PRESENT	1.0	오늘
 mbc_fallinlove	nahae9814	POST	pym03nd-5ghs0		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	nahae9814	POST	pym03nd-5ghs0		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	nahae9814	POST	pym03nd-5ghs0		2011-08-19	CRYMARK	1.0	tagcry
-mbc_fallinlove	nahae9814	POST	pym03nd-5ghs0		2011-08-19	POSITIVE	1.0	즐겁다
 mbc_fallinlove	yelin7578	POST	pym043v-1smz		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	yelin7578	POST	pym043v-1smz		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	yelin7578	POST	pym046j-1smz		2011-08-18	EXCLAMMARK	1.0	tagexclamation
@@ -24,6 +23,7 @@ mbc_fallinlove	oguswjd12o	POST	pym04w1-yvqnh		2011-08-19	POSITIVE	1.0	재미있
 mbc_fallinlove	yelin7578	POST	pym04yg-1smz		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	dornr19	POST	pym0577-5azn8		2011-08-19	PRESENT	2.0	오늘 이제
 mbc_fallinlove	dornr19	POST	pym0577-5azn8		2011-08-19	CONJUNCTION	1.0	하지만
+mbc_fallinlove	dornr19	POST	pym0577-5azn8		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	dornr19	POST	pym0577-5azn8		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	dornr19	POST	pym0577-5azn8		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	dornr19	POST	pym0577-5azn8		2011-08-19	CRYMARK	1.0	tagcry
@@ -35,6 +35,7 @@ mbc_fallinlove	grace2465	POST	pym06zd-yxd6y		2011-08-19	PRESENT	1.0	이제
 mbc_fallinlove	grace2465	POST	pym06zd-yxd6y		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	grace2465	POST	pym06zd-yxd6y		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	tjsals526	POST	pym075i-_dhgs		2011-08-18	PRESENT	1.0	오늘
+mbc_fallinlove	tjsals526	POST	pym075i-_dhgs		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	kja1332	POST	pym079h-yv377		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	kanghee62400	POST	pym07fl-ysu7m		2011-08-18	SEE	1.0	보다
 mbc_fallinlove	cfg452	POST	pym07u8-32l8		2011-08-18	SMILEMARK	1.0	tagsmile
@@ -61,9 +62,11 @@ mbc_fallinlove	jena1218	POST	pym0drz-yq4z1		2011-08-18	LOVEMARK	1.0	taglove
 mbc_fallinlove	jena1218	POST	pym0drz-yq4z1		2011-08-18	NEGATIVE	1.0	막장
 mbc_fallinlove	jmy31183	POST	pym0dyj-ysia3		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	jmy31183	POST	pym0dyj-ysia3		2011-08-18	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	jmy31183	POST	pym0dyj-ysia3		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	jmy31183	POST	pym0dyj-ysia3		2011-08-18	LOVEMARK	1.0	taglove
 mbc_fallinlove	jmy31183	POST	pym0dyj-ysia3		2011-08-18	POSITIVE	1.0	좋다
 mbc_fallinlove	dudtlf56	POST	pym0fkl-yvk07		2011-08-19	SEE	1.0	보다
+mbc_fallinlove	jena1218	POST	pym0gex-yq4z1		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	jena1218	POST	pym0gex-yq4z1		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	tkfadkssud	POST	pym0gtx-_fpsz		2011-08-19	POSITIVE	1.0	웃다
 mbc_fallinlove	kujy	POST	pym0h1o-cm6z		2011-08-18	PRESENT	1.0	오늘
@@ -86,6 +89,7 @@ mbc_fallinlove	jya3478	POST	pym0ij2-y9fx0		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	jya3478	POST	pym0ij2-y9fx0		2011-08-19	SADNESS	1.0	슬프다
 mbc_fallinlove	sieun1302	POST	pym0imt-y1672		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	yj001222	POST	pym0iom-y29hf		2011-08-19	PRESENT	1.0	이제
+mbc_fallinlove	yj001222	POST	pym0iom-y29hf		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	yj001222	POST	pym0iom-y29hf		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	yj001222	POST	pym0iom-y29hf		2011-08-19	SADNESS	1.0	슬프다
 mbc_fallinlove	hyejin980	POST	pym0iqu-e8b9		2011-08-19	EXCLAMMARK	1.0	tagexclamation
@@ -96,6 +100,7 @@ mbc_fallinlove	yunsoo1231	POST	pym0lhx-5iufd		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	tldus9641	POST	pym0lko-5l13_		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	tldus9641	POST	pym0lko-5l13_		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	tldus9641	POST	pym0lko-5l13_		2011-08-18	SEE	1.0	보다
+mbc_fallinlove	s777_	POST	pym0lze-5yk1k		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	s777_	POST	pym0lze-5yk1k		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	s777_	POST	pym0lze-5yk1k		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	smin8739	POST	pym0mlt-yy5e2		2011-08-20	PRESENT	1.0	지금
@@ -103,6 +108,7 @@ mbc_fallinlove	smin8739	POST	pym0mlt-yy5e2		2011-08-20	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	an72536	POST	pym0nja-5ym0s		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	an72536	POST	pym0nja-5ym0s		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	kem902	POST	pym0nk8-_sm5q		2011-08-18	PRESENT	1.0	오늘
+mbc_fallinlove	kem902	POST	pym0nk8-_sm5q		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	nim2992	POST	pym0o1e-5vnr5		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	nim2992	POST	pym0o1e-5vnr5		2011-08-19	LOVEMARK	1.0	taglove
 mbc_fallinlove	fnsk04027	POST	pym0of6-5z4q8		2011-08-19	EXCLAMMARK	1.0	tagexclamation
@@ -113,6 +119,7 @@ mbc_fallinlove	fnsk04027	POST	pym0opo-5z4q8		2011-08-19	SEE	1.0	보다
 mbc_fallinlove	fnsk04027	POST	pym0oro-5z4q8		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	fnsk04027	POST	pym0oro-5z4q8		2011-08-19	SEE	1.0	보다
 mbc_fallinlove	nim2992	POST	pym0oru-5vnr5		2011-08-19	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	nim2992	POST	pym0oru-5vnr5		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	nim2992	POST	pym0oru-5vnr5		2011-08-19	LOVEMARK	1.0	taglove
 mbc_fallinlove	nim2992	POST	pym0oru-5vnr5		2011-08-19	POSITIVE	1.0	재미있
 mbc_fallinlove	murch20	POST	pym0q7m-5qn1a		2011-08-18	PRESENT	2.0	오늘 이제
@@ -120,6 +127,7 @@ mbc_fallinlove	murch20	POST	pym0q7m-5qn1a		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	tldus9641	POST	pym0qgq-5l13_		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	tldus9641	POST	pym0qgq-5l13_		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	munkeoung01	POST	pym0squ-yl5zh		2011-08-19	PRESENT	1.0	요즘
+mbc_fallinlove	munkeoung01	POST	pym0squ-yl5zh		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	munkeoung01	POST	pym0squ-yl5zh		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	munkeoung01	POST	pym0squ-yl5zh		2011-08-19	SMILEMARK	1.0	크
 mbc_fallinlove	munkeoung01	POST	pym0squ-yl5zh		2011-08-19	CRYMARK	1.0	tagcry
@@ -129,6 +137,7 @@ mbc_fallinlove	dpwngud	POST	pym0tbb-5izyq		2011-08-19	CONJUNCTION	1.0	하지만
 mbc_fallinlove	dpwngud	POST	pym0tbb-5izyq		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	dpwngud	POST	pym0tbb-5izyq		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	lyw2680	POST	pym0tbi-ywgvc		2011-08-18	PRESENT	1.0	오늘
+mbc_fallinlove	lyw2680	POST	pym0tbi-ywgvc		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	lyw2680	POST	pym0tbi-ywgvc		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	lyw2680	POST	pym0tbi-ywgvc		2011-08-18	SEE	1.0	보다
 mbc_fallinlove	01043225414	POST	pym0tbj-y_fsu		2011-08-20	SMILEMARK	1.0	tagsmile
@@ -139,6 +148,7 @@ mbc_fallinlove	tldus9641	POST	pym0u4c-5l13_		2011-08-18	SEE	1.0	보다
 mbc_fallinlove	0031303	POST	pym0u57-5bx30		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	0031303	POST	pym0u57-5bx30		2011-08-18	QUANTIFIER	1.0	너무
 mbc_fallinlove	0031303	POST	pym0u57-5bx30		2011-08-18	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	0031303	POST	pym0u57-5bx30		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	0031303	POST	pym0u57-5bx30		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	0031303	POST	pym0u57-5bx30		2011-08-18	LOVEMARK	1.0	taglove
 mbc_fallinlove	0031303	POST	pym0u57-5bx30		2011-08-18	SADNESS	1.0	슬프
@@ -151,9 +161,11 @@ mbc_fallinlove	mj5728	POST	pym0ug3-_sa7a		2011-08-18	NEGATIVE	1.0	속상
 mbc_fallinlove	mj5728	POST	pym0ug3-_sa7a		2011-08-18	ANGER	1.0	속상
 mbc_fallinlove	shlanny	POST	pym0vai-80y1		2011-08-18	POSITIVE	1.0	좋아
 mbc_fallinlove	salondepoom	POST	pym0vf8-5s7bj		2011-08-19	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	01066499930	POST	pym0w2t-y4sgn		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	01066499930	POST	pym0w2t-y4sgn		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	01066499930	POST	pym0w2t-y4sgn		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	sunlight0914	POST	pym0w4x-811j		2011-08-19	PAST	1.0	어제
+mbc_fallinlove	sunlight0914	POST	pym0w4x-811j		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	sunlight0914	POST	pym0w4x-811j		2011-08-19	LOVEMARK	1.0	taglove
 mbc_fallinlove	sunlight0914	POST	pym0w4x-811j		2011-08-19	SEE	1.0	보다
 mbc_fallinlove	jane5692	POST	pym0wjj-ye0lx		2011-08-19	EXCLAMMARK	1.0	tagexclamation
@@ -182,6 +194,7 @@ mbc_fallinlove	lyk820	POST	pym0xzx-xxyv		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	goodkissjg	POST	pym0yka-5skoo		2011-08-18	POSITIVE	1.0	행복
 mbc_fallinlove	molly99329	POST	pym0yv1-_8if4		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	molly99329	POST	pym0yv1-_8if4		2011-08-18	QUANTIFIER	1.0	너무
+mbc_fallinlove	molly99329	POST	pym0yv1-_8if4		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	molly99329	POST	pym0yv1-_8if4		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	molly99329	POST	pym0yv1-_8if4		2011-08-18	LOVEMARK	1.0	taglove
 mbc_fallinlove	molly99329	POST	pym0yv1-_8if4		2011-08-18	POSITIVE	1.0	좋다
@@ -216,9 +229,13 @@ mbc_fallinlove	lhm811	POST	pym1vxa-c259		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	lhm811	POST	pym1vxa-c259		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	lhm811	POST	pym1vxa-c259		2011-08-20	CRYMARK	1.0	tagcry
 mbc_fallinlove	lhm811	POST	pym1vxa-c259		2011-08-20	SEE	1.0	보다
+mbc_fallinlove	wodnjs1204	POST	pym1x6y-y_mpq		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	wodnjs1204	POST	pym1x6y-y_mpq		2011-08-20	SEE	1.0	보다
+mbc_fallinlove	ckehdwn75	POST	pym1_ky-_rre1		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	akswn325	POST	pym30w2-5yslt		2011-08-20	PRESENT	1.0	이제
+mbc_fallinlove	akswn325	POST	pym30w2-5yslt		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	akswn325	POST	pym30w2-5yslt		2011-08-20	CRYMARK	2.0	흑흑 tagcry
+mbc_fallinlove	akswn325	POST	pym30w2-5yslt		2011-08-20	SEE	1.0	보다
 mbc_fallinlove	yjwj7505	POST	pym31zn-5tih0		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	yjwj7505	POST	pym31zn-5tih0		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	yjwj7505	POST	pym31zn-5tih0		2011-08-18	NEGATIVE	1.0	미워
@@ -229,6 +246,8 @@ mbc_fallinlove	wonj0637	POST	pym32ae-548p6		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	wonj0637	POST	pym32ae-548p6		2011-08-18	POSITIVE	1.0	좋아하다
 mbc_fallinlove	kny980820	POST	pym32oz-qulu		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	kny980820	POST	pym32oz-qulu		2011-08-18	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	kny980820	POST	pym32oz-qulu		2011-08-18	SMILEMARK	1.0	tagsmile
+mbc_fallinlove	hazzang2000	POST	pym34b3-5_ewp		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	hazzang2000	POST	pym34dd-5_ewp		2011-08-20	SEE	1.0	보다
 mbc_fallinlove	hazzang2000	POST	pym34fk-5_ewp		2011-08-20	POSITIVE	1.0	좋아하다
 mbc_fallinlove	shinnara119	POST	pym34hz-feh5		2011-08-18	PRESENT	1.0	지금
@@ -236,6 +255,7 @@ mbc_fallinlove	shinnara119	POST	pym34hz-feh5		2011-08-18	EXCLAMMARK	1.0	tagexcla
 mbc_fallinlove	shinnara119	POST	pym34hz-feh5		2011-08-18	SEE	1.0	보다
 mbc_fallinlove	hazzang2000	POST	pym34pr-5_ewp		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	hazzang2000	POST	pym34qa-5_ewp		2011-08-20	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	hazzang2000	POST	pym34uf-5_ewp		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	hazzang2000	POST	pym34yw-5_ewp		2011-08-20	PRESENT	1.0	지금
 mbc_fallinlove	hazzang2000	POST	pym34yw-5_ewp		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	koo05068	POST	pym363c-yme01		2011-08-18	EXCLAMMARK	1.0	tagexclamation
@@ -244,6 +264,7 @@ mbc_fallinlove	hoben97	POST	pym375h-79sh		2011-08-18	PRESENT	1.0	이제
 mbc_fallinlove	hoben97	POST	pym375h-79sh		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	hoben97	POST	pym375h-79sh		2011-08-18	SEE	1.0	보다
 mbc_fallinlove	jisiklog	POST	pym3788-_rcxy		2011-08-18	PRESENT	1.0	오늘
+mbc_fallinlove	jisiklog	POST	pym3788-_rcxy		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	wise9140	POST	pym37mi-5922z		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	wise9140	POST	pym37mi-5922z		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	wise9140	POST	pym37mi-5922z		2011-08-18	CRYMARK	1.0	tagcry
@@ -251,7 +272,10 @@ mbc_fallinlove	wise9140	POST	pym37mi-5922z		2011-08-18	LOVEMARK	1.0	taglove
 mbc_fallinlove	wldk782	POST	pym37pd-5ir0p		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	wldk782	POST	pym37pd-5ir0p		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	jisiklog	POST	pym37r5-_rcxy		2011-08-18	PRESENT	1.0	오늘
+mbc_fallinlove	jisiklog	POST	pym37r5-_rcxy		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	jisiklog	POST	pym37rs-_rcxy		2011-08-18	PRESENT	1.0	오늘
+mbc_fallinlove	jisiklog	POST	pym37rs-_rcxy		2011-08-18	QUESTIONMARK	1.0	tagquestion
+mbc_fallinlove	zizizi2000	POST	pym37sx-nrxb		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	gmldud2389	POST	pym37tj-_3qv9		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	gmldud2389	POST	pym37tj-_3qv9		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	gmldud2389	POST	pym37tj-_3qv9		2011-08-18	CRYMARK	1.0	tagcry
@@ -271,6 +295,7 @@ mbc_fallinlove	dar2223	POST	pym3au6-ygm9o		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	dar2223	POST	pym3au6-ygm9o		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	_-busy	POST	pym3aze-5t4bo		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	sutvtr	POST	pym3bap-_hlhb		2011-08-20	PRESENT	1.0	요즘
+mbc_fallinlove	sutvtr	POST	pym3bap-_hlhb		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	sutvtr	POST	pym3bap-_hlhb		2011-08-20	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	sutvtr	POST	pym3bap-_hlhb		2011-08-20	POSITIVE	1.0	행복
 mbc_fallinlove	pjo2529	POST	pym3bkg-_06si		2011-08-18	PRESENT	1.0	오늘
@@ -278,6 +303,7 @@ mbc_fallinlove	pjo2529	POST	pym3bkg-_06si		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	pjo2529	POST	pym3bkg-_06si		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	pjo2529	POST	pym3bkg-_06si		2011-08-18	SADNESS	1.0	슬프다
 mbc_fallinlove	2656chlwjddm	POST	pym3bwt-5pxaw		2011-08-18	PRESENT	1.0	오늘
+mbc_fallinlove	2656chlwjddm	POST	pym3bwt-5pxaw		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	2656chlwjddm	POST	pym3bwt-5pxaw		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	2656chlwjddm	POST	pym3bwt-5pxaw		2011-08-18	POSITIVE	1.0	좋다
 mbc_fallinlove	smj2594	POST	pym3c0z-5ie4u		2011-08-18	PRESENT	1.0	오늘
@@ -288,6 +314,8 @@ mbc_fallinlove	smj2594	POST	pym3ccg-5ie4u		2011-08-18	EXCLAMMARK	1.0	tagexclamat
 mbc_fallinlove	sas6680	POST	pym3fyr-yrm9l		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	sas6680	POST	pym3fyr-yrm9l		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	thinthing92	POST	pym3g1j-_6_zj		2011-08-20	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	seomin1233	POST	pym3gaj-5e3iv		2011-08-18	SMILEMARK	1.0	tagsmile
+mbc_fallinlove	seomin1233	POST	pym3gaj-5e3iv		2011-08-18	POSITIVE	1.0	웃기다
 mbc_fallinlove	ja97p	POST	pym3gvv-5kq2i		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	ja97p	POST	pym3gvv-5kq2i		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	ja97p	POST	pym3gvv-5kq2i		2011-08-18	SMILEMARK	1.0	tagsmile
@@ -298,8 +326,10 @@ mbc_fallinlove	bay06002	POST	pym3hjq-_o9g9		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	bay06002	POST	pym3hjq-_o9g9		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	bay06002	POST	pym3hjq-_o9g9		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	jangwon280	POST	pym3l2e-9ftl		2011-08-18	LOVEMARK	1.0	taglove
+mbc_fallinlove	jwjs99	POST	pym3l32-i3ly		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	jwjs99	POST	pym3l32-i3ly		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	jwjs99	POST	pym3l32-i3ly		2011-08-20	CRYMARK	1.0	tagcry
+mbc_fallinlove	jooyea98	POST	pym3l38-5k6mk		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	jooyea98	POST	pym3l38-5k6mk		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	jooyea98	POST	pym3l38-5k6mk		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	jooyea98	POST	pym3l38-5k6mk		2011-08-18	NEGATIVE	1.0	막장
@@ -309,7 +339,7 @@ mbc_fallinlove	ekdusrha	POST	pym3l8h-59qgn		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	ekdusrha	POST	pym3l8h-59qgn		2011-08-18	LOVEMARK	1.0	taglove
 mbc_fallinlove	pjw4755	POST	pym3lpk-pvfx		2011-08-18	PAST	1.0	어제
 mbc_fallinlove	pjw4755	POST	pym3lpk-pvfx		2011-08-18	PRESENT	1.0	오늘
-mbc_fallinlove	pjw4755	POST	pym3lpk-pvfx		2011-08-18	CONJUNCTION	1.0	그리고
+mbc_fallinlove	pjw4755	POST	pym3lpk-pvfx		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	pjw4755	POST	pym3lpk-pvfx		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	pjw4755	POST	pym3lpk-pvfx		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	pjw4755	POST	pym3lpk-pvfx		2011-08-18	ANGER	1.0	미치다
@@ -318,6 +348,7 @@ mbc_fallinlove	hart0822	POST	pym3lz7-rg7y		2011-08-18	POSITIVE	1.0	좋다
 mbc_fallinlove	joannheo	POST	pym3mox-yftkm		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	joannheo	POST	pym3mox-yftkm		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	munkeoung01	POST	pym3oja-yl5zh		2011-08-18	PRESENT	1.0	오늘
+mbc_fallinlove	munkeoung01	POST	pym3oja-yl5zh		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	munkeoung01	POST	pym3oja-yl5zh		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	munkeoung01	POST	pym3oja-yl5zh		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	munkeoung01	POST	pym3oja-yl5zh		2011-08-18	SEE	1.0	보다
@@ -325,6 +356,7 @@ mbc_fallinlove	dkfma1596	POST	pym3rkq-_btb2		2011-08-20	CRYMARK	1.0	tagcry
 mbc_fallinlove	kwkim2580	POST	pym3s0k-5413o		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	kwkim2580	POST	pym3s0k-5413o		2011-08-18	SMILEMARK	1.0	크
 mbc_fallinlove	sksqltmxmvos	POST	pym3s88-584hp		2011-08-18	PRESENT	1.0	오늘
+mbc_fallinlove	sksqltmxmvos	POST	pym3s88-584hp		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	sksqltmxmvos	POST	pym3s88-584hp		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	sksqltmxmvos	POST	pym3s88-584hp		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	jsh09251205	POST	pym3sp7-3f3t		2011-08-20	CRYMARK	1.0	tagcry
@@ -332,12 +364,14 @@ mbc_fallinlove	jsh09251205	POST	pym3sp7-3f3t		2011-08-20	POSITIVE	1.0	웃다
 mbc_fallinlove	munkeoung01	POST	pym3szk-yl5zh		2011-08-18	PRESENT	1.0	지금
 mbc_fallinlove	munkeoung01	POST	pym3szk-yl5zh		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	munkeoung01	POST	pym3szk-yl5zh		2011-08-18	SEE	1.0	보다
+mbc_fallinlove	cho208610	POST	pym3t9z-_gdhg		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	cho208610	POST	pym3t9z-_gdhg		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	cho208610	POST	pym3t9z-_gdhg		2011-08-18	SADNESS	1.0	불쌍
 mbc_fallinlove	cho208610	POST	pym3t9z-_gdhg		2011-08-18	SEE	1.0	보다
 mbc_fallinlove	cho208610	POST	pym3try-_gdhg		2011-08-18	PRESENT	2.0	오늘 이제
 mbc_fallinlove	cho208610	POST	pym3try-_gdhg		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	cho208610	POST	pym3try-_gdhg		2011-08-18	CRYMARK	1.0	tagcry
+mbc_fallinlove	singlove794	POST	pym3u42-_jw11		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	mjkim_dr	POST	pym3u4g-y6yb1		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	mjkim_dr	POST	pym3u4g-y6yb1		2011-08-18	LOVEMARK	1.0	taglove
 mbc_fallinlove	sunnyinpraha	POST	pym3uyj-5o_xx		2011-08-18	PRESENT	1.0	오늘
@@ -346,13 +380,16 @@ mbc_fallinlove	sunnyinpraha	POST	pym3uyj-5o_xx		2011-08-18	LOVEMARK	1.0	taglove
 mbc_fallinlove	sunnyinpraha	POST	pym3uyj-5o_xx		2011-08-18	SADNESS	1.0	슬프다
 mbc_fallinlove	jangwon280	POST	pym3vdv-9ftl		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	jangwon280	POST	pym3vdv-9ftl		2011-08-18	CONJUNCTION	1.0	그런데
+mbc_fallinlove	jangwon280	POST	pym3vdv-9ftl		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	jangwon280	POST	pym3vdv-9ftl		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	jangwon280	POST	pym3vdv-9ftl		2011-08-18	LOVEMARK	1.0	taglove
 mbc_fallinlove	jangwon280	POST	pym3vdv-9ftl		2011-08-18	SEE	1.0	보다
+mbc_fallinlove	hazzang2000	POST	pym3vgh-5_ewp		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	hazzang2000	POST	pym3vgh-5_ewp		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	hazzang2000	POST	pym3vnr-5_ewp		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	hazzang2000	POST	pym3von-5_ewp		2011-08-20	PRESENT	1.0	이제
 mbc_fallinlove	hazzang2000	POST	pym3vtg-5_ewp		2011-08-20	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	hazzang2000	POST	pym3vx9-5_ewp		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	umin1002	POST	pym3wdn-yooyq		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	umin1002	POST	pym3wdn-yooyq		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	godqhrgo_97	POST	pym3wr3-_sc17		2011-08-18	PAST	1.0	어제
@@ -385,9 +422,11 @@ mbc_fallinlove	sja04119	POST	pym3xgv-yyvet		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	sja04119	POST	pym3xgv-yyvet		2011-08-18	LOVEMARK	1.0	taglove
 mbc_fallinlove	aofursuz1	POST	pym3xid-yh7k_		2011-08-18	PRESENT	1.0	지금
 mbc_fallinlove	aofursuz1	POST	pym3xid-yh7k_		2011-08-18	SMILEMARK	1.0	tagsmile
+mbc_fallinlove	ssj990308	POST	pym3xjt-528sg		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	ssj990308	POST	pym3xjt-528sg		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	ssj990308	POST	pym3xjt-528sg		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	ssj990308	POST	pym3xjt-528sg		2011-08-18	SADNESS	1.0	슬프다
+mbc_fallinlove	ondub1214	POST	pym3xkd-_3t3m		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	ondub1214	POST	pym3xkd-_3t3m		2011-08-18	SMILEMARK	1.0	흐
 mbc_fallinlove	ondub1214	POST	pym3xkd-_3t3m		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	ayasika	POST	pym3xkt-osq		2011-08-18	SMILEMARK	1.0	tagsmile
@@ -405,6 +444,7 @@ mbc_fallinlove	sara991026	POST	pym3xtr-lt12		2011-08-18	LOVEMARK	1.0	taglove
 mbc_fallinlove	chawoo112	POST	pym3xv3-_i2k5		2011-08-18	SADNESS	1.0	슬프다
 mbc_fallinlove	chawoo112	POST	pym3xv3-_i2k5		2011-08-18	SEE	1.0	보다
 mbc_fallinlove	123hiphop	POST	pym3xvm-5ghrf		2011-08-18	CRYMARK	1.0	tagcry
+mbc_fallinlove	wise9140	POST	pym3xw3-5922z		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	wise9140	POST	pym3xw3-5922z		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	wise9140	POST	pym3xw3-5922z		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	wise9140	POST	pym3xw3-5922z		2011-08-18	CRYMARK	1.0	tagcry
@@ -421,16 +461,19 @@ mbc_fallinlove	smj2594	POST	pym3zw3-5ie4u		2011-08-18	EXCLAMMARK	1.0	tagexclamat
 mbc_fallinlove	smj2594	POST	pym3zw3-5ie4u		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	0119cjh	POST	pym50k8-5yamp		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	0119cjh	POST	pym50k8-5yamp		2011-08-18	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	0119cjh	POST	pym50k8-5yamp		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	qufqhr532	POST	pym50oi-5ezrb		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	qufqhr532	POST	pym50oi-5ezrb		2011-08-16	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	qufqhr532	POST	pym50oi-5ezrb		2011-08-16	CRYMARK	1.0	tagcry
 mbc_fallinlove	qufqhr532	POST	pym50oi-5ezrb		2011-08-16	POSITIVE	2.0	좋아하다 좋다
 mbc_fallinlove	qufqhr532	POST	pym50oi-5ezrb		2011-08-16	SEE	1.0	보다
 mbc_fallinlove	enwns0302	POST	pym50o_-5tcy7		2011-08-18	EXCLAMMARK	1.0	tagexclamation
-mbc_fallinlove	enwns0302	POST	pym50pw-5tcy7		2011-08-18	POSITIVE	1.0	좋아
+mbc_fallinlove	enwns0302	POST	pym50pw-5tcy7		2011-08-18	SMILEMARK	1.0	tagsmile
+mbc_fallinlove	enwns0302	POST	pym50pw-5tcy7		2011-08-18	POSITIVE	1.0	좋아하다
 mbc_fallinlove	4229800	POST	pym52sg-5s7ww		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	iioveiu	POST	pym535p-5oltt		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	iioveiu	POST	pym535p-5oltt		2011-08-19	SEE	1.0	보다
+mbc_fallinlove	huwls	POST	pym53ma-_smqd		2011-08-16	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	huwls	POST	pym53ma-_smqd		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	huwls	POST	pym53ma-_smqd		2011-08-16	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	huwls	POST	pym53ma-_smqd		2011-08-16	LOVEMARK	1.0	taglove
@@ -454,25 +497,31 @@ mbc_fallinlove	sally7175	POST	pym59bs-yqrq9		2011-08-19	POSITIVE	1.0	좋다
 mbc_fallinlove	ghkdtmfks123	POST	pym59mo-yc3bt		2011-08-16	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	kimnuri99	POST	pym59ti-5f3db		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	kimnuri99	POST	pym59ti-5f3db		2011-08-19	SMILEMARK	1.0	tagsmile
+mbc_fallinlove	wjhwjh0511	POST	pym59z8-ym68x		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	wjhwjh0511	POST	pym59z8-ym68x		2011-08-19	CRYMARK	1.0	tagcry
+mbc_fallinlove	wjhwjh0511	POST	pym59z8-ym68x		2011-08-19	SEE	1.0	보다
 mbc_fallinlove	hby01020	POST	pym5a2_-5742i		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	hby01020	POST	pym5a2_-5742i		2011-08-18	CRYMARK	1.0	tagcry
+mbc_fallinlove	musicstore1	POST	pym5a68-_fnof		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	7gnikrats	POST	pym5bdo-yf_hw		2011-08-16	LOVEMARK	1.0	taglove
 mbc_fallinlove	0515jyc	POST	pym5bdx-y5kok		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	24401166	POST	pym5cca-5226r		2011-08-19	PAST	1.0	어제
 mbc_fallinlove	kgeun980301	POST	pym5d8j-lmjm		2011-08-19	PRESENT	1.0	오늘
 mbc_fallinlove	kgeun980301	POST	pym5d8j-lmjm		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	kmn6947	POST	pym5e6j-51d7c		2011-08-19	PRESENT	1.0	오늘
-mbc_fallinlove	hby01020	POST	pym5eoy-5742i		2011-08-18	PAST	1.0	어제
+mbc_fallinlove	hby01020	POST	pym5eoy-5742i		2011-08-18	PAST	1.0	어제15
 mbc_fallinlove	hby01020	POST	pym5eoy-5742i		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	lomino	POST	pym5f4y-jsf_		2011-08-19	SADNESS	1.0	쓸쓸
+mbc_fallinlove	kayoung607	POST	pym5f76-i_oo		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	kayoung607	POST	pym5f76-i_oo		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	enrmsenrms85	POST	pym5fed-_8ubl		2011-08-19	PRESENT	1.0	지금
 mbc_fallinlove	enrmsenrms85	POST	pym5fed-_8ubl		2011-08-19	CRYMARK	1.0	tagcry
+mbc_fallinlove	lomino	POST	pym5fu7-jsf_		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	smileppu	POST	pym5hin-_55xh		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	smileppu	POST	pym5hin-_55xh		2011-08-18	SEE	1.0	보다
 mbc_fallinlove	trg2141	POST	pym5hk4-l464		2011-08-19	POSITIVE	1.0	보고싶어
 mbc_fallinlove	qwe25698	POST	pym5hkx-56hh3		2011-08-19	PAST	1.0	어제
+mbc_fallinlove	qwe25698	POST	pym5hkx-56hh3		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	qwe25698	POST	pym5hkx-56hh3		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	qwe25698	POST	pym5hkx-56hh3		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	qwe25698	POST	pym5hkx-56hh3		2011-08-19	CRYMARK	1.0	tagcry
@@ -490,6 +539,7 @@ mbc_fallinlove	beastboram	POST	pym5jti-59r93		2011-08-19	QUESTIONMARK	1.0	tagque
 mbc_fallinlove	beastboram	POST	pym5jti-59r93		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	sun09721	POST	pym5l1_-y816h		2011-08-19	PAST	1.0	어제
 mbc_fallinlove	sun09721	POST	pym5l1_-y816h		2011-08-19	QUANTIFIER	1.0	너무
+mbc_fallinlove	sun09721	POST	pym5l1_-y816h		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	sun09721	POST	pym5l1_-y816h		2011-08-19	LOVEMARK	1.0	taglove
 mbc_fallinlove	sck07126	POST	pym5lh9-_y69_		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	sck07126	POST	pym5lh9-_y69_		2011-08-18	LOVEMARK	1.0	taglove
@@ -501,8 +551,10 @@ mbc_fallinlove	won0choi	POST	pym5mhp-_50hz		2011-08-19	SADNESS	1.0	슬프다
 mbc_fallinlove	smilehihi37	POST	pym5mto-yzx1d		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	smilehihi37	POST	pym5mto-yzx1d		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	dltnqls5451	POST	pym5njs-ia7a		2011-08-16	PRESENT	1.0	이번주
+mbc_fallinlove	dltnqls5451	POST	pym5njs-ia7a		2011-08-16	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	dltnqls5451	POST	pym5njs-ia7a		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	dltnqls5451	POST	pym5njs-ia7a		2011-08-16	SMILEMARK	1.0	tagsmile
+mbc_fallinlove	katejade	POST	pym5nl6-_j17a		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	katejade	POST	pym5nl6-_j17a		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	katejade	POST	pym5nl6-_j17a		2011-08-19	CRYMARK	2.0	tagcry 흑흑
 mbc_fallinlove	cjw9152	POST	pym5oi0-gr15		2011-08-19	SMILEMARK	1.0	tagsmile
@@ -521,6 +573,7 @@ mbc_fallinlove	szyoung	POST	pym5wz7-y86z3		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	juliasm5	POST	pym5x5v-5pj59		2011-08-19	POSITIVE	1.0	보고싶어
 mbc_fallinlove	juliasm5	POST	pym5x5v-5pj59		2011-08-19	SEE	1.0	보다
 mbc_fallinlove	juliasm5	POST	pym5xdp-5pj59		2011-08-19	PRESENT	1.0	이제
+mbc_fallinlove	0425ddd	POST	pym5xiz-5u3p7		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	0425ddd	POST	pym5xiz-5u3p7		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	wltjs3320	POST	pym5xj4-h1dr		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	wltjs3320	POST	pym5xj4-h1dr		2011-08-19	SMILEMARK	1.0	크
@@ -537,6 +590,7 @@ mbc_fallinlove	yura_me2day	POST	pym60ac-_ogmw		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	yura_me2day	POST	pym60ac-_ogmw		2011-08-18	POSITIVE	1.0	보고싶다
 mbc_fallinlove	yura_me2day	POST	pym60b7-_ogmw		2011-08-18	PRESENT	2.0	오늘 이제
 mbc_fallinlove	yura_me2day	POST	pym60b7-_ogmw		2011-08-18	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	yura_me2day	POST	pym60b7-_ogmw		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	yura_me2day	POST	pym60b7-_ogmw		2011-08-18	POSITIVE	1.0	행복
 mbc_fallinlove	junes26	POST	pym61je-yxvov		2011-08-19	SEE	1.0	보다
 mbc_fallinlove	star0319	POST	pym626q-yyvol		2011-08-19	SMILEMARK	1.0	tagsmile
@@ -568,6 +622,7 @@ mbc_fallinlove	hby01020	POST	pym68_7-5742i		2011-08-19	PRESENT	1.0	이제
 mbc_fallinlove	ocean181112	POST	pym69pb-_if30		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	aofursuz1	POST	pym6afn-yh7k_		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	wjsekqls9	POST	pym6al_-rmut		2011-08-17	FUTURE	1.0	내일
+mbc_fallinlove	wjsekqls9	POST	pym6al_-rmut		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	wjsekqls9	POST	pym6al_-rmut		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	gaeui4414	POST	pym6ap8-yn253		2011-08-19	PAST	1.0	어제
 mbc_fallinlove	alfl980405	POST	pym6ars-f9za		2011-08-17	PRESENT	1.0	오늘
@@ -578,8 +633,10 @@ mbc_fallinlove	alfl980405	POST	pym6ars-f9za		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	alfl980405	POST	pym6ars-f9za		2011-08-17	SADNESS	1.0	아프
 mbc_fallinlove	chui132	POST	pym6asj-yq0cm		2011-08-20	SADNESS	1.0	슬프다
 mbc_fallinlove	wjsekqls9	POST	pym6at0-rmut		2011-08-17	FUTURE	1.0	내일
+mbc_fallinlove	wjsekqls9	POST	pym6at0-rmut		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	wjsekqls9	POST	pym6at0-rmut		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	wjsekqls9	POST	pym6aw0-rmut		2011-08-17	PRESENT	1.0	오늘
+mbc_fallinlove	wjsekqls9	POST	pym6aw0-rmut		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	wjsekqls9	POST	pym6aw0-rmut		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	wjsekqls9	POST	pym6aw0-rmut		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	kongsuni3451	POST	pym6aza-_9t_s		2011-08-19	POSITIVE	1.0	행복
@@ -610,13 +667,17 @@ mbc_fallinlove	sutvtr	POST	pym6e9x-_hlhb		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	sutvtr	POST	pym6e9x-_hlhb		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	sutvtr	POST	pym6e9x-_hlhb		2011-08-19	SADNESS	1.0	슬프다
 mbc_fallinlove	sutvtr	POST	pym6e9x-_hlhb		2011-08-19	SEE	1.0	보다
+mbc_fallinlove	jong4225	POST	pym6e_p-yjig2		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	lika2514	POST	pym6f8t-yazx_		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	rose2417	POST	pym6fse-yr03r		2011-08-19	PRESENT	1.0	이제
+mbc_fallinlove	rose2417	POST	pym6fse-yr03r		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	rose2417	POST	pym6fse-yr03r		2011-08-19	CRYMARK	1.0	tagcry
+mbc_fallinlove	rose2417	POST	pym6fse-yr03r		2011-08-19	SEE	1.0	보다
 mbc_fallinlove	rlatlr7220	POST	pym6fvm-5vjzw		2011-08-19	SMILEMARK	2.0	흐흐흐흐 tagsmile
 mbc_fallinlove	rlatlr7220	POST	pym6fvm-5vjzw		2011-08-19	CRYMARK	2.0	tagcry 흑
 mbc_fallinlove	dkswlgh7	POST	pym6g1m-5oprf		2011-08-19	PAST	1.0	어제
 mbc_fallinlove	dkswlgh7	POST	pym6g1m-5oprf		2011-08-19	PRESENT	3.0	오늘 요즘 올해
+mbc_fallinlove	dkswlgh7	POST	pym6g1m-5oprf		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	dkswlgh7	POST	pym6g1m-5oprf		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	dkswlgh7	POST	pym6g1m-5oprf		2011-08-19	LOVEMARK	1.0	taglove
 mbc_fallinlove	dkswlgh7	POST	pym6g1m-5oprf		2011-08-19	NEGATIVE	1.0	아쉬
@@ -624,13 +685,16 @@ mbc_fallinlove	rael0212	POST	pym6gct-sog5		2011-08-20	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	lucy771	POST	pym6htx-yzxro		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	mayber0	POST	pym6ica-5gch5		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	rainbow961	POST	pym6igy-yv2nl		2011-08-20	CRYMARK	1.0	tagcry
+mbc_fallinlove	sunnyksy1010	POST	pym6ilk-_ijuh		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	sh000305	POST	pym6jcd-yw2kx		2011-08-17	PRESENT	1.0	오늘
 mbc_fallinlove	sh000305	POST	pym6jcd-yw2kx		2011-08-17	FUTURE	1.0	내일
+mbc_fallinlove	sh000305	POST	pym6jcd-yw2kx		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	whgnlwp99	POST	pym6lm9-ywe9s		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	psm9384	POST	pym6m86-53nuo		2011-08-19	PAST	1.0	어제
 mbc_fallinlove	psm9384	POST	pym6m86-53nuo		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	psm9384	POST	pym6m86-53nuo		2011-08-19	POSITIVE	1.0	좋다
 mbc_fallinlove	fruity777	POST	pym6mbf-ykifh		2011-08-19	PAST	1.0	어제
+mbc_fallinlove	fruity777	POST	pym6mbf-ykifh		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	fruity777	POST	pym6mbf-ykifh		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	fruity777	POST	pym6mbf-ykifh		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	fruity777	POST	pym6mbf-ykifh		2011-08-19	SEE	1.0	보다
@@ -643,6 +707,7 @@ mbc_fallinlove	lyw2680	POST	pym6oc1-ywgvc		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	01gywn	POST	pym6ocp-y16nv		2011-08-19	PAST	1.0	어제
 mbc_fallinlove	01gywn	POST	pym6ocp-y16nv		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	engeliss	POST	pym6ost-yiofj		2011-08-17	CRYMARK	1.0	흑흑흑
+mbc_fallinlove	pink4591	POST	pym6ov0-5_yvj		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	1_young	POST	pym6p6t-5ojw1		2011-08-19	PAST	1.0	어제
 mbc_fallinlove	1_young	POST	pym6p6t-5ojw1		2011-08-19	CRYMARK	2.0	흑흑 tagcry
 mbc_fallinlove	yura_me2day	POST	pym6pyg-_ogmw		2011-08-19	PRESENT	1.0	오늘
@@ -657,18 +722,23 @@ mbc_fallinlove	metwoday0892	POST	pym6r4f-_mww7		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	danvi91	POST	pym6rn8-_sxsd		2011-08-19	PAST	1.0	어제
 mbc_fallinlove	danvi91	POST	pym6rn8-_sxsd		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	danvi91	POST	pym6rn8-_sxsd		2011-08-19	LOVEMARK	1.0	taglove
+mbc_fallinlove	lucy771	POST	pym6s8i-yzxro		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	lucy771	POST	pym6stf-yzxro		2011-08-20	QUANTIFIER	1.0	조금
+mbc_fallinlove	lucy771	POST	pym6stf-yzxro		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	lucy771	POST	pym6stf-yzxro		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	mayber0	POST	pym6t1l-5gch5		2011-08-19	SEE	1.0	보다
 mbc_fallinlove	ehddl45	POST	pym6tpc-_cq9i		2011-08-20	FUTURE	1.0	미래
 mbc_fallinlove	ehddl45	POST	pym6tpc-_cq9i		2011-08-20	HEAR	1.0	듣다
 mbc_fallinlove	sgm07129	POST	pym6tr1-5jqef		2011-08-19	PAST	1.0	어제
+mbc_fallinlove	sgm07129	POST	pym6tr1-5jqef		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	rnjsgpwls08	POST	pym6tuu-582z3		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	lsy1405	POST	pym6u15-ylxjt		2011-08-17	PRESENT	1.0	오늘
 mbc_fallinlove	lsy1405	POST	pym6u15-ylxjt		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	lsy1405	POST	pym6u15-ylxjt		2011-08-17	POSITIVE	1.0	좋다
+mbc_fallinlove	super_bob	POST	pym6u37-_hhsd		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	super_bob	POST	pym6u37-_hhsd		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	jmy31183	POST	pym6un5-ysia3		2011-08-17	FUTURE	1.0	내일
+mbc_fallinlove	jmy31183	POST	pym6un5-ysia3		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	jmy31183	POST	pym6un5-ysia3		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	jmy31183	POST	pym6un5-ysia3		2011-08-17	LOVEMARK	1.0	taglove
 mbc_fallinlove	kimnuri99	POST	pym6v1s-5f3db		2011-08-20	SMILEMARK	1.0	tagsmile
@@ -693,27 +763,33 @@ mbc_fallinlove	hwanjuluv	POST	pym6yb7-_adeh		2011-08-18	EXCLAMMARK	1.0	tagexclam
 mbc_fallinlove	hwanjuluv	POST	pym6yb7-_adeh		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	hwanjuluv	POST	pym6yb7-_adeh		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	hwanjuluv	POST	pym6yb7-_adeh		2011-08-18	POSITIVE	1.0	재미있
+mbc_fallinlove	hwcho9708	POST	pym6ysv-y4kdf		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	hwcho9708	POST	pym6ysv-y4kdf		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	hwcho9708	POST	pym6ysv-y4kdf		2011-08-18	CRYMARK	1.0	tagcry
+mbc_fallinlove	hwcho9708	POST	pym6ysv-y4kdf		2011-08-18	POSITIVE	1.0	부럽다
 mbc_fallinlove	hwcho9708	POST	pym6ysv-y4kdf		2011-08-18	SEE	1.0	보다
 mbc_fallinlove	sun332456	POST	pym6z1n-ivls		2011-08-17	PRESENT	1.0	오늘
 mbc_fallinlove	sun332456	POST	pym6z1n-ivls		2011-08-17	FUTURE	1.0	내일
 mbc_fallinlove	sun332456	POST	pym6z1n-ivls		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	tiger98tl	POST	pym6z3i-_mfxb		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	tiger98tl	POST	pym6z3i-_mfxb		2011-08-17	SEE	1.0	보다
+mbc_fallinlove	jisiklog	POST	pym6zfo-_rcxy		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	tjdtlf1028	POST	pym6_85-_hm41		2011-08-17	PRESENT	1.0	오늘
 mbc_fallinlove	tjdtlf1028	POST	pym6_85-_hm41		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	leemane97	POST	pym6_q2-ybv7z		2011-08-19	PRESENT	1.0	이제
 mbc_fallinlove	leemane97	POST	pym6_q2-ybv7z		2011-08-19	QUANTIFIER	1.0	너무
 mbc_fallinlove	leemane97	POST	pym6_q2-ybv7z		2011-08-19	LOVEMARK	1.0	taglove
+mbc_fallinlove	hsys38	POST	pym6_vp-bzwq		2011-08-19	QUESTIONMARK	1.0	tagquestion
+mbc_fallinlove	hsys38	POST	pym6_vp-bzwq		2011-08-19	POSITIVE	1.0	좋다
 mbc_fallinlove	doo155	POST	pym9336-5118w		2011-08-20	SMILEMARK	1.0	크
 mbc_fallinlove	doo155	POST	pym9336-5118w		2011-08-20	CRYMARK	1.0	tagcry
+mbc_fallinlove	yujin-1	POST	pym937c-_md39		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	yujin-1	POST	pym937c-_md39		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	yujin-1	POST	pym937c-_md39		2011-08-20	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	yujin-1	POST	pym937c-_md39		2011-08-20	LOVEMARK	1.0	taglove
 mbc_fallinlove	misskim308	POST	pym94a0-94yo		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	misskim308	POST	pym94a0-94yo		2011-08-20	SMILEMARK	1.0	tagsmile
-mbc_fallinlove	misskim308	POST	pym94a0-94yo		2011-08-20	POSITIVE	1.0	좋아
+mbc_fallinlove	misskim308	POST	pym94a0-94yo		2011-08-20	POSITIVE	1.0	좋다
 mbc_fallinlove	misskim308	POST	pym94tw-94yo		2011-08-20	PRESENT	1.0	요즘
 mbc_fallinlove	misskim308	POST	pym94tw-94yo		2011-08-20	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	wldb120	POST	pym958m-yxzj0		2011-08-20	PRESENT	1.0	이번주
@@ -723,9 +799,11 @@ mbc_fallinlove	angelina0_	POST	pym9969-5lqgd		2011-08-20	POSITIVE	1.0	좋다
 mbc_fallinlove	angelina0_	POST	pym99yx-5lqgd		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	wlwrl	POST	pym9ai0-_9ibf		2011-08-20	PRESENT	1.0	이제
 mbc_fallinlove	wlwrl	POST	pym9ai0-_9ibf		2011-08-20	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	tbayst	POST	pym9jix-_ipzs		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	kjsjhs	POST	pym9rue-airk		2011-08-20	PRESENT	1.0	요즘
 mbc_fallinlove	kjsjhs	POST	pym9rue-airk		2011-08-20	POSITIVE	1.0	좋아하다
 mbc_fallinlove	chlwlsgur000	POST	pym9wrm-5urax		2011-08-20	PRESENT	1.0	오늘
+mbc_fallinlove	chlwlsgur000	POST	pym9wrm-5urax		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	chlwlsgur000	POST	pym9wrm-5urax		2011-08-20	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	rjy0787	POST	pym9ybx-5lkld		2011-08-20	HEAR	1.0	듣다
 mbc_fallinlove	wldls2230	POST	pym9_95-_gkga		2011-08-20	EXCLAMMARK	1.0	tagexclamation
@@ -740,15 +818,19 @@ mbc_fallinlove	1701lim	POST	pymb0ya-551wy		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	tjqls796	POST	pymb1_q-5t1ed		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	tjqls796	POST	pymb1_q-5t1ed		2011-08-19	LOVEMARK	1.0	taglove
 mbc_fallinlove	gog683	POST	pymb2h4-_rkqe		2011-08-19	QUANTIFIER	1.0	너무
+mbc_fallinlove	gog683	POST	pymb2h4-_rkqe		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	gog683	POST	pymb2h4-_rkqe		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	gog683	POST	pymb2h4-_rkqe		2011-08-19	NEGATIVE	1.0	막장
+mbc_fallinlove	gog683	POST	pymb2h4-_rkqe		2011-08-19	SEE	1.0	보다
 mbc_fallinlove	qkrguswl4113	POST	pymb2i0-5_x70		2011-08-19	POSITIVE	1.0	행복
 mbc_fallinlove	lyw2680	POST	pymb7ei-ywgvc		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	lyw2680	POST	pymb7ei-ywgvc		2011-08-19	POSITIVE	1.0	좋다
 mbc_fallinlove	reehb0422	POST	pymbac8-yyv96		2011-08-20	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	mygongju89	POST	pymbbdd-5v_py		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	sol9546	POST	pymbbi1-ynl8e		2011-08-19	PAST	1.0	어제
 mbc_fallinlove	sol9546	POST	pymbbi1-ynl8e		2011-08-19	PRESENT	1.0	지금
 mbc_fallinlove	sol9546	POST	pymbbi1-ynl8e		2011-08-19	QUANTIFIER	1.0	많이
+mbc_fallinlove	sol9546	POST	pymbbi1-ynl8e		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	sol9546	POST	pymbbi1-ynl8e		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	sol9546	POST	pymbbi1-ynl8e		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	sol9546	POST	pymbbi1-ynl8e		2011-08-19	CRYMARK	1.0	tagcry
@@ -760,6 +842,7 @@ mbc_fallinlove	dudal0104	POST	pymbcco-ynd5k		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	flower990103	POST	pymbd2f-z7qv		2011-08-19	PRESENT	1.0	오늘
 mbc_fallinlove	flower990103	POST	pymbd2f-z7qv		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	flower990103	POST	pymbd2f-z7qv		2011-08-19	POSITIVE	1.0	웃다
+mbc_fallinlove	chltpdms0329	POST	pymbd2q-yczee		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	chltpdms0329	POST	pymbd2q-yczee		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	chltpdms0329	POST	pymbd2q-yczee		2011-08-19	LOVEMARK	1.0	taglove
 mbc_fallinlove	chltpdms0329	POST	pymbd2q-yczee		2011-08-19	POSITIVE	1.0	행복
@@ -771,21 +854,27 @@ mbc_fallinlove	sweetcom_yoa	POST	pymbfzx-_hpl4		2011-08-19	QUESTIONMARK	1.0	tagq
 mbc_fallinlove	dmsdud3676	POST	pymbg7e-yk9oz		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	dmsdud3676	POST	pymbg7e-yk9oz		2011-08-19	POSITIVE	1.0	좋아
 mbc_fallinlove	grace3914	POST	pymbge0-5ru7r		2011-08-19	PAST	1.0	어제
+mbc_fallinlove	grace3914	POST	pymbge0-5ru7r		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	grace3914	POST	pymbge0-5ru7r		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	grace3914	POST	pymbge0-5ru7r		2011-08-19	SMILEMARK	1.0	tagsmile
+mbc_fallinlove	grace3914	POST	pymbge0-5ru7r		2011-08-19	SEE	1.0	보다
 mbc_fallinlove	ssg04157	POST	pymbgvw-5o48k		2011-08-19	PAST	1.0	어제
 mbc_fallinlove	ssg04157	POST	pymbgvw-5o48k		2011-08-19	CRYMARK	2.0	tagcry 흑흑
 mbc_fallinlove	ssg04157	POST	pymbgvw-5o48k		2011-08-19	POSITIVE	1.0	좋다
 mbc_fallinlove	ssg04157	POST	pymbgvw-5o48k		2011-08-19	SADNESS	1.0	슬프다
 mbc_fallinlove	ssg04157	POST	pymbgvw-5o48k		2011-08-19	SEE	1.0	보다
+mbc_fallinlove	kdg3366	POST	pymbhrs-9rrd		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	kdg3366	POST	pymbhrs-9rrd		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	kdg3366	POST	pymbhrs-9rrd		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	osy991102	POST	pymbijf-yfeiw		2011-08-20	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	osy991102	POST	pymbijf-yfeiw		2011-08-20	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	tngus40223	POST	pymbjnu-50ddl		2011-08-19	LOVEMARK	1.0	taglove
 mbc_fallinlove	ok990930	POST	pymbjsx-yahxd		2011-08-19	PRESENT	1.0	이제
+mbc_fallinlove	ok990930	POST	pymbjsx-yahxd		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	ok990930	POST	pymbjsx-yahxd		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	sbi04398	POST	pymbjuq-1bqa		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	sbi04398	POST	pymbjuq-1bqa		2011-08-19	LOVEMARK	1.0	taglove
+mbc_fallinlove	ohinjeang	POST	pymbklz-y5p4s		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	ohinjeang	POST	pymbklz-y5p4s		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	ohinjeang	POST	pymbklz-y5p4s		2011-08-19	SMILEMARK	1.0	크
 mbc_fallinlove	gog683	POST	pymbneu-_rkqe		2011-08-19	PRESENT	1.0	이제
@@ -801,6 +890,8 @@ mbc_fallinlove	enwnssla	POST	pymbvrx-5_sbf		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	enwnssla	POST	pymbvrx-5_sbf		2011-08-19	LOVEMARK	1.0	taglove
 mbc_fallinlove	enwnssla	POST	pymbvrx-5_sbf		2011-08-19	POSITIVE	2.0	좋아하다 좋아
 mbc_fallinlove	enwnssla	POST	pymbvrx-5_sbf		2011-08-19	NEGATIVE	1.0	아쉬
+mbc_fallinlove	enwnssla	POST	pymbvrx-5_sbf		2011-08-19	SEE	1.0	보다
+mbc_fallinlove	cho208610	POST	pymbw8e-_gdhg		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	cho208610	POST	pymbw8e-_gdhg		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	khj199	POST	pymbx1c-5us2h		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	jc5921	POST	pymbxf8-yrco2		2011-08-19	EXCLAMMARK	1.0	tagexclamation
@@ -813,6 +904,7 @@ mbc_fallinlove	rmfrhc7	POST	pymd39c-_ghz4		2011-08-17	EXCLAMMARK	1.0	tagexclamat
 mbc_fallinlove	yewon33333	POST	pymd4ay-y49hs		2011-08-15	LOVEMARK	1.0	taglove
 mbc_fallinlove	didwlssud9	POST	pymd6qa-5nxal		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	didwlssud9	POST	pymd6qa-5nxal		2011-08-15	SMILEMARK	1.0	tagsmile
+mbc_fallinlove	baekdo991	POST	pymd9hz-nlp3		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	baekdo991	POST	pymd9hz-nlp3		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	baekdo991	POST	pymd9hz-nlp3		2011-08-18	LOVEMARK	1.0	taglove
 mbc_fallinlove	luckygirlsy	POST	pymd9my-5shch		2011-08-18	PRESENT	1.0	오늘
@@ -852,11 +944,15 @@ mbc_fallinlove	dus1434	POST	pymdri3-n_kq		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	dus1434	POST	pymdri3-n_kq		2011-08-18	NEGATIVE	1.0	막장
 mbc_fallinlove	syralove	POST	pymdsd9-_ovzf		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	syralove	POST	pymdsd9-_ovzf		2011-08-18	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	syralove	POST	pymdsd9-_ovzf		2011-08-18	SMILEMARK	1.0	tagsmile
+mbc_fallinlove	syralove	POST	pymdsd9-_ovzf		2011-08-18	POSITIVE	1.0	기쁘다
 mbc_fallinlove	girl_khj	POST	pymdv47-_qp4y		2011-08-15	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	9069109	POST	pymdvay-ki9m		2011-08-18	PRESENT	2.0	이제 지금
 mbc_fallinlove	9069109	POST	pymdvay-ki9m		2011-08-18	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	hellohihi12	POST	pymdwid-ywgvc		2011-08-15	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	hellohihi12	POST	pymdwid-ywgvc		2011-08-15	LOVEMARK	1.0	taglove
 mbc_fallinlove	hellohihi12	POST	pymdwid-ywgvc		2011-08-15	SEE	1.0	보다
+mbc_fallinlove	lyw2680	POST	pymdwnf-ywgvc		2011-08-15	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	lyw2680	POST	pymdwnf-ywgvc		2011-08-15	NEGATIVE	2.0	울고싶 속상
 mbc_fallinlove	lyw2680	POST	pymdwnf-ywgvc		2011-08-15	ANGER	1.0	속상
 mbc_fallinlove	lyw2680	POST	pymdwnf-ywgvc		2011-08-15	SADNESS	1.0	울고싶
@@ -873,8 +969,10 @@ mbc_fallinlove	dudalrkwhr17	POST	pyme02u-5k869		2011-08-18	PRESENT	1.0	이제
 mbc_fallinlove	dudalrkwhr17	POST	pyme02u-5k869		2011-08-18	QUANTIFIER	1.0	너무
 mbc_fallinlove	dudalrkwhr17	POST	pyme02u-5k869		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	hg5066	POST	pyme0dc-yi7rn		2011-08-18	PRESENT	2.0	오늘 이제
+mbc_fallinlove	hg5066	POST	pyme0dc-yi7rn		2011-08-18	QUESTIONMARK	1.0	tagquestion
+mbc_fallinlove	hg5066	POST	pyme0dc-yi7rn		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	hg5066	POST	pyme0dc-yi7rn		2011-08-18	CRYMARK	1.0	tagcry
-mbc_fallinlove	hg5066	POST	pyme0dc-yi7rn		2011-08-18	POSITIVE	1.0	좋아
+mbc_fallinlove	hg5066	POST	pyme0dc-yi7rn		2011-08-18	POSITIVE	2.0	좋다 좋아
 mbc_fallinlove	hg5066	POST	pyme0dc-yi7rn		2011-08-18	NEGATIVE	1.0	아쉬
 mbc_fallinlove	hg5066	POST	pyme0dc-yi7rn		2011-08-18	SEE	1.0	보다
 mbc_fallinlove	kujy	POST	pyme0l3-cm6z		2011-08-18	FUTURE	1.0	내일
@@ -898,6 +996,7 @@ mbc_fallinlove	nogihey	POST	pyme3eu-jayt		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	nogihey	POST	pyme3eu-jayt		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	nogihey	POST	pyme3eu-jayt		2011-08-18	SADNESS	1.0	외로
 mbc_fallinlove	nogihey	POST	pyme3eu-jayt		2011-08-18	SEE	1.0	보다
+mbc_fallinlove	jjanmin11	POST	pyme3j5-qm_7		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	jjanmin11	POST	pyme3j5-qm_7		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	wowdreamhigh	POST	pyme3jb-59504		2011-08-18	PRESENT	1.0	이제
 mbc_fallinlove	wowdreamhigh	POST	pyme3jb-59504		2011-08-18	EXCLAMMARK	1.0	tagexclamation
@@ -952,6 +1051,7 @@ mbc_fallinlove	thestar_kr	POST	pymednh-_f39l		2011-08-19	PAST	1.0	어제
 mbc_fallinlove	thestar_kr	POST	pymednh-_f39l		2011-08-19	SMILEMARK	1.0	크
 mbc_fallinlove	dkdud0586	POST	pymedzi-_bmun		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	dkdud0586	POST	pymedzi-_bmun		2011-08-18	SADNESS	1.0	불쌍
+mbc_fallinlove	zm8637	POST	pymee0h-ypm3e		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	zm8637	POST	pymee6t-ypm3e		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	zm8637	POST	pymee6t-ypm3e		2011-08-18	QUANTIFIER	1.0	너무
 mbc_fallinlove	zm8637	POST	pymee6t-ypm3e		2011-08-18	CRYMARK	1.0	tagcry
@@ -979,6 +1079,7 @@ mbc_fallinlove	imuc777girl	POST	pymejuf-_i4_n		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	imuc777girl	POST	pymejuf-_i4_n		2011-08-19	POSITIVE	1.0	좋아하다
 mbc_fallinlove	imuc777girl	POST	pymejuf-_i4_n		2011-08-19	SEE	1.0	보다
 mbc_fallinlove	gowlspwlq	POST	pymek02-5ulb4		2011-08-18	PRESENT	1.0	지금
+mbc_fallinlove	gowlspwlq	POST	pymek02-5ulb4		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	gowlspwlq	POST	pymek02-5ulb4		2011-08-18	SMILEMARK	1.0	흐
 mbc_fallinlove	gowlspwlq	POST	pymek02-5ulb4		2011-08-18	POSITIVE	1.0	재미있
 mbc_fallinlove	gowlspwlq	POST	pymek02-5ulb4		2011-08-18	SEE	1.0	보다
@@ -993,14 +1094,17 @@ mbc_fallinlove	tjd8612	POST	pymekc7-qxzx		2011-08-18	QUESTIONMARK	1.0	tagquestio
 mbc_fallinlove	tjd8612	POST	pymekc7-qxzx		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	tjd8612	POST	pymekc7-qxzx		2011-08-18	LOVEMARK	1.0	taglove
 mbc_fallinlove	tjd8612	POST	pymekc7-qxzx		2011-08-18	SEE	1.0	보다
+mbc_fallinlove	thsgpwjd98	POST	pymekdw-0l4b		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	thsgpwjd98	POST	pymekdw-0l4b		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	princekee	POST	pymekf8-_d604		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	princekee	POST	pymekf8-_d604		2011-08-18	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	princekee	POST	pymekf8-_d604		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	princekee	POST	pymekf8-_d604		2011-08-18	CRYMARK	1.0	흑
 mbc_fallinlove	princekee	POST	pymekf8-_d604		2011-08-18	SEE	1.0	보다
 mbc_fallinlove	fkrhfm	POST	pymekgb-y7bbw		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	fkrhfm	POST	pymekgb-y7bbw		2011-08-18	LOVEMARK	1.0	taglove
 mbc_fallinlove	fkrhfm	POST	pymekgb-y7bbw		2011-08-18	HEAR	1.0	느끼다
+mbc_fallinlove	beth99heo	POST	pymekjt-1xoh		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	beth99heo	POST	pymekjt-1xoh		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	beth99heo	POST	pymekjt-1xoh		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	beth99heo	POST	pymekjt-1xoh		2011-08-18	POSITIVE	1.0	행복
@@ -1013,16 +1117,21 @@ mbc_fallinlove	pinkp1105	POST	pymekm4-5psgz		2011-08-18	EXCLAMMARK	1.0	tagexclam
 mbc_fallinlove	pinkp1105	POST	pymekm4-5psgz		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	hongjy0717	POST	pymeknq-yh_zt		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	hongjy0717	POST	pymeknq-yh_zt		2011-08-18	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	hongjy0717	POST	pymeknq-yh_zt		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	hongjy0717	POST	pymeknq-yh_zt		2011-08-18	CRYMARK	1.0	tagcry
+mbc_fallinlove	hongjy0717	POST	pymeknq-yh_zt		2011-08-18	POSITIVE	1.0	좋다
 mbc_fallinlove	dbfks7458	POST	pymekq5-yhikv		2011-08-18	PRESENT	1.0	오늘
+mbc_fallinlove	dbfks7458	POST	pymekq5-yhikv		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	amykim2007	POST	pymektx-5uo9_		2011-08-18	PRESENT	2.0	오늘 이제
 mbc_fallinlove	amykim2007	POST	pymektx-5uo9_		2011-08-18	CRYMARK	1.0	tagcry
+mbc_fallinlove	kmh1567	POST	pymekx3-y7bye		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	kmh1567	POST	pymekx3-y7bye		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	kmh1567	POST	pymekx3-y7bye		2011-08-18	POSITIVE	1.0	좋다
 mbc_fallinlove	soy426_sr	POST	pymek_a-ut7m		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	dltjgus99	POST	pymek_h-9scr		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	dltjgus99	POST	pymek_h-9scr		2011-08-18	LOVEMARK	1.0	taglove
 mbc_fallinlove	qodlthf	POST	pymel_v-yxpso		2011-08-19	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	qodlthf	POST	pymel_v-yxpso		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	shsh2008	POST	pymem8i-yd_92		2011-08-19	PAST	1.0	어제
 mbc_fallinlove	shsh2008	POST	pymem8i-yd_92		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	shsh2008	POST	pymem8i-yd_92		2011-08-19	SMILEMARK	1.0	tagsmile
@@ -1031,6 +1140,7 @@ mbc_fallinlove	yrk330	POST	pymema3-yu0mu		2011-08-19	SEE	1.0	보다
 mbc_fallinlove	pkm9736	POST	pymemim-_8nzo		2011-08-19	POSITIVE	1.0	웃다
 mbc_fallinlove	seo00503	POST	pymensa-yqk51		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	tkfkddl0424	POST	pymeo71-w0rh		2011-08-19	SMILEMARK	1.0	tagsmile
+mbc_fallinlove	y10ws	POST	pymeomd-ya4xm		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	buibuibui	POST	pymepfc-y69xr		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	buibuibui	POST	pymepfc-y69xr		2011-08-19	POSITIVE	1.0	웃겨
 mbc_fallinlove	junelhw	POST	pymepju-9_dk		2011-08-19	PRESENT	1.0	오늘
@@ -1039,7 +1149,9 @@ mbc_fallinlove	junelhw	POST	pymepju-9_dk		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	junelhw	POST	pymepju-9_dk		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	julia2541	POST	pymeq3s-y04wz		2011-08-19	POSITIVE	1.0	멋지다
 mbc_fallinlove	rjy0787	POST	pymeqiu-5lkld		2011-08-19	PRESENT	1.0	이제
+mbc_fallinlove	rjy0787	POST	pymeqiu-5lkld		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	rjy0787	POST	pymeqiu-5lkld		2011-08-19	CRYMARK	1.0	tagcry
+mbc_fallinlove	rjy0787	POST	pymeqiu-5lkld		2011-08-19	SEE	1.0	보다
 mbc_fallinlove	wjsekqls9	POST	pymeqov-rmut		2011-08-19	PAST	1.0	어제
 mbc_fallinlove	wjsekqls9	POST	pymeqov-rmut		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	an72536	POST	pymeqrc-5ym0s		2011-08-19	SMILEMARK	1.0	tagsmile
@@ -1050,6 +1162,7 @@ mbc_fallinlove	hlwxe	POST	pymeros-y_myf		2011-08-19	SADNESS	1.0	외로
 mbc_fallinlove	hlwxe	POST	pymeros-y_myf		2011-08-19	SEE	1.0	보다
 mbc_fallinlove	2xlgamesasia	POST	pymes9b-yqwy6		2011-08-19	PAST	1.0	어제
 mbc_fallinlove	2xlgamesasia	POST	pymes9b-yqwy6		2011-08-19	PRESENT	1.0	요즘
+mbc_fallinlove	2xlgamesasia	POST	pymes9b-yqwy6		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	2xlgamesasia	POST	pymes9b-yqwy6		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	2xlgamesasia	POST	pymes9b-yqwy6		2011-08-19	POSITIVE	1.0	좋다
 mbc_fallinlove	2xlgamesasia	POST	pymes9b-yqwy6		2011-08-19	NEGATIVE	1.0	속상
@@ -1062,6 +1175,7 @@ mbc_fallinlove	sas6680	POST	pymetg0-yrm9l		2011-08-19	CONJUNCTION	1.0	하지만
 mbc_fallinlove	sas6680	POST	pymetg0-yrm9l		2011-08-19	LOVEMARK	1.0	taglove
 mbc_fallinlove	sas6680	POST	pymetg0-yrm9l		2011-08-19	NEGATIVE	1.0	아쉬
 mbc_fallinlove	leekid64462	POST	pymeu73-50eu4		2011-08-19	PAST	1.0	어제
+mbc_fallinlove	leekid64462	POST	pymeu73-50eu4		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	leekid64462	POST	pymeu73-50eu4		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	leekid64462	POST	pymeu73-50eu4		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	tjswls0323	POST	pymev1n-y1tx5		2011-08-19	PAST	1.0	어제
@@ -1069,8 +1183,10 @@ mbc_fallinlove	tjswls0323	POST	pymev1n-y1tx5		2011-08-19	PRESENT	1.0	이제
 mbc_fallinlove	tjswls0323	POST	pymev1n-y1tx5		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	tjswls0323	POST	pymev1n-y1tx5		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	tjswls0323	POST	pymev1n-y1tx5		2011-08-19	SEE	1.0	보다
+mbc_fallinlove	fjqmgkals	POST	pymevt5-yp2hn		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	fjqmgkals	POST	pymevt5-yp2hn		2011-08-19	POSITIVE	1.0	좋다
 mbc_fallinlove	rladpdms92	POST	pymevzm-k9lp		2011-08-18	PRESENT	1.0	오늘
+mbc_fallinlove	rladpdms92	POST	pymevzm-k9lp		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	rladpdms92	POST	pymevzm-k9lp		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	rladpdms92	POST	pymevzm-k9lp		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	rladpdms92	POST	pymevzm-k9lp		2011-08-18	CRYMARK	1.0	tagcry
@@ -1085,6 +1201,7 @@ mbc_fallinlove	gyp123147	POST	pymewxx-_da79		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	lovelycong00	POST	pymewzt-5uo57		2011-08-19	SMILEMARK	1.0	크
 mbc_fallinlove	andylau78	POST	pymex8f-ye38t		2011-08-19	SEE	1.0	보다
 mbc_fallinlove	hamsterparas	POST	pymey09-_sc90		2011-08-18	PRESENT	1.0	지금
+mbc_fallinlove	hamsterparas	POST	pymey09-_sc90		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	hamsterparas	POST	pymey09-_sc90		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	hamsterparas	POST	pymey09-_sc90		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	hamsterparas	POST	pymey09-_sc90		2011-08-18	LOVEMARK	1.0	taglove
@@ -1101,19 +1218,25 @@ mbc_fallinlove	sweet-lemon	POST	pymj3fc-5sm4x		2011-08-20	POSITIVE	1.0	웃다
 mbc_fallinlove	dnflwla13	POST	pymk17n-ymej_		2011-08-17	PRESENT	2.0	오늘 지금
 mbc_fallinlove	dnflwla13	POST	pymk17n-ymej_		2011-08-17	SEE	1.0	보다
 mbc_fallinlove	mypet2ne1	POST	pymk1tp-pq6_		2011-08-18	PRESENT	1.0	요즘
+mbc_fallinlove	mypet2ne1	POST	pymk1tp-pq6_		2011-08-18	SMILEMARK	1.0	tagsmile
+mbc_fallinlove	tlsgpals2	POST	pymk2tk-_hcd0		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	fbgpals1234	POST	pymk4e1-g3gk		2011-08-17	CRYMARK	1.0	tagcry
+mbc_fallinlove	thsgpwjd98	POST	pymk4p3-0l4b		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	thsgpwjd98	POST	pymk4p3-0l4b		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	bibi1003	POST	pymk4r7-yybh_		2011-08-19	PAST	1.0	어제
 mbc_fallinlove	bibi1003	POST	pymk4r7-yybh_		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	wise9140	POST	pymk4xr-5922z		2011-08-18	PRESENT	1.0	오늘
+mbc_fallinlove	wise9140	POST	pymk4xr-5922z		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	wise9140	POST	pymk4xr-5922z		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	wise9140	POST	pymk4xr-5922z		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	wise9140	POST	pymk4xr-5922z		2011-08-18	LOVEMARK	1.0	taglove
 mbc_fallinlove	kjksj7940	POST	pymk5x5-5b31o		2011-08-18	PAST	1.0	어제
 mbc_fallinlove	kjksj7940	POST	pymk5x5-5b31o		2011-08-18	PRESENT	1.0	오늘
+mbc_fallinlove	kjksj7940	POST	pymk5x5-5b31o		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	kjksj7940	POST	pymk5x5-5b31o		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	kjksj7940	POST	pymk5x5-5b31o		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	njh1730	POST	pymk5_6-5jwyx		2011-08-19	PRESENT	2.0	지금 요즘
+mbc_fallinlove	njh1730	POST	pymk5_6-5jwyx		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	njh1730	POST	pymk5_6-5jwyx		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	njh1730	POST	pymk5_6-5jwyx		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	njh1730	POST	pymk5_6-5jwyx		2011-08-19	LOVEMARK	1.0	taglove
@@ -1123,12 +1246,15 @@ mbc_fallinlove	nodark103	POST	pymk6_f-58bat		2011-08-19	PRESENT	1.0	이제
 mbc_fallinlove	nodark103	POST	pymk6_f-58bat		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	nodark103	POST	pymk6_f-58bat		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	munkeoung01	POST	pymk77c-yl5zh		2011-08-18	PRESENT	1.0	오늘
+mbc_fallinlove	munkeoung01	POST	pymk77c-yl5zh		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	munkeoung01	POST	pymk77c-yl5zh		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	munkeoung01	POST	pymk77c-yl5zh		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	munkeoung01	POST	pymk77c-yl5zh		2011-08-18	LOVEMARK	1.0	taglove
 mbc_fallinlove	munkeoung01	POST	pymk77c-yl5zh		2011-08-18	SADNESS	2.0	슬프 아프
+mbc_fallinlove	lmk9907	POST	pymk77y-e12p		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	sinbi5419	POST	pymk786-_sh11		2011-08-18	PRESENT	1.0	요즘
 mbc_fallinlove	sinbi5419	POST	pymk786-_sh11		2011-08-18	QUANTIFIER	1.0	너무
+mbc_fallinlove	sinbi5419	POST	pymk786-_sh11		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	sinbi5419	POST	pymk786-_sh11		2011-08-18	POSITIVE	1.0	재미있
 mbc_fallinlove	year1663	POST	pymk842-qyyj		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	skm0764	POST	pymk86v-l6wz		2011-08-19	SMILEMARK	2.0	흐 크
@@ -1138,6 +1264,7 @@ mbc_fallinlove	gksql1412	POST	pymk89y-yyv_4		2011-08-19	EXCLAMMARK	1.0	tagexclam
 mbc_fallinlove	whooon	POST	pymk8y1-_j_2e		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	kyr9888	POST	pymk9jy-55rnc		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	kyr9888	POST	pymk9t5-55rnc		2011-08-18	PRESENT	1.0	오늘
+mbc_fallinlove	kyr9888	POST	pymk9t5-55rnc		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	kyr9888	POST	pymk9t5-55rnc		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	kyr9888	POST	pymk9t5-55rnc		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	kimsooi2	POST	pymk9_l-5m1fu		2011-08-17	EXCLAMMARK	1.0	tagexclamation
@@ -1149,6 +1276,7 @@ mbc_fallinlove	ssj990308	POST	pymkc8n-528sg		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	ssj990308	POST	pymkc8n-528sg		2011-08-18	LOVEMARK	1.0	taglove
 mbc_fallinlove	pha0105	POST	pymkd26-tfp0		2011-08-19	PAST	1.0	어제
 mbc_fallinlove	pha0105	POST	pymkd26-tfp0		2011-08-19	PRESENT	1.0	이제
+mbc_fallinlove	pha0105	POST	pymkd26-tfp0		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	pha0105	POST	pymkd26-tfp0		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	iingg	POST	pymkdfw-rqc0		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	iingg	POST	pymkdfw-rqc0		2011-08-19	CRYMARK	1.0	tagcry
@@ -1157,11 +1285,13 @@ mbc_fallinlove	cho208610	POST	pymkdlq-_gdhg		2011-08-17	PRESENT	1.0	지금
 mbc_fallinlove	hjlee7634	POST	pymkedn-s5wr		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	hjlee7634	POST	pymkedn-s5wr		2011-08-19	SEE	1.0	보다
 mbc_fallinlove	park2166498	POST	pymkelj-y7k6m		2011-08-18	PRESENT	2.0	오늘 요즘
+mbc_fallinlove	park2166498	POST	pymkelj-y7k6m		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	park2166498	POST	pymkelj-y7k6m		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	lovelyhyuna1	POST	pymkg8g-5tdbm		2011-08-18	POSITIVE	1.0	웃다
 mbc_fallinlove	whtnals1113	POST	pymkglf-yzswm		2011-08-19	PAST	1.0	어제
 mbc_fallinlove	ssj990308	POST	pymkiac-528sg		2011-08-18	LOVEMARK	1.0	taglove
 mbc_fallinlove	skm0764	POST	pymkj8y-l6wz		2011-08-19	PRESENT	1.0	오늘
+mbc_fallinlove	skm0764	POST	pymkj8y-l6wz		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	skm0764	POST	pymkj8y-l6wz		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	k4632938	POST	pymkjyv-5imak		2011-08-19	PAST	1.0	어제
 mbc_fallinlove	k4632938	POST	pymkjyv-5imak		2011-08-19	EXCLAMMARK	1.0	tagexclamation
@@ -1174,14 +1304,18 @@ mbc_fallinlove	ghdms0128	POST	pymko17-_ds64		2011-08-19	EXCLAMMARK	1.0	tagexclam
 mbc_fallinlove	01064626561	POST	pymkor1-tc2k		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	taeeun9937	POST	pymkqlt-_hwzn		2011-08-19	PAST	1.0	어제
 mbc_fallinlove	taeeun9937	POST	pymkqlt-_hwzn		2011-08-19	PRESENT	1.0	이제
+mbc_fallinlove	taeeun9937	POST	pymkqlt-_hwzn		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	taeeun9937	POST	pymkqlt-_hwzn		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	enwnssla	POST	pymkqtl-5_sbf		2011-08-17	FUTURE	1.0	내일
 mbc_fallinlove	enwnssla	POST	pymkqtl-5_sbf		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	enwnssla	POST	pymkqtl-5_sbf		2011-08-17	POSITIVE	1.0	즐겁다
+mbc_fallinlove	ggh8165	POST	pymkrr1-pykb		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	ggh8165	POST	pymkrr1-pykb		2011-08-20	POSITIVE	1.0	재미있
 mbc_fallinlove	sawadicop5	POST	pymksei-yi4ig		2011-08-19	PAST	1.0	어제
 mbc_fallinlove	sawadicop5	POST	pymksei-yi4ig		2011-08-19	CRYMARK	1.0	tagcry
+mbc_fallinlove	soomin9106	POST	pymkuk9-y_62n		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	soomin9106	POST	pymkuk9-y_62n		2011-08-18	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	soomin9106	POST	pymkuk9-y_62n		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	soomin9106	POST	pymkuk9-y_62n		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	hamtori1412	POST	pymkv22-olli		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	tjd8612	POST	pymkv4z-qxzx		2011-08-17	FUTURE	1.0	내일
@@ -1189,11 +1323,15 @@ mbc_fallinlove	tjd8612	POST	pymkv4z-qxzx		2011-08-17	QUESTIONMARK	1.0	tagquestio
 mbc_fallinlove	tjd8612	POST	pymkv4z-qxzx		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	kda632	POST	pymkvhe-sdq7		2011-08-17	FUTURE	1.0	내일
 mbc_fallinlove	kda632	POST	pymkvhe-sdq7		2011-08-17	CONJUNCTION	1.0	그런데
+mbc_fallinlove	kda632	POST	pymkvhe-sdq7		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	kda632	POST	pymkvhe-sdq7		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	kda632	POST	pymkvhe-sdq7		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	kda632	POST	pymkvhe-sdq7		2011-08-17	SADNESS	1.0	슬프
+mbc_fallinlove	dbfls77721	POST	pymkvqr-y48g		2011-08-18	QUESTIONMARK	1.0	tagquestion
+mbc_fallinlove	qkrrkdms2	POST	pymkvu_-memy		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	qkrrkdms2	POST	pymkvu_-memy		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	qkrrkdms2	POST	pymkvu_-memy		2011-08-17	SADNESS	1.0	아프
+mbc_fallinlove	wltn0008	POST	pymkvv0-_5h9m		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	wltn0008	POST	pymkvv0-_5h9m		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	gksql1412	POST	pymkw0b-yyv_4		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	gksql1412	POST	pymkw0z-yyv_4		2011-08-19	CONJUNCTION	1.0	하지만
@@ -1208,17 +1346,20 @@ mbc_fallinlove	gktngus3990	POST	pymkwzu-ykpo1		2011-08-17	PRESENT	1.0	요즘
 mbc_fallinlove	gktngus3990	POST	pymkwzu-ykpo1		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	gktngus3990	POST	pymkwzu-ykpo1		2011-08-17	SEE	1.0	보다
 mbc_fallinlove	yys6954	POST	pymkx5z-yv6t9		2011-08-17	FUTURE	1.0	내일
+mbc_fallinlove	yys6954	POST	pymkx5z-yv6t9		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	yys6954	POST	pymkx5z-yv6t9		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	yys6954	POST	pymkx5z-yv6t9		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	happysol99	POST	pymkx8h-sbut		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	happysol99	POST	pymkx8h-sbut		2011-08-17	SADNESS	1.0	불쌍
 mbc_fallinlove	thestar_kr	POST	pymkxkj-_f39l		2011-08-18	PRESENT	1.0	오늘
+mbc_fallinlove	thestar_kr	POST	pymkxkj-_f39l		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	thestar_kr	POST	pymkxkj-_f39l		2011-08-18	SMILEMARK	1.0	크
 mbc_fallinlove	dkfudk	POST	pymky4t-892j		2011-08-19	PAST	1.0	어제
 mbc_fallinlove	dkfudk	POST	pymky4t-892j		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	cho208610	POST	pymkye1-_gdhg		2011-08-17	FUTURE	1.0	내일
 mbc_fallinlove	cho208610	POST	pymkye1-_gdhg		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	cho208610	POST	pymkye1-_gdhg		2011-08-17	SADNESS	1.0	슬프다
+mbc_fallinlove	youn36677	POST	pymkza5-ynsyt		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	yura_me2day	POST	pymkzac-_ogmw		2011-08-19	PRESENT	1.0	이제
 mbc_fallinlove	yura_me2day	POST	pymkzac-_ogmw		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	yura_me2day	POST	pymkzac-_ogmw		2011-08-19	CRYMARK	1.0	tagcry
@@ -1227,6 +1368,7 @@ mbc_fallinlove	yura_me2day	POST	pymkzac-_ogmw		2011-08-19	SADNESS	1.0	슬프다
 mbc_fallinlove	youn36677	POST	pymkzyo-ynsyt		2011-08-19	POSITIVE	1.0	좋다
 mbc_fallinlove	pinkpig29	POST	pymkz_2-yagi_		2011-08-19	PAST	1.0	어제
 mbc_fallinlove	pinkpig29	POST	pymkz_2-yagi_		2011-08-19	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	dus1434	POST	pymk_t8-n_kq		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	dus1434	POST	pymk_t8-n_kq		2011-08-20	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	rkdms0278	POST	pymy4iw-5agu7		2011-08-18	PRESENT	1.0	지금
 mbc_fallinlove	rkdms0278	POST	pymy4iw-5agu7		2011-08-18	EXCLAMMARK	1.0	tagexclamation
@@ -1237,6 +1379,7 @@ mbc_fallinlove	rkdms0278	POST	pymy4iw-5agu7		2011-08-18	POSITIVE	1.0	즐겁
 mbc_fallinlove	yulia9900	POST	pymy4m3-td9r		2011-08-18	PRESENT	1.0	이제
 mbc_fallinlove	yulia9900	POST	pymy4m3-td9r		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	jye710	POST	pymy4qc-5ilzk		2011-08-18	FUTURE	1.0	내일
+mbc_fallinlove	jye710	POST	pymy4qc-5ilzk		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	jye710	POST	pymy4qc-5ilzk		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	rkdms0278	POST	pymy4v3-5agu7		2011-08-18	PRESENT	1.0	요즘
 mbc_fallinlove	rkdms0278	POST	pymy4v3-5agu7		2011-08-18	EXCLAMMARK	1.0	tagexclamation
@@ -1259,12 +1402,14 @@ mbc_fallinlove	hsw1997	POST	pymycuy-_ovry		2011-08-18	EXCLAMMARK	1.0	tagexclamat
 mbc_fallinlove	hsw1997	POST	pymycuy-_ovry		2011-08-18	NEGATIVE	1.0	싫다
 mbc_fallinlove	tlawlgus1022	POST	pymyhgg-srun		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	sarahsubin	POST	pymyhqj-ydmi0		2011-08-18	PRESENT	1.0	오늘
+mbc_fallinlove	sarahsubin	POST	pymyhqj-ydmi0		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	sarahsubin	POST	pymyhqj-ydmi0		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	sarahsubin	POST	pymyhqj-ydmi0		2011-08-18	SEE	1.0	보다
 mbc_fallinlove	9709jje	POST	pymyj5y-58tl2		2011-08-17	FUTURE	1.0	내일
 mbc_fallinlove	9709jje	POST	pymyj5y-58tl2		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	9709jje	POST	pymyj5y-58tl2		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	2350811	POST	pymyjgw-_3h7v		2011-08-16	PRESENT	1.0	이번주
+mbc_fallinlove	2350811	POST	pymyjgw-_3h7v		2011-08-16	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	2350811	POST	pymyjgw-_3h7v		2011-08-16	CRYMARK	1.0	tagcry
 mbc_fallinlove	tpfbrhdwn	POST	pymyk1k-y_6lo		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	tpfbrhdwn	POST	pymyk1k-y_6lo		2011-08-18	EXCLAMMARK	1.0	tagexclamation
@@ -1285,12 +1430,15 @@ mbc_fallinlove	rkdms0278	POST	pymyldk-5agu7		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	rkdms0278	POST	pymyldk-5agu7		2011-08-18	SEE	1.0	보다
 mbc_fallinlove	nuage0126	POST	pymylpj-5cp2a		2011-08-18	PRESENT	1.0	이제
 mbc_fallinlove	nuage0126	POST	pymylpj-5cp2a		2011-08-18	FUTURE	1.0	다음주
+mbc_fallinlove	nuage0126	POST	pymylpj-5cp2a		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	nuage0126	POST	pymylpj-5cp2a		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	nuage0126	POST	pymylpj-5cp2a		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	nuage0126	POST	pymylpj-5cp2a		2011-08-18	POSITIVE	1.0	좋다
 mbc_fallinlove	yhjangel0826	POST	pymylpo-yljw4		2011-08-18	PRESENT	1.0	오늘
+mbc_fallinlove	yhjangel0826	POST	pymylpo-yljw4		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	yhjangel0826	POST	pymylpo-yljw4		2011-08-18	POSITIVE	1.0	재미있
 mbc_fallinlove	byw228	POST	pymymcd-ybu5y		2011-08-17	PRESENT	1.0	이제
+mbc_fallinlove	byw228	POST	pymymcd-ybu5y		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	byw228	POST	pymymcd-ybu5y		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	ikolp1122	POST	pymymmz-5mdd8		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	ikolp1122	POST	pymymmz-5mdd8		2011-08-17	SEE	1.0	보다
@@ -1306,9 +1454,12 @@ mbc_fallinlove	lovesulliu	POST	pymynim-_9kbv		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	wkdtodus777	POST	pymynsr-5e4nl		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	wldud_1114	POST	pymyoj5-yhr7q		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	wldud_1114	POST	pymyoj5-yhr7q		2011-08-18	CRYMARK	1.0	tagcry
+mbc_fallinlove	dlaqhfk7028	POST	pymyook-5v3ej		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	dlaqhfk7028	POST	pymyook-5v3ej		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	dlaqhfk7028	POST	pymyook-5v3ej		2011-08-18	POSITIVE	1.0	재미있
+mbc_fallinlove	dbfls77721	POST	pymyphz-y48g		2011-08-16	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	2ne1nice	POST	pymyq6p-o5ss		2011-08-18	PRESENT	1.0	오늘
+mbc_fallinlove	2ne1nice	POST	pymyq6p-o5ss		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	2ne1nice	POST	pymyq6p-o5ss		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	2ne1nice	POST	pymyq6p-o5ss		2011-08-18	SADNESS	1.0	우울
 mbc_fallinlove	amykim5	POST	pymyq6_-_bzez		2011-08-18	PRESENT	1.0	오늘
@@ -1332,6 +1483,7 @@ mbc_fallinlove	skyblossom	POST	pymysk2-_wzzf		2011-08-17	SEE	1.0	보다
 mbc_fallinlove	rlagywls9073	POST	pymysl6-59ax_		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	rlagywls9073	POST	pymysl6-59ax_		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	tldnjs792	POST	pymyst4-51_j0		2011-08-17	FUTURE	1.0	내일
+mbc_fallinlove	tldnjs792	POST	pymyst4-51_j0		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	tldnjs792	POST	pymyst4-51_j0		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	tldnjs792	POST	pymyst4-51_j0		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	tldnjs792	POST	pymyst4-51_j0		2011-08-17	SEE	1.0	보다
@@ -1345,6 +1497,8 @@ mbc_fallinlove	kelly0702	POST	pymyv56-jsqi		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	kelly0702	POST	pymyv56-jsqi		2011-08-18	LOVEMARK	1.0	taglove
 mbc_fallinlove	kelly0702	POST	pymyv56-jsqi		2011-08-18	POSITIVE	1.0	좋다
 mbc_fallinlove	sally7175	POST	pymyv5l-yqrq9		2011-08-18	PRESENT	1.0	오늘
+mbc_fallinlove	sally7175	POST	pymyv5l-yqrq9		2011-08-18	QUESTIONMARK	1.0	tagquestion
+mbc_fallinlove	dnlalswl0201	POST	pymyv92-5900u		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	dnlalswl0201	POST	pymyv92-5900u		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	dnlalswl0201	POST	pymyv92-5900u		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	dnlalswl0201	POST	pymyv92-5900u		2011-08-18	LOVEMARK	1.0	taglove
@@ -1352,6 +1506,7 @@ mbc_fallinlove	hayoorin	POST	pymyvb1-5d2pn		2011-08-18	PRESENT	1.0	이제
 mbc_fallinlove	hayoorin	POST	pymyvb1-5d2pn		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	minsea1012	POST	pymyvbb-_94cu		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	minsea1012	POST	pymyvbb-_94cu		2011-08-18	LOVEMARK	1.0	taglove
+mbc_fallinlove	kja5073	POST	pymyvdf-__xrq		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	znahs	POST	pymyvdo-y0_gx		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	znahs	POST	pymyvdo-y0_gx		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	znahs	POST	pymyvdo-y0_gx		2011-08-18	CRYMARK	1.0	tagcry
@@ -1361,6 +1516,7 @@ mbc_fallinlove	acrxo	POST	pymyvgm-ytj_p		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	sbr06190	POST	pymyvh7-5myip		2011-08-18	LOVEMARK	1.0	taglove
 mbc_fallinlove	doyeon721	POST	pymyvha-5l6p_		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	doyeon721	POST	pymyvha-5l6p_		2011-08-18	SADNESS	1.0	슬프다
+mbc_fallinlove	tlawlgus1022	POST	pymyvmy-srun		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	jia6970	POST	pymyvnm-yntg_		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	jia6970	POST	pymyvnm-yntg_		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	jia6970	POST	pymyvnm-yntg_		2011-08-18	LOVEMARK	1.0	taglove
@@ -1419,12 +1575,16 @@ mbc_fallinlove	dnflwla13	POST	pym_5oz-ymej_		2011-08-16	FUTURE	1.0	내일
 mbc_fallinlove	dnflwla13	POST	pym_5oz-ymej_		2011-08-16	POSITIVE	1.0	좋다
 mbc_fallinlove	dnflwla13	POST	pym_5oz-ymej_		2011-08-16	ANXIETY	1.0	걱정
 mbc_fallinlove	wjsgywls17	POST	pym_736-aido		2011-08-18	PRESENT	1.0	이제
+mbc_fallinlove	wjsgywls17	POST	pym_736-aido		2011-08-18	QUESTIONMARK	1.0	tagquestion
+mbc_fallinlove	wjsgywls17	POST	pym_736-aido		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	wjsgywls17	POST	pym_736-aido		2011-08-18	LOVEMARK	1.0	taglove
 mbc_fallinlove	wjsgywls17	POST	pym_736-aido		2011-08-18	POSITIVE	1.0	좋다
+mbc_fallinlove	njh1730	POST	pym_79i-5jwyx		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	njh1730	POST	pym_79i-5jwyx		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	njh1730	POST	pym_79i-5jwyx		2011-08-18	SEE	1.0	보다
 mbc_fallinlove	hwanjuluv	POST	pym_7fp-_adeh		2011-08-18	SEE	1.0	보다
 mbc_fallinlove	chung251	POST	pym_7ul-y6n8k		2011-08-18	PRESENT	2.0	오늘 지금
+mbc_fallinlove	chung251	POST	pym_7ul-y6n8k		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	chung251	POST	pym_7ul-y6n8k		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	chung251	POST	pym_7ul-y6n8k		2011-08-18	LOVEMARK	1.0	taglove
 mbc_fallinlove	njh1730	POST	pym_8dk-5jwyx		2011-08-18	PRESENT	2.0	지금 오늘
@@ -1432,6 +1592,7 @@ mbc_fallinlove	njh1730	POST	pym_8dk-5jwyx		2011-08-18	QUANTIFIER	1.0	너무
 mbc_fallinlove	njh1730	POST	pym_8dk-5jwyx		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	njh1730	POST	pym_8dk-5jwyx		2011-08-18	NEGATIVE	1.0	아쉬
 mbc_fallinlove	shcool2514	POST	pym_9oi-51iny		2011-08-17	PRESENT	1.0	오늘
+mbc_fallinlove	shcool2514	POST	pym_9oi-51iny		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	shcool2514	POST	pym_9oi-51iny		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	yunseo9941	POST	pym_a13-_elpz		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	yunseo9941	POST	pym_a13-_elpz		2011-08-18	EXCLAMMARK	1.0	tagexclamation
@@ -1447,6 +1608,7 @@ mbc_fallinlove	lisa502	POST	pym_axp-1cuf		2011-08-18	LOVEMARK	1.0	taglove
 mbc_fallinlove	lisa502	POST	pym_axp-1cuf		2011-08-18	SEE	1.0	보다
 mbc_fallinlove	dlins	POST	pym_b7s-_szte		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	dlins	POST	pym_b7s-_szte		2011-08-19	CRYMARK	1.0	tagcry
+mbc_fallinlove	sol9546	POST	pym_bw6-yza8a		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	sol9546	POST	pym_bw6-yza8a		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	sol9546	POST	pym_bw6-yza8a		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	sol9546	POST	pym_bw6-yza8a		2011-08-19	POSITIVE	1.0	좋아하다
@@ -1472,11 +1634,13 @@ mbc_fallinlove	dlskflk3	POST	pym_j9v-5abad		2011-08-17	PRESENT	1.0	오늘
 mbc_fallinlove	wisdom12-_-	POST	pym_jbb-_1vxw		2011-08-19	PAST	1.0	어제
 mbc_fallinlove	wisdom12-_-	POST	pym_jbb-_1vxw		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	bear0008	POST	pym_jyq-_b6zz		2011-08-19	PRESENT	1.0	이제
+mbc_fallinlove	bear0008	POST	pym_jyq-_b6zz		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	bear0008	POST	pym_jyq-_b6zz		2011-08-19	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	bear0008	POST	pym_jyq-_b6zz		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	bear0008	POST	pym_jyq-_b6zz		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	bear0008	POST	pym_jyq-_b6zz		2011-08-19	SEE	1.0	보다
 mbc_fallinlove	shys1422	POST	pym_l29-_c2q7		2011-08-18	PRESENT	1.0	이제
+mbc_fallinlove	shys1422	POST	pym_l29-_c2q7		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	shys1422	POST	pym_l29-_c2q7		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	shys1422	POST	pym_l29-_c2q7		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	shys1422	POST	pym_l29-_c2q7		2011-08-18	POSITIVE	1.0	좋다
@@ -1490,6 +1654,7 @@ mbc_fallinlove	najulady	POST	pym_la4-_sr2b		2011-08-18	POSITIVE	1.0	좋다
 mbc_fallinlove	gksekql010	POST	pym_lc0-q4ai		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	gksekql010	POST	pym_lc0-q4ai		2011-08-18	POSITIVE	1.0	좋아
 mbc_fallinlove	hellohihi12	POST	pym_lc5-_iziy		2011-08-18	PRESENT	1.0	지금
+mbc_fallinlove	hellohihi12	POST	pym_lc5-_iziy		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	kob115	POST	pym_lcy-_s1z9		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	kob115	POST	pym_lcy-_s1z9		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	kob115	POST	pym_lcy-_s1z9		2011-08-18	LOVEMARK	1.0	taglove
@@ -1511,6 +1676,7 @@ mbc_fallinlove	hk5311447	POST	pym_lsa-ygi37		2011-08-18	NEGATIVE	1.0	싫다
 mbc_fallinlove	rkdekwjd28	POST	pym_lwp-_hpmf		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	rkdekwjd28	POST	pym_lwp-_hpmf		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	limjaeseok2	POST	pym_lwx-5qank		2011-08-18	PRESENT	1.0	이제
+mbc_fallinlove	limjaeseok2	POST	pym_lwx-5qank		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	limjaeseok2	POST	pym_lwx-5qank		2011-08-18	SMILEMARK	1.0	흐
 mbc_fallinlove	limjaeseok2	POST	pym_lwx-5qank		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	csg06106	POST	pym_m30-yb_fo		2011-08-18	EXCLAMMARK	1.0	tagexclamation
@@ -1534,6 +1700,7 @@ mbc_fallinlove	dayoun19	POST	pym_s1e-y_met		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	jame5239	POST	pym_sc8-j9lx		2011-08-19	PAST	1.0	어제
 mbc_fallinlove	jame5239	POST	pym_sc8-j9lx		2011-08-19	SADNESS	1.0	슬프다
 mbc_fallinlove	jw03277	POST	pym_u6s-yh2ah		2011-08-18	PRESENT	1.0	오늘
+mbc_fallinlove	jw03277	POST	pym_u6s-yh2ah		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	jw03277	POST	pym_u6s-yh2ah		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	jw03277	POST	pym_u6s-yh2ah		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	jw03277	POST	pym_u6s-yh2ah		2011-08-18	LOVEMARK	1.0	taglove
@@ -1552,6 +1719,7 @@ mbc_fallinlove	thdmsdo	POST	pym_wxk-5brj0		2011-08-19	PRESENT	1.0	요즘
 mbc_fallinlove	thdmsdo	POST	pym_wxk-5brj0		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	thdmsdo	POST	pym_wxk-5brj0		2011-08-19	SADNESS	1.0	우울
 mbc_fallinlove	thdmsdo	POST	pym_wxk-5brj0		2011-08-19	SEE	1.0	보다
+mbc_fallinlove	minjae629	POST	pym_x13-fe1u		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	minjae629	POST	pym_x13-fe1u		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	minjae629	POST	pym_x13-fe1u		2011-08-18	SADNESS	1.0	슬프다
 mbc_fallinlove	soobinxx1	POST	pym_x3f-yeq9y		2011-08-18	PRESENT	1.0	오늘
@@ -1560,6 +1728,7 @@ mbc_fallinlove	soobinxx1	POST	pym_x3f-yeq9y		2011-08-18	SEE	1.0	보다
 mbc_fallinlove	whaldud1007	POST	pym_x4y-yfzlz		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	whaldud1007	POST	pym_x4y-yfzlz		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	fkdlaepqlf	POST	pym_x5g-5zjxq		2011-08-18	PRESENT	1.0	이제
+mbc_fallinlove	fkdlaepqlf	POST	pym_x5g-5zjxq		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	fkdlaepqlf	POST	pym_x5g-5zjxq		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	fkdlaepqlf	POST	pym_x5g-5zjxq		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	fkdlaepqlf	POST	pym_x5g-5zjxq		2011-08-18	CRYMARK	1.0	tagcry
@@ -1590,6 +1759,7 @@ mbc_fallinlove	rudalsdl0513	POST	pym_xmk-ywtjg		2011-08-18	EXCLAMMARK	1.0	tagexc
 mbc_fallinlove	rudalsdl0513	POST	pym_xmk-ywtjg		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	wwbb41	POST	pym_xrt-_dggn		2011-08-18	PRESENT	1.0	오늘
 mbc_fallinlove	wwbb41	POST	pym_xrt-_dggn		2011-08-18	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	wwbb41	POST	pym_xrt-_dggn		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	haemin5004	POST	pym_xs2-yxn6t		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	haemin5004	POST	pym_xs2-yxn6t		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	haemin5004	POST	pym_xs2-yxn6t		2011-08-18	LOVEMARK	1.0	taglove
@@ -1603,6 +1773,7 @@ mbc_fallinlove	haemin5004	POST	pym_xv5-yxn6t		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	haemin5004	POST	pym_xv5-yxn6t		2011-08-18	LOVEMARK	1.0	taglove
 mbc_fallinlove	haemin5004	POST	pym_xv5-yxn6t		2011-08-18	POSITIVE	1.0	좋다
 mbc_fallinlove	107sm	POST	pym_xw8-ope_		2011-08-18	CRYMARK	2.0	tagcry 흑흑
+mbc_fallinlove	mijin2105	POST	pym_xwd-vqdy		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	mijin2105	POST	pym_xwd-vqdy		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	mijin2105	POST	pym_xwd-vqdy		2011-08-18	NEGATIVE	1.0	아쉬
 mbc_fallinlove	rlatldus1998	POST	pym_x_9-7blx		2011-08-18	EXCLAMMARK	1.0	tagexclamation
@@ -1632,8 +1803,10 @@ mbc_fallinlove	cjstkalsdn55	POST	pym__a4-ycsa5		2011-08-19	SMILEMARK	1.0	tagsmil
 mbc_fallinlove	cjstkalsdn55	POST	pym__a4-ycsa5		2011-08-19	POSITIVE	1.0	좋아
 mbc_fallinlove	ktrjw88	POST	pyo469f-5b7ht		2011-08-15	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	jas1302	POST	pyo4b74-yaeya		2011-08-16	PRESENT	1.0	이번주
+mbc_fallinlove	jas1302	POST	pyo4b7g-yaeya		2011-08-16	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	lsy3790	POST	pyo4bmq-rkei		2011-08-16	SMILEMARK	2.0	크 tagsmile
 mbc_fallinlove	dpgml2000	POST	pyo4nrs-1i8c		2011-08-16	FUTURE	1.0	내일
+mbc_fallinlove	dpgml2000	POST	pyo4nrs-1i8c		2011-08-16	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	dpgml2000	POST	pyo4nrs-1i8c		2011-08-16	LOVEMARK	1.0	taglove
 mbc_fallinlove	qhfkawhz	POST	pyo4pvw-597yh		2011-08-15	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	lovely4132	POST	pyo4qhl-ldmn		2011-08-16	PRESENT	2.0	지금 이번주
@@ -1642,8 +1815,11 @@ mbc_fallinlove	lovely4132	POST	pyo4qhl-ldmn		2011-08-16	LOVEMARK	1.0	taglove
 mbc_fallinlove	lovely4132	POST	pyo4qhl-ldmn		2011-08-16	SADNESS	1.0	슬프다
 mbc_fallinlove	lovely4132	POST	pyo4qhl-ldmn		2011-08-16	HEAR	1.0	듣다
 mbc_fallinlove	lucy771	POST	pyo4wws-yzxro		2011-08-16	PRESENT	1.0	이번주
+mbc_fallinlove	lucy771	POST	pyo4wws-yzxro		2011-08-16	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	lucy771	POST	pyo4wws-yzxro		2011-08-16	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	lucy771	POST	pyo4wws-yzxro		2011-08-16	SEE	1.0	보다
 mbc_fallinlove	wjdalsdl8808	POST	pyo705q-ylkzj		2011-08-17	CRYMARK	1.0	tagcry
+mbc_fallinlove	ocean181112	POST	pyo70d5-_if30		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	wlghtleo	POST	pyo722e-5od2s		2011-08-17	QUANTIFIER	1.0	너무
 mbc_fallinlove	wlghtleo	POST	pyo722e-5od2s		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	wlghtleo	POST	pyo722e-5od2s		2011-08-17	CRYMARK	1.0	tagcry
@@ -1651,6 +1827,7 @@ mbc_fallinlove	wlghtleo	POST	pyo722e-5od2s		2011-08-17	LOVEMARK	1.0	taglove
 mbc_fallinlove	wlghtleo	POST	pyo722e-5od2s		2011-08-17	ANXIETY	1.0	걱정
 mbc_fallinlove	wlghtleo	POST	pyo722e-5od2s		2011-08-17	SEE	1.0	보다
 mbc_fallinlove	yuminin	POST	pyo7283-5olc5		2011-08-17	FUTURE	1.0	내일
+mbc_fallinlove	yuminin	POST	pyo7283-5olc5		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	yuminin	POST	pyo7283-5olc5		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	yuminin	POST	pyo7283-5olc5		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	yuminin	POST	pyo7283-5olc5		2011-08-17	CRYMARK	1.0	tagcry
@@ -1672,19 +1849,23 @@ mbc_fallinlove	altmflf0914	POST	pyo72uo-riv8		2011-08-17	FUTURE	1.0	내일
 mbc_fallinlove	altmflf0914	POST	pyo72uo-riv8		2011-08-17	CONJUNCTION	1.0	하지만
 mbc_fallinlove	altmflf0914	POST	pyo72uo-riv8		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	altmflf0914	POST	pyo72uo-riv8		2011-08-17	SADNESS	1.0	슬프다
+mbc_fallinlove	junjieun1012	POST	pyo72ya-yzaqx		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	lka7518	POST	pyo7aoh-yolw9		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	lka7518	POST	pyo7aoh-yolw9		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	sally7175	POST	pyo7c5t-yqrq9		2011-08-17	PRESENT	1.0	오늘
 mbc_fallinlove	sally7175	POST	pyo7c5t-yqrq9		2011-08-17	FUTURE	2.0	내일 다음주
+mbc_fallinlove	sally7175	POST	pyo7c5t-yqrq9		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	jenifer7933	POST	pyo7e1x-5vi92		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	dpgml2000	POST	pyo7fpa-1i8c		2011-08-17	PRESENT	1.0	오늘
 mbc_fallinlove	dpgml2000	POST	pyo7fpa-1i8c		2011-08-17	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	dpgml2000	POST	pyo7fpa-1i8c		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	isb923	POST	pyo7gl9-5atjz		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	yunie98	POST	pyo7gmq-ytgwm		2011-08-15	PRESENT	1.0	지금
 mbc_fallinlove	yunie98	POST	pyo7gmq-ytgwm		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	yunie98	POST	pyo7gmq-ytgwm		2011-08-15	LOVEMARK	1.0	taglove
 mbc_fallinlove	rnralsrud12	POST	pyo7h53-y1_2		2011-08-17	PRESENT	1.0	이제
 mbc_fallinlove	rnralsrud12	POST	pyo7h53-y1_2		2011-08-17	FUTURE	1.0	내일
+mbc_fallinlove	rnralsrud12	POST	pyo7h53-y1_2		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	rnralsrud12	POST	pyo7h53-y1_2		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	rnralsrud12	POST	pyo7h53-y1_2		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	ccyyaa2000	POST	pyo7iao-y261_		2011-08-17	PRESENT	1.0	이제
@@ -1698,8 +1879,10 @@ mbc_fallinlove	twins1903	POST	pyo7keh-y7njw		2011-08-17	EXCLAMMARK	1.0	tagexclam
 mbc_fallinlove	szyoung	POST	pyo7kxx-y86z3		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	jyts9738	POST	pyo7lj_-ya6pm		2011-08-18	LOVEMARK	1.0	taglove
 mbc_fallinlove	sbohyun	POST	pyo7m0z-m3vt		2011-08-17	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	sbohyun	POST	pyo7m0z-m3vt		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	syralove	POST	pyo7m1v-_ovzf		2011-08-17	PRESENT	1.0	오늘
 mbc_fallinlove	syralove	POST	pyo7m1v-_ovzf		2011-08-17	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	syralove	POST	pyo7m1v-_ovzf		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	ayb0122	POST	pyo7n0_-jgfm		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	ayb0122	POST	pyo7n0_-jgfm		2011-08-17	SADNESS	1.0	불쌍
 mbc_fallinlove	pamadoll	POST	pyo7nxd-y14un		2011-08-17	QUESTIONMARK	1.0	tagquestion
@@ -1713,6 +1896,7 @@ mbc_fallinlove	gusekwjd222	POST	pyo7u0z-5q1_z		2011-08-17	FUTURE	1.0	내일
 mbc_fallinlove	gusekwjd222	POST	pyo7u0z-5q1_z		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	jyts9738	POST	pyo7u3f-ya6pm		2011-08-17	FUTURE	1.0	내일
 mbc_fallinlove	jyts9738	POST	pyo7u3f-ya6pm		2011-08-17	QUANTIFIER	1.0	너무
+mbc_fallinlove	jyts9738	POST	pyo7u3f-ya6pm		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	jyts9738	POST	pyo7u3f-ya6pm		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	jyts9738	POST	pyo7u3f-ya6pm		2011-08-17	LOVEMARK	1.0	taglove
 mbc_fallinlove	jyts9738	POST	pyo7u3f-ya6pm		2011-08-17	SADNESS	1.0	아프
@@ -1720,14 +1904,17 @@ mbc_fallinlove	lka7518	POST	pyo7u3q-yolw9		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	skdud3377	POST	pyo7u6z-or0_		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	skdud3377	POST	pyo7u6z-or0_		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	skdud3377	POST	pyo7u6z-or0_		2011-08-17	POSITIVE	1.0	좋다
+mbc_fallinlove	dlawlals1117	POST	pyo7uc8-4x9p		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	dlawlals1117	POST	pyo7uc8-4x9p		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	dlawlals1117	POST	pyo7uc8-4x9p		2011-08-17	LOVEMARK	1.0	taglove
 mbc_fallinlove	dlawlals1117	POST	pyo7uc8-4x9p		2011-08-17	POSITIVE	1.0	좋아
 mbc_fallinlove	youngchae-_-	POST	pyo7ufn-_hnuk		2011-08-17	PRESENT	1.0	오늘
+mbc_fallinlove	youngchae-_-	POST	pyo7ufn-_hnuk		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	youngchae-_-	POST	pyo7ufn-_hnuk		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	youngchae-_-	POST	pyo7ufn-_hnuk		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	sujo0972	POST	pyo7ufx-jzpn		2011-08-17	FUTURE	1.0	내일
 mbc_fallinlove	sujo0972	POST	pyo7ufx-jzpn		2011-08-17	CRYMARK	1.0	tagcry
+mbc_fallinlove	junjieun1012	POST	pyo7uq8-yzaqx		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	jyts9738	POST	pyo7uzk-ya6pm		2011-08-17	LOVEMARK	1.0	taglove
 mbc_fallinlove	nyj7410	POST	pyo7vod-_9e57		2011-08-17	FUTURE	1.0	내일
 mbc_fallinlove	fhql51	POST	pyo7v_2-_e5vx		2011-08-17	PRESENT	2.0	이제 요즘
@@ -1739,6 +1926,7 @@ mbc_fallinlove	khg05321	POST	pyo7wey-gb59		2011-08-17	LOVEMARK	1.0	taglove
 mbc_fallinlove	2ne1nice	POST	pyo7wxq-o5ss		2011-08-17	PRESENT	1.0	오늘
 mbc_fallinlove	2ne1nice	POST	pyo7wxq-o5ss		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	2ne1nice	POST	pyo7wxq-o5ss		2011-08-17	CRYMARK	1.0	tagcry
+mbc_fallinlove	513gammy	POST	pyo7xe3-_sb4e		2011-08-15	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	513gammy	POST	pyo7xe3-_sb4e		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	513gammy	POST	pyo7xe3-_sb4e		2011-08-15	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	513gammy	POST	pyo7xe3-_sb4e		2011-08-15	ANGER	1.0	미치다
@@ -1746,10 +1934,13 @@ mbc_fallinlove	dntrlsekqls	POST	pyo7xgs-_d370		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	dntrlsekqls	POST	pyo7xgs-_d370		2011-08-18	CRYMARK	1.0	tagcry
 mbc_fallinlove	wkdtodus777	POST	pyo7za9-5e4nl		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	rnralsrud12	POST	pyo7zuc-y1_2		2011-08-17	FUTURE	1.0	내일
+mbc_fallinlove	rnralsrud12	POST	pyo7zuc-y1_2		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	rnralsrud12	POST	pyo7zuc-y1_2		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	sbohyun	POST	pyol1tl-m3vt		2011-08-16	PRESENT	1.0	이번주
 mbc_fallinlove	sbohyun	POST	pyol1tl-m3vt		2011-08-16	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	sbohyun	POST	pyol1tl-m3vt		2011-08-16	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	sbohyun	POST	pyol1tl-m3vt		2011-08-16	CRYMARK	1.0	tagcry
+mbc_fallinlove	lomino	POST	pyol9wp-jsf_		2011-08-16	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	kimchiemily	POST	pyolscc-25pf		2011-08-16	PRESENT	1.0	이제
 mbc_fallinlove	duswn7603	POST	pyolvs3-535rl		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	duswn7603	POST	pyolvs3-535rl		2011-08-16	SEE	1.0	보다
@@ -1761,10 +1952,13 @@ mbc_fallinlove	tndud1629	POST	pyonfn_-mt4y		2011-08-15	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	sweetmir1234	POST	pyonlyf-57qn2		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	lomino	POST	pyonzmw-jsf_		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	junjieun1012	POST	pyov9e3-yzaqx		2011-08-15	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	tmddus198	POST	pyov9ef-yiptg		2011-08-15	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	tmddus198	POST	pyov9ef-yiptg		2011-08-15	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	pingpong95	POST	pyovhs6-yz0m0		2011-08-15	QUANTIFIER	1.0	아주
+mbc_fallinlove	pingpong95	POST	pyovhs6-yz0m0		2011-08-15	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	pingpong95	POST	pyovhs6-yz0m0		2011-08-15	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	tpfbrhdwn	POST	pyovi9p-y_6lo		2011-08-15	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	tpfbrhdwn	POST	pyovi9p-y_6lo		2011-08-15	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	01079970863	POST	pyovj3b-_f65		2011-08-15	PRESENT	1.0	이번주
 mbc_fallinlove	01079970863	POST	pyovj3b-_f65		2011-08-15	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	01079970863	POST	pyovj3b-_f65		2011-08-15	CRYMARK	1.0	tagcry
@@ -1780,16 +1974,20 @@ mbc_fallinlove	hby01020	POST	pyox1os-5742i		2011-08-16	SADNESS	1.0	아프
 mbc_fallinlove	ckgy123	POST	pyox35p-ydlzn		2011-08-16	FUTURE	1.0	내일
 mbc_fallinlove	ckgy123	POST	pyox35p-ydlzn		2011-08-16	CRYMARK	1.0	tagcry
 mbc_fallinlove	altmflf0914	POST	pyox4oc-riv8		2011-08-17	PRESENT	1.0	오늘
+mbc_fallinlove	altmflf0914	POST	pyox4oc-riv8		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	altmflf0914	POST	pyox4oc-riv8		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	altmflf0914	POST	pyox4oc-riv8		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	sbohyun	POST	pyox7fk-m3vt		2011-08-17	PRESENT	2.0	오늘 이번주
 mbc_fallinlove	sbohyun	POST	pyox7fk-m3vt		2011-08-17	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	sbohyun	POST	pyox7fk-m3vt		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	sbohyun	POST	pyox7fk-m3vt		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	szyoung	POST	pyox7zz-y86z3		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	yoonyoung37	POST	pyox9jh-fxrr		2011-08-16	PRESENT	1.0	오늘
 mbc_fallinlove	yoonyoung37	POST	pyox9jh-fxrr		2011-08-16	SMILEMARK	1.0	tagsmile
+mbc_fallinlove	junjieun1012	POST	pyoxak1-yzaqx		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	gyrud9646	POST	pyoxemu-5asy3		2011-08-16	PRESENT	1.0	오늘
 mbc_fallinlove	cho040599	POST	pyoxim1-_y_4r		2011-08-16	SMILEMARK	1.0	tagsmile
+mbc_fallinlove	musicstore1	POST	pyoxjnd-_fnof		2011-08-16	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	hee7167	POST	pyoxme1-_oqzo		2011-08-17	LOVEMARK	1.0	taglove
 mbc_fallinlove	maryjane123	POST	pyoxs84-yk5v		2011-08-17	PRESENT	1.0	오늘
 mbc_fallinlove	maryjane123	POST	pyoxs84-yk5v		2011-08-17	EXCLAMMARK	1.0	tagexclamation
@@ -1813,39 +2011,49 @@ mbc_fallinlove	ineed-	COMMENT	pym1n4p-_e1wj		2011-08-20	QUANTIFIER	1.0	너무
 mbc_fallinlove	ineed-	COMMENT	pym1n4p-_e1wj		2011-08-20	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	cmcms27_	COMMENT	pym1nhu-_e1wj		2011-08-20	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	cmcms27_	COMMENT	pym1nhu-_e1wj		2011-08-20	POSITIVE	1.0	좋아
+mbc_fallinlove	tk1dlqslek	COMMENT	pym1nhu-_e1wj		2011-08-20	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	jah16	COMMENT	pym1nhu-_e1wj		2011-08-20	LOVEMARK	1.0	taglove
 mbc_fallinlove	jah16	COMMENT	pym1nhu-_e1wj		2011-08-20	POSITIVE	1.0	좋아
 mbc_fallinlove	niui52	COMMENT	pym1nhu-_e1wj		2011-08-20	SMILEMARK	1.0	tagsmile
+mbc_fallinlove	0515jyc	COMMENT	pym5bdx-y5kok		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	0515jyc	COMMENT	pym5bdx-y5kok		2011-08-18	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	ghfh611	COMMENT	pym5bdx-y5kok		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	ghfh611	COMMENT	pym5bdx-y5kok		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	merry1009	COMMENT	pym5u9y-y0pmo		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	kr1114	COMMENT	pym5u9y-y0pmo		2011-08-18	PAST	1.0	어제
 mbc_fallinlove	kr1114	COMMENT	pym5u9y-y0pmo		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	kr1114	COMMENT	pym5u9y-y0pmo		2011-08-18	SMILEMARK	1.0	tagsmile
+mbc_fallinlove	_gg-	COMMENT	pym6ost-yiofj		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	_gg-	COMMENT	pym6ost-yiofj		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	engeliss	COMMENT	pym6ost-yiofj		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	engeliss	COMMENT	pym6ost-yiofj		2011-08-17	CRYMARK	2.0	흑흑흑 흑흑
+mbc_fallinlove	engeliss	COMMENT	pym6ost-yiofj		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	victory3812	COMMENT	pymbw8e-_gdhg		2011-08-19	SWEAR	1.0	존나
 mbc_fallinlove	ojy1369	COMMENT	pymd9hz-nlp3		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	hyj339	COMMENT	pymekak-59qgn		2011-08-28	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	ekdusrha	COMMENT	pymekak-59qgn		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	ekdusrha	COMMENT	pymekak-59qgn		2011-08-19	CRYMARK	1.0	tagcry
 mbc_fallinlove	hyj339	COMMENT	pymekak-59qgn		2011-08-18	PRESENT	1.0	오늘
+mbc_fallinlove	hyj339	COMMENT	pymekak-59qgn		2011-08-18	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	hyj339	COMMENT	pymekak-59qgn		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	yeji0618	COMMENT	pymk842-qyyj		2011-08-18	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	yeji0618	COMMENT	pymk842-qyyj		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	year1663	COMMENT	pymk842-qyyj		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	skm0764	COMMENT	pymk86v-l6wz		2011-08-19	SMILEMARK	1.0	tagsmile
+mbc_fallinlove	andnan2244	COMMENT	pymk86v-l6wz		2011-08-19	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	andnan2244	COMMENT	pymk86v-l6wz		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	andnan2244	COMMENT	pymk86v-l6wz		2011-08-19	POSITIVE	1.0	좋다
+mbc_fallinlove	andnan2244	COMMENT	pymk86v-l6wz		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	andnan2244	COMMENT	pymk86v-l6wz		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	sulki516	COMMENT	pymkx8h-sbut		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	sulki516	COMMENT	pymkx8h-sbut		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	120411066	COMMENT	pym_2cq-5bq5j		2011-08-26	SMILEMARK	1.0	tagsmile
+mbc_fallinlove	alzl0515	COMMENT	pym_2cq-5bq5j		2011-08-27	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	fbdkfla4191	COMMENT	pym_9oi-51iny		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	fbdkfla4191	COMMENT	pym_9oi-51iny		2011-08-17	LOVEMARK	1.0	taglove
 mbc_fallinlove	shcool2514	COMMENT	pym_9oi-51iny		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	skd0620	COMMENT	pym_9oi-51iny		2011-08-17	PRESENT	1.0	오늘
+mbc_fallinlove	skd0620	COMMENT	pym_9oi-51iny		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	shcool2514	COMMENT	pym_9oi-51iny		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	ojy2938	COMMENT	pym_fqj-_0jxk		2011-08-19	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	ojy2938	COMMENT	pym_fqj-_0jxk		2011-08-19	POSITIVE	1.0	좋다
@@ -1864,6 +2072,7 @@ mbc_fallinlove	coolcool0104	COMMENT	pym_m32-26u1		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	coolcool0104	COMMENT	pym_m32-26u1		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	coolcool0104	COMMENT	pym_m32-26u1		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	sandyyunsun	COMMENT	pym_m32-26u1		2011-08-17	SMILEMARK	1.0	tagsmile
+mbc_fallinlove	coolcool0104	COMMENT	pym_m32-26u1		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	coolcool0104	COMMENT	pym_m32-26u1		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	beautyb	COMMENT	pym_m32-26u1		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	coolcool0104	COMMENT	pym_m32-26u1		2011-08-17	PRESENT	1.0	이제
@@ -1871,15 +2080,22 @@ mbc_fallinlove	coolcool0104	COMMENT	pym_m32-26u1		2011-08-17	CONJUNCTION	1.0	그
 mbc_fallinlove	coolcool0104	COMMENT	pym_m32-26u1		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	haggardness	COMMENT	pym_m32-26u1		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	haggardness	COMMENT	pym_m32-26u1		2011-08-17	EXCLAMMARK	1.0	tagexclamation
+mbc_fallinlove	coolcool0104	COMMENT	pym_m32-26u1		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	coolcool0104	COMMENT	pym_m32-26u1		2011-08-17	SMILEMARK	1.0	tagsmile
+mbc_fallinlove	beautyb	COMMENT	pym_m32-26u1		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	beautyb	COMMENT	pym_m32-26u1		2011-08-17	SMILEMARK	2.0	흐 tagsmile
 mbc_fallinlove	beautyb	COMMENT	pym_m32-26u1		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	beautyb	COMMENT	pym_m32-26u1		2011-08-17	POSITIVE	1.0	부럽다
 mbc_fallinlove	coolcool0104	COMMENT	pym_m32-26u1		2011-08-17	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	inylove82	COMMENT	pym_m32-26u1		2011-08-17	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	coolcool0104	COMMENT	pym_m32-26u1		2011-08-17	SMILEMARK	1.0	tagsmile
+mbc_fallinlove	phyymy	COMMENT	pym_m32-26u1		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	inylove82	COMMENT	pym_m32-26u1		2011-08-17	SMILEMARK	1.0	tagsmile
+mbc_fallinlove	haggardness	COMMENT	pym_m32-26u1		2011-08-17	QUESTIONMARK	1.0	tagquestion
+mbc_fallinlove	phyymy	COMMENT	pym_m32-26u1		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	coolcool0104	COMMENT	pym_m32-26u1		2011-08-17	SMILEMARK	1.0	tagsmile
+mbc_fallinlove	coolcool0104	COMMENT	pym_m32-26u1		2011-08-17	QUESTIONMARK	1.0	tagquestion
+mbc_fallinlove	coolcool0104	COMMENT	pym_m32-26u1		2011-08-17	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	wjdalsdl8808	COMMENT	pyo705q-ylkzj		2011-08-18	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	jung97816	COMMENT	pyo705q-ylkzj		2011-08-17	CRYMARK	1.0	tagcry
 mbc_fallinlove	wjdalsdl8808	COMMENT	pyo705q-ylkzj		2011-08-17	SMILEMARK	1.0	tagsmile
@@ -1903,6 +2119,7 @@ mbc_fallinlove	kimchiemily	COMMENT	pyolscc-25pf		2011-08-16	SMILEMARK	1.0	tagsmi
 mbc_fallinlove	wjy3865	COMMENT	pyolscc-25pf		2011-08-16	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	wjy3865	COMMENT	pyolscc-25pf		2011-08-16	SEE	1.0	보다
 mbc_fallinlove	kimchiemily	COMMENT	pyolscc-25pf		2011-08-16	PRESENT	1.0	요즘
+mbc_fallinlove	kimchiemily	COMMENT	pyolscc-25pf		2011-08-16	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	kimchiemily	COMMENT	pyolscc-25pf		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	kimchiemily	COMMENT	pyolscc-25pf		2011-08-16	POSITIVE	1.0	좋다
 mbc_fallinlove	kimchiemily	COMMENT	pyolscc-25pf		2011-08-16	SEE	1.0	보다
@@ -1914,6 +2131,7 @@ mbc_fallinlove	wjy3865	COMMENT	pyolscc-25pf		2011-08-16	SEE	1.0	보다
 mbc_fallinlove	wjy3865	COMMENT	pyolscc-25pf		2011-08-16	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	wjy3865	COMMENT	pyolscc-25pf		2011-08-16	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	wjy3865	COMMENT	pyolscc-25pf		2011-08-16	SMILEMARK	1.0	tagsmile
+mbc_fallinlove	kimchiemily	COMMENT	pyolscc-25pf		2011-08-16	QUESTIONMARK	1.0	tagquestion
 mbc_fallinlove	kimchiemily	COMMENT	pyolscc-25pf		2011-08-16	EXCLAMMARK	1.0	tagexclamation
 mbc_fallinlove	kimchiemily	COMMENT	pyolscc-25pf		2011-08-16	SMILEMARK	1.0	tagsmile
 mbc_fallinlove	kimchiemily	COMMENT	pyolscc-25pf		2011-08-16	SEE	1.0	보다

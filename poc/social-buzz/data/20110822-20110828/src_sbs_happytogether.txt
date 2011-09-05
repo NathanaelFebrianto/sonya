@@ -1,113 +1,113 @@
 program_id	author_id	type	post_id	comment_id	publish_date	terms
-sbs_happytogether	nunurigo121	POST	pym15vg-_9tci		2011-08-22	해피투게더 유리 춤출때 나오다 클럽노래 ybey
+sbs_happytogether	nunurigo121	POST	pym15vg-_9tci		2011-08-22	해피투게더3 유리 춤출때 나오다 클럽노래 ybey
 sbs_happytogether	rkdnjs0902	POST	pym1awr-ycumu		2011-08-22	팬픽 해피투게더 다운
-sbs_happytogether	nunurigo121	POST	pym1yka-_9tci		2011-08-22	해피투게더 재방송 jxmz
-sbs_happytogether	elimen	POST	pym8q7w-_au9_		2011-08-24	아영 세리 세다 해피투게더 역시 쵝오tagsmile 퍼왔어요tagsmile
+sbs_happytogether	nunurigo121	POST	pym1yka-_9tci		2011-08-22	해피투게더3 재방송 jxmz
+sbs_happytogether	elimen	POST	pym8q7w-_au9_		2011-08-24	아영 세리 세다 해피투게더3 역시 쵝오 tagsmile 퍼왔어 퍼왔어요 tagsmile
 sbs_happytogether	yura_me2day	POST	pym8t1q-_ogmw		2011-08-26	해피투게더 tagexclamation tagsmile 재밌네 ㅇㅅㅇ
-sbs_happytogether	iyousens	POST	pym8tjz-yq85k		2011-08-26	해피투게더 회 다시보기 월 일 방송분 다시보기
-sbs_happytogether	mjjeje81264	POST	pym8u47-_tp1q		2011-08-26	tagcry 해피투게더 완전 재밌다니깐 tagcry 하이킥 늘다 그걸 왜 외다 배끼 배끼고 ㅈㄹ ㅈㄹ이 ㅈㄹ ㅈㄹ은
+sbs_happytogether	iyousens	POST	pym8tjz-yq85k		2011-08-26	해피투게더 211회 다시보기 8월25 일 방송분 다시보기
+sbs_happytogether	mjjeje81264	POST	pym8u47-_tp1q		2011-08-26	tagcry 해피투게더 완전 재밌다니깐 tagcry 하이킥3 늘다 그걸 왜 외다 배끼 배끼고 ㅈㄹ 이 ㅈㄹ 은
 sbs_happytogether	mbcmudo	POST	pym8w4l-0q5l		2011-08-27	덕정중으로와주세 덕정중으로와주세요 친구가정말유재석을너무좋아 전에너무보고싶어서해피투게더촬영지를갔엇는데하필그때여름특집으로제주도가서촬영해서못보고 정말친구에게힘이되고싶습니
 sbs_happytogether	banggujjang	POST	pym914o-tm04		2011-08-22	매달 한번씩 나르다 나 설레게 설레게하 설레게하는 반가운 손님 d 이번달 표지쵝오 tagexclamation 네네치킨 해피투게더
-sbs_happytogether	nunurigo121	POST	pym9nif-_9tci		2011-08-23	해피투게더 회 tagquestion 지연 효민 다시보기 gunp
-sbs_happytogether	nuly3821	POST	pymb4zl-wu7y		2011-08-22	태현횽아 태현횽아가 영화 찍다 막 나오네tagquestion 광고찍 광고찍을 때 티비 등장 해야하나tagquestion tagsmile 자주 좀 조다 나오다 tagcry 짱 좋다 tagsmile 오늘 런닝맨 tagsmile 웃기다 tagsmile 해피투게더 해피투게더는 재방 봐야겠다 다음주도 다음주 런닝맨 기대 기대다 차태현 짜세응 tagsmile
-sbs_happytogether	kbj2658	POST	pymb884-_w8b0		2011-08-23	해피투게더 년 월 일 박보영 김원준 박 백도빈
+sbs_happytogether	nunurigo121	POST	pym9nif-_9tci		2011-08-23	해피투게더3 141회 tagquestion 지연 효민 다시보기 gunp
+sbs_happytogether	nuly3821	POST	pymb4zl-wu7y		2011-08-22	태현횽아 태현횽아가 영화 찍다 막 나오다 tagquestion 광고찍 광고찍을 때 티비 등장 해야 해야하 해야하나 tagquestion tagsmile 자주 좀 조다 나오다 tagcry 짱 좋다 tagsmile 오늘 런닝맨 tagsmile 웃기다 tagsmile 해피투게더 해피투게더는 재방 봐야겠다 다음주도 다음주 런닝맨 기대 기대다 차태현 짜세응 tagsmile
+sbs_happytogether	kbj2658	POST	pymb884-_w8b0		2011-08-23	해피투게더 11년 8월 18 18일 박보영 김원준 박 백도빈
 sbs_happytogether	buks2	POST	pymbll7-_3cex		2011-08-23	해피투게더 해피투게더
-sbs_happytogether	sylee705	POST	pymc02_-_g9t1		2011-08-25	아이유가비스트보다선배인거안사람 tagexclamation 그리고잘하면비오 금없앨수있겠다 tagsmile 오늘해피투게더에나모르는사람밖에안나오넴 안봐야지
+sbs_happytogether	sylee705	POST	pymc02_-_g9t1		2011-08-25	아이유가비스트보다선배인거안사람 tagexclamation 그리고잘하면비오날19 금없앨수있겠다 tagsmile 오늘해피투게더에나모르는사람밖에안나오넴 안봐야지
 sbs_happytogether	jisiklog	POST	pymc0fm-_rcxy		2011-08-25	오늘해피투게더게스트어떻게 그리고달고나언제폐지 해피투게더
-sbs_happytogether	jisiklog	POST	pymc0qv-_rcxy		2011-08-25	오늘해피투게더누구나오나요tagquestion 해피투게더
+sbs_happytogether	jisiklog	POST	pymc0qv-_rcxy		2011-08-25	오늘해피투게더누구나오 tagquestion 해피투게더
 sbs_happytogether	jisiklog	POST	pymc3_h-_rcxy		2011-08-25	오늘해피투게더출연진누구에 해피투게더
 sbs_happytogether	jisiklog	POST	pymcd9h-_rcxy		2011-08-25	해피투게더오늘의게스트 해피투게더
 sbs_happytogether	jisiklog	POST	pymce0v-_rcxy		2011-08-25	해피투게더 출연자 해피투게더
-sbs_happytogether	jisiklog	POST	pymcewd-_rcxy		2011-08-25	오늘해피투게더에누구나와요tagquestion 해피투게더
+sbs_happytogether	jisiklog	POST	pymcewd-_rcxy		2011-08-25	오늘해피투게더에누구나와 tagquestion 해피투게더
 sbs_happytogether	rlawhddud7	POST	pymcja0-fpa1		2011-08-26	오늘 해피투게더 최은경 아나운서 쌍수저 울트라맨 정말 배 터지다 웃다 다시보기 해서 하다 배꼽 붙잡다 tagsmile tagsmile 웹
 sbs_happytogether	qoralswn1220	POST	pymcjz8-bv5s		2011-08-26	해피투게더끝 해피투게더끝나 해피투게더끝나고 내꺼하자나옴 tagsmile
-sbs_happytogether	jisiklog	POST	pymcp3r-_rcxy		2011-08-26	해피투게더손병호게임시즌 게임소재몇개만좀말해주세 tagsmile 예를들면경찰청창살 이런거 이런거요 해피투게더
-sbs_happytogether	kamiu09	POST	pymcqcu-5tib2		2011-08-26	하이킥 출연진 안내 하이킥 하이킥 짧은다리의역습 하이킥촬영포스터 몽땅내사랑 몽땅내사 하이킥 해피투게더 드림 드림하 드림하이
-sbs_happytogether	mho1840	POST	pymcrcp-_gk3n		2011-08-25	예능 무한도전 런닝맨 박 일 출발드림팀 강심장 밤밤 해피투게더드라마 몽땅내사랑 몽땅내사 무사백동수 계백 보스를지켜 공주의남자음악프로 뮤직뱅크 쇼음악중심 인기가요 나는가수 불후의명곡 중에하나라도보는사람미투 taglove
+sbs_happytogether	jisiklog	POST	pymcp3r-_rcxy		2011-08-26	해피투게더손병호게임시즌2 게임소재몇개만좀말해주세 tagsmile 예를들면경찰청창살 이런거 이런거요 해피투게더
+sbs_happytogether	kamiu09	POST	pymcqcu-5tib2		2011-08-26	하이킥3 출연진 안내 하이킥 하이킥2 짧은다리의역습 하이킥촬영포스터 몽땅내사랑 몽땅내사 하이킥3 해피투게더 드림하이2
+sbs_happytogether	mho1840	POST	pymcrcp-_gk3n		2011-08-25	예능 무한도전 런닝맨 1박2 일 출발드림팀 강심장 밤밤 해피투게더드라마 몽땅내사랑 몽땅내사 무사백동수 계백 보스를지켜 공주의남자음악프로 뮤직뱅크 쇼음악중심 인기가요 나는가수 불후의명곡 중에하나라도보는사람미투 taglove
 sbs_happytogether	aguzzim0505	POST	pymcrcx-_drvw		2011-08-26	해피투게더 최은경아 최은경아나 숟가락으로마스카 보호 tagsmile
-sbs_happytogether	jisiklog	POST	pymcyl8-_rcxy		2011-08-25	해피투게더 출연자가어떻게되나요tagquestion 해피투게더
+sbs_happytogether	jisiklog	POST	pymcyl8-_rcxy		2011-08-25	해피투게더3 출연자가어떻게 tagquestion 해피투게더
 sbs_happytogether	jisiklog	POST	pymcyr4-_rcxy		2011-08-25	해피투게더출연자 해피투게더
 sbs_happytogether	jisiklog	POST	pymc_ue-_rcxy		2011-08-25	오늘해피투게더출연자들좀알려주세 해피투게더
-sbs_happytogether	jisiklog	POST	pymc_zh-_rcxy		2011-08-25	오늘해피투게더 게스트 해피투게더
+sbs_happytogether	jisiklog	POST	pymc_zh-_rcxy		2011-08-25	오늘해피투게더3 게스트 해피투게더
 sbs_happytogether	97jangsi	POST	pymf1sg-yazkq		2011-08-25	해피투게더 재방 정용화나 정용화나와 tagexclamation 감격 tagsmile
-sbs_happytogether	alsco5200	POST	pymfnvz-n_l0		2011-08-22	설리 설리의 보디가드 어디서 만났을까용tagquestion엘레베이터 tagexclamation 보디가드분 자다 자기 지켜줬대요 설리 설리는 보디가드 분만 분 찾다 있대 있대요 ㅂㄲㅂㄲ해피투게더 나오다 tagexclamation 우하항 tagexclamation 해피투게더 만나다 good bye good bye tagexclamation 톡 tagexclamation 톡 tagexclamation 튀다 시간 올거에용 tagexclamation 우하핳 tagexclamation
+sbs_happytogether	alsco5200	POST	pymfnvz-n_l0		2011-08-22	설리 설리의 보디가드 어디서 만났을까용 tagquestion 엘레베이터 tagexclamation 보디가드분 자다 자기 지켜줬대요 설리 설리는 보디가드 분만 분 찾다 있대 있대요 ㅂㄲㅂㄲ 해피투게더 나오다 tagexclamation 우하항 tagexclamation 해피투게더 만나다 good bye good bye tagexclamation 톡 tagexclamation 톡 tagexclamation 튀다 시간 올거에용 tagexclamation 우하핳 tagexclamation
 sbs_happytogether	chewbg	POST	pymfx9t-_aqmk		2011-08-22	tagsmile 차태현 해피투게더 예능감
-sbs_happytogether	starmotion	POST	pymg82x-_1uj8		2011-08-26	해피투게더 임성민 프러포즈 임성민약혼반지
+sbs_happytogether	starmotion	POST	pymg82x-_1uj8		2011-08-26	해피투게더3 임성민 프러포즈 임성민약혼반지
 sbs_happytogether	spastar7	POST	pymg93r-5x8tg		2011-08-26	해피투게더 최은경 해피투게더 최은경 마스카 마스카라 사수 위하다 최후 수단 tagexclamation
-sbs_happytogether	sang0018	POST	pymgds5-_r4ms		2011-08-26	해피투게더 방송인 방송 특집 이상벽 임성민 최은경 박지윤 김성주 임성민 약혼반지 자랑tagquestion 임성민 강호동 소개팅 최은경 고추왕 이장님 소개 중 웃음 웃다 김성주 빵 사다 사 뉴스 진행 못하다 최은경 개그맨tagquestion 김성주 통아저씨 보고 보다 보 생방송 중 웃음 웃다 김성주 mbc 퇴
-sbs_happytogether	sch8736	POST	pymgdt8-5hl69		2011-08-26	해피투게더 다시보기해피투게더 회 이상벽 임성민 최은경 박지윤 김성주 토렌트다운 다시보기
-sbs_happytogether	starmotion	POST	pymgf2j-_1uj8		2011-08-26	해피투게더 최은경 마스카 마스카라 사수 울트라맨
-sbs_happytogether	starmotion	POST	pymgw3k-_1uj8		2011-08-26	해피투게더 김성주 퇴사이유 김성주 탈모
-sbs_happytogether	starmotion	POST	pymgwlm-_1uj8		2011-08-26	해피투게더 임성민 강호동소개팅
+sbs_happytogether	sang0018	POST	pymgds5-_r4ms		2011-08-26	해피투게더 3 방송인 방송 특집 이상벽 임성민 최은경 박지윤 김성주 임성민 약혼반지 자랑 자 tagquestion 임성민 강호동 소개팅 최은경 고추왕 이장님 소개 중 웃음 웃다 김성주 빵 사다 사 뉴스 진행 못하다 최은경 개그맨 tagquestion 김성주 통아저씨 보고 보다 보 생방송 중 웃음 웃다 김성주 mbc 퇴
+sbs_happytogether	sch8736	POST	pymgdt8-5hl69		2011-08-26	해피투게더 다시보기해피투게더3 211회 이상벽 임성민 최은경 박지윤 김성주 토렌트다운 다시보기
+sbs_happytogether	starmotion	POST	pymgf2j-_1uj8		2011-08-26	해피투게더3 최은경 마스카 마스카라 사수 울트라맨
+sbs_happytogether	starmotion	POST	pymgw3k-_1uj8		2011-08-26	해피투게더3 김성주 퇴사이유 김성주 탈모
+sbs_happytogether	starmotion	POST	pymgwlm-_1uj8		2011-08-26	해피투게더3 임성민 강호동소개팅
 sbs_happytogether	eratoskin	POST	pymgymt-ybst1		2011-08-27	해피투게더 이상벽 생방송 중 사회지도층 폭력 남편 등장
 sbs_happytogether	jina1712	POST	pymg_cg-5ypq7		2011-08-27	미취것네 슈퍼스타케 보다 잠 안오 안오고 지금 해피투게더 보고 보다 보 있다 잠 안오 안오고
-sbs_happytogether	asy5688	POST	pymhd7v-_8w_w		2011-08-27	해피투게더 회
+sbs_happytogether	asy5688	POST	pymhd7v-_8w_w		2011-08-27	해피투게더 177회 2
 sbs_happytogether	angeldos8548	POST	pymhgem-_t93e		2011-08-27	달샤벳중 달샤벳중에 아는사람 수빈 지율 지율밖 없다능 tagsmile 해피투게더 해피투게더에 나와가지공 tagsmile
-sbs_happytogether	itoss	POST	pymi29v-q177		2011-08-25	임성민박지윤최은경김성주이상벽해피투게더
+sbs_happytogether	itoss	POST	pymi29v-q177		2011-08-25	임성민박지윤최은경김성주이상벽해피투게더3
 sbs_happytogether	wlahtalsu	POST	pymi2a1-57gjn		2011-08-25	나가 나가께 ㅃㅃ 해피투게더 보다
 sbs_happytogether	21dara	POST	pymi4j7-_tbs5		2011-08-26	해피투게더
-sbs_happytogether	search_now	POST	pymia8q-5y0f5		2011-08-25	리쌍 여성부 나다 놈 답 한소희 김준엽 해피투게더 최지우 최한빛 하림 스티브잡스 네이버 실시 급상승 검색어
-sbs_happytogether	72vusen	POST	pymiboq-5oa3o		2011-08-25	일 해피투게더 아나운서임성민 박지윤 최은경 일 해피투게더 임성민 아나운서시절 예능프로그램 금지령 tagquestion 해피투게더 무소속 방송인 방송 특집 임성민 박지윤 최은경
-sbs_happytogether	insos02	POST	pymieap-_8lnw		2011-08-26	해피투게더 무료다시보기 회 무소속방송인 무소속방송 특집 해피투게더 무료다시보기 회 무소속방송인 무소속방송 특집
-sbs_happytogether	search_now	POST	pymigy2-5y0f5		2011-08-25	여성부 최성국 나다 놈 답 리쌍 니시지마 히데토시 new 김태희 하림 해피투게더 왕재산 블랙홀 네이버 실시 급상승 검색어
+sbs_happytogether	search_now	POST	pymia8q-5y0f5		2011-08-25	리쌍 57 여성부 99 나다 놈 답 741 한소희 228 김준엽 993 해피투게더 57 최지우 108 최한빛 453 하림 186 스티브잡스 243 네이버 실시 급상승 검색어
+sbs_happytogether	72vusen	POST	pymiboq-5oa3o		2011-08-25	25 25일 해피투게더 아나운서임성민 박지윤 최은경25 일 해피투게더 임성민 아나운서시절 예능프로그램 금지령 tagquestion 해피투게더 무소속 방송인 방송 특집 임성민 박지윤 최은경
+sbs_happytogether	insos02	POST	pymieap-_8lnw		2011-08-26	해피투게더3 무료다시보기 211회 무소속방송인 무소속방송 특집 해피투게더3 무료다시보기 211회 무소속방송인 무소속방송 특집
+sbs_happytogether	search_now	POST	pymigy2-5y0f5		2011-08-25	여성부 99 최성국 450 나다 놈 답 741 리쌍 57 니시지마 히데토시 new 김태희 93 하림 186 해피투게더 57 왕재산 852 블랙홀 276 네이버 실시 급상승 검색어
 sbs_happytogether	cafri7846	POST	pymileq-7sg9		2011-08-26	해피투게더 보다 보 하도 하다 하 웃다 눈물 다 김성주씨 김성주씨의 공룡 아들 얘기 울 울다 아들 얘기 같다 우리집 공룡하 공룡하나 사다 아이들 똑같나 똑같나보 우리선유도 맨날사진찍을때 공룡이 공룡이되는데 tagsmile 자 자다 알 웃다 해피투게더 김성주 공룡아들
-sbs_happytogether	itoss	POST	pymiouo-q177		2011-08-25	해피투게더 임성민박지윤최은경김성주이상벽
+sbs_happytogether	itoss	POST	pymiouo-q177		2011-08-25	해피투게더3 임성민박지윤최은경김성주이상벽
 sbs_happytogether	guduk0202	POST	pymirfe-yk_ov		2011-08-25	오늘 해피투게더 볼끄양
 sbs_happytogether	dlftksghtn	POST	pymisp8-5bo89		2011-08-26	한사랑산부인 심상인원장님 sbs 방송출연
-sbs_happytogether	webhosting	POST	pymivt1-4_ac		2011-08-26	원문 임성민 임성민 과거 kbs 예능 금지령 받다 kbs 아나운서 출신 연기자 임성민 임성민이 과거 예능 프로그램 금지령 받다 사연 고백했다 일 방송 kbs 해피투게더 시즌 에서 임성민 임성민은 kbs 아나운서 하다 당시 뉴스 웹
-sbs_happytogether	bsh1806jin	POST	pymiv__-_sfk2		2011-08-25	모두모두 해피투게더보고게신가욤 tagsmile 혜연이는해피투게더보 혜연이는해피투게더보며 많이웃고있답니당 tagsmile taglove 재석오빠에미소 너무사랑스러워욤 taglove tagexclamation 혜연이를웃게해주는해피투게더 재석오빠화이팅tagsmile tagexclamation taglove
+sbs_happytogether	webhosting	POST	pymivt1-4_ac		2011-08-26	원문 임성민 임성민 과거 kbs 예능 금지령 받다 kbs 아나운서 출신 연기자 임성민 임성민이 과거 예능 프로그램 금지령 받다 사연 고백했다 25 25일 방송 kbs 해피투게더 시즌3 에서 임성민 임성민은 kbs 아나운서 하다 당시 뉴스 웹
+sbs_happytogether	bsh1806jin	POST	pymiv__-_sfk2		2011-08-25	모두모두 해피투게더보고게신가욤 tagsmile 혜연이는해피투게더보 혜연이는해피투게더보며 많이웃고있답니당 tagsmile taglove 재석오빠에미소 너무사랑스러워욤 taglove tagexclamation 혜연이를웃게해주는해피투게더 재석오빠화이팅 tagsmile tagexclamation taglove
 sbs_happytogether	blognawa1	POST	pymiw_u-l5f		2011-08-25	블로그 뉴스 해피투게더 블로그 해피투게더
-sbs_happytogether	jisiklog	POST	pymm7b8-_rcxy		2011-08-25	오늘 해피투게더 누구나와요tagquestion 그리다 엠넷 세레나데 세레 대작전 어떤사연이죠tagquestion제발답종 해피투게더
-sbs_happytogether	jisiklog	POST	pymm7ex-_rcxy		2011-08-25	오늘 해피투게더 해피투게더의 출연자는누구인가요tagquestion 해피투게더
-sbs_happytogether	jisiklog	POST	pymmla0-_rcxy		2011-08-25	오늘 해피투게더 게스트는tagquestion 해피투게더
+sbs_happytogether	jisiklog	POST	pymm7b8-_rcxy		2011-08-25	오늘 해피투게더 누구나와 tagquestion 그리다 엠넷 세레나데 세레 대작전 어떤사연이죠 tagquestion 제발답종 해피투게더
+sbs_happytogether	jisiklog	POST	pymm7ex-_rcxy		2011-08-25	오늘 해피투게더 해피투게더의 출연자는누구 tagquestion 해피투게더
+sbs_happytogether	jisiklog	POST	pymmla0-_rcxy		2011-08-25	오늘 해피투게더 게스트 게스트는 tagquestion 해피투게더
 sbs_happytogether	jisiklog	POST	pymmlq4-_rcxy		2011-08-25	오늘해피투게더게스트 해피투게더
 sbs_happytogether	jisiklog	POST	pymmlqe-_rcxy		2011-08-25	오늘해피투게더게스트쫌가르쳐주세요 해피투게더
 sbs_happytogether	jisiklog	POST	pymmlsr-_rcxy		2011-08-25	해피투게더오늘자게스트 해피투게더
 sbs_happytogether	jisiklog	POST	pymmua5-_rcxy		2011-08-25	오늘해피투게더출연진 해피투게더
 sbs_happytogether	jisiklog	POST	pymmuaq-_rcxy		2011-08-25	해피투게더출연자 해피투게더
 sbs_happytogether	jisiklog	POST	pymmuqn-_rcxy		2011-08-25	오늘해피투게더게스트좀 해피투게더
-sbs_happytogether	jisiklog	POST	pymmuqp-_rcxy		2011-08-25	오늘 해피투게더 누구나오나요tagquestion 해피투게더
+sbs_happytogether	jisiklog	POST	pymmuqp-_rcxy		2011-08-25	오늘 해피투게더 누구나오 tagquestion 해피투게더
 sbs_happytogether	jisiklog	POST	pymmusj-_rcxy		2011-08-25	오늘해피투게더게스트좀 tagexclamation 해피투게더
-sbs_happytogether	jisiklog	POST	pymmuum-_rcxy		2011-08-25	오늘해피투게더누구나와요tagquestion 해피투게더
-sbs_happytogether	jisiklog	POST	pymmuzn-_rcxy		2011-08-25	오늘해피투게더게스트 누구나오나요tagquestion 해피투게더
-sbs_happytogether	jisiklog	POST	pymmuzp-_rcxy		2011-08-25	해피투게더손병호게임시즌 게임소재몇개만좀말해주세 tagsmile 예를들면경찰청창살 이런거 이런거요 해피투게더
+sbs_happytogether	jisiklog	POST	pymmuum-_rcxy		2011-08-25	오늘해피투게더누구나와 tagquestion 해피투게더
+sbs_happytogether	jisiklog	POST	pymmuzn-_rcxy		2011-08-25	오늘해피투게더게스트 누구나오 tagquestion 해피투게더
+sbs_happytogether	jisiklog	POST	pymmuzp-_rcxy		2011-08-25	해피투게더손병호게임시즌2 게임소재몇개만좀말해주세 tagsmile 예를들면경찰청창살 이런거 이런거요 해피투게더
 sbs_happytogether	jisiklog	POST	pymmva1-_rcxy		2011-08-25	해피투게더오늘출연진 해피투게더
-sbs_happytogether	bestmurder	POST	pymo84p-_cima		2011-08-27	해피투게더 s e 이상벽 임성민 김성주 최은경 박지윤 hdtv x p hanrel
+sbs_happytogether	bestmurder	POST	pymo84p-_cima		2011-08-27	해피투게더 s3.e211.이상벽 임성민 김성주 최은경 박지윤 .1 10825.hdtv.x264.720p hanrel
 sbs_happytogether	ooo8203	POST	pymp2g4-r37e		2011-08-25	해피투게더 나왔을때 나왔을때의 박보영 waglewagle
 sbs_happytogether	dmswodgus	POST	pymp2u3-ybr2t		2011-08-22	해피투게더 해피투게더도 못 보다 어제 런닝맨 런닝맨에 나왔다네 tagquestion tagcry 오늘 힐링캠프 본방사수 할거 tagexclamation 쪼다 피곤 tagexclamation
-sbs_happytogether	hjhj4513	POST	pymp4f7-yewj6		2011-08-22	진기오빠 키오빠 키오빠가 월 해피투게더 시즌 고정출연 할수두있구 불후 명곡 우리 징기오빠 출연 수두 있다네 있다네요 샤 샤이 taglove 온쫑키밍탬 taglove
+sbs_happytogether	hjhj4513	POST	pymp4f7-yewj6		2011-08-22	진기오빠 키오빠 키오빠가 12월 12월에 해피투게더 시즌 3 3에 고정출연 할수두있구 불후 명곡 우리 징기오빠 출연 수두 있다네 있다네요 샤 샤이 taglove 온쫑키밍탬 taglove
 sbs_happytogether	tory3369	POST	pymp6o5-5_dm		2011-08-25	해피투게더 정말 스케일 스케 쩌러 tagsmile 생각햇던거랑다르네 리얼물인줄 알앗는데
 sbs_happytogether	buks2	POST	pympfmd-_3cex		2011-08-25	해피투게더 해피투게더
 sbs_happytogether	tkfkd6949	POST	pympk8i-e1ab		2011-08-23	해피투게더 침 좀 조다 삼키다 swf 인스티즈 instiz
-sbs_happytogether	eanong	POST	pymqpx5-5np4v		2011-08-27	pm 택연 해피투게더 니 생각 하고있다 언젠 만나다
-sbs_happytogether	wine990323	POST	pymr0u8-p7ug		2011-08-25	하하하하하하 보다 말까tagquestion 보다 말까tagquestion 해피투게더 보다 말까tagquestion tagsmile 몰다 걍 멍 때리다 tagsmile
-sbs_happytogether	eeer0074	POST	pymr13c-_gxdw		2011-08-25	해피투게더 임성민 해피투게더 임성민
+sbs_happytogether	eanong	POST	pymqpx5-5np4v		2011-08-27	2pm 택연 해피투게더 니 생각 하고있다 언젠 만나다
+sbs_happytogether	wine990323	POST	pymr0u8-p7ug		2011-08-25	하하하하하하 보다 말다 tagquestion 보다 말다 tagquestion 해피투게더 보다 말다 tagquestion tagsmile 몰다 걍 멍 때리다 tagsmile
+sbs_happytogether	eeer0074	POST	pymr13c-_gxdw		2011-08-25	해피투게더3 임성민 해피투게더3 임성민
 sbs_happytogether	tkanrlrn	POST	pymr7gm-_t46i		2011-08-26	해피투게더 다시보기 무소속 방송인 방송 특집 김성주 kbs 첫 출연 텃세
 sbs_happytogether	shylove6658	POST	pymr9lw-yw_b_		2011-08-26	오늘 해피투게더 진짜웃기네 미치다 tagsmile
-sbs_happytogether	chlwlsrud513	POST	pymr9ue-yeyuq		2011-08-26	해피투게더보는뎈 tagsmile 존ㄴ나웃곀 tagsmile
+sbs_happytogether	chlwlsrud513	POST	pymr9ue-yeyuq		2011-08-26	해피투게더보는뎈 tagsmile 조다 졸다 ㄴ 나웃곀 tagsmile
 sbs_happytogether	yoshikipp	POST	pymrbea-13tb		2011-08-25	해피투게더 보다 tagexclamation 난 나다 날다 해피투게더 해피투게더가 젤루 재밌더 재밌더라 tagsmile
-sbs_happytogether	dhd1015-1	POST	pymrcpw-5jgn1		2011-08-22	내 윤재유수밍이렇게 주연 하다 하 시트콤 해피투게더 해피투게더는 봐주다 있다 니네 니네가 시높베낀 하이킥 늘다 볼 보다 수가 수 없다 작가분 누군가 참 차다 궁금 배낄게 팬픽 팬픽을 배끼냐tagquestion tagsmile 문학작품 그러지 마랔 tagsmile 이왕 가시연 가시연이 박유천비극사 박유천비극사도 베끼다 단 달다 윤재유수밍 윤재유수밍을 주연 해섴 tagsmile 그럼 엄청나다 엄청 흥행 될거얔 tagsmile 만관객신화 다시쓰 다시쓰다 뭐 이런가 나오다 tagsmile
+sbs_happytogether	dhd1015-1	POST	pymrcpw-5jgn1		2011-08-22	내 윤재유수밍이렇게 주연 하다 하 시트콤 해피투게더 해피투게더는 봐주다 있다 니네 니네가 시높베낀 하이킥3 늘다 볼 보다 수가 수 없다 작가분 누군가 참 차다 궁금 배낄게 팬픽 팬픽을 배끼냐 tagquestion tagsmile 문학작품 그러지 마랔 tagsmile 이왕 가시연 가시연이 박유천비극사 박유천비극사도 베끼다 단 달다 윤재유수밍 윤재유수밍을 주연 해섴 tagsmile 그럼 엄청나다 엄청 흥행 될거얔 tagsmile 800만관객신화 다시쓰 다시쓰다 뭐 이런가 나오다 tagsmile
 sbs_happytogether	dktjs77	POST	pymre83-50h9		2011-08-25	지금 오이팩하는중 tagsmile 해피투게더봐야대 tagexclamation 오늘 보스 마지막 차지헌본부장님 멋잇엇어 꺄올
 sbs_happytogether	wlals1900	POST	pymrjf4-_btq3		2011-08-24	해피투게더 온유
 sbs_happytogether	jihyun0735	POST	pymrjj2-paau		2011-08-26	해피투게더 최은경 씨 정말 재밌었어요 우리 가족 진짜 빵 터지다 tagsmile 되다 긍정적 밝다 좋아하다 방송인 화이팅 tagexclamation 해피투게더 최은겸 화이팅 좋다 taglove 루나네일상상자
 sbs_happytogether	lavonne	POST	pymrjqz-yhpoh		2011-08-26	금방 해피투게더 보고왔습니 tagsmile 김성주 대박웃기네 tagexclamation 새롭게보 새롭게보임 그동안 밋밋 생각 입담 장난 장 아니다 앞 김성주 푸근하다 좋아질뜻 tagexclamation 해피투게더 김성주 대박웃김 tagexclamation 김성주 아들 장래희망 공룡 tagsmile 대통령앞 공룡포즈
-sbs_happytogether	syuos	POST	pymrmcn-yulut		2011-08-26	오늘 해피투게더 안하나여tagquestion 해피투게더 방송 지역 어디시길래 순팽이닷컴
-sbs_happytogether	ksw9622	POST	pymro_u-__pq0		2011-08-22	드림팀미친개쓰레기새끼 종운이 종운이가 떨어지다 움직이다 못하다 못 있다 상황 세트 고치는게 말이되냐tagquestion 존 존나 병신같은새끼 세트 병신 만들어놔서 애들 애들이 연습할때 계속 부분 떨어지다 그랬다며 씨발것 씨발것들이 존 존나 쌩쌩 활동 잘하고있는애 반병신만드려고작정했냐tagquestion 우선 활동 있다 애들 애들을 드림팀 스케쥴 잡은거 부터 병신 tagcry 존 존나 시간째 촬영 내 내다 새끼 다치다 다 이게 뭐 tagsmile 슈주 안봐 안봐도 되다 드림팀 나오다 마세 마세요 씨발 해피투게더 찜질복입고 하하호호 담소 나누는게 좋다 tagcry 라디오스타 tagcry
+sbs_happytogether	syuos	POST	pymrmcn-yulut		2011-08-26	오늘 해피투게더 안하나 안하나여 tagquestion 해피투게더 방송 지역 어디시길래 순팽이닷컴
+sbs_happytogether	ksw9622	POST	pymro_u-__pq0		2011-08-22	드림팀미친개쓰레기새끼 종운이 종운이가 떨어지다 움직이다 못하다 못 있다 상황 세트 고치는게 말이 말이되냐 tagquestion 존 존나 병신같은새끼 세트 병신 만들어놔서 애들 애들이 연습할때 계속 부분 떨어지다 그랬다며 씨발것 씨발것들이 존 존나 쌩쌩 활동 잘하고있는애 반병신만드려고작정 tagquestion 우선 활동 있다 애들 애들을 드림팀 스케쥴 잡은거 부터 병신 tagcry 존 존나 4시간째 촬영 내 내다 새끼 다치다 다 이게 뭐 tagsmile 슈주 안봐 안봐도 되다 드림팀 나오다 마세 마세요 씨발 해피투게더 찜질복입고 하하호호 담소 나누는게 좋다 tagcry 라디오스타 tagcry
 sbs_happytogether	dlftksghtn	POST	pymrrzr-5bo89		2011-08-22	일산맛집 홍대맛집 수원맛집 해물전골
-sbs_happytogether	jiruhecom	POST	pymt0i8-_50e_		2011-08-26	해피투게더 시즌 회 월 일 토도우
+sbs_happytogether	jiruhecom	POST	pymt0i8-_50e_		2011-08-26	해피투게더 시즌3 211회 8월25 일 토도우
 sbs_happytogether	east516	POST	pymtdlv-y1dq0		2011-08-26	야근 여유롭다 해피투게더 감상중 tagsmile 앞 매주 금요일 금요 이시 이시간엔 회사 이러 이러고 있을것 같다 tagsmile 놀다 있다 엄연 야근중
-sbs_happytogether	abcdefg0518	POST	pymtt84-_ol9t		2011-08-27	q배고파 tagcry 정용화 정용화가 나오다 방송다 찾아보는중 유희열 스케치북 김정은 김정은의 초콜릿 라디오스타 세바퀴 밤 밤 우리결혼 시즌 넌내게반 해피투게더 강심장 대기실콘서트장 현장 음중끝나고주차장에있는씨엔블루 왤케 많다
-sbs_happytogether	mople	POST	pymw5ro-ybyr8		2011-08-25	해피투게더 회 e 닥본사 닥 치다 치 본 보다 방 사 사다 닥치고본방사수 닥본사 별점 오늘 해피투게더 회 e
-sbs_happytogether	stephanie104	POST	pymw8yz-55dow		2011-08-25	지윤 지윤아 해피투게더 해피투게더에 출연한다며tagquestion tagsmile 해피투게더 해피투게더에 박지윤씨 박지윤씨가 나온데욬 tagsmile
-sbs_happytogether	insos02	POST	pymwbqj-_8lnw		2011-08-23	해피투게더 무료다시보기 회 최강동안특집 해피투게더 무료다시보기 회 최강동안특집
+sbs_happytogether	abcdefg0518	POST	pymtt84-_ol9t		2011-08-27	q배고파 tagcry 정용화 정용화가 나오다 방송다 찾아보는중 유희열 스케치북 김정은 김정은의 초콜릿 라디오스타 세바퀴 밤 밤 우리결혼 시즌2 넌내게반 해피투게더3 강심장 대기실콘서트장 현장 음중끝나고주차장에있는씨엔블루 왤케 많다
+sbs_happytogether	mople	POST	pymw5ro-ybyr8		2011-08-25	해피투게더 211회 e211닥본사  닥  치다 치  본  방  사  닥치고본방사수 닥본사 별점 오늘 해피투게더 211회 e211
+sbs_happytogether	stephanie104	POST	pymw8yz-55dow		2011-08-25	지윤 지윤아 해피투게더 해피투게더에 출연 tagquestion tagsmile 해피투게더 해피투게더에 박지윤씨 박지윤씨가 나온데욬 tagsmile
+sbs_happytogether	insos02	POST	pymwbqj-_8lnw		2011-08-23	해피투게더3 무료다시보기 210회 최강동안특집 해피투게더3 무료다시보기 210회 최강동안특집
 sbs_happytogether	rhgmlwjd97	POST	pymwc4h-5iptt		2011-08-25	나 나다 해피투게더 시청중
-sbs_happytogether	luckygirlmj	POST	pymweun-5z5j2		2011-08-25	해피투게더 일 해피투게더 임성민 예능 프로그램 금지령 박지윤 예능 프로 시키다 섭섭 최은경 사람 개그우먼 알다
-sbs_happytogether	itoa	POST	pymwfit-ahtb		2011-08-23	해피투게더 해피투게더 엠블랙 이준 노출 비 가슴가리개 tagexclamation
+sbs_happytogether	luckygirlmj	POST	pymweun-5z5j2		2011-08-25	해피투게더3 25 25일 해피투게더3 임성민 예능 프로그램 금지령 박지윤 예능 프로 시키다 섭섭 최은경 사람 개그우먼 알다
+sbs_happytogether	itoa	POST	pymwfit-ahtb		2011-08-23	해피투게더3 해피투게더3 엠블랙 이준 노출 비 가슴가리개 tagexclamation
 sbs_happytogether	seoyeon0012	POST	pymwhoc-qr6x		2011-08-26	해피투게더보는데 대박 tagexclamation 최은경친구아들왈 나다 나 크다 햄될거 햄될거야 tagsmile 이거듣고 한참웃었다는
-sbs_happytogether	wing2922	POST	pymwl1_-_bcm9		2011-08-26	해피투게더 회 다시보기 임성민 박지윤 최은경 이상벽 김성주
+sbs_happytogether	wing2922	POST	pymwl1_-_bcm9		2011-08-26	해피투게더 211회 다시보기 임성민 박지윤 최은경 이상벽 김성주 02
 sbs_happytogether	sol0840	POST	pymwmn9-53e0w		2011-08-23	조혜련 일본방송 해피투게더 소개중
-sbs_happytogether	dda1dda	POST	pymwo6p-_tu9c		2011-08-25	따따 예쁘다 블랙 데님 스키니진 http ddadda co kr shop goods goods view phptagquestiongoodsno 따따 여성브 최성국 리쌍 블랙홀 해피투게더 왕재산 하림 김태희 오세훈 나오늘지금 따따 여성브 최성국 리쌍 블랙홀 해피투게더 왕재산 하림 김태희 오세훈 나오늘지금
-sbs_happytogether	boxboo302	POST	pymwob5-55kju		2011-08-25	해피투게더 목요일 목요 출연자
+sbs_happytogether	dda1dda	POST	pymwo6p-_tu9c		2011-08-25	따따 예쁘다 블랙 데님 스키니진 http ddadda.co.kr shop goods goods view.php tagquestion goodsno 945따따 여성브 최성국 리쌍 블랙홀 해피투게더 왕재산 하림 김태희 오세훈 나오늘지금 따따 여성브 최성국 리쌍 블랙홀 해피투게더 왕재산 하림 김태희 오세훈 나오늘지금
+sbs_happytogether	boxboo302	POST	pymwob5-55kju		2011-08-25	해피투게더 8,25 목요일 목요 출연자
 sbs_happytogether	emily7333	POST	pymwq0p-y13r9		2011-08-26	오늘 해피투게더 완전 웃기다 tagexclamation tagsmile 완전 대박 tagexclamation tagsmile 숟가락 tagexclamation ㄱ tagsmile
 sbs_happytogether	kkb145	POST	pymwycx-556_z		2011-08-22	tagsmile 아눈아퍼 tagcry 난 나다 날다 지금 아까아까전 오다 해피투게더 재방보구 지금 아발론 버스시간 헷갈리다 볼라궁 tagsmile
-sbs_happytogether	nunurigo121	POST	pymwzjz-_9tci		2011-08-26	해피투게더 월 일꺼 plpa
+sbs_happytogether	nunurigo121	POST	pymwzjz-_9tci		2011-08-26	해피투게더3 8월3 일꺼 plpa

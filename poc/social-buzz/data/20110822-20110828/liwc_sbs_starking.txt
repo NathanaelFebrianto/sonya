@@ -3,6 +3,7 @@ sbs_starking	psb051106	POST	pym0it6-ykjgv		2011-08-22	CRYMARK	1.0	tagcry
 sbs_starking	wanzee96	POST	pym1h9s-_0f_o		2011-08-22	PRESENT	1.0	오늘
 sbs_starking	wanzee96	POST	pym1h9s-_0f_o		2011-08-22	SMILEMARK	1.0	tagsmile
 sbs_starking	catty_1107	POST	pym1uu0-5ee9b		2011-08-22	SMILEMARK	1.0	크
+sbs_starking	thal0147	POST	pym80jc-ytr8i		2011-08-27	QUESTIONMARK	1.0	tagquestion
 sbs_starking	thal0147	POST	pym80jc-ytr8i		2011-08-27	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	gana034	POST	pym81wp-5xsu7		2011-08-27	PRESENT	1.0	오늘
 sbs_starking	gana034	POST	pym81wp-5xsu7		2011-08-27	SMILEMARK	1.0	tagsmile
@@ -19,6 +20,7 @@ sbs_starking	knh0727	POST	pym89tj-5qlm3		2011-08-26	EXCLAMMARK	1.0	tagexclamatio
 sbs_starking	knh0727	POST	pym89tj-5qlm3		2011-08-26	SMILEMARK	1.0	크
 sbs_starking	beat38	POST	pym8adx-jxup		2011-08-24	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	back282ky	POST	pym8aw_-ttd7		2011-08-26	EXCLAMMARK	1.0	tagexclamation
+sbs_starking	sdh04036	POST	pym8bzp-5msk		2011-08-27	QUESTIONMARK	1.0	tagquestion
 sbs_starking	sdh04036	POST	pym8bzp-5msk		2011-08-27	SMILEMARK	1.0	tagsmile
 sbs_starking	yooly0406	POST	pym8da8-5yetr		2011-08-27	SMILEMARK	1.0	tagsmile
 sbs_starking	yooly0406	POST	pym8da8-5yetr		2011-08-27	LOVEMARK	1.0	taglove
@@ -31,6 +33,7 @@ sbs_starking	angel312312	POST	pym8dmd-rd1z		2011-08-27	CRYMARK	1.0	tagcry
 sbs_starking	angel312312	POST	pym8dmd-rd1z		2011-08-27	LOVEMARK	1.0	taglove
 sbs_starking	qkrdlstjs01	POST	pym8f68-_oeac		2011-08-27	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	qkrdlstjs01	POST	pym8fj6-_oeac		2011-08-27	PRESENT	1.0	오늘
+sbs_starking	qkrdlstjs01	POST	pym8fj6-_oeac		2011-08-27	QUESTIONMARK	1.0	tagquestion
 sbs_starking	qkrdlstjs01	POST	pym8fj6-_oeac		2011-08-27	CRYMARK	1.0	tagcry
 sbs_starking	qkrdlstjs01	POST	pym8fj6-_oeac		2011-08-27	SEE	1.0	보다
 sbs_starking	alicia1120	POST	pym8gfr-y911v		2011-08-27	PRESENT	1.0	오늘
@@ -38,6 +41,7 @@ sbs_starking	alicia1120	POST	pym8gfr-y911v		2011-08-27	QUANTIFIER	1.0	너무
 sbs_starking	alicia1120	POST	pym8gfr-y911v		2011-08-27	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	alicia1120	POST	pym8gfr-y911v		2011-08-27	POSITIVE	1.0	좋아
 sbs_starking	jjjjj8	POST	pym8tm3-_3s3k		2011-08-26	EXCLAMMARK	1.0	tagexclamation
+sbs_starking	jjjjj8	POST	pym8tm3-_3s3k		2011-08-26	SMILEMARK	1.0	tagsmile
 sbs_starking	qa2tc58	POST	pym8u98-2ctd		2011-08-24	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	qa2tc58	POST	pym8u98-2ctd		2011-08-24	SMILEMARK	1.0	크
 sbs_starking	wlduddl1569	POST	pym8vy0-eo2t		2011-08-23	PRESENT	1.0	오늘
@@ -49,6 +53,7 @@ sbs_starking	qa3tc870115	POST	pym9rzg-5y3dn		2011-08-24	EXCLAMMARK	1.0	tagexclam
 sbs_starking	qa3tc870115	POST	pym9rzg-5y3dn		2011-08-24	SMILEMARK	1.0	크
 sbs_starking	jinchul7678	POST	pym9syc-5ai3z		2011-08-24	SMILEMARK	1.0	tagsmile
 sbs_starking	psb051106	POST	pymbvr8-_suh6		2011-08-22	PRESENT	1.0	요즘
+sbs_starking	psb051106	POST	pymbvr8-_suh6		2011-08-22	QUESTIONMARK	1.0	tagquestion
 sbs_starking	psb051106	POST	pymbvr8-_suh6		2011-08-22	SMILEMARK	1.0	tagsmile
 sbs_starking	angfang00	POST	pymca0f-l7mh		2011-08-26	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	angfang00	POST	pymca0f-l7mh		2011-08-26	SMILEMARK	1.0	크
@@ -77,7 +82,9 @@ sbs_starking	siekfried	POST	pymfnob-5hq0g		2011-08-26	EXCLAMMARK	1.0	tagexclamat
 sbs_starking	siekfried	POST	pymfnob-5hq0g		2011-08-26	SMILEMARK	1.0	크
 sbs_starking	kitylion	POST	pymfo_p-5ig54		2011-08-26	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	vincent23	POST	pymfpay-1fx2		2011-08-25	PRESENT	1.0	이제
+sbs_starking	vincent23	POST	pymfpay-1fx2		2011-08-25	SMILEMARK	1.0	tagsmile
 sbs_starking	dydgh0110	POST	pymfqdm-w8m2		2011-08-25	PRESENT	1.0	이번주
+sbs_starking	dydgh0110	POST	pymfqdm-w8m2		2011-08-25	QUESTIONMARK	1.0	tagquestion
 sbs_starking	everysingapp	POST	pymfs43-gcel		2011-08-26	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	everysingapp	POST	pymfs43-gcel		2011-08-26	SMILEMARK	1.0	tagsmile
 sbs_starking	everysingapp	POST	pymfs43-gcel		2011-08-26	SEE	1.0	보다
@@ -85,7 +92,7 @@ sbs_starking	yiwa9400	POST	pymfxk5-_iczc		2011-08-27	FUTURE	1.0	내일
 sbs_starking	yiwa9400	POST	pymfxk5-_iczc		2011-08-27	CRYMARK	1.0	tagcry
 sbs_starking	choskoi	POST	pymg1k6-od64		2011-08-26	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	choskoi	POST	pymg1k6-od64		2011-08-26	SMILEMARK	1.0	크
-sbs_starking	sk6083	POST	pymg4yp-7tqk		2011-08-27	PRESENT	1.0	오늘
+sbs_starking	sk6083	POST	pymg4yp-7tqk		2011-08-27	PRESENT	1.0	오늘6
 sbs_starking	clover7112	POST	pymgb7r-52gw0		2011-08-27	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	clover7112	POST	pymgb7r-52gw0		2011-08-27	SMILEMARK	1.0	크
 sbs_starking	choskoi	POST	pymgbnx-od64		2011-08-26	EXCLAMMARK	1.0	tagexclamation
@@ -113,14 +120,19 @@ sbs_starking	dkdud0586	POST	pymh2s9-_bmun		2011-08-27	LOVEMARK	1.0	taglove
 sbs_starking	yulee0821	POST	pymh3q1-m6lg		2011-08-27	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	yulee0821	POST	pymh3q1-m6lg		2011-08-27	SMILEMARK	1.0	tagsmile
 sbs_starking	msds8753	POST	pymh4sq-yxzct		2011-08-27	PRESENT	1.0	지금
+sbs_starking	msds8753	POST	pymh4sq-yxzct		2011-08-27	SMILEMARK	1.0	tagsmile
 sbs_starking	emilykim98	POST	pymhkjh-5_n2q		2011-08-27	PRESENT	1.0	오늘
 sbs_starking	emilykim98	POST	pymhkjh-5_n2q		2011-08-27	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	ism_xo	POST	pymhnaj-_gn7n		2011-08-27	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	ism_xo	POST	pymhnaj-_gn7n		2011-08-27	CRYMARK	1.0	tagcry
 sbs_starking	minho1456	POST	pymhnbo-_fumk		2011-08-27	SMILEMARK	1.0	tagsmile
 sbs_starking	dmsruf608	POST	pymhpni-5y0s9		2011-08-27	SMILEMARK	1.0	tagsmile
+sbs_starking	dkdud0586	POST	pymhqj8-_bmun		2011-08-27	QUESTIONMARK	1.0	tagquestion
+sbs_starking	junghyun4782	POST	pymhq_n-y0g0l		2011-08-27	QUESTIONMARK	1.0	tagquestion
 sbs_starking	junghyun4782	POST	pymhq_n-y0g0l		2011-08-27	EXCLAMMARK	1.0	tagexclamation
+sbs_starking	dkdud0586	POST	pymhsgn-_bmun		2011-08-27	QUESTIONMARK	1.0	tagquestion
 sbs_starking	dkdud0586	POST	pymhsgn-_bmun		2011-08-27	POSITIVE	1.0	좋다
+sbs_starking	rksk0611	POST	pymhvb4-y84bf		2011-08-27	QUESTIONMARK	1.0	tagquestion
 sbs_starking	rksk0611	POST	pymhvb4-y84bf		2011-08-27	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	rksk0611	POST	pymhvb4-y84bf		2011-08-27	SMILEMARK	1.0	tagsmile
 sbs_starking	rksk0611	POST	pymhvb4-y84bf		2011-08-27	CRYMARK	1.0	tagcry
@@ -139,10 +151,12 @@ sbs_starking	heebin02	POST	pymiohn-5wq6g		2011-08-26	EXCLAMMARK	1.0	tagexclamati
 sbs_starking	euri2001	POST	pymipaj-5h8v5		2011-08-26	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	krhm24	POST	pymiqte-yrla8		2011-08-26	PRESENT	1.0	오늘
 sbs_starking	krhm24	POST	pymiqte-yrla8		2011-08-26	QUANTIFIER	1.0	아주
+sbs_starking	krhm24	POST	pymiqte-yrla8		2011-08-26	QUESTIONMARK	1.0	tagquestion
 sbs_starking	cocoridda	POST	pymiuvz-uyae		2011-08-26	QUESTIONMARK	1.0	tagquestion
 sbs_starking	cocoridda	POST	pymiuvz-uyae		2011-08-26	SMILEMARK	1.0	tagsmile
 sbs_starking	sysky36	POST	pymiv4o-ydef8		2011-08-26	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	sysky36	POST	pymiv4o-ydef8		2011-08-26	SMILEMARK	1.0	크
+sbs_starking	hog9088	POST	pymiy7f-5bga_		2011-08-25	QUESTIONMARK	1.0	tagquestion
 sbs_starking	papaho0	POST	pymi_fo-5zl2x		2011-08-26	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	elinacc	POST	pymj2i0-p685		2011-08-25	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	qa2tc06_1	POST	pymj945-yhmsc		2011-08-23	EXCLAMMARK	1.0	tagexclamation
@@ -159,10 +173,10 @@ sbs_starking	alsdud8254	POST	pymjyrv-yn2e7		2011-08-23	EXCLAMMARK	1.0	tagexclama
 sbs_starking	alsdud8254	POST	pymjyrv-yn2e7		2011-08-23	CRYMARK	1.0	tagcry
 sbs_starking	thl0809	POST	pymm30j-54psp		2011-08-24	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	mople	POST	pymm5z2-ybyr8		2011-08-27	PRESENT	1.0	오늘
-sbs_starking	mople	POST	pymm5z2-ybyr8		2011-08-27	SEE	1.0	보다
 sbs_starking	usoo0	POST	pymm79v-hqoj		2011-08-24	SMILEMARK	1.0	크
 sbs_starking	jungsy0807	POST	pymm801-3cr3		2011-08-27	PRESENT	1.0	지금
 sbs_starking	jungsy0807	POST	pymm801-3cr3		2011-08-27	LOVEMARK	1.0	taglove
+sbs_starking	shyi96	POST	pymmfmw-ypdr2		2011-08-27	QUESTIONMARK	1.0	tagquestion
 sbs_starking	96joobar	POST	pymmfwq-_65wq		2011-08-27	CRYMARK	1.0	tagcry
 sbs_starking	kyuleeflower	POST	pymmgnm-5mnwl		2011-08-27	PRESENT	1.0	오늘
 sbs_starking	kyuleeflower	POST	pymmgnm-5mnwl		2011-08-27	EXCLAMMARK	1.0	tagexclamation
@@ -173,11 +187,14 @@ sbs_starking	akmo_o	POST	pymmgpf-seej		2011-08-27	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	xoalssorh	POST	pymmgvt-_pstu		2011-08-27	PRESENT	1.0	오늘
 sbs_starking	ssa618	POST	pymmo1_-__jbm		2011-08-27	CRYMARK	1.0	tagcry
 sbs_starking	wendy971214	POST	pymmox7-i68h		2011-08-27	CRYMARK	1.0	tagcry
+sbs_starking	yunajeon2	POST	pymmsqa-5mpm1		2011-08-24	QUESTIONMARK	1.0	tagquestion
 sbs_starking	yunajeon2	POST	pymmsqa-5mpm1		2011-08-24	SMILEMARK	1.0	tagsmile
 sbs_starking	akmo_o	POST	pymmt85-seej		2011-08-27	CRYMARK	1.0	tagcry
 sbs_starking	wjdskdud098	POST	pymmw7w-7ols		2011-08-27	SMILEMARK	1.0	tagsmile
 sbs_starking	gksqlwnsgh	POST	pymmwns-_c0v7		2011-08-27	PRESENT	1.0	지금
+sbs_starking	gksqlwnsgh	POST	pymmwns-_c0v7		2011-08-27	QUESTIONMARK	1.0	tagquestion
 sbs_starking	gksqlwnsgh	POST	pymmwns-_c0v7		2011-08-27	SMILEMARK	1.0	크
+sbs_starking	gksqlwnsgh	POST	pymmwns-_c0v7		2011-08-27	SEE	1.0	보다
 sbs_starking	01064626561	POST	pymmwpk-tc2k		2011-08-27	SMILEMARK	1.0	tagsmile
 sbs_starking	01064626561	POST	pymmwpk-tc2k		2011-08-27	LOVEMARK	1.0	taglove
 sbs_starking	01064626561	POST	pymmwpk-tc2k		2011-08-27	SEE	1.0	보다
@@ -189,6 +206,7 @@ sbs_starking	jph03020	POST	pymo90p-36ke		2011-08-24	EXCLAMMARK	1.0	tagexclamatio
 sbs_starking	rollas	POST	pymo9w5-fdc8		2011-08-27	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	rollas	POST	pymo9w5-fdc8		2011-08-27	SMILEMARK	1.0	크
 sbs_starking	shinee__onew	POST	pymokv7-y5w24		2011-08-26	FUTURE	1.0	내일
+sbs_starking	shinee__onew	POST	pymokv7-y5w24		2011-08-26	QUESTIONMARK	1.0	tagquestion
 sbs_starking	shinee__onew	POST	pymokv7-y5w24		2011-08-26	CRYMARK	1.0	tagcry
 sbs_starking	james1642	POST	pymol7g-rswo		2011-08-27	QUESTIONMARK	1.0	tagquestion
 sbs_starking	shinee1_1	POST	pymorpw-5s_3k		2011-08-27	PRESENT	1.0	지금
@@ -199,6 +217,7 @@ sbs_starking	shinee1_1	POST	pymorpw-5s_3k		2011-08-27	CRYMARK	1.0	tagcry
 sbs_starking	qa3tc870104	POST	pymozyl-_aln7		2011-08-24	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	qa3tc870104	POST	pymozyl-_aln7		2011-08-24	SMILEMARK	2.0	크 tagsmile
 sbs_starking	papaho0	POST	pympchq-5zl2x		2011-08-22	EXCLAMMARK	1.0	tagexclamation
+sbs_starking	papaho0	POST	pymppgl-5zl2x		2011-08-22	QUESTIONMARK	1.0	tagquestion
 sbs_starking	papaho0	POST	pymppgl-5zl2x		2011-08-22	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	qa2tc56	POST	pympu2_-qois		2011-08-24	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	qa2tc56	POST	pympu2_-qois		2011-08-24	SMILEMARK	1.0	크
@@ -210,15 +229,18 @@ sbs_starking	minredshin	POST	pymr2ng-51und		2011-08-26	EXCLAMMARK	1.0	tagexclama
 sbs_starking	minredshin	POST	pymr2ng-51und		2011-08-26	SMILEMARK	1.0	크
 sbs_starking	nvqa_1tc001	POST	pymr52d-5hpb5		2011-08-24	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	nvqa_1tc001	POST	pymr52d-5hpb5		2011-08-24	SMILEMARK	1.0	크
+sbs_starking	goji1	POST	pymr8tz-idye		2011-08-24	QUESTIONMARK	1.0	tagquestion
 sbs_starking	merry7am	POST	pymrgpx-yzkkq		2011-08-26	EXCLAMMARK	1.0	tagexclamation
-sbs_starking	merry7am	POST	pymrgpx-yzkkq		2011-08-26	SMILEMARK	1.0	크
+sbs_starking	merry7am	POST	pymrgpx-yzkkq		2011-08-26	SMILEMARK	2.0	크 tagsmile
 sbs_starking	eiseeone	POST	pymri1_-5a81w		2011-08-26	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	eiseeone	POST	pymri1_-5a81w		2011-08-26	SMILEMARK	1.0	크
 sbs_starking	qa2tc57	POST	pymrpa8-s1ky		2011-08-24	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	qa2tc57	POST	pymrpa8-s1ky		2011-08-24	SMILEMARK	1.0	크
+sbs_starking	yangpa	POST	pymrpof-y82c		2011-08-26	QUESTIONMARK	1.0	tagquestion
 sbs_starking	salsa311	POST	pymrwsr-yfs3v		2011-08-26	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	salsa311	POST	pymrwsr-yfs3v		2011-08-26	SMILEMARK	1.0	크
 sbs_starking	s9dses	POST	pymrwtl-5dppo		2011-08-24	LOVEMARK	1.0	taglove
+sbs_starking	onetoos	POST	pymt0na-5ud9f		2011-08-27	QUESTIONMARK	1.0	tagquestion
 sbs_starking	lockingchair	POST	pymt0ut-_ynrz		2011-08-27	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	sago789	POST	pymt3mr-_mv70		2011-08-27	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	khw572	POST	pymt3sj-yp6c9		2011-08-27	EXCLAMMARK	1.0	tagexclamation
@@ -229,6 +251,7 @@ sbs_starking	kye980309	POST	pymt93u-fpqj		2011-08-27	CRYMARK	1.0	tagcry
 sbs_starking	kye980309	POST	pymt93u-fpqj		2011-08-27	POSITIVE	1.0	좋다
 sbs_starking	kye980309	POST	pymt93u-fpqj		2011-08-27	SEE	1.0	보다
 sbs_starking	tj9609	POST	pymt9av-2hk5		2011-08-27	POSITIVE	1.0	행복
+sbs_starking	imking0128	POST	pymta2d-_zjb_		2011-08-27	SMILEMARK	1.0	tagsmile
 sbs_starking	imking0128	POST	pymta2d-_zjb_		2011-08-27	CRYMARK	1.0	흑흑
 sbs_starking	dkdud0586	POST	pymtfk2-_bmun		2011-08-26	FUTURE	1.0	내일
 sbs_starking	dkdud0586	POST	pymtfk2-_bmun		2011-08-26	EXCLAMMARK	1.0	tagexclamation
@@ -267,6 +290,7 @@ sbs_starking	ressita	POST	pymwjuj-ypgte		2011-08-23	PRESENT	1.0	오늘
 sbs_starking	ressita	POST	pymwjuj-ypgte		2011-08-23	SMILEMARK	1.0	tagsmile
 sbs_starking	joanna1227	POST	pymwkko-pvo4		2011-08-27	PRESENT	1.0	오늘
 sbs_starking	joanna1227	POST	pymwkko-pvo4		2011-08-27	NEGATIVE	1.0	후회
+sbs_starking	my1004-0304	POST	pymwlgd-_0rb7		2011-08-24	QUESTIONMARK	1.0	tagquestion
 sbs_starking	my1004-0304	POST	pymwlgd-_0rb7		2011-08-24	EXCLAMMARK	1.0	tagexclamation
 sbs_starking	my1004-0304	POST	pymwlgd-_0rb7		2011-08-24	SEE	1.0	보다
 sbs_starking	ssa618	POST	pymwmaz-__jbm		2011-08-25	PRESENT	1.0	이번주

@@ -1,15 +1,15 @@
 program_id	author_id	type	post_id	comment_id	publish_date	terms
 sbs_baekdongsoo	ygpopo	POST	pym04wo-5kirk		2011-08-18	다이어트 자극 남자몸짱 지창욱 무사백동수 지창욱 복근
-sbs_baekdongsoo	wegpbasic	POST	pym050r-5xcrl		2011-08-18	트리니티오늘 년지기 친구 이수빈 양의 양 내마음 내마음의 풍금 이 뮤지컬을보러왔다 tagsmile 어색도햇지 무사백동수 에서 여운 아역 나왓던 박건태 군까지 군까지있어서 재미있었습니다 tagexclamation 년지기 혜원 수빈 건태 화이팅 tagexclamation
-sbs_baekdongsoo	dhvh0402	POST	pym0as_-5u2gr		2011-08-19	엄마 이제개학 밤 에자야된데 에자야된데요 무사백동수 보스를지켜라어떡 엄마 미워 tagexclamation 슈스케도못본다 으헝헝헝
+sbs_baekdongsoo	wegpbasic	POST	pym050r-5xcrl		2011-08-18	트리니티오늘 11년지기 친구 이수빈 양의 양 내마음 내마음의 풍금 이 뮤지컬을보러왔다 tagsmile 어색도햇지 무사백동수 에서 여운 아역 나왓던 박건태 군까지 군까지있어서 재미있었습니다 tagexclamation 11년지기 혜원 수빈 건태 화이팅 tagexclamation
+sbs_baekdongsoo	dhvh0402	POST	pym0as_-5u2gr		2011-08-19	엄마 이제개학 밤 10에자야된데 10에자야된데요 무사백동수 보스를지켜라어떡 엄마 미워 tagexclamation 슈스케도못본다 으헝헝헝
 sbs_baekdongsoo	dfantasy8	POST	pym0dpa-yi21		2011-08-20	조선 제일 제 검 김광택 김광택은 백동수 살고프면 일어나다 몽둥이 찜질 열다 해대다 어젯밤 복통 시달리다 나다 나 오늘 하루종일 하루종 기운 깁다 없다 겔겔대 겔겔대다 홍초 얼린거 먹으 먹으며 일어나다 노력 중 중이 우웅 슈퍼가서 물 계란 양파 사다 사 하눈뎅 움직이다 싫다 싫어 tagcry
 sbs_baekdongsoo	hpde	POST	pym0f72-yi8x_		2011-08-19	무사 백동수 정주행
-sbs_baekdongsoo	leeger92	POST	pym0hzc-pvzg		2011-08-18	계백 무사백동수 공주 남자 남다 보스 지키다 넌 널다 내다 반 애정만만세 순위 순이랍니당 드라마 월화 월화나 수목드라마 인기 많다 그것 시쯤 나오다 제일루 tagexclamation
+sbs_baekdongsoo	leeger92	POST	pym0hzc-pvzg		2011-08-18	계백 무사백동수 공주 남자 남다 보스 지키다 넌 널다 내다 반 애정만만세 순위 순이랍니당 드라마 월화 월화나 수목드라마 인기 많다 그것 10시쯤 나오다 제일루 tagexclamation
 sbs_baekdongsoo	didrb1028	POST	pym0inu-yuutd		2011-08-20	광개토대왕 목소리 크다 계백 똥폼 다잡다 백동수 백동수는 시끄럽다 공주 남다 남자 지지다 궁상 다떨고 근데 재밋네잉 tagsmile
-sbs_baekdongsoo	new7192	POST	pym0v7y-nda9		2011-08-19	아 tagexclamation 무사백동수 홍종현나온다 홍종현나온다고 tagexclamation tagcry 정조앓 정조앓이 tagcry tagcry 티비없는집의 서럽다 서러움 진심 쉛 tagexclamation 재방언제함tagquestion최진아집에가서구걸 재방언제함tagquestion최진아집에가서구걸해야지 tagsmile 무사백동수 tagexclamation tagcry 아진심 정조앓 정조앓이 tagsmile
+sbs_baekdongsoo	new7192	POST	pym0v7y-nda9		2011-08-19	아 tagexclamation 무사백동수 홍종현나온다 홍종현나온다고 tagexclamation tagcry 정조앓 정조앓이 tagcry tagcry 티비없는집의 서럽다 서러움 진심 쉛 tagexclamation 재방언제 tagquestion 최진아집에가서구걸 tagsmile 무사백동수 tagexclamation tagcry 아진심 정조앓 정조앓이 tagsmile
 sbs_baekdongsoo	new7192	POST	pym0wfo-nda9		2011-08-19	아 쉛 무사백동수 홍종현나온다는데 우리집엔티비가 tagcry 방학숙제랑구몬해야된디 존 존나 하기싫네 담주화요일개학
 sbs_baekdongsoo	norinamu	POST	pym0wvi-5lysw		2011-08-18	무사 백동수 ost 김태우 사랑 빠지다
-sbs_baekdongsoo	hello_oasha	POST	pym0wwx-54qm0		2011-08-20	계백 완전 재밌음 그동안 내 왜 외다 백동수 백동수를 봤지tagquestion 어우 계백 비교 안되다 tagexclamation 역시 마봉춘 tagexclamation 사극 마봉춘 마봉춘이 대박 tagexclamation
+sbs_baekdongsoo	hello_oasha	POST	pym0wwx-54qm0		2011-08-20	계백 완전 재밌음 그동안 내 왜 외다 백동수 백동수를 보다 tagquestion 어우 계백 비교 안되다 tagexclamation 역시 마봉춘 tagexclamation 사극 마봉춘 마봉춘이 대박 tagexclamation
 sbs_baekdongsoo	okey369	POST	pym0z_5-5t5d3		2011-08-19	뒤늦다 백동수 백동수에 단단 꽂히다 완전 재밌어 tagexclamation 시청률 그정 그정도 되는게 괜 그러는게 아니다 tagexclamation
 sbs_baekdongsoo	aldk97	POST	pym1aq4-bf46		2011-08-20	야뇌 백동수
 sbs_baekdongsoo	gi2448	POST	pym1b7q-bc5s		2011-08-20	염종 tagsmile 백동수 아빠 죽다 공주 남자 건너가다 tagsmile 역시 염종 염종임 tagsmile
@@ -19,132 +19,132 @@ sbs_baekdongsoo	mechange79	POST	pym1srn-5tflb		2011-08-20	백동수 다 바따 t
 sbs_baekdongsoo	sunnyksy1010	POST	pym1s_r-_ijuh		2011-08-20	나 나다 두주니오빠 orol유 id 이기광 준호 수지 백동수 그리다 그쪽
 sbs_baekdongsoo	sunnyksy1010	POST	pym1y24-_ijuh		2011-08-20	백동수 있다 있었구
 sbs_baekdongsoo	hakuba12	POST	pym30z6-yanwa		2011-08-20	안녕 무사백동수
-sbs_baekdongsoo	rlaalstj1030	POST	pym32i4-yv_7b		2011-08-18	내일 내 애버랜드 갑니돠 tagsmile 나보고시픈사람 오다 tagsmile 백동수 안오면 뒤진다tagquestion tagsmile
-sbs_baekdongsoo	thdpwls2003	POST	pym35n6-y0d05		2011-08-18	내 요즘 보다 보 짱구 못말려 기 안녕 자두 무사 백동수 보스 지키다 닉네 닉네임
-sbs_baekdongsoo	ygb2587	POST	pym3czx-_oevo		2011-08-18	무사 백동수 회 보기 보다
-sbs_baekdongsoo	sunnyksy1010	POST	pym3fvr-_ijuh		2011-08-18	tagsmile 백동수 그지tagquestion
-sbs_baekdongsoo	ygb2587	POST	pym3i1g-_oevo		2011-08-18	무사 백동수 회
+sbs_baekdongsoo	rlaalstj1030	POST	pym32i4-yv_7b		2011-08-18	내일 내 애버랜드 갑니돠 tagsmile 나보고시픈사람 오다 tagsmile 백동수 안오면 뒤지다 tagquestion tagsmile
+sbs_baekdongsoo	thdpwls2003	POST	pym35n6-y0d05		2011-08-18	내 요즘 보다 보 짱구 못말려11 기 안녕 자두 무사 백동수 보스 지키다 닉네 닉네임
+sbs_baekdongsoo	ygb2587	POST	pym3czx-_oevo		2011-08-18	무사 백동수 1 6회 보기 보다
+sbs_baekdongsoo	sunnyksy1010	POST	pym3fvr-_ijuh		2011-08-18	tagsmile 백동수 그지 tagquestion
+sbs_baekdongsoo	ygb2587	POST	pym3i1g-_oevo		2011-08-18	무사 백동수 6 14회
 sbs_baekdongsoo	happydoll	POST	pym3xba-y_ut1		2011-08-20	백동수 보고
 sbs_baekdongsoo	smas174	POST	pym3z5l-5jzsq		2011-08-18	부활 only road 무사 백동수 ost
 sbs_baekdongsoo	rhwnsqoddl12	POST	pym542g-5y5n5		2011-08-18	무사백동수가좋으면미투
-sbs_baekdongsoo	cho208610	POST	pym554n-_gdhg		2011-08-16	스탑잇 tagexclamation 정답다 정답 무사백동수 였습니다 어제 동수 운 한 하다 명대사죠 tagexclamation 자 자다 오늘 도 본방사수 tagexclamation 그럼 나다 나 씻다 가다 갈다 아참 tagexclamation 싸다구 대의 대 주인공 통통통통 tagexclamation ㅃㅃ
-sbs_baekdongsoo	hyundai253	POST	pym55jz-5b8oq		2011-08-16	무사백동수 sbs월화드라마 무사백동수 회 다시보기
-sbs_baekdongsoo	cho208610	POST	pym55sm-_gdhg		2011-08-16	퀴즈 tagexclamation 죽지마 넌 널다 내 죽일꺼 죽일꺼야 대사 어제 한 하다 드라마 주연 한 하다 말인데 말인데요 tagexclamation 드라마 이르다 이름 tagexclamation 마이미투 마이미투에 써주세용 보기 보다 sbs 무사백동수 kbs 스파이명월 mbc 계백 tagexclamation 시작 추첨 통하다 간지용화님 싸다구 대가 대 주어지다 tagexclamation
+sbs_baekdongsoo	cho208610	POST	pym554n-_gdhg		2011-08-16	스탑잇 tagexclamation 정답다 정답 1.무사백동수 였습니다 어제 동수 운 한 하다 명대사죠 tagexclamation 자 자다 오늘 도 본방사수 tagexclamation 그럼 나다 나 씻다 가다 갈다 아참 tagexclamation 싸다구10 대의 대 주인공 통통통통 tagexclamation ㅃㅃ
+sbs_baekdongsoo	hyundai253	POST	pym55jz-5b8oq		2011-08-16	무사백동수 sbs월화드라마 무사백동수 2회 다시보기
+sbs_baekdongsoo	cho208610	POST	pym55sm-_gdhg		2011-08-16	퀴즈 tagexclamation 1 죽지마 넌 널다 내 죽일꺼 죽일꺼야 대사 어제 한 하다 드라마 주연 한 하다 말인데 말인데요 tagexclamation 드라마 이르다 이름 tagexclamation 마이미투 마이미투에 써주세용 보기 보다 1.sbs 무사백동수 2.kbs 스파이명월 3.mbc 계백 tagexclamation 시작 추첨 통하다 간지용화님 싸다구 10대 10대가 주어지다 tagexclamation
 sbs_baekdongsoo	zoza0203	POST	pym56rx-ayhp		2011-08-16	무사백동수 보다 보세 tagexclamation
 sbs_baekdongsoo	kayla0902	POST	pym58gk-5smku		2011-08-16	지금 무사백동수 시청 있다구 tagexclamation 승호 taglove 알약
 sbs_baekdongsoo	3210dptmej	POST	pym58ne-yepym		2011-08-18	여인 향기 보스 지키다 스파이 명월 계백 무사 백동수 공주 남자 남다 넌 널다 내다 반 오작교형제 천 번 입맞추다 내 내다 사랑 사 내 내다 곁 광개토태왕 애정만만세 두근두근 달콤 내사 당신 참 차다 예쁘다 미쓰 아줌마 우리집 여자 불굴 며느리 당신 당신이 잠들다 사이 사다 사
-sbs_baekdongsoo	pansori76	POST	pym5ahb-yd60a		2011-08-16	무사백동수 회다시보기 여운 눈빛 애잔 무사백동수 회 예고편미리보기
+sbs_baekdongsoo	pansori76	POST	pym5ahb-yd60a		2011-08-16	무사백동수 13회다시보기 여운 눈빛 애잔 무사백동수 14회 예고편미리보기
 sbs_baekdongsoo	vbmvbm98	POST	pym5bdm-_1f2		2011-08-18	남양주 영화촬영소 출사 다녀오다무사백동수 공동경비구역jsa
 sbs_baekdongsoo	choontac66	POST	pym5bp2-_gbs8		2011-08-16	아 무사 백동수 동수 정신 나다 tagcry 불쌍 초립이 초립이도 곧그렇게 될듯말듯 될듯말듯해 tagsmile 여운 늘다 레알 나쁘다 쉬키 tagsmile 배신자 tagcry
-sbs_baekdongsoo	leedongyo7	POST	pym5d3b-yoi96		2011-08-16	무사백동수 회 다시보기
-sbs_baekdongsoo	sepist	POST	pym5dxt-_sbqf		2011-08-18	헤네시 여성용중지갑 그리다 세탁기 천원 구매 신개념 추첨경매 시 무사백동수
+sbs_baekdongsoo	leedongyo7	POST	pym5d3b-yoi96		2011-08-16	무사백동수 13회 다시보기
+sbs_baekdongsoo	sepist	POST	pym5dxt-_sbqf		2011-08-18	헤네시 여성용중지갑 그리다 세탁기 천원 구매 신개념 추첨경매 3시 무사백동수
 sbs_baekdongsoo	sajavi	POST	pym5f6w-y0swx		2011-08-16	sbs 무사 백동수 와이파 와이파인데 오늘 버퍼링 버퍼링이 있넹 tagsmile tagsmile
 sbs_baekdongsoo	sajavi	POST	pym5fbg-y0swx		2011-08-16	sbs 무사 백동수 진주 방법 격하시당
 sbs_baekdongsoo	sajavi	POST	pym5fo6-y0swx		2011-08-16	sbs 무사 백동수 뭐 눈치 조낸 빨다 빠르다 tagcry
 sbs_baekdongsoo	sajavi	POST	pym5fzb-y0swx		2011-08-16	sbs 무사 백동수 질질민수 맨날질질 흘리다 tagcry
-sbs_baekdongsoo	jh43564a	POST	pym5gfw-5npk7		2011-08-16	무사백동수 무사백동수 회 다시보기 세대통신 g 스마트폰
+sbs_baekdongsoo	jh43564a	POST	pym5gfw-5npk7		2011-08-16	무사백동수 무사백동수 13회 다시보기 4세대통신4g 스마트폰
 sbs_baekdongsoo	01036855395	POST	pym5gyf-_s365		2011-08-16	무사 백동수 예전 못하다 드라마 내 폰 폰이 말다 만지다 사도세자 죽다 박진감 박진감이 떨어지다 그런가 예전 못하다 현재 넘버원 드라마
 sbs_baekdongsoo	litolioo	POST	pym5g_3-_mf3g		2011-08-16	백동수 날믿어 tagexclamation tagsmile 완전 멋있다 tagexclamation tagsmile 아 너네 용준형트위터 용준형트위터에 올라오다 양요섭사진봤니 진짜 멋있다 말다 말 필요 한번봐봐 특 임수 tagexclamation tagsmile 기절금지 tagsmile
-sbs_baekdongsoo	eun_a1018	POST	pym5hmp-_tkei		2011-08-19	나중 봐요ㅇㅅㅇ 무사 백동수 정주행 이제 편본닼
+sbs_baekdongsoo	eun_a1018	POST	pym5hmp-_tkei		2011-08-19	나중 보다 ㅇㅅㅇ 무사 백동수 정주행 이제 5편본닼
 sbs_baekdongsoo	-fate-	POST	pym5i5f-_q3hm		2011-08-16	무사 백동수 본사람 백동수
 sbs_baekdongsoo	gks2dnjs	POST	pym5ic3-_w02x		2011-08-16	김태우 사랑에빠지 무사백동수 ost
 sbs_baekdongsoo	rladmsdk31	POST	pym5ir7-l61b		2011-08-16	진짜 난 나다 날다 액션 좋은가봐 백동수대박 tagsmile 빨다 검선 무술 배우다 tagsmile
-sbs_baekdongsoo	insos02	POST	pym5j04-_8lnw		2011-08-16	무사백동수 회 무료 다시보기 무사백동수 회 무료 다시보기
+sbs_baekdongsoo	insos02	POST	pym5j04-_8lnw		2011-08-16	무사백동수 13회 무료 다시보기 무사백동수 13회 무료 다시보기
 sbs_baekdongsoo	bluemay318	POST	pym5jku-_i_1e		2011-08-16	무사 백동수 ost 김태우 사랑 빠지다 뮤비보기
-sbs_baekdongsoo	taelove79	POST	pym5jnb-m8af		2011-08-18	무사 백동수 무사 백동수 넘다 고지 고다 자체 최고시청률
+sbs_baekdongsoo	taelove79	POST	pym5jnb-m8af		2011-08-18	무사 백동수 무사 백동수 넘다 20 고지 고다 자체 최고시청률
 sbs_baekdongsoo	p0899	POST	pym5k32-5u77d		2011-08-16	가깝다 책방 찾다 tagexclamation 이제 더이 독서 목마르지않겠고낭 백동수도 다음 백동수 tagexclamation ㅁ
 sbs_baekdongsoo	chawoo112	POST	pym5k3u-_i2k5		2011-08-16	백동수 백동수가 불쌍 tagcry
-sbs_baekdongsoo	sbluein	POST	pym5k4t-y6hoy		2011-08-19	백동수 보다 보 계백 공주 남자 갈아타다 백동수 백동수는 초반 괜찮다 가다 몰입도 몰입도가 떨어지다 계백 선덕여왕 몰입도 몰입도가 좋다 공주 남자 제 막다 막 향하다 가다 가 있다 백동수 백동수보 몰입도 몰입도는 낫다 단 달다 의자왕 의자왕은 지못미 급 늙다 왕 늙어보 늙어보임
+sbs_baekdongsoo	sbluein	POST	pym5k4t-y6hoy		2011-08-19	백동수 보다 보 계백 공주 남자 갈아타다 백동수 백동수는 초반 괜찮다 가다 몰입도 몰입도가 떨어지다 계백 선덕여왕 몰입도 몰입도가 좋다 공주 남자 제2 막다 막 향하다 가다 가 있다 백동수 백동수보 몰입도 몰입도는 낫다 단 달다 의자왕 의자왕은 지못미 급 늙다 왕 늙어보 늙어보임
 sbs_baekdongsoo	poplez_net	POST	pym5ltk-5wtdz		2011-08-17	mv 김태우 사랑 빠지다 무사 백동수 ost poplez
-sbs_baekdongsoo	chltlwns08	POST	pym5o4v-5nzin		2011-08-16	김태우 사랑 빠지다 네이버앱 음악검색 무사 백동수 ost part
-sbs_baekdongsoo	bhj3624	POST	pym5ow1-54kbc		2011-08-16	넌 널다 내다 반 계백 무사 백동수 공주 남자 남다 이중 한개 한개라 보시는분 미투 누르다 안누르시는분 무엇을보시나요tagquestion 제발 tagcry 이렇게까지부탁드림니 tagcry tagcry
-sbs_baekdongsoo	gptjsrntwkq	POST	pym5oz1-y1_sy		2011-08-16	무사백동수 재밋는듯 tagsmile 지창욱나와서 그런ㄱㅏtagquestion tagsmile
-sbs_baekdongsoo	codbcjf3267	POST	pym5p2f-yuomc		2011-08-16	합성작 우리 무인 무 백동수깨서 야탸족 이라 이라니 tagexclamation
-sbs_baekdongsoo	kingsgl	POST	pym5p3s-y7ezw		2011-08-16	나 나다 백동수 보고 보다 보 오다 ㅂ ㅂ
+sbs_baekdongsoo	chltlwns08	POST	pym5o4v-5nzin		2011-08-16	김태우 사랑 빠지다 네이버앱 음악검색 무사 백동수 ost part 6
+sbs_baekdongsoo	bhj3624	POST	pym5ow1-54kbc		2011-08-16	넌 널다 내다 반 계백 무사 백동수 공주 남자 남다 이중 한개 한개라 보시는분 미투 누르다 안누르시는분 무엇을보시 tagquestion 제발 tagcry 이렇게까지부탁드림니 tagcry tagcry
+sbs_baekdongsoo	gptjsrntwkq	POST	pym5oz1-y1_sy		2011-08-16	무사백동수 재밋는듯 tagsmile 지창욱나와서 ㄱㅏ tagquestion tagsmile
+sbs_baekdongsoo	codbcjf3267	POST	pym5p2f-yuomc		2011-08-16	합성작2 우리 무인 무 백동수깨서 야탸족 이라 이라니 tagexclamation
+sbs_baekdongsoo	kingsgl	POST	pym5p3s-y7ezw		2011-08-16	나 나다 백동수 보고 보다 보 오다 ㅂ 2 ㅂ 2
 sbs_baekdongsoo	shy_sonagi	POST	pym5pby-54r2l		2011-08-16	무사백동수 tagsmile 좀잇음 궈궈 tagsmile
 sbs_baekdongsoo	codbcjf3267	POST	pym5rdd-yuomc		2011-08-16	댓글 댓글이 없다 tagexclamation 내용 굳 인데 백동수 백동수를 모르다 모르 tagquestion
 sbs_baekdongsoo	ancw2000	POST	pym5rhr-5cj0		2011-08-16	백동수보고오겟소
 sbs_baekdongsoo	park-ha-eun	POST	pym5rzq-_d1ch		2011-08-16	난 나다 날다 백동수 보다
-sbs_baekdongsoo	glay027210	POST	pym5suh-5g8q9		2011-08-17	내자리 내자리에 발도장 tagexclamation tagsmile 백동수 다보구 머 검색좀하구 이제 잠니다웃님 잠니다웃님들도 안녕히줌시고 tagsmile낼밝은얼굴들로뵈 via 아임in
-sbs_baekdongsoo	jaewook123	POST	pym5tl4-5e0kf		2011-08-16	오 무사 백동수 백동수가 위 tagsmile
-sbs_baekdongsoo	mari3355	POST	pym5tn4-_ouxj		2011-08-16	무사백동수 핸드폰 배경화면 x 지창욱 유승호
+sbs_baekdongsoo	glay027210	POST	pym5suh-5g8q9		2011-08-17	내자리 내자리에 발도장 tagexclamation tagsmile 백동수 다보구 머 검색좀하구 이제 잠니다웃님 잠니다웃님들도 안녕히줌시고 tagsmile 낼밝은얼굴들로뵈 낼밝은얼굴들로뵈요 via 아임in
+sbs_baekdongsoo	jaewook123	POST	pym5tl4-5e0kf		2011-08-16	오 무사 백동수 백동수가 1위 tagsmile
+sbs_baekdongsoo	mari3355	POST	pym5tn4-_ouxj		2011-08-16	무사백동수 핸드폰 배경화면 240x400 지창욱 유승호
 sbs_baekdongsoo	wlaurel99	POST	pym5v5b-y8gss		2011-08-19	무사 백동수 보다 보 사람 사다 미투
-sbs_baekdongsoo	sss43260	POST	pym5vkr-yy1y8		2011-08-18	무사 백동수 화 호다 아슬
+sbs_baekdongsoo	sss43260	POST	pym5vkr-yy1y8		2011-08-18	무사 백동수 5화 07아슬
 sbs_baekdongsoo	harry877	POST	pym5wfr-_0j0e		2011-08-16	무사백동수 드럽게 재미 계백 훨씬 잼슴
 sbs_baekdongsoo	vhttj	POST	pym5wyy-yhs4p		2011-08-16	무사백동수 보고잇는거얔 tagsmile tagquestion 나도 나다 나 지금보고잇다 진주바보
 sbs_baekdongsoo	zhfldkgkgk	POST	pym5x2n-5pnau		2011-08-18	요즘 무사백동수 tagsmile
-sbs_baekdongsoo	hyundai253	POST	pym5ya0-5b8oq		2011-08-16	무사백동수 sbs월화드라마 무사백동수 회 다시보기
+sbs_baekdongsoo	hyundai253	POST	pym5ya0-5b8oq		2011-08-16	무사백동수 sbs월화드라마 무사백동수 1회 다시보기
 sbs_baekdongsoo	an72536	POST	pym5yv0-5ym0s		2011-08-16	무사백동수ost 김태우 사랑 빠지다 무사백동수ost 모음 모으다 듣기 듣다 가사 가다
-sbs_baekdongsoo	thdus0028	POST	pym5z3x-yrjvp		2011-08-19	무사백동우 유승호 tagexclamation 유승호 폰배경 승호
-sbs_baekdongsoo	thdus0028	POST	pym5zek-yrjvp		2011-08-19	무사백동수 회다시보기 유승호 폰배경 여운 핸드폰 배경 유승호
-sbs_baekdongsoo	answlgh3	POST	pym5zel-y071_		2011-08-17	무사 백동수 화 호다 토렌트
+sbs_baekdongsoo	thdus0028	POST	pym5z3x-yrjvp		2011-08-19	무사백동우 유승호 tagexclamation 유승호 폰배경 240 400 승호
+sbs_baekdongsoo	thdus0028	POST	pym5zek-yrjvp		2011-08-19	무사백동수6 회다시보기 유승호 폰배경 여운 핸드폰 배경 유승호
+sbs_baekdongsoo	answlgh3	POST	pym5zel-y071_		2011-08-17	무사 백동수 14화 토렌트
 sbs_baekdongsoo	thdus0028	POST	pym5zkg-yrjvp		2011-08-19	유승호 폰배경 무사백동수 유승호 폰배경 핸드폰 배
 sbs_baekdongsoo	pchris1217	POST	pym61yg-ye1gh		2011-08-17	밀리다 무사백동수 보고 보다 보 오다 tagexclamation 아 계백 저거 언제 다 정주행 정주행하지
-sbs_baekdongsoo	webhosting	POST	pym63ir-4_ac		2011-08-17	원문 유오성 시청률지창욱 유승호 무사백동수 월화극 위 유오성 영화 촬영 스태프 폭행 사건 비하인드 스토리 고백했다 일 오후 방송 kbs tv 김승우 김승우의 승승장구 에서 유오성 영화 도마 안중근 촬영 당시 숙소 숙다 문제 웹
-sbs_baekdongsoo	fraujoo99	POST	pym65un-_81ij		2011-08-17	무사백동수 회 그따위 운명 떨쳐버리면
+sbs_baekdongsoo	webhosting	POST	pym63ir-4_ac		2011-08-17	원문 유오성 시청률지창욱 유승호 무사백동수 월화극 1위 유오성 영화 촬영 스태프 폭행 사건 비하인드 스토리 고백했다 16 16일 오후 방송 kbs 2tv 김승우 김승우의 승승장구 에서 유오성 영화 도마 안중근 촬영 당시 숙소 숙다 문제 웹
+sbs_baekdongsoo	fraujoo99	POST	pym65un-_81ij		2011-08-17	무사백동수14 회 그따위 운명 떨쳐버리면
 sbs_baekdongsoo	okasia	POST	pym65v3-_0zij		2011-08-17	무사 백동수 그디어 화려 액션 서막
 sbs_baekdongsoo	pchris1217	POST	pym68w_-ye1gh		2011-08-17	지금 미투 미투하느 미투하느라 무사백동수 소리 듣다 있다 뭔가 헷갈리다
 sbs_baekdongsoo	nunurigo121	POST	pym69e4-_9tci		2011-08-19	무사 백동수 촬영장 빨갛다 선풍기 유지선 신현빈
-sbs_baekdongsoo	b_soha	POST	pym6aio-2kcq		2011-08-20	웅 국사시간에선생님이여담으로얘기해줬었옹 tagsmile 지금에스비에스에서하는게무사백동수인가tagquestion 이거도퓨전사극인가보네
+sbs_baekdongsoo	b_soha	POST	pym6aio-2kcq		2011-08-20	웅 국사시간에선생님이여담으로얘기해줬었옹 tagsmile 지금에스비에스에서하는게무사백동수인가 tagquestion 이거도퓨전사극인가보네
 sbs_baekdongsoo	shinej0004	POST	pym6b0w-_homm		2011-08-17	무사백동수 유승호 신현빈 신현빈에 마음 표현 애절 눈빛
-sbs_baekdongsoo	skfnskfn7777	POST	pym6b3h-5groq		2011-08-17	무사 백동수 화 호다 다시보기
-sbs_baekdongsoo	hy951114	POST	pym6cni-ykx70		2011-08-20	tagsmile 무사 백동수 보겟네tagquestion tagsmile 아 블라인드 보다 tagsmile 재밌겠던데
-sbs_baekdongsoo	stylisthanul	POST	pym6e3p-_w5s7		2011-08-17	무사 백동수 계백 추격 뿌리치다 뿌리 월화극 위 수성
-sbs_baekdongsoo	each67	POST	pym6gpi-_sjia		2011-08-17	백동수보고싶다 지금하고있겠징tagquestion tagcry
+sbs_baekdongsoo	skfnskfn7777	POST	pym6b3h-5groq		2011-08-17	무사 백동수 14화 다시보기
+sbs_baekdongsoo	hy951114	POST	pym6cni-ykx70		2011-08-20	tagsmile 무사 백동수 보겟네 tagquestion tagsmile 아 블라인드 보다 tagsmile 재밌겠던데
+sbs_baekdongsoo	stylisthanul	POST	pym6e3p-_w5s7		2011-08-17	무사 백동수 계백 추격 뿌리치다 뿌리 월화극 1위 수성
+sbs_baekdongsoo	each67	POST	pym6gpi-_sjia		2011-08-17	백동수보고싶다 지금하고있겠징 tagquestion tagcry
 sbs_baekdongsoo	daheun1996	POST	pym6ken-y86hy		2011-08-16	무사 백동수 재밌다
 sbs_baekdongsoo	thgus8426	POST	pym6ldu-_hb45		2011-08-17	무사백동수 보고 보다 보 싶당
 sbs_baekdongsoo	heyand11	POST	pym6lx3-5hqhh		2011-08-17	김태우 사랑 빠지다 무사백동수 ost
-sbs_baekdongsoo	ccya	POST	pym6mem-hmgu		2011-08-19	무사 백동수 회 월 일 다시보기
+sbs_baekdongsoo	ccya	POST	pym6mem-hmgu		2011-08-19	무사 백동수 14회 8월16 일 다시보기
 sbs_baekdongsoo	ergh369	POST	pym6n39-yey9s		2011-08-17	오늘 tagsmile 무사백동수 여운 유승호생일이예옄 tagsmile happy birthday tagexclamation
-sbs_baekdongsoo	egigom	POST	pym6pa6-z_7j		2011-08-17	드라마 무사백동수 sbs 여운 고개 숙이다 안되다 이유tagquestion
+sbs_baekdongsoo	egigom	POST	pym6pa6-z_7j		2011-08-17	드라마 무사백동수 sbs 여운 고개 숙이다 안되다 이유 tagquestion
 sbs_baekdongsoo	starmotion	POST	pym6qbu-_1uj8		2011-08-17	기적의오디션 김정 김정은 클래스 무사백동수포착
 sbs_baekdongsoo	mycaryyo	POST	pym6uy9-yb859		2011-08-20	지금 일어나다 하루종일 하루종 자다 자 tagcry 지금 일어나다 뜨다 미숫가루 마시다 ㅡ ㅡ 백동수 재방보는중 아하 이거 잼 tagsmile
-sbs_baekdongsoo	pchris1217	POST	pym6wo2-ye1gh		2011-08-17	뭐지 정신 차리다 분 지나가다 있다 무사 백동수 분 지나가다 있다 되돌리다
-sbs_baekdongsoo	hyeonah0411	POST	pym6xtp-_clt2		2011-08-19	월화 드라마 시청률 위 무사백동수 위 계백 위 스파이명월
-sbs_baekdongsoo	ju676910	POST	pym9klz-584sq		2011-08-20	패션시티 레벨 달성 tagexclamation
+sbs_baekdongsoo	pchris1217	POST	pym6wo2-ye1gh		2011-08-17	뭐지 정신 차리다 20분 20분이 지나가다 있다 무사 백동수 20분 지나가다 있다 되돌리다
+sbs_baekdongsoo	hyeonah0411	POST	pym6xtp-_clt2		2011-08-19	월화 드라마 시청률 1위 무사백동수 2위 계백 3위 스파이명월
+sbs_baekdongsoo	ju676910	POST	pym9klz-584sq		2011-08-20	패션시티 6레벨 달성 tagexclamation
 sbs_baekdongsoo	humanisthis	POST	pym9rjc-mxqj		2011-08-20	무사 백동수 나루토 표절 의혹
 sbs_baekdongsoo	outaku	POST	pymb05l-z56b		2011-08-19	무사 백동수 본격 여운 미모 돋보이다 드라마 tagexclamation 아아아아아 여운 여운 넌 널다 왜 외다 이렇게 아련아련해서 아련아련 이모 마음 흔들다 놓다 백동수 백동수의 스토리 따위 잊다 오다 오래다 tagsmile
 sbs_baekdongsoo	doh5692	POST	pymb3mu-5h5s9		2011-08-20	사극 드라마 합친건 무사 백동수 백동수임 tagexclamation
 sbs_baekdongsoo	smy2166	POST	pymb97o-qq8l		2011-08-20	기적의오디션 이슬 찰리 리 탈락 타다 김은숙작가 조셉 서 서다 지현준 무사백동수
-sbs_baekdongsoo	dlswlcksal	POST	pymba2b-zc7a		2011-08-19	이거 나 나다 저번 보다 감동적 tagsmile 근데 난 나다 날다 유승호 목소리 집중 요즘 백동수 본방사수중 tagexclamation 운 멋있엉 taglove 악역 난 나다 날다 좋다 tagsmile 처음 유승호 유승호가 주인공인줄알았는뎀 아니 알고보 알고보니 동해 주인공 tagsmile 그래두 난 나다 날다 운이 운이가 좋소tagsmile 마당 나오다 암탉
-sbs_baekdongsoo	goqkfkrl2727	POST	pymbabj-_p28w		2011-08-19	다음번 다음번에 스마트폰 스마트폰으 만나다 바라다 허허 사극 맛들린 요즘 무사 백동수 백동수랑 계백 공주 남자 재밌네 재밌네요 공주 남자 남다 단종 하악 잘생기다
+sbs_baekdongsoo	dlswlcksal	POST	pymba2b-zc7a		2011-08-19	이거 나 나다 저번 보다 감동적 tagsmile 근데 난 나다 날다 유승호 목소리 집중 요즘 백동수 본방사수중 tagexclamation 운 멋있엉 taglove 악역 난 나다 날다 좋다 tagsmile 처음 유승호 유승호가 주인공인줄알았는뎀 아니 알고보 알고보니 동해 주인공 tagsmile 그래두 난 나다 날다 운이 운이가 좋다 tagsmile 마당 나오다 암탉
+sbs_baekdongsoo	goqkfkrl2727	POST	pymbabj-_p28w		2011-08-19	다음번 다음번에 스마트폰 스마트폰으 만나다 바라다 허허 사극 맛들린 1 요즘 무사 백동수 백동수랑 계백 공주 남자 재밌네 재밌네요 공주 남자 남다 단종 하악 잘생기다
 sbs_baekdongsoo	jien531	POST	pymblds-_slvc		2011-08-19	유승호 멋있당 tagexclamation 무사백동수 본방사수 tagexclamation
 sbs_baekdongsoo	rodydwl	POST	pymbr78-w1c9		2011-08-20	백동수 백동수와 사랑 빠지다 김태우
-sbs_baekdongsoo	new7192	POST	pymbs1i-nda9		2011-08-20	아침 친구 피시방왔다 tagexclamation 방숙하러온건데 존 존나 다 딴짓중 tagsmile 분남았 tagcry 아 홍종현 팬카페 팬카페엔 정조합성사진 나돌아다니다 나돌아다니는구 tagcry 엄마 내년 월에생각하쟀는데 무사백동수 다다음주 홍종현나온다 홍종현나온다고 tagexclamation tagcry
+sbs_baekdongsoo	new7192	POST	pymbs1i-nda9		2011-08-20	아침 친구 피시방왔다 tagexclamation 방숙하러온건데 존 존나 다 딴짓중 tagsmile 2분남았 tagcry 아 홍종현 팬카페 팬카페엔 정조합성사진 나돌아다니다 나돌아다니는구 tagcry 엄마 내년3 월에생각하쟀는데 무사백동수 다다음주 홍종현나온다 홍종현나온다고 tagexclamation tagcry
 sbs_baekdongsoo	twinkleim	POST	pymbyaw-56ww4		2011-08-19	요즘 sbs 잼 드라마 완전 많다 월화 월화는 무사백동수 수목 보스 지키다 주말드라마 여인 향기 오옷 tagexclamation 좋다 이동욱 지성 최강희 김선 김선아 지창욱 유승호 화이팅 tagexclamation
-sbs_baekdongsoo	insos02	POST	pymb_19-_8lnw		2011-08-19	무사백동수 회 무료 다시보기 무사백동수 회 무료 다시보기
-sbs_baekdongsoo	iyousens	POST	pymd0i7-yq85k		2011-08-17	다시보기 무사백동수무사백동수 회 다시보기 월 일 방송분 다시보기
+sbs_baekdongsoo	insos02	POST	pymb_19-_8lnw		2011-08-19	무사백동수 14회 무료 다시보기 무사백동수 14회 무료 다시보기
+sbs_baekdongsoo	iyousens	POST	pymd0i7-yq85k		2011-08-17	다시보기 무사백동수무사백동수 13회 다시보기 8월15 일 방송분 다시보기
 sbs_baekdongsoo	chdud84	POST	pymd0mv-_ti_1		2011-08-18	무사백동수ost 김태우 사랑에빠지 무사백동수ost
-sbs_baekdongsoo	iyousens	POST	pymd0q7-yq85k		2011-08-17	다시보기 무사백동수무사백동수 회 다시보기 월 일 방송분 다시보기
+sbs_baekdongsoo	iyousens	POST	pymd0q7-yq85k		2011-08-17	다시보기 무사백동수무사백동수 14회 다시보기 8월16 일 방송분 다시보기
 sbs_baekdongsoo	wlrneorn	POST	pymd125-wdtg		2011-08-15	백동수 뭔가 막장 되어가다 같다
 sbs_baekdongsoo	littlebrides	POST	pymd1ag-5_f4d		2011-08-15	드라마 진심 짜증 tagcry 때려치다 tagcry 백동수
 sbs_baekdongsoo	littlebrides	POST	pymd1fj-5_f4d		2011-08-15	야 사도세자 왜 외다 칼맞다 죽음 죽다 tagcry tagquestion 백동수
 sbs_baekdongsoo	dlaehdwlsv	POST	pymd1ht-5pldj		2011-08-15	백동수 백동수보 올깨
-sbs_baekdongsoo	answlgh3	POST	pymd22a-y071_		2011-08-16	무사 백동수 화 호다 토렌트
-sbs_baekdongsoo	kzpg11	POST	pymd2eh-ecvq		2011-08-16	그녀 그녀는 갤럭시s 사기위해서 무엇 하였을가tagquestion올여름 퍼스트 실체 확인tagquestion백동수던파한남대학교강원대학교
-sbs_baekdongsoo	sepist	POST	pymd2lv-_sbqf		2011-08-17	아이다스 머플러 오다 냉장고 천원 판매 신개념 소셜커머스 시 덕유산 무사백동수
-sbs_baekdongsoo	tyche0315	POST	pymd3i7-_f8y5		2011-08-17	무사 백동수 회무사백동수 회 다시보기 무료감상
-sbs_baekdongsoo	skfnskfn7777	POST	pymd44r-5groq		2011-08-16	무사 백동수 화 호다 다시보기
+sbs_baekdongsoo	answlgh3	POST	pymd22a-y071_		2011-08-16	무사 백동수 13화 토렌트
+sbs_baekdongsoo	kzpg11	POST	pymd2eh-ecvq		2011-08-16	그녀 그녀는 갤럭시s2 사기위해서 무엇 하였을가 tagquestion 올여름 퍼스트 실체 확인 확 tagquestion 백동수던파한남대학교강원대학교
+sbs_baekdongsoo	sepist	POST	pymd2lv-_sbqf		2011-08-17	아이다스 머플러 오다 냉장고 천원 판매 신개념 소셜커머스 3시 덕유산 무사백동수
+sbs_baekdongsoo	tyche0315	POST	pymd3i7-_f8y5		2011-08-17	무사 백동수14 회무사백동수 14회 다시보기 무료감상
+sbs_baekdongsoo	skfnskfn7777	POST	pymd44r-5groq		2011-08-16	무사 백동수 13화 다시보기
 sbs_baekdongsoo	eun_a1018	POST	pymd4dg-_tkei		2011-08-18	우왕 무사 백동수 재밌다 최사이후 처음 ㅇㅅㅇ 정주행
 sbs_baekdongsoo	skaksqhffo54	POST	pymd5bd-5hcrl		2011-08-17	무사백동수 지창욱 불구덩이속 충격요법 제정신 차리다
-sbs_baekdongsoo	hello_oasha	POST	pymd5y3-54qm0		2011-08-17	아 맞다 어제 계백 보다 말 송지효 아니 아 은고 호위무사tagquestion 역 왠지 티아 티아라 효민 나오는거 같다 에다 설마 아니잖 아니잖아 전 은정 사극 나왔지tagquestion 찾아보다 암튼 계백 진짜 재밌엌 tagsmile 백동수 백동수랑 비교 안되다 tagsmile
-sbs_baekdongsoo	ahk7428	POST	pymd6eh-5n4v6		2011-08-17	무사 백동수 화 호다 다시보기
-sbs_baekdongsoo	ahk7428	POST	pymd6r7-5n4v6		2011-08-17	무사 백동수 화 호다 다시보기
+sbs_baekdongsoo	hello_oasha	POST	pymd5y3-54qm0		2011-08-17	아 맞다 어제 계백 보다 말 송지효 아니 아 은고 호위무사 tagquestion 역 왠지 티아 티아라 효민 나오는거 같다 에다 설마 아니잖 아니잖아 전 은정 사극 나오다 tagquestion 찾아보다 암튼 계백 진짜 재밌엌 tagsmile 백동수 백동수랑 비교 안되다 tagsmile
+sbs_baekdongsoo	ahk7428	POST	pymd6eh-5n4v6		2011-08-17	무사 백동수 13화 다시보기
+sbs_baekdongsoo	ahk7428	POST	pymd6r7-5n4v6		2011-08-17	무사 백동수 14화 다시보기
 sbs_baekdongsoo	hyhy227	POST	pymd8tx-y14rm		2011-08-15	백동수 윤소 윤소이 친모 윤지민 출생 비밀 눈치채다
-sbs_baekdongsoo	hmee427123	POST	pymd96p-ndyp		2011-08-15	여운이 여운이가 죽다 않겠지tagquestion tagcry 여운 죽다 백동수 내 죽이다 죽 ㅡ ㅡ
+sbs_baekdongsoo	hmee427123	POST	pymd96p-ndyp		2011-08-15	여운이 여운이가 죽다 않다 tagquestion tagcry 여운 죽다 백동수 내 죽이다 죽 ㅡ ㅡ
 sbs_baekdongsoo	sajavi	POST	pymd99_-y0swx		2011-08-15	sbs 무사 백동수 진짜 마지막회 분위기네 tagcry
 sbs_baekdongsoo	__d__	POST	pymd9iq-ywgow		2011-08-15	백동수 다 죽이다 tagsmile 이제 어쩔껀데 tagsmile 아 나 사도세자 tagsmile
 sbs_baekdongsoo	gkatjsgod7	POST	pymd9qd-5imgu		2011-08-15	무사백동수신청중 tagsmile
-sbs_baekdongsoo	qkrdlstjs01	POST	pymd9um-_oeac		2011-08-18	월 화 호다 드라마 스파이 명월 명월하 무사백동수 중 어떤걸 보세요tagquestion 전 절다 무사백동수
-sbs_baekdongsoo	homicjy	POST	pymd9xg-5b1ek		2011-08-17	무사백동수 회 다시보기
+sbs_baekdongsoo	qkrdlstjs01	POST	pymd9um-_oeac		2011-08-18	월 화 호다 드라마 스파이 명월 명월하 무사백동수 중 어떤걸 보다 보세 tagquestion 전 절다 무사백동수
+sbs_baekdongsoo	homicjy	POST	pymd9xg-5b1ek		2011-08-17	무사백동수 14회 다시보기
 sbs_baekdongsoo	melong0466	POST	pymda61-5pv9x		2011-08-16	mv bmk 야뇌 song ver 드라마 무사 백동수 ost full hd
-sbs_baekdongsoo	yeeun-3-	POST	pymdaeu-y_eg2		2011-08-18	무사백동수 회 시청률
-sbs_baekdongsoo	yeeun-3-	POST	pymdaq_-y_eg2		2011-08-18	무사백동수 화 호다
+sbs_baekdongsoo	yeeun-3-	POST	pymdaeu-y_eg2		2011-08-18	11.08.16무사백동수 14회 시청률
+sbs_baekdongsoo	yeeun-3-	POST	pymdaq_-y_eg2		2011-08-18	무사백동수 13화
 sbs_baekdongsoo	wiseguessman	POST	pymdb77-_o1qk		2011-08-15	무사백동수 보고 보다 보 와야짘 tagsmile
 sbs_baekdongsoo	qhrek12	POST	pymdb9b-idkm		2011-08-15	무사백동수 보고올게 tagexclamation 여운굳
 sbs_baekdongsoo	gjxowjd369	POST	pymdbbq-5ygp0		2011-08-15	무사 백동수 보다 ㄱㄱ ㅃㅃ
 sbs_baekdongsoo	dnaksvk	POST	pymdbyg-_yfc3		2011-08-15	무사 백동수 본방사수을 해야 해야하는데 여러분 무엇 보시는지
-sbs_baekdongsoo	gjxowjd369	POST	pymdecx-5ygp0		2011-08-15	곧있음 백동수 하다 tagsmile 보다 되다 tagcry 가야되냠tagquestion
+sbs_baekdongsoo	gjxowjd369	POST	pymdecx-5ygp0		2011-08-15	곧있음 백동수 하다 tagsmile 보다 되다 tagcry 가야되냠 tagquestion
 sbs_baekdongsoo	sylee705	POST	pymdf2b-_g9t1		2011-08-15	무사백동수를본후나도모르게넋이나가버렸다 마치백동수
 sbs_baekdongsoo	tndus6240	POST	pymdfcq-yklvp		2011-08-15	이현우 이현우가 이현우 이현우가 이젠더이상나오지않아 이젠 백동수를다시봐야게써 유승호봐야지 tagsmile
 sbs_baekdongsoo	yhm7224	POST	pymdfeg-52432		2011-08-15	백동수보는데 검선아저찌 검선아저찌가 다죽어서 오열하는거 보람상조 부르고시펏엌 tagsmile
@@ -152,216 +152,216 @@ sbs_baekdongsoo	wiseguessman	POST	pymdfht-_o1qk		2011-08-15	오늘 무사백동�
 sbs_baekdongsoo	jbeom0723	POST	pymdftu-59li2		2011-08-17	어제 무사백동수 대박이 tagsmile
 sbs_baekdongsoo	queen6630	POST	pymdftw-_sf0l		2011-08-15	아 백동수 보다 자다
 sbs_baekdongsoo	ssdamsunharu	POST	pymdf_s-5gsae		2011-08-15	민원들어와서 집문잠그 집문잠그고 한시간째 닥치다 백동수보 백동수보다 에라 에라이 피아놀 치지말았어야
-sbs_baekdongsoo	ysdental	POST	pymdgap-55e46		2011-08-16	무사백동수 무사백동수 회 다시보기 슬퍼 슬프다 눈물
+sbs_baekdongsoo	ysdental	POST	pymdgap-55e46		2011-08-16	무사백동수 무사백동수 13회 다시보기 슬퍼 슬프다 눈물
 sbs_baekdongsoo	rlaclthsu12	POST	pymdhh_-y3_99		2011-08-18	안녕 tagexclamation 나 나다 지금 놀구 놀구있어 놀구있어요 tagexclamation 스파이명월보는데 유치 tagcry 무사백동수 볼껄 tagcry 아잼
-sbs_baekdongsoo	googims	POST	pymdixo-_ki8		2011-08-17	무사 지창욱 가을 가다 화보촬영중tagsmile 무사 백동수 구김스 지창욱 지창욱 화보 웃다 동 동해
+sbs_baekdongsoo	googims	POST	pymdixo-_ki8		2011-08-17	무사 지창욱 가을 가다 화보촬영중 tagsmile 무사 백동수 구김스 지창욱 지창욱 화보 웃다 동 동해
 sbs_baekdongsoo	sajavi	POST	pymdj3f-y0swx		2011-08-15	sbs 무사 백동수 아씨 안죽엇나보네 불행중다행일세 tagsmile
 sbs_baekdongsoo	sevensm	POST	pymdj3l-529js		2011-08-15	소리만지르구 가다 잼 백동수
 sbs_baekdongsoo	wlrneorn	POST	pymdj5_-wdtg		2011-08-15	백동수 백동수도 막장 일일드라마 되는건줄 알다 tagsmile 앜 tagsmile
 sbs_baekdongsoo	kei06080	POST	pymdjg6-5uyxo		2011-08-15	사도세자죽음 tagcry 근데 백동수머냐 왜 외다 사도세자때문 여운죽이려고함 tagcry
-sbs_baekdongsoo	insos02	POST	pymdlhc-_8lnw		2011-08-16	무사백동수 회 무료 다시보기 무사백동수 회 무료 다시보기
+sbs_baekdongsoo	insos02	POST	pymdlhc-_8lnw		2011-08-16	무사백동수 13회 무료 다시보기 무사백동수 13회 무료 다시보기
 sbs_baekdongsoo	tndkwnsdh1	POST	pymdm3u-_mpz_		2011-08-17	신성우 고이다 무사백동수 ost
-sbs_baekdongsoo	yse810	POST	pymdmur-lxiw		2011-08-17	난 나다 날다 부활연주 좋다 정동 목소리 넘 좋다 지금 부활 보컬중 보컬중에 젤 좋아하다 목소리임tagsmile 무사 백동수 ost part
+sbs_baekdongsoo	yse810	POST	pymdmur-lxiw		2011-08-17	난 나다 날다 부활연주 좋다 정동 목소리 넘 좋다 지금 부활 보컬중 보컬중에 젤 좋아하다 목소리 tagsmile 무사 백동수 ost part 4
 sbs_baekdongsoo	delifestory	POST	pymdnwt-_bj_h		2011-08-15	에헤라디 에헤라디야 오늘 무사백동수 하다 하는구
-sbs_baekdongsoo	smy2166	POST	pymdo5i-qq8l		2011-08-15	무사백동수 회 예고 예 유지선 생존
-sbs_baekdongsoo	sajavi	POST	pymdp23-y0swx		2011-08-15	sbs 무사 백동수 황진주 검선딸인가tagquestion
+sbs_baekdongsoo	smy2166	POST	pymdo5i-qq8l		2011-08-15	무사백동수 14회 예고 예 유지선 생존
+sbs_baekdongsoo	sajavi	POST	pymdp23-y0swx		2011-08-15	sbs 무사 백동수 황진주 검선딸 검선딸인가 tagquestion
 sbs_baekdongsoo	ehdxo112	POST	pymdpe7-_1tiq		2011-08-17	무사백동수ost 신성우 고이다
 sbs_baekdongsoo	sajavi	POST	pymdpya-y0swx		2011-08-15	sbs 무사 백동수 아이 이산이넹 tagsmile
-sbs_baekdongsoo	ljy9644	POST	pymdqe8-msv4		2011-08-17	무사백동수 토렌트
+sbs_baekdongsoo	ljy9644	POST	pymdqe8-msv4		2011-08-17	110816 무사백동수 토렌트
 sbs_baekdongsoo	honeydew0705	POST	pymdr1_-_mx_y		2011-08-15	백동수
 sbs_baekdongsoo	sajavi	POST	pymdr3o-y0swx		2011-08-15	sbs 무사 백동수 그렇다 그렇구 엄 관리 딸은막살고 tagcry
 sbs_baekdongsoo	sajavi	POST	pymdr5j-y0swx		2011-08-15	sbs 무사 백동수 엄마 딸 어케 별 차이 없다 tagcry
-sbs_baekdongsoo	jjoonline	POST	pymdrfm-5n3g8		2011-08-17	무사백동수 회 무사 백동수 회 다시보기
-sbs_baekdongsoo	jisiklog	POST	pymdw20-_rcxy		2011-08-15	무사백동수에서동수왜미쳤어요tagquestion 백동수
+sbs_baekdongsoo	jjoonline	POST	pymdrfm-5n3g8		2011-08-17	무사백동수14 회 무사 백동수 14회 다시보기
+sbs_baekdongsoo	jisiklog	POST	pymdw20-_rcxy		2011-08-15	무사백동수에서동수왜미쳤어요 tagquestion 백동수
 sbs_baekdongsoo	01036855395	POST	pymdwf_-_s365		2011-08-15	백동수 대박 내일 내 기대 tagsmile 아 ea프로야구 윤영삼선수 나오다 유망주 tagsmile 난 나다 날다 전력감 필요 tagsmile 좋은선수 다음 나오다
-sbs_baekdongsoo	tetris_han	POST	pymdwhj-yw3t5		2011-08-18	뿅 목요일 목요 아침 미노입니돠 tagexclamation 오늘 문득 궁금 tagexclamation 여러분 드라마 좋아하세요tagquestion 미노 미노는 월화 무사백동수 수목 보스 지키다 주말 여인 향기 봐욤 tagexclamation 어젠 키스신때문 두근두근 taglove 외롭다 제 맘 달래주는건 역시 드라마예욤 tagexclamation 낮 테트리스 테트리스가 제 맘 달래다 오홍홍 암튼 드라마 넘 좋아해용 taglove
-sbs_baekdongsoo	jisiklog	POST	pymdwud-_rcxy		2011-08-15	bmk 서영은 남자가수중 백동수ost부른가수 다 알리다 오늘나온노래 tagcry 백동수
-sbs_baekdongsoo	jisiklog	POST	pymdwuq-_rcxy		2011-08-15	백동수ost부른 가수 다알려줘요 백동수
-sbs_baekdongsoo	smy2166	POST	pymdwvu-qq8l		2011-08-15	무사백동수 회 황진주 출생비밀 백사굉
+sbs_baekdongsoo	tetris_han	POST	pymdwhj-yw3t5		2011-08-18	뿅 목요일 목요 아침 미노입니돠 tagexclamation 오늘 문득 궁금 tagexclamation 여러분 드라마 좋아하다 tagquestion 미노 미노는 월화 무사백동수 수목 보스 지키다 주말 여인 향기 봐욤 tagexclamation 어젠 키스신때문 두근두근 taglove 외롭다 제 맘 달래주는건 역시 드라마예욤 tagexclamation 낮 테트리스 테트리스가 제 맘 달래다 오홍홍 암튼 드라마 넘 좋아해용 taglove
+sbs_baekdongsoo	jisiklog	POST	pymdwud-_rcxy		2011-08-15	bmk 서영은 남자가수중 백동수ost 부른가수 다 알리다 오늘나온노래 tagcry 백동수
+sbs_baekdongsoo	jisiklog	POST	pymdwuq-_rcxy		2011-08-15	백동수ost 부르다 가수 다알려줘요 백동수
+sbs_baekdongsoo	smy2166	POST	pymdwvu-qq8l		2011-08-15	무사백동수 13회 황진주 출생비밀 백사굉
 sbs_baekdongsoo	everangel77	POST	pymdwxm-nt19		2011-08-15	아나아나아 아나아나아나 스파이 명월 보고 보다 보 싶다 어떻다 tagcry 결방 결방이라 결방이라니 tagexclamation 우쒸 백동수 백동수나 보다
-sbs_baekdongsoo	yookwangho	POST	pymdxza-_o1ug		2011-08-17	무사 백동수 ost part 노래 노랗다 좋아요tagsmile 네이버뮤직 무사 백동수 ost part
-sbs_baekdongsoo	kei06080	POST	pymdy8_-5uyxo		2011-08-15	꺆 시간 잇다 무사백동수아아앜 이노트북 넘후 조앗 tagsmile 오늘 여운완전 궁금 tagsmile 내일 부산 ㄱ하는 ㄱ하는날 tagsmile 아 방금 한빛갖다왓오
-sbs_baekdongsoo	hairgo01	POST	pymdz15-5oh4h		2011-08-16	김태우 사랑 빠지다 무사 백동수 ost part
-sbs_baekdongsoo	me2times	POST	pyme0r9-yq4z1		2011-08-19	넌내반 넌내반과 무사백동수 보았구요 해리포터 광구 마당 나온암탉 보았슴당
-sbs_baekdongsoo	lovepapa21	POST	pyme34s-57q1c		2011-08-19	기적의오디션 월 일 예고 예 김정 김정은 마스터 클래스 백동수 촬영장 가다 가 tagexclamation
+sbs_baekdongsoo	yookwangho	POST	pymdxza-_o1ug		2011-08-17	무사 백동수 ost part 1 노래 노랗다 좋다 tagsmile 네이버뮤직 무사 백동수 ost part 1
+sbs_baekdongsoo	kei06080	POST	pymdy8_-5uyxo		2011-08-15	꺆 2시 2시간만 잇다 무사백동수아아앜 이노트북 넘후 조앗 tagsmile 오늘 여운완전 궁금 tagsmile 내일 부산 ㄱ 하는 하는날 tagsmile 아 방금 한빛갖다왓오
+sbs_baekdongsoo	hairgo01	POST	pymdz15-5oh4h		2011-08-16	김태우 사랑 빠지다 무사 백동수 ost part.6
+sbs_baekdongsoo	me2times	POST	pyme0r9-yq4z1		2011-08-19	넌내반 넌내반과 무사백동수 보았구요 해리포터 7광구 마당 나온암탉 보았슴당
+sbs_baekdongsoo	lovepapa21	POST	pyme34s-57q1c		2011-08-19	기적의오디션 8월 19 19일 예고 예 김정 김정은 마스터 클래스 백동수 촬영장 가다 가 tagexclamation
 sbs_baekdongsoo	param25	POST	pyme361-_w_nh		2011-08-19	오만석 무사 백동수 하차 감사 감다 말 말다 전해 전하다
 sbs_baekdongsoo	yoojiwon1	POST	pyme38d-_ds7c		2011-08-19	역시 무사백동수 좀 조다 짱인듯 멋있다
 sbs_baekdongsoo	luck6344	POST	pyme3hs-_gmy2		2011-08-18	무사백동수 스파이명월 넌내반 공 반반빛 여인의향기 내가보는드라마
 sbs_baekdongsoo	gkdis3147	POST	pymed1w-_evo1		2011-08-18	나미쳤뜸 tagcry tagcry 지금드라마에빠져서처음부터끝까지다보고있음넌내반공주의남자백동수스파이명월광개토대왕등등더늘예정 tagcry tagcry
 sbs_baekdongsoo	y10ws	POST	pymeog5-ya4xm		2011-08-19	무사백동수 지창욱 불구덩이속 충격요법 제정신 차리다 대전제품사진 스튜디오 이음
 sbs_baekdongsoo	y10ws	POST	pymeook-ya4xm		2011-08-19	기적의 기적 오디션 김정 김정은 클래스 미션 수행 차 차다 무사 백동수 출연 대전제품사진 스튜디오 이음
-sbs_baekdongsoo	insos02	POST	pymer12-_8lnw		2011-08-19	무사백동수 회 무료 다시보기 무사백동수 회 무료 다시보기
+sbs_baekdongsoo	insos02	POST	pymer12-_8lnw		2011-08-19	무사백동수 14회 무료 다시보기 무사백동수 14회 무료 다시보기
 sbs_baekdongsoo	tnwlswhddjr	POST	pymerfa-y5698		2011-08-19	우킬킬 tagcry 아 야뇌 백동수 만화책 읽다 뭔가 무사 백동수 백동수와 퀄리티 퀄리티가 다르다 다름 느끼다 느끼 많다 슬프다 쩝 원작 능가 것 없다 것 대한 대하다 고민 진진 진진하게 해보다 tagsmile
 sbs_baekdongsoo	wltnwldn1	POST	pymj3fq-_c5i8		2011-08-20	무사백동수 재미 근데 끝날까보 무섭다
-sbs_baekdongsoo	kge4812	POST	pymk6zv-5h8nx		2011-08-18	사랑 빠지다 무사 백동수 ost part sbs 월화드라마 김태우
+sbs_baekdongsoo	kge4812	POST	pymk6zv-5h8nx		2011-08-18	사랑 빠지다 무사 백동수 ost part.6 sbs 월화드라마 김태우
 sbs_baekdongsoo	minirei333	POST	pymk7hw-yfmel		2011-08-18	사랑 빠지다 김태우 무사 백동수 ost 좋다 드라마 안보는데 ost 늘다 꾸준하다 듣다
-sbs_baekdongsoo	appledaun	POST	pymkcnu-xr7w		2011-08-18	편 펴다 지선 지선을 청국 데려가다 여운 tagexclamation tagsmile 무사백동수 여운 tagexclamation tagsmile
-sbs_baekdongsoo	dreammaru	POST	pymkgqk-hvcf		2011-08-17	무사백동수 ep 무한 여운주의 여운주 tagexclamation
-sbs_baekdongsoo	kai1005	POST	pymkgzr-bjrx		2011-08-19	예슬이온니 예슬이온니가 하다 하 스파이명월 월욜 보다 tagexclamation 니들 니들이 글케 까놧음 봐주다 tagsmile 계백 무사백동수 뭐 재밌니tagquestion맨 재밌니tagquestion맨날 칼 휙휙휙 tagsmile 휘두르는뎈 tagsmile 우리빨리 스파이명월 보다 tagsmile 스파이명월 에릭 한예슬 이진욱 장희진
-sbs_baekdongsoo	jihk106	POST	pymkhzi-56zfs		2011-08-17	이노래도좋 이노래도좋아 무사백동수ost bmk가부른거 tagsmile 야뇌라구잇어
+sbs_baekdongsoo	appledaun	POST	pymkcnu-xr7w		2011-08-18	14편 지선 지선을 청국 데려가다 여운 tagexclamation tagsmile 무사백동수 여운 tagexclamation tagsmile
+sbs_baekdongsoo	dreammaru	POST	pymkgqk-hvcf		2011-08-17	무사백동수 ep11 14 무한 여운주의 여운주 tagexclamation
+sbs_baekdongsoo	kai1005	POST	pymkgzr-bjrx		2011-08-19	예슬이온니 예슬이온니가 하다 하 스파이명월 월욜 보다 tagexclamation 니들 니들이 글케 까놧음 봐주다 tagsmile 계백 무사백동수 뭐 재밌니 tagquestion 맨 맨날 칼 휙휙휙 tagsmile 휘두르는뎈 tagsmile 우리빨리 스파이명월 보다 tagsmile 스파이명월 에릭 한예슬 이진욱 장희진
+sbs_baekdongsoo	jihk106	POST	pymkhzi-56zfs		2011-08-17	이노래도좋 이노래도좋아 무사백동수ost 인데 bmk가부른거 tagsmile 야뇌라구잇어
 sbs_baekdongsoo	dlwlsrud406	POST	pymkivz-boog		2011-08-17	무사백동수 tagcry 진짜재밋다 tagexclamation 흐어우어후어 동수 마음 들어쓰 tagexclamation 카리쓰마 무사백동수 시청률대박나랏 tagexclamation
 sbs_baekdongsoo	neosky	POST	pymkk6j-6vg		2011-08-19	김태우 사랑 빠지다 드라마 무사 백동수 ost
 sbs_baekdongsoo	gptn29	POST	pymks6w-yxe74		2011-08-18	무사백동수 taglove
-sbs_baekdongsoo	ypds2000	POST	pymks9n-vawa		2011-08-19	경주문화액스포 구경 표 사놓고 발길 이곳 이곳으 신라밀레니엄파크 이곳 이곳에 선덕여왕 세트장 있다 무사백동수 꽃보다남자 드라마 이곳 많다 찍었다네 썸머투어 타다 경주 신라밀레니엄파크
-sbs_baekdongsoo	vanessa0415	POST	pymkzqe-m901		2011-08-17	무사 백동수vs 스파이 명월vs계백
-sbs_baekdongsoo	melon_dj	POST	pymk_kg-g3qo		2011-08-17	무사백동수 붓 대신 칼 들다 싸우다 김홍 김홍도 tagexclamation sbs 드라마 무사백동수 재미 보고 보다 보 계신가요tagquestion 무사백동수 감동 재미 ost 느끼다 김태우 사랑 빠지다 무사백동수 드라마 ost 김태우 사랑에빠지 음악 memusic 멜론
-sbs_baekdongsoo	alfladid37	POST	pymk_vo-ywijz		2011-08-19	이사후 참 차다 간 간만 느끼다 느끼 깔끔 기분tagquestion 기분좋 기분좋은 하루 퇴근 이니스프리 매장갔다가 저녁 꼬꼬면 꼬꼬면을 먹고 과자봉지 끼다 끼 무사백동수 다시보기 돌려보구 내일아침 커튼 쳐놓구 늦게 늦잠 자다 기분좋 기분좋은 금요일 세상 다가진듯 행복 깔끔 금요일 금요
-sbs_baekdongsoo	bestmurder	POST	pymy1io-_cima		2011-08-17	무사 백동수 e hdtv x p hanrel avi torrent
+sbs_baekdongsoo	ypds2000	POST	pymks9n-vawa		2011-08-19	경주문화액스포 구경 표 사놓고 발길 이곳 이곳으 신라밀레니엄파크 이곳 이곳에 선덕여왕 세트장 있다 무사백동수 꽃보다남자 드라마 이곳 많다 찍었다네 썸머투어2 타다 경주 신라밀레니엄파크
+sbs_baekdongsoo	vanessa0415	POST	pymkzqe-m901		2011-08-17	무사 백동수vs 스파이 명월vs 계백
+sbs_baekdongsoo	melon_dj	POST	pymk_kg-g3qo		2011-08-17	무사백동수 붓 대신 칼 들다 싸우다 김홍 김홍도 tagexclamation sbs 드라마 무사백동수 재미 보고 보다 보 계시다 tagquestion 0 무사백동수 감동 재미 ost 느끼다 김태우 사랑 빠지다 무사백동수 드라마 ost 김태우 사랑에빠지 음악 memusic 멜론
+sbs_baekdongsoo	alfladid37	POST	pymk_vo-ywijz		2011-08-19	이사후 참 차다 간 간만 느끼다 느끼 깔끔 기분 tagquestion 기분좋 기분좋은 하루 퇴근 이니스프리 매장갔다가 저녁 꼬꼬면 꼬꼬면을 먹고 과자봉지 끼다 끼 무사백동수 다시보기 돌려보구 내일아침 커튼 쳐놓구 늦게 늦잠 자다 기분좋 기분좋은 금요일 세상 다가진듯 행복 깔끔 금요일 금요
+sbs_baekdongsoo	bestmurder	POST	pymy1io-_cima		2011-08-17	무사 백동수 e14.110816.hdtv.x264.720p hanrel.avi.torrent
 sbs_baekdongsoo	songhh99	POST	pymy1wv-559o5		2011-08-15	오예 무사 백동수한닷
 sbs_baekdongsoo	dolphin2kr	POST	pymy2b1-y9qe4		2011-08-17	졸립다 난 나다 날다 다음주 무사 백동수 백동수를 보고 보다 보 말거얏 tagexclamation
-sbs_baekdongsoo	sepist	POST	pymy4zp-_sbqf		2011-08-18	돌체앤가바 돌체앤가바나 반지 선풍기 단돈 원 판매 새롭다 경매 시 무사백동수
+sbs_baekdongsoo	sepist	POST	pymy4zp-_sbqf		2011-08-18	돌체앤가바 돌체앤가바나 반지 선풍기 단돈 1000원 1000원에 판매 새롭다 경매 3시 무사백동수
 sbs_baekdongsoo	soewon123	POST	pymy7g1-_kcgr		2011-08-19	무사백동수 ost bmk 야뇌
 sbs_baekdongsoo	newstownsns	POST	pymy7gn-_hksa		2011-08-16	뉴스타운 뉴스타운 월 화 호다 드라마 맹주 무사 백동수 가 가다 연일 연 최고 화제 되다 되 있다 가운데 드라마ost 명품 보컬 김태우 가 가다 가창자 참여 눈길 끌다 있다 이번 무사 백동수 ost part 뉴스타운
-sbs_baekdongsoo	teelab	POST	pymy7m8-_pxn0		2011-08-16	김태우 사랑 빠지다 무사 백동수 ost part 듣기 듣다 가사 가다 반복재생
+sbs_baekdongsoo	teelab	POST	pymy7m8-_pxn0		2011-08-16	김태우 사랑 빠지다 무사 백동수 ost part 6 듣기 듣다 가사 가다 반복재생
 sbs_baekdongsoo	judyyyya	POST	pymy8uh-yhmfz		2011-08-15	우 백동수 진짜 타락 치닿는 중 tagsmile
-sbs_baekdongsoo	songhh99	POST	pymy91l-559o5		2011-08-15	무사 백동수 ㅂㅏ야지 빠잉 시간 바
+sbs_baekdongsoo	songhh99	POST	pymy91l-559o5		2011-08-15	무사 백동수 ㅂㅏ 야지 빠잉 1시 바
 sbs_baekdongsoo	jdm717	POST	pymy9j1-y46u7		2011-08-15	흠 잉여 좋타 tagexclamation 놀다 싶다 싶구 아 백동수 보다 왜 내주변 내주변엔 뿌잉 잉 이러 이러는 남자 많은걸까 진짜 소름돋 소름돋아
-sbs_baekdongsoo	jiruhecom	POST	pymyady-_50e_		2011-08-16	무사백동수 회 월 일 토도우
+sbs_baekdongsoo	jiruhecom	POST	pymyady-_50e_		2011-08-16	무사백동수 13회 8월15 일 토도우
 sbs_baekdongsoo	the100yesi	POST	pymyblj-yvat1		2011-08-16	김태우 사랑에빠지다무사백동수ost 김태우 사랑에빠지 듣기 듣다 헐리웃 패션 종결자 백여시
-sbs_baekdongsoo	sch8736	POST	pymycfs-5hl69		2011-08-15	무사백동수무사 백동수 회 다시보기 토렌트다운 내용보기
+sbs_baekdongsoo	sch8736	POST	pymycfs-5hl69		2011-08-15	무사백동수무사 백동수 13회 다시보기 토렌트다운 내용보기
 sbs_baekdongsoo	skyblul0000	POST	pymycm0-5rlyz		2011-08-15	백동수 재밌네 재밌네요 내일 기대기대
-sbs_baekdongsoo	kkvgf0812	POST	pymyc_5-04d0		2011-08-15	아 tagexclamation 오늘 무사백동수 방송 지 윤지민 아이 아 돌려드리겠십니 돌려드리겠십니다 라 라고 하다 여기서 아이 아 누구인가요tagquestion 지선tagquestion 여운tagquestion제 백동수 한번 안 알다 빼먹다 다 보다 모르다 tagcry 백동수 보시 분들 알리다 정말정말 감사하겠습니tagsmile
+sbs_baekdongsoo	kkvgf0812	POST	pymyc_5-04d0		2011-08-15	아 tagexclamation 오늘 무사백동수 방송 지 윤지민 아이 아 돌려드리겠십니 돌려드리겠십니다 라 라고 하다 여기서 아이 아 누구인가 tagquestion 지선 tagquestion 여운 tagquestion 제가 제 백동수 한번 안 알다 빼먹다 다 보다 모르다 tagcry 백동수 보시 분들 알리다 정말정말 감사하겠습니 tagsmile
 sbs_baekdongsoo	as87song	POST	pymydce-5vi_p		2011-08-15	무사 백동수 오늘 부터 몽땅내사랑 귀요미 집사님 안나오는군 안나오는군요 몽땅내사랑 몽땅내사 보다 보 tagsmile 무사 백동수 보다 tagsmile 진지 웃기다 근데 마지막 최후를맞이하 장면 진짜 멋있었음 tagexclamation 무사 백동수 임수웅 몽땅내사랑 몽땅내사 김집사 정호빈
-sbs_baekdongsoo	insos02	POST	pymyegs-_8lnw		2011-08-16	무사백동수 회 무료 다시보기 무사백동수 회 무료 다시보기
-sbs_baekdongsoo	kgshww	POST	pymyf5v-pmhg		2011-08-17	무사 백동수 회
-sbs_baekdongsoo	duswls0820	POST	pymyf9u-yhzrj		2011-08-15	무사백동수 사도세자 왜 외다 이렇게 죽지tagquestion 점점 막장인듯
+sbs_baekdongsoo	insos02	POST	pymyegs-_8lnw		2011-08-16	무사백동수 13회 무료 다시보기 무사백동수 13회 무료 다시보기
+sbs_baekdongsoo	kgshww	POST	pymyf5v-pmhg		2011-08-17	무사 백동수 14회
+sbs_baekdongsoo	duswls0820	POST	pymyf9u-yhzrj		2011-08-15	무사백동수 사도세자 왜 외다 이렇게 죽지 죽다 tagquestion 점점 막장인듯
 sbs_baekdongsoo	jym02240224	POST	pymyfb4-5ykmh		2011-08-15	저 지금 백동수 백동수를 보고 보다 보 있다 tagexclamation
 sbs_baekdongsoo	ououerer	POST	pymyfco-5b5kp		2011-08-15	백동수 역사 왜곡 심 tagcry
 sbs_baekdongsoo	loveiam23	POST	pymyfqu-_qh41		2011-08-15	무사백동수 완젼잼당 tagsmile 근데 급전개 tagsmile
 sbs_baekdongsoo	blackhat8me	POST	pymyfv3-5bx_1		2011-08-15	오다 노래찾고 있던거 찾다 백동수 보다
 sbs_baekdongsoo	makinoyui	POST	pymyh7p-yrytt		2011-08-17	공주 남자 남다 가 가다 올해 본 보다 드라마중 최고 다음 무사 백동수
 sbs_baekdongsoo	qmfkdldjs18	POST	pymyhec-ysvhc		2011-08-16	무사백동수 못봤어
-sbs_baekdongsoo	appledaun	POST	pymyi0p-xr7w		2011-08-16	무사백동수tagsmile 꺅 유승호 tagexclamation 여운 아역 잘생기다 tagsmile 하다 하지 악역 아쉽다 뿐
+sbs_baekdongsoo	appledaun	POST	pymyi0p-xr7w		2011-08-16	무사백동수 tagsmile 꺅 유승호 tagexclamation 여운 아역 잘생기다 tagsmile 하다 하지 악역 아쉽다 뿐
 sbs_baekdongsoo	joodus0627	POST	pymyj_u-yc3ss		2011-08-15	김집사 tagcry 무사 백동수 깨꼬닥 tagcry
-sbs_baekdongsoo	junes26	POST	pymyk05-yxvov		2011-08-17	무사 백동수 회 월 일 방송 보기 보다
-sbs_baekdongsoo	kkvgf0812	POST	pymymu6-04d0		2011-08-15	저기 저기요 미친분 백동수 황진주 친아빠 도대체 누구예요tagquestion 황진기 아니다 같다
+sbs_baekdongsoo	junes26	POST	pymyk05-yxvov		2011-08-17	무사 백동수 14회 8월16 일 방송 보기 보다
+sbs_baekdongsoo	kkvgf0812	POST	pymymu6-04d0		2011-08-15	저기 저기요 미친분 백동수 황진주 친아빠 도대체 누구예 누구예요 tagquestion 황진기 아니다 같다
 sbs_baekdongsoo	maple0100	POST	pymynkb-ya2sd		2011-08-18	흐아암 백동수 최민수 최민수가 울 울다 아빠 고딩 동창이에
-sbs_baekdongsoo	fraujoo99	POST	pymynyf-_81ij		2011-08-16	무사백동수 회 죽지마 내 죽일테니까
-sbs_baekdongsoo	lucifer_hr	POST	pymyo23-5pnic		2011-08-15	무사백동수 회
+sbs_baekdongsoo	fraujoo99	POST	pymynyf-_81ij		2011-08-16	무사백동수13 회 죽지마 내 죽일테니까
+sbs_baekdongsoo	lucifer_hr	POST	pymyo23-5pnic		2011-08-15	무사백동수 8,15 13회
 sbs_baekdongsoo	jason1207	POST	pymyos6-54k9e		2011-08-15	오늘 무사 백동수 개흥미 진진 했다능 tagexclamation 근데 여배우 왤케 예쁜겨 근데 끼우다 주는김 주는김에 신민 누나 누 쪼다 찔러주다 tagcry
-sbs_baekdongsoo	judyyyya	POST	pymyp7i-yhmfz		2011-08-15	백동수 보는인tagquestion
-sbs_baekdongsoo	loveyou9742	POST	pymyphg-shaw		2011-08-16	무사백동수무사백동수 회 다시보기 고화질
-sbs_baekdongsoo	kgshww	POST	pymyr9p-pmhg		2011-08-17	무사 백동수 회
+sbs_baekdongsoo	judyyyya	POST	pymyp7i-yhmfz		2011-08-15	백동수 보는 보는인 tagquestion
+sbs_baekdongsoo	loveyou9742	POST	pymyphg-shaw		2011-08-16	무사백동수무사백동수 13회 다시보기 고화질
+sbs_baekdongsoo	kgshww	POST	pymyr9p-pmhg		2011-08-17	무사 백동수 13회
 sbs_baekdongsoo	aster1999	POST	pymyrl3-5krd5		2011-08-15	백동수재미있엉
-sbs_baekdongsoo	outaku	POST	pymyrmh-z56b		2011-08-15	무사 백동수 백동수는 승호 얼굴 보다 보고 보다 보 있다 내용tagquestion 긴장감tagquestion 스펙타클함tagquestion 그런거 없어용
-sbs_baekdongsoo	kgshww	POST	pymyruo-pmhg		2011-08-17	무사 백동수 회
+sbs_baekdongsoo	outaku	POST	pymyrmh-z56b		2011-08-15	무사 백동수 백동수는 승호 얼굴 보다 보고 보다 보 있다 내용 tagquestion 긴장감 tagquestion 스펙타클 스펙타클함 tagquestion 그런거 없어용
+sbs_baekdongsoo	kgshww	POST	pymyruo-pmhg		2011-08-17	무사 백동수 14회
 sbs_baekdongsoo	barkhan88	POST	pymys8o-_ykt_		2011-08-16	요새 백동수 보고 tagsmile 지창욱 잘생기다 건 거다 걸다 알다 어째 나다 나 아저씨 들다 들 눈 들어오다 난역시오지콘이였나봐 철민아저씨짱귀여움 민수아저씨수염은우리아버지가꿈꾸는수염 흑흑흑
 sbs_baekdongsoo	rnjsgyals95	POST	pymytfm-597uu		2011-08-15	무사 백동수 tagcry taglove
 sbs_baekdongsoo	tkfkddl0424	POST	pymyty7-w0rh		2011-08-16	sbs 월화드라마 무사 백동수 mbc 수목드라마 넌 널다 내다 반 내 보다 보 드라마
-sbs_baekdongsoo	sollea3	POST	pymyt_u-5gkdv		2011-08-16	무사백동수 회 다시보기 ost 사랑 빠지다 김태우
-sbs_baekdongsoo	tsbisu	POST	pymyu9e-_jtoi		2011-08-16	나 나다 시 반 옴 오다 근데 여기다 안올거 안올거임 tagsmile 백동수 봐야되서
+sbs_baekdongsoo	sollea3	POST	pymyt_u-5gkdv		2011-08-16	무사백동수 13회 다시보기 ost 사랑 빠지다 김태우
+sbs_baekdongsoo	tsbisu	POST	pymyu9e-_jtoi		2011-08-16	나 나다 10시 반 옴 오다 근데 여기다 안올거 안올거임 tagsmile 백동수 봐야되서
 sbs_baekdongsoo	rlaejrwo111	POST	pymyumi-_tynd		2011-08-17	월화 월화는 무사 백동수 수목 공주 남자 남다 주말 내 내다 사랑 사 내곁 내곁에
 sbs_baekdongsoo	withbaram	POST	pymyv3j-jkgf		2011-08-18	못다본 드라마 보고싶으시다던 대장님 대장님을 위해 위하다 무사 백동수 백동수를 다운 공주 남자 다운 대장님 아직 아직도 보고계셔 춈 무섭다 집중력 내일 내 출장가잖 잠좀자 잠좀자요 tagcry
 sbs_baekdongsoo	jacques	POST	pymyw46-nlsz		2011-08-15	백동수 스토리 좋다 나쁜건 모르다 유승호 tagcry 아 tagexclamation 좋타 tagexclamation 하악하악 김수현 김수현이 유승호 쌍커풀 크다 눈 누다 참 차다 좋다
-sbs_baekdongsoo	search_now	POST	pymywzs-5y0f5		2011-08-15	이산 한예슬 황인혁 놀러오다 계백 짝 여자 호 김유정 제시카 손무현 new 백동수 네이버 실시 급상승 검색어
+sbs_baekdongsoo	search_now	POST	pymywzs-5y0f5		2011-08-15	이산 270 한예슬 63 황인혁 336 놀러오다 72 계백 33 짝 여자5 호 120 김유정 180 제시카 105 손무현 new 백동수 66 네이버 실시 급상승 검색어
 sbs_baekdongsoo	lyk820	POST	pymyw_n-xxyv		2011-08-15	무사백동수에서백동수 지창욱 만노려 tagexclamation 완전불쌍 tagexclamation
-sbs_baekdongsoo	dn8977	POST	pymyx6c-5cm_j		2011-08-18	넌내게반햇어 끝나다 tagexclamation 이제 뭐보지tagquestion아맞다 무사백동수
+sbs_baekdongsoo	dn8977	POST	pymyx6c-5cm_j		2011-08-18	넌내게반햇어 끝나다 tagexclamation 이제 뭐보지 tagquestion 아맞다 무사백동수
 sbs_baekdongsoo	sportskhan	POST	pymyxgw-ymvvx		2011-08-16	무사 백동수 유승호 배신 지창욱 분노 지창욱 지창욱이 믿다 친구 배신 충격 휩싸이다 스포츠경향 무사 백동수
-sbs_baekdongsoo	yeana30	POST	pymyy97-500fo		2011-08-16	무사 백동수 화 호다 계백 화 호다 스파이 명월 월화드라마 무료 다시보기
+sbs_baekdongsoo	yeana30	POST	pymyy97-500fo		2011-08-16	무사 백동수 13화 계백 7화 스파이 명월 월화드라마 무료 다시보기
 sbs_baekdongsoo	lhm9604	POST	pymyzys-g59n		2011-08-17	tagsmile 난 나다 날다 요즘 백동수홀릭 tagsmile
-sbs_baekdongsoo	yeana30	POST	pym_0bq-500fo		2011-08-17	무사 백동수 화 호다 계백 화 호다 스파이 명월 월화드라마 무료 다시보기
-sbs_baekdongsoo	dltjsgud7295	POST	pym_3e5-yv9m1		2011-08-17	미니앨범 한번 감상 보다 보세 무사 백동수 ost part http miil sbs co kr popup blogsticker jsptagquestionm uid u miil 미니앨범
-sbs_baekdongsoo	jiruhecom	POST	pym_47r-_50e_		2011-08-17	무사백동수 회 월 일 토도우
-sbs_baekdongsoo	iixvii	POST	pym_59k-_07t0		2011-08-19	무사 백동수 회 다시보기 무사 백동수 회 다시보기
+sbs_baekdongsoo	yeana30	POST	pym_0bq-500fo		2011-08-17	무사 백동수 14화 계백 8화 스파이 명월 월화드라마 무료 다시보기
+sbs_baekdongsoo	dltjsgud7295	POST	pym_3e5-yv9m1		2011-08-17	미니앨범 한번 감상 보다 보세 무사 백동수 ost part.1 5 http miil.sbs.co.kr popup blogsticker.jsp tagquestion m uid u0000001805 miil 미니앨범
+sbs_baekdongsoo	jiruhecom	POST	pym_47r-_50e_		2011-08-17	무사백동수 14회 8월16 일 토도우
+sbs_baekdongsoo	iixvii	POST	pym_59k-_07t0		2011-08-19	무사 백동수 14회 다시보기 무사 백동수 14회 다시보기
 sbs_baekdongsoo	misskangmj	POST	pym_5bn-_cvvk		2011-08-19	무사백동수 신예 홍종현 sbs 무사 백동수 정조 역 투입
-sbs_baekdongsoo	insos02	POST	pym_6rc-_8lnw		2011-08-17	무사백동수 회 무료 다시보기 무사백동수 회 무료 다시보기
-sbs_baekdongsoo	comy2000	POST	pym_6z1-_o5s5		2011-08-16	지금 무사 백동수 화 호다 보다 보 중 tagsmile 어어엉 실성 어떡 불쌍 tagcry
-sbs_baekdongsoo	insos02	POST	pym_8u6-_8lnw		2011-08-17	무사백동수 회 무료 다시보기 무사백동수 회 무료 다시보기
+sbs_baekdongsoo	insos02	POST	pym_6rc-_8lnw		2011-08-17	무사백동수 14회 무료 다시보기 무사백동수 14회 무료 다시보기
+sbs_baekdongsoo	comy2000	POST	pym_6z1-_o5s5		2011-08-16	지금 무사 백동수 13화 보다 보 중 tagsmile 어어엉 실성 어떡 불쌍 tagcry
+sbs_baekdongsoo	insos02	POST	pym_8u6-_8lnw		2011-08-17	무사백동수 14회 무료 다시보기 무사백동수 14회 무료 다시보기
 sbs_baekdongsoo	hasil3972	POST	pym_aod-_sawg		2011-08-18	tagcry 웅 tagsmile 이제 백동수볼려궁
-sbs_baekdongsoo	sollea3	POST	pym_b32-5gkdv		2011-08-17	무사백동수 회 다시보기
+sbs_baekdongsoo	sollea3	POST	pym_b32-5gkdv		2011-08-17	무사백동수 14회 다시보기
 sbs_baekdongsoo	753951123123	POST	pym_cwj-jomb		2011-08-18	예성 단하루 단하루만 이노래 완죤 좋다 무사백동수 ost
-sbs_baekdongsoo	daiwon_ci	POST	pym_c_l-bqen		2011-08-17	코믹챔프cc 호 tagexclamation 다 함 숨바꼭질tagquestion tagexclamation 두근두근 신나다 신나 대해적 모험 tagexclamation 원피스 칼라표지 tagexclamation 거침 인기몰 인기몰이 tagexclamation 야뇌 백동수 단행본 권 대발매 tagexclamation 휴대퐁 조다 조 피닉스 본모습 본모습을 드러내다 tagexclamation 디펜스데빌 다크에어 세실고 아바타르
+sbs_baekdongsoo	daiwon_ci	POST	pym_c_l-bqen		2011-08-17	코믹챔프cc 2011,17호 tagexclamation 다 함 숨바꼭질 tagquestion tagexclamation 두근두근 신나다 신나 대해적 모험 tagexclamation 원피스 칼라표지 tagexclamation 거침 인기몰 인기몰이 tagexclamation 야뇌 백동수 단행본 1권 대발매 tagexclamation 휴대퐁 조다 조 피닉스 본모습 본모습을 드러내다 tagexclamation 디펜스데빌 다크에어 세실고 아바타르
 sbs_baekdongsoo	kzpg11	POST	pym_d0j-ecvq		2011-08-17	시험 망칠정도 tagexclamation 대박 히트 퍼스트드림의실체의비밀 알려 알려드립니 알려드립니다 알카유백동수던파
 sbs_baekdongsoo	nadiag26	POST	pym_dua-_icu7		2011-08-17	무사백동수 유승호 신현빈 신현빈에 마음 표현 애절 눈빛
-sbs_baekdongsoo	rosa6971	POST	pym_fn_-y7ve5		2011-08-16	tagsmile 오늘 스파이명월 백동수 계백하는 taglove 스파이명월 시청률 이래두 꾀 재밌더라구 재밌더라구요 스명 스명은 녹화 백동수 백동수는 시 계백 재미없으
-sbs_baekdongsoo	_104771	POST	pym_g2f-_do9x		2011-08-16	백동수잼따ㅏ
-sbs_baekdongsoo	qmfkdldjs18	POST	pym_hs0-ysvhc		2011-08-16	무사 백동수 백동수보 역사 맞추다 ㅂㅅ ㅂㅅ되겠다
+sbs_baekdongsoo	rosa6971	POST	pym_fn_-y7ve5		2011-08-16	tagsmile 오늘 스파이명월 백동수 계백하는 taglove 스파이명월 시청률 이래두 꾀 재밌더라구 재밌더라구요 스명 스명은 녹화 백동수 백동수는 10시 10시에 계백 재미없으
+sbs_baekdongsoo	_104771	POST	pym_g2f-_do9x		2011-08-16	백동수잼따 ㅏ
+sbs_baekdongsoo	qmfkdldjs18	POST	pym_hs0-ysvhc		2011-08-16	무사 백동수 백동수보 역사 맞추다 ㅂㅅ 되다
 sbs_baekdongsoo	aliceminju	POST	pym_ht0-_t69g		2011-08-16	백동수 보는중 tagexclamation 유승호 잘생기다 나쁘다 tagsmile taglove
-sbs_baekdongsoo	lyk820	POST	pym_iw1-xxyv		2011-08-16	백동수 지창욱 잘생겼다tagsmile정용화보단아니지만 tagsmile
-sbs_baekdongsoo	hatbit29	POST	pym_ix4-e9b_		2011-08-16	윤소 윤소이 무사 백동수 지유 지유도 지창욱앓이tagquestion 우리 동수 소리 윤소 윤소이 질투 작렬
-sbs_baekdongsoo	jhr0413	POST	pym_ogj-l_5e		2011-08-16	무사백동수랑스파이명월중에뭐가더재밌죠tagquestion뭘봐야될지모르겠어 무사백동수랑스파이명월중에뭐가더재밌죠tagquestion뭘봐야될지모르겠어요 tagcry tagcry
+sbs_baekdongsoo	lyk820	POST	pym_iw1-xxyv		2011-08-16	백동수 지창욱 잘생기다 tagsmile 정용화보단아니지 tagsmile
+sbs_baekdongsoo	hatbit29	POST	pym_ix4-e9b_		2011-08-16	윤소 윤소이 무사 백동수 지유 지유도 지창욱앓 지창욱앓이 tagquestion 우리 동수 소리 윤소 윤소이 질투 작렬
+sbs_baekdongsoo	jhr0413	POST	pym_ogj-l_5e		2011-08-16	무사백동수랑스파이명월중에뭐가더재밌죠 tagquestion 뭘봐야될지모르겠어 tagcry tagcry
 sbs_baekdongsoo	skycotton1	POST	pym_oqn-5evij		2011-08-16	첨단교 첨단교에 발도장 tagexclamation 오늘 에스프레소 tagsmile 백동수 본방 첨보면서 코피한잔의여유아름다운 밤이에 밤이에요 taglove via 아임in
 sbs_baekdongsoo	ahyun1000	POST	pym_or8-rho9		2011-08-16	tagsmile 무사백동수 기다리며꺅 나 나다 미투데이첨 미투데이첨이
 sbs_baekdongsoo	sunnyksy1010	POST	pym_orq-_ijuh		2011-08-17	백동수 나도 나다 나 너진심 너진심으 디따디따사랑
-sbs_baekdongsoo	0330jane	POST	pym_ouj-5ygcv		2011-08-17	유승호님 생일 생 축하해요tagsmile 무사 백동수 요즘 재방 보다 멋있다 tagexclamation tagsmile tagcry
+sbs_baekdongsoo	0330jane	POST	pym_ouj-5ygcv		2011-08-17	유승호님 생일 생 축하 tagsmile 무사 백동수 요즘 재방 보다 멋있다 tagexclamation tagsmile tagcry
 sbs_baekdongsoo	2828326	POST	pym_qbg-5nwx9		2011-08-16	백동수처럼나지켜주겠다고해주는사람 tagcry 더러워서못해먹겠넹
 sbs_baekdongsoo	ww78kr	POST	pym_qdx-5tdyu		2011-08-16	무사 백동수 최고 최 tagexclamation tagsmile 최민수 정말 멋있다 tagsmile 근데 이제 퇴원 못 보다 보는구 tagcry tagcry
 sbs_baekdongsoo	antkim407	POST	pym_s_7-5ptxl		2011-08-16	백동수 taglove tagexclamation 꼭구하고중간에검선오겠지 tagsmile 여운 taglove
 sbs_baekdongsoo	thdgkdus07	POST	pym_t1b-w347		2011-08-16	무사 백동수보 백동수보다 출생 비밀 비밀이 밝혀지다 모녀상봉 tagquestion 할 하다 때 울컥 엄청 울뻔해버렸돠 tagcry tagcry
-sbs_baekdongsoo	loveyou9742	POST	pym_u6t-shaw		2011-08-17	무사백동수무사백동수 회 다시보기 고화질
-sbs_baekdongsoo	ohsezi8141	POST	pym_uah-y45h9		2011-08-17	승호오빠 탄생일이네요tagsmile 생일축하 taglove 승호오빠 항상건강 tagsmile 앞 모습을기대할게 글구무사백동수촬영하는거 힘내세요tagsmile 홧팅 tagexclamation taglove
-sbs_baekdongsoo	barkhan88	POST	pym_ujq-_ykt_		2011-08-16	백동수 보다 보 들다 생각 도대체 진주 생물학적 아빠 누구야tagquestion
-sbs_baekdongsoo	ysdental	POST	pym_uu6-55e46		2011-08-17	무사백동수 회 무사백동수 제 제대 다시보기 무사백동수 회 줄거리
-sbs_baekdongsoo	daiwon_ci	POST	pym_vfd-bqen		2011-08-17	코믹챔프cc 호 tagexclamation 다 함 숨바꼭질tagquestion tagexclamation 두근두근 신나다 신나 대해적 모험 tagexclamation 원피스 칼라표지 tagexclamation 거침 인기몰 인기몰이 tagexclamation 야뇌 백동수 단행본 권 대발매 tagexclamation 휴대퐁 조다 조 피닉스 본모습 본모습을 드러내다 tagexclamation 디펜스데빌 다크에어 세실고 아바타르 만화 애 문학 책 코믹챔프 대원씨아 원피스 화 호다 원피스 화 호다 세실고 야뇌백동수 다크에어 아바타르
-sbs_baekdongsoo	love-1	POST	pym_wqu-5kuih		2011-08-17	무사 백동수 계속 되다 되 상승세 부동 월화극 위
+sbs_baekdongsoo	loveyou9742	POST	pym_u6t-shaw		2011-08-17	무사백동수무사백동수 14회 다시보기 고화질
+sbs_baekdongsoo	ohsezi8141	POST	pym_uah-y45h9		2011-08-17	승호오빠 탄생일 tagsmile 생일축하 taglove 승호오빠 항상건강 tagsmile 앞 모습을기대할게 글구무사백동수촬영하는거 힘내다 tagsmile 홧팅 tagexclamation taglove
+sbs_baekdongsoo	barkhan88	POST	pym_ujq-_ykt_		2011-08-16	백동수 보다 보 들다 생각 도대체 진주 생물학적 아빠 tagquestion
+sbs_baekdongsoo	ysdental	POST	pym_uu6-55e46		2011-08-17	무사백동수 14회 무사백동수 제 제대 다시보기 무사백동수 14회 줄거리
+sbs_baekdongsoo	daiwon_ci	POST	pym_vfd-bqen		2011-08-17	코믹챔프cc 2011,17호 tagexclamation 다 함 숨바꼭질 tagquestion tagexclamation 두근두근 신나다 신나 대해적 모험 tagexclamation 원피스 칼라표지 tagexclamation 거침 인기몰 인기몰이 tagexclamation 야뇌 백동수 단행본 1권 대발매 tagexclamation 휴대퐁 조다 조 피닉스 본모습 본모습을 드러내다 tagexclamation 디펜스데빌 다크에어 세실고 아바타르 만화 애 문학 책 코믹챔프 대원씨아 원피스622 화 호다 원피스623 화 호다 세실고 야뇌백동수 다크에어 아바타르
+sbs_baekdongsoo	love-1	POST	pym_wqu-5kuih		2011-08-17	무사 백동수 계속 되다 되 상승세 부동 월화극 1위
 sbs_baekdongsoo	yyh2831	POST	pym_wyv-_m0ws		2011-08-16	곧잇으면 백동수 타임 타 tagexclamation tagexclamation tagexclamation
-sbs_baekdongsoo	appledaun	POST	pym_yn0-xr7w		2011-08-17	오늘 유승호 오빠tagquestion 생일 생 tagexclamation happy birthday tagsmile 무사백동수 대박 유승호 광팬 tagexclamation
-sbs_baekdongsoo	iixvii	POST	pym_ysv-_07t0		2011-08-19	무사 백동수 회 다시보기 무사 백동수 회 다시보기
-sbs_baekdongsoo	sch8736	POST	pym_ztr-5hl69		2011-08-16	무사백동수 다시보기무사 백동수 회 다시보기 토렌트다운 내용보기
-sbs_baekdongsoo	jyung919	POST	pym__nu-qo18		2011-08-18	무사백동수 ost 중 김태우 김태우의 사랑에빠지 요즘또 요즘또한 빠지다 듣다 되다 되 노래 노랗다 나도 나다 나 아무렇다 않다 생각하겠징tagquestion 오래걸리는건 아니겠지tagquestion 이훙 맘 괜찮다 하다
-sbs_baekdongsoo	lhc200	POST	pyo443k-tvrf		2011-08-16	김태우 사랑 빠지다 무사 백동수 ost part
-sbs_baekdongsoo	gulbikr	POST	pyo44a7-_g29r		2011-08-16	무사 백동수 회 줄거리 다시보기
+sbs_baekdongsoo	appledaun	POST	pym_yn0-xr7w		2011-08-17	오늘 유승호 오빠 tagquestion 생일 생 tagexclamation happy birthday tagsmile 무사백동수 대박 유승호 광팬 tagexclamation
+sbs_baekdongsoo	iixvii	POST	pym_ysv-_07t0		2011-08-19	무사 백동수 13회 다시보기 무사 백동수 13회 다시보기
+sbs_baekdongsoo	sch8736	POST	pym_ztr-5hl69		2011-08-16	무사백동수 다시보기무사 백동수 14회 다시보기 토렌트다운 내용보기
+sbs_baekdongsoo	jyung919	POST	pym__nu-qo18		2011-08-18	무사백동수 ost 중 김태우 김태우의 사랑에빠지 요즘또 요즘또한 빠지다 듣다 되다 되 노래 노랗다 나도 나다 나 아무렇다 않다 생각하겠징 tagquestion 오래걸리는건 아니다 tagquestion 이훙 맘 괜찮다 하다
+sbs_baekdongsoo	lhc200	POST	pyo443k-tvrf		2011-08-16	김태우 사랑 빠지다 무사 백동수 ost part 6
+sbs_baekdongsoo	gulbikr	POST	pyo44a7-_g29r		2011-08-16	무사 백동수 13회 줄거리 다시보기
 sbs_baekdongsoo	whssr0119	POST	pyo45qp-ympo_		2011-08-15	tagsmile 오늘 강복절 강복절임 폰으로하는게컴 폰으로하는게컴으 글적는게더편 글적는게더편함 tagsmile 나오늘이 tagsmile 난오늘친구와놀러갈 예정 았싸 오늘 백동수 한닿 tagsmile
 sbs_baekdongsoo	youmin4095	POST	pyo49nv-5mw6t		2011-08-16	무사백동수
 sbs_baekdongsoo	iun2296	POST	pyo4akv-joj3		2011-08-16	헐 tagsmile 백동수 시청률 올랐엌 tagsmile 미치다 tagsmile 명월 시청자 갈아탄걸수 갈아탄걸수도 있다 tagsmile 알수 시청률의세곜 tagsmile
-sbs_baekdongsoo	ssong4207	POST	pyo4bgd-y6s95		2011-08-16	무사백동수 화예고 화예
-sbs_baekdongsoo	ejredsasa	POST	pyo4c40-599sl		2011-08-16	머리하려 하다 했으 귀찮다 아메리카노 한잔 사들고 집왔음ㅡ tagsmile 에어컨 빵빵 틀다 침대 반쯤 누다 커피마시 백동수 다운 볼꺼 볼꺼임 tagexclamation 오징어 한마리 한마리만 있다 천국 오늘 다욧돌입 tagexclamation 승호 승호야 빨리보자tagsmile taglove 보고싶었단다 taglove
+sbs_baekdongsoo	ssong4207	POST	pyo4bgd-y6s95		2011-08-16	무사백동수14 화예고 화예
+sbs_baekdongsoo	ejredsasa	POST	pyo4c40-599sl		2011-08-16	머리하려 하다 했으 귀찮다 아메리카노 한잔 사들고 집왔음 ㅡ tagsmile 에어컨 빵빵 틀다 침대 반쯤 누다 커피마시 백동수 다운 볼꺼 볼꺼임 tagexclamation 오징어 한마리 한마리만 있다 천국 오늘 다욧돌입 tagexclamation 승호 승호야 빨리보자 tagsmile taglove 보고싶었단다 taglove
 sbs_baekdongsoo	qkrtj5745	POST	pyo4k44-5fw7p		2011-08-15	무사백동수 ost bmk 야뇌
 sbs_baekdongsoo	satgatthink	POST	pyo4nfn-yb1jd		2011-08-16	무사 백동수 드라마 못하다 이야기
 sbs_baekdongsoo	bigstaraaaa	POST	pyo4qse-_0j6l		2011-08-16	유승호 눈썹 남자눈썹 무사 백동수 지창욱 vs 유승호 절친 원수
-sbs_baekdongsoo	tnwlekd5	POST	pyo4stv-yxxis		2011-08-15	tagsmile 난 나다 날다 요즘 tv 사랑한다네욥 tagsmile 월화 월화는 무사백동수 수목 보스 지키다 토일 토일은 여인 향기 tagsmile 완죤 대박 않니tagquestion
-sbs_baekdongsoo	tongele	POST	pyo4v3v-yor8l		2011-08-16	유승호개죠아 블라인드불법다운해서보는데 존나남동생간지 tagsmile 아놧 잠깐 나한텐 한참 오빤뎈 왜 외다 남동생임ㅆㅑㅇ백동수도당신때매봅니 승호씨 taglove
+sbs_baekdongsoo	tnwlekd5	POST	pyo4stv-yxxis		2011-08-15	tagsmile 난 나다 날다 요즘 tv 사랑한다네욥 tagsmile 월화 월화는 무사백동수 수목 보스 지키다 토일 토일은 여인 향기 tagsmile 완죤 대박 않다 tagquestion
+sbs_baekdongsoo	tongele	POST	pyo4v3v-yor8l		2011-08-16	유승호개죠아 블라인드불법다운해서보는데 존나남동생간지 tagsmile 아놧 잠깐 나한텐 한참 오빤뎈 왜 외다 남동생 ㅆㅑㅇ 백동수도당신때매봅니 승호씨 taglove
 sbs_baekdongsoo	tkanrlrn	POST	pyo4vqj-_t46i		2011-08-16	무사백동수 사미 사미니 신현빈 사진 사다
-sbs_baekdongsoo	sepist	POST	pyo4zw8-_sbqf		2011-08-15	아이다스 머플러 오다 냉장고 천원 판매 신개념 소셜커머스 시 덕유산 무사백동수
+sbs_baekdongsoo	sepist	POST	pyo4zw8-_sbqf		2011-08-15	아이다스 머플러 오다 냉장고 천원 판매 신개념 소셜커머스 3시 덕유산 무사백동수
 sbs_baekdongsoo	hd2756	POST	pyo4z_z-5mvh_		2011-08-16	무사 백동수 ost 사랑 빠지다 김태우 무사 백동수 ost 사랑 빠지다 김태우
-sbs_baekdongsoo	yunilsang	POST	pyo725a-_3g18		2011-08-17	무사백동수 회 다시보기 월 일
-sbs_baekdongsoo	kmediabox	POST	pyo74rn-_1l70		2011-08-16	토도우 무사 백동수 회 월 일 다시보기
+sbs_baekdongsoo	yunilsang	POST	pyo725a-_3g18		2011-08-17	무사백동수 14회 다시보기 8월16 일
+sbs_baekdongsoo	kmediabox	POST	pyo74rn-_1l70		2011-08-16	토도우 무사 백동수 14회 8월16 일 다시보기
 sbs_baekdongsoo	luvv123	POST	pyo74y9-_dp0s		2011-08-15	오늘 무사 백동수 하지렁
-sbs_baekdongsoo	junes26	POST	pyo74zo-yxvov		2011-08-17	무사 백동수 회 월 일 방송 보기 보다
-sbs_baekdongsoo	egothing	POST	pyo78sq-6p05		2011-08-16	김태우 사랑 빠지다역시김태우 가수가수 그냥가수 네이버앱 음악검색 무사 백동수 ost part
-sbs_baekdongsoo	soyou66	POST	pyo795u-yet5e		2011-08-16	자 자다 이제 드라마 타임 타 tagexclamation 난 나다 날다 무사백동수 볼거 볼거임 tagexclamation 배고프다 뭐 좀 조다 먹으면서 봐야겠다 이모 오늘 저녁 모에요tagquestion 무사 백동수 ost part
-sbs_baekdongsoo	mople	POST	pyo799f-ybyr8		2011-08-16	무사 백동수 회 e 닥본사 닥 치다 치 본 보다 방 사 사다 닥치고본방사수 닥본사 별점 오늘 무사 백동수 회 e
+sbs_baekdongsoo	junes26	POST	pyo74zo-yxvov		2011-08-17	무사 백동수 13회 8월15 일 방송 보기 보다
+sbs_baekdongsoo	egothing	POST	pyo78sq-6p05		2011-08-16	김태우 사랑 빠지다역시김태우 가수가수 그냥가수 네이버앱 음악검색 무사 백동수 ost part 6
+sbs_baekdongsoo	soyou66	POST	pyo795u-yet5e		2011-08-16	자 자다 이제 드라마 타임 타 tagexclamation 난 나다 날다 무사백동수 볼거 볼거임 tagexclamation 배고프다 뭐 좀 조다 먹으면서 봐야겠다 이모 오늘 저녁 모에 모에요 tagquestion 무사 백동수 ost part 1
+sbs_baekdongsoo	mople	POST	pyo799f-ybyr8		2011-08-16	무사 백동수 13회 e13닥본사  닥  치다 치  본  방  사  닥치고본방사수 닥본사 별점 오늘 무사 백동수 13회 e13
 sbs_baekdongsoo	monica1425	POST	pyo79hy-ysx25		2011-08-16	나 나다 오늘 무사백동수봐야해서 지금 양손 일중이닼 tagsmile
-sbs_baekdongsoo	mople	POST	pyo79mq-ybyr8		2011-08-16	무사 백동수 회 e 닥본사 닥 치다 치 본 보다 방 사 사다 닥치고본방사수 닥본사 별점 오늘 무사 백동수 회 e
+sbs_baekdongsoo	mople	POST	pyo79mq-ybyr8		2011-08-16	무사 백동수 14회 e14닥본사  닥  치다 치  본  방  사  닥치고본방사수 닥본사 별점 오늘 무사 백동수 14회 e14
 sbs_baekdongsoo	ghk2004	POST	pyo7bi6-ahbs		2011-08-16	백동수보러가야지 동수오빠 정신차리다 tagcry
 sbs_baekdongsoo	ssa618	POST	pyo7c82-__jbm		2011-08-16	어떤사람 tagsmile 백동수 백동수에 나오다 유승호 유승호랑 계백 이현우 이현우랑 엮다 설정 팬픽쓰던뎈 tagsmile
 sbs_baekdongsoo	uuuu329	POST	pyo7cwh-_pp05		2011-08-16	역시 오늘 도 여기다 없다 백동수 백동수는 악악악 tagexclamation 으 하다
-sbs_baekdongsoo	gahyun1107	POST	pyo7ej4-883r		2011-08-16	무사 백동수 몇화 하는거지tagquestionㅇㅅㅇ 그리다 지금 몇화지tagquestionㅇㅅㅇ
-sbs_baekdongsoo	jjy50595	POST	pyo7f7b-_ttjw		2011-08-15	무사백동수 잼잇나요tagquestion
+sbs_baekdongsoo	gahyun1107	POST	pyo7ej4-883r		2011-08-16	무사 백동수 몇화 하는거지 tagquestion ㅇㅅㅇ 그리다 지금 몇화지 tagquestion ㅇㅅㅇ
+sbs_baekdongsoo	jjy50595	POST	pyo7f7b-_ttjw		2011-08-15	무사백동수 잼잇 잼잇나 잼잇나요 tagquestion
 sbs_baekdongsoo	gyp05252	POST	pyo7fdp-bi2o		2011-08-16	백동수 시청 ㄱㄱㄱㄱㄱ
-sbs_baekdongsoo	fic123	POST	pyo7fyc-i_63		2011-08-16	토렌트다운 무사백동수
+sbs_baekdongsoo	fic123	POST	pyo7fyc-i_63		2011-08-16	110816 토렌트다운 무사백동수
 sbs_baekdongsoo	ehdrbtndud	POST	pyo7gid-y9fdf		2011-08-16	tagsmile ㅇ 백동수 보다 보 졸다 잘뻔한사람 오다 tagsmile
-sbs_baekdongsoo	everas29	POST	pyo7gxj-yhb2y		2011-08-15	음 무사백동수 볼까tagquestion아님 스파이명월 볼까tagquestion 진짜 고민
-sbs_baekdongsoo	uuuu329	POST	pyo7jdk-_pp05		2011-08-16	이제 백동수 님 할 하다 시간 분 정도 정
+sbs_baekdongsoo	everas29	POST	pyo7gxj-yhb2y		2011-08-15	음 무사백동수 보다 tagquestion 아니다 스파이명월 보다 tagquestion 진짜 고민
+sbs_baekdongsoo	uuuu329	POST	pyo7jdk-_pp05		2011-08-16	이제 백동수 님 할 하다 시간 13분 정도 정
 sbs_baekdongsoo	colajoa0	POST	pyo7jkr-yi53z		2011-08-16	티비 티비의 내용 기억하려 뒤 사실 씁쓸 에잇 뽜뤼바게뚜표 모카빵 모카빵을 먹으 먹으며 백동수 백동수나 봐야겠네용 모카빵 다먹으면 곤란한뒈 늘어 늘어만 가다 가늘다 가 뱃솰 tagsmile ㄱㄷ 빠리바게트 모카빵 먹으 먹으며 백동수 본방사수 tagexclamation 뱃살 뱃살을 생각 반 흡입해봐야겠음둥 tagsmile ㅁ tagsmile
-sbs_baekdongsoo	uuuu329	POST	pyo7j_m-_pp05		2011-08-16	지원 무서운게 딱 가지 가다 있다 무사 백동수 못보 못보는 거 tv 없어지는거 tagsmile
-sbs_baekdongsoo	mayview	POST	pyo7lxw-sz4r		2011-08-15	드라마 백동수 작가놈 소설 원작 드립치질 않다 않 추노 추노를 뛰어넘다 개허풍 떨다 않다 않 왕짜증 나서 나다 나서다 백동수 안 알다 보고 보다 보 명월 명월이 보다 하다 결방 결방이라 결방이라니 이쁘다 예슬 예슬이 무슨 일 야뇌백동수 작가님 꼴랑 만원 주다 뭐 도둑놈 다 있어tagquestion 남다 남 휴가 뭐
+sbs_baekdongsoo	uuuu329	POST	pyo7j_m-_pp05		2011-08-16	지원 무서운게 딱 2가지 있다 무사 백동수 못보 못보는 거 tv 없어지는거 tagsmile
+sbs_baekdongsoo	mayview	POST	pyo7lxw-sz4r		2011-08-15	드라마 백동수 작가놈 소설 원작 드립치질 않다 않 추노 추노를 뛰어넘다 개허풍 떨다 않다 않 왕짜증 나서 나다 나서다 백동수 안 알다 보고 보다 보 명월 명월이 보다 하다 결방 결방이라 결방이라니 이쁘다 예슬 예슬이 무슨 일 야뇌백동수 작가님 꼴랑 600만원 주다 뭐 도둑놈 다 있다 tagquestion 남다 남 휴가 뭐
 sbs_baekdongsoo	ehddh108	POST	pyo7mhd-5kwth		2011-08-16	백동수 진짜 잼써 tagsmile
 sbs_baekdongsoo	babywoni	POST	pyo7oi5-yon51		2011-08-16	무사백동수 즐겨보다 애교쟁 언니 ㅁ 친신 ㄱㄱ
-sbs_baekdongsoo	bestmurder	POST	pyo7onl-_cima		2011-08-16	무사 백동수 e hdtv x p hanrel
+sbs_baekdongsoo	bestmurder	POST	pyo7onl-_cima		2011-08-16	무사 백동수 e13.110815.hdtv.x264.720p hanrel
 sbs_baekdongsoo	ehdrbtndud	POST	pyo7pqb-y9fdf		2011-08-16	백동수보고옴 tagsmile 저번주안바서 내용 머가먼지 모를거 모를거같다 tagsmile
-sbs_baekdongsoo	todus2155	POST	pyo7pso-tpk8		2011-08-16	백동수 tagcry 오늘못볼듯 토욜에재방송하는거봐 xc 지금은수학문제푸는중 인생막꼬 tagcry
-sbs_baekdongsoo	ki_sung7	POST	pyo7tmz-_d7i3		2011-08-16	무사백동수 회 토렌트 무사백동수 회 토렌트
+sbs_baekdongsoo	todus2155	POST	pyo7pso-tpk8		2011-08-16	백동수 tagcry 오늘못볼듯 토욜에재방송하는거봐 xc9a4 지금은수학문제푸는중 인생막꼬 tagcry
+sbs_baekdongsoo	ki_sung7	POST	pyo7tmz-_d7i3		2011-08-16	무사백동수 14회 토렌트 무사백동수 14회 토렌트
 sbs_baekdongsoo	y10ws	POST	pyo7uok-ya4xm		2011-08-15	무사 백동수 최민수 낙마 아찔 사고 사다 사 당시상황 전해 전하다 대전제품사진 스튜디오 이음
 sbs_baekdongsoo	jjy50595	POST	pyo7wbs-_ttjw		2011-08-15	무사백동수 재밋으면 미투 스파이명월이재밋으면 댓 댓이 댓이요 오늘 보다 둘중 하나 추천점
 sbs_baekdongsoo	duarudal25	POST	pyo7wkf-mqj2		2011-08-16	백동수 멋있다 tagexclamation 지선아씨 흙먼지가되 흙먼지가되도 지키다 우 멋있다 나도 나다 나 그런소리한번 들어보고싶다 tagcry tagsmile
 sbs_baekdongsoo	qhgus2852	POST	pyo7wl3-_qd2d		2011-08-16	무사백동수보고계신분 미투 tagexclamation 여운이어케됫어 tagcry
-sbs_baekdongsoo	ppband7	POST	pyo7wrb-fye2		2011-08-16	mv 김태우 사랑 빠지다 무사 백동수 ost sbs 미니시리즈 무사 백동수 ost part
+sbs_baekdongsoo	ppband7	POST	pyo7wrb-fye2		2011-08-16	mv 김태우 사랑 빠지다 무사 백동수 ost sbs 미니시리즈 무사 백동수 ost part.6
 sbs_baekdongsoo	yoyo361	POST	pyo7xeo-im3c		2011-08-17	김태우 사랑 빠지다 무사 백동수 ost
-sbs_baekdongsoo	fic123	POST	pyo7xyv-i_63		2011-08-17	토렌트다운 무사백동수 회
+sbs_baekdongsoo	fic123	POST	pyo7xyv-i_63		2011-08-17	110816 토렌트다운 무사백동수 14회
 sbs_baekdongsoo	n_9412	POST	pyol10e-5vwvd		2011-08-15	동수동수 백동수보러 얍
-sbs_baekdongsoo	nortoro00	POST	pyol1g4-5qk3j		2011-08-15	bmk 야뇌 drama ver 네이버앱 음악검색 무사 백동수 ost part
+sbs_baekdongsoo	nortoro00	POST	pyol1g4-5qk3j		2011-08-15	bmk 야뇌 drama ver 네이버앱 음악검색 무사 백동수 ost part 1
 sbs_baekdongsoo	01043225414	POST	pyol1p0-y_fsu		2011-08-15	헐 백동수는각색 사도세자가이렇게죽
 sbs_baekdongsoo	kkb2973	POST	pyol1pc-yhd19		2011-08-15	백동수봐야지
 sbs_baekdongsoo	play11	POST	pyol1ra-yip7n		2011-08-15	연휴 끝나다 오늘 빨다 꿈나라 가다 백동수 백동수를 보고
 sbs_baekdongsoo	mty9931	POST	pyol2td-5ucm3		2011-08-16	시티헌터 무사백동수가진리
-sbs_baekdongsoo	mty9931	POST	pyol2xo-5ucm3		2011-08-16	백동수봐봐 조다 졸다 나잼써
+sbs_baekdongsoo	mty9931	POST	pyol2xo-5ucm3		2011-08-16	백동수봐봐 존1 나잼써
 sbs_baekdongsoo	raptorljj	POST	pyol3yv-_fd6h		2011-08-15	무사 백동수 보는사람 tagquestion
-sbs_baekdongsoo	yeeun-3-	POST	pyol5j8-y_eg2		2011-08-16	무사백동수 회 시청률
-sbs_baekdongsoo	mhghsm	POST	pyol5r1-y0bf7		2011-08-16	산티아 산티아고 santiago 발도장 tagexclamation 까울 tagexclamation 퇴근 분전 tagexclamation 얼마 얼다 안 알다 남아써 남아써요 tagexclamation 요즘 무사백동수 빠지다 tagexclamation 잘 자다 못 보다 드라마 요즘 시간내서 보다 보 재미 쵝오 tagexclamation 이웃님 요즘 즐겨보다 드라마 via 아임in
-sbs_baekdongsoo	jeong7266	POST	pyol73f-510sk		2011-08-16	이번 방학 아깝다 시간 일남음 숙제안함 무사백동수 고이다
-sbs_baekdongsoo	tyche0315	POST	pyol7as-_f8y5		2011-08-16	무사 백동수 회무사백동수 회 다시보기 무료감상
-sbs_baekdongsoo	elwlakdltm01	POST	pyol7pn-yi4ey		2011-08-17	yeunm yeunm 님 트윗 트윗을 공유 yeowol yeunm 맞다 tagsmile 근데 무사백동수 보고 나루토 같다 tagsmile
+sbs_baekdongsoo	yeeun-3-	POST	pyol5j8-y_eg2		2011-08-16	11.08.15무사백동수 13회 시청률
+sbs_baekdongsoo	mhghsm	POST	pyol5r1-y0bf7		2011-08-16	산티아 산티아고 santiago 발도장 tagexclamation 까울 tagexclamation 퇴근 30분전 tagexclamation 얼마 얼다 안 알다 남아써 남아써요 tagexclamation 요즘 무사백동수 빠지다 tagexclamation 잘 자다 못 보다 드라마 요즘 시간내서 보다 보 재미 쵝오 tagexclamation 이웃님 요즘 즐겨보다 드라마 via 아임in
+sbs_baekdongsoo	jeong7266	POST	pyol73f-510sk		2011-08-16	이번 방학 아깝다 시간 3일남음 숙제안함 무사백동수 고이다
+sbs_baekdongsoo	tyche0315	POST	pyol7as-_f8y5		2011-08-16	무사 백동수 13회무사백동수 13회 다시보기 무료감상
+sbs_baekdongsoo	elwlakdltm01	POST	pyol7pn-yi4ey		2011-08-17	yeunm yeunm11 님 트윗 트윗을 공유 yeowol95 yeunm11 맞다 tagsmile 근데 무사백동수 보고 나루토 같다 tagsmile
 sbs_baekdongsoo	cwy8524	POST	pyol7_g-5h_h9		2011-08-17	조선제일검 무사 백동수 capture
 sbs_baekdongsoo	p_sophia	POST	pyol90p-yyaxr		2011-08-15	엔딩크레딧 엔딩크레딧이 나올때 나올때에 자리 일어나다 일어 몇십분이지 몇십분이지나 몇십분이지나도 여운 가시지않은 간 간만 좋다 영화 한국영화 울다 웃다 소리지르다 블라인드 김하늘 언니짱 슬기짱 유승호짱짱짱
 sbs_baekdongsoo	rui126	POST	pyol9kq-ymp6k		2011-08-15	지금 아이스크림먹으면서 드라마 무사백동수 보고 tagsmile 무사백동수 나오다 배우 강성
@@ -369,14 +369,14 @@ sbs_baekdongsoo	msu329	POST	pyol9ox-y0108		2011-08-15	오늘백동수너무슬�
 sbs_baekdongsoo	01043225414	POST	pyol9px-y_fsu		2011-08-15	헐 백동수가아씨찌름 tagcry 죽다 죽 거같애 유승호도아씨좋아
 sbs_baekdongsoo	gemmm	POST	pyola25-enid		2011-08-16	어쩜좋 어쩜좋아 tagcry 백동수 연기너무 못하다 tagcry 간 간만 보다 어쩔
 sbs_baekdongsoo	miro0564	POST	pyola4h-cjwj		2011-08-16	이제운이가인주구 백동수짜머싰어
-sbs_baekdongsoo	rein422	POST	pyola7n-58g5i		2011-08-16	백동수 이젠 내용 알수가없네tagsmile tagquestion
+sbs_baekdongsoo	rein422	POST	pyola7n-58g5i		2011-08-16	백동수 이젠 내용 알수가 tagsmile tagquestion
 sbs_baekdongsoo	dbwls1058	POST	pyolaln-5fkel		2011-08-16	무사백동수잘봤어요 taglove tagsmile
-sbs_baekdongsoo	ghddofks79	POST	pyolbv6-y70d2		2011-08-15	소양강댐 시출발 좀전 좀전에 집 도착 tagcry tagcry 길 기다 엄청막히네 엄청막히네요 다행히백동수하기전 너므너므 다행이에용 tagsmile 고속도 고속도로 완전주차장
+sbs_baekdongsoo	ghddofks79	POST	pyolbv6-y70d2		2011-08-15	소양강댐 1시출발 좀전 좀전에 집 도착 tagcry tagcry 길 기다 엄청막히네 엄청막히네요 다행히백동수하기전 너므너므 다행이에용 tagsmile 고속도 고속도로 완전주차장
 sbs_baekdongsoo	zz0810	POST	pyolbw5-wa3k		2011-08-15	백동수 보다 ㄱㄱ
 sbs_baekdongsoo	winjl33	POST	pyolejz-yajq4		2011-08-15	나 나다 백동수 볼꺼 볼꺼야 tagexclamation 므뀽 tagexclamation
 sbs_baekdongsoo	wnsqhd9705	POST	pyolf3n-y95ls		2011-08-15	백동수 재밌음
 sbs_baekdongsoo	jmw0413	POST	pyolfg_-5pucl		2011-08-15	아 백동수 이렇게 재밋을줄 재밋을줄이 어떡 빠져버럿음 taglove
-sbs_baekdongsoo	sharenyasha	POST	pyolfi1-vprn		2011-08-15	계백 이현우 이현우랑 여운 유승호 유승호랑 동갑 왜 외다 이현우 이현우는 아역 유승호 유승호는 성인역활임tagquestion tagsmile
+sbs_baekdongsoo	sharenyasha	POST	pyolfi1-vprn		2011-08-15	계백 이현우 이현우랑 여운 유승호 유승호랑 동갑 왜 외다 이현우 이현우는 아역 유승호 유승호는 성인역활 tagquestion tagsmile
 sbs_baekdongsoo	annyka0909	POST	pyolge2-_tl6o		2011-08-16	오늘 무사백동수 보다 지창욱 유승호 윤소 윤소이 신현빈 짱 ㅇ 지창욱 유승호 연기 잘 자다 하다 하 얼굴 잘 자다 생기다 ㅂ
 sbs_baekdongsoo	dmc06123	POST	pyolgfh-55mzu		2011-08-16	백동수맞고 백동수맞고있어 tagcry 불쌍햐 tagcry
 sbs_baekdongsoo	jooean505	POST	pyolgor-yvl7k		2011-08-16	무사백동수보고올께 tagexclamation 으앙꺙 tagexclamation taglove 백동수 tagexclamation
@@ -385,17 +385,17 @@ sbs_baekdongsoo	wjdxogh77	POST	pyolgyb-ggbm		2011-08-16	하다 tagexclamation �
 sbs_baekdongsoo	97_tnwjd	POST	pyolgzf-50iho		2011-08-16	백동수보면서동수옵 백동수보면서동수옵하 이러고보고잇는대권민수가동수에빠져가지 tagcry 여자 이래 tagcry 아오남자 tagcry
 sbs_baekdongsoo	alswjd991111	POST	pyolhox-54g8r		2011-08-16	무사백동수 은근 잼따 tagexclamation 유승호 짱 조다 taglove
 sbs_baekdongsoo	gkehdbs	POST	pyoli08-y75yc		2011-08-16	잠시후 무사백동수 시작 많다 시청
-sbs_baekdongsoo	oee5385	POST	pyoljy4-yl2ng		2011-08-15	난 나다 날다 왜 외다 여자 백동수 백동수에 나오다 퍼런옷 퍼런옷이 탐나는거지 tagsmile 난 나다 날다 왜 외다 남자옷 남자옷이 맘에들까tagquestion
+sbs_baekdongsoo	oee5385	POST	pyoljy4-yl2ng		2011-08-15	난 나다 날다 왜 외다 여자 백동수 백동수에 나오다 퍼런옷 퍼런옷이 탐나는거지 tagsmile 난 나다 날다 왜 외다 남자옷 남자옷이 맘에들까 tagquestion
 sbs_baekdongsoo	stw19920	POST	pyolni0-yoka4		2011-08-16	행운동내집 발도장 tagexclamation 무사백동수 보고자야겠다 tagsmile via 아임in
 sbs_baekdongsoo	joo9808	POST	pyolpfz-5djka		2011-08-15	꺅 백동수 백동수가 이상해졋어용 tagcry tagcry 동수
-sbs_baekdongsoo	qhdnjs99	POST	pyolq6p-yn00g		2011-08-16	계백vs무사백동수 tagexclamation
-sbs_baekdongsoo	vxxnn	POST	pyolqbe-5yi_k		2011-08-16	백동수 역활 역활은 소리지르기tagquestion 달리기tagquestion 백동수
+sbs_baekdongsoo	qhdnjs99	POST	pyolq6p-yn00g		2011-08-16	계백vs 무사백동수 tagexclamation
+sbs_baekdongsoo	vxxnn	POST	pyolqbe-5yi_k		2011-08-16	백동수 역활 역활은 소리지르다 tagquestion 달리기 달리다 tagquestion 백동수
 sbs_baekdongsoo	pacific_mind	POST	pyolqec-524nj		2011-08-16	무사백동수
 sbs_baekdongsoo	v235v	POST	pyolr7p-ma1r		2011-08-15	백동수 대박 tagexclamation
 sbs_baekdongsoo	qk1015	POST	pyolr_l-yafmj		2011-08-15	무사 백동수 잼 tagexclamation tagsmile
-sbs_baekdongsoo	kso4013	POST	pyols1y-w0qh		2011-08-16	김태우 사랑 빠지다 네이버앱 음악검색 무사 백동수 ost part
-sbs_baekdongsoo	kjh4362	POST	pyols6p-_qzrg		2011-08-16	김태우 사랑 빠지다 네이버앱 음악검색 무사 백동수 ost part
-sbs_baekdongsoo	tkdmaster01	POST	pyols9p-s_2k		2011-08-16	김태우 사랑 빠지다 네이버앱 음악검색 무사 백동수 ost part
+sbs_baekdongsoo	kso4013	POST	pyols1y-w0qh		2011-08-16	김태우 사랑 빠지다 네이버앱 음악검색 무사 백동수 ost part 6
+sbs_baekdongsoo	kjh4362	POST	pyols6p-_qzrg		2011-08-16	김태우 사랑 빠지다 네이버앱 음악검색 무사 백동수 ost part 6
+sbs_baekdongsoo	tkdmaster01	POST	pyols9p-s_2k		2011-08-16	김태우 사랑 빠지다 네이버앱 음악검색 무사 백동수 ost part 6
 sbs_baekdongsoo	41521704	POST	pyolspj-a0lj		2011-08-16	백동수에김태우노래나온다
 sbs_baekdongsoo	spacelims207	POST	pyolsvt-5kn1z		2011-08-16	아 백동수보시는분 tagsmile
 sbs_baekdongsoo	dlalsghqkral	POST	pyolt7h-_q3p8		2011-08-16	지금 무사백동수 가하다 내일 보스 지키다 공주 남자 넌내반 넌내반이 하다 아쉽다 시티헌터 시티헌터는 tagcry
@@ -405,42 +405,42 @@ sbs_baekdongsoo	lyy0201	POST	pyoltc_-6375		2011-08-16	무사 백동수 중
 sbs_baekdongsoo	whddl9305	POST	pyolu3d-_sgga		2011-08-16	우 무사 백동수 짱 사 사다 랑 해 하다 tagexclamation
 sbs_baekdongsoo	yupdealer	POST	pyoluv7-_rm6v		2011-08-16	방송 무사 백동수 신현빈 지창욱 위해 위하다 칼침 맞다
 sbs_baekdongsoo	hyewon990321	POST	pyolux9-4rhb		2011-08-16	아낰 tagsmile 백동수 taglove
-sbs_baekdongsoo	parkye1706	POST	pyolw4k-_s3iz		2011-08-16	오늘 계백 하다 하 날 나다 tagexclamation 원래 무사백동수 보다 보 계백 이현우옵하한테 빠지다 계백 본다능 tagsmile 근데 이제 이현우옵 이현우옵하 안 tagcry 계백 재밌으니깐tagsmile 여러분 계백 보다 보세 아니다 무사 백동수 백동수를 보세요tagquestion
+sbs_baekdongsoo	parkye1706	POST	pyolw4k-_s3iz		2011-08-16	오늘 계백 하다 하 날 나다 tagexclamation 원래 무사백동수 보다 보 계백 이현우옵하한테 빠지다 계백 본다능 tagsmile 근데 이제 이현우옵 이현우옵하 안 tagcry 계백 재밌으니깐 tagsmile 여러분 계백 보다 보세 아니다 무사 백동수 백동수를 보다 보세 tagquestion
 sbs_baekdongsoo	tls9802	POST	pyolw65-rwi0		2011-08-15	완전백동수대계백 tagsmile 세자하고계백아빠죽고백동수하고계백실성 tagsmile
-sbs_baekdongsoo	fic123	POST	pyolwbg-i_63		2011-08-15	토렌트다운 무사백동수 회
+sbs_baekdongsoo	fic123	POST	pyolwbg-i_63		2011-08-15	110815 토렌트다운 무사백동수 13회
 sbs_baekdongsoo	verynice3478	POST	pyolwoe-59lza		2011-08-15	무사 백동수 잼 taglove 짱짱 tagexclamation
-sbs_baekdongsoo	ki_sung7	POST	pyolwt0-_d7i3		2011-08-15	무사 백동수 회 토렌트 무사백동수 회 토렌트
+sbs_baekdongsoo	ki_sung7	POST	pyolwt0-_d7i3		2011-08-15	무사 백동수 13회 토렌트 무사백동수 13회 토렌트
 sbs_baekdongsoo	rkguswnffl	POST	pyolx0f-5cbvm		2011-08-16	무사 백동수 넘 잼써 tagexclamation taglove
 sbs_baekdongsoo	lovepet2	POST	pyolz00-y14rr		2011-08-16	오늘 처음 무사 백동수 보다 헐 tagsmile 아 멋있닼 tagsmile 원래 사극 좋아하다 계속 보고싶어 드라마 진짜 tagsmile 감동이닼 tagsmile 으힠 tagsmile 또 맨 맨날 맨 맨날 다음편 다음편을 기다리다 괴롭다 겪다 하는건가 tagexclamation
 sbs_baekdongsoo	me78963	POST	pyolz5j-_haqb		2011-08-16	백동수 멋있당
 sbs_baekdongsoo	delymanjwoo	POST	pyolzxz-i4m0		2011-08-16	코오롱 스포츠드라마 한장면 따라잡다 tagexclamation 희철오빠 좋아하다 시크릿가든 시크릿가든이 요새 떠오르다 무사 백동수 tagexclamation 아니다 내사랑 유명 드 kolonsport
-sbs_baekdongsoo	gkehdbs	POST	pyol_8g-y75yc		2011-08-16	오늘 저녁 시 분 무사백동수 하다 많다 시청 바라다
+sbs_baekdongsoo	gkehdbs	POST	pyol_8g-y75yc		2011-08-16	오늘 저녁 9시 55분 55분에 무사백동수 하다 많다 시청 바라다
 sbs_baekdongsoo	flowerss501	POST	pyons_o-50c0h		2011-08-15	계백 무사백동수 공주의남자 진짜재미잇는듯 tagsmile ㅌㅌㅌㅌㅌㅌㅌㅌ
 sbs_baekdongsoo	mslee1969	POST	pyov36c-ytzs5		2011-08-15	정말 나가다 거다 tagexclamation tagcry tagcry 또 컴백 tagexclamation 오늘 무사백동수 잊다 마 tagexclamation
-sbs_baekdongsoo	sepist	POST	pyov4kh-_sbqf		2011-08-15	돌체앤가바 돌체앤가바나 반지 선풍기 단돈 원 판매 새롭다 경매 시 무사백동수
+sbs_baekdongsoo	sepist	POST	pyov4kh-_sbqf		2011-08-15	돌체앤가바 돌체앤가바나 반지 선풍기 단돈 1000원 1000원에 판매 새롭다 경매 3시 무사백동수
 sbs_baekdongsoo	rlarkdrlfk	POST	pyov4py-5zpqv		2011-08-16	무사백동수 사도세자 탈출 최초 세자 살아남다 스토리 될줄알았더니 결국 죽다
 sbs_baekdongsoo	kooghean	POST	pyovaly-yqzmm		2011-08-15	무사백동수 정하다 tagsmile 짱잼 짱잼있어
 sbs_baekdongsoo	tjgud2759	POST	pyovaq5-59kw2		2011-08-15	무사백동수 완전 재밌어
 sbs_baekdongsoo	pushjjun	POST	pyovaqb-5w0h0		2011-08-15	오늘 야식 야식은 쫄면 김밥 tagsmile 야식타 야식타임 tagexclamation 백동수 보다
 sbs_baekdongsoo	elly0313	POST	pyovaqh-p6a6		2011-08-15	무사 백동수 넘 재밋어 tagexclamation tagsmile
 sbs_baekdongsoo	whthals3	POST	pyova_o-ynodo		2011-08-15	계백보는데 아버지 잃다 계백 의지 곳 잃다 의자왕 의자왕의 연기 진짜 백동수 내용 모르다 앞 계백 봐야겠다 아 진짜 tagcry 눈물 tagcry
-sbs_baekdongsoo	hoth0530	POST	pyovfpl-_tck4		2011-08-15	케로로 케로로들이 한별를 속이다 중 tagsmile 조금 있다 무사 백동수 백동수를 볼까냥tagquestion
+sbs_baekdongsoo	hoth0530	POST	pyovfpl-_tck4		2011-08-15	케로로 케로로들이 한별를 속이다 중 tagsmile 조금 있다 무사 백동수 백동수를 볼까냥 tagquestion
 sbs_baekdongsoo	cjscldwkfl8	POST	pyovg87-_c_e1		2011-08-15	지금백동수 같이갑시
 sbs_baekdongsoo	me78963	POST	pyovgu7-_haqb		2011-08-15	무사백동수 보시러 같이가실까용용용 tagquestion
-sbs_baekdongsoo	alswjd991111	POST	pyovh5u-54g8r		2011-08-15	우왕tagsmile 다 무사백동수네 tagsmile 나 나다 한번 못 봣는데 tagsmile 근데 그거 볼려면 미투 못 하다 어떡 티비 티비를 보다 미투 미투를 하다
+sbs_baekdongsoo	alswjd991111	POST	pyovh5u-54g8r		2011-08-15	우왕 tagsmile 다 무사백동수네 tagsmile 나 나다 한번 못 봣는데 tagsmile 근데 그거 볼려면 미투 못 하다 어떡 티비 티비를 보다 미투 미투를 하다
 sbs_baekdongsoo	syc5763	POST	pyovhj7-4kyp		2011-08-15	무사백동수나루토같애
 sbs_baekdongsoo	cn9757	POST	pyovhvn-ybvcg		2011-08-15	뭇하벳뚈슈 무사백동수 최고 최 tagsmile 아흥매정
 sbs_baekdongsoo	thswkd3381	POST	pyovhx4-_tvl6		2011-08-15	무사 백동수 못보고잔다 tagcry
 sbs_baekdongsoo	qazs69	POST	pyovhx7-5sud9		2011-08-15	오늘 왜 외다 무사백동수 못보게하는거 못보게하는거야 tagexclamation
-sbs_baekdongsoo	gkswlgh5638	POST	pyovhy4-5qf0m		2011-08-15	스파이명월 스페셜 스페셜해서 무사백동수 보고 tagsmile 명월이 명월이가 조앗 tagsmile 스파이명월vs무사백동수 둘중 머가더 조아욧tagquestion
-sbs_baekdongsoo	hero4563	POST	pyovhyo-zjlo		2011-08-15	무사백동수 배경음악 광택광택 으 으로 들리다 나 나다 만 말다 그런가tagquestion tagsmile
+sbs_baekdongsoo	gkswlgh5638	POST	pyovhy4-5qf0m		2011-08-15	스파이명월 스페셜 스페셜해서 무사백동수 보고 tagsmile 명월이 명월이가 조앗 tagsmile 스파이명월vs 무사백동수 둘중 머가더 조아욧 tagquestion
+sbs_baekdongsoo	hero4563	POST	pyovhyo-zjlo		2011-08-15	무사백동수 배경음악 광택광택 으 으로 들리다 나 나다 만 말다 그런가 tagquestion tagsmile
 sbs_baekdongsoo	41521704	POST	pyovquh-a0lj		2011-08-15	백동수보면서 성질 꼬래꼬래 꼬래꼬래남
 sbs_baekdongsoo	cwy8524	POST	pyovrzr-5h_h9		2011-08-15	오늘 무사백동수 tagexclamation
 sbs_baekdongsoo	slimg	POST	pyovs22-4_s1		2011-08-15	계백봐야 아부지 백동수 시청중
 sbs_baekdongsoo	dkvmfhelxp95	POST	pyovsfv-57gjw		2011-08-15	오늘 왜이렇게 백동수 급전개지 tagquestion
 sbs_baekdongsoo	sy7398	POST	pyovsiu-lfcn		2011-08-15	무사백동수 사도세자 죽다 tagcry 오만석 이제안나왕 tagcry 그래두 지창욱 지창욱이 유승호가멋 유승호가멋있으니깐 tagsmile
 sbs_baekdongsoo	41521704	POST	pyovsus-a0lj		2011-08-15	무사백동수 주인공 이산
-sbs_baekdongsoo	seoyoon1998	POST	pyovtdz-5ms93		2011-08-15	쫌잇으면 무사백동수 카리스마넘치 카리스마넘치는 유승호 유승호를 뽄따아아앗
+sbs_baekdongsoo	seoyoon1998	POST	pyovtdz-5ms93		2011-08-15	쫌잇으면 무사백동수 카리스마넘치 카리스마넘치는 유승호 유승호를 뽄따아아앗 3
 sbs_baekdongsoo	jooean505	POST	pyovto_-yvl7k		2011-08-15	백동수보고올께 백동수보고올께요 tagexclamation 꺄아아아아아어아아아아 tagexclamation taglove
 sbs_baekdongsoo	charon832	POST	pyovt_d-_sru6		2011-08-15	오늘 백동수님 큰일 큰 날것 tagexclamation
 sbs_baekdongsoo	hyewon990321	POST	pyovuad-4rhb		2011-08-15	식빵 tagsmile 여운 나쁜넘 tagsmile 백동수 니 최고 tagcry tagsmile
@@ -449,42 +449,42 @@ sbs_baekdongsoo	toyoucard	POST	pyovved-5ro1v		2011-08-15	김영호 리더십에�
 sbs_baekdongsoo	hero4563	POST	pyovzgt-zjlo		2011-08-15	백동수 굳재미 tagsmile
 sbs_baekdongsoo	snowleo	POST	pyovziu-60k		2011-08-15	헉 우리 선녀님 이제 안 알다 나오다 줄 주다 알다 tagcry 백동수 유지선
 sbs_baekdongsoo	kkh7698	POST	pyovzm6-_c0vo		2011-08-15	윤소 윤소이 sbs 무사 백동수서 백동수 향하다 순애보 열연 펼치다
-sbs_baekdongsoo	123prs	POST	pyovzut-ymjay		2011-08-15	무사 백동수 예고편 보다 보 백동수 미친것 풀렸나tagquestion 내일 어떻다 기다리다 tagexclamation
+sbs_baekdongsoo	123prs	POST	pyovzut-ymjay		2011-08-15	무사 백동수 예고편 보다 보 백동수 미친것 풀리다 풀렸 tagquestion 내일 어떻다 기다리다 tagexclamation
 sbs_baekdongsoo	pbe0205	POST	pyox29d-5_l3b		2011-08-16	요즘 무사백동수 즐겨보다 있다 tagexclamation 우 잼
-sbs_baekdongsoo	cwy8524	POST	pyox2tj-5h_h9		2011-08-17	무사백동수 월 일 capture
-sbs_baekdongsoo	wlsthfwk22	POST	pyox3gu-iv2q		2011-08-17	어제 백동수 못봤어요 티비 틀어놓고 자다 tagcry 어떻다 됐어요tagquestion 동수 정신차렸어요tagquestion
-sbs_baekdongsoo	tenchi	POST	pyox68v-0l5f		2011-08-16	회 부코 무사 백동수 천
+sbs_baekdongsoo	cwy8524	POST	pyox2tj-5h_h9		2011-08-17	무사백동수 8월 16 16일 capture2
+sbs_baekdongsoo	wlsthfwk22	POST	pyox3gu-iv2q		2011-08-17	어제 백동수 못봤어요 티비 틀어놓고 자다 tagcry 어떻다 되다 tagquestion 동수 정신차리다 tagquestion
+sbs_baekdongsoo	tenchi	POST	pyox68v-0l5f		2011-08-16	70회 부코 무사 백동수 천
 sbs_baekdongsoo	cookies4121	POST	pyox7om-_6exw		2011-08-16	백동수 보는사람손 tagexclamation
-sbs_baekdongsoo	sepist	POST	pyox9kr-_sbqf		2011-08-16	아이다스 머플러 오다 냉장고 천원 판매 신개념 소셜커머스 시 덕유산 무사백동수
-sbs_baekdongsoo	cwy8524	POST	pyoxab5-5h_h9		2011-08-17	무사백동수 월 일 capture
-sbs_baekdongsoo	inyso1119	POST	pyoxb3t-_tau7		2011-08-16	무사백동수 회
-sbs_baekdongsoo	ahk7428	POST	pyoxe8z-5n4v6		2011-08-16	무사 백동수 화 호다 다시보기
+sbs_baekdongsoo	sepist	POST	pyox9kr-_sbqf		2011-08-16	아이다스 머플러 오다 냉장고 천원 판매 신개념 소셜커머스 3시 덕유산 무사백동수
+sbs_baekdongsoo	cwy8524	POST	pyoxab5-5h_h9		2011-08-17	무사백동수 8월 16 16일 capture
+sbs_baekdongsoo	inyso1119	POST	pyoxb3t-_tau7		2011-08-16	무사백동수7 회
+sbs_baekdongsoo	ahk7428	POST	pyoxe8z-5n4v6		2011-08-16	무사 백동수 12화 다시보기
 sbs_baekdongsoo	jgs0207	POST	pyoxf0i-82yz		2011-08-17	무사 백동수 드라마 작가 머리 속
 sbs_baekdongsoo	jgs0207	POST	pyoxfch-82yz		2011-08-17	무사 백동수 드라마 작가 머리 속 daum블로그
 sbs_baekdongsoo	cherijj	POST	pyoxkab-19rb		2011-08-17	무사 백동수 백동수 백동수를 구한 구하다 지혜 여인 여 tagexclamation
-sbs_baekdongsoo	bombam	POST	pyoxkw2-0q77		2011-08-17	요즘 뭐 봐tagquestion 삼겹살 구워먹다 무사 백동수 백동수에 빠져들다 한참 눈 못 떼다 순전 최민수 때문 일본 만화 속 무사 같다 내용 모르다 사람 비주얼 비주얼과 에너지 꾀다 근사 유승호는어떨까드라마쪽행보가계속안타까워
-sbs_baekdongsoo	jchyun22	POST	pyoxnju-5l0pg		2011-08-16	김태우 무사 백동수 ost part 로 합류http www dailymusic co kr news articleview htmltagquestionidxno 웹
-sbs_baekdongsoo	ben2themoon	POST	pyoxpg7-hxyr		2011-08-16	mv 예성 단 달다 하루 무사 백동수 ost part
-sbs_baekdongsoo	jjoonline	POST	pyoxqz7-5n3g8		2011-08-16	무사백동수 회 무사 백동수 회 다시보기
-sbs_baekdongsoo	yelin727	POST	pyoxrp1-1e7o		2011-08-17	나 나다 이제 볼 보다 거 거다 많다 생기다 tagsmile 월화 월화엔 백동수 보고 보다 보 수목 보스 지키다 보고 보다 보 금욜 슈스케 보고 보다 보 주말 여인의향기 tagsmile
+sbs_baekdongsoo	bombam	POST	pyoxkw2-0q77		2011-08-17	요즘 뭐 보다 tagquestion 삼겹살 구워먹다 무사 백동수 백동수에 빠져들다 한참 눈 못 떼다 순전 최민수 때문 일본 만화 속 무사 같다 내용 모르다 사람 비주얼 비주얼과 에너지 꾀다 근사 유승호는어떨까드라마쪽행보가계속안타까워
+sbs_baekdongsoo	jchyun22	POST	pyoxnju-5l0pg		2011-08-16	김태우 무사 백동수 ost part6 part6로 합류http www.dailymusic.co.kr news articleview.html tagquestion idxno 1232 웹
+sbs_baekdongsoo	ben2themoon	POST	pyoxpg7-hxyr		2011-08-16	mv 예성 단 달다 하루 무사 백동수 ost part.2
+sbs_baekdongsoo	jjoonline	POST	pyoxqz7-5n3g8		2011-08-16	무사백동수13 회 무사 백동수 13회 다시보기
+sbs_baekdongsoo	yelin727	POST	pyoxrp1-1e7o		2011-08-17	나 나다 이제 볼 보다 거 거다 많다 생기다 tagsmile 월화 월화엔 백동수 보고 보다 보 수목 보스 지키다 보고 보다 보 금욜 슈스케3 보고 보다 보 주말 여인의향기 tagsmile
 sbs_baekdongsoo	etoday	POST	pyoxr_s-bi3j		2011-08-17	김태우 애절 목소리 무사 백동수 오다 사랑 빠지다 이투데 이투데이
 sbs_baekdongsoo	whgdk1387	POST	pyoxu0h-50hog		2011-08-15	여인의항기너무달달 무사백동수는빅드라마 tagexclamation 어서드라마에서빠져나오자구 tagsmile
-sbs_baekdongsoo	tybolt	POST	pyoxxnf-evlg		2011-08-17	무사백동수 회다시보기
-sbs_baekdongsoo	haqqy_boy	POST	pyoxy6d-_w5gf		2011-08-16	지창욱 유승호 악역 무사백동수 회 다시보기
+sbs_baekdongsoo	tybolt	POST	pyoxxnf-evlg		2011-08-17	무사백동수14 회다시보기
+sbs_baekdongsoo	haqqy_boy	POST	pyoxy6d-_w5gf		2011-08-16	지창욱 유승호 악역 무사백동수 13회 다시보기
 sbs_baekdongsoo	wlgp5408	COMMENT	pym6xtp-_clt2	c_nhcy5-ym6xtp-_clt2	2011-08-23	스파이명월 재밌는데
 sbs_baekdongsoo	beasteunha	COMMENT	pymblds-_slvc	c_vi5mm-ymblds-_slvc	2011-08-20	유승호 유승호가 최고당 tagsmile
 sbs_baekdongsoo	jien531	COMMENT	pymblds-_slvc	c_vl8dy-ymblds-_slvc	2011-08-22	수지빠 유치 tagsmile
 sbs_baekdongsoo	000gg	COMMENT	pymblds-_slvc	c_vqyju-ymblds-_slvc	2011-08-20	안볼꺼양 흥 tagexclamation
 sbs_baekdongsoo	appledaun	COMMENT	pymyi0p-xr7w	c_nw18z-ymyi0p-xr7w	2011-08-16	tagsmile 순 보 아역 악역 tagcry tagsmile
-sbs_baekdongsoo	comy2000	COMMENT	pymyi0p-xr7w	c_nw1b3-ymyi0p-xr7w	2011-08-16	헐 진짜tagquestion
-sbs_baekdongsoo	appledaun	COMMENT	pymyi0p-xr7w	c_nw1gq-ymyi0p-xr7w	2011-08-16	당근진짜tagsmile 이미 머릿속 있다 tagexclamation
+sbs_baekdongsoo	comy2000	COMMENT	pymyi0p-xr7w	c_nw1b3-ymyi0p-xr7w	2011-08-16	헐 진짜 tagquestion
+sbs_baekdongsoo	appledaun	COMMENT	pymyi0p-xr7w	c_nw1gq-ymyi0p-xr7w	2011-08-16	당근진짜 tagsmile 이미 머릿속 있다 tagexclamation
 sbs_baekdongsoo	comy2000	COMMENT	pymyi0p-xr7w	c_nw1je-ymyi0p-xr7w	2011-08-16	악역 다크포스 다크포스가 좔좔 흐르잖앜 tagsmile
-sbs_baekdongsoo	appledaun	COMMENT	pymyi0p-xr7w	c_nw2i9-ymyi0p-xr7w	2011-08-16	싫어 상관 tagexclamation 욕 내앞 하다 tagsmile 유승호 내꺼tagsmile
-sbs_baekdongsoo	ib504	COMMENT	pymyi0p-xr7w	c_nw2jm-ymyi0p-xr7w	2011-08-16	김다 왠지 니 유승호 유승호 하다 하다 난 나다 날다 유승호 유승호가 싫어지려 tagsmile 왜그럴까tagquestion tagexclamation 근데 사진 보다 마음 싹 풀다 풀리다 tagexclamation 잘생기다 잘생기다 tagsmile
+sbs_baekdongsoo	appledaun	COMMENT	pymyi0p-xr7w	c_nw2i9-ymyi0p-xr7w	2011-08-16	싫어 상관 tagexclamation 욕 내앞 하다 tagsmile 유승호 내꺼 tagsmile
+sbs_baekdongsoo	ib504	COMMENT	pymyi0p-xr7w	c_nw2jm-ymyi0p-xr7w	2011-08-16	김다 왠지 니 유승호 유승호 하다 하다 난 나다 날다 유승호 유승호가 싫어지려 tagsmile 왜그럴까 tagquestion tagexclamation 근데 사진 보다 마음 싹 풀다 풀리다 tagexclamation 잘생기다 잘생기다 tagsmile
 sbs_baekdongsoo	appledaun	COMMENT	pymyi0p-xr7w	c_nwb9p-ymyi0p-xr7w	2011-08-16	응응 tagexclamation 완전 tagsmile 근데 왜 외다 악역이냐구 tagcry 그리다 내일 유승호 생일 생 tagexclamation
 sbs_baekdongsoo	comy2000	COMMENT	pymyi0p-xr7w	c_nwe70-ymyi0p-xr7w	2011-08-16	tagsmile 그러췌 보다 눈 정화 현상 tagsmile
 sbs_baekdongsoo	grape121000	COMMENT	pymyxgw-ymvvx	c_nul0y-ymyxgw-ymvvx	2011-08-16	재밌어용 tagsmile
-sbs_baekdongsoo	bini420	COMMENT	pym_ouj-5ygcv	c_nqwxb-ym_ouj-5ygcv	2011-08-17	오승호옵하생일이구낭ㅇ
+sbs_baekdongsoo	bini420	COMMENT	pym_ouj-5ygcv	c_nqwxb-ym_ouj-5ygcv	2011-08-17	오승호옵하생일이구낭 ㅇ
 sbs_baekdongsoo	minji4000	COMMENT	pym_ouj-5ygcv	c_ntbuz-ym_ouj-5ygcv	2011-08-17	흐훙흐훙
 sbs_baekdongsoo	0330jane	COMMENT	pym_ouj-5ygcv	c_ntqhj-ym_ouj-5ygcv	2011-08-17	tagsmile
 sbs_baekdongsoo	appledaun	COMMENT	pym_yn0-xr7w	c_nif7e-ym_yn0-xr7w	2011-08-17	왜 tagquestion
@@ -499,38 +499,38 @@ sbs_baekdongsoo	ib504	COMMENT	pym_yn0-xr7w	c_nior0-ym_yn0-xr7w	2011-08-17	tagsmi
 sbs_baekdongsoo	ib504	COMMENT	pym_yn0-xr7w	c_nio_7-ym_yn0-xr7w	2011-08-17	없다
 sbs_baekdongsoo	ib504	COMMENT	pym_yn0-xr7w	c_niw5p-ym_yn0-xr7w	2011-08-17	그렇다구
 sbs_baekdongsoo	appledaun	COMMENT	pym_yn0-xr7w	c_niw6b-ym_yn0-xr7w	2011-08-17	tagsmile 많이많 많이많이 싫어졌나보네 안티 안티로 가지마 가지마라
-sbs_baekdongsoo	appledaun	COMMENT	pym_yn0-xr7w	c_niw9k-ym_yn0-xr7w	2011-08-17	그지tagquestion 꺄 tagexclamation tagsmile
-sbs_baekdongsoo	ib504	COMMENT	pym_yn0-xr7w	c_niwe9-ym_yn0-xr7w	2011-08-17	안티 안티는 절대 아니다 아니 얼굴 보다 마음 싸악 풀린다니까tagquestion tagsmile
+sbs_baekdongsoo	appledaun	COMMENT	pym_yn0-xr7w	c_niw9k-ym_yn0-xr7w	2011-08-17	그지 tagquestion 꺄 tagexclamation tagsmile
+sbs_baekdongsoo	ib504	COMMENT	pym_yn0-xr7w	c_niwe9-ym_yn0-xr7w	2011-08-17	안티 안티는 절대 아니다 아니 얼굴 보다 마음 싸악 풀리다 tagquestion tagsmile
 sbs_baekdongsoo	ib504	COMMENT	pym_yn0-xr7w	c_niwpu-ym_yn0-xr7w	2011-08-17	tagsmile
-sbs_baekdongsoo	appledaun	COMMENT	pym_yn0-xr7w	c_niww_-ym_yn0-xr7w	2011-08-17	사진 좀 조다 보내주시길tagsmile
+sbs_baekdongsoo	appledaun	COMMENT	pym_yn0-xr7w	c_niww_-ym_yn0-xr7w	2011-08-17	사진 좀 조다 보 tagsmile
 sbs_baekdongsoo	annyka0909	COMMENT	pyolge2-_tl6o	c_2osuc-yolge2-_tl6o	2011-08-16	시티헌터 이민호 이민호도 짱
-sbs_baekdongsoo	annyka0909	COMMENT	pyolge2-_tl6o	c_2osvc-yolge2-_tl6o	2011-08-16	시티헌터 안 알다 나오나tagquestion 싶다 싶어 tagcry
+sbs_baekdongsoo	annyka0909	COMMENT	pyolge2-_tl6o	c_2osvc-yolge2-_tl6o	2011-08-16	시티헌터2 안 알다 나오다 나오 tagquestion 싶다 싶어 tagcry
 sbs_baekdongsoo	annyka0909	COMMENT	pyolge2-_tl6o	c_2ot2o-yolge2-_tl6o	2011-08-16	월 화 호다 본방사수 tagsmile
 sbs_baekdongsoo	annyka0909	COMMENT	pyolge2-_tl6o	c_vgzr3-yolge2-_tl6o	2011-08-30	지창욱 유승호 볼 보다 수록 좋아지다 ㅁ
 sbs_baekdongsoo	alswjd991111	COMMENT	pyolhox-54g8r	c_2t299-yolhox-54g8r	2011-08-16	tagsmile 아 그렇쿤 tagexclamation
 sbs_baekdongsoo	dacang	COMMENT	pyolhox-54g8r	c_2t2k3-yolhox-54g8r	2011-08-16	보고 tagsmile
-sbs_baekdongsoo	alswjd991111	COMMENT	pyolhox-54g8r	c_2t847-yolhox-54g8r	2011-08-16	최민수 최민수가 누구tagquestion tagsmile
+sbs_baekdongsoo	alswjd991111	COMMENT	pyolhox-54g8r	c_2t847-yolhox-54g8r	2011-08-16	최민수 최민수가 tagquestion tagsmile
 sbs_baekdongsoo	alswjd991111	COMMENT	pyolhox-54g8r	c_2t92y-yolhox-54g8r	2011-08-16	tagsmile 넴 tagexclamation
 sbs_baekdongsoo	dacang	COMMENT	pyolhox-54g8r	c_2t93p-yolhox-54g8r	2011-08-16	저두 팬이에 팬이에요
-sbs_baekdongsoo	alswjd991111	COMMENT	pyolhox-54g8r	c_2t98w-yolhox-54g8r	2011-08-16	저 오늘 첨 보다 펜 될듯 말듯tagquestion tagsmile
-sbs_baekdongsoo	dacang	COMMENT	pyolhox-54g8r	c_2t9hm-yolhox-54g8r	2011-08-16	tagsmile 잼죠tagquestion
+sbs_baekdongsoo	alswjd991111	COMMENT	pyolhox-54g8r	c_2t98w-yolhox-54g8r	2011-08-16	저 오늘 첨 보다 펜 될듯 말다 tagquestion tagsmile
+sbs_baekdongsoo	dacang	COMMENT	pyolhox-54g8r	c_2t9hm-yolhox-54g8r	2011-08-16	tagsmile 잼죠 tagquestion
 sbs_baekdongsoo	alswjd991111	COMMENT	pyolhox-54g8r	c_2t9j_-yolhox-54g8r	2011-08-16	tagsmile 정신 돌아왓데염 tagsmile
 sbs_baekdongsoo	near0316	COMMENT	pyolhox-54g8r	c_2t9kp-yolhox-54g8r	2011-08-16	tagsmile
 sbs_baekdongsoo	dacang	COMMENT	pyolhox-54g8r	c_2t9xt-yolhox-54g8r	2011-08-16	즐겨보다 tagsmile
-sbs_baekdongsoo	near0316	COMMENT	pyolhox-54g8r	c_2t9zz-yolhox-54g8r	2011-08-16	그랭tagquestion 아휴 뭔말 뭔말인지 하 하나 모르겠당 tagsmile
+sbs_baekdongsoo	near0316	COMMENT	pyolhox-54g8r	c_2t9zz-yolhox-54g8r	2011-08-16	그랭 tagquestion 아휴 뭔말 뭔말인지 하 하나 모르겠당 tagsmile
 sbs_baekdongsoo	alswjd991111	COMMENT	pyolhox-54g8r	c_2tac8-yolhox-54g8r	2011-08-16	미투
-sbs_baekdongsoo	dacang	COMMENT	pyolhox-54g8r	c_2tas2-yolhox-54g8r	2011-08-16	백동수끝 뭐하심tagquestion
+sbs_baekdongsoo	dacang	COMMENT	pyolhox-54g8r	c_2tas2-yolhox-54g8r	2011-08-16	백동수끝 뭐 tagquestion
 sbs_baekdongsoo	alswjd991111	COMMENT	pyolhox-54g8r	c_2tcmq-yolhox-54g8r	2011-08-16	넴 tagexclamation
 sbs_baekdongsoo	dacang	COMMENT	pyolhox-54g8r	c_2tcqd-yolhox-54g8r	2011-08-16	tagsmile
 sbs_baekdongsoo	alswjd991111	COMMENT	pyolhox-54g8r	c_2tfga-yolhox-54g8r	2011-08-16	tagsmile ㄱㅊㄱㅊ
 sbs_baekdongsoo	alswjd991111	COMMENT	pyolhox-54g8r	c_2tg6x-yolhox-54g8r	2011-08-16	움하 움하하 tagexclamation
-sbs_baekdongsoo	dacang	COMMENT	pyolhox-54g8r	c_2tgpp-yolhox-54g8r	2011-08-16	음냐음냐 심심
-sbs_baekdongsoo	near0316	COMMENT	pyolhox-54g8r	c_2tjab-yolhox-54g8r	2011-08-16	글쿠 글쿠나 좋은정보tagsmile
+sbs_baekdongsoo	dacang	COMMENT	pyolhox-54g8r	c_2tgpp-yolhox-54g8r	2011-08-16	음냐음냐 3 심심
+sbs_baekdongsoo	near0316	COMMENT	pyolhox-54g8r	c_2tjab-yolhox-54g8r	2011-08-16	글쿠 글쿠나 좋은정보 tagsmile
 sbs_baekdongsoo	alswjd991111	COMMENT	pyolhox-54g8r	c_2tjip-yolhox-54g8r	2011-08-16	tagsmile 백동수 백동수가 머리 좀 조다 이상햇는데 돌아왓데염 tagsmile
 sbs_baekdongsoo	alswjd991111	COMMENT	pyolhox-54g8r	c_2tjtn-yolhox-54g8r	2011-08-16	tagsmile 넴 tagexclamation 님두 님두요 tagexclamation
-sbs_baekdongsoo	dacang	COMMENT	pyolhox-54g8r	c_2tjzw-yolhox-54g8r	2011-08-16	넵 tagexclamation
+sbs_baekdongsoo	dacang	COMMENT	pyolhox-54g8r	c_2tjzw-yolhox-54g8r	2011-08-16	넵 tagexclamation 3
 sbs_baekdongsoo	dacang	COMMENT	pyolhox-54g8r	c_2tm4v-yolhox-54g8r	2011-08-16	걍 걍요 tagsmile 님 이해좀해주세영 tagsmile
-sbs_baekdongsoo	alswjd991111	COMMENT	pyolhox-54g8r	c_2tmhz-yolhox-54g8r	2011-08-16	근데 최민수 최민수의 카리스마다 말다 말 왜 외다 하신 거에염tagquestion ㅇ ㅇ
+sbs_baekdongsoo	alswjd991111	COMMENT	pyolhox-54g8r	c_2tmhz-yolhox-54g8r	2011-08-16	근데 최민수 최민수의 카리스마다 말다 말 왜 외다 하신 거에염 tagquestion ㅇ ㅇ
 sbs_baekdongsoo	dacang	COMMENT	pyolhox-54g8r	c_2tof1-yolhox-54g8r	2011-08-16	설명 님 컴퓨터 찾아보다
 sbs_baekdongsoo	alswjd991111	COMMENT	pyolhox-54g8r	c_2tpm3-yolhox-54g8r	2011-08-16	히히 ㅁ
 sbs_baekdongsoo	dacang	COMMENT	pyolhox-54g8r	c_2tpnr-yolhox-54g8r	2011-08-16	백동수 백동수는 류지선 류지선을 좋아한데
@@ -541,5 +541,5 @@ sbs_baekdongsoo	alswjd991111	COMMENT	pyolhox-54g8r	c_2tufx-yolhox-54g8r	2011-08-
 sbs_baekdongsoo	dacang	COMMENT	pyolhox-54g8r	c_2twd0-yolhox-54g8r	2011-08-16	오옷 tagexclamation 최민수 최민수의 카리스마다 tagexclamation tagsmile
 sbs_baekdongsoo	dacang	COMMENT	pyolhox-54g8r	c_2tzh3-yolhox-54g8r	2011-08-16	오늘 화요일이에 tagexclamation tagquestion
 sbs_baekdongsoo	alswjd991111	COMMENT	pyolhox-54g8r	c_2tzrc-yolhox-54g8r	2011-08-16	강심장 바 tagexclamation
-sbs_baekdongsoo	seoyoon1998	COMMENT	pyovtdz-5ms93	c_2waj7-yovtdz-5ms93	2011-08-15	ㄲ아아아
+sbs_baekdongsoo	seoyoon1998	COMMENT	pyovtdz-5ms93	c_2waj7-yovtdz-5ms93	2011-08-15	ㄲ 아아아 3
 sbs_baekdongsoo	sh_03_23	COMMENT	pyovtdz-5ms93	c_2wsay-yovtdz-5ms93	2011-08-15	꺄아아아

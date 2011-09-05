@@ -8,6 +8,7 @@ sbs_besideme	kaciopeia	POST	pym1or7-gi74		2011-08-23	SMILEMARK	1.0	tagsmile
 sbs_besideme	kaciopeia	POST	pym1or7-gi74		2011-08-23	SEE	1.0	보다
 sbs_besideme	zzz431	POST	pym80pt-5spvw		2011-08-24	POSITIVE	2.0	행복 행복하다
 sbs_besideme	dlwldms20	POST	pym88gk-n1v0		2011-08-27	PRESENT	1.0	이제
+sbs_besideme	dlwldms20	POST	pym88gk-n1v0		2011-08-27	SMILEMARK	1.0	tagsmile
 sbs_besideme	dlwldms20	POST	pym88gk-n1v0		2011-08-27	SEE	1.0	보다
 sbs_besideme	jinyo_2	POST	pym897o-_39j6		2011-08-27	ANXIETY	1.0	무섭
 sbs_besideme	intaedot	POST	pym8cuq-u76d		2011-08-24	PRESENT	1.0	지금
@@ -19,6 +20,7 @@ sbs_besideme	ljhyun13	POST	pym8f2v-_dlj7		2011-08-24	PRESENT	1.0	지금
 sbs_besideme	gmlwls4015	POST	pym8ut6-40m1		2011-08-24	PRESENT	1.0	요즘
 sbs_besideme	gmlwls4015	POST	pym8ut6-40m1		2011-08-24	SMILEMARK	1.0	tagsmile
 sbs_besideme	gmlwls4015	POST	pym8ut6-40m1		2011-08-24	SEE	1.0	보다
+sbs_besideme	ddd376	POST	pym8xv7-58h53		2011-08-23	QUESTIONMARK	1.0	tagquestion
 sbs_besideme	cheonga1205	POST	pym9c6x-5swib		2011-08-22	POSITIVE	1.0	행복
 sbs_besideme	cheonga1205	POST	pym9c6x-5swib		2011-08-22	SADNESS	2.0	슬프다 아프
 sbs_besideme	cheonga1205	POST	pym9c6x-5swib		2011-08-22	SEE	1.0	보다
@@ -33,6 +35,7 @@ sbs_besideme	xplorers	POST	pymcnek-_a6e4		2011-08-25	SMILEMARK	1.0	tagsmile
 sbs_besideme	xplorers	POST	pymcnek-_a6e4		2011-08-25	NEGATIVE	1.0	막장
 sbs_besideme	heaven0625	POST	pymcwqa-ywyqv		2011-08-25	PRESENT	2.0	이제 지금
 sbs_besideme	soltyman	POST	pymc_8t-y1_cb		2011-08-25	SEE	1.0	보다
+sbs_besideme	astyle1004	POST	pymefz3-5k3_v		2011-08-22	QUESTIONMARK	1.0	tagquestion
 sbs_besideme	astyle1004	POST	pymefz3-5k3_v		2011-08-22	SMILEMARK	1.0	tagsmile
 sbs_besideme	astyle1004	POST	pymefz3-5k3_v		2011-08-22	POSITIVE	1.0	즐겁다
 sbs_besideme	astyle1004	POST	pymefz3-5k3_v		2011-08-22	SEE	1.0	보다
@@ -41,6 +44,7 @@ sbs_besideme	ljy9587	POST	pymf6h2-roa3		2011-08-23	EXCLAMMARK	1.0	tagexclamation
 sbs_besideme	ljy9587	POST	pymf6h2-roa3		2011-08-23	SMILEMARK	1.0	tagsmile
 sbs_besideme	ljy9587	POST	pymf6h2-roa3		2011-08-23	LOVEMARK	1.0	taglove
 sbs_besideme	cysh3426	POST	pymfxjl-5mh9		2011-08-27	QUANTIFIER	1.0	조금
+sbs_besideme	cysh3426	POST	pymfxjl-5mh9		2011-08-27	QUESTIONMARK	1.0	tagquestion
 sbs_besideme	cysh3426	POST	pymfxjl-5mh9		2011-08-27	EXCLAMMARK	1.0	tagexclamation
 sbs_besideme	cysh3426	POST	pymfxjl-5mh9		2011-08-27	SMILEMARK	1.0	tagsmile
 sbs_besideme	cysh3426	POST	pymfxjl-5mh9		2011-08-27	LOVEMARK	1.0	taglove
@@ -53,14 +57,13 @@ sbs_besideme	smloveonlyyo	POST	pymi7s3-ylzx4		2011-08-26	SEE	1.0	보다
 sbs_besideme	dobe100	POST	pymirvi-5dezq		2011-08-25	CRYMARK	1.0	tagcry
 sbs_besideme	yunho4512	POST	pymiuh9-_o9wx		2011-08-25	QUESTIONMARK	1.0	tagquestion
 sbs_besideme	yunho4512	POST	pymiuh9-_o9wx		2011-08-25	SMILEMARK	1.0	크
-sbs_besideme	yunho4512	POST	pymiuh9-_o9wx		2011-08-25	POSITIVE	2.0	좋아하다 사랑하
+sbs_besideme	yunho4512	POST	pymiuh9-_o9wx		2011-08-25	POSITIVE	1.0	좋아하다
 sbs_besideme	yunho4512	POST	pymiuh9-_o9wx		2011-08-25	SEE	1.0	보다
 sbs_besideme	kirakira_87	POST	pymje2v-_m8cy		2011-08-24	POSITIVE	1.0	좋아
 sbs_besideme	m2__2	POST	pymjggb-_6ai8		2011-08-24	EXCLAMMARK	1.0	tagexclamation
 sbs_besideme	engyounglove	POST	pymjhmc-_a29a		2011-08-23	EXCLAMMARK	1.0	tagexclamation
 sbs_besideme	mcmui	POST	pymm1qd-yzx7n		2011-08-24	SEE	1.0	보다
 sbs_besideme	mople	POST	pymm5an-ybyr8		2011-08-27	PRESENT	1.0	오늘
-sbs_besideme	mople	POST	pymm5an-ybyr8		2011-08-27	SEE	1.0	보다
 sbs_besideme	leslie71	POST	pymob4e-yjm2w		2011-08-27	PAST	1.0	어제
 sbs_besideme	leslie71	POST	pymob4e-yjm2w		2011-08-27	PRESENT	1.0	오늘
 sbs_besideme	leslie71	POST	pymob4e-yjm2w		2011-08-27	FUTURE	1.0	내일
@@ -73,11 +76,13 @@ sbs_besideme	jyung919	POST	pymp9xf-qo18		2011-08-23	HEAR	1.0	듣다
 sbs_besideme	h2jhjh	POST	pympbep-5wwxd		2011-08-22	POSITIVE	1.0	행복
 sbs_besideme	h2jhjh	POST	pympbep-5wwxd		2011-08-22	SADNESS	1.0	아프
 sbs_besideme	h2jhjh	POST	pympbep-5wwxd		2011-08-22	SEE	1.0	보다
+sbs_besideme	sunfl365	POST	pympfy3-78th		2011-08-25	QUESTIONMARK	1.0	tagquestion
 sbs_besideme	sunfl365	POST	pympfy3-78th		2011-08-25	SMILEMARK	1.0	tagsmile
 sbs_besideme	sunfl365	POST	pympfy3-78th		2011-08-25	CRYMARK	1.0	tagcry
 sbs_besideme	sunfl365	POST	pympfy3-78th		2011-08-25	SADNESS	1.0	아프
 sbs_besideme	bita365	POST	pymplrv-y66pd		2011-08-24	PRESENT	1.0	지금
 sbs_besideme	bita365	POST	pymplrv-y66pd		2011-08-24	POSITIVE	1.0	웃음
+sbs_besideme	eratoskin	POST	pympqyz-ybst1		2011-08-22	QUESTIONMARK	1.0	tagquestion
 sbs_besideme	happyfigure	POST	pymrwvm-c7xu		2011-08-26	SADNESS	3.0	서글프다 슬프다 슬픔
 sbs_besideme	jgdh1004	POST	pymryfy-j86_		2011-08-25	POSITIVE	2.0	웃음 웃다
 sbs_besideme	ehdgus9205	POST	pymw157-5d9os		2011-08-23	QUANTIFIER	1.0	너무
@@ -88,5 +93,6 @@ sbs_besideme	peabird	POST	pymwdki-yrlmj		2011-08-27	SADNESS	1.0	서글프다
 sbs_besideme	rlaejrwo111	POST	pymwgkg-_tynd		2011-08-25	PRESENT	1.0	이번주
 sbs_besideme	rlaejrwo111	POST	pymwgkg-_tynd		2011-08-25	EXCLAMMARK	1.0	tagexclamation
 sbs_besideme	alsl565	POST	pymwo_s-ee_g		2011-08-23	PRESENT	1.0	이제
+sbs_besideme	smile_1090	POST	pymwpr5-7gob		2011-08-23	SMILEMARK	1.0	tagsmile
 sbs_besideme	smile_1090	POST	pymwpr5-7gob		2011-08-23	SEE	1.0	보다
 sbs_besideme	jennydrso	POST	pymwt4f-t00i		2011-08-26	SEE	1.0	보다
