@@ -39,6 +39,17 @@ public class CommentManagerImpl extends GenericManagerImpl implements CommentMan
     	}
 	}
 	
+	public void setComment(Comment comment) {
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		CommentMapper mapper = session.getMapper(CommentMapper.class);
+    		mapper.updateComment(comment);
+    		session.commit();
+    	} finally {
+    		session.close();
+    	}
+	}
+	
 	public void deleteComments(String postId) {
 		SqlSession session = sqlSessionFactory.openSession();
     	try {

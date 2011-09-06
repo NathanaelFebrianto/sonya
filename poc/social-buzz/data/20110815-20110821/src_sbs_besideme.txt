@@ -32,7 +32,7 @@ sbs_besideme	b5style	POST	pym6izl-_5_qd		2011-08-17	잊혀지다 않죠 그대 �
 sbs_besideme	insos02	POST	pym6k7a-_8lnw		2011-08-17	내사랑내곁 30회 다시보기 2011-08-14 내사랑내곁 30회 다시보기 2011-08-14
 sbs_besideme	sundaykiz27	POST	pym6o8z-_jg3p		2011-08-20	당신 나대다 그녀 그녀를 부탁 세상누구 그녀 그녀를 사랑 또 내가 하늘아래서 아파 사람곁 나르다 나 대신 mv 바통 디셈버 바통
 sbs_besideme	_-_-15	POST	pym6rxe-_qu8n		2011-08-17	그녀 그녀가 떠나가다 때 내다 말 곁 있다 있다 아니다 같다 tagexclamation 만지다 빗겨버리 빗겨버리는 칼날 사랑 사 심장 얼어붙다 차갑다 사랑 사
-sbs_besideme	q1q2q	POST	pym6sfw-yzdj0		2011-08-20	you're my boo 내다 사랑 주다 한입만boo 맛있다 사랑 할꺼 할꺼야 boo 아이스크림 달콤 my boo my my boo boo 언제 언제나 나다 나 난 나다 날다 사랑하고파 곁 있고파 아무 아무것 아무것도 난 나다 날다 필요 필 없다 my boo my my boo boo 아이유 boo taglove
+sbs_besideme	q1q2q	POST	pym6sfw-yzdj0		2011-08-20	youre my boo 내다 사랑 주다 한입만boo 맛있다 사랑 할꺼 할꺼야 boo 아이스크림 달콤 my boo my my boo boo 언제 언제나 나다 나 난 나다 날다 사랑하고파 곁 있고파 아무 아무것 아무것도 난 나다 날다 필요 필 없다 my boo my my boo boo 아이유 boo taglove
 sbs_besideme	yds03302	POST	pym6sur-__q0		2011-08-19	드디어 또 사녹 사녹을 뛰는군 뛰는군하 언니 인기가요 보다 내 스탠딩 스탠딩을 못 갈수 잇다 tagcry 인가 팬미팅 팬미팅도 하구 막방 막방인데 tagcry 팬미팅 해 하다 tagcry 오늘 빅뱅 5주년 사랑 빅뱅 너희 곁 있을꺼 있을꺼야 내 사랑하는거 알다 tagquestion 정말 거짓말 안 알다 하다 하 사랑
 sbs_besideme	yenny-mam	POST	pym6vwa-5yxy2		2011-08-18	신문기고 신문기고에 약간 실수 있었넹 tagsmile 세번 세번인데 두번인 두번인라 그게 뭐 대수냐 예니 예니만 건강 내곁 내곁에 있다 된거지 예니 예니야 사랑
 sbs_besideme	hw_sy0129	POST	pym6xhq-_5ym7		2011-08-18	언제나 언제나함 언제나함께 tagsmile ㅏ 고싶은당신 표현이서툰나 사랑 언제 언제나 내곁에있어줘요 tagsmile
@@ -188,7 +188,7 @@ sbs_besideme	dream-design	COMMENT	pymkf1v-yws3n	c_nbeza-ymkf1v-yws3n	2011-08-20	
 sbs_besideme	jhtak11	COMMENT	pymyxw2-5zazx	c_27jvw-ymyxw2-5zazx	2011-08-18	브라운 아이드 소울 특집 tagsmile
 sbs_besideme	jhtak11	COMMENT	pymyxw2-5zazx	c_27ral-ymyxw2-5zazx	2011-08-19	계속 반복재생중 tagsmile 좋다
 sbs_besideme	ohna4482	COMMENT	pymyxw2-5zazx	c_27rt6-ymyxw2-5zazx	2011-08-19	그런듯 tagsmile
-sbs_besideme	songhi12345	COMMENT	pymyxw2-5zazx	c_nd9mg-ymyxw2-5zazx	2011-08-19	비켜줄께 비켜줄께를 빼먹다 tagexclamation tagcry can't stop lovin you tagquestion 그것 좋다 tagcry tagsmile
+sbs_besideme	songhi12345	COMMENT	pymyxw2-5zazx	c_nd9mg-ymyxw2-5zazx	2011-08-19	비켜줄께 비켜줄께를 빼먹다 tagexclamation tagcry cant stop lovin you tagquestion 그것 좋다 tagcry tagsmile
 sbs_besideme	jhtak11	COMMENT	pymyxw2-5zazx	c_nyw9x-ymyxw2-5zazx	2011-08-19	오 tagsmile 땡큐 다음 올릴게 tagsmile
 sbs_besideme	julie-chris	COMMENT	pyo7evc-ybv4t	c_2h20a-yo7evc-ybv4t	2011-08-16	오다 tagsmile 예쁘다 좋져 조심스런 설렘 설레다 예쁘다 물들다 진심 바래다 tagsmile
 sbs_besideme	crown7556	COMMENT	pyo7evc-ybv4t	c_2h4io-yo7evc-ybv4t	2011-08-16	예쁘다 물들다 우 말 말다 증말 맘 들어욥 우리 물들다 봅시 봅시다 tagsmile 시커멓다 물 말다

@@ -16,6 +16,8 @@ public interface CommentManager extends GenericManager {
 
 	public void addComment(Comment comment);
 	
+	public void setComment(Comment comment);
+	
 	public void deleteComments(String postId);
 	
 }

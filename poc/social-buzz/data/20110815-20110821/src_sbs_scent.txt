@@ -140,7 +140,7 @@ sbs_scent	big3253	POST	pym3c00-5j22t		2011-08-18	김남주 유호정 박시후 �
 sbs_scent	happyitem	POST	pym3ctl-_csf1		2011-08-20	군 굴다 제대 컴백 공식 최대 공백기 없애라 여인 향기 강지욱 강지욱은 탁월 선택 tagexclamation 네이버카페 이동욱 팬카페 동욱홀릭 taglove
 sbs_scent	with_outlove	POST	pym3dj4-yc6jp		2011-08-19	임용합격 tagexclamation 밍밍 밍밍아 힘내다 아자아자 화이팅 tagexclamation 버킷리스트 여인의향기 밍밍이임용
 sbs_scent	godzero	POST	pym3ew0-um6u		2011-08-18	요새 푸 욱 빠져 빠져있는 여인 향기 tagexclamation 속 이동욱 이동욱이 있다 tagexclamation
-sbs_scent	actor_wook	POST	pym3fbn-_ae_u		2011-08-20	i think i'm crazy i v dropped 여인의향기
+sbs_scent	actor_wook	POST	pym3fbn-_ae_u		2011-08-20	i think im crazy i v dropped 여인의향기
 sbs_scent	mople	POST	pym3mo_-ybyr8		2011-08-20	여인 향기 9회 e09닥본사  닥  치다 치  본  방  사  닥치고본방사수 닥본사 별점 오늘 여인 향기 9회 e09
 sbs_scent	kgh2821004	POST	pym3nzz-_ip10		2011-08-20	여인 향기 짱먹으셈
 sbs_scent	najulady	POST	pym3pu3-_sr2b		2011-08-20	귀엽다 귀엽다 웃을때 귀엽다 taglove 오늘 무한도전 여인 향기 하는 하는날 tagexclamation 앗싸뵹 tagsmile

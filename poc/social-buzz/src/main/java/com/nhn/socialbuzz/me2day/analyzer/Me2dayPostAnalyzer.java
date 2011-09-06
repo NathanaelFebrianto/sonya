@@ -233,6 +233,8 @@ public class Me2dayPostAnalyzer {
 					writerSentiment.newLine();					
 				}
 			}
+			
+			this.updateLIWCFeaturesToDatabase(comment, liwcMaps);
 		}
 		
 		writerTerms.close();
@@ -352,46 +354,94 @@ public class Me2dayPostAnalyzer {
 		
 		postManager.setPost(postNew);
 	}
+
+	private void updateLIWCFeaturesToDatabase(Comment comment, Map<String, WordCount> liwcMaps) {
+		Comment commentNew = new Comment();
+		commentNew.setPostId(comment.getPostId());
+		commentNew.setCommentId(comment.getCommentId());
+		commentNew.setProgramId(comment.getProgramId());		
+		
+		for (Object key : liwcMaps.keySet()) {
+			WordCount wordCount = (WordCount) liwcMaps.get(key);
+			double count = wordCount.getCount();
+			
+			if (key.equals("NEGATION"))
+				commentNew.setLiwcNegation(count);
+			else if (key.equals("QUANTIFIER"))
+				commentNew.setLiwcQuantifier(count);
+			else if (key.equals("SWEAR"))
+				commentNew.setLiwcSwear(count);
+			else if (key.equals("QUESTIONMARK"))
+				commentNew.setLiwcQmark(count);
+			else if (key.equals("EXCLAMMARK"))
+				commentNew.setLiwcExclam(count);
+			else if (key.equals("SMILEMARK"))
+				commentNew.setLiwcSmile(count);
+			else if (key.equals("CRYMARK"))
+				commentNew.setLiwcCry(count);
+			else if (key.equals("LOVEMARK"))
+				commentNew.setLiwcLove(count);
+			else if (key.equals("POSITIVE"))
+				commentNew.setLiwcPositive(count);
+			else if (key.equals("NEGATIVE"))
+				commentNew.setLiwcNegative(count);
+			else if (key.equals("ANGER"))
+				commentNew.setLiwcAnger(count);
+			else if (key.equals("ANXIETY"))
+				commentNew.setLiwcAnxiety(count);
+			else if (key.equals("SADNESS"))
+				commentNew.setLiwcSadness(count);
+		}
+		
+		commentManager.setComment(commentNew);
+	}
 	
 	public static void main(String[] args) {
 		String outputDir = Config.getProperty("dataDir");
 		Me2dayPostAnalyzer analyzer = new Me2dayPostAnalyzer(outputDir);
 		
 		String[] programs = new String[] {
-//			"kbs1_greatking",
+			"kbs1_greatking",
 			"kbs_homewomen",
-//			"kbs2_princess",
-//			"kbs2_spy",
+			"kbs2_princess",
+			"kbs2_spy",
 			"kbs2_ojakkyo",
-//			"mbc_gyebaek",
-//			"mbc_fallinlove",
-//			"mbc_urpretty",
-//			"mbc_thousand",
-//			"sbs_besideme",
-//			"sbs_dangsin",
-//			"sbs_baekdongsoo",
-//			"sbs_boss",
-//			"sbs_scent",
-//			"kbs2_gagcon",
-//			"kbs2_happysunday_1bak2il",
-//			"kbs2_happysunday_men",
-//			"sbs_happytogether",
-//			"mbc_challenge",
-//			"mbc_three",
-//			"mbc_wedding",
-//			"mbc_sundaynight_house",
-//			"mbc_sundaynight_nagasoo",	
-//			"sbs_strongheart",
-//			"sbs_starking",
-//			"sbs_newsunday",
+			"mbc_gyebaek",
+			"mbc_fallinlove",
+			"mbc_urpretty",
+			"mbc_thousand",
+			"sbs_besideme",
+			"sbs_dangsin",
+			"sbs_baekdongsoo",
+			"sbs_boss",
+			"sbs_scent",
+			"kbs2_gagcon",
+			"kbs2_happysunday_1bak2il",
+			"kbs2_happysunday_men",
+			"sbs_happytogether",
+			"mbc_challenge",
+			"mbc_three",
+			"mbc_wedding",
+			"mbc_sundaynight_house",
+			"mbc_sundaynight_nagasoo",	
+			"sbs_strongheart",
+			"sbs_starking",
+			"sbs_newsunday",
 		};
 		
 		try {
-			String publishStartDate = "20110822";
-			String publishEndDate = "20110828";
+			String publishStartDate1 = "20110815";
+			String publishEndDate1 = "20110821";
 			
 			for (int i = 0; i <programs.length; i++) {
-				analyzer.analyze(programs[i], publishStartDate, publishEndDate);
+				analyzer.analyze(programs[i], publishStartDate1, publishEndDate1);
+			}
+			
+			String publishStartDate2 = "20110822";
+			String publishEndDate2 = "20110828";
+			
+			for (int i = 0; i <programs.length; i++) {
+				analyzer.analyze(programs[i], publishStartDate2, publishEndDate2);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

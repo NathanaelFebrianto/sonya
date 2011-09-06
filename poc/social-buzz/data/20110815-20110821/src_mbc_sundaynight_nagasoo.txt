@@ -495,7 +495,7 @@ mbc_sundaynight_nagasoo	skinhc	POST	pyo4j9l-_5xdc		2011-08-16	박선주 나가�
 mbc_sundaynight_nagasoo	jchyun22	POST	pyo4k6n-5l0pg		2011-08-15	박정현 나가수 마지막 경연 1위 죽다 죽 때 영광 http www.dailymusic.co.kr news articleview.html tagquestion idxno 1210 웹
 mbc_sundaynight_nagasoo	jobhead	POST	pyo4kbz-y1pgj		2011-08-15	조관우 그대 내 내다 맘 들어오다 나다 나 가수
 mbc_sundaynight_nagasoo	c004422	POST	pyo4l8a-5g464		2011-08-15	따분 저녁이에 김조 김조한 어제 멋지다 나다 나 가수 정말 재미 tagexclamation
-mbc_sundaynight_nagasoo	lgt7771	POST	pyo4ldh-l71s		2011-08-15	이름 이르다 대악마 서울 위치 잇다 용산구와마포구의끝 위치한곳 거주 나이 나다 나 15 여자 가족 부모님 오빠 친가족네 막내 외가족네 혼자 여자 좌우명 don't cry.smile again don't say.it s o.k 좋아하다 하늘 단것 싫어 토마토 가수 b1a4 캐릭터 제로르메진가츠라마스터레크 별명 임 메추 자주듣는말 미쳣냐 노래 노랗다 never endig story취미 만화노래영화 특기 줄넘기하늘촬형 말투 대부분욕 하고싶냐 tagquestion 같고싶냐 tagquestion 그럼 꿇다 친구 말 나 나다 광녀 단순바보 강한말 싸가지 생일1 9
+mbc_sundaynight_nagasoo	lgt7771	POST	pyo4ldh-l71s		2011-08-15	이름 이르다 대악마 서울 위치 잇다 용산구와마포구의끝 위치한곳 거주 나이 나다 나 15 여자 가족 부모님 오빠 친가족네 막내 외가족네 혼자 여자 좌우명 dont cry.smile again dont say.it s o.k 좋아하다 하늘 단것 싫어 토마토 가수 b1a4 캐릭터 제로르메진가츠라마스터레크 별명 임 메추 자주듣는말 미쳣냐 노래 노랗다 never endig story취미 만화노래영화 특기 줄넘기하늘촬형 말투 대부분욕 하고싶냐 tagquestion 같고싶냐 tagquestion 그럼 꿇다 친구 말 나 나다 광녀 단순바보 강한말 싸가지 생일1 9
 mbc_sundaynight_nagasoo	overover	POST	pyo4mbv-0fiu		2011-08-16	나는가수 들국화 전인권 그것 내세 라이브 live 콘서트 영상 그리다 나가수 나가수의 박정현
 mbc_sundaynight_nagasoo	junes26	POST	pyo4mcl-yxvov		2011-08-15	서바이벌 나다 나 가수 8월14 일 방송 보기 보다
 mbc_sundaynight_nagasoo	wjdrlghd002	POST	pyo4mlc-f6ob		2011-08-15	박정현 나가수 1위 1위로 명예졸업 yb 탈락역시 우리 박정현누 박정현누나 tagexclamation 프런티어타임스
@@ -642,7 +642,7 @@ mbc_sundaynight_nagasoo	33goo	POST	pyovdpk-y7k_x		2011-08-15	08월 14 14일 나�
 mbc_sundaynight_nagasoo	travelnews	POST	pyovevt-53jdw		2011-08-15	나가수 박정현 김범수 명예졸업 yb 탈락 타다 당신 당신은 진정 일인자
 mbc_sundaynight_nagasoo	asc3355	POST	pyovgaf-sf2k		2011-08-15	나다 나 가수 이하 나가수 의 원년 멤버 김범수 박정현 yb yb가 나가수 를 떠나다 떠
 mbc_sundaynight_nagasoo	jungeun_ye	POST	pyovkrg-ey43		2011-08-15	나다 나 가수 경연 7-2 청중평가단 추천곡 퇴학 yb yb의 내 내다 사람 사람이 늘다 최고 네이버뮤직 나다 나 가수 경연 7-2 청중평가단 추천곡
-mbc_sundaynight_nagasoo	ariranghj	POST	pyovndf-53rpq		2011-08-15	김제동 김제동의 똑똑똑 34 나가수 떠나다 윤도현yb 의 노래 나가수 더이 들다 들 없다 아쉽다 앞 바라다 바람 공연장 자주 뵐게요 tagexclamation rock'n roll daum연예
+mbc_sundaynight_nagasoo	ariranghj	POST	pyovndf-53rpq		2011-08-15	김제동 김제동의 똑똑똑 34 나가수 떠나다 윤도현yb 의 노래 나가수 더이 들다 들 없다 아쉽다 앞 바라다 바람 공연장 자주 뵐게요 tagexclamation rockn roll daum연예
 mbc_sundaynight_nagasoo	frompic	POST	pyovnmf-_d1bz		2011-08-15	나가수 회식 화제나가수 회식 경연 1등 가수 쏘다 tagexclamation mbc 우리 일밤 나다 나 가수다 가수다의 회식룰 회식룰이 화제 나가수 나가수의 경연 있다 매주 월요일 월요 경연 끝나다 가수
 mbc_sundaynight_nagasoo	myfido	POST	pyovopz-_sjkl		2011-08-15	박정현 그것 내 내다 세상 들국화 mbc 가수 8월 14 14일 무편집정말 니세 니세상입니 니세상입니다 tagsmile daum tv팟
 mbc_sundaynight_nagasoo	podomom	POST	pyovsq5-a606		2011-08-15	나가수 탈락자 되다 윤도현 내 내다 사람 사람이 내다 최고 감동 듣기 듣다 가사 가다
