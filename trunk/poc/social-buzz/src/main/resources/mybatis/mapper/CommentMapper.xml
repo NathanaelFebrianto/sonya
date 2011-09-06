@@ -108,6 +108,28 @@
 		)
 	</insert>
 
+	<update id="updateComment" parameterType="com.nhn.socialbuzz.me2day.model.Comment">
+		UPDATE comment
+		<set>
+			<if test="liwcNegation != 0">liwc_negation = #{liwcNegation},</if>
+			<if test="liwcQuantifier != 0">liwc_quantifier = #{liwcQuantifier},</if>
+			<if test="liwcSwear != 0">liwc_swear = #{liwcSwear},</if>
+			<if test="liwcQmark != 0">liwc_qmark = #{liwcQmark},</if>
+			<if test="liwcExclam != 0">liwc_exclam = #{liwcExclam},</if>
+			<if test="liwcSmile != 0">liwc_smile = #{liwcSmile},</if>
+			<if test="liwcCry != 0">liwc_cry = #{liwcCry},</if>
+			<if test="liwcLove != 0">liwc_love = #{liwcLove},</if>
+			<if test="liwcPositive != 0">liwc_positive = #{liwcPositive},</if>
+			<if test="liwcNegative != 0">liwc_negative = #{liwcNegative},</if>
+			<if test="liwcAnger != 0">liwc_anger = #{liwcAnger},</if>
+			<if test="liwcAnxiety != 0">liwc_anxiety = #{liwcAnxiety},</if>
+			<if test="liwcSadness != 0">liwc_sadness = #{liwcSadness},</if>
+			update_date = NOW()
+		</set>			
+		WHERE
+			post_id = #{postId} AND comment_id = #{commentId}
+	</update>
+
 	<delete id="deleteComments" parameterType="com.nhn.socialbuzz.me2day.model.Comment">
 		DELETE FROM comment
 		WHERE post_id = #{postId}

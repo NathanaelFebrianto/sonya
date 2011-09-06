@@ -474,7 +474,7 @@ sbs_boss	tkfadkssud	POST	pymm3av-_fpsz		2011-08-25	수목드라마 보스 지키
 sbs_boss	naver_dna	POST	pymm3bb-at5m		2011-08-24	보스 지키다 의 회장님 박영규 박영규를 보고 보다 보 있다 문득 문득 순풍산부인과 순풍산부인 의 백수사위 떠오르다 1998 밤 9시 25분 텔레비전 끌어안고 온세 온세상은 자지러지다 뉴스 라이브러리 옛날신문 경향신문 박영규 순풍산부인과 순풍산부인
 sbs_boss	kimpes21	POST	pymm3e8-_t0v6		2011-08-25	아 이제부턴 보스 지키다 봐야겟네 tagcry 넌내반 끝나다 tagcry 그립당
 sbs_boss	tndus12120	POST	pymm3sp-_rw8p		2011-08-24	tagsmile 보스 지키다 ost part 1
-sbs_boss	cesttoutt	POST	pymm3z6-ysm7j		2011-08-27	c'est tout 쎄뚜 보스 지키다 7,8회 최강희 노은설 패션 사랑 오피스 레이디룩 의상 정보
+sbs_boss	cesttoutt	POST	pymm3z6-ysm7j		2011-08-27	cest tout 쎄뚜 보스 지키다 7,8회 최강희 노은설 패션 사랑 오피스 레이디룩 의상 정보
 sbs_boss	aster1999	POST	pymm4qq-5krd5		2011-08-24	보스를지켜 보시는분 tagexclamation 미투 꾸 욱 tagexclamation 눌러주세요오 taglove
 sbs_boss	dks6015	POST	pymm5x4-_z8__		2011-08-27	보스 지키다 잘 있다
 sbs_boss	tjdcjf1618	POST	pymm6nt-5gyvp		2011-08-27	전녹하해놓 전녹하해놓은 여인의향기 오다 보스를지켜 를보구있었는데다시봐도재미있네 tagsmile
@@ -507,7 +507,7 @@ sbs_boss	kkb145	POST	pymmli9-556_z		2011-08-24	아 빠 빠이 아니양 내 비 
 sbs_boss	motchung	POST	pymmlti-yiuv6		2011-08-24	보스 지키다 주인공 누구일까 tagquestion 제가 제 바서 바서는 tagsmile 미달 아빠
 sbs_boss	all_my_bb	POST	pymmlu9-5c012		2011-08-25	나다 나 보스 지키다 보고옴니댜 아 지성내끄 나왓을때 쌩까지먀
 sbs_boss	dalcruze	POST	pymmlvw-5tewe		2011-08-25	보스 지키다 7회 최강희 노은설 옷 패션스타일 패션스타 브랜드 정보
-sbs_boss	diin0_0	POST	pymmn29-2fs5		2011-08-25	드라마 보스 지키다 를 요즘 보다 노력 하다 하 있다 부모님 10시 이후 티비시청 금지규칙 인해 보지 보다 못하다 아 근데 주말 따운 받다 되다 it's okay i'm so cool
+sbs_boss	diin0_0	POST	pymmn29-2fs5		2011-08-25	드라마 보스 지키다 를 요즘 보다 노력 하다 하 있다 부모님 10시 이후 티비시청 금지규칙 인해 보지 보다 못하다 아 근데 주말 따운 받다 되다 its okay im so cool
 sbs_boss	minkyung1122	POST	pymmn82-_qu7o		2011-08-24	보스를지켜라짱 지성님 귀엽다 지성님 tagsmile 너무좋 너무좋아 taglove 쩌기 드라마속노은설은좋겠다 tagcry
 sbs_boss	01097578557	POST	pymmnd5-5iz6c		2011-08-24	보스를지켜 지성보면서 발견한건 요즘박지성 지성머리스타일 지성머리스타 비슷하다는것 tagexclamation
 sbs_boss	znrkd12	POST	pymmo2o-y7485		2011-08-25	오늘 여학생 이야기 들어보다 보스 지켜라보 지켜라보는 여학생 꽤많았다 나도 나다 나 중하 오늘 변함 보스 지키다 본방사수
@@ -837,7 +837,7 @@ sbs_boss	tbworld_tv	POST	pymw47t-_clkj		2011-08-26	보스 지키다 최강희 �
 sbs_boss	mople	POST	pymw5fr-ybyr8		2011-08-25	보스를지켜 8회 e08닥본사  닥  치다 치  본  방  사  닥치고본방사수 닥본사 별점 오늘 보스를지켜 8회 e08
 sbs_boss	dy3308	POST	pymw6ep-yyv67		2011-08-25	요즘 즐겨보다 드라마 있다 보스를지켜 tagexclamation 완전 재밌어 재밌어요 tagexclamation 목밤 목밤에 볼것 심심해 심심해하시 분들 tagexclamation 목밤10 시 sbs tagexclamation 보스 지키다 강추 강추합니 강추합니다 tagexclamation 완존완존 재밋어 재밋어여
 sbs_boss	gusdk9088	POST	pymw6fq-_q83m		2011-08-25	보스 지키다 7화 지헌 지헌이 고백
-sbs_boss	cesttoutt	POST	pymw6jj-ysm7j		2011-08-25	c'est tout 쎄뚜 오작교 형제 유이보스 지키다 최강희 패션 스타일 스타 분석 의상 정보
+sbs_boss	cesttoutt	POST	pymw6jj-ysm7j		2011-08-25	cest tout 쎄뚜 오작교 형제 유이보스 지키다 최강희 패션 스타일 스타 분석 의상 정보
 sbs_boss	gusdk9088	POST	pymw6_y-_q83m		2011-08-25	보스 지키다 7화 초딩 초딩들의 싸움 싸우다 2
 sbs_boss	khy9595	POST	pymw7by-jxzi		2011-08-27	재중 보스 지키다 8화 혹이하나더 늘다 나도바래 swf
 sbs_boss	kbk6881	POST	pymw849-5emll		2011-08-23	tagsmile 보스를지켜
