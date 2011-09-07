@@ -230,7 +230,7 @@ AnalyzeSentimentTerms <- function(program.id, dir, filename) {
 programs <- c(
 #	"kbs1_greatking",
 	"kbs_homewomen",
-#	"kbs2_princess",
+	"kbs2_princess",
 #	"kbs2_spy",
 	"kbs2_ojakkyo"
 #	"mbc_gyebaek",

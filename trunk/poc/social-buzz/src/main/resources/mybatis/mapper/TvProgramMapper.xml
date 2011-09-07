@@ -13,6 +13,7 @@
 		<result property="description" column="description" />
 		<result property="imageUrl" column="image_url" />
 		<result property="airCycle" column="air_cycle" />
+		<result property="airCycleDesc" column="air_cycle_desc" />
 		<result property="airStartTime" column="air_start_time" />
 		<result property="airEndTime" column="air_end_time" />
 		<result property="emcee" column="emcee" />
