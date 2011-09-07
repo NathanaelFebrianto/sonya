@@ -21,6 +21,7 @@ public class TvProgram implements Serializable {
 	private String description;
 	private String imageUrl;
 	private String airCycle;
+	private String airCycleDesc;
 	private String airStartTime;
 	private String airEndTime;
 	private String emcee;
@@ -77,6 +78,10 @@ public class TvProgram implements Serializable {
 
 	public String getAirCycle() {
 		return airCycle;
+	}
+	
+	public String getAirCycleDesc() {
+		return airCycleDesc;
 	}
 
 	public String getAirStartTime() {
@@ -149,6 +154,10 @@ public class TvProgram implements Serializable {
 
 	public void setAirCycle(String airCycle) {
 		this.airCycle = airCycle;
+	}
+	
+	public void setAirCycleDesc(String airCycleDesc) {
+		this.airCycleDesc = airCycleDesc;
 	}
 
 	public void setAirStartTime(String airStartTime) {
