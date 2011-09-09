@@ -38,10 +38,10 @@
 1시출발
 1위
 1회
-20
-201117호
 20분
 20분이
+20
+201117호
 240
 240x400
 270
@@ -84,8 +84,8 @@
 articleviewhtml
 birthday
 blogstickerjsp
-bmk
 bmk가부른거
+bmk
 capture
 capture2
 daum블로그

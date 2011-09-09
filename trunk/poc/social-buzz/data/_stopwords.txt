@@ -85,12 +85,16 @@ mbc_fallinlove,넌내게
 mbc_fallinlove,반했어
 mbc_fallinlove,반하다
 mbc_fallinlove,반다
+mbc_fallinlove,널다
+mbc_fallinlove,넌내게반
+mbc_fallinlove,넌내반
 
 mbc_urpretty,당신참예쁘다
 mbc_urpretty,당신
 mbc_urpretty,당신참
 mbc_urpretty,예쁘다
 mbc_urpretty,참
+mbc_urpretty,당신참예쁘
 
 mbc_thousand,천번의입맞춤
 mbc_thousand,천번의
@@ -98,6 +102,7 @@ mbc_thousand,천번
 mbc_thousand,입맞춤
 mbc_thousand,입
 mbc_thousand,맞춤
+mbc_thousand,입맞추다
 
 sbs_besideme,내사랑내곁에
 sbs_besideme,내사랑
@@ -113,6 +118,9 @@ sbs_dangsin,당신이잠든
 sbs_dangsin,잠든
 sbs_dangsin,잠든사이
 sbs_dangsin,사이
+sbs_dangsin,잠들다
+sbs_dangsin,잠든사
+sbs_dangsin,당신이잠든사
 sbs_dangsin,잠들다
 sbs_dangsin,잠든사
 sbs_dangsin,당신이잠든사
@@ -137,6 +145,8 @@ kbs2_gagcon,개그콘서트
 kbs2_gagcon,개그
 kbs2_gagcon,콘서트
 kbs2_gagcon,개콘
+kbs2_gagcon,달이다
+kbs2_gagcon,김병
 
 kbs2_happysunday_1bak2il,해피선데이1박2일
 kbs2_happysunday_1bak2il,해피선데이
@@ -149,6 +159,8 @@ kbs2_happysunday_1bak2il,1박
 kbs2_happysunday_1bak2il,2일
 kbs2_happysunday_1bak2il,박
 kbs2_happysunday_1bak2il,일
+kbs2_happysunday_1bak2il,1박2
+kbs2_happysunday_1bak2il,박2
 
 kbs2_happysunday_men,해피선데이남자의자격죽기전에해야할101가지
 kbs2_happysunday_men,해피선데이남자의자격
@@ -169,6 +181,8 @@ kbs2_happysunday_men,101
 sbs_happytogether,해피투게더
 sbs_happytogether,해피
 sbs_happytogether,투게더
+sbs_happytogether,해피투게더3
+sbs_happytogether,해피투게더에
 
 mbc_challenge,무한도전
 mbc_challenge,무한

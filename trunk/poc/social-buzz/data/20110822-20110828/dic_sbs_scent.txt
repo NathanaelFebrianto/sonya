@@ -17,8 +17,8 @@
 11시반쯤에
 11일
 11회
-12
 12부작
+12
 12시
 12시에
 13
@@ -32,9 +32,9 @@
 15분이
 15일
 15일날
-16
 16부작
 16부작에
+16
 16부작이
 18
 18여
@@ -142,8 +142,8 @@ eventno
 gardel
 gogogo
 indexphp
-jk
 jk김동욱
+jk
 jyj
 kimjunsu
 legendssh

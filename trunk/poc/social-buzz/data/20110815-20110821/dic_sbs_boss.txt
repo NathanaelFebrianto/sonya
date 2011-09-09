@@ -246,8 +246,8 @@ song
 sweet
 swf
 tbworld
-tv
 tv리포트
+tv
 tv연예
 tv키면
 ver

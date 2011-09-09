@@ -79,8 +79,8 @@ store
 swf
 test
 todayhumor
-tv
 tv¸®Æ÷Æ®
+tv
 vod
 vs
 wow
