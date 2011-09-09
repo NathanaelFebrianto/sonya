@@ -25,3 +25,9 @@ FROM tv_program_rank a JOIN tv_program b ON a.program_id = b.program_id
 
 SELECT a.*, b.category, b.channel, b.air_cycle 
 FROM tv_program_watch_rate a JOIN tv_program b ON a.program_id = b.program_id
+
+
+SELECT a.program_id, b.title, a.start_date, a.end_date, a.term, a.tf
+FROM term a JOIN tv_program b ON a.program_id = b.program_id
+WHERE TYPE = "TERM"
+ORDER BY a.program_id ASC, a.start_date ASC, a.tf DESC  
