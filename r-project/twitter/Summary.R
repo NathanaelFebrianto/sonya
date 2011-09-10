@@ -25,7 +25,7 @@ PlotAudienceSize <- function() {
 			cex.names = 0.80, cex.axis = 0.80, las = 2, space=c(0.2, 0.8),
 			beside = TRUE, col = plot.colors)
 	
-	#box()
+	box()
 	
 	legend("topright", c("Tweets", "Users"), cex = 0.8, fill = plot.colors)
 }
@@ -118,7 +118,5 @@ PlotSentimentSize1 <- function() {
 			cex = 1, col = c(plot.colors[3], plot.colors[4]))
 }
 
-
 PlotAudienceSize()
-
 PlotSentimentSize()
