@@ -396,80 +396,98 @@ Eda <- function() {
 # Granger Casuality analysis
 ###
 AnalyzeGrangerCasualty <- function()  {
-		
-	grangertest(gallup_approve ~ positive_tweet_rate, order = 1, data = df_obama)
-	grangertest(gallup_approve ~ positive_tweet_rate, order = 2, data = df_obama)
-	grangertest(gallup_approve ~ positive_tweet_rate, order = 3, data = df_obama)
-	grangertest(gallup_approve ~ positive_tweet_rate, order = 4, data = df_obama)
-	grangertest(gallup_approve ~ positive_tweet_rate, order = 5, data = df_obama)
-	grangertest(gallup_approve ~ positive_tweet_rate, order = 6, data = df_obama)
-	grangertest(gallup_approve ~ positive_tweet_rate, order = 7, data = df_obama)
 	
-	grangertest(positive_tweet_rate ~ gallup_approve, order = 1, data = df_obama)
-	grangertest(positive_tweet_rate ~ gallup_approve, order = 2, data = df_obama)
-	grangertest(positive_tweet_rate ~ gallup_approve, order = 3, data = df_obama)
-	grangertest(positive_tweet_rate ~ gallup_approve, order = 4, data = df_obama)
-	grangertest(positive_tweet_rate ~ gallup_approve, order = 5, data = df_obama)
-	grangertest(positive_tweet_rate ~ gallup_approve, order = 6, data = df_obama)
-	grangertest(positive_tweet_rate ~ gallup_approve, order = 7, data = df_obama)
+	##############################	
+	# 1. tweet rate -> gallup 
+	##############################	
 	
-	grangertest(gallup_disapprove ~ negative_tweet_rate, order = 1, data = df_obama)
-	grangertest(gallup_disapprove ~ negative_tweet_rate, order = 2, data = df_obama)
-	grangertest(gallup_disapprove ~ negative_tweet_rate, order = 3, data = df_obama)
-	grangertest(gallup_disapprove ~ negative_tweet_rate, order = 4, data = df_obama)
-	grangertest(gallup_disapprove ~ negative_tweet_rate, order = 5, data = df_obama)
-	grangertest(gallup_disapprove ~ negative_tweet_rate, order = 6, data = df_obama)
-	grangertest(gallup_disapprove ~ negative_tweet_rate, order = 7, data = df_obama)
+	# 1-1. positive
+	for (lag in 1:7) {
+		out = grangertest(Zscore(gallup_approve) ~ Zscore(positive_tweet_rate), order = lag, data = df_obama)
+		print(out)
+	}
 	
-	grangertest(negative_tweet_rate ~ gallup_disapprove, order = 1, data = df_obama)
-	grangertest(negative_tweet_rate ~ gallup_disapprove, order = 2, data = df_obama)
-	grangertest(negative_tweet_rate ~ gallup_disapprove, order = 3, data = df_obama)
-	grangertest(negative_tweet_rate ~ gallup_disapprove, order = 4, data = df_obama)
-	grangertest(negative_tweet_rate ~ gallup_disapprove, order = 5, data = df_obama)
-	grangertest(negative_tweet_rate ~ gallup_disapprove, order = 6, data = df_obama)
-	grangertest(negative_tweet_rate ~ gallup_disapprove, order = 7, data = df_obama)
+	# 1-2. negative
+	for (lag in 1:7) {
+		out = grangertest(Zscore(gallup_disapprove) ~ Zscore(negative_tweet_rate), order = lag, data = df_obama)
+		print(out)
+	}
 	
-	#######################
-	grangertest(Zscore(positive_tweet_rate) ~ Zscore(gallup_approve), order = 1, data = df_obama)
-	grangertest(Zscore(positive_tweet_rate) ~ Zscore(gallup_approve), order = 2, data = df_obama)
-	grangertest(Zscore(positive_tweet_rate) ~ Zscore(gallup_approve), order = 3, data = df_obama)
-	grangertest(Zscore(positive_tweet_rate) ~ Zscore(gallup_approve), order = 4, data = df_obama)
-	grangertest(Zscore(positive_tweet_rate) ~ Zscore(gallup_approve), order = 5, data = df_obama)
-	grangertest(Zscore(positive_tweet_rate) ~ Zscore(gallup_approve), order = 6, data = df_obama)
-	grangertest(Zscore(positive_tweet_rate) ~ Zscore(gallup_approve), order = 7, data = df_obama)
+	# 1-3. gap(positive - negative)	
+	for (lag in 1:7) {
+		out = grangertest(Zscore(gallup_approve - gallup_disapprove) ~ Zscore(positive_tweet_rate - negative_tweet_rate), order = lag, data = df_obama)
+		print(out)
+	}
 	
-	grangertest(Zscore(gallup_approve) ~ Zscore(positive_tweet_rate), order = 1, data = df_obama)
-	grangertest(Zscore(gallup_approve) ~ Zscore(positive_tweet_rate), order = 2, data = df_obama)
-	grangertest(Zscore(gallup_approve) ~ Zscore(positive_tweet_rate), order = 3, data = df_obama)
-	grangertest(Zscore(gallup_approve) ~ Zscore(positive_tweet_rate), order = 4, data = df_obama)
-	grangertest(Zscore(gallup_approve) ~ Zscore(positive_tweet_rate), order = 5, data = df_obama)
-	grangertest(Zscore(gallup_approve) ~ Zscore(positive_tweet_rate), order = 6, data = df_obama)
-	grangertest(Zscore(gallup_approve) ~ Zscore(positive_tweet_rate), order = 7, data = df_obama)
+	##############################	
+	# 2. gallup -> tweet rate
+	##############################	
 	
-	grangertest(Zscore(gallup_approve) ~ Zscore(positive_user_rate), order = 1, data = df_obama)
-	grangertest(Zscore(gallup_approve) ~ Zscore(positive_user_rate), order = 2, data = df_obama)
-	grangertest(Zscore(gallup_approve) ~ Zscore(positive_user_rate), order = 3, data = df_obama)
-	grangertest(Zscore(gallup_approve) ~ Zscore(positive_user_rate), order = 4, data = df_obama)
-	grangertest(Zscore(gallup_approve) ~ Zscore(positive_user_rate), order = 5, data = df_obama)
-	grangertest(Zscore(gallup_approve) ~ Zscore(positive_user_rate), order = 6, data = df_obama)
-	grangertest(Zscore(gallup_approve) ~ Zscore(positive_user_rate), order = 7, data = df_obama)
+	# 2-1. positive
+	for (lag in 1:7) {
+		out = grangertest(Zscore(positive_tweet_rate) ~ Zscore(gallup_approve), order = lag, data = df_obama)
+		print(out)
+	}
 	
-	grangertest(Zscore(gallup_disapprove) ~ Zscore(negative_tweet_rate), order = 1, data = df_obama)
-	grangertest(Zscore(gallup_disapprove) ~ Zscore(negative_tweet_rate), order = 2, data = df_obama)
-	grangertest(Zscore(gallup_disapprove) ~ Zscore(negative_tweet_rate), order = 3, data = df_obama)
-	grangertest(Zscore(gallup_disapprove) ~ Zscore(negative_tweet_rate), order = 4, data = df_obama)
-	grangertest(Zscore(gallup_disapprove) ~ Zscore(negative_tweet_rate), order = 5, data = df_obama)
-	grangertest(Zscore(gallup_disapprove) ~ Zscore(negative_tweet_rate), order = 6, data = df_obama)
-	grangertest(Zscore(gallup_disapprove) ~ Zscore(negative_tweet_rate), order = 7, data = df_obama)
+	# 2-2. negative
+	for (lag in 1:7) {
+		out = grangertest(Zscore(negative_tweet_rate) ~ Zscore(gallup_disapprove), order = lag, data = df_obama)
+		print(out)
+	}
 	
-	grangertest(Zscore(gallup_approve - gallup_disapprove) ~ Zscore(positive_tweet_rate - negative_tweet_rate), order = 1, data = df_obama)
-	grangertest(Zscore(gallup_approve - gallup_disapprove) ~ Zscore(positive_tweet_rate - negative_tweet_rate), order = 2, data = df_obama)
-	grangertest(Zscore(gallup_approve - gallup_disapprove) ~ Zscore(positive_tweet_rate - negative_tweet_rate), order = 3, data = df_obama)
-	grangertest(Zscore(gallup_approve - gallup_disapprove) ~ Zscore(positive_tweet_rate - negative_tweet_rate), order = 4, data = df_obama)
-	grangertest(Zscore(gallup_approve - gallup_disapprove) ~ Zscore(positive_tweet_rate - negative_tweet_rate), order = 5, data = df_obama)
-	grangertest(Zscore(gallup_approve - gallup_disapprove) ~ Zscore(positive_tweet_rate - negative_tweet_rate), order = 6, data = df_obama)
-	grangertest(Zscore(gallup_approve - gallup_disapprove) ~ Zscore(positive_tweet_rate - negative_tweet_rate), order = 7, data = df_obama)
+	# 2-3. gap(positive - negative)	
+	for (lag in 1:7) {
+		out = grangertest(Zscore(positive_tweet_rate - negative_tweet_rate) ~ Zscore(gallup_approve - gallup_disapprove), order = lag, data = df_obama)
+		print(out)
+	}	
+	
+	##############################	
+	# 3. user rate -> gallup 
+	##############################	
+	
+	# 3-1. positive
+	for (lag in 1:7) {
+		out = grangertest(Zscore(gallup_approve) ~ Zscore(positive_user_rate), order = lag, data = df_obama)
+		print(out)
+	}
+	
+	# 3-2. negative
+	for (lag in 1:7) {
+		out = grangertest(Zscore(gallup_disapprove) ~ Zscore(negative_user_rate), order = lag, data = df_obama)
+		print(out)
+	}
+	
+	# 3-3. gap(positive - negative)	
+	for (lag in 1:7) {
+		out = grangertest(Zscore(gallup_approve - gallup_disapprove) ~ Zscore(positive_user_rate - negative_user_rate), order = lag, data = df_obama)
+		print(out)
+	}
+	
+	##############################	
+	# 4. gallup -> user rate
+	##############################	
+	
+	# 4-1. positive
+	for (lag in 1:7) {
+		out = grangertest(Zscore(positive_user_rate) ~ Zscore(gallup_approve), order = lag, data = df_obama)
+		print(out)
+	}
+	
+	# 4-2. negative
+	for (lag in 1:7) {
+		out = grangertest(Zscore(negative_user_rate) ~ Zscore(gallup_disapprove), order = lag, data = df_obama)
+		print(out)
+	}
+	
+	# 4-3. gap(positive - negative)	
+	for (lag in 1:7) {
+		out = grangertest(Zscore(positive_user_rate - negative_user_rate) ~ Zscore(gallup_approve - gallup_disapprove), order = lag, data = df_obama)
+		print(out)
+	}
+
 }
+
+
 
 ###
 # Correlation analysis
