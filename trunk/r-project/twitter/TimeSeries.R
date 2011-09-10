@@ -18,15 +18,15 @@ df_all = merge(df_audiences, df_populars, by = c("user", "create_date"), all = T
 
 
 ###
-# Convert data
+# Converts string to date.
 ###
-convertDate <- function (str) {
+ConvertDate <- function (str) {
 	format(as.Date(str), format = "%m/%d")	
 }
 
 
 ###
-# Plot the audience sentiment time series of tweet count for the specified popular user
+# Plots the audience sentiment time series of tweet count for the specified popular user
 ###
 PlotAudienceByTweet <- function(user_name) {	
 	# Get subset of the user
@@ -50,7 +50,7 @@ PlotAudienceByTweet <- function(user_name) {
 			ylim = c(0, max_y), axes = FALSE, ann = FALSE)
 	
 	# Make x axis
-	axis(1, at = 1:length(df_user$create_date), lab = lapply(df_user$create_date, convertDate))
+	axis(1, at = 1:length(df_user$create_date), lab = lapply(df_user$create_date, ConvertDate))
 	
 	# Make y axis with horizontal labels that display ticks at 
 	# every 2000 marks.
@@ -109,7 +109,7 @@ PlotAudienceByUser <- function(user_name) {
 			ylim = c(0, max_y), axes = FALSE, ann = FALSE)
 	
 	# Make x axis
-	axis(1, at = 1:length(df_user$create_date), lab = lapply(df_user$create_date, convertDate))
+	axis(1, at = 1:length(df_user$create_date), lab = lapply(df_user$create_date, ConvertDate))
 	
 	# Make y axis with horizontal labels that display ticks at 
 	# every 2000 marks.
@@ -168,7 +168,7 @@ PlotPopularUser <- function(user_name) {
 			ylim = c(0, max_y), axes = FALSE, ann = FALSE)
 	
 	# Make x axis
-	axis(1, at = 1:length(df_user$create_date), lab = lapply(df_user$create_date, convertDate))
+	axis(1, at = 1:length(df_user$create_date), lab = lapply(df_user$create_date, ConvertDate))
 	
 	# Make y axis with horizontal labels that display ticks at 
 	# every 2000 marks.
