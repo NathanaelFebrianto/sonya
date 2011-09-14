@@ -176,6 +176,27 @@ PlotBritney <- function(df.data) {
 
 
 # ladygaga
+pn.rate = df.ladygaga$positive_tweet_count/df.ladygaga$negative_tweet_count
+out1 = lm(df.ladygaga$chart_sum ~ df.ladygaga$total_tweet_count+pn.rate, data = df.ladygaga)
+print(anova(out1))
+print(summary(out1))
+
+out2 = lm(df.ladygaga$chart_sum ~ df.ladygaga$total_tweet_count+df.ladygaga$positive_tweet_count+df.ladygaga$negative_tweet_count, data = df.ladygaga)
+print(anova(out2))
+print(summary(out2))
+
+out3 = lm(df.ladygaga$chart_sum ~ df.ladygaga$total_tweet_count+df.ladygaga$positive_tweet_counts, data = df.ladygaga)
+print(anova(out3))
+print(summary(out3))
+
+out4 = lm(df.ladygaga$chart_sum ~ df.ladygaga$total_tweet_count, data = df.ladygaga)
+print(anova(out4))
+print(summary(out4))
+
+out5 = lm(df.ladygaga$chart_sum ~ df.ladygaga$positive_tweet_counts, data = df.ladygaga)
+print(anova(out5))
+print(summary(out5))
+
 cor.test(df.ladygaga$chart_sum, df.ladygaga$total_tweet_count)
 cor.test(df.ladygaga$chart_sum, df.ladygaga$total_user_count)
 cor.test(df.ladygaga$chart_sum, df.ladygaga$positive_tweet_count)

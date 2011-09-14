@@ -323,6 +323,108 @@ PlotGapZscore <- function() {
 
 
 ###
+# Plot time series of positive/negative sentiment rate and gallup data by zscore.
+###
+PlotPNRateZscore <- function() {	
+	
+	# Compute the largest y value used in the data (or we could just use range again)
+	max_y <- max(Zscore(df_obama$gallup_approve), 
+			Zscore(df_obama$positive_tweet_count/df_obama$negative_tweet_count)) + 0.5
+	min_y <- min(Zscore(df_obama$gallup_approve), 
+			Zscore(df_obama$positive_tweet_count/df_obama$negative_tweet_count)) - 0.5
+	
+	# Defines colors to be used 
+	plot_colors <- c("blue", "blue")
+	
+	# Graph autos using y axis that ranges from 0 to max_y.
+	# Turn off axes and annotations (axis labels) so we can 
+	# specify them ourself
+	plot(Zscore(df_obama$gallup_approve), type = "l", col = plot_colors[1], lty = "dashed",
+			ylim = c(min_y, max_y), axes = FALSE, ann = FALSE, lwd  = 2)
+	
+	# Make x axis
+	axis(1, at = 1:length(df_obama$date), lab = df_obama$date)
+	
+	# Make y axis with horizontal labels that display ticks at 
+	# every 0.5 marks.
+	axis(2, las = 1, at = 0.5*-10:10)
+	
+	# Create box around plot
+	box()
+	
+	# Graph line of positve tweet rate
+	lines(Zscore(df_obama$positive_tweet_count/df_obama$negative_tweet_count), type = "l", pch = 24, lty = "solid", 
+			col = plot_colors[2], lwd  = 2)
+	
+	# Create a title with a red, bold/italic font
+	title(main = "Gallup vs. Twitter for BarackObama", col.main = "black", font.main = 4)
+	
+	# Label the x and y axes
+	title(xlab = "Date", col.lab = "black")
+	title(ylab = "Rate", col.lab = "black")
+	
+	# Create a legend at (1, max_y) that is slightly smaller 
+	# (cex) and uses the same line colors and points used by 
+	# the actual plots
+	legend(1, max_y, 
+			c("Approve", "Positive/Negative Rate"), 
+			cex = 0.8, col = plot_colors, 
+			#pch = 21:22, 
+			lty = c("dashed", "solid"), lwd =2)
+}
+
+###
+# Plot time series of positive/negative sentiment rate and gallup data by zscore.
+###
+PlotPNRateZscore1 <- function() {	
+	
+	# Compute the largest y value used in the data (or we could just use range again)
+	max_y <- max(Zscore(df_obama$gallup_approve/df_obama$gallup_disapprove), 
+			Zscore(df_obama$positive_tweet_count/df_obama$negative_tweet_count)) + 0.5
+	min_y <- min(Zscore(df_obama$gallup_approve/df_obama$gallup_disapprove), 
+			Zscore(df_obama$positive_tweet_count/df_obama$negative_tweet_count)) - 0.5
+	
+	# Defines colors to be used 
+	plot_colors <- c("blue", "blue")
+	
+	# Graph autos using y axis that ranges from 0 to max_y.
+	# Turn off axes and annotations (axis labels) so we can 
+	# specify them ourself
+	plot(Zscore(df_obama$gallup_approve/df_obama$gallup_disapprove), type = "l", col = plot_colors[1], lty = "dashed",
+			ylim = c(min_y, max_y), axes = FALSE, ann = FALSE, lwd  = 2)
+	
+	# Make x axis
+	axis(1, at = 1:length(df_obama$date), lab = df_obama$date)
+	
+	# Make y axis with horizontal labels that display ticks at 
+	# every 0.5 marks.
+	axis(2, las = 1, at = 0.5*-10:10)
+	
+	# Create box around plot
+	box()
+	
+	# Graph line of positve tweet rate
+	lines(Zscore(df_obama$positive_tweet_count/df_obama$negative_tweet_count), type = "l", pch = 24, lty = "solid", 
+			col = plot_colors[2], lwd  = 2)
+	
+	# Create a title with a red, bold/italic font
+	title(main = "Gallup vs. Twitter for BarackObama", col.main = "black", font.main = 4)
+	
+	# Label the x and y axes
+	title(xlab = "Date", col.lab = "black")
+	title(ylab = "Rate", col.lab = "black")
+	
+	# Create a legend at (1, max_y) that is slightly smaller 
+	# (cex) and uses the same line colors and points used by 
+	# the actual plots
+	legend(1, max_y, 
+			c("Approve/Disapprove Rate", "Positive/Negative Rate"), 
+			cex = 0.8, col = plot_colors, 
+			#pch = 21:22, 
+			lty = c("dashed", "solid"), lwd =2)
+}
+
+###
 # EDA
 ###
 Eda <- function() {
@@ -484,7 +586,35 @@ AnalyzeGrangerCasualty <- function()  {
 		out = grangertest(Zscore(positive_user_rate - negative_user_rate) ~ Zscore(gallup_approve - gallup_disapprove), order = lag, data = df_obama)
 		print(out)
 	}
+	
+	##############################	
+	# 5. positive/negative rate -> gallup 
+	##############################	
+	
+	# 5-1. positive/negative tweet rate -> gallup approve
+	for (lag in 1:7) {
+		out = grangertest(Zscore(gallup_approve) ~ Zscore(positive_tweet_count/negative_tweet_count), order = lag, data = df_obama)
+		print(out)
+	}
+	
+	# 5-2. positive/negative user rate -> gallup approve
+	for (lag in 1:7) {
+		out = grangertest(Zscore(gallup_approve) ~ Zscore(positive_user_count/negative_user_count), order = lag, data = df_obama)
+		print(out)
+	}
 
+	# 5-3. positive/negative tweet rate -> gallup approve/disapprove rate
+	for (lag in 1:7) {
+		out = grangertest(Zscore(gallup_approve/gallup_disapprove) ~ Zscore(positive_tweet_count/negative_tweet_count), order = lag, data = df_obama)
+		print(out)
+	}
+	
+	# 5-4. positive/negative user rate -> gallup approve/disapprove rate
+	for (lag in 1:7) {
+		out = grangertest(Zscore(gallup_approve/gallup_disapprove) ~ Zscore(positive_user_count/negative_user_count), order = lag, data = df_obama)
+		print(out)
+	}
+	
 }
 
 
@@ -522,4 +652,6 @@ PlotSentiment1()
 PlotPositiveZscore()
 PlotNegativeZscore()
 PlotGapZscore()
+PlotPNRateZscore()
+PlotPNRateZscore1()
 
