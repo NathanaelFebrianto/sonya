@@ -7,6 +7,7 @@
 	<resultMap id="tvProgramResultMap" type="com.nhn.socialbuzz.me2day.model.TvProgram">
 		<id property="programId" column="program_id" />
 		<result property="title" column="title" />
+		<result property="nation" column="nation" />
 		<result property="status" column="status" />
 		<result property="category" column="category" />
 		<result property="channel" column="channel" />
@@ -22,6 +23,7 @@
 		<result property="producers" column="producers" />
 		<result property="homepage" column="homepage" />
 		<result property="searchKeywords" column="search_keywords" />
+		<result property="twitterSearchKeywords" column="twitter_search_keywords" />
 		<result property="registerDate" column="register_date" />
 		<result property="updateDate" column="update_date" />
 	</resultMap>
@@ -32,6 +34,9 @@
 		WHERE 1 = 1
 		<if test="programId != null">
 			AND program_id = #{programId}
+		</if>
+		<if test="nation != null">
+			AND nation = #{nation}
 		</if>
 		<if test="status != null">
 			AND status = #{status}
