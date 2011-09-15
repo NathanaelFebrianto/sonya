@@ -13,6 +13,20 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+	
+	<repositories>
+		<repository>
+			<id>twitter4j.org</id>
+			<name>twitter4j.org Repository</name>
+			<url>http://twitter4j.org/maven2</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
 
 	<dependencies>
 		<dependency>
@@ -50,7 +64,7 @@
 			<artifactId>quartz</artifactId>
 			<version>1.8.3</version>
 		</dependency>	
-
+		
 		<!--  
 		<dependency>
 			<groupId>org.apache.lucene</groupId>
@@ -60,6 +74,7 @@
 		-->
 		
 		<!-- Mahout -->
+		<!--  
 		<dependency>
 			<groupId>org.apache.mahout</groupId>
 			<artifactId>mahout-core</artifactId>
@@ -75,7 +90,19 @@
 			<artifactId>mahout-utils</artifactId>
 			<version>0.5</version>
 		</dependency>
- 
 
+		<dependency>
+			<groupId>org.twitter4j</groupId>
+			<artifactId>twitter4j-core</artifactId>
+			<version>[2.1,)</version>
+		</dependency> 
+		-->
+
+		<dependency>
+			<groupId>org.twitter4j</groupId>
+			<artifactId>twitter4j-core</artifactId>
+			<version>[2.2,)</version>
+		</dependency>
+		
 	</dependencies>
 </project>

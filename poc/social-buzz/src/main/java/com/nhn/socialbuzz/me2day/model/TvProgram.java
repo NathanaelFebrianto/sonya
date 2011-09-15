@@ -15,6 +15,7 @@ public class TvProgram implements Serializable {
 	
 	private String programId;
 	private String title;
+	private String nation;
 	private String status;
 	private String category;
 	private String channel;
@@ -30,6 +31,7 @@ public class TvProgram implements Serializable {
 	private String producers;
 	private String homepage;
 	private String searchKeywords;
+	private String twitterSearchKeywords;
 	private Date registerDate;
 	private Date updateDate;
 	
@@ -47,6 +49,21 @@ public class TvProgram implements Serializable {
 		
 		return keywords;
 	}
+	
+	public List<String> extractTwitterSearchKeywords() {
+		
+		Vector<String> keywords = new Vector<String>();
+		
+		String text = this.getTwitterSearchKeywords();
+		if (text != null && !text.equals("")) {
+			StringTokenizer st = new StringTokenizer(text, ",");
+			 while (st.hasMoreTokens()) {
+				 keywords.add(st.nextToken().trim());
+		     }
+		}
+		
+		return keywords;
+	}
 
 	public String getProgramId() {
 		return programId;
@@ -54,6 +71,10 @@ public class TvProgram implements Serializable {
 
 	public String getTitle() {
 		return title;
+	}
+	
+	public String getNation() {
+		return nation;
 	}
 
 	public String getStatus() {
@@ -115,6 +136,10 @@ public class TvProgram implements Serializable {
 	public String getSearchKeywords() {
 		return searchKeywords;
 	}
+	
+	public String getTwitterSearchKeywords() {
+		return twitterSearchKeywords;
+	}
 
 	public Date getRegisterDate() {
 		return registerDate;
@@ -130,6 +155,10 @@ public class TvProgram implements Serializable {
 
 	public void setTitle(String title) {
 		this.title = title;
+	}
+	
+	public void setNation(String nation) {
+		this.nation = nation;
 	}
 
 	public void setStatus(String status) {
@@ -190,6 +219,10 @@ public class TvProgram implements Serializable {
 
 	public void setSearchKeywords(String searchKeywords) {
 		this.searchKeywords = searchKeywords;
+	}
+	
+	public void setTwitterSearchKeywords(String twitterSearchKeywords) {
+		this.twitterSearchKeywords = twitterSearchKeywords;
 	}
 
 	public void setRegisterDate(Date registerDate) {

@@ -8,8 +8,6 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.regex.Pattern;
 
-import org.apache.mahout.common.iterator.FileLineIterator;
-
 import com.nhn.socialbuzz.common.Config;
 import com.nhn.socialbuzz.me2day.model.Term;
 import com.nhn.socialbuzz.me2day.service.TermManager;
@@ -80,8 +78,6 @@ public class TermAnalysisResultLoader {
 		
 		InputStream is = new FileInputStream(file);
 		BufferedReader in = new BufferedReader(new InputStreamReader(is, "EUC-KR")); 
-		
-		FileLineIterator it = new FileLineIterator(is);
 		
 		Term cond = new Term();
 		cond.setProgramId(programId);
