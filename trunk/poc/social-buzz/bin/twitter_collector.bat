@@ -25,5 +25,3 @@ set SOCIAL_BUZZ="lib\social-buzz-0.0.1.jar"
 set LIBS=%COMMONS_IO%;%JFLEX%;%JTA%;%LOG4J%;%MYBATIS%;%MYSQL_CONNECTOR_JAVA%;%QUARTZ%;%SLF4J_API%;%SLF4J_LOG4J%;%TWITTER4J_CORE%;%LUCENE_ANALYZER_KR%;%LUCENE_CORE%;%SOCIAL_BUZZ%;bin\
 
 %JDK_PATH%\bin\java -Xmx512m -classpath %LIBS% com.nhn.socialbuzz.twitter.collector.TwitterCollectorJobTrigger %1 %2 %3 %4 %5 %6 %7 %8 %9
-
-%JDK_PATH%\bin\java -Xmx512m -classpath %LIBS% com.nhn.socialbuzz.twitter.collector.Me2dayCollectorJobTrigger %1 %2 %3 %4 %5 %6 %7 %8 %9

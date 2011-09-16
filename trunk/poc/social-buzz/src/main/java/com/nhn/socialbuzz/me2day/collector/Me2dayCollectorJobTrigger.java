@@ -8,6 +8,8 @@ import org.quartz.Scheduler;
 import org.quartz.SchedulerFactory;
 import org.quartz.impl.StdSchedulerFactory;
 
+import com.nhn.socialbuzz.common.Config;
+
 public class Me2dayCollectorJobTrigger {
 	
 	public void run() throws Exception {
@@ -27,9 +29,11 @@ public class Me2dayCollectorJobTrigger {
 
 		// jobs can be scheduled before sched.start() has been called
 		// job will run every 30 minutes
+        String schedule = Config.getProperty("me2dayCollectorJob_scheule");
+        
 		JobDetail job = new JobDetail("Me2dayCollectorJob", "twitter", Me2dayCollectorJob.class);
         CronTrigger trigger = new CronTrigger("Me2dayCollectorJobTrigger", "me2day", "Me2dayCollectorJob",
-                "twitter", "0 30/60 * * * ?");	//second, minute, hour, dayOfMonth, month, year
+                "twitter", schedule);	//second, minute, hour, dayOfMonth, month, year
         sched.addJob(job, true);
         Date ft = sched.scheduleJob(trigger);
         System.out.println(job.getFullName() + " has been scheduled to run at: " + ft
