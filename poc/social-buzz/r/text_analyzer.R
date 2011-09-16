@@ -13,7 +13,7 @@ library(tm)
 # @return vector of stopwords
 ###
 GetStopwords <- function(program.id) {	
-	my.stopwords.table = read.table(file("_stopwords.txt", encoding = "UTF-8"),
+	my.stopwords.table = read.table(file("stopwords.txt", encoding = "UTF-8"),
 			header = TRUE, comment.char = "#", sep = ",",
 			stringsAsFactors = FALSE, na.strings = "")
 	

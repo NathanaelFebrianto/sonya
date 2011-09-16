@@ -2,6 +2,7 @@ package com.nhn.socialbuzz.common;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.Date;
 
 public class CommonUtil {
@@ -40,6 +41,14 @@ public class CommonUtil {
 
 		Date date = sdfmt.parse(strDate);
 		return date;
+	}
+	
+	public static Date addDay(Date date, int day) {
+		Calendar cal = Calendar.getInstance();
+
+		cal.setTime(date);
+		cal.add(Calendar.DAY_OF_YEAR, day);
+		return cal.getTime();
 	}
 	
 }

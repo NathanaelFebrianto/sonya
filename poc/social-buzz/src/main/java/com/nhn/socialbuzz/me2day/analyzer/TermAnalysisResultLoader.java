@@ -120,7 +120,6 @@ public class TermAnalysisResultLoader {
 		is.close();
 	}
 
-	
 	public static void main(String[] args) {
 		String dataDir = Config.getProperty("dataDir");
 		TermAnalysisResultLoader loader = new TermAnalysisResultLoader(dataDir);
@@ -129,8 +128,8 @@ public class TermAnalysisResultLoader {
 			String[] date1 = { "20110815", "20110821" };
 			String[] date2 = { "20110822", "20110828" };
 						
-			loader.execute(date1[0], date1[1]);
-			loader.execute(date2[0], date2[1]);		
+//			loader.execute(date1[0], date1[1]);
+//			loader.execute(date2[0], date2[1]);		
 			
 		} catch (Exception e) {
 			e.printStackTrace();

@@ -24,5 +24,6 @@
 		<mapper resource="mybatis/mapper/MetooMapper.xml" />
 		<mapper resource="mybatis/mapper/TvProgramMapper.xml" />
 		<mapper resource="mybatis/mapper/TermMapper.xml" />
+		<mapper resource="mybatis/mapper/TweetMapper.xml" />
 	</mappers>
 </configuration>
