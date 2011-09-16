@@ -11,6 +11,8 @@ import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
 
 import com.nhn.socialbuzz.common.CommonUtil;
+import com.nhn.socialbuzz.common.JobLogger;
+import com.nhn.socialbuzz.me2day.collector.Me2dayDataCollector;
 import com.nhn.socialbuzz.me2day.model.TvProgram;
 import com.nhn.socialbuzz.me2day.model.TvProgram.SearchQuery;
 import com.nhn.socialbuzz.me2day.service.TvProgramManager;
@@ -19,7 +21,9 @@ import com.nhn.socialbuzz.twitter.model.Tweet;
 import com.nhn.socialbuzz.twitter.service.TweetManager;
 import com.nhn.socialbuzz.twitter.service.TweetManagerImpl;
 
-public class TwitterDataCollector {
+public class TwitterDataCollector {	
+	// logger
+	private static JobLogger logger = JobLogger.getLogger(Me2dayDataCollector.class, "twitter-collect.log");
 	
 	private TvProgramManager tvProgramManager;
 	private TweetManager tweetManager;
@@ -48,18 +52,25 @@ public class TwitterDataCollector {
         	System.out.println("------------------------------------------------");
         	System.out.println("program id: " + programId);
         	System.out.println("query = " + query.getQuery() + " since: " + createStartDate + " page: " + maxPage);
+        	
+        	logger.info("------------------------------------------------");
+        	logger.info("program id: " + programId);
+        	logger.info("query = " + query.getQuery() + " since: " + createStartDate + " page: " + maxPage);
          	
         	for (int page = 1; page <= maxPage; page++) {
 	        	query.page(page);		        	
 	            QueryResult result = twitter.search(query);
 	            
 	            System.out.println("query result size[page:" + page + "] = " + result.getTweets().size());
+	            logger.info("query result size[page:" + page + "] = " + result.getTweets().size());
 	            tweets.addAll(result.getTweets());
         	}
 
         	int addCount = addTweets(tweets, programId);
              
-            System.out.println("@added tweet count for query = " + addCount);            
+            System.out.println("@added tweet count for query = " + addCount);  
+            logger.info("@added tweet count for query = " + addCount);
+            
 		} catch (TwitterException te) {
 			System.out.println(te.getMessage());
 		}		
@@ -111,9 +122,13 @@ public class TwitterDataCollector {
 			System.out.println("\ntitle == " + program.getTitle());
 			System.out.println("search queries == " + program.getTwitterSearchKeywords());
 			
+			logger.info("\ntitle == " + program.getTitle());
+			logger.info("search queries == " + program.getTwitterSearchKeywords());
+			
 			List<SearchQuery> searchQueries = program.extractTwitterSearchKeywords();
 			
 			System.out.println("search query size == " + searchQueries.size());
+			logger.info("search query size == " + searchQueries.size());
 			
 			for (SearchQuery searchQuery : searchQueries) {	
 				String keyword = searchQuery.getKeyword();
