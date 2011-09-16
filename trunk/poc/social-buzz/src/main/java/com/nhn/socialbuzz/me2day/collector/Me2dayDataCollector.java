@@ -20,6 +20,7 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
+import com.nhn.socialbuzz.common.JobLogger;
 import com.nhn.socialbuzz.me2day.model.Comment;
 import com.nhn.socialbuzz.me2day.model.Metoo;
 import com.nhn.socialbuzz.me2day.model.Post;
@@ -35,7 +36,9 @@ import com.nhn.socialbuzz.me2day.service.TvProgramManager;
 import com.nhn.socialbuzz.me2day.service.TvProgramManagerImpl;
 
 public class Me2dayDataCollector {
-	
+	// logger
+	private static JobLogger logger = JobLogger.getLogger(Me2dayDataCollector.class, "me2day-collect.log");
+		
 	private TvProgramManager tvProgramManager;
 	private PostManager postManager;
 	private CommentManager commentManager;
@@ -109,7 +112,13 @@ public class Me2dayDataCollector {
 	 * @return
 	 */
 	public List<Post> searchPosts(String programId, String query, String target, String publishStartDate, String publishEndDate, int maxPage) {
-		System.out.println("query == " + query);
+    	System.out.println("------------------------------------------------");
+    	System.out.println("program id: " + programId);    	
+    	System.out.println("query = " + query + " publishStartDate: " + publishStartDate +  " publishEndDate: " + publishEndDate +" page: " + maxPage);
+    	
+    	logger.info("------------------------------------------------");
+    	logger.info("program id: " + programId);    	
+    	logger.info("query = " + query + " publishStartDate: " + publishStartDate +  " publishEndDate: " + publishEndDate +" page: " + maxPage);
 		
 		if (maxPage <= 0) {
 			Hashtable result = searchPostsByPage(programId, query, target, publishStartDate, publishEndDate, maxPage);
@@ -162,6 +171,9 @@ public class Me2dayDataCollector {
 		System.out.println("============================================");
 		System.out.println("page == " + page);
 		
+		logger.info("============================================");
+		logger.info("page == " + page);
+		
 		try {
 			url.append("query=").append(URLEncoder.encode(query, "utf-8"));
 		} catch (UnsupportedEncodingException e) {
@@ -179,6 +191,7 @@ public class Me2dayDataCollector {
 			url.append("&page=page_").append(page);
 		
 		System.out.println("url == " + url.toString());
+		logger.info("url == " + url.toString());
 		
 		try {
 			Document doc = getDocument(url.toString());
@@ -190,6 +203,7 @@ public class Me2dayDataCollector {
 			int resultCount = post_list.getLength();
 			
 			System.out.println("# of posts == " + resultCount);
+			logger.info("# of posts == " + resultCount);
 			
 			for (int i = 0; i < post_list.getLength(); i++) {
 				try {
@@ -339,11 +353,13 @@ public class Me2dayDataCollector {
 			return 0;
 		
 		System.out.println("============================================");
+		logger.info("============================================");
 		
 		if (postId != null)
 			url.append("post_id=").append(postId);
 		
-		System.out.println("url == " + url.toString());		
+		System.out.println("url == " + url.toString());
+		logger.info("url == " + url.toString());	
 	
 		try {
 			Document doc = getDocument(url.toString());
@@ -375,6 +391,7 @@ public class Me2dayDataCollector {
 			System.out.println(itemsPerPage_node.getNodeName() + " == " + itemsPerPage_node.getTextContent());
 			
 			System.out.println("# of comments == " + resultCount);
+			logger.info("# of comments == " + resultCount);
 			
 			for (int i = 0; i < comment_list.getLength(); i++) {
 				try {
@@ -463,6 +480,7 @@ public class Me2dayDataCollector {
 			return 0;
 		
 		System.out.println("============================================");
+		logger.info("============================================");
 		
 		if (postId != null)
 			url.append("post_id=").append(postId);
@@ -494,6 +512,7 @@ public class Me2dayDataCollector {
 			System.out.println(itemsPerPage_node.getNodeName() + " == " + itemsPerPage_node.getTextContent());
 			
 			System.out.println("# of metoos == " + resultCount);
+			logger.info("# of metoos == " + resultCount);
 			
 			for (int i = 0; i < metoo_list.getLength(); i++) {
 				try {
@@ -625,7 +644,7 @@ public class Me2dayDataCollector {
 			List<TvProgram> programs = programManager.getPrograms(param);
 			
 			for (int i = 0; i <programs.size(); i++) {
-//				collector.collect(programs.get(i), publishStartDate, publishEndDate);
+				collector.collect(programs.get(i), publishStartDate, publishEndDate);
 			}			
 			
 		} catch (Exception e) {
