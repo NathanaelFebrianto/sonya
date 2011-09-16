@@ -1,5 +1,7 @@
 package com.nhn.socialbuzz.me2day.dao;
 
+import java.util.List;
+
 import com.nhn.socialbuzz.common.GenericMapper;
 import com.nhn.socialbuzz.me2day.model.TvProgram;
 
@@ -10,6 +12,6 @@ import com.nhn.socialbuzz.me2day.model.TvProgram;
  */
 public interface TvProgramMapper extends GenericMapper {
 
-	public TvProgram selectProgram(TvProgram program);	
+	public List<TvProgram> selectPrograms(TvProgram program);	
 
 }

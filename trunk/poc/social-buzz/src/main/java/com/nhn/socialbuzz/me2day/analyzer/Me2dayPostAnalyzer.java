@@ -46,7 +46,7 @@ public class Me2dayPostAnalyzer {
 		this.outputDir = outputDir;
 		
 		textAnalyzer = new TextAnalyzer();
-		File liwcCatFile = new File(Config.getProperty("liwcCatFile"));
+		File liwcCatFile = new File(Config.getProperty("liwcCatFile_ko"));
 		personalityRecognizer = new PersonalityRecognizer(liwcCatFile);
 		
 		postManager = new PostManagerImpl();
@@ -434,14 +434,14 @@ public class Me2dayPostAnalyzer {
 			String publishEndDate1 = "20110821";
 			
 			for (int i = 0; i <programs.length; i++) {
-				analyzer.analyze(programs[i], publishStartDate1, publishEndDate1);
+//				analyzer.analyze(programs[i], publishStartDate1, publishEndDate1);
 			}
 			
 			String publishStartDate2 = "20110822";
 			String publishEndDate2 = "20110828";
 			
 			for (int i = 0; i <programs.length; i++) {
-				analyzer.analyze(programs[i], publishStartDate2, publishEndDate2);
+//				analyzer.analyze(programs[i], publishStartDate2, publishEndDate2);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

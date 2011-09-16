@@ -3,6 +3,7 @@ package com.nhn.socialbuzz.me2day.model;
 import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.StringTokenizer;
 import java.util.Vector;
 
@@ -35,30 +36,68 @@ public class TvProgram implements Serializable {
 	private Date registerDate;
 	private Date updateDate;
 	
-	public List<String> extractSearchKeywords() {
+	public class SearchQuery {
+		private String keyword = null;
+		private int maxResultPage = 0;
 		
-		Vector<String> keywords = new Vector<String>();
+		public SearchQuery(String keyword, int maxResultPage) {
+			this.keyword = keyword;
+			this.maxResultPage = maxResultPage;
+		}
+		
+		public String getKeyword() {
+			return keyword;
+		}
+		
+		public int getMaxResultPage() {
+			return maxResultPage;
+		}
+	};
+	
+	public List<SearchQuery> extractMe2daySearchKeywords() {
+		
+		Vector<SearchQuery> keywords = new Vector<SearchQuery>();
 		
 		String text = this.getSearchKeywords();
 		if (text != null && !text.equals("")) {
 			StringTokenizer st = new StringTokenizer(text, ",");
 			 while (st.hasMoreTokens()) {
-				 keywords.add(st.nextToken().trim());
+				 String token = st.nextToken().trim();
+				 StringTokenizer st1 = new StringTokenizer(token, ":");
+				 String keyword = st1.nextToken().trim();
+				 int maxResultPage = 50;	// default = 50
+				 try {
+					 maxResultPage = Integer.valueOf(st1.nextToken());
+				 } catch (NoSuchElementException e) {
+				 }
+				 
+				 SearchQuery query = new SearchQuery(keyword, maxResultPage);
+				 keywords.add(query);
 		     }
 		}
 		
 		return keywords;
 	}
 	
-	public List<String> extractTwitterSearchKeywords() {
+	public List<SearchQuery> extractTwitterSearchKeywords() {
 		
-		Vector<String> keywords = new Vector<String>();
+		Vector<SearchQuery> keywords = new Vector<SearchQuery>();
 		
 		String text = this.getTwitterSearchKeywords();
 		if (text != null && !text.equals("")) {
 			StringTokenizer st = new StringTokenizer(text, ",");
 			 while (st.hasMoreTokens()) {
-				 keywords.add(st.nextToken().trim());
+				 String token = st.nextToken().trim();
+				 StringTokenizer st1 = new StringTokenizer(token, ":");
+				 String keyword = st1.nextToken().trim();
+				 int maxResultPage = 1;	// default = 1
+				 try {
+					 maxResultPage = Integer.valueOf(st1.nextToken());
+				 } catch (NoSuchElementException e) {
+				 }
+				 
+				 SearchQuery query = new SearchQuery(keyword, maxResultPage);
+				 keywords.add(query);
 		     }
 		}
 		

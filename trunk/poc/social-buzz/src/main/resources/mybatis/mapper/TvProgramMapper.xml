@@ -28,7 +28,7 @@
 		<result property="updateDate" column="update_date" />
 	</resultMap>
 
-	<select id="selectProgram" parameterType="com.nhn.socialbuzz.me2day.model.TvProgram" resultMap="tvProgramResultMap">
+	<select id="selectPrograms" parameterType="com.nhn.socialbuzz.me2day.model.TvProgram" resultMap="tvProgramResultMap">
 		SELECT *
 		FROM tv_program
 		WHERE 1 = 1
@@ -42,5 +42,6 @@
 			AND status = #{status}
 		</if>
 	</select>
+	
 
 </mapper>

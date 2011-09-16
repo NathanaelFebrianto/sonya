@@ -24,6 +24,7 @@ import com.nhn.socialbuzz.me2day.model.Comment;
 import com.nhn.socialbuzz.me2day.model.Metoo;
 import com.nhn.socialbuzz.me2day.model.Post;
 import com.nhn.socialbuzz.me2day.model.TvProgram;
+import com.nhn.socialbuzz.me2day.model.TvProgram.SearchQuery;
 import com.nhn.socialbuzz.me2day.service.CommentManager;
 import com.nhn.socialbuzz.me2day.service.CommentManagerImpl;
 import com.nhn.socialbuzz.me2day.service.MetooManager;
@@ -553,36 +554,33 @@ public class Me2dayDataCollector {
 		return 0;
 	}
 	
-	public void collect(String programId, String publishStartdDate, String publishEndDate) {
+	public void collect(TvProgram program, String publishStartdDate, String publishEndDate) {
 		
 		try {
 			
-			TvProgram program = tvProgramManager.getProgram(programId);
-			System.out.println("title == " + program.getTitle());
-			System.out.println("search keywords == " + program.getSearchKeywords());
+			String programId = program.getProgramId();
+			System.out.println("\ntitle == " + program.getTitle());
+			System.out.println("search queries == " + program.getTwitterSearchKeywords());
 			
-			List<String> keywords = program.extractSearchKeywords();
+			List<SearchQuery> searchQueries = program.extractTwitterSearchKeywords();
 			
-			System.out.println("search keywords == " + keywords.size());
+			System.out.println("search query size == " + searchQueries.size());
 			
-			for (String keyword : keywords) {				
-				this.searchPosts(programId, keyword, "all", publishStartdDate, publishEndDate, 50);					
+			for (SearchQuery searchQuery : searchQueries) {	
+				String keyword = searchQuery.getKeyword();
+				int maxResultPage = searchQuery.getMaxResultPage();
+				this.searchPosts(programId, keyword, "all", publishStartdDate, publishEndDate, maxResultPage);					
 			}
 			
 		} catch (Exception e) {
 			e.printStackTrace();
-		}
-		
+		}		
 	}
 	
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		try {
-			Me2dayDataCollector collector = new Me2dayDataCollector();
-			
-			String[] programs = new String[] {
+			/*
+			String[] programIds = new String[] {
 				"kbs1_greatking",
 				"kbs_homewomen",
 				"kbs2_princess",
@@ -610,12 +608,24 @@ public class Me2dayDataCollector {
 				"sbs_starking",
 				"sbs_newsunday",
 			};
+			*/
 			
-			String publishStartDate = "2011.08.29";
-			String publishEndDate = "2011.09.04";
+			String publishStartDate = "2011.09.05";
+			String publishEndDate = "2011.09.11";
 			
-			for (int i = 0; i <programs.length; i++) {
-				collector.collect(programs[i], publishStartDate, publishEndDate);
+			//String publishStartDate = CommonUtil.convertDateToString("yyyy.MM.dd", CommonUtil.addDay(new Date(), -1));
+			//String publishEndDate = CommonUtil.convertDateToString("yyyy.MM.dd", CommonUtil.addDay(new Date(), +1));
+			
+			Me2dayDataCollector collector = new Me2dayDataCollector();
+			
+			TvProgramManager programManager = new TvProgramManagerImpl();
+			TvProgram param = new TvProgram();
+			param.setStatus("open");
+			param.setNation("KO");
+			List<TvProgram> programs = programManager.getPrograms(param);
+			
+			for (int i = 0; i <programs.size(); i++) {
+//				collector.collect(programs.get(i), publishStartDate, publishEndDate);
 			}			
 			
 		} catch (Exception e) {

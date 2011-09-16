@@ -1,5 +1,7 @@
 package com.nhn.socialbuzz.me2day.service;
 
+import java.util.List;
+
 import org.apache.ibatis.session.SqlSession;
 
 import com.nhn.socialbuzz.common.GenericManagerImpl;
@@ -22,11 +24,22 @@ public class TvProgramManagerImpl extends GenericManagerImpl implements TvProgra
     		program.setProgramId(programId);
     		
     		TvProgramMapper mapper = session.getMapper(TvProgramMapper.class);
-    		TvProgram result = mapper.selectProgram(program);
-    		return result;
+    		List<TvProgram> list = mapper.selectPrograms(program);
+     		return list.get(0);
     	} finally {
     		session.close();
     	}
+	}
+	
+	public List<TvProgram> getPrograms(TvProgram program) {
+		SqlSession session = sqlSessionFactory.openSession();
+    	try {
+    		TvProgramMapper mapper = session.getMapper(TvProgramMapper.class);
+    		List<TvProgram> result = mapper.selectPrograms(program);
+    		return result;
+    	} finally {
+    		session.close();
+    	}		
 	}
 
 }
