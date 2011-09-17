@@ -168,11 +168,8 @@ public class Me2dayDataCollector {
 		if (query == null) 
 			return null;
 		
-		System.out.println("============================================");
-		System.out.println("page == " + page);
-		
-		logger.info("============================================");
-		logger.info("page == " + page);
+		System.out.println("searchPostsByPage.....................");	
+		logger.info("searchPostsByPage.....................");
 		
 		try {
 			url.append("query=").append(URLEncoder.encode(query, "utf-8"));
@@ -352,8 +349,8 @@ public class Me2dayDataCollector {
 		if (postId == null) 
 			return 0;
 		
-		System.out.println("============================================");
-		logger.info("============================================");
+		System.out.println("collectComments.....................");
+		logger.info("collectComments.....................");
 		
 		if (postId != null)
 			url.append("post_id=").append(postId);
@@ -479,13 +476,14 @@ public class Me2dayDataCollector {
 		if (postId == null) 
 			return 0;
 		
-		System.out.println("============================================");
-		logger.info("============================================");
+		System.out.println("collectMetoos.....................");
+		logger.info("collectMetoos.....................");
 		
 		if (postId != null)
 			url.append("post_id=").append(postId);
 		
 		System.out.println("url == " + url.toString());
+		logger.info("url == " + url.toString());	
 		
 		try {
 			Document doc = getDocument(url.toString());
@@ -578,12 +576,19 @@ public class Me2dayDataCollector {
 		try {
 			
 			String programId = program.getProgramId();
+			
+			System.out.println("================================================");
 			System.out.println("\ntitle == " + program.getTitle());
 			System.out.println("search queries == " + program.getTwitterSearchKeywords());
+			
+			logger.info("================================================");
+			logger.info("\ntitle == " + program.getTitle());
+			logger.info("search queries == " + program.getTwitterSearchKeywords());
 			
 			List<SearchQuery> searchQueries = program.extractTwitterSearchKeywords();
 			
 			System.out.println("search query size == " + searchQueries.size());
+			logger.info("search query size == " + searchQueries.size());
 			
 			for (SearchQuery searchQuery : searchQueries) {	
 				String keyword = searchQuery.getKeyword();

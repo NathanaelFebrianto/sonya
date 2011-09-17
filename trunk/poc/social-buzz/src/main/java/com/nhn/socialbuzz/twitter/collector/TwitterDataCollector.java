@@ -119,9 +119,12 @@ public class TwitterDataCollector {
 		try {
 			
 			String programId = program.getProgramId();
+			
+			System.out.println("================================================");
 			System.out.println("\ntitle == " + program.getTitle());
 			System.out.println("search queries == " + program.getTwitterSearchKeywords());
 			
+			logger.info("================================================");
 			logger.info("\ntitle == " + program.getTitle());
 			logger.info("search queries == " + program.getTwitterSearchKeywords());
 			
