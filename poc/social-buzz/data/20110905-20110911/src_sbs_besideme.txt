@@ -1,0 +1,52 @@
+program_id	author_id	type	post_id	comment_id	publish_date	terms
+sbs_besideme	soronii	POST	pyc0g6j-5pdor		2011-09-08	내 내다 곁 있다 고맙다 슬픔 슬프다 아픔 아프다 기쁨 기쁘다 함 할 하다 있다 행복 어떤 상황 어떤 모습 모든것 모든것을 나눌것 나눌것을 떠나다 않을것을 믿다 의심치 않다 이래서 이것 사랑 하 700 days
+sbs_besideme	moone77	POST	pyc0nk3-fm8j		2011-09-08	추석특선영화 하모니 kbs1 이끼 마음이2 방가방가 12 12일 20 50 의형제 조선명탐정 kbs2 님은먼곳 님은먼곳에 mbc 전우치 내사 내곁 내곁에 sbs 아저씨 ocn 이클립스 10 10일 21 20 시라노 연애조작단 째째 째째한 로맨스 cgv 방가 tagquestion 방가 tagexclamation 전 절다 안본 많다 뭐 보실래 보실래요 tagquestion mbc 실망
+sbs_besideme	melonlight	POST	pyc319r-647o		2011-09-07	추석연휴 지상파tv 특선영화 상차림 라인업 좋다 tagsmile 이끼 방가방가 하모니 조선 명탐정 의형제 내사 내곁 내곁에 다 보고 보다 보 싶다 tagsmile 과제땜 과제땜에 볼 보다 있다 조선 명탐정 의형제 하모니 보다 tagsmile
+sbs_besideme	alrzl003	POST	pyc50q3-5ndpx		2011-09-06	jyj heaven티저가사 가지다 떠나다 내곁 내곁에 있어줄수는 거짓말 다거짓말 전혀 들리지가않아사랑 널사랑 널사랑해 한마디 보여줄수는 사랑 널사랑 널사랑해 또다시 사랑해주겠니가지마 가지다 있어줄수 있어줄수있니 거짓말 거짓말 들리지가않아 사랑해사랑해 보여줄수 보여줄수있니 사랑해사랑해 사랑 가지다 가지다 있어줄수 있어줄수있니 거짓말 거짓말 들리지가않아 사랑 사랑 보여줄수 보여줄수있니 제발돌아와줘 3번듣고 tagsmile 가사다외웠어요 님아 나어쩔꺼 나어쩔꺼임 tagsmile 빠순 자 자다 티져 가사가나왔습니 다같이부릅시 다같이부릅시다 에헤라디아
+sbs_besideme	tsd02244	POST	pyc5xjs-_r0ub		2011-09-09	핫핫써머 tagexclamation 하하써머 tagexclamation tagsmile 미친님 tagexclamation 어제 비스트 미워한거 보다 보 오늘 비스트 사랑하는게 좋다 tagexclamation 새삼 하루 안됬지 안됬지만 정말 하루동안 제 머리속 비스트 비스트가 떠난날 떠난날이 없다 좋아하다 사랑하는거 깨닫다 어제 언제 상처 아물까 하다 하 기다리다 오늘 행복 좋아하다 사랑 믿어줄게 믿어줄게요 다시한번 말 좋아하다 사랑 내곁 떠나다 말다 말 주다
+sbs_besideme	keliu205	POST	pyc61uw-_u5fu		2011-09-10	그렇다 내곁 내곁에 머물러줘 언제 언제나 변치않고 나다 나 너르다 사랑 알다 너르다 평생 지키다 사람 사다 그건 바 나다 말야 가슴 말 내안 내안에 소리치다 널 널다 누르다 참아 참아내 참아내도 이길수 없다 말 말다 사랑 결국 혼자서 하다 하 말 말다 내맘 들다 들리다 모르다 날 나다
+sbs_besideme	ksj-1106	POST	pyc6hdy-_tz60		2011-09-07	가지다 떠나다 내곁에있어줄수는 거짓말 다거짓말 전혀들리지가않아 사랑 널 널다 사랑 한마디 보여줄수 사랑 널 널다 사랑 또 사랑 jyj heaven
+sbs_besideme	keliu205	POST	pyc6ru5-_u5fu		2011-09-10	나르다 나 사랑안해도되 그러지 않아도되 이렇게 내곁 내곁에 있다 사라지지 예전 사랑햇던 순간 돌아가다 힘들겟지 힘들겟지만 이 만족 그러니까 지금 내곁 내곁에 있다
+sbs_besideme	melonlight	POST	pyc9ljv-647o		2011-09-10	나 모 사랑 떠나가다 날다 날 당신곁 당신곁에 웃음뒤 함 하다 철 없다 욕심 많다 미련 당신 당신이 있다 건 거다 걸다 아니다 모르다 시간 멀다 집 향하다 가다 가늘다 약속 그대 돌아오다 줄 주다 모르다 애쓰다 웃음지으 돌아오는길 돌아오는길에 왜 외다 그리 그리도 낯설다 멀다 한지 하다 김현식 내사 내곁 내곁에 중
+sbs_besideme	lovesh0907	POST	pycb8ql-5suyf		2011-09-10	눕다 드라마 보는중 내사랑내곁
+sbs_besideme	jinwoong456	POST	pycbho5-5m05m		2011-09-10	그대 참 차다 아름답다 밤 하늘 별빛 별빛보 빛나다 지치다 나 마음 따뜻 감싸주다 그대 품다 품 나 집이죠 세찬 세차다 바람 바라다 앞 꺼질듯 꺼질듯한 내 내다 사랑 잘 자다 참고서 참다 이겨내다 정말 눈물 고맙다 맘 아 그대 내곁 내곁에 살다 사랑 사랑 내 그대 부족 알다 세월 걷다보면 지칠때 지칠때도 있다 그대 쉴곳이 되다 사랑 고맙다 내 내다 사랑 사 평생 그대 위해 위하다 부르다 부 이노래 사랑 사 노래 노랗다 함 불러 불러요 둘이서 라랄라 sg워너비 라라 라라라
+sbs_besideme	chltmdgus09	POST	pycbwm0-nw0n		2011-09-10	아 한가위 보고 보다 보 싶다 사람 사다 사랑 말로 말 부족 사람 사다 사람 사진 보다 울컥 만드 만드는 사람 사다 같다 있다 웃다 웃음 주다 주 사람 사다 이젠 내 내다 곁 없다 누군가 있다 하다 오지 오다 않다 사람 누굴까 누굴까요 tagquestion
+sbs_besideme	youngkill79	POST	pycd5sy-_wgln		2011-09-07	나이 먹어 좋다 일 많다 조금 무디다 조금 너그럽다 질 지다 있다 조금 기다리다 있다 사랑 그대를내곁 두고 두고있어 두고있어야 하다 하 것 아니다 아니 것 알다 되다 빗방울처럼 혼자 중 사랑 티비 티비를 끄다 저의 저 이상형 tagsmile 쌩 도망가다 tagsmile
+sbs_besideme	ykk9826	POST	pycd7vv-js57		2011-09-10	이제그만내가싫어졌단말거짓말인걸알아다거짓말이라는걸너의 눈만봐도난알수 눈만봐도난알수있어 더이상은흔들리지않겠어다시나에게로돌아와내게로돌아와시간이지나도널잊지못 니가있을곳은어디라도나에겐 best place 니곁엔나만큼어울리는사람아마없을거라고니가언제라도내옆에만있어주면 best place 니곁엔나만큼너를사랑해줄사람없을거라고
+sbs_besideme	sjh06142	POST	pycdh5h-1mq5		2011-09-09	내 정말 사랑 사람 내겐 무엇 소중 사람 언제 언제나 내곁 내곁에 영원할것 같다 사람 날 나다 두다 두 가다 내가슴 내가슴이 죽을 아프다 난 나다 날다 아직 아직도 그대 걱정 나 세상 오직 한사람 그사람 그사람이 날 나다 떠나다
+sbs_besideme	ksangel72	POST	pycdvog-h672		2011-09-08	오늘 9월 8 8일 tagexclamation 감사 날이라긔 taglove 25번째 생일 생 마구 축하 싶다 날이라긔 taglove 낳다 기르다 우리 엄마 아빠 고맙다 사랑 내동생 내동생도 똘이 똘이도 친구 모두 곁 있다 고마웜 행복 날
+sbs_besideme	dlgmlflaspt	POST	pyce1nh-yoc6c		2011-09-08	바보 남자 남다 착한남자 내 잘 자다 못하다 사과 하다 사과 남자 남다 곁 있다 힘이 힘이나 힘이나고 고맙다 사람 사다 착하다 내 내다 남자 남다 웃음 웃다 찾다 하다 남자 남다 고맙구 사랑 그리구 화내다 미안
+sbs_besideme	ilbunny	POST	pyce1qf-50i9d		2011-09-10	왜내사랑 더딘거죠 내사랑 내사랑만 힘들죠 그대앞 그대앞에 그대곁 그대곁이 있다 온통세상 그대 그대 보 그대앞 나 나다 먼곳 먼곳만 보다 내다 그대 마지막 것 내다 마지막 순간인것 쉽다 날지나치 그대 곁 또다가 또다가가 한걸음 조차 체 뗄수 들리다 들리 태연
+sbs_besideme	goekfo	POST	pycej22-_mjx2		2011-09-08	여기 글쓰다 저장 이별이 이별이가 언젠가 보다 tagquestion 이별 나 나다 니 친척오빠 저기 아 글 쓰다 것 오글 오글아 들다 쓰다 tagsmile 무엇 난 나다 날다 너르다 무척 아끼다 제일 제 소중 너르다 가장 좋아하다 tagsmile 내 자꾸 꺼지다 닥치다 막 그런다 그런다고 상처 마 표현 잘 자다 못하다 그러니까 앞 오빠 미워하지마 난 나다 날다 소중 내 내다 곁 떠나다 마 tagsmile 사랑 내 내다 동생 taglove
+sbs_besideme	880818luv	POST	pycevy3-5k0r0		2011-09-09	고은아아 미앚뉴 tagcry 내 방금일 방금일나서 까먹어써써 히밤 사랑 아들 tagexclamation 생일축하 우리곁 우리곁에 있어쥬 ㅓ
+sbs_besideme	thehei	POST	pycj608-8w0t		2011-09-10	내사랑내곁에37 회 출생의비밀 알고방황하는소룡 석빈과배정자 무릎사과
+sbs_besideme	anso502	POST	pyckbbo-_bw0n		2011-09-10	유일하게보는주말드라마 내사랑내곁 여인의향기 지난주엔펑펑울며봤는데오늘은웃으며봤음 여인의향기는낼막방 tagcry 아쉽다
+sbs_besideme	huni7110	POST	pyckdcu-5a1zr		2011-09-07	그런날 그런날이 오다 모든것 모든것이 새롭다 세우다 주님 주님의 사랑 매여있을때 그때 여전 변함 내곁 내곁에 계시다 계시 주님 주님을 나 나다 노래 그노래 그노래의 내 내다 고백 담으리
+sbs_besideme	shion2540	POST	pycy0ed-48nj		2011-09-05	함 웃다 함 울다 하나 하다 하 되다 사는거 사는거야 하늘 부러워 사랑 사 속 내 지치다 쓰러지다 나 손 잡다 영원 곁 부르다 song you s.y l.f
+sbs_besideme	sian1126	POST	pycy29t-_zrh		2011-09-05	내 내다 사랑 사 그대 내 내다 곁 있다
+sbs_besideme	amg-_-	POST	pycyndm-_qjo0		2011-09-05	잘 자다 보 모르겟지 모르겟지만 우리 22선물 taglove 사랑 taglove 그대 darling 밤 하늘 별빛 별빛보 아름답다 내 내다 맘속 깊다 곳 반짝거리다 나 사랑 사 빛 그대 사랑 darling 언제 언제나 내 내다 곁 빛을내줘요 매일밤 바라보다 바라보다 아름답다 그댄 나 사랑 사 빛 taglove 여기 cn blue 사랑 사 빛 이엇지 tagsmile 여보 여보야 22일동안 나 나다 사랑 고맙다 사랑 taglove 앞 우리 사랑 사 영원 taglove 사랑해여보 taglove 영구보관
+sbs_besideme	zzz-_-1226	POST	pycyvwo-5meou		2011-09-10	i love you i love you you love me forever 안녕 말다 말 하지말아 내곁 내곁을 떠나다 마 더많 더많이 사랑 그대오 함 사랑할수 행복 제이비 사랑 세상 모 연인 위하다 노래 노랗다
+sbs_besideme	crossview	POST	pyc_i30-5ym45		2011-09-06	bucket list 늘다 내곁 나 바라보다 언제까지 언제 거기 거다 선채 선채로 내 내다 슬프다 사랑 지금 이시 이시간도 지키다 tagexclamation 죽기전 하다 하 싶다 나 버킷리스트 배우 이동욱 이동욱과 함 생각 해도 하다 해 어질어질 어질다 정신차렷 tagexclamation
+sbs_besideme	project_jin	POST	pyc_uun-y50s0		2011-09-05	열번째 만남 혼자 집 가고 가고있습니 가고있습니다 방금 전 곁에 곁에있던 팔 내다 기대다 온기 남아 그리다 우리 오늘 100 100일 이었습니다 앞 계속 이쁘다 사랑 약속 사랑
+sbs_besideme	thehei	POST	pyc_yq7-8w0t		2011-09-05	내사랑내곁에36 회 미솔엄마 선아 선아의 시작 복수 소룡이 소룡이의 출생의비밀 밝혀지다 드라마의절정 tagexclamation
+sbs_besideme	won1251	POST	pym2ldi-vpae		2011-09-05	구월 찾아가다 설악산 tagexclamation 삶 위안 충전 인생 반성 삶 전환 찾다 싶어 싶다 산 오르다 난 나다 날다 느끼다 산 아니다 사람 위안 충전 나 대한 대하다 반성 기회 지금 내 내다 곁에 곁에있는 사람 얼마 소중 고마운지 tagexclamation 내 사랑 행복 살고있다는걸 알수 있다 느낄수 있다 하다 고마워용 tagexclamation
+sbs_besideme	sundaykiz27	POST	pym74jd-_jg3p		2011-09-09	내옆 내옆에 있다 그것 자체만 자체만으 난 나다 날다 만족 네게 선물 할 하다 있다 그것 자체만 자체만으 행복 난 나다 날다 언제 언제나 널 널다 생각 내 내다 곁 곁 내 있다 널 널다 좋아하다 이유 묻다 말다 해 하다 단지 달다 내 하다 하 싶다 말다 말 내 널 널다 사랑 이유 없다 늘다 것뿐
+sbs_besideme	youngkill79	POST	pym7dpp-_wgln		2011-09-06	이세 어느것 어느것도 사랑 사 아닌것 아닌것이 없다 세상 어느 만나다 만남 소중 않은것이 없다 내 내다 주변 둘러보다 우리곁 우리곁에 참 차다 아름답다 사람 많다 있다 잠시 눈감다 당신 당신을 떠올리다 가슴 따뜻 만드 만드는 알수 기쁘다 기쁨 찾아듭니 찾아듭니다 퍼온글 달 사진 이상혀 tagsmile 폰 폰으 폰으로 한계 tagsmile 여기다 여기 경 산청 tagexclamation
+sbs_besideme	ww00w00ww	POST	pym7fip-_i4ey		2011-09-07	언제 언제나 내 내다 곁 있다 my love 내 내다 손 놓지말아 놓지말아요 떠나가다 사랑 속이지마 서 의지 살아가다 있잖 있잖아 그대 내 헤어진대 내 내다 마음 변 않다 당신 당신과 함께라면 어디 어디든 갈다 ill love forever you
+sbs_besideme	cinewriter	POST	pym7l9h-12yp		2011-09-07	파랑새 전해주다 행복 건 거다 걸다 늘다 우리 곁 있다 거죠 눈감다 그댈 그리다 벌쓰다 그댈 찾았죠 나르다 나 밝히다 빛 보 허 허나 행복 놓칠순없죠 그대 마음 열다 내 있다 나르다 나 불러줘요 그대곁에 너르다 사랑 함 하다 해 그대 영원
+sbs_besideme	ddawndew	POST	pym7ogx-gsle		2011-09-07	함께한 추억 사랑어린 시선 고스란하다 담아내다 가족 역사 엮어가 엮어가는 우리집 청일점 tagexclamation 같다 사다 사 남자 남다 오늘 남자 생일 생 tagexclamation 태어나다 고맙다 내 내다 곁 오다 주다 고맙다 남자 생일 지금 차릴꺼 차릴꺼임 여행 제주 아침 닭살 tagquestion 으흐흐 고생 셤니 들다 미역국 불고기 좀 조다 보내드릴려 보내드릴려고 하다 어젯밤 엄니 전화와서 고기양념 미역국 한솥 끓이다 보 tagquestion 그러시더란 tagsmile 어쩜 메뉴 이리 비슷 tagquestion tagsmile
+sbs_besideme	justji	POST	pym7rd9-y852v		2011-09-07	내사 그대 내 내다 곁 있다 세상 하나 오직 그대 김현식 내사 내곁 내곁에 1991년 국민학교 그때 tagsmile 2학년때 좋아하다 노래 노랗다 나중 시간 지나다 흘러가다 노래 될거 될거라 엄마말 슬퍼 슬프다 울컥 정말 흘러가다 노래 되다 되었구 소중 간직 들다
+sbs_besideme	cateru	POST	pym7txw-13ej		2011-09-09	너르다 사랑 사랑 사랑 나에겐 소중 사람 사다 언제 언제나 내 내다 곁 있다 자꾸 잊다 살다 사랑 사랑 사랑 나 나다 지금 눈물 나다 고맙다 사람 사다 언제 언제나 그렇다 있다 그대 때문 때문에 기쁘다 내 내다 맘 알아주다 sweetics 스윗소로우 사랑
+sbs_besideme	youjin4017	POST	pyml2yw-9kwj		2011-09-07	가지다 떠나다 내곁 내곁에 있어줄순 없다 거짓말 다 거짓말 전혀 들리 들리가 않다 사랑 널 널다 사랑 한마디 보 줄 주다 수 없다 사랑 널 널다 사랑 또 사랑 주다
+sbs_besideme	dkdus6909	POST	pyml4bu-j30y		2011-09-06	언제 언제나 내곁 내곁에 있어줘요ma love 내손 내손을 놓지말아줘 떠나가다 사랑에속이지마
+sbs_besideme	01023252252	POST	pyml7rw-59_jd		2011-09-07	죽다 죽음 거부할수 권리 가질수 있다 권리 내 사랑 사람 위해 위하다 권리 사용 줄수 줄수있다면 얼마 좋다 tagquestion 그럼 그사람 그사람은 슬퍼 난 나다 날다 죽을테니깐 하다 하지 시간 지나다 아프다 아픔 사라지다 행복 좋은게 또 그대곁 그대곁에 찾아오다 tagsmile
+sbs_besideme	ww00w00ww	POST	pymld0o-_i4ey		2011-09-05	또 또한 마음 예전 같다 이제 말 사랑 날두 날두고 다시다 내곁 내곁을 떠나다 않다 제발 슈퍼주니어 one love
+sbs_besideme	d-o-h-c	POST	pymldpj-5ugij		2011-09-05	널 널다 사랑 시간 흐르다 널 널다 사랑 세상 변 난 나다 날다 언제 언제나 내 내다 곁 지키다 있다 참 차다 다행 고맙다 천 번다 번 넘어지다 또다시 쓰러지다 일어나다 비바람 몰아치다 어둠 내리다 널 널다 지켜줄게 때문 때문에 하루 살아가다 때문 때문에 내 내다 심장 뛰다 허각 언제 언제나
+sbs_besideme	jjas1726	POST	pymlwth-_c5ph		2011-09-05	행보케 행보케요 사랑해 사랑해여 그대 전부댜 아이니드유 아 ㅓ 브유 널 널다 사랑 아이니드유 아이 아 러브유 너무사랑 언제 언제나 내곁 내곁에 남아이써줘 내 내다 사 사랑 너뿌니 너뿌니야 베빕 유얼 마 럽 taglove
+sbs_besideme	dodzjlee	POST	pymnsb8-ycnyt		2011-09-05	사랑 하다 예쁘다 사랑 하다 좀달라진대 어떻다 하다 해 내 내다 안 사랑 예쁘다 생각 하다 눈물 나다 나 눈물이 눈물이나면 또 생각 사람 곁 있다는게 다행이죠 지연 또르르 이쁜이한이율씨꺼글
+sbs_besideme	svgd0421	POST	pymx6z_-yyiu7		2011-09-08	추석 특선영화 ebs 쥬만지 tagsmile 초딩때 동사무소가서 열다 보던거 생각 tagexclamation tagsmile 그나저 그나저나 13일 13일에 sbs 내사 내곁 내곁에 tagexclamation 아아아악 김명민느님 tagexclamation 명민느님 tagexclamation 방송 예정 언제 짤리다 불안 죠타 tagexclamation
+sbs_besideme	engyounglove	POST	pymxfmm-_a29a		2011-09-06	나한테 6개월 6개월의 시간 주다 예전 사랑에대 추억 모조리 날아가버리게 나 가득채워드릴게 tagexclamation 이렇게 얘기한것 되고싶네 되고싶네요 지금 충분 얘기 나 나다 믿을거예 믿을거예요 이렇게 내곁 내곁에서 잠드세 잠드세요 사랑 tagexclamation
+sbs_besideme	leejh1996	POST	pymxike-yr65p		2011-09-06	언제 언제나 손 소다 솔다 내밀다 닿다 듯 그곳 그곳에 서 서다 있을게 있을게요 기쁘다 떄면 내 먼저 환하다 웃어줄게 웃어줄게요 나도 나다 나 그댈 사랑 바보 말다 말 하지마 하지마요 고맙다 말 하지마 하지마요 그대 내 내다 곁 있다 것만 것만으 그것만 그것만으 난 나다 날다 행복하죠 하루하루 견디다 없다 시간 매일매일 매일매 지쳐가던 내 내다 일상 그대 있다 그대 만나다 지금껏 견딜수 견딜수가 있었죠 이영현 화답 여인의향기 ost
+sbs_besideme	eruruu_l0ve	POST	pymxo5_-56au1		2011-09-08	나 모 사랑 떠나가다 날다 날 당신 당신의 웃음 웃다 뒤 함께하는데 중략 내 내다 사랑 사 그대 내 내다 곁 있다 세상 하나 오직 그대 힘겹다 날 떠나다 비틀거릴 내 안개꽃 안개꽃은 어디 어디에 박기영 박기영의 내 내다 사랑 사 내 내다 곁 를 들다 생각
+sbs_besideme	madspace	POST	pymxv32-t13i		2011-09-08	사랑 tagexclamation taglove 마망 나이 있다 이곳저곳 아프다 엄마 내곁 건강
+sbs_besideme	koxd3434	POST	pymxxog-ya86u		2011-09-06	내 사랑 그녀 그녀가 곁 있다 내 내다 미래 행복

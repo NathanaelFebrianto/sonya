@@ -1,0 +1,97 @@
+program_id	author_id	type	post_id	comment_id	publish_date	feature	count	word
+sbs_besideme	soronii	POST	pyc0g6j-5pdor		2011-09-08	POSITIVE	2.0	기쁘다 행복
+sbs_besideme	soronii	POST	pyc0g6j-5pdor		2011-09-08	SADNESS	3.0	슬픔 슬프다 아프
+sbs_besideme	moone77	POST	pyc0nk3-fm8j		2011-09-08	QUESTIONMARK	1.0	tagquestion
+sbs_besideme	moone77	POST	pyc0nk3-fm8j		2011-09-08	EXCLAMMARK	1.0	tagexclamation
+sbs_besideme	melonlight	POST	pyc319r-647o		2011-09-07	SMILEMARK	1.0	tagsmile
+sbs_besideme	melonlight	POST	pyc319r-647o		2011-09-07	POSITIVE	1.0	좋다
+sbs_besideme	melonlight	POST	pyc319r-647o		2011-09-07	SEE	1.0	보다
+sbs_besideme	alrzl003	POST	pyc50q3-5ndpx		2011-09-06	SMILEMARK	1.0	tagsmile
+sbs_besideme	tsd02244	POST	pyc5xjs-_r0ub		2011-09-09	PAST	1.0	어제
+sbs_besideme	tsd02244	POST	pyc5xjs-_r0ub		2011-09-09	PRESENT	1.0	오늘
+sbs_besideme	tsd02244	POST	pyc5xjs-_r0ub		2011-09-09	EXCLAMMARK	1.0	tagexclamation
+sbs_besideme	tsd02244	POST	pyc5xjs-_r0ub		2011-09-09	SMILEMARK	1.0	tagsmile
+sbs_besideme	tsd02244	POST	pyc5xjs-_r0ub		2011-09-09	POSITIVE	4.0	사랑하 좋다 좋아하다 행복
+sbs_besideme	tsd02244	POST	pyc5xjs-_r0ub		2011-09-09	NEGATIVE	1.0	미워
+sbs_besideme	tsd02244	POST	pyc5xjs-_r0ub		2011-09-09	SEE	1.0	보다
+sbs_besideme	keliu205	POST	pyc6ru5-_u5fu		2011-09-10	PRESENT	1.0	지금
+sbs_besideme	melonlight	POST	pyc9ljv-647o		2011-09-10	POSITIVE	1.0	웃음
+sbs_besideme	chltmdgus09	POST	pycbwm0-nw0n		2011-09-10	QUESTIONMARK	1.0	tagquestion
+sbs_besideme	chltmdgus09	POST	pycbwm0-nw0n		2011-09-10	POSITIVE	2.0	웃다 웃음
+sbs_besideme	chltmdgus09	POST	pycbwm0-nw0n		2011-09-10	SEE	1.0	보다
+sbs_besideme	youngkill79	POST	pycd5sy-_wgln		2011-09-07	QUANTIFIER	1.0	조금
+sbs_besideme	youngkill79	POST	pycd5sy-_wgln		2011-09-07	SMILEMARK	1.0	tagsmile
+sbs_besideme	youngkill79	POST	pycd5sy-_wgln		2011-09-07	POSITIVE	1.0	좋다
+sbs_besideme	ykk9826	POST	pycd7vv-js57		2011-09-10	PRESENT	1.0	이제
+sbs_besideme	sjh06142	POST	pycdh5h-1mq5		2011-09-09	ANXIETY	1.0	걱정
+sbs_besideme	sjh06142	POST	pycdh5h-1mq5		2011-09-09	SADNESS	1.0	아프
+sbs_besideme	ksangel72	POST	pycdvog-h672		2011-09-08	PRESENT	1.0	오늘
+sbs_besideme	ksangel72	POST	pycdvog-h672		2011-09-08	EXCLAMMARK	1.0	tagexclamation
+sbs_besideme	ksangel72	POST	pycdvog-h672		2011-09-08	LOVEMARK	1.0	taglove
+sbs_besideme	ksangel72	POST	pycdvog-h672		2011-09-08	POSITIVE	1.0	행복
+sbs_besideme	dlgmlflaspt	POST	pyce1nh-yoc6c		2011-09-08	POSITIVE	2.0	웃음 웃다
+sbs_besideme	ilbunny	POST	pyce1qf-50i9d		2011-09-10	SEE	1.0	보다
+sbs_besideme	goekfo	POST	pycej22-_mjx2		2011-09-08	QUESTIONMARK	1.0	tagquestion
+sbs_besideme	goekfo	POST	pycej22-_mjx2		2011-09-08	SMILEMARK	1.0	tagsmile
+sbs_besideme	goekfo	POST	pycej22-_mjx2		2011-09-08	LOVEMARK	1.0	taglove
+sbs_besideme	goekfo	POST	pycej22-_mjx2		2011-09-08	POSITIVE	1.0	좋아하다
+sbs_besideme	goekfo	POST	pycej22-_mjx2		2011-09-08	NEGATIVE	1.0	미워
+sbs_besideme	goekfo	POST	pycej22-_mjx2		2011-09-08	SEE	1.0	보다
+sbs_besideme	880818luv	POST	pycevy3-5k0r0		2011-09-09	EXCLAMMARK	1.0	tagexclamation
+sbs_besideme	880818luv	POST	pycevy3-5k0r0		2011-09-09	CRYMARK	1.0	tagcry
+sbs_besideme	anso502	POST	pyckbbo-_bw0n		2011-09-10	PAST	1.0	지난주
+sbs_besideme	anso502	POST	pyckbbo-_bw0n		2011-09-10	PRESENT	1.0	오늘
+sbs_besideme	anso502	POST	pyckbbo-_bw0n		2011-09-10	CRYMARK	1.0	tagcry
+sbs_besideme	shion2540	POST	pycy0ed-48nj		2011-09-05	POSITIVE	1.0	웃다
+sbs_besideme	amg-_-	POST	pycyndm-_qjo0		2011-09-05	SMILEMARK	1.0	tagsmile
+sbs_besideme	amg-_-	POST	pycyndm-_qjo0		2011-09-05	LOVEMARK	1.0	taglove
+sbs_besideme	amg-_-	POST	pycyndm-_qjo0		2011-09-05	SEE	1.0	보다
+sbs_besideme	zzz-_-1226	POST	pycyvwo-5meou		2011-09-10	QUANTIFIER	1.0	많이
+sbs_besideme	zzz-_-1226	POST	pycyvwo-5meou		2011-09-10	POSITIVE	1.0	행복
+sbs_besideme	crossview	POST	pyc_i30-5ym45		2011-09-06	PRESENT	1.0	지금
+sbs_besideme	crossview	POST	pyc_i30-5ym45		2011-09-06	EXCLAMMARK	1.0	tagexclamation
+sbs_besideme	crossview	POST	pyc_i30-5ym45		2011-09-06	SADNESS	1.0	슬프다
+sbs_besideme	crossview	POST	pyc_i30-5ym45		2011-09-06	SEE	1.0	보다
+sbs_besideme	project_jin	POST	pyc_uun-y50s0		2011-09-05	PRESENT	1.0	오늘
+sbs_besideme	thehei	POST	pyc_yq7-8w0t		2011-09-05	EXCLAMMARK	1.0	tagexclamation
+sbs_besideme	won1251	POST	pym2ldi-vpae		2011-09-05	PRESENT	1.0	지금
+sbs_besideme	won1251	POST	pym2ldi-vpae		2011-09-05	EXCLAMMARK	1.0	tagexclamation
+sbs_besideme	won1251	POST	pym2ldi-vpae		2011-09-05	POSITIVE	1.0	행복
+sbs_besideme	won1251	POST	pym2ldi-vpae		2011-09-05	HEAR	1.0	느끼다
+sbs_besideme	sundaykiz27	POST	pym74jd-_jg3p		2011-09-09	POSITIVE	2.0	행복 좋아하다
+sbs_besideme	youngkill79	POST	pym7dpp-_wgln		2011-09-06	EXCLAMMARK	1.0	tagexclamation
+sbs_besideme	youngkill79	POST	pym7dpp-_wgln		2011-09-06	SMILEMARK	1.0	tagsmile
+sbs_besideme	youngkill79	POST	pym7dpp-_wgln		2011-09-06	POSITIVE	1.0	기쁘다
+sbs_besideme	youngkill79	POST	pym7dpp-_wgln		2011-09-06	SEE	1.0	보다
+sbs_besideme	cinewriter	POST	pym7l9h-12yp		2011-09-07	POSITIVE	1.0	행복
+sbs_besideme	ddawndew	POST	pym7ogx-gsle		2011-09-07	PRESENT	2.0	오늘 지금
+sbs_besideme	ddawndew	POST	pym7ogx-gsle		2011-09-07	QUESTIONMARK	1.0	tagquestion
+sbs_besideme	ddawndew	POST	pym7ogx-gsle		2011-09-07	EXCLAMMARK	1.0	tagexclamation
+sbs_besideme	ddawndew	POST	pym7ogx-gsle		2011-09-07	SMILEMARK	2.0	흐흐 tagsmile
+sbs_besideme	justji	POST	pym7rd9-y852v		2011-09-07	SMILEMARK	1.0	tagsmile
+sbs_besideme	justji	POST	pym7rd9-y852v		2011-09-07	POSITIVE	1.0	좋아하다
+sbs_besideme	justji	POST	pym7rd9-y852v		2011-09-07	SADNESS	1.0	슬프다
+sbs_besideme	cateru	POST	pym7txw-13ej		2011-09-09	PRESENT	1.0	지금
+sbs_besideme	cateru	POST	pym7txw-13ej		2011-09-09	QUANTIFIER	1.0	아주
+sbs_besideme	cateru	POST	pym7txw-13ej		2011-09-09	POSITIVE	1.0	기쁘다
+sbs_besideme	01023252252	POST	pyml7rw-59_jd		2011-09-07	QUESTIONMARK	1.0	tagquestion
+sbs_besideme	01023252252	POST	pyml7rw-59_jd		2011-09-07	SMILEMARK	1.0	tagsmile
+sbs_besideme	01023252252	POST	pyml7rw-59_jd		2011-09-07	POSITIVE	2.0	좋다 행복
+sbs_besideme	01023252252	POST	pyml7rw-59_jd		2011-09-07	SADNESS	1.0	아프
+sbs_besideme	ww00w00ww	POST	pymld0o-_i4ey		2011-09-05	PRESENT	1.0	이제
+sbs_besideme	d-o-h-c	POST	pymldpj-5ugij		2011-09-05	SMILEMARK	1.0	흐
+sbs_besideme	jjas1726	POST	pymlwth-_c5ph		2011-09-05	QUANTIFIER	1.0	너무
+sbs_besideme	jjas1726	POST	pymlwth-_c5ph		2011-09-05	LOVEMARK	1.0	taglove
+sbs_besideme	svgd0421	POST	pymx6z_-yyiu7		2011-09-08	EXCLAMMARK	1.0	tagexclamation
+sbs_besideme	svgd0421	POST	pymx6z_-yyiu7		2011-09-08	SMILEMARK	1.0	tagsmile
+sbs_besideme	svgd0421	POST	pymx6z_-yyiu7		2011-09-08	ANXIETY	1.0	불안
+sbs_besideme	engyounglove	POST	pymxfmm-_a29a		2011-09-06	PRESENT	1.0	지금
+sbs_besideme	engyounglove	POST	pymxfmm-_a29a		2011-09-06	EXCLAMMARK	1.0	tagexclamation
+sbs_besideme	leejh1996	POST	pymxike-yr65p		2011-09-06	PRESENT	1.0	지금
+sbs_besideme	leejh1996	POST	pymxike-yr65p		2011-09-06	POSITIVE	2.0	기쁘다 행복
+sbs_besideme	eruruu_l0ve	POST	pymxo5_-56au1		2011-09-08	POSITIVE	2.0	웃음 웃다
+sbs_besideme	madspace	POST	pymxv32-t13i		2011-09-08	EXCLAMMARK	1.0	tagexclamation
+sbs_besideme	madspace	POST	pymxv32-t13i		2011-09-08	LOVEMARK	1.0	taglove
+sbs_besideme	madspace	POST	pymxv32-t13i		2011-09-08	SADNESS	1.0	아프
+sbs_besideme	koxd3434	POST	pymxxog-ya86u		2011-09-06	FUTURE	1.0	미래
+sbs_besideme	koxd3434	POST	pymxxog-ya86u		2011-09-06	POSITIVE	1.0	행복

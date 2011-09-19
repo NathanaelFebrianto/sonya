@@ -125,10 +125,10 @@ public class TermAnalysisResultLoader {
 		TermAnalysisResultLoader loader = new TermAnalysisResultLoader(dataDir);
 		
 		try {
-			String[] date1 = { "20110815", "20110821" };
+			String[] date1 = { "20110905", "20110911" };
 			String[] date2 = { "20110822", "20110828" };
 						
-//			loader.execute(date1[0], date1[1]);
+			loader.execute(date1[0], date1[1]);
 //			loader.execute(date2[0], date2[1]);		
 			
 		} catch (Exception e) {

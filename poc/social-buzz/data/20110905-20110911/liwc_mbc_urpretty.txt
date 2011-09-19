@@ -1,0 +1,13 @@
+program_id	author_id	type	post_id	comment_id	publish_date	feature	count	word
+mbc_urpretty	junes26	POST	pyc60bz-yxvov		2011-09-10	SEE	1.0	보다
+mbc_urpretty	junes26	POST	pyc60cu-yxvov		2011-09-10	SEE	1.0	보다
+mbc_urpretty	junes26	POST	pycd2mj-yxvov		2011-09-08	SEE	1.0	보다
+mbc_urpretty	junes26	POST	pycd2oq-yxvov		2011-09-08	SEE	1.0	보다
+mbc_urpretty	chahj413	POST	pyce_vw-yn_go		2011-09-08	EXCLAMMARK	1.0	tagexclamation
+mbc_urpretty	chahj413	POST	pyce_vw-yn_go		2011-09-08	CRYMARK	1.0	tagcry
+mbc_urpretty	chahj413	POST	pyce_vw-yn_go		2011-09-08	SADNESS	1.0	슬프
+mbc_urpretty	bonggui8502	POST	pyckmgd-_pwar		2011-09-08	PRESENT	1.0	지금
+mbc_urpretty	bonggui8502	POST	pyckmgd-_pwar		2011-09-08	SMILEMARK	1.0	tagsmile
+mbc_urpretty	m_rach	POST	pyck_xq-_tq5v		2011-09-08	QUESTIONMARK	1.0	tagquestion
+mbc_urpretty	m_rach	POST	pyck_xq-_tq5v		2011-09-08	SMILEMARK	1.0	tagsmile
+mbc_urpretty	junes26	POST	pymxy7a-yxvov		2011-09-06	SEE	1.0	보다

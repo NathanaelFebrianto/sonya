@@ -1,0 +1,32 @@
+program_id	author_id	type	post_id	comment_id	publish_date	terms
+mbc_gyebaek	cwkms1144	POST	pyc0988-y4sh8		2011-09-09	계백장군 이서진 선배님 선배님이 팀복 팀복을 마련 tagexclamation 맛나다 맛 떡도준비 tagexclamation 계백팀복
+mbc_gyebaek	spastar7	POST	pyc3y3z-5x8tg		2011-09-07	계백 조재현 계백 조재현 한지우 한지우와 결혼성사
+mbc_gyebaek	spastar7	POST	pyc3yia-5x8tg		2011-09-07	계백 이서진 계백 이서진 오연수대신 활 맞다 tagexclamation
+mbc_gyebaek	jisiklog	POST	pyc55at-_rcxy		2011-09-05	월화에하는드라마 계백주인공이진태현씨아닌가 tagquestion 그리고베라왕은무슨디자이너에 tagquestion 계백
+mbc_gyebaek	ezimartbiz	POST	pyc5dmf-sdu5		2011-09-05	계백역 이서진 의자왕역 조재현 사택비역 오연수 은고역 송지효 무진역 차인표 교기역 진태현
+mbc_gyebaek	gkgus450	POST	pyc657x-5s59r		2011-09-05	팬여러분 tagexclamation 안녕 tagsmile 인사늦게드려서죄송 tagexclamation mbc계백 드라마 많이시청해주세 taglove
+mbc_gyebaek	stylisthanul	POST	pyc6c6i-_w5s7		2011-09-06	계백 송지효 인질 잡히다 조재현 구하다 적군 투입
+mbc_gyebaek	spastar7	POST	pyc6m0e-5x8tg		2011-09-06	계백 송지효 계빽 송지효 연 등 이용 언론플레이 tagquestion
+mbc_gyebaek	spastar7	POST	pyc6m6m-5x8tg		2011-09-06	계백 송지효 이서진 계백 송지효 이서진 본격 로맨스 결성 tagquestion tagexclamation
+mbc_gyebaek	an72536	POST	pycbu8b-5ym0s		2011-09-09	2011년 드라마ost 모음 모으다 보스를지켜 지고는못살 공주의남자 무사백동수 스파이명월 계백 듣기 듣다
+mbc_gyebaek	tg_226	POST	pycd9kd-5h72w		2011-09-09	오늘 백동수 1편 정주행 정주행하는데 계백 계백보 훨 나은거 같다 계백 계백의 허접 연출 생각 사극 mbc라는건 정말 옛말 계백 계백은 연기자빨
+mbc_gyebaek	vy0203	POST	pycylqr-_rein		2011-09-05	아 계백 계백같 계백같은 머리쓰 머리쓰는 드라마 어렵다
+mbc_gyebaek	8589lkh	POST	pyc_cjv-yk1_r		2011-09-06	계백 계백보 우오오 tagexclamation 아 tagexclamation 고구려 tagexclamation 이태곤 이태곤의 연기 보다 보 광개토대왕 재밌네 재밌네요 tagsmile 아 진짜 mbc mbc여 전쟁관련 사극 드라마 찍다 말다
+mbc_gyebaek	my_andlove	POST	pym4pru-_sjgb		2011-09-06	계백 계백은 참 차다 이상 드라마 연출 연기자 어쩜 하나 저렇다 죄다 죄 어색헐까 진짜 볼게 틀어 틀어는 논다 아빨리 내일 오다 승유님 승유님을 만나뵙고파
+mbc_gyebaek	dudbqls94	POST	pym4thc-_9vm0		2011-09-07	드디어 스파이 명월 명월이 끝나다 에릭때문 에릭때문에 재미 드라마 끝 본 보다 나 토닥토닥 이젠 계백 봐야짓 taglove 스명 막장 계백 포세이돈시청금지
+mbc_gyebaek	sbgon	POST	pym4ur_-bdkc		2011-09-05	여의도mbc 발도장 tagexclamation 매주 빼놓치않고 보다 보 계백이떠억 계백이떠억하 계백이떠억하니 tagsmile via 아임in
+mbc_gyebaek	akaak7190	POST	pym4zvz-5dnn2		2011-09-05	계백 송지효 이서진 삐뚤어지다 복수심 그렇다 몰다 tagquestion tagquestion 버럭 tagexclamation
+mbc_gyebaek	rosa6673	POST	pym759m-568n6		2011-09-06	계백보는중 taglove taglove tagsmile 계백멋 계백멋있다 tagexclamation tagsmile tagsmile 이서진 tagsmile
+mbc_gyebaek	spring324	POST	pym76ce-fyv3		2011-09-06	드라마 계백 나다 나 계백 계백을 보다 보 것 tagquestion 선덕여왕 보다 보 것 tagquestion
+mbc_gyebaek	bigstaraaaa	POST	pymlk45-_0j6l		2011-09-07	계백 의 은고 백제 백제의 강하다 여인 여 송지효 의 자연눈썹 tagexclamation
+mbc_gyebaek	tlsdud96	POST	pymlsyw-ydvwy		2011-09-05	사랑해요이서진 taglove 멋있어요이서진 taglove 백제의영원한장군님계백 taglove
+mbc_gyebaek	rui126	POST	pymlxa5-ymp6k		2011-09-06	드라마 계백 보는분 미투 참고 전안봐 전안봐요 tagsmile
+mbc_gyebaek	bbunim0517	POST	pymn3ky-_kkz9		2011-09-05	보다 드라마 계백 에서 계백 계백이 노예 나오다 tagquestion 말도안 말도안되 말도안되는 이래서 내 사극 안보게 되는거 되는거야 도대체 역사 이렇게 바꾸다 이르다 모 사람 오해 하다 되다 어떻다 하다 할 아무리 드라마 설정 해도 하다 해 이건 좀아닌듯
+mbc_gyebaek	shkang8946	POST	pymv_oo-4rhu		2011-09-05	쇠사슬 찬 차다 노예 계백 이건 아니잖 아니잖아 사극 역사읽기 mbc 드라마 번째 이야기
+mbc_gyebaek	jth7476	COMMENT	pyc_cjv-yk1_r	c_lg8om-yc_cjv-yk1_r	2011-09-07	참고 전 절다 민족주의자 tagsmile 아닙니당
+mbc_gyebaek	jth7476	COMMENT	pyc_cjv-yk1_r	c_lgfho-yc_cjv-yk1_r	2011-09-07	어 tagquestion 환단고기 알다 모르다 사람 많은데 많은데요 저 작년 우연 알다 뭐 남아 자료 많다 없다 규헌사화 tagquestion 암튼 조금 있긴하대 이병도 이병도의 제자 위서라고 위서라고하 위서라고하니
+mbc_gyebaek	jth7476	COMMENT	pyc_cjv-yk1_r	c_lgjh2-yc_cjv-yk1_r	2011-09-07	전 절다 사극 보다 생각 해보다 고구려 백제 삼국시대 이전 단군조선 전 나라 존재 울 울다 역사가 역사 오천년 오천년이 훨 넘다 중국 거짓 동북공정 우리 이런거좀 알다 신선 충격 주다 주 좀 조다 기다
+mbc_gyebaek	8589lkh	COMMENT	pyc_cjv-yk1_r	c_lgpb9-yc_cjv-yk1_r	2011-09-07	아 환단고기때 tagquestion 그런데 그때 자료 충분 있다 정말 중요 한데 전 절다 참 차다 진짜 이번 고구려 고다 광개토대왕 드라마 잘 자다 한것 같다 물론 앞 고구려 고다 정예 개마무사 어떻다 표현 궁금하지만 그리다 개인적
+mbc_gyebaek	8589lkh	COMMENT	pyc_cjv-yk1_r	c_lgpid-yc_cjv-yk1_r	2011-09-07	바램 바램이라면 kbs 3대영웅 1탄 근초고왕 2탄 광개토대왕 이어 3탄 발 해동성국 불리다 발 선왕관련 하다 하다
+mbc_gyebaek	8589lkh	COMMENT	pyc_cjv-yk1_r	c_lgvbd-yc_cjv-yk1_r	2011-09-07	환단고기 참 차다 어려운점 당시 시대 문화적 부분 어렵다 점등 많다 있다 tagcry tagcry 물론 고조선때 마찬가지 하다 하지 나중 환단고기 관련 드라마 나오다 좋다 tagcry tagcry
+mbc_gyebaek	jth7476	COMMENT	pyc_cjv-yk1_r	c_lgwex-yc_cjv-yk1_r	2011-09-07	아직 개념 역사학자 몇년전 조사 연구 학술회도해서 학술회도 좀 조다 알려졌긴하죠 하다 하지 짐 지다 울 역사쪽에 역학자 기득권층 거의 거 이병도 이병도의 제자들이라는거

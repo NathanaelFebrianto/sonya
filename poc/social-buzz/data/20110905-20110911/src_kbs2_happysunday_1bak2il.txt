@@ -1,0 +1,91 @@
+program_id	author_id	type	post_id	comment_id	publish_date	terms
+kbs2_happysunday_1bak2il	naver_news	POST	pyc0835-bj_k		2011-09-09	연예 1박2 일 멤버 강호동 은퇴 소식 패닉 네이버 뉴스 이데일리 강호동 잠정 은퇴 선언 동료 반응
+kbs2_happysunday_1bak2il	tbn2813	POST	pyc083l-5m8i5		2011-09-09	tagsmile 강호동 은퇴 tagsmile 강호동 강호동이 빠지다 1박2 일 mc mc는 누 누가 tagquestion 신입 mc 멤버 오다 오 tagquestion 잠정은퇴 하다 은퇴 은퇴하 tagquestion 점점 궁금 강호동 때문 때문에 제 3회 시청자 투어 투어도 강호동 탈소 탈소로 인해 취소 되다 1박2 일 이 괜찮다 tagquestion
+kbs2_happysunday_1bak2il	frj11	POST	pyc0a4s-zh7_		2011-09-08	강호동 강호동이 1박2 일 하차 기정사실화 하자 하다 그걸 그걸로 밥벌어먹던 kbs측 크다 한방 터트리다 하차설 안 강호동 탈세사건 절 절대 안 지금 예능 큰돈버 큰돈버는 예능 털다 안 사람 있다 정치적인쇼 참 차다 웃기다 천하 강호동 강호동도 방송사에겐 넘어지다 넘어지는구 따다 mc mc들이 이사건 이사건을 계기 더욱 방송사 충성 맹세
+kbs2_happysunday_1bak2il	dudeh112	POST	pyc0asc-tkfg		2011-09-09	1박2 일 나영석pd 강호동 은퇴 영구결번 충원 강호동 강호동이 불쌍 이데일리
+kbs2_happysunday_1bak2il	sms061160	POST	pyc0m90-y0jp6		2011-09-09	강호동 은퇴 tagcry 망 tagcry 그럼 엠시게 엠시게는 엠씨유꺼네 tagquestion tagcry 1박2 일 tagcry 스타킹 tagcry
+kbs2_happysunday_1bak2il	emy1102	POST	pyc0pyg-y72j2		2011-09-09	아 어떻 어떻해 강호동 연예계 은퇴 tagquestion 아 해피선데 해피선데이 일박이 일박이일 많다 봤었는데 tagcry 왜그랬어요 국민 전세계 국민분 어떻다 해라구 tagcry 1박2 일 보다 못 보잖아 보잖아요 tagcry 이건 mc유 mc유도 못한다구 tagcry 오직mc 강 할 하다 있다 프로라구 tagexclamation 왼손잡이 아니다 tagcry
+kbs2_happysunday_1bak2il	kudolove	POST	pyc0wnf-5ynbl		2011-09-09	원문 1박 2 2일 나pd 의 입장표명 강호동 빠지다 후 새 새다 멤버 충원 없다 나영석 kbs 2tv 해피선데 웹
+kbs2_happysunday_1bak2il	bntnews	POST	pyc12ap-5rtw7		2011-09-10	bnt 뉴스 강호동 은퇴선언 강심장 무릎팍도사 스타킹 1박2 일 날벼락 연예 어제 기자회견 한 하다 강호동 잠정은퇴 하다 하 하루 지나다 네티즌 사이 계속 다양 반응 보 보이 있다 당분 예능 그르다 볼 보다 없다 아쉽다 하다 tagcry
+kbs2_happysunday_1bak2il	spastar7	POST	pyc1n2e-5x8tg		2011-09-10	강호동 은퇴 강호동 은퇴 충격 tagexclamation 1박2 일 멤버 연락 끊다
+kbs2_happysunday_1bak2il	bondbee97	POST	pyc1ymo-yt2tr		2011-09-09	안되다 강호동아저씨 한번 생각 tagcry tagcry 1박2 일 황금어장 강심장 스타킹 무슨 재미 보냐구 보냐구요 tagcry ㅅ tagcry 한번 제 제대 시간 걸리다 다시한번 생각 해보다 tagcry
+kbs2_happysunday_1bak2il	lovenasri	POST	pyc1_3d-5kw5r		2011-09-09	강호동 강호동이 은퇴 결국 하고말았다 기사 기다 보다 살다 살 떨리다 얼마전까지 최고 mc mc라 칭송받고있었는데 한번 무너지다 얼마 무섭다 세상 아쉬워하는건 엄마아빠 1박2 일 애청자 누구보다더 충격받아버렸다 그대부분 중노년층 재석님 우리 살자구 살자구요 tagexclamation
+kbs2_happysunday_1bak2il	hantoki	POST	pyc37nm-f552		2011-09-09	1박2 일 강호동 퇴출 운동 벌어지다 있다 tagsmile 말그 말그대 앞글자 앞글자만 따오다 강퇴군 강퇴군요 tagsmile
+kbs2_happysunday_1bak2il	9898yoon	POST	pyc5cq9-s_d9		2011-09-10	강호동 아찌 은퇴 마 씨바 tagsmile 1박2 일 진행 무릎팍 무릎팍은 어쩌구 tagexclamation 강심장 강심장은 tagexclamation 내 무릎팍 얼마 좋아하다 아러 아러요 tagquestion tagcry 라디오스타 같다 폐지되는거 아냐 tagquestion 솔까 라디오스타 잼씀 tagsmile 무릎팍 무릎팍은 게스트 게스트에 따다 따르다 tagsmile 입담 좋아야지
+kbs2_happysunday_1bak2il	beauty7290	POST	pyc5rbl-5eca4		2011-09-09	1박2 일 이승기 세대 초월 시대 진정 황제
+kbs2_happysunday_1bak2il	rkdus9723	POST	pyc6f8r-y8klk		2011-09-10	강호동 잠정 은퇴라 은퇴라니 나도욕은 조금 아쉽다 1박2 일보면서 되다 많다 웃다 tagsmile 그리다 알고보니까 법적으로따지면 강호동 강호동은 무죄고 무죄 안낸돈만 안낸돈만내면 된다던데 그리다 강호동 강호동말고 따르다 옌예 탈세한사람많을텐데 김아중 김아중도 6억 6억이 탈세
+kbs2_happysunday_1bak2il	he_7	POST	pyc6i3b-ltcg		2011-09-06	1박2 일 이승기 딸바보
+kbs2_happysunday_1bak2il	milleannis	POST	pyc6mxl-_wu_7		2011-09-06	이승기 딸바보 사진 화제네 화제네요 아직 결혼전 벌쓰다 딸바보라 딸바보라니 tagsmile 1박2 일 시청자투어 촬영중 출연자 심의진 양 알다 환하다 미소 짓다 있다 이승기 나중 결혼 정말 딸바보 딸바보가 될것 같다 이승기 딸바보
+kbs2_happysunday_1bak2il	rla1015dms	POST	pyc6p5p-502qo		2011-09-10	강호동 은퇴 쪼다 씁쓸 .1박2 일 강심장 빅뱅나올때 보다 좋았능데 tagcry tagcry 국회의원 세금안내는사람많다는데 tagcry
+kbs2_happysunday_1bak2il	suzy9911	POST	pyc6q46-y3o7w		2011-09-07	이승기 9월9 일 1박2 일 녹화 tagsmile
+kbs2_happysunday_1bak2il	search_now	POST	pycba4g-5y0f5		2011-09-09	잠정 new 강호동 은퇴 new 이하늬 141 정태호 615 유재석 69 나인뮤지스 144 고속도로교통상황 177 1박2 일 45 유키스 84 추석문자 294 네이버 실시 급상승 검색어
+kbs2_happysunday_1bak2il	changem9	POST	pycbaj3-rfel		2011-09-09	강호동잠정은퇴 1박2 일 강호동 하차설 눈물 비치 비치며 사랑 실망 라는데
+kbs2_happysunday_1bak2il	uni0n22	POST	pycbejc-5dcja		2011-09-10	1박2 일 강호동 강호동이 요즘 트렌드인가본데 생판 관련 없다 사람거들먹거리면서 동시 다발 저런 저런짓 저런짓을 하다 하 이유 모르다 저건 도대체 무슨심보인걸까 그리다 저사람 저사람은 도대체 어떻다 생겨먹 생겨먹은 사람인걸까 참 차다 궁금
+kbs2_happysunday_1bak2il	hyunchul8895	POST	pycbqxg-a6jh		2011-09-09	사진 사다 은퇴선언 강호동 눈물 앞 가다 가리다 제일 제 현명 선택 하다 사실 저정 저정도 수익 얻다 사람 세금 대하다 본인 직접 관여 않다 세무사 책 책임 떠넘기다 수도 수 있었을텐데 1박 2일 2일이 무릎팍 도사 굉장 아깝다 프로그램 어떻다 되다 되려 tagquestion 머니투데 머니투데이
+kbs2_happysunday_1bak2il	pdu028110	POST	pycbtsj-y3yih		2011-09-10	강호동 없다 1박2 일 무슨 재미
+kbs2_happysunday_1bak2il	cho208610	POST	pycbu8h-_gdhg		2011-09-09	ㅁㅊ 뭐 tagquestion 강호동 은퇴 어쩌겠다능 tagquestion 휴 그럼 우리 이제 1박2 일 스타킹 무릎팍도사 강심장 어트케 봄 보다 tagquestion 돌아온 돌아온나 tagexclamation 아니 아 세금 안넷으면 내면 내다 되다 강호동씨 빨랑 돌아오세욤 tagexclamation 강호동 tagexclamation 강호동 tagexclamation 1인자 tagexclamation 강라 강라인 tagexclamation
+kbs2_happysunday_1bak2il	5861712	POST	pycbute-w3z8		2011-09-09	헐 tagcry tagcry 강호동 탈세 은퇴 하다 tagquestion 1박2 일어떻 일어떻하노 tagcry
+kbs2_happysunday_1bak2il	pyjphm	POST	pycd6l4-yehmh		2011-09-09	강호동 quot 1박2 일quot 녹화 접다 긴급 기자회견 열다 헉 강호동 강호동이 그럴줄 그럴줄이 세금 안내면 클 클나는군
+kbs2_happysunday_1bak2il	rococo2015	POST	pycd9bi-5z5w6		2011-09-09	강호동 은퇴 강호동 잠정 은퇴 강호동 은퇴 당황 kbs 예능국 정황 확인 확 후 1박2 일 귀추 밝히다
+kbs2_happysunday_1bak2il	slambunk10	POST	pycda1p-5gpp7		2011-09-08	내 내다 전 절다 재산 300만원내 되다 되 싶다 사람 사다 시크릿 가든 가든의 현빈 수호천사 김민종 무한도전 유재석 1박2 일 이수근 차태현 이성진
+kbs2_happysunday_1bak2il	pink-days	POST	pycdi2n-__51g		2011-09-09	강호동 연예계 나가다 tagcry 1박2 일 어떡할려
+kbs2_happysunday_1bak2il	skgml1561	POST	pycdpjs-youwd		2011-09-09	강호동 은퇴 tagcry 않다 tagexclamation 1박 2일 2일은 어쩌다 tagexclamation 강심장 강심장은 어쩌다 tagexclamation 스타킹 어쩌다 tagexclamation 등등 tagcry 은퇴 싫다 싫어 난 나다 날다 강호동 좋다 흑흑 않다 tagexclamation
+kbs2_happysunday_1bak2il	gksaor1234	POST	pycdr4d-5jezo		2011-09-09	강호동씨 완전 충격이닼 어떻다 연애계 은퇴 실망이얌 tagcry 아 예능같은거 계속 계속 안되다 안되 tagcry 멀다 많다 아쉽다 그럼 스타킹 1박2 일 등등 프로그램 다 없어지다 거 tagquestion 강호동 아니다 소화 못 할듯
+kbs2_happysunday_1bak2il	ohga0429	POST	pycdwnb-_sulj		2011-09-09	강호동 은 퇴 강호동씨 잠정 은퇴 1박2 일도 일 녹화취소 한다던데
+kbs2_happysunday_1bak2il	gho6077	POST	pyce27q-yuo64		2011-09-10	1박2 일 강호동 은퇴 무한도전 유재석 런닝맨 송지효 뭐
+kbs2_happysunday_1bak2il	1210syh	POST	pyceexa-_fkax		2011-09-10	1박2 일 강호동 종편 채널 jtbc jtbc로 옮다 옮기다 이유
+kbs2_happysunday_1bak2il	monster7	POST	pycektw-y6bb2		2011-09-10	헐 강호동진짜은퇴 tagquestion 대박 tagexclamation 그러면이제 1박2 일 무르팍도사 강심장 스타킹 너무심한거아닌가 세금때매그러는건
+kbs2_happysunday_1bak2il	qhgpadl	POST	pyckka3-yijzv		2011-09-10	솔찍 솔찍히 강호동 1박2 일 하차설 돌고 거의 거 바 탈세혐의 들어 들어난 건 거다 걸다 머득짢다
+kbs2_happysunday_1bak2il	jisiklog	POST	pyck_lr-_rcxy		2011-09-08	이승기 1박2 일 나영석pd 릉 흉내 내다 날짜 이승기
+kbs2_happysunday_1bak2il	bumgu79	POST	pycy60g-_mcqn		2011-09-08	1박2 일 나오다 이승기 하룻밤 묵었던 소이작 소이작도 다녀오다
+kbs2_happysunday_1bak2il	buks2	POST	pycy6q2-_3cex		2011-09-10	강호동 1박2 일 하차이유 강호동 1박2 일 하차이유
+kbs2_happysunday_1bak2il	kimyeonk-1	POST	pycyk7_-_s12m		2011-09-10	어떻다 이런일 tagquestion 강호동씨 연예계 잠정 은퇴한데 tagexclamation 어떻게 어떻게해 어떻게해요 tagquestion 1박2 일 강심장 강심장은 tagquestion 강호동씨 탈세 많다 하다 모르다 은퇴 심한거 아니다 tagquestion 저 그렇다 생각하는걸까 tagquestion 은퇴 하다 깊다 반성 있다 이제 조금 용서하는게 어떨까 어떨까요 tagquestion taglove 강호동씨 힘들다 파이팅하시고 파이팅하시 일어서다 좋다 시베리안 야생수컷호랑이 표호 표호를 듣다 싶다 싶어 강호동씨 tagexclamation tagexclamation
+kbs2_happysunday_1bak2il	p980303	POST	pycylkg-jyj_		2011-09-10	강호동 가지다 1박 2일 2일은 어떡 tagcry tagcry
+kbs2_happysunday_1bak2il	haru9478	POST	pyc_2dx-_a265		2011-09-10	강호동 힘들다 은지원은알텐데 연예계를은퇴하는심정 잠정은퇴니까 돌아오리라믿어봄세 1박 2 2일
+kbs2_happysunday_1bak2il	starmotion	POST	pyc_3xp-_1uj8		2011-09-05	1박2 일 전 절다 쇼트트랙 국가대표 변천사 이승기와포옹
+kbs2_happysunday_1bak2il	cjddkwl12	POST	pyc_5a7-5gmo1		2011-09-05	안녕 1박2 일 이승기 1박2 일 보시 tagquestion
+kbs2_happysunday_1bak2il	72vusen	POST	pyc_byz-5oa3o		2011-09-05	1박2 일 이승기 딸바보 인증이승기 심의진양 딸바보 인증샷 tagexclamation 1박2 일 시청자투어 심의진양 딸바보인증 tagexclamation 성시경 이승기질투 왕자 옷 저렇다 입고 입다 성시경 이승기 질투 폭발 tagquestion tagexclamation
+kbs2_happysunday_1bak2il	lemonism	POST	pyc_edx-z4wi		2011-09-09	강호동 결국 은퇴 1박2 일도 일 조기폐지 될수 있다 나름 나르다 무한도전 장수 하다 알다 뭔가 짠하다 하다 세계적 1박2 일 같다 예능 흔한게 아니다
+kbs2_happysunday_1bak2il	free0880	POST	pyc_m8t-2tnr		2011-09-09	부산 도착후 집근처 돼지국밥집 들리다 집다 집 다음주 1박2 일 이승기 먹는 장면 방영 예정 지난주 촬영 이승기도 이승기 돼지국밥 맛 반
+kbs2_happysunday_1bak2il	free0880	POST	pyc_m_6-2tnr		2011-09-09	부산 도착후 집근처 돼지국밥집 들리다 집다 집 다음주 1박2 일 이승기 먹는 장면 방영 예정 지난주 촬영 이승기도 이승기 돼지국밥 맛 반
+kbs2_happysunday_1bak2il	dbzldkgus	POST	pyc_orv-yw7lf		2011-09-09	강호동이러디망 유재석은혼자 1박2 일좀해죠 잘안보지 그래도너없으면kbs 는망 는망해 허세좀떨라굿 tagsmile
+kbs2_happysunday_1bak2il	sju06065	POST	pyc_phy-yp66c		2011-09-09	오늘 강호동 실망 한 연예계 은퇴 1박2 일녹화 취소 tagcry 그게 뭐 tagcry 거짓말 믿다 싶다 심정 tagcry
+kbs2_happysunday_1bak2il	30park_01	POST	pyc__k0-_flle		2011-09-09	강호동의 은퇴 무한도전 전 전라 vs 1박2 일 경상 간 힘겨루다 힘겨루기 결과 결 tagquestion
+kbs2_happysunday_1bak2il	ihiba	POST	pym4u7v-_84li		2011-09-07	주왕산맛집 kbs 1박2 일 폭포특집 촬영장소 경북최고 명산 청송 주왕산
+kbs2_happysunday_1bak2il	harry7846	POST	pym72bi-_j8jz		2011-09-09	강호동퇴출이지금실시간검색어1 위네 진짜 퇴출 tagquestion 그럼 1박2 일 끝나는거아냐 tagquestion 솔직 강호동 강호동이 좀 조다 불쌍 완전 네티즌 네티즌들과 여론 마녀사냥
+kbs2_happysunday_1bak2il	leemyuee	POST	pym72hz-yyz5h		2011-09-09	여러분 tagexclamation 강호동 왜 외다 퇴출 시키다 하다 하 하나 tagexclamation 여러분 자칭 국민 mc 가 가다 망 원하다 원하 tagquestion 1박 2 2일 망 것 욕먹다 요번 탈세비난 탈세비 운동 뭔가 뭔가요 tagquestion 정말 못됬네 못됬네요 tagexclamation 운동 운동이 하시 분들 분들은 tagexclamation
+kbs2_happysunday_1bak2il	cj_tving	POST	pym72qc-_fpc0		2011-09-07	kbs joy 1박 2 2일 1박 2일 2일은 볼 보다 때 재미 자꾸 저의 저 여행 떠나다 싶다 마음 싱숭생숭 하다 만드네 만드네요 kbs,1박2 일 일박이 일박이일 여행 국내여행 티빙 티비 실시 실시간티비
+kbs2_happysunday_1bak2il	beauty7290	POST	pym783t-5eca4		2011-09-07	1박2 일 이승기 세대 넘나들다 사랑 국민 예능인 예능
+kbs2_happysunday_1bak2il	beauty7290	POST	pym78ja-5eca4		2011-09-07	1박2 일 이승기 세대 넘나들다 사랑 국민 예능인 예능 올 오다 추석 사윗감 희망배우 압도적 1위 1위를 차지 이승기 10대 100세 이상 사랑 국민 예능인 어제 강심장 이승기 모습 사랑 모습
+kbs2_happysunday_1bak2il	jhnjohj012	POST	pym7rbp-_6eur		2011-09-07	1박2 일에이수근님을젤루조아 시청자투어못해무지아쉽네 tagsmile 이수근님은꼭한번만나저희오빠랑같이술한잔하고싶어 이수근님은꼭한번만나저희오빠랑같이술한잔하고싶어요 tagsmile 생뚱맞지만오빠가이수근을닮았단소리도 이수근키작아서글치못생긴거아닌듯 tagsmile 미투도하면좋겠는데 무튼1 박2 일초고 일초고야 taglove taglove
+kbs2_happysunday_1bak2il	nunurigo121	POST	pyml25z-_9tci		2011-09-06	1박2 일 해피선데 해피선데이 여행 간곳 간곳을 정부 알리다 bkmwj
+kbs2_happysunday_1bak2il	archiyook	POST	pymlos9-_hx21		2011-09-05	1박2 일의특집중 은지원 은지원이 방문 철원 직탕폭포
+kbs2_happysunday_1bak2il	dltmfql9021	POST	pymxrdn-ykgmt		2011-09-06	원문 1박2 일 이승기 세대 넘나들다 사랑 국민 예능인 예능 웹
+kbs2_happysunday_1bak2il	cj_tving	POST	pymxryf-_fpc0		2011-09-06	kbs joy 1박 2 2일 스페셜 에디션 에디션이 시작 하다 1박 2일 2일은 볼 보다 때 재미 자꾸 저의 저 여행 떠나다 싶다 마음 싱숭생숭 하다 만드네 만드네요 kbs kbsjoy,1박2 일 에디션 여행 우리나라여행 국내여행 티빙 티비 실시 재방송 재방 다시보기 1박다시보기
+kbs2_happysunday_1bak2il	leeharim1	COMMENT	pyc0a4s-zh7_	c_xf4m7-yc0a4s-zh7_	2011-09-08	아
+kbs2_happysunday_1bak2il	lovenasri	COMMENT	pyc1_3d-5kw5r	c_xg2ke-yc1_3d-5kw5r	2011-09-09	ㅇㅇ 탈세 욕 넘많 넘많이 먹었드라 이미지엄청망가져서 아마그런듯 연예인 인기 먹고사 먹고사는 직업
+kbs2_happysunday_1bak2il	hwanga4274	COMMENT	pyc1_3d-5kw5r	c_xgu3x-yc1_3d-5kw5r	2011-09-09	왜 외다 tagquestion 세금횡령때문 tagquestion
+kbs2_happysunday_1bak2il	mhj3888	COMMENT	pyc1_3d-5kw5r	c_xgzmr-yc1_3d-5kw5r	2011-09-09	헐
+kbs2_happysunday_1bak2il	tlsqkd204	COMMENT	pyc1_3d-5kw5r	c_xt9w5-yc1_3d-5kw5r	2011-09-09	ㅇㅇ 진짜 충격 먹었다
+kbs2_happysunday_1bak2il	hwanga4274	COMMENT	pyc1_3d-5kw5r	c_xtdw0-yc1_3d-5kw5r	2011-09-09	사람 무섭다 근데 일박이일하차 발표 얼마되지도않은거 무슨 보복하는거 잘 스스로잘 몰랏을지 몰랏을지도 tagsmile 머 우리가말 f f자지 f자지만
+kbs2_happysunday_1bak2il	milleannis	COMMENT	pyc6mxl-_wu_7	c_x0r0t-yc6mxl-_wu_7	2011-09-06	다들 아가 좋아하다 그렇겠네용 tagsmile
+kbs2_happysunday_1bak2il	milleannis	COMMENT	pyc6mxl-_wu_7	c_x3ll6-yc6mxl-_wu_7	2011-09-06	tagsmile 승기군 승기군이 결혼 이쁘다 아내될분 부럽다 tagsmile tagsmile
+kbs2_happysunday_1bak2il	kayum	COMMENT	pyc6mxl-_wu_7	c_x3wdm-yc6mxl-_wu_7	2011-09-06	훈 딸바보 되다 멋지다 그전 승기군 애처가 되겠죠 tagexclamation 호호호
+kbs2_happysunday_1bak2il	angel23027	COMMENT	pyc6mxl-_wu_7	c_x3xtx-yc6mxl-_wu_7	2011-09-06	승기뿐아니라1 박2 일 출연 모든남자 딸바보 딸바보될 자질들은가지고있지않을까
+kbs2_happysunday_1bak2il	bo9238	COMMENT	pyc6mxl-_wu_7	c_xfcrv-yc6mxl-_wu_7	2011-09-08	tagsmile
+kbs2_happysunday_1bak2il	bej2121	COMMENT	pyc6mxl-_wu_7	c_xpspl-yc6mxl-_wu_7	2011-09-07	앗 tagexclamation 사진 보다 저 엄마미소 tagexclamation tagsmile 승기군 넘 괘안네그려 tagexclamation 사윗감 사윗감으 딱 일세 tagexclamation
+kbs2_happysunday_1bak2il	kelly9933	COMMENT	pycdi2n-__51g	c_4sz6o-ycdi2n-__51g	2011-09-09	그니깐 tagcry 1박2 일 완전 재밌었는뎅 잘 자다 안웃는 울 울다 오빠 웃었었는뎅 tagcry
+kbs2_happysunday_1bak2il	africaqueens	COMMENT	pycdi2n-__51g	c_4szp8-ycdi2n-__51g	2011-09-09	그러게 안됬음
+kbs2_happysunday_1bak2il	pink-days	COMMENT	pycdi2n-__51g	c_4zmal-ycdi2n-__51g	2011-09-10	저기 누구신가 tagquestion
+kbs2_happysunday_1bak2il	yeonjoo6	COMMENT	pycdpjs-youwd	c_444sc-ycdpjs-youwd	2011-09-11	나도 나다 나 강호동 좋은뎅 tagcry 세금 않 어쩌구 저쩌구 tagcry
+kbs2_happysunday_1bak2il	skgml1561	COMMENT	pycdpjs-youwd	c_l6la4-ycdpjs-youwd	2011-09-13	마자 tagcry
+kbs2_happysunday_1bak2il	sewon0803	COMMENT	pym72bi-_j8jz	c_4hl1d-ym72bi-_j8jz	2011-09-09	1박2 일 시즌 2 나올듯
+kbs2_happysunday_1bak2il	swpark1999	COMMENT	pym72bi-_j8jz	c_4hue8-ym72bi-_j8jz	2011-09-09	1박2 일2 탄나온다던데아닐수도
+kbs2_happysunday_1bak2il	sewon0803	COMMENT	pym72bi-_j8jz	c_4nib6-ym72bi-_j8jz	2011-09-10	그니깐
+kbs2_happysunday_1bak2il	fontelove77	COMMENT	pym72bi-_j8jz	c_4q1ht-ym72bi-_j8jz	2011-09-09	ㅇㅇ 동참
+kbs2_happysunday_1bak2il	aiaimiso12	COMMENT	pym72bi-_j8jz	c_4qs18-ym72bi-_j8jz	2011-09-09	1박2 일 강호동이잼있는데
+kbs2_happysunday_1bak2il	nancy828	COMMENT	pym72bi-_j8jz	c_lm9_o-ym72bi-_j8jz	2011-09-15	1박 2 2일 난 나다 날다 그시 그시간에 다른거 보다
+kbs2_happysunday_1bak2il	hojutoday	COMMENT	pym7rbp-_6eur	c_4mf3s-ym7rbp-_6eur	2011-09-07	tagsmile tagquestion 이수근 이수근을 닮다 tagquestion tagsmile
+kbs2_happysunday_1bak2il	jhnjohj012	COMMENT	pym7rbp-_6eur	c_4mxe6-ym7rbp-_6eur	2011-09-07	tagsmile 좀 조다 tagsmile 이미지는다른데 닮아서더정이가나봐 닮아서더정이가나봐요
+kbs2_happysunday_1bak2il	angel4006	COMMENT	pymlos9-_hx21	c_4pdav-ymlos9-_hx21	2011-09-05	와우 tagsmile 보기만해도시원 tagsmile
+kbs2_happysunday_1bak2il	archiyook	COMMENT	pymlos9-_hx21	c_4pylg-ymlos9-_hx21	2011-09-05	근데 이게 다
