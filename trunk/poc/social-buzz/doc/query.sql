@@ -13,6 +13,7 @@ WHERE publish_date >= '2011-08-15 00:00:00' AND publish_date <= '2011-08-21 23:5
 GROUP BY program_id
 
 
+/** tv_program_rank.csv 파일 생성 **/
 SELECT a.*
 	, a.positive_post_count/a.post_count AS positive_post_rate
 	, a.negative_post_count/a.post_count AS negative_post_rate
@@ -22,11 +23,13 @@ SELECT a.*
 	, a.negative_post_user_count/a.positive_post_user_count AS negative_positive_post_user_rate
 	, b.category, b.channel, b.air_cycle 
 FROM tv_program_rank a JOIN tv_program b ON a.program_id = b.program_id
+/*WHERE a.start_date = "20110905" AND a.end_date = "20110911" */
 
+/** tv_program_watch_rate.csv 파일 생성 **/
 SELECT a.*, b.category, b.channel, b.air_cycle 
 FROM tv_program_watch_rate a JOIN tv_program b ON a.program_id = b.program_id
 
-
+/** terms 추출 **/
 SELECT a.program_id, b.title, a.start_date, a.end_date, a.term, a.tf
 FROM term a JOIN tv_program b ON a.program_id = b.program_id
 WHERE TYPE = "TERM"

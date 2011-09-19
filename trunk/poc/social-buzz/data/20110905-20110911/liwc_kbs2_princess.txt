@@ -1,0 +1,97 @@
+program_id	author_id	type	post_id	comment_id	publish_date	feature	count	word
+kbs2_princess	mcw1113	POST	pyc1e9d-_w1f9		2011-09-09	EXCLAMMARK	1.0	tagexclamation
+kbs2_princess	lyw322	POST	pyc373h-5u8zk		2011-09-09	QUESTIONMARK	1.0	tagquestion
+kbs2_princess	lyw322	POST	pyc373h-5u8zk		2011-09-09	SMILEMARK	1.0	tagsmile
+kbs2_princess	lyw322	POST	pyc373h-5u8zk		2011-09-09	SEE	1.0	보다
+kbs2_princess	haeun528	POST	pyc3f39-779c		2011-09-07	PRESENT	1.0	오늘
+kbs2_princess	haeun528	POST	pyc3f39-779c		2011-09-07	QUESTIONMARK	1.0	tagquestion
+kbs2_princess	haeun528	POST	pyc3f39-779c		2011-09-07	EXCLAMMARK	1.0	tagexclamation
+kbs2_princess	haeun528	POST	pyc3f39-779c		2011-09-07	SMILEMARK	2.0	흐흐흐흐흐흐흐 흐흐흐흐
+kbs2_princess	haeun528	POST	pyc3f39-779c		2011-09-07	POSITIVE	1.0	좋아
+kbs2_princess	shjsl0110	POST	pyc5rbb-_hvq6		2011-09-10	QUESTIONMARK	1.0	tagquestion
+kbs2_princess	shjsl0110	POST	pyc5rbb-_hvq6		2011-09-10	POSITIVE	2.0	행복 즐겁다
+kbs2_princess	ljy9644	POST	pyc5uz7-msv4		2011-09-09	SMILEMARK	1.0	tagsmile
+kbs2_princess	mingi5029	POST	pyc908w-yljyx		2011-09-10	SMILEMARK	1.0	tagsmile
+kbs2_princess	mingi5029	POST	pyc908w-yljyx		2011-09-10	POSITIVE	1.0	좋다
+kbs2_princess	lilysim01	POST	pyc9143-vcyl		2011-09-10	PRESENT	1.0	지금
+kbs2_princess	lilysim01	POST	pyc9143-vcyl		2011-09-10	QUESTIONMARK	1.0	tagquestion
+kbs2_princess	search_now	POST	pyc93p8-5y0f5		2011-09-10	SMILEMARK	1.0	크
+kbs2_princess	heej037	POST	pyc98ar-_ub5c		2011-09-10	SMILEMARK	1.0	tagsmile
+kbs2_princess	heej037	POST	pyc98ar-_ub5c		2011-09-10	CRYMARK	1.0	tagcry
+kbs2_princess	soon5654	POST	pyc9qo0-5kawp		2011-09-10	SMILEMARK	1.0	tagsmile
+kbs2_princess	soon5654	POST	pyc9qo0-5kawp		2011-09-10	POSITIVE	2.0	즐겁다 행복
+kbs2_princess	hssh112	POST	pycb2if-y9g7i		2011-09-09	QUESTIONMARK	1.0	tagquestion
+kbs2_princess	hssh112	POST	pycb2if-y9g7i		2011-09-09	SEE	1.0	보다
+kbs2_princess	mcw1113	POST	pycbd0s-_w1f9		2011-09-09	POSITIVE	1.0	좋다
+kbs2_princess	love000728	POST	pycbirx-__444		2011-09-10	SMILEMARK	1.0	tagsmile
+kbs2_princess	love000728	POST	pycbirx-__444		2011-09-10	POSITIVE	1.0	좋아하다
+kbs2_princess	tndus12120	POST	pycbvlk-_rw8p		2011-09-09	PAST	1.0	어제
+kbs2_princess	tndus12120	POST	pycbvlk-_rw8p		2011-09-09	SMILEMARK	1.0	tagsmile
+kbs2_princess	tndus12120	POST	pycbvlk-_rw8p		2011-09-09	CRYMARK	1.0	tagcry
+kbs2_princess	tkxkd12120	POST	pycbyad-_hitj		2011-09-09	POSITIVE	1.0	좋다
+kbs2_princess	aimim	POST	pycd3ro-fq22		2011-09-09	SMILEMARK	1.0	tagsmile
+kbs2_princess	aimim	POST	pycd3ro-fq22		2011-09-09	HEAR	1.0	느끼다
+kbs2_princess	yulisa	POST	pycds1r-r4ad		2011-09-08	SEE	1.0	보다
+kbs2_princess	kimseohyun33	POST	pycduvw-50gvs		2011-09-05	QUANTIFIER	1.0	너무
+kbs2_princess	kimseohyun33	POST	pycduvw-50gvs		2011-09-05	CRYMARK	1.0	tagcry
+kbs2_princess	kimseohyun33	POST	pycduvw-50gvs		2011-09-05	POSITIVE	1.0	사랑하
+kbs2_princess	kimseohyun33	POST	pycduvw-50gvs		2011-09-05	SADNESS	2.0	슬프 슬프다
+kbs2_princess	hdkim0	POST	pyce1mx-gknn		2011-09-10	QUESTIONMARK	1.0	tagquestion
+kbs2_princess	hdkim0	POST	pyce1mx-gknn		2011-09-10	SEE	1.0	보다
+kbs2_princess	jinjoo1210	POST	pycea__-_zx5t		2011-09-08	PRESENT	2.0	이제 요즘
+kbs2_princess	jinjoo1210	POST	pycea__-_zx5t		2011-09-08	CONJUNCTION	1.0	그러나
+kbs2_princess	jinjoo1210	POST	pycea__-_zx5t		2011-09-08	SMILEMARK	1.0	tagsmile
+kbs2_princess	jinjoo1210	POST	pycea__-_zx5t		2011-09-08	CRYMARK	1.0	tagcry
+kbs2_princess	jinjoo1210	POST	pycea__-_zx5t		2011-09-08	LOVEMARK	1.0	taglove
+kbs2_princess	hahaha_89	POST	pycemm6-y0k2h		2011-09-08	SMILEMARK	1.0	tagsmile
+kbs2_princess	kururu1515	POST	pycenpd-5bl77		2011-09-10	SMILEMARK	1.0	tagsmile
+kbs2_princess	creamspoon	POST	pycexw5-004		2011-09-09	PRESENT	1.0	요즘
+kbs2_princess	creamspoon	POST	pycexw5-004		2011-09-09	CRYMARK	1.0	tagcry
+kbs2_princess	uengi	POST	pycjenk-u7pk		2011-09-10	EXCLAMMARK	1.0	tagexclamation
+kbs2_princess	yna	POST	pyck137-z1ou		2011-09-08	SEE	1.0	보다
+kbs2_princess	k12oo	POST	pyck2bb-5eeq5		2011-09-08	PRESENT	1.0	요즘
+kbs2_princess	k12oo	POST	pyck2bb-5eeq5		2011-09-08	QUESTIONMARK	1.0	tagquestion
+kbs2_princess	k12oo	POST	pyck2bb-5eeq5		2011-09-08	SMILEMARK	1.0	tagsmile
+kbs2_princess	k12oo	POST	pyck2bb-5eeq5		2011-09-08	CRYMARK	1.0	tagcry
+kbs2_princess	k12oo	POST	pyck2bb-5eeq5		2011-09-08	LOVEMARK	1.0	taglove
+kbs2_princess	81048	POST	pycy4ja-_hewm		2011-09-08	PRESENT	2.0	오늘 지금
+kbs2_princess	81048	POST	pycy4ja-_hewm		2011-09-08	SMILEMARK	1.0	tagsmile
+kbs2_princess	actor_wook	POST	pycyeib-_mvge		2011-09-10	EXCLAMMARK	1.0	tagexclamation
+kbs2_princess	frompic	POST	pyc_2qs-_d1bz		2011-09-10	PRESENT	1.0	오늘
+kbs2_princess	zksch25	POST	pyc_dm9-inle		2011-09-09	SMILEMARK	1.0	tagsmile
+kbs2_princess	zksch25	POST	pyc_dm9-inle		2011-09-09	LOVEMARK	1.0	taglove
+kbs2_princess	tjwngml6726	POST	pyc_elk-xi2d		2011-09-09	POSITIVE	1.0	행복
+kbs2_princess	jkim010	POST	pyc_nl9-5_mrv		2011-09-10	QUESTIONMARK	1.0	tagquestion
+kbs2_princess	tij04071	POST	pyc_rhk-yfwbb		2011-09-09	POSITIVE	1.0	사랑하
+kbs2_princess	mumyung5397	POST	pym79jz-h7a4		2011-09-08	QUESTIONMARK	1.0	tagquestion
+kbs2_princess	mumyung5397	POST	pym79jz-h7a4		2011-09-08	SEE	1.0	보다
+kbs2_princess	yoo5764	POST	pym7aou-y132q		2011-09-09	PRESENT	1.0	요즘
+kbs2_princess	yoo5764	POST	pym7aou-y132q		2011-09-09	SMILEMARK	1.0	tagsmile
+kbs2_princess	yoo5764	POST	pym7aou-y132q		2011-09-09	SEE	1.0	보다
+kbs2_princess	winchaser	POST	pym7arj-yvx6h		2011-09-09	SMILEMARK	1.0	tagsmile
+kbs2_princess	znetcom	POST	pym7jhz-_c58g		2011-09-08	PRESENT	1.0	요즘
+kbs2_princess	znetcom	POST	pym7jhz-_c58g		2011-09-08	QUESTIONMARK	1.0	tagquestion
+kbs2_princess	znetcom	POST	pym7jhz-_c58g		2011-09-08	SEE	1.0	보다
+kbs2_princess	znetcom	POST	pym7jhz-_c58g		2011-09-08	HEAR	1.0	느끼다
+kbs2_princess	chickenhl	POST	pym7m8f-5jcy4		2011-09-09	QUESTIONMARK	1.0	tagquestion
+kbs2_princess	gjtmddo11	POST	pym7qp2-_h214		2011-09-09	POSITIVE	2.0	멋지다 좋다
+kbs2_princess	wjdguswl7292	POST	pym7rsp-z0to		2011-09-08	PRESENT	1.0	요즘
+kbs2_princess	wjdguswl7292	POST	pym7rsp-z0to		2011-09-08	QUANTIFIER	1.0	너무
+kbs2_princess	wjdguswl7292	POST	pym7rsp-z0to		2011-09-08	EXCLAMMARK	1.0	tagexclamation
+kbs2_princess	wjdguswl7292	POST	pym7rsp-z0to		2011-09-08	LOVEMARK	1.0	taglove
+kbs2_princess	wjdguswl7292	POST	pym7rsp-z0to		2011-09-08	POSITIVE	1.0	좋아
+kbs2_princess	entiato	POST	pym7v45-_iiis		2011-09-09	EXCLAMMARK	1.0	tagexclamation
+kbs2_princess	kweon1125	POST	pym7v9g-hges		2011-09-09	QUESTIONMARK	1.0	tagquestion
+kbs2_princess	kweon1125	POST	pym7v9g-hges		2011-09-09	SMILEMARK	1.0	tagsmile
+kbs2_princess	kolon8	POST	pym7x19-y1hey		2011-09-09	SMILEMARK	1.0	tagsmile
+kbs2_princess	kolon8	POST	pym7x19-y1hey		2011-09-09	LOVEMARK	1.0	taglove
+kbs2_princess	ghdudrnfu	POST	pym7xpf-_mry9		2011-09-09	SMILEMARK	1.0	tagsmile
+kbs2_princess	ghdudrnfu	POST	pym7xpf-_mry9		2011-09-09	POSITIVE	1.0	즐겁다
+kbs2_princess	mecon_joy	POST	pymlrh7-g3hz		2011-09-07	PRESENT	1.0	오늘
+kbs2_princess	mecon_joy	POST	pymlrh7-g3hz		2011-09-07	QUESTIONMARK	1.0	tagquestion
+kbs2_princess	mecon_joy	POST	pymlrh7-g3hz		2011-09-07	EXCLAMMARK	1.0	tagexclamation
+kbs2_princess	mecon_joy	POST	pymlrh7-g3hz		2011-09-07	SMILEMARK	1.0	tagsmile
+kbs2_princess	mecon_joy	POST	pymlrh7-g3hz		2011-09-07	POSITIVE	1.0	행복
+kbs2_princess	mecon_joy	POST	pymlrh7-g3hz		2011-09-07	ANGER	1.0	미치다
+kbs2_princess	always005	POST	pymv3ar-_fpb		2011-09-06	FUTURE	1.0	다음주
+kbs2_princess	always005	POST	pymv3ar-_fpb		2011-09-06	CRYMARK	1.0	tagcry

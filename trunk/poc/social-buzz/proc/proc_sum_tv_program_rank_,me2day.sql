@@ -1,8 +1,8 @@
 DELIMITER $$
 
-DROP PROCEDURE IF EXISTS `proc_sum_tv_program_rank`$$
+DROP PROCEDURE IF EXISTS `proc_sum_tv_program_rank_me2day`$$
 
-CREATE PROCEDURE proc_sum_tv_program_rank
+CREATE PROCEDURE proc_sum_tv_program_rank_me2day
 (IN p_start_date VARCHAR(8), IN p_end_date VARCHAR(8))
 
     proc: 

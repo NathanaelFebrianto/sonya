@@ -231,10 +231,10 @@ programs <- c(
 	"kbs1_greatking",
 	"kbs_homewomen",
 	"kbs2_princess",
-	"kbs2_spy",
+#	"kbs2_spy",
 	"kbs2_ojakkyo",
 	"mbc_gyebaek",
-	"mbc_fallinlove",
+#	"mbc_fallinlove",
 	"mbc_urpretty",
 	"mbc_thousand",
 	"sbs_besideme",
@@ -249,7 +249,7 @@ programs <- c(
 	"mbc_challenge",
 	"mbc_three",
 	"mbc_wedding",
-	"mbc_sundaynight_house",
+#	"mbc_sundaynight_house",
 	"mbc_sundaynight_nagasoo",
 	"sbs_strongheart",
 	"sbs_starking",
@@ -258,11 +258,8 @@ programs <- c(
 
 for (program in programs) {
 	print(program)
-	AnalyzeTermFrequency(program, "./20110815-20110821/", paste("src_", program, ".txt", sep = ""))
-	AnalyzeSentimentTerms(program, "./20110815-20110821/", paste("liwc_", program, ".txt", sep = ""))
-	
-	AnalyzeTermFrequency(program, "./20110822-20110828/", paste("src_", program, ".txt", sep = ""))	
-	AnalyzeSentimentTerms(program, "./20110822-20110828/", paste("liwc_", program, ".txt", sep = ""))
+	AnalyzeTermFrequency(program, "./20110905-20110911/", paste("src_", program, ".txt", sep = ""))
+	AnalyzeSentimentTerms(program, "./20110905-20110911/", paste("liwc_", program, ".txt", sep = ""))
 }
 
 

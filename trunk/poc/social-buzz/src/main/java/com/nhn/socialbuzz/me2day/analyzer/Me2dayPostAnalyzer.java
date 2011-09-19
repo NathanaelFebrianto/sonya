@@ -17,10 +17,13 @@ import com.nhn.socialbuzz.common.CommonUtil;
 import com.nhn.socialbuzz.common.Config;
 import com.nhn.socialbuzz.me2day.model.Comment;
 import com.nhn.socialbuzz.me2day.model.Post;
+import com.nhn.socialbuzz.me2day.model.TvProgram;
 import com.nhn.socialbuzz.me2day.service.CommentManager;
 import com.nhn.socialbuzz.me2day.service.CommentManagerImpl;
 import com.nhn.socialbuzz.me2day.service.PostManager;
 import com.nhn.socialbuzz.me2day.service.PostManagerImpl;
+import com.nhn.socialbuzz.me2day.service.TvProgramManager;
+import com.nhn.socialbuzz.me2day.service.TvProgramManagerImpl;
 import com.nhn.socialbuzz.textmining.analysis.TextAnalyzer;
 import com.nhn.socialbuzz.textmining.liwc.LIWCDictionary.WordCount;
 import com.nhn.socialbuzz.textmining.liwc.PersonalityRecognizer;
@@ -400,7 +403,8 @@ public class Me2dayPostAnalyzer {
 		String outputDir = Config.getProperty("dataDir");
 		Me2dayPostAnalyzer analyzer = new Me2dayPostAnalyzer(outputDir);
 		
-		String[] programs = new String[] {
+		/*
+		String[] programIds = new String[] {
 			"kbs1_greatking",
 			"kbs_homewomen",
 			"kbs2_princess",
@@ -428,21 +432,23 @@ public class Me2dayPostAnalyzer {
 			"sbs_starking",
 			"sbs_newsunday",
 		};
+		*/
 		
 		try {
-			String publishStartDate1 = "20110815";
-			String publishEndDate1 = "20110821";
+			String publishStartDate = "20110905";
+			String publishEndDate = "20110911";
 			
-			for (int i = 0; i <programs.length; i++) {
-//				analyzer.analyze(programs[i], publishStartDate1, publishEndDate1);
-			}
+			TvProgramManager programManager = new TvProgramManagerImpl();
+			TvProgram param = new TvProgram();
+			param.setStatus("open");
+			param.setNation("KO");
+			List<TvProgram> programs = programManager.getPrograms(param);
 			
-			String publishStartDate2 = "20110822";
-			String publishEndDate2 = "20110828";
-			
-			for (int i = 0; i <programs.length; i++) {
-//				analyzer.analyze(programs[i], publishStartDate2, publishEndDate2);
-			}
+			for (int i = 0; i <programs.size(); i++) {
+				TvProgram program = programs.get(i);
+				analyzer.analyze(program.getProgramId(), publishStartDate, publishEndDate);
+			}			
+
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

@@ -1,0 +1,51 @@
+program_id	author_id	type	post_id	comment_id	publish_date	feature	count	word
+kbs2_happysunday_men	jiwksi	POST	pyc3on6-91ny		2011-09-08	EXCLAMMARK	1.0	tagexclamation
+kbs2_happysunday_men	jiwksi	POST	pyc3on6-91ny		2011-09-08	SMILEMARK	1.0	tagsmile
+kbs2_happysunday_men	ester3807	POST	pyc50qc-_qq9i		2011-09-06	QUESTIONMARK	1.0	tagquestion
+kbs2_happysunday_men	spastar7	POST	pyc578g-5x8tg		2011-09-05	ANXIETY	1.0	무섭
+kbs2_happysunday_men	rockship	POST	pyc5wu2-yemy		2011-09-06	QUESTIONMARK	1.0	tagquestion
+kbs2_happysunday_men	icemocca	POST	pyc5zn8-mbrp		2011-09-05	PRESENT	1.0	오늘
+kbs2_happysunday_men	icemocca	POST	pyc5zn8-mbrp		2011-09-05	EXCLAMMARK	1.0	tagexclamation
+kbs2_happysunday_men	icemocca	POST	pyc5zn8-mbrp		2011-09-05	SMILEMARK	1.0	tagsmile
+kbs2_happysunday_men	dnf_media	POST	pyc68rq-ye7r1		2011-09-07	PRESENT	1.0	이제
+kbs2_happysunday_men	dnf_media	POST	pyc68rq-ye7r1		2011-09-07	QUESTIONMARK	1.0	tagquestion
+kbs2_happysunday_men	dnf_media	POST	pyc68rq-ye7r1		2011-09-07	EXCLAMMARK	1.0	tagexclamation
+kbs2_happysunday_men	dnf_media	POST	pyc68rq-ye7r1		2011-09-07	CRYMARK	1.0	tagcry
+kbs2_happysunday_men	rnjs0526	POST	pyc69s1-5l3no		2011-09-06	EXCLAMMARK	1.0	tagexclamation
+kbs2_happysunday_men	ksjlike00	POST	pyc6g79-yztjq		2011-09-07	POSITIVE	2.0	행복 뭉클
+kbs2_happysunday_men	lma9019	POST	pyc6m5n-y6ucx		2011-09-07	QUESTIONMARK	1.0	tagquestion
+kbs2_happysunday_men	yogb99	POST	pyc6_t5-ygf0e		2011-09-07	PRESENT	1.0	요즘
+kbs2_happysunday_men	yogb99	POST	pyc6_t5-ygf0e		2011-09-07	EXCLAMMARK	1.0	tagexclamation
+kbs2_happysunday_men	yogb99	POST	pyc6_t5-ygf0e		2011-09-07	SMILEMARK	1.0	tagsmile
+kbs2_happysunday_men	ga4180	POST	pycdm0g-_dwlf		2011-09-09	PRESENT	1.0	오늘
+kbs2_happysunday_men	ga4180	POST	pycdm0g-_dwlf		2011-09-09	EXCLAMMARK	1.0	tagexclamation
+kbs2_happysunday_men	rlxo7692	POST	pycdtdw-y80hk		2011-09-07	SEE	1.0	보다
+kbs2_happysunday_men	barunmadi	POST	pycdv76-_i4s2		2011-09-05	EXCLAMMARK	1.0	tagexclamation
+kbs2_happysunday_men	dyogomanan	POST	pyce9c3-y18r4		2011-09-08	PRESENT	1.0	지금
+kbs2_happysunday_men	dyogomanan	POST	pyce9c3-y18r4		2011-09-08	EXCLAMMARK	1.0	tagexclamation
+kbs2_happysunday_men	dyogomanan	POST	pyce9c3-y18r4		2011-09-08	NEGATIVE	2.0	부끄럽다 후회
+kbs2_happysunday_men	dyogomanan	POST	pyce9c3-y18r4		2011-09-08	SEE	1.0	보다
+kbs2_happysunday_men	amano1004	POST	pycerux-y15d5		2011-09-08	EXCLAMMARK	1.0	tagexclamation
+kbs2_happysunday_men	dnf_media	POST	pyckpxf-ye7r1		2011-09-08	EXCLAMMARK	1.0	tagexclamation
+kbs2_happysunday_men	minirei333	POST	pycy_jb-yfmel		2011-09-05	QUESTIONMARK	1.0	tagquestion
+kbs2_happysunday_men	minirei333	POST	pycy_jb-yfmel		2011-09-05	CRYMARK	1.0	tagcry
+kbs2_happysunday_men	minirei333	POST	pycy_jb-yfmel		2011-09-05	POSITIVE	1.0	좋다
+kbs2_happysunday_men	minirei333	POST	pycy_jb-yfmel		2011-09-05	SEE	1.0	보다
+kbs2_happysunday_men	redna0	POST	pyc_7fx-_bvwm		2011-09-05	QUANTIFIER	1.0	아주
+kbs2_happysunday_men	redna0	POST	pyc_7fx-_bvwm		2011-09-05	EXCLAMMARK	1.0	tagexclamation
+kbs2_happysunday_men	redna0	POST	pyc_7fx-_bvwm		2011-09-05	SMILEMARK	1.0	tagsmile
+kbs2_happysunday_men	redna0	POST	pyc_7fx-_bvwm		2011-09-05	POSITIVE	1.0	좋다
+kbs2_happysunday_men	redna0	POST	pyc_7fx-_bvwm		2011-09-05	SEE	1.0	보다
+kbs2_happysunday_men	wlsgk2413	POST	pyc_m2m-_igc6		2011-09-09	QUESTIONMARK	1.0	tagquestion
+kbs2_happysunday_men	ykm010621	POST	pyc_vcj-x7dv		2011-09-05	CRYMARK	1.0	tagcry
+kbs2_happysunday_men	ykm010621	POST	pyc_vcj-x7dv		2011-09-05	NEGATIVE	1.0	싫다
+kbs2_happysunday_men	julietta1225	POST	pym2z9m-w2o7		2011-09-05	EXCLAMMARK	1.0	tagexclamation
+kbs2_happysunday_men	julietta1225	POST	pym2z9m-w2o7		2011-09-05	CRYMARK	1.0	tagcry
+kbs2_happysunday_men	zeru17	POST	pym4rd4-zkf5		2011-09-05	QUESTIONMARK	1.0	tagquestion
+kbs2_happysunday_men	taelove79	POST	pym4u2u-m8af		2011-09-05	QUESTIONMARK	1.0	tagquestion
+kbs2_happysunday_men	incheon4u	POST	pym7bdn-vq_1		2011-09-06	SMILEMARK	1.0	tagsmile
+kbs2_happysunday_men	jerian	POST	pym7zwy-egy8		2011-09-09	QUESTIONMARK	1.0	tagquestion
+kbs2_happysunday_men	jerian	POST	pym7zwy-egy8		2011-09-09	POSITIVE	2.0	좋아 좋아하다
+kbs2_happysunday_men	jerian	POST	pym7zwy-egy8		2011-09-09	SEE	1.0	보다
+kbs2_happysunday_men	junes26	POST	pymx56i-yxvov		2011-09-06	SEE	1.0	보다
+kbs2_happysunday_men	rptkdvos	POST	pymx_8_-yv4it		2011-09-06	CRYMARK	1.0	tagcry

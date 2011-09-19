@@ -1,0 +1,22 @@
+program_id	author_id	type	post_id	comment_id	publish_date	feature	count	word
+mbc_thousand	kaist_park	POST	pyc3vsn-5b23h		2011-09-07	QUESTIONMARK	1.0	tagquestion
+mbc_thousand	rhaxoddl0919	POST	pyc67po-_s9sv		2011-09-10	PRESENT	1.0	오늘
+mbc_thousand	rhaxoddl0919	POST	pyc67po-_s9sv		2011-09-10	EXCLAMMARK	1.0	tagexclamation
+mbc_thousand	rhaxoddl0919	POST	pyc67po-_s9sv		2011-09-10	SMILEMARK	1.0	tagsmile
+mbc_thousand	rhaxoddl0919	POST	pyc67po-_s9sv		2011-09-10	LOVEMARK	1.0	taglove
+mbc_thousand	qmfkdldjs18	POST	pyc69ub-ysvhc		2011-09-06	EXCLAMMARK	1.0	tagexclamation
+mbc_thousand	qmfkdldjs18	POST	pyc69ub-ysvhc		2011-09-06	SEE	1.0	보다
+mbc_thousand	mople	POST	pyc6akq-ybyr8		2011-09-10	PRESENT	1.0	오늘
+mbc_thousand	qmfkdldjs18	POST	pyc6k33-ysvhc		2011-09-05	SEE	1.0	보다
+mbc_thousand	gksthf12367	POST	pyc6rvd-5wxdq		2011-09-10	SMILEMARK	1.0	tagsmile
+mbc_thousand	rottehime	POST	pyc9x49-_rrlg		2011-09-10	SMILEMARK	1.0	tagsmile
+mbc_thousand	hjlee9374	POST	pyc9x8o-_86bl		2011-09-10	LOVEMARK	1.0	taglove
+mbc_thousand	an72536	POST	pycb_qa-5ym0s		2011-09-09	HEAR	1.0	듣다
+mbc_thousand	kyc5776	POST	pyce26j-ydz11		2011-09-10	SMILEMARK	1.0	tagsmile
+mbc_thousand	kyc5776	POST	pyce26j-ydz11		2011-09-10	CRYMARK	1.0	tagcry
+mbc_thousand	mwrt	POST	pycy396-_0y1_		2011-09-10	SEE	1.0	보다
+mbc_thousand	frompic	POST	pycy_sm-_d1bz		2011-09-08	SMILEMARK	1.0	tagsmile
+mbc_thousand	carmaster000	POST	pym7gi4-ydfu8		2011-09-07	EXCLAMMARK	1.0	tagexclamation
+mbc_thousand	045316	POST	pymliu5-_qc0x		2011-09-05	LOVEMARK	1.0	taglove
+mbc_thousand	045316	POST	pymliu5-_qc0x		2011-09-05	POSITIVE	1.0	좋다
+mbc_thousand	junes26	POST	pymxylz-yxvov		2011-09-06	SEE	1.0	보다

@@ -73,6 +73,7 @@ public class TwitterDataCollector {
             
 		} catch (TwitterException te) {
 			System.out.println(te.getMessage());
+			logger.error(te.getMessage(), te);
 		}		
 		
 		return allList;
@@ -95,6 +96,8 @@ public class TwitterDataCollector {
         		ntweet.setUserNo(String.valueOf(tweet.getFromUserId()));
         		ntweet.setTweetText(text);
             	ntweet.setCreateDate(tweet.getCreatedAt());
+            	ntweet.setLocation(tweet.getLocation());
+            	ntweet.setProfileImage(tweet.getProfileImageUrl());
  
            		// insert tweet
         		List<Tweet> existTweets = tweetManager.getTweets(ntweet);
@@ -108,6 +111,7 @@ public class TwitterDataCollector {
         	} catch (Exception e) {
         		System.out.println(e.getMessage());
         		e.printStackTrace();
+        		logger.error(e.getMessage(), e);
         	}
         }
         

@@ -1,0 +1,42 @@
+program_id	author_id	type	post_id	comment_id	publish_date	terms
+mbc_thousand	supremeduck	POST	pyc0ogn-55ekl		2011-09-07	천번 천번의 입맞추다 김소은 착용 하니와 하니와이 원피스
+mbc_thousand	stylisthanul	POST	pyc35gp-_w5s7		2011-09-07	김소은 천 번 입맞추다 촬영 현장서 23번째 생일 생 파티
+mbc_thousand	kaist_park	POST	pyc3vc2-5b23h		2011-09-07	여성 의류 쇼핑몰 베누스타 천번의입맞춤 김소은 촬영장서 23번째 생일파티 여성 의류 쇼핑몰 베누스타
+mbc_thousand	kaist_park	POST	pyc3vsn-5b23h		2011-09-07	여성 의류 쇼핑몰 베누스타 천번의입맞춤 류진 차화연 서영희 생모 tagquestion 순탄치 않다 앞날 앞 암시 여성 의류 쇼핑몰 베누스타
+mbc_thousand	lovelycong00	POST	pyc5ax2-5uo57		2011-09-05	김소은 원피스 천번의입맞춤6 회 김소은 우주미 옷 패션스타일 패션스타 어깨끈셔링원피스 의상정보
+mbc_thousand	insos02	POST	pyc5iy3-_8lnw		2011-09-06	천번의입맞춤 제6 회 다시보기 서영희 지현우 류진 김소은 9월 4 4일 천번의입맞춤 제6 회 다시보기 서영희 지현우 류진 김소은 9월 4 4일
+mbc_thousand	lovelycong00	POST	pyc5zz2-5uo57		2011-09-05	정가은 자켓 티셔츠 천번의입맞춤6 회 정가은 장혜빈 옷 패션스타일 패션스타 하얀색 라이더자켓 스팽글장식 티셔츠 의상정보
+mbc_thousand	rhaxoddl0919	POST	pyc67po-_s9sv		2011-09-10	하하나는천번의입맞춤보고잇닷 tagexclamation 오늘연속티비릴레이중 tagsmile 담엔여인의향기봐야징 taglove taglove 천번 천번의 입맞추다 여인 향기 taglove
+mbc_thousand	insos02	POST	pyc69nz-_8lnw		2011-09-07	천번의입맞춤 제6 회 다시보기 서영희 지현우 류진 김소은 9월 4 4일 천번의입맞춤 제6 회 다시보기 서영희 지현우 류진 김소은 9월 4 4일
+mbc_thousand	qmfkdldjs18	POST	pyc69ub-ysvhc		2011-09-06	천 번 입맞추다 보고 보다 보 무사백동수 시작 tagexclamation 개콘도 개콘도보 자다
+mbc_thousand	mople	POST	pyc6akq-ybyr8		2011-09-10	천번 천번의 입맞추다 7회 e07닥본사  닥  치다 치  본  방  사  닥치고본방사수 닥본사 별점 오늘 천번 천번의 입맞추다 7회 e07
+mbc_thousand	qmfkdldjs18	POST	pyc6k33-ysvhc		2011-09-05	천번 천번의 입맞추다 솔까 이거 내 내다 스타일 내용 아니다 김소은 보다 보 재미로보네 무사 백동수 백동수는 내다 보다
+mbc_thousand	juyeung	POST	pyc6lrm-or1y		2011-09-06	윤두준 천번 천번의 입맞추다 훈남스멜 가득 풍기다 풍기 윤기준
+mbc_thousand	gksthf12367	POST	pyc6rvd-5wxdq		2011-09-10	심심 tagsmile 엄마 드라마 시청중 tagsmile 천번 천번의 입맞추다
+mbc_thousand	insos02	POST	pyc6siw-_8lnw		2011-09-07	천번의입맞춤 제6 회 다시보기 서영희 지현우 류진 김소은 9월 4 4일 천번의입맞춤 제6 회 다시보기 서영희 지현우 류진 김소은 9월 4 4일
+mbc_thousand	dlwpgud21	POST	pyc6ti0-lj9l		2011-09-06	천번의입맞춤 지현우머리 강남추천선릉미용실 지현우헤어스타 댄디컷 남자연예인헤어스타 남자머리 리젠트컷 레드브라운컬러
+mbc_thousand	fic123	POST	pyc6ugz-i_63		2011-09-10	110910 토렌트 광개토태왕 오작교형제 천번의입맞춤
+mbc_thousand	elpai8238	POST	pyc95di-y707_		2011-09-10	불굴 며느리 몽땅내사랑 몽땅내사 보스 지키다 무사백동수 천번의입맞춤 애정만만세 지다 지고 못 살다 살 보는사람 미투
+mbc_thousand	rottehime	POST	pyc9x49-_rrlg		2011-09-10	천번 천번의 입맞추다 대놓고 yui hello 노래ost 로 쓰다 tagsmile 덕후 덕후들이 많구낰
+mbc_thousand	hjlee9374	POST	pyc9x8o-_86bl		2011-09-10	천번의입맞춤 쪽 taglove
+mbc_thousand	an72536	POST	pycb_qa-5ym0s		2011-09-09	천번의입맞춤ost 매리골드 good bye 천번의입맞춤ost 모음 모으다 듣기 듣다
+mbc_thousand	insos02	POST	pycd460-_8lnw		2011-09-05	천번의입맞춤 제6 회 다시보기 서영희 지현우 류진 김소은 9월 4 4일 천번의입맞춤 제6 회 다시보기 서영희 지현우 류진 김소은 9월 4 4일
+mbc_thousand	dbxhvi2	POST	pycdqjm-_w3wz		2011-09-05	천번의입맞춤 제6 회 다시보기 서영희 지현우 류진 김소은 9월 4 4일 천번의입맞춤 제6 회 다시보기 서영희 지현우 류진 김소은 9월 4 4일
+mbc_thousand	insos02	POST	pycdv6i-_8lnw		2011-09-05	천번의입맞춤 제6 회 다시보기 서영희 지현우 류진 김소은 9월 4 4일 천번의입맞춤 제6 회 다시보기 서영희 지현우 류진 김소은 9월 4 4일
+mbc_thousand	kyc5776	POST	pyce26j-ydz11		2011-09-10	천번의입맞춤재방송중 아부러우어찬노 tagcry 윤두준님훈남돋으시네 윤두준님훈남돋으시네요 tagsmile xc55f tagsmile
+mbc_thousand	4m-gayoon	POST	pycejpm-_u2nj		2011-09-10	방송mbc 천번 천번의 입맞추다 pm 8 40 지현
+mbc_thousand	lovelycong00	POST	pycjbnn-5uo57		2011-09-10	김소은 트레이닝복 천번의입맞춤7 회 김소은 우주미 옷 패션스타일 패션스타 꽃무늬 트레이닝복 쥬시꾸뛰르
+mbc_thousand	insos02	POST	pyckpuj-_8lnw		2011-09-08	천번의입맞춤 제6 회 다시보기 서영희 지현우 류진 김소은 9월 4 4일 천번의입맞춤 제6 회 다시보기 서영희 지현우 류진 김소은 9월 4 4일
+mbc_thousand	kmediabox	POST	pyckzcn-_1l70		2011-09-10	토도우 천번 천번의 입맞추다 7회 9월10 일 다시보기
+mbc_thousand	mwrt	POST	pycy396-_0y1_		2011-09-10	천번 천번의 입맞추다 50부작 50부작이 보다 못볼때 못볼때는 다운 봐야겠다 소은언니 류진님 나이차이 17살 우주미 우주미라 이름 이르다 넘 귀엽다
+mbc_thousand	insos02	POST	pycy6k2-_8lnw		2011-09-05	천번의입맞춤 제6 회 다시보기 서영희 지현우 류진 김소은 9월 4 4일 천번의입맞춤 제6 회 다시보기 서영희 지현우 류진 김소은 9월 4 4일
+mbc_thousand	frompic	POST	pycy_sm-_d1bz		2011-09-08	천번의입맞춤 6회 한강커플 전기 찌릿 천번의입맞춤 6회 6회에서 주미 주미와 우진 우진이 서 손 잡다 전기 찌릿 역시 스킵쉽 무시 못하다 tagsmile 천번의입맞춤 6회 한강커플 드디어
+mbc_thousand	psy4722	POST	pyc_0o5-5fkjf		2011-09-06	나머지 월 금 기광 승승장구및 몽땅내사랑 몽땅내사 천번 천번의 입맞추다 등등
+mbc_thousand	lovelycong00	POST	pyc_bi_-5uo57		2011-09-05	남지헌 니트 천번의입맞춤6 회 남지헌 장수아 옷 패션스타일 패션스타 소매프릴 니트 의상정보
+mbc_thousand	insos02	POST	pyc_yvo-_8lnw		2011-09-06	천번의입맞춤 제6 회 다시보기 서영희 지현우 류진 김소은 9월 4 4일 천번의입맞춤 제6 회 다시보기 서영희 지현우 류진 김소은 9월 4 4일
+mbc_thousand	carmaster000	POST	pym7gi4-ydfu8		2011-09-07	천번의입맞춤제작촬영현장 주미 우진 한강 빠지다 사연속 go tagexclamation go tagexclamation go tagexclamation
+mbc_thousand	lhc200	POST	pym7zpo-tvrf		2011-09-09	매리골드 good bye 천 번 입맞추다 ost part 2
+mbc_thousand	carmaster000	POST	pyml9be-ydfu8		2011-09-05	천번의입맞춤 서영희 불륜현장 급습
+mbc_thousand	045316	POST	pymliu5-_qc0x		2011-09-05	아파 비스트 비스트가 좋다 어떡 윤두준 까메오 천번의입맞춤 보고이따 taglove
+mbc_thousand	bigstaraaaa	POST	pymxrbj-_0j6l		2011-09-08	드라마 천번의입맞춤 mbc주말연속극 예고편
+mbc_thousand	junes26	POST	pymxylz-yxvov		2011-09-06	천번 천번의 입맞추다 6회 9월4 일 방송 보기 보다
