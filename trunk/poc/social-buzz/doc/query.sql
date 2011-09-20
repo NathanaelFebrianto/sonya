@@ -21,13 +21,23 @@ SELECT a.*
 	, a.negative_post_user_count/a.post_user_count AS negative_post_user_rate
 	, a.negative_post_count/a.positive_post_count AS negative_positive_post_rate
 	, a.negative_post_user_count/a.positive_post_user_count AS negative_positive_post_user_rate
-	, b.category, b.channel, b.air_cycle 
+	, b.nation as nation
+	, b.category as category
+	, b.channel as channel
+	, b.air_cycle as air_cycle 
 FROM tv_program_rank a JOIN tv_program b ON a.program_id = b.program_id
-/*WHERE a.start_date = "20110905" AND a.end_date = "20110911" */
+
 
 /** tv_program_watch_rate.csv 파일 생성 **/
 SELECT a.*, b.category, b.channel, b.air_cycle 
 FROM tv_program_watch_rate a JOIN tv_program b ON a.program_id = b.program_id
+where nation = "KO"
+
+/** 인기도 산출할 데이터 추출 **/ 
+SELECT a.*, b.title, b.category, b.channel, b.air_cycle, c.* 
+FROM tv_program_watch_rate a JOIN tv_program b ON a.program_id = b.program_id 
+	JOIN tv_program_rank c ON a.program_id = c.program_id AND a.start_date = c.start_date AND a.end_date = c.end_date
+WHERE a.nation = "KO" AND c.site = "me2day"
 
 /** terms 추출 **/
 SELECT a.program_id, b.title, a.start_date, a.end_date, a.term, a.tf

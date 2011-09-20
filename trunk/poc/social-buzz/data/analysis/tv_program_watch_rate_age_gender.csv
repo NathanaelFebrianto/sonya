@@ -1,4 +1,4 @@
-program_id,program_name,start_date,end_date,age,gender,order,watch_rate
+program_id,program_name,start_date,end_date,age,gender,rank,watch_rate
 kbs2_numberone,위기탈출넘버원  ,20110905,20110911,00s,M,1,6.8
 kbs2_gagcon,개그콘서트  ,20110905,20110911,00s,M,2,6.8
 kbs2_ojakkyo,주말연속극<오작교형제들>  ,20110905,20110911,00s,M,3,6.5
