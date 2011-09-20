@@ -4,6 +4,7 @@ import java.util.Date;
 import java.util.List;
 
 import org.quartz.Job;
+import org.quartz.JobDataMap;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 
@@ -23,8 +24,15 @@ public class TwitterCollectorJob implements Job {
 	public void execute(JobExecutionContext context) throws JobExecutionException {
 		try {
 			// get job data map
-			//JobDataMap jobDataMap = context.getJobDetail().getJobDataMap();	        
-	        //logger.info("@PARAM[???] == " + something);
+			JobDataMap jobDataMap = context.getJobDetail().getJobDataMap();	
+			String status = jobDataMap.getString("tv.program.status");
+			String nation = jobDataMap.getString("tv.program.nation");
+			
+			System.out.println("@PARAM[tv.program.status] == " + status);
+			System.out.println("@PARAM[tv.program.nation] == " + nation);
+			
+			logger.info("@PARAM[tv.program.status] == " + status);
+			logger.info("@PARAM[tv.program.nation] == " + nation);
 			
 			// start time
     		Date startTime = new Date();
@@ -41,7 +49,8 @@ public class TwitterCollectorJob implements Job {
 
 			TvProgramManager programManager = new TvProgramManagerImpl();
 			TvProgram param = new TvProgram();
-			param.setStatus("open");
+			param.setStatus(status);
+			param.setNation(nation);
 			List<TvProgram> programs = programManager.getPrograms(param);			
 			
 			for (int i = 0; i <programs.size(); i++) {
