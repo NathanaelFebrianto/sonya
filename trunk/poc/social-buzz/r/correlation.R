@@ -12,6 +12,10 @@ df.watch.rate = read.csv("tv_program_watch_rate.csv")
 df.all = NULL
 df.all = merge(df.sns.rank, df.watch.rate, by = c("program_id", "start_date", "end_date"), all = FALSE)
 
+sns.sites.all <- c("me2day", "twitter")
+
+nations.all <- c("KO", "US")
+
 categories.all <- c(
 		"drama"
 		, "entertain"
@@ -31,7 +35,13 @@ air.cycles.all <- c(
 		, "TUE,WED"
 )
 
-GetPrograms <- function(durations, nations, categories, air.cycles) {
+durations.all <- c(
+		"20110815-20110821"
+		, "20110822-20110828"
+		, "20110905-20110911"
+)
+
+GetPrograms <- function(sns.site, durations, nations, categories, air.cycles) {
 	
 	df.programs = subset(df.all, 
 			select = c("program_id"
@@ -52,6 +62,7 @@ GetPrograms <- function(durations, nations, categories, air.cycles) {
 					, "watch_rate"
 					, "rank.y"),
 			subset =  (
+						site == sns.site &
 						(paste(start_date, "-", end_date, sep = "") == durations[1] |
 						 paste(start_date, "-", end_date, sep = "") == durations[2] |
 						 paste(start_date, "-", end_date, sep = "") == durations[3] |
@@ -76,7 +87,7 @@ GetPrograms <- function(durations, nations, categories, air.cycles) {
 }
 
 
-GetSignificantPrograms <- function(durations, nations) {
+GetSignificantPrograms <- function(sns.site, durations, nations) {
 	df.programs = subset(df.all, 
 			select = c("program_id"
 					, "post_count" 
@@ -96,6 +107,7 @@ GetSignificantPrograms <- function(durations, nations) {
 					, "watch_rate"
 					, "rank.y"),
 			subset =  (
+						site == sns.site &
 						(paste(start_date, "-", end_date, sep = "") == durations[1] |
 							paste(start_date, "-", end_date, sep = "") == durations[2] |
 							paste(start_date, "-", end_date, sep = "") == durations[3] |
@@ -115,56 +127,35 @@ GetSignificantPrograms <- function(durations, nations) {
 	return (df.programs)
 }
 
-GetAllPrograms <- function(durations, nations) {
+GetAllPrograms <- function(sns.site, durations, nations) {
 
-	df.programs = GetPrograms(durations, nations, categories.all, air.cycles.all)
+	df.programs = GetPrograms(sns.site, durations, nations, categories.all, air.cycles.all)
 	
 	return (df.programs)
 } 
 
-GetDramas <- function(durations, nations) {
+GetDramas <- function(sns.site, durations, nations) {
 	
 	categories <- c(
 			"drama"
 	)
 	
-	air.cycles <- c(
-			"SAT,SUN"
-			, "SUN"
-			, "WED,THU"
-			, "MON,TUE"
-			, "MON~FRI"
-			, "SAT"
-			, "THU"
-			, "TUE"
-	)
-	df.programs = GetPrograms(durations, nations, categories, air.cycles)
+	df.programs = GetPrograms(sns.site, durations, nations, categories, air.cycles.all)
 	
 	return (df.programs)
 } 
 
-GetEntertains <- function(durations, nations) {
+GetEntertains <- function(sns.site, durations, nations) {
 	
 	categories <- c(
 			"entertain"
 	)
-	
-	air.cycles <- c(
-			"SAT,SUN"
-			, "SUN"
-			, "WED,THU"
-			, "MON,TUE"
-			, "MON~FRI"
-			, "SAT"
-			, "THU"
-			, "TUE"
-	)
-	df.programs = GetPrograms(durations, nations, categories, air.cycles)
+	df.programs = GetPrograms(sns.site, durations, nations, categories, air.cycles.all)
 	
 	return (df.programs)
 } 
 
-GetMonToThuDramas <- function(durations, nations) {
+GetMonToThuDramas <- function(sns.site, durations, nations) {
 
 	categories <- c(
 			"drama"
@@ -174,7 +165,7 @@ GetMonToThuDramas <- function(durations, nations) {
 			"WED,THU"
 			, "MON,TUE"
 	)
-	df.programs = GetPrograms(durations, nations, categories, air.cycles)
+	df.programs = GetPrograms(sns.site, durations, nations, categories, air.cycles)
 	
 	return (df.programs)
 }
@@ -398,27 +389,22 @@ GetDataForPlotPairs <- function (df.old) {
 ###
 # Execute
 ###
+sns.site <- "me2day"
 
-durations.all <- c(
-		"20110815-20110821"
-		, "20110822-20110828"
-		, "20110905-20110911"
-)
-
-nations.all <- c("KO", "US")
+nations.ko <- c("KO")
+nations.us <- c("US")
 
 durations1 <- c(
 		"20110815-20110821"
 		, "20110822-20110828"
 )
 
-nations.ko <- c("KO")
 
-df.programs.all = GetAllPrograms(durations.all, nations.all)
-df.programs.drama = GetDramas(durations1, nations.ko)
-df.programs.entain = GetEntertains(durations1, nations.ko)
-df.programs.drama.montothu = GetMonToThuDramas(durations1, nations.ko)
-df.programs.sig = GetSignificantPrograms(durations1, nations.ko)
+df.programs.all = GetAllPrograms(sns.site, durations.all, nations.all)
+df.programs.drama = GetDramas(sns.site, durations1, nations.ko)
+df.programs.entain = GetEntertains(sns.site, durations1, nations.ko)
+df.programs.drama.montothu = GetMonToThuDramas(sns.site, durations1, nations.ko)
+df.programs.sig = GetSignificantPrograms(sns.site, durations1, nations.ko)
 
 #df.programs <- df.programs.all
 #df.programs <- df.programs.drama
@@ -460,7 +446,7 @@ RegressionAnalysis1(df.programs)
 
 ##############################
 durations.0905.0911 <- c("20110905-20110911")
-df.programs.0905.0911 = GetPrograms(durations.0905.0911, nations.ko, categories.all, air.cycles.all)
+df.programs.0905.0911 = GetPrograms(sns.site, durations.0905.0911, nations.ko, categories.all, air.cycles.all)
 PearsonCorrelationAnalysis(df.programs.0905.0911)
 
 PlotPairs(GetDataForPlotPairs(df.programs.0905.0911))

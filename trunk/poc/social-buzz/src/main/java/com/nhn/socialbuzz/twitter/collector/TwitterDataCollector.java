@@ -155,12 +155,14 @@ public class TwitterDataCollector {
 			TvProgramManager programManager = new TvProgramManagerImpl();
 			TvProgram param = new TvProgram();
 			param.setStatus("open");
+			//param.setNation("US");
+			//param.setProgramId("cbs_bigbrother");
 			List<TvProgram> programs = programManager.getPrograms(param);
 			
 			String createStartDate = CommonUtil.convertDateToString("yyyy-MM-dd", CommonUtil.addDay(new Date(), -1));
 			
 			for (int i = 0; i <programs.size(); i++) {
-//				collector.collectTweets(programs.get(i), createStartDate, "");
+				//collector.collectTweets(programs.get(i), createStartDate, "");
 			}			
 			
 		} catch (Exception e) {
