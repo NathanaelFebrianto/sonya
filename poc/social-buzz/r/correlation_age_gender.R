@@ -101,13 +101,15 @@ CorrelationAnalysis <- function(df.sns.programs.rank.subset, age, gender) {
 ###
 # Execute
 ###
+sns.site <- "me2day"
+
+nations <- c("KO")
+
 durations <- c(
 		"20110905-20110911"
 )
 
-nations <- c("KO")
-
-df.sns.rank = GetSnsProgramRanks("me2day", durations, nations, categories.all, air.cycles.all)
+df.sns.rank = GetSnsProgramRanks(sns.site, durations, nations, categories.all, air.cycles.all)
 
 CorrelationAnalysis(df.sns.rank, "00s", "F")
 CorrelationAnalysis(df.sns.rank, "10s", "F")
