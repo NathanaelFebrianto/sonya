@@ -157,9 +157,22 @@ CREATE PROCEDURE proc_sum_tv_program_rank_me2day
 		) AS b ON a.program_id = b.program_id
 	SET	a.negative_comment_count = b.negative_comment_count,
 		a.negative_comment_user_count = b.negative_comment_user_count
-	WHERE	a.start_date = p_start_date AND a.end_date = p_end_date AND a.site = "me2day";
+	WHERE a.start_date = p_start_date AND a.end_date = p_end_date AND a.site = "me2day";
 	
+	/* update popularity */
+	UPDATE tv_program_rank SET
+		score = (0.1106 + 0.000004757*metoo_count + 0.00004772*post_count)
+	WHERE start_date = p_start_date AND end_date = p_end_date AND site = "me2day";
 	
+	/* update rank */
+	UPDATE tv_program_rank AS a INNER JOIN (
+		SELECT @rank:=@rank+1 rank_temp, sub.*
+		FROM (SELECT @rank:=0) rank,
+		(SELECT * FROM tv_program_rank 
+		WHERE start_date = p_start_date AND end_date = p_end_date AND site = "me2day" ORDER BY score DESC) sub
+		) AS b ON a.program_id = b.program_id
+	SET a.rank = b.rank_temp
+	WHERE a.start_date = p_start_date AND a.end_date = p_end_date AND a.site = "me2day";
 		
 	IF error THEN
 		SELECT 'CLOSE failed';

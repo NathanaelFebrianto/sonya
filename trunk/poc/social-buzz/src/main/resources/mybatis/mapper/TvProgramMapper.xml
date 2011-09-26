@@ -22,7 +22,7 @@
 		<result property="produceCompany" column="produce_company" />
 		<result property="producers" column="producers" />
 		<result property="homepage" column="homepage" />
-		<result property="searchKeywords" column="search_keywords" />
+		<result property="me2daySearchKeywords" column="me2day_search_keywords" />
 		<result property="twitterSearchKeywords" column="twitter_search_keywords" />
 		<result property="registerDate" column="register_date" />
 		<result property="updateDate" column="update_date" />

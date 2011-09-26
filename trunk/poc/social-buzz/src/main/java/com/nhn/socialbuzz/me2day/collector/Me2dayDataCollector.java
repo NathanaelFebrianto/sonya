@@ -171,6 +171,9 @@ public class Me2dayDataCollector {
 		System.out.println("searchPostsByPage.....................");	
 		logger.info("searchPostsByPage.....................");
 		
+		System.out.println("page == " + page);	
+		logger.info("page == " + page);
+		
 		try {
 			url.append("query=").append(URLEncoder.encode(query, "utf-8"));
 		} catch (UnsupportedEncodingException e) {
@@ -579,13 +582,13 @@ public class Me2dayDataCollector {
 			
 			System.out.println("================================================");
 			System.out.println("\ntitle == " + program.getTitle());
-			System.out.println("search queries == " + program.getTwitterSearchKeywords());
+			System.out.println("search queries == " + program.getMe2daySearchKeywords());
 			
 			logger.info("================================================");
 			logger.info("\ntitle == " + program.getTitle());
 			logger.info("search queries == " + program.getTwitterSearchKeywords());
 			
-			List<SearchQuery> searchQueries = program.extractTwitterSearchKeywords();
+			List<SearchQuery> searchQueries = program.extractMe2daySearchKeywords();
 			
 			System.out.println("search query size == " + searchQueries.size());
 			logger.info("search query size == " + searchQueries.size());
@@ -593,6 +596,7 @@ public class Me2dayDataCollector {
 			for (SearchQuery searchQuery : searchQueries) {	
 				String keyword = searchQuery.getKeyword();
 				int maxResultPage = searchQuery.getMaxResultPage();
+				System.out.println("maxResultPage == " + maxResultPage);
 				this.searchPosts(programId, keyword, "all", publishStartdDate, publishEndDate, maxResultPage);					
 			}
 			
@@ -634,8 +638,8 @@ public class Me2dayDataCollector {
 			};
 			*/
 			
-			String publishStartDate = "2011.09.05";
-			String publishEndDate = "2011.09.11";
+			String publishStartDate = "2011.09.22";
+			String publishEndDate = "2011.09.24";
 			
 			//String publishStartDate = CommonUtil.convertDateToString("yyyy.MM.dd", CommonUtil.addDay(new Date(), -1));
 			//String publishEndDate = CommonUtil.convertDateToString("yyyy.MM.dd", CommonUtil.addDay(new Date(), +1));

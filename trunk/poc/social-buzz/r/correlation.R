@@ -39,6 +39,7 @@ durations.all <- c(
 		"20110815-20110821"
 		, "20110822-20110828"
 		, "20110905-20110911"
+		, "20110919-20110925"
 )
 
 GetPrograms <- function(sns.site, durations, nations, categories, air.cycles) {
@@ -59,8 +60,9 @@ GetPrograms <- function(sns.site, durations, nations, categories, air.cycles) {
 					, "negative_post_user_rate"
 					, "negative_positive_post_rate"
 					, "negative_positive_post_user_rate"
+					, "rank.x"		 # sns rank
 					, "watch_rate"
-					, "rank.y"),
+					, "rank.y"),	 # tv rank
 			subset =  (
 						site == sns.site &
 						(paste(start_date, "-", end_date, sep = "") == durations[1] |
@@ -104,8 +106,9 @@ GetSignificantPrograms <- function(sns.site, durations, nations) {
 					, "negative_post_user_rate"
 					, "negative_positive_post_rate"
 					, "negative_positive_post_user_rate"
+					, "rank.x"		 # sns rank
 					, "watch_rate"
-					, "rank.y"),
+					, "rank.y"),	 # tv rank
 			subset =  (
 						site == sns.site &
 						(paste(start_date, "-", end_date, sep = "") == durations[1] |
@@ -233,46 +236,11 @@ PearsonCorrelationAnalysis <- function(df.programs) {
 SpearmanCorrelationAnalysis <- function(df.programs) {
 	attach(df.programs)
 	
-	out1 = cor(post_count, rank.y, use = "pairwise.complete.obs", method = "spearman")	
-	cat("correlation [post_count <-> watch_rate]  == ", out1, "\n")
+	out1 = cor(rank.x, rank.y, use = "pairwise.complete.obs", method = "spearman")	
+	cat("correlation [sns rank <-> tv rank]  == ", out1, "\n")
 	out1 = cor.test(post_count, watch_rate)
 	names(out1)
 	cat("  p.value  == ", out1$p.value, "\n")
-	
-	out2 = cor(comment_count, rank.y, use = "pairwise.complete.obs", method = "spearman")	
-	cat("correlation [comment_count <-> watch_rate]  == ", out2, "\n")
-	out2 = cor.test(comment_count, watch_rate)
-	cat("  p.value  == ", out2$p.value, "\n")
-	
-	out3 = cor(metoo_count, rank.y, use = "pairwise.complete.obs", method = "spearman")	
-	cat("correlation [metoo_count <-> watch_rate]  == ", out3, "\n")
-	out3 = cor.test(metoo_count, watch_rate)
-	cat("  p.value  == ", out3$p.value, "\n")
-	
-	out4 = cor(post_user_count, rank.y, use = "pairwise.complete.obs", method = "spearman")	
-	cat("correlation [post_user_count <-> watch_rate]  == ", out4, "\n")
-	out4 = cor.test(post_user_count, watch_rate)
-	cat("  p.value  == ", out4$p.value, "\n")
-	
-	out5 = cor(positive_post_count, rank.y, use = "pairwise.complete.obs", method = "spearman")	
-	cat("correlation [positive_post_count <-> watch_rate]  == ", out5, "\n")
-	out5 = cor.test(positive_post_count, watch_rate)
-	cat("  p.value  == ", out5$p.value, "\n")
-	
-	out6 = cor(negative_post_count, rank.y, use = "pairwise.complete.obs", method = "spearman")	
-	out6 = cat("correlation [negative_post_count <-> watch_rate]  == ", out6, "\n")
-	out6 = cor.test(negative_post_count, watch_rate)
-	cat("  p.value  == ", out6$p.value, "\n")
-	
-	out7 = cor(positive_post_user_count, rank.y, use = "pairwise.complete.obs", method = "spearman")	
-	cat("correlation [positive_post_user_count <-> watch_rate]  == ", out7, "\n")
-	out7 = cor.test(positive_post_user_count, watch_rate)
-	cat("  p.value  == ", out7$p.value, "\n")
-	
-	out8 = cor(negative_post_user_count, rank.y, use = "pairwise.complete.obs", method = "spearman")	
-	cat("correlation [negative_post_user_count <-> watch_rate]  == ", out8, "\n")
-	out8 = cor.test(negative_post_user_count, watch_rate)
-	cat("  p.value  == ", out8$p.value, "\n")
 	
 	detach(df.programs)
 }
@@ -389,7 +357,7 @@ GetDataForPlotPairs <- function (df.old) {
 ###
 # Execute
 ###
-sns.site <- "me2day"
+sns.site <- "twitter"
 
 nations.ko <- c("KO")
 nations.us <- c("US")
@@ -397,20 +365,25 @@ nations.us <- c("US")
 durations1 <- c(
 		"20110815-20110821"
 		, "20110822-20110828"
+		, "20110919-20110925"
 )
 
 
+
 df.programs.all = GetAllPrograms(sns.site, durations.all, nations.all)
-df.programs.drama = GetDramas(sns.site, durations1, nations.ko)
+df.programs.drama = GetDramas(sns.site, durations, nations.ko)
 df.programs.entain = GetEntertains(sns.site, durations1, nations.ko)
 df.programs.drama.montothu = GetMonToThuDramas(sns.site, durations1, nations.ko)
 df.programs.sig = GetSignificantPrograms(sns.site, durations1, nations.ko)
+df.programs.twitter = GetPrograms(sns.site, durations1, nations.us, categories.all, air.cycles.all)
 
 #df.programs <- df.programs.all
 #df.programs <- df.programs.drama
 #df.programs <- df.programs.entain
 #df.programs <- df.programs.drama.montothu
-df.programs <- df.programs.sig
+#df.programs <- df.programs.sig
+df.programs <- df.programs.twitter
+
 nrow(df.programs)
 
 
