@@ -101,6 +101,31 @@ CREATE PROCEDURE proc_sum_tv_program_rank_twitter
 		a.negative_post_user_count = b.negative_post_user_count
 	WHERE a.start_date = p_start_date AND a.end_date = p_end_date AND a.site = "twitter";	
 
+
+	/* update popularity */
+	UPDATE tv_program_rank SET
+		score = post_count
+	WHERE start_date = p_start_date AND end_date = p_end_date AND site = "twitter";
+	
+	/* update rank -- KO */
+	UPDATE tv_program_rank AS a INNER JOIN (
+		SELECT @rank:=@rank+1 rank_temp, sub.*
+		FROM (SELECT @rank:=0) rank,
+		(SELECT tv_program_rank.* FROM tv_program_rank JOIN tv_program ON tv_program_rank.program_id = tv_program.program_id
+		WHERE tv_program.nation = "KO" AND start_date = p_start_date AND end_date = p_end_date AND site = "twitter" ORDER BY score DESC) sub
+		) AS b ON a.program_id = b.program_id
+	SET a.rank = b.rank_temp
+	WHERE a.start_date = p_start_date AND a.end_date = p_end_date AND a.site = "twitter";
+
+	/* update rank -- US */
+	UPDATE tv_program_rank AS a INNER JOIN (
+		SELECT @rank:=@rank+1 rank_temp, sub.*
+		FROM (SELECT @rank:=0) rank,
+		(SELECT tv_program_rank.* FROM tv_program_rank JOIN tv_program ON tv_program_rank.program_id = tv_program.program_id
+		WHERE tv_program.nation = "US" AND start_date = p_start_date AND end_date = p_end_date AND site = "twitter" ORDER BY score DESC) sub
+		) AS b ON a.program_id = b.program_id
+	SET a.rank = b.rank_temp
+	WHERE a.start_date = p_start_date AND a.end_date = p_end_date AND a.site = "twitter";
 		
 	IF error THEN
 		SELECT 'CLOSE failed';

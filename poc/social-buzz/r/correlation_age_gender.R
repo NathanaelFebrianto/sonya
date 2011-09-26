@@ -91,9 +91,35 @@ CorrelationAnalysis <- function(df.sns.programs.rank.subset, age, gender) {
 	
 	#out = cor(df.data$post_count, df.data$rank.y, use = "pairwise.complete.obs", method = "spearman")	
 	out = cor(df.data$post_count, df.data$watch_rate, use = "pairwise.complete.obs", method = "pearson")	
-	cat(age, "-", gender, " : correlation [post_count <-> watch_rate]  == ", out, "\n")
+	cat(age, "-", gender, " : correlation [sns post_count <-> tv watch_rate]  == ", out, "\n")
 	
 	out = cor.test(df.data$post_count, df.data$watch_rate)
+	cat("  p.value  == ", out$p.value, "\n")	
+	
+}
+
+CorrelationAnalysis_score <- function(df.sns.programs.rank.subset, age, gender) {	
+	df.data = NULL
+	df.data = GetMergedData(df.sns.programs.rank.subset, age, gender)
+	
+	out = cor(df.data$score
+			, df.data$watch_rate, use = "pairwise.complete.obs", method = "spearman")	
+	cat(age, "-", gender, " : correlation [sns score <-> tv watch_rate]  == ", out, "\n")
+	
+	out = cor.test(df.data$score, df.data$watch_rate)
+	cat("  p.value  == ", out$p.value, "\n")	
+	
+}
+
+CorrelationAnalysis_rank <- function(df.sns.programs.rank.subset, age, gender) {	
+	df.data = NULL
+	df.data = GetMergedData(df.sns.programs.rank.subset, age, gender)
+
+	out = cor(df.data$rank.x
+	, df.data$rank.y, use = "pairwise.complete.obs", method = "spearman")	
+	cat(age, "-", gender, " : correlation [sns rank <-> tv rank]  == ", out, "\n")
+	
+	out = cor.test(df.data$rank.x, df.data$rank.y)
 	cat("  p.value  == ", out$p.value, "\n")	
 	
 }
@@ -101,12 +127,20 @@ CorrelationAnalysis <- function(df.sns.programs.rank.subset, age, gender) {
 ###
 # Execute
 ###
-sns.site <- "me2day"
+#sns.site <- "me2day"
+#
+#nations <- c("KO")
+#
+#durations <- c(
+#		"20110905-20110911"
+#)
+
+sns.site <- "twitter"
 
 nations <- c("KO")
 
 durations <- c(
-		"20110905-20110911"
+		"20110919-20110925"
 )
 
 df.sns.rank = GetSnsProgramRanks(sns.site, durations, nations, categories.all, air.cycles.all)
@@ -126,6 +160,38 @@ CorrelationAnalysis(df.sns.rank, "30s", "M")
 CorrelationAnalysis(df.sns.rank, "40s", "M")
 CorrelationAnalysis(df.sns.rank, "50s", "M")
 CorrelationAnalysis(df.sns.rank, "60s", "M")
+
+CorrelationAnalysis_score(df.sns.rank, "00s", "F")
+CorrelationAnalysis_score(df.sns.rank, "10s", "F")
+CorrelationAnalysis_score(df.sns.rank, "20s", "F")
+CorrelationAnalysis_score(df.sns.rank, "30s", "F")
+CorrelationAnalysis_score(df.sns.rank, "40s", "F")
+CorrelationAnalysis_score(df.sns.rank, "50s", "F")
+CorrelationAnalysis_score(df.sns.rank, "60s", "F")
+
+CorrelationAnalysis_score(df.sns.rank, "00s", "M")
+CorrelationAnalysis_score(df.sns.rank, "10s", "M")
+CorrelationAnalysis_score(df.sns.rank, "20s", "M")
+CorrelationAnalysis_score(df.sns.rank, "30s", "M")
+CorrelationAnalysis_score(df.sns.rank, "40s", "M")
+CorrelationAnalysis_score(df.sns.rank, "50s", "M")
+CorrelationAnalysis_score(df.sns.rank, "60s", "M")
+
+CorrelationAnalysis_rank(df.sns.rank, "00s", "F")
+CorrelationAnalysis_rank(df.sns.rank, "10s", "F")
+CorrelationAnalysis_rank(df.sns.rank, "20s", "F")
+CorrelationAnalysis_rank(df.sns.rank, "30s", "F")
+CorrelationAnalysis_rank(df.sns.rank, "40s", "F")
+CorrelationAnalysis_rank(df.sns.rank, "50s", "F")
+CorrelationAnalysis_rank(df.sns.rank, "60s", "F")
+
+CorrelationAnalysis_rank(df.sns.rank, "00s", "M")
+CorrelationAnalysis_rank(df.sns.rank, "10s", "M")
+CorrelationAnalysis_rank(df.sns.rank, "20s", "M")
+CorrelationAnalysis_rank(df.sns.rank, "30s", "M")
+CorrelationAnalysis_rank(df.sns.rank, "40s", "M")
+CorrelationAnalysis_rank(df.sns.rank, "50s", "M")
+CorrelationAnalysis_rank(df.sns.rank, "60s", "M")
 
 
 

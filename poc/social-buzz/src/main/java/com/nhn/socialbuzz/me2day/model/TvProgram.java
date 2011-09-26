@@ -31,7 +31,7 @@ public class TvProgram implements Serializable {
 	private String produceCompany;
 	private String producers;
 	private String homepage;
-	private String searchKeywords;
+	private String me2daySearchKeywords;
 	private String twitterSearchKeywords;
 	private Date registerDate;
 	private Date updateDate;
@@ -58,14 +58,14 @@ public class TvProgram implements Serializable {
 		
 		Vector<SearchQuery> keywords = new Vector<SearchQuery>();
 		
-		String text = this.getSearchKeywords();
+		String text = this.getMe2daySearchKeywords();
 		if (text != null && !text.equals("")) {
 			StringTokenizer st = new StringTokenizer(text, ",");
 			 while (st.hasMoreTokens()) {
 				 String token = st.nextToken().trim();
 				 StringTokenizer st1 = new StringTokenizer(token, ":");
 				 String keyword = st1.nextToken().trim();
-				 int maxResultPage = 50;	// default = 50
+				 int maxResultPage = 50;	// default = 50, max = 50
 				 try {
 					 maxResultPage = Integer.valueOf(st1.nextToken());
 				 } catch (NoSuchElementException e) {
@@ -90,7 +90,7 @@ public class TvProgram implements Serializable {
 				 String token = st.nextToken().trim();
 				 StringTokenizer st1 = new StringTokenizer(token, ":");
 				 String keyword = st1.nextToken().trim();
-				 int maxResultPage = 1;	// default = 1
+				 int maxResultPage = 1;	// default = 1, max = 15
 				 try {
 					 maxResultPage = Integer.valueOf(st1.nextToken());
 				 } catch (NoSuchElementException e) {
@@ -172,8 +172,8 @@ public class TvProgram implements Serializable {
 		return homepage;
 	}
 
-	public String getSearchKeywords() {
-		return searchKeywords;
+	public String getMe2daySearchKeywords() {
+		return me2daySearchKeywords;
 	}
 	
 	public String getTwitterSearchKeywords() {
@@ -256,8 +256,8 @@ public class TvProgram implements Serializable {
 		this.homepage = homepage;
 	}
 
-	public void setSearchKeywords(String searchKeywords) {
-		this.searchKeywords = searchKeywords;
+	public void setMe2daySearchKeywords(String me2daySearchKeywords) {
+		this.me2daySearchKeywords = me2daySearchKeywords;
 	}
 	
 	public void setTwitterSearchKeywords(String twitterSearchKeywords) {

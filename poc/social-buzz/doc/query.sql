@@ -30,3 +30,12 @@ SELECT a.program_id, b.title, a.start_date, a.end_date, a.term, a.tf
 FROM term a JOIN tv_program b ON a.program_id = b.program_id
 WHERE TYPE = "TERM"
 ORDER BY a.program_id ASC, a.start_date ASC, a.tf DESC  
+
+/** 일별 추이 **/
+SELECT program_id, SUBSTR(publish_date, 1, 10), COUNT(*), SUM(comment_count), SUM(metoo_count) 
+FROM post 
+GROUP BY program_id, SUBSTR(publish_date, 1, 10)
+
+SELECT program_id, SUBSTR(create_date, 1, 10), COUNT(*)
+FROM tweet 
+GROUP BY program_id, SUBSTR(create_date, 1, 10)
