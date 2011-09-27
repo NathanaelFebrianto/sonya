@@ -19,11 +19,12 @@ SELECT a.*, b.category, b.channel, b.air_cycle
 FROM tv_program_watch_rate a JOIN tv_program b ON a.program_id = b.program_id
 where nation = "KO"
 
-/** 인기도 산출할 데이터 추출 **/ 
-SELECT a.*, b.title, b.category, b.channel, b.air_cycle, c.* 
+/** 인기도 추출 **/ 
+SELECT c.start_date, c.end_date, c.site, b.nation, b.title, b.category, b.channel, b.air_cycle, c.post_count, c.metoo_count, c.comment_count, c.score, c.rank, a.watch_rate, a.rank 
 FROM tv_program_watch_rate a JOIN tv_program b ON a.program_id = b.program_id 
 	JOIN tv_program_rank c ON a.program_id = c.program_id AND a.start_date = c.start_date AND a.end_date = c.end_date
-WHERE a.nation = "KO" AND c.site = "me2day"
+ORDER BY c.start_date, c.site, b.nation, c.rank
+
 
 /** terms 추출 **/
 SELECT a.program_id, b.title, a.start_date, a.end_date, a.term, a.tf

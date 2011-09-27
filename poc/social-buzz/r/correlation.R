@@ -1,4 +1,4 @@
-# Analyzes the correlation between me2day and offline watch rate.
+# Compare size between me2day and twitter.
 # 
 # Author: Younggue Bae
 ###############################################################################
@@ -176,8 +176,8 @@ GetMonToThuDramas <- function(sns.site, durations, nations) {
 PlotPairs <- function(df.programs) {
 	attach(df.programs)
 	# test normality
-	shapiro.test(watch_rate)
-	shapiro.test(post_count)
+#	shapiro.test(watch_rate)
+#	shapiro.test(post_count)
 	
 	# pairs
 	pairs(df.programs, col = "blue")
@@ -254,8 +254,8 @@ RegressionAnalysis <- function(df.programs) {
 	out0 = lm(watch_rate ~ ., data = df.programs)
 	print(anova(out0))
 	
-	cat(">>>>>> lm(watch_rate ~ +metoo_count+post_count, data = df.programs)", "\n")
-	out1 = lm(watch_rate ~ metoo_count+post_count, data = df.programs)
+	cat(">>>>>> lm(watch_rate ~ comment_count+metoo_count+post_count, data = df.programs)", "\n")
+	out1 = lm(watch_rate ~ comment_count+metoo_count+post_count, data = df.programs)
 	print(anova(out1))
 	print(summary(out1))
 	
@@ -357,7 +357,7 @@ GetDataForPlotPairs <- function (df.old) {
 ###
 # Execute
 ###
-sns.site <- "twitter"
+sns.site <- "me2day"
 
 nations.ko <- c("KO")
 nations.us <- c("US")
@@ -365,13 +365,13 @@ nations.us <- c("US")
 durations1 <- c(
 		"20110815-20110821"
 		, "20110822-20110828"
-		, "20110919-20110925"
+#		, "20110919-20110925"
 )
 
 
 
 df.programs.all = GetAllPrograms(sns.site, durations.all, nations.all)
-df.programs.drama = GetDramas(sns.site, durations, nations.ko)
+df.programs.drama = GetDramas(sns.site, durations1, nations.ko)
 df.programs.entain = GetEntertains(sns.site, durations1, nations.ko)
 df.programs.drama.montothu = GetMonToThuDramas(sns.site, durations1, nations.ko)
 df.programs.sig = GetSignificantPrograms(sns.site, durations1, nations.ko)
@@ -381,14 +381,12 @@ df.programs.twitter = GetPrograms(sns.site, durations1, nations.us, categories.a
 #df.programs <- df.programs.drama
 #df.programs <- df.programs.entain
 #df.programs <- df.programs.drama.montothu
-#df.programs <- df.programs.sig
-df.programs <- df.programs.twitter
+df.programs <- df.programs.sig
+#df.programs <- df.programs.twitter
 
 nrow(df.programs)
 
-
 PlotPairs(GetDataForPlotPairs(df.programs))
-#boxplot(df.programs)
 PlotWatchRateAndPostCount(df.programs)
 PlotWatchRankAndPostCount(df.programs)
 

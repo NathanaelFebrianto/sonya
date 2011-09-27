@@ -161,7 +161,7 @@ CREATE PROCEDURE proc_sum_tv_program_rank_me2day
 	
 	/* update popularity */
 	UPDATE tv_program_rank SET
-		score = (0.1106 + 0.000004757*metoo_count + 0.00004772*post_count)
+		score = (0.1113 -0.0000001978*comment_count + 0.000007061*metoo_count + 0.00005038*post_count)
 	WHERE start_date = p_start_date AND end_date = p_end_date AND site = "me2day";
 	
 	/* update rank */
