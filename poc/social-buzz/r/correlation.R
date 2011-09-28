@@ -82,7 +82,9 @@ GetPrograms <- function(sns.site, durations, nations, categories, air.cycles) {
 						 air_cycle.x == air.cycles[5] |
 						 air_cycle.x == air.cycles[6] |
 						 air_cycle.x == air.cycles[7] |
-						 air_cycle.x == air.cycles[8])))	
+						 air_cycle.x == air.cycles[8] |
+						 air_cycle.x == air.cycles[9] |
+						 air_cycle.x == air.cycles[10])))	
  
 	cat("df.programs row count == ", nrow(df.programs), "\n")
 	return (df.programs)
@@ -357,15 +359,15 @@ GetDataForPlotPairs <- function (df.old) {
 ###
 # Execute
 ###
-sns.site <- "me2day"
+sns.site <- "twitter"
 
 nations.ko <- c("KO")
 nations.us <- c("US")
 
 durations1 <- c(
-		"20110815-20110821"
-		, "20110822-20110828"
-#		, "20110919-20110925"
+#		"20110815-20110821"
+#		, "20110822-20110828"
+		  "20110919-20110925"
 )
 
 
@@ -381,8 +383,8 @@ df.programs.twitter = GetPrograms(sns.site, durations1, nations.us, categories.a
 #df.programs <- df.programs.drama
 #df.programs <- df.programs.entain
 #df.programs <- df.programs.drama.montothu
-df.programs <- df.programs.sig
-#df.programs <- df.programs.twitter
+#df.programs <- df.programs.sig
+df.programs <- df.programs.twitter
 
 nrow(df.programs)
 

@@ -17,7 +17,7 @@ FROM tv_program_rank a JOIN tv_program b ON a.program_id = b.program_id
 /** tv_program_watch_rate.csv 파일 생성 **/
 SELECT a.*, b.category, b.channel, b.air_cycle 
 FROM tv_program_watch_rate a JOIN tv_program b ON a.program_id = b.program_id
-where nation = "KO"
+
 
 /** 인기도 추출 **/ 
 SELECT c.start_date, c.end_date, c.site, b.nation, b.title, b.category, b.channel, b.air_cycle, c.post_count, c.metoo_count, c.comment_count, c.score, c.rank, a.watch_rate, a.rank 
