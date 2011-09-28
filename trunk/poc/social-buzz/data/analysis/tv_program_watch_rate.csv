@@ -1,14 +1,19 @@
 program_id,start_date,end_date,nation,duration_type,watch_rate,rank,register_date,update_date,category,channel,air_cycle
 cbs_60mins,20110905,20110911,US,weekly,0.081,4,,,,CBS,SUN
 cbs_60mins,20110912,20110918,US,weekly,0.125,3,,,,CBS,SUN
+cbs_60mins,20110919,20110925,US,weekly,0,99,,,,CBS,SUN
 cbs_bigbang,20110905,20110911,US,weekly,0.064,5,,,,CBS,THU
 cbs_bigbang,20110912,20110918,US,weekly,0.17,2,,,,CBS,THU
+cbs_bigbang,20110919,20110925,US,weekly,0.292,1,,,,CBS,THU
 cbs_bigbrother,20110905,20110911,US,weekly,0.144,2,,,,CBS,"WED,THU"
 cbs_bigbrother,20110912,20110918,US,weekly,0.078,5,,,,CBS,"WED,THU"
+cbs_bigbrother,20110919,20110925,US,weekly,0,99,,,,CBS,"WED,THU"
 cbs_criminalminds,20110905,20110911,US,weekly,0.063,6,,,,CBS,WED
 cbs_criminalminds,20110912,20110918,US,weekly,0,6,,,,CBS,WED
+cbs_criminalminds,20110919,20110925,US,weekly,0.141,3,,,,CBS,WED
 cbs_ncis,20110905,20110911,US,weekly,0.095,3,,,,CBS,TUE
 cbs_ncis,20110912,20110918,US,weekly,0.103,4,,,,CBS,TUE
+cbs_ncis,20110919,20110925,US,weekly,0.2,2,,,,CBS,TUE
 kbs1_greatking,20110815,20110821,KO,weekly,0.171,6,,,drama,KBS1,"SAT,SUN"
 kbs1_greatking,20110822,20110828,KO,weekly,0.161,9,,,drama,KBS1,"SAT,SUN"
 kbs1_greatking,20110905,20110911,KO,weekly,0.164,6,,,drama,KBS1,"SAT,SUN"
@@ -87,6 +92,7 @@ mbc_wedding,20110912,20110918,KO,weekly,0.079,21,,,entertain,MBC,SAT
 mbc_wedding,20110919,20110925,KO,weekly,0.081,22,,,entertain,MBC,SAT
 nbc_americagottalent,20110905,20110911,US,weekly,0.242,1,,,,NBC,"TUE,WED"
 nbc_americagottalent,20110912,20110918,US,weekly,0.28,1,,,,NBC,"TUE,WED"
+nbc_americagottalent,20110919,20110925,US,weekly,0,99,,,,NBC,"TUE,WED"
 sbs_baekdongsoo,20110815,20110821,KO,weekly,0.187,3,,,drama,SBS,"MON,TUE"
 sbs_baekdongsoo,20110822,20110828,KO,weekly,0.178,3,,,drama,SBS,"MON,TUE"
 sbs_baekdongsoo,20110905,20110911,KO,weekly,0.178,4,,,drama,SBS,"MON,TUE"
