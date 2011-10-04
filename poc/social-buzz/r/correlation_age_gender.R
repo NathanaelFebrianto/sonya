@@ -48,7 +48,8 @@ GetSnsProgramRanks <- function(sns.site, durations, nations, categories, air.cyc
 					, "negative_positive_post_rate"
 					, "negative_positive_post_user_rate"
 					, "score"
-					, "rank"),
+					, "rank"
+					, "post_metoo_count"),
 			subset =  (
 						site == sns.site &
 						(paste(start_date, "-", end_date, sep = "") == durations[1] |
@@ -128,6 +129,8 @@ CorrelationAnalysis_rank_rank <- function(df.sns.programs.rank.subset, age, gend
 	
 }
 
+
+
 CorrelationAnalysis_rank_rating <- function(df.sns.programs.rank.subset, age, gender) {	
 	df.data = NULL
 	df.data = GetMergedData(df.sns.programs.rank.subset, age, gender)
@@ -142,6 +145,33 @@ CorrelationAnalysis_rank_rating <- function(df.sns.programs.rank.subset, age, ge
 	plot(df.data$watch_rate ~ df.data$rank.x)
 }
 
+CorrelationAnalysis_postmetoo_rank <- function(df.sns.programs.rank.subset, age, gender) {	
+	df.data = NULL
+	df.data = GetMergedData(df.sns.programs.rank.subset, age, gender)
+	
+	out = cor(df.data$post_metoo_count
+			, df.data$rank.y, use = "pairwise.complete.obs", method = "pearson")	
+	cat(age, "-", gender, " : correlation [sns rank(post+metoo) <-> tv watch rank]  == ", out, "\n")
+	
+	out = cor.test(df.data$post_metoo_count, df.data$rank.y)
+	cat("  p.value  == ", out$p.value, "\n")
+	
+	plot(df.data$rank.y ~ df.data$post_metoo_count)
+}
+
+CorrelationAnalysis_postmetoo_rating <- function(df.sns.programs.rank.subset, age, gender) {	
+	df.data = NULL
+	df.data = GetMergedData(df.sns.programs.rank.subset, age, gender)
+	
+	out = cor(df.data$post_metoo_count
+			, df.data$watch_rate, use = "pairwise.complete.obs", method = "pearson")	
+	cat(age, "-", gender, " : correlation [sns rank(post+metoo <-> tv watch rate]  == ", out, "\n")
+	
+	out = cor.test(df.data$post_metoo_count, df.data$watch_rate)
+	cat("  p.value  == ", out$p.value, "\n")
+	
+	plot(df.data$watch_rate ~ df.data$post_metoo_count)
+}
 
 ###
 # Execute
@@ -231,4 +261,36 @@ CorrelationAnalysis_rank_rating(df.sns.rank, "50s", "M")
 CorrelationAnalysis_rank_rating(df.sns.rank, "60s", "M")
 
 
+#CorrelationAnalysis_postmetoo_rank
+CorrelationAnalysis_postmetoo_rank(df.sns.rank, "00s", "F")
+CorrelationAnalysis_postmetoo_rank(df.sns.rank, "10s", "F")
+CorrelationAnalysis_postmetoo_rank(df.sns.rank, "20s", "F")
+CorrelationAnalysis_postmetoo_rank(df.sns.rank, "30s", "F")
+CorrelationAnalysis_postmetoo_rank(df.sns.rank, "40s", "F")
+CorrelationAnalysis_postmetoo_rank(df.sns.rank, "50s", "F")
+CorrelationAnalysis_postmetoo_rank(df.sns.rank, "60s", "F")
 
+CorrelationAnalysis_postmetoo_rank(df.sns.rank, "00s", "M")
+CorrelationAnalysis_postmetoo_rank(df.sns.rank, "10s", "M")
+CorrelationAnalysis_postmetoo_rank(df.sns.rank, "20s", "M")
+CorrelationAnalysis_postmetoo_rank(df.sns.rank, "30s", "M")
+CorrelationAnalysis_postmetoo_rank(df.sns.rank, "40s", "M")
+CorrelationAnalysis_postmetoo_rank(df.sns.rank, "50s", "M")
+CorrelationAnalysis_postmetoo_rank(df.sns.rank, "60s", "M")
+
+#CorrelationAnalysis_postmetoo_rating
+CorrelationAnalysis_postmetoo_rating(df.sns.rank, "00s", "F")
+CorrelationAnalysis_postmetoo_rating(df.sns.rank, "10s", "F")
+CorrelationAnalysis_postmetoo_rating(df.sns.rank, "20s", "F")
+CorrelationAnalysis_postmetoo_rating(df.sns.rank, "30s", "F")
+CorrelationAnalysis_postmetoo_rating(df.sns.rank, "40s", "F")
+CorrelationAnalysis_postmetoo_rating(df.sns.rank, "50s", "F")
+CorrelationAnalysis_postmetoo_rating(df.sns.rank, "60s", "F")
+
+CorrelationAnalysis_postmetoo_rating(df.sns.rank, "00s", "M")
+CorrelationAnalysis_postmetoo_rating(df.sns.rank, "10s", "M")
+CorrelationAnalysis_postmetoo_rating(df.sns.rank, "20s", "M")
+CorrelationAnalysis_postmetoo_rating(df.sns.rank, "30s", "M")
+CorrelationAnalysis_postmetoo_rating(df.sns.rank, "40s", "M")
+CorrelationAnalysis_postmetoo_rating(df.sns.rank, "50s", "M")
+CorrelationAnalysis_postmetoo_rating(df.sns.rank, "60s", "M")
