@@ -7,6 +7,7 @@ SELECT a.*
 	, a.negative_post_user_count/a.post_user_count AS negative_post_user_rate
 	, a.negative_post_count/a.positive_post_count AS negative_positive_post_rate
 	, a.negative_post_user_count/a.positive_post_user_count AS negative_positive_post_user_rate
+	, a.post_count+a.metoo_count as post_metoo_count 
 	, b.nation as nation
 	, b.category as category
 	, b.channel as channel
@@ -20,7 +21,7 @@ FROM tv_program_watch_rate a JOIN tv_program b ON a.program_id = b.program_id
 
 
 /** 인기도 추출 **/ 
-SELECT c.start_date, c.end_date, c.site, b.nation, b.title, b.category, b.channel, b.air_cycle, c.post_count, c.metoo_count, c.comment_count, c.score, c.rank, a.watch_rate, a.rank 
+SELECT c.start_date, c.end_date, c.site, b.nation, b.title, b.category, b.channel, b.air_cycle, c.post_count, c.metoo_count, c.comment_count, c.score, c.rank, a.watch_rate, a.rank, c.post_count+c.metoo_count as post_metoo_count 
 FROM tv_program_watch_rate a JOIN tv_program b ON a.program_id = b.program_id 
 	JOIN tv_program_rank c ON a.program_id = c.program_id AND a.start_date = c.start_date AND a.end_date = c.end_date
 ORDER BY c.start_date, c.site, b.nation, c.rank
