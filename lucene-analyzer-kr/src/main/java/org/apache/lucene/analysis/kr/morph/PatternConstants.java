@@ -1,7 +1,5 @@
 package org.apache.lucene.analysis.kr.morph;
 
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * Licensed to the Apache Software Foundation (ASF) under one or more
