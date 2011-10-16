@@ -3,7 +3,7 @@
 # Author: Younggue Bae
 ###############################################################################
 
-setwd("D:/dev/workspace/r-project/twitter")
+setwd("D:/dev/workspace/beeblz/beeblz-twitter/R")
 
 library(gplots)
 

@@ -3,7 +3,7 @@
 # Author: Younggue Bae
 ###############################################################################
 
-setwd("D:/dev/workspace/r-project/twitter")
+setwd("D:/dev/workspace/beeblz/beeblz-twitter/R")
 
 #df_obama = read.csv("twitter_obama.csv")
 df_obama = read.csv("twitter_obama_filtered.csv")
