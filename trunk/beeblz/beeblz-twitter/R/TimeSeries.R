@@ -4,7 +4,7 @@
 # Author: Younggue Bae
 ###############################################################################
 
-setwd("D:/dev/workspace/r-project/twitter")
+setwd("D:/dev/workspace/beeblz/beeblz-twitter/R")
 
 df_audiences = read.csv("twitter_audiences.csv")
 df_populars = read.csv("twitter_populars.csv")

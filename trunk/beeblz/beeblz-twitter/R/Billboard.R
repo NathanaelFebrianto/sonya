@@ -3,7 +3,7 @@
 # Author: Louie
 ###############################################################################
 
-setwd("D:/dev/workspace/r-project/twitter")
+setwd("D:/dev/workspace/beeblz/beeblz-twitter/R")
 
 df.britney = read.csv("twitter_britney.csv")
 df.ladygaga = read.csv("twitter_ladygaga.csv")
