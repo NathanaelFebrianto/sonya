@@ -77,7 +77,8 @@ public class MorphAnalyzerTest extends TestCase {
 		//source="금융당국이 조만간 발표키로 한 중장기 증시 안정대책에 어떤 내용이 담길 지 관심이 높아지고 있다.이창용 금융위 부위원장은 7일 국내외 금융회사 애널리스트와의 간담회가 끝난 뒤 기자회견에서 “조만간 주식시장 안정대책 몇 가지를 검토해 발표할 것”이라며 “해외증시가 급락했지만 국내 증시는 선방하고 있어 정부가 인센티브를 제공하면 효과가 있을 것”이라고 말했다.";
 		//source="올해 크리스마스에는 눈이 내리지 않고 비교적 포근할 전망이다 ABC";
 		//source = "new Integer(1)";
-		String source = "정성스러운게";
+		//String source = "정성스러운게";
+		String source = "이 물건은 배송이 빨라서 정말 좋지만,  품질이 별로 안 좋네요.";
 		
 		long start = System.currentTimeMillis();
 		
