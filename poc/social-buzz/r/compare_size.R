@@ -4,7 +4,7 @@
 ###############################################################################
 
 
-setwd("D:/workspace/social-buzz/data/analysis")
+setwd("D:/dev/workspace/social-buzz/data/analysis")
 
 df.post.weekly = read.csv("tv_program_rank.csv")
 

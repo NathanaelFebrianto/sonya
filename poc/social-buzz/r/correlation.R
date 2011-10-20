@@ -4,7 +4,7 @@
 ###############################################################################
 
 
-setwd("D:/workspace/social-buzz/data/analysis")
+setwd("D:/dev/workspace/social-buzz/data/analysis")
 
 df.sns.rank = read.csv("tv_program_rank.csv")
 df.watch.rate = read.csv("tv_program_watch_rate.csv")

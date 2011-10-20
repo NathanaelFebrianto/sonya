@@ -3,7 +3,7 @@
 # Author: Younggue Bae
 ###############################################################################
 
-setwd("D:/workspace/social-buzz/data")
+setwd("D:/dev/workspace/social-buzz/data")
 
 library(tm)
 
