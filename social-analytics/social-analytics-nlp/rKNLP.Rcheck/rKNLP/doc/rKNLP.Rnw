@@ -1,0 +1,13 @@
+% 
+\documentclass[a4paper]{article}
+\usepackage[OT1]{fontenc}
+\usepackage{Sweave}
+\begin{document}
+
+\title{rKNLP.Rnw}
+\author{nhn}
+
+\maketitle
+
+
+\end{document}

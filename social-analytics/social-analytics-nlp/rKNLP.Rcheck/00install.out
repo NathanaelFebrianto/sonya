@@ -1,0 +1,12 @@
+* installing *source* package 'rKNLP' ...
+** R
+** inst
+** preparing package for lazy loading
+** help
+Warning: D:/dev/workspace/social-analytics-nlp/rKNLP/man/rKNLP.Rd:29: All text must be in a section
+Warning: D:/dev/workspace/social-analytics-nlp/rKNLP/man/rKNLP.Rd:29: All text must be in a section
+*** installing help indices
+** building package indices ...
+** testing if installed package can be loaded
+
+* DONE (rKNLP)
