@@ -1,0 +1,91 @@
+* using log directory 'D:/dev/workspace/social-analytics-nlp/rKNLP.Rcheck'
+* using R version 2.13.1 (2011-07-08)
+* using platform: i386-pc-mingw32 (32-bit)
+* using session charset: CP949
+* checking for file 'rKNLP/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'rKNLP' version '0.1'
+* checking package name space information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking for executable files ... OK
+* checking whether package 'rKNLP' can be installed ... WARNING
+Found the following significant warnings:
+  Warning: D:/dev/workspace/social-analytics-nlp/rKNLP/man/rKNLP.Rd:29: All text must be in a section
+  Warning: D:/dev/workspace/social-analytics-nlp/rKNLP/man/rKNLP.Rd:29: All text must be in a section
+See 'D:/dev/workspace/social-analytics-nlp/rKNLP.Rcheck/00install.out' for details.
+* checking installed package size ... NOTE
+  installed size is  7.5Mb
+  sub-directories of 1Mb or more:
+    java   7.4Mb
+* checking package directory ... OK
+* checking for portable file names ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking index information ... WARNING
+Vignettes with missing or empty \VignetteIndexEntry:
+[1] "rKNLP"
+See the information on INDEX files and package subdirectories in the
+chapter 'Creating R packages' of the 'Writing R Extensions' manual.
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the name space can be loaded with stated dependencies ... OK
+* checking whether the name space can be unloaded cleanly ... OK
+* checking for unstated dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... WARNING
+prepare_Rd: rKNLP.Rd:29: All text must be in a section
+* checking Rd metadata ... OK
+* checking Rd cross-references ... WARNING
+Missing link(s) in documentation object 'D:/dev/workspace/social-analytics-nlp/rKNLP/man/rKNLP.Rd':
+  '~~fun~~'
+
+See the information in section 'Cross-references' of the 'Writing R
+Extensions' manual.
+
+* checking for missing documentation entries ... WARNING
+Undocumented code objects:
+  analyzeMorpheme showParseTree
+All user-level objects in a package should have documentation entries.
+See the chapter 'Writing R documentation files' in the 'Writing R
+Extensions' manual.
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... WARNING
+Undocumented arguments in documentation object 'rKNLP'
+  text
+Objects in \usage without \alias in documentation object 'rKNLP':
+  analyzeMorpheme
+
+Functions with \usage entries need to have the appropriate \alias
+entries, and all their arguments documented.
+The \usage entries must correspond to syntactically valid R code.
+See the chapter 'Writing R documentation files' in the 'Writing R
+Extensions' manual.
+* checking Rd contents ... WARNING
+Auto-generated content requiring editing in Rd object 'rKNLP':
+  \title
+  \description
+  \author
+  \note
+  \arguments, description of item 'analyzeMorpheme'
+
+* checking for unstated dependencies in examples ... OK
+* checking examples ... OK
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in 'inst/doc' ... WARNING
+Package vignette(s) without corresponding PDF:
+   rKNLP.Rnw
+
+* checking running R code from vignettes ... OK
+* checking re-building of vignettes ... OK
+* checking PDF version of manual ... OK
+WARNING: There were 8 warnings, see
+  'D:/dev/workspace/social-analytics-nlp/rKNLP.Rcheck/00check.log'
+for details

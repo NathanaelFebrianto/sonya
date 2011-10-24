@@ -1,0 +1,13 @@
+Package: rKNLP
+Version: 0.1
+Date: 2011-10-24
+Type: Package
+Title: Korean NLP for R
+Author: Younggue Bae
+Maintainer: Younggue Bae <louiezzang@hotmail.com>
+Description: Korean NLP for R
+License: BSD
+SystemRequirements: Java (>= 1.5)
+Depends: rJava (>= 0.5-0)
+LinkingTo: rJava
+Built: R 2.13.1; ; 2011-10-24 08:39:19 UTC; windows
