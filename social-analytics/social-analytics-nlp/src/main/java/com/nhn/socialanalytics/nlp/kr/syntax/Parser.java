@@ -116,6 +116,7 @@ public class Parser {
 		return tree;
 	}
 	
+	/*
 	public ParseTree parse1(Sentence sentence) {
 		List<ParseTreeNode> nodeList = new ArrayList<ParseTreeNode>();
 		
@@ -155,6 +156,7 @@ public class Parser {
 		tree.setAllList();
 		return tree;
 	}
+	*/
 	
 	public ParseTreeEdge govern(ParseTreeNode ptnPrev, ParseTreeNode ptnNext, int distance) {
 		ParseTreeEdge arc = null;
