@@ -10,6 +10,7 @@ import com.nhn.socialanalytics.nlp.kr.util.DicUtil;
 
 public class Eojeol {
 	
+	private int id;
 	private int index;
 	private String source;
 	private String term;
@@ -22,7 +23,13 @@ public class Eojeol {
 	private int pattern;
 	private String constituent;
 	private int score;
-
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
 	public int getIndex() {
 		return index;
 	}
@@ -182,4 +189,24 @@ public class Eojeol {
 		
 		return sb.toString();		
 	}	
+	
+	public String toJSON() {
+		StringBuffer sb = new StringBuffer()
+			.append("{")
+			.append("'id':").append(id).append(",")
+			.append("'index':").append(index).append(",")
+			.append("'eojeol':").append(source).append(",")
+			.append("'term':").append(term).append(",")
+			.append("'josa':").append((josa != null) ? josa : " ").append(",")
+			.append("'josaTag':").append((josaTag != null) ? josaTag : " ").append(",")
+			.append("'eomi':").append((eomi != null) ? eomi : " ").append(",")
+			.append("'eomiTag':").append((eomiTag != null) ? eomiTag : " ").append(",")
+			.append("'pos':").append(pos).append(",")
+			.append("'posCode':").append((posCode != null) ? String.valueOf(posCode) : " ").append(",")
+			.append("'pattern':").append(pattern).append(",")
+			.append("'score':").append(score)
+			.append("}");
+		
+		return sb.toString();
+	}
 }

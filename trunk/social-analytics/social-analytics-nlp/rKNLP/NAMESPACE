@@ -1,3 +1,2 @@
 import("rJava")
-export("analyzeMorpheme")
-export("showParseTree")
+export("morphemeList", "morphemes", "parseTree", "showParseTree")

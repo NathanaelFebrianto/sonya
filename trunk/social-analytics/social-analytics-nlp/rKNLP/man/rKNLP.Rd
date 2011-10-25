@@ -1,16 +1,19 @@
 \name{rKNLP}
 \alias{rKNLP}
 %- Also NEED an '\alias' for EACH other topic documented here.
-\title{ ~~function to do ... ~~ }
+\title{ rKNLP - Korean Natural Language Processing for R }
 \description{
-~~ A concise (1-5 lines) description of what the function does. ~~
+rKNLP package is for analyzing Korean Natural Language Processing.
 }
 \usage{
-analyzeMorpheme(text)
+morphemeList(text)
+morphemes(text)
+parseTree(text)
+showParseTree(text)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-\item{analyzeMorpheme}{ ~~Describe \code{analyzeMorpheme} here~~ }
+\item{morphemes}{ ~~Describe \code{analyzeMorpheme} here~~ }
 }
 \details{
 11

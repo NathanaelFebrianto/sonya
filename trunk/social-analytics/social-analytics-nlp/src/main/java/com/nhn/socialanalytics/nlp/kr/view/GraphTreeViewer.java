@@ -368,10 +368,7 @@ public class GraphTreeViewer extends JPanel {
 	public void setSourceText(String text) {
 		tareaSentence.setText(text);
 	}
-	
-	/**
-	 * a driver for this demo
-	 */
+
 	public static void main(String[] args) {
 		
 		try {
@@ -395,7 +392,6 @@ public class GraphTreeViewer extends JPanel {
 			viewer.setSourceText(source);
 
 			content.add(viewer);
-			//frame.setSize(100, 100);
 			frame.pack();
 			frame.setVisible(true);
 		} catch (Exception e) {
