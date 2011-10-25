@@ -5,6 +5,8 @@ import java.util.List;
 
 import javax.swing.JFrame;
 
+import net.sf.json.JSONObject;
+
 import com.nhn.socialanalytics.nlp.kr.morpheme.Eojeol;
 import com.nhn.socialanalytics.nlp.kr.morpheme.MorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.kr.morpheme.Sentence;
@@ -20,7 +22,7 @@ import edu.uci.ics.jung.graph.Forest;
 
 public class Rknlp {
 	
-	private String defaultText = "Ã¶¼ö°¡ À½¾Ç¿¡ Àç´ÉÀÌ ¾øÀ¸¸é¼­µµ ³ë·¡¸¦ ¾ÆÁÖ ¿­½ÉÈ÷ ºÎ¸£´Â °ÍÀ» ¿µÈñ°¡ ¾È´Ù.";
+	private String defaultText = "ì² ìˆ˜ê°€ ìŒì•…ì— ì¬ëŠ¥ì´ ì—†ìœ¼ë©´ì„œë„ ë…¸ë˜ë¥¼ ì•„ì£¼ ì—´ì‹¬íˆ ë¶€ë¥´ëŠ” ê²ƒì„ ì˜í¬ê°€ ì•ˆë‹¤.";
 
 	public Rknlp() {
 		
@@ -43,8 +45,7 @@ public class Rknlp {
 		return eojeols;
 	}
 
-	/*
-	public String morphemes(String text) {
+	public String[] morphemes(String text) {
 		if (text == null || text.equals(""))
 			text = defaultText;
 		
@@ -52,13 +53,13 @@ public class Rknlp {
 		Sentence sentence = analyzer.extractMorphemes(text);
 		
 		JSONObject jsonObj = new JSONObject();
-		jsonObj.put("sentence", sentence);
+		jsonObj.put("eojeols", sentence);
 	
-		String strJson = jsonObj.toString(1);
-		return strJson;
+		String strJson = jsonObj.toString();
+		return new String[] { strJson };
 	}
 	
-	public String parseTree(String text) {		
+	public String[] parseTree(String text) {		
 		if (text == null || text.equals(""))
 			text = defaultText;
 		
@@ -88,12 +89,13 @@ public class Rknlp {
 			jsonObj.accumulate("edges", "{\"from\":" + edge.getFromId() + ",\"to\":" + edge.getToId() + "}");
 		}
 	
-		String strJson = jsonObj.toString(1);
-		return strJson;
+		String strJson = jsonObj.toString();
+		return new String[] { strJson };
 	}
-	*/
 
-	public String morphemes(String text) {
+	/*
+	public String[] morphemes(String text) {
+		
 		if (text == null || text.equals(""))
 			text = defaultText;
 		
@@ -111,12 +113,12 @@ public class Rknlp {
 		}	
 		
 		json.append("]");	
-		json.append("}");	
-
-		return json.toString();
+		json.append("}");
+		
+		return new String[] { json.toString() };
 	}
 	
-	public String parseTree(String text) {		
+	public String[] parseTree(String text) {		
 		if (text == null || text.equals(""))
 			text = defaultText;
 		
@@ -152,15 +154,16 @@ public class Rknlp {
 			ParseTreeEdge edge = edges.get(j);
 			json.append("{'from':" + edge.getFromId() + ",'to':" + edge.getToId() + "}");
 			
-			if (j < nodes.size()-1)
+			if (j < edges.size()-1)
 				json.append(",");	
 		}
 		
 		json.append("]");
 		json.append("}");
 
-		return json.toString();
+		return new String[] { json.toString() };
 	}
+	*/
 	
 	public void showParseTree(String text) {
 		
@@ -194,9 +197,12 @@ public class Rknlp {
 	
 	public static void main(String[] args) {
 		Rknlp rknlp = new Rknlp();
-		String text = "Ã¶¼ö°¡ À½¾Ç¿¡ Àç´ÉÀÌ ¾øÀ¸¸é¼­µµ ³ë·¡¸¦ ¾ÆÁÖ ¿­½ÉÈ÷ ºÎ¸£´Â °ÍÀ» ¿µÈñ°¡ ¾È´Ù.";
-		System.out.println(rknlp.morphemes(text));
-		//System.out.println(rknlp.parseTree(text));
+		String text = "ì² ìˆ˜ê°€ ìŒì•…ì— ì¬ëŠ¥ì´ ì—†ìœ¼ë©´ì„œë„ ë…¸ë˜ë¥¼ ì•„ì£¼ ì—´ì‹¬íˆ ë¶€ë¥´ëŠ” ê²ƒì„ ì˜í¬ê°€ ì•ˆë‹¤.";
+		String[] result1 = rknlp.morphemes(text);
+		System.out.println(result1[0]);
+		
+		//String[] result2 = rknlp.parseTree(text);
+		//System.out.println(result2[0]);
 	}
 	
 }

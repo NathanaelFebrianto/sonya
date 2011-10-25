@@ -27,8 +27,8 @@ public class SyntacticAnalyzer {
 	}
 	
 	public static void main(String[] args) {		
-		//String source = "ÀÌ ¹°°ÇÀº ¹è¼ÛÀÌ »¡¶ó¼­ Á¤¸» ÁÁÁö¸¸, Ç°ÁúÀÌ º°·Î ¾È ÁÁ³×¿ä.";
-		String source = "Ã¶¼ö°¡ À½¾Ç¿¡ Àç´ÉÀÌ ¾øÀ¸¸é¼­µµ ³ë·¡¸¦ ¾ÆÁÖ ¿­½ÉÈ÷ ºÎ¸£´Â °ÍÀ» ¿µÈñ°¡ ¾È´Ù.";
+		//String source = "ì´ ë¬¼ê±´ì€ ë°°ì†¡ì´ ë¹¨ë¼ì„œ ì •ë§ ì¢‹ì§€ë§Œ, í’ˆì§ˆì´ ë³„ë¡œ ì•ˆ ì¢‹ë„¤ìš”.";
+		String source = "ì² ìˆ˜ê°€ ìŒì•…ì— ì¬ëŠ¥ì´ ì—†ìœ¼ë©´ì„œë„ ë…¸ë˜ë¥¼ ì•„ì£¼ ì—´ì‹¬íˆ ë¶€ë¥´ëŠ” ê²ƒì„ ì˜í¬ê°€ ì•ˆë‹¤.";
 		
 		SyntacticAnalyzer analyzer = new SyntacticAnalyzer();
 		ParseTree tree = analyzer.parseTree(source);
