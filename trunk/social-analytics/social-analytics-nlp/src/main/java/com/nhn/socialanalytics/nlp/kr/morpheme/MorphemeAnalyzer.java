@@ -28,7 +28,7 @@ public class MorphemeAnalyzer {
 	};
   
 	public static final String[] KOR_STOP_WORDS = new String[]{
-		//"ÀÌ","±×","Àú","°Í","¼ö","µî","µé"
+		//"ì´","ê·¸","ì €","ê²ƒ","ìˆ˜","ë“±","ë“¤"
 	};	
 	
 	private Set<Object> stopSet;
@@ -92,8 +92,8 @@ public class MorphemeAnalyzer {
 	}
 	
 	public static void main(String[] args) {		
-		//String sentence = "ÀÌ ¹°°ÇÀº ¹è¼ÛÀÌ »¡¶ó¼­ Á¤¸» ÁÁÁö¸¸, Ç°ÁúÀÌ º°·Î ¾È ÁÁ³×¿ä.";
-		String sentence = "Ã¶¼ö°¡ À½¾Ç¿¡ Àç´ÉÀÌ ¾øÀ¸¸é¼­µµ ³ë·¡¸¦ ¾ÆÁÖ ¿­½ÉÈ÷ ºÎ¸£´Â °ÍÀ» ¿µÈñ°¡ ¾È´Ù.";
+		//String sentence = "ì´ ë¬¼ê±´ì€ ë°°ì†¡ì´ ë¹¨ë¼ì„œ ì •ë§ ì¢‹ì§€ë§Œ, í’ˆì§ˆì´ ë³„ë¡œ ì•ˆ ì¢‹ë„¤ìš”.";
+		String sentence = "ì² ìˆ˜ê°€ ìŒì•…ì— ì¬ëŠ¥ì´ ì—†ìœ¼ë©´ì„œë„ ë…¸ë˜ë¥¼ ì•„ì£¼ ì—´ì‹¬íˆ ë¶€ë¥´ëŠ” ê²ƒì„ ì˜í¬ê°€ ì•ˆë‹¤.";
 		
 		MorphemeAnalyzer analyzer = new MorphemeAnalyzer();
 		analyzer.extractMorphemes(sentence);	

@@ -18,11 +18,11 @@ public class ParseTree {
 	}
 
 	public void setRoot(ParseTreeNode ptn) {
-		root.addChildEdge(new ParseTreeEdge("¿¬°á", ptn, root, 1, 1));
+		root.addChildEdge(new ParseTreeEdge("ì—°ê²°", ptn, root, 1, 1));
 //		if (root == null) {
 //			root = ptn;
 //		} else {
-//			root.addChildEdge(new ParseTreeEdge("¿¬°á", ptn, root, 1, 1));
+//			root.addChildEdge(new ParseTreeEdge("ì—°ê²°", ptn, root, 1, 1));
 //		}
 	}
 

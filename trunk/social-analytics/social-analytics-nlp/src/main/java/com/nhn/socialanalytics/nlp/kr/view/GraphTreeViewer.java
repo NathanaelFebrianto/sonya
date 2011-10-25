@@ -272,7 +272,7 @@ public class GraphTreeViewer extends JPanel {
 		
 		tareaSentence = new JTextArea(2, 45);
 		if (tareaSentence.getText() == null || tareaSentence.getText().equals(""))
-			tareaSentence.setText("Ã¶¼ö°¡ À½¾Ç¿¡ Àç´ÉÀÌ ¾øÀ¸¸é¼­µµ ³ë·¡¸¦ ¾ÆÁÖ ¿­½ÉÈ÷ ºÎ¸£´Â °ÍÀ» ¿µÈñ°¡ ¾È´Ù.");
+			tareaSentence.setText("ì² ìˆ˜ê°€ ìŒì•…ì— ì¬ëŠ¥ì´ ì—†ìœ¼ë©´ì„œë„ ë…¸ë˜ë¥¼ ì•„ì£¼ ì—´ì‹¬íˆ ë¶€ë¥´ëŠ” ê²ƒì„ ì˜í¬ê°€ ì•ˆë‹¤.");
 		tareaSentence.setLineWrap(true);
 		panel.add(new JScrollPane(tareaSentence));
 				
@@ -373,8 +373,8 @@ public class GraphTreeViewer extends JPanel {
 		
 		try {
 			
-			//String source = "ÀÌ ¹°°ÇÀº ¹è¼ÛÀÌ »¡¶ó¼­ Á¤¸» ÁÁÁö¸¸, Ç°ÁúÀÌ º°·Î ¾ÈÁÁ³×¿ä.";
-			String source = "Ã¶¼ö°¡ À½¾Ç¿¡ Àç´ÉÀÌ ¾øÀ¸¸é¼­µµ ³ë·¡¸¦ ¾ÆÁÖ ¿­½ÉÈ÷ ºÎ¸£´Â °ÍÀ» ¿µÈñ°¡ ¾È´Ù.";
+			//String source = "ì´ ë¬¼ê±´ì€ ë°°ì†¡ì´ ë¹¨ë¼ì„œ ì •ë§ ì¢‹ì§€ë§Œ, í’ˆì§ˆì´ ë³„ë¡œ ì•ˆì¢‹ë„¤ìš”.";
+			String source = "ì² ìˆ˜ê°€ ìŒì•…ì— ì¬ëŠ¥ì´ ì—†ìœ¼ë©´ì„œë„ ë…¸ë˜ë¥¼ ì•„ì£¼ ì—´ì‹¬íˆ ë¶€ë¥´ëŠ” ê²ƒì„ ì˜í¬ê°€ ì•ˆë‹¤.";
 			
 			SyntacticAnalyzer analyzer = SyntacticAnalyzer.getInstance();
 			ParseTree tree = analyzer.parseTree(source);
