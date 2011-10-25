@@ -25,7 +25,6 @@ import java.util.Map;
 import java.util.Set;
 
 import javax.swing.BorderFactory;
-import javax.swing.JApplet;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
@@ -62,12 +61,11 @@ import edu.uci.ics.jung.visualization.control.DefaultModalGraphMouse;
 import edu.uci.ics.jung.visualization.control.ModalGraphMouse;
 import edu.uci.ics.jung.visualization.control.ScalingControl;
 import edu.uci.ics.jung.visualization.decorators.EdgeShape;
-import edu.uci.ics.jung.visualization.decorators.ToStringLabeller;
 import edu.uci.ics.jung.visualization.layout.LayoutTransition;
 import edu.uci.ics.jung.visualization.util.Animator;
 
 @SuppressWarnings("serial")
-public class GraphTreeViewer extends JApplet {
+public class GraphTreeViewer extends JPanel {
 	
 	JTextArea tareaSentence;
 	
@@ -111,10 +109,10 @@ public class GraphTreeViewer extends JApplet {
 
 		treeLayout = new TreeLayout<ParseTreeNode, ParseTreeEdge>(graph);
 		radialLayout = new RadialTreeLayout<ParseTreeNode, ParseTreeEdge>(graph);
-		radialLayout.setSize(new Dimension(600, 600));
+		radialLayout.setSize(new Dimension(550, 550));
 
 		vv = new VisualizationViewer<ParseTreeNode, ParseTreeEdge>(treeLayout,
-				new Dimension(600, 600));
+				new Dimension(550, 550));
 		vv.setBackground(Color.white);
 		vv.getRenderContext().setEdgeShapeTransformer(new EdgeShape.Line());
 		//vv.getRenderContext().setVertexLabelTransformer(new ToStringLabeller());
@@ -197,13 +195,12 @@ public class GraphTreeViewer extends JApplet {
 				new ConstantTransformer(Color.lightGray));
 		rings = new Rings();
 
-		Container content = getContentPane();
 		
 		// add sentence input panel
-		content.add(this.makeInputSentencePanel(), BorderLayout.NORTH);
+		add(this.makeInputSentencePanel(), BorderLayout.NORTH);
 		
 		final GraphZoomScrollPane panel = new GraphZoomScrollPane(vv);
-		content.add(panel, BorderLayout.CENTER);
+		add(panel, BorderLayout.CENTER);
 
 		final DefaultModalGraphMouse graphMouse = new DefaultModalGraphMouse();
 
@@ -264,15 +261,18 @@ public class GraphTreeViewer extends JApplet {
 		controls.add(scaleGrid);
 		controls.add(modeBox);
 
-		content.add(controls, BorderLayout.SOUTH);
+		add(controls, BorderLayout.SOUTH);
+		
+		this.setPreferredSize(new Dimension(580, 700));
 	}
 	
 	private JPanel makeInputSentencePanel() {
 		JPanel panel = new JPanel();
 		panel.setLayout(new FlowLayout());
 		
-		tareaSentence = new JTextArea(2, 50);
-		tareaSentence.setText("철수가 음악에 재능이 없으면서도 노래를 아주 열심히 부르는 것을 영희가 안다.");
+		tareaSentence = new JTextArea(2, 45);
+		if (tareaSentence.getText() == null || tareaSentence.getText().equals(""))
+			tareaSentence.setText("철수가 음악에 재능이 없으면서도 노래를 아주 열심히 부르는 것을 영희가 안다.");
 		tareaSentence.setLineWrap(true);
 		panel.add(new JScrollPane(tareaSentence));
 				
@@ -350,10 +350,8 @@ public class GraphTreeViewer extends JApplet {
 				ParseTree tree = analyzer.parseTree(source);
 				
 				GraphModeller modeller = new GraphModeller(GraphModeller.DIRECTED_SPARSE_GRAPH);
-				modeller.createGraph(tree.getNodeList(), tree.getEdgeList());			
-				
-				Dimension prefSize = new Dimension(900, 600);
-								
+				modeller.createGraph(tree.getNodeList(), tree.getEdgeList());					
+	
 				//vv.removeAll();
 				graph = modeller.getGraph();
 				treeLayout.setGraph(graph);
@@ -387,8 +385,6 @@ public class GraphTreeViewer extends JApplet {
 			GraphModeller modeller = new GraphModeller(GraphModeller.DIRECTED_SPARSE_GRAPH);
 			modeller.createGraph(tree.getNodeList(), tree.getEdgeList());			
 			
-			Dimension prefSize = new Dimension(900, 600);
-
 			Forest graph = modeller.getGraph();
 			
 			JFrame frame = new JFrame();
@@ -399,6 +395,7 @@ public class GraphTreeViewer extends JApplet {
 			viewer.setSourceText(source);
 
 			content.add(viewer);
+			//frame.setSize(100, 100);
 			frame.pack();
 			frame.setVisible(true);
 		} catch (Exception e) {
