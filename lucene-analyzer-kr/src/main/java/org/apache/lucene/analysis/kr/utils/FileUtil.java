@@ -59,6 +59,8 @@ public class FileUtil {
 		File file = null;
 		ClassLoader loader = FileUtil.class.getClassLoader();
 		URL url = loader.getResource(filename);
+		
+		//System.out.println("url == " + url);
 		if (url == null) {
 			url = ClassLoader.getSystemResource(filename);
 			if (url == null) {
@@ -68,7 +70,7 @@ public class FileUtil {
 		} else {
 			file = toFile(url);
 		}
-		if (file==null||!file.exists()) {
+		if (file == null || !file.exists()) {
 			return null;
 		}
 		return file;
@@ -113,8 +115,8 @@ public class FileUtil {
         try {
 
         	File file = getClassLoaderFile(fName);
-        	if(file!=null&&file.exists()) {
-        		in = openInputStream(file);
+        	if(file != null && file.exists()) {
+         		in = openInputStream(file);
         	} else {
         		in = new ByteArrayInputStream(readByteFromCurrentJar(fName));
         	}
@@ -274,6 +276,8 @@ public class FileUtil {
                     filename = filename.substring(0, pos) + ch + filename.substring(pos + 3);
                 }
             }
+            System.out.println("toFile == " + filename);
+            
             return new File(filename);
         }
     }
@@ -303,12 +307,14 @@ public class FileUtil {
 
 	public static byte[] readByteFromCurrentJar(String resource) throws MorphException {
 
-		String	jarPath = FileUtil.class.getProtectionDomain().getCodeSource().getLocation().getPath();
+		String jarPath = FileUtil.class.getProtectionDomain().getCodeSource().getLocation().getPath();
+		System.out.println("jarPath == " + jarPath);
 
 		JarResources jar = new JarResources(jarPath);
 		try {	
 			return jar.getResource(resource);
 		} catch (Exception e) {
+			e.printStackTrace();
 			throw new MorphException(e.getMessage(),e);
 		}
 	}
