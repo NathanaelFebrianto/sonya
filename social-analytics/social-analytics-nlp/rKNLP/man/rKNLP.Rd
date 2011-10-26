@@ -10,38 +10,34 @@ morphemeList(text)
 morphemes(text)
 parseTree(text)
 showParseTree(text)
+extratTerms(text)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
-\item{morphemes}{ ~~Describe \code{analyzeMorpheme} here~~ }
+\item{text}{ the string text to analyze }
 }
 \details{
-11
-~~ If necessary, more details than the __description__ above ~~
+....
 }
 \value{
-~Describe the value returned
-If it is a LIST, use
-\item{comp1 }{Description of 'comp1'}
-\item{comp2 }{Description of 'comp2'}
+Functions such as morphemes, parseTree return JSON format strings.
+%\item{comp1 }{Description of 'comp1'}
+%\item{comp2 }{Description of 'comp2'}
 ...
 }
-\references{ ~put references to the literature/web site here ~ }
-\author{ ~~who you are~~ }
-\note{ ~~further notes~~ }
+\references{ .... }
+\author{ Younggue Bae(louiezzang@hotmail.com) }
+\note{ .... }
 ~Make other sections like Warning with \section{Warning }{....} ~
-\seealso{ ~~objects to See Also as \code{\link{~~fun~~}}, ~~~ }
+\seealso{ See Also as \code{\link{...}} }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==> Define data, use random,
-##-- or do help(data=index) for the standard data sets.
-## The function is currently defined as
-function()
-{
-	jo <- .jnew("com.nhn.socialanalytics.nlp.kr.r.Rknlp")
-	out <- .jcall(jo, "[S", "analyzeMorpheme", text)
-	return(out)
+## Sample codes here!
+
+x1 <- morphemes("write your sentence to analyze...") # return json formt string
+x2 <- parseTree("write your sentence to analyze...") # return json formt string
+x3 <- extractTerms("write your sentence to analyze...") # return vector of terms
+showParseTree("write your sentence to analyze...")
+
 }
-}
-\keyword{ ~kwd1 }% at least one, from doc/KEYWORDS
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line
+\keyword{ NLP }% at least one, from doc/KEYWORDS
+\keyword{ textmining }% __ONLY ONE__ keyword per line

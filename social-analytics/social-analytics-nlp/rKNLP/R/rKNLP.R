@@ -23,6 +23,8 @@ showParseTree <- function(text) {
 }
 
 extractTerms <- function(text) {
+	library(RJSONIO)
+	
 	json1 <- morphemes(text)
 	json2 <- fromJSON(json1[[1]])
 	json3 <- json2[[1]]

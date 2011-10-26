@@ -10,7 +10,7 @@ public class SyntacticAnalyzer {
 	Parser parser;
 	
 	public SyntacticAnalyzer() {
-		analyzer = new MorphemeAnalyzer();
+		analyzer = MorphemeAnalyzer.getInstance();
 		parser = Parser.getInstance();
 	}
 	
@@ -30,7 +30,7 @@ public class SyntacticAnalyzer {
 		//String source = "이 물건은 배송이 빨라서 정말 좋지만, 품질이 별로 안 좋네요.";
 		String source = "철수가 음악에 재능이 없으면서도 노래를 아주 열심히 부르는 것을 영희가 안다.";
 		
-		SyntacticAnalyzer analyzer = new SyntacticAnalyzer();
+		SyntacticAnalyzer analyzer = SyntacticAnalyzer.getInstance();
 		ParseTree tree = analyzer.parseTree(source);
 	}
 }
