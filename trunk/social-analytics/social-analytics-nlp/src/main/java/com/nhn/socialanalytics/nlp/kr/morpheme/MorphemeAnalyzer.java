@@ -15,6 +15,7 @@ import org.apache.lucene.analysis.tokenattributes.OffsetAttribute;
 import org.apache.lucene.analysis.tokenattributes.TermAttribute;
 import org.apache.lucene.util.Version;
 
+import com.nhn.socialanalytics.nlp.kr.syntax.SyntacticAnalyzer;
 import com.nhn.socialanalytics.nlp.kr.util.DicUtil;
 
 public class MorphemeAnalyzer {
@@ -32,6 +33,8 @@ public class MorphemeAnalyzer {
 	};	
 	
 	private Set<Object> stopSet;
+	
+	private static MorphemeAnalyzer instance = null;
 	
 	private MorphAnalyzer morphAnalyzer;
 	
@@ -55,6 +58,12 @@ public class MorphemeAnalyzer {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}		
+	}
+	
+	public static MorphemeAnalyzer getInstance() {
+		if (instance == null)
+			instance = new MorphemeAnalyzer();
+		return instance;
 	}
 	
 	public Sentence extractMorphemes(String text) {

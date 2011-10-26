@@ -1,2 +1,2 @@
-import("rJava", "RJSONIO")
+import("rJava")
 export("morphemeList", "morphemes", "parseTree", "showParseTree", "extractTerms")
