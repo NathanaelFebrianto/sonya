@@ -100,12 +100,72 @@ public class MorphemeAnalyzer {
 		return sentence;
 	}
 	
+	public String extractTerms(String text) {
+		System.out.println("sentence == " + text);		
+		
+		StringBuffer sb = new StringBuffer();
+		
+		TokenStream stream = koreanAnalyzer.tokenStream("k", new StringReader(text));
+		
+		TermAttribute termAttr = stream.getAttribute(TermAttribute.class); 		
+        OffsetAttribute offSetAttr = stream.getAttribute(OffsetAttribute.class);
+        
+ 		try {
+	        while (stream.incrementToken()) {
+				try {					
+					List<AnalysisOutput> list = morphAnalyzer.analyze(termAttr.term());
+					
+					for (AnalysisOutput o : list) {	
+						sb.append(o.getStem()).append(" ");
+					}					
+				} catch (MorphException e) {
+					e.printStackTrace();
+				}
+			}
+		} catch (IOException ioe) {
+			ioe.printStackTrace();
+		}
+
+		return sb.toString();
+	}
+	
+	public String extractCoreTerms(String text) {
+		System.out.println("sentence == " + text);		
+		
+		StringBuffer sb = new StringBuffer();
+		
+		TokenStream stream = koreanAnalyzer.tokenStream("k", new StringReader(text));
+		
+		TermAttribute termAttr = stream.getAttribute(TermAttribute.class); 		
+        OffsetAttribute offSetAttr = stream.getAttribute(OffsetAttribute.class);
+        
+ 		try {
+	        while (stream.incrementToken()) {
+				try {					
+					List<AnalysisOutput> list = morphAnalyzer.analyze(termAttr.term());
+					
+					for (AnalysisOutput o : list) {
+						if (o.getPos() == 'N' || o.getPos() == 'V')
+							sb.append(o.getStem()).append(" ");
+					}					
+				} catch (MorphException e) {
+					e.printStackTrace();
+				}
+			}
+		} catch (IOException ioe) {
+			ioe.printStackTrace();
+		}
+
+		return sb.toString();
+	}
+	
 	public static void main(String[] args) {		
 		//String sentence = "이 물건은 배송이 빨라서 정말 좋지만, 품질이 별로 안 좋네요.";
 		String sentence = "철수가 음악에 재능이 없으면서도 노래를 아주 열심히 부르는 것을 영희가 안다.";
 		
 		MorphemeAnalyzer analyzer = new MorphemeAnalyzer();
 		analyzer.extractMorphemes(sentence);	
+		System.out.println(analyzer.extractTerms(sentence));	
 	}
 	
 }
