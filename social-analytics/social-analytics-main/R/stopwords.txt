@@ -1,0 +1,6 @@
+type,stopword
+tag,tagquestion
+tag,tagsmile
+tag,tagcry
+tag,taglove
+tag,tagexclamation
