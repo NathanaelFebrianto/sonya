@@ -2,6 +2,7 @@ package com.nhn.socialanalytics.nlp.kr.morpheme;
 
 import java.io.IOException;
 import java.io.StringReader;
+import java.lang.Character.UnicodeBlock;
 import java.util.List;
 import java.util.Set;
 
@@ -66,8 +67,31 @@ public class MorphemeAnalyzer {
 		return instance;
 	}
 	
+	public String removeUnsupportedCharacters(String str) {
+		for (int i = 0; i < str.length(); i++) {
+			char ch = str.charAt(i);
+			Character.UnicodeBlock unicodeBlock = Character.UnicodeBlock.of(ch);
+			
+			if ( !(Character.isDigit(ch)
+					|| UnicodeBlock.HANGUL_SYLLABLES.equals(unicodeBlock)
+					|| UnicodeBlock.HANGUL_COMPATIBILITY_JAMO.equals(unicodeBlock)
+					|| UnicodeBlock.HANGUL_JAMO.equals(unicodeBlock)
+					|| UnicodeBlock.BASIC_LATIN.equals(unicodeBlock)) 
+				) {
+				str = str.replace(ch, ' ');
+			}
+			
+			str = str.replaceAll("ᆢ", "");
+			str = str.replaceAll("'", "");
+		}
+		
+		return str;
+	}
+	
 	public Sentence extractMorphemes(String text) {
-		System.out.println("sentence == " + text);		
+		System.out.println("sentence == " + text);	
+		
+		text = removeUnsupportedCharacters(text);
 		
 		Sentence sentence = new Sentence(text);
 		
@@ -101,7 +125,9 @@ public class MorphemeAnalyzer {
 	}
 	
 	public String extractTerms(String text) {
-		System.out.println("sentence == " + text);		
+		System.out.println("sentence == " + text);	
+		
+		text = removeUnsupportedCharacters(text);
 		
 		StringBuffer sb = new StringBuffer();
 		
@@ -132,6 +158,8 @@ public class MorphemeAnalyzer {
 	public String extractCoreTerms(String text) {
 		System.out.println("sentence == " + text);		
 		
+		text = removeUnsupportedCharacters(text);
+		
 		StringBuffer sb = new StringBuffer();
 		
 		TokenStream stream = koreanAnalyzer.tokenStream("k", new StringReader(text));
@@ -161,7 +189,8 @@ public class MorphemeAnalyzer {
 	
 	public static void main(String[] args) {		
 		//String sentence = "이 물건은 배송이 빨라서 정말 좋지만, 품질이 별로 안 좋네요.";
-		String sentence = "철수가 음악에 재능이 없으면서도 노래를 아주 열심히 부르는 것을 영희가 안다.";
+		//String sentence = "철수가 음악에 재능이 없으면서도 노래를 아주 열심히 부르는 것을 영희가 안다.";
+		String sentence = "디시인사이드 일본연애갤러리나 네이버 사쿠라학원에 가시면 많은 자료가 있으니 그곳에도 많이 들려주세요(ﾉ^∇^)ﾉ";
 		
 		MorphemeAnalyzer analyzer = new MorphemeAnalyzer();
 		analyzer.extractMorphemes(sentence);	
