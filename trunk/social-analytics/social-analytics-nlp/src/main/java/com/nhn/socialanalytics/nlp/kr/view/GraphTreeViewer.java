@@ -25,6 +25,7 @@ import java.util.Map;
 import java.util.Set;
 
 import javax.swing.BorderFactory;
+import javax.swing.JApplet;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
@@ -65,7 +66,7 @@ import edu.uci.ics.jung.visualization.layout.LayoutTransition;
 import edu.uci.ics.jung.visualization.util.Animator;
 
 @SuppressWarnings("serial")
-public class GraphTreeViewer extends JPanel {
+public class GraphTreeViewer extends JApplet {
 	
 	JTextArea tareaSentence;
 	
@@ -263,14 +264,14 @@ public class GraphTreeViewer extends JPanel {
 
 		add(controls, BorderLayout.SOUTH);
 		
-		this.setPreferredSize(new Dimension(580, 700));
+		//this.setPreferredSize(new Dimension(580, 700));
 	}
 	
 	private JPanel makeInputSentencePanel() {
 		JPanel panel = new JPanel();
 		panel.setLayout(new FlowLayout());
 		
-		tareaSentence = new JTextArea(2, 45);
+		tareaSentence = new JTextArea(2, 50);
 		if (tareaSentence.getText() == null || tareaSentence.getText().equals(""))
 			tareaSentence.setText("철수가 음악에 재능이 없으면서도 노래를 아주 열심히 부르는 것을 영희가 안다.");
 		tareaSentence.setLineWrap(true);
