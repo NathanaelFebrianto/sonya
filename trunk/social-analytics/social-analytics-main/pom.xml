@@ -126,6 +126,14 @@
 			<version>2.0.1</version>
 		</dependency>
 
+		<!--  
+		<dependency>
+			<groupId>com.google.protobuf</groupId>
+			<artifactId>protobuf-java</artifactId>
+			<version>2.2.0</version>
+		</dependency>
+		-->
+
 		<!-- <dependency> <groupId>org.apache.hadoop.hive</groupId> <artifactId>hive-hbase-handler</artifactId> 
 			<version>0.7.1-cdh3u2-SNAPSHOT</version> </dependency> -->
 

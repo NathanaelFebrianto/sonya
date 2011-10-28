@@ -1,8 +1,0 @@
-type,stopword
-tag,tagquestion
-tag,tagsmile
-tag,tagcry
-tag,taglove
-tag,tagexclamation
-#common,카카오톡
-#common,카톡
