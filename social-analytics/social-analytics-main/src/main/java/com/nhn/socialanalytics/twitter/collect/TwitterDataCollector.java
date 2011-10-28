@@ -66,11 +66,13 @@ public class TwitterDataCollector {
 	
 	public void writeOutput(String objectId, List<twitter4j.Tweet> tweets) throws IOException {
 				
-		File file = new File(outputDir.getPath() + File.separator + objectId + ".txt");		
+		File file = new File(outputDir.getPath() + File.separator + objectId + ".txt");
+		File fileSource = new File(outputDir.getPath() + File.separator + objectId + "_src.txt");		
 		
 		BufferedWriter br = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file.getPath()), "UTF-8"));
-				
-		br.write("object_id	tweet_id	created_at	from_user	to_user	tweet_text	filtered_text	core_text");
+		BufferedWriter brSource = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(fileSource.getPath()), "UTF-8"));
+			
+		br.write("object_id	tweet_id	created_at	from_user	to_user	filtered_text1	filtered_text2");
 		br.newLine();
 			
 		MorphemeAnalyzer morph = MorphemeAnalyzer.getInstance();
@@ -78,28 +80,45 @@ public class TwitterDataCollector {
 		// post
 		for (twitter4j.Tweet tweet : tweets) {
 			String text = TwitterUtil.extractContent(tweet.getText());
-			text = morph.extractTerms(text);			
+						
+			//String orgText = tweet.getText().replaceAll("\n", " ").replaceAll("\t", " ");
 			
 			br.write(
 					objectId + "\t" +
 					tweet.getId() + "\t" +
-					tweet.getCreatedAt() + "\t" +
+					tweet.getCreatedAt() + "\t" + 
 					tweet.getFromUser() + "\t" +
 					tweet.getToUser() + "\t" +
-					tweet.getText().replaceAll("\n", " ").replaceAll("\t", " ") + "\t" +
-					morph.extractTerms(text) + "\t" +
-					morph.extractCoreTerms(text)
+					//orgText + "\t" +
+					morph.extractTerms(text) + "\t" +	// filtered text1
+					morph.extractCoreTerms(text) 		// filtered text2
 					);
 			br.newLine();
+			
+			//////////////////////
+			brSource.write(tweet.getText());
+			brSource.newLine();
 		}
 		br.close();
+		brSource.close();
 	}
 	
 	public static void main(String[] args) {
 		TwitterDataCollector collector = new TwitterDataCollector();
+		
 		String objectId = "navertalk";
-		String query = "네이버톡 OR 카카오톡 OR 네톡 OR 카톡";
-		List<twitter4j.Tweet> tweets = collector.searchTweets(objectId, query, "2011-10-01", null, 5);
+		String query = "네이버톡";
+		
+		//String objectId = "naver";
+		//String query = "네이버";
+		
+		//String objectId = "poll";
+		//String query = "선거";
+		
+		//String objectId = "galaxy";
+		//String query = "갤럭시 노트";
+		
+		List<twitter4j.Tweet> tweets = collector.searchTweets(objectId, query, "2011-08-01", null, 10);
 		
 		try {
 			collector.writeOutput(objectId, tweets);
