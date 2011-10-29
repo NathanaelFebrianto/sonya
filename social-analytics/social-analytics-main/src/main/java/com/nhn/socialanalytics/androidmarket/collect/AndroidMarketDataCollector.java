@@ -1,7 +1,6 @@
 package com.nhn.socialanalytics.androidmarket.collect;
 
 import java.util.List;
-import java.util.Locale;
 
 import com.gc.android.market.api.MarketSession;
 import com.gc.android.market.api.MarketSession.Callback;
@@ -21,9 +20,9 @@ public class AndroidMarketDataCollector {
 	public void searchAppsPerPage(String query, int startIndex) {		
 		
 		MarketSession session = new MarketSession();
-		session.login("louiezzang@gmail.com", "");
-		//session.getContext().setAndroidId("");
-		session.setLocale(Locale.KOREA);
+		session.login("louiezzang@gmail.com", "bae120809");
+		//session.getContext().setAndroidId("3774d56d682e549c");
+		//session.setLocale(Locale.KOREA);
 		
 		AppsRequest appsRequest = AppsRequest.newBuilder()
 				.setQuery(query)
@@ -59,8 +58,10 @@ public class AndroidMarketDataCollector {
 	}
 	
 	public void getAppCommentsPerPage(String appId, int startIndex) {
+		System.out.println("\n\nstart index == " + startIndex);
+		
 		MarketSession session = new MarketSession();
-		session.login("louiezzang@gmail.com", "");
+		session.login("louiezzang@gmail.com", "bae120809");
 
 		CommentsRequest commentsRequest = CommentsRequest.newBuilder()
 				.setAppId(appId)
@@ -71,9 +72,11 @@ public class AndroidMarketDataCollector {
 			//@Override
 			public void onResult(ResponseContext context, CommentsResponse response) {
 				List<Comment> comments = response.getCommentsList();
-				System.out.println("Response : " + response);
+				//System.out.println("Response : " + response);
 				
-				for (Comment comment : comments) {						
+				for (Comment comment : comments) {	
+					System.out.println("---------------------------------");
+					System.out.println("author id == " + comment.getAuthorId());
 					System.out.println("author name == " + comment.getAuthorName());
 					System.out.println("rating == " + comment.getRating());
 					System.out.println("text == " + comment.getText());
@@ -88,8 +91,7 @@ public class AndroidMarketDataCollector {
 	public void searchApps(String appId, int maxPage) {
 		int startIndex = 0;
 		for (int page = 0; page < maxPage; page++) {
-			startIndex = 10 * page + 1;
-			if (page == 0) startIndex = 0;
+			startIndex = 10 * page;
 			searchAppsPerPage(appId, startIndex);			
 		}		
 	}
@@ -97,8 +99,7 @@ public class AndroidMarketDataCollector {
 	public void getAppComments(String appId, int maxPage) {
 		int startIndex = 0;
 		for (int page = 0; page < maxPage; page++) {
-			startIndex = 10 * page + 1;
-			if (page == 0) startIndex = 0;
+			startIndex = 10 * page;
 			getAppCommentsPerPage(appId, startIndex);			
 		}		
 	}
@@ -108,11 +109,15 @@ public class AndroidMarketDataCollector {
 	public static void main(String[] args) {
 		AndroidMarketDataCollector collector = new AndroidMarketDataCollector();	
 		
-		String query = "pname:com.nhn.android.navertalk"; //pname:com.nhn.android.navertalk
-		collector.searchApps(query, 1);
+		String query = "네이버톡";
+		//String query = "pname:com.nhn.android.navertalk"; //pname:com.nhn.android.navertalk
+		//collector.searchApps(query, 1);
 		
-		String appId = "-2887520387127043454";
-		//collector.getAppComments(appId, 5);
+		//String appId = "com.nhn.android.navertalk";
+		//String appId = "com.nhn.android.search";
+		//String appId = "com.nhn.android.nbooks";
+		String appId = "com.kakao.talk";
+		collector.getAppComments(appId, 5);
 	}
 
 }
