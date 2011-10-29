@@ -13,7 +13,6 @@ J = 0;
 % Instructions: Compute the cost of a particular choice of theta
 %               You should set J to the cost.
 
-m = size(X, 1); % number of training examples
 predictions = theta(1,:).* X(:,1) + theta(2,:).* X(:,2); % predictions of hypothesis on all m examples
 sqrErrors = (predictions - y(:,1)).^2; % squared errors
 sqrErrors;
