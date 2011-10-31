@@ -142,7 +142,10 @@ public class MorphemeAnalyzer {
 					List<AnalysisOutput> list = morphAnalyzer.analyze(termAttr.term());
 					
 					for (AnalysisOutput o : list) {	
-						sb.append(o.getStem()).append(" ");
+						String term = o.getStem();
+						if (o.getPos() == 'V')
+							term = term + "다";
+						sb.append(term).append(" ");
 					}					
 				} catch (MorphException e) {
 					e.printStackTrace();
@@ -173,8 +176,12 @@ public class MorphemeAnalyzer {
 					List<AnalysisOutput> list = morphAnalyzer.analyze(termAttr.term());
 					
 					for (AnalysisOutput o : list) {
-						if (o.getPos() == 'N' || o.getPos() == 'V')
-							sb.append(o.getStem()).append(" ");
+						if (o.getPos() == 'N' || o.getPos() == 'V') {
+							String term = o.getStem();
+							if (o.getPos() == 'V')
+							term = term + "다";
+							sb.append(term).append(" ");
+						}
 					}					
 				} catch (MorphException e) {
 					e.printStackTrace();
