@@ -6,16 +6,16 @@ import java.util.regex.Pattern;
 
 import com.nhn.socialanalytics.twitter.parse.Extractor;
 
-public class TwitterUtil {
+public class TwitterParser {
 
 	private static String AT_SIGNS_CHARS = "@\uFF20";
 	
 	public static final Pattern AT_SIGNS = Pattern.compile("[" + AT_SIGNS_CHARS	+ "]");
 
 	public static final Pattern EXTRACT_RETWEET = Pattern.compile("^(?:["
-			+ com.nhn.socialanalytics.twitter.parse.regex.Spaces.getCharacterClass() + "])*" 
+			+ com.nhn.socialanalytics.twitter.parse.Spaces.getCharacterClass() + "])*" 
 			+ "([Rr])([Tt])" 
-			+ "([" + com.nhn.socialanalytics.twitter.parse.regex.Spaces.getCharacterClass() + "])" 
+			+ "([" + com.nhn.socialanalytics.twitter.parse.Spaces.getCharacterClass() + "])" 
 			+ AT_SIGNS + "([a-z0-9_]{1,20}).*",
 			Pattern.CASE_INSENSITIVE);
 	

@@ -1,6 +1,11 @@
 package com.nhn.socialanalytics.androidmarket.collect;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.OutputStreamWriter;
 import java.util.List;
+import java.util.Map;
 
 import com.gc.android.market.api.MarketSession;
 import com.gc.android.market.api.MarketSession.Callback;
@@ -11,6 +16,8 @@ import com.gc.android.market.api.model.Market.Comment;
 import com.gc.android.market.api.model.Market.CommentsRequest;
 import com.gc.android.market.api.model.Market.CommentsResponse;
 import com.gc.android.market.api.model.Market.ResponseContext;
+import com.google.protobuf.Descriptors.FieldDescriptor;
+import com.nhn.socialanalytics.common.Config;
 
 public class AndroidMarketDataCollector {
 
@@ -67,26 +74,53 @@ public class AndroidMarketDataCollector {
 				.setAppId(appId)
 				.setStartIndex(startIndex)
 				.setEntriesCount(10).build();
-
-		session.append(commentsRequest, new Callback<CommentsResponse>() {
+		
+		session.append(commentsRequest, new Callback<CommentsResponse>() {			
 			//@Override
 			public void onResult(ResponseContext context, CommentsResponse response) {
-				List<Comment> comments = response.getCommentsList();
 				//System.out.println("Response : " + response);
+				File outputDir = new File(Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR"));
+				File file = new File(outputDir.getPath() + File.separator + "android" + ".txt");
 				
-				for (Comment comment : comments) {	
-					System.out.println("---------------------------------");
-					System.out.println("author id == " + comment.getAuthorId());
-					System.out.println("author name == " + comment.getAuthorName());
-					System.out.println("rating == " + comment.getRating());
-					System.out.println("text == " + comment.getText());
-					System.out.println("creation time == " + comment.getCreationTime());
+				try {
+					BufferedWriter br = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file.getPath()), "UTF-8"));
+					br.write("creation_time	author_id	author_name	rating	text");
+					br.newLine();
+
+					List<Comment> comments = response.getCommentsList();					
+					for (Comment comment : comments) {	
+						System.out.println("---------------------------------");
+						System.out.println("author id == " + comment.getAuthorId());
+						System.out.println("author name == " + comment.getAuthorName());
+						System.out.println("rating == " + comment.getRating());
+						System.out.println("text == " + comment.getText());
+						System.out.println("creation time == " + comment.getCreationTime());
+						
+						/*
+						Map<FieldDescriptor, Object> fields = comment.getAllFields();
+						for (Map.Entry<FieldDescriptor, Object> entry : fields.entrySet()) {
+							System.out.println("key == " + entry.getKey());
+							System.out.println("value == " + entry.getValue());
+						}
+						*/
+						br.write(
+								comment.getCreationTime() + "\t" +
+								comment.getAuthorId() + "\t" +
+								comment.getAuthorName() + "\t" + 
+								comment.getRating() + "\t" +
+								comment.getText()
+								);
+						br.newLine();					
+					}					
+					br.close();
+				} catch (Exception e) {
+					e.printStackTrace();					
 				}
 			}
 		});
 
 		session.flush();		
-	}
+	}	
 	
 	public void searchApps(String appId, int maxPage) {
 		int startIndex = 0;
@@ -109,7 +143,7 @@ public class AndroidMarketDataCollector {
 	public static void main(String[] args) {
 		AndroidMarketDataCollector collector = new AndroidMarketDataCollector();	
 		
-		String query = "네이버톡";
+		//String query = "네이버톡";
 		//String query = "pname:com.nhn.android.navertalk"; //pname:com.nhn.android.navertalk
 		//collector.searchApps(query, 1);
 		
