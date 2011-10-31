@@ -28,7 +28,7 @@ public class Parser {
 		this.ruleList = new ArrayList<ParseRule>();
 
 		this.ruleList.add(new ParseRule(
-				"ºÎ°¡",										//relation
+				"ë¶€ê°€",										//relation
 				new String[]{ //"V", 
 						"JKS", "JKO", "JKM", 
 						"JX", "Z", "ECE", "ECD", "ECS" },	//dependentTags
@@ -37,21 +37,21 @@ public class Parser {
 				1));										//priority
 
 		this.ruleList.add(new ParseRule(
-				"°­Á¶",										//relation
+				"ê°•ì¡°",										//relation
 				new String[]{ "Z" },						//dependentTags
 				new String[]{ "Z" },						//governerTags
 				1,											//distance
 				2));										//priority
 
 		this.ruleList.add(new ParseRule(
-				"¼ö½Ä",										//relation
+				"ìˆ˜ì‹",										//relation
 				new String[]{ "N", "Z", "JKG", "ETD" },		//dependentTags
 				new String[]{ "N" },						//governerTags
 				1,											//distance
 				3));										//priority
 		
 		this.ruleList.add(new ParseRule(
-				"¼ö½Ä",										//relation
+				"ìˆ˜ì‹",										//relation
 				new String[]{ "N" },						//dependentTags
 				new String[]{ "V" },						//governerTags
 				1,											//distance
