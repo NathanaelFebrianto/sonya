@@ -66,13 +66,13 @@ public class TwitterDataCollector {
 	
 	public void writeOutput(String objectId, List<twitter4j.Tweet> tweets) throws IOException {
 				
-		File file = new File(outputDir.getPath() + File.separator + objectId + ".txt");
-		File fileSource = new File(outputDir.getPath() + File.separator + objectId + "_src.txt");		
+		File file = new File(outputDir.getPath() + File.separator + "twitter_" + objectId + ".txt");
+		File fileSource = new File(outputDir.getPath() + File.separator + "twitter_" + objectId + "_org.txt");		
 		
 		BufferedWriter br = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file.getPath()), "UTF-8"));
 		BufferedWriter brSource = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(fileSource.getPath()), "UTF-8"));
 			
-		br.write("object_id	tweet_id	created_at	from_user	to_user	filtered_text1	filtered_text2");
+		br.write("object_id	tweet_id	created_at	from_user	to_user	text1	text2");
 		br.newLine();
 			
 		MorphemeAnalyzer morph = MorphemeAnalyzer.getInstance();
@@ -106,8 +106,8 @@ public class TwitterDataCollector {
 	public static void main(String[] args) {
 		TwitterDataCollector collector = new TwitterDataCollector();
 		
-		String objectId = "navertalk";
-		String query = "네이버톡";
+		String objectId = "kakaotalk";
+		String query = "카카오톡";
 		
 		//String objectId = "naver";
 		//String query = "네이버";
