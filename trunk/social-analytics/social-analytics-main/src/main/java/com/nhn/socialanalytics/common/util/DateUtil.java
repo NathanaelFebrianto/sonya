@@ -49,4 +49,9 @@ public class DateUtil {
 		cal.add(Calendar.DAY_OF_YEAR, day);
 		return cal.getTime();
 	}
+	
+	public static String convertLongToString(String mask, long lDate) {
+		Date date = new Date(lDate);
+		return convertDateToString(mask, date);
+	}
 }

@@ -5,7 +5,6 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 import java.util.List;
-import java.util.Map;
 
 import com.gc.android.market.api.MarketSession;
 import com.gc.android.market.api.MarketSession.Callback;
@@ -16,8 +15,10 @@ import com.gc.android.market.api.model.Market.Comment;
 import com.gc.android.market.api.model.Market.CommentsRequest;
 import com.gc.android.market.api.model.Market.CommentsResponse;
 import com.gc.android.market.api.model.Market.ResponseContext;
-import com.google.protobuf.Descriptors.FieldDescriptor;
 import com.nhn.socialanalytics.common.Config;
+import com.nhn.socialanalytics.common.util.DateUtil;
+import com.nhn.socialanalytics.common.util.StringUtil;
+import com.nhn.socialanalytics.nlp.kr.morpheme.MorphemeAnalyzer;
 
 public class AndroidMarketDataCollector {
 
@@ -68,25 +69,25 @@ public class AndroidMarketDataCollector {
 		System.out.println("\n\nstart index == " + startIndex);
 		
 		MarketSession session = new MarketSession();
-		session.login("louiezzang@gmail.com", "bae120809");
-
+		session.login("louiezzang@gmail.com", "bae120809");		
+		
 		CommentsRequest commentsRequest = CommentsRequest.newBuilder()
 				.setAppId(appId)
 				.setStartIndex(startIndex)
 				.setEntriesCount(10).build();
-		
+
 		session.append(commentsRequest, new Callback<CommentsResponse>() {			
 			//@Override
 			public void onResult(ResponseContext context, CommentsResponse response) {
-				//System.out.println("Response : " + response);
-				File outputDir = new File(Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR"));
-				File file = new File(outputDir.getPath() + File.separator + "android" + ".txt");
-				
-				try {
-					BufferedWriter br = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file.getPath()), "UTF-8"));
-					br.write("creation_time	author_id	author_name	rating	text");
-					br.newLine();
+				//System.out.println("Response : " + response);	
 
+				try {
+					File outputDir = new File(Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR"));
+					File file = new File(outputDir.getPath() + File.separator + "androidmarket_kakaotalk" + ".txt");
+					BufferedWriter br = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file.getPath(), true), "UTF-8"));
+
+					MorphemeAnalyzer morph = MorphemeAnalyzer.getInstance();
+					
 					List<Comment> comments = response.getCommentsList();					
 					for (Comment comment : comments) {	
 						System.out.println("---------------------------------");
@@ -94,7 +95,7 @@ public class AndroidMarketDataCollector {
 						System.out.println("author name == " + comment.getAuthorName());
 						System.out.println("rating == " + comment.getRating());
 						System.out.println("text == " + comment.getText());
-						System.out.println("creation time == " + comment.getCreationTime());
+						System.out.println("creation time == " + DateUtil.convertLongToString("yyyyMMddHHmmss", comment.getCreationTime()));
 						
 						/*
 						Map<FieldDescriptor, Object> fields = comment.getAllFields();
@@ -103,14 +104,26 @@ public class AndroidMarketDataCollector {
 							System.out.println("value == " + entry.getValue());
 						}
 						*/
-						br.write(
-								comment.getCreationTime() + "\t" +
-								comment.getAuthorId() + "\t" +
-								comment.getAuthorName() + "\t" + 
-								comment.getRating() + "\t" +
-								comment.getText()
-								);
-						br.newLine();					
+						
+						String text = comment.getText();						
+						
+						text = StringUtil.removeUnsupportedCharacters(text);
+						
+						String text1 = morph.extractTerms(text);
+						String text2 = morph.extractCoreTerms(text);
+						
+						if (text.indexOf("알바") < 0 && !text.trim().equals("") && !text1.trim().equals("") && !text2.trim().equals("") ) {
+							br.write(
+									DateUtil.convertLongToString("yyyyMMddHHmmss", comment.getCreationTime()) + "\t" +
+									comment.getAuthorId() + "\t" +
+									comment.getAuthorName() + "\t" + 
+									comment.getRating() + "\t" +
+									//text + "\t" +
+									text1 + "\t" +
+									text2
+									);
+							br.newLine();							
+						}					
 					}					
 					br.close();
 				} catch (Exception e) {
@@ -151,7 +164,18 @@ public class AndroidMarketDataCollector {
 		//String appId = "com.nhn.android.search";
 		//String appId = "com.nhn.android.nbooks";
 		String appId = "com.kakao.talk";
-		collector.getAppComments(appId, 5);
+		
+		try {
+			File outputDir = new File(Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR"));
+			File file = new File(outputDir.getPath() + File.separator + "androidmarket_kakaotalk" + ".txt");
+			BufferedWriter br = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file.getPath(), false), "UTF-8"));
+			br.write("creation_time	author_id	author_name	rating	text1	text2");
+			br.newLine();
+			br.close();
+		} catch (Exception e) {
+			e.printStackTrace();					
+		}
+		collector.getAppComments(appId, 20);
 	}
 
 }
