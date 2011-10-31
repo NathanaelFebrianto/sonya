@@ -17,7 +17,7 @@ import twitter4j.TwitterFactory;
 import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.JobLogger;
 import com.nhn.socialanalytics.nlp.kr.morpheme.MorphemeAnalyzer;
-import com.nhn.socialanalytics.twitter.parse.TwitterUtil;
+import com.nhn.socialanalytics.twitter.parse.TwitterParser;
 
 public class TwitterDataCollector {
 
@@ -79,7 +79,7 @@ public class TwitterDataCollector {
 		
 		// post
 		for (twitter4j.Tweet tweet : tweets) {
-			String text = TwitterUtil.extractContent(tweet.getText());
+			String text = TwitterParser.extractContent(tweet.getText());
 						
 			//String orgText = tweet.getText().replaceAll("\n", " ").replaceAll("\t", " ");
 			

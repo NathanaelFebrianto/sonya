@@ -87,6 +87,6 @@ public class Regex {
 	  public static final int EXTRACT_MENTIONS_GROUP_USERNAME = 2;
 	  public static final int EXTRACT_MENTIONS_GROUP_AFTER = 3;
 
-	  public static final Pattern EXTRACT_REPLY = Pattern.compile("^(?:[" + com.nhn.socialanalytics.twitter.parse.regex.Spaces.getCharacterClass() + "])*" + AT_SIGNS + "([a-z0-9_]{1,20}).*", Pattern.CASE_INSENSITIVE);
+	  public static final Pattern EXTRACT_REPLY = Pattern.compile("^(?:[" + com.nhn.socialanalytics.twitter.parse.Spaces.getCharacterClass() + "])*" + AT_SIGNS + "([a-z0-9_]{1,20}).*", Pattern.CASE_INSENSITIVE);
 	  public static final int EXTRACT_REPLY_GROUP_USERNAME = 1;
 }

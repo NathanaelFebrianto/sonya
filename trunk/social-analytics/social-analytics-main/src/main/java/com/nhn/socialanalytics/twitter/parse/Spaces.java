@@ -1,4 +1,4 @@
-package com.nhn.socialanalytics.twitter.parse.regex;
+package com.nhn.socialanalytics.twitter.parse;
 
 public class Spaces {
   private static final String[] UNICODE_SPACE_RANGES = {
