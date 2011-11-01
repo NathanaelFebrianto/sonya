@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.nhn.socialanalytics.twitter.parse.Extractor;
+import com.nhn.socialanalytics.common.util.StringUtil;
 
 public class TwitterParser {
 
@@ -119,25 +119,9 @@ public class TwitterParser {
         
         out = out.replaceAll("\n", " ");
         out = out.replaceAll("\t", " ");
-        out = convertEmoticonToTag(out);
+        out = StringUtil.convertEmoticonToTag(out);
          
         return out;
-	}
-	
-	public static String convertEmoticonToTag(String text) {		
-		Extractor exractor = new Extractor();
-		text = exractor.replaceStrings(text, "(\\?+)", " TAGQUESTION ");
-		text = exractor.replaceStrings(text, "(\\^\\^+)", " TAGSMILE ");
-		text = exractor.replaceStrings(text, "(ㅋ+)", " TAGSMILE ");
-		text = exractor.replaceStrings(text, "(ㅎ+)", " TAGSMILE ");
-		text = exractor.replaceStrings(text, "(ㅜ+)", " TAGCRY ");
-		text = exractor.replaceStrings(text, "(ㅠ+)", " TAGCRY ");
-		text = exractor.replaceStrings(text, "(ㅡㅡ)", " TAGCRY ");
-		text = exractor.replaceStrings(text, "(♡+)", " TAGLOVE ");
-		text = exractor.replaceStrings(text, "(♥+)", " TAGLOVE ");
-		text = exractor.replaceStrings(text, "(!+)", " TAGEXCLAMATION ");		
-		
-		return text;
 	}
 
 }
