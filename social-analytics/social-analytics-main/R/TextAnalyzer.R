@@ -8,12 +8,13 @@ setwd("D:/dev/workspace/social-analytics-main/bin/data")
 library(RTextTools)
 library(topicmodels)
 library(tm)
+library(lsa)
 #library(rKNLP)
 
 ###
 # Gets the my stopwords.
 ###
-GetStopwords <- function() {  
+getStopwords <- function() {  
 	my.stopwords.table = read.table(file("stopwords.txt", encoding = "UTF-8"),
 			header = TRUE, comment.char = "#", sep = ",",
 			stringsAsFactors = FALSE, na.strings = "")
@@ -22,33 +23,35 @@ GetStopwords <- function() {
 			select = c("type", "stopword"),
 			subset = (my.stopwords.table$type %in% c("common", "tag")))
 	my.stopwords <- my.stopwords.subset$stopword
+    
+    print(my.stopwords)
 	
 	return (my.stopwords)
 }
 
 writeTermFrequency <- function(dtm, output.filename) { 
     # remove sparse terms to simplify the cluster plot
-		# Note: tweak the sparse parameter to determine the number of words.
-		# About 10-30 words is good.
-		mydata.dtm <- removeSparseTerms(dtm, sparse = 0.96)
-		nrow(mydata.dtm); ncol(mydata.dtm)
+	# Note: tweak the sparse parameter to determine the number of words.
+	# About 10-30 words is good.
+  	dtm.new <- removeSparseTerms(dtm, sparse = 0.97)
+	nrow(dtm.new); ncol(dtm.new)
 		
-		# export dtm
-		tf.matrix <- as.matrix(mydata.dtm)
+	# export dtm
+	tf.matrix <- as.matrix(dtm.new)
     write.csv(tf.matrix, file=paste("dtm_", output.filename, ".csv", sep = ""), row.names = TRUE)
 
-		v <- as.matrix(sort(colSums(tf.matrix), decreasing = TRUE)); v	
-		w <- rownames(v); length(w); w
-		colnames(v) <- c("tf")
+	v <- as.matrix(sort(colSums(tf.matrix), decreasing = TRUE)); v	
+	w <- rownames(v); length(w); w
+	colnames(v) <- c("tf")
 		
-		# export tf sum
-		write.csv(v, file=paste("tf_", output.filename, ".csv", sep = ""), row.names = TRUE)
-		
-		PlotTermFreq(v, output.filename)
+	# export tf sum
+	write.csv(v, file=paste("tf_", output.filename, ".csv", sep = ""), row.names = TRUE)
+	
+	plotTermFreq(v, output.filename)
 }
 
-PlotTermFreq <- function (tf.matrix, name) {
-  require(grDevices); # for colors
+plotTermFreq <- function (tf.matrix, name) {
+    require(grDevices); # for colors
 	#x <- sort(v[1:10,], decreasing=FALSE)
 	x <- sort(tf.matrix[,], decreasing=FALSE)	
 	title <- paste("Term Frequency - ", name, sep = "")
@@ -56,58 +59,170 @@ PlotTermFreq <- function (tf.matrix, name) {
 }
 
 
-findTopics <- function(input.filename, output.filename) {
+runLDA <- function(k = 6, input.filename, output.filename) {
+    
+#     input.filename <- "androidmarket_naverapp.txt"
+#     output.filename <- "androidmarket_naverapp"
+    
  	data = read.table(file(input.filename, encoding = "UTF-8"),
-			header = TRUE, comment.char = "#", sep = "\t",
+			header = TRUE, sep = "\t",
 			stringsAsFactors = FALSE, na.strings = "")
 	print(nrow(data))
 	colnames(data)
 	head(data)
+
+	df.terms <- data.frame(textCol = data$text1) 
+	print(nrow(df.terms))
+	head(df.terms)
+ 	df.terms = subset(df.terms, 
+ 			subset = (textCol != ""))
+	print(nrow(df.terms))
+	dfs <- DataframeSource(df.terms)
 	
-	mydata.terms <- data.frame(textCol = data$text1) 
-	print(nrow(mydata.terms))
-	head(mydata.terms)
-	mydata.terms = subset(mydata.terms, 
-			subset = (textCol != ""))
-	print(nrow(mydata.terms))
-	mydata.source <- DataframeSource(mydata.terms)
+	corpus <- Corpus(dfs)	
+	corpus <- tm_map(corpus, tolower)
 	
-	mydata.corpus <- Corpus(mydata.source)
-	
-	mydata.corpus <- tm_map(mydata.corpus, tolower)
-	
-	# remove punctuation
-	mydata.corpus <- tm_map(mydata.corpus, removePunctuation)	
-	
-	# remove generic and custom stopwords
-	all.stopwords <- c(stopwords('english'), GetStopwords())
-	mydata.corpus <- tm_map(mydata.corpus, removeWords, all.stopwords)
-	
-	mydata.dtm <- DocumentTermMatrix(mydata.corpus,
-			control = list(weighting = weightTf, minWordLength = 1,
-					stopwords = TRUE))
-	print(mydata.dtm)
-	
-	a <- mydata.dtm[1,1]
-	str(a)
-	
+	corpus <- tm_map(corpus, removePunctuation)
+    corpus <- tm_map(corpus, removeNumbers)
+	all.stopwords <- c(stopwords('english'), getStopwords())
+	corpus <- tm_map(corpus, removeWords, all.stopwords)
+
+	dtm <- DocumentTermMatrix(corpus,
+			control = list(weighting = weightTf 
+                    , minWordLength = 2
+					#, stopwords = TRUE
+                    #, removeNumbers = TRUE, 
+                    #, removePunctuation = TRUE
+                    ))
+	print(dtm)     
+	print(dim(dtm))   
+	print(summary(col_sums(dtm)))
+
+    # remove rows with all zero elements
+    dtm.nonzero = as.matrix(dtm)
+    dtm.nonzero <- dtm.nonzero[rowSums(dtm.nonzero) != 0, ] 
+     
 	# write term frequency
-	writeTermFrequency(mydata.dtm, output.filename)
-	
-	k <- 6
-	lda <- LDA(mydata.dtm, k)
-	print(terms(lda, 10))
-	print(topics(lda, 2))
+	writeTermFrequency(dtm, output.filename)    
+
+	lda <- LDA(dtm.nonzero, k)
+    return(lda)
 }
 
-# findTopics("androidmarket_navertalk.txt", "androidmarket_navertalk")
-# findTopics("androidmarket_naverapp.txt", "androidmarket_naverapp")
- findTopics("androidmarket_kakaotalk.txt", "androidmarket_kakaotalk")
-# findTopics("twitter_navertalk.txt", "twitter_navertalk")
-# findTopics("twitter_naverapp.txt", "twitter_naverapp")
-# findTopics("twitter_kakaotalk.txt", "twitter_kakaotalk")
+
+runLSA <- function(input.filename, output.filename) {
+    
+#   input.filename <- "androidmarket_navertalk.txt"
+#   output.filename <- "androidmarket_navertalk"
+    
+    data = read.table(file(input.filename, encoding = "UTF-8"),
+			header = TRUE, sep = "\t",
+			stringsAsFactors = FALSE, na.strings = "")
+	print(nrow(data))
+	colnames(data)
+	head(data)
+    df.terms = subset(df.terms, 
+ 			subset = (textCol != ""))
+    
+	df.terms <- data.frame(textCol = data$text1) 
+	print(nrow(df.terms))
+	head(df.terms)
+
+    print(nrow(df.terms))
+	dfs <- DataframeSource(df.terms)
+	
+	corpus <- Corpus(dfs)	
+	corpus <- tm_map(corpus, tolower)
+	
+	corpus <- tm_map(corpus, removePunctuation)
+    corpus <- tm_map(corpus, removeNumbers)
+	all.stopwords <- c(stopwords('english'), getStopwords())
+	corpus <- tm_map(corpus, removeWords, all.stopwords)
+
+	dtm <- TermDocumentMatrix(corpus,
+			control = list(weighting = weightTf 
+                    , minWordLength = 2 
+					#, stopwords = TRUE
+                    #, removeNumbers = TRUE, 
+                    #, removePunctuation = TRUE
+                    ))
+
+    print(dtm)     
+	print(dim(dtm))   
+	print(summary(col_sums(dtm)))
+    
+    lsa.space = lsa(dtm, dims = dimcalc_raw())
+    round(as.textmatrix(lsa.space), 2)
+    lsa.space = lsa(dtm, dims = dimcalc_share())
+    
+    mymatrix = as.textmatrix(lsa.space)
+    print(mymatrix)
+#   unlink(dtm, recursive=TRUE)
+    
+    return(mymatrix)
+}
+
+runLSA_1 <- function(input.filename, output.filename) {
+    
+    input.filename <- "androidmarket_navertalk.txt"
+    output.filename <- "androidmarket_navertalk"
+    
+    data = read.table(file(input.filename, encoding = "UTF-8"),
+    		header = TRUE, sep = "\t",
+			stringsAsFactors = FALSE, na.strings = "")
+	print(nrow(data))
+	colnames(data)
+	head(data)
+    
+    td = tempfile()
+    dir.create(td)
+    
+    for (i in 1:nrow(data)) {
+        write(data$text1, file = paste(td, paste("D", i, sep = ""), sep = "/"))
+    }
+    
+    dtm = textmatrix(td, minWordLength = 2)
+
+    print(dtm)     
+	print(dim(dtm))   
+	print(summary(col_sums(dtm)))
+    
+    lsa.space = lsa(dtm, dims = dimcalc_raw())
+    round(as.textmatrix(lsa.space), 2)
+    lsa.space = lsa(dtm, dims = dimcalc_share())
+    
+    mymatrix = as.textmatrix(lsa.space)
+    print(mymatrix)
+#   unlink(dtm, recursive=TRUE)
+    return(mymatrix)
+}
 
 
 
 
+######################################
+# LDA(Latent Dirichlet Allocation)
+######################################
+
+# k: number of topics
+k <- 6
+lda <- runLDA(k, "androidmarket_navertalk.txt", "androidmarket_navertalk")
+# lda <-runLDA(k,"androidmarket_kakaotalk.txt", "androidmarket_kakaotalk", )
+# lda <-runLDA(k,"androidmarket_naverapp.txt", "androidmarket_naverapp")
+
+# lda <-runLDA(k,"twitter_navertalk.txt", "twitter_navertalk")
+# lda <-runLDA(k,"twitter_kakaotalk.txt", "twitter_kakaotalk")
+# lda <-runLDA(k,"twitter_naverapp.txt", "twitter_naverapp")
+
+terms(lda, 15)
+topics(lda, 2)
+
+
+######################################
+# LSA(Latent Semantic Indexing)
+######################################
+
+lsa <- runLSA("androidmarket_navertalk.txt", "androidmarket_navertalk")
+str(lsa)
+associate(lsa, "ÁÁ´Ù", threshold = 0.7)
 

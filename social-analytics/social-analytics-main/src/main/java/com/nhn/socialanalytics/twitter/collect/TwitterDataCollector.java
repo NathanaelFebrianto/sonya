@@ -16,6 +16,7 @@ import twitter4j.TwitterFactory;
 
 import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.JobLogger;
+import com.nhn.socialanalytics.common.util.DateUtil;
 import com.nhn.socialanalytics.nlp.kr.morpheme.MorphemeAnalyzer;
 import com.nhn.socialanalytics.twitter.parse.TwitterParser;
 
@@ -86,7 +87,7 @@ public class TwitterDataCollector {
 			br.write(
 					objectId + "\t" +
 					tweet.getId() + "\t" +
-					tweet.getCreatedAt() + "\t" + 
+					DateUtil.convertDateToString("yyyyMMddHHmmss", tweet.getCreatedAt()) + "\t" + 
 					tweet.getFromUser() + "\t" +
 					tweet.getToUser() + "\t" +
 					//orgText + "\t" +
@@ -106,19 +107,16 @@ public class TwitterDataCollector {
 	public static void main(String[] args) {
 		TwitterDataCollector collector = new TwitterDataCollector();
 		
-		String objectId = "kakaotalk";
-		String query = "카카오톡";
+		//String objectId = "kakaotalk";
+		//String query = "카카오톡 OR 카톡";
 		
-		//String objectId = "naver";
-		//String query = "네이버";
+		//String objectId = "navertalk";
+		//String query = "네이버톡 OR 네톡";
 		
-		//String objectId = "poll";
-		//String query = "선거";
+		String objectId = "naverapp";
+		String query = "네이버앱";
 		
-		//String objectId = "galaxy";
-		//String query = "갤럭시 노트";
-		
-		List<twitter4j.Tweet> tweets = collector.searchTweets(objectId, query, "2011-08-01", null, 10);
+		List<twitter4j.Tweet> tweets = collector.searchTweets(objectId, query, "2011-02-01", null, 10);
 		
 		try {
 			collector.writeOutput(objectId, tweets);
