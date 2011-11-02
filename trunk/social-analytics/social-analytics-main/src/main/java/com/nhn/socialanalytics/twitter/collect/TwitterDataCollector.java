@@ -67,6 +67,8 @@ public class TwitterDataCollector {
 	
 	public void writeOutput(String objectId, List<twitter4j.Tweet> tweets) throws IOException {
 				
+		MorphemeAnalyzer morph = MorphemeAnalyzer.getInstance();
+		
 		File file = new File(outputDir.getPath() + File.separator + "twitter_" + objectId + ".txt");
 		File fileSource = new File(outputDir.getPath() + File.separator + "twitter_" + objectId + "_org.txt");		
 		
@@ -75,14 +77,11 @@ public class TwitterDataCollector {
 			
 		br.write("object_id	tweet_id	created_at	from_user	to_user	text1	text2");
 		br.newLine();
-			
-		MorphemeAnalyzer morph = MorphemeAnalyzer.getInstance();
 		
 		// post
 		for (twitter4j.Tweet tweet : tweets) {
 			String text = TwitterParser.extractContent(tweet.getText());
-						
-			//String orgText = tweet.getText().replaceAll("\n", " ").replaceAll("\t", " ");
+			text = TwitterParser.convertEmoticonToTag(text);
 			
 			br.write(
 					objectId + "\t" +
@@ -90,7 +89,7 @@ public class TwitterDataCollector {
 					DateUtil.convertDateToString("yyyyMMddHHmmss", tweet.getCreatedAt()) + "\t" + 
 					tweet.getFromUser() + "\t" +
 					tweet.getToUser() + "\t" +
-					//orgText + "\t" +
+					//text + "\t" +
 					morph.extractTerms(text) + "\t" +	// filtered text1
 					morph.extractCoreTerms(text) 		// filtered text2
 					);
@@ -107,11 +106,11 @@ public class TwitterDataCollector {
 	public static void main(String[] args) {
 		TwitterDataCollector collector = new TwitterDataCollector();
 		
-		//String objectId = "kakaotalk";
-		//String query = "카카오톡 OR 카톡";
-		
 		//String objectId = "navertalk";
 		//String query = "네이버톡 OR 네톡";
+
+		//String objectId = "kakaotalk";
+		//String query = "카카오톡 OR 카톡";
 		
 		String objectId = "naverapp";
 		String query = "네이버앱";

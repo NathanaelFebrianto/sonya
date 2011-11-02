@@ -65,7 +65,7 @@ runLDA <- function(k = 6, input.filename, output.filename) {
 #     output.filename <- "androidmarket_naverapp"
     
  	data = read.table(file(input.filename, encoding = "UTF-8"),
-			header = TRUE, sep = "\t",
+			header = TRUE, sep = "\t", comment.char = "",
 			stringsAsFactors = FALSE, na.strings = "")
 	print(nrow(data))
 	colnames(data)
@@ -116,21 +116,21 @@ runLSA <- function(input.filename, output.filename) {
 #   output.filename <- "androidmarket_navertalk"
     
     data = read.table(file(input.filename, encoding = "UTF-8"),
-			header = TRUE, sep = "\t",
+			header = TRUE, sep = "\t", comment.char = "",
 			stringsAsFactors = FALSE, na.strings = "")
-	print(nrow(data))
+
+    print(nrow(data))
 	colnames(data)
 	head(data)
-    df.terms = subset(df.terms, 
- 			subset = (textCol != ""))
     
-	df.terms <- data.frame(textCol = data$text1) 
+    df.terms <- data.frame(textCol = data$text1) 
 	print(nrow(df.terms))
 	head(df.terms)
-
-    print(nrow(df.terms))
+ 	df.terms = subset(df.terms, 
+ 			subset = (textCol != ""))
+	print(nrow(df.terms))
 	dfs <- DataframeSource(df.terms)
-	
+ 	
 	corpus <- Corpus(dfs)	
 	corpus <- tm_map(corpus, tolower)
 	
@@ -168,7 +168,7 @@ runLSA_1 <- function(input.filename, output.filename) {
     output.filename <- "androidmarket_navertalk"
     
     data = read.table(file(input.filename, encoding = "UTF-8"),
-    		header = TRUE, sep = "\t",
+    		header = TRUE, sep = "\t", comment.char = "",
 			stringsAsFactors = FALSE, na.strings = "")
 	print(nrow(data))
 	colnames(data)
@@ -206,23 +206,57 @@ runLSA_1 <- function(input.filename, output.filename) {
 
 # k: number of topics
 k <- 6
-lda <- runLDA(k, "androidmarket_navertalk.txt", "androidmarket_navertalk")
+
+#####################
+# Android Market
+#####################
+# lda <- runLDA(k, "androidmarket_navertalk.txt", "androidmarket_navertalk")
 # lda <-runLDA(k,"androidmarket_kakaotalk.txt", "androidmarket_kakaotalk", )
 # lda <-runLDA(k,"androidmarket_naverapp.txt", "androidmarket_naverapp")
 
+#####################
+# Twitter
+#####################
 # lda <-runLDA(k,"twitter_navertalk.txt", "twitter_navertalk")
 # lda <-runLDA(k,"twitter_kakaotalk.txt", "twitter_kakaotalk")
 # lda <-runLDA(k,"twitter_naverapp.txt", "twitter_naverapp")
+
+#####################
+# Me2DAY
+#####################
+lda <- runLDA(k, "me2day_navertalk.txt", "me2day_navertalk")
+lda <- runLDA(k, "me2day_kakaotalk.txt", "me2day_kakaotalk")
+lda <- runLDA(k, "me2day_naverapp.txt", "me2day_naverapp")
 
 terms(lda, 15)
 topics(lda, 2)
 
 
 ######################################
-# LSA(Latent Semantic Indexing)
+# LSA(Latent Semantic Analysis)
 ######################################
 
+#####################
+# Android Market
+#####################
 lsa <- runLSA("androidmarket_navertalk.txt", "androidmarket_navertalk")
-str(lsa)
-associate(lsa, "ÁÁ´Ù", threshold = 0.7)
+associate(lsa, "³×ÀÌ¹öÅå", threshold = 0.7)
+
+#####################
+# Twitter
+#####################
+lsa <- runLSA("twitter_navertalk.txt", "androidmarket_navertalk")
+associate(lsa, "³×ÀÌ¹öÅå", threshold = 0.7)
+
+#####################
+# Me2DAY
+#####################
+lsa <- runLSA("me2day_navertalk.txt", "me2day_navertalk")
+associate(lsa, "³×ÀÌ¹öÅå", threshold = 0.7)
+
+lsa <- runLSA("me2day_kakaotalk.txt", "me2day_kakaotalk")
+associate(lsa, "Ä«Ä«¿ÀÅå", threshold = 0.7)
+
+lsa <- runLSA("me2day_naverapp.txt", "me2day_naverapp")
+associate(lsa, "³×ÀÌ¹ö¾Û", threshold = 0.7)
 
