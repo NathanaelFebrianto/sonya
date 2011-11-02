@@ -25,6 +25,10 @@ public class ParseTree {
 //			root.addChildEdge(new ParseTreeEdge("연결", ptn, root, 1, 1));
 //		}
 	}
+	
+	public ParseTreeNode getRoot() {
+		return this.root;
+	}
 
 	public void traverse(StringBuffer sb) {
 		root.traverse(0, null, sb);
@@ -54,6 +58,14 @@ public class ParseTree {
 
 	public void setSentence(String sentence) {
 		this.sentence = sentence;
+	}
+	
+	public ParseTreeNode findNode(int nodeId) {
+		for (ParseTreeNode node : nodeList) {
+			if (node.getId() == nodeId)
+				return node;
+		}		
+		return null;
 	}
 
 }
