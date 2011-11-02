@@ -110,7 +110,6 @@ public class AndroidMarketDataCollector {
 						String text = comment.getText();	
 						text = StringUtil.removeUnsupportedCharacters(text);						
 						text = text.replaceAll("\t", " ");
-						text = text.replaceAll("#", "");
 						text = text.replaceAll("ㅣ", "");
 						
 						String textEmotiTagged = StringUtil.convertEmoticonToTag(text);

@@ -32,7 +32,6 @@ public class StringUtil {
 		return text;
 	}
 
-	
 	public static final String removeUnsupportedCharacters(String str) {
 		for (int i = 0; i < str.length(); i++) {
 			char ch = str.charAt(i);

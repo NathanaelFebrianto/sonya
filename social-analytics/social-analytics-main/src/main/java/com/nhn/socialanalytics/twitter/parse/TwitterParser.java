@@ -119,9 +119,13 @@ public class TwitterParser {
         
         out = out.replaceAll("\n", " ");
         out = out.replaceAll("\t", " ");
-        out = StringUtil.convertEmoticonToTag(out);
-         
+        out = StringUtil.removeUnsupportedCharacters(out);
+       
         return out;
+	}
+	
+	public static String convertEmoticonToTag(String text) {
+		return StringUtil.convertEmoticonToTag(text);
 	}
 
 }
