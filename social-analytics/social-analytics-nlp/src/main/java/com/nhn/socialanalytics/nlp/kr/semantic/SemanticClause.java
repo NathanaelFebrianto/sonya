@@ -15,9 +15,11 @@ public class SemanticClause implements Serializable {
 	private Set<String> objects = new HashSet<String>();
 	private Set<String> modifiers = new HashSet<String>();
 	private String standardLabel;
-	private int polarity; 
+	private double polarity; 
 	private double strength;
-	private int seq;
+	private double positiveWordCount;
+	private double negativeWordCount;
+	private int priority;
 	
 	private List<SemanticClause> childClauses = new ArrayList<SemanticClause>();
 	
@@ -60,10 +62,10 @@ public class SemanticClause implements Serializable {
 	public void setStandardLabel(String standardLabel) {
 		this.standardLabel = standardLabel;
 	}
-	public int getPolarity() {
+	public double getPolarity() {
 		return polarity;
 	}
-	public void setPolarity(int polarity) {
+	public void setPolarity(double polarity) {
 		this.polarity = polarity;
 	}
 	public double getStrength() {
@@ -72,6 +74,25 @@ public class SemanticClause implements Serializable {
 	public void setStrength(double strength) {
 		this.strength = strength;
 	}
+	public double getPositiveWordCount() {
+		return positiveWordCount;
+	}
+	public void setPositiveWordCount(double positiveWordCount) {
+		this.positiveWordCount = positiveWordCount;
+	}
+	public double getNegativeWordCount() {
+		return negativeWordCount;
+	}
+	public void setNegativeWordCount(double negativeWordCount) {
+		this.negativeWordCount = negativeWordCount;
+	}
+	public int getPriority() {
+		return priority;
+	}
+	public void setPriority(int priority) {
+		this.priority = priority;
+	}
+	
 	
 	public void addObject(String object) {
 		objects.add(object);
@@ -97,18 +118,54 @@ public class SemanticClause implements Serializable {
 		clause.setPolarity(polarity);
 		clause.setStrength(strength);
 		clause.setChilds(childClauses);	
+		clause.setPriority(priority);	
 
 		return clause;
+	}
+	
+	public String makeLabel(boolean includeChild) {
+		String label = null;		
+		
+		if (subject != null && predicate != null) {
+			label = subject + "ㅡ" + predicate;
+		}
+		else if (subject == null && predicate != null) {
+			label = predicate;
+			if (objects.size() > 0) {
+				for (String object : objects) {
+					label = label + " " + object + "ㅡ" + predicate;
+				}
+			}			
+		}
+		else if (subject != null && predicate == null) {
+			label = subject;
+		}						
+		
+		if (includeChild) {
+			String childLabels = null;
+			for (SemanticClause child : childClauses) {
+				if (childLabels != null)
+					childLabels = childLabels + " " + child.makeLabel(includeChild);
+				else
+					childLabels = child.makeLabel(includeChild);
+			}
+			
+			if (childLabels != null)
+				label = childLabels + " " + label;			
+		}
+		
+		return label;
 	}
 	
 	public String toString() {
 		StringBuffer sb = new StringBuffer()
 			//.append("id = ").append(id)	
+			.append(" *priority = ").append(priority)
 			.append(" *subject = ").append(subject)
 			.append(" *predicate = ").append(predicate)
 			.append(" *objects = ").append(objects.toString())
 			.append(" *modifiers = ").append(modifiers.toString())			
-			.append(" standardLabel = ").append(standardLabel)
+			.append(" standardLabel = ").append(makeLabel(false))
 			.append(" polarity = ").append(polarity)
 			.append(" strength = ").append(strength);		
 		
