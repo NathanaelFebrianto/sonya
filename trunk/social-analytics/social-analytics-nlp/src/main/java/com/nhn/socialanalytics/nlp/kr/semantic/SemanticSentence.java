@@ -1,6 +1,8 @@
 package com.nhn.socialanalytics.nlp.kr.semantic;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Set;
 
 @SuppressWarnings("serial")
@@ -8,6 +10,8 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 	
 	private int id = -1;
 	private String sentence;
+	private double polarity;
+	private double polarityStrength;
 	
 	public SemanticSentence(int id, String sentence) {
 		this.id = id;
@@ -20,6 +24,19 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 
 	public String getSentence() {
 		return sentence;
+	}
+	
+	public double getPolarity() {
+		return polarity;
+	}
+	public void setPolarity(double polarity) {
+		this.polarity = polarity;
+	}
+	public double getPolarityStrength() {
+		return polarityStrength;
+	}
+	public void setPolarityStrength(double polarityStrength) {
+		this.polarityStrength = polarityStrength;
 	}
 	
 	public boolean add(SemanticClause clause) {
@@ -137,6 +154,97 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 				return true;
 		}
 		return false;	
+	}
+	
+	public void sort(boolean ascending) {
+		Collections.sort(this, new SemanticSentenceComparator(ascending));
+	}
+	
+	public double sumPostiveWordCount() {
+		double posWordCount = 0.0;
+		for (SemanticClause clause : this) {	
+			posWordCount = posWordCount + clause.getPositiveWordCount();	
+		}
+		return posWordCount;
+	}
+	
+	public double sumNegativeWordCount() {
+		double negWordCount = 0.0;
+		for (SemanticClause clause : this) {	
+			negWordCount = negWordCount + clause.getNegativeWordCount();	
+		}
+		return negWordCount;
+	}
+	
+	public void calculatePolarity() {
+		this.sort(true);		
+		
+		double weightedPolarity = 0.0;
+		boolean isSubjective = false;
+		boolean isAllSamePriority = true;
+		
+		int prevPriority = 1;
+		for (SemanticClause clause : this) {	
+			weightedPolarity = weightedPolarity + (clause.getPolarity() * clause.getStrength());	
+			
+			if (clause.getPolarity() < 0.0)
+				isSubjective = true;
+			
+			if (prevPriority < clause.getPriority())
+				isAllSamePriority = false;
+			
+			prevPriority = clause.getPriority();
+		}
+		
+		// polarity
+		if (!isAllSamePriority && weightedPolarity > 0) {
+			this.setPolarity(1.0);
+			this.setPolarityStrength(Math.abs(weightedPolarity));
+		}
+		else if (!isAllSamePriority && weightedPolarity < 0) {
+			this.setPolarity(-1.0);
+			this.setPolarityStrength(Math.abs(weightedPolarity));
+		}
+		else if (isSubjective && (isAllSamePriority || weightedPolarity == 0)) {
+			double posWordCount = this.sumPostiveWordCount();
+			double negWordCount = this.sumNegativeWordCount();
+			
+			System.out.println("positive word count == " + posWordCount);
+			System.out.println("negative word count == " + negWordCount);			
+			
+			if (posWordCount > negWordCount) {
+				this.setPolarity(1.0);
+				this.setPolarityStrength( posWordCount / (posWordCount + negWordCount) );
+			}
+			else if (posWordCount <= negWordCount) {
+				this.setPolarity(-1.0);
+				this.setPolarityStrength( negWordCount / (posWordCount + negWordCount) );
+			}						
+		}
+		else {
+			this.setPolarity(0.0);
+			this.setPolarityStrength(Math.abs(weightedPolarity));
+		}
+		
+		System.out.println("sentence polarity == " + this.getPolarity());
+		System.out.println("sentence polarity strength == " + this.getPolarityStrength());
+	}
+	
+	class SemanticSentenceComparator implements Comparator<SemanticClause> {
+		private boolean ascending = true;
+		
+		public SemanticSentenceComparator(boolean ascending) {
+			this.ascending = ascending;				
+		}
+		
+		public int compare(SemanticClause c1, SemanticClause c2) {		
+			Integer p1 = c1.getPriority();
+			Integer p2 = c2.getPriority();
+			if (ascending)
+				return p1.compareTo(p2);
+			else
+				return p2.compareTo(p1);
+		}		
 	}
 
 }

@@ -6,6 +6,7 @@ import java.util.Comparator;
 import java.util.HashSet;
 import java.util.List;
 
+@SuppressWarnings("serial")
 public class Sentence extends ArrayList<Eojeol> {
 
 	private String sentence;

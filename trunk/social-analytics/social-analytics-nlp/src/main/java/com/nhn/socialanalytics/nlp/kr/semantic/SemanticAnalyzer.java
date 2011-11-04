@@ -1,6 +1,5 @@
 package com.nhn.socialanalytics.nlp.kr.semantic;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import com.nhn.socialanalytics.nlp.kr.morpheme.Eojeol;
@@ -34,28 +33,30 @@ public class SemanticAnalyzer {
 			Eojeol eojeol = childNode.getEojeol();
 			char pos = eojeol.getPos();
 			String josaTag = eojeol.getJosaTag();
-			String eomiTag = eojeol.getEomiTag();
+			//String eomiTag = eojeol.getEomiTag();
 			String term = eojeol.getTerm();
 			
 			SemanticClause clause = new SemanticClause();
 			
-			List<SemanticClause> incompletedClauses = new ArrayList<SemanticClause>();
+			int priority = 1;
 			if (pos == 'V') {
 				clause.setPredicate(term+"다");	
+				clause.setPriority(priority);
 			}
 			else if (pos == 'N' && ("JX".equals(josaTag) || "JKS".equals(josaTag))) {
 				clause.setSubject(term);				
 			}
 			
-			sentence.add(clause);			
-			exploreSemanticClause(tree, sentence, clause, childNode);
+			sentence.add(clause);	
+			priority++;
+			exploreSemanticClause(tree, sentence, clause, childNode, priority);
 		}
 		
 		return sentence;
 	}
 	
 	public SemanticSentence exploreSemanticClause(ParseTree tree, SemanticSentence sentence, 
-			SemanticClause prevClause, ParseTreeNode node) {
+			SemanticClause prevClause, ParseTreeNode node, int priority) {
 		
 		List<ParseTreeEdge> childEdges = node.getChildEdges();
 		
@@ -64,13 +65,15 @@ public class SemanticAnalyzer {
 				int toId = edge.getToId();			
 				ParseTreeNode childNode = tree.findNode(toId);
 				
-				System.out.println("to id == " + toId);
+				System.out.println("to node id == " + toId);
+				System.out.println("edge priority == " + edge.getPriority());
+				System.out.println("edge distance == " + edge.getDistance());
 				System.out.println("chile node == " + childNode.getEojeol().toString());
 				
 				Eojeol eojeol = childNode.getEojeol();
 				char pos = eojeol.getPos();
 				String josaTag = eojeol.getJosaTag();
-				String eomiTag = eojeol.getEomiTag();
+				//String eomiTag = eojeol.getEomiTag();
 				String term = eojeol.getTerm();
 				
 				SemanticClause clause = null;
@@ -78,7 +81,8 @@ public class SemanticAnalyzer {
 				if (pos == 'V') {
 					clause = new SemanticClause();
 					clause.setPredicate(term+"다");	
-					prevClause.addChild(clause);
+					clause.setPriority(priority);
+					prevClause.addChild(clause);					
 				}
 				else if (pos == 'N' && ("JX".equals(josaTag) || "JKS".equals(josaTag))) {
 					char[] tags = sentence.checkSemanticClause(prevClause.getSubject(), prevClause.getPredicate());
@@ -114,8 +118,9 @@ public class SemanticAnalyzer {
 				} else {
 					clause = prevClause;
 				}
-								
-				exploreSemanticClause(tree, sentence, clause, childNode);
+				
+				priority++;
+				exploreSemanticClause(tree, sentence, clause, childNode, priority);
 			}			
 		}
 		
@@ -123,13 +128,15 @@ public class SemanticAnalyzer {
 	}
 	
 	public static void main(String[] args) {		
-		//String source = "이 물건은 배송이 빨라서 정말 좋지만, 품질이 별로  안좋네요.";
+		String source = "이 물건은 배송이 빨라서 정말 좋지만, 품질이 별로  안좋네요.";
 		//String source = "철수가 음악에 재능이 없으면서도 노래를 아주 열심히 부르는 것을 영희가 안다.";
-		String source = "외장메모리로 옮길 수 있도록 업데이트 좀 해주세요. 어플 용량 2.5MB 어플이 내장메모리 설치라 안드로이드폰에선 좀 버겁네요. 라인 한 줄 넣는거 어렵지 않잖아요 개발자님. 빠른 업데이트 바랍니다. 참고로 EVO 4G+ 사용중입니다";
+		//String source = "외장메모리로 옮길 수 있도록 업데이트 좀 해주세요. 어플 용량 2.5MB 어플이 내장메모리 설치라 안드로이드폰에선 좀 버겁네요. 라인 한 줄 넣는거 어렵지 않잖아요 개발자님. 빠른 업데이트 바랍니다. 참고로 EVO 4G+ 사용중입니다";
 		//String source = "제발 기본 기능인 로그인 좀 잘 되게 해주세요";
+		//String source = "카톡은 푸쉬가 안되지만 네이버톡은 되네";
 				
 		SemanticAnalyzer analyzer = new SemanticAnalyzer();
 		SemanticSentence ss = analyzer.createSemanticClause(source);
+		ss.sort(true);
 		
 		System.out.println("-------------------------------------");
 		for (SemanticClause clause : ss) {

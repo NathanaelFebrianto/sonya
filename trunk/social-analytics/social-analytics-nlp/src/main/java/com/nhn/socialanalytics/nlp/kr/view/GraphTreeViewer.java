@@ -18,6 +18,7 @@ import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.Point2D;
+import java.io.File;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -31,6 +32,7 @@ import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
+import javax.swing.JSplitPane;
 import javax.swing.JTextArea;
 import javax.swing.JToggleButton;
 
@@ -40,6 +42,10 @@ import org.apache.commons.collections15.functors.ConstantTransformer;
 import org.apache.commons.collections15.functors.MapTransformer;
 import org.apache.commons.collections15.map.LazyMap;
 
+import com.nhn.socialanalytics.nlp.kr.semantic.SemanticAnalyzer;
+import com.nhn.socialanalytics.nlp.kr.semantic.SemanticClause;
+import com.nhn.socialanalytics.nlp.kr.semantic.SemanticSentence;
+import com.nhn.socialanalytics.nlp.kr.sentiment.SentimentAnalyzer;
 import com.nhn.socialanalytics.nlp.kr.syntax.ParseTree;
 import com.nhn.socialanalytics.nlp.kr.syntax.ParseTreeEdge;
 import com.nhn.socialanalytics.nlp.kr.syntax.ParseTreeNode;
@@ -68,7 +74,8 @@ import edu.uci.ics.jung.visualization.util.Animator;
 @SuppressWarnings("serial")
 public class GraphTreeViewer extends JApplet {
 	
-	JTextArea tareaSentence;
+	JTextArea tareaSentence;	
+	JTextArea tareaSemanticOutput;
 	
 	/**
 	 * the graph
@@ -201,7 +208,13 @@ public class GraphTreeViewer extends JApplet {
 		add(this.makeInputSentencePanel(), BorderLayout.NORTH);
 		
 		final GraphZoomScrollPane panel = new GraphZoomScrollPane(vv);
-		add(panel, BorderLayout.CENTER);
+		
+		JSplitPane splitPane = new JSplitPane();
+		splitPane.setOneTouchExpandable(true);
+		splitPane.add(panel, JSplitPane.LEFT);
+		splitPane.add(this.makeSemanticOutputPanel(), JSplitPane.RIGHT);
+		
+		add(splitPane, BorderLayout.CENTER);
 
 		final DefaultModalGraphMouse graphMouse = new DefaultModalGraphMouse();
 
@@ -271,7 +284,7 @@ public class GraphTreeViewer extends JApplet {
 		JPanel panel = new JPanel();
 		panel.setLayout(new FlowLayout());
 		
-		tareaSentence = new JTextArea(2, 50);
+		tareaSentence = new JTextArea(2, 70);
 		if (tareaSentence.getText() == null || tareaSentence.getText().equals(""))
 			tareaSentence.setText("철수가 음악에 재능이 없으면서도 노래를 아주 열심히 부르는 것을 영희가 안다.");
 		tareaSentence.setLineWrap(true);
@@ -286,6 +299,18 @@ public class GraphTreeViewer extends JApplet {
 		btnRun.addActionListener(runActionListener);
 		panel.add(btnRun);
 		
+		return panel;
+	}
+	
+	private JPanel makeSemanticOutputPanel() {
+		JPanel panel = new JPanel();
+		panel.setLayout(new BorderLayout());
+		
+		tareaSemanticOutput = new JTextArea(34, 30);
+		tareaSemanticOutput.setLineWrap(true);
+
+		panel.add(new JScrollPane(tareaSemanticOutput), BorderLayout.CENTER);	
+				
 		return panel;
 	}
 
@@ -347,8 +372,8 @@ public class GraphTreeViewer extends JApplet {
 			if (tareaSentence.getText() != null) {
 				String source = tareaSentence.getText().trim();
 				
-				SyntacticAnalyzer analyzer = SyntacticAnalyzer.getInstance();
-				ParseTree tree = analyzer.parseTree(source);
+				SyntacticAnalyzer syntaticAnalyzer = SyntacticAnalyzer.getInstance();
+				ParseTree tree = syntaticAnalyzer.parseTree(source);
 				
 				GraphModeller modeller = new GraphModeller(GraphModeller.DIRECTED_SPARSE_GRAPH);
 				modeller.createGraph(tree.getNodeList(), tree.getEdgeList());					
@@ -359,6 +384,40 @@ public class GraphTreeViewer extends JApplet {
 				radialLayout.setGraph(graph);
 				this.changeVerbVerticesColor();
 				vv.repaint();
+				
+				SemanticAnalyzer semanticAnalyzer = new SemanticAnalyzer();
+				SemanticSentence ss = semanticAnalyzer.createSemanticClause(source);
+				
+				File liwcCatFile = new File("./liwc/LIWC_ko.txt");
+				SentimentAnalyzer sentimentAnalyzer = new SentimentAnalyzer(liwcCatFile);
+				
+				ss.sort(true);
+				tareaSemanticOutput.append("\n\n=================================\n");
+				tareaSemanticOutput.append("       Semantic Analysis\n");
+				tareaSemanticOutput.append("=================================\n");
+				tareaSemanticOutput.append(source + "\n");				
+				tareaSemanticOutput.append("-------------------------------------\n");
+				for (SemanticClause clause : ss) {
+					clause = sentimentAnalyzer.analyzePolarity(clause);
+					tareaSemanticOutput.append(clause.toString() + "\n");
+					tareaSemanticOutput.append("-------------------------------------\n");
+				}
+				
+				ss.calculatePolarity();
+				
+				tareaSemanticOutput.append("\n=================================\n");
+				tareaSemanticOutput.append("       Sentiment Analysis\n");
+				tareaSemanticOutput.append("=================================\n");
+				tareaSemanticOutput.append("polarity = " + ss.getPolarity());
+				if (ss.getPolarity() == 1.0)
+					tareaSemanticOutput.append(" (positive)\n");
+				else if (ss.getPolarity() == -1.0)
+					tareaSemanticOutput.append(" (negative)\n");
+				else
+					tareaSemanticOutput.append(" (neutral)\n");
+				
+				tareaSemanticOutput.append("strength = " + ss.getPolarityStrength() + "\n");
+				tareaSemanticOutput.append("-------------------------------------\n");				
 			}
 
 		} catch (Exception ex) {
