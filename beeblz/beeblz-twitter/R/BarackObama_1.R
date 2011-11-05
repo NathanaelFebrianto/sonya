@@ -315,7 +315,7 @@ PlotGapZscore <- function() {
 	# (cex) and uses the same line colors and points used by 
 	# the actual plots
 	legend(1, max_y, 
-			c("Gallup (Approve-Disapprove)", "Twitter (Positive-Negative"), 
+			c("Gallup (Approve-Disapprove)", "Twitter (Positive-Negative)"), 
 			cex = 1.0, col = plot_colors, 
 			#pch = 21:22, 
 			lty = c("dashed", "solid"), lwd =3)
@@ -367,7 +367,7 @@ PlotPNRateZscore <- function() {
 	# (cex) and uses the same line colors and points used by 
 	# the actual plots
 	legend(1, max_y, 
-			c("Gallup (Approve/Disapprove)", "Twitter (Positive/Negative"), 
+			c("Gallup (Approve/Disapprove)", "Twitter (Positive/Negative)"), 
 			cex = 1.0, col = plot_colors, 
 			#pch = 21:22, 
 			lty = c("dashed", "solid"), lwd =3)
