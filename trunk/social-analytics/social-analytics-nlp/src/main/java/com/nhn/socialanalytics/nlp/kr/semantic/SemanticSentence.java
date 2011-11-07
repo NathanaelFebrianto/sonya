@@ -230,6 +230,57 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 		System.out.println("sentence polarity strength == " + this.getPolarityStrength());
 	}
 	
+	public String extractSubjectPredicateLabel() {
+		StringBuffer sb = new StringBuffer();
+		
+		for (SemanticClause clause : this) {	
+			String label = clause.makeLabel(false);
+			if (label != null && !label.equals("")) {
+				sb.append(label).append(" ");
+			}			
+		}
+		
+		return sb.toString();		
+	}
+	
+	public String extractSubjectLabel() {
+		StringBuffer sb = new StringBuffer();
+		
+		for (SemanticClause clause : this) {	
+			String label = clause.getSubject();
+			if (label != null && !label.equals("")) {
+				sb.append(label).append(" ");
+			}			
+		}
+		
+		return sb.toString();		
+	}
+	
+	public String extractPredicateLabel() {
+		StringBuffer sb = new StringBuffer();
+		
+		for (SemanticClause clause : this) {	
+			String label = clause.getPredicate();
+			if (label != null && !label.equals("")) {
+				sb.append(label).append(" ");
+			}			
+		}
+		
+		return sb.toString();		
+	}
+	
+	public String extractObjectsLabel() {
+		StringBuffer sb = new StringBuffer();
+		
+		for (SemanticClause clause : this) {	
+			String label = clause.makeObjectsLabel();
+			if (label != null) {
+				sb.append(label).append(" ");
+			}			
+		}		
+		return sb.toString();		
+	}
+	
 	class SemanticSentenceComparator implements Comparator<SemanticClause> {
 		private boolean ascending = true;
 		

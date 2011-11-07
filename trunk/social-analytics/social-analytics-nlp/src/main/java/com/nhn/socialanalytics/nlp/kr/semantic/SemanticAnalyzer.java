@@ -3,6 +3,7 @@ package com.nhn.socialanalytics.nlp.kr.semantic;
 import java.util.List;
 
 import com.nhn.socialanalytics.nlp.kr.morpheme.Eojeol;
+import com.nhn.socialanalytics.nlp.kr.morpheme.MorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.kr.syntax.ParseTree;
 import com.nhn.socialanalytics.nlp.kr.syntax.ParseTreeEdge;
 import com.nhn.socialanalytics.nlp.kr.syntax.ParseTreeNode;
@@ -10,13 +11,20 @@ import com.nhn.socialanalytics.nlp.kr.syntax.SyntacticAnalyzer;
 
 public class SemanticAnalyzer {
 	
+	private static SemanticAnalyzer instance = null;
 	private SyntacticAnalyzer syntacticAnalyzer;
 	
 	public SemanticAnalyzer() {
 		syntacticAnalyzer = SyntacticAnalyzer.getInstance();
 	}
 	
-	public SemanticSentence createSemanticClause(String text) {
+	public static SemanticAnalyzer getInstance() {
+		if (instance == null)
+			instance = new SemanticAnalyzer();
+		return instance;
+	}
+	
+	public SemanticSentence createSemanticSentence(String text) {
 		SemanticSentence sentence = new SemanticSentence(1, text);
 		
 		ParseTree tree = syntacticAnalyzer.parseTree(text);		
@@ -55,7 +63,7 @@ public class SemanticAnalyzer {
 		return sentence;
 	}
 	
-	public SemanticSentence exploreSemanticClause(ParseTree tree, SemanticSentence sentence, 
+	private SemanticSentence exploreSemanticClause(ParseTree tree, SemanticSentence sentence, 
 			SemanticClause prevClause, ParseTreeNode node, int priority) {
 		
 		List<ParseTreeEdge> childEdges = node.getChildEdges();
@@ -135,7 +143,7 @@ public class SemanticAnalyzer {
 		//String source = "카톡은 푸쉬가 안되지만 네이버톡은 되네";
 				
 		SemanticAnalyzer analyzer = new SemanticAnalyzer();
-		SemanticSentence ss = analyzer.createSemanticClause(source);
+		SemanticSentence ss = analyzer.createSemanticSentence(source);
 		ss.sort(true);
 		
 		System.out.println("-------------------------------------");
