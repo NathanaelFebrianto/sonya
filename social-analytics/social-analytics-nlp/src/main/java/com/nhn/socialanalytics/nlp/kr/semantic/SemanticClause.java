@@ -156,6 +156,17 @@ public class SemanticClause implements Serializable {
 		
 		return label;
 	}
+
+	public String makeObjectsLabel() {
+		StringBuffer sb = new StringBuffer();
+		
+		for (String obj : objects) {
+			sb.append(obj).append(" ");
+		}
+		
+		return sb.toString();
+		
+	}
 	
 	public String toString() {
 		StringBuffer sb = new StringBuffer()

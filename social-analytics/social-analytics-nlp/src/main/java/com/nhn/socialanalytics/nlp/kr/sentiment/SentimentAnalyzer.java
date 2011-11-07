@@ -3,16 +3,24 @@ package com.nhn.socialanalytics.nlp.kr.sentiment;
 import java.io.File;
 import java.util.Map;
 
+import com.nhn.socialanalytics.nlp.kr.semantic.SemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.kr.semantic.SemanticClause;
 import com.nhn.socialanalytics.nlp.kr.semantic.SemanticSentence;
 import com.nhn.socialanalytics.nlp.kr.sentiment.LIWCDictionary.WordCount;
 
 public class SentimentAnalyzer {
 	
+	private static SentimentAnalyzer instance = null;	
 	private PersonalityRecognizer personalityRecognizer;
 	
 	public SentimentAnalyzer(File liwcCatFile) {
 		personalityRecognizer = new PersonalityRecognizer(liwcCatFile);
+	}
+	
+	public static SentimentAnalyzer getInstance(File liwcCatFile) {
+		if (instance == null)
+			instance = new SentimentAnalyzer(liwcCatFile);
+		return instance;
 	}
 	
 	public SemanticClause analyzePolarity(SemanticClause clause) {
