@@ -33,7 +33,7 @@ writeTermFrequency <- function(dtm, output.filename) {
     # remove sparse terms to simplify the cluster plot
 	# Note: tweak the sparse parameter to determine the number of words.
 	# About 10-30 words is good.
-  	dtm.new <- removeSparseTerms(dtm, sparse = 0.97)
+  	dtm.new <- removeSparseTerms(dtm, sparse = 0.99)
 	nrow(dtm.new); ncol(dtm.new)
 		
 	# export dtm
@@ -61,8 +61,8 @@ plotTermFreq <- function (tf.matrix, name) {
 
 runLDA <- function(k = 6, input.filename, output.filename) {
     
-#     input.filename <- "androidmarket_naverapp.txt"
-#     output.filename <- "androidmarket_naverapp"
+#     input.filename <- "androidmarket_navertalk.txt"
+#     output.filename <- "androidmarket_navertalk"
     
  	data = read.table(file(input.filename, encoding = "UTF-8"),
 			header = TRUE, sep = "\t", comment.char = "",
@@ -71,7 +71,7 @@ runLDA <- function(k = 6, input.filename, output.filename) {
 	colnames(data)
 	head(data)
 
-	df.terms <- data.frame(textCol = data$text1) 
+	df.terms <- data.frame(textCol = data$subject) 
 	print(nrow(df.terms))
 	head(df.terms)
  	df.terms = subset(df.terms, 
@@ -123,7 +123,7 @@ runLSA <- function(input.filename, output.filename) {
 	colnames(data)
 	head(data)
     
-    df.terms <- data.frame(textCol = data$text1) 
+    df.terms <- data.frame(textCol = data$text3) 
 	print(nrow(df.terms))
 	head(df.terms)
  	df.terms = subset(df.terms, 
@@ -210,16 +210,16 @@ k <- 6
 #####################
 # Android Market
 #####################
-# lda <- runLDA(k, "androidmarket_navertalk.txt", "androidmarket_navertalk")
-# lda <-runLDA(k,"androidmarket_kakaotalk.txt", "androidmarket_kakaotalk", )
-# lda <-runLDA(k,"androidmarket_naverapp.txt", "androidmarket_naverapp")
+lda <- runLDA(k, "androidmarket_navertalk.txt", "androidmarket_navertalk")
+lda <-runLDA(k,"androidmarket_kakaotalk.txt", "androidmarket_kakaotalk", )
+lda <-runLDA(k,"androidmarket_naverapp.txt", "androidmarket_naverapp")
 
 #####################
 # Twitter
 #####################
-# lda <-runLDA(k,"twitter_navertalk.txt", "twitter_navertalk")
-# lda <-runLDA(k,"twitter_kakaotalk.txt", "twitter_kakaotalk")
-# lda <-runLDA(k,"twitter_naverapp.txt", "twitter_naverapp")
+lda <-runLDA(k,"twitter_navertalk.txt", "twitter_navertalk")
+lda <-runLDA(k,"twitter_kakaotalk.txt", "twitter_kakaotalk")
+lda <-runLDA(k,"twitter_naverapp.txt", "twitter_naverapp")
 
 #####################
 # Me2DAY
@@ -241,6 +241,7 @@ topics(lda, 2)
 #####################
 lsa <- runLSA("androidmarket_navertalk.txt", "androidmarket_navertalk")
 associate(lsa, "네이버톡", threshold = 0.7)
+associate(lsa, "디자인", threshold = 0.7)
 
 #####################
 # Twitter

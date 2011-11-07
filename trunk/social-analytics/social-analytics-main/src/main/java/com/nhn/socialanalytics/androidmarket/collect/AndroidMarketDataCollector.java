@@ -19,6 +19,8 @@ import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.util.DateUtil;
 import com.nhn.socialanalytics.common.util.StringUtil;
 import com.nhn.socialanalytics.nlp.kr.morpheme.MorphemeAnalyzer;
+import com.nhn.socialanalytics.nlp.kr.semantic.SemanticAnalyzer;
+import com.nhn.socialanalytics.nlp.kr.semantic.SemanticSentence;
 
 public class AndroidMarketDataCollector { 
 
@@ -83,10 +85,11 @@ public class AndroidMarketDataCollector {
 
 				try {
 					File outputDir = new File(Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR"));
-					File file = new File(outputDir.getPath() + File.separator + "androidmarket_naverapp" + ".txt");
+					File file = new File(outputDir.getPath() + File.separator + "androidmarket_navertalk" + ".txt");
 					BufferedWriter br = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file.getPath(), true), "UTF-8"));
 
 					MorphemeAnalyzer morph = MorphemeAnalyzer.getInstance();
+					SemanticAnalyzer semantic = SemanticAnalyzer.getInstance();
 					
 					List<Comment> comments = response.getCommentsList();					
 					for (Comment comment : comments) {	
@@ -114,7 +117,12 @@ public class AndroidMarketDataCollector {
 						
 						String textEmotiTagged = StringUtil.convertEmoticonToTag(text);
 						String text1 = morph.extractTerms(textEmotiTagged);
-						String text2 = morph.extractCoreTerms(textEmotiTagged);
+						String text2 = morph.extractCoreTerms(textEmotiTagged);						
+						SemanticSentence ss = semantic.createSemanticSentence(text);
+						String subjectpredicate = ss.extractSubjectPredicateLabel();
+						String subject = ss.extractSubjectLabel();
+						String predicate = ss.extractPredicateLabel();
+						String objects = ss.extractObjectsLabel();
 						
 						//if (text.indexOf("알바") < 0 && !text.trim().equals("") && !text1.trim().equals("") && !text2.trim().equals("")) {
 						if (text.indexOf("알바") < 0) {
@@ -125,7 +133,11 @@ public class AndroidMarketDataCollector {
 									comment.getRating() + "\t" +
 									text + "\t" +
 									text1 + "\t" +
-									text2
+									text2 + "\t" +
+									subjectpredicate + "\t" +
+									subject + "\t" +
+									predicate + "\t" +
+									objects
 									);
 							br.newLine();							
 						}					
@@ -165,16 +177,16 @@ public class AndroidMarketDataCollector {
 		//String query = "pname:com.nhn.android.navertalk"; //pname:com.nhn.android.navertalk
 		//collector.searchApps(query, 1);
 		
-		//String appId = "com.nhn.android.navertalk";
-		String appId = "com.nhn.android.search";
+		String appId = "com.nhn.android.navertalk";
+		//String appId = "com.nhn.android.search";
 		//String appId = "com.nhn.android.nbooks";
 		//String appId = "com.kakao.talk";
 		
 		try {
 			File outputDir = new File(Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR"));
-			File file = new File(outputDir.getPath() + File.separator + "androidmarket_naverapp" + ".txt");
+			File file = new File(outputDir.getPath() + File.separator + "androidmarket_navertalk" + ".txt");
 			BufferedWriter br = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file.getPath(), false), "UTF-8"));
-			br.write("creation_time	author_id	author_name	rating	text	text1	text2");
+			br.write("creation_time	author_id	author_name	rating	text	text1	text2	subjectpredicate	subject	predicate	objects");
 			br.newLine();
 			br.close();
 		} catch (Exception e) {
