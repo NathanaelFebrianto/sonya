@@ -16,9 +16,6 @@ import org.apache.lucene.analysis.tokenattributes.OffsetAttribute;
 import org.apache.lucene.analysis.tokenattributes.TermAttribute;
 import org.apache.lucene.util.Version;
 
-import com.nhn.socialanalytics.nlp.kr.syntax.SyntacticAnalyzer;
-import com.nhn.socialanalytics.nlp.kr.util.DicUtil;
-
 public class MorphemeAnalyzer {
 
 	public static final String[] STOP_WORDS = new String[]{
