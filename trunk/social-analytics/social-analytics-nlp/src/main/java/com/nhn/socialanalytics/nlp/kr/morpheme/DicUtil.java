@@ -1,4 +1,4 @@
-package com.nhn.socialanalytics.nlp.kr.util;
+package com.nhn.socialanalytics.nlp.kr.morpheme;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
