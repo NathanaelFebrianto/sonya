@@ -3,7 +3,6 @@ package com.nhn.socialanalytics.nlp.kr.semantic;
 import java.util.List;
 
 import com.nhn.socialanalytics.nlp.kr.morpheme.Eojeol;
-import com.nhn.socialanalytics.nlp.kr.morpheme.MorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.kr.syntax.ParseTree;
 import com.nhn.socialanalytics.nlp.kr.syntax.ParseTreeEdge;
 import com.nhn.socialanalytics.nlp.kr.syntax.ParseTreeNode;
