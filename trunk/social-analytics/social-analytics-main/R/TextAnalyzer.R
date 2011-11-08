@@ -71,7 +71,7 @@ runLDA <- function(k = 6, input.filename, output.filename) {
 	colnames(data)
 	head(data)
 
-	df.terms <- data.frame(textCol = data$subject) 
+	df.terms <- data.frame(textCol = data$subjectpredicate) 
 	print(nrow(df.terms))
 	head(df.terms)
  	df.terms = subset(df.terms, 
