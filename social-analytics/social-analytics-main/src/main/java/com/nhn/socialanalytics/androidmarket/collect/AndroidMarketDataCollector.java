@@ -20,7 +20,9 @@ import com.nhn.socialanalytics.common.util.DateUtil;
 import com.nhn.socialanalytics.common.util.StringUtil;
 import com.nhn.socialanalytics.nlp.kr.morpheme.MorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.kr.semantic.SemanticAnalyzer;
+import com.nhn.socialanalytics.nlp.kr.semantic.SemanticClause;
 import com.nhn.socialanalytics.nlp.kr.semantic.SemanticSentence;
+import com.nhn.socialanalytics.nlp.kr.termvector.DocIndexWriter;
 
 public class AndroidMarketDataCollector { 
 
@@ -87,18 +89,28 @@ public class AndroidMarketDataCollector {
 					File outputDir = new File(Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR"));
 					File file = new File(outputDir.getPath() + File.separator + "androidmarket_navertalk" + ".txt");
 					BufferedWriter br = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file.getPath(), true), "UTF-8"));
+					
+					DocIndexWriter indexWriter = new DocIndexWriter("./bin/index/");
 
 					MorphemeAnalyzer morph = MorphemeAnalyzer.getInstance();
 					SemanticAnalyzer semantic = SemanticAnalyzer.getInstance();
 					
 					List<Comment> comments = response.getCommentsList();					
 					for (Comment comment : comments) {	
+						
+						String authorId  = comment.getAuthorId();
+						String authorName = comment.getAuthorName();
+						int rating = comment.getRating();
+						String text = comment.getText();	
+						String createTime = DateUtil.convertLongToString("yyyyMMddHHmmss", comment.getCreationTime());
+						String commentId = createTime + "-" + authorId;	
+						
 						System.out.println("---------------------------------");
-						System.out.println("author id == " + comment.getAuthorId());
-						System.out.println("author name == " + comment.getAuthorName());
-						System.out.println("rating == " + comment.getRating());
-						System.out.println("text == " + comment.getText());
-						System.out.println("creation time == " + DateUtil.convertLongToString("yyyyMMddHHmmss", comment.getCreationTime()));
+						System.out.println("author id == " + authorId);
+						System.out.println("author name == " + authorName);
+						System.out.println("rating == " + rating);
+						System.out.println("text == " + text);
+						System.out.println("creation time == " + createTime);
 						
 						/*
 						Map<FieldDescriptor, Object> fields = comment.getAllFields();
@@ -108,9 +120,6 @@ public class AndroidMarketDataCollector {
 						}
 						*/
 						
-						//String authorName = StringUtil.removeUnsupportedCharacters(comment.getAuthorName());	
-						
-						String text = comment.getText();	
 						text = StringUtil.removeUnsupportedCharacters(text);						
 						text = text.replaceAll("\t", " ");
 						text = text.replaceAll("ㅣ", "");
@@ -118,13 +127,12 @@ public class AndroidMarketDataCollector {
 						String textEmotiTagged = StringUtil.convertEmoticonToTag(text);
 						String text1 = morph.extractTerms(textEmotiTagged);
 						String text2 = morph.extractCoreTerms(textEmotiTagged);						
-						SemanticSentence ss = semantic.createSemanticSentence(text);
-						String subjectpredicate = ss.extractSubjectPredicateLabel();
-						String subject = ss.extractSubjectLabel();
-						String predicate = ss.extractPredicateLabel();
-						String objects = ss.extractObjectsLabel();
+						SemanticSentence semanticSentence = semantic.createSemanticSentence(textEmotiTagged);
+						String subjectpredicates = semanticSentence.extractSubjectPredicateLabel();
+						String subjects = semanticSentence.extractSubjectLabel();
+						String predicates = semanticSentence.extractPredicateLabel();
+						String objects = semanticSentence.extractObjectsLabel();
 						
-						//if (text.indexOf("알바") < 0 && !text.trim().equals("") && !text1.trim().equals("") && !text2.trim().equals("")) {
 						if (text.indexOf("알바") < 0) {
 							br.write(
 									DateUtil.convertLongToString("yyyyMMddHHmmss", comment.getCreationTime()) + "\t" +
@@ -134,15 +142,29 @@ public class AndroidMarketDataCollector {
 									text + "\t" +
 									text1 + "\t" +
 									text2 + "\t" +
-									subjectpredicate + "\t" +
-									subject + "\t" +
-									predicate + "\t" +
+									subjectpredicates + "\t" +
+									subjects + "\t" +
+									predicates + "\t" +
 									objects
 									);
 							br.newLine();							
-						}					
+						}
+						
+						for (SemanticClause clause : semanticSentence) {
+							indexWriter.write(
+									"androidmarket", 
+									createTime, 
+									authorId, 
+									commentId, 
+									clause.getSubject(),
+									clause.getPredicate(), 
+									clause.makeObjectsLabel(), 
+									text);
+						}
 					}					
 					br.close();
+					indexWriter.close();
+					
 				} catch (Exception e) {
 					e.printStackTrace();					
 				}
