@@ -5,8 +5,6 @@ import org.apache.lucene.analysis.kr.morph.MorphException;
 import org.apache.lucene.analysis.kr.morph.WordEntry;
 import org.apache.lucene.analysis.kr.utils.DictionaryUtil;
 
-import com.nhn.socialanalytics.nlp.kr.util.DicUtil;
-
 
 public class Eojeol {
 	
