@@ -30,33 +30,35 @@ public class SemanticAnalyzer {
 		ParseTreeNode root = tree.getRoot();
 		List<ParseTreeEdge> childEdges = root.getChildEdges();
 		
-		for (ParseTreeEdge edge : childEdges) {
-			int toId = edge.getToId();			
-			ParseTreeNode childNode = tree.findNode(toId);
-			
-			System.out.println("to id == " + toId);
-			System.out.println("chile node == " + childNode.getEojeol().toString());
-			
-			Eojeol eojeol = childNode.getEojeol();
-			char pos = eojeol.getPos();
-			String josaTag = eojeol.getJosaTag();
-			//String eomiTag = eojeol.getEomiTag();
-			String term = eojeol.getTerm();
-			
-			SemanticClause clause = new SemanticClause();
-			
-			int priority = 1;
-			if (pos == 'V') {
-				clause.setPredicate(term+"다");	
-				clause.setPriority(priority);
+		if (childEdges != null) {		
+			for (ParseTreeEdge edge : childEdges) {
+				int toId = edge.getToId();			
+				ParseTreeNode childNode = tree.findNode(toId);
+				
+				System.out.println("to id == " + toId);
+				System.out.println("chile node == " + childNode.getEojeol().toString());
+				
+				Eojeol eojeol = childNode.getEojeol();
+				char pos = eojeol.getPos();
+				String josaTag = eojeol.getJosaTag();
+				//String eomiTag = eojeol.getEomiTag();
+				String term = eojeol.getTerm();
+				
+				SemanticClause clause = new SemanticClause();
+				
+				int priority = 1;
+				if (pos == 'V') {
+					clause.setPredicate(term+"다");	
+					clause.setPriority(priority);
+				}
+				else if (pos == 'N' && ("JX".equals(josaTag) || "JKS".equals(josaTag))) {
+					clause.setSubject(term);				
+				}
+				
+				sentence.add(clause);	
+				priority++;
+				exploreSemanticClause(tree, sentence, clause, childNode, priority);
 			}
-			else if (pos == 'N' && ("JX".equals(josaTag) || "JKS".equals(josaTag))) {
-				clause.setSubject(term);				
-			}
-			
-			sentence.add(clause);	
-			priority++;
-			exploreSemanticClause(tree, sentence, clause, childNode, priority);
 		}
 		
 		return sentence;
