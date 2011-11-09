@@ -87,7 +87,7 @@ public class AndroidMarketDataCollector {
 
 				try {
 					File outputDir = new File(Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR"));
-					File file = new File(outputDir.getPath() + File.separator + "androidmarket_navertalk" + ".txt");
+					File file = new File(outputDir.getPath() + File.separator + "androidmarket_naverapp" + ".txt");
 					BufferedWriter br = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file.getPath(), true), "UTF-8"));
 					
 					DocIndexWriter indexWriter = new DocIndexWriter("./bin/index/");
@@ -199,14 +199,14 @@ public class AndroidMarketDataCollector {
 		//String query = "pname:com.nhn.android.navertalk"; //pname:com.nhn.android.navertalk
 		//collector.searchApps(query, 1);
 		
-		String appId = "com.nhn.android.navertalk";
-		//String appId = "com.nhn.android.search";
+		//String appId = "com.nhn.android.navertalk";
+		String appId = "com.nhn.android.search";
 		//String appId = "com.nhn.android.nbooks";
 		//String appId = "com.kakao.talk";
 		
 		try {
 			File outputDir = new File(Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR"));
-			File file = new File(outputDir.getPath() + File.separator + "androidmarket_navertalk" + ".txt");
+			File file = new File(outputDir.getPath() + File.separator + "androidmarket_naverapp" + ".txt");
 			BufferedWriter br = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file.getPath(), false), "UTF-8"));
 			br.write("creation_time	author_id	author_name	rating	text	text1	text2	subjectpredicate	subject	predicate	objects");
 			br.newLine();
