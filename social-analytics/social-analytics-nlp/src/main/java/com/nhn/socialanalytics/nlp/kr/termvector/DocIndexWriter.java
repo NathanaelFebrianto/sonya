@@ -8,7 +8,7 @@ import java.util.Set;
 
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.CharArraySet;
-import org.apache.lucene.analysis.StopAnalyzer;
+import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
 import org.apache.lucene.index.CorruptIndexException;
@@ -25,16 +25,16 @@ public class DocIndexWriter {
 	
 	static {
 		final List<String> stopWords = Arrays.asList(
-				 "tagquestion"
-				, "tagsmile"
-				, "tagcry"
-				, "taglove"
-				, "tagexclamation"
-				, "http"
-				, "gt"
-				, "lt"
-				, "brgt"
-				, "brgt"
+//				 "tagquestion"
+//				, "tagsmile"
+//				, "tagcry"
+//				, "taglove"
+//				, "tagexclamation"
+//				, "http"
+//				, "gt"
+//				, "lt"
+//				, "brgt"
+//				, "brgt"
 		);
 		final CharArraySet stopSet = new CharArraySet(stopWords.size(), false);
 		stopSet.addAll(stopWords);
@@ -54,7 +54,8 @@ public class DocIndexWriter {
 		if (indexDir.listAll().length == 0)
 			isAppend = true;
 				
-		Analyzer luceneAnalyzer = new StopAnalyzer(Version.LUCENE_CURRENT, MY_STOP_WORDS_SET);
+		//Analyzer luceneAnalyzer = new StopAnalyzer(Version.LUCENE_CURRENT, MY_STOP_WORDS_SET);	// removes numbers too
+		Analyzer luceneAnalyzer = new StandardAnalyzer(Version.LUCENE_CURRENT, MY_STOP_WORDS_SET);
 		indexWriter = new IndexWriter(indexDir, luceneAnalyzer, isAppend, IndexWriter.MaxFieldLength.UNLIMITED);
 	}
 	

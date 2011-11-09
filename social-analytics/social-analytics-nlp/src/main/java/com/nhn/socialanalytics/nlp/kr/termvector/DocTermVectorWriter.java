@@ -7,6 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.nio.charset.Charset;
+import java.util.Iterator;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
@@ -16,11 +17,12 @@ import org.apache.hadoop.io.SequenceFile;
 import org.apache.lucene.index.IndexReader;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
+import org.apache.mahout.math.Vector;
 import org.apache.mahout.math.VectorWritable;
 import org.apache.mahout.utils.vectors.TermInfo;
+import org.apache.mahout.utils.vectors.VectorHelper;
 import org.apache.mahout.utils.vectors.io.DelimitedTermInfoWriter;
 import org.apache.mahout.utils.vectors.io.SequenceFileVectorWriter;
-import org.apache.mahout.utils.vectors.io.TextualVectorWriter;
 import org.apache.mahout.utils.vectors.io.VectorWriter;
 import org.apache.mahout.utils.vectors.lucene.CachedTermInfo;
 import org.apache.mahout.utils.vectors.lucene.LuceneIterable;
@@ -46,7 +48,7 @@ public class DocTermVectorWriter {
 	 * @param idField
 	 *			The field in the index containing the index.  If null, then the Lucene internal doc 
 	 * 			id is used which is prone to error if the underlying index changes.
-	 * @param dictOut 
+	 * @param dicOut 
 	 *			The output of the dictionary
 	 * @param weightOpt
 	 * 			The kind of weight to use. Currently TF or TFIDF
@@ -59,7 +61,7 @@ public class DocTermVectorWriter {
 	 * 			The maximum number of vectors to output. If not specified, then it will loop over all docs
 	 * @param outputWriter
 	 * 			The VectorWriter to use, either seq
-	 * 			(SequenceFileVectorWriter - default) or file (Writes to a File using JSON format)
+	 * 			(SequenceFileVectorWriter - default) or "file" (Writes to a File using JSON format)
 	 * @param minDF 
 	 * 			The minimum document frequency. default is 1
 	 * @param maxDFPercent 
@@ -126,30 +128,42 @@ public class DocTermVectorWriter {
 				}
 				System.out.println("Output File: " + outputFile);
 
-				VectorWriter vectorWriter;
+				//VectorWriter vectorWriter;
+				long numDocs = 0;
 				if (outputWriter != null) {
 					if (outputWriter.equals("file")) {
-						BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile));
-						vectorWriter = new TextualVectorWriter(writer);
+						BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(outputFile));
+						Iterator<Vector> it = iterable.iterator();
+						while (it.hasNext()) {
+							Vector vector = (Vector) it.next();
+							String vecStr = VectorHelper.vectorToCSVString(vector, false);
+							bufferedWriter.write(vecStr);	
+							numDocs++;	
+						}											
+						bufferedWriter.close();
+						
 					} else {
-						vectorWriter = getSeqFileWriter(outputFile);
+						VectorWriter vectorWriter = getSeqFileWriter(outputFile);
+						numDocs = vectorWriter.write(iterable, maxDocs);
+						vectorWriter.close();
 					}
 				} else {
-					vectorWriter = getSeqFileWriter(outputFile);
+					VectorWriter vectorWriter = getSeqFileWriter(outputFile);
+					numDocs = vectorWriter.write(iterable, maxDocs);
+					vectorWriter.close();
 				}
 
-				long numDocs = vectorWriter.write(iterable, maxDocs);
-				vectorWriter.close();
+				
 				System.out.println("Wrote: " + numDocs + " vectors");
 
 				if (delimiter == null) delimiter = "\t";
 				
-				File dictOutFile = new File(dicOut);
-				System.out.println("Dictionary Output file: " + dictOutFile);
+				File dicOutFile = new File(dicOut);
+				System.out.println("Dictionary Output file: " + dicOutFile);
 				
 				BufferedWriter writer = new BufferedWriter(
 						new OutputStreamWriter(
-								new FileOutputStream(dictOutFile), Charset.forName("UTF8")));
+								new FileOutputStream(dicOutFile), Charset.forName("UTF8")));
 				DelimitedTermInfoWriter tiWriter = new DelimitedTermInfoWriter(writer, delimiter, field);
 				tiWriter.write(termInfo);
 				tiWriter.close();
@@ -166,6 +180,29 @@ public class DocTermVectorWriter {
 		SequenceFile.Writer seqWriter = SequenceFile.createWriter(fs, conf, path, LongWritable.class, VectorWritable.class);
 
 		return new SequenceFileVectorWriter(seqWriter);
+	}
+	
+	public static void main(String[] args) {
+		DocTermVectorWriter writer = new DocTermVectorWriter();
+		
+		try {	
+			writer.write(
+		   		"./bin/index/",		// inputDir
+		   		"./bin/vectors", 	// outputFile
+				 "predicate",		// field
+				 null,				// idField
+				 "./bin/dic_predicate.txt",	// dictOut
+				 "tf",				// weightOpt
+				 null,				// delimiter
+				 null,				// power
+				 Long.MAX_VALUE,	// max
+				 "file",			// outputWriter
+				 1,					// minDF
+				 99					// maxDFPercent		
+				);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 	
 }
