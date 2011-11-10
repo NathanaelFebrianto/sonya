@@ -18,11 +18,11 @@ import com.gc.android.market.api.model.Market.ResponseContext;
 import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.util.DateUtil;
 import com.nhn.socialanalytics.common.util.StringUtil;
+import com.nhn.socialanalytics.miner.termvector.DocIndexWriter;
 import com.nhn.socialanalytics.nlp.kr.morpheme.MorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.kr.semantic.SemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.kr.semantic.SemanticClause;
 import com.nhn.socialanalytics.nlp.kr.semantic.SemanticSentence;
-import com.nhn.socialanalytics.nlp.kr.termvector.DocIndexWriter;
 
 public class AndroidMarketDataCollector { 
 
@@ -190,8 +190,6 @@ public class AndroidMarketDataCollector {
 		}		
 	}
 	
-	
-
 	public static void main(String[] args) {
 		AndroidMarketDataCollector collector = new AndroidMarketDataCollector();	
 		
@@ -206,6 +204,10 @@ public class AndroidMarketDataCollector {
 		
 		try {
 			File outputDir = new File(Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR"));
+			if (!outputDir.exists()) {
+				outputDir.mkdir();
+			}
+				
 			File file = new File(outputDir.getPath() + File.separator + "androidmarket_naverapp" + ".txt");
 			BufferedWriter br = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file.getPath(), false), "UTF-8"));
 			br.write("creation_time	author_id	author_name	rating	text	text1	text2	subjectpredicate	subject	predicate	objects");
