@@ -83,6 +83,7 @@ public class DocTermVectorWriter {
 			   		  int maxDFPercent) throws Exception {
 		if (inputDir != null && !inputDir.equals("")) { // lucene case
 			File file = new File(inputDir);
+			
 			if (file.exists() && file.isDirectory()) {
 				long maxDocs = Long.MAX_VALUE;
 				if (max > 0) {
@@ -91,6 +92,7 @@ public class DocTermVectorWriter {
 				if (maxDocs < 0) {
 					throw new IllegalArgumentException("maxDocs must be >= 0");
 				}
+				
 				Directory dir = FSDirectory.open(file);
 				IndexReader reader = IndexReader.open(dir, true);
 				Weight weight;
@@ -159,7 +161,8 @@ public class DocTermVectorWriter {
 				if (delimiter == null) delimiter = "\t";
 				
 				File dicOutFile = new File(dicOut);
-				System.out.println("Dictionary Output file: " + dicOutFile);
+				
+				System.out.println("Dictionary output file: " + dicOutFile);
 				
 				BufferedWriter writer = new BufferedWriter(
 						new OutputStreamWriter(
@@ -188,10 +191,10 @@ public class DocTermVectorWriter {
 		try {	
 			writer.write(
 		   		"./bin/index/",		// inputDir
-		   		"./bin/vectors", 	// outputFile
-				 "predicate",		// field
+		   		"./bin/vectors_subject", 	// outputFile
+				 "subject",		// field
 				 null,				// idField
-				 "./bin/dic_predicate.txt",	// dictOut
+				 "./bin/dic_subject.txt",	// dictOut
 				 "tf",				// weightOpt
 				 null,				// delimiter
 				 null,				// power
