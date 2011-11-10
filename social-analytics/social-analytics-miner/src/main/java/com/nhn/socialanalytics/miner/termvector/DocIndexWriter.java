@@ -54,8 +54,8 @@ public class DocIndexWriter {
 		if (indexDir.listAll().length == 0)
 			isAppend = true;
 				
-		//Analyzer luceneAnalyzer = new StopAnalyzer(Version.LUCENE_CURRENT, MY_STOP_WORDS_SET);	// removes numbers too
-		Analyzer luceneAnalyzer = new StandardAnalyzer(Version.LUCENE_CURRENT, MY_STOP_WORDS_SET);
+		//Analyzer luceneAnalyzer = new StopAnalyzer(Version.LUCENE_33, MY_STOP_WORDS_SET);	// removes numbers too
+		Analyzer luceneAnalyzer = new StandardAnalyzer(Version.LUCENE_33, MY_STOP_WORDS_SET);
 		indexWriter = new IndexWriter(indexDir, luceneAnalyzer, isAppend, IndexWriter.MaxFieldLength.UNLIMITED);
 	}
 	

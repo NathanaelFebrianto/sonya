@@ -43,5 +43,16 @@
 			<artifactId>mahout-examples</artifactId>
 			<version>0.5</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.lucene</groupId>
+			<artifactId>lucene-core</artifactId>
+			<version>3.3.0</version>
+		</dependency> 
+		
+		<dependency>
+			<groupId>com.nhn.socialanalytics</groupId>
+			<artifactId>social-analytics-nlp</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 </project>
