@@ -377,7 +377,6 @@ public class LIWCDictionary {
 	 * @return an array of words.
 	 */
 	public static String[] tokenize(String text) {
-		
 		//String words_only = text.replaceAll("\\W+\\s*", " ").replaceAll("\\s+$", "").replaceAll("^\\s+", "");
 		//String[] words = words_only.split("\\s+");
 		String[] words = text.split("\\s+");
@@ -440,7 +439,6 @@ public class LIWCDictionary {
 	 * @return an array of sentences.
 	 */
 	public static String[] splitSentences(String text) {
-	
 		return text.split("\\s*[\\.!\\?]+\\s+");
 	}
 }
