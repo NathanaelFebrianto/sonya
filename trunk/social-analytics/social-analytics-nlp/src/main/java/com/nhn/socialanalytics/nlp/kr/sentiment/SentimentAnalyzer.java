@@ -31,6 +31,8 @@ public class SentimentAnalyzer {
 		
 		String label = clause.makeLabel(false);
 		
+		if (label == null)
+			return clause;
 		
 		Map<String, WordCount> liwcMaps = this.analyzeLIWCFeatures(label);
 		
@@ -78,7 +80,7 @@ public class SentimentAnalyzer {
 		
 		for (SemanticClause clause : sentence) {
 			
-			clause = analyzePolarity(clause);			
+			clause = this.analyzePolarity(clause);			
 			weightedPolarity = weightedPolarity + (clause.getPolarity() * clause.getStrength());	
 		}
 		
@@ -99,6 +101,8 @@ public class SentimentAnalyzer {
 	}
 	
 	public double analyzePolarity(String text) {
+		if (text == null)
+			return 0.0;
 		
 		Map<String, WordCount> liwcMaps = this.analyzeLIWCFeatures(text);
 		
