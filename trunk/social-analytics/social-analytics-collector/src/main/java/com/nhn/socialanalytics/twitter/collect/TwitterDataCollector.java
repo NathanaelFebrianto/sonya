@@ -69,8 +69,8 @@ public class TwitterDataCollector {
 				
 		MorphemeAnalyzer morph = MorphemeAnalyzer.getInstance();
 		
-		File file = new File(outputDir.getPath() + File.separator + "twitter_" + objectId + ".txt");
-		File fileSource = new File(outputDir.getPath() + File.separator + "twitter_" + objectId + "_org.txt");		
+		File file = new File(outputDir.getPath() + File.separator + objectId + ".txt");
+		File fileSource = new File(outputDir.getPath() + File.separator + objectId + "_org.txt");		
 		
 		BufferedWriter br = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file.getPath()), "UTF-8"));
 		BufferedWriter brSource = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(fileSource.getPath()), "UTF-8"));
@@ -109,11 +109,11 @@ public class TwitterDataCollector {
 		//String objectId = "navertalk";
 		//String query = "네이버톡 OR 네톡";
 
-		//String objectId = "kakaotalk";
-		//String query = "카카오톡 OR 카톡";
+		String objectId = "kakaotalk";
+		String query = "카카오톡 OR 카톡";
 		
-		String objectId = "naverapp";
-		String query = "네이버앱";
+		//String objectId = "naverapp";
+		//String query = "네이버앱";
 		
 		List<twitter4j.Tweet> tweets = collector.searchTweets(objectId, query, "2011-02-01", null, 10);
 		
