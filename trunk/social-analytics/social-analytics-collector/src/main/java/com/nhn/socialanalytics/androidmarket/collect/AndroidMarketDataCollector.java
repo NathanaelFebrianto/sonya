@@ -23,6 +23,7 @@ import com.nhn.socialanalytics.nlp.kr.morpheme.MorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.kr.semantic.SemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.kr.semantic.SemanticClause;
 import com.nhn.socialanalytics.nlp.kr.semantic.SemanticSentence;
+import com.nhn.socialanalytics.nlp.kr.sentiment.SentimentAnalyzer;
 
 public class AndroidMarketDataCollector { 
 
@@ -86,14 +87,15 @@ public class AndroidMarketDataCollector {
 				//System.out.println("Response : " + response);	
 
 				try {
-					File outputDir = new File(Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR"));
-					File file = new File(outputDir.getPath() + File.separator + "androidmarket_naverapp" + ".txt");
-					BufferedWriter br = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file.getPath(), true), "UTF-8"));
-					
-					DocIndexWriter indexWriter = new DocIndexWriter("./bin/index/");
-
 					MorphemeAnalyzer morph = MorphemeAnalyzer.getInstance();
 					SemanticAnalyzer semantic = SemanticAnalyzer.getInstance();
+					SentimentAnalyzer sentiment = SentimentAnalyzer.getInstance(new File("./bin/liwc/LIWC_ko.txt"));
+
+					File outputDir = new File(Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR"));
+					File file = new File(outputDir.getPath() + File.separator + "naverapp" + ".txt");
+					BufferedWriter br = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file.getPath(), true), "UTF-8"));
+					
+					DocIndexWriter indexWriter = new DocIndexWriter("./bin/androidmarket/index/naverapp");
 					
 					List<Comment> comments = response.getCommentsList();					
 					for (Comment comment : comments) {	
@@ -133,6 +135,10 @@ public class AndroidMarketDataCollector {
 						String predicates = semanticSentence.extractPredicateLabel();
 						String objects = semanticSentence.extractObjectsLabel();
 						
+						semanticSentence = sentiment.analyzePolarity(semanticSentence);
+						double polarity = semanticSentence.getPolarity();
+						double polarityStrength = semanticSentence.getPolarityStrength();
+						
 						if (text.indexOf("알바") < 0) {
 							br.write(
 									DateUtil.convertLongToString("yyyyMMddHHmmss", comment.getCreationTime()) + "\t" +
@@ -145,7 +151,9 @@ public class AndroidMarketDataCollector {
 									subjectpredicates + "\t" +
 									subjects + "\t" +
 									predicates + "\t" +
-									objects
+									objects + "\t" +
+									polarity + "\t" +
+									polarityStrength									
 									);
 							br.newLine();							
 						}
@@ -208,9 +216,9 @@ public class AndroidMarketDataCollector {
 				outputDir.mkdir();
 			}
 				
-			File file = new File(outputDir.getPath() + File.separator + "androidmarket_naverapp" + ".txt");
+			File file = new File(outputDir.getPath() + File.separator + "naverapp" + ".txt");
 			BufferedWriter br = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file.getPath(), false), "UTF-8"));
-			br.write("creation_time	author_id	author_name	rating	text	text1	text2	subjectpredicate	subject	predicate	objects");
+			br.write("creation_time	author_id	author_name	rating	text	text1	text2	subjectpredicate	subject	predicate	objects	polarity	polarity_strength");
 			br.newLine();
 			br.close();
 		} catch (Exception e) {
