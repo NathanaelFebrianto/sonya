@@ -377,7 +377,7 @@ public class OpinionTreeViewer extends JApplet {
 		
 		try {	
 			
-			DocIndexSearcher searcher = new DocIndexSearcher("./bin/index/");
+			DocIndexSearcher searcher = new DocIndexSearcher("./bin/index/androidmarket/naverapp");
 			searcher.loadDictionaries();
 			
 			DocTermVectorReader reader = new DocTermVectorReader();
@@ -389,8 +389,8 @@ public class OpinionTreeViewer extends JApplet {
 				String term = entry.getKey();
 				int tf = (Integer) entry.getValue();
 				
-				TargetTerm subjectTerms = searcher.searchTerms("predicate", "subject", term, 2);
-				TargetTerm objectTerms = searcher.searchTerms("predicate", "objects", term, 6);
+				TargetTerm subjectTerms = searcher.searchTerms("predicate", "subject", term, 1);
+				TargetTerm objectTerms = searcher.searchTerms("predicate", "objects", term, 4);
 				modeller.addTerms(subjectTerms, objectTerms);				
 			}
 			

@@ -190,7 +190,7 @@ public class DocTermVectorWriter {
 		
 		try {	
 			writer.write(
-		   		"./bin/index/",		// inputDir
+		   		"./bin/index/androidmarket/naverapp",		// inputDir
 		   		"./bin/vectors_subject", 	// outputFile
 				 "subject",		// field
 				 null,				// idField
