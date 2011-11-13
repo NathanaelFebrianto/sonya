@@ -33,7 +33,7 @@ public class AndroidMarketDataCollector {
 	public void searchAppsPerPage(String query, int startIndex) {		
 		
 		MarketSession session = new MarketSession();
-		session.login("louiezzang@gmail.com", "bae120809");
+		session.login("xxxx@gmail.com", "xxxx");
 		//session.getContext().setAndroidId("3774d56d682e549c");
 		//session.setLocale(Locale.KOREA);
 		
