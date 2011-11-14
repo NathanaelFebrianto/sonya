@@ -90,13 +90,12 @@ public class AndroidMarketDataCollector {
 					MorphemeAnalyzer morph = MorphemeAnalyzer.getInstance();
 					SemanticAnalyzer semantic = SemanticAnalyzer.getInstance();
 					SentimentAnalyzer sentiment = SentimentAnalyzer.getInstance(new File("./bin/liwc/LIWC_ko.txt"));
+					DocIndexWriter indexWriter = new DocIndexWriter("./bin/androidmarket/index/naverapp");
 
 					File outputDir = new File(Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR"));
 					File file = new File(outputDir.getPath() + File.separator + "naverapp" + ".txt");
 					BufferedWriter br = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file.getPath(), true), "UTF-8"));
-					
-					DocIndexWriter indexWriter = new DocIndexWriter("./bin/androidmarket/index/naverapp");
-					
+	
 					List<Comment> comments = response.getCommentsList();					
 					for (Comment comment : comments) {	
 						

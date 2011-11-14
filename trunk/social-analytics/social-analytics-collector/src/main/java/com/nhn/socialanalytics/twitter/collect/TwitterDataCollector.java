@@ -17,7 +17,12 @@ import twitter4j.TwitterFactory;
 import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.JobLogger;
 import com.nhn.socialanalytics.common.util.DateUtil;
+import com.nhn.socialanalytics.miner.termvector.DocIndexWriter;
 import com.nhn.socialanalytics.nlp.kr.morpheme.MorphemeAnalyzer;
+import com.nhn.socialanalytics.nlp.kr.semantic.SemanticAnalyzer;
+import com.nhn.socialanalytics.nlp.kr.semantic.SemanticClause;
+import com.nhn.socialanalytics.nlp.kr.semantic.SemanticSentence;
+import com.nhn.socialanalytics.nlp.kr.sentiment.SentimentAnalyzer;
 import com.nhn.socialanalytics.twitter.parse.TwitterParser;
 
 public class TwitterDataCollector {
@@ -65,42 +70,76 @@ public class TwitterDataCollector {
 		return tweets;
 	}
 	
-	public void writeOutput(String objectId, List<twitter4j.Tweet> tweets) throws IOException {
+	public void writeOutput(String objectId, List<twitter4j.Tweet> tweets) throws IOException, Exception {
 				
 		MorphemeAnalyzer morph = MorphemeAnalyzer.getInstance();
+		SemanticAnalyzer semantic = SemanticAnalyzer.getInstance();
+		SentimentAnalyzer sentiment = SentimentAnalyzer.getInstance(new File("./bin/liwc/LIWC_ko.txt"));		
+		DocIndexWriter indexWriter = new DocIndexWriter("./bin/twitter/index/kakaotalk");
 		
 		File file = new File(outputDir.getPath() + File.separator + objectId + ".txt");
-		File fileSource = new File(outputDir.getPath() + File.separator + objectId + "_org.txt");		
-		
 		BufferedWriter br = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file.getPath()), "UTF-8"));
-		BufferedWriter brSource = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(fileSource.getPath()), "UTF-8"));
 			
-		br.write("object_id	tweet_id	created_at	from_user	to_user	text1	text2");
+		br.write("object_id	tweet_id	created_at	from_user	to_user	text	text1	text2	subjectpredicate	subject	predicate	objects	polarity	polarity_strength");
 		br.newLine();
 		
 		// post
 		for (twitter4j.Tweet tweet : tweets) {
+			String tweetId = String.valueOf(tweet.getId());
+			String createTime = DateUtil.convertDateToString("yyyyMMddHHmmss", tweet.getCreatedAt());
+			String fromUser = tweet.getFromUser();
+			String toUser = tweet.getToUser();			
+			
 			String text = TwitterParser.extractContent(tweet.getText());
-			text = TwitterParser.convertEmoticonToTag(text);
+			String textEmotiTagged = TwitterParser.convertEmoticonToTag(text);
+			
+			String text1 = morph.extractTerms(textEmotiTagged);
+			String text2 = morph.extractCoreTerms(textEmotiTagged);
+			
+			SemanticSentence semanticSentence = semantic.createSemanticSentence(textEmotiTagged);
+			String subjectpredicates = semanticSentence.extractSubjectPredicateLabel();
+			String subjects = semanticSentence.extractSubjectLabel();
+			String predicates = semanticSentence.extractPredicateLabel();
+			String objects = semanticSentence.extractObjectsLabel();
+			
+			semanticSentence = sentiment.analyzePolarity(semanticSentence);
+			double polarity = semanticSentence.getPolarity();
+			double polarityStrength = semanticSentence.getPolarityStrength();
 			
 			br.write(
 					objectId + "\t" +
-					tweet.getId() + "\t" +
-					DateUtil.convertDateToString("yyyyMMddHHmmss", tweet.getCreatedAt()) + "\t" + 
-					tweet.getFromUser() + "\t" +
-					tweet.getToUser() + "\t" +
-					//text + "\t" +
-					morph.extractTerms(text) + "\t" +	// filtered text1
-					morph.extractCoreTerms(text) 		// filtered text2
+					tweetId + "\t" +
+					createTime + "\t" + 
+					fromUser + "\t" +
+					toUser + "\t" +
+					text + "\t" +
+					text1 + "\t" +
+					text2 + "\t" +
+					subjectpredicates + "\t" +
+					subjects + "\t" +
+					predicates + "\t" +
+					objects + "\t" +
+					polarity + "\t" +
+					polarityStrength		
 					);
 			br.newLine();
 			
-			//////////////////////
-			brSource.write(tweet.getText());
-			brSource.newLine();
+
+			for (SemanticClause clause : semanticSentence) {
+				indexWriter.write(
+						"androidmarket", 
+						createTime, 
+						fromUser, 
+						tweetId, 
+						clause.getSubject(),
+						clause.getPredicate(), 
+						clause.makeObjectsLabel(), 
+						text);
+			}
+		
 		}
 		br.close();
-		brSource.close();
+		indexWriter.close();
 	}
 	
 	public static void main(String[] args) {
@@ -119,7 +158,7 @@ public class TwitterDataCollector {
 		
 		try {
 			collector.writeOutput(objectId, tweets);
-		} catch (IOException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
