@@ -190,11 +190,49 @@ public class DocTermVectorWriter {
 		
 		try {	
 			writer.write(
-		   		"./bin/index/androidmarket/naverapp",		// inputDir
-		   		"./bin/vectors_subject", 	// outputFile
+		   		"./bin/twitter/index/kakaotalk",		// inputDir
+		   		"./bin/twitter/vectors/predicate_kakaotalk", 	// outputFile
+				 "predicate",		// field
+				 null,				// idField
+				 "./bin/twitter/dic/predicate_kakaotalk.txt",	// dictOut
+				 "tf",				// weightOpt
+				 null,				// delimiter
+				 null,				// power
+				 Long.MAX_VALUE,	// max
+				 "file",			// outputWriter
+				 1,					// minDF
+				 99					// maxDFPercent		
+				);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		try {	
+			writer.write(
+		   		"./bin/twitter/index/kakaotalk",		// inputDir
+		   		"./bin/twitter/vectors/subject_kakaotalk", 	// outputFile
 				 "subject",		// field
 				 null,				// idField
-				 "./bin/dic_subject.txt",	// dictOut
+				 "./bin/twitter/dic/subject_kakaotalk.txt",	// dictOut
+				 "tf",				// weightOpt
+				 null,				// delimiter
+				 null,				// power
+				 Long.MAX_VALUE,	// max
+				 "file",			// outputWriter
+				 1,					// minDF
+				 99					// maxDFPercent		
+				);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+		try {	
+			writer.write(
+		   		"./bin/twitter/index/kakaotalk",		// inputDir
+		   		"./bin/twitter/vectors/object_kakaotalk", 	// outputFile
+				 "objects",		// field
+				 null,				// idField
+				 "./bin/twitter/dic/object_kakaotalk.txt",	// dictOut
 				 "tf",				// weightOpt
 				 null,				// delimiter
 				 null,				// power

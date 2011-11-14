@@ -3,7 +3,9 @@ package com.nhn.socialanalytics.miner.termvector;
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 import java.util.StringTokenizer;
 
 import org.apache.lucene.document.Document;
@@ -21,6 +23,7 @@ public class DocIndexSearcher {
 	private IndexSearcher searcher;
 	private IndexReader reader;
 	private Map<String, Map> dictionaryMap = new HashMap<String, Map>();
+	private Set<String> stopwordSet = new HashSet<String>();
 	
 	public DocIndexSearcher(String indexDir) throws IOException, CorruptIndexException {
 		FSDirectory fsIndexDir = FSDirectory.open(new File(indexDir));
@@ -28,23 +31,20 @@ public class DocIndexSearcher {
 		this.reader = searcher.getIndexReader();
 	}
 	
-	public void loadDictionaries() throws IOException {
-		DocTermVectorReader dtvr = new DocTermVectorReader();
-		
-		Map<String, Integer> mapPredicates = dtvr.loadTermDictionary("./bin/dic_predicate.txt", false);
-		Map<String, Integer> mapSubjects = dtvr.loadTermDictionary("./bin/dic_subject.txt", false);
-		Map<String, Integer> mapObjects = dtvr.loadTermDictionary("./bin/dic_object.txt", false);
-		
-		dictionaryMap.put("predicate", mapPredicates);
-		dictionaryMap.put("subject", mapSubjects);
-		dictionaryMap.put("objects", mapObjects);		
+	public void putDictionary(String fieldName, Map<String, Integer> dictionary) {
+		dictionaryMap.put(fieldName, dictionary);
 	}
 	
-	public int getTF(String dicType, String term) throws Exception {
+	public void setStopwords(Set<String> stopwordSet) {
+		if (stopwordSet != null)
+			this.stopwordSet = stopwordSet;
+	}
+	
+	public int getTF(String fieldName, String term) throws Exception {
 		if (dictionaryMap.isEmpty())
 			throw new Exception("Dictionaies are empty. Load dictionaries first!");
 		
-		Map<String, Integer> map = dictionaryMap.get(dicType);		
+		Map<String, Integer> map = dictionaryMap.get(fieldName);		
 		for (Map.Entry<String, Integer> entry : map.entrySet()) {
 			if(entry.getKey().equals(term)) {
 				int tf = (Integer) entry.getValue();
@@ -56,6 +56,7 @@ public class DocIndexSearcher {
 	}
 	
 	public TargetTerm searchTerms(String searchfield, String outfield, String searchword, int minTF) throws Exception {
+	
 		TargetTerm result = new TargetTerm();
 		result.setTerm(searchword);
 
@@ -84,7 +85,7 @@ public class DocIndexSearcher {
 			detailDoc.setText(doc.get("text"));
 
 			if (outfield.equals("subject")) {
-				if (!DocTermVectorReader.MY_STOP_WORDS_SET.contains(outword)) {
+				if (!stopwordSet.contains(outword)) {
 					int tf = this.getTF(outfield, outword);
 					if (tf >= minTF) {
 						ChildTerm exist = result.getChildTerm(outword);
@@ -97,8 +98,7 @@ public class DocIndexSearcher {
 							childTerm.addDoc(detailDoc);
 							result.addChildTerm(childTerm);
 							
-							System.out.println("\n" + outfield + " == " + outword
-									+ " (tf: " + tf + ")");
+							System.out.println("\n" + outfield + " == " + outword + " (tf: " + tf + ")");
 						}
 					}
 				}
@@ -109,8 +109,7 @@ public class DocIndexSearcher {
 					String objTerm = entry.getKey();
 					Integer objTF = (Integer) entry.getValue();
 
-					if (!DocTermVectorReader.MY_STOP_WORDS_SET
-							.contains(outword)) {
+					if (!stopwordSet.contains(outword)) {
 						if (objTF >= minTF) {
 							ChildTerm exist = result.getChildTerm(objTerm);
 							if (exist != null) {
@@ -122,8 +121,7 @@ public class DocIndexSearcher {
 								childTerm.addDoc(detailDoc);
 								result.addChildTerm(childTerm);
 								
-								System.out.println("\n" + outfield + " == "
-										+ objTerm + " (tf: " + objTF + ")");
+								System.out.println("\n" + outfield + " == " + objTerm + " (tf: " + objTF + ")");
 							}
 						}
 					}
@@ -153,11 +151,16 @@ public class DocIndexSearcher {
 	
 	public static void main(String[] args) {		
 		try {	
-			DocIndexSearcher searcher = new DocIndexSearcher("./bin/index/");
-			searcher.loadDictionaries();
-			
 			DocTermVectorReader reader = new DocTermVectorReader();
-			Map<String, Integer> predicates = reader.getTerms("./bin/dic_predicate.txt", 3);
+			
+			DocIndexSearcher searcher = new DocIndexSearcher("./bin/twitter/index/kakaotalk");
+			searcher.putDictionary("predicate", reader.loadTermDictionary("./bin/twitter/dic/predicate_kakaotalk.txt", false));
+			searcher.putDictionary("subject", reader.loadTermDictionary("./bin/twitter/dic/subject_kakaotalk.txt", false));
+			searcher.putDictionary("objects", reader.loadTermDictionary("./bin/twitter/dic/object_kakaotalk.txt", false));
+			searcher.setStopwords(reader.getStopwords());
+			
+			
+			Map<String, Integer> predicates = reader.getTerms("./bin/twitter/dic/predicate_kakaotalk.txt", 4);
 			
 			for (Map.Entry<String, Integer> entry : predicates.entrySet()) {
 				String term = entry.getKey();

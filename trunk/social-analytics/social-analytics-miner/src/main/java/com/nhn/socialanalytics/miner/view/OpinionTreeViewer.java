@@ -18,6 +18,7 @@ import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.Point2D;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -375,13 +376,22 @@ public class OpinionTreeViewer extends JApplet {
 
 	public static void main(String[] args) {
 		
-		try {	
+		try {
 			
-			DocIndexSearcher searcher = new DocIndexSearcher("./bin/index/androidmarket/naverapp");
-			searcher.loadDictionaries();
+			Set<String> customStopSet = new HashSet<String>();
+			customStopSet.add("카카오톡");
+			customStopSet.add("카톡");
 			
-			DocTermVectorReader reader = new DocTermVectorReader();
-			Map<String, Integer> predicates = reader.getTerms("./bin/dic_predicate.txt", 4);
+			DocTermVectorReader reader = new DocTermVectorReader("./conf/stopword.txt", customStopSet);
+			
+			DocIndexSearcher searcher = new DocIndexSearcher("./bin/twitter/index/kakaotalk");
+			
+			searcher.putDictionary("predicate", reader.loadTermDictionary("./bin/twitter/dic/predicate_kakaotalk.txt", false));
+			searcher.putDictionary("subject", reader.loadTermDictionary("./bin/twitter/dic/subject_kakaotalk.txt", false));
+			searcher.putDictionary("objects", reader.loadTermDictionary("./bin/twitter/dic/object_kakaotalk.txt", false));
+			searcher.setStopwords(reader.getStopwords());			
+			
+			Map<String, Integer> predicates = reader.getTerms("./bin/twitter/dic/predicate_kakaotalk.txt", 10);
 			
 			OpinionGraphModeller modeller = new OpinionGraphModeller();
 			
@@ -389,8 +399,8 @@ public class OpinionTreeViewer extends JApplet {
 				String term = entry.getKey();
 				int tf = (Integer) entry.getValue();
 				
-				TargetTerm subjectTerms = searcher.searchTerms("predicate", "subject", term, 1);
-				TargetTerm objectTerms = searcher.searchTerms("predicate", "objects", term, 4);
+				TargetTerm subjectTerms = searcher.searchTerms("predicate", "subject", term, 7);
+				TargetTerm objectTerms = searcher.searchTerms("predicate", "objects", term, 10);
 				modeller.addTerms(subjectTerms, objectTerms);				
 			}
 			
