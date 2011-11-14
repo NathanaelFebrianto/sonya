@@ -127,7 +127,7 @@ public class TwitterDataCollector {
 
 			for (SemanticClause clause : semanticSentence) {
 				indexWriter.write(
-						"androidmarket", 
+						"twitter", 
 						createTime, 
 						fromUser, 
 						tweetId, 
