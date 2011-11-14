@@ -1,23 +1,11 @@
 package com.nhn.socialanalytics.nlp.kr.morpheme;
 
-import java.io.BufferedReader;
-import java.io.ByteArrayInputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.Reader;
-import java.net.URL;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.lucene.analysis.kr.morph.MorphException;
 import org.apache.lucene.analysis.kr.utils.FileUtil;
-import org.apache.lucene.analysis.kr.utils.JarResources;
 import org.apache.lucene.analysis.kr.utils.StringUtil;
 
 public class DicUtil {
