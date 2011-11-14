@@ -7,6 +7,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -17,7 +18,6 @@ import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.SequenceFile;
-import org.apache.hadoop.util.hash.Hash;
 import org.apache.lucene.analysis.CharArraySet;
 import org.apache.mahout.common.iterator.FileLineIterator;
 import org.apache.mahout.math.NamedVector;
@@ -30,10 +30,12 @@ import org.apache.mahout.utils.vectors.csv.CSVVectorIterator;
 
 public class DocTermVectorReader {
 	
-	public static final Set<?> MY_STOP_WORDS_SET;
+	public Set<String> stopwordSet = new HashSet<String>();
+	
+	private static final Set<?> DEFAULT_STOPWORDS;
 
 	static {
-		final List<String> stopWords = Arrays.asList(
+		final List<?> stopWords = Arrays.asList(
 				 "tagquestion"
 				, "tagsmile"
 				, "tagcry"
@@ -45,27 +47,56 @@ public class DocTermVectorReader {
 				, "lt"
 				, "brgt"
 				, "brgt"
-				, "조다"
-				, "나다"
-				, "외다"
-				, "세다"
-				, "절다"
-				, "자다"
-				, "다"
-				, "별"
-				, "그리다"
-				, "하"
-				, "제"
-				, "하지"
 		);
 		final CharArraySet stopSet = new CharArraySet(stopWords.size(), false);
 		stopSet.addAll(stopWords);
-		MY_STOP_WORDS_SET = CharArraySet.unmodifiableSet(stopSet);
+		DEFAULT_STOPWORDS = CharArraySet.unmodifiableSet(stopSet);
 	}
 		
 	private static final Pattern TAB_PATTERN = Pattern.compile("\t");
 	
-	public DocTermVectorReader() {}
+	public DocTermVectorReader() throws IOException {
+		this(null, null);
+	}
+	
+	public DocTermVectorReader(String stopwordFile) throws IOException {
+		this(stopwordFile, null);
+	}
+	
+	public DocTermVectorReader(String stopwordFile, Set<String> customStopwords) throws IOException {
+		Set<String> stopwords = loadStopwords(stopwordFile);
+		stopwordSet.addAll((Set<String>)DEFAULT_STOPWORDS);
+		stopwordSet.addAll(stopwords);
+		
+		if (customStopwords != null)
+			stopwordSet.addAll(customStopwords);
+	}
+	
+	private Set<String> loadStopwords(String stopwordFile) throws IOException {
+		Set<String> stopSet = new HashSet<String>();
+		
+		if (stopwordFile == null)
+			return stopSet;
+		
+		FileLineIterator it = new FileLineIterator(new FileInputStream(new File(stopwordFile)));
+
+		while (it.hasNext()) {
+			String line = it.next();
+			line = line.trim();
+			if (line.startsWith("#")) {
+				continue;
+			}
+			
+			if (!line.equals("")) {
+				stopSet.add(line);
+			}
+		}
+		return stopSet;
+	}
+	
+	public Set<String> getStopwords() {
+		return this.stopwordSet;
+	}
 	
 	public Map<String, Integer> getTerms(String dicFile, int minTF) throws IOException {
 		Map<String, Integer> terms = new HashMap<String, Integer>();
@@ -116,7 +147,7 @@ public class DocTermVectorReader {
 				dicMap.put(tokens[0], new Integer(tokens[1]));
 			}
 			else {
-				if (!MY_STOP_WORDS_SET.contains(tokens[0]))
+				if (!stopwordSet.contains(tokens[0]))
 					dicMap.put(tokens[0], new Integer(tokens[1]));
 			}
 		}
@@ -165,16 +196,17 @@ public class DocTermVectorReader {
 	}
 	
 	public static void main(String[] args) {
-		DocTermVectorReader reader = new DocTermVectorReader();
+		
 		
 		try {
+			DocTermVectorReader reader = new DocTermVectorReader(null);
 			reader.readVectors(
 					"file", // vectors file format
-					"./bin/vectors_subject", // vetors path
-					"./bin/dic_subject.txt" // dictionary file
+					"./bin/twitter/vectors/predicate_kakaotalk", // vetors path
+					"./bin/twitter/dic/predicate_kakaotalk.txt" // dictionary file
 			);
 
-			Map<String, Integer> terms = reader.getTerms("./bin/dic_subject.txt", 1);
+			Map<String, Integer> terms = reader.getTerms("./bin/twitter/dic/predicate_kakaotalk.txt", 1);
 
 			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
 				String term = entry.getKey();
