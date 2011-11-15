@@ -17,6 +17,7 @@ import twitter4j.TwitterFactory;
 import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.JobLogger;
 import com.nhn.socialanalytics.common.util.DateUtil;
+import com.nhn.socialanalytics.miner.termvector.DetailDoc;
 import com.nhn.socialanalytics.miner.termvector.DocIndexWriter;
 import com.nhn.socialanalytics.nlp.kr.morpheme.MorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.kr.semantic.SemanticAnalyzer;
@@ -87,7 +88,8 @@ public class TwitterDataCollector {
 		for (twitter4j.Tweet tweet : tweets) {
 			String tweetId = String.valueOf(tweet.getId());
 			String createTime = DateUtil.convertDateToString("yyyyMMddHHmmss", tweet.getCreatedAt());
-			String fromUser = tweet.getFromUser();
+			String fromUserId = String.valueOf(tweet.getFromUserId());
+			String fromUser = tweet.getFromUser();			
 			String toUser = tweet.getToUser();			
 			
 			String text = TwitterParser.extractContent(tweet.getText());
@@ -126,15 +128,18 @@ public class TwitterDataCollector {
 			
 
 			for (SemanticClause clause : semanticSentence) {
-				indexWriter.write(
-						"twitter", 
-						createTime, 
-						fromUser, 
-						tweetId, 
-						clause.getSubject(),
-						clause.getPredicate(), 
-						clause.makeObjectsLabel(), 
-						text);
+				DetailDoc doc = new DetailDoc();
+				doc.setSite("twitter");
+				doc.setDate(createTime);
+				doc.setUserId(fromUserId);
+				doc.setUserName(fromUser);
+				doc.setDocId(tweetId);
+				doc.setSubject(clause.getSubject());
+				doc.setPredicate(clause.getPredicate());
+				doc.setObjects(clause.makeObjectsLabel());
+				doc.setText(text);
+				
+				indexWriter.write(doc);
 			}
 		
 		}

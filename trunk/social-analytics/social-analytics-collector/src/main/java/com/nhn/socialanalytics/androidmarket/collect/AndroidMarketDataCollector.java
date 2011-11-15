@@ -18,6 +18,7 @@ import com.gc.android.market.api.model.Market.ResponseContext;
 import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.util.DateUtil;
 import com.nhn.socialanalytics.common.util.StringUtil;
+import com.nhn.socialanalytics.miner.termvector.DetailDoc;
 import com.nhn.socialanalytics.miner.termvector.DocIndexWriter;
 import com.nhn.socialanalytics.nlp.kr.morpheme.MorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.kr.semantic.SemanticAnalyzer;
@@ -158,15 +159,18 @@ public class AndroidMarketDataCollector {
 						}
 						
 						for (SemanticClause clause : semanticSentence) {
-							indexWriter.write(
-									"androidmarket", 
-									createTime, 
-									authorId, 
-									commentId, 
-									clause.getSubject(),
-									clause.getPredicate(), 
-									clause.makeObjectsLabel(), 
-									text);
+							DetailDoc doc = new DetailDoc();
+							doc.setSite("androidmarket");
+							doc.setDate(createTime);
+							doc.setUserId(authorId);
+							doc.setUserName(authorName);
+							doc.setDocId(commentId);
+							doc.setSubject(clause.getSubject());
+							doc.setPredicate(clause.getPredicate());
+							doc.setObjects(clause.makeObjectsLabel());
+							doc.setText(text);
+							
+							indexWriter.write(doc);
 						}
 					}					
 					br.close();
