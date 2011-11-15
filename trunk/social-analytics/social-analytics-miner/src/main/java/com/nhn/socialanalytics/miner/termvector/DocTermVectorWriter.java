@@ -190,11 +190,11 @@ public class DocTermVectorWriter {
 		
 		try {	
 			writer.write(
-		   		"./bin/twitter/index/kakaotalk",		// inputDir
-		   		"./bin/twitter/vectors/predicate_kakaotalk", 	// outputFile
+		   		"./bin/androidmarket/index/naverapp",		// inputDir
+		   		"./bin/androidmarket/vectors/predicate_naverapp", 	// outputFile
 		   		FieldConstants.PREDICATE,		// field
 				 null,				// idField
-				 "./bin/twitter/dic/predicate_kakaotalk.txt",	// dictOut
+				 "./bin/androidmarket/dic/predicate_naverapp.txt",	// dictOut
 				 "tf",				// weightOpt
 				 null,				// delimiter
 				 null,				// power
@@ -209,11 +209,11 @@ public class DocTermVectorWriter {
 		
 		try {	
 			writer.write(
-		   		"./bin/twitter/index/kakaotalk",		// inputDir
-		   		"./bin/twitter/vectors/subject_kakaotalk", 	// outputFile
+		   		"./bin/androidmarket/index/naverapp",		// inputDir
+		   		"./bin/androidmarket/vectors/subject_naverapp", 	// outputFile
 				 FieldConstants.SUBJECT,		// field
 				 null,				// idField
-				 "./bin/twitter/dic/subject_kakaotalk.txt",	// dictOut
+				 "./bin/androidmarket/dic/subject_naverapp.txt",	// dictOut
 				 "tf",				// weightOpt
 				 null,				// delimiter
 				 null,				// power
@@ -228,11 +228,11 @@ public class DocTermVectorWriter {
 		
 		try {	
 			writer.write(
-		   		"./bin/twitter/index/kakaotalk",		// inputDir
-		   		"./bin/twitter/vectors/object_kakaotalk", 	// outputFile
+		   		"./bin/androidmarket/index/naverapp",		// inputDir
+		   		"./bin/androidmarket/vectors/object_naverapp", 	// outputFile
 		   		FieldConstants.OBJECT,		// field
 				 null,				// idField
-				 "./bin/twitter/dic/object_kakaotalk.txt",	// dictOut
+				 "./bin/androidmarket/dic/object_naverapp.txt",	// dictOut
 				 "tf",				// weightOpt
 				 null,				// delimiter
 				 null,				// power

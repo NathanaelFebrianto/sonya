@@ -41,25 +41,28 @@ public class DocIndexWriter {
 		MY_STOP_WORDS_SET = CharArraySet.unmodifiableSet(stopSet);
 	}
 	
-	public DocIndexWriter(String outputDir) throws IOException {
+	public DocIndexWriter(String outputDir) throws IOException {		
+		this(outputDir, false);
+	}
+	
+	public DocIndexWriter(String outputDir, boolean append) throws IOException {
 		
 		File file = new File(outputDir);
 		if (!file.exists())
 			file.mkdir();
 		
 		indexDir = FSDirectory.open(file);	
-
-		boolean isAppend = false;
 		
-		if (indexDir.listAll().length == 0)
-			isAppend = true;
-				
+		boolean newCreate = true;
+		if (append) 
+			newCreate = false;
+		
 		//Analyzer luceneAnalyzer = new StopAnalyzer(Version.LUCENE_33, MY_STOP_WORDS_SET);	// removes numbers too
 		Analyzer luceneAnalyzer = new StandardAnalyzer(Version.LUCENE_33, MY_STOP_WORDS_SET);
-		indexWriter = new IndexWriter(indexDir, luceneAnalyzer, isAppend, IndexWriter.MaxFieldLength.UNLIMITED);
+		indexWriter = new IndexWriter(indexDir, luceneAnalyzer, newCreate, IndexWriter.MaxFieldLength.UNLIMITED);
 	}
 	
-	public void write(DetailDoc doc) throws IOException, CorruptIndexException {		
+	public void write(DetailDoc doc) throws IOException, CorruptIndexException {
 		String site = doc.getSite();
 		String date = doc.getDate();
 		String userId = doc.getUserId();
