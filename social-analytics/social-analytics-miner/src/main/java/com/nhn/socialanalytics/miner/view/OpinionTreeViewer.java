@@ -384,11 +384,11 @@ public class OpinionTreeViewer extends JApplet {
 			
 			DocTermVectorReader reader = new DocTermVectorReader("./conf/stopword.txt", customStopSet);
 			
-			DocIndexSearcher searcher = new DocIndexSearcher("./bin/twitter/index/kakaotalk");
+			DocIndexSearcher searcher = new DocIndexSearcher("./bin/androidmarket/index/naverapp");
 			
-			searcher.putDictionary(FieldConstants.PREDICATE, reader.loadTermDictionary("./bin/twitter/dic/predicate_kakaotalk.txt", false));
-			searcher.putDictionary(FieldConstants.SUBJECT, reader.loadTermDictionary("./bin/twitter/dic/subject_kakaotalk.txt", false));
-			searcher.putDictionary(FieldConstants.OBJECT, reader.loadTermDictionary("./bin/twitter/dic/object_kakaotalk.txt", false));
+			searcher.putDictionary(FieldConstants.PREDICATE, reader.loadTermDictionary("./bin/androidmarket/dic/predicate_naverapp.txt", false));
+			searcher.putDictionary(FieldConstants.SUBJECT, reader.loadTermDictionary("./bin/androidmarket/dic/subject_naverapp.txt", false));
+			searcher.putDictionary(FieldConstants.OBJECT, reader.loadTermDictionary("./bin/androidmarket/dic/object_naverapp.txt", false));
 			searcher.setStopwords(reader.getStopwords());			
 			
 			OpinionGraphModeller modeller = new OpinionGraphModeller();
@@ -396,38 +396,38 @@ public class OpinionTreeViewer extends JApplet {
 			/////////////////////////////////
 			/* target term ==> PREDICATE   */
 			/////////////////////////////////
-			/*
-			Map<String, Integer> predicates = reader.getTerms("./bin/twitter/dic/predicate_kakaotalk.txt", 10);							
+			Map<String, Integer> predicates = reader.getTerms("./bin/androidmarket/dic/predicate_naverapp.txt", 5);							
 			for (Map.Entry<String, Integer> entry : predicates.entrySet()) {
 				String term = entry.getKey();
 				int tf = (Integer) entry.getValue();
 				
-				TargetTerm subjectTerm = searcher.searchTerms(FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 7);
-				TargetTerm objectTerm = searcher.searchTerms(FieldConstants.PREDICATE, FieldConstants.OBJECT, term, 10);
+				TargetTerm subjectTerm = searcher.searchTerms(FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 2);
+				TargetTerm objectTerm = searcher.searchTerms(FieldConstants.PREDICATE, FieldConstants.OBJECT, term, 5);
 				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
 				termMap.put(FieldConstants.SUBJECT, subjectTerm);
 				termMap.put(FieldConstants.OBJECT, objectTerm);
 				
 				modeller.addTerms(FieldConstants.PREDICATE, termMap);			
 			}
-			*/		
 			
 			/////////////////////////////////
 			/* target term ==> SUBJECT     */
 			/////////////////////////////////
-			Map<String, Integer> subjects = reader.getTerms("./bin/twitter/dic/subject_kakaotalk.txt", 5);							
+			/*
+			Map<String, Integer> subjects = reader.getTerms("./bin/androidmarket/dic/subject_naverapp.txt", 2);							
 			for (Map.Entry<String, Integer> entry : subjects.entrySet()) {
 				String term = entry.getKey();
 				int tf = (Integer) entry.getValue();
 				
-				TargetTerm predicateTerm = searcher.searchTerms(FieldConstants.SUBJECT, FieldConstants.PREDICATE, term, 10);
-				TargetTerm objectTerm = searcher.searchTerms(FieldConstants.SUBJECT, FieldConstants.OBJECT, term, 10);
+				TargetTerm predicateTerm = searcher.searchTerms(FieldConstants.SUBJECT, FieldConstants.PREDICATE, term, 2);
+				TargetTerm objectTerm = searcher.searchTerms(FieldConstants.SUBJECT, FieldConstants.OBJECT, term, 2);
 				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
 				termMap.put(FieldConstants.PREDICATE, predicateTerm);
 				termMap.put(FieldConstants.OBJECT, objectTerm);
 				
 				modeller.addTerms(FieldConstants.SUBJECT, termMap);			
 			}	
+			*/
 			/////////////////////////////////
 			
 			modeller.createGraph();
