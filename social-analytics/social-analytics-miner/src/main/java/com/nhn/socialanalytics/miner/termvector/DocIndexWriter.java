@@ -59,9 +59,16 @@ public class DocIndexWriter {
 		indexWriter = new IndexWriter(indexDir, luceneAnalyzer, isAppend, IndexWriter.MaxFieldLength.UNLIMITED);
 	}
 	
-	public void write(String site, String date, String user, String docId, 
-			String subject, String predicate, String objects, String text) 
-			throws IOException, CorruptIndexException {
+	public void write(DetailDoc doc) throws IOException, CorruptIndexException {		
+		String site = doc.getSite();
+		String date = doc.getDate();
+		String userId = doc.getUserId();
+		String userName = doc.getUserName();
+		String docId = doc.getDocId();
+		String subject = doc.getSubject();
+		String predicate = doc.getPredicate();
+		String objects = doc.getObjects();
+		String text = doc.getText();		
 		
 		if (subject == null || subject.trim().equals(""))
 			subject = "tagempty";
@@ -73,14 +80,15 @@ public class DocIndexWriter {
 			text = "tagempty";
 			
 		Document document = new Document();
-		document.add(new Field("site", site, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
-		document.add(new Field("date", date, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
-		document.add(new Field("user", user, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
-		document.add(new Field("docId", docId, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
-		document.add(new Field("subject", subject, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.YES));
-		document.add(new Field("predicate", predicate, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.YES));
-		document.add(new Field("objects", objects, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.YES));
-		document.add(new Field("text", text, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.YES));
+		document.add(new Field(FieldConstants.SITE, site, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
+		document.add(new Field(FieldConstants.DATE, date, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
+		document.add(new Field(FieldConstants.USER_ID, userId, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
+		document.add(new Field(FieldConstants.USER_NAME, userName, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
+		document.add(new Field(FieldConstants.DOC_ID, docId, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
+		document.add(new Field(FieldConstants.SUBJECT, subject, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.YES));
+		document.add(new Field(FieldConstants.PREDICATE, predicate, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.YES));
+		document.add(new Field(FieldConstants.OBJECT, objects, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.YES));
+		document.add(new Field(FieldConstants.TEXT, text, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.YES));
 
 		indexWriter.addDocument(document);
 	}

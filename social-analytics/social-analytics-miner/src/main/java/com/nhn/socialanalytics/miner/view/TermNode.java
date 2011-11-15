@@ -7,7 +7,7 @@ import com.nhn.socialanalytics.miner.termvector.DetailDoc;
 public class TermNode {
 
 	private String id;
-	private String term;
+	private String name;
 	private String type;
 	private int tf;		
 	private ArrayList<DetailDoc> docs = new ArrayList<DetailDoc>();
@@ -20,12 +20,12 @@ public class TermNode {
 		this.id = id;
 	}
 	
-	public String getTerm() {
-		return term;
+	public String getName() {
+		return name;
 	}
 
-	public void setTerm(String term) {
-		this.term = term;
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	public String getType() {

@@ -18,7 +18,6 @@ import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.Point2D;
-import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -46,6 +45,7 @@ import org.apache.commons.collections15.map.LazyMap;
 import com.nhn.socialanalytics.miner.termvector.DetailDoc;
 import com.nhn.socialanalytics.miner.termvector.DocIndexSearcher;
 import com.nhn.socialanalytics.miner.termvector.DocTermVectorReader;
+import com.nhn.socialanalytics.miner.termvector.FieldConstants;
 import com.nhn.socialanalytics.miner.termvector.TargetTerm;
 import com.nhn.socialanalytics.nlp.kr.view.GenericListener;
 
@@ -128,7 +128,7 @@ public class OpinionTreeViewer extends JApplet {
 					new Transformer<TermNode, String>() {
 						public String transform(TermNode v) {
 							
-							String label = v.getTerm();
+							String label = v.getName();
 							if (v.getTF() > 0)
 								label += " (" + v.getTF() +  ")";
 							return label;
@@ -169,11 +169,12 @@ public class OpinionTreeViewer extends JApplet {
 								tareaDetailDocs.setText("");
 								List<DetailDoc> detailDocs = v.getDocs();
 								StringBuffer header = new StringBuffer()
-								.append("site").append(" | ")
-								.append("date").append(" | ")
-								.append("user").append(" | ")
-								.append("docId").append(" | ")
-								.append("text");
+								.append(FieldConstants.SITE).append(" | ")
+								.append(FieldConstants.DATE).append(" | ")
+								.append(FieldConstants.USER_ID).append(" | ")
+								.append(FieldConstants.USER_NAME).append(" | ")
+								.append(FieldConstants.DOC_ID).append(" | ")
+								.append(FieldConstants.TEXT);
 								
 								tareaDetailDocs.append("============================================================\n");
 								tareaDetailDocs.append(header.toString() + "\n");
@@ -357,14 +358,13 @@ public class OpinionTreeViewer extends JApplet {
 	private void changeVerbVerticesColor() {
 		Collection<TermNode> vertices = graph.getVertices();
 		for (TermNode v : vertices) {
-			if (v.getType() != null && v.getType().equals("predicate")) {
+			if (v.getType() != null && v.getType().equals(FieldConstants.PREDICATE)) {
+				//vertexPaints.put(v, Color.red);
+			}
+			if (v.getName().equals(FieldConstants.SUBJECT) || 
+					v.getName().equals(FieldConstants.PREDICATE) ||
+					v.getName().equals(FieldConstants.OBJECT)) {
 				vertexPaints.put(v, Color.red);
-			}
-			if (v.getTerm().equals("subject")) {
-				vertexPaints.put(v, Color.blue);
-			}
-			if (v.getTerm().equals("object")) {
-				vertexPaints.put(v, Color.green);
 			}
 		}		
 	}
@@ -386,23 +386,49 @@ public class OpinionTreeViewer extends JApplet {
 			
 			DocIndexSearcher searcher = new DocIndexSearcher("./bin/twitter/index/kakaotalk");
 			
-			searcher.putDictionary("predicate", reader.loadTermDictionary("./bin/twitter/dic/predicate_kakaotalk.txt", false));
-			searcher.putDictionary("subject", reader.loadTermDictionary("./bin/twitter/dic/subject_kakaotalk.txt", false));
-			searcher.putDictionary("objects", reader.loadTermDictionary("./bin/twitter/dic/object_kakaotalk.txt", false));
+			searcher.putDictionary(FieldConstants.PREDICATE, reader.loadTermDictionary("./bin/twitter/dic/predicate_kakaotalk.txt", false));
+			searcher.putDictionary(FieldConstants.SUBJECT, reader.loadTermDictionary("./bin/twitter/dic/subject_kakaotalk.txt", false));
+			searcher.putDictionary(FieldConstants.OBJECT, reader.loadTermDictionary("./bin/twitter/dic/object_kakaotalk.txt", false));
 			searcher.setStopwords(reader.getStopwords());			
-			
-			Map<String, Integer> predicates = reader.getTerms("./bin/twitter/dic/predicate_kakaotalk.txt", 10);
 			
 			OpinionGraphModeller modeller = new OpinionGraphModeller();
 			
+			/////////////////////////////////
+			/* target term ==> PREDICATE   */
+			/////////////////////////////////
+			/*
+			Map<String, Integer> predicates = reader.getTerms("./bin/twitter/dic/predicate_kakaotalk.txt", 10);							
 			for (Map.Entry<String, Integer> entry : predicates.entrySet()) {
 				String term = entry.getKey();
 				int tf = (Integer) entry.getValue();
 				
-				TargetTerm subjectTerms = searcher.searchTerms("predicate", "subject", term, 7);
-				TargetTerm objectTerms = searcher.searchTerms("predicate", "objects", term, 10);
-				modeller.addTerms(subjectTerms, objectTerms);				
+				TargetTerm subjectTerm = searcher.searchTerms(FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 7);
+				TargetTerm objectTerm = searcher.searchTerms(FieldConstants.PREDICATE, FieldConstants.OBJECT, term, 10);
+				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
+				termMap.put(FieldConstants.SUBJECT, subjectTerm);
+				termMap.put(FieldConstants.OBJECT, objectTerm);
+				
+				modeller.addTerms(FieldConstants.PREDICATE, termMap);			
 			}
+			*/		
+			
+			/////////////////////////////////
+			/* target term ==> SUBJECT     */
+			/////////////////////////////////
+			Map<String, Integer> subjects = reader.getTerms("./bin/twitter/dic/subject_kakaotalk.txt", 5);							
+			for (Map.Entry<String, Integer> entry : subjects.entrySet()) {
+				String term = entry.getKey();
+				int tf = (Integer) entry.getValue();
+				
+				TargetTerm predicateTerm = searcher.searchTerms(FieldConstants.SUBJECT, FieldConstants.PREDICATE, term, 10);
+				TargetTerm objectTerm = searcher.searchTerms(FieldConstants.SUBJECT, FieldConstants.OBJECT, term, 10);
+				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
+				termMap.put(FieldConstants.PREDICATE, predicateTerm);
+				termMap.put(FieldConstants.OBJECT, objectTerm);
+				
+				modeller.addTerms(FieldConstants.SUBJECT, termMap);			
+			}	
+			/////////////////////////////////
 			
 			modeller.createGraph();
 			Forest graph = modeller.getGraph();

@@ -7,6 +7,7 @@ tagempty
 http
 gt
 lt
+qt
 brgt
 brgt
 조다
@@ -25,6 +26,7 @@ brgt
 내
 저
 아
+이
 으
 으로
 내다
@@ -39,3 +41,7 @@ brgt
 사다
 나
 보
+해
+뭐
+것
+서

@@ -192,7 +192,7 @@ public class DocTermVectorWriter {
 			writer.write(
 		   		"./bin/twitter/index/kakaotalk",		// inputDir
 		   		"./bin/twitter/vectors/predicate_kakaotalk", 	// outputFile
-				 "predicate",		// field
+		   		FieldConstants.PREDICATE,		// field
 				 null,				// idField
 				 "./bin/twitter/dic/predicate_kakaotalk.txt",	// dictOut
 				 "tf",				// weightOpt
@@ -211,7 +211,7 @@ public class DocTermVectorWriter {
 			writer.write(
 		   		"./bin/twitter/index/kakaotalk",		// inputDir
 		   		"./bin/twitter/vectors/subject_kakaotalk", 	// outputFile
-				 "subject",		// field
+				 FieldConstants.SUBJECT,		// field
 				 null,				// idField
 				 "./bin/twitter/dic/subject_kakaotalk.txt",	// dictOut
 				 "tf",				// weightOpt
@@ -230,7 +230,7 @@ public class DocTermVectorWriter {
 			writer.write(
 		   		"./bin/twitter/index/kakaotalk",		// inputDir
 		   		"./bin/twitter/vectors/object_kakaotalk", 	// outputFile
-				 "objects",		// field
+		   		FieldConstants.OBJECT,		// field
 				 null,				// idField
 				 "./bin/twitter/dic/object_kakaotalk.txt",	// dictOut
 				 "tf",				// weightOpt
