@@ -3,8 +3,10 @@ package com.nhn.socialanalytics.miner.view;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import com.nhn.socialanalytics.miner.termvector.ChildTerm;
+import com.nhn.socialanalytics.miner.termvector.FieldConstants;
 import com.nhn.socialanalytics.miner.termvector.TargetTerm;
 
 import edu.uci.ics.jung.graph.DelegateForest;
@@ -41,8 +43,8 @@ public class OpinionGraphModeller {
 		graph = new DelegateForest<TermNode, TermEdge>();
 		
 		rootNode = new TermNode();
-		rootNode.setId("root");
-		rootNode.setTerm("root");
+		rootNode.setId("ROOT");
+		rootNode.setName("ROOT");
 		
 		termNodes.add(rootNode);
 		
@@ -81,7 +83,7 @@ public class OpinionGraphModeller {
 		for (int i = 0; i < vertices.size(); i++) {
 			TermNode vertex = (TermNode) vertices.get(i);
 			
-			System.out.println("node id == " + String.valueOf(vertex.getId()));
+			//System.out.println("node id == " + String.valueOf(vertex.getId()));
 			
 			graph.addVertex(vertex);
 			verticesMap.put(String.valueOf(vertex.getId()), vertex);
@@ -106,94 +108,72 @@ public class OpinionGraphModeller {
 
 		}
 	}
-	
-	
-	public void addTerms(TargetTerm subjectTerms, TargetTerm objectTerms) {
-		TermNode predicateNode = new TermNode();
-		predicateNode.setId(subjectTerms.getTerm());
-		predicateNode.setTerm(subjectTerms.getTerm());
-		predicateNode.setTF(subjectTerms.getTF());
-		predicateNode.setType("predicate");
-		
-		termNodes.add(predicateNode);
-		
-		TermEdge rootEdge = new TermEdge();
-		rootEdge.setTo(predicateNode.getId());
-		rootEdge.setFrom(rootNode.getId());
-		rootEdge.setId(rootEdge.getFrom() + "-" + rootEdge.getTo());		
-		
-		termEdges.add(rootEdge);
-		
-		// subject group node
-		TermNode subjGroupNode = new TermNode();
-		subjGroupNode.setId("subject" + subjectTerms.getTerm());
-		subjGroupNode.setTerm("subject");
-		
-		if (subjectTerms.getChildTerms().size() > 0)
-			termNodes.add(subjGroupNode);
-				
-		TermEdge subjEdge = new TermEdge();
-		subjEdge.setTo(subjGroupNode.getId());
-		subjEdge.setFrom(predicateNode.getId());
-		subjEdge.setId(subjEdge.getFrom() + "-" + subjEdge.getTo());
-		
-		if (subjectTerms.getChildTerms().size() > 0)
-			termEdges.add(subjEdge);
-		
-		// object group node
-		TermNode objGroupNode = new TermNode();
-		objGroupNode.setId("object" + subjectTerms.getTerm());
-		objGroupNode.setTerm("object");
-		
-		if (objectTerms.getChildTerms().size() > 0)
-			termNodes.add(objGroupNode);
 
-		TermEdge objEdge = new TermEdge();
-		objEdge.setTo(objGroupNode.getId());
-		objEdge.setFrom(predicateNode.getId());
-		objEdge.setId(objEdge.getFrom() + "-" + objEdge.getTo());
+	public void addTerms(String targetField, Map<String, TargetTerm> termMap) {
 		
-		if (objectTerms.getChildTerms().size() > 0)
-			termEdges.add(objEdge);
+		// update root node name
+		rootNode.setName(targetField);
 		
-		// subject term nodes
-		for (ChildTerm subjectTerm : subjectTerms.getChildTerms()) {
-			TermNode node = new TermNode();
-			node.setId(subjGroupNode.getId() + "-" + subjectTerm.getTerm());
-			node.setTerm(subjectTerm.getTerm());
-			node.setTF(subjectTerm.getTF());
-			node.setDocs(subjectTerm.getDocs());
-			
-			//System.out.println("subject node == " + node.getTerm());
-			
-			termNodes.add(node);
-			
-			TermEdge edge = new TermEdge();
-			edge.setTo(node.getId());
-			edge.setFrom(subjGroupNode.getId());
-			edge.setId(edge.getFrom() + "-" + edge.getTo());
-			
-			termEdges.add(edge);
-		}
+		// parent node
+		TermNode parentNode = new TermNode();
+		parentNode.setType(targetField);
 		
-		// object term nodes
-		for (ChildTerm objectTerm : objectTerms.getChildTerms()) {
-			TermNode node = new TermNode();
-			node.setId(objGroupNode.getId() + "-" + objectTerm.getTerm());
-			node.setTerm(objectTerm.getTerm());
-			node.setTF(objectTerm.getTF());
-			node.setDocs(objectTerm.getDocs());
+		int i = 0;
+		for (Map.Entry<String, TargetTerm> entry : termMap.entrySet()) {
+			String fieldName = entry.getKey();
+			TargetTerm targetTerm = entry.getValue();
+
+			if (i == 0) {
+				// target term node
+				parentNode.setId(targetTerm.getTerm());
+				parentNode.setName(targetTerm.getTerm());
+				parentNode.setTF(targetTerm.getTF());				
+				
+				// target term edge
+				TermEdge rootEdge = new TermEdge();
+				rootEdge.setTo(parentNode.getId());
+				rootEdge.setFrom(rootNode.getId());
+				
+				termNodes.add(parentNode);
+				termEdges.add(rootEdge);
+			}		
 			
-			//System.out.println("object node == " + node.getTerm());
+			i++;			
 			
-			termNodes.add(node);
+			// group node
+			TermNode groupNode = new TermNode();
+			groupNode.setId(fieldName + targetTerm.getTerm());
+			groupNode.setName(fieldName);
 			
-			TermEdge edge = new TermEdge();
-			edge.setTo(node.getId());
-			edge.setFrom(objGroupNode.getId());
-			edge.setId(edge.getFrom() + "-" + edge.getTo());
+			// group edge
+			TermEdge groupEdge = new TermEdge();
+			groupEdge.setTo(groupNode.getId());
+			groupEdge.setFrom(parentNode.getId());
 			
-			termEdges.add(edge);
+			if (targetTerm.getChildTerms().size() > 0) {
+				termNodes.add(groupNode);
+				termEdges.add(groupEdge);
+			}
+			
+			// child term nodes
+			for (ChildTerm childTerm : targetTerm.getChildTerms()) {
+				// node
+				TermNode node = new TermNode();
+				node.setId(groupNode.getId() + "-" + childTerm.getTerm());
+				node.setName(childTerm.getTerm());
+				node.setTF(childTerm.getTF());
+				node.setType(fieldName);
+				node.setDocs(childTerm.getDocs());
+				
+				// edge
+				TermEdge edge = new TermEdge();
+				edge.setTo(node.getId());
+				edge.setFrom(groupNode.getId());
+				
+				termNodes.add(node);
+				termEdges.add(edge);
+			}
 		}
 	}
+	
 }

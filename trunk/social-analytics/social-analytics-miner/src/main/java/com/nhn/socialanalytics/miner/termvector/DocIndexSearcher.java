@@ -78,13 +78,14 @@ public class DocIndexSearcher {
 			//System.out.println("\nsource text == " + doc.get("text"));
 
 			DetailDoc detailDoc = new DetailDoc();
-			detailDoc.setSite(doc.get("site"));
-			detailDoc.setDate(doc.get("date"));
-			detailDoc.setUser(doc.get("user"));
-			detailDoc.setDocId(doc.get("docId"));
-			detailDoc.setText(doc.get("text"));
+			detailDoc.setSite(doc.get(FieldConstants.SITE));
+			detailDoc.setDate(doc.get(FieldConstants.DATE));
+			detailDoc.setUserId(doc.get(FieldConstants.USER_ID));
+			detailDoc.setUserName(doc.get(FieldConstants.USER_NAME));
+			detailDoc.setDocId(doc.get(FieldConstants.DOC_ID));
+			detailDoc.setText(doc.get(FieldConstants.TEXT));
 
-			if (outfield.equals("subject")) {
+			if (outfield.equals(FieldConstants.SUBJECT) || outfield.equals(FieldConstants.PREDICATE)) {
 				if (!stopwordSet.contains(outword)) {
 					int tf = this.getTF(outfield, outword);
 					if (tf >= minTF) {
@@ -102,7 +103,7 @@ public class DocIndexSearcher {
 						}
 					}
 				}
-			} else if (outfield.equals("objects")) {
+			} else if (outfield.equals(FieldConstants.OBJECT)) {
 				Map<String, Integer> mapObjects = this.tokenizeObjects(outword);
 
 				for (Map.Entry<String, Integer> entry : mapObjects.entrySet()) {
@@ -140,7 +141,7 @@ public class DocIndexSearcher {
 			while (st.hasMoreTokens()) {
 				String object = st.nextToken();
 				if (!object.trim().equals("")) {
-					int tf = this.getTF("objects", object);
+					int tf = this.getTF(FieldConstants.OBJECT, object);
 					map.put(object, new Integer(tf));
 				}
 			}			
@@ -154,9 +155,9 @@ public class DocIndexSearcher {
 			DocTermVectorReader reader = new DocTermVectorReader();
 			
 			DocIndexSearcher searcher = new DocIndexSearcher("./bin/twitter/index/kakaotalk");
-			searcher.putDictionary("predicate", reader.loadTermDictionary("./bin/twitter/dic/predicate_kakaotalk.txt", false));
-			searcher.putDictionary("subject", reader.loadTermDictionary("./bin/twitter/dic/subject_kakaotalk.txt", false));
-			searcher.putDictionary("objects", reader.loadTermDictionary("./bin/twitter/dic/object_kakaotalk.txt", false));
+			searcher.putDictionary(FieldConstants.PREDICATE, reader.loadTermDictionary("./bin/twitter/dic/predicate_kakaotalk.txt", false));
+			searcher.putDictionary(FieldConstants.SUBJECT, reader.loadTermDictionary("./bin/twitter/dic/subject_kakaotalk.txt", false));
+			searcher.putDictionary(FieldConstants.OBJECT, reader.loadTermDictionary("./bin/twitter/dic/object_kakaotalk.txt", false));
 			searcher.setStopwords(reader.getStopwords());
 			
 			
@@ -166,7 +167,7 @@ public class DocIndexSearcher {
 				String term = entry.getKey();
 				int tf = (Integer) entry.getValue();
 				System.out.println("--------------------------------------\n");
-				searcher.searchTerms("predicate", "subject", term, 2);
+				searcher.searchTerms(FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 2);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
