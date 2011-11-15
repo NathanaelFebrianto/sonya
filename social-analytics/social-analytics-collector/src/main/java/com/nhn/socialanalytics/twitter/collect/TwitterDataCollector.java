@@ -6,6 +6,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import twitter4j.Query;
@@ -72,14 +73,18 @@ public class TwitterDataCollector {
 	}
 	
 	public void writeOutput(String objectId, List<twitter4j.Tweet> tweets) throws IOException, Exception {
-				
+		String currentDate = DateUtil.convertDateToString("yyyyMMdd", new Date());	
+		String docIndexDir = Config.getProperty("TWITTER_INDEX_DIR") + objectId + "_" + currentDate;
+		String srcOutputFile = outputDir.getPath() + File.separator + objectId + "_" + currentDate + ".txt";
+		
 		MorphemeAnalyzer morph = MorphemeAnalyzer.getInstance();
 		SemanticAnalyzer semantic = SemanticAnalyzer.getInstance();
-		SentimentAnalyzer sentiment = SentimentAnalyzer.getInstance(new File("./bin/liwc/LIWC_ko.txt"));		
-		DocIndexWriter indexWriter = new DocIndexWriter("./bin/twitter/index/kakaotalk");
+		SentimentAnalyzer sentiment = SentimentAnalyzer.getInstance(new File(Config.getProperty("LIWC_CAT_FILE")));			
 		
-		File file = new File(outputDir.getPath() + File.separator + objectId + ".txt");
-		BufferedWriter br = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file.getPath()), "UTF-8"));
+		DocIndexWriter indexWriter = new DocIndexWriter(docIndexDir, true);
+		
+		File file = new File(srcOutputFile);
+		BufferedWriter br = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file.getPath(), true), "UTF-8"));
 			
 		br.write("object_id	tweet_id	created_at	from_user	to_user	text	text1	text2	subjectpredicate	subject	predicate	objects	polarity	polarity_strength");
 		br.newLine();
