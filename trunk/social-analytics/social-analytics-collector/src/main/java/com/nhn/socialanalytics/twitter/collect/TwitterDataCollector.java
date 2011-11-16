@@ -1,13 +1,22 @@
 package com.nhn.socialanalytics.twitter.collect;
 
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
+import java.util.regex.Pattern;
 
 import twitter4j.Query;
 import twitter4j.QueryResult;
@@ -33,6 +42,7 @@ public class TwitterDataCollector {
 	private File outputDir;
 	
 	private Twitter twitter;
+	private static final String DELIMITER = "\t";
 	
 	public TwitterDataCollector() {	
 		outputDir = new File(Config.getProperty("TWITTER_SOURCE_DATA_DIR"));
@@ -72,10 +82,39 @@ public class TwitterDataCollector {
 		return tweets;
 	}
 	
+	private Set<String> loadPrevCollectedHashSet(String objectId) throws IOException, UnsupportedEncodingException {
+		Set<String> idSet = new HashSet<String>();
+		
+		try {			
+			String prevColIdSetFile = outputDir.getPath() + File.separator + objectId + ".txt";
+			
+			InputStream is = new FileInputStream(new File(prevColIdSetFile));
+			BufferedReader in = new BufferedReader(new InputStreamReader(is, "UTF-8")); 
+			
+			String line;
+			while ((line = in.readLine()) != null) {
+				String[] tokens = Pattern.compile(DELIMITER).split(line);				
+				String tweetId = tokens[0];
+				idSet.add(tweetId);
+			}
+			is.close();
+		} catch (FileNotFoundException e) {
+			System.out.println(e.getMessage());
+			return idSet;
+		}
+		
+		return idSet;
+	}
+	
 	public void writeOutput(String objectId, List<twitter4j.Tweet> tweets) throws IOException, Exception {
 		String currentDate = DateUtil.convertDateToString("yyyyMMdd", new Date());	
 		String docIndexDir = Config.getProperty("TWITTER_INDEX_DIR") + objectId + "_" + currentDate;
-		String srcOutputFile = outputDir.getPath() + File.separator + objectId + "_" + currentDate + ".txt";
+		String strOutputFile = outputDir.getPath() + File.separator + objectId + "_" + currentDate + ".txt";
+		String strNewColIdSetFile = outputDir.getPath() + File.separator + objectId + ".txt";
+		
+		// get the id hash set collected previously to compare with new collected data set
+		// and remove duplication
+		Set<String> prevColIdSet = this.loadPrevCollectedHashSet(objectId);
 		
 		MorphemeAnalyzer morph = MorphemeAnalyzer.getInstance();
 		SemanticAnalyzer semantic = SemanticAnalyzer.getInstance();
@@ -83,11 +122,36 @@ public class TwitterDataCollector {
 		
 		DocIndexWriter indexWriter = new DocIndexWriter(docIndexDir, true);
 		
-		File file = new File(srcOutputFile);
-		BufferedWriter br = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file.getPath(), true), "UTF-8"));
-			
-		br.write("object_id	tweet_id	created_at	from_user	to_user	text	text1	text2	subjectpredicate	subject	predicate	objects	polarity	polarity_strength");
-		br.newLine();
+		// output file
+		boolean existOutputFile = false;
+		File outputFile = new File(strOutputFile);
+		
+		if (outputFile.exists())
+			existOutputFile = true;
+		
+		BufferedWriter br = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(outputFile.getPath(), true), "UTF-8"));
+		
+		// new collected id set file
+		File newColIdSetFile = new File(strNewColIdSetFile);
+		BufferedWriter brColIdSetFile = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(newColIdSetFile.getPath(), false), "UTF-8"));
+		
+		if (!existOutputFile) {
+			br.write("object_id" + DELIMITER +
+					"tweet_id" + DELIMITER +	
+					"created_at" + DELIMITER +	
+					"from_user" + DELIMITER +		
+					"to_user" + DELIMITER +		
+					"text" + DELIMITER +		
+					"text1" + DELIMITER +		
+					"text2" + DELIMITER +		
+					"subjectpredicate" + DELIMITER +		
+					"subject" + DELIMITER +		
+					"predicate" + DELIMITER +		
+					"objects" + DELIMITER +		
+					"polarity" + DELIMITER +		
+					"polarity_strength");
+			br.newLine();			
+		}
 		
 		// post
 		for (twitter4j.Tweet tweet : tweets) {
@@ -95,60 +159,69 @@ public class TwitterDataCollector {
 			String createTime = DateUtil.convertDateToString("yyyyMMddHHmmss", tweet.getCreatedAt());
 			String fromUserId = String.valueOf(tweet.getFromUserId());
 			String fromUser = tweet.getFromUser();			
-			String toUser = tweet.getToUser();			
+			String toUser = tweet.getToUser();
 			
-			String text = TwitterParser.extractContent(tweet.getText());
-			String textEmotiTagged = TwitterParser.convertEmoticonToTag(text);
+			// write new collected all id into file
+			brColIdSetFile.write(tweetId);
+			brColIdSetFile.newLine();
 			
-			String text1 = morph.extractTerms(textEmotiTagged);
-			String text2 = morph.extractCoreTerms(textEmotiTagged);
-			
-			SemanticSentence semanticSentence = semantic.createSemanticSentence(textEmotiTagged);
-			String subjectpredicates = semanticSentence.extractSubjectPredicateLabel();
-			String subjects = semanticSentence.extractSubjectLabel();
-			String predicates = semanticSentence.extractPredicateLabel();
-			String objects = semanticSentence.extractObjectsLabel();
-			
-			semanticSentence = sentiment.analyzePolarity(semanticSentence);
-			double polarity = semanticSentence.getPolarity();
-			double polarityStrength = semanticSentence.getPolarityStrength();
-			
-			br.write(
-					objectId + "\t" +
-					tweetId + "\t" +
-					createTime + "\t" + 
-					fromUser + "\t" +
-					toUser + "\t" +
-					text + "\t" +
-					text1 + "\t" +
-					text2 + "\t" +
-					subjectpredicates + "\t" +
-					subjects + "\t" +
-					predicates + "\t" +
-					objects + "\t" +
-					polarity + "\t" +
-					polarityStrength		
-					);
-			br.newLine();
-			
-
-			for (SemanticClause clause : semanticSentence) {
-				DetailDoc doc = new DetailDoc();
-				doc.setSite("twitter");
-				doc.setDate(createTime);
-				doc.setUserId(fromUserId);
-				doc.setUserName(fromUser);
-				doc.setDocId(tweetId);
-				doc.setSubject(clause.getSubject());
-				doc.setPredicate(clause.getPredicate());
-				doc.setObjects(clause.makeObjectsLabel());
-				doc.setText(text);
+			// if no duplication, write collected data
+			if (!prevColIdSet.contains(tweetId)) {
+				String text = TwitterParser.extractContent(tweet.getText());
+				String textEmotiTagged = TwitterParser.convertEmoticonToTag(text);
 				
-				indexWriter.write(doc);
-			}
-		
+				String text1 = morph.extractTerms(textEmotiTagged);
+				String text2 = morph.extractCoreTerms(textEmotiTagged);
+				
+				SemanticSentence semanticSentence = semantic.createSemanticSentence(textEmotiTagged);
+				String subjectpredicates = semanticSentence.extractSubjectPredicateLabel();
+				String subjects = semanticSentence.extractSubjectLabel();
+				String predicates = semanticSentence.extractPredicateLabel();
+				String objects = semanticSentence.extractObjectsLabel();
+				
+				semanticSentence = sentiment.analyzePolarity(semanticSentence);
+				double polarity = semanticSentence.getPolarity();
+				double polarityStrength = semanticSentence.getPolarityStrength();
+				
+				// write new collected data into source file
+				br.write(
+						objectId + DELIMITER +
+						tweetId + DELIMITER +
+						createTime + DELIMITER + 
+						fromUser + DELIMITER +
+						toUser + DELIMITER +
+						text + DELIMITER +
+						text1 + DELIMITER +
+						text2 + DELIMITER +
+						subjectpredicates + DELIMITER +
+						subjects + DELIMITER +
+						predicates + DELIMITER +
+						objects + DELIMITER +
+						polarity + DELIMITER +
+						polarityStrength		
+						);
+				br.newLine();			
+
+				// write new collected data into index file
+				for (SemanticClause clause : semanticSentence) {
+					DetailDoc doc = new DetailDoc();
+					doc.setSite("twitter");
+					doc.setDate(createTime);
+					doc.setUserId(fromUserId);
+					doc.setUserName(fromUser);
+					doc.setDocId(tweetId);
+					doc.setSubject(clause.getSubject());
+					doc.setPredicate(clause.getPredicate());
+					doc.setObjects(clause.makeObjectsLabel());
+					doc.setText(text);
+					
+					indexWriter.write(doc);
+				}				
+			}		
 		}
+		
 		br.close();
+		brColIdSetFile.close();		
 		indexWriter.close();
 	}
 	
