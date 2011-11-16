@@ -12,6 +12,7 @@ import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
 import org.apache.lucene.index.CorruptIndexException;
+import org.apache.lucene.index.IndexNotFoundException;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
@@ -59,7 +60,12 @@ public class DocIndexWriter {
 		
 		//Analyzer luceneAnalyzer = new StopAnalyzer(Version.LUCENE_33, MY_STOP_WORDS_SET);	// removes numbers too
 		Analyzer luceneAnalyzer = new StandardAnalyzer(Version.LUCENE_33, MY_STOP_WORDS_SET);
-		indexWriter = new IndexWriter(indexDir, luceneAnalyzer, newCreate, IndexWriter.MaxFieldLength.UNLIMITED);
+		try {
+			indexWriter = new IndexWriter(indexDir, luceneAnalyzer, newCreate, IndexWriter.MaxFieldLength.UNLIMITED);
+		} catch (IndexNotFoundException e) {
+			System.out.println(e.getMessage());
+			indexWriter = new IndexWriter(indexDir, luceneAnalyzer, true, IndexWriter.MaxFieldLength.UNLIMITED);
+		}
 	}
 	
 	public void write(DetailDoc doc) throws IOException, CorruptIndexException {
