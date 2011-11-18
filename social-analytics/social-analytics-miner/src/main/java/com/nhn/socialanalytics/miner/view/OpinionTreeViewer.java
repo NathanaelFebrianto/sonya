@@ -168,20 +168,17 @@ public class OpinionTreeViewer extends JApplet {
 							if (vv.getPickedVertexState().isPicked(v)) {
 								tareaDetailDocs.setText("");
 								List<DetailDoc> detailDocs = v.getDocs();
-								StringBuffer header = new StringBuffer()
-								.append(FieldConstants.SITE).append(" | ")
-								.append(FieldConstants.DATE).append(" | ")
-								.append(FieldConstants.USER_ID).append(" | ")
-								.append(FieldConstants.USER_NAME).append(" | ")
-								.append(FieldConstants.DOC_ID).append(" | ")
-								.append(FieldConstants.TEXT);
 								
-								tareaDetailDocs.append("============================================================\n");
-								tareaDetailDocs.append(header.toString() + "\n");
-								tareaDetailDocs.append("============================================================\n");
-								
+								int docCount = 1;
 								for (DetailDoc doc : detailDocs) {
+									if (docCount == 1) {
+										tareaDetailDocs.append("============================================================\n");
+										tareaDetailDocs.append(doc.toHeaderString() + "\n");
+										tareaDetailDocs.append("============================================================\n");
+									}
 									tareaDetailDocs.append(doc.toString() + "\n\n");
+									
+									docCount++;
 								}				
 								
 								return THICK;
@@ -363,7 +360,7 @@ public class OpinionTreeViewer extends JApplet {
 			}
 			if (v.getName().equals(FieldConstants.SUBJECT) || 
 					v.getName().equals(FieldConstants.PREDICATE) ||
-					v.getName().equals(FieldConstants.OBJECT)) {
+					v.getName().equals(FieldConstants.ATTRIBUTE)) {
 				vertexPaints.put(v, Color.red);
 			}
 		}		
@@ -388,7 +385,7 @@ public class OpinionTreeViewer extends JApplet {
 			
 			searcher.putDictionary(FieldConstants.PREDICATE, reader.loadTermDictionary("./bin/androidmarket/dic/predicate_naverapp.txt", false));
 			searcher.putDictionary(FieldConstants.SUBJECT, reader.loadTermDictionary("./bin/androidmarket/dic/subject_naverapp.txt", false));
-			searcher.putDictionary(FieldConstants.OBJECT, reader.loadTermDictionary("./bin/androidmarket/dic/object_naverapp.txt", false));
+			searcher.putDictionary(FieldConstants.ATTRIBUTE, reader.loadTermDictionary("./bin/androidmarket/dic/attribute_naverapp.txt", false));
 			searcher.setStopwords(reader.getStopwords());			
 			
 			OpinionGraphModeller modeller = new OpinionGraphModeller();
@@ -402,10 +399,10 @@ public class OpinionTreeViewer extends JApplet {
 				int tf = (Integer) entry.getValue();
 				
 				TargetTerm subjectTerm = searcher.searchTerms(FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 2);
-				TargetTerm objectTerm = searcher.searchTerms(FieldConstants.PREDICATE, FieldConstants.OBJECT, term, 5);
+				TargetTerm attributeTerm = searcher.searchTerms(FieldConstants.PREDICATE, FieldConstants.ATTRIBUTE, term, 5);
 				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
 				termMap.put(FieldConstants.SUBJECT, subjectTerm);
-				termMap.put(FieldConstants.OBJECT, objectTerm);
+				termMap.put(FieldConstants.ATTRIBUTE, attributeTerm);
 				
 				modeller.addTerms(FieldConstants.PREDICATE, termMap);			
 			}
@@ -420,10 +417,10 @@ public class OpinionTreeViewer extends JApplet {
 				int tf = (Integer) entry.getValue();
 				
 				TargetTerm predicateTerm = searcher.searchTerms(FieldConstants.SUBJECT, FieldConstants.PREDICATE, term, 2);
-				TargetTerm objectTerm = searcher.searchTerms(FieldConstants.SUBJECT, FieldConstants.OBJECT, term, 2);
+				TargetTerm attributeTerm = searcher.searchTerms(FieldConstants.SUBJECT, FieldConstants.ATTRIBUTE, term, 2);
 				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
 				termMap.put(FieldConstants.PREDICATE, predicateTerm);
-				termMap.put(FieldConstants.OBJECT, objectTerm);
+				termMap.put(FieldConstants.ATTRIBUTE, attributeTerm);
 				
 				modeller.addTerms(FieldConstants.SUBJECT, termMap);			
 			}	

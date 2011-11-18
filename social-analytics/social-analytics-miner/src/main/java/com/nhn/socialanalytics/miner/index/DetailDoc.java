@@ -1,4 +1,4 @@
-package com.nhn.socialanalytics.miner.termvector;
+package com.nhn.socialanalytics.miner.index;
 
 public class DetailDoc {
 
