@@ -1,4 +1,4 @@
-package com.nhn.socialanalytics.miner.termvector;
+package com.nhn.socialanalytics.miner.index;
 
 import java.io.File;
 import java.io.IOException;
