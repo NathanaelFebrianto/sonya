@@ -42,11 +42,10 @@ import org.apache.commons.collections15.functors.ConstantTransformer;
 import org.apache.commons.collections15.functors.MapTransformer;
 import org.apache.commons.collections15.map.LazyMap;
 
-import com.nhn.socialanalytics.miner.termvector.DetailDoc;
-import com.nhn.socialanalytics.miner.termvector.DocIndexSearcher;
-import com.nhn.socialanalytics.miner.termvector.DocTermVectorReader;
-import com.nhn.socialanalytics.miner.termvector.FieldConstants;
-import com.nhn.socialanalytics.miner.termvector.TargetTerm;
+import com.nhn.socialanalytics.miner.index.DetailDoc;
+import com.nhn.socialanalytics.miner.index.DocIndexSearcher;
+import com.nhn.socialanalytics.miner.index.FieldConstants;
+import com.nhn.socialanalytics.miner.index.TargetTerm;
 import com.nhn.socialanalytics.nlp.kr.view.GenericListener;
 
 import edu.uci.ics.jung.algorithms.layout.PolarPoint;
@@ -374,32 +373,27 @@ public class OpinionTreeViewer extends JApplet {
 	public static void main(String[] args) {
 		
 		try {
-			
-			Set<String> customStopSet = new HashSet<String>();
-			customStopSet.add("카카오톡");
-			customStopSet.add("카톡");
-			
-			DocTermVectorReader reader = new DocTermVectorReader("./conf/stopword.txt", customStopSet);
-			
-			DocIndexSearcher searcher = new DocIndexSearcher("./bin/androidmarket/index/naverapp");
-			
-			searcher.putDictionary(FieldConstants.PREDICATE, reader.loadTermDictionary("./bin/androidmarket/dic/predicate_naverapp.txt", false));
-			searcher.putDictionary(FieldConstants.SUBJECT, reader.loadTermDictionary("./bin/androidmarket/dic/subject_naverapp.txt", false));
-			searcher.putDictionary(FieldConstants.ATTRIBUTE, reader.loadTermDictionary("./bin/androidmarket/dic/attribute_naverapp.txt", false));
-			searcher.setStopwords(reader.getStopwords());			
+			String[] indexDirs = { "./bin/twitter/index" };
+			//String object = "kakaotalk";
+			String object = "fta";
+			Set<String> customStopwordSet = new HashSet<String>();
+			customStopwordSet.add("fta");
+			//customStopwordSet.add("카톡");
+			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs, "./conf/stopword.txt", customStopwordSet);
+			System.out.println("stopwords == " + searcher.getStopwords());
 			
 			OpinionGraphModeller modeller = new OpinionGraphModeller();
 			
 			/////////////////////////////////
 			/* target term ==> PREDICATE   */
 			/////////////////////////////////
-			Map<String, Integer> predicates = reader.getTerms("./bin/androidmarket/dic/predicate_naverapp.txt", 5);							
-			for (Map.Entry<String, Integer> entry : predicates.entrySet()) {
+			/*
+			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.PREDICATE, 20, true);					
+			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
 				String term = entry.getKey();
-				int tf = (Integer) entry.getValue();
-				
-				TargetTerm subjectTerm = searcher.searchTerms(FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 2);
-				TargetTerm attributeTerm = searcher.searchTerms(FieldConstants.PREDICATE, FieldConstants.ATTRIBUTE, term, 5);
+			
+				TargetTerm subjectTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 20);
+				TargetTerm attributeTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.ATTRIBUTE, term, 20);
 				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
 				termMap.put(FieldConstants.SUBJECT, subjectTerm);
 				termMap.put(FieldConstants.ATTRIBUTE, attributeTerm);
@@ -408,25 +402,21 @@ public class OpinionTreeViewer extends JApplet {
 			}
 			
 			/////////////////////////////////
-			/* target term ==> SUBJECT     */
+			/* target term ==> SUBJECT   */
 			/////////////////////////////////
-			/*
-			Map<String, Integer> subjects = reader.getTerms("./bin/androidmarket/dic/subject_naverapp.txt", 2);							
-			for (Map.Entry<String, Integer> entry : subjects.entrySet()) {
+			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.SUBJECT, 15, true);					
+			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
 				String term = entry.getKey();
-				int tf = (Integer) entry.getValue();
-				
-				TargetTerm predicateTerm = searcher.searchTerms(FieldConstants.SUBJECT, FieldConstants.PREDICATE, term, 2);
-				TargetTerm attributeTerm = searcher.searchTerms(FieldConstants.SUBJECT, FieldConstants.ATTRIBUTE, term, 2);
+			
+				TargetTerm subjectTerm = searcher.search(object, FieldConstants.SUBJECT, FieldConstants.PREDICATE, term, 15);
+				TargetTerm attributeTerm = searcher.search(object, FieldConstants.SUBJECT, FieldConstants.ATTRIBUTE, term, 20);
 				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
-				termMap.put(FieldConstants.PREDICATE, predicateTerm);
+				termMap.put(FieldConstants.PREDICATE, subjectTerm);
 				termMap.put(FieldConstants.ATTRIBUTE, attributeTerm);
 				
 				modeller.addTerms(FieldConstants.SUBJECT, termMap);			
-			}	
-			*/
-			/////////////////////////////////
-			
+			}
+				
 			modeller.createGraph();
 			Forest graph = modeller.getGraph();
 			

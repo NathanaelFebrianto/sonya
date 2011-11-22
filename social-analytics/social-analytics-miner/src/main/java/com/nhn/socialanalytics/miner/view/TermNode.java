@@ -2,7 +2,7 @@ package com.nhn.socialanalytics.miner.view;
 
 import java.util.ArrayList;
 
-import com.nhn.socialanalytics.miner.termvector.DetailDoc;
+import com.nhn.socialanalytics.miner.index.DetailDoc;
 
 public class TermNode {
 
