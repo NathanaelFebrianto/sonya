@@ -263,8 +263,11 @@ public class TwitterDataCollector {
 	public static void main(String[] args) {
 		TwitterDataCollector collector = new TwitterDataCollector();
 		
-		String objectId = "fta";
-		String query = "한미FTA OR ISD";
+		//String objectId = "fta";
+		//String query = "한미FTA OR ISD";
+		
+		String objectId = "gameshutdown";
+		String query = "게임셧다운제";
 
 		//String objectId = "kakaotalk";
 		//String query = "카카오톡 OR 카톡";
