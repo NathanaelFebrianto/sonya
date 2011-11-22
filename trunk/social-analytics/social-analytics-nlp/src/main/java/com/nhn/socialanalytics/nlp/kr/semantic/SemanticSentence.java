@@ -54,8 +54,8 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 		if (tags[0] == '0' && tags[1] == '0') {
 			if (subject != null || predicate  != null) {
 				return super.add(clause);
-			} else if (clause.getObjects().size() > 0 || clause.getModifiers().size() > 0) {
-				if (!existSameObjects(clause.getObjects()) && !existSameModifiers(clause.getModifiers()))
+			} else if (clause.getAttributes().size() > 0 || clause.getModifiers().size() > 0) {
+				if (!existSameObjects(clause.getAttributes()) && !existSameModifiers(clause.getModifiers()))
 					return super.add(clause);
 			}
 		}
@@ -140,9 +140,9 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 		return null;
 	}
 	
-	public boolean existSameObjects(Set<String> objects) {
+	public boolean existSameObjects(Set<String> attributes) {
 		for (SemanticClause clause : this) {			
-			if (clause.getObjects().containsAll(objects))
+			if (clause.getAttributes().containsAll(attributes))
 				return true;
 		}
 		return false;	
@@ -269,11 +269,11 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 		return sb.toString();		
 	}
 	
-	public String extractObjectsLabel() {
+	public String extractAttributesLabel() {
 		StringBuffer sb = new StringBuffer();
 		
 		for (SemanticClause clause : this) {	
-			String label = clause.makeObjectsLabel();
+			String label = clause.makeAttributesLabel();
 			if (label != null) {
 				sb.append(label).append(" ");
 			}			
