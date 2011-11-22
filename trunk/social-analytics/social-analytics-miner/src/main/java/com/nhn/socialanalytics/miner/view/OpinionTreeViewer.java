@@ -375,9 +375,9 @@ public class OpinionTreeViewer extends JApplet {
 		try {
 			String[] indexDirs = { "./bin/twitter/index" };
 			//String object = "kakaotalk";
-			String object = "fta";
+			String object = "gameshutdown";
 			Set<String> customStopwordSet = new HashSet<String>();
-			customStopwordSet.add("fta");
+			customStopwordSet.add("게임셧다운제");
 			//customStopwordSet.add("카톡");
 			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs, "./conf/stopword.txt", customStopwordSet);
 			System.out.println("stopwords == " + searcher.getStopwords());
@@ -387,12 +387,12 @@ public class OpinionTreeViewer extends JApplet {
 			/////////////////////////////////
 			/* target term ==> PREDICATE   */
 			/////////////////////////////////
-			/*
-			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.PREDICATE, 20, true);					
+
+			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.PREDICATE, 10, true);					
 			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
 				String term = entry.getKey();
 			
-				TargetTerm subjectTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 20);
+				TargetTerm subjectTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 10);
 				TargetTerm attributeTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.ATTRIBUTE, term, 20);
 				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
 				termMap.put(FieldConstants.SUBJECT, subjectTerm);
@@ -404,6 +404,7 @@ public class OpinionTreeViewer extends JApplet {
 			/////////////////////////////////
 			/* target term ==> SUBJECT   */
 			/////////////////////////////////
+			/*
 			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.SUBJECT, 15, true);					
 			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
 				String term = entry.getKey();
@@ -416,6 +417,7 @@ public class OpinionTreeViewer extends JApplet {
 				
 				modeller.addTerms(FieldConstants.SUBJECT, termMap);			
 			}
+			*/
 				
 			modeller.createGraph();
 			Forest graph = modeller.getGraph();
