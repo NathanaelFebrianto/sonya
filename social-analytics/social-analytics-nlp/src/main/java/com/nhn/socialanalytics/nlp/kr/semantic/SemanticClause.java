@@ -12,7 +12,7 @@ public class SemanticClause implements Serializable {
 	private int id = -1;
 	private String subject;	
 	private String predicate;
-	private Set<String> objects = new HashSet<String>();
+	private Set<String> attributes = new HashSet<String>();
 	private Set<String> modifiers = new HashSet<String>();
 	private String standardLabel;
 	private double polarity; 
@@ -44,11 +44,11 @@ public class SemanticClause implements Serializable {
 	public void setPredicate(String predicate) {
 		this.predicate = predicate;
 	}
-	public Set<String> getObjects() {
-		return objects;
+	public Set<String> getAttributes() {
+		return attributes;
 	}
-	public void setObjects(Set<String> objects) {
-		this.objects = objects;
+	public void setAttributes(Set<String> attributes) {
+		this.attributes = attributes;
 	}
 	public Set<String> getModifiers() {
 		return modifiers;
@@ -94,8 +94,8 @@ public class SemanticClause implements Serializable {
 	}
 	
 	
-	public void addObject(String object) {
-		objects.add(object);
+	public void addAttribute(String attribute) {
+		attributes.add(attribute);
 	}	
 	public void addModifier(String modifier) {
 		modifiers.add(modifier);
@@ -112,7 +112,7 @@ public class SemanticClause implements Serializable {
 		SemanticClause clause = new SemanticClause();
 		clause.setSubject(subject);
 		clause.setPredicate(predicate);
-		clause.setObjects(objects);
+		clause.setAttributes(attributes);
 		clause.setModifiers(modifiers);
 		clause.setStandardLabel(standardLabel);
 		clause.setPolarity(polarity);
@@ -131,9 +131,9 @@ public class SemanticClause implements Serializable {
 		}
 		else if (subject == null && predicate != null) {
 			label = predicate;
-			if (objects.size() > 0) {
-				for (String object : objects) {
-					label = label + " " + object + "ㅡ" + predicate;
+			if (attributes.size() > 0) {
+				for (String attribute : attributes) {
+					label = label + " " + attribute + "ㅡ" + predicate;
 				}
 			}			
 		}
@@ -157,11 +157,11 @@ public class SemanticClause implements Serializable {
 		return label;
 	}
 
-	public String makeObjectsLabel() {
+	public String makeAttributesLabel() {
 		StringBuffer sb = new StringBuffer();
 		
-		for (String obj : objects) {
-			sb.append(obj).append(" ");
+		for (String attribute : attributes) {
+			sb.append(attribute).append(" ");
 		}
 		
 		return sb.toString();
@@ -174,7 +174,7 @@ public class SemanticClause implements Serializable {
 			.append(" *priority = ").append(priority)
 			.append(" *subject = ").append(subject)
 			.append(" *predicate = ").append(predicate)
-			.append(" *objects = ").append(objects.toString())
+			.append(" *attributes = ").append(attributes.toString())
 			.append(" *modifiers = ").append(modifiers.toString())			
 			.append(" standardLabel = ").append(makeLabel(false))
 			.append(" polarity = ").append(polarity)

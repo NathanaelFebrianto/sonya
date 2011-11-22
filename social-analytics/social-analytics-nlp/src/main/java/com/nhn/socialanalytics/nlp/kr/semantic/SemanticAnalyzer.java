@@ -99,7 +99,7 @@ public class SemanticAnalyzer {
 						//clause = prevClause.clone();
 						//clause.setSubject(term);
 						clause = prevClause;
-						clause.addObject(term);
+						clause.addAttribute(term);
 					} else {
 						clause = prevClause;
 						clause.setSubject(term);
@@ -107,7 +107,7 @@ public class SemanticAnalyzer {
 				}
 				else if (pos == 'N' && ("JKO".equals(josaTag) || "JKM".equals(josaTag))) {
 					clause = prevClause;
-					clause.addObject(term);
+					clause.addAttribute(term);
 				}
 				else if (pos == 'Z') {
 					clause = prevClause;
@@ -119,7 +119,7 @@ public class SemanticAnalyzer {
 				}
 				else if (pos == 'N' && josaTag == null) {
 					clause = prevClause;
-					clause.addObject(term);					
+					clause.addAttribute(term);					
 				}
 				
 				if (clause != null) {
