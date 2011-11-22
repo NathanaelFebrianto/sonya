@@ -12,9 +12,9 @@ import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
 import org.apache.lucene.index.CorruptIndexException;
-import org.apache.lucene.index.IndexNotFoundException;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
+import org.apache.lucene.index.Term;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
 
@@ -43,11 +43,7 @@ public class DocIndexWriter {
 		MY_STOP_WORDS_SET = CharArraySet.unmodifiableSet(stopSet);
 	}
 	
-	public DocIndexWriter(String outputDir) throws IOException {		
-		this(outputDir, false);
-	}
-	
-	public DocIndexWriter(String outputDir, boolean append) throws IOException {
+	public DocIndexWriter(String outputDir) throws IOException {
 		
 		File file = new File(outputDir);
 		if (!file.exists())
@@ -59,17 +55,8 @@ public class DocIndexWriter {
 		Analyzer luceneAnalyzer = new StandardAnalyzer(Version.LUCENE_33, MY_STOP_WORDS_SET);
 		IndexWriterConfig config = new IndexWriterConfig(Version.LUCENE_33, luceneAnalyzer);
 		
-		try {			
-			if (append)
-				config.setOpenMode(IndexWriterConfig.OpenMode.APPEND);
-			else
-				config.setOpenMode(IndexWriterConfig.OpenMode.CREATE);
-			indexWriter = new IndexWriter(indexDir, config);
-		} catch (IndexNotFoundException e) {
-			System.out.println(e.getMessage());
-			config.setOpenMode(IndexWriterConfig.OpenMode.CREATE);
-			indexWriter = new IndexWriter(indexDir, config);
-		}
+		config.setOpenMode(IndexWriterConfig.OpenMode.CREATE_OR_APPEND);
+		indexWriter = new IndexWriter(indexDir, config);
 	}
 	
 	public void write(DetailDoc doc) throws IOException, CorruptIndexException {
@@ -98,7 +85,7 @@ public class DocIndexWriter {
 		document.add(new Field(FieldConstants.SITE, site, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
 		document.add(new Field(FieldConstants.OBJECT, object, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.YES));
 		document.add(new Field(FieldConstants.COLLECT_DATE, collectDate, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
-		document.add(new Field(FieldConstants.DOC_ID, docId, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
+		document.add(new Field(FieldConstants.DOC_ID, docId, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.NO));
 		document.add(new Field(FieldConstants.DATE, date, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
 		document.add(new Field(FieldConstants.USER_ID, userId, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
 		document.add(new Field(FieldConstants.USER_NAME, userName, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
@@ -108,6 +95,11 @@ public class DocIndexWriter {
 		document.add(new Field(FieldConstants.TEXT, text, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.YES));
 
 		indexWriter.addDocument(document);
+	}
+	
+	public void update(String field, String text, Document doc) throws IOException, CorruptIndexException {
+		Term term = new Term(field, text);
+		indexWriter.updateDocument(term, doc);
 	}
 	
 	public void close() throws Exception {
