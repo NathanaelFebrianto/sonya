@@ -4,10 +4,17 @@ import java.util.ArrayList;
 
 public class TargetTerm {
 
+	private String object;
 	private String term;
 	private int tf;	
 	private ArrayList<ChildTerm> childTerms = new ArrayList<ChildTerm>();
 	
+	public String getObject() {
+		return object;
+	}
+	public void setObject(String object) {
+		this.object = object;
+	}
 	public String getTerm() {
 		return term;
 	}

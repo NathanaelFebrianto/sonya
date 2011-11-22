@@ -5,9 +5,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.nhn.socialanalytics.miner.termvector.ChildTerm;
-import com.nhn.socialanalytics.miner.termvector.FieldConstants;
-import com.nhn.socialanalytics.miner.termvector.TargetTerm;
+import com.nhn.socialanalytics.miner.index.ChildTerm;
+import com.nhn.socialanalytics.miner.index.TargetTerm;
 
 import edu.uci.ics.jung.graph.DelegateForest;
 import edu.uci.ics.jung.graph.Forest;
@@ -98,8 +97,7 @@ public class OpinionGraphModeller {
 	private void createEdges(HashMap<String, TermNode> vertices, List<TermEdge> edges) {
 		for (int i = 0; i < edges.size(); i++) {
 			TermEdge edge = (TermEdge) edges.get(i);
-			String edgeId = edge.getFrom() + "^" + edge.getTo();
-			
+						
 			System.out.println("from : " + edge.getFrom() + " ---> to : " + edge.getTo());
 			TermNode from = vertices.get(edge.getFrom());
 			TermNode to = vertices.get(edge.getTo());
