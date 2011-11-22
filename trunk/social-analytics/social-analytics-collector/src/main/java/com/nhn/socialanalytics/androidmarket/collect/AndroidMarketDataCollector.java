@@ -18,8 +18,9 @@ import com.gc.android.market.api.model.Market.ResponseContext;
 import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.util.DateUtil;
 import com.nhn.socialanalytics.common.util.StringUtil;
-import com.nhn.socialanalytics.miner.termvector.DetailDoc;
-import com.nhn.socialanalytics.miner.termvector.DocIndexWriter;
+import com.nhn.socialanalytics.miner.index.DetailDoc;
+import com.nhn.socialanalytics.miner.index.DocIndexSearcher;
+import com.nhn.socialanalytics.miner.index.DocIndexWriter;
 import com.nhn.socialanalytics.nlp.kr.morpheme.MorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.kr.semantic.SemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.kr.semantic.SemanticClause;
@@ -90,8 +91,12 @@ public class AndroidMarketDataCollector {
 				try {
 					MorphemeAnalyzer morph = MorphemeAnalyzer.getInstance();
 					SemanticAnalyzer semantic = SemanticAnalyzer.getInstance();
-					SentimentAnalyzer sentiment = SentimentAnalyzer.getInstance(new File("./bin/liwc/LIWC_ko.txt"));
-					DocIndexWriter indexWriter = new DocIndexWriter("./bin/androidmarket/index/naverapp");
+					SentimentAnalyzer sentiment = SentimentAnalyzer.getInstance(new File(Config.getProperty("LIWC_CAT_FILE")));
+					
+					String docIndexDir = Config.getProperty("ANDROIDMARKET_INDEX_DIR");
+					
+					DocIndexWriter indexWriter = new DocIndexWriter(docIndexDir);
+					DocIndexSearcher indexSearcher = new DocIndexSearcher(new String[] { docIndexDir });
 
 					File outputDir = new File(Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR"));
 					File file = new File(outputDir.getPath() + File.separator + "naverapp" + ".txt");
@@ -133,7 +138,7 @@ public class AndroidMarketDataCollector {
 						String subjectpredicates = semanticSentence.extractSubjectPredicateLabel();
 						String subjects = semanticSentence.extractSubjectLabel();
 						String predicates = semanticSentence.extractPredicateLabel();
-						String objects = semanticSentence.extractObjectsLabel();
+						String attributes = semanticSentence.extractAttributesLabel();
 						
 						semanticSentence = sentiment.analyzePolarity(semanticSentence);
 						double polarity = semanticSentence.getPolarity();
@@ -151,7 +156,7 @@ public class AndroidMarketDataCollector {
 									subjectpredicates + "\t" +
 									subjects + "\t" +
 									predicates + "\t" +
-									objects + "\t" +
+									attributes + "\t" +
 									polarity + "\t" +
 									polarityStrength									
 									);
@@ -167,7 +172,7 @@ public class AndroidMarketDataCollector {
 							doc.setDocId(commentId);
 							doc.setSubject(clause.getSubject());
 							doc.setPredicate(clause.getPredicate());
-							doc.setObjects(clause.makeObjectsLabel());
+							doc.setAttribute(clause.makeAttributesLabel());
 							doc.setText(text);
 							
 							indexWriter.write(doc);
