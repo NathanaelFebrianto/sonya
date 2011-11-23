@@ -91,7 +91,7 @@ public class AndroidMarketDataCollector {
 				try {
 					MorphemeAnalyzer morph = MorphemeAnalyzer.getInstance();
 					SemanticAnalyzer semantic = SemanticAnalyzer.getInstance();
-					SentimentAnalyzer sentiment = SentimentAnalyzer.getInstance(new File(Config.getProperty("LIWC_CAT_FILE")));
+					SentimentAnalyzer sentiment = SentimentAnalyzer.getInstance(Config.getProperty("LIWC_CAT_FILE"));
 					
 					String docIndexDir = Config.getProperty("ANDROIDMARKET_INDEX_DIR");
 					

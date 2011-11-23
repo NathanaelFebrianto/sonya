@@ -1,7 +1,9 @@
 package com.nhn.socialanalytics.twitter.collect;
 
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.quartz.Job;
 import org.quartz.JobDataMap;
@@ -21,11 +23,9 @@ public class TwitterDataCollectorJob implements Job {
 		try {
 			// get job data map
 			JobDataMap jobDataMap = context.getJobDetail().getJobDataMap();	
-			String objectId = jobDataMap.getString("object.id");
-			String query = jobDataMap.getString("query");
+			String param = jobDataMap.getString("key");
 			
-			logger.info("@PARAM[object.id] == " + objectId);
-			logger.info("@PARAM[query] == " + query);
+			logger.info("@PARAM[key] == " + param);
 			
 			// start time
     		Date startTime = new Date();
@@ -38,14 +38,26 @@ public class TwitterDataCollectorJob implements Job {
 			
 			String createStartDate = DateUtil.convertDateToString("yyyy-MM-dd", DateUtil.addDay(new Date(), -1));
 
-			TwitterDataCollector collector = new TwitterDataCollector();			
-			List<twitter4j.Tweet> tweets = collector.searchTweets(objectId, query, createStartDate, null, 10);
+			TwitterDataCollector collector = new TwitterDataCollector();
 			
-			try {
-				collector.writeOutput(objectId, tweets);
-			} catch (Exception e) {
-				e.printStackTrace();
-				logger.error(e.getMessage(), e);
+			// objects to collect
+			Map<String, String> searchMap = new HashMap<String, String>();
+			searchMap.put("gameshutdown", "게임셧다운제");
+			searchMap.put("fta", "한미FTA OR ISD");
+			searchMap.put("galaxynote", "갤럭시노트");
+						
+			for (Map.Entry<String, String> entry : searchMap.entrySet()) {
+				String objectId = entry.getKey();
+				String query = entry.getValue();
+				
+				List<twitter4j.Tweet> tweets = collector.searchTweets(objectId, query, createStartDate, null, 5);
+				
+				try {
+					collector.writeOutput(objectId, tweets);
+				} catch (Exception e) {
+					e.printStackTrace();
+					logger.error(e.getMessage(), e);
+				}
 			}
 	    	
 			// end time
