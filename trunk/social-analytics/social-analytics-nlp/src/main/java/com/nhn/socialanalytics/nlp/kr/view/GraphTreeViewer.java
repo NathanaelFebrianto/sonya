@@ -388,8 +388,7 @@ public class GraphTreeViewer extends JApplet {
 				SemanticAnalyzer semanticAnalyzer = new SemanticAnalyzer();
 				SemanticSentence ss = semanticAnalyzer.createSemanticSentence(source);
 				
-				File liwcCatFile = new File("./liwc/LIWC_ko.txt");
-				SentimentAnalyzer sentimentAnalyzer = new SentimentAnalyzer(liwcCatFile);
+				SentimentAnalyzer sentimentAnalyzer = new SentimentAnalyzer("./liwc/LIWC_ko.txt");
 				
 				ss.sort(true);
 				tareaSemanticOutput.append("\n\n=================================\n");
