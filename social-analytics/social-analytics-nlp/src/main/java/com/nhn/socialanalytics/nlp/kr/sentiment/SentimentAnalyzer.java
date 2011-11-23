@@ -3,7 +3,6 @@ package com.nhn.socialanalytics.nlp.kr.sentiment;
 import java.io.File;
 import java.util.Map;
 
-import com.nhn.socialanalytics.nlp.kr.semantic.SemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.kr.semantic.SemanticClause;
 import com.nhn.socialanalytics.nlp.kr.semantic.SemanticSentence;
 import com.nhn.socialanalytics.nlp.kr.sentiment.LIWCDictionary.WordCount;
@@ -13,11 +12,11 @@ public class SentimentAnalyzer {
 	private static SentimentAnalyzer instance = null;	
 	private PersonalityRecognizer personalityRecognizer;
 	
-	public SentimentAnalyzer(File liwcCatFile) {
-		personalityRecognizer = new PersonalityRecognizer(liwcCatFile);
+	public SentimentAnalyzer(String liwcCatFile) {
+		personalityRecognizer = new PersonalityRecognizer(new File(liwcCatFile));
 	}
 	
-	public static SentimentAnalyzer getInstance(File liwcCatFile) {
+	public static SentimentAnalyzer getInstance(String liwcCatFile) {
 		if (instance == null)
 			instance = new SentimentAnalyzer(liwcCatFile);
 		return instance;
@@ -124,7 +123,7 @@ public class SentimentAnalyzer {
 		
 		if (posCount > negCount)
 			return 1.0;	//positive
-		else if ((posCount <= negCount) && (posCount != 0.0 && negCount != 0.0))
+		else if (posCount <= negCount && negCount > 0.0)
 			return -1.0;	//negative			
 		
 		return 0.0;	//neutral
@@ -153,8 +152,7 @@ public class SentimentAnalyzer {
 	
 	
 	public static void main(String[] args) {
-		File liwcCatFile = new File("./liwc/LIWC_ko.txt");
-		SentimentAnalyzer analyzer = new SentimentAnalyzer(liwcCatFile);
+		SentimentAnalyzer analyzer = SentimentAnalyzer.getInstance("./liwc/LIWC_ko.txt");
 		
 		//String text = "Hello you wonderful people who are reading my paper.  I hope you really really  enjoy this one after all the other ones you have read.  Anyway right now I am  really excited because I'm just about to go to the Rage Against the Machine concert.  I'm hoping that I have a blast and I know I will.  My brother and a  lot of my friends came up for this concert.  So, I will be able to see them.   AIN'T THAT THE GREATEST THING.  Earlier today, I was wishing that I could fly.  The reason for that is that we  were stuck in traffic.  Just think about it, just flying through the air, your hair flying back, brushing across your face--but I guess if we could fly, we  wouldn't think that much about it.  Yesterday, I got an e-mail from my sister.  It was really COOL and all, and she should come visit me soon.  My sister is the one person in my family that I  really enjoy--but enough about that.  I'm going to a concert, and to party!    Oh, just to throw something in here.  I was noticing that many people here get  really excited about going out and staying out till whatever time in the  morning.  I think this is really hilarious because I come from Laredo, Texas. That is a border-town to Mexico (not that it could be Canada in Texas).  Well,  we have clubs and discos in Mexico that are just a few minutes away so I'm  use to going out, staying out late, and drinking.  Therefore, I came to the conclusion that most of the people here have not been able to go out and have  fun during their high school years--whether this is attributed to their parents or themselves.  That is why there is such a high drop-out rate here in UT, and why a lot of students struggle just to pass.    I hope pass all my classes with A's if possible.  I'm planning to be a plastic  and reconstructive surgeon, and I kind of need a great GPA to get into Med  School.  Oh by the way, I want to clear up the reason why I want to be that  kind of a surgeon.  Many people believe that plastic surgeons are doctors who are just in the business for money.  Some people don't even consider doctors as real doctors.  They are seen as individuals who help superficial people stay  young and beautiful.  Although plastic surgeons may do this, they help build up the self-esteem of the patient.  There are some people who were born with  defects or were in a really bad accident, plastic/reconstructive surgeons help these people enter the world again.  Most people with some type of defect  usually have a low self-esteem.  Therefore, they do not really enjoy life nor do they participate in daily activities with other people.  Plastic/reconstructive surgeons allow these people to enter into the world.  They feel better about  themselves and as a whole their spiritual self is improved.  This is vital to  the survival of the individual--for without it there is nothing to live for.  Well, I'm going now hope I didn't bore you too much!  :>";
 		//String text = "@BillGates Hey Bill. I just want you to know that I want to be like you someday. while I climb my way up there, care to share some tips? :)";
