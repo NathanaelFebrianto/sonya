@@ -37,49 +37,26 @@ public class TwitterDataCollectorJobTrigger {
 		// jobs can be scheduled before sched.start() has been called
 		// job will run every 60 minutes
         
-        String schedule1 = Config.getProperty("twitterCollectorJob_scheule_KO");
-		JobDetail job1 = new JobDetail("TwitterCollectorJob_KO", "twitter", TwitterDataCollectorJob.class);
+        String schedule = Config.getProperty("TWITTER_COLLECT_SCHEDULE");
+		JobDetail job = new JobDetail("TwitterDataCollectorJob", "twitter", TwitterDataCollectorJob.class);
 		
-		Map m1 = job1.getJobDataMap();
-		m1.put("tv.program.status", "open");
-		m1.put("tv.program.nation", "KO");
+		Map<String, String> map = job.getJobDataMap();
+		map.put("key", "value");
 		
-        CronTrigger trigger1 = new CronTrigger("TwitterCollectorJobTrigger1", "twitter", "TwitterCollectorJob_KO",
-                "twitter", schedule1);	//second, minute, hour, dayOfMonth, month, year
-        sched.addJob(job1, true);
-        Date ft1 = sched.scheduleJob(trigger1);
+        CronTrigger trigger = new CronTrigger("TwitterCollectorJobTrigger", "twitter", "TwitterDataCollectorJob",
+                "twitter", schedule);	//second, minute, hour, dayOfMonth, month, year
+        sched.addJob(job, true);
+        Date ft1 = sched.scheduleJob(trigger);
         
-        System.out.println(job1.getFullName() + " has been scheduled to run at: " + ft1
+        System.out.println(job.getFullName() + " has been scheduled to run at: " + ft1
                 + " and repeat based on expression: "
-                + trigger1.getCronExpression());
+                + trigger.getCronExpression());
         
-        logger.info(job1.getFullName() + " has been scheduled to run at: " + ft1
+        logger.info(job.getFullName() + " has been scheduled to run at: " + ft1
                 + " and repeat based on expression: "
-                + trigger1.getCronExpression());
+                + trigger.getCronExpression());
 
-        ////////////////////////////////////////////////
-        String schedule2 = Config.getProperty("twitterCollectorJob_scheule_US");
-		JobDetail job2 = new JobDetail("TwitterCollectorJob_US", "twitter", TwitterDataCollectorJob.class);
-		
-		Map m2 = job2.getJobDataMap();
-		m2.put("tv.program.status", "open");
-		m2.put("tv.program.nation", "US");
-		
-        CronTrigger trigger2 = new CronTrigger("TwitterCollectorJobTrigger2", "twitter", "TwitterCollectorJob_US",
-                "twitter", schedule2);	//second, minute, hour, dayOfMonth, month, year
-        sched.addJob(job2, true);
-        Date ft2 = sched.scheduleJob(trigger2);
-        
-        System.out.println(job2.getFullName() + " has been scheduled to run at: " + ft2
-                + " and repeat based on expression: "
-                + trigger2.getCronExpression());
-        
-       
-        
-        logger.info(job2.getFullName() + " has been scheduled to run at: " + ft2
-                + " and repeat based on expression: "
-                + trigger2.getCronExpression());
-        
+         
         System.out.println("------- Starting Scheduler ----------------");        
         logger.info("------- Starting Scheduler ----------------");
         
@@ -89,7 +66,7 @@ public class TwitterDataCollectorJobTrigger {
         sched.start();
 
         System.out.println("------- Started Scheduler -----------------");	
-        logger.info("------- Startged Scheduler -----------------");	
+        logger.info("------- Started Scheduler -----------------");	
 	}
 
 	public static void main(String[] args) throws Exception {

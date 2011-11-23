@@ -111,13 +111,26 @@ public class TwitterDataCollector {
 		return idSet;
 	}
 	
+	private String[] getDocumentIndexDirsToSearch() {		
+		String currentDate = DateUtil.convertDateToString("yyyyMMdd", new Date());
+		String beforeDate = DateUtil.convertDateToString("yyyyMMdd", DateUtil.addDay(new Date(), -1));
+		String currentDocIndexDir = Config.getProperty("TWITTER_INDEX_DIR") + File.separator + currentDate;
+		String beforeDocIndexDir = Config.getProperty("TWITTER_INDEX_DIR") + File.separator + beforeDate;
+		
+		File dir = new File(currentDocIndexDir);
+		if (dir.exists() && dir.listFiles().length > 0) {
+			return new String[] { currentDocIndexDir };
+		} else {
+			return new String[] { beforeDocIndexDir, currentDocIndexDir };
+		}
+	}
+	
 	public void writeOutput(String objectId, List<twitter4j.Tweet> tweets) throws IOException, Exception {
 		String currentDate = DateUtil.convertDateToString("yyyyMMdd", new Date());
 		String currentDatetime = DateUtil.convertDateToString("yyyyMMddHHmmss", new Date());	
-		//String docIndexDir = Config.getProperty("TWITTER_INDEX_DIR") + objectId + "_" + currentDate;
-		String docIndexDir = Config.getProperty("TWITTER_INDEX_DIR");
+		String docIndexDir = Config.getProperty("TWITTER_INDEX_DIR") + File.separator + currentDate;
 		String strOutputFile = outputDir.getPath() + File.separator + objectId + "_" + currentDate + ".txt";
-		String strNewColIdSetFile = outputDir.getPath() + File.separator + objectId + ".txt";
+		String strNewColIdSetFile = outputDir.getPath() + File.separator + objectId + ".txt";	
 		
 		///////////////////////////
 		// get the id hash set collected previously to compare with new collected data set
@@ -127,10 +140,10 @@ public class TwitterDataCollector {
 				
 		MorphemeAnalyzer morph = MorphemeAnalyzer.getInstance();
 		SemanticAnalyzer semantic = SemanticAnalyzer.getInstance();
-		SentimentAnalyzer sentiment = SentimentAnalyzer.getInstance(new File(Config.getProperty("LIWC_CAT_FILE")));			
+		SentimentAnalyzer sentiment = SentimentAnalyzer.getInstance(Config.getProperty("LIWC_CAT_FILE"));
 		
 		DocIndexWriter indexWriter = new DocIndexWriter(docIndexDir);		
-		DocIndexSearcher indexSearcher = new DocIndexSearcher(new String[] { docIndexDir });
+		DocIndexSearcher indexSearcher = new DocIndexSearcher(this.getDocumentIndexDirsToSearch());
 		
 		// output file
 		boolean existOutputFile = false;
