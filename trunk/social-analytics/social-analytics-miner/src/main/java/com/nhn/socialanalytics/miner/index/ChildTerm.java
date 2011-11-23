@@ -6,6 +6,7 @@ public class ChildTerm {
 
 	private String term;
 	private int tf;
+	private double polarity;
 	private ArrayList<DetailDoc> docs = new ArrayList<DetailDoc>();
 	
 	public String getTerm() {
@@ -19,6 +20,12 @@ public class ChildTerm {
 	}
 	public void setTF(int tf) {
 		this.tf = tf;
+	}
+	public double getPolarity() {
+		return polarity;
+	}
+	public void setPolarity(double polarity) {
+		this.polarity = polarity;
 	}
 	public ArrayList<DetailDoc> getDocs() {
 		return docs;

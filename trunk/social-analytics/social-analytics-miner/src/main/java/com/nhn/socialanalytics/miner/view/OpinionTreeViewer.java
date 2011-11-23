@@ -357,10 +357,16 @@ public class OpinionTreeViewer extends JApplet {
 			if (v.getType() != null && v.getType().equals(FieldConstants.PREDICATE)) {
 				//vertexPaints.put(v, Color.red);
 			}
+			if (v.getPolarity() > 0.0) {
+				vertexPaints.put(v, Color.blue);
+			}
+			if (v.getPolarity() < 0.0) {
+				vertexPaints.put(v, Color.red);
+			}
 			if (v.getName().equals(FieldConstants.SUBJECT) || 
 					v.getName().equals(FieldConstants.PREDICATE) ||
 					v.getName().equals(FieldConstants.ATTRIBUTE)) {
-				vertexPaints.put(v, Color.red);
+				vertexPaints.put(v, Color.gray);
 			}
 		}		
 	}
@@ -373,12 +379,18 @@ public class OpinionTreeViewer extends JApplet {
 	public static void main(String[] args) {
 		
 		try {
-			String[] indexDirs = { "./bin/twitter/index" };
-			//String object = "kakaotalk";
+			String[] indexDirs = { "./bin/twitter/index/20111123" };
+			
 			String object = "gameshutdown";
+			
 			Set<String> customStopwordSet = new HashSet<String>();
-			customStopwordSet.add("게임셧다운제");
-			//customStopwordSet.add("카톡");
+			customStopwordSet.add("fta");
+			customStopwordSet.add("한미fta");
+			customStopwordSet.add("한미");
+			customStopwordSet.add("갤럭시노트");
+			customStopwordSet.add("갤럭시");
+			//customStopwordSet.add("게임셧다운제");
+
 			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs, "./conf/stopword.txt", customStopwordSet);
 			System.out.println("stopwords == " + searcher.getStopwords());
 			
@@ -388,12 +400,12 @@ public class OpinionTreeViewer extends JApplet {
 			/* target term ==> PREDICATE   */
 			/////////////////////////////////
 
-			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.PREDICATE, 10, true);					
+			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.PREDICATE, 3, true);					
 			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
 				String term = entry.getKey();
 			
-				TargetTerm subjectTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 10);
-				TargetTerm attributeTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.ATTRIBUTE, term, 20);
+				TargetTerm subjectTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 3);
+				TargetTerm attributeTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.ATTRIBUTE, term, 3);
 				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
 				termMap.put(FieldConstants.SUBJECT, subjectTerm);
 				termMap.put(FieldConstants.ATTRIBUTE, attributeTerm);

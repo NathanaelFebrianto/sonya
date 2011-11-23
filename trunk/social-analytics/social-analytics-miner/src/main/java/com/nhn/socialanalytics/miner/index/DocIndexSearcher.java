@@ -27,9 +27,13 @@ import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.mahout.common.iterator.FileLineIterator;
 
+import com.nhn.socialanalytics.nlp.kr.sentiment.SentimentAnalyzer;
+
 public class DocIndexSearcher {
 
 	private IndexSearcher searcher;
+	private SentimentAnalyzer sentiment;
+	private static final String LIWC_CAT_FILE = "./bin/liwc/LIWC_ko.txt";
 	
 	private Set<String> stopwordSet = new HashSet<String>();
 	private static final Set<?> DEFAULT_STOPWORDS;
@@ -67,6 +71,8 @@ public class DocIndexSearcher {
 		
 		if (customStopwords != null)
 			stopwordSet.addAll(customStopwords);
+		
+		sentiment = SentimentAnalyzer.getInstance(LIWC_CAT_FILE);
 	} 
 	
 	private List<IndexReader> getIndexReaders(String[] indexDirs) 
@@ -179,7 +185,7 @@ public class DocIndexSearcher {
 		TargetTerm result = new TargetTerm();
 		result.setObject(object);
 		result.setTerm(searchText);
-
+		
 		Term objTerm = new Term(FieldConstants.OBJECT, object);		
 		TermsFilter filter = new TermsFilter();
 		filter.addTerm(objTerm);
@@ -190,9 +196,12 @@ public class DocIndexSearcher {
 		TopDocs rs = searcher.search(query, filter, 1000000);
 		System.out.println("search field == " + searchField);
 		System.out.println("search word == " + searchText);
-		System.out.println("docFreq == " + rs.totalHits);
+		System.out.println("docFreq == " + rs.totalHits);		
 
 		result.setTF(rs.totalHits);
+		
+		double searchTextPolarity = sentiment.analyzePolarity(searchText);
+		result.setPolarity(searchTextPolarity);
 
 		for (int i = 0; i < rs.totalHits; i++) {
 			int docId = rs.scoreDocs[i].doc;
@@ -224,9 +233,11 @@ public class DocIndexSearcher {
 							childTerm.setTerm(outText);
 							childTerm.setTF(tf);
 							childTerm.addDoc(detailDoc);
-							result.addChildTerm(childTerm);
+							double polarity = sentiment.analyzePolarity(outText);
+							childTerm.setPolarity(polarity);
 							
-							System.out.println("\n" + outField + " == " + outText + " (tf: " + tf + ")");
+							result.addChildTerm(childTerm);							
+							System.out.println("\n" + outField + " == " + outText + " (tf: " + tf + " polarity: " + polarity + ")");
 						}
 					}
 				}
@@ -234,22 +245,24 @@ public class DocIndexSearcher {
 				Map<String, Integer> mapAttribute = this.tokenizeAttributes(object, outText);
 
 				for (Map.Entry<String, Integer> entry : mapAttribute.entrySet()) {
-					String attributeTerm = entry.getKey();
+					String attributeText = entry.getKey();
 					Integer attributeTF = (Integer) entry.getValue();
 
-					if (!stopwordSet.contains(attributeTerm)) {
+					if (!stopwordSet.contains(attributeText)) {
 						if (attributeTF >= minTF) {
-							ChildTerm exist = result.getChildTerm(attributeTerm);
+							ChildTerm exist = result.getChildTerm(attributeText);
 							if (exist != null) {
 								exist.addDoc(detailDoc);
 							} else {
 								ChildTerm childTerm = new ChildTerm();
-								childTerm.setTerm(attributeTerm);
-								childTerm.setTF(attributeTF);
-								childTerm.addDoc(detailDoc);
-								result.addChildTerm(childTerm);
+								childTerm.setTerm(attributeText);
+								childTerm.setTF(attributeTF);								
+								childTerm.addDoc(detailDoc);								
+								double polarity = sentiment.analyzePolarity(attributeText);
+								childTerm.setPolarity(polarity);
 								
-								System.out.println("\n" + outField + " == " + attributeTerm + " (tf: " + attributeTF + ")");
+								result.addChildTerm(childTerm);								
+								System.out.println("\n" + outField + " == " + attributeText + " (tf: " + attributeTF + " polarity: " + polarity + ")");
 							}
 						}
 					}
@@ -279,8 +292,8 @@ public class DocIndexSearcher {
 	
 	public static void main(String[] args) {		
 		try {	
-			String[] indexDirs = { "./bin/twitter/index" };
-			String object = "kakaotalk";
+			String[] indexDirs = { "./bin/twitter/index/20111123" };
+			String object = "fta";
 			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs);
 			
 			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.PREDICATE, 2, true);

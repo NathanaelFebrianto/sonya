@@ -7,6 +7,7 @@ public class TargetTerm {
 	private String object;
 	private String term;
 	private int tf;	
+	private double polarity;
 	private ArrayList<ChildTerm> childTerms = new ArrayList<ChildTerm>();
 	
 	public String getObject() {
@@ -26,6 +27,12 @@ public class TargetTerm {
 	}
 	public void setTF(int tf) {
 		this.tf = tf;
+	}
+	public double getPolarity() {
+		return polarity;
+	}
+	public void setPolarity(double polarity) {
+		this.polarity = polarity;
 	}
 	public ArrayList<ChildTerm> getChildTerms() {
 		return childTerms;

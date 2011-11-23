@@ -9,7 +9,8 @@ public class TermNode {
 	private String id;
 	private String name;
 	private String type;
-	private int tf;		
+	private int tf;	
+	private double polarity;
 	private ArrayList<DetailDoc> docs = new ArrayList<DetailDoc>();
 
 	public String getId() {
@@ -42,6 +43,14 @@ public class TermNode {
 
 	public void setTF(int tf) {
 		this.tf = tf;
+	}
+	
+	public double getPolarity() {
+		return polarity;
+	}
+	
+	public void setPolarity(double polarity) {
+		this.polarity = polarity;
 	}
 
 	public ArrayList<DetailDoc> getDocs() {
