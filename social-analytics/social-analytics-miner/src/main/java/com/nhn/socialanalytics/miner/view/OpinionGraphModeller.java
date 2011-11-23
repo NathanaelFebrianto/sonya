@@ -125,7 +125,8 @@ public class OpinionGraphModeller {
 				// target term node
 				parentNode.setId(targetTerm.getTerm());
 				parentNode.setName(targetTerm.getTerm());
-				parentNode.setTF(targetTerm.getTF());				
+				parentNode.setTF(targetTerm.getTF());
+				parentNode.setPolarity(targetTerm.getPolarity());
 				
 				// target term edge
 				TermEdge rootEdge = new TermEdge();
@@ -160,6 +161,7 @@ public class OpinionGraphModeller {
 				node.setId(groupNode.getId() + "-" + childTerm.getTerm());
 				node.setName(childTerm.getTerm());
 				node.setTF(childTerm.getTF());
+				node.setPolarity(childTerm.getPolarity());
 				node.setType(fieldName);
 				node.setDocs(childTerm.getDocs());
 				
