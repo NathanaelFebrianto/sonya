@@ -76,7 +76,7 @@ public class AndroidMarketDataCollector {
 		System.out.println("\n\nstart index == " + startIndex);
 		
 		MarketSession session = new MarketSession();
-		session.login("xxxx@gmail.com", "xxxx");		
+		session.login("xxxx@gmail.com", "xxxx");	
 		
 		CommentsRequest commentsRequest = CommentsRequest.newBuilder()
 				.setAppId(appId)
