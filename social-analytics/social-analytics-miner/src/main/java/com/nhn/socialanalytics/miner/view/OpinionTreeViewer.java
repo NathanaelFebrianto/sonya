@@ -379,9 +379,9 @@ public class OpinionTreeViewer extends JApplet {
 	public static void main(String[] args) {
 		
 		try {
-			String[] indexDirs = { "./bin/twitter/index/20111123" };
+			String[] indexDirs = { "./bin/twitter/index/20111124" };
 			
-			String object = "gameshutdown";
+			String object = "fta";
 			
 			Set<String> customStopwordSet = new HashSet<String>();
 			customStopwordSet.add("fta");
@@ -400,12 +400,12 @@ public class OpinionTreeViewer extends JApplet {
 			/* target term ==> PREDICATE   */
 			/////////////////////////////////
 
-			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.PREDICATE, 3, true);					
+			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.PREDICATE, 20, true);					
 			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
 				String term = entry.getKey();
 			
-				TargetTerm subjectTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 3);
-				TargetTerm attributeTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.ATTRIBUTE, term, 3);
+				TargetTerm subjectTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 20);
+				TargetTerm attributeTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.ATTRIBUTE, term, 20);
 				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
 				termMap.put(FieldConstants.SUBJECT, subjectTerm);
 				termMap.put(FieldConstants.ATTRIBUTE, attributeTerm);
