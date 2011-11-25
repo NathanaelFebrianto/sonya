@@ -25,11 +25,12 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 import com.nhn.socialanalytics.appleappstore.model.Review;
+import com.nhn.socialanalytics.appleappstore.parse.AppStoreParser;
 
 
-public class AppleAppStoreDataCollector {
+public class AppStoreDataCollector {
 
-	public AppleAppStoreDataCollector() {
+	public AppStoreDataCollector() {
 		
 	}
 	
@@ -93,7 +94,7 @@ public class AppleAppStoreDataCollector {
 		return null;
 	}
 	
-	private List<Review> getReviewsForPage(String appStoreId, String appId, int pageNo) {
+	public List<Review> getReviewsForPage(String appStoreId, String appId, int pageNo) {
 		String userAgent = "iTunes/9.2 (Macintosh; U; Mac OS X 10.6)";
 		String front = appStoreId;
 		String strUrl = "http://ax.phobos.apple.com.edgesuite.net/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=" + appId + 
@@ -112,7 +113,7 @@ public class AppleAppStoreDataCollector {
             request.setDoOutput(true);
             request.setDoInput(true);
 
-            request.setFollowRedirects(true);
+            //request.setFollowRedirects(true);
             request.setInstanceFollowRedirects(true);
 
             request.setRequestProperty("X-Apple-Store-Front", front);
@@ -139,8 +140,39 @@ public class AppleAppStoreDataCollector {
 
                 for (int i = 0; i < nodes.getLength(); i++) {
                 	Node node = (Node) nodes.item(i);
-                	
-                	// review
+   
+                	// review id
+                	XPathExpression exprReviewId = xpath.compile("./pre:HBoxView/pre:HBoxView/pre:LoadFrameURL");
+                	Object objReviewId = exprReviewId.evaluate(node, XPathConstants.NODE);
+                   	Element nodeReviewId = (Element) objReviewId;
+                	String reviewId = AppStoreParser.extractReviewId(nodeReviewId.getAttribute("url"));
+                 	System.out.println(i + " review id == " + reviewId);      
+
+                	// author id
+                   	XPathExpression exprAuthorId = xpath.compile("./pre:HBoxView/pre:TextView/pre:SetFontStyle/pre:GotoURL");
+                	Object objAuthorId = exprAuthorId.evaluate(node, XPathConstants.NODE);
+                	Element nodeAuthorId = (Element) objAuthorId;
+                	String authorId = AppStoreParser.extractAuthorId(nodeAuthorId.getAttribute("url"));
+                 	System.out.println(i + " author id == " + authorId);      
+                 	
+                	// author name
+                   	XPathExpression exprAuthorName = xpath.compile("./pre:HBoxView/pre:TextView/pre:SetFontStyle/pre:GotoURL/pre:b/text()");
+                	Object objAuthorName = exprAuthorName.evaluate(node, XPathConstants.NODE);
+                	Node nodeAuthorName = (Node) objAuthorName;
+                	String authorName = nodeAuthorName.getNodeValue();
+                	authorName = authorName.trim();
+                	authorName = authorName.replaceAll("\n", " ");
+                	authorName = authorName.replaceAll("\t", " ");
+                	System.out.println(i + " author name == " + authorName); 
+                 	
+                	// topic
+                   	XPathExpression exprTopic = xpath.compile("./pre:HBoxView/pre:TextView/pre:SetFontStyle/pre:b/text()");
+                	Object objTopic = exprTopic.evaluate(node, XPathConstants.NODE);
+                	Node nodeTopic = (Node) objTopic;
+                	String topic = nodeTopic.getNodeValue();
+                 	System.out.println(i + " topic == " + topic);
+                 	
+                	// review text
                 	XPathExpression exprReviewText = xpath.compile("./pre:TextView/pre:SetFontStyle/text()");
                 	Object objReviewText = exprReviewText.evaluate(node, XPathConstants.NODE);
                 	Node nodeReviewText = (Node) objReviewText;
@@ -148,52 +180,35 @@ public class AppleAppStoreDataCollector {
                 	reviewText = reviewText.trim();
                 	reviewText = reviewText.replaceAll("\n", " ");
                 	reviewText = reviewText.replaceAll("\t", " ");                	
-                	System.out.println(i + " reivew == " + reviewText); 
+                	System.out.println(i + " reivew text == " + reviewText); 
                 	
-                	// version
+                	// version and create time
                    	XPathExpression exprVersion = xpath.compile("./pre:HBoxView/pre:TextView/pre:SetFontStyle/text()");
                 	Object objVersions = exprVersion.evaluate(node, XPathConstants.NODESET);
                 	NodeList nodeVersions = (NodeList) objVersions;
                 	Node nodeVersion = (Node) nodeVersions.item(1);
-                	String version = nodeVersion.getNodeValue();
-                	version = version.trim();
-                	//version = version.replaceAll("\n", " ");
-                	version = version.replaceAll("\t", " ");
-                	System.out.println(i + " version == " + version);      
+                	String version = AppStoreParser.extractVersion(nodeVersion.getNodeValue());
+                 	System.out.println(i + " version == " + version);   
                 	
-                	// user
-                   	XPathExpression exprUser = xpath.compile("./pre:HBoxView/pre:TextView/pre:SetFontStyle/pre:GotoURL/pre:b/text()");
-                	Object objAuthorName = exprUser.evaluate(node, XPathConstants.NODE);
-                	Node nodeAuthorName = (Node) objAuthorName;
-                	String authorName = nodeAuthorName.getNodeValue();
-                	authorName = authorName.trim();
-                	authorName = authorName.replaceAll("\n", " ");
-                	authorName = authorName.replaceAll("\t", " ");
-                	System.out.println(i + " author name == " + authorName);                	
+                	String createTime = AppStoreParser.extractDate(nodeVersion.getNodeValue());
+                	System.out.println(i + " create time == " + createTime);
                 	
-                	// rank
+                	// rating
                    	XPathExpression exprRating = xpath.compile("./pre:HBoxView/pre:HBoxView/pre:HBoxView");
                 	Object objRating = exprRating.evaluate(node, XPathConstants.NODE);
                 	Element nodeRating = (Element) objRating;
-                	String rating = nodeRating.getAttribute("alt");
-                 	System.out.println(i + " rank == " + rating);                   	
-                	
-                	// topic
-                   	XPathExpression exprTopic = xpath.compile("./pre:HBoxView/pre:TextView/pre:SetFontStyle/pre:b/text()");
-                	Object objTopic = exprTopic.evaluate(node, XPathConstants.NODE);
-                	Node nodeTopic = (Node) objTopic;
-                	String topic = nodeTopic.getNodeValue();
-                 	System.out.println(i + " topic == " + topic);
-
+                	int rating = Integer.valueOf(AppStoreParser.extractNumber(nodeRating.getAttribute("alt")));
+                 	System.out.println(i + " rating == " + rating);
+                 	
                  	Review review = new Review();
-                 	review.setReviewId("");                 	
-                 	review.setAuthorId("");
+                 	review.setReviewId(reviewId);                 	
+                 	review.setAuthorId(authorId);
                  	review.setAuthorName(authorName);
                  	review.setTopic(topic);
                  	review.setText(reviewText);
                  	review.setVersion(version);
-                 	review.setCreateTime("");
-                 	review.setRating(1);
+                 	review.setCreateTime(createTime);
+                 	review.setRating(rating);
                  	
                  	reviews.add(review);
                 }
@@ -215,15 +230,14 @@ public class AppleAppStoreDataCollector {
 	}
 	
 	public static void main(String[] args) {
-		AppleAppStoreDataCollector collector = new AppleAppStoreDataCollector();
+		AppStoreDataCollector collector = new AppStoreDataCollector();
 		String appStoreId = AppStores.getAppStore("Korea");
 		
-		System.out.println("html == " + collector.getHTMLContent(appStoreId, "443904275", 1));
+		//System.out.println("html == " + collector.getHTMLContent(appStoreId, "443904275", 0));
 		
-		//collector.getReviewsForPage(appStoreId, "443904275", 1);
-		
-		collector.getReviews(appStoreId, "443904275");
+		collector.getReviewsForPage(appStoreId, "443904275", 0);
 
+		//collector.getReviews(appStoreId, "443904275");		
 	}
 
 }
