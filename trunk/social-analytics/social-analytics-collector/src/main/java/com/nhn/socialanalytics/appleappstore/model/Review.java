@@ -1,0 +1,66 @@
+package com.nhn.socialanalytics.appleappstore.model;
+
+import java.io.Serializable;
+
+@SuppressWarnings("serial")
+public class Review implements Serializable {
+	
+	private String reviewId;
+	private String authorId;
+	private String authorName;
+	private String topic;
+	private String text;
+	private String version;
+	private String createTime;
+	private int rating;
+	
+	public String getReviewId() {
+		return reviewId;
+	}
+	public void setReviewId(String reviewId) {
+		this.reviewId = reviewId;
+	}
+	public String getAuthorId() {
+		return authorId;
+	}
+	public void setAuthorId(String authorId) {
+		this.authorId = authorId;
+	}
+	public String getAuthorName() {
+		return authorName;
+	}
+	public void setAuthorName(String authorName) {
+		this.authorName = authorName;
+	}	
+	public String getTopic() {
+		return topic;
+	}
+	public void setTopic(String topic) {
+		this.topic = topic;
+	}
+	public String getText() {
+		return text;
+	}
+	public void setText(String text) {
+		this.text = text;
+	}
+	public String getVersion() {
+		return version;
+	}
+	public void setVersion(String version) {
+		this.version = version;
+	}
+	public String getCreateTime() {
+		return createTime;
+	}
+	public void setCreateTime(String createTime) {
+		this.createTime = createTime;
+	}
+	public int getRating() {
+		return rating;
+	}
+	public void setRating(int rating) {
+		this.rating = rating;
+	}
+	
+}
