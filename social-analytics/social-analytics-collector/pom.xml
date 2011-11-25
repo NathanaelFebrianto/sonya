@@ -57,12 +57,7 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.9</version>
 		</dependency>
-		<dependency>
-		    <groupId>org.jdom</groupId>
-		    <artifactId>jdom</artifactId>
-		    <version>1.1.2</version> 
-		</dependency>
-		
+
 		<dependency>
 			<groupId>com.nhn.socialanalytics</groupId>
 			<artifactId>social-analytics-nlp</artifactId>
