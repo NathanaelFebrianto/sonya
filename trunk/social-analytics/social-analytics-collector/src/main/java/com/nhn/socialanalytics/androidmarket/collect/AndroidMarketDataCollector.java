@@ -3,8 +3,17 @@ package com.nhn.socialanalytics.androidmarket.collect;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.OutputStreamWriter;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Locale;
+import java.util.Set;
+
+import org.apache.lucene.document.Document;
 
 import com.gc.android.market.api.MarketSession;
 import com.gc.android.market.api.MarketSession.Callback;
@@ -15,224 +24,229 @@ import com.gc.android.market.api.model.Market.Comment;
 import com.gc.android.market.api.model.Market.CommentsRequest;
 import com.gc.android.market.api.model.Market.CommentsResponse;
 import com.gc.android.market.api.model.Market.ResponseContext;
-import com.nhn.socialanalytics.common.Config;
+import com.nhn.socialanalytics.appleappstore.collect.AppStoreReviewCrawler;
+import com.nhn.socialanalytics.common.Collector;
+import com.nhn.socialanalytics.common.JobLogger;
 import com.nhn.socialanalytics.common.util.DateUtil;
 import com.nhn.socialanalytics.common.util.StringUtil;
 import com.nhn.socialanalytics.miner.index.DetailDoc;
 import com.nhn.socialanalytics.miner.index.DocIndexSearcher;
 import com.nhn.socialanalytics.miner.index.DocIndexWriter;
+import com.nhn.socialanalytics.miner.index.FieldConstants;
 import com.nhn.socialanalytics.nlp.kr.morpheme.MorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.kr.semantic.SemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.kr.semantic.SemanticClause;
 import com.nhn.socialanalytics.nlp.kr.semantic.SemanticSentence;
 import com.nhn.socialanalytics.nlp.kr.sentiment.SentimentAnalyzer;
 
-public class AndroidMarketDataCollector { 
-
-	public AndroidMarketDataCollector() {
+public class AndroidMarketDataCollector extends Collector { 
+	
+	private static JobLogger logger = JobLogger.getLogger(AndroidMarketDataCollector.class, "androidmarket-collect.log");
+	private AndroidMarketCrawler crawler;	
+	
+	public AndroidMarketDataCollector(String loginAccount, String loginPasswd) {
+		crawler = new AndroidMarketCrawler(loginAccount, loginPasswd);
 	}
 	
-	public void searchAppsPerPage(String query, int startIndex) {		
-		
-		MarketSession session = new MarketSession();
-		session.login("xxxx@gmail.com", "xxxx");
-		//session.getContext().setAndroidId("3774d56d682e549c");
-		//session.setLocale(Locale.KOREA);
-		
-		AppsRequest appsRequest = AppsRequest.newBuilder()
-				.setQuery(query)
-				.setStartIndex(startIndex)
-				.setEntriesCount(10)
-				//.setOrderType(AppsRequest.OrderType.NEWEST)
-				.setOrderType(AppsRequest.OrderType.POPULAR)
-				.setWithExtendedInfo(true)
-				.build();
-		
-		session.append(appsRequest, new Callback<AppsResponse>() {
-			//@Override
-			public void onResult(ResponseContext context, AppsResponse response) {
-				List<App> apps = response.getAppList();
-				for (App app : apps) {
-					System.out.println("---------------------------------");
-					System.out.println("title == " + app.getTitle());
-					System.out.println("creator == " + app.getCreator());
-					System.out.println("rating == " + app.getRating());
-					System.out.println("rating count == " + app.getRatingsCount());
-					System.out.println("price == " + app.getPrice());
-					System.out.println("id == " + app.getId());
-					
-					System.out.println("price currency == " + app.getPriceCurrency());
-					System.out.println("price micros == " + app.getPriceMicros());
-					System.out.println("serialized size == " + app.getSerializedSize());
-					System.out.println("version == " + app.getVersion());
-					System.out.println("download count == " + app.getExtendedInfo().getDownloadsCountText());
-				}
-			}
-		});		
-		session.flush();	
-	}
-	
-	public void getAppCommentsPerPage(String appId, int startIndex) {
-		System.out.println("\n\nstart index == " + startIndex);
-		
-		MarketSession session = new MarketSession();
-		session.login("xxxx@gmail.com", "xxxx");	
-		
-		CommentsRequest commentsRequest = CommentsRequest.newBuilder()
-				.setAppId(appId)
-				.setStartIndex(startIndex)
-				.setEntriesCount(10).build();
-
-		session.append(commentsRequest, new Callback<CommentsResponse>() {			
-			//@Override
-			public void onResult(ResponseContext context, CommentsResponse response) {
-				//System.out.println("Response : " + response);	
-
-				try {
-					MorphemeAnalyzer morph = MorphemeAnalyzer.getInstance();
-					SemanticAnalyzer semantic = SemanticAnalyzer.getInstance();
-					SentimentAnalyzer sentiment = SentimentAnalyzer.getInstance(Config.getProperty("LIWC_CAT_FILE"));
-					
-					String docIndexDir = Config.getProperty("ANDROIDMARKET_INDEX_DIR");
-					
-					DocIndexWriter indexWriter = new DocIndexWriter(docIndexDir);
-					DocIndexSearcher indexSearcher = new DocIndexSearcher(new String[] { docIndexDir });
-
-					File outputDir = new File(Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR"));
-					File file = new File(outputDir.getPath() + File.separator + "naverapp" + ".txt");
-					BufferedWriter br = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file.getPath(), true), "UTF-8"));
-	
-					List<Comment> comments = response.getCommentsList();					
-					for (Comment comment : comments) {	
-						
-						String authorId  = comment.getAuthorId();
-						String authorName = comment.getAuthorName();
-						int rating = comment.getRating();
-						String text = comment.getText();	
-						String createTime = DateUtil.convertLongToString("yyyyMMddHHmmss", comment.getCreationTime());
-						String commentId = createTime + "-" + authorId;	
-						
-						System.out.println("---------------------------------");
-						System.out.println("author id == " + authorId);
-						System.out.println("author name == " + authorName);
-						System.out.println("rating == " + rating);
-						System.out.println("text == " + text);
-						System.out.println("creation time == " + createTime);
-						
-						/*
-						Map<FieldDescriptor, Object> fields = comment.getAllFields();
-						for (Map.Entry<FieldDescriptor, Object> entry : fields.entrySet()) {
-							System.out.println("key == " + entry.getKey());
-							System.out.println("value == " + entry.getValue());
-						}
-						*/
-						
-						text = StringUtil.removeUnsupportedCharacters(text);						
-						text = text.replaceAll("\t", " ");
-						text = text.replaceAll("ㅣ", "");
-						
-						String textEmotiTagged = StringUtil.convertEmoticonToTag(text);
-						String text1 = morph.extractTerms(textEmotiTagged);
-						String text2 = morph.extractCoreTerms(textEmotiTagged);						
-						SemanticSentence semanticSentence = semantic.createSemanticSentence(textEmotiTagged);
-						String subjectpredicates = semanticSentence.extractSubjectPredicateLabel();
-						String subjects = semanticSentence.extractSubjectLabel();
-						String predicates = semanticSentence.extractPredicateLabel();
-						String attributes = semanticSentence.extractAttributesLabel();
-						
-						semanticSentence = sentiment.analyzePolarity(semanticSentence);
-						double polarity = semanticSentence.getPolarity();
-						double polarityStrength = semanticSentence.getPolarityStrength();
-						
-						if (text.indexOf("알바") < 0) {
-							br.write(
-									DateUtil.convertLongToString("yyyyMMddHHmmss", comment.getCreationTime()) + "\t" +
-									comment.getAuthorId() + "\t" +
-									comment.getAuthorName() + "\t" + 
-									comment.getRating() + "\t" +
-									text + "\t" +
-									text1 + "\t" +
-									text2 + "\t" +
-									subjectpredicates + "\t" +
-									subjects + "\t" +
-									predicates + "\t" +
-									attributes + "\t" +
-									polarity + "\t" +
-									polarityStrength									
-									);
-							br.newLine();							
-						}
-						
-						for (SemanticClause clause : semanticSentence) {
-							DetailDoc doc = new DetailDoc();
-							doc.setSite("androidmarket");
-							doc.setDate(createTime);
-							doc.setUserId(authorId);
-							doc.setUserName(authorName);
-							doc.setDocId(commentId);
-							doc.setSubject(clause.getSubject());
-							doc.setPredicate(clause.getPredicate());
-							doc.setAttribute(clause.makeAttributesLabel());
-							doc.setText(text);
-							
-							indexWriter.write(doc);
-						}
-					}					
-					br.close();
-					indexWriter.close();
-					
-				} catch (Exception e) {
-					e.printStackTrace();					
-				}
-			}
-		});
-
-		session.flush();		
-	}	
-	
-	public void searchApps(String appId, int maxPage) {
-		int startIndex = 0;
-		for (int page = 0; page < maxPage; page++) {
-			startIndex = 10 * page;
-			searchAppsPerPage(appId, startIndex);			
+	public List<Comment> getAppComments(Set<Locale> locales, String appId, int maxPage) {
+		List<Comment> commentList = new ArrayList<Comment>();
+		try {           	
+        	logger.info("------------------------------------------------");
+        	logger.info("appStores = " + locales + " appId: " + appId + " page: " + maxPage);
+         	
+        	for (Iterator<Locale> it = locales.iterator(); it.hasNext();) {
+	        	Locale locale = it.next();	        	
+	        	commentList = crawler.getAppComments(locale, appId, maxPage, false);	            
+	            logger.info("result size [locale:" + locale + "] = " + commentList.size());
+        	}
+           
+		} catch (Exception e) {
+			e.printStackTrace();
+			logger.error(e.getMessage(), e);
 		}		
+		
+		return commentList;
 	}
 	
-	public void getAppComments(String appId, int maxPage) {
-		int startIndex = 0;
-		for (int page = 0; page < maxPage; page++) {
-			startIndex = 10 * page;
-			getAppCommentsPerPage(appId, startIndex);			
-		}		
+	public void writeOutput(String dataDir, String indexDir, String liwcCatFile, 
+			String objectId, List<Comment> comments, Date collectDate) throws IOException, Exception {
+		
+		String currentDatetime = DateUtil.convertDateToString("yyyyMMddHHmmss", new Date());	
+		File docIndexDir = super.getDocIndexDir(indexDir, collectDate);
+		File dataFile = super.getDataFile(dataDir, objectId, collectDate);
+		File newCollectedIdSetFile = super.getIDSetFile(dataDir, objectId);	
+		
+		///////////////////////////
+		// get the id hash set collected previously to compare with new collected data set
+		// and remove duplication
+		Set<String> prevColIdSet = super.loadPrevCollectedHashSet(dataDir, objectId);
+		///////////////////////////
+				
+		MorphemeAnalyzer morph = MorphemeAnalyzer.getInstance();
+		SemanticAnalyzer semantic = SemanticAnalyzer.getInstance();
+		SentimentAnalyzer sentiment = SentimentAnalyzer.getInstance(liwcCatFile);
+		
+		DocIndexWriter indexWriter = new DocIndexWriter(docIndexDir);		
+		DocIndexSearcher indexSearcher = new DocIndexSearcher(super.getDocumentIndexDirsToSearch(indexDir, collectDate));
+		
+		// output data file
+		boolean existDataFile = false;
+		
+		if (dataFile.exists())
+			existDataFile = true;
+		
+		BufferedWriter brData = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(dataFile.getPath(), true), "UTF-8"));
+		
+		//////////////////////////////
+		// new collected id set file
+		BufferedWriter brCollectedIdSet = new BufferedWriter(new OutputStreamWriter(
+				new FileOutputStream(newCollectedIdSetFile.getPath(), false), "UTF-8"));
+		//////////////////////////////
+		
+		if (!existDataFile) {
+			brData.write("site" + DELIMITER +
+					"object_id" + DELIMITER +
+					"collect_date" + DELIMITER +
+					"comment_id" + DELIMITER +	
+					"create_date" + DELIMITER +	
+					"author_id" + DELIMITER +		
+					"author_name" + DELIMITER +	
+					"rating" + DELIMITER +	
+					"text" + DELIMITER +		
+					"text1" + DELIMITER +		
+					"text2" + DELIMITER +		
+					"subjectpredicate" + DELIMITER +		
+					"subject" + DELIMITER +		
+					"predicate" + DELIMITER +		
+					"attribute" + DELIMITER +		
+					"polarity" + DELIMITER +		
+					"polarity_strength"
+					);
+			brData.newLine();			
+		}
+		
+		// comment
+		for (Comment comment : comments) {
+			String authorId  = comment.getAuthorId();
+			String authorName = comment.getAuthorName();
+			int rating = comment.getRating();
+			String text = comment.getText();	
+			String createDate = DateUtil.convertLongToString("yyyyMMddHHmmss", comment.getCreationTime());
+			String commentId = createDate + "-" + authorId;
+			
+			/////////////////////////////////
+			// write new collected all id into file
+			brCollectedIdSet.write(commentId);
+			brCollectedIdSet.newLine();
+			/////////////////////////////////			
+						
+			// if no duplication, write collected data
+			if (!prevColIdSet.contains(commentId)) {
+				String textEmotiTagged = StringUtil.convertEmoticonToTag(text);
+				
+				String text1 = morph.extractTerms(textEmotiTagged);
+				String text2 = morph.extractCoreTerms(textEmotiTagged);
+				
+				SemanticSentence semanticSentence = semantic.createSemanticSentence(textEmotiTagged);
+				String subjectpredicate = semanticSentence.extractSubjectPredicateLabel();
+				String subject = semanticSentence.extractSubjectLabel();
+				String predicate = semanticSentence.extractPredicateLabel();
+				String attribute = semanticSentence.extractAttributesLabel();
+				
+				semanticSentence = sentiment.analyzePolarity(semanticSentence);
+				double polarity = semanticSentence.getPolarity();
+				double polarityStrength = semanticSentence.getPolarityStrength();
+				
+				// write new collected data into source file
+				brData.write(
+						"appstore" + DELIMITER +
+						objectId + DELIMITER +
+						currentDatetime + DELIMITER +
+						commentId + DELIMITER +
+						createDate + DELIMITER + 
+						authorId + DELIMITER +		
+						authorName + DELIMITER +	
+						rating + DELIMITER +
+						text + DELIMITER +		
+						text1 + DELIMITER +		
+						text2 + DELIMITER +		
+						subjectpredicate + DELIMITER +		
+						subject + DELIMITER +		
+						predicate + DELIMITER +		
+						attribute + DELIMITER +		
+						polarity + DELIMITER +		
+						polarityStrength
+						);
+				brData.newLine();
+				
+				////////////////////////////////////////
+				// write new collected data into index file
+				////////////////////////////////////////
+				Set<Document> existDocs = indexSearcher.searchDocuments(FieldConstants.DOC_ID, commentId);
+				
+				if (existDocs.size() > 0) {
+					for (Iterator<Document> it = existDocs.iterator(); it.hasNext();) {
+						Document existDoc = (Document) it.next();
+						String objects = existDoc.get(FieldConstants.OBJECT);
+						objects = objects + " " + objectId;
+						
+						indexWriter.update(FieldConstants.OBJECT, objects, existDoc);
+				     }
+				}
+				else {
+					for (SemanticClause clause : semanticSentence) {
+						DetailDoc doc = new DetailDoc();
+						doc.setSite("twitter");
+						doc.setObject(objectId);
+						doc.setCollectDate(currentDatetime);
+						doc.setDocId(commentId);
+						doc.setDate(createDate);
+						doc.setUserId(authorId);
+						doc.setUserName(authorName);
+						doc.setSubject(clause.getSubject());
+						doc.setPredicate(clause.getPredicate());
+						doc.setAttribute(clause.makeAttributesLabel());
+						doc.setText(text);
+						
+						indexWriter.write(doc);
+					}						
+				}			
+			}		
+		}
+		
+		brData.close();
+		brCollectedIdSet.close();		
+		indexWriter.close();
 	}
 	
 	public static void main(String[] args) {
-		AndroidMarketDataCollector collector = new AndroidMarketDataCollector();	
+		
+		String loginAccount = "louiezzang@gmail.com";
+		String loginPasswd = "bae120809";
+		AndroidMarketDataCollector collector = new AndroidMarketDataCollector(loginAccount, loginPasswd);	
+		
+		Set<Locale> locales = new HashSet<Locale>();
+		locales.add(Locale.KOREA);
+		locales.add(Locale.ENGLISH);
 		
 		//String query = "네이버톡";
-		//String query = "pname:com.nhn.android.navertalk"; //pname:com.nhn.android.navertalk
-		//collector.searchApps(query, 1);
+		//String query = "pname:com.nhn.android.navertalk";
+		//collector.searchApps(Locale.KOREA, query, 1);
 		
+		String objectId = "naverline";
 		//String appId = "com.nhn.android.navertalk";
-		String appId = "com.nhn.android.search";
+		//String appId = "com.nhn.android.search";
+		String appId = "jp.naver.line.android";
 		//String appId = "com.nhn.android.nbooks";
 		//String appId = "com.kakao.talk";
 		
+		List<Comment> comments = collector.getAppComments(locales, appId, 5);
+		
 		try {
-			File outputDir = new File(Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR"));
-			if (!outputDir.exists()) {
-				outputDir.mkdir();
-			}
-				
-			File file = new File(outputDir.getPath() + File.separator + "naverapp" + ".txt");
-			BufferedWriter br = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file.getPath(), false), "UTF-8"));
-			br.write("creation_time	author_id	author_name	rating	text	text1	text2	subjectpredicate	subject	predicate	objects	polarity	polarity_strength");
-			br.newLine();
-			br.close();
+			collector.writeOutput("./bin/data/androidmarket/collect/", "./bin/data/androidmarket/index/", "./bin/liwc/LIWC_ko.txt", objectId, comments, new Date());
 		} catch (Exception e) {
-			e.printStackTrace();					
+			e.printStackTrace();
 		}
-		collector.getAppComments(appId, 30);
 	}
 
 }

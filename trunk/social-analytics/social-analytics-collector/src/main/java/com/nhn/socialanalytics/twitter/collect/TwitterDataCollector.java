@@ -1,23 +1,18 @@
 package com.nhn.socialanalytics.twitter.collect;
 
-import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
-import java.util.regex.Pattern;
 
 import org.apache.lucene.document.Document;
 
@@ -27,7 +22,7 @@ import twitter4j.Twitter;
 import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
 
-import com.nhn.socialanalytics.common.Config;
+import com.nhn.socialanalytics.common.Collector;
 import com.nhn.socialanalytics.common.JobLogger;
 import com.nhn.socialanalytics.common.util.DateUtil;
 import com.nhn.socialanalytics.miner.index.DetailDoc;
@@ -41,25 +36,39 @@ import com.nhn.socialanalytics.nlp.kr.semantic.SemanticSentence;
 import com.nhn.socialanalytics.nlp.kr.sentiment.SentimentAnalyzer;
 import com.nhn.socialanalytics.twitter.parse.TwitterParser;
 
-public class TwitterDataCollector {
+public class TwitterDataCollector extends Collector {
 
 	private static JobLogger logger = JobLogger.getLogger(TwitterDataCollector.class, "twitter-collect.log");
-	private File outputDir;
-	
 	private Twitter twitter;
-	private static final String DELIMITER = "\t";
 	
 	public TwitterDataCollector() {	
-		outputDir = new File(Config.getProperty("TWITTER_SOURCE_DATA_DIR"));
-		if (!outputDir.exists()) {
-			outputDir.mkdir();
-			logger.info(outputDir + " is created.");
-		}
-		
 		twitter = new TwitterFactory().getInstance();
 	}
 	
-	public List<twitter4j.Tweet> searchTweets(String objectId, String strQuery, String since, String until, int maxPage) {
+	public List<twitter4j.Tweet> searchTweets(Map<String, Integer> queryMap, String since, String until) {
+		List<twitter4j.Tweet> result = new ArrayList<twitter4j.Tweet>();
+		Set<String> idHashSet = new HashSet<String>();
+		
+		for (Map.Entry<String, Integer> entry : queryMap.entrySet()) {
+			String query = entry.getKey();
+			int maxPage = entry.getValue();			
+			List<twitter4j.Tweet> tweets = this.searchTweets(query, since, until, maxPage);
+			
+			for (int i = 0; i < tweets.size(); i++) {
+				twitter4j.Tweet tweet = (twitter4j.Tweet) tweets.get(i);
+				String tweetId = String.valueOf(tweet.getId());				
+				// check if it is duplicate
+				if (!idHashSet.contains(tweetId)) {
+					result.add(tweet);
+				}				
+				idHashSet.add(tweetId);
+			}
+		}
+		
+		return result;
+	}
+	
+	public List<twitter4j.Tweet> searchTweets(String strQuery, String since, String until, int maxPage) {
 		List<twitter4j.Tweet> tweets = new ArrayList<twitter4j.Tweet>();
 		
 		try {           	
@@ -68,7 +77,6 @@ public class TwitterDataCollector {
         	query.setSince(since);
         	
         	logger.info("------------------------------------------------");
-        	logger.info("object id: " + objectId);
         	logger.info("query = " + query.getQuery() + " since: " + since + " page: " + maxPage);
          	
         	for (int page = 1; page <= maxPage; page++) {
@@ -87,85 +95,47 @@ public class TwitterDataCollector {
 		return tweets;
 	}
 	
-	private Set<String> loadPrevCollectedHashSet(String objectId) throws IOException, UnsupportedEncodingException {
-		Set<String> idSet = new HashSet<String>();
+	public void writeOutput(String dataDir, String indexDir, String liwcCatFile, 
+			String objectId, List<twitter4j.Tweet> tweets, Date collectDate) throws IOException, Exception {
 		
-		try {			
-			String prevColIdSetFile = outputDir.getPath() + File.separator + objectId + ".txt";
-			
-			InputStream is = new FileInputStream(new File(prevColIdSetFile));
-			BufferedReader in = new BufferedReader(new InputStreamReader(is, "UTF-8")); 
-			
-			String line;
-			while ((line = in.readLine()) != null) {
-				String[] tokens = Pattern.compile(DELIMITER).split(line);				
-				String tweetId = tokens[0];
-				idSet.add(tweetId);
-			}
-			is.close();
-		} catch (FileNotFoundException e) {
-			System.out.println(e.getMessage());
-			return idSet;
-		}
-		
-		return idSet;
-	}
-	
-	private String[] getDocumentIndexDirsToSearch() {		
-		String currentDate = DateUtil.convertDateToString("yyyyMMdd", new Date());
-		String beforeDate = DateUtil.convertDateToString("yyyyMMdd", DateUtil.addDay(new Date(), -1));
-		String currentDocIndexDir = Config.getProperty("TWITTER_INDEX_DIR") + File.separator + currentDate;
-		String beforeDocIndexDir = Config.getProperty("TWITTER_INDEX_DIR") + File.separator + beforeDate;
-		
-		File dir = new File(currentDocIndexDir);
-		if (dir.exists() && dir.listFiles().length > 0) {
-			return new String[] { currentDocIndexDir };
-		} else {
-			return new String[] { beforeDocIndexDir, currentDocIndexDir };
-		}
-	}
-	
-	public void writeOutput(String objectId, List<twitter4j.Tweet> tweets) throws IOException, Exception {
-		String currentDate = DateUtil.convertDateToString("yyyyMMdd", new Date());
 		String currentDatetime = DateUtil.convertDateToString("yyyyMMddHHmmss", new Date());	
-		String docIndexDir = Config.getProperty("TWITTER_INDEX_DIR") + File.separator + currentDate;
-		String strOutputFile = outputDir.getPath() + File.separator + objectId + "_" + currentDate + ".txt";
-		String strNewColIdSetFile = outputDir.getPath() + File.separator + objectId + ".txt";	
+		File docIndexDir = super.getDocIndexDir(indexDir, collectDate);
+		File dataFile = super.getDataFile(dataDir, objectId, collectDate);
+		File newCollectedIdSetFile = super.getIDSetFile(dataDir, objectId);	
 		
 		///////////////////////////
 		// get the id hash set collected previously to compare with new collected data set
 		// and remove duplication
-		Set<String> prevColIdSet = this.loadPrevCollectedHashSet(objectId);
+		Set<String> prevColIdSet = super.loadPrevCollectedHashSet(dataDir, objectId);
 		///////////////////////////
 				
 		MorphemeAnalyzer morph = MorphemeAnalyzer.getInstance();
 		SemanticAnalyzer semantic = SemanticAnalyzer.getInstance();
-		SentimentAnalyzer sentiment = SentimentAnalyzer.getInstance(Config.getProperty("LIWC_CAT_FILE"));
+		SentimentAnalyzer sentiment = SentimentAnalyzer.getInstance(liwcCatFile);
 		
 		DocIndexWriter indexWriter = new DocIndexWriter(docIndexDir);		
-		DocIndexSearcher indexSearcher = new DocIndexSearcher(this.getDocumentIndexDirsToSearch());
+		DocIndexSearcher indexSearcher = new DocIndexSearcher(super.getDocumentIndexDirsToSearch(indexDir, collectDate));
 		
-		// output file
-		boolean existOutputFile = false;
-		File outputFile = new File(strOutputFile);
+		// output data file
+		boolean existDataFile = false;
 		
-		if (outputFile.exists())
-			existOutputFile = true;
+		if (dataFile.exists())
+			existDataFile = true;
 		
-		BufferedWriter br = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(outputFile.getPath(), true), "UTF-8"));
+		BufferedWriter brData = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(dataFile.getPath(), true), "UTF-8"));
 		
 		//////////////////////////////
 		// new collected id set file
-		File newColIdSetFile = new File(strNewColIdSetFile);		
-		BufferedWriter brColIdSetFile = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(newColIdSetFile.getPath(), false), "UTF-8"));
+		BufferedWriter brCollectedIdSet = new BufferedWriter(new OutputStreamWriter(
+				new FileOutputStream(newCollectedIdSetFile.getPath(), false), "UTF-8"));
 		//////////////////////////////
 		
-		if (!existOutputFile) {
-			br.write("site" + DELIMITER +
+		if (!existDataFile) {
+			brData.write("site" + DELIMITER +
 					"object_id" + DELIMITER +
 					"collect_date" + DELIMITER +
 					"tweet_id" + DELIMITER +	
-					"created_at" + DELIMITER +	
+					"create_date" + DELIMITER +	
 					"from_user" + DELIMITER +		
 					"to_user" + DELIMITER +		
 					"text" + DELIMITER +		
@@ -176,22 +146,23 @@ public class TwitterDataCollector {
 					"predicate" + DELIMITER +		
 					"attribute" + DELIMITER +		
 					"polarity" + DELIMITER +		
-					"polarity_strength");
-			br.newLine();			
+					"polarity_strength"
+					);
+			brData.newLine();			
 		}
 		
 		// post
 		for (twitter4j.Tweet tweet : tweets) {
 			String tweetId = String.valueOf(tweet.getId());
-			String createTime = DateUtil.convertDateToString("yyyyMMddHHmmss", tweet.getCreatedAt());
+			String createDate = DateUtil.convertDateToString("yyyyMMddHHmmss", tweet.getCreatedAt());
 			String fromUserId = String.valueOf(tweet.getFromUserId());
 			String fromUser = tweet.getFromUser();			
 			String toUser = tweet.getToUser();
 			
 			/////////////////////////////////
 			// write new collected all id into file
-			brColIdSetFile.write(tweetId);
-			brColIdSetFile.newLine();
+			brCollectedIdSet.write(tweetId);
+			brCollectedIdSet.newLine();
 			/////////////////////////////////			
 						
 			// if no duplication, write collected data
@@ -203,35 +174,35 @@ public class TwitterDataCollector {
 				String text2 = morph.extractCoreTerms(textEmotiTagged);
 				
 				SemanticSentence semanticSentence = semantic.createSemanticSentence(textEmotiTagged);
-				String subjectpredicates = semanticSentence.extractSubjectPredicateLabel();
-				String subjects = semanticSentence.extractSubjectLabel();
-				String predicates = semanticSentence.extractPredicateLabel();
-				String attributes = semanticSentence.extractAttributesLabel();
+				String subjectpredicate = semanticSentence.extractSubjectPredicateLabel();
+				String subject = semanticSentence.extractSubjectLabel();
+				String predicate = semanticSentence.extractPredicateLabel();
+				String attribute = semanticSentence.extractAttributesLabel();
 				
 				semanticSentence = sentiment.analyzePolarity(semanticSentence);
 				double polarity = semanticSentence.getPolarity();
 				double polarityStrength = semanticSentence.getPolarityStrength();
 				
 				// write new collected data into source file
-				br.write(
+				brData.write(
 						"twitter" + DELIMITER +
 						objectId + DELIMITER +
 						currentDatetime + DELIMITER +
 						tweetId + DELIMITER +
-						createTime + DELIMITER + 
+						createDate + DELIMITER + 
 						fromUser + DELIMITER +
 						toUser + DELIMITER +
 						text + DELIMITER +
 						text1 + DELIMITER +
 						text2 + DELIMITER +
-						subjectpredicates + DELIMITER +
-						subjects + DELIMITER +
-						predicates + DELIMITER +
-						attributes + DELIMITER +
+						subjectpredicate + DELIMITER +
+						subject + DELIMITER +
+						predicate + DELIMITER +
+						attribute + DELIMITER +
 						polarity + DELIMITER +
 						polarityStrength		
 						);
-				br.newLine();
+				brData.newLine();
 				
 				////////////////////////////////////////
 				// write new collected data into index file
@@ -239,8 +210,8 @@ public class TwitterDataCollector {
 				Set<Document> existDocs = indexSearcher.searchDocuments(FieldConstants.DOC_ID, tweetId);
 				
 				if (existDocs.size() > 0) {
-					for (Iterator<Document> itr = existDocs.iterator(); itr.hasNext();) {
-						Document existDoc = (Document) itr.next();
+					for (Iterator<Document> it = existDocs.iterator(); it.hasNext();) {
+						Document existDoc = (Document) it.next();
 						String objects = existDoc.get(FieldConstants.OBJECT);
 						objects = objects + " " + objectId;
 						
@@ -254,7 +225,7 @@ public class TwitterDataCollector {
 						doc.setObject(objectId);
 						doc.setCollectDate(currentDatetime);
 						doc.setDocId(tweetId);
-						doc.setDate(createTime);
+						doc.setDate(createDate);
 						doc.setUserId(fromUserId);
 						doc.setUserName(fromUser);
 						doc.setSubject(clause.getSubject());
@@ -268,8 +239,8 @@ public class TwitterDataCollector {
 			}		
 		}
 		
-		br.close();
-		brColIdSetFile.close();		
+		brData.close();
+		brCollectedIdSet.close();		
 		indexWriter.close();
 	}
 	
@@ -279,8 +250,8 @@ public class TwitterDataCollector {
 		//String objectId = "fta";
 		//String query = "한미FTA OR ISD";
 		
-		String objectId = "gameshutdown";
-		String query = "게임셧다운제";
+		//String objectId = "gameshutdown";
+		//String query = "게임셧다운제";
 
 		//String objectId = "kakaotalk";
 		//String query = "카카오톡 OR 카톡";
@@ -288,14 +259,20 @@ public class TwitterDataCollector {
 		//String objectId = "naverapp";
 		//String query = "네이버앱";
 		
-		List<twitter4j.Tweet> tweets = collector.searchTweets(objectId, query, "2011-02-01", null, 10);
+		//List<twitter4j.Tweet> tweets = collector.searchTweets(objectId, query, "2011-02-01", null, 10);
 		
+		String objectId = "fta";
+		Map<String, Integer> queryMap = new HashMap<String, Integer>();
+		queryMap.put("한미FTA OR ISD", 5);
+		queryMap.put("FTA OR ISD", 5);
+		
+		List<twitter4j.Tweet> tweets = collector.searchTweets(queryMap, "2011-02-01", null);
+				
 		try {
-			collector.writeOutput(objectId, tweets);
+			collector.writeOutput("./bin/data/twitter/collect/", "./bin/data/twitter/index/", "./bin/liwc/LIWC_ko.txt", objectId, tweets, new Date());
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
-	
 	
 }

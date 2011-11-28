@@ -11,7 +11,7 @@ public class Review implements Serializable {
 	private String topic;
 	private String text;
 	private String version;
-	private String createTime;
+	private String createDate;
 	private int rating;
 	
 	public String getReviewId() {
@@ -50,11 +50,11 @@ public class Review implements Serializable {
 	public void setVersion(String version) {
 		this.version = version;
 	}
-	public String getCreateTime() {
-		return createTime;
+	public String getCreateDate() {
+		return createDate;
 	}
-	public void setCreateTime(String createTime) {
-		this.createTime = createTime;
+	public void setCreateDate(String createDate) {
+		this.createDate = createDate;
 	}
 	public int getRating() {
 		return rating;

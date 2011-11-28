@@ -1,243 +1,242 @@
 package com.nhn.socialanalytics.appleappstore.collect;
 
-import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
-import java.net.HttpURLConnection;
-import java.net.URL;
 import java.util.ArrayList;
+import java.util.Date;
+import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.xpath.XPath;
-import javax.xml.xpath.XPathConstants;
-import javax.xml.xpath.XPathExpression;
-import javax.xml.xpath.XPathExpressionException;
-import javax.xml.xpath.XPathFactory;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
+import org.apache.lucene.document.Document;
 
 import com.nhn.socialanalytics.appleappstore.model.Review;
-import com.nhn.socialanalytics.appleappstore.parse.AppStoreParser;
+import com.nhn.socialanalytics.common.Collector;
+import com.nhn.socialanalytics.common.JobLogger;
+import com.nhn.socialanalytics.common.util.DateUtil;
+import com.nhn.socialanalytics.common.util.StringUtil;
+import com.nhn.socialanalytics.miner.index.DetailDoc;
+import com.nhn.socialanalytics.miner.index.DocIndexSearcher;
+import com.nhn.socialanalytics.miner.index.DocIndexWriter;
+import com.nhn.socialanalytics.miner.index.FieldConstants;
+import com.nhn.socialanalytics.nlp.kr.morpheme.MorphemeAnalyzer;
+import com.nhn.socialanalytics.nlp.kr.semantic.SemanticAnalyzer;
+import com.nhn.socialanalytics.nlp.kr.semantic.SemanticClause;
+import com.nhn.socialanalytics.nlp.kr.semantic.SemanticSentence;
+import com.nhn.socialanalytics.nlp.kr.sentiment.SentimentAnalyzer;
 
 
-public class AppStoreDataCollector {
+public class AppStoreDataCollector extends Collector {
+	
+	private static JobLogger logger = JobLogger.getLogger(AppStoreDataCollector.class, "appstore-collect.log");
+	private AppStoreReviewCrawler crawler;	
 
 	public AppStoreDataCollector() {
-		
+		crawler = new AppStoreReviewCrawler();
 	}
 	
-	public List<Review> getReviews(String appStoreId, String appId) {
-		List<Review> reviews = new ArrayList<Review>();
+	public List<Review> getReviews(Set<String> appStores, String appId, int maxPage) {
+		List<Review> result = new ArrayList<Review>();
 		
-		int i = 0;
-		while (true) {
-			List<Review> reviewsForPage = this.getReviewsForPage(appStoreId, appId, i);
-			if (reviewsForPage == null || reviewsForPage.size() == 0)
-				break;
-			
-			reviews.addAll(reviewsForPage);
-			i++;
+		try {           	
+        	logger.info("------------------------------------------------");
+        	logger.info("appStores = " + appStores + " appId: " + appId + " page: " + maxPage);
+         	
+        	for (Iterator<String> it = appStores.iterator(); it.hasNext();) {
+	        	String appStoreId = it.next();
+	        	
+	        	List<Review> reviews = crawler.getReviews(appStoreId, appId, maxPage);
+	            
+	            logger.info("result size [appStoreId:" + appStoreId + "] = " + reviews.size());
+	            result.addAll(reviews);
+        	}
+           
+		} catch (Exception e) {
+			e.printStackTrace();
+			logger.error(e.getMessage(), e);
+		}		
+		
+		return result;
+	}
+	
+	public void writeOutput(String dataDir, String indexDir, String liwcCatFile, 
+			String objectId, List<Review> reviews, Date collectDate) throws IOException, Exception {
+		
+		String currentDatetime = DateUtil.convertDateToString("yyyyMMddHHmmss", new Date());	
+		File docIndexDir = super.getDocIndexDir(indexDir, collectDate);
+		File dataFile = super.getDataFile(dataDir, objectId, collectDate);
+		File newCollectedIdSetFile = super.getIDSetFile(dataDir, objectId);	
+		
+		///////////////////////////
+		// get the id hash set collected previously to compare with new collected data set
+		// and remove duplication
+		Set<String> prevColIdSet = super.loadPrevCollectedHashSet(dataDir, objectId);
+		///////////////////////////
+				
+		MorphemeAnalyzer morph = MorphemeAnalyzer.getInstance();
+		SemanticAnalyzer semantic = SemanticAnalyzer.getInstance();
+		SentimentAnalyzer sentiment = SentimentAnalyzer.getInstance(liwcCatFile);
+		
+		DocIndexWriter indexWriter = new DocIndexWriter(docIndexDir);		
+		DocIndexSearcher indexSearcher = new DocIndexSearcher(super.getDocumentIndexDirsToSearch(indexDir, collectDate));
+		
+		// output data file
+		boolean existDataFile = false;
+		
+		if (dataFile.exists())
+			existDataFile = true;
+		
+		BufferedWriter brData = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(dataFile.getPath(), true), "UTF-8"));
+		
+		//////////////////////////////
+		// new collected id set file
+		BufferedWriter brCollectedIdSet = new BufferedWriter(new OutputStreamWriter(
+				new FileOutputStream(newCollectedIdSetFile.getPath(), false), "UTF-8"));
+		//////////////////////////////
+		
+		if (!existDataFile) {
+			brData.write("site" + DELIMITER +
+					"object_id" + DELIMITER +
+					"collect_date" + DELIMITER +
+					"review_id" + DELIMITER +	
+					"create_date" + DELIMITER +	
+					"author_id" + DELIMITER +		
+					"author_name" + DELIMITER +	
+					"topic" + DELIMITER +	
+					"version" + DELIMITER +	
+					"rating" + DELIMITER +	
+					"text" + DELIMITER +		
+					"text1" + DELIMITER +		
+					"text2" + DELIMITER +		
+					"subjectpredicate" + DELIMITER +		
+					"subject" + DELIMITER +		
+					"predicate" + DELIMITER +		
+					"attribute" + DELIMITER +		
+					"polarity" + DELIMITER +		
+					"polarity_strength"
+					);
+			brData.newLine();			
 		}
 		
-		return reviews;
-	}
-	
-	public String getHTMLContent(String appStoreId, String appId, int pageNo) {
-		String userAgent = "iTunes/9.2 (Macintosh; U; Mac OS X 10.6)";
-		String front = appStoreId;
-		String strUrl = "http://ax.phobos.apple.com.edgesuite.net/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=" + appId + 
-				"&pageNumber=" + pageNo + "&sortOrdering=4&onlyLatestVersion=false&type=Purple+Software"; 
-		String content = "";				
+		// review
+		for (Review review : reviews) {
+			String reviewId = review.getReviewId();
+			String authorId = review.getAuthorId();
+			String authorName = review.getAuthorName();
+			String topic = review.getTopic();
+			String text = review.getText();
+			String version = review.getVersion();
+			String createDate = review.getCreateDate();
+			int rating = review.getRating();
+			
+			/////////////////////////////////
+			// write new collected all id into file
+			brCollectedIdSet.write(reviewId);
+			brCollectedIdSet.newLine();
+			/////////////////////////////////			
+						
+			// if no duplication, write collected data
+			if (!prevColIdSet.contains(reviewId)) {
+				String textEmotiTagged = StringUtil.convertEmoticonToTag(text);
 				
-		try{
-            URL url = new URL(strUrl);
-            HttpURLConnection request = (HttpURLConnection) url.openConnection();
-            
-            System.out.println("url == " + url);
-
-            request.setUseCaches(false);
-            request.setDoOutput(true);
-            request.setDoInput(true);
-
-            request.setFollowRedirects(true);
-            request.setInstanceFollowRedirects(true);
-
-            request.setRequestProperty("X-Apple-Store-Front", front);
-            request.setRequestProperty("User-Agent", userAgent);
-            
-            request.setRequestMethod("POST");
-            OutputStreamWriter post = new OutputStreamWriter(request.getOutputStream());
-            //post.write(data);
-            post.flush();             
-           
-            BufferedReader in = new BufferedReader(new InputStreamReader(request.getInputStream()));
-            String inputLine;
-            while ((inputLine = in.readLine()) != null) {
-                content += inputLine;
-            }
-            System.out.println("content == " + content);  
-            
-            in.close();
-            post.close(); 
-        } catch (IOException e){
-            e.printStackTrace();
-        }
-		
-		return null;
-	}
-	
-	public List<Review> getReviewsForPage(String appStoreId, String appId, int pageNo) {
-		String userAgent = "iTunes/9.2 (Macintosh; U; Mac OS X 10.6)";
-		String front = appStoreId;
-		String strUrl = "http://ax.phobos.apple.com.edgesuite.net/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=" + appId + 
-				"&pageNumber=" + pageNo + "&sortOrdering=4&onlyLatestVersion=false&type=Purple+Software"; 
-		String content = "";
-		
-		List<Review> reviews = new ArrayList<Review>();
+				String text1 = morph.extractTerms(textEmotiTagged);
+				String text2 = morph.extractCoreTerms(textEmotiTagged);
 				
-		try{
-            URL url = new URL(strUrl);
-            HttpURLConnection request = (HttpURLConnection) url.openConnection();
-            
-            System.out.println("url == " + url);
-
-            request.setUseCaches(false);
-            request.setDoOutput(true);
-            request.setDoInput(true);
-
-            //request.setFollowRedirects(true);
-            request.setInstanceFollowRedirects(true);
-
-            request.setRequestProperty("X-Apple-Store-Front", front);
-            request.setRequestProperty("User-Agent", userAgent);
-            
-            request.setRequestMethod("POST");
-            OutputStreamWriter post = new OutputStreamWriter(request.getOutputStream());
-            post.flush();      
-
-        	DocumentBuilderFactory domFactory = DocumentBuilderFactory.newInstance();
-        	domFactory.setNamespaceAware(true); // never forget this!
-            
-            try {
-            	DocumentBuilder builder = domFactory.newDocumentBuilder();
-            	Document doc = builder.parse(request.getInputStream());
-             	
-            	XPathFactory factory = XPathFactory.newInstance();
-                XPath xpath = factory.newXPath();
-                xpath.setNamespaceContext(new AppStoreNamespaceContext());
-                XPathExpression expr = xpath.compile("//pre:View/pre:ScrollView/pre:VBoxView/pre:View/pre:MatrixView/pre:VBoxView/pre:VBoxView/pre:VBoxView");
-                Object result = expr.evaluate(doc, XPathConstants.NODESET);                
-
-                NodeList nodes = (NodeList) result;
-
-                for (int i = 0; i < nodes.getLength(); i++) {
-                	Node node = (Node) nodes.item(i);
-   
-                	// review id
-                	XPathExpression exprReviewId = xpath.compile("./pre:HBoxView/pre:HBoxView/pre:LoadFrameURL");
-                	Object objReviewId = exprReviewId.evaluate(node, XPathConstants.NODE);
-                   	Element nodeReviewId = (Element) objReviewId;
-                	String reviewId = AppStoreParser.extractReviewId(nodeReviewId.getAttribute("url"));
-                 	System.out.println(i + " review id == " + reviewId);      
-
-                	// author id
-                   	XPathExpression exprAuthorId = xpath.compile("./pre:HBoxView/pre:TextView/pre:SetFontStyle/pre:GotoURL");
-                	Object objAuthorId = exprAuthorId.evaluate(node, XPathConstants.NODE);
-                	Element nodeAuthorId = (Element) objAuthorId;
-                	String authorId = AppStoreParser.extractAuthorId(nodeAuthorId.getAttribute("url"));
-                 	System.out.println(i + " author id == " + authorId);      
-                 	
-                	// author name
-                   	XPathExpression exprAuthorName = xpath.compile("./pre:HBoxView/pre:TextView/pre:SetFontStyle/pre:GotoURL/pre:b/text()");
-                	Object objAuthorName = exprAuthorName.evaluate(node, XPathConstants.NODE);
-                	Node nodeAuthorName = (Node) objAuthorName;
-                	String authorName = nodeAuthorName.getNodeValue();
-                	authorName = authorName.trim();
-                	authorName = authorName.replaceAll("\n", " ");
-                	authorName = authorName.replaceAll("\t", " ");
-                	System.out.println(i + " author name == " + authorName); 
-                 	
-                	// topic
-                   	XPathExpression exprTopic = xpath.compile("./pre:HBoxView/pre:TextView/pre:SetFontStyle/pre:b/text()");
-                	Object objTopic = exprTopic.evaluate(node, XPathConstants.NODE);
-                	Node nodeTopic = (Node) objTopic;
-                	String topic = nodeTopic.getNodeValue();
-                 	System.out.println(i + " topic == " + topic);
-                 	
-                	// review text
-                	XPathExpression exprReviewText = xpath.compile("./pre:TextView/pre:SetFontStyle/text()");
-                	Object objReviewText = exprReviewText.evaluate(node, XPathConstants.NODE);
-                	Node nodeReviewText = (Node) objReviewText;
-                	String reviewText = nodeReviewText.getNodeValue();
-                	reviewText = reviewText.trim();
-                	reviewText = reviewText.replaceAll("\n", " ");
-                	reviewText = reviewText.replaceAll("\t", " ");                	
-                	System.out.println(i + " reivew text == " + reviewText); 
-                	
-                	// version and create time
-                   	XPathExpression exprVersion = xpath.compile("./pre:HBoxView/pre:TextView/pre:SetFontStyle/text()");
-                	Object objVersions = exprVersion.evaluate(node, XPathConstants.NODESET);
-                	NodeList nodeVersions = (NodeList) objVersions;
-                	Node nodeVersion = (Node) nodeVersions.item(1);
-                	String version = AppStoreParser.extractVersion(nodeVersion.getNodeValue());
-                 	System.out.println(i + " version == " + version);   
-                	
-                	String createTime = AppStoreParser.extractDate(nodeVersion.getNodeValue());
-                	System.out.println(i + " create time == " + createTime);
-                	
-                	// rating
-                   	XPathExpression exprRating = xpath.compile("./pre:HBoxView/pre:HBoxView/pre:HBoxView");
-                	Object objRating = exprRating.evaluate(node, XPathConstants.NODE);
-                	Element nodeRating = (Element) objRating;
-                	int rating = Integer.valueOf(AppStoreParser.extractNumber(nodeRating.getAttribute("alt")));
-                 	System.out.println(i + " rating == " + rating);
-                 	
-                 	Review review = new Review();
-                 	review.setReviewId(reviewId);                 	
-                 	review.setAuthorId(authorId);
-                 	review.setAuthorName(authorName);
-                 	review.setTopic(topic);
-                 	review.setText(reviewText);
-                 	review.setVersion(version);
-                 	review.setCreateTime(createTime);
-                 	review.setRating(rating);
-                 	
-                 	reviews.add(review);
-                }
-            	
-            } catch (ParserConfigurationException e) {
-            	e.printStackTrace();
-            } catch (SAXException e) {
-            	e.printStackTrace();
-            } catch (XPathExpressionException e) {
-            	e.printStackTrace();
-            }
-
-            post.close();                    
-        } catch (IOException e){
-            e.printStackTrace();
-        }
+				SemanticSentence semanticSentence = semantic.createSemanticSentence(textEmotiTagged);
+				String subjectpredicate = semanticSentence.extractSubjectPredicateLabel();
+				String subject = semanticSentence.extractSubjectLabel();
+				String predicate = semanticSentence.extractPredicateLabel();
+				String attribute = semanticSentence.extractAttributesLabel();
+				
+				semanticSentence = sentiment.analyzePolarity(semanticSentence);
+				double polarity = semanticSentence.getPolarity();
+				double polarityStrength = semanticSentence.getPolarityStrength();
+				
+				// write new collected data into source file
+				brData.write(
+						"appstore" + DELIMITER +
+						objectId + DELIMITER +
+						currentDatetime + DELIMITER +
+						reviewId + DELIMITER +
+						createDate + DELIMITER + 
+						authorId + DELIMITER +		
+						authorName + DELIMITER +	
+						topic + DELIMITER +
+						version + DELIMITER +
+						rating + DELIMITER +
+						text + DELIMITER +		
+						text1 + DELIMITER +		
+						text2 + DELIMITER +		
+						subjectpredicate + DELIMITER +		
+						subject + DELIMITER +		
+						predicate + DELIMITER +		
+						attribute + DELIMITER +		
+						polarity + DELIMITER +		
+						polarityStrength
+						);
+				brData.newLine();
+				
+				////////////////////////////////////////
+				// write new collected data into index file
+				////////////////////////////////////////
+				Set<Document> existDocs = indexSearcher.searchDocuments(FieldConstants.DOC_ID, reviewId);
+				
+				if (existDocs.size() > 0) {
+					for (Iterator<Document> it = existDocs.iterator(); it.hasNext();) {
+						Document existDoc = (Document) it.next();
+						String objects = existDoc.get(FieldConstants.OBJECT);
+						objects = objects + " " + objectId;
+						
+						indexWriter.update(FieldConstants.OBJECT, objects, existDoc);
+				     }
+				}
+				else {
+					for (SemanticClause clause : semanticSentence) {
+						DetailDoc doc = new DetailDoc();
+						doc.setSite("twitter");
+						doc.setObject(objectId);
+						doc.setCollectDate(currentDatetime);
+						doc.setDocId(reviewId);
+						doc.setDate(createDate);
+						doc.setUserId(authorId);
+						doc.setUserName(authorName);
+						doc.setSubject(clause.getSubject());
+						doc.setPredicate(clause.getPredicate());
+						doc.setAttribute(clause.makeAttributesLabel());
+						doc.setText(text);
+						
+						indexWriter.write(doc);
+					}						
+				}			
+			}		
+		}
 		
-		return reviews;
+		brData.close();
+		brCollectedIdSet.close();		
+		indexWriter.close();
 	}
 	
 	public static void main(String[] args) {
 		AppStoreDataCollector collector = new AppStoreDataCollector();
-		String appStoreId = AppStores.getAppStore("Korea");
 		
-		//System.out.println("html == " + collector.getHTMLContent(appStoreId, "443904275", 0));
+		Set<String> appStores = new HashSet<String>();
+		appStores.add(AppStores.getAppStore("Korea"));
+		appStores.add(AppStores.getAppStore("Australia"));
 		
-		collector.getReviewsForPage(appStoreId, "443904275", 0);
-
-		//collector.getReviews(appStoreId, "443904275");		
+		String objectId = "naverline";
+		String appId = "443904275";
+		
+		List<Review> reviews = collector.getReviews(appStores, appId, 2);
+		
+		try {
+			collector.writeOutput("./bin/data/appstore/collect/", "./bin/data/appstore/index/", "./bin/liwc/LIWC_ko.txt", objectId, reviews, new Date());
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 }
