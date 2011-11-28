@@ -56,11 +56,11 @@ public class DocIndexSearcher {
 		DEFAULT_STOPWORDS = CharArraySet.unmodifiableSet(stopSet);
 	}
 	
-	public DocIndexSearcher(String[] indexDirs) throws IOException, CorruptIndexException {
+	public DocIndexSearcher(File[] indexDirs) throws IOException, CorruptIndexException {
 		this(indexDirs, null, null);
 	} 
 	
-	public DocIndexSearcher(String[] indexDirs, String stopwordFile, Set<String> customStopwords) throws IOException, CorruptIndexException {
+	public DocIndexSearcher(File[] indexDirs, String stopwordFile, Set<String> customStopwords) throws IOException, CorruptIndexException {
 		List<IndexReader> indexReaders = getIndexReaders(indexDirs);
 		MultiReader multiReader = new MultiReader(indexReaders.toArray(new IndexReader[0]));  
 		this.searcher = new IndexSearcher(multiReader);	
@@ -75,13 +75,13 @@ public class DocIndexSearcher {
 		sentiment = SentimentAnalyzer.getInstance(LIWC_CAT_FILE);
 	} 
 	
-	private List<IndexReader> getIndexReaders(String[] indexDirs) 
+	private List<IndexReader> getIndexReaders(File[] indexDirs) 
 			throws IOException, CorruptIndexException {
 		List<IndexReader> readers = new ArrayList<IndexReader>();
 		
 		for (int i = 0; i < indexDirs.length; i++) {
 			try {
-				IndexReader reader = IndexReader.open(FSDirectory.open(new File(indexDirs[i])));
+				IndexReader reader = IndexReader.open(FSDirectory.open(indexDirs[i]));
 				readers.add(reader);
 			} catch (IndexNotFoundException e) {
 				System.out.println(e.getMessage());
@@ -292,7 +292,8 @@ public class DocIndexSearcher {
 	
 	public static void main(String[] args) {		
 		try {	
-			String[] indexDirs = { "./bin/twitter/index/20111123" };
+			File[] indexDirs = new File[1];
+			indexDirs[0] = new File("./bin/data/twitter/index/20111123");
 			String object = "fta";
 			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs);
 			

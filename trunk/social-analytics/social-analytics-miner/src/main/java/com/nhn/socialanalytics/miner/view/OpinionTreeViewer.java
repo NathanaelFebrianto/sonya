@@ -18,6 +18,7 @@ import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.Point2D;
+import java.io.File;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -379,9 +380,10 @@ public class OpinionTreeViewer extends JApplet {
 	public static void main(String[] args) {
 		
 		try {
-			String[] indexDirs = { "./bin/twitter/index/20111124" };
+			File[] indexDirs = new File[1];
+			indexDirs[0] = new File("./bin/data/appstore/index/20111128");
 			
-			String object = "fta";
+			String object = "naverline";
 			
 			Set<String> customStopwordSet = new HashSet<String>();
 			customStopwordSet.add("fta");
@@ -400,12 +402,12 @@ public class OpinionTreeViewer extends JApplet {
 			/* target term ==> PREDICATE   */
 			/////////////////////////////////
 
-			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.PREDICATE, 20, true);					
+			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.PREDICATE, 2, true);					
 			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
 				String term = entry.getKey();
 			
-				TargetTerm subjectTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 20);
-				TargetTerm attributeTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.ATTRIBUTE, term, 20);
+				TargetTerm subjectTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 2);
+				TargetTerm attributeTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.ATTRIBUTE, term, 2);
 				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
 				termMap.put(FieldConstants.SUBJECT, subjectTerm);
 				termMap.put(FieldConstants.ATTRIBUTE, attributeTerm);

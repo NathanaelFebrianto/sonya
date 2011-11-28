@@ -43,13 +43,12 @@ public class DocIndexWriter {
 		MY_STOP_WORDS_SET = CharArraySet.unmodifiableSet(stopSet);
 	}
 	
-	public DocIndexWriter(String outputDir) throws IOException {
+	public DocIndexWriter(File outputDir) throws IOException {
 		
-		File file = new File(outputDir);
-		if (!file.exists())
-			file.mkdir();
+		if (!outputDir.exists())
+			outputDir.mkdir();
 		
-		indexDir = FSDirectory.open(file);	
+		indexDir = FSDirectory.open(outputDir);	
 		
 		//Analyzer luceneAnalyzer = new StopAnalyzer(Version.LUCENE_33, MY_STOP_WORDS_SET);	// removes numbers too
 		Analyzer luceneAnalyzer = new StandardAnalyzer(Version.LUCENE_33, MY_STOP_WORDS_SET);
