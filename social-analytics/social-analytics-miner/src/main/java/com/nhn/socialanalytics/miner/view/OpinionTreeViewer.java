@@ -381,17 +381,16 @@ public class OpinionTreeViewer extends JApplet {
 		
 		try {
 			File[] indexDirs = new File[1];
-			indexDirs[0] = new File("./bin/data/me2day/index/20111129");
+			indexDirs[0] = new File("./bin/data/androidmarket/index/20111129");
 			
-			String object = "naverline";
+			String object = "naverapp";
 			
 			Set<String> customStopwordSet = new HashSet<String>();
-			customStopwordSet.add("fta");
-			customStopwordSet.add("한미fta");
-			customStopwordSet.add("한미");
-			customStopwordSet.add("갤럭시노트");
-			customStopwordSet.add("갤럭시");
-			//customStopwordSet.add("게임셧다운제");
+//			customStopwordSet.add("fta");
+//			customStopwordSet.add("한미fta");
+//			customStopwordSet.add("한미");
+//			customStopwordSet.add("갤럭시노트");
+//			customStopwordSet.add("갤럭시");
 
 			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs, "./conf/stopword.txt", customStopwordSet);
 			System.out.println("stopwords == " + searcher.getStopwords());
@@ -407,7 +406,7 @@ public class OpinionTreeViewer extends JApplet {
 				String term = entry.getKey();
 			
 				TargetTerm subjectTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 3);
-				TargetTerm attributeTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.ATTRIBUTE, term, 4);
+				TargetTerm attributeTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.ATTRIBUTE, term, 3);
 				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
 				termMap.put(FieldConstants.SUBJECT, subjectTerm);
 				termMap.put(FieldConstants.ATTRIBUTE, attributeTerm);
