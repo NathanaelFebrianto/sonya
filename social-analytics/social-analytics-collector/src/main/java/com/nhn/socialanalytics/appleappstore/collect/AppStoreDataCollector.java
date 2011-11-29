@@ -191,7 +191,7 @@ public class AppStoreDataCollector extends Collector {
 				else {
 					for (SemanticClause clause : semanticSentence) {
 						DetailDoc doc = new DetailDoc();
-						doc.setSite("twitter");
+						doc.setSite("appstore");
 						doc.setObject(objectId);
 						doc.setCollectDate(currentDatetime);
 						doc.setDocId(reviewId);

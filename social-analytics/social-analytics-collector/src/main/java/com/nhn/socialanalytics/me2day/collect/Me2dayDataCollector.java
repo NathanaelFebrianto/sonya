@@ -141,11 +141,10 @@ public class Me2dayDataCollector extends Collector {
 						
 			// if no duplication, write collected data
 			if (!prevColIdSet.contains(postId)) {
-				String body1 = Me2dayParser.extractContent(body, "POST");			
-				String tagText1 = Me2dayParser.extractContent("TAG", tagText);
+				String text = Me2dayParser.extractContent(body, "POST");
+				String tagText1 = Me2dayParser.extractContent("TAG", tagText);				
 				
-				String text = Me2dayParser.stripHTML(body1);
-				String textEmotiTagged = Me2dayParser.convertEmoticonToTag(body1);
+				String textEmotiTagged = Me2dayParser.convertEmoticonToTag(text);
 				
 				String text1 = morph.extractTerms(textEmotiTagged);
 				String text2 = morph.extractCoreTerms(textEmotiTagged);
@@ -162,7 +161,7 @@ public class Me2dayDataCollector extends Collector {
 				
 				// write new collected data into source file
 				brData.write(
-						"twitter" + DELIMITER +
+						"me2day" + DELIMITER +
 						objectId + DELIMITER +
 						currentDatetime + DELIMITER +
 						postId + DELIMITER +
@@ -202,7 +201,7 @@ public class Me2dayDataCollector extends Collector {
 				else {
 					for (SemanticClause clause : semanticSentence) {
 						DetailDoc doc = new DetailDoc();
-						doc.setSite("twitter");
+						doc.setSite("me2day");
 						doc.setObject(objectId);
 						doc.setCollectDate(currentDatetime);
 						doc.setDocId(postId);
@@ -228,15 +227,20 @@ public class Me2dayDataCollector extends Collector {
 	public static void main(String[] args) {
 		Me2dayDataCollector collector = new Me2dayDataCollector();
 
-		String objectId = "fta";
+//		String objectId = "fta";
+//		Map<String, Integer> queryMap = new HashMap<String, Integer>();
+//		queryMap.put("한미FTA ISD", 5);
+//		queryMap.put("FTA ISD", 5);
+		
+		String objectId = "naverline";
 		Map<String, Integer> queryMap = new HashMap<String, Integer>();
-		queryMap.put("한미FTA ISD", 5);
-		queryMap.put("FTA ISD", 5);
+		queryMap.put("네이버라인", 10);
+		queryMap.put("네이버LINE", 10);
 		
 		Date since = DateUtil.addDay(new Date(), -30);
 		Date until = DateUtil.addDay(new Date(), +1);
 		
-		List<Post> posts = collector.searchPosts(queryMap, Me2dayCrawler.TARGET_ALL, since, until);
+		List<Post> posts = collector.searchPosts(queryMap, Me2dayCrawler.TARGET_BODY, since, until);
 				
 		try {
 			collector.writeOutput("./bin/data/me2day/collect/", "./bin/data/me2day/index/", "./bin/liwc/LIWC_ko.txt", objectId, posts, new Date());
