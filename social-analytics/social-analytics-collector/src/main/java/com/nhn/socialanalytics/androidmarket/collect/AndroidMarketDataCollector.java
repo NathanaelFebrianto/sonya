@@ -207,8 +207,8 @@ public class AndroidMarketDataCollector extends Collector {
 	
 	public static void main(String[] args) {
 		
-		String loginAccount = "louiezzang@gmail.com";
-		String loginPasswd = "bae120809";
+		String loginAccount = "xxx@gmail.com";
+		String loginPasswd = "xxx";
 		AndroidMarketDataCollector collector = new AndroidMarketDataCollector(loginAccount, loginPasswd);	
 		
 		Set<Locale> locales = new HashSet<Locale>();
