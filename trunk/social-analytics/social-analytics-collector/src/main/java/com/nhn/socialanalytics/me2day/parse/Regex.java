@@ -57,7 +57,9 @@ public class Regex {
 	  public static final int VALID_URL_GROUP_QUERY_STRING = 7;
 	  
 	  public static final String HTML_TAG_HREF_STRING =  "<\\s*a[^>]*>(.*?)<\\s*/\\s*a>"; 
-	  public static final Pattern HTML_TAG_HREF = Pattern.compile(HTML_TAG_HREF_STRING, Pattern.CASE_INSENSITIVE);	  
+	  public static final Pattern HTML_TAG_HREF = Pattern.compile(HTML_TAG_HREF_STRING, Pattern.CASE_INSENSITIVE);	  	  
+	  public static final Pattern HTML_TAG_HREF_START = Pattern.compile("<\\s*a[^>]*>", Pattern.CASE_INSENSITIVE);
+	  public static final Pattern HTML_TAG_HREF_END = Pattern.compile("<\\s*/\\s*a>", Pattern.CASE_INSENSITIVE);
 	  
 	  public static final String HTML_TAG_STRING = "<(?:.|\\s)*?>";
 	  public static final Pattern HTML_TAG = Pattern.compile(HTML_TAG_STRING, Pattern.CASE_INSENSITIVE);

@@ -145,7 +145,7 @@ public class AndroidMarketDataCollector extends Collector {
 				
 				// write new collected data into source file
 				brData.write(
-						"appstore" + DELIMITER +
+						"androidmarket" + DELIMITER +
 						objectId + DELIMITER +
 						currentDatetime + DELIMITER +
 						commentId + DELIMITER +
@@ -182,7 +182,7 @@ public class AndroidMarketDataCollector extends Collector {
 				else {
 					for (SemanticClause clause : semanticSentence) {
 						DetailDoc doc = new DetailDoc();
-						doc.setSite("twitter");
+						doc.setSite("androidmarket");
 						doc.setObject(objectId);
 						doc.setCollectDate(currentDatetime);
 						doc.setDocId(commentId);

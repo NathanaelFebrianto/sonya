@@ -11,16 +11,33 @@ import com.nhn.socialanalytics.common.util.StringUtil;
 import com.nhn.socialanalytics.me2day.parse.Extractor;
 
 public class Me2dayParser {
-
 	
-	public static String extractContent(String body, String type) {
-		body = Me2dayParser.removeReservedWords(type, body);
-		body = Me2dayParser.removeMe2dayUrls(body);
-		body = StringUtil.removeUnsupportedCharacters(body);
-		//body = StringUtil.convertEmoticonToTag(body);
-        
+	public static String extractContent(String body, String type) {		
 		body = body.replaceAll("\n", " ");
 		body = body.replaceAll("\t", " ");
+		body = body.replaceAll("&gt;", "");
+		body = body.replaceAll("&lt;", "");
+		body = body.replaceAll("&amp;", "");
+		body = removeReservedWords(type, body);
+		body = removeMe2dayUrls(body);
+		body = stripHTML(body);
+		body = StringUtil.removeUnsupportedCharacters(body);
+		
+		Pattern EXTRACTION_PATTERN = Pattern.compile("http://(.*?)\\s|http://(.*?)\\Z");		
+		StringBuffer buffer = new StringBuffer(body);		
+		Matcher matcher = EXTRACTION_PATTERN.matcher(buffer);		
+	
+        while (matcher.find()) {
+            for (int i = 1; i <= matcher.groupCount(); i++) {
+                if (matcher.group(i) != null) {
+                	if (i == 1)
+                  		try { body = body.replaceAll("http://"+matcher.group(i)+"\\s", ""); } catch (Exception e) { e.printStackTrace(); }
+                		
+                	if (i == 2)
+                		try { body = body.replaceAll("http://"+matcher.group(i)+"\\Z", ""); } catch (Exception e) { e.printStackTrace(); }
+                }
+            }            
+        }
          
         return body;
 	}

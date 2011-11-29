@@ -67,8 +67,13 @@ public class Extractor {
 	}
 	
 	public String stripHTML(String text) {
-		Matcher matcher = Regex.HTML_TAG.matcher(text);
-		return matcher.replaceAll("");
+		Matcher matcher1 = Regex.HTML_TAG_HREF_START.matcher(text);
+		text = matcher1.replaceAll("");
+		Matcher matcher2 = Regex.HTML_TAG_HREF_END.matcher(text);
+		text = matcher2.replaceAll("");
+		
+		Matcher matcher3 = Regex.HTML_TAG.matcher(text);
+		return matcher3.replaceAll("");
 	}
 	
 	public String replaceStrings(String text, String regex, String newStr) {
@@ -121,7 +126,7 @@ public class Extractor {
 		
 		// <\\s*a[^>]*>(.*?)<\\s*/\\s*a>
 		// a href='http://me2day.net
-		String text1 = "<a href='http://me2day.net/enigma2k'>드래슬리</a> 전 좋다기보단 넘 멋쪄요<a href='http://me2day.net/enigma2k'>드래슬리</a>";
+		String text1 = "<a href='http://me2day.net/enigma2k'>드래슬리</a> 전 좋다기보단 넘 멋쪄요<a href='http://me2day.net/enigma2k'>라라라</a>";
 		Pattern pattern = Pattern.compile("<\\s*a href='http://me2day.net[^>]*>(.*?)<\\s*/\\s*a>", Pattern.CASE_INSENSITIVE);
 		Matcher matcher = pattern.matcher(text1);
 		while (matcher.find()) {
