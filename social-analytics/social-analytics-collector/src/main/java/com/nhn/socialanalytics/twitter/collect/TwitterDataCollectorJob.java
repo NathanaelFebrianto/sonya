@@ -37,7 +37,7 @@ public class TwitterDataCollectorJob implements Job {
 			System.out.println("Quartz says: " + jobName + " executing at " + startTime);
 			logger.info("Quartz says: " + jobName + " executing at " + startTime);
 			
-			String createStartDate = DateUtil.convertDateToString("yyyy-MM-dd", DateUtil.addDay(new Date(), -1));
+			Date sinceDate = DateUtil.addDay(new Date(), -1);
 
 			TwitterDataCollector collector = new TwitterDataCollector();
 			
@@ -58,7 +58,7 @@ public class TwitterDataCollectorJob implements Job {
 				queryMap.put("한미FTA OR ISD", 5);
 				queryMap.put("FTA OR ISD", 5);
 				
-				List<twitter4j.Tweet> tweets = collector.searchTweets(queryMap, createStartDate, null);
+				List<twitter4j.Tweet> tweets = collector.searchTweets(queryMap, sinceDate, null);
 				
 				try {
 					String dataDir = Config.getProperty("TWITTER_SOURCE_DATA_DIR");

@@ -7,7 +7,9 @@ import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -28,9 +30,26 @@ import com.nhn.socialanalytics.appleappstore.model.Review;
 import com.nhn.socialanalytics.appleappstore.parse.AppStoreParser;
 
 
-public class AppStoreReviewCrawler {
+public class AppStoreCrawler {
 	
-	public AppStoreReviewCrawler() {}
+	public AppStoreCrawler() {}
+	
+	public List<Review> getReviews(Set<String> appStores, String appId, int maxPage) {
+		List<Review> result = new ArrayList<Review>();
+		
+		System.out.println("appStores = " + appStores + " appId: " + appId + " maxPage: " + maxPage);
+     	
+    	for (Iterator<String> it = appStores.iterator(); it.hasNext();) {
+        	String appStoreId = it.next();
+        	
+        	List<Review> reviews = this.getReviews(appStoreId, appId, maxPage);
+            
+        	System.out.println("result size [appStoreId:" + appStoreId + "] = " + reviews.size());
+            result.addAll(reviews);
+    	}
+		
+		return result;
+	}
 	
 	public List<Review> getReviews(String appStoreId, String appId, int maxPage) {
 		List<Review> reviews = new ArrayList<Review>();
@@ -253,7 +272,7 @@ public class AppStoreReviewCrawler {
 	}
 	
 	public static void main(String[] args) {
-		AppStoreReviewCrawler crawler = new AppStoreReviewCrawler();
+		AppStoreCrawler crawler = new AppStoreCrawler();
 		String appStoreId = AppStores.getAppStore("Korea");
 		
 		//System.out.println("html == " + crawler.getHTMLContent(appStoreId, "443904275", 0));

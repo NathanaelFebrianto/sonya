@@ -1,8 +1,10 @@
 package com.nhn.socialanalytics.androidmarket.collect;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
+import java.util.Set;
 
 import com.gc.android.market.api.MarketSession;
 import com.gc.android.market.api.MarketSession.Callback;
@@ -23,6 +25,41 @@ public class AndroidMarketCrawler {
 		session = new MarketSession();
 		session.login(loginAccount, loginPasswd);
 		//session.getContext().setAndroidId("3774d56d682e549c");
+	}
+	
+	public void searchApps(Locale locale, String appId, int maxPage) {
+		int startIndex = 0;
+		for (int page = 0; page < maxPage; page++) {
+			startIndex = 10 * page;
+			searchAppsPerPage(locale, appId, startIndex);			
+		}		
+	}
+	
+	public List<Comment> getAppComments(Set<Locale> locales, String appId, int maxPage) {		
+		List<Comment> commentList = new ArrayList<Comment>();
+		
+		System.out.println("locales = " + locales + " appId: " + appId + " maxPage: " + maxPage);
+		
+    	for (Iterator<Locale> it = locales.iterator(); it.hasNext();) {
+        	Locale locale = it.next();	        	
+        	commentList = this.getAppComments(locale, appId, maxPage, false);	            
+            System.out.println("result size [locale:" + locale + "] = " + commentList.size());
+    	}
+
+		return commentList;
+	}
+	
+	public List<Comment> getAppComments(Locale locale, String appId, int maxPage, boolean clearList) {
+		if (clearList)
+			commentList.clear();
+		
+		int startIndex = 0;
+		for (int page = 0; page < maxPage; page++) {
+			startIndex = 10 * page;
+			commentList = getAppCommentsPerPage(locale, appId, startIndex);			
+		}
+		
+		return commentList;
 	}
 	
 	public void searchAppsPerPage(Locale locale, String query, int startIndex) {
@@ -84,24 +121,4 @@ public class AndroidMarketCrawler {
 		return commentList;
 	}
 	
-	public void searchApps(Locale locale, String appId, int maxPage) {
-		int startIndex = 0;
-		for (int page = 0; page < maxPage; page++) {
-			startIndex = 10 * page;
-			searchAppsPerPage(locale, appId, startIndex);			
-		}		
-	}
-	
-	public List<Comment> getAppComments(Locale locale, String appId, int maxPage, boolean clearList) {
-		if (clearList)
-			commentList.clear();
-		
-		int startIndex = 0;
-		for (int page = 0; page < maxPage; page++) {
-			startIndex = 10 * page;
-			commentList = getAppCommentsPerPage(locale, appId, startIndex);			
-		}
-		
-		return commentList;
-	}
 }

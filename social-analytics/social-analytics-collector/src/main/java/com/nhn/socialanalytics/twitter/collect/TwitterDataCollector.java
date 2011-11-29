@@ -45,7 +45,7 @@ public class TwitterDataCollector extends Collector {
 		twitter = new TwitterFactory().getInstance();
 	}
 	
-	public List<twitter4j.Tweet> searchTweets(Map<String, Integer> queryMap, String since, String until) {
+	public List<twitter4j.Tweet> searchTweets(Map<String, Integer> queryMap, Date since, Date until) {
 		List<twitter4j.Tweet> result = new ArrayList<twitter4j.Tweet>();
 		Set<String> idHashSet = new HashSet<String>();
 		
@@ -68,14 +68,19 @@ public class TwitterDataCollector extends Collector {
 		return result;
 	}
 	
-	public List<twitter4j.Tweet> searchTweets(String strQuery, String since, String until, int maxPage) {
+	public List<twitter4j.Tweet> searchTweets(String strQuery, Date since, Date until, int maxPage) {
 		List<twitter4j.Tweet> tweets = new ArrayList<twitter4j.Tweet>();
 		
-		try {           	
+		try {			
         	Query query = new Query(strQuery);
         	query.rpp(100);
-        	query.setSince(since);
         	
+        	if (since != null)
+        		query.setSince(DateUtil.convertDateToString("yyyy-MM-dd", since));
+         	
+        	if (until != null)
+        		query.setUntil(DateUtil.convertDateToString("yyyy-MM-dd", until));
+         	
         	logger.info("------------------------------------------------");
         	logger.info("query = " + query.getQuery() + " since: " + since + " page: " + maxPage);
          	
@@ -266,7 +271,8 @@ public class TwitterDataCollector extends Collector {
 		queryMap.put("한미FTA OR ISD", 5);
 		queryMap.put("FTA OR ISD", 5);
 		
-		List<twitter4j.Tweet> tweets = collector.searchTweets(queryMap, "2011-02-01", null);
+		Date since = DateUtil.addDay(new Date(), -30);
+		List<twitter4j.Tweet> tweets = collector.searchTweets(queryMap, since, null);
 				
 		try {
 			collector.writeOutput("./bin/data/twitter/collect/", "./bin/data/twitter/index/", "./bin/liwc/LIWC_ko.txt", objectId, tweets, new Date());
