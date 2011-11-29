@@ -392,7 +392,8 @@ public class OpinionTreeViewer extends JApplet {
 			customStopwordSet.add("갤럭시노트");
 			customStopwordSet.add("갤럭시");
 
-			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs, "./conf/stopword.txt", customStopwordSet);
+			File stopwordFile = new File("./conf/stopword.txt");
+			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs, stopwordFile, customStopwordSet);
 			System.out.println("stopwords == " + searcher.getStopwords());
 			
 			OpinionGraphModeller modeller = new OpinionGraphModeller();
