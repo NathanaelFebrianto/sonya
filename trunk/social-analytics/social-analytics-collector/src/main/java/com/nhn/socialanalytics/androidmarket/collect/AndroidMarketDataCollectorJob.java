@@ -25,7 +25,8 @@ public class AndroidMarketDataCollectorJob implements Job {
 		try {
 			// get job data map
 			JobDataMap jobDataMap = context.getJobDetail().getJobDataMap();	
-			//String param = jobDataMap.getString("key");			
+			String loginAccount = jobDataMap.getString("login.account");
+			String loginPasswd = jobDataMap.getString("login.passwd");	
 			//logger.info("@PARAM[key] == " + param);
 			
 			// start time
@@ -37,8 +38,6 @@ public class AndroidMarketDataCollectorJob implements Job {
 			System.out.println("Quartz says: " + jobName + " executing at " + startTime);
 			logger.info("Quartz says: " + jobName + " executing at " + startTime);
 
-			String loginAccount = "xxx@gmail.com";
-			String loginPasswd = "xxx";
 			AndroidMarketDataCollector collector = new AndroidMarketDataCollector(loginAccount, loginPasswd);	
 			
 			Set<Locale> locales = new HashSet<Locale>();

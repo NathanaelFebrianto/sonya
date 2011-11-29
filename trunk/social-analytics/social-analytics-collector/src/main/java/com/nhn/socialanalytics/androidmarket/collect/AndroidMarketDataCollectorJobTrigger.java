@@ -1,6 +1,7 @@
 package com.nhn.socialanalytics.androidmarket.collect;
 
 import java.util.Date;
+import java.util.Map;
 
 import org.quartz.CronTrigger;
 import org.quartz.JobDetail;
@@ -15,7 +16,7 @@ public class AndroidMarketDataCollectorJobTrigger {
 	// logger
 	private static JobLogger logger = JobLogger.getLogger(AndroidMarketDataCollectorJobTrigger.class, "androidmarket-collect.log");
 	
-	public void run() throws Exception {
+	public void run(String[] args) throws Exception {
 
 		System.out.println("------- Initializing -------------------");
 		logger.info("------- Initializing -------------------");
@@ -39,8 +40,9 @@ public class AndroidMarketDataCollectorJobTrigger {
         String schedule = Config.getProperty("ANDROIDMARKET_COLLECT_SCHEDULE");
 		JobDetail job = new JobDetail("AndroidMarketDataCollectorJob", "androidmarket", AndroidMarketDataCollectorJob.class);
 		
-		//Map map = job.getJobDataMap();
-		//map.put("key", "value");
+		Map map = job.getJobDataMap();
+		map.put("login.account", args[0]);
+		map.put("login.passwd", args[1]);
 		
         CronTrigger trigger = new CronTrigger("AndroidMarketDataCollectorJobTrigger", "androidmarket", "AndroidMarketDataCollectorJob",
                 "androidmarket", schedule);	//second, minute, hour, dayOfMonth, month, year
@@ -70,6 +72,6 @@ public class AndroidMarketDataCollectorJobTrigger {
 
 	public static void main(String[] args) throws Exception {
 		AndroidMarketDataCollectorJobTrigger trigger = new AndroidMarketDataCollectorJobTrigger();
-		trigger.run();
+		trigger.run(args);
 	}	
 }
