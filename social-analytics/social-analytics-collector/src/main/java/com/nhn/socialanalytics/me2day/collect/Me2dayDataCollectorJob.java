@@ -42,7 +42,8 @@ public class Me2dayDataCollectorJob implements Job {
 			/////////////////////////////
 			String objectId1 = "naverline";
 			Map<String, Integer> queryMap1 = new HashMap<String, Integer>();
-			queryMap1.put("네이버라인 OR 네이버LINE", 5);
+			queryMap1.put("네이버라인", 5);
+			queryMap1.put("네이버LINE", 5);
 			
 			Date sinceDate1 = DateUtil.addDay(new Date(), -30);
 			Date untilDate1 = DateUtil.addDay(new Date(), +1);
@@ -64,8 +65,8 @@ public class Me2dayDataCollectorJob implements Job {
 			/////////////////////////////
 			String objectId2 = "fta";
 			Map<String, Integer> queryMap2 = new HashMap<String, Integer>();
-			queryMap1.put("한미FTA", 10);
-			queryMap1.put("FTA ISD", 10);
+			queryMap2.put("한미FTA", 10);
+			queryMap2.put("FTA ISD", 10);
 			
 			Date sinceDate2 = DateUtil.addDay(new Date(), -1);
 			Date untilDate2 = DateUtil.addDay(new Date(), +1);
