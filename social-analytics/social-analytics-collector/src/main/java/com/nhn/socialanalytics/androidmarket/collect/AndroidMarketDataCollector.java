@@ -36,6 +36,11 @@ public class AndroidMarketDataCollector extends Collector {
 	private AndroidMarketCrawler crawler;	
 	
 	public AndroidMarketDataCollector(String loginAccount, String loginPasswd) {
+		this(loginAccount, loginPasswd, null);
+	}
+	
+	public AndroidMarketDataCollector(String loginAccount, String loginPasswd, File spamFilterFile) {
+		super(spamFilterFile);
 		crawler = new AndroidMarketCrawler(loginAccount, loginPasswd);
 	}
 	
@@ -98,6 +103,7 @@ public class AndroidMarketDataCollector extends Collector {
 					"author_id" + DELIMITER +		
 					"author_name" + DELIMITER +	
 					"rating" + DELIMITER +	
+					"is_spam" + DELIMITER +	
 					"text" + DELIMITER +		
 					"text1" + DELIMITER +		
 					"text2" + DELIMITER +		
@@ -128,6 +134,7 @@ public class AndroidMarketDataCollector extends Collector {
 						
 			// if no duplication, write collected data
 			if (!prevColIdSet.contains(commentId)) {
+				boolean isSpam = super.isSpam(text);
 				String textEmotiTagged = StringUtil.convertEmoticonToTag(text);
 				
 				String text1 = morph.extractTerms(textEmotiTagged);
@@ -151,8 +158,9 @@ public class AndroidMarketDataCollector extends Collector {
 						commentId + DELIMITER +
 						createDate + DELIMITER + 
 						authorId + DELIMITER +		
-						authorName + DELIMITER +	
+						authorName + DELIMITER +
 						rating + DELIMITER +
+						isSpam + DELIMITER +
 						text + DELIMITER +		
 						text1 + DELIMITER +		
 						text2 + DELIMITER +		
@@ -168,35 +176,37 @@ public class AndroidMarketDataCollector extends Collector {
 				////////////////////////////////////////
 				// write new collected data into index file
 				////////////////////////////////////////
-				Set<Document> existDocs = indexSearcher.searchDocuments(FieldConstants.DOC_ID, commentId);
-				
-				if (existDocs.size() > 0) {
-					for (Iterator<Document> it = existDocs.iterator(); it.hasNext();) {
-						Document existDoc = (Document) it.next();
-						String objects = existDoc.get(FieldConstants.OBJECT);
-						objects = objects + " " + objectId;
-						
-						indexWriter.update(FieldConstants.OBJECT, objects, existDoc);
-				     }
-				}
-				else {
-					for (SemanticClause clause : semanticSentence) {
-						DetailDoc doc = new DetailDoc();
-						doc.setSite("androidmarket");
-						doc.setObject(objectId);
-						doc.setCollectDate(currentDatetime);
-						doc.setDocId(commentId);
-						doc.setDate(createDate);
-						doc.setUserId(authorId);
-						doc.setUserName(authorName);
-						doc.setSubject(clause.getSubject());
-						doc.setPredicate(clause.getPredicate());
-						doc.setAttribute(clause.makeAttributesLabel());
-						doc.setText(text);
-						
-						indexWriter.write(doc);
-					}						
-				}			
+				if (!isSpam) {
+					Set<Document> existDocs = indexSearcher.searchDocuments(FieldConstants.DOC_ID, commentId);
+					
+					if (existDocs.size() > 0) {
+						for (Iterator<Document> it = existDocs.iterator(); it.hasNext();) {
+							Document existDoc = (Document) it.next();
+							String objects = existDoc.get(FieldConstants.OBJECT);
+							objects = objects + " " + objectId;
+							
+							indexWriter.update(FieldConstants.OBJECT, objects, existDoc);
+					     }
+					}
+					else {
+						for (SemanticClause clause : semanticSentence) {
+							DetailDoc doc = new DetailDoc();
+							doc.setSite("androidmarket");
+							doc.setObject(objectId);
+							doc.setCollectDate(currentDatetime);
+							doc.setDocId(commentId);
+							doc.setDate(createDate);
+							doc.setUserId(authorId);
+							doc.setUserName(authorName);
+							doc.setSubject(clause.getSubject());
+							doc.setPredicate(clause.getPredicate());
+							doc.setAttribute(clause.makeAttributesLabel());
+							doc.setText(text);
+							
+							indexWriter.write(doc);
+						}						
+					}					
+				}		
 			}		
 		}
 		

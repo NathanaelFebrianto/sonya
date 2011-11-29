@@ -1,5 +1,6 @@
 package com.nhn.socialanalytics.appleappstore.collect;
 
+import java.io.File;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
@@ -36,7 +37,8 @@ public class AppStoreDataCollectorJob implements Job {
 			System.out.println("Quartz says: " + jobName + " executing at " + startTime);
 			logger.info("Quartz says: " + jobName + " executing at " + startTime);
 
-			AppStoreDataCollector collector = new AppStoreDataCollector();	
+			File spamFilterFile = new File(Config.getProperty("COLLECT_SPAM_FILTER_FILE"));
+			AppStoreDataCollector collector = new AppStoreDataCollector(spamFilterFile);	
 			
 			Set<String> appStores = new HashSet<String>();
 			appStores.add(AppStores.getAppStore("Korea"));
@@ -71,6 +73,24 @@ public class AppStoreDataCollectorJob implements Job {
 				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
 				
 				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId2, reviews2, startTime);
+				
+			} catch (Exception e) {
+				e.printStackTrace();
+				logger.error(e.getMessage(), e);
+			}
+			
+			/////////////////////////////
+			String objectId3 = "kakaotalk";
+			String appId3 = "362057947";
+			
+			List<Review> reviews3 = collector.getReviews(appStores, appId3, 5);
+			
+			try {
+				String dataDir = Config.getProperty("APPSTORE_SOURCE_DATA_DIR");
+				String indexDir = Config.getProperty("APPSTORE_INDEX_DIR");
+				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
+				
+				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId3, reviews3, startTime);
 				
 			} catch (Exception e) {
 				e.printStackTrace();
