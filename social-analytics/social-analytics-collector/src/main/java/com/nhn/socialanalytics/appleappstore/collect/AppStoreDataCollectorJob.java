@@ -1,24 +1,24 @@
-package com.nhn.socialanalytics.twitter.collect;
+package com.nhn.socialanalytics.appleappstore.collect;
 
 import java.util.Date;
-import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
-import java.util.Map;
+import java.util.Set;
 
 import org.quartz.Job;
 import org.quartz.JobDataMap;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 
+import com.nhn.socialanalytics.appleappstore.model.Review;
 import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.JobLogger;
-import com.nhn.socialanalytics.common.util.DateUtil;
 
-public class TwitterDataCollectorJob implements Job {
+public class AppStoreDataCollectorJob implements Job {
 	// logger
-	private static JobLogger logger = JobLogger.getLogger(TwitterDataCollectorJob.class, "twitter-collect.log");
+	private static JobLogger logger = JobLogger.getLogger(AppStoreDataCollectorJob.class, "appstore-collect.log");
 	
-	public TwitterDataCollectorJob() { }
+	public AppStoreDataCollectorJob() { }
 	
 	public void execute(JobExecutionContext context) throws JobExecutionException {
 		try {
@@ -34,25 +34,25 @@ public class TwitterDataCollectorJob implements Job {
 			// date and time that it is running
 			String jobName = context.getJobDetail().getFullName();
 			System.out.println("Quartz says: " + jobName + " executing at " + startTime);
-			logger.info("Quartz says: " + jobName + " executing at " + startTime);			
+			logger.info("Quartz says: " + jobName + " executing at " + startTime);
 
-			TwitterDataCollector collector = new TwitterDataCollector();
+			AppStoreDataCollector collector = new AppStoreDataCollector();	
 			
-			Date sinceDate = DateUtil.addDay(new Date(), -1);
+			Set<String> appStores = new HashSet<String>();
+			appStores.add(AppStores.getAppStore("Korea"));
 			
-			/////////////////////////////
+			/////////////////////////////			
 			String objectId1 = "naverline";
-			Map<String, Integer> queryMap1 = new HashMap<String, Integer>();
-			queryMap1.put("네이버라인 OR 네이버LINE", 5);
+			String appId1 = "443904275";
 			
-			List<twitter4j.Tweet> tweets1 = collector.searchTweets(queryMap1, sinceDate, null);
+			List<Review> reviews1 = collector.getReviews(appStores, appId1, 5);
 			
 			try {
-				String dataDir = Config.getProperty("TWITTER_SOURCE_DATA_DIR");
-				String indexDir = Config.getProperty("TWITTER_INDEX_DIR");
+				String dataDir = Config.getProperty("APPSTORE_SOURCE_DATA_DIR");
+				String indexDir = Config.getProperty("APPSTORE_INDEX_DIR");
 				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
 				
-				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId1, tweets1, startTime);
+				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId1, reviews1, startTime);
 				
 			} catch (Exception e) {
 				e.printStackTrace();
@@ -60,18 +60,17 @@ public class TwitterDataCollectorJob implements Job {
 			}
 
 			/////////////////////////////
-			String objectId2 = "fta";
-			Map<String, Integer> queryMap2 = new HashMap<String, Integer>();
-			queryMap1.put("한미FTA OR ISD", 10);
+			String objectId2 = "naverapp";
+			String appId2 = "393499958";
 			
-			List<twitter4j.Tweet> tweets2 = collector.searchTweets(queryMap2, sinceDate, null);
+			List<Review> reviews2 = collector.getReviews(appStores, appId2, 5);
 			
 			try {
-				String dataDir = Config.getProperty("TWITTER_SOURCE_DATA_DIR");
-				String indexDir = Config.getProperty("TWITTER_INDEX_DIR");
+				String dataDir = Config.getProperty("APPSTORE_SOURCE_DATA_DIR");
+				String indexDir = Config.getProperty("APPSTORE_INDEX_DIR");
 				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
 				
-				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId2, tweets2, startTime);
+				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId2, reviews2, startTime);
 				
 			} catch (Exception e) {
 				e.printStackTrace();

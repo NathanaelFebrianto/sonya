@@ -1,4 +1,4 @@
-package com.nhn.socialanalytics.twitter.collect;
+package com.nhn.socialanalytics.me2day.collect;
 
 import java.util.Date;
 import java.util.HashMap;
@@ -13,12 +13,13 @@ import org.quartz.JobExecutionException;
 import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.JobLogger;
 import com.nhn.socialanalytics.common.util.DateUtil;
+import com.nhn.socialanalytics.me2day.model.Post;
 
-public class TwitterDataCollectorJob implements Job {
+public class Me2dayDataCollectorJob implements Job {
 	// logger
-	private static JobLogger logger = JobLogger.getLogger(TwitterDataCollectorJob.class, "twitter-collect.log");
+	private static JobLogger logger = JobLogger.getLogger(Me2dayDataCollectorJob.class, "me2day-collect.log");
 	
-	public TwitterDataCollectorJob() { }
+	public Me2dayDataCollectorJob() { }
 	
 	public void execute(JobExecutionContext context) throws JobExecutionException {
 		try {
@@ -34,25 +35,26 @@ public class TwitterDataCollectorJob implements Job {
 			// date and time that it is running
 			String jobName = context.getJobDetail().getFullName();
 			System.out.println("Quartz says: " + jobName + " executing at " + startTime);
-			logger.info("Quartz says: " + jobName + " executing at " + startTime);			
+			logger.info("Quartz says: " + jobName + " executing at " + startTime);
 
-			TwitterDataCollector collector = new TwitterDataCollector();
-			
-			Date sinceDate = DateUtil.addDay(new Date(), -1);
+			Me2dayDataCollector collector = new Me2dayDataCollector();
 			
 			/////////////////////////////
 			String objectId1 = "naverline";
 			Map<String, Integer> queryMap1 = new HashMap<String, Integer>();
 			queryMap1.put("네이버라인 OR 네이버LINE", 5);
 			
-			List<twitter4j.Tweet> tweets1 = collector.searchTweets(queryMap1, sinceDate, null);
+			Date sinceDate1 = DateUtil.addDay(new Date(), -30);
+			Date untilDate1 = DateUtil.addDay(new Date(), +1);
+			
+			List<Post> posts1 = collector.searchPosts(queryMap1, Me2dayCrawler.TARGET_BODY, sinceDate1, untilDate1);
 			
 			try {
-				String dataDir = Config.getProperty("TWITTER_SOURCE_DATA_DIR");
-				String indexDir = Config.getProperty("TWITTER_INDEX_DIR");
+				String dataDir = Config.getProperty("ME2DAY_SOURCE_DATA_DIR");
+				String indexDir = Config.getProperty("ME2DAY_INDEX_DIR");
 				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
 				
-				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId1, tweets1, startTime);
+				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId1, posts1, startTime);
 				
 			} catch (Exception e) {
 				e.printStackTrace();
@@ -62,16 +64,20 @@ public class TwitterDataCollectorJob implements Job {
 			/////////////////////////////
 			String objectId2 = "fta";
 			Map<String, Integer> queryMap2 = new HashMap<String, Integer>();
-			queryMap1.put("한미FTA OR ISD", 10);
+			queryMap1.put("한미FTA", 10);
+			queryMap1.put("FTA ISD", 10);
 			
-			List<twitter4j.Tweet> tweets2 = collector.searchTweets(queryMap2, sinceDate, null);
+			Date sinceDate2 = DateUtil.addDay(new Date(), -1);
+			Date untilDate2 = DateUtil.addDay(new Date(), +1);
+			
+			List<Post> posts2 = collector.searchPosts(queryMap2, Me2dayCrawler.TARGET_BODY, sinceDate2, untilDate2);
 			
 			try {
-				String dataDir = Config.getProperty("TWITTER_SOURCE_DATA_DIR");
-				String indexDir = Config.getProperty("TWITTER_INDEX_DIR");
+				String dataDir = Config.getProperty("ME2DAY_SOURCE_DATA_DIR");
+				String indexDir = Config.getProperty("ME2DAY_INDEX_DIR");
 				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
 				
-				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId2, tweets2, startTime);
+				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId2, posts2, startTime);
 				
 			} catch (Exception e) {
 				e.printStackTrace();

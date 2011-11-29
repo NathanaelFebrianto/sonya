@@ -1,24 +1,25 @@
-package com.nhn.socialanalytics.twitter.collect;
+package com.nhn.socialanalytics.androidmarket.collect;
 
 import java.util.Date;
-import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
-import java.util.Map;
+import java.util.Locale;
+import java.util.Set;
 
 import org.quartz.Job;
 import org.quartz.JobDataMap;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 
+import com.gc.android.market.api.model.Market.Comment;
 import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.JobLogger;
-import com.nhn.socialanalytics.common.util.DateUtil;
 
-public class TwitterDataCollectorJob implements Job {
+public class AndroidMarketDataCollectorJob implements Job {
 	// logger
-	private static JobLogger logger = JobLogger.getLogger(TwitterDataCollectorJob.class, "twitter-collect.log");
+	private static JobLogger logger = JobLogger.getLogger(AndroidMarketDataCollectorJob.class, "androidmarket-collect.log");
 	
-	public TwitterDataCollectorJob() { }
+	public AndroidMarketDataCollectorJob() { }
 	
 	public void execute(JobExecutionContext context) throws JobExecutionException {
 		try {
@@ -34,25 +35,28 @@ public class TwitterDataCollectorJob implements Job {
 			// date and time that it is running
 			String jobName = context.getJobDetail().getFullName();
 			System.out.println("Quartz says: " + jobName + " executing at " + startTime);
-			logger.info("Quartz says: " + jobName + " executing at " + startTime);			
+			logger.info("Quartz says: " + jobName + " executing at " + startTime);
 
-			TwitterDataCollector collector = new TwitterDataCollector();
+			String loginAccount = "xxx@gmail.com";
+			String loginPasswd = "xxx";
+			AndroidMarketDataCollector collector = new AndroidMarketDataCollector(loginAccount, loginPasswd);	
 			
-			Date sinceDate = DateUtil.addDay(new Date(), -1);
+			Set<Locale> locales = new HashSet<Locale>();
+			locales.add(Locale.KOREA);
+			//locales.add(Locale.ENGLISH);
 			
 			/////////////////////////////
 			String objectId1 = "naverline";
-			Map<String, Integer> queryMap1 = new HashMap<String, Integer>();
-			queryMap1.put("네이버라인 OR 네이버LINE", 5);
+			String appId1 = "jp.naver.line.android";
 			
-			List<twitter4j.Tweet> tweets1 = collector.searchTweets(queryMap1, sinceDate, null);
+			List<Comment> comments1 = collector.getAppComments(locales, appId1, 5);
 			
 			try {
-				String dataDir = Config.getProperty("TWITTER_SOURCE_DATA_DIR");
-				String indexDir = Config.getProperty("TWITTER_INDEX_DIR");
+				String dataDir = Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR");
+				String indexDir = Config.getProperty("ANDROIDMARKET_INDEX_DIR");
 				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
 				
-				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId1, tweets1, startTime);
+				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId1, comments1, startTime);
 				
 			} catch (Exception e) {
 				e.printStackTrace();
@@ -60,18 +64,17 @@ public class TwitterDataCollectorJob implements Job {
 			}
 
 			/////////////////////////////
-			String objectId2 = "fta";
-			Map<String, Integer> queryMap2 = new HashMap<String, Integer>();
-			queryMap1.put("한미FTA OR ISD", 10);
+			String objectId2 = "naverapp";
+			String appId2 = "com.nhn.android.search";
 			
-			List<twitter4j.Tweet> tweets2 = collector.searchTweets(queryMap2, sinceDate, null);
+			List<Comment> comments2 = collector.getAppComments(locales, appId2, 5);
 			
 			try {
-				String dataDir = Config.getProperty("TWITTER_SOURCE_DATA_DIR");
-				String indexDir = Config.getProperty("TWITTER_INDEX_DIR");
+				String dataDir = Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR");
+				String indexDir = Config.getProperty("ANDROIDMARKET_INDEX_DIR");
 				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
 				
-				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId2, tweets2, startTime);
+				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId2, comments2, startTime);
 				
 			} catch (Exception e) {
 				e.printStackTrace();
