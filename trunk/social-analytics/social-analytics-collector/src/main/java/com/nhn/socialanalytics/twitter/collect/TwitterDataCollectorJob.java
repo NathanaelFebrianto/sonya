@@ -38,14 +38,14 @@ public class TwitterDataCollectorJob implements Job {
 
 			TwitterDataCollector collector = new TwitterDataCollector();
 			
-			Date sinceDate = DateUtil.addDay(new Date(), -1);
-			
-			/////////////////////////////
-			String objectId1 = "naverline";
+			/////////////////////////////			
+			String objectId1 = "naverline";			
 			Map<String, Integer> queryMap1 = new HashMap<String, Integer>();
 			queryMap1.put("네이버라인 OR 네이버LINE", 5);
 			
-			List<twitter4j.Tweet> tweets1 = collector.searchTweets(queryMap1, sinceDate, null);
+			Date sinceDate1 = DateUtil.addDay(new Date(), -30);
+			
+			List<twitter4j.Tweet> tweets1 = collector.searchTweets(queryMap1, sinceDate1, null);
 			
 			try {
 				String dataDir = Config.getProperty("TWITTER_SOURCE_DATA_DIR");
@@ -60,11 +60,13 @@ public class TwitterDataCollectorJob implements Job {
 			}
 
 			/////////////////////////////
-			String objectId2 = "fta";
+			String objectId2 = "fta";			
 			Map<String, Integer> queryMap2 = new HashMap<String, Integer>();
-			queryMap1.put("한미FTA OR ISD", 10);
+			queryMap2.put("한미FTA OR ISD", 10);
 			
-			List<twitter4j.Tweet> tweets2 = collector.searchTweets(queryMap2, sinceDate, null);
+			Date sinceDate2 = DateUtil.addDay(new Date(), -1);
+			
+			List<twitter4j.Tweet> tweets2 = collector.searchTweets(queryMap2, sinceDate2, null);
 			
 			try {
 				String dataDir = Config.getProperty("TWITTER_SOURCE_DATA_DIR");
