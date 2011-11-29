@@ -60,7 +60,7 @@ public class DocIndexSearcher {
 		this(indexDirs, null, null);
 	} 
 	
-	public DocIndexSearcher(File[] indexDirs, String stopwordFile, Set<String> customStopwords) throws IOException, CorruptIndexException {
+	public DocIndexSearcher(File[] indexDirs, File stopwordFile, Set<String> customStopwords) throws IOException, CorruptIndexException {
 		List<IndexReader> indexReaders = getIndexReaders(indexDirs);
 		MultiReader multiReader = new MultiReader(indexReaders.toArray(new IndexReader[0]));  
 		this.searcher = new IndexSearcher(multiReader);	
@@ -90,13 +90,13 @@ public class DocIndexSearcher {
 		return readers;
 	}
 	
-	private Set<String> loadStopwords(String stopwordFile) throws IOException {
+	private Set<String> loadStopwords(File stopwordFile) throws IOException {
 		Set<String> stopSet = new HashSet<String>();
 		
 		if (stopwordFile == null)
 			return stopSet;
 		
-		FileLineIterator it = new FileLineIterator(new FileInputStream(new File(stopwordFile)));
+		FileLineIterator it = new FileLineIterator(new FileInputStream(stopwordFile));
 
 		while (it.hasNext()) {
 			String line = it.next();
