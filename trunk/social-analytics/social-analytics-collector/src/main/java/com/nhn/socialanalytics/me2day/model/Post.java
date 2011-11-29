@@ -11,7 +11,6 @@ import java.util.Date;
 @SuppressWarnings("serial")
 public class Post implements Serializable {
 
-	private String objectId;
 	private String postId;
 	private String permalink;
 	private String body;
@@ -35,12 +34,6 @@ public class Post implements Serializable {
 	private Date publishStartDate;
 	private Date publishEndDate;
 	
-	public String getObjectId() {
-		return objectId;
-	}
-	public void setObjectId(String objectId) {
-		this.objectId = objectId;
-	}
 	public String getPostId() {
 		return postId;
 	}

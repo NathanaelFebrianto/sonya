@@ -15,16 +15,7 @@ import java.util.Set;
 
 import org.apache.lucene.document.Document;
 
-import com.gc.android.market.api.MarketSession;
-import com.gc.android.market.api.MarketSession.Callback;
-import com.gc.android.market.api.model.Market.App;
-import com.gc.android.market.api.model.Market.AppsRequest;
-import com.gc.android.market.api.model.Market.AppsResponse;
 import com.gc.android.market.api.model.Market.Comment;
-import com.gc.android.market.api.model.Market.CommentsRequest;
-import com.gc.android.market.api.model.Market.CommentsResponse;
-import com.gc.android.market.api.model.Market.ResponseContext;
-import com.nhn.socialanalytics.appleappstore.collect.AppStoreReviewCrawler;
 import com.nhn.socialanalytics.common.Collector;
 import com.nhn.socialanalytics.common.JobLogger;
 import com.nhn.socialanalytics.common.util.DateUtil;
@@ -53,13 +44,8 @@ public class AndroidMarketDataCollector extends Collector {
 		try {           	
         	logger.info("------------------------------------------------");
         	logger.info("appStores = " + locales + " appId: " + appId + " page: " + maxPage);
-         	
-        	for (Iterator<Locale> it = locales.iterator(); it.hasNext();) {
-	        	Locale locale = it.next();	        	
-	        	commentList = crawler.getAppComments(locale, appId, maxPage, false);	            
-	            logger.info("result size [locale:" + locale + "] = " + commentList.size());
-        	}
-           
+        	commentList = crawler.getAppComments(locales, appId, maxPage);	            
+	        logger.info("result size [locales:" + locales + "] = " + commentList.size());          
 		} catch (Exception e) {
 			e.printStackTrace();
 			logger.error(e.getMessage(), e);

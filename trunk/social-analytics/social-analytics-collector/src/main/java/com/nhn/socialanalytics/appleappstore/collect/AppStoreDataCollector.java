@@ -33,10 +33,10 @@ import com.nhn.socialanalytics.nlp.kr.sentiment.SentimentAnalyzer;
 public class AppStoreDataCollector extends Collector {
 	
 	private static JobLogger logger = JobLogger.getLogger(AppStoreDataCollector.class, "appstore-collect.log");
-	private AppStoreReviewCrawler crawler;	
+	private AppStoreCrawler crawler;	
 
 	public AppStoreDataCollector() {
-		crawler = new AppStoreReviewCrawler();
+		crawler = new AppStoreCrawler();
 	}
 	
 	public List<Review> getReviews(Set<String> appStores, String appId, int maxPage) {
@@ -46,15 +46,9 @@ public class AppStoreDataCollector extends Collector {
         	logger.info("------------------------------------------------");
         	logger.info("appStores = " + appStores + " appId: " + appId + " page: " + maxPage);
          	
-        	for (Iterator<String> it = appStores.iterator(); it.hasNext();) {
-	        	String appStoreId = it.next();
-	        	
-	        	List<Review> reviews = crawler.getReviews(appStoreId, appId, maxPage);
+        	result = crawler.getReviews(appStores, appId, maxPage);
 	            
-	            logger.info("result size [appStoreId:" + appStoreId + "] = " + reviews.size());
-	            result.addAll(reviews);
-        	}
-           
+	        logger.info("result size [appStores:" + appStores + "] = " + result.size());           
 		} catch (Exception e) {
 			e.printStackTrace();
 			logger.error(e.getMessage(), e);
