@@ -73,14 +73,16 @@ public class Me2dayCrawler {
 			int maxPage = entry.getValue();			
 			List<Post> posts = this.searchPosts(query, target, since, until, maxPage);
 			
-			for (int i = 0; i < posts.size(); i++) {
-				Post post = (Post) posts.get(i);
-				String postId = post.getPostId();				
-				// check if it is duplicate
-				if (!idHashSet.contains(postId)) {
-					result.add(post);
+			if (posts != null) {
+				for (int i = 0; i < posts.size(); i++) {
+					Post post = (Post) posts.get(i);
+					String postId = post.getPostId();				
+					// check if it is duplicate
+					if (!idHashSet.contains(postId)) {
+						result.add(post);
+					}				
+					idHashSet.add(postId);
 				}				
-				idHashSet.add(postId);
 			}
 		}
 		
