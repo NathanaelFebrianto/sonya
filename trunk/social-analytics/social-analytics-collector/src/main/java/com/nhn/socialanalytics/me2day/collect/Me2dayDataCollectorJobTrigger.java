@@ -1,4 +1,4 @@
-package com.nhn.socialanalytics.twitter.collect;
+package com.nhn.socialanalytics.me2day.collect;
 
 import java.util.Date;
 import java.util.Map;
@@ -12,9 +12,9 @@ import org.quartz.impl.StdSchedulerFactory;
 import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.JobLogger;
 
-public class TwitterDataCollectorJobTrigger {
+public class Me2dayDataCollectorJobTrigger {
 	// logger
-	private static JobLogger logger = JobLogger.getLogger(TwitterDataCollectorJobTrigger.class, "twitter-collect.log");
+	private static JobLogger logger = JobLogger.getLogger(Me2dayDataCollectorJobTrigger.class, "me2day-collect.log");
 	
 	public void run() throws Exception {
 
@@ -37,14 +37,14 @@ public class TwitterDataCollectorJobTrigger {
 		// jobs can be scheduled before sched.start() has been called
 		// job will run every 60 minutes
         
-        String schedule = Config.getProperty("TWITTER_COLLECT_SCHEDULE");
-		JobDetail job = new JobDetail("TwitterDataCollectorJob", "twitter", TwitterDataCollectorJob.class);
+        String schedule = Config.getProperty("ME2DAY_COLLECT_SCHEDULE");
+		JobDetail job = new JobDetail("Me2dayDataCollectorJob", "me2day", Me2dayDataCollectorJob.class);
 		
 		//Map map = job.getJobDataMap();
 		//map.put("key", "value");
 		
-        CronTrigger trigger = new CronTrigger("TwitterCollectorJobTrigger", "twitter", "TwitterDataCollectorJob",
-                "twitter", schedule);	//second, minute, hour, dayOfMonth, month, year
+        CronTrigger trigger = new CronTrigger("Me2dayDataCollectorJobTrigger", "me2day", "Me2dayDataCollectorJob",
+                "me2day", schedule);	//second, minute, hour, dayOfMonth, month, year
         sched.addJob(job, true);
         Date ft1 = sched.scheduleJob(trigger);
         
@@ -70,7 +70,7 @@ public class TwitterDataCollectorJobTrigger {
 	}
 
 	public static void main(String[] args) throws Exception {
-		TwitterDataCollectorJobTrigger trigger = new TwitterDataCollectorJobTrigger();
+		Me2dayDataCollectorJobTrigger trigger = new Me2dayDataCollectorJobTrigger();
 		trigger.run();
 	}	
 }
