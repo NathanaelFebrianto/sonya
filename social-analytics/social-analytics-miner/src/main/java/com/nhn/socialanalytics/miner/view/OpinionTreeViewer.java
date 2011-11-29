@@ -381,7 +381,7 @@ public class OpinionTreeViewer extends JApplet {
 		
 		try {
 			File[] indexDirs = new File[1];
-			indexDirs[0] = new File("./bin/data/appstore/index/20111128");
+			indexDirs[0] = new File("./bin/data/me2day/index/20111129");
 			
 			String object = "naverline";
 			
@@ -402,12 +402,12 @@ public class OpinionTreeViewer extends JApplet {
 			/* target term ==> PREDICATE   */
 			/////////////////////////////////
 
-			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.PREDICATE, 2, true);					
+			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.PREDICATE, 3, true);					
 			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
 				String term = entry.getKey();
 			
-				TargetTerm subjectTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 2);
-				TargetTerm attributeTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.ATTRIBUTE, term, 2);
+				TargetTerm subjectTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 3);
+				TargetTerm attributeTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.ATTRIBUTE, term, 4);
 				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
 				termMap.put(FieldConstants.SUBJECT, subjectTerm);
 				termMap.put(FieldConstants.ATTRIBUTE, attributeTerm);
