@@ -101,10 +101,10 @@ public class AppStoreDataCollectorJob implements Job {
 			// end time
 			Date endTime = new Date();
 			System.out.println("Quartz says: " + jobName + " finished at "	+ endTime);
-			System.out.println("Collecting for twitter data from : " + startTime + " to: " + endTime);
+			System.out.println("Collecting for AppStore data from : " + startTime + " to: " + endTime);
 			
 			logger.info("Quartz says: " + jobName + " finished at "	+ endTime);
-			logger.jobSummary("Collecting for twitter data", startTime, endTime);
+			logger.jobSummary("Collecting for AppStore data", startTime, endTime);
 			
 	 	} catch (Exception e) {
 	    	e.printStackTrace();
