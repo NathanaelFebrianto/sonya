@@ -89,10 +89,10 @@ public class Me2dayDataCollectorJob implements Job {
 			// end time
 			Date endTime = new Date();
 			System.out.println("Quartz says: " + jobName + " finished at "	+ endTime);
-			System.out.println("Collecting for twitter data from : " + startTime + " to: " + endTime);
+			System.out.println("Collecting for Me2day data from : " + startTime + " to: " + endTime);
 			
 			logger.info("Quartz says: " + jobName + " finished at "	+ endTime);
-			logger.jobSummary("Collecting for twitter data", startTime, endTime);
+			logger.jobSummary("Collecting for Me2day data", startTime, endTime);
 			
 	 	} catch (Exception e) {
 	    	e.printStackTrace();
