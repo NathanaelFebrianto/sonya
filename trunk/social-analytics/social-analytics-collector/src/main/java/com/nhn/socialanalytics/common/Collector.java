@@ -10,14 +10,65 @@ import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
 import java.util.Date;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import org.apache.mahout.common.iterator.FileLineIterator;
 
 import com.nhn.socialanalytics.common.util.DateUtil;
 
 public abstract class Collector {
 
 	protected static final String DELIMITER = "\t";
+	protected Set<Pattern> spamFilterSet = new HashSet<Pattern>();
+	
+	public Collector() { }
+	
+	public Collector(File spamFilterFile) {
+		try {
+			spamFilterSet = this.loadSpamFilterSet(spamFilterFile);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	private Set<Pattern> loadSpamFilterSet(File spamFilterFile) throws IOException {
+		Set<Pattern> spamFilterSet = new HashSet<Pattern>();
+		
+		if (spamFilterFile == null)
+			return spamFilterSet;
+		
+		FileLineIterator it = new FileLineIterator(new FileInputStream(spamFilterFile));
+		while (it.hasNext()) {
+			String line = it.next();
+			line = line.trim();
+			if (line.startsWith("#")) {
+				continue;
+			}			
+			if (!line.equals("")) {
+				String regex = line.replaceAll("\\*", "[\\\\w']*");			
+				spamFilterSet.add(Pattern.compile(regex));
+			}
+		}
+		return spamFilterSet;
+	}
+	
+	protected boolean isSpam(String text) {
+		if (text == null)
+			return false;
+		
+		text = text.toLowerCase();			
+		for (Iterator<Pattern> it = spamFilterSet.iterator(); it.hasNext();) {
+			Pattern pattern = it.next();
+			Matcher m = pattern.matcher(text);
+			while (m.find()) {
+				return true;
+			}			
+		}		
+		return false;		
+	}
 	
 	protected Set<String> loadPrevCollectedHashSet(String dataDir, String objectId) throws IOException, UnsupportedEncodingException {
 		Set<String> idSet = new HashSet<String>();
