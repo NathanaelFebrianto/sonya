@@ -1,6 +1,7 @@
 package com.nhn.socialanalytics.miner.view;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import com.nhn.socialanalytics.miner.index.DetailDoc;
 
@@ -11,7 +12,7 @@ public class TermNode {
 	private String type;
 	private int tf;	
 	private double polarity;
-	private ArrayList<DetailDoc> docs = new ArrayList<DetailDoc>();
+	private List<DetailDoc> docs = new ArrayList<DetailDoc>();
 
 	public String getId() {
 		return id;
@@ -53,11 +54,11 @@ public class TermNode {
 		this.polarity = polarity;
 	}
 
-	public ArrayList<DetailDoc> getDocs() {
+	public List<DetailDoc> getDocs() {
 		return docs;
 	}
 
-	public void setDocs(ArrayList<DetailDoc> docs) {
+	public void setDocs(List<DetailDoc> docs) {
 		this.docs = docs;
 	}
 	

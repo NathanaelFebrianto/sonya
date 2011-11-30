@@ -127,6 +127,7 @@ public class OpinionGraphModeller {
 				parentNode.setName(targetTerm.getTerm());
 				parentNode.setTF(targetTerm.getTF());
 				parentNode.setPolarity(targetTerm.getPolarity());
+				parentNode.setDocs(new ArrayList(targetTerm.getChildDocs()));
 				
 				// target term edge
 				TermEdge rootEdge = new TermEdge();

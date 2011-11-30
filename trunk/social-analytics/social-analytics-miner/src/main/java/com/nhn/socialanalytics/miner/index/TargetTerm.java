@@ -1,6 +1,9 @@
 package com.nhn.socialanalytics.miner.index;
 
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 public class TargetTerm {
 
@@ -8,7 +11,7 @@ public class TargetTerm {
 	private String term;
 	private int tf;	
 	private double polarity;
-	private ArrayList<ChildTerm> childTerms = new ArrayList<ChildTerm>();
+	private List<ChildTerm> childTerms = new ArrayList<ChildTerm>();
 	
 	public String getObject() {
 		return object;
@@ -34,10 +37,10 @@ public class TargetTerm {
 	public void setPolarity(double polarity) {
 		this.polarity = polarity;
 	}
-	public ArrayList<ChildTerm> getChildTerms() {
+	public List<ChildTerm> getChildTerms() {
 		return childTerms;
 	}
-	public void setChildTerms(ArrayList<ChildTerm> childTerms) {
+	public void setChildTerms(List<ChildTerm> childTerms) {
 		this.childTerms = childTerms;
 	}
 	
@@ -56,6 +59,15 @@ public class TargetTerm {
 			//System.out.println("added term == " + childTerm.getTerm());
 			childTerms.add(childTerm);
 		}
+	}
+	
+	public Set<DetailDoc> getChildDocs() {
+		Set<DetailDoc> childDocs = new HashSet<DetailDoc>();
+		for (ChildTerm childTerm : childTerms) {
+			childDocs.addAll(childTerm.getDocs());
+		}
+		
+		return childDocs;
 	}
 
 }
