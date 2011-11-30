@@ -162,7 +162,8 @@ public class Me2dayCrawler {
 		System.out.println("page == " + page);
 		
 		try {
-			url.append("query=").append(URLEncoder.encode(query, "utf-8"));
+			url.append("order=latest");
+			url.append("&query=").append(URLEncoder.encode(query, "utf-8"));
 		} catch (UnsupportedEncodingException e) {
 			e.printStackTrace();
 		}
