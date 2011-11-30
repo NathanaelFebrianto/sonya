@@ -139,6 +139,8 @@ public class AppStoreCrawler {
 		String strUrl = "http://ax.phobos.apple.com.edgesuite.net/WebObjects/MZStore.woa/wa/viewContentsUserReviews?id=" + appId + 
 				"&pageNumber=" + pageNo + "&sortOrdering=4&onlyLatestVersion=false&type=Purple+Software"; 
 		
+		String country = AppStores.getCountry(appStoreId);
+		
 		List<Review> reviews = new ArrayList<Review>();
 				
 		try{
@@ -251,6 +253,8 @@ public class AppStoreCrawler {
                  	System.out.println(i + " rating == " + rating);
                  	
                  	Review review = new Review();
+                 	review.setAppStoreId(appStoreId);
+                 	review.setCountry(country);
                  	review.setReviewId(reviewId);                 	
                  	review.setAuthorId(authorId);
                  	review.setAuthorName(authorName);

@@ -142,7 +142,8 @@ public class TwitterDataCollector extends Collector {
 					"tweet_id" + DELIMITER +	
 					"create_date" + DELIMITER +	
 					"from_user" + DELIMITER +		
-					"to_user" + DELIMITER +		
+					"to_user" + DELIMITER +	
+					"language" + DELIMITER +		
 					"text" + DELIMITER +		
 					"text1" + DELIMITER +		
 					"text2" + DELIMITER +		
@@ -163,6 +164,8 @@ public class TwitterDataCollector extends Collector {
 			String fromUserId = String.valueOf(tweet.getFromUserId());
 			String fromUser = tweet.getFromUser();			
 			String toUser = tweet.getToUser();
+			String language = tweet.getIsoLanguageCode();
+			
 			
 			/////////////////////////////////
 			// write new collected all id into file
@@ -197,6 +200,7 @@ public class TwitterDataCollector extends Collector {
 						createDate + DELIMITER + 
 						fromUser + DELIMITER +
 						toUser + DELIMITER +
+						language + DELIMITER +
 						text + DELIMITER +
 						text1 + DELIMITER +
 						text2 + DELIMITER +
@@ -233,6 +237,7 @@ public class TwitterDataCollector extends Collector {
 						doc.setDate(createDate);
 						doc.setUserId(fromUserId);
 						doc.setUserName(fromUser);
+						doc.setLanguage(language);
 						doc.setSubject(clause.getSubject());
 						doc.setPredicate(clause.getPredicate());
 						doc.setAttribute(clause.makeAttributesLabel());
@@ -271,7 +276,7 @@ public class TwitterDataCollector extends Collector {
 		//queryMap.put("한미FTA OR ISD", 5);
 		//queryMap.put("FTA OR ISD", 5);
 		queryMap.put("네이버 라인 OR 네이버 LINE", 10);
-		queryMap.put("NAVER LINE", 10);
+		//queryMap.put("NAVER LINE", 10);
 		
 		Date since = DateUtil.addDay(new Date(), -30);
 		List<twitter4j.Tweet> tweets = collector.searchTweets(queryMap, since, null);

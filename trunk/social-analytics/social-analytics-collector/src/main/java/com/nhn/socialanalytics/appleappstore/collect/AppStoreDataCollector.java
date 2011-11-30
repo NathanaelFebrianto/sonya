@@ -109,6 +109,8 @@ public class AppStoreDataCollector extends Collector {
 					"version" + DELIMITER +	
 					"rating" + DELIMITER +	
 					"is_spam" + DELIMITER +	
+					"appstore_id" + DELIMITER + 
+					"country" + DELIMITER + 
 					"text" + DELIMITER +		
 					"text1" + DELIMITER +		
 					"text2" + DELIMITER +		
@@ -124,6 +126,8 @@ public class AppStoreDataCollector extends Collector {
 		
 		// review
 		for (Review review : reviews) {
+			String appStoreId = review.getAppStoreId();
+			String country = review.getCountry();
 			String reviewId = review.getReviewId();
 			String authorId = review.getAuthorId();
 			String authorName = review.getAuthorName();
@@ -170,6 +174,8 @@ public class AppStoreDataCollector extends Collector {
 						version + DELIMITER +
 						rating + DELIMITER +
 						isSpam + DELIMITER +
+						appStoreId + DELIMITER +
+						country + DELIMITER +
 						text + DELIMITER +		
 						text1 + DELIMITER +		
 						text2 + DELIMITER +		
@@ -207,6 +213,7 @@ public class AppStoreDataCollector extends Collector {
 							doc.setDate(createDate);
 							doc.setUserId(authorId);
 							doc.setUserName(authorName);
+							doc.setLanguage(country);
 							doc.setSubject(clause.getSubject());
 							doc.setPredicate(clause.getPredicate());
 							doc.setAttribute(clause.makeAttributesLabel());

@@ -5,6 +5,8 @@ import java.io.Serializable;
 @SuppressWarnings("serial")
 public class Review implements Serializable {
 	
+	private String appStoreId;
+	private String country;
 	private String reviewId;
 	private String authorId;
 	private String authorName;
@@ -14,6 +16,18 @@ public class Review implements Serializable {
 	private String createDate;
 	private int rating;
 	
+	public String getAppStoreId() {
+		return appStoreId;
+	}
+	public void setAppStoreId(String appStoreId) {
+		this.appStoreId = appStoreId;
+	}
+	public String getCountry() {
+		return country;
+	}
+	public void setCountry(String country) {
+		this.country = country;
+	}
 	public String getReviewId() {
 		return reviewId;
 	}
@@ -31,7 +45,7 @@ public class Review implements Serializable {
 	}
 	public void setAuthorName(String authorName) {
 		this.authorName = authorName;
-	}	
+	}
 	public String getTopic() {
 		return topic;
 	}
