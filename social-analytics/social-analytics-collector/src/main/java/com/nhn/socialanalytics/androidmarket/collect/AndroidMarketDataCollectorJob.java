@@ -5,6 +5,7 @@ import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
+import java.util.Map;
 import java.util.Set;
 
 import org.quartz.Job;
@@ -50,7 +51,7 @@ public class AndroidMarketDataCollectorJob implements Job {
 			String objectId1 = "naverline";
 			String appId1 = "jp.naver.line.android";
 			
-			List<Comment> comments1 = collector.getAppComments(locales, appId1, 5);
+			Map<Locale, List<Comment>> comments1 = collector.getAppCommentsByLocales(locales, appId1, 7);
 			
 			try {
 				String dataDir = Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR");
@@ -68,7 +69,7 @@ public class AndroidMarketDataCollectorJob implements Job {
 			String objectId2 = "naverapp";
 			String appId2 = "com.nhn.android.search";
 			
-			List<Comment> comments2 = collector.getAppComments(locales, appId2, 5);
+			Map<Locale, List<Comment>> comments2 = collector.getAppCommentsByLocales(locales, appId2, 7);
 			
 			try {
 				String dataDir = Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR");
@@ -86,7 +87,7 @@ public class AndroidMarketDataCollectorJob implements Job {
 			String objectId3 = "kakaotalk";
 			String appId3 = "com.kakao.talk";
 			
-			List<Comment> comments3 = collector.getAppComments(locales, appId3, 5);
+			Map<Locale, List<Comment>> comments3 = collector.getAppCommentsByLocales(locales, appId3, 7);
 			
 			try {
 				String dataDir = Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR");

@@ -208,6 +208,7 @@ public class Me2dayDataCollector extends Collector {
 						doc.setDate(createDate);
 						doc.setUserId(authorId);
 						doc.setUserName(authorName);
+						doc.setLanguage("ko");
 						doc.setSubject(clause.getSubject());
 						doc.setPredicate(clause.getPredicate());
 						doc.setAttribute(clause.makeAttributesLabel());

@@ -1,9 +1,11 @@
 package com.nhn.socialanalytics.androidmarket.collect;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
+import java.util.Map;
 import java.util.Set;
 
 import com.gc.android.market.api.MarketSession;
@@ -33,6 +35,25 @@ public class AndroidMarketCrawler {
 			startIndex = 10 * page;
 			searchAppsPerPage(locale, appId, startIndex);			
 		}		
+	}
+	
+	public Map<Locale, List<Comment>> getAppCommentsByLocales(Set<Locale> locales, String appId, int maxPage) {
+		Map<Locale, List<Comment>> resultMap = new HashMap<Locale, List<Comment>>();
+		
+		commentList.clear();		
+		
+		System.out.println("locales = " + locales + " appId: " + appId + " maxPage: " + maxPage);
+		
+    	for (Iterator<Locale> it = locales.iterator(); it.hasNext();) {
+        	Locale locale = it.next();	        	
+        	List<Comment> comments = new ArrayList<Comment>();
+        	comments.addAll(this.getAppComments(locale, appId, maxPage, true));	
+        	
+        	resultMap.put(locale, comments);
+        	
+            System.out.println("result size [locale:" + locale + "] = " + comments.size());
+    	}
+		return resultMap;
 	}
 	
 	public List<Comment> getAppComments(Set<Locale> locales, String appId, int maxPage) {

@@ -98,4 +98,13 @@ public class AppStores {
 	public static final String getAppStore(String country) {
 		return APP_STORES.get(country);
 	}
+	
+	public static final String getCountry(String appStoreId) {
+		for (Map.Entry<String, String> entry : APP_STORES.entrySet()) {
+			if (appStoreId.equals(entry.getValue())) {
+				return (String) entry.getKey();
+			}
+		}
+		return "";
+	}
 }
