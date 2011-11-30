@@ -100,17 +100,17 @@ public class AppStoreDataCollector extends Collector {
 		if (!existDataFile) {
 			brData.write("site" + DELIMITER +
 					"object_id" + DELIMITER +
+					"country" + DELIMITER + 
 					"collect_date" + DELIMITER +
 					"review_id" + DELIMITER +	
 					"create_date" + DELIMITER +	
 					"author_id" + DELIMITER +		
-					"author_name" + DELIMITER +	
-					"topic" + DELIMITER +	
+					"author_name" + DELIMITER +						
 					"version" + DELIMITER +	
 					"rating" + DELIMITER +	
 					"is_spam" + DELIMITER +	
-					"appstore_id" + DELIMITER + 
-					"country" + DELIMITER + 
+					"appstore_id" + DELIMITER + 					
+					"topic" + DELIMITER +	
 					"text" + DELIMITER +		
 					"text1" + DELIMITER +		
 					"text2" + DELIMITER +		
@@ -165,17 +165,17 @@ public class AppStoreDataCollector extends Collector {
 				brData.write(
 						"appstore" + DELIMITER +
 						objectId + DELIMITER +
-						currentDatetime + DELIMITER +
+						country + DELIMITER +
+						currentDatetime + DELIMITER +						
 						reviewId + DELIMITER +
 						createDate + DELIMITER + 
 						authorId + DELIMITER +		
 						authorName + DELIMITER +	
-						topic + DELIMITER +
 						version + DELIMITER +
 						rating + DELIMITER +
 						isSpam + DELIMITER +
 						appStoreId + DELIMITER +
-						country + DELIMITER +
+						topic + DELIMITER +
 						text + DELIMITER +		
 						text1 + DELIMITER +		
 						text2 + DELIMITER +		
@@ -208,12 +208,12 @@ public class AppStoreDataCollector extends Collector {
 							DetailDoc doc = new DetailDoc();
 							doc.setSite("appstore");
 							doc.setObject(objectId);
+							doc.setLanguage(country);
 							doc.setCollectDate(currentDatetime);
 							doc.setDocId(reviewId);
 							doc.setDate(createDate);
 							doc.setUserId(authorId);
-							doc.setUserName(authorName);
-							doc.setLanguage(country);
+							doc.setUserName(authorName);							
 							doc.setSubject(clause.getSubject());
 							doc.setPredicate(clause.getPredicate());
 							doc.setAttribute(clause.makeAttributesLabel());

@@ -114,14 +114,14 @@ public class AndroidMarketDataCollector extends Collector {
 		if (!existDataFile) {
 			brData.write("site" + DELIMITER +
 					"object_id" + DELIMITER +
+					"locale" + DELIMITER +	
 					"collect_date" + DELIMITER +
 					"comment_id" + DELIMITER +	
 					"create_date" + DELIMITER +	
 					"author_id" + DELIMITER +		
 					"author_name" + DELIMITER +	
 					"rating" + DELIMITER +	
-					"is_spam" + DELIMITER +	
-					"locale" + DELIMITER +	
+					"is_spam" + DELIMITER +						
 					"text" + DELIMITER +		
 					"text1" + DELIMITER +		
 					"text2" + DELIMITER +		
@@ -176,14 +176,14 @@ public class AndroidMarketDataCollector extends Collector {
 					brData.write(
 							"androidmarket" + DELIMITER +
 							objectId + DELIMITER +
+							locale + DELIMITER +
 							currentDatetime + DELIMITER +
 							commentId + DELIMITER +
 							createDate + DELIMITER + 
 							authorId + DELIMITER +		
 							authorName + DELIMITER +
 							rating + DELIMITER +
-							isSpam + DELIMITER +
-							locale + DELIMITER +
+							isSpam + DELIMITER +							
 							text + DELIMITER +		
 							text1 + DELIMITER +		
 							text2 + DELIMITER +		
@@ -216,12 +216,12 @@ public class AndroidMarketDataCollector extends Collector {
 								DetailDoc doc = new DetailDoc();
 								doc.setSite("androidmarket");
 								doc.setObject(objectId);
+								doc.setLanguage(locale.toString());
 								doc.setCollectDate(currentDatetime);
 								doc.setDocId(commentId);
 								doc.setDate(createDate);
 								doc.setUserId(authorId);
-								doc.setUserName(authorName);
-								doc.setLanguage(locale.toString());
+								doc.setUserName(authorName);								
 								doc.setSubject(clause.getSubject());
 								doc.setPredicate(clause.getPredicate());
 								doc.setAttribute(clause.makeAttributesLabel());
