@@ -216,6 +216,7 @@ public class DocIndexSearcher {
 			detailDoc.setDate(doc.get(FieldConstants.DATE));
 			detailDoc.setUserId(doc.get(FieldConstants.USER_ID));
 			detailDoc.setUserName(doc.get(FieldConstants.USER_NAME));
+			detailDoc.setLanguage(doc.get(FieldConstants.LANGUAGE));
 			detailDoc.setSubject(doc.get(FieldConstants.SUBJECT));
 			detailDoc.setPredicate(doc.get(FieldConstants.PREDICATE));
 			detailDoc.setAttribute(doc.get(FieldConstants.ATTRIBUTE));
