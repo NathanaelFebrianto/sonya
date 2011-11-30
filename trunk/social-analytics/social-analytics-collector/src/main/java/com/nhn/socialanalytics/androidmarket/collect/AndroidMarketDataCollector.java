@@ -52,7 +52,7 @@ public class AndroidMarketDataCollector extends Collector {
         	logger.info("------------------------------------------------");
         	logger.info("appStores = " + locales + " appId: " + appId + " page: " + maxPage);
         	commentMap = crawler.getAppCommentsByLocales(locales, appId, maxPage);	            
-	        logger.info("result size [locales:" + locales + "] = " + commentMap);          
+	        logger.info("result map size [locales:" + locales + "] = " + commentMap.size());          
 		} catch (Exception e) {
 			e.printStackTrace();
 			logger.error(e.getMessage(), e);
