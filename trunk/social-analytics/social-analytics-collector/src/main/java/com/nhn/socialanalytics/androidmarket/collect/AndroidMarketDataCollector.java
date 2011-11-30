@@ -223,18 +223,19 @@ public class AndroidMarketDataCollector extends Collector {
 		
 		Set<Locale> locales = new HashSet<Locale>();
 		locales.add(Locale.KOREA);
-		locales.add(Locale.ENGLISH);
+		//locales.add(Locale.ENGLISH);
 		
 		//String query = "네이버톡";
 		//String query = "pname:com.nhn.android.navertalk";
 		//collector.searchApps(Locale.KOREA, query, 1);
 		
-		String objectId = "naverline";
+		//String objectId = "naverline";
+		String objectId = "kakaotalk";
 		//String appId = "com.nhn.android.navertalk";
 		//String appId = "com.nhn.android.search";
-		String appId = "jp.naver.line.android";
+		//String appId = "jp.naver.line.android";
 		//String appId = "com.nhn.android.nbooks";
-		//String appId = "com.kakao.talk";
+		String appId = "com.kakao.talk";
 		
 		List<Comment> comments = collector.getAppComments(locales, appId, 5);
 		
