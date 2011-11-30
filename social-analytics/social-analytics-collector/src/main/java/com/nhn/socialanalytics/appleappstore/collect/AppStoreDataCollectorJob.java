@@ -47,7 +47,7 @@ public class AppStoreDataCollectorJob implements Job {
 			String objectId1 = "naverline";
 			String appId1 = "443904275";
 			
-			List<Review> reviews1 = collector.getReviews(appStores, appId1, 5);
+			List<Review> reviews1 = collector.getReviews(appStores, appId1, 3);
 			
 			try {
 				String dataDir = Config.getProperty("APPSTORE_SOURCE_DATA_DIR");
@@ -65,7 +65,7 @@ public class AppStoreDataCollectorJob implements Job {
 			String objectId2 = "naverapp";
 			String appId2 = "393499958";
 			
-			List<Review> reviews2 = collector.getReviews(appStores, appId2, 5);
+			List<Review> reviews2 = collector.getReviews(appStores, appId2, 3);
 			
 			try {
 				String dataDir = Config.getProperty("APPSTORE_SOURCE_DATA_DIR");
@@ -83,7 +83,7 @@ public class AppStoreDataCollectorJob implements Job {
 			String objectId3 = "kakaotalk";
 			String appId3 = "362057947";
 			
-			List<Review> reviews3 = collector.getReviews(appStores, appId3, 5);
+			List<Review> reviews3 = collector.getReviews(appStores, appId3, 3);
 			
 			try {
 				String dataDir = Config.getProperty("APPSTORE_SOURCE_DATA_DIR");

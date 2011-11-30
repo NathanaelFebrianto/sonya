@@ -7,6 +7,7 @@ import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
@@ -124,7 +125,14 @@ public class AppStoreCrawler {
 		
 		return null;
 	}
-	
+	/**
+	 * Gets the reviews for page. Number of reviews per page is 25.
+	 * 
+	 * @param appStoreId
+	 * @param appId
+	 * @param pageNo
+	 * @return
+	 */
 	public List<Review> getReviewsForPage(String appStoreId, String appId, int pageNo) {
 		String userAgent = "iTunes/9.2 (Macintosh; U; Mac OS X 10.6)";
 		String front = appStoreId;
@@ -279,7 +287,11 @@ public class AppStoreCrawler {
 		
 		//crawler.getReviewsForPage(appStoreId, "443904275", 0);
 
-		crawler.getReviews(appStoreId, "443904275", 2);		
+		//crawler.getReviews(appStoreId, "443904275", 3);		
+		
+		Set<String> appStores = new HashSet<String>();
+		appStores.add(AppStores.getAppStore("Korea"));
+		crawler.getReviews(appStores, "443904275", 3);
 	}
 
 }

@@ -35,7 +35,6 @@ public class TwitterDataCollectorJobTrigger {
         //long ts = TriggerUtils.getNextGivenSecondDate(null, 15).getTime();
 
 		// jobs can be scheduled before sched.start() has been called
-		// job will run every 60 minutes
         
         String schedule = Config.getProperty("TWITTER_COLLECT_SCHEDULE");
 		JobDetail job = new JobDetail("TwitterDataCollectorJob", "twitter", TwitterDataCollectorJob.class);
@@ -44,7 +43,7 @@ public class TwitterDataCollectorJobTrigger {
 		//map.put("key", "value");
 		
         CronTrigger trigger = new CronTrigger("TwitterCollectorJobTrigger", "twitter", "TwitterDataCollectorJob",
-                "twitter", schedule);	//second, minute, hour, dayOfMonth, month, year
+                "twitter", schedule);
         sched.addJob(job, true);
         Date ft1 = sched.scheduleJob(trigger);
         

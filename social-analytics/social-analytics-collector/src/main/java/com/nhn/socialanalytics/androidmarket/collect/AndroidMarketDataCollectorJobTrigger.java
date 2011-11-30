@@ -35,7 +35,6 @@ public class AndroidMarketDataCollectorJobTrigger {
         //long ts = TriggerUtils.getNextGivenSecondDate(null, 15).getTime();
 
 		// jobs can be scheduled before sched.start() has been called
-		// job will run every 60 minutes
         
         String schedule = Config.getProperty("ANDROIDMARKET_COLLECT_SCHEDULE");
 		JobDetail job = new JobDetail("AndroidMarketDataCollectorJob", "androidmarket", AndroidMarketDataCollectorJob.class);
@@ -45,7 +44,7 @@ public class AndroidMarketDataCollectorJobTrigger {
 		map.put("login.passwd", args[1]);
 		
         CronTrigger trigger = new CronTrigger("AndroidMarketDataCollectorJobTrigger", "androidmarket", "AndroidMarketDataCollectorJob",
-                "androidmarket", schedule);	//second, minute, hour, dayOfMonth, month, year
+                "androidmarket", schedule);	
         sched.addJob(job, true);
         Date ft1 = sched.scheduleJob(trigger);
         

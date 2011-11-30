@@ -35,8 +35,8 @@ public class AndroidMarketCrawler {
 		}		
 	}
 	
-	public List<Comment> getAppComments(Set<Locale> locales, String appId, int maxPage) {		
-		List<Comment> commentList = new ArrayList<Comment>();
+	public List<Comment> getAppComments(Set<Locale> locales, String appId, int maxPage) {
+		commentList.clear();		
 		
 		System.out.println("locales = " + locales + " appId: " + appId + " maxPage: " + maxPage);
 		
