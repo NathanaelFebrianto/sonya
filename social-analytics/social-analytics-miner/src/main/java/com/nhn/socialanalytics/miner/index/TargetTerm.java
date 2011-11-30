@@ -12,6 +12,7 @@ public class TargetTerm {
 	private int tf;	
 	private double polarity;
 	private List<ChildTerm> childTerms = new ArrayList<ChildTerm>();
+	private List<DetailDoc> docs = new ArrayList<DetailDoc>();	
 	
 	public String getObject() {
 		return object;
@@ -43,6 +44,16 @@ public class TargetTerm {
 	public void setChildTerms(List<ChildTerm> childTerms) {
 		this.childTerms = childTerms;
 	}
+	public List<DetailDoc> getDocs() {
+		return docs;
+	}
+	public void setDocs(List<DetailDoc> docs) {
+		this.docs = docs;
+	}
+	
+	public void addDoc(DetailDoc doc) {
+		docs.add(doc);
+	}		
 	
 	public ChildTerm getChildTerm(String term) {
 		for (ChildTerm childTerm : childTerms) {
