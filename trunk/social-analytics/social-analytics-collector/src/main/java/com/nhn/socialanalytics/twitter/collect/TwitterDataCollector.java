@@ -138,12 +138,12 @@ public class TwitterDataCollector extends Collector {
 		if (!existDataFile) {
 			brData.write("site" + DELIMITER +
 					"object_id" + DELIMITER +
+					"language" + DELIMITER +	
 					"collect_date" + DELIMITER +
 					"tweet_id" + DELIMITER +	
 					"create_date" + DELIMITER +	
 					"from_user" + DELIMITER +		
-					"to_user" + DELIMITER +	
-					"language" + DELIMITER +		
+					"to_user" + DELIMITER +							
 					"text" + DELIMITER +		
 					"text1" + DELIMITER +		
 					"text2" + DELIMITER +		
@@ -160,12 +160,11 @@ public class TwitterDataCollector extends Collector {
 		// post
 		for (twitter4j.Tweet tweet : tweets) {
 			String tweetId = String.valueOf(tweet.getId());
+			String language = tweet.getIsoLanguageCode();			
 			String createDate = DateUtil.convertDateToString("yyyyMMddHHmmss", tweet.getCreatedAt());
 			String fromUserId = String.valueOf(tweet.getFromUserId());
 			String fromUser = tweet.getFromUser();			
-			String toUser = tweet.getToUser();
-			String language = tweet.getIsoLanguageCode();
-			
+			String toUser = tweet.getToUser();			
 			
 			/////////////////////////////////
 			// write new collected all id into file
@@ -195,12 +194,12 @@ public class TwitterDataCollector extends Collector {
 				brData.write(
 						"twitter" + DELIMITER +
 						objectId + DELIMITER +
+						language + DELIMITER +
 						currentDatetime + DELIMITER +
 						tweetId + DELIMITER +
 						createDate + DELIMITER + 
 						fromUser + DELIMITER +
-						toUser + DELIMITER +
-						language + DELIMITER +
+						toUser + DELIMITER +						
 						text + DELIMITER +
 						text1 + DELIMITER +
 						text2 + DELIMITER +
@@ -232,12 +231,12 @@ public class TwitterDataCollector extends Collector {
 						DetailDoc doc = new DetailDoc();
 						doc.setSite("twitter");
 						doc.setObject(objectId);
+						doc.setLanguage(language);
 						doc.setCollectDate(currentDatetime);
 						doc.setDocId(tweetId);
 						doc.setDate(createDate);
 						doc.setUserId(fromUserId);
-						doc.setUserName(fromUser);
-						doc.setLanguage(language);
+						doc.setUserName(fromUser);						
 						doc.setSubject(clause.getSubject());
 						doc.setPredicate(clause.getPredicate());
 						doc.setAttribute(clause.makeAttributesLabel());
