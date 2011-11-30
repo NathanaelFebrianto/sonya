@@ -221,6 +221,8 @@ public class DocIndexSearcher {
 			detailDoc.setPredicate(doc.get(FieldConstants.PREDICATE));
 			detailDoc.setAttribute(doc.get(FieldConstants.ATTRIBUTE));
 			detailDoc.setText(doc.get(FieldConstants.TEXT));
+			
+			result.addDoc(detailDoc);
 
 			if (outField.equals(FieldConstants.SUBJECT) || outField.equals(FieldConstants.PREDICATE)) {
 				if (!stopwordSet.contains(outText)) {
