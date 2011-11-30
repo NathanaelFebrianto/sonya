@@ -211,12 +211,12 @@ public class DocIndexSearcher {
 			DetailDoc detailDoc = new DetailDoc();
 			detailDoc.setSite(doc.get(FieldConstants.SITE));
 			detailDoc.setObject(doc.get(FieldConstants.OBJECT));
+			detailDoc.setLanguage(doc.get(FieldConstants.LANGUAGE));
 			detailDoc.setCollectDate(doc.get(FieldConstants.COLLECT_DATE));
 			detailDoc.setDocId(doc.get(FieldConstants.DOC_ID));
 			detailDoc.setDate(doc.get(FieldConstants.DATE));
 			detailDoc.setUserId(doc.get(FieldConstants.USER_ID));
 			detailDoc.setUserName(doc.get(FieldConstants.USER_NAME));
-			detailDoc.setLanguage(doc.get(FieldConstants.LANGUAGE));
 			detailDoc.setSubject(doc.get(FieldConstants.SUBJECT));
 			detailDoc.setPredicate(doc.get(FieldConstants.PREDICATE));
 			detailDoc.setAttribute(doc.get(FieldConstants.ATTRIBUTE));

@@ -4,12 +4,12 @@ public class DetailDoc {
 
 	private String site = "";
 	private String object = "";
+	private String language = "";
 	private String collectDate = "";
 	private String docId = "";
 	private String date = "";
 	private String userId = "";
 	private String userName = "";
-	private String language = "";
 	private String subject = "";
 	private String predicate = "";
 	private String attribute = "";
@@ -29,6 +29,14 @@ public class DetailDoc {
 
 	public void setObject(String object) {
 		this.object = object;
+	}
+	
+	public String getLanguage() {
+		return language;
+	}
+
+	public void setLanguage(String language) {
+		this.language = language;
 	}
 
 	public String getCollectDate() {
@@ -71,14 +79,6 @@ public class DetailDoc {
 		this.userName = userName;
 	}
 
-	public String getLanguage() {
-		return language;
-	}
-
-	public void setLanguage(String language) {
-		this.language = language;
-	}
-	
 	public String getSubject() {
 		return subject;
 	}
