@@ -1,13 +1,14 @@
 package com.nhn.socialanalytics.miner.index;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ChildTerm {
 
 	private String term;
 	private int tf;
 	private double polarity;
-	private ArrayList<DetailDoc> docs = new ArrayList<DetailDoc>();
+	private List<DetailDoc> docs = new ArrayList<DetailDoc>();
 	
 	public String getTerm() {
 		return term;
@@ -27,10 +28,10 @@ public class ChildTerm {
 	public void setPolarity(double polarity) {
 		this.polarity = polarity;
 	}
-	public ArrayList<DetailDoc> getDocs() {
+	public List<DetailDoc> getDocs() {
 		return docs;
 	}
-	public void setDocs(ArrayList<DetailDoc> docs) {
+	public void setDocs(List<DetailDoc> docs) {
 		this.docs = docs;
 	}
 	
