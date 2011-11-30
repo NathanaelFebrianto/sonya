@@ -35,8 +35,7 @@ public class Me2dayDataCollectorJobTrigger {
         //long ts = TriggerUtils.getNextGivenSecondDate(null, 15).getTime();
 
 		// jobs can be scheduled before sched.start() has been called
-		// job will run every 60 minutes
-        
+
         String schedule = Config.getProperty("ME2DAY_COLLECT_SCHEDULE");
 		JobDetail job = new JobDetail("Me2dayDataCollectorJob", "me2day", Me2dayDataCollectorJob.class);
 		
@@ -44,7 +43,7 @@ public class Me2dayDataCollectorJobTrigger {
 		//map.put("key", "value");
 		
         CronTrigger trigger = new CronTrigger("Me2dayDataCollectorJobTrigger", "me2day", "Me2dayDataCollectorJob",
-                "me2day", schedule);	//second, minute, hour, dayOfMonth, month, year
+                "me2day", schedule);
         sched.addJob(job, true);
         Date ft1 = sched.scheduleJob(trigger);
         

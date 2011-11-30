@@ -34,8 +34,7 @@ public class AppStoreDataCollectorJobTrigger {
         //long ts = TriggerUtils.getNextGivenSecondDate(null, 15).getTime();
 
 		// jobs can be scheduled before sched.start() has been called
-		// job will run every 60 minutes
-        
+
         String schedule = Config.getProperty("APPSTORE_COLLECT_SCHEDULE");
 		JobDetail job = new JobDetail("AppStoreDataCollectorJob", "appstore", AppStoreDataCollectorJob.class);
 		
@@ -43,7 +42,7 @@ public class AppStoreDataCollectorJobTrigger {
 		//map.put("key", "value");
 		
         CronTrigger trigger = new CronTrigger("AppStoreDataCollectorJobTrigger", "appstore", "AppStoreDataCollectorJob",
-                "appstore", schedule);	//second, minute, hour, dayOfMonth, month, year
+                "appstore", schedule);	
         sched.addJob(job, true);
         Date ft1 = sched.scheduleJob(trigger);
         
