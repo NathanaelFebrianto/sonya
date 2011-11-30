@@ -2,17 +2,18 @@ package com.nhn.socialanalytics.miner.index;
 
 public class DetailDoc {
 
-	private String site;
-	private String object;
-	private String collectDate;
-	private String docId;
-	private String date;
-	private String userId;
-	private String userName;
-	private String subject;
-	private String predicate;
-	private String attribute;
-	private String text;
+	private String site = "";
+	private String object = "";
+	private String collectDate = "";
+	private String docId = "";
+	private String date = "";
+	private String userId = "";
+	private String userName = "";
+	private String language = "";
+	private String subject = "";
+	private String predicate = "";
+	private String attribute = "";
+	private String text = "";
 
 	public String getSite() {
 		return site;
@@ -70,6 +71,14 @@ public class DetailDoc {
 		this.userName = userName;
 	}
 
+	public String getLanguage() {
+		return language;
+	}
+
+	public void setLanguage(String language) {
+		this.language = language;
+	}
+	
 	public String getSubject() {
 		return subject;
 	}
@@ -111,6 +120,7 @@ public class DetailDoc {
 		.append(FieldConstants.DATE).append(" | ")			
 		.append(FieldConstants.USER_ID).append(" | ")
 		.append(FieldConstants.USER_NAME).append(" | ")
+		.append(FieldConstants.LANGUAGE).append(" | ")
 		.append(FieldConstants.SUBJECT).append(" | ")
 		.append(FieldConstants.PREDICATE).append(" | ")
 		.append(FieldConstants.ATTRIBUTE).append(" | ")
@@ -128,6 +138,7 @@ public class DetailDoc {
 			.append(date).append(" | ")			
 			.append(userId).append(" | ")
 			.append(userName).append(" | ")
+			.append(language).append(" | ")
 			.append(subject).append(" | ")
 			.append(predicate).append(" | ")
 			.append(attribute).append(" | ")
