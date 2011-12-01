@@ -381,7 +381,7 @@ public class OpinionTreeViewer extends JApplet {
 		
 		try {
 			File[] indexDirs = new File[1];
-			indexDirs[0] = new File("./bin/data/me2day/index/20111129");
+			indexDirs[0] = new File("./bin/data/twitter/index/20111201");
 			
 			String object = "fta";
 			
@@ -396,18 +396,20 @@ public class OpinionTreeViewer extends JApplet {
 			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs, stopwordFile, customStopwordSet);
 			System.out.println("stopwords == " + searcher.getStopwords());
 			
+			
+			
 			OpinionGraphModeller modeller = new OpinionGraphModeller();
 			
 			/////////////////////////////////
 			/* target term ==> PREDICATE   */
 			/////////////////////////////////
 
-			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.PREDICATE, 5, true);					
+			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.PREDICATE, 10, true);					
 			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
 				String term = entry.getKey();
 			
-				TargetTerm subjectTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 5);
-				TargetTerm attributeTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.ATTRIBUTE, term, 5);
+				TargetTerm subjectTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 10);
+				TargetTerm attributeTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.ATTRIBUTE, term, 10);
 				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
 				termMap.put(FieldConstants.SUBJECT, subjectTerm);
 				termMap.put(FieldConstants.ATTRIBUTE, attributeTerm);
