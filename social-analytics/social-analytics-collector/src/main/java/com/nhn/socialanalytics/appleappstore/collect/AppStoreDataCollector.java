@@ -246,13 +246,13 @@ public class AppStoreDataCollector extends Collector {
 		AppStoreDataCollector collector = new AppStoreDataCollector();
 		
 		Set<String> appStores = new HashSet<String>();
-		appStores.add(AppStores.getAppStore("Japan"));
+		appStores.add(AppStores.getAppStore("Korea"));
 		//appStores.add(AppStores.getAppStore("Australia"));
 		
 		String objectId = "naverline";
 		String appId = "443904275";		
 		
-		List<Review> reviews = collector.getReviews(appStores, appId);
+		List<Review> reviews = collector.getReviews(appStores, appId, 10);
 		//List<Review> reviews = collector.getReviews(AppStores.getAllAppStores(), appId);
 		
 		try {

@@ -249,7 +249,7 @@ public class TwitterDataCollector extends Collector {
 	public static void main(String[] args) {
 		TwitterDataCollector collector = new TwitterDataCollector();
 		
-		//String objectId = "fta";
+		String objectId = "fta";
 		//String query = "한미FTA OR ISD";
 		
 		//String objectId = "gameshutdown";
@@ -263,11 +263,11 @@ public class TwitterDataCollector extends Collector {
 		
 		//List<twitter4j.Tweet> tweets = collector.searchTweets(objectId, query, "2011-02-01", null, 10);
 		
-		String objectId = "naverline";
+		//String objectId = "naverline";
 		Map<String, Integer> queryMap = new HashMap<String, Integer>();
-		//queryMap.put("한미FTA OR ISD", 5);
-		//queryMap.put("FTA OR ISD", 5);
-		queryMap.put("네이버 라인 OR 네이버 LINE", 10);
+		queryMap.put("한미FTA OR ISD", 5);
+		queryMap.put("FTA OR ISD", 5);
+		//queryMap.put("네이버 라인 OR 네이버 LINE", 10);
 		//queryMap.put("NAVER LINE", 10);
 		
 		Date since = DateUtil.addDay(new Date(), -30);

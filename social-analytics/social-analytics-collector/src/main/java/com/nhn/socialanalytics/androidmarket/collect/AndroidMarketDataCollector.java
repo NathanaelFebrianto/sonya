@@ -234,11 +234,13 @@ public class AndroidMarketDataCollector extends Collector {
 	
 	public static void main(String[] args) {
 		
-		String loginAccount = "louiezzang@gmail.com";
-		String loginPasswd = "bae120809";
+		String loginAccount = "xxx@gmail.com";
+		String loginPasswd = "xxx";
 		AndroidMarketDataCollector collector = new AndroidMarketDataCollector(loginAccount, loginPasswd);	
 		
-		Set<Locale> locales = AndroidMarkets.getAllAndroidMarkets();
+		//Set<Locale> locales = AndroidMarkets.getAllAndroidMarkets();
+		Set<Locale> locales = new HashSet<Locale>();
+		locales.add(Locale.KOREA);
 		
 		//String query = "네이버톡";
 		//String query = "pname:com.nhn.android.navertalk";
