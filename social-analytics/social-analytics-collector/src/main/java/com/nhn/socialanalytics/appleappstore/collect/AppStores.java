@@ -1,12 +1,9 @@
 package com.nhn.socialanalytics.appleappstore.collect;
 
-import java.util.Arrays;
-import java.util.Date;
 import java.util.HashMap;
-import java.util.List;
+import java.util.HashSet;
 import java.util.Map;
-
-import org.apache.lucene.analysis.CharArraySet;
+import java.util.Set;
 
 public class AppStores {
 
@@ -93,6 +90,16 @@ public class AppStores {
 		appStores.put("Vietnam", "143471");
 		
 		APP_STORES = appStores;
+	}
+	
+	public static final Set<String> getAllAppStores() {
+		Set<String> appStores = new HashSet<String>();
+		
+		for (Map.Entry<String, String> entry : APP_STORES.entrySet()) {
+			appStores.add(entry.getValue());
+		}
+		
+		return appStores;
 	}
 	
 	public static final String getAppStore(String country) {

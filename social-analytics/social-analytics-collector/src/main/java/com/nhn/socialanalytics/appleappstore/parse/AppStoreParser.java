@@ -18,7 +18,7 @@ public class AppStoreParser {
 		while (matcher.find()) {
 			String matchText = matcher.group();
 			if (!matchText.isEmpty()) {
-				return extractNumber(matchText);
+				return String.valueOf(extractNumber(matchText));
 			}
 		}
 		
@@ -32,7 +32,7 @@ public class AppStoreParser {
 		while (matcher.find()) {
 			String matchText = matcher.group();
 			if (!matchText.isEmpty()) {
-				return extractNumber(matchText);
+				return  String.valueOf(extractNumber(matchText));
 			}
 		}
 		
@@ -88,18 +88,23 @@ public class AppStoreParser {
 		return strDate;
 	}
 	
-	public static String extractNumber(String text) {
+	public static int extractNumber(String text) {
+		System.out.println("text == " + text);
+		
 		Pattern pattern = Pattern.compile("([0-9]+)", Pattern.CASE_INSENSITIVE);
-		
-		Matcher matcher = pattern.matcher(text);
-		while (matcher.find()) {
-			String matchText = matcher.group();
-			if (!matchText.isEmpty()) {
-				return matchText;
-			}
+		try {
+			Matcher matcher = pattern.matcher(text);
+			while (matcher.find()) {
+				String matchText = matcher.group();
+				if (!matchText.isEmpty()) {
+					return Integer.valueOf(matchText);
+				}
+			}			
+		} catch (NumberFormatException e) {
+			e.printStackTrace();
+			return 0;
 		}
-		
-		return "";		
+		return 0;		
 	}
 
 }

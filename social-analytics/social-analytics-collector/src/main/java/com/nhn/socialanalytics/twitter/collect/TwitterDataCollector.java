@@ -22,8 +22,9 @@ import twitter4j.Twitter;
 import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
 
-import com.nhn.socialanalytics.common.Collector;
 import com.nhn.socialanalytics.common.JobLogger;
+import com.nhn.socialanalytics.common.collect.CollectHistoryBuffer;
+import com.nhn.socialanalytics.common.collect.Collector;
 import com.nhn.socialanalytics.common.util.DateUtil;
 import com.nhn.socialanalytics.miner.index.DetailDoc;
 import com.nhn.socialanalytics.miner.index.DocIndexSearcher;
@@ -39,10 +40,12 @@ import com.nhn.socialanalytics.twitter.parse.TwitterParser;
 public class TwitterDataCollector extends Collector {
 
 	private static JobLogger logger = JobLogger.getLogger(TwitterDataCollector.class, "twitter-collect.log");
+	private static final String TARGET_SITE_NAME = "twitter";
+	
 	private Twitter twitter;
 	
-	public TwitterDataCollector() {	
-		twitter = new TwitterFactory().getInstance();
+	public TwitterDataCollector() {
+		this.twitter = new TwitterFactory().getInstance();
 	}
 	
 	public List<twitter4j.Tweet> searchTweets(Map<String, Integer> queryMap, Date since, Date until) {
@@ -100,19 +103,16 @@ public class TwitterDataCollector extends Collector {
 		return tweets;
 	}
 	
-	public void writeOutput(String dataDir, String indexDir, String liwcCatFile, 
-			String objectId, List<twitter4j.Tweet> tweets, Date collectDate) throws IOException, Exception {
+	public void writeOutput(String dataDir, String indexDir, String liwcCatFile, String objectId, 
+			List<twitter4j.Tweet> tweets, Date collectDate, int historyBufferMaxRound) throws IOException, Exception {
 		
 		String currentDatetime = DateUtil.convertDateToString("yyyyMMddHHmmss", new Date());	
 		File docIndexDir = super.getDocIndexDir(indexDir, collectDate);
 		File dataFile = super.getDataFile(dataDir, objectId, collectDate);
-		File newCollectedIdSetFile = super.getIDSetFile(dataDir, objectId);	
-		
-		///////////////////////////
-		// get the id hash set collected previously to compare with new collected data set
-		// and remove duplication
-		Set<String> prevColIdSet = super.loadPrevCollectedHashSet(dataDir, objectId);
-		///////////////////////////
+
+		// collect history buffer
+		Set<String> idSet = new HashSet<String>();
+		CollectHistoryBuffer history = new CollectHistoryBuffer(super.getCollectHistoryFile(dataDir, objectId), historyBufferMaxRound);
 				
 		MorphemeAnalyzer morph = MorphemeAnalyzer.getInstance();
 		SemanticAnalyzer semantic = SemanticAnalyzer.getInstance();
@@ -128,12 +128,6 @@ public class TwitterDataCollector extends Collector {
 			existDataFile = true;
 		
 		BufferedWriter brData = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(dataFile.getPath(), true), "UTF-8"));
-		
-		//////////////////////////////
-		// new collected id set file
-		BufferedWriter brCollectedIdSet = new BufferedWriter(new OutputStreamWriter(
-				new FileOutputStream(newCollectedIdSetFile.getPath(), false), "UTF-8"));
-		//////////////////////////////
 		
 		if (!existDataFile) {
 			brData.write("site" + DELIMITER +
@@ -167,13 +161,12 @@ public class TwitterDataCollector extends Collector {
 			String toUser = tweet.getToUser();			
 			
 			/////////////////////////////////
-			// write new collected all id into file
-			brCollectedIdSet.write(tweetId);
-			brCollectedIdSet.newLine();
-			/////////////////////////////////			
+			// add new collected id into set
+			idSet.add(tweetId);
+			/////////////////////////////////		
 						
 			// if no duplication, write collected data
-			if (!prevColIdSet.contains(tweetId)) {
+			if (!history.checkDuplicate(tweetId)) {
 				String text = TwitterParser.extractContent(tweet.getText());
 				String textEmotiTagged = TwitterParser.convertEmoticonToTag(text);
 				
@@ -192,7 +185,7 @@ public class TwitterDataCollector extends Collector {
 				
 				// write new collected data into source file
 				brData.write(
-						"twitter" + DELIMITER +
+						TARGET_SITE_NAME + DELIMITER +
 						objectId + DELIMITER +
 						language + DELIMITER +
 						currentDatetime + DELIMITER +
@@ -229,7 +222,7 @@ public class TwitterDataCollector extends Collector {
 				else {
 					for (SemanticClause clause : semanticSentence) {
 						DetailDoc doc = new DetailDoc();
-						doc.setSite("twitter");
+						doc.setSite(TARGET_SITE_NAME);
 						doc.setObject(objectId);
 						doc.setLanguage(language);
 						doc.setCollectDate(currentDatetime);
@@ -249,8 +242,8 @@ public class TwitterDataCollector extends Collector {
 		}
 		
 		brData.close();
-		brCollectedIdSet.close();		
 		indexWriter.close();
+		history.writeCollectHistory(idSet);
 	}
 	
 	public static void main(String[] args) {
@@ -281,7 +274,7 @@ public class TwitterDataCollector extends Collector {
 		List<twitter4j.Tweet> tweets = collector.searchTweets(queryMap, since, null);
 				
 		try {
-			collector.writeOutput("./bin/data/twitter/collect/", "./bin/data/twitter/index/", "./bin/liwc/LIWC_ko.txt", objectId, tweets, new Date());
+			collector.writeOutput("./bin/data/twitter/collect/", "./bin/data/twitter/index/", "./bin/liwc/LIWC_ko.txt", objectId, tweets, new Date(), 1);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
