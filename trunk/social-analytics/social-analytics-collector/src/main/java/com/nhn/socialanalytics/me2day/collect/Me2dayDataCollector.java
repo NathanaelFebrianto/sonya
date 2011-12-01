@@ -8,6 +8,7 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -15,8 +16,9 @@ import java.util.Set;
 
 import org.apache.lucene.document.Document;
 
-import com.nhn.socialanalytics.common.Collector;
 import com.nhn.socialanalytics.common.JobLogger;
+import com.nhn.socialanalytics.common.collect.CollectHistoryBuffer;
+import com.nhn.socialanalytics.common.collect.Collector;
 import com.nhn.socialanalytics.common.util.DateUtil;
 import com.nhn.socialanalytics.me2day.model.Post;
 import com.nhn.socialanalytics.me2day.parse.Me2dayParser;
@@ -33,10 +35,12 @@ import com.nhn.socialanalytics.nlp.kr.sentiment.SentimentAnalyzer;
 public class Me2dayDataCollector extends Collector {
 
 	private static JobLogger logger = JobLogger.getLogger(Me2dayDataCollector.class, "me2day-collect.log");
+	private static final String TARGET_SITE_NAME = "me2day";
+	
 	private Me2dayCrawler crawler;
 	
 	public Me2dayDataCollector() {
-		crawler = new Me2dayCrawler();
+		this.crawler = new Me2dayCrawler();
 	}
 	
 	public List<Post> searchPosts(Map<String, Integer> queryMap, String target, Date since, Date until) {
@@ -59,19 +63,16 @@ public class Me2dayDataCollector extends Collector {
 		return posts;
 	}
 	
-	public void writeOutput(String dataDir, String indexDir, String liwcCatFile, 
-			String objectId, List<Post> posts, Date collectDate) throws IOException, Exception {
+	public void writeOutput(String dataDir, String indexDir, String liwcCatFile, String objectId, 
+			List<Post> posts, Date collectDate, int historyBufferMaxRound) throws IOException, Exception {
 		
 		String currentDatetime = DateUtil.convertDateToString("yyyyMMddHHmmss", new Date());	
 		File docIndexDir = super.getDocIndexDir(indexDir, collectDate);
 		File dataFile = super.getDataFile(dataDir, objectId, collectDate);
-		File newCollectedIdSetFile = super.getIDSetFile(dataDir, objectId);	
-		
-		///////////////////////////
-		// get the id hash set collected previously to compare with new collected data set
-		// and remove duplication
-		Set<String> prevColIdSet = super.loadPrevCollectedHashSet(dataDir, objectId);
-		///////////////////////////
+	
+		// collect history buffer
+		Set<String> idSet = new HashSet<String>();
+		CollectHistoryBuffer history = new CollectHistoryBuffer(super.getCollectHistoryFile(dataDir, objectId), historyBufferMaxRound);
 				
 		MorphemeAnalyzer morph = MorphemeAnalyzer.getInstance();
 		SemanticAnalyzer semantic = SemanticAnalyzer.getInstance();
@@ -87,12 +88,6 @@ public class Me2dayDataCollector extends Collector {
 			existDataFile = true;
 		
 		BufferedWriter brData = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(dataFile.getPath(), true), "UTF-8"));
-		
-		//////////////////////////////
-		// new collected id set file
-		BufferedWriter brCollectedIdSet = new BufferedWriter(new OutputStreamWriter(
-				new FileOutputStream(newCollectedIdSetFile.getPath(), false), "UTF-8"));
-		//////////////////////////////
 		
 		if (!existDataFile) {
 			brData.write("site" + DELIMITER +
@@ -134,13 +129,12 @@ public class Me2dayDataCollector extends Collector {
 			String permalink = post.getPermalink();
 			
 			/////////////////////////////////
-			// write new collected all id into file
-			brCollectedIdSet.write(postId);
-			brCollectedIdSet.newLine();
-			/////////////////////////////////			
+			// add new collected id into set
+			idSet.add(postId);
+			/////////////////////////////////				
 						
 			// if no duplication, write collected data
-			if (!prevColIdSet.contains(postId)) {
+			if (!history.checkDuplicate(postId)) {
 				String text = Me2dayParser.extractContent(body, "POST");
 				String tagText1 = Me2dayParser.extractContent("TAG", tagText);				
 				
@@ -161,7 +155,7 @@ public class Me2dayDataCollector extends Collector {
 				
 				// write new collected data into source file
 				brData.write(
-						"me2day" + DELIMITER +
+						TARGET_SITE_NAME + DELIMITER +
 						objectId + DELIMITER +
 						currentDatetime + DELIMITER +
 						postId + DELIMITER +
@@ -201,7 +195,7 @@ public class Me2dayDataCollector extends Collector {
 				else {
 					for (SemanticClause clause : semanticSentence) {
 						DetailDoc doc = new DetailDoc();
-						doc.setSite("me2day");
+						doc.setSite(TARGET_SITE_NAME);
 						doc.setObject(objectId);
 						doc.setLanguage("ko");
 						doc.setCollectDate(currentDatetime);
@@ -221,8 +215,8 @@ public class Me2dayDataCollector extends Collector {
 		}
 		
 		brData.close();
-		brCollectedIdSet.close();		
 		indexWriter.close();
+		history.writeCollectHistory(idSet);
 	}
 	
 	public static void main(String[] args) {
@@ -244,7 +238,7 @@ public class Me2dayDataCollector extends Collector {
 		List<Post> posts = collector.searchPosts(queryMap, Me2dayCrawler.TARGET_BODY, since, until);
 				
 		try {
-			collector.writeOutput("./bin/data/me2day/collect/", "./bin/data/me2day/index/", "./bin/liwc/LIWC_ko.txt", objectId, posts, new Date());
+			collector.writeOutput("./bin/data/me2day/collect/", "./bin/data/me2day/index/", "./bin/liwc/LIWC_ko.txt", objectId, posts, new Date(), 1);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

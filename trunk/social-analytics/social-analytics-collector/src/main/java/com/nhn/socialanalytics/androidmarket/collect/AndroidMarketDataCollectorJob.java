@@ -58,7 +58,7 @@ public class AndroidMarketDataCollectorJob implements Job {
 				String indexDir = Config.getProperty("ANDROIDMARKET_INDEX_DIR");
 				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
 				
-				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId1, comments1, startTime);
+				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId1, comments1, startTime, 5);
 				
 			} catch (Exception e) {
 				e.printStackTrace();
@@ -76,7 +76,7 @@ public class AndroidMarketDataCollectorJob implements Job {
 				String indexDir = Config.getProperty("ANDROIDMARKET_INDEX_DIR");
 				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
 				
-				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId2, comments2, startTime);
+				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId2, comments2, startTime, 5);
 				
 			} catch (Exception e) {
 				e.printStackTrace();
@@ -94,7 +94,7 @@ public class AndroidMarketDataCollectorJob implements Job {
 				String indexDir = Config.getProperty("ANDROIDMARKET_INDEX_DIR");
 				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
 				
-				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId3, comments3, startTime);
+				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId3, comments3, startTime, 5);
 				
 			} catch (Exception e) {
 				e.printStackTrace();

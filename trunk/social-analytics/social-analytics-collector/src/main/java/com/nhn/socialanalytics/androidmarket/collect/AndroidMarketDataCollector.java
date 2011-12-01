@@ -3,7 +3,6 @@ package com.nhn.socialanalytics.androidmarket.collect;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.Date;
@@ -18,8 +17,9 @@ import java.util.Set;
 import org.apache.lucene.document.Document;
 
 import com.gc.android.market.api.model.Market.Comment;
-import com.nhn.socialanalytics.common.Collector;
 import com.nhn.socialanalytics.common.JobLogger;
+import com.nhn.socialanalytics.common.collect.CollectHistoryBuffer;
+import com.nhn.socialanalytics.common.collect.Collector;
 import com.nhn.socialanalytics.common.util.DateUtil;
 import com.nhn.socialanalytics.common.util.StringUtil;
 import com.nhn.socialanalytics.miner.index.DetailDoc;
@@ -35,15 +35,17 @@ import com.nhn.socialanalytics.nlp.kr.sentiment.SentimentAnalyzer;
 public class AndroidMarketDataCollector extends Collector { 
 	
 	private static JobLogger logger = JobLogger.getLogger(AndroidMarketDataCollector.class, "androidmarket-collect.log");
-	private AndroidMarketCrawler crawler;	
+	private static final String TARGET_SITE_NAME = "androidmarket";
+	
+	private AndroidMarketCrawler crawler;
 	
 	public AndroidMarketDataCollector(String loginAccount, String loginPasswd) {
 		this(loginAccount, loginPasswd, null);
-	}
+	}	
 	
 	public AndroidMarketDataCollector(String loginAccount, String loginPasswd, File spamFilterFile) {
 		super(spamFilterFile);
-		crawler = new AndroidMarketCrawler(loginAccount, loginPasswd);
+		this.crawler = new AndroidMarketCrawler(loginAccount, loginPasswd);
 	}
 	
 	public Map<Locale, List<Comment>> getAppCommentsByLocales(Set<Locale> locales, String appId, int maxPage) {
@@ -76,19 +78,16 @@ public class AndroidMarketDataCollector extends Collector {
 		return commentList;
 	}
 	
-	public void writeOutput(String dataDir, String indexDir, String liwcCatFile, 
-			String objectId, Map<Locale, List<Comment>> commentsMap, Date collectDate) throws IOException, Exception {
+	public void writeOutput(String dataDir, String indexDir, String liwcCatFile, String objectId, 
+			Map<Locale, List<Comment>> commentsMap, Date collectDate, int historyBufferMaxRound) throws Exception {		
 		
 		String currentDatetime = DateUtil.convertDateToString("yyyyMMddHHmmss", new Date());	
 		File docIndexDir = super.getDocIndexDir(indexDir, collectDate);
 		File dataFile = super.getDataFile(dataDir, objectId, collectDate);
-		File newCollectedIdSetFile = super.getIDSetFile(dataDir, objectId);	
 		
-		///////////////////////////
-		// get the id hash set collected previously to compare with new collected data set
-		// and remove duplication
-		Set<String> prevColIdSet = super.loadPrevCollectedHashSet(dataDir, objectId);
-		///////////////////////////
+		// collect history buffer
+		Set<String> idSet = new HashSet<String>();
+		CollectHistoryBuffer history = new CollectHistoryBuffer(super.getCollectHistoryFile(dataDir, objectId), historyBufferMaxRound);
 				
 		MorphemeAnalyzer morph = MorphemeAnalyzer.getInstance();
 		SemanticAnalyzer semantic = SemanticAnalyzer.getInstance();
@@ -103,14 +102,8 @@ public class AndroidMarketDataCollector extends Collector {
 		if (dataFile.exists())
 			existDataFile = true;
 		
-		BufferedWriter brData = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(dataFile.getPath(), true), "UTF-8"));
-		
-		//////////////////////////////
-		// new collected id set file
-		BufferedWriter brCollectedIdSet = new BufferedWriter(new OutputStreamWriter(
-				new FileOutputStream(newCollectedIdSetFile.getPath(), false), "UTF-8"));
-		//////////////////////////////
-		
+		BufferedWriter brData = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(dataFile.getPath(), true), "UTF-8"));		
+	
 		if (!existDataFile) {
 			brData.write("site" + DELIMITER +
 					"object_id" + DELIMITER +
@@ -149,13 +142,12 @@ public class AndroidMarketDataCollector extends Collector {
 				String commentId = createDate + "-" + authorId;
 				
 				/////////////////////////////////
-				// write new collected all id into file
-				brCollectedIdSet.write(commentId);
-				brCollectedIdSet.newLine();
+				// add new collected id into set
+				idSet.add(commentId);
 				/////////////////////////////////			
 							
 				// if no duplication, write collected data
-				if (!prevColIdSet.contains(commentId)) {
+				if (!history.checkDuplicate(commentId)) {
 					boolean isSpam = super.isSpam(text);
 					String textEmotiTagged = StringUtil.convertEmoticonToTag(text);
 					
@@ -174,7 +166,7 @@ public class AndroidMarketDataCollector extends Collector {
 					
 					// write new collected data into source file
 					brData.write(
-							"androidmarket" + DELIMITER +
+							TARGET_SITE_NAME + DELIMITER +
 							objectId + DELIMITER +
 							locale + DELIMITER +
 							currentDatetime + DELIMITER +
@@ -214,7 +206,7 @@ public class AndroidMarketDataCollector extends Collector {
 						else {
 							for (SemanticClause clause : semanticSentence) {
 								DetailDoc doc = new DetailDoc();
-								doc.setSite("androidmarket");
+								doc.setSite(TARGET_SITE_NAME);
 								doc.setObject(objectId);
 								doc.setLanguage(locale.toString());
 								doc.setCollectDate(currentDatetime);
@@ -236,36 +228,34 @@ public class AndroidMarketDataCollector extends Collector {
 		}
 			
 		brData.close();
-		brCollectedIdSet.close();		
-		indexWriter.close();
+		indexWriter.close();		
+		history.writeCollectHistory(idSet);
 	}
 	
 	public static void main(String[] args) {
 		
-		String loginAccount = "xxx@gmail.com";
-		String loginPasswd = "xxx";
+		String loginAccount = "louiezzang@gmail.com";
+		String loginPasswd = "bae120809";
 		AndroidMarketDataCollector collector = new AndroidMarketDataCollector(loginAccount, loginPasswd);	
 		
-		Set<Locale> locales = new HashSet<Locale>();
-		locales.add(Locale.KOREA);
-		locales.add(Locale.ENGLISH);
+		Set<Locale> locales = AndroidMarkets.getAllAndroidMarkets();
 		
 		//String query = "네이버톡";
 		//String query = "pname:com.nhn.android.navertalk";
 		//collector.searchApps(Locale.KOREA, query, 1);
 		
-		//String objectId = "naverline";
-		String objectId = "kakaotalk";
+		String objectId = "naverline";
+		//String objectId = "kakaotalk";
 		//String appId = "com.nhn.android.navertalk";
 		//String appId = "com.nhn.android.search";
-		//String appId = "jp.naver.line.android";
+		String appId = "jp.naver.line.android";
 		//String appId = "com.nhn.android.nbooks";
-		String appId = "com.kakao.talk";
+		//String appId = "com.kakao.talk";
 		
 		//List<Comment> comments = collector.getAppComments(locales, appId, 2);
-		Map<Locale, List<Comment>> commentsMap = collector.getAppCommentsByLocales(locales, appId, 2);
+		Map<Locale, List<Comment>> commentsMap = collector.getAppCommentsByLocales(locales, appId, 10);
 		try {
-			collector.writeOutput("./bin/data/androidmarket/collect/", "./bin/data/androidmarket/index/", "./bin/liwc/LIWC_ko.txt", objectId, commentsMap, new Date());
+			collector.writeOutput("./bin/data/androidmarket/collect/", "./bin/data/androidmarket/index/", "./bin/liwc/LIWC_ko.txt", objectId, commentsMap, new Date(), 2);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

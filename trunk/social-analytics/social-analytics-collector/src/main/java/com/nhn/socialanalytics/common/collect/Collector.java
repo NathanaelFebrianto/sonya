@@ -1,13 +1,9 @@
-package com.nhn.socialanalytics.common;
+package com.nhn.socialanalytics.common.collect;
 
-import java.io.BufferedReader;
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.UnsupportedEncodingException;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -70,30 +66,6 @@ public abstract class Collector {
 		return false;		
 	}
 	
-	protected Set<String> loadPrevCollectedHashSet(String dataDir, String objectId) throws IOException, UnsupportedEncodingException {
-		Set<String> idSet = new HashSet<String>();
-		
-		try {			
-			File prevColIdSetFile = this.getIDSetFile(dataDir, objectId);
-			
-			InputStream is = new FileInputStream(prevColIdSetFile);
-			BufferedReader in = new BufferedReader(new InputStreamReader(is, "UTF-8")); 
-			
-			String line;
-			while ((line = in.readLine()) != null) {
-				String[] tokens = Pattern.compile(DELIMITER).split(line);				
-				String tweetId = tokens[0];
-				idSet.add(tweetId);
-			}
-			is.close();
-		} catch (FileNotFoundException e) {
-			System.out.println(e.getMessage());
-			return idSet;
-		}
-		
-		return idSet;
-	}
-	
 	protected File[] getDocumentIndexDirsToSearch(String parentIndexDir, Date collectDate) {		
 		File currentDocIndexDir = this.getDocIndexDir(parentIndexDir, collectDate);
 		File beforeDocIndexDir = this.getDocIndexDir(parentIndexDir,  DateUtil.addDay(collectDate, -1));
@@ -131,7 +103,7 @@ public abstract class Collector {
 		return new File(parentIndexDir + File.separator + strDate);
 	}
 	
-	protected File getIDSetFile(String dataDir, String objectId) {
+	protected File getCollectHistoryFile(String dataDir, String objectId) {
 		return new File(dataDir + File.separator + objectId + ".txt");	
 	}
 

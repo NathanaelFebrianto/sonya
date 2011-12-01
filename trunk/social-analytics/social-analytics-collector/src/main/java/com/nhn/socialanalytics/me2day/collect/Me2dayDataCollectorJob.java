@@ -55,7 +55,7 @@ public class Me2dayDataCollectorJob implements Job {
 				String indexDir = Config.getProperty("ME2DAY_INDEX_DIR");
 				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
 				
-				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId1, posts1, startTime);
+				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId1, posts1, startTime, 1);
 				
 			} catch (Exception e) {
 				e.printStackTrace();
@@ -78,7 +78,7 @@ public class Me2dayDataCollectorJob implements Job {
 				String indexDir = Config.getProperty("ME2DAY_INDEX_DIR");
 				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
 				
-				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId2, posts2, startTime);
+				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId2, posts2, startTime, 1);
 				
 			} catch (Exception e) {
 				e.printStackTrace();

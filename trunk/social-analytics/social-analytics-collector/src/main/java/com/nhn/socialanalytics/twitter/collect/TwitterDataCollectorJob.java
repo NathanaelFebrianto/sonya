@@ -52,7 +52,7 @@ public class TwitterDataCollectorJob implements Job {
 				String indexDir = Config.getProperty("TWITTER_INDEX_DIR");
 				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
 				
-				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId1, tweets1, startTime);
+				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId1, tweets1, startTime, 1);
 				
 			} catch (Exception e) {
 				e.printStackTrace();
@@ -73,7 +73,7 @@ public class TwitterDataCollectorJob implements Job {
 				String indexDir = Config.getProperty("TWITTER_INDEX_DIR");
 				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
 				
-				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId2, tweets2, startTime);
+				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId2, tweets2, startTime, 1);
 				
 			} catch (Exception e) {
 				e.printStackTrace();

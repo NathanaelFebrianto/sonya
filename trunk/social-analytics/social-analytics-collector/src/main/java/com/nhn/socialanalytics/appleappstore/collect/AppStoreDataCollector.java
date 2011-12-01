@@ -15,8 +15,9 @@ import java.util.Set;
 import org.apache.lucene.document.Document;
 
 import com.nhn.socialanalytics.appleappstore.model.Review;
-import com.nhn.socialanalytics.common.Collector;
 import com.nhn.socialanalytics.common.JobLogger;
+import com.nhn.socialanalytics.common.collect.CollectHistoryBuffer;
+import com.nhn.socialanalytics.common.collect.Collector;
 import com.nhn.socialanalytics.common.util.DateUtil;
 import com.nhn.socialanalytics.common.util.StringUtil;
 import com.nhn.socialanalytics.miner.index.DetailDoc;
@@ -33,15 +34,35 @@ import com.nhn.socialanalytics.nlp.kr.sentiment.SentimentAnalyzer;
 public class AppStoreDataCollector extends Collector {
 	
 	private static JobLogger logger = JobLogger.getLogger(AppStoreDataCollector.class, "appstore-collect.log");
-	private AppStoreCrawler crawler;	
+	private static final String TARGET_SITE_NAME = "appstore";
+	
+	private AppStoreCrawler crawler;
 
 	public AppStoreDataCollector() {
 		this(null);
 	}
 	
 	public AppStoreDataCollector(File spamFilterFile) {
-		super(spamFilterFile);
-		crawler = new AppStoreCrawler();
+		super(spamFilterFile);		
+		this.crawler = new AppStoreCrawler();
+	}
+	
+	public List<Review> getReviews(Set<String> appStores, String appId) {
+		List<Review> result = new ArrayList<Review>();
+		
+		try {           	
+        	logger.info("------------------------------------------------");
+        	logger.info("appStores = " + appStores + " appId: " + appId);
+         	
+        	result = crawler.getReviews(appStores, appId);
+	            
+	        logger.info("result size [appStores:" + appStores + "] = " + result.size());           
+		} catch (Exception e) {
+			e.printStackTrace();
+			logger.error(e.getMessage(), e);
+		}		
+		
+		return result;
 	}
 	
 	public List<Review> getReviews(Set<String> appStores, String appId, int maxPage) {
@@ -62,19 +83,16 @@ public class AppStoreDataCollector extends Collector {
 		return result;
 	}
 	
-	public void writeOutput(String dataDir, String indexDir, String liwcCatFile, 
-			String objectId, List<Review> reviews, Date collectDate) throws IOException, Exception {
+	public void writeOutput(String dataDir, String indexDir, String liwcCatFile, String objectId, 
+			List<Review> reviews, Date collectDate, int historyBufferMaxRound) throws IOException, Exception {
 		
 		String currentDatetime = DateUtil.convertDateToString("yyyyMMddHHmmss", new Date());	
 		File docIndexDir = super.getDocIndexDir(indexDir, collectDate);
 		File dataFile = super.getDataFile(dataDir, objectId, collectDate);
-		File newCollectedIdSetFile = super.getIDSetFile(dataDir, objectId);	
-		
-		///////////////////////////
-		// get the id hash set collected previously to compare with new collected data set
-		// and remove duplication
-		Set<String> prevColIdSet = super.loadPrevCollectedHashSet(dataDir, objectId);
-		///////////////////////////
+
+		// collect history buffer
+		Set<String> idSet = new HashSet<String>();
+		CollectHistoryBuffer history = new CollectHistoryBuffer(super.getCollectHistoryFile(dataDir, objectId), historyBufferMaxRound);
 				
 		MorphemeAnalyzer morph = MorphemeAnalyzer.getInstance();
 		SemanticAnalyzer semantic = SemanticAnalyzer.getInstance();
@@ -90,12 +108,6 @@ public class AppStoreDataCollector extends Collector {
 			existDataFile = true;
 		
 		BufferedWriter brData = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(dataFile.getPath(), true), "UTF-8"));
-		
-		//////////////////////////////
-		// new collected id set file
-		BufferedWriter brCollectedIdSet = new BufferedWriter(new OutputStreamWriter(
-				new FileOutputStream(newCollectedIdSetFile.getPath(), false), "UTF-8"));
-		//////////////////////////////
 		
 		if (!existDataFile) {
 			brData.write("site" + DELIMITER +
@@ -138,13 +150,12 @@ public class AppStoreDataCollector extends Collector {
 			int rating = review.getRating();
 			
 			/////////////////////////////////
-			// write new collected all id into file
-			brCollectedIdSet.write(reviewId);
-			brCollectedIdSet.newLine();
+			// add new collected id into set
+			idSet.add(reviewId);
 			/////////////////////////////////			
 						
 			// if no duplication, write collected data
-			if (!prevColIdSet.contains(reviewId)) {
+			if (!history.checkDuplicate(reviewId)) {
 				boolean isSpam = super.isSpam(text);
 				String textEmotiTagged = StringUtil.convertEmoticonToTag(text);
 				
@@ -163,7 +174,7 @@ public class AppStoreDataCollector extends Collector {
 				
 				// write new collected data into source file
 				brData.write(
-						"appstore" + DELIMITER +
+						TARGET_SITE_NAME + DELIMITER +
 						objectId + DELIMITER +
 						country + DELIMITER +
 						currentDatetime + DELIMITER +						
@@ -206,7 +217,7 @@ public class AppStoreDataCollector extends Collector {
 					else {
 						for (SemanticClause clause : semanticSentence) {
 							DetailDoc doc = new DetailDoc();
-							doc.setSite("appstore");
+							doc.setSite(TARGET_SITE_NAME);
 							doc.setObject(objectId);
 							doc.setLanguage(country);
 							doc.setCollectDate(currentDatetime);
@@ -227,24 +238,25 @@ public class AppStoreDataCollector extends Collector {
 		}
 		
 		brData.close();
-		brCollectedIdSet.close();		
-		indexWriter.close();
+		indexWriter.close();		
+		history.writeCollectHistory(idSet);
 	}
 	
 	public static void main(String[] args) {
 		AppStoreDataCollector collector = new AppStoreDataCollector();
 		
 		Set<String> appStores = new HashSet<String>();
-		appStores.add(AppStores.getAppStore("Korea"));
-		appStores.add(AppStores.getAppStore("Australia"));
+		appStores.add(AppStores.getAppStore("Japan"));
+		//appStores.add(AppStores.getAppStore("Australia"));
 		
 		String objectId = "naverline";
-		String appId = "443904275";
+		String appId = "443904275";		
 		
-		List<Review> reviews = collector.getReviews(appStores, appId, 2);
+		List<Review> reviews = collector.getReviews(appStores, appId);
+		//List<Review> reviews = collector.getReviews(AppStores.getAllAppStores(), appId);
 		
 		try {
-			collector.writeOutput("./bin/data/appstore/collect/", "./bin/data/appstore/index/", "./bin/liwc/LIWC_ko.txt", objectId, reviews, new Date());
+			collector.writeOutput("./bin/data/appstore/collect/", "./bin/data/appstore/index/", "./bin/liwc/LIWC_ko.txt", objectId, reviews, new Date(), 2);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

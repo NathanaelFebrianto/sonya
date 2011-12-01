@@ -54,7 +54,7 @@ public class AppStoreDataCollectorJob implements Job {
 				String indexDir = Config.getProperty("APPSTORE_INDEX_DIR");
 				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
 				
-				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId1, reviews1, startTime);
+				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId1, reviews1, startTime, 5);
 				
 			} catch (Exception e) {
 				e.printStackTrace();
@@ -72,7 +72,7 @@ public class AppStoreDataCollectorJob implements Job {
 				String indexDir = Config.getProperty("APPSTORE_INDEX_DIR");
 				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
 				
-				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId2, reviews2, startTime);
+				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId2, reviews2, startTime, 5);
 				
 			} catch (Exception e) {
 				e.printStackTrace();
@@ -90,7 +90,7 @@ public class AppStoreDataCollectorJob implements Job {
 				String indexDir = Config.getProperty("APPSTORE_INDEX_DIR");
 				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
 				
-				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId3, reviews3, startTime);
+				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId3, reviews3, startTime, 5);
 				
 			} catch (Exception e) {
 				e.printStackTrace();

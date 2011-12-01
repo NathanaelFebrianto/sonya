@@ -52,6 +52,23 @@ public class AppStoreCrawler {
 		return result;
 	}
 	
+	public List<Review> getReviews(Set<String> appStores, String appId) {
+		List<Review> result = new ArrayList<Review>();
+		
+		System.out.println("appStores = " + appStores + " appId: " + appId);
+     	
+    	for (Iterator<String> it = appStores.iterator(); it.hasNext();) {
+        	String appStoreId = it.next();
+        	
+        	List<Review> reviews = this.getReviews(appStoreId, appId);
+            
+        	System.out.println("result size [appStoreId:" + appStoreId + "] = " + reviews.size());
+            result.addAll(reviews);
+    	}
+		
+		return result;
+	}
+		
 	public List<Review> getReviews(String appStoreId, String appId, int maxPage) {
 		List<Review> reviews = new ArrayList<Review>();
 		// note: first page is started from 0
@@ -249,7 +266,8 @@ public class AppStoreCrawler {
                    	XPathExpression exprRating = xpath.compile("./pre:HBoxView/pre:HBoxView/pre:HBoxView");
                 	Object objRating = exprRating.evaluate(node, XPathConstants.NODE);
                 	Element nodeRating = (Element) objRating;
-                	int rating = Integer.valueOf(AppStoreParser.extractNumber(nodeRating.getAttribute("alt")));
+                	System.out.println(i + " rating_text == " + nodeRating.getAttribute("alt"));
+                	int rating = AppStoreParser.extractNumber(nodeRating.getAttribute("alt"));
                  	System.out.println(i + " rating == " + rating);
                  	
                  	Review review = new Review();
