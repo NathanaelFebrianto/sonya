@@ -222,15 +222,15 @@ public class Me2dayDataCollector extends Collector {
 	public static void main(String[] args) {
 		Me2dayDataCollector collector = new Me2dayDataCollector();
 
-//		String objectId = "fta";
-//		Map<String, Integer> queryMap = new HashMap<String, Integer>();
-//		queryMap.put("한미FTA ISD", 5);
-//		queryMap.put("FTA ISD", 5);
-		
-		String objectId = "naverline";
+		String objectId = "fta";
 		Map<String, Integer> queryMap = new HashMap<String, Integer>();
-		queryMap.put("네이버라인", 10);
-		queryMap.put("네이버LINE", 10);
+		queryMap.put("한미FTA ISD", 5);
+		queryMap.put("FTA ISD", 5);
+		
+//		String objectId = "naverline";
+//		Map<String, Integer> queryMap = new HashMap<String, Integer>();
+//		queryMap.put("네이버라인", 10);
+//		queryMap.put("네이버LINE", 10);
 		
 		Date since = DateUtil.addDay(new Date(), -30);
 		Date until = DateUtil.addDay(new Date(), +1);
