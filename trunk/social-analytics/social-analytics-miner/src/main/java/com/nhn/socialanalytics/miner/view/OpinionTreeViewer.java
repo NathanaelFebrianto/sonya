@@ -36,6 +36,8 @@ import javax.swing.JScrollPane;
 import javax.swing.JSplitPane;
 import javax.swing.JTextArea;
 import javax.swing.JToggleButton;
+import javax.swing.SwingUtilities;
+import javax.swing.UIManager;
 
 import org.apache.commons.collections15.Factory;
 import org.apache.commons.collections15.Transformer;
@@ -107,9 +109,11 @@ public class OpinionTreeViewer extends JApplet {
 
 	RadialTreeLayout<TermNode, TermEdge> radialLayout;
 
-	public OpinionTreeViewer(Forest<TermNode, TermEdge> graph) {
-		
+	public OpinionTreeViewer(Forest<TermNode, TermEdge> graph) {	
 		try {
+			
+			UIHandler.setResourceBundle("label");
+			UIHandler.changeAllSwingComponentDefaultFont();
 
 			// create a simple graph for the demo
 			this.graph = graph;
@@ -188,7 +192,7 @@ public class OpinionTreeViewer extends JApplet {
 						}
 					});
 			
-			this.changeVerbVerticesColor();
+			this.changeVerticesColor();
 			
 			// add a listener for ToolTips
 			//vv.setVertexToolTipTransformer(new ToStringLabeller());
@@ -352,7 +356,7 @@ public class OpinionTreeViewer extends JApplet {
 		}
 	}
 	
-	private void changeVerbVerticesColor() {
+	private void changeVerticesColor() {
 		Collection<TermNode> vertices = graph.getVertices();
 		for (TermNode v : vertices) {
 			if (v.getType() != null && v.getType().equals(FieldConstants.PREDICATE)) {
@@ -379,78 +383,93 @@ public class OpinionTreeViewer extends JApplet {
 
 	public static void main(String[] args) {
 		
-		try {
-			File[] indexDirs = new File[1];
-			indexDirs[0] = new File("./bin/data/twitter/index/20111201");
-			
-			String object = "fta";
-			
-			Set<String> customStopwordSet = new HashSet<String>();
-			customStopwordSet.add("fta");
-			customStopwordSet.add("한미fta");
-			customStopwordSet.add("한미");
-			customStopwordSet.add("갤럭시노트");
-			customStopwordSet.add("갤럭시");
-
-			File stopwordFile = new File("./conf/stopword.txt");
-			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs, stopwordFile, customStopwordSet);
-			System.out.println("stopwords == " + searcher.getStopwords());
-			
-			
-			
-			OpinionGraphModeller modeller = new OpinionGraphModeller();
-			
-			/////////////////////////////////
-			/* target term ==> PREDICATE   */
-			/////////////////////////////////
-
-			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.PREDICATE, 10, true);					
-			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
-				String term = entry.getKey();
-			
-				TargetTerm subjectTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 10);
-				TargetTerm attributeTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.ATTRIBUTE, term, 10);
-				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
-				termMap.put(FieldConstants.SUBJECT, subjectTerm);
-				termMap.put(FieldConstants.ATTRIBUTE, attributeTerm);
+		SwingUtilities.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					UIManager.setLookAndFeel("org.pushingpixels.substance.api.skin.SubstanceCremeLookAndFeel");
+					//UIManager.setLookAndFeel("org.pushingpixels.substance.api.skin.SubstanceGraphiteAquaLookAndFeel");
+					//UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
+					//UIManager.setLookAndFeel("com.jgoodies.plaf.plastic.Plastic3DLookAndFeel");
+					//UIManager.setLookAndFeel("com.jgoodies.plaf.plastic.PlasticXPLookAndFeel");
+				} catch (Exception ex) {
+					ex.printStackTrace();
+				}
 				
-				modeller.addTerms(FieldConstants.PREDICATE, termMap);			
+				try {
+					File[] indexDirs = new File[1];
+					indexDirs[0] = new File("./bin/data/twitter/index/20111201");
+					
+					String object = "fta";
+					
+					Set<String> customStopwordSet = new HashSet<String>();
+					customStopwordSet.add("fta");
+					customStopwordSet.add("한미fta");
+					customStopwordSet.add("한미");
+					customStopwordSet.add("갤럭시노트");
+					customStopwordSet.add("갤럭시");
+
+					File stopwordFile = new File("./conf/stopword.txt");
+					DocIndexSearcher searcher = new DocIndexSearcher(indexDirs, stopwordFile, customStopwordSet);
+					System.out.println("stopwords == " + searcher.getStopwords());
+					
+					
+					
+					OpinionGraphModeller modeller = new OpinionGraphModeller();
+					
+					/////////////////////////////////
+					/* target term ==> PREDICATE   */
+					/////////////////////////////////
+
+					Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.PREDICATE, 10, true);					
+					for (Map.Entry<String, Integer> entry : terms.entrySet()) {
+						String term = entry.getKey();
+					
+						TargetTerm subjectTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 10);
+						TargetTerm attributeTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.ATTRIBUTE, term, 10);
+						Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
+						termMap.put(FieldConstants.SUBJECT, subjectTerm);
+						termMap.put(FieldConstants.ATTRIBUTE, attributeTerm);
+						
+						modeller.addTerms(FieldConstants.PREDICATE, termMap);			
+					}
+					
+					/////////////////////////////////
+					/* target term ==> SUBJECT   */
+					/////////////////////////////////
+					/*
+					Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.SUBJECT, 15, true);					
+					for (Map.Entry<String, Integer> entry : terms.entrySet()) {
+						String term = entry.getKey();
+					
+						TargetTerm subjectTerm = searcher.search(object, FieldConstants.SUBJECT, FieldConstants.PREDICATE, term, 15);
+						TargetTerm attributeTerm = searcher.search(object, FieldConstants.SUBJECT, FieldConstants.ATTRIBUTE, term, 20);
+						Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
+						termMap.put(FieldConstants.PREDICATE, subjectTerm);
+						termMap.put(FieldConstants.ATTRIBUTE, attributeTerm);
+						
+						modeller.addTerms(FieldConstants.SUBJECT, termMap);			
+					}
+					*/
+						
+					modeller.createGraph();
+					Forest graph = modeller.getGraph();
+					
+					JFrame frame = new JFrame();
+					Container content = frame.getContentPane();
+					frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+					
+					OpinionTreeViewer viewer = new OpinionTreeViewer(graph);
+
+					content.add(viewer);
+					frame.pack();
+					frame.setVisible(true);
+					
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
 			}
-			
-			/////////////////////////////////
-			/* target term ==> SUBJECT   */
-			/////////////////////////////////
-			/*
-			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.SUBJECT, 15, true);					
-			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
-				String term = entry.getKey();
-			
-				TargetTerm subjectTerm = searcher.search(object, FieldConstants.SUBJECT, FieldConstants.PREDICATE, term, 15);
-				TargetTerm attributeTerm = searcher.search(object, FieldConstants.SUBJECT, FieldConstants.ATTRIBUTE, term, 20);
-				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
-				termMap.put(FieldConstants.PREDICATE, subjectTerm);
-				termMap.put(FieldConstants.ATTRIBUTE, attributeTerm);
-				
-				modeller.addTerms(FieldConstants.SUBJECT, termMap);			
-			}
-			*/
-				
-			modeller.createGraph();
-			Forest graph = modeller.getGraph();
-			
-			JFrame frame = new JFrame();
-			Container content = frame.getContentPane();
-			frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-			
-			OpinionTreeViewer viewer = new OpinionTreeViewer(graph);
-
-			content.add(viewer);
-			frame.pack();
-			frame.setVisible(true);
-			
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
+		});
+		
 	}
 	
 }
