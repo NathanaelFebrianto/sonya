@@ -42,6 +42,7 @@ public class TwitterDataCollectorJob implements Job {
 			String objectId1 = "naverline";			
 			Map<String, Integer> queryMap1 = new HashMap<String, Integer>();
 			queryMap1.put("네이버라인 OR 네이버LINE", 5);
+			queryMap1.put("NAVERLINE", 5);
 			
 			Date sinceDate1 = DateUtil.addDay(new Date(), -30);
 			
