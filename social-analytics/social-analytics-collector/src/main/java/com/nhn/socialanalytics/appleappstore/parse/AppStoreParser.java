@@ -42,8 +42,13 @@ public class AppStoreParser {
 	public static String extractVersion(String text) {
 		text = text.replaceAll(" ", "");
 		text = text.replaceAll("\n", "");
-		text = text.replaceAll("Version", "");
-		text = text.replaceAll("버전", "");
+		text = text.replaceAll("Version", "");	// English
+		text = text.replaceAll("버전", "");	// Korea
+		text = text.replaceAll("バージョン", "");	// Japan
+		text = text.replaceAll("e", "");	// Italy
+		text = text.replaceAll("Versie", "");	// Nederland
+		text = text.replaceAll("Versión", "");	// Espana
+		text = text.replaceAll("版本", "");	// China
 		
 		StringTokenizer st = new StringTokenizer(text, "-");
 		int count = 1;
