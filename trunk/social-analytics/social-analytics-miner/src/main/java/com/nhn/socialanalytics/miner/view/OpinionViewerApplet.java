@@ -250,6 +250,7 @@ public class OpinionViewerApplet extends JApplet {
 
 						content.add(viewer);
 						frame.pack();
+						frame.setTitle("Opinion View");
 						frame.setVisible(true);
 					} catch (Exception ex) {
 						ex.printStackTrace();
