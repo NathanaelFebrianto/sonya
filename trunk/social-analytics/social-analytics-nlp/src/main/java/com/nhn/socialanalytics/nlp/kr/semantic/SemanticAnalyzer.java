@@ -33,8 +33,9 @@ public class SemanticAnalyzer {
 		ParseTreeNode root = tree.getRoot();
 		List<ParseTreeEdge> childEdges = root.getChildEdges();
 		
-		if (childEdges != null) {		
-			for (ParseTreeEdge edge : childEdges) {
+		
+		if (childEdges != null) {	
+			for (ParseTreeEdge edge : childEdges) {				
 				int toId = edge.getToId();			
 				ParseTreeNode childNode = tree.findNode(toId);
 				
@@ -63,7 +64,7 @@ public class SemanticAnalyzer {
 				
 				sentence.add(clause);	
 				priority++;
-				exploreSemanticClause(tree, sentence, clause, childNode, priority);
+				exploreSemanticClause(tree, sentence, clause, childNode, priority, 1, 1);
 			}
 		}
 		
@@ -71,15 +72,16 @@ public class SemanticAnalyzer {
 	}
 	
 	private SemanticSentence exploreSemanticClause(ParseTree tree, SemanticSentence sentence, 
-			SemanticClause prevClause, ParseTreeNode node, int priority) {
-		
+			SemanticClause prevClause, ParseTreeNode node, int priority, int prevVerbDepth, int prevDepth) {		
+
 		List<ParseTreeEdge> childEdges = node.getChildEdges();
 		
 		if (childEdges != null) {
 			for (ParseTreeEdge edge : childEdges) {
 				int toId = edge.getToId();			
-				ParseTreeNode childNode = tree.findNode(toId);
-				
+				ParseTreeNode childNode = tree.findNode(toId);	
+				int currentDepth  = prevDepth + 1;
+
 				System.out.println("to node id == " + toId);
 				System.out.println("edge priority == " + edge.getPriority());
 				System.out.println("edge distance == " + edge.getDistance());
@@ -99,21 +101,29 @@ public class SemanticAnalyzer {
 					clause.setPredicate(term+"다");
 					clause.setStandardPredicate(standardTerm+"다");
 					clause.setPriority(priority);
-					prevClause.addChild(clause);					
+					prevClause.addChild(clause);	
+					
+					prevVerbDepth = currentDepth;
 				}
 				else if (pos == 'N' && ("JX".equals(josaTag) || "JKS".equals(josaTag))) {
 					char[] tags = sentence.checkSemanticClause(prevClause.getSubject(), prevClause.getPredicate());
-					if (tags[0] == '1' && tags[1] == '1') {
-						//clause = prevClause.clone();
-						//clause.setSubject(term);
-						clause = prevClause;
-						clause.addAttribute(term);
-						clause.addStandardAttribute(standardTerm);
+					if (tags[0] == '1' && tags[1] == '1') {							
+						if (prevDepth == prevVerbDepth) {
+							clause = prevClause.clone();
+							clause.setSubject(term);
+							clause.setStandardSubject(standardTerm);
+							prevClause.getParentClause().addChild(clause);
+						}						
+						else {
+							clause = prevClause;
+							clause.addAttribute(term);
+							clause.addStandardAttribute(standardTerm);
+						}
 					} else {
 						clause = prevClause;
 						clause.setSubject(term);
 						clause.setStandardSubject(standardTerm);
-					}	
+					}
 				}
 				else if (pos == 'N' && ("JKO".equals(josaTag) || "JKM".equals(josaTag))) {
 					clause = prevClause;
@@ -143,7 +153,7 @@ public class SemanticAnalyzer {
 				}
 				
 				priority++;
-				exploreSemanticClause(tree, sentence, clause, childNode, priority);
+				exploreSemanticClause(tree, sentence, clause, childNode, priority, prevVerbDepth, currentDepth);
 			}			
 		}
 		
@@ -151,7 +161,7 @@ public class SemanticAnalyzer {
 	}
 	
 	public static void main(String[] args) {		
-		String source = "이 물건은 배송이 빨라서 정말 좋지만, 품질이 별로  안좋네요.";
+		String source = "이 피씨는 배송이 빨라서 좋다.";
 		//String source = "철수가 음악에 재능이 없으면서도 노래를 아주 열심히 부르는 것을 영희가 안다.";
 		//String source = "외장메모리로 옮길 수 있도록 업데이트 좀 해주세요. 어플 용량 2.5MB 어플이 내장메모리 설치라 안드로이드폰에선 좀 버겁네요. 라인 한 줄 넣는거 어렵지 않잖아요 개발자님. 빠른 업데이트 바랍니다. 참고로 EVO 4G+ 사용중입니다";
 		//String source = "제발 기본 기능인 로그인 좀 잘 되게 해주세요";

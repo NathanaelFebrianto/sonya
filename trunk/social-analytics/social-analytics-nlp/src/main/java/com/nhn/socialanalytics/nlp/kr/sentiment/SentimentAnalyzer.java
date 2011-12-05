@@ -76,26 +76,63 @@ public class SentimentAnalyzer {
 	
 	public SemanticSentence analyzePolarity(SemanticSentence sentence) {
 		sentence.sort(true);		
-		double weightedPolarity = 0.0;		
 		
+		double weightedPolarity = 0.0;
+		boolean isSubjective = false;
+		boolean isAllSamePriority = true;
+		
+		int prevPriority = 1;
 		for (SemanticClause clause : sentence) {
+			clause = this.analyzePolarity(clause);
 			
-			clause = this.analyzePolarity(clause);			
-			weightedPolarity = weightedPolarity + (clause.getPolarity() * clause.getStrength());	
+			if (prevPriority == clause.getPriority()) {
+				weightedPolarity = weightedPolarity + (clause.getPolarity() * clause.getStrength()) * clause.getStrength();
+			}
+			else {			
+				weightedPolarity = weightedPolarity + (clause.getPolarity() * clause.getStrength());
+			}
+			
+			if (clause.getPolarity() != 0.0)
+				isSubjective = true;
+			
+			if (prevPriority < clause.getPriority())
+				isAllSamePriority = false;
+			
+			prevPriority = clause.getPriority();
 		}
 		
-		System.out.println("weighted polarity == " + weightedPolarity);
-		
 		// polarity
-		if (weightedPolarity > 0)
+		if (!isAllSamePriority && weightedPolarity > 0) {
 			sentence.setPolarity(1.0);
-		else if (weightedPolarity < 0)
+			sentence.setPolarityStrength(Math.abs(weightedPolarity));
+		}
+		else if (!isAllSamePriority && weightedPolarity < 0) {
 			sentence.setPolarity(-1.0);
-		else
+			sentence.setPolarityStrength(Math.abs(weightedPolarity));
+		}
+		else if (isSubjective && (isAllSamePriority || weightedPolarity == 0)) {
+			double posWordCount = sentence.sumPostiveWordCount();
+			double negWordCount = sentence.sumNegativeWordCount();
+			
+			System.out.println("positive word count == " + posWordCount);
+			System.out.println("negative word count == " + negWordCount);			
+			
+			if (posWordCount > negWordCount) {
+				sentence.setPolarity(1.0);
+				sentence.setPolarityStrength( posWordCount / (posWordCount + negWordCount) );
+			}
+			else if (posWordCount <= negWordCount) {
+				sentence.setPolarity(-1.0);
+				sentence.setPolarityStrength( negWordCount / (posWordCount + negWordCount) );
+			}						
+		}
+		else {
 			sentence.setPolarity(0.0);
+			sentence.setPolarityStrength(Math.abs(weightedPolarity));
+		}
 		
-		// strength
-		sentence.setPolarityStrength(Math.abs(weightedPolarity));
+		System.out.println("sentence polarity == " + sentence.getPolarity());
+		System.out.println("sentence polarity strength == " + sentence.getPolarityStrength());
 		
 		return sentence;
 	}

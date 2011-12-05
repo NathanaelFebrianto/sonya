@@ -24,6 +24,7 @@ public class SemanticClause implements Serializable {
 	private double negativeWordCount;
 	private int priority;
 	
+	private SemanticClause parentClause;
 	private List<SemanticClause> childClauses = new ArrayList<SemanticClause>();
 	
 	public SemanticClause() {
@@ -129,9 +130,17 @@ public class SemanticClause implements Serializable {
 	
 	public void addChild(SemanticClause child) {
 		childClauses.add(child);
+		child.setParentClause(this);
 	}
 	public void setChilds(List<SemanticClause> childClauses) {
 		this.childClauses = childClauses;
+	}
+	
+	public SemanticClause getParentClause() {
+		return this.parentClause;
+	}
+	public void setParentClause(SemanticClause parentClause) {
+		this.parentClause = parentClause;
 	}
 	
 	public SemanticClause clone() {
@@ -147,6 +156,7 @@ public class SemanticClause implements Serializable {
 		clause.setPolarity(polarity);
 		clause.setStrength(strength);
 		clause.setChilds(childClauses);	
+		clause.setParentClause(parentClause);	
 		clause.setPriority(priority);	
 
 		return clause;

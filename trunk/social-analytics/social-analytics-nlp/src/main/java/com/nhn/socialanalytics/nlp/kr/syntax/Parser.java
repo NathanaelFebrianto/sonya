@@ -105,8 +105,8 @@ public class Parser {
 
 		ParseTree tree = new ParseTree();
 		tree.setSentence(sentence.getSentence());
-		for (Iterator<ParseTreeNode> itr = nodeList.iterator(); itr.hasNext();) {
-			ParseTreeNode ptn = (ParseTreeNode) itr.next();
+		for (Iterator<ParseTreeNode> it = nodeList.iterator(); it.hasNext();) {
+			ParseTreeNode ptn = (ParseTreeNode) it.next();
 			if (ptn.getParentNode() != null)
 				continue;
 			tree.setRoot(ptn);

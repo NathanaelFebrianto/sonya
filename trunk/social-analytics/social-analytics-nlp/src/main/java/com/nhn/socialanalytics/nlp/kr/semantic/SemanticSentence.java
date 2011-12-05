@@ -176,6 +176,7 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 		return negWordCount;
 	}
 	
+	/*
 	public void calculatePolarity() {
 		this.sort(true);		
 		
@@ -187,11 +188,13 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 		for (SemanticClause clause : this) {	
 			weightedPolarity = weightedPolarity + (clause.getPolarity() * clause.getStrength());	
 			
-			if (clause.getPolarity() < 0.0)
+			if (clause.getPolarity() != 0.0)
 				isSubjective = true;
 			
 			if (prevPriority < clause.getPriority())
 				isAllSamePriority = false;
+			
+			if (prevPriority == clause.getPriority())
 			
 			prevPriority = clause.getPriority();
 		}
@@ -229,6 +232,7 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 		System.out.println("sentence polarity == " + this.getPolarity());
 		System.out.println("sentence polarity strength == " + this.getPolarityStrength());
 	}
+	*/
 	
 	public String extractSubjectPredicateLabel() {
 		StringBuffer sb = new StringBuffer();
