@@ -52,7 +52,7 @@ public class MorphemeAnalyzer {
 		System.out.println("stop words == " + koreanAnalyzer.getStopwordSet());			
 		
 		try {
-			DicUtil.loadDictionary();
+			MorphemeUtil.loadDictionary();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}		

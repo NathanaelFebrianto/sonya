@@ -11,10 +11,13 @@ public class SemanticClause implements Serializable {
 
 	private int id = -1;
 	private String subject;	
+	private String standardSubject;
 	private String predicate;
+	private String standardPredicate;
 	private Set<String> attributes = new HashSet<String>();
+	private Set<String> standardAttributes = new HashSet<String>();
 	private Set<String> modifiers = new HashSet<String>();
-	private String standardLabel;
+	private Set<String> standardModifiers = new HashSet<String>();
 	private double polarity; 
 	private double strength;
 	private double positiveWordCount;
@@ -38,11 +41,23 @@ public class SemanticClause implements Serializable {
 	public void setSubject(String subject) {
 		this.subject = subject;
 	}
+	public String getStandardSubject() {
+		return standardSubject;
+	}
+	public void setStandardSubject(String standardSubject) {
+		this.standardSubject = standardSubject;
+	}
 	public String getPredicate() {
 		return predicate;
 	}
 	public void setPredicate(String predicate) {
 		this.predicate = predicate;
+	}
+	public String getStandardPredicate() {
+		return standardPredicate;
+	}
+	public void setStandardPredicate(String standardPredicate) {
+		this.standardPredicate = standardPredicate;
 	}
 	public Set<String> getAttributes() {
 		return attributes;
@@ -50,17 +65,23 @@ public class SemanticClause implements Serializable {
 	public void setAttributes(Set<String> attributes) {
 		this.attributes = attributes;
 	}
+	public Set<String> getStandardAttributes() {
+		return standardAttributes;
+	}
+	public void setStandardAttributes(Set<String> standardAttributes) {
+		this.standardAttributes = standardAttributes;
+	}
 	public Set<String> getModifiers() {
 		return modifiers;
 	}
 	public void setModifiers(Set<String> modifiers) {
 		this.modifiers = modifiers;
 	}
-	public String getStandardLabel() {
-		return standardLabel;
+	public Set<String> getStandardModifiers() {
+		return standardModifiers;
 	}
-	public void setStandardLabel(String standardLabel) {
-		this.standardLabel = standardLabel;
+	public void setStandardModifiers(Set<String> standardModifiers) {
+		this.standardModifiers = standardModifiers;
 	}
 	public double getPolarity() {
 		return polarity;
@@ -92,13 +113,18 @@ public class SemanticClause implements Serializable {
 	public void setPriority(int priority) {
 		this.priority = priority;
 	}
-	
-	
+		
 	public void addAttribute(String attribute) {
 		attributes.add(attribute);
-	}	
+	}
+	public void addStandardAttribute(String standardAttribute) {
+		standardAttributes.add(standardAttribute);
+	}
 	public void addModifier(String modifier) {
 		modifiers.add(modifier);
+	}
+	public void addStandardModifier(String standardModifier) {
+		standardModifiers.add(standardModifier);
 	}
 	
 	public void addChild(SemanticClause child) {
@@ -111,10 +137,13 @@ public class SemanticClause implements Serializable {
 	public SemanticClause clone() {
 		SemanticClause clause = new SemanticClause();
 		clause.setSubject(subject);
+		clause.setStandardSubject(standardSubject);
 		clause.setPredicate(predicate);
+		clause.setStandardPredicate(standardPredicate);
 		clause.setAttributes(attributes);
+		clause.setStandardAttributes(standardAttributes);
 		clause.setModifiers(modifiers);
-		clause.setStandardLabel(standardLabel);
+		clause.setStandardModifiers(standardModifiers);
 		clause.setPolarity(polarity);
 		clause.setStrength(strength);
 		clause.setChilds(childClauses);	
@@ -156,17 +185,59 @@ public class SemanticClause implements Serializable {
 		
 		return label;
 	}
+	
+	public String makeStandardLabel(boolean includeChild) {
+		String label = null;		
+		
+		if (standardSubject != null && standardPredicate != null) {
+			label = standardSubject + "ㅡ" + standardPredicate;
+		}
+		else if (standardSubject == null && standardPredicate != null) {
+			label = standardPredicate;
+			if (standardAttributes.size() > 0) {
+				for (String attribute : standardAttributes) {
+					label = label + " " + attribute + "ㅡ" + standardPredicate;
+				}
+			}			
+		}
+		else if (standardSubject != null && standardPredicate == null) {
+			label = standardSubject;
+		}						
+		
+		if (includeChild) {
+			String childLabels = null;
+			for (SemanticClause child : childClauses) {
+				if (childLabels != null)
+					childLabels = childLabels + " " + child.makeStandardLabel(includeChild);
+				else
+					childLabels = child.makeStandardLabel(includeChild);
+			}
+			
+			if (childLabels != null)
+				label = childLabels + " " + label;
+		}
+		
+		return label;
+	}
 
 	public String makeAttributesLabel() {
 		StringBuffer sb = new StringBuffer();
 		
 		for (String attribute : attributes) {
 			sb.append(attribute).append(" ");
-		}
-		
-		return sb.toString();
-		
+		}		
+		return sb.toString();		
 	}
+	
+	public String makeStandardAttributesLabel() {
+		StringBuffer sb = new StringBuffer();
+		
+		for (String attribute : standardAttributes) {
+			sb.append(attribute).append(" ");
+		}		
+		return sb.toString();		
+	}
+	
 	
 	public String toString() {
 		StringBuffer sb = new StringBuffer()
@@ -176,7 +247,7 @@ public class SemanticClause implements Serializable {
 			.append(" *predicate = ").append(predicate)
 			.append(" *attributes = ").append(attributes.toString())
 			.append(" *modifiers = ").append(modifiers.toString())			
-			.append(" standardLabel = ").append(makeLabel(false))
+			.append(" standardLabel = ").append(makeStandardLabel(false))
 			.append(" polarity = ").append(polarity)
 			.append(" strength = ").append(strength);		
 		
