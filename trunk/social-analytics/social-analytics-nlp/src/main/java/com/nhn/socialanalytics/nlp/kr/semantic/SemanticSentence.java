@@ -243,11 +243,37 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 		return sb.toString();		
 	}
 	
+	public String extractStandardSubjectPredicateLabel() {
+		StringBuffer sb = new StringBuffer();
+		
+		for (SemanticClause clause : this) {	
+			String label = clause.makeStandardLabel(false);
+			if (label != null && !label.equals("")) {
+				sb.append(label).append(" ");
+			}			
+		}
+		
+		return sb.toString();		
+	}
+	
 	public String extractSubjectLabel() {
 		StringBuffer sb = new StringBuffer();
 		
 		for (SemanticClause clause : this) {	
 			String label = clause.getSubject();
+			if (label != null && !label.equals("")) {
+				sb.append(label).append(" ");
+			}			
+		}
+		
+		return sb.toString();		
+	}
+	
+	public String extractStandardSubjectLabel() {
+		StringBuffer sb = new StringBuffer();
+		
+		for (SemanticClause clause : this) {	
+			String label = clause.getStandardSubject();
 			if (label != null && !label.equals("")) {
 				sb.append(label).append(" ");
 			}			
@@ -269,11 +295,36 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 		return sb.toString();		
 	}
 	
+	public String extractStandardPredicateLabel() {
+		StringBuffer sb = new StringBuffer();
+		
+		for (SemanticClause clause : this) {	
+			String label = clause.getStandardPredicate();
+			if (label != null && !label.equals("")) {
+				sb.append(label).append(" ");
+			}			
+		}
+		
+		return sb.toString();		
+	}
+	
 	public String extractAttributesLabel() {
 		StringBuffer sb = new StringBuffer();
 		
 		for (SemanticClause clause : this) {	
 			String label = clause.makeAttributesLabel();
+			if (label != null) {
+				sb.append(label).append(" ");
+			}			
+		}		
+		return sb.toString();		
+	}
+	
+	public String extractStandardAttributesLabel() {
+		StringBuffer sb = new StringBuffer();
+		
+		for (SemanticClause clause : this) {	
+			String label = clause.makeStandardAttributesLabel();
 			if (label != null) {
 				sb.append(label).append(" ");
 			}			

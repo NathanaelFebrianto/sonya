@@ -28,7 +28,8 @@ public class SentimentAnalyzer {
 		int priority = clause.getPriority();
 		if (priority < 1) priority = 1;
 		
-		String label = clause.makeLabel(false);
+		//String label = clause.makeLabel(false);
+		String label = clause.makeStandardLabel(false);
 		
 		if (label == null)
 			return clause;

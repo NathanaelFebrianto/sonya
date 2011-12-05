@@ -119,8 +119,8 @@ public class Eojeol {
 			this.setPosCode(entry.getFeatures());
 		}
 		
-		this.setEomiTag(DicUtil.getEomiTag(o.getEomi()));
-		this.setJosaTag(DicUtil.getJosaTag(o.getJosa()));
+		this.setEomiTag(MorphemeUtil.getEomiTag(o.getEomi()));
+		this.setJosaTag(MorphemeUtil.getJosaTag(o.getJosa()));
 	
 		/*
 		for (int i = 0; i < o.getCNounList().size(); i++) {

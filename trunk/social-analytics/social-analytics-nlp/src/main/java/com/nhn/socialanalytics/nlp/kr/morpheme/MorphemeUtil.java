@@ -1,14 +1,14 @@
 package com.nhn.socialanalytics.nlp.kr.morpheme;
 
-import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.lucene.analysis.kr.utils.FileUtil;
 import org.apache.lucene.analysis.kr.utils.StringUtil;
 
-public class DicUtil {
+import com.nhn.socialanalytics.nlp.kr.dictionary.DictionaryFactory;
+
+public class MorphemeUtil {
 
 	private static HashMap<String, String> josas;
 	private static HashMap<String, String> eomis;
@@ -22,10 +22,8 @@ public class DicUtil {
 		List<String> eomiList = null;
 
 		try {
-			josaList = FileUtil.readLines(
-					"org/apache/lucene/analysis/kr/dic/josatags.dic", "UTF-8"); 
-			eomiList = FileUtil.readLines(
-					"org/apache/lucene/analysis/kr/dic/eomitags.dic", "UTF-8"); 
+			josaList = DictionaryFactory.loadDictionary("com/nhn/socialanalytics/nlp/kr/dictionary/josatag.dic"); 
+			eomiList = DictionaryFactory.loadDictionary("com/nhn/socialanalytics/nlp/kr/dictionary/eomitag.dic"); 
 
 			System.out.println("loading josa tags...");
 			for (int i = 0; i < josaList.size(); i++) {
@@ -56,10 +54,6 @@ public class DicUtil {
 				}
 					
 			}
-
-		} catch (IOException e) {
-			e.printStackTrace();
-			throw e;
 		} catch (Exception e) {
 			throw e;
 		}
@@ -91,8 +85,8 @@ public class DicUtil {
 	
 	public static void main(String[] args) {
 		try {
-			DicUtil.loadDictionary();
-			System.out.println(DicUtil.getEomiTag("은"));
+			MorphemeUtil.loadDictionary();
+			System.out.println(MorphemeUtil.getEomiTag("은"));
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

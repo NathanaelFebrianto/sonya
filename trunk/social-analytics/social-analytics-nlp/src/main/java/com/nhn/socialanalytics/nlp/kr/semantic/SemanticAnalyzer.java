@@ -2,6 +2,7 @@ package com.nhn.socialanalytics.nlp.kr.semantic;
 
 import java.util.List;
 
+import com.nhn.socialanalytics.nlp.kr.dictionary.SynonymEngine;
 import com.nhn.socialanalytics.nlp.kr.morpheme.Eojeol;
 import com.nhn.socialanalytics.nlp.kr.syntax.ParseTree;
 import com.nhn.socialanalytics.nlp.kr.syntax.ParseTreeEdge;
@@ -12,9 +13,11 @@ public class SemanticAnalyzer {
 	
 	private static SemanticAnalyzer instance = null;
 	private SyntacticAnalyzer syntacticAnalyzer;
+	private SynonymEngine synonymEngine;
 	
 	public SemanticAnalyzer() {
 		syntacticAnalyzer = SyntacticAnalyzer.getInstance();
+		synonymEngine = SynonymEngine.getInstance();
 	}
 	
 	public static SemanticAnalyzer getInstance() {
@@ -42,17 +45,20 @@ public class SemanticAnalyzer {
 				char pos = eojeol.getPos();
 				String josaTag = eojeol.getJosaTag();
 				//String eomiTag = eojeol.getEomiTag();
-				String term = eojeol.getTerm();
+				String term = eojeol.getTerm();				
+				String standardTerm = synonymEngine.getStandardWord(term);
 				
 				SemanticClause clause = new SemanticClause();
 				
 				int priority = 1;
 				if (pos == 'V') {
-					clause.setPredicate(term+"다");	
+					clause.setPredicate(term+"다");
+					clause.setStandardPredicate(standardTerm+"다");
 					clause.setPriority(priority);
 				}
 				else if (pos == 'N' && ("JX".equals(josaTag) || "JKS".equals(josaTag))) {
-					clause.setSubject(term);				
+					clause.setSubject(term);
+					clause.setStandardSubject(standardTerm);
 				}
 				
 				sentence.add(clause);	
@@ -84,12 +90,14 @@ public class SemanticAnalyzer {
 				String josaTag = eojeol.getJosaTag();
 				//String eomiTag = eojeol.getEomiTag();
 				String term = eojeol.getTerm();
+				String standardTerm = synonymEngine.getStandardWord(term);
 				
 				SemanticClause clause = null;
 				
 				if (pos == 'V') {
 					clause = new SemanticClause();
-					clause.setPredicate(term+"다");	
+					clause.setPredicate(term+"다");
+					clause.setStandardPredicate(standardTerm+"다");
 					clause.setPriority(priority);
 					prevClause.addChild(clause);					
 				}
@@ -100,26 +108,32 @@ public class SemanticAnalyzer {
 						//clause.setSubject(term);
 						clause = prevClause;
 						clause.addAttribute(term);
+						clause.addStandardAttribute(standardTerm);
 					} else {
 						clause = prevClause;
 						clause.setSubject(term);
+						clause.setStandardSubject(standardTerm);
 					}	
 				}
 				else if (pos == 'N' && ("JKO".equals(josaTag) || "JKM".equals(josaTag))) {
 					clause = prevClause;
 					clause.addAttribute(term);
+					clause.addStandardAttribute(standardTerm);
 				}
 				else if (pos == 'Z') {
 					clause = prevClause;
 					clause.addModifier(term);
+					clause.addStandardModifier(standardTerm);
 				}
 				else if (pos == 'N' && ("JKC".equals(josaTag) || "JKG".equals(josaTag))) {
 					clause = prevClause;
 					clause.addModifier(term);
+					clause.addStandardModifier(standardTerm);
 				}
 				else if (pos == 'N' && josaTag == null) {
 					clause = prevClause;
-					clause.addAttribute(term);					
+					clause.addAttribute(term);
+					clause.addStandardAttribute(standardTerm);
 				}
 				
 				if (clause != null) {
@@ -141,7 +155,7 @@ public class SemanticAnalyzer {
 		//String source = "철수가 음악에 재능이 없으면서도 노래를 아주 열심히 부르는 것을 영희가 안다.";
 		//String source = "외장메모리로 옮길 수 있도록 업데이트 좀 해주세요. 어플 용량 2.5MB 어플이 내장메모리 설치라 안드로이드폰에선 좀 버겁네요. 라인 한 줄 넣는거 어렵지 않잖아요 개발자님. 빠른 업데이트 바랍니다. 참고로 EVO 4G+ 사용중입니다";
 		//String source = "제발 기본 기능인 로그인 좀 잘 되게 해주세요";
-		//String source = "카톡은 푸쉬가 안되지만 네이버톡은 되네";
+		//String source = "카톡은 푸시가 안되지만 네이버톡은 되네";
 				
 		SemanticAnalyzer analyzer = new SemanticAnalyzer();
 		SemanticSentence ss = analyzer.createSemanticSentence(source);
