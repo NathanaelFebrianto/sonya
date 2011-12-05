@@ -18,7 +18,6 @@ import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.Point2D;
-import java.io.File;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -386,36 +385,36 @@ public class GraphTreeViewer extends JApplet {
 				vv.repaint();
 				
 				SemanticAnalyzer semanticAnalyzer = new SemanticAnalyzer();
-				SemanticSentence ss = semanticAnalyzer.createSemanticSentence(source);
+				SemanticSentence semanticSentence = semanticAnalyzer.createSemanticSentence(source);
 				
 				SentimentAnalyzer sentimentAnalyzer = new SentimentAnalyzer("./liwc/LIWC_ko.txt");
 				
-				ss.sort(true);
+				semanticSentence.sort(true);
 				tareaSemanticOutput.append("\n\n=================================\n");
 				tareaSemanticOutput.append("       Semantic Analysis\n");
 				tareaSemanticOutput.append("=================================\n");
 				tareaSemanticOutput.append(source + "\n");				
 				tareaSemanticOutput.append("-------------------------------------\n");
-				for (SemanticClause clause : ss) {
+				for (SemanticClause clause : semanticSentence) {
 					clause = sentimentAnalyzer.analyzePolarity(clause);
 					tareaSemanticOutput.append(clause.toString() + "\n");
 					tareaSemanticOutput.append("-------------------------------------\n");
 				}
 				
-				ss.calculatePolarity();
+				sentimentAnalyzer.analyzePolarity(semanticSentence);
 				
 				tareaSemanticOutput.append("\n=================================\n");
 				tareaSemanticOutput.append("       Sentiment Analysis\n");
 				tareaSemanticOutput.append("=================================\n");
-				tareaSemanticOutput.append("polarity = " + ss.getPolarity());
-				if (ss.getPolarity() == 1.0)
+				tareaSemanticOutput.append("polarity = " + semanticSentence.getPolarity());
+				if (semanticSentence.getPolarity() == 1.0)
 					tareaSemanticOutput.append(" (positive)\n");
-				else if (ss.getPolarity() == -1.0)
+				else if (semanticSentence.getPolarity() == -1.0)
 					tareaSemanticOutput.append(" (negative)\n");
 				else
 					tareaSemanticOutput.append(" (neutral)\n");
 				
-				tareaSemanticOutput.append("strength = " + ss.getPolarityStrength() + "\n");
+				tareaSemanticOutput.append("strength = " + semanticSentence.getPolarityStrength() + "\n");
 				tareaSemanticOutput.append("-------------------------------------\n");				
 			}
 

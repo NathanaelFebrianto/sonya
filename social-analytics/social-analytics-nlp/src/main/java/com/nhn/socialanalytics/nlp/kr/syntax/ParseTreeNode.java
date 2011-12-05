@@ -3,7 +3,6 @@ package com.nhn.socialanalytics.nlp.kr.syntax;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Random;
 
 import com.nhn.socialanalytics.nlp.kr.morpheme.Eojeol;
 
@@ -106,7 +105,7 @@ public class ParseTreeNode {
 		for (int size = childEdges != null ? childEdges.size() : 0; i < size; i++) {
 			ParseTreeEdge edge = (ParseTreeEdge) childEdges.get(i);
 			edgeList.add(edge);
-			edge.getChildNode().traverse(nodeList, edgeList);
+			edge.getChildNode().traverse(nodeList, edgeList);		
 		}
 	}
 
