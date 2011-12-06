@@ -1,93 +1,45 @@
 package com.nhn.socialanalytics.nlp.syntax;
 
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 
-import com.nhn.socialanalytics.nlp.morpheme.Element;
 import com.nhn.socialanalytics.nlp.morpheme.Sentence;
+import com.nhn.socialanalytics.nlp.morpheme.Token;
 
-public class Parser {
-	private List<ParseRule> ruleList = null;
-
-	private static Parser parser = null;
-
-	public static Parser getInstance() {
-		if (parser == null)
-			parser = new Parser();
-		return parser;
-	}
+public abstract class Parser {
+	protected List<ParseRule> ruleList = null;
 
 	public Parser() {
 		initRules();
 	}
 
-	protected void initRules() {
-		this.ruleList = new ArrayList<ParseRule>();
-
-		this.ruleList.add(new ParseRule(
-				"부가",										//relation
-				new String[]{ //"V", 
-						"JKS", "JKO", "JKM", 
-						"JX", "Z", "ECE", "ECD", "ECS" },	//dependentTags
-				new String[]{ "V", "EFN" },					//governerTags
-				30,											//distance
-				1));										//priority
-
-		this.ruleList.add(new ParseRule(
-				"강조",										//relation
-				new String[]{ "Z" },						//dependentTags
-				new String[]{ "Z" },						//governerTags
-				1,											//distance
-				2));										//priority
-
-		this.ruleList.add(new ParseRule(
-				"수식",										//relation
-				new String[]{ "N", "Z", "JKG", "ETD" },		//dependentTags
-				new String[]{ "N" },						//governerTags
-				1,											//distance
-				3));										//priority
-		
-		this.ruleList.add(new ParseRule(
-				"수식",										//relation
-				new String[]{ "N" },						//dependentTags
-				new String[]{ "V" },						//governerTags
-				1,											//distance
-				4));
-		
-		Collections.sort(this.ruleList, new Comparator<ParseRule>() {
-			public int compare(ParseRule pr1, ParseRule pr2) {
-				return pr1.priority - pr2.priority;
-			}
-		});
-	}
+	abstract protected void initRules();
 
 	public ParseTree parse(Sentence sentence) {
 		List<ParseTreeNode> nodeList = new ArrayList<ParseTreeNode>();
 		
 		for (int i = 0; i < sentence.size(); i++) {
-			Element element = sentence.get(i);			
-			nodeList.add(new ParseTreeNode(element));
+			Token token = sentence.get(i);			
+			nodeList.add(new ParseTreeNode(token));
 		}		
 		
 		for (int i = 0; i < nodeList.size() - 1; i++) {
 			ParseTreeNode ptnPrev = (ParseTreeNode) nodeList.get(i);
 		
 			System.out.println("*******");
-			System.out.println("prev == " + ptnPrev.getElement());
-			System.out.println("prev index == " + ptnPrev.getElementIndex());
+			System.out.println("prev == " + ptnPrev.getToken());
+			System.out.println("prev index == " + ptnPrev.getTokenIndex());
 
 			for (int j = i + 1; j < nodeList.size(); j++) {
 				ParseTreeNode ptnNext = (ParseTreeNode) nodeList.get(j);
 
-				System.out.println("next == " + ptnNext.getElement());
-				System.out.println("next index == " + ptnNext.getElementIndex());
+				System.out.println("next == " + ptnNext.getToken());
+				System.out.println("next index == " + ptnNext.getTokenIndex());
 
 				ParseTreeEdge arc = null;				
 				
-				if (ptnPrev.getElementIndex() == ptnNext.getElementIndex()) {
+				if (ptnPrev.getTokenIndex() == ptnNext.getTokenIndex()) {
 					System.out.println("######################");
 					arc = null;
 				} else {

@@ -41,9 +41,9 @@ public class KoreanSemanticAnalyzer implements SemanticAnalyzer {
 				ParseTreeNode childNode = tree.findNode(toId);
 				
 				System.out.println("to id == " + toId);
-				System.out.println("chile node == " + childNode.getElement().toString());
+				System.out.println("chile node == " + childNode.getToken().toString());
 				
-				Eojeol eojeol = (Eojeol) childNode.getElement();
+				Eojeol eojeol = (Eojeol) childNode.getToken();
 				char pos = eojeol.getPos();
 				String josaTag = eojeol.getJosaTag();
 				//String eomiTag = eojeol.getEomiTag();
@@ -86,9 +86,9 @@ public class KoreanSemanticAnalyzer implements SemanticAnalyzer {
 				System.out.println("to node id == " + toId);
 				System.out.println("edge priority == " + edge.getPriority());
 				System.out.println("edge distance == " + edge.getDistance());
-				System.out.println("chile node == " + childNode.getElement().toString());
+				System.out.println("chile node == " + childNode.getToken().toString());
 				
-				Eojeol eojeol = (Eojeol) childNode.getElement();
+				Eojeol eojeol = (Eojeol) childNode.getToken();
 				char pos = eojeol.getPos();
 				String josaTag = eojeol.getJosaTag();
 				//String eomiTag = eojeol.getEomiTag();

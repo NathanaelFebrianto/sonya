@@ -1,0 +1,18 @@
+partOfSpeech=名詞-一般
+partOfSpeech=助詞-連体化
+partOfSpeech=名詞-非自立-助動詞語幹
+partOfSpeech=助詞-副詞化
+partOfSpeech=助詞-格助詞-一般
+partOfSpeech=助詞-係助詞
+partOfSpeech=記号-アルファベット
+partOfSpeech=助詞-格助詞-一般
+partOfSpeech=名詞-サ変接続
+partOfSpeech=名詞-一般
+partOfSpeech=名詞-接尾-一般
+partOfSpeech=助詞-格助詞-一般
+basicForm=する| conjugationalForm=連用形| conjugationalType=サ変・スル| partOfSpeech=動詞-自立
+partOfSpeech=助詞-接続助詞
+conjugationalForm=基本形| conjugationalType=一段| partOfSpeech=動詞-非自立
+partOfSpeech=名詞-非自立-助動詞語幹
+conjugationalForm=基本形| conjugationalType=特殊・デス| partOfSpeech=助動詞
+partOfSpeech=記号-句点

@@ -73,7 +73,7 @@ public class Rknlp {
 		for (int i = 0 ; i < nodes.size(); i++) {
 			ParseTreeNode node = nodes.get(i);
 			int id = node.getId();
-			Eojeol eojeol = (Eojeol) node.getElement();			
+			Eojeol eojeol = (Eojeol) node.getToken();			
 			
 			if (eojeol == null) {
 				jsonObj.accumulate("nodes", "{\"id\":" + id + "}");

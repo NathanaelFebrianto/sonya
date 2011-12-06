@@ -2,11 +2,11 @@ package com.nhn.socialanalytics.nlp.syntax;
 
 public class ParseRule {
 
-	String relation;
-	String[] dependentTags;
-	String[] governerTags;
-	int distance;
-	int priority;
+	public String relation;
+	public String[] dependentTags;
+	public String[] governerTags;
+	public int distance;
+	public int priority;
 
 	public ParseRule(String relation, String[] dependentTags, String[] governerTags,
 			int distance, int priority) {
@@ -21,8 +21,8 @@ public class ParseRule {
 	}
 
 	public ParseTreeEdge govern(ParseTreeNode prevNode, ParseTreeNode nextNode, int distance) {
-		if ( prevNode.getElement().containsTagOf(dependentTags)
-			&& nextNode.getElement().containsTagOf(governerTags)
+		if ( prevNode.getToken().containsTagOf(dependentTags)
+			&& nextNode.getToken().containsTagOf(governerTags)
 			&& distance <= this.distance )
 			return new ParseTreeEdge(relation, prevNode, nextNode, distance, priority);
 		

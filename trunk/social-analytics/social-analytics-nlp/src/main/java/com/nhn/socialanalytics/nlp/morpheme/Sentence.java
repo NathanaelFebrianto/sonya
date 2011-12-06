@@ -7,7 +7,7 @@ import java.util.HashSet;
 import java.util.List;
 
 @SuppressWarnings("serial")
-public class Sentence extends ArrayList<Element> {
+public class Sentence extends ArrayList<Token> {
 
 	private String sentence;
 	private HashSet<Integer> indexSet = new HashSet<Integer>();
@@ -20,10 +20,10 @@ public class Sentence extends ArrayList<Element> {
 		return sentence;
 	}
 	
-	public boolean add(Element element) {
-		if (element != null) {
-			indexSet.add(element.getIndex());
-			return super.add(element);
+	public boolean add(Token token) {
+		if (token != null) {
+			indexSet.add(token.getIndex());
+			return super.add(token);
 		}
 		
 		return false;
@@ -33,29 +33,29 @@ public class Sentence extends ArrayList<Element> {
 		return indexSet.size();
 	}
 
-	public List<Element> getEojeols(int index) {
-		List<Element> list = new ArrayList<Element>();
+	public List<Token> getTokens(int index) {
+		List<Token> list = new ArrayList<Token>();
 		
 		for (int i = 0; i < size(); i++) {
-			Element element = (Element) get(i);
-			if (element.getIndex() == index)
-				list.add(element);				
+			Token token = (Token) get(i);
+			if (token.getIndex() == index)
+				list.add(token);				
 		}		
 		return list;
 	}
 	
 	public void sort(boolean ascending) {
-		Collections.sort(this, new ElementComparator(ascending));
+		Collections.sort(this, new TokenComparator(ascending));
 	}
 	
-	class ElementComparator implements Comparator<Element> {
+	class TokenComparator implements Comparator<Token> {
 		private boolean ascending = true;
 		
-		public ElementComparator(boolean ascending) {
+		public TokenComparator(boolean ascending) {
 			this.ascending = ascending;				
 		}
 		
-		public int compare(Element e1, Element e2) {		
+		public int compare(Token e1, Token e2) {		
 			Integer s1 = e1.getIndex();
 			Integer s2 = e2.getIndex();
 			if (ascending)

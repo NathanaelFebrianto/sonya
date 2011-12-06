@@ -13,7 +13,7 @@ public class KoreanSyntacticAnalyzer implements SyntacticAnalyzer {
 	
 	public KoreanSyntacticAnalyzer() {
 		analyzer = KoreanMorphemeAnalyzer.getInstance();
-		parser = Parser.getInstance();
+		parser = KoreanSyntacticParser.getInstance();
 	}
 	
 	public static KoreanSyntacticAnalyzer getInstance() {
