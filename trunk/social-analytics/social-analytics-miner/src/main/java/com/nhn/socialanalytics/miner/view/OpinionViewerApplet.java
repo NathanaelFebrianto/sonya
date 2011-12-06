@@ -37,7 +37,6 @@ import com.nhn.socialanalytics.miner.index.DetailDoc;
 import com.nhn.socialanalytics.miner.index.DocIndexSearcher;
 import com.nhn.socialanalytics.miner.index.FieldConstants;
 import com.nhn.socialanalytics.miner.index.TargetTerm;
-import com.nhn.socialanalytics.nlp.kr.view.GenericListener;
 
 import edu.uci.ics.jung.algorithms.layout.Layout;
 import edu.uci.ics.jung.algorithms.layout.TreeLayout;
@@ -176,7 +175,8 @@ public class OpinionViewerApplet extends JApplet {
 		
 		try {
 			File[] indexDirs = new File[1];
-			indexDirs[0] = new File("./bin/data/appstore/index/20111201");
+			indexDirs[0] = new File("./bin/data/androidmarket/index/20111206");
+			File liwcCatFile = new File("./bin/liwc/LIWC_ko.txt");
 			
 			String object = "naverline";
 			
@@ -188,7 +188,7 @@ public class OpinionViewerApplet extends JApplet {
 			customStopwordSet.add("갤럭시");
 
 			File stopwordFile = new File("./conf/stopword.txt");
-			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs, stopwordFile, customStopwordSet);
+			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs, liwcCatFile, stopwordFile, customStopwordSet);
 			System.out.println("stopwords == " + searcher.getStopwords());			
 			
 			OpinionGraphModeller modeller = new OpinionGraphModeller();

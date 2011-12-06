@@ -46,7 +46,6 @@ import edu.uci.ics.jung.visualization.decorators.EdgeShape;
 import edu.uci.ics.jung.visualization.layout.LayoutTransition;
 import edu.uci.ics.jung.visualization.util.Animator;
 
-@SuppressWarnings("serial")
 public class OpinionGraphViewer {
 
 	/**

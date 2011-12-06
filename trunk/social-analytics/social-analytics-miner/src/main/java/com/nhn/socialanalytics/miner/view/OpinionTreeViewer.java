@@ -49,7 +49,6 @@ import com.nhn.socialanalytics.miner.index.DetailDoc;
 import com.nhn.socialanalytics.miner.index.DocIndexSearcher;
 import com.nhn.socialanalytics.miner.index.FieldConstants;
 import com.nhn.socialanalytics.miner.index.TargetTerm;
-import com.nhn.socialanalytics.nlp.kr.view.GenericListener;
 
 import edu.uci.ics.jung.algorithms.layout.PolarPoint;
 import edu.uci.ics.jung.algorithms.layout.RadialTreeLayout;

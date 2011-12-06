@@ -15,5 +15,7 @@ public class FieldConstants {
 	public static final String PREDICATE = "PREDICATE";
 	public static final String ATTRIBUTE = "ATTRIBUTE";
 	public static final String TEXT = "TEXT";	
+	public static final String POLARITY = "POLARITY";
+	public static final String POLARITY_STRENGTH = "POLARITY_STRENGTH";
 
 }

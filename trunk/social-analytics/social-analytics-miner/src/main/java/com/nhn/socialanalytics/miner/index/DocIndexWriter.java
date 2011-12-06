@@ -70,7 +70,9 @@ public class DocIndexWriter {
 		String subject = doc.getSubject();
 		String predicate = doc.getPredicate();
 		String attribute = doc.getAttribute();
-		String text = doc.getText();		
+		String text = doc.getText();
+		double polarity = doc.getPolarity();
+		double polarityStrength = doc.getPolarityStrength();
 		
 		if (subject == null || subject.trim().equals(""))
 			subject = "tagempty";
@@ -94,6 +96,8 @@ public class DocIndexWriter {
 		document.add(new Field(FieldConstants.PREDICATE, predicate, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.YES));
 		document.add(new Field(FieldConstants.ATTRIBUTE, attribute, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.YES));
 		document.add(new Field(FieldConstants.TEXT, text, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.YES));
+		document.add(new Field(FieldConstants.POLARITY, String.valueOf(polarity), Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
+		document.add(new Field(FieldConstants.POLARITY_STRENGTH, String.valueOf(polarityStrength), Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
 
 		indexWriter.addDocument(document);
 	}
