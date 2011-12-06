@@ -14,6 +14,8 @@ public class DetailDoc {
 	private String predicate = "";
 	private String attribute = "";
 	private String text = "";
+	private double polarity = 0.0;
+	private double polarityStrength = 0.0;
 
 	public String getSite() {
 		return site;
@@ -111,6 +113,22 @@ public class DetailDoc {
 		this.text = text;
 	}
 	
+	public double getPolarity() {
+		return polarity;
+	}
+
+	public void setPolarity(double polarity) {
+		this.polarity = polarity;
+	}
+	
+	public double getPolarityStrength() {
+		return polarityStrength;
+	}
+
+	public void setPolarityStrength(double polarityStrength) {
+		this.polarityStrength = polarityStrength;
+	}
+	
 	public String toHeaderString() {
 		StringBuffer sb = new StringBuffer()
 		.append(FieldConstants.SITE).append(" | ")
@@ -124,7 +142,9 @@ public class DetailDoc {
 		.append(FieldConstants.SUBJECT).append(" | ")
 		.append(FieldConstants.PREDICATE).append(" | ")
 		.append(FieldConstants.ATTRIBUTE).append(" | ")
-		.append(FieldConstants.TEXT);
+		.append(FieldConstants.TEXT).append(" | ")
+		.append(FieldConstants.POLARITY).append(" | ")
+		.append(FieldConstants.POLARITY_STRENGTH);
 
 	return sb.toString();		
 	}
@@ -142,7 +162,9 @@ public class DetailDoc {
 			.append(subject).append(" | ")
 			.append(predicate).append(" | ")
 			.append(attribute).append(" | ")
-			.append(text);
+			.append(text).append(" | ")
+			.append(polarity).append(" | ")
+			.append(polarityStrength);
 
 		return sb.toString();
 	}

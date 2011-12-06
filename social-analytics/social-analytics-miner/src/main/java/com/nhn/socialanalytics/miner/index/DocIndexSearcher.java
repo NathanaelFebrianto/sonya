@@ -27,13 +27,12 @@ import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.mahout.common.iterator.FileLineIterator;
 
-import com.nhn.socialanalytics.nlp.kr.sentiment.SentimentAnalyzer;
+import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
 
 public class DocIndexSearcher {
 
 	private IndexSearcher searcher;
 	private SentimentAnalyzer sentiment;
-	private static final String LIWC_CAT_FILE = "./bin/liwc/LIWC_ko.txt";
 	
 	private Set<String> stopwordSet = new HashSet<String>();
 	private static final Set<?> DEFAULT_STOPWORDS;
@@ -61,6 +60,10 @@ public class DocIndexSearcher {
 	} 
 	
 	public DocIndexSearcher(File[] indexDirs, File stopwordFile, Set<String> customStopwords) throws IOException, CorruptIndexException {
+		this(indexDirs, null, stopwordFile, customStopwords);
+	} 
+
+	public DocIndexSearcher(File[] indexDirs, File liwcFile, File stopwordFile, Set<String> customStopwords) throws IOException, CorruptIndexException {
 		List<IndexReader> indexReaders = getIndexReaders(indexDirs);
 		MultiReader multiReader = new MultiReader(indexReaders.toArray(new IndexReader[0]));  
 		this.searcher = new IndexSearcher(multiReader);	
@@ -72,7 +75,8 @@ public class DocIndexSearcher {
 		if (customStopwords != null)
 			stopwordSet.addAll(customStopwords);
 		
-		sentiment = SentimentAnalyzer.getInstance(LIWC_CAT_FILE);
+		if (liwcFile != null)
+			sentiment = SentimentAnalyzer.getInstance(liwcFile);
 	} 
 	
 	private List<IndexReader> getIndexReaders(File[] indexDirs) 
@@ -200,8 +204,10 @@ public class DocIndexSearcher {
 
 		result.setTF(rs.totalHits);
 		
-		double searchTextPolarity = sentiment.analyzePolarity(searchText);
-		result.setPolarity(searchTextPolarity);
+		if (sentiment != null) {
+			double searchTextPolarity = sentiment.analyzePolarity(searchText);
+			result.setPolarity(searchTextPolarity);			
+		}
 
 		for (int i = 0; i < rs.totalHits; i++) {
 			int docId = rs.scoreDocs[i].doc;
@@ -221,6 +227,8 @@ public class DocIndexSearcher {
 			detailDoc.setPredicate(doc.get(FieldConstants.PREDICATE));
 			detailDoc.setAttribute(doc.get(FieldConstants.ATTRIBUTE));
 			detailDoc.setText(doc.get(FieldConstants.TEXT));
+			detailDoc.setPolarity(Double.valueOf(doc.get(FieldConstants.POLARITY)));
+			detailDoc.setPolarityStrength(Double.valueOf(doc.get(FieldConstants.POLARITY_STRENGTH)));
 			
 			result.addDoc(detailDoc);
 
@@ -236,11 +244,19 @@ public class DocIndexSearcher {
 							childTerm.setTerm(outText);
 							childTerm.setTF(tf);
 							childTerm.addDoc(detailDoc);
-							double polarity = sentiment.analyzePolarity(outText);
-							childTerm.setPolarity(polarity);
 							
-							result.addChildTerm(childTerm);							
-							System.out.println("\n" + outField + " == " + outText + " (tf: " + tf + " polarity: " + polarity + ")");
+							double polarity = 0.0;
+							if (sentiment != null) {
+								polarity = sentiment.analyzePolarity(outText);
+								childTerm.setPolarity(polarity);
+							}
+							
+							result.addChildTerm(childTerm);	
+							
+							if (sentiment != null)
+								System.out.println("\n" + outField + " == " + outText + " (tf: " + tf + " polarity: " + polarity + ")");
+							else
+								System.out.println("\n" + outField + " == " + outText + " (tf: " + tf + " polarity: " + "n/a" + ")");
 						}
 					}
 				}
@@ -260,12 +276,20 @@ public class DocIndexSearcher {
 								ChildTerm childTerm = new ChildTerm();
 								childTerm.setTerm(attributeText);
 								childTerm.setTF(attributeTF);								
-								childTerm.addDoc(detailDoc);								
-								double polarity = sentiment.analyzePolarity(attributeText);
-								childTerm.setPolarity(polarity);
+								childTerm.addDoc(detailDoc);					
 								
-								result.addChildTerm(childTerm);								
-								System.out.println("\n" + outField + " == " + attributeText + " (tf: " + attributeTF + " polarity: " + polarity + ")");
+								double polarity = 0.0;
+								if (sentiment != null) {
+									polarity = sentiment.analyzePolarity(attributeText);
+									childTerm.setPolarity(polarity);
+								}
+								
+								result.addChildTerm(childTerm);		
+								
+								if (sentiment != null)
+									System.out.println("\n" + outField + " == " + attributeText + " (tf: " + attributeTF + " polarity: " + polarity + ")");
+								else
+									System.out.println("\n" + outField + " == " + attributeText + " (tf: " + attributeTF + " polarity: " + "n/a" + ")");
 							}
 						}
 					}
@@ -296,9 +320,10 @@ public class DocIndexSearcher {
 	public static void main(String[] args) {		
 		try {	
 			File[] indexDirs = new File[1];
-			indexDirs[0] = new File("./bin/data/twitter/index/20111123");
-			String object = "fta";
-			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs);
+			indexDirs[0] = new File("./bin/data/androidmarket/index/20111206");
+			String object = "naverline";
+			File liwcCatFile = new File("./bin/liwc/LIWC_ko.txt");
+			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs, liwcCatFile, null, null);
 			
 			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.PREDICATE, 2, true);
 			System.out.println(terms);
