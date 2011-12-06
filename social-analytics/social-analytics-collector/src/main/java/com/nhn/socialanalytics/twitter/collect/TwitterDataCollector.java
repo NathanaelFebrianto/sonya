@@ -30,11 +30,13 @@ import com.nhn.socialanalytics.miner.index.DetailDoc;
 import com.nhn.socialanalytics.miner.index.DocIndexSearcher;
 import com.nhn.socialanalytics.miner.index.DocIndexWriter;
 import com.nhn.socialanalytics.miner.index.FieldConstants;
-import com.nhn.socialanalytics.nlp.kr.morpheme.MorphemeAnalyzer;
-import com.nhn.socialanalytics.nlp.kr.semantic.SemanticAnalyzer;
-import com.nhn.socialanalytics.nlp.kr.semantic.SemanticClause;
-import com.nhn.socialanalytics.nlp.kr.semantic.SemanticSentence;
-import com.nhn.socialanalytics.nlp.kr.sentiment.SentimentAnalyzer;
+import com.nhn.socialanalytics.nlp.lang.kr.KoreanMorphemeAnalyzer;
+import com.nhn.socialanalytics.nlp.lang.kr.KoreanSemanticAnalyzer;
+import com.nhn.socialanalytics.nlp.morpheme.MorphemeAnalyzer;
+import com.nhn.socialanalytics.nlp.semantic.SemanticAnalyzer;
+import com.nhn.socialanalytics.nlp.semantic.SemanticClause;
+import com.nhn.socialanalytics.nlp.semantic.SemanticSentence;
+import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
 import com.nhn.socialanalytics.twitter.parse.TwitterParser;
 
 public class TwitterDataCollector extends Collector {
@@ -114,9 +116,9 @@ public class TwitterDataCollector extends Collector {
 		Set<String> idSet = new HashSet<String>();
 		CollectHistoryBuffer history = new CollectHistoryBuffer(super.getCollectHistoryFile(dataDir, objectId), historyBufferMaxRound);
 				
-		MorphemeAnalyzer morph = MorphemeAnalyzer.getInstance();
-		SemanticAnalyzer semantic = SemanticAnalyzer.getInstance();
-		SentimentAnalyzer sentiment = SentimentAnalyzer.getInstance(liwcCatFile);
+		MorphemeAnalyzer morph = KoreanMorphemeAnalyzer.getInstance();
+		SemanticAnalyzer semantic = KoreanSemanticAnalyzer.getInstance();
+		SentimentAnalyzer sentiment = SentimentAnalyzer.getInstance(new File(liwcCatFile));
 		
 		DocIndexWriter indexWriter = new DocIndexWriter(docIndexDir);		
 		DocIndexSearcher indexSearcher = new DocIndexSearcher(super.getDocumentIndexDirsToSearch(indexDir, collectDate));
@@ -173,7 +175,7 @@ public class TwitterDataCollector extends Collector {
 				String text1 = morph.extractTerms(textEmotiTagged);
 				String text2 = morph.extractCoreTerms(textEmotiTagged);
 				
-				SemanticSentence semanticSentence = semantic.createSemanticSentence(textEmotiTagged);
+				SemanticSentence semanticSentence = semantic.analyze(textEmotiTagged);
 				String subjectpredicate = semanticSentence.extractSubjectPredicateLabel();
 				String subject = semanticSentence.extractSubjectLabel();
 				String predicate = semanticSentence.extractPredicateLabel();
