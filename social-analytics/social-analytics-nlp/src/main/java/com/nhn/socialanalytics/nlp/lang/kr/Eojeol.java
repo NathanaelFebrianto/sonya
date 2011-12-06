@@ -5,10 +5,10 @@ import org.apache.lucene.analysis.kr.morph.MorphException;
 import org.apache.lucene.analysis.kr.morph.WordEntry;
 import org.apache.lucene.analysis.kr.utils.DictionaryUtil;
 
-import com.nhn.socialanalytics.nlp.morpheme.Element;
+import com.nhn.socialanalytics.nlp.morpheme.Token;
 
 
-public class Eojeol extends Element {
+public class Eojeol extends Token {
 	
 	private String josa;
 	private String eomi;
@@ -74,9 +74,6 @@ public class Eojeol extends Element {
 		this.setTerm(o.getStem());
 		this.setJosa(o.getJosa());
 		this.setEomi(o.getEomi());
-		this.setPattern(o.getPatn());
-		this.setPos(o.getPos());
-		this.setScore(o.getScore());
 		this.setPattern(o.getPatn());
 		this.setPos(o.getPos());
 		this.setScore(o.getScore());

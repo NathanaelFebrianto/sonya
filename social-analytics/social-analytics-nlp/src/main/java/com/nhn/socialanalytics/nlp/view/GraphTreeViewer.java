@@ -45,7 +45,7 @@ import org.apache.commons.collections15.map.LazyMap;
 import com.nhn.socialanalytics.nlp.lang.kr.Eojeol;
 import com.nhn.socialanalytics.nlp.lang.kr.KoreanSemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.kr.KoreanSyntacticAnalyzer;
-import com.nhn.socialanalytics.nlp.morpheme.Element;
+import com.nhn.socialanalytics.nlp.morpheme.Token;
 import com.nhn.socialanalytics.nlp.semantic.SemanticClause;
 import com.nhn.socialanalytics.nlp.semantic.SemanticSentence;
 import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
@@ -132,8 +132,8 @@ public class GraphTreeViewer extends JApplet {
 					public String transform(ParseTreeNode v) {
 						
 						String label = "[" + String.valueOf(v.getId()) + "]";
-						if (v.getElement() != null) {
-							Eojeol eojeol = (Eojeol) v.getElement();
+						if (v.getToken() != null) {
+							Eojeol eojeol = (Eojeol) v.getToken();
 							label += eojeol.getSource();
 							String josa = eojeol.getJosaTag();
 							String eomi = eojeol.getEomiTag();
@@ -194,8 +194,8 @@ public class GraphTreeViewer extends JApplet {
 		vv.setVertexToolTipTransformer(new Transformer<ParseTreeNode, String>() {
 			public String transform(final ParseTreeNode v) {
 				String tooltip = "";
-				if (v.getElement() != null)	{
-					tooltip = v.getElement().toString();
+				if (v.getToken() != null)	{
+					tooltip = v.getToken().toString();
 				}
 					
 				else
@@ -363,10 +363,10 @@ public class GraphTreeViewer extends JApplet {
 	private void changeVerbVerticesColor() {
 		Collection<ParseTreeNode> vertices = graph.getVertices();
 		for (ParseTreeNode v : vertices) {
-			Element element = v.getElement();
-			if (element != null && 
-			   ('V' == element.getPos() || 
-			    "EFN".equals(((Eojeol) element).getEomiTag()))) {
+			Token token = v.getToken();
+			if (token != null && 
+			   ('V' == token.getPos() || 
+			    "EFN".equals(((Eojeol) token).getEomiTag()))) {
 				vertexPaints.put(v, Color.red);
 			}
 		}		

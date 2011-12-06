@@ -4,26 +4,26 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-import com.nhn.socialanalytics.nlp.morpheme.Element;
+import com.nhn.socialanalytics.nlp.morpheme.Token;
 
 public class ParseTreeNode {
 	
 	private int id;
-	private Element element;
+	private Token token;
 	private ParseTreeNode parentNode;
 	private List<ParseTreeEdge> childEdges;
 	
-	protected ParseTreeNode(Element element) {
+	protected ParseTreeNode(Token token) {
 		//Random rand = new Random();
 		//id = rand.nextInt();
 		id = 0;
 		//System.out.println("node id == " + id);
-		this.element = element;
+		this.token = token;
 	}
 	
-	public int getElementIndex() {
-		if (element != null)
-			return element.getIndex();		
+	public int getTokenIndex() {
+		if (token != null)
+			return token.getIndex();		
 		return -9999;
 	}
 
@@ -41,8 +41,8 @@ public class ParseTreeNode {
 		return id;
 	}
 
-	public Element getElement() {
-		return element;
+	public Token getToken() {
+		return token;
 	}
 
 	public ParseTreeNode getParentNode() {
@@ -54,7 +54,7 @@ public class ParseTreeNode {
 	}
 
 	public boolean contains(ParseTreeNode node) {
-		if (element == node.element)
+		if (token == node.token)
 			return true;
 		for (Iterator<ParseTreeEdge> iterChildEdge = childEdges.iterator(); iterChildEdge.hasNext();) {
 			ParseTreeEdge edge = (ParseTreeEdge) iterChildEdge.next();
@@ -77,7 +77,7 @@ public class ParseTreeNode {
 					.append("]=| ").toString());
 		
 		sb.append((new StringBuilder(String.valueOf(id))).append("\t")
-				.append(element).append("\n").toString());
+				.append(token).append("\n").toString());
 		i = 0;
 		
 		for (int size = childEdges != null ? childEdges.size() : 0; i < size; i++) {
