@@ -138,6 +138,7 @@ public class AndroidMarketDataCollector extends Collector {
 				String authorName = comment.getAuthorName();
 				int rating = comment.getRating();
 				String text = comment.getText();
+				text = text.replaceAll("\t", " ").replaceAll("\n", " ");
 				String createDate = DateUtil.convertLongToString("yyyyMMddHHmmss", comment.getCreationTime());
 				String commentId = createDate + "-" + authorId;
 				
@@ -155,10 +156,10 @@ public class AndroidMarketDataCollector extends Collector {
 					String text2 = morph.extractCoreTerms(textEmotiTagged);
 					
 					SemanticSentence semanticSentence = semantic.createSemanticSentence(textEmotiTagged);
-					String subjectpredicate = semanticSentence.extractSubjectPredicateLabel();
-					String subject = semanticSentence.extractSubjectLabel();
-					String predicate = semanticSentence.extractPredicateLabel();
-					String attribute = semanticSentence.extractAttributesLabel();
+					String subjectpredicate = semanticSentence.extractStandardSubjectPredicateLabel();
+					String subject = semanticSentence.extractStandardSubjectLabel();
+					String predicate = semanticSentence.extractStandardPredicateLabel();
+					String attribute = semanticSentence.extractStandardAttributesLabel();
 					
 					semanticSentence = sentiment.analyzePolarity(semanticSentence);
 					double polarity = semanticSentence.getPolarity();
@@ -234,8 +235,8 @@ public class AndroidMarketDataCollector extends Collector {
 	
 	public static void main(String[] args) {
 		
-		String loginAccount = "xxx@gmail.com";
-		String loginPasswd = "xxx";
+		String loginAccount = "louiezzang@gmail.com";
+		String loginPasswd = "bae120809";
 		AndroidMarketDataCollector collector = new AndroidMarketDataCollector(loginAccount, loginPasswd);	
 		
 		//Set<Locale> locales = AndroidMarkets.getAllAndroidMarkets();

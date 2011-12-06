@@ -145,6 +145,7 @@ public class AppStoreDataCollector extends Collector {
 			String authorName = review.getAuthorName();
 			String topic = review.getTopic();
 			String text = review.getText();
+			text = text.replaceAll("\t", " ").replaceAll("\n", " ");
 			String version = review.getVersion();
 			String createDate = review.getCreateDate();
 			int rating = review.getRating();
