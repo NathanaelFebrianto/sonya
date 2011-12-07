@@ -119,7 +119,6 @@ public class TwitterParser {
         
         out = out.replaceAll("\n", " ");
         out = out.replaceAll("\t", " ");
-        out = StringUtil.removeUnsupportedCharacters(out);
        
         return out;
 	}

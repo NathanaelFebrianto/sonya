@@ -32,7 +32,7 @@ public class StringUtil {
 		return text;
 	}
 
-	public static final String removeUnsupportedCharacters(String str) {
+	public static final String removeKoreanUnsupportedCharacters(String str) {
 		for (int i = 0; i < str.length(); i++) {
 			char ch = str.charAt(i);
 			Character.UnicodeBlock unicodeBlock = Character.UnicodeBlock.of(ch);
