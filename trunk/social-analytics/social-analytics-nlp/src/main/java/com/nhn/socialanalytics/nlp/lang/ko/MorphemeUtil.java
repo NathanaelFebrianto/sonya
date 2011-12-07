@@ -22,8 +22,8 @@ public class MorphemeUtil {
 		List<String> eomiList = null;
 
 		try {
-			josaList = DictionaryFactory.loadDictionary("com/nhn/socialanalytics/nlp/lang/kr/dic/josatag.dic"); 
-			eomiList = DictionaryFactory.loadDictionary("com/nhn/socialanalytics/nlp/lang/kr/dic/eomitag.dic"); 
+			josaList = DictionaryFactory.loadDictionary("com/nhn/socialanalytics/nlp/lang/ko/dic/josatag.dic"); 
+			eomiList = DictionaryFactory.loadDictionary("com/nhn/socialanalytics/nlp/lang/ko/dic/eomitag.dic"); 
 
 			System.out.println("loading josa tags...");
 			for (int i = 0; i < josaList.size(); i++) {
