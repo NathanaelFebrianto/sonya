@@ -21,7 +21,6 @@ public class Me2dayParser {
 		body = removeReservedWords(type, body);
 		body = removeMe2dayUrls(body);
 		body = stripHTML(body);
-		body = StringUtil.removeUnsupportedCharacters(body);
 		
 		Pattern EXTRACTION_PATTERN = Pattern.compile("http://(.*?)\\s|http://(.*?)\\Z");		
 		StringBuffer buffer = new StringBuffer(body);		

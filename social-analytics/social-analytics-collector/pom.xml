@@ -15,6 +15,7 @@
 	</properties>
 
 	<repositories>
+	  <!--
 		<repository>
 			<id>twitter4j.org</id>
 			<name>twitter4j.org Repository</name>
@@ -26,6 +27,7 @@
 				<enabled>true</enabled>
 			</snapshots>		
 		</repository>
+		-->
 		<!--
 		<repository>
 			<snapshots>

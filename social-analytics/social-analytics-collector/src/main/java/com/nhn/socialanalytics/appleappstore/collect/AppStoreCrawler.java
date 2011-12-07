@@ -136,6 +136,8 @@ public class AppStoreCrawler {
             
             in.close();
             post.close(); 
+            
+            return content;
         } catch (IOException e){
             e.printStackTrace();
         }
@@ -217,8 +219,13 @@ public class AppStoreCrawler {
                  	
                 	// author name
                    	XPathExpression exprAuthorName = xpath.compile("./pre:HBoxView/pre:TextView/pre:SetFontStyle/pre:GotoURL/pre:b/text()");
-                	Object objAuthorName = exprAuthorName.evaluate(node, XPathConstants.NODE);
+                    Object objAuthorName = exprAuthorName.evaluate(node, XPathConstants.NODE);
                 	Node nodeAuthorName = (Node) objAuthorName;
+                	if (nodeAuthorName == null) {
+                		exprAuthorName = xpath.compile("./pre:HBoxView/pre:TextView/pre:SetFontStyle/pre:GotoURL/text()");
+                        objAuthorName = exprAuthorName.evaluate(node, XPathConstants.NODE);
+                    	nodeAuthorName = (Node) objAuthorName;
+                	}
                 	String authorName = "";                	
                 	if (nodeAuthorName != null) {
 	                	authorName = nodeAuthorName.getNodeValue();
@@ -303,16 +310,16 @@ public class AppStoreCrawler {
 	
 	public static void main(String[] args) {
 		AppStoreCrawler crawler = new AppStoreCrawler();
-		String appStoreId = AppStores.getAppStore("Korea");
 		
-		//System.out.println("html == " + crawler.getHTMLContent(appStoreId, "443904275", 0));
+		//String appStoreId = AppStores.getAppStore("Japan");		
+		//System.out.println("html == " + crawler.getHTMLContent(appStoreId, "443904275", 1));
 		
 		//crawler.getReviewsForPage(appStoreId, "443904275", 0);
 
 		//crawler.getReviews(appStoreId, "443904275", 3);		
 		
 		Set<String> appStores = new HashSet<String>();
-		appStores.add(AppStores.getAppStore("Korea"));
+		appStores.add(AppStores.getAppStore("Japan"));
 		crawler.getReviews(appStores, "443904275", 3);
 	}
 

@@ -245,7 +245,8 @@ public class AndroidMarketDataCollector extends Collector {
 		
 		//Set<Locale> locales = AndroidMarkets.getAllAndroidMarkets();
 		Set<Locale> locales = new HashSet<Locale>();
-		locales.add(Locale.KOREA);
+		//locales.add(Locale.KOREA);
+		locales.add(Locale.JAPAN);
 		
 		//String query = "네이버톡";
 		//String query = "pname:com.nhn.android.navertalk";
@@ -260,7 +261,7 @@ public class AndroidMarketDataCollector extends Collector {
 		//String appId = "com.kakao.talk";
 		
 		//List<Comment> comments = collector.getAppComments(locales, appId, 2);
-		Map<Locale, List<Comment>> commentsMap = collector.getAppCommentsByLocales(locales, appId, 10);
+		Map<Locale, List<Comment>> commentsMap = collector.getAppCommentsByLocales(locales, appId, 30);
 		try {
 			collector.writeOutput("./bin/data/androidmarket/collect/", "./bin/data/androidmarket/index/", "./bin/liwc/LIWC_ko.txt", objectId, commentsMap, new Date(), 2);
 		} catch (Exception e) {
