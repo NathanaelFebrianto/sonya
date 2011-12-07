@@ -91,12 +91,39 @@ public class JapaneseToken extends Token {
 		this.setConjugationalType(token.getMorpheme().getConjugationalType());
 		this.setPartOfSpeech(token.getMorpheme().getPartOfSpeech());
 		this.setPronunciations(token.getMorpheme().getPronunciations());
-		this.setReadings(token.getMorpheme().getReadings());		
+		this.setReadings(token.getMorpheme().getReadings());
+		
+		this.setPos(convertPos(partOfSpeech));
 	}
 	
 	private char convertPos(String partOfSpeech) {
+		char pos = ' ';
+		if (partOfSpeech.startsWith("副詞"))
+			pos = 'Z';
+		else if (partOfSpeech.startsWith("形容詞"))
+			pos = 'A';
+		else if (partOfSpeech.startsWith("連体詞"))
+			pos = 'Y';
+		else if (partOfSpeech.startsWith("助動詞"))
+			pos = 'X';
+		else if (partOfSpeech.startsWith("接続詞"))
+			pos = 'C';
+		else if (partOfSpeech.startsWith("感動詞"))
+			pos = 'E';
+		else if (partOfSpeech.startsWith("名詞"))
+			pos = 'N';
+		else if (partOfSpeech.startsWith("助詞"))
+			pos = 'J';
+		else if (partOfSpeech.startsWith("接頭詞"))
+			pos = 'P';
+		else if (partOfSpeech.startsWith("記号"))
+			pos = 'S';
+		else if (partOfSpeech.startsWith("動詞"))
+			pos = 'V';
+		else if (partOfSpeech.startsWith("未知語"))
+			pos = 'F';
 		
-		return 'V';
+		return pos;
 	}
 	
 	public String toString() {
