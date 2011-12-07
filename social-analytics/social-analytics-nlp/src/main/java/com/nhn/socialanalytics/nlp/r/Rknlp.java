@@ -7,9 +7,9 @@ import javax.swing.JFrame;
 
 import net.sf.json.JSONObject;
 
-import com.nhn.socialanalytics.nlp.lang.kr.Eojeol;
-import com.nhn.socialanalytics.nlp.lang.kr.KoreanMorphemeAnalyzer;
-import com.nhn.socialanalytics.nlp.lang.kr.KoreanSyntacticAnalyzer;
+import com.nhn.socialanalytics.nlp.lang.ko.Eojeol;
+import com.nhn.socialanalytics.nlp.lang.ko.KoreanMorphemeAnalyzer;
+import com.nhn.socialanalytics.nlp.lang.ko.KoreanSyntacticAnalyzer;
 import com.nhn.socialanalytics.nlp.morpheme.Sentence;
 import com.nhn.socialanalytics.nlp.syntax.ParseTree;
 import com.nhn.socialanalytics.nlp.syntax.ParseTreeEdge;

@@ -42,9 +42,9 @@ import org.apache.commons.collections15.functors.ConstantTransformer;
 import org.apache.commons.collections15.functors.MapTransformer;
 import org.apache.commons.collections15.map.LazyMap;
 
-import com.nhn.socialanalytics.nlp.lang.kr.Eojeol;
-import com.nhn.socialanalytics.nlp.lang.kr.KoreanSemanticAnalyzer;
-import com.nhn.socialanalytics.nlp.lang.kr.KoreanSyntacticAnalyzer;
+import com.nhn.socialanalytics.nlp.lang.ko.Eojeol;
+import com.nhn.socialanalytics.nlp.lang.ko.KoreanSemanticAnalyzer;
+import com.nhn.socialanalytics.nlp.lang.ko.KoreanSyntacticAnalyzer;
 import com.nhn.socialanalytics.nlp.morpheme.Token;
 import com.nhn.socialanalytics.nlp.semantic.SemanticClause;
 import com.nhn.socialanalytics.nlp.semantic.SemanticSentence;

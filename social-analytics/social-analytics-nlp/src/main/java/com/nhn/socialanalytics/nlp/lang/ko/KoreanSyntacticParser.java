@@ -1,4 +1,4 @@
-package com.nhn.socialanalytics.nlp.lang.kr;
+package com.nhn.socialanalytics.nlp.lang.ko;
 
 import java.util.ArrayList;
 import java.util.Collections;

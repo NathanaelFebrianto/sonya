@@ -7,7 +7,7 @@ public abstract class Token {
 	protected int index;
 	protected String source;
 	protected String term;
-	protected char pos;
+	protected char pos = ' ';
 	
 	public int getId() {
 		return id;

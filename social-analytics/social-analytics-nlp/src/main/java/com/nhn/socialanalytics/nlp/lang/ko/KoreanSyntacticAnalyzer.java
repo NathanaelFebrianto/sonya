@@ -1,4 +1,4 @@
-package com.nhn.socialanalytics.nlp.lang.kr;
+package com.nhn.socialanalytics.nlp.lang.ko;
 
 import com.nhn.socialanalytics.nlp.morpheme.Sentence;
 import com.nhn.socialanalytics.nlp.syntax.ParseTree;
