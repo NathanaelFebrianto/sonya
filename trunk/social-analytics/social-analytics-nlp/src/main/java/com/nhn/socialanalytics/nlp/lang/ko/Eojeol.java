@@ -1,4 +1,4 @@
-package com.nhn.socialanalytics.nlp.lang.kr;
+package com.nhn.socialanalytics.nlp.lang.ko;
 
 import org.apache.lucene.analysis.kr.morph.AnalysisOutput;
 import org.apache.lucene.analysis.kr.morph.MorphException;

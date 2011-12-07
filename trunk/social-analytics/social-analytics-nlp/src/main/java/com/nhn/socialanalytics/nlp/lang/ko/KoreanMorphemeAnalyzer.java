@@ -1,4 +1,4 @@
-package com.nhn.socialanalytics.nlp.lang.kr;
+package com.nhn.socialanalytics.nlp.lang.ko;
 
 import java.io.IOException;
 import java.io.StringReader;
