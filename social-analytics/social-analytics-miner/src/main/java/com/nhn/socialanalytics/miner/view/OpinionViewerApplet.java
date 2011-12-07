@@ -175,7 +175,7 @@ public class OpinionViewerApplet extends JApplet {
 		
 		try {
 			File[] indexDirs = new File[1];
-			indexDirs[0] = new File("./bin/data/androidmarket/index/20111206");
+			indexDirs[0] = new File("./bin/data/appstore/index/20111207");
 			File liwcCatFile = new File("./bin/liwc/LIWC_ko.txt");
 			
 			String object = "naverline";
@@ -186,6 +186,14 @@ public class OpinionViewerApplet extends JApplet {
 			customStopwordSet.add("한미");
 			customStopwordSet.add("갤럭시노트");
 			customStopwordSet.add("갤럭시");
+			customStopwordSet.add("좋은데");
+			customStopwordSet.add("바이버보");
+			customStopwordSet.add("그누구");
+			customStopwordSet.add("이건");
+			customStopwordSet.add("역시");
+			customStopwordSet.add("아직");
+			customStopwordSet.add("메세지는");
+			customStopwordSet.add("한가지");
 
 			File stopwordFile = new File("./conf/stopword.txt");
 			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs, liwcCatFile, stopwordFile, customStopwordSet);
@@ -197,36 +205,35 @@ public class OpinionViewerApplet extends JApplet {
 			/* target term ==> PREDICATE   */
 			/////////////////////////////////
 
-			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.PREDICATE, 3, true);					
-			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
-				String term = entry.getKey();
-			
-				TargetTerm subjectTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 3);
-				TargetTerm attributeTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.ATTRIBUTE, term, 3);
-				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
-				termMap.put(FieldConstants.SUBJECT, subjectTerm);
-				termMap.put(FieldConstants.ATTRIBUTE, attributeTerm);
-				
-				modeller.addTerms(FieldConstants.PREDICATE, termMap);			
-			}
-			
+//			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.PREDICATE, 4, true);					
+//			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
+//				String term = entry.getKey();
+//			
+//				TargetTerm subjectTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 4);
+//				TargetTerm attributeTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.ATTRIBUTE, term, 4);
+//				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
+//				termMap.put(FieldConstants.SUBJECT, subjectTerm);
+//				termMap.put(FieldConstants.ATTRIBUTE, attributeTerm);
+//				
+//				modeller.addTerms(FieldConstants.PREDICATE, termMap);			
+//			}
+//			
 			/////////////////////////////////
 			/* target term ==> SUBJECT   */
 			/////////////////////////////////
-			/*
-			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.SUBJECT, 15, true);					
+
+			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.SUBJECT, 3, true);					
 			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
 				String term = entry.getKey();
 			
-				TargetTerm subjectTerm = searcher.search(object, FieldConstants.SUBJECT, FieldConstants.PREDICATE, term, 15);
-				TargetTerm attributeTerm = searcher.search(object, FieldConstants.SUBJECT, FieldConstants.ATTRIBUTE, term, 20);
+				TargetTerm subjectTerm = searcher.search(object, FieldConstants.SUBJECT, FieldConstants.PREDICATE, term, 3);
+				TargetTerm attributeTerm = searcher.search(object, FieldConstants.SUBJECT, FieldConstants.ATTRIBUTE, term, 3);
 				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
 				termMap.put(FieldConstants.PREDICATE, subjectTerm);
 				termMap.put(FieldConstants.ATTRIBUTE, attributeTerm);
 				
 				modeller.addTerms(FieldConstants.SUBJECT, termMap);			
 			}
-			*/
 				
 			modeller.createGraph();
 			final Forest<TermNode, TermEdge> graph = modeller.getGraph();
