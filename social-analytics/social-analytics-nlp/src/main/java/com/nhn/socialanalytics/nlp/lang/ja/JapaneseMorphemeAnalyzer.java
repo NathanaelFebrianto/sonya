@@ -3,7 +3,6 @@ package com.nhn.socialanalytics.nlp.lang.ja;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Locale;
 
 import net.java.sen.SenFactory;
 import net.java.sen.StringTagger;
@@ -19,6 +18,9 @@ public class JapaneseMorphemeAnalyzer implements MorphemeAnalyzer {
 	
 	public JapaneseMorphemeAnalyzer() {
 		tagger = SenFactory.getStringTagger("");
+		//tagger = SenFactory.getStringTagger("dictionary/naist-chasen");
+		//tagger = SenFactory.getStringTagger("dictionary/ipadic");
+		
 	}
 	
 	public static JapaneseMorphemeAnalyzer getInstance() {
@@ -64,7 +66,8 @@ public class JapaneseMorphemeAnalyzer implements MorphemeAnalyzer {
 	public static void main(String[] args) throws Exception {
 		//String text = "もう眠い";
 		//String text = "上記のように最新のソースでは Listを 参照渡し風にしているようです。";
-		String text = "何も問題なく快適。要望が２つ、１つはチャットのスタンプが大きすぎてインパクトはあるけどすぐログが飛ぶので少し小さくするか大きさの設定項目の追加。１つは過去ログ見てる時はコメントが来ても最下部まで降りないでほしぃです。（最下部閲覧中のみコメント来ても最下部張り付きが望ましい）お願いします。";
+		//String text = "何も問題なく快適。要望が２つ、１つはチャットのスタンプが大きすぎてインパクトはあるけどすぐログが飛ぶので少し小さくするか大きさの設定項目の追加。１つは過去ログ見てる時はコメントが来ても最下部まで降りないでほしぃです。（最下部閲覧中のみコメント来ても最下部張り付きが望ましい）お願いします。";
+		String text = "スゴイですね。こんなアプリ待ってました";
 		
 		JapaneseMorphemeAnalyzer analyzer = JapaneseMorphemeAnalyzer.getInstance();
 		analyzer.analyze(text);
