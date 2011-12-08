@@ -73,27 +73,16 @@ public class JapaneseToken extends Token {
 
 	@ Override
 	public boolean containsTagOf(String[] tags) {
+		for (int i = 0; i < tags.length; i++) {
+			if (tags[i].startsWith(partOfSpeech)) {
+				return true;
+			}
+		}
+
+		if (containsPosTagOf(tags))
+			return true;
+
 		return false;
-	}
-	
-	public void makeObject(int index, net.java.sen.dictionary.Token token) {
-		this.setIndex(index);
-		this.setSource(token.getSurface());
-		
-		if (token.getMorpheme().getBasicForm().equals("*"))
-			this.setTerm(token.getSurface());
-		else
-			this.setTerm(token.getMorpheme().getBasicForm());
-		
-		this.setCost(token.getCost());
-		this.setBasicForm(token.getMorpheme().getBasicForm());
-		this.setConjugationalForm(token.getMorpheme().getConjugationalForm());
-		this.setConjugationalType(token.getMorpheme().getConjugationalType());
-		this.setPartOfSpeech(token.getMorpheme().getPartOfSpeech());
-		this.setPronunciations(token.getMorpheme().getPronunciations());
-		this.setReadings(token.getMorpheme().getReadings());
-		
-		this.setPos(convertPos(partOfSpeech));
 	}
 	
 	private char convertPos(String partOfSpeech) {
@@ -124,6 +113,26 @@ public class JapaneseToken extends Token {
 			pos = 'F';
 		
 		return pos;
+	}
+	
+	public void makeObject(int index, net.java.sen.dictionary.Token token) {
+		this.setIndex(index);
+		this.setSource(token.getSurface());
+		
+		if (token.getMorpheme().getBasicForm().equals("*"))
+			this.setTerm(token.getSurface());
+		else
+			this.setTerm(token.getMorpheme().getBasicForm());
+		
+		this.setCost(token.getCost());
+		this.setBasicForm(token.getMorpheme().getBasicForm());
+		this.setConjugationalForm(token.getMorpheme().getConjugationalForm());
+		this.setConjugationalType(token.getMorpheme().getConjugationalType());
+		this.setPartOfSpeech(token.getMorpheme().getPartOfSpeech());
+		this.setPronunciations(token.getMorpheme().getPronunciations());
+		this.setReadings(token.getMorpheme().getReadings());
+		
+		this.setPos(convertPos(partOfSpeech));
 	}
 	
 	public String toString() {

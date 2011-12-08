@@ -18,7 +18,7 @@ public class KoreanSemanticAnalyzer implements SemanticAnalyzer {
 	
 	public KoreanSemanticAnalyzer() {
 		syntacticAnalyzer = KoreanSyntacticAnalyzer.getInstance();
-		synonymEngine = SynonymEngine.getInstance("com/nhn/socialanalytics/nlp/lang/ko/dic/synonym.dic");
+		synonymEngine = SynonymEngine.getInstance("com/nhn/socialanalytics/nlp/lang/ko/dic/synonym_ko.dic");
 	}
 	
 	public static KoreanSemanticAnalyzer getInstance() {

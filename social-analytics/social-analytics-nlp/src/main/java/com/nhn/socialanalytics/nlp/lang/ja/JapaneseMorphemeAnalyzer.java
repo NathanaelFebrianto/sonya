@@ -56,21 +56,71 @@ public class JapaneseMorphemeAnalyzer implements MorphemeAnalyzer {
 	}
 	
 	public String extractTerms(String text) {
-		return null;
+		StringBuffer sb = new StringBuffer();
+
+		try {
+		List<Token> tokens = new ArrayList<Token>();
+		tokens = tagger.analyze(text, tokens);
+
+		int index = 0;
+		for (Token token : tokens) {
+			JapaneseToken jtoken = new JapaneseToken();			
+			jtoken.makeObject(index, token);			
+			sb.append(jtoken.getTerm()).append(" ");		
+			index++;
+		}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		return sb.toString();
 	}
 	
 	public String extractCoreTerms(String text) {
-		return null;
+		StringBuffer sb = new StringBuffer();
+
+		try {
+		List<Token> tokens = new ArrayList<Token>();
+		tokens = tagger.analyze(text, tokens);
+
+		int index = 0;
+		for (Token token : tokens) {
+			JapaneseToken jtoken = new JapaneseToken();			
+			jtoken.makeObject(index, token);
+			String partOfSpeech = jtoken.getPartOfSpeech();
+			char pos = jtoken.getPos();
+			
+			if (
+				(
+					pos == 'Z' || pos == 'A' || pos == 'Y' || 
+					pos == 'E' || pos ==  'N' || pos == 'F' ||
+					partOfSpeech.startsWith("動詞-自立")
+				 ) && 
+				 (
+					!partOfSpeech.startsWith("名詞-非自立")
+			     )
+			    )
+				sb.append(jtoken.getTerm()).append(" ");		
+			
+			index++;
+		}
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		
+		return sb.toString();
 	}
 	
 	public static void main(String[] args) throws Exception {
 		//String text = "もう眠い";
-		//String text = "上記のように最新のソースでは Listを 参照渡し風にしているようです。";
+		String text = "上記のように最新のソースでは Listを 参照渡し風にしているようです。";
 		//String text = "何も問題なく快適。要望が２つ、１つはチャットのスタンプが大きすぎてインパクトはあるけどすぐログが飛ぶので少し小さくするか大きさの設定項目の追加。１つは過去ログ見てる時はコメントが来ても最下部まで降りないでほしぃです。（最下部閲覧中のみコメント来ても最下部張り付きが望ましい）お願いします。";
-		String text = "スゴイですね。こんなアプリ待ってました";
+		//String text = "スゴイですね。こんなアプリを待ってました";
 		
 		JapaneseMorphemeAnalyzer analyzer = JapaneseMorphemeAnalyzer.getInstance();
 		analyzer.analyze(text);
+		
+		System.out.println("core terms == " + analyzer.extractCoreTerms(text));
 	}
 
 }
