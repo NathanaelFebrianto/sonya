@@ -148,11 +148,12 @@ public class SynonymEngine {
 	
 	public static void main(String[] args) {
 		try {
-			SynonymEngine synonymEngine = SynonymEngine.getInstance("com/nhn/socialanalytics/nlp/lang/kr/dictionary/synonym.dic");
-			List<String> synonyms = synonymEngine.getSynonyms("pc");			
+			//SynonymEngine synonymEngine = SynonymEngine.getInstance("com/nhn/socialanalytics/nlp/lang/ko/dic/synonym_ko.dic");
+			SynonymEngine synonymEngine = SynonymEngine.getInstance("com/nhn/socialanalytics/nlp/lang/ja/dic/synonym_ja.dic");
+			List<String> synonyms = synonymEngine.getSynonyms("アプリ");			
 			System.out.println("synonyms == " + synonyms);
 			
-			String standard = synonymEngine.getStandardWord("핸펀");			
+			String standard = synonymEngine.getStandardWord("アプリ");			
 			System.out.println("standard == " + standard);
 			
 		} catch (Exception e) {

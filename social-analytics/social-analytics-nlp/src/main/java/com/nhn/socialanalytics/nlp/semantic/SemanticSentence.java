@@ -48,8 +48,8 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 		
 		char[] tags = checkSemanticClause(subject, predicate);
 		
-		System.out.println("tags[0] == " + tags[0]);
-		System.out.println("tags[1] == " + tags[1]);		
+		//System.out.println("tags[0] == " + tags[0]);
+		//System.out.println("tags[1] == " + tags[1]);		
 
 		if (tags[0] == '0' && tags[1] == '0') {
 			if (subject != null || predicate  != null) {

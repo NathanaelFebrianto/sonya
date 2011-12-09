@@ -75,13 +75,40 @@ public class JapaneseToken extends Token {
 	public boolean containsTagOf(String[] tags) {
 		for (int i = 0; i < tags.length; i++) {
 			if (tags[i].startsWith(partOfSpeech)) {
+				//System.out.println("input = " + tags[i] + ", pos = " + partOfSpeech);
 				return true;
 			}
 		}
+		
+		if (containsConjugationalFormTagOf(tags))
+			return true;
+		
+		if (containsConjugationalTypeTagOf(tags))
+			return true;
 
 		if (containsPosTagOf(tags))
 			return true;
-
+		
+		return false;
+	}
+	
+	public boolean containsConjugationalFormTagOf(String[] tags) {
+		for (int i = 0; i < tags.length; i++) {
+			if (conjugationalForm != null && tags[i].startsWith(conjugationalForm)) {
+				return true;
+			}
+		}
+		
+		return false;
+	}
+	
+	public boolean containsConjugationalTypeTagOf(String[] tags) {
+		for (int i = 0; i < tags.length; i++) {
+			if (conjugationalType != null && tags[i].startsWith(conjugationalType)) {
+				return true;
+			}
+		}
+		
 		return false;
 	}
 	
@@ -133,6 +160,39 @@ public class JapaneseToken extends Token {
 		this.setReadings(token.getMorpheme().getReadings());
 		
 		this.setPos(convertPos(partOfSpeech));
+	}
+	
+	public void makeObject(int index, List<net.java.sen.dictionary.Token> tokens) {
+		this.setIndex(index);
+		
+		StringBuffer sbSource = new StringBuffer();
+		StringBuffer sbTerm = new StringBuffer();		
+		List<String> pronunciations = new ArrayList<String>();
+		List<String> readings = new ArrayList<String>();
+		
+		for (net.java.sen.dictionary.Token token : tokens) {
+			sbSource.append(token.getSurface());
+			
+			if (token.getMorpheme().getBasicForm().equals("*"))
+				sbTerm.append(token.getSurface());
+			else
+				sbTerm.append(token.getMorpheme().getBasicForm());
+		
+			pronunciations.addAll(token.getMorpheme().getPronunciations());
+			readings.addAll(token.getMorpheme().getReadings());	
+			
+			this.setCost(token.getCost());
+			this.setBasicForm(token.getMorpheme().getBasicForm());
+			this.setConjugationalForm(token.getMorpheme().getConjugationalForm());
+			this.setConjugationalType(token.getMorpheme().getConjugationalType());
+			this.setPartOfSpeech(token.getMorpheme().getPartOfSpeech());
+			this.setPos(convertPos(partOfSpeech));
+		}
+		
+		this.setSource(sbSource.toString());
+		this.setTerm(sbTerm.toString());
+		this.setPronunciations(pronunciations);
+		this.setReadings(readings);		
 	}
 	
 	public String toString() {
