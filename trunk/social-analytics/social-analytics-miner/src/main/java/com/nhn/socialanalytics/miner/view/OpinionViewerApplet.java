@@ -195,7 +195,6 @@ public class OpinionViewerApplet extends JApplet {
 			customStopwordSet.add("메세지는");
 			customStopwordSet.add("한가지");
 			customStopwordSet.add("o");
-			customStopwordSet.add("");
 
 			File stopwordFile = new File("./conf/stopword.txt");
 			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs, liwcCatFile, stopwordFile, customStopwordSet);
