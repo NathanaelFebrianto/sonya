@@ -10,6 +10,7 @@ lt
 qt
 brgt
 brgt
+�
 조다
 나다
 외다

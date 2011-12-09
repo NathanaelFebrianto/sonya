@@ -130,9 +130,12 @@ public class DocIndexSearcher {
 		Query query = new TermQuery(term);		
 
 		TopDocs rs = searcher.search(query, filter, 1000000);
-		//System.out.println("docFreq == " + rs.totalHits);
-
-		return rs.totalHits;
+		System.out.println("search field == " + field + ", search text == " + text + ", docFreq == " + rs.totalHits);
+		
+		if (rs.totalHits >= 0)
+			return rs.totalHits+1;
+		else
+			return rs.totalHits;
 	}
 	
 	public Map<String, Integer> getTerms(String object, String field, int minTF, boolean excludeStopwords) 

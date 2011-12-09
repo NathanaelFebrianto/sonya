@@ -175,7 +175,7 @@ public class OpinionViewerApplet extends JApplet {
 		
 		try {
 			File[] indexDirs = new File[1];
-			indexDirs[0] = new File("./bin/data/appstore/index/20111207");
+			indexDirs[0] = new File("./bin/data/appstore/index/20111209");
 			File liwcCatFile = new File("./bin/liwc/LIWC_ko.txt");
 			
 			String object = "naverline";
@@ -194,6 +194,8 @@ public class OpinionViewerApplet extends JApplet {
 			customStopwordSet.add("아직");
 			customStopwordSet.add("메세지는");
 			customStopwordSet.add("한가지");
+			customStopwordSet.add("o");
+			customStopwordSet.add("");
 
 			File stopwordFile = new File("./conf/stopword.txt");
 			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs, liwcCatFile, stopwordFile, customStopwordSet);
@@ -222,12 +224,12 @@ public class OpinionViewerApplet extends JApplet {
 			/* target term ==> SUBJECT   */
 			/////////////////////////////////
 
-			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.SUBJECT, 3, true);					
+			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.SUBJECT, 2, true);					
 			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
 				String term = entry.getKey();
 			
-				TargetTerm subjectTerm = searcher.search(object, FieldConstants.SUBJECT, FieldConstants.PREDICATE, term, 3);
-				TargetTerm attributeTerm = searcher.search(object, FieldConstants.SUBJECT, FieldConstants.ATTRIBUTE, term, 3);
+				TargetTerm subjectTerm = searcher.search(object, FieldConstants.SUBJECT, FieldConstants.PREDICATE, term, 1);
+				TargetTerm attributeTerm = searcher.search(object, FieldConstants.SUBJECT, FieldConstants.ATTRIBUTE, term, 1);
 				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
 				termMap.put(FieldConstants.PREDICATE, subjectTerm);
 				termMap.put(FieldConstants.ATTRIBUTE, attributeTerm);
@@ -247,7 +249,7 @@ public class OpinionViewerApplet extends JApplet {
 						//UIManager.setLookAndFeel("com.jgoodies.plaf.plastic.Plastic3DLookAndFeel");
 						//UIManager.setLookAndFeel("com.jgoodies.plaf.plastic.PlasticXPLookAndFeel");
 						
-						//UIHandler.changeAllSwingComponentDefaultFont();
+						UIHandler.changeAllSwingComponentDefaultFont();
 
 						JFrame frame = new JFrame();
 						Container content = frame.getContentPane();
