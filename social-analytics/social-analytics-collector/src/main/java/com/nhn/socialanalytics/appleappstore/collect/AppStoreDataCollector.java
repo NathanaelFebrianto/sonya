@@ -15,6 +15,7 @@ import java.util.Set;
 import org.apache.lucene.document.Document;
 
 import com.nhn.socialanalytics.appleappstore.model.Review;
+import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.JobLogger;
 import com.nhn.socialanalytics.common.collect.CollectHistoryBuffer;
 import com.nhn.socialanalytics.common.collect.Collector;
@@ -24,10 +25,10 @@ import com.nhn.socialanalytics.miner.index.DetailDoc;
 import com.nhn.socialanalytics.miner.index.DocIndexSearcher;
 import com.nhn.socialanalytics.miner.index.DocIndexWriter;
 import com.nhn.socialanalytics.miner.index.FieldConstants;
+import com.nhn.socialanalytics.nlp.lang.ja.JapaneseMorphemeAnalyzer;
+import com.nhn.socialanalytics.nlp.lang.ja.JapaneseSemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanMorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanSemanticAnalyzer;
-import com.nhn.socialanalytics.nlp.morpheme.MorphemeAnalyzer;
-import com.nhn.socialanalytics.nlp.semantic.SemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.semantic.SemanticClause;
 import com.nhn.socialanalytics.nlp.semantic.SemanticSentence;
 import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
@@ -95,10 +96,15 @@ public class AppStoreDataCollector extends Collector {
 		// collect history buffer
 		Set<String> idSet = new HashSet<String>();
 		CollectHistoryBuffer history = new CollectHistoryBuffer(super.getCollectHistoryFile(dataDir, objectId), historyBufferMaxRound);
-				
-		MorphemeAnalyzer morph = KoreanMorphemeAnalyzer.getInstance();
-		SemanticAnalyzer semantic = KoreanSemanticAnalyzer.getInstance();
+		
+		// for Korean
+		KoreanMorphemeAnalyzer morphKorean = KoreanMorphemeAnalyzer.getInstance();
+		KoreanSemanticAnalyzer semanticKorean = KoreanSemanticAnalyzer.getInstance();
 		SentimentAnalyzer sentiment = SentimentAnalyzer.getInstance(new File(liwcCatFile));
+		
+		// for Japanese
+		JapaneseMorphemeAnalyzer morphJapanese = JapaneseMorphemeAnalyzer.getInstance();
+		JapaneseSemanticAnalyzer semanticJapanese = JapaneseSemanticAnalyzer.getInstance();
 		
 		DocIndexWriter indexWriter = new DocIndexWriter(docIndexDir);		
 		DocIndexSearcher indexSearcher = new DocIndexSearcher(super.getDocumentIndexDirsToSearch(indexDir, collectDate));
@@ -162,10 +168,22 @@ public class AppStoreDataCollector extends Collector {
 				boolean isSpam = super.isSpam(text);
 				String textEmotiTagged = StringUtil.convertEmoticonToTag(text);
 				
-				String text1 = morph.extractTerms(textEmotiTagged);
-				String text2 = morph.extractCoreTerms(textEmotiTagged);
+				String text1 = "";
+				String text2 = "";
+				SemanticSentence semanticSentence = null;
 				
-				SemanticSentence semanticSentence = semantic.analyze(textEmotiTagged);
+				if (review.getCountry().equalsIgnoreCase("Korea")) {
+					text1 = morphKorean.extractTerms(textEmotiTagged);
+					text2 = morphKorean.extractCoreTerms(textEmotiTagged);					
+					semanticSentence = semanticKorean.analyze(textEmotiTagged);
+				}
+				else if (review.getCountry().equalsIgnoreCase("Japan")) {
+					//text = StringUtil.removeJapaneseUnsupportedCharacters(text);
+					text1 = morphJapanese.extractTerms(text);
+					text2 = morphJapanese.extractCoreTerms(text);					
+					semanticSentence = semanticJapanese.analyze(text);
+				}
+
 				String subjectpredicate = semanticSentence.extractSubjectPredicateLabel();
 				String subject = semanticSentence.extractSubjectLabel();
 				String predicate = semanticSentence.extractPredicateLabel();
@@ -246,7 +264,8 @@ public class AppStoreDataCollector extends Collector {
 	}
 	
 	public static void main(String[] args) {
-		AppStoreDataCollector collector = new AppStoreDataCollector();
+		File spamFilter = new File(Config.getProperty("COLLECT_SPAM_FILTER_FILE"));
+		AppStoreDataCollector collector = new AppStoreDataCollector(spamFilter);
 		
 		Set<String> appStores = new HashSet<String>();
 		//appStores.add(AppStores.getAppStore("Korea"));
@@ -256,8 +275,8 @@ public class AppStoreDataCollector extends Collector {
 		String objectId = "naverline";
 		String appId = "443904275";		
 		
-		//List<Review> reviews = collector.getReviews(appStores, appId, 10);
-		List<Review> reviews = collector.getReviews(appStores, appId);
+		List<Review> reviews = collector.getReviews(appStores, appId, 10);
+		//List<Review> reviews = collector.getReviews(appStores, appId);
 		//List<Review> reviews = collector.getReviews(AppStores.getAllAppStores(), appId);
 		
 		try {
