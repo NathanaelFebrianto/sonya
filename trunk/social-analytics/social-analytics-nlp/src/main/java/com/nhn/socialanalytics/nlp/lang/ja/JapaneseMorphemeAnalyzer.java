@@ -35,19 +35,43 @@ public class JapaneseMorphemeAnalyzer implements MorphemeAnalyzer {
 		Sentence sentence = new Sentence(text);
 		
 		try {
-		List<Token> tokens = new ArrayList<Token>();
-		tokens = tagger.analyze(text, tokens);
-
-		int index = 0;
-		for (Token token : tokens) {
-			JapaneseToken jtoken = new JapaneseToken();			
-			jtoken.makeObject(index, token);
+			List<Token> tokens = new ArrayList<Token>();
+			tokens = tagger.analyze(text, tokens);
+	
+			int index = 0;
 			
-			System.out.println(jtoken.toString());
+			List<Token> alphabetTokens = new ArrayList<Token>();
 			
-			sentence.add(jtoken);			
-			index++;
-		}
+			for (int i = 0; i < tokens.size(); i++) {		
+				Token token = (Token) tokens.get(i);
+				if (token.getMorpheme().getPartOfSpeech().equals("記号-アルファベット")) {
+					Token nextToken = null;
+					if (i < tokens.size() - 1)
+						nextToken = (Token) tokens.get(i+1);
+					
+					if (nextToken != null && nextToken.getMorpheme().getPartOfSpeech().equals("記号-アルファベット")) {
+						alphabetTokens.add(token);					
+					}
+					else {
+						alphabetTokens.add(token);
+						
+						JapaneseToken alphabetToken = new JapaneseToken();	
+						alphabetToken.makeObject(index, alphabetTokens);
+						System.out.println(alphabetToken.toString());				
+						sentence.add(alphabetToken);
+						
+						alphabetTokens.clear();
+						index++;
+					}
+				}
+				else {			
+					JapaneseToken jtoken = new JapaneseToken();	
+					jtoken.makeObject(index, token);
+					System.out.println(jtoken.toString());				
+					sentence.add(jtoken);
+					index++;
+				}	
+			}
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -113,9 +137,9 @@ public class JapaneseMorphemeAnalyzer implements MorphemeAnalyzer {
 	
 	public static void main(String[] args) throws Exception {
 		//String text = "もう眠い";
-		String text = "上記のように最新のソースでは Listを 参照渡し風にしているようです。";
+		//String text = "上記のように最新のソースでは Listを 参照渡し風にしているようです。";
 		//String text = "何も問題なく快適。要望が２つ、１つはチャットのスタンプが大きすぎてインパクトはあるけどすぐログが飛ぶので少し小さくするか大きさの設定項目の追加。１つは過去ログ見てる時はコメントが来ても最下部まで降りないでほしぃです。（最下部閲覧中のみコメント来ても最下部張り付きが望ましい）お願いします。";
-		//String text = "スゴイですね。こんなアプリを待ってました";
+		String text = "スゴイですね。こんなアプリを待ってました";
 		
 		JapaneseMorphemeAnalyzer analyzer = JapaneseMorphemeAnalyzer.getInstance();
 		analyzer.analyze(text);
