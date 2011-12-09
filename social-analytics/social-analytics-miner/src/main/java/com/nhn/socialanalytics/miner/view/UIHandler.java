@@ -56,7 +56,9 @@ public class UIHandler {
 			while (allDefaultKey.hasMoreElements()) {
 				String defaultKey = allDefaultKey.nextElement().toString();
 				if (defaultKey.indexOf("font") != -1) {
-					Font newDefaultFont = new Font("tahoma", Font.PLAIN, 11);
+					//Font newDefaultFont = new Font("tahoma", Font.PLAIN, 11);
+					Font newDefaultFont = new Font("MS Gothic", Font.PLAIN, 12);
+					//Font newDefaultFont = new Font("MS Mincho", Font.PLAIN, 12);
 					UIManager.put(defaultKey, newDefaultFont);
 				}
 			}
