@@ -22,7 +22,9 @@ sigma2 = zeros(n, 1);
 %
 
 
-
+mu = (1/m) .* sum(X);
+mu1 = mu' * ones(1, m);
+sigma2 = (1/m) .* sum((X - mu1').^2);
 
 
 
