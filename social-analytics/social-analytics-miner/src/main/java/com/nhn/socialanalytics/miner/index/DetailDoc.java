@@ -16,6 +16,8 @@ public class DetailDoc {
 	private String text = "";
 	private double polarity = 0.0;
 	private double polarityStrength = 0.0;
+	private double clausePolarity = 0.0;
+	private double clausePolarityStrength = 0.0;
 
 	public String getSite() {
 		return site;
@@ -129,6 +131,22 @@ public class DetailDoc {
 		this.polarityStrength = polarityStrength;
 	}
 	
+	public double getClausePolarity() {
+		return clausePolarity;
+	}
+
+	public void setClausePolarity(double clausePolarity) {
+		this.clausePolarity = clausePolarity;
+	}
+	
+	public double getClausePolarityStrength() {
+		return clausePolarityStrength;
+	}
+
+	public void setClausePolarityStrength(double clausePolarityStrength) {
+		this.clausePolarityStrength = clausePolarityStrength;
+	}
+	
 	public String toHeaderString() {
 		StringBuffer sb = new StringBuffer()
 		.append(FieldConstants.SITE).append(" | ")
@@ -144,7 +162,9 @@ public class DetailDoc {
 		.append(FieldConstants.ATTRIBUTE).append(" | ")
 		.append(FieldConstants.TEXT).append(" | ")
 		.append(FieldConstants.POLARITY).append(" | ")
-		.append(FieldConstants.POLARITY_STRENGTH);
+		.append(FieldConstants.POLARITY_STRENGTH).append(" | ")
+		.append(FieldConstants.CLAUSE_POLARITY).append(" | ")
+		.append(FieldConstants.CLAUSE_POLARITY_STRENGTH);
 
 	return sb.toString();		
 	}
@@ -164,7 +184,9 @@ public class DetailDoc {
 			.append(attribute).append(" | ")
 			.append(text).append(" | ")
 			.append(polarity).append(" | ")
-			.append(polarityStrength);
+			.append(polarityStrength).append(" | ")
+			.append(clausePolarity).append(" | ")
+			.append(clausePolarityStrength);
 
 		return sb.toString();
 	}
