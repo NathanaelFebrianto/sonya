@@ -56,7 +56,7 @@ public class AndroidMarketDataCollectorJob implements Job {
 			try {
 				String dataDir = Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR");
 				String indexDir = Config.getProperty("ANDROIDMARKET_INDEX_DIR");
-				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
+				String liwcCatFile = Config.getProperty("LIWC_KO");
 				
 				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId1, comments1, startTime, 5);
 				

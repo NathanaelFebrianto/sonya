@@ -12,7 +12,9 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
+import org.apache.lucene.analysis.StopAnalyzer;
 import org.apache.lucene.document.Document;
+import org.apache.lucene.util.Version;
 
 import com.nhn.socialanalytics.appleappstore.model.Review;
 import com.nhn.socialanalytics.common.Config;
@@ -106,7 +108,7 @@ public class AppStoreDataCollector extends Collector {
 		JapaneseMorphemeAnalyzer morphJapanese = JapaneseMorphemeAnalyzer.getInstance();
 		JapaneseSemanticAnalyzer semanticJapanese = JapaneseSemanticAnalyzer.getInstance();
 		
-		DocIndexWriter indexWriter = new DocIndexWriter(docIndexDir);		
+		DocIndexWriter indexWriter = new DocIndexWriter(docIndexDir, new StopAnalyzer(Version.LUCENE_33));		
 		DocIndexSearcher indexSearcher = new DocIndexSearcher(super.getDocumentIndexDirsToSearch(indexDir, collectDate));
 		
 		// output data file
@@ -178,7 +180,6 @@ public class AppStoreDataCollector extends Collector {
 					semanticSentence = semanticKorean.analyze(textEmotiTagged);
 				}
 				else if (review.getCountry().equalsIgnoreCase("Japan")) {
-					//text = StringUtil.removeJapaneseUnsupportedCharacters(text);
 					text1 = morphJapanese.extractTerms(text);
 					text2 = morphJapanese.extractCoreTerms(text);					
 					semanticSentence = semanticJapanese.analyze(text);
@@ -264,7 +265,7 @@ public class AppStoreDataCollector extends Collector {
 	}
 	
 	public static void main(String[] args) {
-		File spamFilter = new File(Config.getProperty("COLLECT_SPAM_FILTER_FILE"));
+		File spamFilter = new File(Config.getProperty("COLLECT_SPAM_FILTER_APPSTORE"));
 		AppStoreDataCollector collector = new AppStoreDataCollector(spamFilter);
 		
 		Set<String> appStores = new HashSet<String>();
@@ -275,12 +276,12 @@ public class AppStoreDataCollector extends Collector {
 		String objectId = "naverline";
 		String appId = "443904275";		
 		
-		List<Review> reviews = collector.getReviews(appStores, appId, 10);
+		List<Review> reviews = collector.getReviews(appStores, appId, 40);
 		//List<Review> reviews = collector.getReviews(appStores, appId);
 		//List<Review> reviews = collector.getReviews(AppStores.getAllAppStores(), appId);
 		
 		try {
-			collector.writeOutput("./bin/data/appstore/collect/", "./bin/data/appstore/index/", "./bin/liwc/LIWC_ko.txt", objectId, reviews, new Date(), 2);
+			collector.writeOutput("./bin/data/appstore/collect/", "./bin/data/appstore/index/", "./bin/liwc/LIWC_ja.txt", objectId, reviews, new Date(), 2);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

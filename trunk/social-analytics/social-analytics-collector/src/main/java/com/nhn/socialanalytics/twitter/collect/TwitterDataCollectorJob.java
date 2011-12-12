@@ -72,7 +72,7 @@ public class TwitterDataCollectorJob implements Job {
 			try {
 				String dataDir = Config.getProperty("TWITTER_SOURCE_DATA_DIR");
 				String indexDir = Config.getProperty("TWITTER_INDEX_DIR");
-				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
+				String liwcCatFile = Config.getProperty("LIWC_KO");
 				
 				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId2, tweets2, startTime, 1);
 				
