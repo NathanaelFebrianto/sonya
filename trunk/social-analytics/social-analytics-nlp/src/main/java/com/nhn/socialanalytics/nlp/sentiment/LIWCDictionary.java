@@ -251,8 +251,8 @@ public class LIWCDictionary {
 		String[] words = tokenize(text);
 		String[] sentences = splitSentences(text);
 		
-		System.err.println("Input text splitted into " + words.length
-				+ " words and " + sentences.length + " sentences");
+		//System.err.println("Input text splitted into " + words.length
+		//		+ " words and " + sentences.length + " sentences");
 		
 		// word count (NOT A PROPER FEATURE)
 		if (absoluteCounts) { counts.put("WC", new WordCount(new Double(words.length))); }
@@ -335,13 +335,13 @@ public class LIWCDictionary {
 				Matcher m = catRegex.matcher(word);
 
 				while (m.find()) {
-					System.out.println("* original word == " + word);
-					System.out.println("* match word == " + m.group());
+					//System.out.println("* original word == " + word);
+					//System.out.println("* match word == " + m.group());
 					catCount++;
 					indic[i] = true;
 					wordCount.addWord(m.group());
 					
-					System.out.println("=> " + cat + ", count == " + catCount);
+					//System.out.println("=> " + cat + ", count == " + catCount);
 				}
 			}
 			

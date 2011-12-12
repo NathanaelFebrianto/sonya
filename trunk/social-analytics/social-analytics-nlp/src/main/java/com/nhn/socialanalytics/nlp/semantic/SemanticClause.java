@@ -19,7 +19,7 @@ public class SemanticClause implements Serializable {
 	private Set<String> modifiers = new HashSet<String>();
 	private Set<String> standardModifiers = new HashSet<String>();
 	private double polarity; 
-	private double strength;
+	private double polarityStrength;
 	private double positiveWordCount;
 	private double negativeWordCount;
 	private int priority;
@@ -90,11 +90,11 @@ public class SemanticClause implements Serializable {
 	public void setPolarity(double polarity) {
 		this.polarity = polarity;
 	}
-	public double getStrength() {
-		return strength;
+	public double getPolarityStrength() {
+		return polarityStrength;
 	}
-	public void setStrength(double strength) {
-		this.strength = strength;
+	public void setPolarityStrength(double polarityStrength) {
+		this.polarityStrength = polarityStrength;
 	}
 	public double getPositiveWordCount() {
 		return positiveWordCount;
@@ -154,7 +154,7 @@ public class SemanticClause implements Serializable {
 		clause.setModifiers(modifiers);
 		clause.setStandardModifiers(standardModifiers);
 		clause.setPolarity(polarity);
-		clause.setStrength(strength);
+		clause.setPolarityStrength(polarityStrength);
 		clause.setChilds(childClauses);	
 		clause.setParentClause(parentClause);	
 		clause.setPriority(priority);	
@@ -259,7 +259,7 @@ public class SemanticClause implements Serializable {
 			.append(" *modifiers = ").append(modifiers.toString())			
 			.append(" standardLabel = ").append(makeStandardLabel(false))
 			.append(" polarity = ").append(polarity)
-			.append(" strength = ").append(strength);		
+			.append(" polarityStrength = ").append(polarityStrength);		
 		
 		for (SemanticClause child : childClauses) {
 			sb.append("\n").append("  <-- ").append(child.toString());

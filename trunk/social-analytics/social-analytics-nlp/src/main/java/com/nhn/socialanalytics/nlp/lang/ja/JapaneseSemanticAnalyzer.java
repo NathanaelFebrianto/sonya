@@ -96,7 +96,7 @@ public class JapaneseSemanticAnalyzer implements SemanticAnalyzer {
 						System.out.println("#analyze(1-1) = ConjugationalType : " + token.getConjugationalType());		
 						clause.setPredicate("NOT" + clause.getPredicate());	
 						String standardTerm = synonymEngine.getStandardWord(clause.getPredicate());
-						clause.setStandardPredicate("NOT" + standardTerm);
+						clause.setStandardPredicate("否定" + standardTerm);
 					}
 				}
 				else if (waitingTokens.size() > 0) {
@@ -111,9 +111,9 @@ public class JapaneseSemanticAnalyzer implements SemanticAnalyzer {
 				if (waitingTokens.size() == 0) {
 					if (clause != null && token.containsTagOf(NEGATION_TYPE)) {
 						System.out.println("#analyze(1-3) = ConjugationalType : " + token.getConjugationalType());		
-						clause.setPredicate("NOT" + clause.getPredicate());	
+						clause.setPredicate("否定" + clause.getPredicate());	
 						String standardTerm = synonymEngine.getStandardWord(clause.getPredicate());
-						clause.setStandardPredicate("NOT" + standardTerm);
+						clause.setStandardPredicate("否定" + standardTerm);
 					}
 				}
 				else if (waitingTokens.size() > 0) {
