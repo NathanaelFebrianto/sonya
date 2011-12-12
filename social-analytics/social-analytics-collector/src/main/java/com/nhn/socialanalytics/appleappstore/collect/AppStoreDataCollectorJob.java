@@ -70,7 +70,7 @@ public class AppStoreDataCollectorJob implements Job {
 			try {
 				String dataDir = Config.getProperty("APPSTORE_SOURCE_DATA_DIR");
 				String indexDir = Config.getProperty("APPSTORE_INDEX_DIR");
-				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
+				String liwcCatFile = Config.getProperty("LIWC_KO");
 				
 				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId2, reviews2, startTime, 5);
 				

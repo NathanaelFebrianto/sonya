@@ -54,7 +54,7 @@ public class Me2dayDataCollectorJob implements Job {
 			try {
 				String dataDir = Config.getProperty("ME2DAY_SOURCE_DATA_DIR");
 				String indexDir = Config.getProperty("ME2DAY_INDEX_DIR");
-				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
+				String liwcCatFile = Config.getProperty("LIWC_KO");
 				
 				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId1, posts1, startTime, 1);
 				

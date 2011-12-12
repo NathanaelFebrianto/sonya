@@ -80,7 +80,7 @@ public class AppStoreParser {
 			count++;
 		}
 		
-		System.out.println("sbDate == " + sbDate.toString());
+		//System.out.println("sbDate == " + sbDate.toString());
 
 		try {
 			Date date = DateUtil.convertStringToDate("dd-MMM-yyyy", sbDate.toString(), Locale.US);
@@ -94,7 +94,7 @@ public class AppStoreParser {
 	}
 	
 	public static int extractNumber(String text) {
-		System.out.println("text == " + text);
+		//System.out.println("text == " + text);
 		
 		Pattern pattern = Pattern.compile("([0-9]+)", Pattern.CASE_INSENSITIVE);
 		try {
