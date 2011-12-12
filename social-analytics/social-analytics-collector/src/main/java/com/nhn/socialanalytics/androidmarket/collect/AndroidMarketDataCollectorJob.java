@@ -16,6 +16,12 @@ import org.quartz.JobExecutionException;
 import com.gc.android.market.api.model.Market.Comment;
 import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.JobLogger;
+import com.nhn.socialanalytics.common.collect.Collector;
+import com.nhn.socialanalytics.nlp.lang.ja.JapaneseMorphemeAnalyzer;
+import com.nhn.socialanalytics.nlp.lang.ja.JapaneseSemanticAnalyzer;
+import com.nhn.socialanalytics.nlp.lang.ko.KoreanMorphemeAnalyzer;
+import com.nhn.socialanalytics.nlp.lang.ko.KoreanSemanticAnalyzer;
+import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
 
 public class AndroidMarketDataCollectorJob implements Job {
 	// logger
@@ -40,25 +46,29 @@ public class AndroidMarketDataCollectorJob implements Job {
 			System.out.println("Quartz says: " + jobName + " executing at " + startTime);
 			logger.info("Quartz says: " + jobName + " executing at " + startTime);
 
-			File spamFilterFile = new File(Config.getProperty("COLLECT_SPAM_FILTER_ANDROIDMARKET"));
-			AndroidMarketDataCollector collector = new AndroidMarketDataCollector(loginAccount, loginPasswd, spamFilterFile);	
-			
-			Set<Locale> locales = new HashSet<Locale>();
-			locales.add(Locale.KOREA);
-			//locales.add(Locale.ENGLISH);
+			AndroidMarketDataCollector collector = new AndroidMarketDataCollector(loginAccount, loginPasswd);
+			collector.setSpamFilter(new File(Config.getProperty("COLLECT_SPAM_FILTER_ANDROIDMARKET")));
+			collector.putMorphemeAnalyzer(Collector.LANG_KOREAN, new KoreanMorphemeAnalyzer());
+			collector.putMorphemeAnalyzer(Collector.LANG_JAPANESE, new JapaneseMorphemeAnalyzer());
+			collector.putSemanticAnalyzer(Collector.LANG_KOREAN, new KoreanSemanticAnalyzer());
+			collector.putSemanticAnalyzer(Collector.LANG_JAPANESE, new JapaneseSemanticAnalyzer());
+			collector.putSentimentAnalyzer(Collector.LANG_KOREAN, new SentimentAnalyzer(new File(Config.getProperty("LIWC_KOREAN"))));
+			collector.putSentimentAnalyzer(Collector.LANG_JAPANESE, new SentimentAnalyzer(new File(Config.getProperty("LIWC_JAPANESE"))));
 			
 			/////////////////////////////
 			String objectId1 = "naverline";
 			String appId1 = "jp.naver.line.android";
+			Set<Locale> locales1 = new HashSet<Locale>();
+			locales1.add(Locale.KOREA);
+			locales1.add(Locale.JAPAN);
 			
-			Map<Locale, List<Comment>> comments1 = collector.getAppCommentsByLocales(locales, appId1, 7);
+			Map<Locale, List<Comment>> comments1 = collector.getAppCommentsByLocales(locales1, appId1, 5);
 			
 			try {
 				String dataDir = Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR");
 				String indexDir = Config.getProperty("ANDROIDMARKET_INDEX_DIR");
-				String liwcCatFile = Config.getProperty("LIWC_KO");
 				
-				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId1, comments1, startTime, 5);
+				collector.writeOutput(dataDir, indexDir, objectId1, comments1, startTime, 5);
 				
 			} catch (Exception e) {
 				e.printStackTrace();
@@ -68,15 +78,16 @@ public class AndroidMarketDataCollectorJob implements Job {
 			/////////////////////////////
 			String objectId2 = "naverapp";
 			String appId2 = "com.nhn.android.search";
+			Set<Locale> locales2 = new HashSet<Locale>();
+			locales2.add(Locale.KOREA);
 			
-			Map<Locale, List<Comment>> comments2 = collector.getAppCommentsByLocales(locales, appId2, 7);
+			Map<Locale, List<Comment>> comments2 = collector.getAppCommentsByLocales(locales2, appId2, 5);
 			
 			try {
 				String dataDir = Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR");
 				String indexDir = Config.getProperty("ANDROIDMARKET_INDEX_DIR");
-				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
 				
-				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId2, comments2, startTime, 5);
+				collector.writeOutput(dataDir, indexDir, objectId2, comments2, startTime, 5);
 				
 			} catch (Exception e) {
 				e.printStackTrace();
@@ -86,15 +97,17 @@ public class AndroidMarketDataCollectorJob implements Job {
 			/////////////////////////////
 			String objectId3 = "kakaotalk";
 			String appId3 = "com.kakao.talk";
+			Set<Locale> locales3 = new HashSet<Locale>();
+			locales3.add(Locale.KOREA);
+			locales3.add(Locale.JAPAN);
 			
-			Map<Locale, List<Comment>> comments3 = collector.getAppCommentsByLocales(locales, appId3, 7);
+			Map<Locale, List<Comment>> comments3 = collector.getAppCommentsByLocales(locales3, appId3, 5);
 			
 			try {
 				String dataDir = Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR");
 				String indexDir = Config.getProperty("ANDROIDMARKET_INDEX_DIR");
-				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
 				
-				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId3, comments3, startTime, 5);
+				collector.writeOutput(dataDir, indexDir, objectId3, comments3, startTime, 5);
 				
 			} catch (Exception e) {
 				e.printStackTrace();

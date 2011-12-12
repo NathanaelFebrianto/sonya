@@ -16,6 +16,7 @@ import java.util.Set;
 
 import org.apache.lucene.document.Document;
 
+import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.JobLogger;
 import com.nhn.socialanalytics.common.collect.CollectHistoryBuffer;
 import com.nhn.socialanalytics.common.collect.Collector;
@@ -65,7 +66,7 @@ public class Me2dayDataCollector extends Collector {
 		return posts;
 	}
 	
-	public void writeOutput(String dataDir, String indexDir, String liwcCatFile, String objectId, 
+	public void writeOutput(String dataDir, String indexDir, String objectId, 
 			List<Post> posts, Date collectDate, int historyBufferMaxRound) throws IOException, Exception {
 		
 		String currentDatetime = DateUtil.convertDateToString("yyyyMMddHHmmss", new Date());	
@@ -76,9 +77,10 @@ public class Me2dayDataCollector extends Collector {
 		Set<String> idSet = new HashSet<String>();
 		CollectHistoryBuffer history = new CollectHistoryBuffer(super.getCollectHistoryFile(dataDir, objectId), historyBufferMaxRound);
 				
-		MorphemeAnalyzer morph = KoreanMorphemeAnalyzer.getInstance();
-		SemanticAnalyzer semantic = KoreanSemanticAnalyzer.getInstance();
-		SentimentAnalyzer sentiment = SentimentAnalyzer.getInstance(new File(liwcCatFile));
+		// text analyzer
+		MorphemeAnalyzer morphemeKorean = super.getMorphemeAnalyzer(Collector.LANG_KOREAN);
+		SemanticAnalyzer semanticKorean = super.getSemanticAnalyzer(Collector.LANG_KOREAN);
+		SentimentAnalyzer sentimentKorean = super.getSentimentAnalyzer(Collector.LANG_KOREAN);
 		
 		DocIndexWriter indexWriter = new DocIndexWriter(docIndexDir);		
 		DocIndexSearcher indexSearcher = new DocIndexSearcher(super.getDocumentIndexDirsToSearch(indexDir, collectDate));
@@ -142,16 +144,18 @@ public class Me2dayDataCollector extends Collector {
 				
 				String textEmotiTagged = Me2dayParser.convertEmoticonToTag(text);
 				
-				String text1 = morph.extractTerms(textEmotiTagged);
-				String text2 = morph.extractCoreTerms(textEmotiTagged);
+				String language = FieldConstants.LANG_KOREAN;
 				
-				SemanticSentence semanticSentence = semantic.analyze(textEmotiTagged);
+				String text1 = morphemeKorean.extractTerms(textEmotiTagged);
+				String text2 = morphemeKorean.extractCoreTerms(textEmotiTagged);
+				
+				SemanticSentence semanticSentence = semanticKorean.analyze(textEmotiTagged);
 				String subjectpredicate = semanticSentence.extractSubjectPredicateLabel();
 				String subject = semanticSentence.extractSubjectLabel();
 				String predicate = semanticSentence.extractPredicateLabel();
 				String attribute = semanticSentence.extractAttributesLabel();
 				
-				semanticSentence = sentiment.analyzePolarity(semanticSentence);
+				semanticSentence = sentimentKorean.analyzePolarity(semanticSentence);
 				double polarity = semanticSentence.getPolarity();
 				double polarityStrength = semanticSentence.getPolarityStrength();
 				
@@ -199,7 +203,7 @@ public class Me2dayDataCollector extends Collector {
 						DetailDoc doc = new DetailDoc();
 						doc.setSite(TARGET_SITE_NAME);
 						doc.setObject(objectId);
-						doc.setLanguage("ko");
+						doc.setLanguage(language);
 						doc.setCollectDate(currentDatetime);
 						doc.setDocId(postId);
 						doc.setDate(createDate);
@@ -209,6 +213,10 @@ public class Me2dayDataCollector extends Collector {
 						doc.setPredicate(clause.getPredicate());
 						doc.setAttribute(clause.makeAttributesLabel());
 						doc.setText(text);
+						doc.setPolarity(polarity);
+						doc.setPolarityStrength(polarityStrength);
+						doc.setClausePolarity(clause.getPolarity());
+						doc.setClausePolarityStrength(clause.getPolarityStrength());
 						
 						indexWriter.write(doc);
 					}						
@@ -223,7 +231,10 @@ public class Me2dayDataCollector extends Collector {
 	
 	public static void main(String[] args) {
 		Me2dayDataCollector collector = new Me2dayDataCollector();
-
+		collector.putMorphemeAnalyzer(Collector.LANG_KOREAN, new KoreanMorphemeAnalyzer());
+		collector.putSemanticAnalyzer(Collector.LANG_KOREAN, new KoreanSemanticAnalyzer());
+		collector.putSentimentAnalyzer(Collector.LANG_KOREAN, new SentimentAnalyzer(new File(Config.getProperty("LIWC_KOREAN"))));
+		
 		String objectId = "fta";
 		Map<String, Integer> queryMap = new HashMap<String, Integer>();
 		queryMap.put("한미FTA ISD", 5);
@@ -240,7 +251,7 @@ public class Me2dayDataCollector extends Collector {
 		List<Post> posts = collector.searchPosts(queryMap, Me2dayCrawler.TARGET_BODY, since, until);
 				
 		try {
-			collector.writeOutput("./bin/data/me2day/collect/", "./bin/data/me2day/index/", "./bin/liwc/LIWC_ko.txt", objectId, posts, new Date(), 1);
+			collector.writeOutput("./bin/data/me2day/collect/", "./bin/data/me2day/index/", objectId, posts, new Date(), 1);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

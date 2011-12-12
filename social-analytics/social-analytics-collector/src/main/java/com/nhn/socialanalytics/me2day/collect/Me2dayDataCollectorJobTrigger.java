@@ -1,7 +1,6 @@
 package com.nhn.socialanalytics.me2day.collect;
 
 import java.util.Date;
-import java.util.Map;
 
 import org.quartz.CronTrigger;
 import org.quartz.JobDetail;

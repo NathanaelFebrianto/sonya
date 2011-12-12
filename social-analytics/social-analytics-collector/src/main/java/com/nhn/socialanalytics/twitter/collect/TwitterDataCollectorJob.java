@@ -1,5 +1,6 @@
 package com.nhn.socialanalytics.twitter.collect;
 
+import java.io.File;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -12,7 +13,13 @@ import org.quartz.JobExecutionException;
 
 import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.JobLogger;
+import com.nhn.socialanalytics.common.collect.Collector;
 import com.nhn.socialanalytics.common.util.DateUtil;
+import com.nhn.socialanalytics.nlp.lang.ja.JapaneseMorphemeAnalyzer;
+import com.nhn.socialanalytics.nlp.lang.ja.JapaneseSemanticAnalyzer;
+import com.nhn.socialanalytics.nlp.lang.ko.KoreanMorphemeAnalyzer;
+import com.nhn.socialanalytics.nlp.lang.ko.KoreanSemanticAnalyzer;
+import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
 
 public class TwitterDataCollectorJob implements Job {
 	// logger
@@ -37,12 +44,19 @@ public class TwitterDataCollectorJob implements Job {
 			logger.info("Quartz says: " + jobName + " executing at " + startTime);			
 
 			TwitterDataCollector collector = new TwitterDataCollector();
+			collector.putMorphemeAnalyzer(Collector.LANG_KOREAN, new KoreanMorphemeAnalyzer());
+			collector.putMorphemeAnalyzer(Collector.LANG_JAPANESE, new JapaneseMorphemeAnalyzer());
+			collector.putSemanticAnalyzer(Collector.LANG_KOREAN, new KoreanSemanticAnalyzer());
+			collector.putSemanticAnalyzer(Collector.LANG_JAPANESE, new JapaneseSemanticAnalyzer());
+			collector.putSentimentAnalyzer(Collector.LANG_KOREAN, new SentimentAnalyzer(new File(Config.getProperty("LIWC_KOREAN"))));
+			collector.putSentimentAnalyzer(Collector.LANG_JAPANESE, new SentimentAnalyzer(new File(Config.getProperty("LIWC_JAPANESE"))));
 			
 			/////////////////////////////			
 			String objectId1 = "naverline";			
 			Map<String, Integer> queryMap1 = new HashMap<String, Integer>();
 			queryMap1.put("네이버라인 OR 네이버LINE", 5);
 			queryMap1.put("NAVERLINE", 5);
+			queryMap1.put("naver ライン", 5);
 			
 			Date sinceDate1 = DateUtil.addDay(new Date(), -30);
 			
@@ -51,9 +65,8 @@ public class TwitterDataCollectorJob implements Job {
 			try {
 				String dataDir = Config.getProperty("TWITTER_SOURCE_DATA_DIR");
 				String indexDir = Config.getProperty("TWITTER_INDEX_DIR");
-				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
 				
-				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId1, tweets1, startTime, 1);
+				collector.writeOutput(dataDir, indexDir, objectId1, tweets1, startTime, 1);
 				
 			} catch (Exception e) {
 				e.printStackTrace();
@@ -72,9 +85,8 @@ public class TwitterDataCollectorJob implements Job {
 			try {
 				String dataDir = Config.getProperty("TWITTER_SOURCE_DATA_DIR");
 				String indexDir = Config.getProperty("TWITTER_INDEX_DIR");
-				String liwcCatFile = Config.getProperty("LIWC_KO");
 				
-				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId2, tweets2, startTime, 1);
+				collector.writeOutput(dataDir, indexDir, objectId2, tweets2, startTime, 1);
 				
 			} catch (Exception e) {
 				e.printStackTrace();
