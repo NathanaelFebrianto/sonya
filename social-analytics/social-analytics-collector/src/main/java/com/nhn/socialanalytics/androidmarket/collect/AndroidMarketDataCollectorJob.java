@@ -40,7 +40,7 @@ public class AndroidMarketDataCollectorJob implements Job {
 			System.out.println("Quartz says: " + jobName + " executing at " + startTime);
 			logger.info("Quartz says: " + jobName + " executing at " + startTime);
 
-			File spamFilterFile = new File(Config.getProperty("COLLECT_SPAM_FILTER_FILE"));
+			File spamFilterFile = new File(Config.getProperty("COLLECT_SPAM_FILTER_ANDROIDMARKET"));
 			AndroidMarketDataCollector collector = new AndroidMarketDataCollector(loginAccount, loginPasswd, spamFilterFile);	
 			
 			Set<Locale> locales = new HashSet<Locale>();
