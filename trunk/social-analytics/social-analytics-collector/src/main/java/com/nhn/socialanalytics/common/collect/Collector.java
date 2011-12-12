@@ -4,8 +4,10 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
+import java.util.Map;
 import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -13,15 +15,25 @@ import java.util.regex.Pattern;
 import org.apache.mahout.common.iterator.FileLineIterator;
 
 import com.nhn.socialanalytics.common.util.DateUtil;
+import com.nhn.socialanalytics.nlp.morpheme.MorphemeAnalyzer;
+import com.nhn.socialanalytics.nlp.semantic.SemanticAnalyzer;
+import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
 
 public abstract class Collector {
 
-	protected static final String DELIMITER = "\t";
-	protected Set<Pattern> spamFilterSet = new HashSet<Pattern>();
+	public static final String DELIMITER = "\t";
+	public static final String LANG_KOREAN = "Korean";
+	public static final String LANG_JAPANESE = "Japanese";
+	public static final String LANG_ENGLISH = "English";
+	public Set<Pattern> spamFilterSet = new HashSet<Pattern>();
+	
+	public Map<String, MorphemeAnalyzer> morphemeAnalyzers = new HashMap<String, MorphemeAnalyzer>();
+	public Map<String, SemanticAnalyzer> semanticAnalyzers = new HashMap<String, SemanticAnalyzer>();
+	public Map<String, SentimentAnalyzer> sentimentAnalyzers = new HashMap<String, SentimentAnalyzer>();
 	
 	public Collector() { }
 	
-	public Collector(File spamFilterFile) {
+	public void setSpamFilter(File spamFilterFile) {
 		try {
 			spamFilterSet = this.loadSpamFilterSet(spamFilterFile);
 		} catch (IOException e) {
@@ -104,6 +116,30 @@ public abstract class Collector {
 	
 	protected File getCollectHistoryFile(String dataDir, String objectId) {
 		return new File(dataDir + File.separator + objectId + ".txt");	
+	}
+	
+	public void putMorphemeAnalyzer(String language, MorphemeAnalyzer analyzer) {
+		morphemeAnalyzers.put(language, analyzer);
+	}
+	
+	public void putSemanticAnalyzer(String language, SemanticAnalyzer analyzer) {
+		semanticAnalyzers.put(language, analyzer);
+	}
+	
+	public void putSentimentAnalyzer(String language, SentimentAnalyzer analyzer) {
+		sentimentAnalyzers.put(language, analyzer);
+	}
+	
+	public MorphemeAnalyzer getMorphemeAnalyzer(String language) {
+		return (MorphemeAnalyzer) morphemeAnalyzers.get(language);
+	}
+	
+	public SemanticAnalyzer getSemanticAnalyzer(String language) {
+		return (SemanticAnalyzer) semanticAnalyzers.get(language);
+	}
+	
+	public SentimentAnalyzer getSentimentAnalyzer(String language) {
+		return (SentimentAnalyzer) sentimentAnalyzers.get(language);
 	}
 
 }

@@ -14,6 +14,12 @@ import org.quartz.JobExecutionException;
 import com.nhn.socialanalytics.appleappstore.model.Review;
 import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.JobLogger;
+import com.nhn.socialanalytics.common.collect.Collector;
+import com.nhn.socialanalytics.nlp.lang.ja.JapaneseMorphemeAnalyzer;
+import com.nhn.socialanalytics.nlp.lang.ja.JapaneseSemanticAnalyzer;
+import com.nhn.socialanalytics.nlp.lang.ko.KoreanMorphemeAnalyzer;
+import com.nhn.socialanalytics.nlp.lang.ko.KoreanSemanticAnalyzer;
+import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
 
 public class AppStoreDataCollectorJob implements Job {
 	// logger
@@ -37,24 +43,30 @@ public class AppStoreDataCollectorJob implements Job {
 			System.out.println("Quartz says: " + jobName + " executing at " + startTime);
 			logger.info("Quartz says: " + jobName + " executing at " + startTime);
 
-			File spamFilterFile = new File(Config.getProperty("COLLECT_SPAM_FILTER_APPSTORE"));
-			AppStoreDataCollector collector = new AppStoreDataCollector(spamFilterFile);	
-			
-			Set<String> appStores = new HashSet<String>();
-			appStores.add(AppStores.getAppStore("Korea"));
+			AppStoreDataCollector collector = new AppStoreDataCollector();
+			collector.setSpamFilter(new File(Config.getProperty("COLLECT_SPAM_FILTER_APPSTORE")));
+			collector.putMorphemeAnalyzer(Collector.LANG_KOREAN, new KoreanMorphemeAnalyzer());
+			collector.putMorphemeAnalyzer(Collector.LANG_JAPANESE, new JapaneseMorphemeAnalyzer());
+			collector.putSemanticAnalyzer(Collector.LANG_KOREAN, new KoreanSemanticAnalyzer());
+			collector.putSemanticAnalyzer(Collector.LANG_JAPANESE, new JapaneseSemanticAnalyzer());
+			collector.putSentimentAnalyzer(Collector.LANG_KOREAN, new SentimentAnalyzer(new File(Config.getProperty("LIWC_KOREAN"))));
+			collector.putSentimentAnalyzer(Collector.LANG_JAPANESE, new SentimentAnalyzer(new File(Config.getProperty("LIWC_JAPANESE"))));
 			
 			/////////////////////////////			
 			String objectId1 = "naverline";
 			String appId1 = "443904275";
+			Set<String> appStores1 = new HashSet<String>();
+			appStores1.add(AppStores.getAppStore("Korea"));
+			appStores1.add(AppStores.getAppStore("Japan"));
 			
-			List<Review> reviews1 = collector.getReviews(appStores, appId1, 3);
+			List<Review> reviews1 = collector.getReviews(appStores1, appId1, 3);
 			
 			try {
 				String dataDir = Config.getProperty("APPSTORE_SOURCE_DATA_DIR");
 				String indexDir = Config.getProperty("APPSTORE_INDEX_DIR");
-				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
+
 				
-				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId1, reviews1, startTime, 5);
+				collector.writeOutput(dataDir, indexDir, objectId1, reviews1, startTime, 5);
 				
 			} catch (Exception e) {
 				e.printStackTrace();
@@ -64,15 +76,16 @@ public class AppStoreDataCollectorJob implements Job {
 			/////////////////////////////
 			String objectId2 = "naverapp";
 			String appId2 = "393499958";
+			Set<String> appStores2 = new HashSet<String>();
+			appStores2.add(AppStores.getAppStore("Korea"));
 			
-			List<Review> reviews2 = collector.getReviews(appStores, appId2, 3);
+			List<Review> reviews2 = collector.getReviews(appStores2, appId2, 3);
 			
 			try {
 				String dataDir = Config.getProperty("APPSTORE_SOURCE_DATA_DIR");
 				String indexDir = Config.getProperty("APPSTORE_INDEX_DIR");
-				String liwcCatFile = Config.getProperty("LIWC_KO");
 				
-				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId2, reviews2, startTime, 5);
+				collector.writeOutput(dataDir, indexDir, objectId2, reviews2, startTime, 5);
 				
 			} catch (Exception e) {
 				e.printStackTrace();
@@ -82,15 +95,16 @@ public class AppStoreDataCollectorJob implements Job {
 			/////////////////////////////
 			String objectId3 = "kakaotalk";
 			String appId3 = "362057947";
+			Set<String> appStores3 = new HashSet<String>();
+			appStores3.add(AppStores.getAppStore("Korea"));
 			
-			List<Review> reviews3 = collector.getReviews(appStores, appId3, 3);
+			List<Review> reviews3 = collector.getReviews(appStores3, appId3, 3);
 			
 			try {
 				String dataDir = Config.getProperty("APPSTORE_SOURCE_DATA_DIR");
 				String indexDir = Config.getProperty("APPSTORE_INDEX_DIR");
-				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
 				
-				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId3, reviews3, startTime, 5);
+				collector.writeOutput(dataDir, indexDir, objectId3, reviews3, startTime, 5);
 				
 			} catch (Exception e) {
 				e.printStackTrace();

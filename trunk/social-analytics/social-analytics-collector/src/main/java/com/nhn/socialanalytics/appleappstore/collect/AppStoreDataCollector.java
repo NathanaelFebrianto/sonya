@@ -12,9 +12,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
-import org.apache.lucene.analysis.StopAnalyzer;
 import org.apache.lucene.document.Document;
-import org.apache.lucene.util.Version;
 
 import com.nhn.socialanalytics.appleappstore.model.Review;
 import com.nhn.socialanalytics.common.Config;
@@ -31,6 +29,8 @@ import com.nhn.socialanalytics.nlp.lang.ja.JapaneseMorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ja.JapaneseSemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanMorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanSemanticAnalyzer;
+import com.nhn.socialanalytics.nlp.morpheme.MorphemeAnalyzer;
+import com.nhn.socialanalytics.nlp.semantic.SemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.semantic.SemanticClause;
 import com.nhn.socialanalytics.nlp.semantic.SemanticSentence;
 import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
@@ -44,12 +44,7 @@ public class AppStoreDataCollector extends Collector {
 	private AppStoreCrawler crawler;
 
 	public AppStoreDataCollector() {
-		this(null);
-	}
-	
-	public AppStoreDataCollector(File spamFilterFile) {
-		super(spamFilterFile);		
-		this.crawler = new AppStoreCrawler();
+		crawler = new AppStoreCrawler();
 	}
 	
 	public List<Review> getReviews(Set<String> appStores, String appId) {
@@ -88,7 +83,7 @@ public class AppStoreDataCollector extends Collector {
 		return result;
 	}
 	
-	public void writeOutput(String dataDir, String indexDir, String liwcCatFile, String objectId, 
+	public void writeOutput(String dataDir, String indexDir, String objectId, 
 			List<Review> reviews, Date collectDate, int historyBufferMaxRound) throws IOException, Exception {
 		
 		String currentDatetime = DateUtil.convertDateToString("yyyyMMddHHmmss", new Date());	
@@ -99,16 +94,16 @@ public class AppStoreDataCollector extends Collector {
 		Set<String> idSet = new HashSet<String>();
 		CollectHistoryBuffer history = new CollectHistoryBuffer(super.getCollectHistoryFile(dataDir, objectId), historyBufferMaxRound);
 		
-		// for Korean
-		KoreanMorphemeAnalyzer morphKorean = KoreanMorphemeAnalyzer.getInstance();
-		KoreanSemanticAnalyzer semanticKorean = KoreanSemanticAnalyzer.getInstance();
-		SentimentAnalyzer sentiment = SentimentAnalyzer.getInstance(new File(liwcCatFile));
+		// text analyzer
+		MorphemeAnalyzer morphemeKorean = super.getMorphemeAnalyzer(Collector.LANG_KOREAN);
+		MorphemeAnalyzer morphemeJapanese = super.getMorphemeAnalyzer(Collector.LANG_JAPANESE);
+		SemanticAnalyzer semanticKorean = super.getSemanticAnalyzer(Collector.LANG_KOREAN);
+		SemanticAnalyzer semanticJapanese = super.getSemanticAnalyzer(Collector.LANG_JAPANESE);
+		SentimentAnalyzer sentimentKorean = super.getSentimentAnalyzer(Collector.LANG_KOREAN);
+		SentimentAnalyzer sentimentJapanese = super.getSentimentAnalyzer(Collector.LANG_JAPANESE);
 		
-		// for Japanese
-		JapaneseMorphemeAnalyzer morphJapanese = JapaneseMorphemeAnalyzer.getInstance();
-		JapaneseSemanticAnalyzer semanticJapanese = JapaneseSemanticAnalyzer.getInstance();
-		
-		DocIndexWriter indexWriter = new DocIndexWriter(docIndexDir, new StopAnalyzer(Version.LUCENE_33));		
+		// indexer
+		DocIndexWriter indexWriter = new DocIndexWriter(docIndexDir);		
 		DocIndexSearcher indexSearcher = new DocIndexSearcher(super.getDocumentIndexDirsToSearch(indexDir, collectDate));
 		
 		// output data file
@@ -147,7 +142,7 @@ public class AppStoreDataCollector extends Collector {
 		}
 		
 		// review
-		for (Review review : reviews) {
+		for (Review review : reviews) {			
 			String appStoreId = review.getAppStoreId();
 			String country = review.getCountry();
 			String reviewId = review.getReviewId();
@@ -168,31 +163,52 @@ public class AppStoreDataCollector extends Collector {
 			// if no duplication, write collected data
 			if (!history.checkDuplicate(reviewId)) {
 				boolean isSpam = super.isSpam(text);
-				String textEmotiTagged = StringUtil.convertEmoticonToTag(text);
+				String textEmotiTagged = StringUtil.convertEmoticonToTag(text);	
 				
+				String language = "";
 				String text1 = "";
 				String text2 = "";
 				SemanticSentence semanticSentence = null;
+				double polarity = 0.0;
+				double polarityStrength = 0.0;
 				
 				if (review.getCountry().equalsIgnoreCase("Korea")) {
-					text1 = morphKorean.extractTerms(textEmotiTagged);
-					text2 = morphKorean.extractCoreTerms(textEmotiTagged);					
+					language = FieldConstants.LANG_KOREAN;
+					text1 = morphemeKorean.extractTerms(textEmotiTagged);
+					text2 = morphemeKorean.extractCoreTerms(textEmotiTagged);		
+					
 					semanticSentence = semanticKorean.analyze(textEmotiTagged);
+					
+					semanticSentence = sentimentKorean.analyzePolarity(semanticSentence);
+					polarity = semanticSentence.getPolarity();
+					polarityStrength = semanticSentence.getPolarityStrength();
 				}
 				else if (review.getCountry().equalsIgnoreCase("Japan")) {
-					text1 = morphJapanese.extractTerms(text);
-					text2 = morphJapanese.extractCoreTerms(text);					
-					semanticSentence = semanticJapanese.analyze(text);
+					language = FieldConstants.LANG_JAPANESE;
+					text1 = morphemeJapanese.extractTerms(textEmotiTagged);
+					text2 = morphemeJapanese.extractCoreTerms(textEmotiTagged);		
+					
+					semanticSentence = semanticJapanese.analyze(textEmotiTagged);
+					
+					semanticSentence = sentimentJapanese.analyzePolarity(semanticSentence);
+					polarity = semanticSentence.getPolarity();
+					polarityStrength = semanticSentence.getPolarityStrength();
+				}
+				else {
+					text1 = morphemeKorean.extractTerms(textEmotiTagged);
+					text2 = morphemeKorean.extractCoreTerms(textEmotiTagged);		
+					
+					semanticSentence = semanticKorean.analyze(textEmotiTagged);
+					
+					semanticSentence = sentimentKorean.analyzePolarity(semanticSentence);
+					polarity = semanticSentence.getPolarity();
+					polarityStrength = semanticSentence.getPolarityStrength();					
 				}
 
 				String subjectpredicate = semanticSentence.extractSubjectPredicateLabel();
 				String subject = semanticSentence.extractSubjectLabel();
 				String predicate = semanticSentence.extractPredicateLabel();
 				String attribute = semanticSentence.extractAttributesLabel();
-				
-				semanticSentence = sentiment.analyzePolarity(semanticSentence);
-				double polarity = semanticSentence.getPolarity();
-				double polarityStrength = semanticSentence.getPolarityStrength();
 				
 				// write new collected data into source file
 				brData.write(
@@ -241,7 +257,7 @@ public class AppStoreDataCollector extends Collector {
 							DetailDoc doc = new DetailDoc();
 							doc.setSite(TARGET_SITE_NAME);
 							doc.setObject(objectId);
-							doc.setLanguage(country);
+							doc.setLanguage(language);
 							doc.setCollectDate(currentDatetime);
 							doc.setDocId(reviewId);
 							doc.setDate(createDate);
@@ -251,6 +267,10 @@ public class AppStoreDataCollector extends Collector {
 							doc.setPredicate(clause.getPredicate());
 							doc.setAttribute(clause.makeAttributesLabel());
 							doc.setText(text);
+							doc.setPolarity(polarity);
+							doc.setPolarityStrength(polarityStrength);
+							doc.setClausePolarity(clause.getPolarity());
+							doc.setClausePolarityStrength(clause.getPolarityStrength());
 							
 							indexWriter.write(doc);
 						}						
@@ -265,13 +285,18 @@ public class AppStoreDataCollector extends Collector {
 	}
 	
 	public static void main(String[] args) {
-		File spamFilter = new File(Config.getProperty("COLLECT_SPAM_FILTER_APPSTORE"));
-		AppStoreDataCollector collector = new AppStoreDataCollector(spamFilter);
+		AppStoreDataCollector collector = new AppStoreDataCollector();
+		collector.setSpamFilter(new File(Config.getProperty("COLLECT_SPAM_FILTER_APPSTORE")));		
+		collector.putMorphemeAnalyzer(Collector.LANG_KOREAN, new KoreanMorphemeAnalyzer());
+		collector.putMorphemeAnalyzer(Collector.LANG_JAPANESE, new JapaneseMorphemeAnalyzer());
+		collector.putSemanticAnalyzer(Collector.LANG_KOREAN, new KoreanSemanticAnalyzer());
+		collector.putSemanticAnalyzer(Collector.LANG_JAPANESE, new JapaneseSemanticAnalyzer());
+		collector.putSentimentAnalyzer(Collector.LANG_KOREAN, new SentimentAnalyzer(new File(Config.getProperty("LIWC_KOREAN"))));
+		collector.putSentimentAnalyzer(Collector.LANG_JAPANESE, new SentimentAnalyzer(new File(Config.getProperty("LIWC_JAPANESE"))));
 		
 		Set<String> appStores = new HashSet<String>();
-		//appStores.add(AppStores.getAppStore("Korea"));
+		appStores.add(AppStores.getAppStore("Korea"));
 		appStores.add(AppStores.getAppStore("Japan"));
-		//appStores.add(AppStores.getAppStore("Australia"));
 		
 		String objectId = "naverline";
 		String appId = "443904275";		
@@ -281,7 +306,7 @@ public class AppStoreDataCollector extends Collector {
 		//List<Review> reviews = collector.getReviews(AppStores.getAllAppStores(), appId);
 		
 		try {
-			collector.writeOutput("./bin/data/appstore/collect/", "./bin/data/appstore/index/", "./bin/liwc/LIWC_ja.txt", objectId, reviews, new Date(), 2);
+			collector.writeOutput("./bin/data/appstore/collect/", "./bin/data/appstore/index/", objectId, reviews, new Date(), 2);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
