@@ -1,0 +1,81 @@
+JA1. LINGUISTIC
+	PRONOUN
+	I
+	WE
+	YOU
+	SHEHE
+	THEY
+	PAST
+	PRESENT
+	FUTURE
+	CONJUNCTION
+	NEGATION
+		NOT* (1)
+	QUANTIFIER
+	NUMBERS
+	SWEAR
+	QUESTIONMARK
+		tagquestion (1)
+	EXCLAMMARK
+		tagexclamation (1)
+
+JA2. SENTIMENT
+	SMILEMARK
+		tagsmile (1)
+	CRYMARK
+		tagcry (1)
+	LOVEMARK
+		taglove (1)
+	POSITIVE
+		楽しむ (1)
+		楽* (1)
+		嬉しい (1)
+		喜ぶ (1)
+		喜* (1)
+		面白い (1)
+		すごい (1)
+		スゴイ (1)
+		好き (1)
+		好* (1)
+		愛* (1)
+	NEGATIVE
+		NOT* (1)
+		悲しい (1)
+		悲* (1)
+		哀れな (1)
+		可愛そうな (1)
+		惨めな (1)
+		嘆かわしい (1)
+		陰気な (1)
+		落胆した (1)
+		詰まらない (1)
+		詰ま* (1)	
+		単調な (1)
+		飽き飽きする (1)
+		下らない (1)
+		怒る (1)
+		怒* (1)
+		怒る (1)
+		苛苛する (1)
+		苛苛* (1)
+		させる (1)
+		
+	ANGER
+
+	ANXIETY
+
+	SADNESS
+
+JA3. PSYCHOLOGICAL PROCESS
+	INSIGHT
+	CAUSATION
+	DISCREPANCY
+	TENTATIVE
+	CERTAINTY
+	INHIBITION
+	INCLUSIVE
+	EXCLUSIVE
+	SEE
+	HEAR
+	FEEL	
+	
