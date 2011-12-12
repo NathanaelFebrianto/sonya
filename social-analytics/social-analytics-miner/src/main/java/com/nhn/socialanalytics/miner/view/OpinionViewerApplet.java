@@ -176,7 +176,7 @@ public class OpinionViewerApplet extends JApplet {
 		
 		try {
 			File[] indexDirs = new File[1];
-			indexDirs[0] = new File("./bin/data/appstore/index/20111212");
+			indexDirs[0] = new File("./bin/data/twitter/index/20111212");
 			
 			String object = "naverline";
 			
@@ -221,12 +221,12 @@ public class OpinionViewerApplet extends JApplet {
 			/* target term ==> SUBJECT   */
 			/////////////////////////////////
 			String language = FieldConstants.LANG_JAPANESE;
-			Map<String, Integer> terms = searcher.getTerms(object, language, FieldConstants.SUBJECT, 10, true);					
+			Map<String, Integer> terms = searcher.getTerms(object, language, FieldConstants.SUBJECT, 2, true);					
 			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
 				String term = entry.getKey();
 			
-				TargetTerm subjectTerm = searcher.search(object, language, FieldConstants.SUBJECT, FieldConstants.PREDICATE, term, 1, 3);
-				TargetTerm attributeTerm = searcher.search(object, language, FieldConstants.SUBJECT, FieldConstants.ATTRIBUTE, term, 1, 3);
+				TargetTerm subjectTerm = searcher.search(object, language, FieldConstants.SUBJECT, FieldConstants.PREDICATE, term, 1, 2);
+				TargetTerm attributeTerm = searcher.search(object, language, FieldConstants.SUBJECT, FieldConstants.ATTRIBUTE, term, 1, 2);
 				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
 				termMap.put(FieldConstants.PREDICATE, subjectTerm);
 				termMap.put(FieldConstants.ATTRIBUTE, attributeTerm);
