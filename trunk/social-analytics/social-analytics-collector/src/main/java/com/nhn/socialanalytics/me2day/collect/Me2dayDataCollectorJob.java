@@ -1,5 +1,6 @@
 package com.nhn.socialanalytics.me2day.collect;
 
+import java.io.File;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -12,8 +13,12 @@ import org.quartz.JobExecutionException;
 
 import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.JobLogger;
+import com.nhn.socialanalytics.common.collect.Collector;
 import com.nhn.socialanalytics.common.util.DateUtil;
 import com.nhn.socialanalytics.me2day.model.Post;
+import com.nhn.socialanalytics.nlp.lang.ko.KoreanMorphemeAnalyzer;
+import com.nhn.socialanalytics.nlp.lang.ko.KoreanSemanticAnalyzer;
+import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
 
 public class Me2dayDataCollectorJob implements Job {
 	// logger
@@ -38,6 +43,9 @@ public class Me2dayDataCollectorJob implements Job {
 			logger.info("Quartz says: " + jobName + " executing at " + startTime);
 
 			Me2dayDataCollector collector = new Me2dayDataCollector();
+			collector.putMorphemeAnalyzer(Collector.LANG_KOREAN, new KoreanMorphemeAnalyzer());
+			collector.putSemanticAnalyzer(Collector.LANG_KOREAN, new KoreanSemanticAnalyzer());
+			collector.putSentimentAnalyzer(Collector.LANG_KOREAN, new SentimentAnalyzer(new File(Config.getProperty("LIWC_KOREAN"))));
 			
 			/////////////////////////////
 			String objectId1 = "naverline";
@@ -54,9 +62,8 @@ public class Me2dayDataCollectorJob implements Job {
 			try {
 				String dataDir = Config.getProperty("ME2DAY_SOURCE_DATA_DIR");
 				String indexDir = Config.getProperty("ME2DAY_INDEX_DIR");
-				String liwcCatFile = Config.getProperty("LIWC_KO");
 				
-				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId1, posts1, startTime, 1);
+				collector.writeOutput(dataDir, indexDir, objectId1, posts1, startTime, 1);
 				
 			} catch (Exception e) {
 				e.printStackTrace();
@@ -77,9 +84,8 @@ public class Me2dayDataCollectorJob implements Job {
 			try {
 				String dataDir = Config.getProperty("ME2DAY_SOURCE_DATA_DIR");
 				String indexDir = Config.getProperty("ME2DAY_INDEX_DIR");
-				String liwcCatFile = Config.getProperty("LIWC_CAT_FILE");
 				
-				collector.writeOutput(dataDir, indexDir, liwcCatFile, objectId2, posts2, startTime, 1);
+				collector.writeOutput(dataDir, indexDir, objectId2, posts2, startTime, 1);
 				
 			} catch (Exception e) {
 				e.printStackTrace();

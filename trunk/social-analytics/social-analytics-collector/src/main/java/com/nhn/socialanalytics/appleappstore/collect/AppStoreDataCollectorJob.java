@@ -64,7 +64,6 @@ public class AppStoreDataCollectorJob implements Job {
 			try {
 				String dataDir = Config.getProperty("APPSTORE_SOURCE_DATA_DIR");
 				String indexDir = Config.getProperty("APPSTORE_INDEX_DIR");
-
 				
 				collector.writeOutput(dataDir, indexDir, objectId1, reviews1, startTime, 5);
 				

@@ -17,6 +17,7 @@ import java.util.Set;
 import org.apache.lucene.document.Document;
 
 import com.gc.android.market.api.model.Market.Comment;
+import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.JobLogger;
 import com.nhn.socialanalytics.common.collect.CollectHistoryBuffer;
 import com.nhn.socialanalytics.common.collect.Collector;
@@ -26,6 +27,8 @@ import com.nhn.socialanalytics.miner.index.DetailDoc;
 import com.nhn.socialanalytics.miner.index.DocIndexSearcher;
 import com.nhn.socialanalytics.miner.index.DocIndexWriter;
 import com.nhn.socialanalytics.miner.index.FieldConstants;
+import com.nhn.socialanalytics.nlp.lang.ja.JapaneseMorphemeAnalyzer;
+import com.nhn.socialanalytics.nlp.lang.ja.JapaneseSemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanMorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanSemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.morpheme.MorphemeAnalyzer;
@@ -42,11 +45,6 @@ public class AndroidMarketDataCollector extends Collector {
 	private AndroidMarketCrawler crawler;
 	
 	public AndroidMarketDataCollector(String loginAccount, String loginPasswd) {
-		this(loginAccount, loginPasswd, null);
-	}	
-	
-	public AndroidMarketDataCollector(String loginAccount, String loginPasswd, File spamFilterFile) {
-		super(spamFilterFile);
 		this.crawler = new AndroidMarketCrawler(loginAccount, loginPasswd);
 	}
 	
@@ -80,7 +78,7 @@ public class AndroidMarketDataCollector extends Collector {
 		return commentList;
 	}
 	
-	public void writeOutput(String dataDir, String indexDir, String liwcCatFile, String objectId, 
+	public void writeOutput(String dataDir, String indexDir, String objectId, 
 			Map<Locale, List<Comment>> commentsMap, Date collectDate, int historyBufferMaxRound) throws Exception {		
 		
 		String currentDatetime = DateUtil.convertDateToString("yyyyMMddHHmmss", new Date());	
@@ -91,10 +89,15 @@ public class AndroidMarketDataCollector extends Collector {
 		Set<String> idSet = new HashSet<String>();
 		CollectHistoryBuffer history = new CollectHistoryBuffer(super.getCollectHistoryFile(dataDir, objectId), historyBufferMaxRound);
 				
-		MorphemeAnalyzer morph = KoreanMorphemeAnalyzer.getInstance();
-		SemanticAnalyzer semantic = KoreanSemanticAnalyzer.getInstance();
-		SentimentAnalyzer sentiment = SentimentAnalyzer.getInstance(new File(liwcCatFile));
+		// text analyzer
+		MorphemeAnalyzer morphemeKorean = super.getMorphemeAnalyzer(Collector.LANG_KOREAN);
+		MorphemeAnalyzer morphemeJapanese = super.getMorphemeAnalyzer(Collector.LANG_JAPANESE);
+		SemanticAnalyzer semanticKorean = super.getSemanticAnalyzer(Collector.LANG_KOREAN);
+		SemanticAnalyzer semanticJapanese = super.getSemanticAnalyzer(Collector.LANG_JAPANESE);
+		SentimentAnalyzer sentimentKorean = super.getSentimentAnalyzer(Collector.LANG_KOREAN);
+		SentimentAnalyzer sentimentJapanese = super.getSentimentAnalyzer(Collector.LANG_JAPANESE);
 		
+		// indexer
 		DocIndexWriter indexWriter = new DocIndexWriter(docIndexDir);		
 		DocIndexSearcher indexSearcher = new DocIndexSearcher(super.getDocumentIndexDirsToSearch(indexDir, collectDate));
 		
@@ -154,19 +157,51 @@ public class AndroidMarketDataCollector extends Collector {
 					boolean isSpam = super.isSpam(text);
 					String textEmotiTagged = StringUtil.convertEmoticonToTag(text);
 					
-					String text1 = morph.extractTerms(textEmotiTagged);
-					String text2 = morph.extractCoreTerms(textEmotiTagged);
+					String language = "";
+					String text1 = "";
+					String text2 = "";
+					SemanticSentence semanticSentence = null;
+					double polarity = 0.0;
+					double polarityStrength = 0.0;
 					
-					SemanticSentence semanticSentence = semantic.analyze(textEmotiTagged);
+					if (locale.equals(Locale.KOREA)) {
+						language = FieldConstants.LANG_KOREAN;
+						text1 = morphemeKorean.extractTerms(textEmotiTagged);
+						text2 = morphemeKorean.extractCoreTerms(textEmotiTagged);		
+						
+						semanticSentence = semanticKorean.analyze(textEmotiTagged);
+						
+						semanticSentence = sentimentKorean.analyzePolarity(semanticSentence);
+						polarity = semanticSentence.getPolarity();
+						polarityStrength = semanticSentence.getPolarityStrength();
+					}
+					else if (locale.equals(Locale.JAPAN)) {
+						language = FieldConstants.LANG_JAPANESE;
+						text1 = morphemeJapanese.extractTerms(textEmotiTagged);
+						text2 = morphemeJapanese.extractCoreTerms(textEmotiTagged);		
+						
+						semanticSentence = semanticJapanese.analyze(textEmotiTagged);
+						
+						semanticSentence = sentimentJapanese.analyzePolarity(semanticSentence);
+						polarity = semanticSentence.getPolarity();
+						polarityStrength = semanticSentence.getPolarityStrength();
+					}
+					else {
+						text1 = morphemeKorean.extractTerms(textEmotiTagged);
+						text2 = morphemeKorean.extractCoreTerms(textEmotiTagged);		
+						
+						semanticSentence = semanticKorean.analyze(textEmotiTagged);
+						
+						semanticSentence = sentimentKorean.analyzePolarity(semanticSentence);
+						polarity = semanticSentence.getPolarity();
+						polarityStrength = semanticSentence.getPolarityStrength();					
+					}
+										
 					String subjectpredicate = semanticSentence.extractStandardSubjectPredicateLabel();
 					String subject = semanticSentence.extractStandardSubjectLabel();
 					String predicate = semanticSentence.extractStandardPredicateLabel();
-					String attribute = semanticSentence.extractStandardAttributesLabel();
-					
-					semanticSentence = sentiment.analyzePolarity(semanticSentence);
-					double polarity = semanticSentence.getPolarity();
-					double polarityStrength = semanticSentence.getPolarityStrength();
-					
+					String attribute = semanticSentence.extractStandardAttributesLabel();					
+				
 					// write new collected data into source file
 					brData.write(
 							TARGET_SITE_NAME + DELIMITER +
@@ -211,7 +246,7 @@ public class AndroidMarketDataCollector extends Collector {
 								DetailDoc doc = new DetailDoc();
 								doc.setSite(TARGET_SITE_NAME);
 								doc.setObject(objectId);
-								doc.setLanguage(locale.toString());
+								doc.setLanguage(language);
 								doc.setCollectDate(currentDatetime);
 								doc.setDocId(commentId);
 								doc.setDate(createDate);
@@ -223,6 +258,8 @@ public class AndroidMarketDataCollector extends Collector {
 								doc.setText(text);
 								doc.setPolarity(polarity);
 								doc.setPolarityStrength(polarityStrength);
+								doc.setClausePolarity(clause.getPolarity());
+								doc.setClausePolarityStrength(clause.getPolarityStrength());
 								
 								indexWriter.write(doc);
 							}						
@@ -239,13 +276,20 @@ public class AndroidMarketDataCollector extends Collector {
 	
 	public static void main(String[] args) {
 		
-		String loginAccount = "xxx@gmail.com";
-		String loginPasswd = "xxx";
-		AndroidMarketDataCollector collector = new AndroidMarketDataCollector(loginAccount, loginPasswd);	
+		String loginAccount = "louiezzang@gmail.com";
+		String loginPasswd = "bae120809";
+		AndroidMarketDataCollector collector = new AndroidMarketDataCollector(loginAccount, loginPasswd);
+		collector.setSpamFilter(new File(Config.getProperty("COLLECT_SPAM_FILTER_ANDROIDMARKET")));		
+		collector.putMorphemeAnalyzer(Collector.LANG_KOREAN, new KoreanMorphemeAnalyzer());
+		collector.putMorphemeAnalyzer(Collector.LANG_JAPANESE, new JapaneseMorphemeAnalyzer());
+		collector.putSemanticAnalyzer(Collector.LANG_KOREAN, new KoreanSemanticAnalyzer());
+		collector.putSemanticAnalyzer(Collector.LANG_JAPANESE, new JapaneseSemanticAnalyzer());
+		collector.putSentimentAnalyzer(Collector.LANG_KOREAN, new SentimentAnalyzer(new File(Config.getProperty("LIWC_KOREAN"))));
+		collector.putSentimentAnalyzer(Collector.LANG_JAPANESE, new SentimentAnalyzer(new File(Config.getProperty("LIWC_JAPANESE"))));
 		
 		//Set<Locale> locales = AndroidMarkets.getAllAndroidMarkets();
 		Set<Locale> locales = new HashSet<Locale>();
-		//locales.add(Locale.KOREA);
+		locales.add(Locale.KOREA);
 		locales.add(Locale.JAPAN);
 		
 		//String query = "네이버톡";
@@ -261,9 +305,9 @@ public class AndroidMarketDataCollector extends Collector {
 		//String appId = "com.kakao.talk";
 		
 		//List<Comment> comments = collector.getAppComments(locales, appId, 2);
-		Map<Locale, List<Comment>> commentsMap = collector.getAppCommentsByLocales(locales, appId, 30);
+		Map<Locale, List<Comment>> commentsMap = collector.getAppCommentsByLocales(locales, appId, 10);
 		try {
-			collector.writeOutput("./bin/data/androidmarket/collect/", "./bin/data/androidmarket/index/", "./bin/liwc/LIWC_ko.txt", objectId, commentsMap, new Date(), 2);
+			collector.writeOutput("./bin/data/androidmarket/collect/", "./bin/data/androidmarket/index/", objectId, commentsMap, new Date(), 2);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

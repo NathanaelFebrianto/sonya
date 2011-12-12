@@ -22,6 +22,7 @@ import twitter4j.Twitter;
 import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
 
+import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.JobLogger;
 import com.nhn.socialanalytics.common.collect.CollectHistoryBuffer;
 import com.nhn.socialanalytics.common.collect.Collector;
@@ -30,6 +31,8 @@ import com.nhn.socialanalytics.miner.index.DetailDoc;
 import com.nhn.socialanalytics.miner.index.DocIndexSearcher;
 import com.nhn.socialanalytics.miner.index.DocIndexWriter;
 import com.nhn.socialanalytics.miner.index.FieldConstants;
+import com.nhn.socialanalytics.nlp.lang.ja.JapaneseMorphemeAnalyzer;
+import com.nhn.socialanalytics.nlp.lang.ja.JapaneseSemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanMorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanSemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.morpheme.MorphemeAnalyzer;
@@ -105,7 +108,7 @@ public class TwitterDataCollector extends Collector {
 		return tweets;
 	}
 	
-	public void writeOutput(String dataDir, String indexDir, String liwcCatFile, String objectId, 
+	public void writeOutput(String dataDir, String indexDir, String objectId, 
 			List<twitter4j.Tweet> tweets, Date collectDate, int historyBufferMaxRound) throws IOException, Exception {
 		
 		String currentDatetime = DateUtil.convertDateToString("yyyyMMddHHmmss", new Date());	
@@ -116,10 +119,15 @@ public class TwitterDataCollector extends Collector {
 		Set<String> idSet = new HashSet<String>();
 		CollectHistoryBuffer history = new CollectHistoryBuffer(super.getCollectHistoryFile(dataDir, objectId), historyBufferMaxRound);
 				
-		MorphemeAnalyzer morph = KoreanMorphemeAnalyzer.getInstance();
-		SemanticAnalyzer semantic = KoreanSemanticAnalyzer.getInstance();
-		SentimentAnalyzer sentiment = SentimentAnalyzer.getInstance(new File(liwcCatFile));
+		// text analyzer
+		MorphemeAnalyzer morphemeKorean = super.getMorphemeAnalyzer(Collector.LANG_KOREAN);
+		MorphemeAnalyzer morphemeJapanese = super.getMorphemeAnalyzer(Collector.LANG_JAPANESE);
+		SemanticAnalyzer semanticKorean = super.getSemanticAnalyzer(Collector.LANG_KOREAN);
+		SemanticAnalyzer semanticJapanese = super.getSemanticAnalyzer(Collector.LANG_JAPANESE);
+		SentimentAnalyzer sentimentKorean = super.getSentimentAnalyzer(Collector.LANG_KOREAN);
+		SentimentAnalyzer sentimentJapanese = super.getSentimentAnalyzer(Collector.LANG_JAPANESE);
 		
+		// indexer
 		DocIndexWriter indexWriter = new DocIndexWriter(docIndexDir);		
 		DocIndexSearcher indexSearcher = new DocIndexSearcher(super.getDocumentIndexDirsToSearch(indexDir, collectDate));
 		
@@ -156,7 +164,7 @@ public class TwitterDataCollector extends Collector {
 		// post
 		for (twitter4j.Tweet tweet : tweets) {
 			String tweetId = String.valueOf(tweet.getId());
-			String language = tweet.getIsoLanguageCode();			
+			String langCode = tweet.getIsoLanguageCode();			
 			String createDate = DateUtil.convertDateToString("yyyyMMddHHmmss", tweet.getCreatedAt());
 			String fromUserId = String.valueOf(tweet.getFromUserId());
 			String fromUser = tweet.getFromUser();			
@@ -172,24 +180,56 @@ public class TwitterDataCollector extends Collector {
 				String text = TwitterParser.extractContent(tweet.getText());
 				String textEmotiTagged = TwitterParser.convertEmoticonToTag(text);
 				
-				String text1 = morph.extractTerms(textEmotiTagged);
-				String text2 = morph.extractCoreTerms(textEmotiTagged);
+				String language = "";
+				String text1 = "";
+				String text2 = "";
+				SemanticSentence semanticSentence = null;
+				double polarity = 0.0;
+				double polarityStrength = 0.0;
 				
-				SemanticSentence semanticSentence = semantic.analyze(textEmotiTagged);
+				if (langCode.equalsIgnoreCase("ko")) {
+					language = FieldConstants.LANG_KOREAN;
+					text1 = morphemeKorean.extractTerms(textEmotiTagged);
+					text2 = morphemeKorean.extractCoreTerms(textEmotiTagged);		
+					
+					semanticSentence = semanticKorean.analyze(textEmotiTagged);
+					
+					semanticSentence = sentimentKorean.analyzePolarity(semanticSentence);
+					polarity = semanticSentence.getPolarity();
+					polarityStrength = semanticSentence.getPolarityStrength();
+				}
+				else if (langCode.equalsIgnoreCase("ja")) {
+					language = FieldConstants.LANG_JAPANESE;
+					text1 = morphemeJapanese.extractTerms(textEmotiTagged);
+					text2 = morphemeJapanese.extractCoreTerms(textEmotiTagged);		
+					
+					semanticSentence = semanticJapanese.analyze(textEmotiTagged);
+					
+					semanticSentence = sentimentJapanese.analyzePolarity(semanticSentence);
+					polarity = semanticSentence.getPolarity();
+					polarityStrength = semanticSentence.getPolarityStrength();
+				}
+				else {
+					text1 = morphemeKorean.extractTerms(textEmotiTagged);
+					text2 = morphemeKorean.extractCoreTerms(textEmotiTagged);		
+					
+					semanticSentence = semanticKorean.analyze(textEmotiTagged);
+					
+					semanticSentence = sentimentKorean.analyzePolarity(semanticSentence);
+					polarity = semanticSentence.getPolarity();
+					polarityStrength = semanticSentence.getPolarityStrength();					
+				}				
+				
 				String subjectpredicate = semanticSentence.extractSubjectPredicateLabel();
 				String subject = semanticSentence.extractSubjectLabel();
 				String predicate = semanticSentence.extractPredicateLabel();
 				String attribute = semanticSentence.extractAttributesLabel();
 				
-				semanticSentence = sentiment.analyzePolarity(semanticSentence);
-				double polarity = semanticSentence.getPolarity();
-				double polarityStrength = semanticSentence.getPolarityStrength();
-				
 				// write new collected data into source file
 				brData.write(
 						TARGET_SITE_NAME + DELIMITER +
 						objectId + DELIMITER +
-						language + DELIMITER +
+						langCode + DELIMITER +
 						currentDatetime + DELIMITER +
 						tweetId + DELIMITER +
 						createDate + DELIMITER + 
@@ -236,6 +276,10 @@ public class TwitterDataCollector extends Collector {
 						doc.setPredicate(clause.getPredicate());
 						doc.setAttribute(clause.makeAttributesLabel());
 						doc.setText(text);
+						doc.setPolarity(polarity);
+						doc.setPolarityStrength(polarityStrength);
+						doc.setClausePolarity(clause.getPolarity());
+						doc.setClausePolarityStrength(clause.getPolarityStrength());
 						
 						indexWriter.write(doc);
 					}						
@@ -250,6 +294,12 @@ public class TwitterDataCollector extends Collector {
 	
 	public static void main(String[] args) {
 		TwitterDataCollector collector = new TwitterDataCollector();
+		collector.putMorphemeAnalyzer(Collector.LANG_KOREAN, new KoreanMorphemeAnalyzer());
+		collector.putMorphemeAnalyzer(Collector.LANG_JAPANESE, new JapaneseMorphemeAnalyzer());
+		collector.putSemanticAnalyzer(Collector.LANG_KOREAN, new KoreanSemanticAnalyzer());
+		collector.putSemanticAnalyzer(Collector.LANG_JAPANESE, new JapaneseSemanticAnalyzer());
+		collector.putSentimentAnalyzer(Collector.LANG_KOREAN, new SentimentAnalyzer(new File(Config.getProperty("LIWC_KOREAN"))));
+		collector.putSentimentAnalyzer(Collector.LANG_JAPANESE, new SentimentAnalyzer(new File(Config.getProperty("LIWC_JAPANESE"))));
 		
 		//String objectId = "fta";
 		//String query = "한미FTA OR ISD";
@@ -267,16 +317,15 @@ public class TwitterDataCollector extends Collector {
 		
 		String objectId = "naverline";
 		Map<String, Integer> queryMap = new HashMap<String, Integer>();
-		//queryMap.put("한미FTA OR ISD", 5);
-		//queryMap.put("FTA OR ISD", 5);
+		queryMap.put("네이버라인", 30);
 		queryMap.put("naver ライン", 30);
-		//queryMap.put("NAVER LINE", 10);
+
 		
 		Date since = DateUtil.addDay(new Date(), -30);
 		List<twitter4j.Tweet> tweets = collector.searchTweets(queryMap, since, null);
 				
 		try {
-			collector.writeOutput("./bin/data/twitter/collect/", "./bin/data/twitter/index/", "./bin/liwc/LIWC_ko.txt", objectId, tweets, new Date(), 1);
+			collector.writeOutput("./bin/data/twitter/collect/", "./bin/data/twitter/index/", objectId, tweets, new Date(), 1);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

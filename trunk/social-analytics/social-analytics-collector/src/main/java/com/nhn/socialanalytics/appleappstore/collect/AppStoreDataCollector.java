@@ -44,7 +44,7 @@ public class AppStoreDataCollector extends Collector {
 	private AppStoreCrawler crawler;
 
 	public AppStoreDataCollector() {
-		crawler = new AppStoreCrawler();
+		this.crawler = new AppStoreCrawler();
 	}
 	
 	public List<Review> getReviews(Set<String> appStores, String appId) {
