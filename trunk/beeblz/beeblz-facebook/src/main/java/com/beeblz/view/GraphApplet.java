@@ -4,9 +4,6 @@
  */
 package com.beeblz.view;
 
-import java.sql.DriverManager;
-import java.sql.SQLException;
-
 import javax.swing.JApplet;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
@@ -42,6 +39,7 @@ public class GraphApplet extends JApplet {
 				}
 				
 				String accessToken = getParameter("access_token");
+				accessToken = "xxx";
 				String alignment = getParameter("alignment");
 				
 				// just for test
