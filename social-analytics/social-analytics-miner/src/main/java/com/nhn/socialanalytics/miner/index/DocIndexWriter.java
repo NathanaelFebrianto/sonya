@@ -43,17 +43,23 @@ public class DocIndexWriter {
 		MY_STOP_WORDS_SET = CharArraySet.unmodifiableSet(stopSet);
 	}
 	
-	public DocIndexWriter(File outputDir) throws IOException {
+	public DocIndexWriter(File outputDir) throws IOException {		
+		this(outputDir, null);
+	}
+	
+	public DocIndexWriter(File outputDir, Analyzer luceneAnalyzer) throws IOException {
 		
 		if (!outputDir.exists())
 			outputDir.mkdir();
 		
 		indexDir = FSDirectory.open(outputDir);	
 		
-		//Analyzer luceneAnalyzer = new StopAnalyzer(Version.LUCENE_33, MY_STOP_WORDS_SET);	// removes numbers too
-		Analyzer luceneAnalyzer = new StandardAnalyzer(Version.LUCENE_33, MY_STOP_WORDS_SET);
+		if (luceneAnalyzer == null) {
+			//luceneAnalyzer = new StopAnalyzer(Version.LUCENE_33, MY_STOP_WORDS_SET);	// removes numbers
+			luceneAnalyzer = new StandardAnalyzer(Version.LUCENE_33, MY_STOP_WORDS_SET);	// removes all hiraganas if japanese
+		}
+
 		IndexWriterConfig config = new IndexWriterConfig(Version.LUCENE_33, luceneAnalyzer);
-		
 		config.setOpenMode(IndexWriterConfig.OpenMode.CREATE_OR_APPEND);
 		indexWriter = new IndexWriter(indexDir, config);
 	}

@@ -120,8 +120,7 @@ public class DocIndexSearcher {
 		return this.stopwordSet;
 	}
 	
-	public int getTF(String object, String field, String text) 
-			throws IOException, CorruptIndexException {		
+	public int getTF(String object, String field, String text) throws IOException, CorruptIndexException {		
 		Term objTerm = new Term(FieldConstants.OBJECT, object);		
 		TermsFilter filter = new TermsFilter();
 		filter.addTerm(objTerm);
@@ -132,10 +131,7 @@ public class DocIndexSearcher {
 		TopDocs rs = searcher.search(query, filter, 1000000);
 		System.out.println("search field == " + field + ", search text == " + text + ", docFreq == " + rs.totalHits);
 		
-		if (rs.totalHits >= 0)
-			return rs.totalHits+1;
-		else
-			return rs.totalHits;
+		return rs.totalHits;
 	}
 	
 	public Map<String, Integer> getTerms(String object, String field, int minTF, boolean excludeStopwords) 
@@ -152,6 +148,7 @@ public class DocIndexSearcher {
 			int docId = rs.scoreDocs[i].doc;
 			Document doc = searcher.doc(docId);
 			String text = doc.get(field);
+			
 			if (excludeStopwords && !stopwordSet.contains(text)) {
 				int tf = this.getTF(object, field, text);
 				if (tf >= minTF) {
@@ -323,19 +320,21 @@ public class DocIndexSearcher {
 	public static void main(String[] args) {		
 		try {	
 			File[] indexDirs = new File[1];
-			indexDirs[0] = new File("./bin/data/androidmarket/index/20111206");
+			indexDirs[0] = new File("./bin/data/appstore/index/20111212");
 			String object = "naverline";
-			File liwcCatFile = new File("./bin/liwc/LIWC_ko.txt");
+			File liwcCatFile = new File("./bin/liwc/LIWC_ja.txt");
 			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs, liwcCatFile, null, null);
 			
-			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.PREDICATE, 2, true);
-			System.out.println(terms);
+			searcher.getTF(object, FieldConstants.PREDICATE, "NOT楽しい");
 			
-			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
-				String term = entry.getKey();
-				System.out.println("--------------------------------------\n");
-				searcher.search(object, FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 2);
-			}
+//			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.PREDICATE, 0, true);
+//			System.out.println(terms);
+//			
+//			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
+//				String term = entry.getKey();
+//				System.out.println("--------------------------------------\n");
+//				searcher.search(object, FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 10);
+//			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
