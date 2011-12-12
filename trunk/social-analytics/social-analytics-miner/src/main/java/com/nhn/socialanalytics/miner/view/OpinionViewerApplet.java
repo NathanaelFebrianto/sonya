@@ -22,12 +22,15 @@ import javax.swing.BorderFactory;
 import javax.swing.JApplet;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
+import javax.swing.JComponent;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JSplitPane;
+import javax.swing.JTabbedPane;
 import javax.swing.JTextArea;
 import javax.swing.JToggleButton;
+import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 
@@ -50,26 +53,48 @@ import edu.uci.ics.jung.visualization.control.ModalGraphMouse;
 @SuppressWarnings("serial")
 public class OpinionViewerApplet extends JApplet {
 	
+	JTabbedPane tpaneRight;
+	JTabbedPane tpaneLeft;
+	
 	private Forest<TermNode, TermEdge> graph;
 	JTextArea tareaDetailDocs;	
 
 	public OpinionViewerApplet(Forest<TermNode, TermEdge> graph) {
 		this.graph = graph;
-		OpinionGraphViewer viewer = makeGraphView(graph);
-		VisualizationViewer<TermNode, TermEdge> vv = viewer.getVisualizationViewer();
-		GraphZoomScrollPane panelGraph = new GraphZoomScrollPane(vv);
+		
+		OpinionGraphViewer graphViewer = makeGraphView(graph);
 		
 		JSplitPane splitPane = new JSplitPane();
 		splitPane.setOneTouchExpandable(true);
-		splitPane.add(panelGraph, JSplitPane.LEFT);
-		splitPane.add(makeDetailDocsPanel(), JSplitPane.RIGHT);			
+		splitPane.add(makeRightPanel(graphViewer), JSplitPane.LEFT);
+		splitPane.add(makeLeftPanel(), JSplitPane.RIGHT);			
 		add(splitPane, BorderLayout.CENTER);	
-		add(makeGraphViewControlPanel(viewer), BorderLayout.SOUTH);
+		add(makeGraphViewControlPanel(graphViewer), BorderLayout.SOUTH);
+	}
+	
+	private JComponent makeRightPanel(OpinionGraphViewer graphViewer) {
+		tpaneRight = new JTabbedPane(SwingConstants.TOP);
+		
+		VisualizationViewer<TermNode, TermEdge> vv = graphViewer.getVisualizationViewer();
+		GraphZoomScrollPane panelGraph = new GraphZoomScrollPane(vv);
+		
+		tpaneRight.addTab(UIHandler.getText("tab.graph.view"), panelGraph);		
+		tpaneRight.addTab(UIHandler.getText("tab.table.view"), new JPanel());
+		
+		return tpaneRight;
+	}
+	
+	private JComponent makeLeftPanel() {
+		tpaneLeft = new JTabbedPane(SwingConstants.TOP);		
+		
+		tpaneLeft.addTab(UIHandler.getText("tab.doc.list"), makeDetailDocListPanel());		
+		
+		return tpaneLeft;
 	}
 	
 	private OpinionGraphViewer makeGraphView(Forest<TermNode, TermEdge> graph) {
 		Layout<TermNode, TermEdge> treeLayout = new TreeLayout<TermNode, TermEdge>(graph);
-		final OpinionGraphViewer viewer = new OpinionGraphViewer(treeLayout, new Dimension(550, 550));
+		final OpinionGraphViewer viewer = new OpinionGraphViewer(treeLayout, new Dimension(600, 600));
 		final VisualizationViewer<TermNode, TermEdge> vv = viewer.getVisualizationViewer();
 		
 		vv.getRenderContext().setVertexStrokeTransformer(
@@ -104,7 +129,7 @@ public class OpinionViewerApplet extends JApplet {
 		return viewer;
 	}
 	
-	private JPanel makeGraphViewControlPanel(final OpinionGraphViewer viewer) {
+	private JComponent makeGraphViewControlPanel(final OpinionGraphViewer viewer) {
 		final DefaultModalGraphMouse graphMouse = (DefaultModalGraphMouse) viewer.getVisualizationViewer().getGraphMouse();	
 		JComboBox modeBox = graphMouse.getModeComboBox();
 		modeBox.addItemListener(graphMouse.getModeListener());
@@ -144,7 +169,7 @@ public class OpinionViewerApplet extends JApplet {
 		return controls;		
 	}	
 	
-	private JPanel makeToolbarPanel() {
+	private JComponent makeToolbarPanel() {
 		JPanel panel = new JPanel();
 		panel.setLayout(new FlowLayout());
 		
@@ -160,7 +185,7 @@ public class OpinionViewerApplet extends JApplet {
 		return panel;
 	}
 	
-	private JPanel makeDetailDocsPanel() {
+	private JComponent makeDetailDocListPanel() {
 		JPanel panel = new JPanel();
 		panel.setLayout(new BorderLayout());
 		
@@ -176,7 +201,7 @@ public class OpinionViewerApplet extends JApplet {
 		
 		try {
 			File[] indexDirs = new File[1];
-			indexDirs[0] = new File("./bin/data/twitter/index/20111212");
+			indexDirs[0] = new File("./bin/data/appstore/index/20111212");
 			
 			String object = "naverline";
 			
@@ -221,12 +246,12 @@ public class OpinionViewerApplet extends JApplet {
 			/* target term ==> SUBJECT   */
 			/////////////////////////////////
 			String language = FieldConstants.LANG_JAPANESE;
-			Map<String, Integer> terms = searcher.getTerms(object, language, FieldConstants.SUBJECT, 2, true);					
+			Map<String, Integer> terms = searcher.getTerms(object, language, FieldConstants.SUBJECT, 15, true);					
 			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
 				String term = entry.getKey();
 			
-				TargetTerm subjectTerm = searcher.search(object, language, FieldConstants.SUBJECT, FieldConstants.PREDICATE, term, 1, 2);
-				TargetTerm attributeTerm = searcher.search(object, language, FieldConstants.SUBJECT, FieldConstants.ATTRIBUTE, term, 1, 2);
+				TargetTerm subjectTerm = searcher.search(object, language, FieldConstants.SUBJECT, FieldConstants.PREDICATE, term, 1, 3);
+				TargetTerm attributeTerm = searcher.search(object, language, FieldConstants.SUBJECT, FieldConstants.ATTRIBUTE, term, 1, 3);
 				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
 				termMap.put(FieldConstants.PREDICATE, subjectTerm);
 				termMap.put(FieldConstants.ATTRIBUTE, attributeTerm);
@@ -242,11 +267,11 @@ public class OpinionViewerApplet extends JApplet {
 					try {
 						UIManager.setLookAndFeel("org.pushingpixels.substance.api.skin.SubstanceCremeLookAndFeel");
 						//UIManager.setLookAndFeel("org.pushingpixels.substance.api.skin.SubstanceGraphiteAquaLookAndFeel");
-						//UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsLookAndFeel");
-						//UIManager.setLookAndFeel("com.jgoodies.plaf.plastic.Plastic3DLookAndFeel");
-						//UIManager.setLookAndFeel("com.jgoodies.plaf.plastic.PlasticXPLookAndFeel");
-						
-						UIHandler.changeAllSwingComponentDefaultFont();
+							
+						//Font font = new Font("tahoma", Font.PLAIN, 11);
+						//Font font = new Font("MS Gothic", Font.PLAIN, 12);
+						//Font font = new Font("MS Mincho", Font.PLAIN, 12);
+						//UIHandler.changeAllSwingComponentDefaultFont(font);
 
 						JFrame frame = new JFrame();
 						Container content = frame.getContentPane();
