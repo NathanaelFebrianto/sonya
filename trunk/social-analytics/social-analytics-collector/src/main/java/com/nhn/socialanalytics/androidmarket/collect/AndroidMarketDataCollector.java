@@ -276,8 +276,8 @@ public class AndroidMarketDataCollector extends Collector {
 	
 	public static void main(String[] args) {
 		
-		String loginAccount = "louiezzang@gmail.com";
-		String loginPasswd = "bae120809";
+		String loginAccount = "xxx@gmail.com";
+		String loginPasswd = "xxx";
 		AndroidMarketDataCollector collector = new AndroidMarketDataCollector(loginAccount, loginPasswd);
 		collector.setSpamFilter(new File(Config.getProperty("COLLECT_SPAM_FILTER_ANDROIDMARKET")));		
 		collector.putMorphemeAnalyzer(Collector.LANG_KOREAN, new KoreanMorphemeAnalyzer());
