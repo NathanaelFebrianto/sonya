@@ -94,7 +94,7 @@ public class PersonalityRecognizer {
 		// remove domain dependent LIWC features
 		counts.keySet().removeAll(domainDependentFeatureSet);
 		if (relativeOnly) { counts.keySet().removeAll(absoluteCountFeatureSet); }
-		System.err.println("LIWC features computed: " + counts.size());
+		//System.err.println("LIWC features computed: " + counts.size());
 		
 		return counts;
 	}
@@ -118,7 +118,7 @@ public class PersonalityRecognizer {
 		// remove domain dependent LIWC features
 		counts.keySet().removeAll(domainDependentFeatureSet);
 		if (relativeOnly) { counts.keySet().removeAll(absoluteCountFeatureSet); }
-		System.err.println("LIWC features computed: " + counts.size());
+		//System.err.println("LIWC features computed: " + counts.size());
 		
 		return counts;
 	}

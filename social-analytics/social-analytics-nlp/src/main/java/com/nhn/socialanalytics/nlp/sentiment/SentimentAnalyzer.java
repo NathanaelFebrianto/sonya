@@ -72,7 +72,7 @@ public class SentimentAnalyzer {
 		System.out.println("strength == " + strength);
 		
 		clause.setPolarity(polarity);
-		clause.setStrength(strength);
+		clause.setPolarityStrength(strength);
 		clause.setPositiveWordCount(posCount);
 		clause.setNegativeWordCount(negCount);
 		
@@ -91,10 +91,10 @@ public class SentimentAnalyzer {
 			clause = this.analyzePolarity(clause);
 			
 			if (prevPriority == clause.getPriority()) {
-				weightedPolarity = weightedPolarity + (clause.getPolarity() * clause.getStrength()) * clause.getStrength();
+				weightedPolarity = weightedPolarity + (clause.getPolarity() * clause.getPolarityStrength()) * clause.getPolarityStrength();
 			}
 			else {			
-				weightedPolarity = weightedPolarity + (clause.getPolarity() * clause.getStrength());
+				weightedPolarity = weightedPolarity + (clause.getPolarity() * clause.getPolarityStrength());
 			}
 			
 			if (weightedPolarity > 1.0)
