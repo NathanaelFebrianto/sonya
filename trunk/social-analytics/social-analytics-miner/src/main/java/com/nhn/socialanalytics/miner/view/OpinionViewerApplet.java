@@ -37,6 +37,7 @@ import com.nhn.socialanalytics.miner.index.DetailDoc;
 import com.nhn.socialanalytics.miner.index.DocIndexSearcher;
 import com.nhn.socialanalytics.miner.index.FieldConstants;
 import com.nhn.socialanalytics.miner.index.TargetTerm;
+import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
 
 import edu.uci.ics.jung.algorithms.layout.Layout;
 import edu.uci.ics.jung.algorithms.layout.TreeLayout;
@@ -176,23 +177,25 @@ public class OpinionViewerApplet extends JApplet {
 		try {
 			File[] indexDirs = new File[1];
 			indexDirs[0] = new File("./bin/data/appstore/index/20111212");
-			File liwcCatFile = new File("./bin/liwc/LIWC_ja.txt");
 			
 			String object = "naverline";
 			
-			Set<String> customStopwordSet = new HashSet<String>();
-			customStopwordSet.add("좋은데");
-			customStopwordSet.add("바이버보");
-			customStopwordSet.add("그누구");
-			customStopwordSet.add("이건");
-			customStopwordSet.add("역시");
-			customStopwordSet.add("아직");
-			customStopwordSet.add("메세지는");
-			customStopwordSet.add("한가지");
-			customStopwordSet.add("人");
+			Set<String> customStopwords = new HashSet<String>();
+			customStopwords.add("좋은데");
+			customStopwords.add("바이버보");
+			customStopwords.add("그누구");
+			customStopwords.add("이건");
+			customStopwords.add("역시");
+			customStopwords.add("아직");
+			customStopwords.add("메세지는");
+			customStopwords.add("한가지");
 
-			File stopwordFile = new File("./conf/stopword_ja.txt");
-			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs, liwcCatFile, stopwordFile, customStopwordSet);
+			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs);
+			searcher.putStopwordFile(new File("./conf/stopword_ko.txt"));
+			searcher.putStopwordFile(new File("./conf/stopword_ja.txt"));
+			searcher.putCustomStopwords(customStopwords);
+			searcher.putSentimentAnalyzer(FieldConstants.LANG_KOREAN, SentimentAnalyzer.getInstance(new File("./bin/liwc/LIWC_ko.txt")));
+			searcher.putSentimentAnalyzer(FieldConstants.LANG_JAPANESE, SentimentAnalyzer.getInstance(new File("./bin/liwc/LIWC_ja.txt")));
 			System.out.println("stopwords == " + searcher.getStopwords());			
 			
 			OpinionGraphModeller modeller = new OpinionGraphModeller();
@@ -205,8 +208,8 @@ public class OpinionViewerApplet extends JApplet {
 //			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
 //				String term = entry.getKey();
 //			
-//				TargetTerm subjectTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 10);
-//				TargetTerm attributeTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.ATTRIBUTE, term, 10);
+//				TargetTerm subjectTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 10, 1);
+//				TargetTerm attributeTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.ATTRIBUTE, term, 10, 1);
 //				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
 //				termMap.put(FieldConstants.SUBJECT, subjectTerm);
 //				termMap.put(FieldConstants.ATTRIBUTE, attributeTerm);
@@ -217,13 +220,13 @@ public class OpinionViewerApplet extends JApplet {
 			/////////////////////////////////
 			/* target term ==> SUBJECT   */
 			/////////////////////////////////
-
-			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.SUBJECT, 10, true);					
+			String language = FieldConstants.LANG_JAPANESE;
+			Map<String, Integer> terms = searcher.getTerms(object, language, FieldConstants.SUBJECT, 10, true);					
 			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
 				String term = entry.getKey();
 			
-				TargetTerm subjectTerm = searcher.search(object, FieldConstants.SUBJECT, FieldConstants.PREDICATE, term, 10);
-				TargetTerm attributeTerm = searcher.search(object, FieldConstants.SUBJECT, FieldConstants.ATTRIBUTE, term, 40);
+				TargetTerm subjectTerm = searcher.search(object, language, FieldConstants.SUBJECT, FieldConstants.PREDICATE, term, 1, 3);
+				TargetTerm attributeTerm = searcher.search(object, language, FieldConstants.SUBJECT, FieldConstants.ATTRIBUTE, term, 1, 3);
 				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
 				termMap.put(FieldConstants.PREDICATE, subjectTerm);
 				termMap.put(FieldConstants.ATTRIBUTE, attributeTerm);

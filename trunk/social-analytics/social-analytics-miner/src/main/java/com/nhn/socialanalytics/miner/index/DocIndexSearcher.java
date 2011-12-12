@@ -19,6 +19,8 @@ import org.apache.lucene.index.IndexNotFoundException;
 import org.apache.lucene.index.IndexReader;
 import org.apache.lucene.index.MultiReader;
 import org.apache.lucene.index.Term;
+import org.apache.lucene.search.BooleanClause;
+import org.apache.lucene.search.BooleanQuery;
 import org.apache.lucene.search.IndexSearcher;
 import org.apache.lucene.search.Query;
 import org.apache.lucene.search.TermQuery;
@@ -32,7 +34,7 @@ import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
 public class DocIndexSearcher {
 
 	private IndexSearcher searcher;
-	private SentimentAnalyzer sentiment;
+	private Map<String, SentimentAnalyzer> sentimentAnalyzers = new HashMap<String, SentimentAnalyzer>();
 	
 	private Set<String> stopwordSet = new HashSet<String>();
 	private static final Set<?> DEFAULT_STOPWORDS;
@@ -56,27 +58,27 @@ public class DocIndexSearcher {
 	}
 	
 	public DocIndexSearcher(File[] indexDirs) throws IOException, CorruptIndexException {
-		this(indexDirs, null, null);
-	} 
-	
-	public DocIndexSearcher(File[] indexDirs, File stopwordFile, Set<String> customStopwords) throws IOException, CorruptIndexException {
-		this(indexDirs, null, stopwordFile, customStopwords);
-	} 
-
-	public DocIndexSearcher(File[] indexDirs, File liwcFile, File stopwordFile, Set<String> customStopwords) throws IOException, CorruptIndexException {
 		List<IndexReader> indexReaders = getIndexReaders(indexDirs);
 		MultiReader multiReader = new MultiReader(indexReaders.toArray(new IndexReader[0]));  
 		this.searcher = new IndexSearcher(multiReader);	
 		
+		stopwordSet.addAll((Set<String>)DEFAULT_STOPWORDS);	
+	} 
+	
+	public void putStopwordFile(File stopwordFile) throws IOException {
 		Set<String> stopwords = loadStopwords(stopwordFile);
-		stopwordSet.addAll((Set<String>)DEFAULT_STOPWORDS);
 		stopwordSet.addAll(stopwords);
-		
+	}
+	
+	public void putCustomStopwords(Set<String> customStopwords) {
 		if (customStopwords != null)
 			stopwordSet.addAll(customStopwords);
-		
-		if (liwcFile != null)
-			sentiment = SentimentAnalyzer.getInstance(liwcFile);
+	}
+
+	public void putSentimentAnalyzer(String language, SentimentAnalyzer analyzer) {
+		if (analyzer != null) {
+			sentimentAnalyzers.put(language, analyzer);
+		}			
 	} 
 	
 	private List<IndexReader> getIndexReaders(File[] indexDirs) 
@@ -120,29 +122,54 @@ public class DocIndexSearcher {
 		return this.stopwordSet;
 	}
 	
-	public int getTF(String object, String field, String text) throws IOException, CorruptIndexException {		
+	public int getTF(String object, String queryField, String queryText) throws IOException, CorruptIndexException {		
 		Term objTerm = new Term(FieldConstants.OBJECT, object);		
 		TermsFilter filter = new TermsFilter();
 		filter.addTerm(objTerm);
 		
-		Term term = new Term(field, text);
+		Term term = new Term(queryField, queryText);
 		Query query = new TermQuery(term);		
 
 		TopDocs rs = searcher.search(query, filter, 1000000);
-		System.out.println("search field == " + field + ", search text == " + text + ", docFreq == " + rs.totalHits);
+		//System.out.println("query field == " + queryField + ", query text == " + queryText + ", docFreq == " + rs.totalHits);
 		
 		return rs.totalHits;
 	}
 	
-	public Map<String, Integer> getTerms(String object, String field, int minTF, boolean excludeStopwords) 
+	public int getTF(String object, String queryField1, String queryText1, String queryField2, String queryText2) 
+			throws IOException, CorruptIndexException {
+		Term objTerm = new Term(FieldConstants.OBJECT, object);	
+		TermsFilter filter = new TermsFilter();
+		filter.addTerm(objTerm);
+		
+		Term term1 = new Term(queryField1, queryText1);
+		Query query1 = new TermQuery(term1);
+		
+		Term term2 = new Term(queryField2, queryText2);
+		Query query2 = new TermQuery(term2);
+		
+		BooleanQuery bQuery = new BooleanQuery();
+		bQuery.add(query1, BooleanClause.Occur.MUST);
+		bQuery.add(query2, BooleanClause.Occur.MUST);
+
+		TopDocs rs = searcher.search(bQuery, filter, 1000000);
+		
+		return rs.totalHits;
+	}
+	
+	public Map<String, Integer> getTerms(String object, String language, String field, int minTF, boolean excludeStopwords) 
 			throws IOException, CorruptIndexException {		
 		Map<String, Integer> terms = new HashMap<String, Integer>();
 		
-		Term term = new Term(FieldConstants.OBJECT, object);
-		Query query = new TermQuery(term);		
+		Term objTerm = new Term(FieldConstants.OBJECT, object);	
+		TermsFilter filter = new TermsFilter();
+		filter.addTerm(objTerm);
+		
+		Term term = new Term(FieldConstants.LANGUAGE, language);
+		Query query = new TermQuery(term);
 
-		TopDocs rs = searcher.search(query, 1000000);
-		//System.out.println("docFreq == " + rs.totalHits);
+		TopDocs rs = searcher.search(query, filter, 1000000);
+		System.out.println("docFreq == " + rs.totalHits);
 
 		for (int i = 0; i < rs.totalHits; i++) {
 			int docId = rs.scoreDocs[i].doc;
@@ -184,7 +211,8 @@ public class DocIndexSearcher {
 		return docs;
 	}
 	
-	public TargetTerm search(String object, String searchField, String outField, String searchText, int minTF) throws Exception {
+	public TargetTerm search(String object, String language, String searchField, String outField, String searchText, 
+			int minTF, int minTFwithinTarget) throws Exception {
 		
 		TargetTerm result = new TargetTerm();
 		result.setObject(object);
@@ -204,8 +232,10 @@ public class DocIndexSearcher {
 
 		result.setTF(rs.totalHits);
 		
-		if (sentiment != null) {
-			double searchTextPolarity = sentiment.analyzePolarity(searchText);
+		// get sentiment analyzer suitable for the language
+		SentimentAnalyzer sentimentAnalyzer = sentimentAnalyzers.get(language);
+		if (sentimentAnalyzer != null) {
+			double searchTextPolarity = sentimentAnalyzer.analyzePolarity(searchText);
 			result.setPolarity(searchTextPolarity);			
 		}
 
@@ -229,13 +259,16 @@ public class DocIndexSearcher {
 			detailDoc.setText(doc.get(FieldConstants.TEXT));
 			detailDoc.setPolarity(Double.valueOf(doc.get(FieldConstants.POLARITY)));
 			detailDoc.setPolarityStrength(Double.valueOf(doc.get(FieldConstants.POLARITY_STRENGTH)));
+			detailDoc.setClausePolarity(Double.valueOf(doc.get(FieldConstants.CLAUSE_POLARITY)));
+			detailDoc.setClausePolarityStrength(Double.valueOf(doc.get(FieldConstants.CLAUSE_POLARITY_STRENGTH)));
 			
 			result.addDoc(detailDoc);
 
 			if (outField.equals(FieldConstants.SUBJECT) || outField.equals(FieldConstants.PREDICATE)) {
 				if (!stopwordSet.contains(outText)) {
 					int tf = this.getTF(object, outField, outText);
-					if (tf >= minTF) {
+					int tfWithinTarget = this.getTF(object, searchField, searchText, outField, outText);
+					if (tf >= minTF && tfWithinTarget >= minTFwithinTarget) {
 						ChildTerm exist = result.getChildTerm(outText);
 						if (exist != null) {
 							exist.addDoc(detailDoc);
@@ -243,17 +276,18 @@ public class DocIndexSearcher {
 							ChildTerm childTerm = new ChildTerm();
 							childTerm.setTerm(outText);
 							childTerm.setTF(tf);
+							childTerm.setTFWithinTarget(tfWithinTarget);
 							childTerm.addDoc(detailDoc);
 							
 							double polarity = 0.0;
-							if (sentiment != null) {
-								polarity = sentiment.analyzePolarity(outText);
+							if (sentimentAnalyzer != null) {
+								polarity = sentimentAnalyzer.analyzePolarity(outText);
 								childTerm.setPolarity(polarity);
 							}
 							
 							result.addChildTerm(childTerm);	
 							
-							if (sentiment != null)
+							if (sentimentAnalyzer != null)
 								System.out.println("\n" + outField + " == " + outText + " (tf: " + tf + " polarity: " + polarity + ")");
 							else
 								System.out.println("\n" + outField + " == " + outText + " (tf: " + tf + " polarity: " + "n/a" + ")");
@@ -261,32 +295,35 @@ public class DocIndexSearcher {
 					}
 				}
 			} else if (outField.equals(FieldConstants.ATTRIBUTE)) {
-				Map<String, Integer> mapAttribute = this.tokenizeAttributes(object, outText);
+				Map<String, Integer[]> mapAttribute = this.tokenizeAttributes(object, searchField, searchText, outText);
 
-				for (Map.Entry<String, Integer> entry : mapAttribute.entrySet()) {
+				for (Map.Entry<String, Integer[]> entry : mapAttribute.entrySet()) {
 					String attributeText = entry.getKey();
-					Integer attributeTF = (Integer) entry.getValue();
+					Integer[] attributeTFs = (Integer[]) entry.getValue();
+					int attributeTF = attributeTFs[0];
+					int attributeTFWithinTarget = attributeTFs[1];
 
 					if (!stopwordSet.contains(attributeText)) {
-						if (attributeTF >= minTF) {
+						if (attributeTF >= minTF && attributeTFWithinTarget >= minTFwithinTarget) { 
 							ChildTerm exist = result.getChildTerm(attributeText);
 							if (exist != null) {
 								exist.addDoc(detailDoc);
 							} else {
 								ChildTerm childTerm = new ChildTerm();
 								childTerm.setTerm(attributeText);
-								childTerm.setTF(attributeTF);								
+								childTerm.setTF(attributeTF);
+								childTerm.setTFWithinTarget(attributeTFWithinTarget);
 								childTerm.addDoc(detailDoc);					
 								
 								double polarity = 0.0;
-								if (sentiment != null) {
-									polarity = sentiment.analyzePolarity(attributeText);
+								if (sentimentAnalyzer != null) {
+									polarity = sentimentAnalyzer.analyzePolarity(attributeText);
 									childTerm.setPolarity(polarity);
 								}
 								
 								result.addChildTerm(childTerm);		
 								
-								if (sentiment != null)
+								if (sentimentAnalyzer != null)
 									System.out.println("\n" + outField + " == " + attributeText + " (tf: " + attributeTF + " polarity: " + polarity + ")");
 								else
 									System.out.println("\n" + outField + " == " + attributeText + " (tf: " + attributeTF + " polarity: " + "n/a" + ")");
@@ -300,8 +337,8 @@ public class DocIndexSearcher {
 		return result;
 	}
 	
-	private Map<String, Integer> tokenizeAttributes(String object, String attributes) throws Exception {
-		Map<String, Integer> map = new HashMap<String, Integer>();
+	private Map<String, Integer[]> tokenizeAttributes(String object, String searchField, String searchText, String attributes) throws Exception {
+		Map<String, Integer[]> map = new HashMap<String, Integer[]>();
 		
 		if (attributes != null) {
 			StringTokenizer st = new StringTokenizer(attributes.trim(), " ");
@@ -309,7 +346,9 @@ public class DocIndexSearcher {
 				String attribute = st.nextToken();
 				if (!stopwordSet.contains(attribute.trim()) && !attribute.trim().equals("")) {
 					int tf = this.getTF(object, FieldConstants.ATTRIBUTE, attribute);
-					map.put(attribute, new Integer(tf));
+					int tfWithinTarget = this.getTF(object, searchField, searchText, FieldConstants.ATTRIBUTE, attribute);
+					Integer[] tfs = { tf, tfWithinTarget };
+					map.put(attribute, tfs);
 				}
 			}			
 		}
@@ -322,19 +361,21 @@ public class DocIndexSearcher {
 			File[] indexDirs = new File[1];
 			indexDirs[0] = new File("./bin/data/appstore/index/20111212");
 			String object = "naverline";
-			File liwcCatFile = new File("./bin/liwc/LIWC_ja.txt");
-			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs, liwcCatFile, null, null);
+			File liwcFile = new File("./bin/liwc/LIWC_ja.txt");
+			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs);
+			searcher.putSentimentAnalyzer(FieldConstants.LANG_JAPANESE, SentimentAnalyzer.getInstance(liwcFile));
 			
-			searcher.getTF(object, FieldConstants.PREDICATE, "NOT楽しい");
+			//searcher.getTF(object, FieldConstants.PREDICATE, "楽しい");
+			//searcher.getTF(object, FieldConstants.SUBJECT, "チャット", FieldConstants.PREDICATE, "楽しい");
 			
-//			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.PREDICATE, 0, true);
-//			System.out.println(terms);
-//			
-//			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
-//				String term = entry.getKey();
-//				System.out.println("--------------------------------------\n");
-//				searcher.search(object, FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 10);
-//			}
+			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.LANG_JAPANESE, FieldConstants.PREDICATE, 2, true);
+			System.out.println(terms);
+			
+			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
+				String term = entry.getKey();
+				System.out.println("--------------------------------------\n");
+				searcher.search(object, FieldConstants.LANG_JAPANESE, FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 10, 1);
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

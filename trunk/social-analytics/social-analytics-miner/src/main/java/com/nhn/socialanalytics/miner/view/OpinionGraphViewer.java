@@ -105,8 +105,12 @@ public class OpinionGraphViewer {
 					public String transform(TermNode v) {
 
 						String label = v.getName();
-						if (v.getTF() > 0)
+						if (v.getTF() > 0 && v.getTFWithinTarget() > 0) {
+							label += " (" + v.getTFWithinTarget() + "/" + v.getTF() + ")";
+						}
+						else if (v.getTF() > 0 && v.getTFWithinTarget() <= 0) {
 							label += " (" + v.getTF() + ")";
+						}
 						return label;
 					}
 				});

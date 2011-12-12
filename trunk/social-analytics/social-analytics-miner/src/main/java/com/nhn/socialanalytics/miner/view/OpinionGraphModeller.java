@@ -162,6 +162,7 @@ public class OpinionGraphModeller {
 				node.setId(groupNode.getId() + "-" + childTerm.getTerm());
 				node.setName(childTerm.getTerm());
 				node.setTF(childTerm.getTF());
+				node.setTFWithinTarget(childTerm.getTFWithinTarget());
 				node.setPolarity(childTerm.getPolarity());
 				node.setType(fieldName);
 				node.setDocs(childTerm.getDocs());

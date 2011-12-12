@@ -27,16 +27,6 @@ public class DocIndexWriter {
 	
 	static {
 		final List<String> stopWords = Arrays.asList(
-//				 "tagquestion"
-//				, "tagsmile"
-//				, "tagcry"
-//				, "taglove"
-//				, "tagexclamation"
-//				, "http"
-//				, "gt"
-//				, "lt"
-//				, "brgt"
-//				, "brgt"
 		);
 		final CharArraySet stopSet = new CharArraySet(stopWords.size(), false);
 		stopSet.addAll(stopWords);
@@ -79,6 +69,8 @@ public class DocIndexWriter {
 		String text = doc.getText();
 		double polarity = doc.getPolarity();
 		double polarityStrength = doc.getPolarityStrength();
+		double clausePolarity = doc.getClausePolarity();
+		double clausePolarityStrength = doc.getClausePolarityStrength();
 		
 		if (subject == null || subject.trim().equals(""))
 			subject = "tagempty";
@@ -90,20 +82,22 @@ public class DocIndexWriter {
 			text = "tagempty";
 			
 		Document document = new Document();
-		document.add(new Field(FieldConstants.SITE, site, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
-		document.add(new Field(FieldConstants.OBJECT, object, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.YES));
-		document.add(new Field(FieldConstants.LANGUAGE, language, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.YES));
-		document.add(new Field(FieldConstants.COLLECT_DATE, collectDate, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
-		document.add(new Field(FieldConstants.DOC_ID, docId, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.NO));
-		document.add(new Field(FieldConstants.DATE, date, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
-		document.add(new Field(FieldConstants.USER_ID, userId, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
-		document.add(new Field(FieldConstants.USER_NAME, userName, Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
-		document.add(new Field(FieldConstants.SUBJECT, subject, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.YES));
-		document.add(new Field(FieldConstants.PREDICATE, predicate, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.YES));
-		document.add(new Field(FieldConstants.ATTRIBUTE, attribute, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.YES));
-		document.add(new Field(FieldConstants.TEXT, text, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.YES));
-		document.add(new Field(FieldConstants.POLARITY, String.valueOf(polarity), Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
-		document.add(new Field(FieldConstants.POLARITY_STRENGTH, String.valueOf(polarityStrength), Field.Store.YES, Field.Index.ANALYZED_NO_NORMS, Field.TermVector.NO));
+		document.add(new Field(FieldConstants.SITE, site, Field.Store.YES, Field.Index.NOT_ANALYZED , Field.TermVector.NO));
+		document.add(new Field(FieldConstants.OBJECT, object, Field.Store.YES, Field.Index.NOT_ANALYZED , Field.TermVector.NO));
+		document.add(new Field(FieldConstants.LANGUAGE, language, Field.Store.YES, Field.Index.NOT_ANALYZED , Field.TermVector.NO));
+		document.add(new Field(FieldConstants.COLLECT_DATE, collectDate, Field.Store.YES, Field.Index.NOT_ANALYZED , Field.TermVector.NO));
+		document.add(new Field(FieldConstants.DOC_ID, docId, Field.Store.YES, Field.Index.NOT_ANALYZED , Field.TermVector.NO));
+		document.add(new Field(FieldConstants.DATE, date, Field.Store.YES, Field.Index.NOT_ANALYZED , Field.TermVector.NO));
+		document.add(new Field(FieldConstants.USER_ID, userId, Field.Store.YES, Field.Index.NOT_ANALYZED , Field.TermVector.NO));
+		document.add(new Field(FieldConstants.USER_NAME, userName, Field.Store.YES, Field.Index.NOT_ANALYZED , Field.TermVector.NO));
+		document.add(new Field(FieldConstants.SUBJECT, subject, Field.Store.YES, Field.Index.NOT_ANALYZED, Field.TermVector.YES));
+		document.add(new Field(FieldConstants.PREDICATE, predicate, Field.Store.YES, Field.Index.NOT_ANALYZED, Field.TermVector.YES));
+		document.add(new Field(FieldConstants.ATTRIBUTE, attribute, Field.Store.YES, Field.Index.NOT_ANALYZED, Field.TermVector.YES));
+		document.add(new Field(FieldConstants.TEXT, text, Field.Store.YES, Field.Index.NOT_ANALYZED, Field.TermVector.YES));
+		document.add(new Field(FieldConstants.POLARITY, String.valueOf(polarity), Field.Store.YES, Field.Index.NOT_ANALYZED , Field.TermVector.NO));
+		document.add(new Field(FieldConstants.POLARITY_STRENGTH, String.valueOf(polarityStrength), Field.Store.YES, Field.Index.NOT_ANALYZED , Field.TermVector.NO));
+		document.add(new Field(FieldConstants.CLAUSE_POLARITY, String.valueOf(clausePolarity), Field.Store.YES, Field.Index.NOT_ANALYZED , Field.TermVector.NO));
+		document.add(new Field(FieldConstants.CLAUSE_POLARITY_STRENGTH, String.valueOf(clausePolarityStrength), Field.Store.YES, Field.Index.NOT_ANALYZED , Field.TermVector.NO));
 
 		indexWriter.addDocument(document);
 	}
