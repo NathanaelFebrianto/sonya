@@ -163,8 +163,8 @@ public class JapaneseSemanticAnalyzer implements SemanticAnalyzer {
 				clause = new SemanticClause();							
 				
 				if (currentToken.containsTagOf(NEGATION_TYPE)) {
-					waitingTerm = "NOT" + waitingTerm;
-					standardTerm = "NOT" + standardTerm;
+					waitingTerm = "否定" + waitingTerm;
+					standardTerm = "否定" + standardTerm;
 				}
 				clause.setPredicate(waitingTerm);
 				clause.setStandardPredicate(standardTerm);
@@ -257,7 +257,12 @@ public class JapaneseSemanticAnalyzer implements SemanticAnalyzer {
 				"アップデートしたら絵文字使えんくなったマジありえん",
 				"横浜に住んている2人このママです。 韓国語でメールともしたいひと() 気軽に話かけてね。",
 				"雑音がひどいし、時差みたいなものが生じてまともな通話が出来ない。 改善してくれ。",
-				"このline2アプリ大好きです"
+				"このline2アプリ大好きです",
+				
+				"埼玉の高２♂です！！バドやってましゅ✨ 誰か友達かそれ以上(笑)☀になってください。！！ ID:ebisyuです！！",
+				"北堀江に住んでる26のデザイナーやってまーす！年、地域気にしないんで仲良くしたってな！よろしくです！！ ID isku4",
+				"さっさと削除しろよ次々と。何が仲良くしましょうねだ、バカかいい年こいて。 優良アプリなんだから、こんな事でケチが付いて欲しくないですね",
+				"やばくないですか？ 会話にならんし、雑音やばい、  じぶんだけなんですかね？",
 		};
 		
 		for (int i = 0; i < texts.length; i++) {

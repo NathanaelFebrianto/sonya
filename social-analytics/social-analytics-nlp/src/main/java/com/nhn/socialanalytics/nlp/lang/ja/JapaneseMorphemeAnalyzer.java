@@ -30,7 +30,12 @@ public class JapaneseMorphemeAnalyzer implements MorphemeAnalyzer {
 	}
 
 	public Sentence analyze(String text) {
-		System.out.println("sentence == " + text);	
+		System.out.println("sentence == " + text);
+		
+		if (text == null)
+			return null;
+		
+		text = text.trim();
 		
 		Sentence sentence = new Sentence(text);
 		

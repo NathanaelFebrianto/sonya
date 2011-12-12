@@ -325,7 +325,7 @@ public class LIWCDictionary {
 			// add entry to output hash
 			Pattern catRegex = map.get(cat);
 			int catCount = 0;
-			System.out.println("* catRegex == " + catRegex.pattern());
+			//System.out.println("* catRegex == " + catRegex.pattern());
 			
 			WordCount wordCount = new WordCount(false);	// not permit duplicated word
 
