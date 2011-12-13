@@ -15,6 +15,7 @@ import com.nhn.socialanalytics.appleappstore.model.Review;
 import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.JobLogger;
 import com.nhn.socialanalytics.common.collect.Collector;
+import com.nhn.socialanalytics.nlp.feature.FeatureClassifier;
 import com.nhn.socialanalytics.nlp.lang.ja.JapaneseMorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ja.JapaneseSemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanMorphemeAnalyzer;
@@ -59,6 +60,9 @@ public class AppStoreDataCollectorJob implements Job {
 			appStores1.add(AppStores.getAppStore("Korea"));
 			appStores1.add(AppStores.getAppStore("Japan"));
 			
+			collector.putFeatureClassifier(objectId1, Collector.LANG_KOREAN, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_KOREAN"))));
+			collector.putFeatureClassifier(objectId1, Collector.LANG_JAPANESE, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_JAPANESE"))));
+			
 			List<Review> reviews1 = collector.getReviews(appStores1, appId1, 3);
 			
 			try {
@@ -78,6 +82,8 @@ public class AppStoreDataCollectorJob implements Job {
 			Set<String> appStores2 = new HashSet<String>();
 			appStores2.add(AppStores.getAppStore("Korea"));
 			
+			collector.putFeatureClassifier(objectId2, Collector.LANG_KOREAN, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_KOREAN"))));
+			
 			List<Review> reviews2 = collector.getReviews(appStores2, appId2, 3);
 			
 			try {
@@ -96,6 +102,8 @@ public class AppStoreDataCollectorJob implements Job {
 			String appId3 = "362057947";
 			Set<String> appStores3 = new HashSet<String>();
 			appStores3.add(AppStores.getAppStore("Korea"));
+			
+			collector.putFeatureClassifier(objectId3, Collector.LANG_KOREAN, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_KOREAN"))));
 			
 			List<Review> reviews3 = collector.getReviews(appStores3, appId3, 3);
 			

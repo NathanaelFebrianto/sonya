@@ -27,6 +27,7 @@ import com.nhn.socialanalytics.miner.index.DetailDoc;
 import com.nhn.socialanalytics.miner.index.DocIndexSearcher;
 import com.nhn.socialanalytics.miner.index.DocIndexWriter;
 import com.nhn.socialanalytics.miner.index.FieldConstants;
+import com.nhn.socialanalytics.nlp.feature.FeatureClassifier;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanMorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanSemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.morpheme.MorphemeAnalyzer;
@@ -82,6 +83,10 @@ public class Me2dayDataCollector extends Collector {
 		SemanticAnalyzer semanticKorean = super.getSemanticAnalyzer(Collector.LANG_KOREAN);
 		SentimentAnalyzer sentimentKorean = super.getSentimentAnalyzer(Collector.LANG_KOREAN);
 		
+		// feature classifier
+		FeatureClassifier featureKorean = super.getFeatureClassifier(objectId, Collector.LANG_KOREAN);
+				
+		// indexer
 		DocIndexWriter indexWriter = new DocIndexWriter(docIndexDir);		
 		DocIndexSearcher indexSearcher = new DocIndexSearcher(super.getDocumentIndexDirsToSearch(indexDir, collectDate));
 		
@@ -107,6 +112,8 @@ public class Me2dayDataCollector extends Collector {
 					"text" + DELIMITER +		
 					"text1" + DELIMITER +		
 					"text2" + DELIMITER +
+					"feature" + DELIMITER +
+					"main_feature" + DELIMITER +
 					"tag_text" + DELIMITER +
 					"subjectpredicate" + DELIMITER +		
 					"subject" + DELIMITER +		
@@ -146,18 +153,29 @@ public class Me2dayDataCollector extends Collector {
 				
 				String language = FieldConstants.LANG_KOREAN;
 				
+				// morpheme analysis
 				String text1 = morphemeKorean.extractTerms(textEmotiTagged);
-				String text2 = morphemeKorean.extractCoreTerms(textEmotiTagged);
+				String text2 = morphemeKorean.extractCoreTerms(textEmotiTagged);				
 				
+				// semantic analysis
 				SemanticSentence semanticSentence = semanticKorean.analyze(textEmotiTagged);
 				String subjectpredicate = semanticSentence.extractSubjectPredicateLabel();
 				String subject = semanticSentence.extractSubjectLabel();
 				String predicate = semanticSentence.extractPredicateLabel();
 				String attribute = semanticSentence.extractAttributesLabel();
 				
+				// sentiment analysis
 				semanticSentence = sentimentKorean.analyzePolarity(semanticSentence);
 				double polarity = semanticSentence.getPolarity();
 				double polarityStrength = semanticSentence.getPolarityStrength();
+				
+				// feature classification
+				String standardLabels = semanticSentence.extractStandardSubjectLabel() + " " +
+						semanticSentence.extractStandardPredicateLabel() + " " +
+						semanticSentence.extractStandardAttributesLabel();
+				Map<String, Double> featureCounts = featureKorean.getFeatureCounts(standardLabels, true);
+				String feature = featureKorean.toFeatureString(featureCounts);
+				String mainFeature = featureKorean.toMainFeatureString(featureCounts);
 				
 				// write new collected data into source file
 				brData.write(
@@ -175,6 +193,8 @@ public class Me2dayDataCollector extends Collector {
 						text1 + DELIMITER +
 						text2 + DELIMITER +
 						tagText1 + DELIMITER +
+						feature + DELIMITER +
+						mainFeature + DELIMITER +
 						subjectpredicate + DELIMITER +
 						subject + DELIMITER +
 						predicate + DELIMITER +
@@ -208,7 +228,9 @@ public class Me2dayDataCollector extends Collector {
 						doc.setDocId(postId);
 						doc.setDate(createDate);
 						doc.setUserId(authorId);
-						doc.setUserName(authorName);						
+						doc.setUserName(authorName);
+						doc.setFeature(feature);
+						doc.setMainFeature(mainFeature);
 						doc.setSubject(clause.getSubject());
 						doc.setPredicate(clause.getPredicate());
 						doc.setAttribute(clause.makeAttributesLabel());
@@ -217,6 +239,9 @@ public class Me2dayDataCollector extends Collector {
 						doc.setPolarityStrength(polarityStrength);
 						doc.setClausePolarity(clause.getPolarity());
 						doc.setClausePolarityStrength(clause.getPolarityStrength());
+						
+						// feature classification for semantic clause
+						doc = super.setClauseFeatureToDocument(objectId, language, clause, doc);
 						
 						indexWriter.write(doc);
 					}						
@@ -239,6 +264,8 @@ public class Me2dayDataCollector extends Collector {
 		Map<String, Integer> queryMap = new HashMap<String, Integer>();
 		queryMap.put("한미FTA ISD", 5);
 		queryMap.put("FTA ISD", 5);
+		
+		collector.putFeatureClassifier(objectId, Collector.LANG_KOREAN, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_KOREAN"))));
 		
 //		String objectId = "naverline";
 //		Map<String, Integer> queryMap = new HashMap<String, Integer>();

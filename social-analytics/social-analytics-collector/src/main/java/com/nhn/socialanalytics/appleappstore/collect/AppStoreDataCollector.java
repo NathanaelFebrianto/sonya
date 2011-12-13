@@ -10,6 +10,7 @@ import java.util.Date;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 import org.apache.lucene.document.Document;
@@ -25,6 +26,7 @@ import com.nhn.socialanalytics.miner.index.DetailDoc;
 import com.nhn.socialanalytics.miner.index.DocIndexSearcher;
 import com.nhn.socialanalytics.miner.index.DocIndexWriter;
 import com.nhn.socialanalytics.miner.index.FieldConstants;
+import com.nhn.socialanalytics.nlp.feature.FeatureClassifier;
 import com.nhn.socialanalytics.nlp.lang.ja.JapaneseMorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ja.JapaneseSemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanMorphemeAnalyzer;
@@ -102,6 +104,10 @@ public class AppStoreDataCollector extends Collector {
 		SentimentAnalyzer sentimentKorean = super.getSentimentAnalyzer(Collector.LANG_KOREAN);
 		SentimentAnalyzer sentimentJapanese = super.getSentimentAnalyzer(Collector.LANG_JAPANESE);
 		
+		// feature classifier
+		FeatureClassifier featureKorean = super.getFeatureClassifier(objectId, Collector.LANG_KOREAN);
+		FeatureClassifier featureJapanese = super.getFeatureClassifier(objectId, Collector.LANG_JAPANESE);
+		
 		// indexer
 		DocIndexWriter indexWriter = new DocIndexWriter(docIndexDir);		
 		DocIndexSearcher indexSearcher = new DocIndexSearcher(super.getDocumentIndexDirsToSearch(indexDir, collectDate));
@@ -130,12 +136,14 @@ public class AppStoreDataCollector extends Collector {
 					"topic" + DELIMITER +	
 					"text" + DELIMITER +		
 					"text1" + DELIMITER +		
-					"text2" + DELIMITER +		
+					"text2" + DELIMITER +
+					"feature" + DELIMITER +
+					"main_feature" + DELIMITER +
 					"subjectpredicate" + DELIMITER +		
 					"subject" + DELIMITER +		
 					"predicate" + DELIMITER +		
 					"attribute" + DELIMITER +		
-					"polarity" + DELIMITER +		
+					"polarity" + DELIMITER +
 					"polarity_strength"
 					);
 			brData.newLine();			
@@ -168,41 +176,76 @@ public class AppStoreDataCollector extends Collector {
 				String language = "";
 				String text1 = "";
 				String text2 = "";
+				String feature = "";
+				String mainFeature = "";
 				SemanticSentence semanticSentence = null;
 				double polarity = 0.0;
-				double polarityStrength = 0.0;
+				double polarityStrength = 0.0;				
 				
 				if (review.getCountry().equalsIgnoreCase("Korea")) {
 					language = FieldConstants.LANG_KOREAN;
+					// morpheme analysis
 					text1 = morphemeKorean.extractTerms(textEmotiTagged);
-					text2 = morphemeKorean.extractCoreTerms(textEmotiTagged);		
+					text2 = morphemeKorean.extractCoreTerms(textEmotiTagged);	
 					
+					// semantic analysis
 					semanticSentence = semanticKorean.analyze(textEmotiTagged);
 					
+					// sentiment analysis
 					semanticSentence = sentimentKorean.analyzePolarity(semanticSentence);
 					polarity = semanticSentence.getPolarity();
 					polarityStrength = semanticSentence.getPolarityStrength();
+					
+					// feature classification
+					String standardLabels = semanticSentence.extractStandardSubjectLabel() + " " +
+							semanticSentence.extractStandardPredicateLabel() + " " +
+							semanticSentence.extractStandardAttributesLabel();
+					Map<String, Double> featureCounts = featureKorean.getFeatureCounts(standardLabels, true);
+					feature = featureKorean.toFeatureString(featureCounts);
+					mainFeature = featureKorean.toMainFeatureString(featureCounts);
 				}
 				else if (review.getCountry().equalsIgnoreCase("Japan")) {
 					language = FieldConstants.LANG_JAPANESE;
+					// morpheme analysis
 					text1 = morphemeJapanese.extractTerms(textEmotiTagged);
 					text2 = morphemeJapanese.extractCoreTerms(textEmotiTagged);		
 					
+					// semantic analysis
 					semanticSentence = semanticJapanese.analyze(textEmotiTagged);
 					
+					// sentiment analysis
 					semanticSentence = sentimentJapanese.analyzePolarity(semanticSentence);
 					polarity = semanticSentence.getPolarity();
 					polarityStrength = semanticSentence.getPolarityStrength();
+					
+					// feature classification
+					String standardLabels = semanticSentence.extractStandardSubjectLabel() + " " +
+							semanticSentence.extractStandardPredicateLabel() + " " +
+							semanticSentence.extractStandardAttributesLabel();
+					Map<String, Double> featureCounts = featureJapanese.getFeatureCounts(standardLabels, true);
+					feature = featureJapanese.toFeatureString(featureCounts);
+					mainFeature = featureJapanese.toMainFeatureString(featureCounts);
 				}
 				else {
+					// morpheme analysis
 					text1 = morphemeKorean.extractTerms(textEmotiTagged);
 					text2 = morphemeKorean.extractCoreTerms(textEmotiTagged);		
 					
+					// semantic analysis
 					semanticSentence = semanticKorean.analyze(textEmotiTagged);
 					
+					// sentiment analysis					
 					semanticSentence = sentimentKorean.analyzePolarity(semanticSentence);
 					polarity = semanticSentence.getPolarity();
-					polarityStrength = semanticSentence.getPolarityStrength();					
+					polarityStrength = semanticSentence.getPolarityStrength();	
+					
+					// feature classification
+					String standardLabels = semanticSentence.extractStandardSubjectLabel() + " " +
+							semanticSentence.extractStandardPredicateLabel() + " " +
+							semanticSentence.extractStandardAttributesLabel();
+					Map<String, Double> featureCounts = featureKorean.getFeatureCounts(standardLabels, true);
+					feature = featureKorean.toFeatureString(featureCounts);
+					mainFeature = featureKorean.toMainFeatureString(featureCounts);
 				}
 
 				String subjectpredicate = semanticSentence.extractSubjectPredicateLabel();
@@ -227,7 +270,9 @@ public class AppStoreDataCollector extends Collector {
 						topic + DELIMITER +
 						text + DELIMITER +		
 						text1 + DELIMITER +		
-						text2 + DELIMITER +		
+						text2 + DELIMITER +	
+						feature + DELIMITER +
+						mainFeature + DELIMITER +
 						subjectpredicate + DELIMITER +		
 						subject + DELIMITER +		
 						predicate + DELIMITER +		
@@ -262,7 +307,9 @@ public class AppStoreDataCollector extends Collector {
 							doc.setDocId(reviewId);
 							doc.setDate(createDate);
 							doc.setUserId(authorId);
-							doc.setUserName(authorName);							
+							doc.setUserName(authorName);
+							doc.setFeature(feature);
+							doc.setMainFeature(mainFeature);
 							doc.setSubject(clause.getSubject());
 							doc.setPredicate(clause.getPredicate());
 							doc.setAttribute(clause.makeAttributesLabel());
@@ -271,6 +318,9 @@ public class AppStoreDataCollector extends Collector {
 							doc.setPolarityStrength(polarityStrength);
 							doc.setClausePolarity(clause.getPolarity());
 							doc.setClausePolarityStrength(clause.getPolarityStrength());
+							
+							// feature classification for semantic clause
+							doc = super.setClauseFeatureToDocument(objectId, language, clause, doc);
 							
 							indexWriter.write(doc);
 						}						
@@ -292,8 +342,8 @@ public class AppStoreDataCollector extends Collector {
 		collector.putSemanticAnalyzer(Collector.LANG_KOREAN, new KoreanSemanticAnalyzer());
 		collector.putSemanticAnalyzer(Collector.LANG_JAPANESE, new JapaneseSemanticAnalyzer());
 		collector.putSentimentAnalyzer(Collector.LANG_KOREAN, new SentimentAnalyzer(new File(Config.getProperty("LIWC_KOREAN"))));
-		collector.putSentimentAnalyzer(Collector.LANG_JAPANESE, new SentimentAnalyzer(new File(Config.getProperty("LIWC_JAPANESE"))));
-		
+		collector.putSentimentAnalyzer(Collector.LANG_JAPANESE, new SentimentAnalyzer(new File(Config.getProperty("LIWC_JAPANESE"))));		
+
 		Set<String> appStores = new HashSet<String>();
 		appStores.add(AppStores.getAppStore("Korea"));
 		appStores.add(AppStores.getAppStore("Japan"));
@@ -301,7 +351,13 @@ public class AppStoreDataCollector extends Collector {
 		String objectId = "naverline";
 		String appId = "443904275";		
 		
-		List<Review> reviews = collector.getReviews(appStores, appId, 40);
+		//String objectId = "naverapp";
+		//String appId = "393499958";
+		
+		collector.putFeatureClassifier(objectId, Collector.LANG_KOREAN, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_KOREAN"))));
+		collector.putFeatureClassifier(objectId, Collector.LANG_JAPANESE, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_JAPANESE"))));
+		
+		List<Review> reviews = collector.getReviews(appStores, appId, 20);
 		//List<Review> reviews = collector.getReviews(appStores, appId);
 		//List<Review> reviews = collector.getReviews(AppStores.getAllAppStores(), appId);
 		
