@@ -39,7 +39,7 @@ import org.apache.commons.collections15.Transformer;
 import com.nhn.socialanalytics.miner.index.DetailDoc;
 import com.nhn.socialanalytics.miner.index.DocIndexSearcher;
 import com.nhn.socialanalytics.miner.index.FieldConstants;
-import com.nhn.socialanalytics.miner.index.TargetTerm;
+import com.nhn.socialanalytics.miner.opinion.OpinionTerm;
 import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
 
 import edu.uci.ics.jung.algorithms.layout.Layout;
@@ -245,19 +245,15 @@ public class OpinionViewerApplet extends JApplet {
 			/////////////////////////////////
 			/* target term ==> SUBJECT   */
 			/////////////////////////////////
-			//String language = FieldConstants.LANG_JAPANESE;
-			String language = FieldConstants.LANG_KOREAN;
-			Map<String, Integer> terms = searcher.getTerms(object, language, FieldConstants.SUBJECT, 5, true);					
-			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
-				String term = entry.getKey();
+			String language = FieldConstants.LANG_JAPANESE;
+			//String language = FieldConstants.LANG_KOREAN;
+			List<OpinionTerm> baseTerms = searcher.searchTerms(object, language, FieldConstants.SUBJECT, 20, true);					
 			
-				TargetTerm subjectTerm = searcher.search(object, language, FieldConstants.SUBJECT, FieldConstants.PREDICATE, term, 1, 2);
-				TargetTerm attributeTerm = searcher.search(object, language, FieldConstants.SUBJECT, FieldConstants.ATTRIBUTE, term, 1, 2);
-				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
-				termMap.put(FieldConstants.PREDICATE, subjectTerm);
-				termMap.put(FieldConstants.ATTRIBUTE, attributeTerm);
+			for (OpinionTerm baseTerm : baseTerms) {			
+				OpinionTerm ot1 = searcher.searchLinkedTerms(object, language, baseTerm, FieldConstants.PREDICATE, 1, 3);
+				//ot1 = searcher.searchLinkedTerms(object, language, baseTerm, FieldConstants.ATTRIBUTE, 1, 3);
 				
-				modeller.addTerms(FieldConstants.SUBJECT, termMap);			
+				modeller.addTerm(ot1);
 			}
 				
 			modeller.createGraph();
