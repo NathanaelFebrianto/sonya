@@ -201,9 +201,9 @@ public class OpinionViewerApplet extends JApplet {
 		
 		try {
 			File[] indexDirs = new File[1];
-			indexDirs[0] = new File("./bin/data/appstore/index/20111212");
+			indexDirs[0] = new File("./bin/data/appstore/index/20111213");
 			
-			String object = "naverline";
+			String object = "naverapp";
 			
 			Set<String> customStopwords = new HashSet<String>();
 			customStopwords.add("좋은데");
@@ -245,13 +245,14 @@ public class OpinionViewerApplet extends JApplet {
 			/////////////////////////////////
 			/* target term ==> SUBJECT   */
 			/////////////////////////////////
-			String language = FieldConstants.LANG_JAPANESE;
-			Map<String, Integer> terms = searcher.getTerms(object, language, FieldConstants.SUBJECT, 15, true);					
+			//String language = FieldConstants.LANG_JAPANESE;
+			String language = FieldConstants.LANG_KOREAN;
+			Map<String, Integer> terms = searcher.getTerms(object, language, FieldConstants.SUBJECT, 5, true);					
 			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
 				String term = entry.getKey();
 			
-				TargetTerm subjectTerm = searcher.search(object, language, FieldConstants.SUBJECT, FieldConstants.PREDICATE, term, 1, 3);
-				TargetTerm attributeTerm = searcher.search(object, language, FieldConstants.SUBJECT, FieldConstants.ATTRIBUTE, term, 1, 3);
+				TargetTerm subjectTerm = searcher.search(object, language, FieldConstants.SUBJECT, FieldConstants.PREDICATE, term, 1, 2);
+				TargetTerm attributeTerm = searcher.search(object, language, FieldConstants.SUBJECT, FieldConstants.ATTRIBUTE, term, 1, 2);
 				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
 				termMap.put(FieldConstants.PREDICATE, subjectTerm);
 				termMap.put(FieldConstants.ATTRIBUTE, attributeTerm);

@@ -10,6 +10,10 @@ public class DetailDoc {
 	private String date = "";
 	private String userId = "";
 	private String userName = "";
+	private String feature = "";
+	private String mainFeature = "";
+	private String clauseFeature = "";
+	private String clauseMainFeature = "";
 	private String subject = "";
 	private String predicate = "";
 	private String attribute = "";
@@ -82,6 +86,38 @@ public class DetailDoc {
 	public void setUserName(String userName) {
 		this.userName = userName;
 	}
+	
+	public String getFeature() {
+		return feature;
+	}
+
+	public void setFeature(String feature) {
+		this.feature = feature;
+	}
+	
+	public String getMainFeature() {
+		return mainFeature;
+	}
+
+	public void setMainFeature(String mainFeature) {
+		this.mainFeature = mainFeature;
+	}
+	
+	public String getClauseFeature() {
+		return clauseFeature;
+	}
+
+	public void setClauseFeature(String clauseFeature) {
+		this.clauseFeature = clauseFeature;
+	}
+	
+	public String getClauseMainFeature() {
+		return clauseMainFeature;
+	}
+
+	public void setClauseMainFeature(String clauseMainFeature) {
+		this.clauseMainFeature = clauseMainFeature;
+	}
 
 	public String getSubject() {
 		return subject;
@@ -151,12 +187,16 @@ public class DetailDoc {
 		StringBuffer sb = new StringBuffer()
 		.append(FieldConstants.SITE).append(" | ")
 		.append(FieldConstants.OBJECT).append(" | ")
+		.append(FieldConstants.LANGUAGE).append(" | ")
 		.append(FieldConstants.COLLECT_DATE).append(" | ")
 		.append(FieldConstants.DOC_ID).append(" | ")
 		.append(FieldConstants.DATE).append(" | ")			
 		.append(FieldConstants.USER_ID).append(" | ")
 		.append(FieldConstants.USER_NAME).append(" | ")
-		.append(FieldConstants.LANGUAGE).append(" | ")
+		.append(FieldConstants.FEATURE).append(" | ")
+		.append(FieldConstants.MAIN_FEATURE).append(" | ")
+		.append(FieldConstants.CLAUSE_FEATURE).append(" | ")
+		.append(FieldConstants.CLAUSE_MAIN_FEATURE).append(" | ")
 		.append(FieldConstants.SUBJECT).append(" | ")
 		.append(FieldConstants.PREDICATE).append(" | ")
 		.append(FieldConstants.ATTRIBUTE).append(" | ")
@@ -173,12 +213,16 @@ public class DetailDoc {
 		StringBuffer sb = new StringBuffer()
 			.append(site).append(" | ")
 			.append(object).append(" | ")
+			.append(language).append(" | ")
 			.append(collectDate).append(" | ")
 			.append(docId).append(" | ")
 			.append(date).append(" | ")			
 			.append(userId).append(" | ")
 			.append(userName).append(" | ")
-			.append(language).append(" | ")
+			.append(feature).append(" | ")
+			.append(mainFeature).append(" | ")
+			.append(clauseFeature).append(" | ")
+			.append(clauseMainFeature).append(" | ")
 			.append(subject).append(" | ")
 			.append(predicate).append(" | ")
 			.append(attribute).append(" | ")

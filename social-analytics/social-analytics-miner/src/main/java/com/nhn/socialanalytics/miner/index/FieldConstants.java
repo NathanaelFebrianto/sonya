@@ -11,6 +11,10 @@ public class FieldConstants {
 	public static final String DATE = "DATE";	
 	public static final String USER_ID = "USER_ID";
 	public static final String USER_NAME = "USER_NAME";
+	public static final String FEATURE = "FEATURE";
+	public static final String MAIN_FEATURE = "MAIN_FEATURE";
+	public static final String CLAUSE_FEATURE = "CLAUSE_FEATURE";
+	public static final String CLAUSE_MAIN_FEATURE = "CLAUSE_MAIN_FEATURE";
 	public static final String SUBJECT = "SUBJECT";
 	public static final String PREDICATE = "PREDICATE";
 	public static final String ATTRIBUTE = "ATTRIBUTE";
