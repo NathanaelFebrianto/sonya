@@ -15,6 +15,7 @@ import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.JobLogger;
 import com.nhn.socialanalytics.common.collect.Collector;
 import com.nhn.socialanalytics.common.util.DateUtil;
+import com.nhn.socialanalytics.nlp.feature.FeatureClassifier;
 import com.nhn.socialanalytics.nlp.lang.ja.JapaneseMorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ja.JapaneseSemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanMorphemeAnalyzer;
@@ -50,13 +51,16 @@ public class TwitterDataCollectorJob implements Job {
 			collector.putSemanticAnalyzer(Collector.LANG_JAPANESE, new JapaneseSemanticAnalyzer());
 			collector.putSentimentAnalyzer(Collector.LANG_KOREAN, new SentimentAnalyzer(new File(Config.getProperty("LIWC_KOREAN"))));
 			collector.putSentimentAnalyzer(Collector.LANG_JAPANESE, new SentimentAnalyzer(new File(Config.getProperty("LIWC_JAPANESE"))));
-			
+
 			/////////////////////////////			
 			String objectId1 = "naverline";			
 			Map<String, Integer> queryMap1 = new HashMap<String, Integer>();
 			queryMap1.put("네이버라인 OR 네이버LINE", 5);
 			queryMap1.put("NAVERLINE", 5);
 			queryMap1.put("naver ライン", 5);
+			
+			collector.putFeatureClassifier(objectId1, Collector.LANG_KOREAN, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_KOREAN"))));
+			collector.putFeatureClassifier(objectId1, Collector.LANG_JAPANESE, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_JAPANESE"))));
 			
 			Date sinceDate1 = DateUtil.addDay(new Date(), -30);
 			
@@ -77,6 +81,8 @@ public class TwitterDataCollectorJob implements Job {
 			String objectId2 = "fta";			
 			Map<String, Integer> queryMap2 = new HashMap<String, Integer>();
 			queryMap2.put("한미FTA OR ISD", 10);
+			
+			collector.putFeatureClassifier(objectId2, Collector.LANG_KOREAN, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_KOREAN"))));
 			
 			Date sinceDate2 = DateUtil.addDay(new Date(), -1);
 			

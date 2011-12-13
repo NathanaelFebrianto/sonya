@@ -17,6 +17,7 @@ import com.gc.android.market.api.model.Market.Comment;
 import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.JobLogger;
 import com.nhn.socialanalytics.common.collect.Collector;
+import com.nhn.socialanalytics.nlp.feature.FeatureClassifier;
 import com.nhn.socialanalytics.nlp.lang.ja.JapaneseMorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ja.JapaneseSemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanMorphemeAnalyzer;
@@ -62,6 +63,9 @@ public class AndroidMarketDataCollectorJob implements Job {
 			locales1.add(Locale.KOREA);
 			locales1.add(Locale.JAPAN);
 			
+			collector.putFeatureClassifier(objectId1, Collector.LANG_KOREAN, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_KOREAN"))));
+			collector.putFeatureClassifier(objectId1, Collector.LANG_JAPANESE, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_JAPANESE"))));
+			
 			Map<Locale, List<Comment>> comments1 = collector.getAppCommentsByLocales(locales1, appId1, 5);
 			
 			try {
@@ -81,6 +85,8 @@ public class AndroidMarketDataCollectorJob implements Job {
 			Set<Locale> locales2 = new HashSet<Locale>();
 			locales2.add(Locale.KOREA);
 			
+			collector.putFeatureClassifier(objectId2, Collector.LANG_KOREAN, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_KOREAN"))));
+
 			Map<Locale, List<Comment>> comments2 = collector.getAppCommentsByLocales(locales2, appId2, 5);
 			
 			try {
@@ -100,6 +106,9 @@ public class AndroidMarketDataCollectorJob implements Job {
 			Set<Locale> locales3 = new HashSet<Locale>();
 			locales3.add(Locale.KOREA);
 			locales3.add(Locale.JAPAN);
+			
+			collector.putFeatureClassifier(objectId3, Collector.LANG_KOREAN, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_KOREAN"))));
+			collector.putFeatureClassifier(objectId3, Collector.LANG_JAPANESE, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_JAPANESE"))));
 			
 			Map<Locale, List<Comment>> comments3 = collector.getAppCommentsByLocales(locales3, appId3, 5);
 			

@@ -16,6 +16,7 @@ import com.nhn.socialanalytics.common.JobLogger;
 import com.nhn.socialanalytics.common.collect.Collector;
 import com.nhn.socialanalytics.common.util.DateUtil;
 import com.nhn.socialanalytics.me2day.model.Post;
+import com.nhn.socialanalytics.nlp.feature.FeatureClassifier;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanMorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanSemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
@@ -54,6 +55,8 @@ public class Me2dayDataCollectorJob implements Job {
 			queryMap1.put("네이버LINE", 5);
 			queryMap1.put("NAVERLINE", 5);
 			
+			collector.putFeatureClassifier(objectId1, Collector.LANG_KOREAN, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_KOREAN"))));
+			
 			Date sinceDate1 = DateUtil.addDay(new Date(), -30);
 			Date untilDate1 = DateUtil.addDay(new Date(), +1);
 			
@@ -75,6 +78,8 @@ public class Me2dayDataCollectorJob implements Job {
 			Map<String, Integer> queryMap2 = new HashMap<String, Integer>();
 			queryMap2.put("한미FTA", 10);
 			queryMap2.put("FTA ISD", 10);
+			
+			collector.putFeatureClassifier(objectId2, Collector.LANG_KOREAN, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_KOREAN"))));
 			
 			Date sinceDate2 = DateUtil.addDay(new Date(), -1);
 			Date untilDate2 = DateUtil.addDay(new Date(), +1);

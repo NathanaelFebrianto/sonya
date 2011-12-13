@@ -15,8 +15,11 @@ import java.util.regex.Pattern;
 import org.apache.mahout.common.iterator.FileLineIterator;
 
 import com.nhn.socialanalytics.common.util.DateUtil;
+import com.nhn.socialanalytics.miner.index.DetailDoc;
+import com.nhn.socialanalytics.nlp.feature.FeatureClassifier;
 import com.nhn.socialanalytics.nlp.morpheme.MorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.semantic.SemanticAnalyzer;
+import com.nhn.socialanalytics.nlp.semantic.SemanticClause;
 import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
 
 public abstract class Collector {
@@ -30,6 +33,7 @@ public abstract class Collector {
 	public Map<String, MorphemeAnalyzer> morphemeAnalyzers = new HashMap<String, MorphemeAnalyzer>();
 	public Map<String, SemanticAnalyzer> semanticAnalyzers = new HashMap<String, SemanticAnalyzer>();
 	public Map<String, SentimentAnalyzer> sentimentAnalyzers = new HashMap<String, SentimentAnalyzer>();
+	public Map<String, Map<String, FeatureClassifier>> featureClassifiers = new HashMap<String, Map<String, FeatureClassifier>>();
 	
 	public Collector() { }
 	
@@ -130,6 +134,20 @@ public abstract class Collector {
 		sentimentAnalyzers.put(language, analyzer);
 	}
 	
+	public void putFeatureClassifier(String object, String language, FeatureClassifier objectClassifier) {
+		Map<String, FeatureClassifier> objectClassifiers = (Map<String, FeatureClassifier>) featureClassifiers.get(object);
+		
+		if (objectClassifiers != null) {
+			objectClassifiers.put(language, objectClassifier);
+			//featureClassifiers.put(object, objectClassifiers);
+		}
+		else {
+			Map<String, FeatureClassifier> newObjectClassifiers = new HashMap<String, FeatureClassifier>();
+			newObjectClassifiers.put(language, objectClassifier);
+			featureClassifiers.put(object, newObjectClassifiers);			
+		}		
+	}
+	
 	public MorphemeAnalyzer getMorphemeAnalyzer(String language) {
 		return (MorphemeAnalyzer) morphemeAnalyzers.get(language);
 	}
@@ -140,6 +158,34 @@ public abstract class Collector {
 	
 	public SentimentAnalyzer getSentimentAnalyzer(String language) {
 		return (SentimentAnalyzer) sentimentAnalyzers.get(language);
+	}
+	
+	public FeatureClassifier getFeatureClassifier(String object, String language) {
+		Map<String, FeatureClassifier> objectClassifiers = (Map<String, FeatureClassifier>) featureClassifiers.get(object);
+		
+		FeatureClassifier classifier = (FeatureClassifier) objectClassifiers.get(language);
+		if (classifier == null) {
+			classifier = (FeatureClassifier) objectClassifiers.get(LANG_KOREAN);
+		}
+		
+		return classifier;
+	}
+	
+	protected DetailDoc setClauseFeatureToDocument(String object, String language, SemanticClause clause, DetailDoc doc) {
+		String clauseStandardLabels = clause.getStandardSubject() + " " +
+				clause.getStandardPredicate() + " " +
+				clause.getStandardAttributes();
+		
+		FeatureClassifier featureClassifier = this.getFeatureClassifier(object, language);
+		
+		Map<String, Double> clauseFeatureCounts = featureClassifier.getFeatureCounts(clauseStandardLabels, true);
+		String clauseFeature = featureClassifier.toFeatureString(clauseFeatureCounts);
+		String clauseMainFeature = featureClassifier.toMainFeatureString(clauseFeatureCounts);
+	
+		doc.setClauseFeature(clauseFeature);
+		doc.setClauseMainFeature(clauseMainFeature);
+		
+		return doc;
 	}
 
 }
