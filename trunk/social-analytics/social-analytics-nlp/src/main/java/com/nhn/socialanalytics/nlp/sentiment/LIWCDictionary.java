@@ -13,6 +13,8 @@ import java.util.Vector;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import com.nhn.socialanalytics.nlp.feature.FeatureDictionary;
+
 /**
  * Interface to the LIWC dictionary, implementing patterns for each LIWC category
  * based on the LIWC.CAT file.
@@ -96,7 +98,7 @@ public class LIWCDictionary {
 				word_count++;
 				String newPattern = line.split("\\s+")[1].toLowerCase();
 				catRegex += "\\b" + newPattern + "\\b|";
-				catRegex += "\\" + newPattern + "|";
+				catRegex += "\\" + newPattern + "|";	// added for Korean by Louie
 			}
 		}
 		//  add last regex to database
@@ -379,8 +381,18 @@ public class LIWCDictionary {
 	public static String[] tokenize(String text) {
 		//String words_only = text.replaceAll("\\W+\\s*", " ").replaceAll("\\s+$", "").replaceAll("^\\s+", "");
 		//String[] words = words_only.split("\\s+");
-		String[] words = text.split("\\s+");
+		String[] words = text.split("\\s+");	// added for Korean by Louie
 		return words;
+	}
+	
+	/**
+	 * Splits a text into sentences separated by a dot, exclamation point or question mark.
+	 * 
+	 * @param text text to tokenize.
+	 * @return an array of sentences.
+	 */
+	public static String[] splitSentences(String text) {
+		return text.split("\\s*[\\.!\\?]+\\s+");
 	}
 	
 	public class WordCount {
@@ -432,13 +444,7 @@ public class LIWCDictionary {
 		}
 	};
 	
-	/**
-	 * Splits a text into sentences separated by a dot, exclamation point or question mark.
-	 * 
-	 * @param text text to tokenize.
-	 * @return an array of sentences.
-	 */
-	public static String[] splitSentences(String text) {
-		return text.split("\\s*[\\.!\\?]+\\s+");
+	public static void main(String[] args) {
+		LIWCDictionary dictionary = new LIWCDictionary(new File("./liwc/LIWC_ko.txt"));
 	}
 }

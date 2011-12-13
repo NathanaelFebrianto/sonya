@@ -1,4 +1,4 @@
-package com.nhn.socialanalytics.nlp.classification;
+package com.nhn.socialanalytics.nlp.feature;
 
 public class FeatureClassifier {
 
