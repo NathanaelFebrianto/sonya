@@ -63,6 +63,10 @@ public class DocIndexWriter {
 		String date = doc.getDate();
 		String userId = doc.getUserId();
 		String userName = doc.getUserName();
+		String feature = doc.getFeature();
+		String mainFeature = doc.getMainFeature();
+		String clauseFeature = doc.getClauseFeature();
+		String clauseMainFeature = doc.getClauseMainFeature();
 		String subject = doc.getSubject();
 		String predicate = doc.getPredicate();
 		String attribute = doc.getAttribute();
@@ -89,7 +93,11 @@ public class DocIndexWriter {
 		document.add(new Field(FieldConstants.DOC_ID, docId, Field.Store.YES, Field.Index.NOT_ANALYZED , Field.TermVector.NO));
 		document.add(new Field(FieldConstants.DATE, date, Field.Store.YES, Field.Index.NOT_ANALYZED , Field.TermVector.NO));
 		document.add(new Field(FieldConstants.USER_ID, userId, Field.Store.YES, Field.Index.NOT_ANALYZED , Field.TermVector.NO));
-		document.add(new Field(FieldConstants.USER_NAME, userName, Field.Store.YES, Field.Index.NOT_ANALYZED , Field.TermVector.NO));
+		document.add(new Field(FieldConstants.USER_NAME, userName, Field.Store.YES, Field.Index.NOT_ANALYZED , Field.TermVector.NO));		
+		document.add(new Field(FieldConstants.FEATURE, feature, Field.Store.YES, Field.Index.NOT_ANALYZED, Field.TermVector.YES));
+		document.add(new Field(FieldConstants.MAIN_FEATURE, mainFeature, Field.Store.YES, Field.Index.NOT_ANALYZED, Field.TermVector.YES));
+		document.add(new Field(FieldConstants.CLAUSE_FEATURE, clauseFeature, Field.Store.YES, Field.Index.NOT_ANALYZED, Field.TermVector.YES));
+		document.add(new Field(FieldConstants.CLAUSE_MAIN_FEATURE, clauseMainFeature, Field.Store.YES, Field.Index.NOT_ANALYZED, Field.TermVector.YES));		
 		document.add(new Field(FieldConstants.SUBJECT, subject, Field.Store.YES, Field.Index.NOT_ANALYZED, Field.TermVector.YES));
 		document.add(new Field(FieldConstants.PREDICATE, predicate, Field.Store.YES, Field.Index.NOT_ANALYZED, Field.TermVector.YES));
 		document.add(new Field(FieldConstants.ATTRIBUTE, attribute, Field.Store.YES, Field.Index.NOT_ANALYZED, Field.TermVector.YES));
