@@ -4,11 +4,10 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.Arrays;
+import java.util.Comparator;
 import java.util.LinkedHashMap;
-import java.util.LinkedHashSet;
 import java.util.Map;
-import java.util.Set;
+import java.util.TreeMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -17,25 +16,25 @@ public class FeatureDictionary {
 	/** Mapping associating features to regular expression patterns. */
 	private Map<String, Pattern> map;
 
-	public FeatureDictionary(File dicFile) {
+	public FeatureDictionary(File catFile) {
 		try {
-			map = loadFeatureDictionary(dicFile);
+			map = loadFeatureDictionary(catFile);
 			System.err.println("LIWC dictionary loaded (" + map.size() + " lexical categories)");
 
 		} catch (IOException e) {
-			System.err.println("Error: file " + dicFile + " doesn't exist");
+			System.err.println("Error: file " + catFile + " doesn't exist");
 			e.printStackTrace();
 			System.exit(1);
 		} catch (NullPointerException e) {
-			System.err.println("Error: feature dicitonary file " + dicFile + " doesn't have the right format");
+			System.err.println("Error: feature dicitonary file " + catFile + " doesn't have the right format");
 			e.printStackTrace();
 			System.exit(1);
 		}
 	}
 	
-	private Map<String, Pattern> loadFeatureDictionary(File dicFile) throws IOException {
+	private Map<String, Pattern> loadFeatureDictionary(File catFile) throws IOException {
 
-		BufferedReader reader = new BufferedReader(new FileReader(dicFile));
+		BufferedReader reader = new BufferedReader(new FileReader(catFile));
 		String line;
 
 		Map<String, Pattern> wordLists = new LinkedHashMap<String, Pattern>();
@@ -99,7 +98,8 @@ public class FeatureDictionary {
 				+ " words and " + sentences.length + " sentences");
 		
 		// word count (NOT A PROPER FEATURE)
-		if (absoluteCounts) { counts.put("WC", new Double(words.length)); }
+		//if (absoluteCounts) { counts.put("WC", new Double(words.length)); }
+		counts.put("WC", new Double(words.length));
 		counts.put("WPS", new Double(1.0 * words.length / sentences.length));		
 
 		// PATTERN MATCHING
@@ -158,11 +158,39 @@ public class FeatureDictionary {
 	
 		return text.split("\\s*[\\.!\\?]+\\s+");
 	}
+
+	public TreeMap<String, Double> sort(Map<String, Double> counts, boolean ascending) {
+		FeatureCountComparator comparator = new FeatureCountComparator(counts, ascending);
+		TreeMap<String, Double> sortedCounts = new TreeMap<String, Double>(comparator);          
+		sortedCounts.putAll(counts);
+		
+		return sortedCounts;
+	}
+	
+	class FeatureCountComparator implements Comparator<Object> {
+		Map<String, Double> map;
+		boolean ascending = true;
+
+		public FeatureCountComparator(Map<String, Double> map, boolean ascending) {
+			this.map = map;
+			this.ascending = ascending;
+		}
+
+		public int compare(Object o1, Object o2) {
+			Double d1 = (Double) map.get(o1);
+			Double d2 = (Double) map.get(o2);
+
+			if (ascending)
+				return d1.compareTo(d2);
+			else
+				return d2.compareTo(d1);	
+		}
+	}
 	
 	public static void main(String[] args) {
 		FeatureDictionary featureDic = new FeatureDictionary(new File("./feature/feature_ko.txt"));
 		String text = "이 제품은 기능 좋다 디자인 예쁘다";
-		Map<String, Double> map = featureDic.getCounts(text, true);
+		Map<String, Double> map = featureDic.getCounts(text, false);
 		
 		System.out.println("result == " + map);
 	}
