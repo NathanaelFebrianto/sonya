@@ -120,8 +120,28 @@ public class OpinionGraphModeller {
 		// update root node name
 		rootNode.setName(ors.getType());
 		
+		// feature term nodes
+		Map<String, TermNode> featureNodes = new HashMap<String, TermNode>();
+		List<String> features = ors.getFeatures();
+		for (String feature : features) {
+			TermNode featureNode = new TermNode();
+			featureNode.setId(feature);
+			featureNode.setType("FEATURE");
+			featureNode.setName(feature);				
+			
+			// feature term edge
+			TermEdge featureEdge = new TermEdge();
+			featureEdge.setTo(featureNode.getId());
+			featureEdge.setFrom(rootNode.getId());
+			
+			termNodes.add(featureNode);
+			termEdges.add(featureEdge);
+			
+			featureNodes.put(feature, featureNode);
+		}
+		
+		// base term nodes
 		for (OpinionTerm baseTerm : ors) {
-			// base term node
 			TermNode baseTermNode = new TermNode();
 			baseTermNode.setId(baseTerm.getTerm());
 			baseTermNode.setType(baseTerm.getType());
@@ -130,25 +150,26 @@ public class OpinionGraphModeller {
 			baseTermNode.setPolarity(baseTerm.getPolarity());
 			baseTermNode.setDocs(baseTerm.getDocs());
 			
-			// target term edge
-			TermEdge rootEdge = new TermEdge();
-			rootEdge.setTo(baseTermNode.getId());
-			rootEdge.setFrom(rootNode.getId());
+			// base term edge
+			TermEdge baseTermEdge = new TermEdge();
+			baseTermEdge.setTo(baseTermNode.getId());
+			baseTermEdge.setFrom(featureNodes.get(baseTerm.getFeature()).getId());
 			
 			termNodes.add(baseTermNode);
-			termEdges.add(rootEdge);
+			termEdges.add(baseTermEdge);			
 			
+			// group nodes for linked term nodes
 			Map<String, List<OpinionTerm>> linkedTermsMap = baseTerm.getLinkedTerms();
 			for (Map.Entry<String, List<OpinionTerm>> entry : linkedTermsMap.entrySet()) {
 				String linkedTermType = entry.getKey();
 				List<OpinionTerm> linkedTerms = entry.getValue();
 				
-				// group node
+				// group node for linked term nodes
 				TermNode groupNode = new TermNode();
 				groupNode.setId(linkedTermType + baseTerm.getTerm());
 				groupNode.setName(linkedTermType);
 				
-				// group edge
+				// group edge for linked term nodes
 				TermEdge groupEdge = new TermEdge();
 				groupEdge.setTo(groupNode.getId());
 				groupEdge.setFrom(baseTermNode.getId());
