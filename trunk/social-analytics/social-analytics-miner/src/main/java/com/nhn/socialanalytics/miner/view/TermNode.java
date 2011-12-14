@@ -11,7 +11,7 @@ public class TermNode {
 	private String name;
 	private String type;
 	private int tf;	
-	private int tfWithinTarget;
+	private int linkedTF;
 	private double polarity;
 	private List<DetailDoc> docs = new ArrayList<DetailDoc>();
 
@@ -47,12 +47,12 @@ public class TermNode {
 		this.tf = tf;
 	}
 	
-	public int getTFWithinTarget() {
-		return tfWithinTarget;
+	public int getLinkedTF() {
+		return linkedTF;
 	}
 	
-	public void setTFWithinTarget(int tfWithinTarget) {
-		this.tfWithinTarget = tfWithinTarget;
+	public void setLinkedTF(int linkedTF) {
+		this.linkedTF = linkedTF;
 	}	
 	
 	public double getPolarity() {

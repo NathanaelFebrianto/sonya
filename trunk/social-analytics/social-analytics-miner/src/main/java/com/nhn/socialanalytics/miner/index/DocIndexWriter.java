@@ -8,7 +8,7 @@ import java.util.Set;
 
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.CharArraySet;
-import org.apache.lucene.analysis.standard.StandardAnalyzer;
+import org.apache.lucene.analysis.StopAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
 import org.apache.lucene.index.CorruptIndexException;
@@ -45,8 +45,8 @@ public class DocIndexWriter {
 		indexDir = FSDirectory.open(outputDir);	
 		
 		if (luceneAnalyzer == null) {
-			//luceneAnalyzer = new StopAnalyzer(Version.LUCENE_33, MY_STOP_WORDS_SET);	// removes numbers
-			luceneAnalyzer = new StandardAnalyzer(Version.LUCENE_33, MY_STOP_WORDS_SET);	// removes all hiraganas if japanese
+			luceneAnalyzer = new StopAnalyzer(Version.LUCENE_33, MY_STOP_WORDS_SET);	// removes numbers
+			//luceneAnalyzer = new StandardAnalyzer(Version.LUCENE_33, MY_STOP_WORDS_SET);	// removes all hiraganas if japanese
 		}
 
 		IndexWriterConfig config = new IndexWriterConfig(Version.LUCENE_33, luceneAnalyzer);
@@ -94,14 +94,14 @@ public class DocIndexWriter {
 		document.add(new Field(FieldConstants.DATE, date, Field.Store.YES, Field.Index.NOT_ANALYZED , Field.TermVector.NO));
 		document.add(new Field(FieldConstants.USER_ID, userId, Field.Store.YES, Field.Index.NOT_ANALYZED , Field.TermVector.NO));
 		document.add(new Field(FieldConstants.USER_NAME, userName, Field.Store.YES, Field.Index.NOT_ANALYZED , Field.TermVector.NO));		
-		document.add(new Field(FieldConstants.FEATURE, feature, Field.Store.YES, Field.Index.NOT_ANALYZED, Field.TermVector.YES));
+		document.add(new Field(FieldConstants.FEATURE, feature, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.YES));
 		document.add(new Field(FieldConstants.MAIN_FEATURE, mainFeature, Field.Store.YES, Field.Index.NOT_ANALYZED, Field.TermVector.YES));
 		document.add(new Field(FieldConstants.CLAUSE_FEATURE, clauseFeature, Field.Store.YES, Field.Index.NOT_ANALYZED, Field.TermVector.YES));
 		document.add(new Field(FieldConstants.CLAUSE_MAIN_FEATURE, clauseMainFeature, Field.Store.YES, Field.Index.NOT_ANALYZED, Field.TermVector.YES));		
 		document.add(new Field(FieldConstants.SUBJECT, subject, Field.Store.YES, Field.Index.NOT_ANALYZED, Field.TermVector.YES));
 		document.add(new Field(FieldConstants.PREDICATE, predicate, Field.Store.YES, Field.Index.NOT_ANALYZED, Field.TermVector.YES));
-		document.add(new Field(FieldConstants.ATTRIBUTE, attribute, Field.Store.YES, Field.Index.NOT_ANALYZED, Field.TermVector.YES));
-		document.add(new Field(FieldConstants.TEXT, text, Field.Store.YES, Field.Index.NOT_ANALYZED, Field.TermVector.YES));
+		document.add(new Field(FieldConstants.ATTRIBUTE, attribute, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.YES));
+		document.add(new Field(FieldConstants.TEXT, text, Field.Store.YES, Field.Index.ANALYZED, Field.TermVector.YES));
 		document.add(new Field(FieldConstants.POLARITY, String.valueOf(polarity), Field.Store.YES, Field.Index.NOT_ANALYZED , Field.TermVector.NO));
 		document.add(new Field(FieldConstants.POLARITY_STRENGTH, String.valueOf(polarityStrength), Field.Store.YES, Field.Index.NOT_ANALYZED , Field.TermVector.NO));
 		document.add(new Field(FieldConstants.CLAUSE_POLARITY, String.valueOf(clausePolarity), Field.Store.YES, Field.Index.NOT_ANALYZED , Field.TermVector.NO));

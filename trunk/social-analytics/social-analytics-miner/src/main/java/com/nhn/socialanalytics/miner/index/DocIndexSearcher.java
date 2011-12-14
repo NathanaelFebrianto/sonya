@@ -29,6 +29,7 @@ import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.mahout.common.iterator.FileLineIterator;
 
+import com.nhn.socialanalytics.miner.opinion.OpinionTerm;
 import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
 
 public class DocIndexSearcher {
@@ -122,85 +123,52 @@ public class DocIndexSearcher {
 		return this.stopwordSet;
 	}
 	
-	public int getTF(String object, String queryField, String queryText) throws IOException, CorruptIndexException {		
+	public void setStopwords(Set<String> stopwords) {
+		this.stopwordSet = stopwords;
+	}
+	
+	public int getTF(String object, String field, String text) throws IOException {		
 		Term objTerm = new Term(FieldConstants.OBJECT, object);		
 		TermsFilter filter = new TermsFilter();
 		filter.addTerm(objTerm);
 		
-		Term term = new Term(queryField, queryText);
+		Term term = new Term(field, text);
 		Query query = new TermQuery(term);		
 
 		TopDocs rs = searcher.search(query, filter, 1000000);
-		//System.out.println("query field == " + queryField + ", query text == " + queryText + ", docFreq == " + rs.totalHits);
 		
 		return rs.totalHits;
 	}
 	
-	public int getTF(String object, String queryField1, String queryText1, String queryField2, String queryText2) 
+	public int getTF(String object, Map<String, String> queryMap) 
 			throws IOException, CorruptIndexException {
 		Term objTerm = new Term(FieldConstants.OBJECT, object);	
 		TermsFilter filter = new TermsFilter();
 		filter.addTerm(objTerm);
 		
-		Term term1 = new Term(queryField1, queryText1);
-		Query query1 = new TermQuery(term1);
-		
-		Term term2 = new Term(queryField2, queryText2);
-		Query query2 = new TermQuery(term2);
-		
 		BooleanQuery bQuery = new BooleanQuery();
-		bQuery.add(query1, BooleanClause.Occur.MUST);
-		bQuery.add(query2, BooleanClause.Occur.MUST);
+		for (Map.Entry<String, String> entry : queryMap.entrySet()) {
+			String field = entry.getKey();
+			String text = entry.getValue();
+			
+			Term term = new Term(field, text);
+			Query query = new TermQuery(term);
+			
+			bQuery.add(query, BooleanClause.Occur.MUST);
+		}
 
-		TopDocs rs = searcher.search(bQuery, filter, 1000000);
-		
+		TopDocs rs = searcher.search(bQuery, filter, 1000000);		
 		return rs.totalHits;
 	}
 	
-	public Map<String, Integer> getTerms(String object, String language, String field, int minTF, boolean excludeStopwords) 
-			throws IOException, CorruptIndexException {		
-		Map<String, Integer> terms = new HashMap<String, Integer>();
-		
-		Term objTerm = new Term(FieldConstants.OBJECT, object);	
-		TermsFilter filter = new TermsFilter();
-		filter.addTerm(objTerm);
-		
-		Term term = new Term(FieldConstants.LANGUAGE, language);
-		Query query = new TermQuery(term);
-
-		TopDocs rs = searcher.search(query, filter, 1000000);
-		System.out.println("docFreq == " + rs.totalHits);
-
-		for (int i = 0; i < rs.totalHits; i++) {
-			int docId = rs.scoreDocs[i].doc;
-			Document doc = searcher.doc(docId);
-			String text = doc.get(field);
-			
-			if (excludeStopwords && !stopwordSet.contains(text)) {
-				int tf = this.getTF(object, field, text);
-				if (tf >= minTF) {
-					terms.put(text, new Integer(tf));
-				}			
-			} else if (!excludeStopwords) {
-				int tf = this.getTF(object, field, text);
-				if (tf >= minTF) {
-					terms.put(text, new Integer(tf));
-				}				
-			}
-		}
-
-		return terms;
-	}
-		
-	public Set<Document> searchDocuments(String field, String text) 
-			throws IOException, CorruptIndexException {		
+	public Set<Document> searchDocuments(String field, String text) throws IOException {		
 		Set<Document> docs = new HashSet<Document>();
 		
 		Term term = new Term(field, text);
 		Query query = new TermQuery(term);		
 
 		TopDocs rs = searcher.search(query, null, 1000);
-		System.out.println("docFreq == " + rs.totalHits);
+		System.out.println("search: field = " + field + ", text = " + text + ", docFreq = " + rs.totalHits);
 
 		for (int i = 0; i < rs.totalHits; i++) {
 			int docId = rs.scoreDocs[i].doc;
@@ -211,134 +179,197 @@ public class DocIndexSearcher {
 		return docs;
 	}
 	
-	public TargetTerm search(String object, String language, String searchField, String outField, String searchText, 
-			int minTF, int minTFwithinTarget) throws Exception {
+	public List<OpinionTerm> searchTerms(String object, String language, String field, 
+			int minTF, boolean excludeStopwords) throws IOException {	
 		
-		TargetTerm result = new TargetTerm();
-		result.setObject(object);
-		result.setTerm(searchText);
+		Map<String, OpinionTerm> opinionTerms = new HashMap<String, OpinionTerm>();
+		
+		Term objTerm = new Term(FieldConstants.OBJECT, object);	
+		TermsFilter filter = new TermsFilter();
+		filter.addTerm(objTerm);
+		
+		Term term = new Term(FieldConstants.LANGUAGE, language);
+		Query query = new TermQuery(term);
+
+		TopDocs rs = searcher.search(query, filter, 1000000);
+		System.out.println("search: field = " + field + ", minTF = " + minTF + ", docFreq = " + rs.totalHits);
+		
+		// get sentiment analyzer suitable for the language
+		SentimentAnalyzer sentimentAnalyzer = sentimentAnalyzers.get(language);
+
+		for (int i = 0; i < rs.totalHits; i++) {
+			int docId = rs.scoreDocs[i].doc;
+			Document doc = searcher.doc(docId);
+			String text = doc.get(field);			
+			
+			if (excludeStopwords && opinionTerms.get(text) == null && !stopwordSet.contains(text)) {
+				int tf = this.getTF(object, field, text);
+				if (tf >= minTF) {
+					OpinionTerm opinionTerm = new OpinionTerm();
+					opinionTerm.setType(field);
+					opinionTerm.setObject(object);
+					opinionTerm.setTerm(text);
+					opinionTerm.setTF(tf);					
+
+					if (sentimentAnalyzer != null) {
+						double polarity = sentimentAnalyzer.analyzePolarity(text);
+						opinionTerm.setPolarity(polarity);			
+					}
+
+					opinionTerms.put(text, opinionTerm);
+				}			
+			} else if (!excludeStopwords && opinionTerms.get(text) == null) {
+				int tf = this.getTF(object, field, text);
+				if (tf >= minTF) {
+					OpinionTerm opinionTerm = new OpinionTerm();
+					opinionTerm.setType(field);
+					opinionTerm.setObject(object);
+					opinionTerm.setTerm(text);
+					opinionTerm.setTF(tf);
+
+					if (sentimentAnalyzer != null) {
+						double polarity = sentimentAnalyzer.analyzePolarity(text);
+						opinionTerm.setPolarity(polarity);			
+					}
+
+					opinionTerms.put(text, opinionTerm);
+				}				
+			}
+		}
+
+		return new ArrayList<OpinionTerm>(opinionTerms.values());
+	}
+		
+	public List<OpinionTerm> searchLinkedTerms(String object, String language, OpinionTerm baseTerm, 
+			String linkedField, int minTF, int minLinkedTF) throws Exception {
+		
+		Map<String, OpinionTerm> linkedTerms = new HashMap<String, OpinionTerm>();
 		
 		Term objTerm = new Term(FieldConstants.OBJECT, object);		
 		TermsFilter filter = new TermsFilter();
 		filter.addTerm(objTerm);
 		
-		Term term = new Term(searchField, searchText);
-		Query query = new TermQuery(term);
-
-		TopDocs rs = searcher.search(query, filter, 1000000);
-		System.out.println("search field == " + searchField);
-		System.out.println("search word == " + searchText);
-		System.out.println("docFreq == " + rs.totalHits);		
-
-		result.setTF(rs.totalHits);
+		Term term1 = new Term(FieldConstants.LANGUAGE, language);
+		Query query1 = new TermQuery(term1);
 		
+		String baseField =  baseTerm.getType();
+		String baseText = baseTerm.getTerm();
+		Term term2 = new Term(baseField, baseText);
+		Query query2 = new TermQuery(term2);
+		
+		BooleanQuery bQuery = new BooleanQuery();
+		bQuery.add(query1, BooleanClause.Occur.MUST);
+		bQuery.add(query2, BooleanClause.Occur.MUST);
+
+		TopDocs rs = searcher.search(bQuery, filter, 1000000);
+		System.out.println("search: field = " + baseField + ", text = " + baseText + ", linkedField = " + linkedField);
+
 		// get sentiment analyzer suitable for the language
 		SentimentAnalyzer sentimentAnalyzer = sentimentAnalyzers.get(language);
-		if (sentimentAnalyzer != null) {
-			double searchTextPolarity = sentimentAnalyzer.analyzePolarity(searchText);
-			result.setPolarity(searchTextPolarity);			
-		}
 
 		for (int i = 0; i < rs.totalHits; i++) {
 			int docId = rs.scoreDocs[i].doc;
 			Document doc = searcher.doc(docId);
-			String outText = doc.get(outField);
-
-			DetailDoc detailDoc = new DetailDoc();
-			detailDoc.setSite(doc.get(FieldConstants.SITE));
-			detailDoc.setObject(doc.get(FieldConstants.OBJECT));
-			detailDoc.setLanguage(doc.get(FieldConstants.LANGUAGE));
-			detailDoc.setCollectDate(doc.get(FieldConstants.COLLECT_DATE));
-			detailDoc.setDocId(doc.get(FieldConstants.DOC_ID));
-			detailDoc.setDate(doc.get(FieldConstants.DATE));
-			detailDoc.setUserId(doc.get(FieldConstants.USER_ID));
-			detailDoc.setUserName(doc.get(FieldConstants.USER_NAME));
-			detailDoc.setFeature(doc.get(FieldConstants.FEATURE));
-			detailDoc.setMainFeature(doc.get(FieldConstants.MAIN_FEATURE));
-			detailDoc.setClauseFeature(doc.get(FieldConstants.CLAUSE_FEATURE));
-			detailDoc.setClauseMainFeature(doc.get(FieldConstants.CLAUSE_MAIN_FEATURE));
-			detailDoc.setSubject(doc.get(FieldConstants.SUBJECT));
-			detailDoc.setPredicate(doc.get(FieldConstants.PREDICATE));
-			detailDoc.setAttribute(doc.get(FieldConstants.ATTRIBUTE));
-			detailDoc.setText(doc.get(FieldConstants.TEXT));
-			detailDoc.setPolarity(Double.valueOf(doc.get(FieldConstants.POLARITY)));
-			detailDoc.setPolarityStrength(Double.valueOf(doc.get(FieldConstants.POLARITY_STRENGTH)));
-			detailDoc.setClausePolarity(Double.valueOf(doc.get(FieldConstants.CLAUSE_POLARITY)));
-			detailDoc.setClausePolarityStrength(Double.valueOf(doc.get(FieldConstants.CLAUSE_POLARITY_STRENGTH)));
+			String linkedText = doc.get(linkedField);	
+			DetailDoc detailDoc = this.makeDetailDoc(doc);
 			
-			result.addDoc(detailDoc);
+			baseTerm.addDoc(detailDoc);
 
-			if (outField.equals(FieldConstants.SUBJECT) || outField.equals(FieldConstants.PREDICATE)) {
-				if (!stopwordSet.contains(outText)) {
-					int tf = this.getTF(object, outField, outText);
-					int tfWithinTarget = this.getTF(object, searchField, searchText, outField, outText);
-					if (tf >= minTF && tfWithinTarget >= minTFwithinTarget) {
-						ChildTerm exist = result.getChildTerm(outText);
-						if (exist != null) {
-							exist.addDoc(detailDoc);
-						} else {
-							ChildTerm childTerm = new ChildTerm();
-							childTerm.setTerm(outText);
-							childTerm.setTF(tf);
-							childTerm.setTFWithinTarget(tfWithinTarget);
-							childTerm.addDoc(detailDoc);
-							
-							double polarity = 0.0;
-							if (sentimentAnalyzer != null) {
-								polarity = sentimentAnalyzer.analyzePolarity(outText);
-								childTerm.setPolarity(polarity);
-							}
-							
-							result.addChildTerm(childTerm);	
-							
-							if (sentimentAnalyzer != null)
-								System.out.println("\n" + outField + " == " + outText + " (tf: " + tf + " polarity: " + polarity + ")");
-							else
-								System.out.println("\n" + outField + " == " + outText + " (tf: " + tf + " polarity: " + "n/a" + ")");
+			if (linkedField.equals(FieldConstants.SUBJECT) || linkedField.equals(FieldConstants.PREDICATE)) {
+				OpinionTerm exist = linkedTerms.get(linkedText);
+				if (exist == null && !stopwordSet.contains(linkedText)) {
+					int tf = this.getTF(object, linkedField, linkedText);
+					Map<String, String> queryMap = new HashMap<String, String>();
+					queryMap.put(baseField, baseText);
+					queryMap.put(linkedField, linkedText);					
+					int linkedTF = this.getTF(object, queryMap);
+					
+					if (tf >= minTF && linkedTF >= minLinkedTF) {
+						OpinionTerm linkedTerm = new OpinionTerm();
+						linkedTerm.setType(linkedField);
+						linkedTerm.setObject(object);
+						linkedTerm.setTerm(linkedText);
+						linkedTerm.setTF(tf);
+						linkedTerm.setLinkedTF(linkedTF);
+						linkedTerm.addDoc(detailDoc);	
+						
+						double polarity = 0.0;
+						if (sentimentAnalyzer != null) {
+							polarity = sentimentAnalyzer.analyzePolarity(linkedText);							
 						}
+						linkedTerm.setPolarity(polarity);
+						
+						linkedTerms.put(linkedText, linkedTerm);						
+						System.out.println("-> link: field = " + linkedField + ", text = " + linkedText + " (tf: " + tf + " polarity: " + polarity + ")");
 					}
 				}
-			} else if (outField.equals(FieldConstants.ATTRIBUTE)) {
-				Map<String, Integer[]> mapAttribute = this.tokenizeAttributes(object, searchField, searchText, outText);
+				else if (exist != null && !stopwordSet.contains(linkedText)) {
+					exist.addDoc(detailDoc);
+				}
+			} else if (linkedField.equals(FieldConstants.ATTRIBUTE)) {
+				Map<String, Integer[]> mapAttribute = this.tokenizeAttributes(object, baseField, baseText, linkedText);
 
 				for (Map.Entry<String, Integer[]> entry : mapAttribute.entrySet()) {
 					String attributeText = entry.getKey();
 					Integer[] attributeTFs = (Integer[]) entry.getValue();
 					int attributeTF = attributeTFs[0];
-					int attributeTFWithinTarget = attributeTFs[1];
+					int attributeLinkedTF = attributeTFs[1];
 
-					if (!stopwordSet.contains(attributeText)) {
-						if (attributeTF >= minTF && attributeTFWithinTarget >= minTFwithinTarget) { 
-							ChildTerm exist = result.getChildTerm(attributeText);
-							if (exist != null) {
-								exist.addDoc(detailDoc);
-							} else {
-								ChildTerm childTerm = new ChildTerm();
-								childTerm.setTerm(attributeText);
-								childTerm.setTF(attributeTF);
-								childTerm.setTFWithinTarget(attributeTFWithinTarget);
-								childTerm.addDoc(detailDoc);					
-								
-								double polarity = 0.0;
-								if (sentimentAnalyzer != null) {
-									polarity = sentimentAnalyzer.analyzePolarity(attributeText);
-									childTerm.setPolarity(polarity);
-								}
-								
-								result.addChildTerm(childTerm);		
-								
-								if (sentimentAnalyzer != null)
-									System.out.println("\n" + outField + " == " + attributeText + " (tf: " + attributeTF + " polarity: " + polarity + ")");
-								else
-									System.out.println("\n" + outField + " == " + attributeText + " (tf: " + attributeTF + " polarity: " + "n/a" + ")");
+					OpinionTerm exist = linkedTerms.get(attributeText);					
+					if (exist == null && !stopwordSet.contains(attributeText)) {
+						if (attributeTF >= minTF && attributeLinkedTF >= minLinkedTF) { 
+							OpinionTerm linkedTerm = new OpinionTerm();
+							linkedTerm.setType(linkedField);
+							linkedTerm.setObject(object);
+							linkedTerm.setTerm(attributeText);
+							linkedTerm.setTF(attributeTF);
+							linkedTerm.setLinkedTF(attributeLinkedTF);
+							linkedTerm.addDoc(detailDoc);					
+							
+							double polarity = 0.0;
+							if (sentimentAnalyzer != null) {
+								polarity = sentimentAnalyzer.analyzePolarity(attributeText);								
 							}
+							linkedTerm.setPolarity(polarity);
+							
+							linkedTerms.put(attributeText, linkedTerm);							
+							System.out.println("-> link: field = " + linkedField + ", text = " + attributeText + " (tf: " + attributeTF + " polarity: " + polarity + ")");
 						}
+					}
+					else if (exist != null && !stopwordSet.contains(attributeText)) {
+						exist.addDoc(detailDoc);
 					}
 				}
 			}
 		}
 
-		return result;
+		return new ArrayList<OpinionTerm>(linkedTerms.values());
+	}
+	 
+	private DetailDoc makeDetailDoc(Document doc) {
+		DetailDoc detailDoc = new DetailDoc();
+		detailDoc.setSite(doc.get(FieldConstants.SITE));
+		detailDoc.setObject(doc.get(FieldConstants.OBJECT));
+		detailDoc.setLanguage(doc.get(FieldConstants.LANGUAGE));
+		detailDoc.setCollectDate(doc.get(FieldConstants.COLLECT_DATE));
+		detailDoc.setDocId(doc.get(FieldConstants.DOC_ID));
+		detailDoc.setDate(doc.get(FieldConstants.DATE));
+		detailDoc.setUserId(doc.get(FieldConstants.USER_ID));
+		detailDoc.setUserName(doc.get(FieldConstants.USER_NAME));
+		detailDoc.setFeature(doc.get(FieldConstants.FEATURE));
+		detailDoc.setMainFeature(doc.get(FieldConstants.MAIN_FEATURE));
+		detailDoc.setClauseFeature(doc.get(FieldConstants.CLAUSE_FEATURE));
+		detailDoc.setClauseMainFeature(doc.get(FieldConstants.CLAUSE_MAIN_FEATURE));
+		detailDoc.setSubject(doc.get(FieldConstants.SUBJECT));
+		detailDoc.setPredicate(doc.get(FieldConstants.PREDICATE));
+		detailDoc.setAttribute(doc.get(FieldConstants.ATTRIBUTE));
+		detailDoc.setText(doc.get(FieldConstants.TEXT));
+		detailDoc.setPolarity(Double.valueOf(doc.get(FieldConstants.POLARITY)));
+		detailDoc.setPolarityStrength(Double.valueOf(doc.get(FieldConstants.POLARITY_STRENGTH)));
+		detailDoc.setClausePolarity(Double.valueOf(doc.get(FieldConstants.CLAUSE_POLARITY)));
+		detailDoc.setClausePolarityStrength(Double.valueOf(doc.get(FieldConstants.CLAUSE_POLARITY_STRENGTH)));
+		
+		return detailDoc;
 	}
 	
 	private Map<String, Integer[]> tokenizeAttributes(String object, String searchField, String searchText, String attributes) throws Exception {
@@ -350,8 +381,12 @@ public class DocIndexSearcher {
 				String attribute = st.nextToken();
 				if (!stopwordSet.contains(attribute.trim()) && !attribute.trim().equals("")) {
 					int tf = this.getTF(object, FieldConstants.ATTRIBUTE, attribute);
-					int tfWithinTarget = this.getTF(object, searchField, searchText, FieldConstants.ATTRIBUTE, attribute);
-					Integer[] tfs = { tf, tfWithinTarget };
+					
+					Map<String, String> queryMap = new HashMap<String, String>();
+					queryMap.put(searchField, searchText);
+					queryMap.put(FieldConstants.ATTRIBUTE, attribute);	
+					int linkedTF = this.getTF(object, queryMap);
+					Integer[] tfs = { tf, linkedTF };
 					map.put(attribute, tfs);
 				}
 			}			
@@ -363,22 +398,19 @@ public class DocIndexSearcher {
 	public static void main(String[] args) {		
 		try {	
 			File[] indexDirs = new File[1];
-			indexDirs[0] = new File("./bin/data/appstore/index/20111212");
+			indexDirs[0] = new File("./bin/data/appstore/index/20111214");
 			String object = "naverline";
 			File liwcFile = new File("./bin/liwc/LIWC_ja.txt");
 			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs);
+			searcher.putStopwordFile(new File("./conf/stopword_ja.txt"));
 			searcher.putSentimentAnalyzer(FieldConstants.LANG_JAPANESE, SentimentAnalyzer.getInstance(liwcFile));
 			
-			//searcher.getTF(object, FieldConstants.PREDICATE, "楽しい");
-			//searcher.getTF(object, FieldConstants.SUBJECT, "チャット", FieldConstants.PREDICATE, "楽しい");
-			
-			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.LANG_JAPANESE, FieldConstants.PREDICATE, 2, true);
-			System.out.println(terms);
-			
-			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
-				String term = entry.getKey();
-				System.out.println("--------------------------------------\n");
-				searcher.search(object, FieldConstants.LANG_JAPANESE, FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 10, 1);
+			List<OpinionTerm> baseTerms = searcher.searchTerms(object, FieldConstants.LANG_JAPANESE, FieldConstants.SUBJECT, 5, true);
+						
+			for (OpinionTerm term : baseTerms) {
+				System.out.println("--------------------------------------");
+				searcher.searchLinkedTerms(object, FieldConstants.LANG_JAPANESE, term, FieldConstants.PREDICATE, 5, 1);
+				searcher.searchLinkedTerms(object, FieldConstants.LANG_JAPANESE, term, FieldConstants.ATTRIBUTE, 5, 1);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

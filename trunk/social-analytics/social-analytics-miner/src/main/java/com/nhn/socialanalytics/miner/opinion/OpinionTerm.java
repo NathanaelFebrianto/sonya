@@ -15,7 +15,7 @@ public class OpinionTerm implements Serializable {
 	private String object;
 	private String term;
 	private int tf;
-	private int tfWithBaseTerm;
+	private int linkedTf;
 	private double polarity;
 	private Map<String, List<OpinionTerm>> linkedTerms = new HashMap<String, List<OpinionTerm>>();
 	private List<DetailDoc> docs = new ArrayList<DetailDoc>();
@@ -52,12 +52,12 @@ public class OpinionTerm implements Serializable {
 		this.tf = tf;
 	}
 	
-	public int getTFWithBaseTerm() {
-		return tfWithBaseTerm;
+	public int getLinkedTF() {
+		return linkedTf;
 	}
 	
-	public void setTFWithBaseTerm(int tfWithBaseTerm) {
-		this.tfWithBaseTerm = tfWithBaseTerm;
+	public void setLinkedTF(int linkedTf) {
+		this.linkedTf = linkedTf;
 	}	
 	
 	public double getPolarity() {
@@ -84,12 +84,24 @@ public class OpinionTerm implements Serializable {
 		return docs;
 	}
 	
+	public DetailDoc getDoc(String docId) {
+		for (DetailDoc doc : docs) {
+			if (doc.getDocId().equals(docId))
+				return doc;
+		}
+		return null;
+	}
+	
 	public void setDocs(List<DetailDoc> docs) {
 		this.docs = docs;
 	}
 	
 	public void addDoc(DetailDoc doc) {
-		docs.add(doc);
+		if (doc == null)
+			return;
+		
+		if (!docs.contains(doc) && this.getDoc(doc.getDocId()) == null)
+			docs.add(doc);
 	}
 		
 	public OpinionTerm getLinkedTerm(String type, String term) {
@@ -106,7 +118,6 @@ public class OpinionTerm implements Serializable {
 		return null;
 	}
 	
-	/*
 	public void addLinkedTerm(String type, OpinionTerm linkedTerm) {
 		if (this.getLinkedTerm(type, linkedTerm.getTerm()) == null) {
 			List<OpinionTerm> terms = linkedTerms.get(type);
@@ -119,6 +130,5 @@ public class OpinionTerm implements Serializable {
 			terms.add(linkedTerm);
 		}
 	}
-	*/
 
 }
