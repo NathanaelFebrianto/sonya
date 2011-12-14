@@ -167,7 +167,7 @@ public class DocIndexSearcher {
 		Term term = new Term(field, text);
 		Query query = new TermQuery(term);		
 
-		TopDocs rs = searcher.search(query, null, 1000);
+		TopDocs rs = searcher.search(query, null, 1000000);
 		System.out.println("search: field = " + field + ", text = " + text + ", docFreq = " + rs.totalHits);
 
 		for (int i = 0; i < rs.totalHits; i++) {
@@ -200,7 +200,8 @@ public class DocIndexSearcher {
 		for (int i = 0; i < rs.totalHits; i++) {
 			int docId = rs.scoreDocs[i].doc;
 			Document doc = searcher.doc(docId);
-			String text = doc.get(field);			
+			String text = doc.get(field);
+			String feature = this.getFeatureName(doc);
 			
 			if (excludeStopwords && opinionTerms.get(text) == null && !stopwordSet.contains(text)) {
 				int tf = this.getTF(object, field, text);
@@ -208,6 +209,7 @@ public class DocIndexSearcher {
 					OpinionTerm opinionTerm = new OpinionTerm();
 					opinionTerm.setType(field);
 					opinionTerm.setObject(object);
+					opinionTerm.setFeature(feature);
 					opinionTerm.setTerm(text);
 					opinionTerm.setTF(tf);					
 
@@ -224,6 +226,7 @@ public class DocIndexSearcher {
 					OpinionTerm opinionTerm = new OpinionTerm();
 					opinionTerm.setType(field);
 					opinionTerm.setObject(object);
+					opinionTerm.setFeature(feature);
 					opinionTerm.setTerm(text);
 					opinionTerm.setTF(tf);
 
@@ -344,6 +347,38 @@ public class DocIndexSearcher {
 		}
 
 		return new ArrayList<OpinionTerm>(linkedTerms.values());
+	}
+	
+	public List<DetailDoc> searchFeatures(String object, String language) throws IOException {
+		List<DetailDoc> detailDocs = new ArrayList<DetailDoc>();
+		Term objTerm = new Term(FieldConstants.OBJECT, object);	
+		TermsFilter filter = new TermsFilter();
+		filter.addTerm(objTerm);
+		
+		Term term = new Term(FieldConstants.LANGUAGE, language);
+		Query query = new TermQuery(term);
+
+		TopDocs rs = searcher.search(query, filter, 1000000);
+
+		for (int i = 0; i < rs.totalHits; i++) {
+			int docId = rs.scoreDocs[i].doc;
+			Document doc = searcher.doc(docId);
+			detailDocs.add(this.makeDetailDoc(doc));
+		}
+		
+		return detailDocs;
+	}
+	
+	private String getFeatureName(Document doc) {
+		String feature = doc.get(FieldConstants.MAIN_FEATURE);
+		String clauseFeature = doc.get(FieldConstants.CLAUSE_MAIN_FEATURE);
+		
+		if (clauseFeature != null && !clauseFeature.equals("") && !clauseFeature.equalsIgnoreCase("ETC")) {
+			return clauseFeature;
+		}
+		else {
+			return feature;
+		}
 	}
 	 
 	private DetailDoc makeDetailDoc(Document doc) {

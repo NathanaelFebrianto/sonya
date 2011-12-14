@@ -13,6 +13,7 @@ public class OpinionTerm implements Serializable {
 	
 	private String type;
 	private String object;
+	private String feature;
 	private String term;
 	private int tf;
 	private int linkedTf;
@@ -34,6 +35,14 @@ public class OpinionTerm implements Serializable {
 	
 	public void setObject(String object) {
 		this.object = object;
+	}
+	
+	public String getFeature() {
+		return feature;
+	}
+
+	public void setFeature(String feature) {
+		this.feature = feature;
 	}
 	
 	public String getTerm() {

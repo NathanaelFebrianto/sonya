@@ -231,10 +231,10 @@ public class OpinionViewerApplet extends JApplet {
 			
 			OpinionFilter filter = new OpinionFilter();
 			filter.setObject(object);
-			filter.setLanguage(FieldConstants.LANG_JAPANESE);			
-			filter.setBaseTermFilter(FieldConstants.SUBJECT, 10, true);
-			filter.addLinkedTermFilter(FieldConstants.PREDICATE, 7, 1);
-			filter.addLinkedTermFilter(FieldConstants.ATTRIBUTE, 7, 1);			
+			filter.setLanguage(FieldConstants.LANG_KOREAN);			
+			filter.setBaseTermFilter(FieldConstants.SUBJECT, 5, true);
+			filter.addLinkedTermFilter(FieldConstants.PREDICATE, 5, 1);
+			filter.addLinkedTermFilter(FieldConstants.ATTRIBUTE, 5, 1);			
 			
 			OpinionMiner miner = new OpinionMiner(searcher);
 			OpinionResultSet ors = miner.getOpinionResultSet(filter);			
