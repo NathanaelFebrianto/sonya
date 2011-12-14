@@ -67,9 +67,9 @@ public class SentimentAnalyzer {
 		
 		double strength = 1 / new Double(priority).doubleValue();
 		
-		System.out.println("priority == " + priority);
-		System.out.println("polarity == " + polarity);
-		System.out.println("strength == " + strength);
+		//System.out.println("priority == " + priority);
+		//System.out.println("polarity == " + polarity);
+		//System.out.println("strength == " + strength);
 		
 		clause.setPolarity(polarity);
 		clause.setPolarityStrength(strength);
@@ -124,8 +124,8 @@ public class SentimentAnalyzer {
 			double posWordCount = sentence.sumPostiveWordCount();
 			double negWordCount = sentence.sumNegativeWordCount();
 			
-			System.out.println("positive word count == " + posWordCount);
-			System.out.println("negative word count == " + negWordCount);			
+			//System.out.println("positive word count == " + posWordCount);
+			//System.out.println("negative word count == " + negWordCount);			
 			
 			if (posWordCount > negWordCount) {
 				sentence.setPolarity(1.0);
@@ -141,8 +141,8 @@ public class SentimentAnalyzer {
 			sentence.setPolarityStrength(Math.abs(weightedPolarity));
 		}
 		
-		System.out.println("sentence polarity == " + sentence.getPolarity());
-		System.out.println("sentence polarity strength == " + sentence.getPolarityStrength());
+		//System.out.println("sentence polarity == " + sentence.getPolarity());
+		//System.out.println("sentence polarity strength == " + sentence.getPolarityStrength());
 		
 		return sentence;
 	}
@@ -179,15 +179,15 @@ public class SentimentAnalyzer {
 	
 	public Map<String, WordCount> analyzeLIWCFeatures(String text) {
 		try {
-			System.out.println("source text to analyze LIWC == " + text);
+			//System.out.println("source text to analyze LIWC == " + text);
 			
 			// get feature counts from the input text
 			Map<String, WordCount> counts = personalityRecognizer.getWordFeatureCounts(text, true);
 			
-			System.out.println("Total features computed: " + counts.size());			
+			//System.out.println("Total features computed: " + counts.size());			
 			//System.out.println("Feature counts:");
 			//SentimentUtil.printMap(counts, System.out);
-			System.out.println("\n");
+			//System.out.println("\n");
 			
 			return counts;
 			
