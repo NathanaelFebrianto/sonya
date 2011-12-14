@@ -5,8 +5,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.nhn.socialanalytics.miner.index.ChildTerm;
-import com.nhn.socialanalytics.miner.index.TargetTerm;
+import com.nhn.socialanalytics.miner.opinion.OpinionResultSet;
+import com.nhn.socialanalytics.miner.opinion.OpinionTerm;
 
 import edu.uci.ics.jung.graph.DelegateForest;
 import edu.uci.ics.jung.graph.Forest;
@@ -28,8 +28,15 @@ public class OpinionGraphModeller {
 	 * 
 	 */
 	public OpinionGraphModeller() {
-		// create a directed graph by default
-		this(DIRECTED_SPARSE_GRAPH);
+		this(DIRECTED_SPARSE_GRAPH, null);
+	}
+	
+	/**
+	 * Constructor.
+	 * 
+	 */
+	public OpinionGraphModeller(OpinionResultSet ors) {
+		this(DIRECTED_SPARSE_GRAPH, ors);
 	}
 	
 	/**
@@ -37,17 +44,18 @@ public class OpinionGraphModeller {
 	 * 
 	 * @param graphType the graph type
 	 */
-	public OpinionGraphModeller(int graphType) {
-		// create a directed graph by default
+	public OpinionGraphModeller(int graphType, OpinionResultSet ors) {
 		graph = new DelegateForest<TermNode, TermEdge>();
 		
 		rootNode = new TermNode();
 		rootNode.setId("ROOT");
-		rootNode.setName("ROOT");
-		
+		rootNode.setName("ROOT");		
 		termNodes.add(rootNode);
 		
-		//graph.addVertex(rootNode);
+		if (ors != null) {
+			this.setOpinionResultSet(ors);
+			this.createGraph();
+		}
 	}
 
 	/**
@@ -107,73 +115,69 @@ public class OpinionGraphModeller {
 		}
 	}
 
-	public void addTerms(String targetField, Map<String, TargetTerm> termMap) {
+	public void setOpinionResultSet(OpinionResultSet ors) {
 		
 		// update root node name
-		rootNode.setName(targetField);
+		rootNode.setName(ors.getType());
 		
-		// parent node
-		TermNode parentNode = new TermNode();
-		parentNode.setType(targetField);
-		
-		int i = 0;
-		for (Map.Entry<String, TargetTerm> entry : termMap.entrySet()) {
-			String fieldName = entry.getKey();
-			TargetTerm targetTerm = entry.getValue();
-
-			if (i == 0) {
-				// target term node
-				parentNode.setId(targetTerm.getTerm());
-				parentNode.setName(targetTerm.getTerm());
-				parentNode.setTF(targetTerm.getTF());
-				parentNode.setPolarity(targetTerm.getPolarity());
-				parentNode.setDocs(targetTerm.getDocs());
+		for (OpinionTerm baseTerm : ors) {
+			// base term node
+			TermNode baseTermNode = new TermNode();
+			baseTermNode.setId(baseTerm.getTerm());
+			baseTermNode.setType(baseTerm.getType());
+			baseTermNode.setName(baseTerm.getTerm());
+			baseTermNode.setTF(baseTerm.getTF());
+			baseTermNode.setPolarity(baseTerm.getPolarity());
+			baseTermNode.setDocs(baseTerm.getDocs());
+			
+			// target term edge
+			TermEdge rootEdge = new TermEdge();
+			rootEdge.setTo(baseTermNode.getId());
+			rootEdge.setFrom(rootNode.getId());
+			
+			termNodes.add(baseTermNode);
+			termEdges.add(rootEdge);
+			
+			Map<String, List<OpinionTerm>> linkedTermsMap = baseTerm.getLinkedTerms();
+			for (Map.Entry<String, List<OpinionTerm>> entry : linkedTermsMap.entrySet()) {
+				String linkedTermType = entry.getKey();
+				List<OpinionTerm> linkedTerms = entry.getValue();
 				
-				// target term edge
-				TermEdge rootEdge = new TermEdge();
-				rootEdge.setTo(parentNode.getId());
-				rootEdge.setFrom(rootNode.getId());
+				// group node
+				TermNode groupNode = new TermNode();
+				groupNode.setId(linkedTermType + baseTerm.getTerm());
+				groupNode.setName(linkedTermType);
 				
-				termNodes.add(parentNode);
-				termEdges.add(rootEdge);
-			}		
-			
-			i++;			
-			
-			// group node
-			TermNode groupNode = new TermNode();
-			groupNode.setId(fieldName + targetTerm.getTerm());
-			groupNode.setName(fieldName);
-			
-			// group edge
-			TermEdge groupEdge = new TermEdge();
-			groupEdge.setTo(groupNode.getId());
-			groupEdge.setFrom(parentNode.getId());
-			
-			if (targetTerm.getChildTerms().size() > 0) {
-				termNodes.add(groupNode);
-				termEdges.add(groupEdge);
-			}
-			
-			// child term nodes
-			for (ChildTerm childTerm : targetTerm.getChildTerms()) {
-				// node
-				TermNode node = new TermNode();
-				node.setId(groupNode.getId() + "-" + childTerm.getTerm());
-				node.setName(childTerm.getTerm());
-				node.setTF(childTerm.getTF());
-				node.setTFWithinTarget(childTerm.getTFWithinTarget());
-				node.setPolarity(childTerm.getPolarity());
-				node.setType(fieldName);
-				node.setDocs(childTerm.getDocs());
+				// group edge
+				TermEdge groupEdge = new TermEdge();
+				groupEdge.setTo(groupNode.getId());
+				groupEdge.setFrom(baseTermNode.getId());
 				
-				// edge
-				TermEdge edge = new TermEdge();
-				edge.setTo(node.getId());
-				edge.setFrom(groupNode.getId());
+				if (linkedTerms.size() > 0) {
+					termNodes.add(groupNode);
+					termEdges.add(groupEdge);
+				}
 				
-				termNodes.add(node);
-				termEdges.add(edge);
+				// linked term nodes
+				for (OpinionTerm linkedTerm : linkedTerms) {
+					// node
+					TermNode node = new TermNode();
+					node.setId(groupNode.getId() + "-" + linkedTerm.getTerm());
+					node.setName(linkedTerm.getTerm());
+					node.setTF(linkedTerm.getTF());
+					node.setLinkedTF(linkedTerm.getLinkedTF());
+					node.setPolarity(linkedTerm.getPolarity());
+					node.setType(linkedTerm.getType());
+					node.setDocs(linkedTerm.getDocs());
+					
+					// edge
+					TermEdge edge = new TermEdge();
+					edge.setTo(node.getId());
+					edge.setFrom(groupNode.getId());
+					
+					termNodes.add(node);
+					termEdges.add(edge);
+				}				
 			}
 		}
 	}

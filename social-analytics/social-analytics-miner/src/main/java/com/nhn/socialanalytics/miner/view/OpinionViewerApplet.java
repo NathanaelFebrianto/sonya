@@ -5,6 +5,7 @@ import java.awt.BorderLayout;
 import java.awt.Container;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
+import java.awt.Font;
 import java.awt.GridLayout;
 import java.awt.Stroke;
 import java.awt.event.ActionEvent;
@@ -12,10 +13,8 @@ import java.awt.event.ActionListener;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 import java.io.File;
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
-import java.util.Map;
 import java.util.Set;
 
 import javax.swing.BorderFactory;
@@ -39,7 +38,9 @@ import org.apache.commons.collections15.Transformer;
 import com.nhn.socialanalytics.miner.index.DetailDoc;
 import com.nhn.socialanalytics.miner.index.DocIndexSearcher;
 import com.nhn.socialanalytics.miner.index.FieldConstants;
-import com.nhn.socialanalytics.miner.index.TargetTerm;
+import com.nhn.socialanalytics.miner.opinion.OpinionFilter;
+import com.nhn.socialanalytics.miner.opinion.OpinionMiner;
+import com.nhn.socialanalytics.miner.opinion.OpinionResultSet;
 import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
 
 import edu.uci.ics.jung.algorithms.layout.Layout;
@@ -201,7 +202,7 @@ public class OpinionViewerApplet extends JApplet {
 		
 		try {
 			File[] indexDirs = new File[1];
-			indexDirs[0] = new File("./bin/data/appstore/index/20111213");
+			indexDirs[0] = new File("./bin/data/appstore/index/20111214");
 			
 			String object = "naverline";
 			
@@ -221,46 +222,24 @@ public class OpinionViewerApplet extends JApplet {
 			searcher.putCustomStopwords(customStopwords);
 			searcher.putSentimentAnalyzer(FieldConstants.LANG_KOREAN, SentimentAnalyzer.getInstance(new File("./bin/liwc/LIWC_ko.txt")));
 			searcher.putSentimentAnalyzer(FieldConstants.LANG_JAPANESE, SentimentAnalyzer.getInstance(new File("./bin/liwc/LIWC_ja.txt")));
-			System.out.println("stopwords == " + searcher.getStopwords());			
+			System.out.println("stopwords == " + searcher.getStopwords());
 			
-			OpinionGraphModeller modeller = new OpinionGraphModeller();
 			
 			/////////////////////////////////
-			/* target term ==> PREDICATE   */
+			/*   base term ==> SUBJECT     */
 			/////////////////////////////////
+			
+			OpinionFilter filter = new OpinionFilter();
+			filter.setObject(object);
+			filter.setLanguage(FieldConstants.LANG_JAPANESE);			
+			filter.setBaseTermFilter(FieldConstants.SUBJECT, 10, true);
+			filter.addLinkedTermFilter(FieldConstants.PREDICATE, 7, 1);
+			filter.addLinkedTermFilter(FieldConstants.ATTRIBUTE, 7, 1);			
+			
+			OpinionMiner miner = new OpinionMiner(searcher);
+			OpinionResultSet ors = miner.getOpinionResultSet(filter);			
 
-//			Map<String, Integer> terms = searcher.getTerms(object, FieldConstants.PREDICATE, 10, true);					
-//			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
-//				String term = entry.getKey();
-//			
-//				TargetTerm subjectTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.SUBJECT, term, 10, 1);
-//				TargetTerm attributeTerm = searcher.search(object, FieldConstants.PREDICATE, FieldConstants.ATTRIBUTE, term, 10, 1);
-//				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
-//				termMap.put(FieldConstants.SUBJECT, subjectTerm);
-//				termMap.put(FieldConstants.ATTRIBUTE, attributeTerm);
-//				
-//				modeller.addTerms(FieldConstants.PREDICATE, termMap);			
-//			}
-			
-			/////////////////////////////////
-			/* target term ==> SUBJECT   */
-			/////////////////////////////////
-			//String language = FieldConstants.LANG_JAPANESE;
-			String language = FieldConstants.LANG_KOREAN;
-			Map<String, Integer> terms = searcher.getTerms(object, language, FieldConstants.SUBJECT, 5, true);					
-			for (Map.Entry<String, Integer> entry : terms.entrySet()) {
-				String term = entry.getKey();
-			
-				TargetTerm subjectTerm = searcher.search(object, language, FieldConstants.SUBJECT, FieldConstants.PREDICATE, term, 1, 2);
-				TargetTerm attributeTerm = searcher.search(object, language, FieldConstants.SUBJECT, FieldConstants.ATTRIBUTE, term, 1, 2);
-				Map<String, TargetTerm> termMap = new HashMap<String, TargetTerm>();
-				termMap.put(FieldConstants.PREDICATE, subjectTerm);
-				termMap.put(FieldConstants.ATTRIBUTE, attributeTerm);
-				
-				modeller.addTerms(FieldConstants.SUBJECT, termMap);			
-			}
-				
-			modeller.createGraph();
+			OpinionGraphModeller modeller = new OpinionGraphModeller(ors);
 			final Forest<TermNode, TermEdge> graph = modeller.getGraph();
 			
 			SwingUtilities.invokeLater(new Runnable() {
@@ -270,9 +249,9 @@ public class OpinionViewerApplet extends JApplet {
 						//UIManager.setLookAndFeel("org.pushingpixels.substance.api.skin.SubstanceGraphiteAquaLookAndFeel");
 							
 						//Font font = new Font("tahoma", Font.PLAIN, 11);
-						//Font font = new Font("MS Gothic", Font.PLAIN, 12);
+						Font font = new Font("MS Gothic", Font.PLAIN, 12);
 						//Font font = new Font("MS Mincho", Font.PLAIN, 12);
-						//UIHandler.changeAllSwingComponentDefaultFont(font);
+						UIHandler.changeAllSwingComponentDefaultFont(font);
 
 						JFrame frame = new JFrame();
 						Container content = frame.getContentPane();
