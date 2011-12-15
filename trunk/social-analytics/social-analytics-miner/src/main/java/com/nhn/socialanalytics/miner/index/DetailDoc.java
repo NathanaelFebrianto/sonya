@@ -130,7 +130,7 @@ public class DetailDoc {
 	}
 
 	public String getPredicate() {
-		return predicate.toLowerCase();
+		return predicate;
 	}
 
 	public void setPredicate(String predicate) {
@@ -140,7 +140,7 @@ public class DetailDoc {
 	}
 
 	public String getAttribute() {
-		return attribute.toLowerCase();
+		return attribute;
 	}
 
 	public void setAttribute(String attribute) {
@@ -150,7 +150,7 @@ public class DetailDoc {
 	}
 
 	public String getText() {
-		return text.toLowerCase();
+		return text;
 	}
 
 	public void setText(String text) {
