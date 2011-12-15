@@ -11,8 +11,6 @@ KO1. PRODUCT/SERVICE
 		push* (1)
 		알림* (1)
 		c2dm* (1)
-		통화* (1)
-		전화* (1)
 		전송* (1)
 		스티커* (1)
 		채팅* (1)
@@ -44,7 +42,10 @@ KO1. PRODUCT/SERVICE
 	QUALITY
 		품질* (1)
 		우수* (1)
+		훌륭* (1)
 		버그* (1)
+		결함* (1)
+		오류* (1)
 		문제* (1)
 		안되다	 (1)
 		실패* (1)
@@ -53,10 +54,8 @@ KO1. PRODUCT/SERVICE
 		네트워크* (1)
 		속도* (1)
 		빠르다 (1)
+		느리다 (1)
 		불편* (1)
-		잡음* (1)
-		음질* (1)
-		목소리* (1)
 		에러* (1)
 	
 	USABILITY
@@ -71,12 +70,13 @@ KO1. PRODUCT/SERVICE
 		사용자* (1)
 		친구* (1)
 		활용* (1)
+		고생* (1)
 	
 	MARKETING
 		홍보* (1)
 		광고* (1)
 		캠페인* (1)
-		TV* (1)
+		tv* (1)
 		이벤트* (1)
 		event* (1)
 	
@@ -98,6 +98,7 @@ KO1. PRODUCT/SERVICE
 		kt (1)
 		skt (1)
 		lgt (1)
+		삼
 	
 	DEVICE
 		device* (1)
@@ -111,6 +112,7 @@ KO1. PRODUCT/SERVICE
 		블랙베리* (1)
 		blackberry* (1)
 		모토로라* (1)
+		노키아* (1)
 	
 	REGION	
 		한국* (1)
@@ -157,3 +159,13 @@ KO1. PRODUCT/SERVICE
 		시골 (1)
 		도시 (1)
 	
+	VOICECHAT	
+		통화* (1)
+		전화* (1)
+		음성* (1)
+		잡음* (1)
+		음질* (1)
+		목소리* (1)
+		voice* (1)
+		telephone* (1)
+		sound* (1)
