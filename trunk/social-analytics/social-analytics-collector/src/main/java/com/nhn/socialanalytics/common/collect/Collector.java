@@ -181,7 +181,7 @@ public abstract class Collector {
 		Map<String, Double> clauseFeatureCounts = featureClassifier.getFeatureCounts(clauseStandardLabels, true);
 		String clauseFeature = featureClassifier.toFeatureString(clauseFeatureCounts);
 		String clauseMainFeature = featureClassifier.toMainFeatureString(clauseFeatureCounts);
-	
+		
 		doc.setClauseFeature(clauseFeature);
 		doc.setClauseMainFeature(clauseMainFeature);
 		
