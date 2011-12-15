@@ -1,5 +1,5 @@
 #SITE	OBJECT_ID	SEARCH_KEYWORDS	MAX_PAGE	HISTORY_BUFFER_MAX_ROUND	LANGUAGES	FEATURE_CLASSIFIERS	EXTENDED_ATTRIBUTES
-appstore	naverline	393499958	3	5	Korean,Japanese	Korean:./bin/feature/feature_default_ko.txt,Japanese:./bin/feature/feature_default_ja.txt	APPSTORE:Korea,APPSTORE:Japan
+appstore	naverline	443904275	3	5	Korean,Japanese	Korean:./bin/feature/feature_default_ko.txt,Japanese:./bin/feature/feature_default_ja.txt	APPSTORE:Korea,APPSTORE:Japan
 appstore	naverapp	393499958	3	5	Korean	Korean:./bin/feature/feature_default_ko.txt	APPSTORE:Korea
 appstore	kakaotalk	362057947	3	5	Korean	Korean:./bin/feature/feature_default_ko.txt	APPSTORE:Korea
 androidmarket	naverline	jp.naver.line.android	5	5	Korean,Japanese	Korean:./bin/feature/feature_default_ko.txt,Japanese:./bin/feature/feature_default_ja.txt	LOCALE:Korea,LOCALE:Japan
