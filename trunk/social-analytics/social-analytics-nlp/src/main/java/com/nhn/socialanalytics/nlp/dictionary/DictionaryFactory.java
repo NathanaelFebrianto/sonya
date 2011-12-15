@@ -17,7 +17,7 @@ public class DictionaryFactory {
 
 		try {
 			String line = "";
-			in = new BufferedReader( new InputStreamReader(inputStream ,"utf-8"));
+			in = new BufferedReader( new InputStreamReader(inputStream, "utf-8"));
 			
 			while( (line = in.readLine()) != null ) {
 				if (line.startsWith("#")) {
