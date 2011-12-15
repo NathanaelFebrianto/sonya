@@ -11,8 +11,11 @@ import org.quartz.JobDataMap;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 
+import com.nhn.socialanalytics.androidmarket.collect.AndroidMarketDataCollector;
 import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.JobLogger;
+import com.nhn.socialanalytics.common.collect.CollectObject;
+import com.nhn.socialanalytics.common.collect.CollectObjectReader;
 import com.nhn.socialanalytics.common.collect.Collector;
 import com.nhn.socialanalytics.common.util.DateUtil;
 import com.nhn.socialanalytics.me2day.model.Post;
@@ -42,60 +45,52 @@ public class Me2dayDataCollectorJob implements Job {
 			String jobName = context.getJobDetail().getFullName();
 			System.out.println("Quartz says: " + jobName + " executing at " + startTime);
 			logger.info("Quartz says: " + jobName + " executing at " + startTime);
+			
 
+			/////////////////////////////
 			Me2dayDataCollector collector = new Me2dayDataCollector();
 			collector.putMorphemeAnalyzer(Collector.LANG_KOREAN, new KoreanMorphemeAnalyzer());
 			collector.putSemanticAnalyzer(Collector.LANG_KOREAN, new KoreanSemanticAnalyzer());
 			collector.putSentimentAnalyzer(Collector.LANG_KOREAN, new SentimentAnalyzer(new File(Config.getProperty("LIWC_KOREAN"))));
 			
-			/////////////////////////////
-			String objectId1 = "naverline";
-			Map<String, Integer> queryMap1 = new HashMap<String, Integer>();
-			queryMap1.put("네이버라인", 5);
-			queryMap1.put("네이버LINE", 5);
-			queryMap1.put("NAVERLINE", 5);
+			String dataDir = Config.getProperty("ME2DAY_SOURCE_DATA_DIR");
+			String indexDir = Config.getProperty("ME2DAY_INDEX_DIR");
 			
-			collector.putFeatureClassifier(objectId1, Collector.LANG_KOREAN, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_KOREAN"))));
+			CollectObjectReader colObjectReader = new CollectObjectReader(new File(Config.getProperty("COLLECT_OBJECTS")));
+			List<CollectObject> colObjects = colObjectReader.getCollectObject(Me2dayDataCollector.TARGET_SITE_NAME);
 			
-			Date sinceDate1 = DateUtil.addDay(new Date(), -30);
-			Date untilDate1 = DateUtil.addDay(new Date(), +1);
-			
-			List<Post> posts1 = collector.searchPosts(queryMap1, Me2dayCrawler.TARGET_BODY, sinceDate1, untilDate1);
-			
-			try {
-				String dataDir = Config.getProperty("ME2DAY_SOURCE_DATA_DIR");
-				String indexDir = Config.getProperty("ME2DAY_INDEX_DIR");
+			for (CollectObject colObject : colObjects) {
+				String objectId = colObject.getObject();
+				List<String> keywords = colObject.getSearchKeywords();
+				int maxPage = colObject.getMaxPage();
+				int historyBufferMaxRound = colObject.getHistoryBufferMaxRound();
+				Map<String, String> featureClassifiers = colObject.getFeatureClassifiers();
 				
-				collector.writeOutput(dataDir, indexDir, objectId1, posts1, startTime, 1);
+				// query map
+				Map<String, Integer> queryMap = new HashMap<String, Integer>();
+				for (String keyword : keywords) {
+					queryMap.put(keyword, maxPage);
+				}
 				
-			} catch (Exception e) {
-				e.printStackTrace();
-				logger.error(e.getMessage(), e);
-			}
-
-			/////////////////////////////
-			String objectId2 = "fta";
-			Map<String, Integer> queryMap2 = new HashMap<String, Integer>();
-			queryMap2.put("한미FTA", 10);
-			queryMap2.put("FTA ISD", 10);
-			
-			collector.putFeatureClassifier(objectId2, Collector.LANG_KOREAN, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_KOREAN"))));
-			
-			Date sinceDate2 = DateUtil.addDay(new Date(), -1);
-			Date untilDate2 = DateUtil.addDay(new Date(), +1);
-			
-			List<Post> posts2 = collector.searchPosts(queryMap2, Me2dayCrawler.TARGET_BODY, sinceDate2, untilDate2);
-			
-			try {
-				String dataDir = Config.getProperty("ME2DAY_SOURCE_DATA_DIR");
-				String indexDir = Config.getProperty("ME2DAY_INDEX_DIR");
+				// feature classifiers
+				for (Map.Entry<String, String> entry : featureClassifiers.entrySet()) {
+					String language = entry.getKey();
+					String featureFile = entry.getValue();	
+					collector.putFeatureClassifier(objectId, language, new FeatureClassifier(new File(featureFile)));
+				}
 				
-				collector.writeOutput(dataDir, indexDir, objectId2, posts2, startTime, 1);
+				Date sinceDate = DateUtil.addDay(new Date(), -2);
+				Date untilDate = DateUtil.addDay(new Date(), +1);
 				
-			} catch (Exception e) {
-				e.printStackTrace();
-				logger.error(e.getMessage(), e);
-			}
+				List<Post> posts = collector.searchPosts(queryMap, Me2dayCrawler.TARGET_BODY, sinceDate, untilDate);
+				
+				try {
+					collector.writeOutput(dataDir, indexDir, objectId, posts, startTime, historyBufferMaxRound);		
+				} catch (Exception e) {
+					e.printStackTrace();
+					logger.error(e.getMessage(), e);
+				}				
+			}			
 			/////////////////////////////
 			
 			// end time

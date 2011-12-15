@@ -24,9 +24,9 @@ public class AndroidMarkets {
 		
 		androidMarkets.put("Korea", Locale.KOREA);
 		androidMarkets.put("Japan", Locale.JAPAN);
-		//androidMarkets.put("Taiwan", Locale.TAIWAN);
+		androidMarkets.put("Taiwan", Locale.TAIWAN);
 		androidMarkets.put("Us", Locale.US);
-		//androidMarkets.put("CHina", Locale.CHINA);
+		androidMarkets.put("China", Locale.CHINA);
 		
 		ANDROID_MARKETS = androidMarkets;
 	}

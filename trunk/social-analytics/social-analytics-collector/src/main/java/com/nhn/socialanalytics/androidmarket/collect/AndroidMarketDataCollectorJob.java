@@ -16,6 +16,8 @@ import org.quartz.JobExecutionException;
 import com.gc.android.market.api.model.Market.Comment;
 import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.JobLogger;
+import com.nhn.socialanalytics.common.collect.CollectObject;
+import com.nhn.socialanalytics.common.collect.CollectObjectReader;
 import com.nhn.socialanalytics.common.collect.Collector;
 import com.nhn.socialanalytics.nlp.feature.FeatureClassifier;
 import com.nhn.socialanalytics.nlp.lang.ja.JapaneseMorphemeAnalyzer;
@@ -47,6 +49,8 @@ public class AndroidMarketDataCollectorJob implements Job {
 			System.out.println("Quartz says: " + jobName + " executing at " + startTime);
 			logger.info("Quartz says: " + jobName + " executing at " + startTime);
 
+
+			/////////////////////////////
 			AndroidMarketDataCollector collector = new AndroidMarketDataCollector(loginAccount, loginPasswd);
 			collector.setSpamFilter(new File(Config.getProperty("COLLECT_SPAM_FILTER_ANDROIDMARKET")));
 			collector.putMorphemeAnalyzer(Collector.LANG_KOREAN, new KoreanMorphemeAnalyzer());
@@ -56,71 +60,47 @@ public class AndroidMarketDataCollectorJob implements Job {
 			collector.putSentimentAnalyzer(Collector.LANG_KOREAN, new SentimentAnalyzer(new File(Config.getProperty("LIWC_KOREAN"))));
 			collector.putSentimentAnalyzer(Collector.LANG_JAPANESE, new SentimentAnalyzer(new File(Config.getProperty("LIWC_JAPANESE"))));
 			
-			/////////////////////////////
-			String objectId1 = "naverline";
-			String appId1 = "jp.naver.line.android";
-			Set<Locale> locales1 = new HashSet<Locale>();
-			locales1.add(Locale.KOREA);
-			locales1.add(Locale.JAPAN);
+			String dataDir = Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR");
+			String indexDir = Config.getProperty("ANDROIDMARKET_INDEX_DIR");
 			
-			collector.putFeatureClassifier(objectId1, Collector.LANG_KOREAN, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_KOREAN"))));
-			collector.putFeatureClassifier(objectId1, Collector.LANG_JAPANESE, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_JAPANESE"))));
+			CollectObjectReader colObjectReader = new CollectObjectReader(new File(Config.getProperty("COLLECT_OBJECTS")));
+			List<CollectObject> colObjects = colObjectReader.getCollectObject(AndroidMarketDataCollector.TARGET_SITE_NAME);
 			
-			Map<Locale, List<Comment>> comments1 = collector.getAppCommentsByLocales(locales1, appId1, 5);
-			
-			try {
-				String dataDir = Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR");
-				String indexDir = Config.getProperty("ANDROIDMARKET_INDEX_DIR");
+			for (CollectObject colObject : colObjects) {
+				String objectId = colObject.getObject();
+				List<String> keywords = colObject.getSearchKeywords();
+				String appId = keywords.get(0);
+				int maxPage = colObject.getMaxPage();
+				int historyBufferMaxRound = colObject.getHistoryBufferMaxRound();
+				Map<String, String> featureClassifiers = colObject.getFeatureClassifiers();
+				Map<String, List<String>> attributes = colObject.getExtendedAttributes();
 				
-				collector.writeOutput(dataDir, indexDir, objectId1, comments1, startTime, 5);
+				// locales
+				Set<Locale> locales = new HashSet<Locale>();
+				for (Map.Entry<String, List<String>> entry : attributes.entrySet()) {
+					if (entry.getKey().equalsIgnoreCase("LOCALE")) {
+						List<String> values = entry.getValue();
+						for (String value : values) {
+							locales.add(AndroidMarkets.getLocale(value));
+						}
+					}
+				}
 				
-			} catch (Exception e) {
-				e.printStackTrace();
-				logger.error(e.getMessage(), e);
-			}
-
-			/////////////////////////////
-			String objectId2 = "naverapp";
-			String appId2 = "com.nhn.android.search";
-			Set<Locale> locales2 = new HashSet<Locale>();
-			locales2.add(Locale.KOREA);
-			
-			collector.putFeatureClassifier(objectId2, Collector.LANG_KOREAN, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_KOREAN"))));
-
-			Map<Locale, List<Comment>> comments2 = collector.getAppCommentsByLocales(locales2, appId2, 5);
-			
-			try {
-				String dataDir = Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR");
-				String indexDir = Config.getProperty("ANDROIDMARKET_INDEX_DIR");
+				// feature classifiers
+				for (Map.Entry<String, String> entry : featureClassifiers.entrySet()) {
+					String language = entry.getKey();
+					String featureFile = entry.getValue();	
+					collector.putFeatureClassifier(objectId, language, new FeatureClassifier(new File(featureFile)));
+				}
 				
-				collector.writeOutput(dataDir, indexDir, objectId2, comments2, startTime, 5);
+				Map<Locale, List<Comment>> comments1 = collector.getAppCommentsByLocales(locales, appId, maxPage);
 				
-			} catch (Exception e) {
-				e.printStackTrace();
-				logger.error(e.getMessage(), e);
-			}
-
-			/////////////////////////////
-			String objectId3 = "kakaotalk";
-			String appId3 = "com.kakao.talk";
-			Set<Locale> locales3 = new HashSet<Locale>();
-			locales3.add(Locale.KOREA);
-			locales3.add(Locale.JAPAN);
-			
-			collector.putFeatureClassifier(objectId3, Collector.LANG_KOREAN, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_KOREAN"))));
-			collector.putFeatureClassifier(objectId3, Collector.LANG_JAPANESE, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_JAPANESE"))));
-			
-			Map<Locale, List<Comment>> comments3 = collector.getAppCommentsByLocales(locales3, appId3, 5);
-			
-			try {
-				String dataDir = Config.getProperty("ANDROIDMARKET_SOURCE_DATA_DIR");
-				String indexDir = Config.getProperty("ANDROIDMARKET_INDEX_DIR");
-				
-				collector.writeOutput(dataDir, indexDir, objectId3, comments3, startTime, 5);
-				
-			} catch (Exception e) {
-				e.printStackTrace();
-				logger.error(e.getMessage(), e);
+				try {
+					collector.writeOutput(dataDir, indexDir, objectId, comments1, startTime, historyBufferMaxRound);					
+				} catch (Exception e) {
+					e.printStackTrace();
+					logger.error(e.getMessage(), e);
+				}				
 			}
 			/////////////////////////////
 			
