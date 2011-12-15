@@ -140,6 +140,7 @@ KO1. PRODUCT/SERVICE
 	
 	VOICECHAT
 		電話* (1)
+		無料通話* (1)
 		通話* (1)
 		音質* (1)
 		音声* (1)
