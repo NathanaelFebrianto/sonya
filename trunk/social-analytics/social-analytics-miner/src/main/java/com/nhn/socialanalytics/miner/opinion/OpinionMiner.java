@@ -29,7 +29,7 @@ public class OpinionMiner {
 		
 		try {			
 			BaseTermFilter baseTermFilter = filter.getBaseTermFilter();			
-			OpinionResultSet resultSet = new OpinionResultSet(baseTermFilter.getField());			
+			OpinionResultSet resultSet = new OpinionResultSet(baseTermFilter.getField(), filter.isByFeature());			
 			List<LinkedTermFilter> linkedTermFilters = filter.getLinkedTermFilters();
 			
 			List<OpinionTerm> baseTerms = indexSearcher.searchTerms(
@@ -37,7 +37,8 @@ public class OpinionMiner {
 					filter.getLanguage(), 
 					baseTermFilter.getField(), 
 					baseTermFilter.getMinTF(), 
-					baseTermFilter.isExcludeStopwords());
+					baseTermFilter.isExcludeStopwords(),
+					filter.isByFeature());
 			
 			for (OpinionTerm baseTerm : baseTerms) {
 				System.out.println("--------------------------------------");
@@ -48,7 +49,8 @@ public class OpinionMiner {
 							baseTerm, 
 							linkedTermFilter.getField(), 
 							linkedTermFilter.getMinTF(), 
-							linkedTermFilter.getLinkedMinTF());
+							linkedTermFilter.getLinkedMinTF(),
+							filter.isByFeature());
 					
 					baseTerm.putLinkedTerms(linkedTermFilter.getField(), linkedTerms);					
 				}
@@ -85,10 +87,14 @@ public class OpinionMiner {
 				String clauseFeature = doc.getClauseMainFeature();
 				String docFeature = doc.getMainFeature();
 				
+				featureName = clauseFeature;
+				
+				/*
 				if (clauseFeature != null && !clauseFeature.equals("") && !clauseFeature.equalsIgnoreCase("ETC"))
 					featureName = clauseFeature;
 				else
 					featureName = docFeature;
+				*/
 				
 				FeatureSummary featureSummary = featureMap.get(featureName);
 				if (featureSummary == null) {
@@ -132,7 +138,7 @@ public class OpinionMiner {
 	public static void main(String[] args) {		
 		try {	
 			File[] indexDirs = new File[1];
-			indexDirs[0] = new File("./bin/data/appstore/index/20111214");
+			indexDirs[0] = new File("./bin/data/appstore/index/20111215");
 			String object = "naverline";
 			File liwcFile = new File("./bin/liwc/LIWC_ja.txt");
 			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs);
@@ -144,7 +150,8 @@ public class OpinionMiner {
 			filter.setLanguage(FieldConstants.LANG_KOREAN);			
 			filter.setBaseTermFilter(FieldConstants.SUBJECT, 5, true);
 			filter.addLinkedTermFilter(FieldConstants.PREDICATE, 5, 1);
-			filter.addLinkedTermFilter(FieldConstants.ATTRIBUTE, 5, 1);			
+			filter.addLinkedTermFilter(FieldConstants.ATTRIBUTE, 5, 1);	
+			filter.setByFeature(true);
 			
 			OpinionMiner miner = new OpinionMiner(searcher);
 			OpinionResultSet ors = miner.getOpinionResultSet(filter);

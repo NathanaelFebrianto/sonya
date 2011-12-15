@@ -202,7 +202,7 @@ public class OpinionViewerApplet extends JApplet {
 		
 		try {
 			File[] indexDirs = new File[1];
-			indexDirs[0] = new File("./bin/data/appstore/index/20111214");
+			indexDirs[0] = new File("./bin/data/appstore/index/20111215");
 			
 			String object = "naverline";
 			
@@ -232,9 +232,10 @@ public class OpinionViewerApplet extends JApplet {
 			OpinionFilter filter = new OpinionFilter();
 			filter.setObject(object);
 			filter.setLanguage(FieldConstants.LANG_KOREAN);			
-			filter.setBaseTermFilter(FieldConstants.SUBJECT, 5, true);
-			filter.addLinkedTermFilter(FieldConstants.PREDICATE, 5, 1);
-			filter.addLinkedTermFilter(FieldConstants.ATTRIBUTE, 5, 1);			
+			filter.setBaseTermFilter(FieldConstants.SUBJECT, 4, true);
+			filter.addLinkedTermFilter(FieldConstants.PREDICATE, 1, 2);
+			filter.addLinkedTermFilter(FieldConstants.ATTRIBUTE, 1, 2);	
+			filter.setByFeature(true);
 			
 			OpinionMiner miner = new OpinionMiner(searcher);
 			OpinionResultSet ors = miner.getOpinionResultSet(filter);			
@@ -251,7 +252,7 @@ public class OpinionViewerApplet extends JApplet {
 						//Font font = new Font("tahoma", Font.PLAIN, 11);
 						Font font = new Font("MS Gothic", Font.PLAIN, 12);
 						//Font font = new Font("MS Mincho", Font.PLAIN, 12);
-						UIHandler.changeAllSwingComponentDefaultFont(font);
+						//UIHandler.changeAllSwingComponentDefaultFont(font);
 
 						JFrame frame = new JFrame();
 						Container content = frame.getContentPane();
