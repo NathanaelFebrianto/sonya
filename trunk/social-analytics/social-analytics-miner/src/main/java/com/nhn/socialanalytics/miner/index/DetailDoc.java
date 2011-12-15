@@ -120,35 +120,35 @@ public class DetailDoc {
 	}
 
 	public String getSubject() {
-		return subject;
+		return subject.toLowerCase();
 	}
 
 	public void setSubject(String subject) {
-		this.subject = subject;
+		this.subject = subject.toLowerCase();
 	}
 
 	public String getPredicate() {
-		return predicate;
+		return predicate.toLowerCase();
 	}
 
 	public void setPredicate(String predicate) {
-		this.predicate = predicate;
+		this.predicate = predicate.toLowerCase();
 	}
 
 	public String getAttribute() {
-		return attribute;
+		return attribute.toLowerCase();
 	}
 
 	public void setAttribute(String attribute) {
-		this.attribute = attribute;
+		this.attribute = attribute.toLowerCase();
 	}
 
 	public String getText() {
-		return text;
+		return text.toLowerCase();
 	}
 
 	public void setText(String text) {
-		this.text = text;
+		this.text = text.toLowerCase();
 	}
 	
 	public double getPolarity() {
