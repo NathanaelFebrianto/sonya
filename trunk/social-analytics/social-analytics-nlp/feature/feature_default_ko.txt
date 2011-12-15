@@ -161,6 +161,7 @@ KO1. PRODUCT/SERVICE
 	
 	VOICECHAT	
 		통화* (1)
+		무료통화* (1)
 		전화* (1)
 		음성* (1)
 		잡음* (1)
