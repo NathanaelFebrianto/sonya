@@ -116,34 +116,37 @@ public class OpinionGraphModeller {
 	}
 
 	public void setOpinionResultSet(OpinionResultSet ors) {
+		boolean byFeature = ors.isByFeature();
 		
 		// update root node name
 		rootNode.setName(ors.getType());
 		
 		// feature term nodes
 		Map<String, TermNode> featureNodes = new HashMap<String, TermNode>();
-		List<String> features = ors.getFeatures();
-		for (String feature : features) {
-			TermNode featureNode = new TermNode();
-			featureNode.setId(feature);
-			featureNode.setType("FEATURE");
-			featureNode.setName(feature);				
-			
-			// feature term edge
-			TermEdge featureEdge = new TermEdge();
-			featureEdge.setTo(featureNode.getId());
-			featureEdge.setFrom(rootNode.getId());
-			
-			termNodes.add(featureNode);
-			termEdges.add(featureEdge);
-			
-			featureNodes.put(feature, featureNode);
+		if (byFeature) {
+			List<String> features = ors.getFeatures();
+			for (String feature : features) {
+				TermNode featureNode = new TermNode();
+				featureNode.setId(feature);
+				featureNode.setType("FEATURE");
+				featureNode.setName(feature);				
+				
+				// feature term edge
+				TermEdge featureEdge = new TermEdge();
+				featureEdge.setTo(featureNode.getId());
+				featureEdge.setFrom(rootNode.getId());
+				
+				termNodes.add(featureNode);
+				termEdges.add(featureEdge);
+				
+				featureNodes.put(feature, featureNode);
+			}			
 		}
 		
 		// base term nodes
 		for (OpinionTerm baseTerm : ors) {
 			TermNode baseTermNode = new TermNode();
-			baseTermNode.setId(baseTerm.getTerm());
+			baseTermNode.setId(baseTerm.getId());
 			baseTermNode.setType(baseTerm.getType());
 			baseTermNode.setName(baseTerm.getTerm());
 			baseTermNode.setTF(baseTerm.getTF());
@@ -153,7 +156,11 @@ public class OpinionGraphModeller {
 			// base term edge
 			TermEdge baseTermEdge = new TermEdge();
 			baseTermEdge.setTo(baseTermNode.getId());
-			baseTermEdge.setFrom(featureNodes.get(baseTerm.getFeature()).getId());
+			
+			if (byFeature)
+				baseTermEdge.setFrom(featureNodes.get(baseTerm.getFeature()).getId());
+			else
+				baseTermEdge.setFrom(rootNode.getId());
 			
 			termNodes.add(baseTermNode);
 			termEdges.add(baseTermEdge);			
@@ -183,7 +190,7 @@ public class OpinionGraphModeller {
 				for (OpinionTerm linkedTerm : linkedTerms) {
 					// node
 					TermNode node = new TermNode();
-					node.setId(groupNode.getId() + "-" + linkedTerm.getTerm());
+					node.setId(groupNode.getId() + "-" + linkedTerm.getId());
 					node.setName(linkedTerm.getTerm());
 					node.setTF(linkedTerm.getTF());
 					node.setLinkedTF(linkedTerm.getLinkedTF());

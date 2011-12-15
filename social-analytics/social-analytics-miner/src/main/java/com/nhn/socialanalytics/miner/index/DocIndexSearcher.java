@@ -179,6 +179,7 @@ public class DocIndexSearcher {
 		return docs;
 	}
 	
+	/*
 	public List<OpinionTerm> searchTerms(String object, String language, String field, 
 			int minTF, boolean excludeStopwords) throws IOException {	
 		
@@ -242,9 +243,101 @@ public class DocIndexSearcher {
 
 		return new ArrayList<OpinionTerm>(opinionTerms.values());
 	}
+	*/
+	
+	public List<OpinionTerm> searchTerms(String object, String language, String field, 
+			int minTF, boolean excludeStopwords, boolean byFeature) throws IOException {	
+
+		Map<String, OpinionTerm> opinionTerms = new HashMap<String, OpinionTerm>();
+		
+		Term objTerm = new Term(FieldConstants.OBJECT, object);	
+		TermsFilter filter = new TermsFilter();
+		filter.addTerm(objTerm);
+		
+		Term term = new Term(FieldConstants.LANGUAGE, language);
+		Query query = new TermQuery(term);
+
+		TopDocs rs = searcher.search(query, filter, 1000000);
+		System.out.println("search: byFeature = " + byFeature + ", field = " + field + ", minTF = " + minTF + ", docFreq = " + rs.totalHits);
+		
+		// get sentiment analyzer suitable for the language
+		SentimentAnalyzer sentimentAnalyzer = sentimentAnalyzers.get(language);
+
+		for (int i = 0; i < rs.totalHits; i++) {
+			int docId = rs.scoreDocs[i].doc;
+			Document doc = searcher.doc(docId);
+			String text = doc.get(field);
+			//String feature = this.getFeatureName(doc);
+			String feature = doc.get(FieldConstants.CLAUSE_MAIN_FEATURE);
+			
+			String termId = text;			
+			if (byFeature)
+				termId = feature + "-" + text;
+			
+			if (excludeStopwords && opinionTerms.get(termId) == null && !stopwordSet.contains(text)) {
+				int tf = 0;
+				if (byFeature) {					
+					Map<String, String> queryMap = new HashMap<String, String>();
+					queryMap.put(FieldConstants.CLAUSE_MAIN_FEATURE, feature);	
+					queryMap.put(field, text);									
+					tf = this.getTF(object, queryMap);					
+				}
+				else {
+					tf = this.getTF(object, field, text);
+				}
+				
+				if (tf >= minTF) {
+					OpinionTerm opinionTerm = new OpinionTerm();
+					opinionTerm.setId(termId);
+					opinionTerm.setType(field);
+					opinionTerm.setObject(object);
+					opinionTerm.setFeature(feature);
+					opinionTerm.setTerm(text);
+					opinionTerm.setTF(tf);					
+
+					if (sentimentAnalyzer != null) {
+						double polarity = sentimentAnalyzer.analyzePolarity(text);
+						opinionTerm.setPolarity(polarity);			
+					}
+
+					opinionTerms.put(termId, opinionTerm);
+				}			
+			} else if (!excludeStopwords && opinionTerms.get(termId) == null) {
+				int tf = 0;
+				if (byFeature) {					
+					Map<String, String> queryMap = new HashMap<String, String>();
+					queryMap.put(FieldConstants.CLAUSE_MAIN_FEATURE, feature);	
+					queryMap.put(field, text);									
+					tf = this.getTF(object, queryMap);					
+				}
+				else {
+					tf = this.getTF(object, field, text);
+				}
+				
+				if (tf >= minTF) {
+					OpinionTerm opinionTerm = new OpinionTerm();
+					opinionTerm.setId(termId);
+					opinionTerm.setType(field);
+					opinionTerm.setObject(object);
+					opinionTerm.setFeature(feature);
+					opinionTerm.setTerm(text);
+					opinionTerm.setTF(tf);
+
+					if (sentimentAnalyzer != null) {
+						double polarity = sentimentAnalyzer.analyzePolarity(text);
+						opinionTerm.setPolarity(polarity);			
+					}
+
+					opinionTerms.put(termId, opinionTerm);
+				}				
+			}
+		}
+
+		return new ArrayList<OpinionTerm>(opinionTerms.values());
+	}
 		
 	public List<OpinionTerm> searchLinkedTerms(String object, String language, OpinionTerm baseTerm, 
-			String linkedField, int minTF, int minLinkedTF) throws Exception {
+			String linkedField, int minTF, int minLinkedTF, boolean byFeature) throws Exception {
 		
 		Map<String, OpinionTerm> linkedTerms = new HashMap<String, OpinionTerm>();
 		
@@ -252,20 +345,27 @@ public class DocIndexSearcher {
 		TermsFilter filter = new TermsFilter();
 		filter.addTerm(objTerm);
 		
+		String baseField =  baseTerm.getType();
+		String baseText = baseTerm.getTerm();
+		String feature = baseTerm.getFeature();
+		
 		Term term1 = new Term(FieldConstants.LANGUAGE, language);
 		Query query1 = new TermQuery(term1);
 		
-		String baseField =  baseTerm.getType();
-		String baseText = baseTerm.getTerm();
 		Term term2 = new Term(baseField, baseText);
 		Query query2 = new TermQuery(term2);
 		
+		Term term3 = new Term(FieldConstants.CLAUSE_MAIN_FEATURE, feature);
+		Query query3 = new TermQuery(term3);
+		
 		BooleanQuery bQuery = new BooleanQuery();
 		bQuery.add(query1, BooleanClause.Occur.MUST);
-		bQuery.add(query2, BooleanClause.Occur.MUST);
+		bQuery.add(query2, BooleanClause.Occur.MUST);		
+		if (byFeature)
+			bQuery.add(query3, BooleanClause.Occur.MUST);
 
 		TopDocs rs = searcher.search(bQuery, filter, 1000000);
-		System.out.println("search: field = " + baseField + ", text = " + baseText + ", linkedField = " + linkedField);
+		System.out.println("search: feature = " + feature + ", field = " + baseField + ", text = " + baseText + ", linkedField = " + linkedField);
 
 		// get sentiment analyzer suitable for the language
 		SentimentAnalyzer sentimentAnalyzer = sentimentAnalyzers.get(language);
@@ -276,21 +376,39 @@ public class DocIndexSearcher {
 			String linkedText = doc.get(linkedField);	
 			DetailDoc detailDoc = this.makeDetailDoc(doc);
 			
+			String termId = linkedText;
+			if (byFeature)
+				termId = feature + "-" + linkedText;
+			
 			baseTerm.addDoc(detailDoc);
 
 			if (linkedField.equals(FieldConstants.SUBJECT) || linkedField.equals(FieldConstants.PREDICATE)) {
-				OpinionTerm exist = linkedTerms.get(linkedText);
+				OpinionTerm exist = linkedTerms.get(termId);
 				if (exist == null && !stopwordSet.contains(linkedText)) {
-					int tf = this.getTF(object, linkedField, linkedText);
+					int tf = 0;
+					if (byFeature) {					
+						Map<String, String> queryMap = new HashMap<String, String>();
+						queryMap.put(FieldConstants.CLAUSE_MAIN_FEATURE, feature);	
+						queryMap.put(linkedField, linkedText);									
+						tf = this.getTF(object, queryMap);					
+					}
+					else {
+						tf = this.getTF(object, linkedField, linkedText);
+					}
+
 					Map<String, String> queryMap = new HashMap<String, String>();
 					queryMap.put(baseField, baseText);
-					queryMap.put(linkedField, linkedText);					
+					queryMap.put(linkedField, linkedText);
+					if (byFeature)
+						queryMap.put(FieldConstants.CLAUSE_MAIN_FEATURE, feature);
 					int linkedTF = this.getTF(object, queryMap);
 					
 					if (tf >= minTF && linkedTF >= minLinkedTF) {
 						OpinionTerm linkedTerm = new OpinionTerm();
+						linkedTerm.setId(termId);
 						linkedTerm.setType(linkedField);
 						linkedTerm.setObject(object);
+						linkedTerm.setFeature(feature);
 						linkedTerm.setTerm(linkedText);
 						linkedTerm.setTF(tf);
 						linkedTerm.setLinkedTF(linkedTF);
@@ -302,28 +420,34 @@ public class DocIndexSearcher {
 						}
 						linkedTerm.setPolarity(polarity);
 						
-						linkedTerms.put(linkedText, linkedTerm);						
-						System.out.println("-> link: field = " + linkedField + ", text = " + linkedText + " (tf: " + tf + " polarity: " + polarity + ")");
+						linkedTerms.put(termId, linkedTerm);						
+						System.out.println("-> link: feature = " + feature + ", field = " + linkedField + ", text = " + linkedText + " (tf: " + tf + " polarity: " + polarity + ")");
 					}
 				}
 				else if (exist != null && !stopwordSet.contains(linkedText)) {
 					exist.addDoc(detailDoc);
 				}
 			} else if (linkedField.equals(FieldConstants.ATTRIBUTE)) {
-				Map<String, Integer[]> mapAttribute = this.tokenizeAttributes(object, baseField, baseText, linkedText);
+				Map<String, Integer[]> mapAttribute = this.tokenizeAttributes(object, feature, baseField, baseText, linkedText, byFeature);
 
 				for (Map.Entry<String, Integer[]> entry : mapAttribute.entrySet()) {
 					String attributeText = entry.getKey();
 					Integer[] attributeTFs = (Integer[]) entry.getValue();
 					int attributeTF = attributeTFs[0];
 					int attributeLinkedTF = attributeTFs[1];
+					
+					String attrTermId = attributeText;
+					if (byFeature)
+						attrTermId = feature + "-" + attributeText;
 
-					OpinionTerm exist = linkedTerms.get(attributeText);					
+					OpinionTerm exist = linkedTerms.get(attrTermId);					
 					if (exist == null && !stopwordSet.contains(attributeText)) {
 						if (attributeTF >= minTF && attributeLinkedTF >= minLinkedTF) { 
 							OpinionTerm linkedTerm = new OpinionTerm();
+							linkedTerm.setId(attrTermId);
 							linkedTerm.setType(linkedField);
 							linkedTerm.setObject(object);
+							linkedTerm.setFeature(feature);
 							linkedTerm.setTerm(attributeText);
 							linkedTerm.setTF(attributeTF);
 							linkedTerm.setLinkedTF(attributeLinkedTF);
@@ -335,8 +459,8 @@ public class DocIndexSearcher {
 							}
 							linkedTerm.setPolarity(polarity);
 							
-							linkedTerms.put(attributeText, linkedTerm);							
-							System.out.println("-> link: field = " + linkedField + ", text = " + attributeText + " (tf: " + attributeTF + " polarity: " + polarity + ")");
+							linkedTerms.put(attrTermId, linkedTerm);							
+							System.out.println("-> link: feature = " + feature + ", field = " + linkedField + ", text = " + attributeText + " (tf: " + attributeTF + " polarity: " + polarity + ")");
 						}
 					}
 					else if (exist != null && !stopwordSet.contains(attributeText)) {
@@ -369,6 +493,7 @@ public class DocIndexSearcher {
 		return detailDocs;
 	}
 	
+	/*
 	private String getFeatureName(Document doc) {
 		String feature = doc.get(FieldConstants.MAIN_FEATURE);
 		String clauseFeature = doc.get(FieldConstants.CLAUSE_MAIN_FEATURE);
@@ -380,6 +505,7 @@ public class DocIndexSearcher {
 			return feature;
 		}
 	}
+	*/
 	 
 	private DetailDoc makeDetailDoc(Document doc) {
 		DetailDoc detailDoc = new DetailDoc();
@@ -407,7 +533,8 @@ public class DocIndexSearcher {
 		return detailDoc;
 	}
 	
-	private Map<String, Integer[]> tokenizeAttributes(String object, String searchField, String searchText, String attributes) throws Exception {
+	private Map<String, Integer[]> tokenizeAttributes(String object, String feature, String searchField, String searchText, 
+			String attributes, boolean byFeature) throws Exception {
 		Map<String, Integer[]> map = new HashMap<String, Integer[]>();
 		
 		if (attributes != null) {
@@ -415,11 +542,23 @@ public class DocIndexSearcher {
 			while (st.hasMoreTokens()) {
 				String attribute = st.nextToken();
 				if (!stopwordSet.contains(attribute.trim()) && !attribute.trim().equals("")) {
-					int tf = this.getTF(object, FieldConstants.ATTRIBUTE, attribute);
-					
+					int tf = 0;
+					if (byFeature) {					
+						Map<String, String> queryMap = new HashMap<String, String>();
+						queryMap.put(FieldConstants.CLAUSE_MAIN_FEATURE, feature);	
+						queryMap.put(FieldConstants.ATTRIBUTE, attribute);									
+						tf = this.getTF(object, queryMap);					
+					}
+					else {
+						tf = this.getTF(object, FieldConstants.ATTRIBUTE, attribute);
+					}
+															
 					Map<String, String> queryMap = new HashMap<String, String>();
 					queryMap.put(searchField, searchText);
-					queryMap.put(FieldConstants.ATTRIBUTE, attribute);	
+					queryMap.put(FieldConstants.ATTRIBUTE, attribute);
+					if (byFeature)
+						queryMap.put(FieldConstants.CLAUSE_MAIN_FEATURE, feature);
+					
 					int linkedTF = this.getTF(object, queryMap);
 					Integer[] tfs = { tf, linkedTF };
 					map.put(attribute, tfs);
@@ -433,19 +572,21 @@ public class DocIndexSearcher {
 	public static void main(String[] args) {		
 		try {	
 			File[] indexDirs = new File[1];
-			indexDirs[0] = new File("./bin/data/appstore/index/20111214");
+			indexDirs[0] = new File("./bin/data/appstore/index/20111215");
 			String object = "naverline";
 			File liwcFile = new File("./bin/liwc/LIWC_ja.txt");
 			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs);
 			searcher.putStopwordFile(new File("./conf/stopword_ja.txt"));
 			searcher.putSentimentAnalyzer(FieldConstants.LANG_JAPANESE, SentimentAnalyzer.getInstance(liwcFile));
 			
-			List<OpinionTerm> baseTerms = searcher.searchTerms(object, FieldConstants.LANG_JAPANESE, FieldConstants.SUBJECT, 5, true);
+			boolean excludeStopwords = true;
+			boolean byFeature = true;			
+			List<OpinionTerm> baseTerms = searcher.searchTerms(object, FieldConstants.LANG_JAPANESE, FieldConstants.SUBJECT, 5, excludeStopwords, byFeature);
 						
 			for (OpinionTerm term : baseTerms) {
 				System.out.println("--------------------------------------");
-				searcher.searchLinkedTerms(object, FieldConstants.LANG_JAPANESE, term, FieldConstants.PREDICATE, 5, 1);
-				searcher.searchLinkedTerms(object, FieldConstants.LANG_JAPANESE, term, FieldConstants.ATTRIBUTE, 5, 1);
+				searcher.searchLinkedTerms(object, FieldConstants.LANG_JAPANESE, term, FieldConstants.PREDICATE, 5, 1, byFeature);
+				searcher.searchLinkedTerms(object, FieldConstants.LANG_JAPANESE, term, FieldConstants.ATTRIBUTE, 5, 1, byFeature);
 			}
 		} catch (Exception e) {
 			e.printStackTrace();

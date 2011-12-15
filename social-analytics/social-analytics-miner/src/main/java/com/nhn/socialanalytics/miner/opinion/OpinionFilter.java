@@ -9,6 +9,7 @@ public class OpinionFilter implements Serializable {
 
 	String object;
 	String language;
+	boolean byFeature = false;
 	BaseTermFilter baseTermFilter;
 	List<LinkedTermFilter> linkedTermFilters = new ArrayList<LinkedTermFilter>();	
 	
@@ -26,6 +27,14 @@ public class OpinionFilter implements Serializable {
 
 	public void setLanguage(String language) {
 		this.language = language;
+	}
+	
+	public boolean isByFeature() {
+		return byFeature;
+	}
+
+	public void setByFeature(boolean byFeature) {
+		this.byFeature = byFeature;
 	}
 
 	public BaseTermFilter getBaseTermFilter() {

@@ -11,6 +11,7 @@ import com.nhn.socialanalytics.miner.index.DetailDoc;
 @SuppressWarnings("serial")
 public class OpinionTerm implements Serializable {
 	
+	private String id;
 	private String type;
 	private String object;
 	private String feature;
@@ -21,6 +22,14 @@ public class OpinionTerm implements Serializable {
 	private Map<String, List<OpinionTerm>> linkedTerms = new HashMap<String, List<OpinionTerm>>();
 	private List<DetailDoc> docs = new ArrayList<DetailDoc>();
 
+	public String getId() {
+		return id;
+	}
+	
+	public void setId(String id) {
+		this.id = id;
+	}
+	
 	public String getType() {
 		return type;
 	}

@@ -207,7 +207,8 @@ public class OpinionGraphViewer {
 			}
 			if (v.getName().equals(FieldConstants.SUBJECT)
 					|| v.getName().equals(FieldConstants.PREDICATE)
-					|| v.getName().equals(FieldConstants.ATTRIBUTE)) {
+					|| v.getName().equals(FieldConstants.ATTRIBUTE)
+					|| v.getType().equals(FieldConstants.FEATURE)) {
 				vertexPaints.put(v, Color.gray);
 			}
 		}
