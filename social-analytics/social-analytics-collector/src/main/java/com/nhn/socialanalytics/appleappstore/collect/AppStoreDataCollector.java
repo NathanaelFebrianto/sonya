@@ -40,9 +40,9 @@ import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
 
 public class AppStoreDataCollector extends Collector {
 	
+	public static final String TARGET_SITE_NAME = "appstore";
 	private static JobLogger logger = JobLogger.getLogger(AppStoreDataCollector.class, "appstore-collect.log");
-	private static final String TARGET_SITE_NAME = "appstore";
-	
+		
 	private AppStoreCrawler crawler;
 
 	public AppStoreDataCollector() {

@@ -4,6 +4,7 @@ import java.io.File;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 import org.quartz.Job;
@@ -14,6 +15,8 @@ import org.quartz.JobExecutionException;
 import com.nhn.socialanalytics.appleappstore.model.Review;
 import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.JobLogger;
+import com.nhn.socialanalytics.common.collect.CollectObject;
+import com.nhn.socialanalytics.common.collect.CollectObjectReader;
 import com.nhn.socialanalytics.common.collect.Collector;
 import com.nhn.socialanalytics.nlp.feature.FeatureClassifier;
 import com.nhn.socialanalytics.nlp.lang.ja.JapaneseMorphemeAnalyzer;
@@ -44,6 +47,8 @@ public class AppStoreDataCollectorJob implements Job {
 			System.out.println("Quartz says: " + jobName + " executing at " + startTime);
 			logger.info("Quartz says: " + jobName + " executing at " + startTime);
 
+			
+			/////////////////////////////
 			AppStoreDataCollector collector = new AppStoreDataCollector();
 			collector.setSpamFilter(new File(Config.getProperty("COLLECT_SPAM_FILTER_APPSTORE")));
 			collector.putMorphemeAnalyzer(Collector.LANG_KOREAN, new KoreanMorphemeAnalyzer());
@@ -53,69 +58,47 @@ public class AppStoreDataCollectorJob implements Job {
 			collector.putSentimentAnalyzer(Collector.LANG_KOREAN, new SentimentAnalyzer(new File(Config.getProperty("LIWC_KOREAN"))));
 			collector.putSentimentAnalyzer(Collector.LANG_JAPANESE, new SentimentAnalyzer(new File(Config.getProperty("LIWC_JAPANESE"))));
 			
-			/////////////////////////////			
-			String objectId1 = "naverline";
-			String appId1 = "443904275";
-			Set<String> appStores1 = new HashSet<String>();
-			appStores1.add(AppStores.getAppStore("Korea"));
-			appStores1.add(AppStores.getAppStore("Japan"));
+			String dataDir = Config.getProperty("APPSTORE_SOURCE_DATA_DIR");
+			String indexDir = Config.getProperty("APPSTORE_INDEX_DIR");
 			
-			collector.putFeatureClassifier(objectId1, Collector.LANG_KOREAN, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_KOREAN"))));
-			collector.putFeatureClassifier(objectId1, Collector.LANG_JAPANESE, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_JAPANESE"))));
+			CollectObjectReader colObjectReader = new CollectObjectReader(new File(Config.getProperty("COLLECT_OBJECTS")));
+			List<CollectObject> colObjects = colObjectReader.getCollectObject(AppStoreDataCollector.TARGET_SITE_NAME);
 			
-			List<Review> reviews1 = collector.getReviews(appStores1, appId1, 3);
-			
-			try {
-				String dataDir = Config.getProperty("APPSTORE_SOURCE_DATA_DIR");
-				String indexDir = Config.getProperty("APPSTORE_INDEX_DIR");
+			for (CollectObject colObject : colObjects) {
+				String objectId = colObject.getObject();
+				List<String> keywords = colObject.getSearchKeywords();
+				String appId = keywords.get(0);
+				int maxPage = colObject.getMaxPage();
+				int historyBufferMaxRound = colObject.getHistoryBufferMaxRound();
+				Map<String, String> featureClassifiers = colObject.getFeatureClassifiers();
+				Map<String, List<String>> attributes = colObject.getExtendedAttributes();
 				
-				collector.writeOutput(dataDir, indexDir, objectId1, reviews1, startTime, 5);
+				// app stores
+				Set<String> appStores = new HashSet<String>();
+				for (Map.Entry<String, List<String>> entry : attributes.entrySet()) {
+					if (entry.getKey().equalsIgnoreCase("APPSTORE")) {
+						List<String> values = entry.getValue();
+						for (String value : values) {
+							appStores.add(AppStores.getAppStore(value));
+						}
+					}
+				}
 				
-			} catch (Exception e) {
-				e.printStackTrace();
-				logger.error(e.getMessage(), e);
-			}
-
-			/////////////////////////////
-			String objectId2 = "naverapp";
-			String appId2 = "393499958";
-			Set<String> appStores2 = new HashSet<String>();
-			appStores2.add(AppStores.getAppStore("Korea"));
-			
-			collector.putFeatureClassifier(objectId2, Collector.LANG_KOREAN, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_KOREAN"))));
-			
-			List<Review> reviews2 = collector.getReviews(appStores2, appId2, 3);
-			
-			try {
-				String dataDir = Config.getProperty("APPSTORE_SOURCE_DATA_DIR");
-				String indexDir = Config.getProperty("APPSTORE_INDEX_DIR");
+				// feature classifiers
+				for (Map.Entry<String, String> entry : featureClassifiers.entrySet()) {
+					String language = entry.getKey();
+					String featureFile = entry.getValue();	
+					collector.putFeatureClassifier(objectId, language, new FeatureClassifier(new File(featureFile)));
+				}
 				
-				collector.writeOutput(dataDir, indexDir, objectId2, reviews2, startTime, 5);
+				List<Review> reviews = collector.getReviews(appStores, appId, maxPage);
 				
-			} catch (Exception e) {
-				e.printStackTrace();
-				logger.error(e.getMessage(), e);
-			}
-			
-			/////////////////////////////
-			String objectId3 = "kakaotalk";
-			String appId3 = "362057947";
-			Set<String> appStores3 = new HashSet<String>();
-			appStores3.add(AppStores.getAppStore("Korea"));
-			
-			collector.putFeatureClassifier(objectId3, Collector.LANG_KOREAN, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_KOREAN"))));
-			
-			List<Review> reviews3 = collector.getReviews(appStores3, appId3, 3);
-			
-			try {
-				String dataDir = Config.getProperty("APPSTORE_SOURCE_DATA_DIR");
-				String indexDir = Config.getProperty("APPSTORE_INDEX_DIR");
-				
-				collector.writeOutput(dataDir, indexDir, objectId3, reviews3, startTime, 5);
-				
-			} catch (Exception e) {
-				e.printStackTrace();
-				logger.error(e.getMessage(), e);
+				try {
+					collector.writeOutput(dataDir, indexDir, objectId, reviews, startTime, historyBufferMaxRound);
+				} catch (Exception e) {
+					e.printStackTrace();
+					logger.error(e.getMessage(), e);
+				}				
 			}
 			/////////////////////////////
 			

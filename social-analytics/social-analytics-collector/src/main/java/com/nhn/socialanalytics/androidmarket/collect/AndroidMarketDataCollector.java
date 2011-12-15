@@ -40,8 +40,8 @@ import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
 
 public class AndroidMarketDataCollector extends Collector { 
 	
+	public static final String TARGET_SITE_NAME = "androidmarket";
 	private static JobLogger logger = JobLogger.getLogger(AndroidMarketDataCollector.class, "androidmarket-collect.log");
-	private static final String TARGET_SITE_NAME = "androidmarket";
 	
 	private AndroidMarketCrawler crawler;
 	

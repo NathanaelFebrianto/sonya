@@ -38,8 +38,8 @@ import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
 
 public class Me2dayDataCollector extends Collector {
 
-	private static JobLogger logger = JobLogger.getLogger(Me2dayDataCollector.class, "me2day-collect.log");
-	private static final String TARGET_SITE_NAME = "me2day";
+	public static final String TARGET_SITE_NAME = "me2day";
+	private static JobLogger logger = JobLogger.getLogger(Me2dayDataCollector.class, "me2day-collect.log");	
 	
 	private Me2dayCrawler crawler;
 	

@@ -45,8 +45,8 @@ import com.nhn.socialanalytics.twitter.parse.TwitterParser;
 
 public class TwitterDataCollector extends Collector {
 
+	public static final String TARGET_SITE_NAME = "twitter";
 	private static JobLogger logger = JobLogger.getLogger(TwitterDataCollector.class, "twitter-collect.log");
-	private static final String TARGET_SITE_NAME = "twitter";
 	
 	private Twitter twitter;
 	
