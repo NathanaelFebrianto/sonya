@@ -120,7 +120,7 @@ public class DetailDoc {
 	}
 
 	public String getSubject() {
-		return subject.toLowerCase();
+		return subject;
 	}
 
 	public void setSubject(String subject) {
