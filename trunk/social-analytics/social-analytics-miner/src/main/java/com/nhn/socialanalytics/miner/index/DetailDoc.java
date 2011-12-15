@@ -124,7 +124,9 @@ public class DetailDoc {
 	}
 
 	public void setSubject(String subject) {
-		this.subject = subject.toLowerCase();
+		if (subject != null)
+			subject = subject.toLowerCase();
+		this.subject = subject;
 	}
 
 	public String getPredicate() {
@@ -132,7 +134,9 @@ public class DetailDoc {
 	}
 
 	public void setPredicate(String predicate) {
-		this.predicate = predicate.toLowerCase();
+		if (predicate != null)
+			predicate = predicate.toLowerCase();
+		this.predicate = predicate;
 	}
 
 	public String getAttribute() {
@@ -140,7 +144,9 @@ public class DetailDoc {
 	}
 
 	public void setAttribute(String attribute) {
-		this.attribute = attribute.toLowerCase();
+		if (attribute != null)
+			attribute = attribute.toLowerCase();
+		this.attribute = attribute;
 	}
 
 	public String getText() {
@@ -148,7 +154,9 @@ public class DetailDoc {
 	}
 
 	public void setText(String text) {
-		this.text = text.toLowerCase();
+		if (text != null)
+			text = text.toLowerCase();
+		this.text = text;
 	}
 	
 	public double getPolarity() {
