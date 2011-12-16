@@ -12,10 +12,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
-import java.io.File;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 import javax.swing.BorderFactory;
 import javax.swing.JApplet;
@@ -32,16 +29,15 @@ import javax.swing.JToggleButton;
 import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
+import javax.swing.border.EmptyBorder;
 
 import org.apache.commons.collections15.Transformer;
 
+import com.jgoodies.forms.builder.PanelBuilder;
+import com.jgoodies.forms.layout.CellConstraints;
+import com.jgoodies.forms.layout.FormLayout;
 import com.nhn.socialanalytics.miner.index.DetailDoc;
-import com.nhn.socialanalytics.miner.index.DocIndexSearcher;
-import com.nhn.socialanalytics.miner.index.FieldConstants;
-import com.nhn.socialanalytics.miner.opinion.OpinionFilter;
-import com.nhn.socialanalytics.miner.opinion.OpinionMiner;
 import com.nhn.socialanalytics.miner.opinion.OpinionResultSet;
-import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
 
 import edu.uci.ics.jung.algorithms.layout.Layout;
 import edu.uci.ics.jung.algorithms.layout.TreeLayout;
@@ -54,23 +50,55 @@ import edu.uci.ics.jung.visualization.control.ModalGraphMouse;
 @SuppressWarnings("serial")
 public class OpinionViewerApplet extends JApplet {
 	
+	JTabbedPane tpaneToolbar;
 	JTabbedPane tpaneRight;
-	JTabbedPane tpaneLeft;
+	JTabbedPane tpaneLeft;	
 	
-	private Forest<TermNode, TermEdge> graph;
+	OpinionGraphViewer graphViewer;
 	JTextArea tareaDetailDocs;	
 
 	public OpinionViewerApplet(Forest<TermNode, TermEdge> graph) {
-		this.graph = graph;
-		
-		OpinionGraphViewer graphViewer = makeGraphView(graph);
+		this.graphViewer = makeGraphView(graph);
 		
 		JSplitPane splitPane = new JSplitPane();
 		splitPane.setOneTouchExpandable(true);
 		splitPane.add(makeRightPanel(graphViewer), JSplitPane.LEFT);
-		splitPane.add(makeLeftPanel(), JSplitPane.RIGHT);			
+		splitPane.add(makeLeftPanel(), JSplitPane.RIGHT);
+		
+		add(makeToolbarPanel(graphViewer), BorderLayout.NORTH);
 		add(splitPane, BorderLayout.CENTER);	
-		add(makeGraphViewControlPanel(graphViewer), BorderLayout.SOUTH);
+	}
+	
+	public OpinionGraphViewer getOpinionGraphViewer() {
+		return this.graphViewer;
+	}
+	
+	public void showGraphView(OpinionResultSet resultSet) {
+		OpinionGraphModeller modeller = new OpinionGraphModeller(resultSet);
+		Forest<TermNode, TermEdge> graph = modeller.getGraph();
+		Layout<TermNode, TermEdge> treeLayout = new TreeLayout<TermNode, TermEdge>(graph);
+		graphViewer.updateGraph(treeLayout);
+	}
+	
+	
+	private JComponent makeToolbarPanel(OpinionGraphViewer graphViewer) {
+		tpaneToolbar = new JTabbedPane(SwingConstants.TOP);	
+		
+		FormLayout layout = new FormLayout(
+				"left:p, 4dlu, p",
+				"p, 4dlu, p");
+
+		PanelBuilder builder = new PanelBuilder(layout);
+		builder.setDefaultDialogBorder();
+		CellConstraints cc = new CellConstraints();
+		
+		builder.add(new OpinionToolbar(this), cc.xy(1, 1));
+		builder.add(makeGraphViewControlPanel(graphViewer), cc.xy(3, 1, "left, top"));
+		
+		builder.getPanel().setBorder(new EmptyBorder(0,0,0,0));
+		tpaneToolbar.addTab(UIHandler.getText("tab.toolbar"), builder.getPanel());	
+		
+		return tpaneToolbar;
 	}
 	
 	private JComponent makeRightPanel(OpinionGraphViewer graphViewer) {
@@ -81,13 +109,13 @@ public class OpinionViewerApplet extends JApplet {
 		
 		tpaneRight.addTab(UIHandler.getText("tab.graph.view"), panelGraph);		
 		tpaneRight.addTab(UIHandler.getText("tab.table.view"), new JPanel());
+		tpaneRight.addTab(UIHandler.getText("tab.summary.view"), new JPanel());
 		
 		return tpaneRight;
 	}
 	
 	private JComponent makeLeftPanel() {
-		tpaneLeft = new JTabbedPane(SwingConstants.TOP);		
-		
+		tpaneLeft = new JTabbedPane(SwingConstants.TOP);			
 		tpaneLeft.addTab(UIHandler.getText("tab.doc.list"), makeDetailDocListPanel());		
 		
 		return tpaneLeft;
@@ -158,9 +186,11 @@ public class OpinionViewerApplet extends JApplet {
 		});
 
 		JPanel scaleGrid = new JPanel(new GridLayout(1, 0));
-		scaleGrid.setBorder(BorderFactory.createTitledBorder("Zoom"));
+		//scaleGrid.setBorder(BorderFactory.createTitledBorder("Zoom"));
+		scaleGrid.setPreferredSize(new Dimension(55, 22));
 
-		JPanel controls = new JPanel();
+		JPanel controls = new JPanel(new FlowLayout(FlowLayout.LEFT));
+		controls.setBorder(BorderFactory.createTitledBorder("Graph Option"));
 		scaleGrid.add(plus);
 		scaleGrid.add(minus);
 		controls.add(radial);
@@ -169,22 +199,6 @@ public class OpinionViewerApplet extends JApplet {
 		
 		return controls;		
 	}	
-	
-	private JComponent makeToolbarPanel() {
-		JPanel panel = new JPanel();
-		panel.setLayout(new FlowLayout());
-		
-		JButton btnRun = new JButton("Run");
-		ActionListener runActionListener = (ActionListener)(GenericListener.create(
-		        ActionListener.class,
-				"actionPerformed",
-				this,
-				"runAction"));		
-		btnRun.addActionListener(runActionListener);
-		panel.add(btnRun);
-		
-		return panel;
-	}
 	
 	private JComponent makeDetailDocListPanel() {
 		JPanel panel = new JPanel();
@@ -201,53 +215,15 @@ public class OpinionViewerApplet extends JApplet {
 	public static void main(String[] args) {
 		
 		try {
-			File[] indexDirs = new File[1];
-			indexDirs[0] = new File("./bin/data/appstore/index/20111215");
-			
-			String object = "naverline";
-			
-			Set<String> customStopwords = new HashSet<String>();
-			customStopwords.add("좋은데");
-			customStopwords.add("바이버보");
-			customStopwords.add("그누구");
-			customStopwords.add("이건");
-			customStopwords.add("역시");
-			customStopwords.add("아직");
-			customStopwords.add("메세지는");
-			customStopwords.add("한가지");
-
-			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs);
-			searcher.putStopwordFile(new File("./conf/stopword_ko.txt"));
-			searcher.putStopwordFile(new File("./conf/stopword_ja.txt"));
-			searcher.putCustomStopwords(customStopwords);
-			searcher.putSentimentAnalyzer(FieldConstants.LANG_KOREAN, SentimentAnalyzer.getInstance(new File("./bin/liwc/LIWC_ko.txt")));
-			searcher.putSentimentAnalyzer(FieldConstants.LANG_JAPANESE, SentimentAnalyzer.getInstance(new File("./bin/liwc/LIWC_ja.txt")));
-			System.out.println("stopwords == " + searcher.getStopwords());
-			
-			
-			/////////////////////////////////
-			/*   base term ==> SUBJECT     */
-			/////////////////////////////////
-			
-			OpinionFilter filter = new OpinionFilter();
-			filter.setObject(object);
-			filter.setLanguage(FieldConstants.LANG_KOREAN);			
-			filter.setBaseTermFilter(FieldConstants.SUBJECT, 4, true);
-			filter.addLinkedTermFilter(FieldConstants.PREDICATE, 1, 2);
-			filter.addLinkedTermFilter(FieldConstants.ATTRIBUTE, 1, 2);	
-			filter.setByFeature(true);
-			
-			OpinionMiner miner = new OpinionMiner(searcher);
-			OpinionResultSet ors = miner.getOpinionResultSet(filter);			
-
-			OpinionGraphModeller modeller = new OpinionGraphModeller(ors);
-			final Forest<TermNode, TermEdge> graph = modeller.getGraph();
+			OpinionGraphModeller modeller = new OpinionGraphModeller();
+			final Forest<TermNode, TermEdge> graph = modeller.getEmptyGraph();
 			
 			SwingUtilities.invokeLater(new Runnable() {
 				public void run() {
 					try {
 						UIManager.setLookAndFeel("org.pushingpixels.substance.api.skin.SubstanceCremeLookAndFeel");
 						//UIManager.setLookAndFeel("org.pushingpixels.substance.api.skin.SubstanceGraphiteAquaLookAndFeel");
+						//UIManager.setLookAndFeel("com.jgoodies.looks.plastic.Plastic3DLookAndFeel");
 							
 						//Font font = new Font("tahoma", Font.PLAIN, 11);
 						Font font = new Font("MS Gothic", Font.PLAIN, 12);

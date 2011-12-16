@@ -81,6 +81,11 @@ public class OpinionGraphModeller {
 		return graph;
 	}
 	
+	public Forest<TermNode, TermEdge> getEmptyGraph() {
+		graph = new DelegateForest<TermNode, TermEdge>();
+		return graph;
+	}
+	
 	/**
 	 * Creates the vertices.
 	 * 

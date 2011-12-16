@@ -243,6 +243,24 @@ public class OpinionGraphViewer {
 		}
 		vv.repaint();
 	}
+	
+	public void updateGraph(Layout<TermNode, TermEdge> layout) {		
+		this.graph = (Forest<TermNode, TermEdge>) layout.getGraph();
+		if (layout instanceof TreeLayout) {
+			treeLayout = (TreeLayout<TermNode, TermEdge>) layout;
+			radialLayout = new RadialTreeLayout<TermNode, TermEdge>(graph);
+			
+			vv.setGraphLayout(treeLayout);
+		} else if (layout instanceof RadialTreeLayout) {			
+			radialLayout = (RadialTreeLayout<TermNode, TermEdge>) layout;
+			treeLayout = new TreeLayout<TermNode, TermEdge>(graph);
+			
+			vv.setGraphLayout(radialLayout);
+		}
+		
+		this.changeVerticesColor();
+		rings = new Rings();		
+	}
 
 	class Rings implements VisualizationServer.Paintable {
 
