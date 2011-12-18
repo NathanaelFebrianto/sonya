@@ -54,6 +54,8 @@ public class OpinionGraphViewer {
 	Forest<TermNode, TermEdge> graph;
 	Map<TermNode, Paint> vertexPaints;
 	VisualizationViewer<TermNode, TermEdge> vv;
+	
+	int layoutMode = 1;	// tree layout = 1, radial layout = 2
 
 	Factory<DirectedGraph<TermNode, TermEdge>> graphFactory = new Factory<DirectedGraph<TermNode, TermEdge>>() {
 
@@ -223,7 +225,8 @@ public class OpinionGraphViewer {
 	}
 	
 	public void toggleLayout(ItemEvent e) {
-		if (e.getStateChange() == ItemEvent.SELECTED) {
+		if (e.getStateChange() == ItemEvent.SELECTED) {			
+			rings = new Rings();	
 			
 			LayoutTransition<TermNode, TermEdge> lt = new LayoutTransition<TermNode, TermEdge>(
 					vv, treeLayout, radialLayout);
@@ -232,6 +235,7 @@ public class OpinionGraphViewer {
 			vv.getRenderContext().getMultiLayerTransformer()
 					.setToIdentity();
 			vv.addPreRenderPaintable(rings);
+			layoutMode = 2;
 		} else {
 			LayoutTransition<TermNode, TermEdge> lt = new LayoutTransition<TermNode, TermEdge>(
 					vv, radialLayout, treeLayout);
@@ -240,26 +244,42 @@ public class OpinionGraphViewer {
 			vv.getRenderContext().getMultiLayerTransformer()
 					.setToIdentity();
 			vv.removePreRenderPaintable(rings);
+			layoutMode = 1;
 		}
 		vv.repaint();
 	}
 	
-	public void updateGraph(Layout<TermNode, TermEdge> layout) {		
+	public void updateGraph(Layout<TermNode, TermEdge> layout) {
+
 		this.graph = (Forest<TermNode, TermEdge>) layout.getGraph();
 		if (layout instanceof TreeLayout) {
 			treeLayout = (TreeLayout<TermNode, TermEdge>) layout;
-			radialLayout = new RadialTreeLayout<TermNode, TermEdge>(graph);
-			
-			vv.setGraphLayout(treeLayout);
+			radialLayout = new RadialTreeLayout<TermNode, TermEdge>(graph);			
+
 		} else if (layout instanceof RadialTreeLayout) {			
 			radialLayout = (RadialTreeLayout<TermNode, TermEdge>) layout;
 			treeLayout = new TreeLayout<TermNode, TermEdge>(graph);
+		}
+		
+		if (layoutMode == 1) {
+			vv.setGraphLayout(treeLayout);
+		}
+		else {
+			vv.removePreRenderPaintable(rings);
+			vv.setGraphLayout(radialLayout);		
 			
-			vv.setGraphLayout(radialLayout);
+			rings = new Rings();	
+			
+			LayoutTransition<TermNode, TermEdge> lt = new LayoutTransition<TermNode, TermEdge>(
+					vv, treeLayout, radialLayout);
+			Animator animator = new Animator(lt);
+			animator.start();
+			vv.getRenderContext().getMultiLayerTransformer()
+					.setToIdentity();
+			vv.addPreRenderPaintable(rings);
 		}
 		
 		this.changeVerticesColor();
-		rings = new Rings();		
 	}
 
 	class Rings implements VisualizationServer.Paintable {

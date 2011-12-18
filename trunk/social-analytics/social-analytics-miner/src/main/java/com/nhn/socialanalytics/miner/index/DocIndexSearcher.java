@@ -3,8 +3,11 @@ package com.nhn.socialanalytics.miner.index;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -27,6 +30,7 @@ import org.apache.lucene.search.TermQuery;
 import org.apache.lucene.search.TermsFilter;
 import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.store.FSDirectory;
+import org.apache.lucene.store.NoSuchDirectoryException;
 import org.apache.mahout.common.iterator.FileLineIterator;
 
 import com.nhn.socialanalytics.miner.opinion.OpinionTerm;
@@ -91,6 +95,8 @@ public class DocIndexSearcher {
 				IndexReader reader = IndexReader.open(FSDirectory.open(indexDirs[i]));
 				readers.add(reader);
 			} catch (IndexNotFoundException e) {
+				System.out.println(e.getMessage());
+			} catch (NoSuchDirectoryException e) {
 				System.out.println(e.getMessage());
 			}
 		}
@@ -569,8 +575,39 @@ public class DocIndexSearcher {
 		return map;
 	}
 	
+	public static File[] getIndexDirectories(String baseDir, Date start, Date end) {
+		
+		int days = (int) ((end.getTime() - start.getTime()) / (1000 * 60 * 60 *24));
+
+		System.out.println("start == " + start);
+		System.out.println("end == " + end);
+		System.out.println("end - start == " + days + " days");
+		
+		Calendar cal = Calendar.getInstance();
+		SimpleDateFormat df = new SimpleDateFormat("yyyyMMdd");
+		
+		File[] directories = new File[days+1];
+		for (int day = 0 ; day <= days; day++) {
+			cal.setTime(start);
+			cal.add(Calendar.DAY_OF_YEAR, day);
+			Date date = cal.getTime();
+			String strDate = df.format(date);
+			directories[day] = new File(baseDir + File.separator + strDate);
+			System.out.println(directories[day]);
+		}        
+		
+		return directories;
+	}
+	
 	public static void main(String[] args) {		
 		try {	
+			Calendar cal = Calendar.getInstance();
+			cal.setTime(new Date());			
+			cal.add(Calendar.DAY_OF_YEAR, -3);
+			Date start = cal.getTime();			
+			Date end = new Date();
+			DocIndexSearcher.getIndexDirectories("./bin/data/appstore/index/", start, end);
+			
 			File[] indexDirs = new File[1];
 			indexDirs[0] = new File("./bin/data/appstore/index/20111215");
 			String object = "naverline";
@@ -588,6 +625,7 @@ public class DocIndexSearcher {
 				searcher.searchLinkedTerms(object, FieldConstants.LANG_JAPANESE, term, FieldConstants.PREDICATE, 5, 1, byFeature);
 				searcher.searchLinkedTerms(object, FieldConstants.LANG_JAPANESE, term, FieldConstants.ATTRIBUTE, 5, 1, byFeature);
 			}
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

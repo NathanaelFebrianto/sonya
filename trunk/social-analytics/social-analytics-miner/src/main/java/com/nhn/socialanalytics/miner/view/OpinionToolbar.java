@@ -13,6 +13,7 @@ import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
 import javax.swing.JComponent;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JSpinner;
 import javax.swing.JTextField;
@@ -180,34 +181,26 @@ public class OpinionToolbar extends JPanel {
 			/*   base term ==> SUBJECT     */
 			/////////////////////////////////
 			
-//			JTextField tfldObject;
-//			JCheckBox chkboxFeature;
-//			JDateChooser calStartDate;
-//			JDateChooser calEndDate;
-//			JSpinner spinSubjectTF;
-//			JSpinner spinSubjectLinkTF;
-//			JSpinner spinPredicateTF;
-//			JSpinner spinPredicateLinkTF;
-//			JSpinner spinAttributeTF;
-//			JSpinner spinAttributeLinkTF;
-//			JComboBox comboSite;
-//			JComboBox comboLanguage;
-//			JTextField tfldObject;
-			
 			String site = ((ObjectModel) comboSite.getSelectedItem()).getValue();
-			String object = tfldObject.getText();
 			String language = ((ObjectModel) comboLanguage.getSelectedItem()).getValue();
+			String object = tfldObject.getText();	
+			Date startDate = calStartDate.getDate();
+			Date endDate = calEndDate.getDate();
+			boolean byFeature = chkboxFeature.isSelected();			
 			int baseTermMinTF = Integer.valueOf(spinSubjectTF.getValue().toString());
 			boolean excludeStopwords = true;
 			int predicateMinTF = Integer.valueOf(spinPredicateTF.getValue().toString());
 			int predicateMinLinkTF = Integer.valueOf(spinPredicateLinkTF.getValue().toString());
 			int attributeMinTF = Integer.valueOf(spinAttributeTF.getValue().toString());
 			int attributeMinLinkTF = Integer.valueOf(spinAttributeLinkTF.getValue().toString());
-			boolean byFeature = chkboxFeature.isSelected();
 			
+			if (object == null || object.equals("")) {
+				JOptionPane.showMessageDialog(parent, UIHandler.getText("msg.input.object.name"), "Warning", JOptionPane.WARNING_MESSAGE);
+				return;
+			}
 			
-			File[] indexDirs = new File[1];
-			indexDirs[0] = new File("./bin/data/" + site + "/index/20111215");			
+			String indexBaseDir = "./bin/data/" + site + File.separator + "index";
+			File[] indexDirs = DocIndexSearcher.getIndexDirectories(indexBaseDir, startDate, endDate);
 			
 			Set<String> customStopwords = new HashSet<String>();
 			customStopwords.add("좋은데");
@@ -225,8 +218,7 @@ public class OpinionToolbar extends JPanel {
 			searcher.putCustomStopwords(customStopwords);
 			searcher.putSentimentAnalyzer(FieldConstants.LANG_KOREAN, SentimentAnalyzer.getInstance(new File("./bin/liwc/LIWC_ko.txt")));
 			searcher.putSentimentAnalyzer(FieldConstants.LANG_JAPANESE, SentimentAnalyzer.getInstance(new File("./bin/liwc/LIWC_ja.txt")));
-			System.out.println("stopwords == " + searcher.getStopwords());
-			
+			System.out.println("stopwords == " + searcher.getStopwords());			
 			
 			OpinionFilter filter = new OpinionFilter();
 			filter.setObject(object);
@@ -234,7 +226,7 @@ public class OpinionToolbar extends JPanel {
 			filter.setBaseTermFilter(FieldConstants.SUBJECT, baseTermMinTF, excludeStopwords);
 			filter.addLinkedTermFilter(FieldConstants.PREDICATE, predicateMinTF, predicateMinLinkTF);
 			filter.addLinkedTermFilter(FieldConstants.ATTRIBUTE, attributeMinTF, attributeMinLinkTF);	
-			filter.setByFeature(byFeature);
+			filter.setByFeature(byFeature);			
 			
 			OpinionMiner miner = new OpinionMiner(searcher);
 			OpinionResultSet resultSet = miner.getOpinionResultSet(filter);			
@@ -243,6 +235,8 @@ public class OpinionToolbar extends JPanel {
 
 		} catch (Exception ex) {
 			ex.printStackTrace();
+			JOptionPane.showMessageDialog(parent, ex.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
+			return;
 		}
 	}
 	
