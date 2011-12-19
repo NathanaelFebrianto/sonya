@@ -30,6 +30,8 @@ import javax.swing.SwingConstants;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.border.EmptyBorder;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 
 import org.apache.commons.collections15.Transformer;
 
@@ -37,6 +39,7 @@ import com.jgoodies.forms.builder.PanelBuilder;
 import com.jgoodies.forms.layout.CellConstraints;
 import com.jgoodies.forms.layout.FormLayout;
 import com.nhn.socialanalytics.miner.index.DetailDoc;
+import com.nhn.socialanalytics.miner.opinion.FeatureResultSet;
 import com.nhn.socialanalytics.miner.opinion.OpinionResultSet;
 
 import edu.uci.ics.jung.algorithms.layout.Layout;
@@ -51,10 +54,11 @@ import edu.uci.ics.jung.visualization.control.ModalGraphMouse;
 public class OpinionViewerApplet extends JApplet {
 	
 	JTabbedPane tpaneToolbar;
-	JTabbedPane tpaneRight;
-	JTabbedPane tpaneLeft;	
+	JTabbedPane tpaneOpinion;
+	JTabbedPane tpaneList;	
 	
 	OpinionGraphViewer graphViewer;
+	FeatureSummaryChart featureChart;
 	JTextArea tareaDetailDocs;	
 
 	public OpinionViewerApplet(Forest<TermNode, TermEdge> graph) {
@@ -62,8 +66,8 @@ public class OpinionViewerApplet extends JApplet {
 		
 		JSplitPane splitPane = new JSplitPane();
 		splitPane.setOneTouchExpandable(true);
-		splitPane.add(makeRightPanel(graphViewer), JSplitPane.LEFT);
-		splitPane.add(makeLeftPanel(), JSplitPane.RIGHT);
+		splitPane.add(makeLeftPanel(graphViewer), JSplitPane.LEFT);
+		splitPane.add(makeRightPanel(), JSplitPane.RIGHT);
 		
 		add(makeToolbarPanel(graphViewer), BorderLayout.NORTH);
 		add(splitPane, BorderLayout.CENTER);	
@@ -80,10 +84,27 @@ public class OpinionViewerApplet extends JApplet {
 		graphViewer.updateGraph(treeLayout);
 	}
 	
+	public void showFeatureChart(FeatureResultSet resultSet, boolean includeEtc) {
+		featureChart.updateChart(resultSet, includeEtc);
+	}
 	
 	private JComponent makeToolbarPanel(OpinionGraphViewer graphViewer) {
 		tpaneToolbar = new JTabbedPane(SwingConstants.TOP);	
 		
+		tpaneToolbar.addTab(UIHandler.getText("tab.toolbar.graph"), makeGraphViewToolbar(graphViewer));
+		tpaneToolbar.addTab(UIHandler.getText("tab.toolbar.feature"), new FeatureToolbar(this));
+		
+		ChangeListener tabChangeListener = (ChangeListener)(GenericListener.create(
+				ChangeListener.class,
+				"stateChanged",
+				this,
+				"toolbarTabChangeAction"));		
+		tpaneToolbar.addChangeListener(tabChangeListener);
+		
+		return tpaneToolbar;
+	}
+	
+	private JComponent makeGraphViewToolbar(OpinionGraphViewer graphViewer) {
 		FormLayout layout = new FormLayout(
 				"left:p, 4dlu, p",
 				"p, 4dlu, p");
@@ -96,66 +117,8 @@ public class OpinionViewerApplet extends JApplet {
 		builder.add(makeGraphViewControlPanel(graphViewer), cc.xy(3, 1, "left, top"));
 		
 		builder.getPanel().setBorder(new EmptyBorder(0,0,0,0));
-		tpaneToolbar.addTab(UIHandler.getText("tab.toolbar"), builder.getPanel());	
 		
-		return tpaneToolbar;
-	}
-	
-	private JComponent makeRightPanel(OpinionGraphViewer graphViewer) {
-		tpaneRight = new JTabbedPane(SwingConstants.TOP);
-		
-		VisualizationViewer<TermNode, TermEdge> vv = graphViewer.getVisualizationViewer();
-		GraphZoomScrollPane panelGraph = new GraphZoomScrollPane(vv);
-		
-		tpaneRight.addTab(UIHandler.getText("tab.graph.view"), panelGraph);		
-		tpaneRight.addTab(UIHandler.getText("tab.table.view"), new JPanel());
-		tpaneRight.addTab(UIHandler.getText("tab.summary.view"), new JPanel());
-		
-		return tpaneRight;
-	}
-	
-	private JComponent makeLeftPanel() {
-		tpaneLeft = new JTabbedPane(SwingConstants.TOP);			
-		tpaneLeft.addTab(UIHandler.getText("tab.doc.list"), makeDetailDocListPanel());		
-		
-		return tpaneLeft;
-	}
-	
-	private OpinionGraphViewer makeGraphView(Forest<TermNode, TermEdge> graph) {
-		Layout<TermNode, TermEdge> treeLayout = new TreeLayout<TermNode, TermEdge>(graph);
-		final OpinionGraphViewer viewer = new OpinionGraphViewer(treeLayout, new Dimension(600, 600));
-		final VisualizationViewer<TermNode, TermEdge> vv = viewer.getVisualizationViewer();
-		
-		vv.getRenderContext().setVertexStrokeTransformer(
-				new Transformer<TermNode, Stroke>() {
-					protected final Stroke THIN = new BasicStroke(1);
-					protected final Stroke THICK = new BasicStroke(2);
-
-					public Stroke transform(TermNode v) {
-						if (vv.getPickedVertexState().isPicked(v)) {
-							tareaDetailDocs.setText("");
-							List<DetailDoc> detailDocs = v.getDocs();
-							
-							int docCount = 1;
-							for (DetailDoc doc : detailDocs) {
-								if (docCount == 1) {
-									tareaDetailDocs.append("============================================================\n");
-									tareaDetailDocs.append(doc.toHeaderString() + "\n");
-									tareaDetailDocs.append("============================================================\n");
-								}
-								tareaDetailDocs.append(doc.toString() + "\n\n");
-								
-								docCount++;
-							}				
-							
-							return THICK;
-						} else {
-							return THIN;
-						}
-					}
-				});		
-	
-		return viewer;
+		return builder.getPanel();
 	}
 	
 	private JComponent makeGraphViewControlPanel(final OpinionGraphViewer viewer) {
@@ -200,6 +163,77 @@ public class OpinionViewerApplet extends JApplet {
 		return controls;		
 	}	
 	
+	private JComponent makeLeftPanel(OpinionGraphViewer graphViewer) {
+		tpaneOpinion = new JTabbedPane(SwingConstants.TOP);
+		
+		VisualizationViewer<TermNode, TermEdge> vv = graphViewer.getVisualizationViewer();
+		GraphZoomScrollPane panelGraph = new GraphZoomScrollPane(vv);
+		
+		tpaneOpinion.addTab(UIHandler.getText("tab.graph.view"), panelGraph);		
+		tpaneOpinion.addTab(UIHandler.getText("tab.table.view"), new JPanel());
+		tpaneOpinion.addTab(UIHandler.getText("tab.summary.view"), this.makeFeatureSummaryChart());
+		
+		ChangeListener tabChangeListener = (ChangeListener)(GenericListener.create(
+				ChangeListener.class,
+				"stateChanged",
+				this,
+				"opinionTabChangeAction"));		
+		tpaneOpinion.addChangeListener(tabChangeListener);
+		
+		return tpaneOpinion;
+	}
+	
+	private JComponent makeRightPanel() {
+		tpaneList = new JTabbedPane(SwingConstants.TOP);			
+		tpaneList.addTab(UIHandler.getText("tab.doc.list"), makeDetailDocListPanel());		
+		
+		return tpaneList;
+	}
+	
+	private OpinionGraphViewer makeGraphView(Forest<TermNode, TermEdge> graph) {
+		Layout<TermNode, TermEdge> treeLayout = new TreeLayout<TermNode, TermEdge>(graph);
+		final OpinionGraphViewer viewer = new OpinionGraphViewer(treeLayout, new Dimension(600, 600));
+		final VisualizationViewer<TermNode, TermEdge> vv = viewer.getVisualizationViewer();
+		
+		vv.getRenderContext().setVertexStrokeTransformer(
+				new Transformer<TermNode, Stroke>() {
+					protected final Stroke THIN = new BasicStroke(1);
+					protected final Stroke THICK = new BasicStroke(2);
+
+					public Stroke transform(TermNode v) {
+						if (vv.getPickedVertexState().isPicked(v)) {
+							tareaDetailDocs.setText("");
+							List<DetailDoc> detailDocs = v.getDocs();
+							
+							int docCount = 1;
+							for (DetailDoc doc : detailDocs) {
+								if (docCount == 1) {
+									tareaDetailDocs.append("============================================================\n");
+									tareaDetailDocs.append(doc.toHeaderString() + "\n");
+									tareaDetailDocs.append("============================================================\n");
+								}
+								tareaDetailDocs.append(doc.toString() + "\n\n");
+								
+								docCount++;
+							}				
+							
+							return THICK;
+						} else {
+							return THIN;
+						}
+					}
+				});		
+	
+		return viewer;
+	}
+	
+	private JComponent makeFeatureSummaryChart() {
+		this.featureChart = new FeatureSummaryChart();
+		JScrollPane scrollPane = new JScrollPane(featureChart);
+		
+		return scrollPane;
+	}
+	
 	private JComponent makeDetailDocListPanel() {
 		JPanel panel = new JPanel();
 		panel.setLayout(new BorderLayout());
@@ -210,6 +244,34 @@ public class OpinionViewerApplet extends JApplet {
 		panel.add(new JScrollPane(tareaDetailDocs), BorderLayout.CENTER);	
 				
 		return panel;
+	}
+	
+	//////////////////////////////////////////
+	/*       Defines event actions.         */
+	//////////////////////////////////////////
+	
+	public void toolbarTabChangeAction(ChangeEvent e) {
+		JTabbedPane sourceTabbedPane = (JTabbedPane) e.getSource();
+        int index = sourceTabbedPane.getSelectedIndex();
+        
+        if (index == 0) {
+        	tpaneOpinion.setSelectedIndex(0);
+        }
+        else if (index == 1) {
+        	tpaneOpinion.setSelectedIndex(2);
+        }
+	}
+	
+	public void opinionTabChangeAction(ChangeEvent e) {
+		JTabbedPane sourceTabbedPane = (JTabbedPane) e.getSource();
+        int index = sourceTabbedPane.getSelectedIndex();
+        
+        if (index == 0 || index == 1) {
+        	tpaneToolbar.setSelectedIndex(0);
+        }
+        else if (index == 2) {
+        	tpaneToolbar.setSelectedIndex(1);
+        }
 	}
 	
 	public static void main(String[] args) {
@@ -228,7 +290,7 @@ public class OpinionViewerApplet extends JApplet {
 						//Font font = new Font("tahoma", Font.PLAIN, 11);
 						Font font = new Font("MS Gothic", Font.PLAIN, 12);
 						//Font font = new Font("MS Mincho", Font.PLAIN, 12);
-						//UIHandler.changeAllSwingComponentDefaultFont(font);
+						UIHandler.changeAllSwingComponentDefaultFont(font);
 
 						JFrame frame = new JFrame();
 						Container content = frame.getContentPane();

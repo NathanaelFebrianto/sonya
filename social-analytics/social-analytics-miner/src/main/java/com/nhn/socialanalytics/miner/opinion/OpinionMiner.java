@@ -75,6 +75,7 @@ public class OpinionMiner {
 		
 		try {
 			FeatureResultSet resultSet = new FeatureResultSet();
+			resultSet.setObject(filter.getObject());
 			
 			Map<String, FeatureSummary> featureMap = new HashMap<String, FeatureSummary>();
 			
@@ -138,7 +139,7 @@ public class OpinionMiner {
 	public static void main(String[] args) {		
 		try {	
 			File[] indexDirs = new File[1];
-			indexDirs[0] = new File("./bin/data/appstore/index/20111215");
+			indexDirs[0] = new File("./bin/data/appstore/index/20111219");
 			String object = "naverline";
 			File liwcFile = new File("./bin/liwc/LIWC_ja.txt");
 			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs);
