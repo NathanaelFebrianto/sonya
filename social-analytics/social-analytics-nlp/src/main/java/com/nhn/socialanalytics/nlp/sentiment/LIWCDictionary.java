@@ -13,8 +13,6 @@ import java.util.Vector;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.nhn.socialanalytics.nlp.feature.FeatureDictionary;
-
 /**
  * Interface to the LIWC dictionary, implementing patterns for each LIWC category
  * based on the LIWC.CAT file.
@@ -84,11 +82,10 @@ public class LIWCDictionary {
 				if (!catRegex.equals("")) {
 					catRegex = catRegex.substring(0, catRegex.length() - 1);
 					catRegex = "(" + catRegex + ")";
-					catRegex = catRegex.replaceAll("\\*", "[\\\\w']*");
+					catRegex = catRegex.replaceAll("\\*", "[\\\\w\\\\W']*");	// W: is for Korean or Japanase, w: is for English
+					wordLists.put(currentVariable, Pattern.compile(catRegex));
 					
 					//System.out.println("catRegx1 == " + catRegex);
-					
-					wordLists.put(currentVariable, Pattern.compile(catRegex));
 				}
 				// update variable
 				currentVariable = line.split("\t")[1];
@@ -105,11 +102,10 @@ public class LIWCDictionary {
 		if (!catRegex.equals("")) {
 			catRegex = catRegex.substring(0, catRegex.length() - 1);
 			catRegex = "(" + catRegex + ")";
-			catRegex = catRegex.replaceAll("\\*", "[\\\\w']*");
+			catRegex = catRegex.replaceAll("\\*", "[\\\\w\\\\W']*");
+			wordLists.put(currentVariable, Pattern.compile(catRegex));
 			
 			//System.out.println("catRegx2 == " + catRegex);
-			
-			wordLists.put(currentVariable, Pattern.compile(catRegex));
 		}
 
 		reader.close();
