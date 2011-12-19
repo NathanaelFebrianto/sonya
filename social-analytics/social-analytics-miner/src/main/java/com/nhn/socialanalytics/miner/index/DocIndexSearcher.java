@@ -609,21 +609,21 @@ public class DocIndexSearcher {
 			DocIndexSearcher.getIndexDirectories("./bin/data/appstore/index/", start, end);
 			
 			File[] indexDirs = new File[1];
-			indexDirs[0] = new File("./bin/data/appstore/index/20111215");
+			indexDirs[0] = new File("./bin/data/appstore/index/20111219");
 			String object = "naverline";
-			File liwcFile = new File("./bin/liwc/LIWC_ja.txt");
+			File liwcFile = new File("./bin/liwc/LIWC_ko.txt");
 			DocIndexSearcher searcher = new DocIndexSearcher(indexDirs);
-			searcher.putStopwordFile(new File("./conf/stopword_ja.txt"));
-			searcher.putSentimentAnalyzer(FieldConstants.LANG_JAPANESE, SentimentAnalyzer.getInstance(liwcFile));
+			searcher.putStopwordFile(new File("./conf/stopword_ko.txt"));
+			searcher.putSentimentAnalyzer(FieldConstants.LANG_KOREAN, SentimentAnalyzer.getInstance(liwcFile));
 			
 			boolean excludeStopwords = true;
 			boolean byFeature = true;			
-			List<OpinionTerm> baseTerms = searcher.searchTerms(object, FieldConstants.LANG_JAPANESE, FieldConstants.SUBJECT, 5, excludeStopwords, byFeature);
+			List<OpinionTerm> baseTerms = searcher.searchTerms(object, FieldConstants.LANG_KOREAN, FieldConstants.SUBJECT, 10, excludeStopwords, byFeature);
 						
 			for (OpinionTerm term : baseTerms) {
 				System.out.println("--------------------------------------");
-				searcher.searchLinkedTerms(object, FieldConstants.LANG_JAPANESE, term, FieldConstants.PREDICATE, 5, 1, byFeature);
-				searcher.searchLinkedTerms(object, FieldConstants.LANG_JAPANESE, term, FieldConstants.ATTRIBUTE, 5, 1, byFeature);
+				searcher.searchLinkedTerms(object, FieldConstants.LANG_KOREAN, term, FieldConstants.PREDICATE, 10, 1, byFeature);
+				searcher.searchLinkedTerms(object, FieldConstants.LANG_KOREAN, term, FieldConstants.ATTRIBUTE, 10, 1, byFeature);
 			}
 			
 		} catch (Exception e) {

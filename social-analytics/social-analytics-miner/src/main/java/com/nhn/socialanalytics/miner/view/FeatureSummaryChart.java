@@ -3,6 +3,8 @@ package com.nhn.socialanalytics.miner.view;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Paint;
+import java.util.HashMap;
+import java.util.Map;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -13,6 +15,7 @@ import org.jfree.chart.JFreeChart;
 import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.chart.renderer.category.BarRenderer;
 import org.jfree.data.category.DefaultCategoryDataset;
+import org.jfree.data.general.DefaultPieDataset;
 
 import com.nhn.socialanalytics.miner.opinion.FeatureResultSet;
 import com.nhn.socialanalytics.miner.opinion.FeatureResultSet.FeatureSummary;
@@ -20,13 +23,17 @@ import com.nhn.socialanalytics.miner.opinion.FeatureResultSet.FeatureSummary;
 @SuppressWarnings("serial")
 public class FeatureSummaryChart extends JPanel {
 	
+	ChartPanel chartPiePanel;
 	ChartPanel chartNumsPanel;
 	ChartPanel chartPolarityPanel;
 	
 	public FeatureSummaryChart() {
 		setLayout(new BorderLayout());
 		
+		DefaultPieDataset emptyPieDataset = new DefaultPieDataset();
 		DefaultCategoryDataset emptyDataset = new DefaultCategoryDataset();
+		
+		JFreeChart chartPie = ChartFactory.createPieChart("Positive & Negative", emptyPieDataset, true, true, false);
 		
 		JFreeChart chartNums = ChartFactory.createBarChart("Feature Summary", "Series", "# of Clauses", emptyDataset, 
 				PlotOrientation.VERTICAL , true, true, false);
@@ -37,16 +44,21 @@ public class FeatureSummaryChart extends JPanel {
 		chartNums.setBackgroundPaint(Color.WHITE);
 		chartPolarity.setBackgroundPaint(Color.WHITE);
 		
+		chartPiePanel = new ChartPanel(chartPie);
 		chartNumsPanel = new ChartPanel(chartNums);
 		chartPolarityPanel = new ChartPanel(chartPolarity);
 		
-		add(chartNumsPanel, BorderLayout.NORTH);
+		add(chartPiePanel, BorderLayout.NORTH);
+		add(chartNumsPanel, BorderLayout.CENTER);
 		add(chartPolarityPanel, BorderLayout.SOUTH);
 	}
 	
-	public void updateChart(FeatureResultSet resultSet, boolean includeEtc) {		
+	public void updateChart(FeatureResultSet resultSet, boolean includeEtc) {	
+		DefaultPieDataset datasetPie = new DefaultPieDataset();
 		DefaultCategoryDataset datasetNums = new DefaultCategoryDataset();
 		DefaultCategoryDataset datasetPolarity = new DefaultCategoryDataset();
+		
+		Map<String, Double> pieData = new HashMap<String, Double>();
 		
 		for (FeatureSummary featureSum : resultSet) {
 			String feature = featureSum.getFeature();
@@ -57,21 +69,70 @@ public class FeatureSummaryChart extends JPanel {
 			
 			if (!includeEtc) {
 				if (!feature.equalsIgnoreCase("ETC")) {
+					// pie chart data
+					Double neutralSum = pieData.get("Neutral");
+					if (neutralSum == null)
+						pieData.put("Neutral", (docNums - posNums - negNums));
+					else
+						neutralSum = neutralSum + (docNums - posNums - negNums);
+					
+					Double posSum = pieData.get("Positive");
+					if (posSum == null)
+						pieData.put("Positive", posNums);
+					else
+						posSum = posSum + posNums;
+					
+					Double negSum = pieData.get("Negative");
+					if (negSum == null)
+						pieData.put("Negative", negNums);
+					else
+						negSum = negSum + negNums;
+					
+					// bar chart data1
 					datasetNums.addValue(negNums, "Negative", feature);
 					datasetNums.addValue(posNums, "Positive", feature);
 					datasetNums.addValue(docNums, "Total", feature);
 					
+					// bar chart data2
 					datasetPolarity.addValue(polarity, "Polarity", feature);
 				}
 			}
 			else {
+				// pie chart data
+				Double neutralSum = pieData.get("Neutral");
+				if (neutralSum == null)
+					pieData.put("Neutral", (docNums - posNums - negNums));
+				else
+					neutralSum = neutralSum + (docNums - posNums - negNums);
+				
+				Double posSum = pieData.get("Positive");
+				if (posSum == null)
+					pieData.put("Positive", posNums);
+				else
+					posSum = posSum + posNums;
+				
+				Double negSum = pieData.get("Negative");
+				if (negSum == null)
+					pieData.put("Negative", negNums);
+				else
+					negSum = negSum + negNums;
+				
+				
+				// bar chart data1
 				datasetNums.addValue(negNums, "Negative", feature);
 				datasetNums.addValue(posNums, "Positive", feature);
 				datasetNums.addValue(docNums, "Total", feature);
 				
+				// bar chart data2
 				datasetPolarity.addValue(polarity, "Polarity", feature);				
 			}
 		}
+		
+		datasetPie.setValue("Negative", pieData.get("Negative"));
+		datasetPie.setValue("Positive", pieData.get("Positive"));
+		datasetPie.setValue("Neutral", pieData.get("Neutral"));
+		
+		JFreeChart chartPie = ChartFactory.createPieChart("Positive & Negative", datasetPie, true, true, false);
 		
 		JFreeChart chartNums = ChartFactory.createBarChart("Feature Summary" + "(" + resultSet.getObject() + ")", 
 				"Series", "# of Clauses", datasetNums, PlotOrientation.VERTICAL , true, true, false);
@@ -79,7 +140,7 @@ public class FeatureSummaryChart extends JPanel {
 		JFreeChart chartPolarity = ChartFactory.createBarChart("Feature Polarity" + "(" + resultSet.getObject() + ")", 
 				"Series", "Polarity", datasetPolarity, PlotOrientation.VERTICAL , true, true, false);
 
-		
+		chartPiePanel.setChart(chartPie);
 		chartNumsPanel.setChart(chartNums);
 		chartPolarityPanel.setChart(chartPolarity);
 	}
