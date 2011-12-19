@@ -104,9 +104,9 @@ public class FeatureClassifier {
 	
 	
 	public static void main(String[] args) {
-		FeatureClassifier classifier = new FeatureClassifier(new File("./feature/feature_ko.txt"));
+		FeatureClassifier classifier = new FeatureClassifier(new File("./feature/feature_default_ko.txt"));
 		
-		String text = "이 제품은 기능 좋다 디자인 예쁘다";
+		String text = "이 제품은 기능 통화 좋다 디자인 예쁘다";
 		Map<String, Double> features = classifier.getFeatureCounts(text, true);
 		System.out.println("matched features == " + features);
 		System.out.println("main feature == " + classifier.getMainFeature(text, true));
