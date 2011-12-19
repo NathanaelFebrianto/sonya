@@ -1,29 +1,28 @@
 package com.nhn.socialanalytics.miner.opinion;
 
 import java.util.ArrayList;
-import java.util.List;
 
 import com.nhn.socialanalytics.miner.opinion.FeatureResultSet.FeatureSummary;
 
 @SuppressWarnings("serial")
 public class FeatureResultSet extends ArrayList<FeatureSummary> {
 	
-	private List<FeatureSummary> featureSummaries = new ArrayList<FeatureSummary>();
+	private String object;
 	
 	public FeatureResultSet() {
 		
 	}
 	
-	public List<FeatureSummary> getFeatureSummaries() {
-		return featureSummaries;
+	public String getObject() {
+		return object;
 	}
-
-	public void setFeatureSummaries(List<FeatureSummary> featureSummaries) {
-		this.featureSummaries = featureSummaries;
+	
+	public void setObject(String object) {
+		this.object = object;
 	}
 	
 	public void addFeatureSummary(FeatureSummary featureSummary) {
-		featureSummaries.add(featureSummary);
+		add(featureSummary);
 	}
 	
 	public FeatureSummary newFeatureSummary() {

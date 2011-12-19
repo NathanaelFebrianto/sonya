@@ -15,40 +15,32 @@ import javax.swing.JComboBox;
 import javax.swing.JComponent;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
-import javax.swing.JSpinner;
 import javax.swing.JTextField;
-import javax.swing.SpinnerNumberModel;
 
 import com.jgoodies.forms.builder.PanelBuilder;
 import com.jgoodies.forms.layout.CellConstraints;
 import com.jgoodies.forms.layout.FormLayout;
 import com.nhn.socialanalytics.miner.index.DocIndexSearcher;
 import com.nhn.socialanalytics.miner.index.FieldConstants;
+import com.nhn.socialanalytics.miner.opinion.FeatureResultSet;
 import com.nhn.socialanalytics.miner.opinion.OpinionFilter;
 import com.nhn.socialanalytics.miner.opinion.OpinionMiner;
-import com.nhn.socialanalytics.miner.opinion.OpinionResultSet;
 import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
 import com.toedter.calendar.JDateChooser;
 
 @SuppressWarnings("serial")
-public class OpinionToolbar extends JPanel {
+public class FeatureToolbar extends JPanel {
 	
 	OpinionViewerApplet parent;
 	
 	JComboBox comboSite;
 	JComboBox comboLanguage;
 	JTextField tfldObject;
-	JCheckBox chkboxFeature;
+	JCheckBox chkboxIncludeEtc;
 	JDateChooser calStartDate;
-	JDateChooser calEndDate;
-	JSpinner spinSubjectTF;
-	JSpinner spinSubjectLinkTF;
-	JSpinner spinPredicateTF;
-	JSpinner spinPredicateLinkTF;
-	JSpinner spinAttributeTF;
-	JSpinner spinAttributeLinkTF;		
+	JDateChooser calEndDate;		
 	
-	public OpinionToolbar(OpinionViewerApplet parent) {
+	public FeatureToolbar(OpinionViewerApplet parent) {
 		this.parent = parent;
 		UIHandler.setResourceBundle("label");
 		
@@ -72,28 +64,19 @@ public class OpinionToolbar extends JPanel {
 		calStartDate.setDate(new Date());
 		calEndDate = new JDateChooser("yyyy/MM/dd", "####/##/##", '_');	
 		calEndDate.setDate(new Date());
-		chkboxFeature = new JCheckBox();
-		
-		// (value, minimum, maximum, stepSize)
-		spinSubjectTF = new JSpinner(new SpinnerNumberModel(2, 1, 1000, 1));
-		spinSubjectLinkTF = new JSpinner(new SpinnerNumberModel(2, 1, 1000, 1));
-		spinPredicateTF = new JSpinner(new SpinnerNumberModel(2, 1, 1000, 1));
-		spinPredicateLinkTF = new JSpinner(new SpinnerNumberModel(1, 1, 1000, 1));
-		spinAttributeTF = new JSpinner(new SpinnerNumberModel(2, 1, 1000, 1));
-		spinAttributeLinkTF = new JSpinner(new SpinnerNumberModel(1, 1, 1000, 1));
+		chkboxIncludeEtc = new JCheckBox();
 	}
 	
 	private void setupUI() {
 		FormLayout layout = new FormLayout(
 				"left:p",
-				"25dlu, 0dlu, 35dlu");
+				"25dlu");
 
 		PanelBuilder builder = new PanelBuilder(layout);
 		builder.setDefaultDialogBorder();
 		CellConstraints cc = new CellConstraints();
 		
 		builder.add(makeSearchOptionPanel(), cc.xy(1, 1));
-		builder.add(makeTermFeqOptionPanel(), cc.xy(1, 3));
 		
 		add(builder.getPanel());
 		builder.getPanel().setBorder(BorderFactory.createTitledBorder(""));
@@ -102,11 +85,11 @@ public class OpinionToolbar extends JPanel {
 	private JComponent makeSearchOptionPanel() {
 		FormLayout layout = new FormLayout(
 				"left:p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, "	+
-				"p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, p",  // columns
+				"p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, p",  // columns
 				"p, " +	// row1: seprator row
 				"2dlu, " +	// row2: gap
 				"p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, " + // row3: content
-				"p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, p");
+				"p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, p");
 
 		PanelBuilder builder = new PanelBuilder(layout);
 		builder.setDefaultDialogBorder();
@@ -124,35 +107,8 @@ public class OpinionToolbar extends JPanel {
 		builder.add(calStartDate, cc.xy(15, 3));
 		builder.addLabel(" ~ ", cc.xy(17, 3));
 		builder.add(calEndDate, cc.xy(19, 3));
-		builder.addLabel(UIHandler.getText("label.add.feature"), cc.xy(21, 3));
-		builder.add(chkboxFeature, cc.xy(23, 3));
-		
-		return builder.getPanel();
-	}
-	
-	private JComponent makeTermFeqOptionPanel() {
-		FormLayout layout = new FormLayout(
-				"left:p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, "	+
-				"p, 4dlu, p, 4dlu, right:135dlu",  // columns
-				"p, " +	// row1: seprator row
-				"2dlu, " +	// row2: gap
-				"p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, " + // row3: content
-				"p, 4dlu, p, 4dlu, p");
-
-		PanelBuilder builder = new PanelBuilder(layout);
-		builder.setDefaultDialogBorder();
-		CellConstraints cc = new CellConstraints();
-		
-		// row
-		builder.addSeparator(UIHandler.getText("label.tf.option"), cc.xyw(1, 1, 17));
-		builder.addLabel(UIHandler.getText("label.subject.mintf"), cc.xy(1, 3));
-		builder.add(spinSubjectTF, cc.xy(3, 3));
-		builder.addLabel(UIHandler.getText("label.predicate.mintf"), cc.xy(5, 3));
-		builder.add(spinPredicateTF, cc.xy(7, 3));
-		builder.add(spinPredicateLinkTF, cc.xy(9, 3));
-		builder.addLabel(UIHandler.getText("label.attribute.mintf"), cc.xy(11, 3));
-		builder.add(spinAttributeTF, cc.xy(13, 3));
-		builder.add(spinAttributeLinkTF, cc.xy(15, 3));	
+		builder.addLabel(UIHandler.getText("label.include.etc"), cc.xy(21, 3));
+		builder.add(chkboxIncludeEtc, cc.xy(23, 3));
 		
 		JButton btnOk = new JButton(UIHandler.getText("btn.search"));		
 		ActionListener okActionListener = (ActionListener)(GenericListener.create(
@@ -162,7 +118,7 @@ public class OpinionToolbar extends JPanel {
 				"okAction"));		
 		btnOk.addActionListener(okActionListener);
 				
-		builder.add(btnOk, cc.xy(17, 3));	
+		builder.add(btnOk, cc.xy(25, 3));
 		
 		return builder.getPanel();
 	}
@@ -184,13 +140,8 @@ public class OpinionToolbar extends JPanel {
 			String object = tfldObject.getText();	
 			Date startDate = calStartDate.getDate();
 			Date endDate = calEndDate.getDate();
-			boolean byFeature = chkboxFeature.isSelected();			
-			int baseTermMinTF = Integer.valueOf(spinSubjectTF.getValue().toString());
+			boolean includeEtc = chkboxIncludeEtc.isSelected();			
 			boolean excludeStopwords = true;
-			int predicateMinTF = Integer.valueOf(spinPredicateTF.getValue().toString());
-			int predicateMinLinkTF = Integer.valueOf(spinPredicateLinkTF.getValue().toString());
-			int attributeMinTF = Integer.valueOf(spinAttributeTF.getValue().toString());
-			int attributeMinLinkTF = Integer.valueOf(spinAttributeLinkTF.getValue().toString());
 			
 			if (object == null || object.equals("")) {
 				JOptionPane.showMessageDialog(parent, UIHandler.getText("msg.input.object.name"), "Warning", JOptionPane.WARNING_MESSAGE);
@@ -220,16 +171,12 @@ public class OpinionToolbar extends JPanel {
 			
 			OpinionFilter filter = new OpinionFilter();
 			filter.setObject(object);
-			filter.setLanguage(language);			
-			filter.setBaseTermFilter(FieldConstants.SUBJECT, baseTermMinTF, excludeStopwords);
-			filter.addLinkedTermFilter(FieldConstants.PREDICATE, predicateMinTF, predicateMinLinkTF);
-			filter.addLinkedTermFilter(FieldConstants.ATTRIBUTE, attributeMinTF, attributeMinLinkTF);	
-			filter.setByFeature(byFeature);			
+			filter.setLanguage(language);				
 			
 			OpinionMiner miner = new OpinionMiner(searcher);
-			OpinionResultSet opinionResultSet = miner.getOpinionResultSet(filter);	
+			FeatureResultSet featureResultSet = miner.getFeatureResultSet(filter);	
 
-			parent.showGraphView(opinionResultSet);
+			parent.showFeatureChart(featureResultSet, includeEtc);
 
 		} catch (Exception ex) {
 			ex.printStackTrace();
