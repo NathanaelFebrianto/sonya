@@ -3,7 +3,7 @@ KO1. PRODUCT/SERVICE
 		function* (1)
 		spec* (1)
 		스펙* (1)
-		기능 (1)
+		기능* (1)
 		로그인* (1)
 		사용자* (1)
 		푸쉬* (1)
@@ -28,7 +28,7 @@ KO1. PRODUCT/SERVICE
 		메시지* (1)
 		메시징* (1)
 		변경* (1)
-		인증*(1)
+		인증* (1)
 	
 	DESIGN
 		design* (1)
@@ -47,7 +47,7 @@ KO1. PRODUCT/SERVICE
 		결함* (1)
 		오류* (1)
 		문제* (1)
-		안되다	 (1)
+		안되다 (1)
 		실패* (1)
 		양호* (1)
 		대박* (1)
@@ -98,7 +98,7 @@ KO1. PRODUCT/SERVICE
 		kt (1)
 		skt (1)
 		lgt (1)
-		삼
+		삼성 (1)
 	
 	DEVICE
 		device* (1)
@@ -158,7 +158,7 @@ KO1. PRODUCT/SERVICE
 		바다 (1)
 		시골 (1)
 		도시 (1)
-	
+		
 	VOICECHAT	
 		통화* (1)
 		무료통화* (1)
@@ -170,3 +170,4 @@ KO1. PRODUCT/SERVICE
 		voice* (1)
 		telephone* (1)
 		sound* (1)
+				
