@@ -178,7 +178,8 @@ public class OpinionGraphModeller {
 				
 				// group node for linked term nodes
 				TermNode groupNode = new TermNode();
-				groupNode.setId(linkedTermType + baseTerm.getTerm());
+				//groupNode.setId(linkedTermType + baseTerm.getTerm());
+				groupNode.setId(linkedTermType + baseTerm.getId());
 				groupNode.setName(linkedTermType);
 				
 				// group edge for linked term nodes

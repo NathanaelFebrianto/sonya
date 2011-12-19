@@ -170,7 +170,7 @@ public class OpinionViewerApplet extends JApplet {
 		GraphZoomScrollPane panelGraph = new GraphZoomScrollPane(vv);
 		
 		tpaneOpinion.addTab(UIHandler.getText("tab.graph.view"), panelGraph);		
-		tpaneOpinion.addTab(UIHandler.getText("tab.table.view"), new JPanel());
+		//tpaneOpinion.addTab(UIHandler.getText("tab.table.view"), new JPanel());
 		tpaneOpinion.addTab(UIHandler.getText("tab.summary.view"), this.makeFeatureSummaryChart());
 		
 		ChangeListener tabChangeListener = (ChangeListener)(GenericListener.create(
@@ -258,7 +258,7 @@ public class OpinionViewerApplet extends JApplet {
         	tpaneOpinion.setSelectedIndex(0);
         }
         else if (index == 1) {
-        	tpaneOpinion.setSelectedIndex(2);
+        	tpaneOpinion.setSelectedIndex(1);
         }
 	}
 	
@@ -266,10 +266,10 @@ public class OpinionViewerApplet extends JApplet {
 		JTabbedPane sourceTabbedPane = (JTabbedPane) e.getSource();
         int index = sourceTabbedPane.getSelectedIndex();
         
-        if (index == 0 || index == 1) {
+        if (index == 0) {
         	tpaneToolbar.setSelectedIndex(0);
         }
-        else if (index == 2) {
+        else if (index == 1) {
         	tpaneToolbar.setSelectedIndex(1);
         }
 	}
