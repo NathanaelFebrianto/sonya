@@ -106,7 +106,7 @@ public class FeatureClassifier {
 	public static void main(String[] args) {
 		FeatureClassifier classifier = new FeatureClassifier(new File("./feature/feature_default_ko.txt"));
 		
-		String text = "이 제품은 기능 통화 좋다 디자인 예쁘다";
+		String text = "기능이 에러가 대박이 삼성이 통화 음성in 무료통화os 오류 좋다 디자인 예쁘다 한국 갤럭시";
 		Map<String, Double> features = classifier.getFeatureCounts(text, true);
 		System.out.println("matched features == " + features);
 		System.out.println("main feature == " + classifier.getMainFeature(text, true));
