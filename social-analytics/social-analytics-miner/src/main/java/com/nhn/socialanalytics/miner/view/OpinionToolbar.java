@@ -75,12 +75,12 @@ public class OpinionToolbar extends JPanel {
 		chkboxFeature = new JCheckBox();
 		
 		// (value, minimum, maximum, stepSize)
-		spinSubjectTF = new JSpinner(new SpinnerNumberModel(2, 1, 1000, 1));
+		spinSubjectTF = new JSpinner(new SpinnerNumberModel(10, 1, 1000, 1));
 		spinSubjectLinkTF = new JSpinner(new SpinnerNumberModel(2, 1, 1000, 1));
 		spinPredicateTF = new JSpinner(new SpinnerNumberModel(2, 1, 1000, 1));
-		spinPredicateLinkTF = new JSpinner(new SpinnerNumberModel(1, 1, 1000, 1));
+		spinPredicateLinkTF = new JSpinner(new SpinnerNumberModel(2, 1, 1000, 1));
 		spinAttributeTF = new JSpinner(new SpinnerNumberModel(2, 1, 1000, 1));
-		spinAttributeLinkTF = new JSpinner(new SpinnerNumberModel(1, 1, 1000, 1));
+		spinAttributeLinkTF = new JSpinner(new SpinnerNumberModel(2, 1, 1000, 1));
 	}
 	
 	private void setupUI() {

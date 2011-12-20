@@ -60,6 +60,7 @@ public class OpinionViewerApplet extends JApplet {
 	OpinionGraphViewer graphViewer;
 	FeatureSummaryChart featureChart;
 	JTextArea tareaDetailDocs;	
+	DetailDocTable tableDetailDocs;
 
 	public OpinionViewerApplet(Forest<TermNode, TermEdge> graph) {
 		this.graphViewer = makeGraphView(graph);
@@ -205,6 +206,9 @@ public class OpinionViewerApplet extends JApplet {
 							tareaDetailDocs.setText("");
 							List<DetailDoc> detailDocs = v.getDocs();
 							
+							tableDetailDocs.removeAllRow();
+							tableDetailDocs.setRowData(detailDocs);
+							
 							int docCount = 1;
 							for (DetailDoc doc : detailDocs) {
 								if (docCount == 1) {
@@ -240,8 +244,11 @@ public class OpinionViewerApplet extends JApplet {
 		
 		tareaDetailDocs = new JTextArea(34, 30);
 		tareaDetailDocs.setLineWrap(true);
+		
+		tableDetailDocs = new DetailDocTable();
 
-		panel.add(new JScrollPane(tareaDetailDocs), BorderLayout.CENTER);	
+		//panel.add(new JScrollPane(tareaDetailDocs), BorderLayout.CENTER);	
+		panel.add(new JScrollPane(tableDetailDocs), BorderLayout.CENTER);	
 				
 		return panel;
 	}
@@ -300,7 +307,7 @@ public class OpinionViewerApplet extends JApplet {
 
 						content.add(viewer);
 						frame.pack();
-						frame.setTitle("Opinion View");
+						frame.setTitle("Opinion Finder");
 						frame.setVisible(true);
 					} catch (Exception ex) {
 						ex.printStackTrace();
