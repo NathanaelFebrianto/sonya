@@ -95,7 +95,8 @@ public class LIWCDictionary {
 				word_count++;
 				String newPattern = line.split("\\s+")[1].toLowerCase();
 				catRegex += "\\b" + newPattern + "\\b|";
-				catRegex += "\\" + newPattern + "|";	// added for Korean by Louie
+				//catRegex += "\\" + newPattern + "|";	// added for Korean by Louie -> Finally I removed this line 
+				//because it include "좋아하게" into "좋아" defined in LIWC.
 			}
 		}
 		//  add last regex to database
@@ -333,8 +334,8 @@ public class LIWCDictionary {
 				Matcher m = catRegex.matcher(word);
 
 				while (m.find()) {
-					//System.out.println("* original word == " + word);
-					//System.out.println("* match word == " + m.group());
+					System.out.println("* original word == " + word);
+					System.out.println("* match word == " + m.group());
 					catCount++;
 					indic[i] = true;
 					wordCount.addWord(m.group());
@@ -441,6 +442,6 @@ public class LIWCDictionary {
 	};
 	
 	public static void main(String[] args) {
-		LIWCDictionary dictionary = new LIWCDictionary(new File("./liwc/LIWC_ko.txt"));
+		//LIWCDictionary dictionary = new LIWCDictionary(new File("./liwc/LIWC_ko.txt"));
 	}
 }
