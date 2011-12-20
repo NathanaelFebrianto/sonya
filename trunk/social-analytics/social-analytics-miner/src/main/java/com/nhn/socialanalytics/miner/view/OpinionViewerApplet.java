@@ -151,7 +151,7 @@ public class OpinionViewerApplet extends JApplet {
 
 		JPanel scaleGrid = new JPanel(new GridLayout(1, 0));
 		//scaleGrid.setBorder(BorderFactory.createTitledBorder("Zoom"));
-		scaleGrid.setPreferredSize(new Dimension(55, 22));
+		scaleGrid.setPreferredSize(new Dimension(56, 22));
 
 		JPanel controls = new JPanel(new FlowLayout(FlowLayout.LEFT));
 		controls.setBorder(BorderFactory.createTitledBorder("Graph Option"));
