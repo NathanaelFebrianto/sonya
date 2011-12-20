@@ -9,4 +9,4 @@ me2day	naverline	네이버라인,네이버LINE,NAVERLINE	5	1	Korean	Korean:./bin
 me2day	politician	박근혜,안철수,박근혜 안철수	5	1	Korean	Korean:./bin/feature/feature_default_ko.txt	
 twitter	naverline	네이버라인 OR 네이버LINE,NAVERLINE,naver ライン	5	1	Korean,Japanese	Korean:./bin/feature/feature_default_ko.txt,Japanese:./bin/feature/feature_default_ja.txt	
 twitter	politician	박근혜 OR 안철수	5	1	Korean	Korean:./bin/feature/feature_default_ko.txt	
-twitter	northkorea	김정일	5	1	Korean	Korean:./bin/feature/feature_default_ko.txt	
+twitter	northkorea	김정일 OR 김정은	5	1	Korean	Korean:./bin/feature/feature_default_ko.txt	
