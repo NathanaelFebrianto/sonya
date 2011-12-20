@@ -67,14 +67,16 @@ public class FeatureSummaryChart extends JPanel {
 			double negNums = featureSum.getNegativeNums();
 			double polarity = featureSum.getPolarity();
 			
+			double neutralNums = (docNums - posNums - negNums);
+			
 			if (!includeEtc) {
 				if (!feature.equalsIgnoreCase("ETC")) {
 					// pie chart data
 					Double neutralSum = pieData.get("Neutral");
 					if (neutralSum == null)
-						pieData.put("Neutral", (docNums - posNums - negNums));
+						pieData.put("Neutral", neutralNums);
 					else
-						neutralSum = neutralSum + (docNums - posNums - negNums);
+						neutralSum = neutralSum + neutralNums;
 					
 					Double posSum = pieData.get("Positive");
 					if (posSum == null)
@@ -91,7 +93,7 @@ public class FeatureSummaryChart extends JPanel {
 					// bar chart data1
 					datasetNums.addValue(negNums, "Negative", feature);
 					datasetNums.addValue(posNums, "Positive", feature);
-					datasetNums.addValue((docNums - posNums - negNums), "Neutral", feature);
+					datasetNums.addValue(neutralNums, "Neutral", feature);
 					
 					// bar chart data2
 					datasetPolarity.addValue(polarity, "Polarity", feature);
@@ -101,9 +103,9 @@ public class FeatureSummaryChart extends JPanel {
 				// pie chart data
 				Double neutralSum = pieData.get("Neutral");
 				if (neutralSum == null)
-					pieData.put("Neutral", (docNums - posNums - negNums));
+					pieData.put("Neutral", neutralNums);
 				else
-					neutralSum = neutralSum + (docNums - posNums - negNums);
+					neutralSum = neutralSum + neutralNums;
 				
 				Double posSum = pieData.get("Positive");
 				if (posSum == null)
@@ -121,7 +123,7 @@ public class FeatureSummaryChart extends JPanel {
 				// bar chart data1
 				datasetNums.addValue(negNums, "Negative", feature);
 				datasetNums.addValue(posNums, "Positive", feature);
-				datasetNums.addValue(docNums, "Total", feature);
+				datasetNums.addValue(neutralNums, "Neutral", feature);
 				
 				// bar chart data2
 				datasetPolarity.addValue(polarity, "Polarity", feature);				
