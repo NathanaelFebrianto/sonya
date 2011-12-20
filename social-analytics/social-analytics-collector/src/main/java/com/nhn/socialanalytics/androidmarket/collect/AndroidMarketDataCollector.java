@@ -322,8 +322,8 @@ public class AndroidMarketDataCollector extends Collector {
 	
 	public static void main(String[] args) {
 		
-		String loginAccount = "xxx@gmail.com";
-		String loginPasswd = "xxx";
+		String loginAccount = args[0];
+		String loginPasswd = args[1];
 		AndroidMarketDataCollector collector = new AndroidMarketDataCollector(loginAccount, loginPasswd);
 		collector.setSpamFilter(new File(Config.getProperty("COLLECT_SPAM_FILTER_ANDROIDMARKET")));		
 		collector.putMorphemeAnalyzer(Collector.LANG_KOREAN, new KoreanMorphemeAnalyzer());
@@ -343,18 +343,19 @@ public class AndroidMarketDataCollector extends Collector {
 		//collector.searchApps(Locale.KOREA, query, 1);
 		
 		String objectId = "naverline";
-		//String objectId = "kakaotalk";
-		//String appId = "com.nhn.android.navertalk";
-		//String appId = "com.nhn.android.search";
 		String appId = "jp.naver.line.android";
-		//String appId = "com.nhn.android.nbooks";
+		
+		//String objectId = "kakaotalk";		
 		//String appId = "com.kakao.talk";
+		
+		//String objectId = "naverapp";
+		//String appId = "com.nhn.android.search";		
 		
 		collector.putFeatureClassifier(objectId, Collector.LANG_KOREAN, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_KOREAN"))));
 		collector.putFeatureClassifier(objectId, Collector.LANG_JAPANESE, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_JAPANESE"))));
 		
 		//List<Comment> comments = collector.getAppComments(locales, appId, 2);
-		Map<Locale, List<Comment>> commentsMap = collector.getAppCommentsByLocales(locales, appId, 10);
+		Map<Locale, List<Comment>> commentsMap = collector.getAppCommentsByLocales(locales, appId, 20);
 		try {
 			collector.writeOutput("./bin/data/androidmarket/collect/", "./bin/data/androidmarket/index/", objectId, commentsMap, new Date(), 2);
 		} catch (Exception e) {
