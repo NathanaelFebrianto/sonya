@@ -91,7 +91,7 @@ public class FeatureSummaryChart extends JPanel {
 					// bar chart data1
 					datasetNums.addValue(negNums, "Negative", feature);
 					datasetNums.addValue(posNums, "Positive", feature);
-					datasetNums.addValue(docNums, "Total", feature);
+					datasetNums.addValue((docNums - posNums - negNums), "Neutral", feature);
 					
 					// bar chart data2
 					datasetPolarity.addValue(polarity, "Polarity", feature);
