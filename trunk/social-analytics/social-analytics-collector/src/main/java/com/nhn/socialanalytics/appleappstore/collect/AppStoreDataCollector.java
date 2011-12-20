@@ -354,10 +354,13 @@ public class AppStoreDataCollector extends Collector {
 		//String objectId = "naverapp";
 		//String appId = "393499958";
 		
+		//String objectId = "kakaotalk";
+		//String appId = "362057947";		
+		
 		collector.putFeatureClassifier(objectId, Collector.LANG_KOREAN, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_KOREAN"))));
 		collector.putFeatureClassifier(objectId, Collector.LANG_JAPANESE, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_JAPANESE"))));
 		
-		List<Review> reviews = collector.getReviews(appStores, appId, 20);
+		List<Review> reviews = collector.getReviews(appStores, appId, 30);
 		//List<Review> reviews = collector.getReviews(appStores, appId);
 		//List<Review> reviews = collector.getReviews(AppStores.getAllAppStores(), appId);
 		
