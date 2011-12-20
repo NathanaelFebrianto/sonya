@@ -166,13 +166,13 @@ public class SemanticClause implements Serializable {
 		String label = null;		
 		
 		if (subject != null && predicate != null) {
-			label = subject + "ㅡ" + predicate;
+			label = subject + " " + predicate;
 		}
 		else if (subject == null && predicate != null) {
 			label = predicate;
 			if (attributes.size() > 0) {
 				for (String attribute : attributes) {
-					label = label + " " + attribute + "ㅡ" + predicate;
+					label = label + " " + attribute + " " + predicate;
 				}
 			}			
 		}
@@ -200,13 +200,13 @@ public class SemanticClause implements Serializable {
 		String label = null;		
 		
 		if (standardSubject != null && standardPredicate != null) {
-			label = standardSubject + "ㅡ" + standardPredicate;
+			label = standardSubject + " " + standardPredicate;
 		}
 		else if (standardSubject == null && standardPredicate != null) {
 			label = standardPredicate;
 			if (standardAttributes.size() > 0) {
 				for (String attribute : standardAttributes) {
-					label = label + " " + attribute + "ㅡ" + standardPredicate;
+					label = label + " " + attribute + " " + standardPredicate;
 				}
 			}			
 		}

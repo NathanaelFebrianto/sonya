@@ -334,8 +334,8 @@ public class LIWCDictionary {
 				Matcher m = catRegex.matcher(word);
 
 				while (m.find()) {
-					System.out.println("* original word == " + word);
-					System.out.println("* match word == " + m.group());
+					//System.out.println("* original word == " + word);
+					//System.out.println("* match word == " + m.group());
 					catCount++;
 					indic[i] = true;
 					wordCount.addWord(m.group());
