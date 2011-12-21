@@ -53,7 +53,7 @@ public class FeatureSummaryChart extends JPanel {
 		add(chartPolarityPanel, BorderLayout.SOUTH);
 	}
 	
-	public void updateChart(FeatureResultSet resultSet, boolean includeEtc) {	
+	public void updateChart(FeatureResultSet resultSet, String site, boolean includeEtc) {	
 		DefaultPieDataset datasetPie = new DefaultPieDataset();
 		DefaultCategoryDataset datasetNums = new DefaultCategoryDataset();
 		DefaultCategoryDataset datasetPolarity = new DefaultCategoryDataset();
@@ -145,12 +145,14 @@ public class FeatureSummaryChart extends JPanel {
 		datasetPie.setValue("Positive", pieData.get("Positive"));
 		datasetPie.setValue("Neutral", pieData.get("Neutral"));
 		
-		JFreeChart chartPie = ChartFactory.createPieChart("Positive & Negative", datasetPie, true, true, false);
+		String subTitle = site + "_" + resultSet.getLanguage() + "_" + resultSet.getObject();
+		JFreeChart chartPie = ChartFactory.createPieChart("Overview" + " (" + subTitle + ")", 
+				datasetPie, true, true, false);
 		
-		JFreeChart chartNums = ChartFactory.createBarChart("Feature Summary" + "(" + resultSet.getObject() + ")", 
+		JFreeChart chartNums = ChartFactory.createBarChart("Feature Summary" + " (" + resultSet.getObject() + ")", 
 				"Series", "# of Clauses", datasetNums, PlotOrientation.VERTICAL , true, true, false);
 		
-		JFreeChart chartPolarity = ChartFactory.createBarChart("Feature Polarity" + "(" + resultSet.getObject() + ")", 
+		JFreeChart chartPolarity = ChartFactory.createBarChart("Feature Polarity" + " (" + resultSet.getObject() + ")", 
 				"Series", "Polarity", datasetPolarity, PlotOrientation.VERTICAL , true, true, false);
 
 		chartPiePanel.setChart(chartPie);

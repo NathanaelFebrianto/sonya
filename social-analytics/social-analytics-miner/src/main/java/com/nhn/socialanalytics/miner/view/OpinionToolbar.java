@@ -39,6 +39,7 @@ public class OpinionToolbar extends JPanel {
 	JComboBox comboLanguage;
 	JTextField tfldObject;
 	JCheckBox chkboxFeature;
+	JCheckBox chkboxTranslate;
 	JDateChooser calStartDate;
 	JDateChooser calEndDate;
 	JSpinner spinSubjectTF;
@@ -57,6 +58,10 @@ public class OpinionToolbar extends JPanel {
 		setupUI();
 	}
 	
+	public boolean isTranslate() {
+		return chkboxTranslate.isSelected();
+	}
+	
 	private void setupFields() {
 		comboSite = new JComboBox();
 		comboSite.addItem(new ObjectModel("App Store", "appstore"));
@@ -73,6 +78,7 @@ public class OpinionToolbar extends JPanel {
 		calEndDate = new JDateChooser("yyyy/MM/dd", "####/##/##", '_');	
 		calEndDate.setDate(new Date());
 		chkboxFeature = new JCheckBox();
+		chkboxTranslate = new JCheckBox();
 		
 		// (value, minimum, maximum, stepSize)
 		spinSubjectTF = new JSpinner(new SpinnerNumberModel(10, 1, 1000, 1));
@@ -133,18 +139,18 @@ public class OpinionToolbar extends JPanel {
 	private JComponent makeTermFeqOptionPanel() {
 		FormLayout layout = new FormLayout(
 				"left:p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, "	+
-				"p, 4dlu, p, 4dlu, right:135dlu",  // columns
+				"p, 4dlu, p, 4dlu, p, 4dlu, p, 15dlu, right:p",  // columns
 				"p, " +	// row1: seprator row
 				"2dlu, " +	// row2: gap
 				"p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, p, 4dlu, " + // row3: content
-				"p, 4dlu, p, 4dlu, p");
+				"p, 4dlu, p, 4dlu, p, 4dlu, p, 15dlu, p");
 
 		PanelBuilder builder = new PanelBuilder(layout);
 		builder.setDefaultDialogBorder();
 		CellConstraints cc = new CellConstraints();
 		
 		// row
-		builder.addSeparator(UIHandler.getText("label.tf.option"), cc.xyw(1, 1, 17));
+		builder.addSeparator(UIHandler.getText("label.tf.option"), cc.xyw(1, 1, 21));
 		builder.addLabel(UIHandler.getText("label.subject.mintf"), cc.xy(1, 3));
 		builder.add(spinSubjectTF, cc.xy(3, 3));
 		builder.addLabel(UIHandler.getText("label.predicate.mintf"), cc.xy(5, 3));
@@ -153,6 +159,9 @@ public class OpinionToolbar extends JPanel {
 		builder.addLabel(UIHandler.getText("label.attribute.mintf"), cc.xy(11, 3));
 		builder.add(spinAttributeTF, cc.xy(13, 3));
 		builder.add(spinAttributeLinkTF, cc.xy(15, 3));	
+		builder.addLabel(UIHandler.getText("label.translate"), cc.xy(17, 3));
+		builder.add(chkboxTranslate, cc.xy(19, 3));
+		
 		
 		JButton btnOk = new JButton(UIHandler.getText("btn.search"));		
 		ActionListener okActionListener = (ActionListener)(GenericListener.create(
@@ -162,7 +171,7 @@ public class OpinionToolbar extends JPanel {
 				"okAction"));		
 		btnOk.addActionListener(okActionListener);
 				
-		builder.add(btnOk, cc.xy(17, 3));	
+		builder.add(btnOk, cc.xy(21, 3));	
 		
 		return builder.getPanel();
 	}
@@ -184,7 +193,8 @@ public class OpinionToolbar extends JPanel {
 			String object = tfldObject.getText();	
 			Date startDate = calStartDate.getDate();
 			Date endDate = calEndDate.getDate();
-			boolean byFeature = chkboxFeature.isSelected();			
+			boolean byFeature = chkboxFeature.isSelected();	
+			boolean translate = chkboxTranslate.isSelected();
 			int baseTermMinTF = Integer.valueOf(spinSubjectTF.getValue().toString());
 			boolean excludeStopwords = true;
 			int predicateMinTF = Integer.valueOf(spinPredicateTF.getValue().toString());
@@ -229,7 +239,7 @@ public class OpinionToolbar extends JPanel {
 			OpinionMiner miner = new OpinionMiner(searcher);
 			OpinionResultSet opinionResultSet = miner.getOpinionResultSet(filter);	
 
-			parent.showGraphView(opinionResultSet);
+			parent.showGraphView(opinionResultSet, translate);
 
 		} catch (Exception ex) {
 			ex.printStackTrace();
