@@ -57,6 +57,7 @@ KO1. PRODUCT/SERVICE
 		不具合* (1)
 		エラー* (1)
 		普通* (1)
+		障害* (1)
 	
 	USABILITY
 		usability* (1)
