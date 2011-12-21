@@ -1,13 +1,11 @@
 package com.nhn.socialanalytics.miner.view;
 
-import java.awt.BasicStroke;
 import java.awt.BorderLayout;
 import java.awt.Container;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.GridLayout;
-import java.awt.Stroke;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ItemEvent;
@@ -33,8 +31,6 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import org.apache.commons.collections15.Transformer;
-
 import com.jgoodies.forms.builder.PanelBuilder;
 import com.jgoodies.forms.layout.CellConstraints;
 import com.jgoodies.forms.layout.FormLayout;
@@ -58,6 +54,7 @@ public class OpinionViewerApplet extends JApplet {
 	JTabbedPane tpaneList;	
 	
 	OpinionGraphViewer graphViewer;
+	OpinionToolbar toolbarOpinion;
 	FeatureSummaryChart featureChart;
 	JTextArea tareaDetailDocs;	
 	DetailDocTable tableDetailDocs;
@@ -78,15 +75,15 @@ public class OpinionViewerApplet extends JApplet {
 		return this.graphViewer;
 	}
 	
-	public void showGraphView(OpinionResultSet resultSet) {
-		OpinionGraphModeller modeller = new OpinionGraphModeller(resultSet);
+	public void showGraphView(OpinionResultSet resultSet, boolean translate) {
+		OpinionGraphModeller modeller = new OpinionGraphModeller(resultSet, translate);
 		Forest<TermNode, TermEdge> graph = modeller.getGraph();
 		Layout<TermNode, TermEdge> treeLayout = new TreeLayout<TermNode, TermEdge>(graph);
 		graphViewer.updateGraph(treeLayout);
 	}
 	
-	public void showFeatureChart(FeatureResultSet resultSet, boolean includeEtc) {
-		featureChart.updateChart(resultSet, includeEtc);
+	public void showFeatureChart(FeatureResultSet resultSet, String site, boolean includeEtc) {
+		featureChart.updateChart(resultSet, site, includeEtc);
 	}
 	
 	private JComponent makeToolbarPanel(OpinionGraphViewer graphViewer) {
@@ -114,7 +111,8 @@ public class OpinionViewerApplet extends JApplet {
 		builder.setDefaultDialogBorder();
 		CellConstraints cc = new CellConstraints();
 		
-		builder.add(new OpinionToolbar(this), cc.xy(1, 1));
+		toolbarOpinion = new OpinionToolbar(this);
+		builder.add(toolbarOpinion, cc.xy(1, 1));
 		builder.add(makeGraphViewControlPanel(graphViewer), cc.xy(3, 1, "left, top"));
 		
 		builder.getPanel().setBorder(new EmptyBorder(0,0,0,0));
@@ -194,39 +192,13 @@ public class OpinionViewerApplet extends JApplet {
 	private OpinionGraphViewer makeGraphView(Forest<TermNode, TermEdge> graph) {
 		Layout<TermNode, TermEdge> treeLayout = new TreeLayout<TermNode, TermEdge>(graph);
 		final OpinionGraphViewer viewer = new OpinionGraphViewer(treeLayout, new Dimension(600, 600));
-		final VisualizationViewer<TermNode, TermEdge> vv = viewer.getVisualizationViewer();
 		
-		vv.getRenderContext().setVertexStrokeTransformer(
-				new Transformer<TermNode, Stroke>() {
-					protected final Stroke THIN = new BasicStroke(1);
-					protected final Stroke THICK = new BasicStroke(2);
-
-					public Stroke transform(TermNode v) {
-						if (vv.getPickedVertexState().isPicked(v)) {
-							tareaDetailDocs.setText("");
-							List<DetailDoc> detailDocs = v.getDocs();
-							
-							tableDetailDocs.removeAllRow();
-							tableDetailDocs.setRowData(detailDocs);
-							
-							int docCount = 1;
-							for (DetailDoc doc : detailDocs) {
-								if (docCount == 1) {
-									tareaDetailDocs.append("============================================================\n");
-									tareaDetailDocs.append(doc.toHeaderString() + "\n");
-									tareaDetailDocs.append("============================================================\n");
-								}
-								tareaDetailDocs.append(doc.toString() + "\n\n");
-								
-								docCount++;
-							}				
-							
-							return THICK;
-						} else {
-							return THIN;
-						}
-					}
-				});		
+		ItemListener itemPickListener = (ItemListener)(GenericListener.create(
+				ItemListener.class,
+				"itemStateChanged",
+				this,
+				"itemPickAction"));
+		viewer.getVisualizationViewer().getPickedVertexState().addItemListener(itemPickListener);
 	
 		return viewer;
 	}
@@ -279,6 +251,36 @@ public class OpinionViewerApplet extends JApplet {
         else if (index == 1) {
         	tpaneToolbar.setSelectedIndex(1);
         }
+	}
+	
+	public void itemPickAction(ItemEvent e) {
+		Object item = e.getItem();
+		
+		if (e.getStateChange() == ItemEvent.SELECTED) {
+			if (item instanceof TermNode) {
+				TermNode node = (TermNode) item;
+				
+				tareaDetailDocs.setText("");
+				List<DetailDoc> detailDocs = node.getDocs();
+				
+				if (detailDocs.size() > 0) {
+					tableDetailDocs.removeAllRow();
+					tableDetailDocs.setRowData(detailDocs, toolbarOpinion.isTranslate());
+					
+					int docCount = 1;
+					for (DetailDoc doc : detailDocs) {
+						if (docCount == 1) {
+							tareaDetailDocs.append("============================================================\n");
+							tareaDetailDocs.append(doc.toHeaderString() + "\n");
+							tareaDetailDocs.append("============================================================\n");
+						}
+						tareaDetailDocs.append(doc.toString() + "\n\n");
+						
+						docCount++;
+					}									
+				}
+			}
+		}
 	}
 	
 	public static void main(String[] args) {

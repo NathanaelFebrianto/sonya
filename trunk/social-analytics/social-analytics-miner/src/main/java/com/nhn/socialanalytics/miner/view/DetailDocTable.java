@@ -23,7 +23,7 @@ public class DetailDocTable extends DefaultTable {
 	
 	public DetailDocTable(List<DetailDoc> docs) {
         this();
-        setRowData(docs);
+        setRowData(docs, false);
     }
 	
 	/**
@@ -58,9 +58,14 @@ public class DetailDocTable extends DefaultTable {
 		//setCellRenders();
 		
 		setColumnWidth(0, 20);
-		setColumnWidth(6, 200);
+		setColumnWidth(7, 200);
+		setColumnWidth(8, 200);
 		
-		setLineWrapCellRenderer(6);
+		setLineWrapCellRenderer(7);
+		setLineWrapCellRenderer(8);
+		
+		setColumnHidden(6, true);
+		//setColumnHidden(8, true);	
     }
 	
 	private Object[] columnNames() {
@@ -75,10 +80,12 @@ public class DetailDocTable extends DefaultTable {
 				UIHandler.getText("col.main.feature"),
 				//UIHandler.getText("col.clause.feature"),
 				UIHandler.getText("col.clause.main.feature"),
-				UIHandler.getText("col.subject.predicate"),				
+				UIHandler.getText("col.subject.predicate"),	
+				UIHandler.getText("col.subject.predicate.translate"),	
 				//UIHandler.getText("col.predicate"),
 				//UIHandler.getText("col.attribute"),
 				UIHandler.getText("col.text"),
+				UIHandler.getText("col.text.translate"),
 				UIHandler.getText("col.polarity"),
 				//UIHandler.getText("col.polarity.strength"),
 				UIHandler.getText("col.clause.polarity"),
@@ -97,7 +104,17 @@ public class DetailDocTable extends DefaultTable {
 	}
 	*/
 
-	public void setRowData(List<DetailDoc> docs) {
+	public void setRowData(List<DetailDoc> docs, boolean translate) {
+		if (translate) {
+			//setColumnHidden(6, false);
+			//setColumnHidden(8, false);
+			//setColumnWidth(8, 200);
+		}
+		else {
+			//setColumnHidden(6, true);
+			//setColumnHidden(8, true);		
+		}
+		
 	    removeAllRow();	            
         for (int row = 0; row < docs.size(); row++) {
 	        DetailDoc doc = (DetailDoc) docs.get(row);	        
@@ -114,9 +131,22 @@ public class DetailDocTable extends DefaultTable {
 	        //rowData.add(doc.getClauseFeature());
 	        rowData.add(doc.getClauseMainFeature());
 	        rowData.add(doc.getSubject() + " " + doc.getPredicate());
+	        if (translate) {
+	        	//rowData.add(Translator.translate(doc.getSubject()) + " " + Translator.translate(doc.getPredicate()));
+	        	rowData.add("");
+	        }
+	        else {
+	        	rowData.add("");
+	        }
 	        //rowData.add(doc.getPredicate());
 	        //rowData.add(doc.getAttribute());
 	        rowData.add(doc.getText());
+	        if (translate) {
+	        	rowData.add(Translator.translate(doc.getText()));
+	        }
+	        else {
+	        	rowData.add("");
+	        }
 	        rowData.add(convertScale(doc.getPolarity()*doc.getPolarityStrength(), 1));
 	        //rowData.add(convertScale(doc.getPolarityStrength(), 1));
 	        rowData.add(convertScale(doc.getClausePolarity()*doc.getClausePolarityStrength(), 1));

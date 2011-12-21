@@ -29,7 +29,10 @@ public class OpinionMiner {
 		
 		try {			
 			BaseTermFilter baseTermFilter = filter.getBaseTermFilter();			
-			OpinionResultSet resultSet = new OpinionResultSet(baseTermFilter.getField(), filter.isByFeature());			
+			OpinionResultSet resultSet = new OpinionResultSet(baseTermFilter.getField(), filter.isByFeature());	
+			resultSet.setObject(filter.getObject());
+			resultSet.setLanguage(filter.getLanguage());
+			
 			List<LinkedTermFilter> linkedTermFilters = filter.getLinkedTermFilters();
 			
 			List<OpinionTerm> baseTerms = indexSearcher.searchTerms(
@@ -76,6 +79,7 @@ public class OpinionMiner {
 		try {
 			FeatureResultSet resultSet = new FeatureResultSet();
 			resultSet.setObject(filter.getObject());
+			resultSet.setLanguage(filter.getLanguage());
 			
 			Map<String, FeatureSummary> featureMap = new HashMap<String, FeatureSummary>();
 			

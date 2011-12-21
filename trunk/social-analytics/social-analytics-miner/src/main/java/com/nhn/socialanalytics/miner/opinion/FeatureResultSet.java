@@ -8,6 +8,7 @@ import com.nhn.socialanalytics.miner.opinion.FeatureResultSet.FeatureSummary;
 public class FeatureResultSet extends ArrayList<FeatureSummary> {
 	
 	private String object;
+	private String language;
 	
 	public FeatureResultSet() {
 		
@@ -19,6 +20,14 @@ public class FeatureResultSet extends ArrayList<FeatureSummary> {
 	
 	public void setObject(String object) {
 		this.object = object;
+	}
+	
+	public String getLanguage() {
+		return language;
+	}
+
+	public void setLanguage(String language) {
+		this.language = language;
 	}
 	
 	public void addFeatureSummary(FeatureSummary featureSummary) {

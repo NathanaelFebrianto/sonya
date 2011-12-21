@@ -176,7 +176,7 @@ public class FeatureToolbar extends JPanel {
 			OpinionMiner miner = new OpinionMiner(searcher);
 			FeatureResultSet featureResultSet = miner.getFeatureResultSet(filter);	
 
-			parent.showFeatureChart(featureResultSet, includeEtc);
+			parent.showFeatureChart(featureResultSet, site, includeEtc);
 
 		} catch (Exception ex) {
 			ex.printStackTrace();

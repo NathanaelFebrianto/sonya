@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.nhn.socialanalytics.miner.index.FieldConstants;
 import com.nhn.socialanalytics.miner.opinion.OpinionResultSet;
 import com.nhn.socialanalytics.miner.opinion.OpinionTerm;
 
@@ -28,15 +29,15 @@ public class OpinionGraphModeller {
 	 * 
 	 */
 	public OpinionGraphModeller() {
-		this(DIRECTED_SPARSE_GRAPH, null);
+		this(DIRECTED_SPARSE_GRAPH, null, false);
 	}
 	
 	/**
 	 * Constructor.
 	 * 
 	 */
-	public OpinionGraphModeller(OpinionResultSet ors) {
-		this(DIRECTED_SPARSE_GRAPH, ors);
+	public OpinionGraphModeller(OpinionResultSet ors, boolean translate) {
+		this(DIRECTED_SPARSE_GRAPH, ors, translate);
 	}
 	
 	/**
@@ -44,7 +45,7 @@ public class OpinionGraphModeller {
 	 * 
 	 * @param graphType the graph type
 	 */
-	public OpinionGraphModeller(int graphType, OpinionResultSet ors) {
+	public OpinionGraphModeller(int graphType, OpinionResultSet ors, boolean translate) {
 		graph = new DelegateForest<TermNode, TermEdge>();
 		
 		rootNode = new TermNode();
@@ -53,7 +54,7 @@ public class OpinionGraphModeller {
 		termNodes.add(rootNode);
 		
 		if (ors != null) {
-			this.setOpinionResultSet(ors);
+			this.setOpinionResultSet(ors, translate);
 			this.createGraph();
 		}
 	}
@@ -120,7 +121,7 @@ public class OpinionGraphModeller {
 		}
 	}
 
-	public void setOpinionResultSet(OpinionResultSet ors) {
+	public void setOpinionResultSet(OpinionResultSet ors, boolean translate) {
 		boolean byFeature = ors.isByFeature();
 		
 		// update root node name
@@ -157,6 +158,18 @@ public class OpinionGraphModeller {
 			baseTermNode.setTF(baseTerm.getTF());
 			baseTermNode.setPolarity(baseTerm.getPolarity());
 			baseTermNode.setDocs(baseTerm.getDocs());
+			
+			String translatedText = baseTerm.getTerm();
+			if (translate) {
+				if (ors.getLanguage().equalsIgnoreCase(FieldConstants.LANG_JAPANESE)) {
+					translatedText = Translator.translate("あ " + baseTerm.getTerm());
+					translatedText = translatedText.substring(2);
+				}
+				else {
+					translatedText = Translator.translate(baseTerm.getTerm());
+				}
+				baseTermNode.setName(baseTerm.getTerm() + "(" + translatedText + ")");
+			}
 			
 			// base term edge
 			TermEdge baseTermEdge = new TermEdge();
@@ -203,6 +216,18 @@ public class OpinionGraphModeller {
 					node.setPolarity(linkedTerm.getPolarity());
 					node.setType(linkedTerm.getType());
 					node.setDocs(linkedTerm.getDocs());
+					
+					String translatedLinkedText = linkedTerm.getTerm();
+					if (translate) {
+						if (ors.getLanguage().equalsIgnoreCase(FieldConstants.LANG_JAPANESE)) {
+							translatedLinkedText = Translator.translate("あ " + linkedTerm.getTerm());
+							translatedLinkedText = translatedLinkedText.substring(2);
+						}
+						else {
+							translatedLinkedText = Translator.translate(linkedTerm.getTerm());
+						}
+						node.setName(linkedTerm.getTerm() + "(" + translatedLinkedText + ")");
+					}
 					
 					// edge
 					TermEdge edge = new TermEdge();

@@ -9,12 +9,12 @@ import java.awt.Paint;
 import java.awt.Shape;
 import java.awt.Stroke;
 import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.Point2D;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -24,7 +24,6 @@ import org.apache.commons.collections15.functors.ConstantTransformer;
 import org.apache.commons.collections15.functors.MapTransformer;
 import org.apache.commons.collections15.map.LazyMap;
 
-import com.nhn.socialanalytics.miner.index.DetailDoc;
 import com.nhn.socialanalytics.miner.index.FieldConstants;
 
 import edu.uci.ics.jung.algorithms.layout.Layout;
@@ -140,6 +139,8 @@ public class OpinionGraphViewer {
 						}
 					}
 				});
+		
+		vv.getPickedVertexState().addItemListener(new ItemPickListener());
 
 		vv.getRenderContext().setVertexStrokeTransformer(
 				new Transformer<TermNode, Stroke>() {
@@ -148,23 +149,6 @@ public class OpinionGraphViewer {
 
 					public Stroke transform(TermNode v) {
 						if (vv.getPickedVertexState().isPicked(v)) {
-							// tareaDetailDocs.setText("");
-							List<DetailDoc> detailDocs = v.getDocs();
-
-							int docCount = 1;
-							for (DetailDoc doc : detailDocs) {
-								if (docCount == 1) {
-									// tareaDetailDocs.append("============================================================\n");
-									// tareaDetailDocs.append(doc.toHeaderString()
-									// + "\n");
-									// tareaDetailDocs.append("============================================================\n");
-								}
-								// tareaDetailDocs.append(doc.toString() +
-								// "\n\n");
-
-								docCount++;
-							}
-
 							return THICK;
 						} else {
 							return THIN;
@@ -318,6 +302,21 @@ public class OpinionGraphViewer {
 
 		public boolean useTransform() {
 			return true;
+		}
+	}
+	
+	public static class ItemPickListener implements ItemListener {
+
+		public void itemStateChanged(ItemEvent e) {
+			Object item = e.getItem();
+			
+			if (e.getStateChange() == ItemEvent.SELECTED) {
+				if (item instanceof TermNode) {
+					//TermNode node = (TermNode) item;
+				}
+				
+			} else {
+			}
 		}
 	}
 
