@@ -57,6 +57,7 @@ KO1. PRODUCT/SERVICE
 		느리다 (1)
 		불편* (1)
 		에러* (1)
+		장애* (1)
 	
 	USABILITY
 		usability* (1)
