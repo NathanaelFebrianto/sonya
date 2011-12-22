@@ -265,6 +265,10 @@ public class OpinionViewerApplet extends JApplet {
 				
 				if (detailDocs.size() > 0) {
 					tableDetailDocs.removeAllRow();
+					// display max 50 rows
+					if (detailDocs.size() > 50)
+						detailDocs = detailDocs.subList(0, 50);
+					
 					tableDetailDocs.setRowData(detailDocs, toolbarOpinion.isTranslate());
 					
 					int docCount = 1;
