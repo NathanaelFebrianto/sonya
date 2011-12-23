@@ -21,11 +21,13 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
+		<!--  
 		<dependency>
 			<groupId>org.apache.lucene.analysis</groupId>
 			<artifactId>lucene-analyzer-kr</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		-->
 		<!-- JUNG -->
 		<dependency>
 			<groupId>net.sf.jung</groupId>
