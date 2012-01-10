@@ -23,10 +23,6 @@ import com.nhn.socialanalytics.common.collect.Collector;
 import com.nhn.socialanalytics.common.util.DateUtil;
 import com.nhn.socialanalytics.me2day.model.Post;
 import com.nhn.socialanalytics.me2day.parse.Me2dayParser;
-import com.nhn.socialanalytics.miner.index.DetailDoc;
-import com.nhn.socialanalytics.miner.index.DocIndexSearcher;
-import com.nhn.socialanalytics.miner.index.DocIndexWriter;
-import com.nhn.socialanalytics.miner.index.FieldConstants;
 import com.nhn.socialanalytics.nlp.feature.FeatureClassifier;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanMorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanSemanticAnalyzer;
@@ -35,6 +31,10 @@ import com.nhn.socialanalytics.nlp.semantic.SemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.semantic.SemanticClause;
 import com.nhn.socialanalytics.nlp.semantic.SemanticSentence;
 import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
+import com.nhn.socialanalytics.opinion.common.DetailDoc;
+import com.nhn.socialanalytics.opinion.common.FieldConstants;
+import com.nhn.socialanalytics.opinion.lucene.DocIndexSearcher;
+import com.nhn.socialanalytics.opinion.lucene.DocIndexWriter;
 
 public class Me2dayDataCollector extends Collector {
 
@@ -107,18 +107,20 @@ public class Me2dayDataCollector extends Collector {
 					"author_id" + DELIMITER +		
 					"author_name" + DELIMITER +		
 					"permalink" + DELIMITER +
+					"icon_url" + DELIMITER +
 					"comment_count" + DELIMITER +
 					"metoo_count" + DELIMITER +
 					"text" + DELIMITER +		
 					"text1" + DELIMITER +		
 					"text2" + DELIMITER +
+					"tag_text" + DELIMITER +
 					"feature" + DELIMITER +
 					"main_feature" + DELIMITER +
-					"tag_text" + DELIMITER +
-					"subjectpredicate" + DELIMITER +		
+					"clause" + DELIMITER +		
 					"subject" + DELIMITER +		
 					"predicate" + DELIMITER +		
-					"attribute" + DELIMITER +		
+					"attribute" + DELIMITER +	
+					"modifier" + DELIMITER +	
 					"polarity" + DELIMITER +		
 					"polarity_strength"
 					);
@@ -138,6 +140,7 @@ public class Me2dayDataCollector extends Collector {
 			int commentCount = post.getCommentCount();
 			int metooCount = post.getMetooCount();
 			String permalink = post.getPermalink();
+			String iconUrl = post.getIconUrl();
 			
 			/////////////////////////////////
 			// add new collected id into set
@@ -159,10 +162,11 @@ public class Me2dayDataCollector extends Collector {
 				
 				// semantic analysis
 				SemanticSentence semanticSentence = semanticKorean.analyze(textEmotiTagged);
-				String subjectpredicate = semanticSentence.extractSubjectPredicateLabel();
+				String strClause = semanticSentence.extractSubjectPredicateLabel();
 				String subject = semanticSentence.extractSubjectLabel();
 				String predicate = semanticSentence.extractPredicateLabel();
 				String attribute = semanticSentence.extractAttributesLabel();
+				String modifier = "";
 				
 				// sentiment analysis
 				semanticSentence = sentimentKorean.analyzePolarity(semanticSentence);
@@ -187,6 +191,7 @@ public class Me2dayDataCollector extends Collector {
 						authorId + DELIMITER +
 						authorName + DELIMITER +
 						permalink + DELIMITER +
+						iconUrl + DELIMITER +
 						commentCount + DELIMITER +
 						metooCount + DELIMITER +
 						text + DELIMITER +
@@ -195,10 +200,11 @@ public class Me2dayDataCollector extends Collector {
 						tagText1 + DELIMITER +
 						feature + DELIMITER +
 						mainFeature + DELIMITER +
-						subjectpredicate + DELIMITER +
+						strClause + DELIMITER +
 						subject + DELIMITER +
 						predicate + DELIMITER +
 						attribute + DELIMITER +
+						modifier + DELIMITER +
 						polarity + DELIMITER +
 						polarityStrength		
 						);
@@ -227,16 +233,17 @@ public class Me2dayDataCollector extends Collector {
 						doc.setCollectDate(currentDatetime);
 						doc.setDocId(postId);
 						doc.setDate(createDate);
-						doc.setUserId(authorId);
-						doc.setUserName(authorName);
-						doc.setFeature(feature);
-						doc.setMainFeature(mainFeature);
+						doc.setAuthorId(authorId);
+						doc.setAuthorName(authorName);
+						doc.setDocFeature(feature);
+						doc.setDocMainFeature(mainFeature);
 						doc.setSubject(clause.getSubject());
 						doc.setPredicate(clause.getPredicate());
 						doc.setAttribute(clause.makeAttributesLabel());
+						doc.setModifier("");
 						doc.setText(text);
-						doc.setPolarity(polarity);
-						doc.setPolarityStrength(polarityStrength);
+						doc.setDocPolarity(polarity);
+						doc.setDocPolarityStrength(polarityStrength);
 						doc.setClausePolarity(clause.getPolarity());
 						doc.setClausePolarityStrength(clause.getPolarityStrength());
 						

@@ -1,8 +1,10 @@
 package com.nhn.socialanalytics.common.collect;
 
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -12,15 +14,13 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.apache.mahout.common.iterator.FileLineIterator;
-
 import com.nhn.socialanalytics.common.util.DateUtil;
-import com.nhn.socialanalytics.miner.index.DetailDoc;
 import com.nhn.socialanalytics.nlp.feature.FeatureClassifier;
 import com.nhn.socialanalytics.nlp.morpheme.MorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.semantic.SemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.semantic.SemanticClause;
 import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
+import com.nhn.socialanalytics.opinion.common.DetailDoc;
 
 public abstract class Collector {
 
@@ -51,18 +51,34 @@ public abstract class Collector {
 		if (spamFilterFile == null)
 			return spamFilterSet;
 		
-		FileLineIterator it = new FileLineIterator(new FileInputStream(spamFilterFile));
-		while (it.hasNext()) {
-			String line = it.next();
-			line = line.trim();
-			if (line.startsWith("#")) {
-				continue;
-			}			
-			if (!line.equals("")) {
-				String regex = line.replaceAll("\\*", "[\\\\w']*");			
-				spamFilterSet.add(Pattern.compile(regex));
+		BufferedReader in = null;
+		
+		try {
+			in = new BufferedReader(new InputStreamReader(new FileInputStream(spamFilterFile), "utf-8"));
+			String line = "";
+			while((line = in.readLine()) != null) {
+				line = line.trim();
+				
+				if (line.startsWith("#")) {
+					continue;
+				}
+				if (!line.equals("")) {
+					String regex = line.replaceAll("\\*", "[\\\\w']*");			
+					spamFilterSet.add(Pattern.compile(regex));
+				}
+			}
+		}catch(IOException e){
+			e.printStackTrace();
+			throw e;
+		}finally{
+			try {
+				in.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+				throw e;
 			}
 		}
+		
 		return spamFilterSet;
 	}
 	
