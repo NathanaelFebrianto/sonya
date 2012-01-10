@@ -4,7 +4,7 @@
 
 	<groupId>com.nhn.socialanalytics</groupId>
 	<artifactId>social-analytics-collector</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.1.1</version>
 	<packaging>jar</packaging>
 
 	<name>social-analytics-collector</name>
@@ -57,17 +57,11 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.9</version>
 		</dependency>
-
-		<dependency>
-			<groupId>com.nhn.socialanalytics</groupId>
-			<artifactId>social-analytics-nlp</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
 		
 		<dependency>
 			<groupId>com.nhn.socialanalytics</groupId>
-			<artifactId>social-analytics-miner</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<artifactId>social-analytics-opinion</artifactId>
+			<version>0.1.1</version>
 		</dependency>
 
 		<dependency>
@@ -89,9 +83,6 @@
 			<version>2.2.0</version>
 		</dependency>
 		-->
-
-		<!-- <dependency> <groupId>org.apache.hadoop.hive</groupId> <artifactId>hive-hbase-handler</artifactId> 
-			<version>0.7.1-cdh3u2-SNAPSHOT</version> </dependency> -->
 
 	</dependencies>
 </project>

@@ -27,10 +27,6 @@ import com.nhn.socialanalytics.common.JobLogger;
 import com.nhn.socialanalytics.common.collect.CollectHistoryBuffer;
 import com.nhn.socialanalytics.common.collect.Collector;
 import com.nhn.socialanalytics.common.util.DateUtil;
-import com.nhn.socialanalytics.miner.index.DetailDoc;
-import com.nhn.socialanalytics.miner.index.DocIndexSearcher;
-import com.nhn.socialanalytics.miner.index.DocIndexWriter;
-import com.nhn.socialanalytics.miner.index.FieldConstants;
 import com.nhn.socialanalytics.nlp.feature.FeatureClassifier;
 import com.nhn.socialanalytics.nlp.lang.ja.JapaneseMorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ja.JapaneseSemanticAnalyzer;
@@ -41,6 +37,10 @@ import com.nhn.socialanalytics.nlp.semantic.SemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.semantic.SemanticClause;
 import com.nhn.socialanalytics.nlp.semantic.SemanticSentence;
 import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
+import com.nhn.socialanalytics.opinion.common.DetailDoc;
+import com.nhn.socialanalytics.opinion.common.FieldConstants;
+import com.nhn.socialanalytics.opinion.lucene.DocIndexSearcher;
+import com.nhn.socialanalytics.opinion.lucene.DocIndexWriter;
 import com.nhn.socialanalytics.twitter.parse.TwitterParser;
 
 public class TwitterDataCollector extends Collector {
@@ -152,16 +152,18 @@ public class TwitterDataCollector extends Collector {
 					"tweet_id" + DELIMITER +	
 					"create_date" + DELIMITER +	
 					"from_user" + DELIMITER +		
-					"to_user" + DELIMITER +							
+					"to_user" + DELIMITER +	
+					"profile_image_url" + DELIMITER +	
 					"text" + DELIMITER +		
 					"text1" + DELIMITER +		
 					"text2" + DELIMITER +		
 					"feature" + DELIMITER +
 					"main_feature" + DELIMITER +
-					"subjectpredicate" + DELIMITER +		
+					"clause" + DELIMITER +		
 					"subject" + DELIMITER +		
 					"predicate" + DELIMITER +		
-					"attribute" + DELIMITER +		
+					"attribute" + DELIMITER +	
+					"modifier" + DELIMITER +	
 					"polarity" + DELIMITER +		
 					"polarity_strength"
 					);
@@ -175,7 +177,8 @@ public class TwitterDataCollector extends Collector {
 			String createDate = DateUtil.convertDateToString("yyyyMMddHHmmss", tweet.getCreatedAt());
 			String fromUserId = String.valueOf(tweet.getFromUserId());
 			String fromUser = tweet.getFromUser();			
-			String toUser = tweet.getToUser();			
+			String toUser = tweet.getToUser();	
+			String profileImageUrl = tweet.getProfileImageUrl();
 			
 			/////////////////////////////////
 			// add new collected id into set
@@ -262,10 +265,11 @@ public class TwitterDataCollector extends Collector {
 					mainFeature = featureKorean.toMainFeatureString(featureCounts);			
 				}				
 				
-				String subjectpredicate = semanticSentence.extractSubjectPredicateLabel();
+				String strClause = semanticSentence.extractSubjectPredicateLabel();
 				String subject = semanticSentence.extractSubjectLabel();
 				String predicate = semanticSentence.extractPredicateLabel();
 				String attribute = semanticSentence.extractAttributesLabel();
+				String modifier = "";
 				
 				// write new collected data into source file
 				brData.write(
@@ -276,16 +280,18 @@ public class TwitterDataCollector extends Collector {
 						tweetId + DELIMITER +
 						createDate + DELIMITER + 
 						fromUser + DELIMITER +
-						toUser + DELIMITER +						
+						toUser + DELIMITER +
+						profileImageUrl + DELIMITER +
 						text + DELIMITER +
 						text1 + DELIMITER +
 						text2 + DELIMITER +
 						feature + DELIMITER +
 						mainFeature + DELIMITER +
-						subjectpredicate + DELIMITER +
+						strClause + DELIMITER +
 						subject + DELIMITER +
 						predicate + DELIMITER +
 						attribute + DELIMITER +
+						modifier + DELIMITER +
 						polarity + DELIMITER +
 						polarityStrength		
 						);
@@ -314,16 +320,17 @@ public class TwitterDataCollector extends Collector {
 						doc.setCollectDate(currentDatetime);
 						doc.setDocId(tweetId);
 						doc.setDate(createDate);
-						doc.setUserId(fromUserId);
-						doc.setUserName(fromUser);
-						doc.setFeature(feature);
-						doc.setMainFeature(mainFeature);
+						doc.setAuthorId(fromUserId);
+						doc.setAuthorName(fromUser);
+						doc.setDocFeature(feature);
+						doc.setDocMainFeature(mainFeature);
 						doc.setSubject(clause.getSubject());
 						doc.setPredicate(clause.getPredicate());
 						doc.setAttribute(clause.makeAttributesLabel());
+						doc.setModifier("");
 						doc.setText(text);
-						doc.setPolarity(polarity);
-						doc.setPolarityStrength(polarityStrength);
+						doc.setDocPolarity(polarity);
+						doc.setDocPolarityStrength(polarityStrength);
 						doc.setClausePolarity(clause.getPolarity());
 						doc.setClausePolarityStrength(clause.getPolarityStrength());
 
