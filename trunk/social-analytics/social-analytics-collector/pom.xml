@@ -81,7 +81,7 @@
 		<dependency>
 			<groupId>com.nhn.socialanalytics</groupId>
 			<artifactId>social-analytics-opinion</artifactId>
-			<version>0.1.0_01</version>
+			<version>[0.1,]</version>
 		</dependency>
 
 	</dependencies>
