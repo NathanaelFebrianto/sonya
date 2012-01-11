@@ -188,15 +188,18 @@ public abstract class Collector {
 	}
 	
 	protected DetailDoc setClauseFeatureToDocument(String object, String language, SemanticClause clause, DetailDoc doc) {
+		/*
 		String clauseStandardLabels = clause.getStandardSubject() + " " +
 				clause.getStandardPredicate() + " " +
 				clause.getStandardAttributes();
+		*/
+		String clauseStandardLabels = clause.makeStandardLabel(" ", true, false, false);
 		
 		FeatureClassifier featureClassifier = this.getFeatureClassifier(object, language);
 		
 		Map<String, Double> clauseFeatureCounts = featureClassifier.getFeatureCounts(clauseStandardLabels, true);
-		String clauseFeature = featureClassifier.toFeatureString(clauseFeatureCounts);
-		String clauseMainFeature = featureClassifier.toMainFeatureString(clauseFeatureCounts);
+		String clauseFeature = featureClassifier.getFeatureLabel(clauseFeatureCounts);
+		String clauseMainFeature = featureClassifier.getMainFeatureLabel(clauseFeatureCounts);
 		
 		doc.setClauseFeature(clauseFeature);
 		doc.setClauseMainFeature(clauseMainFeature);

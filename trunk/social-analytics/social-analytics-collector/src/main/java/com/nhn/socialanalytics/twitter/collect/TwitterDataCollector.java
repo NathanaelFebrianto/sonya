@@ -214,12 +214,10 @@ public class TwitterDataCollector extends Collector {
 					polarityStrength = semanticSentence.getPolarityStrength();
 					
 					// feature classification
-					String standardLabels = semanticSentence.extractStandardSubjectLabel() + " " +
-							semanticSentence.extractStandardPredicateLabel() + " " +
-							semanticSentence.extractStandardAttributesLabel();
+					String standardLabels = semanticSentence.extractStandardLabel(" ", " ", true, false, false);
 					Map<String, Double> featureCounts = featureKorean.getFeatureCounts(standardLabels, true);
-					feature = featureKorean.toFeatureString(featureCounts);
-					mainFeature = featureKorean.toMainFeatureString(featureCounts);
+					feature = featureKorean.getFeatureLabel(featureCounts);
+					mainFeature = featureKorean.getMainFeatureLabel(featureCounts);
 				}
 				else if (langCode.equalsIgnoreCase("ja")) {
 					language = FieldConstants.LANG_JAPANESE;
@@ -236,12 +234,10 @@ public class TwitterDataCollector extends Collector {
 					polarityStrength = semanticSentence.getPolarityStrength();
 					
 					// feature classification
-					String standardLabels = semanticSentence.extractStandardSubjectLabel() + " " +
-							semanticSentence.extractStandardPredicateLabel() + " " +
-							semanticSentence.extractStandardAttributesLabel();
+					String standardLabels = semanticSentence.extractStandardLabel(" ", " ", true, false, false);
 					Map<String, Double> featureCounts = featureJapanese.getFeatureCounts(standardLabels, true);
-					feature = featureJapanese.toFeatureString(featureCounts);
-					mainFeature = featureJapanese.toMainFeatureString(featureCounts);
+					feature = featureJapanese.getFeatureLabel(featureCounts);
+					mainFeature = featureJapanese.getMainFeatureLabel(featureCounts);
 				}
 				else {
 					// morpheme analysis
@@ -257,19 +253,17 @@ public class TwitterDataCollector extends Collector {
 					polarityStrength = semanticSentence.getPolarityStrength();
 					
 					// feature classification
-					String standardLabels = semanticSentence.extractStandardSubjectLabel() + " " +
-							semanticSentence.extractStandardPredicateLabel() + " " +
-							semanticSentence.extractStandardAttributesLabel();
+					String standardLabels = semanticSentence.extractStandardLabel(" ", " ", true, false, false);
 					Map<String, Double> featureCounts = featureKorean.getFeatureCounts(standardLabels, true);
-					feature = featureKorean.toFeatureString(featureCounts);
-					mainFeature = featureKorean.toMainFeatureString(featureCounts);			
+					feature = featureKorean.getFeatureLabel(featureCounts);
+					mainFeature = featureKorean.getMainFeatureLabel(featureCounts);			
 				}				
 				
-				String strClause = semanticSentence.extractSubjectPredicateLabel();
-				String subject = semanticSentence.extractSubjectLabel();
-				String predicate = semanticSentence.extractPredicateLabel();
-				String attribute = semanticSentence.extractAttributesLabel();
-				String modifier = "";
+				String strClause = semanticSentence.extractStandardLabel(",", "-", true, false, false);
+				String subject = semanticSentence.extractStandardSubjectLabel();
+				String predicate = semanticSentence.extractStandardPredicateLabel();
+				String attribute = semanticSentence.extractStandardAttributesLabel();
+				String modifier = semanticSentence.extractStandardModifiersLabel();
 				
 				// write new collected data into source file
 				brData.write(
@@ -327,7 +321,7 @@ public class TwitterDataCollector extends Collector {
 						doc.setSubject(clause.getSubject());
 						doc.setPredicate(clause.getPredicate());
 						doc.setAttribute(clause.makeAttributesLabel());
-						doc.setModifier("");
+						doc.setModifier(modifier);
 						doc.setText(text);
 						doc.setDocPolarity(polarity);
 						doc.setDocPolarityStrength(polarityStrength);

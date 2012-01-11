@@ -189,12 +189,17 @@ public class AndroidMarketDataCollector extends Collector {
 						polarityStrength = semanticSentence.getPolarityStrength();
 						
 						// feature classification
+						/*
 						String standardLabels = semanticSentence.extractStandardSubjectLabel() + " " +
 								semanticSentence.extractStandardPredicateLabel() + " " +
 								semanticSentence.extractStandardAttributesLabel();
+						Map<String, Double> featureCounts = featureKorean.getFeatureCounts(text1, true);
+						*/
+						
+						String standardLabels = semanticSentence.extractStandardLabel(" ", " ", true, false, false);
 						Map<String, Double> featureCounts = featureKorean.getFeatureCounts(standardLabels, true);
-						feature = featureKorean.toFeatureString(featureCounts);
-						mainFeature = featureKorean.toMainFeatureString(featureCounts);
+						feature = featureKorean.getFeatureLabel(featureCounts);
+						mainFeature = featureKorean.getMainFeatureLabel(featureCounts);
 					}
 					else if (locale.equals(Locale.JAPAN)) {
 						language = FieldConstants.LANG_JAPANESE;
@@ -211,12 +216,10 @@ public class AndroidMarketDataCollector extends Collector {
 						polarityStrength = semanticSentence.getPolarityStrength();
 						
 						// feature classification
-						String standardLabels = semanticSentence.extractStandardSubjectLabel() + " " +
-								semanticSentence.extractStandardPredicateLabel() + " " +
-								semanticSentence.extractStandardAttributesLabel();
+						String standardLabels = semanticSentence.extractStandardLabel(" ", " ", true, false, false);
 						Map<String, Double> featureCounts = featureJapanese.getFeatureCounts(standardLabels, true);
-						feature = featureJapanese.toFeatureString(featureCounts);
-						mainFeature = featureJapanese.toMainFeatureString(featureCounts);
+						feature = featureJapanese.getFeatureLabel(featureCounts);
+						mainFeature = featureJapanese.getMainFeatureLabel(featureCounts);
 					}
 					else {
 						text1 = morphemeKorean.extractTerms(textEmotiTagged);
@@ -229,19 +232,18 @@ public class AndroidMarketDataCollector extends Collector {
 						polarityStrength = semanticSentence.getPolarityStrength();	
 						
 						// feature classification
-						String standardLabels = semanticSentence.extractStandardSubjectLabel() + " " +
-								semanticSentence.extractStandardPredicateLabel() + " " +
-								semanticSentence.extractStandardAttributesLabel();
+						String standardLabels = semanticSentence.extractStandardLabel(" ", " ", true, false, false);
 						Map<String, Double> featureCounts = featureKorean.getFeatureCounts(standardLabels, true);
-						feature = featureKorean.toFeatureString(featureCounts);
-						mainFeature = featureKorean.toMainFeatureString(featureCounts);
+						feature = featureKorean.getFeatureLabel(featureCounts);
+						mainFeature = featureKorean.getMainFeatureLabel(featureCounts);
 					}
 										
-					String strClause = semanticSentence.extractStandardSubjectPredicateLabel();
+					//String strClause = semanticSentence.extractStandardSubjectPredicateLabel();
+					String strClause = semanticSentence.extractStandardLabel(",", "-", true, false, false);
 					String subject = semanticSentence.extractStandardSubjectLabel();
 					String predicate = semanticSentence.extractStandardPredicateLabel();
 					String attribute = semanticSentence.extractStandardAttributesLabel();	
-					String modifier = "";
+					String modifier = semanticSentence.extractStandardModifiersLabel();
 				
 					// write new collected data into source file
 					brData.write(
@@ -301,7 +303,7 @@ public class AndroidMarketDataCollector extends Collector {
 								doc.setSubject(clause.getSubject());
 								doc.setPredicate(clause.getPredicate());
 								doc.setAttribute(clause.makeAttributesLabel());
-								doc.setModifier("");
+								doc.setModifier(modifier);
 								doc.setText(text);
 								doc.setDocPolarity(polarity);
 								doc.setDocPolarityStrength(polarityStrength);

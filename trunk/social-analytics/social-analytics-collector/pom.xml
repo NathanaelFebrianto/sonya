@@ -4,7 +4,7 @@
 
 	<groupId>com.nhn.socialanalytics</groupId>
 	<artifactId>social-analytics-collector</artifactId>
-	<version>0.1.1</version>
+	<version>0.1.0_01</version>
 	<packaging>jar</packaging>
 
 	<name>social-analytics-collector</name>
@@ -57,12 +57,6 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.9</version>
 		</dependency>
-		
-		<dependency>
-			<groupId>com.nhn.socialanalytics</groupId>
-			<artifactId>social-analytics-opinion</artifactId>
-			<version>0.1.1</version>
-		</dependency>
 
 		<dependency>
 			<groupId>org.twitter4j</groupId>
@@ -83,6 +77,12 @@
 			<version>2.2.0</version>
 		</dependency>
 		-->
+		
+		<dependency>
+			<groupId>com.nhn.socialanalytics</groupId>
+			<artifactId>social-analytics-opinion</artifactId>
+			<version>0.1.0_01</version>
+		</dependency>
 
 	</dependencies>
 </project>
