@@ -1,6 +1,7 @@
 package com.nhn.socialanalytics.nlp.sentiment;
 
 import java.io.File;
+import java.util.List;
 import java.util.Map;
 
 import com.nhn.socialanalytics.nlp.semantic.SemanticClause;
@@ -33,8 +34,9 @@ public class SentimentAnalyzer {
 		if (priority < 1) priority = 1;
 		
 		//String label = clause.makeLabel(false);
-		String label = clause.makeStandardLabel(false);
-		label = label + " " + clause.makeStandardAttributesLabel();
+		//String label = clause.makeStandardLabel(false);
+		//label = label + " " + clause.makeStandardAttributesLabel();
+		String label = clause.makeStandardLabel(" ", true, false, false);
 		
 		if (label.trim().equals(""))
 			return clause;
@@ -77,6 +79,30 @@ public class SentimentAnalyzer {
 		clause.setNegativeWordCount(negCount);
 		
 		return clause;
+	}
+	
+	public Polarity analyzePolarity(List<SemanticSentence> sentences) {
+		double polarity = 0.0;
+		double polarityStrength = 0.0;
+		double sPolarity = 0.0;
+		
+		for (SemanticSentence sentence : sentences) {
+			sentence = this.analyzePolarity(sentence);
+			sPolarity += sentence.getPolarity() * sentence.getPolarityStrength();
+		}
+		
+		if (sPolarity > 0)
+			polarity = 1.0;
+		else if (sPolarity < 0)
+			polarity = -1.0;
+		else
+			polarity = 0.0;
+		
+		polarityStrength = Math.abs(sPolarity);
+		if (polarityStrength > 1.0)
+			polarityStrength = 1.0;
+		
+		return new Polarity(polarity, polarityStrength);
 	}
 	
 	public SemanticSentence analyzePolarity(SemanticSentence sentence) {
@@ -198,6 +224,32 @@ public class SentimentAnalyzer {
 		return null;
 	}	
 	
+	public class Polarity {
+		double polarity;
+		double polarityStrength;
+		
+		public Polarity() { }
+		
+		public Polarity(double polarity, double polarityStrength) {
+			this.polarity = polarity;
+			this.polarityStrength = polarityStrength;
+		}
+		
+		public double getPolarity() {
+			return this.polarity;
+		}
+		
+		public void setPolarity(double polarity) {
+			this.polarity = polarity;
+		}
+		
+		public double getPolarityStrength() {
+			return this.polarityStrength;
+		}
+		public void setPolarityStrength(double polarityStrength) {
+			this.polarityStrength = polarityStrength;
+		}
+	}
 	
 	public static void main(String[] args) {
 		SentimentAnalyzer analyzer = SentimentAnalyzer.getInstance(new File("./liwc/LIWC_ja.txt"));

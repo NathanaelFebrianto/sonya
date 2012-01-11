@@ -68,7 +68,7 @@ public class FeatureClassifier {
 		return features.toString();
 	}
 	
-	public String toFeatureString(Map<String, Double> featureCounts) {
+	public String getFeatureLabel(Map<String, Double> featureCounts) {
 		StringBuffer features = new StringBuffer();
 		
 		for (String feature : featureCounts.keySet()) { 
@@ -91,7 +91,7 @@ public class FeatureClassifier {
 		return "ETC";
 	}
 	
-	public String toMainFeatureString(Map<String, Double> featureCounts) {
+	public String getMainFeatureLabel(Map<String, Double> featureCounts) {
 
 		int i = 0;
 		for (String feature : featureCounts.keySet()) { 

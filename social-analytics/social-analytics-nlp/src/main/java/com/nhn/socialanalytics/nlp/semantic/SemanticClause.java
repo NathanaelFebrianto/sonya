@@ -162,7 +162,92 @@ public class SemanticClause implements Serializable {
 		return clause;
 	}
 	
-	public String makeLabel(boolean includeChild) {
+	public String makeLabel(String delimiter, boolean includeAttribute, boolean includeModifier, boolean includeChild) {
+		String label = "";
+		String strSubject = "";
+		String strPredicate = "";
+		
+		if (subject != null)	strSubject = subject;
+		if (predicate != null)	strPredicate = predicate;
+		label = strSubject + delimiter + strPredicate;
+		
+		if (includeAttribute) {
+			String strAttributes = "";
+			for (String attribute : attributes) {
+				strAttributes = strAttributes + " " + attribute;
+			}
+			label = label + delimiter + strAttributes.trim();
+		}
+		
+		if (includeModifier) {
+			String strModifiers = "";
+			for (String modifier : modifiers) {
+				strModifiers = strModifiers + " " + modifier;
+			}
+			label = label + delimiter + strModifiers.trim();
+		}
+		
+		if (includeChild) {
+			String childLabels = null;
+			for (SemanticClause child : childClauses) {
+				if (childLabels != null)
+					childLabels = childLabels + " " + child.makeLabel(delimiter, includeAttribute, includeModifier, includeChild);
+				else
+					childLabels = child.makeLabel(delimiter, includeAttribute, includeModifier, includeChild);
+			}
+			
+			if (childLabels != null)
+				label = childLabels + " " + label;			
+		}
+			
+		return label;
+	}
+	
+	public String makeStandardLabel(String delimiter, boolean includeAttribute, boolean includeModifier, boolean includeChild) {
+		String label = "";
+		String strSubject = "";
+		String strPredicate = "";
+		
+		if (standardSubject != null)	strSubject = standardSubject;
+		if (standardPredicate != null)	strPredicate = standardPredicate;
+		label = strSubject + delimiter + strPredicate;
+		
+		if (includeAttribute) {
+			String strAttributes = "";
+			for (String attribute : standardAttributes) {
+				if (!attribute.equals(""))
+					strAttributes = strAttributes + " " + attribute;
+			}
+			label = label + delimiter + strAttributes.trim();
+		}
+		
+		if (includeModifier) {
+			String strModifiers = "";
+			for (String modifier : standardModifiers) {
+				if (!modifier.equals(""))
+					strModifiers = strModifiers + " " + modifier;
+			}
+			label = label + delimiter + strModifiers.trim();
+		}
+		
+		if (includeChild) {
+			String childLabels = null;
+			for (SemanticClause child : childClauses) {
+				if (childLabels != null)
+					childLabels = childLabels + " " + child.makeStandardLabel(delimiter, includeAttribute, includeModifier, includeChild);
+				else
+					childLabels = child.makeStandardLabel(delimiter, includeAttribute, includeModifier, includeChild);
+			}
+			
+			if (childLabels != null)
+				label = childLabels + " " + label;			
+		}
+			
+		return label;
+	}
+	
+	@Deprecated
+	public String makeSubjectPredicateLabel(boolean includeChild) {
 		String label = null;		
 		
 		if (subject != null && predicate != null) {
@@ -184,9 +269,9 @@ public class SemanticClause implements Serializable {
 			String childLabels = null;
 			for (SemanticClause child : childClauses) {
 				if (childLabels != null)
-					childLabels = childLabels + " " + child.makeLabel(includeChild);
+					childLabels = childLabels + " " + child.makeSubjectPredicateLabel(includeChild);
 				else
-					childLabels = child.makeLabel(includeChild);
+					childLabels = child.makeSubjectPredicateLabel(includeChild);
 			}
 			
 			if (childLabels != null)
@@ -196,7 +281,8 @@ public class SemanticClause implements Serializable {
 		return label;
 	}
 	
-	public String makeStandardLabel(boolean includeChild) {
+	@Deprecated
+	public String makeStandardSubjectPredicateLabel(boolean includeChild) {
 		String label = null;		
 		
 		if (standardSubject != null && standardPredicate != null) {
@@ -218,9 +304,9 @@ public class SemanticClause implements Serializable {
 			String childLabels = null;
 			for (SemanticClause child : childClauses) {
 				if (childLabels != null)
-					childLabels = childLabels + " " + child.makeStandardLabel(includeChild);
+					childLabels = childLabels + " " + child.makeStandardSubjectPredicateLabel(includeChild);
 				else
-					childLabels = child.makeStandardLabel(includeChild);
+					childLabels = child.makeStandardSubjectPredicateLabel(includeChild);
 			}
 			
 			if (childLabels != null)
@@ -234,20 +320,41 @@ public class SemanticClause implements Serializable {
 		StringBuffer sb = new StringBuffer();
 		
 		for (String attribute : attributes) {
-			sb.append(attribute).append(" ");
+			if (!attribute.equals(""))
+				sb.append(attribute).append(" ");
 		}		
-		return sb.toString();		
+		return sb.toString().trim();		
 	}
 	
 	public String makeStandardAttributesLabel() {
 		StringBuffer sb = new StringBuffer();
 		
 		for (String attribute : standardAttributes) {
-			sb.append(attribute).append(" ");
+			if (!attribute.equals(""))
+				sb.append(attribute).append(" ");
 		}		
-		return sb.toString();		
+		return sb.toString().trim();		
 	}
 	
+	public String makeModifiersLabel() {
+		StringBuffer sb = new StringBuffer();
+		
+		for (String modifier : modifiers) {
+			if (!modifier.equals(""))
+				sb.append(modifier).append(" ");
+		}		
+		return sb.toString().trim();		
+	}
+	
+	public String makeStandardModifiersLabel() {
+		StringBuffer sb = new StringBuffer();
+		
+		for (String modifier : standardModifiers) {
+			if (!modifier.equals(""))
+				sb.append(modifier).append(" ");
+		}		
+		return sb.toString().trim();		
+	}
 	
 	public String toString() {
 		StringBuffer sb = new StringBuffer()
@@ -257,7 +364,8 @@ public class SemanticClause implements Serializable {
 			.append(" *predicate = ").append(predicate)
 			.append(" *attributes = ").append(attributes.toString())
 			.append(" *modifiers = ").append(modifiers.toString())			
-			.append(" standardLabel = ").append(makeStandardLabel(false))
+			.append(" standardSubjectPredicateLabel = ").append(makeStandardSubjectPredicateLabel(false))
+			.append(" standardLabel = ").append(makeStandardLabel("-", true, true, false))
 			.append(" polarity = ").append(polarity)
 			.append(" polarityStrength = ").append(polarityStrength);		
 		

@@ -399,7 +399,8 @@ public class GraphTreeViewer extends JApplet {
 				tareaSemanticOutput.append("\n\n=================================\n");
 				tareaSemanticOutput.append("       Semantic Analysis\n");
 				tareaSemanticOutput.append("=================================\n");
-				tareaSemanticOutput.append(source + "\n");				
+				tareaSemanticOutput.append(source + "\n");	
+				tareaSemanticOutput.append("-> " + semanticSentence.extractStandardLabel(",", "-", true, true, false) + "\n");
 				tareaSemanticOutput.append("-------------------------------------\n");
 				for (SemanticClause clause : semanticSentence) {
 					clause = sentimentAnalyzer.analyzePolarity(clause);
