@@ -234,32 +234,60 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 	}
 	*/
 	
+	public String extractStandardLabel(String clauseDelimiter, String termDelimiter, 
+			boolean includeAttribute, boolean includeModifier, boolean includeChild) {
+		StringBuffer sb = new StringBuffer();
+		
+		for (int i = 0; i < this.size(); i++) {	
+			SemanticClause clause = this.get(i);
+			String label = clause.makeStandardLabel(termDelimiter, includeAttribute, includeModifier, includeChild);
+			if (label != null && !label.trim().equals("")) {
+				sb.append(label);
+				
+				if (i < this.size() - 1)
+					sb.append(clauseDelimiter);
+			} 
+		}
+		
+		return sb.toString();	
+	}
+	
+	@Deprecated
 	public String extractSubjectPredicateLabel() {
 		StringBuffer sb = new StringBuffer();
 		
-		for (SemanticClause clause : this) {	
-			String label = clause.makeLabel(false);
+		for (int i = 0; i < this.size(); i++) {	
+			SemanticClause clause = this.get(i);
+			String label = clause.makeSubjectPredicateLabel(false);
 			if (label != null && !label.equals("")) {
-				sb.append(label).append(" ");
+				sb.append(label);
+				
+				if (i < this.size() - 1)
+					sb.append(",");
 			}			
 		}
 		
 		return sb.toString();		
 	}
 	
+	@Deprecated
 	public String extractStandardSubjectPredicateLabel() {
 		StringBuffer sb = new StringBuffer();
 		
-		for (SemanticClause clause : this) {	
-			String label = clause.makeStandardLabel(false);
+		for (int i = 0; i < this.size(); i++) {	
+			SemanticClause clause = this.get(i);
+			String label = clause.makeStandardSubjectPredicateLabel(false);
 			if (label != null && !label.equals("")) {
-				sb.append(label).append(" ");
+				sb.append(label);
+				
+				if (i < this.size() - 1)
+					sb.append(",");
 			}			
 		}
 		
-		return sb.toString();		
+		return sb.toString();	
 	}
-	
+
 	public String extractSubjectLabel() {
 		StringBuffer sb = new StringBuffer();
 		
@@ -270,7 +298,7 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 			}			
 		}
 		
-		return sb.toString();		
+		return sb.toString().trim();		
 	}
 	
 	public String extractStandardSubjectLabel() {
@@ -283,7 +311,7 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 			}			
 		}
 		
-		return sb.toString();		
+		return sb.toString().trim();		
 	}
 	
 	public String extractPredicateLabel() {
@@ -296,7 +324,7 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 			}			
 		}
 		
-		return sb.toString();		
+		return sb.toString().trim();		
 	}
 	
 	public String extractStandardPredicateLabel() {
@@ -309,7 +337,7 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 			}			
 		}
 		
-		return sb.toString();		
+		return sb.toString().trim();		
 	}
 	
 	public String extractAttributesLabel() {
@@ -317,11 +345,11 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 		
 		for (SemanticClause clause : this) {	
 			String label = clause.makeAttributesLabel();
-			if (label != null) {
+			if (label != null && !label.equals("")) {
 				sb.append(label).append(" ");
 			}			
 		}		
-		return sb.toString();		
+		return sb.toString().trim();		
 	}
 	
 	public String extractStandardAttributesLabel() {
@@ -329,11 +357,35 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 		
 		for (SemanticClause clause : this) {	
 			String label = clause.makeStandardAttributesLabel();
-			if (label != null) {
+			if (label != null && !label.equals("")) {
 				sb.append(label).append(" ");
 			}			
 		}		
-		return sb.toString();		
+		return sb.toString().trim();		
+	}
+	
+	public String extractModifiersLabel() {
+		StringBuffer sb = new StringBuffer();
+		
+		for (SemanticClause clause : this) {	
+			String label = clause.makeModifiersLabel();
+			if (label != null && !label.equals("")) {
+				sb.append(label).append(" ");
+			}			
+		}		
+		return sb.toString().trim();		
+	}
+	
+	public String extractStandardModifiersLabel() {
+		StringBuffer sb = new StringBuffer();
+		
+		for (SemanticClause clause : this) {	
+			String label = clause.makeStandardModifiersLabel();
+			if (label != null && !label.equals("")) {
+				sb.append(label).append(" ");
+			}			
+		}		
+		return sb.toString().trim();		
 	}
 	
 	class SemanticSentenceComparator implements Comparator<SemanticClause> {

@@ -46,16 +46,24 @@ public class KoreanSemanticAnalyzer implements SemanticAnalyzer {
 				Eojeol eojeol = (Eojeol) childNode.getToken();
 				char pos = eojeol.getPos();
 				String josaTag = eojeol.getJosaTag();
-				//String eomiTag = eojeol.getEomiTag();
+				String eomiTag = eojeol.getEomiTag();
 				String term = eojeol.getTerm();				
 				String standardTerm = synonymEngine.getStandardWord(term);
 				
 				SemanticClause clause = new SemanticClause();
 				
 				int priority = 1;
-				if (pos == 'V') {
-					clause.setPredicate(term+"다");
-					clause.setStandardPredicate(standardTerm+"다");
+				if (pos == 'V'|| 
+						// "pos == 'N'..." condition is added by Younggue 2012-01-11
+						(pos == 'N' && ("EFN".equals(eomiTag) || "EFQ".equals(eomiTag) || 
+								"EFO".equals(eomiTag) || "EFA".equals(eomiTag) || "EFI".equals(eomiTag)))) {
+					if (pos == 'V') {
+						term = term+"다";
+						standardTerm = standardTerm+"다";
+					}
+					
+					clause.setPredicate(term);
+					clause.setStandardPredicate(standardTerm);
 					clause.setPriority(priority);
 				}
 				else if (pos == 'N' && ("JX".equals(josaTag) || "JKS".equals(josaTag))) {
@@ -91,16 +99,24 @@ public class KoreanSemanticAnalyzer implements SemanticAnalyzer {
 				Eojeol eojeol = (Eojeol) childNode.getToken();
 				char pos = eojeol.getPos();
 				String josaTag = eojeol.getJosaTag();
-				//String eomiTag = eojeol.getEomiTag();
+				String eomiTag = eojeol.getEomiTag();
 				String term = eojeol.getTerm();
 				String standardTerm = synonymEngine.getStandardWord(term);
 				
 				SemanticClause clause = null;
 				
-				if (pos == 'V') {
+				if (pos == 'V' || 
+						// "pos == 'N'..." condition is added by Younggue 2012-01-11
+						(pos == 'N' && ("EFN".equals(eomiTag) || "EFQ".equals(eomiTag) || 
+								"EFO".equals(eomiTag) || "EFA".equals(eomiTag) || "EFI".equals(eomiTag)))) {
 					clause = new SemanticClause();
-					clause.setPredicate(term+"다");
-					clause.setStandardPredicate(standardTerm+"다");
+					
+					if (pos == 'V') {
+						term = term+"다";
+						standardTerm = standardTerm+"다";
+					}
+					clause.setPredicate(term);
+					clause.setStandardPredicate(standardTerm);
 					clause.setPriority(priority);
 					prevClause.addChild(clause);	
 					
