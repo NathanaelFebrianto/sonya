@@ -32,6 +32,7 @@ import com.nhn.socialanalytics.nlp.semantic.SemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.semantic.SemanticClause;
 import com.nhn.socialanalytics.nlp.semantic.SemanticSentence;
 import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
+import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer.Polarity;
 import com.nhn.socialanalytics.opinion.common.DetailDoc;
 import com.nhn.socialanalytics.opinion.common.FieldConstants;
 import com.nhn.socialanalytics.opinion.lucene.DocIndexSearcher;
@@ -159,6 +160,7 @@ public class AppStoreDataCollector extends Collector {
 			String authorName = review.getAuthorName();
 			String topic = review.getTopic();
 			String text = review.getText();
+			topic = topic.replaceAll("\t", " ").replaceAll("\n", " ");
 			text = text.replaceAll("\t", " ").replaceAll("\n", " ");
 			String version = review.getVersion();
 			String createDate = review.getCreateDate();
@@ -171,7 +173,9 @@ public class AppStoreDataCollector extends Collector {
 						
 			// if no duplication, write collected data
 			if (!history.checkDuplicate(reviewId)) {
-				boolean isSpam = super.isSpam(text);
+				boolean isSpam = super.isSpam(topic + " " + text);
+
+				String topicEmotiTagged = StringUtil.convertEmoticonToTag(topic);	
 				String textEmotiTagged = StringUtil.convertEmoticonToTag(text);	
 				
 				String language = "";
@@ -179,81 +183,108 @@ public class AppStoreDataCollector extends Collector {
 				String text2 = "";
 				String feature = "";
 				String mainFeature = "";
-				SemanticSentence semanticSentence = null;
-				double polarity = 0.0;
-				double polarityStrength = 0.0;				
+				SemanticSentence semanticSentenceTopic = null;
+				SemanticSentence semanticSentenceText = null;
+				Polarity polarity = null;	
+				
+				List<SemanticSentence> semanticSentences = new ArrayList<SemanticSentence>();
 				
 				if (review.getCountry().equalsIgnoreCase("Korea")) {
 					language = FieldConstants.LANG_KOREAN;
 					// morpheme analysis
-					text1 = morphemeKorean.extractTerms(textEmotiTagged);
-					text2 = morphemeKorean.extractCoreTerms(textEmotiTagged);	
+					text1 = morphemeKorean.extractTerms(topicEmotiTagged);
+					text1 = text1 +  " " + morphemeKorean.extractTerms(textEmotiTagged);
+					text2 = morphemeKorean.extractCoreTerms(topicEmotiTagged);
+					text2 = text2 +  " " + morphemeKorean.extractCoreTerms(textEmotiTagged);
 					
 					// semantic analysis
-					semanticSentence = semanticKorean.analyze(textEmotiTagged);
+					semanticSentenceTopic = semanticKorean.analyze(topicEmotiTagged);
+					semanticSentenceText = semanticKorean.analyze(textEmotiTagged);
+					semanticSentences.add(semanticSentenceTopic);
+					semanticSentences.add(semanticSentenceText);
 					
 					// sentiment analysis
-					semanticSentence = sentimentKorean.analyzePolarity(semanticSentence);
-					polarity = semanticSentence.getPolarity();
-					polarityStrength = semanticSentence.getPolarityStrength();
+					polarity  = sentimentKorean.analyzePolarity(semanticSentences);
 					
 					// feature classification
-					String standardLabels = semanticSentence.extractStandardSubjectLabel() + " " +
-							semanticSentence.extractStandardPredicateLabel() + " " +
-							semanticSentence.extractStandardAttributesLabel();
+					String standardLabels = semanticSentenceTopic.extractStandardLabel(" ", " ", true, false, false);
+					standardLabels = standardLabels +  " " + semanticSentenceText.extractStandardLabel(" ", " ", true, false, false);
 					Map<String, Double> featureCounts = featureKorean.getFeatureCounts(standardLabels, true);
-					feature = featureKorean.toFeatureString(featureCounts);
-					mainFeature = featureKorean.toMainFeatureString(featureCounts);
+					feature = featureKorean.getFeatureLabel(featureCounts);
+					mainFeature = featureKorean.getMainFeatureLabel(featureCounts);
 				}
 				else if (review.getCountry().equalsIgnoreCase("Japan")) {
 					language = FieldConstants.LANG_JAPANESE;
 					// morpheme analysis
-					text1 = morphemeJapanese.extractTerms(textEmotiTagged);
-					text2 = morphemeJapanese.extractCoreTerms(textEmotiTagged);		
+					text1 = morphemeJapanese.extractTerms(topicEmotiTagged);
+					text1 = text1 +  " " + morphemeJapanese.extractTerms(textEmotiTagged);
+					text2 = morphemeJapanese.extractCoreTerms(topicEmotiTagged);
+					text2 = text2 +  " " + morphemeJapanese.extractCoreTerms(textEmotiTagged);
 					
 					// semantic analysis
-					semanticSentence = semanticJapanese.analyze(textEmotiTagged);
+					semanticSentenceTopic = semanticJapanese.analyze(topicEmotiTagged);
+					semanticSentenceText = semanticJapanese.analyze(textEmotiTagged);
+					semanticSentences.add(semanticSentenceTopic);
+					semanticSentences.add(semanticSentenceText);
 					
 					// sentiment analysis
-					semanticSentence = sentimentJapanese.analyzePolarity(semanticSentence);
-					polarity = semanticSentence.getPolarity();
-					polarityStrength = semanticSentence.getPolarityStrength();
+					polarity  = sentimentJapanese.analyzePolarity(semanticSentences);
 					
 					// feature classification
-					String standardLabels = semanticSentence.extractStandardSubjectLabel() + " " +
-							semanticSentence.extractStandardPredicateLabel() + " " +
-							semanticSentence.extractStandardAttributesLabel();
+					String standardLabels = semanticSentenceTopic.extractStandardLabel(" ", " ", true, false, false);
+					standardLabels = standardLabels +  " " + semanticSentenceText.extractStandardLabel(" ", " ", true, false, false);
 					Map<String, Double> featureCounts = featureJapanese.getFeatureCounts(standardLabels, true);
-					feature = featureJapanese.toFeatureString(featureCounts);
-					mainFeature = featureJapanese.toMainFeatureString(featureCounts);
+					feature = featureJapanese.getFeatureLabel(featureCounts);
+					mainFeature = featureJapanese.getMainFeatureLabel(featureCounts);
 				}
 				else {
 					// morpheme analysis
-					text1 = morphemeKorean.extractTerms(textEmotiTagged);
-					text2 = morphemeKorean.extractCoreTerms(textEmotiTagged);		
+					text1 = morphemeKorean.extractTerms(topicEmotiTagged);
+					text1 = text1 +  " " + morphemeKorean.extractTerms(textEmotiTagged);
+					text2 = morphemeKorean.extractCoreTerms(topicEmotiTagged);
+					text2 = text2 +  " " + morphemeKorean.extractCoreTerms(textEmotiTagged);
 					
 					// semantic analysis
-					semanticSentence = semanticKorean.analyze(textEmotiTagged);
+					semanticSentenceTopic = semanticKorean.analyze(topicEmotiTagged);
+					semanticSentenceText = semanticKorean.analyze(textEmotiTagged);
+					semanticSentences.add(semanticSentenceTopic);
+					semanticSentences.add(semanticSentenceText);
 					
-					// sentiment analysis					
-					semanticSentence = sentimentKorean.analyzePolarity(semanticSentence);
-					polarity = semanticSentence.getPolarity();
-					polarityStrength = semanticSentence.getPolarityStrength();	
+					// sentiment analysis
+					polarity  = sentimentKorean.analyzePolarity(semanticSentences);
 					
 					// feature classification
-					String standardLabels = semanticSentence.extractStandardSubjectLabel() + " " +
-							semanticSentence.extractStandardPredicateLabel() + " " +
-							semanticSentence.extractStandardAttributesLabel();
+					String standardLabels = semanticSentenceTopic.extractStandardLabel(" ", " ", true, false, false);
+					standardLabels = standardLabels +  " " + semanticSentenceText.extractStandardLabel(" ", " ", true, false, false);
 					Map<String, Double> featureCounts = featureKorean.getFeatureCounts(standardLabels, true);
-					feature = featureKorean.toFeatureString(featureCounts);
-					mainFeature = featureKorean.toMainFeatureString(featureCounts);
+					feature = featureKorean.getFeatureLabel(featureCounts);
+					mainFeature = featureKorean.getMainFeatureLabel(featureCounts);
 				}
 
-				String strClause = semanticSentence.extractSubjectPredicateLabel();
-				String subject = semanticSentence.extractSubjectLabel();
-				String predicate = semanticSentence.extractPredicateLabel();
-				String attribute = semanticSentence.extractAttributesLabel();
-				String modifier = "";
+				String strClause = semanticSentenceTopic.extractStandardLabel(",", "-", true, false, false);
+				if (!strClause.equals(""))
+					strClause = strClause + "," ;
+				strClause = strClause + semanticSentenceText.extractStandardLabel(",", "-", true, false, false);
+				
+				String subject = semanticSentenceTopic.extractSubjectLabel();
+				if (!subject.equals(""))
+					subject = subject + " " ;
+				subject = subject + semanticSentenceText.extractSubjectLabel();
+				
+				String predicate = semanticSentenceTopic.extractPredicateLabel();
+				if (!predicate.equals(""))
+					predicate = predicate + " " ;
+				predicate = predicate + semanticSentenceText.extractPredicateLabel();
+				
+				String attribute = semanticSentenceTopic.extractAttributesLabel();
+				if (!attribute.equals(""))
+					attribute = attribute + " " ;
+				attribute = attribute + semanticSentenceText.extractAttributesLabel();
+				
+				String modifier = semanticSentenceTopic.extractStandardModifiersLabel();
+				if (!modifier.equals(""))
+					modifier = modifier + " " ;
+				modifier = modifier + semanticSentenceText.extractStandardModifiersLabel();
 				
 				// write new collected data into source file
 				brData.write(
@@ -280,8 +311,8 @@ public class AppStoreDataCollector extends Collector {
 						predicate + DELIMITER +		
 						attribute + DELIMITER +	
 						modifier + DELIMITER +	
-						polarity + DELIMITER +		
-						polarityStrength
+						polarity.getPolarity() + DELIMITER +		
+						polarity.getPolarityStrength()
 						);
 				brData.newLine();
 				
@@ -301,7 +332,8 @@ public class AppStoreDataCollector extends Collector {
 					     }
 					}
 					else {
-						for (SemanticClause clause : semanticSentence) {
+						// topic
+						for (SemanticClause clause : semanticSentenceTopic) {
 							DetailDoc doc = new DetailDoc();
 							doc.setSite(TARGET_SITE_NAME);
 							doc.setObject(objectId);
@@ -316,10 +348,38 @@ public class AppStoreDataCollector extends Collector {
 							doc.setSubject(clause.getSubject());
 							doc.setPredicate(clause.getPredicate());
 							doc.setAttribute(clause.makeAttributesLabel());
-							doc.setModifier("");
+							doc.setModifier(modifier);
 							doc.setText(text);
-							doc.setDocPolarity(polarity);
-							doc.setDocPolarityStrength(polarityStrength);
+							doc.setDocPolarity(polarity.getPolarity());
+							doc.setDocPolarityStrength(polarity.getPolarityStrength());
+							doc.setClausePolarity(clause.getPolarity());
+							doc.setClausePolarityStrength(clause.getPolarityStrength());
+							
+							// feature classification for semantic clause
+							doc = super.setClauseFeatureToDocument(objectId, language, clause, doc);
+							
+							indexWriter.write(doc);
+						}
+						// text
+						for (SemanticClause clause : semanticSentenceText) {
+							DetailDoc doc = new DetailDoc();
+							doc.setSite(TARGET_SITE_NAME);
+							doc.setObject(objectId);
+							doc.setLanguage(language);
+							doc.setCollectDate(currentDatetime);
+							doc.setDocId(reviewId);
+							doc.setDate(createDate);
+							doc.setAuthorId(authorId);
+							doc.setAuthorName(authorName);
+							doc.setDocFeature(feature);
+							doc.setDocMainFeature(mainFeature);
+							doc.setSubject(clause.getSubject());
+							doc.setPredicate(clause.getPredicate());
+							doc.setAttribute(clause.makeAttributesLabel());
+							doc.setModifier(modifier);
+							doc.setText(text);
+							doc.setDocPolarity(polarity.getPolarity());
+							doc.setDocPolarityStrength(polarity.getPolarityStrength());
 							doc.setClausePolarity(clause.getPolarity());
 							doc.setClausePolarityStrength(clause.getPolarityStrength());
 							
