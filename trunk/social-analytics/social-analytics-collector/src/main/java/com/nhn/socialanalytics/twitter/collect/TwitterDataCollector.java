@@ -37,10 +37,10 @@ import com.nhn.socialanalytics.nlp.semantic.SemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.semantic.SemanticClause;
 import com.nhn.socialanalytics.nlp.semantic.SemanticSentence;
 import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
-import com.nhn.socialanalytics.opinion.common.DetailDoc;
 import com.nhn.socialanalytics.opinion.common.FieldConstants;
-import com.nhn.socialanalytics.opinion.lucene.DocIndexSearcher;
-import com.nhn.socialanalytics.opinion.lucene.DocIndexWriter;
+import com.nhn.socialanalytics.opinion.common.OpinionDocument;
+import com.nhn.socialanalytics.opinion.dao.lucene.DocIndexSearcher;
+import com.nhn.socialanalytics.opinion.dao.lucene.DocIndexWriter;
 import com.nhn.socialanalytics.twitter.parse.TwitterParser;
 
 public class TwitterDataCollector extends Collector {
@@ -307,7 +307,7 @@ public class TwitterDataCollector extends Collector {
 				}
 				else {
 					for (SemanticClause clause : semanticSentence) {
-						DetailDoc doc = new DetailDoc();
+						OpinionDocument doc = new OpinionDocument();
 						doc.setSite(TARGET_SITE_NAME);
 						doc.setObject(objectId);
 						doc.setLanguage(language);
