@@ -109,30 +109,31 @@ public class JapaneseMorphemeAnalyzer implements MorphemeAnalyzer {
 		StringBuffer sb = new StringBuffer();
 
 		try {
-		List<Token> tokens = new ArrayList<Token>();
-		tokens = tagger.analyze(text, tokens);
-
-		int index = 0;
-		for (Token token : tokens) {
-			JapaneseToken jtoken = new JapaneseToken();			
-			jtoken.makeObject(index, token);
-			String partOfSpeech = jtoken.getPartOfSpeech();
-			char pos = jtoken.getPos();
-			
-			if (
-				(
-					pos == 'Z' || pos == 'A' || pos == 'Y' || 
-					pos == 'E' || pos ==  'N' || pos == 'F' ||
-					partOfSpeech.startsWith("動詞-自立")
-				 ) && 
-				 (
-					!partOfSpeech.startsWith("名詞-非自立")
-			     )
-			    )
-				sb.append(jtoken.getTerm()).append(" ");		
-			
-			index++;
-		}
+			List<Token> tokens = new ArrayList<Token>();
+			tokens = tagger.analyze(text, tokens);
+	
+			int index = 0;
+			for (Token token : tokens) {
+				JapaneseToken jtoken = new JapaneseToken();			
+				jtoken.makeObject(index, token);
+				String partOfSpeech = jtoken.getPartOfSpeech();
+				char pos = jtoken.getPos();
+				
+				if (
+					(
+						pos == 'Z' || pos == 'A' || pos == 'Y' || 
+						pos == 'E' || pos ==  'N' || pos == 'F' ||
+						partOfSpeech.startsWith("動詞-自立")
+					 ) && 
+					 (
+						!partOfSpeech.startsWith("名詞-非自立")
+				     )
+				    ) {
+					sb.append(jtoken.getTerm()).append(" ");
+				}
+				
+				index++;
+			}
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
