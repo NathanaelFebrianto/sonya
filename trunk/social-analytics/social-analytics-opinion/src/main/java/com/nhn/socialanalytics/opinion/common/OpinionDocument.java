@@ -1,6 +1,6 @@
 package com.nhn.socialanalytics.opinion.common;
 
-public class DetailDoc {
+public class OpinionDocument {
 
 	private String site = "";
 	private String object = "";
@@ -226,7 +226,7 @@ public class DetailDoc {
 		.append(FieldConstants.CLAUSE_POLARITY).append(" | ")
 		.append(FieldConstants.CLAUSE_POLARITY_STRENGTH);
 
-	return sb.toString();		
+		return sb.toString();		
 	}
 
 	public String toString() {

@@ -22,7 +22,7 @@ import com.jgoodies.forms.layout.CellConstraints;
 import com.jgoodies.forms.layout.FormLayout;
 import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
 import com.nhn.socialanalytics.opinion.common.FieldConstants;
-import com.nhn.socialanalytics.opinion.lucene.DocIndexSearcher;
+import com.nhn.socialanalytics.opinion.dao.lucene.DocIndexSearcher;
 import com.nhn.socialanalytics.opinion.search.FeatureResultSet;
 import com.nhn.socialanalytics.opinion.search.OpinionFilter;
 import com.nhn.socialanalytics.opinion.search.OpinionSearcher;

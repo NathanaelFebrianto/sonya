@@ -34,7 +34,7 @@ import javax.swing.event.ChangeListener;
 import com.jgoodies.forms.builder.PanelBuilder;
 import com.jgoodies.forms.layout.CellConstraints;
 import com.jgoodies.forms.layout.FormLayout;
-import com.nhn.socialanalytics.opinion.common.DetailDoc;
+import com.nhn.socialanalytics.opinion.common.OpinionDocument;
 import com.nhn.socialanalytics.opinion.search.FeatureResultSet;
 import com.nhn.socialanalytics.opinion.search.OpinionResultSet;
 
@@ -261,7 +261,7 @@ public class OpinionViewerApplet extends JApplet {
 				TermNode node = (TermNode) item;
 				
 				tareaDetailDocs.setText("");
-				List<DetailDoc> detailDocs = node.getDocs();
+				List<OpinionDocument> detailDocs = node.getDocs();
 				
 				if (detailDocs.size() > 0) {
 					tableDetailDocs.removeAllRow();
@@ -272,7 +272,7 @@ public class OpinionViewerApplet extends JApplet {
 					tableDetailDocs.setRowData(detailDocs, toolbarOpinion.isTranslate());
 					
 					int docCount = 1;
-					for (DetailDoc doc : detailDocs) {
+					for (OpinionDocument doc : detailDocs) {
 						if (docCount == 1) {
 							tareaDetailDocs.append("============================================================\n");
 							tareaDetailDocs.append(doc.toHeaderString() + "\n");

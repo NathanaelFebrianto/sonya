@@ -1,4 +1,4 @@
-package com.nhn.socialanalytics.opinion.lucene;
+package com.nhn.socialanalytics.opinion.dao.lucene;
 
 import java.io.File;
 import java.io.IOException;
@@ -18,8 +18,8 @@ import org.apache.lucene.index.Term;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.util.Version;
 
-import com.nhn.socialanalytics.opinion.common.DetailDoc;
 import com.nhn.socialanalytics.opinion.common.FieldConstants;
+import com.nhn.socialanalytics.opinion.common.OpinionDocument;
 
 public class DocIndexWriter {
 	
@@ -57,7 +57,7 @@ public class DocIndexWriter {
 		indexWriter = new IndexWriter(indexDir, config);
 	}
 	
-	public void write(DetailDoc doc) throws IOException, CorruptIndexException {
+	public void write(OpinionDocument doc) throws IOException, CorruptIndexException {
 		String site = doc.getSite();
 		String object = doc.getObject();
 		String language = doc.getLanguage();

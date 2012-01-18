@@ -18,7 +18,7 @@ public class OpinionTerm implements Serializable {
 	private int cooccurrentDocFreq;
 	private double polarity;
 	private Map<String, List<OpinionTerm>> linkedTerms = new HashMap<String, List<OpinionTerm>>();
-	private List<DetailDoc> docs = new ArrayList<DetailDoc>();
+	private List<OpinionDocument> docs = new ArrayList<OpinionDocument>();
 
 	public String getId() {
 		return id;
@@ -96,23 +96,23 @@ public class OpinionTerm implements Serializable {
 		this.linkedTerms.put(type, linkedTerms);
 	}
 	
-	public List<DetailDoc> getDocs() {
+	public List<OpinionDocument> getDocs() {
 		return docs;
 	}
 	
-	public DetailDoc getDoc(String docId) {
-		for (DetailDoc doc : docs) {
+	public OpinionDocument getDoc(String docId) {
+		for (OpinionDocument doc : docs) {
 			if (doc.getDocId().equals(docId))
 				return doc;
 		}
 		return null;
 	}
 	
-	public void setDocs(List<DetailDoc> docs) {
+	public void setDocs(List<OpinionDocument> docs) {
 		this.docs = docs;
 	}
 	
-	public void addDoc(DetailDoc doc) {
+	public void addDoc(OpinionDocument doc) {
 		if (doc == null)
 			return;
 		

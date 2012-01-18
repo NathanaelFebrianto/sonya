@@ -3,7 +3,7 @@ package com.nhn.socialanalytics.opinion.view;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.nhn.socialanalytics.opinion.common.DetailDoc;
+import com.nhn.socialanalytics.opinion.common.OpinionDocument;
 
 public class TermNode {
 
@@ -13,7 +13,7 @@ public class TermNode {
 	private int docFreq;	
 	private int cooccurrentDocFreq;
 	private double polarity;
-	private List<DetailDoc> docs = new ArrayList<DetailDoc>();
+	private List<OpinionDocument> docs = new ArrayList<OpinionDocument>();
 
 	public String getId() {
 		return id;
@@ -63,11 +63,11 @@ public class TermNode {
 		this.polarity = polarity;
 	}
 
-	public List<DetailDoc> getDocs() {
+	public List<OpinionDocument> getDocs() {
 		return docs;
 	}
 
-	public void setDocs(List<DetailDoc> docs) {
+	public void setDocs(List<OpinionDocument> docs) {
 		this.docs = docs;
 	}
 	

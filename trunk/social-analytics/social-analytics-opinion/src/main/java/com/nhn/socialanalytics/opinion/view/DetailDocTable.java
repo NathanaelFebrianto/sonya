@@ -8,7 +8,7 @@ import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 
-import com.nhn.socialanalytics.opinion.common.DetailDoc;
+import com.nhn.socialanalytics.opinion.common.OpinionDocument;
 
 
 /**
@@ -21,7 +21,7 @@ public class DetailDocTable extends DefaultTable {
 	
 	private DefaultTableModel tableModel;    
 	
-	public DetailDocTable(List<DetailDoc> docs) {
+	public DetailDocTable(List<OpinionDocument> docs) {
         this();
         setRowData(docs, false);
     }
@@ -104,7 +104,7 @@ public class DetailDocTable extends DefaultTable {
 	}
 	*/
 
-	public void setRowData(List<DetailDoc> docs, boolean translate) {
+	public void setRowData(List<OpinionDocument> docs, boolean translate) {
 		if (translate) {
 			//setColumnHidden(6, false);
 			//setColumnHidden(8, false);
@@ -117,7 +117,7 @@ public class DetailDocTable extends DefaultTable {
 		
 	    removeAllRow();	            
         for (int row = 0; row < docs.size(); row++) {
-	        DetailDoc doc = (DetailDoc) docs.get(row);	        
+        	OpinionDocument doc = (OpinionDocument) docs.get(row);	        
 	        Vector<Object> rowData = new Vector<Object>();
             
 	        rowData.add(row + 1);
