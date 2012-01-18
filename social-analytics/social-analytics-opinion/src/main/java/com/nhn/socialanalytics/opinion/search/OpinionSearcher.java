@@ -7,10 +7,10 @@ import java.util.List;
 import java.util.Map;
 
 import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
-import com.nhn.socialanalytics.opinion.common.DetailDoc;
 import com.nhn.socialanalytics.opinion.common.FieldConstants;
+import com.nhn.socialanalytics.opinion.common.OpinionDocument;
 import com.nhn.socialanalytics.opinion.common.OpinionTerm;
-import com.nhn.socialanalytics.opinion.lucene.DocIndexSearcher;
+import com.nhn.socialanalytics.opinion.dao.lucene.DocIndexSearcher;
 import com.nhn.socialanalytics.opinion.search.FeatureResultSet.FeatureSummary;
 import com.nhn.socialanalytics.opinion.search.OpinionFilter.BaseTermFilter;
 import com.nhn.socialanalytics.opinion.search.OpinionFilter.LinkedTermFilter;
@@ -84,9 +84,9 @@ public class OpinionSearcher {
 			
 			Map<String, FeatureSummary> featureMap = new HashMap<String, FeatureSummary>();
 			
-			List<DetailDoc> docs = indexSearcher.searchFeatures(filter.getObject(), filter.getLanguage());
+			List<OpinionDocument> docs = indexSearcher.searchFeatures(filter.getObject(), filter.getLanguage());
 			
-			for (DetailDoc doc : docs) {
+			for (OpinionDocument doc : docs) {
 				double docPolarity = doc.getDocPolarity();
 				double docPolarityStrength = doc.getDocPolarityStrength();
 				String featureName = "";

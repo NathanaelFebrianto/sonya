@@ -1,4 +1,4 @@
-package com.nhn.socialanalytics.opinion.lucene;
+package com.nhn.socialanalytics.opinion.dao.lucene;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -35,8 +35,8 @@ import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.store.NoSuchDirectoryException;
 
 import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
-import com.nhn.socialanalytics.opinion.common.DetailDoc;
 import com.nhn.socialanalytics.opinion.common.FieldConstants;
+import com.nhn.socialanalytics.opinion.common.OpinionDocument;
 import com.nhn.socialanalytics.opinion.common.OpinionTerm;
 
 public class DocIndexSearcher {
@@ -331,13 +331,13 @@ public class DocIndexSearcher {
 			int docId = rs.scoreDocs[i].doc;
 			Document doc = searcher.doc(docId);
 			String linkedText = doc.get(linkedField);	
-			DetailDoc detailDoc = this.makeDetailDoc(doc);
+			OpinionDocument opinionDoc = this.makeOpinionDocument(doc);
 			
 			String termId = linkedText;
 			if (byFeature)
 				termId = feature + "-" + linkedText;
 			
-			baseTerm.addDoc(detailDoc);
+			baseTerm.addDoc(opinionDoc);
 
 			if (linkedField.equals(FieldConstants.SUBJECT) || linkedField.equals(FieldConstants.PREDICATE)) {
 				OpinionTerm exist = linkedTerms.get(termId);
@@ -369,7 +369,7 @@ public class DocIndexSearcher {
 						linkedTerm.setTerm(linkedText);
 						linkedTerm.setDocFreq(docFreq);
 						linkedTerm.setCooccurrentDocFreq(cooccurrentDocFreq);
-						linkedTerm.addDoc(detailDoc);	
+						linkedTerm.addDoc(opinionDoc);	
 						
 						double polarity = 0.0;
 						if (sentimentAnalyzer != null) {
@@ -382,7 +382,7 @@ public class DocIndexSearcher {
 					}
 				}
 				else if (exist != null && !stopwordSet.contains(linkedText)) {
-					exist.addDoc(detailDoc);
+					exist.addDoc(opinionDoc);
 				}
 			} else if (linkedField.equals(FieldConstants.ATTRIBUTE)) {
 				Map<String, Integer[]> mapAttribute = this.tokenizeAttributes(object, feature, baseField, baseText, linkedText, byFeature);
@@ -408,7 +408,7 @@ public class DocIndexSearcher {
 							linkedTerm.setTerm(attributeText);
 							linkedTerm.setDocFreq(attrDocFreq);
 							linkedTerm.setCooccurrentDocFreq(attrCooccurrentDocFreq);
-							linkedTerm.addDoc(detailDoc);					
+							linkedTerm.addDoc(opinionDoc);					
 							
 							double polarity = 0.0;
 							if (sentimentAnalyzer != null) {
@@ -421,7 +421,7 @@ public class DocIndexSearcher {
 						}
 					}
 					else if (exist != null && !stopwordSet.contains(attributeText)) {
-						exist.addDoc(detailDoc);
+						exist.addDoc(opinionDoc);
 					}
 				}
 			}
@@ -430,8 +430,8 @@ public class DocIndexSearcher {
 		return new ArrayList<OpinionTerm>(linkedTerms.values());
 	}
 	
-	public List<DetailDoc> searchFeatures(String object, String language) throws IOException {
-		List<DetailDoc> detailDocs = new ArrayList<DetailDoc>();
+	public List<OpinionDocument> searchFeatures(String object, String language) throws IOException {
+		List<OpinionDocument> opinionDocs = new ArrayList<OpinionDocument>();
 		Term objTerm = new Term(FieldConstants.OBJECT, object);	
 		TermsFilter filter = new TermsFilter();
 		filter.addTerm(objTerm);
@@ -444,10 +444,10 @@ public class DocIndexSearcher {
 		for (int i = 0; i < rs.totalHits; i++) {
 			int docId = rs.scoreDocs[i].doc;
 			Document doc = searcher.doc(docId);
-			detailDocs.add(this.makeDetailDoc(doc));
+			opinionDocs.add(this.makeOpinionDocument(doc));
 		}
 		
-		return detailDocs;
+		return opinionDocs;
 	}
 	
 	/*
@@ -464,31 +464,31 @@ public class DocIndexSearcher {
 	}
 	*/
 	 
-	private DetailDoc makeDetailDoc(Document doc) {
-		DetailDoc detailDoc = new DetailDoc();
-		detailDoc.setSite(doc.get(FieldConstants.SITE));
-		detailDoc.setObject(doc.get(FieldConstants.OBJECT));
-		detailDoc.setLanguage(doc.get(FieldConstants.LANGUAGE));
-		detailDoc.setCollectDate(doc.get(FieldConstants.COLLECT_DATE));
-		detailDoc.setDocId(doc.get(FieldConstants.DOC_ID));
-		detailDoc.setDate(doc.get(FieldConstants.DATE));
-		detailDoc.setAuthorId(doc.get(FieldConstants.AUTHOR_ID));
-		detailDoc.setAuthorName(doc.get(FieldConstants.AUTHOR_NAME));
-		detailDoc.setDocFeature(doc.get(FieldConstants.DOC_FEATURE));
-		detailDoc.setDocMainFeature(doc.get(FieldConstants.DOC_MAIN_FEATURE));
-		detailDoc.setClauseFeature(doc.get(FieldConstants.CLAUSE_FEATURE));
-		detailDoc.setClauseMainFeature(doc.get(FieldConstants.CLAUSE_MAIN_FEATURE));
-		detailDoc.setSubject(doc.get(FieldConstants.SUBJECT));
-		detailDoc.setPredicate(doc.get(FieldConstants.PREDICATE));
-		detailDoc.setAttribute(doc.get(FieldConstants.ATTRIBUTE));
-		detailDoc.setModifier(doc.get(FieldConstants.MODIFIER));
-		detailDoc.setText(doc.get(FieldConstants.TEXT));
-		detailDoc.setDocPolarity(Double.valueOf(doc.get(FieldConstants.DOC_POLARITY)));
-		detailDoc.setDocPolarityStrength(Double.valueOf(doc.get(FieldConstants.DOC_POLARITY_STRENGTH)));
-		detailDoc.setClausePolarity(Double.valueOf(doc.get(FieldConstants.CLAUSE_POLARITY)));
-		detailDoc.setClausePolarityStrength(Double.valueOf(doc.get(FieldConstants.CLAUSE_POLARITY_STRENGTH)));
+	private OpinionDocument makeOpinionDocument(Document doc) {
+		OpinionDocument opinionDoc = new OpinionDocument();
+		opinionDoc.setSite(doc.get(FieldConstants.SITE));
+		opinionDoc.setObject(doc.get(FieldConstants.OBJECT));
+		opinionDoc.setLanguage(doc.get(FieldConstants.LANGUAGE));
+		opinionDoc.setCollectDate(doc.get(FieldConstants.COLLECT_DATE));
+		opinionDoc.setDocId(doc.get(FieldConstants.DOC_ID));
+		opinionDoc.setDate(doc.get(FieldConstants.DATE));
+		opinionDoc.setAuthorId(doc.get(FieldConstants.AUTHOR_ID));
+		opinionDoc.setAuthorName(doc.get(FieldConstants.AUTHOR_NAME));
+		opinionDoc.setDocFeature(doc.get(FieldConstants.DOC_FEATURE));
+		opinionDoc.setDocMainFeature(doc.get(FieldConstants.DOC_MAIN_FEATURE));
+		opinionDoc.setClauseFeature(doc.get(FieldConstants.CLAUSE_FEATURE));
+		opinionDoc.setClauseMainFeature(doc.get(FieldConstants.CLAUSE_MAIN_FEATURE));
+		opinionDoc.setSubject(doc.get(FieldConstants.SUBJECT));
+		opinionDoc.setPredicate(doc.get(FieldConstants.PREDICATE));
+		opinionDoc.setAttribute(doc.get(FieldConstants.ATTRIBUTE));
+		opinionDoc.setModifier(doc.get(FieldConstants.MODIFIER));
+		opinionDoc.setText(doc.get(FieldConstants.TEXT));
+		opinionDoc.setDocPolarity(Double.valueOf(doc.get(FieldConstants.DOC_POLARITY)));
+		opinionDoc.setDocPolarityStrength(Double.valueOf(doc.get(FieldConstants.DOC_POLARITY_STRENGTH)));
+		opinionDoc.setClausePolarity(Double.valueOf(doc.get(FieldConstants.CLAUSE_POLARITY)));
+		opinionDoc.setClausePolarityStrength(Double.valueOf(doc.get(FieldConstants.CLAUSE_POLARITY_STRENGTH)));
 		
-		return detailDoc;
+		return opinionDoc;
 	}
 	
 	private Map<String, Integer[]> tokenizeAttributes(String object, String feature, String searchField, String searchText, 
