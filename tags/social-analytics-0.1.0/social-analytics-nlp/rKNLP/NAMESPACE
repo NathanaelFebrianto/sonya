@@ -1,0 +1,2 @@
+import("rJava")
+export("morphemeList", "morphemes", "parseTree", "showParseTree", "extractTerms")
