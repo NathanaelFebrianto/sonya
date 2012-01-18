@@ -33,10 +33,11 @@ import com.nhn.socialanalytics.nlp.semantic.SemanticClause;
 import com.nhn.socialanalytics.nlp.semantic.SemanticSentence;
 import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
 import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer.Polarity;
-import com.nhn.socialanalytics.opinion.common.DetailDoc;
 import com.nhn.socialanalytics.opinion.common.FieldConstants;
-import com.nhn.socialanalytics.opinion.lucene.DocIndexSearcher;
-import com.nhn.socialanalytics.opinion.lucene.DocIndexWriter;
+import com.nhn.socialanalytics.opinion.common.OpinionDocument;
+import com.nhn.socialanalytics.opinion.dao.file.DocFileWriter;
+import com.nhn.socialanalytics.opinion.dao.lucene.DocIndexSearcher;
+import com.nhn.socialanalytics.opinion.dao.lucene.DocIndexWriter;
 
 
 public class AppStoreDataCollector extends Collector {
@@ -91,7 +92,8 @@ public class AppStoreDataCollector extends Collector {
 		
 		String currentDatetime = DateUtil.convertDateToString("yyyyMMddHHmmss", new Date());	
 		File docIndexDir = super.getDocIndexDir(indexDir, collectDate);
-		File dataFile = super.getDataFile(dataDir, objectId, collectDate);
+		File sourceDocFile = super.getSourceDocFile(dataDir, objectId, collectDate);
+		File opinionDocFile = super.getOpinionDocFile(dataDir, objectId, collectDate);
 
 		// collect history buffer
 		Set<String> idSet = new HashSet<String>();
@@ -113,16 +115,19 @@ public class AppStoreDataCollector extends Collector {
 		DocIndexWriter indexWriter = new DocIndexWriter(docIndexDir);		
 		DocIndexSearcher indexSearcher = new DocIndexSearcher(super.getDocumentIndexDirsToSearch(indexDir, collectDate));
 		
-		// output data file
-		boolean existDataFile = false;
+		// file writer
+		DocFileWriter opinionDocWriter = new DocFileWriter(opinionDocFile);
 		
-		if (dataFile.exists())
-			existDataFile = true;
+		// source doc file
+		boolean existSourceDoc = false;
 		
-		BufferedWriter brData = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(dataFile.getPath(), true), "UTF-8"));
+		if (sourceDocFile.exists())
+			existSourceDoc = true;
 		
-		if (!existDataFile) {
-			brData.write("site" + DELIMITER +
+		BufferedWriter sourceDocWriter = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(sourceDocFile.getPath(), true), "UTF-8"));
+		
+		if (!existSourceDoc) {
+			sourceDocWriter.write("site" + DELIMITER +
 					"object_id" + DELIMITER +
 					"country" + DELIMITER + 
 					"collect_date" + DELIMITER +
@@ -148,7 +153,7 @@ public class AppStoreDataCollector extends Collector {
 					"polarity" + DELIMITER +
 					"polarity_strength"
 					);
-			brData.newLine();			
+			sourceDocWriter.newLine();			
 		}
 		
 		// review
@@ -266,20 +271,20 @@ public class AppStoreDataCollector extends Collector {
 					strClause = strClause + "," ;
 				strClause = strClause + semanticSentenceText.extractStandardLabel(",", "-", true, false, false);
 				
-				String subject = semanticSentenceTopic.extractSubjectLabel();
+				String subject = semanticSentenceTopic.extractStandardSubjectLabel();
 				if (!subject.equals(""))
 					subject = subject + " " ;
-				subject = subject + semanticSentenceText.extractSubjectLabel();
+				subject = subject + semanticSentenceText.extractStandardSubjectLabel();
 				
-				String predicate = semanticSentenceTopic.extractPredicateLabel();
+				String predicate = semanticSentenceTopic.extractStandardPredicateLabel();
 				if (!predicate.equals(""))
 					predicate = predicate + " " ;
-				predicate = predicate + semanticSentenceText.extractPredicateLabel();
+				predicate = predicate + semanticSentenceText.extractStandardPredicateLabel();
 				
-				String attribute = semanticSentenceTopic.extractAttributesLabel();
+				String attribute = semanticSentenceTopic.extractStandardAttributesLabel();
 				if (!attribute.equals(""))
 					attribute = attribute + " " ;
-				attribute = attribute + semanticSentenceText.extractAttributesLabel();
+				attribute = attribute + semanticSentenceText.extractStandardAttributesLabel();
 				
 				String modifier = semanticSentenceTopic.extractStandardModifiersLabel();
 				if (!modifier.equals(""))
@@ -287,7 +292,7 @@ public class AppStoreDataCollector extends Collector {
 				modifier = modifier + semanticSentenceText.extractStandardModifiersLabel();
 				
 				// write new collected data into source file
-				brData.write(
+				sourceDocWriter.write(
 						TARGET_SITE_NAME + DELIMITER +
 						objectId + DELIMITER +
 						country + DELIMITER +
@@ -314,7 +319,7 @@ public class AppStoreDataCollector extends Collector {
 						polarity.getPolarity() + DELIMITER +		
 						polarity.getPolarityStrength()
 						);
-				brData.newLine();
+				sourceDocWriter.newLine();
 				
 				////////////////////////////////////////
 				// write new collected data into index file
@@ -326,75 +331,83 @@ public class AppStoreDataCollector extends Collector {
 						for (Iterator<Document> it = existDocs.iterator(); it.hasNext();) {
 							Document existDoc = (Document) it.next();
 							String objects = existDoc.get(FieldConstants.OBJECT);
-							objects = objects + " " + objectId;
-							
-							indexWriter.update(FieldConstants.OBJECT, objects, existDoc);
+							if (objects.indexOf(objectId) < 0) {
+								objects = objects + " " + objectId;
+								indexWriter.update(FieldConstants.OBJECT, objects, existDoc);
+							}
 					     }
 					}
 					else {
 						// topic
 						for (SemanticClause clause : semanticSentenceTopic) {
-							DetailDoc doc = new DetailDoc();
-							doc.setSite(TARGET_SITE_NAME);
-							doc.setObject(objectId);
-							doc.setLanguage(language);
-							doc.setCollectDate(currentDatetime);
-							doc.setDocId(reviewId);
-							doc.setDate(createDate);
-							doc.setAuthorId(authorId);
-							doc.setAuthorName(authorName);
-							doc.setDocFeature(feature);
-							doc.setDocMainFeature(mainFeature);
-							doc.setSubject(clause.getSubject());
-							doc.setPredicate(clause.getPredicate());
-							doc.setAttribute(clause.makeAttributesLabel());
-							doc.setModifier(modifier);
-							doc.setText(text);
-							doc.setDocPolarity(polarity.getPolarity());
-							doc.setDocPolarityStrength(polarity.getPolarityStrength());
-							doc.setClausePolarity(clause.getPolarity());
-							doc.setClausePolarityStrength(clause.getPolarityStrength());
+							if (super.isValidClause(clause)) {
+								OpinionDocument doc = new OpinionDocument();
+								doc.setSite(TARGET_SITE_NAME);
+								doc.setObject(objectId);
+								doc.setLanguage(language);
+								doc.setCollectDate(currentDatetime);
+								doc.setDocId(reviewId);
+								doc.setDate(createDate);
+								doc.setAuthorId(authorId);
+								doc.setAuthorName(authorName);
+								doc.setDocFeature(feature);
+								doc.setDocMainFeature(mainFeature);
+								doc.setSubject((clause.getStandardSubject() == null) ? "" : clause.getStandardSubject());
+								doc.setPredicate((clause.getStandardPredicate() == null) ? "" : clause.getStandardPredicate());
+								doc.setAttribute(clause.makeStandardAttributesLabel());
+								doc.setModifier(clause.makeStandardModifiersLabel());
+								doc.setText(text);
+								doc.setDocPolarity(polarity.getPolarity());
+								doc.setDocPolarityStrength(polarity.getPolarityStrength());
+								doc.setClausePolarity(clause.getPolarity());
+								doc.setClausePolarityStrength(clause.getPolarityStrength());
+								
+								// feature classification for semantic clause
+								doc = super.setClauseFeatureToDocument(objectId, language, clause, doc);
 							
-							// feature classification for semantic clause
-							doc = super.setClauseFeatureToDocument(objectId, language, clause, doc);
-							
-							indexWriter.write(doc);
+								indexWriter.write(doc);
+								opinionDocWriter.write(doc);
+							}
 						}
 						// text
 						for (SemanticClause clause : semanticSentenceText) {
-							DetailDoc doc = new DetailDoc();
-							doc.setSite(TARGET_SITE_NAME);
-							doc.setObject(objectId);
-							doc.setLanguage(language);
-							doc.setCollectDate(currentDatetime);
-							doc.setDocId(reviewId);
-							doc.setDate(createDate);
-							doc.setAuthorId(authorId);
-							doc.setAuthorName(authorName);
-							doc.setDocFeature(feature);
-							doc.setDocMainFeature(mainFeature);
-							doc.setSubject(clause.getSubject());
-							doc.setPredicate(clause.getPredicate());
-							doc.setAttribute(clause.makeAttributesLabel());
-							doc.setModifier(modifier);
-							doc.setText(text);
-							doc.setDocPolarity(polarity.getPolarity());
-							doc.setDocPolarityStrength(polarity.getPolarityStrength());
-							doc.setClausePolarity(clause.getPolarity());
-							doc.setClausePolarityStrength(clause.getPolarityStrength());
-							
-							// feature classification for semantic clause
-							doc = super.setClauseFeatureToDocument(objectId, language, clause, doc);
-							
-							indexWriter.write(doc);
+							if (super.isValidClause(clause)) {
+								OpinionDocument doc = new OpinionDocument();
+								doc.setSite(TARGET_SITE_NAME);
+								doc.setObject(objectId);
+								doc.setLanguage(language);
+								doc.setCollectDate(currentDatetime);
+								doc.setDocId(reviewId);
+								doc.setDate(createDate);
+								doc.setAuthorId(authorId);
+								doc.setAuthorName(authorName);
+								doc.setDocFeature(feature);
+								doc.setDocMainFeature(mainFeature);
+								doc.setSubject((clause.getStandardSubject() == null) ? "" : clause.getStandardSubject());
+								doc.setPredicate((clause.getStandardPredicate() == null) ? "" : clause.getStandardPredicate());
+								doc.setAttribute(clause.makeStandardAttributesLabel());
+								doc.setModifier(clause.makeStandardModifiersLabel());
+								doc.setText(text);
+								doc.setDocPolarity(polarity.getPolarity());
+								doc.setDocPolarityStrength(polarity.getPolarityStrength());
+								doc.setClausePolarity(clause.getPolarity());
+								doc.setClausePolarityStrength(clause.getPolarityStrength());
+								
+								// feature classification for semantic clause
+								doc = super.setClauseFeatureToDocument(objectId, language, clause, doc);
+								
+								indexWriter.write(doc);
+								opinionDocWriter.write(doc);
+							}
 						}						
 					}					
 				}			
 			}		
 		}
 		
-		brData.close();
-		indexWriter.close();		
+		sourceDocWriter.close();
+		indexWriter.close();	
+		opinionDocWriter.close();
 		history.writeCollectHistory(idSet);
 	}
 	
@@ -429,7 +442,7 @@ public class AppStoreDataCollector extends Collector {
 		//List<Review> reviews = collector.getReviews(AppStores.getAllAppStores(), appId);
 		
 		try {
-			collector.writeOutput("./bin/data/appstore/collect/", "./bin/data/appstore/index/", objectId, reviews, new Date(), 2);
+			collector.writeOutput("./bin/data/appstore/", "./bin/data/appstore/index/", objectId, reviews, new Date(), 2);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

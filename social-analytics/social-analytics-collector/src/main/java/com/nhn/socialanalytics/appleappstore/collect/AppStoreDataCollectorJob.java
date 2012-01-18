@@ -58,7 +58,7 @@ public class AppStoreDataCollectorJob implements Job {
 			collector.putSentimentAnalyzer(Collector.LANG_KOREAN, new SentimentAnalyzer(new File(Config.getProperty("LIWC_KOREAN"))));
 			collector.putSentimentAnalyzer(Collector.LANG_JAPANESE, new SentimentAnalyzer(new File(Config.getProperty("LIWC_JAPANESE"))));
 			
-			String dataDir = Config.getProperty("APPSTORE_SOURCE_DATA_DIR");
+			String docDir = Config.getProperty("APPSTORE_DATA_DIR");
 			String indexDir = Config.getProperty("APPSTORE_INDEX_DIR");
 			
 			CollectObjectReader colObjectReader = new CollectObjectReader(new File(Config.getProperty("COLLECT_OBJECTS")));
@@ -94,7 +94,7 @@ public class AppStoreDataCollectorJob implements Job {
 				List<Review> reviews = collector.getReviews(appStores, appId, maxPage);
 				
 				try {
-					collector.writeOutput(dataDir, indexDir, objectId, reviews, startTime, historyBufferMaxRound);
+					collector.writeOutput(docDir, indexDir, objectId, reviews, startTime, historyBufferMaxRound);
 				} catch (Exception e) {
 					e.printStackTrace();
 					logger.error(e.getMessage(), e);

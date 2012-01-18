@@ -20,7 +20,7 @@ import com.nhn.socialanalytics.nlp.morpheme.MorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.semantic.SemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.semantic.SemanticClause;
 import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
-import com.nhn.socialanalytics.opinion.common.DetailDoc;
+import com.nhn.socialanalytics.opinion.common.OpinionDocument;
 
 public abstract class Collector {
 
@@ -114,7 +114,7 @@ public abstract class Collector {
 		}
 	}
 	
-	protected File getDataFile(String dataDir, String objectId, Date collectDate) {
+	protected File getSourceDocFile(String dataDir, String objectId, Date collectDate) {
 		File dir = new File(dataDir);
 		if (!dir.exists()) {
 			dir.mkdir();
@@ -122,6 +122,16 @@ public abstract class Collector {
 		
 		String strDate = DateUtil.convertDateToString("yyyyMMdd", collectDate);	
 		return new File(dataDir + File.separator + objectId + "_" + strDate + ".txt");
+	}
+	
+	protected File getOpinionDocFile(String dataDir, String objectId, Date collectDate) {
+		File dir = new File(dataDir);
+		if (!dir.exists()) {
+			dir.mkdir();
+		}
+		
+		String strDate = DateUtil.convertDateToString("yyyyMMdd", collectDate);	
+		return new File(dataDir + File.separator + objectId + "_opinion_" + strDate + ".txt");
 	}
 	
 	protected File getDocIndexDir(String parentIndexDir, Date collectDate) {
@@ -187,7 +197,7 @@ public abstract class Collector {
 		return classifier;
 	}
 	
-	protected DetailDoc setClauseFeatureToDocument(String object, String language, SemanticClause clause, DetailDoc doc) {
+	protected OpinionDocument setClauseFeatureToDocument(String object, String language, SemanticClause clause, OpinionDocument doc) {
 		/*
 		String clauseStandardLabels = clause.getStandardSubject() + " " +
 				clause.getStandardPredicate() + " " +
@@ -205,6 +215,16 @@ public abstract class Collector {
 		doc.setClauseMainFeature(clauseMainFeature);
 		
 		return doc;
+	}
+	
+	protected boolean isValidClause(SemanticClause clause) {
+		if ((clause.getStandardSubject() != null && !clause.getStandardSubject().equals("")) ||
+				(clause.getStandardPredicate() != null && !clause.getStandardPredicate().equals("")) || 
+				(clause.makeStandardAttributesLabel() != null && !clause.makeStandardAttributesLabel().equals(""))) {
+			return true;
+		}
+		
+		return false;
 	}
 
 }
