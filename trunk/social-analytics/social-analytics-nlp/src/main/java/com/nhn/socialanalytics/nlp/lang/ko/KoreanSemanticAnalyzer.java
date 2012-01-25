@@ -2,7 +2,7 @@ package com.nhn.socialanalytics.nlp.lang.ko;
 
 import java.util.List;
 
-import com.nhn.socialanalytics.nlp.dictionary.SynonymEngine;
+import com.nhn.socialanalytics.nlp.dictionary.SynonymFilter;
 import com.nhn.socialanalytics.nlp.semantic.SemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.semantic.SemanticClause;
 import com.nhn.socialanalytics.nlp.semantic.SemanticSentence;
@@ -14,11 +14,11 @@ public class KoreanSemanticAnalyzer implements SemanticAnalyzer {
 	
 	private static KoreanSemanticAnalyzer instance = null;
 	private KoreanSyntacticAnalyzer syntacticAnalyzer;
-	private SynonymEngine synonymEngine;
+	private SynonymFilter synonymFilter;
 	
 	public KoreanSemanticAnalyzer() {
 		syntacticAnalyzer = KoreanSyntacticAnalyzer.getInstance();
-		synonymEngine = SynonymEngine.getInstance("com/nhn/socialanalytics/nlp/lang/ko/dic/synonym_ko.dic");
+		synonymFilter = SynonymFilter.getInstance("com/nhn/socialanalytics/nlp/lang/ko/dic/synonym_ko.dic");
 	}
 	
 	public static KoreanSemanticAnalyzer getInstance() {
@@ -48,7 +48,7 @@ public class KoreanSemanticAnalyzer implements SemanticAnalyzer {
 				String josaTag = eojeol.getJosaTag();
 				String eomiTag = eojeol.getEomiTag();
 				String term = eojeol.getTerm();				
-				String standardTerm = synonymEngine.getStandardWord(term);
+				String standardTerm = synonymFilter.getStandardWord(term);
 				
 				SemanticClause clause = new SemanticClause();
 				
@@ -101,7 +101,7 @@ public class KoreanSemanticAnalyzer implements SemanticAnalyzer {
 				String josaTag = eojeol.getJosaTag();
 				String eomiTag = eojeol.getEomiTag();
 				String term = eojeol.getTerm();
-				String standardTerm = synonymEngine.getStandardWord(term);
+				String standardTerm = synonymFilter.getStandardWord(term);
 				
 				SemanticClause clause = null;
 				

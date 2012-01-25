@@ -72,6 +72,16 @@ public class FeatureClassifier {
 		StringBuffer features = new StringBuffer();
 		
 		for (String feature : featureCounts.keySet()) { 
+			features.append(feature).append(" ");
+		}
+		
+		return features.toString();
+	}
+	
+	public String getFeatureCountLabel(Map<String, Double> featureCounts) {
+		StringBuffer features = new StringBuffer();
+		
+		for (String feature : featureCounts.keySet()) { 
 			double count = (Double) featureCounts.get(feature);
 			features.append(feature).append("(").append(count).append(")").append(" ");
 		}

@@ -3,7 +3,7 @@ package com.nhn.socialanalytics.nlp.lang.ja;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.nhn.socialanalytics.nlp.dictionary.SynonymEngine;
+import com.nhn.socialanalytics.nlp.dictionary.SynonymFilter;
 import com.nhn.socialanalytics.nlp.morpheme.Sentence;
 import com.nhn.socialanalytics.nlp.semantic.SemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.semantic.SemanticClause;
@@ -13,7 +13,7 @@ public class JapaneseSemanticAnalyzer implements SemanticAnalyzer {
 	
 	private static JapaneseSemanticAnalyzer instance = null;
 	private JapaneseMorphemeAnalyzer morphAnalyzer;
-	private SynonymEngine synonymEngine;
+	private SynonymFilter synonymFilter;
 	
 	private static final String[] PREDICATE_IN = { 
 		"動詞-自立", 
@@ -63,7 +63,7 @@ public class JapaneseSemanticAnalyzer implements SemanticAnalyzer {
 	
 	public JapaneseSemanticAnalyzer() {
 		morphAnalyzer = JapaneseMorphemeAnalyzer.getInstance();
-		synonymEngine = SynonymEngine.getInstance("com/nhn/socialanalytics/nlp/lang/ja/dic/synonym_ja.dic");
+		synonymFilter = SynonymFilter.getInstance("com/nhn/socialanalytics/nlp/lang/ja/dic/synonym_ja.dic");
 	}
 	
 	public static JapaneseSemanticAnalyzer getInstance() {
@@ -95,7 +95,7 @@ public class JapaneseSemanticAnalyzer implements SemanticAnalyzer {
 					if (clause != null && token.containsTagOf(NEGATION_TYPE)) {
 						System.out.println("#analyze(1-1) = ConjugationalType : " + token.getConjugationalType());		
 						clause.setPredicate("NOT" + clause.getPredicate());	
-						String standardTerm = synonymEngine.getStandardWord(clause.getPredicate());
+						String standardTerm = synonymFilter.getStandardWord(clause.getPredicate());
 						clause.setStandardPredicate("否定" + standardTerm);
 					}
 				}
@@ -112,7 +112,7 @@ public class JapaneseSemanticAnalyzer implements SemanticAnalyzer {
 					if (clause != null && token.containsTagOf(NEGATION_TYPE)) {
 						System.out.println("#analyze(1-3) = ConjugationalType : " + token.getConjugationalType());		
 						clause.setPredicate("否定" + clause.getPredicate());	
-						String standardTerm = synonymEngine.getStandardWord(clause.getPredicate());
+						String standardTerm = synonymFilter.getStandardWord(clause.getPredicate());
 						clause.setStandardPredicate("否定" + standardTerm);
 					}
 				}
@@ -154,7 +154,7 @@ public class JapaneseSemanticAnalyzer implements SemanticAnalyzer {
 		for (int j = waitingTokens.size() - 1; j >= 0; j--) {
 			JapaneseToken waitingToken = (JapaneseToken) waitingTokens.get(j);
 			String waitingTerm = waitingToken.getTerm();
-			String standardTerm = synonymEngine.getStandardWord(waitingToken.getTerm());
+			String standardTerm = synonymFilter.getStandardWord(waitingToken.getTerm());
 
 			if (waitingToken.containsTagOf(PREDICATE_IN)) {
 				System.out.println("#updateSemanticClause(1) = " + waitingTerm);							
@@ -211,7 +211,7 @@ public class JapaneseSemanticAnalyzer implements SemanticAnalyzer {
 		for (int j = waitingTokens.size() - 1; j >= 0; j--) {
 			JapaneseToken waitingToken = (JapaneseToken) waitingTokens.get(j);
 			String prevTerm = waitingToken.getTerm();
-			String standardTerm = synonymEngine.getStandardWord(waitingToken.getTerm());
+			String standardTerm = synonymFilter.getStandardWord(waitingToken.getTerm());
 			
 			if (waitingToken.containsTagOf(PREDICATE_IN)) {	
 				System.out.println("#createLeftoverSemanticClause(1) = " + prevTerm);
