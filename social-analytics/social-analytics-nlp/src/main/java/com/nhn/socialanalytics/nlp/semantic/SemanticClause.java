@@ -10,6 +10,7 @@ import java.util.Set;
 public class SemanticClause implements Serializable {
 
 	private int id = -1;
+	private String mainFeature = "";
 	private String subject;	
 	private String standardSubject;
 	private String predicate;
@@ -35,6 +36,12 @@ public class SemanticClause implements Serializable {
 	}
 	public void setId(int id) {
 		this.id = id;
+	}
+	public String getMainFeature() {
+		return mainFeature;
+	}
+	public void setMainFeature(String mainFeature) {
+		this.mainFeature = mainFeature;
 	}
 	public String getSubject() {
 		return subject;
@@ -145,6 +152,7 @@ public class SemanticClause implements Serializable {
 	
 	public SemanticClause clone() {
 		SemanticClause clause = new SemanticClause();
+		clause.setMainFeature(mainFeature);
 		clause.setSubject(subject);
 		clause.setStandardSubject(standardSubject);
 		clause.setPredicate(predicate);
@@ -246,113 +254,128 @@ public class SemanticClause implements Serializable {
 		return label;
 	}
 	
-	@Deprecated
-	public String makeSubjectPredicateLabel(boolean includeChild) {
-		String label = null;		
+	public String makeStandardSubjectPredicateLabel(String clauseDelimiter, String termDelimiter, boolean includeFeature, boolean includeChild) {
+		String label = "";
+		String strSubject = "";
+		String strPredicate = "";
 		
-		if (subject != null && predicate != null) {
-			label = subject + " " + predicate;
+		if ((standardSubject == null || standardSubject.equals("")) 
+				&& (standardPredicate == null || standardPredicate.equals(""))) {
+			return "";
 		}
-		else if (subject == null && predicate != null) {
-			label = predicate;
-			if (attributes.size() > 0) {
-				for (String attribute : attributes) {
-					label = label + " " + attribute + " " + predicate;
-				}
-			}			
-		}
-		else if (subject != null && predicate == null) {
-			label = subject;
-		}						
 		
+		if (standardSubject != null)	strSubject = standardSubject;
+		if (standardPredicate != null)	strPredicate = standardPredicate;
+		label = label + strSubject + termDelimiter + strPredicate;
+		
+		if (includeFeature) {
+			label = mainFeature + termDelimiter + label;
+		}
+					
 		if (includeChild) {
 			String childLabels = null;
 			for (SemanticClause child : childClauses) {
 				if (childLabels != null)
-					childLabels = childLabels + " " + child.makeSubjectPredicateLabel(includeChild);
+					childLabels = childLabels + clauseDelimiter + child.makeStandardSubjectPredicateLabel(clauseDelimiter, termDelimiter, includeFeature, includeChild);
 				else
-					childLabels = child.makeSubjectPredicateLabel(includeChild);
+					childLabels = child.makeStandardSubjectPredicateLabel(clauseDelimiter, termDelimiter, includeFeature, includeChild);
 			}
 			
 			if (childLabels != null)
-				label = childLabels + " " + label;			
+				label = childLabels + clauseDelimiter + label;			
 		}
 		
 		return label;
 	}
 	
-	@Deprecated
-	public String makeStandardSubjectPredicateLabel(boolean includeChild) {
-		String label = null;		
+	public String makeStandardSubjectAttributeLabel(String clauseDelimiter, String termDelimiter, boolean includeFeature) {
+		String label = "";
+		String strSubject = "";
 		
-		if (standardSubject != null && standardPredicate != null) {
-			label = standardSubject + " " + standardPredicate;
+		if ((standardSubject == null || standardSubject.equals("")) 
+				&& (standardAttributes.size() == 0)) {
+			return "";
 		}
-		else if (standardSubject == null && standardPredicate != null) {
-			label = standardPredicate;
-			if (standardAttributes.size() > 0) {
-				for (String attribute : standardAttributes) {
-					label = label + " " + attribute + " " + standardPredicate;
-				}
-			}			
-		}
-		else if (standardSubject != null && standardPredicate == null) {
-			label = standardSubject;
-		}						
 		
-		if (includeChild) {
-			String childLabels = null;
-			for (SemanticClause child : childClauses) {
-				if (childLabels != null)
-					childLabels = childLabels + " " + child.makeStandardSubjectPredicateLabel(includeChild);
+		if (standardSubject != null)	strSubject = standardSubject;
+
+		label = label + strSubject;
+		
+		if (includeFeature) {
+			label = mainFeature + termDelimiter + label;
+		}
+		
+		int i = 0;
+		for (String attribute : standardAttributes)  {
+			if (!attribute.equals("")) {
+				if (i < standardAttributes.size() - 1)
+					label = label + termDelimiter + attribute + clauseDelimiter;
 				else
-					childLabels = child.makeStandardSubjectPredicateLabel(includeChild);
+					label = label + termDelimiter + attribute;
 			}
-			
-			if (childLabels != null)
-				label = childLabels + " " + label;
 		}
 		
 		return label;
 	}
 
-	public String makeAttributesLabel() {
+	public String makeAttributesLabel(String delimiter) {
 		StringBuffer sb = new StringBuffer();
 		
+		int i = 0;
 		for (String attribute : attributes) {
 			if (!attribute.equals(""))
-				sb.append(attribute).append(" ");
+				if (i < standardAttributes.size() - 1)
+					sb.append(attribute).append(delimiter);
+				else
+					sb.append(attribute);
 		}		
 		return sb.toString().trim();		
 	}
 	
-	public String makeStandardAttributesLabel() {
+	public String makeStandardAttributesLabel(String delimiter) {
 		StringBuffer sb = new StringBuffer();
 		
-		for (String attribute : standardAttributes) {
-			if (!attribute.equals(""))
-				sb.append(attribute).append(" ");
-		}		
+		int i = 0;
+		for (String attribute : standardAttributes)  {
+			if (!attribute.equals("")) {
+				if (i < standardAttributes.size() - 1)
+					sb.append(attribute).append(delimiter);
+				else
+					sb.append(attribute);
+			}
+		}
+
 		return sb.toString().trim();		
 	}
 	
-	public String makeModifiersLabel() {
+	public String makeModifiersLabel(String delimiter) {
 		StringBuffer sb = new StringBuffer();
 		
+		int i = 0;
 		for (String modifier : modifiers) {
-			if (!modifier.equals(""))
-				sb.append(modifier).append(" ");
+			if (!modifier.equals("")) {
+				if (i < modifiers.size() - 1)
+					sb.append(modifier).append(delimiter);
+				else
+					sb.append(modifier);
+			}
 		}		
 		return sb.toString().trim();		
 	}
 	
-	public String makeStandardModifiersLabel() {
+	public String makeStandardModifiersLabel(String delimiter) {
 		StringBuffer sb = new StringBuffer();
 		
-		for (String modifier : standardModifiers) {
-			if (!modifier.equals(""))
-				sb.append(modifier).append(" ");
-		}		
+		int i = 0;
+		for (String modifier : standardModifiers)  {
+			if (!modifier.equals("")) {
+				if (i < standardModifiers.size() - 1)
+					sb.append(modifier).append(delimiter);
+				else
+					sb.append(modifier);
+			}
+		}
+
 		return sb.toString().trim();		
 	}
 	
@@ -364,7 +387,7 @@ public class SemanticClause implements Serializable {
 			.append(" *predicate = ").append(predicate)
 			.append(" *attributes = ").append(attributes.toString())
 			.append(" *modifiers = ").append(modifiers.toString())			
-			.append(" standardSubjectPredicateLabel = ").append(makeStandardSubjectPredicateLabel(false))
+			.append(" standardSubjectPredicateLabel = ").append(makeStandardSubjectPredicateLabel(" ", "-", false, false))
 			.append(" standardLabel = ").append(makeStandardLabel("-", true, true, false))
 			.append(" polarity = ").append(polarity)
 			.append(" polarityStrength = ").append(polarityStrength);		
@@ -375,4 +398,5 @@ public class SemanticClause implements Serializable {
 		
 		return sb.toString();
 	}
+	
 }

@@ -24,23 +24,23 @@ import org.apache.lucene.store.LockObtainFailedException;
 import org.apache.lucene.store.RAMDirectory;
 import org.apache.lucene.util.Version;
 
-public class SynonymEngine {
+public class SynonymFilter {
 
 	private static String synonymDictionary = "";
 	private static RAMDirectory directory;
 	private static IndexSearcher searcher;
-	private static SynonymEngine instance;
+	private static SynonymFilter instance;
 	private List<String> synonyms = new ArrayList<String>();
 	
-	public static SynonymEngine getInstance(String dictionaryFile) {
+	public static SynonymFilter getInstance(String dictionaryFile) {
 		if (instance == null || !synonymDictionary.equals(dictionaryFile)) {
 			synonymDictionary = dictionaryFile;
-			instance = new SynonymEngine();			
+			instance = new SynonymFilter();			
 		}
 		return instance;
 	}
 	
-	private SynonymEngine() {
+	private SynonymFilter() {
 		loadDictionary();		
 		createSynonymIndex();
 		
@@ -148,12 +148,12 @@ public class SynonymEngine {
 	
 	public static void main(String[] args) {
 		try {
-			//SynonymEngine synonymEngine = SynonymEngine.getInstance("com/nhn/socialanalytics/nlp/lang/ko/dic/synonym_ko.dic");
-			SynonymEngine synonymEngine = SynonymEngine.getInstance("com/nhn/socialanalytics/nlp/lang/ja/dic/synonym_ja.dic");
-			List<String> synonyms = synonymEngine.getSynonyms("アプリ");			
+			//SynonymFilter synonymFilter = SynonymFilter.getInstance("com/nhn/socialanalytics/nlp/lang/ko/dic/synonym_ko.dic");
+			SynonymFilter synonymFilter = SynonymFilter.getInstance("com/nhn/socialanalytics/nlp/lang/ja/dic/synonym_ja.dic");
+			List<String> synonyms = synonymFilter.getSynonyms("アプリ");			
 			System.out.println("synonyms == " + synonyms);
 			
-			String standard = synonymEngine.getStandardWord("アプリ");			
+			String standard = synonymFilter.getStandardWord("アプリ");			
 			System.out.println("standard == " + standard);
 			
 		} catch (Exception e) {

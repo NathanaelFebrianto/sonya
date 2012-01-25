@@ -252,139 +252,182 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 		return sb.toString();	
 	}
 	
-	@Deprecated
-	public String extractSubjectPredicateLabel() {
+	public String extractStandardSubjectPredicateLabel(String clauseDelimiter, String termDelimiter, 
+			boolean includeFeature, boolean includeChild) {
 		StringBuffer sb = new StringBuffer();
 		
 		for (int i = 0; i < this.size(); i++) {	
 			SemanticClause clause = this.get(i);
-			String label = clause.makeSubjectPredicateLabel(false);
-			if (label != null && !label.equals("")) {
+
+			String label = clause.makeStandardSubjectPredicateLabel(clauseDelimiter, termDelimiter, includeFeature, includeChild);
+			
+			if (label != null && !label.trim().equals("")) {
 				sb.append(label);
 				
 				if (i < this.size() - 1)
-					sb.append(",");
+					sb.append(clauseDelimiter);
+			} 
+		}
+		
+		return sb.toString();	
+	}
+	
+	public String extractStandardSubjectAttributeLabel(String clauseDelimiter, String termDelimiter, boolean includeFeature) {
+		StringBuffer sb = new StringBuffer();
+		
+		for (int i = 0; i < this.size(); i++) {	
+			SemanticClause clause = this.get(i);
+
+			String label = clause.makeStandardSubjectAttributeLabel(clauseDelimiter, termDelimiter, includeFeature);
+			
+			if (label != null && !label.trim().equals("")) {
+				sb.append(label);
+				
+				if (i < this.size() - 1)
+					sb.append(clauseDelimiter);
+			} 
+		}
+		
+		return sb.toString();	
+	}
+
+	public String extractSubjectLabel(String delimiter) {
+		StringBuffer sb = new StringBuffer();
+		
+		int i = 0;
+		for (SemanticClause clause : this) {	
+			String label = clause.getSubject();
+			if (label != null && !label.equals("")) {
+				if (i < this.size() - 1)
+					sb.append(label).append(delimiter);
+				else
+					sb.append(label);
 			}			
 		}
 		
 		return sb.toString();		
 	}
 	
-	@Deprecated
-	public String extractStandardSubjectPredicateLabel() {
+	public String extractStandardSubjectLabel(String delimiter, boolean includeFeature) {
 		StringBuffer sb = new StringBuffer();
 		
-		for (int i = 0; i < this.size(); i++) {	
-			SemanticClause clause = this.get(i);
-			String label = clause.makeStandardSubjectPredicateLabel(false);
-			if (label != null && !label.equals("")) {
-				sb.append(label);
-				
-				if (i < this.size() - 1)
-					sb.append(",");
-			}			
-		}
-		
-		return sb.toString();	
-	}
-
-	public String extractSubjectLabel() {
-		StringBuffer sb = new StringBuffer();
-		
-		for (SemanticClause clause : this) {	
-			String label = clause.getSubject();
-			if (label != null && !label.equals("")) {
-				sb.append(label).append(" ");
-			}			
-		}
-		
-		return sb.toString().trim();		
-	}
-	
-	public String extractStandardSubjectLabel() {
-		StringBuffer sb = new StringBuffer();
-		
+		int i = 0;
 		for (SemanticClause clause : this) {	
 			String label = clause.getStandardSubject();
 			if (label != null && !label.equals("")) {
-				sb.append(label).append(" ");
+				if (includeFeature)
+					sb.append(clause.getMainFeature()).append(delimiter);
+				
+				if (i < this.size() - 1)
+					sb.append(label).append(delimiter);
+				else
+					sb.append(label);
 			}			
 		}
 		
-		return sb.toString().trim();		
+		return sb.toString();		
 	}
 	
-	public String extractPredicateLabel() {
+	public String extractPredicateLabel(String delimiter) {
 		StringBuffer sb = new StringBuffer();
 		
+		int i = 0;
 		for (SemanticClause clause : this) {	
 			String label = clause.getPredicate();
 			if (label != null && !label.equals("")) {
-				sb.append(label).append(" ");
+				if (i < this.size() - 1)
+					sb.append(label).append(delimiter);
+				else
+					sb.append(label);
 			}			
 		}
 		
 		return sb.toString().trim();		
 	}
 	
-	public String extractStandardPredicateLabel() {
+	public String extractStandardPredicateLabel(String delimiter, boolean includeFeature) {
 		StringBuffer sb = new StringBuffer();
 		
+		int i = 0;
 		for (SemanticClause clause : this) {	
 			String label = clause.getStandardPredicate();
 			if (label != null && !label.equals("")) {
-				sb.append(label).append(" ");
+				if (includeFeature)
+					sb.append(clause.getMainFeature()).append(delimiter);
+				
+				if (i < this.size() - 1)
+					sb.append(label).append(delimiter);
+				else
+					sb.append(label);
 			}			
 		}
 		
 		return sb.toString().trim();		
 	}
 	
-	public String extractAttributesLabel() {
+	public String extractAttributesLabel(String delimiter) {
 		StringBuffer sb = new StringBuffer();
 		
+		int i = 0;
 		for (SemanticClause clause : this) {	
-			String label = clause.makeAttributesLabel();
+			String label = clause.makeAttributesLabel(delimiter);
 			if (label != null && !label.equals("")) {
-				sb.append(label).append(" ");
+				if (i < this.size() - 1)
+					sb.append(label).append(delimiter);
+				else
+					sb.append(label);
 			}			
 		}		
 		return sb.toString().trim();		
 	}
 	
-	public String extractStandardAttributesLabel() {
+	public String extractStandardAttributesLabel(String delimiter) {
 		StringBuffer sb = new StringBuffer();
 		
+		int i = 0;
 		for (SemanticClause clause : this) {	
-			String label = clause.makeStandardAttributesLabel();
+			String label = clause.makeStandardAttributesLabel(delimiter);
 			if (label != null && !label.equals("")) {
-				sb.append(label).append(" ");
+				if (i < this.size() - 1)
+					sb.append(label).append(delimiter);
+				else
+					sb.append(label);
+			}			
+		}
+		
+		return sb.toString().trim();		
+	}
+	
+	public String extractModifiersLabel(String delimiter) {
+		StringBuffer sb = new StringBuffer();
+		
+		int i = 0;
+		for (SemanticClause clause : this) {	
+			String label = clause.makeModifiersLabel(delimiter);
+			if (label != null && !label.equals("")) {
+				if (i < this.size() - 1)
+					sb.append(label).append(delimiter);
+				else
+					sb.append(label);
 			}			
 		}		
 		return sb.toString().trim();		
 	}
 	
-	public String extractModifiersLabel() {
+	public String extractStandardModifiersLabel(String delimiter) {
 		StringBuffer sb = new StringBuffer();
 		
+		int i = 0;
 		for (SemanticClause clause : this) {	
-			String label = clause.makeModifiersLabel();
+			String label = clause.makeStandardModifiersLabel(delimiter);
 			if (label != null && !label.equals("")) {
-				sb.append(label).append(" ");
+				if (i < this.size() - 1)
+					sb.append(label).append(delimiter);
+				else
+					sb.append(label);
 			}			
-		}		
-		return sb.toString().trim();		
-	}
-	
-	public String extractStandardModifiersLabel() {
-		StringBuffer sb = new StringBuffer();
+		}
 		
-		for (SemanticClause clause : this) {	
-			String label = clause.makeStandardModifiersLabel();
-			if (label != null && !label.equals("")) {
-				sb.append(label).append(" ");
-			}			
-		}		
 		return sb.toString().trim();		
 	}
 	
