@@ -3,6 +3,8 @@ package com.nhn.socialanalytics.nlp.semantic;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Set;
 
 @SuppressWarnings("serial")
@@ -12,6 +14,9 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 	private String sentence;
 	private double polarity;
 	private double polarityStrength;
+	private String mainFeature = "";
+	private Map<String, Double> features = new HashMap<String, Double>();
+	private Map<String, String> competitors = new HashMap<String, String>();
 	
 	public SemanticSentence(int id, String sentence) {
 		this.id = id;
@@ -37,6 +42,24 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 	}
 	public void setPolarityStrength(double polarityStrength) {
 		this.polarityStrength = polarityStrength;
+	}
+	public String getMainFeature() {
+		return mainFeature;
+	}
+	public void setMainFeature(String mainFeature) {
+		this.mainFeature = mainFeature;
+	}
+	public Map<String, Double> getFeatures() {
+		return features;
+	}
+	public void setFeatures(Map<String, Double> features) {
+		this.features = features;
+	}
+	public Map<String, String> getCompetitors() {
+		return competitors;
+	}
+	public void setCompetitors(Map<String, String> competitors) {
+		this.competitors = competitors;
 	}
 	
 	public boolean add(SemanticClause clause) {
@@ -176,64 +199,6 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 		return negWordCount;
 	}
 	
-	/*
-	public void calculatePolarity() {
-		this.sort(true);		
-		
-		double weightedPolarity = 0.0;
-		boolean isSubjective = false;
-		boolean isAllSamePriority = true;
-		
-		int prevPriority = 1;
-		for (SemanticClause clause : this) {	
-			weightedPolarity = weightedPolarity + (clause.getPolarity() * clause.getStrength());	
-			
-			if (clause.getPolarity() != 0.0)
-				isSubjective = true;
-			
-			if (prevPriority < clause.getPriority())
-				isAllSamePriority = false;
-			
-			if (prevPriority == clause.getPriority())
-			
-			prevPriority = clause.getPriority();
-		}
-		
-		// polarity
-		if (!isAllSamePriority && weightedPolarity > 0) {
-			this.setPolarity(1.0);
-			this.setPolarityStrength(Math.abs(weightedPolarity));
-		}
-		else if (!isAllSamePriority && weightedPolarity < 0) {
-			this.setPolarity(-1.0);
-			this.setPolarityStrength(Math.abs(weightedPolarity));
-		}
-		else if (isSubjective && (isAllSamePriority || weightedPolarity == 0)) {
-			double posWordCount = this.sumPostiveWordCount();
-			double negWordCount = this.sumNegativeWordCount();
-			
-			System.out.println("positive word count == " + posWordCount);
-			System.out.println("negative word count == " + negWordCount);			
-			
-			if (posWordCount > negWordCount) {
-				this.setPolarity(1.0);
-				this.setPolarityStrength( posWordCount / (posWordCount + negWordCount) );
-			}
-			else if (posWordCount <= negWordCount) {
-				this.setPolarity(-1.0);
-				this.setPolarityStrength( negWordCount / (posWordCount + negWordCount) );
-			}						
-		}
-		else {
-			this.setPolarity(0.0);
-			this.setPolarityStrength(Math.abs(weightedPolarity));
-		}
-		
-		System.out.println("sentence polarity == " + this.getPolarity());
-		System.out.println("sentence polarity strength == " + this.getPolarityStrength());
-	}
-	*/
-	
 	public String extractStandardLabel(String clauseDelimiter, String termDelimiter, 
 			boolean includeAttribute, boolean includeModifier, boolean includeChild) {
 		StringBuffer sb = new StringBuffer();
@@ -249,17 +214,17 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 			} 
 		}
 		
-		return sb.toString();	
+		return sb.toString().trim();	
 	}
 	
 	public String extractStandardSubjectPredicateLabel(String clauseDelimiter, String termDelimiter, 
-			boolean includeFeature, boolean includeChild) {
+			boolean includeFeature, boolean includeCompetitor, boolean includeChild) {
 		StringBuffer sb = new StringBuffer();
 		
 		for (int i = 0; i < this.size(); i++) {	
 			SemanticClause clause = this.get(i);
 
-			String label = clause.makeStandardSubjectPredicateLabel(clauseDelimiter, termDelimiter, includeFeature, includeChild);
+			String label = clause.makeStandardSubjectPredicateLabel(clauseDelimiter, termDelimiter, includeFeature, includeCompetitor, includeChild);
 			
 			if (label != null && !label.trim().equals("")) {
 				sb.append(label);
@@ -269,16 +234,17 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 			} 
 		}
 		
-		return sb.toString();	
+		return sb.toString().trim();	
 	}
 	
-	public String extractStandardSubjectAttributeLabel(String clauseDelimiter, String termDelimiter, boolean includeFeature) {
+	public String extractStandardSubjectAttributeLabel(String clauseDelimiter, String termDelimiter, 
+			boolean includeFeature, boolean includeCompetitor) {
 		StringBuffer sb = new StringBuffer();
 		
 		for (int i = 0; i < this.size(); i++) {	
 			SemanticClause clause = this.get(i);
 
-			String label = clause.makeStandardSubjectAttributeLabel(clauseDelimiter, termDelimiter, includeFeature);
+			String label = clause.makeStandardSubjectAttributeLabel(clauseDelimiter, termDelimiter, includeFeature, includeCompetitor);
 			
 			if (label != null && !label.trim().equals("")) {
 				sb.append(label);
@@ -288,7 +254,7 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 			} 
 		}
 		
-		return sb.toString();	
+		return sb.toString().trim();	
 	}
 
 	public String extractSubjectLabel(String delimiter) {
@@ -298,34 +264,53 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 		for (SemanticClause clause : this) {	
 			String label = clause.getSubject();
 			if (label != null && !label.equals("")) {
+				sb.append(label);
 				if (i < this.size() - 1)
-					sb.append(label).append(delimiter);
-				else
-					sb.append(label);
-			}			
+					sb.append(delimiter);
+			}
+			i++;
 		}
 		
-		return sb.toString();		
+		return sb.toString().trim();		
 	}
 	
-	public String extractStandardSubjectLabel(String delimiter, boolean includeFeature) {
+	public String extractStandardSubjectLabel(String clauseDelimiter, String termDelimiter, 
+			boolean includeFeature, boolean includeCompetitor) {
 		StringBuffer sb = new StringBuffer();
 		
 		int i = 0;
 		for (SemanticClause clause : this) {	
 			String label = clause.getStandardSubject();
 			if (label != null && !label.equals("")) {
-				if (includeFeature)
-					sb.append(clause.getMainFeature()).append(delimiter);
-				
-				if (i < this.size() - 1)
-					sb.append(label).append(delimiter);
-				else
+				if (includeCompetitor) {
+					int j = 0;
+					for (Map.Entry<String, String> entry : competitors.entrySet()) {
+						sb.append(entry.getKey()).append(termDelimiter).append(entry.getValue()).append(termDelimiter);
+						
+						if (includeFeature)
+							sb.append(clause.getMainFeature()).append(termDelimiter);
+						
+						sb.append(label);
+						
+						if (j < competitors.size() - 1)
+							sb.append(clauseDelimiter);
+						
+						j++;
+					}		
+				}
+				else {
+					if (includeFeature)
+						sb.append(clause.getMainFeature()).append(termDelimiter);
+					
 					sb.append(label);
-			}			
+					if (i < this.size() - 1)
+						sb.append(clauseDelimiter);				
+				}
+			}
+			i++;
 		}
 		
-		return sb.toString();		
+		return sb.toString().trim();		
 	}
 	
 	public String extractPredicateLabel(String delimiter) {
@@ -335,49 +320,52 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 		for (SemanticClause clause : this) {	
 			String label = clause.getPredicate();
 			if (label != null && !label.equals("")) {
+				sb.append(label);
 				if (i < this.size() - 1)
-					sb.append(label).append(delimiter);
-				else
-					sb.append(label);
-			}			
+					sb.append(delimiter);
+			}	
+			i++;
 		}
 		
 		return sb.toString().trim();		
 	}
 	
-	public String extractStandardPredicateLabel(String delimiter, boolean includeFeature) {
+	public String extractStandardPredicateLabel(String clauseDelimiter, String termDelimiter, 
+			boolean includeFeature, boolean includeCompetitor) {
 		StringBuffer sb = new StringBuffer();
 		
 		int i = 0;
 		for (SemanticClause clause : this) {	
 			String label = clause.getStandardPredicate();
 			if (label != null && !label.equals("")) {
-				if (includeFeature)
-					sb.append(clause.getMainFeature()).append(delimiter);
-				
-				if (i < this.size() - 1)
-					sb.append(label).append(delimiter);
-				else
+				if (includeCompetitor) {
+					int j = 0;
+					for (Map.Entry<String, String> entry : competitors.entrySet()) {
+						sb.append(entry.getKey()).append(termDelimiter).append(entry.getValue()).append(termDelimiter);
+						
+						if (includeFeature)
+							sb.append(clause.getMainFeature()).append(termDelimiter);
+						
+						sb.append(label);
+						
+						if (j < competitors.size() - 1)
+							sb.append(clauseDelimiter);
+						
+						j++;
+					}		
+				}
+				else {
+					if (includeFeature)
+						sb.append(clause.getMainFeature()).append(termDelimiter);
+					
 					sb.append(label);
-			}			
+					if (i < this.size() - 1)
+						sb.append(clauseDelimiter);
+				}
+			}
+			i++;
 		}
 		
-		return sb.toString().trim();		
-	}
-	
-	public String extractAttributesLabel(String delimiter) {
-		StringBuffer sb = new StringBuffer();
-		
-		int i = 0;
-		for (SemanticClause clause : this) {	
-			String label = clause.makeAttributesLabel(delimiter);
-			if (label != null && !label.equals("")) {
-				if (i < this.size() - 1)
-					sb.append(label).append(delimiter);
-				else
-					sb.append(label);
-			}			
-		}		
 		return sb.toString().trim();		
 	}
 	
@@ -388,32 +376,16 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 		for (SemanticClause clause : this) {	
 			String label = clause.makeStandardAttributesLabel(delimiter);
 			if (label != null && !label.equals("")) {
+				sb.append(label);
 				if (i < this.size() - 1)
-					sb.append(label).append(delimiter);
-				else
-					sb.append(label);
-			}			
+					sb.append(delimiter);
+			}
+			i++;
 		}
 		
 		return sb.toString().trim();		
 	}
-	
-	public String extractModifiersLabel(String delimiter) {
-		StringBuffer sb = new StringBuffer();
-		
-		int i = 0;
-		for (SemanticClause clause : this) {	
-			String label = clause.makeModifiersLabel(delimiter);
-			if (label != null && !label.equals("")) {
-				if (i < this.size() - 1)
-					sb.append(label).append(delimiter);
-				else
-					sb.append(label);
-			}			
-		}		
-		return sb.toString().trim();		
-	}
-	
+
 	public String extractStandardModifiersLabel(String delimiter) {
 		StringBuffer sb = new StringBuffer();
 		
@@ -421,14 +393,58 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 		for (SemanticClause clause : this) {	
 			String label = clause.makeStandardModifiersLabel(delimiter);
 			if (label != null && !label.equals("")) {
+				sb.append(label);
 				if (i < this.size() - 1)
-					sb.append(label).append(delimiter);
-				else
-					sb.append(label);
-			}			
+					sb.append(delimiter);
+			}
+			i++;
 		}
 		
 		return sb.toString().trim();		
+	}
+	
+	public String extractFeaturesLabel(String delimiter, boolean includeScore) {
+		StringBuffer sb = new StringBuffer();
+
+		int i = 0;
+		for (Map.Entry<String, Double> entry : features.entrySet()) {
+			String feature = entry.getKey();
+			Double score = entry.getValue();
+			
+			if (includeScore)
+				sb.append(feature).append("(").append(score).append(")");
+			else
+				sb.append(feature);
+			
+			if (i < features.size() - 1)
+				sb.append(delimiter);
+			
+			i++;
+		}
+
+		return sb.toString().trim();
+	}
+	
+	public String extractCompetitorsLabel(String delimiter, boolean includeKey) {
+		StringBuffer sb = new StringBuffer();
+
+		int i = 0;
+		for (Map.Entry<String, String> entry : competitors.entrySet()) {
+			String id = entry.getKey();
+			String competitor = entry.getValue();
+			
+			if (includeKey)
+				sb.append(competitor).append("(").append(id).append(")");
+			else
+				sb.append(competitor);
+			
+			if (i < competitors.size() - 1)
+				sb.append(delimiter);
+			
+			i++;
+		}
+
+		return sb.toString().trim();
 	}
 	
 	class SemanticSentenceComparator implements Comparator<SemanticClause> {

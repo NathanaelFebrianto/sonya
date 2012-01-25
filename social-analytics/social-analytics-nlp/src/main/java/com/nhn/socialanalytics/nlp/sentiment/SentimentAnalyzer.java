@@ -224,33 +224,6 @@ public class SentimentAnalyzer {
 		return null;
 	}	
 	
-	public class Polarity {
-		double polarity;
-		double polarityStrength;
-		
-		public Polarity() { }
-		
-		public Polarity(double polarity, double polarityStrength) {
-			this.polarity = polarity;
-			this.polarityStrength = polarityStrength;
-		}
-		
-		public double getPolarity() {
-			return this.polarity;
-		}
-		
-		public void setPolarity(double polarity) {
-			this.polarity = polarity;
-		}
-		
-		public double getPolarityStrength() {
-			return this.polarityStrength;
-		}
-		public void setPolarityStrength(double polarityStrength) {
-			this.polarityStrength = polarityStrength;
-		}
-	}
-	
 	public static void main(String[] args) {
 		SentimentAnalyzer analyzer = SentimentAnalyzer.getInstance(new File("./liwc/LIWC_ja.txt"));
 		
