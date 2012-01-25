@@ -16,21 +16,6 @@ public class StringUtil {
 		Matcher matcher = pattern.matcher(text);
 		return matcher.replaceAll(newStr);
 	}
-	
-	public static String convertEmoticonToTag(String text) {		
-		text = replaceStrings(text, "(\\?+)", " TAGQUESTION ");
-		text = replaceStrings(text, "(\\^\\^+)", " TAGSMILE ");
-		text = replaceStrings(text, "(ㅋ+)", " TAGSMILE ");
-		text = replaceStrings(text, "(ㅎ+)", " TAGSMILE ");
-		text = replaceStrings(text, "(ㅜ+)", " TAGCRY ");
-		text = replaceStrings(text, "(ㅠ+)", " TAGCRY ");
-		text = replaceStrings(text, "(ㅡㅡ)", " TAGCRY ");
-		text = replaceStrings(text, "(♡+)", " TAGLOVE ");
-		text = replaceStrings(text, "(♥+)", " TAGLOVE ");
-		text = replaceStrings(text, "(!+)", " TAGEXCLAMATION ");		
-		
-		return text;
-	}
 
 	public static final String removeKoreanUnsupportedCharacters(String str) {
 		for (int i = 0; i < str.length(); i++) {

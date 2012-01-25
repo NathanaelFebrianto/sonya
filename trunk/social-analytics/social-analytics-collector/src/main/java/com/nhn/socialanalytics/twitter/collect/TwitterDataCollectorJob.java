@@ -4,6 +4,7 @@ import java.io.File;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 
 import org.quartz.Job;
@@ -13,16 +14,20 @@ import org.quartz.JobExecutionException;
 
 import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.JobLogger;
+import com.nhn.socialanalytics.common.collect.CollectHistoryBuffer;
 import com.nhn.socialanalytics.common.collect.CollectObject;
 import com.nhn.socialanalytics.common.collect.CollectObjectReader;
 import com.nhn.socialanalytics.common.collect.Collector;
 import com.nhn.socialanalytics.common.util.DateUtil;
+import com.nhn.socialanalytics.nlp.analysis.TextAnalyzer;
 import com.nhn.socialanalytics.nlp.feature.FeatureClassifier;
 import com.nhn.socialanalytics.nlp.lang.ja.JapaneseMorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ja.JapaneseSemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanMorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanSemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
+import com.nhn.socialanalytics.opinion.dao.SourceDocumentGenerator;
+import com.nhn.socialanalytics.opinion.dao.file.SourceDocumentFileWriter;
 
 public class TwitterDataCollectorJob implements Job {
 	// logger
@@ -49,37 +54,53 @@ public class TwitterDataCollectorJob implements Job {
 
 			/////////////////////////////
 			TwitterDataCollector collector = new TwitterDataCollector();
-			collector.putMorphemeAnalyzer(Collector.LANG_KOREAN, new KoreanMorphemeAnalyzer());
-			collector.putMorphemeAnalyzer(Collector.LANG_JAPANESE, new JapaneseMorphemeAnalyzer());
-			collector.putSemanticAnalyzer(Collector.LANG_KOREAN, new KoreanSemanticAnalyzer());
-			collector.putSemanticAnalyzer(Collector.LANG_JAPANESE, new JapaneseSemanticAnalyzer());
-			collector.putSentimentAnalyzer(Collector.LANG_KOREAN, new SentimentAnalyzer(new File(Config.getProperty("LIWC_KOREAN"))));
-			collector.putSentimentAnalyzer(Collector.LANG_JAPANESE, new SentimentAnalyzer(new File(Config.getProperty("LIWC_JAPANESE"))));
 			
-			String dataDir = Config.getProperty("TWITTER_SOURCE_DATA_DIR");
-			String indexDir = Config.getProperty("TWITTER_INDEX_DIR");
-			
+			// set text analyzer
+			TextAnalyzer textAnalyzer = new TextAnalyzer();
+			textAnalyzer.putMorphemeAnalyzer(Locale.KOREAN, new KoreanMorphemeAnalyzer());
+			textAnalyzer.putMorphemeAnalyzer(Locale.JAPANESE, new JapaneseMorphemeAnalyzer());
+			textAnalyzer.putSemanticAnalyzer(Locale.KOREAN, new KoreanSemanticAnalyzer());
+			textAnalyzer.putSemanticAnalyzer(Locale.JAPANESE, new JapaneseSemanticAnalyzer());
+			textAnalyzer.putSentimentAnalyzer(Locale.KOREAN, new SentimentAnalyzer(new File(Config.getProperty("LIWC_KOREAN"))));
+			textAnalyzer.putSentimentAnalyzer(Locale.JAPANESE, new SentimentAnalyzer(new File(Config.getProperty("LIWC_JAPANESE"))));
+			// set document generator
+			SourceDocumentGenerator docGenerator = new SourceDocumentGenerator();
+			docGenerator.setTextAnalyzer(textAnalyzer);
+			collector.setSourceDocumentGenerator(docGenerator);
+
 			CollectObjectReader colObjectReader = new CollectObjectReader(new File(Config.getProperty("COLLECT_OBJECTS")));
 			List<CollectObject> colObjects = colObjectReader.getCollectObject(TwitterDataCollector.TARGET_SITE_NAME);
-
+			
 			for (CollectObject colObject : colObjects) {
-				String objectId = colObject.getObject();
+				String objectId = colObject.getObjectId();
 				List<String> keywords = colObject.getSearchKeywords();
 				int maxPage = colObject.getMaxPage();
 				int historyBufferMaxRound = colObject.getHistoryBufferMaxRound();
 				Map<String, String> featureClassifiers = colObject.getFeatureClassifiers();
+				Map<String, List<String>> attributes = colObject.getExtendedAttributes();
+				
+				// set collect history buffer
+				File historyBufferFile = Collector.getCollectHistoryFile(Config.getProperty("TWITTER_COLLECT_DATA_DIR"), objectId);
+				CollectHistoryBuffer historyBuffer = new CollectHistoryBuffer(historyBufferFile, historyBufferMaxRound);
+				collector.setCollectHistoryBuffer(historyBuffer);
+				
+				// set document writer
+				File sourceDocFile = Collector.getSourceDocFile(Config.getProperty("TWITTER_COLLECT_DATA_DIR"), objectId, new Date());
+				SourceDocumentFileWriter docWriter = new SourceDocumentFileWriter(sourceDocFile);
+				collector.setSourceDocumentWriter(docWriter);
+				
+				// set feature classifiers
+				for (Map.Entry<String, String> entry : featureClassifiers.entrySet()) {
+					String language = entry.getKey();
+					String featureFile = entry.getValue();	
+					
+					textAnalyzer.putFeatureClassifier(objectId, new Locale(language), new FeatureClassifier(new File(featureFile)));
+				}
 				
 				// query map
 				Map<String, Integer> queryMap = new HashMap<String, Integer>();
 				for (String keyword : keywords) {
 					queryMap.put(keyword, maxPage);
-				}
-				
-				// feature classifiers
-				for (Map.Entry<String, String> entry : featureClassifiers.entrySet()) {
-					String language = entry.getKey();
-					String featureFile = entry.getValue();	
-					collector.putFeatureClassifier(objectId, language, new FeatureClassifier(new File(featureFile)));
 				}
 				
 				Date sinceDate = DateUtil.addDay(new Date(), -2);
@@ -88,7 +109,7 @@ public class TwitterDataCollectorJob implements Job {
 				List<twitter4j.Tweet> tweets = collector.searchTweets(queryMap, sinceDate, null);
 				
 				try {
-					collector.writeOutput(dataDir, indexDir, objectId, tweets, startTime, historyBufferMaxRound);
+					collector.writeOutput(objectId, tweets);
 				} catch (Exception e) {
 					e.printStackTrace();
 					logger.error(e.getMessage(), e);

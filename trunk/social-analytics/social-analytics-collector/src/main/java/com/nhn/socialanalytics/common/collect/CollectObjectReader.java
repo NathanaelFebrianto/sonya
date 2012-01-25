@@ -54,23 +54,26 @@ public class CollectObjectReader {
 					colObject.setSite(column);
 				}
 				else if (i == 1) {
-					colObject.setObject(column);
+					colObject.setObjectId(column);
 				}
 				else if (i == 2) {
+					colObject.setObjectName(column);
+				}
+				else if (i == 3) {
 					String[] keywords = column.split(",");
 					colObject.setSearchKeywords(Arrays.asList(keywords));
 				}
-				else if (i == 3) {
+				else if (i == 4) {
 					colObject.setMaxPage(Integer.valueOf(column));
 				}
-				else if (i == 4) {
+				else if (i == 5) {
 					colObject.setHistoryBufferMaxRound(Integer.valueOf(column));
 				}
-				else if (i == 5) {
+				else if (i == 6) {
 					String[] languages = column.split(",");
 					colObject.setLanguages(Arrays.asList(languages));
 				}
-				else if (i == 6) {
+				else if (i == 7) {
 					String[] featureClassifiers = column.split(",");
 					for (int j = 0; j < featureClassifiers.length; j++) {
 						String[] featureClassifier = featureClassifiers[j].split(":", 2);
@@ -79,7 +82,7 @@ public class CollectObjectReader {
 						colObject.addFeatureClassifier(lang, classifier);
 					}
 				}
-				else if (i == 7) {
+				else if (i == 8) {
 					String[] attributes = column.split(",");
 					for (int j = 0; j < attributes.length; j++) {
 						String[] attributePairs = attributes[j].split(":");

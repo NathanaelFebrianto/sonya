@@ -1,20 +1,15 @@
 package com.nhn.socialanalytics.twitter.collect;
 
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
-
-import org.apache.lucene.document.Document;
 
 import twitter4j.Query;
 import twitter4j.QueryResult;
@@ -27,20 +22,16 @@ import com.nhn.socialanalytics.common.JobLogger;
 import com.nhn.socialanalytics.common.collect.CollectHistoryBuffer;
 import com.nhn.socialanalytics.common.collect.Collector;
 import com.nhn.socialanalytics.common.util.DateUtil;
+import com.nhn.socialanalytics.nlp.analysis.TextAnalyzer;
 import com.nhn.socialanalytics.nlp.feature.FeatureClassifier;
 import com.nhn.socialanalytics.nlp.lang.ja.JapaneseMorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ja.JapaneseSemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanMorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanSemanticAnalyzer;
-import com.nhn.socialanalytics.nlp.morpheme.MorphemeAnalyzer;
-import com.nhn.socialanalytics.nlp.semantic.SemanticAnalyzer;
-import com.nhn.socialanalytics.nlp.semantic.SemanticClause;
-import com.nhn.socialanalytics.nlp.semantic.SemanticSentence;
 import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
-import com.nhn.socialanalytics.opinion.common.FieldConstants;
-import com.nhn.socialanalytics.opinion.common.OpinionDocument;
-import com.nhn.socialanalytics.opinion.dao.lucene.DocIndexSearcher;
-import com.nhn.socialanalytics.opinion.dao.lucene.DocIndexWriter;
+import com.nhn.socialanalytics.opinion.dao.SourceDocumentGenerator;
+import com.nhn.socialanalytics.opinion.dao.file.SourceDocumentFileWriter;
+import com.nhn.socialanalytics.opinion.model.SourceDocument;
 import com.nhn.socialanalytics.twitter.parse.TwitterParser;
 
 public class TwitterDataCollector extends Collector {
@@ -109,66 +100,12 @@ public class TwitterDataCollector extends Collector {
 		return tweets;
 	}
 	
-	public void writeOutput(String dataDir, String indexDir, String objectId, 
-			List<twitter4j.Tweet> tweets, Date collectDate, int historyBufferMaxRound) throws IOException, Exception {
+	public void writeOutput(String objectId, List<twitter4j.Tweet> tweets) throws Exception {
 		
-		String currentDatetime = DateUtil.convertDateToString("yyyyMMddHHmmss", new Date());	
-		File docIndexDir = super.getDocIndexDir(indexDir, collectDate);
-		File dataFile = super.getDataFile(dataDir, objectId, collectDate);
+		String currentDate = DateUtil.convertDateToString("yyyyMMddHHmmss", new Date());	
 
 		// collect history buffer
 		Set<String> idSet = new HashSet<String>();
-		CollectHistoryBuffer history = new CollectHistoryBuffer(super.getCollectHistoryFile(dataDir, objectId), historyBufferMaxRound);
-				
-		// text analyzer
-		MorphemeAnalyzer morphemeKorean = super.getMorphemeAnalyzer(Collector.LANG_KOREAN);
-		MorphemeAnalyzer morphemeJapanese = super.getMorphemeAnalyzer(Collector.LANG_JAPANESE);
-		SemanticAnalyzer semanticKorean = super.getSemanticAnalyzer(Collector.LANG_KOREAN);
-		SemanticAnalyzer semanticJapanese = super.getSemanticAnalyzer(Collector.LANG_JAPANESE);
-		SentimentAnalyzer sentimentKorean = super.getSentimentAnalyzer(Collector.LANG_KOREAN);
-		SentimentAnalyzer sentimentJapanese = super.getSentimentAnalyzer(Collector.LANG_JAPANESE);
-		
-		// feature classifier
-		FeatureClassifier featureKorean = super.getFeatureClassifier(objectId, Collector.LANG_KOREAN);
-		FeatureClassifier featureJapanese = super.getFeatureClassifier(objectId, Collector.LANG_JAPANESE);
-		
-		// indexer
-		DocIndexWriter indexWriter = new DocIndexWriter(docIndexDir);		
-		DocIndexSearcher indexSearcher = new DocIndexSearcher(super.getDocumentIndexDirsToSearch(indexDir, collectDate));
-		
-		// output data file
-		boolean existDataFile = false;
-		
-		if (dataFile.exists())
-			existDataFile = true;
-		
-		BufferedWriter brData = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(dataFile.getPath(), true), "UTF-8"));
-		
-		if (!existDataFile) {
-			brData.write("site" + DELIMITER +
-					"object_id" + DELIMITER +
-					"language" + DELIMITER +	
-					"collect_date" + DELIMITER +
-					"tweet_id" + DELIMITER +	
-					"create_date" + DELIMITER +	
-					"from_user" + DELIMITER +		
-					"to_user" + DELIMITER +	
-					"profile_image_url" + DELIMITER +	
-					"text" + DELIMITER +		
-					"text1" + DELIMITER +		
-					"text2" + DELIMITER +		
-					"feature" + DELIMITER +
-					"main_feature" + DELIMITER +
-					"clause" + DELIMITER +		
-					"subject" + DELIMITER +		
-					"predicate" + DELIMITER +		
-					"attribute" + DELIMITER +	
-					"modifier" + DELIMITER +	
-					"polarity" + DELIMITER +		
-					"polarity_strength"
-					);
-			brData.newLine();			
-		}
 		
 		// post
 		for (twitter4j.Tweet tweet : tweets) {
@@ -179,178 +116,46 @@ public class TwitterDataCollector extends Collector {
 			String fromUser = tweet.getFromUser();			
 			String toUser = tweet.getToUser();	
 			String profileImageUrl = tweet.getProfileImageUrl();
+			String text = TwitterParser.extractContent(tweet.getText());
 			
-			/////////////////////////////////
 			// add new collected id into set
 			idSet.add(tweetId);
-			/////////////////////////////////		
 						
 			// if no duplication, write collected data
-			if (!history.checkDuplicate(tweetId)) {
-				String text = TwitterParser.extractContent(tweet.getText());
-				String textEmotiTagged = TwitterParser.convertEmoticonToTag(text);
+			if (!historyBuffer.checkDuplicate(tweetId)) {
+				Locale locale = new Locale(langCode);
 				
-				String language = "";
-				String text1 = "";
-				String text2 = "";
-				String feature = "";
-				String mainFeature = "";
-				SemanticSentence semanticSentence = null;
-				double polarity = 0.0;
-				double polarityStrength = 0.0;
+				// generate document
+				List<String> texts = new ArrayList<String>();
+				texts.add(text);
+				SourceDocument doc = docGenerator.generate(locale, objectId, texts);
 				
-				if (langCode.equalsIgnoreCase("ko")) {
-					language = FieldConstants.LANG_KOREAN;
-					// morpheme analysis
-					text1 = morphemeKorean.extractTerms(textEmotiTagged);
-					text2 = morphemeKorean.extractCoreTerms(textEmotiTagged);		
-					
-					// semantic analysis
-					semanticSentence = semanticKorean.analyze(textEmotiTagged);
-					
-					// sentiment analysis
-					semanticSentence = sentimentKorean.analyzePolarity(semanticSentence);
-					polarity = semanticSentence.getPolarity();
-					polarityStrength = semanticSentence.getPolarityStrength();
-					
-					// feature classification
-					String standardLabels = semanticSentence.extractStandardLabel(" ", " ", true, false, false);
-					Map<String, Double> featureCounts = featureKorean.getFeatureCounts(standardLabels, true);
-					feature = featureKorean.getFeatureLabel(featureCounts);
-					mainFeature = featureKorean.getMainFeatureLabel(featureCounts);
-				}
-				else if (langCode.equalsIgnoreCase("ja")) {
-					language = FieldConstants.LANG_JAPANESE;
-					// morpheme analysis
-					text1 = morphemeJapanese.extractTerms(textEmotiTagged);
-					text2 = morphemeJapanese.extractCoreTerms(textEmotiTagged);		
-					
-					// semantic analysis
-					semanticSentence = semanticJapanese.analyze(textEmotiTagged);
-					
-					// sentiment analysis
-					semanticSentence = sentimentJapanese.analyzePolarity(semanticSentence);
-					polarity = semanticSentence.getPolarity();
-					polarityStrength = semanticSentence.getPolarityStrength();
-					
-					// feature classification
-					String standardLabels = semanticSentence.extractStandardLabel(" ", " ", true, false, false);
-					Map<String, Double> featureCounts = featureJapanese.getFeatureCounts(standardLabels, true);
-					feature = featureJapanese.getFeatureLabel(featureCounts);
-					mainFeature = featureJapanese.getMainFeatureLabel(featureCounts);
-				}
-				else {
-					// morpheme analysis
-					text1 = morphemeKorean.extractTerms(textEmotiTagged);
-					text2 = morphemeKorean.extractCoreTerms(textEmotiTagged);		
-					
-					// semantic analysis
-					semanticSentence = semanticKorean.analyze(textEmotiTagged);
-					
-					// sentiment analysis
-					semanticSentence = sentimentKorean.analyzePolarity(semanticSentence);
-					polarity = semanticSentence.getPolarity();
-					polarityStrength = semanticSentence.getPolarityStrength();
-					
-					// feature classification
-					String standardLabels = semanticSentence.extractStandardLabel(" ", " ", true, false, false);
-					Map<String, Double> featureCounts = featureKorean.getFeatureCounts(standardLabels, true);
-					feature = featureKorean.getFeatureLabel(featureCounts);
-					mainFeature = featureKorean.getMainFeatureLabel(featureCounts);			
-				}				
+				// set document
+				doc.setSite(TARGET_SITE_NAME);
+				doc.setLanguage(locale.getLanguage());
+				doc.setCollectDate(currentDate);
+				doc.setDocId(tweetId);
+				doc.setCreateDate(createDate);
+				doc.setAuthorId(fromUserId);
+				doc.setAuthorName(fromUser);
+				doc.setSpam(false);
+				doc.setText(text);
 				
-				String strClause = semanticSentence.extractStandardLabel(",", "-", true, false, false);
-				String subject = semanticSentence.extractStandardSubjectLabel();
-				String predicate = semanticSentence.extractStandardPredicateLabel();
-				String attribute = semanticSentence.extractStandardAttributesLabel();
-				String modifier = semanticSentence.extractStandardModifiersLabel();
+				// set custom fields
+				doc.addCustomField("to_user", toUser);
+				doc.addCustomField("profile_image_url", profileImageUrl);
+				doc.addCustomField("tweet_type", "");
 				
-				// write new collected data into source file
-				brData.write(
-						TARGET_SITE_NAME + DELIMITER +
-						objectId + DELIMITER +
-						langCode + DELIMITER +
-						currentDatetime + DELIMITER +
-						tweetId + DELIMITER +
-						createDate + DELIMITER + 
-						fromUser + DELIMITER +
-						toUser + DELIMITER +
-						profileImageUrl + DELIMITER +
-						text + DELIMITER +
-						text1 + DELIMITER +
-						text2 + DELIMITER +
-						feature + DELIMITER +
-						mainFeature + DELIMITER +
-						strClause + DELIMITER +
-						subject + DELIMITER +
-						predicate + DELIMITER +
-						attribute + DELIMITER +
-						modifier + DELIMITER +
-						polarity + DELIMITER +
-						polarityStrength		
-						);
-				brData.newLine();
-				
-				////////////////////////////////////////
-				// write new collected data into index file
-				////////////////////////////////////////
-				Set<Document> existDocs = indexSearcher.searchDocuments(FieldConstants.DOC_ID, tweetId);
-				
-				if (existDocs.size() > 0) {
-					for (Iterator<Document> it = existDocs.iterator(); it.hasNext();) {
-						Document existDoc = (Document) it.next();
-						String objects = existDoc.get(FieldConstants.OBJECT);
-						objects = objects + " " + objectId;
-						
-						indexWriter.update(FieldConstants.OBJECT, objects, existDoc);
-				     }
-				}
-				else {
-					for (SemanticClause clause : semanticSentence) {
-						OpinionDocument doc = new OpinionDocument();
-						doc.setSite(TARGET_SITE_NAME);
-						doc.setObject(objectId);
-						doc.setLanguage(language);
-						doc.setCollectDate(currentDatetime);
-						doc.setDocId(tweetId);
-						doc.setDate(createDate);
-						doc.setAuthorId(fromUserId);
-						doc.setAuthorName(fromUser);
-						doc.setDocFeature(feature);
-						doc.setDocMainFeature(mainFeature);
-						doc.setSubject(clause.getSubject());
-						doc.setPredicate(clause.getPredicate());
-						doc.setAttribute(clause.makeAttributesLabel());
-						doc.setModifier(modifier);
-						doc.setText(text);
-						doc.setDocPolarity(polarity);
-						doc.setDocPolarityStrength(polarityStrength);
-						doc.setClausePolarity(clause.getPolarity());
-						doc.setClausePolarityStrength(clause.getPolarityStrength());
-
-						// feature classification for semantic clause
-						doc = super.setClauseFeatureToDocument(objectId, language, clause, doc);
-						
-						indexWriter.write(doc);
-					}						
-				}			
+				// write document
+				docWriter.write(doc);
 			}		
 		}
 		
-		brData.close();
-		indexWriter.close();
-		history.writeCollectHistory(idSet);
+		docWriter.close();
+		historyBuffer.writeCollectHistory(idSet);
 	}
 	
 	public static void main(String[] args) {
-		TwitterDataCollector collector = new TwitterDataCollector();
-		collector.putMorphemeAnalyzer(Collector.LANG_KOREAN, new KoreanMorphemeAnalyzer());
-		collector.putMorphemeAnalyzer(Collector.LANG_JAPANESE, new JapaneseMorphemeAnalyzer());
-		collector.putSemanticAnalyzer(Collector.LANG_KOREAN, new KoreanSemanticAnalyzer());
-		collector.putSemanticAnalyzer(Collector.LANG_JAPANESE, new JapaneseSemanticAnalyzer());
-		collector.putSentimentAnalyzer(Collector.LANG_KOREAN, new SentimentAnalyzer(new File(Config.getProperty("LIWC_KOREAN"))));
-		collector.putSentimentAnalyzer(Collector.LANG_JAPANESE, new SentimentAnalyzer(new File(Config.getProperty("LIWC_JAPANESE"))));
-		
 		//String objectId = "fta";
 		//String query = "한미FTA OR ISD";
 		
@@ -363,22 +168,43 @@ public class TwitterDataCollector extends Collector {
 		//String objectId = "naverapp";
 		//String query = "네이버앱";
 		
-		//List<twitter4j.Tweet> tweets = collector.searchTweets(objectId, query, "2011-02-01", null, 10);
+		int maxPage = 30;
 		
 		String objectId = "naverline";
 		Map<String, Integer> queryMap = new HashMap<String, Integer>();
-		queryMap.put("네이버라인", 30);
-		queryMap.put("naver ライン", 30);
-		
-		collector.putFeatureClassifier(objectId, Collector.LANG_KOREAN, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_KOREAN"))));
-		collector.putFeatureClassifier(objectId, Collector.LANG_JAPANESE, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_JAPANESE"))));
+		queryMap.put("네이버라인", maxPage);
+		queryMap.put("naver ライン", maxPage);
 
-		
-		Date since = DateUtil.addDay(new Date(), -30);
-		List<twitter4j.Tweet> tweets = collector.searchTweets(queryMap, since, null);
-				
 		try {
-			collector.writeOutput("./bin/data/twitter/collect/", "./bin/data/twitter/index/", objectId, tweets, new Date(), 1);
+			TwitterDataCollector collector = new TwitterDataCollector();
+			
+			TextAnalyzer textAnalyzer = new TextAnalyzer();
+			textAnalyzer.putMorphemeAnalyzer(Locale.KOREAN, new KoreanMorphemeAnalyzer());
+			textAnalyzer.putMorphemeAnalyzer(Locale.JAPANESE, new JapaneseMorphemeAnalyzer());
+			textAnalyzer.putSemanticAnalyzer(Locale.KOREAN, new KoreanSemanticAnalyzer());
+			textAnalyzer.putSemanticAnalyzer(Locale.JAPANESE, new JapaneseSemanticAnalyzer());
+			textAnalyzer.putSentimentAnalyzer(Locale.KOREAN, new SentimentAnalyzer(new File(Config.getProperty("LIWC_KOREAN"))));
+			textAnalyzer.putSentimentAnalyzer(Locale.JAPANESE, new SentimentAnalyzer(new File(Config.getProperty("LIWC_JAPANESE"))));
+			textAnalyzer.putFeatureClassifier(objectId, Locale.KOREAN, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_KOREAN"))));
+			textAnalyzer.putFeatureClassifier(objectId, Locale.JAPANESE, new FeatureClassifier(new File(Config.getProperty("DEFAULT_FEATURE_JAPANESE"))));
+			
+			SourceDocumentGenerator docGenerator = new SourceDocumentGenerator();
+			docGenerator.setTextAnalyzer(textAnalyzer);
+			
+			File sourceDocFile = Collector.getSourceDocFile(Config.getProperty("TWITTER_COLLECT_DATA_DIR"), objectId, new Date());
+			SourceDocumentFileWriter docWriter = new SourceDocumentFileWriter(sourceDocFile);
+			
+			collector.setSourceDocumentGenerator(docGenerator);
+			collector.setSourceDocumentWriter(docWriter);
+			
+			File historyBufferFile = Collector.getCollectHistoryFile(Config.getProperty("TWITTER_COLLECT_DATA_DIR"), objectId);
+			CollectHistoryBuffer historyBuffer = new CollectHistoryBuffer(historyBufferFile, 1);
+			collector.setCollectHistoryBuffer(historyBuffer);
+
+			Date since = DateUtil.addDay(new Date(), -30);
+			List<twitter4j.Tweet> tweets = collector.searchTweets(queryMap, since, null);
+			
+			collector.writeOutput(objectId, tweets);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

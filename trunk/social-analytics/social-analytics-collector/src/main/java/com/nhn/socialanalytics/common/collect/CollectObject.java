@@ -10,7 +10,8 @@ import java.util.Map;
 public class CollectObject implements Serializable {
 	
 	private String site;
-	private String object;
+	private String objectId;
+	private String objectName;
 	private List<String> searchKeywords = new ArrayList<String>();
 	private int maxPage;
 	private int historyBufferMaxRound;
@@ -26,12 +27,20 @@ public class CollectObject implements Serializable {
 		this.site = site;
 	}
 	
-	public String getObject() {
-		return object;
+	public String getObjectId() {
+		return objectId;
 	}
 	
-	public void setObject(String object) {
-		this.object = object;
+	public void setObjectId(String objectId) {
+		this.objectId = objectId;
+	}
+	
+	public String getObjectName() {
+		return objectName;
+	}
+	
+	public void setObjectName(String objectName) {
+		this.objectName = objectName;
 	}
 	
 	public List<String> getSearchKeywords() {
@@ -109,7 +118,8 @@ public class CollectObject implements Serializable {
 	public String toString() {
 		StringBuffer sb = new StringBuffer()
 			.append("SITE = ").append(site).append("\n")
-			.append("OBJECT_ID = ").append(object).append("\n")
+			.append("OBJECT_ID = ").append(objectId).append("\n")
+			.append("OBJECT_NAME = ").append(objectName).append("\n")
 			.append("SEARCH_KEYWORDS = ").append(searchKeywords).append("\n")
 			.append("MAX_PAGE = ").append(maxPage).append("\n")
 			.append("HISTORY_BUFFER_MAX_ROUND = ").append(historyBufferMaxRound).append("\n")
