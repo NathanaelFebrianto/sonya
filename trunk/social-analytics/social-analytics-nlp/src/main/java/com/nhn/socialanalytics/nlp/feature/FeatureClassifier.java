@@ -68,27 +68,6 @@ public class FeatureClassifier {
 		return features.toString();
 	}
 	
-	public String getFeatureLabel(Map<String, Double> featureCounts) {
-		StringBuffer features = new StringBuffer();
-		
-		for (String feature : featureCounts.keySet()) { 
-			features.append(feature).append(" ");
-		}
-		
-		return features.toString();
-	}
-	
-	public String getFeatureCountLabel(Map<String, Double> featureCounts) {
-		StringBuffer features = new StringBuffer();
-		
-		for (String feature : featureCounts.keySet()) { 
-			double count = (Double) featureCounts.get(feature);
-			features.append(feature).append("(").append(count).append(")").append(" ");
-		}
-		
-		return features.toString();
-	}
-	
 	public String getMainFeature(String text, boolean absoluteCounts) {
 		Map<String, Double> featureCounts = this.getFeatureCounts(text, absoluteCounts);
 		
@@ -101,7 +80,7 @@ public class FeatureClassifier {
 		return "ETC";
 	}
 	
-	public String getMainFeatureLabel(Map<String, Double> featureCounts) {
+	public String getMainFeature(Map<String, Double> featureCounts) {
 
 		int i = 0;
 		for (String feature : featureCounts.keySet()) { 
