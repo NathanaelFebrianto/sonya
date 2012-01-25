@@ -7,9 +7,6 @@ import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.nhn.socialanalytics.common.util.StringUtil;
-import com.nhn.socialanalytics.me2day.parse.Extractor;
-
 public class Me2dayParser {
 	
 	public static String extractContent(String body, String type) {		
@@ -39,10 +36,6 @@ public class Me2dayParser {
         }
          
         return body;
-	}
-	
-	public static String convertEmoticonToTag(String text) {
-		return StringUtil.convertEmoticonToTag(text);
 	}
 	
 	/**

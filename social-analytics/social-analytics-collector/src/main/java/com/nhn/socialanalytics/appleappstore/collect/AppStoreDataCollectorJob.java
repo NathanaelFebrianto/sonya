@@ -4,6 +4,7 @@ import java.io.File;
 import java.util.Date;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 
@@ -15,15 +16,19 @@ import org.quartz.JobExecutionException;
 import com.nhn.socialanalytics.appleappstore.model.Review;
 import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.JobLogger;
+import com.nhn.socialanalytics.common.collect.CollectHistoryBuffer;
 import com.nhn.socialanalytics.common.collect.CollectObject;
 import com.nhn.socialanalytics.common.collect.CollectObjectReader;
 import com.nhn.socialanalytics.common.collect.Collector;
+import com.nhn.socialanalytics.nlp.analysis.TextAnalyzer;
 import com.nhn.socialanalytics.nlp.feature.FeatureClassifier;
 import com.nhn.socialanalytics.nlp.lang.ja.JapaneseMorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ja.JapaneseSemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanMorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanSemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.sentiment.SentimentAnalyzer;
+import com.nhn.socialanalytics.opinion.dao.SourceDocumentGenerator;
+import com.nhn.socialanalytics.opinion.dao.file.SourceDocumentFileWriter;
 
 public class AppStoreDataCollectorJob implements Job {
 	// logger
@@ -50,22 +55,28 @@ public class AppStoreDataCollectorJob implements Job {
 			
 			/////////////////////////////
 			AppStoreDataCollector collector = new AppStoreDataCollector();
+			
+			// set spam filter
 			collector.setSpamFilter(new File(Config.getProperty("COLLECT_SPAM_FILTER_APPSTORE")));
-			collector.putMorphemeAnalyzer(Collector.LANG_KOREAN, new KoreanMorphemeAnalyzer());
-			collector.putMorphemeAnalyzer(Collector.LANG_JAPANESE, new JapaneseMorphemeAnalyzer());
-			collector.putSemanticAnalyzer(Collector.LANG_KOREAN, new KoreanSemanticAnalyzer());
-			collector.putSemanticAnalyzer(Collector.LANG_JAPANESE, new JapaneseSemanticAnalyzer());
-			collector.putSentimentAnalyzer(Collector.LANG_KOREAN, new SentimentAnalyzer(new File(Config.getProperty("LIWC_KOREAN"))));
-			collector.putSentimentAnalyzer(Collector.LANG_JAPANESE, new SentimentAnalyzer(new File(Config.getProperty("LIWC_JAPANESE"))));
-			
-			String docDir = Config.getProperty("APPSTORE_DATA_DIR");
-			String indexDir = Config.getProperty("APPSTORE_INDEX_DIR");
-			
+
+			// set text analyzer
+			TextAnalyzer textAnalyzer = new TextAnalyzer();
+			textAnalyzer.putMorphemeAnalyzer(Locale.KOREAN, new KoreanMorphemeAnalyzer());
+			textAnalyzer.putMorphemeAnalyzer(Locale.JAPANESE, new JapaneseMorphemeAnalyzer());
+			textAnalyzer.putSemanticAnalyzer(Locale.KOREAN, new KoreanSemanticAnalyzer());
+			textAnalyzer.putSemanticAnalyzer(Locale.JAPANESE, new JapaneseSemanticAnalyzer());
+			textAnalyzer.putSentimentAnalyzer(Locale.KOREAN, new SentimentAnalyzer(new File(Config.getProperty("LIWC_KOREAN"))));
+			textAnalyzer.putSentimentAnalyzer(Locale.JAPANESE, new SentimentAnalyzer(new File(Config.getProperty("LIWC_JAPANESE"))));
+			// set document generator
+			SourceDocumentGenerator docGenerator = new SourceDocumentGenerator();
+			docGenerator.setTextAnalyzer(textAnalyzer);
+			collector.setSourceDocumentGenerator(docGenerator);
+
 			CollectObjectReader colObjectReader = new CollectObjectReader(new File(Config.getProperty("COLLECT_OBJECTS")));
 			List<CollectObject> colObjects = colObjectReader.getCollectObject(AppStoreDataCollector.TARGET_SITE_NAME);
 			
 			for (CollectObject colObject : colObjects) {
-				String objectId = colObject.getObject();
+				String objectId = colObject.getObjectId();
 				List<String> keywords = colObject.getSearchKeywords();
 				String appId = keywords.get(0);
 				int maxPage = colObject.getMaxPage();
@@ -73,7 +84,25 @@ public class AppStoreDataCollectorJob implements Job {
 				Map<String, String> featureClassifiers = colObject.getFeatureClassifiers();
 				Map<String, List<String>> attributes = colObject.getExtendedAttributes();
 				
-				// app stores
+				// set collect history buffer
+				File historyBufferFile = Collector.getCollectHistoryFile(Config.getProperty("APPSTORE_COLLECT_DATA_DIR"), objectId);
+				CollectHistoryBuffer historyBuffer = new CollectHistoryBuffer(historyBufferFile, historyBufferMaxRound);
+				collector.setCollectHistoryBuffer(historyBuffer);
+				
+				// set document writer
+				File sourceDocFile = Collector.getSourceDocFile(Config.getProperty("APPSTORE_COLLECT_DATA_DIR"), objectId, new Date());
+				SourceDocumentFileWriter docWriter = new SourceDocumentFileWriter(sourceDocFile);
+				collector.setSourceDocumentWriter(docWriter);
+				
+				// set feature classifiers
+				for (Map.Entry<String, String> entry : featureClassifiers.entrySet()) {
+					String language = entry.getKey();
+					String featureFile = entry.getValue();	
+					
+					textAnalyzer.putFeatureClassifier(objectId, new Locale(language), new FeatureClassifier(new File(featureFile)));
+				}
+				
+				// get app stores
 				Set<String> appStores = new HashSet<String>();
 				for (Map.Entry<String, List<String>> entry : attributes.entrySet()) {
 					if (entry.getKey().equalsIgnoreCase("APPSTORE")) {
@@ -84,17 +113,13 @@ public class AppStoreDataCollectorJob implements Job {
 					}
 				}
 				
-				// feature classifiers
-				for (Map.Entry<String, String> entry : featureClassifiers.entrySet()) {
-					String language = entry.getKey();
-					String featureFile = entry.getValue();	
-					collector.putFeatureClassifier(objectId, language, new FeatureClassifier(new File(featureFile)));
-				}
-				
+				// crawl data
 				List<Review> reviews = collector.getReviews(appStores, appId, maxPage);
 				
+				// write to file
 				try {
-					collector.writeOutput(docDir, indexDir, objectId, reviews, startTime, historyBufferMaxRound);
+					collector.writeOutput(objectId, reviews);
+					
 				} catch (Exception e) {
 					e.printStackTrace();
 					logger.error(e.getMessage(), e);

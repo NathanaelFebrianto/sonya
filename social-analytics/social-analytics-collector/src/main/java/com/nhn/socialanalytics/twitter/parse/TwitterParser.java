@@ -4,8 +4,6 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.nhn.socialanalytics.common.util.StringUtil;
-
 public class TwitterParser {
 
 	private static String AT_SIGNS_CHARS = "@\uFF20";
@@ -121,10 +119,6 @@ public class TwitterParser {
         out = out.replaceAll("\t", " ");
        
         return out;
-	}
-	
-	public static String convertEmoticonToTag(String text) {
-		return StringUtil.convertEmoticonToTag(text);
 	}
 
 }
