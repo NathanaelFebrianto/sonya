@@ -96,7 +96,7 @@ public class SourceDocumentGenerator {
 			featureSubjectAttribute += semanticSentence.extractStandardSubjectAttributeLabel(" ", "_", true, false);
 			
 			// competitor
-			competitor += semanticSentence.extractCompetitorsLabel(" ", true);
+			competitor += semanticSentence.extractCompetitorsLabel(" ");
 			// competitor_subject
 			competitorSubject += semanticSentence.extractStandardSubjectLabel(" ", "_", false, true);		
 			// competitor_predicate
