@@ -442,6 +442,6 @@ public class LIWCDictionary {
 	};
 	
 	public static void main(String[] args) {
-		//LIWCDictionary dictionary = new LIWCDictionary(new File("./liwc/LIWC_ko.txt"));
+		//LIWCDictionary dictionary = new LIWCDictionary(new File("./dic/liwc/LIWC_ko.txt"));
 	}
 }

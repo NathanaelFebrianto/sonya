@@ -1,5 +1,6 @@
 package com.nhn.socialanalytics.nlp.lang.ko;
 
+import java.util.HashSet;
 import java.util.List;
 
 import com.nhn.socialanalytics.nlp.dictionary.SynonymFilter;
@@ -127,8 +128,29 @@ public class KoreanSemanticAnalyzer implements SemanticAnalyzer {
 					if (tags[0] == '1' && tags[1] == '1') {							
 						if (prevDepth == prevVerbDepth) {
 							clause = prevClause.clone();
+							
+							// clear previous attributes
+							clause.setAttributes(new HashSet<String>());
+							clause.setStandardAttributes(new HashSet<String>());
+							
 							clause.setSubject(term);
 							clause.setStandardSubject(standardTerm);
+							
+							//////////////////////////////////////////
+							// added by Younggue 2012-01-26
+							// "카카오톡은(JX or JKS) 품질이(JX or JKS) 별로 안좋다(V)"인 경우 
+							// -> "품질-안좋다", "카카오톡-안좋다"로 분해 되는데, "품질-안좋다"에 속성으로 "카카오톡"을 추가하고
+							// "카카오톡-안좋다"에 속성으로 "품질"이 추가되도록 함.
+							if (!prevClause.getAttributes().contains(term) && !prevClause.getSubject().equals(term)) {
+								prevClause.addAttribute(term);
+								prevClause.addStandardAttribute(standardTerm);
+							}
+							if (!clause.getSubject().equals(prevClause.getSubject())) {
+								clause.addAttribute(prevClause.getSubject());
+								clause.addStandardAttribute(prevClause.getStandardSubject());
+							}
+							//////////////////////////////////////////
+							
 							if (prevClause.getParentClause() != null)
 								prevClause.getParentClause().addChild(clause);
 						}						

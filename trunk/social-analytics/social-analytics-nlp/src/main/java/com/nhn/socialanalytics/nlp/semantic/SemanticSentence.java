@@ -16,7 +16,7 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 	private double polarityStrength;
 	private String mainFeature = "";
 	private Map<String, Double> features = new HashMap<String, Double>();
-	private Map<String, String> competitors = new HashMap<String, String>();
+	private Map<String, Boolean> competitors = new HashMap<String, Boolean>();
 	
 	public SemanticSentence(int id, String sentence) {
 		this.id = id;
@@ -55,10 +55,10 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 	public void setFeatures(Map<String, Double> features) {
 		this.features = features;
 	}
-	public Map<String, String> getCompetitors() {
+	public Map<String, Boolean> getCompetitors() {
 		return competitors;
 	}
-	public void setCompetitors(Map<String, String> competitors) {
+	public void setCompetitors(Map<String, Boolean> competitors) {
 		this.competitors = competitors;
 	}
 	
@@ -256,23 +256,6 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 		
 		return sb.toString().trim();	
 	}
-
-	public String extractSubjectLabel(String delimiter) {
-		StringBuffer sb = new StringBuffer();
-		
-		int i = 0;
-		for (SemanticClause clause : this) {	
-			String label = clause.getSubject();
-			if (label != null && !label.equals("")) {
-				sb.append(label);
-				if (i < this.size() - 1)
-					sb.append(delimiter);
-			}
-			i++;
-		}
-		
-		return sb.toString().trim();		
-	}
 	
 	public String extractStandardSubjectLabel(String clauseDelimiter, String termDelimiter, 
 			boolean includeFeature, boolean includeCompetitor) {
@@ -284,8 +267,8 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 			if (label != null && !label.equals("")) {
 				if (includeCompetitor) {
 					int j = 0;
-					for (Map.Entry<String, String> entry : competitors.entrySet()) {
-						sb.append(entry.getKey()).append(termDelimiter).append(entry.getValue()).append(termDelimiter);
+					for (Map.Entry<String, Boolean> entry : competitors.entrySet()) {
+						sb.append(entry.getKey()).append(termDelimiter);
 						
 						if (includeFeature)
 							sb.append(clause.getMainFeature()).append(termDelimiter);
@@ -313,23 +296,6 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 		return sb.toString().trim();		
 	}
 	
-	public String extractPredicateLabel(String delimiter) {
-		StringBuffer sb = new StringBuffer();
-		
-		int i = 0;
-		for (SemanticClause clause : this) {	
-			String label = clause.getPredicate();
-			if (label != null && !label.equals("")) {
-				sb.append(label);
-				if (i < this.size() - 1)
-					sb.append(delimiter);
-			}	
-			i++;
-		}
-		
-		return sb.toString().trim();		
-	}
-	
 	public String extractStandardPredicateLabel(String clauseDelimiter, String termDelimiter, 
 			boolean includeFeature, boolean includeCompetitor) {
 		StringBuffer sb = new StringBuffer();
@@ -340,8 +306,8 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 			if (label != null && !label.equals("")) {
 				if (includeCompetitor) {
 					int j = 0;
-					for (Map.Entry<String, String> entry : competitors.entrySet()) {
-						sb.append(entry.getKey()).append(termDelimiter).append(entry.getValue()).append(termDelimiter);
+					for (Map.Entry<String, Boolean> entry : competitors.entrySet()) {
+						sb.append(entry.getKey()).append(termDelimiter);
 						
 						if (includeFeature)
 							sb.append(clause.getMainFeature()).append(termDelimiter);
@@ -425,18 +391,15 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 		return sb.toString().trim();
 	}
 	
-	public String extractCompetitorsLabel(String delimiter, boolean includeKey) {
+	public String extractCompetitorsLabel(String delimiter) {
 		StringBuffer sb = new StringBuffer();
 
 		int i = 0;
-		for (Map.Entry<String, String> entry : competitors.entrySet()) {
-			String id = entry.getKey();
-			String competitor = entry.getValue();
+		for (Map.Entry<String, Boolean> entry : competitors.entrySet()) {
+			String competitor = entry.getKey();
+			//boolean isCompetitor = entry.getValue();
 			
-			if (includeKey)
-				sb.append(competitor).append("(").append(id).append(")");
-			else
-				sb.append(competitor);
+			sb.append(competitor);
 			
 			if (i < competitors.size() - 1)
 				sb.append(delimiter);
