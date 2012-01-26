@@ -42,6 +42,8 @@ import org.apache.commons.collections15.functors.ConstantTransformer;
 import org.apache.commons.collections15.functors.MapTransformer;
 import org.apache.commons.collections15.map.LazyMap;
 
+import com.nhn.socialanalytics.nlp.competitor.CompetitorFinder;
+import com.nhn.socialanalytics.nlp.feature.FeatureClassifier;
 import com.nhn.socialanalytics.nlp.lang.ko.Eojeol;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanSemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanSyntacticAnalyzer;
@@ -393,17 +395,46 @@ public class GraphTreeViewer extends JApplet {
 				KoreanSemanticAnalyzer semanticAnalyzer = new KoreanSemanticAnalyzer();
 				SemanticSentence semanticSentence = semanticAnalyzer.analyze(source);
 				
-				SentimentAnalyzer sentimentAnalyzer = new SentimentAnalyzer(new File("./liwc/LIWC_ko.txt"));
+				FeatureClassifier featureClassifier = new FeatureClassifier(new File("./dic/feature/feature_default_ko.txt"));
+				CompetitorFinder competitorFinder = new CompetitorFinder(new File("./dic/competitor/competitor.txt"));
+				competitorFinder.loadDictionary();
+				SentimentAnalyzer sentimentAnalyzer = new SentimentAnalyzer(new File("./dic/liwc/LIWC_ko.txt"));
 				
 				semanticSentence.sort(true);
 				tareaSemanticOutput.append("\n\n=================================\n");
 				tareaSemanticOutput.append("       Semantic Analysis\n");
 				tareaSemanticOutput.append("=================================\n");
 				tareaSemanticOutput.append(source + "\n");	
-				tareaSemanticOutput.append("-> " + semanticSentence.extractStandardLabel(",", "-", true, true, false) + "\n");
+				tareaSemanticOutput.append("-> " + semanticSentence.extractStandardLabel(",", "_", true, true, false) + "\n");
 				tareaSemanticOutput.append("-------------------------------------\n");
 				for (SemanticClause clause : semanticSentence) {
 					clause = sentimentAnalyzer.analyzePolarity(clause);
+					tareaSemanticOutput.append(clause.toString() + "\n");
+					tareaSemanticOutput.append("-------------------------------------\n");
+				}
+				
+				tareaSemanticOutput.append("\n\n=================================\n");
+				tareaSemanticOutput.append("       Feature Classification\n");
+				tareaSemanticOutput.append("=================================\n");
+
+				tareaSemanticOutput.append("-------------------------------------\n");
+				for (SemanticClause clause : semanticSentence) {
+					Map<String, Double> features = featureClassifier.getFeatureCounts(clause.makeStandardLabel(" ", true, false, false), true);
+					String mainFeature = featureClassifier.getMainFeature(features);
+					clause.setFeatures(features);
+					clause.setMainFeature(mainFeature);
+					tareaSemanticOutput.append(clause.toString() + "\n");
+					tareaSemanticOutput.append("-------------------------------------\n");
+				}
+				
+				tareaSemanticOutput.append("\n\n=================================\n");
+				tareaSemanticOutput.append("       Competitor Detection\n");
+				tareaSemanticOutput.append("=================================\n");
+
+				tareaSemanticOutput.append("-------------------------------------\n");
+				for (SemanticClause clause : semanticSentence) {
+					Map<String, Boolean> competitors = competitorFinder.getCompetitors(clause.makeStandardLabel(" ", true, false, false));
+					clause.setCompetitors(competitors);
 					tareaSemanticOutput.append(clause.toString() + "\n");
 					tareaSemanticOutput.append("-------------------------------------\n");
 				}
@@ -438,8 +469,9 @@ public class GraphTreeViewer extends JApplet {
 		
 		try {
 			
-			String source = "이 물건은 배송이 빨라서 정말 좋지만, 품질이 별로 안좋네요.";
+			//String source = "이 물건은 배송이 빨라서 정말 좋지만, 품질이 별로 안좋네요.";
 			//String source = "철수가 음악에 재능이 없으면서도 노래를 아주 열심히 부르는 것을 영희가 안다.";
+			String source = "네이버라인은 속도가 빨라서 정말 좋지만, 카카오톡은 품질이 별로 안좋네요.";
 			
 			KoreanSyntacticAnalyzer analyzer = KoreanSyntacticAnalyzer.getInstance();
 			ParseTree tree = analyzer.analyze(source);

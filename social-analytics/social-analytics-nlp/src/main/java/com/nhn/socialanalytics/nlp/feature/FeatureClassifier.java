@@ -9,7 +9,6 @@ import java.util.Set;
 
 public class FeatureClassifier {
 
-	private File catFile;	
 	private FeatureDictionary dictionary;
 	
 	/** Arrays of features that aren't included in one instance analysis (corpus analysis only). **/
@@ -19,7 +18,6 @@ public class FeatureClassifier {
 	
 	public FeatureClassifier(File catFile) {
 		try {
-			this.catFile = catFile;
 			dictionary = new FeatureDictionary(catFile);
 			
 			// load absolute features
@@ -55,19 +53,6 @@ public class FeatureClassifier {
 		return counts;
 	}
 	
-	public String getFeatures(String text, boolean absoluteCounts) {
-		StringBuffer features = new StringBuffer();
-		
-		Map<String, Double> featureCounts = this.getFeatureCounts(text, absoluteCounts);
-		
-		for (String feature : featureCounts.keySet()) { 
-			double count = (Double) featureCounts.get(feature);
-			features.append(feature).append("(").append(count).append(")").append(" ");
-		}
-		
-		return features.toString();
-	}
-	
 	public String getMainFeature(String text, boolean absoluteCounts) {
 		Map<String, Double> featureCounts = this.getFeatureCounts(text, absoluteCounts);
 		
@@ -93,7 +78,7 @@ public class FeatureClassifier {
 	
 	
 	public static void main(String[] args) {
-		FeatureClassifier classifier = new FeatureClassifier(new File("./feature/feature_default_ko.txt"));
+		FeatureClassifier classifier = new FeatureClassifier(new File("./dic/feature/feature_default_ko.txt"));
 		
 		String text = "기능이 에러가 대박이 삼성이 통화 음성in 무료통화os 오류 좋다 디자인 예쁘다 한국 갤럭시";
 		Map<String, Double> features = classifier.getFeatureCounts(text, true);

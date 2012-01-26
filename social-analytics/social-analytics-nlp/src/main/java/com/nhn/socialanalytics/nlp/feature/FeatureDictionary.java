@@ -91,7 +91,7 @@ public class FeatureDictionary {
 	
 	public Map<String, Double> getCounts(String text, boolean absoluteCounts) {
 
-		Map<String,Double> counts = new LinkedHashMap<String, Double>(map.size());
+		Map<String, Double> counts = new LinkedHashMap<String, Double>(map.size());
 		String[] words = tokenize(text);
 		String[] sentences = splitSentences(text);
 		
@@ -242,7 +242,7 @@ public class FeatureDictionary {
 	*/
 	
 	public static void main(String[] args) {
-		FeatureDictionary featureDic = new FeatureDictionary(new File("./feature/feature_default_ko.txt"));
+		FeatureDictionary featureDic = new FeatureDictionary(new File("./dic/feature/feature_default_ko.txt"));
 		String text = "기능 삼성 에러러 오류i1s 통화 음질이 디자인 예쁘다";
 		//String text = "電話無 無料通話is 通話*";
 		Map<String, Double> map = featureDic.getCounts(text, true);

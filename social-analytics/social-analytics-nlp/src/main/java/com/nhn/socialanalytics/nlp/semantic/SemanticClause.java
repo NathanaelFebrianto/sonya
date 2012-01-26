@@ -22,7 +22,7 @@ public class SemanticClause implements Serializable {
 	private Set<String> standardAttributes = new HashSet<String>();
 	private Set<String> modifiers = new HashSet<String>();
 	private Set<String> standardModifiers = new HashSet<String>();
-	private Map<String, String> competitors = new HashMap<String, String>();
+	private Map<String, Boolean> competitors = new HashMap<String, Boolean>();
 	private double polarity; 
 	private double polarityStrength;
 	private double positiveWordCount;
@@ -101,10 +101,10 @@ public class SemanticClause implements Serializable {
 	public void setStandardModifiers(Set<String> standardModifiers) {
 		this.standardModifiers = standardModifiers;
 	}
-	public Map<String, String> getCompetitors() {
+	public Map<String, Boolean> getCompetitors() {
 		return competitors;
 	}
-	public void setCompetitors(Map<String, String> competitors) {
+	public void setCompetitors(Map<String, Boolean> competitors) {
 		this.competitors = competitors;
 	}
 	public double getPolarity() {
@@ -169,6 +169,7 @@ public class SemanticClause implements Serializable {
 	public SemanticClause clone() {
 		SemanticClause clause = new SemanticClause();
 		clause.setMainFeature(mainFeature);
+		clause.setFeatures(features);
 		clause.setSubject(subject);
 		clause.setStandardSubject(standardSubject);
 		clause.setPredicate(predicate);
@@ -254,18 +255,23 @@ public class SemanticClause implements Serializable {
 		}
 		
 		if (includeCompetitor) {
+			StringBuffer sbCompetitorLabel = new StringBuffer();
 			int i = 0;
-			for (Map.Entry<String, String> entry : competitors.entrySet()) {
-				label = entry.getKey() + termDelimiter + entry.getValue() + termDelimiter + label;
+			for (Map.Entry<String, Boolean> entry : competitors.entrySet()) {
+				String competitorLabel = entry.getKey() + termDelimiter + label;
+				sbCompetitorLabel.append(competitorLabel);
 				if (i < competitors.size() - 1)
-					label += clauseDelimiter;
+					sbCompetitorLabel.append(clauseDelimiter);
 				
 				i++;
 			}
+			
+			label = sbCompetitorLabel.toString();
+			
 			if (competitors.size() == 0)
 				return "";
 		}
-			
+		
 		if (includeChild) {
 			String childLabels = null;
 			for (SemanticClause child : childClauses) {
@@ -305,39 +311,49 @@ public class SemanticClause implements Serializable {
 		}
 		
 		if (includeCompetitor) {
+			StringBuffer sbCompetitorLabel = new StringBuffer();
 			int i = 0;
-			for (Map.Entry<String, String> entry : competitors.entrySet()) {
-				label = entry.getKey() + termDelimiter + entry.getValue() + termDelimiter + label;
+			for (Map.Entry<String, Boolean> entry : competitors.entrySet()) {
+				String competitorLabel = entry.getKey() + termDelimiter + label;
 				int j = 0;
 				for (String attribute : standardAttributes)  {
 					if (!attribute.equals("")) {
-						label = label + termDelimiter + attribute;
+						String attributeLabel = competitorLabel + termDelimiter + attribute;
+						sbCompetitorLabel.append(attributeLabel);
 						if (j < standardAttributes.size() - 1)
-							label += clauseDelimiter;
+							sbCompetitorLabel.append(clauseDelimiter);
 					}
 					j++;
 				}
 				if (standardAttributes.size() == 0)
-					label = label + termDelimiter;
+					sbCompetitorLabel.append(clauseDelimiter);
 				
 				if (i < competitors.size() - 1)
-					label += clauseDelimiter;
+					sbCompetitorLabel.append(clauseDelimiter);
 				
 				i++;
 			}
+			
+			label = sbCompetitorLabel.toString();
+			
 			if (competitors.size() == 0)
 				return "";
 		}
 		else {
+			StringBuffer sbAttributeLabel = new StringBuffer();
 			int i = 0;
 			for (String attribute : standardAttributes)  {
 				if (!attribute.equals("")) {
-					label = label + termDelimiter + attribute;
+					String attributeLabel = label + termDelimiter + attribute;
+					sbAttributeLabel.append(attributeLabel);
 					if (i < standardAttributes.size() - 1)
-						label += clauseDelimiter;
+						sbAttributeLabel.append(clauseDelimiter);
 				}
 				i++;
 			}
+			
+			label = sbAttributeLabel.toString();
+			
 			if (standardAttributes.size() == 0)
 				label = label + termDelimiter;
 		}
@@ -407,8 +423,16 @@ public class SemanticClause implements Serializable {
 			.append(" *predicate = ").append(predicate)
 			.append(" *attributes = ").append(attributes.toString())
 			.append(" *modifiers = ").append(modifiers.toString())	
+			.append(" *features = ").append(features)
+			.append(" *competitors = ").append(competitors)
 			.append(" standardSubjectPredicateLabel = ").append(makeStandardSubjectPredicateLabel(" ", "_", false, false, false))
+			.append(" featureSubjectPredicateLabel = ").append(makeStandardSubjectPredicateLabel(" ", "_", true, false, false))
+			.append(" competitorFeatureSubjectPredicateLabel = ").append(makeStandardSubjectPredicateLabel(" ", "_", true, true, false))
+			.append(" standardSubjectAttributeLabel = ").append(this.makeStandardSubjectAttributeLabel(" ", "_", false, false))
+			.append(" featureSubjectAttributeLabel = ").append(makeStandardSubjectAttributeLabel(" ", "_", true, false))
+			.append(" competitorFeatureSubjectAttributeLabel = ").append(makeStandardSubjectAttributeLabel(" ", "_", true, true))
 			.append(" standardLabel = ").append(makeStandardLabel("_", true, true, false))
+
 			.append(" polarity = ").append(polarity)
 			.append(" polarityStrength = ").append(polarityStrength);		
 		

@@ -17,12 +17,13 @@ import java.util.regex.Pattern;
 public class CompetitorDictionary {
 	
 	/** Mapping associating competitor groups to regular expression patterns. */
-	private Map<String, Map<String, Pattern>> map;
+	private Map<String, Map<String, Pattern>> groupMap;
+	private Map<String, Pattern> myCompetitorMap;
 
 	public CompetitorDictionary(File catFile) {
 		try {
-			map = loadDictionary(catFile);
-			System.err.println("Competitor dictionary loaded (" + map.size() + " lexical categories)");
+			groupMap = loadDictionary(catFile);
+			System.err.println("Competitor dictionary loaded (" + groupMap.size() + " lexical categories)");
 
 		} catch (IOException e) {
 			System.err.println("Error: file " + catFile + " doesn't exist");
@@ -33,6 +34,34 @@ public class CompetitorDictionary {
 			e.printStackTrace();
 			System.exit(1);
 		}
+	}
+	
+	public Map<String, Pattern> loadCompetitorDictionary() {
+		myCompetitorMap = new LinkedHashMap<String, Pattern>();
+		
+		for (Map.Entry<String, Map<String, Pattern>> entry : groupMap.entrySet()) {
+			Map<String, Pattern> competitors = entry.getValue();
+			myCompetitorMap.putAll(competitors);
+		}
+		System.out.println("my competitor map == " + myCompetitorMap);
+		
+		return myCompetitorMap;
+	}
+	
+	public Map<String, Pattern> loadCompetitorDictionary(String myself) {
+		myCompetitorMap = new LinkedHashMap<String, Pattern>();
+		myself = myself.toLowerCase();
+		
+		for (Map.Entry<String, Map<String, Pattern>> entry : groupMap.entrySet()) {
+			Map<String, Pattern> competitors = entry.getValue();
+			if (competitors.containsKey(myself)) {
+				myCompetitorMap = competitors;
+				System.out.println("my competitor map == " + myCompetitorMap);
+				return myCompetitorMap;
+			}
+		}
+		
+		return myCompetitorMap;
 	}
 	
 	private Map<String, Map<String, Pattern>> loadDictionary(File catFile) throws IOException {
@@ -48,15 +77,21 @@ public class CompetitorDictionary {
 		int word_count = 0;
 
 		while ((line = reader.readLine()) != null) {
-			
-			//System.out.println("line == " + line);
-			
 			// if encounter competitor group
 			if (line.matches("\\w.+")) {
 				if (wordLists.size() > 0) {
 					groupLists.put(group, wordLists);
 				}
-				group = line;
+				// add last regex to database
+				if (!catRegex.equals("")) {
+					catRegex = catRegex.substring(0, catRegex.length() - 1);
+					catRegex = "(" + catRegex + ")";
+					catRegex = catRegex.replaceAll("\\*", "[\\\\w\\\\W']*");
+					wordLists.put(currentVariable, Pattern.compile(catRegex));
+					
+					//System.out.println("final catRegx == " + catRegex);
+				}
+				group = line.toLowerCase();
 				wordLists = new LinkedHashMap<String, Pattern>();
 				currentVariable = "";
 				catRegex = "";
@@ -74,14 +109,13 @@ public class CompetitorDictionary {
 					//System.out.println("catRegx1 == " + catRegex);
 				}
 				// update variable
-				currentVariable = line.split("\t")[1];
+				currentVariable = line.split("\t")[1].toLowerCase();
 				catRegex = "";
 
-			} else if (line.matches("\t\t.+ \\(\\d+\\)")) {
+			} else if (line.matches("\t\t[\\w\\W]+")) {
 				word_count++;
-				String newPattern = line.split("\\s+")[1].toLowerCase();
+				String newPattern = line.split("\t")[2].toLowerCase();
 				catRegex += "\\b" + newPattern + "\\b|";
-				
 				//System.out.println("catRegx2 == " + catRegex);
 			}
 		}
@@ -106,10 +140,10 @@ public class CompetitorDictionary {
 		System.err.println(word_count + " words and " + groupLists.size() +" groups loaded in competitor dictionary");
 		return groupLists;
 	}
-	
+
 	public Map<String, Double> getCounts(String text, boolean absoluteCounts) {
 
-		Map<String,Double> counts = new LinkedHashMap<String, Double>(map.size());
+		Map<String, Double> counts = new LinkedHashMap<String, Double>(myCompetitorMap.size());
 		String[] words = tokenize(text);
 		String[] sentences = splitSentences(text);
 		
@@ -129,10 +163,10 @@ public class CompetitorDictionary {
 		}
 
 		// first get all lexical counts
-		for (String cat: map.keySet()) {
+		for (String cat: myCompetitorMap.keySet()) {
 
 			// add entry to output hash
-			Pattern catRegex = map.get(cat);
+			Pattern catRegex = myCompetitorMap.get(cat);
 			int catCount = 0;
 
 			for (int i = 0; i < words.length; i++) {
@@ -164,7 +198,7 @@ public class CompetitorDictionary {
 
 		return counts;
 	}
-	
+
 	public static String[] tokenize(String text) {
 		
 		//String words_only = text.replaceAll("\\W+\\s*", " ").replaceAll("\\s+$", "").replaceAll("^\\s+", "");
@@ -225,9 +259,12 @@ public class CompetitorDictionary {
 	}
 	
 	public static void main(String[] args) {
-		CompetitorDictionary dic = new CompetitorDictionary(new File("./feature/feature_default_ko.txt"));
-		String text = "기능 삼성 에러러 오류i1s 통화 음질이 디자인 예쁘다";
-		//String text = "電話無 無料通話is 通話*";
+		CompetitorDictionary dic = new CompetitorDictionary(new File("./dic/competitor/competitor.txt"));
+		dic.loadCompetitorDictionary();
+		dic.loadCompetitorDictionary("naverapp");
+		dic.loadCompetitorDictionary("naverline");
+		
+		String text = "ライン 네이버라인은 디자인은 이쁜데, 속도는 카카오톡 마이피플 mypeople 더 빠르다.";
 		Map<String, Double> map = dic.getCounts(text, true);
 		map = dic.sort(map, false);
 		
