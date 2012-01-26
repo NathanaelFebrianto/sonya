@@ -1,4 +1,4 @@
-package com.nhn.socialanalytics.nlp.feature;
+package com.nhn.socialanalytics.nlp.competitor;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -14,40 +14,53 @@ import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class FeatureDictionary {
+public class CompetitorDictionary {
 	
-	/** Mapping associating features to regular expression patterns. */
-	private Map<String, Pattern> map;
+	/** Mapping associating competitor groups to regular expression patterns. */
+	private Map<String, Map<String, Pattern>> map;
 
-	public FeatureDictionary(File catFile) {
+	public CompetitorDictionary(File catFile) {
 		try {
 			map = loadDictionary(catFile);
-			System.err.println("Feature dictionary loaded (" + map.size() + " lexical categories)");
+			System.err.println("Competitor dictionary loaded (" + map.size() + " lexical categories)");
 
 		} catch (IOException e) {
 			System.err.println("Error: file " + catFile + " doesn't exist");
 			e.printStackTrace();
 			System.exit(1);
 		} catch (NullPointerException e) {
-			System.err.println("Error: feature dicitonary file " + catFile + " doesn't have the right format");
+			System.err.println("Error: competitor dicitonary file " + catFile + " doesn't have the right format");
 			e.printStackTrace();
 			System.exit(1);
 		}
 	}
 	
-	private Map<String, Pattern> loadDictionary(File catFile) throws IOException {
+	private Map<String, Map<String, Pattern>> loadDictionary(File catFile) throws IOException {
 
 		BufferedReader reader = new BufferedReader(new FileReader(catFile));
 		String line;
-
+		
+		Map<String, Map<String, Pattern>> groupLists = new LinkedHashMap<String, Map<String, Pattern>>();
 		Map<String, Pattern> wordLists = new LinkedHashMap<String, Pattern>();
 		String currentVariable = "";
 		String catRegex = "";
+		String group = "";
 		int word_count = 0;
 
 		while ((line = reader.readLine()) != null) {
 			
 			//System.out.println("line == " + line);
+			
+			// if encounter competitor group
+			if (line.matches("\\w.+")) {
+				if (wordLists.size() > 0) {
+					groupLists.put(group, wordLists);
+				}
+				group = line;
+				wordLists = new LinkedHashMap<String, Pattern>();
+				currentVariable = "";
+				catRegex = "";
+			}
 
 			// if encounter new variable
 			if (line.matches("\\t[\\w ]+")) {
@@ -82,11 +95,16 @@ public class FeatureDictionary {
 			
 			//System.out.println("final catRegx == " + catRegex);
 		}
+		
+		// add last word list to group
+		if (wordLists.size() > 0) {
+			groupLists.put(group, wordLists);
+		}
 
 		reader.close();
 
-		System.err.println(word_count + " words and " + wordLists.size() +" categories loaded in feature dictionary");
-		return wordLists;
+		System.err.println(word_count + " words and " + groupLists.size() +" groups loaded in competitor dictionary");
+		return groupLists;
 	}
 	
 	public Map<String, Double> getCounts(String text, boolean absoluteCounts) {
@@ -206,46 +224,12 @@ public class FeatureDictionary {
 		}		
 	}
 	
-
-	/*
-	 * These codes are wrong, because it removes the duplicated values when sorting!!!
-	 * 
-	public TreeMap<String, Double> sort(Map<String, Double> counts, boolean ascending) {
-		FeatureCountComparator comparator = new FeatureCountComparator(counts, ascending);
-		TreeMap<String, Double> sortedCounts = new TreeMap<String, Double>(comparator);          
-		sortedCounts.putAll(counts);
-		
-		System.out.println("sort == " + sortedCounts);
-		
-		return sortedCounts;
-	}
-	
-	class FeatureCountComparator implements Comparator<Object> {
-		Map<String, Double> map;
-		boolean ascending = true;
-
-		public FeatureCountComparator(Map<String, Double> map, boolean ascending) {
-			this.map = map;
-			this.ascending = ascending;
-		}
-
-		public int compare(Object o1, Object o2) {
-			Double d1 = (Double) map.get(o1);
-			Double d2 = (Double) map.get(o2);
-
-			if (ascending)
-				return d1.compareTo(d2);
-			else
-				return d2.compareTo(d1);	
-		}
-	}
-	*/
-	
 	public static void main(String[] args) {
-		FeatureDictionary featureDic = new FeatureDictionary(new File("./feature/feature_default_ko.txt"));
+		CompetitorDictionary dic = new CompetitorDictionary(new File("./feature/feature_default_ko.txt"));
 		String text = "기능 삼성 에러러 오류i1s 통화 음질이 디자인 예쁘다";
 		//String text = "電話無 無料通話is 通話*";
-		Map<String, Double> map = featureDic.getCounts(text, true);
+		Map<String, Double> map = dic.getCounts(text, true);
+		map = dic.sort(map, false);
 		
 		System.out.println("result == " + map);
 	}

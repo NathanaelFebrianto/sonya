@@ -96,7 +96,7 @@ public class LIWCDictionary {
 				String newPattern = line.split("\\s+")[1].toLowerCase();
 				catRegex += "\\b" + newPattern + "\\b|";
 				//catRegex += "\\" + newPattern + "|";	// added for Korean by Louie -> Finally I removed this line 
-				//because it include "좋아하게" into "좋아" defined in LIWC.
+				//because it includes "좋아하게" into "좋아" defined in LIWC dictionary.
 			}
 		}
 		//  add last regex to database
@@ -119,7 +119,7 @@ public class LIWCDictionary {
 	
 	/**
 	 * Returns a map associating each LIWC categories to the number of
-	 * their occurences in the input text. The counts are computed matching
+	 * their occurrences in the input text. The counts are computed matching
 	 * patterns loaded. It doesn't produce punctuation counts.
 	 * 
 	 * @param text input text.
