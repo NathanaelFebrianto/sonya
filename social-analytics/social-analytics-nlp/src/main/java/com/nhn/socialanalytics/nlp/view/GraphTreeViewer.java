@@ -408,7 +408,7 @@ public class GraphTreeViewer extends JApplet {
 				SemanticSentence semanticSentence = semanticAnalyzer.analyze(source);
 				
 				FeatureCategoryClassifier featureCategoryClassifier = new FeatureCategoryClassifier(new File("./dic/feature/feature_mobile_ko.txt"));
-				CompetitorExtractor competitorExtractor = new CompetitorExtractor(new File("./dic/competitor/competitor.txt"));
+				CompetitorExtractor competitorExtractor = new CompetitorExtractor(new File("./dic/competitor/competitor_mobile.txt"));
 				if (tfldExcludeCompetitor.getText() != null && !tfldExcludeCompetitor.getText().trim().equals(""))
 					competitorExtractor.loadDictionary(tfldExcludeCompetitor.getText());
 				else
@@ -435,7 +435,8 @@ public class GraphTreeViewer extends JApplet {
 
 				tareaSemanticOutput.append("-------------------------------------\n");
 				for (SemanticClause clause : semanticSentence) {
-					Map<String, Double> featureCategories = featureCategoryClassifier.getFeatureCategoryCounts(clause.makeStandardLabel(" ", true, false, false), true);
+					String standardLabel = clause.makeStandardLabel(" ", true, false, false);
+					Map<String, Double> featureCategories = featureCategoryClassifier.getFeatureCategoryCounts(standardLabel, true);
 					String mainFeatureCategory = featureCategoryClassifier.getMainFeatureCategory(featureCategories);
 					clause.setFeatureCategories(featureCategories);
 					clause.setMainFeatureCategory(mainFeatureCategory);
@@ -449,7 +450,9 @@ public class GraphTreeViewer extends JApplet {
 
 				tareaSemanticOutput.append("-------------------------------------\n");
 				for (SemanticClause clause : semanticSentence) {
-					Map<String, Boolean> competitors = competitorExtractor.getCompetitors(clause.makeStandardLabel(" ", true, false, false));
+					//String standardLabel = clause.makeStandardLabel(" ", true, false, false);
+					String standardLabel = clause.getStandardSubject();
+					Map<String, Boolean> competitors = competitorExtractor.getCompetitors(standardLabel);
 					clause.setCompetitors(competitors);
 					clause = sentimentAnalyzer.analyzePolarity(clause);
 					tareaSemanticOutput.append(clause.toString() + "\n");

@@ -9,6 +9,7 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import com.nhn.socialanalytics.nlp.competitor.CompetitorExtractor;
 import com.nhn.socialanalytics.nlp.feature.FeatureCategoryClassifier;
 import com.nhn.socialanalytics.nlp.morpheme.MorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.semantic.SemanticAnalyzer;
@@ -24,9 +25,64 @@ public class TextAnalyzer {
 	private Map<Locale, SemanticAnalyzer> semanticAnalyzers = new HashMap<Locale, SemanticAnalyzer>();
 	private Map<Locale, SentimentAnalyzer> sentimentAnalyzers = new HashMap<Locale, SentimentAnalyzer>();
 	private Map<String, Map<Locale, FeatureCategoryClassifier>> featureCategoryClassifiers = new HashMap<String, Map<Locale, FeatureCategoryClassifier>>();
+	private Map<String, CompetitorExtractor> competitorExtractors = new HashMap<String, CompetitorExtractor>();
 
-	public TextAnalyzer() {
+	public TextAnalyzer() { }
+	
+	public void putMorphemeAnalyzer(Locale locale, MorphemeAnalyzer analyzer) {
+		locales.add(locale);
+		morphemeAnalyzers.put(locale, analyzer);
+	}
+	
+	public void putSemanticAnalyzer(Locale locale, SemanticAnalyzer analyzer) {
+		locales.add(locale);
+		semanticAnalyzers.put(locale, analyzer);
+	}
+	
+	public void putSentimentAnalyzer(Locale locale, SentimentAnalyzer analyzer) {
+		locales.add(locale);
+		sentimentAnalyzers.put(locale, analyzer);
+	}
+	
+	public void putFeatureCategoryClassifier(String objectId, Locale locale, FeatureCategoryClassifier classifier) {
+		locales.add(locale);
+		Map<Locale, FeatureCategoryClassifier> classifiers = (Map<Locale, FeatureCategoryClassifier>) featureCategoryClassifiers.get(objectId);
 		
+		if (classifiers != null) {
+			classifiers.put(locale, classifier);
+		}
+		else {
+			Map<Locale, FeatureCategoryClassifier> newClassifiers = new HashMap<Locale, FeatureCategoryClassifier>();
+			newClassifiers.put(locale, classifier);
+			featureCategoryClassifiers.put(objectId, newClassifiers);			
+		}		
+	}
+	
+	public void putCompetitorExtractor(String objectId, CompetitorExtractor extractor) {
+		competitorExtractors.put(objectId, extractor);
+	}
+	
+	private MorphemeAnalyzer getMorphemeAnalyzer(Locale locale) {
+		return (MorphemeAnalyzer) morphemeAnalyzers.get(locale);
+	}
+	
+	private SemanticAnalyzer getSemanticAnalyzer(Locale locale) {
+		return (SemanticAnalyzer) semanticAnalyzers.get(locale);
+	}
+	
+	private SentimentAnalyzer getSentimentAnalyzer(Locale locale) {
+		return (SentimentAnalyzer) sentimentAnalyzers.get(locale);
+	}
+	
+	private FeatureCategoryClassifier getFeatureCategoryClassifier(String objectId, Locale locale) {
+		Map<Locale, FeatureCategoryClassifier> classifiers = (Map<Locale, FeatureCategoryClassifier>) featureCategoryClassifiers.get(objectId);
+		FeatureCategoryClassifier classifier = (FeatureCategoryClassifier) classifiers.get(locale);
+		
+		return classifier;
+	}
+	
+	private CompetitorExtractor getCompetitorExtractor(String objectId) {
+		return (CompetitorExtractor) competitorExtractors.get(objectId);
 	}
 	
 	public String extractTerms(Locale locale, String text) {
@@ -62,6 +118,28 @@ public class TextAnalyzer {
 		return result;
 	}
 	
+	public SemanticSentence extractCompetitors(String objectId, SemanticSentence sentence) {
+		CompetitorExtractor competitorExtractor = getCompetitorExtractor(objectId);
+		
+		competitorExtractor.loadDictionary(objectId);
+		
+		//String standardLabel = sentence.extractStandardLabel(" ", " ", true, false, false);
+		String standardLabel = sentence.extractStandardSubjectLabel(" ", " ", false, false);
+		Map<String, Boolean> competitors = competitorExtractor.getCompetitors(standardLabel);
+		sentence.setCompetitors(competitors);
+		
+		for (SemanticClause clause : sentence) {
+			//String clauseStandardLabel = clause.makeStandardLabel(" ", true, false, false);
+			String clauseStandardLabel = clause.getStandardSubject();
+			if (clauseStandardLabel != null) {
+				Map<String, Boolean> clauseCompetitors = competitorExtractor.getCompetitors(clauseStandardLabel);
+				clause.setCompetitors(clauseCompetitors);
+			}
+		}
+		
+		return sentence;
+	}
+	
 	public Polarity analyzePolarity(Locale locale, SemanticSentence sentence) {
 		SentimentAnalyzer sentimentAnalyzer = getSentimentAnalyzer(locale);
 		sentence = sentimentAnalyzer.analyzePolarity(sentence);
@@ -79,16 +157,16 @@ public class TextAnalyzer {
 	public SemanticSentence classifyFeatureCategory(String objectId, Locale locale, SemanticSentence sentence) {
 		FeatureCategoryClassifier featureCategoryClassifier = getFeatureCategoryClassifier(objectId, locale);
 		
-		String standardLabels = sentence.extractStandardLabel(" ", " ", true, false, false);
-		Map<String, Double> featureCategoryCounts = featureCategoryClassifier.getFeatureCategoryCounts(standardLabels, true);
+		String standardLabel = sentence.extractStandardLabel(" ", " ", true, false, false);
+		Map<String, Double> featureCategoryCounts = featureCategoryClassifier.getFeatureCategoryCounts(standardLabel, true);
 		String mainFeatureCategory = featureCategoryClassifier.getMainFeatureCategory(featureCategoryCounts);
 		sentence.setFeatureCategories(featureCategoryCounts);
 		sentence.setMainFeatureCategory(mainFeatureCategory);
 		
 		for (SemanticClause clause : sentence) {
-			String clauseStandardLabels = clause.makeStandardLabel(" ", true, false, false);
+			String clauseStandardLabel = clause.makeStandardLabel(" ", true, false, false);
 			
-			Map<String, Double> clauseFeatureCategoryCounts = featureCategoryClassifier.getFeatureCategoryCounts(clauseStandardLabels, true);
+			Map<String, Double> clauseFeatureCategoryCounts = featureCategoryClassifier.getFeatureCategoryCounts(clauseStandardLabel, true);
 			String clauseMainFeatureCategory = featureCategoryClassifier.getMainFeatureCategory(clauseFeatureCategoryCounts);
 			clause.setFeatureCategories(clauseFeatureCategoryCounts);
 			clause.setMainFeatureCategory(clauseMainFeatureCategory);
@@ -104,54 +182,6 @@ public class TextAnalyzer {
 		String mainFeatureCategory = featureCategoryClassifier.getMainFeatureCategory(featureCategoryCounts);
 
 		return mainFeatureCategory;
-	}
-	
-	public void putMorphemeAnalyzer(Locale locale, MorphemeAnalyzer analyzer) {
-		locales.add(locale);
-		morphemeAnalyzers.put(locale, analyzer);
-	}
-	
-	public void putSemanticAnalyzer(Locale locale, SemanticAnalyzer analyzer) {
-		locales.add(locale);
-		semanticAnalyzers.put(locale, analyzer);
-	}
-	
-	public void putSentimentAnalyzer(Locale locale, SentimentAnalyzer analyzer) {
-		locales.add(locale);
-		sentimentAnalyzers.put(locale, analyzer);
-	}
-	
-	public void putFeatureCategoryClassifier(String objectId, Locale locale, FeatureCategoryClassifier classifier) {
-		locales.add(locale);
-		Map<Locale, FeatureCategoryClassifier> classifiers = (Map<Locale, FeatureCategoryClassifier>) featureCategoryClassifiers.get(objectId);
-		
-		if (classifiers != null) {
-			classifiers.put(locale, classifier);
-		}
-		else {
-			Map<Locale, FeatureCategoryClassifier> newClassifiers = new HashMap<Locale, FeatureCategoryClassifier>();
-			newClassifiers.put(locale, classifier);
-			featureCategoryClassifiers.put(objectId, newClassifiers);			
-		}		
-	}
-	
-	private MorphemeAnalyzer getMorphemeAnalyzer(Locale locale) {
-		return (MorphemeAnalyzer) morphemeAnalyzers.get(locale);
-	}
-	
-	private SemanticAnalyzer getSemanticAnalyzer(Locale locale) {
-		return (SemanticAnalyzer) semanticAnalyzers.get(locale);
-	}
-	
-	private SentimentAnalyzer getSentimentAnalyzer(Locale locale) {
-		return (SentimentAnalyzer) sentimentAnalyzers.get(locale);
-	}
-	
-	private FeatureCategoryClassifier getFeatureCategoryClassifier(String objectId, Locale locale) {
-		Map<Locale, FeatureCategoryClassifier> classifiers = (Map<Locale, FeatureCategoryClassifier>) featureCategoryClassifiers.get(objectId);
-		FeatureCategoryClassifier classifier = (FeatureCategoryClassifier) classifiers.get(locale);
-		
-		return classifier;
 	}
 	
 	private String convertEmoticonToTag(String text) {		

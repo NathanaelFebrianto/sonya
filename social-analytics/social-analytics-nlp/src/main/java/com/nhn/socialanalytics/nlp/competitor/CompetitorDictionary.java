@@ -259,7 +259,7 @@ public class CompetitorDictionary {
 	}
 	
 	public static void main(String[] args) {
-		CompetitorDictionary dic = new CompetitorDictionary(new File("./dic/competitor/competitor.txt"));
+		CompetitorDictionary dic = new CompetitorDictionary(new File("./dic/competitor/competitor_mobile.txt"));
 		dic.loadCompetitorDictionary();
 		dic.loadCompetitorDictionary("naverapp");
 		dic.loadCompetitorDictionary("naverline");
