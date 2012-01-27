@@ -131,6 +131,10 @@ public class LIWCDictionary {
 	public Map<String, Double> getCounts(String text, boolean absoluteCounts) {
 
 		Map<String, Double> counts = new LinkedHashMap<String, Double>(map.size());
+		
+		if (text == null)
+			return counts;
+		
 		String[] words = tokenize(text);
 		String[] sentences = splitSentences(text);
 		
@@ -247,6 +251,9 @@ public class LIWCDictionary {
 	public Map<String, WordCount> getWordCounts(String text, boolean absoluteCounts) {
 
 		Map<String, WordCount> counts = new LinkedHashMap<String, WordCount>(map.size());
+		if (text == null)
+			return counts;
+		
 		String[] words = tokenize(text);
 		String[] sentences = splitSentences(text);
 		

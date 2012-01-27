@@ -143,6 +143,7 @@ public class KoreanSemanticAnalyzer implements SemanticAnalyzer {
 							 * -> "품질-안좋다", "카카오톡-안좋다"로 분해 되는데, "품질-안좋다"에 속성으로 "카카오톡"을 추가하고
 							 * "카카오톡-안좋다"에 속성으로 "품질"이 추가되도록 함.
 							 */
+							
 							if (!prevClause.getSubject().equals(term)) {
 								prevClause.addAttribute(term);
 								prevClause.addStandardAttribute(standardTerm);
@@ -151,6 +152,7 @@ public class KoreanSemanticAnalyzer implements SemanticAnalyzer {
 								clause.addAttribute(prevClause.getSubject());
 								clause.addStandardAttribute(prevClause.getStandardSubject());
 							}
+							
 							/** end */
 							
 							if (prevClause.getParentClause() != null)
@@ -175,6 +177,7 @@ public class KoreanSemanticAnalyzer implements SemanticAnalyzer {
 					 * 즉 자식동사에 연결된 보조사(JX), 주격조사(JKS)를 가진 가장 거리가 먼 명사를 부모동사의 주제어로 넣어 준다.
 					 * ex. "네이버라인은(JX) 속도가(JKS) 빨라서(V) 정말 좋다(V)" -> 속도-빠르다, 네이버라인-좋다
 					 */
+					/*
 					SemanticClause parentClause = clause.getParentClause();
 					if (parentClause != null) {
 						char[] parentTags = sentence.checkSemanticClause(parentClause.getSubject(), parentClause.getPredicate());
@@ -185,6 +188,7 @@ public class KoreanSemanticAnalyzer implements SemanticAnalyzer {
 							parentClause.getStandardAttributes().remove(standardTerm);
 						}
 					}
+					*/
 					/** end */
 					
 				}

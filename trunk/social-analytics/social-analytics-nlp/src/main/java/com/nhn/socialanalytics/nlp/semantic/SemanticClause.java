@@ -139,16 +139,20 @@ public class SemanticClause implements Serializable {
 	}
 		
 	public void addAttribute(String attribute) {
-		attributes.add(attribute);
+		if (attribute != null && !attribute.trim().equals(""))
+			attributes.add(attribute);
 	}
 	public void addStandardAttribute(String standardAttribute) {
-		standardAttributes.add(standardAttribute);
+		if (standardAttribute != null && !standardAttribute.trim().equals(""))
+			standardAttributes.add(standardAttribute);
 	}
 	public void addModifier(String modifier) {
-		modifiers.add(modifier);
+		if (modifier != null && !modifier.trim().equals(""))
+			modifiers.add(modifier);
 	}
 	public void addStandardModifier(String standardModifier) {
-		standardModifiers.add(standardModifier);
+		if (standardModifier != null && !standardModifier.trim().equals(""))
+			standardModifiers.add(standardModifier);
 	}
 	
 	public void addChild(SemanticClause child) {
@@ -239,8 +243,8 @@ public class SemanticClause implements Serializable {
 		String strSubject = "";
 		String strPredicate = "";
 		
-		if ((standardSubject == null || standardSubject.equals("")) 
-				&& (standardPredicate == null || standardPredicate.equals(""))) {
+		if ((standardSubject == null || standardSubject.trim().equals("")) 
+				&& (standardPredicate == null || standardPredicate.trim().equals(""))) {
 			return "";
 		}
 		
@@ -295,7 +299,7 @@ public class SemanticClause implements Serializable {
 		String label = "";
 		String strSubject = "";
 		
-		if ((standardSubject == null || standardSubject.equals("")) 
+		if ((standardSubject == null || standardSubject.trim().equals("")) 
 				&& (standardAttributes.size() == 0)) {
 			return "";
 		}
@@ -342,20 +346,22 @@ public class SemanticClause implements Serializable {
 		else {
 			StringBuffer sbAttributeLabel = new StringBuffer();
 			int i = 0;
-			for (String attribute : standardAttributes)  {
-				if (!attribute.equals("")) {
-					String attributeLabel = label + termDelimiter + attribute;
-					sbAttributeLabel.append(attributeLabel);
-					if (i < standardAttributes.size() - 1)
-						sbAttributeLabel.append(clauseDelimiter);
+			if (standardAttributes.size() > 0) {
+				for (String attribute : standardAttributes)  {
+					if (!attribute.equals("")) {
+						String attributeLabel = label + termDelimiter + attribute;
+						sbAttributeLabel.append(attributeLabel);
+						if (i < standardAttributes.size() - 1)
+							sbAttributeLabel.append(clauseDelimiter);
+					}
+					i++;
 				}
-				i++;
+				
+				label = sbAttributeLabel.toString();
 			}
-			
-			label = sbAttributeLabel.toString();
-			
-			if (standardAttributes.size() == 0)
+			else {
 				label = label + termDelimiter;
+			}
 		}
 
 		return label.trim();

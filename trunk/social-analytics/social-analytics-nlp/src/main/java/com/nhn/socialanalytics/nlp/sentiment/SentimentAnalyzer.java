@@ -59,13 +59,12 @@ public class SentimentAnalyzer {
 			}
 		}
 		
-		if (posCount > negCount)	//positive
+		if (posCount >= negCount && posCount > 0.0)	//positive
 			polarity = 1.0;
-		else if (posCount <= negCount && negCount > 0.0)	//negative
+		else if (posCount < negCount && negCount > 0.0)	//negative
 			polarity = -1.0;
 		else	//neutral
 			polarity = 0.0;
-		
 		
 		double strength = 1 / new Double(priority).doubleValue();
 		
@@ -84,6 +83,47 @@ public class SentimentAnalyzer {
 		return clause;
 	}
 	
+	private Polarity analyzePredicatePolarity(SemanticClause clause) {
+
+		double polarity = 0.0;
+		int priority = clause.getPriority();
+		if (priority < 1) priority = 1;
+		
+		String label = clause.getStandardPredicate();
+		
+		if (label != null && label.trim().equals(""))
+			return new Polarity();
+		
+		Map<String, WordCount> liwcMaps = this.analyzeLIWCFeatures(label);
+		
+		double posCount = 0.0;
+		double negCount = 0.0;
+		
+		for (Object key : liwcMaps.keySet()) {
+			WordCount wordCount = (WordCount) liwcMaps.get(key);
+			
+			if (wordCount.getCount() > 0) {
+				if (key.equals("POSITIVE")) {
+					posCount += wordCount.getCount();
+				}
+				else if (key.equals("NEGATIVE") || key.equals("ANGER") || key.equals("ANXIETY") || key.equals("SADNESS")) {
+					negCount += wordCount.getCount();
+				}					
+			}
+		}
+		
+		if (posCount >= negCount && posCount > 0.0)	//positive
+			polarity = 1.0;
+		else if (posCount < negCount && negCount > 0.0)	//negative
+			polarity = -1.0;
+		else	//neutral
+			polarity = 0.0;
+		
+		double strength = 1 / new Double(priority).doubleValue();
+		
+		return new Polarity(polarity, strength);
+	}
+	
 	private SemanticClause applyCompetitorContextPolarity(SemanticClause clause) {
 		Map<String, Boolean> competitors = clause.getCompetitors();
 		
@@ -96,10 +136,11 @@ public class SentimentAnalyzer {
 			}
 			
 			if (isCompetitor) {
+				Polarity predicatePolarity = this.analyzePredicatePolarity(clause);
 				double polarity = clause.getPolarity();
-				if (polarity > 0)
+				if (polarity > 0 && predicatePolarity.getPolarity() > 0)
 					polarity = -1.0;
-				else if (polarity < 0)
+				else if (polarity < 0 && predicatePolarity.getPolarity() < 0)
 					polarity = 1.0;
 				
 				clause.setPolarity(polarity);

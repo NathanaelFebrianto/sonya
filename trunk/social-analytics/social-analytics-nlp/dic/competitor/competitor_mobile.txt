@@ -18,7 +18,19 @@ MOBILE MESSENGER
 		다음마플*
 		daum*
 		마플*
-		mypeople*		
+		mypeople*	
+	TICTOC
+		틱톡*
+		tictoc*
+	VIBER
+		바이버*
+		viver*
+	WHATSAPP
+		와츠앱*
+		whatsapp*
+	NATEON
+		네이트온*
+		nateon*			
 MOBILE MAIN APP
 	NAVERAPP
 		네이버앱*
