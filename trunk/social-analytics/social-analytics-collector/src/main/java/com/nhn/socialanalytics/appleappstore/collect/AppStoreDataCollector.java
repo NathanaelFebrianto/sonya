@@ -15,6 +15,7 @@ import com.nhn.socialanalytics.common.collect.CollectHistoryBuffer;
 import com.nhn.socialanalytics.common.collect.Collector;
 import com.nhn.socialanalytics.common.util.DateUtil;
 import com.nhn.socialanalytics.nlp.analysis.TextAnalyzer;
+import com.nhn.socialanalytics.nlp.competitor.CompetitorExtractor;
 import com.nhn.socialanalytics.nlp.feature.FeatureCategoryClassifier;
 import com.nhn.socialanalytics.nlp.lang.ja.JapaneseMorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ja.JapaneseSemanticAnalyzer;
@@ -89,6 +90,7 @@ public class AppStoreDataCollector extends Collector {
 			String authorName = review.getAuthorName();
 			String topic = review.getTopic();
 			String text = review.getText();
+			text = topic + " : " + text;
 			text = text.replaceAll("\t", " ").replaceAll("\n", " ");
 			String version = review.getVersion();
 			String createDate = review.getCreateDate();
@@ -108,10 +110,7 @@ public class AppStoreDataCollector extends Collector {
 					locale = Locale.JAPANESE;
 				
 				// generate document
-				List<String> texts = new ArrayList<String>();
-				texts.add(topic);
-				texts.add(text);
-				SourceDocument doc = docGenerator.generate(locale, objectId, texts);
+				SourceDocument doc = docGenerator.generate(locale, objectId, text);
 				
 				// set document
 				doc.setSite(TARGET_SITE_NAME);
@@ -168,6 +167,7 @@ public class AppStoreDataCollector extends Collector {
 			textAnalyzer.putSentimentAnalyzer(Locale.JAPANESE, new SentimentAnalyzer(new File(Config.getProperty("LIWC_JAPANESE"))));
 			textAnalyzer.putFeatureCategoryClassifier(objectId, Locale.KOREAN, new FeatureCategoryClassifier(new File(Config.getProperty("FEATURE_MOBILE_KOREAN"))));
 			textAnalyzer.putFeatureCategoryClassifier(objectId, Locale.JAPANESE, new FeatureCategoryClassifier(new File(Config.getProperty("FEATURE_MOBILE_JAPANESE"))));
+			textAnalyzer.putCompetitorExtractor(objectId, new CompetitorExtractor(new File(Config.getProperty("COMPETITOR_MOBILE"))));
 			
 			SourceDocumentGenerator docGenerator = new SourceDocumentGenerator();
 			docGenerator.setTextAnalyzer(textAnalyzer);
