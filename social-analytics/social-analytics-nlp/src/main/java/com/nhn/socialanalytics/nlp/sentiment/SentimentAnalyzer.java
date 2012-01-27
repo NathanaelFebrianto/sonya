@@ -59,12 +59,12 @@ public class SentimentAnalyzer {
 			}
 		}
 		
-		if (posCount > negCount)
-			polarity = 1.0;		//positive
-		else if (posCount <= negCount && negCount > 0.0)
-			polarity = -1.0;	//negative
-		else 
-			polarity = 0.0;		//neutral
+		if (posCount > negCount)	//positive
+			polarity = 1.0;
+		else if (posCount <= negCount && negCount > 0.0)	//negative
+			polarity = -1.0;
+		else	//neutral
+			polarity = 0.0;
 		
 		
 		double strength = 1 / new Double(priority).doubleValue();
@@ -77,6 +77,34 @@ public class SentimentAnalyzer {
 		clause.setPolarityStrength(strength);
 		clause.setPositiveWordCount(posCount);
 		clause.setNegativeWordCount(negCount);
+		
+		// apply competitor context polarity
+		clause = this.applyCompetitorContextPolarity(clause);
+		
+		return clause;
+	}
+	
+	private SemanticClause applyCompetitorContextPolarity(SemanticClause clause) {
+		Map<String, Boolean> competitors = clause.getCompetitors();
+		
+		if (competitors.size() > 0) {
+			boolean isCompetitor = false;
+			for (Map.Entry<String, Boolean> entry : competitors.entrySet()) {
+				isCompetitor = entry.getValue();
+				if (isCompetitor == false)
+					break;
+			}
+			
+			if (isCompetitor) {
+				double polarity = clause.getPolarity();
+				if (polarity > 0)
+					polarity = -1.0;
+				else if (polarity < 0)
+					polarity = 1.0;
+				
+				clause.setPolarity(polarity);
+			}
+		}
 		
 		return clause;
 	}

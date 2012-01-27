@@ -1,6 +1,7 @@
 package com.nhn.socialanalytics.nlp.lang.ko;
 
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 
 import com.nhn.socialanalytics.nlp.dictionary.SynonymFilter;
@@ -135,13 +136,14 @@ public class KoreanSemanticAnalyzer implements SemanticAnalyzer {
 							
 							clause.setSubject(term);
 							clause.setStandardSubject(standardTerm);
-							
-							//////////////////////////////////////////
-							// added by Younggue 2012-01-26
-							// "카카오톡은(JX or JKS) 품질이(JX or JKS) 별로 안좋다(V)"인 경우 
-							// -> "품질-안좋다", "카카오톡-안좋다"로 분해 되는데, "품질-안좋다"에 속성으로 "카카오톡"을 추가하고
-							// "카카오톡-안좋다"에 속성으로 "품질"이 추가되도록 함.
-							if (!prevClause.getAttributes().contains(term) && !prevClause.getSubject().equals(term)) {
+
+							/**
+							 * Added by Younggue, 2012-01-26
+							 * "카카오톡은(JX or JKS) 품질이(JX or JKS) 별로 안좋다(V)"인 경우 
+							 * -> "품질-안좋다", "카카오톡-안좋다"로 분해 되는데, "품질-안좋다"에 속성으로 "카카오톡"을 추가하고
+							 * "카카오톡-안좋다"에 속성으로 "품질"이 추가되도록 함.
+							 */
+							if (!prevClause.getSubject().equals(term)) {
 								prevClause.addAttribute(term);
 								prevClause.addStandardAttribute(standardTerm);
 							}
@@ -149,21 +151,42 @@ public class KoreanSemanticAnalyzer implements SemanticAnalyzer {
 								clause.addAttribute(prevClause.getSubject());
 								clause.addStandardAttribute(prevClause.getStandardSubject());
 							}
-							//////////////////////////////////////////
+							/** end */
 							
 							if (prevClause.getParentClause() != null)
 								prevClause.getParentClause().addChild(clause);
-						}						
+						}	
 						else {
 							clause = prevClause;
 							clause.addAttribute(term);
 							clause.addStandardAttribute(standardTerm);
 						}
-					} else {
+					} 
+					else {
 						clause = prevClause;
 						clause.setSubject(term);
 						clause.setStandardSubject(standardTerm);
 					}
+					
+					/**
+					 * Added by Younggue, 2012-01-27
+					 * 부모 clause에 서술어만 있고 주제어가 없는 경우, 즉 자식동사(V)-부모동사(V)가 연결되는 문장의 경우,
+					 * 자식동사에 연결된 주제어에 의존적인 동사일 가능성이 크므로 자식 clause의 주제어를 부모동사의 주제어로 넣어주고
+					 * 즉 자식동사에 연결된 보조사(JX), 주격조사(JKS)를 가진 가장 거리가 먼 명사를 부모동사의 주제어로 넣어 준다.
+					 * ex. "네이버라인은(JX) 속도가(JKS) 빨라서(V) 정말 좋다(V)" -> 속도-빠르다, 네이버라인-좋다
+					 */
+					SemanticClause parentClause = clause.getParentClause();
+					if (parentClause != null) {
+						char[] parentTags = sentence.checkSemanticClause(parentClause.getSubject(), parentClause.getPredicate());
+						if (parentTags[0] == '0' && parentTags[1] == '1' && isLeafSubjectNode(childNode)) {	
+							parentClause.setSubject(term);
+							parentClause.setStandardSubject(standardTerm);
+							parentClause.getAttributes().remove(term);
+							parentClause.getStandardAttributes().remove(standardTerm);
+						}
+					}
+					/** end */
+					
 				}
 				else if (pos == 'N' && ("JKO".equals(josaTag) || "JKM".equals(josaTag))) {
 					clause = prevClause;
@@ -198,6 +221,29 @@ public class KoreanSemanticAnalyzer implements SemanticAnalyzer {
 		}
 		
 		return sentence;
+	}
+	
+	private boolean isLeafSubjectNode(ParseTreeNode node) {
+		Eojeol eojeol = (Eojeol) node.getToken();
+		String josaTag = eojeol.getJosaTag();
+		if ("JX".equals(josaTag) || "JKS".equals(josaTag)) {
+			if (node.getChildEdges() != null) {
+				for (Iterator<ParseTreeEdge> iterChildEdge = node.getChildEdges().iterator(); iterChildEdge.hasNext();) {
+					ParseTreeEdge edge = (ParseTreeEdge) iterChildEdge.next();
+					ParseTreeNode child = edge.getChildNode();
+					Eojeol eojeolChild = (Eojeol) child.getToken();
+					String josaTagChild = eojeolChild.getJosaTag();
+					if ("JX".equals(josaTagChild) || "JKS".equals(josaTagChild)) {
+						return false;
+					}
+					else {
+						return isLeafSubjectNode(child);
+					}
+				}					
+			}
+			return true;
+		}
+		return false;
 	}
 	
 	public static void main(String[] args) {		
