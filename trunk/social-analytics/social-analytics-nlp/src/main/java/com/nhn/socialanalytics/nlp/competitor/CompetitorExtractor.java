@@ -40,7 +40,7 @@ public class CompetitorExtractor {
 		}
 		
 		return counts;
-	}		public Map<String, Boolean> getCompetitors(String text) {				Map<String, Boolean> competitors = new LinkedHashMap<String, Boolean>();					if (text == null || text.trim().equals("")) {			return competitors;		}				Map<String, Double> initCounts = dictionary.getCounts(text, true);		Map<String, Double> sortedCounts = dictionary.sort(initCounts, false);				sortedCounts.keySet().removeAll(absoluteCountCompetitorSet);				for (String competitor : sortedCounts.keySet()) { 			double count = (Double) sortedCounts.get(competitor);			if (count > 0.0) {				if (!competitor.equalsIgnoreCase(myself)) {					competitors.put(competitor, false);				} else {					competitors.put(competitor, true);				}			}		}				return competitors;	}
+	}		public Map<String, Boolean> getCompetitors(String text) {				Map<String, Boolean> competitors = new LinkedHashMap<String, Boolean>();					if (text == null || text.trim().equals("")) {			return competitors;		}				Map<String, Double> initCounts = dictionary.getCounts(text, true);		Map<String, Double> sortedCounts = dictionary.sort(initCounts, false);				sortedCounts.keySet().removeAll(absoluteCountCompetitorSet);				for (String competitor : sortedCounts.keySet()) { 			double count = (Double) sortedCounts.get(competitor);			if (count > 0.0) {				if (!competitor.equalsIgnoreCase(myself)) {					competitors.put(competitor, true);				} else {					competitors.put(competitor, false);				}			}		}				return competitors;	}
 	
 	public static void main(String[] args) {
 		CompetitorExtractor competitorExtractor = new CompetitorExtractor(new File("./dic/competitor/competitor.txt"));

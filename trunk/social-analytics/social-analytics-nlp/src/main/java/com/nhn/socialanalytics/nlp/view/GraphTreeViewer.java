@@ -30,10 +30,12 @@ import javax.swing.JApplet;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JSplitPane;
 import javax.swing.JTextArea;
+import javax.swing.JTextField;
 import javax.swing.JToggleButton;
 
 import org.apache.commons.collections15.Factory;
@@ -78,7 +80,8 @@ import edu.uci.ics.jung.visualization.util.Animator;
 @SuppressWarnings("serial")
 public class GraphTreeViewer extends JApplet {
 	
-	JTextArea tareaSentence;	
+	JTextArea tareaSentence;
+	JTextField tfldExcludeCompetitor;
 	JTextArea tareaSemanticOutput;
 	
 	/**
@@ -291,11 +294,16 @@ public class GraphTreeViewer extends JApplet {
 		JPanel panel = new JPanel();
 		panel.setLayout(new FlowLayout());
 		
-		tareaSentence = new JTextArea(2, 70);
+		tareaSentence = new JTextArea(2, 60);
 		if (tareaSentence.getText() == null || tareaSentence.getText().equals(""))
 			tareaSentence.setText("철수가 음악에 재능이 없으면서도 노래를 아주 열심히 부르는 것을 영희가 안다.");
 		tareaSentence.setLineWrap(true);
 		panel.add(new JScrollPane(tareaSentence));
+		
+		tfldExcludeCompetitor = new JTextField(10);
+		tfldExcludeCompetitor.setText("naverline");
+		panel.add(new JLabel(" Exclude competitor id: "));
+		panel.add(tfldExcludeCompetitor);
 				
 		JButton btnRun = new JButton("Run");
 		ActionListener runActionListener = (ActionListener)(GenericListener.create(
@@ -305,6 +313,10 @@ public class GraphTreeViewer extends JApplet {
 				"runAction"));		
 		btnRun.addActionListener(runActionListener);
 		panel.add(btnRun);
+		
+
+		
+		
 		
 		return panel;
 	}
@@ -397,7 +409,11 @@ public class GraphTreeViewer extends JApplet {
 				
 				FeatureCategoryClassifier featureCategoryClassifier = new FeatureCategoryClassifier(new File("./dic/feature/feature_mobile_ko.txt"));
 				CompetitorExtractor competitorExtractor = new CompetitorExtractor(new File("./dic/competitor/competitor.txt"));
-				competitorExtractor.loadDictionary();
+				if (tfldExcludeCompetitor.getText() != null && !tfldExcludeCompetitor.getText().trim().equals(""))
+					competitorExtractor.loadDictionary(tfldExcludeCompetitor.getText());
+				else
+					competitorExtractor.loadDictionary();
+				
 				SentimentAnalyzer sentimentAnalyzer = new SentimentAnalyzer(new File("./dic/liwc/LIWC_ko.txt"));
 				
 				semanticSentence.sort(true);
@@ -435,15 +451,17 @@ public class GraphTreeViewer extends JApplet {
 				for (SemanticClause clause : semanticSentence) {
 					Map<String, Boolean> competitors = competitorExtractor.getCompetitors(clause.makeStandardLabel(" ", true, false, false));
 					clause.setCompetitors(competitors);
+					clause = sentimentAnalyzer.analyzePolarity(clause);
 					tareaSemanticOutput.append(clause.toString() + "\n");
 					tareaSemanticOutput.append("-------------------------------------\n");
 				}
 				
-				sentimentAnalyzer.analyzePolarity(semanticSentence);
-				
 				tareaSemanticOutput.append("\n=================================\n");
 				tareaSemanticOutput.append("       Sentiment Analysis\n");
 				tareaSemanticOutput.append("=================================\n");
+				
+				sentimentAnalyzer.analyzePolarity(semanticSentence);
+				
 				tareaSemanticOutput.append("polarity = " + semanticSentence.getPolarity());
 				if (semanticSentence.getPolarity() == 1.0)
 					tareaSemanticOutput.append(" (positive)\n");
@@ -468,7 +486,6 @@ public class GraphTreeViewer extends JApplet {
 	public static void main(String[] args) {
 		
 		try {
-			
 			//String source = "이 물건은 배송이 빨라서 정말 좋지만, 품질이 별로 안좋네요.";
 			//String source = "철수가 음악에 재능이 없으면서도 노래를 아주 열심히 부르는 것을 영희가 안다.";
 			String source = "네이버라인은 속도가 빨라서 정말 좋지만, 카카오톡은 품질이 별로 안좋네요.";
