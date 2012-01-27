@@ -21,7 +21,7 @@ import com.nhn.socialanalytics.common.collect.CollectObject;
 import com.nhn.socialanalytics.common.collect.CollectObjectReader;
 import com.nhn.socialanalytics.common.collect.Collector;
 import com.nhn.socialanalytics.nlp.analysis.TextAnalyzer;
-import com.nhn.socialanalytics.nlp.feature.FeatureClassifier;
+import com.nhn.socialanalytics.nlp.feature.FeatureCategoryClassifier;
 import com.nhn.socialanalytics.nlp.lang.ja.JapaneseMorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ja.JapaneseSemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanMorphemeAnalyzer;
@@ -99,7 +99,7 @@ public class AppStoreDataCollectorJob implements Job {
 					String language = entry.getKey();
 					String featureFile = entry.getValue();	
 					
-					textAnalyzer.putFeatureClassifier(objectId, new Locale(language), new FeatureClassifier(new File(featureFile)));
+					textAnalyzer.putFeatureCategoryClassifier(objectId, new Locale(language), new FeatureCategoryClassifier(new File(featureFile)));
 				}
 				
 				// get app stores
