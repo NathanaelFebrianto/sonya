@@ -17,6 +17,7 @@ import com.nhn.socialanalytics.common.collect.CollectHistoryBuffer;
 import com.nhn.socialanalytics.common.collect.Collector;
 import com.nhn.socialanalytics.common.util.DateUtil;
 import com.nhn.socialanalytics.nlp.analysis.TextAnalyzer;
+import com.nhn.socialanalytics.nlp.competitor.CompetitorExtractor;
 import com.nhn.socialanalytics.nlp.feature.FeatureCategoryClassifier;
 import com.nhn.socialanalytics.nlp.lang.ja.JapaneseMorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ja.JapaneseSemanticAnalyzer;
@@ -97,9 +98,7 @@ public class AndroidMarketDataCollector extends Collector {
 					boolean isSpam = super.isSpam(text);
 
 					// generate document
-					List<String> texts = new ArrayList<String>();
-					texts.add(text);
-					SourceDocument doc = docGenerator.generate(new Locale(locale.getLanguage()), objectId, texts);
+					SourceDocument doc = docGenerator.generate(new Locale(locale.getLanguage()), objectId, text);
 					
 					// set document
 					doc.setSite(TARGET_SITE_NAME);
@@ -163,6 +162,7 @@ public class AndroidMarketDataCollector extends Collector {
 			textAnalyzer.putSentimentAnalyzer(Locale.JAPANESE, new SentimentAnalyzer(new File(Config.getProperty("LIWC_JAPANESE"))));
 			textAnalyzer.putFeatureCategoryClassifier(objectId, Locale.KOREAN, new FeatureCategoryClassifier(new File(Config.getProperty("FEATURE_MOBILE_KOREAN"))));
 			textAnalyzer.putFeatureCategoryClassifier(objectId, Locale.JAPANESE, new FeatureCategoryClassifier(new File(Config.getProperty("FEATURE_MOBILE_JAPANESE"))));
+			textAnalyzer.putCompetitorExtractor(objectId, new CompetitorExtractor(new File(Config.getProperty("COMPETITOR_MOBILE"))));
 			
 			SourceDocumentGenerator docGenerator = new SourceDocumentGenerator();
 			docGenerator.setTextAnalyzer(textAnalyzer);

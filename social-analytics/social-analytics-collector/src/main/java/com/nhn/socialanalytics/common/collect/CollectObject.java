@@ -16,7 +16,8 @@ public class CollectObject implements Serializable {
 	private int maxPage;
 	private int historyBufferMaxRound;
 	private List<String> languages = new ArrayList<String>();
-	private Map<String, String> featureClassifiers = new HashMap<String, String>();
+	private Map<String, String> featureDictionaries = new HashMap<String, String>();
+	private String competitorDictionary;
 	private Map<String, List<String>> extendedAttributes = new HashMap<String, List<String>>();
 	
 	public String getSite() {
@@ -83,16 +84,24 @@ public class CollectObject implements Serializable {
 		languages.add(languag);
 	}
 	
-	public Map<String, String> getFeatureClassifiers() {
-		return featureClassifiers;
+	public Map<String, String> getFeatureDictionaries() {
+		return featureDictionaries;
 	}
 	
-	public void setFeatureClassifiers(Map<String, String> featureClassifiers) {
-		this.featureClassifiers = featureClassifiers;
+	public void setFeatureDictionaries(Map<String, String> featureDictionaries) {
+		this.featureDictionaries = featureDictionaries;
 	}
 	
-	public void addFeatureClassifier(String language, String featureClassifier) {
-		featureClassifiers.put(language, featureClassifier);
+	public void addFeatureDictionary(String language, String featureDictionary) {
+		featureDictionaries.put(language, featureDictionary);
+	}
+	
+	public String getCompetitorDictionary() {
+		return competitorDictionary;
+	}
+	
+	public void setCompetitorDictionary(String competitorDictionary) {
+		this.competitorDictionary = competitorDictionary;
 	}
 	
 	public Map<String, List<String>> getExtendedAttributes() {
@@ -124,7 +133,8 @@ public class CollectObject implements Serializable {
 			.append("MAX_PAGE = ").append(maxPage).append("\n")
 			.append("HISTORY_BUFFER_MAX_ROUND = ").append(historyBufferMaxRound).append("\n")
 			.append("LANGUAGES = ").append(languages).append("\n")
-			.append("FEATURE_CLASSIFIERS = ").append(featureClassifiers).append("\n")
+			.append("FEATURE_DICTIONARIES = ").append(featureDictionaries).append("\n")
+			.append("COMPETITOR_DICTIONARY = ").append(competitorDictionary).append("\n")
 			.append("EXTENDED_ATTRIBUTES = ").append(extendedAttributes).append("\n");
 		
 		return sb.toString();

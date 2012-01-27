@@ -21,6 +21,7 @@ import com.nhn.socialanalytics.common.collect.CollectObject;
 import com.nhn.socialanalytics.common.collect.CollectObjectReader;
 import com.nhn.socialanalytics.common.collect.Collector;
 import com.nhn.socialanalytics.nlp.analysis.TextAnalyzer;
+import com.nhn.socialanalytics.nlp.competitor.CompetitorExtractor;
 import com.nhn.socialanalytics.nlp.feature.FeatureCategoryClassifier;
 import com.nhn.socialanalytics.nlp.lang.ja.JapaneseMorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ja.JapaneseSemanticAnalyzer;
@@ -81,7 +82,8 @@ public class AppStoreDataCollectorJob implements Job {
 				String appId = keywords.get(0);
 				int maxPage = colObject.getMaxPage();
 				int historyBufferMaxRound = colObject.getHistoryBufferMaxRound();
-				Map<String, String> featureClassifiers = colObject.getFeatureClassifiers();
+				Map<String, String> featureDictionaries = colObject.getFeatureDictionaries();
+				String competiorDictionary = colObject.getCompetitorDictionary();
 				Map<String, List<String>> attributes = colObject.getExtendedAttributes();
 				
 				// set collect history buffer
@@ -94,13 +96,16 @@ public class AppStoreDataCollectorJob implements Job {
 				SourceDocumentFileWriter docWriter = new SourceDocumentFileWriter(sourceDocFile);
 				collector.setSourceDocumentWriter(docWriter);
 				
-				// set feature classifiers
-				for (Map.Entry<String, String> entry : featureClassifiers.entrySet()) {
+				// set feature dictionaries
+				for (Map.Entry<String, String> entry : featureDictionaries.entrySet()) {
 					String language = entry.getKey();
-					String featureFile = entry.getValue();	
+					String featureDicFile = entry.getValue();	
 					
-					textAnalyzer.putFeatureCategoryClassifier(objectId, new Locale(language), new FeatureCategoryClassifier(new File(featureFile)));
+					textAnalyzer.putFeatureCategoryClassifier(objectId, new Locale(language), new FeatureCategoryClassifier(new File(featureDicFile)));
 				}
+				
+				// set competitor dictionary
+				textAnalyzer.putCompetitorExtractor(objectId, new CompetitorExtractor(new File(competiorDictionary)));
 				
 				// get app stores
 				Set<String> appStores = new HashSet<String>();

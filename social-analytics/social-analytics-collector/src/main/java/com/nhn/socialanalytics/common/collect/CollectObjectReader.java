@@ -74,15 +74,18 @@ public class CollectObjectReader {
 					colObject.setLanguages(Arrays.asList(languages));
 				}
 				else if (i == 7) {
-					String[] featureClassifiers = column.split(",");
-					for (int j = 0; j < featureClassifiers.length; j++) {
-						String[] featureClassifier = featureClassifiers[j].split(":", 2);
-						String lang = featureClassifier[0];
-						String classifier = featureClassifier[1];
-						colObject.addFeatureClassifier(lang, classifier);
+					String[] featureDictionaries = column.split(",");
+					for (int j = 0; j < featureDictionaries.length; j++) {
+						String[] featureDictionary = featureDictionaries[j].split(":", 2);
+						String lang = featureDictionary[0];
+						String featureDic = featureDictionary[1];
+						colObject.addFeatureDictionary(lang, featureDic);
 					}
 				}
 				else if (i == 8) {
+					colObject.setCompetitorDictionary(column);
+				}
+				else if (i == 9) {
 					String[] attributes = column.split(",");
 					for (int j = 0; j < attributes.length; j++) {
 						String[] attributePairs = attributes[j].split(":");
