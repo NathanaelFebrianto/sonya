@@ -27,9 +27,9 @@ public class SourceDocumentGenerator {
 		String text1 = "";
 		String text2 = "";
 		String standardLabels = "";
-		String feature = "";
-		String feature1 = "";
-		String mainFeature = "";
+		String featureCategory = "";
+		String featureCategory1 = "";
+		String mainFeatureCategory = "";
 		String clause = "";
 		String subject = "";
 		String predicate = "";
@@ -37,19 +37,19 @@ public class SourceDocumentGenerator {
 		String modifier = "";
 		String subjectPredicate = "";
 		String subjectAttribute = "";
-		String featureSubject = "";
-		String featurePredicate = "";
-		String featureSubjectPredicate = "";
-		String featureSubjectAttribute = "";
+		String featureCategorySubject = "";
+		String featureCategoryPredicate = "";
+		String featureCategorySubjectPredicate = "";
+		String featureCategorySubjectAttribute = "";
 		String competitor = "";
 		String competitorSubject = "";
 		String competitorPredicate = "";
 		String competitorSubjectPredicate = "";
 		String competitorSubjectAttribute = "";
-		String competitorFeatureSubject = "";
-		String competitorFeaturePredicate = "";
-		String competitorFeatureSubjectPredicate = "";
-		String competitorFeatureSubjectAttribute = "";
+		String competitorFeatureCategorySubject = "";
+		String competitorFeatureCategoryPredicate = "";
+		String competitorFeatureCategorySubjectPredicate = "";
+		String competitorFeatureCategorySubjectAttribute = "";
 		
 		Polarity polarity;
 		
@@ -67,10 +67,10 @@ public class SourceDocumentGenerator {
 			SemanticSentence semanticSentence = textAnalyzer.analyzeSemantics(locale, text);
 			
 			// classify feature
-			semanticSentence = textAnalyzer.classifyFeature(objectId, locale, semanticSentence);
+			semanticSentence = textAnalyzer.classifyFeatureCategory(objectId, locale, semanticSentence);
 			standardLabels += semanticSentence.extractStandardLabel(" ", " ", true, false, false);
-			feature += semanticSentence.extractFeaturesLabel(" ", false);
-			feature1 += semanticSentence.extractFeaturesLabel(" ", true);
+			featureCategory += semanticSentence.extractFeaturesLabel(" ", false);
+			featureCategory1 += semanticSentence.extractFeaturesLabel(" ", true);
 			
 			// clause
 			clause += semanticSentence.extractStandardLabel(",", "_", true, false, false);			
@@ -87,13 +87,13 @@ public class SourceDocumentGenerator {
 			// subject_attribute
 			subjectAttribute += semanticSentence.extractStandardSubjectAttributeLabel(" ", "_", false, false);
 			// feature_subject
-			featureSubject += semanticSentence.extractStandardSubjectLabel(" ", "_", true, false);
+			featureCategorySubject += semanticSentence.extractStandardSubjectLabel(" ", "_", true, false);
 			// feature_predicate
-			featurePredicate += semanticSentence.extractStandardPredicateLabel(" ", "_", true, false);
+			featureCategoryPredicate += semanticSentence.extractStandardPredicateLabel(" ", "_", true, false);
 			// feature_subject_predicate
-			featureSubjectPredicate += semanticSentence.extractStandardSubjectPredicateLabel(" ", "_", true, false, false);
+			featureCategorySubjectPredicate += semanticSentence.extractStandardSubjectPredicateLabel(" ", "_", true, false, false);
 			// feature_subject_attribute
-			featureSubjectAttribute += semanticSentence.extractStandardSubjectAttributeLabel(" ", "_", true, false);
+			featureCategorySubjectAttribute += semanticSentence.extractStandardSubjectAttributeLabel(" ", "_", true, false);
 			
 			// competitor
 			competitor += semanticSentence.extractCompetitorsLabel(" ");
@@ -106,19 +106,19 @@ public class SourceDocumentGenerator {
 			// competitor_subject_attribute
 			competitorSubjectAttribute += semanticSentence.extractStandardSubjectAttributeLabel(" ", "_", false, true);
 			// competitor_feature_subject
-			competitorFeatureSubject += semanticSentence.extractStandardSubjectLabel(" ", "_", true, true);
+			competitorFeatureCategorySubject += semanticSentence.extractStandardSubjectLabel(" ", "_", true, true);
 			// competitor_feature_predicate
-			competitorFeaturePredicate += semanticSentence.extractStandardPredicateLabel(" ", "_", true, true);
+			competitorFeatureCategoryPredicate += semanticSentence.extractStandardPredicateLabel(" ", "_", true, true);
 			// competitor_feature_subject_predicate
-			competitorFeatureSubjectPredicate += semanticSentence.extractStandardSubjectPredicateLabel(" ", "_", true, true, false);
+			competitorFeatureCategorySubjectPredicate += semanticSentence.extractStandardSubjectPredicateLabel(" ", "_", true, true, false);
 			// competitor_feature_subject_attribute
-			competitorFeatureSubjectAttribute += semanticSentence.extractStandardSubjectAttributeLabel(" ", "_", true, true);
+			competitorFeatureCategorySubjectAttribute += semanticSentence.extractStandardSubjectAttributeLabel(" ", "_", true, true);
 
 			
 			if (i < texts.size() - 1) {
 				standardLabels += " ";
-				feature += " ";
-				feature1 += " ";
+				featureCategory += " ";
+				featureCategory1 += " ";
 				if (!clause.trim().equals(""))	clause += ",";
 				subject += " ";
 				predicate += " ";
@@ -126,25 +126,25 @@ public class SourceDocumentGenerator {
 				modifier += " ";
 				subjectPredicate += " ";
 				subjectAttribute += " ";
-				featureSubject += " ";
-				featurePredicate += " ";
-				featureSubjectPredicate += " ";
-				featureSubjectAttribute += " ";
+				featureCategorySubject += " ";
+				featureCategoryPredicate += " ";
+				featureCategorySubjectPredicate += " ";
+				featureCategorySubjectAttribute += " ";
 				competitor += " ";
 				competitorSubject += " ";
 				competitorPredicate += " ";
 				competitorSubjectPredicate += " ";
 				competitorSubjectAttribute += " ";
-				competitorFeatureSubject += " ";
-				competitorFeaturePredicate += " ";
-				competitorFeatureSubjectPredicate += " ";
-				competitorFeatureSubjectAttribute += " ";
+				competitorFeatureCategorySubject += " ";
+				competitorFeatureCategoryPredicate += " ";
+				competitorFeatureCategorySubjectPredicate += " ";
+				competitorFeatureCategorySubjectAttribute += " ";
 			}
 			semanticSentences.add(semanticSentence);
 		}
 		
 		// main feature
-		mainFeature = textAnalyzer.classifyMainFeature(objectId, locale, standardLabels);
+		mainFeatureCategory = textAnalyzer.classifyMainFeatureCategory(objectId, locale, standardLabels);
 		
 		// analyze sentiment
 		polarity  = textAnalyzer.analyzePolarity(locale, semanticSentences);
@@ -153,9 +153,9 @@ public class SourceDocumentGenerator {
 		doc.setObjectId(objectId);
 		doc.setText1(text1);
 		doc.setText2(text2);
-		doc.setFeature(feature);
-		doc.setFeature1(feature1);
-		doc.setMainFeature(mainFeature);
+		doc.setFeatureCategory(featureCategory);
+		doc.setFeatureCategory1(featureCategory1);
+		doc.setMainFeatureCategory(mainFeatureCategory);
 		doc.setClause(clause.trim());
 		doc.setSubject(subject.trim());
 		doc.setPredicate(predicate.trim());
@@ -163,19 +163,19 @@ public class SourceDocumentGenerator {
 		doc.setModifier(modifier.trim());
 		doc.setSubjectPredicate(subjectPredicate.trim());
 		doc.setSubjectAttribute(subjectAttribute.trim());
-		doc.setFeatureSubject(featureSubject.trim());
-		doc.setFeaturePredicate(featurePredicate.trim());
-		doc.setFeatureSubjectPredicate(featureSubjectPredicate.trim());
-		doc.setFeatureSubjectAttribute(featureSubjectAttribute.trim());
+		doc.setFeatureCategorySubject(featureCategorySubject.trim());
+		doc.setFeatureCategoryPredicate(featureCategoryPredicate.trim());
+		doc.setFeatureCategorySubjectPredicate(featureCategorySubjectPredicate.trim());
+		doc.setFeatureCategorySubjectAttribute(featureCategorySubjectAttribute.trim());
 		doc.setCompetitor(competitor.trim());
 		doc.setCompetitorSubject(competitorSubject.trim());
 		doc.setCompetitorPredicate(competitorPredicate.trim());
 		doc.setCompetitorSubjectPredicate(competitorSubjectPredicate.trim());
 		doc.setCompetitorSubjectAttribute(competitorSubjectAttribute.trim());
-		doc.setCompetitorFeatureSubject(competitorFeatureSubject.trim());
-		doc.setCompetitorFeaturePredicate(competitorFeaturePredicate.trim());
-		doc.setCompetitorFeatureSubjectPredicate(competitorFeatureSubjectPredicate.trim());
-		doc.setCompetitorFeatureSubjectAttribute(competitorFeatureSubjectAttribute.trim());
+		doc.setCompetitorFeatureCategorySubject(competitorFeatureCategorySubject.trim());
+		doc.setCompetitorFeatureCategoryPredicate(competitorFeatureCategoryPredicate.trim());
+		doc.setCompetitorFeatureCategorySubjectPredicate(competitorFeatureCategorySubjectPredicate.trim());
+		doc.setCompetitorFeatureCategorySubjectAttribute(competitorFeatureCategorySubjectAttribute.trim());
 		doc.setPolarity(polarity.getPolarity());
 		doc.setPolarityStrength(polarity.getPolarityStrength());
 		

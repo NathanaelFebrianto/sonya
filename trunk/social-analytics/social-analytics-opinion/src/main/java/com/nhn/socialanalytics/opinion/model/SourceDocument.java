@@ -21,9 +21,9 @@ public class SourceDocument implements Serializable {
 	private String text;
 	private String text1;
 	private String text2;
-	private String feature;
-	private String feature1;
-	private String mainFeature;
+	private String featureCategory;
+	private String featureCategory1;
+	private String mainFeatureCategory;
 	private String clause;
 	private String subject;
 	private String predicate;
@@ -31,19 +31,19 @@ public class SourceDocument implements Serializable {
 	private String modifier;
 	private String subjectPredicate;
 	private String subjectAttribute;
-	private String featureSubject;
-	private String featurePredicate;
-	private String featureSubjectPredicate;
-	private String featureSubjectAttribute;
+	private String featureCategorySubject;
+	private String featureCategoryPredicate;
+	private String featureCategorySubjectPredicate;
+	private String featureCategorySubjectAttribute;
 	private String competitor;
 	private String competitorSubject;
 	private String competitorPredicate;
 	private String competitorSubjectPredicate;
 	private String competitorSubjectAttribute;
-	private String competitorFeatureSubject;
-	private String competitorFeaturePredicate;
-	private String competitorFeatureSubjectPredicate;
-	private String competitorFeatureSubjectAttribute;
+	private String competitorFeatureCategorySubject;
+	private String competitorFeatureCategoryPredicate;
+	private String competitorFeatureCategorySubjectPredicate;
+	private String competitorFeatureCategorySubjectAttribute;
 	private double polarity;
 	private double polarityStrength;
 	private Map<String, Object> customFields = new HashMap<String, Object>();
@@ -144,28 +144,28 @@ public class SourceDocument implements Serializable {
 		this.text2 = text2;
 	}
 
-	public String getFeature() {
-		return feature;
+	public String getFeatureCategory() {
+		return featureCategory;
 	}
 
-	public void setFeature(String feature) {
-		this.feature = feature;
+	public void setFeatureCategory(String featureCategory) {
+		this.featureCategory = featureCategory;
 	}
 
-	public String getFeature1() {
-		return feature1;
+	public String getFeatureCategory1() {
+		return featureCategory1;
 	}
 
-	public void setFeature1(String feature1) {
-		this.feature1 = feature1;
+	public void setFeatureCategory1(String featureCategory1) {
+		this.featureCategory1 = featureCategory1;
 	}
 
-	public String getMainFeature() {
-		return mainFeature;
+	public String getMainFeatureCategory() {
+		return mainFeatureCategory;
 	}
 
-	public void setMainFeature(String mainFeature) {
-		this.mainFeature = mainFeature;
+	public void setMainFeatureCategory(String mainFeatureCategory) {
+		this.mainFeatureCategory = mainFeatureCategory;
 	}
 
 	public String getClause() {
@@ -224,36 +224,36 @@ public class SourceDocument implements Serializable {
 		this.subjectAttribute = subjectAttribute;
 	}
 
-	public String getFeatureSubject() {
-		return featureSubject;
+	public String getFeatureCategorySubject() {
+		return featureCategorySubject;
 	}
 
-	public void setFeatureSubject(String featureSubject) {
-		this.featureSubject = featureSubject;
+	public void setFeatureCategorySubject(String featureCategorySubject) {
+		this.featureCategorySubject = featureCategorySubject;
 	}
 
-	public String getFeaturePredicate() {
-		return featurePredicate;
+	public String getFeatureCategoryPredicate() {
+		return featureCategoryPredicate;
 	}
 
-	public void setFeaturePredicate(String featurePredicate) {
-		this.featurePredicate = featurePredicate;
+	public void setFeatureCategoryPredicate(String featureCategoryPredicate) {
+		this.featureCategoryPredicate = featureCategoryPredicate;
 	}
 
-	public String getFeatureSubjectPredicate() {
-		return featureSubjectPredicate;
+	public String getFeatureCategorySubjectPredicate() {
+		return featureCategorySubjectPredicate;
 	}
 
-	public void setFeatureSubjectPredicate(String featureSubjectPredicate) {
-		this.featureSubjectPredicate = featureSubjectPredicate;
+	public void setFeatureCategorySubjectPredicate(String featureCategorySubjectPredicate) {
+		this.featureCategorySubjectPredicate = featureCategorySubjectPredicate;
 	}
 
-	public String getFeatureSubjectAttribute() {
-		return featureSubjectAttribute;
+	public String getFeatureCategorySubjectAttribute() {
+		return featureCategorySubjectAttribute;
 	}
 
-	public void setFeatureSubjectAttribute(String featureSubjectAttribute) {
-		this.featureSubjectAttribute = featureSubjectAttribute;
+	public void setFeatureCategorySubjectAttribute(String featureCategorySubjectAttribute) {
+		this.featureCategorySubjectAttribute = featureCategorySubjectAttribute;
 	}
 
 	public String getCompetitor() {
@@ -296,38 +296,38 @@ public class SourceDocument implements Serializable {
 		this.competitorSubjectAttribute = competitorSubjectAttribute;
 	}
 
-	public String getCompetitorFeatureSubject() {
-		return competitorFeatureSubject;
+	public String getCompetitorFeatureCategorySubject() {
+		return competitorFeatureCategorySubject;
 	}
 
-	public void setCompetitorFeatureSubject(String competitorFeatureSubject) {
-		this.competitorFeatureSubject = competitorFeatureSubject;
+	public void setCompetitorFeatureCategorySubject(String competitorFeatureCategorySubject) {
+		this.competitorFeatureCategorySubject = competitorFeatureCategorySubject;
 	}
 
-	public String getCompetitorFeaturePredicate() {
-		return competitorFeaturePredicate;
+	public String getCompetitorFeatureCategoryPredicate() {
+		return competitorFeatureCategoryPredicate;
 	}
 
-	public void setCompetitorFeaturePredicate(String competitorFeaturePredicate) {
-		this.competitorFeaturePredicate = competitorFeaturePredicate;
+	public void setCompetitorFeatureCategoryPredicate(String competitorFeatureCategoryPredicate) {
+		this.competitorFeatureCategoryPredicate = competitorFeatureCategoryPredicate;
 	}
 
-	public String getCompetitorFeatureSubjectPredicate() {
-		return competitorFeatureSubjectPredicate;
+	public String getCompetitorFeatureCategorySubjectPredicate() {
+		return competitorFeatureCategorySubjectPredicate;
 	}
 
-	public void setCompetitorFeatureSubjectPredicate(
-			String competitorFeatureSubjectPredicate) {
-		this.competitorFeatureSubjectPredicate = competitorFeatureSubjectPredicate;
+	public void setCompetitorFeatureCategorySubjectPredicate(
+			String competitorFeatureCategorySubjectPredicate) {
+		this.competitorFeatureCategorySubjectPredicate = competitorFeatureCategorySubjectPredicate;
 	}
 
-	public String getCompetitorFeatureSubjectAttribute() {
-		return competitorFeatureSubjectAttribute;
+	public String getCompetitorFeatureCategorySubjectAttribute() {
+		return competitorFeatureCategorySubjectAttribute;
 	}
 
-	public void setCompetitorFeatureSubjectAttribute(
-			String competitorFeatureSubjectAttribute) {
-		this.competitorFeatureSubjectAttribute = competitorFeatureSubjectAttribute;
+	public void setCompetitorFeatureCategorySubjectAttribute(
+			String competitorFeatureCategorySubjectAttribute) {
+		this.competitorFeatureCategorySubjectAttribute = competitorFeatureCategorySubjectAttribute;
 	}
 
 	public double getPolarity() {
@@ -372,9 +372,9 @@ public class SourceDocument implements Serializable {
 			.append("text").append(DELIMITER)
 			.append("text1").append(DELIMITER)
 			.append("text2").append(DELIMITER)
-			.append("feature").append(DELIMITER)
-			.append("feature1").append(DELIMITER)
-			.append("main_feature").append(DELIMITER)
+			.append("featurecategory").append(DELIMITER)
+			.append("featurecategory1").append(DELIMITER)
+			.append("main_featurecategory").append(DELIMITER)
 			.append("clause").append(DELIMITER)
 			.append("subject").append(DELIMITER)
 			.append("predicate").append(DELIMITER)
@@ -382,19 +382,19 @@ public class SourceDocument implements Serializable {
 			.append("modifier").append(DELIMITER)
 			.append("subject_predicate").append(DELIMITER)
 			.append("subject_attribute").append(DELIMITER)
-			.append("feature_subject").append(DELIMITER)
-			.append("feature_predicate").append(DELIMITER)
-			.append("feature_subject_predicate").append(DELIMITER)
-			.append("feature_subject_attribute").append(DELIMITER)
+			.append("featurecategory_subject").append(DELIMITER)
+			.append("featurecategory_predicate").append(DELIMITER)
+			.append("featurecategory_subject_predicate").append(DELIMITER)
+			.append("featurecategory_subject_attribute").append(DELIMITER)
 			.append("competitor").append(DELIMITER)
 			.append("competitor_subject").append(DELIMITER)
 			.append("competitor_predicate").append(DELIMITER)
 			.append("competitor_subject_predicate").append(DELIMITER)
 			.append("competitor_subject_attribute").append(DELIMITER)
-			.append("competitor_feature_subject").append(DELIMITER)
-			.append("competitor_feature_predicate").append(DELIMITER)
-			.append("competitor_feature_subject_predicate").append(DELIMITER)
-			.append("competitor_feature_subject_attribute").append(DELIMITER)
+			.append("competitor_featurecategory_subject").append(DELIMITER)
+			.append("competitor_featurecategory_predicate").append(DELIMITER)
+			.append("competitor_featurecategory_subject_predicate").append(DELIMITER)
+			.append("competitor_featurecategory_subject_attribute").append(DELIMITER)
 			.append("polarity").append(DELIMITER)
 			.append("polarity_strength").append(DELIMITER)
 			.append("custom_fields");
@@ -416,9 +416,9 @@ public class SourceDocument implements Serializable {
 			.append(text).append(DELIMITER)
 			.append(text1).append(DELIMITER)
 			.append(text2).append(DELIMITER)
-			.append(feature).append(DELIMITER)
-			.append(feature1).append(DELIMITER)
-			.append(mainFeature).append(DELIMITER)
+			.append(featureCategory).append(DELIMITER)
+			.append(featureCategory1).append(DELIMITER)
+			.append(mainFeatureCategory).append(DELIMITER)
 			.append(clause).append(DELIMITER)
 			.append(subject).append(DELIMITER)
 			.append(predicate).append(DELIMITER)
@@ -426,19 +426,19 @@ public class SourceDocument implements Serializable {
 			.append(modifier).append(DELIMITER)
 			.append(subjectPredicate).append(DELIMITER)
 			.append(subjectAttribute).append(DELIMITER)
-			.append(featureSubject).append(DELIMITER)
-			.append(featurePredicate).append(DELIMITER)
-			.append(featureSubjectPredicate).append(DELIMITER)
-			.append(featureSubjectAttribute).append(DELIMITER)
+			.append(featureCategorySubject).append(DELIMITER)
+			.append(featureCategoryPredicate).append(DELIMITER)
+			.append(featureCategorySubjectPredicate).append(DELIMITER)
+			.append(featureCategorySubjectAttribute).append(DELIMITER)
 			.append(competitor).append(DELIMITER)
 			.append(competitorSubject).append(DELIMITER)
 			.append(competitorPredicate).append(DELIMITER)
 			.append(competitorSubjectPredicate).append(DELIMITER)
 			.append(competitorSubjectAttribute).append(DELIMITER)
-			.append(competitorFeatureSubject).append(DELIMITER)
-			.append(competitorFeaturePredicate).append(DELIMITER)
-			.append(competitorFeatureSubjectPredicate).append(DELIMITER)
-			.append(competitorFeatureSubjectAttribute).append(DELIMITER)
+			.append(competitorFeatureCategorySubject).append(DELIMITER)
+			.append(competitorFeatureCategoryPredicate).append(DELIMITER)
+			.append(competitorFeatureCategorySubjectPredicate).append(DELIMITER)
+			.append(competitorFeatureCategorySubjectAttribute).append(DELIMITER)
 			.append(polarity).append(DELIMITER)
 			.append(polarityStrength).append(DELIMITER);
 		
