@@ -9,7 +9,7 @@ import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.nhn.socialanalytics.nlp.feature.FeatureClassifier;
+import com.nhn.socialanalytics.nlp.feature.FeatureCategoryClassifier;
 import com.nhn.socialanalytics.nlp.morpheme.MorphemeAnalyzer;
 import com.nhn.socialanalytics.nlp.semantic.SemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.semantic.SemanticClause;
@@ -23,7 +23,7 @@ public class TextAnalyzer {
 	private Map<Locale, MorphemeAnalyzer> morphemeAnalyzers = new HashMap<Locale, MorphemeAnalyzer>();
 	private Map<Locale, SemanticAnalyzer> semanticAnalyzers = new HashMap<Locale, SemanticAnalyzer>();
 	private Map<Locale, SentimentAnalyzer> sentimentAnalyzers = new HashMap<Locale, SentimentAnalyzer>();
-	private Map<String, Map<Locale, FeatureClassifier>> featureClassifiers = new HashMap<String, Map<Locale, FeatureClassifier>>();
+	private Map<String, Map<Locale, FeatureCategoryClassifier>> featureCategoryClassifiers = new HashMap<String, Map<Locale, FeatureCategoryClassifier>>();
 
 	public TextAnalyzer() {
 		
@@ -76,34 +76,34 @@ public class TextAnalyzer {
 		return polarity;
 	}
 	
-	public SemanticSentence classifyFeature(String objectId, Locale locale, SemanticSentence sentence) {
-		FeatureClassifier featureClassifier = getFeatureClassifier(objectId, locale);
+	public SemanticSentence classifyFeatureCategory(String objectId, Locale locale, SemanticSentence sentence) {
+		FeatureCategoryClassifier featureCategoryClassifier = getFeatureCategoryClassifier(objectId, locale);
 		
 		String standardLabels = sentence.extractStandardLabel(" ", " ", true, false, false);
-		Map<String, Double> featureCounts = featureClassifier.getFeatureCounts(standardLabels, true);
-		String mainFeature = featureClassifier.getMainFeature(featureCounts);
-		sentence.setFeatures(featureCounts);
-		sentence.setMainFeature(mainFeature);
+		Map<String, Double> featureCategoryCounts = featureCategoryClassifier.getFeatureCategoryCounts(standardLabels, true);
+		String mainFeatureCategory = featureCategoryClassifier.getMainFeatureCategory(featureCategoryCounts);
+		sentence.setFeatureCategories(featureCategoryCounts);
+		sentence.setMainFeatureCategory(mainFeatureCategory);
 		
 		for (SemanticClause clause : sentence) {
 			String clauseStandardLabels = clause.makeStandardLabel(" ", true, false, false);
 			
-			Map<String, Double> clauseFeatureCounts = featureClassifier.getFeatureCounts(clauseStandardLabels, true);
-			String clauseMainFeature = featureClassifier.getMainFeature(clauseFeatureCounts);
-			clause.setFeatures(clauseFeatureCounts);
-			clause.setMainFeature(clauseMainFeature);
+			Map<String, Double> clauseFeatureCategoryCounts = featureCategoryClassifier.getFeatureCategoryCounts(clauseStandardLabels, true);
+			String clauseMainFeatureCategory = featureCategoryClassifier.getMainFeatureCategory(clauseFeatureCategoryCounts);
+			clause.setFeatureCategories(clauseFeatureCategoryCounts);
+			clause.setMainFeatureCategory(clauseMainFeatureCategory);
 		}
 
 		return sentence;
 	}
 	
-	public String classifyMainFeature(String objectId, Locale locale, String standardLabels) {
-		FeatureClassifier featureClassifier = getFeatureClassifier(objectId, locale);
+	public String classifyMainFeatureCategory(String objectId, Locale locale, String standardLabels) {
+		FeatureCategoryClassifier featureCategoryClassifier = getFeatureCategoryClassifier(objectId, locale);
 		
-		Map<String, Double> featureCounts = featureClassifier.getFeatureCounts(standardLabels, true);
-		String mainFeature = featureClassifier.getMainFeature(featureCounts);
+		Map<String, Double> featureCategoryCounts = featureCategoryClassifier.getFeatureCategoryCounts(standardLabels, true);
+		String mainFeatureCategory = featureCategoryClassifier.getMainFeatureCategory(featureCategoryCounts);
 
-		return mainFeature;
+		return mainFeatureCategory;
 	}
 	
 	public void putMorphemeAnalyzer(Locale locale, MorphemeAnalyzer analyzer) {
@@ -121,17 +121,17 @@ public class TextAnalyzer {
 		sentimentAnalyzers.put(locale, analyzer);
 	}
 	
-	public void putFeatureClassifier(String objectId, Locale locale, FeatureClassifier classifier) {
+	public void putFeatureCategoryClassifier(String objectId, Locale locale, FeatureCategoryClassifier classifier) {
 		locales.add(locale);
-		Map<Locale, FeatureClassifier> classifiers = (Map<Locale, FeatureClassifier>) featureClassifiers.get(objectId);
+		Map<Locale, FeatureCategoryClassifier> classifiers = (Map<Locale, FeatureCategoryClassifier>) featureCategoryClassifiers.get(objectId);
 		
 		if (classifiers != null) {
 			classifiers.put(locale, classifier);
 		}
 		else {
-			Map<Locale, FeatureClassifier> newClassifiers = new HashMap<Locale, FeatureClassifier>();
+			Map<Locale, FeatureCategoryClassifier> newClassifiers = new HashMap<Locale, FeatureCategoryClassifier>();
 			newClassifiers.put(locale, classifier);
-			featureClassifiers.put(objectId, newClassifiers);			
+			featureCategoryClassifiers.put(objectId, newClassifiers);			
 		}		
 	}
 	
@@ -147,9 +147,9 @@ public class TextAnalyzer {
 		return (SentimentAnalyzer) sentimentAnalyzers.get(locale);
 	}
 	
-	private FeatureClassifier getFeatureClassifier(String objectId, Locale locale) {
-		Map<Locale, FeatureClassifier> classifiers = (Map<Locale, FeatureClassifier>) featureClassifiers.get(objectId);
-		FeatureClassifier classifier = (FeatureClassifier) classifiers.get(locale);
+	private FeatureCategoryClassifier getFeatureCategoryClassifier(String objectId, Locale locale) {
+		Map<Locale, FeatureCategoryClassifier> classifiers = (Map<Locale, FeatureCategoryClassifier>) featureCategoryClassifiers.get(objectId);
+		FeatureCategoryClassifier classifier = (FeatureCategoryClassifier) classifiers.get(locale);
 		
 		return classifier;
 	}

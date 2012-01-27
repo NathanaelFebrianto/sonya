@@ -14,8 +14,8 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 	private String sentence;
 	private double polarity;
 	private double polarityStrength;
-	private String mainFeature = "";
-	private Map<String, Double> features = new HashMap<String, Double>();
+	private String mainFeatureCategory = "";
+	private Map<String, Double> featureCategories = new HashMap<String, Double>();
 	private Map<String, Boolean> competitors = new HashMap<String, Boolean>();
 	
 	public SemanticSentence(int id, String sentence) {
@@ -43,17 +43,17 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 	public void setPolarityStrength(double polarityStrength) {
 		this.polarityStrength = polarityStrength;
 	}
-	public String getMainFeature() {
-		return mainFeature;
+	public String getMainFeatureCategory() {
+		return mainFeatureCategory;
 	}
-	public void setMainFeature(String mainFeature) {
-		this.mainFeature = mainFeature;
+	public void setMainFeatureCategory(String mainFeatureCategory) {
+		this.mainFeatureCategory = mainFeatureCategory;
 	}
-	public Map<String, Double> getFeatures() {
-		return features;
+	public Map<String, Double> getFeatureCategories() {
+		return featureCategories;
 	}
-	public void setFeatures(Map<String, Double> features) {
-		this.features = features;
+	public void setFeatureCategories(Map<String, Double> featureCategories) {
+		this.featureCategories = featureCategories;
 	}
 	public Map<String, Boolean> getCompetitors() {
 		return competitors;
@@ -218,13 +218,13 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 	}
 	
 	public String extractStandardSubjectPredicateLabel(String clauseDelimiter, String termDelimiter, 
-			boolean includeFeature, boolean includeCompetitor, boolean includeChild) {
+			boolean includeFeatureCategory, boolean includeCompetitor, boolean includeChild) {
 		StringBuffer sb = new StringBuffer();
 		
 		for (int i = 0; i < this.size(); i++) {	
 			SemanticClause clause = this.get(i);
 
-			String label = clause.makeStandardSubjectPredicateLabel(clauseDelimiter, termDelimiter, includeFeature, includeCompetitor, includeChild);
+			String label = clause.makeStandardSubjectPredicateLabel(clauseDelimiter, termDelimiter, includeFeatureCategory, includeCompetitor, includeChild);
 			
 			if (label != null && !label.trim().equals("")) {
 				sb.append(label);
@@ -238,13 +238,13 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 	}
 	
 	public String extractStandardSubjectAttributeLabel(String clauseDelimiter, String termDelimiter, 
-			boolean includeFeature, boolean includeCompetitor) {
+			boolean includeFeatureCategory, boolean includeCompetitor) {
 		StringBuffer sb = new StringBuffer();
 		
 		for (int i = 0; i < this.size(); i++) {	
 			SemanticClause clause = this.get(i);
 
-			String label = clause.makeStandardSubjectAttributeLabel(clauseDelimiter, termDelimiter, includeFeature, includeCompetitor);
+			String label = clause.makeStandardSubjectAttributeLabel(clauseDelimiter, termDelimiter, includeFeatureCategory, includeCompetitor);
 			
 			if (label != null && !label.trim().equals("")) {
 				sb.append(label);
@@ -258,7 +258,7 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 	}
 	
 	public String extractStandardSubjectLabel(String clauseDelimiter, String termDelimiter, 
-			boolean includeFeature, boolean includeCompetitor) {
+			boolean includeFeatureCategory, boolean includeCompetitor) {
 		StringBuffer sb = new StringBuffer();
 		
 		int i = 0;
@@ -270,8 +270,8 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 					for (Map.Entry<String, Boolean> entry : competitors.entrySet()) {
 						sb.append(entry.getKey()).append(termDelimiter);
 						
-						if (includeFeature)
-							sb.append(clause.getMainFeature()).append(termDelimiter);
+						if (includeFeatureCategory)
+							sb.append(clause.getMainFeatureCategory()).append(termDelimiter);
 						
 						sb.append(label);
 						
@@ -282,8 +282,8 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 					}		
 				}
 				else {
-					if (includeFeature)
-						sb.append(clause.getMainFeature()).append(termDelimiter);
+					if (includeFeatureCategory)
+						sb.append(clause.getMainFeatureCategory()).append(termDelimiter);
 					
 					sb.append(label);
 					if (i < this.size() - 1)
@@ -297,7 +297,7 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 	}
 	
 	public String extractStandardPredicateLabel(String clauseDelimiter, String termDelimiter, 
-			boolean includeFeature, boolean includeCompetitor) {
+			boolean includeFeatureCategory, boolean includeCompetitor) {
 		StringBuffer sb = new StringBuffer();
 		
 		int i = 0;
@@ -309,8 +309,8 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 					for (Map.Entry<String, Boolean> entry : competitors.entrySet()) {
 						sb.append(entry.getKey()).append(termDelimiter);
 						
-						if (includeFeature)
-							sb.append(clause.getMainFeature()).append(termDelimiter);
+						if (includeFeatureCategory)
+							sb.append(clause.getMainFeatureCategory()).append(termDelimiter);
 						
 						sb.append(label);
 						
@@ -321,8 +321,8 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 					}		
 				}
 				else {
-					if (includeFeature)
-						sb.append(clause.getMainFeature()).append(termDelimiter);
+					if (includeFeatureCategory)
+						sb.append(clause.getMainFeatureCategory()).append(termDelimiter);
 					
 					sb.append(label);
 					if (i < this.size() - 1)
@@ -373,16 +373,16 @@ public class SemanticSentence extends ArrayList<SemanticClause> {
 		StringBuffer sb = new StringBuffer();
 
 		int i = 0;
-		for (Map.Entry<String, Double> entry : features.entrySet()) {
-			String feature = entry.getKey();
+		for (Map.Entry<String, Double> entry : featureCategories.entrySet()) {
+			String featureCategory = entry.getKey();
 			Double score = entry.getValue();
 			
 			if (includeScore)
-				sb.append(feature).append("(").append(score).append(")");
+				sb.append(featureCategory).append("(").append(score).append(")");
 			else
-				sb.append(feature);
+				sb.append(featureCategory);
 			
-			if (i < features.size() - 1)
+			if (i < featureCategories.size() - 1)
 				sb.append(delimiter);
 			
 			i++;

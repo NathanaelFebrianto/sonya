@@ -12,8 +12,8 @@ import java.util.Set;
 public class SemanticClause implements Serializable {
 
 	private int id = -1;
-	private String mainFeature = "";
-	private Map<String, Double> features = new HashMap<String, Double>();
+	private String mainFeatureCategory = "";
+	private Map<String, Double> featureCategories = new HashMap<String, Double>();
 	private String subject;	
 	private String standardSubject;
 	private String predicate;
@@ -41,17 +41,17 @@ public class SemanticClause implements Serializable {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getMainFeature() {
-		return mainFeature;
+	public String getMainFeatureCategory() {
+		return mainFeatureCategory;
 	}
-	public void setMainFeature(String mainFeature) {
-		this.mainFeature = mainFeature;
+	public void setMainFeatureCategory(String mainFeatureCategory) {
+		this.mainFeatureCategory = mainFeatureCategory;
 	}
-	public Map<String, Double> getFeatures() {
-		return features;
+	public Map<String, Double> getFeatureCategories() {
+		return featureCategories;
 	}
-	public void setFeatures(Map<String, Double> features) {
-		this.features = features;
+	public void setFeatureCategories(Map<String, Double> featureCategories) {
+		this.featureCategories = featureCategories;
 	}
 	public String getSubject() {
 		return subject;
@@ -168,8 +168,8 @@ public class SemanticClause implements Serializable {
 	
 	public SemanticClause clone() {
 		SemanticClause clause = new SemanticClause();
-		clause.setMainFeature(mainFeature);
-		clause.setFeatures(features);
+		clause.setMainFeatureCategory(mainFeatureCategory);
+		clause.setFeatureCategories(featureCategories);
 		clause.setSubject(subject);
 		clause.setStandardSubject(standardSubject);
 		clause.setPredicate(predicate);
@@ -234,7 +234,7 @@ public class SemanticClause implements Serializable {
 	}
 	
 	public String makeStandardSubjectPredicateLabel(String clauseDelimiter, String termDelimiter, 
-			boolean includeFeature, boolean includeCompetitor, boolean includeChild) {
+			boolean includeFeatureCategory, boolean includeCompetitor, boolean includeChild) {
 		String label = "";
 		String strSubject = "";
 		String strPredicate = "";
@@ -249,8 +249,8 @@ public class SemanticClause implements Serializable {
 		label = label + strSubject + termDelimiter + strPredicate;
 		label = label.trim();
 		
-		if (includeFeature) {
-			label = mainFeature + termDelimiter + label;
+		if (includeFeatureCategory) {
+			label = mainFeatureCategory + termDelimiter + label;
 			label = label.trim();
 		}
 		
@@ -277,10 +277,10 @@ public class SemanticClause implements Serializable {
 			for (SemanticClause child : childClauses) {
 				if (childLabels != null)
 					childLabels = childLabels + clauseDelimiter + child.makeStandardSubjectPredicateLabel(clauseDelimiter, termDelimiter, 
-							includeFeature, includeCompetitor, includeChild);
+							includeFeatureCategory, includeCompetitor, includeChild);
 				else
 					childLabels = child.makeStandardSubjectPredicateLabel(clauseDelimiter, termDelimiter, 
-							includeFeature, includeCompetitor, includeChild);
+							includeFeatureCategory, includeCompetitor, includeChild);
 			}
 			
 			if (childLabels != null)
@@ -291,7 +291,7 @@ public class SemanticClause implements Serializable {
 	}
 	
 	public String makeStandardSubjectAttributeLabel(String clauseDelimiter, String termDelimiter, 
-			boolean includeFeature, boolean includeCompetitor) {
+			boolean includeFeatureCategory, boolean includeCompetitor) {
 		String label = "";
 		String strSubject = "";
 		
@@ -305,8 +305,8 @@ public class SemanticClause implements Serializable {
 		label = label + strSubject;
 		label = label.trim();
 		
-		if (includeFeature) {
-			label = mainFeature + termDelimiter + label;
+		if (includeFeatureCategory) {
+			label = mainFeatureCategory + termDelimiter + label;
 			label = label.trim();
 		}
 		
@@ -397,16 +397,16 @@ public class SemanticClause implements Serializable {
 		StringBuffer sb = new StringBuffer();
 
 		int i = 0;
-		for (Map.Entry<String, Double> entry : features.entrySet()) {
-			String feature = entry.getKey();
+		for (Map.Entry<String, Double> entry : featureCategories.entrySet()) {
+			String featureCategory = entry.getKey();
 			Double score = entry.getValue();
 			
 			if (includeScore)
-				sb.append(feature).append("(").append(score).append(")");
+				sb.append(featureCategory).append("(").append(score).append(")");
 			else
-				sb.append(feature);
+				sb.append(featureCategory);
 			
-			if (i < features.size() - 1)
+			if (i < featureCategories.size() - 1)
 				sb.append(delimiter);
 			
 			i++;
@@ -423,7 +423,7 @@ public class SemanticClause implements Serializable {
 			.append(" *predicate = ").append(predicate)
 			.append(" *attributes = ").append(attributes.toString())
 			.append(" *modifiers = ").append(modifiers.toString())	
-			.append(" *features = ").append(features)
+			.append(" *featureCategories = ").append(featureCategories)
 			.append(" *competitors = ").append(competitors)
 			.append(" standardSubjectPredicateLabel = ").append(makeStandardSubjectPredicateLabel(" ", "_", false, false, false))
 			.append(" featureSubjectPredicateLabel = ").append(makeStandardSubjectPredicateLabel(" ", "_", true, false, false))
