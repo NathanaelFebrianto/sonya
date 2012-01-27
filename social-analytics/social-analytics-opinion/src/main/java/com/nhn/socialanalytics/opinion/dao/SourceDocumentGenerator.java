@@ -1,7 +1,5 @@
 package com.nhn.socialanalytics.opinion.dao;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Locale;
 
 import com.nhn.socialanalytics.nlp.analysis.TextAnalyzer;
@@ -21,7 +19,7 @@ public class SourceDocumentGenerator {
 		this.textAnalyzer = textAnalyzer;
 	}
 	
-	public SourceDocument generate(Locale locale, String objectId, List<String> texts) {
+	public SourceDocument generate(Locale locale, String objectId, String text) {
 		SourceDocument doc = new SourceDocument();
 		
 		String text1 = "";
@@ -53,101 +51,70 @@ public class SourceDocumentGenerator {
 		
 		Polarity polarity;
 		
+		// text1
+		text1 = textAnalyzer.extractTerms(locale, text) + " ";
+		// text2
+		text2 = textAnalyzer.extractCoreTerms(locale, text) + " ";
 		
-		List<SemanticSentence> semanticSentences = new ArrayList<SemanticSentence>();
+		// analyze semantics
+		SemanticSentence semanticSentence = textAnalyzer.analyzeSemantics(locale, text);
 		
-		for (int i = 0; i < texts.size(); i++) {
-			String text = texts.get(i);
-			// text1
-			text1 += textAnalyzer.extractTerms(locale, text) + " ";
-			// text2
-			text2 += textAnalyzer.extractCoreTerms(locale, text) + " ";
-			
-			// analyze semantics
-			SemanticSentence semanticSentence = textAnalyzer.analyzeSemantics(locale, text);
-			
-			// classify feature
-			semanticSentence = textAnalyzer.classifyFeatureCategory(objectId, locale, semanticSentence);
-			standardLabels += semanticSentence.extractStandardLabel(" ", " ", true, false, false);
-			featureCategory += semanticSentence.extractFeaturesLabel(" ", false);
-			featureCategory1 += semanticSentence.extractFeaturesLabel(" ", true);
-			
-			// clause
-			clause += semanticSentence.extractStandardLabel(",", "_", true, false, false);			
-			// subject
-			subject += semanticSentence.extractStandardSubjectLabel(" ", " ", false, false);		
-			// predicate
-			predicate += semanticSentence.extractStandardPredicateLabel(" ", " ", false, false);
-			// attribute
-			attribute += semanticSentence.extractStandardAttributesLabel(" ");
-			// modifier
-			modifier += semanticSentence.extractStandardModifiersLabel(" ");
-			// subject_predicate
-			subjectPredicate += semanticSentence.extractStandardSubjectPredicateLabel(" ", "_", false, false, false);
-			// subject_attribute
-			subjectAttribute += semanticSentence.extractStandardSubjectAttributeLabel(" ", "_", false, false);
-			// feature_subject
-			featureCategorySubject += semanticSentence.extractStandardSubjectLabel(" ", "_", true, false);
-			// feature_predicate
-			featureCategoryPredicate += semanticSentence.extractStandardPredicateLabel(" ", "_", true, false);
-			// feature_subject_predicate
-			featureCategorySubjectPredicate += semanticSentence.extractStandardSubjectPredicateLabel(" ", "_", true, false, false);
-			// feature_subject_attribute
-			featureCategorySubjectAttribute += semanticSentence.extractStandardSubjectAttributeLabel(" ", "_", true, false);
-			
-			// competitor
-			competitor += semanticSentence.extractCompetitorsLabel(" ");
-			// competitor_subject
-			competitorSubject += semanticSentence.extractStandardSubjectLabel(" ", "_", false, true);		
-			// competitor_predicate
-			competitorPredicate += semanticSentence.extractStandardPredicateLabel(" ", "_", false, true);
-			// competitor_subject_predicate
-			competitorSubjectPredicate += semanticSentence.extractStandardSubjectPredicateLabel(" ", "_", false, true, false);
-			// competitor_subject_attribute
-			competitorSubjectAttribute += semanticSentence.extractStandardSubjectAttributeLabel(" ", "_", false, true);
-			// competitor_feature_subject
-			competitorFeatureCategorySubject += semanticSentence.extractStandardSubjectLabel(" ", "_", true, true);
-			// competitor_feature_predicate
-			competitorFeatureCategoryPredicate += semanticSentence.extractStandardPredicateLabel(" ", "_", true, true);
-			// competitor_feature_subject_predicate
-			competitorFeatureCategorySubjectPredicate += semanticSentence.extractStandardSubjectPredicateLabel(" ", "_", true, true, false);
-			// competitor_feature_subject_attribute
-			competitorFeatureCategorySubjectAttribute += semanticSentence.extractStandardSubjectAttributeLabel(" ", "_", true, true);
-
-			
-			if (i < texts.size() - 1) {
-				standardLabels += " ";
-				featureCategory += " ";
-				featureCategory1 += " ";
-				if (!clause.trim().equals(""))	clause += ",";
-				subject += " ";
-				predicate += " ";
-				attribute += " ";
-				modifier += " ";
-				subjectPredicate += " ";
-				subjectAttribute += " ";
-				featureCategorySubject += " ";
-				featureCategoryPredicate += " ";
-				featureCategorySubjectPredicate += " ";
-				featureCategorySubjectAttribute += " ";
-				competitor += " ";
-				competitorSubject += " ";
-				competitorPredicate += " ";
-				competitorSubjectPredicate += " ";
-				competitorSubjectAttribute += " ";
-				competitorFeatureCategorySubject += " ";
-				competitorFeatureCategoryPredicate += " ";
-				competitorFeatureCategorySubjectPredicate += " ";
-				competitorFeatureCategorySubjectAttribute += " ";
-			}
-			semanticSentences.add(semanticSentence);
-		}
+		// classify feature
+		semanticSentence = textAnalyzer.classifyFeatureCategory(objectId, locale, semanticSentence);
+		standardLabels = semanticSentence.extractStandardLabel(" ", " ", true, false, false);
+		featureCategory = semanticSentence.extractFeaturesLabel(" ", false);
+		featureCategory1 = semanticSentence.extractFeaturesLabel(" ", true);
+		
+		// extract competitors
+		semanticSentence = textAnalyzer.extractCompetitors(objectId, semanticSentence);
+		
+		// clause
+		clause = semanticSentence.extractStandardLabel(",", "_", true, false, false);			
+		// subject
+		subject = semanticSentence.extractStandardSubjectLabel(" ", " ", false, false);		
+		// predicate
+		predicate = semanticSentence.extractStandardPredicateLabel(" ", " ", false, false);
+		// attribute
+		attribute = semanticSentence.extractStandardAttributesLabel(" ");
+		// modifier
+		modifier = semanticSentence.extractStandardModifiersLabel(" ");
+		// subject_predicate
+		subjectPredicate = semanticSentence.extractStandardSubjectPredicateLabel(" ", "_", false, false, false);
+		// subject_attribute
+		subjectAttribute = semanticSentence.extractStandardSubjectAttributeLabel(" ", "_", false, false);
+		// feature_subject
+		featureCategorySubject = semanticSentence.extractStandardSubjectLabel(" ", "_", true, false);
+		// feature_predicate
+		featureCategoryPredicate = semanticSentence.extractStandardPredicateLabel(" ", "_", true, false);
+		// feature_subject_predicate
+		featureCategorySubjectPredicate = semanticSentence.extractStandardSubjectPredicateLabel(" ", "_", true, false, false);
+		// feature_subject_attribute
+		featureCategorySubjectAttribute = semanticSentence.extractStandardSubjectAttributeLabel(" ", "_", true, false);
+		
+		// competitor
+		competitor = semanticSentence.extractCompetitorsLabel(" ");
+		// competitor_subject
+		competitorSubject = semanticSentence.extractStandardSubjectLabel(" ", "_", false, true);		
+		// competitor_predicate
+		competitorPredicate = semanticSentence.extractStandardPredicateLabel(" ", "_", false, true);
+		// competitor_subject_predicate
+		competitorSubjectPredicate = semanticSentence.extractStandardSubjectPredicateLabel(" ", "_", false, true, false);
+		// competitor_subject_attribute
+		competitorSubjectAttribute = semanticSentence.extractStandardSubjectAttributeLabel(" ", "_", false, true);
+		// competitor_feature_subject
+		competitorFeatureCategorySubject = semanticSentence.extractStandardSubjectLabel(" ", "_", true, true);
+		// competitor_feature_predicate
+		competitorFeatureCategoryPredicate = semanticSentence.extractStandardPredicateLabel(" ", "_", true, true);
+		// competitor_feature_subject_predicate
+		competitorFeatureCategorySubjectPredicate = semanticSentence.extractStandardSubjectPredicateLabel(" ", "_", true, true, false);
+		// competitor_feature_subject_attribute
+		competitorFeatureCategorySubjectAttribute = semanticSentence.extractStandardSubjectAttributeLabel(" ", "_", true, true);
 		
 		// main feature
 		mainFeatureCategory = textAnalyzer.classifyMainFeatureCategory(objectId, locale, standardLabels);
 		
 		// analyze sentiment
-		polarity  = textAnalyzer.analyzePolarity(locale, semanticSentences);
+		polarity  = textAnalyzer.analyzePolarity(locale, semanticSentence);
 	
 		// set document
 		doc.setObjectId(objectId);
