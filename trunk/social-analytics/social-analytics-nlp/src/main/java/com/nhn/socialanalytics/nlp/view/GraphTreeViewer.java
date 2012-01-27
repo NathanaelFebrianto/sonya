@@ -42,8 +42,8 @@ import org.apache.commons.collections15.functors.ConstantTransformer;
 import org.apache.commons.collections15.functors.MapTransformer;
 import org.apache.commons.collections15.map.LazyMap;
 
-import com.nhn.socialanalytics.nlp.competitor.CompetitorFinder;
-import com.nhn.socialanalytics.nlp.feature.FeatureClassifier;
+import com.nhn.socialanalytics.nlp.competitor.CompetitorExtractor;
+import com.nhn.socialanalytics.nlp.feature.FeatureCategoryClassifier;
 import com.nhn.socialanalytics.nlp.lang.ko.Eojeol;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanSemanticAnalyzer;
 import com.nhn.socialanalytics.nlp.lang.ko.KoreanSyntacticAnalyzer;
@@ -395,9 +395,9 @@ public class GraphTreeViewer extends JApplet {
 				KoreanSemanticAnalyzer semanticAnalyzer = new KoreanSemanticAnalyzer();
 				SemanticSentence semanticSentence = semanticAnalyzer.analyze(source);
 				
-				FeatureClassifier featureClassifier = new FeatureClassifier(new File("./dic/feature/feature_default_ko.txt"));
-				CompetitorFinder competitorFinder = new CompetitorFinder(new File("./dic/competitor/competitor.txt"));
-				competitorFinder.loadDictionary();
+				FeatureCategoryClassifier featureCategoryClassifier = new FeatureCategoryClassifier(new File("./dic/feature/feature_mobile_ko.txt"));
+				CompetitorExtractor competitorExtractor = new CompetitorExtractor(new File("./dic/competitor/competitor.txt"));
+				competitorExtractor.loadDictionary();
 				SentimentAnalyzer sentimentAnalyzer = new SentimentAnalyzer(new File("./dic/liwc/LIWC_ko.txt"));
 				
 				semanticSentence.sort(true);
@@ -419,10 +419,10 @@ public class GraphTreeViewer extends JApplet {
 
 				tareaSemanticOutput.append("-------------------------------------\n");
 				for (SemanticClause clause : semanticSentence) {
-					Map<String, Double> features = featureClassifier.getFeatureCounts(clause.makeStandardLabel(" ", true, false, false), true);
-					String mainFeature = featureClassifier.getMainFeature(features);
-					clause.setFeatures(features);
-					clause.setMainFeature(mainFeature);
+					Map<String, Double> featureCategories = featureCategoryClassifier.getFeatureCategoryCounts(clause.makeStandardLabel(" ", true, false, false), true);
+					String mainFeatureCategory = featureCategoryClassifier.getMainFeatureCategory(featureCategories);
+					clause.setFeatureCategories(featureCategories);
+					clause.setMainFeatureCategory(mainFeatureCategory);
 					tareaSemanticOutput.append(clause.toString() + "\n");
 					tareaSemanticOutput.append("-------------------------------------\n");
 				}
@@ -433,7 +433,7 @@ public class GraphTreeViewer extends JApplet {
 
 				tareaSemanticOutput.append("-------------------------------------\n");
 				for (SemanticClause clause : semanticSentence) {
-					Map<String, Boolean> competitors = competitorFinder.getCompetitors(clause.makeStandardLabel(" ", true, false, false));
+					Map<String, Boolean> competitors = competitorExtractor.getCompetitors(clause.makeStandardLabel(" ", true, false, false));
 					clause.setCompetitors(competitors);
 					tareaSemanticOutput.append(clause.toString() + "\n");
 					tareaSemanticOutput.append("-------------------------------------\n");

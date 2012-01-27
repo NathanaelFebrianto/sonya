@@ -7,7 +7,7 @@ import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
 
-public class FeatureClassifier {
+public class FeatureCategoryClassifier {
 
 	private FeatureDictionary dictionary;
 	
@@ -16,7 +16,7 @@ public class FeatureClassifier {
 	/** Set of features that aren't included in the models. **/
 	private Set<String> absoluteCountFeatureSet;
 	
-	public FeatureClassifier(File catFile) {
+	public FeatureCategoryClassifier(File catFile) {
 		try {
 			dictionary = new FeatureDictionary(catFile);
 			
@@ -27,7 +27,7 @@ public class FeatureClassifier {
 		}
 	}
 	
-	public Map<String, Double> getFeatureCounts(String text, boolean absoluteCounts) {
+	public Map<String, Double> getFeatureCategoryCounts(String text, boolean absoluteCounts) {
 		
 		Map<String, Double> counts = new LinkedHashMap<String, Double>();	
 		
@@ -53,8 +53,8 @@ public class FeatureClassifier {
 		return counts;
 	}
 	
-	public String getMainFeature(String text, boolean absoluteCounts) {
-		Map<String, Double> featureCounts = this.getFeatureCounts(text, absoluteCounts);
+	public String getMainFeatureCategory(String text, boolean absoluteCounts) {
+		Map<String, Double> featureCounts = this.getFeatureCategoryCounts(text, absoluteCounts);
 		
 		int i = 0;
 		for (String feature : featureCounts.keySet()) { 
@@ -65,7 +65,7 @@ public class FeatureClassifier {
 		return "ETC";
 	}
 	
-	public String getMainFeature(Map<String, Double> featureCounts) {
+	public String getMainFeatureCategory(Map<String, Double> featureCounts) {
 
 		int i = 0;
 		for (String feature : featureCounts.keySet()) { 
@@ -78,11 +78,11 @@ public class FeatureClassifier {
 	
 	
 	public static void main(String[] args) {
-		FeatureClassifier classifier = new FeatureClassifier(new File("./dic/feature/feature_default_ko.txt"));
+		FeatureCategoryClassifier classifier = new FeatureCategoryClassifier(new File("./dic/feature/feature_mobile_ko.txt"));
 		
 		String text = "기능이 에러가 대박이 삼성이 통화 음성in 무료통화os 오류 좋다 디자인 예쁘다 한국 갤럭시";
-		Map<String, Double> features = classifier.getFeatureCounts(text, true);
-		System.out.println("matched features == " + features);
-		System.out.println("main feature == " + classifier.getMainFeature(text, true));
+		Map<String, Double> featureCategories = classifier.getFeatureCategoryCounts(text, true);
+		System.out.println("matched feature categories == " + featureCategories);
+		System.out.println("main feature category == " + classifier.getMainFeatureCategory(text, true));
 	}
 }
