@@ -1,9 +1,9 @@
 #SITE	OBJECT_ID	OBJECT_NAME	SEARCH_KEYWORDS	MAX_PAGE	HISTORY_BUFFER_MAX_ROUND	LANGUAGES	FEATURE_CLASSIFIERS	EXTENDED_ATTRIBUTES
-appstore	naverline	네이버라인	443904275	3	5	ko,ja	ko:./bin/feature/feature_default_ko.txt,ja:./bin/feature/feature_default_ja.txt	APPSTORE:Korea,APPSTORE:Japan
-appstore	naverapp	네이버앱	393499958	3	5	ko	ko:./bin/feature/feature_default_ko.txt	APPSTORE:Korea
-appstore	kakaotalk	카카오톡	362057947	3	5	ko,ja	ko:./bin/feature/feature_default_ko.txt,ja:./bin/feature/feature_default_ja.txt	APPSTORE:Korea,APPSTORE:Japan
-androidmarket	naverline	네이버라인	jp.naver.line.android	5	5	ko,ja	ko:./bin/feature/feature_default_ko.txt,ja:./bin/feature/feature_default_ja.txt	LOCALE:Korea,LOCALE:Japan
-androidmarket	naverapp	네이버앱	com.nhn.android.search	5	5	ko	ko:./bin/feature/feature_default_ko.txt	LOCALE:Korea
-androidmarket	kakaotalk	카카오톡	com.kakao.talk	5	5	ko,ja	ko:./bin/feature/feature_default_ko.txt,ja:./bin/feature/feature_default_ja.txt	LOCALE:Korea,LOCALE:Japan
-me2day	naverline	네이버라인	네이버라인,네이버LINE,NAVERLINE	5	1	ko	ko:./bin/feature/feature_default_ko.txt	
-twitter	naverline	네이버라인	네이버라인 OR 네이버LINE,NAVERLINE,naver ライン	5	1	ko,ja	ko:./bin/feature/feature_default_ko.txt,ja:./bin/feature/feature_default_ja.txt	
+appstore	naverline	네이버라인	443904275	3	5	ko,ja	ko:./bin/feature/feature_mobile_ko.txt,ja:./bin/feature/feature_mobile_ja.txt	APPSTORE:Korea,APPSTORE:Japan
+appstore	naverapp	네이버앱	393499958	3	5	ko	ko:./bin/feature/feature_mobile_ko.txt	APPSTORE:Korea
+appstore	kakaotalk	카카오톡	362057947	3	5	ko,ja	ko:./bin/feature/feature_mobile_ko.txt,ja:./bin/feature/feature_mobile_ja.txt	APPSTORE:Korea,APPSTORE:Japan
+androidmarket	naverline	네이버라인	jp.naver.line.android	5	5	ko,ja	ko:./bin/feature/feature_mobile_ko.txt,ja:./bin/feature/feature_mobile_ja.txt	LOCALE:Korea,LOCALE:Japan
+androidmarket	naverapp	네이버앱	com.nhn.android.search	5	5	ko	ko:./bin/feature/feature_mobile_ko.txt	LOCALE:Korea
+androidmarket	kakaotalk	카카오톡	com.kakao.talk	5	5	ko,ja	ko:./bin/feature/feature_mobile_ko.txt,ja:./bin/feature/feature_mobile_ja.txt	LOCALE:Korea,LOCALE:Japan
+me2day	naverline	네이버라인	네이버라인,네이버LINE,NAVERLINE	5	1	ko	ko:./bin/feature/feature_mobile_ko.txt	
+twitter	naverline	네이버라인	네이버라인 OR 네이버LINE,NAVERLINE,naver ライン	5	1	ko,ja	ko:./bin/feature/feature_mobile_ko.txt,ja:./bin/feature/feature_mobile_ja.txt	
