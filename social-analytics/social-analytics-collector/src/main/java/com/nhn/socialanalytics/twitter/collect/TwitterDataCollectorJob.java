@@ -8,15 +8,14 @@ import java.util.Locale;
 import java.util.Map;
 
 import org.quartz.Job;
-import org.quartz.JobDataMap;
 import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 
 import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.JobLogger;
+import com.nhn.socialanalytics.common.collect.CollectEntity;
+import com.nhn.socialanalytics.common.collect.CollectEntityReader;
 import com.nhn.socialanalytics.common.collect.CollectHistoryBuffer;
-import com.nhn.socialanalytics.common.collect.CollectObject;
-import com.nhn.socialanalytics.common.collect.CollectObjectReader;
 import com.nhn.socialanalytics.common.collect.Collector;
 import com.nhn.socialanalytics.common.util.DateUtil;
 import com.nhn.socialanalytics.nlp.analysis.TextAnalyzer;
@@ -39,7 +38,7 @@ public class TwitterDataCollectorJob implements Job {
 	public void execute(JobExecutionContext context) throws JobExecutionException {
 		try {
 			// get job data map
-			JobDataMap jobDataMap = context.getJobDetail().getJobDataMap();	
+			//JobDataMap jobDataMap = context.getJobDetail().getJobDataMap();	
 			//String param = jobDataMap.getString("key");			
 			//logger.info("@PARAM[key] == " + param);
 			
@@ -69,25 +68,25 @@ public class TwitterDataCollectorJob implements Job {
 			docGenerator.setTextAnalyzer(textAnalyzer);
 			collector.setSourceDocumentGenerator(docGenerator);
 
-			CollectObjectReader colObjectReader = new CollectObjectReader(new File(Config.getProperty("COLLECT_OBJECTS")));
-			List<CollectObject> colObjects = colObjectReader.getCollectObject(TwitterDataCollector.TARGET_SITE_NAME);
+			CollectEntityReader colEntityReader = new CollectEntityReader(new File(Config.getProperty("COLLECT_ENTITY")));
+			List<CollectEntity> colEntities = colEntityReader.getCollectEntities(TwitterDataCollector.TARGET_SITE_NAME);
 			
-			for (CollectObject colObject : colObjects) {
-				String objectId = colObject.getObjectId();
-				List<String> keywords = colObject.getSearchKeywords();
-				int maxPage = colObject.getMaxPage();
-				int historyBufferMaxRound = colObject.getHistoryBufferMaxRound();
-				Map<String, String> featureDictionaries = colObject.getFeatureDictionaries();
-				String competiorDictionary = colObject.getCompetitorDictionary();
-				Map<String, List<String>> attributes = colObject.getExtendedAttributes();
+			for (CollectEntity entity : colEntities) {
+				String entityId = entity.getEntityId();
+				List<String> keywords = entity.getSearchKeywords();
+				int maxPage = entity.getMaxPage();
+				int historyBufferMaxRound = entity.getHistoryBufferMaxRound();
+				Map<String, String> featureDictionaries = entity.getFeatureDictionaries();
+				String competiorDictionary = entity.getCompetitorDictionary();
+				//Map<String, List<String>> attributes = entity.getExtendedAttributes();
 				
 				// set collect history buffer
-				File historyBufferFile = Collector.getCollectHistoryFile(Config.getProperty("TWITTER_COLLECT_DATA_DIR"), objectId);
+				File historyBufferFile = Collector.getCollectHistoryFile(Config.getProperty("TWITTER_COLLECT_DATA_DIR"), entityId);
 				CollectHistoryBuffer historyBuffer = new CollectHistoryBuffer(historyBufferFile, historyBufferMaxRound);
 				collector.setCollectHistoryBuffer(historyBuffer);
 				
 				// set document writer
-				File sourceDocFile = Collector.getSourceDocFile(Config.getProperty("TWITTER_COLLECT_DATA_DIR"), objectId, new Date());
+				File sourceDocFile = Collector.getSourceDocFile(Config.getProperty("TWITTER_COLLECT_DATA_DIR"), entityId, new Date());
 				SourceDocumentFileWriter docWriter = new SourceDocumentFileWriter(sourceDocFile);
 				collector.setSourceDocumentWriter(docWriter);
 				
@@ -96,11 +95,11 @@ public class TwitterDataCollectorJob implements Job {
 					String language = entry.getKey();
 					String featureDicFile = entry.getValue();	
 					
-					textAnalyzer.putFeatureCategoryClassifier(objectId, new Locale(language), new FeatureCategoryClassifier(new File(featureDicFile)));
+					textAnalyzer.putFeatureCategoryClassifier(entityId, new Locale(language), new FeatureCategoryClassifier(new File(featureDicFile)));
 				}
 				
 				// set competitor dictionary
-				textAnalyzer.putCompetitorExtractor(objectId, new CompetitorExtractor(new File(competiorDictionary)));
+				textAnalyzer.putCompetitorExtractor(entityId, new CompetitorExtractor(new File(competiorDictionary)));
 				
 				// query map
 				Map<String, Integer> queryMap = new HashMap<String, Integer>();
@@ -114,7 +113,7 @@ public class TwitterDataCollectorJob implements Job {
 				List<twitter4j.Tweet> tweets = collector.searchTweets(queryMap, sinceDate, null);
 				
 				try {
-					collector.writeOutput(objectId, tweets);
+					collector.writeOutput(entityId, tweets);
 				} catch (Exception e) {
 					e.printStackTrace();
 					logger.error(e.getMessage(), e);

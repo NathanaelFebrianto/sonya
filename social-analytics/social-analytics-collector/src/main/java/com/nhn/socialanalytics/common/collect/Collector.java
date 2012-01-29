@@ -98,23 +98,23 @@ public abstract class Collector {
 		return false;		
 	}
 	
-	public final static File getSourceDocFile(String dataDir, String objectId, Date collectDate) {
+	public final static File getSourceDocFile(String dataDir, String entityId, Date collectDate) {
 		File dir = new File(dataDir);
 		if (!dir.exists()) {
 			dir.mkdir();
 		}
 		
 		String strDate = DateUtil.convertDateToString("yyyyMMdd", collectDate);	
-		return new File(dataDir + File.separator + objectId + "_" + strDate + ".txt");
+		return new File(dataDir + File.separator + entityId + "_" + strDate + ".txt");
 	}
 	
-	public final static File getCollectHistoryFile(String dataDir, String objectId) {
+	public final static File getCollectHistoryFile(String dataDir, String entityId) {
 		File dir = new File(dataDir);
 		if (!dir.exists()) {
 			dir.mkdir();
 		}
 		
-		return new File(dataDir + File.separator + objectId + ".txt");	
+		return new File(dataDir + File.separator + entityId + ".txt");	
 	}
 
 }
