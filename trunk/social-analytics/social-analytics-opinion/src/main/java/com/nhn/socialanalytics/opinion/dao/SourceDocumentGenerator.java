@@ -19,7 +19,7 @@ public class SourceDocumentGenerator {
 		this.textAnalyzer = textAnalyzer;
 	}
 	
-	public SourceDocument generate(Locale locale, String objectId, String text) {
+	public SourceDocument generate(Locale locale, String entityId, String text) {
 		SourceDocument doc = new SourceDocument();
 		
 		String text1 = "";
@@ -60,13 +60,13 @@ public class SourceDocumentGenerator {
 		SemanticSentence semanticSentence = textAnalyzer.analyzeSemantics(locale, text);
 		
 		// classify feature
-		semanticSentence = textAnalyzer.classifyFeatureCategory(objectId, locale, semanticSentence);
+		semanticSentence = textAnalyzer.classifyFeatureCategory(entityId, locale, semanticSentence);
 		standardLabels = semanticSentence.extractStandardLabel(" ", " ", true, false, false);
 		featureCategory = semanticSentence.extractFeaturesLabel(" ", false);
 		featureCategory1 = semanticSentence.extractFeaturesLabel(" ", true);
 		
 		// extract competitors
-		semanticSentence = textAnalyzer.extractCompetitors(objectId, semanticSentence);
+		semanticSentence = textAnalyzer.extractCompetitors(entityId, semanticSentence);
 		
 		// clause
 		clause = semanticSentence.extractStandardLabel(",", "_", true, false, false);			
@@ -111,13 +111,13 @@ public class SourceDocumentGenerator {
 		competitorFeatureCategorySubjectAttribute = semanticSentence.extractStandardSubjectAttributeLabel(" ", "_", true, true);
 		
 		// main feature
-		mainFeatureCategory = textAnalyzer.classifyMainFeatureCategory(objectId, locale, standardLabels);
+		mainFeatureCategory = textAnalyzer.classifyMainFeatureCategory(entityId, locale, standardLabels);
 		
 		// analyze sentiment
 		polarity  = textAnalyzer.analyzePolarity(locale, semanticSentence);
 	
 		// set document
-		doc.setObjectId(objectId);
+		doc.setEntityId(entityId);
 		doc.setText1(text1);
 		doc.setText2(text2);
 		doc.setFeatureCategory(featureCategory);

@@ -10,7 +10,7 @@ public class SourceDocument implements Serializable {
 	private static final String DELIMITER = "\t";
 	
 	private String site;
-	private String objectId;
+	private String entityId;
 	private String language;
 	private String collectDate;
 	private String docId;
@@ -56,12 +56,12 @@ public class SourceDocument implements Serializable {
 		this.site = site;
 	}
 
-	public String getObjectId() {
-		return objectId;
+	public String getEntityId() {
+		return entityId;
 	}
 
-	public void setObjectId(String objectId) {
-		this.objectId = objectId;
+	public void setEntityId(String entityId) {
+		this.entityId = entityId;
 	}
 
 	public String getLanguage() {
@@ -361,7 +361,7 @@ public class SourceDocument implements Serializable {
 	public static String getHeaderString() {
 		StringBuffer sb = new StringBuffer()
 			.append("site").append(DELIMITER)
-			.append("object_id").append(DELIMITER)
+			.append("entity_id").append(DELIMITER)
 			.append("language").append(DELIMITER)
 			.append("collect_date").append(DELIMITER)
 			.append("doc_id").append(DELIMITER)
@@ -405,7 +405,7 @@ public class SourceDocument implements Serializable {
 	public String toString() {
 		StringBuffer sb = new StringBuffer()
 			.append(site).append(DELIMITER)
-			.append(objectId).append(DELIMITER)
+			.append(entityId).append(DELIMITER)
 			.append(language).append(DELIMITER)
 			.append(collectDate).append(DELIMITER)
 			.append(docId).append(DELIMITER)
