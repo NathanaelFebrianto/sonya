@@ -44,9 +44,9 @@ public class TextAnalyzer {
 		sentimentAnalyzers.put(locale, analyzer);
 	}
 	
-	public void putFeatureCategoryClassifier(String objectId, Locale locale, FeatureCategoryClassifier classifier) {
+	public void putFeatureCategoryClassifier(String entityId, Locale locale, FeatureCategoryClassifier classifier) {
 		locales.add(locale);
-		Map<Locale, FeatureCategoryClassifier> classifiers = (Map<Locale, FeatureCategoryClassifier>) featureCategoryClassifiers.get(objectId);
+		Map<Locale, FeatureCategoryClassifier> classifiers = (Map<Locale, FeatureCategoryClassifier>) featureCategoryClassifiers.get(entityId);
 		
 		if (classifiers != null) {
 			classifiers.put(locale, classifier);
@@ -54,12 +54,12 @@ public class TextAnalyzer {
 		else {
 			Map<Locale, FeatureCategoryClassifier> newClassifiers = new HashMap<Locale, FeatureCategoryClassifier>();
 			newClassifiers.put(locale, classifier);
-			featureCategoryClassifiers.put(objectId, newClassifiers);			
+			featureCategoryClassifiers.put(entityId, newClassifiers);			
 		}		
 	}
 	
-	public void putCompetitorExtractor(String objectId, CompetitorExtractor extractor) {
-		competitorExtractors.put(objectId, extractor);
+	public void putCompetitorExtractor(String entityId, CompetitorExtractor extractor) {
+		competitorExtractors.put(entityId, extractor);
 	}
 	
 	private MorphemeAnalyzer getMorphemeAnalyzer(Locale locale) {
@@ -74,15 +74,15 @@ public class TextAnalyzer {
 		return (SentimentAnalyzer) sentimentAnalyzers.get(locale);
 	}
 	
-	private FeatureCategoryClassifier getFeatureCategoryClassifier(String objectId, Locale locale) {
-		Map<Locale, FeatureCategoryClassifier> classifiers = (Map<Locale, FeatureCategoryClassifier>) featureCategoryClassifiers.get(objectId);
+	private FeatureCategoryClassifier getFeatureCategoryClassifier(String entityId, Locale locale) {
+		Map<Locale, FeatureCategoryClassifier> classifiers = (Map<Locale, FeatureCategoryClassifier>) featureCategoryClassifiers.get(entityId);
 		FeatureCategoryClassifier classifier = (FeatureCategoryClassifier) classifiers.get(locale);
 		
 		return classifier;
 	}
 	
-	private CompetitorExtractor getCompetitorExtractor(String objectId) {
-		return (CompetitorExtractor) competitorExtractors.get(objectId);
+	private CompetitorExtractor getCompetitorExtractor(String entityId) {
+		return (CompetitorExtractor) competitorExtractors.get(entityId);
 	}
 	
 	public String extractTerms(Locale locale, String text) {
@@ -118,10 +118,10 @@ public class TextAnalyzer {
 		return result;
 	}
 	
-	public SemanticSentence extractCompetitors(String objectId, SemanticSentence sentence) {
-		CompetitorExtractor competitorExtractor = getCompetitorExtractor(objectId);
+	public SemanticSentence extractCompetitors(String entityId, SemanticSentence sentence) {
+		CompetitorExtractor competitorExtractor = getCompetitorExtractor(entityId);
 		
-		competitorExtractor.loadDictionary(objectId);
+		competitorExtractor.loadDictionary(entityId);
 		
 		//String standardLabel = sentence.extractStandardLabel(" ", " ", true, false, false);
 		String standardLabel = sentence.extractStandardSubjectLabel(" ", " ", false, false);
@@ -154,8 +154,8 @@ public class TextAnalyzer {
 		return polarity;
 	}
 	
-	public SemanticSentence classifyFeatureCategory(String objectId, Locale locale, SemanticSentence sentence) {
-		FeatureCategoryClassifier featureCategoryClassifier = getFeatureCategoryClassifier(objectId, locale);
+	public SemanticSentence classifyFeatureCategory(String entityId, Locale locale, SemanticSentence sentence) {
+		FeatureCategoryClassifier featureCategoryClassifier = getFeatureCategoryClassifier(entityId, locale);
 		
 		String standardLabel = sentence.extractStandardLabel(" ", " ", true, false, false);
 		Map<String, Double> featureCategoryCounts = featureCategoryClassifier.getFeatureCategoryCounts(standardLabel, true);
@@ -175,8 +175,8 @@ public class TextAnalyzer {
 		return sentence;
 	}
 	
-	public String classifyMainFeatureCategory(String objectId, Locale locale, String standardLabels) {
-		FeatureCategoryClassifier featureCategoryClassifier = getFeatureCategoryClassifier(objectId, locale);
+	public String classifyMainFeatureCategory(String entityId, Locale locale, String standardLabels) {
+		FeatureCategoryClassifier featureCategoryClassifier = getFeatureCategoryClassifier(entityId, locale);
 		
 		Map<String, Double> featureCategoryCounts = featureCategoryClassifier.getFeatureCategoryCounts(standardLabels, true);
 		String mainFeatureCategory = featureCategoryClassifier.getMainFeatureCategory(featureCategoryCounts);
