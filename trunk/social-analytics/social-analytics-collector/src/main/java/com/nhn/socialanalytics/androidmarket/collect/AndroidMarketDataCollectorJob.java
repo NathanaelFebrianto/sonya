@@ -16,9 +16,9 @@ import org.quartz.JobExecutionException;
 import com.gc.android.market.api.model.Market.Comment;
 import com.nhn.socialanalytics.common.Config;
 import com.nhn.socialanalytics.common.JobLogger;
+import com.nhn.socialanalytics.common.collect.CollectEntity;
+import com.nhn.socialanalytics.common.collect.CollectEntityReader;
 import com.nhn.socialanalytics.common.collect.CollectHistoryBuffer;
-import com.nhn.socialanalytics.common.collect.CollectObject;
-import com.nhn.socialanalytics.common.collect.CollectObjectReader;
 import com.nhn.socialanalytics.common.collect.Collector;
 import com.nhn.socialanalytics.nlp.analysis.TextAnalyzer;
 import com.nhn.socialanalytics.nlp.competitor.CompetitorExtractor;
@@ -74,26 +74,26 @@ public class AndroidMarketDataCollectorJob implements Job {
 			docGenerator.setTextAnalyzer(textAnalyzer);
 			collector.setSourceDocumentGenerator(docGenerator);
 	
-			CollectObjectReader colObjectReader = new CollectObjectReader(new File(Config.getProperty("COLLECT_OBJECTS")));
-			List<CollectObject> colObjects = colObjectReader.getCollectObject(AndroidMarketDataCollector.TARGET_SITE_NAME);
+			CollectEntityReader colEntityReader = new CollectEntityReader(new File(Config.getProperty("COLLECT_ENTITY")));
+			List<CollectEntity> colEntities = colEntityReader.getCollectEntities(AndroidMarketDataCollector.TARGET_SITE_NAME);
 			
-			for (CollectObject colObject : colObjects) {
-				String objectId = colObject.getObjectId();
-				List<String> keywords = colObject.getSearchKeywords();
+			for (CollectEntity entity : colEntities) {
+				String entityId = entity.getEntityId();
+				List<String> keywords = entity.getSearchKeywords();
 				String appId = keywords.get(0);
-				int maxPage = colObject.getMaxPage();
-				int historyBufferMaxRound = colObject.getHistoryBufferMaxRound();
-				Map<String, String> featureDictionaries = colObject.getFeatureDictionaries();
-				String competiorDictionary = colObject.getCompetitorDictionary();
-				Map<String, List<String>> attributes = colObject.getExtendedAttributes();
+				int maxPage = entity.getMaxPage();
+				int historyBufferMaxRound = entity.getHistoryBufferMaxRound();
+				Map<String, String> featureDictionaries = entity.getFeatureDictionaries();
+				String competiorDictionary = entity.getCompetitorDictionary();
+				Map<String, List<String>> attributes = entity.getExtendedAttributes();
 				
 				// set collect history buffer
-				File historyBufferFile = Collector.getCollectHistoryFile(Config.getProperty("ANDROIDMARKET_COLLECT_DATA_DIR"), objectId);
+				File historyBufferFile = Collector.getCollectHistoryFile(Config.getProperty("ANDROIDMARKET_COLLECT_DATA_DIR"), entityId);
 				CollectHistoryBuffer historyBuffer = new CollectHistoryBuffer(historyBufferFile, historyBufferMaxRound);
 				collector.setCollectHistoryBuffer(historyBuffer);
 				
 				// set document writer
-				File sourceDocFile = Collector.getSourceDocFile(Config.getProperty("ANDROIDMARKET_COLLECT_DATA_DIR"), objectId, new Date());
+				File sourceDocFile = Collector.getSourceDocFile(Config.getProperty("ANDROIDMARKET_COLLECT_DATA_DIR"), entityId, new Date());
 				SourceDocumentFileWriter docWriter = new SourceDocumentFileWriter(sourceDocFile);
 				collector.setSourceDocumentWriter(docWriter);
 			
@@ -102,11 +102,11 @@ public class AndroidMarketDataCollectorJob implements Job {
 					String language = entry.getKey();
 					String featureDicFile = entry.getValue();	
 					
-					textAnalyzer.putFeatureCategoryClassifier(objectId, new Locale(language), new FeatureCategoryClassifier(new File(featureDicFile)));
+					textAnalyzer.putFeatureCategoryClassifier(entityId, new Locale(language), new FeatureCategoryClassifier(new File(featureDicFile)));
 				}
 				
 				// set competitor dictionary
-				textAnalyzer.putCompetitorExtractor(objectId, new CompetitorExtractor(new File(competiorDictionary)));
+				textAnalyzer.putCompetitorExtractor(entityId, new CompetitorExtractor(new File(competiorDictionary)));
 				
 				// get market locales
 				Set<Locale> locales = new HashSet<Locale>();
@@ -124,7 +124,7 @@ public class AndroidMarketDataCollectorJob implements Job {
 				
 				// write to file
 				try {
-					collector.writeOutput(objectId, comments);					
+					collector.writeOutput(entityId, comments);					
 				} catch (Exception e) {
 					e.printStackTrace();
 					logger.error(e.getMessage(), e);
