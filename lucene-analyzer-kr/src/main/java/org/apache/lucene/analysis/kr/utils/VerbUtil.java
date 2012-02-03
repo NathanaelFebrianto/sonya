@@ -17,7 +17,6 @@ package org.apache.lucene.analysis.kr.utils;
  * limitations under the License.
  */
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -136,7 +135,7 @@ public class VerbUtil {
 	    if(o.getStem().endsWith("스러우")) o.setStem(o.getStem().substring(0,o.getStem().length()-3)+"스럽");
 		int idxVbSfix = VerbUtil.endsWithVerbSuffix(o.getStem());
 		if(idxVbSfix<1) return false;
-	
+		
 		o.setVsfx(o.getStem().substring(idxVbSfix));
 		o.setStem(o.getStem().substring(0,idxVbSfix));
 		o.setPatn(PatternConstants.PTN_NSM);
@@ -165,6 +164,22 @@ public class VerbUtil {
 		}
 	
 		candidates.add(o);
+		
+	   /* 
+	    * Added by Younggue, 2012-02-03.
+	    * 사랑하다 -> 사랑(N),하(t),어다(e) 와 같이 형태소 분석이 되는데, "하", "받" 등의 VerbSuffix가 들어가는 경우,
+	    * 사랑하(V),어다(e) 와 같이 추가적으로 동사로 인식하도록 로직을 추가함.
+	    */
+		try {
+			AnalysisOutput o1 = o.clone();
+			o1.setStem(o.getStem().substring(0, idxVbSfix) + o.getVsfx());
+			o1.setPatn(PatternConstants.PTN_VM);
+			o1.setPos(PatternConstants.POS_VERB);
+			candidates.add(o1);
+		} catch (CloneNotSupportedException ex) {
+			ex.printStackTrace();
+		}
+		/* end */
 
 		return true;
 
@@ -301,4 +316,5 @@ public class VerbUtil {
 
 		return false;	   
    }
+
 }

@@ -97,7 +97,9 @@ public class MorphAnalyzerTest extends TestCase {
 	
 	public void testMorphAnalyzerManager() throws Exception {
 		String input = "나는 학교에 갔습니다";
-		input = "이 물건은 배송이 빨라서 괜츈다. 괜츈답니다 괜찮습니다 좋답니다 괜찮다합니다 괜찬답니다. 괜찮답니다 훌륭하답니다 멋지답니다 들을만하다 간답니다";
+		input = "이 물건은 배송이 빨라서 괜츈다. 괜츈답니다 괜츈하였습니다 싫어하였습니다 사랑하다 좋아하다 사랑하였습니다 사랑했습니다  사랑받다 사랑받아보다 도와주다 괜찮았습니다 괜찮습니다 좋답니다 " +
+				"괜찮다합니다 괜찬답니다. 괜찮답니다 훌륭하답니다 멋지답니다 들을만하다 간답니다 " +
+				"걱정하다 걱정하였는데 ";
 
 		MorphAnalyzerManager manager = new MorphAnalyzerManager();
 		manager.analyze(input);
