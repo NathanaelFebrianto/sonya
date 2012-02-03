@@ -1,2 +1,0 @@
-mvn install:install-file -Dfile=D:\dev\workspace\beeblz\beeblz-facebook\lib\substance.jar -DgroupId=org.pusingpixels.substance -DartifactId=substance -Dversion=6.0 -Dpackaging=jar
-mvn install:install-file -Dfile=D:\dev\workspace\beeblz\beeblz-facebook\lib\trident.jar -DgroupId=org.pusingpixels.trident -DartifactId=trident -Dversion=6.0 -Dpackaging=jar
