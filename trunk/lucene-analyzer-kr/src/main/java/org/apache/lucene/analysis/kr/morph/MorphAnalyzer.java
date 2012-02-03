@@ -367,7 +367,7 @@ public class MorphAnalyzer {
 				MorphUtil.buildPtnVM(output, candidates);
 				// }
 			}
-
+			
 			if (VerbUtil.ananlysisNSM(o.clone(), candidates))
 				return;
 
@@ -382,7 +382,7 @@ public class MorphAnalyzer {
 				return;
 
 			VerbUtil.analysisVMXM(o.clone(), candidates);
-
+			
 		} catch (CloneNotSupportedException e) {
 			throw new MorphException(e.getMessage(), e);
 		}
