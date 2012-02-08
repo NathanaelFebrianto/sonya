@@ -166,7 +166,7 @@ public class VerbUtil {
 		candidates.add(o);
 		
 	   /* 
-	    * Added by Younggue, 2012-02-03.
+	    * @Added by Younggue, 2012-02-03.
 	    * 사랑하다 -> 사랑(N),하(t),어다(e) 와 같이 형태소 분석이 되는데, "하", "받" 등의 VerbSuffix가 들어가는 경우,
 	    * 사랑하(V),어다(e) 와 같이 추가적으로 동사로 인식하도록 로직을 추가함.
 	    */
@@ -222,7 +222,23 @@ public class VerbUtil {
 		candidates.add(o);						
 
 		
-	   return true;	   
+	   /* 
+	    * @Added by Younggue, 2012-02-08.
+	    * 용서해주다 -> 용서(N),하(t),어(c), 주(W), 다(e) 와 같이 형태소 분석이 되는데, "하", "받" 등의 VerbSuffix가 들어가는 경우,
+	    * 용서하(V),다(e)와 같이 추가적으로 동사로 인식하도록 로직을 추가함.
+	    */
+		try {
+			AnalysisOutput o1 = o.clone();
+			o1.setStem(o.getStem().substring(0, idxVbSfix) + o.getVsfx());
+			o1.setPatn(PatternConstants.PTN_VM);
+			o1.setPos(PatternConstants.POS_VERB);
+			candidates.add(o1);
+		} catch (CloneNotSupportedException ex) {
+			ex.printStackTrace();
+		}
+		/* end */
+		
+		return true;	   
    }
    
    public static boolean analysisVMCM(AnalysisOutput o, List candidates) throws MorphException {
