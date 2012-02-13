@@ -34,10 +34,10 @@ public class VerbUtil {
 	
 	static {
 		String[] suffixs = {
-				  "이", "하", "되", "내", "나", "스럽", "시키", "있", "없", "같", "당하", "만하", "드리", "받", "짓"};
+				  "이", "하", "되", "내", "나", "스럽", "시키", "있", "없", "같", "당하", "만하", "드리", "받", "짓" };
 		for(int i=0;i<suffixs.length;i++) verbSuffix.put(suffixs[i], suffixs[i]);
 		
-		String[] xverbs = {"오", "내", "주", "보", "지", "오르", "올리"};
+		String[] xverbs = { "오", "내", "주", "보", "지", "오르", "올리" };
 		for(int i=0;i<xverbs.length;i++) XVerb.put(xverbs[i], xverbs[i]);
 	}
 	
@@ -156,7 +156,12 @@ public class VerbUtil {
 		if(entry!=null) {
 			if(entry.getFeature(WordEntry.IDX_NOUN)=='0') return false;
 			else if(o.getVsfx().equals("하")&&entry.getFeature(WordEntry.IDX_DOV)!='1') return false;
-			else if(o.getVsfx().equals("되")&&entry.getFeature(WordEntry.IDX_BEV)!='1') return false;
+			/*
+			 * @Added by Younggue, 2012-02-12
+			 * 사람되다 -> 사람되(V),다(e) 와 사람(N),되(t),다(e) 같이 추가적으로 동사로 인식하도록 하기 위해 아래 조건을 주석처리함.
+			 */
+			//else if(o.getVsfx().equals("되")&&entry.getFeature(WordEntry.IDX_BEV)!='1') return false;
+			/*  end */
 			else if(o.getVsfx().equals("내")&&entry.getFeature(WordEntry.IDX_NE)!='1') return false;
 			o.setScore(AnalysisOutput.SCORE_CORRECT); // '입니다'인 경우 인명 등 미등록어가 많이 발생되므로 분석성공으로 가정한다.			
 		}else {
@@ -166,7 +171,7 @@ public class VerbUtil {
 		candidates.add(o);
 		
 	   /* 
-	    * @Added by Younggue, 2012-02-03.
+	    * @Added by Younggue, 2012-02-03
 	    * 사랑하다 -> 사랑(N),하(t),어다(e) 와 같이 형태소 분석이 되는데, "하", "받" 등의 VerbSuffix가 들어가는 경우,
 	    * 사랑하(V),어다(e) 와 같이 추가적으로 동사로 인식하도록 로직을 추가함.
 	    */
@@ -223,7 +228,7 @@ public class VerbUtil {
 
 		
 	   /* 
-	    * @Added by Younggue, 2012-02-08.
+	    * @Added by Younggue, 2012-02-08
 	    * 용서해주다 -> 용서(N),하(t),어(c), 주(W), 다(e) 와 같이 형태소 분석이 되는데, "하", "받" 등의 VerbSuffix가 들어가는 경우,
 	    * 용서하(V),다(e)와 같이 추가적으로 동사로 인식하도록 로직을 추가함.
 	    */
