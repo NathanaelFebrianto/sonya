@@ -329,13 +329,31 @@ public class MorphAnalyzer {
 			return; // 어미가 사전에 등록되어 있지 않다면....
 
 		String[] pomis = EomiUtil.splitPomi(morphs[0]);
-
+		
 		AnalysisOutput o = new AnalysisOutput(pomis[0], null, morphs[1], PatternConstants.PTN_VM);
 		o.setPomi(pomis[1]);
 
 		try {
-
 			WordEntry entry = DictionaryUtil.getVerb(o.getStem());
+			
+			/*
+			 * @Added by Younggue, 2012-02-13
+			 * "못찾다"와 같이 동사앞에 부정접두사 "안", "못", "아니"가 붙은 경우, 동사로 인식할 수 있도록 처리함.
+			 */
+			if (entry == null) {
+				if (o.getStem().startsWith("못") || o.getStem().startsWith("안")) {
+					WordEntry splitEntry = DictionaryUtil.getVerb(o.getStem().substring(1));
+					if (splitEntry != null)
+						entry = splitEntry;
+				}
+				else if (o.getStem().startsWith("아니")) {
+					WordEntry splitEntry = DictionaryUtil.getVerb(o.getStem().substring(2));
+					if (splitEntry != null)
+						entry = splitEntry;
+				}
+			}
+			/* end */
+
 			if (entry != null
 					&& !("을".equals(end) && entry.getFeature(WordEntry.IDX_REGURA) == IrregularUtil.IRR_TYPE_LIUL)) {
 				AnalysisOutput output = o.clone();
