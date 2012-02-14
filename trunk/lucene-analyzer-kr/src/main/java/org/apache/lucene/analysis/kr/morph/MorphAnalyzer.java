@@ -206,12 +206,21 @@ public class MorphAnalyzer {
 			if (eomiFlag) {
 				analysisWithEomi(stem, eomi, candidates);
 			}
-
+			
+			/*
+			 * Commented by Younggue, 2012-02-14
+			 * 이 부분에서 어미사전에 등록해 놓더라도 잘 못 걸러내는 이유가 아래 조건 때문임.
+			 * 따라서, "syllable.dic" 사전 파일에 가서 IDX_JOSA2(조사의 두 번째 이상의 음절로 사용되는 음절 58개)과
+			 * IDX_EOMI2(어미의 두 번째 이상의 음절로 사용되는 음절 105개)에 해당하는 컬럼에 "1"로 잘 표기되어 있는지 확인할 것.
+			 * 만일 하나라도 "0"의 값을 가지면 어미나 조사 사전에 등록되어 있더라도 무시함.
+			 * syllable.dic을 임의로 수정하면 "은", "는" 등 조사를 제대로 판별 못하는 경우가 생기므로 절대 수정하지 말 것.
+			 * 
+			 */
 			if (josaFlag && feature[SyllableUtil.IDX_JOSA2] == '0')
 				josaFlag = false;
 			if (eomiFlag && feature[SyllableUtil.IDX_EOMI2] == '0')
 				eomiFlag = false;
-
+			/* end */
 			if (!josaFlag && !eomiFlag)
 				break;
 		}
@@ -325,6 +334,10 @@ public class MorphAnalyzer {
 	public void analysisWithEomi(String stem, String end, List candidates) throws MorphException {
 
 		String[] morphs = EomiUtil.splitEomi(stem, end);
+		System.out.println(" ***************************** stem = " + stem);
+		System.out.println(" ***************************** end = " + end);
+		System.out.println(" ***************************** morphs[0] = " + morphs[0]);
+		System.out.println(" ***************************** morphs[1] = " + morphs[1]);
 		if (morphs[0] == null)
 			return; // 어미가 사전에 등록되어 있지 않다면....
 
@@ -340,6 +353,7 @@ public class MorphAnalyzer {
 			 * @Added by Younggue, 2012-02-13
 			 * "못찾다"와 같이 동사앞에 부정접두사 "안", "못", "아니"가 붙은 경우, 동사로 인식할 수 있도록 처리함.
 			 */
+			System.out.println(" ***************************** WordEntry = " + entry);
 			if (entry == null) {
 				if (o.getStem().startsWith("못") || o.getStem().startsWith("안")) {
 					WordEntry splitEntry = DictionaryUtil.getVerb(o.getStem().substring(1));
