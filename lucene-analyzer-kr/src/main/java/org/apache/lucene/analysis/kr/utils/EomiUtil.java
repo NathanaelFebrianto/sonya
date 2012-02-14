@@ -32,7 +32,7 @@ public class EomiUtil {
 	public static final String RESULT_SUCCESS = "1";
 	
 	public static final String[] verbSuffix = {
-		  "이","하","되","스럽","스러우","시키","있","없","같","당하","만하","드리","받","나","내"
+		  "이","하","되","스럽","스러우","시키","있","없","같","당하","만하","드리","받","나","내",
 	};
 	
 	/**

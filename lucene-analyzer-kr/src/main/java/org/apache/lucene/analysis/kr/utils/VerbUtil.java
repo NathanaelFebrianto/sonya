@@ -34,7 +34,9 @@ public class VerbUtil {
 	
 	static {
 		String[] suffixs = {
-				  "이", "하", "되", "내", "나", "스럽", "시키", "있", "없", "같", "당하", "만하", "드리", "받", "짓" };
+				  "이", "하", "되", "내", "나", "스럽", "시키", "있", "없", "같", "당하", "만하", "드리", "받", "짓",
+				  "답"	// added by Younggue.
+				  };
 		for(int i=0;i<suffixs.length;i++) verbSuffix.put(suffixs[i], suffixs[i]);
 		
 		String[] xverbs = { "오", "내", "주", "보", "지", "오르", "올리" };
@@ -157,7 +159,7 @@ public class VerbUtil {
 			if(entry.getFeature(WordEntry.IDX_NOUN)=='0') return false;
 			else if(o.getVsfx().equals("하")&&entry.getFeature(WordEntry.IDX_DOV)!='1') return false;
 			/*
-			 * @Added by Younggue, 2012-02-12
+			 * @Modified by Younggue, 2012-02-12
 			 * 사람되다 -> 사람되(V),다(e) 와 사람(N),되(t),다(e) 같이 추가적으로 동사로 인식하도록 하기 위해 아래 조건을 주석처리함.
 			 */
 			//else if(o.getVsfx().equals("되")&&entry.getFeature(WordEntry.IDX_BEV)!='1') return false;
@@ -180,6 +182,7 @@ public class VerbUtil {
 			o1.setStem(o.getStem().substring(0, idxVbSfix) + o.getVsfx());
 			o1.setPatn(PatternConstants.PTN_VM);
 			o1.setPos(PatternConstants.POS_VERB);
+			o1.setScore(AnalysisOutput.SCORE_CORRECT);
 			candidates.add(o1);
 		} catch (CloneNotSupportedException ex) {
 			ex.printStackTrace();
@@ -237,6 +240,7 @@ public class VerbUtil {
 			o1.setStem(o.getStem().substring(0, idxVbSfix) + o.getVsfx());
 			o1.setPatn(PatternConstants.PTN_VM);
 			o1.setPos(PatternConstants.POS_VERB);
+			o1.setEomi(o1.getXverb() + o1.getEomi());
 			candidates.add(o1);
 		} catch (CloneNotSupportedException ex) {
 			ex.printStackTrace();
