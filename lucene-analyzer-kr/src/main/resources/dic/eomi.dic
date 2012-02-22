@@ -62,8 +62,12 @@
 기에
 긴
 길
-//거	//Added by Younggue, 2012-02-14
-//나	//Commented by Younggue, 2012-02-14
+// Added by Younggue, 2012-02-14
+//거
+// end
+// Added by Younggue, 2012-02-22
+나
+// end
 나니
 나마
 나요
@@ -79,8 +83,10 @@
 네
 네만
 네요
-네여 // Added by Younggue, 2012-02-14
-네욤 // Added by Younggue, 2012-02-14
+// Added by Younggue, 2012-02-14
+네여 
+네욤
+// end
 넹
 노
 노라
@@ -201,6 +207,9 @@
 다는
 다는데
 다니
+// Added by Younggue, 2012-02-22
+다라고
+// end
 다마는
 다마다
 다만
@@ -217,7 +226,9 @@
 단
 단다
 담
-당	// Added by Younggue, 2012-02-14
+// Added by Younggue, 2012-02-14
+당
+// end
 답시고
 답니다
 더구나
@@ -292,6 +303,9 @@
 라면서까지도
 라면서도
 라면서요
+// Added by Younggue, 2012-02-22
+라서
+// end
 란
 란다
 란다고
@@ -425,7 +439,9 @@
 아야
 아야만
 아요
-//어	//Commented by Younggue, 2012-02-14, "어"를 어미로 추가하게 되면 "장소나 분위기"와 같은 문장도 "장소나(V),어(e)"로 형태소분석을 하게 되므로 조심할 것.
+// Commented by Younggue, 2012-02-14, "어"를 어미로 추가하게 되면 "장소나 분위기"와 같은 문장도 "장소나(V),어(e)"로 형태소분석을 하게 되므로 조심할 것.
+//어	
+// end
 어다
 어다가
 어도
@@ -443,10 +459,12 @@
 어야지
 어야지만
 어요
-었다	// Added by Younggue, 2012-02-14
-었어요	// Added by Younggue, 2012-02-14
-었어	// Added by Younggue, 2012-02-14
-었구요	// Added by Younggue, 2012-02-14
+// Added by Younggue, 2012-02-14
+었다	
+었어요
+었어
+었구요
+// end
 에요
 어지이다
 언정
@@ -469,7 +487,9 @@
 옵디까
 옵디다
 외다
-//요	// Commented by Younggue, 2012-02-14
+// Commented by Younggue, 2012-02-14
+//요	
+// end
 으나
 으나마
 으냐
@@ -747,7 +767,12 @@
 읍시다
 읍시다요
 읍시오
-//이	// Commented by Younggue, 2012-02-14, "특별히"와 같은 경우, "특별(N),하(t),이(e)"와 같이 형태소 분석이 됨.
+// Commented by Younggue, 2012-02-14, "특별히"와 같은 경우, "특별(N),하(t),이(e)"와 같이 형태소 분석이 됨.
+//이
+// end
+// Added by Younggue, 2012-02-22
+인거
+// end
 일까
 자
 자고
@@ -776,3 +801,6 @@
 지요
 진
 질
+// Added by Younggue, 2012-02-22
+하나
+// end
