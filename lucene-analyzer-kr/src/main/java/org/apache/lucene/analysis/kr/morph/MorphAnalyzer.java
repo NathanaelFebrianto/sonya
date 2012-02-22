@@ -334,10 +334,10 @@ public class MorphAnalyzer {
 	public void analysisWithEomi(String stem, String end, List candidates) throws MorphException {
 
 		String[] morphs = EomiUtil.splitEomi(stem, end);
-		System.out.println(" ***************************** stem = " + stem);
-		System.out.println(" ***************************** end = " + end);
-		System.out.println(" ***************************** morphs[0] = " + morphs[0]);
-		System.out.println(" ***************************** morphs[1] = " + morphs[1]);
+		//System.out.println(" ***************************** stem = " + stem);
+		//System.out.println(" ***************************** end = " + end);
+		//System.out.println(" ***************************** morphs[0] = " + morphs[0]);
+		//System.out.println(" ***************************** morphs[1] = " + morphs[1]);
 		if (morphs[0] == null)
 			return; // 어미가 사전에 등록되어 있지 않다면....
 
@@ -353,7 +353,7 @@ public class MorphAnalyzer {
 			 * @Added by Younggue, 2012-02-13
 			 * "못찾다"와 같이 동사앞에 부정접두사 "안", "못", "아니"가 붙은 경우, 동사로 인식할 수 있도록 처리함.
 			 */
-			System.out.println(" ***************************** WordEntry = " + entry);
+			//System.out.println(" ***************************** WordEntry = " + entry);
 			if (entry == null) {
 				if (o.getStem().startsWith("못") || o.getStem().startsWith("안")) {
 					WordEntry splitEntry = DictionaryUtil.getVerb(o.getStem().substring(1));
