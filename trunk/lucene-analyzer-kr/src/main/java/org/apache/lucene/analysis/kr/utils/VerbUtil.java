@@ -34,8 +34,22 @@ public class VerbUtil {
 	
 	static {
 		String[] suffixs = {
-				  "이", "하", "되", "내", "나", "스럽", "시키", "있", "없", "같", "당하", "만하", "드리", "받", "짓",
-				  "답"	// added by Younggue.
+				  "이", "하", "되", "내"
+				  
+				  /* Commented by Younggue, 2012-02-25
+				   * 어미사전에 "어"를 추가하게 되면 "분위기나"의 경우, "분위기나(V),나(t),어(e)"로 형태소분석이 되는 문제때문에 주석 처리함.
+				   * 이렇게 되면, "좋아하나"의 경우 "좋아하다"로 동사로 분석을 또 못하게 되는 문제가 생김.
+				   */
+				  //, "나"
+				  /* end */
+				  
+				  , "스럽", "시키", "있", "없", "같", "당하", "만하", "드리", "받", "짓"
+				  
+				  /* Added by Younggue
+				   * 
+				   */
+				  , "답"
+				  /* end */
 				  };
 		for(int i=0;i<suffixs.length;i++) verbSuffix.put(suffixs[i], suffixs[i]);
 		
