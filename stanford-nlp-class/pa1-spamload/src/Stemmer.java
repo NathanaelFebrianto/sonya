@@ -568,7 +568,7 @@ public class Stemmer {
 	 */
 	public static void main(String[] args) {
 		args = new String[1];
-		args[0] = "./data/stem.txt";
+		args[0] = "../data/stem.txt";
 
 		char[] w = new char[501];
 		Stemmer s = new Stemmer();

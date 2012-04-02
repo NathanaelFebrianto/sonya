@@ -218,8 +218,8 @@ public class SpamLord {
 	 */
 	public static void main(String[] args) {
 		args = new String[2];
-		args[0] = "./pa1-spamload/data/dev/";
-		args[1] = "./pa1-spamload/data/devGOLD";
+		args[0] = "../data/dev/";
+		args[1] = "../data/devGOLD";
 		if (args.length != 2) {
 			System.err.println("usage:\tSpamLord <data_dir> <gold_file>");
 			System.exit(0);
