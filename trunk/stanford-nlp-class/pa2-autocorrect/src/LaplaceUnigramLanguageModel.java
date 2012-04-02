@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class LaplaceUnigramLanguageModel implements LanguageModel {
+public class LaplaceUnigramLanguageModel implements LanguageModel { 
 
   /** Initialize your data structures in the constructor. */
   public LaplaceUnigramLanguageModel(HolbrookCorpus corpus) {
