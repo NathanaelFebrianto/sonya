@@ -64,8 +64,9 @@ PlotAudienceByTweet <- function(user_name) {
 	
 	# Make y axis with horizontal labels that display ticks at 
 	# every 2000 marks.
-	axis(2, las = 1, at = 500*0:max_y)	#for dalailama
-#	axis(2, las = 1, at = 2000*0:max_y)	#for aplusk
+	#####################################################
+#	axis(2, las = 1, at = 500*0:max_y)	#for dalailama
+	axis(2, las = 1, at = 2000*0:max_y)	#for aplusk
 	
 	# Create box around plot
 	box()
@@ -119,8 +120,9 @@ PlotPopularUser <- function(user_name) {
 	
 	# Make y axis with horizontal labels that display ticks at 
 	# every 2000 marks.
-	axis(2, las = 1, at = 1*0:max_y)	#for dalailama
-#	axis(2, las = 1, at = 5*0:max_y)	#for aplusk
+	#####################################################
+#	axis(2, las = 1, at = 1*0:max_y)	#for dalailama
+	axis(2, las = 1, at = 5*0:max_y)	#for aplusk
 	
 	# Create box around plot
 	box()
@@ -210,7 +212,9 @@ PlotPopularUserZscore <- function(user_name) {
 			subset = (user == user_name))
 	
 	# Compute the largest y value used in the data (or we could just use range again)
-	max_y <- max(Zscore(df_user$p.positive_tweet_count), na.rm = TRUE) + 0.5	#3 for dalailama
+	#####################################################
+#	max_y <- max(Zscore(df_user$p.positive_tweet_count), na.rm = TRUE) + 3		#for dalailama
+	max_y <- max(Zscore(df_user$p.positive_tweet_count), na.rm = TRUE) + 0.5	#for aplusk
 	min_y <- min(Zscore(df_user$p.positive_tweet_count), na.rm = TRUE) - 0.5
 	max_x <- length(df_user$create_date) - 20
 	
