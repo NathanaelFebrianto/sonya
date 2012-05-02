@@ -186,7 +186,7 @@ PlotPositiveZscore <- function() {
 	# Turn off axes and annotations (axis labels) so we can 
 	# specify them ourself
 	plot(Zscore(df_obama$gallup_approve), type = "l", col = plot_colors[1], lty = "dashed",
-			ylim = c(min_y, max_y), axes = FALSE, ann = FALSE, lwd  = 3)
+			ylim = c(min_y, max_y), axes = FALSE, ann = FALSE, lwd  = 2)
 	
 	# Make x axis
 	axis(1, at = 1:length(df_obama$date), lab = df_obama$date)
@@ -200,14 +200,14 @@ PlotPositiveZscore <- function() {
 	
 	# Graph line of positve tweet rate
 	lines(Zscore(df_obama$positive_tweet_rate), type = "l", pch = 24, lty = "solid", 
-			col = plot_colors[2], lwd  = 3)
+			col = plot_colors[2], lwd  = 2)
 	
 	# Create a title with a red, bold/italic font
 	title(main = "Gallup Approve vs. Twitter Positive", col.main = "black", font.main = 4)
 	
 	# Label the x and y axes
 	#mtext(1, text = "Date", line = 3, cex = 1.0)
-	mtext(2, text = "z-score", line = 3, cex = 1.0)
+	mtext(2, text = "z-score", line = 2, cex = 1.0)
 	
 	# Create a legend at (1, max_y) that is slightly smaller 
 	# (cex) and uses the same line colors and points used by 
@@ -216,7 +216,7 @@ PlotPositiveZscore <- function() {
 			c("Gallup (Approve)", "Twitter (Positive)"), 
 			cex = 1.0, col = plot_colors, 
 			#pch = 21:22, 
-			lty = c("dashed", "solid"), lwd =3)
+			lty = c("dashed", "solid"), lwd =2)
 }
 
 ###
@@ -237,7 +237,7 @@ PlotNegativeZscore <- function() {
 	# Turn off axes and annotations (axis labels) so we can 
 	# specify them ourself
 	plot(Zscore(df_obama$gallup_disapprove), type = "l", col = plot_colors[1], lty = "dashed",
-			ylim = c(min_y, max_y), axes = FALSE, ann = FALSE, lwd  = 3)
+			ylim = c(min_y, max_y), axes = FALSE, ann = FALSE, lwd  = 2)
 	
 	# Make x axis
 	axis(1, at = 1:length(df_obama$date), lab = df_obama$date)
@@ -251,14 +251,14 @@ PlotNegativeZscore <- function() {
 	
 	# Graph line of negative tweet rate
 	lines(Zscore(df_obama$negative_tweet_rate), type = "l", pch = 24, lty = "solid", 
-			col = plot_colors[2], lwd  = 3)
+			col = plot_colors[2], lwd  = 2)
 	
 	# Create a title with a red, bold/italic font
 	title(main = "Gallup Dispprove vs. Twitter Negative", col.main = "black", font.main = 4)
 	
 	# Label the x and y axes
 	#mtext(1, text = "Date", line = 3, cex = 1.0)
-	mtext(2, text = "z-score", line = 3, cex = 1.0)
+	mtext(2, text = "z-score", line = 2, cex = 1.0)
 	
 	# Create a legend at (1, max_y) that is slightly smaller 
 	# (cex) and uses the same line colors and points used by 
@@ -267,7 +267,7 @@ PlotNegativeZscore <- function() {
 			c("Gallup (Disapprove)", "Twitter (Negative)"), 
 			cex = 1.0, col = plot_colors, 
 			#pch = 21:22, 
-			lty = c("dashed", "solid"), lwd =3)
+			lty = c("dashed", "solid"), lwd =2)
 }
 
 ###
@@ -288,7 +288,7 @@ PlotGapZscore <- function() {
 	# Turn off axes and annotations (axis labels) so we can 
 	# specify them ourself
 	plot(Zscore(df_obama$gallup_approve - df_obama$gallup_disapprove), type = "l", col = plot_colors[1], lty = "dashed",
-			ylim = c(min_y, max_y), axes = FALSE, ann = FALSE, lwd  = 3)
+			ylim = c(min_y, max_y), axes = FALSE, ann = FALSE, lwd  = 2)
 	
 	# Make x axis
 	axis(1, at = 1:length(df_obama$date), lab = df_obama$date)
@@ -302,14 +302,14 @@ PlotGapZscore <- function() {
 	
 	# Graph line of positve tweet rate
 	lines(Zscore(df_obama$positive_tweet_rate - df_obama$negative_tweet_rate), type = "l", pch = 24, lty = "solid", 
-			col = plot_colors[2], lwd  = 3)
+			col = plot_colors[2], lwd  = 2)
 	
 	# Create a title with a red, bold/italic font
 	title(main = "Gallup Approve-Disapprove vs. Twitter Positive-Negative", col.main = "black", font.main = 4)
 	
 	# Label the x and y axes
 	#mtext(1, text = "Date", line = 3, cex = 1.0)
-	mtext(2, text = "z-score", line = 3, cex = 1.0)
+	mtext(2, text = "z-score", line = 2, cex = 1.0)
 	
 	# Create a legend at (1, max_y) that is slightly smaller 
 	# (cex) and uses the same line colors and points used by 
@@ -318,7 +318,7 @@ PlotGapZscore <- function() {
 			c("Gallup (Approve-Disapprove)", "Twitter (Positive-Negative)"), 
 			cex = 1.0, col = plot_colors, 
 			#pch = 21:22, 
-			lty = c("dashed", "solid"), lwd =3)
+			lty = c("dashed", "solid"), lwd =2)
 }
 
 
@@ -340,7 +340,7 @@ PlotPNRateZscore <- function() {
 	# Turn off axes and annotations (axis labels) so we can 
 	# specify them ourself
 	plot(Zscore(df_obama$gallup_approve/df_obama$gallup_disapprove), type = "l", col = plot_colors[1], lty = "dashed",
-			ylim = c(min_y, max_y), axes = FALSE, ann = FALSE, lwd  = 3)
+			ylim = c(min_y, max_y), axes = FALSE, ann = FALSE, lwd  = 2)
 	
 	# Make x axis
 	axis(1, at = 1:length(df_obama$date), lab = df_obama$date)
@@ -354,14 +354,14 @@ PlotPNRateZscore <- function() {
 	
 	# Graph line of positve tweet rate
 	lines(Zscore(df_obama$positive_tweet_count/df_obama$negative_tweet_count), type = "l", pch = 24, lty = "solid", 
-			col = plot_colors[2], lwd  = 3)
+			col = plot_colors[2], lwd  = 2)
 	
 	# Create a title with a red, bold/italic font
 	title(main = "Gallup Approve/Disapprove vs. Twitter Positive/Negative", col.main = "black", font.main = 4)
 	
 	# Label the x and y axes
 	#mtext(1, text = "Date", line = 3, cex = 1.0)
-	mtext(2, text = "z-score", line = 3, cex = 1.0)
+	mtext(2, text = "z-score", line = 2, cex = 1.0)
 	
 	# Create a legend at (1, max_y) that is slightly smaller 
 	# (cex) and uses the same line colors and points used by 
@@ -370,7 +370,7 @@ PlotPNRateZscore <- function() {
 			c("Gallup (Approve/Disapprove)", "Twitter (Positive/Negative)"), 
 			cex = 1.0, col = plot_colors, 
 			#pch = 21:22, 
-			lty = c("dashed", "solid"), lwd =3)
+			lty = c("dashed", "solid"), lwd =2)
 }
 
 ###
@@ -603,11 +603,18 @@ AnalyzeCorrelation <- function() {
 
 AnalyzeGrangerCasualty()
 
+tiff(filename = "figure-3a-2col.tiff", width = 17.15, height = 8.3, units = "cm", pointsize = 7, res = 600, compression = "lzw")
 par(mfrow = c(1, 2)) 
-par(mar=c(3, 4, 2, 2))
+par(mar=c(3, 3, 2, 2))
 PlotPositiveZscore()
 PlotNegativeZscore()
+dev.off()
+
+tiff(filename = "figure-3b-2col.tiff", width = 17.15, height = 8.3, units = "cm", pointsize = 7, res = 600, compression = "lzw")
+par(mfrow = c(1, 2)) 
+par(mar=c(3, 3, 2, 2))
 PlotGapZscore()
 PlotPNRateZscore()
+dev.off()
 
 

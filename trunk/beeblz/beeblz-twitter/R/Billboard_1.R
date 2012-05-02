@@ -139,7 +139,7 @@ PlotLadygaga_1 <- function(df.data) {
 	plot.colors <- c("limegreen", "black", "blue", "red")
 	
 	plot(-Zscore(df.data$o_chart_sum), type = "o", col = plot.colors[1], lty = "solid",
-			ylim = c(min.y, max.y), axes = FALSE, pch = 2, ann = FALSE, lwd  = 3)
+			ylim = c(min.y, max.y), axes = FALSE, pch = 2, ann = FALSE, lwd  = 2)
 	
 	axis(1, at = 1:length(df.data$week), lab = lapply(df.data$week, ConvertDate))
 	
@@ -160,7 +160,7 @@ PlotLadygaga_1 <- function(df.data) {
 			col = plot.colors[1])
 	
 	lines(Zscore(df.data$total_user_count), type = "o", pch = 4, lty = "solid", 
-			col = plot.colors[2], lwd  = 3)
+			col = plot.colors[2], lwd  = 2)
 	
 	lines(Zscore(df.data$positive_user_count), type = "o", pch = 22, lty = "dashed", 
 			col = plot.colors[3])
@@ -170,15 +170,15 @@ PlotLadygaga_1 <- function(df.data) {
 	
 	#title(main = "Lady Gaga", col.main = "black", font.main = 4)
 	
-	mtext(1, text = "Week", line = 3, cex = 1.0)
-	mtext(2, text = "z-score", line = 3, cex = 1.0)
+	mtext(1, text = "Week", line = 2, cex = 1.0)
+	mtext(2, text = "z-score", line = 2, cex = 1.0)
 	
-	legend(5.3, max.y, 
+	legend(5.0, max.y, 
 			c("Total songs", "Rank of each song", "Total tweet users", "Positive users", "Negative users"), 
 			cex = 1.0, col = c(plot.colors[1], plot.colors[1], plot.colors[2], plot.colors[3], plot.colors[4]), 
 			pch = c(2, 21, 4, 22, 23), 
 			lty = c("solid", "dashed", "solid", "dashed", "dashed"),
-			lwd = c(3, 1, 3, 1, 1))
+			lwd = c(2, 1, 2, 1, 1))
 }
 
 ###
@@ -244,7 +244,7 @@ PlotBritney_1 <- function(df.data) {
 	plot.colors <- c("limegreen", "black", "blue", "red")
 	
 	plot(-Zscore(df.data$o_chart_sum), type = "o", col = plot.colors[1], lty = "solid",
-			ylim = c(min.y, max.y), axes = FALSE, pch = 2, ann = FALSE, lwd  = 3)
+			ylim = c(min.y, max.y), axes = FALSE, pch = 2, ann = FALSE, lwd  = 2)
 	
 	axis(1, at = 1:length(df.data$week), lab = lapply(df.data$week, ConvertDate))
 	
@@ -259,7 +259,7 @@ PlotBritney_1 <- function(df.data) {
 			col = plot.colors[1])
 	
 	lines(Zscore(df.data$total_user_count), type = "o", pch = 4, lty = "solid", 
-			col = plot.colors[2], lwd  = 3)
+			col = plot.colors[2], lwd  = 2)
 	
 	lines(Zscore(df.data$positive_user_count), type = "o", pch = 22, lty = "dashed", 
 			col = plot.colors[3])
@@ -269,15 +269,15 @@ PlotBritney_1 <- function(df.data) {
 	
 	#title(main = "Britney Spears", col.main = "black", font.main = 4)
 	
-	mtext(1, text = "Week", line = 3, cex = 1.0)
-	mtext(2, text = "z-score", line = 3, cex = 1.0)
+	mtext(1, text = "Week", line = 2, cex = 1.0)
+	mtext(2, text = "z-score", line = 2, cex = 1.0)
 	
 	legend(1, max.y, 
 			c("Total songs", "Rank of each song", "Total tweet users", "Positive users", "Negative users"), 
 			cex = 1.0, col = c(plot.colors[1], plot.colors[1], plot.colors[2], plot.colors[3], plot.colors[4]), 
 			pch = c(2, 21, 4, 22, 23), 
 			lty = c("solid", "dashed", "solid", "dashed", "dashed"),
-			lwd = c(3, 1, 3, 1, 1))
+			lwd = c(2, 1, 2, 1, 1))
 }
 
 # ladygaga
@@ -499,7 +499,11 @@ cor.test(df.britney$femme_fatale, df.britney$negative_user_rate, method = "spear
 
 
 #############
+tiff(filename = "figure-4-2col.tiff", width = 17.15, height = 8.25, units = "cm", pointsize = 7, res = 600, compression = "lzw")
+
 par(mfrow = c(1, 2)) 
-par(mar=c(3, 4, 1, 1))
+par(mar=c(3, 3, 1, 1))
 PlotLadygaga_1(df.ladygaga)
 PlotBritney_1(df.britney)
+
+dev.off()
