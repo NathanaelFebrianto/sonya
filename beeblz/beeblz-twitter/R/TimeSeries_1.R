@@ -264,15 +264,16 @@ PlotPopularUserZscore <- function(user_name) {
 # Execute
 ###
 # Split the screen into two rows and one column, defining screens 1 and 2.
-#user <- "aplusk"
-user <- "DalaiLama"
+user <- "aplusk"
+#user <- "DalaiLama"
 
+tiff(filename = "figure-2a-2col.tiff", width = 17.15, height = 11, units = "cm", pointsize = 8, res = 600, compression = "lzw")
 par(mfrow = c(2, 2)) 
 PlotPopularUser(user)
 PlotPopularUserZscore(user)
 PlotAudienceByTweet(user)
 PlotAudienceByTweetZscore(user)
-
+dev.off()
 
 
 

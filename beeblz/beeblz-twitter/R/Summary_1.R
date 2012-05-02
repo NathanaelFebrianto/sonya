@@ -47,7 +47,8 @@ PlotSentimentSize <- function() {
 	data.rate <- rbind(pos.users.rate, neg.users.rate)
 	data.count <- rbind(pos.users, neg.users)
 	
-	par(mar=c(8, 5, 2, 5))
+	#par(mar=c(8, 5, 2, 5))
+	par(mar=c(8, 3, 2, 3))
 	
 	plot.colors <- c("black", "gray", "blue", "red")
 	title <- "Positive and Negative Audience"
@@ -62,28 +63,32 @@ PlotSentimentSize <- function() {
 			beside = TRUE, 
 			col = c(plot.colors[1], plot.colors[2]))
 	axis(2, pretty(range(pos.users.rate), 10))
-	mtext(2, text = "Rate (%)", line = 3, cex = 1.5)
+	#mtext(2, text = "Rate (%)", line = 3, cex = 1.5)
+	mtext(2, text = "Rate (%)", line = 2, cex = 1)
 	
 	par(new = TRUE) # tell R to overwrite the first plot
 	plot(pos.users, type = "o", pch = 21, lty = "solid", axes = FALSE, lwd = 2,
 			col = plot.colors[3], xaxt = "n", yaxt = "n", xlab = "", ylab = "")
 
 	axis(4, pretty(range(pos.users), 20))
-	mtext(4, text = "# of Users", line = 3, cex = 1.5)
+	#mtext(4, text = "# of Users", line = 3, cex = 1.5)
+	mtext(4, text = "# of Users", line = 2, cex = 1)
 	
 	par(new = TRUE)
 	plot(neg.users, type = "o", pch = 22, lty = "solid", lwd = 2,
 			col = plot.colors[4], xaxt = "n", yaxt = "n", xlab = "", ylab = "")
 	
-	legend("topleft", c("Positive users (%)", "Negative users (%)"), 			
+	legend("topleft", c("Pos. Users(%)", "Neg. Users(%)"), 			
 			cex = 1, fill = c(plot.colors[1], plot.colors[2]))
 	
-	legend("topright", c("Positive users (#)", "Negative users (#)"), 
+	legend("topright", c("Pos. Users(#)", "Neg. Users(#)"), 
 			pch = c(21, 22), lty = c("solid", "solid"),
 			cex = 1, col = c(plot.colors[3], plot.colors[4]))
 }
+ 
 
-
-#par(mfrow = c(1, 2)) 
+tiff(filename = "figure-1-2col.tiff", width = 17.15, height = 8.25, units = "cm", pointsize = 7, res = 600, compression = "lzw")
+par(mfrow = c(1, 2)) 
 PlotAudienceSize()
 PlotSentimentSize()
+dev.off()
