@@ -87,7 +87,7 @@ PlotSentimentSize <- function() {
 }
  
 
-tiff(filename = "figure-1-2col.tiff", width = 17.15, height = 8.25, units = "cm", pointsize = 7, res = 600, compression = "lzw")
+tiff(filename = "figure-1ab.tiff", width = 17.15, height = 8.25, units = "cm", pointsize = 7, res = 1200, compression = "lzw")
 par(mfrow = c(1, 2)) 
 PlotAudienceSize()
 PlotSentimentSize()

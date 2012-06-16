@@ -71,7 +71,7 @@ PlotSentiment <- function() {
 	legend(1, max_y, 
 			c("Approve", "Disapprove", "Positive", "Negative"), 
 			cex = 0.8, col = plot_colors, 
-			pch = 21:24, lty = c("dashed", "dashed", "solid", "solid"), lwd =2)
+			pch = 21:24, lty = c("dashed", "dashed", "solid", "solid"), lwd = 1)
 }
 
 ###
@@ -124,7 +124,7 @@ PlotSentiment1 <- function() {
 	legend(1, max_y, 
 			c("Approve", "Disapprove"), 
 			cex = 0.8, col = plot_colors, 
-			pch = 21:22, lty = c("solid", "solid"), lwd =2)
+			pch = 21:22, lty = c("solid", "solid"), lwd = 1)
 	
 	###################################################
 	screen(2)
@@ -165,7 +165,7 @@ PlotSentiment1 <- function() {
 	legend(1, max_y, 
 			c("Positive", "Negative"), 
 			cex = 0.8, col = plot_colors, 
-			pch = 21:22, lty = c("solid", "solid"), lwd =2)
+			pch = 21:22, lty = c("solid", "solid"), lwd = 1)
 }
 
 ###
@@ -216,7 +216,7 @@ PlotPositiveZscore <- function() {
 			c("Gallup (Approve)", "Twitter (Positive)"), 
 			cex = 1.0, col = plot_colors, 
 			#pch = 21:22, 
-			lty = c("dashed", "solid"), lwd =2)
+			lty = c("dashed", "solid"), lwd = 1)
 }
 
 ###
@@ -267,7 +267,7 @@ PlotNegativeZscore <- function() {
 			c("Gallup (Disapprove)", "Twitter (Negative)"), 
 			cex = 1.0, col = plot_colors, 
 			#pch = 21:22, 
-			lty = c("dashed", "solid"), lwd =2)
+			lty = c("dashed", "solid"), lwd = 1)
 }
 
 ###
@@ -282,7 +282,7 @@ PlotGapZscore <- function() {
 			Zscore(df_obama$positive_tweet_rate - df_obama$negative_tweet_rate)) + 0.5
 	
 	# Defines colors to be used 
-	plot_colors <- c("forestgreen", "forestgreen")
+	plot_colors <- c("green3", "green3")
 	
 	# Graph autos using y axis that ranges from 0 to max_y.
 	# Turn off axes and annotations (axis labels) so we can 
@@ -318,7 +318,7 @@ PlotGapZscore <- function() {
 			c("Gallup (Approve-Disapprove)", "Twitter (Positive-Negative)"), 
 			cex = 1.0, col = plot_colors, 
 			#pch = 21:22, 
-			lty = c("dashed", "solid"), lwd =2)
+			lty = c("dashed", "solid"), lwd = 1)
 }
 
 
@@ -370,7 +370,7 @@ PlotPNRateZscore <- function() {
 			c("Gallup (Approve/Disapprove)", "Twitter (Positive/Negative)"), 
 			cex = 1.0, col = plot_colors, 
 			#pch = 21:22, 
-			lty = c("dashed", "solid"), lwd =2)
+			lty = c("dashed", "solid"), lwd = 1)
 }
 
 ###
@@ -603,14 +603,14 @@ AnalyzeCorrelation <- function() {
 
 AnalyzeGrangerCasualty()
 
-tiff(filename = "figure-3a-2col.tiff", width = 17.15, height = 8.3, units = "cm", pointsize = 7, res = 600, compression = "lzw")
+tiff(filename = "figure-3a.tiff", width = 17.15, height = 8.3, units = "cm", pointsize = 7, res = 1200, compression = "lzw")
 par(mfrow = c(1, 2)) 
 par(mar=c(3, 3, 2, 2))
 PlotPositiveZscore()
 PlotNegativeZscore()
 dev.off()
 
-tiff(filename = "figure-3b-2col.tiff", width = 17.15, height = 8.3, units = "cm", pointsize = 7, res = 600, compression = "lzw")
+tiff(filename = "figure-3b.tiff", width = 17.15, height = 8.3, units = "cm", pointsize = 7, res = 1200, compression = "lzw")
 par(mfrow = c(1, 2)) 
 par(mar=c(3, 3, 2, 2))
 PlotGapZscore()
