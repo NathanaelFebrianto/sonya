@@ -65,8 +65,8 @@ PlotAudienceByTweet <- function(user_name) {
 	# Make y axis with horizontal labels that display ticks at 
 	# every 2000 marks.
 	#####################################################
-#	axis(2, las = 1, at = 500*0:max_y)	#for dalailama
-	axis(2, las = 1, at = 2000*0:max_y)	#for aplusk
+	axis(2, las = 1, at = 500*0:max_y)	#for dalailama
+#	axis(2, las = 1, at = 2000*0:max_y)	#for aplusk
 	
 	# Create box around plot
 	box()
@@ -88,7 +88,7 @@ PlotAudienceByTweet <- function(user_name) {
 	legend(max_x, max_y, 
 			c("Positive", "Negative"), 
 			col = plot_colors, 
-			lty = c("solid", "dashed"), lwd = c(2, 2), cex = 1.0)
+			lty = c("solid", "dashed"), lwd = c(1, 1), cex = 1.0)
 }
 
 
@@ -121,8 +121,8 @@ PlotPopularUser <- function(user_name) {
 	# Make y axis with horizontal labels that display ticks at 
 	# every 2000 marks.
 	#####################################################
-#	axis(2, las = 1, at = 1*0:max_y)	#for dalailama
-	axis(2, las = 1, at = 5*0:max_y)	#for aplusk
+	axis(2, las = 1, at = 1*0:max_y)	#for dalailama
+#	axis(2, las = 1, at = 5*0:max_y)	#for aplusk
 	
 	# Create box around plot
 	box()
@@ -144,7 +144,7 @@ PlotPopularUser <- function(user_name) {
 	legend(max_x, max_y, 
 		c("Positive", "Negative"), 
 		col = plot_colors, 
-		lty = c("solid", "dashed"), lwd = c(2, 2), cex = 1.0)
+		lty = c("solid", "dashed"), lwd = c(1, 1), cex = 1.0)
 }
 
 PlotAudienceByTweetZscore <- function(user_name) {	
@@ -199,7 +199,7 @@ PlotAudienceByTweetZscore <- function(user_name) {
 	legend(max_x, max_y, 
 			c("Positive", "Negative"), 
 			col = plot_colors, 
-			lty = c("solid", "dashed"), lwd = c(2, 2), cex = 1.0)
+			lty = c("solid", "dashed"), lwd = c(1, 1), cex = 1.0)
 }
 
 PlotPopularUserZscore <- function(user_name) {
@@ -213,8 +213,8 @@ PlotPopularUserZscore <- function(user_name) {
 	
 	# Compute the largest y value used in the data (or we could just use range again)
 	#####################################################
-#	max_y <- max(Zscore(df_user$p.positive_tweet_count), na.rm = TRUE) + 3		#for dalailama
-	max_y <- max(Zscore(df_user$p.positive_tweet_count), na.rm = TRUE) + 0.5	#for aplusk
+	max_y <- max(Zscore(df_user$p.positive_tweet_count), na.rm = TRUE) + 3		#for dalailama
+#	max_y <- max(Zscore(df_user$p.positive_tweet_count), na.rm = TRUE) + 0.5	#for aplusk
 	min_y <- min(Zscore(df_user$p.positive_tweet_count), na.rm = TRUE) - 0.5
 	max_x <- length(df_user$create_date) - 20
 	
@@ -256,7 +256,7 @@ PlotPopularUserZscore <- function(user_name) {
 	legend(max_x, max_y, 
 			c("Positive", "Negative"), 
 			col = plot_colors, 
-			lty = c("solid", "dashed"), lwd = c(2, 2), cex = 1.0)
+			lty = c("solid", "dashed"), lwd = c(1, 1), cex = 1.0)
 }
 
 
@@ -264,10 +264,10 @@ PlotPopularUserZscore <- function(user_name) {
 # Execute
 ###
 # Split the screen into two rows and one column, defining screens 1 and 2.
-user <- "aplusk"
-#user <- "DalaiLama"
+#user <- "aplusk"
+user <- "DalaiLama"
 
-tiff(filename = "figure-2a-2col.tiff", width = 17.15, height = 11, units = "cm", pointsize = 8, res = 600, compression = "lzw")
+tiff(filename = "figure-2b.tiff", width = 17.15, height = 11, units = "cm", pointsize = 8, res = 1200, compression = "lzw")
 par(mfrow = c(2, 2)) 
 PlotPopularUser(user)
 PlotPopularUserZscore(user)

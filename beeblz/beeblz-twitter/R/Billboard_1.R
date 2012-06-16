@@ -82,7 +82,7 @@ PlotLadygaga <- function(df.data) {
 	max.y <- 2
 	min.y <- -2
 	
-	plot.colors <- c("limegreen", "royalblue", "blue", "red")
+	plot.colors <- c("green3", "royalblue", "blue", "red")
 	
 	plot(Zscore(df.data$c_chart_sum), type = "o", col = plot.colors[1], lty = "solid",
 			ylim = c(min.y, max.y), axes = FALSE, pch = 2, ann = FALSE, lwd  = 2)
@@ -136,7 +136,7 @@ PlotLadygaga_1 <- function(df.data) {
 	max.y <- 2
 	min.y <- -2
 	
-	plot.colors <- c("limegreen", "black", "blue", "red")
+	plot.colors <- c("green3", "black", "blue", "red")
 	
 	plot(-Zscore(df.data$o_chart_sum), type = "o", col = plot.colors[1], lty = "solid",
 			ylim = c(min.y, max.y), axes = FALSE, pch = 2, ann = FALSE, lwd  = 2)
@@ -173,7 +173,7 @@ PlotLadygaga_1 <- function(df.data) {
 	mtext(1, text = "Week", line = 2, cex = 1.0)
 	mtext(2, text = "z-score", line = 2, cex = 1.0)
 	
-	legend(5.0, max.y, 
+	legend(5.5, max.y, 
 			c("Total songs", "Rank of each song", "Total tweet users", "Positive users", "Negative users"), 
 			cex = 1.0, col = c(plot.colors[1], plot.colors[1], plot.colors[2], plot.colors[3], plot.colors[4]), 
 			pch = c(2, 21, 4, 22, 23), 
@@ -191,7 +191,7 @@ PlotBritney <- function(df.data) {
 	max.y <- 2.5
 	min.y <- -2
 	
-	plot.colors <- c("limegreen", "royalblue", "blue", "red")
+	plot.colors <- c("green3", "royalblue", "blue", "red")
 	
 	plot(Zscore(df.data$c_chart_sum), type = "o", col = plot.colors[1], lty = "solid",
 			ylim = c(min.y, max.y), axes = FALSE, pch = 2, ann = FALSE, lwd  = 2)
@@ -241,7 +241,7 @@ PlotBritney_1 <- function(df.data) {
 	max.y <- 2.5
 	min.y <- -2
 	
-	plot.colors <- c("limegreen", "black", "blue", "red")
+	plot.colors <- c("green3", "black", "blue", "red")
 	
 	plot(-Zscore(df.data$o_chart_sum), type = "o", col = plot.colors[1], lty = "solid",
 			ylim = c(min.y, max.y), axes = FALSE, pch = 2, ann = FALSE, lwd  = 2)
@@ -499,7 +499,7 @@ cor.test(df.britney$femme_fatale, df.britney$negative_user_rate, method = "spear
 
 
 #############
-tiff(filename = "figure-4-2col.tiff", width = 17.15, height = 8.25, units = "cm", pointsize = 7, res = 600, compression = "lzw")
+tiff(filename = "figure-4ab.tiff", width = 17.15, height = 8.25, units = "cm", pointsize = 6.5, res = 1200, compression = "lzw")
 
 par(mfrow = c(1, 2)) 
 par(mar=c(3, 3, 1, 1))
