@@ -1,16 +1,8 @@
 package org.louie.api.twitter;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
-import twitter4j.Twitter;
-import twitter4j.TwitterException;
-import twitter4j.TwitterFactory;
-import twitter4j.auth.AccessToken;
-import twitter4j.auth.RequestToken;
 
 public class TwitterOAuthTest extends TestCase {
 
@@ -23,6 +15,7 @@ public class TwitterOAuthTest extends TestCase {
 	}
 	
 	public void testOAuthTest() throws Exception {
+		/*
 		Twitter twitter = new TwitterFactory().getInstance();
 		
 		twitter.setOAuthConsumer("goBKSaqPvfEOZ1om3FOAw", "I9yvEXfHKYUqWltxU7QjkTi0PJi3FItIkWfKGBouRgo");
@@ -58,6 +51,7 @@ public class TwitterOAuthTest extends TestCase {
 		//Status status = twitter.updateStatus(args[0]);
 		//System.out.println("Successfully updated the status to [" + status.getText() + "].");
 		System.exit(0);
+		*/
 	}
 	
 	/*
