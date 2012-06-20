@@ -1,6 +1,10 @@
 package org.louie.api.twitter;
 
-
+/**
+ * This class is a Twitter filter query.
+ * 
+ * @author Younggue Bae
+ */
 public class TwitterFilterQuery {
 	
 	private String[] track;
