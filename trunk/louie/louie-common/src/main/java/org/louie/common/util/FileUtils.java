@@ -31,8 +31,22 @@ public class FileUtils {
 	 * 
 	 * @param filename
 	 */
-	public static final void mkdirs(String filename) {
+	public static final void mkdirsFromFullpath(String filename) {
 		String strDir = extractDirectory(filename);
+		if (!StringUtils.isEmpty(strDir)) {
+			File dir = new File(strDir);
+			if (!dir.exists()) {
+				dir.mkdirs();
+			}
+		}
+	}
+	
+	/**
+	 * Makes directory.
+	 * 
+	 * @param filename
+	 */
+	public static final void mkdirs(String strDir) {
 		if (!StringUtils.isEmpty(strDir)) {
 			File dir = new File(strDir);
 			if (!dir.exists()) {
