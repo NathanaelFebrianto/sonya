@@ -30,7 +30,7 @@ public class TwitterDataApi {
 	}
 	
 	/**
-	 * Collects and writes users into file by screen names.
+	 * Collects and writes users with json format into file by screen names.
 	 * 
 	 * @param file
 	 * @param screenNames
