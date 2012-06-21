@@ -5,6 +5,11 @@ import java.util.List;
 
 import com.google.api.client.util.Key;
 
+/**
+ * This class is video.
+ * 
+ * @author Younggue Bae
+ */
 public class Video extends Item {
 
 	@Key
@@ -15,8 +20,6 @@ public class Video extends Item {
 
 	@Key
 	Player player;
-	
-	
 	
 	@Key
 	int viewCount;
