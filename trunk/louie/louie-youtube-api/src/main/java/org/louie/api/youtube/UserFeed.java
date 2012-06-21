@@ -42,17 +42,19 @@ public class UserFeed extends Feed<User> {
 	public List<User> getItems() {
 		List<User> items = new ArrayList<User>();
 
-		User user = new User();
-		user.title = title;
-		user.updated = updated;
-		user.id = id;
-		user.author = author;
-		user.age = age;
-		user.gender = gender;
-		user.location = location;
-		user.username = username;
-
-		items.add(user);
+		if (id != null) {
+			User user = new User();
+			user.title = title;
+			user.updated = updated;
+			user.id = id;
+			user.author = author;
+			user.age = age;
+			user.gender = gender;
+			user.location = location;
+			user.username = username;
+	
+			items.add(user);
+		}
 		return items;
 	}
 
