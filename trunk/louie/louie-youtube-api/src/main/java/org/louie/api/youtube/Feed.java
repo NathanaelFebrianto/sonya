@@ -2,13 +2,14 @@ package org.louie.api.youtube;
 
 import java.util.List;
 
-import com.google.api.client.util.Key;
+/**
+ * This class is feed.
+ * 
+ * @author Younggue Bae
+ */
+public abstract class Feed<T extends Item> {
+	
+	abstract public List<T> getItems();
+	abstract public int getTotalItemsSize();
 
-public class Feed<T extends Item> {
-
-  @Key
-  List<T> items;
-
-  @Key
-  int totalItems;
 }
