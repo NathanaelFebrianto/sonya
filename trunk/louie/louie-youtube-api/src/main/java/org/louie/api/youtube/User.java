@@ -1,6 +1,5 @@
 package org.louie.api.youtube;
 
-import com.google.api.client.util.Key;
 
 /**
  * This class is user.
