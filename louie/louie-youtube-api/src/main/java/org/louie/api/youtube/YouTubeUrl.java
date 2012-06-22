@@ -70,12 +70,29 @@ public class YouTubeUrl extends GoogleUrl {
 	}
 	
 	/**
+	 * Returns url for retrieving a video.
+	 * 
+	 * @param videoId
+	 * @return
+	 */
+	static YouTubeUrl forVideoFeed(String videoId) {
+		YouTubeUrl result = root();
+		result.getPathParts().add("videos");
+		result.getPathParts().add(videoId);
+		result.setAlt("atom");
+		//result.setAlt("json");
+		//result.version = 1;
+		
+		return result;
+	}
+	
+	/**
 	 * Returns url for retrieving comments for a video.
 	 * 
 	 * @param videoId
 	 * @return
 	 */
-	static YouTubeUrl forRetrievingVideoCommentsFeed(String videoId) {
+	static YouTubeUrl forVideoCommentsFeed(String videoId) {
 		YouTubeUrl result = root();
 		result.getPathParts().add("videos");
 		result.getPathParts().add(videoId);
@@ -89,12 +106,12 @@ public class YouTubeUrl extends GoogleUrl {
 	}
 	
 	/**
-	 * Returns url for retrieving user's profile.
+	 * Returns url for retrieving a user's profile.
 	 * 
 	 * @param userId
 	 * @return
 	 */
-	static YouTubeUrl forRetrievingUserProfileFeed(String userId) {
+	static YouTubeUrl forUserFeed(String userId) {
 		YouTubeUrl result = root();
 		result.getPathParts().add("users");
 		result.getPathParts().add(userId);

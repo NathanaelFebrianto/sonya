@@ -8,7 +8,13 @@ import com.google.api.client.util.Key;
  * @author Younggue Bae
  */
 public class Author {
-	
-	 @Key("name")
-	 String name;
+
+	@Key("name")
+	String name;
+
+	@Override
+	public String toString() {
+		return "Author [name=" + name + "]";
+	}
+
 }

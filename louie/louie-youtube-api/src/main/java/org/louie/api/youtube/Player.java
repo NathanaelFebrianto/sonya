@@ -11,4 +11,10 @@ public class Player {
 	// "default" is a Java keyword, so need to specify the JSON key manually
 	@Key("default")
 	String defaultUrl;
+
+	@Override
+	public String toString() {
+		return "Player [defaultUrl=" + defaultUrl + "]";
+	}
+	
 }
