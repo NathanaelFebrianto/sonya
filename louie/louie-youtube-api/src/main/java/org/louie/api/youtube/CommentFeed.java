@@ -11,7 +11,7 @@ import com.google.api.client.util.Key;
  * 
  * @author Younggue Bae
  */
-public class CommentFeed extends ListFeed<CommentEntry> {
+public class CommentFeed extends Feed<CommentEntry> {
 	
 	@Key("entry")
 	List<CommentEntry> items;

@@ -13,7 +13,7 @@ public class View {
 		System.out.println();
 	}
 
-	public static void displayItems(ListFeed<? extends Item> feed) {
+	public static void displayFeed(Feed<? extends Item> feed) {
 		if (feed == null || feed.getItems() == null)
 			return;
 		

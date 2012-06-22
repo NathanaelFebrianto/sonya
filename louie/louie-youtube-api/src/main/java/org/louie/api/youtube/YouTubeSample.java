@@ -34,15 +34,15 @@ public class YouTubeSample {
 	private static VideoFeed showVideos(YouTubeClient client) throws IOException {
 		View.header("Get Videos");
 		// build URL for the video feed for the specified search parameters
-		YouTubeUrl url = YouTubeUrl.forVideosFeed();
+		YouTubeUrl url = YouTubeUrl.forVideoFeed();
 		
 		System.out.println("url == " + url.toString());
 		
 		//url.author = "BIGBANG";
 		url.set("q", "kpop");
 		// execute GData request for the feed
-		VideoFeed feed = client.executeGetVideosFeed(url);
-		View.displayItems(feed);
+		VideoFeed feed = client.executeGetVideoFeed(url);
+		View.displayFeed(feed);
 		return feed;
 	}
 	
@@ -50,12 +50,12 @@ public class YouTubeSample {
 		View.header("Get Video");
 		// build URL for the video feed for the specified search parameters
 		String videoId = "8S5o0q5i9dU";
-		YouTubeUrl url = YouTubeUrl.forVideoFeed(videoId);
+		YouTubeUrl url = YouTubeUrl.forVideoEntry(videoId);
 		
 		System.out.println("url == " + url.toString());
 		
 		// execute GData request for the entry
-		VideoEntry entry = client.executeGetVideoFeed(url);
+		VideoEntry entry = client.executeGetVideoEntry(url);
 		View.displayEntry(entry);
 		return entry;
 	}
@@ -64,27 +64,27 @@ public class YouTubeSample {
 		View.header("Get Comments for video");
 		// build URL for retrieving the comments for a video.
 		String videoId = "8S5o0q5i9dU";
-		YouTubeUrl url = YouTubeUrl.forVideoCommentsFeed(videoId);
+		YouTubeUrl url = YouTubeUrl.forVideoCommentFeed(videoId);
 		
 		System.out.println("url == " + url.toString());
 		
 		// execute GData request for the feed
-		CommentFeed feed = client.executeGetVideoCommentsFeed(url);
-		View.displayItems(feed);
+		CommentFeed feed = client.executeGetVideoCommentFeed(url);
+		View.displayFeed(feed);
 		
 		return feed;
 	}
 	
-	private static UserEntity showUser(YouTubeClient client) throws IOException {
+	private static UserEntry showUser(YouTubeClient client) throws IOException {
 		View.header("Get user profile");
 		// build URL for retrieving the user profile.
 		String userId = "babypallacita";
-		YouTubeUrl url = YouTubeUrl.forUserFeed(userId);
+		YouTubeUrl url = YouTubeUrl.forUserEntry(userId);
 		
 		System.out.println("url == " + url.toString());
 		
 		// execute GData request for the entry
-		UserEntity entry = client.executeGetUserFeed(url);
+		UserEntry entry = client.executeGetUserEntry(url);
 		View.displayEntry(entry);
 		
 		return entry;
