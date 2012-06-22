@@ -49,20 +49,20 @@ public class YouTubeClient {
 		});
 	}
 
-	public VideosFeed executeGetVideosFeed(YouTubeUrl url) throws IOException {
-		return executeGetListFeed(url, VideosFeed.class);
+	public VideoFeed executeGetVideosFeed(YouTubeUrl url) throws IOException {
+		return executeGetListFeed(url, VideoFeed.class);
 	}
 	
-	public VideoFeed executeGetVideoFeed(YouTubeUrl url) throws IOException {
-		return executeGetEntryFeed(url, VideoFeed.class);
+	public VideoEntry executeGetVideoFeed(YouTubeUrl url) throws IOException {
+		return executeGetEntryFeed(url, VideoEntry.class);
 	}
 	
-	public CommentsFeed executeGetVideoCommentsFeed(YouTubeUrl url) throws IOException {
-		return executeGetListFeed(url, CommentsFeed.class);
+	public CommentFeed executeGetVideoCommentsFeed(YouTubeUrl url) throws IOException {
+		return executeGetListFeed(url, CommentFeed.class);
 	}
 	
-	public UserFeed executeGetUserFeed(YouTubeUrl url) throws IOException {
-		return executeGetEntryFeed(url, UserFeed.class);
+	public UserEntity executeGetUserFeed(YouTubeUrl url) throws IOException {
+		return executeGetEntryFeed(url, UserEntity.class);
 	}
 	
 	public String executeGetAsString(YouTubeUrl url) throws IOException {
@@ -81,7 +81,7 @@ public class YouTubeClient {
 		return request.execute().parseAs(feedClass);
 	}
 	
-	private <F extends EntryFeed> F executeGetEntryFeed(YouTubeUrl url,
+	private <F extends Entry> F executeGetEntryFeed(YouTubeUrl url,
 			Class<F> feedClass) throws IOException {
 		HttpRequest request = requestFactory.buildGetRequest(url);
 		

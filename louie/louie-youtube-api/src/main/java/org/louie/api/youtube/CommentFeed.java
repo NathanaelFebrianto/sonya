@@ -11,10 +11,10 @@ import com.google.api.client.util.Key;
  * 
  * @author Younggue Bae
  */
-public class CommentsFeed extends ListFeed<Comment> {
+public class CommentFeed extends ListFeed<CommentEntry> {
 	
 	@Key("entry")
-	List<Comment> items;
+	List<CommentEntry> items;
 
 	@Key("openSearch:totalResults")
 	int totalItems;
@@ -23,7 +23,7 @@ public class CommentsFeed extends ListFeed<Comment> {
 	int itemsPerPage;
 
 	@Override
-	public List<Comment> getItems() {
+	public List<CommentEntry> getItems() {
 		return items;
 	}
 

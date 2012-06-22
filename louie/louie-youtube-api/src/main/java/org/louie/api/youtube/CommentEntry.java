@@ -7,7 +7,7 @@ import com.google.api.client.util.Key;
  * 
  * @author Younggue Bae
  */
-public class Comment extends Item {
+public class CommentEntry extends Item {
 
 	@Key("content")
 	String content;
