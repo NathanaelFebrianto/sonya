@@ -8,7 +8,7 @@ import com.google.api.client.util.Key;
  * 
  * @author Younggue Bae
  */
-public class UserFeed extends EntryFeed {
+public class UserEntity extends Entry {
 
 	@Key
 	String title;

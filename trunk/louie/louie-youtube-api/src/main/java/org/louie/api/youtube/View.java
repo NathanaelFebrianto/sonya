@@ -60,7 +60,7 @@ public class View {
 		*/
 	}
 	
-	public static void displayEntry(EntryFeed feed) {
+	public static void displayEntry(Entry feed) {
 		System.out.println(feed.toString());
 		
 		/*
