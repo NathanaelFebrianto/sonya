@@ -17,4 +17,10 @@ public class Comment extends Item {
 	
 	@Key("author")
 	Author author;
+
+	@Override
+	public String toString() {
+		return "Comment [content=" + content + ", id=" + id + ", author="
+				+ author + ", title=" + title + ", updated=" + updated + "]";
+	}
 }

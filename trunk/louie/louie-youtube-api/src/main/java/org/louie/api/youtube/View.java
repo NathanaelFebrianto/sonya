@@ -13,19 +13,23 @@ class View {
 		System.out.println();
 	}
 
-	static void display(Feed<? extends Item> feed) {
+	static void displayItems(ListFeed<? extends Item> feed) {
 
-		System.out.println("Showing first " + feed.getItems().size() + " of "
-				+ feed.getTotalItemsSize() + " total results: ");
-		
-		for (Item item : feed.getItems()) {
-			System.out.println();
-			System.out.println("-----------------------------------------------");
-			display(item);
-		}
+			System.out.println("Showing first " + feed.getItems().size() + " of "
+					+ feed.getTotalItemsSize() + " total results: ");
+			
+			for (Item item : feed.getItems()) {
+				System.out.println();
+				System.out.println("-----------------------------------------------");
+				displayItem(item);
+			}
 	}
 
-	static void display(Item item) {
+	static void displayItem(Item item) {
+		
+		System.out.println(item.toString());
+		
+		/*
 		System.out.println("title: " + item.title);
 		System.out.println("updated: " + item.updated);
 		
@@ -51,14 +55,21 @@ class View {
 			System.out.println("id: " + comment.id);
 			System.out.println("author: " + comment.author.name);
 		}
-		else if (item instanceof User) {
-			User user = (User) item;
+		*/
+	}
+	
+	static void displayEntry(EntryFeed feed) {
+		System.out.println(feed.toString());
+		
+		/*
+		if (feed instanceof UserFeed) {
+			UserFeed user = (UserFeed) feed;
 			
 			System.out.println("id: " + user.id);
 			System.out.println("username: " + user.author.name);
 			System.out.println("gender: " + user.gender);
 			System.out.println("gender: " + user.age);
 			System.out.println("location: " + user.location);
-		}
+		*/
 	}
 }

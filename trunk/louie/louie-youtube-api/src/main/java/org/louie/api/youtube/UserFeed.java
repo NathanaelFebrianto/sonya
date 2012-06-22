@@ -1,24 +1,17 @@
 package org.louie.api.youtube;
 
-import java.util.ArrayList;
-import java.util.List;
-
-import com.google.api.client.util.DateTime;
 import com.google.api.client.util.Key;
 
 /**
- * This class is user feed. 
+ * This class is a user feed. 
  * https://developers.google.com/youtube/2.0/developers_guide_protocol_profiles
  * 
  * @author Younggue Bae
  */
-public class UserFeed extends Feed<User> {
+public class UserFeed extends EntryFeed {
 
 	@Key
 	String title;
-
-	@Key
-	DateTime updated;
 
 	@Key("yt:userId")
 	String id;
@@ -39,28 +32,10 @@ public class UserFeed extends Feed<User> {
 	String username;
 
 	@Override
-	public List<User> getItems() {
-		List<User> items = new ArrayList<User>();
-
-		if (id != null) {
-			User user = new User();
-			user.title = title;
-			user.updated = updated;
-			user.id = id;
-			user.author = author;
-			user.age = age;
-			user.gender = gender;
-			user.location = location;
-			user.username = username;
-	
-			items.add(user);
-		}
-		return items;
+	public String toString() {
+		return "UserFeed [title=" + title + ", id=" + id + ", author=" + author
+				+ ", age=" + age + ", gender=" + gender + ", location="
+				+ location + ", username=" + username + ", updated=" + updated
+				+ ", published=" + published + "]";
 	}
-
-	@Override
-	public int getTotalItemsSize() {
-		return getItems().size();
-	}
-
 }

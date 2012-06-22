@@ -6,12 +6,12 @@ import com.google.api.client.util.Key;
 
 
 /**
- * This class is comment feed.
+ * This class is comments feed.
  * https://developers.google.com/youtube/2.0/developers_guide_protocol_comments#Retrieve_comments
  * 
  * @author Younggue Bae
  */
-public class CommentFeed extends Feed<Comment> {
+public class CommentsFeed extends ListFeed<Comment> {
 	
 	@Key("entry")
 	List<Comment> items;

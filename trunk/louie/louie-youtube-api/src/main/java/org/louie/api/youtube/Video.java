@@ -26,4 +26,13 @@ public class Video extends Item {
 	
 	@Key
 	String category;
+
+	@Override
+	public String toString() {
+		return "Video [description=" + description + ", tags=" + tags
+				+ ", player=" + player + ", viewCount=" + viewCount
+				+ ", category=" + category + ", title=" + title + ", updated="
+				+ updated + "]";
+	}
+
 }
