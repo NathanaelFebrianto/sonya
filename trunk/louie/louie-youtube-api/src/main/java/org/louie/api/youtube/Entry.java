@@ -9,7 +9,7 @@ import com.google.api.client.util.Key;
  * 
  * @author Younggue Bae
  */
-public abstract class Entry extends Feed {
+public abstract class Entry {
 	
 	@Key
 	DateTime updated;

@@ -59,7 +59,7 @@ public class YouTubeUrl extends GoogleUrl {
 	 * 
 	 * @return YouTubeUrl
 	 */
-	public static YouTubeUrl forVideosFeed() {
+	public static YouTubeUrl forVideoFeed() {
 		YouTubeUrl result = root();
 		result.getPathParts().add("videos");
 		result.setAlt("jsonc");
@@ -75,7 +75,7 @@ public class YouTubeUrl extends GoogleUrl {
 	 * @param videoId
 	 * @return
 	 */
-	public static YouTubeUrl forVideoFeed(String videoId) {
+	public static YouTubeUrl forVideoEntry(String videoId) {
 		YouTubeUrl result = root();
 		result.getPathParts().add("videos");
 		result.getPathParts().add(videoId);
@@ -92,7 +92,7 @@ public class YouTubeUrl extends GoogleUrl {
 	 * @param videoId
 	 * @return
 	 */
-	public static YouTubeUrl forVideoCommentsFeed(String videoId) {
+	public static YouTubeUrl forVideoCommentFeed(String videoId) {
 		YouTubeUrl result = root();
 		result.getPathParts().add("videos");
 		result.getPathParts().add(videoId);
@@ -111,7 +111,7 @@ public class YouTubeUrl extends GoogleUrl {
 	 * @param userId
 	 * @return
 	 */
-	public static YouTubeUrl forUserFeed(String userId) {
+	public static YouTubeUrl forUserEntry(String userId) {
 		YouTubeUrl result = root();
 		result.getPathParts().add("users");
 		result.getPathParts().add(userId);

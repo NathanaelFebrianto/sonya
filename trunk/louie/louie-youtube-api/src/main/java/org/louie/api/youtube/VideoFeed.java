@@ -10,7 +10,7 @@ import com.google.api.client.util.Key;
  * 
  * @author Younggue Bae
  */
-public class VideoFeed extends ListFeed<Video> {
+public class VideoFeed extends Feed<Video> {
 
 	@Key("items")
 	List<Video> items;
