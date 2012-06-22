@@ -19,13 +19,13 @@ public class YouTubeUrl extends GoogleUrl {
 	 */
 	private static final boolean PRETTY_PRINT = true;
 
-	static final String ROOT_URL = "https://gdata.youtube.com/feeds/api";
+	public static final String ROOT_URL = "https://gdata.youtube.com/feeds/api";
 
 	@Key
-	String author;
+	public String author;
 	
 	@Key("v")
-	Integer version = 2;
+	public Integer version = 2;
 
 	/**
 	 * The max-results parameter specifies the maximum number of results that should be included in the result set. 
@@ -59,7 +59,7 @@ public class YouTubeUrl extends GoogleUrl {
 	 * 
 	 * @return YouTubeUrl
 	 */
-	static YouTubeUrl forVideosFeed() {
+	public static YouTubeUrl forVideosFeed() {
 		YouTubeUrl result = root();
 		result.getPathParts().add("videos");
 		result.setAlt("jsonc");
@@ -75,7 +75,7 @@ public class YouTubeUrl extends GoogleUrl {
 	 * @param videoId
 	 * @return
 	 */
-	static YouTubeUrl forVideoFeed(String videoId) {
+	public static YouTubeUrl forVideoFeed(String videoId) {
 		YouTubeUrl result = root();
 		result.getPathParts().add("videos");
 		result.getPathParts().add(videoId);
@@ -92,7 +92,7 @@ public class YouTubeUrl extends GoogleUrl {
 	 * @param videoId
 	 * @return
 	 */
-	static YouTubeUrl forVideoCommentsFeed(String videoId) {
+	public static YouTubeUrl forVideoCommentsFeed(String videoId) {
 		YouTubeUrl result = root();
 		result.getPathParts().add("videos");
 		result.getPathParts().add(videoId);
@@ -111,7 +111,7 @@ public class YouTubeUrl extends GoogleUrl {
 	 * @param userId
 	 * @return
 	 */
-	static YouTubeUrl forUserFeed(String userId) {
+	public static YouTubeUrl forUserFeed(String userId) {
 		YouTubeUrl result = root();
 		result.getPathParts().add("users");
 		result.getPathParts().add(userId);

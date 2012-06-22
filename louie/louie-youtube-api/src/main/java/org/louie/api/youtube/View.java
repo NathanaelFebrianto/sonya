@@ -5,27 +5,29 @@ package org.louie.api.youtube;
  * 
  * @author Younggue Bae
  */
-class View {
+public class View {
 
-	static void header(String name) {
+	public static void header(String name) {
 		System.out.println();
 		System.out.println("============== " + name + " ==============");
 		System.out.println();
 	}
 
-	static void displayItems(ListFeed<? extends Item> feed) {
-
-			System.out.println("Showing first " + feed.getItems().size() + " of "
-					+ feed.getTotalItemsSize() + " total results: ");
-			
-			for (Item item : feed.getItems()) {
-				System.out.println();
-				System.out.println("-----------------------------------------------");
-				displayItem(item);
-			}
+	public static void displayItems(ListFeed<? extends Item> feed) {
+		if (feed == null || feed.getItems() == null)
+			return;
+		
+		System.out.println("Showing first " + feed.getItems().size() + " of "
+				+ feed.getTotalItemsSize() + " total results: ");
+		
+		for (Item item : feed.getItems()) {
+			System.out.println();
+			System.out.println("-----------------------------------------------");
+			displayItem(item);
+		}
 	}
 
-	static void displayItem(Item item) {
+	public static void displayItem(Item item) {
 		
 		System.out.println(item.toString());
 		
@@ -58,7 +60,7 @@ class View {
 		*/
 	}
 	
-	static void displayEntry(EntryFeed feed) {
+	public static void displayEntry(EntryFeed feed) {
 		System.out.println(feed.toString());
 		
 		/*
