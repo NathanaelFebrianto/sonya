@@ -11,6 +11,12 @@ import com.google.api.client.util.Key;
 public class UserEntry extends Entry {
 
 	@Key
+	String published;
+	
+	@Key
+	String updated;
+	
+	@Key
 	String title;
 
 	@Key("yt:userId")

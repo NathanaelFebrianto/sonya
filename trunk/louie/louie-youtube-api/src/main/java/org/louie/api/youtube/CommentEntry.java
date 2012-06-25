@@ -1,5 +1,7 @@
 package org.louie.api.youtube;
 
+import java.util.List;
+
 import com.google.api.client.util.Key;
 
 /**
@@ -9,18 +11,29 @@ import com.google.api.client.util.Key;
  */
 public class CommentEntry extends Item {
 
-	@Key("content")
+	@Key
+	String published;
+	
+	@Key
+	String updated;
+	
+	@Key
+	String title;
+	
+	@Key
 	String content;
 	
-	@Key("id")
-	String id;
-	
+	@Key
+	List<String> link;
+
 	@Key("author")
 	Author author;
 
 	@Override
 	public String toString() {
-		return "Comment [content=" + content + ", id=" + id + ", author="
-				+ author + ", title=" + title + ", updated=" + updated + "]";
+		return "CommentEntry [published=" + published + ", updated=" + updated
+				+ ", title=" + title + ", content=" + content + ", link="
+				+ link + ", author=" + author + "]";
 	}
+
 }

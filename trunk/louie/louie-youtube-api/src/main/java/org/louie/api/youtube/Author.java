@@ -11,10 +11,13 @@ public class Author {
 
 	@Key("name")
 	String name;
+	
+	@Key("yt:userId")
+	String userId;
 
 	@Override
 	public String toString() {
-		return "Author [name=" + name + "]";
+		return "Author [name=" + name + ", userId=" + userId + "]";
 	}
 
 }
