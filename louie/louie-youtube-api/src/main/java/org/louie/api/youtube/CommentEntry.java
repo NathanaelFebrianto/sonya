@@ -2,6 +2,7 @@ package org.louie.api.youtube;
 
 import java.util.List;
 
+import com.google.api.client.util.DateTime;
 import com.google.api.client.util.Key;
 
 /**
@@ -12,10 +13,10 @@ import com.google.api.client.util.Key;
 public class CommentEntry extends Item {
 
 	@Key
-	String published;
+	DateTime published;
 	
 	@Key
-	String updated;
+	DateTime updated;
 	
 	@Key
 	String title;
