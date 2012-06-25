@@ -1,5 +1,6 @@
 package org.louie.api.youtube;
 
+import com.google.api.client.util.DateTime;
 import com.google.api.client.util.Key;
 
 /**
@@ -11,10 +12,10 @@ import com.google.api.client.util.Key;
 public class UserEntry extends Entry {
 
 	@Key
-	String published;
+	DateTime published;
 	
 	@Key
-	String updated;
+	DateTime updated;
 	
 	@Key
 	String title;

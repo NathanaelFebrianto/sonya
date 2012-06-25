@@ -3,6 +3,7 @@ package org.louie.api.youtube;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.google.api.client.util.DateTime;
 import com.google.api.client.util.Key;
 
 /**
@@ -16,10 +17,10 @@ public class Video extends Item {
 	String id;
 	
 	@Key
-	String uploaded;
+	DateTime uploaded;
 	
 	@Key
-	String updated;
+	DateTime updated;
 	
 	@Key
 	String uploader;
