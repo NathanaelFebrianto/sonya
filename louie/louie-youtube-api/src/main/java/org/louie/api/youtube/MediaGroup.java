@@ -10,6 +10,9 @@ import com.google.api.client.util.Key;
  */
 public class MediaGroup {
 
+	@Key("media:title")
+	String title;
+	
 	@Key("media:category")
 	String category;
 	
@@ -19,24 +22,35 @@ public class MediaGroup {
 	@Key("media:keywords")
 	String keywords;
 	
-	@Key("media:title")
-	String title;
-	
 	@Key("yt:uploaded")
 	DateTime uploaded;
 	
 	@Key("yt:uploaderId")
-	String uploadId;
+	String uploaderId;
 	
 	@Key("yt:videoid")
 	String videoId;
+	
+	@Key("media:player")
+	Player player;
+
+	public static class Player {
+		@Key("@url")
+		String url;
+
+		@Override
+		public String toString() {
+			return "Player [url=" + url + "]";
+		}
+		
+	}
 
 	@Override
 	public String toString() {
-		return "MediaGroup [category=" + category + ", description="
-				+ description + ", keywords=" + keywords + ", title=" + title
-				+ ", uploaded=" + uploaded + ", uploadId=" + uploadId
-				+ ", videoId=" + videoId + "]";
+		return "MediaGroup [title=" + title + ", category=" + category
+				+ ", description=" + description + ", keywords=" + keywords
+				+ ", uploaded=" + uploaded + ", uploaderId=" + uploaderId
+				+ ", videoId=" + videoId + ", player=" + player + "]";
 	}
 	
 }

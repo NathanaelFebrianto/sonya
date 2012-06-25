@@ -1,5 +1,7 @@
 package org.louie.api.youtube;
 
+import java.util.List;
+
 import com.google.api.client.util.Key;
 
 /**
@@ -13,7 +15,19 @@ public class VideoEntry extends Entry {
 	String id;
 	
 	@Key
+	String published;
+	
+	@Key
+	String updated;
+	
+	@Key
 	String title;
+	
+	@Key
+	String content;
+	
+	@Key
+	List<String> link;
 
 	@Key("author")
 	Author author;
@@ -96,12 +110,12 @@ public class VideoEntry extends Entry {
 
 	@Override
 	public String toString() {
-		return "VideoFeed [id=" + id + ", title=" + title + ", author="
-				+ author + ", mediaGroup=" + mediaGroup
-				+ ", commentStatistics=" + commentStatistics
-				+ ", ratingStatistics=" + ratingStatistics + ", statistics="
-				+ statistics + ", rating=" + rating + ", updated=" + updated
-				+ ", published=" + published + "]";
+		return "VideoEntry [id=" + id + ", published=" + published
+				+ ", updated=" + updated + ", title=" + title + ", content="
+				+ content + ", link=" + link + ", author=" + author
+				+ ", mediaGroup=" + mediaGroup + ", commentStatistics="
+				+ commentStatistics + ", ratingStatistics=" + ratingStatistics
+				+ ", statistics=" + statistics + ", rating=" + rating + "]";
 	}
 
 }
