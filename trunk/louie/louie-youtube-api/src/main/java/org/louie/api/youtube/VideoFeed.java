@@ -13,10 +13,10 @@ import com.google.api.client.util.Key;
 public class VideoFeed extends Feed<Video> {
 
 	@Key("items")
-	List<Video> items;
+	public List<Video> items;
 
 	@Key
-	int totalItems;
+	public int totalItems;
 
 	@Override
 	public List<Video> getItems() {

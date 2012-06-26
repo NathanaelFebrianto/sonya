@@ -13,44 +13,44 @@ import com.google.api.client.util.Key;
 public class VideoEntry extends Entry {
 
 	@Key
-	String id;
+	public String id;
 	
 	@Key
-	DateTime published;
+	public DateTime published;
 	
 	@Key
-	DateTime updated;
+	public DateTime updated;
 	
 	@Key
-	String title;
+	public String title;
 	
 	@Key
-	String content;
+	public String content;
 	
 	@Key
-	List<String> link;
+	public List<String> link;
 
 	@Key("author")
-	Author author;
+	public Author author;
 
 	@Key("media:group")
-	MediaGroup mediaGroup;
+	public MediaGroup mediaGroup;
 	
 	@Key("gd:comments")
-	CommentStatistics commentStatistics;
+	public CommentStatistics commentStatistics;
 	
 	@Key("gd:rating")
-	RatingStatistics ratingStatistics;
+	public RatingStatistics ratingStatistics;
 	
 	@Key("yt:statistics")
-	Statistics statistics;
+	public Statistics statistics;
 	
 	@Key("yt:rating")
-	Rating rating;
+	public Rating rating;
 	
 	public static class CommentStatistics {
 		@Key("gd:feedLink")
-		FeedLink feedLink;
+		public FeedLink feedLink;
 
 		@Override
 		public String toString() {
@@ -60,7 +60,7 @@ public class VideoEntry extends Entry {
 	
 	public static class FeedLink {
 		@Key("@countHint")
-		int countHint;
+		public int countHint;
 
 		@Override
 		public String toString() {
@@ -70,10 +70,10 @@ public class VideoEntry extends Entry {
 	
 	public static class RatingStatistics {
 		@Key("@average")
-		double average;	
+		public double average;	
 		
 		@Key("@numRaters")
-		int numRaters;
+		public int numRaters;
 
 		@Override
 		public String toString() {
@@ -83,10 +83,10 @@ public class VideoEntry extends Entry {
 	
 	public static class Statistics {
 		@Key("@favoriteCount")
-		int favoriteCount;	
+		public int favoriteCount;	
 		
 		@Key("@viewCount")
-		int viewCount;
+		public int viewCount;
 
 		@Override
 		public String toString() {
@@ -97,10 +97,10 @@ public class VideoEntry extends Entry {
 	
 	public static class Rating {
 		@Key("@numDislikes")
-		double numDislikes;	
+		public double numDislikes;	
 		
 		@Key("@numLikes")
-		int numLikes;
+		public int numLikes;
 
 		@Override
 		public String toString() {

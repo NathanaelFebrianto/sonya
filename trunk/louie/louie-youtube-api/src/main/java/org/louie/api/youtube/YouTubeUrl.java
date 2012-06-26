@@ -63,7 +63,7 @@ public class YouTubeUrl extends GoogleUrl {
 		YouTubeUrl result = root();
 		result.getPathParts().add("videos");
 		result.setAlt("jsonc");
-		result.set("max-results", 50);
+		//result.set("max-results", 50);
 		//result.version = 2;
 		
 		return result;
@@ -98,7 +98,7 @@ public class YouTubeUrl extends GoogleUrl {
 		result.getPathParts().add(videoId);
 		result.getPathParts().add("comments");
 		result.setAlt("atom");
-		result.set("max-results", 50);
+		//result.set("max-results", 50);
 		//result.setAlt("json");
 		//result.version = 1;
 		
