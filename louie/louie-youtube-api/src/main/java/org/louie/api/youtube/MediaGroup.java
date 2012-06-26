@@ -11,32 +11,32 @@ import com.google.api.client.util.Key;
 public class MediaGroup {
 
 	@Key("media:title")
-	String title;
+	public String title;
 	
 	@Key("media:category")
-	String category;
+	public String category;
 	
 	@Key("media:description")
-	String description;
+	public String description;
 	
 	@Key("media:keywords")
-	String keywords;
+	public String keywords;
 	
 	@Key("yt:uploaded")
-	DateTime uploaded;
+	public DateTime uploaded;
 	
 	@Key("yt:uploaderId")
-	String uploaderId;
+	public String uploaderId;
 	
 	@Key("yt:videoid")
-	String videoId;
+	public String videoId;
 	
 	@Key("media:player")
-	Player player;
+	public Player player;
 
 	public static class Player {
 		@Key("@url")
-		String url;
+		public String url;
 
 		@Override
 		public String toString() {

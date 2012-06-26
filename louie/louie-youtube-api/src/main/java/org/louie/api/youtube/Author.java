@@ -10,10 +10,10 @@ import com.google.api.client.util.Key;
 public class Author {
 
 	@Key("name")
-	String name;
+	public String name;
 	
 	@Key("yt:userId")
-	String userId;
+	public String userId;
 
 	@Override
 	public String toString() {

@@ -13,22 +13,22 @@ import com.google.api.client.util.Key;
 public class CommentEntry extends Item {
 
 	@Key
-	DateTime published;
+	public DateTime published;
 	
 	@Key
-	DateTime updated;
+	public DateTime updated;
 	
 	@Key
-	String title;
+	public String title;
 	
 	@Key
-	String content;
+	public String content;
 	
 	@Key
-	List<String> link;
+	public List<String> link;
 
 	@Key("author")
-	Author author;
+	public Author author;
 
 	@Override
 	public String toString() {

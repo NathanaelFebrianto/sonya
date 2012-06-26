@@ -14,58 +14,58 @@ import com.google.api.client.util.Key;
 public class Video extends Item {
 
 	@Key
-	String id;
+	public String id;
 	
 	@Key
-	DateTime uploaded;
+	public DateTime uploaded;
 	
 	@Key
-	DateTime updated;
+	public DateTime updated;
 	
 	@Key
-	String uploader;
+	public String uploader;
 	
 	@Key
-	String category;
+	public String category;
 	
 	@Key
-	String title;
+	public String title;
 	
 	@Key
-	String description;
+	public String description;
 
 	@Key
-	List<String> tags = new ArrayList<String>();
+	public List<String> tags = new ArrayList<String>();
 
 	@Key
-	Thumbnail thumbnail;
+	public Thumbnail thumbnail;
 	
 	@Key
-	Player player;
+	public Player player;
 	
 	@Key
-	double rating;
+	public double rating;
 	
 	@Key
-	int likeCount;
+	public int likeCount;
 	
 	@Key
-	int ratingCount;
+	public int ratingCount;
 	
 	@Key
-	int viewCount;
+	public int viewCount;
 	
 	@Key
-	int favoriteCount;
+	public int favoriteCount;
 	
 	@Key
-	int commentCount;
+	public int commentCount;
 
 
 	public static class Player {
 		// "default" is a Java keyword, so need to specify the JSON key manually
 		@Key("default")
-		String defaultUrl;
+		public String defaultUrl;
 
 		@Override
 		public String toString() {
@@ -75,7 +75,7 @@ public class Video extends Item {
 	
 	public static class Thumbnail {
 		@Key("hqDefault")
-		String defaultUrl;
+		public String defaultUrl;
 
 		@Override
 		public String toString() {

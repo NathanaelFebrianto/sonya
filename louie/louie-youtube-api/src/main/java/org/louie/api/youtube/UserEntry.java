@@ -12,37 +12,66 @@ import com.google.api.client.util.Key;
 public class UserEntry extends Entry {
 
 	@Key
-	DateTime published;
+	public String id;
 	
 	@Key
-	DateTime updated;
+	public DateTime published;
 	
 	@Key
-	String title;
-
-	@Key("yt:userId")
-	String id;
+	public DateTime updated;
+	
+	@Key
+	public String title;
+	
+	@Key
+	public String summary;
 
 	@Key("author")
-	Author author;
+	public Author author;
+	
+	@Key("yt:firstName")
+	public String firstName;
 
+	@Key("yt:lastName")
+	public String lastName;
+	
+	@Key("yt:aboutMe")
+	public String aboutMe;
+	
 	@Key("yt:age")
-	int age;
+	public int age;
 
 	@Key("yt:gender")
-	String gender;
+	public String gender;
+	
+	@Key("yt:company")
+	public String company;
+	
+	@Key("yt:hobbies")
+	public String hobbies;
+	
+	@Key("yt:hometown")
+	public String hometown;
 
 	@Key("yt:location")
-	String location;
-
-	@Key("yt:username")
-	String username;
+	public String location;
+	
+	@Key("yt:occupation")
+	public String occupation;
+	
+	@Key("yt:school")
+	public String school;
 
 	@Override
 	public String toString() {
-		return "UserFeed [title=" + title + ", id=" + id + ", author=" + author
-				+ ", age=" + age + ", gender=" + gender + ", location="
-				+ location + ", username=" + username + ", updated=" + updated
-				+ ", published=" + published + "]";
+		return "UserEntry [id=" + id + ", published=" + published
+				+ ", updated=" + updated + ", title=" + title + ", summary="
+				+ summary + ", author=" + author + ", firstName=" + firstName
+				+ ", lastName=" + lastName + ", aboutMe=" + aboutMe + ", age="
+				+ age + ", gender=" + gender + ", company=" + company
+				+ ", hobbies=" + hobbies + ", hometown=" + hometown
+				+ ", location=" + location + ", occupation=" + occupation
+				+ ", school=" + school + "]";
 	}
+	
 }

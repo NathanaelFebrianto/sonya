@@ -14,13 +14,13 @@ import com.google.api.client.util.Key;
 public class CommentFeed extends Feed<CommentEntry> {
 	
 	@Key("entry")
-	List<CommentEntry> items;
+	public List<CommentEntry> items;
 
 	@Key("openSearch:totalResults")
-	int totalItems;
+	public int totalItems;
 	
 	@Key("openSearch:itemsPerPage")
-	int itemsPerPage;
+	public int itemsPerPage;
 
 	@Override
 	public List<CommentEntry> getItems() {
