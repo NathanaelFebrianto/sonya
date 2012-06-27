@@ -13,6 +13,9 @@ import com.google.api.client.util.Key;
 public class CommentEntry extends Item {
 
 	@Key
+	public String id;
+	
+	@Key
 	public DateTime published;
 	
 	@Key
@@ -32,9 +35,19 @@ public class CommentEntry extends Item {
 
 	@Override
 	public String toString() {
-		return "CommentEntry [published=" + published + ", updated=" + updated
-				+ ", title=" + title + ", content=" + content + ", link="
-				+ link + ", author=" + author + "]";
+		return "CommentEntry [id=" + id + ", published=" + published
+				+ ", updated=" + updated + ", title=" + title + ", content="
+				+ content + ", link=" + link + ", author=" + author + "]";
 	}
-
+	
+	public String getVideoId() {
+		String[] token = id.split(":");
+		return token[3];
+	}
+	
+	public String getCommentId() {
+		String[] token = id.split(":");
+		return token[5];
+	}
+	
 }
