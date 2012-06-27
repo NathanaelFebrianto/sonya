@@ -14,10 +14,25 @@ public class Author {
 	
 	@Key("yt:userId")
 	public String userId;
+	
+	@Key("uri")
+	public String uri;
+	
+	public String getUsername() {
+		if (uri != null && !uri.equals("")) {
+			int pos = uri.lastIndexOf("/");
+			String username = uri.substring(pos + 1);
+			return username;
+		} 
+		else {
+			return name;
+		}
+	}
 
 	@Override
 	public String toString() {
-		return "Author [name=" + name + ", userId=" + userId + "]";
+		return "Author [name=" + name + ", userId=" + userId + ", uri=" + uri
+				+ "]";
 	}
 
 }

@@ -1,6 +1,5 @@
 package org.louie.api.youtube;
 
-import java.io.IOException;
 
 /**
  * This class is a YouTube API test sample.
@@ -9,7 +8,7 @@ import java.io.IOException;
  */
 public class YouTubeSample {
 
-	private static void run() throws IOException {
+	private static void run() throws YouTubeClientException {
 		YouTubeClient client = new YouTubeClient();
 		showVideos(client);
 		showVideo(client);
@@ -22,7 +21,7 @@ public class YouTubeSample {
 			try {
 				run();
 				return;
-			} catch (IOException e) {
+			} catch (YouTubeClientException e) {
 				System.err.println(e.getMessage());
 			}
 		} catch (Throwable t) {
@@ -31,7 +30,7 @@ public class YouTubeSample {
 		System.exit(1);
 	}
 
-	private static VideoFeed showVideos(YouTubeClient client) throws IOException {
+	private static VideoFeed showVideos(YouTubeClient client) throws YouTubeClientException {
 		View.header("Get Videos");
 		// build URL for the video feed for the specified search parameters
 		YouTubeUrl url = YouTubeUrl.forVideoFeed();
@@ -46,7 +45,7 @@ public class YouTubeSample {
 		return feed;
 	}
 	
-	private static VideoEntry showVideo(YouTubeClient client) throws IOException {
+	private static VideoEntry showVideo(YouTubeClient client) throws YouTubeClientException {
 		View.header("Get Video");
 		// build URL for the video feed for the specified search parameters
 		String videoId = "8S5o0q5i9dU";
@@ -60,7 +59,7 @@ public class YouTubeSample {
 		return entry;
 	}
 	
-	private static CommentFeed showVideoComments(YouTubeClient client) throws IOException {
+	private static CommentFeed showVideoComments(YouTubeClient client) throws YouTubeClientException {
 		View.header("Get Comments for video");
 		// build URL for retrieving the comments for a video.
 		String videoId = "8S5o0q5i9dU";
@@ -75,7 +74,7 @@ public class YouTubeSample {
 		return feed;
 	}
 	
-	private static UserEntry showUser(YouTubeClient client) throws IOException {
+	private static UserEntry showUser(YouTubeClient client) throws YouTubeClientException {
 		View.header("Get user profile");
 		// build URL for retrieving the user profile.
 		String userId = "babypallacita";
