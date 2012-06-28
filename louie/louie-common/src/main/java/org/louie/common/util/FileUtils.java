@@ -68,6 +68,8 @@ public class FileUtils {
 
 			File afile = new File(source);
 			File bfile = new File(target);
+			
+			if (!afile.exists())	return;
 
 			inStream = new FileInputStream(afile);
 			outStream = new FileOutputStream(bfile);
