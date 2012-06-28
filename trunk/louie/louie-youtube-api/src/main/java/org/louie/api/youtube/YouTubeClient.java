@@ -304,8 +304,8 @@ public class YouTubeClient {
 					System.out.println(term + " miliseconds have passed since the last error occurred: " + lastCallErrorTime + " -> " + current);
 					lastCallErrorTime = current;
 					long waitingTime = WAITING_SECONDS;
-					if (term < 5000) {
-						waitingTime = waitingTime * (term/1000);
+					if (term < 22000) {	// within 22 seconds
+						waitingTime = waitingTime + term;
 					}
 					sleep(waitingTime);
 
@@ -347,8 +347,8 @@ public class YouTubeClient {
 					System.out.println(term + " miliseconds have passed since the last error occurred: " + lastCallErrorTime + " -> " + current);
 					lastCallErrorTime = current;
 					long waitingTime = WAITING_SECONDS;
-					if (term < 5000) {
-						waitingTime = waitingTime * (term/1000);
+					if (term < 22000) {	// within 22 seconds
+						waitingTime = waitingTime + term;
 					}
 					sleep(waitingTime);
 					
@@ -390,8 +390,8 @@ public class YouTubeClient {
 					System.out.println(term + " miliseconds have passed since the last error occurred: " + lastCallErrorTime + " -> " + current);
 					lastCallErrorTime = current;
 					long waitingTime = WAITING_SECONDS;
-					if (term < 5000) {
-						waitingTime = waitingTime * (term/1000);
+					if (term < 22000) {	// within 22 seconds
+						waitingTime = waitingTime + term;
 					}
 					sleep(waitingTime);
 					
