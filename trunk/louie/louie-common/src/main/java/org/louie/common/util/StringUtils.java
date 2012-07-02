@@ -59,4 +59,25 @@ public class StringUtils {
 		return str;
 	}
 	
+	public static final boolean isAlphabet(char c) {
+		if ((0x61 <= c && c <= 0x7A) || (0x41 <= c && c <= 0x5A))
+			return true;
+		
+		return false;
+	}
+	
+	public static final boolean isHangul(char c) {
+		 if ((0xAC00 <= c && c <= 0xD7A3) || (0x3131 <= c && c <= 0x318E))
+			return true;
+		
+		return false;
+	}
+	
+	public static final boolean isNumber(char c) {
+		 if (0x30 <= c && c <= 0x39)
+			return true;
+		
+		return false;
+	}
+	
 }
