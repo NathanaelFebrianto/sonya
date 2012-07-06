@@ -1,6 +1,5 @@
 package org.louie.common.logger;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.Date;
 
@@ -8,6 +7,7 @@ import org.apache.log4j.DailyRollingFileAppender;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PatternLayout;
+import org.louie.common.util.FileUtils;
 
 /**
  * This class is a job logger.
@@ -27,20 +27,14 @@ public class JobLogger {
 	 * Constructor
 	 * 
 	 * @param name the logger name
-	 * @param logDir the logger dir
 	 * @param logFile the logger file name
 	 */
-	public JobLogger(Class<?> name, String logDir, String logFile) {
+	public JobLogger(Class<?> name, String logFile) {
 		try {
-			File dir = new File(logDir);
-			if (!dir.exists()) {
-				dir.mkdirs();
-			}
-			
-			String logFilename = logDir + File.separator + logFile;
+			FileUtils.mkdirsFromFullpath(logFile);
 			
 			logger = Logger.getLogger(name);
-			appender = new DailyRollingFileAppender(patternLayout, logFilename, datePattern);
+			appender = new DailyRollingFileAppender(patternLayout, logFile, datePattern);
 			logger.addAppender(appender);
 			logger.setLevel(Level.ALL);
 		} catch (IOException ie) {
@@ -52,13 +46,12 @@ public class JobLogger {
 	 * Gets the job logger instance.
 	 * 
 	 * @param name the logger name
-	 * @param logDir the logger dir
 	 * @param logFile the logger file name
 	 * @return JobLogger the job logger instance
 	 */
-	public static JobLogger getLogger(Class<?> name, String logDir, String logFile) {
+	public static JobLogger getLogger(Class<?> name, String logFile) {
 		if (instance == null) {
-			instance = new JobLogger(name, logDir, logFile);
+			instance = new JobLogger(name, logFile);
 		}		
 		return instance;
 	}
@@ -71,6 +64,10 @@ public class JobLogger {
 	public void info(String message) {
 		System.out.println(message);
 		logger.info(message);
+	}
+	
+	public void info(String message, Object[] params) {
+		
 	}
 	
 	/**
