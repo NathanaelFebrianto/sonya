@@ -1,15 +1,7 @@
 package org.louie.api.twitter;
 
-import java.io.BufferedWriter;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
-
-import org.louie.common.util.DateUtils;
-import org.louie.common.util.FileUtils;
 
 import twitter4j.ResponseList;
 import twitter4j.Twitter;
@@ -35,21 +27,15 @@ public class TwitterDataApi {
 	}
 	
 	/**
-	 * Collects and writes users with json format into file by screen names.
+	 * Looks up the user list with json format string by the screen names.
 	 * 
-	 * @param file
 	 * @param screenNames
 	 * @throws TwitterApiException
 	 */
-	public void collectUsers(String file, String[] screenNames) throws TwitterApiException {
-
+	public List<String> lookupUsers(String[] screenNames) throws TwitterApiException {
 		try {
-			String baseDate = DateUtils.convertDateToString("yyyyMMddHHmmss", new Date());
-			FileUtils.mkdirsFromFullpath(file);
-			
-			BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(
-					new FileOutputStream(file, true), "UTF-8"));
-			
+			List<String> result = new ArrayList<String>();
+
 			List<String[]> screenNamesList = this.getScreenNamesByMaxUnit(screenNames);
 			
 			for (String[] screenNameArray : screenNamesList) {				
@@ -57,17 +43,14 @@ public class TwitterDataApi {
 				for (User user : users) {
 					String json = DataObjectFactory.getRawJSON(user);
 					System.out.println(json);
-					writer.write(baseDate + "\t" + json);
-					writer.newLine();
+					
+					result.add(json);
 				}			
 			}
-			
-			writer.close();
+
+			return result;
 		} catch (TwitterException e) {
 			String msg = "Can't collect users from twitter4j.";
-			throw new TwitterApiException(msg, e);
-		} catch (IOException e) {
-			String msg = "Can't write users into file.";
 			throw new TwitterApiException(msg, e);
 		}
 	}
