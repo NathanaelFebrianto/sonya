@@ -52,7 +52,7 @@ public class StringUtils {
 		return false;
 	}
 	
-	public static final String ridDelimiter(String str) {
+	public static final String escapeDelimiterChar(String str) {
 		if (!isEmpty(str))
 			return str.replaceAll("\n", "\\\\n").replaceAll("\r", "\\\\r").replaceAll("\t", "\\\\t");
 		
