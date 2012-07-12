@@ -57,6 +57,10 @@ public class MultiLineFileInputFormat extends TextInputFormat {
 			// open the file and seek to the start of the split
 			start = split.getStart();
 			end = start + split.getLength();
+			
+			System.out.println("start == " + start);
+			System.out.println("end == " + end);
+			
 			Path file = split.getPath();
 			FileSystem fs = file.getFileSystem(conf);
 			fsin = fs.open(split.getPath());
