@@ -16,6 +16,8 @@ import org.apache.commons.cli2.builder.GroupBuilder;
 import org.apache.commons.cli2.commandline.Parser;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.util.Tool;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Superclass of many Hadoop "jobs". A job drives configuration and launch of
@@ -24,6 +26,8 @@ import org.apache.hadoop.util.Tool;
  * @author Younggue Bae
  */
 public abstract class AbstractDriver extends Configured implements Tool {
+	
+	protected static final Logger logger = LoggerFactory.getLogger(AbstractDriver.class);
 	
 	private Map<String, String> argMap;
 
@@ -187,6 +191,7 @@ public abstract class AbstractDriver extends Configured implements Tool {
 			cmdLine = parser.parse(args);
 
 		} catch (OptionException e) {
+			logger.error(e.getMessage());
 			CommandLineUtils.printHelpWithGenericOptions(group, e);
 			return null;
 		}
@@ -199,6 +204,7 @@ public abstract class AbstractDriver extends Configured implements Tool {
 		argMap = new TreeMap<String, String>();
 		maybePut(argMap, cmdLine, this.options.toArray(new Option[this.options.size()]));
 
+		 logger.info("Command line arguments: {}", argMap);
 		return argMap;
 	}
 	
