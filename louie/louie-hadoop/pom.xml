@@ -26,5 +26,10 @@
 			<artifactId>hadoop-core</artifactId>
 			<version>0.20.2</version>
 		</dependency>
+		<dependency>
+			<groupId>org.louie</groupId>
+			<artifactId>louie-common</artifactId>
+			<version>0.1.0</version>
+		</dependency>
 	</dependencies>
 </project>
