@@ -40,4 +40,14 @@ public final class HadoopUtils {
 			in.close();
 		}
 	}
+	
+	public static String readString(Path path, Configuration conf) throws IOException {
+		FileSystem fs = FileSystem.get(path.toUri(), conf);
+		FSDataInputStream in = fs.open(path);
+		try {
+			return in.readUTF();
+		} finally {
+			in.close();
+		}
+	}
 }
