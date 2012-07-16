@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.Arrays;
 
 import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.fs.FSDataInputStream;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 
@@ -28,5 +29,15 @@ public final class HadoopUtils {
 
 	public static void delete(Configuration conf, Path... paths) throws IOException {
 		delete(conf, Arrays.asList(paths));
+	}
+	
+	public static int readInt(Path path, Configuration conf) throws IOException {
+		FileSystem fs = FileSystem.get(path.toUri(), conf);
+		FSDataInputStream in = fs.open(path);
+		try {
+			return in.readInt();
+		} finally {
+			in.close();
+		}
 	}
 }
