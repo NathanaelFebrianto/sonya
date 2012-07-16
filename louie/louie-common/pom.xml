@@ -27,6 +27,11 @@
 			<version>1.2.17</version>
 		</dependency>
 		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.6.6</version>
+		</dependency>
+		<dependency>
 			<groupId>org.apache.mahout.commons</groupId>
 			<artifactId>commons-cli</artifactId>
 			<version>2.0-mahout</version>
