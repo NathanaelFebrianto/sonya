@@ -15,14 +15,14 @@ import twitter4j.json.DataObjectFactory;
  * 
  * @author Younggue Bae
  */
-public class TwitterDataApi {
+public class TwitterClient {
 	
 	private Twitter twitter;
 	
 	/**
 	 * Constructor.
 	 */
-	public TwitterDataApi() {
+	public TwitterClient() {
 		twitter = new TwitterFactory().getInstance();
 	}
 	
@@ -30,9 +30,9 @@ public class TwitterDataApi {
 	 * Looks up the user list with json format string by the screen names.
 	 * 
 	 * @param screenNames
-	 * @throws TwitterApiException
+	 * @throws TwitterClientException
 	 */
-	public List<String> lookupUsers(String[] screenNames) throws TwitterApiException {
+	public List<String> lookupUsers(String[] screenNames) throws TwitterClientException {
 		try {
 			List<String> result = new ArrayList<String>();
 
@@ -51,7 +51,7 @@ public class TwitterDataApi {
 			return result;
 		} catch (TwitterException e) {
 			String msg = "Can't collect users from twitter4j.";
-			throw new TwitterApiException(msg, e);
+			throw new TwitterClientException(msg, e);
 		}
 	}
 	
