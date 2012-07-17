@@ -12,7 +12,7 @@ import java.util.Locale;
  * 
  * @author Younggue Bae
  */
-public class DateUtils {
+public class DateUtil {
 	
     /**
      * Converts data object into string with the specified format.
@@ -87,7 +87,7 @@ public class DateUtils {
 	}
 	
 	public static void main(String[] args) {
-		String weekOfYear = DateUtils.getWeekOfYear(DateUtils.convertStringToDate("yyyyMMdd", "20120201", Locale.KOREA));
+		String weekOfYear = DateUtil.getWeekOfYear(DateUtil.convertStringToDate("yyyyMMdd", "20120201", Locale.KOREA));
 		System.out.println("week of year == " + weekOfYear);
 	}
 }

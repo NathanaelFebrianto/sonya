@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
  * 
  * @author Younggue Bae
  */
-public class StringUtils {
+public class StringUtil {
 	
 	public static final String replaceStrings(String text, String regex, String newStr) {
 		if (text == null) {
