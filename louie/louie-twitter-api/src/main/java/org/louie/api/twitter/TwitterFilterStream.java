@@ -10,8 +10,8 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
-import org.louie.common.util.DateUtils;
-import org.louie.common.util.FileUtils;
+import org.louie.common.util.DateUtil;
+import org.louie.common.util.FileUtil;
 
 import twitter4j.FilterQuery;
 import twitter4j.ResponseList;
@@ -39,12 +39,12 @@ public final class TwitterFilterStream extends StatusAdapter {
 	 * 
 	 * @param dir
 	 * @param filter
-	 * @throws TwitterApiException
+	 * @throws TwitterClientException
 	 */
-	public static void writeTrackFilterStream(String dir, TwitterFilterQuery filter) throws TwitterApiException {
+	public static void writeTrackFilterStream(String dir, TwitterFilterQuery filter) throws TwitterClientException {
 		try {
 			final String strDir = dir;
-			FileUtils.mkdirs(strDir);
+			FileUtil.mkdirs(strDir);
 			
 			TwitterStream twitterStream = new TwitterStreamFactory().getInstance();
 			
@@ -56,10 +56,10 @@ public final class TwitterFilterStream extends StatusAdapter {
 	
 					try {
 						Date date = new Date();
-						String subDir = DateUtils.convertDateToString("yyyyMMdd", date);
-						String surfix = DateUtils.convertDateToString("yyyyMMddHH00", date);
+						String subDir = DateUtil.convertDateToString("yyyyMMdd", date);
+						String surfix = DateUtil.convertDateToString("yyyyMMddHH00", date);
 						String filename = strDir + File.separator + subDir + File.separator + "twitter_" + surfix;
-						FileUtils.mkdirsFromFullpath(filename);
+						FileUtil.mkdirsFromFullpath(filename);
 						
 						BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(
 								new FileOutputStream(filename, true), "UTF-8"));
@@ -118,7 +118,7 @@ public final class TwitterFilterStream extends StatusAdapter {
 			
 		} catch (TwitterException e) {
 			e.printStackTrace();
-			throw new TwitterApiException(e);
+			throw new TwitterClientException(e);
 		}
 	}
 		
