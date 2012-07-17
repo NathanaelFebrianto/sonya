@@ -12,7 +12,7 @@ import java.io.OutputStream;
  * 
  * @author Younggue Bae
  */
-public class FileUtils {
+public class FileUtil {
 	
 	/**
 	 * Extracts directory path from full filename path.
@@ -21,7 +21,7 @@ public class FileUtils {
 	 * @return
 	 */
 	public static final String extractDirectory(String filename) {
-		if (StringUtils.isEmpty(filename))
+		if (StringUtil.isEmpty(filename))
 			return null;
 		
 		int end = filename.lastIndexOf(File.separator);
@@ -38,7 +38,7 @@ public class FileUtils {
 	 */
 	public static final void mkdirsFromFullpath(String filename) {
 		String strDir = extractDirectory(filename);
-		if (!StringUtils.isEmpty(strDir)) {
+		if (!StringUtil.isEmpty(strDir)) {
 			File dir = new File(strDir);
 			if (!dir.exists()) {
 				dir.mkdirs();
@@ -52,7 +52,7 @@ public class FileUtils {
 	 * @param filename
 	 */
 	public static final void mkdirs(String strDir) {
-		if (!StringUtils.isEmpty(strDir)) {
+		if (!StringUtil.isEmpty(strDir)) {
 			File dir = new File(strDir);
 			if (!dir.exists()) {
 				dir.mkdirs();

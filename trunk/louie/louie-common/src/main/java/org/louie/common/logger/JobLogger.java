@@ -7,7 +7,7 @@ import org.apache.log4j.DailyRollingFileAppender;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PatternLayout;
-import org.louie.common.util.FileUtils;
+import org.louie.common.util.FileUtil;
 
 /**
  * This class is a job logger.
@@ -31,7 +31,7 @@ public class JobLogger {
 	 */
 	public JobLogger(Class<?> name, String logFile) {
 		try {
-			FileUtils.mkdirsFromFullpath(logFile);
+			FileUtil.mkdirsFromFullpath(logFile);
 			
 			logger = Logger.getLogger(name);
 			appender = new DailyRollingFileAppender(patternLayout, logFile, datePattern);
