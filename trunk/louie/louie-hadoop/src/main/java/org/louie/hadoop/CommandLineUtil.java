@@ -10,9 +10,9 @@ import org.apache.commons.cli2.util.HelpFormatter;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.util.GenericOptionsParser;
 
-public final class CommandLineUtils {
+public final class CommandLineUtil {
 
-	private CommandLineUtils() { }
+	private CommandLineUtil() { }
 
 	public static void printHelp(Group group) {
 		HelpFormatter formatter = new HelpFormatter();

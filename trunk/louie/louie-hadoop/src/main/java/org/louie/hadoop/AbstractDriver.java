@@ -192,12 +192,12 @@ public abstract class AbstractDriver extends Configured implements Tool {
 
 		} catch (OptionException e) {
 			logger.error(e.getMessage());
-			CommandLineUtils.printHelpWithGenericOptions(group, e);
+			CommandLineUtil.printHelpWithGenericOptions(group, e);
 			return null;
 		}
 
 		if (cmdLine.hasOption(helpOpt)) {
-			CommandLineUtils.printHelpWithGenericOptions(group);
+			CommandLineUtil.printHelpWithGenericOptions(group);
 			return null;
 		}
 

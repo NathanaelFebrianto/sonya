@@ -13,7 +13,7 @@ import org.apache.hadoop.fs.Path;
  * 
  * @author Younggue Bae
  */
-public final class HadoopUtils {
+public final class HadoopUtil {
 
 	public static void delete(Configuration conf, Iterable<Path> paths) throws IOException {
 		if (conf == null) {
