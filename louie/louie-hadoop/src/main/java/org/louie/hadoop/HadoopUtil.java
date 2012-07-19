@@ -1,6 +1,8 @@
 package org.louie.hadoop;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Arrays;
 
 import org.apache.hadoop.conf.Configuration;
@@ -33,21 +35,18 @@ public final class HadoopUtil {
 	
 	public static int readInt(Path path, Configuration conf) throws IOException {
 		FileSystem fs = FileSystem.get(path.toUri(), conf);
-		FSDataInputStream in = fs.open(path);
-		try {
-			return in.readInt();
-		} finally {
-			in.close();
-		}
+		FSDataInputStream fis = fs.open(path);
+		int result = 0;
+		
+		BufferedReader reader = new BufferedReader(new InputStreamReader(fis));
+        
+        while(reader.ready()){
+        	result += Double.parseDouble(reader.readLine());
+        }
+        reader.close();
+        fis.close();
+        
+		return result;
 	}
-	
-	public static String readString(Path path, Configuration conf) throws IOException {
-		FileSystem fs = FileSystem.get(path.toUri(), conf);
-		FSDataInputStream in = fs.open(path);
-		try {
-			return in.readUTF();
-		} finally {
-			in.close();
-		}
-	}
+
 }
