@@ -35,8 +35,6 @@ public final class HadoopUtil {
 		FileSystem fs = FileSystem.get(path.toUri(), conf);
 		FSDataInputStream in = fs.open(path);
 		try {
-			System.out.println("in.readInt() == " + in.readInt());
-			System.out.println("in.readUTF() == " + in.readUTF());
 			return in.readInt();
 		} finally {
 			in.close();
