@@ -1,4 +1,4 @@
-package org.louie.hadoop;
+package org.louie.hadoop.mapreduce;
 
 import java.io.IOException;
 import java.util.LinkedList;
@@ -16,6 +16,7 @@ import org.apache.commons.cli2.builder.GroupBuilder;
 import org.apache.commons.cli2.commandline.Parser;
 import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.util.Tool;
+import org.louie.hadoop.CommandLineUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
