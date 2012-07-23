@@ -60,6 +60,8 @@ public class SortDriver extends AbstractDriver {
 				sortOption = "descending";
 			}
 			
+			System.out.println("sort option == " + option);
+			
 			sortColumnIndex = conf.getInt("sort.column.index", -1);
 		}
 	}
