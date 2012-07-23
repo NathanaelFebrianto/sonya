@@ -116,10 +116,10 @@ public class SortDriver extends AbstractDriver {
 
 		@Override
 		public int compareTo(IntSortable o) {
-			if (sortOption.equalsIgnoreCase("ascending")) {
+			if (sortOption.equalsIgnoreCase("descending")) {
 				return new Integer(value).compareTo(new Integer(o.getValue()));
 			}
-			else if (sortOption.equalsIgnoreCase("descending")) {
+			else if (sortOption.equalsIgnoreCase("ascending")) {
 				return new Integer(o.getValue()).compareTo(new Integer(value));
 			}
 			
