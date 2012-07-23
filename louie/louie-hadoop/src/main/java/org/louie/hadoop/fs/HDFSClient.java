@@ -122,11 +122,6 @@ public class HDFSClient {
 	public void exportFile(String sourcePath, String targetFile) throws IOException {
 		
 		FileUtil.mkdirsFromFullpath(targetFile);
-
-		Configuration conf = new Configuration();
-		conf.addResource(new Path("./conf/core-site.xml"));
-		conf.addResource(new Path("./conf/hdfs-site.xml"));
-		conf.addResource(new Path("./conf/mapred-site.xml"));
 		
 		String uri = conf.get("fs.default.name") + conf.get("hadoop.tmp.dir") + sourcePath;
 		
