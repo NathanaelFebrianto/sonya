@@ -56,10 +56,10 @@ public class JoinMapper extends Mapper<LongWritable, Text, Text, Text> {
 		System.out.println("@ join.value.columns == " + Arrays.asList(joinValueColumns));
 		
 		if (currentInputFile.equalsIgnoreCase(inputBaseFile)) {
-			inputTag = "BASE~"; 
+			inputTag = "BASE~|"; 
 		}
 		else if (currentInputFile.equalsIgnoreCase(inputJoinFile)) {
-			inputTag = "JOIN~"; 
+			inputTag = "JOIN~|"; 
 		}
 		else {
 			throw new IOException("Failed in identifying join input tag from input files!");
@@ -70,13 +70,13 @@ public class JoinMapper extends Mapper<LongWritable, Text, Text, Text> {
 		StringBuffer key = new StringBuffer();
 		
 		String[] field = record.split(delimiter);
-		if (inputTag.equals("BASE~")) {
+		if (inputTag.equals("BASE~|")) {
 			for (String column : baseKeyColumns) {
 				int index = Integer.parseInt(column);
 				key.append(field[index]).append(delimiter);
 			}
 		}
-		else if (inputTag.equals("JOIN~")) {
+		else if (inputTag.equals("JOIN~|")) {
 			for (String column : joinKeyColumns) {
 				int index = Integer.parseInt(column);
 				key.append(field[index]).append(delimiter);
@@ -91,10 +91,10 @@ public class JoinMapper extends Mapper<LongWritable, Text, Text, Text> {
 		
 		String[] field = record.split(delimiter);
 
-		if (inputTag.equals("BASE~")) {
+		if (inputTag.equals("BASE~|")) {
 			value.append(inputTag).append(record);
 		}
-		else if (inputTag.equals("JOIN~")) {
+		else if (inputTag.equals("JOIN~|")) {
 			value.append(inputTag);
 			for (String column : joinValueColumns) {
 				int index = Integer.parseInt(column);
