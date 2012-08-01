@@ -178,8 +178,8 @@ public class SortDriver extends AbstractDriver {
 	    Job job = new Job(conf);
 	    
 	    String srtInputs = inputs;
-	    if (inputs.length() > 25) {
-	    	srtInputs = "..." + inputs.substring(inputs.length() - 25);
+	    if (inputs.length() > 30) {
+	    	srtInputs = "..." + inputs.substring(inputs.length() - 30);
 	    }
 	    job.setJobName("sorting" + "(" + srtInputs + ")");
 	    job.setJarByClass(SortDriver.class);
