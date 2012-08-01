@@ -39,6 +39,8 @@ public class SortDriver extends AbstractDriver {
 			String record = value.toString();
 			String[] field = record.split(delimiter);
 			
+			System.out.println("******************* " + record + "----- sort column" + field[sortColumnIndex]);
+			
 			int intValue = Integer.parseInt(field[sortColumnIndex]);
 			
 			context.write(new IntSortable(sortOption, intValue), new Text(record));
@@ -171,7 +173,11 @@ public class SortDriver extends AbstractDriver {
 	    
 	    Job job = new Job(conf);
 	    
-	    job.setJobName("sorting" + "(..." + inputs.substring(inputs.length() / 10) + ")");
+	    String srtInputs = inputs;
+	    if (inputs.length() > 10) {
+	    	srtInputs = "..." + inputs.substring(inputs.length() - 10);
+	    }
+	    job.setJobName("sorting" + "(" + srtInputs + ")");
 	    job.setJarByClass(SortDriver.class);
 	    job.setMapOutputKeyClass(IntSortable.class);
 	    job.setMapOutputValueClass(Text.class);
