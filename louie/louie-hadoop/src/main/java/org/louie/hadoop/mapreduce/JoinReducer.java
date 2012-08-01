@@ -21,7 +21,7 @@ public class JoinReducer extends Reducer<Text, Text, NullWritable, Text> {
 	
 	@Override
 	protected void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
-		String strJoinValue = null;
+		String strJoinValue = "0";
 		List<String> baseValueList = new ArrayList<String>();
 		
 		for (Text val : values) {

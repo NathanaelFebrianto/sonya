@@ -64,12 +64,12 @@ public class JoinDriver extends AbstractDriver {
 	    Job job = new Job(conf);
 	    
 	    String srtInputBase = inputBase;
-	    if (inputBase.length() > 10) {
-	    	srtInputBase = "..." + inputBase.substring(inputBase.length() - 10);
+	    if (inputBase.length() > 25) {
+	    	srtInputBase = "..." + inputBase.substring(inputBase.length() - 25);
 	    }
 	    String srtInputJoin = inputJoin;
-	    if (inputJoin.length() > 10) {
-	    	srtInputJoin = "..." + inputJoin.substring(inputJoin.length() - 10);
+	    if (inputJoin.length() > 25) {
+	    	srtInputJoin = "..." + inputJoin.substring(inputJoin.length() - 25);
 	    }
 	    job.setJobName("join on " + "(" + srtInputBase + ") and (" + srtInputJoin + ")");
 	    job.setJarByClass(JoinDriver.class);
