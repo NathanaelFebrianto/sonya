@@ -39,11 +39,15 @@ public class SortDriver extends AbstractDriver {
 			String record = value.toString();
 			String[] field = record.split(delimiter);
 			
-			System.out.println("******************* " + record + "----- sort column" + field[sortColumnIndex]);
-			
-			int intValue = Integer.parseInt(field[sortColumnIndex]);
-			
-			context.write(new IntSortable(sortOption, intValue), new Text(record));
+			try {
+				int intValue = Integer.parseInt(field[sortColumnIndex]);
+				context.write(new IntSortable(sortOption, intValue), new Text(record));
+			} catch (NumberFormatException e) {
+				e.printStackTrace();
+				System.err.println(e.getMessage());
+				System.err.println("error: " + record + "----> sort column == " + field[sortColumnIndex]);
+				throw new InterruptedException(e.getMessage());
+			}
 		}
 
 		@Override
@@ -174,8 +178,8 @@ public class SortDriver extends AbstractDriver {
 	    Job job = new Job(conf);
 	    
 	    String srtInputs = inputs;
-	    if (inputs.length() > 10) {
-	    	srtInputs = "..." + inputs.substring(inputs.length() - 10);
+	    if (inputs.length() > 25) {
+	    	srtInputs = "..." + inputs.substring(inputs.length() - 25);
 	    }
 	    job.setJobName("sorting" + "(" + srtInputs + ")");
 	    job.setJarByClass(SortDriver.class);
