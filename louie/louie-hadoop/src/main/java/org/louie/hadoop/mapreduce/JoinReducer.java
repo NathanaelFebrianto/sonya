@@ -26,7 +26,7 @@ public class JoinReducer extends Reducer<Text, Text, NullWritable, Text> {
 		
 		for (Text val : values) {
 			String line = val.toString();
-            String[] field = line.split("~");
+            String[] field = line.split("~|");
             // identify the record source
             if (field[0].equals("JOIN")) {
             	strJoinValue = field[1].trim();
