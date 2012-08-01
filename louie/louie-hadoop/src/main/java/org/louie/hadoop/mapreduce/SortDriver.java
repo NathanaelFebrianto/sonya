@@ -171,7 +171,7 @@ public class SortDriver extends AbstractDriver {
 	    
 	    Job job = new Job(conf);
 	    
-	    job.setJobName("sorting" + "(" + inputs + ")");
+	    job.setJobName("sorting" + "(..." + inputs.substring(inputs.length() / 3) + ")");
 	    job.setJarByClass(SortDriver.class);
 	    job.setMapOutputKeyClass(IntSortable.class);
 	    job.setMapOutputValueClass(Text.class);
