@@ -42,7 +42,7 @@ public class SortDriver extends AbstractDriver {
 			try {
 				int intValue = Integer.parseInt(field[sortColumnIndex]);
 				context.write(new IntSortable(sortOption, intValue), new Text(record));
-			} catch (NumberFormatException e) {
+			} catch (Exception e) {
 				e.printStackTrace();
 				System.err.println(e.getMessage());
 				System.err.println("error: record == " + record + " ----> sort column == " + field[sortColumnIndex]);
