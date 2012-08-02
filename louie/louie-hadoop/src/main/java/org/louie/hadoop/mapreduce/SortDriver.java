@@ -45,7 +45,8 @@ public class SortDriver extends AbstractDriver {
 			} catch (Exception e) {
 				e.printStackTrace();
 				System.err.println(e.getMessage());
-				System.err.println("error: record == " + record + " ----> sort column == " + field[sortColumnIndex]);
+				System.err.println("error: record == " + record);
+				System.err.println("errot: sort column == " + field[sortColumnIndex]);
 				throw new InterruptedException(e.getMessage());
 			}
 		}
