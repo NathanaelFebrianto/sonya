@@ -86,8 +86,85 @@ public class DateUtil {
 		return result;
 	}
 	
+	public static Date getStartDateOfWeek(Date date) {
+		if (date == null)
+			return null;
+
+		Calendar cal = new GregorianCalendar();
+		cal.setTime(date);
+
+		int year = cal.get(Calendar.YEAR);
+		int weekOfYear = cal.get(Calendar.WEEK_OF_YEAR);
+
+		cal.set(Calendar.YEAR, year);
+		cal.set(Calendar.WEEK_OF_YEAR, weekOfYear);
+		cal.set(Calendar.DAY_OF_WEEK, 1);
+		
+		return cal.getTime();
+	}
+	
+	public static Date getEndDateOfWeek(Date date) {
+		if (date == null)
+			return null;
+
+		Calendar cal = new GregorianCalendar();
+		cal.setTime(date);
+
+		int year = cal.get(Calendar.YEAR);
+		int weekOfYear = cal.get(Calendar.WEEK_OF_YEAR);
+
+		cal.set(Calendar.YEAR, year);
+		cal.set(Calendar.WEEK_OF_YEAR, weekOfYear);
+		cal.set(Calendar.DAY_OF_WEEK, 7);
+		
+		return cal.getTime();
+	}
+	
+	public static Date getStartDateOfWeek(String weekofyear) {
+		if (weekofyear == null || weekofyear.length() != 6)
+			return null;
+
+		
+		Calendar cal = new GregorianCalendar();
+
+		int year = Integer.valueOf(weekofyear.substring(0, 4));
+		int week = Integer.valueOf(weekofyear.substring(4, 6));
+		cal.set(Calendar.YEAR, year);
+		cal.set(Calendar.WEEK_OF_YEAR, week);
+		cal.set(Calendar.DAY_OF_WEEK, 1);
+
+		//DecimalFormat df = new DecimalFormat("00");
+		//String month = df.format(cal.get(Calendar.MONTH) + 1);
+		//String date = df.format(cal.get(Calendar.DATE));
+		//return year + month + date;
+		return cal.getTime();
+	}
+	
+	public static Date getEndDateOfWeek(String weekofyear) {
+		if (weekofyear == null || weekofyear.length() != 6)
+			return null;
+
+		Calendar cal = new GregorianCalendar();
+
+		int year = Integer.valueOf(weekofyear.substring(0, 4));
+		int week = Integer.valueOf(weekofyear.substring(4, 6));
+		cal.set(Calendar.YEAR, year);
+		cal.set(Calendar.WEEK_OF_YEAR, week);
+		cal.set(Calendar.DAY_OF_WEEK, 7);
+
+		//DecimalFormat df = new DecimalFormat("00");
+		//String month = df.format(cal.get(Calendar.MONTH) + 1);
+		//String date = df.format(cal.get(Calendar.DATE));
+		//return year + month + date;
+		
+		return cal.getTime();
+	}
+	
 	public static void main(String[] args) {
 		String weekOfYear = DateUtil.getWeekOfYear(DateUtil.convertStringToDate("yyyyMMdd", "20120201", Locale.KOREA));
 		System.out.println("week of year == " + weekOfYear);
+		
+		System.out.println("start date of week == " + DateUtil.getStartDateOfWeek(new Date()));
+		System.out.println("end date of week == " + DateUtil.getEndDateOfWeek(new Date()));
 	}
 }
