@@ -47,13 +47,11 @@ public class HDFSClient {
 		
 		InputStream in = new BufferedInputStream(new FileInputStream(sourceFile));
 
-		String uri = conf.get("fs.default.name") + conf.get("hadoop.tmp.dir") + targetPath;
+		System.out.println("Start to import a file into " + targetPath);
 		
-		System.out.println("Start to import a file into " + uri);
+		FileSystem fs = FileSystem.get(URI.create(targetPath), conf);
 		
-		FileSystem fs = FileSystem.get(URI.create(uri), conf);
-		
-		OutputStream out = fs.create(new Path(uri), new Progressable() {
+		OutputStream out = fs.create(new Path(targetPath), new Progressable() {
 			public void progress() {
 				System.out.print(".");
 			}
@@ -71,16 +69,14 @@ public class HDFSClient {
 	 */
 	public void importMergeFiles(String sourceDir, String targetPath) throws IOException {
 
-		String uri = conf.get("fs.default.name") + conf.get("hadoop.tmp.dir") + targetPath;
-		
-		System.out.println("Start to import a merged file into " + uri);
+		System.out.println("Start to import a merged file into " + targetPath);
 		
 		FileSystem hdfs = FileSystem.get(conf);
 		FileSystem local = FileSystem.getLocal(conf);
 		int filesProcessed = 0;
 		
 		Path sourcePath = new Path(sourceDir);
-		Path hdfsFile = new Path(uri);
+		Path hdfsFile = new Path(targetPath);
 		
         FileStatus[] sourceFiles = local.listStatus(sourcePath);
         
@@ -123,18 +119,16 @@ public class HDFSClient {
 		
 		FileUtil.mkdirsFromFullpath(targetFile);
 		
-		String uri = conf.get("fs.default.name") + conf.get("hadoop.tmp.dir") + sourcePath;
+		System.out.println("Start to export hdfs file from " + sourcePath);
 		
-		System.out.println("Start to export hdfs file from " + uri);
-		
-		FileSystem fs = FileSystem.get(URI.create(uri), conf);
+		FileSystem fs = FileSystem.get(URI.create(sourcePath), conf);
 		
 		FileOutputStream out = new FileOutputStream(targetFile, false);
 		
 		InputStream in = null;
 		
 		try {
-			in = fs.open(new Path(uri));
+			in = fs.open(new Path(sourcePath));
 			IOUtils.copyBytes(in, out, 4096, false);
 
 		} finally {
