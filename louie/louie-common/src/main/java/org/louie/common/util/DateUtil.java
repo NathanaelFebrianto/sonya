@@ -32,13 +32,13 @@ public class DateUtil {
      * @return a formatted string representation of the date
      */
     public static final String convertDateToString(String format, Date date) {
-        SimpleDateFormat df = null;
+        SimpleDateFormat sdf = null;
         String returnValue = "";
 
         if (date == null) {
         } else {
-            df = new SimpleDateFormat(format);
-            returnValue = df.format(date);
+            sdf = new SimpleDateFormat(format);
+            returnValue = sdf.format(date);
         }
 
         return returnValue;
