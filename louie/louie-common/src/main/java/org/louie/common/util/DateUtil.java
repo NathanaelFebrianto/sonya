@@ -5,7 +5,10 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
+import java.util.HashMap;
 import java.util.Locale;
+import java.util.Map;
+import java.util.TimeZone;
 
 /**
  * This class is date utilities.
@@ -13,6 +16,13 @@ import java.util.Locale;
  * @author Younggue Bae
  */
 public class DateUtil {
+	
+    private static ThreadLocal<Map<String, SimpleDateFormat>> formatMap = new ThreadLocal<Map<String, SimpleDateFormat>>() {
+        @Override
+        protected Map<String, SimpleDateFormat> initialValue() {
+            return new HashMap<String, SimpleDateFormat>();
+        }
+    };
 	
     /**
      * Converts data object into string with the specified format.
@@ -41,10 +51,18 @@ public class DateUtil {
      * @param date
      * @return
      */
-	public static final Date convertStringToDate(String format, String strDate, Locale locale) {
-		try {
-			SimpleDateFormat sdfmt = new SimpleDateFormat(format, locale);
-			Date date = sdfmt.parse(strDate);
+	public static final Date convertStringToDate(String format, String strDate) {
+		//SimpleDateFormat sdf = new SimpleDateFormat(format, locale);
+		SimpleDateFormat sdf = formatMap.get().get(format);
+		
+		if (null == sdf) {
+            sdf = new SimpleDateFormat(format, Locale.ENGLISH);
+            sdf.setTimeZone(TimeZone.getTimeZone("GMT"));
+            formatMap.get().put(format, sdf);
+        }
+		
+		try {	
+			Date date = sdf.parse(strDate);
 			
 			return date;
 		} catch (ParseException e) {
@@ -161,10 +179,15 @@ public class DateUtil {
 	}
 	
 	public static void main(String[] args) {
-		String weekOfYear = DateUtil.getWeekOfYear(DateUtil.convertStringToDate("yyyyMMdd", "20120201", Locale.KOREA));
+		Date date = DateUtil.convertStringToDate("yyyyMMdd", "20120201");
+		System.out.println("date == " + date);
+		String weekOfYear = DateUtil.getWeekOfYear(date);
 		System.out.println("week of year == " + weekOfYear);
 		
 		System.out.println("start date of week == " + DateUtil.getStartDateOfWeek(new Date()));
 		System.out.println("end date of week == " + DateUtil.getEndDateOfWeek(new Date()));
+		
+		String strDate = "2012-07-24T00:14:33.000Z";
+		System.out.println("converted date == " + DateUtil.convertStringToDate("yyyy-MM-dd'T'HH:mm:ss'.000Z'", strDate));
 	}
 }
