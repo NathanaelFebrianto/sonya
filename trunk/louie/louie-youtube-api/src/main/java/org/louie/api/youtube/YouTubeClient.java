@@ -309,7 +309,8 @@ public class YouTubeClient {
 					}
 					sleep(waitingTime);
 
-					return request.execute().parseAsString();
+					//return request.execute().parseAsString();
+					return executeGetAsString(url);
 				}
 				else {
 					System.err.println("error for url = " + url.toString());
@@ -352,7 +353,8 @@ public class YouTubeClient {
 					}
 					sleep(waitingTime);
 					
-					return request.execute().parseAs(feedClass);
+					//return request.execute().parseAs(feedClass);
+					return executeGetFeed(url, feedClass);
 				}
 				else {
 					System.err.println("error for url = " + url.toString());
@@ -395,7 +397,8 @@ public class YouTubeClient {
 					}
 					sleep(waitingTime);
 					
-					return request.execute().parseAs(feedClass);
+					//return request.execute().parseAs(feedClass);
+					return executeGetEntry(url, feedClass);
 				}
 				else if (e.getMessage().indexOf("<internalReason>Forbidden</internalReason>") >= 0) {
 					System.err.println("error for url = " + url.toString());
