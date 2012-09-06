@@ -38,11 +38,11 @@ public class JoinMapper extends Mapper<LongWritable, Text, Text, Text> {
 		Configuration conf = context.getConfiguration();
 
 		FileSplit fileSplit = (FileSplit) context.getInputSplit(); 
-        String currentInputFile = fileSplit.getPath().toString(); 
+		String currentInputFile = fileSplit.getPath().toString(); 
         
-        delimiter = conf.get("delimiter", "\t");
+		delimiter = conf.get("delimiter", "\t");
 
-        String inputBaseFile = conf.get("input.base.file");
+		String inputBaseFile = conf.get("input.base.file");
 		String inputJoinFile = conf.get("input.join.file");
 		baseKeyColumns = conf.getStrings("base.key.columns");
 		joinKeyColumns = conf.getStrings("join.key.columns");
