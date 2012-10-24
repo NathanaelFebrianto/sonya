@@ -1,3 +1,0 @@
-Cygwin에서 실행해야 함.
-실행위치 -> d/workspace/firebird-collector
-mvn -e exec:java -Dexec.mainClass=org.firebird.collector.twitter.TwitterBlogDataCollectJobTrigger

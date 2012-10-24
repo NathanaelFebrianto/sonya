@@ -1,8 +1,0 @@
-1. jetty:run-war로 웹서버 구동
-
-2.jarsigner.cmd 실행한 뒤, client-lib 아래 파일들을 아래 폴더로 카피한다.
-D:\dev\workspace\firebird\firebird-web\target\work\webapp
-
-3. 접속url
-웹버전: http://localhost:8080/firebird-web/graph/graph
-Web Start 버전: http://localhost:8080/firebird-web/jsp/graph/jws.jnlp
